@@ -1618,5 +1618,369 @@
         "en": "My uncle's wife is Lebanese."
       }
     ]
+  },
+  {
+    "id": "past-tense",
+    "title": "The past tense: I went, he went",
+    "titleAr": "الْفِعْل الْمَاضِي",
+    "firstDay": 36,
+    "summary": "A past-tense verb adds an ending for each person: ذَهَبْتُ (I went), ذَهَبَ (he went), ذَهَبَتْ (she went).",
+    "formula": "stem ذَهَب + ending: -tu (I) · -ta (you, m) · -ti (you, f) · -a (he) · -at (she) · -nā (we) · -tum (you, pl) · -ū (they)",
+    "explanation": "The past tense is the simplest verb form, and it is the form dictionaries list: ذَهَبَ means 'he went', and it also names the verb 'to go'. To show who did the action, add an ending to the stem: ذَهَبْتُ (I went), ذَهَبَتْ (she went), ذَهَبْنَا (we went). The ending already shows the person, so the pronoun is usually left out: ذَهَبْتُ is enough for 'I went'. The verb often comes first in the sentence: ذَهَبَ سَامِي إِلَى الْبَحْر (Sami went to the sea). Watch the sukūn: ذَهَبْتُ (I went) and ذَهَبَتْ (she went) differ only in where the vowel is.",
+    "table": {
+      "head": [
+        "Person",
+        "Past",
+        "English"
+      ],
+      "rows": [
+        [
+          "أَنَا",
+          "ذَهَبْتُ",
+          "I went"
+        ],
+        [
+          "أَنْتَ",
+          "ذَهَبْتَ",
+          "you went (to a man)"
+        ],
+        [
+          "أَنْتِ",
+          "ذَهَبْتِ",
+          "you went (to a woman)"
+        ],
+        [
+          "هُوَ",
+          "ذَهَبَ",
+          "he went"
+        ],
+        [
+          "هِيَ",
+          "ذَهَبَتْ",
+          "she went"
+        ],
+        [
+          "نَحْنُ",
+          "ذَهَبْنَا",
+          "we went"
+        ],
+        [
+          "أَنْتُمْ",
+          "ذَهَبْتُمْ",
+          "you went (to several people)"
+        ],
+        [
+          "هُمْ",
+          "ذَهَبُوا",
+          "they went"
+        ]
+      ]
+    },
+    "examples": [
+      {
+        "ar": "ذَهَبْتُ إِلَى الْإِسْكَنْدَرِيَّة أَمْسِ.",
+        "en": "Yesterday I went to Alexandria."
+      },
+      {
+        "ar": "رَجَعَ سَامِي بِالْقِطَار فِي الْمَسَاء.",
+        "en": "Sami came back by train in the evening."
+      },
+      {
+        "ar": "أَكَلْنَا سَمَكًا قُرْبَ الْبَحْر.",
+        "en": "We ate fish near the sea."
+      }
+    ]
+  },
+  {
+    "id": "negation-ma-past",
+    "title": "Didn't: مَا + past verb",
+    "titleAr": "مَا مَعَ الْمَاضِي",
+    "firstDay": 37,
+    "summary": "Put مَا before a past verb to say that something did not happen: مَا ذَهَبْتُ (I didn't go).",
+    "formula": "مَا + past verb (the verb does not change)",
+    "explanation": "مَا + a past verb is the quick, everyday way to say 'didn't': مَا فَعَلْتُ شَيْئًا (I didn't do anything). Nothing else changes: the verb keeps its normal past ending. You already know مَا as 'what' (مَا اسْمُكَ؟). Look at what follows it: in a statement, مَا directly before a past verb means 'not'. To ask 'what did you do?' Arabic uses مَاذَا: مَاذَا فَعَلْتَ؟ In formal writing لَمْ + the present form is preferred (day 41); it means the same.",
+    "table": {
+      "head": [
+        "Past",
+        "Negative",
+        "English"
+      ],
+      "rows": [
+        [
+          "ذَهَبْتُ",
+          "مَا ذَهَبْتُ",
+          "I didn't go"
+        ],
+        [
+          "أَكَلَ",
+          "مَا أَكَلَ",
+          "he didn't eat"
+        ],
+        [
+          "سَبَحَتْ",
+          "مَا سَبَحَتْ",
+          "she didn't swim"
+        ],
+        [
+          "فَعَلْنَا",
+          "مَا فَعَلْنَا",
+          "we didn't do"
+        ]
+      ]
+    },
+    "examples": [
+      {
+        "ar": "مَا فَعَلْتُ شَيْئًا يَوْمَ الْجُمُعَة.",
+        "en": "I didn't do anything on Friday."
+      },
+      {
+        "ar": "مَا سَبَحَ دَانْيَال فِي الْبَحْر.",
+        "en": "Daniel didn't swim in the sea."
+      }
+    ]
+  },
+  {
+    "id": "time-expressions",
+    "title": "When? Time words for the past",
+    "titleAr": "ظُرُوف الزَّمَان",
+    "firstDay": 38,
+    "summary": "Time words such as أَمْسِ (yesterday), الْأُسْبُوعَ الْمَاضِي (last week) and مُنْذُ (ago) tell when something happened.",
+    "formula": "past verb + time word: زُرْتُ سَامِي الْأُسْبُوعَ الْمَاضِي · مُنْذُ + time = ago",
+    "explanation": "A time phrase used without a preposition takes the -a ending: الْأُسْبُوعَ الْمَاضِي (last week), يَوْمَ السَّبْت (on Saturday), صَبَاحًا (in the morning), مَسَاءً (in the evening). You can also say it with فِي: فِي الْأُسْبُوعِ الْمَاضِي. الْمَاضِي (past, last) agrees with its noun: الشَّهْرَ الْمَاضِي (last month) but السَّنَةَ الْمَاضِيَة (last year). مُنْذُ + a time means 'ago' with a past verb: وَصَلْتُ مُنْذُ أُسْبُوع (I arrived a week ago).",
+    "table": {
+      "head": [
+        "Arabic",
+        "English"
+      ],
+      "rows": [
+        [
+          "أَمْسِ",
+          "yesterday"
+        ],
+        [
+          "أَوَّلَ أَمْسِ",
+          "the day before yesterday"
+        ],
+        [
+          "صَبَاحًا",
+          "in the morning"
+        ],
+        [
+          "مَسَاءً",
+          "in the evening"
+        ],
+        [
+          "الْأُسْبُوعَ الْمَاضِي",
+          "last week"
+        ],
+        [
+          "الشَّهْرَ الْمَاضِي",
+          "last month"
+        ],
+        [
+          "السَّنَةَ الْمَاضِيَة",
+          "last year"
+        ],
+        [
+          "مُنْذُ يَوْمَيْنِ",
+          "two days ago"
+        ],
+        [
+          "مُنْذُ أُسْبُوع",
+          "a week ago"
+        ]
+      ]
+    },
+    "examples": [
+      {
+        "ar": "نَظَّفْتُ شَقَّتِي الْأُسْبُوعَ الْمَاضِي.",
+        "en": "I cleaned my flat last week."
+      },
+      {
+        "ar": "وَصَلْتُ إِلَى الْقَاهِرَة مُنْذُ شَهْر.",
+        "en": "I arrived in Cairo a month ago."
+      }
+    ]
+  },
+  {
+    "id": "kana",
+    "title": "كَانَ: was, were",
+    "titleAr": "الْفِعْل كَانَ",
+    "firstDay": 39,
+    "summary": "كَانَ (was) puts a description in the past, and the describing word takes the -an ending: كَانَ الْجَوُّ لَطِيفًا (the weather was pleasant).",
+    "formula": "كَانَ / كَانَتْ + subject + description with -an: كَانَتِ الرِّحْلَةُ مُمْتِعَةً",
+    "explanation": "In the present Arabic needs no word for 'is': الْجَوُّ لَطِيف (the weather is pleasant). In the past you add كَانَ, and the description changes its ending to -an (-a with al-): كَانَ الْجَوُّ لَطِيفًا. كَانَ is a hollow verb: before the endings -tu, -ta, -nā its long ā shortens and the stem becomes kun-: كُنْتُ (I was), كُنَّا (we were). كَانَ هُنَاكَ means 'there was': كَانَ هُنَاكَ مَطْعَم صَغِير (there was a small restaurant).",
+    "table": {
+      "head": [
+        "Person",
+        "Past of 'to be'",
+        "English"
+      ],
+      "rows": [
+        [
+          "أَنَا",
+          "كُنْتُ",
+          "I was"
+        ],
+        [
+          "أَنْتَ",
+          "كُنْتَ",
+          "you were (to a man)"
+        ],
+        [
+          "أَنْتِ",
+          "كُنْتِ",
+          "you were (to a woman)"
+        ],
+        [
+          "هُوَ",
+          "كَانَ",
+          "he was, it was"
+        ],
+        [
+          "هِيَ",
+          "كَانَتْ",
+          "she was, it was"
+        ],
+        [
+          "نَحْنُ",
+          "كُنَّا",
+          "we were"
+        ],
+        [
+          "هُمْ",
+          "كَانُوا",
+          "they were"
+        ]
+      ]
+    },
+    "examples": [
+      {
+        "ar": "كَانَتِ الْعُطْلَةُ مُمْتِعَةً جِدًّا.",
+        "en": "The holiday was great fun."
+      },
+      {
+        "ar": "كُنْتُ فِي لُبْنَان فِي الصَّيْف.",
+        "en": "I was in Lebanon in the summer."
+      }
+    ]
+  },
+  {
+    "id": "qabla-bada",
+    "title": "Before and after: قَبْلَ and بَعْدَ",
+    "titleAr": "قَبْلَ وَبَعْدَ",
+    "firstDay": 40,
+    "summary": "قَبْلَ (before) and بَعْدَ (after) come before a noun, a pronoun ending, or أَنْ + a verb.",
+    "formula": "قَبْلَ / بَعْدَ + noun (-i) · + pronoun (بَعْدَهُ) · بَعْدَ أَنْ + past verb",
+    "explanation": "قَبْلَ and بَعْدَ work like the first word of a possessive phrase, so the noun after them takes the -i ending: قَبْلَ الْعَشَاءِ (before dinner), بَعْدَ الدَّرْسِ (after the lesson). They also take pronoun endings: بَعْدَهُ (after it). Before a whole action add أَنْ (that): بَعْدَ أَنْ أَكَلْنَا (after we ate). بَعْدَ ذٰلِكَ (after that) and ثُمَّ (then) link the steps of a story. With a length of time, قَبْلَ means 'ago', like مُنْذُ: قَبْلَ يَوْمَيْنِ (two days ago).",
+    "table": {
+      "head": [
+        "Arabic",
+        "English"
+      ],
+      "rows": [
+        [
+          "قَبْلَ الْعَشَاءِ",
+          "before dinner"
+        ],
+        [
+          "بَعْدَ الدَّرْسِ",
+          "after the lesson"
+        ],
+        [
+          "بَعْدَهُ",
+          "after it, after him"
+        ],
+        [
+          "بَعْدَ أَنْ أَكَلْنَا",
+          "after we ate"
+        ],
+        [
+          "بَعْدَ ذٰلِكَ",
+          "after that"
+        ],
+        [
+          "ثُمَّ",
+          "then"
+        ],
+        [
+          "قَبْلَ يَوْمَيْنِ",
+          "two days ago"
+        ]
+      ]
+    },
+    "examples": [
+      {
+        "ar": "غَسَلْتُ يَدَيَّ قَبْلَ الْعَشَاءِ.",
+        "en": "I washed my hands before dinner."
+      },
+      {
+        "ar": "بَعْدَ أَنْ أَكَلْنَا، لَعِبَ عُمَر بِالْكُرَة.",
+        "en": "After we ate, Omar played with the ball."
+      }
+    ]
+  },
+  {
+    "id": "negation-lam",
+    "title": "لَمْ: did not (the written standard)",
+    "titleAr": "لَمْ أَذْهَبْ",
+    "firstDay": 41,
+    "summary": "لَمْ + the present form of the verb, with a sukūn at the end, means 'did not': لَمْ أَذْهَبْ (I didn't go).",
+    "formula": "لَمْ + present verb; final -u → sukūn: أَذْهَبُ → لَمْ أَذْهَبْ · -ūna → -ū: يَذْهَبُونَ → لَمْ يَذْهَبُوا",
+    "explanation": "لَمْ is the standard way to say 'didn't' in writing and in careful speech. It surprises learners twice. First, it takes the present form, not the past: لَمْ أَذْهَبْ, never لَمْ ذَهَبْتُ. Second, the verb changes its ending: the final -u becomes a sukūn (أَكْتُبُ → لَمْ أَكْتُبْ), and the endings -ūna and -īna lose their n (تَذْهَبِينَ → لَمْ تَذْهَبِي). It means the same as مَا + past (day 37), which is more relaxed. لَمْ … بَعْدُ means 'not yet': لَمْ أَكْتُبْهَا بَعْدُ (I haven't written them yet).",
+    "table": {
+      "head": [
+        "Person",
+        "Didn't go",
+        "English"
+      ],
+      "rows": [
+        [
+          "أَنَا",
+          "لَمْ أَذْهَبْ",
+          "I didn't go"
+        ],
+        [
+          "أَنْتَ",
+          "لَمْ تَذْهَبْ",
+          "you didn't go (to a man)"
+        ],
+        [
+          "أَنْتِ",
+          "لَمْ تَذْهَبِي",
+          "you didn't go (to a woman)"
+        ],
+        [
+          "هُوَ",
+          "لَمْ يَذْهَبْ",
+          "he didn't go"
+        ],
+        [
+          "هِيَ",
+          "لَمْ تَذْهَبْ",
+          "she didn't go"
+        ],
+        [
+          "نَحْنُ",
+          "لَمْ نَذْهَبْ",
+          "we didn't go"
+        ],
+        [
+          "هُمْ",
+          "لَمْ يَذْهَبُوا",
+          "they didn't go"
+        ]
+      ]
+    },
+    "examples": [
+      {
+        "ar": "لَمْ أَذْهَبْ إِلَى الْمَدْرَسَة أَمْسِ.",
+        "en": "I didn't go to school yesterday."
+      },
+      {
+        "ar": "لَمْ أَكْتُبِ الْوَاجِب بَعْدُ.",
+        "en": "I haven't written the homework yet."
+      }
+    ]
   }
 ]

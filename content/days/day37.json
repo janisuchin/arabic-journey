@@ -1,0 +1,1161 @@
+{
+  "day": 37,
+  "week": 6,
+  "phase": 3,
+  "level": 4,
+  "title": "What did you do?",
+  "titleAr": "مَاذَا فَعَلْتَ؟",
+  "titleSegs": [
+    [
+      "مَاذَا",
+      "what (before a verb)"
+    ],
+    [
+      "فَعَلْتَ",
+      "you did (to a man)"
+    ]
+  ],
+  "emoji": "🏖️",
+  "summary": "Ask what someone did, answer in the past, and say what you didn't do with مَا.",
+  "intro": "To ask 'What did you do?' use مَاذَا + a past verb: مَاذَا فَعَلْتَ؟ (to a man), مَاذَا فَعَلْتِ؟ (to a woman). To say you didn't do something, put مَا in front of the past verb: مَا سَبَحْتُ (I didn't swim). Careful: مَاذَا asks 'what?', but مَا right before a past verb means 'not'.",
+  "objectives": [
+    "Ask مَاذَا فَعَلْتَ؟ and مَاذَا فَعَلْتِ؟ and answer in the past",
+    "Say what you didn't do with مَا + past verb",
+    "Use six new holiday verbs: visited, walked, swam, drank, photographed, did",
+    "Glide ay and aw in words like شَيْء and يَوْم"
+  ],
+  "realLife": {
+    "emoji": "📸",
+    "title": "A hundred photos",
+    "story": "On Monday after class, Layla wants to hear everything about the trip to Alexandria. Over tea near the school, Sami and Daniel tell her about the old castle, the cold sea and the cats of Alexandria, and Daniel shows her his photos."
+  },
+  "letters": [],
+  "newWords": [
+    "faala",
+    "zara",
+    "shariba",
+    "masha",
+    "sabaha",
+    "sawwara",
+    "shay-w6",
+    "qalaa"
+  ],
+  "grammar": [
+    "negation-ma-past",
+    "past-tense"
+  ],
+  "pronunciation": [
+    "diphthongs"
+  ],
+  "sentences": [
+    {
+      "id": "d37s1",
+      "ar": "مَاذَا فَعَلْتَ يَوْمَ السَّبْت؟",
+      "en": "What did you do on Saturday? (to a man)",
+      "literal": "what did you do (on the) day (of) the Saturday",
+      "segs": [
+        [
+          "مَاذَا",
+          "what (before a verb)",
+          "question"
+        ],
+        [
+          "فَعَلْتَ",
+          "you did (to a man)",
+          "verb"
+        ],
+        [
+          "يَوْمَ",
+          "on (the day of)",
+          "noun"
+        ],
+        [
+          "السَّبْت",
+          "Saturday",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "past-tense",
+        "questions"
+      ],
+      "mistakes": [
+        {
+          "wrong": "مَا فَعَلْتَ يَوْمَ السَّبْت؟",
+          "right": "مَاذَا فَعَلْتَ يَوْمَ السَّبْت؟",
+          "why": "Right before a past verb, مَا means 'not': مَا فَعَلْتَ is 'you didn't do'. To ask 'what?' before a verb, use مَاذَا."
+        }
+      ]
+    },
+    {
+      "id": "d37s2",
+      "ar": "زُرْنَا قَلْعَةَ قَايْتْبَايْ.",
+      "en": "We visited the Qaitbay Citadel.",
+      "literal": "we visited (the) castle (of) Qaitbay",
+      "segs": [
+        [
+          "زُرْنَا",
+          "we visited",
+          "verb"
+        ],
+        [
+          "قَلْعَةَ",
+          "castle (of), citadel (of)",
+          "noun"
+        ],
+        [
+          "قَايْتْبَايْ",
+          "Qaitbay (a sultan of Egypt)",
+          "name"
+        ]
+      ],
+      "grammar": [
+        "past-tense"
+      ],
+      "mistakes": [
+        {
+          "wrong": "زَارْنَا الْقَلْعَة",
+          "right": "زُرْنَا الْقَلْعَة",
+          "why": "زَارَ is a hollow verb: before -tu, -ta and -nā the long ā shortens to u, giving زُرْنَا."
+        }
+      ]
+    },
+    {
+      "id": "d37s3",
+      "ar": "مَا سَبَحَ دَانْيَال فِي الْبَحْر.",
+      "en": "Daniel didn't swim in the sea.",
+      "literal": "not swam Daniel in the sea",
+      "segs": [
+        [
+          "مَا",
+          "not (before a past verb)",
+          "particle"
+        ],
+        [
+          "سَبَحَ",
+          "he swam",
+          "verb"
+        ],
+        [
+          "دَانْيَال",
+          "Daniel (first name)",
+          "name"
+        ],
+        [
+          "فِي",
+          "in",
+          "prep"
+        ],
+        [
+          "الْبَحْر",
+          "the sea",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "negation-ma-past"
+      ],
+      "mistakes": [
+        {
+          "wrong": "لَا سَبَحَ دَانْيَال فِي الْبَحْر",
+          "right": "مَا سَبَحَ دَانْيَال فِي الْبَحْر",
+          "why": "لَا is for the present tense. To say 'didn't', put مَا before the past verb."
+        }
+      ]
+    },
+    {
+      "id": "d37s4",
+      "ar": "مَا فَعَلْتُ شَيْئًا يَوْمَ الْجُمُعَة.",
+      "en": "I didn't do anything on Friday.",
+      "literal": "not I did a thing (on the) day (of) the Friday",
+      "segs": [
+        [
+          "مَا",
+          "not (before a past verb)",
+          "particle"
+        ],
+        [
+          "فَعَلْتُ",
+          "I did",
+          "verb"
+        ],
+        [
+          "شَيْئًا",
+          "anything, something (object form)",
+          "noun"
+        ],
+        [
+          "يَوْمَ",
+          "on (the day of)",
+          "noun"
+        ],
+        [
+          "الْجُمُعَة",
+          "Friday",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "negation-ma-past"
+      ]
+    },
+    {
+      "id": "d37s5",
+      "ar": "شَرِبْتُ عَصِيرًا بَارِدًا عَلَى الشَّاطِئ.",
+      "en": "I drank a cold juice on the beach.",
+      "literal": "I drank a juice cold on the beach",
+      "segs": [
+        [
+          "شَرِبْتُ",
+          "I drank",
+          "verb"
+        ],
+        [
+          "عَصِيرًا",
+          "a juice (object form)",
+          "noun"
+        ],
+        [
+          "بَارِدًا",
+          "cold (object form)",
+          "adj"
+        ],
+        [
+          "عَلَى",
+          "on",
+          "prep"
+        ],
+        [
+          "الشَّاطِئ",
+          "the beach",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "past-tense"
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Tell me everything!",
+    "speakers": [
+      {
+        "key": "layla",
+        "name": "Layla",
+        "nameAr": "لَيْلَى"
+      },
+      {
+        "key": "daniel",
+        "name": "Daniel",
+        "nameAr": "دَانْيَال"
+      },
+      {
+        "key": "sami",
+        "name": "Sami",
+        "nameAr": "سَامِي"
+      }
+    ],
+    "culture": "The Qaitbay Citadel was built in the 1470s by Sultan Qaitbay on the spot where the ancient Lighthouse of Alexandria, one of the Seven Wonders of the World, once stood. Not far away, the modern Library of Alexandria (opened in 2002) remembers the great library of the ancient city.",
+    "lines": [
+      {
+        "id": "d37l1",
+        "sp": "layla",
+        "ar": "مَرْحَبًا يَا شَبَاب! أُرِيدُ أَنْ أَعْرِفَ كُلَّ شَيْء. مَاذَا فَعَلْتُمَا فِي الْإِسْكَنْدَرِيَّة؟",
+        "en": "Hi, guys! I want to know everything. What did you two do in Alexandria?",
+        "segs": [
+          [
+            "مَرْحَبًا",
+            "hello"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "شَبَاب",
+            "guys, young people"
+          ],
+          [
+            "أُرِيدُ",
+            "I want"
+          ],
+          [
+            "أَنْ",
+            "to (before a verb)"
+          ],
+          [
+            "أَعْرِفَ",
+            "I know (after 'an')"
+          ],
+          [
+            "كُلَّ",
+            "every, all"
+          ],
+          [
+            "شَيْء",
+            "thing"
+          ],
+          [
+            "مَاذَا",
+            "what (before a verb)"
+          ],
+          [
+            "فَعَلْتُمَا",
+            "you did (to two people)"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "الْإِسْكَنْدَرِيَّة",
+            "Alexandria (city in Egypt)",
+            "name"
+          ]
+        ]
+      },
+      {
+        "id": "d37l2",
+        "sp": "daniel",
+        "ar": "أَوَّلًا زُرْنَا قَلْعَةَ قَايْتْبَايْ. هِيَ قَلْعَة قَدِيمَة وَجَمِيلَة جِدًّا عَلَى الْبَحْر.",
+        "en": "First we visited the Qaitbay Citadel. It is a very old and beautiful castle by the sea.",
+        "segs": [
+          [
+            "أَوَّلًا",
+            "first, firstly"
+          ],
+          [
+            "زُرْنَا",
+            "we visited"
+          ],
+          [
+            "قَلْعَةَ",
+            "castle (of), citadel (of)"
+          ],
+          [
+            "قَايْتْبَايْ",
+            "Qaitbay (a sultan of Egypt)",
+            "name"
+          ],
+          [
+            "هِيَ",
+            "she, it (f)"
+          ],
+          [
+            "قَلْعَة",
+            "castle, citadel"
+          ],
+          [
+            "قَدِيمَة",
+            "old (f)"
+          ],
+          [
+            "وَجَمِيلَة",
+            "and beautiful (f)"
+          ],
+          [
+            "جِدًّا",
+            "very"
+          ],
+          [
+            "عَلَى",
+            "on, by"
+          ],
+          [
+            "الْبَحْر",
+            "the sea"
+          ]
+        ]
+      },
+      {
+        "id": "d37l3",
+        "sp": "sami",
+        "ar": "وَصَوَّرَ دَانْيَال مِئَة صُورَة! صَوَّرَ الْقَلْعَة وَالْبَحْر وَالسَّمَك وَحَتَّى الْقِطَط.",
+        "en": "And Daniel took a hundred photos! He photographed the castle, the sea, the fish and even the cats.",
+        "segs": [
+          [
+            "وَصَوَّرَ",
+            "and he photographed"
+          ],
+          [
+            "دَانْيَال",
+            "Daniel (first name)",
+            "name"
+          ],
+          [
+            "مِئَة",
+            "a hundred"
+          ],
+          [
+            "صُورَة",
+            "photo, picture"
+          ],
+          [
+            "صَوَّرَ",
+            "he photographed"
+          ],
+          [
+            "الْقَلْعَة",
+            "the castle"
+          ],
+          [
+            "وَالْبَحْر",
+            "and the sea"
+          ],
+          [
+            "وَالسَّمَك",
+            "and the fish"
+          ],
+          [
+            "وَحَتَّى",
+            "and even"
+          ],
+          [
+            "الْقِطَط",
+            "the cats"
+          ]
+        ]
+      },
+      {
+        "id": "d37l4",
+        "sp": "daniel",
+        "ar": "طَبْعًا! الْقِطَط فِي الْإِسْكَنْدَرِيَّة لَطِيفَة جِدًّا. بَعْدَ ذٰلِكَ مَشَيْنَا سَاعَتَيْنِ عَلَى الْكُورْنِيش.",
+        "en": "Of course! The cats in Alexandria are very sweet. After that we walked along the Corniche for two hours.",
+        "segs": [
+          [
+            "طَبْعًا",
+            "of course"
+          ],
+          [
+            "الْقِطَط",
+            "the cats"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "الْإِسْكَنْدَرِيَّة",
+            "Alexandria (city in Egypt)",
+            "name"
+          ],
+          [
+            "لَطِيفَة",
+            "nice, sweet (f)"
+          ],
+          [
+            "جِدًّا",
+            "very"
+          ],
+          [
+            "بَعْدَ",
+            "after"
+          ],
+          [
+            "ذٰلِكَ",
+            "that"
+          ],
+          [
+            "مَشَيْنَا",
+            "we walked"
+          ],
+          [
+            "سَاعَتَيْنِ",
+            "(for) two hours"
+          ],
+          [
+            "عَلَى",
+            "on, along"
+          ],
+          [
+            "الْكُورْنِيش",
+            "the Corniche (seafront road)",
+            "name"
+          ]
+        ]
+      },
+      {
+        "id": "d37l5",
+        "sp": "layla",
+        "ar": "وَهَلْ سَبَحْتُمَا فِي الْبَحْر؟ الْمَاء بَارِد قَلِيلًا فِي هٰذَا الْوَقْت، أَلَيْسَ كَذٰلِكَ؟",
+        "en": "And did you two swim in the sea? The water is a little cold at this time of year, isn't it?",
+        "segs": [
+          [
+            "وَهَلْ",
+            "and (starts a yes/no question)"
+          ],
+          [
+            "سَبَحْتُمَا",
+            "you swam (two people)"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "الْبَحْر",
+            "the sea"
+          ],
+          [
+            "الْمَاء",
+            "the water"
+          ],
+          [
+            "بَارِد",
+            "cold"
+          ],
+          [
+            "قَلِيلًا",
+            "a little"
+          ],
+          [
+            "فِي",
+            "in, at"
+          ],
+          [
+            "هٰذَا",
+            "this (m)"
+          ],
+          [
+            "الْوَقْت",
+            "the time"
+          ],
+          [
+            "أَلَيْسَ",
+            "isn't (it)"
+          ],
+          [
+            "كَذٰلِكَ",
+            "so, like that"
+          ]
+        ]
+      },
+      {
+        "id": "d37l6",
+        "sp": "sami",
+        "ar": "أَنَا سَبَحْتُ قَلِيلًا، لٰكِنْ دَانْيَال مَا سَبَحَ. قَالَ: الْمَاء بَارِد جِدًّا!",
+        "en": "I swam a little, but Daniel didn't swim. He said the water was far too cold!",
+        "segs": [
+          [
+            "أَنَا",
+            "I"
+          ],
+          [
+            "سَبَحْتُ",
+            "I swam"
+          ],
+          [
+            "قَلِيلًا",
+            "a little"
+          ],
+          [
+            "لٰكِنْ",
+            "but"
+          ],
+          [
+            "دَانْيَال",
+            "Daniel (first name)",
+            "name"
+          ],
+          [
+            "مَا",
+            "not (before a past verb)"
+          ],
+          [
+            "سَبَحَ",
+            "he swam"
+          ],
+          [
+            "قَالَ",
+            "he said"
+          ],
+          [
+            "الْمَاء",
+            "the water"
+          ],
+          [
+            "بَارِد",
+            "cold"
+          ],
+          [
+            "جِدًّا",
+            "very"
+          ]
+        ]
+      },
+      {
+        "id": "d37l7",
+        "sp": "daniel",
+        "ar": "صَحِيح، مَا سَبَحْتُ، لٰكِنْ شَرِبْتُ عَصِيرَ مَانْجُو بَارِدًا عَلَى الشَّاطِئ.",
+        "en": "That's true, I didn't swim, but I drank a cold mango juice on the beach.",
+        "segs": [
+          [
+            "صَحِيح",
+            "true, right"
+          ],
+          [
+            "مَا",
+            "not (before a past verb)"
+          ],
+          [
+            "سَبَحْتُ",
+            "I swam"
+          ],
+          [
+            "لٰكِنْ",
+            "but"
+          ],
+          [
+            "شَرِبْتُ",
+            "I drank"
+          ],
+          [
+            "عَصِيرَ",
+            "juice (of)"
+          ],
+          [
+            "مَانْجُو",
+            "mango"
+          ],
+          [
+            "بَارِدًا",
+            "cold (object form)"
+          ],
+          [
+            "عَلَى",
+            "on"
+          ],
+          [
+            "الشَّاطِئ",
+            "the beach"
+          ]
+        ]
+      },
+      {
+        "id": "d37l8",
+        "sp": "layla",
+        "ar": "وَمَاذَا فَعَلْتُمَا فِي الْمَسَاء؟ هَلْ زُرْتُمَا مَكْتَبَةَ الْإِسْكَنْدَرِيَّة؟",
+        "en": "And what did you two do in the evening? Did you visit the Library of Alexandria?",
+        "segs": [
+          [
+            "وَمَاذَا",
+            "and what (before a verb)"
+          ],
+          [
+            "فَعَلْتُمَا",
+            "you did (to two people)"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "الْمَسَاء",
+            "the evening"
+          ],
+          [
+            "هَلْ",
+            "(starts a yes/no question)"
+          ],
+          [
+            "زُرْتُمَا",
+            "you visited (two people)"
+          ],
+          [
+            "مَكْتَبَةَ",
+            "library (of)"
+          ],
+          [
+            "الْإِسْكَنْدَرِيَّة",
+            "Alexandria (city in Egypt)",
+            "name"
+          ]
+        ]
+      },
+      {
+        "id": "d37l9",
+        "sp": "sami",
+        "ar": "لَا، لِلْأَسَف مَا زُرْنَا الْمَكْتَبَة، لِأَنَّنَا مَا وَجَدْنَا وَقْتًا.",
+        "en": "No, unfortunately we didn't visit the library, because we didn't find the time.",
+        "segs": [
+          [
+            "لَا",
+            "no"
+          ],
+          [
+            "لِلْأَسَف",
+            "unfortunately"
+          ],
+          [
+            "مَا",
+            "not (before a past verb)"
+          ],
+          [
+            "زُرْنَا",
+            "we visited"
+          ],
+          [
+            "الْمَكْتَبَة",
+            "the library"
+          ],
+          [
+            "لِأَنَّنَا",
+            "because we"
+          ],
+          [
+            "مَا",
+            "not (before a past verb)"
+          ],
+          [
+            "وَجَدْنَا",
+            "we found"
+          ],
+          [
+            "وَقْتًا",
+            "time (object form)"
+          ]
+        ]
+      },
+      {
+        "id": "d37l10",
+        "sp": "daniel",
+        "ar": "وَأَنْتِ يَا لَيْلَى؟ مَاذَا فَعَلْتِ يَوْمَ الْجُمُعَة؟ هَلْ زُرْتِ صَدِيقَتَكِ مُنَى؟",
+        "en": "And you, Layla? What did you do on Friday? Did you visit your friend Mona?",
+        "segs": [
+          [
+            "وَأَنْتِ",
+            "and you (to a woman)"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "لَيْلَى",
+            "Layla (first name)",
+            "name"
+          ],
+          [
+            "مَاذَا",
+            "what (before a verb)"
+          ],
+          [
+            "فَعَلْتِ",
+            "you did (to a woman)"
+          ],
+          [
+            "يَوْمَ",
+            "on (the day of)"
+          ],
+          [
+            "الْجُمُعَة",
+            "Friday"
+          ],
+          [
+            "هَلْ",
+            "(starts a yes/no question)"
+          ],
+          [
+            "زُرْتِ",
+            "you visited (to a woman)"
+          ],
+          [
+            "صَدِيقَتَكِ",
+            "your friend (f, to a woman)"
+          ],
+          [
+            "مُنَى",
+            "Mona (first name)",
+            "name"
+          ]
+        ]
+      },
+      {
+        "id": "d37l11",
+        "sp": "layla",
+        "ar": "بِصَرَاحَة، مَا فَعَلْتُ شَيْئًا يَوْمَ الْجُمُعَة! نِمْتُ حَتَّى الظُّهْر، وَشَرِبْتُ الْقَهْوَة فِي الْبَيْت.",
+        "en": "Honestly, I didn't do anything on Friday! I slept until noon, and I drank coffee at home.",
+        "segs": [
+          [
+            "بِصَرَاحَة",
+            "honestly"
+          ],
+          [
+            "مَا",
+            "not (before a past verb)"
+          ],
+          [
+            "فَعَلْتُ",
+            "I did"
+          ],
+          [
+            "شَيْئًا",
+            "anything, something (object form)"
+          ],
+          [
+            "يَوْمَ",
+            "on (the day of)"
+          ],
+          [
+            "الْجُمُعَة",
+            "Friday"
+          ],
+          [
+            "نِمْتُ",
+            "I slept"
+          ],
+          [
+            "حَتَّى",
+            "until"
+          ],
+          [
+            "الظُّهْر",
+            "noon"
+          ],
+          [
+            "وَشَرِبْتُ",
+            "and I drank"
+          ],
+          [
+            "الْقَهْوَة",
+            "the coffee"
+          ],
+          [
+            "فِي",
+            "in, at"
+          ],
+          [
+            "الْبَيْت",
+            "the house, home"
+          ]
+        ]
+      },
+      {
+        "id": "d37l12",
+        "sp": "sami",
+        "ar": "يَوْم هَادِئ! أَحْيَانًا هٰذَا أَحْسَن شَيْء بَعْدَ أُسْبُوع طَوِيل مِنَ الدِّرَاسَة.",
+        "en": "A quiet day! Sometimes that is the best thing after a long week of studying.",
+        "segs": [
+          [
+            "يَوْم",
+            "day"
+          ],
+          [
+            "هَادِئ",
+            "quiet, calm"
+          ],
+          [
+            "أَحْيَانًا",
+            "sometimes"
+          ],
+          [
+            "هٰذَا",
+            "this (m)"
+          ],
+          [
+            "أَحْسَن",
+            "best, better"
+          ],
+          [
+            "شَيْء",
+            "thing"
+          ],
+          [
+            "بَعْدَ",
+            "after"
+          ],
+          [
+            "أُسْبُوع",
+            "week"
+          ],
+          [
+            "طَوِيل",
+            "long"
+          ],
+          [
+            "مِنَ",
+            "of, from"
+          ],
+          [
+            "الدِّرَاسَة",
+            "studying, study"
+          ]
+        ]
+      },
+      {
+        "id": "d37l13",
+        "sp": "layla",
+        "ar": "صَحِيح! لٰكِنْ فِي الْمَرَّة الْقَادِمَة أُرِيدُ أَنْ أَذْهَبَ مَعَكُمَا إِلَى الْبَحْر.",
+        "en": "True! But next time I want to go to the sea with you two.",
+        "segs": [
+          [
+            "صَحِيح",
+            "true, right"
+          ],
+          [
+            "لٰكِنْ",
+            "but"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "الْمَرَّة",
+            "the time, the occasion"
+          ],
+          [
+            "الْقَادِمَة",
+            "the next, the coming (f)"
+          ],
+          [
+            "أُرِيدُ",
+            "I want"
+          ],
+          [
+            "أَنْ",
+            "to (before a verb)"
+          ],
+          [
+            "أَذْهَبَ",
+            "I go (after 'an')"
+          ],
+          [
+            "مَعَكُمَا",
+            "with you (two)"
+          ],
+          [
+            "إِلَى",
+            "to"
+          ],
+          [
+            "الْبَحْر",
+            "the sea"
+          ]
+        ]
+      },
+      {
+        "id": "d37l14",
+        "sp": "daniel",
+        "ar": "اِتَّفَقْنَا! وَالْآنَ تَعَالَيْ، أُرِيكِ صُوَرَ الْقِطَط عَلَى هَاتِفِي.",
+        "en": "It's a deal! Now come here, and I'll show you the photos of the cats on my phone.",
+        "segs": [
+          [
+            "اِتَّفَقْنَا",
+            "agreed (lit. we agreed)"
+          ],
+          [
+            "وَالْآنَ",
+            "and now"
+          ],
+          [
+            "تَعَالَيْ",
+            "come (to a woman)"
+          ],
+          [
+            "أُرِيكِ",
+            "I show you (to a woman)"
+          ],
+          [
+            "صُوَرَ",
+            "photos (of)"
+          ],
+          [
+            "الْقِطَط",
+            "the cats"
+          ],
+          [
+            "عَلَى",
+            "on"
+          ],
+          [
+            "هَاتِفِي",
+            "my phone"
+          ]
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "title": "Sami's version",
+    "ar": "زُرْنَا قَلْعَةَ قَايْتْبَايْ، وَصَوَّرَ دَانْيَال الْقِطَط. أَنَا سَبَحْتُ فِي الْبَحْر، لٰكِنْ دَانْيَال مَا سَبَحَ. شَرِبَ عَصِيرًا عَلَى الشَّاطِئ. مَا زُرْنَا الْمَكْتَبَة.",
+    "en": "We visited the Qaitbay Citadel, and Daniel photographed the cats. I swam in the sea, but Daniel didn't swim. He drank a juice on the beach. We didn't visit the library.",
+    "segs": [
+      [
+        "زُرْنَا",
+        "we visited"
+      ],
+      [
+        "قَلْعَةَ",
+        "castle (of), citadel (of)"
+      ],
+      [
+        "قَايْتْبَايْ",
+        "Qaitbay (a sultan of Egypt)",
+        "name"
+      ],
+      [
+        "وَصَوَّرَ",
+        "and he photographed"
+      ],
+      [
+        "دَانْيَال",
+        "Daniel (first name)",
+        "name"
+      ],
+      [
+        "الْقِطَط",
+        "the cats"
+      ],
+      [
+        "أَنَا",
+        "I"
+      ],
+      [
+        "سَبَحْتُ",
+        "I swam"
+      ],
+      [
+        "فِي",
+        "in"
+      ],
+      [
+        "الْبَحْر",
+        "the sea"
+      ],
+      [
+        "لٰكِنْ",
+        "but"
+      ],
+      [
+        "دَانْيَال",
+        "Daniel (first name)",
+        "name"
+      ],
+      [
+        "مَا",
+        "not (before a past verb)"
+      ],
+      [
+        "سَبَحَ",
+        "he swam"
+      ],
+      [
+        "شَرِبَ",
+        "he drank"
+      ],
+      [
+        "عَصِيرًا",
+        "a juice (object form)"
+      ],
+      [
+        "عَلَى",
+        "on"
+      ],
+      [
+        "الشَّاطِئ",
+        "the beach"
+      ],
+      [
+        "مَا",
+        "not (before a past verb)"
+      ],
+      [
+        "زُرْنَا",
+        "we visited"
+      ],
+      [
+        "الْمَكْتَبَة",
+        "the library"
+      ]
+    ]
+  },
+  "review": [
+    "ams",
+    "dhahaba",
+    "akala",
+    "bahr"
+  ],
+  "quiz": [
+    {
+      "id": "d37q1",
+      "prompt": "What does this mean?",
+      "ar": "مَا سَبَحْتُ.",
+      "options": [
+        "I swam.",
+        "I didn't swim.",
+        "What did I swim?",
+        "I don't swim."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "d37q2",
+      "prompt": "How do you ask a woman 'What did you do?'",
+      "options": [
+        "مَاذَا فَعَلْتَ؟",
+        "مَا فَعَلْتِ.",
+        "مَاذَا فَعَلْتِ؟",
+        "مَنْ فَعَلَ؟"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "d37q3",
+      "prompt": "According to Sami, what did Daniel photograph?",
+      "options": [
+        "only the sea",
+        "the castle, the sea, the fish and the cats",
+        "Layla's house",
+        "the train"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "d37q4",
+      "prompt": "What did Layla do on Friday?",
+      "options": [
+        "She visited Mona.",
+        "She went to the sea.",
+        "Not much: she slept until noon and drank coffee at home.",
+        "She took a hundred photos."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "d37q5",
+      "prompt": "Which form means 'we visited'?",
+      "options": [
+        "زَارَ",
+        "زُرْتُ",
+        "زُرْنَا",
+        "زَارَتْ"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "d37q6",
+      "prompt": "Why didn't Daniel and Sami visit the library?",
+      "options": [
+        "It was closed.",
+        "They didn't find the time.",
+        "Daniel was tired.",
+        "It was too far away."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "d37q7",
+      "prompt": "How is the first syllable of شَيْء (thing) said?",
+      "options": [
+        "shī",
+        "shay",
+        "shū",
+        "shā"
+      ],
+      "answer": 1
+    }
+  ],
+  "completion": "Great work! You can ask what someone did, answer in the past and say what you didn't do with مَا. Next: a whole week in the past.",
+  "status": "needs-review"
+}

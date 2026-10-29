@@ -4607,5 +4607,1179 @@
         "answer": 0
       }
     ]
+  },
+  {
+    "id": "lost-luggage",
+    "title": "Lost luggage",
+    "emoji": "🧳",
+    "status": "needs-review",
+    "intro": "You come back to Cairo from Alexandria by train and realise that you left your bag on the train. At the lost property office in Ramses Station, explain what happened. Useful phrases: نَسِيتُ (I forgot), لَمْ أَجِدْهَا (I didn't find it) and كَانَ فِيهَا (there was in it).",
+    "dialogue": {
+      "title": "A blue bag in carriage four",
+      "speakers": [
+        {
+          "key": "clerk",
+          "name": "Clerk",
+          "nameAr": "الْمُوَظَّفَة"
+        },
+        {
+          "key": "daniel",
+          "name": "Daniel",
+          "nameAr": "دَانْيَال"
+        }
+      ],
+      "culture": "Ramses Station is Cairo's main railway station, named after the pharaoh Ramses II. Trains to Alexandria leave from here many times a day.",
+      "lines": [
+        {
+          "id": "lost-luggage-l1",
+          "sp": "clerk",
+          "ar": "مَسَاءُ الْخَيْر، مَكْتَبُ الْمَفْقُودَات. كَيْفَ أُسَاعِدُكَ؟",
+          "en": "Good evening, lost property office. How can I help you?",
+          "segs": [
+            [
+              "مَسَاءُ",
+              "evening (of)"
+            ],
+            [
+              "الْخَيْر",
+              "the goodness"
+            ],
+            [
+              "مَكْتَبُ",
+              "office (of)"
+            ],
+            [
+              "الْمَفْقُودَات",
+              "the lost things"
+            ],
+            [
+              "كَيْفَ",
+              "how"
+            ],
+            [
+              "أُسَاعِدُكَ",
+              "I help you (to a man)"
+            ]
+          ]
+        },
+        {
+          "id": "lost-luggage-l2",
+          "sp": "daniel",
+          "ar": "مَسَاءُ النُّور. نَسِيتُ حَقِيبَتِي فِي قِطَارِ الْإِسْكَنْدَرِيَّة، وَلَمْ أَجِدْهَا.",
+          "en": "Good evening. I left my bag on the train from Alexandria, and I couldn't find it.",
+          "segs": [
+            [
+              "مَسَاءُ",
+              "evening (of)"
+            ],
+            [
+              "النُّور",
+              "the light"
+            ],
+            [
+              "نَسِيتُ",
+              "I forgot"
+            ],
+            [
+              "حَقِيبَتِي",
+              "my bag"
+            ],
+            [
+              "فِي",
+              "in, on"
+            ],
+            [
+              "قِطَارِ",
+              "train (of)"
+            ],
+            [
+              "الْإِسْكَنْدَرِيَّة",
+              "Alexandria (city in Egypt)",
+              "name"
+            ],
+            [
+              "وَلَمْ",
+              "and did not"
+            ],
+            [
+              "أَجِدْهَا",
+              "I find it (f; form after 'lam')"
+            ]
+          ]
+        },
+        {
+          "id": "lost-luggage-l3",
+          "sp": "clerk",
+          "ar": "مَتَى وَصَلَ الْقِطَار؟ وَفِي أَيِّ عَرَبَة جَلَسْتَ؟",
+          "en": "When did the train arrive? And which carriage did you sit in?",
+          "segs": [
+            [
+              "مَتَى",
+              "when"
+            ],
+            [
+              "وَصَلَ",
+              "it arrived (m)"
+            ],
+            [
+              "الْقِطَار",
+              "the train"
+            ],
+            [
+              "وَفِي",
+              "and in"
+            ],
+            [
+              "أَيِّ",
+              "which"
+            ],
+            [
+              "عَرَبَة",
+              "carriage, coach"
+            ],
+            [
+              "جَلَسْتَ",
+              "you sat (to a man)"
+            ]
+          ]
+        },
+        {
+          "id": "lost-luggage-l4",
+          "sp": "daniel",
+          "ar": "وَصَلَ فِي السَّاعَة التَّاسِعَة مَسَاءً. جَلَسْتُ فِي الْعَرَبَة رَقْم أَرْبَعَة.",
+          "en": "It arrived at nine in the evening. I sat in carriage number four.",
+          "segs": [
+            [
+              "وَصَلَ",
+              "it arrived (m)"
+            ],
+            [
+              "فِي",
+              "in, at"
+            ],
+            [
+              "السَّاعَة",
+              "the hour, o'clock"
+            ],
+            [
+              "التَّاسِعَة",
+              "the ninth"
+            ],
+            [
+              "مَسَاءً",
+              "in the evening"
+            ],
+            [
+              "جَلَسْتُ",
+              "I sat"
+            ],
+            [
+              "فِي",
+              "in"
+            ],
+            [
+              "الْعَرَبَة",
+              "the carriage"
+            ],
+            [
+              "رَقْم",
+              "number"
+            ],
+            [
+              "أَرْبَعَة",
+              "four"
+            ]
+          ]
+        },
+        {
+          "id": "lost-luggage-l5",
+          "sp": "clerk",
+          "ar": "وَلِمَاذَا لَمْ تَأْخُذِ الْحَقِيبَة مَعَكَ؟ هَلْ نِمْتَ فِي الْقِطَار؟",
+          "en": "And why didn't you take the bag with you? Did you fall asleep on the train?",
+          "segs": [
+            [
+              "وَلِمَاذَا",
+              "and why"
+            ],
+            [
+              "لَمْ",
+              "did not"
+            ],
+            [
+              "تَأْخُذِ",
+              "you take (form after 'lam'; -i before al-)"
+            ],
+            [
+              "الْحَقِيبَة",
+              "the bag"
+            ],
+            [
+              "مَعَكَ",
+              "with you (to a man)"
+            ],
+            [
+              "هَلْ",
+              "(starts a yes/no question)"
+            ],
+            [
+              "نِمْتَ",
+              "you slept (to a man)"
+            ],
+            [
+              "فِي",
+              "in, on"
+            ],
+            [
+              "الْقِطَار",
+              "the train"
+            ]
+          ]
+        },
+        {
+          "id": "lost-luggage-l6",
+          "sp": "daniel",
+          "ar": "نَعَم، نِمْتُ قَلِيلًا، وَبَعْدَ أَنْ وَصَلْنَا خَرَجْتُ بِسُرْعَة مَعَ صَدِيقِي.",
+          "en": "Yes, I slept a little, and after we arrived I got off in a hurry with my friend.",
+          "segs": [
+            [
+              "نَعَم",
+              "yes"
+            ],
+            [
+              "نِمْتُ",
+              "I slept"
+            ],
+            [
+              "قَلِيلًا",
+              "a little"
+            ],
+            [
+              "وَبَعْدَ",
+              "and after"
+            ],
+            [
+              "أَنْ",
+              "that (before a verb)"
+            ],
+            [
+              "وَصَلْنَا",
+              "we arrived"
+            ],
+            [
+              "خَرَجْتُ",
+              "I went out, I got off"
+            ],
+            [
+              "بِسُرْعَة",
+              "quickly, in a hurry"
+            ],
+            [
+              "مَعَ",
+              "with"
+            ],
+            [
+              "صَدِيقِي",
+              "my friend"
+            ]
+          ]
+        },
+        {
+          "id": "lost-luggage-l7",
+          "sp": "clerk",
+          "ar": "مَا لَوْنُ الْحَقِيبَة؟ وَمَاذَا كَانَ فِيهَا؟",
+          "en": "What colour is the bag? And what was in it?",
+          "segs": [
+            [
+              "مَا",
+              "what"
+            ],
+            [
+              "لَوْنُ",
+              "colour (of)"
+            ],
+            [
+              "الْحَقِيبَة",
+              "the bag"
+            ],
+            [
+              "وَمَاذَا",
+              "and what"
+            ],
+            [
+              "كَانَ",
+              "was"
+            ],
+            [
+              "فِيهَا",
+              "in it (f)"
+            ]
+          ]
+        },
+        {
+          "id": "lost-luggage-l8",
+          "sp": "daniel",
+          "ar": "هِيَ حَقِيبَة زَرْقَاء صَغِيرَة. كَانَ فِيهَا كِتَاب وَكَامِيرَا وَمِفْتَاحُ شَقَّتِي.",
+          "en": "It's a small blue bag. There was a book in it, a camera and the key to my flat.",
+          "segs": [
+            [
+              "هِيَ",
+              "she, it (f)"
+            ],
+            [
+              "حَقِيبَة",
+              "bag"
+            ],
+            [
+              "زَرْقَاء",
+              "blue (f)"
+            ],
+            [
+              "صَغِيرَة",
+              "small (f)"
+            ],
+            [
+              "كَانَ",
+              "(there) was"
+            ],
+            [
+              "فِيهَا",
+              "in it (f)"
+            ],
+            [
+              "كِتَاب",
+              "book"
+            ],
+            [
+              "وَكَامِيرَا",
+              "and a camera"
+            ],
+            [
+              "وَمِفْتَاحُ",
+              "and the key (of)"
+            ],
+            [
+              "شَقَّتِي",
+              "my flat"
+            ]
+          ]
+        },
+        {
+          "id": "lost-luggage-l9",
+          "sp": "clerk",
+          "ar": "لَحْظَة، مِنْ فَضْلِكَ… الْعُمَّال لَمْ يَذْهَبُوا بَعْدُ. سَأَسْأَلُهُمْ.",
+          "en": "One moment, please… The workers haven't gone home yet. I'll ask them.",
+          "segs": [
+            [
+              "لَحْظَة",
+              "a moment"
+            ],
+            [
+              "مِنْ",
+              "from"
+            ],
+            [
+              "فَضْلِكَ",
+              "your kindness (to a man): 'please'"
+            ],
+            [
+              "الْعُمَّال",
+              "the workers"
+            ],
+            [
+              "لَمْ",
+              "did not"
+            ],
+            [
+              "يَذْهَبُوا",
+              "they go (form after 'lam')"
+            ],
+            [
+              "بَعْدُ",
+              "yet"
+            ],
+            [
+              "سَأَسْأَلُهُمْ",
+              "I will ask them"
+            ]
+          ]
+        },
+        {
+          "id": "lost-luggage-l10",
+          "sp": "clerk",
+          "ar": "أَنْتَ مَحْظُوظ! وَجَدُوا حَقِيبَة زَرْقَاء فِي الْعَرَبَة رَقْم أَرْبَعَة. هَلْ هٰذِهِ حَقِيبَتُكَ؟",
+          "en": "You're lucky! They found a blue bag in carriage number four. Is this your bag?",
+          "segs": [
+            [
+              "أَنْتَ",
+              "you (to a man)"
+            ],
+            [
+              "مَحْظُوظ",
+              "lucky"
+            ],
+            [
+              "وَجَدُوا",
+              "they found"
+            ],
+            [
+              "حَقِيبَة",
+              "bag"
+            ],
+            [
+              "زَرْقَاء",
+              "blue (f)"
+            ],
+            [
+              "فِي",
+              "in"
+            ],
+            [
+              "الْعَرَبَة",
+              "the carriage"
+            ],
+            [
+              "رَقْم",
+              "number"
+            ],
+            [
+              "أَرْبَعَة",
+              "four"
+            ],
+            [
+              "هَلْ",
+              "(starts a yes/no question)"
+            ],
+            [
+              "هٰذِهِ",
+              "this (f)"
+            ],
+            [
+              "حَقِيبَتُكَ",
+              "your bag (to a man)"
+            ]
+          ]
+        },
+        {
+          "id": "lost-luggage-l11",
+          "sp": "daniel",
+          "ar": "نَعَم، هٰذِهِ هِيَ! الْحَمْدُ لِلّٰه! شُكْرًا جَزِيلًا.",
+          "en": "Yes, that's the one! Thank God! Thank you very much.",
+          "segs": [
+            [
+              "نَعَم",
+              "yes"
+            ],
+            [
+              "هٰذِهِ",
+              "this (f)"
+            ],
+            [
+              "هِيَ",
+              "she, it (f)"
+            ],
+            [
+              "الْحَمْدُ",
+              "the praise"
+            ],
+            [
+              "لِلّٰه",
+              "to God"
+            ],
+            [
+              "شُكْرًا",
+              "thank you"
+            ],
+            [
+              "جَزِيلًا",
+              "very much (lit. abundant)"
+            ]
+          ]
+        },
+        {
+          "id": "lost-luggage-l12",
+          "sp": "clerk",
+          "ar": "عَفْوًا. فِي الْمَرَّة الْقَادِمَة لَا تَنَمْ فِي الْقِطَار!",
+          "en": "You're welcome. Next time, don't fall asleep on the train!",
+          "segs": [
+            [
+              "عَفْوًا",
+              "you're welcome"
+            ],
+            [
+              "فِي",
+              "in"
+            ],
+            [
+              "الْمَرَّة",
+              "the time, the occasion"
+            ],
+            [
+              "الْقَادِمَة",
+              "the next, the coming (f)"
+            ],
+            [
+              "لَا",
+              "don't"
+            ],
+            [
+              "تَنَمْ",
+              "sleep (to a man, after 'don't')"
+            ],
+            [
+              "فِي",
+              "in, on"
+            ],
+            [
+              "الْقِطَار",
+              "the train"
+            ]
+          ]
+        }
+      ]
+    },
+    "mistakes": [
+      {
+        "wrong": "لَمْ أَجِدُهَا",
+        "right": "لَمْ أَجِدْهَا",
+        "why": "After لَمْ the verb loses its final -u: lam ajid-hā, not lam ajidu-hā."
+      },
+      {
+        "wrong": "حَقِيبَة أَزْرَق",
+        "right": "حَقِيبَة زَرْقَاء",
+        "why": "حَقِيبَة is feminine, so the colour is feminine too: zarqāʾ."
+      }
+    ],
+    "quiz": [
+      {
+        "id": "llq1",
+        "prompt": "Where did Daniel leave his bag?",
+        "options": [
+          "in a taxi",
+          "on the train",
+          "at the hotel",
+          "at school"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "llq2",
+        "prompt": "What was in the bag?",
+        "options": [
+          "clothes and shoes",
+          "food for the trip",
+          "a book, a camera and his flat key",
+          "nothing"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "llq3",
+        "prompt": "What does this mean?",
+        "ar": "لَمْ أَجِدْهَا.",
+        "options": [
+          "I didn't find it.",
+          "I found it.",
+          "I will find it.",
+          "Find it!"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  {
+    "id": "holiday-story",
+    "title": "How was your holiday?",
+    "emoji": "🏛️",
+    "status": "needs-review",
+    "intro": "After the mid-term break your classmate Huda asks about your holiday. Tell her where you went, how you travelled and what it was like. Useful phrases: سَافَرْتُ (I travelled), كَانَتِ الرِّحْلَةُ … (the trip was …) and لَمْ نَذْهَبْ (we didn't go).",
+    "dialogue": {
+      "title": "Luxor and Aswan",
+      "speakers": [
+        {
+          "key": "huda",
+          "name": "Huda",
+          "nameAr": "هُدَى"
+        },
+        {
+          "key": "daniel",
+          "name": "Daniel",
+          "nameAr": "دَانْيَال"
+        }
+      ],
+      "culture": "Luxor (الْأُقْصُر) is full of ancient Egyptian temples, and at sunrise dozens of hot-air balloons float over the Nile and the Valley of the Kings. Many visitors take the overnight sleeper train from Cairo.",
+      "lines": [
+        {
+          "id": "holiday-story-l1",
+          "sp": "huda",
+          "ar": "أَهْلًا يَا دَانْيَال! كَيْفَ كَانَتْ عُطْلَتُكَ؟ أَيْنَ ذَهَبْتَ؟",
+          "en": "Hi, Daniel! How was your holiday? Where did you go?",
+          "segs": [
+            [
+              "أَهْلًا",
+              "hi, welcome"
+            ],
+            [
+              "يَا",
+              "O (calling someone)"
+            ],
+            [
+              "دَانْيَال",
+              "Daniel (first name)",
+              "name"
+            ],
+            [
+              "كَيْفَ",
+              "how"
+            ],
+            [
+              "كَانَتْ",
+              "(she, it) was"
+            ],
+            [
+              "عُطْلَتُكَ",
+              "your holiday (to a man)"
+            ],
+            [
+              "أَيْنَ",
+              "where"
+            ],
+            [
+              "ذَهَبْتَ",
+              "you went (to a man)"
+            ]
+          ]
+        },
+        {
+          "id": "holiday-story-l2",
+          "sp": "daniel",
+          "ar": "كَانَتْ رَائِعَةً! سَافَرْتُ مَعَ صَدِيقِي إِلَى الْأُقْصُر وَأَسْوَان.",
+          "en": "It was wonderful! I travelled to Luxor and Aswan with my friend.",
+          "segs": [
+            [
+              "كَانَتْ",
+              "(she, it) was"
+            ],
+            [
+              "رَائِعَةً",
+              "wonderful (f, after 'was')"
+            ],
+            [
+              "سَافَرْتُ",
+              "I travelled"
+            ],
+            [
+              "مَعَ",
+              "with"
+            ],
+            [
+              "صَدِيقِي",
+              "my friend"
+            ],
+            [
+              "إِلَى",
+              "to"
+            ],
+            [
+              "الْأُقْصُر",
+              "Luxor (city in Egypt)",
+              "name"
+            ],
+            [
+              "وَأَسْوَان",
+              "and Aswan (city in Egypt)",
+              "name"
+            ]
+          ]
+        },
+        {
+          "id": "holiday-story-l3",
+          "sp": "huda",
+          "ar": "مَا شَاءَ اللّٰه! كَيْفَ سَافَرْتُمَا؟ لَمْ تَذْهَبْ بِالطَّائِرَة، صَحِيح؟",
+          "en": "How lovely! How did you two travel? You didn't go by plane, did you?",
+          "segs": [
+            [
+              "مَا",
+              "what"
+            ],
+            [
+              "شَاءَ",
+              "(has) willed"
+            ],
+            [
+              "اللّٰه",
+              "God"
+            ],
+            [
+              "كَيْفَ",
+              "how"
+            ],
+            [
+              "سَافَرْتُمَا",
+              "you travelled (two people)"
+            ],
+            [
+              "لَمْ",
+              "did not"
+            ],
+            [
+              "تَذْهَبْ",
+              "you go (to a man; form after 'lam')"
+            ],
+            [
+              "بِالطَّائِرَة",
+              "by plane"
+            ],
+            [
+              "صَحِيح",
+              "true, right"
+            ]
+          ]
+        },
+        {
+          "id": "holiday-story-l4",
+          "sp": "daniel",
+          "ar": "لَا، لَمْ نَذْهَبْ بِالطَّائِرَة. رَكِبْنَا قِطَارَ اللَّيْل، وَكَانَتِ الرِّحْلَةُ طَوِيلَةً.",
+          "en": "No, we didn't go by plane. We took the night train, and the journey was long.",
+          "segs": [
+            [
+              "لَا",
+              "no"
+            ],
+            [
+              "لَمْ",
+              "did not"
+            ],
+            [
+              "نَذْهَبْ",
+              "we go (form after 'lam')"
+            ],
+            [
+              "بِالطَّائِرَة",
+              "by plane"
+            ],
+            [
+              "رَكِبْنَا",
+              "we rode, we took"
+            ],
+            [
+              "قِطَارَ",
+              "train (of)"
+            ],
+            [
+              "اللَّيْل",
+              "the night"
+            ],
+            [
+              "وَكَانَتِ",
+              "and (it, f) was"
+            ],
+            [
+              "الرِّحْلَةُ",
+              "the trip, the journey"
+            ],
+            [
+              "طَوِيلَةً",
+              "long (f, after 'was')"
+            ]
+          ]
+        },
+        {
+          "id": "holiday-story-l5",
+          "sp": "huda",
+          "ar": "وَمَاذَا فَعَلْتُمَا فِي الْأُقْصُر؟",
+          "en": "And what did you two do in Luxor?",
+          "segs": [
+            [
+              "وَمَاذَا",
+              "and what (before a verb)"
+            ],
+            [
+              "فَعَلْتُمَا",
+              "you did (to two people)"
+            ],
+            [
+              "فِي",
+              "in"
+            ],
+            [
+              "الْأُقْصُر",
+              "Luxor (city in Egypt)",
+              "name"
+            ]
+          ]
+        },
+        {
+          "id": "holiday-story-l6",
+          "sp": "daniel",
+          "ar": "زُرْنَا الْمَعَابِد الْقَدِيمَة، وَفِي الصَّبَاح الْبَاكِر رَكِبْنَا مُنْطَادًا فَوْقَ النِّيل.",
+          "en": "We visited the ancient temples, and early in the morning we went up in a balloon over the Nile.",
+          "segs": [
+            [
+              "زُرْنَا",
+              "we visited"
+            ],
+            [
+              "الْمَعَابِد",
+              "the temples"
+            ],
+            [
+              "الْقَدِيمَة",
+              "the old, the ancient (f)"
+            ],
+            [
+              "وَفِي",
+              "and in"
+            ],
+            [
+              "الصَّبَاح",
+              "the morning"
+            ],
+            [
+              "الْبَاكِر",
+              "the early"
+            ],
+            [
+              "رَكِبْنَا",
+              "we rode, we took"
+            ],
+            [
+              "مُنْطَادًا",
+              "a balloon (object form)"
+            ],
+            [
+              "فَوْقَ",
+              "above, over"
+            ],
+            [
+              "النِّيل",
+              "the Nile (river)",
+              "name"
+            ]
+          ]
+        },
+        {
+          "id": "holiday-story-l7",
+          "sp": "huda",
+          "ar": "يَا سَلَام! وَهَلْ كَانَ الْجَوُّ حَارًّا هُنَاكَ؟",
+          "en": "Wow! And was the weather hot there?",
+          "segs": [
+            [
+              "يَا",
+              "O (calling someone)"
+            ],
+            [
+              "سَلَام",
+              "peace (yā salām: wow!)"
+            ],
+            [
+              "وَهَلْ",
+              "and (starts a yes/no question)"
+            ],
+            [
+              "كَانَ",
+              "(it, m) was"
+            ],
+            [
+              "الْجَوُّ",
+              "the weather"
+            ],
+            [
+              "حَارًّا",
+              "hot (after 'was')"
+            ],
+            [
+              "هُنَاكَ",
+              "there"
+            ]
+          ]
+        },
+        {
+          "id": "holiday-story-l8",
+          "sp": "daniel",
+          "ar": "كَانَ حَارًّا فِي النَّهَار، لٰكِنْ لَطِيفًا فِي الْمَسَاء. وَأَنْتِ؟ لَمْ تَذْهَبِي إِلَى أَيِّ مَكَان؟",
+          "en": "It was hot in the daytime but pleasant in the evening. And you? Didn't you go anywhere?",
+          "segs": [
+            [
+              "كَانَ",
+              "(it, m) was"
+            ],
+            [
+              "حَارًّا",
+              "hot (after 'was')"
+            ],
+            [
+              "فِي",
+              "in"
+            ],
+            [
+              "النَّهَار",
+              "the daytime"
+            ],
+            [
+              "لٰكِنْ",
+              "but"
+            ],
+            [
+              "لَطِيفًا",
+              "pleasant, nice (after 'was')"
+            ],
+            [
+              "فِي",
+              "in"
+            ],
+            [
+              "الْمَسَاء",
+              "the evening"
+            ],
+            [
+              "وَأَنْتِ",
+              "and you (to a woman)"
+            ],
+            [
+              "لَمْ",
+              "did not"
+            ],
+            [
+              "تَذْهَبِي",
+              "you go (to a woman; form after 'lam')"
+            ],
+            [
+              "إِلَى",
+              "to"
+            ],
+            [
+              "أَيِّ",
+              "any"
+            ],
+            [
+              "مَكَان",
+              "place"
+            ]
+          ]
+        },
+        {
+          "id": "holiday-story-l9",
+          "sp": "huda",
+          "ar": "لَا، لَمْ أُسَافِرْ. زَارَنَا أَقَارِبِي مِنَ الْإِسْكَنْدَرِيَّة، وَهُمْ بَقُوا عِنْدَنَا أُسْبُوعًا كَامِلًا.",
+          "en": "No, I didn't travel. My relatives from Alexandria visited us, and they stayed with us for a whole week.",
+          "segs": [
+            [
+              "لَا",
+              "no"
+            ],
+            [
+              "لَمْ",
+              "did not"
+            ],
+            [
+              "أُسَافِرْ",
+              "I travel (form after 'lam')"
+            ],
+            [
+              "زَارَنَا",
+              "(they) visited us"
+            ],
+            [
+              "أَقَارِبِي",
+              "my relatives"
+            ],
+            [
+              "مِنَ",
+              "from"
+            ],
+            [
+              "الْإِسْكَنْدَرِيَّة",
+              "Alexandria (city in Egypt)",
+              "name"
+            ],
+            [
+              "وَهُمْ",
+              "and they"
+            ],
+            [
+              "بَقُوا",
+              "they stayed"
+            ],
+            [
+              "عِنْدَنَا",
+              "with us, at our place"
+            ],
+            [
+              "أُسْبُوعًا",
+              "a week (object form)"
+            ],
+            [
+              "كَامِلًا",
+              "whole, complete"
+            ]
+          ]
+        },
+        {
+          "id": "holiday-story-l10",
+          "sp": "daniel",
+          "ar": "وَهَلْ خَرَجْتُمْ مَعًا يَا هُدَى؟",
+          "en": "And did you all go out together, Huda?",
+          "segs": [
+            [
+              "وَهَلْ",
+              "and (starts a yes/no question)"
+            ],
+            [
+              "خَرَجْتُمْ",
+              "you went out (to several people)"
+            ],
+            [
+              "مَعًا",
+              "together"
+            ],
+            [
+              "يَا",
+              "O (calling someone)"
+            ],
+            [
+              "هُدَى",
+              "Huda (first name)",
+              "name"
+            ]
+          ]
+        },
+        {
+          "id": "holiday-story-l11",
+          "sp": "huda",
+          "ar": "نَعَم، ذَهَبْنَا إِلَى الْأَهْرَام. لٰكِنْ أَخِي لَمْ يَذْهَبْ مَعَنَا، لِأَنَّهُ كَانَ مَرِيضًا.",
+          "en": "Yes, we went to the pyramids. But my brother didn't come with us, because he was ill.",
+          "segs": [
+            [
+              "نَعَم",
+              "yes"
+            ],
+            [
+              "ذَهَبْنَا",
+              "we went"
+            ],
+            [
+              "إِلَى",
+              "to"
+            ],
+            [
+              "الْأَهْرَام",
+              "the pyramids"
+            ],
+            [
+              "لٰكِنْ",
+              "but"
+            ],
+            [
+              "أَخِي",
+              "my brother"
+            ],
+            [
+              "لَمْ",
+              "did not"
+            ],
+            [
+              "يَذْهَبْ",
+              "he goes (form after 'lam')"
+            ],
+            [
+              "مَعَنَا",
+              "with us"
+            ],
+            [
+              "لِأَنَّهُ",
+              "because he"
+            ],
+            [
+              "كَانَ",
+              "(he) was"
+            ],
+            [
+              "مَرِيضًا",
+              "ill, sick (after 'was')"
+            ]
+          ]
+        },
+        {
+          "id": "holiday-story-l12",
+          "sp": "daniel",
+          "ar": "سَلَامَتُهُ! أَرْجُو أَنْ يَكُونَ بِخَيْر الْآنَ.",
+          "en": "I'm sorry he was ill! I hope he is well now.",
+          "segs": [
+            [
+              "سَلَامَتُهُ",
+              "his safety: 'may he get well'"
+            ],
+            [
+              "أَرْجُو",
+              "I hope"
+            ],
+            [
+              "أَنْ",
+              "that (before a verb)"
+            ],
+            [
+              "يَكُونَ",
+              "he is, he be (after 'an')"
+            ],
+            [
+              "بِخَيْر",
+              "well, fine"
+            ],
+            [
+              "الْآنَ",
+              "now"
+            ]
+          ]
+        }
+      ]
+    },
+    "mistakes": [
+      {
+        "wrong": "كَانَتِ الرِّحْلَةُ طَوِيلَة",
+        "right": "كَانَتِ الرِّحْلَةُ طَوِيلَةً",
+        "why": "After كَانَ or كَانَتْ the description takes the -an ending: ṭawīlatan."
+      },
+      {
+        "wrong": "لَمْ سَافَرْتُ",
+        "right": "لَمْ أُسَافِرْ",
+        "why": "لَمْ takes the present form with a sukūn at the end, not the past."
+      }
+    ],
+    "quiz": [
+      {
+        "id": "hsq1",
+        "prompt": "Where did Daniel travel in the holiday?",
+        "options": [
+          "Alexandria",
+          "Luxor and Aswan",
+          "Amman",
+          "Beirut"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "hsq2",
+        "prompt": "How did Daniel and his friend travel?",
+        "options": [
+          "by plane",
+          "by car",
+          "by the night train",
+          "by boat"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "hsq3",
+        "prompt": "What does this mean?",
+        "ar": "لَمْ تَذْهَبِي إِلَى أَيِّ مَكَان؟",
+        "options": [
+          "Didn't you go anywhere? (to a woman)",
+          "Where did you go?",
+          "You didn't go to the place.",
+          "Don't go anywhere!"
+        ],
+        "answer": 0
+      }
+    ]
   }
 ]

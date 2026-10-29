@@ -1,0 +1,1196 @@
+{
+  "day": 39,
+  "week": 6,
+  "phase": 3,
+  "level": 4,
+  "title": "My holiday",
+  "titleAr": "عُطْلَتِي",
+  "titleSegs": [
+    [
+      "عُطْلَتِي",
+      "my holiday"
+    ]
+  ],
+  "emoji": "⛰️",
+  "summary": "Describe a past holiday with كَانَ (was): where you went, what it was like and who was there.",
+  "intro": "In the present Arabic needs no 'is': الْجَوُّ لَطِيف (the weather is pleasant). To describe the past, add كَانَ (was), or كَانَتْ for a feminine subject, and give the describing word the -an ending: كَانَ الْجَوُّ لَطِيفًا (the weather was pleasant). For 'I was' and 'we were' the stem shortens: كُنْتُ, كُنَّا.",
+  "objectives": [
+    "Describe a past holiday with كَانَ and كَانَتْ",
+    "Add the -an ending to a description after كَانَ",
+    "Say where you travelled and how long you spent there",
+    "Pronounce the emphatic ṣ and ṭ in الصَّيْف and بِالطَّائِرَة"
+  ],
+  "realLife": {
+    "emoji": "🏡",
+    "title": "Summer in the mountains",
+    "story": "In Wednesday's speaking class Mr Karim asks each student to talk about a holiday. Layla describes her summer in Lebanon: a week in Beirut, then a crowded, happy house in her grandmother's mountain village."
+  },
+  "letters": [],
+  "newWords": [
+    "kana",
+    "safara",
+    "qada",
+    "jabal",
+    "qarya",
+    "mumti",
+    "rihla"
+  ],
+  "grammar": [
+    "kana",
+    "past-tense"
+  ],
+  "pronunciation": [
+    "emphatics"
+  ],
+  "sentences": [
+    {
+      "id": "d39s1",
+      "ar": "كَانَ الْجَوُّ لَطِيفًا.",
+      "en": "The weather was pleasant.",
+      "literal": "was the weather pleasant",
+      "segs": [
+        [
+          "كَانَ",
+          "(it, m) was",
+          "verb"
+        ],
+        [
+          "الْجَوُّ",
+          "the weather",
+          "noun"
+        ],
+        [
+          "لَطِيفًا",
+          "pleasant, nice (after 'was')",
+          "adj"
+        ]
+      ],
+      "grammar": [
+        "kana"
+      ],
+      "mistakes": [
+        {
+          "wrong": "كَانَ الْجَوُّ لَطِيف",
+          "right": "كَانَ الْجَوُّ لَطِيفًا",
+          "why": "After كَانَ the describing word takes the -an ending: laṭīfan."
+        }
+      ]
+    },
+    {
+      "id": "d39s2",
+      "ar": "كَانَتِ الْعُطْلَةُ مُمْتِعَةً جِدًّا.",
+      "en": "The holiday was great fun.",
+      "literal": "was (f) the holiday enjoyable very",
+      "segs": [
+        [
+          "كَانَتِ",
+          "(it, f) was",
+          "verb"
+        ],
+        [
+          "الْعُطْلَةُ",
+          "the holiday",
+          "noun"
+        ],
+        [
+          "مُمْتِعَةً",
+          "enjoyable, fun (f, after 'was')",
+          "adj"
+        ],
+        [
+          "جِدًّا",
+          "very",
+          "adverb"
+        ]
+      ],
+      "grammar": [
+        "kana"
+      ],
+      "mistakes": [
+        {
+          "wrong": "كَانَ الْعُطْلَةُ مُمْتِعَةً",
+          "right": "كَانَتِ الْعُطْلَةُ مُمْتِعَةً",
+          "why": "عُطْلَة is feminine, so 'was' becomes كَانَتْ. Before al- its sukūn turns into i: كَانَتِ الْعُطْلَة."
+        }
+      ]
+    },
+    {
+      "id": "d39s3",
+      "ar": "سَافَرْتُ إِلَى لُبْنَان فِي الصَّيْف.",
+      "en": "I travelled to Lebanon in the summer.",
+      "literal": "I travelled to Lebanon in the summer",
+      "segs": [
+        [
+          "سَافَرْتُ",
+          "I travelled",
+          "verb"
+        ],
+        [
+          "إِلَى",
+          "to",
+          "prep"
+        ],
+        [
+          "لُبْنَان",
+          "Lebanon (country)",
+          "name"
+        ],
+        [
+          "فِي",
+          "in",
+          "prep"
+        ],
+        [
+          "الصَّيْف",
+          "the summer",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "past-tense"
+      ]
+    },
+    {
+      "id": "d39s4",
+      "ar": "قَضَيْتُ أُسْبُوعًا فِي قَرْيَة فِي الْجَبَل.",
+      "en": "I spent a week in a village in the mountains.",
+      "literal": "I spent a week in a village in the mountain",
+      "segs": [
+        [
+          "قَضَيْتُ",
+          "I spent",
+          "verb"
+        ],
+        [
+          "أُسْبُوعًا",
+          "a week (object form)",
+          "noun"
+        ],
+        [
+          "فِي",
+          "in",
+          "prep"
+        ],
+        [
+          "قَرْيَة",
+          "village",
+          "noun"
+        ],
+        [
+          "فِي",
+          "in",
+          "prep"
+        ],
+        [
+          "الْجَبَل",
+          "the mountain(s)",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "past-tense"
+      ]
+    },
+    {
+      "id": "d39s5",
+      "ar": "كُنَّا عَشَرَةَ أَشْخَاص فِي الْبَيْت.",
+      "en": "There were ten of us in the house.",
+      "literal": "we were ten persons in the house",
+      "segs": [
+        [
+          "كُنَّا",
+          "we were",
+          "verb"
+        ],
+        [
+          "عَشَرَةَ",
+          "ten",
+          "number"
+        ],
+        [
+          "أَشْخَاص",
+          "persons, people",
+          "noun"
+        ],
+        [
+          "فِي",
+          "in",
+          "prep"
+        ],
+        [
+          "الْبَيْت",
+          "the house",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "kana"
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Summer in the mountains",
+    "speakers": [
+      {
+        "key": "karim",
+        "name": "Mr Karim",
+        "nameAr": "الْأُسْتَاذ كَرِيم"
+      },
+      {
+        "key": "layla",
+        "name": "Layla",
+        "nameAr": "لَيْلَى"
+      },
+      {
+        "key": "daniel",
+        "name": "Daniel",
+        "nameAr": "دَانْيَال"
+      }
+    ],
+    "culture": "Many Lebanese families keep a house in a mountain village and go up for the summer to escape the heat of Beirut. Lebanese cooking is loved across the Arab world: تَبُّولَة (a parsley and bulgur salad), kibbeh (meat and bulgur balls) and manakish (flatbreads with thyme) are on every family table.",
+    "lines": [
+      {
+        "id": "d39l1",
+        "sp": "karim",
+        "ar": "يَا لَيْلَى، الْيَوْمَ دَوْرُكِ. حَدِّثِينَا عَنْ عُطْلَتِكِ الصَّيْفِيَّة فِي لُبْنَان، مِنْ فَضْلِكِ.",
+        "en": "Layla, today it's your turn. Please tell us about your summer holiday in Lebanon.",
+        "segs": [
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "لَيْلَى",
+            "Layla (first name)",
+            "name"
+          ],
+          [
+            "الْيَوْمَ",
+            "today"
+          ],
+          [
+            "دَوْرُكِ",
+            "your turn (to a woman)"
+          ],
+          [
+            "حَدِّثِينَا",
+            "tell us (to a woman)"
+          ],
+          [
+            "عَنْ",
+            "about"
+          ],
+          [
+            "عُطْلَتِكِ",
+            "your holiday (to a woman)"
+          ],
+          [
+            "الصَّيْفِيَّة",
+            "summer (describing word, f)"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "لُبْنَان",
+            "Lebanon (country)",
+            "name"
+          ],
+          [
+            "مِنْ",
+            "from"
+          ],
+          [
+            "فَضْلِكِ",
+            "your kindness (to a woman): 'please'"
+          ]
+        ]
+      },
+      {
+        "id": "d39l2",
+        "sp": "layla",
+        "ar": "بِكُلِّ سُرُور! فِي شَهْرِ يُولْيُو سَافَرْتُ إِلَى بَيْرُوت، وَكَانَتِ الرِّحْلَةُ بِالطَّائِرَة قَصِيرَةً.",
+        "en": "With pleasure! In July I travelled to Beirut, and the flight was short.",
+        "segs": [
+          [
+            "بِكُلِّ",
+            "with all"
+          ],
+          [
+            "سُرُور",
+            "pleasure"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "شَهْرِ",
+            "month (of)"
+          ],
+          [
+            "يُولْيُو",
+            "July"
+          ],
+          [
+            "سَافَرْتُ",
+            "I travelled"
+          ],
+          [
+            "إِلَى",
+            "to"
+          ],
+          [
+            "بَيْرُوت",
+            "Beirut (capital of Lebanon)",
+            "name"
+          ],
+          [
+            "وَكَانَتِ",
+            "and (it, f) was"
+          ],
+          [
+            "الرِّحْلَةُ",
+            "the trip, the journey"
+          ],
+          [
+            "بِالطَّائِرَة",
+            "by plane"
+          ],
+          [
+            "قَصِيرَةً",
+            "short (f, after 'was')"
+          ]
+        ]
+      },
+      {
+        "id": "d39l3",
+        "sp": "daniel",
+        "ar": "وَكَيْفَ كَانَتِ الْعُطْلَة؟ هَلْ بَقِيتِ فِي بَيْرُوت طُولَ الْوَقْت؟",
+        "en": "And how was the holiday? Did you stay in Beirut the whole time?",
+        "segs": [
+          [
+            "وَكَيْفَ",
+            "and how"
+          ],
+          [
+            "كَانَتِ",
+            "(it, f) was"
+          ],
+          [
+            "الْعُطْلَة",
+            "the holiday"
+          ],
+          [
+            "هَلْ",
+            "(starts a yes/no question)"
+          ],
+          [
+            "بَقِيتِ",
+            "you stayed (to a woman)"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "بَيْرُوت",
+            "Beirut (capital of Lebanon)",
+            "name"
+          ],
+          [
+            "طُولَ",
+            "(for) the length (of): the whole"
+          ],
+          [
+            "الْوَقْت",
+            "the time"
+          ]
+        ]
+      },
+      {
+        "id": "d39l4",
+        "sp": "layla",
+        "ar": "لَا، قَضَيْتُ أُسْبُوعًا فِي بَيْرُوت، ثُمَّ سَافَرْتُ إِلَى قَرْيَةِ جَدَّتِي فِي الْجَبَل.",
+        "en": "No, I spent a week in Beirut, then I travelled to my grandmother's village in the mountains.",
+        "segs": [
+          [
+            "لَا",
+            "no"
+          ],
+          [
+            "قَضَيْتُ",
+            "I spent"
+          ],
+          [
+            "أُسْبُوعًا",
+            "a week (object form)"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "بَيْرُوت",
+            "Beirut (capital of Lebanon)",
+            "name"
+          ],
+          [
+            "ثُمَّ",
+            "then"
+          ],
+          [
+            "سَافَرْتُ",
+            "I travelled"
+          ],
+          [
+            "إِلَى",
+            "to"
+          ],
+          [
+            "قَرْيَةِ",
+            "village (of)"
+          ],
+          [
+            "جَدَّتِي",
+            "my grandmother"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "الْجَبَل",
+            "the mountain(s)"
+          ]
+        ]
+      },
+      {
+        "id": "d39l5",
+        "sp": "karim",
+        "ar": "الْجَبَل فِي الصَّيْف! كَيْفَ كَانَ الْجَوُّ هُنَاكَ؟ هَلْ كَانَ حَارًّا مِثْلَ الْقَاهِرَة؟",
+        "en": "The mountains in summer! What was the weather like there? Was it hot like Cairo?",
+        "segs": [
+          [
+            "الْجَبَل",
+            "the mountain(s)"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "الصَّيْف",
+            "the summer"
+          ],
+          [
+            "كَيْفَ",
+            "how"
+          ],
+          [
+            "كَانَ",
+            "(it, m) was"
+          ],
+          [
+            "الْجَوُّ",
+            "the weather"
+          ],
+          [
+            "هُنَاكَ",
+            "there"
+          ],
+          [
+            "هَلْ",
+            "(starts a yes/no question)"
+          ],
+          [
+            "كَانَ",
+            "(it, m) was"
+          ],
+          [
+            "حَارًّا",
+            "hot (after 'was')"
+          ],
+          [
+            "مِثْلَ",
+            "like"
+          ],
+          [
+            "الْقَاهِرَة",
+            "Cairo (capital of Egypt)",
+            "name"
+          ]
+        ]
+      },
+      {
+        "id": "d39l6",
+        "sp": "layla",
+        "ar": "أَبَدًا! كَانَ الْجَوُّ لَطِيفًا جِدًّا، وَكَانَتِ اللَّيَالِي بَارِدَةً قَلِيلًا.",
+        "en": "Not at all! The weather was very pleasant, and the nights were a little cool.",
+        "segs": [
+          [
+            "أَبَدًا",
+            "never, not at all"
+          ],
+          [
+            "كَانَ",
+            "(it, m) was"
+          ],
+          [
+            "الْجَوُّ",
+            "the weather"
+          ],
+          [
+            "لَطِيفًا",
+            "pleasant, nice (after 'was')"
+          ],
+          [
+            "جِدًّا",
+            "very"
+          ],
+          [
+            "وَكَانَتِ",
+            "and (they, things) were"
+          ],
+          [
+            "اللَّيَالِي",
+            "the nights"
+          ],
+          [
+            "بَارِدَةً",
+            "cold, cool (f, after 'was')"
+          ],
+          [
+            "قَلِيلًا",
+            "a little"
+          ]
+        ]
+      },
+      {
+        "id": "d39l7",
+        "sp": "daniel",
+        "ar": "وَمَاذَا فَعَلْتِ فِي الْقَرْيَة؟ أَنَا لَا أَعْرِفُ الْقُرَى اللُّبْنَانِيَّة.",
+        "en": "And what did you do in the village? I don't know any Lebanese villages.",
+        "segs": [
+          [
+            "وَمَاذَا",
+            "and what (before a verb)"
+          ],
+          [
+            "فَعَلْتِ",
+            "you did (to a woman)"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "الْقَرْيَة",
+            "the village"
+          ],
+          [
+            "أَنَا",
+            "I"
+          ],
+          [
+            "لَا",
+            "not"
+          ],
+          [
+            "أَعْرِفُ",
+            "I know"
+          ],
+          [
+            "الْقُرَى",
+            "the villages"
+          ],
+          [
+            "اللُّبْنَانِيَّة",
+            "the Lebanese (f)"
+          ]
+        ]
+      },
+      {
+        "id": "d39l8",
+        "sp": "layla",
+        "ar": "كُلَّ صَبَاح مَشَيْتُ مَعَ جَدَّتِي إِلَى السُّوق، وَفِي الْمَسَاء جَلَسْنَا فِي الْحَدِيقَة مَعَ الْجِيرَان.",
+        "en": "Every morning I walked to the market with my grandmother, and in the evening we sat in the garden with the neighbours.",
+        "segs": [
+          [
+            "كُلَّ",
+            "every"
+          ],
+          [
+            "صَبَاح",
+            "morning"
+          ],
+          [
+            "مَشَيْتُ",
+            "I walked"
+          ],
+          [
+            "مَعَ",
+            "with"
+          ],
+          [
+            "جَدَّتِي",
+            "my grandmother"
+          ],
+          [
+            "إِلَى",
+            "to"
+          ],
+          [
+            "السُّوق",
+            "the market"
+          ],
+          [
+            "وَفِي",
+            "and in"
+          ],
+          [
+            "الْمَسَاء",
+            "the evening"
+          ],
+          [
+            "جَلَسْنَا",
+            "we sat"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "الْحَدِيقَة",
+            "the garden"
+          ],
+          [
+            "مَعَ",
+            "with"
+          ],
+          [
+            "الْجِيرَان",
+            "the neighbours"
+          ]
+        ]
+      },
+      {
+        "id": "d39l9",
+        "sp": "karim",
+        "ar": "جَمِيل! وَمَنْ كَانَ مَعَكِ؟ هَلْ كَانَتْ عَائِلَتُكِ كُلُّهَا هُنَاكَ؟",
+        "en": "Lovely! And who was with you? Was your whole family there?",
+        "segs": [
+          [
+            "جَمِيل",
+            "beautiful, lovely"
+          ],
+          [
+            "وَمَنْ",
+            "and who"
+          ],
+          [
+            "كَانَ",
+            "was"
+          ],
+          [
+            "مَعَكِ",
+            "with you (to a woman)"
+          ],
+          [
+            "هَلْ",
+            "(starts a yes/no question)"
+          ],
+          [
+            "كَانَتْ",
+            "(she, it) was"
+          ],
+          [
+            "عَائِلَتُكِ",
+            "your family (to a woman)"
+          ],
+          [
+            "كُلُّهَا",
+            "all of it, whole"
+          ],
+          [
+            "هُنَاكَ",
+            "there"
+          ]
+        ]
+      },
+      {
+        "id": "d39l10",
+        "sp": "layla",
+        "ar": "نَعَم، كُنَّا عَشَرَةَ أَشْخَاص فِي بَيْت صَغِير! كَانَ الْبَيْتُ مَلِيئًا بِالضَّحِك وَالْأَكْل.",
+        "en": "Yes, there were ten of us in a small house! The house was full of laughter and food.",
+        "segs": [
+          [
+            "نَعَم",
+            "yes"
+          ],
+          [
+            "كُنَّا",
+            "we were"
+          ],
+          [
+            "عَشَرَةَ",
+            "ten"
+          ],
+          [
+            "أَشْخَاص",
+            "persons, people"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "بَيْت",
+            "house"
+          ],
+          [
+            "صَغِير",
+            "small"
+          ],
+          [
+            "كَانَ",
+            "(it, m) was"
+          ],
+          [
+            "الْبَيْتُ",
+            "the house"
+          ],
+          [
+            "مَلِيئًا",
+            "full (after 'was')"
+          ],
+          [
+            "بِالضَّحِك",
+            "of laughter (lit. with the laughter)"
+          ],
+          [
+            "وَالْأَكْل",
+            "and the food"
+          ]
+        ]
+      },
+      {
+        "id": "d39l11",
+        "sp": "daniel",
+        "ar": "يَا سَلَام! كَانَتْ عُطْلَةً مُمْتِعَةً إِذَنْ. هَلْ أَكَلْتِ أَكْلًا لُبْنَانِيًّا كَثِيرًا؟",
+        "en": "Wow! So it was a really fun holiday. Did you eat a lot of Lebanese food?",
+        "segs": [
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "سَلَام",
+            "peace (yā salām: wow!)"
+          ],
+          [
+            "كَانَتْ",
+            "(she, it) was"
+          ],
+          [
+            "عُطْلَةً",
+            "a holiday (after 'was')"
+          ],
+          [
+            "مُمْتِعَةً",
+            "enjoyable, fun (f, after 'was')"
+          ],
+          [
+            "إِذَنْ",
+            "so, then"
+          ],
+          [
+            "هَلْ",
+            "(starts a yes/no question)"
+          ],
+          [
+            "أَكَلْتِ",
+            "you ate (to a woman)"
+          ],
+          [
+            "أَكْلًا",
+            "food (object form)"
+          ],
+          [
+            "لُبْنَانِيًّا",
+            "Lebanese (object form)"
+          ],
+          [
+            "كَثِيرًا",
+            "much, a lot"
+          ]
+        ]
+      },
+      {
+        "id": "d39l12",
+        "sp": "layla",
+        "ar": "طَبْعًا! جَدَّتِي طَبَخَتْ كُلَّ يَوْم: تَبُّولَة وَكِبَّة وَمَنَاقِيش. وَالْآنَ أَنَا أَشْتَاقُ إِلَيْهَا كَثِيرًا.",
+        "en": "Of course! My grandmother cooked every day: tabbouleh, kibbeh and manakish. And now I miss her very much.",
+        "segs": [
+          [
+            "طَبْعًا",
+            "of course"
+          ],
+          [
+            "جَدَّتِي",
+            "my grandmother"
+          ],
+          [
+            "طَبَخَتْ",
+            "she cooked"
+          ],
+          [
+            "كُلَّ",
+            "every"
+          ],
+          [
+            "يَوْم",
+            "day"
+          ],
+          [
+            "تَبُّولَة",
+            "tabbouleh (parsley salad)"
+          ],
+          [
+            "وَكِبَّة",
+            "and kibbeh (meat and bulgur balls)"
+          ],
+          [
+            "وَمَنَاقِيش",
+            "and manakish (thyme flatbreads)"
+          ],
+          [
+            "وَالْآنَ",
+            "and now"
+          ],
+          [
+            "أَنَا",
+            "I"
+          ],
+          [
+            "أَشْتَاقُ",
+            "I miss, I long"
+          ],
+          [
+            "إِلَيْهَا",
+            "for her (lit. to her)"
+          ],
+          [
+            "كَثِيرًا",
+            "much, a lot"
+          ]
+        ]
+      },
+      {
+        "id": "d39l13",
+        "sp": "karim",
+        "ar": "شُكْرًا يَا لَيْلَى، كَانَتْ قِصَّةً جَمِيلَةً. يَا طُلَّاب، لَاحِظُوا: كَانَ الْجَوُّ لَطِيفًا، وَكَانَتِ الْعُطْلَةُ مُمْتِعَةً.",
+        "en": "Thank you, Layla, that was a lovely story. Students, notice: 'the weather was pleasant' and 'the holiday was fun'.",
+        "segs": [
+          [
+            "شُكْرًا",
+            "thank you"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "لَيْلَى",
+            "Layla (first name)",
+            "name"
+          ],
+          [
+            "كَانَتْ",
+            "(she, it) was"
+          ],
+          [
+            "قِصَّةً",
+            "a story (after 'was')"
+          ],
+          [
+            "جَمِيلَةً",
+            "beautiful (f, after 'was')"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "طُلَّاب",
+            "students"
+          ],
+          [
+            "لَاحِظُوا",
+            "notice (to several people)"
+          ],
+          [
+            "كَانَ",
+            "(it, m) was"
+          ],
+          [
+            "الْجَوُّ",
+            "the weather"
+          ],
+          [
+            "لَطِيفًا",
+            "pleasant, nice (after 'was')"
+          ],
+          [
+            "وَكَانَتِ",
+            "and (it, f) was"
+          ],
+          [
+            "الْعُطْلَةُ",
+            "the holiday"
+          ],
+          [
+            "مُمْتِعَةً",
+            "enjoyable, fun (f, after 'was')"
+          ]
+        ]
+      },
+      {
+        "id": "d39l14",
+        "sp": "daniel",
+        "ar": "فَهِمْتُ يَا أُسْتَاذ! بَعْدَ كَانَ نَقُولُ لَطِيفًا، لَا لَطِيف.",
+        "en": "I understand, teacher! After kāna we say laṭīfan, not laṭīf.",
+        "segs": [
+          [
+            "فَهِمْتُ",
+            "I understood"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "أُسْتَاذ",
+            "teacher"
+          ],
+          [
+            "بَعْدَ",
+            "after"
+          ],
+          [
+            "كَانَ",
+            "'was' (kāna)"
+          ],
+          [
+            "نَقُولُ",
+            "we say"
+          ],
+          [
+            "لَطِيفًا",
+            "pleasant, nice (after 'was')"
+          ],
+          [
+            "لَا",
+            "not"
+          ],
+          [
+            "لَطِيف",
+            "pleasant, nice"
+          ]
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "title": "Layla's holiday",
+    "ar": "سَافَرْتُ إِلَى لُبْنَان فِي الصَّيْف. قَضَيْتُ أُسْبُوعًا فِي بَيْرُوت، ثُمَّ ذَهَبْتُ إِلَى قَرْيَةِ جَدَّتِي فِي الْجَبَل. كَانَ الْجَوُّ لَطِيفًا، وَكَانَتِ الْعُطْلَةُ مُمْتِعَةً جِدًّا.",
+    "en": "I travelled to Lebanon in the summer. I spent a week in Beirut, then I went to my grandmother's village in the mountains. The weather was pleasant, and the holiday was great fun.",
+    "segs": [
+      [
+        "سَافَرْتُ",
+        "I travelled"
+      ],
+      [
+        "إِلَى",
+        "to"
+      ],
+      [
+        "لُبْنَان",
+        "Lebanon (country)",
+        "name"
+      ],
+      [
+        "فِي",
+        "in"
+      ],
+      [
+        "الصَّيْف",
+        "the summer"
+      ],
+      [
+        "قَضَيْتُ",
+        "I spent"
+      ],
+      [
+        "أُسْبُوعًا",
+        "a week (object form)"
+      ],
+      [
+        "فِي",
+        "in"
+      ],
+      [
+        "بَيْرُوت",
+        "Beirut (capital of Lebanon)",
+        "name"
+      ],
+      [
+        "ثُمَّ",
+        "then"
+      ],
+      [
+        "ذَهَبْتُ",
+        "I went"
+      ],
+      [
+        "إِلَى",
+        "to"
+      ],
+      [
+        "قَرْيَةِ",
+        "village (of)"
+      ],
+      [
+        "جَدَّتِي",
+        "my grandmother"
+      ],
+      [
+        "فِي",
+        "in"
+      ],
+      [
+        "الْجَبَل",
+        "the mountain(s)"
+      ],
+      [
+        "كَانَ",
+        "(it, m) was"
+      ],
+      [
+        "الْجَوُّ",
+        "the weather"
+      ],
+      [
+        "لَطِيفًا",
+        "pleasant, nice (after 'was')"
+      ],
+      [
+        "وَكَانَتِ",
+        "and (it, f) was"
+      ],
+      [
+        "الْعُطْلَةُ",
+        "the holiday"
+      ],
+      [
+        "مُمْتِعَةً",
+        "enjoyable, fun (f, after 'was')"
+      ],
+      [
+        "جِدًّا",
+        "very"
+      ]
+    ]
+  },
+  "review": [
+    "masha",
+    "tabakha",
+    "munthu",
+    "akala",
+    "utla"
+  ],
+  "quiz": [
+    {
+      "id": "d39q1",
+      "prompt": "What does this mean?",
+      "ar": "كَانَ الْجَوُّ لَطِيفًا.",
+      "options": [
+        "The weather is nice.",
+        "The weather was nice.",
+        "The weather will be nice.",
+        "The weather wasn't nice."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "d39q2",
+      "prompt": "Fill the gap: 'The trip was short.'",
+      "ar": "… الرِّحْلَةُ قَصِيرَةً.",
+      "options": [
+        "كَانَ",
+        "كُنْتُ",
+        "كَانَتِ",
+        "كُنَّا"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "d39q3",
+      "prompt": "Choose the correct sentence: 'The house was full.'",
+      "options": [
+        "كَانَ الْبَيْتُ مَلِيئًا.",
+        "كَانَ الْبَيْتُ مَلِيء.",
+        "كَانَتِ الْبَيْتُ مَلِيئًا.",
+        "الْبَيْتُ كَانَتْ مَلِيئًا."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "d39q4",
+      "prompt": "Where does Layla's grandmother live?",
+      "options": [
+        "in Beirut",
+        "in a village in the mountains",
+        "in Cairo",
+        "in Amman"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "d39q5",
+      "prompt": "Which form means 'we were'?",
+      "options": [
+        "كُنْتُ",
+        "كَانُوا",
+        "كُنَّا",
+        "كَانَتْ"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "d39q6",
+      "prompt": "What did Layla do every morning in the village?",
+      "options": [
+        "She swam in the sea.",
+        "She walked to the market with her grandmother.",
+        "She cooked kibbeh.",
+        "She studied Arabic."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "d39q7",
+      "prompt": "Which word starts with an emphatic letter after the article (ṣ, ḍ, ṭ or ẓ)?",
+      "options": [
+        "الصَّيْف",
+        "الْجَبَل",
+        "الْقَرْيَة",
+        "الْحَدِيقَة"
+      ],
+      "answer": 0
+    }
+  ],
+  "completion": "Wonderful! You can describe a holiday with كَانَ and give descriptions the -an ending. Next: putting events in order with before and after.",
+  "status": "needs-review"
+}

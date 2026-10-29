@@ -1,0 +1,1134 @@
+{
+  "day": 36,
+  "week": 6,
+  "phase": 3,
+  "level": 4,
+  "title": "Yesterday",
+  "titleAr": "أَمْسِ",
+  "titleSegs": [
+    [
+      "أَمْسِ",
+      "yesterday"
+    ]
+  ],
+  "emoji": "📅",
+  "summary": "Talk about yesterday with the past tense: I went, you went, he went, she went, we went.",
+  "intro": "Arabic dictionaries list every verb in the past tense, in the 'he' form: ذَهَبَ means 'he went'. To show who did the action, add an ending: ذَهَبْتُ (I went), ذَهَبَتْ (she went), ذَهَبْنَا (we went). The ending already tells you the person, so أَنَا is usually left out. Today Daniel tells the class about his day trip to Alexandria.",
+  "objectives": [
+    "Say what you did yesterday with ذَهَبْتُ, أَكَلْتُ and رَجَعْتُ",
+    "Change a past verb for I, you, he, she and we",
+    "Ask a yes/no question about yesterday with هَلْ",
+    "Hear and say a clean sukūn, as in ذَهَبْتُ"
+  ],
+  "realLife": {
+    "emoji": "🚆",
+    "title": "A day by the sea",
+    "story": "On Saturday Daniel and Sami took the early train to Alexandria and spent the whole day by the sea. On Sunday morning Mr Karim asks the class what everyone did yesterday, and Daniel has a lot to tell."
+  },
+  "letters": [],
+  "newWords": [
+    "ams",
+    "dhahaba",
+    "rajaa",
+    "wasala",
+    "akala",
+    "shahada",
+    "qitar",
+    "bahr"
+  ],
+  "grammar": [
+    "past-tense"
+  ],
+  "pronunciation": [
+    "sukun"
+  ],
+  "sentences": [
+    {
+      "id": "d36s1",
+      "ar": "ذَهَبْتُ إِلَى الْإِسْكَنْدَرِيَّة أَمْسِ.",
+      "en": "Yesterday I went to Alexandria.",
+      "literal": "I went to Alexandria yesterday",
+      "segs": [
+        [
+          "ذَهَبْتُ",
+          "I went",
+          "verb"
+        ],
+        [
+          "إِلَى",
+          "to",
+          "prep"
+        ],
+        [
+          "الْإِسْكَنْدَرِيَّة",
+          "Alexandria (city in Egypt)",
+          "name"
+        ],
+        [
+          "أَمْسِ",
+          "yesterday",
+          "adverb"
+        ]
+      ],
+      "grammar": [
+        "past-tense"
+      ],
+      "mistakes": [
+        {
+          "wrong": "أَنَا ذَهَبَ إِلَى الْإِسْكَنْدَرِيَّة",
+          "right": "أَنَا ذَهَبْتُ إِلَى الْإِسْكَنْدَرِيَّة",
+          "why": "ذَهَبَ on its own means 'he went'. For 'I' the verb needs the ending -tu: ذَهَبْتُ."
+        }
+      ]
+    },
+    {
+      "id": "d36s2",
+      "ar": "رَجَعَ سَامِي بِالْقِطَار فِي الْمَسَاء.",
+      "en": "Sami came back by train in the evening.",
+      "literal": "came back Sami by the train in the evening",
+      "segs": [
+        [
+          "رَجَعَ",
+          "he came back",
+          "verb"
+        ],
+        [
+          "سَامِي",
+          "Sami (first name)",
+          "name"
+        ],
+        [
+          "بِالْقِطَار",
+          "by the train",
+          "noun"
+        ],
+        [
+          "فِي",
+          "in",
+          "prep"
+        ],
+        [
+          "الْمَسَاء",
+          "the evening",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "past-tense"
+      ]
+    },
+    {
+      "id": "d36s3",
+      "ar": "شَاهَدَتْ لَيْلَى فِيلْمًا فِي الْبَيْت.",
+      "en": "Layla watched a film at home.",
+      "literal": "watched (she) Layla a film in the house",
+      "segs": [
+        [
+          "شَاهَدَتْ",
+          "she watched",
+          "verb"
+        ],
+        [
+          "لَيْلَى",
+          "Layla (first name)",
+          "name"
+        ],
+        [
+          "فِيلْمًا",
+          "a film (object form)",
+          "noun"
+        ],
+        [
+          "فِي",
+          "in, at",
+          "prep"
+        ],
+        [
+          "الْبَيْت",
+          "the house, home",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "past-tense"
+      ],
+      "mistakes": [
+        {
+          "wrong": "شَاهَدَ لَيْلَى فِيلْمًا",
+          "right": "شَاهَدَتْ لَيْلَى فِيلْمًا",
+          "why": "Layla is a woman, so the verb takes the she-ending -at, even when the verb comes first."
+        }
+      ]
+    },
+    {
+      "id": "d36s4",
+      "ar": "هَلْ أَكَلْتَ سَمَكًا فِي الْإِسْكَنْدَرِيَّة؟",
+      "en": "Did you eat fish in Alexandria? (to a man)",
+      "literal": "(question) you ate fish in Alexandria",
+      "segs": [
+        [
+          "هَلْ",
+          "(starts a yes/no question)",
+          "question"
+        ],
+        [
+          "أَكَلْتَ",
+          "you ate (to a man)",
+          "verb"
+        ],
+        [
+          "سَمَكًا",
+          "fish (object form)",
+          "noun"
+        ],
+        [
+          "فِي",
+          "in",
+          "prep"
+        ],
+        [
+          "الْإِسْكَنْدَرِيَّة",
+          "Alexandria (city in Egypt)",
+          "name"
+        ]
+      ],
+      "grammar": [
+        "past-tense",
+        "questions"
+      ],
+      "mistakes": [
+        {
+          "wrong": "هَلْ أَكَلْتِ سَمَكًا؟ (to Daniel)",
+          "right": "هَلْ أَكَلْتَ سَمَكًا؟",
+          "why": "-ta is 'you' to a man and -ti is 'you' to a woman. Only the last vowel is different."
+        }
+      ]
+    },
+    {
+      "id": "d36s5",
+      "ar": "أَكَلْنَا سَمَكًا قُرْبَ الْبَحْر.",
+      "en": "We ate fish near the sea.",
+      "literal": "we ate fish near the sea",
+      "segs": [
+        [
+          "أَكَلْنَا",
+          "we ate",
+          "verb"
+        ],
+        [
+          "سَمَكًا",
+          "fish (object form)",
+          "noun"
+        ],
+        [
+          "قُرْبَ",
+          "near",
+          "prep"
+        ],
+        [
+          "الْبَحْر",
+          "the sea",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "past-tense"
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Back from Alexandria",
+    "speakers": [
+      {
+        "key": "karim",
+        "name": "Mr Karim",
+        "nameAr": "الْأُسْتَاذ كَرِيم"
+      },
+      {
+        "key": "daniel",
+        "name": "Daniel",
+        "nameAr": "دَانْيَال"
+      },
+      {
+        "key": "layla",
+        "name": "Layla",
+        "nameAr": "لَيْلَى"
+      },
+      {
+        "key": "sami",
+        "name": "Sami",
+        "nameAr": "سَامِي"
+      }
+    ],
+    "culture": "Alexandria (الْإِسْكَنْدَرِيَّة), Egypt's second city, was founded by Alexander the Great in 331 BC. Trains from Cairo's Ramses Station take about two and a half hours, and on hot summer days many Cairenes escape to its long seafront road, the Corniche.",
+    "lines": [
+      {
+        "id": "d36l1",
+        "sp": "karim",
+        "ar": "صَبَاحُ الْخَيْر يَا طُلَّاب! الْيَوْمَ نَتَكَلَّمُ عَنِ الْمَاضِي. مَاذَا فَعَلْتُمْ أَمْسِ؟",
+        "en": "Good morning, students! Today we are going to talk about the past. What did you do yesterday?",
+        "segs": [
+          [
+            "صَبَاحُ",
+            "morning (of)"
+          ],
+          [
+            "الْخَيْر",
+            "the goodness"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "طُلَّاب",
+            "students"
+          ],
+          [
+            "الْيَوْمَ",
+            "today"
+          ],
+          [
+            "نَتَكَلَّمُ",
+            "we talk, we speak"
+          ],
+          [
+            "عَنِ",
+            "about"
+          ],
+          [
+            "الْمَاضِي",
+            "the past"
+          ],
+          [
+            "مَاذَا",
+            "what (before a verb)"
+          ],
+          [
+            "فَعَلْتُمْ",
+            "you did (to several people)"
+          ],
+          [
+            "أَمْسِ",
+            "yesterday"
+          ]
+        ]
+      },
+      {
+        "id": "d36l2",
+        "sp": "daniel",
+        "ar": "صَبَاحُ النُّور يَا أُسْتَاذ! أَمْسِ ذَهَبْتُ إِلَى الْإِسْكَنْدَرِيَّة مَعَ سَامِي.",
+        "en": "Good morning, teacher! Yesterday I went to Alexandria with Sami.",
+        "segs": [
+          [
+            "صَبَاحُ",
+            "morning (of)"
+          ],
+          [
+            "النُّور",
+            "the light"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "أُسْتَاذ",
+            "teacher"
+          ],
+          [
+            "أَمْسِ",
+            "yesterday"
+          ],
+          [
+            "ذَهَبْتُ",
+            "I went"
+          ],
+          [
+            "إِلَى",
+            "to"
+          ],
+          [
+            "الْإِسْكَنْدَرِيَّة",
+            "Alexandria (city in Egypt)",
+            "name"
+          ],
+          [
+            "مَعَ",
+            "with"
+          ],
+          [
+            "سَامِي",
+            "Sami (first name)",
+            "name"
+          ]
+        ]
+      },
+      {
+        "id": "d36l3",
+        "sp": "karim",
+        "ar": "جَمِيل! وَكَيْفَ ذَهَبْتَ إِلَى هُنَاكَ يَا دَانْيَال؟ بِالسَّيَّارَة أَمْ بِالْقِطَار؟",
+        "en": "Lovely! And how did you get there, Daniel? By car or by train?",
+        "segs": [
+          [
+            "جَمِيل",
+            "beautiful, lovely"
+          ],
+          [
+            "وَكَيْفَ",
+            "and how"
+          ],
+          [
+            "ذَهَبْتَ",
+            "you went (to a man)"
+          ],
+          [
+            "إِلَى",
+            "to"
+          ],
+          [
+            "هُنَاكَ",
+            "there"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "دَانْيَال",
+            "Daniel (first name)",
+            "name"
+          ],
+          [
+            "بِالسَّيَّارَة",
+            "by car"
+          ],
+          [
+            "أَمْ",
+            "or (in questions)"
+          ],
+          [
+            "بِالْقِطَار",
+            "by train"
+          ]
+        ]
+      },
+      {
+        "id": "d36l4",
+        "sp": "daniel",
+        "ar": "ذَهَبْنَا بِالْقِطَار فِي السَّاعَة السَّابِعَة صَبَاحًا، وَوَصَلْنَا فِي السَّاعَة الْعَاشِرَة.",
+        "en": "We went by train at seven o'clock in the morning, and we arrived at ten.",
+        "segs": [
+          [
+            "ذَهَبْنَا",
+            "we went"
+          ],
+          [
+            "بِالْقِطَار",
+            "by train"
+          ],
+          [
+            "فِي",
+            "in, at"
+          ],
+          [
+            "السَّاعَة",
+            "the hour, o'clock"
+          ],
+          [
+            "السَّابِعَة",
+            "the seventh"
+          ],
+          [
+            "صَبَاحًا",
+            "in the morning"
+          ],
+          [
+            "وَوَصَلْنَا",
+            "and we arrived"
+          ],
+          [
+            "فِي",
+            "in, at"
+          ],
+          [
+            "السَّاعَة",
+            "the hour, o'clock"
+          ],
+          [
+            "الْعَاشِرَة",
+            "the tenth"
+          ]
+        ]
+      },
+      {
+        "id": "d36l5",
+        "sp": "karim",
+        "ar": "وَمَاذَا فَعَلْتَ هُنَاكَ؟ هَلْ شَاهَدْتَ الْبَحْر؟",
+        "en": "And what did you do there? Did you see the sea?",
+        "segs": [
+          [
+            "وَمَاذَا",
+            "and what (before a verb)"
+          ],
+          [
+            "فَعَلْتَ",
+            "you did (to a man)"
+          ],
+          [
+            "هُنَاكَ",
+            "there"
+          ],
+          [
+            "هَلْ",
+            "(starts a yes/no question)"
+          ],
+          [
+            "شَاهَدْتَ",
+            "you saw (to a man)"
+          ],
+          [
+            "الْبَحْر",
+            "the sea"
+          ]
+        ]
+      },
+      {
+        "id": "d36l6",
+        "sp": "daniel",
+        "ar": "نَعَم! شَاهَدْتُ الْبَحْر الْأَبْيَض الْمُتَوَسِّط لِأَوَّلِ مَرَّة، وَمَشَيْنَا عَلَى الْكُورْنِيش.",
+        "en": "Yes! I saw the Mediterranean Sea for the first time, and we walked along the Corniche.",
+        "segs": [
+          [
+            "نَعَم",
+            "yes"
+          ],
+          [
+            "شَاهَدْتُ",
+            "I saw"
+          ],
+          [
+            "الْبَحْر",
+            "the sea"
+          ],
+          [
+            "الْأَبْيَض",
+            "the white"
+          ],
+          [
+            "الْمُتَوَسِّط",
+            "the middle (with 'the white sea': the Mediterranean)"
+          ],
+          [
+            "لِأَوَّلِ",
+            "for the first"
+          ],
+          [
+            "مَرَّة",
+            "time, occasion"
+          ],
+          [
+            "وَمَشَيْنَا",
+            "and we walked"
+          ],
+          [
+            "عَلَى",
+            "on, along"
+          ],
+          [
+            "الْكُورْنِيش",
+            "the Corniche (seafront road)",
+            "name"
+          ]
+        ]
+      },
+      {
+        "id": "d36l7",
+        "sp": "sami",
+        "ar": "وَأَكَلْنَا سَمَكًا طَازَجًا فِي مَطْعَم صَغِير قُرْبَ الْبَحْر. سَمَك لَذِيذ جِدًّا!",
+        "en": "And we ate fresh fish in a small restaurant near the sea. Really delicious fish!",
+        "segs": [
+          [
+            "وَأَكَلْنَا",
+            "and we ate"
+          ],
+          [
+            "سَمَكًا",
+            "fish (object form)"
+          ],
+          [
+            "طَازَجًا",
+            "fresh (object form)"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "مَطْعَم",
+            "restaurant"
+          ],
+          [
+            "صَغِير",
+            "small"
+          ],
+          [
+            "قُرْبَ",
+            "near"
+          ],
+          [
+            "الْبَحْر",
+            "the sea"
+          ],
+          [
+            "سَمَك",
+            "fish"
+          ],
+          [
+            "لَذِيذ",
+            "delicious"
+          ],
+          [
+            "جِدًّا",
+            "very"
+          ]
+        ]
+      },
+      {
+        "id": "d36l8",
+        "sp": "karim",
+        "ar": "وَأَنْتِ يَا لَيْلَى؟ هَلْ ذَهَبْتِ مَعَهُمَا إِلَى الْإِسْكَنْدَرِيَّة أَيْضًا؟",
+        "en": "And you, Layla? Did you go to Alexandria with them too?",
+        "segs": [
+          [
+            "وَأَنْتِ",
+            "and you (to a woman)"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "لَيْلَى",
+            "Layla (first name)",
+            "name"
+          ],
+          [
+            "هَلْ",
+            "(starts a yes/no question)"
+          ],
+          [
+            "ذَهَبْتِ",
+            "you went (to a woman)"
+          ],
+          [
+            "مَعَهُمَا",
+            "with them (two)"
+          ],
+          [
+            "إِلَى",
+            "to"
+          ],
+          [
+            "الْإِسْكَنْدَرِيَّة",
+            "Alexandria (city in Egypt)",
+            "name"
+          ],
+          [
+            "أَيْضًا",
+            "also, too"
+          ]
+        ]
+      },
+      {
+        "id": "d36l9",
+        "sp": "layla",
+        "ar": "لَا يَا أُسْتَاذ، لِلْأَسَف. اِتَّصَلَتْ أُمِّي مِنْ بَيْرُوت، وَتَكَلَّمْنَا سَاعَةً كَامِلَةً.",
+        "en": "No, teacher, unfortunately not. My mother phoned from Beirut, and we talked for a whole hour.",
+        "segs": [
+          [
+            "لَا",
+            "no"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "أُسْتَاذ",
+            "teacher"
+          ],
+          [
+            "لِلْأَسَف",
+            "unfortunately"
+          ],
+          [
+            "اِتَّصَلَتْ",
+            "she phoned, she called"
+          ],
+          [
+            "أُمِّي",
+            "my mother"
+          ],
+          [
+            "مِنْ",
+            "from"
+          ],
+          [
+            "بَيْرُوت",
+            "Beirut (capital of Lebanon)",
+            "name"
+          ],
+          [
+            "وَتَكَلَّمْنَا",
+            "and we talked"
+          ],
+          [
+            "سَاعَةً",
+            "an hour (for an hour)"
+          ],
+          [
+            "كَامِلَةً",
+            "whole, complete (f)"
+          ]
+        ]
+      },
+      {
+        "id": "d36l10",
+        "sp": "layla",
+        "ar": "بَعْدَ ذٰلِكَ دَرَسْتُ قَلِيلًا، وَفِي الْمَسَاء شَاهَدْتُ فِيلْمًا مِصْرِيًّا قَدِيمًا.",
+        "en": "After that I studied a little, and in the evening I watched an old Egyptian film.",
+        "segs": [
+          [
+            "بَعْدَ",
+            "after"
+          ],
+          [
+            "ذٰلِكَ",
+            "that"
+          ],
+          [
+            "دَرَسْتُ",
+            "I studied"
+          ],
+          [
+            "قَلِيلًا",
+            "a little"
+          ],
+          [
+            "وَفِي",
+            "and in"
+          ],
+          [
+            "الْمَسَاء",
+            "the evening"
+          ],
+          [
+            "شَاهَدْتُ",
+            "I watched"
+          ],
+          [
+            "فِيلْمًا",
+            "a film (object form)"
+          ],
+          [
+            "مِصْرِيًّا",
+            "Egyptian (object form)"
+          ],
+          [
+            "قَدِيمًا",
+            "old (object form)"
+          ]
+        ]
+      },
+      {
+        "id": "d36l11",
+        "sp": "karim",
+        "ar": "فِيلْم مِصْرِيّ قَدِيم؟ مُمْتَاز! وَمَتَى رَجَعْتُمَا إِلَى الْقَاهِرَة يَا سَامِي؟",
+        "en": "An old Egyptian film? Excellent! And when did you two come back to Cairo, Sami?",
+        "segs": [
+          [
+            "فِيلْم",
+            "film"
+          ],
+          [
+            "مِصْرِيّ",
+            "Egyptian"
+          ],
+          [
+            "قَدِيم",
+            "old"
+          ],
+          [
+            "مُمْتَاز",
+            "excellent"
+          ],
+          [
+            "وَمَتَى",
+            "and when"
+          ],
+          [
+            "رَجَعْتُمَا",
+            "you came back (to two people)"
+          ],
+          [
+            "إِلَى",
+            "to"
+          ],
+          [
+            "الْقَاهِرَة",
+            "Cairo (capital of Egypt)",
+            "name"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "سَامِي",
+            "Sami (first name)",
+            "name"
+          ]
+        ]
+      },
+      {
+        "id": "d36l12",
+        "sp": "sami",
+        "ar": "رَجَعْنَا بِالْقِطَار فِي الْمَسَاء، وَوَصَلْنَا إِلَى الْبَيْت فِي مُنْتَصَفِ اللَّيْل.",
+        "en": "We came back by train in the evening, and we got home at midnight.",
+        "segs": [
+          [
+            "رَجَعْنَا",
+            "we came back"
+          ],
+          [
+            "بِالْقِطَار",
+            "by train"
+          ],
+          [
+            "فِي",
+            "in, at"
+          ],
+          [
+            "الْمَسَاء",
+            "the evening"
+          ],
+          [
+            "وَوَصَلْنَا",
+            "and we arrived"
+          ],
+          [
+            "إِلَى",
+            "to"
+          ],
+          [
+            "الْبَيْت",
+            "the house, home"
+          ],
+          [
+            "فِي",
+            "in, at"
+          ],
+          [
+            "مُنْتَصَفِ",
+            "the middle (of)"
+          ],
+          [
+            "اللَّيْل",
+            "the night"
+          ]
+        ]
+      },
+      {
+        "id": "d36l13",
+        "sp": "daniel",
+        "ar": "وَفِي الْقِطَار كَتَبْتُ رِسَالَة طَوِيلَة إِلَى أُخْتِي إِيمَا عَنْ كُلِّ شَيْء.",
+        "en": "And on the train I wrote a long message to my sister Emma about everything.",
+        "segs": [
+          [
+            "وَفِي",
+            "and in, and on"
+          ],
+          [
+            "الْقِطَار",
+            "the train"
+          ],
+          [
+            "كَتَبْتُ",
+            "I wrote"
+          ],
+          [
+            "رِسَالَة",
+            "message, letter"
+          ],
+          [
+            "طَوِيلَة",
+            "long (f)"
+          ],
+          [
+            "إِلَى",
+            "to"
+          ],
+          [
+            "أُخْتِي",
+            "my sister"
+          ],
+          [
+            "إِيمَا",
+            "Emma (first name)",
+            "name"
+          ],
+          [
+            "عَنْ",
+            "about"
+          ],
+          [
+            "كُلِّ",
+            "every, all"
+          ],
+          [
+            "شَيْء",
+            "thing"
+          ]
+        ]
+      },
+      {
+        "id": "d36l14",
+        "sp": "karim",
+        "ar": "رَائِع! إِذَنْ، هٰذَا هُوَ الْوَاجِب: اُكْتُبُوا خَمْس جُمَل عَنْ يَوْمِ أَمْسِ.",
+        "en": "Wonderful! So here is your homework: write five sentences about yesterday.",
+        "segs": [
+          [
+            "رَائِع",
+            "wonderful"
+          ],
+          [
+            "إِذَنْ",
+            "so, then"
+          ],
+          [
+            "هٰذَا",
+            "this (m)"
+          ],
+          [
+            "هُوَ",
+            "he, it (m)"
+          ],
+          [
+            "الْوَاجِب",
+            "the homework"
+          ],
+          [
+            "اُكْتُبُوا",
+            "write (to several people)"
+          ],
+          [
+            "خَمْس",
+            "five"
+          ],
+          [
+            "جُمَل",
+            "sentences"
+          ],
+          [
+            "عَنْ",
+            "about"
+          ],
+          [
+            "يَوْمِ",
+            "day (of)"
+          ],
+          [
+            "أَمْسِ",
+            "yesterday"
+          ]
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "title": "Daniel's diary",
+    "ar": "ذَهَبْتُ أَمْسِ إِلَى الْإِسْكَنْدَرِيَّة بِالْقِطَار. شَاهَدْتُ الْبَحْر، وَأَكَلْنَا سَمَكًا فِي مَطْعَم صَغِير. رَجَعْنَا إِلَى الْقَاهِرَة فِي الْمَسَاء، وَكَتَبْتُ رِسَالَة إِلَى إِيمَا.",
+    "en": "Yesterday I went to Alexandria by train. I saw the sea, and we ate fish in a small restaurant. We came back to Cairo in the evening, and I wrote a message to Emma.",
+    "segs": [
+      [
+        "ذَهَبْتُ",
+        "I went"
+      ],
+      [
+        "أَمْسِ",
+        "yesterday"
+      ],
+      [
+        "إِلَى",
+        "to"
+      ],
+      [
+        "الْإِسْكَنْدَرِيَّة",
+        "Alexandria (city in Egypt)",
+        "name"
+      ],
+      [
+        "بِالْقِطَار",
+        "by train"
+      ],
+      [
+        "شَاهَدْتُ",
+        "I saw"
+      ],
+      [
+        "الْبَحْر",
+        "the sea"
+      ],
+      [
+        "وَأَكَلْنَا",
+        "and we ate"
+      ],
+      [
+        "سَمَكًا",
+        "fish (object form)"
+      ],
+      [
+        "فِي",
+        "in"
+      ],
+      [
+        "مَطْعَم",
+        "restaurant"
+      ],
+      [
+        "صَغِير",
+        "small"
+      ],
+      [
+        "رَجَعْنَا",
+        "we came back"
+      ],
+      [
+        "إِلَى",
+        "to"
+      ],
+      [
+        "الْقَاهِرَة",
+        "Cairo (capital of Egypt)",
+        "name"
+      ],
+      [
+        "فِي",
+        "in"
+      ],
+      [
+        "الْمَسَاء",
+        "the evening"
+      ],
+      [
+        "وَكَتَبْتُ",
+        "and I wrote"
+      ],
+      [
+        "رِسَالَة",
+        "message, letter"
+      ],
+      [
+        "إِلَى",
+        "to"
+      ],
+      [
+        "إِيمَا",
+        "Emma (first name)",
+        "name"
+      ]
+    ]
+  },
+  "review": [
+    "ana",
+    "ukht",
+    "sayyara",
+    "bayt",
+    "samak"
+  ],
+  "quiz": [
+    {
+      "id": "d36q1",
+      "prompt": "What does this mean?",
+      "ar": "أَمْسِ",
+      "options": [
+        "tomorrow",
+        "today",
+        "yesterday",
+        "now"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "d36q2",
+      "prompt": "Which form means 'I went'?",
+      "options": [
+        "ذَهَبَتْ",
+        "ذَهَبْتُ",
+        "ذَهَبَ",
+        "ذَهَبْنَا"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "d36q3",
+      "prompt": "Fill the gap: 'Layla watched a film.'",
+      "ar": "… لَيْلَى فِيلْمًا.",
+      "options": [
+        "شَاهَدَ",
+        "شَاهَدْتُ",
+        "شَاهَدَتْ",
+        "شَاهَدْتَ"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "d36q4",
+      "prompt": "How did Daniel and Sami travel to Alexandria?",
+      "options": [
+        "by car",
+        "by bus",
+        "by plane",
+        "by train"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "d36q5",
+      "prompt": "What does this mean?",
+      "ar": "رَجَعْنَا فِي الْمَسَاء.",
+      "options": [
+        "We came back in the evening.",
+        "We went in the morning.",
+        "They came back at night.",
+        "I arrived in the evening."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "d36q6",
+      "prompt": "Why didn't Layla go to Alexandria?",
+      "options": [
+        "She was ill.",
+        "She had an exam.",
+        "Her mother phoned from Beirut.",
+        "She went to the cinema."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "d36q7",
+      "prompt": "In ذَهَبْتُ (I went), which consonant carries the sukūn ْ?",
+      "options": [
+        "ذ",
+        "ه",
+        "ب",
+        "ت"
+      ],
+      "answer": 2
+    }
+  ],
+  "completion": "Well done! You can say what you and other people did yesterday. Tomorrow you will ask 'What did you do?' and hear all about the trip.",
+  "status": "needs-review"
+}

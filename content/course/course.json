@@ -926,7 +926,124 @@
      "title": "A short story"
     }
    ],
-   "test": []
+   "test": [
+    {
+     "id": "w6t1",
+     "prompt": "What does this mean?",
+     "options": [
+      "I'm going to Alexandria tomorrow.",
+      "Yesterday I went to Alexandria.",
+      "She went to Alexandria yesterday.",
+      "We went to Alexandria last week."
+     ],
+     "answer": 1,
+     "ar": "ذَهَبْتُ إِلَى الْإِسْكَنْدَرِيَّة أَمْسِ."
+    },
+    {
+     "id": "w6t2",
+     "prompt": "Which form means 'she went'?",
+     "options": [
+      "ذَهَبْتُ",
+      "ذَهَبَ",
+      "ذَهَبْنَا",
+      "ذَهَبَتْ"
+     ],
+     "answer": 3
+    },
+    {
+     "id": "w6t3",
+     "prompt": "Fill the gap: 'What did you do on Friday?' (to a man)",
+     "options": [
+      "مَاذَا",
+      "مَا",
+      "لَمْ",
+      "مَنْ"
+     ],
+     "answer": 0,
+     "ar": "… فَعَلْتَ يَوْمَ الْجُمُعَة؟"
+    },
+    {
+     "id": "w6t4",
+     "prompt": "What does this mean?",
+     "options": [
+      "I swam.",
+      "What did I swim?",
+      "I didn't swim.",
+      "Swim!"
+     ],
+     "answer": 2,
+     "ar": "مَا سَبَحْتُ."
+    },
+    {
+     "id": "w6t5",
+     "prompt": "Choose the correct sentence: 'I didn't go.'",
+     "options": [
+      "لَمْ ذَهَبْتُ.",
+      "لَمْ أَذْهَبْ.",
+      "لَا ذَهَبْتُ.",
+      "لَمْ أَذْهَبُ."
+     ],
+     "answer": 1
+    },
+    {
+     "id": "w6t6",
+     "prompt": "What does this mean?",
+     "options": [
+      "a week ago",
+      "next week",
+      "every week",
+      "in a week's time"
+     ],
+     "answer": 0,
+     "ar": "مُنْذُ أُسْبُوع"
+    },
+    {
+     "id": "w6t7",
+     "prompt": "Fill the gap: 'The weather was pleasant.'",
+     "options": [
+      "لَطِيف",
+      "لَطِيفَة",
+      "لَطِيفًا",
+      "جَمِيل"
+     ],
+     "answer": 2,
+     "ar": "كَانَ الْجَوُّ …"
+    },
+    {
+     "id": "w6t8",
+     "prompt": "Which word means 'after'?",
+     "options": [
+      "قَبْلَ",
+      "ثُمَّ",
+      "أَمْسِ",
+      "بَعْدَ"
+     ],
+     "answer": 3
+    },
+    {
+     "id": "w6t9",
+     "prompt": "Which is correct for 'The people laughed'?",
+     "options": [
+      "ضَحِكُوا النَّاس",
+      "قَالَ النَّاس",
+      "ضَحِكَ النَّاس",
+      "النَّاس ضَحِكَ"
+     ],
+     "answer": 2
+    },
+    {
+     "id": "w6t10",
+     "prompt": "How is this word read?",
+     "options": [
+      "dhahabatu",
+      "dhahabtu",
+      "dhahbatu",
+      "dhahabat"
+     ],
+     "answer": 1,
+     "ar": "ذَهَبْتُ"
+    }
+   ]
   },
   {
    "week": 7,

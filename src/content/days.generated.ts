@@ -35,4 +35,11 @@ export const RAW_DAYS: unknown[] = [
   require('../../content/days/day33.json'),
   require('../../content/days/day34.json'),
   require('../../content/days/day35.json'),
+  require('../../content/days/day36.json'),
+  require('../../content/days/day37.json'),
+  require('../../content/days/day38.json'),
+  require('../../content/days/day39.json'),
+  require('../../content/days/day40.json'),
+  require('../../content/days/day41.json'),
+  require('../../content/days/day42.json'),
 ];

@@ -1,0 +1,1205 @@
+{
+  "day": 41,
+  "week": 6,
+  "phase": 3,
+  "level": 4,
+  "title": "I didn't go",
+  "titleAr": "لَمْ أَذْهَبْ",
+  "titleSegs": [
+    [
+      "لَمْ",
+      "did not"
+    ],
+    [
+      "أَذْهَبْ",
+      "I go (form after 'lam')"
+    ]
+  ],
+  "emoji": "🛌",
+  "summary": "Say what you didn't do with لَمْ, the standard written negative of the past, and 'not yet' with بَعْدُ.",
+  "intro": "You already know مَا + past verb: مَا ذَهَبْتُ (I didn't go). The standard, more formal way is لَمْ + the present form of the verb, whose last vowel becomes a sukūn: أَذْهَبُ (I go) → لَمْ أَذْهَبْ (I didn't go). Add بَعْدُ at the end for 'not yet': لَمْ أَكْتُبِ الْوَاجِب بَعْدُ (I haven't written the homework yet).",
+  "objectives": [
+    "Say what you didn't do with لَمْ + the present form",
+    "Change the final -u to a sukūn after لَمْ: لَمْ يَحْضُرْ",
+    "Say 'not yet' with لَمْ … بَعْدُ and 'not at all' with أَبَدًا",
+    "Give a reason with لِأَنِّي (because I)"
+  ],
+  "realLife": {
+    "emoji": "🤒",
+    "title": "An empty seat on Thursday",
+    "story": "Daniel missed class on Thursday and didn't answer his phone all weekend. On Sunday morning Mr Karim, Layla and Sami want to know what happened, and Daniel still doesn't look quite well."
+  },
+  "letters": [],
+  "newWords": [
+    "lam",
+    "hadara",
+    "kharaja",
+    "nasiya",
+    "baqiya"
+  ],
+  "grammar": [
+    "negation-lam",
+    "negation-ma-past"
+  ],
+  "pronunciation": [
+    "sukun"
+  ],
+  "sentences": [
+    {
+      "id": "d41s1",
+      "ar": "لَمْ أَذْهَبْ إِلَى الْمَدْرَسَة يَوْمَ الْخَمِيس.",
+      "en": "I didn't go to school on Thursday.",
+      "literal": "not I go to the school (on the) day (of) the Thursday",
+      "segs": [
+        [
+          "لَمْ",
+          "did not",
+          "particle"
+        ],
+        [
+          "أَذْهَبْ",
+          "I go (form after 'lam')",
+          "verb"
+        ],
+        [
+          "إِلَى",
+          "to",
+          "prep"
+        ],
+        [
+          "الْمَدْرَسَة",
+          "the school",
+          "noun"
+        ],
+        [
+          "يَوْمَ",
+          "on (the day of)",
+          "noun"
+        ],
+        [
+          "الْخَمِيس",
+          "Thursday",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "negation-lam"
+      ],
+      "mistakes": [
+        {
+          "wrong": "لَمْ ذَهَبْتُ إِلَى الْمَدْرَسَة",
+          "right": "لَمْ أَذْهَبْ إِلَى الْمَدْرَسَة",
+          "why": "لَمْ is followed by the present form, not the past: لَمْ أَذْهَبْ, never لَمْ ذَهَبْتُ."
+        }
+      ]
+    },
+    {
+      "id": "d41s2",
+      "ar": "لَمْ يَحْضُرْ دَانْيَال الدَّرْسَ.",
+      "en": "Daniel didn't come to the lesson.",
+      "literal": "not attends Daniel the lesson",
+      "segs": [
+        [
+          "لَمْ",
+          "did not",
+          "particle"
+        ],
+        [
+          "يَحْضُرْ",
+          "he attends (form after 'lam')",
+          "verb"
+        ],
+        [
+          "دَانْيَال",
+          "Daniel (first name)",
+          "name"
+        ],
+        [
+          "الدَّرْسَ",
+          "the lesson (object form)",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "negation-lam"
+      ],
+      "mistakes": [
+        {
+          "wrong": "لَمْ يَحْضُرُ دَانْيَال الدَّرْسَ",
+          "right": "لَمْ يَحْضُرْ دَانْيَال الدَّرْسَ",
+          "why": "After لَمْ the final -u of the verb becomes a sukūn: yaḥḍur, not yaḥḍuru."
+        }
+      ]
+    },
+    {
+      "id": "d41s3",
+      "ar": "بَقِيتُ فِي الْبَيْت يَوْمَيْنِ.",
+      "en": "I stayed at home for two days.",
+      "literal": "I stayed in the house two days",
+      "segs": [
+        [
+          "بَقِيتُ",
+          "I stayed",
+          "verb"
+        ],
+        [
+          "فِي",
+          "in, at",
+          "prep"
+        ],
+        [
+          "الْبَيْت",
+          "the house, home",
+          "noun"
+        ],
+        [
+          "يَوْمَيْنِ",
+          "(for) two days",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "past-tense"
+      ]
+    },
+    {
+      "id": "d41s4",
+      "ar": "لَمْ أَكْتُبِ الْوَاجِب بَعْدُ.",
+      "en": "I haven't written the homework yet.",
+      "literal": "not I write the homework yet",
+      "segs": [
+        [
+          "لَمْ",
+          "did not",
+          "particle"
+        ],
+        [
+          "أَكْتُبِ",
+          "I write (form after 'lam'; -i before al-)",
+          "verb"
+        ],
+        [
+          "الْوَاجِب",
+          "the homework",
+          "noun"
+        ],
+        [
+          "بَعْدُ",
+          "yet",
+          "adverb"
+        ]
+      ],
+      "grammar": [
+        "negation-lam"
+      ]
+    },
+    {
+      "id": "d41s5",
+      "ar": "نَسِيتُ هَاتِفِي فِي الْمَطْبَخ.",
+      "en": "I forgot my phone in the kitchen.",
+      "literal": "I forgot my phone in the kitchen",
+      "segs": [
+        [
+          "نَسِيتُ",
+          "I forgot",
+          "verb"
+        ],
+        [
+          "هَاتِفِي",
+          "my phone",
+          "noun"
+        ],
+        [
+          "فِي",
+          "in",
+          "prep"
+        ],
+        [
+          "الْمَطْبَخ",
+          "the kitchen",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "past-tense"
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Where were you on Thursday?",
+    "speakers": [
+      {
+        "key": "karim",
+        "name": "Mr Karim",
+        "nameAr": "الْأُسْتَاذ كَرِيم"
+      },
+      {
+        "key": "daniel",
+        "name": "Daniel",
+        "nameAr": "دَانْيَال"
+      },
+      {
+        "key": "layla",
+        "name": "Layla",
+        "nameAr": "لَيْلَى"
+      },
+      {
+        "key": "sami",
+        "name": "Sami",
+        "nameAr": "سَامِي"
+      }
+    ],
+    "culture": "When someone is ill, Arabic speakers say سَلَامَتُكَ to a man (salāmtik to a woman), literally 'your safety': 'get well soon'. The polite reply is 'may God keep you safe'.",
+    "lines": [
+      {
+        "id": "d41l1",
+        "sp": "karim",
+        "ar": "صَبَاحُ الْخَيْر يَا دَانْيَال. لَمْ تَحْضُرِ الدَّرْسَ يَوْمَ الْخَمِيس. هَلْ كُلُّ شَيْء بِخَيْر؟",
+        "en": "Good morning, Daniel. You didn't come to the lesson on Thursday. Is everything all right?",
+        "segs": [
+          [
+            "صَبَاحُ",
+            "morning (of)"
+          ],
+          [
+            "الْخَيْر",
+            "the goodness"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "دَانْيَال",
+            "Daniel (first name)",
+            "name"
+          ],
+          [
+            "لَمْ",
+            "did not"
+          ],
+          [
+            "تَحْضُرِ",
+            "you attend (form after 'lam'; -i before al-)"
+          ],
+          [
+            "الدَّرْسَ",
+            "the lesson (object form)"
+          ],
+          [
+            "يَوْمَ",
+            "on (the day of)"
+          ],
+          [
+            "الْخَمِيس",
+            "Thursday"
+          ],
+          [
+            "هَلْ",
+            "(starts a yes/no question)"
+          ],
+          [
+            "كُلُّ",
+            "every, all"
+          ],
+          [
+            "شَيْء",
+            "thing"
+          ],
+          [
+            "بِخَيْر",
+            "well, fine"
+          ]
+        ]
+      },
+      {
+        "id": "d41l2",
+        "sp": "daniel",
+        "ar": "صَبَاحُ النُّور يَا أُسْتَاذ. آسِف، لَمْ أَذْهَبْ إِلَى الْمَدْرَسَة لِأَنِّي كُنْتُ تَعْبَانَ قَلِيلًا.",
+        "en": "Good morning, teacher. I'm sorry, I didn't go to school because I was a little tired.",
+        "segs": [
+          [
+            "صَبَاحُ",
+            "morning (of)"
+          ],
+          [
+            "النُّور",
+            "the light"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "أُسْتَاذ",
+            "teacher"
+          ],
+          [
+            "آسِف",
+            "sorry (m)"
+          ],
+          [
+            "لَمْ",
+            "did not"
+          ],
+          [
+            "أَذْهَبْ",
+            "I go (form after 'lam')"
+          ],
+          [
+            "إِلَى",
+            "to"
+          ],
+          [
+            "الْمَدْرَسَة",
+            "the school"
+          ],
+          [
+            "لِأَنِّي",
+            "because I"
+          ],
+          [
+            "كُنْتُ",
+            "I was"
+          ],
+          [
+            "تَعْبَانَ",
+            "tired (after 'was')"
+          ],
+          [
+            "قَلِيلًا",
+            "a little"
+          ]
+        ]
+      },
+      {
+        "id": "d41l3",
+        "sp": "karim",
+        "ar": "سَلَامَتُكَ! وَمَاذَا فَعَلْتَ؟ هَلْ ذَهَبْتَ إِلَى الطَّبِيب؟",
+        "en": "Get well soon! And what did you do? Did you go to the doctor?",
+        "segs": [
+          [
+            "سَلَامَتُكَ",
+            "your safety (to a man): 'get well soon'"
+          ],
+          [
+            "وَمَاذَا",
+            "and what (before a verb)"
+          ],
+          [
+            "فَعَلْتَ",
+            "you did (to a man)"
+          ],
+          [
+            "هَلْ",
+            "(starts a yes/no question)"
+          ],
+          [
+            "ذَهَبْتَ",
+            "you went (to a man)"
+          ],
+          [
+            "إِلَى",
+            "to"
+          ],
+          [
+            "الطَّبِيب",
+            "the doctor"
+          ]
+        ]
+      },
+      {
+        "id": "d41l4",
+        "sp": "daniel",
+        "ar": "لَا، لَمْ أَذْهَبْ إِلَى الطَّبِيب. بَقِيتُ فِي الْبَيْت يَوْمَيْنِ، وَلَمْ أَخْرُجْ أَبَدًا.",
+        "en": "No, I didn't go to the doctor. I stayed at home for two days, and I didn't go out at all.",
+        "segs": [
+          [
+            "لَا",
+            "no"
+          ],
+          [
+            "لَمْ",
+            "did not"
+          ],
+          [
+            "أَذْهَبْ",
+            "I go (form after 'lam')"
+          ],
+          [
+            "إِلَى",
+            "to"
+          ],
+          [
+            "الطَّبِيب",
+            "the doctor"
+          ],
+          [
+            "بَقِيتُ",
+            "I stayed"
+          ],
+          [
+            "فِي",
+            "in, at"
+          ],
+          [
+            "الْبَيْت",
+            "the house, home"
+          ],
+          [
+            "يَوْمَيْنِ",
+            "(for) two days"
+          ],
+          [
+            "وَلَمْ",
+            "and did not"
+          ],
+          [
+            "أَخْرُجْ",
+            "I go out (form after 'lam')"
+          ],
+          [
+            "أَبَدًا",
+            "never, not at all"
+          ]
+        ]
+      },
+      {
+        "id": "d41l5",
+        "sp": "layla",
+        "ar": "لِهٰذَا لَمْ تَرُدَّ عَلَى رَسَائِلِي! أَرْسَلْتُ لَكَ صُوَرَ الدَّرْس، لٰكِنَّكَ لَمْ تَقْرَأْهَا.",
+        "en": "So that's why you didn't answer my messages! I sent you photos of the lesson, but you didn't read them.",
+        "segs": [
+          [
+            "لِهٰذَا",
+            "for this reason, that's why"
+          ],
+          [
+            "لَمْ",
+            "did not"
+          ],
+          [
+            "تَرُدَّ",
+            "you answer (form after 'lam')"
+          ],
+          [
+            "عَلَى",
+            "on, to"
+          ],
+          [
+            "رَسَائِلِي",
+            "my messages"
+          ],
+          [
+            "أَرْسَلْتُ",
+            "I sent"
+          ],
+          [
+            "لَكَ",
+            "to you (to a man)"
+          ],
+          [
+            "صُوَرَ",
+            "photos (of)"
+          ],
+          [
+            "الدَّرْس",
+            "the lesson"
+          ],
+          [
+            "لٰكِنَّكَ",
+            "but you (to a man)"
+          ],
+          [
+            "لَمْ",
+            "did not"
+          ],
+          [
+            "تَقْرَأْهَا",
+            "you read them (form after 'lam')"
+          ]
+        ]
+      },
+      {
+        "id": "d41l6",
+        "sp": "daniel",
+        "ar": "آسِف يَا لَيْلَى. نَسِيتُ هَاتِفِي فِي الْمَطْبَخ، وَلَمْ أَرَهُ حَتَّى الْمَسَاء.",
+        "en": "Sorry, Layla. I forgot my phone in the kitchen, and I didn't see it until the evening.",
+        "segs": [
+          [
+            "آسِف",
+            "sorry (m)"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "لَيْلَى",
+            "Layla (first name)",
+            "name"
+          ],
+          [
+            "نَسِيتُ",
+            "I forgot"
+          ],
+          [
+            "هَاتِفِي",
+            "my phone"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "الْمَطْبَخ",
+            "the kitchen"
+          ],
+          [
+            "وَلَمْ",
+            "and did not"
+          ],
+          [
+            "أَرَهُ",
+            "I see it (form after 'lam')"
+          ],
+          [
+            "حَتَّى",
+            "until"
+          ],
+          [
+            "الْمَسَاء",
+            "the evening"
+          ]
+        ]
+      },
+      {
+        "id": "d41l7",
+        "sp": "sami",
+        "ar": "وَأَنَا اتَّصَلْتُ بِكَ مَرَّتَيْنِ، وَلَمْ تُجِبْ! خِفْتُ عَلَيْكَ يَا صَدِيقِي.",
+        "en": "And I called you twice, and you didn't answer! I was worried about you, my friend.",
+        "segs": [
+          [
+            "وَأَنَا",
+            "and I"
+          ],
+          [
+            "اتَّصَلْتُ",
+            "I called, I phoned"
+          ],
+          [
+            "بِكَ",
+            "you (lit. with you, to a man)"
+          ],
+          [
+            "مَرَّتَيْنِ",
+            "twice, two times"
+          ],
+          [
+            "وَلَمْ",
+            "and did not"
+          ],
+          [
+            "تُجِبْ",
+            "you answer (form after 'lam')"
+          ],
+          [
+            "خِفْتُ",
+            "I was afraid, I worried"
+          ],
+          [
+            "عَلَيْكَ",
+            "about you (lit. on you, to a man)"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "صَدِيقِي",
+            "my friend"
+          ]
+        ]
+      },
+      {
+        "id": "d41l8",
+        "sp": "karim",
+        "ar": "وَالْوَاجِب يَا دَانْيَال؟ هَلْ كَتَبْتَ الْجُمَلَ الْخَمْسَ عَنِ الْأُسْبُوعِ الْمَاضِي؟",
+        "en": "And the homework, Daniel? Did you write the five sentences about last week?",
+        "segs": [
+          [
+            "وَالْوَاجِب",
+            "and the homework"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "دَانْيَال",
+            "Daniel (first name)",
+            "name"
+          ],
+          [
+            "هَلْ",
+            "(starts a yes/no question)"
+          ],
+          [
+            "كَتَبْتَ",
+            "you wrote (to a man)"
+          ],
+          [
+            "الْجُمَلَ",
+            "the sentences"
+          ],
+          [
+            "الْخَمْسَ",
+            "the five"
+          ],
+          [
+            "عَنِ",
+            "about"
+          ],
+          [
+            "الْأُسْبُوعِ",
+            "the week"
+          ],
+          [
+            "الْمَاضِي",
+            "the past, last"
+          ]
+        ]
+      },
+      {
+        "id": "d41l9",
+        "sp": "daniel",
+        "ar": "لَا، لَمْ أَكْتُبْهَا بَعْدُ. لٰكِنْ قَرَأْتُ الدَّرْسَ أَمْسِ، وَفَهِمْتُ الْفَرْقَ بَيْنَ لَمْ وَمَا.",
+        "en": "No, I haven't written them yet. But I read the lesson yesterday, and I understood the difference between lam and mā.",
+        "segs": [
+          [
+            "لَا",
+            "no"
+          ],
+          [
+            "لَمْ",
+            "did not"
+          ],
+          [
+            "أَكْتُبْهَا",
+            "I write them (form after 'lam')"
+          ],
+          [
+            "بَعْدُ",
+            "yet"
+          ],
+          [
+            "لٰكِنْ",
+            "but"
+          ],
+          [
+            "قَرَأْتُ",
+            "I read"
+          ],
+          [
+            "الدَّرْسَ",
+            "the lesson (object form)"
+          ],
+          [
+            "أَمْسِ",
+            "yesterday"
+          ],
+          [
+            "وَفَهِمْتُ",
+            "and I understood"
+          ],
+          [
+            "الْفَرْقَ",
+            "the difference (object form)"
+          ],
+          [
+            "بَيْنَ",
+            "between"
+          ],
+          [
+            "لَمْ",
+            "'lam' (did not)"
+          ],
+          [
+            "وَمَا",
+            "and 'mā' (not)"
+          ]
+        ]
+      },
+      {
+        "id": "d41l10",
+        "sp": "karim",
+        "ar": "جَيِّد. إِذَنْ قُلْ لَنَا: مَاذَا لَمْ تَفْعَلْ يَوْمَ الْخَمِيس؟ اِسْتَعْمِلْ لَمْ، مِنْ فَضْلِكَ.",
+        "en": "Good. So tell us: what didn't you do on Thursday? Use lam, please.",
+        "segs": [
+          [
+            "جَيِّد",
+            "good"
+          ],
+          [
+            "إِذَنْ",
+            "so, then"
+          ],
+          [
+            "قُلْ",
+            "say, tell (to a man)"
+          ],
+          [
+            "لَنَا",
+            "to us"
+          ],
+          [
+            "مَاذَا",
+            "what (before a verb)"
+          ],
+          [
+            "لَمْ",
+            "did not"
+          ],
+          [
+            "تَفْعَلْ",
+            "you do (form after 'lam')"
+          ],
+          [
+            "يَوْمَ",
+            "on (the day of)"
+          ],
+          [
+            "الْخَمِيس",
+            "Thursday"
+          ],
+          [
+            "اِسْتَعْمِلْ",
+            "use (to a man)"
+          ],
+          [
+            "لَمْ",
+            "'lam' (did not)"
+          ],
+          [
+            "مِنْ",
+            "from"
+          ],
+          [
+            "فَضْلِكَ",
+            "your kindness (to a man): 'please'"
+          ]
+        ]
+      },
+      {
+        "id": "d41l11",
+        "sp": "daniel",
+        "ar": "لَمْ أَحْضُرِ الدَّرْسَ، وَلَمْ أَطْبُخْ، وَلَمْ أَشْرَبِ الْقَهْوَة… وَهٰذَا غَرِيب جِدًّا!",
+        "en": "I didn't come to the lesson, I didn't cook, and I didn't drink any coffee… and that's very strange!",
+        "segs": [
+          [
+            "لَمْ",
+            "did not"
+          ],
+          [
+            "أَحْضُرِ",
+            "I attend (form after 'lam'; -i before al-)"
+          ],
+          [
+            "الدَّرْسَ",
+            "the lesson (object form)"
+          ],
+          [
+            "وَلَمْ",
+            "and did not"
+          ],
+          [
+            "أَطْبُخْ",
+            "I cook (form after 'lam')"
+          ],
+          [
+            "وَلَمْ",
+            "and did not"
+          ],
+          [
+            "أَشْرَبِ",
+            "I drink (form after 'lam'; -i before al-)"
+          ],
+          [
+            "الْقَهْوَة",
+            "the coffee"
+          ],
+          [
+            "وَهٰذَا",
+            "and this"
+          ],
+          [
+            "غَرِيب",
+            "strange"
+          ],
+          [
+            "جِدًّا",
+            "very"
+          ]
+        ]
+      },
+      {
+        "id": "d41l12",
+        "sp": "layla",
+        "ar": "لَمْ تَشْرَبِ الْقَهْوَة؟ هٰذِهِ أَوَّلُ مَرَّة! يَا أُسْتَاذ، هُوَ مَرِيض حَقًّا.",
+        "en": "You didn't drink coffee? That's a first! Teacher, he really is ill.",
+        "segs": [
+          [
+            "لَمْ",
+            "did not"
+          ],
+          [
+            "تَشْرَبِ",
+            "you drink (form after 'lam'; -i before al-)"
+          ],
+          [
+            "الْقَهْوَة",
+            "the coffee"
+          ],
+          [
+            "هٰذِهِ",
+            "this (f)"
+          ],
+          [
+            "أَوَّلُ",
+            "the first (of)"
+          ],
+          [
+            "مَرَّة",
+            "time, occasion"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "أُسْتَاذ",
+            "teacher"
+          ],
+          [
+            "هُوَ",
+            "he"
+          ],
+          [
+            "مَرِيض",
+            "ill, sick"
+          ],
+          [
+            "حَقًّا",
+            "really, truly"
+          ]
+        ]
+      },
+      {
+        "id": "d41l13",
+        "sp": "karim",
+        "ar": "يَا دَانْيَال، إِذَا لَمْ تَشْعُرْ بِتَحَسُّن غَدًا، اِذْهَبْ إِلَى الطَّبِيب، مِنْ فَضْلِكَ.",
+        "en": "Daniel, if you don't feel any better tomorrow, please go to the doctor.",
+        "segs": [
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "دَانْيَال",
+            "Daniel (first name)",
+            "name"
+          ],
+          [
+            "إِذَا",
+            "if"
+          ],
+          [
+            "لَمْ",
+            "did not"
+          ],
+          [
+            "تَشْعُرْ",
+            "you feel (form after 'lam')"
+          ],
+          [
+            "بِتَحَسُّن",
+            "an improvement (lit. with improvement)"
+          ],
+          [
+            "غَدًا",
+            "tomorrow"
+          ],
+          [
+            "اِذْهَبْ",
+            "go (to a man)"
+          ],
+          [
+            "إِلَى",
+            "to"
+          ],
+          [
+            "الطَّبِيب",
+            "the doctor"
+          ],
+          [
+            "مِنْ",
+            "from"
+          ],
+          [
+            "فَضْلِكَ",
+            "your kindness (to a man): 'please'"
+          ]
+        ]
+      },
+      {
+        "id": "d41l14",
+        "sp": "daniel",
+        "ar": "حَاضِر يَا أُسْتَاذ. سَأَزُورُ الطَّبِيب غَدًا، وَسَأَكْتُبُ الْوَاجِب بَعْدَهُ. لَا تَقْلَقْ!",
+        "en": "Certainly, teacher. I'll see the doctor tomorrow, and I'll write the homework after that. Don't worry!",
+        "segs": [
+          [
+            "حَاضِر",
+            "certainly, right away"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "أُسْتَاذ",
+            "teacher"
+          ],
+          [
+            "سَأَزُورُ",
+            "I will visit"
+          ],
+          [
+            "الطَّبِيب",
+            "the doctor"
+          ],
+          [
+            "غَدًا",
+            "tomorrow"
+          ],
+          [
+            "وَسَأَكْتُبُ",
+            "and I will write"
+          ],
+          [
+            "الْوَاجِب",
+            "the homework"
+          ],
+          [
+            "بَعْدَهُ",
+            "after it, after him"
+          ],
+          [
+            "لَا",
+            "don't"
+          ],
+          [
+            "تَقْلَقْ",
+            "worry (to a man, after 'don't')"
+          ]
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "title": "A message to the teacher",
+    "ar": "يَا أُسْتَاذ كَرِيم، آسِف! لَمْ أَحْضُرِ الدَّرْسَ يَوْمَ الْخَمِيس، لِأَنِّي كُنْتُ تَعْبَانَ. بَقِيتُ فِي الْبَيْت، وَلَمْ أَخْرُجْ. لَمْ أَكْتُبِ الْوَاجِب بَعْدُ، لٰكِنِّي سَأَكْتُبُهُ غَدًا.",
+    "en": "Mr Karim, I'm sorry! I didn't come to the lesson on Thursday, because I was tired. I stayed at home and didn't go out. I haven't written the homework yet, but I will write it tomorrow.",
+    "segs": [
+      [
+        "يَا",
+        "O (calling someone)"
+      ],
+      [
+        "أُسْتَاذ",
+        "teacher, Mr"
+      ],
+      [
+        "كَرِيم",
+        "Karim (first name)",
+        "name"
+      ],
+      [
+        "آسِف",
+        "sorry (m)"
+      ],
+      [
+        "لَمْ",
+        "did not"
+      ],
+      [
+        "أَحْضُرِ",
+        "I attend (form after 'lam'; -i before al-)"
+      ],
+      [
+        "الدَّرْسَ",
+        "the lesson (object form)"
+      ],
+      [
+        "يَوْمَ",
+        "on (the day of)"
+      ],
+      [
+        "الْخَمِيس",
+        "Thursday"
+      ],
+      [
+        "لِأَنِّي",
+        "because I"
+      ],
+      [
+        "كُنْتُ",
+        "I was"
+      ],
+      [
+        "تَعْبَانَ",
+        "tired (after 'was')"
+      ],
+      [
+        "بَقِيتُ",
+        "I stayed"
+      ],
+      [
+        "فِي",
+        "in, at"
+      ],
+      [
+        "الْبَيْت",
+        "the house, home"
+      ],
+      [
+        "وَلَمْ",
+        "and did not"
+      ],
+      [
+        "أَخْرُجْ",
+        "I go out (form after 'lam')"
+      ],
+      [
+        "لَمْ",
+        "did not"
+      ],
+      [
+        "أَكْتُبِ",
+        "I write (form after 'lam'; -i before al-)"
+      ],
+      [
+        "الْوَاجِب",
+        "the homework"
+      ],
+      [
+        "بَعْدُ",
+        "yet"
+      ],
+      [
+        "لٰكِنِّي",
+        "but I"
+      ],
+      [
+        "سَأَكْتُبُهُ",
+        "I will write it"
+      ],
+      [
+        "غَدًا",
+        "tomorrow"
+      ]
+    ]
+  },
+  "review": [
+    "qabla",
+    "nama",
+    "kana",
+    "shariba",
+    "tabakha",
+    "abadan",
+    "bada"
+  ],
+  "quiz": [
+    {
+      "id": "d41q1",
+      "prompt": "What does this mean?",
+      "ar": "لَمْ أَذْهَبْ.",
+      "options": [
+        "I went.",
+        "I didn't go.",
+        "I won't go.",
+        "Don't go!"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "d41q2",
+      "prompt": "Which is correct for 'I didn't go'?",
+      "options": [
+        "لَمْ ذَهَبْتُ",
+        "لَمْ أَذْهَبُ",
+        "لَمْ أَذْهَبْ",
+        "لَا ذَهَبْتُ"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "d41q3",
+      "prompt": "Why didn't Daniel come to class on Thursday?",
+      "options": [
+        "He was in Alexandria.",
+        "He was a little tired.",
+        "He forgot the time.",
+        "He visited Yusuf."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "d41q4",
+      "prompt": "Where did Daniel leave his phone?",
+      "options": [
+        "in the kitchen",
+        "on the train",
+        "at school",
+        "at Sami's house"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "d41q5",
+      "prompt": "What does this mean?",
+      "ar": "لَمْ أَكْتُبْهَا بَعْدُ.",
+      "options": [
+        "I wrote them afterwards.",
+        "I haven't written them yet.",
+        "I will write them later.",
+        "I didn't read them."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "d41q6",
+      "prompt": "Fill the gap: 'He didn't come (to the lesson).'",
+      "ar": "لَمْ … الدَّرْسَ.",
+      "options": [
+        "حَضَرَ",
+        "يَحْضُرُ",
+        "يَحْضُرْ",
+        "حَضَرْتُ"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "d41q7",
+      "prompt": "In لَمْ أَخْرُجْ (I didn't go out), how many letters carry a sukūn ْ?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 2
+    }
+  ],
+  "completion": "Well done! You can say what you didn't do with مَا and with لَمْ, and what you haven't done yet. Tomorrow: a whole story in the past.",
+  "status": "needs-review"
+}

@@ -1,0 +1,1259 @@
+{
+  "day": 40,
+  "week": 6,
+  "phase": 3,
+  "level": 4,
+  "title": "Before and after",
+  "titleAr": "قَبْلَ وَبَعْدَ",
+  "titleSegs": [
+    [
+      "قَبْلَ",
+      "before"
+    ],
+    [
+      "وَبَعْدَ",
+      "and after"
+    ]
+  ],
+  "emoji": "⏱️",
+  "summary": "Put events in order with قَبْلَ (before), بَعْدَ (after), ثُمَّ (then) and أَخِيرًا (finally).",
+  "intro": "قَبْلَ (before) and بَعْدَ (after) go straight before a noun, which takes the -i ending: قَبْلَ الْعَشَاءِ (before dinner), بَعْدَ الدَّرْسِ (after the lesson). Before a whole action, add أَنْ: بَعْدَ أَنْ أَكَلْنَا (after we ate). To tell a story step by step, use أَوَّلًا (first), ثُمَّ (then), بَعْدَ ذٰلِكَ (after that) and أَخِيرًا (finally).",
+  "objectives": [
+    "Say what happened before and after something with قَبْلَ and بَعْدَ",
+    "Use بَعْدَ أَنْ + a past verb for 'after someone did'",
+    "Tell your day in order with أَوَّلًا, ثُمَّ, بَعْدَ ذٰلِكَ and أَخِيرًا",
+    "Say the deep q of قَبْلَ, not a k"
+  ],
+  "realLife": {
+    "emoji": "🍽️",
+    "title": "Dinner at Sami's",
+    "story": "Daniel is invited to dinner at Sami's family home. Before they eat, Sami's mother Fatima asks little Omar whether he did his homework before or after football, and Sami knows the real answer."
+  },
+  "letters": [],
+  "newWords": [
+    "qabla",
+    "bada-dhalika",
+    "laiba",
+    "nama",
+    "ghasala",
+    "akhiran"
+  ],
+  "grammar": [
+    "qabla-bada",
+    "past-tense"
+  ],
+  "pronunciation": [
+    "qaf"
+  ],
+  "sentences": [
+    {
+      "id": "d40s1",
+      "ar": "غَسَلْتُ يَدَيَّ قَبْلَ الْعَشَاءِ.",
+      "en": "I washed my hands before dinner.",
+      "literal": "I washed my two hands before the dinner",
+      "segs": [
+        [
+          "غَسَلْتُ",
+          "I washed",
+          "verb"
+        ],
+        [
+          "يَدَيَّ",
+          "my (two) hands",
+          "noun"
+        ],
+        [
+          "قَبْلَ",
+          "before",
+          "prep"
+        ],
+        [
+          "الْعَشَاءِ",
+          "the dinner",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "qabla-bada"
+      ],
+      "mistakes": [
+        {
+          "wrong": "غَسَلْتُ يَدَيَّ قَبْلَ أَنْ الْعَشَاءِ",
+          "right": "غَسَلْتُ يَدَيَّ قَبْلَ الْعَشَاءِ",
+          "why": "Before a noun, قَبْلَ needs no أَنْ. Use أَنْ only before a verb."
+        }
+      ]
+    },
+    {
+      "id": "d40s2",
+      "ar": "بَعْدَ أَنْ أَكَلْنَا، لَعِبَ عُمَر بِالْكُرَة.",
+      "en": "After we ate, Omar played with the ball.",
+      "literal": "after that we ate, played Omar with the ball",
+      "segs": [
+        [
+          "بَعْدَ",
+          "after",
+          "prep"
+        ],
+        [
+          "أَنْ",
+          "that (before a verb)",
+          "particle"
+        ],
+        [
+          "أَكَلْنَا",
+          "we ate",
+          "verb"
+        ],
+        [
+          "لَعِبَ",
+          "he played",
+          "verb"
+        ],
+        [
+          "عُمَر",
+          "Omar (first name)",
+          "name"
+        ],
+        [
+          "بِالْكُرَة",
+          "with the ball",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "qabla-bada"
+      ],
+      "mistakes": [
+        {
+          "wrong": "بَعْدَ أَكَلْنَا، لَعِبَ عُمَر بِالْكُرَة",
+          "right": "بَعْدَ أَنْ أَكَلْنَا، لَعِبَ عُمَر بِالْكُرَة",
+          "why": "Before a verb, بَعْدَ needs أَنْ (that): بَعْدَ أَنْ أَكَلْنَا is 'after we ate'."
+        }
+      ]
+    },
+    {
+      "id": "d40s3",
+      "ar": "ذَهَبْتُ إِلَى الْمَدْرَسَة، ثُمَّ رَجَعْتُ إِلَى الْبَيْت.",
+      "en": "I went to school, then I came back home.",
+      "literal": "I went to the school, then I came back to the house",
+      "segs": [
+        [
+          "ذَهَبْتُ",
+          "I went",
+          "verb"
+        ],
+        [
+          "إِلَى",
+          "to",
+          "prep"
+        ],
+        [
+          "الْمَدْرَسَة",
+          "the school",
+          "noun"
+        ],
+        [
+          "ثُمَّ",
+          "then",
+          "particle"
+        ],
+        [
+          "رَجَعْتُ",
+          "I came back",
+          "verb"
+        ],
+        [
+          "إِلَى",
+          "to",
+          "prep"
+        ],
+        [
+          "الْبَيْت",
+          "the house, home",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "qabla-bada",
+        "past-tense"
+      ]
+    },
+    {
+      "id": "d40s4",
+      "ar": "نَامَ عُمَر بَعْدَ الْمُبَارَاةِ.",
+      "en": "Omar slept after the match.",
+      "literal": "slept Omar after the match",
+      "segs": [
+        [
+          "نَامَ",
+          "he slept",
+          "verb"
+        ],
+        [
+          "عُمَر",
+          "Omar (first name)",
+          "name"
+        ],
+        [
+          "بَعْدَ",
+          "after",
+          "prep"
+        ],
+        [
+          "الْمُبَارَاةِ",
+          "the match",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "qabla-bada"
+      ]
+    },
+    {
+      "id": "d40s5",
+      "ar": "أَخِيرًا وَصَلَ دَانْيَال بَعْدَ السَّاعَة الثَّامِنَة.",
+      "en": "Daniel finally arrived after eight o'clock.",
+      "literal": "finally arrived Daniel after the hour the eighth",
+      "segs": [
+        [
+          "أَخِيرًا",
+          "finally, at last",
+          "adverb"
+        ],
+        [
+          "وَصَلَ",
+          "he arrived",
+          "verb"
+        ],
+        [
+          "دَانْيَال",
+          "Daniel (first name)",
+          "name"
+        ],
+        [
+          "بَعْدَ",
+          "after",
+          "prep"
+        ],
+        [
+          "السَّاعَة",
+          "the hour, o'clock",
+          "noun"
+        ],
+        [
+          "الثَّامِنَة",
+          "the eighth",
+          "adj"
+        ]
+      ],
+      "grammar": [
+        "qabla-bada"
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Homework or football first?",
+    "speakers": [
+      {
+        "key": "fatima",
+        "name": "Fatima",
+        "nameAr": "فَاطِمَة"
+      },
+      {
+        "key": "omar",
+        "name": "Omar",
+        "nameAr": "عُمَر"
+      },
+      {
+        "key": "sami",
+        "name": "Sami",
+        "nameAr": "سَامِي"
+      },
+      {
+        "key": "daniel",
+        "name": "Daniel",
+        "nameAr": "دَانْيَال"
+      }
+    ],
+    "culture": "الْكُشَرِي, a mix of rice, lentils, pasta and fried onions with a spicy tomato sauce, is Egypt's favourite cheap meal. Many Egyptian families eat their main meal in the middle of the afternoon, after work and school, so الْعَشَاء (dinner) is often lighter and later.",
+    "lines": [
+      {
+        "id": "d40l1",
+        "sp": "fatima",
+        "ar": "أَهْلًا يَا دَانْيَال! تَفَضَّلْ. الْعَشَاء جَاهِز بَعْدَ قَلِيل. يَا عُمَر، تَعَالَ هُنَا!",
+        "en": "Welcome, Daniel! Come in. Dinner will be ready in a moment. Omar, come here!",
+        "segs": [
+          [
+            "أَهْلًا",
+            "hi, welcome"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "دَانْيَال",
+            "Daniel (first name)",
+            "name"
+          ],
+          [
+            "تَفَضَّلْ",
+            "come in, please (to a man)"
+          ],
+          [
+            "الْعَشَاء",
+            "the dinner"
+          ],
+          [
+            "جَاهِز",
+            "ready"
+          ],
+          [
+            "بَعْدَ",
+            "after"
+          ],
+          [
+            "قَلِيل",
+            "a little (while)"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "عُمَر",
+            "Omar (first name)",
+            "name"
+          ],
+          [
+            "تَعَالَ",
+            "come (to a man)"
+          ],
+          [
+            "هُنَا",
+            "here"
+          ]
+        ]
+      },
+      {
+        "id": "d40l2",
+        "sp": "omar",
+        "ar": "نَعَم يَا أُمِّي؟ أَنَا هُنَا فِي غُرْفَتِي. مَسَاءُ الْخَيْر يَا دَانْيَال، كَيْفَ حَالُكَ؟",
+        "en": "Yes, Mum? I'm here in my room. Good evening, Daniel, how are you?",
+        "segs": [
+          [
+            "نَعَم",
+            "yes"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "أُمِّي",
+            "my mother"
+          ],
+          [
+            "أَنَا",
+            "I"
+          ],
+          [
+            "هُنَا",
+            "here"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "غُرْفَتِي",
+            "my room"
+          ],
+          [
+            "مَسَاءُ",
+            "evening (of)"
+          ],
+          [
+            "الْخَيْر",
+            "the goodness"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "دَانْيَال",
+            "Daniel (first name)",
+            "name"
+          ],
+          [
+            "كَيْفَ",
+            "how"
+          ],
+          [
+            "حَالُكَ",
+            "your condition (to a man): 'how are you'"
+          ]
+        ]
+      },
+      {
+        "id": "d40l3",
+        "sp": "fatima",
+        "ar": "هَلْ كَتَبْتَ الْوَاجِب قَبْلَ الْمُبَارَاة؟ الْيَوْمَ لَعِبْتَ كُرَةَ الْقَدَم مَعَ أَصْدِقَائِكَ، صَحِيح؟",
+        "en": "Did you do your homework before the match? Today you played football with your friends, didn't you?",
+        "segs": [
+          [
+            "هَلْ",
+            "(starts a yes/no question)"
+          ],
+          [
+            "كَتَبْتَ",
+            "you wrote (to a man)"
+          ],
+          [
+            "الْوَاجِب",
+            "the homework"
+          ],
+          [
+            "قَبْلَ",
+            "before"
+          ],
+          [
+            "الْمُبَارَاة",
+            "the match"
+          ],
+          [
+            "الْيَوْمَ",
+            "today"
+          ],
+          [
+            "لَعِبْتَ",
+            "you played (to a man)"
+          ],
+          [
+            "كُرَةَ",
+            "ball (of)"
+          ],
+          [
+            "الْقَدَم",
+            "the foot (with 'ball': football)"
+          ],
+          [
+            "مَعَ",
+            "with"
+          ],
+          [
+            "أَصْدِقَائِكَ",
+            "your friends (to a man)"
+          ],
+          [
+            "صَحِيح",
+            "true, right"
+          ]
+        ]
+      },
+      {
+        "id": "d40l4",
+        "sp": "omar",
+        "ar": "طَبْعًا! كَتَبْتُ الْوَاجِب قَبْلَ الْمُبَارَاةِ، ثُمَّ ذَهَبْتُ إِلَى الْمَلْعَب.",
+        "en": "Of course! I did my homework before the match, and then I went to the pitch.",
+        "segs": [
+          [
+            "طَبْعًا",
+            "of course"
+          ],
+          [
+            "كَتَبْتُ",
+            "I wrote"
+          ],
+          [
+            "الْوَاجِب",
+            "the homework"
+          ],
+          [
+            "قَبْلَ",
+            "before"
+          ],
+          [
+            "الْمُبَارَاةِ",
+            "the match"
+          ],
+          [
+            "ثُمَّ",
+            "then"
+          ],
+          [
+            "ذَهَبْتُ",
+            "I went"
+          ],
+          [
+            "إِلَى",
+            "to"
+          ],
+          [
+            "الْمَلْعَب",
+            "the pitch, the playground"
+          ]
+        ]
+      },
+      {
+        "id": "d40l5",
+        "sp": "sami",
+        "ar": "حَقًّا يَا عُمَر؟ أَنَا شَاهَدْتُكَ مِنَ الشُّبَّاك! لَعِبْتَ أَوَّلًا، وَبَعْدَ الْمُبَارَاةِ نِمْتَ عَلَى الْكَنَبَة.",
+        "en": "Really, Omar? I saw you from the window! You played first, and after the match you fell asleep on the sofa.",
+        "segs": [
+          [
+            "حَقًّا",
+            "really, truly"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "عُمَر",
+            "Omar (first name)",
+            "name"
+          ],
+          [
+            "أَنَا",
+            "I"
+          ],
+          [
+            "شَاهَدْتُكَ",
+            "I saw you (to a man)"
+          ],
+          [
+            "مِنَ",
+            "from"
+          ],
+          [
+            "الشُّبَّاك",
+            "the window"
+          ],
+          [
+            "لَعِبْتَ",
+            "you played (to a man)"
+          ],
+          [
+            "أَوَّلًا",
+            "first, firstly"
+          ],
+          [
+            "وَبَعْدَ",
+            "and after"
+          ],
+          [
+            "الْمُبَارَاةِ",
+            "the match"
+          ],
+          [
+            "نِمْتَ",
+            "you slept (to a man)"
+          ],
+          [
+            "عَلَى",
+            "on"
+          ],
+          [
+            "الْكَنَبَة",
+            "the sofa"
+          ]
+        ]
+      },
+      {
+        "id": "d40l6",
+        "sp": "omar",
+        "ar": "حَسَنًا، حَسَنًا… لَعِبْتُ أَوَّلًا. لٰكِنْ بَعْدَ أَنْ نِمْتُ قَلِيلًا، كَتَبْتُ كُلَّ الْوَاجِب!",
+        "en": "All right, all right… I played first. But after I slept a little, I did all my homework!",
+        "segs": [
+          [
+            "حَسَنًا",
+            "all right, OK"
+          ],
+          [
+            "حَسَنًا",
+            "all right, OK"
+          ],
+          [
+            "لَعِبْتُ",
+            "I played"
+          ],
+          [
+            "أَوَّلًا",
+            "first, firstly"
+          ],
+          [
+            "لٰكِنْ",
+            "but"
+          ],
+          [
+            "بَعْدَ",
+            "after"
+          ],
+          [
+            "أَنْ",
+            "that (before a verb)"
+          ],
+          [
+            "نِمْتُ",
+            "I slept"
+          ],
+          [
+            "قَلِيلًا",
+            "a little"
+          ],
+          [
+            "كَتَبْتُ",
+            "I wrote"
+          ],
+          [
+            "كُلَّ",
+            "all, every"
+          ],
+          [
+            "الْوَاجِب",
+            "the homework"
+          ]
+        ]
+      },
+      {
+        "id": "d40l7",
+        "sp": "fatima",
+        "ar": "يَا عُمَر! الْوَاجِب قَبْلَ اللَّعِب دَائِمًا. وَالْآنَ اغْسِلْ يَدَيْكَ قَبْلَ الْعَشَاءِ، مِنْ فَضْلِكَ.",
+        "en": "Omar! Homework always comes before play. And now wash your hands before dinner, please.",
+        "segs": [
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "عُمَر",
+            "Omar (first name)",
+            "name"
+          ],
+          [
+            "الْوَاجِب",
+            "the homework"
+          ],
+          [
+            "قَبْلَ",
+            "before"
+          ],
+          [
+            "اللَّعِب",
+            "the playing, play"
+          ],
+          [
+            "دَائِمًا",
+            "always"
+          ],
+          [
+            "وَالْآنَ",
+            "and now"
+          ],
+          [
+            "اغْسِلْ",
+            "wash (to a man)"
+          ],
+          [
+            "يَدَيْكَ",
+            "your (two) hands (to a man)"
+          ],
+          [
+            "قَبْلَ",
+            "before"
+          ],
+          [
+            "الْعَشَاءِ",
+            "the dinner"
+          ],
+          [
+            "مِنْ",
+            "from"
+          ],
+          [
+            "فَضْلِكَ",
+            "your kindness (to a man): 'please'"
+          ]
+        ]
+      },
+      {
+        "id": "d40l8",
+        "sp": "omar",
+        "ar": "غَسَلْتُ يَدَيَّ قَبْلَ دَقِيقَة يَا أُمِّي! اُنْظُرِي، هُمَا نَظِيفَتَانِ.",
+        "en": "I washed my hands a minute ago, Mum! Look, they're clean.",
+        "segs": [
+          [
+            "غَسَلْتُ",
+            "I washed"
+          ],
+          [
+            "يَدَيَّ",
+            "my (two) hands"
+          ],
+          [
+            "قَبْلَ",
+            "before, ago"
+          ],
+          [
+            "دَقِيقَة",
+            "minute"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "أُمِّي",
+            "my mother"
+          ],
+          [
+            "اُنْظُرِي",
+            "look (to a woman)"
+          ],
+          [
+            "هُمَا",
+            "they (two)"
+          ],
+          [
+            "نَظِيفَتَانِ",
+            "clean (two, f)"
+          ]
+        ]
+      },
+      {
+        "id": "d40l9",
+        "sp": "fatima",
+        "ar": "مُمْتَاز. وَأَنْتَ يَا دَانْيَال، مَاذَا فَعَلْتَ الْيَوْمَ قَبْلَ أَنْ تَأْتِيَ إِلَيْنَا؟",
+        "en": "Excellent. And you, Daniel, what did you do today before you came to us?",
+        "segs": [
+          [
+            "مُمْتَاز",
+            "excellent"
+          ],
+          [
+            "وَأَنْتَ",
+            "and you (to a man)"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "دَانْيَال",
+            "Daniel (first name)",
+            "name"
+          ],
+          [
+            "مَاذَا",
+            "what (before a verb)"
+          ],
+          [
+            "فَعَلْتَ",
+            "you did (to a man)"
+          ],
+          [
+            "الْيَوْمَ",
+            "today"
+          ],
+          [
+            "قَبْلَ",
+            "before"
+          ],
+          [
+            "أَنْ",
+            "that (before a verb)"
+          ],
+          [
+            "تَأْتِيَ",
+            "you come (after 'an')"
+          ],
+          [
+            "إِلَيْنَا",
+            "to us"
+          ]
+        ]
+      },
+      {
+        "id": "d40l10",
+        "sp": "daniel",
+        "ar": "فِي الصَّبَاح ذَهَبْتُ إِلَى الْمَدْرَسَة، وَبَعْدَ الدَّرْسِ أَكَلْتُ الْكُشَرِي مَعَ لَيْلَى.",
+        "en": "In the morning I went to school, and after the lesson I had koshari with Layla.",
+        "segs": [
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "الصَّبَاح",
+            "the morning"
+          ],
+          [
+            "ذَهَبْتُ",
+            "I went"
+          ],
+          [
+            "إِلَى",
+            "to"
+          ],
+          [
+            "الْمَدْرَسَة",
+            "the school"
+          ],
+          [
+            "وَبَعْدَ",
+            "and after"
+          ],
+          [
+            "الدَّرْسِ",
+            "the lesson"
+          ],
+          [
+            "أَكَلْتُ",
+            "I ate"
+          ],
+          [
+            "الْكُشَرِي",
+            "koshari (rice, lentils and pasta)"
+          ],
+          [
+            "مَعَ",
+            "with"
+          ],
+          [
+            "لَيْلَى",
+            "Layla (first name)",
+            "name"
+          ]
+        ]
+      },
+      {
+        "id": "d40l11",
+        "sp": "sami",
+        "ar": "ثُمَّ مَاذَا؟ أَنْتَ وَصَلْتَ إِلَى هُنَا مُتَأَخِّرًا قَلِيلًا يَا صَدِيقِي!",
+        "en": "And then what? You got here a little late, my friend!",
+        "segs": [
+          [
+            "ثُمَّ",
+            "then"
+          ],
+          [
+            "مَاذَا",
+            "what"
+          ],
+          [
+            "أَنْتَ",
+            "you (to a man)"
+          ],
+          [
+            "وَصَلْتَ",
+            "you arrived (to a man)"
+          ],
+          [
+            "إِلَى",
+            "to"
+          ],
+          [
+            "هُنَا",
+            "here"
+          ],
+          [
+            "مُتَأَخِّرًا",
+            "late"
+          ],
+          [
+            "قَلِيلًا",
+            "a little"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "صَدِيقِي",
+            "my friend"
+          ]
+        ]
+      },
+      {
+        "id": "d40l12",
+        "sp": "daniel",
+        "ar": "صَحِيح، آسِف! بَعْدَ ذٰلِكَ رَجَعْتُ إِلَى شَقَّتِي وَنِمْتُ سَاعَةً، ثُمَّ أَخِيرًا رَكِبْتُ الْمِتْرُو إِلَى هُنَا.",
+        "en": "True, sorry! After that I went back to my flat and slept for an hour, and then finally I took the metro here.",
+        "segs": [
+          [
+            "صَحِيح",
+            "true, right"
+          ],
+          [
+            "آسِف",
+            "sorry (m)"
+          ],
+          [
+            "بَعْدَ",
+            "after"
+          ],
+          [
+            "ذٰلِكَ",
+            "that"
+          ],
+          [
+            "رَجَعْتُ",
+            "I came back, I went back"
+          ],
+          [
+            "إِلَى",
+            "to"
+          ],
+          [
+            "شَقَّتِي",
+            "my flat"
+          ],
+          [
+            "وَنِمْتُ",
+            "and I slept"
+          ],
+          [
+            "سَاعَةً",
+            "an hour (for an hour)"
+          ],
+          [
+            "ثُمَّ",
+            "then"
+          ],
+          [
+            "أَخِيرًا",
+            "finally, at last"
+          ],
+          [
+            "رَكِبْتُ",
+            "I rode, I took (a vehicle)"
+          ],
+          [
+            "الْمِتْرُو",
+            "the metro"
+          ],
+          [
+            "إِلَى",
+            "to"
+          ],
+          [
+            "هُنَا",
+            "here"
+          ]
+        ]
+      },
+      {
+        "id": "d40l13",
+        "sp": "omar",
+        "ar": "أَنْتَ أَيْضًا نِمْتَ بَعْدَ الظُّهْر؟ إِذَنْ أَنْتَ مِثْلِي يَا دَانْيَال!",
+        "en": "You slept in the afternoon too? Then you're just like me, Daniel!",
+        "segs": [
+          [
+            "أَنْتَ",
+            "you (to a man)"
+          ],
+          [
+            "أَيْضًا",
+            "also, too"
+          ],
+          [
+            "نِمْتَ",
+            "you slept (to a man)"
+          ],
+          [
+            "بَعْدَ",
+            "after"
+          ],
+          [
+            "الظُّهْر",
+            "noon"
+          ],
+          [
+            "إِذَنْ",
+            "so, then"
+          ],
+          [
+            "أَنْتَ",
+            "you (to a man)"
+          ],
+          [
+            "مِثْلِي",
+            "like me"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "دَانْيَال",
+            "Daniel (first name)",
+            "name"
+          ]
+        ]
+      },
+      {
+        "id": "d40l14",
+        "sp": "fatima",
+        "ar": "يَا سَلَام! طَيِّب، الْآنَ اجْلِسُوا جَمِيعًا. بَعْدَ الْعَشَاءِ نَشْرَبُ الشَّاي فِي الشُّرْفَة.",
+        "en": "Goodness me! All right, now sit down, everyone. After dinner we'll drink tea on the balcony.",
+        "segs": [
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "سَلَام",
+            "peace (yā salām: wow!)"
+          ],
+          [
+            "طَيِّب",
+            "all right, good"
+          ],
+          [
+            "الْآنَ",
+            "now"
+          ],
+          [
+            "اجْلِسُوا",
+            "sit down (to several people)"
+          ],
+          [
+            "جَمِيعًا",
+            "all, everyone"
+          ],
+          [
+            "بَعْدَ",
+            "after"
+          ],
+          [
+            "الْعَشَاءِ",
+            "the dinner"
+          ],
+          [
+            "نَشْرَبُ",
+            "we drink"
+          ],
+          [
+            "الشَّاي",
+            "the tea"
+          ],
+          [
+            "فِي",
+            "in, on"
+          ],
+          [
+            "الشُّرْفَة",
+            "the balcony"
+          ]
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "title": "Omar's afternoon",
+    "ar": "رَجَعَ عُمَر مِنَ الْمَدْرَسَة، ثُمَّ لَعِبَ كُرَةَ الْقَدَم مَعَ أَصْدِقَائِهِ. بَعْدَ الْمُبَارَاةِ نَامَ عَلَى الْكَنَبَة. بَعْدَ أَنْ نَامَ قَلِيلًا، كَتَبَ الْوَاجِب. أَخِيرًا غَسَلَ يَدَيْهِ قَبْلَ الْعَشَاءِ.",
+    "en": "Omar came back from school, then he played football with his friends. After the match he fell asleep on the sofa. After he had slept a little, he did his homework. Finally he washed his hands before dinner.",
+    "segs": [
+      [
+        "رَجَعَ",
+        "he came back"
+      ],
+      [
+        "عُمَر",
+        "Omar (first name)",
+        "name"
+      ],
+      [
+        "مِنَ",
+        "from"
+      ],
+      [
+        "الْمَدْرَسَة",
+        "the school"
+      ],
+      [
+        "ثُمَّ",
+        "then"
+      ],
+      [
+        "لَعِبَ",
+        "he played"
+      ],
+      [
+        "كُرَةَ",
+        "ball (of)"
+      ],
+      [
+        "الْقَدَم",
+        "the foot (with 'ball': football)"
+      ],
+      [
+        "مَعَ",
+        "with"
+      ],
+      [
+        "أَصْدِقَائِهِ",
+        "his friends"
+      ],
+      [
+        "بَعْدَ",
+        "after"
+      ],
+      [
+        "الْمُبَارَاةِ",
+        "the match"
+      ],
+      [
+        "نَامَ",
+        "he slept"
+      ],
+      [
+        "عَلَى",
+        "on"
+      ],
+      [
+        "الْكَنَبَة",
+        "the sofa"
+      ],
+      [
+        "بَعْدَ",
+        "after"
+      ],
+      [
+        "أَنْ",
+        "that (before a verb)"
+      ],
+      [
+        "نَامَ",
+        "he slept"
+      ],
+      [
+        "قَلِيلًا",
+        "a little"
+      ],
+      [
+        "كَتَبَ",
+        "he wrote"
+      ],
+      [
+        "الْوَاجِب",
+        "the homework"
+      ],
+      [
+        "أَخِيرًا",
+        "finally, at last"
+      ],
+      [
+        "غَسَلَ",
+        "he washed"
+      ],
+      [
+        "يَدَيْهِ",
+        "his (two) hands"
+      ],
+      [
+        "قَبْلَ",
+        "before"
+      ],
+      [
+        "الْعَشَاءِ",
+        "the dinner"
+      ]
+    ]
+  },
+  "review": [
+    "kana",
+    "zara",
+    "faala",
+    "masaan",
+    "sabahan",
+    "bada",
+    "thumma"
+  ],
+  "quiz": [
+    {
+      "id": "d40q1",
+      "prompt": "What does this mean?",
+      "ar": "قَبْلَ الْعَشَاءِ",
+      "options": [
+        "after dinner",
+        "before dinner",
+        "during dinner",
+        "dinner is ready"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "d40q2",
+      "prompt": "Fill the gap: 'After we ate…'",
+      "ar": "بَعْدَ … أَكَلْنَا",
+      "options": [
+        "مِنْ",
+        "أَنْ",
+        "فِي",
+        "مَا"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "d40q3",
+      "prompt": "What did Omar really do first?",
+      "options": [
+        "He did his homework.",
+        "He played football.",
+        "He washed his hands.",
+        "He took the metro."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "d40q4",
+      "prompt": "What does ثُمَّ mean?",
+      "options": [
+        "before",
+        "because",
+        "then",
+        "never"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "d40q5",
+      "prompt": "How did Daniel get to Sami's house?",
+      "options": [
+        "by taxi",
+        "by train",
+        "on foot",
+        "by metro"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "d40q6",
+      "prompt": "Which word means 'finally'?",
+      "options": [
+        "أَخِيرًا",
+        "أَوَّلًا",
+        "دَائِمًا",
+        "قَلِيلًا"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "d40q7",
+      "prompt": "Which word begins with the deep q (ق), said far back in the throat?",
+      "options": [
+        "كَتَبْتُ",
+        "قَبْلَ",
+        "بَعْدَ",
+        "غَسَلْتُ"
+      ],
+      "answer": 1
+    }
+  ],
+  "completion": "Brilliant! You can tell a story in the right order with before, after, then and finally. Next: saying what you didn't do, the formal way.",
+  "status": "needs-review"
+}

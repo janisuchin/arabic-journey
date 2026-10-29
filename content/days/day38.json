@@ -1,0 +1,1166 @@
+{
+  "day": 38,
+  "week": 6,
+  "phase": 3,
+  "level": 4,
+  "title": "Last week",
+  "titleAr": "الْأُسْبُوعَ الْمَاضِي",
+  "titleSegs": [
+    [
+      "الْأُسْبُوعَ",
+      "the week (as a time: during the week)"
+    ],
+    [
+      "الْمَاضِي",
+      "the past, last"
+    ]
+  ],
+  "emoji": "🗓️",
+  "summary": "Say when things happened: last week, the day before yesterday, a month ago, in the morning.",
+  "intro": "Time words tell you when something happened: أَمْسِ (yesterday), أَوَّلَ أَمْسِ (the day before yesterday), الْأُسْبُوعَ الْمَاضِي (last week), مُنْذُ شَهْر (a month ago). Used on their own, without فِي, they take an -a ending: صَبَاحًا (in the morning), مَسَاءً (in the evening), يَوْمَ الْأَحَد (on Sunday).",
+  "objectives": [
+    "Tell someone what you did on each day of last week",
+    "Use أَمْسِ, أَوَّلَ أَمْسِ, الْأُسْبُوعَ الْمَاضِي and السَّنَةَ الْمَاضِيَة",
+    "Say how long ago something happened with مُنْذُ",
+    "Say the ʿayn in الْأُسْبُوع clearly"
+  ],
+  "realLife": {
+    "emoji": "📱",
+    "title": "A video call from Amman",
+    "story": "On Friday evening Sami is at Daniel's new flat when his friend Yusuf calls from Amman. Yusuf hasn't heard from them for a week and wants to know what they did last week, day by day."
+  },
+  "letters": [],
+  "newWords": [
+    "madi",
+    "al-usbu-al-madi",
+    "al-sana-al-madiya",
+    "awwala-ams",
+    "munthu",
+    "tabakha",
+    "nazzafa",
+    "qaraa"
+  ],
+  "grammar": [
+    "time-expressions",
+    "past-tense"
+  ],
+  "pronunciation": [
+    "ayn"
+  ],
+  "sentences": [
+    {
+      "id": "d38s1",
+      "ar": "نَظَّفْتُ شَقَّتِي الْأُسْبُوعَ الْمَاضِي.",
+      "en": "I cleaned my flat last week.",
+      "literal": "I cleaned my flat the week the past",
+      "segs": [
+        [
+          "نَظَّفْتُ",
+          "I cleaned",
+          "verb"
+        ],
+        [
+          "شَقَّتِي",
+          "my flat",
+          "noun"
+        ],
+        [
+          "الْأُسْبُوعَ",
+          "the week (as a time: during the week)",
+          "noun"
+        ],
+        [
+          "الْمَاضِي",
+          "the past, last",
+          "adj"
+        ]
+      ],
+      "grammar": [
+        "time-expressions",
+        "past-tense"
+      ],
+      "mistakes": [
+        {
+          "wrong": "نَظَّفْتُ شَقَّتِي الْأُسْبُوعَ الْمَاضِيَة",
+          "right": "نَظَّفْتُ شَقَّتِي الْأُسْبُوعَ الْمَاضِي",
+          "why": "أُسْبُوع (week) is masculine, so 'last' is الْمَاضِي. Only feminine words such as السَّنَة (the year) take الْمَاضِيَة."
+        }
+      ]
+    },
+    {
+      "id": "d38s2",
+      "ar": "رَجَعَ يُوسُف إِلَى عَمَّان أَوَّلَ أَمْسِ.",
+      "en": "Yusuf came back to Amman the day before yesterday.",
+      "literal": "came back Yusuf to Amman (the) first (of) yesterday",
+      "segs": [
+        [
+          "رَجَعَ",
+          "he came back",
+          "verb"
+        ],
+        [
+          "يُوسُف",
+          "Yusuf (first name)",
+          "name"
+        ],
+        [
+          "إِلَى",
+          "to",
+          "prep"
+        ],
+        [
+          "عَمَّان",
+          "Amman (capital of Jordan)",
+          "name"
+        ],
+        [
+          "أَوَّلَ",
+          "the first (of): with 'yesterday', the day before yesterday",
+          "adverb"
+        ],
+        [
+          "أَمْسِ",
+          "yesterday",
+          "adverb"
+        ]
+      ],
+      "grammar": [
+        "time-expressions"
+      ]
+    },
+    {
+      "id": "d38s3",
+      "ar": "وَصَلْتُ إِلَى الْقَاهِرَة مُنْذُ شَهْر.",
+      "en": "I arrived in Cairo a month ago.",
+      "literal": "I arrived to Cairo since a month",
+      "segs": [
+        [
+          "وَصَلْتُ",
+          "I arrived",
+          "verb"
+        ],
+        [
+          "إِلَى",
+          "to",
+          "prep"
+        ],
+        [
+          "الْقَاهِرَة",
+          "Cairo (capital of Egypt)",
+          "name"
+        ],
+        [
+          "مُنْذُ",
+          "since, ago",
+          "prep"
+        ],
+        [
+          "شَهْر",
+          "month",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "time-expressions"
+      ],
+      "mistakes": [
+        {
+          "wrong": "وَصَلْتُ إِلَى الْقَاهِرَة شَهْر مُنْذُ",
+          "right": "وَصَلْتُ إِلَى الْقَاهِرَة مُنْذُ شَهْر",
+          "why": "مُنْذُ comes before the length of time, while English 'ago' comes after it."
+        }
+      ]
+    },
+    {
+      "id": "d38s4",
+      "ar": "قَرَأْتُ قِصَّة قَصِيرَة مَسَاءً.",
+      "en": "I read a short story in the evening.",
+      "literal": "I read a story short in the evening",
+      "segs": [
+        [
+          "قَرَأْتُ",
+          "I read",
+          "verb"
+        ],
+        [
+          "قِصَّة",
+          "story",
+          "noun"
+        ],
+        [
+          "قَصِيرَة",
+          "short (f)",
+          "adj"
+        ],
+        [
+          "مَسَاءً",
+          "in the evening",
+          "adverb"
+        ]
+      ],
+      "grammar": [
+        "time-expressions",
+        "past-tense"
+      ]
+    },
+    {
+      "id": "d38s5",
+      "ar": "رَجَعَتْ لَيْلَى مِنْ لُبْنَان الشَّهْرَ الْمَاضِي.",
+      "en": "Layla came back from Lebanon last month.",
+      "literal": "came back (she) Layla from Lebanon the month the past",
+      "segs": [
+        [
+          "رَجَعَتْ",
+          "she came back",
+          "verb"
+        ],
+        [
+          "لَيْلَى",
+          "Layla (first name)",
+          "name"
+        ],
+        [
+          "مِنْ",
+          "from",
+          "prep"
+        ],
+        [
+          "لُبْنَان",
+          "Lebanon (country)",
+          "name"
+        ],
+        [
+          "الشَّهْرَ",
+          "the month (as a time: during the month)",
+          "noun"
+        ],
+        [
+          "الْمَاضِي",
+          "the past, last",
+          "adj"
+        ]
+      ],
+      "grammar": [
+        "time-expressions",
+        "past-tense"
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "A call from Amman",
+    "speakers": [
+      {
+        "key": "yusuf",
+        "name": "Yusuf",
+        "nameAr": "يُوسُف"
+      },
+      {
+        "key": "sami",
+        "name": "Sami",
+        "nameAr": "سَامِي"
+      },
+      {
+        "key": "daniel",
+        "name": "Daniel",
+        "nameAr": "دَانْيَال"
+      }
+    ],
+    "culture": "Most Arabic weekday names are numbers: الْأَحَد (Sunday) comes from 'one', الْإِثْنَيْن (Monday) from 'two', الثُّلَاثَاء from 'three', الْأَرْبِعَاء from 'four' and الْخَمِيس from 'five'. Friday, الْجُمُعَة, is the day of gathering for the midday prayer; in Egypt and Jordan the weekend is Friday and Saturday.",
+    "lines": [
+      {
+        "id": "d38l1",
+        "sp": "yusuf",
+        "ar": "أَهْلًا يَا شَبَاب! مَا سَمِعْتُ مِنْكُمَا شَيْئًا مُنْذُ أُسْبُوع. كَيْفَ حَالُكُمَا؟",
+        "en": "Hi, guys! I haven't heard anything from you two for a week. How are you both?",
+        "segs": [
+          [
+            "أَهْلًا",
+            "hi, welcome"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "شَبَاب",
+            "guys, young people"
+          ],
+          [
+            "مَا",
+            "not (before a past verb)"
+          ],
+          [
+            "سَمِعْتُ",
+            "I heard"
+          ],
+          [
+            "مِنْكُمَا",
+            "from you (two)"
+          ],
+          [
+            "شَيْئًا",
+            "anything, something (object form)"
+          ],
+          [
+            "مُنْذُ",
+            "since, for"
+          ],
+          [
+            "أُسْبُوع",
+            "week"
+          ],
+          [
+            "كَيْفَ",
+            "how"
+          ],
+          [
+            "حَالُكُمَا",
+            "your condition (two people): 'how are you both'"
+          ]
+        ]
+      },
+      {
+        "id": "d38l2",
+        "sp": "sami",
+        "ar": "أَهْلًا يَا يُوسُف! نَحْنُ بِخَيْر، الْحَمْدُ لِلّٰه. الْأُسْبُوعَ الْمَاضِي فَعَلْنَا أَشْيَاء كَثِيرَة!",
+        "en": "Hi, Yusuf! We're fine, thank God. Last week we did lots of things!",
+        "segs": [
+          [
+            "أَهْلًا",
+            "hi, welcome"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "يُوسُف",
+            "Yusuf (first name)",
+            "name"
+          ],
+          [
+            "نَحْنُ",
+            "we"
+          ],
+          [
+            "بِخَيْر",
+            "well, fine"
+          ],
+          [
+            "الْحَمْدُ",
+            "the praise"
+          ],
+          [
+            "لِلّٰه",
+            "to God"
+          ],
+          [
+            "الْأُسْبُوعَ",
+            "the week (as a time: during the week)"
+          ],
+          [
+            "الْمَاضِي",
+            "the past, last"
+          ],
+          [
+            "فَعَلْنَا",
+            "we did"
+          ],
+          [
+            "أَشْيَاء",
+            "things"
+          ],
+          [
+            "كَثِيرَة",
+            "many (f)"
+          ]
+        ]
+      },
+      {
+        "id": "d38l3",
+        "sp": "yusuf",
+        "ar": "حَقًّا؟ إِذَنْ أَخْبِرَانِي! مَاذَا فَعَلْتُمَا الْأُسْبُوعَ الْمَاضِي؟ أَنَا أَسْمَعُ.",
+        "en": "Really? Then tell me! What did you two do last week? I'm listening.",
+        "segs": [
+          [
+            "حَقًّا",
+            "really, truly"
+          ],
+          [
+            "إِذَنْ",
+            "so, then"
+          ],
+          [
+            "أَخْبِرَانِي",
+            "tell me (to two people)"
+          ],
+          [
+            "مَاذَا",
+            "what (before a verb)"
+          ],
+          [
+            "فَعَلْتُمَا",
+            "you did (to two people)"
+          ],
+          [
+            "الْأُسْبُوعَ",
+            "the week (as a time: during the week)"
+          ],
+          [
+            "الْمَاضِي",
+            "the past, last"
+          ],
+          [
+            "أَنَا",
+            "I"
+          ],
+          [
+            "أَسْمَعُ",
+            "I listen, I hear"
+          ]
+        ]
+      },
+      {
+        "id": "d38l4",
+        "sp": "sami",
+        "ar": "يَوْمَ السَّبْت ذَهَبْنَا إِلَى الْإِسْكَنْدَرِيَّة بِالْقِطَار، وَرَجَعْنَا فِي اللَّيْل.",
+        "en": "On Saturday we went to Alexandria by train, and we came back at night.",
+        "segs": [
+          [
+            "يَوْمَ",
+            "on (the day of)"
+          ],
+          [
+            "السَّبْت",
+            "Saturday"
+          ],
+          [
+            "ذَهَبْنَا",
+            "we went"
+          ],
+          [
+            "إِلَى",
+            "to"
+          ],
+          [
+            "الْإِسْكَنْدَرِيَّة",
+            "Alexandria (city in Egypt)",
+            "name"
+          ],
+          [
+            "بِالْقِطَار",
+            "by train"
+          ],
+          [
+            "وَرَجَعْنَا",
+            "and we came back"
+          ],
+          [
+            "فِي",
+            "in, at"
+          ],
+          [
+            "اللَّيْل",
+            "the night"
+          ]
+        ]
+      },
+      {
+        "id": "d38l5",
+        "sp": "yusuf",
+        "ar": "رَائِع! وَأَنْتَ يَا دَانْيَال؟ مَاذَا فَعَلْتَ فِي بَقِيَّةِ الْأُسْبُوع؟",
+        "en": "Wonderful! And you, Daniel? What did you do for the rest of the week?",
+        "segs": [
+          [
+            "رَائِع",
+            "wonderful"
+          ],
+          [
+            "وَأَنْتَ",
+            "and you (to a man)"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "دَانْيَال",
+            "Daniel (first name)",
+            "name"
+          ],
+          [
+            "مَاذَا",
+            "what (before a verb)"
+          ],
+          [
+            "فَعَلْتَ",
+            "you did (to a man)"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "بَقِيَّةِ",
+            "the rest (of)"
+          ],
+          [
+            "الْأُسْبُوع",
+            "the week"
+          ]
+        ]
+      },
+      {
+        "id": "d38l6",
+        "sp": "daniel",
+        "ar": "يَوْمَ الْأَحَد نَظَّفْتُ شَقَّتِي الْجَدِيدَة، وَيَوْمَ الْإِثْنَيْن طَبَخْتُ الْمُلُوخِيَّة لِأَوَّلِ مَرَّة.",
+        "en": "On Sunday I cleaned my new flat, and on Monday I cooked molokhia for the first time.",
+        "segs": [
+          [
+            "يَوْمَ",
+            "on (the day of)"
+          ],
+          [
+            "الْأَحَد",
+            "Sunday"
+          ],
+          [
+            "نَظَّفْتُ",
+            "I cleaned"
+          ],
+          [
+            "شَقَّتِي",
+            "my flat"
+          ],
+          [
+            "الْجَدِيدَة",
+            "the new (f)"
+          ],
+          [
+            "وَيَوْمَ",
+            "and on (the day of)"
+          ],
+          [
+            "الْإِثْنَيْن",
+            "Monday"
+          ],
+          [
+            "طَبَخْتُ",
+            "I cooked"
+          ],
+          [
+            "الْمُلُوخِيَّة",
+            "molokhia (a green leaf stew)"
+          ],
+          [
+            "لِأَوَّلِ",
+            "for the first"
+          ],
+          [
+            "مَرَّة",
+            "time, occasion"
+          ]
+        ]
+      },
+      {
+        "id": "d38l7",
+        "sp": "yusuf",
+        "ar": "الْمُلُوخِيَّة؟ بِصَرَاحَة، أَنَا لَا أُحِبُّهَا كَثِيرًا! وَهَلْ أَكَلَهَا سَامِي؟",
+        "en": "Molokhia? To be honest, I don't like it very much! And did Sami eat it?",
+        "segs": [
+          [
+            "الْمُلُوخِيَّة",
+            "molokhia (a green leaf stew)"
+          ],
+          [
+            "بِصَرَاحَة",
+            "honestly"
+          ],
+          [
+            "أَنَا",
+            "I"
+          ],
+          [
+            "لَا",
+            "not"
+          ],
+          [
+            "أُحِبُّهَا",
+            "I like it (f), I love it"
+          ],
+          [
+            "كَثِيرًا",
+            "much, a lot"
+          ],
+          [
+            "وَهَلْ",
+            "and (starts a yes/no question)"
+          ],
+          [
+            "أَكَلَهَا",
+            "he ate it (f)"
+          ],
+          [
+            "سَامِي",
+            "Sami (first name)",
+            "name"
+          ]
+        ]
+      },
+      {
+        "id": "d38l8",
+        "sp": "sami",
+        "ar": "نَعَم، أَكَلْتُهَا مَسَاءَ الْإِثْنَيْن فِي شَقَّتِهِ. أُمِّي تَطْبُخُهَا أَحْسَن، لٰكِنْ لَا بَأْسَ!",
+        "en": "Yes, I ate it at his flat on Monday evening. My mother cooks it better, but it wasn't bad!",
+        "segs": [
+          [
+            "نَعَم",
+            "yes"
+          ],
+          [
+            "أَكَلْتُهَا",
+            "I ate it (f)"
+          ],
+          [
+            "مَسَاءَ",
+            "(on the) evening (of)"
+          ],
+          [
+            "الْإِثْنَيْن",
+            "Monday"
+          ],
+          [
+            "فِي",
+            "in, at"
+          ],
+          [
+            "شَقَّتِهِ",
+            "his flat"
+          ],
+          [
+            "أُمِّي",
+            "my mother"
+          ],
+          [
+            "تَطْبُخُهَا",
+            "she cooks it (f)"
+          ],
+          [
+            "أَحْسَن",
+            "better, best"
+          ],
+          [
+            "لٰكِنْ",
+            "but"
+          ],
+          [
+            "لَا",
+            "no, not"
+          ],
+          [
+            "بَأْسَ",
+            "harm (with 'no': not bad)"
+          ]
+        ]
+      },
+      {
+        "id": "d38l9",
+        "sp": "daniel",
+        "ar": "وَيَوْمَ الثُّلَاثَاء قَرَأْتُ قِصَّة قَصِيرَة بِالْعَرَبِيَّة، وَيَوْمَ الْأَرْبِعَاء دَرَسْتُ الْقَوَاعِد.",
+        "en": "And on Tuesday I read a short story in Arabic, and on Wednesday I studied grammar.",
+        "segs": [
+          [
+            "وَيَوْمَ",
+            "and on (the day of)"
+          ],
+          [
+            "الثُّلَاثَاء",
+            "Tuesday"
+          ],
+          [
+            "قَرَأْتُ",
+            "I read"
+          ],
+          [
+            "قِصَّة",
+            "story"
+          ],
+          [
+            "قَصِيرَة",
+            "short (f)"
+          ],
+          [
+            "بِالْعَرَبِيَّة",
+            "in Arabic"
+          ],
+          [
+            "وَيَوْمَ",
+            "and on (the day of)"
+          ],
+          [
+            "الْأَرْبِعَاء",
+            "Wednesday"
+          ],
+          [
+            "دَرَسْتُ",
+            "I studied"
+          ],
+          [
+            "الْقَوَاعِد",
+            "the grammar (rules)"
+          ]
+        ]
+      },
+      {
+        "id": "d38l10",
+        "sp": "yusuf",
+        "ar": "مَا شَاءَ اللّٰه، أُسْبُوع مَشْغُول! أَنَا رَجَعْتُ إِلَى عَمَّان أَوَّلَ أَمْسِ فَقَطْ.",
+        "en": "Wow, what a busy week! I only came back to Amman the day before yesterday.",
+        "segs": [
+          [
+            "مَا",
+            "what"
+          ],
+          [
+            "شَاءَ",
+            "(has) willed"
+          ],
+          [
+            "اللّٰه",
+            "God"
+          ],
+          [
+            "أُسْبُوع",
+            "week"
+          ],
+          [
+            "مَشْغُول",
+            "busy"
+          ],
+          [
+            "أَنَا",
+            "I"
+          ],
+          [
+            "رَجَعْتُ",
+            "I came back"
+          ],
+          [
+            "إِلَى",
+            "to"
+          ],
+          [
+            "عَمَّان",
+            "Amman (capital of Jordan)",
+            "name"
+          ],
+          [
+            "أَوَّلَ",
+            "the first (of): with 'yesterday', the day before yesterday"
+          ],
+          [
+            "أَمْسِ",
+            "yesterday"
+          ],
+          [
+            "فَقَطْ",
+            "only"
+          ]
+        ]
+      },
+      {
+        "id": "d38l11",
+        "sp": "daniel",
+        "ar": "مِنْ أَيْنَ رَجَعْتَ يَا يُوسُف؟ هَلْ ذَهَبْتَ فِي رِحْلَة أَيْضًا؟",
+        "en": "Where did you come back from, Yusuf? Did you go on a trip too?",
+        "segs": [
+          [
+            "مِنْ",
+            "from"
+          ],
+          [
+            "أَيْنَ",
+            "where"
+          ],
+          [
+            "رَجَعْتَ",
+            "you came back (to a man)"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "يُوسُف",
+            "Yusuf (first name)",
+            "name"
+          ],
+          [
+            "هَلْ",
+            "(starts a yes/no question)"
+          ],
+          [
+            "ذَهَبْتَ",
+            "you went (to a man)"
+          ],
+          [
+            "فِي",
+            "in, on"
+          ],
+          [
+            "رِحْلَة",
+            "trip, journey"
+          ],
+          [
+            "أَيْضًا",
+            "also, too"
+          ]
+        ]
+      },
+      {
+        "id": "d38l12",
+        "sp": "yusuf",
+        "ar": "زُرْتُ جَدَّتِي فِي إِرْبِد. ذَهَبْتُ إِلَيْهَا يَوْمَ الْأَحَد صَبَاحًا، وَبَقِيتُ عِنْدَهَا ثَلَاثَة أَيَّام.",
+        "en": "I visited my grandmother in Irbid. I went to her on Sunday morning and stayed with her for three days.",
+        "segs": [
+          [
+            "زُرْتُ",
+            "I visited"
+          ],
+          [
+            "جَدَّتِي",
+            "my grandmother"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "إِرْبِد",
+            "Irbid (city in Jordan)",
+            "name"
+          ],
+          [
+            "ذَهَبْتُ",
+            "I went"
+          ],
+          [
+            "إِلَيْهَا",
+            "to her"
+          ],
+          [
+            "يَوْمَ",
+            "on (the day of)"
+          ],
+          [
+            "الْأَحَد",
+            "Sunday"
+          ],
+          [
+            "صَبَاحًا",
+            "in the morning"
+          ],
+          [
+            "وَبَقِيتُ",
+            "and I stayed"
+          ],
+          [
+            "عِنْدَهَا",
+            "with her, at her place"
+          ],
+          [
+            "ثَلَاثَة",
+            "three"
+          ],
+          [
+            "أَيَّام",
+            "days"
+          ]
+        ]
+      },
+      {
+        "id": "d38l13",
+        "sp": "sami",
+        "ar": "وَكَيْفَ جَدَّتُكَ؟ زُرْتُهَا مَعَكَ السَّنَةَ الْمَاضِيَة، وَطَبَخَتْ لَنَا الْمَنْسَف.",
+        "en": "And how is your grandmother? I visited her with you last year, and she cooked mansaf for us.",
+        "segs": [
+          [
+            "وَكَيْفَ",
+            "and how"
+          ],
+          [
+            "جَدَّتُكَ",
+            "your grandmother (to a man)"
+          ],
+          [
+            "زُرْتُهَا",
+            "I visited her"
+          ],
+          [
+            "مَعَكَ",
+            "with you (to a man)"
+          ],
+          [
+            "السَّنَةَ",
+            "the year (as a time: during the year)"
+          ],
+          [
+            "الْمَاضِيَة",
+            "the past, last (f)"
+          ],
+          [
+            "وَطَبَخَتْ",
+            "and she cooked"
+          ],
+          [
+            "لَنَا",
+            "for us"
+          ],
+          [
+            "الْمَنْسَف",
+            "mansaf (lamb with rice and yoghurt)"
+          ]
+        ]
+      },
+      {
+        "id": "d38l14",
+        "sp": "yusuf",
+        "ar": "هِيَ بِخَيْر، وَسَأَلَتْ عَنْكَ! وَالْآنَ يَا دَانْيَال، أَرْسِلْ لِي صُوَرَ الْإِسْكَنْدَرِيَّة، مِنْ فَضْلِكَ.",
+        "en": "She's fine, and she asked about you! And now, Daniel, please send me the photos of Alexandria.",
+        "segs": [
+          [
+            "هِيَ",
+            "she"
+          ],
+          [
+            "بِخَيْر",
+            "well, fine"
+          ],
+          [
+            "وَسَأَلَتْ",
+            "and she asked"
+          ],
+          [
+            "عَنْكَ",
+            "about you (to a man)"
+          ],
+          [
+            "وَالْآنَ",
+            "and now"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "دَانْيَال",
+            "Daniel (first name)",
+            "name"
+          ],
+          [
+            "أَرْسِلْ",
+            "send (to a man)"
+          ],
+          [
+            "لِي",
+            "to me, for me"
+          ],
+          [
+            "صُوَرَ",
+            "photos (of)"
+          ],
+          [
+            "الْإِسْكَنْدَرِيَّة",
+            "Alexandria (city in Egypt)",
+            "name"
+          ],
+          [
+            "مِنْ",
+            "from"
+          ],
+          [
+            "فَضْلِكَ",
+            "your kindness (to a man): 'please'"
+          ]
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "title": "Daniel's week",
+    "ar": "يَوْمَ الْأَحَد نَظَّفْتُ شَقَّتِي. يَوْمَ الْإِثْنَيْن طَبَخْتُ الْمُلُوخِيَّة، وَأَكَلَهَا سَامِي مَسَاءً. يَوْمَ الثُّلَاثَاء قَرَأْتُ قِصَّة، وَيَوْمَ الْأَرْبِعَاء دَرَسْتُ الْقَوَاعِد.",
+    "en": "On Sunday I cleaned my flat. On Monday I cooked molokhia, and Sami ate it in the evening. On Tuesday I read a story, and on Wednesday I studied grammar.",
+    "segs": [
+      [
+        "يَوْمَ",
+        "on (the day of)"
+      ],
+      [
+        "الْأَحَد",
+        "Sunday"
+      ],
+      [
+        "نَظَّفْتُ",
+        "I cleaned"
+      ],
+      [
+        "شَقَّتِي",
+        "my flat"
+      ],
+      [
+        "يَوْمَ",
+        "on (the day of)"
+      ],
+      [
+        "الْإِثْنَيْن",
+        "Monday"
+      ],
+      [
+        "طَبَخْتُ",
+        "I cooked"
+      ],
+      [
+        "الْمُلُوخِيَّة",
+        "molokhia (a green leaf stew)"
+      ],
+      [
+        "وَأَكَلَهَا",
+        "and he ate it (f)"
+      ],
+      [
+        "سَامِي",
+        "Sami (first name)",
+        "name"
+      ],
+      [
+        "مَسَاءً",
+        "in the evening"
+      ],
+      [
+        "يَوْمَ",
+        "on (the day of)"
+      ],
+      [
+        "الثُّلَاثَاء",
+        "Tuesday"
+      ],
+      [
+        "قَرَأْتُ",
+        "I read"
+      ],
+      [
+        "قِصَّة",
+        "story"
+      ],
+      [
+        "وَيَوْمَ",
+        "and on (the day of)"
+      ],
+      [
+        "الْأَرْبِعَاء",
+        "Wednesday"
+      ],
+      [
+        "دَرَسْتُ",
+        "I studied"
+      ],
+      [
+        "الْقَوَاعِد",
+        "the grammar (rules)"
+      ]
+    ]
+  },
+  "review": [
+    "dhahaba",
+    "rajaa",
+    "zara",
+    "faala",
+    "shay-w6",
+    "sabahan",
+    "masaan"
+  ],
+  "quiz": [
+    {
+      "id": "d38q1",
+      "prompt": "What does this mean?",
+      "ar": "الْأُسْبُوعَ الْمَاضِي",
+      "options": [
+        "next week",
+        "last week",
+        "this week",
+        "every week"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "d38q2",
+      "prompt": "What does this mean?",
+      "ar": "أَوَّلَ أَمْسِ",
+      "options": [
+        "yesterday morning",
+        "the first day",
+        "the day before yesterday",
+        "tomorrow"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "d38q3",
+      "prompt": "Fill the gap: 'I arrived in Cairo a month ago.'",
+      "ar": "وَصَلْتُ إِلَى الْقَاهِرَة … شَهْر.",
+      "options": [
+        "مُنْذُ",
+        "بَعْدَ",
+        "فِي",
+        "مِنْ"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "d38q4",
+      "prompt": "What did Daniel cook on Monday?",
+      "options": [
+        "fish",
+        "mansaf",
+        "molokhia",
+        "a cake"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "d38q5",
+      "prompt": "When did Yusuf come back to Amman?",
+      "options": [
+        "yesterday",
+        "the day before yesterday",
+        "a month ago",
+        "last year"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "d38q6",
+      "prompt": "Which phrase correctly means 'last year'?",
+      "options": [
+        "السَّنَةَ الْمَاضِي",
+        "الْأُسْبُوعَ الْمَاضِيَة",
+        "السَّنَةَ الْمَاضِيَة",
+        "الشَّهْرَ الْمَاضِيَة"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "d38q7",
+      "prompt": "Which letter in الْأُسْبُوع (the week) is the throat sound ʿayn?",
+      "options": [
+        "أ",
+        "س",
+        "ب",
+        "ع"
+      ],
+      "answer": 3
+    }
+  ],
+  "completion": "Excellent! You can tell someone about your whole week and say exactly when things happened. Next: holiday memories with كَانَ (was).",
+  "status": "needs-review"
+}

@@ -383,5 +383,85 @@
         }
       ]
     ]
+  },
+  {
+    "id": "sukun",
+    "title": "Sukūn: a consonant with no vowel",
+    "category": "Syllables",
+    "ipa": [
+      "CC"
+    ],
+    "letters": [
+      "ْ"
+    ],
+    "tip": "The small ring ْ (sukūn) means the consonant has no vowel after it: close the syllable on it and go straight on to the next consonant. ذَهَبْتُ is dha-hab-tu: the b stops, then the t follows at once. Don't slip a little extra vowel between the two consonants.",
+    "diagram": "ْ sits above the letter like a small ring · consonant + sukūn closes the syllable: ذَهَبْتُ = dha · hab · tu",
+    "error": "Adding a helping vowel: 'dhahabatu' instead of dhahabtu. Moving the vowel changes the person: ذَهَبْتُ (dhahabtu) is 'I went', but ذَهَبَتْ (dhahabat) is 'she went'.",
+    "examples": [
+      {
+        "ar": "ذَهَبْتُ",
+        "en": "I went"
+      },
+      {
+        "ar": "بَحْر",
+        "en": "sea"
+      },
+      {
+        "ar": "أَكَلْنَا",
+        "en": "we ate"
+      }
+    ],
+    "pairs": [
+      [
+        {
+          "ar": "ذَهَبْتُ",
+          "en": "I went"
+        },
+        {
+          "ar": "ذَهَبَتْ",
+          "en": "she went"
+        }
+      ],
+      [
+        {
+          "ar": "أَكَلْتُ",
+          "en": "I ate"
+        },
+        {
+          "ar": "أَكَلَتْ",
+          "en": "she ate"
+        }
+      ]
+    ]
+  },
+  {
+    "id": "diphthongs",
+    "title": "Diphthongs: ay and aw",
+    "category": "Vowels",
+    "ipa": [
+      "aj",
+      "aw"
+    ],
+    "letters": [
+      "ي",
+      "و"
+    ],
+    "tip": "When a fatha is followed by ي or و with sukūn, the two glide together in one syllable: ay as in English 'eye' (بَيْت bayt, house) and aw as in 'cow' (يَوْم yawm, day). Many Egyptians say bēt and yōm in everyday speech, but in Modern Standard Arabic keep the glide.",
+    "diagram": "fatha + يْ = ay · fatha + وْ = aw · compare kasra + ي = long ī and damma + و = long ū",
+    "error": "Reading بَيْت as 'beet' (a long ī) or يَوْم as 'yoom' (a long ū). The fatha before the letter tells you it is a glide.",
+    "examples": [
+      {
+        "ar": "يَوْم",
+        "en": "day"
+      },
+      {
+        "ar": "بَيْت",
+        "en": "house"
+      },
+      {
+        "ar": "شَيْء",
+        "en": "thing"
+      }
+    ]
   }
 ]
