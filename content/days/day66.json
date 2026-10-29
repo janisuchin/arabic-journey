@@ -1,0 +1,1322 @@
+{
+  "day": 66,
+  "week": 10,
+  "phase": 5,
+  "level": 6,
+  "title": "On the phone",
+  "titleAr": "عَلَى الْهَاتِف",
+  "titleSegs": [
+    [
+      "عَلَى",
+      "on"
+    ],
+    [
+      "الْهَاتِف",
+      "the phone"
+    ]
+  ],
+  "emoji": "📞",
+  "summary": "Answer the office phone, take a message, and say who is away, travelling or coming back with the active participle: مُسَافِر، ذَاهِب، عَائِد.",
+  "intro": "Mrs Huda is travelling, and Daniel has to answer the office phone. To say what someone is doing right now, Arabic often uses the active participle, which works like an adjective: هِيَ مُسَافِرَة (she is travelling), أَنَا ذَاهِب (I'm going), هُوَ عَائِد غَدًا (he's coming back tomorrow). It agrees with the person: ذَاهِب for a man, ذَاهِبَة for a woman.",
+  "objectives": [
+    "Answer the phone and say who is speaking",
+    "Say that someone is away, travelling or coming back with active participles",
+    "Take a message, or offer to take one",
+    "Promise to call someone back with أَتَّصِلُ بِكَ"
+  ],
+  "realLife": {
+    "emoji": "☎️",
+    "title": "The office phone",
+    "story": "Every phone in the office seems to ring at the same time. Daniel's hands shake the first time he picks one up, but the caller is patient and speaks clearly. Daniel writes the message on a yellow note, puts it on the manager's desk and sends her a text as well, just in case."
+  },
+  "letters": [],
+  "newWords": [
+    "risala",
+    "yatruku",
+    "dhahib",
+    "aid",
+    "ghaib",
+    "mutaakkid",
+    "hadir"
+  ],
+  "grammar": [
+    "active-participle"
+  ],
+  "pronunciation": [
+    "hamza"
+  ],
+  "sentences": [
+    {
+      "id": "d66s1",
+      "ar": "الْمُدِيرَة مُسَافِرَة الْيَوْم.",
+      "en": "The manager is travelling today.",
+      "literal": "the manager (f) travelling (f) today",
+      "segs": [
+        [
+          "الْمُدِيرَة",
+          "the manager (a woman)",
+          "noun"
+        ],
+        [
+          "مُسَافِرَة",
+          "travelling (f)",
+          "adj"
+        ],
+        [
+          "الْيَوْم",
+          "today",
+          "adverb"
+        ]
+      ],
+      "grammar": [
+        "active-participle"
+      ],
+      "mistakes": [
+        {
+          "wrong": "الْمُدِيرَة مُسَافِر الْيَوْم.",
+          "right": "الْمُدِيرَة مُسَافِرَة الْيَوْم.",
+          "why": "The participle agrees like an adjective: musāfira for a woman."
+        }
+      ]
+    },
+    {
+      "id": "d66s2",
+      "ar": "أَنَا ذَاهِب إِلَى الْمَكْتَب.",
+      "en": "I'm going to the office.",
+      "literal": "I (am) going to the office",
+      "segs": [
+        [
+          "أَنَا",
+          "I",
+          "pronoun"
+        ],
+        [
+          "ذَاهِب",
+          "going",
+          "adj"
+        ],
+        [
+          "إِلَى",
+          "to",
+          "prep"
+        ],
+        [
+          "الْمَكْتَب",
+          "the office",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "active-participle"
+      ],
+      "mistakes": [
+        {
+          "wrong": "أَنَا ذَاهِب الْمَكْتَب.",
+          "right": "أَنَا ذَاهِب إِلَى الْمَكْتَب.",
+          "why": "After dhāhib (going) you need ilā (to) before the place."
+        }
+      ]
+    },
+    {
+      "id": "d66s3",
+      "ar": "هَلْ تُرِيدُ أَنْ تَتْرُكَ رِسَالَة؟",
+      "en": "Would you like to leave a message? (to a man)",
+      "literal": "do you want that you leave a message",
+      "segs": [
+        [
+          "هَلْ",
+          "(starts a yes/no question)",
+          "particle"
+        ],
+        [
+          "تُرِيدُ",
+          "you want (to a man)",
+          "verb"
+        ],
+        [
+          "أَنْ",
+          "to, that",
+          "particle"
+        ],
+        [
+          "تَتْرُكَ",
+          "you leave (after an)",
+          "verb"
+        ],
+        [
+          "رِسَالَة",
+          "a message",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "an-subjunctive"
+      ]
+    },
+    {
+      "id": "d66s4",
+      "ar": "أَتَّصِلُ بِكَ غَدًا.",
+      "en": "I'll call you tomorrow. (to a man)",
+      "literal": "I call to you tomorrow",
+      "segs": [
+        [
+          "أَتَّصِلُ",
+          "I call, I phone",
+          "verb"
+        ],
+        [
+          "بِكَ",
+          "you (after 'call', to a man)",
+          "prep"
+        ],
+        [
+          "غَدًا",
+          "tomorrow",
+          "adverb"
+        ]
+      ],
+      "grammar": [
+        "present-tense"
+      ],
+      "mistakes": [
+        {
+          "wrong": "أَتَّصِلُكَ غَدًا.",
+          "right": "أَتَّصِلُ بِكَ غَدًا.",
+          "why": "ittaṣala always takes bi- before the person: attaṣilu bika."
+        }
+      ]
+    },
+    {
+      "id": "d66s5",
+      "ar": "هِيَ عَائِدَة مِنَ الْإِسْكَنْدَرِيَّة غَدًا.",
+      "en": "She is coming back from Alexandria tomorrow.",
+      "literal": "she (is) returning from Alexandria tomorrow",
+      "segs": [
+        [
+          "هِيَ",
+          "she",
+          "pronoun"
+        ],
+        [
+          "عَائِدَة",
+          "coming back (f)",
+          "adj"
+        ],
+        [
+          "مِنَ",
+          "from",
+          "prep"
+        ],
+        [
+          "الْإِسْكَنْدَرِيَّة",
+          "Alexandria (city in Egypt)",
+          "name"
+        ],
+        [
+          "غَدًا",
+          "tomorrow",
+          "adverb"
+        ]
+      ],
+      "grammar": [
+        "active-participle"
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "A message for the manager",
+    "speakers": [
+      {
+        "key": "daniel",
+        "name": "Daniel",
+        "nameAr": "دَانْيَال"
+      },
+      {
+        "key": "adel",
+        "name": "Mr Adel",
+        "nameAr": "الْأُسْتَاذ عَادِل"
+      },
+      {
+        "key": "tariq",
+        "name": "Tariq",
+        "nameAr": "طَارِق"
+      }
+    ],
+    "culture": "On the phone Egyptians answer with آلُو, and callers greet you before they give their name. حَاضِر (literally 'present') is a very common, polite way to say 'certainly, I'll do it', and إِنْ شَاءَ اللّٰه (God willing) goes with almost every promise about the future.",
+    "lines": [
+      {
+        "id": "d66l1",
+        "sp": "daniel",
+        "ar": "آلُو، شَرِكَةُ النِّيل لِلتَّرْجَمَة، صَبَاحُ الْخَيْر. مَعَكَ دَانْيَال، كَيْفَ يُمْكِنُنِي أَنْ أُسَاعِدَكَ؟",
+        "en": "Hello, Nile Translation Company, good morning. Daniel speaking, how can I help you?",
+        "segs": [
+          [
+            "آلُو",
+            "hello (on the phone)"
+          ],
+          [
+            "شَرِكَةُ",
+            "company (of)"
+          ],
+          [
+            "النِّيل",
+            "the Nile (river in Egypt)",
+            "name"
+          ],
+          [
+            "لِلتَّرْجَمَة",
+            "for translation"
+          ],
+          [
+            "صَبَاحُ",
+            "morning (of)"
+          ],
+          [
+            "الْخَيْر",
+            "the goodness"
+          ],
+          [
+            "مَعَكَ",
+            "with you (to a man): '… speaking'"
+          ],
+          [
+            "دَانْيَال",
+            "Daniel (first name)",
+            "name"
+          ],
+          [
+            "كَيْفَ",
+            "how"
+          ],
+          [
+            "يُمْكِنُنِي",
+            "it is possible for me, I can"
+          ],
+          [
+            "أَنْ",
+            "to, that"
+          ],
+          [
+            "أُسَاعِدَكَ",
+            "I help you (to a man)"
+          ]
+        ]
+      },
+      {
+        "id": "d66l2",
+        "sp": "adel",
+        "ar": "صَبَاحُ النُّور. أَنَا عَادِل مِنْ شَرِكَةِ السِّيَاحَة. أُرِيدُ أَنْ أَتَكَلَّمَ مَعَ السَّيِّدَة هُدَى، مِنْ فَضْلِكَ.",
+        "en": "Good morning. This is Adel from the tourism company. I'd like to speak to Mrs Huda, please.",
+        "segs": [
+          [
+            "صَبَاحُ",
+            "morning (of)"
+          ],
+          [
+            "النُّور",
+            "the light"
+          ],
+          [
+            "أَنَا",
+            "I"
+          ],
+          [
+            "عَادِل",
+            "Adel (first name)",
+            "name"
+          ],
+          [
+            "مِنْ",
+            "from"
+          ],
+          [
+            "شَرِكَةِ",
+            "company (of)"
+          ],
+          [
+            "السِّيَاحَة",
+            "tourism"
+          ],
+          [
+            "أُرِيدُ",
+            "I want"
+          ],
+          [
+            "أَنْ",
+            "to, that"
+          ],
+          [
+            "أَتَكَلَّمَ",
+            "I speak (after an)"
+          ],
+          [
+            "مَعَ",
+            "with"
+          ],
+          [
+            "السَّيِّدَة",
+            "Mrs, the lady"
+          ],
+          [
+            "هُدَى",
+            "Huda (first name)",
+            "name"
+          ],
+          [
+            "مِنْ",
+            "from"
+          ],
+          [
+            "فَضْلِكَ",
+            "your kindness (to a man): 'please'"
+          ]
+        ]
+      },
+      {
+        "id": "d66l3",
+        "sp": "daniel",
+        "ar": "آسِف يَا أُسْتَاذ عَادِل، السَّيِّدَة هُدَى غَائِبَة الْيَوْم. هِيَ مُسَافِرَة إِلَى الْإِسْكَنْدَرِيَّة، وَعِنْدَهَا اجْتِمَاع هُنَاكَ.",
+        "en": "I'm sorry, Mr Adel, Mrs Huda is away today. She's travelling to Alexandria, and she has a meeting there.",
+        "segs": [
+          [
+            "آسِف",
+            "sorry (said by a man)"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "أُسْتَاذ",
+            "Mr, sir (polite title)"
+          ],
+          [
+            "عَادِل",
+            "Adel (first name)",
+            "name"
+          ],
+          [
+            "السَّيِّدَة",
+            "Mrs, the lady"
+          ],
+          [
+            "هُدَى",
+            "Huda (first name)",
+            "name"
+          ],
+          [
+            "غَائِبَة",
+            "absent, away (f)"
+          ],
+          [
+            "الْيَوْم",
+            "today"
+          ],
+          [
+            "هِيَ",
+            "she"
+          ],
+          [
+            "مُسَافِرَة",
+            "travelling (f)"
+          ],
+          [
+            "إِلَى",
+            "to"
+          ],
+          [
+            "الْإِسْكَنْدَرِيَّة",
+            "Alexandria (city in Egypt)",
+            "name"
+          ],
+          [
+            "وَعِنْدَهَا",
+            "and she has"
+          ],
+          [
+            "اجْتِمَاع",
+            "a meeting"
+          ],
+          [
+            "هُنَاكَ",
+            "there"
+          ]
+        ]
+      },
+      {
+        "id": "d66l4",
+        "sp": "adel",
+        "ar": "حَسَنًا، فَهِمْتُ. وَمَتَى هِيَ عَائِدَة إِلَى الْقَاهِرَة؟ عِنْدِي سُؤَال مُهِمّ عَنْ مَشْرُوعِنَا.",
+        "en": "All right, I see. And when is she coming back to Cairo? I have an important question about our project.",
+        "segs": [
+          [
+            "حَسَنًا",
+            "all right, OK"
+          ],
+          [
+            "فَهِمْتُ",
+            "I understood ('I see')"
+          ],
+          [
+            "وَمَتَى",
+            "and when"
+          ],
+          [
+            "هِيَ",
+            "she"
+          ],
+          [
+            "عَائِدَة",
+            "coming back (f)"
+          ],
+          [
+            "إِلَى",
+            "to"
+          ],
+          [
+            "الْقَاهِرَة",
+            "Cairo (capital of Egypt)",
+            "name"
+          ],
+          [
+            "عِنْدِي",
+            "I have (lit. at me)"
+          ],
+          [
+            "سُؤَال",
+            "a question"
+          ],
+          [
+            "مُهِمّ",
+            "important"
+          ],
+          [
+            "عَنْ",
+            "about"
+          ],
+          [
+            "مَشْرُوعِنَا",
+            "our project"
+          ]
+        ]
+      },
+      {
+        "id": "d66l5",
+        "sp": "daniel",
+        "ar": "هِيَ عَائِدَة غَدًا صَبَاحًا، لٰكِنِّي لَسْتُ مُتَأَكِّدًا مِنَ السَّاعَة. هَلْ تُرِيدُ أَنْ تَتْرُكَ لَهَا رِسَالَة؟",
+        "en": "She's coming back tomorrow morning, but I'm not sure of the time. Would you like to leave her a message?",
+        "segs": [
+          [
+            "هِيَ",
+            "she"
+          ],
+          [
+            "عَائِدَة",
+            "coming back (f)"
+          ],
+          [
+            "غَدًا",
+            "tomorrow"
+          ],
+          [
+            "صَبَاحًا",
+            "in the morning"
+          ],
+          [
+            "لٰكِنِّي",
+            "but I"
+          ],
+          [
+            "لَسْتُ",
+            "I am not"
+          ],
+          [
+            "مُتَأَكِّدًا",
+            "sure"
+          ],
+          [
+            "مِنَ",
+            "of, from"
+          ],
+          [
+            "السَّاعَة",
+            "the hour, the time"
+          ],
+          [
+            "هَلْ",
+            "(starts a yes/no question)"
+          ],
+          [
+            "تُرِيدُ",
+            "you want (to a man)"
+          ],
+          [
+            "أَنْ",
+            "to, that"
+          ],
+          [
+            "تَتْرُكَ",
+            "you leave (after an)"
+          ],
+          [
+            "لَهَا",
+            "for her"
+          ],
+          [
+            "رِسَالَة",
+            "a message"
+          ]
+        ]
+      },
+      {
+        "id": "d66l6",
+        "sp": "adel",
+        "ar": "نَعَم، مِنْ فَضْلِكَ. قُلْ لَهَا: نَحْنُ نُرِيدُ التَّرْجَمَة يَوْمَ الْخَمِيس، لَا يَوْمَ الْأَحَد كَمَا قُلْنَا.",
+        "en": "Yes, please. Tell her this: we want the translation on Thursday, not on Sunday as we said.",
+        "segs": [
+          [
+            "نَعَم",
+            "yes"
+          ],
+          [
+            "مِنْ",
+            "from"
+          ],
+          [
+            "فَضْلِكَ",
+            "your kindness (to a man): 'please'"
+          ],
+          [
+            "قُلْ",
+            "say! tell! (to a man)"
+          ],
+          [
+            "لَهَا",
+            "to her"
+          ],
+          [
+            "نَحْنُ",
+            "we"
+          ],
+          [
+            "نُرِيدُ",
+            "we want"
+          ],
+          [
+            "التَّرْجَمَة",
+            "the translation"
+          ],
+          [
+            "يَوْمَ",
+            "on the day of"
+          ],
+          [
+            "الْخَمِيس",
+            "Thursday"
+          ],
+          [
+            "لَا",
+            "not"
+          ],
+          [
+            "يَوْمَ",
+            "on the day of"
+          ],
+          [
+            "الْأَحَد",
+            "Sunday"
+          ],
+          [
+            "كَمَا",
+            "as"
+          ],
+          [
+            "قُلْنَا",
+            "we said"
+          ]
+        ]
+      },
+      {
+        "id": "d66l7",
+        "sp": "daniel",
+        "ar": "لَحْظَة، أَنَا أَكْتُبُ الرِّسَالَة الْآنَ: التَّرْجَمَة يَوْمَ الْخَمِيس، لَا يَوْمَ الْأَحَد. هَلْ هٰذَا صَحِيح؟",
+        "en": "One moment, I'm writing the message now: the translation on Thursday, not on Sunday. Is that right?",
+        "segs": [
+          [
+            "لَحْظَة",
+            "a moment"
+          ],
+          [
+            "أَنَا",
+            "I"
+          ],
+          [
+            "أَكْتُبُ",
+            "I write, I am writing"
+          ],
+          [
+            "الرِّسَالَة",
+            "the message"
+          ],
+          [
+            "الْآنَ",
+            "now"
+          ],
+          [
+            "التَّرْجَمَة",
+            "the translation"
+          ],
+          [
+            "يَوْمَ",
+            "on the day of"
+          ],
+          [
+            "الْخَمِيس",
+            "Thursday"
+          ],
+          [
+            "لَا",
+            "not"
+          ],
+          [
+            "يَوْمَ",
+            "on the day of"
+          ],
+          [
+            "الْأَحَد",
+            "Sunday"
+          ],
+          [
+            "هَلْ",
+            "(starts a yes/no question)"
+          ],
+          [
+            "هٰذَا",
+            "this, that (m)"
+          ],
+          [
+            "صَحِيح",
+            "right, correct"
+          ]
+        ]
+      },
+      {
+        "id": "d66l8",
+        "sp": "adel",
+        "ar": "صَحِيح. وَهَلْ يُمْكِنُ أَنْ تَتَّصِلَ بِي السَّيِّدَة هُدَى غَدًا؟ رَقْمُ هَاتِفِي عِنْدَهَا.",
+        "en": "That's right. And could Mrs Huda call me tomorrow? She already has my phone number.",
+        "segs": [
+          [
+            "صَحِيح",
+            "right, correct"
+          ],
+          [
+            "وَهَلْ",
+            "and (starts a yes/no question)"
+          ],
+          [
+            "يُمْكِنُ",
+            "it is possible, could"
+          ],
+          [
+            "أَنْ",
+            "to, that"
+          ],
+          [
+            "تَتَّصِلَ",
+            "she calls (after an)"
+          ],
+          [
+            "بِي",
+            "me (after 'call')"
+          ],
+          [
+            "السَّيِّدَة",
+            "Mrs, the lady"
+          ],
+          [
+            "هُدَى",
+            "Huda (first name)",
+            "name"
+          ],
+          [
+            "غَدًا",
+            "tomorrow"
+          ],
+          [
+            "رَقْمُ",
+            "number (of)"
+          ],
+          [
+            "هَاتِفِي",
+            "my phone"
+          ],
+          [
+            "عِنْدَهَا",
+            "she has (lit. at her)"
+          ]
+        ]
+      },
+      {
+        "id": "d66l9",
+        "sp": "daniel",
+        "ar": "حَاضِر يَا أُسْتَاذ. سَأُعْطِيهَا الرِّسَالَة، وَهِيَ سَتَتَّصِلُ بِكَ غَدًا إِنْ شَاءَ اللّٰه.",
+        "en": "Certainly, sir. I'll give her the message, and she'll call you tomorrow, God willing.",
+        "segs": [
+          [
+            "حَاضِر",
+            "certainly! (at your service)"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "أُسْتَاذ",
+            "Mr, sir (polite title)"
+          ],
+          [
+            "سَأُعْطِيهَا",
+            "I will give her"
+          ],
+          [
+            "الرِّسَالَة",
+            "the message"
+          ],
+          [
+            "وَهِيَ",
+            "and she"
+          ],
+          [
+            "سَتَتَّصِلُ",
+            "she will call"
+          ],
+          [
+            "بِكَ",
+            "you (after 'call', to a man)"
+          ],
+          [
+            "غَدًا",
+            "tomorrow"
+          ],
+          [
+            "إِنْ",
+            "if"
+          ],
+          [
+            "شَاءَ",
+            "(he) wills"
+          ],
+          [
+            "اللّٰه",
+            "God"
+          ]
+        ]
+      },
+      {
+        "id": "d66l10",
+        "sp": "adel",
+        "ar": "شُكْرًا جَزِيلًا. أَنْتَ مُوَظَّف جَدِيد، صَحِيح؟ عَرَبِيَّتُكَ جَيِّدَة جِدًّا عَلَى الْهَاتِف!",
+        "en": "Thank you very much. You're a new employee, aren't you? Your Arabic is very good on the phone!",
+        "segs": [
+          [
+            "شُكْرًا",
+            "thank you"
+          ],
+          [
+            "جَزِيلًا",
+            "very much (lit. abundantly)"
+          ],
+          [
+            "أَنْتَ",
+            "you (to a man)"
+          ],
+          [
+            "مُوَظَّف",
+            "employee"
+          ],
+          [
+            "جَدِيد",
+            "new"
+          ],
+          [
+            "صَحِيح",
+            "right, correct"
+          ],
+          [
+            "عَرَبِيَّتُكَ",
+            "your Arabic (to a man)"
+          ],
+          [
+            "جَيِّدَة",
+            "good (f)"
+          ],
+          [
+            "جِدًّا",
+            "very"
+          ],
+          [
+            "عَلَى",
+            "on"
+          ],
+          [
+            "الْهَاتِف",
+            "the phone"
+          ]
+        ]
+      },
+      {
+        "id": "d66l11",
+        "sp": "daniel",
+        "ar": "شُكْرًا! أَنَا مُتَدَرِّب هُنَا مُنْذُ أُسْبُوع فَقَطْ. مَعَ السَّلَامَة يَا أُسْتَاذ عَادِل.",
+        "en": "Thank you! I've only been an intern here for a week. Goodbye, Mr Adel.",
+        "segs": [
+          [
+            "شُكْرًا",
+            "thank you"
+          ],
+          [
+            "أَنَا",
+            "I"
+          ],
+          [
+            "مُتَدَرِّب",
+            "trainee, intern"
+          ],
+          [
+            "هُنَا",
+            "here"
+          ],
+          [
+            "مُنْذُ",
+            "since, for"
+          ],
+          [
+            "أُسْبُوع",
+            "a week"
+          ],
+          [
+            "فَقَطْ",
+            "only, just"
+          ],
+          [
+            "مَعَ",
+            "with"
+          ],
+          [
+            "السَّلَامَة",
+            "the safety ('goodbye')"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "أُسْتَاذ",
+            "Mr, sir (polite title)"
+          ],
+          [
+            "عَادِل",
+            "Adel (first name)",
+            "name"
+          ]
+        ]
+      },
+      {
+        "id": "d66l12",
+        "sp": "tariq",
+        "ar": "مَنِ اتَّصَلَ يَا دَانْيَال؟ وَلِمَاذَا أَنْتَ ذَاهِب إِلَى مَكْتَبِ الْمُدِيرَة وَهِيَ مُسَافِرَة؟",
+        "en": "Who called, Daniel? And why are you going to the manager's office when she's away travelling?",
+        "segs": [
+          [
+            "مَنِ",
+            "who"
+          ],
+          [
+            "اتَّصَلَ",
+            "(he) called, phoned"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "دَانْيَال",
+            "Daniel (first name)",
+            "name"
+          ],
+          [
+            "وَلِمَاذَا",
+            "and why"
+          ],
+          [
+            "أَنْتَ",
+            "you (to a man)"
+          ],
+          [
+            "ذَاهِب",
+            "going"
+          ],
+          [
+            "إِلَى",
+            "to"
+          ],
+          [
+            "مَكْتَبِ",
+            "office (of)"
+          ],
+          [
+            "الْمُدِيرَة",
+            "the manager (a woman)"
+          ],
+          [
+            "وَهِيَ",
+            "and she ('while she')"
+          ],
+          [
+            "مُسَافِرَة",
+            "travelling (f)"
+          ]
+        ]
+      },
+      {
+        "id": "d66l13",
+        "sp": "daniel",
+        "ar": "الْأُسْتَاذ عَادِل مِنْ شَرِكَةِ السِّيَاحَة. أَنَا ذَاهِب لِأَتْرُكَ رِسَالَتَهُ عَلَى مَكْتَبِهَا، فَهِيَ عَائِدَة غَدًا.",
+        "en": "It was Mr Adel from the tourism company. I'm going to leave his message on her desk, because she's back tomorrow.",
+        "segs": [
+          [
+            "الْأُسْتَاذ",
+            "the teacher; Mr (title)"
+          ],
+          [
+            "عَادِل",
+            "Adel (first name)",
+            "name"
+          ],
+          [
+            "مِنْ",
+            "from"
+          ],
+          [
+            "شَرِكَةِ",
+            "company (of)"
+          ],
+          [
+            "السِّيَاحَة",
+            "tourism"
+          ],
+          [
+            "أَنَا",
+            "I"
+          ],
+          [
+            "ذَاهِب",
+            "going"
+          ],
+          [
+            "لِأَتْرُكَ",
+            "to leave (lit. so that I leave)"
+          ],
+          [
+            "رِسَالَتَهُ",
+            "his message"
+          ],
+          [
+            "عَلَى",
+            "on"
+          ],
+          [
+            "مَكْتَبِهَا",
+            "her desk"
+          ],
+          [
+            "فَهِيَ",
+            "because she (lit. so she)"
+          ],
+          [
+            "عَائِدَة",
+            "coming back (f)"
+          ],
+          [
+            "غَدًا",
+            "tomorrow"
+          ]
+        ]
+      },
+      {
+        "id": "d66l14",
+        "sp": "tariq",
+        "ar": "فِكْرَة جَيِّدَة. وَاكْتُبْ لَهَا رِسَالَة قَصِيرَة عَلَى الْهَاتِف أَيْضًا، فَهِيَ تَقْرَأُ رَسَائِلَهَا دَائِمًا.",
+        "en": "Good idea. And send her a short text message on her phone too, because she always reads her messages.",
+        "segs": [
+          [
+            "فِكْرَة",
+            "idea"
+          ],
+          [
+            "جَيِّدَة",
+            "good (f)"
+          ],
+          [
+            "وَاكْتُبْ",
+            "and write! (to a man)"
+          ],
+          [
+            "لَهَا",
+            "to her, for her"
+          ],
+          [
+            "رِسَالَة",
+            "a message"
+          ],
+          [
+            "قَصِيرَة",
+            "short (f)"
+          ],
+          [
+            "عَلَى",
+            "on"
+          ],
+          [
+            "الْهَاتِف",
+            "the phone"
+          ],
+          [
+            "أَيْضًا",
+            "also, too"
+          ],
+          [
+            "فَهِيَ",
+            "because she (lit. so she)"
+          ],
+          [
+            "تَقْرَأُ",
+            "she reads"
+          ],
+          [
+            "رَسَائِلَهَا",
+            "her messages"
+          ],
+          [
+            "دَائِمًا",
+            "always"
+          ]
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "title": "A note on the manager's desk",
+    "ar": "رِسَالَة لِلسَّيِّدَة هُدَى: اِتَّصَلَ الْأُسْتَاذ عَادِل مِنْ شَرِكَةِ السِّيَاحَة صَبَاحَ الْيَوْم. هُوَ يُرِيدُ التَّرْجَمَة يَوْمَ الْخَمِيس، لَا يَوْمَ الْأَحَد. رَقْمُ هَاتِفِهِ عِنْدَكِ، وَهُوَ يَنْتَظِرُ اتِّصَالَكِ غَدًا. دَانْيَال، الْمُتَدَرِّب.",
+    "en": "A message for Mrs Huda: Mr Adel from the tourism company called this morning. He wants the translation on Thursday, not on Sunday. You have his phone number, and he is waiting for your call tomorrow. Daniel, the intern.",
+    "segs": [
+      [
+        "رِسَالَة",
+        "a message"
+      ],
+      [
+        "لِلسَّيِّدَة",
+        "for Mrs, for the lady"
+      ],
+      [
+        "هُدَى",
+        "Huda (first name)",
+        "name"
+      ],
+      [
+        "اِتَّصَلَ",
+        "(he) called, phoned"
+      ],
+      [
+        "الْأُسْتَاذ",
+        "the teacher; Mr (title)"
+      ],
+      [
+        "عَادِل",
+        "Adel (first name)",
+        "name"
+      ],
+      [
+        "مِنْ",
+        "from"
+      ],
+      [
+        "شَرِكَةِ",
+        "company (of)"
+      ],
+      [
+        "السِّيَاحَة",
+        "tourism"
+      ],
+      [
+        "صَبَاحَ",
+        "(in the) morning (of)"
+      ],
+      [
+        "الْيَوْم",
+        "today ('this morning')"
+      ],
+      [
+        "هُوَ",
+        "he"
+      ],
+      [
+        "يُرِيدُ",
+        "he wants"
+      ],
+      [
+        "التَّرْجَمَة",
+        "the translation"
+      ],
+      [
+        "يَوْمَ",
+        "on the day of"
+      ],
+      [
+        "الْخَمِيس",
+        "Thursday"
+      ],
+      [
+        "لَا",
+        "not"
+      ],
+      [
+        "يَوْمَ",
+        "on the day of"
+      ],
+      [
+        "الْأَحَد",
+        "Sunday"
+      ],
+      [
+        "رَقْمُ",
+        "number (of)"
+      ],
+      [
+        "هَاتِفِهِ",
+        "his phone"
+      ],
+      [
+        "عِنْدَكِ",
+        "you have (to a woman)"
+      ],
+      [
+        "وَهُوَ",
+        "and he"
+      ],
+      [
+        "يَنْتَظِرُ",
+        "he waits for"
+      ],
+      [
+        "اتِّصَالَكِ",
+        "your call (to a woman)"
+      ],
+      [
+        "غَدًا",
+        "tomorrow"
+      ],
+      [
+        "دَانْيَال",
+        "Daniel (first name)",
+        "name"
+      ],
+      [
+        "الْمُتَدَرِّب",
+        "the intern, the trainee"
+      ]
+    ]
+  },
+  "review": [
+    "hatif",
+    "raqm",
+    "mudir",
+    "mashghul",
+    "yumkinu",
+    "yattasilu",
+    "musafir"
+  ],
+  "quiz": [
+    {
+      "id": "d66q1",
+      "prompt": "What does this mean?",
+      "ar": "مُسَافِر",
+      "options": [
+        "absent",
+        "travelling",
+        "coming back",
+        "sure"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "d66q2",
+      "prompt": "Why can't Mr Adel speak to Mrs Huda?",
+      "options": [
+        "She is in a meeting in the office",
+        "She is ill",
+        "She is travelling to Alexandria",
+        "She is on holiday"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "d66q3",
+      "prompt": "When does Mr Adel want the translation?",
+      "options": [
+        "on Thursday",
+        "on Sunday",
+        "tomorrow",
+        "next week"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "d66q4",
+      "prompt": "Tell a caller 'She is coming back tomorrow.'",
+      "options": [
+        "هِيَ عَائِد غَدًا.",
+        "هِيَ عَائِدَة غَدًا.",
+        "هُوَ عَائِدَة غَدًا.",
+        "هِيَ ذَاهِبَة غَدًا."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "d66q5",
+      "prompt": "How do you say 'I'll call you tomorrow' to a man?",
+      "options": [
+        "أَتَّصِلُكَ غَدًا.",
+        "أَكْتُبُ لَكَ غَدًا.",
+        "أَتَّصِلُ بِكَ غَدًا.",
+        "سَتَتَّصِلُ بِكَ غَدًا."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "d66q6",
+      "prompt": "What does Daniel mean when he says حَاضِر on the phone?",
+      "options": [
+        "I'm absent",
+        "goodbye",
+        "one moment",
+        "certainly, I'll do it"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "d66q7",
+      "prompt": "Which word has a hamza on a yāʾ seat (ئ)?",
+      "options": [
+        "مُتَأَكِّد",
+        "عَائِدَة",
+        "سُؤَال",
+        "أَنَا"
+      ],
+      "answer": 1
+    }
+  ],
+  "completion": "Great! You can answer the phone, take a message and use participles like مُسَافِر and عَائِد. Next, Daniel writes his first formal email in Arabic.",
+  "status": "needs-review"
+}

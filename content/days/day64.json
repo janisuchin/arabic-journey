@@ -1,0 +1,1393 @@
+{
+  "day": 64,
+  "week": 10,
+  "phase": 5,
+  "level": 6,
+  "title": "At the office",
+  "titleAr": "فِي الْمَكْتَب",
+  "titleSegs": [
+    [
+      "فِي",
+      "at, in"
+    ],
+    [
+      "الْمَكْتَب",
+      "the office"
+    ]
+  ],
+  "emoji": "💼",
+  "summary": "Daniel starts an internship in an office: colleagues, meetings and reports, and saying what you can do with يُمْكِنُ أَنْ…",
+  "intro": "Mr Karim has found Daniel an internship at the translation company where he works in the evenings. In a new office you ask a lot of questions about what you can do. Use يُمْكِنُ (it is possible) with a person ending, then أَنْ and a verb ending in -a: هَلْ يُمْكِنُنِي أَنْ أَسْتَعْمِلَ الْحَاسُوب؟ (Can I use the computer?), يُمْكِنُكَ أَنْ تَسْأَلَنِي (you can ask me).",
+  "objectives": [
+    "Name eight people and things in an office",
+    "Ask 'Can I…?' with هَلْ يُمْكِنُنِي أَنْ…؟",
+    "Say what someone else can do with يُمْكِنُكَ and يُمْكِنُهُ",
+    "Say that a man or a woman is busy"
+  ],
+  "realLife": {
+    "emoji": "🏢",
+    "title": "First day as an intern",
+    "story": "Daniel puts on his best shirt and takes the metro to a busy office in the centre of Cairo. Tariq shows him a desk next to the window, the manager has three meetings before lunch, and by one o'clock Daniel has translated his first page. He goes home tired and very proud."
+  },
+  "letters": [],
+  "newWords": [
+    "mudir",
+    "zamil",
+    "ijtima",
+    "tadrib",
+    "mutadarrib",
+    "mashru",
+    "taqrir",
+    "yaktubu",
+    "yumkinu"
+  ],
+  "grammar": [
+    "yumkin-an"
+  ],
+  "pronunciation": [
+    "dal-dhal"
+  ],
+  "sentences": [
+    {
+      "id": "d64s1",
+      "ar": "هَلْ يُمْكِنُنِي أَنْ أَسْتَعْمِلَ هٰذَا الْحَاسُوب؟",
+      "en": "Can I use this computer?",
+      "literal": "is it possible for me that I use this computer",
+      "segs": [
+        [
+          "هَلْ",
+          "(starts a yes/no question)",
+          "particle"
+        ],
+        [
+          "يُمْكِنُنِي",
+          "it is possible for me, I can",
+          "verb"
+        ],
+        [
+          "أَنْ",
+          "to, that",
+          "particle"
+        ],
+        [
+          "أَسْتَعْمِلَ",
+          "I use (after an)",
+          "verb"
+        ],
+        [
+          "هٰذَا",
+          "this (m)",
+          "demonstrative"
+        ],
+        [
+          "الْحَاسُوب",
+          "the computer",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "yumkin-an",
+        "an-subjunctive"
+      ],
+      "mistakes": [
+        {
+          "wrong": "هَلْ أُمْكِنُ أَنْ أَسْتَعْمِلَ هٰذَا الْحَاسُوب؟",
+          "right": "هَلْ يُمْكِنُنِي أَنْ أَسْتَعْمِلَ هٰذَا الْحَاسُوب؟",
+          "why": "yumkinu does not change for the person. Add the ending instead: yumkinunī (it is possible for me), not umkinu."
+        }
+      ]
+    },
+    {
+      "id": "d64s2",
+      "ar": "الْمُدِيرَة مَشْغُولَة الْيَوْم.",
+      "en": "The manager is busy today.",
+      "literal": "the manager (f) busy (f) today",
+      "segs": [
+        [
+          "الْمُدِيرَة",
+          "the manager (a woman)",
+          "noun"
+        ],
+        [
+          "مَشْغُولَة",
+          "busy (f)",
+          "adj"
+        ],
+        [
+          "الْيَوْم",
+          "today",
+          "adverb"
+        ]
+      ],
+      "grammar": [
+        "nominal-sentence",
+        "adjective-agreement"
+      ],
+      "mistakes": [
+        {
+          "wrong": "الْمُدِيرَة مَشْغُول الْيَوْم.",
+          "right": "الْمُدِيرَة مَشْغُولَة الْيَوْم.",
+          "why": "The manager here is a woman, so 'busy' takes ة as well: mashghūla."
+        }
+      ]
+    },
+    {
+      "id": "d64s3",
+      "ar": "زَمِيلِي يُسَاعِدُنِي فِي الْعَمَل.",
+      "en": "My colleague helps me with the work.",
+      "literal": "my colleague helps me in the work",
+      "segs": [
+        [
+          "زَمِيلِي",
+          "my colleague",
+          "noun"
+        ],
+        [
+          "يُسَاعِدُنِي",
+          "he helps me",
+          "verb"
+        ],
+        [
+          "فِي",
+          "in, with",
+          "prep"
+        ],
+        [
+          "الْعَمَل",
+          "the work",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "attached-pronouns",
+        "present-tense"
+      ]
+    },
+    {
+      "id": "d64s4",
+      "ar": "عِنْدَنَا اجْتِمَاع بَعْدَ سَاعَتَيْنِ.",
+      "en": "We have a meeting in two hours.",
+      "literal": "at us a meeting after two hours",
+      "segs": [
+        [
+          "عِنْدَنَا",
+          "we have (lit. at us)",
+          "prep"
+        ],
+        [
+          "اجْتِمَاع",
+          "a meeting",
+          "noun"
+        ],
+        [
+          "بَعْدَ",
+          "after",
+          "prep"
+        ],
+        [
+          "سَاعَتَيْنِ",
+          "two hours",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "inda-li",
+        "dual"
+      ]
+    },
+    {
+      "id": "d64s5",
+      "ar": "يُمْكِنُكَ أَنْ تَكْتُبَ التَّقْرِير غَدًا.",
+      "en": "You can write the report tomorrow. (to a man)",
+      "literal": "it is possible for you that you write the report tomorrow",
+      "segs": [
+        [
+          "يُمْكِنُكَ",
+          "you can (to a man)",
+          "verb"
+        ],
+        [
+          "أَنْ",
+          "to, that",
+          "particle"
+        ],
+        [
+          "تَكْتُبَ",
+          "you write (after an)",
+          "verb"
+        ],
+        [
+          "التَّقْرِير",
+          "the report",
+          "noun"
+        ],
+        [
+          "غَدًا",
+          "tomorrow",
+          "adverb"
+        ]
+      ],
+      "grammar": [
+        "yumkin-an",
+        "an-subjunctive"
+      ],
+      "mistakes": [
+        {
+          "wrong": "يُمْكِنُكَ تَكْتُبُ التَّقْرِير غَدًا.",
+          "right": "يُمْكِنُكَ أَنْ تَكْتُبَ التَّقْرِير غَدًا.",
+          "why": "Join the two verbs with an, and the second verb ends in -a: an taktuba."
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "The new intern",
+    "speakers": [
+      {
+        "key": "huda",
+        "name": "Mrs Huda",
+        "nameAr": "السَّيِّدَة هُدَى"
+      },
+      {
+        "key": "daniel",
+        "name": "Daniel",
+        "nameAr": "دَانْيَال"
+      },
+      {
+        "key": "tariq",
+        "name": "Tariq",
+        "nameAr": "طَارِق"
+      }
+    ],
+    "culture": "In Egyptian offices people politely call a colleague or a manager أُسْتَاذ (for a man) or أُسْتَاذَة (for a woman), even if they are not teachers. The working week usually runs from Sunday to Thursday, and Friday is the main day off.",
+    "lines": [
+      {
+        "id": "d64l1",
+        "sp": "huda",
+        "ar": "أَهْلًا وَسَهْلًا يَا دَانْيَال! أَنَا هُدَى، مُدِيرَةُ الشَّرِكَة. الْأُسْتَاذ كَرِيم تَكَلَّمَ عَنْكَ كَثِيرًا.",
+        "en": "Welcome, Daniel! I'm Huda, the manager of the company. Mr Karim has told me a lot about you.",
+        "segs": [
+          [
+            "أَهْلًا",
+            "hi, welcome"
+          ],
+          [
+            "وَسَهْلًا",
+            "and easy ('welcome')"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "دَانْيَال",
+            "Daniel (first name)",
+            "name"
+          ],
+          [
+            "أَنَا",
+            "I"
+          ],
+          [
+            "هُدَى",
+            "Huda (first name)",
+            "name"
+          ],
+          [
+            "مُدِيرَةُ",
+            "manager (of) (a woman)"
+          ],
+          [
+            "الشَّرِكَة",
+            "the company"
+          ],
+          [
+            "الْأُسْتَاذ",
+            "the teacher; Mr (title)"
+          ],
+          [
+            "كَرِيم",
+            "Karim (first name)",
+            "name"
+          ],
+          [
+            "تَكَلَّمَ",
+            "he spoke, he talked"
+          ],
+          [
+            "عَنْكَ",
+            "about you (to a man)"
+          ],
+          [
+            "كَثِيرًا",
+            "a lot, much"
+          ]
+        ]
+      },
+      {
+        "id": "d64l2",
+        "sp": "daniel",
+        "ar": "شُكْرًا جَزِيلًا يَا أُسْتَاذَة هُدَى. أَنَا سَعِيد جِدًّا بِهٰذَا التَّدْرِيب فِي شَرِكَتِكُمْ.",
+        "en": "Thank you very much, Mrs Huda. I'm very happy to have this internship at your company.",
+        "segs": [
+          [
+            "شُكْرًا",
+            "thank you"
+          ],
+          [
+            "جَزِيلًا",
+            "very much (lit. abundantly)"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "أُسْتَاذَة",
+            "madam (polite address for a woman)"
+          ],
+          [
+            "هُدَى",
+            "Huda (first name)",
+            "name"
+          ],
+          [
+            "أَنَا",
+            "I"
+          ],
+          [
+            "سَعِيد",
+            "happy"
+          ],
+          [
+            "جِدًّا",
+            "very"
+          ],
+          [
+            "بِهٰذَا",
+            "with this (m)"
+          ],
+          [
+            "التَّدْرِيب",
+            "the training, the internship"
+          ],
+          [
+            "فِي",
+            "in, at"
+          ],
+          [
+            "شَرِكَتِكُمْ",
+            "your company (to a group)"
+          ]
+        ]
+      },
+      {
+        "id": "d64l3",
+        "sp": "huda",
+        "ar": "التَّدْرِيب ثَلَاثَةُ أَيَّام فِي الْأُسْبُوع، مِنَ التَّاسِعَة إِلَى الْوَاحِدَة. هٰذَا مَكْتَبُكَ، وَهٰذَا حَاسُوبُكَ.",
+        "en": "The internship is three days a week, from nine until one. This is your desk, and this is your computer.",
+        "segs": [
+          [
+            "التَّدْرِيب",
+            "the training, the internship"
+          ],
+          [
+            "ثَلَاثَةُ",
+            "three"
+          ],
+          [
+            "أَيَّام",
+            "days"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "الْأُسْبُوع",
+            "the week"
+          ],
+          [
+            "مِنَ",
+            "from"
+          ],
+          [
+            "التَّاسِعَة",
+            "the ninth ('nine o'clock')"
+          ],
+          [
+            "إِلَى",
+            "to, until"
+          ],
+          [
+            "الْوَاحِدَة",
+            "the first ('one o'clock')"
+          ],
+          [
+            "هٰذَا",
+            "this (m)"
+          ],
+          [
+            "مَكْتَبُكَ",
+            "your desk (to a man)"
+          ],
+          [
+            "وَهٰذَا",
+            "and this (m)"
+          ],
+          [
+            "حَاسُوبُكَ",
+            "your computer (to a man)"
+          ]
+        ]
+      },
+      {
+        "id": "d64l4",
+        "sp": "daniel",
+        "ar": "مَكْتَب جَمِيل بِجَانِبِ النَّافِذَة! هَلْ يُمْكِنُنِي أَنْ أَسْتَعْمِلَ الْإِنْتَرْنِت هُنَا أَيْضًا؟",
+        "en": "What a lovely desk next to the window! Can I use the internet here as well?",
+        "segs": [
+          [
+            "مَكْتَب",
+            "a desk"
+          ],
+          [
+            "جَمِيل",
+            "lovely, beautiful"
+          ],
+          [
+            "بِجَانِبِ",
+            "next to"
+          ],
+          [
+            "النَّافِذَة",
+            "the window"
+          ],
+          [
+            "هَلْ",
+            "(starts a yes/no question)"
+          ],
+          [
+            "يُمْكِنُنِي",
+            "it is possible for me, I can"
+          ],
+          [
+            "أَنْ",
+            "to, that"
+          ],
+          [
+            "أَسْتَعْمِلَ",
+            "I use (after an)"
+          ],
+          [
+            "الْإِنْتَرْنِت",
+            "the internet"
+          ],
+          [
+            "هُنَا",
+            "here"
+          ],
+          [
+            "أَيْضًا",
+            "also, too"
+          ]
+        ]
+      },
+      {
+        "id": "d64l5",
+        "sp": "huda",
+        "ar": "طَبْعًا، يُمْكِنُكَ أَنْ تَسْتَعْمِلَهُ. وَهٰذَا زَمِيلُكَ طَارِق، هُوَ مُتَرْجِم، وَسَيُسَاعِدُكَ فِي الْعَمَل.",
+        "en": "Of course, you can use it. And this is your colleague Tariq; he's a translator, and he'll help you with the work.",
+        "segs": [
+          [
+            "طَبْعًا",
+            "of course"
+          ],
+          [
+            "يُمْكِنُكَ",
+            "you can (to a man)"
+          ],
+          [
+            "أَنْ",
+            "to, that"
+          ],
+          [
+            "تَسْتَعْمِلَهُ",
+            "you use it (after an)"
+          ],
+          [
+            "وَهٰذَا",
+            "and this (m)"
+          ],
+          [
+            "زَمِيلُكَ",
+            "your colleague (to a man)"
+          ],
+          [
+            "طَارِق",
+            "Tariq (first name)",
+            "name"
+          ],
+          [
+            "هُوَ",
+            "he"
+          ],
+          [
+            "مُتَرْجِم",
+            "translator"
+          ],
+          [
+            "وَسَيُسَاعِدُكَ",
+            "and he will help you (to a man)"
+          ],
+          [
+            "فِي",
+            "in, with"
+          ],
+          [
+            "الْعَمَل",
+            "the work"
+          ]
+        ]
+      },
+      {
+        "id": "d64l6",
+        "sp": "tariq",
+        "ar": "أَهْلًا يَا دَانْيَال! أَنَا أَعْمَلُ هُنَا مُنْذُ خَمْسِ سَنَوَات. إِذَا كَانَ عِنْدَكَ سُؤَال، يُمْكِنُكَ أَنْ تَسْأَلَنِي.",
+        "en": "Hi, Daniel! I've been working here for five years. If you have a question, you can ask me.",
+        "segs": [
+          [
+            "أَهْلًا",
+            "hi, welcome"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "دَانْيَال",
+            "Daniel (first name)",
+            "name"
+          ],
+          [
+            "أَنَا",
+            "I"
+          ],
+          [
+            "أَعْمَلُ",
+            "I work"
+          ],
+          [
+            "هُنَا",
+            "here"
+          ],
+          [
+            "مُنْذُ",
+            "since, for"
+          ],
+          [
+            "خَمْسِ",
+            "five"
+          ],
+          [
+            "سَنَوَات",
+            "years"
+          ],
+          [
+            "إِذَا",
+            "if"
+          ],
+          [
+            "كَانَ",
+            "(it) was ('if you have')"
+          ],
+          [
+            "عِنْدَكَ",
+            "you have (to a man)"
+          ],
+          [
+            "سُؤَال",
+            "a question"
+          ],
+          [
+            "يُمْكِنُكَ",
+            "you can (to a man)"
+          ],
+          [
+            "أَنْ",
+            "to, that"
+          ],
+          [
+            "تَسْأَلَنِي",
+            "you ask me (after an)"
+          ]
+        ]
+      },
+      {
+        "id": "d64l7",
+        "sp": "daniel",
+        "ar": "شُكْرًا يَا طَارِق. مَاذَا أَعْمَلُ الْيَوْم؟ هَلْ أُتَرْجِمُ، أَوْ أَكْتُبُ تَقْرِيرًا؟",
+        "en": "Thanks, Tariq. What am I doing today? Do I translate, or do I write a report?",
+        "segs": [
+          [
+            "شُكْرًا",
+            "thank you"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "طَارِق",
+            "Tariq (first name)",
+            "name"
+          ],
+          [
+            "مَاذَا",
+            "what (before a verb)"
+          ],
+          [
+            "أَعْمَلُ",
+            "I do, I work"
+          ],
+          [
+            "الْيَوْم",
+            "today"
+          ],
+          [
+            "هَلْ",
+            "(starts a yes/no question)"
+          ],
+          [
+            "أُتَرْجِمُ",
+            "I translate"
+          ],
+          [
+            "أَوْ",
+            "or"
+          ],
+          [
+            "أَكْتُبُ",
+            "I write"
+          ],
+          [
+            "تَقْرِيرًا",
+            "a report"
+          ]
+        ]
+      },
+      {
+        "id": "d64l8",
+        "sp": "tariq",
+        "ar": "الْيَوْم نُتَرْجِمُ مَشْرُوعًا كَبِيرًا لِشَرِكَةِ سِيَاحَة. أَنْتَ تُتَرْجِمُ مِنَ الْعَرَبِيَّة إِلَى الْإِنْجْلِيزِيَّة، وَأَنَا أُسَاعِدُكَ.",
+        "en": "Today we're translating a big project for a tourism company. You translate from Arabic into English, and I help you.",
+        "segs": [
+          [
+            "الْيَوْم",
+            "today"
+          ],
+          [
+            "نُتَرْجِمُ",
+            "we translate"
+          ],
+          [
+            "مَشْرُوعًا",
+            "a project"
+          ],
+          [
+            "كَبِيرًا",
+            "big"
+          ],
+          [
+            "لِشَرِكَةِ",
+            "for a company (of)"
+          ],
+          [
+            "سِيَاحَة",
+            "tourism"
+          ],
+          [
+            "أَنْتَ",
+            "you (to a man)"
+          ],
+          [
+            "تُتَرْجِمُ",
+            "you translate (to a man)"
+          ],
+          [
+            "مِنَ",
+            "from"
+          ],
+          [
+            "الْعَرَبِيَّة",
+            "Arabic"
+          ],
+          [
+            "إِلَى",
+            "to, into"
+          ],
+          [
+            "الْإِنْجْلِيزِيَّة",
+            "English (the language)"
+          ],
+          [
+            "وَأَنَا",
+            "and I"
+          ],
+          [
+            "أُسَاعِدُكَ",
+            "I help you (to a man)"
+          ]
+        ]
+      },
+      {
+        "id": "d64l9",
+        "sp": "huda",
+        "ar": "وَبَعْدَ سَاعَتَيْنِ عِنْدَنَا اجْتِمَاع مَعَ كُلِّ الزُّمَلَاء فِي الْغُرْفَةِ الْكَبِيرَة. أَنْتَ مَدْعُوّ أَيْضًا.",
+        "en": "And in two hours we have a meeting with all the colleagues in the big room. You're invited too.",
+        "segs": [
+          [
+            "وَبَعْدَ",
+            "and after"
+          ],
+          [
+            "سَاعَتَيْنِ",
+            "two hours"
+          ],
+          [
+            "عِنْدَنَا",
+            "we have (lit. at us)"
+          ],
+          [
+            "اجْتِمَاع",
+            "a meeting"
+          ],
+          [
+            "مَعَ",
+            "with"
+          ],
+          [
+            "كُلِّ",
+            "all (of)"
+          ],
+          [
+            "الزُّمَلَاء",
+            "the colleagues"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "الْغُرْفَةِ",
+            "the room"
+          ],
+          [
+            "الْكَبِيرَة",
+            "the big (f)"
+          ],
+          [
+            "أَنْتَ",
+            "you (to a man)"
+          ],
+          [
+            "مَدْعُوّ",
+            "invited"
+          ],
+          [
+            "أَيْضًا",
+            "also, too"
+          ]
+        ]
+      },
+      {
+        "id": "d64l10",
+        "sp": "daniel",
+        "ar": "اِجْتِمَاع فِي يَوْمِي الْأَوَّل؟ هَلْ يَجِبُ أَنْ أَتَكَلَّمَ فِيهِ بِالْعَرَبِيَّة أَمَامَ الْجَمِيع؟",
+        "en": "A meeting on my first day? Do I have to speak Arabic in it, in front of everybody?",
+        "segs": [
+          [
+            "اِجْتِمَاع",
+            "a meeting"
+          ],
+          [
+            "فِي",
+            "on, in"
+          ],
+          [
+            "يَوْمِي",
+            "my day"
+          ],
+          [
+            "الْأَوَّل",
+            "the first"
+          ],
+          [
+            "هَلْ",
+            "(starts a yes/no question)"
+          ],
+          [
+            "يَجِبُ",
+            "must, it is necessary"
+          ],
+          [
+            "أَنْ",
+            "to, that"
+          ],
+          [
+            "أَتَكَلَّمَ",
+            "I speak (after an)"
+          ],
+          [
+            "فِيهِ",
+            "in it"
+          ],
+          [
+            "بِالْعَرَبِيَّة",
+            "in Arabic"
+          ],
+          [
+            "أَمَامَ",
+            "in front of"
+          ],
+          [
+            "الْجَمِيع",
+            "everybody, everyone"
+          ]
+        ]
+      },
+      {
+        "id": "d64l11",
+        "sp": "huda",
+        "ar": "لَا تَقْلَقْ! يُمْكِنُكَ أَنْ تَسْتَمِعَ فَقَطْ الْيَوْم. وَفِي الْأُسْبُوعِ الْقَادِم تَكْتُبُ تَقْرِيرًا قَصِيرًا عَنِ الْمَشْرُوع.",
+        "en": "Don't worry! Today you can just listen. And next week you'll write a short report about the project.",
+        "segs": [
+          [
+            "لَا",
+            "don't"
+          ],
+          [
+            "تَقْلَقْ",
+            "worry (to a man)"
+          ],
+          [
+            "يُمْكِنُكَ",
+            "you can (to a man)"
+          ],
+          [
+            "أَنْ",
+            "to, that"
+          ],
+          [
+            "تَسْتَمِعَ",
+            "you listen (after an)"
+          ],
+          [
+            "فَقَطْ",
+            "only, just"
+          ],
+          [
+            "الْيَوْم",
+            "today"
+          ],
+          [
+            "وَفِي",
+            "and in"
+          ],
+          [
+            "الْأُسْبُوعِ",
+            "the week"
+          ],
+          [
+            "الْقَادِم",
+            "the coming, next"
+          ],
+          [
+            "تَكْتُبُ",
+            "you write (to a man)"
+          ],
+          [
+            "تَقْرِيرًا",
+            "a report"
+          ],
+          [
+            "قَصِيرًا",
+            "short"
+          ],
+          [
+            "عَنِ",
+            "about"
+          ],
+          [
+            "الْمَشْرُوع",
+            "the project"
+          ]
+        ]
+      },
+      {
+        "id": "d64l12",
+        "sp": "daniel",
+        "ar": "فِكْرَة جَيِّدَة، شُكْرًا. يَا طَارِق، هَلِ الْمُدِيرَة مَشْغُولَة هٰكَذَا كُلَّ يَوْم؟",
+        "en": "A good idea, thank you. Tariq, is the manager as busy as this every day?",
+        "segs": [
+          [
+            "فِكْرَة",
+            "idea"
+          ],
+          [
+            "جَيِّدَة",
+            "good (f)"
+          ],
+          [
+            "شُكْرًا",
+            "thank you"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "طَارِق",
+            "Tariq (first name)",
+            "name"
+          ],
+          [
+            "هَلِ",
+            "(starts a yes/no question)"
+          ],
+          [
+            "الْمُدِيرَة",
+            "the manager (a woman)"
+          ],
+          [
+            "مَشْغُولَة",
+            "busy (f)"
+          ],
+          [
+            "هٰكَذَا",
+            "like this, so"
+          ],
+          [
+            "كُلَّ",
+            "every"
+          ],
+          [
+            "يَوْم",
+            "day"
+          ]
+        ]
+      },
+      {
+        "id": "d64l13",
+        "sp": "tariq",
+        "ar": "نَعَم، هِيَ مَشْغُولَة جِدًّا، وَعِنْدَهَا اجْتِمَاعَات كَثِيرَة. لٰكِنَّهَا لَطِيفَة، وَتُسَاعِدُ كُلَّ الْمُتَدَرِّبِينَ.",
+        "en": "Yes, she's very busy, and she has lots of meetings. But she's kind, and she helps all the interns.",
+        "segs": [
+          [
+            "نَعَم",
+            "yes"
+          ],
+          [
+            "هِيَ",
+            "she"
+          ],
+          [
+            "مَشْغُولَة",
+            "busy (f)"
+          ],
+          [
+            "جِدًّا",
+            "very"
+          ],
+          [
+            "وَعِنْدَهَا",
+            "and she has"
+          ],
+          [
+            "اجْتِمَاعَات",
+            "meetings"
+          ],
+          [
+            "كَثِيرَة",
+            "many (f)"
+          ],
+          [
+            "لٰكِنَّهَا",
+            "but she"
+          ],
+          [
+            "لَطِيفَة",
+            "kind, nice (f)"
+          ],
+          [
+            "وَتُسَاعِدُ",
+            "and she helps"
+          ],
+          [
+            "كُلَّ",
+            "all (of)"
+          ],
+          [
+            "الْمُتَدَرِّبِينَ",
+            "the interns, the trainees"
+          ]
+        ]
+      },
+      {
+        "id": "d64l14",
+        "sp": "daniel",
+        "ar": "هٰذَا جَيِّد! إِذَنْ أَبْدَأُ الْعَمَل الْآنَ. أَيْنَ الْمَشْرُوع؟ هَلْ هُوَ عَلَى حَاسُوبِي؟",
+        "en": "That's good! So I'll start work now. Where is the project? Is it on my computer?",
+        "segs": [
+          [
+            "هٰذَا",
+            "this, that (m)"
+          ],
+          [
+            "جَيِّد",
+            "good"
+          ],
+          [
+            "إِذَنْ",
+            "so, then"
+          ],
+          [
+            "أَبْدَأُ",
+            "I start"
+          ],
+          [
+            "الْعَمَل",
+            "the work"
+          ],
+          [
+            "الْآنَ",
+            "now"
+          ],
+          [
+            "أَيْنَ",
+            "where"
+          ],
+          [
+            "الْمَشْرُوع",
+            "the project"
+          ],
+          [
+            "هَلْ",
+            "(starts a yes/no question)"
+          ],
+          [
+            "هُوَ",
+            "it (m)"
+          ],
+          [
+            "عَلَى",
+            "on"
+          ],
+          [
+            "حَاسُوبِي",
+            "my computer"
+          ]
+        ]
+      },
+      {
+        "id": "d64l15",
+        "sp": "tariq",
+        "ar": "نَعَم، الْمِلَفّ عَلَى حَاسُوبِكَ. اِفْتَحْهُ، وَاكْتُبْ تَرْجَمَتَكَ تَحْتَ النَّصِّ الْعَرَبِيّ. بِالتَّوْفِيق!",
+        "en": "Yes, the file is on your computer. Open it, and write your translation under the Arabic text. Good luck!",
+        "segs": [
+          [
+            "نَعَم",
+            "yes"
+          ],
+          [
+            "الْمِلَفّ",
+            "the file"
+          ],
+          [
+            "عَلَى",
+            "on"
+          ],
+          [
+            "حَاسُوبِكَ",
+            "your computer (to a man)"
+          ],
+          [
+            "اِفْتَحْهُ",
+            "open it! (to a man)"
+          ],
+          [
+            "وَاكْتُبْ",
+            "and write! (to a man)"
+          ],
+          [
+            "تَرْجَمَتَكَ",
+            "your translation (to a man)"
+          ],
+          [
+            "تَحْتَ",
+            "under"
+          ],
+          [
+            "النَّصِّ",
+            "the text"
+          ],
+          [
+            "الْعَرَبِيّ",
+            "the Arabic (m)"
+          ],
+          [
+            "بِالتَّوْفِيق",
+            "with success ('good luck!')"
+          ]
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "title": "Daniel's first day at the office",
+    "ar": "بَدَأَ دَانْيَال تَدْرِيبًا فِي شَرِكَةِ تَرْجَمَة. مُدِيرَةُ الشَّرِكَة اِسْمُهَا هُدَى، وَهِيَ مَشْغُولَة جِدًّا. زَمِيلُهُ طَارِق مُتَرْجِم، وَهُوَ يُسَاعِدُهُ فِي مَشْرُوع كَبِير. بَعْدَ سَاعَتَيْنِ حَضَرَ دَانْيَال اِجْتِمَاعًا مَعَ كُلِّ الزُّمَلَاء. فِي الْأُسْبُوعِ الْقَادِم يُمْكِنُهُ أَنْ يَكْتُبَ تَقْرِيرًا.",
+    "en": "Daniel started an internship at a translation company. The company's manager is called Huda, and she is very busy. His colleague Tariq is a translator, and he helps him with a big project. Two hours later Daniel attended a meeting with all the colleagues. Next week he can write a report.",
+    "segs": [
+      [
+        "بَدَأَ",
+        "(he) started"
+      ],
+      [
+        "دَانْيَال",
+        "Daniel (first name)",
+        "name"
+      ],
+      [
+        "تَدْرِيبًا",
+        "an internship, a training"
+      ],
+      [
+        "فِي",
+        "in, at"
+      ],
+      [
+        "شَرِكَةِ",
+        "company (of)"
+      ],
+      [
+        "تَرْجَمَة",
+        "translation"
+      ],
+      [
+        "مُدِيرَةُ",
+        "manager (of) (a woman)"
+      ],
+      [
+        "الشَّرِكَة",
+        "the company"
+      ],
+      [
+        "اِسْمُهَا",
+        "her name"
+      ],
+      [
+        "هُدَى",
+        "Huda (first name)",
+        "name"
+      ],
+      [
+        "وَهِيَ",
+        "and she"
+      ],
+      [
+        "مَشْغُولَة",
+        "busy (f)"
+      ],
+      [
+        "جِدًّا",
+        "very"
+      ],
+      [
+        "زَمِيلُهُ",
+        "his colleague"
+      ],
+      [
+        "طَارِق",
+        "Tariq (first name)",
+        "name"
+      ],
+      [
+        "مُتَرْجِم",
+        "translator"
+      ],
+      [
+        "وَهُوَ",
+        "and he"
+      ],
+      [
+        "يُسَاعِدُهُ",
+        "he helps him"
+      ],
+      [
+        "فِي",
+        "in, with"
+      ],
+      [
+        "مَشْرُوع",
+        "a project"
+      ],
+      [
+        "كَبِير",
+        "big"
+      ],
+      [
+        "بَعْدَ",
+        "after"
+      ],
+      [
+        "سَاعَتَيْنِ",
+        "two hours"
+      ],
+      [
+        "حَضَرَ",
+        "(he) attended"
+      ],
+      [
+        "دَانْيَال",
+        "Daniel (first name)",
+        "name"
+      ],
+      [
+        "اِجْتِمَاعًا",
+        "a meeting"
+      ],
+      [
+        "مَعَ",
+        "with"
+      ],
+      [
+        "كُلِّ",
+        "all (of)"
+      ],
+      [
+        "الزُّمَلَاء",
+        "the colleagues"
+      ],
+      [
+        "فِي",
+        "in"
+      ],
+      [
+        "الْأُسْبُوعِ",
+        "the week"
+      ],
+      [
+        "الْقَادِم",
+        "the coming, next"
+      ],
+      [
+        "يُمْكِنُهُ",
+        "he can (lit. it is possible for him)"
+      ],
+      [
+        "أَنْ",
+        "to, that"
+      ],
+      [
+        "يَكْتُبَ",
+        "he writes (after an)"
+      ],
+      [
+        "تَقْرِيرًا",
+        "a report"
+      ]
+    ]
+  },
+  "review": [
+    "maktab",
+    "sharika",
+    "muwazzaf",
+    "mutarjim",
+    "hasub",
+    "amal",
+    "yusaidu",
+    "mashghul"
+  ],
+  "quiz": [
+    {
+      "id": "d64q1",
+      "prompt": "What does this mean?",
+      "ar": "زَمِيل",
+      "options": [
+        "manager",
+        "colleague",
+        "intern",
+        "translator"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "d64q2",
+      "prompt": "How many days a week is Daniel's internship?",
+      "options": [
+        "two",
+        "five",
+        "three",
+        "four"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "d64q3",
+      "prompt": "Who is Tariq?",
+      "options": [
+        "a translator and Daniel's colleague",
+        "the manager of the company",
+        "a client from a tourism company",
+        "a student at the language school"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "d64q4",
+      "prompt": "Complete the question 'Can I use this computer?': هَلْ يُمْكِنُنِي ___ هٰذَا الْحَاسُوب؟",
+      "options": [
+        "أَسْتَعْمِلُ",
+        "تَسْتَعْمِلَهُ",
+        "الْحَاسُوب",
+        "أَنْ أَسْتَعْمِلَ"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "d64q5",
+      "prompt": "What does Daniel have to do in his first meeting?",
+      "options": [
+        "speak Arabic in front of everybody",
+        "just listen",
+        "write a report",
+        "translate a project"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "d64q6",
+      "prompt": "Which word means 'busy'?",
+      "options": [
+        "مُدِير",
+        "مَشْرُوع",
+        "مَشْغُول",
+        "مُتَدَرِّب"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "d64q7",
+      "prompt": "Which word has dhāl (ذ), the th of 'this'?",
+      "options": [
+        "مُدِير",
+        "هٰذَا",
+        "دَانْيَال",
+        "الْعَمَل"
+      ],
+      "answer": 1
+    }
+  ],
+  "completion": "Well done! You can talk about an office and your colleagues, and say what you and others can do with يُمْكِنُ أَنْ…. Tomorrow Daniel goes to a lecture at Cairo University.",
+  "status": "needs-review"
+}

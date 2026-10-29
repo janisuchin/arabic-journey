@@ -1,0 +1,1462 @@
+{
+  "day": 68,
+  "week": 10,
+  "phase": 5,
+  "level": 7,
+  "title": "Verb patterns",
+  "titleAr": "أَوْزَانُ الْفِعْل",
+  "titleSegs": [
+    [
+      "أَوْزَانُ",
+      "patterns (of)"
+    ],
+    [
+      "الْفِعْل",
+      "the verb"
+    ]
+  ],
+  "emoji": "🧩",
+  "summary": "Discover how Arabic builds words from a root of three letters and a pattern: دَرَسَ (studied), دَرَّسَ (taught), سَاعَدَ (helped), اِجْتَمَعَ (met), اِسْتَعْمَلَ (used).",
+  "intro": "Back at the language school, Mr Karim explains one of the best tricks in Arabic. Most words come from a root of three letters, like د ر س (study), and a pattern adds the meaning: دَرَسَ (he studied), دَرَّسَ (he taught), مُدَرِّس (teacher), مَدْرَسَة (school). Verbs have about ten patterns, called Forms I to X.",
+  "objectives": [
+    "Find the three root letters in a word",
+    "Tell Form I دَرَسَ from Form II دَرَّسَ",
+    "Recognise the patterns فَاعَلَ, تَفَعَّلَ, اِفْتَعَلَ and اِسْتَفْعَلَ",
+    "Guess the meaning of a new word from its root and pattern"
+  ],
+  "realLife": {
+    "emoji": "🔍",
+    "title": "Detective work with roots",
+    "story": "Daniel starts a game on the metro: he reads every sign and hunts for the three root letters. مَطْعَم (restaurant) has ط ع م, like طَعَام (food); مَكْتَبَة (library) has ك ت ب, like كِتَاب (book). By the time he reaches the school, he has guessed six new words."
+  },
+  "letters": [],
+  "newWords": [
+    "jidhr",
+    "fil",
+    "harf",
+    "mana",
+    "yudarrisu",
+    "yastamilu",
+    "yajtamiu"
+  ],
+  "grammar": [
+    "verb-forms"
+  ],
+  "pronunciation": [
+    "verb-rhythm"
+  ],
+  "sentences": [
+    {
+      "id": "d68s1",
+      "ar": "دَرَسَ يَعْنِي تَعَلَّمَ، وَدَرَّسَ يَعْنِي عَلَّمَ.",
+      "en": "Darasa means 'learnt', and darrasa means 'taught'.",
+      "literal": "studied means learnt, and taught means taught",
+      "segs": [
+        [
+          "دَرَسَ",
+          "studied (Form I)",
+          "verb"
+        ],
+        [
+          "يَعْنِي",
+          "means",
+          "verb"
+        ],
+        [
+          "تَعَلَّمَ",
+          "learnt (Form V)",
+          "verb"
+        ],
+        [
+          "وَدَرَّسَ",
+          "and taught (Form II)",
+          "verb"
+        ],
+        [
+          "يَعْنِي",
+          "means",
+          "verb"
+        ],
+        [
+          "عَلَّمَ",
+          "taught (Form II)",
+          "verb"
+        ]
+      ],
+      "grammar": [
+        "verb-forms"
+      ]
+    },
+    {
+      "id": "d68s2",
+      "ar": "الْأُسْتَاذ كَرِيم يُدَرِّسُ الْعَرَبِيَّة.",
+      "en": "Mr Karim teaches Arabic.",
+      "literal": "the teacher Karim teaches Arabic",
+      "segs": [
+        [
+          "الْأُسْتَاذ",
+          "the teacher; Mr (title)",
+          "noun"
+        ],
+        [
+          "كَرِيم",
+          "Karim (first name)",
+          "name"
+        ],
+        [
+          "يُدَرِّسُ",
+          "teaches",
+          "verb"
+        ],
+        [
+          "الْعَرَبِيَّة",
+          "Arabic",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "verb-forms",
+        "present-tense"
+      ],
+      "mistakes": [
+        {
+          "wrong": "الْأُسْتَاذ كَرِيم يَدْرُسُ الْعَرَبِيَّة.",
+          "right": "الْأُسْتَاذ كَرِيم يُدَرِّسُ الْعَرَبِيَّة.",
+          "why": "yadrusu (no shadda) means 'studies'. For 'teaches' use Form II with a shadda: yudarrisu."
+        }
+      ]
+    },
+    {
+      "id": "d68s3",
+      "ar": "نَجْتَمِعُ فِي الْمَكْتَب كُلَّ صَبَاح.",
+      "en": "We meet at the office every morning.",
+      "literal": "we gather in the office every morning",
+      "segs": [
+        [
+          "نَجْتَمِعُ",
+          "we meet, we gather",
+          "verb"
+        ],
+        [
+          "فِي",
+          "in, at",
+          "prep"
+        ],
+        [
+          "الْمَكْتَب",
+          "the office",
+          "noun"
+        ],
+        [
+          "كُلَّ",
+          "every",
+          "noun"
+        ],
+        [
+          "صَبَاح",
+          "morning",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "verb-forms"
+      ]
+    },
+    {
+      "id": "d68s4",
+      "ar": "أَسْتَعْمِلُ الْحَاسُوب فِي عَمَلِي.",
+      "en": "I use the computer in my work.",
+      "literal": "I use the computer in my work",
+      "segs": [
+        [
+          "أَسْتَعْمِلُ",
+          "I use",
+          "verb"
+        ],
+        [
+          "الْحَاسُوب",
+          "the computer",
+          "noun"
+        ],
+        [
+          "فِي",
+          "in",
+          "prep"
+        ],
+        [
+          "عَمَلِي",
+          "my work",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "verb-forms",
+        "possessive"
+      ]
+    },
+    {
+      "id": "d68s5",
+      "ar": "سَاعَدَ وَسَافَرَ عَلَى وَزْنِ فَاعَلَ.",
+      "en": "Sāʿada (helped) and sāfara (travelled) are on the pattern fāʿala.",
+      "literal": "helped and travelled (are) on (the) pattern (of) fāʿala",
+      "segs": [
+        [
+          "سَاعَدَ",
+          "helped",
+          "verb"
+        ],
+        [
+          "وَسَافَرَ",
+          "and travelled",
+          "verb"
+        ],
+        [
+          "عَلَى",
+          "on",
+          "prep"
+        ],
+        [
+          "وَزْنِ",
+          "pattern (of)",
+          "noun"
+        ],
+        [
+          "فَاعَلَ",
+          "fāʿala (verb pattern, Form III)",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "verb-forms"
+      ],
+      "mistakes": [
+        {
+          "wrong": "سَعَدَ وَسَافَرَ عَلَى وَزْنِ فَاعَلَ.",
+          "right": "سَاعَدَ وَسَافَرَ عَلَى وَزْنِ فَاعَلَ.",
+          "why": "Form III has a long ā after the first letter: sāʿada, not saʿada."
+        }
+      ]
+    },
+    {
+      "id": "d68s6",
+      "ar": "نَنْتَظِرُ الْأُسْتَاذ أَمَامَ الْقَاعَة.",
+      "en": "We are waiting for the teacher in front of the hall.",
+      "literal": "we wait (for) the teacher in front of the hall",
+      "segs": [
+        [
+          "نَنْتَظِرُ",
+          "we wait (for)",
+          "verb"
+        ],
+        [
+          "الْأُسْتَاذ",
+          "the teacher",
+          "noun"
+        ],
+        [
+          "أَمَامَ",
+          "in front of",
+          "prep"
+        ],
+        [
+          "الْقَاعَة",
+          "the hall",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "verb-forms",
+        "prepositions-place"
+      ],
+      "mistakes": [
+        {
+          "wrong": "نَنْتَظِرُ لِلْأُسْتَاذ أَمَامَ الْقَاعَة.",
+          "right": "نَنْتَظِرُ الْأُسْتَاذ أَمَامَ الْقَاعَة.",
+          "why": "intaẓara takes a direct object: nantaẓiru l-ustādh, with no li- for 'for'."
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Roots and patterns in class",
+    "speakers": [
+      {
+        "key": "karim",
+        "name": "Mr Karim",
+        "nameAr": "الْأُسْتَاذ كَرِيم"
+      },
+      {
+        "key": "sami",
+        "name": "Sami",
+        "nameAr": "سَامِي"
+      },
+      {
+        "key": "daniel",
+        "name": "Daniel",
+        "nameAr": "دَانْيَال"
+      },
+      {
+        "key": "layla",
+        "name": "Layla",
+        "nameAr": "لَيْلَى"
+      }
+    ],
+    "culture": "Arabic dictionaries are usually ordered by root, not by the first letter of a word: to find مَكْتَبَة (library) you look under ك ت ب. That is why learners soon start hunting for the three root letters in every new word they meet.",
+    "lines": [
+      {
+        "id": "d68l1",
+        "sp": "karim",
+        "ar": "صَبَاحُ الْخَيْر يَا طُلَّاب! الْيَوْم نَدْرُسُ أَوْزَانَ الْفِعْل. كُلُّ فِعْل عَرَبِيّ لَهُ جَذْر، وَالْجَذْر فِي الْغَالِب ثَلَاثَةُ حُرُوف.",
+        "en": "Good morning, students! Today we're studying verb patterns. Every Arabic verb has a root, and the root is usually three letters.",
+        "segs": [
+          [
+            "صَبَاحُ",
+            "morning (of)"
+          ],
+          [
+            "الْخَيْر",
+            "the goodness"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "طُلَّاب",
+            "students"
+          ],
+          [
+            "الْيَوْم",
+            "today"
+          ],
+          [
+            "نَدْرُسُ",
+            "we study"
+          ],
+          [
+            "أَوْزَانَ",
+            "patterns (of)"
+          ],
+          [
+            "الْفِعْل",
+            "the verb"
+          ],
+          [
+            "كُلُّ",
+            "every"
+          ],
+          [
+            "فِعْل",
+            "verb"
+          ],
+          [
+            "عَرَبِيّ",
+            "Arabic (m)"
+          ],
+          [
+            "لَهُ",
+            "it has (lit. for it)"
+          ],
+          [
+            "جَذْر",
+            "a root"
+          ],
+          [
+            "وَالْجَذْر",
+            "and the root"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "الْغَالِب",
+            "the majority ('usually')"
+          ],
+          [
+            "ثَلَاثَةُ",
+            "three"
+          ],
+          [
+            "حُرُوف",
+            "letters"
+          ]
+        ]
+      },
+      {
+        "id": "d68l2",
+        "sp": "sami",
+        "ar": "مِثْلَ دَرَسَ وَيَدْرُسُ؟ وَأَيْضًا فِي كَلِمَة مَدْرَسَة، صَحِيح يَا أُسْتَاذ؟",
+        "en": "Like d-r-s in darasa and yadrusu? And it's also in the word madrasa, school, isn't it, sir?",
+        "segs": [
+          [
+            "مِثْلَ",
+            "like"
+          ],
+          [
+            "دَرَسَ",
+            "(he) studied"
+          ],
+          [
+            "وَيَدْرُسُ",
+            "and he studies"
+          ],
+          [
+            "وَأَيْضًا",
+            "and also"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "كَلِمَة",
+            "word (of)"
+          ],
+          [
+            "مَدْرَسَة",
+            "school"
+          ],
+          [
+            "صَحِيح",
+            "right, correct"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "أُسْتَاذ",
+            "sir, teacher"
+          ]
+        ]
+      },
+      {
+        "id": "d68l3",
+        "sp": "karim",
+        "ar": "صَحِيح يَا سَامِي. وَمِنْ نَفْسِ الْجَذْر: دَرْس وَدِرَاسَة وَمُدَرِّس. وَالْوَزْن يُغَيِّرُ الْمَعْنَى، مَثَلًا دَرَسَ وَدَرَّسَ.",
+        "en": "Right, Sami. And from the same root come lesson, studying and teacher. The pattern changes the meaning, for example darasa and darrasa.",
+        "segs": [
+          [
+            "صَحِيح",
+            "right, correct"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "سَامِي",
+            "Sami (first name)",
+            "name"
+          ],
+          [
+            "وَمِنْ",
+            "and from"
+          ],
+          [
+            "نَفْسِ",
+            "the same (lit. self of)"
+          ],
+          [
+            "الْجَذْر",
+            "the root"
+          ],
+          [
+            "دَرْس",
+            "lesson"
+          ],
+          [
+            "وَدِرَاسَة",
+            "and studying"
+          ],
+          [
+            "وَمُدَرِّس",
+            "and teacher"
+          ],
+          [
+            "وَالْوَزْن",
+            "and the pattern"
+          ],
+          [
+            "يُغَيِّرُ",
+            "changes"
+          ],
+          [
+            "الْمَعْنَى",
+            "the meaning"
+          ],
+          [
+            "مَثَلًا",
+            "for example"
+          ],
+          [
+            "دَرَسَ",
+            "(he) studied"
+          ],
+          [
+            "وَدَرَّسَ",
+            "and (he) taught"
+          ]
+        ]
+      },
+      {
+        "id": "d68l4",
+        "sp": "daniel",
+        "ar": "مَا الْفَرْق بَيْنَهُمَا يَا أُسْتَاذ؟ أَنَا أَسْمَعُ شَدَّة فَقَطْ فِي الْفِعْلِ الثَّانِي.",
+        "en": "What's the difference between them, sir? I can only hear a shadda in the second verb.",
+        "segs": [
+          [
+            "مَا",
+            "what"
+          ],
+          [
+            "الْفَرْق",
+            "the difference"
+          ],
+          [
+            "بَيْنَهُمَا",
+            "between them (two)"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "أُسْتَاذ",
+            "sir, teacher"
+          ],
+          [
+            "أَنَا",
+            "I"
+          ],
+          [
+            "أَسْمَعُ",
+            "I hear"
+          ],
+          [
+            "شَدَّة",
+            "a shadda (doubling mark)"
+          ],
+          [
+            "فَقَطْ",
+            "only, just"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "الْفِعْلِ",
+            "the verb"
+          ],
+          [
+            "الثَّانِي",
+            "the second"
+          ]
+        ]
+      },
+      {
+        "id": "d68l5",
+        "sp": "karim",
+        "ar": "الشَّدَّة مُهِمَّة جِدًّا! دَرَسَ يَعْنِي تَعَلَّمَ، وَدَرَّسَ يَعْنِي عَلَّمَ. أَنْتُمْ تَدْرُسُونَ، وَأَنَا أُدَرِّسُ.",
+        "en": "The shadda is very important! Darasa means 'learnt', and darrasa means 'taught'. You study, and I teach.",
+        "segs": [
+          [
+            "الشَّدَّة",
+            "the shadda (doubling mark)"
+          ],
+          [
+            "مُهِمَّة",
+            "important (f)"
+          ],
+          [
+            "جِدًّا",
+            "very"
+          ],
+          [
+            "دَرَسَ",
+            "(he) studied"
+          ],
+          [
+            "يَعْنِي",
+            "means"
+          ],
+          [
+            "تَعَلَّمَ",
+            "(he) learnt"
+          ],
+          [
+            "وَدَرَّسَ",
+            "and (he) taught"
+          ],
+          [
+            "يَعْنِي",
+            "means"
+          ],
+          [
+            "عَلَّمَ",
+            "(he) taught"
+          ],
+          [
+            "أَنْتُمْ",
+            "you (to a group)"
+          ],
+          [
+            "تَدْرُسُونَ",
+            "you study (to a group)"
+          ],
+          [
+            "وَأَنَا",
+            "and I"
+          ],
+          [
+            "أُدَرِّسُ",
+            "I teach"
+          ]
+        ]
+      },
+      {
+        "id": "d68l6",
+        "sp": "layla",
+        "ar": "إِذَنْ عَلِمَ وَعَلَّمَ مِثْلُهُمَا؟ عَلِمَ يَعْنِي عَرَفَ، وَعَلَّمَ يَعْنِي جَعَلَ شَخْصًا آخَرَ يَعْرِفُ.",
+        "en": "So ʿalima and ʿallama are like them? ʿAlima means 'knew', and ʿallama means 'made someone else know'.",
+        "segs": [
+          [
+            "إِذَنْ",
+            "so, then"
+          ],
+          [
+            "عَلِمَ",
+            "(he) knew"
+          ],
+          [
+            "وَعَلَّمَ",
+            "and (he) taught"
+          ],
+          [
+            "مِثْلُهُمَا",
+            "like them (two)"
+          ],
+          [
+            "عَلِمَ",
+            "(he) knew"
+          ],
+          [
+            "يَعْنِي",
+            "means"
+          ],
+          [
+            "عَرَفَ",
+            "(he) knew"
+          ],
+          [
+            "وَعَلَّمَ",
+            "and (he) taught"
+          ],
+          [
+            "يَعْنِي",
+            "means"
+          ],
+          [
+            "جَعَلَ",
+            "(he) made"
+          ],
+          [
+            "شَخْصًا",
+            "a person, someone"
+          ],
+          [
+            "آخَرَ",
+            "other, else"
+          ],
+          [
+            "يَعْرِفُ",
+            "know (lit. he knows)"
+          ]
+        ]
+      },
+      {
+        "id": "d68l7",
+        "sp": "karim",
+        "ar": "أَحْسَنْتِ يَا لَيْلَى! وَهُنَاكَ أَوْزَان أُخْرَى. سَاعَدَ وَسَافَرَ وَشَاهَدَ عَلَى وَزْنِ فَاعَلَ، فِيهَا أَلِف بَعْدَ الْحَرْفِ الْأَوَّل.",
+        "en": "Well done, Layla! And there are other patterns. Sāʿada, sāfara and shāhada are on the pattern fāʿala, with an alif after the first letter.",
+        "segs": [
+          [
+            "أَحْسَنْتِ",
+            "well done (to a woman)"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "لَيْلَى",
+            "Layla (first name)",
+            "name"
+          ],
+          [
+            "وَهُنَاكَ",
+            "and there are"
+          ],
+          [
+            "أَوْزَان",
+            "patterns"
+          ],
+          [
+            "أُخْرَى",
+            "other (f)"
+          ],
+          [
+            "سَاعَدَ",
+            "(he) helped"
+          ],
+          [
+            "وَسَافَرَ",
+            "and (he) travelled"
+          ],
+          [
+            "وَشَاهَدَ",
+            "and (he) watched"
+          ],
+          [
+            "عَلَى",
+            "on"
+          ],
+          [
+            "وَزْنِ",
+            "pattern (of)"
+          ],
+          [
+            "فَاعَلَ",
+            "fāʿala (verb pattern, Form III)"
+          ],
+          [
+            "فِيهَا",
+            "in them (lit. in it, f)"
+          ],
+          [
+            "أَلِف",
+            "an alif"
+          ],
+          [
+            "بَعْدَ",
+            "after"
+          ],
+          [
+            "الْحَرْفِ",
+            "the letter"
+          ],
+          [
+            "الْأَوَّل",
+            "the first"
+          ]
+        ]
+      },
+      {
+        "id": "d68l8",
+        "sp": "daniel",
+        "ar": "وَفِي الْمَكْتَب أَسْمَعُ كَلِمَات طَوِيلَة مِثْلَ اجْتَمَعَ وَاسْتَعْمَلَ. هَلْ هِيَ أَوْزَان أَيْضًا؟",
+        "en": "And at the office I hear long words like ijtamaʿa and istaʿmala. Are they patterns too?",
+        "segs": [
+          [
+            "وَفِي",
+            "and in, and at"
+          ],
+          [
+            "الْمَكْتَب",
+            "the office"
+          ],
+          [
+            "أَسْمَعُ",
+            "I hear"
+          ],
+          [
+            "كَلِمَات",
+            "words"
+          ],
+          [
+            "طَوِيلَة",
+            "long (f)"
+          ],
+          [
+            "مِثْلَ",
+            "like"
+          ],
+          [
+            "اجْتَمَعَ",
+            "(he) met"
+          ],
+          [
+            "وَاسْتَعْمَلَ",
+            "and (he) used"
+          ],
+          [
+            "هَلْ",
+            "(starts a yes/no question)"
+          ],
+          [
+            "هِيَ",
+            "they (lit. she)"
+          ],
+          [
+            "أَوْزَان",
+            "patterns"
+          ],
+          [
+            "أَيْضًا",
+            "also, too"
+          ]
+        ]
+      },
+      {
+        "id": "d68l9",
+        "sp": "karim",
+        "ar": "نَعَم! اِجْتَمَعَ عَلَى وَزْنِ افْتَعَلَ، مِنْ جَذْرِ جَمَعَ. وَمِنْهُ أَيْضًا اجْتِمَاع وَجَامِعَة وَالْجُمُعَة.",
+        "en": "Yes! Ijtamaʿa is on the pattern iftaʿala, from the root of jamaʿa, to gather: j-m-ʿ. From it also come ijtimāʿ (meeting), jāmiʿa (university) and al-jumuʿa (Friday).",
+        "segs": [
+          [
+            "نَعَم",
+            "yes"
+          ],
+          [
+            "اِجْتَمَعَ",
+            "(he) met"
+          ],
+          [
+            "عَلَى",
+            "on"
+          ],
+          [
+            "وَزْنِ",
+            "pattern (of)"
+          ],
+          [
+            "افْتَعَلَ",
+            "iftaʿala (verb pattern, Form VIII)"
+          ],
+          [
+            "مِنْ",
+            "from"
+          ],
+          [
+            "جَذْرِ",
+            "root (of)"
+          ],
+          [
+            "جَمَعَ",
+            "(he) gathered, collected"
+          ],
+          [
+            "وَمِنْهُ",
+            "and from it"
+          ],
+          [
+            "أَيْضًا",
+            "also, too"
+          ],
+          [
+            "اجْتِمَاع",
+            "a meeting"
+          ],
+          [
+            "وَجَامِعَة",
+            "and university"
+          ],
+          [
+            "وَالْجُمُعَة",
+            "and Friday"
+          ]
+        ]
+      },
+      {
+        "id": "d68l10",
+        "sp": "sami",
+        "ar": "الْجَامِعَة وَالْجُمُعَة مِنْ نَفْسِ الْجَذْر؟ طَبْعًا، لِأَنَّ النَّاس يَجْتَمِعُونَ فِيهِمَا!",
+        "en": "University and Friday come from the same root? Of course, because people gather in both of them!",
+        "segs": [
+          [
+            "الْجَامِعَة",
+            "the university"
+          ],
+          [
+            "وَالْجُمُعَة",
+            "and Friday"
+          ],
+          [
+            "مِنْ",
+            "from"
+          ],
+          [
+            "نَفْسِ",
+            "the same (lit. self of)"
+          ],
+          [
+            "الْجَذْر",
+            "the root"
+          ],
+          [
+            "طَبْعًا",
+            "of course"
+          ],
+          [
+            "لِأَنَّ",
+            "because"
+          ],
+          [
+            "النَّاس",
+            "people"
+          ],
+          [
+            "يَجْتَمِعُونَ",
+            "they gather, they meet"
+          ],
+          [
+            "فِيهِمَا",
+            "in both of them"
+          ]
+        ]
+      },
+      {
+        "id": "d68l11",
+        "sp": "karim",
+        "ar": "بِالضَّبْط! وَاسْتَعْمَلَ عَلَى وَزْنِ اسْتَفْعَلَ، مِنْ جَذْرِ عَمِلَ. نَحْنُ نَسْتَعْمِلُ الْحَاسُوب كُلَّ يَوْم.",
+        "en": "Exactly! And istaʿmala is on the pattern istafʿala, from the root of ʿamila, to work. We use the computer every day.",
+        "segs": [
+          [
+            "بِالضَّبْط",
+            "exactly"
+          ],
+          [
+            "وَاسْتَعْمَلَ",
+            "and (he) used"
+          ],
+          [
+            "عَلَى",
+            "on"
+          ],
+          [
+            "وَزْنِ",
+            "pattern (of)"
+          ],
+          [
+            "اسْتَفْعَلَ",
+            "istafʿala (verb pattern, Form X)"
+          ],
+          [
+            "مِنْ",
+            "from"
+          ],
+          [
+            "جَذْرِ",
+            "root (of)"
+          ],
+          [
+            "عَمِلَ",
+            "(he) worked"
+          ],
+          [
+            "نَحْنُ",
+            "we"
+          ],
+          [
+            "نَسْتَعْمِلُ",
+            "we use"
+          ],
+          [
+            "الْحَاسُوب",
+            "the computer"
+          ],
+          [
+            "كُلَّ",
+            "every"
+          ],
+          [
+            "يَوْم",
+            "day"
+          ]
+        ]
+      },
+      {
+        "id": "d68l12",
+        "sp": "layla",
+        "ar": "هٰذَا مِثْلُ لُعْبَة! إِذَا عَرَفْتُ الْجَذْر وَالْوَزْن، يُمْكِنُنِي أَنْ أَفْهَمَ كَلِمَات جَدِيدَة بِدُونِ قَامُوس.",
+        "en": "This is like a game! If I know the root and the pattern, I can understand new words without a dictionary.",
+        "segs": [
+          [
+            "هٰذَا",
+            "this (m)"
+          ],
+          [
+            "مِثْلُ",
+            "like"
+          ],
+          [
+            "لُعْبَة",
+            "a game"
+          ],
+          [
+            "إِذَا",
+            "if"
+          ],
+          [
+            "عَرَفْتُ",
+            "I knew ('I know')"
+          ],
+          [
+            "الْجَذْر",
+            "the root"
+          ],
+          [
+            "وَالْوَزْن",
+            "and the pattern"
+          ],
+          [
+            "يُمْكِنُنِي",
+            "it is possible for me, I can"
+          ],
+          [
+            "أَنْ",
+            "to, that"
+          ],
+          [
+            "أَفْهَمَ",
+            "I understand (after an)"
+          ],
+          [
+            "كَلِمَات",
+            "words"
+          ],
+          [
+            "جَدِيدَة",
+            "new (f)"
+          ],
+          [
+            "بِدُونِ",
+            "without"
+          ],
+          [
+            "قَامُوس",
+            "a dictionary"
+          ]
+        ]
+      },
+      {
+        "id": "d68l13",
+        "sp": "karim",
+        "ar": "هٰذَا هُوَ السِّرّ! وَالْآنَ تَمْرِين صَغِير: مَا جَذْرُ مَكْتَب؟ وَمَا جَذْرُ يَنْتَظِرُ؟",
+        "en": "That's the secret! And now a little exercise: what is the root of maktab? And what is the root of yantaẓiru?",
+        "segs": [
+          [
+            "هٰذَا",
+            "this, that (m)"
+          ],
+          [
+            "هُوَ",
+            "(it) is (lit. he)"
+          ],
+          [
+            "السِّرّ",
+            "the secret"
+          ],
+          [
+            "وَالْآنَ",
+            "and now"
+          ],
+          [
+            "تَمْرِين",
+            "an exercise"
+          ],
+          [
+            "صَغِير",
+            "small, little"
+          ],
+          [
+            "مَا",
+            "what"
+          ],
+          [
+            "جَذْرُ",
+            "root (of)"
+          ],
+          [
+            "مَكْتَب",
+            "office, desk"
+          ],
+          [
+            "وَمَا",
+            "and what"
+          ],
+          [
+            "جَذْرُ",
+            "root (of)"
+          ],
+          [
+            "يَنْتَظِرُ",
+            "waits (he waits)"
+          ]
+        ]
+      },
+      {
+        "id": "d68l14",
+        "sp": "daniel",
+        "ar": "جَذْرُ مَكْتَب مِثْلُ جَذْرِ كِتَاب وَكَتَبَ. وَجَذْرُ يَنْتَظِرُ مِثْلُ جَذْرِ نَظَّارَة!",
+        "en": "The root of maktab is the same as in kitāb and kataba: k-t-b. And the root of yantaẓiru is like naẓẓāra, glasses: n-ẓ-r!",
+        "segs": [
+          [
+            "جَذْرُ",
+            "root (of)"
+          ],
+          [
+            "مَكْتَب",
+            "office, desk"
+          ],
+          [
+            "مِثْلُ",
+            "like, the same as"
+          ],
+          [
+            "جَذْرِ",
+            "root (of)"
+          ],
+          [
+            "كِتَاب",
+            "book"
+          ],
+          [
+            "وَكَتَبَ",
+            "and (he) wrote"
+          ],
+          [
+            "وَجَذْرُ",
+            "and the root (of)"
+          ],
+          [
+            "يَنْتَظِرُ",
+            "waits (he waits)"
+          ],
+          [
+            "مِثْلُ",
+            "like, the same as"
+          ],
+          [
+            "جَذْرِ",
+            "root (of)"
+          ],
+          [
+            "نَظَّارَة",
+            "glasses"
+          ]
+        ]
+      },
+      {
+        "id": "d68l15",
+        "sp": "karim",
+        "ar": "مُمْتَاز يَا دَانْيَال! أَنْتَ تَتَعَلَّمُ بِسُرْعَة. الْوَاجِب لِلْجَمِيع: اُكْتُبُوا عَشَرَةَ أَفْعَال جَدِيدَة مَعَ جُذُورِهَا.",
+        "en": "Excellent, Daniel! You're learning fast. Homework for everyone: write ten new verbs together with their roots.",
+        "segs": [
+          [
+            "مُمْتَاز",
+            "excellent"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "دَانْيَال",
+            "Daniel (first name)",
+            "name"
+          ],
+          [
+            "أَنْتَ",
+            "you (to a man)"
+          ],
+          [
+            "تَتَعَلَّمُ",
+            "you learn (to a man)"
+          ],
+          [
+            "بِسُرْعَة",
+            "fast, quickly"
+          ],
+          [
+            "الْوَاجِب",
+            "the homework"
+          ],
+          [
+            "لِلْجَمِيع",
+            "for everyone"
+          ],
+          [
+            "اُكْتُبُوا",
+            "write! (to a group)"
+          ],
+          [
+            "عَشَرَةَ",
+            "ten"
+          ],
+          [
+            "أَفْعَال",
+            "verbs"
+          ],
+          [
+            "جَدِيدَة",
+            "new (f)"
+          ],
+          [
+            "مَعَ",
+            "with"
+          ],
+          [
+            "جُذُورِهَا",
+            "their roots"
+          ]
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "title": "Roots and patterns",
+    "ar": "فِي الْعَرَبِيَّة كُلُّ فِعْل لَهُ جَذْر، وَأَكْثَرُ الْجُذُور ثَلَاثَةُ حُرُوف. الْوَزْن يُغَيِّرُ الْمَعْنَى: دَرَسَ يَعْنِي تَعَلَّمَ، وَدَرَّسَ يَعْنِي عَلَّمَ. مِنْ جَذْرِ كَتَبَ نَأْخُذُ كِتَاب وَكَاتِب وَمَكْتَب وَمَكْتَبَة. إِذَا عَرَفْتَ الْجَذْر وَالْوَزْن، يُمْكِنُكَ أَنْ تَفْهَمَ كَلِمَات جَدِيدَة.",
+    "en": "In Arabic every verb has a root, and most roots are three letters. The pattern changes the meaning: darasa means 'learnt', and darrasa means 'taught'. From the root of kataba, k-t-b, we get kitāb (book), kātib (writer), maktab (office) and maktaba (library). If you know the root and the pattern, you can understand new words.",
+    "segs": [
+      [
+        "فِي",
+        "in"
+      ],
+      [
+        "الْعَرَبِيَّة",
+        "Arabic"
+      ],
+      [
+        "كُلُّ",
+        "every"
+      ],
+      [
+        "فِعْل",
+        "verb"
+      ],
+      [
+        "لَهُ",
+        "it has (lit. for it)"
+      ],
+      [
+        "جَذْر",
+        "a root"
+      ],
+      [
+        "وَأَكْثَرُ",
+        "and most (of)"
+      ],
+      [
+        "الْجُذُور",
+        "the roots"
+      ],
+      [
+        "ثَلَاثَةُ",
+        "three"
+      ],
+      [
+        "حُرُوف",
+        "letters"
+      ],
+      [
+        "الْوَزْن",
+        "the pattern"
+      ],
+      [
+        "يُغَيِّرُ",
+        "changes"
+      ],
+      [
+        "الْمَعْنَى",
+        "the meaning"
+      ],
+      [
+        "دَرَسَ",
+        "(he) studied"
+      ],
+      [
+        "يَعْنِي",
+        "means"
+      ],
+      [
+        "تَعَلَّمَ",
+        "(he) learnt"
+      ],
+      [
+        "وَدَرَّسَ",
+        "and (he) taught"
+      ],
+      [
+        "يَعْنِي",
+        "means"
+      ],
+      [
+        "عَلَّمَ",
+        "(he) taught"
+      ],
+      [
+        "مِنْ",
+        "from"
+      ],
+      [
+        "جَذْرِ",
+        "root (of)"
+      ],
+      [
+        "كَتَبَ",
+        "(he) wrote"
+      ],
+      [
+        "نَأْخُذُ",
+        "we take ('we get')"
+      ],
+      [
+        "كِتَاب",
+        "book"
+      ],
+      [
+        "وَكَاتِب",
+        "and writer"
+      ],
+      [
+        "وَمَكْتَب",
+        "and office"
+      ],
+      [
+        "وَمَكْتَبَة",
+        "and library"
+      ],
+      [
+        "إِذَا",
+        "if"
+      ],
+      [
+        "عَرَفْتَ",
+        "you knew ('you know')"
+      ],
+      [
+        "الْجَذْر",
+        "the root"
+      ],
+      [
+        "وَالْوَزْن",
+        "and the pattern"
+      ],
+      [
+        "يُمْكِنُكَ",
+        "you can (to a man)"
+      ],
+      [
+        "أَنْ",
+        "to, that"
+      ],
+      [
+        "تَفْهَمَ",
+        "you understand (after an)"
+      ],
+      [
+        "كَلِمَات",
+        "words"
+      ],
+      [
+        "جَدِيدَة",
+        "new (f)"
+      ]
+    ]
+  },
+  "review": [
+    "yadrusu",
+    "yusaidu",
+    "ijtima",
+    "safara",
+    "yaktubu",
+    "jamia",
+    "wazn",
+    "yantaziru"
+  ],
+  "quiz": [
+    {
+      "id": "d68q1",
+      "prompt": "What does this mean?",
+      "ar": "جَذْر",
+      "options": [
+        "pattern",
+        "root",
+        "letter",
+        "verb"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "d68q2",
+      "prompt": "What does دَرَّسَ (with a shadda) mean?",
+      "options": [
+        "studied",
+        "wrote",
+        "taught",
+        "met"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "d68q3",
+      "prompt": "Which three words share the root j-m-ʿ, according to Mr Karim?",
+      "options": [
+        "meeting, university, Friday",
+        "office, book, writer",
+        "lesson, studying, teacher",
+        "glasses, waiting, looking"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "d68q4",
+      "prompt": "Which verb is on the pattern fāʿala (Form III)?",
+      "options": [
+        "دَرَسَ",
+        "تَعَلَّمَ",
+        "اِسْتَعْمَلَ",
+        "سَاعَدَ"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "d68q5",
+      "prompt": "What is the root of مَكْتَب?",
+      "options": [
+        "م ك ت",
+        "ك ت ب",
+        "ت ب م",
+        "م ت ب"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "d68q6",
+      "prompt": "Why does Layla say that verb patterns are like a game?",
+      "options": [
+        "Because they are always easy",
+        "Because you can guess new words from the root and the pattern",
+        "Because Mr Karim gives prizes",
+        "Because there are only three patterns"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "d68q7",
+      "prompt": "Which verb has three short, even syllables (da-ra-sa)?",
+      "options": [
+        "دَرَّسَ",
+        "سَاعَدَ",
+        "دَرَسَ",
+        "تَعَلَّمَ"
+      ],
+      "answer": 2
+    }
+  ],
+  "completion": "Brilliant! You can find the root of a word and recognise the main verb patterns. Tomorrow Daniel and Tariq start a language exchange: learning and teaching.",
+  "status": "needs-review"
+}

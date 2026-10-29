@@ -9668,5 +9668,1329 @@
         "answer": 0
       }
     ]
+  },
+  {
+    "id": "job-interview",
+    "title": "A job interview",
+    "emoji": "🤝",
+    "status": "needs-review",
+    "intro": "Layla wants to teach Arabic to foreigners, and she has an interview at a language centre in Cairo. Useful phrases: عِنْدِي خِبْرَة (I have experience), يُمْكِنُنِي أَنْ أَبْدَأَ (I can start) and أَنَا مُسْتَعِدَّة (I'm ready, said by a woman).",
+    "dialogue": {
+      "title": "Layla's interview",
+      "speakers": [
+        {
+          "key": "salwa",
+          "name": "Mrs Salwa",
+          "nameAr": "السَّيِّدَة سَلْوَى"
+        },
+        {
+          "key": "layla",
+          "name": "Layla",
+          "nameAr": "لَيْلَى"
+        }
+      ],
+      "culture": "Many language centres in Cairo teach Arabic to foreigners, and they often hire young teachers part-time. A new teacher is called أُسْتَاذَة from the very first day.",
+      "lines": [
+        {
+          "id": "job-interview-l1",
+          "sp": "salwa",
+          "ar": "أَهْلًا وَسَهْلًا يَا لَيْلَى، تَفَضَّلِي اجْلِسِي. أَنَا سَلْوَى، مُدِيرَةُ الْمَرْكَز.",
+          "en": "Welcome, Layla, please have a seat. I'm Salwa, the director of the centre.",
+          "segs": [
+            [
+              "أَهْلًا",
+              "hi, welcome"
+            ],
+            [
+              "وَسَهْلًا",
+              "and easy ('welcome')"
+            ],
+            [
+              "يَا",
+              "O (calling someone)"
+            ],
+            [
+              "لَيْلَى",
+              "Layla (first name)",
+              "name"
+            ],
+            [
+              "تَفَضَّلِي",
+              "please (to a woman)"
+            ],
+            [
+              "اجْلِسِي",
+              "sit! (to a woman)"
+            ],
+            [
+              "أَنَا",
+              "I"
+            ],
+            [
+              "سَلْوَى",
+              "Salwa (first name)",
+              "name"
+            ],
+            [
+              "مُدِيرَةُ",
+              "manager (of) (a woman)"
+            ],
+            [
+              "الْمَرْكَز",
+              "the centre"
+            ]
+          ]
+        },
+        {
+          "id": "job-interview-l2",
+          "sp": "layla",
+          "ar": "شُكْرًا جَزِيلًا. هٰذِهِ سِيرَتِي الذَّاتِيَّة وَشَهَادَتِي مِنَ الْجَامِعَة.",
+          "en": "Thank you very much. Here are my CV and my degree certificate from the university.",
+          "segs": [
+            [
+              "شُكْرًا",
+              "thank you"
+            ],
+            [
+              "جَزِيلًا",
+              "very much (lit. abundantly)"
+            ],
+            [
+              "هٰذِهِ",
+              "this (f)"
+            ],
+            [
+              "سِيرَتِي",
+              "my life story ('my CV')"
+            ],
+            [
+              "الذَّاتِيَّة",
+              "the personal (f) ('CV')"
+            ],
+            [
+              "وَشَهَادَتِي",
+              "and my certificate"
+            ],
+            [
+              "مِنَ",
+              "from"
+            ],
+            [
+              "الْجَامِعَة",
+              "the university"
+            ]
+          ]
+        },
+        {
+          "id": "job-interview-l3",
+          "sp": "salwa",
+          "ar": "قَرَأْتُ السِّيرَة الذَّاتِيَّة. أَنْتِ مِنْ لُبْنَان، وَتَدْرُسِينَ فِي الْقَاهِرَة الْآنَ، صَحِيح؟",
+          "en": "I've read the CV. You're from Lebanon, and you're studying in Cairo now, right?",
+          "segs": [
+            [
+              "قَرَأْتُ",
+              "I read (past)"
+            ],
+            [
+              "السِّيرَة",
+              "the life story ('the CV')"
+            ],
+            [
+              "الذَّاتِيَّة",
+              "the personal (f) ('CV')"
+            ],
+            [
+              "أَنْتِ",
+              "you (to a woman)"
+            ],
+            [
+              "مِنْ",
+              "from"
+            ],
+            [
+              "لُبْنَان",
+              "Lebanon (country)",
+              "name"
+            ],
+            [
+              "وَتَدْرُسِينَ",
+              "and you study (to a woman)"
+            ],
+            [
+              "فِي",
+              "in"
+            ],
+            [
+              "الْقَاهِرَة",
+              "Cairo (capital of Egypt)",
+              "name"
+            ],
+            [
+              "الْآنَ",
+              "now"
+            ],
+            [
+              "صَحِيح",
+              "right, correct"
+            ]
+          ]
+        },
+        {
+          "id": "job-interview-l4",
+          "sp": "layla",
+          "ar": "صَحِيح. أَدْرُسُ فِي مَدْرَسَةِ لُغَة، وَأُسَاعِدُ زُمَلَائِي الْأَجَانِب فِي الْعَرَبِيَّة كُلَّ يَوْم.",
+          "en": "That's right. I study at a language school, and I help my foreign classmates with Arabic every day.",
+          "segs": [
+            [
+              "صَحِيح",
+              "right, correct"
+            ],
+            [
+              "أَدْرُسُ",
+              "I study"
+            ],
+            [
+              "فِي",
+              "at, in"
+            ],
+            [
+              "مَدْرَسَةِ",
+              "school (of)"
+            ],
+            [
+              "لُغَة",
+              "language"
+            ],
+            [
+              "وَأُسَاعِدُ",
+              "and I help"
+            ],
+            [
+              "زُمَلَائِي",
+              "my classmates, my colleagues"
+            ],
+            [
+              "الْأَجَانِب",
+              "the foreign (ones)"
+            ],
+            [
+              "فِي",
+              "in, with"
+            ],
+            [
+              "الْعَرَبِيَّة",
+              "Arabic"
+            ],
+            [
+              "كُلَّ",
+              "every"
+            ],
+            [
+              "يَوْم",
+              "day"
+            ]
+          ]
+        },
+        {
+          "id": "job-interview-l5",
+          "sp": "salwa",
+          "ar": "جَمِيل. هَلْ عِنْدَكِ خِبْرَة فِي التَّعْلِيم؟",
+          "en": "Lovely. Do you have any experience in teaching?",
+          "segs": [
+            [
+              "جَمِيل",
+              "lovely, beautiful"
+            ],
+            [
+              "هَلْ",
+              "(starts a yes/no question)"
+            ],
+            [
+              "عِنْدَكِ",
+              "you have (to a woman)"
+            ],
+            [
+              "خِبْرَة",
+              "experience"
+            ],
+            [
+              "فِي",
+              "in"
+            ],
+            [
+              "التَّعْلِيم",
+              "teaching"
+            ]
+          ]
+        },
+        {
+          "id": "job-interview-l6",
+          "sp": "layla",
+          "ar": "نَعَم، فِي بَيْرُوت عَلَّمْتُ الْأَطْفَال الْعَرَبِيَّة سَنَتَيْنِ.",
+          "en": "Yes, in Beirut I taught Arabic to children for two years.",
+          "segs": [
+            [
+              "نَعَم",
+              "yes"
+            ],
+            [
+              "فِي",
+              "in"
+            ],
+            [
+              "بَيْرُوت",
+              "Beirut (capital of Lebanon)",
+              "name"
+            ],
+            [
+              "عَلَّمْتُ",
+              "I taught"
+            ],
+            [
+              "الْأَطْفَال",
+              "the children"
+            ],
+            [
+              "الْعَرَبِيَّة",
+              "Arabic"
+            ],
+            [
+              "سَنَتَيْنِ",
+              "two years"
+            ]
+          ]
+        },
+        {
+          "id": "job-interview-l7",
+          "sp": "salwa",
+          "ar": "مُمْتَاز. يُمْكِنُنَا أَنْ نُعْطِيَكِ صَفًّا صَغِيرًا مَسَاءَ الْأَحَد وَالثُّلَاثَاء.",
+          "en": "Excellent. We can give you a small class on Sunday and Tuesday evenings.",
+          "segs": [
+            [
+              "مُمْتَاز",
+              "excellent"
+            ],
+            [
+              "يُمْكِنُنَا",
+              "we can (lit. it is possible for us)"
+            ],
+            [
+              "أَنْ",
+              "to, that"
+            ],
+            [
+              "نُعْطِيَكِ",
+              "we give you (to a woman, after an)"
+            ],
+            [
+              "صَفًّا",
+              "a class"
+            ],
+            [
+              "صَغِيرًا",
+              "small"
+            ],
+            [
+              "مَسَاءَ",
+              "(in the) evening (of)"
+            ],
+            [
+              "الْأَحَد",
+              "Sunday"
+            ],
+            [
+              "وَالثُّلَاثَاء",
+              "and Tuesday"
+            ]
+          ]
+        },
+        {
+          "id": "job-interview-l8",
+          "sp": "layla",
+          "ar": "هٰذَا مُنَاسِب لِي. وَمَتَى يُمْكِنُنِي أَنْ أَبْدَأَ؟",
+          "en": "That suits me. And when can I start?",
+          "segs": [
+            [
+              "هٰذَا",
+              "this, that (m)"
+            ],
+            [
+              "مُنَاسِب",
+              "suitable"
+            ],
+            [
+              "لِي",
+              "for me"
+            ],
+            [
+              "وَمَتَى",
+              "and when"
+            ],
+            [
+              "يُمْكِنُنِي",
+              "it is possible for me, I can"
+            ],
+            [
+              "أَنْ",
+              "to, that"
+            ],
+            [
+              "أَبْدَأَ",
+              "I start (after an)"
+            ]
+          ]
+        },
+        {
+          "id": "job-interview-l9",
+          "sp": "salwa",
+          "ar": "الْأُسْبُوعَ الْقَادِم، إِذَا كُنْتِ مُسْتَعِدَّة.",
+          "en": "Next week, if you're ready.",
+          "segs": [
+            [
+              "الْأُسْبُوعَ",
+              "the week"
+            ],
+            [
+              "الْقَادِم",
+              "the coming, next"
+            ],
+            [
+              "إِذَا",
+              "if"
+            ],
+            [
+              "كُنْتِ",
+              "you were (to a woman) ('you are')"
+            ],
+            [
+              "مُسْتَعِدَّة",
+              "ready (f)"
+            ]
+          ]
+        },
+        {
+          "id": "job-interview-l10",
+          "sp": "layla",
+          "ar": "أَنَا مُسْتَعِدَّة تَمَامًا! وَمَا الرَّاتِب، مِنْ فَضْلِكِ؟",
+          "en": "I'm completely ready! And what is the salary, please?",
+          "segs": [
+            [
+              "أَنَا",
+              "I"
+            ],
+            [
+              "مُسْتَعِدَّة",
+              "ready (f)"
+            ],
+            [
+              "تَمَامًا",
+              "completely, exactly"
+            ],
+            [
+              "وَمَا",
+              "and what"
+            ],
+            [
+              "الرَّاتِب",
+              "the salary"
+            ],
+            [
+              "مِنْ",
+              "from"
+            ],
+            [
+              "فَضْلِكِ",
+              "your kindness (to a woman): 'please'"
+            ]
+          ]
+        },
+        {
+          "id": "job-interview-l11",
+          "sp": "salwa",
+          "ar": "مِئَتَا جُنَيْه لِكُلِّ دَرْس. وَسَأُرْسِلُ لَكِ الْعَقْد بِالْبَرِيدِ الْإِلِكْتُرُونِيّ الْيَوْم.",
+          "en": "Two hundred pounds for each lesson. And I'll send you the contract by email today.",
+          "segs": [
+            [
+              "مِئَتَا",
+              "two hundred"
+            ],
+            [
+              "جُنَيْه",
+              "pound (Egyptian money)"
+            ],
+            [
+              "لِكُلِّ",
+              "for each"
+            ],
+            [
+              "دَرْس",
+              "lesson"
+            ],
+            [
+              "وَسَأُرْسِلُ",
+              "and I will send"
+            ],
+            [
+              "لَكِ",
+              "to you (to a woman)"
+            ],
+            [
+              "الْعَقْد",
+              "the contract"
+            ],
+            [
+              "بِالْبَرِيدِ",
+              "by the post, by the mail"
+            ],
+            [
+              "الْإِلِكْتُرُونِيّ",
+              "the electronic ('email')"
+            ],
+            [
+              "الْيَوْم",
+              "today"
+            ]
+          ]
+        },
+        {
+          "id": "job-interview-l12",
+          "sp": "layla",
+          "ar": "شُكْرًا جَزِيلًا يَا سَيِّدَة سَلْوَى! أَنَا سَعِيدَة جِدًّا بِهٰذِهِ الْوَظِيفَة.",
+          "en": "Thank you very much, Mrs Salwa! I'm very happy with this job.",
+          "segs": [
+            [
+              "شُكْرًا",
+              "thank you"
+            ],
+            [
+              "جَزِيلًا",
+              "very much (lit. abundantly)"
+            ],
+            [
+              "يَا",
+              "O (calling someone)"
+            ],
+            [
+              "سَيِّدَة",
+              "Mrs, lady"
+            ],
+            [
+              "سَلْوَى",
+              "Salwa (first name)",
+              "name"
+            ],
+            [
+              "أَنَا",
+              "I"
+            ],
+            [
+              "سَعِيدَة",
+              "happy (f)"
+            ],
+            [
+              "جِدًّا",
+              "very"
+            ],
+            [
+              "بِهٰذِهِ",
+              "with this (f)"
+            ],
+            [
+              "الْوَظِيفَة",
+              "the job"
+            ]
+          ]
+        },
+        {
+          "id": "job-interview-l13",
+          "sp": "salwa",
+          "ar": "مَبْرُوك يَا أُسْتَاذَة لَيْلَى! أَهْلًا بِكِ فِي فَرِيقِنَا.",
+          "en": "Congratulations, Ms Layla! Welcome to our team.",
+          "segs": [
+            [
+              "مَبْرُوك",
+              "congratulations"
+            ],
+            [
+              "يَا",
+              "O (calling someone)"
+            ],
+            [
+              "أُسْتَاذَة",
+              "teacher (f); Ms (title)"
+            ],
+            [
+              "لَيْلَى",
+              "Layla (first name)",
+              "name"
+            ],
+            [
+              "أَهْلًا",
+              "hi, welcome"
+            ],
+            [
+              "بِكِ",
+              "(to) you (to a woman)"
+            ],
+            [
+              "فِي",
+              "in, to"
+            ],
+            [
+              "فَرِيقِنَا",
+              "our team"
+            ]
+          ]
+        }
+      ]
+    },
+    "mistakes": [
+      {
+        "wrong": "أَنَا مُسْتَعِدّ. (said by Layla)",
+        "right": "أَنَا مُسْتَعِدَّة.",
+        "why": "A woman says mustaʿidda, with ة."
+      },
+      {
+        "wrong": "مَتَى يُمْكِنُنِي أَبْدَأُ؟",
+        "right": "مَتَى يُمْكِنُنِي أَنْ أَبْدَأَ؟",
+        "why": "After yumkinunī use an and a verb ending in -a: an abdaʾa."
+      }
+    ],
+    "quiz": [
+      {
+        "id": "job-interview-q1",
+        "prompt": "How long did Layla teach children in Beirut?",
+        "options": [
+          "one year",
+          "two years",
+          "three years",
+          "six months"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "job-interview-q2",
+        "prompt": "What does this mean?",
+        "ar": "يُمْكِنُنَا أَنْ نُعْطِيَكِ صَفًّا.",
+        "options": [
+          "We can give you a class.",
+          "You can give us a class.",
+          "We gave you a class.",
+          "Can you teach a class?"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "job-interview-q3",
+        "prompt": "When can Layla start?",
+        "options": [
+          "today",
+          "tomorrow",
+          "next month",
+          "next week"
+        ],
+        "answer": 3
+      },
+      {
+        "id": "job-interview-q4",
+        "prompt": "How will Mrs Salwa send the contract?",
+        "options": [
+          "by post",
+          "by email",
+          "by hand",
+          "by phone"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "office-phone",
+    "title": "Phoning an office",
+    "emoji": "☎️",
+    "status": "needs-review",
+    "intro": "Daniel phones the office of the Faculty of Arts to ask about Dr Mona's lectures. Useful phrases: أُرِيدُ أَنْ أَسْأَلَ عَنْ… (I'd like to ask about…), هَلْ يُمْكِنُنِي أَنْ…؟ (can I…?) and هَلْ تُرِيدُ أَنْ تَتْرُكَ رِسَالَة؟ (would you like to leave a message?).",
+    "dialogue": {
+      "title": "A call to the faculty",
+      "speakers": [
+        {
+          "key": "employee",
+          "name": "Office worker",
+          "nameAr": "الْمُوَظَّفَة"
+        },
+        {
+          "key": "daniel",
+          "name": "Daniel",
+          "nameAr": "دَانْيَال"
+        }
+      ],
+      "culture": "University offices in Egypt are busy, and phone calls are often short and to the point. Polite, formal Arabic with titles like الدُّكْتُورَة helps a lot, both on the phone and in emails.",
+      "lines": [
+        {
+          "id": "office-phone-l1",
+          "sp": "employee",
+          "ar": "آلُو، مَكْتَبُ كُلِّيَّةِ الْآدَاب، صَبَاحُ الْخَيْر.",
+          "en": "Hello, Faculty of Arts office, good morning.",
+          "segs": [
+            [
+              "آلُو",
+              "hello (on the phone)"
+            ],
+            [
+              "مَكْتَبُ",
+              "office (of)"
+            ],
+            [
+              "كُلِّيَّةِ",
+              "faculty (of)"
+            ],
+            [
+              "الْآدَاب",
+              "the arts"
+            ],
+            [
+              "صَبَاحُ",
+              "morning (of)"
+            ],
+            [
+              "الْخَيْر",
+              "the goodness"
+            ]
+          ]
+        },
+        {
+          "id": "office-phone-l2",
+          "sp": "daniel",
+          "ar": "صَبَاحُ النُّور. اِسْمِي دَانْيَال، وَأُرِيدُ أَنْ أَسْأَلَ عَنْ مُحَاضَرَاتِ الدُّكْتُورَة مُنَى.",
+          "en": "Good morning. My name is Daniel, and I'd like to ask about Dr Mona's lectures.",
+          "segs": [
+            [
+              "صَبَاحُ",
+              "morning (of)"
+            ],
+            [
+              "النُّور",
+              "the light"
+            ],
+            [
+              "اِسْمِي",
+              "my name"
+            ],
+            [
+              "دَانْيَال",
+              "Daniel (first name)",
+              "name"
+            ],
+            [
+              "وَأُرِيدُ",
+              "and I want"
+            ],
+            [
+              "أَنْ",
+              "to, that"
+            ],
+            [
+              "أَسْأَلَ",
+              "I ask (after an)"
+            ],
+            [
+              "عَنْ",
+              "about"
+            ],
+            [
+              "مُحَاضَرَاتِ",
+              "lectures (of)"
+            ],
+            [
+              "الدُّكْتُورَة",
+              "Dr, the doctor (a woman)"
+            ],
+            [
+              "مُنَى",
+              "Mona (first name)",
+              "name"
+            ]
+          ]
+        },
+        {
+          "id": "office-phone-l3",
+          "sp": "employee",
+          "ar": "تَفَضَّلْ. هَلْ أَنْتَ طَالِب فِي الْجَامِعَة؟",
+          "en": "Go ahead. Are you a student at the university?",
+          "segs": [
+            [
+              "تَفَضَّلْ",
+              "go ahead, please (to a man)"
+            ],
+            [
+              "هَلْ",
+              "(starts a yes/no question)"
+            ],
+            [
+              "أَنْتَ",
+              "you (to a man)"
+            ],
+            [
+              "طَالِب",
+              "student"
+            ],
+            [
+              "فِي",
+              "at, in"
+            ],
+            [
+              "الْجَامِعَة",
+              "the university"
+            ]
+          ]
+        },
+        {
+          "id": "office-phone-l4",
+          "sp": "daniel",
+          "ar": "لَا، أَنَا طَالِب فِي مَدْرَسَةِ لُغَة. هَلْ يُمْكِنُنِي أَنْ أَحْضُرَ الْمُحَاضَرَات كُلَّ أُسْبُوع؟",
+          "en": "No, I'm a student at a language school. Can I attend the lectures every week?",
+          "segs": [
+            [
+              "لَا",
+              "no"
+            ],
+            [
+              "أَنَا",
+              "I"
+            ],
+            [
+              "طَالِب",
+              "student"
+            ],
+            [
+              "فِي",
+              "at, in"
+            ],
+            [
+              "مَدْرَسَةِ",
+              "school (of)"
+            ],
+            [
+              "لُغَة",
+              "language"
+            ],
+            [
+              "هَلْ",
+              "(starts a yes/no question)"
+            ],
+            [
+              "يُمْكِنُنِي",
+              "it is possible for me, I can"
+            ],
+            [
+              "أَنْ",
+              "to, that"
+            ],
+            [
+              "أَحْضُرَ",
+              "I attend (after an)"
+            ],
+            [
+              "الْمُحَاضَرَات",
+              "the lectures"
+            ],
+            [
+              "كُلَّ",
+              "every"
+            ],
+            [
+              "أُسْبُوع",
+              "week"
+            ]
+          ]
+        },
+        {
+          "id": "office-phone-l5",
+          "sp": "employee",
+          "ar": "نَعَم، يُمْكِنُكَ أَنْ تَحْضُرَ كَضَيْف، لٰكِنْ بِدُونِ امْتِحَان وَبِدُونِ شَهَادَة.",
+          "en": "Yes, you can attend as a guest, but without an exam and without a certificate.",
+          "segs": [
+            [
+              "نَعَم",
+              "yes"
+            ],
+            [
+              "يُمْكِنُكَ",
+              "you can (to a man)"
+            ],
+            [
+              "أَنْ",
+              "to, that"
+            ],
+            [
+              "تَحْضُرَ",
+              "you attend (after an)"
+            ],
+            [
+              "كَضَيْف",
+              "as a guest"
+            ],
+            [
+              "لٰكِنْ",
+              "but"
+            ],
+            [
+              "بِدُونِ",
+              "without"
+            ],
+            [
+              "امْتِحَان",
+              "an exam"
+            ],
+            [
+              "وَبِدُونِ",
+              "and without"
+            ],
+            [
+              "شَهَادَة",
+              "a certificate"
+            ]
+          ]
+        },
+        {
+          "id": "office-phone-l6",
+          "sp": "daniel",
+          "ar": "لَا مُشْكِلَة، أَنَا أُرِيدُ أَنْ أَتَعَلَّمَ فَقَطْ. وَهَلْ أَحْتَاجُ إِلَى إِذْن مِنَ الدُّكْتُورَة؟",
+          "en": "No problem, I just want to learn. And do I need permission from the professor?",
+          "segs": [
+            [
+              "لَا",
+              "no"
+            ],
+            [
+              "مُشْكِلَة",
+              "problem"
+            ],
+            [
+              "أَنَا",
+              "I"
+            ],
+            [
+              "أُرِيدُ",
+              "I want"
+            ],
+            [
+              "أَنْ",
+              "to, that"
+            ],
+            [
+              "أَتَعَلَّمَ",
+              "I learn (after an)"
+            ],
+            [
+              "فَقَطْ",
+              "only, just"
+            ],
+            [
+              "وَهَلْ",
+              "and (starts a yes/no question)"
+            ],
+            [
+              "أَحْتَاجُ",
+              "I need"
+            ],
+            [
+              "إِلَى",
+              "(to, for)"
+            ],
+            [
+              "إِذْن",
+              "permission"
+            ],
+            [
+              "مِنَ",
+              "from"
+            ],
+            [
+              "الدُّكْتُورَة",
+              "Dr, the doctor (a woman)"
+            ]
+          ]
+        },
+        {
+          "id": "office-phone-l7",
+          "sp": "employee",
+          "ar": "نَعَم. الدُّكْتُورَة مُنَى غَائِبَة الْيَوْم، لٰكِنَّهَا عَائِدَة غَدًا. هَلْ تُرِيدُ أَنْ تَتْرُكَ لَهَا رِسَالَة؟",
+          "en": "Yes. Dr Mona is away today, but she's coming back tomorrow. Would you like to leave her a message?",
+          "segs": [
+            [
+              "نَعَم",
+              "yes"
+            ],
+            [
+              "الدُّكْتُورَة",
+              "Dr, the doctor (a woman)"
+            ],
+            [
+              "مُنَى",
+              "Mona (first name)",
+              "name"
+            ],
+            [
+              "غَائِبَة",
+              "absent, away (f)"
+            ],
+            [
+              "الْيَوْم",
+              "today"
+            ],
+            [
+              "لٰكِنَّهَا",
+              "but she"
+            ],
+            [
+              "عَائِدَة",
+              "coming back (f)"
+            ],
+            [
+              "غَدًا",
+              "tomorrow"
+            ],
+            [
+              "هَلْ",
+              "(starts a yes/no question)"
+            ],
+            [
+              "تُرِيدُ",
+              "you want (to a man)"
+            ],
+            [
+              "أَنْ",
+              "to, that"
+            ],
+            [
+              "تَتْرُكَ",
+              "you leave (after an)"
+            ],
+            [
+              "لَهَا",
+              "for her"
+            ],
+            [
+              "رِسَالَة",
+              "a message"
+            ]
+          ]
+        },
+        {
+          "id": "office-phone-l8",
+          "sp": "daniel",
+          "ar": "نَعَم، مِنْ فَضْلِكِ. قُولِي لَهَا إِنَّ دَانْيَال الْأَمْرِيكِيّ يُرِيدُ أَنْ يَحْضُرَ مُحَاضَرَاتِهَا.",
+          "en": "Yes, please. Tell her that Daniel, the American, would like to attend her lectures.",
+          "segs": [
+            [
+              "نَعَم",
+              "yes"
+            ],
+            [
+              "مِنْ",
+              "from"
+            ],
+            [
+              "فَضْلِكِ",
+              "your kindness (to a woman): 'please'"
+            ],
+            [
+              "قُولِي",
+              "say! tell! (to a woman)"
+            ],
+            [
+              "لَهَا",
+              "to her"
+            ],
+            [
+              "إِنَّ",
+              "that (after 'say')"
+            ],
+            [
+              "دَانْيَال",
+              "Daniel (first name)",
+              "name"
+            ],
+            [
+              "الْأَمْرِيكِيّ",
+              "the American (m)"
+            ],
+            [
+              "يُرِيدُ",
+              "he wants"
+            ],
+            [
+              "أَنْ",
+              "to, that"
+            ],
+            [
+              "يَحْضُرَ",
+              "he attends (after an)"
+            ],
+            [
+              "مُحَاضَرَاتِهَا",
+              "her lectures"
+            ]
+          ]
+        },
+        {
+          "id": "office-phone-l9",
+          "sp": "employee",
+          "ar": "حَاضِر. وَمَا رَقْمُ هَاتِفِكَ؟ أَوْ يُمْكِنُكَ أَنْ تُرْسِلَ لَهَا رِسَالَة بِالْبَرِيدِ الْإِلِكْتُرُونِيّ.",
+          "en": "Certainly. And what's your phone number? Or you can send her an email.",
+          "segs": [
+            [
+              "حَاضِر",
+              "certainly! (at your service)"
+            ],
+            [
+              "وَمَا",
+              "and what"
+            ],
+            [
+              "رَقْمُ",
+              "number (of)"
+            ],
+            [
+              "هَاتِفِكَ",
+              "your phone (to a man)"
+            ],
+            [
+              "أَوْ",
+              "or"
+            ],
+            [
+              "يُمْكِنُكَ",
+              "you can (to a man)"
+            ],
+            [
+              "أَنْ",
+              "to, that"
+            ],
+            [
+              "تُرْسِلَ",
+              "you send (after an)"
+            ],
+            [
+              "لَهَا",
+              "to her"
+            ],
+            [
+              "رِسَالَة",
+              "a message"
+            ],
+            [
+              "بِالْبَرِيدِ",
+              "by the post, by the mail"
+            ],
+            [
+              "الْإِلِكْتُرُونِيّ",
+              "the electronic ('by email')"
+            ]
+          ]
+        },
+        {
+          "id": "office-phone-l10",
+          "sp": "daniel",
+          "ar": "سَأَكْتُبُ لَهَا رِسَالَة رَسْمِيَّة الْيَوْم. مَا عُنْوَانُ بَرِيدِهَا الْإِلِكْتُرُونِيّ؟",
+          "en": "I'll write her a formal email today. What is her email address?",
+          "segs": [
+            [
+              "سَأَكْتُبُ",
+              "I will write"
+            ],
+            [
+              "لَهَا",
+              "to her"
+            ],
+            [
+              "رِسَالَة",
+              "a message, a letter"
+            ],
+            [
+              "رَسْمِيَّة",
+              "formal (f)"
+            ],
+            [
+              "الْيَوْم",
+              "today"
+            ],
+            [
+              "مَا",
+              "what"
+            ],
+            [
+              "عُنْوَانُ",
+              "address (of)"
+            ],
+            [
+              "بَرِيدِهَا",
+              "her post, her mail"
+            ],
+            [
+              "الْإِلِكْتُرُونِيّ",
+              "the electronic ('email')"
+            ]
+          ]
+        },
+        {
+          "id": "office-phone-l11",
+          "sp": "employee",
+          "ar": "الْعُنْوَان عَلَى صَفْحَةِ الْكُلِّيَّة. وَلَا تَنْسَ: اُكْتُبْ حَضْرَةَ الدُّكْتُورَة مُنَى الْمُحْتَرَمَة.",
+          "en": "The address is on the faculty's web page. And don't forget: write 'Dear Dr Mona', with al-muḥtarama.",
+          "segs": [
+            [
+              "الْعُنْوَان",
+              "the address"
+            ],
+            [
+              "عَلَى",
+              "on"
+            ],
+            [
+              "صَفْحَةِ",
+              "page (of)"
+            ],
+            [
+              "الْكُلِّيَّة",
+              "the faculty"
+            ],
+            [
+              "وَلَا",
+              "and don't"
+            ],
+            [
+              "تَنْسَ",
+              "forget (to a man)"
+            ],
+            [
+              "اُكْتُبْ",
+              "write! (to a man)"
+            ],
+            [
+              "حَضْرَةَ",
+              "(title of respect, lit. the presence of)"
+            ],
+            [
+              "الدُّكْتُورَة",
+              "Dr, the doctor (a woman)"
+            ],
+            [
+              "مُنَى",
+              "Mona (first name)",
+              "name"
+            ],
+            [
+              "الْمُحْتَرَمَة",
+              "the respected (f)"
+            ]
+          ]
+        },
+        {
+          "id": "office-phone-l12",
+          "sp": "daniel",
+          "ar": "طَبْعًا! تَعَلَّمْتُ ذٰلِكَ فِي الْعَمَل. شُكْرًا جَزِيلًا، مَعَ السَّلَامَة.",
+          "en": "Of course! I learnt that at work. Thank you very much, goodbye.",
+          "segs": [
+            [
+              "طَبْعًا",
+              "of course"
+            ],
+            [
+              "تَعَلَّمْتُ",
+              "I learnt"
+            ],
+            [
+              "ذٰلِكَ",
+              "that"
+            ],
+            [
+              "فِي",
+              "at, in"
+            ],
+            [
+              "الْعَمَل",
+              "work"
+            ],
+            [
+              "شُكْرًا",
+              "thank you"
+            ],
+            [
+              "جَزِيلًا",
+              "very much (lit. abundantly)"
+            ],
+            [
+              "مَعَ",
+              "with"
+            ],
+            [
+              "السَّلَامَة",
+              "the safety ('goodbye')"
+            ]
+          ]
+        }
+      ]
+    },
+    "mistakes": [
+      {
+        "wrong": "أُرِيدُ أَسْأَلُ عَنِ الْمُحَاضَرَات.",
+        "right": "أُرِيدُ أَنْ أَسْأَلَ عَنِ الْمُحَاضَرَات.",
+        "why": "Join the two verbs with an; the second one ends in -a."
+      },
+      {
+        "wrong": "حَضْرَةَ الدُّكْتُورَة مُنَى الْمُحْتَرَم",
+        "right": "حَضْرَةَ الدُّكْتُورَة مُنَى الْمُحْتَرَمَة",
+        "why": "For a woman, al-muḥtaram takes ة: al-muḥtarama."
+      }
+    ],
+    "quiz": [
+      {
+        "id": "office-phone-q1",
+        "prompt": "Why does Daniel phone the faculty?",
+        "options": [
+          "to ask about an exam",
+          "to ask about Dr Mona's lectures",
+          "to find a job",
+          "to speak to Layla"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "office-phone-q2",
+        "prompt": "Can Daniel get a certificate?",
+        "options": [
+          "Yes, after the exam",
+          "Yes, at the end of the year",
+          "No, he attends as a guest",
+          "Only if he pays"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "office-phone-q3",
+        "prompt": "What does this mean?",
+        "ar": "هِيَ عَائِدَة غَدًا.",
+        "options": [
+          "She is away tomorrow.",
+          "She is coming back tomorrow.",
+          "She went yesterday.",
+          "She is travelling today."
+        ],
+        "answer": 1
+      },
+      {
+        "id": "office-phone-q4",
+        "prompt": "How should Daniel begin his email to Dr Mona?",
+        "options": [
+          "حَضْرَةَ الدُّكْتُورَة مُنَى الْمُحْتَرَمَة",
+          "مَرْحَبًا يَا مُنَى",
+          "مَعَ أَطْيَبِ التَّحِيَّات",
+          "آلُو"
+        ],
+        "answer": 0
+      }
+    ]
   }
 ]

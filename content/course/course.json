@@ -1612,7 +1612,120 @@
      "title": "A job interview"
     }
    ],
-   "test": []
+   "test": [
+    {
+     "id": "w10t1",
+     "prompt": "What does this mean?",
+     "ar": "زَمِيلِي يُسَاعِدُنِي فِي الْعَمَل.",
+     "options": [
+      "My manager helps me at work.",
+      "My colleague helps me with the work.",
+      "My colleague works with me.",
+      "I help my colleague at work."
+     ],
+     "answer": 1
+    },
+    {
+     "id": "w10t2",
+     "prompt": "Choose the correct sentence: 'Can I use the computer?'",
+     "options": [
+      "هَلْ يُمْكِنُنِي أَسْتَعْمِلُ الْحَاسُوب؟",
+      "هَلْ أُمْكِنُ أَنْ أَسْتَعْمِلَ الْحَاسُوب؟",
+      "هَلْ يُمْكِنُنِي أَنْ أَسْتَعْمِلَ الْحَاسُوب؟",
+      "هَلْ يُمْكِنُنِي أَنْ أَسْتَعْمِلُ الْحَاسُوب؟"
+     ],
+     "answer": 2
+    },
+    {
+     "id": "w10t3",
+     "prompt": "Which verbal noun means 'reading'?",
+     "options": [
+      "قِرَاءَة",
+      "كِتَابَة",
+      "دِرَاسَة",
+      "تَعْلِيم"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "w10t4",
+     "prompt": "How does a woman say 'I'm going to the office'?",
+     "options": [
+      "أَنَا ذَاهِب إِلَى الْمَكْتَب.",
+      "أَنَا ذَاهِبَة إِلَى الْمَكْتَب.",
+      "أَنَا ذَاهِبَة الْمَكْتَب.",
+      "هِيَ ذَاهِبَة إِلَى الْمَكْتَب."
+     ],
+     "answer": 1
+    },
+    {
+     "id": "w10t5",
+     "prompt": "What does this mean?",
+     "ar": "الْمُدِيرَة مُسَافِرَة، وَهِيَ عَائِدَة غَدًا.",
+     "options": [
+      "The manager is busy, and she's travelling tomorrow.",
+      "The manager is away, and she called yesterday.",
+      "The manager is here, and she's leaving tomorrow.",
+      "The manager is travelling, and she's coming back tomorrow."
+     ],
+     "answer": 3
+    },
+    {
+     "id": "w10t6",
+     "prompt": "Which phrase opens a formal email?",
+     "options": [
+      "مَعَ أَطْيَبِ التَّحِيَّات",
+      "مُرْفَق مَعَ هٰذِهِ الرِّسَالَة",
+      "حَضْرَةَ الْأُسْتَاذ عَادِل الْمُحْتَرَم",
+      "فِي انْتِظَارِ رَدِّكُمْ"
+     ],
+     "answer": 2
+    },
+    {
+     "id": "w10t7",
+     "prompt": "Which verb means 'taught'?",
+     "options": [
+      "دَرَسَ",
+      "دَرَّسَ",
+      "يَدْرُسُ",
+      "دِرَاسَة"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "w10t8",
+     "prompt": "What is the root of مَكْتَبَة (library)?",
+     "options": [
+      "م ك ت",
+      "ت ب م",
+      "م ك ب",
+      "ك ت ب"
+     ],
+     "answer": 3
+    },
+    {
+     "id": "w10t9",
+     "prompt": "Complete 'I'll call you tomorrow': أَتَّصِلُ ___ غَدًا.",
+     "options": [
+      "لَكَ",
+      "بِكَ",
+      "إِلَيْكَ",
+      "عَلَيْكَ"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "w10t10",
+     "prompt": "Which sentence means 'I accepted the job'?",
+     "options": [
+      "قَبْلَ الْوَظِيفَة.",
+      "قَرَأْتُ السِّيرَة الذَّاتِيَّة.",
+      "قَبِلْتُ الْوَظِيفَة.",
+      "أَقْبَلُ الرَّاتِب."
+     ],
+     "answer": 2
+    }
+   ]
   },
   {
    "week": 11,

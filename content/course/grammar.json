@@ -3088,5 +3088,330 @@
         "en": "Petra is the most famous place in Jordan."
       }
     ]
+  },
+  {
+    "id": "yumkin-an",
+    "title": "Can: يُمْكِنُ + a person ending + أَنْ",
+    "titleAr": "يُمْكِنُنِي أَنْ…",
+    "firstDay": 64,
+    "summary": "To say 'can', use يُمْكِنُ (it is possible) with a person ending, then أَنْ and a present verb ending in -a: يُمْكِنُنِي أَنْ أَكْتُبَ (I can write).",
+    "formula": "يُمْكِنُنِي / يُمْكِنُكَ / يُمْكِنُكِ / يُمْكِنُهُ / يُمْكِنُنَا + أَنْ + present (ending -a)",
+    "explanation": "يُمْكِنُ never changes. The person who can is an ending on it, as on a noun: يُمْكِنُنِي (I can, literally 'it is possible for me'), يُمْكِنُكَ (you can, to a man), يُمْكِنُهُ (he can). The second verb follows أَنْ and has its own person: يُمْكِنُكَ أَنْ تَسْأَلَنِي (you can ask me). To ask politely, put هَلْ in front: هَلْ يُمْكِنُنِي أَنْ أَسْتَعْمِلَ الْحَاسُوب؟ (Can I use the computer?). Without an ending it means 'it is possible' or 'could': هَلْ يُمْكِنُ أَنْ تَتَّصِلَ بِي؟ (Could you call me?). For 'cannot' put لَا in front: لَا يُمْكِنُنِي.",
+    "table": {
+      "head": [
+        "Arabic",
+        "English"
+      ],
+      "rows": [
+        [
+          "يُمْكِنُنِي أَنْ أَكْتُبَ",
+          "I can write"
+        ],
+        [
+          "يُمْكِنُكَ أَنْ تَكْتُبَ",
+          "you can write (to a man)"
+        ],
+        [
+          "يُمْكِنُكِ أَنْ تَقْرَئِيهَا",
+          "you can read it (to a woman)"
+        ],
+        [
+          "يُمْكِنُهُ أَنْ يَكْتُبَ",
+          "he can write"
+        ],
+        [
+          "يُمْكِنُنَا أَنْ نَجْتَمِعَ",
+          "we can meet"
+        ],
+        [
+          "لَا يُمْكِنُنِي",
+          "I can't"
+        ],
+        [
+          "هَلْ يُمْكِنُ أَنْ…؟",
+          "could…? is it possible to…?"
+        ]
+      ]
+    },
+    "examples": [
+      {
+        "ar": "هَلْ يُمْكِنُنِي أَنْ أَسْتَعْمِلَ هٰذَا الْحَاسُوب؟",
+        "en": "Can I use this computer?"
+      },
+      {
+        "ar": "يُمْكِنُكَ أَنْ تَكْتُبَ التَّقْرِير غَدًا.",
+        "en": "You can write the report tomorrow. (to a man)"
+      }
+    ]
+  },
+  {
+    "id": "masdar",
+    "title": "The verbal noun (maṣdar): reading, writing, studying",
+    "titleAr": "الْمَصْدَر",
+    "firstDay": 65,
+    "summary": "Every verb has a noun that names the action: قَرَأَ (read) → قِرَاءَة (reading). Use it like any noun: أُحِبُّ الْقِرَاءَة (I love reading).",
+    "formula": "verb → verbal noun · أُحِبُّ + الْمَصْدَر = أُحِبُّ أَنْ + verb",
+    "explanation": "The maṣdar is the '-ing' word of English: الْقِرَاءَة (reading), الْكِتَابَة (writing), الدِّرَاسَة (studying). For simple (Form I) verbs the shape has to be learnt with each verb: قَرَأَ → قِرَاءَة, كَتَبَ → كِتَابَة, دَرَسَ → دِرَاسَة, عَمِلَ → عَمَل. For the longer verb patterns it is regular: عَلَّمَ → تَعْلِيم, تَعَلَّمَ → تَعَلُّم, اِجْتَمَعَ → اِجْتِمَاع. A maṣdar can be the subject (الْقِرَاءَة مُهِمَّة, reading is important), the object (أُحِبُّ الْقِرَاءَة) or the first word of an iḍāfa: دِرَاسَةُ الْعَرَبِيَّة (the study of Arabic, studying Arabic). أُحِبُّ الْقِرَاءَة and أُحِبُّ أَنْ أَقْرَأَ mean the same.",
+    "table": {
+      "head": [
+        "Verb",
+        "Verbal noun",
+        "English"
+      ],
+      "rows": [
+        [
+          "قَرَأَ",
+          "قِرَاءَة",
+          "reading"
+        ],
+        [
+          "كَتَبَ",
+          "كِتَابَة",
+          "writing"
+        ],
+        [
+          "دَرَسَ",
+          "دِرَاسَة",
+          "studying"
+        ],
+        [
+          "عَمِلَ",
+          "عَمَل",
+          "work"
+        ],
+        [
+          "عَلَّمَ",
+          "تَعْلِيم",
+          "teaching"
+        ],
+        [
+          "تَعَلَّمَ",
+          "تَعَلُّم",
+          "learning"
+        ],
+        [
+          "اِجْتَمَعَ",
+          "اِجْتِمَاع",
+          "meeting"
+        ]
+      ]
+    },
+    "examples": [
+      {
+        "ar": "أُحِبُّ الْقِرَاءَة وَالْكِتَابَة.",
+        "en": "I love reading and writing."
+      },
+      {
+        "ar": "دِرَاسَةُ الْعَرَبِيَّة مُمْتِعَة.",
+        "en": "Studying Arabic is fun."
+      }
+    ]
+  },
+  {
+    "id": "active-participle",
+    "title": "The active participle: going, travelling, sure",
+    "titleAr": "اِسْمُ الْفَاعِل",
+    "firstDay": 66,
+    "summary": "The active participle describes what someone is doing now or is about to do: أَنَا ذَاهِب إِلَى الْمَكْتَب (I'm going to the office). It agrees like an adjective.",
+    "formula": "Form I: فَاعِل (ذَاهِب) · other forms: مُـ + present stem with -i- (مُسَافِر)",
+    "explanation": "For simple verbs the pattern is fāʿil: ذَهَبَ → ذَاهِب (going), حَضَرَ → حَاضِر (present). When the middle root letter is weak, a hamza takes its place: عَادَ → عَائِد (coming back), غَابَ → غَائِب (away). For the other verb patterns take the present, swap the first syllable for مُـ and make the last vowel i: يُسَافِرُ → مُسَافِر (travelling), يَتَأَكَّدُ → مُتَأَكِّد (sure), يَسْتَعِدُّ → مُسْتَعِدّ (ready). It needs no verb 'to be' and agrees with the person: هُوَ مُسَافِر, هِيَ مُسَافِرَة. Many participles are also words for people: مُدَرِّس (teacher, 'one who teaches'), مُتَرْجِم (translator).",
+    "table": {
+      "head": [
+        "Verb",
+        "Participle (m)",
+        "Participle (f)",
+        "English"
+      ],
+      "rows": [
+        [
+          "ذَهَبَ",
+          "ذَاهِب",
+          "ذَاهِبَة",
+          "going"
+        ],
+        [
+          "حَضَرَ",
+          "حَاضِر",
+          "حَاضِرَة",
+          "present"
+        ],
+        [
+          "عَادَ",
+          "عَائِد",
+          "عَائِدَة",
+          "coming back"
+        ],
+        [
+          "غَابَ",
+          "غَائِب",
+          "غَائِبَة",
+          "absent, away"
+        ],
+        [
+          "سَافَرَ",
+          "مُسَافِر",
+          "مُسَافِرَة",
+          "travelling"
+        ],
+        [
+          "تَأَكَّدَ",
+          "مُتَأَكِّد",
+          "مُتَأَكِّدَة",
+          "sure"
+        ]
+      ]
+    },
+    "examples": [
+      {
+        "ar": "أَنَا ذَاهِب إِلَى الْمَكْتَب.",
+        "en": "I'm going to the office."
+      },
+      {
+        "ar": "الْمُدِيرَة مُسَافِرَة الْيَوْم.",
+        "en": "The manager is travelling today."
+      }
+    ]
+  },
+  {
+    "id": "email-formulas",
+    "title": "Writing an email: the fixed phrases",
+    "titleAr": "رِسَالَة رَسْمِيَّة",
+    "firstDay": 67,
+    "summary": "Formal Arabic emails and letters follow a fixed order: a title for the person, a greeting, the subject, then a closing phrase.",
+    "formula": "حَضْرَةَ … الْمُحْتَرَم، → تَحِيَّة طَيِّبَة وَبَعْدُ، → the subject → مَعَ أَطْيَبِ التَّحِيَّات، + name",
+    "explanation": "To someone you don't know well, start with حَضْرَةَ (a title of respect) + the person + الْمُحْتَرَم (the respected), or الْمُحْتَرَمَة for a woman. To a friend or a close colleague write عَزِيزِي (dear, to a man) or عَزِيزَتِي (to a woman). Then comes the greeting تَحِيَّة طَيِّبَة وَبَعْدُ, literally 'a good greeting, and after that', which tells the reader that the subject follows. Useful sentences: أَرْجُو أَنْ تَكُونَ بِخَيْر (I hope you are well), مُرْفَق مَعَ هٰذِهِ الرِّسَالَة… (attached to this message is…), فِي انْتِظَارِ رَدِّكُمْ (I look forward to your reply). End with مَعَ أَطْيَبِ التَّحِيَّات (with best regards) or مَعَ الشُّكْر (with thanks), and your name.",
+    "table": {
+      "head": [
+        "Part",
+        "Arabic",
+        "English"
+      ],
+      "rows": [
+        [
+          "formal opening",
+          "حَضْرَةَ الْأُسْتَاذ عَادِل الْمُحْتَرَم",
+          "Dear Mr Adel (the respected)"
+        ],
+        [
+          "friendly opening",
+          "عَزِيزِي طَارِق",
+          "Dear Tariq"
+        ],
+        [
+          "greeting",
+          "تَحِيَّة طَيِّبَة وَبَعْدُ",
+          "greetings (and now to the subject)"
+        ],
+        [
+          "good wishes",
+          "أَرْجُو أَنْ تَكُونَ بِخَيْر",
+          "I hope you are well"
+        ],
+        [
+          "attachment",
+          "مُرْفَق مَعَ هٰذِهِ الرِّسَالَة…",
+          "attached to this message is…"
+        ],
+        [
+          "asking for a reply",
+          "فِي انْتِظَارِ رَدِّكُمْ",
+          "I look forward to your reply"
+        ],
+        [
+          "closing",
+          "مَعَ أَطْيَبِ التَّحِيَّات",
+          "with best regards"
+        ]
+      ]
+    },
+    "examples": [
+      {
+        "ar": "حَضْرَةَ الْأُسْتَاذ عَادِل الْمُحْتَرَم، تَحِيَّة طَيِّبَة وَبَعْدُ.",
+        "en": "Dear Mr Adel, greetings."
+      },
+      {
+        "ar": "مَعَ أَطْيَبِ التَّحِيَّات، دَانْيَال.",
+        "en": "With best regards, Daniel."
+      }
+    ]
+  },
+  {
+    "id": "verb-forms",
+    "title": "Verb patterns: one root, many verbs",
+    "titleAr": "أَوْزَانُ الْفِعْل",
+    "firstDay": 68,
+    "summary": "Arabic builds verbs from a root of three letters and a pattern. The root gives the idea (d-r-s: study); the pattern adds a meaning: دَرَسَ (studied), دَرَّسَ (taught).",
+    "formula": "root (ف ع ل) + pattern: فَعَلَ · فَعَّلَ · فَاعَلَ · أَفْعَلَ · تَفَعَّلَ · اِفْتَعَلَ · اِسْتَفْعَلَ",
+    "explanation": "Grammar books show the patterns with the model root ف ع ل (do). The simple verb is Form I, فَعَلَ: دَرَسَ, كَتَبَ. Form II, فَعَّلَ, doubles the middle letter and often means 'make someone do it': دَرَّسَ (taught), عَلَّمَ (taught). Form III, فَاعَلَ, adds ā and often means doing something with or to someone: سَاعَدَ (helped), سَافَرَ (travelled). Form IV, أَفْعَلَ: أَرْسَلَ (sent). Form V, تَفَعَّلَ, is ta- + Form II, often 'do it to yourself': تَعَلَّمَ (learnt), تَكَلَّمَ (spoke). Form VIII, اِفْتَعَلَ, puts t after the first letter: اِجْتَمَعَ (met), اِنْتَظَرَ (waited). Form X, اِسْتَفْعَلَ: اِسْتَعْمَلَ (used). Each pattern also has a fixed present: يُدَرِّسُ, يُسَاعِدُ, يُرْسِلُ, يَتَعَلَّمُ, يَجْتَمِعُ, يَسْتَعْمِلُ. Learn to hear the pattern, and you can guess new words.",
+    "table": {
+      "head": [
+        "Form",
+        "Pattern",
+        "Past",
+        "Present",
+        "English"
+      ],
+      "rows": [
+        [
+          "I",
+          "فَعَلَ",
+          "دَرَسَ",
+          "يَدْرُسُ",
+          "study"
+        ],
+        [
+          "II",
+          "فَعَّلَ",
+          "دَرَّسَ",
+          "يُدَرِّسُ",
+          "teach"
+        ],
+        [
+          "III",
+          "فَاعَلَ",
+          "سَاعَدَ",
+          "يُسَاعِدُ",
+          "help"
+        ],
+        [
+          "IV",
+          "أَفْعَلَ",
+          "أَرْسَلَ",
+          "يُرْسِلُ",
+          "send"
+        ],
+        [
+          "V",
+          "تَفَعَّلَ",
+          "تَعَلَّمَ",
+          "يَتَعَلَّمُ",
+          "learn"
+        ],
+        [
+          "VIII",
+          "اِفْتَعَلَ",
+          "اِجْتَمَعَ",
+          "يَجْتَمِعُ",
+          "meet"
+        ],
+        [
+          "X",
+          "اِسْتَفْعَلَ",
+          "اِسْتَعْمَلَ",
+          "يَسْتَعْمِلُ",
+          "use"
+        ]
+      ]
+    },
+    "examples": [
+      {
+        "ar": "الْأُسْتَاذ كَرِيم يُدَرِّسُ الْعَرَبِيَّة.",
+        "en": "Mr Karim teaches Arabic."
+      },
+      {
+        "ar": "نَجْتَمِعُ فِي الْمَكْتَب كُلَّ صَبَاح.",
+        "en": "We meet at the office every morning."
+      }
+    ]
   }
 ]

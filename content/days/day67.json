@@ -1,0 +1,1420 @@
+{
+  "day": 67,
+  "week": 10,
+  "phase": 5,
+  "level": 7,
+  "title": "Writing an email",
+  "titleAr": "الْبَرِيدُ الْإِلِكْتُرُونِيّ",
+  "titleSegs": [
+    [
+      "الْبَرِيدُ",
+      "the post, the mail"
+    ],
+    [
+      "الْإِلِكْتُرُونِيّ",
+      "the electronic ('email')"
+    ]
+  ],
+  "emoji": "📧",
+  "summary": "Write a polite Arabic email: the formal opening, the greeting تَحِيَّة طَيِّبَة وَبَعْدُ, an attachment, and a closing phrase.",
+  "intro": "Mr Adel needs the translation, and Daniel must send it by email. Arabic emails use fixed phrases. To someone you don't know well, start with حَضْرَةَ + the name + الْمُحْتَرَم (the respected), then the greeting تَحِيَّة طَيِّبَة وَبَعْدُ. Say what comes with the email with مُرْفَق (attached), and end with مَعَ أَطْيَبِ التَّحِيَّات (with best regards).",
+  "objectives": [
+    "Open a formal email with حَضْرَةَ … الْمُحْتَرَم and a greeting",
+    "Say that a file is attached with مُرْفَق",
+    "Close an email politely and ask for a reply",
+    "Talk about an email's subject, address and attachment"
+  ],
+  "realLife": {
+    "emoji": "💻",
+    "title": "The forgotten attachment",
+    "story": "Everyone in an office has done it once: written 'attached' and forgotten the attachment. Daniel's email to the client is polite and clear, Tariq checks the address, and the manager notices just in time that there is no file. Two minutes after he sends it, a friendly reply arrives."
+  },
+  "letters": [],
+  "newWords": [
+    "barid-iliktruni",
+    "mawdu",
+    "murfaq",
+    "tahiyya",
+    "aziz",
+    "yursilu",
+    "yaruddu",
+    "milaff",
+    "rasmi"
+  ],
+  "grammar": [
+    "email-formulas"
+  ],
+  "pronunciation": [
+    "ta-marbuta"
+  ],
+  "sentences": [
+    {
+      "id": "d67s1",
+      "ar": "حَضْرَةَ الْأُسْتَاذ عَادِل الْمُحْتَرَم، تَحِيَّة طَيِّبَة وَبَعْدُ.",
+      "en": "Dear Mr Adel, greetings.",
+      "literal": "(the) presence (of) Mr Adel the respected, a good greeting, and after (that)",
+      "segs": [
+        [
+          "حَضْرَةَ",
+          "(title of respect, lit. the presence of)",
+          "noun"
+        ],
+        [
+          "الْأُسْتَاذ",
+          "Mr (title)",
+          "noun"
+        ],
+        [
+          "عَادِل",
+          "Adel (first name)",
+          "name"
+        ],
+        [
+          "الْمُحْتَرَم",
+          "the respected (m)",
+          "adj"
+        ],
+        [
+          "تَحِيَّة",
+          "a greeting",
+          "noun"
+        ],
+        [
+          "طَيِّبَة",
+          "good, kind (f)",
+          "adj"
+        ],
+        [
+          "وَبَعْدُ",
+          "and after (that)",
+          "adverb"
+        ]
+      ],
+      "grammar": [
+        "email-formulas"
+      ],
+      "mistakes": [
+        {
+          "wrong": "مَرْحَبًا يَا عَادِل، كَيْفَ حَالُكَ؟",
+          "right": "حَضْرَةَ الْأُسْتَاذ عَادِل الْمُحْتَرَم، تَحِيَّة طَيِّبَة وَبَعْدُ.",
+          "why": "Fine for a friend, but too casual for a client: a formal email starts with a title, the name and al-muḥtaram."
+        }
+      ]
+    },
+    {
+      "id": "d67s2",
+      "ar": "مُرْفَق مَعَ هٰذِهِ الرِّسَالَة مِلَفُّ التَّرْجَمَة.",
+      "en": "Attached to this message is the translation file.",
+      "literal": "attached with this message (is the) file (of) the translation",
+      "segs": [
+        [
+          "مُرْفَق",
+          "attached",
+          "adj"
+        ],
+        [
+          "مَعَ",
+          "with",
+          "prep"
+        ],
+        [
+          "هٰذِهِ",
+          "this (f)",
+          "demonstrative"
+        ],
+        [
+          "الرِّسَالَة",
+          "the message, the email",
+          "noun"
+        ],
+        [
+          "مِلَفُّ",
+          "file (of)",
+          "noun"
+        ],
+        [
+          "التَّرْجَمَة",
+          "the translation",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "email-formulas",
+        "idafa"
+      ]
+    },
+    {
+      "id": "d67s3",
+      "ar": "أَرْسَلْتُ الرِّسَالَة إِلَى الْمُدِيرَة.",
+      "en": "I sent the message to the manager.",
+      "literal": "I sent the message to the manager (f)",
+      "segs": [
+        [
+          "أَرْسَلْتُ",
+          "I sent",
+          "verb"
+        ],
+        [
+          "الرِّسَالَة",
+          "the message, the email",
+          "noun"
+        ],
+        [
+          "إِلَى",
+          "to",
+          "prep"
+        ],
+        [
+          "الْمُدِيرَة",
+          "the manager (a woman)",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "past-tense"
+      ]
+    },
+    {
+      "id": "d67s4",
+      "ar": "أَرْجُو أَنْ تَرُدَّ عَلَيَّ قَرِيبًا.",
+      "en": "I hope you will reply to me soon. (to a man)",
+      "literal": "I hope that you reply on me soon",
+      "segs": [
+        [
+          "أَرْجُو",
+          "I hope; please (formal)",
+          "verb"
+        ],
+        [
+          "أَنْ",
+          "to, that",
+          "particle"
+        ],
+        [
+          "تَرُدَّ",
+          "you reply (after an)",
+          "verb"
+        ],
+        [
+          "عَلَيَّ",
+          "to me (lit. on me)",
+          "prep"
+        ],
+        [
+          "قَرِيبًا",
+          "soon",
+          "adverb"
+        ]
+      ],
+      "grammar": [
+        "email-formulas",
+        "an-subjunctive"
+      ],
+      "mistakes": [
+        {
+          "wrong": "أَرْجُو أَنْ تَرُدُّ عَلَيَّ قَرِيبًا.",
+          "right": "أَرْجُو أَنْ تَرُدَّ عَلَيَّ قَرِيبًا.",
+          "why": "After an the verb ends in -a: an tarudda."
+        }
+      ]
+    },
+    {
+      "id": "d67s5",
+      "ar": "مَعَ أَطْيَبِ التَّحِيَّات، دَانْيَال.",
+      "en": "With best regards, Daniel.",
+      "literal": "with (the) best (of) the greetings, Daniel",
+      "segs": [
+        [
+          "مَعَ",
+          "with",
+          "prep"
+        ],
+        [
+          "أَطْيَبِ",
+          "the best (of)",
+          "adj"
+        ],
+        [
+          "التَّحِيَّات",
+          "the greetings",
+          "noun"
+        ],
+        [
+          "دَانْيَال",
+          "Daniel (first name)",
+          "name"
+        ]
+      ],
+      "grammar": [
+        "email-formulas",
+        "idafa"
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Daniel's first email",
+    "speakers": [
+      {
+        "key": "tariq",
+        "name": "Tariq",
+        "nameAr": "طَارِق"
+      },
+      {
+        "key": "daniel",
+        "name": "Daniel",
+        "nameAr": "دَانْيَال"
+      },
+      {
+        "key": "huda",
+        "name": "Mrs Huda",
+        "nameAr": "السَّيِّدَة هُدَى"
+      }
+    ],
+    "culture": "Arabic letters and emails keep a polite, fixed shape, even between colleagues. حَضْرَةَ is a respectful title used in writing and in polite speech, and الْمُحْتَرَم (the respected) follows the name. Between friends, عَزِيزِي or عَزِيزَتِي (my dear) is warm and normal.",
+    "lines": [
+      {
+        "id": "d67l1",
+        "sp": "tariq",
+        "ar": "صَبَاحُ الْخَيْر يَا دَانْيَال. السَّيِّدَة هُدَى تُرِيدُ أَنْ تُرْسِلَ التَّرْجَمَة إِلَى الْأُسْتَاذ عَادِل الْيَوْم. هَلْ يُمْكِنُكَ أَنْ تَكْتُبَ الرِّسَالَة؟",
+        "en": "Good morning, Daniel. Mrs Huda wants to send the translation to Mr Adel today. Can you write the email?",
+        "segs": [
+          [
+            "صَبَاحُ",
+            "morning (of)"
+          ],
+          [
+            "الْخَيْر",
+            "the goodness"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "دَانْيَال",
+            "Daniel (first name)",
+            "name"
+          ],
+          [
+            "السَّيِّدَة",
+            "Mrs, the lady"
+          ],
+          [
+            "هُدَى",
+            "Huda (first name)",
+            "name"
+          ],
+          [
+            "تُرِيدُ",
+            "she wants"
+          ],
+          [
+            "أَنْ",
+            "to, that"
+          ],
+          [
+            "تُرْسِلَ",
+            "she sends (after an)"
+          ],
+          [
+            "التَّرْجَمَة",
+            "the translation"
+          ],
+          [
+            "إِلَى",
+            "to"
+          ],
+          [
+            "الْأُسْتَاذ",
+            "the teacher; Mr (title)"
+          ],
+          [
+            "عَادِل",
+            "Adel (first name)",
+            "name"
+          ],
+          [
+            "الْيَوْم",
+            "today"
+          ],
+          [
+            "هَلْ",
+            "(starts a yes/no question)"
+          ],
+          [
+            "يُمْكِنُكَ",
+            "you can (to a man)"
+          ],
+          [
+            "أَنْ",
+            "to, that"
+          ],
+          [
+            "تَكْتُبَ",
+            "you write (after an)"
+          ],
+          [
+            "الرِّسَالَة",
+            "the message, the email"
+          ]
+        ]
+      },
+      {
+        "id": "d67l2",
+        "sp": "daniel",
+        "ar": "طَبْعًا، لٰكِنِّي لَا أَعْرِفُ كَيْفَ أَبْدَأُ رِسَالَة رَسْمِيَّة بِالْعَرَبِيَّة. هَلْ أَكْتُبُ: مَرْحَبًا يَا عَادِل؟",
+        "en": "Of course, but I don't know how to begin a formal message in Arabic. Do I write 'Hi, Adel'?",
+        "segs": [
+          [
+            "طَبْعًا",
+            "of course"
+          ],
+          [
+            "لٰكِنِّي",
+            "but I"
+          ],
+          [
+            "لَا",
+            "not"
+          ],
+          [
+            "أَعْرِفُ",
+            "I know"
+          ],
+          [
+            "كَيْفَ",
+            "how"
+          ],
+          [
+            "أَبْدَأُ",
+            "I begin, I start"
+          ],
+          [
+            "رِسَالَة",
+            "a message, a letter"
+          ],
+          [
+            "رَسْمِيَّة",
+            "formal (f)"
+          ],
+          [
+            "بِالْعَرَبِيَّة",
+            "in Arabic"
+          ],
+          [
+            "هَلْ",
+            "(starts a yes/no question)"
+          ],
+          [
+            "أَكْتُبُ",
+            "I write"
+          ],
+          [
+            "مَرْحَبًا",
+            "hello, hi"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "عَادِل",
+            "Adel (first name)",
+            "name"
+          ]
+        ]
+      },
+      {
+        "id": "d67l3",
+        "sp": "tariq",
+        "ar": "لَا، هٰذَا لِلْأَصْدِقَاء فَقَطْ. فِي رِسَالَة رَسْمِيَّة نَكْتُبُ: حَضْرَةَ الْأُسْتَاذ عَادِل الْمُحْتَرَم.",
+        "en": "No, that's only for friends. In a formal message we write 'Dear Mr Adel', literally 'the respected Mr Adel'.",
+        "segs": [
+          [
+            "لَا",
+            "no"
+          ],
+          [
+            "هٰذَا",
+            "this, that (m)"
+          ],
+          [
+            "لِلْأَصْدِقَاء",
+            "for friends"
+          ],
+          [
+            "فَقَطْ",
+            "only, just"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "رِسَالَة",
+            "a message, a letter"
+          ],
+          [
+            "رَسْمِيَّة",
+            "formal (f)"
+          ],
+          [
+            "نَكْتُبُ",
+            "we write"
+          ],
+          [
+            "حَضْرَةَ",
+            "(title of respect, lit. the presence of)"
+          ],
+          [
+            "الْأُسْتَاذ",
+            "Mr (title)"
+          ],
+          [
+            "عَادِل",
+            "Adel (first name)",
+            "name"
+          ],
+          [
+            "الْمُحْتَرَم",
+            "the respected (m)"
+          ]
+        ]
+      },
+      {
+        "id": "d67l4",
+        "sp": "daniel",
+        "ar": "وَبَعْدَ ذٰلِكَ؟ أَتَذَكَّرُ أَنَّ الْعَرَب يَكْتُبُونَ تَحِيَّة قَبْلَ الْمَوْضُوع، صَحِيح؟",
+        "en": "And after that? I remember that Arabs write a greeting before the subject, don't they?",
+        "segs": [
+          [
+            "وَبَعْدَ",
+            "and after"
+          ],
+          [
+            "ذٰلِكَ",
+            "that"
+          ],
+          [
+            "أَتَذَكَّرُ",
+            "I remember"
+          ],
+          [
+            "أَنَّ",
+            "that"
+          ],
+          [
+            "الْعَرَب",
+            "the Arabs"
+          ],
+          [
+            "يَكْتُبُونَ",
+            "they write"
+          ],
+          [
+            "تَحِيَّة",
+            "a greeting"
+          ],
+          [
+            "قَبْلَ",
+            "before"
+          ],
+          [
+            "الْمَوْضُوع",
+            "the subject, the topic"
+          ],
+          [
+            "صَحِيح",
+            "right, correct"
+          ]
+        ]
+      },
+      {
+        "id": "d67l5",
+        "sp": "tariq",
+        "ar": "صَحِيح. نَكْتُبُ: تَحِيَّة طَيِّبَة وَبَعْدُ، ثُمَّ الْمَوْضُوع. وَفِي آخِرِ الرِّسَالَة: مَعَ أَطْيَبِ التَّحِيَّات.",
+        "en": "Right. We write 'Greetings, and now to the point', then the subject. And at the end of the message: 'With best regards'.",
+        "segs": [
+          [
+            "صَحِيح",
+            "right, correct"
+          ],
+          [
+            "نَكْتُبُ",
+            "we write"
+          ],
+          [
+            "تَحِيَّة",
+            "a greeting"
+          ],
+          [
+            "طَيِّبَة",
+            "good, kind (f)"
+          ],
+          [
+            "وَبَعْدُ",
+            "and after (that)"
+          ],
+          [
+            "ثُمَّ",
+            "then"
+          ],
+          [
+            "الْمَوْضُوع",
+            "the subject, the topic"
+          ],
+          [
+            "وَفِي",
+            "and in, and at"
+          ],
+          [
+            "آخِرِ",
+            "end (of)"
+          ],
+          [
+            "الرِّسَالَة",
+            "the message, the email"
+          ],
+          [
+            "مَعَ",
+            "with"
+          ],
+          [
+            "أَطْيَبِ",
+            "the best (of)"
+          ],
+          [
+            "التَّحِيَّات",
+            "the greetings"
+          ]
+        ]
+      },
+      {
+        "id": "d67l6",
+        "sp": "daniel",
+        "ar": "جَمِيل! وَالتَّرْجَمَة فِي مِلَفّ عَلَى حَاسُوبِي. كَيْفَ أَقُولُ إِنَّ الْمِلَفّ مَعَ الرِّسَالَة؟",
+        "en": "Lovely! The translation is in a file on my computer. How do I say that the file comes with the message?",
+        "segs": [
+          [
+            "جَمِيل",
+            "lovely, beautiful"
+          ],
+          [
+            "وَالتَّرْجَمَة",
+            "and the translation"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "مِلَفّ",
+            "a file"
+          ],
+          [
+            "عَلَى",
+            "on"
+          ],
+          [
+            "حَاسُوبِي",
+            "my computer"
+          ],
+          [
+            "كَيْفَ",
+            "how"
+          ],
+          [
+            "أَقُولُ",
+            "I say"
+          ],
+          [
+            "إِنَّ",
+            "that (after 'say')"
+          ],
+          [
+            "الْمِلَفّ",
+            "the file"
+          ],
+          [
+            "مَعَ",
+            "with"
+          ],
+          [
+            "الرِّسَالَة",
+            "the message, the email"
+          ]
+        ]
+      },
+      {
+        "id": "d67l7",
+        "sp": "tariq",
+        "ar": "نَقُولُ: مُرْفَق مَعَ هٰذِهِ الرِّسَالَة مِلَفُّ التَّرْجَمَة. وَلَا تَنْسَ أَنْ تُرْفِقَ الْمِلَفّ نَفْسَهُ!",
+        "en": "We say: 'Attached to this message is the translation file.' And don't forget to attach the file itself!",
+        "segs": [
+          [
+            "نَقُولُ",
+            "we say"
+          ],
+          [
+            "مُرْفَق",
+            "attached"
+          ],
+          [
+            "مَعَ",
+            "with"
+          ],
+          [
+            "هٰذِهِ",
+            "this (f)"
+          ],
+          [
+            "الرِّسَالَة",
+            "the message, the email"
+          ],
+          [
+            "مِلَفُّ",
+            "file (of)"
+          ],
+          [
+            "التَّرْجَمَة",
+            "the translation"
+          ],
+          [
+            "وَلَا",
+            "and don't"
+          ],
+          [
+            "تَنْسَ",
+            "forget (to a man)"
+          ],
+          [
+            "أَنْ",
+            "to, that"
+          ],
+          [
+            "تُرْفِقَ",
+            "you attach (after an)"
+          ],
+          [
+            "الْمِلَفّ",
+            "the file"
+          ],
+          [
+            "نَفْسَهُ",
+            "itself"
+          ]
+        ]
+      },
+      {
+        "id": "d67l8",
+        "sp": "daniel",
+        "ar": "هٰذَا يَحْدُثُ لِي كَثِيرًا! وَمَاذَا أَكْتُبُ فِي سَطْرِ الْمَوْضُوع فَوْقَ الرِّسَالَة؟",
+        "en": "That happens to me a lot! And what do I write in the subject line at the top of the message?",
+        "segs": [
+          [
+            "هٰذَا",
+            "this, that (m)"
+          ],
+          [
+            "يَحْدُثُ",
+            "happens"
+          ],
+          [
+            "لِي",
+            "to me"
+          ],
+          [
+            "كَثِيرًا",
+            "a lot, often"
+          ],
+          [
+            "وَمَاذَا",
+            "and what (before a verb)"
+          ],
+          [
+            "أَكْتُبُ",
+            "I write"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "سَطْرِ",
+            "line (of)"
+          ],
+          [
+            "الْمَوْضُوع",
+            "the subject, the topic"
+          ],
+          [
+            "فَوْقَ",
+            "above, on top of"
+          ],
+          [
+            "الرِّسَالَة",
+            "the message, the email"
+          ]
+        ]
+      },
+      {
+        "id": "d67l9",
+        "sp": "tariq",
+        "ar": "اُكْتُبْ شَيْئًا قَصِيرًا وَوَاضِحًا، مِثْلَ: تَرْجَمَةُ مَشْرُوعِ السِّيَاحَة. وَتَأَكَّدْ مِنْ عُنْوَانِ الْبَرِيدِ الْإِلِكْتُرُونِيّ قَبْلَ أَنْ تُرْسِلَ.",
+        "en": "Write something short and clear, like 'Translation of the tourism project'. And check the email address before you send it.",
+        "segs": [
+          [
+            "اُكْتُبْ",
+            "write! (to a man)"
+          ],
+          [
+            "شَيْئًا",
+            "something"
+          ],
+          [
+            "قَصِيرًا",
+            "short"
+          ],
+          [
+            "وَوَاضِحًا",
+            "and clear"
+          ],
+          [
+            "مِثْلَ",
+            "like"
+          ],
+          [
+            "تَرْجَمَةُ",
+            "translation (of)"
+          ],
+          [
+            "مَشْرُوعِ",
+            "project (of)"
+          ],
+          [
+            "السِّيَاحَة",
+            "tourism"
+          ],
+          [
+            "وَتَأَكَّدْ",
+            "and make sure, check! (to a man)"
+          ],
+          [
+            "مِنْ",
+            "of, from"
+          ],
+          [
+            "عُنْوَانِ",
+            "address (of)"
+          ],
+          [
+            "الْبَرِيدِ",
+            "the post, the mail"
+          ],
+          [
+            "الْإِلِكْتُرُونِيّ",
+            "the electronic ('email')"
+          ],
+          [
+            "قَبْلَ",
+            "before"
+          ],
+          [
+            "أَنْ",
+            "to, that"
+          ],
+          [
+            "تُرْسِلَ",
+            "you send (after an)"
+          ]
+        ]
+      },
+      {
+        "id": "d67l10",
+        "sp": "daniel",
+        "ar": "الرِّسَالَة جَاهِزَة. يَا أُسْتَاذَة هُدَى، هَلْ يُمْكِنُكِ أَنْ تَقْرَئِيهَا قَبْلَ أَنْ أُرْسِلَهَا؟",
+        "en": "The message is ready. Mrs Huda, could you please read it before I send it?",
+        "segs": [
+          [
+            "الرِّسَالَة",
+            "the message, the email"
+          ],
+          [
+            "جَاهِزَة",
+            "ready (f)"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "أُسْتَاذَة",
+            "madam (polite address for a woman)"
+          ],
+          [
+            "هُدَى",
+            "Huda (first name)",
+            "name"
+          ],
+          [
+            "هَلْ",
+            "(starts a yes/no question)"
+          ],
+          [
+            "يُمْكِنُكِ",
+            "you can (to a woman)"
+          ],
+          [
+            "أَنْ",
+            "to, that"
+          ],
+          [
+            "تَقْرَئِيهَا",
+            "you read it (to a woman, after an)"
+          ],
+          [
+            "قَبْلَ",
+            "before"
+          ],
+          [
+            "أَنْ",
+            "to, that"
+          ],
+          [
+            "أُرْسِلَهَا",
+            "I send it (after an)"
+          ]
+        ]
+      },
+      {
+        "id": "d67l11",
+        "sp": "huda",
+        "ar": "بِكُلِّ سُرُور… حَضْرَةَ الْأُسْتَاذ عَادِل الْمُحْتَرَم، تَحِيَّة طَيِّبَة وَبَعْدُ… مُمْتَاز يَا دَانْيَال، رِسَالَتُكَ وَاضِحَة وَمُهَذَّبَة.",
+        "en": "With pleasure… 'Dear Mr Adel, greetings…' Excellent, Daniel, your message is clear and polite.",
+        "segs": [
+          [
+            "بِكُلِّ",
+            "with all"
+          ],
+          [
+            "سُرُور",
+            "pleasure"
+          ],
+          [
+            "حَضْرَةَ",
+            "(title of respect, lit. the presence of)"
+          ],
+          [
+            "الْأُسْتَاذ",
+            "Mr (title)"
+          ],
+          [
+            "عَادِل",
+            "Adel (first name)",
+            "name"
+          ],
+          [
+            "الْمُحْتَرَم",
+            "the respected (m)"
+          ],
+          [
+            "تَحِيَّة",
+            "a greeting"
+          ],
+          [
+            "طَيِّبَة",
+            "good, kind (f)"
+          ],
+          [
+            "وَبَعْدُ",
+            "and after (that)"
+          ],
+          [
+            "مُمْتَاز",
+            "excellent"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "دَانْيَال",
+            "Daniel (first name)",
+            "name"
+          ],
+          [
+            "رِسَالَتُكَ",
+            "your message (to a man)"
+          ],
+          [
+            "وَاضِحَة",
+            "clear (f)"
+          ],
+          [
+            "وَمُهَذَّبَة",
+            "and polite (f)"
+          ]
+        ]
+      },
+      {
+        "id": "d67l12",
+        "sp": "huda",
+        "ar": "لٰكِنْ لَحْظَة، أَيْنَ الْمِلَفّ؟ أَنْتَ كَتَبْتَ مُرْفَق، وَأَنَا لَا أَرَى أَيَّ مُرْفَق هُنَا!",
+        "en": "But wait a moment, where is the file? You wrote 'attached', and I can't see any attachment here!",
+        "segs": [
+          [
+            "لٰكِنْ",
+            "but"
+          ],
+          [
+            "لَحْظَة",
+            "a moment"
+          ],
+          [
+            "أَيْنَ",
+            "where"
+          ],
+          [
+            "الْمِلَفّ",
+            "the file"
+          ],
+          [
+            "أَنْتَ",
+            "you (to a man)"
+          ],
+          [
+            "كَتَبْتَ",
+            "you wrote (to a man)"
+          ],
+          [
+            "مُرْفَق",
+            "attached"
+          ],
+          [
+            "وَأَنَا",
+            "and I"
+          ],
+          [
+            "لَا",
+            "not"
+          ],
+          [
+            "أَرَى",
+            "I see"
+          ],
+          [
+            "أَيَّ",
+            "any"
+          ],
+          [
+            "مُرْفَق",
+            "an attachment"
+          ],
+          [
+            "هُنَا",
+            "here"
+          ]
+        ]
+      },
+      {
+        "id": "d67l13",
+        "sp": "daniel",
+        "ar": "يَا إِلٰهِي! نَسِيتُ الْمِلَفّ، كَمَا قَالَ طَارِق تَمَامًا. لَحْظَة… الْآنَ الْمِلَفّ مُرْفَق مَعَ الرِّسَالَة.",
+        "en": "Oh my goodness! I forgot the file, exactly as Tariq said. One moment… Now the file is attached to the message.",
+        "segs": [
+          [
+            "يَا",
+            "O (calling out)"
+          ],
+          [
+            "إِلٰهِي",
+            "my God ('oh my goodness!')"
+          ],
+          [
+            "نَسِيتُ",
+            "I forgot"
+          ],
+          [
+            "الْمِلَفّ",
+            "the file"
+          ],
+          [
+            "كَمَا",
+            "as"
+          ],
+          [
+            "قَالَ",
+            "(he) said"
+          ],
+          [
+            "طَارِق",
+            "Tariq (first name)",
+            "name"
+          ],
+          [
+            "تَمَامًا",
+            "exactly"
+          ],
+          [
+            "لَحْظَة",
+            "a moment"
+          ],
+          [
+            "الْآنَ",
+            "now"
+          ],
+          [
+            "الْمِلَفّ",
+            "the file"
+          ],
+          [
+            "مُرْفَق",
+            "attached"
+          ],
+          [
+            "مَعَ",
+            "with, to"
+          ],
+          [
+            "الرِّسَالَة",
+            "the message, the email"
+          ]
+        ]
+      },
+      {
+        "id": "d67l14",
+        "sp": "huda",
+        "ar": "أَحْسَنْتَ. أَرْسِلْهَا الْآنَ، وَإِذَا رَدَّ الْأُسْتَاذ عَادِل، أَرْسِلْ لِي رَدَّهُ مِنْ فَضْلِكَ.",
+        "en": "Well done. Send it now, and if Mr Adel replies, please forward his reply to me.",
+        "segs": [
+          [
+            "أَحْسَنْتَ",
+            "well done (to a man)"
+          ],
+          [
+            "أَرْسِلْهَا",
+            "send it! (to a man)"
+          ],
+          [
+            "الْآنَ",
+            "now"
+          ],
+          [
+            "وَإِذَا",
+            "and if"
+          ],
+          [
+            "رَدَّ",
+            "(he) replied"
+          ],
+          [
+            "الْأُسْتَاذ",
+            "Mr (title)"
+          ],
+          [
+            "عَادِل",
+            "Adel (first name)",
+            "name"
+          ],
+          [
+            "أَرْسِلْ",
+            "send! (to a man)"
+          ],
+          [
+            "لِي",
+            "to me"
+          ],
+          [
+            "رَدَّهُ",
+            "his reply"
+          ],
+          [
+            "مِنْ",
+            "from"
+          ],
+          [
+            "فَضْلِكَ",
+            "your kindness (to a man): 'please'"
+          ]
+        ]
+      },
+      {
+        "id": "d67l15",
+        "sp": "daniel",
+        "ar": "وَصَلَ رَدّ بَعْدَ دَقِيقَتَيْنِ! الْأُسْتَاذ عَادِل يَكْتُبُ: وَصَلَتِ التَّرْجَمَة، وَهِيَ مُمْتَازَة. مَعَ الشُّكْر.",
+        "en": "A reply arrived after two minutes! Mr Adel writes: 'The translation has arrived, and it is excellent. With thanks.'",
+        "segs": [
+          [
+            "وَصَلَ",
+            "(it) arrived"
+          ],
+          [
+            "رَدّ",
+            "a reply"
+          ],
+          [
+            "بَعْدَ",
+            "after"
+          ],
+          [
+            "دَقِيقَتَيْنِ",
+            "two minutes"
+          ],
+          [
+            "الْأُسْتَاذ",
+            "Mr (title)"
+          ],
+          [
+            "عَادِل",
+            "Adel (first name)",
+            "name"
+          ],
+          [
+            "يَكْتُبُ",
+            "he writes"
+          ],
+          [
+            "وَصَلَتِ",
+            "(it, f) arrived"
+          ],
+          [
+            "التَّرْجَمَة",
+            "the translation"
+          ],
+          [
+            "وَهِيَ",
+            "and it (f)"
+          ],
+          [
+            "مُمْتَازَة",
+            "excellent (f)"
+          ],
+          [
+            "مَعَ",
+            "with"
+          ],
+          [
+            "الشُّكْر",
+            "the thanks"
+          ]
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "title": "Daniel's email",
+    "ar": "حَضْرَةَ الْأُسْتَاذ عَادِل الْمُحْتَرَم، تَحِيَّة طَيِّبَة وَبَعْدُ. أَرْجُو أَنْ تَكُونَ بِخَيْر. مُرْفَق مَعَ هٰذِهِ الرِّسَالَة مِلَفُّ تَرْجَمَةِ مَشْرُوعِ السِّيَاحَة. فِي انْتِظَارِ رَدِّكُمْ. مَعَ أَطْيَبِ التَّحِيَّات، دَانْيَال، شَرِكَةُ النِّيل لِلتَّرْجَمَة.",
+    "en": "Dear Mr Adel, greetings. I hope you are well. Attached to this message is the file with the translation of the tourism project. I look forward to your reply. With best regards, Daniel, Nile Translation Company.",
+    "segs": [
+      [
+        "حَضْرَةَ",
+        "(title of respect, lit. the presence of)"
+      ],
+      [
+        "الْأُسْتَاذ",
+        "Mr (title)"
+      ],
+      [
+        "عَادِل",
+        "Adel (first name)",
+        "name"
+      ],
+      [
+        "الْمُحْتَرَم",
+        "the respected (m)"
+      ],
+      [
+        "تَحِيَّة",
+        "a greeting"
+      ],
+      [
+        "طَيِّبَة",
+        "good, kind (f)"
+      ],
+      [
+        "وَبَعْدُ",
+        "and after (that)"
+      ],
+      [
+        "أَرْجُو",
+        "I hope; please (formal)"
+      ],
+      [
+        "أَنْ",
+        "to, that"
+      ],
+      [
+        "تَكُونَ",
+        "you are, you be (after an)"
+      ],
+      [
+        "بِخَيْر",
+        "well, fine"
+      ],
+      [
+        "مُرْفَق",
+        "attached"
+      ],
+      [
+        "مَعَ",
+        "with"
+      ],
+      [
+        "هٰذِهِ",
+        "this (f)"
+      ],
+      [
+        "الرِّسَالَة",
+        "the message, the email"
+      ],
+      [
+        "مِلَفُّ",
+        "file (of)"
+      ],
+      [
+        "تَرْجَمَةِ",
+        "translation (of)"
+      ],
+      [
+        "مَشْرُوعِ",
+        "project (of)"
+      ],
+      [
+        "السِّيَاحَة",
+        "tourism"
+      ],
+      [
+        "فِي",
+        "in"
+      ],
+      [
+        "انْتِظَارِ",
+        "waiting (for)"
+      ],
+      [
+        "رَدِّكُمْ",
+        "your reply (polite plural)"
+      ],
+      [
+        "مَعَ",
+        "with"
+      ],
+      [
+        "أَطْيَبِ",
+        "the best (of)"
+      ],
+      [
+        "التَّحِيَّات",
+        "the greetings"
+      ],
+      [
+        "دَانْيَال",
+        "Daniel (first name)",
+        "name"
+      ],
+      [
+        "شَرِكَةُ",
+        "company (of)"
+      ],
+      [
+        "النِّيل",
+        "the Nile (river in Egypt)",
+        "name"
+      ],
+      [
+        "لِلتَّرْجَمَة",
+        "for translation"
+      ]
+    ]
+  },
+  "review": [
+    "yaktubu",
+    "nasiya",
+    "mashru",
+    "zamil",
+    "hasub",
+    "unwan"
+  ],
+  "quiz": [
+    {
+      "id": "d67q1",
+      "prompt": "What does this mean?",
+      "ar": "مُرْفَق",
+      "options": [
+        "subject",
+        "attached",
+        "address",
+        "reply"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "d67q2",
+      "prompt": "How does a formal Arabic email begin?",
+      "options": [
+        "مَعَ أَطْيَبِ التَّحِيَّات",
+        "مَرْحَبًا يَا عَادِل",
+        "حَضْرَةَ الْأُسْتَاذ عَادِل الْمُحْتَرَم",
+        "مَعَ السَّلَامَة"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "d67q3",
+      "prompt": "What does Daniel forget?",
+      "options": [
+        "to attach the file",
+        "the email address",
+        "the subject line",
+        "the greeting"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "d67q4",
+      "prompt": "What does تَحِيَّة طَيِّبَة وَبَعْدُ do in a letter?",
+      "options": [
+        "It ends the letter.",
+        "It greets the reader before the subject.",
+        "It asks for a reply.",
+        "It gives the address."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "d67q5",
+      "prompt": "Which phrase closes an email?",
+      "options": [
+        "تَحِيَّة طَيِّبَة وَبَعْدُ",
+        "حَضْرَةَ الْأُسْتَاذ",
+        "مُرْفَق مَعَ هٰذِهِ الرِّسَالَة",
+        "مَعَ أَطْيَبِ التَّحِيَّات"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "d67q6",
+      "prompt": "What should Daniel check before he sends the email?",
+      "options": [
+        "the salary",
+        "the email address",
+        "the phone number",
+        "the time of the meeting"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "d67q7",
+      "prompt": "Which word ends in tāʾ marbūṭa (ة)?",
+      "options": [
+        "مِلَفّ",
+        "عُنْوَان",
+        "تَحِيَّة",
+        "مَوْضُوع"
+      ],
+      "answer": 2
+    }
+  ],
+  "completion": "Well done! You can write a polite Arabic email, from the greeting to the closing phrase. Next, Mr Karim shows the class how Arabic builds verbs from roots and patterns.",
+  "status": "needs-review"
+}

@@ -714,5 +714,108 @@
         }
       ]
     ]
+  },
+  {
+    "id": "dal-dhal",
+    "title": "dāl (د) versus dhāl (ذ)",
+    "category": "Consonants",
+    "ipa": [
+      "d",
+      "ð"
+    ],
+    "letters": [
+      "د",
+      "ذ"
+    ],
+    "tip": "د is a clean d, with the tip of the tongue just behind the top teeth, lighter than the English d. For ذ push the tip of the tongue out a little between the teeth and let the air buzz past it: the th of 'this'. Both have the voice on.",
+    "diagram": "د: tongue tip touches the ridge behind the upper teeth, then lets go · ذ: tongue tip lightly between the teeth, air flows the whole time",
+    "error": "Saying ذ as d or z, as many people do in Egyptian Arabic: هٰذَا becomes 'hāda' or 'hāza'. In standard Arabic keep the th of 'this': hādhā, dhāhib.",
+    "examples": [
+      {
+        "ar": "مُدِير",
+        "en": "manager"
+      },
+      {
+        "ar": "دَفْتَر",
+        "en": "notebook"
+      },
+      {
+        "ar": "هٰذَا",
+        "en": "this"
+      },
+      {
+        "ar": "ذَاهِب",
+        "en": "going"
+      }
+    ],
+    "pairs": [
+      [
+        {
+          "ar": "دَلِيل",
+          "en": "guide"
+        },
+        {
+          "ar": "ذَلِيل",
+          "en": "humble"
+        }
+      ]
+    ]
+  },
+  {
+    "id": "verb-rhythm",
+    "title": "Verb rhythm: hear the pattern",
+    "category": "Rhythm",
+    "ipa": [
+      "CaCaCa",
+      "CaCːaCa",
+      "CaːCaCa"
+    ],
+    "letters": [
+      "ّ",
+      "ا"
+    ],
+    "tip": "Each verb pattern has its own beat. Form I دَرَسَ is three short, even syllables: da-ra-sa. In Form II دَرَّسَ the shadda closes the first syllable, so hold the r: dar-ra-sa. Form III سَاعَدَ starts with a long ā: sā-ʿa-da. In the present the beat continues: yad-ru-su, yu-dar-ri-su, yu-sā-ʿi-du. Tap the rhythm on the table as you say the verbs.",
+    "diagram": "short = da · held consonant = dar|ra · long vowel = sā · Form I da-ra-sa · Form II dar-ra-sa · Form III sā-ʿa-da",
+    "error": "Skipping the shadda or the long ā, so that 'taught' sounds like 'studied': say darrasa, not darasa, and sāʿada, not saʿada.",
+    "examples": [
+      {
+        "ar": "دَرَسَ",
+        "en": "studied"
+      },
+      {
+        "ar": "دَرَّسَ",
+        "en": "taught"
+      },
+      {
+        "ar": "سَاعَدَ",
+        "en": "helped"
+      },
+      {
+        "ar": "تَعَلَّمَ",
+        "en": "learnt"
+      }
+    ],
+    "pairs": [
+      [
+        {
+          "ar": "دَرَسَ",
+          "en": "studied"
+        },
+        {
+          "ar": "دَرَّسَ",
+          "en": "taught"
+        }
+      ],
+      [
+        {
+          "ar": "عَلِمَ",
+          "en": "knew"
+        },
+        {
+          "ar": "عَلَّمَ",
+          "en": "taught"
+        }
+      ]
+    ]
   }
 ]
