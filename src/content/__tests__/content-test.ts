@@ -6,8 +6,9 @@ describe('content', () => {
   it('validates with 0 errors', () => {
     expect(validateAll()).toEqual([]);
   });
-  it('has the first week written', () => {
-    expect(validDays).toEqual([1, 2, 3, 4, 5, 6, 7]);
+  it('has the written days in order from day 1, with no gaps', () => {
+    expect(validDays.length).toBeGreaterThanOrEqual(7);
+    expect(validDays).toEqual(validDays.map((_, i) => i + 1));
   });
   it('has no gloss gaps (gloss-coverage-test)', () => {
     expect(findGlossGaps()).toEqual([]);
