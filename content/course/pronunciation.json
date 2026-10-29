@@ -613,5 +613,106 @@
         }
       ]
     ]
+  },
+  {
+    "id": "sin-sad",
+    "title": "sīn (س) and ṣād (ص): a light s and a heavy s",
+    "category": "Emphatics",
+    "ipa": [
+      "s",
+      "sˤ"
+    ],
+    "letters": [
+      "س",
+      "ص"
+    ],
+    "tip": "س is the ordinary English s. For ص keep the tip of the tongue in the same place, but pull the back of the tongue down and back, as if you had something hot in your mouth. The s itself sounds darker, and the vowel next to it sounds deeper: صَ is closer to the vowel in 'sun' or 'saw' than to the one in 'sat'.",
+    "diagram": "for both letters the tip of the tongue is just behind the upper teeth; for ص the back of the tongue is also pulled down and back towards the throat",
+    "error": "Saying ص as a plain s. Then صَيْف (summer) sounds like سَيْف (sword). Listen to the vowel: after ص the a is dark and deep, after س it is bright.",
+    "examples": [
+      {
+        "ar": "مُسَافِر",
+        "en": "passenger, traveller"
+      },
+      {
+        "ar": "السَّفَر",
+        "en": "travel"
+      },
+      {
+        "ar": "صَبَاح",
+        "en": "morning"
+      },
+      {
+        "ar": "صَغِير",
+        "en": "small"
+      }
+    ],
+    "pairs": [
+      [
+        {
+          "ar": "سَيْف",
+          "en": "sword"
+        },
+        {
+          "ar": "صَيْف",
+          "en": "summer"
+        }
+      ],
+      [
+        {
+          "ar": "سُورَة",
+          "en": "chapter of the Quran"
+        },
+        {
+          "ar": "صُورَة",
+          "en": "picture, photo"
+        }
+      ]
+    ]
+  },
+  {
+    "id": "clusters",
+    "title": "Two consonants together: no extra vowel",
+    "category": "Syllables",
+    "ipa": [
+      "CC",
+      "-CC#"
+    ],
+    "letters": [
+      "ْ"
+    ],
+    "tip": "Arabic often puts two consonants side by side: one with a sukūn, then the next. Say them straight after each other, with no little vowel in between. At the end of a word, as in حَجْز (booking), finish on both consonants: ḥaj-z, not ḥaja-z or ḥajzi. Inside a word, as in مُسْتَشْفَى (hospital) or اِسْتِقْبَال (reception), the sukūn letter closes one syllable and the next letter starts a new one: mus-tash-fā, is-tiq-bāl.",
+    "diagram": "move the tongue straight from the first consonant to the second without opening the mouth for a vowel; the sukūn (ْ) marks the letter that has no vowel",
+    "error": "Adding a helping vowel the way English speakers sometimes do: 'ḥajaz' for حَجْز or 'musutashfā' for مُسْتَشْفَى. The extra vowel can change the word: حَجَزَ means 'he booked', not 'booking'.",
+    "examples": [
+      {
+        "ar": "حَجْز",
+        "en": "booking, reservation"
+      },
+      {
+        "ar": "شَخْص",
+        "en": "person"
+      },
+      {
+        "ar": "مُسْتَشْفَى",
+        "en": "hospital"
+      },
+      {
+        "ar": "أَشْخَاص",
+        "en": "people, persons"
+      }
+    ],
+    "pairs": [
+      [
+        {
+          "ar": "حَجْز",
+          "en": "booking"
+        },
+        {
+          "ar": "حَجَزَ",
+          "en": "he booked"
+        }
+      ]
+    ]
   }
 ]

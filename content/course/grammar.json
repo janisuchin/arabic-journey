@@ -2745,5 +2745,348 @@
         "en": "The party is on the seventh of November."
       }
     ]
+  },
+  {
+    "id": "mumkin",
+    "title": "Is it possible? مُمْكِن",
+    "titleAr": "هَلْ مِنَ الْمُمْكِن؟",
+    "firstDay": 57,
+    "summary": "To ask politely whether you may do something, say هَلْ مِنَ الْمُمْكِن أَنْ…؟ (is it possible to…?) + a present verb ending in -a. The answer is مُمْكِن (possible) or غَيْرُ مُمْكِن (not possible).",
+    "formula": "هَلْ مِنَ الْمُمْكِن + أَنْ + present (ending -a)؟",
+    "explanation": "مُمْكِن means 'possible', and مِنَ الْمُمْكِن (literally 'of the possible') means 'it is possible'. Put هَلْ in front and you have the most useful polite question for a traveller: هَلْ مِنَ الْمُمْكِن أَنْ أَجْلِسَ بِجَانِبِ النَّافِذَة؟ (could I sit by the window?). The verb after أَنْ shows who does the action and ends in -a: أَنْ آخُذَ (that I take), أَنْ نَشْرَبَ (that we drink), أَنْ تُسَاعِدَنِي (that you help me). In everyday speech the question is often shortened to مُمْكِن أَنْ…؟ or just مُمْكِن؟ with a rising voice. Answer نَعَم، مُمْكِن (yes, that's possible) or لِلْأَسَف، هٰذَا غَيْرُ مُمْكِن (unfortunately, that isn't possible).",
+    "table": {
+      "head": [
+        "Arabic",
+        "English"
+      ],
+      "rows": [
+        [
+          "هَلْ مِنَ الْمُمْكِن أَنْ أَجْلِسَ هُنَا؟",
+          "could I sit here?"
+        ],
+        [
+          "هَلْ مِنَ الْمُمْكِن أَنْ آخُذَهَا مَعِي؟",
+          "could I take it with me?"
+        ],
+        [
+          "مُمْكِن أَنْ نَشْرَبَ قَهْوَة؟",
+          "can we have a coffee?"
+        ],
+        [
+          "نَعَم، مُمْكِن.",
+          "yes, that's possible."
+        ],
+        [
+          "لِلْأَسَف، هٰذَا غَيْرُ مُمْكِن.",
+          "unfortunately, that isn't possible."
+        ]
+      ]
+    },
+    "examples": [
+      {
+        "ar": "هَلْ مِنَ الْمُمْكِن أَنْ أَرَى جَوَازَ السَّفَر؟",
+        "en": "May I see the passport?"
+      },
+      {
+        "ar": "مُمْكِن أَنْ آخُذَ هٰذِهِ الْحَقِيبَة مَعِي؟",
+        "en": "Can I take this bag with me?"
+      }
+    ]
+  },
+  {
+    "id": "polite-requests",
+    "title": "Polite requests: لَوْ سَمَحْتَ, هَلْ تَسْتَطِيعُ…؟, أَرْجُو أَنْ…",
+    "titleAr": "لَوْ سَمَحْتَ",
+    "firstDay": 58,
+    "summary": "Make a request polite in three ways: add لَوْ سَمَحْتَ or مِنْ فَضْلِكَ, ask هَلْ تَسْتَطِيعُ أَنْ…؟ (can you…?), or begin with أَرْجُو أَنْ… (I would ask you to…).",
+    "formula": "لَوْ سَمَحْتَ + request · هَلْ تَسْتَطِيعُ أَنْ + verb (-a)؟ · أَرْجُو أَنْ + verb (-a)",
+    "explanation": "An order such as تَعَالَ (come!) is fine between friends, but with strangers Arabic speakers soften their requests. (1) Add لَوْ سَمَحْتَ ('if you allow') or مِنْ فَضْلِكَ ('please') before or after the request. Both change with the person: لَوْ سَمَحْتَ to a man, لَوْ سَمَحْتِ to a woman, لَوْ سَمَحْتُمْ to a group. لَوْ سَمَحْتَ is also how you get someone's attention: 'excuse me'. (2) Ask whether the person can do it: هَلْ تَسْتَطِيعُ أَنْ تُوقِظَنَا؟ (could you wake us?). (3) Begin with أَرْجُو أَنْ… (literally 'I hope that you…'), a polite and slightly formal 'please': أَرْجُو أَنْ تَطْلُبَ لَنَا تَاكْسِي (please order a taxi for us). After أَنْ the verb ends in -a, as usual. When you hand something over, say تَفَضَّلْ (here you are), or تَفَضَّلِي to a woman.",
+    "table": {
+      "head": [
+        "Arabic",
+        "English",
+        "Use"
+      ],
+      "rows": [
+        [
+          "لَوْ سَمَحْتَ، أَيْنَ الْمِصْعَد؟",
+          "Excuse me, where is the lift?",
+          "to a man"
+        ],
+        [
+          "لَوْ سَمَحْتِ، أَيْنَ الْمِصْعَد؟",
+          "Excuse me, where is the lift?",
+          "to a woman"
+        ],
+        [
+          "هَلْ تَسْتَطِيعُ أَنْ تُوقِظَنَا؟",
+          "Could you wake us?",
+          "asking if someone can"
+        ],
+        [
+          "أَرْجُو أَنْ تَطْلُبَ لَنَا تَاكْسِي.",
+          "Please order a taxi for us.",
+          "a formal 'please'"
+        ],
+        [
+          "تَفَضَّلْ، هٰذَا جَوَازُ سَفَرِي.",
+          "Here you are, this is my passport.",
+          "handing something over"
+        ]
+      ]
+    },
+    "examples": [
+      {
+        "ar": "لَوْ سَمَحْتَ، أَيْنَ الْمِصْعَد؟",
+        "en": "Excuse me, where is the lift?"
+      },
+      {
+        "ar": "هَلْ تَسْتَطِيعُ أَنْ تَطْلُبَ لَنَا تَاكْسِي؟",
+        "en": "Could you order us a taxi?"
+      }
+    ]
+  },
+  {
+    "id": "hollow-verbs",
+    "title": "Hollow verbs: زَارَ, زُرْتُ, يَزُورُ",
+    "titleAr": "زَارَ، يَزُورُ",
+    "firstDay": 59,
+    "summary": "Some verbs have a long vowel in the middle: زَارَ (he visited), يَزُورُ (he visits). In the past the long ā becomes short before endings like -tu, -ta and -nā: زُرْتُ (I visited), نِمْتُ (I slept).",
+    "formula": "he: زَارَ (long ā) → I: زُرْتُ (short) · present: يَزُورُ (long ū, ī or ā)",
+    "explanation": "In verbs like قَالَ (said), زَارَ (visited), كَانَ (was), عَادَ (returned), نَامَ (slept) and بَاعَ (sold), the middle of the word is a long vowel, not a consonant, so they are called 'hollow'. With he, she and they the past keeps the long ā: زَارَ، زَارَتْ، زَارُوا. With I, you and we the ending begins with a consonant, and the long vowel becomes short: زُرْتُ (I visited), قُلْتُ (I said), كُنَّا (we were), عُدْتُ (I returned); verbs like نَامَ and بَاعَ take i instead: نِمْتُ (I slept), بِعْتُ (I sold). The present tense shows the verb's vowel: يَزُورُ and يَقُولُ have ū, يَبِيعُ has ī, يَنَامُ has ā. When the verb ends in a sukūn, the vowel is short again: after لَمْ you say لَمْ نَزُرْهَا (we didn't visit it). Orders to a group keep the long vowel: زُورُوا (visit!), نَامُوا (sleep!).",
+    "table": {
+      "head": [
+        "he (past)",
+        "I (past)",
+        "he (present)",
+        "English"
+      ],
+      "rows": [
+        [
+          "زَارَ",
+          "زُرْتُ",
+          "يَزُورُ",
+          "visit"
+        ],
+        [
+          "قَالَ",
+          "قُلْتُ",
+          "يَقُولُ",
+          "say"
+        ],
+        [
+          "كَانَ",
+          "كُنْتُ",
+          "يَكُونُ",
+          "be"
+        ],
+        [
+          "عَادَ",
+          "عُدْتُ",
+          "يَعُودُ",
+          "return"
+        ],
+        [
+          "نَامَ",
+          "نِمْتُ",
+          "يَنَامُ",
+          "sleep"
+        ],
+        [
+          "بَاعَ",
+          "بِعْتُ",
+          "يَبِيعُ",
+          "sell"
+        ]
+      ]
+    },
+    "examples": [
+      {
+        "ar": "هَلْ زُرْتُمُ الْبَتْرَاء مِنْ قَبْلُ؟",
+        "en": "Have you visited Petra before?"
+      },
+      {
+        "ar": "لَمْ نَزُرْهَا أَبَدًا.",
+        "en": "We have never visited it."
+      }
+    ]
+  },
+  {
+    "id": "object-pronouns-w9",
+    "title": "Help me! Object endings on verbs",
+    "titleAr": "سَاعِدْنِي!",
+    "firstDay": 60,
+    "summary": "The endings you know from nouns also go on verbs, where they mean me, you, him, her, it, us and them. Only 'me' is different: on a verb it is ـنِي (-nī), not ـِي.",
+    "formula": "verb + ـنِي · ـكَ · ـكِ · ـهُ · ـهَا · ـنَا · ـكُمْ · ـهُمْ",
+    "explanation": "An object pronoun ('me', 'him', 'it'…) is joined to the end of the verb: أُسَاعِدُكَ (I help you), رَأَيْتُكَ (I saw you), سَأَلْنَاهُ (we asked him). The endings are the same as on nouns (غُرْفَتُكَ, غُرْفَتُهَا), except 'me': غُرْفَتِي is 'my room', but سَاعِدْنِي is 'help me!' and تُسَاعِدَنِي is '(that) you help me'. Never use أَنَا as an object. A thing is 'it' with ـهُ for a masculine word and ـهَا for a feminine word: the wallet, مِحْفَظَة, is feminine, so 'I found it' is وَجَدْتُهَا. After أَنْ the verb still ends in -a in front of the ending: أَنْ تُسَاعِدَنِي (to help me), أَنْ تَضَعَهَا (to put it).",
+    "table": {
+      "head": [
+        "Ending",
+        "Example",
+        "English"
+      ],
+      "rows": [
+        [
+          "ـنِي",
+          "سَاعِدْنِي",
+          "help me!"
+        ],
+        [
+          "ـكَ",
+          "أُسَاعِدُكَ",
+          "I help you (to a man)"
+        ],
+        [
+          "ـكِ",
+          "أَدْعُوكِ",
+          "I invite you (to a woman)"
+        ],
+        [
+          "ـهُ",
+          "سَأَلْنَاهُ",
+          "we asked him"
+        ],
+        [
+          "ـهَا",
+          "وَجَدْتُهَا",
+          "I found her / it (f)"
+        ],
+        [
+          "ـنَا",
+          "سَاعَدَنَا",
+          "he helped us"
+        ],
+        [
+          "ـكُمْ",
+          "نَرَاكُمْ",
+          "we see you (to several people)"
+        ],
+        [
+          "ـهُمْ",
+          "سَأَسْأَلُهُمْ",
+          "I'll ask them"
+        ]
+      ]
+    },
+    "examples": [
+      {
+        "ar": "هَلْ تَسْتَطِيعُ أَنْ تُسَاعِدَنِي؟",
+        "en": "Can you help me?"
+      },
+      {
+        "ar": "وَجَدْتُهَا عَلَى الطَّاوِلَة.",
+        "en": "I found it on the table."
+      }
+    ]
+  },
+  {
+    "id": "comparative",
+    "title": "Bigger than: أَكْبَرُ مِنْ",
+    "titleAr": "أَكْبَرُ مِنْ",
+    "firstDay": 61,
+    "summary": "To compare, put the three root letters of an adjective into the pattern a-CCaC and add مِنْ (than): كَبِير (big) → أَكْبَرُ مِنْ (bigger than). The form is the same for masculine and feminine.",
+    "formula": "a-CCaC + مِنْ:  كَبِير → أَكْبَرُ مِنْ",
+    "explanation": "Take the three root letters of the adjective and put them into the pattern a-CCaC: كَبِير (big) → أَكْبَر (bigger), صَغِير (small) → أَصْغَر (smaller), رَخِيص (cheap) → أَرْخَص (cheaper), بَارِد (cold) → أَبْرَد (colder). 'Than' is مِنْ: الْقَاهِرَة أَكْبَرُ مِنْ عَمَّان (Cairo is bigger than Amman). The comparative never changes, whatever it describes: الْمَدِينَة أَكْبَرُ (the city is bigger), الْبَيْت أَكْبَرُ (the house is bigger), الْأَسْعَار أَرْخَصُ (the prices are cheaper). Adjectives ending in a weak letter end in -ā: غَالٍ (expensive) → أَغْلَى, قَوِيّ (strong) → أَقْوَى. Adjectives with a doubled letter keep it together: قَلِيل (few) → أَقَلّ (fewer, less). 'Much bigger' is أَكْبَرُ بِكَثِير. Some adjectives, like مُزْدَحِم (crowded), have no a-CCaC form; then say أَكْثَرُ (more) + a noun ending in -an: أَكْثَرُ ازْدِحَامًا (more crowded).",
+    "table": {
+      "head": [
+        "Adjective",
+        "Comparative",
+        "English"
+      ],
+      "rows": [
+        [
+          "كَبِير",
+          "أَكْبَر",
+          "bigger"
+        ],
+        [
+          "صَغِير",
+          "أَصْغَر",
+          "smaller"
+        ],
+        [
+          "رَخِيص",
+          "أَرْخَص",
+          "cheaper"
+        ],
+        [
+          "بَارِد",
+          "أَبْرَد",
+          "colder"
+        ],
+        [
+          "غَالٍ",
+          "أَغْلَى",
+          "more expensive"
+        ],
+        [
+          "قَلِيل",
+          "أَقَلّ",
+          "fewer, less"
+        ],
+        [
+          "مُزْدَحِم",
+          "أَكْثَرُ ازْدِحَامًا",
+          "more crowded"
+        ]
+      ]
+    },
+    "examples": [
+      {
+        "ar": "الْقَاهِرَة أَكْبَرُ مِنْ عَمَّان.",
+        "en": "Cairo is bigger than Amman."
+      },
+      {
+        "ar": "الْجَوّ هُنَا أَبْرَدُ مِنَ الْقَاهِرَة.",
+        "en": "The weather here is colder than in Cairo."
+      }
+    ]
+  },
+  {
+    "id": "superlative",
+    "title": "The biggest: أَكْبَرُ مَدِينَة",
+    "titleAr": "أَكْبَرُ مَدِينَة",
+    "firstDay": 62,
+    "summary": "The a-CCaC form also means 'the most'. Put it in front of a noun without الـ: أَكْبَرُ مَدِينَة (the biggest city). Before a plural with الـ it means 'the …-est of': مِنْ أَكْبَرِ الْمَسَارِح (one of the biggest theatres).",
+    "formula": "a-CCaC + noun (no الـ) = the …-est · مِنْ + a-CCaC + plural with الـ = one of the …-est",
+    "explanation": "You already know أَكْبَرُ مِنْ (bigger than). Without مِنْ, and placed in front of a noun, the same word means 'the biggest': عَمَّان أَكْبَرُ مَدِينَة فِي الْأُرْدُنّ (Amman is the biggest city in Jordan). The noun after it is singular and has no الـ, and the superlative itself takes no الـ either. The form does not change for feminine nouns: أَجْمَلُ صُورَة (the most beautiful photo), أَفْضَلُ رِحْلَة (the best trip). To say 'one of the most…', use مِنْ + the superlative + a plural with الـ: مِنْ أَعْلَى الْجِبَال (one of the highest hills), مِنْ أَكْبَرِ الْمَسَارِح (one of the biggest theatres). أَفْضَلُ (better, best) works the same way: أَفْضَلُ مَكَان (the best place).",
+    "table": {
+      "head": [
+        "Arabic",
+        "English"
+      ],
+      "rows": [
+        [
+          "عَمَّان أَكْبَرُ مَدِينَة فِي الْأُرْدُنّ.",
+          "Amman is the biggest city in Jordan."
+        ],
+        [
+          "هٰذَا أَقْدَمُ مَكَان فِي عَمَّان.",
+          "This is the oldest place in Amman."
+        ],
+        [
+          "الْبَحْر الْمَيِّت أَخْفَضُ مَكَان فِي الْعَالَم.",
+          "The Dead Sea is the lowest place in the world."
+        ],
+        [
+          "هٰذِهِ أَفْضَلُ رِحْلَة فِي حَيَاتِي.",
+          "This is the best trip of my life."
+        ],
+        [
+          "هُوَ مِنْ أَكْبَرِ الْمَسَارِح فِي الْأُرْدُنّ.",
+          "It is one of the biggest theatres in Jordan."
+        ]
+      ]
+    },
+    "examples": [
+      {
+        "ar": "عَمَّان أَكْبَرُ مَدِينَة فِي الْأُرْدُنّ.",
+        "en": "Amman is the biggest city in Jordan."
+      },
+      {
+        "ar": "الْبَتْرَاء أَشْهَرُ مَكَان فِي الْأُرْدُنّ.",
+        "en": "Petra is the most famous place in Jordan."
+      }
+    ]
   }
 ]

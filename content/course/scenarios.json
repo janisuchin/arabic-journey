@@ -8222,5 +8222,1451 @@
         "answer": 3
       }
     ]
+  },
+  {
+    "id": "airport-checkin",
+    "title": "Checking in at the airport",
+    "emoji": "🧳",
+    "status": "needs-review",
+    "intro": "At the end of the trip Daniel checks in at Amman airport for his flight back to Cairo, but his suitcase is full of presents. Useful phrases: جَوَازُ السَّفَر (passport), هَلْ مِنَ الْمُمْكِن أَنْ…؟ (is it possible to…?) and بِطَاقَةُ الصُّعُود (boarding pass).",
+    "dialogue": {
+      "title": "A heavy suitcase",
+      "speakers": [
+        {
+          "key": "clerk",
+          "name": "Clerk",
+          "nameAr": "الْمُوَظَّف"
+        },
+        {
+          "key": "daniel",
+          "name": "Daniel",
+          "nameAr": "دَانْيَال"
+        }
+      ],
+      "culture": "Queen Alia International Airport is about thirty kilometres south of Amman. Many airlines in the region allow 23 kilos for a suitcase and around seven kilos of hand luggage, and extra weight can be expensive, so weigh your bag before you leave the hotel.",
+      "lines": [
+        {
+          "id": "airport-checkin-l1",
+          "sp": "clerk",
+          "ar": "مَسَاءُ الْخَيْر! إِلَى أَيْنَ تُسَافِرُ الْيَوْمَ؟ جَوَازُ السَّفَر وَالتَّذْكِرَة، مِنْ فَضْلِكَ.",
+          "en": "Good evening! Where are you flying to today? Your passport and ticket, please.",
+          "segs": [
+            [
+              "مَسَاءُ",
+              "evening (of)"
+            ],
+            [
+              "الْخَيْر",
+              "the goodness"
+            ],
+            [
+              "إِلَى",
+              "to"
+            ],
+            [
+              "أَيْنَ",
+              "where"
+            ],
+            [
+              "تُسَافِرُ",
+              "you travel (to a man)"
+            ],
+            [
+              "الْيَوْمَ",
+              "today"
+            ],
+            [
+              "جَوَازُ",
+              "permit (of)"
+            ],
+            [
+              "السَّفَر",
+              "the travel ('passport')"
+            ],
+            [
+              "وَالتَّذْكِرَة",
+              "and the ticket"
+            ],
+            [
+              "مِنْ",
+              "from"
+            ],
+            [
+              "فَضْلِكَ",
+              "your kindness (to a man): 'please'"
+            ]
+          ]
+        },
+        {
+          "id": "airport-checkin-l2",
+          "sp": "daniel",
+          "ar": "مَسَاءُ النُّور. أُسَافِرُ إِلَى الْقَاهِرَة. تَفَضَّلْ، هٰذَا جَوَازُ سَفَرِي.",
+          "en": "Good evening. I'm flying to Cairo. Here you are, this is my passport.",
+          "segs": [
+            [
+              "مَسَاءُ",
+              "evening (of)"
+            ],
+            [
+              "النُّور",
+              "the light"
+            ],
+            [
+              "أُسَافِرُ",
+              "I travel"
+            ],
+            [
+              "إِلَى",
+              "to"
+            ],
+            [
+              "الْقَاهِرَة",
+              "Cairo (capital of Egypt)",
+              "name"
+            ],
+            [
+              "تَفَضَّلْ",
+              "here you are (to a man)"
+            ],
+            [
+              "هٰذَا",
+              "this (m)"
+            ],
+            [
+              "جَوَازُ",
+              "permit (of)"
+            ],
+            [
+              "سَفَرِي",
+              "my travel ('my passport')"
+            ]
+          ]
+        },
+        {
+          "id": "airport-checkin-l3",
+          "sp": "clerk",
+          "ar": "شُكْرًا. ضَعْ حَقِيبَتَكَ عَلَى الْمِيزَان، لَوْ سَمَحْتَ… وَزْنُهَا ثَلَاثُونَ كِيلُو!",
+          "en": "Thank you. Put your suitcase on the scales, please… It weighs thirty kilos!",
+          "segs": [
+            [
+              "شُكْرًا",
+              "thank you"
+            ],
+            [
+              "ضَعْ",
+              "put! (to a man)"
+            ],
+            [
+              "حَقِيبَتَكَ",
+              "your bag, your suitcase (to a man)"
+            ],
+            [
+              "عَلَى",
+              "on"
+            ],
+            [
+              "الْمِيزَان",
+              "the scales"
+            ],
+            [
+              "لَوْ",
+              "if"
+            ],
+            [
+              "سَمَحْتَ",
+              "you allow (to a man)"
+            ],
+            [
+              "وَزْنُهَا",
+              "its weight (f)"
+            ],
+            [
+              "ثَلَاثُونَ",
+              "thirty"
+            ],
+            [
+              "كِيلُو",
+              "kilo, kilos"
+            ]
+          ]
+        },
+        {
+          "id": "airport-checkin-l4",
+          "sp": "daniel",
+          "ar": "ثَلَاثُونَ؟! هَلْ هٰذَا أَكْثَرُ مِنَ الْمَسْمُوح؟ فِيهَا هَدَايَا كَثِيرَة لِأَصْدِقَائِي فِي الْقَاهِرَة.",
+          "en": "Thirty?! Is that more than is allowed? There are lots of presents in it for my friends in Cairo.",
+          "segs": [
+            [
+              "ثَلَاثُونَ",
+              "thirty"
+            ],
+            [
+              "هَلْ",
+              "(starts a yes/no question)"
+            ],
+            [
+              "هٰذَا",
+              "this (m)"
+            ],
+            [
+              "أَكْثَرُ",
+              "more"
+            ],
+            [
+              "مِنَ",
+              "than"
+            ],
+            [
+              "الْمَسْمُوح",
+              "the allowed (amount)"
+            ],
+            [
+              "فِيهَا",
+              "in it (f)"
+            ],
+            [
+              "هَدَايَا",
+              "presents, gifts"
+            ],
+            [
+              "كَثِيرَة",
+              "many (f)"
+            ],
+            [
+              "لِأَصْدِقَائِي",
+              "for my friends"
+            ],
+            [
+              "فِي",
+              "in"
+            ],
+            [
+              "الْقَاهِرَة",
+              "Cairo (capital of Egypt)",
+              "name"
+            ]
+          ]
+        },
+        {
+          "id": "airport-checkin-l5",
+          "sp": "clerk",
+          "ar": "نَعَم، الْمَسْمُوح ثَلَاثَة وَعِشْرُونَ كِيلُو فَقَطْ. يَجِبُ أَنْ تَدْفَعَ عَنْ كُلِّ كِيلُو زِيَادَة.",
+          "en": "Yes, the limit is only twenty-three kilos. You have to pay for every extra kilo.",
+          "segs": [
+            [
+              "نَعَم",
+              "yes"
+            ],
+            [
+              "الْمَسْمُوح",
+              "the allowed (amount)"
+            ],
+            [
+              "ثَلَاثَة",
+              "three"
+            ],
+            [
+              "وَعِشْرُونَ",
+              "and twenty"
+            ],
+            [
+              "كِيلُو",
+              "kilo, kilos"
+            ],
+            [
+              "فَقَطْ",
+              "only, just"
+            ],
+            [
+              "يَجِبُ",
+              "must, it is necessary"
+            ],
+            [
+              "أَنْ",
+              "to, that"
+            ],
+            [
+              "تَدْفَعَ",
+              "you pay (after an)"
+            ],
+            [
+              "عَنْ",
+              "for"
+            ],
+            [
+              "كُلِّ",
+              "every"
+            ],
+            [
+              "كِيلُو",
+              "kilo"
+            ],
+            [
+              "زِيَادَة",
+              "extra, more"
+            ]
+          ]
+        },
+        {
+          "id": "airport-checkin-l6",
+          "sp": "daniel",
+          "ar": "كَمْ أَدْفَعُ؟ وَهَلْ مِنَ الْمُمْكِن أَنْ آخُذَ بَعْضَ الْأَشْيَاء مَعِي فِي حَقِيبَةِ الْيَد؟",
+          "en": "How much do I pay? And is it possible to take some things with me in my hand luggage?",
+          "segs": [
+            [
+              "كَمْ",
+              "how much"
+            ],
+            [
+              "أَدْفَعُ",
+              "I pay"
+            ],
+            [
+              "وَهَلْ",
+              "and (yes/no question)"
+            ],
+            [
+              "مِنَ",
+              "of, from"
+            ],
+            [
+              "الْمُمْكِن",
+              "the possible ('is it possible')"
+            ],
+            [
+              "أَنْ",
+              "to, that"
+            ],
+            [
+              "آخُذَ",
+              "I take (after an)"
+            ],
+            [
+              "بَعْضَ",
+              "some (of)"
+            ],
+            [
+              "الْأَشْيَاء",
+              "the things"
+            ],
+            [
+              "مَعِي",
+              "with me"
+            ],
+            [
+              "فِي",
+              "in"
+            ],
+            [
+              "حَقِيبَةِ",
+              "bag (of)"
+            ],
+            [
+              "الْيَد",
+              "the hand ('hand luggage')"
+            ]
+          ]
+        },
+        {
+          "id": "airport-checkin-l7",
+          "sp": "clerk",
+          "ar": "مُمْكِن. حَقِيبَةُ الْيَد حَتَّى سَبْعَة كِيلُو. أَوْ تَدْفَعُ عَشَرَةَ دَنَانِير عَنْ كُلِّ كِيلُو.",
+          "en": "It's possible. Hand luggage can be up to seven kilos. Or you pay ten dinars for every kilo.",
+          "segs": [
+            [
+              "مُمْكِن",
+              "possible"
+            ],
+            [
+              "حَقِيبَةُ",
+              "bag (of)"
+            ],
+            [
+              "الْيَد",
+              "the hand ('hand luggage')"
+            ],
+            [
+              "حَتَّى",
+              "up to, until"
+            ],
+            [
+              "سَبْعَة",
+              "seven"
+            ],
+            [
+              "كِيلُو",
+              "kilo, kilos"
+            ],
+            [
+              "أَوْ",
+              "or"
+            ],
+            [
+              "تَدْفَعُ",
+              "you pay (to a man)"
+            ],
+            [
+              "عَشَرَةَ",
+              "ten"
+            ],
+            [
+              "دَنَانِير",
+              "dinars"
+            ],
+            [
+              "عَنْ",
+              "for"
+            ],
+            [
+              "كُلِّ",
+              "every"
+            ],
+            [
+              "كِيلُو",
+              "kilo"
+            ]
+          ]
+        },
+        {
+          "id": "airport-checkin-l8",
+          "sp": "daniel",
+          "ar": "عَشَرَةُ دَنَانِير لِكُلِّ كِيلُو؟ هٰذَا أَغْلَى مِنَ الْهَدَايَا! لَحْظَة، مِنْ فَضْلِكَ.",
+          "en": "Ten dinars a kilo? That's more expensive than the presents! One moment, please.",
+          "segs": [
+            [
+              "عَشَرَةُ",
+              "ten"
+            ],
+            [
+              "دَنَانِير",
+              "dinars"
+            ],
+            [
+              "لِكُلِّ",
+              "for every"
+            ],
+            [
+              "كِيلُو",
+              "kilo"
+            ],
+            [
+              "هٰذَا",
+              "this (m)"
+            ],
+            [
+              "أَغْلَى",
+              "more expensive"
+            ],
+            [
+              "مِنَ",
+              "than"
+            ],
+            [
+              "الْهَدَايَا",
+              "the presents"
+            ],
+            [
+              "لَحْظَة",
+              "a moment"
+            ],
+            [
+              "مِنْ",
+              "from"
+            ],
+            [
+              "فَضْلِكَ",
+              "your kindness (to a man): 'please'"
+            ]
+          ]
+        },
+        {
+          "id": "airport-checkin-l9",
+          "sp": "daniel",
+          "ar": "أَخَذْتُ الْكُتُب وَالْكُوفِيَّة مِنَ الْحَقِيبَة. هَلْ وَزْنُهَا الْآنَ أَقَلُّ؟",
+          "en": "I've taken the books and the keffiyeh out of the suitcase. Does it weigh less now?",
+          "segs": [
+            [
+              "أَخَذْتُ",
+              "I took"
+            ],
+            [
+              "الْكُتُب",
+              "the books"
+            ],
+            [
+              "وَالْكُوفِيَّة",
+              "and the keffiyeh"
+            ],
+            [
+              "مِنَ",
+              "from, out of"
+            ],
+            [
+              "الْحَقِيبَة",
+              "the bag, the suitcase"
+            ],
+            [
+              "هَلْ",
+              "(starts a yes/no question)"
+            ],
+            [
+              "وَزْنُهَا",
+              "its weight (f)"
+            ],
+            [
+              "الْآنَ",
+              "now"
+            ],
+            [
+              "أَقَلُّ",
+              "less"
+            ]
+          ]
+        },
+        {
+          "id": "airport-checkin-l10",
+          "sp": "clerk",
+          "ar": "نَعَم، الْآنَ ثَلَاثَة وَعِشْرُونَ كِيلُو بِالضَّبْط. مُمْتَاز! تَفَضَّلْ، هٰذِهِ بِطَاقَةُ الصُّعُود.",
+          "en": "Yes, now it's exactly twenty-three kilos. Excellent! Here you are, this is your boarding pass.",
+          "segs": [
+            [
+              "نَعَم",
+              "yes"
+            ],
+            [
+              "الْآنَ",
+              "now"
+            ],
+            [
+              "ثَلَاثَة",
+              "three"
+            ],
+            [
+              "وَعِشْرُونَ",
+              "and twenty"
+            ],
+            [
+              "كِيلُو",
+              "kilo, kilos"
+            ],
+            [
+              "بِالضَّبْط",
+              "exactly"
+            ],
+            [
+              "مُمْتَاز",
+              "excellent"
+            ],
+            [
+              "تَفَضَّلْ",
+              "here you are (to a man)"
+            ],
+            [
+              "هٰذِهِ",
+              "this (f)"
+            ],
+            [
+              "بِطَاقَةُ",
+              "card (of)"
+            ],
+            [
+              "الصُّعُود",
+              "the boarding ('boarding pass')"
+            ]
+          ]
+        },
+        {
+          "id": "airport-checkin-l11",
+          "sp": "daniel",
+          "ar": "شُكْرًا جَزِيلًا! مِنْ أَيِّ بَوَّابَة تُغَادِرُ الطَّائِرَة، وَمَتَى يَجِبُ أَنْ أَكُونَ هُنَاكَ؟",
+          "en": "Thank you very much! Which gate does the plane leave from, and when do I have to be there?",
+          "segs": [
+            [
+              "شُكْرًا",
+              "thank you"
+            ],
+            [
+              "جَزِيلًا",
+              "very much"
+            ],
+            [
+              "مِنْ",
+              "from"
+            ],
+            [
+              "أَيِّ",
+              "which"
+            ],
+            [
+              "بَوَّابَة",
+              "gate"
+            ],
+            [
+              "تُغَادِرُ",
+              "it leaves (f)"
+            ],
+            [
+              "الطَّائِرَة",
+              "the plane"
+            ],
+            [
+              "وَمَتَى",
+              "and when"
+            ],
+            [
+              "يَجِبُ",
+              "must, it is necessary"
+            ],
+            [
+              "أَنْ",
+              "to, that"
+            ],
+            [
+              "أَكُونَ",
+              "I am, I be (after an)"
+            ],
+            [
+              "هُنَاكَ",
+              "there"
+            ]
+          ]
+        },
+        {
+          "id": "airport-checkin-l12",
+          "sp": "clerk",
+          "ar": "مِنَ الْبَوَّابَة رَقْم ثَلَاثَة، فِي السَّاعَة السَّابِعَة. رِحْلَة سَعِيدَة، وَلَا تَشْتَرِ هَدَايَا أُخْرَى!",
+          "en": "From gate number three, at seven o'clock. Have a good flight, and don't buy any more presents!",
+          "segs": [
+            [
+              "مِنَ",
+              "from"
+            ],
+            [
+              "الْبَوَّابَة",
+              "the gate"
+            ],
+            [
+              "رَقْم",
+              "number"
+            ],
+            [
+              "ثَلَاثَة",
+              "three"
+            ],
+            [
+              "فِي",
+              "at"
+            ],
+            [
+              "السَّاعَة",
+              "the hour, o'clock"
+            ],
+            [
+              "السَّابِعَة",
+              "the seventh"
+            ],
+            [
+              "رِحْلَة",
+              "(have a) trip, flight"
+            ],
+            [
+              "سَعِيدَة",
+              "happy (f)"
+            ],
+            [
+              "وَلَا",
+              "and don't"
+            ],
+            [
+              "تَشْتَرِ",
+              "buy (to a man)"
+            ],
+            [
+              "هَدَايَا",
+              "presents, gifts"
+            ],
+            [
+              "أُخْرَى",
+              "other, more (f)"
+            ]
+          ]
+        }
+      ]
+    },
+    "mistakes": [
+      {
+        "wrong": "عَشَرَةُ دَنَانِير لِكُلِّ كِيلُو؟ هٰذَا غَالٍ مِنَ الْهَدَايَا!",
+        "right": "عَشَرَةُ دَنَانِير لِكُلِّ كِيلُو؟ هٰذَا أَغْلَى مِنَ الْهَدَايَا!",
+        "why": "'More expensive than' is aghlā min; ghālin min does not compare."
+      },
+      {
+        "wrong": "هَلْ مِنَ الْمُمْكِن أَنْ آخُذُ بَعْضَ الْأَشْيَاء؟",
+        "right": "هَلْ مِنَ الْمُمْكِن أَنْ آخُذَ بَعْضَ الْأَشْيَاء؟",
+        "why": "After an the verb ends in -a: an ākhudha."
+      }
+    ],
+    "quiz": [
+      {
+        "id": "airport-checkin-q1",
+        "prompt": "How heavy is the suitcase at first?",
+        "options": [
+          "23 kilos",
+          "30 kilos",
+          "7 kilos",
+          "10 kilos"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "airport-checkin-q2",
+        "prompt": "What does Daniel take out of the suitcase?",
+        "options": [
+          "his passport",
+          "the presents for Sami",
+          "the books and the keffiyeh",
+          "nothing"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "airport-checkin-q3",
+        "prompt": "What does this mean?",
+        "ar": "أَغْلَى مِنَ الْهَدَايَا",
+        "options": [
+          "cheaper than the presents",
+          "more expensive than the presents",
+          "the most expensive present",
+          "as expensive as the presents"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "airport-checkin-q4",
+        "prompt": "Which gate does the plane leave from?",
+        "options": [
+          "gate 7",
+          "gate 13",
+          "gate 23",
+          "gate 3"
+        ],
+        "answer": 3
+      }
+    ]
+  },
+  {
+    "id": "hotel-reception",
+    "title": "At the hotel reception",
+    "emoji": "🛎️",
+    "status": "needs-review",
+    "intro": "Daniel arrives at a small hotel near Petra and soon has to go back to the reception desk. Useful phrases: لَوْ سَمَحْتِ (excuse me, to a woman), عِنْدِي مُشْكِلَة (I have a problem) and أَرْجُو أَنْ… (please…).",
+    "dialogue": {
+      "title": "A room that is too hot",
+      "speakers": [
+        {
+          "key": "salma",
+          "name": "Salma",
+          "nameAr": "سَلْمَى"
+        },
+        {
+          "key": "daniel",
+          "name": "Daniel",
+          "nameAr": "دَانْيَال"
+        }
+      ],
+      "culture": "Small hotels in Wadi Musa are often family businesses, and the receptionist is happy to help with taxis, restaurants and tickets for Petra. If something in your room does not work, go to the desk and say politely لَوْ سَمَحْتِ، عِنْدِي مُشْكِلَة.",
+      "lines": [
+        {
+          "id": "hotel-reception-l1",
+          "sp": "salma",
+          "ar": "مَسَاءُ الْخَيْر، وَأَهْلًا بِكُمْ فِي فُنْدُقِ الْوَادِي! هَلْ عِنْدَكُمْ حَجْز؟",
+          "en": "Good evening, and welcome to the Valley Hotel! Do you have a booking?",
+          "segs": [
+            [
+              "مَسَاءُ",
+              "evening (of)"
+            ],
+            [
+              "الْخَيْر",
+              "the goodness"
+            ],
+            [
+              "وَأَهْلًا",
+              "and welcome"
+            ],
+            [
+              "بِكُمْ",
+              "(with) you (to several people)"
+            ],
+            [
+              "فِي",
+              "in, to"
+            ],
+            [
+              "فُنْدُقِ",
+              "hotel (of)"
+            ],
+            [
+              "الْوَادِي",
+              "the valley ('Valley Hotel')"
+            ],
+            [
+              "هَلْ",
+              "(starts a yes/no question)"
+            ],
+            [
+              "عِنْدَكُمْ",
+              "you have (to several people)"
+            ],
+            [
+              "حَجْز",
+              "a booking, a reservation"
+            ]
+          ]
+        },
+        {
+          "id": "hotel-reception-l2",
+          "sp": "daniel",
+          "ar": "مَسَاءُ النُّور. نَعَم، الْحَجْز بِاسْمِ لَيْلَى: غُرْفَتَانِ لِلَيْلَةِ السَّبْت.",
+          "en": "Good evening. Yes, the booking is in Layla's name: two rooms for Saturday night.",
+          "segs": [
+            [
+              "مَسَاءُ",
+              "evening (of)"
+            ],
+            [
+              "النُّور",
+              "the light"
+            ],
+            [
+              "نَعَم",
+              "yes"
+            ],
+            [
+              "الْحَجْز",
+              "the booking"
+            ],
+            [
+              "بِاسْمِ",
+              "in the name of"
+            ],
+            [
+              "لَيْلَى",
+              "Layla (first name)",
+              "name"
+            ],
+            [
+              "غُرْفَتَانِ",
+              "two rooms"
+            ],
+            [
+              "لِلَيْلَةِ",
+              "for the night (of)"
+            ],
+            [
+              "السَّبْت",
+              "Saturday"
+            ]
+          ]
+        },
+        {
+          "id": "hotel-reception-l3",
+          "sp": "salma",
+          "ar": "أَهْلًا! أَنْتُمْ أَصْدِقَاءُ لَيْلَى. تَفَضَّلْ، هٰذَا مِفْتَاحُ الْغُرْفَة الْكَبِيرَة، رَقْم مِئَة وَعَشَرَة، فِي الطَّابِق الْأَوَّل.",
+          "en": "Welcome! You're Layla's friends. Here you are, this is the key to the big room, number one hundred and ten, on the first floor.",
+          "segs": [
+            [
+              "أَهْلًا",
+              "welcome"
+            ],
+            [
+              "أَنْتُمْ",
+              "you (to several people)"
+            ],
+            [
+              "أَصْدِقَاءُ",
+              "friends (of)"
+            ],
+            [
+              "لَيْلَى",
+              "Layla (first name)",
+              "name"
+            ],
+            [
+              "تَفَضَّلْ",
+              "here you are (to a man)"
+            ],
+            [
+              "هٰذَا",
+              "this (m)"
+            ],
+            [
+              "مِفْتَاحُ",
+              "key (of)"
+            ],
+            [
+              "الْغُرْفَة",
+              "the room"
+            ],
+            [
+              "الْكَبِيرَة",
+              "the big (f)"
+            ],
+            [
+              "رَقْم",
+              "number"
+            ],
+            [
+              "مِئَة",
+              "hundred"
+            ],
+            [
+              "وَعَشَرَة",
+              "and ten"
+            ],
+            [
+              "فِي",
+              "on"
+            ],
+            [
+              "الطَّابِق",
+              "the floor"
+            ],
+            [
+              "الْأَوَّل",
+              "the first"
+            ]
+          ]
+        },
+        {
+          "id": "hotel-reception-l4",
+          "sp": "daniel",
+          "ar": "لَوْ سَمَحْتِ، عِنْدِي مُشْكِلَة. الْمُكَيِّف فِي الْغُرْفَة لَا يَعْمَلُ، وَالْغُرْفَة حَارَّة جِدًّا.",
+          "en": "Excuse me, I have a problem. The air conditioning in the room doesn't work, and the room is very hot.",
+          "segs": [
+            [
+              "لَوْ",
+              "if"
+            ],
+            [
+              "سَمَحْتِ",
+              "you allow (to a woman)"
+            ],
+            [
+              "عِنْدِي",
+              "I have (lit. at me)"
+            ],
+            [
+              "مُشْكِلَة",
+              "problem"
+            ],
+            [
+              "الْمُكَيِّف",
+              "the air conditioner"
+            ],
+            [
+              "فِي",
+              "in"
+            ],
+            [
+              "الْغُرْفَة",
+              "the room"
+            ],
+            [
+              "لَا",
+              "not"
+            ],
+            [
+              "يَعْمَلُ",
+              "it works (m)"
+            ],
+            [
+              "وَالْغُرْفَة",
+              "and the room"
+            ],
+            [
+              "حَارَّة",
+              "hot (f)"
+            ],
+            [
+              "جِدًّا",
+              "very"
+            ]
+          ]
+        },
+        {
+          "id": "hotel-reception-l5",
+          "sp": "salma",
+          "ar": "آسِفَة جِدًّا! هَلْ تُرِيدُ غُرْفَة أُخْرَى؟ عِنْدَنَا غُرْفَة أَكْبَرُ وَأَهْدَأُ فِي الطَّابِق الثَّانِي.",
+          "en": "I'm very sorry! Would you like another room? We have a bigger, quieter room on the second floor.",
+          "segs": [
+            [
+              "آسِفَة",
+              "sorry (said by a woman)"
+            ],
+            [
+              "جِدًّا",
+              "very"
+            ],
+            [
+              "هَلْ",
+              "(starts a yes/no question)"
+            ],
+            [
+              "تُرِيدُ",
+              "you want (to a man)"
+            ],
+            [
+              "غُرْفَة",
+              "a room"
+            ],
+            [
+              "أُخْرَى",
+              "other, another (f)"
+            ],
+            [
+              "عِنْدَنَا",
+              "we have (lit. at us)"
+            ],
+            [
+              "غُرْفَة",
+              "a room"
+            ],
+            [
+              "أَكْبَرُ",
+              "bigger"
+            ],
+            [
+              "وَأَهْدَأُ",
+              "and quieter"
+            ],
+            [
+              "فِي",
+              "on"
+            ],
+            [
+              "الطَّابِق",
+              "the floor"
+            ],
+            [
+              "الثَّانِي",
+              "the second"
+            ]
+          ]
+        },
+        {
+          "id": "hotel-reception-l6",
+          "sp": "daniel",
+          "ar": "نَعَم، مِنْ فَضْلِكِ. هَلْ مِنَ الْمُمْكِن أَنْ أَرَاهَا أَوَّلًا؟",
+          "en": "Yes, please. Is it possible to see it first?",
+          "segs": [
+            [
+              "نَعَم",
+              "yes"
+            ],
+            [
+              "مِنْ",
+              "from"
+            ],
+            [
+              "فَضْلِكِ",
+              "your kindness (to a woman): 'please'"
+            ],
+            [
+              "هَلْ",
+              "(starts a yes/no question)"
+            ],
+            [
+              "مِنَ",
+              "of, from"
+            ],
+            [
+              "الْمُمْكِن",
+              "the possible ('is it possible')"
+            ],
+            [
+              "أَنْ",
+              "to, that"
+            ],
+            [
+              "أَرَاهَا",
+              "I see it (f)"
+            ],
+            [
+              "أَوَّلًا",
+              "first, firstly"
+            ]
+          ]
+        },
+        {
+          "id": "hotel-reception-l7",
+          "sp": "salma",
+          "ar": "طَبْعًا. تَفَضَّلْ، هٰذَا مِفْتَاحُ الْغُرْفَة رَقْم خَمْسَة فِي الطَّابِق الثَّانِي. الْمِصْعَد عَلَى الْيَسَار.",
+          "en": "Of course. Here you are, this is the key to room number five on the second floor. The lift is on the left.",
+          "segs": [
+            [
+              "طَبْعًا",
+              "of course"
+            ],
+            [
+              "تَفَضَّلْ",
+              "here you are (to a man)"
+            ],
+            [
+              "هٰذَا",
+              "this (m)"
+            ],
+            [
+              "مِفْتَاحُ",
+              "key (of)"
+            ],
+            [
+              "الْغُرْفَة",
+              "the room"
+            ],
+            [
+              "رَقْم",
+              "number"
+            ],
+            [
+              "خَمْسَة",
+              "five"
+            ],
+            [
+              "فِي",
+              "on"
+            ],
+            [
+              "الطَّابِق",
+              "the floor"
+            ],
+            [
+              "الثَّانِي",
+              "the second"
+            ],
+            [
+              "الْمِصْعَد",
+              "the lift, the elevator"
+            ],
+            [
+              "عَلَى",
+              "on"
+            ],
+            [
+              "الْيَسَار",
+              "the left"
+            ]
+          ]
+        },
+        {
+          "id": "hotel-reception-l8",
+          "sp": "daniel",
+          "ar": "الْغُرْفَة الْجَدِيدَة أَفْضَلُ بِكَثِير، وَالْمُكَيِّف يَعْمَلُ. شُكْرًا! سُؤَال آخَر: أَيْنَ نَأْكُلُ الْعَشَاء؟",
+          "en": "The new room is much better, and the air conditioning works. Thank you! Another question: where can we have dinner?",
+          "segs": [
+            [
+              "الْغُرْفَة",
+              "the room"
+            ],
+            [
+              "الْجَدِيدَة",
+              "the new (f)"
+            ],
+            [
+              "أَفْضَلُ",
+              "better"
+            ],
+            [
+              "بِكَثِير",
+              "by a lot ('much')"
+            ],
+            [
+              "وَالْمُكَيِّف",
+              "and the air conditioner"
+            ],
+            [
+              "يَعْمَلُ",
+              "it works (m)"
+            ],
+            [
+              "شُكْرًا",
+              "thank you"
+            ],
+            [
+              "سُؤَال",
+              "question"
+            ],
+            [
+              "آخَر",
+              "another, other"
+            ],
+            [
+              "أَيْنَ",
+              "where"
+            ],
+            [
+              "نَأْكُلُ",
+              "we eat"
+            ],
+            [
+              "الْعَشَاء",
+              "the dinner"
+            ]
+          ]
+        },
+        {
+          "id": "hotel-reception-l9",
+          "sp": "salma",
+          "ar": "مَطْعَمُ الْفُنْدُق مَفْتُوح حَتَّى السَّاعَة الْعَاشِرَة، وَهُوَ أَرْخَصُ مِنْ مَطَاعِمِ الْمَدِينَة.",
+          "en": "The hotel restaurant is open until ten o'clock, and it's cheaper than the restaurants in town.",
+          "segs": [
+            [
+              "مَطْعَمُ",
+              "restaurant (of)"
+            ],
+            [
+              "الْفُنْدُق",
+              "the hotel"
+            ],
+            [
+              "مَفْتُوح",
+              "open"
+            ],
+            [
+              "حَتَّى",
+              "until"
+            ],
+            [
+              "السَّاعَة",
+              "the hour, o'clock"
+            ],
+            [
+              "الْعَاشِرَة",
+              "the tenth"
+            ],
+            [
+              "وَهُوَ",
+              "and it (m)"
+            ],
+            [
+              "أَرْخَصُ",
+              "cheaper"
+            ],
+            [
+              "مِنْ",
+              "than"
+            ],
+            [
+              "مَطَاعِمِ",
+              "restaurants (of)"
+            ],
+            [
+              "الْمَدِينَة",
+              "the town, the city"
+            ]
+          ]
+        },
+        {
+          "id": "hotel-reception-l10",
+          "sp": "daniel",
+          "ar": "مُمْتَاز. وَأَرْجُو أَنْ تَطْلُبِي لَنَا تَاكْسِي غَدًا فِي السَّاعَة السَّادِسَة وَالنِّصْف إِلَى مَدْخَلِ الْبَتْرَاء.",
+          "en": "Excellent. And please order us a taxi tomorrow at half past six to the entrance of Petra.",
+          "segs": [
+            [
+              "مُمْتَاز",
+              "excellent"
+            ],
+            [
+              "وَأَرْجُو",
+              "and I ask ('please')"
+            ],
+            [
+              "أَنْ",
+              "to, that"
+            ],
+            [
+              "تَطْلُبِي",
+              "you order (to a woman, after an)"
+            ],
+            [
+              "لَنَا",
+              "for us"
+            ],
+            [
+              "تَاكْسِي",
+              "taxi"
+            ],
+            [
+              "غَدًا",
+              "tomorrow"
+            ],
+            [
+              "فِي",
+              "at"
+            ],
+            [
+              "السَّاعَة",
+              "the hour, o'clock"
+            ],
+            [
+              "السَّادِسَة",
+              "the sixth"
+            ],
+            [
+              "وَالنِّصْف",
+              "and the half"
+            ],
+            [
+              "إِلَى",
+              "to"
+            ],
+            [
+              "مَدْخَلِ",
+              "entrance (of)"
+            ],
+            [
+              "الْبَتْرَاء",
+              "Petra (ancient city in Jordan)",
+              "name"
+            ]
+          ]
+        },
+        {
+          "id": "hotel-reception-l11",
+          "sp": "salma",
+          "ar": "بِكُلِّ سُرُور. التَّاكْسِي يَنْتَظِرُكُمْ أَمَامَ الْفُنْدُق، وَالْفُطُور يَبْدَأُ فِي السَّاعَة السَّادِسَة.",
+          "en": "With pleasure. The taxi will wait for you in front of the hotel, and breakfast starts at six o'clock.",
+          "segs": [
+            [
+              "بِكُلِّ",
+              "with all (of)"
+            ],
+            [
+              "سُرُور",
+              "pleasure"
+            ],
+            [
+              "التَّاكْسِي",
+              "the taxi"
+            ],
+            [
+              "يَنْتَظِرُكُمْ",
+              "it waits for you (to several people)"
+            ],
+            [
+              "أَمَامَ",
+              "in front of"
+            ],
+            [
+              "الْفُنْدُق",
+              "the hotel"
+            ],
+            [
+              "وَالْفُطُور",
+              "and the breakfast"
+            ],
+            [
+              "يَبْدَأُ",
+              "it starts (m)"
+            ],
+            [
+              "فِي",
+              "at"
+            ],
+            [
+              "السَّاعَة",
+              "the hour, o'clock"
+            ],
+            [
+              "السَّادِسَة",
+              "the sixth"
+            ]
+          ]
+        },
+        {
+          "id": "hotel-reception-l12",
+          "sp": "daniel",
+          "ar": "شُكْرًا جَزِيلًا عَلَى الْمُسَاعَدَة! تُصْبِحِينَ عَلَى خَيْر.",
+          "en": "Thank you very much for your help! Good night.",
+          "segs": [
+            [
+              "شُكْرًا",
+              "thank you"
+            ],
+            [
+              "جَزِيلًا",
+              "very much"
+            ],
+            [
+              "عَلَى",
+              "for"
+            ],
+            [
+              "الْمُسَاعَدَة",
+              "the help"
+            ],
+            [
+              "تُصْبِحِينَ",
+              "you wake up (to a woman)"
+            ],
+            [
+              "عَلَى",
+              "on, to"
+            ],
+            [
+              "خَيْر",
+              "goodness ('good night')"
+            ]
+          ]
+        }
+      ]
+    },
+    "mistakes": [
+      {
+        "wrong": "لَوْ سَمَحْتَ، عِنْدِي مُشْكِلَة. (to Salma)",
+        "right": "لَوْ سَمَحْتِ، عِنْدِي مُشْكِلَة.",
+        "why": "Salma is a woman, so say law samaḥti."
+      },
+      {
+        "wrong": "الْغُرْفَة الْجَدِيدَة أَفْضَلَة.",
+        "right": "الْغُرْفَة الْجَدِيدَة أَفْضَلُ.",
+        "why": "The comparative never changes for a feminine word: afḍal."
+      }
+    ],
+    "quiz": [
+      {
+        "id": "hotel-reception-q1",
+        "prompt": "What is wrong with the first room?",
+        "options": [
+          "there is no hot water",
+          "the air conditioning doesn't work",
+          "it is too small",
+          "there is no key"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "hotel-reception-q2",
+        "prompt": "What time will the taxi come?",
+        "options": [
+          "at six",
+          "at seven",
+          "at ten",
+          "at half past six"
+        ],
+        "answer": 3
+      },
+      {
+        "id": "hotel-reception-q3",
+        "prompt": "What does this mean?",
+        "ar": "أَرْخَصُ مِنْ مَطَاعِمِ الْمَدِينَة",
+        "options": [
+          "cheaper than the restaurants in town",
+          "more expensive than the restaurants in town",
+          "the cheapest restaurant in town",
+          "as cheap as the restaurants in town"
+        ],
+        "answer": 0
+      }
+    ]
   }
 ]

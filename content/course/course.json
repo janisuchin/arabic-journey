@@ -1437,7 +1437,122 @@
      "title": "Sightseeing"
     }
    ],
-   "test": []
+   "test": [
+    {
+     "id": "w9t1",
+     "prompt": "What does this mean?",
+     "ar": "جَوَازُ السَّفَر",
+     "options": [
+      "ticket",
+      "passport",
+      "gate",
+      "suitcase"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "w9t2",
+     "prompt": "Ask politely: 'Could I sit by the window?'",
+     "options": [
+      "أَجْلِسُ بِجَانِبِ النَّافِذَة.",
+      "اِجْلِسْ بِجَانِبِ النَّافِذَة!",
+      "هَلْ مِنَ الْمُمْكِن أَنْ أَجْلِسَ بِجَانِبِ النَّافِذَة؟",
+      "هَلْ أَنْتَ بِجَانِبِ النَّافِذَة؟"
+     ],
+     "answer": 2
+    },
+    {
+     "id": "w9t3",
+     "prompt": "Say 'Excuse me' to a woman.",
+     "options": [
+      "لَوْ سَمَحْتَ",
+      "تَفَضَّلْ",
+      "مِنْ فَضْلِكَ",
+      "لَوْ سَمَحْتِ"
+     ],
+     "answer": 3
+    },
+    {
+     "id": "w9t4",
+     "prompt": "Which word means 'night'?",
+     "options": [
+      "لَيْلَى",
+      "لَيْلَة",
+      "حَجْز",
+      "غُرْفَة"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "w9t5",
+     "prompt": "Choose the right past form: 'I said'",
+     "options": [
+      "قُلْتُ",
+      "قَالَ",
+      "يَقُولُ",
+      "قَالَتْ"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "w9t6",
+     "prompt": "What does this mean?",
+     "ar": "لَمْ نَزُرْهَا أَبَدًا.",
+     "options": [
+      "We visit it every day.",
+      "We will visit it.",
+      "We visited it once.",
+      "We have never visited it."
+     ],
+     "answer": 3
+    },
+    {
+     "id": "w9t7",
+     "prompt": "Complete: 'Can you help me?'",
+     "ar": "هَلْ تَسْتَطِيعُ أَنْ …؟",
+     "options": [
+      "تُسَاعِدَنِي",
+      "تُسَاعِدَ أَنَا",
+      "سَاعِدْنِي",
+      "أُسَاعِدُكَ"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "w9t8",
+     "prompt": "Choose the correct sentence: 'Cairo is bigger than Amman.'",
+     "options": [
+      "الْقَاهِرَة كَبِيرَة مِنْ عَمَّان.",
+      "الْقَاهِرَة أَكْبَرُ مِنْ عَمَّان.",
+      "الْقَاهِرَة الْأَكْبَر عَمَّان.",
+      "عَمَّان أَكْبَرُ مِنَ الْقَاهِرَة."
+     ],
+     "answer": 1
+    },
+    {
+     "id": "w9t9",
+     "prompt": "What does this mean?",
+     "ar": "عَمَّان أَكْبَرُ مَدِينَة فِي الْأُرْدُنّ.",
+     "options": [
+      "Amman is a big city in Jordan.",
+      "Amman is bigger than Jordan.",
+      "Amman is the biggest city in Jordan.",
+      "Amman is the oldest city in Jordan."
+     ],
+     "answer": 2
+    },
+    {
+     "id": "w9t10",
+     "prompt": "Which word means 'more expensive'?",
+     "options": [
+      "غَالِيَة",
+      "الْغَالِي",
+      "أَكْبَرُ",
+      "أَغْلَى"
+     ],
+     "answer": 3
+    }
+   ]
   },
   {
    "week": 10,

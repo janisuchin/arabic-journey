@@ -1,0 +1,1543 @@
+{
+  "day": 57,
+  "week": 9,
+  "phase": 5,
+  "level": 6,
+  "title": "At the airport",
+  "titleAr": "فِي الْمَطَار",
+  "titleSegs": [
+    [
+      "فِي",
+      "at, in"
+    ],
+    [
+      "الْمَطَار",
+      "the airport"
+    ]
+  ],
+  "emoji": "✈️",
+  "summary": "Check in for a flight, show your passport, find your gate and ask politely whether something is possible with هَلْ مِنَ الْمُمْكِن أَنْ…؟",
+  "intro": "Daniel and Layla are flying from Cairo to Amman to visit their friend Yusuf, who is back home in Jordan. At the airport you need one polite question more than any other: هَلْ مِنَ الْمُمْكِن أَنْ…؟ (is it possible to…?). After أَنْ comes a verb that shows the person and ends in -a: هَلْ مِنَ الْمُمْكِن أَنْ أَجْلِسَ بِجَانِبِ النَّافِذَة؟ (could I sit by the window?). The friendly answer is نَعَم، مُمْكِن (yes, that's possible).",
+  "objectives": [
+    "Check in for a flight: show your passport and give your bags",
+    "Ask politely with هَلْ مِنَ الْمُمْكِن أَنْ…؟ and answer with مُمْكِن",
+    "Use six airport words: airport, plane, passport, passenger, gate and seat",
+    "Say where you are flying to and when the plane leaves"
+  ],
+  "realLife": {
+    "emoji": "🛫",
+    "title": "An afternoon at Cairo Airport",
+    "story": "Layla says you should always be at the airport two hours early, and she is right: the queue at the check-in desk is long. Daniel has his passport ready, asks for a window seat, and keeps one small bag with him for the short flight to Amman, where Yusuf is waiting."
+  },
+  "letters": [],
+  "newWords": [
+    "matar-w9",
+    "taira",
+    "jawaz-safar",
+    "musafir",
+    "bawwaba",
+    "maqad",
+    "wazn",
+    "yughadiru",
+    "yantaziru",
+    "mumkin"
+  ],
+  "grammar": [
+    "mumkin",
+    "an-subjunctive"
+  ],
+  "pronunciation": [
+    "sin-sad"
+  ],
+  "sentences": [
+    {
+      "id": "d57s1",
+      "ar": "هَلْ مِنَ الْمُمْكِن أَنْ أَجْلِسَ بِجَانِبِ النَّافِذَة؟",
+      "en": "Could I sit by the window?",
+      "literal": "is it of the possible that I sit beside the window?",
+      "segs": [
+        [
+          "هَلْ",
+          "(starts a yes/no question)",
+          "question"
+        ],
+        [
+          "مِنَ",
+          "of, from",
+          "prep"
+        ],
+        [
+          "الْمُمْكِن",
+          "the possible ('is it possible')",
+          "adj"
+        ],
+        [
+          "أَنْ",
+          "to, that",
+          "particle"
+        ],
+        [
+          "أَجْلِسَ",
+          "I sit (after an)",
+          "verb"
+        ],
+        [
+          "بِجَانِبِ",
+          "next to, beside",
+          "prep"
+        ],
+        [
+          "النَّافِذَة",
+          "the window",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "mumkin",
+        "an-subjunctive"
+      ],
+      "mistakes": [
+        {
+          "wrong": "هَلْ مِنَ الْمُمْكِن أَنْ أَجْلِسُ بِجَانِبِ النَّافِذَة؟",
+          "right": "هَلْ مِنَ الْمُمْكِن أَنْ أَجْلِسَ بِجَانِبِ النَّافِذَة؟",
+          "why": "After an the verb ends in -a, not -u: an ajlisa."
+        }
+      ]
+    },
+    {
+      "id": "d57s2",
+      "ar": "الطَّائِرَة تُغَادِرُ مِنَ الْبَوَّابَة رَقْم سَبْعَة.",
+      "en": "The plane leaves from gate number seven.",
+      "literal": "the plane leaves from the gate number seven",
+      "segs": [
+        [
+          "الطَّائِرَة",
+          "the plane",
+          "noun"
+        ],
+        [
+          "تُغَادِرُ",
+          "it leaves (f)",
+          "verb"
+        ],
+        [
+          "مِنَ",
+          "from",
+          "prep"
+        ],
+        [
+          "الْبَوَّابَة",
+          "the gate",
+          "noun"
+        ],
+        [
+          "رَقْم",
+          "number",
+          "noun"
+        ],
+        [
+          "سَبْعَة",
+          "seven",
+          "number"
+        ]
+      ],
+      "grammar": [
+        "present-tense"
+      ],
+      "mistakes": [
+        {
+          "wrong": "الطَّائِرَة يُغَادِرُ مِنَ الْبَوَّابَة رَقْم سَبْعَة.",
+          "right": "الطَّائِرَة تُغَادِرُ مِنَ الْبَوَّابَة رَقْم سَبْعَة.",
+          "why": "ṭāʾira (plane) is feminine, so the verb starts with t-: tughādiru."
+        }
+      ]
+    },
+    {
+      "id": "d57s3",
+      "ar": "هٰذَا جَوَازُ سَفَرِي.",
+      "en": "This is my passport.",
+      "literal": "this (is the) permit (of) my travel",
+      "segs": [
+        [
+          "هٰذَا",
+          "this (m)",
+          "demonstrative"
+        ],
+        [
+          "جَوَازُ",
+          "permit (of)",
+          "noun"
+        ],
+        [
+          "سَفَرِي",
+          "my travel ('my passport')",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "idafa",
+        "possessive"
+      ],
+      "mistakes": [
+        {
+          "wrong": "هٰذَا جَوَازِي السَّفَر.",
+          "right": "هٰذَا جَوَازُ سَفَرِي.",
+          "why": "In an iḍāfa the ending 'my' goes on the last word, and that word loses al-: jawāzu safarī."
+        }
+      ]
+    },
+    {
+      "id": "d57s4",
+      "ar": "الْمُسَافِرُونَ يَنْتَظِرُونَ عِنْدَ الْبَوَّابَة.",
+      "en": "The passengers are waiting at the gate.",
+      "literal": "the travellers they wait at the gate",
+      "segs": [
+        [
+          "الْمُسَافِرُونَ",
+          "the passengers, the travellers",
+          "noun"
+        ],
+        [
+          "يَنْتَظِرُونَ",
+          "they wait",
+          "verb"
+        ],
+        [
+          "عِنْدَ",
+          "at",
+          "prep"
+        ],
+        [
+          "الْبَوَّابَة",
+          "the gate",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "present-tense",
+        "sound-plurals"
+      ]
+    },
+    {
+      "id": "d57s5",
+      "ar": "مُمْكِن أَنْ آخُذَ هٰذِهِ الْحَقِيبَة مَعِي؟",
+      "en": "Can I take this bag with me?",
+      "literal": "possible that I take this bag with me?",
+      "segs": [
+        [
+          "مُمْكِن",
+          "possible",
+          "adj"
+        ],
+        [
+          "أَنْ",
+          "to, that",
+          "particle"
+        ],
+        [
+          "آخُذَ",
+          "I take (after an)",
+          "verb"
+        ],
+        [
+          "هٰذِهِ",
+          "this (f)",
+          "demonstrative"
+        ],
+        [
+          "الْحَقِيبَة",
+          "the bag",
+          "noun"
+        ],
+        [
+          "مَعِي",
+          "with me",
+          "prep"
+        ]
+      ],
+      "grammar": [
+        "mumkin"
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Checking in for Amman",
+    "speakers": [
+      {
+        "key": "layla",
+        "name": "Layla",
+        "nameAr": "لَيْلَى"
+      },
+      {
+        "key": "daniel",
+        "name": "Daniel",
+        "nameAr": "دَانْيَال"
+      },
+      {
+        "key": "clerk",
+        "name": "Clerk",
+        "nameAr": "الْمُوَظَّفَة"
+      }
+    ],
+    "culture": "The flight from Cairo to Amman takes about an hour and a half. On flights in the Arab world announcements are usually made in Arabic first and then in English, so listen for الرِّحْلَة (the flight), الْبَوَّابَة (the gate) and الْمُسَافِرِينَ (the passengers). Egyptians and Jordanians often call the queue الطَّابُور.",
+    "lines": [
+      {
+        "id": "d57l1",
+        "sp": "layla",
+        "ar": "مَسَاءُ الْخَيْر يَا دَانْيَال! رِحْلَتُنَا إِلَى عَمَّان فِي السَّاعَة السَّادِسَة، وَالْمَطَار مُزْدَحِم جِدًّا الْيَوْمَ.",
+        "en": "Good afternoon, Daniel! Our flight to Amman is at six o'clock, and the airport is very busy today.",
+        "segs": [
+          [
+            "مَسَاءُ",
+            "evening (of)"
+          ],
+          [
+            "الْخَيْر",
+            "the goodness"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "دَانْيَال",
+            "Daniel (first name)",
+            "name"
+          ],
+          [
+            "رِحْلَتُنَا",
+            "our flight"
+          ],
+          [
+            "إِلَى",
+            "to"
+          ],
+          [
+            "عَمَّان",
+            "Amman (capital of Jordan)",
+            "name"
+          ],
+          [
+            "فِي",
+            "at"
+          ],
+          [
+            "السَّاعَة",
+            "the hour, o'clock"
+          ],
+          [
+            "السَّادِسَة",
+            "the sixth"
+          ],
+          [
+            "وَالْمَطَار",
+            "and the airport"
+          ],
+          [
+            "مُزْدَحِم",
+            "crowded, busy"
+          ],
+          [
+            "جِدًّا",
+            "very"
+          ],
+          [
+            "الْيَوْمَ",
+            "today"
+          ]
+        ]
+      },
+      {
+        "id": "d57l2",
+        "sp": "daniel",
+        "ar": "مَسَاءُ النُّور! أَنَا جَاهِز، وَمَعِي جَوَازُ السَّفَر وَالتَّذْكِرَة. أَيْنَ نَذْهَبُ الْآنَ؟",
+        "en": "Good afternoon! I'm ready, and I've got my passport and the ticket with me. Where do we go now?",
+        "segs": [
+          [
+            "مَسَاءُ",
+            "evening (of)"
+          ],
+          [
+            "النُّور",
+            "the light"
+          ],
+          [
+            "أَنَا",
+            "I"
+          ],
+          [
+            "جَاهِز",
+            "ready"
+          ],
+          [
+            "وَمَعِي",
+            "and with me"
+          ],
+          [
+            "جَوَازُ",
+            "permit (of)"
+          ],
+          [
+            "السَّفَر",
+            "the travel ('passport')"
+          ],
+          [
+            "وَالتَّذْكِرَة",
+            "and the ticket"
+          ],
+          [
+            "أَيْنَ",
+            "where"
+          ],
+          [
+            "نَذْهَبُ",
+            "we go"
+          ],
+          [
+            "الْآنَ",
+            "now"
+          ]
+        ]
+      },
+      {
+        "id": "d57l3",
+        "sp": "layla",
+        "ar": "أَوَّلًا نَذْهَبُ إِلَى مَكْتَبِ التَّسْجِيل. هُنَاكَ نُعْطِي الْحَقَائِب لِلْمُوَظَّفَة، وَنَأْخُذُ بِطَاقَةَ الصُّعُود.",
+        "en": "First we go to the check-in desk. There we give our suitcases to the clerk and get our boarding passes.",
+        "segs": [
+          [
+            "أَوَّلًا",
+            "first, firstly"
+          ],
+          [
+            "نَذْهَبُ",
+            "we go"
+          ],
+          [
+            "إِلَى",
+            "to"
+          ],
+          [
+            "مَكْتَبِ",
+            "desk, office (of)"
+          ],
+          [
+            "التَّسْجِيل",
+            "the check-in, registration"
+          ],
+          [
+            "هُنَاكَ",
+            "there"
+          ],
+          [
+            "نُعْطِي",
+            "we give"
+          ],
+          [
+            "الْحَقَائِب",
+            "the bags, the suitcases"
+          ],
+          [
+            "لِلْمُوَظَّفَة",
+            "to the clerk (f)"
+          ],
+          [
+            "وَنَأْخُذُ",
+            "and we take"
+          ],
+          [
+            "بِطَاقَةَ",
+            "card (of)"
+          ],
+          [
+            "الصُّعُود",
+            "the boarding ('boarding pass')"
+          ]
+        ]
+      },
+      {
+        "id": "d57l4",
+        "sp": "clerk",
+        "ar": "مَسَاءُ الْخَيْر! إِلَى أَيْنَ تُسَافِرَانِ الْيَوْمَ؟ هَلْ مِنَ الْمُمْكِن أَنْ أَرَى جَوَازَ السَّفَر، مِنْ فَضْلِكُمَا؟",
+        "en": "Good afternoon! Where are you two flying to today? May I see your passports, please?",
+        "segs": [
+          [
+            "مَسَاءُ",
+            "evening (of)"
+          ],
+          [
+            "الْخَيْر",
+            "the goodness"
+          ],
+          [
+            "إِلَى",
+            "to"
+          ],
+          [
+            "أَيْنَ",
+            "where"
+          ],
+          [
+            "تُسَافِرَانِ",
+            "you two travel"
+          ],
+          [
+            "الْيَوْمَ",
+            "today"
+          ],
+          [
+            "هَلْ",
+            "(starts a yes/no question)"
+          ],
+          [
+            "مِنَ",
+            "of, from"
+          ],
+          [
+            "الْمُمْكِن",
+            "the possible ('is it possible')"
+          ],
+          [
+            "أَنْ",
+            "to, that"
+          ],
+          [
+            "أَرَى",
+            "I see"
+          ],
+          [
+            "جَوَازَ",
+            "permit (of)"
+          ],
+          [
+            "السَّفَر",
+            "the travel ('passport')"
+          ],
+          [
+            "مِنْ",
+            "from"
+          ],
+          [
+            "فَضْلِكُمَا",
+            "your kindness (to two people): 'please'"
+          ]
+        ]
+      },
+      {
+        "id": "d57l5",
+        "sp": "daniel",
+        "ar": "نُسَافِرُ إِلَى عَمَّان لِنَزُورَ صَدِيقَنَا يُوسُف. تَفَضَّلِي، هٰذَا جَوَازُ سَفَرِي، وَهٰذَا جَوَازُ لَيْلَى.",
+        "en": "We're flying to Amman to visit our friend Yusuf. Here you are: this is my passport, and this is Layla's.",
+        "segs": [
+          [
+            "نُسَافِرُ",
+            "we travel"
+          ],
+          [
+            "إِلَى",
+            "to"
+          ],
+          [
+            "عَمَّان",
+            "Amman (capital of Jordan)",
+            "name"
+          ],
+          [
+            "لِنَزُورَ",
+            "so that we visit"
+          ],
+          [
+            "صَدِيقَنَا",
+            "our friend"
+          ],
+          [
+            "يُوسُف",
+            "Yusuf (first name)",
+            "name"
+          ],
+          [
+            "تَفَضَّلِي",
+            "here you are (to a woman)"
+          ],
+          [
+            "هٰذَا",
+            "this (m)"
+          ],
+          [
+            "جَوَازُ",
+            "permit (of)"
+          ],
+          [
+            "سَفَرِي",
+            "my travel ('my passport')"
+          ],
+          [
+            "وَهٰذَا",
+            "and this (m)"
+          ],
+          [
+            "جَوَازُ",
+            "permit (of)"
+          ],
+          [
+            "لَيْلَى",
+            "Layla (first name)",
+            "name"
+          ]
+        ]
+      },
+      {
+        "id": "d57l6",
+        "sp": "clerk",
+        "ar": "شُكْرًا. كَمْ حَقِيبَةً مَعَكُمَا؟ مِنْ فَضْلِكُمَا، ضَعَا الْحَقَائِب هُنَا عَلَى الْمِيزَان.",
+        "en": "Thank you. How many bags do you have with you? Please put the suitcases here on the scales.",
+        "segs": [
+          [
+            "شُكْرًا",
+            "thank you"
+          ],
+          [
+            "كَمْ",
+            "how many"
+          ],
+          [
+            "حَقِيبَةً",
+            "bag (after 'how many')"
+          ],
+          [
+            "مَعَكُمَا",
+            "with you two"
+          ],
+          [
+            "مِنْ",
+            "from"
+          ],
+          [
+            "فَضْلِكُمَا",
+            "your kindness (to two people): 'please'"
+          ],
+          [
+            "ضَعَا",
+            "put! (to two people)"
+          ],
+          [
+            "الْحَقَائِب",
+            "the bags, the suitcases"
+          ],
+          [
+            "هُنَا",
+            "here"
+          ],
+          [
+            "عَلَى",
+            "on"
+          ],
+          [
+            "الْمِيزَان",
+            "the scales"
+          ]
+        ]
+      },
+      {
+        "id": "d57l7",
+        "sp": "layla",
+        "ar": "حَقِيبَتَانِ كَبِيرَتَانِ فَقَطْ. وَهٰذِهِ الْحَقِيبَة الصَّغِيرَة حَقِيبَةُ يَد. هَلْ مِنَ الْمُمْكِن أَنْ آخُذَهَا مَعِي إِلَى الطَّائِرَة؟",
+        "en": "Just two big suitcases. And this small bag is hand luggage. Could I take it with me onto the plane?",
+        "segs": [
+          [
+            "حَقِيبَتَانِ",
+            "two bags"
+          ],
+          [
+            "كَبِيرَتَانِ",
+            "big (two, f)"
+          ],
+          [
+            "فَقَطْ",
+            "only, just"
+          ],
+          [
+            "وَهٰذِهِ",
+            "and this (f)"
+          ],
+          [
+            "الْحَقِيبَة",
+            "the bag"
+          ],
+          [
+            "الصَّغِيرَة",
+            "the small (f)"
+          ],
+          [
+            "حَقِيبَةُ",
+            "bag (of)"
+          ],
+          [
+            "يَد",
+            "hand ('hand luggage')"
+          ],
+          [
+            "هَلْ",
+            "(starts a yes/no question)"
+          ],
+          [
+            "مِنَ",
+            "of, from"
+          ],
+          [
+            "الْمُمْكِن",
+            "the possible ('is it possible')"
+          ],
+          [
+            "أَنْ",
+            "to, that"
+          ],
+          [
+            "آخُذَهَا",
+            "I take it (f)"
+          ],
+          [
+            "مَعِي",
+            "with me"
+          ],
+          [
+            "إِلَى",
+            "to"
+          ],
+          [
+            "الطَّائِرَة",
+            "the plane"
+          ]
+        ]
+      },
+      {
+        "id": "d57l8",
+        "sp": "clerk",
+        "ar": "نَعَم، مُمْكِن. وَزْنُ الْحَقِيبَتَيْنِ أَرْبَعُونَ كِيلُو، وَهٰذَا مُمْتَاز. الطَّائِرَة تُغَادِرُ مِنَ الْبَوَّابَة رَقْم سَبْعَة.",
+        "en": "Yes, that's possible. The two suitcases weigh forty kilos, and that's fine. The plane leaves from gate number seven.",
+        "segs": [
+          [
+            "نَعَم",
+            "yes"
+          ],
+          [
+            "مُمْكِن",
+            "possible"
+          ],
+          [
+            "وَزْنُ",
+            "weight (of)"
+          ],
+          [
+            "الْحَقِيبَتَيْنِ",
+            "the two suitcases"
+          ],
+          [
+            "أَرْبَعُونَ",
+            "forty"
+          ],
+          [
+            "كِيلُو",
+            "kilo, kilos"
+          ],
+          [
+            "وَهٰذَا",
+            "and this (m)"
+          ],
+          [
+            "مُمْتَاز",
+            "excellent"
+          ],
+          [
+            "الطَّائِرَة",
+            "the plane"
+          ],
+          [
+            "تُغَادِرُ",
+            "it leaves (f)"
+          ],
+          [
+            "مِنَ",
+            "from"
+          ],
+          [
+            "الْبَوَّابَة",
+            "the gate"
+          ],
+          [
+            "رَقْم",
+            "number"
+          ],
+          [
+            "سَبْعَة",
+            "seven"
+          ]
+        ]
+      },
+      {
+        "id": "d57l9",
+        "sp": "daniel",
+        "ar": "شُكْرًا. سُؤَال آخَر: هَلْ مِنَ الْمُمْكِن أَنْ أَجْلِسَ بِجَانِبِ النَّافِذَة؟ أُرِيدُ أَنْ أَرَى الْبَحْر الْأَحْمَر مِنَ السَّمَاء.",
+        "en": "Thank you. One more question: could I sit by the window? I want to see the Red Sea from the sky.",
+        "segs": [
+          [
+            "شُكْرًا",
+            "thank you"
+          ],
+          [
+            "سُؤَال",
+            "question"
+          ],
+          [
+            "آخَر",
+            "another, other"
+          ],
+          [
+            "هَلْ",
+            "(starts a yes/no question)"
+          ],
+          [
+            "مِنَ",
+            "of, from"
+          ],
+          [
+            "الْمُمْكِن",
+            "the possible ('is it possible')"
+          ],
+          [
+            "أَنْ",
+            "to, that"
+          ],
+          [
+            "أَجْلِسَ",
+            "I sit (after an)"
+          ],
+          [
+            "بِجَانِبِ",
+            "next to, beside"
+          ],
+          [
+            "النَّافِذَة",
+            "the window"
+          ],
+          [
+            "أُرِيدُ",
+            "I want"
+          ],
+          [
+            "أَنْ",
+            "to, that"
+          ],
+          [
+            "أَرَى",
+            "I see"
+          ],
+          [
+            "الْبَحْر",
+            "the sea"
+          ],
+          [
+            "الْأَحْمَر",
+            "the red ('the Red Sea')"
+          ],
+          [
+            "مِنَ",
+            "from"
+          ],
+          [
+            "السَّمَاء",
+            "the sky"
+          ]
+        ]
+      },
+      {
+        "id": "d57l10",
+        "sp": "clerk",
+        "ar": "لَحْظَة… نَعَم، مُمْكِن. مَقْعَدُكَ رَقْم خَمْسَةَ عَشَرَ بِجَانِبِ النَّافِذَة، وَمَقْعَدُ صَدِيقَتِكَ بِجَانِبِكَ.",
+        "en": "One moment… yes, that's possible. Your seat is number fifteen, by the window, and your friend's seat is next to you.",
+        "segs": [
+          [
+            "لَحْظَة",
+            "a moment"
+          ],
+          [
+            "نَعَم",
+            "yes"
+          ],
+          [
+            "مُمْكِن",
+            "possible"
+          ],
+          [
+            "مَقْعَدُكَ",
+            "your seat (to a man)"
+          ],
+          [
+            "رَقْم",
+            "number"
+          ],
+          [
+            "خَمْسَةَ",
+            "five"
+          ],
+          [
+            "عَشَرَ",
+            "ten (part of 'fifteen')"
+          ],
+          [
+            "بِجَانِبِ",
+            "next to, beside"
+          ],
+          [
+            "النَّافِذَة",
+            "the window"
+          ],
+          [
+            "وَمَقْعَدُ",
+            "and the seat (of)"
+          ],
+          [
+            "صَدِيقَتِكَ",
+            "your friend (f) (to a man)"
+          ],
+          [
+            "بِجَانِبِكَ",
+            "next to you (to a man)"
+          ]
+        ]
+      },
+      {
+        "id": "d57l11",
+        "sp": "daniel",
+        "ar": "مُمْتَاز، شُكْرًا جَزِيلًا! وَمَتَى يَجِبُ أَنْ نَكُونَ عِنْدَ الْبَوَّابَة؟",
+        "en": "Excellent, thank you very much! And when do we have to be at the gate?",
+        "segs": [
+          [
+            "مُمْتَاز",
+            "excellent"
+          ],
+          [
+            "شُكْرًا",
+            "thank you"
+          ],
+          [
+            "جَزِيلًا",
+            "very much"
+          ],
+          [
+            "وَمَتَى",
+            "and when"
+          ],
+          [
+            "يَجِبُ",
+            "must, it is necessary"
+          ],
+          [
+            "أَنْ",
+            "to, that"
+          ],
+          [
+            "نَكُونَ",
+            "we are, we be (after an)"
+          ],
+          [
+            "عِنْدَ",
+            "at"
+          ],
+          [
+            "الْبَوَّابَة",
+            "the gate"
+          ]
+        ]
+      },
+      {
+        "id": "d57l12",
+        "sp": "clerk",
+        "ar": "تَفَضَّلَا: هٰذِهِ بِطَاقَةُ الصُّعُود لَكَ، وَهٰذِهِ لَكِ. يَجِبُ أَنْ تَكُونَا عِنْدَ الْبَوَّابَة فِي السَّاعَة الْخَامِسَة وَالنِّصْف، قَبْلَ الرِّحْلَة بِنِصْفِ سَاعَة.",
+        "en": "Here you are: this is your boarding pass, and this one is yours. You must be at the gate at half past five, half an hour before the flight.",
+        "segs": [
+          [
+            "تَفَضَّلَا",
+            "here you are (to two people)"
+          ],
+          [
+            "هٰذِهِ",
+            "this (f)"
+          ],
+          [
+            "بِطَاقَةُ",
+            "card (of)"
+          ],
+          [
+            "الصُّعُود",
+            "the boarding ('boarding pass')"
+          ],
+          [
+            "لَكَ",
+            "for you (to a man)"
+          ],
+          [
+            "وَهٰذِهِ",
+            "and this (f)"
+          ],
+          [
+            "لَكِ",
+            "for you (to a woman)"
+          ],
+          [
+            "يَجِبُ",
+            "must, it is necessary"
+          ],
+          [
+            "أَنْ",
+            "to, that"
+          ],
+          [
+            "تَكُونَا",
+            "you two are, you two be (after an)"
+          ],
+          [
+            "عِنْدَ",
+            "at"
+          ],
+          [
+            "الْبَوَّابَة",
+            "the gate"
+          ],
+          [
+            "فِي",
+            "at"
+          ],
+          [
+            "السَّاعَة",
+            "the hour, o'clock"
+          ],
+          [
+            "الْخَامِسَة",
+            "the fifth"
+          ],
+          [
+            "وَالنِّصْف",
+            "and the half"
+          ],
+          [
+            "قَبْلَ",
+            "before"
+          ],
+          [
+            "الرِّحْلَة",
+            "the flight"
+          ],
+          [
+            "بِنِصْفِ",
+            "by half (of)"
+          ],
+          [
+            "سَاعَة",
+            "an hour"
+          ]
+        ]
+      },
+      {
+        "id": "d57l13",
+        "sp": "layla",
+        "ar": "شُكْرًا جَزِيلًا! يَا دَانْيَال، عِنْدَنَا سَاعَة قَبْلَ أَنْ نَذْهَبَ إِلَى الْبَوَّابَة. مَا رَأْيُكَ فِي فِنْجَانِ قَهْوَة؟",
+        "en": "Thank you very much! Daniel, we have an hour before we go to the gate. How about a cup of coffee?",
+        "segs": [
+          [
+            "شُكْرًا",
+            "thank you"
+          ],
+          [
+            "جَزِيلًا",
+            "very much"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "دَانْيَال",
+            "Daniel (first name)",
+            "name"
+          ],
+          [
+            "عِنْدَنَا",
+            "we have"
+          ],
+          [
+            "سَاعَة",
+            "an hour"
+          ],
+          [
+            "قَبْلَ",
+            "before"
+          ],
+          [
+            "أَنْ",
+            "(that)"
+          ],
+          [
+            "نَذْهَبَ",
+            "we go (after an)"
+          ],
+          [
+            "إِلَى",
+            "to"
+          ],
+          [
+            "الْبَوَّابَة",
+            "the gate"
+          ],
+          [
+            "مَا",
+            "what"
+          ],
+          [
+            "رَأْيُكَ",
+            "your opinion (to a man)"
+          ],
+          [
+            "فِي",
+            "in, about"
+          ],
+          [
+            "فِنْجَانِ",
+            "cup (of)"
+          ],
+          [
+            "قَهْوَة",
+            "coffee"
+          ]
+        ]
+      },
+      {
+        "id": "d57l14",
+        "sp": "daniel",
+        "ar": "فِكْرَة مُمْتَازَة! لٰكِنْ أَوَّلًا نَقِفُ فِي طَابُورِ الْجَوَازَات… كُلُّ الْمُسَافِرِينَ فِي الْقَاهِرَة هُنَا الْيَوْمَ!",
+        "en": "Excellent idea! But first we have to queue at passport control… every traveller in Cairo is here today!",
+        "segs": [
+          [
+            "فِكْرَة",
+            "idea"
+          ],
+          [
+            "مُمْتَازَة",
+            "excellent (f)"
+          ],
+          [
+            "لٰكِنْ",
+            "but"
+          ],
+          [
+            "أَوَّلًا",
+            "first, firstly"
+          ],
+          [
+            "نَقِفُ",
+            "we stand"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "طَابُورِ",
+            "queue (of)"
+          ],
+          [
+            "الْجَوَازَات",
+            "the passports ('passport control')"
+          ],
+          [
+            "كُلُّ",
+            "all (of), every"
+          ],
+          [
+            "الْمُسَافِرِينَ",
+            "the travellers, the passengers"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "الْقَاهِرَة",
+            "Cairo (capital of Egypt)",
+            "name"
+          ],
+          [
+            "هُنَا",
+            "here"
+          ],
+          [
+            "الْيَوْمَ",
+            "today"
+          ]
+        ]
+      },
+      {
+        "id": "d57l15",
+        "sp": "layla",
+        "ar": "لَا تَقْلَقْ، الطَّابُور سَرِيع. وَفِي عَمَّان يَنْتَظِرُنَا يُوسُف فِي الْمَطَار بِسَيَّارَتِهِ.",
+        "en": "Don't worry, the queue moves fast. And in Amman, Yusuf is waiting for us at the airport with his car.",
+        "segs": [
+          [
+            "لَا",
+            "don't"
+          ],
+          [
+            "تَقْلَقْ",
+            "worry (to a man)"
+          ],
+          [
+            "الطَّابُور",
+            "the queue"
+          ],
+          [
+            "سَرِيع",
+            "fast"
+          ],
+          [
+            "وَفِي",
+            "and in"
+          ],
+          [
+            "عَمَّان",
+            "Amman (capital of Jordan)",
+            "name"
+          ],
+          [
+            "يَنْتَظِرُنَا",
+            "he waits for us"
+          ],
+          [
+            "يُوسُف",
+            "Yusuf (first name)",
+            "name"
+          ],
+          [
+            "فِي",
+            "at"
+          ],
+          [
+            "الْمَطَار",
+            "the airport"
+          ],
+          [
+            "بِسَيَّارَتِهِ",
+            "with his car"
+          ]
+        ]
+      },
+      {
+        "id": "d57l16",
+        "sp": "daniel",
+        "ar": "رَائِع! فِي السَّاعَة الثَّامِنَة نَكُونُ فِي الْأُرْدُنّ. هٰذِهِ أَوَّلُ رِحْلَة لِي إِلَى بَلَد عَرَبِيّ آخَر!",
+        "en": "Great! At eight o'clock we'll be in Jordan. This is my first trip to another Arab country!",
+        "segs": [
+          [
+            "رَائِع",
+            "great, wonderful"
+          ],
+          [
+            "فِي",
+            "at"
+          ],
+          [
+            "السَّاعَة",
+            "the hour, o'clock"
+          ],
+          [
+            "الثَّامِنَة",
+            "the eighth"
+          ],
+          [
+            "نَكُونُ",
+            "we are, we will be"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "الْأُرْدُنّ",
+            "Jordan (country)",
+            "name"
+          ],
+          [
+            "هٰذِهِ",
+            "this (f)"
+          ],
+          [
+            "أَوَّلُ",
+            "the first (of)"
+          ],
+          [
+            "رِحْلَة",
+            "trip"
+          ],
+          [
+            "لِي",
+            "for me, my"
+          ],
+          [
+            "إِلَى",
+            "to"
+          ],
+          [
+            "بَلَد",
+            "country"
+          ],
+          [
+            "عَرَبِيّ",
+            "Arab"
+          ],
+          [
+            "آخَر",
+            "another, other"
+          ]
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "title": "The flight to Amman",
+    "ar": "يَوْمَ الْخَمِيس ذَهَبَ دَانْيَال وَلَيْلَى إِلَى مَطَارِ الْقَاهِرَة. أَعْطَتْ لَيْلَى الْحَقَائِب لِلْمُوَظَّفَة، وَجَلَسَ دَانْيَال فِي الطَّائِرَة بِجَانِبِ النَّافِذَة. غَادَرَتِ الطَّائِرَة فِي السَّاعَة السَّادِسَة، وَوَصَلَتْ إِلَى عَمَّان فِي السَّاعَة الثَّامِنَة. كَانَ يُوسُف يَنْتَظِرُهُمَا فِي الْمَطَار.",
+    "en": "On Thursday Daniel and Layla went to Cairo Airport. Layla gave the suitcases to the clerk, and Daniel sat by the window on the plane. The plane left at six o'clock and arrived in Amman at eight. Yusuf was waiting for them at the airport.",
+    "segs": [
+      [
+        "يَوْمَ",
+        "on the day of"
+      ],
+      [
+        "الْخَمِيس",
+        "Thursday"
+      ],
+      [
+        "ذَهَبَ",
+        "(he) went"
+      ],
+      [
+        "دَانْيَال",
+        "Daniel (first name)",
+        "name"
+      ],
+      [
+        "وَلَيْلَى",
+        "and Layla (first name)",
+        "name"
+      ],
+      [
+        "إِلَى",
+        "to"
+      ],
+      [
+        "مَطَارِ",
+        "airport (of)"
+      ],
+      [
+        "الْقَاهِرَة",
+        "Cairo (capital of Egypt)",
+        "name"
+      ],
+      [
+        "أَعْطَتْ",
+        "(she) gave"
+      ],
+      [
+        "لَيْلَى",
+        "Layla (first name)",
+        "name"
+      ],
+      [
+        "الْحَقَائِب",
+        "the bags, the suitcases"
+      ],
+      [
+        "لِلْمُوَظَّفَة",
+        "to the clerk (f)"
+      ],
+      [
+        "وَجَلَسَ",
+        "and (he) sat"
+      ],
+      [
+        "دَانْيَال",
+        "Daniel (first name)",
+        "name"
+      ],
+      [
+        "فِي",
+        "in"
+      ],
+      [
+        "الطَّائِرَة",
+        "the plane"
+      ],
+      [
+        "بِجَانِبِ",
+        "next to, beside"
+      ],
+      [
+        "النَّافِذَة",
+        "the window"
+      ],
+      [
+        "غَادَرَتِ",
+        "(it, f) left"
+      ],
+      [
+        "الطَّائِرَة",
+        "the plane"
+      ],
+      [
+        "فِي",
+        "at"
+      ],
+      [
+        "السَّاعَة",
+        "the hour, o'clock"
+      ],
+      [
+        "السَّادِسَة",
+        "the sixth"
+      ],
+      [
+        "وَوَصَلَتْ",
+        "and (it, f) arrived"
+      ],
+      [
+        "إِلَى",
+        "to, in"
+      ],
+      [
+        "عَمَّان",
+        "Amman (capital of Jordan)",
+        "name"
+      ],
+      [
+        "فِي",
+        "at"
+      ],
+      [
+        "السَّاعَة",
+        "the hour, o'clock"
+      ],
+      [
+        "الثَّامِنَة",
+        "the eighth"
+      ],
+      [
+        "كَانَ",
+        "(he) was"
+      ],
+      [
+        "يُوسُف",
+        "Yusuf (first name)",
+        "name"
+      ],
+      [
+        "يَنْتَظِرُهُمَا",
+        "waiting for them (two)"
+      ],
+      [
+        "فِي",
+        "at"
+      ],
+      [
+        "الْمَطَار",
+        "the airport"
+      ]
+    ]
+  },
+  "review": [
+    "rihla",
+    "safara",
+    "haqiba",
+    "tadhkira",
+    "nafidha"
+  ],
+  "quiz": [
+    {
+      "id": "d57q1",
+      "prompt": "What does this mean?",
+      "ar": "جَوَازُ السَّفَر",
+      "options": [
+        "ticket",
+        "passport",
+        "boarding pass",
+        "suitcase"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "d57q2",
+      "prompt": "Where are Daniel and Layla flying to?",
+      "options": [
+        "Beirut",
+        "Alexandria",
+        "Amman",
+        "Chicago"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "d57q3",
+      "prompt": "Which gate does the plane leave from?",
+      "options": [
+        "gate 7",
+        "gate 5",
+        "gate 15",
+        "gate 10"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "d57q4",
+      "prompt": "Ask politely: 'Could I sit by the window?'",
+      "options": [
+        "أَجْلِسُ بِجَانِبِ النَّافِذَة.",
+        "اِجْلِسْ بِجَانِبِ النَّافِذَة!",
+        "هَلْ أَنْتَ بِجَانِبِ النَّافِذَة؟",
+        "هَلْ مِنَ الْمُمْكِن أَنْ أَجْلِسَ بِجَانِبِ النَّافِذَة؟"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "d57q5",
+      "prompt": "Which word means 'plane'?",
+      "options": [
+        "مَطَار",
+        "بَوَّابَة",
+        "طَائِرَة",
+        "مَقْعَد"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "d57q6",
+      "prompt": "How much do the two suitcases weigh?",
+      "options": [
+        "fourteen kilos",
+        "forty kilos",
+        "four kilos",
+        "fifty kilos"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "d57q7",
+      "prompt": "Which word has sīn (س), the light s?",
+      "options": [
+        "صَبَاح",
+        "صَغِير",
+        "مُسَافِر",
+        "صُورَة"
+      ],
+      "answer": 2
+    }
+  ],
+  "completion": "Well done! You can check in for a flight, ask politely whether something is possible, and find your seat and your gate. Pass the quiz with 80% to finish the day.",
+  "status": "needs-review"
+}
