@@ -1,0 +1,1119 @@
+{
+  "day": 30,
+  "week": 5,
+  "phase": 3,
+  "level": 3,
+  "title": "In my room",
+  "titleAr": "فِي غُرْفَتِي",
+  "titleSegs": [
+    [
+      "فِي",
+      "in"
+    ],
+    [
+      "غُرْفَتِي",
+      "my room"
+    ]
+  ],
+  "emoji": "🛏️",
+  "summary": "Name the furniture in a room and use every possessive ending: my, your, his, her, our and their.",
+  "intro": "On day 2 you learned ـِي (my) and ـُكَ, ـُكِ (your). Today you get the whole set: ـُهُ (his), ـُهَا (her), ـُنَا (our), ـُكُمْ (your, to several people) and ـُهُمْ (their). Remember that ة turns into ت before an ending: غُرْفَة → غُرْفَتِي (my room).",
+  "objectives": [
+    "Name eight things in a bedroom",
+    "Use all eight possessive endings on a noun",
+    "Turn ة into ت before an ending: غُرْفَتِي",
+    "Describe a room as clean, big or small"
+  ],
+  "realLife": {
+    "emoji": "💻",
+    "title": "A video call to Chicago",
+    "story": "On Sunday evening Daniel calls his sister Emma in Chicago. Emma is learning Arabic at university, so they practise together. Daniel shows her his new bedroom on the phone: the bed, the desk, the wardrobe and, on the wall, a photo of their family."
+  },
+  "letters": [],
+  "newWords": [
+    "sarir",
+    "kursi",
+    "khizana",
+    "misbah",
+    "sura",
+    "jidar",
+    "nazif"
+  ],
+  "grammar": [
+    "attached-pronouns"
+  ],
+  "pronunciation": [
+    "dad"
+  ],
+  "sentences": [
+    {
+      "id": "d30s1",
+      "ar": "هٰذِهِ غُرْفَتِي، وَهٰذَا سَرِيرِي.",
+      "en": "This is my room, and this is my bed.",
+      "literal": "this (is) my room, and this (is) my bed",
+      "segs": [
+        [
+          "هٰذِهِ",
+          "this (f)",
+          "demonstrative"
+        ],
+        [
+          "غُرْفَتِي",
+          "my room",
+          "noun"
+        ],
+        [
+          "وَهٰذَا",
+          "and this (m)",
+          "demonstrative"
+        ],
+        [
+          "سَرِيرِي",
+          "my bed",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "attached-pronouns",
+        "demonstratives"
+      ],
+      "mistakes": [
+        {
+          "wrong": "هٰذِهِ غُرْفَةِي",
+          "right": "هٰذِهِ غُرْفَتِي",
+          "why": "ة turns into ت when an ending is added: غُرْفَة → غُرْفَتِي."
+        }
+      ]
+    },
+    {
+      "id": "d30s2",
+      "ar": "مَكْتَبُهُ قَرِيب مِنَ النَّافِذَة.",
+      "en": "His desk is near the window.",
+      "literal": "his desk (is) near from the window",
+      "segs": [
+        [
+          "مَكْتَبُهُ",
+          "his desk",
+          "noun"
+        ],
+        [
+          "قَرِيب",
+          "near, close",
+          "adj"
+        ],
+        [
+          "مِنَ",
+          "from",
+          "prep"
+        ],
+        [
+          "النَّافِذَة",
+          "the window",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "attached-pronouns"
+      ]
+    },
+    {
+      "id": "d30s3",
+      "ar": "غُرْفَتُهَا نَظِيفَة جِدًّا.",
+      "en": "Her room is very clean.",
+      "literal": "her room (is) clean very",
+      "segs": [
+        [
+          "غُرْفَتُهَا",
+          "her room",
+          "noun"
+        ],
+        [
+          "نَظِيفَة",
+          "clean (f)",
+          "adj"
+        ],
+        [
+          "جِدًّا",
+          "very",
+          "adverb"
+        ]
+      ],
+      "grammar": [
+        "attached-pronouns",
+        "adjectives"
+      ],
+      "mistakes": [
+        {
+          "wrong": "غُرْفَتُهَا نَظِيف",
+          "right": "غُرْفَتُهَا نَظِيفَة",
+          "why": "غُرْفَة is feminine, so the adjective takes ة. The ending ـُهَا (her) does not change that."
+        }
+      ]
+    },
+    {
+      "id": "d30s4",
+      "ar": "عَلَى الْجِدَار صُورَة لِعَائِلَتِنَا.",
+      "en": "On the wall there is a photo of our family.",
+      "literal": "on the wall (is) a photo for our family",
+      "segs": [
+        [
+          "عَلَى",
+          "on",
+          "prep"
+        ],
+        [
+          "الْجِدَار",
+          "the wall",
+          "noun"
+        ],
+        [
+          "صُورَة",
+          "picture, photo",
+          "noun"
+        ],
+        [
+          "لِعَائِلَتِنَا",
+          "of (lit. for) our family",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "place-first-w5",
+        "attached-pronouns"
+      ]
+    },
+    {
+      "id": "d30s5",
+      "ar": "أَيْنَ كُتُبُكُمْ يَا طُلَّاب؟",
+      "en": "Where are your books, students?",
+      "literal": "where (are) your (pl) books, O students",
+      "segs": [
+        [
+          "أَيْنَ",
+          "where",
+          "question"
+        ],
+        [
+          "كُتُبُكُمْ",
+          "your books (to several people)",
+          "noun"
+        ],
+        [
+          "يَا",
+          "O (calling someone)",
+          "particle"
+        ],
+        [
+          "طُلَّاب",
+          "students",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "attached-pronouns",
+        "questions"
+      ]
+    },
+    {
+      "id": "d30s6",
+      "ar": "بَيْتُهُمْ فِي شِيكَاغُو.",
+      "en": "Their house is in Chicago.",
+      "literal": "their house (is) in Chicago",
+      "segs": [
+        [
+          "بَيْتُهُمْ",
+          "their house",
+          "noun"
+        ],
+        [
+          "فِي",
+          "in",
+          "prep"
+        ],
+        [
+          "شِيكَاغُو",
+          "Chicago (city in the USA)",
+          "name"
+        ]
+      ],
+      "grammar": [
+        "attached-pronouns"
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Show me your room!",
+    "speakers": [
+      {
+        "key": "emma",
+        "name": "Emma",
+        "nameAr": "إِيمَا"
+      },
+      {
+        "key": "daniel",
+        "name": "Daniel",
+        "nameAr": "دَانْيَال"
+      }
+    ],
+    "culture": "Egyptian homes are usually kept very clean, and guests often take off their shoes at the door. When you leave, a friendly goodbye is سَلِّمْ عَلَى أَهْلِكَ (say hello to your family), to a man, or سَلِّمِي (to a woman).",
+    "lines": [
+      {
+        "id": "d30l1",
+        "sp": "emma",
+        "ar": "مَرْحَبًا يَا دَانْيَال! أَيْنَ أَنْتَ الْآن؟ أُرِيدُ أَنْ أَرَى غُرْفَتَكَ الْجَدِيدَة!",
+        "en": "Hi, Daniel! Where are you now? I want to see your new room!",
+        "segs": [
+          [
+            "مَرْحَبًا",
+            "hello"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "دَانْيَال",
+            "Daniel (first name)",
+            "name"
+          ],
+          [
+            "أَيْنَ",
+            "where"
+          ],
+          [
+            "أَنْتَ",
+            "you (to a man)"
+          ],
+          [
+            "الْآن",
+            "now"
+          ],
+          [
+            "أُرِيدُ",
+            "I want"
+          ],
+          [
+            "أَنْ",
+            "to (before a verb)"
+          ],
+          [
+            "أَرَى",
+            "(I) see"
+          ],
+          [
+            "غُرْفَتَكَ",
+            "your room (to a man; object form)"
+          ],
+          [
+            "الْجَدِيدَة",
+            "the new (f)"
+          ]
+        ]
+      },
+      {
+        "id": "d30l2",
+        "sp": "daniel",
+        "ar": "أَهْلًا يَا إِيمَا! أَنَا فِي غُرْفَتِي الْآن. اُنْظُرِي، هٰذَا سَرِيرِي، وَهٰذَا مَكْتَبِي.",
+        "en": "Hi, Emma! I'm in my room now. Look, this is my bed, and this is my desk.",
+        "segs": [
+          [
+            "أَهْلًا",
+            "hi, welcome"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "إِيمَا",
+            "Emma (first name)",
+            "name"
+          ],
+          [
+            "أَنَا",
+            "I"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "غُرْفَتِي",
+            "my room"
+          ],
+          [
+            "الْآن",
+            "now"
+          ],
+          [
+            "اُنْظُرِي",
+            "look (to a woman)"
+          ],
+          [
+            "هٰذَا",
+            "this (m)"
+          ],
+          [
+            "سَرِيرِي",
+            "my bed"
+          ],
+          [
+            "وَهٰذَا",
+            "and this (m)"
+          ],
+          [
+            "مَكْتَبِي",
+            "my desk"
+          ]
+        ]
+      },
+      {
+        "id": "d30l3",
+        "sp": "emma",
+        "ar": "غُرْفَتُكَ جَمِيلَة وَنَظِيفَة! هَلْ هِيَ نَظِيفَة دَائِمًا، أَمِ الْيَوْمَ فَقَطْ؟",
+        "en": "Your room is lovely and clean! Is it always clean, or only today?",
+        "segs": [
+          [
+            "غُرْفَتُكَ",
+            "your room (to a man)"
+          ],
+          [
+            "جَمِيلَة",
+            "beautiful, lovely (f)"
+          ],
+          [
+            "وَنَظِيفَة",
+            "and clean (f)"
+          ],
+          [
+            "هَلْ",
+            "(starts a yes/no question)"
+          ],
+          [
+            "هِيَ",
+            "she, it (f)"
+          ],
+          [
+            "نَظِيفَة",
+            "clean (f)"
+          ],
+          [
+            "دَائِمًا",
+            "always"
+          ],
+          [
+            "أَمِ",
+            "or (in questions)"
+          ],
+          [
+            "الْيَوْمَ",
+            "today"
+          ],
+          [
+            "فَقَطْ",
+            "only"
+          ]
+        ]
+      },
+      {
+        "id": "d30l4",
+        "sp": "daniel",
+        "ar": "الْيَوْمَ فَقَطْ، لِأَنَّكِ تَرَيْنَ الْغُرْفَة! وَهٰذِهِ خِزَانَتِي، وَفِيهَا مَلَابِسِي.",
+        "en": "Only today, because you can see the room! And this is my wardrobe, with my clothes in it.",
+        "segs": [
+          [
+            "الْيَوْمَ",
+            "today"
+          ],
+          [
+            "فَقَطْ",
+            "only"
+          ],
+          [
+            "لِأَنَّكِ",
+            "because you (to a woman)"
+          ],
+          [
+            "تَرَيْنَ",
+            "(you, f) see"
+          ],
+          [
+            "الْغُرْفَة",
+            "the room"
+          ],
+          [
+            "وَهٰذِهِ",
+            "and this (f)"
+          ],
+          [
+            "خِزَانَتِي",
+            "my wardrobe"
+          ],
+          [
+            "وَفِيهَا",
+            "and in it (f)"
+          ],
+          [
+            "مَلَابِسِي",
+            "my clothes"
+          ]
+        ]
+      },
+      {
+        "id": "d30l5",
+        "sp": "emma",
+        "ar": "وَمَا هٰذِهِ الصُّورَة عَلَى الْجِدَار؟ هَلْ هِيَ صُورَةُ عَائِلَتِنَا؟",
+        "en": "And what is this picture on the wall? Is it a photo of our family?",
+        "segs": [
+          [
+            "وَمَا",
+            "and what"
+          ],
+          [
+            "هٰذِهِ",
+            "this (f)"
+          ],
+          [
+            "الصُّورَة",
+            "the picture"
+          ],
+          [
+            "عَلَى",
+            "on"
+          ],
+          [
+            "الْجِدَار",
+            "the wall"
+          ],
+          [
+            "هَلْ",
+            "(starts a yes/no question)"
+          ],
+          [
+            "هِيَ",
+            "she, it (f)"
+          ],
+          [
+            "صُورَةُ",
+            "photo (of)"
+          ],
+          [
+            "عَائِلَتِنَا",
+            "our family"
+          ]
+        ]
+      },
+      {
+        "id": "d30l6",
+        "sp": "daniel",
+        "ar": "نَعَم! هٰذِهِ صُورَتُنَا فِي بَيْتِنَا فِي شِيكَاغُو: أَنَا وَأَنْتِ وَأَبِي وَأُمِّي.",
+        "en": "Yes! This is our photo at our house in Chicago: me, you, Dad and Mum.",
+        "segs": [
+          [
+            "نَعَم",
+            "yes"
+          ],
+          [
+            "هٰذِهِ",
+            "this (f)"
+          ],
+          [
+            "صُورَتُنَا",
+            "our photo"
+          ],
+          [
+            "فِي",
+            "in, at"
+          ],
+          [
+            "بَيْتِنَا",
+            "our house (after a preposition)"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "شِيكَاغُو",
+            "Chicago (city in the USA)",
+            "name"
+          ],
+          [
+            "أَنَا",
+            "I, me"
+          ],
+          [
+            "وَأَنْتِ",
+            "and you (to a woman)"
+          ],
+          [
+            "وَأَبِي",
+            "and my father"
+          ],
+          [
+            "وَأُمِّي",
+            "and my mother"
+          ]
+        ]
+      },
+      {
+        "id": "d30l7",
+        "sp": "emma",
+        "ar": "مَا أَجْمَلَ الصُّورَة! وَأَيْنَ تَدْرُسُ يَا دَانْيَال؟ عَلَى السَّرِير؟",
+        "en": "What a lovely photo! And where do you study, Daniel? On the bed?",
+        "segs": [
+          [
+            "مَا",
+            "how (in exclamations)"
+          ],
+          [
+            "أَجْمَلَ",
+            "beautiful (in 'how beautiful!')"
+          ],
+          [
+            "الصُّورَة",
+            "the picture"
+          ],
+          [
+            "وَأَيْنَ",
+            "and where"
+          ],
+          [
+            "تَدْرُسُ",
+            "you study (to a man)"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "دَانْيَال",
+            "Daniel (first name)",
+            "name"
+          ],
+          [
+            "عَلَى",
+            "on"
+          ],
+          [
+            "السَّرِير",
+            "the bed"
+          ]
+        ]
+      },
+      {
+        "id": "d30l8",
+        "sp": "daniel",
+        "ar": "لَا، أَدْرُسُ عَلَى مَكْتَبِي، وَعِنْدِي كُرْسِيّ مُرِيح وَمِصْبَاح جَدِيد.",
+        "en": "No, I study at my desk, and I have a comfortable chair and a new lamp.",
+        "segs": [
+          [
+            "لَا",
+            "no"
+          ],
+          [
+            "أَدْرُسُ",
+            "I study"
+          ],
+          [
+            "عَلَى",
+            "on, at"
+          ],
+          [
+            "مَكْتَبِي",
+            "my desk"
+          ],
+          [
+            "وَعِنْدِي",
+            "and I have"
+          ],
+          [
+            "كُرْسِيّ",
+            "chair"
+          ],
+          [
+            "مُرِيح",
+            "comfortable"
+          ],
+          [
+            "وَمِصْبَاح",
+            "and a lamp"
+          ],
+          [
+            "جَدِيد",
+            "new"
+          ]
+        ]
+      },
+      {
+        "id": "d30l9",
+        "sp": "emma",
+        "ar": "وَغُرْفَتِي هُنَا صَغِيرَة جِدًّا، وَكُتُبِي عَلَى الْأَرْض فِي كُلِّ مَكَان!",
+        "en": "And my room here is very small, and my books are on the floor everywhere!",
+        "segs": [
+          [
+            "وَغُرْفَتِي",
+            "and my room"
+          ],
+          [
+            "هُنَا",
+            "here"
+          ],
+          [
+            "صَغِيرَة",
+            "small (f)"
+          ],
+          [
+            "جِدًّا",
+            "very"
+          ],
+          [
+            "وَكُتُبِي",
+            "and my books"
+          ],
+          [
+            "عَلَى",
+            "on"
+          ],
+          [
+            "الْأَرْض",
+            "the floor, the ground"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "كُلِّ",
+            "every"
+          ],
+          [
+            "مَكَان",
+            "place"
+          ]
+        ]
+      },
+      {
+        "id": "d30l10",
+        "sp": "daniel",
+        "ar": "أَعْرِفُ ذٰلِكَ جَيِّدًا! وَكَيْفَ حَالُ أَبِي وَأُمِّي؟ هَلْ هُمَا فِي الْبَيْت؟",
+        "en": "I know that very well! And how are Dad and Mum? Are they at home?",
+        "segs": [
+          [
+            "أَعْرِفُ",
+            "I know"
+          ],
+          [
+            "ذٰلِكَ",
+            "that"
+          ],
+          [
+            "جَيِّدًا",
+            "well"
+          ],
+          [
+            "وَكَيْفَ",
+            "and how"
+          ],
+          [
+            "حَالُ",
+            "condition (of)"
+          ],
+          [
+            "أَبِي",
+            "my father"
+          ],
+          [
+            "وَأُمِّي",
+            "and my mother"
+          ],
+          [
+            "هَلْ",
+            "(starts a yes/no question)"
+          ],
+          [
+            "هُمَا",
+            "they (two)"
+          ],
+          [
+            "فِي",
+            "in, at"
+          ],
+          [
+            "الْبَيْت",
+            "the house, home"
+          ]
+        ]
+      },
+      {
+        "id": "d30l11",
+        "sp": "emma",
+        "ar": "هُمَا بِخَيْر، وَهُمَا الْآنَ فِي الْمَطْبَخ. أُمِّي تَقُولُ: أَيْنَ صُوَرُ شَقَّتِكَ؟",
+        "en": "They're fine, and they're in the kitchen now. Mum says: where are the photos of your flat?",
+        "segs": [
+          [
+            "هُمَا",
+            "they (two)"
+          ],
+          [
+            "بِخَيْر",
+            "fine (lit. in goodness)"
+          ],
+          [
+            "وَهُمَا",
+            "and they (two)"
+          ],
+          [
+            "الْآنَ",
+            "now"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "الْمَطْبَخ",
+            "the kitchen"
+          ],
+          [
+            "أُمِّي",
+            "my mother"
+          ],
+          [
+            "تَقُولُ",
+            "(she) says"
+          ],
+          [
+            "أَيْنَ",
+            "where"
+          ],
+          [
+            "صُوَرُ",
+            "photos (of)"
+          ],
+          [
+            "شَقَّتِكَ",
+            "your flat (to a man)"
+          ]
+        ]
+      },
+      {
+        "id": "d30l12",
+        "sp": "daniel",
+        "ar": "قُولِي لِأُمِّي: الصُّوَرُ غَدًا، إِنْ شَاءَ اللّٰه! الْآنَ عِنْدِي وَاجِب كَبِير.",
+        "en": "Tell Mum: the photos will come tomorrow, God willing! Right now I have a lot of homework.",
+        "segs": [
+          [
+            "قُولِي",
+            "say, tell (to a woman)"
+          ],
+          [
+            "لِأُمِّي",
+            "to my mother"
+          ],
+          [
+            "الصُّوَرُ",
+            "the photos"
+          ],
+          [
+            "غَدًا",
+            "tomorrow"
+          ],
+          [
+            "إِنْ",
+            "if"
+          ],
+          [
+            "شَاءَ",
+            "(he) willed"
+          ],
+          [
+            "اللّٰه",
+            "God"
+          ],
+          [
+            "الْآنَ",
+            "now"
+          ],
+          [
+            "عِنْدِي",
+            "I have"
+          ],
+          [
+            "وَاجِب",
+            "homework"
+          ],
+          [
+            "كَبِير",
+            "big"
+          ]
+        ]
+      },
+      {
+        "id": "d30l13",
+        "sp": "emma",
+        "ar": "حَسَنًا، أَنْتَ طَالِب مُمْتَاز! مَعَ السَّلَامَة يَا أَخِي، غُرْفَتُكَ جَمِيلَة حَقًّا.",
+        "en": "All right, you're an excellent student! Goodbye, brother, your room really is lovely.",
+        "segs": [
+          [
+            "حَسَنًا",
+            "all right, OK"
+          ],
+          [
+            "أَنْتَ",
+            "you (to a man)"
+          ],
+          [
+            "طَالِب",
+            "student"
+          ],
+          [
+            "مُمْتَاز",
+            "excellent"
+          ],
+          [
+            "مَعَ",
+            "with"
+          ],
+          [
+            "السَّلَامَة",
+            "the safety"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "أَخِي",
+            "my brother"
+          ],
+          [
+            "غُرْفَتُكَ",
+            "your room (to a man)"
+          ],
+          [
+            "جَمِيلَة",
+            "beautiful, lovely (f)"
+          ],
+          [
+            "حَقًّا",
+            "really, truly"
+          ]
+        ]
+      },
+      {
+        "id": "d30l14",
+        "sp": "daniel",
+        "ar": "شُكْرًا يَا أُخْتِي! سَلِّمِي عَلَى أَبِي وَأُمِّي. مَعَ السَّلَامَة!",
+        "en": "Thanks, sis! Say hello to Dad and Mum for me. Goodbye!",
+        "segs": [
+          [
+            "شُكْرًا",
+            "thank you"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "أُخْتِي",
+            "my sister"
+          ],
+          [
+            "سَلِّمِي",
+            "say hello (to a woman)"
+          ],
+          [
+            "عَلَى",
+            "on, to"
+          ],
+          [
+            "أَبِي",
+            "my father"
+          ],
+          [
+            "وَأُمِّي",
+            "and my mother"
+          ],
+          [
+            "مَعَ",
+            "with"
+          ],
+          [
+            "السَّلَامَة",
+            "the safety"
+          ]
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "title": "Daniel's room",
+    "ar": "غُرْفَةُ دَانْيَال صَغِيرَة، لٰكِنَّهَا نَظِيفَة. فِيهَا سَرِير وَمَكْتَب وَكُرْسِيّ وَخِزَانَة. عَلَى الْمَكْتَب مِصْبَاح جَدِيد، وَعَلَى الْجِدَار صُورَة لِعَائِلَتِهِ.",
+    "en": "Daniel's room is small, but it is clean. In it there is a bed, a desk, a chair and a wardrobe. On the desk there is a new lamp, and on the wall there is a photo of his family.",
+    "segs": [
+      [
+        "غُرْفَةُ",
+        "room (of)"
+      ],
+      [
+        "دَانْيَال",
+        "Daniel (first name)",
+        "name"
+      ],
+      [
+        "صَغِيرَة",
+        "small (f)"
+      ],
+      [
+        "لٰكِنَّهَا",
+        "but it (f)"
+      ],
+      [
+        "نَظِيفَة",
+        "clean (f)"
+      ],
+      [
+        "فِيهَا",
+        "in it (f)"
+      ],
+      [
+        "سَرِير",
+        "bed"
+      ],
+      [
+        "وَمَكْتَب",
+        "and a desk"
+      ],
+      [
+        "وَكُرْسِيّ",
+        "and a chair"
+      ],
+      [
+        "وَخِزَانَة",
+        "and a wardrobe"
+      ],
+      [
+        "عَلَى",
+        "on"
+      ],
+      [
+        "الْمَكْتَب",
+        "the desk"
+      ],
+      [
+        "مِصْبَاح",
+        "lamp"
+      ],
+      [
+        "جَدِيد",
+        "new"
+      ],
+      [
+        "وَعَلَى",
+        "and on"
+      ],
+      [
+        "الْجِدَار",
+        "the wall"
+      ],
+      [
+        "صُورَة",
+        "picture, photo"
+      ],
+      [
+        "لِعَائِلَتِهِ",
+        "of (lit. for) his family"
+      ]
+    ]
+  },
+  "review": [
+    "shaqqa",
+    "ghurfa",
+    "saghir",
+    "aila",
+    "maktab"
+  ],
+  "quiz": [
+    {
+      "id": "d30q1",
+      "prompt": "What does this mean?",
+      "ar": "غُرْفَتُهَا",
+      "options": [
+        "his room",
+        "our room",
+        "her room",
+        "their room"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "d30q2",
+      "prompt": "How do you say 'our house'?",
+      "options": [
+        "بَيْتُهُمْ",
+        "بَيْتُنَا",
+        "بَيْتُكُمْ",
+        "بَيْتِي"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "d30q3",
+      "prompt": "Which word means 'wardrobe'?",
+      "options": [
+        "خِزَانَة",
+        "سَرِير",
+        "كُرْسِيّ",
+        "مِصْبَاح"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "d30q4",
+      "prompt": "Add 'his' to غُرْفَة (room):",
+      "options": [
+        "غُرْفَةُهُ",
+        "غُرْفَتِي",
+        "غُرْفَتُكَ",
+        "غُرْفَتُهُ"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "d30q5",
+      "prompt": "Which ending means 'their'?",
+      "options": [
+        "ـُنَا",
+        "ـُهُمْ",
+        "ـُكُمْ",
+        "ـُهُ"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "d30q6",
+      "prompt": "Where are Emma's books?",
+      "options": [
+        "on the desk",
+        "in the wardrobe",
+        "on the floor",
+        "in the kitchen"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "d30q7",
+      "prompt": "How is ض different from د?",
+      "options": [
+        "The back of the tongue is raised and the sound is darker",
+        "The lips are rounded",
+        "It is said through the nose",
+        "It has no voice"
+      ],
+      "answer": 0
+    }
+  ],
+  "completion": "Excellent! You can show someone your room and use every possessive ending.",
+  "status": "needs-review"
+}

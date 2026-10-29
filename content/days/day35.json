@@ -1,0 +1,1233 @@
+{
+  "day": 35,
+  "week": 5,
+  "phase": 3,
+  "level": 3,
+  "title": "Aunts and uncles",
+  "titleAr": "الْأَعْمَام وَالْأَخْوَال",
+  "titleSegs": [
+    [
+      "الْأَعْمَام",
+      "the uncles (father's brothers)"
+    ],
+    [
+      "وَالْأَخْوَال",
+      "and the uncles (mother's brothers)"
+    ]
+  ],
+  "emoji": "👨‍👩‍👧‍👦",
+  "summary": "Name relatives on both sides of the family and link family words: اِبْنُ عَمِّي (my cousin).",
+  "intro": "Arabic has two words for 'uncle' and two for 'aunt'. Your father's brother is عَمّ and his sister is عَمَّة; your mother's brother is خَال and her sister is خَالَة. Cousins are named through them: اِبْنُ عَمِّي is 'the son of my uncle'. In such a chain only the last word takes 'my'.",
+  "objectives": [
+    "Tell عَمّ from خَال and عَمَّة from خَالَة",
+    "Name your cousins with اِبْنُ and بِنْتُ",
+    "Link two family words: زَوْجَةُ عَمِّي (my uncle's wife)",
+    "Say where relatives live with يَسْكُنُ and تَسْكُنُ"
+  ],
+  "realLife": {
+    "emoji": "🎉",
+    "title": "A house full of relatives",
+    "story": "The next Friday Sami's relatives come for lunch: his father's brother Mustafa with his wife Salma, and his mother's sister Huda with her son Khalid, who studies in Alexandria. Daniel tries hard to remember who is who, and Sami draws him a family tree on a napkin."
+  },
+  "letters": [],
+  "newWords": [
+    "amm",
+    "amma",
+    "khal",
+    "khala",
+    "ibn-amm",
+    "zawj",
+    "zawja",
+    "aqarib"
+  ],
+  "grammar": [
+    "family-idafa-w5"
+  ],
+  "pronunciation": [
+    "kha"
+  ],
+  "sentences": [
+    {
+      "id": "d35s1",
+      "ar": "هٰذَا عَمِّي مُصْطَفَى، أَخُو أَبِي.",
+      "en": "This is my uncle Mustafa, my father's brother.",
+      "literal": "this (is) my uncle Mustafa, brother (of) my father",
+      "segs": [
+        [
+          "هٰذَا",
+          "this (m)",
+          "demonstrative"
+        ],
+        [
+          "عَمِّي",
+          "my uncle (father's brother)",
+          "noun"
+        ],
+        [
+          "مُصْطَفَى",
+          "Mustafa (first name)",
+          "name"
+        ],
+        [
+          "أَخُو",
+          "brother (of)",
+          "noun"
+        ],
+        [
+          "أَبِي",
+          "my father",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "family-idafa-w5",
+        "demonstratives"
+      ]
+    },
+    {
+      "id": "d35s2",
+      "ar": "خَالَتِي هُدَى تَسْكُنُ فِي الْإِسْكَنْدَرِيَّة.",
+      "en": "My aunt Huda lives in Alexandria.",
+      "literal": "my aunt Huda lives in Alexandria",
+      "segs": [
+        [
+          "خَالَتِي",
+          "my aunt (mother's sister)",
+          "noun"
+        ],
+        [
+          "هُدَى",
+          "Huda (first name)",
+          "name"
+        ],
+        [
+          "تَسْكُنُ",
+          "(she) lives",
+          "verb"
+        ],
+        [
+          "فِي",
+          "in",
+          "prep"
+        ],
+        [
+          "الْإِسْكَنْدَرِيَّة",
+          "Alexandria (city in Egypt)",
+          "name"
+        ]
+      ],
+      "grammar": [
+        "attached-pronouns"
+      ],
+      "mistakes": [
+        {
+          "wrong": "خَالَتِي هُدَى يَسْكُنُ فِي الْإِسْكَنْدَرِيَّة",
+          "right": "خَالَتِي هُدَى تَسْكُنُ فِي الْإِسْكَنْدَرِيَّة",
+          "why": "For a woman the verb starts with تَـ: تَسْكُنُ (she lives); يَسْكُنُ is 'he lives'."
+        }
+      ]
+    },
+    {
+      "id": "d35s3",
+      "ar": "خَالِد اِبْنُ خَالَتِي.",
+      "en": "Khalid is my cousin (my mother's sister's son).",
+      "literal": "Khalid (is the) son (of) my aunt",
+      "segs": [
+        [
+          "خَالِد",
+          "Khalid (first name)",
+          "name"
+        ],
+        [
+          "اِبْنُ",
+          "son (of)",
+          "noun"
+        ],
+        [
+          "خَالَتِي",
+          "my aunt (mother's sister)",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "family-idafa-w5"
+      ],
+      "mistakes": [
+        {
+          "wrong": "خَالِد اِبْنُ الْخَالَتِي",
+          "right": "خَالِد اِبْنُ خَالَتِي",
+          "why": "A word with 'my' (ـِي) is already definite, so it never takes الـ as well."
+        }
+      ]
+    },
+    {
+      "id": "d35s4",
+      "ar": "زَوْجَةُ عَمِّي لُبْنَانِيَّة.",
+      "en": "My uncle's wife is Lebanese.",
+      "literal": "(the) wife (of) my uncle (is) Lebanese",
+      "segs": [
+        [
+          "زَوْجَةُ",
+          "wife (of)",
+          "noun"
+        ],
+        [
+          "عَمِّي",
+          "my uncle (father's brother)",
+          "noun"
+        ],
+        [
+          "لُبْنَانِيَّة",
+          "Lebanese (f)",
+          "adj"
+        ]
+      ],
+      "grammar": [
+        "family-idafa-w5",
+        "nisba"
+      ]
+    },
+    {
+      "id": "d35s5",
+      "ar": "لِي عَمَّة وَاحِدَة وَثَلَاثَة أَخْوَال.",
+      "en": "I have one aunt on my father's side and three uncles on my mother's side.",
+      "literal": "for me (are) one father's sister and three mother's brothers",
+      "segs": [
+        [
+          "لِي",
+          "for me: I have",
+          "prep"
+        ],
+        [
+          "عَمَّة",
+          "aunt (father's sister)",
+          "noun"
+        ],
+        [
+          "وَاحِدَة",
+          "one (f)",
+          "number"
+        ],
+        [
+          "وَثَلَاثَة",
+          "and three",
+          "number"
+        ],
+        [
+          "أَخْوَال",
+          "uncles (mother's brothers)",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "inda-li"
+      ]
+    },
+    {
+      "id": "d35s6",
+      "ar": "أَيْنَ يَسْكُنُ أَقَارِبُكَ؟",
+      "en": "Where do your relatives live?",
+      "literal": "where live your relatives",
+      "segs": [
+        [
+          "أَيْنَ",
+          "where",
+          "question"
+        ],
+        [
+          "يَسْكُنُ",
+          "lives, live",
+          "verb"
+        ],
+        [
+          "أَقَارِبُكَ",
+          "your relatives (to a man)",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "questions",
+        "attached-pronouns"
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Who is who?",
+    "speakers": [
+      {
+        "key": "sami",
+        "name": "Sami",
+        "nameAr": "سَامِي"
+      },
+      {
+        "key": "daniel",
+        "name": "Daniel",
+        "nameAr": "دَانْيَال"
+      },
+      {
+        "key": "huda",
+        "name": "Aunt Huda",
+        "nameAr": "هُدَى"
+      },
+      {
+        "key": "khalid",
+        "name": "Khalid",
+        "nameAr": "خَالِد"
+      }
+    ],
+    "culture": "Children often call any close older friend of the family عَمِّي (uncle) or خَالَتِي (auntie), even when they are not related. The words show respect and warmth. Families stay close, and cousins are often as close as brothers and sisters.",
+    "lines": [
+      {
+        "id": "d35l1",
+        "sp": "sami",
+        "ar": "يَا دَانْيَال، تَعَالَ! هٰذَا عَمِّي مُصْطَفَى، أَخُو أَبِي، وَهٰذِهِ زَوْجَتُهُ سَلْمَى.",
+        "en": "Daniel, come here! This is my uncle Mustafa, my father's brother, and this is his wife Salma.",
+        "segs": [
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "دَانْيَال",
+            "Daniel (first name)",
+            "name"
+          ],
+          [
+            "تَعَالَ",
+            "come (to a man)"
+          ],
+          [
+            "هٰذَا",
+            "this (m)"
+          ],
+          [
+            "عَمِّي",
+            "my uncle (father's brother)"
+          ],
+          [
+            "مُصْطَفَى",
+            "Mustafa (first name)",
+            "name"
+          ],
+          [
+            "أَخُو",
+            "brother (of)"
+          ],
+          [
+            "أَبِي",
+            "my father"
+          ],
+          [
+            "وَهٰذِهِ",
+            "and this (f)"
+          ],
+          [
+            "زَوْجَتُهُ",
+            "his wife"
+          ],
+          [
+            "سَلْمَى",
+            "Salma (first name)",
+            "name"
+          ]
+        ]
+      },
+      {
+        "id": "d35l2",
+        "sp": "daniel",
+        "ar": "تَشَرَّفْنَا يَا أُسْتَاذ مُصْطَفَى! إِذَنْ هُوَ عَمُّكَ لِأَنَّهُ أَخُو أَبِيكَ، صَحِيح؟",
+        "en": "Pleased to meet you, Mr Mustafa! So he is your uncle because he is your father's brother, right?",
+        "segs": [
+          [
+            "تَشَرَّفْنَا",
+            "nice to meet you"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "أُسْتَاذ",
+            "Mr, teacher"
+          ],
+          [
+            "مُصْطَفَى",
+            "Mustafa (first name)",
+            "name"
+          ],
+          [
+            "إِذَنْ",
+            "so, then"
+          ],
+          [
+            "هُوَ",
+            "he"
+          ],
+          [
+            "عَمُّكَ",
+            "your uncle (father's brother; to a man)"
+          ],
+          [
+            "لِأَنَّهُ",
+            "because he"
+          ],
+          [
+            "أَخُو",
+            "brother (of)"
+          ],
+          [
+            "أَبِيكَ",
+            "your father (after another noun)"
+          ],
+          [
+            "صَحِيح",
+            "right, true"
+          ]
+        ]
+      },
+      {
+        "id": "d35l3",
+        "sp": "sami",
+        "ar": "بِالضَّبْط! وَأَخُو أُمِّي هُوَ خَالِي. وَهٰذِهِ خَالَتِي هُدَى، أُخْتُ أُمِّي، مِنَ الْإِسْكَنْدَرِيَّة.",
+        "en": "Exactly! And my mother's brother is my khāl. And this is my aunt Huda, my mother's sister, from Alexandria.",
+        "segs": [
+          [
+            "بِالضَّبْط",
+            "exactly"
+          ],
+          [
+            "وَأَخُو",
+            "and the brother (of)"
+          ],
+          [
+            "أُمِّي",
+            "my mother"
+          ],
+          [
+            "هُوَ",
+            "he, (he) is"
+          ],
+          [
+            "خَالِي",
+            "my uncle (mother's brother)"
+          ],
+          [
+            "وَهٰذِهِ",
+            "and this (f)"
+          ],
+          [
+            "خَالَتِي",
+            "my aunt (mother's sister)"
+          ],
+          [
+            "هُدَى",
+            "Huda (first name)",
+            "name"
+          ],
+          [
+            "أُخْتُ",
+            "sister (of)"
+          ],
+          [
+            "أُمِّي",
+            "my mother"
+          ],
+          [
+            "مِنَ",
+            "from"
+          ],
+          [
+            "الْإِسْكَنْدَرِيَّة",
+            "Alexandria (city in Egypt)",
+            "name"
+          ]
+        ]
+      },
+      {
+        "id": "d35l4",
+        "sp": "huda",
+        "ar": "أَهْلًا وَسَهْلًا يَا دَانْيَال! سَامِي يَتَكَلَّمُ عَنْكَ كَثِيرًا. وَهٰذَا ابْنِي خَالِد.",
+        "en": "Welcome, Daniel! Sami talks about you a lot. And this is my son Khalid.",
+        "segs": [
+          [
+            "أَهْلًا",
+            "welcome"
+          ],
+          [
+            "وَسَهْلًا",
+            "and ease (part of 'welcome')"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "دَانْيَال",
+            "Daniel (first name)",
+            "name"
+          ],
+          [
+            "سَامِي",
+            "Sami (first name)",
+            "name"
+          ],
+          [
+            "يَتَكَلَّمُ",
+            "talks, speaks"
+          ],
+          [
+            "عَنْكَ",
+            "about you (a man)"
+          ],
+          [
+            "كَثِيرًا",
+            "a lot"
+          ],
+          [
+            "وَهٰذَا",
+            "and this (m)"
+          ],
+          [
+            "ابْنِي",
+            "my son"
+          ],
+          [
+            "خَالِد",
+            "Khalid (first name)",
+            "name"
+          ]
+        ]
+      },
+      {
+        "id": "d35l5",
+        "sp": "khalid",
+        "ar": "مَرْحَبًا! أَنَا خَالِد، اِبْنُ خَالَةِ سَامِي. أَنَا طَالِب فِي جَامِعَةِ الْإِسْكَنْدَرِيَّة.",
+        "en": "Hi! I'm Khalid, Sami's cousin: my mother is his aunt. I'm a student at the University of Alexandria.",
+        "segs": [
+          [
+            "مَرْحَبًا",
+            "hello"
+          ],
+          [
+            "أَنَا",
+            "I"
+          ],
+          [
+            "خَالِد",
+            "Khalid (first name)",
+            "name"
+          ],
+          [
+            "اِبْنُ",
+            "son (of)"
+          ],
+          [
+            "خَالَةِ",
+            "aunt (of) (mother's sister)"
+          ],
+          [
+            "سَامِي",
+            "Sami (first name)",
+            "name"
+          ],
+          [
+            "أَنَا",
+            "I"
+          ],
+          [
+            "طَالِب",
+            "student"
+          ],
+          [
+            "فِي",
+            "in, at"
+          ],
+          [
+            "جَامِعَةِ",
+            "university (of)"
+          ],
+          [
+            "الْإِسْكَنْدَرِيَّة",
+            "Alexandria (city in Egypt)",
+            "name"
+          ]
+        ]
+      },
+      {
+        "id": "d35l6",
+        "sp": "daniel",
+        "ar": "أَهْلًا يَا خَالِد! هٰذَا صَعْب قَلِيلًا، فَفِي الْإِنْجِلِيزِيَّة كَلِمَة وَاحِدَة فَقَطْ لِكُلِّ الْأَعْمَام وَالْأَخْوَال.",
+        "en": "Hi, Khalid! This is a bit hard, because in English there is only one word for all these uncles.",
+        "segs": [
+          [
+            "أَهْلًا",
+            "hi, welcome"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "خَالِد",
+            "Khalid (first name)",
+            "name"
+          ],
+          [
+            "هٰذَا",
+            "this (m)"
+          ],
+          [
+            "صَعْب",
+            "hard, difficult"
+          ],
+          [
+            "قَلِيلًا",
+            "a little"
+          ],
+          [
+            "فَفِي",
+            "because in (lit. so in)"
+          ],
+          [
+            "الْإِنْجِلِيزِيَّة",
+            "English (the language)"
+          ],
+          [
+            "كَلِمَة",
+            "word"
+          ],
+          [
+            "وَاحِدَة",
+            "one (f)"
+          ],
+          [
+            "فَقَطْ",
+            "only"
+          ],
+          [
+            "لِكُلِّ",
+            "for all"
+          ],
+          [
+            "الْأَعْمَام",
+            "the uncles (father's brothers)"
+          ],
+          [
+            "وَالْأَخْوَال",
+            "and the uncles (mother's brothers)"
+          ]
+        ]
+      },
+      {
+        "id": "d35l7",
+        "sp": "huda",
+        "ar": "وَفِي الْعَرَبِيَّة عِنْدَنَا أَرْبَعُ كَلِمَات: عَمّ وَعَمَّة، وَخَال وَخَالَة. سَهْل جِدًّا!",
+        "en": "And in Arabic we have four words: two for uncles and two for aunts. It's very easy!",
+        "segs": [
+          [
+            "وَفِي",
+            "and in"
+          ],
+          [
+            "الْعَرَبِيَّة",
+            "Arabic (the language)"
+          ],
+          [
+            "عِنْدَنَا",
+            "we have"
+          ],
+          [
+            "أَرْبَعُ",
+            "four (before a feminine word)"
+          ],
+          [
+            "كَلِمَات",
+            "words"
+          ],
+          [
+            "عَمّ",
+            "uncle (father's brother)"
+          ],
+          [
+            "وَعَمَّة",
+            "and aunt (father's sister)"
+          ],
+          [
+            "وَخَال",
+            "and uncle (mother's brother)"
+          ],
+          [
+            "وَخَالَة",
+            "and aunt (mother's sister)"
+          ],
+          [
+            "سَهْل",
+            "easy"
+          ],
+          [
+            "جِدًّا",
+            "very"
+          ]
+        ]
+      },
+      {
+        "id": "d35l8",
+        "sp": "daniel",
+        "ar": "إِذَنْ أَنْتِ خَالَةُ سَامِي، وَمُصْطَفَى عَمُّهُ. وَخَالِد… اِبْنُ خَالَتِهِ!",
+        "en": "So you are Sami's aunt on his mother's side, and Mustafa is his uncle on his father's side. And Khalid is… his cousin!",
+        "segs": [
+          [
+            "إِذَنْ",
+            "so, then"
+          ],
+          [
+            "أَنْتِ",
+            "you (to a woman)"
+          ],
+          [
+            "خَالَةُ",
+            "aunt (of) (mother's sister)"
+          ],
+          [
+            "سَامِي",
+            "Sami (first name)",
+            "name"
+          ],
+          [
+            "وَمُصْطَفَى",
+            "and Mustafa (first name)",
+            "name"
+          ],
+          [
+            "عَمُّهُ",
+            "his uncle (father's brother)"
+          ],
+          [
+            "وَخَالِد",
+            "and Khalid (first name)",
+            "name"
+          ],
+          [
+            "اِبْنُ",
+            "son (of)"
+          ],
+          [
+            "خَالَتِهِ",
+            "his aunt (mother's sister)"
+          ]
+        ]
+      },
+      {
+        "id": "d35l9",
+        "sp": "khalid",
+        "ar": "مُمْتَاز يَا دَانْيَال! أَنْتَ تَعْرِفُ عَائِلَتَنَا الْآنَ أَحْسَنَ مِنْ سَامِي!",
+        "en": "Excellent, Daniel! Now you know our family better than Sami does!",
+        "segs": [
+          [
+            "مُمْتَاز",
+            "excellent"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "دَانْيَال",
+            "Daniel (first name)",
+            "name"
+          ],
+          [
+            "أَنْتَ",
+            "you (to a man)"
+          ],
+          [
+            "تَعْرِفُ",
+            "you know (to a man)"
+          ],
+          [
+            "عَائِلَتَنَا",
+            "our family (object form)"
+          ],
+          [
+            "الْآنَ",
+            "now"
+          ],
+          [
+            "أَحْسَنَ",
+            "better"
+          ],
+          [
+            "مِنْ",
+            "than (lit. from)"
+          ],
+          [
+            "سَامِي",
+            "Sami (first name)",
+            "name"
+          ]
+        ]
+      },
+      {
+        "id": "d35l10",
+        "sp": "sami",
+        "ar": "هٰذَا غَيْرُ صَحِيح! لٰكِنْ عِنْدَنَا أَقَارِب كَثِيرُونَ، وَأَنَا لَا أَعْرِفُ كُلَّ أَسْمَائِهِمْ.",
+        "en": "That's not true! But we do have lots of relatives, and even I don't know all their names.",
+        "segs": [
+          [
+            "هٰذَا",
+            "this, that (m)"
+          ],
+          [
+            "غَيْرُ",
+            "not (lit. other than)"
+          ],
+          [
+            "صَحِيح",
+            "true, right"
+          ],
+          [
+            "لٰكِنْ",
+            "but"
+          ],
+          [
+            "عِنْدَنَا",
+            "we have"
+          ],
+          [
+            "أَقَارِب",
+            "relatives"
+          ],
+          [
+            "كَثِيرُونَ",
+            "many (plural, for people)"
+          ],
+          [
+            "وَأَنَا",
+            "and I"
+          ],
+          [
+            "لَا",
+            "not"
+          ],
+          [
+            "أَعْرِفُ",
+            "I know"
+          ],
+          [
+            "كُلَّ",
+            "all (of)"
+          ],
+          [
+            "أَسْمَائِهِمْ",
+            "their names"
+          ]
+        ]
+      },
+      {
+        "id": "d35l11",
+        "sp": "daniel",
+        "ar": "وَأَيْنَ يَسْكُنُ أَقَارِبُكُمُ الْآخَرُونَ؟ هَلْ يَسْكُنُونَ كُلُّهُمْ فِي الْقَاهِرَة؟",
+        "en": "And where do your other relatives live? Do they all live in Cairo?",
+        "segs": [
+          [
+            "وَأَيْنَ",
+            "and where"
+          ],
+          [
+            "يَسْكُنُ",
+            "lives, live"
+          ],
+          [
+            "أَقَارِبُكُمُ",
+            "your relatives (to several people)"
+          ],
+          [
+            "الْآخَرُونَ",
+            "the other (plural)"
+          ],
+          [
+            "هَلْ",
+            "(starts a yes/no question)"
+          ],
+          [
+            "يَسْكُنُونَ",
+            "(they) live"
+          ],
+          [
+            "كُلُّهُمْ",
+            "all of them"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "الْقَاهِرَة",
+            "Cairo (capital of Egypt)",
+            "name"
+          ]
+        ]
+      },
+      {
+        "id": "d35l12",
+        "sp": "huda",
+        "ar": "لَا، عَمَّةُ سَامِي تَسْكُنُ فِي عَمَّان مَعَ زَوْجِهَا، وَأَنَا وَخَالِد نَسْكُنُ فِي الْإِسْكَنْدَرِيَّة.",
+        "en": "No, Sami's aunt on his father's side lives in Amman with her husband, and Khalid and I live in Alexandria.",
+        "segs": [
+          [
+            "لَا",
+            "no"
+          ],
+          [
+            "عَمَّةُ",
+            "aunt (of) (father's sister)"
+          ],
+          [
+            "سَامِي",
+            "Sami (first name)",
+            "name"
+          ],
+          [
+            "تَسْكُنُ",
+            "(she) lives"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "عَمَّان",
+            "Amman (capital of Jordan)",
+            "name"
+          ],
+          [
+            "مَعَ",
+            "with"
+          ],
+          [
+            "زَوْجِهَا",
+            "her husband (after a preposition)"
+          ],
+          [
+            "وَأَنَا",
+            "and I"
+          ],
+          [
+            "وَخَالِد",
+            "and Khalid (first name)",
+            "name"
+          ],
+          [
+            "نَسْكُنُ",
+            "we live"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "الْإِسْكَنْدَرِيَّة",
+            "Alexandria (city in Egypt)",
+            "name"
+          ]
+        ]
+      },
+      {
+        "id": "d35l13",
+        "sp": "khalid",
+        "ar": "يَا دَانْيَال، تَعَالَ إِلَى الْإِسْكَنْدَرِيَّة مَعَ سَامِي! بَيْتُنَا قَرِيب مِنَ الْبَحْر.",
+        "en": "Daniel, come to Alexandria with Sami! Our house is close to the sea.",
+        "segs": [
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "دَانْيَال",
+            "Daniel (first name)",
+            "name"
+          ],
+          [
+            "تَعَالَ",
+            "come (to a man)"
+          ],
+          [
+            "إِلَى",
+            "to"
+          ],
+          [
+            "الْإِسْكَنْدَرِيَّة",
+            "Alexandria (city in Egypt)",
+            "name"
+          ],
+          [
+            "مَعَ",
+            "with"
+          ],
+          [
+            "سَامِي",
+            "Sami (first name)",
+            "name"
+          ],
+          [
+            "بَيْتُنَا",
+            "our house"
+          ],
+          [
+            "قَرِيب",
+            "near, close"
+          ],
+          [
+            "مِنَ",
+            "from"
+          ],
+          [
+            "الْبَحْر",
+            "the sea"
+          ]
+        ]
+      },
+      {
+        "id": "d35l14",
+        "sp": "daniel",
+        "ar": "فِكْرَة رَائِعَة! شُكْرًا يَا خَالِد. أَنَا أُحِبُّ الْبَحْر، وَأُحِبُّ عَائِلَتَكُمُ الْكَبِيرَة أَيْضًا!",
+        "en": "What a wonderful idea! Thank you, Khalid. I love the sea, and I love your big family too!",
+        "segs": [
+          [
+            "فِكْرَة",
+            "idea"
+          ],
+          [
+            "رَائِعَة",
+            "wonderful (f)"
+          ],
+          [
+            "شُكْرًا",
+            "thank you"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "خَالِد",
+            "Khalid (first name)",
+            "name"
+          ],
+          [
+            "أَنَا",
+            "I"
+          ],
+          [
+            "أُحِبُّ",
+            "I love, I like"
+          ],
+          [
+            "الْبَحْر",
+            "the sea"
+          ],
+          [
+            "وَأُحِبُّ",
+            "and I love"
+          ],
+          [
+            "عَائِلَتَكُمُ",
+            "your family (to several people; object form)"
+          ],
+          [
+            "الْكَبِيرَة",
+            "the big (f)"
+          ],
+          [
+            "أَيْضًا",
+            "also, too"
+          ]
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "title": "Sami's family tree",
+    "ar": "عَمُّ سَامِي اسْمُهُ مُصْطَفَى، وَزَوْجَتُهُ سَلْمَى. خَالَتُهُ هُدَى تَسْكُنُ فِي الْإِسْكَنْدَرِيَّة مَعَ ابْنِهَا خَالِد. وَعَمَّتُهُ تَسْكُنُ فِي عَمَّان مَعَ زَوْجِهَا.",
+    "en": "Sami's uncle on his father's side is called Mustafa, and his wife is Salma. His aunt Huda, his mother's sister, lives in Alexandria with her son Khalid. And his aunt on his father's side lives in Amman with her husband.",
+    "segs": [
+      [
+        "عَمُّ",
+        "uncle (of) (father's brother)"
+      ],
+      [
+        "سَامِي",
+        "Sami (first name)",
+        "name"
+      ],
+      [
+        "اسْمُهُ",
+        "his name"
+      ],
+      [
+        "مُصْطَفَى",
+        "Mustafa (first name)",
+        "name"
+      ],
+      [
+        "وَزَوْجَتُهُ",
+        "and his wife"
+      ],
+      [
+        "سَلْمَى",
+        "Salma (first name)",
+        "name"
+      ],
+      [
+        "خَالَتُهُ",
+        "his aunt (mother's sister)"
+      ],
+      [
+        "هُدَى",
+        "Huda (first name)",
+        "name"
+      ],
+      [
+        "تَسْكُنُ",
+        "(she) lives"
+      ],
+      [
+        "فِي",
+        "in"
+      ],
+      [
+        "الْإِسْكَنْدَرِيَّة",
+        "Alexandria (city in Egypt)",
+        "name"
+      ],
+      [
+        "مَعَ",
+        "with"
+      ],
+      [
+        "ابْنِهَا",
+        "her son"
+      ],
+      [
+        "خَالِد",
+        "Khalid (first name)",
+        "name"
+      ],
+      [
+        "وَعَمَّتُهُ",
+        "and his aunt (father's sister)"
+      ],
+      [
+        "تَسْكُنُ",
+        "(she) lives"
+      ],
+      [
+        "فِي",
+        "in"
+      ],
+      [
+        "عَمَّان",
+        "Amman (capital of Jordan)",
+        "name"
+      ],
+      [
+        "مَعَ",
+        "with"
+      ],
+      [
+        "زَوْجِهَا",
+        "her husband"
+      ]
+    ]
+  },
+  "review": [
+    "ab",
+    "umm",
+    "akh",
+    "ukht",
+    "li",
+    "yaskunu"
+  ],
+  "quiz": [
+    {
+      "id": "d35q1",
+      "prompt": "Your father's brother is your …",
+      "options": [
+        "خَال",
+        "عَمّ",
+        "جَدّ",
+        "زَوْج"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "d35q2",
+      "prompt": "Your mother's sister is your …",
+      "options": [
+        "عَمَّة",
+        "زَوْجَة",
+        "جَدَّة",
+        "خَالَة"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "d35q3",
+      "prompt": "What does this mean?",
+      "ar": "اِبْنُ خَالَتِي",
+      "options": [
+        "my uncle's wife",
+        "my cousin (my mother's sister's son)",
+        "my aunt's husband",
+        "my brother's son"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "d35q4",
+      "prompt": "How do you say 'my uncle's wife' (my father's brother's wife)?",
+      "options": [
+        "زَوْجَةُ خَالِي",
+        "عَمَّتِي",
+        "زَوْجَةُ عَمِّي",
+        "بِنْتُ عَمِّي"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "d35q5",
+      "prompt": "Where does Aunt Huda live?",
+      "options": [
+        "in Alexandria",
+        "in Cairo",
+        "in Amman",
+        "in Chicago"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "d35q6",
+      "prompt": "Choose the correct sentence: 'She lives in Amman.'",
+      "options": [
+        "هِيَ يَسْكُنُ فِي عَمَّان.",
+        "هِيَ تَسْكُنُ فِي عَمَّان.",
+        "هُوَ تَسْكُنُ فِي عَمَّان.",
+        "هِيَ تَسْكُنُ عَمَّان فِي."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "d35q7",
+      "prompt": "The letter خ in خَال sounds like …",
+      "options": [
+        "the ch in Scottish 'loch'",
+        "the h in 'hat'",
+        "the k in 'kite'",
+        "the g in 'go'"
+      ],
+      "answer": 0
+    }
+  ],
+  "completion": "Congratulations! You can talk about your home and your whole family. Take the week test (80% to pass) to open Week 6.",
+  "status": "needs-review"
+}

@@ -3386,5 +3386,1226 @@
         "answer": 3
       }
     ]
+  },
+  {
+    "id": "renting-flat",
+    "title": "Renting a flat",
+    "emoji": "🔑",
+    "status": "needs-review",
+    "intro": "You look round a furnished flat with the owner and ask about the rooms, the furniture and the rent. Useful phrases: هَلِ الشَّقَّة مَفْرُوشَة؟ (is the flat furnished?), هَلْ فِيهِ …؟ (is there … in it?) and كَمِ الْإِيجَار؟ (how much is the rent?).",
+    "dialogue": {
+      "title": "A flat with a view",
+      "speakers": [
+        {
+          "key": "owner",
+          "name": "Mr Mahmoud",
+          "nameAr": "مَحْمُود"
+        },
+        {
+          "key": "daniel",
+          "name": "Daniel",
+          "nameAr": "دَانْيَال"
+        }
+      ],
+      "culture": "Students in Egypt often rent a شَقَّة مَفْرُوشَة (furnished flat). The owner usually asks for the first month's rent and a deposit (تَأْمِين) before handing over the key.",
+      "lines": [
+        {
+          "id": "renting-flat-l1",
+          "sp": "owner",
+          "ar": "أَهْلًا وَسَهْلًا! أَنْتَ دَانْيَال؟ تَفَضَّلْ، هٰذِهِ هِيَ الشَّقَّة.",
+          "en": "Welcome! Are you Daniel? Please come in, this is the flat.",
+          "segs": [
+            [
+              "أَهْلًا",
+              "welcome"
+            ],
+            [
+              "وَسَهْلًا",
+              "and ease (part of 'welcome')"
+            ],
+            [
+              "أَنْتَ",
+              "you (to a man)"
+            ],
+            [
+              "دَانْيَال",
+              "Daniel (first name)",
+              "name"
+            ],
+            [
+              "تَفَضَّلْ",
+              "please come in (to a man)"
+            ],
+            [
+              "هٰذِهِ",
+              "this (f)"
+            ],
+            [
+              "هِيَ",
+              "she, it (f)"
+            ],
+            [
+              "الشَّقَّة",
+              "the flat"
+            ]
+          ]
+        },
+        {
+          "id": "renting-flat-l2",
+          "sp": "daniel",
+          "ar": "شُكْرًا يَا أُسْتَاذ مَحْمُود. هَلِ الشَّقَّة مَفْرُوشَة؟",
+          "en": "Thank you, Mr Mahmoud. Is the flat furnished?",
+          "segs": [
+            [
+              "شُكْرًا",
+              "thank you"
+            ],
+            [
+              "يَا",
+              "O (calling someone)"
+            ],
+            [
+              "أُسْتَاذ",
+              "Mr, teacher"
+            ],
+            [
+              "مَحْمُود",
+              "Mahmoud (first name)",
+              "name"
+            ],
+            [
+              "هَلِ",
+              "(starts a yes/no question)"
+            ],
+            [
+              "الشَّقَّة",
+              "the flat"
+            ],
+            [
+              "مَفْرُوشَة",
+              "furnished (f)"
+            ]
+          ]
+        },
+        {
+          "id": "renting-flat-l3",
+          "sp": "owner",
+          "ar": "نَعَم، فِيهَا سَرِير وَمَكْتَب وَخِزَانَة، وَفِي غُرْفَةِ الْجُلُوس كَنَبَة.",
+          "en": "Yes, there is a bed, a desk and a wardrobe, and there is a sofa in the living room.",
+          "segs": [
+            [
+              "نَعَم",
+              "yes"
+            ],
+            [
+              "فِيهَا",
+              "in it (f)"
+            ],
+            [
+              "سَرِير",
+              "bed"
+            ],
+            [
+              "وَمَكْتَب",
+              "and a desk"
+            ],
+            [
+              "وَخِزَانَة",
+              "and a wardrobe"
+            ],
+            [
+              "وَفِي",
+              "and in"
+            ],
+            [
+              "غُرْفَةِ",
+              "room (of)"
+            ],
+            [
+              "الْجُلُوس",
+              "the sitting"
+            ],
+            [
+              "كَنَبَة",
+              "sofa"
+            ]
+          ]
+        },
+        {
+          "id": "renting-flat-l4",
+          "sp": "daniel",
+          "ar": "وَالْمَطْبَخ؟ هَلْ فِيهِ ثَلَّاجَة؟",
+          "en": "And the kitchen? Is there a fridge in it?",
+          "segs": [
+            [
+              "وَالْمَطْبَخ",
+              "and the kitchen"
+            ],
+            [
+              "هَلْ",
+              "(starts a yes/no question)"
+            ],
+            [
+              "فِيهِ",
+              "in it (m)"
+            ],
+            [
+              "ثَلَّاجَة",
+              "fridge"
+            ]
+          ]
+        },
+        {
+          "id": "renting-flat-l5",
+          "sp": "owner",
+          "ar": "الْمَطْبَخ صَغِير، وَلَيْسَ فِيهِ ثَلَّاجَة، لٰكِنْ فِيهِ فُرْن جَدِيد.",
+          "en": "The kitchen is small, and there is no fridge, but there is a new oven.",
+          "segs": [
+            [
+              "الْمَطْبَخ",
+              "the kitchen"
+            ],
+            [
+              "صَغِير",
+              "small"
+            ],
+            [
+              "وَلَيْسَ",
+              "and is not"
+            ],
+            [
+              "فِيهِ",
+              "in it (m)"
+            ],
+            [
+              "ثَلَّاجَة",
+              "fridge"
+            ],
+            [
+              "لٰكِنْ",
+              "but"
+            ],
+            [
+              "فِيهِ",
+              "in it (m)"
+            ],
+            [
+              "فُرْن",
+              "oven"
+            ],
+            [
+              "جَدِيد",
+              "new"
+            ]
+          ]
+        },
+        {
+          "id": "renting-flat-l6",
+          "sp": "daniel",
+          "ar": "لَا مُشْكِلَة. وَالْحَمَّام؟ هَلْ فِيهِ مَاء سَاخِن؟",
+          "en": "No problem. And the bathroom? Is there hot water?",
+          "segs": [
+            [
+              "لَا",
+              "no"
+            ],
+            [
+              "مُشْكِلَة",
+              "problem"
+            ],
+            [
+              "وَالْحَمَّام",
+              "and the bathroom"
+            ],
+            [
+              "هَلْ",
+              "(starts a yes/no question)"
+            ],
+            [
+              "فِيهِ",
+              "in it (m)"
+            ],
+            [
+              "مَاء",
+              "water"
+            ],
+            [
+              "سَاخِن",
+              "hot"
+            ]
+          ]
+        },
+        {
+          "id": "renting-flat-l7",
+          "sp": "owner",
+          "ar": "طَبْعًا! وَهٰذِهِ الشُّرْفَة. اُنْظُرْ، مِنْ هُنَا تَرَى النِّيل.",
+          "en": "Of course! And this is the balcony. Look, from here you can see the Nile.",
+          "segs": [
+            [
+              "طَبْعًا",
+              "of course"
+            ],
+            [
+              "وَهٰذِهِ",
+              "and this (f)"
+            ],
+            [
+              "الشُّرْفَة",
+              "the balcony"
+            ],
+            [
+              "اُنْظُرْ",
+              "look (to a man)"
+            ],
+            [
+              "مِنْ",
+              "from"
+            ],
+            [
+              "هُنَا",
+              "here"
+            ],
+            [
+              "تَرَى",
+              "you see (to a man)"
+            ],
+            [
+              "النِّيل",
+              "the Nile (river)",
+              "name"
+            ]
+          ]
+        },
+        {
+          "id": "renting-flat-l8",
+          "sp": "daniel",
+          "ar": "جَمِيل جِدًّا! كَمِ الْإِيجَار فِي الشَّهْر، مِنْ فَضْلِكَ؟",
+          "en": "Very beautiful! How much is the rent per month, please?",
+          "segs": [
+            [
+              "جَمِيل",
+              "beautiful"
+            ],
+            [
+              "جِدًّا",
+              "very"
+            ],
+            [
+              "كَمِ",
+              "how much, how many"
+            ],
+            [
+              "الْإِيجَار",
+              "the rent"
+            ],
+            [
+              "فِي",
+              "in"
+            ],
+            [
+              "الشَّهْر",
+              "the month"
+            ],
+            [
+              "مِنْ",
+              "from"
+            ],
+            [
+              "فَضْلِكَ",
+              "your kindness (to a man): 'please'"
+            ]
+          ]
+        },
+        {
+          "id": "renting-flat-l9",
+          "sp": "owner",
+          "ar": "سَبْعَةُ آلَافِ جُنَيْه فِي الشَّهْر، وَالتَّأْمِين شَهْر وَاحِد.",
+          "en": "Seven thousand pounds a month, and the deposit is one month's rent.",
+          "segs": [
+            [
+              "سَبْعَةُ",
+              "seven"
+            ],
+            [
+              "آلَافِ",
+              "thousands (of)"
+            ],
+            [
+              "جُنَيْه",
+              "pound (Egyptian money)"
+            ],
+            [
+              "فِي",
+              "in"
+            ],
+            [
+              "الشَّهْر",
+              "the month"
+            ],
+            [
+              "وَالتَّأْمِين",
+              "and the deposit"
+            ],
+            [
+              "شَهْر",
+              "month"
+            ],
+            [
+              "وَاحِد",
+              "one"
+            ]
+          ]
+        },
+        {
+          "id": "renting-flat-l10",
+          "sp": "daniel",
+          "ar": "هٰذَا مُنَاسِب. هَلِ الْكَهْرَبَاء وَالْمَاء مَعَ الْإِيجَار؟",
+          "en": "That's fine. Are electricity and water included in the rent?",
+          "segs": [
+            [
+              "هٰذَا",
+              "this, that (m)"
+            ],
+            [
+              "مُنَاسِب",
+              "suitable, fine"
+            ],
+            [
+              "هَلِ",
+              "(starts a yes/no question)"
+            ],
+            [
+              "الْكَهْرَبَاء",
+              "the electricity"
+            ],
+            [
+              "وَالْمَاء",
+              "and the water"
+            ],
+            [
+              "مَعَ",
+              "with"
+            ],
+            [
+              "الْإِيجَار",
+              "the rent"
+            ]
+          ]
+        },
+        {
+          "id": "renting-flat-l11",
+          "sp": "owner",
+          "ar": "لَا، الْكَهْرَبَاء عَلَيْكَ، وَالْمَاء عَلَيَّ.",
+          "en": "No, you pay for the electricity, and I pay for the water.",
+          "segs": [
+            [
+              "لَا",
+              "no"
+            ],
+            [
+              "الْكَهْرَبَاء",
+              "the electricity"
+            ],
+            [
+              "عَلَيْكَ",
+              "on you: your cost (to a man)"
+            ],
+            [
+              "وَالْمَاء",
+              "and the water"
+            ],
+            [
+              "عَلَيَّ",
+              "on me: my cost"
+            ]
+          ]
+        },
+        {
+          "id": "renting-flat-l12",
+          "sp": "daniel",
+          "ar": "اِتَّفَقْنَا! مَتَى أَسْتَطِيعُ أَنْ أَسْكُنَ هُنَا؟",
+          "en": "It's a deal! When can I move in?",
+          "segs": [
+            [
+              "اِتَّفَقْنَا",
+              "we agreed: it's a deal"
+            ],
+            [
+              "مَتَى",
+              "when"
+            ],
+            [
+              "أَسْتَطِيعُ",
+              "I can"
+            ],
+            [
+              "أَنْ",
+              "to (before a verb)"
+            ],
+            [
+              "أَسْكُنَ",
+              "(I) live"
+            ],
+            [
+              "هُنَا",
+              "here"
+            ]
+          ]
+        },
+        {
+          "id": "renting-flat-l13",
+          "sp": "owner",
+          "ar": "غَدًا، إِنْ شَاءَ اللّٰه. تَفَضَّلْ، هٰذَا مِفْتَاحُ الشَّقَّة. مَبْرُوك!",
+          "en": "Tomorrow, God willing. Here you are, this is the key to the flat. Congratulations!",
+          "segs": [
+            [
+              "غَدًا",
+              "tomorrow"
+            ],
+            [
+              "إِنْ",
+              "if"
+            ],
+            [
+              "شَاءَ",
+              "(he) willed"
+            ],
+            [
+              "اللّٰه",
+              "God"
+            ],
+            [
+              "تَفَضَّلْ",
+              "here you are (to a man)"
+            ],
+            [
+              "هٰذَا",
+              "this (m)"
+            ],
+            [
+              "مِفْتَاحُ",
+              "key (of)"
+            ],
+            [
+              "الشَّقَّة",
+              "the flat"
+            ],
+            [
+              "مَبْرُوك",
+              "congratulations"
+            ]
+          ]
+        },
+        {
+          "id": "renting-flat-l14",
+          "sp": "daniel",
+          "ar": "اللّٰه يُبَارِكُ فِيكَ! شُكْرًا جَزِيلًا يَا أُسْتَاذ مَحْمُود.",
+          "en": "God bless you! Thank you very much, Mr Mahmoud.",
+          "segs": [
+            [
+              "اللّٰه",
+              "God"
+            ],
+            [
+              "يُبَارِكُ",
+              "blesses"
+            ],
+            [
+              "فِيكَ",
+              "in you (to a man)"
+            ],
+            [
+              "شُكْرًا",
+              "thank you"
+            ],
+            [
+              "جَزِيلًا",
+              "very much (lit. abundant)"
+            ],
+            [
+              "يَا",
+              "O (calling someone)"
+            ],
+            [
+              "أُسْتَاذ",
+              "Mr, teacher"
+            ],
+            [
+              "مَحْمُود",
+              "Mahmoud (first name)",
+              "name"
+            ]
+          ]
+        }
+      ]
+    },
+    "mistakes": [
+      {
+        "wrong": "هَلْ فِي الْمَطْبَخ الثَّلَّاجَة؟",
+        "right": "هَلْ فِي الْمَطْبَخ ثَلَّاجَة؟",
+        "why": "To ask 'is there a …?', the thing has no الـ."
+      },
+      {
+        "wrong": "كَمْ إِيجَار؟",
+        "right": "كَمِ الْإِيجَار؟",
+        "why": "You ask about 'the rent', so use الـ: كَمِ الْإِيجَار؟ The m of كَمْ takes an i to link to it."
+      }
+    ],
+    "quiz": [
+      {
+        "id": "renting-flat-q1",
+        "prompt": "How do you ask 'Is the flat furnished?'",
+        "options": [
+          "أَيْنَ الشَّقَّة؟",
+          "كَمِ الْإِيجَار؟",
+          "هَلِ الشَّقَّة مَفْرُوشَة؟",
+          "هَلْ فِي الشَّقَّة شُرْفَة؟"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "renting-flat-q2",
+        "prompt": "What is missing in the kitchen?",
+        "options": [
+          "an oven",
+          "a fridge",
+          "a window",
+          "hot water"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "renting-flat-q3",
+        "prompt": "What does this mean?",
+        "ar": "الْكَهْرَبَاء عَلَيْكَ.",
+        "options": [
+          "The electricity is included.",
+          "There is no electricity.",
+          "The electricity is on the balcony.",
+          "You pay for the electricity."
+        ],
+        "answer": 3
+      }
+    ]
+  },
+  {
+    "id": "family-visit",
+    "title": "Visiting a family",
+    "emoji": "🏡",
+    "status": "needs-review",
+    "intro": "You are a guest in an Egyptian family home. Greet everyone, accept tea politely and compliment the home. Useful phrases: بَيْتُكُمْ جَمِيل (your home is beautiful), تَفَضَّلْ (please, come in) and يَكْفِي (that's enough).",
+    "dialogue": {
+      "title": "Tea with Sami's parents",
+      "speakers": [
+        {
+          "key": "ahmad",
+          "name": "Mr Ahmad",
+          "nameAr": "أَحْمَد"
+        },
+        {
+          "key": "daniel",
+          "name": "Daniel",
+          "nameAr": "دَانْيَال"
+        },
+        {
+          "key": "fatima",
+          "name": "Dr Fatima",
+          "nameAr": "فَاطِمَة"
+        }
+      ],
+      "culture": "A guest brings a small gift, often sweets (حَلَوِيَّات). The hosts will offer food again and again: it is polite to accept a little, and to say يَكْفِي، شُكْرًا (that's enough, thank you) when you are really full.",
+      "lines": [
+        {
+          "id": "family-visit-l1",
+          "sp": "ahmad",
+          "ar": "أَهْلًا وَسَهْلًا يَا دَانْيَال! تَفَضَّلْ، الْبَيْت بَيْتُكَ.",
+          "en": "Welcome, Daniel! Please come in and make yourself at home.",
+          "segs": [
+            [
+              "أَهْلًا",
+              "welcome"
+            ],
+            [
+              "وَسَهْلًا",
+              "and ease (part of 'welcome')"
+            ],
+            [
+              "يَا",
+              "O (calling someone)"
+            ],
+            [
+              "دَانْيَال",
+              "Daniel (first name)",
+              "name"
+            ],
+            [
+              "تَفَضَّلْ",
+              "please come in (to a man)"
+            ],
+            [
+              "الْبَيْت",
+              "the house, home"
+            ],
+            [
+              "بَيْتُكَ",
+              "your house (to a man)"
+            ]
+          ]
+        },
+        {
+          "id": "family-visit-l2",
+          "sp": "daniel",
+          "ar": "شُكْرًا يَا أُسْتَاذ أَحْمَد. هٰذِهِ حَلَوِيَّات لَكُمْ.",
+          "en": "Thank you, Mr Ahmad. These sweets are for you.",
+          "segs": [
+            [
+              "شُكْرًا",
+              "thank you"
+            ],
+            [
+              "يَا",
+              "O (calling someone)"
+            ],
+            [
+              "أُسْتَاذ",
+              "Mr, teacher"
+            ],
+            [
+              "أَحْمَد",
+              "Ahmad (first name)",
+              "name"
+            ],
+            [
+              "هٰذِهِ",
+              "this, these (f)"
+            ],
+            [
+              "حَلَوِيَّات",
+              "sweets"
+            ],
+            [
+              "لَكُمْ",
+              "for you (plural)"
+            ]
+          ]
+        },
+        {
+          "id": "family-visit-l3",
+          "sp": "ahmad",
+          "ar": "شُكْرًا، لِمَاذَا أَتْعَبْتَ نَفْسَكَ؟ تَفَضَّلْ، اِجْلِسْ هُنَا.",
+          "en": "Thank you, you shouldn't have! Please, sit here.",
+          "segs": [
+            [
+              "شُكْرًا",
+              "thank you"
+            ],
+            [
+              "لِمَاذَا",
+              "why"
+            ],
+            [
+              "أَتْعَبْتَ",
+              "you tired, you troubled (to a man)"
+            ],
+            [
+              "نَفْسَكَ",
+              "yourself (to a man)"
+            ],
+            [
+              "تَفَضَّلْ",
+              "please (to a man)"
+            ],
+            [
+              "اِجْلِسْ",
+              "sit (to a man)"
+            ],
+            [
+              "هُنَا",
+              "here"
+            ]
+          ]
+        },
+        {
+          "id": "family-visit-l4",
+          "sp": "fatima",
+          "ar": "أَهْلًا يَا دَانْيَال! مَاذَا تَشْرَبُ؟ عِنْدَنَا شَاي وَقَهْوَة وَعَصِير.",
+          "en": "Hello, Daniel! What would you like to drink? We have tea, coffee and juice.",
+          "segs": [
+            [
+              "أَهْلًا",
+              "hello, welcome"
+            ],
+            [
+              "يَا",
+              "O (calling someone)"
+            ],
+            [
+              "دَانْيَال",
+              "Daniel (first name)",
+              "name"
+            ],
+            [
+              "مَاذَا",
+              "what"
+            ],
+            [
+              "تَشْرَبُ",
+              "you drink (to a man)"
+            ],
+            [
+              "عِنْدَنَا",
+              "we have"
+            ],
+            [
+              "شَاي",
+              "tea"
+            ],
+            [
+              "وَقَهْوَة",
+              "and coffee"
+            ],
+            [
+              "وَعَصِير",
+              "and juice"
+            ]
+          ]
+        },
+        {
+          "id": "family-visit-l5",
+          "sp": "daniel",
+          "ar": "شَاي، مِنْ فَضْلِكِ، بِدُونِ سُكَّر. بَيْتُكُمْ جَمِيل جِدًّا!",
+          "en": "Tea, please, without sugar. Your home is very beautiful!",
+          "segs": [
+            [
+              "شَاي",
+              "tea"
+            ],
+            [
+              "مِنْ",
+              "from"
+            ],
+            [
+              "فَضْلِكِ",
+              "your kindness (to a woman): 'please'"
+            ],
+            [
+              "بِدُونِ",
+              "without"
+            ],
+            [
+              "سُكَّر",
+              "sugar"
+            ],
+            [
+              "بَيْتُكُمْ",
+              "your house (to several people)"
+            ],
+            [
+              "جَمِيل",
+              "beautiful"
+            ],
+            [
+              "جِدًّا",
+              "very"
+            ]
+          ]
+        },
+        {
+          "id": "family-visit-l6",
+          "sp": "fatima",
+          "ar": "شُكْرًا! هٰذِهِ غُرْفَةُ الْجُلُوس، وَتِلْكَ غُرْفَةُ الطَّعَام.",
+          "en": "Thank you! This is the living room, and that is the dining room.",
+          "segs": [
+            [
+              "شُكْرًا",
+              "thank you"
+            ],
+            [
+              "هٰذِهِ",
+              "this (f)"
+            ],
+            [
+              "غُرْفَةُ",
+              "room (of)"
+            ],
+            [
+              "الْجُلُوس",
+              "the sitting"
+            ],
+            [
+              "وَتِلْكَ",
+              "and that (f)"
+            ],
+            [
+              "غُرْفَةُ",
+              "room (of)"
+            ],
+            [
+              "الطَّعَام",
+              "the food"
+            ]
+          ]
+        },
+        {
+          "id": "family-visit-l7",
+          "sp": "ahmad",
+          "ar": "كَيْفَ شَقَّتُكَ الْجَدِيدَة يَا دَانْيَال؟ هَلْ هِيَ مُرِيحَة؟",
+          "en": "How is your new flat, Daniel? Is it comfortable?",
+          "segs": [
+            [
+              "كَيْفَ",
+              "how"
+            ],
+            [
+              "شَقَّتُكَ",
+              "your flat (to a man)"
+            ],
+            [
+              "الْجَدِيدَة",
+              "the new (f)"
+            ],
+            [
+              "يَا",
+              "O (calling someone)"
+            ],
+            [
+              "دَانْيَال",
+              "Daniel (first name)",
+              "name"
+            ],
+            [
+              "هَلْ",
+              "(starts a yes/no question)"
+            ],
+            [
+              "هِيَ",
+              "she, it (f)"
+            ],
+            [
+              "مُرِيحَة",
+              "comfortable (f)"
+            ]
+          ]
+        },
+        {
+          "id": "family-visit-l8",
+          "sp": "daniel",
+          "ar": "هِيَ صَغِيرَة، لٰكِنَّهَا مُرِيحَة، وَعِنْدِي شُرْفَة عَلَى النِّيل.",
+          "en": "It's small, but it's comfortable, and I have a balcony overlooking the Nile.",
+          "segs": [
+            [
+              "هِيَ",
+              "she, it (f)"
+            ],
+            [
+              "صَغِيرَة",
+              "small (f)"
+            ],
+            [
+              "لٰكِنَّهَا",
+              "but it (f)"
+            ],
+            [
+              "مُرِيحَة",
+              "comfortable (f)"
+            ],
+            [
+              "وَعِنْدِي",
+              "and I have"
+            ],
+            [
+              "شُرْفَة",
+              "balcony"
+            ],
+            [
+              "عَلَى",
+              "on, over"
+            ],
+            [
+              "النِّيل",
+              "the Nile (river)",
+              "name"
+            ]
+          ]
+        },
+        {
+          "id": "family-visit-l9",
+          "sp": "fatima",
+          "ar": "تَفَضَّلِ الشَّاي، وَخُذْ قِطْعَة كَعْك أُخْرَى!",
+          "en": "Here's your tea, and have another piece of cake!",
+          "segs": [
+            [
+              "تَفَضَّلِ",
+              "here you are (to a man)"
+            ],
+            [
+              "الشَّاي",
+              "the tea"
+            ],
+            [
+              "وَخُذْ",
+              "and take (to a man)"
+            ],
+            [
+              "قِطْعَة",
+              "piece"
+            ],
+            [
+              "كَعْك",
+              "cake, pastry"
+            ],
+            [
+              "أُخْرَى",
+              "another, other (f)"
+            ]
+          ]
+        },
+        {
+          "id": "family-visit-l10",
+          "sp": "daniel",
+          "ar": "شُكْرًا جَزِيلًا، الْكَعْك لَذِيذ، لٰكِنْ يَكْفِي، أَنَا شَبْعَان!",
+          "en": "Thank you so much, the cake is delicious, but that's enough, I'm full!",
+          "segs": [
+            [
+              "شُكْرًا",
+              "thank you"
+            ],
+            [
+              "جَزِيلًا",
+              "very much (lit. abundant)"
+            ],
+            [
+              "الْكَعْك",
+              "the cake"
+            ],
+            [
+              "لَذِيذ",
+              "delicious"
+            ],
+            [
+              "لٰكِنْ",
+              "but"
+            ],
+            [
+              "يَكْفِي",
+              "(it) is enough"
+            ],
+            [
+              "أَنَا",
+              "I"
+            ],
+            [
+              "شَبْعَان",
+              "full (after eating)"
+            ]
+          ]
+        },
+        {
+          "id": "family-visit-l11",
+          "sp": "fatima",
+          "ar": "لَا، لَا! أَنْتَ نَحِيف جِدًّا. كُلْ، كُلْ!",
+          "en": "No, no! You're far too thin. Eat, eat!",
+          "segs": [
+            [
+              "لَا",
+              "no"
+            ],
+            [
+              "لَا",
+              "no"
+            ],
+            [
+              "أَنْتَ",
+              "you (to a man)"
+            ],
+            [
+              "نَحِيف",
+              "thin"
+            ],
+            [
+              "جِدًّا",
+              "very"
+            ],
+            [
+              "كُلْ",
+              "eat (to a man)"
+            ],
+            [
+              "كُلْ",
+              "eat (to a man)"
+            ]
+          ]
+        },
+        {
+          "id": "family-visit-l12",
+          "sp": "daniel",
+          "ar": "حَاضِر يَا دُكْتُورَة! قِطْعَة صَغِيرَة فَقَطْ، مِنْ فَضْلِكِ.",
+          "en": "All right, doctor! Just a small piece, please.",
+          "segs": [
+            [
+              "حَاضِر",
+              "certainly, right away"
+            ],
+            [
+              "يَا",
+              "O (calling someone)"
+            ],
+            [
+              "دُكْتُورَة",
+              "doctor (f)"
+            ],
+            [
+              "قِطْعَة",
+              "piece"
+            ],
+            [
+              "صَغِيرَة",
+              "small (f)"
+            ],
+            [
+              "فَقَطْ",
+              "only"
+            ],
+            [
+              "مِنْ",
+              "from"
+            ],
+            [
+              "فَضْلِكِ",
+              "your kindness (to a woman): 'please'"
+            ]
+          ]
+        },
+        {
+          "id": "family-visit-l13",
+          "sp": "ahmad",
+          "ar": "يَا دَانْيَال، بَيْتُنَا مَفْتُوح لَكَ دَائِمًا. أَنْتَ مِنَ الْعَائِلَة الْآن.",
+          "en": "Daniel, our home is always open to you. You're one of the family now.",
+          "segs": [
+            [
+              "يَا",
+              "O (calling someone)"
+            ],
+            [
+              "دَانْيَال",
+              "Daniel (first name)",
+              "name"
+            ],
+            [
+              "بَيْتُنَا",
+              "our house, our home"
+            ],
+            [
+              "مَفْتُوح",
+              "open"
+            ],
+            [
+              "لَكَ",
+              "for you (to a man)"
+            ],
+            [
+              "دَائِمًا",
+              "always"
+            ],
+            [
+              "أَنْتَ",
+              "you (to a man)"
+            ],
+            [
+              "مِنَ",
+              "from, (one) of"
+            ],
+            [
+              "الْعَائِلَة",
+              "the family"
+            ],
+            [
+              "الْآن",
+              "now"
+            ]
+          ]
+        },
+        {
+          "id": "family-visit-l14",
+          "sp": "daniel",
+          "ar": "شُكْرًا لَكُمْ، أَنْتُمْ عَائِلَة كَرِيمَة جِدًّا.",
+          "en": "Thank you all, you are a very generous family.",
+          "segs": [
+            [
+              "شُكْرًا",
+              "thank you"
+            ],
+            [
+              "لَكُمْ",
+              "to you (plural)"
+            ],
+            [
+              "أَنْتُمْ",
+              "you (plural)"
+            ],
+            [
+              "عَائِلَة",
+              "family"
+            ],
+            [
+              "كَرِيمَة",
+              "generous (f)"
+            ],
+            [
+              "جِدًّا",
+              "very"
+            ]
+          ]
+        }
+      ]
+    },
+    "mistakes": [
+      {
+        "wrong": "بَيْتُكَ جَمِيل (to the whole family)",
+        "right": "بَيْتُكُمْ جَمِيل",
+        "why": "Speaking to the whole family, use ـُكُمْ (your, to several people)."
+      },
+      {
+        "wrong": "مِنْ فَضْلِكَ (to Dr Fatima)",
+        "right": "مِنْ فَضْلِكِ",
+        "why": "-ki for a woman, -ka for a man."
+      }
+    ],
+    "quiz": [
+      {
+        "id": "family-visit-q1",
+        "prompt": "How do you compliment the family on their home?",
+        "options": [
+          "بَيْتِي جَمِيل.",
+          "بَيْتُكُمْ جَمِيل.",
+          "أَيْنَ الْبَيْت؟",
+          "الْبَيْت كَبِير؟"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "family-visit-q2",
+        "prompt": "What does Daniel bring as a gift?",
+        "options": [
+          "flowers",
+          "juice",
+          "sweets",
+          "a cake"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "family-visit-q3",
+        "prompt": "What does this mean?",
+        "ar": "يَكْفِي، أَنَا شَبْعَان.",
+        "options": [
+          "That's enough, I'm full.",
+          "I'm hungry.",
+          "More tea, please.",
+          "It's delicious."
+        ],
+        "answer": 0
+      }
+    ]
   }
 ]

@@ -1217,5 +1217,406 @@
         "en": "The shops are open until ten."
       }
     ]
+  },
+  {
+    "id": "place-first-w5",
+    "title": "There is…: put the place first",
+    "titleAr": "الْخَبَر الْمُقَدَّم",
+    "firstDay": 29,
+    "summary": "To say what there is somewhere, start with the place: فِي الشَّقَّة شُرْفَة (there is a balcony in the flat).",
+    "formula": "فِي + place + thing (no الـ)",
+    "explanation": "Arabic needs no word for 'there is'. Put the place first and the thing after it, without الـ: فِي الشَّقَّة مَطْبَخ (in the flat, a kitchen = there is a kitchen in the flat). To ask, put هَلْ in front: هَلْ فِي الشَّقَّة شُرْفَة؟ If the thing has الـ, use the normal order instead: الْمَطْبَخ فِي الشَّقَّة (the kitchen is in the flat). Instead of naming the place again, use فِيهِ (in it, masculine) or فِيهَا (in it, feminine): الشَّقَّة صَغِيرَة، وَفِيهَا شُرْفَة.",
+    "table": {
+      "head": [
+        "Arabic",
+        "Word for word",
+        "English"
+      ],
+      "rows": [
+        [
+          "فِي الشَّقَّة مَطْبَخ",
+          "in the flat (is) a kitchen",
+          "there is a kitchen in the flat"
+        ],
+        [
+          "فِي الْغُرْفَة نَافِذَة",
+          "in the room (is) a window",
+          "there is a window in the room"
+        ],
+        [
+          "هَلْ فِي الشَّقَّة شُرْفَة؟",
+          "(question) in the flat (is) a balcony",
+          "is there a balcony in the flat?"
+        ],
+        [
+          "الْمَطْبَخ فِي الشَّقَّة",
+          "the kitchen (is) in the flat",
+          "the kitchen is in the flat"
+        ]
+      ]
+    },
+    "examples": [
+      {
+        "ar": "فِي الشَّقَّة غُرْفَةُ نَوْم وَمَطْبَخ.",
+        "en": "There is a bedroom and a kitchen in the flat."
+      },
+      {
+        "ar": "فِي غُرْفَةِ الْجُلُوس نَافِذَة كَبِيرَة.",
+        "en": "There is a big window in the living room."
+      }
+    ]
+  },
+  {
+    "id": "attached-pronouns",
+    "title": "All the possessive endings",
+    "titleAr": "كُلُّ الضَّمَائِر الْمُتَّصِلَة",
+    "firstDay": 30,
+    "summary": "Eight endings say whose something is: my, your (to a man, a woman, several people), his, her, our and their.",
+    "formula": "noun + ـِي · ـُكَ · ـُكِ · ـُهُ · ـُهَا · ـُنَا · ـُكُمْ · ـُهُمْ",
+    "explanation": "You already know ـِي (my), ـُكَ and ـُكِ (your), ـُهُ (his) and ـُهَا (her). Add ـُنَا (our), ـُكُمْ (your, to several people) and ـُهُمْ (their). Before any ending, ة turns into ت: غُرْفَة → غُرْفَتِي, غُرْفَتُنَا. After an i sound, ـُهُ and ـُهُمْ become ـِهِ and ـِهِمْ: لِعَائِلَتِهِ (for his family). A noun with an ending is already definite, so it never takes الـ as well. The same endings go on little words like عِنْدَ, مَعَ and فِي: عِنْدَهُ (he has), مَعَنَا (with us), فِيهَا (in it).",
+    "table": {
+      "head": [
+        "Ending",
+        "Example",
+        "English"
+      ],
+      "rows": [
+        [
+          "ـِي",
+          "غُرْفَتِي",
+          "my room"
+        ],
+        [
+          "ـُكَ",
+          "غُرْفَتُكَ",
+          "your room (to a man)"
+        ],
+        [
+          "ـُكِ",
+          "غُرْفَتُكِ",
+          "your room (to a woman)"
+        ],
+        [
+          "ـُهُ",
+          "غُرْفَتُهُ",
+          "his room"
+        ],
+        [
+          "ـُهَا",
+          "غُرْفَتُهَا",
+          "her room"
+        ],
+        [
+          "ـُنَا",
+          "غُرْفَتُنَا",
+          "our room"
+        ],
+        [
+          "ـُكُمْ",
+          "غُرْفَتُكُمْ",
+          "your room (to several people)"
+        ],
+        [
+          "ـُهُمْ",
+          "غُرْفَتُهُمْ",
+          "their room"
+        ]
+      ]
+    },
+    "examples": [
+      {
+        "ar": "هٰذِهِ غُرْفَتِي، وَهٰذَا سَرِيرِي.",
+        "en": "This is my room, and this is my bed."
+      },
+      {
+        "ar": "بَيْتُهُمْ فِي شِيكَاغُو.",
+        "en": "Their house is in Chicago."
+      }
+    ]
+  },
+  {
+    "id": "inda-li",
+    "title": "To have: عِنْدَ, لِـ and مَعَ",
+    "titleAr": "الْمِلْكِيَّة",
+    "firstDay": 31,
+    "summary": "Arabic has no verb 'to have'. It says 'at me', 'for me' or 'with me', using a possessive ending.",
+    "formula": "عِنْدِي / لِي / مَعِي + thing (no الـ)",
+    "explanation": "عِنْدِي سَيَّارَة is literally 'at me (is) a car', and it is the everyday way to say 'I have a car'. لِي (for me) is used above all for family and for what belongs to you: لِي أَخ وَأُخْت (I have a brother and a sister). مَعِي (with me) means you have something on you right now: مَعِي هَاتِفِي (I have my phone on me). Before an ending لِـ becomes لَـ: لَكَ, لَهُ, لَهَا, but لِي. To say you don't have something, put لَيْسَ in front: لَيْسَ عِنْدِي تِلْفَاز (I don't have a television).",
+    "table": {
+      "head": [
+        "عِنْدَ",
+        "لِـ",
+        "English"
+      ],
+      "rows": [
+        [
+          "عِنْدِي",
+          "لِي",
+          "I have"
+        ],
+        [
+          "عِنْدَكَ",
+          "لَكَ",
+          "you have (to a man)"
+        ],
+        [
+          "عِنْدَكِ",
+          "لَكِ",
+          "you have (to a woman)"
+        ],
+        [
+          "عِنْدَهُ",
+          "لَهُ",
+          "he has"
+        ],
+        [
+          "عِنْدَهَا",
+          "لَهَا",
+          "she has"
+        ],
+        [
+          "عِنْدَنَا",
+          "لَنَا",
+          "we have"
+        ],
+        [
+          "عِنْدَهُمْ",
+          "لَهُمْ",
+          "they have"
+        ]
+      ]
+    },
+    "examples": [
+      {
+        "ar": "عِنْدِي مِفْتَاح جَدِيد لِلشَّقَّة.",
+        "en": "I have a new key for the flat."
+      },
+      {
+        "ar": "لَيْسَ عِنْدِي تِلْفَاز.",
+        "en": "I don't have a television."
+      }
+    ]
+  },
+  {
+    "id": "adjective-agreement",
+    "title": "Adjectives agree with their noun",
+    "titleAr": "الْمُطَابَقَة",
+    "firstDay": 32,
+    "summary": "An adjective matches its noun in gender and in definiteness. A noun with an ending such as ـُهُ counts as definite.",
+    "formula": "شَعْرُهُ الطَّوِيل = his long hair · شَعْرُهُ طَوِيل = his hair is long",
+    "explanation": "On day 6 you met كِتَاب جَدِيد (a new book) and الْكِتَاب الْجَدِيد (the new book). A noun with a possessive ending is definite too, so an adjective that describes it takes الـ: شَعْرُهُ الطَّوِيل (his long hair). Without الـ the adjective says something about the noun, and you have a sentence: شَعْرُهُ طَوِيل (his hair is long). The adjective follows the gender of the noun, not of the owner: شَعْرُهَا طَوِيل (her hair is long), because شَعْر is masculine. For a group of people the adjective is plural: أَقَارِب كَثِيرُونَ (many relatives).",
+    "table": {
+      "head": [
+        "Arabic",
+        "English",
+        "Note"
+      ],
+      "rows": [
+        [
+          "رَجُل طَوِيل",
+          "a tall man",
+          "both without الـ"
+        ],
+        [
+          "أُخْتِي الصَّغِيرَة",
+          "my little sister",
+          "a phrase: both definite"
+        ],
+        [
+          "أُخْتِي صَغِيرَة",
+          "my sister is little",
+          "a sentence"
+        ],
+        [
+          "شَعْرُهَا الطَّوِيل",
+          "her long hair",
+          "masculine, like شَعْر"
+        ],
+        [
+          "شَعْرُهَا طَوِيل",
+          "her hair is long",
+          "a sentence"
+        ]
+      ]
+    },
+    "examples": [
+      {
+        "ar": "شَعْرُهَا أَشْقَر وَطَوِيل.",
+        "en": "Her hair is blond and long."
+      },
+      {
+        "ar": "أُخْتِي الصَّغِيرَة جَمِيلَة جِدًّا.",
+        "en": "My little sister is very pretty."
+      }
+    ]
+  },
+  {
+    "id": "laysa",
+    "title": "is not: لَيْسَ",
+    "titleAr": "لَيْسَ",
+    "firstDay": 33,
+    "summary": "لَيْسَ means 'is not'. It changes with the person, and the adjective after it ends in ـًا.",
+    "formula": "لَيْسَ + adjective + ـًا  (هُوَ لَيْسَ طَوِيلًا)",
+    "explanation": "Present-tense sentences have no word for 'is', but the negative does: لَيْسَ. It changes with the person like a verb: لَسْتُ (I am not), لَسْتَ and لَسْتِ (you are not), لَيْسَ (he is not), لَيْسَتْ (she is not), لَسْنَا (we are not). The adjective after it takes the accusative ending ـًا: هُوَ لَيْسَ طَوِيلًا. After ة the ending is ـَةً: هِيَ لَيْسَتْ طَوِيلَةً. In everyday speech this ending is often dropped, but write it. لَيْسَ also makes عِنْدِي negative: لَيْسَ عِنْدِي سَيَّارَة.",
+    "table": {
+      "head": [
+        "Arabic",
+        "English",
+        "Example"
+      ],
+      "rows": [
+        [
+          "لَسْتُ",
+          "I am not",
+          "أَنَا لَسْتُ قَصِيرًا"
+        ],
+        [
+          "لَسْتَ",
+          "you are not (to a man)",
+          "أَنْتَ لَسْتَ طَوِيلًا"
+        ],
+        [
+          "لَسْتِ",
+          "you are not (to a woman)",
+          "لَسْتِ هَادِئَةً"
+        ],
+        [
+          "لَيْسَ",
+          "he is not",
+          "لَيْسَ هَادِئًا"
+        ],
+        [
+          "لَيْسَتْ",
+          "she is not",
+          "لَيْسَتْ طَوِيلَةً"
+        ],
+        [
+          "لَسْنَا",
+          "we are not",
+          "لَسْنَا فِي الْبَيْت"
+        ]
+      ]
+    },
+    "examples": [
+      {
+        "ar": "عُمَر لَيْسَ طَوِيلًا، هُوَ قَصِير.",
+        "en": "Omar is not tall; he is short."
+      },
+      {
+        "ar": "نُور لَيْسَتْ طَوِيلَةً.",
+        "en": "Nour is not tall."
+      }
+    ]
+  },
+  {
+    "id": "age",
+    "title": "Saying your age",
+    "titleAr": "الْعُمْر",
+    "firstDay": 34,
+    "summary": "Ask كَمْ عُمْرُكَ؟ and answer عُمْرِي + number + years. The word for 'years' depends on the number.",
+    "formula": "عُمْرِي + 3–10 + سَنَوَاتٍ · عُمْرِي + 11–99 + سَنَةً",
+    "explanation": "عُمْر means 'age' (and 'life'). Add an ending: عُمْرِي (my age), عُمْرُكَ, عُمْرُكِ, عُمْرُهُ, عُمْرُهَا. To ask, use كَمْ (how much): كَمْ عُمْرُكَ؟ After 3 to 10 comes the plural سَنَوَات, and because سَنَة is feminine the number loses its ة: عَشْرُ سَنَوَاتٍ (ten years), not عَشَرَة. From 11 upwards the singular follows, with the ending ـَةً: عِشْرُونَ سَنَةً. The round tens are easy: عِشْرُون, ثَلَاثُون, أَرْبَعُون, خَمْسُون, سِتُّون, سَبْعُون.",
+    "table": {
+      "head": [
+        "Age",
+        "Arabic",
+        "Note"
+      ],
+      "rows": [
+        [
+          "1",
+          "سَنَة وَاحِدَة",
+          "one year"
+        ],
+        [
+          "6",
+          "سِتُّ سَنَوَاتٍ",
+          "3–10: number without ة + plural"
+        ],
+        [
+          "8",
+          "ثَمَانِي سَنَوَاتٍ",
+          "3–10: number without ة + plural"
+        ],
+        [
+          "10",
+          "عَشْرُ سَنَوَاتٍ",
+          "3–10: number without ة + plural"
+        ],
+        [
+          "20",
+          "عِشْرُونَ سَنَةً",
+          "11 and up: singular + ـَةً"
+        ],
+        [
+          "70",
+          "سَبْعُونَ سَنَةً",
+          "11 and up: singular + ـَةً"
+        ]
+      ]
+    },
+    "examples": [
+      {
+        "ar": "كَمْ عُمْرُكَ يَا دَانْيَال؟",
+        "en": "How old are you, Daniel?"
+      },
+      {
+        "ar": "عُمْرِي عِشْرُونَ سَنَةً.",
+        "en": "I am twenty years old."
+      }
+    ]
+  },
+  {
+    "id": "family-idafa-w5",
+    "title": "Family chains: اِبْنُ عَمِّي",
+    "titleAr": "اِبْنُ عَمِّي",
+    "firstDay": 35,
+    "summary": "Put two family words side by side to say 'the son of my uncle'. Only the last word takes 'my' or الـ.",
+    "formula": "first word (no الـ, ending ـُ) + second word + ending  (اِبْنُ عَمِّي)",
+    "explanation": "Arabic links two nouns to say 'X of Y' with no word for 'of': اِبْنُ عَمِّي = son (of) my uncle = my cousin. The first word never takes الـ or a possessive ending, and its last vowel is usually ـُ. 'My' goes on the last word only: زَوْجَةُ خَالِي (my uncle's wife). The last word can also be a name: خَالَةُ سَامِي (Sami's aunt). When the first word ends in ة, it is said as t: زَوْجَةُ (zawjatu). Note that أَخ (brother) and أَب (father) become أَخُو and أَبُو before another word: أَخُو أَبِي (my father's brother).",
+    "table": {
+      "head": [
+        "Arabic",
+        "Word for word",
+        "English"
+      ],
+      "rows": [
+        [
+          "اِبْنُ عَمِّي",
+          "son (of) my uncle",
+          "my cousin (father's side)"
+        ],
+        [
+          "بِنْتُ خَالَتِي",
+          "daughter (of) my aunt",
+          "my cousin (mother's side)"
+        ],
+        [
+          "زَوْجَةُ خَالِي",
+          "wife (of) my uncle",
+          "my uncle's wife"
+        ],
+        [
+          "أَخُو أَبِي",
+          "brother (of) my father",
+          "my uncle (father's brother)"
+        ],
+        [
+          "خَالَةُ سَامِي",
+          "aunt (of) Sami",
+          "Sami's aunt (his mother's sister)"
+        ]
+      ]
+    },
+    "examples": [
+      {
+        "ar": "خَالِد اِبْنُ خَالَتِي.",
+        "en": "Khalid is my cousin (my mother's sister's son)."
+      },
+      {
+        "ar": "زَوْجَةُ عَمِّي لُبْنَانِيَّة.",
+        "en": "My uncle's wife is Lebanese."
+      }
+    ]
   }
 ]

@@ -1,0 +1,1209 @@
+{
+  "day": 31,
+  "week": 5,
+  "phase": 3,
+  "level": 3,
+  "title": "I have…",
+  "titleAr": "عِنْدِي",
+  "titleSegs": [
+    [
+      "عِنْدِي",
+      "I have (lit. at me)"
+    ]
+  ],
+  "emoji": "🔑",
+  "summary": "Say what you have and don't have with عِنْدِي, لِي and مَعِي.",
+  "intro": "Arabic has no verb 'to have'. It says 'at me there is': عِنْدِي سَيَّارَة (I have a car). لِي (for me) is used for family and for things that belong to you, and مَعِي (with me) for what you have on you right now. To say you don't have something, put لَيْسَ in front: لَيْسَ عِنْدِي تِلْفَاز (I don't have a television).",
+  "objectives": [
+    "Say what you have with عِنْدِي, عِنْدَكَ, عِنْدَهُ and عِنْدَنَا",
+    "Say what you don't have with لَيْسَ عِنْدِي",
+    "Choose between عِنْدِي, لِي and مَعِي",
+    "Name six things in a home, from the key to the fridge"
+  ],
+  "realLife": {
+    "emoji": "🧊",
+    "title": "An empty fridge",
+    "story": "Daniel's flat came with a bed and a desk, but no fridge and no television. Layla, who has lived in Cairo for a year, comes over with a list of shops, and Sami brings an invitation: his family wants Daniel to come for lunch on Friday."
+  },
+  "letters": [],
+  "newWords": [
+    "inda",
+    "li",
+    "maa-w5",
+    "muftah",
+    "hatif",
+    "hasub",
+    "tilfaz",
+    "thallaja",
+    "qitta"
+  ],
+  "grammar": [
+    "inda-li"
+  ],
+  "pronunciation": [
+    "ayn"
+  ],
+  "sentences": [
+    {
+      "id": "d31s1",
+      "ar": "عِنْدِي مِفْتَاح جَدِيد لِلشَّقَّة.",
+      "en": "I have a new key for the flat.",
+      "literal": "at me (is) a key new for the flat",
+      "segs": [
+        [
+          "عِنْدِي",
+          "I have (lit. at me)",
+          "prep"
+        ],
+        [
+          "مِفْتَاح",
+          "key",
+          "noun"
+        ],
+        [
+          "جَدِيد",
+          "new",
+          "adj"
+        ],
+        [
+          "لِلشَّقَّة",
+          "for the flat",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "inda-li",
+        "adjectives"
+      ]
+    },
+    {
+      "id": "d31s2",
+      "ar": "لَيْسَ عِنْدِي تِلْفَاز.",
+      "en": "I don't have a television.",
+      "literal": "(there) is not at me a television",
+      "segs": [
+        [
+          "لَيْسَ",
+          "is not",
+          "verb"
+        ],
+        [
+          "عِنْدِي",
+          "I have (lit. at me)",
+          "prep"
+        ],
+        [
+          "تِلْفَاز",
+          "television",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "inda-li",
+        "laysa"
+      ],
+      "mistakes": [
+        {
+          "wrong": "لَا عِنْدِي تِلْفَاز",
+          "right": "لَيْسَ عِنْدِي تِلْفَاز",
+          "why": "عِنْدِي is not a verb, so 'not' here is لَيْسَ, not لَا."
+        }
+      ]
+    },
+    {
+      "id": "d31s3",
+      "ar": "هَلْ عِنْدَكِ قِطَّة يَا لَيْلَى؟",
+      "en": "Do you have a cat, Layla?",
+      "literal": "(question) at you (is) a cat, O Layla",
+      "segs": [
+        [
+          "هَلْ",
+          "(starts a yes/no question)",
+          "question"
+        ],
+        [
+          "عِنْدَكِ",
+          "you have (to a woman)",
+          "prep"
+        ],
+        [
+          "قِطَّة",
+          "cat",
+          "noun"
+        ],
+        [
+          "يَا",
+          "O (calling someone)",
+          "particle"
+        ],
+        [
+          "لَيْلَى",
+          "Layla (first name)",
+          "name"
+        ]
+      ],
+      "grammar": [
+        "inda-li",
+        "questions"
+      ]
+    },
+    {
+      "id": "d31s4",
+      "ar": "لِي أَخ وَأُخْت.",
+      "en": "I have a brother and a sister.",
+      "literal": "for me (is) a brother and a sister",
+      "segs": [
+        [
+          "لِي",
+          "for me: I have",
+          "prep"
+        ],
+        [
+          "أَخ",
+          "brother",
+          "noun"
+        ],
+        [
+          "وَأُخْت",
+          "and a sister",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "inda-li"
+      ],
+      "mistakes": [
+        {
+          "wrong": "مَعِي أَخ وَأُخْت",
+          "right": "لِي أَخ وَأُخْت",
+          "why": "مَعِي means 'with me right now'. For family, use لِي or عِنْدِي."
+        }
+      ]
+    },
+    {
+      "id": "d31s5",
+      "ar": "مَعِي هَاتِفِي، لٰكِنْ لَيْسَ مَعِي مِفْتَاحِي!",
+      "en": "I have my phone on me, but I don't have my key with me!",
+      "literal": "with me (is) my phone, but not with me (is) my key",
+      "segs": [
+        [
+          "مَعِي",
+          "with me, on me",
+          "prep"
+        ],
+        [
+          "هَاتِفِي",
+          "my phone",
+          "noun"
+        ],
+        [
+          "لٰكِنْ",
+          "but",
+          "particle"
+        ],
+        [
+          "لَيْسَ",
+          "is not",
+          "verb"
+        ],
+        [
+          "مَعِي",
+          "with me, on me",
+          "prep"
+        ],
+        [
+          "مِفْتَاحِي",
+          "my key",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "inda-li",
+        "laysa"
+      ]
+    },
+    {
+      "id": "d31s6",
+      "ar": "عِنْدَنَا ثَلَّاجَة جَدِيدَة الْآن.",
+      "en": "We have a new fridge now.",
+      "literal": "at us (is) a fridge new now",
+      "segs": [
+        [
+          "عِنْدَنَا",
+          "we have (lit. at us)",
+          "prep"
+        ],
+        [
+          "ثَلَّاجَة",
+          "fridge",
+          "noun"
+        ],
+        [
+          "جَدِيدَة",
+          "new (f)",
+          "adj"
+        ],
+        [
+          "الْآن",
+          "now",
+          "adverb"
+        ]
+      ],
+      "grammar": [
+        "inda-li",
+        "adjectives"
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "No fridge, no television",
+    "speakers": [
+      {
+        "key": "layla",
+        "name": "Layla",
+        "nameAr": "لَيْلَى"
+      },
+      {
+        "key": "daniel",
+        "name": "Daniel",
+        "nameAr": "دَانْيَال"
+      },
+      {
+        "key": "sami",
+        "name": "Sami",
+        "nameAr": "سَامِي"
+      }
+    ],
+    "culture": "An invitation to lunch (الْغَدَاء) at a family home is a sign of real friendship in Egypt. Lunch is the main meal of the day and is often eaten late, around three or four in the afternoon, and Friday (الْجُمُعَة) is the family day.",
+    "lines": [
+      {
+        "id": "d31l1",
+        "sp": "layla",
+        "ar": "مَرْحَبًا يَا دَانْيَال! أَنَا هُنَا مَعَ قَائِمَةِ الْمَحَلَّات. مَاذَا عِنْدَكَ فِي الشَّقَّة الْآن؟",
+        "en": "Hello, Daniel! I'm here with the list of shops. What do you have in the flat now?",
+        "segs": [
+          [
+            "مَرْحَبًا",
+            "hello"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "دَانْيَال",
+            "Daniel (first name)",
+            "name"
+          ],
+          [
+            "أَنَا",
+            "I"
+          ],
+          [
+            "هُنَا",
+            "here"
+          ],
+          [
+            "مَعَ",
+            "with"
+          ],
+          [
+            "قَائِمَةِ",
+            "list (of)"
+          ],
+          [
+            "الْمَحَلَّات",
+            "the shops"
+          ],
+          [
+            "مَاذَا",
+            "what"
+          ],
+          [
+            "عِنْدَكَ",
+            "you have (to a man)"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "الشَّقَّة",
+            "the flat"
+          ],
+          [
+            "الْآن",
+            "now"
+          ]
+        ]
+      },
+      {
+        "id": "d31l2",
+        "sp": "daniel",
+        "ar": "عِنْدِي سَرِير وَمَكْتَب وَكُرْسِيّ، لٰكِنْ لَيْسَ عِنْدِي ثَلَّاجَة وَلَا تِلْفَاز.",
+        "en": "I have a bed, a desk and a chair, but I don't have a fridge or a television.",
+        "segs": [
+          [
+            "عِنْدِي",
+            "I have"
+          ],
+          [
+            "سَرِير",
+            "bed"
+          ],
+          [
+            "وَمَكْتَب",
+            "and a desk"
+          ],
+          [
+            "وَكُرْسِيّ",
+            "and a chair"
+          ],
+          [
+            "لٰكِنْ",
+            "but"
+          ],
+          [
+            "لَيْسَ",
+            "is not"
+          ],
+          [
+            "عِنْدِي",
+            "I have"
+          ],
+          [
+            "ثَلَّاجَة",
+            "fridge"
+          ],
+          [
+            "وَلَا",
+            "and not, nor"
+          ],
+          [
+            "تِلْفَاز",
+            "television"
+          ]
+        ]
+      },
+      {
+        "id": "d31l3",
+        "sp": "layla",
+        "ar": "لَيْسَ عِنْدَكَ ثَلَّاجَة؟ إِذَنْ أَيْنَ الْحَلِيب وَالْمَاء؟ الْجَوّ حَارّ جِدًّا!",
+        "en": "You don't have a fridge? So where are the milk and the water? It's very hot!",
+        "segs": [
+          [
+            "لَيْسَ",
+            "is not"
+          ],
+          [
+            "عِنْدَكَ",
+            "you have (to a man)"
+          ],
+          [
+            "ثَلَّاجَة",
+            "fridge"
+          ],
+          [
+            "إِذَنْ",
+            "so, then"
+          ],
+          [
+            "أَيْنَ",
+            "where"
+          ],
+          [
+            "الْحَلِيب",
+            "the milk"
+          ],
+          [
+            "وَالْمَاء",
+            "and the water"
+          ],
+          [
+            "الْجَوّ",
+            "the weather"
+          ],
+          [
+            "حَارّ",
+            "hot"
+          ],
+          [
+            "جِدًّا",
+            "very"
+          ]
+        ]
+      },
+      {
+        "id": "d31l4",
+        "sp": "daniel",
+        "ar": "الْحَلِيب عَلَى الشُّرْفَة… لَا، أَنَا أَمْزَحُ! لَيْسَ عِنْدِي حَلِيب أَيْضًا.",
+        "en": "The milk is on the balcony… no, I'm joking! I don't have any milk either.",
+        "segs": [
+          [
+            "الْحَلِيب",
+            "the milk"
+          ],
+          [
+            "عَلَى",
+            "on"
+          ],
+          [
+            "الشُّرْفَة",
+            "the balcony"
+          ],
+          [
+            "لَا",
+            "no"
+          ],
+          [
+            "أَنَا",
+            "I"
+          ],
+          [
+            "أَمْزَحُ",
+            "I am joking"
+          ],
+          [
+            "لَيْسَ",
+            "is not"
+          ],
+          [
+            "عِنْدِي",
+            "I have"
+          ],
+          [
+            "حَلِيب",
+            "milk"
+          ],
+          [
+            "أَيْضًا",
+            "also, either"
+          ]
+        ]
+      },
+      {
+        "id": "d31l5",
+        "sp": "layla",
+        "ar": "طَيِّب، هٰذِهِ الْقَائِمَة لَكَ. فِيهَا مَحَلّ رَخِيص لِلثَّلَّاجَات وَالتِّلْفَازَات، قَرِيب مِنْ هُنَا.",
+        "en": "OK, this list is for you. On it there's a cheap shop for fridges and televisions, close to here.",
+        "segs": [
+          [
+            "طَيِّب",
+            "OK, fine"
+          ],
+          [
+            "هٰذِهِ",
+            "this (f)"
+          ],
+          [
+            "الْقَائِمَة",
+            "the list"
+          ],
+          [
+            "لَكَ",
+            "for you (to a man)"
+          ],
+          [
+            "فِيهَا",
+            "in it (f)"
+          ],
+          [
+            "مَحَلّ",
+            "shop"
+          ],
+          [
+            "رَخِيص",
+            "cheap"
+          ],
+          [
+            "لِلثَّلَّاجَات",
+            "for fridges"
+          ],
+          [
+            "وَالتِّلْفَازَات",
+            "and televisions"
+          ],
+          [
+            "قَرِيب",
+            "near, close"
+          ],
+          [
+            "مِنْ",
+            "from"
+          ],
+          [
+            "هُنَا",
+            "here"
+          ]
+        ]
+      },
+      {
+        "id": "d31l6",
+        "sp": "daniel",
+        "ar": "شُكْرًا يَا لَيْلَى، أَنْتِ لَطِيفَة جِدًّا. وَهَلْ عِنْدَكِ تِلْفَاز فِي شَقَّتِكِ؟",
+        "en": "Thank you, Layla, you are very kind. And do you have a television in your flat?",
+        "segs": [
+          [
+            "شُكْرًا",
+            "thank you"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "لَيْلَى",
+            "Layla (first name)",
+            "name"
+          ],
+          [
+            "أَنْتِ",
+            "you (to a woman)"
+          ],
+          [
+            "لَطِيفَة",
+            "kind, nice (f)"
+          ],
+          [
+            "جِدًّا",
+            "very"
+          ],
+          [
+            "وَهَلْ",
+            "and (starts a yes/no question)"
+          ],
+          [
+            "عِنْدَكِ",
+            "you have (to a woman)"
+          ],
+          [
+            "تِلْفَاز",
+            "television"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "شَقَّتِكِ",
+            "your flat (to a woman)"
+          ]
+        ]
+      },
+      {
+        "id": "d31l7",
+        "sp": "layla",
+        "ar": "لَا، لَيْسَ عِنْدِي تِلْفَاز، عِنْدِي حَاسُوب فَقَطْ. لٰكِنْ عِنْدِي قِطَّة صَغِيرَة اسْمُهَا لُولُو!",
+        "en": "No, I don't have a TV, I only have a computer. But I have a little cat called Lulu!",
+        "segs": [
+          [
+            "لَا",
+            "no"
+          ],
+          [
+            "لَيْسَ",
+            "is not"
+          ],
+          [
+            "عِنْدِي",
+            "I have"
+          ],
+          [
+            "تِلْفَاز",
+            "television"
+          ],
+          [
+            "عِنْدِي",
+            "I have"
+          ],
+          [
+            "حَاسُوب",
+            "computer"
+          ],
+          [
+            "فَقَطْ",
+            "only"
+          ],
+          [
+            "لٰكِنْ",
+            "but"
+          ],
+          [
+            "عِنْدِي",
+            "I have"
+          ],
+          [
+            "قِطَّة",
+            "cat"
+          ],
+          [
+            "صَغِيرَة",
+            "small, little (f)"
+          ],
+          [
+            "اسْمُهَا",
+            "her name"
+          ],
+          [
+            "لُولُو",
+            "Lulu (a cat's name)",
+            "name"
+          ]
+        ]
+      },
+      {
+        "id": "d31l8",
+        "sp": "sami",
+        "ar": "السَّلَامُ عَلَيْكُمْ! الْبَاب مَفْتُوح… هَلْ مَعَكَ مِفْتَاحُكَ يَا دَانْيَال؟",
+        "en": "Peace be upon you! The door is open… do you have your key on you, Daniel?",
+        "segs": [
+          [
+            "السَّلَامُ",
+            "the peace"
+          ],
+          [
+            "عَلَيْكُمْ",
+            "upon you (plural)"
+          ],
+          [
+            "الْبَاب",
+            "the door"
+          ],
+          [
+            "مَفْتُوح",
+            "open"
+          ],
+          [
+            "هَلْ",
+            "(starts a yes/no question)"
+          ],
+          [
+            "مَعَكَ",
+            "with you (to a man)"
+          ],
+          [
+            "مِفْتَاحُكَ",
+            "your key (to a man)"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "دَانْيَال",
+            "Daniel (first name)",
+            "name"
+          ]
+        ]
+      },
+      {
+        "id": "d31l9",
+        "sp": "daniel",
+        "ar": "وَعَلَيْكُمُ السَّلَامُ! نَعَم، مِفْتَاحِي مَعِي، فِي جَيْبِي. الْبَاب مَفْتُوح لَكَ أَنْتَ!",
+        "en": "And peace be upon you! Yes, my key is with me, in my pocket. The door is open just for you!",
+        "segs": [
+          [
+            "وَعَلَيْكُمُ",
+            "and upon you (plural)"
+          ],
+          [
+            "السَّلَامُ",
+            "the peace"
+          ],
+          [
+            "نَعَم",
+            "yes"
+          ],
+          [
+            "مِفْتَاحِي",
+            "my key"
+          ],
+          [
+            "مَعِي",
+            "with me, on me"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "جَيْبِي",
+            "my pocket"
+          ],
+          [
+            "الْبَاب",
+            "the door"
+          ],
+          [
+            "مَفْتُوح",
+            "open"
+          ],
+          [
+            "لَكَ",
+            "for you (to a man)"
+          ],
+          [
+            "أَنْتَ",
+            "you (to a man)"
+          ]
+        ]
+      },
+      {
+        "id": "d31l10",
+        "sp": "sami",
+        "ar": "أَنْتَ لَطِيف! عِنْدِي خَبَر جَمِيل: أُمِّي تَدْعُوكَ إِلَى الْغَدَاء يَوْمَ الْجُمُعَة.",
+        "en": "That's kind of you! I have some good news: my mother invites you to lunch on Friday.",
+        "segs": [
+          [
+            "أَنْتَ",
+            "you (to a man)"
+          ],
+          [
+            "لَطِيف",
+            "kind, nice"
+          ],
+          [
+            "عِنْدِي",
+            "I have"
+          ],
+          [
+            "خَبَر",
+            "news"
+          ],
+          [
+            "جَمِيل",
+            "beautiful, nice"
+          ],
+          [
+            "أُمِّي",
+            "my mother"
+          ],
+          [
+            "تَدْعُوكَ",
+            "(she) invites you (a man)"
+          ],
+          [
+            "إِلَى",
+            "to"
+          ],
+          [
+            "الْغَدَاء",
+            "the lunch"
+          ],
+          [
+            "يَوْمَ",
+            "on the day (of)"
+          ],
+          [
+            "الْجُمُعَة",
+            "Friday"
+          ]
+        ]
+      },
+      {
+        "id": "d31l11",
+        "sp": "daniel",
+        "ar": "يَا سَلَام، شُكْرًا جَزِيلًا! مَنْ فِي الْبَيْت؟ لَكَ أَخ وَأُخْت، صَحِيح؟",
+        "en": "Wow, thank you very much! Who lives in the house? You have a brother and a sister, right?",
+        "segs": [
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "سَلَام",
+            "peace ('wow!' with yā)"
+          ],
+          [
+            "شُكْرًا",
+            "thank you"
+          ],
+          [
+            "جَزِيلًا",
+            "very much (lit. abundant)"
+          ],
+          [
+            "مَنْ",
+            "who"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "الْبَيْت",
+            "the house"
+          ],
+          [
+            "لَكَ",
+            "for you (to a man): you have"
+          ],
+          [
+            "أَخ",
+            "brother"
+          ],
+          [
+            "وَأُخْت",
+            "and a sister"
+          ],
+          [
+            "صَحِيح",
+            "right, true"
+          ]
+        ]
+      },
+      {
+        "id": "d31l12",
+        "sp": "sami",
+        "ar": "نَعَم، لِي أَخ صَغِير اسْمُهُ عُمَر، وَأُخْت صَغِيرَة اسْمُهَا نُور. وَعِنْدَنَا قِطَّة أَيْضًا!",
+        "en": "Yes, I have a little brother called Omar and a little sister called Nour. And we have a cat too!",
+        "segs": [
+          [
+            "نَعَم",
+            "yes"
+          ],
+          [
+            "لِي",
+            "for me: I have"
+          ],
+          [
+            "أَخ",
+            "brother"
+          ],
+          [
+            "صَغِير",
+            "small, little"
+          ],
+          [
+            "اسْمُهُ",
+            "his name"
+          ],
+          [
+            "عُمَر",
+            "Omar (first name)",
+            "name"
+          ],
+          [
+            "وَأُخْت",
+            "and a sister"
+          ],
+          [
+            "صَغِيرَة",
+            "small, little (f)"
+          ],
+          [
+            "اسْمُهَا",
+            "her name"
+          ],
+          [
+            "نُور",
+            "Nour (first name)",
+            "name"
+          ],
+          [
+            "وَعِنْدَنَا",
+            "and we have"
+          ],
+          [
+            "قِطَّة",
+            "cat"
+          ],
+          [
+            "أَيْضًا",
+            "also, too"
+          ]
+        ]
+      },
+      {
+        "id": "d31l13",
+        "sp": "layla",
+        "ar": "قِطَّة؟ مِثْلِي! يَا دَانْيَال، عِنْدَ سَامِي عَائِلَة كَبِيرَة، وَأَنْتَ لَيْسَ عِنْدَكَ حَتَّى ثَلَّاجَة!",
+        "en": "A cat? Just like me! Daniel, Sami has a big family, and you don't even have a fridge!",
+        "segs": [
+          [
+            "قِطَّة",
+            "cat"
+          ],
+          [
+            "مِثْلِي",
+            "like me"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "دَانْيَال",
+            "Daniel (first name)",
+            "name"
+          ],
+          [
+            "عِنْدَ",
+            "at: (Sami) has"
+          ],
+          [
+            "سَامِي",
+            "Sami (first name)",
+            "name"
+          ],
+          [
+            "عَائِلَة",
+            "family"
+          ],
+          [
+            "كَبِيرَة",
+            "big (f)"
+          ],
+          [
+            "وَأَنْتَ",
+            "and you (to a man)"
+          ],
+          [
+            "لَيْسَ",
+            "is not"
+          ],
+          [
+            "عِنْدَكَ",
+            "you have (to a man)"
+          ],
+          [
+            "حَتَّى",
+            "even"
+          ],
+          [
+            "ثَلَّاجَة",
+            "fridge"
+          ]
+        ]
+      },
+      {
+        "id": "d31l14",
+        "sp": "daniel",
+        "ar": "صَحِيح! غَدًا عِنْدِي ثَلَّاجَة، وَيَوْمَ الْجُمُعَة عِنْدِي غَدَاء مَعَ عَائِلَةِ سَامِي!",
+        "en": "True! Tomorrow I'll have a fridge, and on Friday I'll have lunch with Sami's family!",
+        "segs": [
+          [
+            "صَحِيح",
+            "true, right"
+          ],
+          [
+            "غَدًا",
+            "tomorrow"
+          ],
+          [
+            "عِنْدِي",
+            "I have"
+          ],
+          [
+            "ثَلَّاجَة",
+            "fridge"
+          ],
+          [
+            "وَيَوْمَ",
+            "and on the day (of)"
+          ],
+          [
+            "الْجُمُعَة",
+            "Friday"
+          ],
+          [
+            "عِنْدِي",
+            "I have"
+          ],
+          [
+            "غَدَاء",
+            "lunch"
+          ],
+          [
+            "مَعَ",
+            "with"
+          ],
+          [
+            "عَائِلَةِ",
+            "family (of)"
+          ],
+          [
+            "سَامِي",
+            "Sami (first name)",
+            "name"
+          ]
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "title": "Who has what?",
+    "ar": "عِنْدَ دَانْيَال شَقَّة صَغِيرَة. فِي الشَّقَّة سَرِير وَمَكْتَب، لٰكِنْ لَيْسَ فِيهَا ثَلَّاجَة. لِلَيْلَى قِطَّة اسْمُهَا لُولُو، وَلِسَامِي أَخ وَأُخْت.",
+    "en": "Daniel has a small flat. In the flat there is a bed and a desk, but there is no fridge. Layla has a cat called Lulu, and Sami has a brother and a sister.",
+    "segs": [
+      [
+        "عِنْدَ",
+        "at: (Daniel) has"
+      ],
+      [
+        "دَانْيَال",
+        "Daniel (first name)",
+        "name"
+      ],
+      [
+        "شَقَّة",
+        "flat"
+      ],
+      [
+        "صَغِيرَة",
+        "small (f)"
+      ],
+      [
+        "فِي",
+        "in"
+      ],
+      [
+        "الشَّقَّة",
+        "the flat"
+      ],
+      [
+        "سَرِير",
+        "bed"
+      ],
+      [
+        "وَمَكْتَب",
+        "and a desk"
+      ],
+      [
+        "لٰكِنْ",
+        "but"
+      ],
+      [
+        "لَيْسَ",
+        "is not"
+      ],
+      [
+        "فِيهَا",
+        "in it (f)"
+      ],
+      [
+        "ثَلَّاجَة",
+        "fridge"
+      ],
+      [
+        "لِلَيْلَى",
+        "for Layla: Layla has"
+      ],
+      [
+        "قِطَّة",
+        "cat"
+      ],
+      [
+        "اسْمُهَا",
+        "her name"
+      ],
+      [
+        "لُولُو",
+        "Lulu (a cat's name)",
+        "name"
+      ],
+      [
+        "وَلِسَامِي",
+        "and for Sami: Sami has"
+      ],
+      [
+        "أَخ",
+        "brother"
+      ],
+      [
+        "وَأُخْت",
+        "and a sister"
+      ]
+    ]
+  },
+  "review": [
+    "bayt",
+    "akh",
+    "ukht",
+    "shaqqa",
+    "sarir"
+  ],
+  "quiz": [
+    {
+      "id": "d31q1",
+      "prompt": "How do you say 'I have a key'?",
+      "options": [
+        "أَنَا مِفْتَاح.",
+        "هٰذَا مِفْتَاح.",
+        "عِنْدِي مِفْتَاح.",
+        "مِفْتَاح جَدِيد."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "d31q2",
+      "prompt": "What does this mean?",
+      "ar": "لَيْسَ عِنْدِي تِلْفَاز.",
+      "options": [
+        "I don't have a television.",
+        "I have a television.",
+        "Is there a television?",
+        "The television is new."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "d31q3",
+      "prompt": "Which word is best for 'I have (on me, right now)'?",
+      "options": [
+        "لِي",
+        "عِنْدَهُ",
+        "لَكَ",
+        "مَعِي"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "d31q4",
+      "prompt": "What does this mean?",
+      "ar": "ثَلَّاجَة",
+      "options": [
+        "computer",
+        "fridge",
+        "television",
+        "key"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "d31q5",
+      "prompt": "What is the name of Layla's cat?",
+      "options": [
+        "Nour",
+        "Omar",
+        "Lulu",
+        "Emma"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "d31q6",
+      "prompt": "Who invites Daniel to lunch on Friday?",
+      "options": [
+        "Sami's mother",
+        "Layla",
+        "Mr Karim",
+        "Sami's father"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "d31q7",
+      "prompt": "How do you make the ʿayn at the start of عِنْدِي?",
+      "options": [
+        "With the lips",
+        "With the tip of the tongue",
+        "Through the nose",
+        "By squeezing the middle of the throat"
+      ],
+      "answer": 3
+    }
+  ],
+  "completion": "Great job! You can say what you have, what you don't have and what you have on you.",
+  "status": "needs-review"
+}

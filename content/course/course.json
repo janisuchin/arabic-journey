@@ -757,7 +757,121 @@
      "title": "Aunts and uncles"
     }
    ],
-   "test": []
+   "test": [
+    {
+     "id": "w5t1",
+     "prompt": "What does this mean?",
+     "ar": "غُرْفَةُ النَّوْم",
+     "options": [
+      "the kitchen",
+      "the bedroom",
+      "the bathroom",
+      "the balcony"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "w5t2",
+     "prompt": "How do you say 'There is a window in the room'?",
+     "options": [
+      "النَّافِذَة فِي غُرْفَة.",
+      "فِي الْغُرْفَة النَّافِذَة.",
+      "غُرْفَة نَافِذَة.",
+      "فِي الْغُرْفَة نَافِذَة."
+     ],
+     "answer": 3
+    },
+    {
+     "id": "w5t3",
+     "prompt": "Which word means 'their house'?",
+     "options": [
+      "بَيْتُهُمْ",
+      "بَيْتُنَا",
+      "بَيْتُكَ",
+      "بَيْتُكُمْ"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "w5t4",
+     "prompt": "How do you say 'I don't have a car'?",
+     "options": [
+      "مَعِي سَيَّارَة.",
+      "لَيْسَ عِنْدِي سَيَّارَة.",
+      "عِنْدِي سَيَّارَة.",
+      "لَسْتُ سَيَّارَة."
+     ],
+     "answer": 1
+    },
+    {
+     "id": "w5t5",
+     "prompt": "Which one means 'his long hair' (a phrase, not a sentence)?",
+     "options": [
+      "شَعْرُهُ طَوِيل",
+      "شَعْرُهُ الطَّوِيل",
+      "شَعْرُهَا الطَّوِيل",
+      "شَعْرِي الطَّوِيل"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "w5t6",
+     "prompt": "Complete: 'She is not tall.'",
+     "ar": "هِيَ … طَوِيلَةً.",
+     "options": [
+      "لَيْسَ",
+      "لَسْتُ",
+      "لَيْسَتْ",
+      "لَسْنَا"
+     ],
+     "answer": 2
+    },
+    {
+     "id": "w5t7",
+     "prompt": "How do you say 'I am twenty years old'?",
+     "options": [
+      "عُمْرِي عِشْرُونَ سَنَةً.",
+      "عُمْرِي عِشْرُونَ سَنَوَاتٍ.",
+      "عُمْرُكَ عِشْرُونَ سَنَةً.",
+      "عُمْرِي عَشْرُ سَنَوَاتٍ."
+     ],
+     "answer": 0
+    },
+    {
+     "id": "w5t8",
+     "prompt": "Your mother's brother is your …",
+     "options": [
+      "عَمّ",
+      "جَدّ",
+      "خَال",
+      "زَوْج"
+     ],
+     "answer": 2
+    },
+    {
+     "id": "w5t9",
+     "prompt": "What does this mean?",
+     "ar": "خَالِد اِبْنُ خَالَتِي.",
+     "options": [
+      "Khalid is my uncle.",
+      "Khalid is my brother.",
+      "Khalid is my aunt's husband.",
+      "Khalid is my cousin."
+     ],
+     "answer": 3
+    },
+    {
+     "id": "w5t10",
+     "prompt": "Which word means 'I have (on me, right now)'?",
+     "options": [
+      "مَعِي",
+      "لِي",
+      "عِنْدَهُ",
+      "فِيهَا"
+     ],
+     "answer": 0
+    }
+   ]
   },
   {
    "week": 6,

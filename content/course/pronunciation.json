@@ -312,5 +312,76 @@
         }
       ]
     ]
+  },
+  {
+    "id": "stress",
+    "title": "Word stress: find the heavy syllable",
+    "category": "Rhythm",
+    "ipa": [
+      "ˈ"
+    ],
+    "letters": [
+      "ا",
+      "و",
+      "ي"
+    ],
+    "tip": "Arabic stress follows a rule, counted from the end of the word. 1) A last syllable with a long vowel and a consonant (-ām, -īr, -āb) takes the stress: ḥam-MĀM, sa-RĪR, ki-TĀB. 2) Otherwise stress the second-to-last syllable if it is heavy, that is, if it has a long vowel or ends in a consonant: SHAQ-qa, MAṬ-bakh, GHUR-fa. 3) Otherwise go one syllable further back: NĀ-fi-dha.",
+    "diagram": "light syllable = consonant + short vowel (ka) · heavy = long vowel (kā) or closed by a consonant (kat) · look at the last syllable, then the second-to-last, then the third-to-last",
+    "error": "Putting the stress on the first or the last syllable every time, as in English or French. maṭ-BAKH and nā-fi-DHA sound foreign; say MAṬ-bakh and NĀ-fi-dha.",
+    "examples": [
+      {
+        "ar": "مَطْبَخ",
+        "en": "kitchen"
+      },
+      {
+        "ar": "حَمَّام",
+        "en": "bathroom"
+      },
+      {
+        "ar": "نَافِذَة",
+        "en": "window"
+      }
+    ]
+  },
+  {
+    "id": "dad",
+    "title": "ḍād (ض): the letter of Arabic",
+    "category": "Emphatics",
+    "ipa": [
+      "dˤ"
+    ],
+    "letters": [
+      "ض",
+      "د"
+    ],
+    "tip": "Arabic is often called لُغَةُ الضَّاد, 'the language of ḍād', because this sound is so rare in other languages. Say d, but press the front of the tongue firmly behind the top teeth and raise the back of the tongue, so the mouth feels hollow. The vowels next to it sound darker: ḍa sounds closer to the 'du' of 'dull'.",
+    "diagram": "tongue tip behind the upper teeth, as for d · back of the tongue raised towards the soft palate · voice on",
+    "error": "Saying ض as a plain d. darb (path) and ḍarb (hitting) are different words, and أَرْض (floor, ground) said with a light d sounds wrong.",
+    "examples": [
+      {
+        "ar": "أَرْض",
+        "en": "floor, ground"
+      },
+      {
+        "ar": "أَبْيَض",
+        "en": "white"
+      },
+      {
+        "ar": "ضَيْف",
+        "en": "guest"
+      }
+    ],
+    "pairs": [
+      [
+        {
+          "ar": "دَرْب",
+          "en": "path"
+        },
+        {
+          "ar": "ضَرْب",
+          "en": "hitting"
+        }
+      ]
+    ]
   }
 ]
