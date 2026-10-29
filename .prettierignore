@@ -1,0 +1,8 @@
+dist
+dist-unlocked
+.expo
+node_modules
+Arabic_Reference
+content
+package-lock.json
+*.md

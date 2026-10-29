@@ -1,0 +1,6 @@
+// Cloudflare Workers static assets: the unlocked web edition (all chapters open).
+{
+  "name": "ar-journey-unlocked",
+  "compatibility_date": "2026-10-01",
+  "assets": { "directory": "./dist-unlocked", "not_found_handling": "single-page-application" },
+}

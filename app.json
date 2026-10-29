@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "Arabic Journey",
+    "slug": "arabic-journey",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "arabicjourney",
+    "userInterfaceStyle": "automatic",
+    "description": "A 90-day Modern Standard Arabic course for English speakers. Right-to-left, local-first.",
+    "ios": { "supportsTablet": true },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0B7A5C",
+        "foregroundImage": "./assets/images/android-icon-foreground.png",
+        "backgroundImage": "./assets/images/android-icon-background.png",
+        "monochromeImage": "./assets/images/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "output": "single",
+      "favicon": "./assets/images/favicon.png",
+      "lang": "ar",
+      "name": "Arabic Journey",
+      "shortName": "Arabic Journey",
+      "themeColor": "#0B7A5C",
+      "backgroundColor": "#F6F4EF"
+    },
+    "plugins": [
+      "expo-router",
+      ["expo-localization", { "supportsRTL": true, "forcesRTL": true }],
+      ["expo-splash-screen", { "backgroundColor": "#0B7A5C", "image": "./assets/images/splash-icon.png", "imageWidth": 76 }],
+      "expo-font"
+    ],
+    "experiments": { "typedRoutes": true, "reactCompiler": true },
+    "extra": { "supportsRTL": true, "forcesRTL": true }
+  }
+}

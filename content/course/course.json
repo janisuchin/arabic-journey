@@ -1,0 +1,942 @@
+{
+ "title": "Arabic Journey",
+ "weeks": [
+  {
+   "week": 1,
+   "phase": 1,
+   "levels": [
+    0
+   ],
+   "title": "First steps: greetings and the alphabet",
+   "titleAr": "الْخُطُوَات الْأُولَى",
+   "titleSegs": [
+    [
+     "الْخُطُوَات",
+     "the steps"
+    ],
+    [
+     "الْأُولَى",
+     "the first (f)"
+    ]
+   ],
+   "topics": [
+    "greetings",
+    "names",
+    "nationalities",
+    "how are you",
+    "family",
+    "everyday things",
+    "numbers 1–10",
+    "the whole alphabet"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "title": "Hello!"
+    },
+    {
+     "day": 2,
+     "title": "What's your name?"
+    },
+    {
+     "day": 3,
+     "title": "Where are you from?"
+    },
+    {
+     "day": 4,
+     "title": "How are you?"
+    },
+    {
+     "day": 5,
+     "title": "My family"
+    },
+    {
+     "day": 6,
+     "title": "Things around me"
+    },
+    {
+     "day": 7,
+     "title": "Numbers 1–10"
+    }
+   ],
+   "test": [
+    {
+     "id": "w1t1",
+     "prompt": "What is the reply to this greeting?",
+     "options": [
+      "وَعَلَيْكُمُ السَّلَامُ",
+      "صَبَاحُ النُّور",
+      "مَعَ السَّلَامَة",
+      "تَشَرَّفْنَا"
+     ],
+     "answer": 0,
+     "ar": "السَّلَامُ عَلَيْكُمْ"
+    },
+    {
+     "id": "w1t2",
+     "prompt": "What does this mean?",
+     "options": [
+      "What is your name? (to a woman)",
+      "Where are you from?",
+      "How are you?",
+      "Who is this?"
+     ],
+     "answer": 0,
+     "ar": "مَا اسْمُكِ؟"
+    },
+    {
+     "id": "w1t3",
+     "prompt": "A woman from Egypt is …",
+     "options": [
+      "مِصْرِيَّة",
+      "مِصْرِيّ",
+      "مِصْر",
+      "مِنْ"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "w1t4",
+     "prompt": "Which question word means 'where'?",
+     "options": [
+      "أَيْنَ",
+      "كَيْفَ",
+      "مَنْ",
+      "مَا"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "w1t5",
+     "prompt": "Fill the gap: 'This is my sister.'",
+     "options": [
+      "هٰذِهِ",
+      "هٰذَا",
+      "هُوَ",
+      "أَنْتَ"
+     ],
+     "answer": 0,
+     "ar": "… أُخْتِي"
+    },
+    {
+     "id": "w1t6",
+     "prompt": "What does this mean?",
+     "options": [
+      "the car is big",
+      "a big car",
+      "the big car",
+      "this car"
+     ],
+     "answer": 0,
+     "ar": "السَّيَّارَة كَبِيرَة"
+    },
+    {
+     "id": "w1t7",
+     "prompt": "Which number is this?",
+     "options": [
+      "8",
+      "6",
+      "3",
+      "9"
+     ],
+     "answer": 0,
+     "ar": "ثَمَانِيَة"
+    },
+    {
+     "id": "w1t8",
+     "prompt": "Which letter is a sun letter (the l of al- is silent before it)?",
+     "options": [
+      "ش",
+      "ق",
+      "ب",
+      "ك"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "w1t9",
+     "prompt": "Which word means 'thank you'?",
+     "options": [
+      "شُكْرًا",
+      "عَفْوًا",
+      "أَهْلًا",
+      "مَرْحَبًا"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "w1t10",
+     "prompt": "How is this word read?",
+     "options": [
+      "kitāb",
+      "katab",
+      "kutub",
+      "kātib"
+     ],
+     "answer": 0,
+     "ar": "كِتَاب"
+    }
+   ]
+  },
+  {
+   "week": 2,
+   "phase": 1,
+   "levels": [
+    1
+   ],
+   "title": "Me and my day",
+   "titleAr": "يَوْمِي",
+   "titleSegs": [
+    [
+     "يَوْمِي",
+     "my day"
+    ]
+   ],
+   "topics": [
+    "jobs",
+    "days of the week",
+    "telling the time",
+    "daily routine",
+    "present-tense verbs",
+    "negation with lā",
+    "colours"
+   ],
+   "days": [
+    {
+     "day": 8,
+     "title": "What do you do?"
+    },
+    {
+     "day": 9,
+     "title": "Days of the week"
+    },
+    {
+     "day": 10,
+     "title": "What time is it?"
+    },
+    {
+     "day": 11,
+     "title": "My morning"
+    },
+    {
+     "day": 12,
+     "title": "I study, you work"
+    },
+    {
+     "day": 13,
+     "title": "I don't know"
+    },
+    {
+     "day": 14,
+     "title": "Colours"
+    }
+   ],
+   "test": []
+  },
+  {
+   "week": 3,
+   "phase": 2,
+   "levels": [
+    2
+   ],
+   "title": "Food and drink",
+   "titleAr": "الطَّعَام وَالشَّرَاب",
+   "titleSegs": [
+    [
+     "الطَّعَام",
+     "the food"
+    ],
+    [
+     "وَالشَّرَاب",
+     "and the drink"
+    ]
+   ],
+   "topics": [
+    "breakfast",
+    "café",
+    "restaurant",
+    "likes and dislikes",
+    "plurals",
+    "the dual",
+    "prices"
+   ],
+   "days": [
+    {
+     "day": 15,
+     "title": "Breakfast"
+    },
+    {
+     "day": 16,
+     "title": "At the café"
+    },
+    {
+     "day": 17,
+     "title": "At the restaurant"
+    },
+    {
+     "day": 18,
+     "title": "I like, I don't like"
+    },
+    {
+     "day": 19,
+     "title": "More than one"
+    },
+    {
+     "day": 20,
+     "title": "Two of everything"
+    },
+    {
+     "day": 21,
+     "title": "How much is it?"
+    }
+   ],
+   "test": []
+  },
+  {
+   "week": 4,
+   "phase": 2,
+   "levels": [
+    2,
+    3
+   ],
+   "title": "Around town",
+   "titleAr": "فِي الْمَدِينَة",
+   "titleSegs": [
+    [
+     "فِي",
+     "in"
+    ],
+    [
+     "الْمَدِينَة",
+     "the city"
+    ]
+   ],
+   "topics": [
+    "places in town",
+    "directions",
+    "transport",
+    "prepositions of place",
+    "there is / there are",
+    "shopping",
+    "the market"
+   ],
+   "days": [
+    {
+     "day": 22,
+     "title": "Places in town"
+    },
+    {
+     "day": 23,
+     "title": "Left and right"
+    },
+    {
+     "day": 24,
+     "title": "By bus and taxi"
+    },
+    {
+     "day": 25,
+     "title": "Where is it?"
+    },
+    {
+     "day": 26,
+     "title": "There is a pharmacy"
+    },
+    {
+     "day": 27,
+     "title": "Clothes shopping"
+    },
+    {
+     "day": 28,
+     "title": "At the market"
+    }
+   ],
+   "test": []
+  },
+  {
+   "week": 5,
+   "phase": 3,
+   "levels": [
+    3
+   ],
+   "title": "Home and family life",
+   "titleAr": "الْبَيْت وَالْعَائِلَة",
+   "titleSegs": [
+    [
+     "الْبَيْت",
+     "the house"
+    ],
+    [
+     "وَالْعَائِلَة",
+     "and the family"
+    ]
+   ],
+   "topics": [
+    "rooms",
+    "furniture",
+    "possession with li- and ʿinda",
+    "describing people",
+    "adjectives in agreement",
+    "age",
+    "relatives"
+   ],
+   "days": [
+    {
+     "day": 29,
+     "title": "My home"
+    },
+    {
+     "day": 30,
+     "title": "In my room"
+    },
+    {
+     "day": 31,
+     "title": "I have…"
+    },
+    {
+     "day": 32,
+     "title": "What does he look like?"
+    },
+    {
+     "day": 33,
+     "title": "Tall and short"
+    },
+    {
+     "day": 34,
+     "title": "How old are you?"
+    },
+    {
+     "day": 35,
+     "title": "Aunts and uncles"
+    }
+   ],
+   "test": []
+  },
+  {
+   "week": 6,
+   "phase": 3,
+   "levels": [
+    4
+   ],
+   "title": "The past",
+   "titleAr": "الْمَاضِي",
+   "titleSegs": [
+    [
+     "الْمَاضِي",
+     "the past"
+    ]
+   ],
+   "topics": [
+    "past tense",
+    "yesterday",
+    "last week",
+    "holidays",
+    "time expressions",
+    "past-tense negation with lam",
+    "storytelling"
+   ],
+   "days": [
+    {
+     "day": 36,
+     "title": "Yesterday"
+    },
+    {
+     "day": 37,
+     "title": "What did you do?"
+    },
+    {
+     "day": 38,
+     "title": "Last week"
+    },
+    {
+     "day": 39,
+     "title": "My holiday"
+    },
+    {
+     "day": 40,
+     "title": "Before and after"
+    },
+    {
+     "day": 41,
+     "title": "I didn't go"
+    },
+    {
+     "day": 42,
+     "title": "A short story"
+    }
+   ],
+   "test": []
+  },
+  {
+   "week": 7,
+   "phase": 4,
+   "levels": [
+    4,
+    5
+   ],
+   "title": "Health and the body",
+   "titleAr": "الصِّحَّة",
+   "titleSegs": [
+    [
+     "الصِّحَّة",
+     "health"
+    ]
+   ],
+   "topics": [
+    "the body",
+    "at the doctor",
+    "pharmacy",
+    "feelings",
+    "imperatives",
+    "advice with lāzim",
+    "sport"
+   ],
+   "days": [
+    {
+     "day": 43,
+     "title": "The body"
+    },
+    {
+     "day": 44,
+     "title": "At the doctor's"
+    },
+    {
+     "day": 45,
+     "title": "At the pharmacy"
+    },
+    {
+     "day": 46,
+     "title": "How do you feel?"
+    },
+    {
+     "day": 47,
+     "title": "Take this medicine"
+    },
+    {
+     "day": 48,
+     "title": "You must rest"
+    },
+    {
+     "day": 49,
+     "title": "Sport"
+    }
+   ],
+   "test": []
+  },
+  {
+   "week": 8,
+   "phase": 4,
+   "levels": [
+    5
+   ],
+   "title": "Plans and the future",
+   "titleAr": "الْمُسْتَقْبَل",
+   "titleSegs": [
+    [
+     "الْمُسْتَقْبَل",
+     "the future"
+    ]
+   ],
+   "topics": [
+    "future with sa- and sawfa",
+    "weekend plans",
+    "invitations",
+    "weather",
+    "seasons",
+    "months",
+    "dates"
+   ],
+   "days": [
+    {
+     "day": 50,
+     "title": "Tomorrow"
+    },
+    {
+     "day": 51,
+     "title": "The weekend"
+    },
+    {
+     "day": 52,
+     "title": "An invitation"
+    },
+    {
+     "day": 53,
+     "title": "The weather"
+    },
+    {
+     "day": 54,
+     "title": "Seasons"
+    },
+    {
+     "day": 55,
+     "title": "Months of the year"
+    },
+    {
+     "day": 56,
+     "title": "Dates"
+    }
+   ],
+   "test": []
+  },
+  {
+   "week": 9,
+   "phase": 5,
+   "levels": [
+    6
+   ],
+   "title": "Travel",
+   "titleAr": "السَّفَر",
+   "titleSegs": [
+    [
+     "السَّفَر",
+     "travel"
+    ]
+   ],
+   "topics": [
+    "airport",
+    "hotel",
+    "booking",
+    "asking for help",
+    "comparatives",
+    "superlatives",
+    "sightseeing"
+   ],
+   "days": [
+    {
+     "day": 57,
+     "title": "At the airport"
+    },
+    {
+     "day": 58,
+     "title": "At the hotel"
+    },
+    {
+     "day": 59,
+     "title": "Booking a room"
+    },
+    {
+     "day": 60,
+     "title": "Can you help me?"
+    },
+    {
+     "day": 61,
+     "title": "Bigger and smaller"
+    },
+    {
+     "day": 62,
+     "title": "The biggest"
+    },
+    {
+     "day": 63,
+     "title": "Sightseeing"
+    }
+   ],
+   "test": []
+  },
+  {
+   "week": 10,
+   "phase": 5,
+   "levels": [
+    6,
+    7
+   ],
+   "title": "Work and study",
+   "titleAr": "الْعَمَل وَالدِّرَاسَة",
+   "titleSegs": [
+    [
+     "الْعَمَل",
+     "work"
+    ],
+    [
+     "وَالدِّرَاسَة",
+     "and study"
+    ]
+   ],
+   "topics": [
+    "the office",
+    "school and university",
+    "phone calls",
+    "emails",
+    "verb patterns",
+    "the verbal noun",
+    "a job interview"
+   ],
+   "days": [
+    {
+     "day": 64,
+     "title": "At the office"
+    },
+    {
+     "day": 65,
+     "title": "At university"
+    },
+    {
+     "day": 66,
+     "title": "On the phone"
+    },
+    {
+     "day": 67,
+     "title": "Writing an email"
+    },
+    {
+     "day": 68,
+     "title": "Verb patterns"
+    },
+    {
+     "day": 69,
+     "title": "Learning and teaching"
+    },
+    {
+     "day": 70,
+     "title": "A job interview"
+    }
+   ],
+   "test": []
+  },
+  {
+   "week": 11,
+   "phase": 6,
+   "levels": [
+    7,
+    8
+   ],
+   "title": "Culture and media",
+   "titleAr": "الثَّقَافَة",
+   "titleSegs": [
+    [
+     "الثَّقَافَة",
+     "culture"
+    ]
+   ],
+   "topics": [
+    "festivals",
+    "music and film",
+    "news headlines",
+    "relative clauses",
+    "reported speech",
+    "opinions",
+    "proverbs"
+   ],
+   "days": [
+    {
+     "day": 71,
+     "title": "Festivals"
+    },
+    {
+     "day": 72,
+     "title": "Music and film"
+    },
+    {
+     "day": 73,
+     "title": "News headlines"
+    },
+    {
+     "day": 74,
+     "title": "The man who…"
+    },
+    {
+     "day": 75,
+     "title": "He said that…"
+    },
+    {
+     "day": 76,
+     "title": "In my opinion"
+    },
+    {
+     "day": 77,
+     "title": "Proverbs"
+    }
+   ],
+   "test": []
+  },
+  {
+   "week": 12,
+   "phase": 6,
+   "levels": [
+    8,
+    9
+   ],
+   "title": "Society and the world",
+   "titleAr": "الْمُجْتَمَع",
+   "titleSegs": [
+    [
+     "الْمُجْتَمَع",
+     "society"
+    ]
+   ],
+   "topics": [
+    "the environment",
+    "technology",
+    "conditional sentences",
+    "passive",
+    "formal letters",
+    "debate",
+    "review"
+   ],
+   "days": [
+    {
+     "day": 78,
+     "title": "The environment"
+    },
+    {
+     "day": 79,
+     "title": "Technology"
+    },
+    {
+     "day": 80,
+     "title": "If…"
+    },
+    {
+     "day": 81,
+     "title": "It was built…"
+    },
+    {
+     "day": 82,
+     "title": "A formal letter"
+    },
+    {
+     "day": 83,
+     "title": "For and against"
+    },
+    {
+     "day": 84,
+     "title": "Review"
+    }
+   ],
+   "test": []
+  },
+  {
+   "week": 13,
+   "phase": 7,
+   "levels": [
+    9
+   ],
+   "title": "Final review",
+   "titleAr": "الْمُرَاجَعَة النِّهَائِيَّة",
+   "titleSegs": [
+    [
+     "الْمُرَاجَعَة",
+     "the review"
+    ],
+    [
+     "النِّهَائِيَّة",
+     "the final"
+    ]
+   ],
+   "topics": [
+    "listening review",
+    "reading review",
+    "speaking review",
+    "writing review",
+    "final exam",
+    "next steps"
+   ],
+   "days": [
+    {
+     "day": 85,
+     "title": "Listening review"
+    },
+    {
+     "day": 86,
+     "title": "Reading review"
+    },
+    {
+     "day": 87,
+     "title": "Speaking review"
+    },
+    {
+     "day": 88,
+     "title": "Writing review"
+    },
+    {
+     "day": 89,
+     "title": "Final exam"
+    },
+    {
+     "day": 90,
+     "title": "Next steps"
+    }
+   ],
+   "test": []
+  }
+ ],
+ "levels": [
+  {
+   "level": 0,
+   "name": "Script and first words",
+   "cefr": "pre-A1",
+   "extension": false
+  },
+  {
+   "level": 1,
+   "name": "Me and my day",
+   "cefr": "A1.1",
+   "extension": false
+  },
+  {
+   "level": 2,
+   "name": "Food and town",
+   "cefr": "A1.1",
+   "extension": false
+  },
+  {
+   "level": 3,
+   "name": "Home and people",
+   "cefr": "A1.2",
+   "extension": false
+  },
+  {
+   "level": 4,
+   "name": "The past",
+   "cefr": "A1.2",
+   "extension": false
+  },
+  {
+   "level": 5,
+   "name": "Health and plans",
+   "cefr": "A1.2",
+   "extension": false
+  },
+  {
+   "level": 6,
+   "name": "Travel",
+   "cefr": "A2.1",
+   "extension": false
+  },
+  {
+   "level": 7,
+   "name": "Work and study",
+   "cefr": "A2.1",
+   "extension": false
+  },
+  {
+   "level": 8,
+   "name": "Culture",
+   "cefr": "A2.2",
+   "extension": false
+  },
+  {
+   "level": 9,
+   "name": "Society",
+   "cefr": "A2.2",
+   "extension": false
+  },
+  {
+   "level": 10,
+   "name": "Extension: media Arabic",
+   "cefr": "A2+",
+   "extension": true
+  },
+  {
+   "level": 11,
+   "name": "Extension: literature",
+   "cefr": "B1",
+   "extension": true
+  },
+  {
+   "level": 12,
+   "name": "Extension: dialects",
+   "cefr": "B1",
+   "extension": true
+  }
+ ]
+}

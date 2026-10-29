@@ -1,0 +1,81 @@
+[
+  {
+    "id": "cafe", "title": "At the café", "emoji": "☕", "status": "needs-review",
+    "intro": "You sit down in a café in Amman and order tea and a pastry. Useful phrases: مِنْ فَضْلِكَ (please, to a man), أُرِيدُ (I want) and كَمْ؟ (how much?).",
+    "dialogue": {
+      "title": "Tea for two",
+      "speakers": [ { "key": "waiter", "name": "Waiter", "nameAr": "النَّادِل" }, { "key": "daniel", "name": "Daniel", "nameAr": "دَانْيَال" } ],
+      "culture": "Tea is usually served sweet and often with fresh mint (نَعْنَاع). If you don't want sugar, say بِدُونِ سُكَّر.",
+      "lines": [
+        { "id": "c1", "sp": "waiter", "ar": "مَسَاءُ الْخَيْر! أَهْلًا وَسَهْلًا. مَاذَا تُرِيدُ؟", "en": "Good evening! Welcome. What would you like?",
+          "segs": [["مَسَاءُ", "evening (of)"], ["الْخَيْر", "the goodness"], ["أَهْلًا", "welcome"], ["وَسَهْلًا", "and ease (part of 'welcome')"], ["مَاذَا", "what (before a verb)"], ["تُرِيدُ", "you want (to a man)"]] },
+        { "id": "c2", "sp": "daniel", "ar": "مَسَاءُ النُّور! أُرِيدُ شَايًا، مِنْ فَضْلِكَ.", "en": "Good evening! I would like a tea, please.",
+          "segs": [["مَسَاءُ", "evening (of)"], ["النُّور", "the light"], ["أُرِيدُ", "I want"], ["شَايًا", "tea (object form)"], ["مِنْ", "from"], ["فَضْلِكَ", "your kindness (to a man): 'please'"]] },
+        { "id": "c3", "sp": "waiter", "ar": "شَاي بِالنَّعْنَاع أَوْ شَاي عَادِيّ؟", "en": "Tea with mint, or ordinary tea?",
+          "segs": [["شَاي", "tea"], ["بِالنَّعْنَاع", "with mint"], ["أَوْ", "or"], ["شَاي", "tea"], ["عَادِيّ", "ordinary, normal"]] },
+        { "id": "c4", "sp": "daniel", "ar": "بِالنَّعْنَاع، مِنْ فَضْلِكَ، وَبِدُونِ سُكَّر.", "en": "With mint, please, and without sugar.",
+          "segs": [["بِالنَّعْنَاع", "with mint"], ["مِنْ", "from"], ["فَضْلِكَ", "your kindness (to a man): 'please'"], ["وَبِدُونِ", "and without"], ["سُكَّر", "sugar"]] },
+        { "id": "c5", "sp": "waiter", "ar": "حَاضِر! هَلْ تُرِيدُ شَيْئًا آخَر؟ عِنْدَنَا كَعْك طَازَج.", "en": "Certainly! Would you like anything else? We have fresh cake.",
+          "segs": [["حَاضِر", "certainly, right away"], ["هَلْ", "(starts a yes/no question)"], ["تُرِيدُ", "you want (to a man)"], ["شَيْئًا", "something (object form)"], ["آخَر", "other, else"], ["عِنْدَنَا", "we have"], ["كَعْك", "cake, pastry"], ["طَازَج", "fresh"]] },
+        { "id": "c6", "sp": "daniel", "ar": "نَعَم، قِطْعَة كَعْك وَاحِدَة، مِنْ فَضْلِكَ.", "en": "Yes, one piece of cake, please.",
+          "segs": [["نَعَم", "yes"], ["قِطْعَة", "piece"], ["كَعْك", "cake, pastry"], ["وَاحِدَة", "one (f)"], ["مِنْ", "from"], ["فَضْلِكَ", "your kindness (to a man): 'please'"]] },
+        { "id": "c7", "sp": "waiter", "ar": "تَفَضَّلْ، الشَّاي وَالْكَعْك. بِالْهَنَاء وَالشِّفَاء!", "en": "Here you are, the tea and the cake. Enjoy your meal!",
+          "segs": [["تَفَضَّلْ", "here you are (to a man)"], ["الشَّاي", "the tea"], ["وَالْكَعْك", "and the cake"], ["بِالْهَنَاء", "with happiness"], ["وَالشِّفَاء", "and good health ('enjoy your meal')"]] },
+        { "id": "c8", "sp": "daniel", "ar": "شُكْرًا! الشَّاي لَذِيذ جِدًّا.", "en": "Thank you! The tea is really very delicious.",
+          "segs": [["شُكْرًا", "thank you"], ["الشَّاي", "the tea"], ["لَذِيذ", "delicious"], ["جِدًّا", "very"]] },
+        { "id": "c9", "sp": "daniel", "ar": "مِنْ فَضْلِكَ، الْحِسَاب. كَمِ الْحِسَاب؟", "en": "Excuse me, the bill please. How much is the bill?",
+          "segs": [["مِنْ", "from"], ["فَضْلِكَ", "your kindness (to a man): 'please'"], ["الْحِسَاب", "the bill"], ["كَمِ", "how much, how many"], ["الْحِسَاب", "the bill"]] },
+        { "id": "c10", "sp": "waiter", "ar": "ثَلَاثَة دَنَانِير، مِنْ فَضْلِكَ. شُكْرًا وَمَعَ السَّلَامَة!", "en": "Three dinars, please. Thank you, and goodbye!",
+          "segs": [["ثَلَاثَة", "three"], ["دَنَانِير", "dinars"], ["مِنْ", "from"], ["فَضْلِكَ", "your kindness (to a man): 'please'"], ["شُكْرًا", "thank you"], ["وَمَعَ", "and with"], ["السَّلَامَة", "the safety"]] }
+      ]
+    },
+    "mistakes": [
+      { "wrong": "أُرِيدُ شَاي", "right": "أُرِيدُ شَايًا", "why": "After a verb the object takes the -an ending in careful MSA; in everyday speech people often drop it." },
+      { "wrong": "مِنْ فَضْلِكِ (to a male waiter)", "right": "مِنْ فَضْلِكَ", "why": "-ka for a man, -ki for a woman." }
+    ],
+    "quiz": [
+      { "id": "cq1", "prompt": "How do you say 'please' to a man?", "options": ["مِنْ فَضْلِكَ", "مِنْ فَضْلِكِ", "شُكْرًا", "عَفْوًا"], "answer": 0 },
+      { "id": "cq2", "prompt": "What does Daniel not want in his tea?", "options": ["sugar", "mint", "milk", "lemon"], "answer": 0 },
+      { "id": "cq3", "prompt": "What does this mean?", "ar": "كَمِ الْحِسَاب؟", "options": ["How much is the bill?", "Where is the bill?", "What is this?", "Do you want cake?"], "answer": 0 }
+    ]
+  },
+  {
+    "id": "taxi", "title": "Taking a taxi", "emoji": "🚕", "status": "needs-review",
+    "intro": "You take a taxi in Cairo to the Egyptian Museum. Useful phrases: إِلَى (to), يَمِين (right), يَسَار (left) and هُنَا (here).",
+    "dialogue": {
+      "title": "To the museum",
+      "speakers": [ { "key": "driver", "name": "Driver", "nameAr": "السَّائِق" }, { "key": "layla", "name": "Layla", "nameAr": "لَيْلَى" } ],
+      "culture": "Agree on the fare before you set off, or check that the meter (الْعَدَّاد) is switched on.",
+      "lines": [
+        { "id": "t1", "sp": "layla", "ar": "مَرْحَبًا! إِلَى الْمَتْحَف الْمِصْرِيّ، مِنْ فَضْلِكَ.", "en": "Hello! To the Egyptian Museum, please.",
+          "segs": [["مَرْحَبًا", "hello"], ["إِلَى", "to"], ["الْمَتْحَف", "the museum"], ["الْمِصْرِيّ", "the Egyptian (m)"], ["مِنْ", "from"], ["فَضْلِكَ", "your kindness (to a man): 'please'"]] },
+        { "id": "t2", "sp": "driver", "ar": "أَهْلًا! الْمَتْحَف قَرِيب، فِي مَيْدَانِ التَّحْرِير.", "en": "Hi! The museum is close, on Tahrir Square.",
+          "segs": [["أَهْلًا", "hi, welcome"], ["الْمَتْحَف", "the museum"], ["قَرِيب", "near, close"], ["فِي", "in, on"], ["مَيْدَانِ", "square (of)"], ["التَّحْرِير", "Tahrir (lit. liberation)", "name"]] },
+        { "id": "t3", "sp": "layla", "ar": "كَمِ الْأُجْرَة إِلَى الْمَتْحَف، مِنْ فَضْلِكَ؟", "en": "How much is the fare to the museum, please?",
+          "segs": [["كَمِ", "how much, how many"], ["الْأُجْرَة", "the fare"], ["إِلَى", "to"], ["الْمَتْحَف", "the museum"], ["مِنْ", "from"], ["فَضْلِكَ", "your kindness (to a man): 'please'"]] },
+        { "id": "t4", "sp": "driver", "ar": "خَمْسُونَ جُنَيْهًا. الطَّرِيق مُزْدَحِم الْيَوْم.", "en": "Fifty pounds. The road is very crowded today.",
+          "segs": [["خَمْسُونَ", "fifty"], ["جُنَيْهًا", "pounds (after a number)"], ["الطَّرِيق", "the road"], ["مُزْدَحِم", "crowded"], ["الْيَوْم", "today"]] },
+        { "id": "t5", "sp": "layla", "ar": "خَمْسُونَ كَثِير! أَرْبَعُونَ، مِنْ فَضْلِكَ؟", "en": "Fifty is a lot! How about forty, please?",
+          "segs": [["خَمْسُونَ", "fifty"], ["كَثِير", "a lot, much"], ["أَرْبَعُونَ", "forty"], ["مِنْ", "from"], ["فَضْلِكَ", "your kindness (to a man): 'please'"]] },
+        { "id": "t6", "sp": "driver", "ar": "طَيِّب، أَرْبَعُونَ. تَفَضَّلِي!", "en": "OK, forty then. Please get in!",
+          "segs": [["طَيِّب", "OK, fine"], ["أَرْبَعُونَ", "forty"], ["تَفَضَّلِي", "please (come in), to a woman"]] },
+        { "id": "t7", "sp": "driver", "ar": "هَلْ أَذْهَبُ يَمِينًا هُنَا أَوْ يَسَارًا؟", "en": "Do I go right here, or left?",
+          "segs": [["هَلْ", "(starts a yes/no question)"], ["أَذْهَبُ", "I go"], ["يَمِينًا", "to the right"], ["هُنَا", "here"], ["أَوْ", "or"], ["يَسَارًا", "to the left"]] },
+        { "id": "t8", "sp": "layla", "ar": "يَمِينًا، ثُمَّ إِلَى الْأَمَام، مِنْ فَضْلِكَ.", "en": "Right, and then straight ahead, please.",
+          "segs": [["يَمِينًا", "to the right"], ["ثُمَّ", "then"], ["إِلَى", "to"], ["الْأَمَام", "the front ('straight ahead')"], ["مِنْ", "from"], ["فَضْلِكَ", "your kindness (to a man): 'please'"]] },
+        { "id": "t9", "sp": "driver", "ar": "هٰذَا هُوَ الْمَتْحَف الْمِصْرِيّ. وَصَلْنَا!", "en": "This is the Egyptian Museum. We have arrived!",
+          "segs": [["هٰذَا", "this (m)"], ["هُوَ", "he, it (m)"], ["الْمَتْحَف", "the museum"], ["الْمِصْرِيّ", "the Egyptian (m)"], ["وَصَلْنَا", "we have arrived"]] },
+        { "id": "t10", "sp": "layla", "ar": "شُكْرًا جَزِيلًا! تَفَضَّلْ، أَرْبَعُونَ جُنَيْهًا. مَعَ السَّلَامَة!", "en": "Thank you very much! Here you are, forty pounds. Goodbye!",
+          "segs": [["شُكْرًا", "thank you"], ["جَزِيلًا", "very much (lit. abundant)"], ["تَفَضَّلْ", "here you are (to a man)"], ["أَرْبَعُونَ", "forty"], ["جُنَيْهًا", "pounds (after a number)"], ["مَعَ", "with"], ["السَّلَامَة", "the safety"]] }
+      ]
+    },
+    "mistakes": [
+      { "wrong": "يَمِين (as a direction to go)", "right": "يَمِينًا", "why": "To say 'go right', the word takes the -an ending: yamīnan." }
+    ],
+    "quiz": [
+      { "id": "tq1", "prompt": "Where does Layla want to go?", "options": ["the Egyptian Museum", "the airport", "Tahrir hotel", "the market"], "answer": 0 },
+      { "id": "tq2", "prompt": "What fare do they agree on?", "options": ["forty pounds", "fifty pounds", "thirty pounds", "ten pounds"], "answer": 0 },
+      { "id": "tq3", "prompt": "What does this mean?", "ar": "يَسَارًا", "options": ["to the left", "to the right", "straight ahead", "here"], "answer": 0 }
+    ]
+  }
+]
