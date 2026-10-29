@@ -1781,7 +1781,121 @@
      "title": "Proverbs"
     }
    ],
-   "test": []
+   "test": [
+    {
+     "id": "w11t1",
+     "prompt": "What does this mean?",
+     "ar": "عِيد مُبَارَك!",
+     "options": [
+      "Good evening!",
+      "Blessed Eid!",
+      "Get well soon!",
+      "Welcome!"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "w11t2",
+     "prompt": "How do you answer كُلُّ عَامٍ وَأَنْتَ بِخَيْر?",
+     "options": [
+      "وَأَنْتَ بِخَيْر",
+      "صَبَاحُ النُّور",
+      "مَعَ السَّلَامَة",
+      "عَفْوًا"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "w11t3",
+     "prompt": "Complete: سَمِعْتُ ___ الْفِيلْمَ مُمْتِع.",
+     "options": [
+      "أَنْ",
+      "إِلَى",
+      "أَنَّ",
+      "إِنْ"
+     ],
+     "answer": 2
+    },
+    {
+     "id": "w11t4",
+     "prompt": "Which word means 'newspaper'?",
+     "options": [
+      "عُنْوَان",
+      "وَزِير",
+      "خَبَر",
+      "جَرِيدَة"
+     ],
+     "answer": 3
+    },
+    {
+     "id": "w11t5",
+     "prompt": "Choose the correct sentence.",
+     "options": [
+      "إِنَّ الْأَخْبَارُ جَيِّدَة",
+      "إِنَّ الْأَخْبَارَ جَيِّدَة",
+      "إِنَّ الْأَخْبَارِ جَيِّدَة",
+      "إِنَّ أَخْبَار جَيِّدَة"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "w11t6",
+     "prompt": "Complete: الْكَاتِبَةُ ___ كَتَبَتْ هٰذِهِ الرِّوَايَة",
+     "options": [
+      "الَّذِي",
+      "الَّذِينَ",
+      "مَنْ",
+      "الَّتِي"
+     ],
+     "answer": 3
+    },
+    {
+     "id": "w11t7",
+     "prompt": "Sami says أَنَا مُتْعَب. How do you report it?",
+     "options": [
+      "قَالَ سَامِي أَنَّنِي مُتْعَب",
+      "قَالَ سَامِي أَنْ مُتْعَب",
+      "قَالَ سَامِي إِنَّهُ مُتْعَب",
+      "قَالَ سَامِي إِنَّنِي مُتْعَب"
+     ],
+     "answer": 2
+    },
+    {
+     "id": "w11t8",
+     "prompt": "How do you ask a man 'What do you think?'",
+     "options": [
+      "مَا رَأْيُكِ؟",
+      "مَا رَأْيُكَ؟",
+      "فِي رَأْيِي",
+      "أَظُنُّ"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "w11t9",
+     "prompt": "What does this mean?",
+     "ar": "مَعَكِ حَقّ",
+     "options": [
+      "You're right. (to a woman)",
+      "You're wrong.",
+      "I'm with you.",
+      "I don't agree."
+     ],
+     "answer": 0
+    },
+    {
+     "id": "w11t10",
+     "prompt": "What does this proverb mean?",
+     "ar": "الصَّدِيقُ وَقْتَ الضِّيقِ",
+     "options": [
+      "Choose the neighbour before the house.",
+      "Patience is the key to relief.",
+      "A sound mind in a sound body.",
+      "A friend in need is a friend indeed."
+     ],
+     "answer": 3
+    }
+   ]
   },
   {
    "week": 12,

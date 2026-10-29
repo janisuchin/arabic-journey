@@ -1,0 +1,1438 @@
+{
+  "day": 72,
+  "week": 11,
+  "phase": 6,
+  "level": 7,
+  "title": "Music and film",
+  "titleAr": "الْمُوسِيقَى وَالْأَفْلَام",
+  "titleSegs": [
+    [
+      "الْمُوسِيقَى",
+      "the music"
+    ],
+    [
+      "وَالْأَفْلَام",
+      "and the films"
+    ]
+  ],
+  "emoji": "🎬",
+  "summary": "Talk about music, songs and films, say what you prefer, and pass on what you know or heard with أَنَّ (that).",
+  "intro": "It's Thursday evening, and the friends want to go out: to the cinema, or to hear old songs at the Cairo Opera House? Today's grammar joins two sentences with أَنَّ (that): سَمِعْتُ أَنَّ الْفِيلْمَ جَمِيل (I heard that the film is good). The noun after أَنَّ ends in -a, and a pronoun can be attached to it: أَنَّهُ (that he), أَنَّهَا (that she). Don't mix it up with أَنْ (to), which comes before a verb.",
+  "objectives": [
+    "Name five words for music and film: song, singer, actor, film and cinema",
+    "Say what you know or heard with أَعْرِفُ أَنَّ… and سَمِعْتُ أَنَّ…",
+    "Say what you prefer with أُفَضِّلُ… عَلَى…",
+    "Describe a film or a song as famous, enjoyable or boring"
+  ],
+  "realLife": {
+    "emoji": "🎭",
+    "title": "Old songs or a new film?",
+    "story": "On Thursday evening Cairo is full of choices. At the Opera House an orchestra plays the songs of Umm Kulthum, whose concerts once lasted all night, and in the big cinemas downtown a new Egyptian comedy has just come out. Layla, Sami and Daniel have one free evening and three different opinions."
+  },
+  "letters": [],
+  "newWords": [
+    "musiqa",
+    "ughniya",
+    "mughanni",
+    "film",
+    "sinima",
+    "mumaththil",
+    "yastamiu",
+    "mashhur",
+    "mumill"
+  ],
+  "grammar": [
+    "anna",
+    "liking"
+  ],
+  "pronunciation": [
+    "linking"
+  ],
+  "sentences": [
+    {
+      "id": "d72s1",
+      "ar": "سَمِعْتُ أَنَّ الْفِيلْمَ الْجَدِيدَ مُمْتِع.",
+      "en": "I heard that the new film is enjoyable.",
+      "literal": "I heard that the film the new (is) enjoyable",
+      "segs": [
+        [
+          "سَمِعْتُ",
+          "I heard",
+          "verb"
+        ],
+        [
+          "أَنَّ",
+          "that",
+          "particle"
+        ],
+        [
+          "الْفِيلْمَ",
+          "the film (-a after anna)",
+          "noun"
+        ],
+        [
+          "الْجَدِيدَ",
+          "the new",
+          "adj"
+        ],
+        [
+          "مُمْتِع",
+          "enjoyable",
+          "adj"
+        ]
+      ],
+      "grammar": [
+        "anna"
+      ],
+      "mistakes": [
+        {
+          "wrong": "سَمِعْتُ أَنْ الْفِيلْمَ الْجَدِيدَ مُمْتِع",
+          "right": "سَمِعْتُ أَنَّ الْفِيلْمَ الْجَدِيدَ مُمْتِع",
+          "why": "Before a noun use anna, with a doubled n; an without shadda comes before a verb."
+        }
+      ]
+    },
+    {
+      "id": "d72s2",
+      "ar": "أَعْرِفُ أَنَّهَا تُحِبُّ أَغَانِيَ أُمِّ كُلْثُوم.",
+      "en": "I know that she loves Umm Kulthum's songs.",
+      "literal": "I know that she loves (the) songs (of) Umm Kulthum",
+      "segs": [
+        [
+          "أَعْرِفُ",
+          "I know",
+          "verb"
+        ],
+        [
+          "أَنَّهَا",
+          "that she",
+          "particle"
+        ],
+        [
+          "تُحِبُّ",
+          "she loves",
+          "verb"
+        ],
+        [
+          "أَغَانِيَ",
+          "songs (of)",
+          "noun"
+        ],
+        [
+          "أُمِّ",
+          "Umm (first part of the name)",
+          "name"
+        ],
+        [
+          "كُلْثُوم",
+          "Kulthum (Umm Kulthum: the famous Egyptian singer)",
+          "name"
+        ]
+      ],
+      "grammar": [
+        "anna",
+        "idafa"
+      ],
+      "mistakes": [
+        {
+          "wrong": "أَعْرِفُ أَنَّ هِيَ تُحِبُّ الْمُوسِيقَى",
+          "right": "أَعْرِفُ أَنَّهَا تُحِبُّ الْمُوسِيقَى",
+          "why": "After anna the pronoun is an ending: annahā, never anna hiya."
+        }
+      ]
+    },
+    {
+      "id": "d72s3",
+      "ar": "أُفَضِّلُ الْأَفْلَامَ الْقَدِيمَة عَلَى الْأَفْلَامِ الْجَدِيدَة.",
+      "en": "I prefer old films to new films.",
+      "literal": "I prefer the films the old over the films the new",
+      "segs": [
+        [
+          "أُفَضِّلُ",
+          "I prefer",
+          "verb"
+        ],
+        [
+          "الْأَفْلَامَ",
+          "the films",
+          "noun"
+        ],
+        [
+          "الْقَدِيمَة",
+          "the old (f)",
+          "adj"
+        ],
+        [
+          "عَلَى",
+          "over ('to')",
+          "prep"
+        ],
+        [
+          "الْأَفْلَامِ",
+          "the films",
+          "noun"
+        ],
+        [
+          "الْجَدِيدَة",
+          "the new (f)",
+          "adj"
+        ]
+      ],
+      "grammar": [
+        "non-human-plural",
+        "accusative"
+      ]
+    },
+    {
+      "id": "d72s4",
+      "ar": "هَلِ الْمُغَنِّي مَشْهُور؟",
+      "en": "Is the singer famous?",
+      "literal": "(question) the singer (is) famous",
+      "segs": [
+        [
+          "هَلِ",
+          "(yes/no question; -i links to the next word)",
+          "particle"
+        ],
+        [
+          "الْمُغَنِّي",
+          "the singer",
+          "noun"
+        ],
+        [
+          "مَشْهُور",
+          "famous",
+          "adj"
+        ]
+      ],
+      "grammar": [
+        "questions",
+        "nominal-sentence"
+      ]
+    },
+    {
+      "id": "d72s5",
+      "ar": "أَسْتَمِعُ إِلَى الْمُوسِيقَى الْعَرَبِيَّة كُلَّ مَسَاء.",
+      "en": "I listen to Arabic music every evening.",
+      "literal": "I listen to the music the Arabic every evening",
+      "segs": [
+        [
+          "أَسْتَمِعُ",
+          "I listen",
+          "verb"
+        ],
+        [
+          "إِلَى",
+          "to",
+          "prep"
+        ],
+        [
+          "الْمُوسِيقَى",
+          "the music",
+          "noun"
+        ],
+        [
+          "الْعَرَبِيَّة",
+          "the Arabic (f)",
+          "adj"
+        ],
+        [
+          "كُلَّ",
+          "every",
+          "noun"
+        ],
+        [
+          "مَسَاء",
+          "evening",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "present-tense",
+        "adjectives"
+      ],
+      "mistakes": [
+        {
+          "wrong": "أَسْتَمِعُ الْمُوسِيقَى",
+          "right": "أَسْتَمِعُ إِلَى الْمُوسِيقَى",
+          "why": "istamaʿa needs ilā (to) before what you listen to."
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Concert or cinema?",
+    "speakers": [
+      {
+        "key": "layla",
+        "name": "Layla",
+        "nameAr": "لَيْلَى"
+      },
+      {
+        "key": "sami",
+        "name": "Sami",
+        "nameAr": "سَامِي"
+      },
+      {
+        "key": "daniel",
+        "name": "Daniel",
+        "nameAr": "دَانْيَال"
+      }
+    ],
+    "culture": "Umm Kulthum (1904–1975) is the most famous singer of the Arab world. One song could last more than an hour, and her concerts on the first Thursday of the month were broadcast on the radio across the Arab world. Egypt also has the largest film industry in the region, so Egyptian Arabic is understood almost everywhere.",
+    "lines": [
+      {
+        "id": "d72l1",
+        "sp": "layla",
+        "ar": "مَسَاءُ الْخَيْر! الْيَوْمَ الْخَمِيس، وَلَيْسَ عِنْدَنَا دُرُوس غَدًا. مَاذَا نَفْعَلُ هٰذَا الْمَسَاء؟",
+        "en": "Good evening! Today is Thursday, and we have no lessons tomorrow. What shall we do this evening?",
+        "segs": [
+          [
+            "مَسَاءُ",
+            "evening (of)"
+          ],
+          [
+            "الْخَيْر",
+            "the goodness"
+          ],
+          [
+            "الْيَوْمَ",
+            "today"
+          ],
+          [
+            "الْخَمِيس",
+            "Thursday"
+          ],
+          [
+            "وَلَيْسَ",
+            "and (there) is not"
+          ],
+          [
+            "عِنْدَنَا",
+            "we have (lit. at us)"
+          ],
+          [
+            "دُرُوس",
+            "lessons"
+          ],
+          [
+            "غَدًا",
+            "tomorrow"
+          ],
+          [
+            "مَاذَا",
+            "what"
+          ],
+          [
+            "نَفْعَلُ",
+            "we do"
+          ],
+          [
+            "هٰذَا",
+            "this (m)"
+          ],
+          [
+            "الْمَسَاء",
+            "the evening"
+          ]
+        ]
+      },
+      {
+        "id": "d72l2",
+        "sp": "sami",
+        "ar": "سَمِعْتُ أَنَّ الْفِيلْمَ الْجَدِيدَ فِي السِّينِمَا مُمْتِع جِدًّا. هُوَ فِيلْم مِصْرِيّ مُضْحِك.",
+        "en": "I heard that the new film at the cinema is really enjoyable. It's a funny Egyptian film.",
+        "segs": [
+          [
+            "سَمِعْتُ",
+            "I heard"
+          ],
+          [
+            "أَنَّ",
+            "that"
+          ],
+          [
+            "الْفِيلْمَ",
+            "the film (-a after anna)"
+          ],
+          [
+            "الْجَدِيدَ",
+            "the new"
+          ],
+          [
+            "فِي",
+            "in, at"
+          ],
+          [
+            "السِّينِمَا",
+            "the cinema"
+          ],
+          [
+            "مُمْتِع",
+            "enjoyable"
+          ],
+          [
+            "جِدًّا",
+            "very"
+          ],
+          [
+            "هُوَ",
+            "he, it"
+          ],
+          [
+            "فِيلْم",
+            "film"
+          ],
+          [
+            "مِصْرِيّ",
+            "Egyptian"
+          ],
+          [
+            "مُضْحِك",
+            "funny"
+          ]
+        ]
+      },
+      {
+        "id": "d72l3",
+        "sp": "layla",
+        "ar": "أَعْرِفُ أَنَّ الْأَفْلَامَ الْمِصْرِيَّة مَشْهُورَة، لٰكِنِّي أُفَضِّلُ الْمُوسِيقَى. هُنَاكَ حَفْلَة فِي دَارِ الْأُوبِرَا اللَّيْلَة.",
+        "en": "I know that Egyptian films are famous, but I prefer music. There's a concert at the Opera House tonight.",
+        "segs": [
+          [
+            "أَعْرِفُ",
+            "I know"
+          ],
+          [
+            "أَنَّ",
+            "that"
+          ],
+          [
+            "الْأَفْلَامَ",
+            "the films"
+          ],
+          [
+            "الْمِصْرِيَّة",
+            "the Egyptian (f)"
+          ],
+          [
+            "مَشْهُورَة",
+            "famous (f)"
+          ],
+          [
+            "لٰكِنِّي",
+            "but I"
+          ],
+          [
+            "أُفَضِّلُ",
+            "I prefer"
+          ],
+          [
+            "الْمُوسِيقَى",
+            "the music"
+          ],
+          [
+            "هُنَاكَ",
+            "there is"
+          ],
+          [
+            "حَفْلَة",
+            "a party; a concert"
+          ],
+          [
+            "فِي",
+            "in, at"
+          ],
+          [
+            "دَارِ",
+            "house (of)"
+          ],
+          [
+            "الْأُوبِرَا",
+            "the opera ('the Opera House')"
+          ],
+          [
+            "اللَّيْلَة",
+            "tonight"
+          ]
+        ]
+      },
+      {
+        "id": "d72l4",
+        "sp": "daniel",
+        "ar": "حَفْلَة مُوسِيقِيَّة؟ مَا نَوْعُ الْمُوسِيقَى؟ أَنَا لَا أَعْرِفُ الْمُوسِيقَى الْعَرَبِيَّة جَيِّدًا.",
+        "en": "A concert? What kind of music is it? I don't know Arabic music very well.",
+        "segs": [
+          [
+            "حَفْلَة",
+            "a party; a concert"
+          ],
+          [
+            "مُوسِيقِيَّة",
+            "musical (f)"
+          ],
+          [
+            "مَا",
+            "what"
+          ],
+          [
+            "نَوْعُ",
+            "kind, type (of)"
+          ],
+          [
+            "الْمُوسِيقَى",
+            "the music"
+          ],
+          [
+            "أَنَا",
+            "I"
+          ],
+          [
+            "لَا",
+            "not"
+          ],
+          [
+            "أَعْرِفُ",
+            "I know"
+          ],
+          [
+            "الْمُوسِيقَى",
+            "the music"
+          ],
+          [
+            "الْعَرَبِيَّة",
+            "the Arabic (f)"
+          ],
+          [
+            "جَيِّدًا",
+            "well"
+          ]
+        ]
+      },
+      {
+        "id": "d72l5",
+        "sp": "layla",
+        "ar": "أَغَانِي أُمِّ كُلْثُوم! هِيَ أَشْهَرُ مُغَنِّيَة فِي تَارِيخِ مِصْر. جَدَّتِي فِي بَيْرُوت تَسْتَمِعُ إِلَيْهَا كُلَّ يَوْم.",
+        "en": "Umm Kulthum's songs! She is the most famous singer in the history of Egypt. My grandmother in Beirut listens to her every day.",
+        "segs": [
+          [
+            "أَغَانِي",
+            "songs (of)"
+          ],
+          [
+            "أُمِّ",
+            "Umm (first part of the name)",
+            "name"
+          ],
+          [
+            "كُلْثُوم",
+            "Kulthum (Umm Kulthum: the famous Egyptian singer)",
+            "name"
+          ],
+          [
+            "هِيَ",
+            "she"
+          ],
+          [
+            "أَشْهَرُ",
+            "the most famous"
+          ],
+          [
+            "مُغَنِّيَة",
+            "singer (f)"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "تَارِيخِ",
+            "history (of)"
+          ],
+          [
+            "مِصْر",
+            "Egypt"
+          ],
+          [
+            "جَدَّتِي",
+            "my grandmother"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "بَيْرُوت",
+            "Beirut (capital of Lebanon)",
+            "name"
+          ],
+          [
+            "تَسْتَمِعُ",
+            "she listens"
+          ],
+          [
+            "إِلَيْهَا",
+            "to her"
+          ],
+          [
+            "كُلَّ",
+            "every"
+          ],
+          [
+            "يَوْم",
+            "day"
+          ]
+        ]
+      },
+      {
+        "id": "d72l6",
+        "sp": "daniel",
+        "ar": "سَمِعْتُ أَنَّ أَغَانِيَهَا طَوِيلَة جِدًّا، أَحْيَانًا سَاعَة كَامِلَة. هَلْ هٰذَا صَحِيح؟",
+        "en": "I heard that her songs are very long, sometimes a whole hour. Is that true?",
+        "segs": [
+          [
+            "سَمِعْتُ",
+            "I heard"
+          ],
+          [
+            "أَنَّ",
+            "that"
+          ],
+          [
+            "أَغَانِيَهَا",
+            "her songs"
+          ],
+          [
+            "طَوِيلَة",
+            "long (f)"
+          ],
+          [
+            "جِدًّا",
+            "very"
+          ],
+          [
+            "أَحْيَانًا",
+            "sometimes"
+          ],
+          [
+            "سَاعَة",
+            "an hour"
+          ],
+          [
+            "كَامِلَة",
+            "whole, complete (f)"
+          ],
+          [
+            "هَلْ",
+            "(starts a yes/no question)"
+          ],
+          [
+            "هٰذَا",
+            "this ('that')"
+          ],
+          [
+            "صَحِيح",
+            "true, correct"
+          ]
+        ]
+      },
+      {
+        "id": "d72l7",
+        "sp": "layla",
+        "ar": "نَعَم، بَعْضُ الْأَغَانِي أَطْوَلُ مِنْ سَاعَة! وَهِيَ لَيْسَتْ مُمِلَّةً أَبَدًا، فَالْمُوسِيقَى جَمِيلَة جِدًّا.",
+        "en": "Yes, some songs are longer than an hour! And they're not boring at all, because the music is really beautiful.",
+        "segs": [
+          [
+            "نَعَم",
+            "yes"
+          ],
+          [
+            "بَعْضُ",
+            "some (of)"
+          ],
+          [
+            "الْأَغَانِي",
+            "the songs"
+          ],
+          [
+            "أَطْوَلُ",
+            "longer"
+          ],
+          [
+            "مِنْ",
+            "than"
+          ],
+          [
+            "سَاعَة",
+            "an hour"
+          ],
+          [
+            "وَهِيَ",
+            "and they (lit. she)"
+          ],
+          [
+            "لَيْسَتْ",
+            "(she) is not"
+          ],
+          [
+            "مُمِلَّةً",
+            "boring (f)"
+          ],
+          [
+            "أَبَدًا",
+            "at all, never"
+          ],
+          [
+            "فَالْمُوسِيقَى",
+            "because the music"
+          ],
+          [
+            "جَمِيلَة",
+            "beautiful (f)"
+          ],
+          [
+            "جِدًّا",
+            "very"
+          ]
+        ]
+      },
+      {
+        "id": "d72l8",
+        "sp": "sami",
+        "ar": "أَنَا أَحْتَرِمُ أُمَّ كُلْثُوم، لٰكِنِّي أُفَضِّلُ الْأَفْلَامَ عَلَى الْحَفَلَات. فِي السِّينِمَا نَأْكُلُ الْفُشَار وَنَضْحَكُ!",
+        "en": "I respect Umm Kulthum, but I prefer films to concerts. At the cinema we eat popcorn and laugh!",
+        "segs": [
+          [
+            "أَنَا",
+            "I"
+          ],
+          [
+            "أَحْتَرِمُ",
+            "I respect"
+          ],
+          [
+            "أُمَّ",
+            "Umm (first part of the name)",
+            "name"
+          ],
+          [
+            "كُلْثُوم",
+            "Kulthum (Umm Kulthum: the famous Egyptian singer)",
+            "name"
+          ],
+          [
+            "لٰكِنِّي",
+            "but I"
+          ],
+          [
+            "أُفَضِّلُ",
+            "I prefer"
+          ],
+          [
+            "الْأَفْلَامَ",
+            "the films"
+          ],
+          [
+            "عَلَى",
+            "over ('to')"
+          ],
+          [
+            "الْحَفَلَات",
+            "the parties, the concerts"
+          ],
+          [
+            "فِي",
+            "in, at"
+          ],
+          [
+            "السِّينِمَا",
+            "the cinema"
+          ],
+          [
+            "نَأْكُلُ",
+            "we eat"
+          ],
+          [
+            "الْفُشَار",
+            "the popcorn"
+          ],
+          [
+            "وَنَضْحَكُ",
+            "and we laugh"
+          ]
+        ]
+      },
+      {
+        "id": "d72l9",
+        "sp": "daniel",
+        "ar": "وَمَنِ الْمُمَثِّلُ فِي هٰذَا الْفِيلْم؟ هَلْ هُوَ مَشْهُور؟ أَنَا لَا أَعْرِفُ الْمُمَثِّلِينَ الْمِصْرِيِّينَ.",
+        "en": "And who is the actor in this film? Is he famous? I don't know any Egyptian actors.",
+        "segs": [
+          [
+            "وَمَنِ",
+            "and who (-i links to the next word)"
+          ],
+          [
+            "الْمُمَثِّلُ",
+            "the actor"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "هٰذَا",
+            "this (m)"
+          ],
+          [
+            "الْفِيلْم",
+            "the film"
+          ],
+          [
+            "هَلْ",
+            "(starts a yes/no question)"
+          ],
+          [
+            "هُوَ",
+            "he"
+          ],
+          [
+            "مَشْهُور",
+            "famous"
+          ],
+          [
+            "أَنَا",
+            "I"
+          ],
+          [
+            "لَا",
+            "not"
+          ],
+          [
+            "أَعْرِفُ",
+            "I know"
+          ],
+          [
+            "الْمُمَثِّلِينَ",
+            "the actors"
+          ],
+          [
+            "الْمِصْرِيِّينَ",
+            "the Egyptian (plural)"
+          ]
+        ]
+      },
+      {
+        "id": "d72l10",
+        "sp": "sami",
+        "ar": "نَعَم، هُوَ مُمَثِّل مَشْهُور جِدًّا، وَالْمُمَثِّلَة أَيْضًا. أَعْرِفُ أَنَّكَ سَتَضْحَكُ كَثِيرًا، حَتَّى بِدُونِ تَرْجَمَة!",
+        "en": "Yes, he's a very famous actor, and so is the actress. I know that you'll laugh a lot, even without subtitles!",
+        "segs": [
+          [
+            "نَعَم",
+            "yes"
+          ],
+          [
+            "هُوَ",
+            "he"
+          ],
+          [
+            "مُمَثِّل",
+            "actor"
+          ],
+          [
+            "مَشْهُور",
+            "famous"
+          ],
+          [
+            "جِدًّا",
+            "very"
+          ],
+          [
+            "وَالْمُمَثِّلَة",
+            "and the actress"
+          ],
+          [
+            "أَيْضًا",
+            "also, too"
+          ],
+          [
+            "أَعْرِفُ",
+            "I know"
+          ],
+          [
+            "أَنَّكَ",
+            "that you (to a man)"
+          ],
+          [
+            "سَتَضْحَكُ",
+            "you will laugh (to a man)"
+          ],
+          [
+            "كَثِيرًا",
+            "a lot, much"
+          ],
+          [
+            "حَتَّى",
+            "even"
+          ],
+          [
+            "بِدُونِ",
+            "without"
+          ],
+          [
+            "تَرْجَمَة",
+            "translation ('subtitles')"
+          ]
+        ]
+      },
+      {
+        "id": "d72l11",
+        "sp": "daniel",
+        "ar": "بِدُونِ تَرْجَمَة؟ هٰذَا صَعْب! أَنَا أَعْرِفُ أَنَّ الْمُمَثِّلِينَ يَتَكَلَّمُونَ بِسُرْعَة كَبِيرَة.",
+        "en": "Without subtitles? That's hard! I know that actors speak very fast.",
+        "segs": [
+          [
+            "بِدُونِ",
+            "without"
+          ],
+          [
+            "تَرْجَمَة",
+            "translation ('subtitles')"
+          ],
+          [
+            "هٰذَا",
+            "this ('that')"
+          ],
+          [
+            "صَعْب",
+            "difficult, hard"
+          ],
+          [
+            "أَنَا",
+            "I"
+          ],
+          [
+            "أَعْرِفُ",
+            "I know"
+          ],
+          [
+            "أَنَّ",
+            "that"
+          ],
+          [
+            "الْمُمَثِّلِينَ",
+            "the actors"
+          ],
+          [
+            "يَتَكَلَّمُونَ",
+            "they speak"
+          ],
+          [
+            "بِسُرْعَة",
+            "with speed, fast"
+          ],
+          [
+            "كَبِيرَة",
+            "great, big (f)"
+          ]
+        ]
+      },
+      {
+        "id": "d72l12",
+        "sp": "layla",
+        "ar": "عِنْدِي فِكْرَة: نَذْهَبُ إِلَى الْحَفْلَة اللَّيْلَة، وَيَوْمَ السَّبْت نُشَاهِدُ الْفِيلْم مَعًا. اِتَّفَقْنَا؟",
+        "en": "I have an idea: we go to the concert tonight, and on Saturday we watch the film together. Agreed?",
+        "segs": [
+          [
+            "عِنْدِي",
+            "I have (lit. at me)"
+          ],
+          [
+            "فِكْرَة",
+            "idea"
+          ],
+          [
+            "نَذْهَبُ",
+            "we go"
+          ],
+          [
+            "إِلَى",
+            "to"
+          ],
+          [
+            "الْحَفْلَة",
+            "the party, the concert"
+          ],
+          [
+            "اللَّيْلَة",
+            "tonight"
+          ],
+          [
+            "وَيَوْمَ",
+            "and on the day of"
+          ],
+          [
+            "السَّبْت",
+            "Saturday"
+          ],
+          [
+            "نُشَاهِدُ",
+            "we watch"
+          ],
+          [
+            "الْفِيلْم",
+            "the film"
+          ],
+          [
+            "مَعًا",
+            "together"
+          ],
+          [
+            "اِتَّفَقْنَا",
+            "we have agreed ('agreed?')"
+          ]
+        ]
+      },
+      {
+        "id": "d72l13",
+        "sp": "sami",
+        "ar": "فِكْرَة مُمْتَازَة يَا لَيْلَى! أَنْتِ دَائِمًا تَجِدِينَ حَلًّا. لٰكِنْ يَوْمَ السَّبْت أَنَا أَخْتَارُ الْفِيلْم!",
+        "en": "An excellent idea, Layla! You always find a solution. But on Saturday I'm the one who chooses the film!",
+        "segs": [
+          [
+            "فِكْرَة",
+            "idea"
+          ],
+          [
+            "مُمْتَازَة",
+            "excellent (f)"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "لَيْلَى",
+            "Layla (first name)",
+            "name"
+          ],
+          [
+            "أَنْتِ",
+            "you (to a woman)"
+          ],
+          [
+            "دَائِمًا",
+            "always"
+          ],
+          [
+            "تَجِدِينَ",
+            "you find (to a woman)"
+          ],
+          [
+            "حَلًّا",
+            "a solution"
+          ],
+          [
+            "لٰكِنْ",
+            "but"
+          ],
+          [
+            "يَوْمَ",
+            "on the day of"
+          ],
+          [
+            "السَّبْت",
+            "Saturday"
+          ],
+          [
+            "أَنَا",
+            "I"
+          ],
+          [
+            "أَخْتَارُ",
+            "I choose"
+          ],
+          [
+            "الْفِيلْم",
+            "the film"
+          ]
+        ]
+      },
+      {
+        "id": "d72l14",
+        "sp": "daniel",
+        "ar": "اِتَّفَقْنَا! أَنَا سَعِيد: اللَّيْلَة أَغَانِي أُمِّ كُلْثُوم، وَيَوْمَ السَّبْت فِيلْم مِصْرِيّ مُضْحِك. هٰذَا أُسْبُوع ثَقَافِيّ!",
+        "en": "Agreed! I'm happy: tonight Umm Kulthum's songs, and on Saturday a funny Egyptian film. This is a cultural week!",
+        "segs": [
+          [
+            "اِتَّفَقْنَا",
+            "we have agreed ('agreed!')"
+          ],
+          [
+            "أَنَا",
+            "I"
+          ],
+          [
+            "سَعِيد",
+            "happy"
+          ],
+          [
+            "اللَّيْلَة",
+            "tonight"
+          ],
+          [
+            "أَغَانِي",
+            "songs (of)"
+          ],
+          [
+            "أُمِّ",
+            "Umm (first part of the name)",
+            "name"
+          ],
+          [
+            "كُلْثُوم",
+            "Kulthum (Umm Kulthum: the famous Egyptian singer)",
+            "name"
+          ],
+          [
+            "وَيَوْمَ",
+            "and on the day of"
+          ],
+          [
+            "السَّبْت",
+            "Saturday"
+          ],
+          [
+            "فِيلْم",
+            "film"
+          ],
+          [
+            "مِصْرِيّ",
+            "Egyptian"
+          ],
+          [
+            "مُضْحِك",
+            "funny"
+          ],
+          [
+            "هٰذَا",
+            "this (m)"
+          ],
+          [
+            "أُسْبُوع",
+            "week"
+          ],
+          [
+            "ثَقَافِيّ",
+            "cultural"
+          ]
+        ]
+      },
+      {
+        "id": "d72l15",
+        "sp": "layla",
+        "ar": "لٰكِنْ يَا دَانْيَال، يَجِبُ أَنْ تَلْبَسَ قَمِيصًا وَسُتْرَة. فِي دَارِ الْأُوبِرَا الْمَلَابِس مُهِمَّة!",
+        "en": "But Daniel, you must wear a shirt and a jacket. At the Opera House clothes are important!",
+        "segs": [
+          [
+            "لٰكِنْ",
+            "but"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "دَانْيَال",
+            "Daniel (first name)",
+            "name"
+          ],
+          [
+            "يَجِبُ",
+            "must, it is necessary"
+          ],
+          [
+            "أَنْ",
+            "to, that"
+          ],
+          [
+            "تَلْبَسَ",
+            "you wear (after an)"
+          ],
+          [
+            "قَمِيصًا",
+            "a shirt"
+          ],
+          [
+            "وَسُتْرَة",
+            "and a jacket"
+          ],
+          [
+            "فِي",
+            "in, at"
+          ],
+          [
+            "دَارِ",
+            "house (of)"
+          ],
+          [
+            "الْأُوبِرَا",
+            "the opera ('the Opera House')"
+          ],
+          [
+            "الْمَلَابِس",
+            "the clothes"
+          ],
+          [
+            "مُهِمَّة",
+            "important (f)"
+          ]
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "title": "A cultural week",
+    "ar": "يَوْمَ الْخَمِيس ذَهَبَ دَانْيَال وَلَيْلَى وَسَامِي إِلَى دَارِ الْأُوبِرَا. اِسْتَمَعُوا إِلَى أَغَانِي أُمِّ كُلْثُوم. كَانَتِ الْأَغَانِي طَوِيلَة، لٰكِنْ دَانْيَال لَمْ يَشْعُرْ بِالْمَلَل. عَرَفَ أَنَّ الْمُوسِيقَى الْعَرَبِيَّة جَمِيلَة جِدًّا. يَوْمَ السَّبْت سَيُشَاهِدُونَ فِيلْمًا مِصْرِيًّا فِي السِّينِمَا.",
+    "en": "On Thursday Daniel, Layla and Sami went to the Opera House. They listened to Umm Kulthum's songs. The songs were long, but Daniel didn't feel bored. He learned that Arabic music is very beautiful. On Saturday they will watch an Egyptian film at the cinema.",
+    "segs": [
+      [
+        "يَوْمَ",
+        "on the day of"
+      ],
+      [
+        "الْخَمِيس",
+        "Thursday"
+      ],
+      [
+        "ذَهَبَ",
+        "(he) went"
+      ],
+      [
+        "دَانْيَال",
+        "Daniel (first name)",
+        "name"
+      ],
+      [
+        "وَلَيْلَى",
+        "and Layla (first name)",
+        "name"
+      ],
+      [
+        "وَسَامِي",
+        "and Sami (first name)",
+        "name"
+      ],
+      [
+        "إِلَى",
+        "to"
+      ],
+      [
+        "دَارِ",
+        "house (of)"
+      ],
+      [
+        "الْأُوبِرَا",
+        "the opera ('the Opera House')"
+      ],
+      [
+        "اِسْتَمَعُوا",
+        "they listened"
+      ],
+      [
+        "إِلَى",
+        "to"
+      ],
+      [
+        "أَغَانِي",
+        "songs (of)"
+      ],
+      [
+        "أُمِّ",
+        "Umm (first part of the name)",
+        "name"
+      ],
+      [
+        "كُلْثُوم",
+        "Kulthum (Umm Kulthum: the famous Egyptian singer)",
+        "name"
+      ],
+      [
+        "كَانَتِ",
+        "(they) were (lit. she was)"
+      ],
+      [
+        "الْأَغَانِي",
+        "the songs"
+      ],
+      [
+        "طَوِيلَة",
+        "long (f)"
+      ],
+      [
+        "لٰكِنْ",
+        "but"
+      ],
+      [
+        "دَانْيَال",
+        "Daniel (first name)",
+        "name"
+      ],
+      [
+        "لَمْ",
+        "did not"
+      ],
+      [
+        "يَشْعُرْ",
+        "(he) feel"
+      ],
+      [
+        "بِالْمَلَل",
+        "boredom (lit. with the boredom)"
+      ],
+      [
+        "عَرَفَ",
+        "(he) knew, learned"
+      ],
+      [
+        "أَنَّ",
+        "that"
+      ],
+      [
+        "الْمُوسِيقَى",
+        "the music"
+      ],
+      [
+        "الْعَرَبِيَّة",
+        "the Arabic (f)"
+      ],
+      [
+        "جَمِيلَة",
+        "beautiful (f)"
+      ],
+      [
+        "جِدًّا",
+        "very"
+      ],
+      [
+        "يَوْمَ",
+        "on the day of"
+      ],
+      [
+        "السَّبْت",
+        "Saturday"
+      ],
+      [
+        "سَيُشَاهِدُونَ",
+        "they will watch"
+      ],
+      [
+        "فِيلْمًا",
+        "a film"
+      ],
+      [
+        "مِصْرِيًّا",
+        "Egyptian"
+      ],
+      [
+        "فِي",
+        "in, at"
+      ],
+      [
+        "السِّينِمَا",
+        "the cinema"
+      ]
+    ]
+  },
+  "review": [
+    "yujibuni",
+    "shahada",
+    "samia",
+    "mumti",
+    "yuhibbu",
+    "yufaddilu"
+  ],
+  "quiz": [
+    {
+      "id": "d72q1",
+      "prompt": "What does this mean?",
+      "ar": "أُغْنِيَة",
+      "options": [
+        "film",
+        "song",
+        "singer",
+        "cinema"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "d72q2",
+      "prompt": "Complete: سَمِعْتُ ___ الْفِيلْمَ مُمْتِع.",
+      "options": [
+        "إِلَى",
+        "مَعَ",
+        "أَنَّ",
+        "أَنْ"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "d72q3",
+      "prompt": "What does Layla want to do tonight?",
+      "options": [
+        "go to the cinema",
+        "go to a concert at the Opera House",
+        "watch TV at home",
+        "play football"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "d72q4",
+      "prompt": "Who is Umm Kulthum?",
+      "options": [
+        "Layla's grandmother",
+        "an actress",
+        "a new film",
+        "a famous singer"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "d72q5",
+      "prompt": "How do you say 'that she…'?",
+      "options": [
+        "أَنَّنِي",
+        "أَنْ",
+        "أَنَّهُ",
+        "أَنَّهَا"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "d72q6",
+      "prompt": "What does Sami prefer?",
+      "options": [
+        "films",
+        "concerts",
+        "old songs",
+        "the radio"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "d72q7",
+      "prompt": "How do you say مِنَ السِّينِمَا (from the cinema)?",
+      "options": [
+        "min as-sīnimā",
+        "mini s-sīnimā",
+        "mina s-sīnimā",
+        "min sīnimā"
+      ],
+      "answer": 2
+    }
+  ],
+  "completion": "Bravo! You can talk about music and films, say what you prefer, and pass on what you know or heard with أَنَّ. Tomorrow: reading the news.",
+  "status": "needs-review"
+}

@@ -817,5 +817,103 @@
         }
       ]
     ]
+  },
+  {
+    "id": "linking",
+    "title": "Linking: the helping vowel before al-",
+    "category": "Linking",
+    "ipa": [
+      "a",
+      "i",
+      "u"
+    ],
+    "letters": [
+      "ن",
+      "ل",
+      "م"
+    ],
+    "tip": "Arabic never lets two consonants crash together across words. When a word that ends in sukūn meets a word that starts with hamzat al-waṣl, such as the article الـ, a short helping vowel joins them, and the a of al- disappears. Most words take -i: عَنِ الْفِيلْم (ʿani l-fīlm), هَلِ الْمُغَنِّي…؟ (hali l-mughannī). مِنْ takes -a: مِنَ السِّينِمَا (mina s-sīnimā). Words ending in -um take -u: هُمُ الطُّلَّاب.",
+    "diagram": "word ending in sukūn + helping vowel (i, a or u) + next word without its first a: ʿan + al-fīlm = ʿani l-fīlm",
+    "error": "Saying 'min al-sīnimā' or 'ʿan al-fīlm' with a full al-. The a of al- is dropped and the helping vowel carries you into the next word: mina s-sīnimā, ʿani l-fīlm.",
+    "examples": [
+      {
+        "ar": "مِنَ السِّينِمَا",
+        "en": "from the cinema"
+      },
+      {
+        "ar": "عَنِ الْفِيلْم",
+        "en": "about the film"
+      },
+      {
+        "ar": "مَنِ الْمُمَثِّلُ؟",
+        "en": "who is the actor?"
+      }
+    ],
+    "pairs": [
+      [
+        {
+          "ar": "مِنْ مِصْر",
+          "en": "from Egypt"
+        },
+        {
+          "ar": "مِنَ الْقَاهِرَة",
+          "en": "from Cairo"
+        }
+      ],
+      [
+        {
+          "ar": "عَنْ فِيلْم",
+          "en": "about a film"
+        },
+        {
+          "ar": "عَنِ الْفِيلْم",
+          "en": "about the film"
+        }
+      ]
+    ]
+  },
+  {
+    "id": "case-endings",
+    "title": "Case endings: -u, -a, -i in careful speech",
+    "category": "Endings",
+    "ipa": [
+      "u",
+      "a",
+      "i"
+    ],
+    "letters": [
+      "ـُ",
+      "ـَ",
+      "ـِ"
+    ],
+    "tip": "Newsreaders and formal speakers pronounce the short vowel at the end of each word. The subject ends in -u (الْوَزِيرُ), the object and the noun after إِنَّ end in -a (الْمِهْرَجَانَ), and a noun after a preposition or as the second word of a chain ends in -i (فِي الْقَاهِرَةِ). Say these vowels lightly and run them into the next word, but drop them at the end of a sentence.",
+    "diagram": "subject: -u · object, after inna: -a · after fī, min, ʿalā and in a chain: -i · at a pause: no vowel",
+    "error": "Pronouncing the case vowel at a pause, or leaving it out in the middle of a formal sentence. اِفْتَتَحَ الْوَزِيرُ الْمِهْرَجَانَ is read iftataḥa l-wazīru l-mihrajān: -u and -a inside, nothing at the end.",
+    "examples": [
+      {
+        "ar": "الْوَزِيرُ",
+        "en": "the minister (subject: -u)"
+      },
+      {
+        "ar": "الْمِهْرَجَانَ",
+        "en": "the festival (object: -a)"
+      },
+      {
+        "ar": "فِي الْقَاهِرَةِ",
+        "en": "in Cairo (after a preposition: -i)"
+      }
+    ],
+    "pairs": [
+      [
+        {
+          "ar": "الْأَخْبَارُ جَيِّدَة",
+          "en": "the news is good"
+        },
+        {
+          "ar": "إِنَّ الْأَخْبَارَ جَيِّدَة",
+          "en": "the news is indeed good"
+        }
+      ]
+    ]
   }
 ]

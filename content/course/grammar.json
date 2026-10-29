@@ -3413,5 +3413,355 @@
         "en": "We meet at the office every morning."
       }
     ]
+  },
+  {
+    "id": "occasion-greetings-w11",
+    "title": "Wishes for Eid and other occasions",
+    "titleAr": "كُلُّ عَامٍ وَأَنْتُمْ بِخَيْر",
+    "firstDay": 71,
+    "summary": "Festival wishes come in pairs, like everyday greetings: a fixed wish and a fixed reply. The two you hear most at Eid are عِيد مُبَارَك (blessed Eid) and كُلُّ عَامٍ وَأَنْتُمْ بِخَيْر (may you be well every year).",
+    "formula": "wish → reply · the pronoun changes: وَأَنْتَ (a man) / وَأَنْتِ (a woman) / وَأَنْتُمْ (a group)",
+    "explanation": "عِيد مُبَارَك! is answered with عَلَيْنَا وَعَلَيْكُمْ (to us and to you) or simply with عِيد مُبَارَك! again. كُلُّ عَامٍ وَأَنْتُمْ بِخَيْر literally means 'every year, and you are well'. It is used for Eid, Ramadan, birthdays and the new year, and the pronoun changes with the person you speak to: كُلُّ عَامٍ وَأَنْتَ بِخَيْر to a man, كُلُّ عَامٍ وَأَنْتِ بِخَيْر to a woman. The reply repeats the end of the wish: وَأَنْتَ بِخَيْر (and you too). In Ramadan people say رَمَضَان كَرِيم (Ramadan is generous), and the answer is اللّٰهُ أَكْرَم (God is more generous).",
+    "table": {
+      "head": [
+        "Wish",
+        "Meaning",
+        "Reply"
+      ],
+      "rows": [
+        [
+          "عِيد مُبَارَك!",
+          "Blessed Eid! (Eid Mubarak)",
+          "عَلَيْنَا وَعَلَيْكُمْ"
+        ],
+        [
+          "كُلُّ عَامٍ وَأَنْتُمْ بِخَيْر",
+          "many happy returns (to a group)",
+          "وَأَنْتُمْ بِخَيْر"
+        ],
+        [
+          "كُلُّ عَامٍ وَأَنْتَ بِخَيْر",
+          "many happy returns (to a man)",
+          "وَأَنْتَ بِخَيْر"
+        ],
+        [
+          "كُلُّ عَامٍ وَأَنْتِ بِخَيْر",
+          "many happy returns (to a woman)",
+          "وَأَنْتِ بِخَيْر"
+        ],
+        [
+          "رَمَضَان كَرِيم",
+          "Ramadan is generous",
+          "اللّٰهُ أَكْرَم"
+        ]
+      ]
+    },
+    "examples": [
+      {
+        "ar": "عِيد مُبَارَك يَا سَامِي!",
+        "en": "Happy Eid, Sami!"
+      },
+      {
+        "ar": "كُلُّ عَامٍ وَأَنْتِ بِخَيْر يَا لَيْلَى!",
+        "en": "Many happy returns, Layla!"
+      }
+    ]
+  },
+  {
+    "id": "anna",
+    "title": "That…: أَنَّ + a noun or a pronoun",
+    "titleAr": "أَعْرِفُ أَنَّ الْفِيلْمَ جَمِيل",
+    "firstDay": 72,
+    "summary": "To say 'I know that…', 'I heard that…' or 'I feel that…', put أَنَّ (that) after the verb. The noun right after أَنَّ ends in -a, or a pronoun is attached to it: أَنَّهُ (that he), أَنَّهَا (that she), أَنَّنِي (that I).",
+    "formula": "verb + أَنَّ + noun (ending -a) / أَنَّ + pronoun ending + the rest of the sentence",
+    "explanation": "أَنَّ joins a verb such as أَعْرِفُ (I know), سَمِعْتُ (I heard) or أَشْعُرُ (I feel) to a whole sentence. The rest of the sentence stays as it was, but the noun after أَنَّ takes the ending -a: الْفِيلْمُ طَوِيل (the film is long) becomes أَعْرِفُ أَنَّ الْفِيلْمَ طَوِيل (I know that the film is long). Instead of a noun you can attach a pronoun: أَنَّهُ, أَنَّهَا, أَنَّكَ, أَنَّنِي. Never write أَنَّ هِيَ: the pronoun is always an ending. Don't confuse أَنَّ with أَنْ (to), which comes before a verb: أُرِيدُ أَنْ أُشَاهِدَ (I want to watch), but أَعْرِفُ أَنَّهُ يُشَاهِدُ (I know that he is watching). لِأَنَّ (because) is the same word with لِـ in front.",
+    "table": {
+      "head": [
+        "Arabic",
+        "English"
+      ],
+      "rows": [
+        [
+          "أَنَّنِي",
+          "that I"
+        ],
+        [
+          "أَنَّكَ",
+          "that you (to a man)"
+        ],
+        [
+          "أَنَّكِ",
+          "that you (to a woman)"
+        ],
+        [
+          "أَنَّهُ",
+          "that he, that it (m)"
+        ],
+        [
+          "أَنَّهَا",
+          "that she, that it (f)"
+        ],
+        [
+          "أَنَّنَا",
+          "that we"
+        ],
+        [
+          "أَنَّهُمْ",
+          "that they"
+        ]
+      ]
+    },
+    "examples": [
+      {
+        "ar": "سَمِعْتُ أَنَّ الْفِيلْمَ الْجَدِيدَ مُمْتِع.",
+        "en": "I heard that the new film is enjoyable."
+      },
+      {
+        "ar": "أَعْرِفُ أَنَّهَا تُحِبُّ أَغَانِيَ أُمِّ كُلْثُوم.",
+        "en": "I know that she loves Umm Kulthum's songs."
+      }
+    ]
+  },
+  {
+    "id": "inna",
+    "title": "Indeed: إِنَّ and لٰكِنَّ",
+    "titleAr": "إِنَّ الْأَخْبَارَ جَيِّدَة",
+    "firstDay": 73,
+    "summary": "إِنَّ (indeed, truly) starts a statement and gives it weight. You meet it in speeches, in the news and in formal writing. The noun after it ends in -a, or a pronoun is attached: إِنَّهُ, إِنَّهَا. لٰكِنَّ (but) works the same way.",
+    "formula": "إِنَّ / لٰكِنَّ + noun (ending -a) or pronoun ending + the rest",
+    "explanation": "In a normal sentence the subject ends in -u: الْمَتْحَفُ كَبِير (the museum is big). After إِنَّ it ends in -a: إِنَّ الْمَتْحَفَ كَبِير (the museum is indeed big). The rest of the sentence does not change. English usually doesn't translate إِنَّ at all: it simply makes the sentence sound sure and formal. With a pronoun it is very common even in speech: إِنَّهُ مَشْهُور (he is famous), إِنَّهَا جَمِيلَة (she, it is beautiful). لٰكِنَّ is the long form of لٰكِنْ (but) and behaves like إِنَّ: لٰكِنَّ الْخَبَرَ قَصِير (but the article is short), لٰكِنَّهُ (but he). إِنَّ, أَنَّ and لٰكِنَّ are called 'inna and her sisters'.",
+    "table": {
+      "head": [
+        "Normal sentence",
+        "With إِنَّ",
+        "English"
+      ],
+      "rows": [
+        [
+          "الْمَتْحَفُ كَبِير",
+          "إِنَّ الْمَتْحَفَ كَبِير",
+          "the museum is (indeed) big"
+        ],
+        [
+          "الْأَخْبَارُ جَيِّدَة",
+          "إِنَّ الْأَخْبَارَ جَيِّدَة",
+          "the news is good"
+        ],
+        [
+          "هُوَ مَشْهُور",
+          "إِنَّهُ مَشْهُور",
+          "he is famous"
+        ],
+        [
+          "هِيَ جَمِيلَة",
+          "إِنَّهَا جَمِيلَة",
+          "she (it) is beautiful"
+        ]
+      ]
+    },
+    "examples": [
+      {
+        "ar": "إِنَّ الْأَخْبَارَ الْيَوْمَ جَيِّدَة.",
+        "en": "The news today is good."
+      },
+      {
+        "ar": "إِنَّهَا الْعَرَبِيَّةُ الْفُصْحَى.",
+        "en": "It is standard Arabic."
+      }
+    ]
+  },
+  {
+    "id": "relative-pronouns",
+    "title": "Who, which, that: الَّذِي, الَّتِي, الَّذِينَ",
+    "titleAr": "الرَّجُلُ الَّذِي…",
+    "firstDay": 74,
+    "summary": "To add a sentence to a noun with 'the', use الَّذِي after a masculine noun, الَّتِي after a feminine noun or a plural of things, and الَّذِينَ after a group of people. After a noun without 'the', use no relative word at all.",
+    "formula": "الـ + noun + الَّذِي / الَّتِي / الَّذِينَ + sentence · noun without الـ + sentence",
+    "explanation": "The relative word agrees with the noun before it: الرَّجُلُ الَّذِي كَتَبَ الرِّوَايَة (the man who wrote the novel), الْمَرْأَةُ الَّتِي تَبِيعُ الْكُتُبَ (the woman who sells the books), الطُّلَّابُ الَّذِينَ يَدْرُسُونَ (the students who study). Plurals of things count as feminine singular, so they take الَّتِي: الْكُتُبُ الَّتِي قَرَأْتُهَا (the books that I read). When the noun is the object of the second verb, Arabic usually repeats it as a pronoun ending, as in قَرَأْتُهَا (I read them, literally 'I read it'). If the noun has no 'the', leave the relative word out: عِنْدِي صَدِيق يَكْتُبُ قِصَصًا (I have a friend who writes stories).",
+    "table": {
+      "head": [
+        "Arabic",
+        "English"
+      ],
+      "rows": [
+        [
+          "الرَّجُلُ الَّذِي كَتَبَ الرِّوَايَة",
+          "the man who wrote the novel (m: الَّذِي)"
+        ],
+        [
+          "الْمَرْأَةُ الَّتِي تَبِيعُ الْكُتُبَ",
+          "the woman who sells the books (f: الَّتِي)"
+        ],
+        [
+          "الْكُتُبُ الَّتِي قَرَأْتُهَا",
+          "the books (that) I read (things: الَّتِي)"
+        ],
+        [
+          "الطُّلَّابُ الَّذِينَ يَدْرُسُونَ مَعِي",
+          "the students who study with me (people: الَّذِينَ)"
+        ],
+        [
+          "عِنْدِي صَدِيق يَكْتُبُ قِصَصًا",
+          "I have a friend who writes stories (no 'the': no relative word)"
+        ]
+      ]
+    },
+    "examples": [
+      {
+        "ar": "الرَّجُلُ الَّذِي كَتَبَ هٰذِهِ الرِّوَايَةَ مَشْهُور.",
+        "en": "The man who wrote this novel is famous."
+      },
+      {
+        "ar": "هٰذِهِ هِيَ الرِّوَايَةُ الَّتِي قَرَأْتُهَا.",
+        "en": "This is the novel (that) I read."
+      }
+    ]
+  },
+  {
+    "id": "qala-inna",
+    "title": "Reported speech: قَالَ إِنَّ and أَخْبَرَ أَنَّ",
+    "titleAr": "قَالَ إِنَّ…",
+    "firstDay": 75,
+    "summary": "To report what someone said, use قَالَ (he said) or قَالَتْ (she said) + إِنَّ. After other verbs, such as أَخْبَرَ (told), سَمِعَ (heard) or عَرَفَ (knew), use أَنَّ. Change the pronouns as in English, but keep the tense the speaker used.",
+    "formula": "قَالَ / قَالَتْ + إِنَّ + sentence · أَخْبَرَنِي / سَمِعْتُ + أَنَّ + sentence · سَأَلَ + هَلْ + question",
+    "explanation": "قَالَ is special: it is followed by إِنَّ, with i, and not by أَنَّ: قَالَ الْأُسْتَاذُ إِنَّ الدَّرْسَ سَهْل (the teacher said that the lesson was easy). Both take the ending -a on the next noun, or a pronoun ending: قَالَتْ إِنَّهَا مَرِيضَة (she said that she was ill). The speaker's 'I' becomes 'he' or 'she', as in English: أَنَا مَرِيضَة → قَالَتْ إِنَّهَا مَرِيضَة. Unlike English, Arabic keeps the speaker's tense: 'is ill' stays 'is ill'. To report a question, use سَأَلَ (asked) + هَلْ: سَأَلَنِي هَلْ فَهِمْتُ الدَّرْسَ (he asked me whether I had understood the lesson). A promise is reported with وَعَدَ أَنْ + verb: وَعَدَ أَنْ يَزُورَنَا (he promised to visit us).",
+    "table": {
+      "head": [
+        "Direct words",
+        "Reported",
+        "English"
+      ],
+      "rows": [
+        [
+          "أَنَا مُتْعَب.",
+          "قَالَ إِنَّهُ مُتْعَب.",
+          "He said that he was tired."
+        ],
+        [
+          "أَنَا مَرِيضَة.",
+          "قَالَتْ إِنَّهَا مَرِيضَة.",
+          "She said that she was ill."
+        ],
+        [
+          "الدَّرْسُ سَهْل.",
+          "قَالَ إِنَّ الدَّرْسَ سَهْل.",
+          "He said that the lesson was easy."
+        ],
+        [
+          "الْفِيلْمُ رَائِع.",
+          "أَخْبَرَنِي أَنَّ الْفِيلْمَ رَائِع.",
+          "He told me that the film was great."
+        ],
+        [
+          "هَلْ فَهِمْتَ؟",
+          "سَأَلَنِي هَلْ فَهِمْتُ.",
+          "He asked me whether I had understood."
+        ]
+      ]
+    },
+    "examples": [
+      {
+        "ar": "قَالَ الْأُسْتَاذُ إِنَّ الدَّرْسَ سَهْل.",
+        "en": "The teacher said that the lesson was easy."
+      },
+      {
+        "ar": "أَخْبَرَنِي سَامِي أَنَّ الْفِيلْمَ رَائِع.",
+        "en": "Sami told me that the film was great."
+      }
+    ]
+  },
+  {
+    "id": "opinion-phrases",
+    "title": "Giving opinions: فِي رَأْيِي, أَعْتَقِدُ أَنَّ…",
+    "titleAr": "فِي رَأْيِي",
+    "firstDay": 76,
+    "summary": "Give an opinion with فِي رَأْيِي (in my opinion) + a sentence, or with أَعْتَقِدُ أَنَّ (I believe that) or أَظُنُّ أَنَّ (I think that) + a noun ending in -a. Ask مَا رَأْيُكَ؟ (what do you think?), agree with أُوَافِقُ or مَعَكَ حَقّ, and disagree politely with لَا أُوَافِقُ.",
+    "formula": "فِي رَأْيِي + sentence · أَعْتَقِدُ / أَظُنُّ + أَنَّ + noun (-a) · مَا رَأْيُكَ / رَأْيُكِ / رَأْيُكُمْ؟",
+    "explanation": "After فِي رَأْيِي the sentence is normal: فِي رَأْيِي، الْكُتُبُ أَحْسَنُ (in my opinion, books are better). After أَعْتَقِدُ أَنَّ and أَظُنُّ أَنَّ, remember the rule of أَنَّ: the noun ends in -a, or a pronoun is attached: أَظُنُّ أَنَّهُ عَلَى حَقّ (I think he is right). أَعْتَقِدُ sounds a little stronger and more serious than أَظُنُّ. To ask for an opinion, change the ending of رَأْي for the person: مَا رَأْيُكَ؟ (to a man), مَا رَأْيُكِ؟ (to a woman), مَا رَأْيُكُمْ؟ (to a group). To agree, say أُوَافِقُ (I agree), أُوَافِقُكَ (I agree with you) or مَعَكَ حَقّ (you're right, literally 'with you is truth'). To disagree politely, start with مَعَ احْتِرَامِي (with respect) and then say لَا أُوَافِقُ.",
+    "table": {
+      "head": [
+        "Arabic",
+        "English"
+      ],
+      "rows": [
+        [
+          "مَا رَأْيُكَ؟ / مَا رَأْيُكِ؟",
+          "what do you think? (to a man / to a woman)"
+        ],
+        [
+          "فِي رَأْيِي، الْكُتُبُ أَحْسَنُ مِنَ الْإِنْتَرْنِت.",
+          "in my opinion, books are better than the internet"
+        ],
+        [
+          "أَعْتَقِدُ أَنَّ الْإِنْتَرْنِتَ مُفِيد.",
+          "I believe that the internet is useful"
+        ],
+        [
+          "أَظُنُّ أَنَّ هٰذَا خَطَأ.",
+          "I think that this is a mistake"
+        ],
+        [
+          "أُوَافِقُكَ، مَعَكَ حَقّ.",
+          "I agree with you, you're right"
+        ],
+        [
+          "مَعَ احْتِرَامِي، لَا أُوَافِقُ.",
+          "with respect, I don't agree"
+        ]
+      ]
+    },
+    "examples": [
+      {
+        "ar": "فِي رَأْيِي، الْكُتُبُ أَحْسَنُ مِنَ الْإِنْتَرْنِت.",
+        "en": "In my opinion, books are better than the internet."
+      },
+      {
+        "ar": "لَا أُوَافِقُ، أَظُنُّ أَنَّ هٰذَا خَطَأ.",
+        "en": "I don't agree; I think that's a mistake."
+      }
+    ]
+  },
+  {
+    "id": "man-whoever-w11",
+    "title": "Whoever…: مَنْ in proverbs",
+    "titleAr": "مَنْ جَدَّ وَجَدَ",
+    "firstDay": 77,
+    "summary": "مَنْ means 'who?' in a question, but at the start of a statement it means 'whoever, anyone who'. Proverbs use it with two past verbs for something that is always true: مَنْ جَدَّ وَجَدَ (whoever works hard succeeds).",
+    "formula": "مَنْ + past verb + past verb = a general truth (whoever does A gets B)",
+    "explanation": "In proverbs the past tense often states something that is always true: مَنْ زَرَعَ حَصَدَ, literally 'who sowed, reaped', means 'whoever sows will reap'. مَنْ never changes and always takes a singular verb, although it can mean a man, a woman or many people. In ordinary sentences you can say the same with the present: مَنْ يَعْمَلُ كَثِيرًا يَجِدُ النَّجَاح (whoever works hard finds success). Compare: مَنْ هٰذَا؟ (who is this?) is a question, but مَنْ جَدَّ وَجَدَ is a statement.",
+    "table": {
+      "head": [
+        "Proverb",
+        "Word for word",
+        "Meaning"
+      ],
+      "rows": [
+        [
+          "مَنْ جَدَّ وَجَدَ",
+          "who strove, found",
+          "hard work pays off"
+        ],
+        [
+          "مَنْ زَرَعَ حَصَدَ",
+          "who sowed, reaped",
+          "you reap what you sow"
+        ],
+        [
+          "مَنْ يَعْمَلُ كَثِيرًا يَجِدُ النَّجَاح",
+          "who works a lot finds the success",
+          "whoever works hard succeeds"
+        ]
+      ]
+    },
+    "examples": [
+      {
+        "ar": "مَنْ جَدَّ وَجَدَ.",
+        "en": "Whoever works hard succeeds."
+      },
+      {
+        "ar": "مَنْ زَرَعَ حَصَدَ.",
+        "en": "You reap what you sow."
+      }
+    ]
   }
 ]

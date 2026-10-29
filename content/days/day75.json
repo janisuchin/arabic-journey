@@ -1,0 +1,1406 @@
+{
+  "day": 75,
+  "week": 11,
+  "phase": 6,
+  "level": 8,
+  "title": "He said that…",
+  "titleAr": "قَالَ إِنَّ…",
+  "titleSegs": [
+    [
+      "قَالَ",
+      "he said"
+    ],
+    [
+      "إِنَّ",
+      "that (after qāla)"
+    ]
+  ],
+  "emoji": "🗣️",
+  "summary": "Report what other people said with قَالَ إِنَّ… and أَخْبَرَنِي أَنَّ…, report a question with سَأَلَ, and change the pronouns as in English.",
+  "intro": "Layla missed class today, so Daniel tells her on the phone what everyone said. After قَالَ (said) Arabic uses إِنَّ, with i: قَالَ الْأُسْتَاذُ إِنَّ الدَّرْسَ سَهْل (the teacher said that the lesson was easy). After other verbs, such as أَخْبَرَ (told) or سَمِعَ (heard), it uses أَنَّ, with a. The speaker's 'I' becomes 'he' or 'she', as in English, but Arabic keeps the speaker's tense: قَالَتْ إِنَّهَا مَرِيضَة means 'she said that she was ill'.",
+  "objectives": [
+    "Report a statement with قَالَ إِنَّ… and قَالَتْ إِنَّ…",
+    "Use أَنَّ after أَخْبَرَ, سَمِعَ and عَرَفَ",
+    "Report a question with سَأَلَ + هَلْ and a promise with وَعَدَ أَنْ",
+    "Change the pronoun when you report: أَنَا becomes إِنَّهُ or إِنَّهَا"
+  ],
+  "realLife": {
+    "emoji": "📞",
+    "title": "A phone call after class",
+    "story": "Layla wakes up with a bad cold and stays at home. In the evening she phones Daniel: what did Mr Karim say, what is the homework, and is there really a test on Sunday? Daniel has his notebook open and reports everything, almost word for word."
+  },
+  "letters": [],
+  "newWords": [
+    "akhbara",
+    "saala",
+    "ajaba",
+    "kalam",
+    "sahih",
+    "waada",
+    "haqiqa"
+  ],
+  "grammar": [
+    "qala-inna",
+    "anna"
+  ],
+  "pronunciation": [
+    "qaf"
+  ],
+  "sentences": [
+    {
+      "id": "d75s1",
+      "ar": "قَالَ الْأُسْتَاذُ إِنَّ الدَّرْسَ سَهْل.",
+      "en": "The teacher said that the lesson was easy.",
+      "literal": "said the teacher that the lesson (is) easy",
+      "segs": [
+        [
+          "قَالَ",
+          "(he) said",
+          "verb"
+        ],
+        [
+          "الْأُسْتَاذُ",
+          "the teacher",
+          "noun"
+        ],
+        [
+          "إِنَّ",
+          "that (after qāla)",
+          "particle"
+        ],
+        [
+          "الدَّرْسَ",
+          "the lesson",
+          "noun"
+        ],
+        [
+          "سَهْل",
+          "easy",
+          "adj"
+        ]
+      ],
+      "grammar": [
+        "qala-inna"
+      ],
+      "mistakes": [
+        {
+          "wrong": "قَالَ الْأُسْتَاذُ أَنَّ الدَّرْسَ سَهْل",
+          "right": "قَالَ الْأُسْتَاذُ إِنَّ الدَّرْسَ سَهْل",
+          "why": "After qāla use inna (with i), not anna."
+        }
+      ]
+    },
+    {
+      "id": "d75s2",
+      "ar": "قَالَتْ لَيْلَى إِنَّهَا مَرِيضَة.",
+      "en": "Layla said that she was ill.",
+      "literal": "said Layla that she (is) ill",
+      "segs": [
+        [
+          "قَالَتْ",
+          "(she) said",
+          "verb"
+        ],
+        [
+          "لَيْلَى",
+          "Layla (first name)",
+          "name"
+        ],
+        [
+          "إِنَّهَا",
+          "that she (after qāla)",
+          "particle"
+        ],
+        [
+          "مَرِيضَة",
+          "ill (f)",
+          "adj"
+        ]
+      ],
+      "grammar": [
+        "qala-inna",
+        "attached-pronouns"
+      ],
+      "mistakes": [
+        {
+          "wrong": "قَالَتْ لَيْلَى إِنَّنِي مَرِيضَة",
+          "right": "قَالَتْ لَيْلَى إِنَّهَا مَرِيضَة",
+          "why": "In reported speech 'I' becomes 'she': innahā, as in English 'she said that she…'."
+        }
+      ]
+    },
+    {
+      "id": "d75s3",
+      "ar": "أَخْبَرَنِي سَامِي أَنَّ الْفِيلْمَ رَائِع.",
+      "en": "Sami told me that the film was great.",
+      "literal": "told me Sami that the film (is) great",
+      "segs": [
+        [
+          "أَخْبَرَنِي",
+          "(he) told me",
+          "verb"
+        ],
+        [
+          "سَامِي",
+          "Sami (first name)",
+          "name"
+        ],
+        [
+          "أَنَّ",
+          "that",
+          "particle"
+        ],
+        [
+          "الْفِيلْمَ",
+          "the film (-a after anna)",
+          "noun"
+        ],
+        [
+          "رَائِع",
+          "great, wonderful",
+          "adj"
+        ]
+      ],
+      "grammar": [
+        "anna",
+        "qala-inna"
+      ]
+    },
+    {
+      "id": "d75s4",
+      "ar": "سَأَلَنِي الْأُسْتَاذُ هَلْ فَهِمْتُ الدَّرْسَ.",
+      "en": "The teacher asked me whether I had understood the lesson.",
+      "literal": "asked me the teacher: (question) I understood the lesson",
+      "segs": [
+        [
+          "سَأَلَنِي",
+          "(he) asked me",
+          "verb"
+        ],
+        [
+          "الْأُسْتَاذُ",
+          "the teacher",
+          "noun"
+        ],
+        [
+          "هَلْ",
+          "whether (starts a yes/no question)",
+          "particle"
+        ],
+        [
+          "فَهِمْتُ",
+          "I understood",
+          "verb"
+        ],
+        [
+          "الدَّرْسَ",
+          "the lesson",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "qala-inna",
+        "past-tense"
+      ]
+    },
+    {
+      "id": "d75s5",
+      "ar": "وَعَدَ يُوسُف أَنْ يَزُورَنَا فِي الْقَاهِرَة.",
+      "en": "Yusuf promised to visit us in Cairo.",
+      "literal": "promised Yusuf to (that) he visits us in Cairo",
+      "segs": [
+        [
+          "وَعَدَ",
+          "(he) promised",
+          "verb"
+        ],
+        [
+          "يُوسُف",
+          "Yusuf (first name)",
+          "name"
+        ],
+        [
+          "أَنْ",
+          "to, that",
+          "particle"
+        ],
+        [
+          "يَزُورَنَا",
+          "he visits us (after an)",
+          "verb"
+        ],
+        [
+          "فِي",
+          "in",
+          "prep"
+        ],
+        [
+          "الْقَاهِرَة",
+          "Cairo (city in Egypt)",
+          "name"
+        ]
+      ],
+      "grammar": [
+        "an-subjunctive",
+        "verbal-sentence"
+      ],
+      "mistakes": [
+        {
+          "wrong": "وَعَدَ يُوسُف أَنَّ يَزُورَنَا",
+          "right": "وَعَدَ يُوسُف أَنْ يَزُورَنَا",
+          "why": "Before a verb use an (no shadda); anna comes before a noun or takes a pronoun ending."
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "What did the teacher say?",
+    "speakers": [
+      {
+        "key": "daniel",
+        "name": "Daniel",
+        "nameAr": "دَانْيَال"
+      },
+      {
+        "key": "layla",
+        "name": "Layla",
+        "nameAr": "لَيْلَى"
+      }
+    ],
+    "culture": "In stories people often repeat the exact words after قَالَ, but in the news you hear قَالَ الْوَزِيرُ إِنَّ… in almost every report. When someone is ill, friends send their wishes through others: سَلَامَتُهَا (get well soon, about a woman), and the teacher asks about an absent student with سَأَلَ عَنْكِ (he asked about you).",
+    "lines": [
+      {
+        "id": "d75l1",
+        "sp": "daniel",
+        "ar": "أَلُو، لَيْلَى؟ كَيْفَ حَالُكِ؟ قَالَ سَامِي إِنَّكِ مَرِيضَة، وَلِذٰلِكَ لَمْ تَحْضُرِي الدَّرْسَ الْيَوْمَ.",
+        "en": "Hello, Layla? How are you? Sami said that you were ill, and that's why you didn't come to class today.",
+        "segs": [
+          [
+            "أَلُو",
+            "hello (on the phone)"
+          ],
+          [
+            "لَيْلَى",
+            "Layla (first name)",
+            "name"
+          ],
+          [
+            "كَيْفَ",
+            "how"
+          ],
+          [
+            "حَالُكِ",
+            "your condition (to a woman)"
+          ],
+          [
+            "قَالَ",
+            "(he) said"
+          ],
+          [
+            "سَامِي",
+            "Sami (first name)",
+            "name"
+          ],
+          [
+            "إِنَّكِ",
+            "that you (to a woman, after qāla)"
+          ],
+          [
+            "مَرِيضَة",
+            "ill (f)"
+          ],
+          [
+            "وَلِذٰلِكَ",
+            "and that's why"
+          ],
+          [
+            "لَمْ",
+            "did not"
+          ],
+          [
+            "تَحْضُرِي",
+            "you (f) attend, come to"
+          ],
+          [
+            "الدَّرْسَ",
+            "the lesson ('class')"
+          ],
+          [
+            "الْيَوْمَ",
+            "today"
+          ]
+        ]
+      },
+      {
+        "id": "d75l2",
+        "sp": "layla",
+        "ar": "نَعَم، عِنْدِي زُكَام، لٰكِنِّي أَحْسَن الْآنَ. يَا دَانْيَال، أَخْبِرْنِي: مَاذَا قَالَ الْأُسْتَاذ كَرِيم الْيَوْمَ؟",
+        "en": "Yes, I have a cold, but I'm better now. Daniel, tell me: what did Mr Karim say today?",
+        "segs": [
+          [
+            "نَعَم",
+            "yes"
+          ],
+          [
+            "عِنْدِي",
+            "I have (lit. at me)"
+          ],
+          [
+            "زُكَام",
+            "a cold"
+          ],
+          [
+            "لٰكِنِّي",
+            "but I"
+          ],
+          [
+            "أَحْسَن",
+            "better"
+          ],
+          [
+            "الْآنَ",
+            "now"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "دَانْيَال",
+            "Daniel (first name)",
+            "name"
+          ],
+          [
+            "أَخْبِرْنِي",
+            "tell me! (to a man)"
+          ],
+          [
+            "مَاذَا",
+            "what"
+          ],
+          [
+            "قَالَ",
+            "(he) said"
+          ],
+          [
+            "الْأُسْتَاذ",
+            "the teacher, Mr"
+          ],
+          [
+            "كَرِيم",
+            "Karim (first name)",
+            "name"
+          ],
+          [
+            "الْيَوْمَ",
+            "today"
+          ]
+        ]
+      },
+      {
+        "id": "d75l3",
+        "sp": "daniel",
+        "ar": "قَالَ إِنَّ دَرْسَ الْيَوْمِ عَنِ الْكَلَامِ الْمَنْقُول. مَثَلًا: «قَالَ إِنَّهُ مُتْعَب» بَدَلًا مِنْ «أَنَا مُتْعَب».",
+        "en": "He said that today's lesson was about reported speech. For example: 'he said that he was tired' instead of 'I am tired'.",
+        "segs": [
+          [
+            "قَالَ",
+            "(he) said"
+          ],
+          [
+            "إِنَّ",
+            "that (after qāla)"
+          ],
+          [
+            "دَرْسَ",
+            "lesson (of)"
+          ],
+          [
+            "الْيَوْمِ",
+            "the day ('today's')"
+          ],
+          [
+            "عَنِ",
+            "about (-i links to the next word)"
+          ],
+          [
+            "الْكَلَامِ",
+            "the talk, speech"
+          ],
+          [
+            "الْمَنْقُول",
+            "reported, passed on"
+          ],
+          [
+            "مَثَلًا",
+            "for example"
+          ],
+          [
+            "قَالَ",
+            "(he) said"
+          ],
+          [
+            "إِنَّهُ",
+            "that he (after qāla)"
+          ],
+          [
+            "مُتْعَب",
+            "tired"
+          ],
+          [
+            "بَدَلًا",
+            "instead"
+          ],
+          [
+            "مِنْ",
+            "of (lit. from)"
+          ],
+          [
+            "أَنَا",
+            "I"
+          ],
+          [
+            "مُتْعَب",
+            "tired"
+          ]
+        ]
+      },
+      {
+        "id": "d75l4",
+        "sp": "layla",
+        "ar": "آهْ، فَهِمْتُ. وَهَلْ قَالَ شَيْئًا عَنِ امْتِحَانِ الْأُسْبُوعِ؟ سَمِعْتُ أَنَّ عِنْدَنَا امْتِحَانًا قَرِيبًا.",
+        "en": "Ah, I see. And did he say anything about the week test? I heard that we have a test soon.",
+        "segs": [
+          [
+            "آهْ",
+            "ah"
+          ],
+          [
+            "فَهِمْتُ",
+            "I understood ('I see')"
+          ],
+          [
+            "وَهَلْ",
+            "and (starts a yes/no question)"
+          ],
+          [
+            "قَالَ",
+            "(he) said"
+          ],
+          [
+            "شَيْئًا",
+            "something, anything"
+          ],
+          [
+            "عَنِ",
+            "about (-i links to the next word)"
+          ],
+          [
+            "امْتِحَانِ",
+            "test, exam (of)"
+          ],
+          [
+            "الْأُسْبُوعِ",
+            "the week"
+          ],
+          [
+            "سَمِعْتُ",
+            "I heard"
+          ],
+          [
+            "أَنَّ",
+            "that"
+          ],
+          [
+            "عِنْدَنَا",
+            "we have (lit. at us)"
+          ],
+          [
+            "امْتِحَانًا",
+            "a test, an exam (-an after anna)"
+          ],
+          [
+            "قَرِيبًا",
+            "soon"
+          ]
+        ]
+      },
+      {
+        "id": "d75l5",
+        "sp": "daniel",
+        "ar": "نَعَم. أَخْبَرَنَا أَنَّ امْتِحَانَ الْأُسْبُوعِ يَوْمَ الْأَحَد فِي السَّاعَةِ التَّاسِعَة، وَقَالَ إِنَّهُ لَيْسَ صَعْبًا.",
+        "en": "Yes. He told us that the week test is on Sunday at nine o'clock, and he said that it isn't difficult.",
+        "segs": [
+          [
+            "نَعَم",
+            "yes"
+          ],
+          [
+            "أَخْبَرَنَا",
+            "(he) told us"
+          ],
+          [
+            "أَنَّ",
+            "that"
+          ],
+          [
+            "امْتِحَانَ",
+            "test, exam (of)"
+          ],
+          [
+            "الْأُسْبُوعِ",
+            "the week"
+          ],
+          [
+            "يَوْمَ",
+            "on the day of"
+          ],
+          [
+            "الْأَحَد",
+            "Sunday"
+          ],
+          [
+            "فِي",
+            "at"
+          ],
+          [
+            "السَّاعَةِ",
+            "the hour, o'clock"
+          ],
+          [
+            "التَّاسِعَة",
+            "the ninth ('nine o'clock')"
+          ],
+          [
+            "وَقَالَ",
+            "and (he) said"
+          ],
+          [
+            "إِنَّهُ",
+            "that it (m, after qāla)"
+          ],
+          [
+            "لَيْسَ",
+            "(it) is not"
+          ],
+          [
+            "صَعْبًا",
+            "difficult"
+          ]
+        ]
+      },
+      {
+        "id": "d75l6",
+        "sp": "layla",
+        "ar": "هَلْ أَنْتَ مُتَأَكِّد؟ الْأُسْتَاذ كَرِيم يَقُولُ دَائِمًا إِنَّ امْتِحَانَاتِهِ سَهْلَة، وَفِي الْحَقِيقَةِ هِيَ صَعْبَة جِدًّا!",
+        "en": "Are you sure? Mr Karim always says that his tests are easy, and in fact they're very hard!",
+        "segs": [
+          [
+            "هَلْ",
+            "(starts a yes/no question)"
+          ],
+          [
+            "أَنْتَ",
+            "you (to a man)"
+          ],
+          [
+            "مُتَأَكِّد",
+            "sure"
+          ],
+          [
+            "الْأُسْتَاذ",
+            "the teacher, Mr"
+          ],
+          [
+            "كَرِيم",
+            "Karim (first name)",
+            "name"
+          ],
+          [
+            "يَقُولُ",
+            "(he) says"
+          ],
+          [
+            "دَائِمًا",
+            "always"
+          ],
+          [
+            "إِنَّ",
+            "that (after qāla)"
+          ],
+          [
+            "امْتِحَانَاتِهِ",
+            "his tests"
+          ],
+          [
+            "سَهْلَة",
+            "easy (f)"
+          ],
+          [
+            "وَفِي",
+            "and in"
+          ],
+          [
+            "الْحَقِيقَةِ",
+            "the truth ('in fact')"
+          ],
+          [
+            "هِيَ",
+            "they (lit. she)"
+          ],
+          [
+            "صَعْبَة",
+            "difficult (f)"
+          ],
+          [
+            "جِدًّا",
+            "very"
+          ]
+        ]
+      },
+      {
+        "id": "d75l7",
+        "sp": "daniel",
+        "ar": "هٰذَا صَحِيح! لٰكِنَّهُ وَعَدَ أَنْ يُرَاجِعَ مَعَنَا كُلَّ شَيْء يَوْمَ الْخَمِيس. وَسَأَلَ عَنْكِ أَيْضًا.",
+        "en": "That's true! But he promised to go over everything with us on Thursday. And he asked about you too.",
+        "segs": [
+          [
+            "هٰذَا",
+            "this ('that')"
+          ],
+          [
+            "صَحِيح",
+            "true, correct"
+          ],
+          [
+            "لٰكِنَّهُ",
+            "but he"
+          ],
+          [
+            "وَعَدَ",
+            "(he) promised"
+          ],
+          [
+            "أَنْ",
+            "to, that"
+          ],
+          [
+            "يُرَاجِعَ",
+            "he goes over, he reviews (after an)"
+          ],
+          [
+            "مَعَنَا",
+            "with us"
+          ],
+          [
+            "كُلَّ",
+            "every"
+          ],
+          [
+            "شَيْء",
+            "thing ('everything')"
+          ],
+          [
+            "يَوْمَ",
+            "on the day of"
+          ],
+          [
+            "الْخَمِيس",
+            "Thursday"
+          ],
+          [
+            "وَسَأَلَ",
+            "and (he) asked"
+          ],
+          [
+            "عَنْكِ",
+            "about you (to a woman)"
+          ],
+          [
+            "أَيْضًا",
+            "also, too"
+          ]
+        ]
+      },
+      {
+        "id": "d75l8",
+        "sp": "layla",
+        "ar": "حَقًّا؟ وَمَاذَا قَالَ عَنِّي؟ هَلْ كَانَ غَضْبَانَ لِأَنَّنِي غِبْتُ؟",
+        "en": "Really? And what did he say about me? Was he angry because I was absent?",
+        "segs": [
+          [
+            "حَقًّا",
+            "really, truly"
+          ],
+          [
+            "وَمَاذَا",
+            "and what"
+          ],
+          [
+            "قَالَ",
+            "(he) said"
+          ],
+          [
+            "عَنِّي",
+            "about me"
+          ],
+          [
+            "هَلْ",
+            "(starts a yes/no question)"
+          ],
+          [
+            "كَانَ",
+            "(he) was"
+          ],
+          [
+            "غَضْبَانَ",
+            "angry"
+          ],
+          [
+            "لِأَنَّنِي",
+            "because I"
+          ],
+          [
+            "غِبْتُ",
+            "I was absent"
+          ]
+        ]
+      },
+      {
+        "id": "d75l9",
+        "sp": "daniel",
+        "ar": "لَا، أَبَدًا! سَأَلَنِي هَلْ أَنْتِ بِخَيْر، فَأَجَبْتُ بِأَنَّكِ مَرِيضَة قَلِيلًا. ثُمَّ قَالَ: «سَلَامَتُهَا!»",
+        "en": "No, not at all! He asked me whether you were all right, and I answered that you were a little ill. Then he said: 'I hope she gets well soon!'",
+        "segs": [
+          [
+            "لَا",
+            "no"
+          ],
+          [
+            "أَبَدًا",
+            "never, not at all"
+          ],
+          [
+            "سَأَلَنِي",
+            "(he) asked me"
+          ],
+          [
+            "هَلْ",
+            "whether (starts a yes/no question)"
+          ],
+          [
+            "أَنْتِ",
+            "you (to a woman)"
+          ],
+          [
+            "بِخَيْر",
+            "well, fine"
+          ],
+          [
+            "فَأَجَبْتُ",
+            "so I answered"
+          ],
+          [
+            "بِأَنَّكِ",
+            "that you (to a woman)"
+          ],
+          [
+            "مَرِيضَة",
+            "ill (f)"
+          ],
+          [
+            "قَلِيلًا",
+            "a little"
+          ],
+          [
+            "ثُمَّ",
+            "then"
+          ],
+          [
+            "قَالَ",
+            "(he) said"
+          ],
+          [
+            "سَلَامَتُهَا",
+            "her safety ('get well soon' to her)"
+          ]
+        ]
+      },
+      {
+        "id": "d75l10",
+        "sp": "layla",
+        "ar": "الْأُسْتَاذ كَرِيم طَيِّب جِدًّا. وَمَا الْوَاجِب؟ أَرْجُو أَنْ يَكُونَ قَصِيرًا، فَرَأْسِي مَا زَالَ يُؤْلِمُنِي.",
+        "en": "Mr Karim is very kind. And what's the homework? I hope it's short, because my head still hurts.",
+        "segs": [
+          [
+            "الْأُسْتَاذ",
+            "the teacher, Mr"
+          ],
+          [
+            "كَرِيم",
+            "Karim (first name)",
+            "name"
+          ],
+          [
+            "طَيِّب",
+            "good, kind"
+          ],
+          [
+            "جِدًّا",
+            "very"
+          ],
+          [
+            "وَمَا",
+            "and what"
+          ],
+          [
+            "الْوَاجِب",
+            "the homework"
+          ],
+          [
+            "أَرْجُو",
+            "I hope"
+          ],
+          [
+            "أَنْ",
+            "to, that"
+          ],
+          [
+            "يَكُونَ",
+            "it is (after an)"
+          ],
+          [
+            "قَصِيرًا",
+            "short"
+          ],
+          [
+            "فَرَأْسِي",
+            "because my head"
+          ],
+          [
+            "مَا",
+            "not ('still')"
+          ],
+          [
+            "زَالَ",
+            "(it) stopped ('mā zāla': still)"
+          ],
+          [
+            "يُؤْلِمُنِي",
+            "it hurts me (m)"
+          ]
+        ]
+      },
+      {
+        "id": "d75l11",
+        "sp": "daniel",
+        "ar": "الْوَاجِب: نَكْتُبُ خَمْسَ جُمَل عَنْ أَشْيَاء قَالَهَا أَصْدِقَاؤُنَا هٰذَا الْأُسْبُوع. مَثَلًا: «قَالَ سَامِي إِنَّ الْأَهْلِي أَحْسَنُ فَرِيق»!",
+        "en": "The homework: we write five sentences about things that our friends said this week. For example: 'Sami said that Al Ahly was the best team'!",
+        "segs": [
+          [
+            "الْوَاجِب",
+            "the homework"
+          ],
+          [
+            "نَكْتُبُ",
+            "we write"
+          ],
+          [
+            "خَمْسَ",
+            "five"
+          ],
+          [
+            "جُمَل",
+            "sentences"
+          ],
+          [
+            "عَنْ",
+            "about"
+          ],
+          [
+            "أَشْيَاء",
+            "things"
+          ],
+          [
+            "قَالَهَا",
+            "(they) said them (lit. he said it)"
+          ],
+          [
+            "أَصْدِقَاؤُنَا",
+            "our friends"
+          ],
+          [
+            "هٰذَا",
+            "this (m)"
+          ],
+          [
+            "الْأُسْبُوع",
+            "the week"
+          ],
+          [
+            "مَثَلًا",
+            "for example"
+          ],
+          [
+            "قَالَ",
+            "(he) said"
+          ],
+          [
+            "سَامِي",
+            "Sami (first name)",
+            "name"
+          ],
+          [
+            "إِنَّ",
+            "that (after qāla)"
+          ],
+          [
+            "الْأَهْلِي",
+            "Al Ahly (Cairo football club)",
+            "name"
+          ],
+          [
+            "أَحْسَنُ",
+            "the best"
+          ],
+          [
+            "فَرِيق",
+            "team"
+          ]
+        ]
+      },
+      {
+        "id": "d75l12",
+        "sp": "layla",
+        "ar": "هٰذَا سَهْل! أَمْسِ أَخْبَرَنِي يُوسُف أَنَّهُ سَيَزُورُ الْقَاهِرَة الشَّهْرَ الْقَادِم. وَوَعَدَ أَنْ يُحْضِرَ لَنَا كُنَافَة مِنْ عَمَّان!",
+        "en": "That's easy! Yesterday Yusuf told me that he would visit Cairo next month. And he promised to bring us knafeh from Amman!",
+        "segs": [
+          [
+            "هٰذَا",
+            "this ('that')"
+          ],
+          [
+            "سَهْل",
+            "easy"
+          ],
+          [
+            "أَمْسِ",
+            "yesterday"
+          ],
+          [
+            "أَخْبَرَنِي",
+            "(he) told me"
+          ],
+          [
+            "يُوسُف",
+            "Yusuf (first name)",
+            "name"
+          ],
+          [
+            "أَنَّهُ",
+            "that he"
+          ],
+          [
+            "سَيَزُورُ",
+            "he will visit"
+          ],
+          [
+            "الْقَاهِرَة",
+            "Cairo (city in Egypt)",
+            "name"
+          ],
+          [
+            "الشَّهْرَ",
+            "the month"
+          ],
+          [
+            "الْقَادِم",
+            "the coming, next"
+          ],
+          [
+            "وَوَعَدَ",
+            "and (he) promised"
+          ],
+          [
+            "أَنْ",
+            "to, that"
+          ],
+          [
+            "يُحْضِرَ",
+            "he brings (after an)"
+          ],
+          [
+            "لَنَا",
+            "for us"
+          ],
+          [
+            "كُنَافَة",
+            "knafeh (a sweet cheese pastry)"
+          ],
+          [
+            "مِنْ",
+            "from"
+          ],
+          [
+            "عَمَّان",
+            "Amman (capital of Jordan)",
+            "name"
+          ]
+        ]
+      },
+      {
+        "id": "d75l13",
+        "sp": "daniel",
+        "ar": "رَائِع! هٰذِهِ جُمْلَة مُمْتَازَة لِلْوَاجِب. وَأَنَا سَأَكْتُبُ أَنَّكِ قُلْتِ إِنَّ الْوَاجِبَ سَهْل!",
+        "en": "Great! That's an excellent sentence for the homework. And I'll write that you said that the homework was easy!",
+        "segs": [
+          [
+            "رَائِع",
+            "great, wonderful"
+          ],
+          [
+            "هٰذِهِ",
+            "this (f)"
+          ],
+          [
+            "جُمْلَة",
+            "sentence"
+          ],
+          [
+            "مُمْتَازَة",
+            "excellent (f)"
+          ],
+          [
+            "لِلْوَاجِب",
+            "for the homework"
+          ],
+          [
+            "وَأَنَا",
+            "and I"
+          ],
+          [
+            "سَأَكْتُبُ",
+            "I will write"
+          ],
+          [
+            "أَنَّكِ",
+            "that you (to a woman)"
+          ],
+          [
+            "قُلْتِ",
+            "you said (to a woman)"
+          ],
+          [
+            "إِنَّ",
+            "that (after qāla)"
+          ],
+          [
+            "الْوَاجِبَ",
+            "the homework"
+          ],
+          [
+            "سَهْل",
+            "easy"
+          ]
+        ]
+      },
+      {
+        "id": "d75l14",
+        "sp": "layla",
+        "ar": "أَنْتَ تَتَعَلَّمُ بِسُرْعَة يَا دَانْيَال! شُكْرًا عَلَى كُلِّ الْأَخْبَار، وَأَرَاكَ يَوْمَ الْخَمِيس إِنْ شَاءَ اللّٰه.",
+        "en": "You learn fast, Daniel! Thanks for all the news, and I'll see you on Thursday, God willing.",
+        "segs": [
+          [
+            "أَنْتَ",
+            "you (to a man)"
+          ],
+          [
+            "تَتَعَلَّمُ",
+            "you learn (to a man)"
+          ],
+          [
+            "بِسُرْعَة",
+            "with speed, fast"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "دَانْيَال",
+            "Daniel (first name)",
+            "name"
+          ],
+          [
+            "شُكْرًا",
+            "thank you"
+          ],
+          [
+            "عَلَى",
+            "for (lit. on)"
+          ],
+          [
+            "كُلِّ",
+            "all (of)"
+          ],
+          [
+            "الْأَخْبَار",
+            "the news"
+          ],
+          [
+            "وَأَرَاكَ",
+            "and I see you (to a man)"
+          ],
+          [
+            "يَوْمَ",
+            "on the day of"
+          ],
+          [
+            "الْخَمِيس",
+            "Thursday"
+          ],
+          [
+            "إِنْ",
+            "if"
+          ],
+          [
+            "شَاءَ",
+            "(he) willed"
+          ],
+          [
+            "اللّٰه",
+            "God ('in shāʾa llāh': God willing)"
+          ]
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "title": "Daniel's homework",
+    "ar": "قَالَ سَامِي إِنَّ الْأَهْلِي أَحْسَنُ فَرِيق فِي مِصْر. قَالَتْ لَيْلَى إِنَّ الْوَاجِبَ سَهْل. أَخْبَرَنِي يُوسُف أَنَّهُ سَيَزُورُ الْقَاهِرَة. سَأَلَنِي الْأُسْتَاذ كَرِيم هَلْ لَيْلَى بِخَيْر. وَعَدَ الْأُسْتَاذ أَنْ يُرَاجِعَ مَعَنَا كُلَّ شَيْء.",
+    "en": "Sami said that Al Ahly was the best team in Egypt. Layla said that the homework was easy. Yusuf told me that he would visit Cairo. Mr Karim asked me whether Layla was well. The teacher promised to go over everything with us.",
+    "segs": [
+      [
+        "قَالَ",
+        "(he) said"
+      ],
+      [
+        "سَامِي",
+        "Sami (first name)",
+        "name"
+      ],
+      [
+        "إِنَّ",
+        "that (after qāla)"
+      ],
+      [
+        "الْأَهْلِي",
+        "Al Ahly (Cairo football club)",
+        "name"
+      ],
+      [
+        "أَحْسَنُ",
+        "the best"
+      ],
+      [
+        "فَرِيق",
+        "team"
+      ],
+      [
+        "فِي",
+        "in"
+      ],
+      [
+        "مِصْر",
+        "Egypt"
+      ],
+      [
+        "قَالَتْ",
+        "(she) said"
+      ],
+      [
+        "لَيْلَى",
+        "Layla (first name)",
+        "name"
+      ],
+      [
+        "إِنَّ",
+        "that (after qāla)"
+      ],
+      [
+        "الْوَاجِبَ",
+        "the homework"
+      ],
+      [
+        "سَهْل",
+        "easy"
+      ],
+      [
+        "أَخْبَرَنِي",
+        "(he) told me"
+      ],
+      [
+        "يُوسُف",
+        "Yusuf (first name)",
+        "name"
+      ],
+      [
+        "أَنَّهُ",
+        "that he"
+      ],
+      [
+        "سَيَزُورُ",
+        "he will visit"
+      ],
+      [
+        "الْقَاهِرَة",
+        "Cairo (city in Egypt)",
+        "name"
+      ],
+      [
+        "سَأَلَنِي",
+        "(he) asked me"
+      ],
+      [
+        "الْأُسْتَاذ",
+        "the teacher, Mr"
+      ],
+      [
+        "كَرِيم",
+        "Karim (first name)",
+        "name"
+      ],
+      [
+        "هَلْ",
+        "whether (starts a yes/no question)"
+      ],
+      [
+        "لَيْلَى",
+        "Layla (first name)",
+        "name"
+      ],
+      [
+        "بِخَيْر",
+        "well, fine"
+      ],
+      [
+        "وَعَدَ",
+        "(he) promised"
+      ],
+      [
+        "الْأُسْتَاذ",
+        "the teacher"
+      ],
+      [
+        "أَنْ",
+        "to, that"
+      ],
+      [
+        "يُرَاجِعَ",
+        "he goes over, he reviews (after an)"
+      ],
+      [
+        "مَعَنَا",
+        "with us"
+      ],
+      [
+        "كُلَّ",
+        "every"
+      ],
+      [
+        "شَيْء",
+        "thing ('everything')"
+      ]
+    ]
+  },
+  "review": [
+    "qala",
+    "samia",
+    "yarifu",
+    "zukam",
+    "marid",
+    "mutaakkid"
+  ],
+  "quiz": [
+    {
+      "id": "d75q1",
+      "prompt": "Complete: قَالَ الْأُسْتَاذُ ___ الدَّرْسَ سَهْل.",
+      "options": [
+        "أَنْ",
+        "أَنَّ",
+        "إِنَّ",
+        "إِنْ"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "d75q2",
+      "prompt": "Complete: أَخْبَرَنِي سَامِي ___ الْفِيلْمَ رَائِع.",
+      "options": [
+        "أَنَّ",
+        "إِنَّ",
+        "أَنْ",
+        "هَلْ"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "d75q3",
+      "prompt": "Layla says أَنَا مَرِيضَة. How do you report it?",
+      "options": [
+        "قَالَتْ لَيْلَى إِنَّنِي مَرِيضَة",
+        "قَالَتْ لَيْلَى إِنَّهَا مَرِيضَة",
+        "قَالَتْ لَيْلَى إِنَّهُ مَرِيض",
+        "قَالَتْ لَيْلَى أَنْ مَرِيضَة"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "d75q4",
+      "prompt": "When is the week test?",
+      "options": [
+        "tomorrow",
+        "on Thursday at nine",
+        "on Saturday at ten",
+        "on Sunday at nine"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "d75q5",
+      "prompt": "What did Yusuf promise?",
+      "options": [
+        "to phone Layla",
+        "to visit Amman",
+        "to bring knafeh from Amman",
+        "to write a novel"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "d75q6",
+      "prompt": "What does this mean?",
+      "ar": "هَلْ أَنْتَ مُتَأَكِّد؟",
+      "options": [
+        "Are you sure?",
+        "Are you tired?",
+        "Is that true?",
+        "Are you ill?"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "d75q7",
+      "prompt": "What is the homework?",
+      "options": [
+        "ten new words",
+        "five sentences about things friends said",
+        "a story about Cairo",
+        "a letter to Yusuf"
+      ],
+      "answer": 1
+    }
+  ],
+  "completion": "Well done! You can report what people said, told you or asked, with قَالَ إِنَّ… and أَنَّ…. Tomorrow: giving your own opinion.",
+  "status": "needs-review"
+}

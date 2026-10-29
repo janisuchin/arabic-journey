@@ -1,0 +1,1489 @@
+{
+  "day": 76,
+  "week": 11,
+  "phase": 6,
+  "level": 8,
+  "title": "In my opinion",
+  "titleAr": "فِي رَأْيِي",
+  "titleSegs": [
+    [
+      "فِي",
+      "in"
+    ],
+    [
+      "رَأْيِي",
+      "my opinion"
+    ]
+  ],
+  "emoji": "💬",
+  "summary": "Give your opinion with فِي رَأْيِي and أَعْتَقِدُ أَنَّ…, ask other people what they think, and agree or disagree politely.",
+  "intro": "Mr Karim starts a class debate: is the internet better than books? To give an opinion, begin with فِي رَأْيِي (in my opinion), or say أَعْتَقِدُ أَنَّ… (I believe that…) or أَظُنُّ أَنَّ… (I think that…). As you know, after أَنَّ the noun ends in -a. Ask مَا رَأْيُكَ؟ (what do you think?), agree with أُوَافِقُ or مَعَكَ حَقّ (you're right), and disagree politely with مَعَ احْتِرَامِي، لَا أُوَافِقُ (with respect, I don't agree).",
+  "objectives": [
+    "Give an opinion with فِي رَأْيِي and أَعْتَقِدُ أَنَّ…",
+    "Ask a man, a woman or a group what they think",
+    "Agree with أُوَافِقُ and مَعَكَ حَقّ, and disagree politely",
+    "Say that something is important, useful or a mistake"
+  ],
+  "realLife": {
+    "emoji": "🗳️",
+    "title": "Debate day",
+    "story": "Mr Karim moves the desks into two groups and writes one question on the board: books or the internet? Sami joins the internet side at once, Layla defends books, and Daniel is not sure. For one hour the class may speak only Arabic, and every opinion needs a reason."
+  },
+  "letters": [],
+  "newWords": [
+    "ray",
+    "ma-rayuka",
+    "yataqidu",
+    "yazunnu",
+    "yuwafiqu",
+    "haqq",
+    "mufid",
+    "internet"
+  ],
+  "grammar": [
+    "opinion-phrases",
+    "anna"
+  ],
+  "pronunciation": [
+    "hamza"
+  ],
+  "sentences": [
+    {
+      "id": "d76s1",
+      "ar": "فِي رَأْيِي، الْكُتُبُ أَحْسَنُ مِنَ الْإِنْتَرْنِت.",
+      "en": "In my opinion, books are better than the internet.",
+      "literal": "in my opinion, the books (are) better than the internet",
+      "segs": [
+        [
+          "فِي",
+          "in",
+          "prep"
+        ],
+        [
+          "رَأْيِي",
+          "my opinion",
+          "noun"
+        ],
+        [
+          "الْكُتُبُ",
+          "the books",
+          "noun"
+        ],
+        [
+          "أَحْسَنُ",
+          "better",
+          "adj"
+        ],
+        [
+          "مِنَ",
+          "than",
+          "prep"
+        ],
+        [
+          "الْإِنْتَرْنِت",
+          "the internet",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "opinion-phrases"
+      ]
+    },
+    {
+      "id": "d76s2",
+      "ar": "أَعْتَقِدُ أَنَّ الْإِنْتَرْنِتَ مُفِيد جِدًّا.",
+      "en": "I believe that the internet is very useful.",
+      "literal": "I believe that the internet (is) useful very",
+      "segs": [
+        [
+          "أَعْتَقِدُ",
+          "I believe, I think",
+          "verb"
+        ],
+        [
+          "أَنَّ",
+          "that",
+          "particle"
+        ],
+        [
+          "الْإِنْتَرْنِتَ",
+          "the internet (-a after anna)",
+          "noun"
+        ],
+        [
+          "مُفِيد",
+          "useful",
+          "adj"
+        ],
+        [
+          "جِدًّا",
+          "very",
+          "adverb"
+        ]
+      ],
+      "grammar": [
+        "opinion-phrases",
+        "anna"
+      ],
+      "mistakes": [
+        {
+          "wrong": "أَعْتَقِدُ أَنَّ الْإِنْتَرْنِتُ مُفِيد",
+          "right": "أَعْتَقِدُ أَنَّ الْإِنْتَرْنِتَ مُفِيد",
+          "why": "After anna the noun ends in -a: anna l-intarnita."
+        }
+      ]
+    },
+    {
+      "id": "d76s3",
+      "ar": "مَا رَأْيُكِ يَا لَيْلَى؟",
+      "en": "What do you think, Layla?",
+      "literal": "what (is) your (f) opinion, O Layla",
+      "segs": [
+        [
+          "مَا",
+          "what",
+          "question"
+        ],
+        [
+          "رَأْيُكِ",
+          "your opinion (to a woman)",
+          "noun"
+        ],
+        [
+          "يَا",
+          "O (calling someone)",
+          "particle"
+        ],
+        [
+          "لَيْلَى",
+          "Layla (first name)",
+          "name"
+        ]
+      ],
+      "grammar": [
+        "opinion-phrases",
+        "attached-pronouns"
+      ],
+      "mistakes": [
+        {
+          "wrong": "مَا رَأْيُكَ يَا لَيْلَى؟",
+          "right": "مَا رَأْيُكِ يَا لَيْلَى؟",
+          "why": "Layla is a woman: raʾyuki (ending in i), not raʾyuka."
+        }
+      ]
+    },
+    {
+      "id": "d76s4",
+      "ar": "أُوَافِقُكَ، مَعَكَ حَقّ.",
+      "en": "I agree with you; you're right.",
+      "literal": "I agree with you, with you (is the) truth",
+      "segs": [
+        [
+          "أُوَافِقُكَ",
+          "I agree with you (to a man)",
+          "verb"
+        ],
+        [
+          "مَعَكَ",
+          "with you (to a man)",
+          "prep"
+        ],
+        [
+          "حَقّ",
+          "right, truth",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "opinion-phrases"
+      ]
+    },
+    {
+      "id": "d76s5",
+      "ar": "لَا أُوَافِقُ، أَظُنُّ أَنَّ هٰذَا خَطَأ.",
+      "en": "I don't agree; I think that's a mistake.",
+      "literal": "not I agree, I think that this (is a) mistake",
+      "segs": [
+        [
+          "لَا",
+          "not",
+          "particle"
+        ],
+        [
+          "أُوَافِقُ",
+          "I agree",
+          "verb"
+        ],
+        [
+          "أَظُنُّ",
+          "I think",
+          "verb"
+        ],
+        [
+          "أَنَّ",
+          "that",
+          "particle"
+        ],
+        [
+          "هٰذَا",
+          "this",
+          "demonstrative"
+        ],
+        [
+          "خَطَأ",
+          "a mistake",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "opinion-phrases",
+        "negation-la"
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Books or the internet?",
+    "speakers": [
+      {
+        "key": "karim",
+        "name": "Mr Karim",
+        "nameAr": "الْأُسْتَاذ كَرِيم"
+      },
+      {
+        "key": "sami",
+        "name": "Sami",
+        "nameAr": "سَامِي"
+      },
+      {
+        "key": "layla",
+        "name": "Layla",
+        "nameAr": "لَيْلَى"
+      },
+      {
+        "key": "daniel",
+        "name": "Daniel",
+        "nameAr": "دَانْيَال"
+      }
+    ],
+    "culture": "Debates are popular in Arab classrooms and on television, and politeness matters: speakers soften disagreement with مَعَ احْتِرَامِي (with respect) before they say لَا أُوَافِقُ. Older people often answer a debate with a proverb, and a good proverb can end the discussion.",
+    "lines": [
+      {
+        "id": "d76l1",
+        "sp": "karim",
+        "ar": "الْيَوْمَ عِنْدَنَا نِقَاش. السُّؤَال: هَلِ الْإِنْتَرْنِتُ أَحْسَنُ مِنَ الْكُتُب؟ يَا سَامِي، مَا رَأْيُكَ أَنْتَ؟",
+        "en": "Today we're having a debate. The question is: is the internet better than books? Sami, what do you think?",
+        "segs": [
+          [
+            "الْيَوْمَ",
+            "today"
+          ],
+          [
+            "عِنْدَنَا",
+            "we have (lit. at us)"
+          ],
+          [
+            "نِقَاش",
+            "a debate, a discussion"
+          ],
+          [
+            "السُّؤَال",
+            "the question"
+          ],
+          [
+            "هَلِ",
+            "(yes/no question; -i links to the next word)"
+          ],
+          [
+            "الْإِنْتَرْنِتُ",
+            "the internet"
+          ],
+          [
+            "أَحْسَنُ",
+            "better"
+          ],
+          [
+            "مِنَ",
+            "than"
+          ],
+          [
+            "الْكُتُب",
+            "the books"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "سَامِي",
+            "Sami (first name)",
+            "name"
+          ],
+          [
+            "مَا",
+            "what"
+          ],
+          [
+            "رَأْيُكَ",
+            "your opinion (to a man)"
+          ],
+          [
+            "أَنْتَ",
+            "you (to a man)"
+          ]
+        ]
+      },
+      {
+        "id": "d76l2",
+        "sp": "sami",
+        "ar": "فِي رَأْيِي، الْإِنْتَرْنِتُ أَحْسَنُ بِكَثِير. فِيهِ كُلُّ شَيْء: الْأَخْبَار وَالْأَفْلَام وَالْمُوسِيقَى، وَهُوَ مَجَّانِيّ!",
+        "en": "In my opinion, the internet is much better. Everything is on it: news, films and music, and it's free!",
+        "segs": [
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "رَأْيِي",
+            "my opinion"
+          ],
+          [
+            "الْإِنْتَرْنِتُ",
+            "the internet"
+          ],
+          [
+            "أَحْسَنُ",
+            "better"
+          ],
+          [
+            "بِكَثِير",
+            "by far, much"
+          ],
+          [
+            "فِيهِ",
+            "in it (m)"
+          ],
+          [
+            "كُلُّ",
+            "all (of), every"
+          ],
+          [
+            "شَيْء",
+            "thing ('everything')"
+          ],
+          [
+            "الْأَخْبَار",
+            "the news"
+          ],
+          [
+            "وَالْأَفْلَام",
+            "and the films"
+          ],
+          [
+            "وَالْمُوسِيقَى",
+            "and the music"
+          ],
+          [
+            "وَهُوَ",
+            "and it (m)"
+          ],
+          [
+            "مَجَّانِيّ",
+            "free (of charge)"
+          ]
+        ]
+      },
+      {
+        "id": "d76l3",
+        "sp": "layla",
+        "ar": "مَعَ احْتِرَامِي يَا سَامِي، لَا أُوَافِقُ. أَعْتَقِدُ أَنَّ الْكُتُبَ أَهَمُّ، لِأَنَّ الْكِتَابَ يُعَلِّمُكَ أَنْ تُفَكِّرَ بِهُدُوء.",
+        "en": "With respect, Sami, I don't agree. I believe that books are more important, because a book teaches you to think calmly.",
+        "segs": [
+          [
+            "مَعَ",
+            "with"
+          ],
+          [
+            "احْتِرَامِي",
+            "my respect"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "سَامِي",
+            "Sami (first name)",
+            "name"
+          ],
+          [
+            "لَا",
+            "not"
+          ],
+          [
+            "أُوَافِقُ",
+            "I agree"
+          ],
+          [
+            "أَعْتَقِدُ",
+            "I believe, I think"
+          ],
+          [
+            "أَنَّ",
+            "that"
+          ],
+          [
+            "الْكُتُبَ",
+            "the books (-a after anna)"
+          ],
+          [
+            "أَهَمُّ",
+            "more important"
+          ],
+          [
+            "لِأَنَّ",
+            "because"
+          ],
+          [
+            "الْكِتَابَ",
+            "the book (-a after anna)"
+          ],
+          [
+            "يُعَلِّمُكَ",
+            "(it) teaches you (to a man)"
+          ],
+          [
+            "أَنْ",
+            "to, that"
+          ],
+          [
+            "تُفَكِّرَ",
+            "you think (after an)"
+          ],
+          [
+            "بِهُدُوء",
+            "calmly (lit. with calm)"
+          ]
+        ]
+      },
+      {
+        "id": "d76l4",
+        "sp": "sami",
+        "ar": "لٰكِنْ يَا لَيْلَى، يُمْكِنُ أَنْ نَقْرَأَ الْكُتُب عَلَى الْإِنْتَرْنِت أَيْضًا! أَنَا قَرَأْتُ رِوَايَة كَامِلَة عَلَى هَاتِفِي.",
+        "en": "But Layla, we can read books on the internet too! I read a whole novel on my phone.",
+        "segs": [
+          [
+            "لٰكِنْ",
+            "but"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "لَيْلَى",
+            "Layla (first name)",
+            "name"
+          ],
+          [
+            "يُمْكِنُ",
+            "it is possible ('we can')"
+          ],
+          [
+            "أَنْ",
+            "to, that"
+          ],
+          [
+            "نَقْرَأَ",
+            "we read (after an)"
+          ],
+          [
+            "الْكُتُب",
+            "the books"
+          ],
+          [
+            "عَلَى",
+            "on"
+          ],
+          [
+            "الْإِنْتَرْنِت",
+            "the internet"
+          ],
+          [
+            "أَيْضًا",
+            "also, too"
+          ],
+          [
+            "أَنَا",
+            "I"
+          ],
+          [
+            "قَرَأْتُ",
+            "I read (past)"
+          ],
+          [
+            "رِوَايَة",
+            "a novel"
+          ],
+          [
+            "كَامِلَة",
+            "whole, complete (f)"
+          ],
+          [
+            "عَلَى",
+            "on"
+          ],
+          [
+            "هَاتِفِي",
+            "my phone"
+          ]
+        ]
+      },
+      {
+        "id": "d76l5",
+        "sp": "karim",
+        "ar": "نُقْطَة جَيِّدَة يَا سَامِي. وَأَنْتَ يَا دَانْيَال، مَا رَأْيُكَ؟ هَلْ تُوَافِقُ سَامِي أَمْ لَيْلَى؟",
+        "en": "A good point, Sami. And you, Daniel, what do you think? Do you agree with Sami or with Layla?",
+        "segs": [
+          [
+            "نُقْطَة",
+            "a point"
+          ],
+          [
+            "جَيِّدَة",
+            "good (f)"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "سَامِي",
+            "Sami (first name)",
+            "name"
+          ],
+          [
+            "وَأَنْتَ",
+            "and you (to a man)"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "دَانْيَال",
+            "Daniel (first name)",
+            "name"
+          ],
+          [
+            "مَا",
+            "what"
+          ],
+          [
+            "رَأْيُكَ",
+            "your opinion (to a man)"
+          ],
+          [
+            "هَلْ",
+            "(starts a yes/no question)"
+          ],
+          [
+            "تُوَافِقُ",
+            "you agree (with) (to a man)"
+          ],
+          [
+            "سَامِي",
+            "Sami (first name)",
+            "name"
+          ],
+          [
+            "أَمْ",
+            "or (in a question)"
+          ],
+          [
+            "لَيْلَى",
+            "Layla (first name)",
+            "name"
+          ]
+        ]
+      },
+      {
+        "id": "d76l6",
+        "sp": "daniel",
+        "ar": "هٰذَا سُؤَال صَعْب! أَظُنُّ أَنَّ الْإِنْتَرْنِتَ مُفِيد لِلْأَخْبَار، لٰكِنَّ الْكُتُبَ أَحْسَنُ لِتَعَلُّمِ اللُّغَة.",
+        "en": "That's a hard question! I think that the internet is useful for news, but books are better for learning a language.",
+        "segs": [
+          [
+            "هٰذَا",
+            "this ('that')"
+          ],
+          [
+            "سُؤَال",
+            "a question"
+          ],
+          [
+            "صَعْب",
+            "difficult, hard"
+          ],
+          [
+            "أَظُنُّ",
+            "I think"
+          ],
+          [
+            "أَنَّ",
+            "that"
+          ],
+          [
+            "الْإِنْتَرْنِتَ",
+            "the internet (-a after anna)"
+          ],
+          [
+            "مُفِيد",
+            "useful"
+          ],
+          [
+            "لِلْأَخْبَار",
+            "for the news"
+          ],
+          [
+            "لٰكِنَّ",
+            "but (like inna: the noun after it ends in -a)"
+          ],
+          [
+            "الْكُتُبَ",
+            "the books (-a after lākinna)"
+          ],
+          [
+            "أَحْسَنُ",
+            "better"
+          ],
+          [
+            "لِتَعَلُّمِ",
+            "for learning (of)"
+          ],
+          [
+            "اللُّغَة",
+            "the language"
+          ]
+        ]
+      },
+      {
+        "id": "d76l7",
+        "sp": "layla",
+        "ar": "مَعَكَ حَقّ يَا دَانْيَال! وَعَلَى الْإِنْتَرْنِت هُنَاكَ أَخْطَاء كَثِيرَة وَأَخْبَار غَيْرُ صَحِيحَة.",
+        "en": "You're right, Daniel! And on the internet there are lots of mistakes and news that isn't true.",
+        "segs": [
+          [
+            "مَعَكَ",
+            "with you (to a man)"
+          ],
+          [
+            "حَقّ",
+            "right, truth ('you're right')"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "دَانْيَال",
+            "Daniel (first name)",
+            "name"
+          ],
+          [
+            "وَعَلَى",
+            "and on"
+          ],
+          [
+            "الْإِنْتَرْنِت",
+            "the internet"
+          ],
+          [
+            "هُنَاكَ",
+            "there is, there are"
+          ],
+          [
+            "أَخْطَاء",
+            "mistakes"
+          ],
+          [
+            "كَثِيرَة",
+            "many (f)"
+          ],
+          [
+            "وَأَخْبَار",
+            "and news"
+          ],
+          [
+            "غَيْرُ",
+            "not, non-"
+          ],
+          [
+            "صَحِيحَة",
+            "true, correct (f)"
+          ]
+        ]
+      },
+      {
+        "id": "d76l8",
+        "sp": "sami",
+        "ar": "هٰذَا صَحِيح، لٰكِنْ فِي الْكُتُبِ أَيْضًا أَخْطَاء! فِي رَأْيِي، الْمُهِمّ أَنْ نَعْرِفَ أَيْنَ نَقْرَأُ.",
+        "en": "That's true, but there are mistakes in books too! In my opinion, the important thing is to know where we're reading.",
+        "segs": [
+          [
+            "هٰذَا",
+            "this ('that')"
+          ],
+          [
+            "صَحِيح",
+            "true, correct"
+          ],
+          [
+            "لٰكِنْ",
+            "but"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "الْكُتُبِ",
+            "the books"
+          ],
+          [
+            "أَيْضًا",
+            "also, too"
+          ],
+          [
+            "أَخْطَاء",
+            "mistakes"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "رَأْيِي",
+            "my opinion"
+          ],
+          [
+            "الْمُهِمّ",
+            "the important (thing)"
+          ],
+          [
+            "أَنْ",
+            "to, that"
+          ],
+          [
+            "نَعْرِفَ",
+            "we know (after an)"
+          ],
+          [
+            "أَيْنَ",
+            "where"
+          ],
+          [
+            "نَقْرَأُ",
+            "we read"
+          ]
+        ]
+      },
+      {
+        "id": "d76l9",
+        "sp": "karim",
+        "ar": "أَحْسَنْتُمْ! هٰذَا نِقَاش جَيِّد. لٰكِنْ تَذَكَّرُوا: عِنْدَمَا لَا تُوَافِقُونَ، قُولُوا رَأْيَكُمْ بِأَدَب.",
+        "en": "Well done, all of you! This is a good debate. But remember: when you don't agree, give your opinion politely.",
+        "segs": [
+          [
+            "أَحْسَنْتُمْ",
+            "well done (to a group)"
+          ],
+          [
+            "هٰذَا",
+            "this (m)"
+          ],
+          [
+            "نِقَاش",
+            "a debate, a discussion"
+          ],
+          [
+            "جَيِّد",
+            "good"
+          ],
+          [
+            "لٰكِنْ",
+            "but"
+          ],
+          [
+            "تَذَكَّرُوا",
+            "remember! (to a group)"
+          ],
+          [
+            "عِنْدَمَا",
+            "when"
+          ],
+          [
+            "لَا",
+            "not"
+          ],
+          [
+            "تُوَافِقُونَ",
+            "you (all) agree"
+          ],
+          [
+            "قُولُوا",
+            "say! (to a group)"
+          ],
+          [
+            "رَأْيَكُمْ",
+            "your opinion (to a group)"
+          ],
+          [
+            "بِأَدَب",
+            "politely (lit. with good manners)"
+          ]
+        ]
+      },
+      {
+        "id": "d76l10",
+        "sp": "daniel",
+        "ar": "يَا أُسْتَاذ، وَمَا رَأْيُكَ أَنْتَ؟ هَلْ تَقْرَأُ الْجَرِيدَة عَلَى الْإِنْتَرْنِت أَمْ عَلَى الْوَرَق؟",
+        "en": "Sir, and what do you think yourself? Do you read the newspaper online or on paper?",
+        "segs": [
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "أُسْتَاذ",
+            "teacher ('sir')"
+          ],
+          [
+            "وَمَا",
+            "and what"
+          ],
+          [
+            "رَأْيُكَ",
+            "your opinion (to a man)"
+          ],
+          [
+            "أَنْتَ",
+            "you (to a man)"
+          ],
+          [
+            "هَلْ",
+            "(starts a yes/no question)"
+          ],
+          [
+            "تَقْرَأُ",
+            "you read (to a man)"
+          ],
+          [
+            "الْجَرِيدَة",
+            "the newspaper"
+          ],
+          [
+            "عَلَى",
+            "on"
+          ],
+          [
+            "الْإِنْتَرْنِت",
+            "the internet ('online')"
+          ],
+          [
+            "أَمْ",
+            "or (in a question)"
+          ],
+          [
+            "عَلَى",
+            "on"
+          ],
+          [
+            "الْوَرَق",
+            "the paper"
+          ]
+        ]
+      },
+      {
+        "id": "d76l11",
+        "sp": "karim",
+        "ar": "أَنَا مِنَ الْجِيلِ الْقَدِيم! أَقْرَأُ الْجَرِيدَة عَلَى الْوَرَق كُلَّ صَبَاح مَعَ فِنْجَانِ قَهْوَة. لٰكِنِّي أَعْتَقِدُ أَنَّ لِكُلِّ جِيلٍ طَرِيقَتَهُ.",
+        "en": "I'm from the old generation! I read the newspaper on paper every morning with a cup of coffee. But I believe that every generation has its own way.",
+        "segs": [
+          [
+            "أَنَا",
+            "I"
+          ],
+          [
+            "مِنَ",
+            "from"
+          ],
+          [
+            "الْجِيلِ",
+            "the generation"
+          ],
+          [
+            "الْقَدِيم",
+            "the old"
+          ],
+          [
+            "أَقْرَأُ",
+            "I read"
+          ],
+          [
+            "الْجَرِيدَة",
+            "the newspaper"
+          ],
+          [
+            "عَلَى",
+            "on"
+          ],
+          [
+            "الْوَرَق",
+            "the paper"
+          ],
+          [
+            "كُلَّ",
+            "every"
+          ],
+          [
+            "صَبَاح",
+            "morning"
+          ],
+          [
+            "مَعَ",
+            "with"
+          ],
+          [
+            "فِنْجَانِ",
+            "cup (of)"
+          ],
+          [
+            "قَهْوَة",
+            "coffee"
+          ],
+          [
+            "لٰكِنِّي",
+            "but I"
+          ],
+          [
+            "أَعْتَقِدُ",
+            "I believe, I think"
+          ],
+          [
+            "أَنَّ",
+            "that"
+          ],
+          [
+            "لِكُلِّ",
+            "for every ('every … has')"
+          ],
+          [
+            "جِيلٍ",
+            "generation"
+          ],
+          [
+            "طَرِيقَتَهُ",
+            "its way (-a after anna)"
+          ]
+        ]
+      },
+      {
+        "id": "d76l12",
+        "sp": "layla",
+        "ar": "أُوَافِقُكَ يَا أُسْتَاذ. جَدَّتِي لَا تَعْرِفُ الْإِنْتَرْنِت، لٰكِنَّهَا تَعْرِفُ كُلَّ الْأَمْثَال وَالْقِصَص الْقَدِيمَة!",
+        "en": "I agree with you, sir. My grandmother doesn't know the internet, but she knows all the old proverbs and stories!",
+        "segs": [
+          [
+            "أُوَافِقُكَ",
+            "I agree with you (to a man)"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "أُسْتَاذ",
+            "teacher ('sir')"
+          ],
+          [
+            "جَدَّتِي",
+            "my grandmother"
+          ],
+          [
+            "لَا",
+            "not"
+          ],
+          [
+            "تَعْرِفُ",
+            "she knows"
+          ],
+          [
+            "الْإِنْتَرْنِت",
+            "the internet"
+          ],
+          [
+            "لٰكِنَّهَا",
+            "but she"
+          ],
+          [
+            "تَعْرِفُ",
+            "she knows"
+          ],
+          [
+            "كُلَّ",
+            "all (of)"
+          ],
+          [
+            "الْأَمْثَال",
+            "the proverbs"
+          ],
+          [
+            "وَالْقِصَص",
+            "and the stories"
+          ],
+          [
+            "الْقَدِيمَة",
+            "the old (f)"
+          ]
+        ]
+      },
+      {
+        "id": "d76l13",
+        "sp": "karim",
+        "ar": "فِكْرَة جَمِيلَة يَا لَيْلَى! غَدًا نَتَكَلَّمُ عَنِ الْأَمْثَال. كُلُّ وَاحِد يُحْضِرُ مَثَلًا مِنْ بَلَدِهِ، وَيَقُولُ رَأْيَهُ فِيهِ.",
+        "en": "A lovely idea, Layla! Tomorrow we'll talk about proverbs. Everyone brings a proverb from their own country and says what they think of it.",
+        "segs": [
+          [
+            "فِكْرَة",
+            "idea"
+          ],
+          [
+            "جَمِيلَة",
+            "beautiful, lovely (f)"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "لَيْلَى",
+            "Layla (first name)",
+            "name"
+          ],
+          [
+            "غَدًا",
+            "tomorrow"
+          ],
+          [
+            "نَتَكَلَّمُ",
+            "we speak, we talk"
+          ],
+          [
+            "عَنِ",
+            "about (-i links to the next word)"
+          ],
+          [
+            "الْأَمْثَال",
+            "the proverbs"
+          ],
+          [
+            "كُلُّ",
+            "every"
+          ],
+          [
+            "وَاحِد",
+            "one ('everyone')"
+          ],
+          [
+            "يُحْضِرُ",
+            "(he) brings"
+          ],
+          [
+            "مَثَلًا",
+            "a proverb"
+          ],
+          [
+            "مِنْ",
+            "from"
+          ],
+          [
+            "بَلَدِهِ",
+            "his country"
+          ],
+          [
+            "وَيَقُولُ",
+            "and (he) says"
+          ],
+          [
+            "رَأْيَهُ",
+            "his opinion"
+          ],
+          [
+            "فِيهِ",
+            "about it (lit. in it)"
+          ]
+        ]
+      },
+      {
+        "id": "d76l14",
+        "sp": "sami",
+        "ar": "سَأَسْأَلُ جَدِّي، فَهُوَ يَعْرِفُ مِئَةَ مَثَل مِصْرِيّ. وَأَظُنُّ أَنَّهُ لَا يَحْتَاجُ إِلَى الْإِنْتَرْنِت!",
+        "en": "I'll ask my grandfather, because he knows a hundred Egyptian proverbs. And I think that he doesn't need the internet!",
+        "segs": [
+          [
+            "سَأَسْأَلُ",
+            "I will ask"
+          ],
+          [
+            "جَدِّي",
+            "my grandfather"
+          ],
+          [
+            "فَهُوَ",
+            "because he"
+          ],
+          [
+            "يَعْرِفُ",
+            "(he) knows"
+          ],
+          [
+            "مِئَةَ",
+            "a hundred"
+          ],
+          [
+            "مَثَل",
+            "proverb(s)"
+          ],
+          [
+            "مِصْرِيّ",
+            "Egyptian"
+          ],
+          [
+            "وَأَظُنُّ",
+            "and I think"
+          ],
+          [
+            "أَنَّهُ",
+            "that he"
+          ],
+          [
+            "لَا",
+            "not"
+          ],
+          [
+            "يَحْتَاجُ",
+            "(he) needs"
+          ],
+          [
+            "إِلَى",
+            "(after 'need': for)"
+          ],
+          [
+            "الْإِنْتَرْنِت",
+            "the internet"
+          ]
+        ]
+      },
+      {
+        "id": "d76l15",
+        "sp": "daniel",
+        "ar": "إِذَنْ فِي رَأْيِي، سَامِي يُوَافِقُ لَيْلَى الْآنَ: الْجَدُّ أَحْسَنُ مِنَ الْإِنْتَرْنِت!",
+        "en": "So in my opinion, Sami agrees with Layla now: a grandfather is better than the internet!",
+        "segs": [
+          [
+            "إِذَنْ",
+            "so, then"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "رَأْيِي",
+            "my opinion"
+          ],
+          [
+            "سَامِي",
+            "Sami (first name)",
+            "name"
+          ],
+          [
+            "يُوَافِقُ",
+            "(he) agrees (with)"
+          ],
+          [
+            "لَيْلَى",
+            "Layla (first name)",
+            "name"
+          ],
+          [
+            "الْآنَ",
+            "now"
+          ],
+          [
+            "الْجَدُّ",
+            "the grandfather"
+          ],
+          [
+            "أَحْسَنُ",
+            "better"
+          ],
+          [
+            "مِنَ",
+            "than"
+          ],
+          [
+            "الْإِنْتَرْنِت",
+            "the internet"
+          ]
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "title": "The class debate",
+    "ar": "الْيَوْمَ كَانَ فِي الصَّفِّ نِقَاش عَنِ الْإِنْتَرْنِت وَالْكُتُب. قَالَ سَامِي إِنَّ الْإِنْتَرْنِتَ أَحْسَنُ، لِأَنَّ فِيهِ كُلَّ شَيْء. لَمْ تُوَافِقْ لَيْلَى، وَقَالَتْ إِنَّ الْكُتُبَ أَهَمُّ. فِي رَأْيِ دَانْيَال، كِلَاهُمَا مُفِيد. وَفِي رَأْيِ الْأُسْتَاذ كَرِيم، لِكُلِّ جِيلٍ طَرِيقَتُهُ.",
+    "en": "Today there was a debate in class about the internet and books. Sami said that the internet was better, because everything is on it. Layla didn't agree, and said that books were more important. In Daniel's opinion, both are useful. And in Mr Karim's opinion, every generation has its own way.",
+    "segs": [
+      [
+        "الْيَوْمَ",
+        "today"
+      ],
+      [
+        "كَانَ",
+        "(there) was"
+      ],
+      [
+        "فِي",
+        "in"
+      ],
+      [
+        "الصَّفِّ",
+        "the class, the classroom"
+      ],
+      [
+        "نِقَاش",
+        "a debate, a discussion"
+      ],
+      [
+        "عَنِ",
+        "about (-i links to the next word)"
+      ],
+      [
+        "الْإِنْتَرْنِت",
+        "the internet"
+      ],
+      [
+        "وَالْكُتُب",
+        "and the books"
+      ],
+      [
+        "قَالَ",
+        "(he) said"
+      ],
+      [
+        "سَامِي",
+        "Sami (first name)",
+        "name"
+      ],
+      [
+        "إِنَّ",
+        "that (after qāla)"
+      ],
+      [
+        "الْإِنْتَرْنِتَ",
+        "the internet (-a after inna)"
+      ],
+      [
+        "أَحْسَنُ",
+        "better"
+      ],
+      [
+        "لِأَنَّ",
+        "because"
+      ],
+      [
+        "فِيهِ",
+        "in it (m)"
+      ],
+      [
+        "كُلَّ",
+        "all (of), every"
+      ],
+      [
+        "شَيْء",
+        "thing ('everything')"
+      ],
+      [
+        "لَمْ",
+        "did not"
+      ],
+      [
+        "تُوَافِقْ",
+        "(she) agree"
+      ],
+      [
+        "لَيْلَى",
+        "Layla (first name)",
+        "name"
+      ],
+      [
+        "وَقَالَتْ",
+        "and (she) said"
+      ],
+      [
+        "إِنَّ",
+        "that (after qāla)"
+      ],
+      [
+        "الْكُتُبَ",
+        "the books (-a after inna)"
+      ],
+      [
+        "أَهَمُّ",
+        "more important"
+      ],
+      [
+        "فِي",
+        "in"
+      ],
+      [
+        "رَأْيِ",
+        "opinion (of)"
+      ],
+      [
+        "دَانْيَال",
+        "Daniel (first name)",
+        "name"
+      ],
+      [
+        "كِلَاهُمَا",
+        "both of them"
+      ],
+      [
+        "مُفِيد",
+        "useful"
+      ],
+      [
+        "وَفِي",
+        "and in"
+      ],
+      [
+        "رَأْيِ",
+        "opinion (of)"
+      ],
+      [
+        "الْأُسْتَاذ",
+        "the teacher, Mr"
+      ],
+      [
+        "كَرِيم",
+        "Karim (first name)",
+        "name"
+      ],
+      [
+        "لِكُلِّ",
+        "for every ('every … has')"
+      ],
+      [
+        "جِيلٍ",
+        "generation"
+      ],
+      [
+        "طَرِيقَتُهُ",
+        "its way"
+      ]
+    ]
+  },
+  "review": [
+    "ahsan",
+    "jarida",
+    "sahih",
+    "khabar",
+    "qala",
+    "khata",
+    "muhimm"
+  ],
+  "quiz": [
+    {
+      "id": "d76q1",
+      "prompt": "What does this mean?",
+      "ar": "فِي رَأْيِي",
+      "options": [
+        "in my house",
+        "in my opinion",
+        "in my head",
+        "on my phone"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "d76q2",
+      "prompt": "Ask Layla what she thinks.",
+      "options": [
+        "مَا رَأْيُكَ؟",
+        "مَا رَأْيُكُمْ؟",
+        "مَا رَأْيِي؟",
+        "مَا رَأْيُكِ؟"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "d76q3",
+      "prompt": "Complete: أَعْتَقِدُ أَنَّ ___ مُفِيد.",
+      "options": [
+        "الْإِنْتَرْنِتَ",
+        "الْإِنْتَرْنِتُ",
+        "الْإِنْتَرْنِتِ",
+        "إِنْتَرْنِت"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "d76q4",
+      "prompt": "What does Sami think at the start?",
+      "options": [
+        "Books are more important.",
+        "The internet is much better.",
+        "Both are useless.",
+        "Newspapers are the best."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "d76q5",
+      "prompt": "How do you say 'You're right' to a man?",
+      "options": [
+        "لَا أُوَافِقُ",
+        "مَعَكِ حَقّ",
+        "أَظُنُّ",
+        "مَعَكَ حَقّ"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "d76q6",
+      "prompt": "How does Mr Karim read the newspaper?",
+      "options": [
+        "on his phone",
+        "on the internet",
+        "on paper, with a coffee",
+        "he doesn't read it"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "d76q7",
+      "prompt": "Which word has a hamza (ء), a little catch in the throat, in the middle?",
+      "options": [
+        "رَأْي",
+        "حَقّ",
+        "مُهِمّ",
+        "مُفِيد"
+      ],
+      "answer": 0
+    }
+  ],
+  "completion": "Great! You can give your opinion, ask other people what they think, and agree or disagree politely. Tomorrow: proverbs.",
+  "status": "needs-review"
+}

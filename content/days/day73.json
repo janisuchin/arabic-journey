@@ -1,0 +1,1508 @@
+{
+  "day": 73,
+  "week": 11,
+  "phase": 6,
+  "level": 7,
+  "title": "News headlines",
+  "titleAr": "عَنَاوِينُ الْأَخْبَار",
+  "titleSegs": [
+    [
+      "عَنَاوِينُ",
+      "headlines (of)"
+    ],
+    [
+      "الْأَخْبَار",
+      "the news"
+    ]
+  ],
+  "emoji": "📰",
+  "summary": "Read simple news headlines, use the words for news, newspaper, minister and government, and start a formal statement with إِنَّ (indeed).",
+  "intro": "Mr Karim brings Egyptian newspapers to class. A headline often puts the noun first and uses the present tense: الْوَزِيرُ يَفْتَتِحُ الْمِهْرَجَانَ (the minister opens the festival). The article below it starts with a past verb: اِفْتَتَحَ الْوَزِيرُ… (the minister opened…). In speeches and in the news you also hear إِنَّ (indeed). It starts a statement, and the noun after it ends in -a: إِنَّ الْأَخْبَارَ جَيِّدَة (the news is good).",
+  "objectives": [
+    "Read three short headlines and say what each is about",
+    "Use the words for news, newspaper, headline, minister and government",
+    "Start a formal statement with إِنَّ and give the noun after it the ending -a",
+    "Hear the case endings -u, -a and -i when a newsreader reads"
+  ],
+  "realLife": {
+    "emoji": "🗞️",
+    "title": "The morning papers",
+    "story": "Every morning a man on the corner of Daniel's street sells newspapers from a small wooden kiosk, and the old men in the café next door read them from the first page to the last. Today Mr Karim buys three different papers and asks the class to find one piece of news they can understand."
+  },
+  "letters": [],
+  "newWords": [
+    "khabar",
+    "jarida",
+    "rais",
+    "wazir",
+    "hukuma",
+    "mutamar",
+    "yulinu",
+    "iftataha",
+    "mihrajan"
+  ],
+  "grammar": [
+    "inna",
+    "verbal-sentence"
+  ],
+  "pronunciation": [
+    "case-endings"
+  ],
+  "sentences": [
+    {
+      "id": "d73s1",
+      "ar": "الْوَزِيرُ يَفْتَتِحُ مِهْرَجَانَ الْقَاهِرَةِ السِّينِمَائِيَّ.",
+      "en": "Minister opens Cairo Film Festival.",
+      "literal": "the minister opens (the) festival (of) Cairo the cinematic",
+      "segs": [
+        [
+          "الْوَزِيرُ",
+          "the minister",
+          "noun"
+        ],
+        [
+          "يَفْتَتِحُ",
+          "opens (officially)",
+          "verb"
+        ],
+        [
+          "مِهْرَجَانَ",
+          "festival (of)",
+          "noun"
+        ],
+        [
+          "الْقَاهِرَةِ",
+          "Cairo (city in Egypt)",
+          "name"
+        ],
+        [
+          "السِّينِمَائِيَّ",
+          "the film (adjective), of cinema",
+          "adj"
+        ]
+      ],
+      "grammar": [
+        "nominal-sentence",
+        "idafa"
+      ]
+    },
+    {
+      "id": "d73s2",
+      "ar": "اِفْتَتَحَ الْوَزِيرُ الْمِهْرَجَانَ أَمْسِ.",
+      "en": "The minister opened the festival yesterday.",
+      "literal": "opened the minister the festival yesterday",
+      "segs": [
+        [
+          "اِفْتَتَحَ",
+          "(he) opened (officially)",
+          "verb"
+        ],
+        [
+          "الْوَزِيرُ",
+          "the minister",
+          "noun"
+        ],
+        [
+          "الْمِهْرَجَانَ",
+          "the festival",
+          "noun"
+        ],
+        [
+          "أَمْسِ",
+          "yesterday",
+          "adverb"
+        ]
+      ],
+      "grammar": [
+        "verbal-sentence",
+        "accusative"
+      ],
+      "mistakes": [
+        {
+          "wrong": "اِفْتَتَحَ الْوَزِيرَ الْمِهْرَجَانُ",
+          "right": "اِفْتَتَحَ الْوَزِيرُ الْمِهْرَجَانَ",
+          "why": "The one who does the action ends in -u (al-wazīru); the thing he opens ends in -a (al-mihrajāna)."
+        }
+      ]
+    },
+    {
+      "id": "d73s3",
+      "ar": "إِنَّ الْأَخْبَارَ الْيَوْمَ جَيِّدَة.",
+      "en": "The news today is good.",
+      "literal": "indeed the news today (is) good",
+      "segs": [
+        [
+          "إِنَّ",
+          "indeed",
+          "particle"
+        ],
+        [
+          "الْأَخْبَارَ",
+          "the news (-a after inna)",
+          "noun"
+        ],
+        [
+          "الْيَوْمَ",
+          "today",
+          "adverb"
+        ],
+        [
+          "جَيِّدَة",
+          "good (f)",
+          "adj"
+        ]
+      ],
+      "grammar": [
+        "inna",
+        "non-human-plural"
+      ],
+      "mistakes": [
+        {
+          "wrong": "إِنَّ الْأَخْبَارُ الْيَوْمَ جَيِّدَة",
+          "right": "إِنَّ الْأَخْبَارَ الْيَوْمَ جَيِّدَة",
+          "why": "After inna the noun ends in -a, not -u: inna l-akhbāra."
+        }
+      ]
+    },
+    {
+      "id": "d73s4",
+      "ar": "أَعْلَنَتِ الْحُكُومَةُ عُطْلَةً يَوْمَ الْخَمِيسِ.",
+      "en": "The government announced a holiday on Thursday.",
+      "literal": "announced (she) the government a holiday (on the) day (of) Thursday",
+      "segs": [
+        [
+          "أَعْلَنَتِ",
+          "(she) announced",
+          "verb"
+        ],
+        [
+          "الْحُكُومَةُ",
+          "the government",
+          "noun"
+        ],
+        [
+          "عُطْلَةً",
+          "a holiday",
+          "noun"
+        ],
+        [
+          "يَوْمَ",
+          "on the day of",
+          "noun"
+        ],
+        [
+          "الْخَمِيسِ",
+          "Thursday",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "verbal-sentence",
+        "past-tense"
+      ],
+      "mistakes": [
+        {
+          "wrong": "أَعْلَنَ الْحُكُومَةُ عُطْلَةً",
+          "right": "أَعْلَنَتِ الْحُكُومَةُ عُطْلَةً",
+          "why": "ḥukūma is feminine, so the verb takes the -at ending even when it comes first: aʿlanat."
+        }
+      ]
+    },
+    {
+      "id": "d73s5",
+      "ar": "يَقْرَأُ أَبِي الْجَرِيدَةَ كُلَّ صَبَاحٍ.",
+      "en": "My father reads the newspaper every morning.",
+      "literal": "reads my father the newspaper every morning",
+      "segs": [
+        [
+          "يَقْرَأُ",
+          "(he) reads",
+          "verb"
+        ],
+        [
+          "أَبِي",
+          "my father",
+          "noun"
+        ],
+        [
+          "الْجَرِيدَةَ",
+          "the newspaper",
+          "noun"
+        ],
+        [
+          "كُلَّ",
+          "every",
+          "noun"
+        ],
+        [
+          "صَبَاحٍ",
+          "morning",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "verbal-sentence",
+        "present-tense"
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Three headlines",
+    "speakers": [
+      {
+        "key": "karim",
+        "name": "Mr Karim",
+        "nameAr": "الْأُسْتَاذ كَرِيم"
+      },
+      {
+        "key": "sami",
+        "name": "Sami",
+        "nameAr": "سَامِي"
+      },
+      {
+        "key": "layla",
+        "name": "Layla",
+        "nameAr": "لَيْلَى"
+      },
+      {
+        "key": "daniel",
+        "name": "Daniel",
+        "nameAr": "دَانْيَال"
+      }
+    ],
+    "culture": "Newspapers and TV news use Modern Standard Arabic, الْفُصْحَى, the same in every Arab country, while people speak their own dialect at home. Headlines usually start with the noun and use the present tense; the article below starts with a past verb. The football pages are the most read: Al Ahly and Zamalek are Cairo's two great rival clubs.",
+    "lines": [
+      {
+        "id": "d73l1",
+        "sp": "karim",
+        "ar": "صَبَاحُ الْخَيْر يَا شَبَاب! الْيَوْمَ لَا نَقْرَأُ الْكِتَاب. اُنْظُرُوا، اِشْتَرَيْتُ ثَلَاثَ جَرَائِد مِنَ الْكُشْك.",
+        "en": "Good morning, everyone! Today we're not reading the textbook. Look, I bought three newspapers from the kiosk.",
+        "segs": [
+          [
+            "صَبَاحُ",
+            "morning (of)"
+          ],
+          [
+            "الْخَيْر",
+            "the goodness"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "شَبَاب",
+            "young people ('everyone')"
+          ],
+          [
+            "الْيَوْمَ",
+            "today"
+          ],
+          [
+            "لَا",
+            "not"
+          ],
+          [
+            "نَقْرَأُ",
+            "we read"
+          ],
+          [
+            "الْكِتَاب",
+            "the book"
+          ],
+          [
+            "اُنْظُرُوا",
+            "look! (to a group)"
+          ],
+          [
+            "اِشْتَرَيْتُ",
+            "I bought"
+          ],
+          [
+            "ثَلَاثَ",
+            "three"
+          ],
+          [
+            "جَرَائِد",
+            "newspapers"
+          ],
+          [
+            "مِنَ",
+            "from"
+          ],
+          [
+            "الْكُشْك",
+            "the kiosk"
+          ]
+        ]
+      },
+      {
+        "id": "d73l2",
+        "sp": "sami",
+        "ar": "جَرَائِد؟ يَا أُسْتَاذ، نَحْنُ الشَّبَاب نَقْرَأُ الْأَخْبَار عَلَى الْهَاتِف، لَا فِي الْجَرَائِد!",
+        "en": "Newspapers? Sir, we young people read the news on our phones, not in newspapers!",
+        "segs": [
+          [
+            "جَرَائِد",
+            "newspapers"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "أُسْتَاذ",
+            "teacher ('sir')"
+          ],
+          [
+            "نَحْنُ",
+            "we"
+          ],
+          [
+            "الشَّبَاب",
+            "the young people"
+          ],
+          [
+            "نَقْرَأُ",
+            "we read"
+          ],
+          [
+            "الْأَخْبَار",
+            "the news"
+          ],
+          [
+            "عَلَى",
+            "on"
+          ],
+          [
+            "الْهَاتِف",
+            "the phone"
+          ],
+          [
+            "لَا",
+            "not"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "الْجَرَائِد",
+            "the newspapers"
+          ]
+        ]
+      },
+      {
+        "id": "d73l3",
+        "sp": "karim",
+        "ar": "أَعْرِفُ ذٰلِكَ يَا سَامِي، لٰكِنَّ لُغَةَ الْجَرَائِدِ مُفِيدَة جِدًّا لَكُمْ. إِنَّهَا الْعَرَبِيَّةُ الْفُصْحَى. يَا لَيْلَى، اِقْرَئِي الْعُنْوَانَ الْأَوَّلَ، مِنْ فَضْلِكِ.",
+        "en": "I know that, Sami, but the language of newspapers is very useful for you. It is standard Arabic. Layla, read the first headline, please.",
+        "segs": [
+          [
+            "أَعْرِفُ",
+            "I know"
+          ],
+          [
+            "ذٰلِكَ",
+            "that"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "سَامِي",
+            "Sami (first name)",
+            "name"
+          ],
+          [
+            "لٰكِنَّ",
+            "but (like inna: the noun after it ends in -a)"
+          ],
+          [
+            "لُغَةَ",
+            "language (of)"
+          ],
+          [
+            "الْجَرَائِدِ",
+            "the newspapers"
+          ],
+          [
+            "مُفِيدَة",
+            "useful (f)"
+          ],
+          [
+            "جِدًّا",
+            "very"
+          ],
+          [
+            "لَكُمْ",
+            "for you (all)"
+          ],
+          [
+            "إِنَّهَا",
+            "indeed it (f) ('it is')"
+          ],
+          [
+            "الْعَرَبِيَّةُ",
+            "Arabic, the Arabic language"
+          ],
+          [
+            "الْفُصْحَى",
+            "the standard (Arabic), the most eloquent"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "لَيْلَى",
+            "Layla (first name)",
+            "name"
+          ],
+          [
+            "اِقْرَئِي",
+            "read! (to a woman)"
+          ],
+          [
+            "الْعُنْوَانَ",
+            "the headline"
+          ],
+          [
+            "الْأَوَّلَ",
+            "the first"
+          ],
+          [
+            "مِنْ",
+            "from"
+          ],
+          [
+            "فَضْلِكِ",
+            "your kindness (to a woman): 'please'"
+          ]
+        ]
+      },
+      {
+        "id": "d73l4",
+        "sp": "layla",
+        "ar": "الْعُنْوَانُ الْأَوَّلُ: «وَزِيرُ الثَّقَافَةِ يَفْتَتِحُ مِهْرَجَانَ الْقَاهِرَةِ السِّينِمَائِيَّ». مَا مَعْنَى «يَفْتَتِحُ» يَا أُسْتَاذ؟",
+        "en": "The first headline: 'Culture Minister opens Cairo Film Festival'. What does 'yaftatiḥu' mean, sir?",
+        "segs": [
+          [
+            "الْعُنْوَانُ",
+            "the headline"
+          ],
+          [
+            "الْأَوَّلُ",
+            "the first"
+          ],
+          [
+            "وَزِيرُ",
+            "minister (of)"
+          ],
+          [
+            "الثَّقَافَةِ",
+            "the culture"
+          ],
+          [
+            "يَفْتَتِحُ",
+            "opens (officially)"
+          ],
+          [
+            "مِهْرَجَانَ",
+            "festival (of)"
+          ],
+          [
+            "الْقَاهِرَةِ",
+            "Cairo (city in Egypt)",
+            "name"
+          ],
+          [
+            "السِّينِمَائِيَّ",
+            "the film (adjective), of cinema"
+          ],
+          [
+            "مَا",
+            "what"
+          ],
+          [
+            "مَعْنَى",
+            "meaning (of)"
+          ],
+          [
+            "يَفْتَتِحُ",
+            "opens (officially)"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "أُسْتَاذ",
+            "teacher ('sir')"
+          ]
+        ]
+      },
+      {
+        "id": "d73l5",
+        "sp": "karim",
+        "ar": "يَفْتَتِحُ يَعْنِي يَفْتَحُ شَيْئًا جَدِيدًا لِأَوَّلِ مَرَّة، مِثْلَ مِهْرَجَان أَوْ مَتْحَف أَوْ مُؤْتَمَر.",
+        "en": "Yaftatiḥu means that he opens something new for the first time, like a festival, a museum or a conference.",
+        "segs": [
+          [
+            "يَفْتَتِحُ",
+            "opens (officially)"
+          ],
+          [
+            "يَعْنِي",
+            "(it) means"
+          ],
+          [
+            "يَفْتَحُ",
+            "(he) opens"
+          ],
+          [
+            "شَيْئًا",
+            "something"
+          ],
+          [
+            "جَدِيدًا",
+            "new"
+          ],
+          [
+            "لِأَوَّلِ",
+            "for the first"
+          ],
+          [
+            "مَرَّة",
+            "time"
+          ],
+          [
+            "مِثْلَ",
+            "like"
+          ],
+          [
+            "مِهْرَجَان",
+            "festival"
+          ],
+          [
+            "أَوْ",
+            "or"
+          ],
+          [
+            "مَتْحَف",
+            "museum"
+          ],
+          [
+            "أَوْ",
+            "or"
+          ],
+          [
+            "مُؤْتَمَر",
+            "conference"
+          ]
+        ]
+      },
+      {
+        "id": "d73l6",
+        "sp": "daniel",
+        "ar": "سُؤَال يَا أُسْتَاذ: لِمَاذَا الْعُنْوَانُ بِالْمُضَارِع، لٰكِنَّ الْخَبَرَ تَحْتَهُ بِالْمَاضِي: «اِفْتَتَحَ الْوَزِيرُ»؟",
+        "en": "A question, sir: why is the headline in the present, but the article under it in the past, 'the minister opened'?",
+        "segs": [
+          [
+            "سُؤَال",
+            "a question"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "أُسْتَاذ",
+            "teacher ('sir')"
+          ],
+          [
+            "لِمَاذَا",
+            "why"
+          ],
+          [
+            "الْعُنْوَانُ",
+            "the headline"
+          ],
+          [
+            "بِالْمُضَارِع",
+            "in the present (tense)"
+          ],
+          [
+            "لٰكِنَّ",
+            "but (like inna: the noun after it ends in -a)"
+          ],
+          [
+            "الْخَبَرَ",
+            "the news item, the article"
+          ],
+          [
+            "تَحْتَهُ",
+            "under it"
+          ],
+          [
+            "بِالْمَاضِي",
+            "in the past (tense)"
+          ],
+          [
+            "اِفْتَتَحَ",
+            "(he) opened (officially)"
+          ],
+          [
+            "الْوَزِيرُ",
+            "the minister"
+          ]
+        ]
+      },
+      {
+        "id": "d73l7",
+        "sp": "karim",
+        "ar": "سُؤَال ذَكِيّ يَا دَانْيَال! الْعُنْوَانُ قَصِير وَسَرِيع، لِذٰلِكَ يَسْتَعْمِلُ الْمُضَارِع. أَمَّا الْخَبَرُ فَيَحْكِي مَا حَدَثَ أَمْسِ.",
+        "en": "A clever question, Daniel! A headline is short and quick, so it uses the present. The article, though, tells us what happened yesterday.",
+        "segs": [
+          [
+            "سُؤَال",
+            "a question"
+          ],
+          [
+            "ذَكِيّ",
+            "clever"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "دَانْيَال",
+            "Daniel (first name)",
+            "name"
+          ],
+          [
+            "الْعُنْوَانُ",
+            "the headline"
+          ],
+          [
+            "قَصِير",
+            "short"
+          ],
+          [
+            "وَسَرِيع",
+            "and fast, quick"
+          ],
+          [
+            "لِذٰلِكَ",
+            "so, that's why"
+          ],
+          [
+            "يَسْتَعْمِلُ",
+            "(it) uses"
+          ],
+          [
+            "الْمُضَارِع",
+            "the present (tense)"
+          ],
+          [
+            "أَمَّا",
+            "as for"
+          ],
+          [
+            "الْخَبَرُ",
+            "the news item, the article"
+          ],
+          [
+            "فَيَحْكِي",
+            "(it) tells"
+          ],
+          [
+            "مَا",
+            "what"
+          ],
+          [
+            "حَدَثَ",
+            "(it) happened"
+          ],
+          [
+            "أَمْسِ",
+            "yesterday"
+          ]
+        ]
+      },
+      {
+        "id": "d73l8",
+        "sp": "sami",
+        "ar": "الْآنَ دَوْرِي! الْعُنْوَانُ الثَّانِي: «الْأَهْلِي يَفُوزُ عَلَى الزَّمَالِكِ ٢–١». هٰذَا أَحْسَنُ خَبَر فِي الْجَرِيدَة!",
+        "en": "Now it's my turn! The second headline: 'Al Ahly beat Zamalek 2–1'. That's the best news in the whole paper!",
+        "segs": [
+          [
+            "الْآنَ",
+            "now"
+          ],
+          [
+            "دَوْرِي",
+            "my turn"
+          ],
+          [
+            "الْعُنْوَانُ",
+            "the headline"
+          ],
+          [
+            "الثَّانِي",
+            "the second"
+          ],
+          [
+            "الْأَهْلِي",
+            "Al Ahly (Cairo football club)",
+            "name"
+          ],
+          [
+            "يَفُوزُ",
+            "wins"
+          ],
+          [
+            "عَلَى",
+            "over, against"
+          ],
+          [
+            "الزَّمَالِكِ",
+            "Zamalek (Cairo football club)",
+            "name"
+          ],
+          [
+            "هٰذَا",
+            "this ('that')"
+          ],
+          [
+            "أَحْسَنُ",
+            "the best"
+          ],
+          [
+            "خَبَر",
+            "piece of news"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "الْجَرِيدَة",
+            "the newspaper"
+          ]
+        ]
+      },
+      {
+        "id": "d73l9",
+        "sp": "layla",
+        "ar": "هٰذَا خَبَر جَيِّد لَكَ، لٰكِنْ لَيْسَ لِخَالِد ابْنِ خَالَتِكَ. أَعْرِفُ أَنَّهُ يُحِبُّ الزَّمَالِك!",
+        "en": "That's good news for you, but not for your cousin Khalid. I know that he supports Zamalek!",
+        "segs": [
+          [
+            "هٰذَا",
+            "this ('that')"
+          ],
+          [
+            "خَبَر",
+            "piece of news"
+          ],
+          [
+            "جَيِّد",
+            "good"
+          ],
+          [
+            "لَكَ",
+            "for you (to a man)"
+          ],
+          [
+            "لٰكِنْ",
+            "but"
+          ],
+          [
+            "لَيْسَ",
+            "(it) is not"
+          ],
+          [
+            "لِخَالِد",
+            "for Khalid (first name)",
+            "name"
+          ],
+          [
+            "ابْنِ",
+            "son (of)"
+          ],
+          [
+            "خَالَتِكَ",
+            "your aunt (mother's sister) ('your cousin')"
+          ],
+          [
+            "أَعْرِفُ",
+            "I know"
+          ],
+          [
+            "أَنَّهُ",
+            "that he"
+          ],
+          [
+            "يُحِبُّ",
+            "(he) loves ('supports')"
+          ],
+          [
+            "الزَّمَالِك",
+            "Zamalek (Cairo football club)",
+            "name"
+          ]
+        ]
+      },
+      {
+        "id": "d73l10",
+        "sp": "sami",
+        "ar": "خَالِد حَزِين الْيَوْمَ بِالتَّأْكِيد! وَأَنْتِ يَا لَيْلَى، مَا هُوَ الْخَبَرُ الثَّالِث؟",
+        "en": "Khalid is sad today, that's for sure! And you, Layla, what is the third piece of news?",
+        "segs": [
+          [
+            "خَالِد",
+            "Khalid (first name)",
+            "name"
+          ],
+          [
+            "حَزِين",
+            "sad"
+          ],
+          [
+            "الْيَوْمَ",
+            "today"
+          ],
+          [
+            "بِالتَّأْكِيد",
+            "certainly, for sure"
+          ],
+          [
+            "وَأَنْتِ",
+            "and you (to a woman)"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "لَيْلَى",
+            "Layla (first name)",
+            "name"
+          ],
+          [
+            "مَا",
+            "what"
+          ],
+          [
+            "هُوَ",
+            "he, it"
+          ],
+          [
+            "الْخَبَرُ",
+            "the news item"
+          ],
+          [
+            "الثَّالِث",
+            "the third"
+          ]
+        ]
+      },
+      {
+        "id": "d73l11",
+        "sp": "layla",
+        "ar": "الْعُنْوَانُ الثَّالِث: «الْحُكُومَةُ تُعْلِنُ عَنْ مُؤْتَمَرٍ لِلشَّبَابِ فِي الْإِسْكَنْدَرِيَّةِ». وَفِي الْخَبَرِ: الرَّئِيسُ سَيَحْضُرُ الْمُؤْتَمَرَ أَيْضًا.",
+        "en": "The third headline: 'Government announces youth conference in Alexandria'. And in the article: the president will attend the conference too.",
+        "segs": [
+          [
+            "الْعُنْوَانُ",
+            "the headline"
+          ],
+          [
+            "الثَّالِث",
+            "the third"
+          ],
+          [
+            "الْحُكُومَةُ",
+            "the government"
+          ],
+          [
+            "تُعْلِنُ",
+            "(she) announces"
+          ],
+          [
+            "عَنْ",
+            "about ('announces')"
+          ],
+          [
+            "مُؤْتَمَرٍ",
+            "a conference"
+          ],
+          [
+            "لِلشَّبَابِ",
+            "for the young people ('youth')"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "الْإِسْكَنْدَرِيَّةِ",
+            "Alexandria (city in Egypt)",
+            "name"
+          ],
+          [
+            "وَفِي",
+            "and in"
+          ],
+          [
+            "الْخَبَرِ",
+            "the news item, the article"
+          ],
+          [
+            "الرَّئِيسُ",
+            "the president"
+          ],
+          [
+            "سَيَحْضُرُ",
+            "(he) will attend"
+          ],
+          [
+            "الْمُؤْتَمَرَ",
+            "the conference"
+          ],
+          [
+            "أَيْضًا",
+            "also, too"
+          ]
+        ]
+      },
+      {
+        "id": "d73l12",
+        "sp": "daniel",
+        "ar": "يَا أُسْتَاذ، لَاحَظْتُ أَنَّكَ تَقْرَأُ كُلَّ كَلِمَة بِآخِرِهَا: الْوَزِيرُ، الْمِهْرَجَانَ، الْقَاهِرَةِ. لِمَاذَا؟",
+        "en": "Sir, I noticed that you read every word with its ending: al-wazīru, al-mihrajāna, al-qāhirati. Why is that?",
+        "segs": [
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "أُسْتَاذ",
+            "teacher ('sir')"
+          ],
+          [
+            "لَاحَظْتُ",
+            "I noticed"
+          ],
+          [
+            "أَنَّكَ",
+            "that you (to a man)"
+          ],
+          [
+            "تَقْرَأُ",
+            "you read (to a man)"
+          ],
+          [
+            "كُلَّ",
+            "every"
+          ],
+          [
+            "كَلِمَة",
+            "word"
+          ],
+          [
+            "بِآخِرِهَا",
+            "with its end"
+          ],
+          [
+            "الْوَزِيرُ",
+            "the minister"
+          ],
+          [
+            "الْمِهْرَجَانَ",
+            "the festival"
+          ],
+          [
+            "الْقَاهِرَةِ",
+            "Cairo (city in Egypt)",
+            "name"
+          ],
+          [
+            "لِمَاذَا",
+            "why"
+          ]
+        ]
+      },
+      {
+        "id": "d73l13",
+        "sp": "karim",
+        "ar": "لِأَنَّ قَارِئَ الْأَخْبَار يَقْرَأُ هٰكَذَا فِي التِّلْفَاز. إِنَّ هٰذِهِ النِّهَايَاتِ مُهِمَّة فِي اللُّغَةِ الرَّسْمِيَّة، لٰكِنْ فِي الْكَلَامِ الْعَادِيّ لَا نَقُولُهَا كَثِيرًا.",
+        "en": "Because newsreaders read like this on television. These endings really matter in formal language, but in everyday speech we don't say them much.",
+        "segs": [
+          [
+            "لِأَنَّ",
+            "because"
+          ],
+          [
+            "قَارِئَ",
+            "reader (of)"
+          ],
+          [
+            "الْأَخْبَار",
+            "the news ('newsreader')"
+          ],
+          [
+            "يَقْرَأُ",
+            "(he) reads"
+          ],
+          [
+            "هٰكَذَا",
+            "like this"
+          ],
+          [
+            "فِي",
+            "on, in"
+          ],
+          [
+            "التِّلْفَاز",
+            "the television"
+          ],
+          [
+            "إِنَّ",
+            "indeed"
+          ],
+          [
+            "هٰذِهِ",
+            "these (lit. this, f)"
+          ],
+          [
+            "النِّهَايَاتِ",
+            "the endings"
+          ],
+          [
+            "مُهِمَّة",
+            "important (f)"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "اللُّغَةِ",
+            "the language"
+          ],
+          [
+            "الرَّسْمِيَّة",
+            "the formal, the official (f)"
+          ],
+          [
+            "لٰكِنْ",
+            "but"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "الْكَلَامِ",
+            "the talk, speech"
+          ],
+          [
+            "الْعَادِيّ",
+            "the ordinary, everyday"
+          ],
+          [
+            "لَا",
+            "not"
+          ],
+          [
+            "نَقُولُهَا",
+            "we say them (lit. it)"
+          ],
+          [
+            "كَثِيرًا",
+            "a lot, much"
+          ]
+        ]
+      },
+      {
+        "id": "d73l14",
+        "sp": "layla",
+        "ar": "إِذَنْ يَجِبُ أَنْ نَسْتَمِعَ إِلَى الْأَخْبَار كُلَّ يَوْم. يَا سَامِي، اُتْرُكْ أَخْبَارَ الْكُرَة قَلِيلًا!",
+        "en": "So we must listen to the news every day. Sami, leave the football news alone for a while!",
+        "segs": [
+          [
+            "إِذَنْ",
+            "so, then"
+          ],
+          [
+            "يَجِبُ",
+            "must, it is necessary"
+          ],
+          [
+            "أَنْ",
+            "to, that"
+          ],
+          [
+            "نَسْتَمِعَ",
+            "we listen (after an)"
+          ],
+          [
+            "إِلَى",
+            "to"
+          ],
+          [
+            "الْأَخْبَار",
+            "the news"
+          ],
+          [
+            "كُلَّ",
+            "every"
+          ],
+          [
+            "يَوْم",
+            "day"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "سَامِي",
+            "Sami (first name)",
+            "name"
+          ],
+          [
+            "اُتْرُكْ",
+            "leave! (to a man)"
+          ],
+          [
+            "أَخْبَارَ",
+            "news (of)"
+          ],
+          [
+            "الْكُرَة",
+            "the ball ('football')"
+          ],
+          [
+            "قَلِيلًا",
+            "a little, for a while"
+          ]
+        ]
+      },
+      {
+        "id": "d73l15",
+        "sp": "sami",
+        "ar": "مُسْتَحِيل! لٰكِنْ سَأَقْرَأُ خَبَرًا وَاحِدًا عَنِ الثَّقَافَة كُلَّ يَوْم، وَبَعْدَهُ أَخْبَارَ الْأَهْلِي!",
+        "en": "Impossible! But I'll read one news item about culture every day, and after it the Al Ahly news!",
+        "segs": [
+          [
+            "مُسْتَحِيل",
+            "impossible"
+          ],
+          [
+            "لٰكِنْ",
+            "but"
+          ],
+          [
+            "سَأَقْرَأُ",
+            "I will read"
+          ],
+          [
+            "خَبَرًا",
+            "a news item"
+          ],
+          [
+            "وَاحِدًا",
+            "one"
+          ],
+          [
+            "عَنِ",
+            "about (-i links to the next word)"
+          ],
+          [
+            "الثَّقَافَة",
+            "the culture"
+          ],
+          [
+            "كُلَّ",
+            "every"
+          ],
+          [
+            "يَوْم",
+            "day"
+          ],
+          [
+            "وَبَعْدَهُ",
+            "and after it"
+          ],
+          [
+            "أَخْبَارَ",
+            "news (of)"
+          ],
+          [
+            "الْأَهْلِي",
+            "Al Ahly (Cairo football club)",
+            "name"
+          ]
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "title": "In the newspaper",
+    "ar": "قَرَأَ الطُّلَّابُ الْيَوْمَ ثَلَاثَةَ أَخْبَار فِي الْجَرِيدَة. فِي الْخَبَرِ الْأَوَّل اِفْتَتَحَ وَزِيرُ الثَّقَافَةِ مِهْرَجَانَ الْقَاهِرَةِ السِّينِمَائِيَّ. فِي الْخَبَرِ الثَّانِي فَازَ الْأَهْلِي عَلَى الزَّمَالِك. وَفِي الْخَبَرِ الثَّالِث أَعْلَنَتِ الْحُكُومَةُ عَنْ مُؤْتَمَرٍ لِلشَّبَاب. قَالَ الْأُسْتَاذ كَرِيم: إِنَّ الْأَخْبَارَ مُفِيدَة لِلطُّلَّاب.",
+    "en": "Today the students read three news items in the newspaper. In the first, the Minister of Culture opened the Cairo Film Festival. In the second, Al Ahly beat Zamalek. And in the third, the government announced a youth conference. Mr Karim said: The news is useful for students.",
+    "segs": [
+      [
+        "قَرَأَ",
+        "(he) read ('read')"
+      ],
+      [
+        "الطُّلَّابُ",
+        "the students"
+      ],
+      [
+        "الْيَوْمَ",
+        "today"
+      ],
+      [
+        "ثَلَاثَةَ",
+        "three"
+      ],
+      [
+        "أَخْبَار",
+        "news items"
+      ],
+      [
+        "فِي",
+        "in"
+      ],
+      [
+        "الْجَرِيدَة",
+        "the newspaper"
+      ],
+      [
+        "فِي",
+        "in"
+      ],
+      [
+        "الْخَبَرِ",
+        "the news item"
+      ],
+      [
+        "الْأَوَّل",
+        "the first"
+      ],
+      [
+        "اِفْتَتَحَ",
+        "(he) opened (officially)"
+      ],
+      [
+        "وَزِيرُ",
+        "minister (of)"
+      ],
+      [
+        "الثَّقَافَةِ",
+        "the culture"
+      ],
+      [
+        "مِهْرَجَانَ",
+        "festival (of)"
+      ],
+      [
+        "الْقَاهِرَةِ",
+        "Cairo (city in Egypt)",
+        "name"
+      ],
+      [
+        "السِّينِمَائِيَّ",
+        "the film (adjective), of cinema"
+      ],
+      [
+        "فِي",
+        "in"
+      ],
+      [
+        "الْخَبَرِ",
+        "the news item"
+      ],
+      [
+        "الثَّانِي",
+        "the second"
+      ],
+      [
+        "فَازَ",
+        "(he) won"
+      ],
+      [
+        "الْأَهْلِي",
+        "Al Ahly (Cairo football club)",
+        "name"
+      ],
+      [
+        "عَلَى",
+        "over, against"
+      ],
+      [
+        "الزَّمَالِك",
+        "Zamalek (Cairo football club)",
+        "name"
+      ],
+      [
+        "وَفِي",
+        "and in"
+      ],
+      [
+        "الْخَبَرِ",
+        "the news item"
+      ],
+      [
+        "الثَّالِث",
+        "the third"
+      ],
+      [
+        "أَعْلَنَتِ",
+        "(she) announced"
+      ],
+      [
+        "الْحُكُومَةُ",
+        "the government"
+      ],
+      [
+        "عَنْ",
+        "about ('announced')"
+      ],
+      [
+        "مُؤْتَمَرٍ",
+        "a conference"
+      ],
+      [
+        "لِلشَّبَاب",
+        "for the young people ('youth')"
+      ],
+      [
+        "قَالَ",
+        "(he) said"
+      ],
+      [
+        "الْأُسْتَاذ",
+        "the teacher, Mr"
+      ],
+      [
+        "كَرِيم",
+        "Karim (first name)",
+        "name"
+      ],
+      [
+        "إِنَّ",
+        "indeed"
+      ],
+      [
+        "الْأَخْبَارَ",
+        "the news (-a after inna)"
+      ],
+      [
+        "مُفِيدَة",
+        "useful (f)"
+      ],
+      [
+        "لِلطُّلَّاب",
+        "for the students"
+      ]
+    ]
+  },
+  "review": [
+    "qaraa",
+    "hatif",
+    "tilfaz",
+    "kalima",
+    "sual",
+    "unwan"
+  ],
+  "quiz": [
+    {
+      "id": "d73q1",
+      "prompt": "What does this mean?",
+      "ar": "جَرِيدَة",
+      "options": [
+        "headline",
+        "newspaper",
+        "minister",
+        "conference"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "d73q2",
+      "prompt": "Which word means 'minister'?",
+      "options": [
+        "رَئِيس",
+        "حُكُومَة",
+        "وَزِير",
+        "مُؤْتَمَر"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "d73q3",
+      "prompt": "Choose the correct sentence.",
+      "options": [
+        "إِنَّ الْأَخْبَارُ جَيِّدَة",
+        "إِنَّ الْأَخْبَارِ جَيِّدَة",
+        "إِنَّ أَخْبَار جَيِّدَة",
+        "إِنَّ الْأَخْبَارَ جَيِّدَة"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "d73q4",
+      "prompt": "Which team won the match?",
+      "options": [
+        "Zamalek",
+        "Al Ahly",
+        "nobody: it was a draw",
+        "Alexandria"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "d73q5",
+      "prompt": "Why does a headline use the present tense?",
+      "options": [
+        "because it is short and quick",
+        "because the news is old",
+        "because it is a question",
+        "because it is about sport"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "d73q6",
+      "prompt": "What did the government announce?",
+      "options": [
+        "a holiday on Friday",
+        "a film festival",
+        "a new museum",
+        "a youth conference in Alexandria"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "d73q7",
+      "prompt": "When a newsreader reads carefully, how does the subject الْوَزِير end?",
+      "options": [
+        "-a: al-wazīra",
+        "no vowel",
+        "-u: al-wazīru",
+        "-i: al-wazīri"
+      ],
+      "answer": 2
+    }
+  ],
+  "completion": "Excellent! You can read simple headlines, you know the key news words, and you can start a formal statement with إِنَّ. Tomorrow: the man who wrote a famous novel.",
+  "status": "needs-review"
+}

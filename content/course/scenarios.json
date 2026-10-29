@@ -10992,5 +10992,1311 @@
         "answer": 0
       }
     ]
+  },
+  {
+    "id": "eid-visit",
+    "title": "An Eid visit",
+    "emoji": "🎁",
+    "status": "needs-review",
+    "intro": "On the second day of Eid Daniel visits his neighbour Mrs Samira, who often gives him bread. Useful phrases: كُلُّ عَامٍ وَأَنْتِ بِخَيْر (many happy returns, to a woman), الْبَيْتُ بَيْتُكَ (make yourself at home) and عِيد مُبَارَك (blessed Eid).",
+    "dialogue": {
+      "title": "Kaʿk for the neighbours",
+      "speakers": [
+        {
+          "key": "daniel",
+          "name": "Daniel",
+          "nameAr": "دَانْيَال"
+        },
+        {
+          "key": "samira",
+          "name": "Mrs Samira",
+          "nameAr": "السَّيِّدَة سَمِيرَة"
+        }
+      ],
+      "culture": "During the Eid holiday people visit neighbours and relatives, and nobody arrives with empty hands: a box of kaʿk or sweets is the usual present. The host always offers tea or coffee, and it is polite to accept at least one cup.",
+      "lines": [
+        {
+          "id": "eid-visit-l1",
+          "sp": "daniel",
+          "ar": "كُلُّ عَامٍ وَأَنْتِ بِخَيْر يَا سَيِّدَة سَمِيرَة! هٰذَا كَعْك لَكِ وَلِلْعَائِلَة.",
+          "en": "Many happy returns, Mrs Samira! This kaʿk is for you and the family.",
+          "segs": [
+            [
+              "كُلُّ",
+              "every"
+            ],
+            [
+              "عَامٍ",
+              "year"
+            ],
+            [
+              "وَأَنْتِ",
+              "and you (to a woman)"
+            ],
+            [
+              "بِخَيْر",
+              "well, fine"
+            ],
+            [
+              "يَا",
+              "O (calling someone)"
+            ],
+            [
+              "سَيِّدَة",
+              "Mrs, lady"
+            ],
+            [
+              "سَمِيرَة",
+              "Samira (first name)",
+              "name"
+            ],
+            [
+              "هٰذَا",
+              "this (m)"
+            ],
+            [
+              "كَعْك",
+              "kaʿk (sweet Eid biscuits)"
+            ],
+            [
+              "لَكِ",
+              "for you (to a woman)"
+            ],
+            [
+              "وَلِلْعَائِلَة",
+              "and for the family"
+            ]
+          ]
+        },
+        {
+          "id": "eid-visit-l2",
+          "sp": "samira",
+          "ar": "وَأَنْتَ بِخَيْر يَا دَانْيَال! مَا أَلْطَفَكَ! تَفَضَّلْ، اُدْخُلْ، الْبَيْتُ بَيْتُكَ.",
+          "en": "And to you, Daniel! How kind of you! Please come in, make yourself at home.",
+          "segs": [
+            [
+              "وَأَنْتَ",
+              "and you (to a man)"
+            ],
+            [
+              "بِخَيْر",
+              "well, fine"
+            ],
+            [
+              "يَا",
+              "O (calling someone)"
+            ],
+            [
+              "دَانْيَال",
+              "Daniel (first name)",
+              "name"
+            ],
+            [
+              "مَا",
+              "how (in 'how kind!')"
+            ],
+            [
+              "أَلْطَفَكَ",
+              "kind you are (to a man)"
+            ],
+            [
+              "تَفَضَّلْ",
+              "please (to a man)"
+            ],
+            [
+              "اُدْخُلْ",
+              "come in! (to a man)"
+            ],
+            [
+              "الْبَيْتُ",
+              "the house"
+            ],
+            [
+              "بَيْتُكَ",
+              "your house (to a man)"
+            ]
+          ]
+        },
+        {
+          "id": "eid-visit-l3",
+          "sp": "daniel",
+          "ar": "شُكْرًا جَزِيلًا. لَا أُرِيدُ أَنْ أُزْعِجَكُمْ فِي يَوْمِ الْعِيد.",
+          "en": "Thank you very much. I don't want to disturb you on Eid.",
+          "segs": [
+            [
+              "شُكْرًا",
+              "thank you"
+            ],
+            [
+              "جَزِيلًا",
+              "very much"
+            ],
+            [
+              "لَا",
+              "not"
+            ],
+            [
+              "أُرِيدُ",
+              "I want"
+            ],
+            [
+              "أَنْ",
+              "to, that"
+            ],
+            [
+              "أُزْعِجَكُمْ",
+              "I disturb you (all) (after an)"
+            ],
+            [
+              "فِي",
+              "on, in"
+            ],
+            [
+              "يَوْمِ",
+              "day (of)"
+            ],
+            [
+              "الْعِيد",
+              "the festival, Eid"
+            ]
+          ]
+        },
+        {
+          "id": "eid-visit-l4",
+          "sp": "samira",
+          "ar": "أَبَدًا! أَنْتَ جَارُنَا، وَالْجَارُ قَبْلَ الدَّار. اِجْلِسْ هُنَا، سَأُحْضِرُ لَكَ الشَّايَ.",
+          "en": "Not at all! You're our neighbour, and the neighbour comes before the house. Sit here, I'll bring you some tea.",
+          "segs": [
+            [
+              "أَبَدًا",
+              "not at all, never"
+            ],
+            [
+              "أَنْتَ",
+              "you (to a man)"
+            ],
+            [
+              "جَارُنَا",
+              "our neighbour"
+            ],
+            [
+              "وَالْجَارُ",
+              "and the neighbour"
+            ],
+            [
+              "قَبْلَ",
+              "before"
+            ],
+            [
+              "الدَّار",
+              "the house, the home"
+            ],
+            [
+              "اِجْلِسْ",
+              "sit! (to a man)"
+            ],
+            [
+              "هُنَا",
+              "here"
+            ],
+            [
+              "سَأُحْضِرُ",
+              "I will bring"
+            ],
+            [
+              "لَكَ",
+              "for you (to a man)"
+            ],
+            [
+              "الشَّايَ",
+              "the tea"
+            ]
+          ]
+        },
+        {
+          "id": "eid-visit-l5",
+          "sp": "daniel",
+          "ar": "بَيْتُكِ جَمِيل جِدًّا. وَمَنِ الْأَطْفَالُ الَّذِينَ فِي الشُّرْفَة؟",
+          "en": "Your home is very beautiful. And who are the children on the balcony?",
+          "segs": [
+            [
+              "بَيْتُكِ",
+              "your house (to a woman)"
+            ],
+            [
+              "جَمِيل",
+              "beautiful"
+            ],
+            [
+              "جِدًّا",
+              "very"
+            ],
+            [
+              "وَمَنِ",
+              "and who (-i links to the next word)"
+            ],
+            [
+              "الْأَطْفَالُ",
+              "the children"
+            ],
+            [
+              "الَّذِينَ",
+              "who (people, plural)"
+            ],
+            [
+              "فِي",
+              "on, in"
+            ],
+            [
+              "الشُّرْفَة",
+              "the balcony"
+            ]
+          ]
+        },
+        {
+          "id": "eid-visit-l6",
+          "sp": "samira",
+          "ar": "هُمْ أَحْفَادِي. جَاؤُوا مِنَ الْإِسْكَنْدَرِيَّة أَمْسِ، وَأَخَذُوا عِيدِيَّة كَبِيرَة مِنْ جَدِّهِمْ!",
+          "en": "They're my grandchildren. They came from Alexandria yesterday, and they got a lot of Eid money from their grandfather!",
+          "segs": [
+            [
+              "هُمْ",
+              "they"
+            ],
+            [
+              "أَحْفَادِي",
+              "my grandchildren"
+            ],
+            [
+              "جَاؤُوا",
+              "they came"
+            ],
+            [
+              "مِنَ",
+              "from"
+            ],
+            [
+              "الْإِسْكَنْدَرِيَّة",
+              "Alexandria (city in Egypt)",
+              "name"
+            ],
+            [
+              "أَمْسِ",
+              "yesterday"
+            ],
+            [
+              "وَأَخَذُوا",
+              "and they took, they got"
+            ],
+            [
+              "عِيدِيَّة",
+              "Eid money"
+            ],
+            [
+              "كَبِيرَة",
+              "big (f)"
+            ],
+            [
+              "مِنْ",
+              "from"
+            ],
+            [
+              "جَدِّهِمْ",
+              "their grandfather"
+            ]
+          ]
+        },
+        {
+          "id": "eid-visit-l7",
+          "sp": "daniel",
+          "ar": "مَا شَاءَ اللّٰه! وَمَاذَا تَفْعَلُونَ فِي الْعِيد عَادَةً؟",
+          "en": "How wonderful! And what do you usually do at Eid?",
+          "segs": [
+            [
+              "مَا",
+              "what"
+            ],
+            [
+              "شَاءَ",
+              "(he) willed"
+            ],
+            [
+              "اللّٰه",
+              "God ('mā shāʾa llāh': how wonderful!)"
+            ],
+            [
+              "وَمَاذَا",
+              "and what"
+            ],
+            [
+              "تَفْعَلُونَ",
+              "you (all) do"
+            ],
+            [
+              "فِي",
+              "at, in"
+            ],
+            [
+              "الْعِيد",
+              "the festival, Eid"
+            ],
+            [
+              "عَادَةً",
+              "usually"
+            ]
+          ]
+        },
+        {
+          "id": "eid-visit-l8",
+          "sp": "samira",
+          "ar": "نَزُورُ الْأَقَارِب، وَنَأْكُلُ كَثِيرًا، وَفِي الْمَسَاء نَخْرُجُ إِلَى الْحَدِيقَة أَوْ نَمْشِي عَلَى النِّيل.",
+          "en": "We visit relatives, we eat a lot, and in the evening we go out to the park or walk along the Nile.",
+          "segs": [
+            [
+              "نَزُورُ",
+              "we visit"
+            ],
+            [
+              "الْأَقَارِب",
+              "the relatives"
+            ],
+            [
+              "وَنَأْكُلُ",
+              "and we eat"
+            ],
+            [
+              "كَثِيرًا",
+              "a lot, much"
+            ],
+            [
+              "وَفِي",
+              "and in"
+            ],
+            [
+              "الْمَسَاء",
+              "the evening"
+            ],
+            [
+              "نَخْرُجُ",
+              "we go out"
+            ],
+            [
+              "إِلَى",
+              "to"
+            ],
+            [
+              "الْحَدِيقَة",
+              "the park, the garden"
+            ],
+            [
+              "أَوْ",
+              "or"
+            ],
+            [
+              "نَمْشِي",
+              "we walk"
+            ],
+            [
+              "عَلَى",
+              "on, along"
+            ],
+            [
+              "النِّيل",
+              "the Nile (river)",
+              "name"
+            ]
+          ]
+        },
+        {
+          "id": "eid-visit-l9",
+          "sp": "daniel",
+          "ar": "وَهٰذَا الْكَعْك لَذِيذ جِدًّا! هَلْ صَنَعْتِهِ بِنَفْسِكِ؟",
+          "en": "And this kaʿk is delicious! Did you make it yourself?",
+          "segs": [
+            [
+              "وَهٰذَا",
+              "and this (m)"
+            ],
+            [
+              "الْكَعْك",
+              "the kaʿk (Eid biscuits)"
+            ],
+            [
+              "لَذِيذ",
+              "delicious, tasty"
+            ],
+            [
+              "جِدًّا",
+              "very"
+            ],
+            [
+              "هَلْ",
+              "(starts a yes/no question)"
+            ],
+            [
+              "صَنَعْتِهِ",
+              "you made it (to a woman)"
+            ],
+            [
+              "بِنَفْسِكِ",
+              "yourself (to a woman)"
+            ]
+          ]
+        },
+        {
+          "id": "eid-visit-l10",
+          "sp": "samira",
+          "ar": "نَعَم، أَصْنَعُهُ كُلَّ سَنَة مَعَ بَنَاتِي. خُذْ مَعَكَ عُلْبَة لِأَصْدِقَائِكَ!",
+          "en": "Yes, I make it every year with my daughters. Take a box with you for your friends!",
+          "segs": [
+            [
+              "نَعَم",
+              "yes"
+            ],
+            [
+              "أَصْنَعُهُ",
+              "I make it"
+            ],
+            [
+              "كُلَّ",
+              "every"
+            ],
+            [
+              "سَنَة",
+              "year"
+            ],
+            [
+              "مَعَ",
+              "with"
+            ],
+            [
+              "بَنَاتِي",
+              "my daughters"
+            ],
+            [
+              "خُذْ",
+              "take! (to a man)"
+            ],
+            [
+              "مَعَكَ",
+              "with you (to a man)"
+            ],
+            [
+              "عُلْبَة",
+              "a box"
+            ],
+            [
+              "لِأَصْدِقَائِكَ",
+              "for your friends (to a man)"
+            ]
+          ]
+        },
+        {
+          "id": "eid-visit-l11",
+          "sp": "daniel",
+          "ar": "شُكْرًا يَا سَيِّدَة سَمِيرَة. أَنْتِ جَارَة طَيِّبَة جِدًّا. عِيد مُبَارَك!",
+          "en": "Thank you, Mrs Samira. You're a very kind neighbour. Happy Eid!",
+          "segs": [
+            [
+              "شُكْرًا",
+              "thank you"
+            ],
+            [
+              "يَا",
+              "O (calling someone)"
+            ],
+            [
+              "سَيِّدَة",
+              "Mrs, lady"
+            ],
+            [
+              "سَمِيرَة",
+              "Samira (first name)",
+              "name"
+            ],
+            [
+              "أَنْتِ",
+              "you (to a woman)"
+            ],
+            [
+              "جَارَة",
+              "neighbour (f)"
+            ],
+            [
+              "طَيِّبَة",
+              "good, kind (f)"
+            ],
+            [
+              "جِدًّا",
+              "very"
+            ],
+            [
+              "عِيد",
+              "festival, Eid"
+            ],
+            [
+              "مُبَارَك",
+              "blessed"
+            ]
+          ]
+        },
+        {
+          "id": "eid-visit-l12",
+          "sp": "samira",
+          "ar": "عَلَيْنَا وَعَلَيْكَ يَا ابْنِي. سَلِّمْ عَلَى أَصْدِقَائِكَ، وَمَعَ السَّلَامَة!",
+          "en": "To us and to you, my son. Say hello to your friends, and goodbye!",
+          "segs": [
+            [
+              "عَلَيْنَا",
+              "on us ('to us')"
+            ],
+            [
+              "وَعَلَيْكَ",
+              "and on you (to a man)"
+            ],
+            [
+              "يَا",
+              "O (calling someone)"
+            ],
+            [
+              "ابْنِي",
+              "my son"
+            ],
+            [
+              "سَلِّمْ",
+              "say hello (to a man)"
+            ],
+            [
+              "عَلَى",
+              "to (lit. on)"
+            ],
+            [
+              "أَصْدِقَائِكَ",
+              "your friends (to a man)"
+            ],
+            [
+              "وَمَعَ",
+              "and with"
+            ],
+            [
+              "السَّلَامَة",
+              "the safety ('goodbye')"
+            ]
+          ]
+        }
+      ]
+    },
+    "mistakes": [
+      {
+        "wrong": "كُلُّ عَامٍ وَأَنْتَ بِخَيْر يَا سَيِّدَة سَمِيرَة",
+        "right": "كُلُّ عَامٍ وَأَنْتِ بِخَيْر يَا سَيِّدَة سَمِيرَة",
+        "why": "Mrs Samira is a woman: wa-anti, not wa-anta."
+      },
+      {
+        "wrong": "الْأَطْفَالُ الَّذِي فِي الشُّرْفَة",
+        "right": "الْأَطْفَالُ الَّذِينَ فِي الشُّرْفَة",
+        "why": "For a group of people use alladhīna, not alladhī."
+      }
+    ],
+    "quiz": [
+      {
+        "id": "eid-visit-q1",
+        "prompt": "What does Daniel bring?",
+        "options": [
+          "flowers",
+          "tea",
+          "kaʿk",
+          "Eid money"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "eid-visit-q2",
+        "prompt": "Who are the children on the balcony?",
+        "options": [
+          "Mrs Samira's grandchildren",
+          "Daniel's friends",
+          "Sami's brothers",
+          "children from the school"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "eid-visit-q3",
+        "prompt": "What does this mean?",
+        "ar": "الْبَيْتُ بَيْتُكَ",
+        "options": [
+          "the house is big",
+          "make yourself at home",
+          "this is my house",
+          "where is your house?"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "eid-visit-q4",
+        "prompt": "What does Mrs Samira give Daniel to take home?",
+        "options": [
+          "bread",
+          "tea",
+          "a book",
+          "a box of kaʿk"
+        ],
+        "answer": 3
+      }
+    ]
+  },
+  {
+    "id": "cinema",
+    "title": "At the cinema",
+    "emoji": "🎬",
+    "status": "needs-review",
+    "intro": "On Saturday Daniel buys cinema tickets for the Egyptian comedy that Sami chose. Useful phrases: تَذْكِرَتَيْنِ (two tickets, after a verb), فِي الْوَسَط (in the middle) and هَلْ هُنَاكَ خَصْم لِلطُّلَّاب؟ (is there a discount for students?).",
+    "dialogue": {
+      "title": "Two tickets, please",
+      "speakers": [
+        {
+          "key": "clerk",
+          "name": "Ticket seller",
+          "nameAr": "الْمُوَظَّف"
+        },
+        {
+          "key": "daniel",
+          "name": "Daniel",
+          "nameAr": "دَانْيَال"
+        }
+      ],
+      "culture": "Egyptian cinemas usually sell tickets for numbered seats, and new Egyptian comedies sell out quickly at weekends. Students often get a discount if they show a student card. Popcorn and fizzy drinks are part of the evening, as everywhere.",
+      "lines": [
+        {
+          "id": "cinema-l1",
+          "sp": "clerk",
+          "ar": "مَسَاءُ الْخَيْر! أَيَّ فِيلْم تُرِيدُ أَنْ تُشَاهِدَ؟",
+          "en": "Good evening! Which film do you want to see?",
+          "segs": [
+            [
+              "مَسَاءُ",
+              "evening (of)"
+            ],
+            [
+              "الْخَيْر",
+              "the goodness"
+            ],
+            [
+              "أَيَّ",
+              "which"
+            ],
+            [
+              "فِيلْم",
+              "film"
+            ],
+            [
+              "تُرِيدُ",
+              "you want (to a man)"
+            ],
+            [
+              "أَنْ",
+              "to, that"
+            ],
+            [
+              "تُشَاهِدَ",
+              "you watch (after an)"
+            ]
+          ]
+        },
+        {
+          "id": "cinema-l2",
+          "sp": "daniel",
+          "ar": "مَسَاءُ النُّور. أُرِيدُ تَذْكِرَتَيْنِ لِلْفِيلْمِ الْمِصْرِيِّ الْجَدِيدِ، الْفِيلْمِ الَّذِي يَتَكَلَّمُ عَنْهُ كُلُّ النَّاس.",
+          "en": "Good evening. I'd like two tickets for the new Egyptian film, the one that everybody is talking about.",
+          "segs": [
+            [
+              "مَسَاءُ",
+              "evening (of)"
+            ],
+            [
+              "النُّور",
+              "the light"
+            ],
+            [
+              "أُرِيدُ",
+              "I want"
+            ],
+            [
+              "تَذْكِرَتَيْنِ",
+              "two tickets"
+            ],
+            [
+              "لِلْفِيلْمِ",
+              "for the film"
+            ],
+            [
+              "الْمِصْرِيِّ",
+              "the Egyptian"
+            ],
+            [
+              "الْجَدِيدِ",
+              "the new"
+            ],
+            [
+              "الْفِيلْمِ",
+              "the film"
+            ],
+            [
+              "الَّذِي",
+              "which (m)"
+            ],
+            [
+              "يَتَكَلَّمُ",
+              "(he) talks"
+            ],
+            [
+              "عَنْهُ",
+              "about it (m)"
+            ],
+            [
+              "كُلُّ",
+              "all (of)"
+            ],
+            [
+              "النَّاس",
+              "the people"
+            ]
+          ]
+        },
+        {
+          "id": "cinema-l3",
+          "sp": "clerk",
+          "ar": "آهْ، الْفِيلْمُ الْمُضْحِك! هُنَاكَ عَرْض فِي السَّاعَةِ السَّابِعَة وَعَرْض فِي السَّاعَةِ الْعَاشِرَة.",
+          "en": "Ah, the comedy! There's a showing at seven o'clock and a showing at ten o'clock.",
+          "segs": [
+            [
+              "آهْ",
+              "ah"
+            ],
+            [
+              "الْفِيلْمُ",
+              "the film"
+            ],
+            [
+              "الْمُضْحِك",
+              "the funny ('the comedy')"
+            ],
+            [
+              "هُنَاكَ",
+              "there is"
+            ],
+            [
+              "عَرْض",
+              "a showing"
+            ],
+            [
+              "فِي",
+              "at"
+            ],
+            [
+              "السَّاعَةِ",
+              "the hour, o'clock"
+            ],
+            [
+              "السَّابِعَة",
+              "the seventh ('seven o'clock')"
+            ],
+            [
+              "وَعَرْض",
+              "and a showing"
+            ],
+            [
+              "فِي",
+              "at"
+            ],
+            [
+              "السَّاعَةِ",
+              "the hour, o'clock"
+            ],
+            [
+              "الْعَاشِرَة",
+              "the tenth ('ten o'clock')"
+            ]
+          ]
+        },
+        {
+          "id": "cinema-l4",
+          "sp": "daniel",
+          "ar": "السَّابِعَة، مِنْ فَضْلِكَ. صَدِيقِي قَالَ إِنَّ الْعَرْضَ الْأَخِيرَ يَنْتَهِي مُتَأَخِّرًا جِدًّا.",
+          "en": "Seven, please. My friend said that the last showing finishes very late.",
+          "segs": [
+            [
+              "السَّابِعَة",
+              "the seventh ('seven o'clock')"
+            ],
+            [
+              "مِنْ",
+              "from"
+            ],
+            [
+              "فَضْلِكَ",
+              "your kindness (to a man): 'please'"
+            ],
+            [
+              "صَدِيقِي",
+              "my friend"
+            ],
+            [
+              "قَالَ",
+              "(he) said"
+            ],
+            [
+              "إِنَّ",
+              "that (after qāla)"
+            ],
+            [
+              "الْعَرْضَ",
+              "the showing"
+            ],
+            [
+              "الْأَخِيرَ",
+              "the last"
+            ],
+            [
+              "يَنْتَهِي",
+              "(it) ends"
+            ],
+            [
+              "مُتَأَخِّرًا",
+              "late"
+            ],
+            [
+              "جِدًّا",
+              "very"
+            ]
+          ]
+        },
+        {
+          "id": "cinema-l5",
+          "sp": "clerk",
+          "ar": "صَحِيح. أَيْنَ تُرِيدَانِ أَنْ تَجْلِسَا؟ فِي الْأَمَامِ أَمْ فِي الْوَسَط؟",
+          "en": "That's right. Where would you two like to sit? At the front or in the middle?",
+          "segs": [
+            [
+              "صَحِيح",
+              "true, correct ('that's right')"
+            ],
+            [
+              "أَيْنَ",
+              "where"
+            ],
+            [
+              "تُرِيدَانِ",
+              "you two want"
+            ],
+            [
+              "أَنْ",
+              "to, that"
+            ],
+            [
+              "تَجْلِسَا",
+              "you two sit (after an)"
+            ],
+            [
+              "فِي",
+              "in, at"
+            ],
+            [
+              "الْأَمَامِ",
+              "the front"
+            ],
+            [
+              "أَمْ",
+              "or (in a question)"
+            ],
+            [
+              "فِي",
+              "in"
+            ],
+            [
+              "الْوَسَط",
+              "the middle"
+            ]
+          ]
+        },
+        {
+          "id": "cinema-l6",
+          "sp": "daniel",
+          "ar": "فِي الْوَسَط، مِنْ فَضْلِكَ. فِي رَأْيِي، هٰذَا أَحْسَنُ مَكَان لِلشَّاشَة.",
+          "en": "In the middle, please. In my opinion, that's the best place for the screen.",
+          "segs": [
+            [
+              "فِي",
+              "in"
+            ],
+            [
+              "الْوَسَط",
+              "the middle"
+            ],
+            [
+              "مِنْ",
+              "from"
+            ],
+            [
+              "فَضْلِكَ",
+              "your kindness (to a man): 'please'"
+            ],
+            [
+              "فِي",
+              "in"
+            ],
+            [
+              "رَأْيِي",
+              "my opinion"
+            ],
+            [
+              "هٰذَا",
+              "this ('that')"
+            ],
+            [
+              "أَحْسَنُ",
+              "the best"
+            ],
+            [
+              "مَكَان",
+              "place"
+            ],
+            [
+              "لِلشَّاشَة",
+              "for the screen"
+            ]
+          ]
+        },
+        {
+          "id": "cinema-l7",
+          "sp": "clerk",
+          "ar": "عِنْدِي مَقْعَدَانِ فِي الصَّفِّ السَّابِع: رَقْمُ عَشَرَة وَرَقْمُ أَحَدَ عَشَرَ.",
+          "en": "I have two seats in row seven: number ten and number eleven.",
+          "segs": [
+            [
+              "عِنْدِي",
+              "I have (lit. at me)"
+            ],
+            [
+              "مَقْعَدَانِ",
+              "two seats"
+            ],
+            [
+              "فِي",
+              "in"
+            ],
+            [
+              "الصَّفِّ",
+              "the row"
+            ],
+            [
+              "السَّابِع",
+              "the seventh"
+            ],
+            [
+              "رَقْمُ",
+              "number"
+            ],
+            [
+              "عَشَرَة",
+              "ten"
+            ],
+            [
+              "وَرَقْمُ",
+              "and number"
+            ],
+            [
+              "أَحَدَ",
+              "one (in 'eleven')"
+            ],
+            [
+              "عَشَرَ",
+              "ten (in 'eleven')"
+            ]
+          ]
+        },
+        {
+          "id": "cinema-l8",
+          "sp": "daniel",
+          "ar": "مُمْتَاز. بِكَمِ التَّذْكِرَة؟ وَهَلْ هُنَاكَ خَصْم لِلطُّلَّاب؟",
+          "en": "Excellent. How much is a ticket? And is there a discount for students?",
+          "segs": [
+            [
+              "مُمْتَاز",
+              "excellent"
+            ],
+            [
+              "بِكَمِ",
+              "how much (-i links to the next word)"
+            ],
+            [
+              "التَّذْكِرَة",
+              "the ticket"
+            ],
+            [
+              "وَهَلْ",
+              "and (starts a yes/no question)"
+            ],
+            [
+              "هُنَاكَ",
+              "there is"
+            ],
+            [
+              "خَصْم",
+              "a discount"
+            ],
+            [
+              "لِلطُّلَّاب",
+              "for the students"
+            ]
+          ]
+        },
+        {
+          "id": "cinema-l9",
+          "sp": "clerk",
+          "ar": "التَّذْكِرَة بِمِئَة جُنَيْه، وَبِثَمَانِينَ لِلطُّلَّاب. هَلْ مَعَكَ بِطَاقَةُ الطَّالِب؟",
+          "en": "A ticket is a hundred pounds, and eighty for students. Do you have your student card?",
+          "segs": [
+            [
+              "التَّذْكِرَة",
+              "the ticket"
+            ],
+            [
+              "بِمِئَة",
+              "for a hundred"
+            ],
+            [
+              "جُنَيْه",
+              "pound(s)"
+            ],
+            [
+              "وَبِثَمَانِينَ",
+              "and for eighty"
+            ],
+            [
+              "لِلطُّلَّاب",
+              "for the students"
+            ],
+            [
+              "هَلْ",
+              "(starts a yes/no question)"
+            ],
+            [
+              "مَعَكَ",
+              "with you (to a man)"
+            ],
+            [
+              "بِطَاقَةُ",
+              "card (of)"
+            ],
+            [
+              "الطَّالِب",
+              "the student"
+            ]
+          ]
+        },
+        {
+          "id": "cinema-l10",
+          "sp": "daniel",
+          "ar": "نَعَم، تَفَضَّلْ. وَصَدِيقِي طَالِب أَيْضًا، لٰكِنَّهُ نَسِيَ بِطَاقَتَهُ فِي الْبَيْت.",
+          "en": "Yes, here you are. And my friend is a student too, but he forgot his card at home.",
+          "segs": [
+            [
+              "نَعَم",
+              "yes"
+            ],
+            [
+              "تَفَضَّلْ",
+              "here you are (to a man)"
+            ],
+            [
+              "وَصَدِيقِي",
+              "and my friend"
+            ],
+            [
+              "طَالِب",
+              "student"
+            ],
+            [
+              "أَيْضًا",
+              "also, too"
+            ],
+            [
+              "لٰكِنَّهُ",
+              "but he"
+            ],
+            [
+              "نَسِيَ",
+              "(he) forgot"
+            ],
+            [
+              "بِطَاقَتَهُ",
+              "his card"
+            ],
+            [
+              "فِي",
+              "at, in"
+            ],
+            [
+              "الْبَيْت",
+              "the house, home"
+            ]
+          ]
+        },
+        {
+          "id": "cinema-l11",
+          "sp": "clerk",
+          "ar": "لَا مُشْكِلَة هٰذِهِ الْمَرَّة. الْمَجْمُوعُ مِئَة وَسِتُّونَ جُنَيْهًا. وَالْفُشَار عَلَى الْيَمِين!",
+          "en": "No problem this time. That's a hundred and sixty pounds altogether. And the popcorn is on the right!",
+          "segs": [
+            [
+              "لَا",
+              "no"
+            ],
+            [
+              "مُشْكِلَة",
+              "problem"
+            ],
+            [
+              "هٰذِهِ",
+              "this (f)"
+            ],
+            [
+              "الْمَرَّة",
+              "the time (occasion)"
+            ],
+            [
+              "الْمَجْمُوعُ",
+              "the total"
+            ],
+            [
+              "مِئَة",
+              "a hundred"
+            ],
+            [
+              "وَسِتُّونَ",
+              "and sixty"
+            ],
+            [
+              "جُنَيْهًا",
+              "pounds"
+            ],
+            [
+              "وَالْفُشَار",
+              "and the popcorn"
+            ],
+            [
+              "عَلَى",
+              "on"
+            ],
+            [
+              "الْيَمِين",
+              "the right"
+            ]
+          ]
+        },
+        {
+          "id": "cinema-l12",
+          "sp": "daniel",
+          "ar": "شُكْرًا جَزِيلًا! سَامِي سَيَكُونُ سَعِيدًا: الْفِيلْم وَالْفُشَار مَعًا!",
+          "en": "Thank you very much! Sami will be happy: the film and popcorn together!",
+          "segs": [
+            [
+              "شُكْرًا",
+              "thank you"
+            ],
+            [
+              "جَزِيلًا",
+              "very much"
+            ],
+            [
+              "سَامِي",
+              "Sami (first name)",
+              "name"
+            ],
+            [
+              "سَيَكُونُ",
+              "(he) will be"
+            ],
+            [
+              "سَعِيدًا",
+              "happy"
+            ],
+            [
+              "الْفِيلْم",
+              "the film"
+            ],
+            [
+              "وَالْفُشَار",
+              "and the popcorn"
+            ],
+            [
+              "مَعًا",
+              "together"
+            ]
+          ]
+        }
+      ]
+    },
+    "mistakes": [
+      {
+        "wrong": "أُرِيدُ تَذْكِرَتَانِ",
+        "right": "أُرِيدُ تَذْكِرَتَيْنِ",
+        "why": "After a verb the dual ends in -ayni: tadhkiratayni."
+      },
+      {
+        "wrong": "صَدِيقِي قَالَ أَنَّ الْعَرْضَ الْأَخِيرَ يَنْتَهِي مُتَأَخِّرًا",
+        "right": "صَدِيقِي قَالَ إِنَّ الْعَرْضَ الْأَخِيرَ يَنْتَهِي مُتَأَخِّرًا",
+        "why": "After qāla use inna, not anna."
+      }
+    ],
+    "quiz": [
+      {
+        "id": "cinema-q1",
+        "prompt": "How many tickets does Daniel buy?",
+        "options": [
+          "one",
+          "two",
+          "three",
+          "four"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "cinema-q2",
+        "prompt": "Which showing does he choose?",
+        "options": [
+          "at ten",
+          "at eight",
+          "at seven",
+          "at nine"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "cinema-q3",
+        "prompt": "How much does he pay altogether?",
+        "options": [
+          "200 pounds",
+          "100 pounds",
+          "80 pounds",
+          "160 pounds"
+        ],
+        "answer": 3
+      },
+      {
+        "id": "cinema-q4",
+        "prompt": "What does this mean?",
+        "ar": "فِي الْوَسَط",
+        "options": [
+          "at the front",
+          "in the middle",
+          "at the back",
+          "on the right"
+        ],
+        "answer": 1
+      }
+    ]
   }
 ]

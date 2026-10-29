@@ -1,0 +1,1420 @@
+{
+  "day": 74,
+  "week": 11,
+  "phase": 6,
+  "level": 8,
+  "title": "The man who…",
+  "titleAr": "الرَّجُلُ الَّذِي…",
+  "titleSegs": [
+    [
+      "الرَّجُلُ",
+      "the man"
+    ],
+    [
+      "الَّذِي",
+      "who (m)"
+    ]
+  ],
+  "emoji": "📚",
+  "summary": "Describe people and things with who, which and that: الَّذِي, الَّتِي and الَّذِينَ, and talk about books, writers and prizes.",
+  "intro": "Daniel and Layla go to a book fair. To say 'the man who…' or 'the book that…', Arabic uses a relative word that agrees with the noun before it: الَّذِي after a masculine noun, الَّتِي after a feminine noun or a plural of things, and الَّذِينَ after a group of people. It is used only after a noun with 'the': الْكَاتِبُ الَّذِي أَخَذَ الْجَائِزَة (the writer who won the prize). After a noun without 'the' there is no relative word: عِنْدِي صَدِيق يَكْتُبُ قِصَصًا (I have a friend who writes stories).",
+  "objectives": [
+    "Join two sentences with الَّذِي, الَّتِي and الَّذِينَ",
+    "Choose the right relative word for a man, a woman, things and people",
+    "Leave the relative word out after a noun without 'the'",
+    "Talk about books, novels, writers and prizes"
+  ],
+  "realLife": {
+    "emoji": "📚",
+    "title": "A fair full of books",
+    "story": "Every winter the Cairo Book Fair fills huge halls with publishers from all over the Arab world, and families arrive with empty bags and leave with full ones. Daniel wants a novel that is not too difficult; Layla wants a book by a woman writer from Beirut. An old bookseller with a white beard seems to know every book in his corner."
+  },
+  "letters": [],
+  "newWords": [
+    "alladhi",
+    "allati",
+    "alladhina",
+    "rajul",
+    "imraa",
+    "katib",
+    "riwaya",
+    "jaiza",
+    "maarid"
+  ],
+  "grammar": [
+    "relative-pronouns"
+  ],
+  "pronunciation": [
+    "shadda"
+  ],
+  "sentences": [
+    {
+      "id": "d74s1",
+      "ar": "الرَّجُلُ الَّذِي كَتَبَ هٰذِهِ الرِّوَايَةَ مَشْهُور.",
+      "en": "The man who wrote this novel is famous.",
+      "literal": "the man who wrote this the novel (is) famous",
+      "segs": [
+        [
+          "الرَّجُلُ",
+          "the man",
+          "noun"
+        ],
+        [
+          "الَّذِي",
+          "who (m)",
+          "pronoun"
+        ],
+        [
+          "كَتَبَ",
+          "(he) wrote",
+          "verb"
+        ],
+        [
+          "هٰذِهِ",
+          "this (f)",
+          "demonstrative"
+        ],
+        [
+          "الرِّوَايَةَ",
+          "the novel",
+          "noun"
+        ],
+        [
+          "مَشْهُور",
+          "famous",
+          "adj"
+        ]
+      ],
+      "grammar": [
+        "relative-pronouns",
+        "demonstratives"
+      ],
+      "mistakes": [
+        {
+          "wrong": "الرَّجُلُ الَّتِي كَتَبَ هٰذِهِ الرِّوَايَةَ",
+          "right": "الرَّجُلُ الَّذِي كَتَبَ هٰذِهِ الرِّوَايَةَ",
+          "why": "rajul (man) is masculine, so the relative word is alladhī; allatī is for feminine nouns."
+        }
+      ]
+    },
+    {
+      "id": "d74s2",
+      "ar": "الْمَرْأَةُ الَّتِي تَبِيعُ الْكُتُبَ لُبْنَانِيَّة.",
+      "en": "The woman who sells the books is Lebanese.",
+      "literal": "the woman who sells the books (is) Lebanese",
+      "segs": [
+        [
+          "الْمَرْأَةُ",
+          "the woman",
+          "noun"
+        ],
+        [
+          "الَّتِي",
+          "who (f)",
+          "pronoun"
+        ],
+        [
+          "تَبِيعُ",
+          "she sells",
+          "verb"
+        ],
+        [
+          "الْكُتُبَ",
+          "the books",
+          "noun"
+        ],
+        [
+          "لُبْنَانِيَّة",
+          "Lebanese (f)",
+          "adj"
+        ]
+      ],
+      "grammar": [
+        "relative-pronouns",
+        "nisba"
+      ]
+    },
+    {
+      "id": "d74s3",
+      "ar": "الطُّلَّابُ الَّذِينَ يَدْرُسُونَ مَعِي يُحِبُّونَ الْقِرَاءَة.",
+      "en": "The students who study with me love reading.",
+      "literal": "the students who study with me love the reading",
+      "segs": [
+        [
+          "الطُّلَّابُ",
+          "the students",
+          "noun"
+        ],
+        [
+          "الَّذِينَ",
+          "who (people, plural)",
+          "pronoun"
+        ],
+        [
+          "يَدْرُسُونَ",
+          "they study",
+          "verb"
+        ],
+        [
+          "مَعِي",
+          "with me",
+          "prep"
+        ],
+        [
+          "يُحِبُّونَ",
+          "they love",
+          "verb"
+        ],
+        [
+          "الْقِرَاءَة",
+          "the reading",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "relative-pronouns",
+        "present-plural-w2"
+      ],
+      "mistakes": [
+        {
+          "wrong": "الطُّلَّابُ الَّذِي يَدْرُسُونَ مَعِي",
+          "right": "الطُّلَّابُ الَّذِينَ يَدْرُسُونَ مَعِي",
+          "why": "For a group of people use alladhīna, not alladhī."
+        }
+      ]
+    },
+    {
+      "id": "d74s4",
+      "ar": "هٰذِهِ هِيَ الرِّوَايَةُ الَّتِي قَرَأْتُهَا.",
+      "en": "This is the novel (that) I read.",
+      "literal": "this, she (is) the novel which I read it",
+      "segs": [
+        [
+          "هٰذِهِ",
+          "this (f)",
+          "demonstrative"
+        ],
+        [
+          "هِيَ",
+          "she, it (f) ('is')",
+          "pronoun"
+        ],
+        [
+          "الرِّوَايَةُ",
+          "the novel",
+          "noun"
+        ],
+        [
+          "الَّتِي",
+          "which (f)",
+          "pronoun"
+        ],
+        [
+          "قَرَأْتُهَا",
+          "I read it (f)",
+          "verb"
+        ]
+      ],
+      "grammar": [
+        "relative-pronouns",
+        "attached-pronouns"
+      ]
+    },
+    {
+      "id": "d74s5",
+      "ar": "عِنْدِي صَدِيق يَكْتُبُ قِصَصًا لِلْأَطْفَال.",
+      "en": "I have a friend who writes stories for children.",
+      "literal": "at me (is) a friend (he) writes stories for the children",
+      "segs": [
+        [
+          "عِنْدِي",
+          "I have (lit. at me)",
+          "prep"
+        ],
+        [
+          "صَدِيق",
+          "a friend",
+          "noun"
+        ],
+        [
+          "يَكْتُبُ",
+          "(he) writes",
+          "verb"
+        ],
+        [
+          "قِصَصًا",
+          "stories",
+          "noun"
+        ],
+        [
+          "لِلْأَطْفَال",
+          "for the children",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "relative-pronouns",
+        "inda-li"
+      ],
+      "mistakes": [
+        {
+          "wrong": "عِنْدِي صَدِيق الَّذِي يَكْتُبُ قِصَصًا",
+          "right": "عِنْدِي صَدِيق يَكْتُبُ قِصَصًا",
+          "why": "ṣadīq has no 'the', so there is no relative word: just add the sentence."
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "At the book fair",
+    "speakers": [
+      {
+        "key": "layla",
+        "name": "Layla",
+        "nameAr": "لَيْلَى"
+      },
+      {
+        "key": "daniel",
+        "name": "Daniel",
+        "nameAr": "دَانْيَال"
+      },
+      {
+        "key": "seller",
+        "name": "Bookseller",
+        "nameAr": "الْبَائِع"
+      }
+    ],
+    "culture": "The Cairo International Book Fair, held every winter, is one of the largest book fairs in the world, with millions of visitors. Naguib Mahfouz (1911–2006) wrote more than thirty novels, many of them about the streets of old Cairo, and in 1988 he became the first Arab writer to win the Nobel Prize in Literature.",
+    "lines": [
+      {
+        "id": "d74l1",
+        "sp": "layla",
+        "ar": "اُنْظُرْ يَا دَانْيَال! هٰذَا هُوَ مَعْرِضُ الْكِتَابِ الَّذِي أَخْبَرْتُكَ عَنْهُ. فِيهِ آلَافُ الْكُتُبِ!",
+        "en": "Look, Daniel! This is the book fair that I told you about. There are thousands of books in it!",
+        "segs": [
+          [
+            "اُنْظُرْ",
+            "look! (to a man)"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "دَانْيَال",
+            "Daniel (first name)",
+            "name"
+          ],
+          [
+            "هٰذَا",
+            "this (m)"
+          ],
+          [
+            "هُوَ",
+            "he, it ('is')"
+          ],
+          [
+            "مَعْرِضُ",
+            "exhibition, fair (of)"
+          ],
+          [
+            "الْكِتَابِ",
+            "the book"
+          ],
+          [
+            "الَّذِي",
+            "which (m)"
+          ],
+          [
+            "أَخْبَرْتُكَ",
+            "I told you (to a man)"
+          ],
+          [
+            "عَنْهُ",
+            "about it (m)"
+          ],
+          [
+            "فِيهِ",
+            "in it (m)"
+          ],
+          [
+            "آلَافُ",
+            "thousands (of)"
+          ],
+          [
+            "الْكُتُبِ",
+            "the books"
+          ]
+        ]
+      },
+      {
+        "id": "d74l2",
+        "sp": "daniel",
+        "ar": "رَائِع! أُرِيدُ رِوَايَة عَرَبِيَّة، لٰكِنْ لَيْسَتْ صَعْبَةً جِدًّا. أَيْنَ الْكُتُبُ الَّتِي يَقْرَؤُهَا الطُّلَّاب؟",
+        "en": "Great! I want an Arabic novel, but not a very difficult one. Where are the books that students read?",
+        "segs": [
+          [
+            "رَائِع",
+            "great, wonderful"
+          ],
+          [
+            "أُرِيدُ",
+            "I want"
+          ],
+          [
+            "رِوَايَة",
+            "a novel"
+          ],
+          [
+            "عَرَبِيَّة",
+            "Arabic (f)"
+          ],
+          [
+            "لٰكِنْ",
+            "but"
+          ],
+          [
+            "لَيْسَتْ",
+            "(she) is not"
+          ],
+          [
+            "صَعْبَةً",
+            "difficult (f)"
+          ],
+          [
+            "جِدًّا",
+            "very"
+          ],
+          [
+            "أَيْنَ",
+            "where"
+          ],
+          [
+            "الْكُتُبُ",
+            "the books"
+          ],
+          [
+            "الَّتِي",
+            "which (f; for plurals of things)"
+          ],
+          [
+            "يَقْرَؤُهَا",
+            "(they) read them (lit. he reads it)"
+          ],
+          [
+            "الطُّلَّاب",
+            "the students"
+          ]
+        ]
+      },
+      {
+        "id": "d74l3",
+        "sp": "seller",
+        "ar": "أَهْلًا وَسَهْلًا! هٰذِهِ رِوَايَات قَصِيرَة لِلطُّلَّابِ الَّذِينَ يَتَعَلَّمُونَ الْعَرَبِيَّة. وَهٰذَا كِتَاب لِنَجِيب مَحْفُوظ.",
+        "en": "Welcome! These are short novels for students who are learning Arabic. And this is a book by Naguib Mahfouz.",
+        "segs": [
+          [
+            "أَهْلًا",
+            "welcome"
+          ],
+          [
+            "وَسَهْلًا",
+            "and welcome (lit. and easy ground)"
+          ],
+          [
+            "هٰذِهِ",
+            "these (lit. this, f)"
+          ],
+          [
+            "رِوَايَات",
+            "novels"
+          ],
+          [
+            "قَصِيرَة",
+            "short (f)"
+          ],
+          [
+            "لِلطُّلَّابِ",
+            "for the students"
+          ],
+          [
+            "الَّذِينَ",
+            "who (people, plural)"
+          ],
+          [
+            "يَتَعَلَّمُونَ",
+            "they learn"
+          ],
+          [
+            "الْعَرَبِيَّة",
+            "Arabic (the language)"
+          ],
+          [
+            "وَهٰذَا",
+            "and this (m)"
+          ],
+          [
+            "كِتَاب",
+            "book"
+          ],
+          [
+            "لِنَجِيب",
+            "by Naguib (first name)",
+            "name"
+          ],
+          [
+            "مَحْفُوظ",
+            "Mahfouz (surname)",
+            "name"
+          ]
+        ]
+      },
+      {
+        "id": "d74l4",
+        "sp": "daniel",
+        "ar": "نَجِيب مَحْفُوظ؟ هَلْ هُوَ الْكَاتِبُ الَّذِي أَخَذَ جَائِزَةَ نُوبِل؟ سَمِعْتُ عَنْهُ فِي أَمْرِيكَا.",
+        "en": "Naguib Mahfouz? Is he the writer who won the Nobel Prize? I heard about him in America.",
+        "segs": [
+          [
+            "نَجِيب",
+            "Naguib (first name)",
+            "name"
+          ],
+          [
+            "مَحْفُوظ",
+            "Mahfouz (surname)",
+            "name"
+          ],
+          [
+            "هَلْ",
+            "(starts a yes/no question)"
+          ],
+          [
+            "هُوَ",
+            "he"
+          ],
+          [
+            "الْكَاتِبُ",
+            "the writer"
+          ],
+          [
+            "الَّذِي",
+            "who (m)"
+          ],
+          [
+            "أَخَذَ",
+            "(he) took ('won')"
+          ],
+          [
+            "جَائِزَةَ",
+            "prize (of)"
+          ],
+          [
+            "نُوبِل",
+            "Nobel",
+            "name"
+          ],
+          [
+            "سَمِعْتُ",
+            "I heard"
+          ],
+          [
+            "عَنْهُ",
+            "about him"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "أَمْرِيكَا",
+            "America (country)",
+            "name"
+          ]
+        ]
+      },
+      {
+        "id": "d74l5",
+        "sp": "seller",
+        "ar": "نَعَم، هُوَ أَوَّلُ كَاتِبٍ عَرَبِيٍّ أَخَذَ جَائِزَةَ نُوبِل لِلْأَدَب، فِي سَنَةِ ١٩٨٨.",
+        "en": "Yes, he was the first Arab writer who won the Nobel Prize for Literature, in the year 1988.",
+        "segs": [
+          [
+            "نَعَم",
+            "yes"
+          ],
+          [
+            "هُوَ",
+            "he"
+          ],
+          [
+            "أَوَّلُ",
+            "the first (of)"
+          ],
+          [
+            "كَاتِبٍ",
+            "writer"
+          ],
+          [
+            "عَرَبِيٍّ",
+            "Arab"
+          ],
+          [
+            "أَخَذَ",
+            "(he) took ('won')"
+          ],
+          [
+            "جَائِزَةَ",
+            "prize (of)"
+          ],
+          [
+            "نُوبِل",
+            "Nobel",
+            "name"
+          ],
+          [
+            "لِلْأَدَب",
+            "for literature"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "سَنَةِ",
+            "year (of)"
+          ]
+        ]
+      },
+      {
+        "id": "d74l6",
+        "sp": "layla",
+        "ar": "وَهَلْ عِنْدَكَ رِوَايَات لِكَاتِبَات؟ أَبْحَثُ عَنْ كِتَابٍ كَتَبَتْهُ امْرَأَة مِنْ بَيْرُوت.",
+        "en": "And do you have novels by women writers? I'm looking for a book that a woman from Beirut wrote.",
+        "segs": [
+          [
+            "وَهَلْ",
+            "and (starts a yes/no question)"
+          ],
+          [
+            "عِنْدَكَ",
+            "you have (to a man)"
+          ],
+          [
+            "رِوَايَات",
+            "novels"
+          ],
+          [
+            "لِكَاتِبَات",
+            "by women writers"
+          ],
+          [
+            "أَبْحَثُ",
+            "I am looking"
+          ],
+          [
+            "عَنْ",
+            "for (lit. about)"
+          ],
+          [
+            "كِتَابٍ",
+            "a book"
+          ],
+          [
+            "كَتَبَتْهُ",
+            "(she) wrote it"
+          ],
+          [
+            "امْرَأَة",
+            "a woman"
+          ],
+          [
+            "مِنْ",
+            "from"
+          ],
+          [
+            "بَيْرُوت",
+            "Beirut (capital of Lebanon)",
+            "name"
+          ]
+        ]
+      },
+      {
+        "id": "d74l7",
+        "sp": "seller",
+        "ar": "طَبْعًا! هٰذِهِ رِوَايَة جَدِيدَة لِكَاتِبَة لُبْنَانِيَّة، وَهِيَ الرِّوَايَةُ الَّتِي أَخَذَتْ جَائِزَة كَبِيرَة هٰذِهِ السَّنَة.",
+        "en": "Of course! This is a new novel by a Lebanese woman writer, and it's the novel that won a big prize this year.",
+        "segs": [
+          [
+            "طَبْعًا",
+            "of course"
+          ],
+          [
+            "هٰذِهِ",
+            "this (f)"
+          ],
+          [
+            "رِوَايَة",
+            "a novel"
+          ],
+          [
+            "جَدِيدَة",
+            "new (f)"
+          ],
+          [
+            "لِكَاتِبَة",
+            "by a woman writer"
+          ],
+          [
+            "لُبْنَانِيَّة",
+            "Lebanese (f)"
+          ],
+          [
+            "وَهِيَ",
+            "and she, it (f)"
+          ],
+          [
+            "الرِّوَايَةُ",
+            "the novel"
+          ],
+          [
+            "الَّتِي",
+            "which (f)"
+          ],
+          [
+            "أَخَذَتْ",
+            "(she) took ('won')"
+          ],
+          [
+            "جَائِزَة",
+            "a prize"
+          ],
+          [
+            "كَبِيرَة",
+            "big (f)"
+          ],
+          [
+            "هٰذِهِ",
+            "this (f)"
+          ],
+          [
+            "السَّنَة",
+            "the year"
+          ]
+        ]
+      },
+      {
+        "id": "d74l8",
+        "sp": "layla",
+        "ar": "أَعْرِفُهَا! هِيَ الْكَاتِبَةُ الَّتِي تَكْتُبُ عَنِ النِّسَاءِ فِي الْحَرْب. أُمِّي تُحِبُّ كُتُبَهَا كَثِيرًا.",
+        "en": "I know her! She's the writer who writes about women in the war. My mother loves her books very much.",
+        "segs": [
+          [
+            "أَعْرِفُهَا",
+            "I know her"
+          ],
+          [
+            "هِيَ",
+            "she"
+          ],
+          [
+            "الْكَاتِبَةُ",
+            "the (woman) writer"
+          ],
+          [
+            "الَّتِي",
+            "who (f)"
+          ],
+          [
+            "تَكْتُبُ",
+            "she writes"
+          ],
+          [
+            "عَنِ",
+            "about (-i links to the next word)"
+          ],
+          [
+            "النِّسَاءِ",
+            "the women"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "الْحَرْب",
+            "the war"
+          ],
+          [
+            "أُمِّي",
+            "my mother"
+          ],
+          [
+            "تُحِبُّ",
+            "she loves"
+          ],
+          [
+            "كُتُبَهَا",
+            "her books"
+          ],
+          [
+            "كَثِيرًا",
+            "a lot, very much"
+          ]
+        ]
+      },
+      {
+        "id": "d74l9",
+        "sp": "daniel",
+        "ar": "يَا لَيْلَى، مَا اسْمُ الرَّجُلِ الَّذِي يَقِفُ هُنَاكَ؟ النَّاسُ الَّذِينَ حَوْلَهُ يَطْلُبُونَ تَوْقِيعَهُ.",
+        "en": "Layla, what's the name of the man who is standing over there? The people around him are asking for his autograph.",
+        "segs": [
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "لَيْلَى",
+            "Layla (first name)",
+            "name"
+          ],
+          [
+            "مَا",
+            "what"
+          ],
+          [
+            "اسْمُ",
+            "name (of)"
+          ],
+          [
+            "الرَّجُلِ",
+            "the man"
+          ],
+          [
+            "الَّذِي",
+            "who (m)"
+          ],
+          [
+            "يَقِفُ",
+            "(he) stands, is standing"
+          ],
+          [
+            "هُنَاكَ",
+            "there"
+          ],
+          [
+            "النَّاسُ",
+            "the people"
+          ],
+          [
+            "الَّذِينَ",
+            "who (people, plural)"
+          ],
+          [
+            "حَوْلَهُ",
+            "around him"
+          ],
+          [
+            "يَطْلُبُونَ",
+            "they ask for"
+          ],
+          [
+            "تَوْقِيعَهُ",
+            "his signature, his autograph"
+          ]
+        ]
+      },
+      {
+        "id": "d74l10",
+        "sp": "layla",
+        "ar": "هٰذَا كَاتِب مِصْرِيّ شَابّ. كَتَبَ رِوَايَة عَنِ الشَّبَابِ الَّذِينَ يَسْكُنُونَ فِي الْقَاهِرَة الْيَوْمَ.",
+        "en": "That's a young Egyptian writer. He wrote a novel about the young people who live in Cairo today.",
+        "segs": [
+          [
+            "هٰذَا",
+            "this ('that')"
+          ],
+          [
+            "كَاتِب",
+            "writer"
+          ],
+          [
+            "مِصْرِيّ",
+            "Egyptian"
+          ],
+          [
+            "شَابّ",
+            "young"
+          ],
+          [
+            "كَتَبَ",
+            "(he) wrote"
+          ],
+          [
+            "رِوَايَة",
+            "a novel"
+          ],
+          [
+            "عَنِ",
+            "about (-i links to the next word)"
+          ],
+          [
+            "الشَّبَابِ",
+            "the young people"
+          ],
+          [
+            "الَّذِينَ",
+            "who (people, plural)"
+          ],
+          [
+            "يَسْكُنُونَ",
+            "they live"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "الْقَاهِرَة",
+            "Cairo (city in Egypt)",
+            "name"
+          ],
+          [
+            "الْيَوْمَ",
+            "today"
+          ]
+        ]
+      },
+      {
+        "id": "d74l11",
+        "sp": "daniel",
+        "ar": "رِوَايَة عَنِ الْقَاهِرَة؟ هٰذَا هُوَ الْكِتَابُ الَّذِي أُرِيدُهُ! هَلْ تَأْتِينَ مَعِي لِأَطْلُبَ تَوْقِيعَهُ؟",
+        "en": "A novel about Cairo? That's the book I want! Will you come with me so that I can ask for his autograph?",
+        "segs": [
+          [
+            "رِوَايَة",
+            "a novel"
+          ],
+          [
+            "عَنِ",
+            "about (-i links to the next word)"
+          ],
+          [
+            "الْقَاهِرَة",
+            "Cairo (city in Egypt)",
+            "name"
+          ],
+          [
+            "هٰذَا",
+            "this ('that')"
+          ],
+          [
+            "هُوَ",
+            "he, it ('is')"
+          ],
+          [
+            "الْكِتَابُ",
+            "the book"
+          ],
+          [
+            "الَّذِي",
+            "which (m)"
+          ],
+          [
+            "أُرِيدُهُ",
+            "I want it"
+          ],
+          [
+            "هَلْ",
+            "(starts a yes/no question)"
+          ],
+          [
+            "تَأْتِينَ",
+            "you come (to a woman)"
+          ],
+          [
+            "مَعِي",
+            "with me"
+          ],
+          [
+            "لِأَطْلُبَ",
+            "so that I ask for"
+          ],
+          [
+            "تَوْقِيعَهُ",
+            "his signature, his autograph"
+          ]
+        ]
+      },
+      {
+        "id": "d74l12",
+        "sp": "layla",
+        "ar": "طَبْعًا، لٰكِنْ أَوَّلًا نَدْفَعُ ثَمَنَ الْكُتُبِ الَّتِي اخْتَرْنَاهَا هُنَا.",
+        "en": "Of course, but first let's pay for the books that we chose here.",
+        "segs": [
+          [
+            "طَبْعًا",
+            "of course"
+          ],
+          [
+            "لٰكِنْ",
+            "but"
+          ],
+          [
+            "أَوَّلًا",
+            "first, firstly"
+          ],
+          [
+            "نَدْفَعُ",
+            "we pay"
+          ],
+          [
+            "ثَمَنَ",
+            "price (of)"
+          ],
+          [
+            "الْكُتُبِ",
+            "the books"
+          ],
+          [
+            "الَّتِي",
+            "which (f; for plurals of things)"
+          ],
+          [
+            "اخْتَرْنَاهَا",
+            "we chose them (lit. it)"
+          ],
+          [
+            "هُنَا",
+            "here"
+          ]
+        ]
+      },
+      {
+        "id": "d74l13",
+        "sp": "seller",
+        "ar": "الرِّوَايَةُ اللُّبْنَانِيَّة بِمِئَةٍ وَعِشْرِينَ جُنَيْهًا، وَكِتَابُ نَجِيب مَحْفُوظ بِثَمَانِينَ. الْمَجْمُوعُ مِئَتَا جُنَيْهٍ.",
+        "en": "The Lebanese novel is a hundred and twenty pounds, and the Naguib Mahfouz book is eighty. That's two hundred pounds altogether.",
+        "segs": [
+          [
+            "الرِّوَايَةُ",
+            "the novel"
+          ],
+          [
+            "اللُّبْنَانِيَّة",
+            "the Lebanese (f)"
+          ],
+          [
+            "بِمِئَةٍ",
+            "for a hundred"
+          ],
+          [
+            "وَعِشْرِينَ",
+            "and twenty"
+          ],
+          [
+            "جُنَيْهًا",
+            "pounds"
+          ],
+          [
+            "وَكِتَابُ",
+            "and (the) book (of)"
+          ],
+          [
+            "نَجِيب",
+            "Naguib (first name)",
+            "name"
+          ],
+          [
+            "مَحْفُوظ",
+            "Mahfouz (surname)",
+            "name"
+          ],
+          [
+            "بِثَمَانِينَ",
+            "for eighty"
+          ],
+          [
+            "الْمَجْمُوعُ",
+            "the total"
+          ],
+          [
+            "مِئَتَا",
+            "two hundred (of)"
+          ],
+          [
+            "جُنَيْهٍ",
+            "pound(s)"
+          ]
+        ]
+      },
+      {
+        "id": "d74l14",
+        "sp": "daniel",
+        "ar": "تَفَضَّلْ، وَشُكْرًا جَزِيلًا! هٰذَا أَوَّلُ كِتَابٍ عَرَبِيٍّ أَشْتَرِيهِ، وَالْكَاتِبُ الَّذِي كَتَبَهُ أَخَذَ جَائِزَةَ نُوبِل!",
+        "en": "Here you are, and thank you very much! This is the first Arabic book I've bought, and the writer who wrote it won the Nobel Prize!",
+        "segs": [
+          [
+            "تَفَضَّلْ",
+            "here you are (to a man)"
+          ],
+          [
+            "وَشُكْرًا",
+            "and thank you"
+          ],
+          [
+            "جَزِيلًا",
+            "very much"
+          ],
+          [
+            "هٰذَا",
+            "this (m)"
+          ],
+          [
+            "أَوَّلُ",
+            "the first (of)"
+          ],
+          [
+            "كِتَابٍ",
+            "book"
+          ],
+          [
+            "عَرَبِيٍّ",
+            "Arabic"
+          ],
+          [
+            "أَشْتَرِيهِ",
+            "I buy it"
+          ],
+          [
+            "وَالْكَاتِبُ",
+            "and the writer"
+          ],
+          [
+            "الَّذِي",
+            "who (m)"
+          ],
+          [
+            "كَتَبَهُ",
+            "(he) wrote it"
+          ],
+          [
+            "أَخَذَ",
+            "(he) took ('won')"
+          ],
+          [
+            "جَائِزَةَ",
+            "prize (of)"
+          ],
+          [
+            "نُوبِل",
+            "Nobel",
+            "name"
+          ]
+        ]
+      },
+      {
+        "id": "d74l15",
+        "sp": "layla",
+        "ar": "وَالْآنَ نَذْهَبُ إِلَى الْكَاتِبِ الشَّابِّ الَّذِي يَكْتُبُ عَنِ الْقَاهِرَة، قَبْلَ أَنْ يَذْهَبَ!",
+        "en": "And now let's go to the young writer who writes about Cairo, before he leaves!",
+        "segs": [
+          [
+            "وَالْآنَ",
+            "and now"
+          ],
+          [
+            "نَذْهَبُ",
+            "we go ('let's go')"
+          ],
+          [
+            "إِلَى",
+            "to"
+          ],
+          [
+            "الْكَاتِبِ",
+            "the writer"
+          ],
+          [
+            "الشَّابِّ",
+            "the young"
+          ],
+          [
+            "الَّذِي",
+            "who (m)"
+          ],
+          [
+            "يَكْتُبُ",
+            "(he) writes"
+          ],
+          [
+            "عَنِ",
+            "about (-i links to the next word)"
+          ],
+          [
+            "الْقَاهِرَة",
+            "Cairo (city in Egypt)",
+            "name"
+          ],
+          [
+            "قَبْلَ",
+            "before"
+          ],
+          [
+            "أَنْ",
+            "to, that"
+          ],
+          [
+            "يَذْهَبَ",
+            "he goes (after an) ('leaves')"
+          ]
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "title": "At the book fair",
+    "ar": "ذَهَبَ دَانْيَال وَلَيْلَى إِلَى مَعْرِضِ الْكِتَاب. اِشْتَرَى دَانْيَال رِوَايَة لِنَجِيب مَحْفُوظ، الْكَاتِبِ الَّذِي أَخَذَ جَائِزَةَ نُوبِل. وَاشْتَرَتْ لَيْلَى رِوَايَة لِكَاتِبَة لُبْنَانِيَّة. بَعْدَ ذٰلِكَ تَكَلَّمَا مَعَ كَاتِبٍ شَابٍّ يَكْتُبُ عَنِ الْقَاهِرَة. الْكُتُبُ الَّتِي اشْتَرَيَاهَا جَمِيلَة جِدًّا.",
+    "en": "Daniel and Layla went to the book fair. Daniel bought a novel by Naguib Mahfouz, the writer who won the Nobel Prize. And Layla bought a novel by a Lebanese woman writer. After that they talked with a young writer who writes about Cairo. The books that they bought are very beautiful.",
+    "segs": [
+      [
+        "ذَهَبَ",
+        "(he) went"
+      ],
+      [
+        "دَانْيَال",
+        "Daniel (first name)",
+        "name"
+      ],
+      [
+        "وَلَيْلَى",
+        "and Layla (first name)",
+        "name"
+      ],
+      [
+        "إِلَى",
+        "to"
+      ],
+      [
+        "مَعْرِضِ",
+        "exhibition, fair (of)"
+      ],
+      [
+        "الْكِتَاب",
+        "the book"
+      ],
+      [
+        "اِشْتَرَى",
+        "(he) bought"
+      ],
+      [
+        "دَانْيَال",
+        "Daniel (first name)",
+        "name"
+      ],
+      [
+        "رِوَايَة",
+        "a novel"
+      ],
+      [
+        "لِنَجِيب",
+        "by Naguib (first name)",
+        "name"
+      ],
+      [
+        "مَحْفُوظ",
+        "Mahfouz (surname)",
+        "name"
+      ],
+      [
+        "الْكَاتِبِ",
+        "the writer"
+      ],
+      [
+        "الَّذِي",
+        "who (m)"
+      ],
+      [
+        "أَخَذَ",
+        "(he) took ('won')"
+      ],
+      [
+        "جَائِزَةَ",
+        "prize (of)"
+      ],
+      [
+        "نُوبِل",
+        "Nobel",
+        "name"
+      ],
+      [
+        "وَاشْتَرَتْ",
+        "and (she) bought"
+      ],
+      [
+        "لَيْلَى",
+        "Layla (first name)",
+        "name"
+      ],
+      [
+        "رِوَايَة",
+        "a novel"
+      ],
+      [
+        "لِكَاتِبَة",
+        "by a woman writer"
+      ],
+      [
+        "لُبْنَانِيَّة",
+        "Lebanese (f)"
+      ],
+      [
+        "بَعْدَ",
+        "after"
+      ],
+      [
+        "ذٰلِكَ",
+        "that"
+      ],
+      [
+        "تَكَلَّمَا",
+        "they (two) talked"
+      ],
+      [
+        "مَعَ",
+        "with"
+      ],
+      [
+        "كَاتِبٍ",
+        "a writer"
+      ],
+      [
+        "شَابٍّ",
+        "young"
+      ],
+      [
+        "يَكْتُبُ",
+        "(he) writes"
+      ],
+      [
+        "عَنِ",
+        "about (-i links to the next word)"
+      ],
+      [
+        "الْقَاهِرَة",
+        "Cairo (city in Egypt)",
+        "name"
+      ],
+      [
+        "الْكُتُبُ",
+        "the books"
+      ],
+      [
+        "الَّتِي",
+        "which (f; for plurals of things)"
+      ],
+      [
+        "اشْتَرَيَاهَا",
+        "they (two) bought them (lit. it)"
+      ],
+      [
+        "جَمِيلَة",
+        "beautiful (f)"
+      ],
+      [
+        "جِدًّا",
+        "very"
+      ]
+    ]
+  },
+  "review": [
+    "kitab",
+    "qissa",
+    "maktaba",
+    "qaraa",
+    "shabb",
+    "yaktubu"
+  ],
+  "quiz": [
+    {
+      "id": "d74q1",
+      "prompt": "Complete: الْكَاتِبُ ___ أَخَذَ الْجَائِزَة",
+      "options": [
+        "الَّتِي",
+        "الَّذِينَ",
+        "الَّذِي",
+        "مَنْ"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "d74q2",
+      "prompt": "Complete: الرِّوَايَةُ ___ قَرَأْتُهَا",
+      "options": [
+        "الَّتِي",
+        "الَّذِي",
+        "الَّذِينَ",
+        "مَا"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "d74q3",
+      "prompt": "Complete: الطُّلَّابُ ___ يَدْرُسُونَ هُنَا",
+      "options": [
+        "الَّذِي",
+        "الَّذِينَ",
+        "الَّتِي",
+        "هُمْ"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "d74q4",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "عِنْدِي صَدِيق الَّذِي يَكْتُبُ قِصَصًا",
+        "عِنْدِي صَدِيق الَّتِي يَكْتُبُ قِصَصًا",
+        "عِنْدِي الصَّدِيق يَكْتُبُ قِصَصًا",
+        "عِنْدِي صَدِيق يَكْتُبُ قِصَصًا"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "d74q5",
+      "prompt": "Who won the Nobel Prize for Literature in 1988?",
+      "options": [
+        "Naguib Mahfouz",
+        "Umm Kulthum",
+        "a Lebanese woman writer",
+        "the bookseller"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "d74q6",
+      "prompt": "How much do the two books cost altogether?",
+      "options": [
+        "120 pounds",
+        "80 pounds",
+        "200 pounds",
+        "250 pounds"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "d74q7",
+      "prompt": "What does this mean?",
+      "ar": "رِوَايَة",
+      "options": [
+        "writer",
+        "novel",
+        "prize",
+        "exhibition"
+      ],
+      "answer": 1
+    }
+  ],
+  "completion": "Very good! You can join sentences with الَّذِي, الَّتِي and الَّذِينَ, and talk about books and writers. Tomorrow: reporting what people said.",
+  "status": "needs-review"
+}

@@ -1,0 +1,1564 @@
+{
+  "day": 77,
+  "week": 11,
+  "phase": 6,
+  "level": 8,
+  "title": "Proverbs",
+  "titleAr": "الْأَمْثَال",
+  "titleSegs": [
+    [
+      "الْأَمْثَال",
+      "the proverbs, the sayings"
+    ]
+  ],
+  "emoji": "📜",
+  "summary": "Understand and use six well-known Arabic proverbs, explain what a proverb means, and use مَنْ (whoever) in sayings like مَنْ جَدَّ وَجَدَ.",
+  "intro": "Proverbs, أَمْثَال, are everywhere in Arabic: in conversation, in speeches and on the walls of shops. Many of them use مَنْ, which here does not mean 'who?' but 'whoever': مَنْ جَدَّ وَجَدَ (whoever works hard succeeds). The verbs are in the past, but the meaning is always true. Others are short sentences without a verb: الصَّبْرُ مِفْتَاحُ الْفَرَجِ (patience is the key to relief). To explain a proverb, say يَعْنِي (it means).",
+  "objectives": [
+    "Understand six common Arabic proverbs and say when people use them",
+    "Use مَنْ + a past verb for a general truth (whoever…)",
+    "Explain a proverb in simple Arabic with يَعْنِي",
+    "Use the words for patience, wisdom, mind and neighbour"
+  ],
+  "realLife": {
+    "emoji": "🧓",
+    "title": "Grandfather's sayings",
+    "story": "Sami's grandfather answers almost every question with a proverb. When Omar complains about his homework, he hears one about hard work; when the bus is late, everybody hears one about patience. Sami has written ten of them on a piece of paper for today's class, and Daniel has brought one from Chicago."
+  },
+  "letters": [],
+  "newWords": [
+    "mathal",
+    "faraj",
+    "jar",
+    "dar",
+    "wajada",
+    "aql",
+    "salim",
+    "hikma",
+    "zaraa"
+  ],
+  "grammar": [
+    "man-whoever-w11",
+    "idafa"
+  ],
+  "pronunciation": [
+    "emphatics"
+  ],
+  "sentences": [
+    {
+      "id": "d77s1",
+      "ar": "الصَّبْرُ مِفْتَاحُ الْفَرَجِ.",
+      "en": "Patience is the key to relief.",
+      "literal": "the patience (is the) key (of) the relief",
+      "segs": [
+        [
+          "الصَّبْرُ",
+          "patience",
+          "noun"
+        ],
+        [
+          "مِفْتَاحُ",
+          "key (of)",
+          "noun"
+        ],
+        [
+          "الْفَرَجِ",
+          "the relief",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "nominal-sentence",
+        "idafa"
+      ],
+      "mistakes": [
+        {
+          "wrong": "الصَّبْرُ الْمِفْتَاحُ الْفَرَجِ",
+          "right": "الصَّبْرُ مِفْتَاحُ الْفَرَجِ",
+          "why": "The first word of an iḍāfa never takes al-: miftāḥu l-faraji."
+        }
+      ]
+    },
+    {
+      "id": "d77s2",
+      "ar": "مَنْ جَدَّ وَجَدَ.",
+      "en": "Whoever works hard succeeds.",
+      "literal": "who strove, found",
+      "segs": [
+        [
+          "مَنْ",
+          "whoever",
+          "pronoun"
+        ],
+        [
+          "جَدَّ",
+          "(he) worked hard, strove",
+          "verb"
+        ],
+        [
+          "وَجَدَ",
+          "(he) found ('succeeds')",
+          "verb"
+        ]
+      ],
+      "grammar": [
+        "man-whoever-w11",
+        "past-tense"
+      ]
+    },
+    {
+      "id": "d77s3",
+      "ar": "مَنْ زَرَعَ حَصَدَ.",
+      "en": "You reap what you sow.",
+      "literal": "who sowed, reaped",
+      "segs": [
+        [
+          "مَنْ",
+          "whoever",
+          "pronoun"
+        ],
+        [
+          "زَرَعَ",
+          "(he) sowed, planted",
+          "verb"
+        ],
+        [
+          "حَصَدَ",
+          "(he) reaped, harvested",
+          "verb"
+        ]
+      ],
+      "grammar": [
+        "man-whoever-w11"
+      ],
+      "mistakes": [
+        {
+          "wrong": "مَنْ زَرَعُوا حَصَدُوا",
+          "right": "مَنْ زَرَعَ حَصَدَ",
+          "why": "man (whoever) always takes a singular verb, even when it means many people."
+        }
+      ]
+    },
+    {
+      "id": "d77s4",
+      "ar": "الْجَارُ قَبْلَ الدَّارِ.",
+      "en": "Choose the neighbour before the house.",
+      "literal": "the neighbour (comes) before the house",
+      "segs": [
+        [
+          "الْجَارُ",
+          "the neighbour",
+          "noun"
+        ],
+        [
+          "قَبْلَ",
+          "before",
+          "prep"
+        ],
+        [
+          "الدَّارِ",
+          "the house, the home",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "nominal-sentence"
+      ]
+    },
+    {
+      "id": "d77s5",
+      "ar": "الْعَقْلُ السَّلِيمُ فِي الْجِسْمِ السَّلِيمِ.",
+      "en": "A sound mind in a sound body.",
+      "literal": "the mind the sound (is) in the body the sound",
+      "segs": [
+        [
+          "الْعَقْلُ",
+          "the mind",
+          "noun"
+        ],
+        [
+          "السَّلِيمُ",
+          "the sound, the healthy",
+          "adj"
+        ],
+        [
+          "فِي",
+          "in",
+          "prep"
+        ],
+        [
+          "الْجِسْمِ",
+          "the body",
+          "noun"
+        ],
+        [
+          "السَّلِيمِ",
+          "the sound, the healthy",
+          "adj"
+        ]
+      ],
+      "grammar": [
+        "adjectives",
+        "nominal-sentence"
+      ]
+    },
+    {
+      "id": "d77s6",
+      "ar": "الصَّدِيقُ وَقْتَ الضِّيقِ.",
+      "en": "A friend in need is a friend indeed.",
+      "literal": "the friend (is at the) time (of) hardship",
+      "segs": [
+        [
+          "الصَّدِيقُ",
+          "the friend",
+          "noun"
+        ],
+        [
+          "وَقْتَ",
+          "at the time of",
+          "noun"
+        ],
+        [
+          "الضِّيقِ",
+          "hardship, a hard time",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "idafa",
+        "nominal-sentence"
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "A proverb from every country",
+    "speakers": [
+      {
+        "key": "karim",
+        "name": "Mr Karim",
+        "nameAr": "الْأُسْتَاذ كَرِيم"
+      },
+      {
+        "key": "sami",
+        "name": "Sami",
+        "nameAr": "سَامِي"
+      },
+      {
+        "key": "daniel",
+        "name": "Daniel",
+        "nameAr": "دَانْيَال"
+      },
+      {
+        "key": "layla",
+        "name": "Layla",
+        "nameAr": "لَيْلَى"
+      }
+    ],
+    "culture": "Proverbs are part of everyday Arabic: grandparents use them to give advice, and writers and politicians use them to sound wise. Many are short and rhyme, like الصَّدِيقُ وَقْتَ الضِّيقِ, which makes them easy to remember. Every Arab country also has its own proverbs in its own dialect.",
+    "lines": [
+      {
+        "id": "d77l1",
+        "sp": "karim",
+        "ar": "صَبَاحُ الْخَيْر! الْيَوْمَ دَرْسُنَا عَنِ الْأَمْثَال. كُلُّ مَثَل جُمْلَة قَصِيرَة فِيهَا حِكْمَة كَبِيرَة. مَنْ يَبْدَأُ؟",
+        "en": "Good morning! Today our lesson is about proverbs. Every proverb is a short sentence with great wisdom in it. Who wants to start?",
+        "segs": [
+          [
+            "صَبَاحُ",
+            "morning (of)"
+          ],
+          [
+            "الْخَيْر",
+            "the goodness"
+          ],
+          [
+            "الْيَوْمَ",
+            "today"
+          ],
+          [
+            "دَرْسُنَا",
+            "our lesson"
+          ],
+          [
+            "عَنِ",
+            "about (-i links to the next word)"
+          ],
+          [
+            "الْأَمْثَال",
+            "the proverbs"
+          ],
+          [
+            "كُلُّ",
+            "every"
+          ],
+          [
+            "مَثَل",
+            "proverb"
+          ],
+          [
+            "جُمْلَة",
+            "a sentence"
+          ],
+          [
+            "قَصِيرَة",
+            "short (f)"
+          ],
+          [
+            "فِيهَا",
+            "in it (f)"
+          ],
+          [
+            "حِكْمَة",
+            "wisdom"
+          ],
+          [
+            "كَبِيرَة",
+            "great, big (f)"
+          ],
+          [
+            "مَنْ",
+            "who"
+          ],
+          [
+            "يَبْدَأُ",
+            "(he) starts"
+          ]
+        ]
+      },
+      {
+        "id": "d77l2",
+        "sp": "sami",
+        "ar": "أَنَا يَا أُسْتَاذ! جَدِّي يَقُولُ دَائِمًا: «الصَّبْرُ مِفْتَاحُ الْفَرَجِ». يَقُولُهُ عِنْدَمَا تَتَأَخَّرُ الْحَافِلَة أَوْ عِنْدَمَا نَكُونُ مَرْضَى.",
+        "en": "Me, sir! My grandfather always says: 'Patience is the key to relief'. He says it when the bus is late or when we're ill.",
+        "segs": [
+          [
+            "أَنَا",
+            "I ('me')"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "أُسْتَاذ",
+            "teacher ('sir')"
+          ],
+          [
+            "جَدِّي",
+            "my grandfather"
+          ],
+          [
+            "يَقُولُ",
+            "(he) says"
+          ],
+          [
+            "دَائِمًا",
+            "always"
+          ],
+          [
+            "الصَّبْرُ",
+            "patience"
+          ],
+          [
+            "مِفْتَاحُ",
+            "key (of)"
+          ],
+          [
+            "الْفَرَجِ",
+            "the relief"
+          ],
+          [
+            "يَقُولُهُ",
+            "he says it"
+          ],
+          [
+            "عِنْدَمَا",
+            "when"
+          ],
+          [
+            "تَتَأَخَّرُ",
+            "(she) is late"
+          ],
+          [
+            "الْحَافِلَة",
+            "the bus"
+          ],
+          [
+            "أَوْ",
+            "or"
+          ],
+          [
+            "عِنْدَمَا",
+            "when"
+          ],
+          [
+            "نَكُونُ",
+            "we are"
+          ],
+          [
+            "مَرْضَى",
+            "ill (plural)"
+          ]
+        ]
+      },
+      {
+        "id": "d77l3",
+        "sp": "daniel",
+        "ar": "مَا مَعْنَى «الْفَرَج»؟ أَعْرِفُ كَلِمَةَ الصَّبْر، لٰكِنِّي لَا أَعْرِفُ هٰذِهِ الْكَلِمَة.",
+        "en": "What does 'al-faraj' mean? I know the word for patience, but I don't know this word.",
+        "segs": [
+          [
+            "مَا",
+            "what"
+          ],
+          [
+            "مَعْنَى",
+            "meaning (of)"
+          ],
+          [
+            "الْفَرَج",
+            "the relief"
+          ],
+          [
+            "أَعْرِفُ",
+            "I know"
+          ],
+          [
+            "كَلِمَةَ",
+            "word (of)"
+          ],
+          [
+            "الصَّبْر",
+            "patience"
+          ],
+          [
+            "لٰكِنِّي",
+            "but I"
+          ],
+          [
+            "لَا",
+            "not"
+          ],
+          [
+            "أَعْرِفُ",
+            "I know"
+          ],
+          [
+            "هٰذِهِ",
+            "this (f)"
+          ],
+          [
+            "الْكَلِمَة",
+            "the word"
+          ]
+        ]
+      },
+      {
+        "id": "d77l4",
+        "sp": "karim",
+        "ar": "الْفَرَجُ يَعْنِي الرَّاحَة بَعْدَ مُشْكِلَة أَوْ وَقْت صَعْب. الْمَثَلُ يَعْنِي: اِصْبِرْ، وَالْمُشْكِلَة سَتَنْتَهِي.",
+        "en": "Al-faraj means relief after a problem or a hard time. The proverb means: be patient, and the problem will come to an end.",
+        "segs": [
+          [
+            "الْفَرَجُ",
+            "the relief"
+          ],
+          [
+            "يَعْنِي",
+            "(it) means"
+          ],
+          [
+            "الرَّاحَة",
+            "the rest, the relief"
+          ],
+          [
+            "بَعْدَ",
+            "after"
+          ],
+          [
+            "مُشْكِلَة",
+            "a problem"
+          ],
+          [
+            "أَوْ",
+            "or"
+          ],
+          [
+            "وَقْت",
+            "a time"
+          ],
+          [
+            "صَعْب",
+            "difficult, hard"
+          ],
+          [
+            "الْمَثَلُ",
+            "the proverb"
+          ],
+          [
+            "يَعْنِي",
+            "(it) means"
+          ],
+          [
+            "اِصْبِرْ",
+            "be patient! (to a man)"
+          ],
+          [
+            "وَالْمُشْكِلَة",
+            "and the problem"
+          ],
+          [
+            "سَتَنْتَهِي",
+            "(she) will end"
+          ]
+        ]
+      },
+      {
+        "id": "d77l5",
+        "sp": "layla",
+        "ar": "فِي لُبْنَان نَقُولُ: «الْجَارُ قَبْلَ الدَّارِ». يَعْنِي أَنَّ الْجِيرَانَ أَهَمُّ مِنَ الْبَيْت نَفْسِهِ.",
+        "en": "In Lebanon we say: 'The neighbour before the house'. It means that the neighbours are more important than the house itself.",
+        "segs": [
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "لُبْنَان",
+            "Lebanon (country)",
+            "name"
+          ],
+          [
+            "نَقُولُ",
+            "we say"
+          ],
+          [
+            "الْجَارُ",
+            "the neighbour"
+          ],
+          [
+            "قَبْلَ",
+            "before"
+          ],
+          [
+            "الدَّارِ",
+            "the house, the home"
+          ],
+          [
+            "يَعْنِي",
+            "(it) means"
+          ],
+          [
+            "أَنَّ",
+            "that"
+          ],
+          [
+            "الْجِيرَانَ",
+            "the neighbours (-a after anna)"
+          ],
+          [
+            "أَهَمُّ",
+            "more important"
+          ],
+          [
+            "مِنَ",
+            "than"
+          ],
+          [
+            "الْبَيْت",
+            "the house"
+          ],
+          [
+            "نَفْسِهِ",
+            "itself"
+          ]
+        ]
+      },
+      {
+        "id": "d77l6",
+        "sp": "daniel",
+        "ar": "هٰذِهِ حِكْمَة جَمِيلَة! عِنْدَمَا اسْتَأْجَرْتُ شَقَّتِي، سَأَلْتُ عَنِ الْجِيرَان أَوَّلًا. وَالْآنَ جَارِي يُعْطِينِي الْخُبْزَ كُلَّ صَبَاح!",
+        "en": "That's a wise saying! When I rented my flat, I asked about the neighbours first. And now my neighbour gives me bread every morning!",
+        "segs": [
+          [
+            "هٰذِهِ",
+            "this ('that', f)"
+          ],
+          [
+            "حِكْمَة",
+            "wisdom, a wise saying"
+          ],
+          [
+            "جَمِيلَة",
+            "beautiful, lovely (f)"
+          ],
+          [
+            "عِنْدَمَا",
+            "when"
+          ],
+          [
+            "اسْتَأْجَرْتُ",
+            "I rented"
+          ],
+          [
+            "شَقَّتِي",
+            "my flat"
+          ],
+          [
+            "سَأَلْتُ",
+            "I asked"
+          ],
+          [
+            "عَنِ",
+            "about (-i links to the next word)"
+          ],
+          [
+            "الْجِيرَان",
+            "the neighbours"
+          ],
+          [
+            "أَوَّلًا",
+            "first, firstly"
+          ],
+          [
+            "وَالْآنَ",
+            "and now"
+          ],
+          [
+            "جَارِي",
+            "my neighbour"
+          ],
+          [
+            "يُعْطِينِي",
+            "(he) gives me"
+          ],
+          [
+            "الْخُبْزَ",
+            "the bread"
+          ],
+          [
+            "كُلَّ",
+            "every"
+          ],
+          [
+            "صَبَاح",
+            "morning"
+          ]
+        ]
+      },
+      {
+        "id": "d77l7",
+        "sp": "karim",
+        "ar": "أَحْسَنْتِ يَا لَيْلَى. وَهٰذَا مَثَل أُحِبُّهُ أَنَا: «مَنْ جَدَّ وَجَدَ». هُنَا «مَنْ» لَيْسَتْ سُؤَالًا، بَلْ تَعْنِي: كُلُّ شَخْص.",
+        "en": "Well done, Layla. And here is a proverb that I love: 'man jadda wajada'. Here 'man' is not a question; it means: every person.",
+        "segs": [
+          [
+            "أَحْسَنْتِ",
+            "well done (to a woman)"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "لَيْلَى",
+            "Layla (first name)",
+            "name"
+          ],
+          [
+            "وَهٰذَا",
+            "and this (m)"
+          ],
+          [
+            "مَثَل",
+            "proverb"
+          ],
+          [
+            "أُحِبُّهُ",
+            "I love it"
+          ],
+          [
+            "أَنَا",
+            "I"
+          ],
+          [
+            "مَنْ",
+            "whoever"
+          ],
+          [
+            "جَدَّ",
+            "(he) worked hard, strove"
+          ],
+          [
+            "وَجَدَ",
+            "(he) found ('succeeds')"
+          ],
+          [
+            "هُنَا",
+            "here"
+          ],
+          [
+            "مَنْ",
+            "who, whoever"
+          ],
+          [
+            "لَيْسَتْ",
+            "(she) is not"
+          ],
+          [
+            "سُؤَالًا",
+            "a question"
+          ],
+          [
+            "بَلْ",
+            "but rather"
+          ],
+          [
+            "تَعْنِي",
+            "(she) means"
+          ],
+          [
+            "كُلُّ",
+            "every"
+          ],
+          [
+            "شَخْص",
+            "person"
+          ]
+        ]
+      },
+      {
+        "id": "d77l8",
+        "sp": "sami",
+        "ar": "يَعْنِي: مَنْ يَعْمَلُ كَثِيرًا يَجِدُ النَّجَاح. هٰذَا مَا يَقُولُهُ أَبِي لِعُمَر قَبْلَ كُلِّ امْتِحَان!",
+        "en": "It means: whoever works hard finds success. That's what my father tells Omar before every test!",
+        "segs": [
+          [
+            "يَعْنِي",
+            "(it) means"
+          ],
+          [
+            "مَنْ",
+            "whoever"
+          ],
+          [
+            "يَعْمَلُ",
+            "(he) works"
+          ],
+          [
+            "كَثِيرًا",
+            "a lot, much"
+          ],
+          [
+            "يَجِدُ",
+            "(he) finds"
+          ],
+          [
+            "النَّجَاح",
+            "the success"
+          ],
+          [
+            "هٰذَا",
+            "this ('that')"
+          ],
+          [
+            "مَا",
+            "what"
+          ],
+          [
+            "يَقُولُهُ",
+            "he says it"
+          ],
+          [
+            "أَبِي",
+            "my father"
+          ],
+          [
+            "لِعُمَر",
+            "to Omar (first name)",
+            "name"
+          ],
+          [
+            "قَبْلَ",
+            "before"
+          ],
+          [
+            "كُلِّ",
+            "every"
+          ],
+          [
+            "امْتِحَان",
+            "test, exam"
+          ]
+        ]
+      },
+      {
+        "id": "d77l9",
+        "sp": "karim",
+        "ar": "صَحِيح. وَمِثْلُهُ: «مَنْ زَرَعَ حَصَدَ». الْفِعْل فِي الْمَاضِي، لٰكِنَّ الْمَعْنَى صَحِيح دَائِمًا. وَأَنْتَ يَا دَانْيَال، هَلْ عِنْدَكَ مَثَل مِنْ أَمْرِيكَا؟",
+        "en": "Right. And another one like it: 'whoever sows, reaps'. The verb is in the past, but the meaning is always true. And you, Daniel, do you have a proverb from America?",
+        "segs": [
+          [
+            "صَحِيح",
+            "true, correct ('right')"
+          ],
+          [
+            "وَمِثْلُهُ",
+            "and like it"
+          ],
+          [
+            "مَنْ",
+            "whoever"
+          ],
+          [
+            "زَرَعَ",
+            "(he) sowed, planted"
+          ],
+          [
+            "حَصَدَ",
+            "(he) reaped, harvested"
+          ],
+          [
+            "الْفِعْل",
+            "the verb"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "الْمَاضِي",
+            "the past"
+          ],
+          [
+            "لٰكِنَّ",
+            "but (like inna: the noun after it ends in -a)"
+          ],
+          [
+            "الْمَعْنَى",
+            "the meaning"
+          ],
+          [
+            "صَحِيح",
+            "true, correct"
+          ],
+          [
+            "دَائِمًا",
+            "always"
+          ],
+          [
+            "وَأَنْتَ",
+            "and you (to a man)"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "دَانْيَال",
+            "Daniel (first name)",
+            "name"
+          ],
+          [
+            "هَلْ",
+            "(starts a yes/no question)"
+          ],
+          [
+            "عِنْدَكَ",
+            "you have (to a man)"
+          ],
+          [
+            "مَثَل",
+            "proverb"
+          ],
+          [
+            "مِنْ",
+            "from"
+          ],
+          [
+            "أَمْرِيكَا",
+            "America (country)",
+            "name"
+          ]
+        ]
+      },
+      {
+        "id": "d77l10",
+        "sp": "daniel",
+        "ar": "نَعَم، عِنْدَنَا مَثَل عَنِ الصَّدِيقِ الَّذِي يُسَاعِدُكَ فِي الْوَقْتِ الصَّعْب. هَلْ هُنَاكَ مَثَل عَرَبِيّ بِهٰذَا الْمَعْنَى؟",
+        "en": "Yes, we have a proverb about the friend who helps you in hard times. Is there an Arabic proverb with this meaning?",
+        "segs": [
+          [
+            "نَعَم",
+            "yes"
+          ],
+          [
+            "عِنْدَنَا",
+            "we have (lit. at us)"
+          ],
+          [
+            "مَثَل",
+            "proverb"
+          ],
+          [
+            "عَنِ",
+            "about (-i links to the next word)"
+          ],
+          [
+            "الصَّدِيقِ",
+            "the friend"
+          ],
+          [
+            "الَّذِي",
+            "who (m)"
+          ],
+          [
+            "يُسَاعِدُكَ",
+            "(he) helps you (to a man)"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "الْوَقْتِ",
+            "the time"
+          ],
+          [
+            "الصَّعْب",
+            "the difficult, hard"
+          ],
+          [
+            "هَلْ",
+            "(starts a yes/no question)"
+          ],
+          [
+            "هُنَاكَ",
+            "there is"
+          ],
+          [
+            "مَثَل",
+            "proverb"
+          ],
+          [
+            "عَرَبِيّ",
+            "Arabic"
+          ],
+          [
+            "بِهٰذَا",
+            "with this (m)"
+          ],
+          [
+            "الْمَعْنَى",
+            "the meaning"
+          ]
+        ]
+      },
+      {
+        "id": "d77l11",
+        "sp": "layla",
+        "ar": "طَبْعًا! «الصَّدِيقُ وَقْتَ الضِّيقِ». الضِّيقُ يَعْنِي الْوَقْتَ الصَّعْب. وَكَمَا تَرَى، الْكَلِمَتَانِ لَهُمَا نَفْسُ الْمُوسِيقَى: صَدِيق، ضِيق!",
+        "en": "Of course! 'The friend at the time of hardship'. Ḍīq means a hard time. And as you can see, the two words have the same music: ṣadīq, ḍīq!",
+        "segs": [
+          [
+            "طَبْعًا",
+            "of course"
+          ],
+          [
+            "الصَّدِيقُ",
+            "the friend"
+          ],
+          [
+            "وَقْتَ",
+            "at the time of"
+          ],
+          [
+            "الضِّيقِ",
+            "hardship, a hard time"
+          ],
+          [
+            "الضِّيقُ",
+            "hardship, a hard time"
+          ],
+          [
+            "يَعْنِي",
+            "(it) means"
+          ],
+          [
+            "الْوَقْتَ",
+            "the time"
+          ],
+          [
+            "الصَّعْب",
+            "the difficult, hard"
+          ],
+          [
+            "وَكَمَا",
+            "and as"
+          ],
+          [
+            "تَرَى",
+            "you see (to a man)"
+          ],
+          [
+            "الْكَلِمَتَانِ",
+            "the two words"
+          ],
+          [
+            "لَهُمَا",
+            "they (two) have (lit. for them two)"
+          ],
+          [
+            "نَفْسُ",
+            "the same"
+          ],
+          [
+            "الْمُوسِيقَى",
+            "the music"
+          ],
+          [
+            "صَدِيق",
+            "friend"
+          ],
+          [
+            "ضِيق",
+            "hardship"
+          ]
+        ]
+      },
+      {
+        "id": "d77l12",
+        "sp": "daniel",
+        "ar": "جَمِيل! وَعِنْدِي سُؤَال: هَلْ تَقُولُونَ أَيْضًا «الْعَقْلُ السَّلِيمُ فِي الْجِسْمِ السَّلِيمِ»؟ سَمِعْتُهُ فِي النَّادِي.",
+        "en": "Lovely! And I have a question: do you also say 'a sound mind in a sound body'? I heard it at the sports club.",
+        "segs": [
+          [
+            "جَمِيل",
+            "beautiful, lovely"
+          ],
+          [
+            "وَعِنْدِي",
+            "and I have (lit. and at me)"
+          ],
+          [
+            "سُؤَال",
+            "a question"
+          ],
+          [
+            "هَلْ",
+            "(starts a yes/no question)"
+          ],
+          [
+            "تَقُولُونَ",
+            "you (all) say"
+          ],
+          [
+            "أَيْضًا",
+            "also, too"
+          ],
+          [
+            "الْعَقْلُ",
+            "the mind"
+          ],
+          [
+            "السَّلِيمُ",
+            "the sound, the healthy"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "الْجِسْمِ",
+            "the body"
+          ],
+          [
+            "السَّلِيمِ",
+            "the sound, the healthy"
+          ],
+          [
+            "سَمِعْتُهُ",
+            "I heard it"
+          ],
+          [
+            "فِي",
+            "in, at"
+          ],
+          [
+            "النَّادِي",
+            "the club"
+          ]
+        ]
+      },
+      {
+        "id": "d77l13",
+        "sp": "sami",
+        "ar": "نَعَم! مُدَرِّبُ فَرِيقِ عُمَر يَقُولُهُ كُلَّ يَوْم. فِي رَأْيِي، هُوَ أَحْسَنُ مَثَل لِلرِّيَاضَة!",
+        "en": "Yes! The coach of Omar's team says it every day. In my opinion, it's the best proverb for sport!",
+        "segs": [
+          [
+            "نَعَم",
+            "yes"
+          ],
+          [
+            "مُدَرِّبُ",
+            "coach, trainer (of)"
+          ],
+          [
+            "فَرِيقِ",
+            "team (of)"
+          ],
+          [
+            "عُمَر",
+            "Omar (first name)",
+            "name"
+          ],
+          [
+            "يَقُولُهُ",
+            "he says it"
+          ],
+          [
+            "كُلَّ",
+            "every"
+          ],
+          [
+            "يَوْم",
+            "day"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "رَأْيِي",
+            "my opinion"
+          ],
+          [
+            "هُوَ",
+            "he, it"
+          ],
+          [
+            "أَحْسَنُ",
+            "the best"
+          ],
+          [
+            "مَثَل",
+            "proverb"
+          ],
+          [
+            "لِلرِّيَاضَة",
+            "for sport"
+          ]
+        ]
+      },
+      {
+        "id": "d77l14",
+        "sp": "karim",
+        "ar": "مُمْتَاز! الْوَاجِب: اُكْتُبُوا ثَلَاثَةَ أَمْثَال، وَقُولُوا مَا مَعْنَاهَا وَمَا رَأْيُكُمْ فِيهَا. وَلَا تَنْسَوْا أَنَّ امْتِحَانَ الْأُسْبُوعِ يَوْمَ الْأَحَد!",
+        "en": "Excellent! The homework: write down three proverbs, and say what they mean and what you think of them. And don't forget that the week test is on Sunday!",
+        "segs": [
+          [
+            "مُمْتَاز",
+            "excellent"
+          ],
+          [
+            "الْوَاجِب",
+            "the homework"
+          ],
+          [
+            "اُكْتُبُوا",
+            "write! (to a group)"
+          ],
+          [
+            "ثَلَاثَةَ",
+            "three"
+          ],
+          [
+            "أَمْثَال",
+            "proverbs"
+          ],
+          [
+            "وَقُولُوا",
+            "and say! (to a group)"
+          ],
+          [
+            "مَا",
+            "what"
+          ],
+          [
+            "مَعْنَاهَا",
+            "their meaning (lit. its meaning)"
+          ],
+          [
+            "وَمَا",
+            "and what"
+          ],
+          [
+            "رَأْيُكُمْ",
+            "your opinion (to a group)"
+          ],
+          [
+            "فِيهَا",
+            "about them (lit. in it)"
+          ],
+          [
+            "وَلَا",
+            "and don't"
+          ],
+          [
+            "تَنْسَوْا",
+            "forget (to a group)"
+          ],
+          [
+            "أَنَّ",
+            "that"
+          ],
+          [
+            "امْتِحَانَ",
+            "test, exam (of)"
+          ],
+          [
+            "الْأُسْبُوعِ",
+            "the week"
+          ],
+          [
+            "يَوْمَ",
+            "on the day of"
+          ],
+          [
+            "الْأَحَد",
+            "Sunday"
+          ]
+        ]
+      },
+      {
+        "id": "d77l15",
+        "sp": "daniel",
+        "ar": "لَا تَقْلَقْ يَا أُسْتَاذ: سَأَدْرُسُ كَثِيرًا هٰذَا الْأُسْبُوع، فَمَنْ جَدَّ وَجَدَ!",
+        "en": "Don't worry, sir: I'll study a lot this week, because whoever works hard succeeds!",
+        "segs": [
+          [
+            "لَا",
+            "don't"
+          ],
+          [
+            "تَقْلَقْ",
+            "worry (to a man)"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "أُسْتَاذ",
+            "teacher ('sir')"
+          ],
+          [
+            "سَأَدْرُسُ",
+            "I will study"
+          ],
+          [
+            "كَثِيرًا",
+            "a lot, much"
+          ],
+          [
+            "هٰذَا",
+            "this (m)"
+          ],
+          [
+            "الْأُسْبُوع",
+            "the week"
+          ],
+          [
+            "فَمَنْ",
+            "because whoever"
+          ],
+          [
+            "جَدَّ",
+            "(he) worked hard, strove"
+          ],
+          [
+            "وَجَدَ",
+            "(he) found ('succeeds')"
+          ]
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "title": "Proverbs in class",
+    "ar": "فِي دَرْسِ الْيَوْمِ تَعَلَّمَ الطُّلَّابُ أَمْثَالًا عَرَبِيَّة. قَالَ سَامِي إِنَّ جَدَّهُ يَقُولُ دَائِمًا: الصَّبْرُ مِفْتَاحُ الْفَرَجِ. وَقَالَتْ لَيْلَى إِنَّ الْجَارَ أَهَمُّ مِنَ الدَّار. أَمَّا دَانْيَال فَتَعَلَّمَ مَثَلًا عَنِ الصَّدِيقِ الَّذِي يُسَاعِدُ فِي الْوَقْتِ الصَّعْب. وَفِي رَأْيِ الْأُسْتَاذ كَرِيم، أَحْسَنُ مَثَل هُوَ: مَنْ جَدَّ وَجَدَ.",
+    "en": "In today's lesson the students learned Arabic proverbs. Sami said that his grandfather always says: Patience is the key to relief. Layla said that the neighbour is more important than the house. As for Daniel, he learned a proverb about the friend who helps in hard times. And in Mr Karim's opinion, the best proverb is: Whoever works hard succeeds.",
+    "segs": [
+      [
+        "فِي",
+        "in"
+      ],
+      [
+        "دَرْسِ",
+        "lesson (of)"
+      ],
+      [
+        "الْيَوْمِ",
+        "the day ('today's')"
+      ],
+      [
+        "تَعَلَّمَ",
+        "(he) learned ('learned')"
+      ],
+      [
+        "الطُّلَّابُ",
+        "the students"
+      ],
+      [
+        "أَمْثَالًا",
+        "proverbs"
+      ],
+      [
+        "عَرَبِيَّة",
+        "Arabic (f)"
+      ],
+      [
+        "قَالَ",
+        "(he) said"
+      ],
+      [
+        "سَامِي",
+        "Sami (first name)",
+        "name"
+      ],
+      [
+        "إِنَّ",
+        "that (after qāla)"
+      ],
+      [
+        "جَدَّهُ",
+        "his grandfather (-a after inna)"
+      ],
+      [
+        "يَقُولُ",
+        "(he) says"
+      ],
+      [
+        "دَائِمًا",
+        "always"
+      ],
+      [
+        "الصَّبْرُ",
+        "patience"
+      ],
+      [
+        "مِفْتَاحُ",
+        "key (of)"
+      ],
+      [
+        "الْفَرَجِ",
+        "the relief"
+      ],
+      [
+        "وَقَالَتْ",
+        "and (she) said"
+      ],
+      [
+        "لَيْلَى",
+        "Layla (first name)",
+        "name"
+      ],
+      [
+        "إِنَّ",
+        "that (after qāla)"
+      ],
+      [
+        "الْجَارَ",
+        "the neighbour (-a after inna)"
+      ],
+      [
+        "أَهَمُّ",
+        "more important"
+      ],
+      [
+        "مِنَ",
+        "than"
+      ],
+      [
+        "الدَّار",
+        "the house, the home"
+      ],
+      [
+        "أَمَّا",
+        "as for"
+      ],
+      [
+        "دَانْيَال",
+        "Daniel (first name)",
+        "name"
+      ],
+      [
+        "فَتَعَلَّمَ",
+        "(he) learned"
+      ],
+      [
+        "مَثَلًا",
+        "a proverb"
+      ],
+      [
+        "عَنِ",
+        "about (-i links to the next word)"
+      ],
+      [
+        "الصَّدِيقِ",
+        "the friend"
+      ],
+      [
+        "الَّذِي",
+        "who (m)"
+      ],
+      [
+        "يُسَاعِدُ",
+        "(he) helps"
+      ],
+      [
+        "فِي",
+        "in"
+      ],
+      [
+        "الْوَقْتِ",
+        "the time"
+      ],
+      [
+        "الصَّعْب",
+        "the difficult, hard"
+      ],
+      [
+        "وَفِي",
+        "and in"
+      ],
+      [
+        "رَأْيِ",
+        "opinion (of)"
+      ],
+      [
+        "الْأُسْتَاذ",
+        "the teacher, Mr"
+      ],
+      [
+        "كَرِيم",
+        "Karim (first name)",
+        "name"
+      ],
+      [
+        "أَحْسَنُ",
+        "the best"
+      ],
+      [
+        "مَثَل",
+        "proverb"
+      ],
+      [
+        "هُوَ",
+        "he, it ('is')"
+      ],
+      [
+        "مَنْ",
+        "whoever"
+      ],
+      [
+        "جَدَّ",
+        "(he) worked hard, strove"
+      ],
+      [
+        "وَجَدَ",
+        "(he) found ('succeeds')"
+      ]
+    ]
+  },
+  "review": [
+    "alladhi",
+    "ray",
+    "qala",
+    "jism",
+    "sadiq",
+    "sabr"
+  ],
+  "quiz": [
+    {
+      "id": "d77q1",
+      "prompt": "What does this mean?",
+      "ar": "الصَّبْرُ مِفْتَاحُ الْفَرَجِ.",
+      "options": [
+        "Patience is the key to relief.",
+        "Knowledge is a key.",
+        "Choose the neighbour before the house.",
+        "Time is money."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "d77q2",
+      "prompt": "In مَنْ جَدَّ وَجَدَ, what does مَنْ mean?",
+      "options": [
+        "who? (a question)",
+        "from",
+        "whoever",
+        "with"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "d77q3",
+      "prompt": "Which proverb does Layla bring from Lebanon?",
+      "options": [
+        "مَنْ زَرَعَ حَصَدَ",
+        "الْجَارُ قَبْلَ الدَّارِ",
+        "الصَّدِيقُ وَقْتَ الضِّيقِ",
+        "الصَّبْرُ مِفْتَاحُ الْفَرَجِ"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "d77q4",
+      "prompt": "Which Arabic proverb matches 'A friend in need is a friend indeed'?",
+      "options": [
+        "الْعَقْلُ السَّلِيمُ فِي الْجِسْمِ السَّلِيمِ",
+        "مَنْ جَدَّ وَجَدَ",
+        "الْجَارُ قَبْلَ الدَّارِ",
+        "الصَّدِيقُ وَقْتَ الضِّيقِ"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "d77q5",
+      "prompt": "What does حِكْمَة mean?",
+      "options": [
+        "wisdom",
+        "patience",
+        "neighbour",
+        "mind"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "d77q6",
+      "prompt": "When does Sami's grandfather say 'Patience is the key to relief'?",
+      "options": [
+        "at Eid",
+        "when the bus is late",
+        "before a football match",
+        "at breakfast"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "d77q7",
+      "prompt": "Which word starts with the emphatic ṣād (ص)?",
+      "options": [
+        "سَلِيم",
+        "سُؤَال",
+        "صَبْر",
+        "دَار"
+      ],
+      "answer": 2
+    }
+  ],
+  "completion": "Mabrūk! You finished Week 11: you can talk about festivals, music, films and the news, use الَّذِي and إِنَّ, report what people said, give your opinion and quote proverbs. Take the week test, and pass it with 80% to open Week 12.",
+  "status": "needs-review"
+}

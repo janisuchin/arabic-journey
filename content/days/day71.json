@@ -1,0 +1,1426 @@
+{
+  "day": 71,
+  "week": 11,
+  "phase": 6,
+  "level": 7,
+  "title": "Festivals",
+  "titleAr": "الْأَعْيَاد",
+  "titleSegs": [
+    [
+      "الْأَعْيَاد",
+      "the festivals, the feasts"
+    ]
+  ],
+  "emoji": "🌙",
+  "summary": "Wish people a happy Eid, answer festival greetings with the right reply, and talk about Ramadan and Eid customs.",
+  "intro": "Ramadan is over, and today is the first day of عِيدُ الْفِطْر, the festival at the end of the month of fasting. Sami's family has invited Daniel for Eid morning. Festival wishes come in pairs, like greetings: to عِيد مُبَارَك! (blessed Eid!) you answer عَلَيْنَا وَعَلَيْكُمْ (to us and to you), and to كُلُّ عَامٍ وَأَنْتُمْ بِخَيْر (may you be well every year) you answer وَأَنْتُمْ بِخَيْر. Change the pronoun for the person: وَأَنْتَ بِخَيْر to a man, وَأَنْتِ بِخَيْر to a woman.",
+  "objectives": [
+    "Wish someone a happy Eid and answer an Eid greeting",
+    "Use كُلُّ عَامٍ وَأَنْتُمْ بِخَيْر with the right pronoun for a man, a woman or a group",
+    "Name five Eid customs: the prayer, new clothes, kaʿk, Eid money and family visits",
+    "Say what people do in Ramadan and at Eid with يَصُومُ and يَحْتَفِلُ"
+  ],
+  "realLife": {
+    "emoji": "🕌",
+    "title": "Eid morning in Cairo",
+    "story": "At seven in the morning the streets near Sami's home are full of families in new clothes coming back from the Eid prayer. Children run to their grandparents for their Eid money, and every flat smells of kaʿk, the sweet Eid biscuits. Daniel arrives with a box of kaʿk from the bakery, and Sami's mother laughs: she has baked three kilos herself."
+  },
+  "letters": [],
+  "newWords": [
+    "eid",
+    "ramadan",
+    "yasumu",
+    "kak",
+    "eidiyya",
+    "salat",
+    "mubarak",
+    "kull-am"
+  ],
+  "grammar": [
+    "occasion-greetings-w11",
+    "verbal-sentence"
+  ],
+  "pronunciation": [
+    "ayn"
+  ],
+  "sentences": [
+    {
+      "id": "d71s1",
+      "ar": "عِيد مُبَارَك يَا سَامِي!",
+      "en": "Happy Eid, Sami!",
+      "literal": "(a) blessed festival, O Sami",
+      "segs": [
+        [
+          "عِيد",
+          "festival, Eid",
+          "noun"
+        ],
+        [
+          "مُبَارَك",
+          "blessed",
+          "adj"
+        ],
+        [
+          "يَا",
+          "O (calling someone)",
+          "particle"
+        ],
+        [
+          "سَامِي",
+          "Sami (first name)",
+          "name"
+        ]
+      ],
+      "grammar": [
+        "occasion-greetings-w11",
+        "adjectives"
+      ],
+      "mistakes": [
+        {
+          "wrong": "عِيد مُبَارَكَة",
+          "right": "عِيد مُبَارَك",
+          "why": "ʿīd is masculine, so the adjective has no ة: mubārak."
+        }
+      ]
+    },
+    {
+      "id": "d71s2",
+      "ar": "كُلُّ عَامٍ وَأَنْتِ بِخَيْر يَا لَيْلَى!",
+      "en": "Many happy returns, Layla!",
+      "literal": "every year, and you (f) are well, O Layla",
+      "segs": [
+        [
+          "كُلُّ",
+          "every",
+          "noun"
+        ],
+        [
+          "عَامٍ",
+          "year",
+          "noun"
+        ],
+        [
+          "وَأَنْتِ",
+          "and you (to a woman)",
+          "pronoun"
+        ],
+        [
+          "بِخَيْر",
+          "well, fine",
+          "adj"
+        ],
+        [
+          "يَا",
+          "O (calling someone)",
+          "particle"
+        ],
+        [
+          "لَيْلَى",
+          "Layla (first name)",
+          "name"
+        ]
+      ],
+      "grammar": [
+        "occasion-greetings-w11",
+        "pronouns"
+      ],
+      "mistakes": [
+        {
+          "wrong": "كُلُّ عَامٍ وَأَنْتَ بِخَيْر يَا لَيْلَى",
+          "right": "كُلُّ عَامٍ وَأَنْتِ بِخَيْر يَا لَيْلَى",
+          "why": "Layla is a woman, so use anti (ending in i), not anta."
+        }
+      ]
+    },
+    {
+      "id": "d71s3",
+      "ar": "يَصُومُ الْمُسْلِمُونَ فِي شَهْرِ رَمَضَان.",
+      "en": "Muslims fast in the month of Ramadan.",
+      "literal": "fast the Muslims in (the) month (of) Ramadan",
+      "segs": [
+        [
+          "يَصُومُ",
+          "(they) fast (verb first: singular)",
+          "verb"
+        ],
+        [
+          "الْمُسْلِمُونَ",
+          "the Muslims",
+          "noun"
+        ],
+        [
+          "فِي",
+          "in",
+          "prep"
+        ],
+        [
+          "شَهْرِ",
+          "month (of)",
+          "noun"
+        ],
+        [
+          "رَمَضَان",
+          "Ramadan",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "verbal-sentence",
+        "idafa"
+      ],
+      "mistakes": [
+        {
+          "wrong": "يَصُومُونَ الْمُسْلِمُونَ",
+          "right": "يَصُومُ الْمُسْلِمُونَ",
+          "why": "When the verb comes first, it stays singular even before a plural subject."
+        }
+      ]
+    },
+    {
+      "id": "d71s4",
+      "ar": "نَحْتَفِلُ بِالْعِيد مَعَ الْعَائِلَة.",
+      "en": "We celebrate Eid with the family.",
+      "literal": "we celebrate with the festival with the family",
+      "segs": [
+        [
+          "نَحْتَفِلُ",
+          "we celebrate",
+          "verb"
+        ],
+        [
+          "بِالْعِيد",
+          "(with) the festival, Eid",
+          "noun"
+        ],
+        [
+          "مَعَ",
+          "with",
+          "prep"
+        ],
+        [
+          "الْعَائِلَة",
+          "the family",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "present-plural-w2"
+      ]
+    },
+    {
+      "id": "d71s5",
+      "ar": "أَخَذَ عُمَر عِيدِيَّة مِنْ جَدَّتِهِ.",
+      "en": "Omar got Eid money from his grandmother.",
+      "literal": "took Omar Eid money from his grandmother",
+      "segs": [
+        [
+          "أَخَذَ",
+          "(he) took, got",
+          "verb"
+        ],
+        [
+          "عُمَر",
+          "Omar (first name)",
+          "name"
+        ],
+        [
+          "عِيدِيَّة",
+          "Eid money",
+          "noun"
+        ],
+        [
+          "مِنْ",
+          "from",
+          "prep"
+        ],
+        [
+          "جَدَّتِهِ",
+          "his grandmother",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "past-tense",
+        "verbal-sentence"
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Eid at Sami's home",
+    "speakers": [
+      {
+        "key": "daniel",
+        "name": "Daniel",
+        "nameAr": "دَانْيَال"
+      },
+      {
+        "key": "sami",
+        "name": "Sami",
+        "nameAr": "سَامِي"
+      },
+      {
+        "key": "fatima",
+        "name": "Fatima",
+        "nameAr": "فَاطِمَة"
+      },
+      {
+        "key": "omar",
+        "name": "Omar",
+        "nameAr": "عُمَر"
+      }
+    ],
+    "culture": "On the morning of عِيدُ الْفِطْر families go to the Eid prayer, put on new clothes and visit their relatives. Children receive عِيدِيَّة, a gift of money, and Egyptian homes are full of كَعْك. Friends' parents are often called after their eldest child: أُمّ سَامِي (Umm Sami, Sami's mother).",
+    "lines": [
+      {
+        "id": "d71l1",
+        "sp": "daniel",
+        "ar": "صَبَاحُ الْخَيْر يَا سَامِي! عِيد مُبَارَك! هٰذَا كَعْك مِنَ الْمَخْبَز لِعَائِلَتِكَ.",
+        "en": "Good morning, Sami! Happy Eid! This is some kaʿk from the bakery for your family.",
+        "segs": [
+          [
+            "صَبَاحُ",
+            "morning (of)"
+          ],
+          [
+            "الْخَيْر",
+            "the goodness"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "سَامِي",
+            "Sami (first name)",
+            "name"
+          ],
+          [
+            "عِيد",
+            "festival, Eid"
+          ],
+          [
+            "مُبَارَك",
+            "blessed"
+          ],
+          [
+            "هٰذَا",
+            "this (m)"
+          ],
+          [
+            "كَعْك",
+            "kaʿk (sweet Eid biscuits)"
+          ],
+          [
+            "مِنَ",
+            "from"
+          ],
+          [
+            "الْمَخْبَز",
+            "the bakery"
+          ],
+          [
+            "لِعَائِلَتِكَ",
+            "for your family (to a man)"
+          ]
+        ]
+      },
+      {
+        "id": "d71l2",
+        "sp": "sami",
+        "ar": "عَلَيْنَا وَعَلَيْكَ يَا دَانْيَال! تَفَضَّلْ، اُدْخُلْ. كُلُّ عَامٍ وَأَنْتَ بِخَيْر!",
+        "en": "To us and to you, Daniel! Please come in. Many happy returns to you!",
+        "segs": [
+          [
+            "عَلَيْنَا",
+            "on us ('to us')"
+          ],
+          [
+            "وَعَلَيْكَ",
+            "and on you (to a man)"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "دَانْيَال",
+            "Daniel (first name)",
+            "name"
+          ],
+          [
+            "تَفَضَّلْ",
+            "please (to a man)"
+          ],
+          [
+            "اُدْخُلْ",
+            "come in! (to a man)"
+          ],
+          [
+            "كُلُّ",
+            "every"
+          ],
+          [
+            "عَامٍ",
+            "year"
+          ],
+          [
+            "وَأَنْتَ",
+            "and you (to a man)"
+          ],
+          [
+            "بِخَيْر",
+            "well, fine"
+          ]
+        ]
+      },
+      {
+        "id": "d71l3",
+        "sp": "daniel",
+        "ar": "وَأَنْتَ بِخَيْر! الشَّارِع مُزْدَحِم جِدًّا الْيَوْمَ، وَكُلُّ النَّاس يَلْبَسُونَ مَلَابِس جَدِيدَة.",
+        "en": "And to you too! The street is very busy today, and everyone is wearing new clothes.",
+        "segs": [
+          [
+            "وَأَنْتَ",
+            "and you (to a man)"
+          ],
+          [
+            "بِخَيْر",
+            "well, fine"
+          ],
+          [
+            "الشَّارِع",
+            "the street"
+          ],
+          [
+            "مُزْدَحِم",
+            "crowded, busy"
+          ],
+          [
+            "جِدًّا",
+            "very"
+          ],
+          [
+            "الْيَوْمَ",
+            "today"
+          ],
+          [
+            "وَكُلُّ",
+            "and all (of)"
+          ],
+          [
+            "النَّاس",
+            "the people"
+          ],
+          [
+            "يَلْبَسُونَ",
+            "they wear"
+          ],
+          [
+            "مَلَابِس",
+            "clothes"
+          ],
+          [
+            "جَدِيدَة",
+            "new (f)"
+          ]
+        ]
+      },
+      {
+        "id": "d71l4",
+        "sp": "sami",
+        "ar": "نَعَم، هٰذِهِ عَادَة فِي الْعِيد. ذَهَبْنَا إِلَى صَلَاةِ الْعِيد فِي السَّاعَةِ السَّادِسَة صَبَاحًا، ثُمَّ رَجَعْنَا إِلَى الْبَيْت.",
+        "en": "Yes, it's a custom at Eid. We went to the Eid prayer at six in the morning, and then we came back home.",
+        "segs": [
+          [
+            "نَعَم",
+            "yes"
+          ],
+          [
+            "هٰذِهِ",
+            "this (f)"
+          ],
+          [
+            "عَادَة",
+            "custom, habit"
+          ],
+          [
+            "فِي",
+            "at, in"
+          ],
+          [
+            "الْعِيد",
+            "the festival, Eid"
+          ],
+          [
+            "ذَهَبْنَا",
+            "we went"
+          ],
+          [
+            "إِلَى",
+            "to"
+          ],
+          [
+            "صَلَاةِ",
+            "prayer (of)"
+          ],
+          [
+            "الْعِيد",
+            "the festival, Eid"
+          ],
+          [
+            "فِي",
+            "at"
+          ],
+          [
+            "السَّاعَةِ",
+            "the hour, o'clock"
+          ],
+          [
+            "السَّادِسَة",
+            "the sixth ('six o'clock')"
+          ],
+          [
+            "صَبَاحًا",
+            "in the morning"
+          ],
+          [
+            "ثُمَّ",
+            "then"
+          ],
+          [
+            "رَجَعْنَا",
+            "we came back"
+          ],
+          [
+            "إِلَى",
+            "to"
+          ],
+          [
+            "الْبَيْت",
+            "the house, home"
+          ]
+        ]
+      },
+      {
+        "id": "d71l5",
+        "sp": "fatima",
+        "ar": "أَهْلًا وَسَهْلًا يَا دَانْيَال! كُلُّ عَامٍ وَأَنْتَ بِخَيْر. شُكْرًا عَلَى الْكَعْك، لٰكِنْ مَا كَانَ ذٰلِكَ ضَرُورِيًّا!",
+        "en": "Welcome, Daniel! Many happy returns. Thank you for the kaʿk, but that really wasn't necessary!",
+        "segs": [
+          [
+            "أَهْلًا",
+            "welcome"
+          ],
+          [
+            "وَسَهْلًا",
+            "and welcome (lit. and easy ground)"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "دَانْيَال",
+            "Daniel (first name)",
+            "name"
+          ],
+          [
+            "كُلُّ",
+            "every"
+          ],
+          [
+            "عَامٍ",
+            "year"
+          ],
+          [
+            "وَأَنْتَ",
+            "and you (to a man)"
+          ],
+          [
+            "بِخَيْر",
+            "well, fine"
+          ],
+          [
+            "شُكْرًا",
+            "thank you"
+          ],
+          [
+            "عَلَى",
+            "for (lit. on)"
+          ],
+          [
+            "الْكَعْك",
+            "the kaʿk (Eid biscuits)"
+          ],
+          [
+            "لٰكِنْ",
+            "but"
+          ],
+          [
+            "مَا",
+            "not (before a past verb)"
+          ],
+          [
+            "كَانَ",
+            "(it) was"
+          ],
+          [
+            "ذٰلِكَ",
+            "that"
+          ],
+          [
+            "ضَرُورِيًّا",
+            "necessary"
+          ]
+        ]
+      },
+      {
+        "id": "d71l6",
+        "sp": "daniel",
+        "ar": "عَفْوًا يَا أُمَّ سَامِي. فِي أَمْرِيكَا لَا نَعْرِفُ الْكَعْك، لٰكِنْ أُرِيدُ أَنْ أَحْتَفِلَ بِالْعِيد مِثْلَكُمْ.",
+        "en": "You're welcome, Umm Sami. In America we don't know kaʿk, but I want to celebrate Eid like you.",
+        "segs": [
+          [
+            "عَفْوًا",
+            "you're welcome"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "أُمَّ",
+            "mother (of) ('Umm Sami')"
+          ],
+          [
+            "سَامِي",
+            "Sami (first name)",
+            "name"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "أَمْرِيكَا",
+            "America (country)",
+            "name"
+          ],
+          [
+            "لَا",
+            "not"
+          ],
+          [
+            "نَعْرِفُ",
+            "we know"
+          ],
+          [
+            "الْكَعْك",
+            "the kaʿk (Eid biscuits)"
+          ],
+          [
+            "لٰكِنْ",
+            "but"
+          ],
+          [
+            "أُرِيدُ",
+            "I want"
+          ],
+          [
+            "أَنْ",
+            "to, that"
+          ],
+          [
+            "أَحْتَفِلَ",
+            "I celebrate (after an)"
+          ],
+          [
+            "بِالْعِيد",
+            "(with) the festival, Eid"
+          ],
+          [
+            "مِثْلَكُمْ",
+            "like you (all)"
+          ]
+        ]
+      },
+      {
+        "id": "d71l7",
+        "sp": "omar",
+        "ar": "دَانْيَال! اُنْظُرْ، أَخَذْتُ عِيدِيَّة مِنْ جَدِّي وَجَدَّتِي، وَمِنْ أَبِي أَيْضًا!",
+        "en": "Daniel! Look, I got Eid money from my grandfather and my grandmother, and from my dad too!",
+        "segs": [
+          [
+            "دَانْيَال",
+            "Daniel (first name)",
+            "name"
+          ],
+          [
+            "اُنْظُرْ",
+            "look! (to a man)"
+          ],
+          [
+            "أَخَذْتُ",
+            "I took, I got"
+          ],
+          [
+            "عِيدِيَّة",
+            "Eid money"
+          ],
+          [
+            "مِنْ",
+            "from"
+          ],
+          [
+            "جَدِّي",
+            "my grandfather"
+          ],
+          [
+            "وَجَدَّتِي",
+            "and my grandmother"
+          ],
+          [
+            "وَمِنْ",
+            "and from"
+          ],
+          [
+            "أَبِي",
+            "my father"
+          ],
+          [
+            "أَيْضًا",
+            "also, too"
+          ]
+        ]
+      },
+      {
+        "id": "d71l8",
+        "sp": "daniel",
+        "ar": "مَا شَاءَ اللّٰه يَا عُمَر! وَمَاذَا سَتَفْعَلُ بِهٰذِهِ الْعِيدِيَّة؟ هَلْ سَتَشْتَرِي كُرَةً جَدِيدَة؟",
+        "en": "How wonderful, Omar! And what will you do with this Eid money? Will you buy a new ball?",
+        "segs": [
+          [
+            "مَا",
+            "what"
+          ],
+          [
+            "شَاءَ",
+            "(he) willed"
+          ],
+          [
+            "اللّٰه",
+            "God ('mā shāʾa llāh': how wonderful!)"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "عُمَر",
+            "Omar (first name)",
+            "name"
+          ],
+          [
+            "وَمَاذَا",
+            "and what"
+          ],
+          [
+            "سَتَفْعَلُ",
+            "you will do (to a man)"
+          ],
+          [
+            "بِهٰذِهِ",
+            "with this (f)"
+          ],
+          [
+            "الْعِيدِيَّة",
+            "the Eid money"
+          ],
+          [
+            "هَلْ",
+            "(starts a yes/no question)"
+          ],
+          [
+            "سَتَشْتَرِي",
+            "you will buy (to a man)"
+          ],
+          [
+            "كُرَةً",
+            "a ball"
+          ],
+          [
+            "جَدِيدَة",
+            "new (f)"
+          ]
+        ]
+      },
+      {
+        "id": "d71l9",
+        "sp": "omar",
+        "ar": "لَا، سَأَشْتَرِي لُعْبَة لِأُخْتِي نُور. هِيَ صَغِيرَة جِدًّا، وَأَخَذَتْ عِيدِيَّة قَلِيلَة!",
+        "en": "No, I'll buy a toy for my sister Nour. She is very little, and she only got a little Eid money!",
+        "segs": [
+          [
+            "لَا",
+            "no"
+          ],
+          [
+            "سَأَشْتَرِي",
+            "I will buy"
+          ],
+          [
+            "لُعْبَة",
+            "a toy"
+          ],
+          [
+            "لِأُخْتِي",
+            "for my sister"
+          ],
+          [
+            "نُور",
+            "Nour (first name)",
+            "name"
+          ],
+          [
+            "هِيَ",
+            "she"
+          ],
+          [
+            "صَغِيرَة",
+            "small, little (f)"
+          ],
+          [
+            "جِدًّا",
+            "very"
+          ],
+          [
+            "وَأَخَذَتْ",
+            "and she took, she got"
+          ],
+          [
+            "عِيدِيَّة",
+            "Eid money"
+          ],
+          [
+            "قَلِيلَة",
+            "little, not much (f)"
+          ]
+        ]
+      },
+      {
+        "id": "d71l10",
+        "sp": "fatima",
+        "ar": "عُمَر وَلَد طَيِّب. فِي رَمَضَان صُمْنَا ثَلَاثِينَ يَوْمًا، وَالْيَوْمَ نَحْتَفِلُ وَنَأْكُلُ مِنَ الصَّبَاح!",
+        "en": "Omar is a good boy. In Ramadan we fasted for thirty days, and today we celebrate and eat from the early morning on!",
+        "segs": [
+          [
+            "عُمَر",
+            "Omar (first name)",
+            "name"
+          ],
+          [
+            "وَلَد",
+            "boy"
+          ],
+          [
+            "طَيِّب",
+            "good, kind"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "رَمَضَان",
+            "Ramadan"
+          ],
+          [
+            "صُمْنَا",
+            "we fasted"
+          ],
+          [
+            "ثَلَاثِينَ",
+            "thirty"
+          ],
+          [
+            "يَوْمًا",
+            "day(s)"
+          ],
+          [
+            "وَالْيَوْمَ",
+            "and today"
+          ],
+          [
+            "نَحْتَفِلُ",
+            "we celebrate"
+          ],
+          [
+            "وَنَأْكُلُ",
+            "and we eat"
+          ],
+          [
+            "مِنَ",
+            "from"
+          ],
+          [
+            "الصَّبَاح",
+            "the morning"
+          ]
+        ]
+      },
+      {
+        "id": "d71l11",
+        "sp": "daniel",
+        "ar": "هٰذَا صَعْب! أَصْدِقَائِي الْمُسْلِمُونَ فِي شِيكَاغُو يَصُومُونَ أَيْضًا، وَفِي الْعِيد يَذْهَبُونَ إِلَى الْمَسْجِد ثُمَّ يَأْكُلُونَ مَعَ عَائِلَاتِهِمْ.",
+        "en": "That's hard! My Muslim friends in Chicago fast too, and at Eid they go to the mosque and then eat with their families.",
+        "segs": [
+          [
+            "هٰذَا",
+            "this ('that')"
+          ],
+          [
+            "صَعْب",
+            "difficult, hard"
+          ],
+          [
+            "أَصْدِقَائِي",
+            "my friends"
+          ],
+          [
+            "الْمُسْلِمُونَ",
+            "the Muslims ('Muslim')"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "شِيكَاغُو",
+            "Chicago (city in the USA)",
+            "name"
+          ],
+          [
+            "يَصُومُونَ",
+            "they fast"
+          ],
+          [
+            "أَيْضًا",
+            "also, too"
+          ],
+          [
+            "وَفِي",
+            "and at"
+          ],
+          [
+            "الْعِيد",
+            "the festival, Eid"
+          ],
+          [
+            "يَذْهَبُونَ",
+            "they go"
+          ],
+          [
+            "إِلَى",
+            "to"
+          ],
+          [
+            "الْمَسْجِد",
+            "the mosque"
+          ],
+          [
+            "ثُمَّ",
+            "then"
+          ],
+          [
+            "يَأْكُلُونَ",
+            "they eat"
+          ],
+          [
+            "مَعَ",
+            "with"
+          ],
+          [
+            "عَائِلَاتِهِمْ",
+            "their families"
+          ]
+        ]
+      },
+      {
+        "id": "d71l12",
+        "sp": "sami",
+        "ar": "نَعَم! وَبَعْدَ الْفُطُور نَزُورُ الْأَقَارِب. الْيَوْمَ نَذْهَبُ إِلَى بَيْتِ عَمِّي مُصْطَفَى. تَعَالَ مَعَنَا!",
+        "en": "Yes! And after breakfast we visit our relatives. Today we're going to my uncle Mustafa's house. Come with us!",
+        "segs": [
+          [
+            "نَعَم",
+            "yes"
+          ],
+          [
+            "وَبَعْدَ",
+            "and after"
+          ],
+          [
+            "الْفُطُور",
+            "the breakfast"
+          ],
+          [
+            "نَزُورُ",
+            "we visit"
+          ],
+          [
+            "الْأَقَارِب",
+            "the relatives"
+          ],
+          [
+            "الْيَوْمَ",
+            "today"
+          ],
+          [
+            "نَذْهَبُ",
+            "we go ('we're going')"
+          ],
+          [
+            "إِلَى",
+            "to"
+          ],
+          [
+            "بَيْتِ",
+            "house (of)"
+          ],
+          [
+            "عَمِّي",
+            "my uncle (father's brother)"
+          ],
+          [
+            "مُصْطَفَى",
+            "Mustafa (first name)",
+            "name"
+          ],
+          [
+            "تَعَالَ",
+            "come! (to a man)"
+          ],
+          [
+            "مَعَنَا",
+            "with us"
+          ]
+        ]
+      },
+      {
+        "id": "d71l13",
+        "sp": "daniel",
+        "ar": "بِكُلِّ سُرُور! لٰكِنْ قَبْلَ ذٰلِكَ أُرِيدُ أَنْ آكُلَ كَعْكَ أُمِّكَ. رَائِحَتُهُ جَمِيلَة جِدًّا!",
+        "en": "With pleasure! But before that I want to eat your mother's kaʿk. It smells wonderful!",
+        "segs": [
+          [
+            "بِكُلِّ",
+            "with all ('with pleasure')"
+          ],
+          [
+            "سُرُور",
+            "pleasure, joy"
+          ],
+          [
+            "لٰكِنْ",
+            "but"
+          ],
+          [
+            "قَبْلَ",
+            "before"
+          ],
+          [
+            "ذٰلِكَ",
+            "that"
+          ],
+          [
+            "أُرِيدُ",
+            "I want"
+          ],
+          [
+            "أَنْ",
+            "to, that"
+          ],
+          [
+            "آكُلَ",
+            "I eat (after an)"
+          ],
+          [
+            "كَعْكَ",
+            "kaʿk (of)"
+          ],
+          [
+            "أُمِّكَ",
+            "your mother (to a man)"
+          ],
+          [
+            "رَائِحَتُهُ",
+            "its smell"
+          ],
+          [
+            "جَمِيلَة",
+            "beautiful, lovely (f)"
+          ],
+          [
+            "جِدًّا",
+            "very"
+          ]
+        ]
+      },
+      {
+        "id": "d71l14",
+        "sp": "fatima",
+        "ar": "تَفَضَّلْ يَا ابْنِي! هٰذَا كَعْك بِالسُّكَّر، وَهٰذَا بِالتَّمْر. أَنْتَ ضَيْفُنَا الْيَوْمَ، فَكُلْ كَمَا تُرِيدُ!",
+        "en": "Help yourself, my son! This kaʿk is with sugar, and this one is with dates. You're our guest today, so eat as much as you like!",
+        "segs": [
+          [
+            "تَفَضَّلْ",
+            "please, help yourself (to a man)"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "ابْنِي",
+            "my son"
+          ],
+          [
+            "هٰذَا",
+            "this (m)"
+          ],
+          [
+            "كَعْك",
+            "kaʿk (sweet Eid biscuits)"
+          ],
+          [
+            "بِالسُّكَّر",
+            "with sugar"
+          ],
+          [
+            "وَهٰذَا",
+            "and this (m)"
+          ],
+          [
+            "بِالتَّمْر",
+            "with dates"
+          ],
+          [
+            "أَنْتَ",
+            "you (to a man)"
+          ],
+          [
+            "ضَيْفُنَا",
+            "our guest"
+          ],
+          [
+            "الْيَوْمَ",
+            "today"
+          ],
+          [
+            "فَكُلْ",
+            "so eat! (to a man)"
+          ],
+          [
+            "كَمَا",
+            "as"
+          ],
+          [
+            "تُرِيدُ",
+            "you want (to a man)"
+          ]
+        ]
+      },
+      {
+        "id": "d71l15",
+        "sp": "sami",
+        "ar": "اِنْتَبِهْ يَا دَانْيَال! كَعْكُ أُمِّي لَذِيذ جِدًّا، وَبَعْدَ عَشْرِ قِطَع لَا تَسْتَطِيعُ أَنْ تَمْشِيَ!",
+        "en": "Careful, Daniel! My mother's kaʿk is very tasty, and after ten pieces you can't walk any more!",
+        "segs": [
+          [
+            "اِنْتَبِهْ",
+            "watch out! (to a man)"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "دَانْيَال",
+            "Daniel (first name)",
+            "name"
+          ],
+          [
+            "كَعْكُ",
+            "kaʿk (of)"
+          ],
+          [
+            "أُمِّي",
+            "my mother"
+          ],
+          [
+            "لَذِيذ",
+            "delicious, tasty"
+          ],
+          [
+            "جِدًّا",
+            "very"
+          ],
+          [
+            "وَبَعْدَ",
+            "and after"
+          ],
+          [
+            "عَشْرِ",
+            "ten"
+          ],
+          [
+            "قِطَع",
+            "pieces"
+          ],
+          [
+            "لَا",
+            "not"
+          ],
+          [
+            "تَسْتَطِيعُ",
+            "you can (to a man)"
+          ],
+          [
+            "أَنْ",
+            "to, that"
+          ],
+          [
+            "تَمْشِيَ",
+            "you walk (after an)"
+          ]
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "title": "Eid with Sami's family",
+    "ar": "يَوْمَ الْعِيد زَارَ دَانْيَال عَائِلَةَ سَامِي. ذَهَبَتِ الْعَائِلَة إِلَى صَلَاةِ الْعِيد صَبَاحًا، ثُمَّ أَكَلُوا الْفُطُور مَعًا. أَخَذَ عُمَر عِيدِيَّة مِنْ جَدِّهِ وَجَدَّتِهِ. أَكَلَ دَانْيَال كَعْكًا كَثِيرًا، وَقَالَ: كُلُّ عَامٍ وَأَنْتُمْ بِخَيْر!",
+    "en": "On Eid day Daniel visited Sami's family. In the morning the family went to the Eid prayer, and then they ate breakfast together. Omar got Eid money from his grandfather and grandmother. Daniel ate a lot of kaʿk and said: Many happy returns to you all!",
+    "segs": [
+      [
+        "يَوْمَ",
+        "on the day of"
+      ],
+      [
+        "الْعِيد",
+        "the festival, Eid"
+      ],
+      [
+        "زَارَ",
+        "(he) visited"
+      ],
+      [
+        "دَانْيَال",
+        "Daniel (first name)",
+        "name"
+      ],
+      [
+        "عَائِلَةَ",
+        "family (of)"
+      ],
+      [
+        "سَامِي",
+        "Sami (first name)",
+        "name"
+      ],
+      [
+        "ذَهَبَتِ",
+        "(she) went"
+      ],
+      [
+        "الْعَائِلَة",
+        "the family"
+      ],
+      [
+        "إِلَى",
+        "to"
+      ],
+      [
+        "صَلَاةِ",
+        "prayer (of)"
+      ],
+      [
+        "الْعِيد",
+        "the festival, Eid"
+      ],
+      [
+        "صَبَاحًا",
+        "in the morning"
+      ],
+      [
+        "ثُمَّ",
+        "then"
+      ],
+      [
+        "أَكَلُوا",
+        "they ate"
+      ],
+      [
+        "الْفُطُور",
+        "the breakfast"
+      ],
+      [
+        "مَعًا",
+        "together"
+      ],
+      [
+        "أَخَذَ",
+        "(he) took, got"
+      ],
+      [
+        "عُمَر",
+        "Omar (first name)",
+        "name"
+      ],
+      [
+        "عِيدِيَّة",
+        "Eid money"
+      ],
+      [
+        "مِنْ",
+        "from"
+      ],
+      [
+        "جَدِّهِ",
+        "his grandfather"
+      ],
+      [
+        "وَجَدَّتِهِ",
+        "and his grandmother"
+      ],
+      [
+        "أَكَلَ",
+        "(he) ate"
+      ],
+      [
+        "دَانْيَال",
+        "Daniel (first name)",
+        "name"
+      ],
+      [
+        "كَعْكًا",
+        "kaʿk (Eid biscuits)"
+      ],
+      [
+        "كَثِيرًا",
+        "a lot, much"
+      ],
+      [
+        "وَقَالَ",
+        "and (he) said"
+      ],
+      [
+        "كُلُّ",
+        "every"
+      ],
+      [
+        "عَامٍ",
+        "year"
+      ],
+      [
+        "وَأَنْتُمْ",
+        "and you (all)"
+      ],
+      [
+        "بِخَيْر",
+        "well, fine"
+      ]
+    ]
+  },
+  "review": [
+    "aqarib",
+    "malabis",
+    "masjid",
+    "hadiyya",
+    "yazuru",
+    "yahtafilu",
+    "dayf"
+  ],
+  "quiz": [
+    {
+      "id": "d71q1",
+      "prompt": "What does this mean?",
+      "ar": "عِيد مُبَارَك!",
+      "options": [
+        "Good morning!",
+        "Blessed Eid!",
+        "Thank you!",
+        "Welcome!"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "d71q2",
+      "prompt": "How do you answer كُلُّ عَامٍ وَأَنْتَ بِخَيْر?",
+      "options": [
+        "صَبَاحُ النُّور",
+        "عَفْوًا",
+        "وَأَنْتَ بِخَيْر",
+        "مَعَ السَّلَامَة"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "d71q3",
+      "prompt": "What is عِيدِيَّة?",
+      "options": [
+        "Eid biscuits",
+        "the Eid prayer",
+        "a new dress",
+        "Eid money for children"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "d71q4",
+      "prompt": "What does Daniel bring to Sami's family?",
+      "options": [
+        "kaʿk from the bakery",
+        "flowers",
+        "a toy for Nour",
+        "dates"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "d71q5",
+      "prompt": "What will Omar buy with his Eid money?",
+      "options": [
+        "a new ball",
+        "a toy for Nour",
+        "kaʿk",
+        "a book"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "d71q6",
+      "prompt": "Wish a woman many happy returns.",
+      "options": [
+        "كُلُّ عَامٍ وَأَنْتَ بِخَيْر",
+        "كُلُّ عَامٍ وَأَنْتُمْ بِخَيْر",
+        "كُلُّ عَامٍ وَأَنْتِ بِخَيْر",
+        "عِيد مُبَارَكَة"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "d71q7",
+      "prompt": "Which word begins with ʿayn (ع), the sound squeezed in the throat?",
+      "options": [
+        "صَلَاة",
+        "رَمَضَان",
+        "ضَيْف",
+        "عِيد"
+      ],
+      "answer": 3
+    }
+  ],
+  "completion": "ʿĪd mubārak! You can wish people a happy Eid, answer festival greetings with the right pronoun, and talk about Ramadan and Eid customs. Tomorrow: music and film.",
+  "status": "needs-review"
+}
