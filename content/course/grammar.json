@@ -2319,5 +2319,431 @@
         "en": "I must go to bed early."
       }
     ]
+  },
+  {
+    "id": "future",
+    "title": "The future: سَـ and سَوْفَ",
+    "titleAr": "الْمُسْتَقْبَل",
+    "firstDay": 50,
+    "summary": "To talk about the future, put سَـ (sa-) or سَوْفَ (sawfa) in front of a present-tense verb: أَزُورُ (I visit) → سَأَزُورُ (I will visit).",
+    "formula": "سَـ + present verb, written as one word: سَأَزُورُ · سَوْفَ + present verb, two words: سَوْفَ أَزُورُ",
+    "explanation": "Arabic has no separate future tense. Take the present tense you already know and put سَـ in front of it, written joined to the verb: أَنَامُ (I sleep) → سَأَنَامُ (I will sleep), نَذْهَبُ (we go) → سَنَذْهَبُ (we will go). The person prefix and ending stay exactly the same. سَوْفَ means the same thing but is a separate word: سَوْفَ أَتَّصِلُ (I will call). The future of كَانَ is سَيَكُونُ (he, it will be), and like كَانَ it puts the describing word in the -an form: سَأَكُونُ مَشْغُولًا (I will be busy). To ask about plans, say مَاذَا سَتَفْعَلُ غَدًا؟ (what will you do tomorrow?). Never put سَـ or سَوْفَ in front of a past verb. The negative ('I won't') uses a different word, which comes on day 51.",
+    "table": {
+      "head": [
+        "Person",
+        "Present",
+        "Future",
+        "English"
+      ],
+      "rows": [
+        [
+          "أَنَا",
+          "أَنَامُ",
+          "سَأَنَامُ",
+          "I will sleep"
+        ],
+        [
+          "أَنْتَ",
+          "تَفْعَلُ",
+          "سَتَفْعَلُ",
+          "you will do (to a man)"
+        ],
+        [
+          "هُوَ",
+          "يَتَّصِلُ",
+          "سَيَتَّصِلُ",
+          "he will call"
+        ],
+        [
+          "هِيَ",
+          "تُقَابِلُ",
+          "سَتُقَابِلُ",
+          "she will meet"
+        ],
+        [
+          "نَحْنُ",
+          "نَذْهَبُ",
+          "سَنَذْهَبُ",
+          "we will go"
+        ],
+        [
+          "أَنْتُمْ",
+          "تُرَاجِعُونَ",
+          "سَتُرَاجِعُونَ",
+          "you will revise (to several people)"
+        ]
+      ]
+    },
+    "examples": [
+      {
+        "ar": "سَأَزُورُ الْأَهْرَام بَعْدَ غَدٍ.",
+        "en": "I will visit the pyramids the day after tomorrow."
+      },
+      {
+        "ar": "مَاذَا سَتَفْعَلُ غَدًا؟",
+        "en": "What will you do tomorrow? (to a man)"
+      },
+      {
+        "ar": "سَوْفَ أَتَّصِلُ بِأُخْتِي فِي الْمَسَاء.",
+        "en": "I will call my sister in the evening."
+      }
+    ]
+  },
+  {
+    "id": "negation-lan",
+    "title": "I won't: لَنْ + the present",
+    "titleAr": "لَنْ أَنَامَ",
+    "firstDay": 51,
+    "summary": "To say 'won't', put لَنْ in front of a present verb and end the verb in -a: سَأَنَامُ (I will sleep) → لَنْ أَنَامَ (I won't sleep).",
+    "formula": "لَنْ + present verb ending in -a: لَنْ أَنَامَ · لَنْ نَرْكَبَ · لَنْ تَأْتِيَ",
+    "explanation": "The future has its own negative word. Do not say لَا سَأَنَامُ: drop سَـ and put لَنْ in front of the present verb instead. After لَنْ the verb takes the same -a ending as after أَنْ: أَنَامُ → لَنْ أَنَامَ (I won't sleep), سَتَأْتِي → لَنْ تَأْتِيَ (she won't come). A verb that ends in a long ā does not change: لَنْ أَنْسَى (I won't forget). For two people the -ni ending drops: لَنْ يَرْكَبَا (they two won't take). With أَبَدًا it means 'never': لَنْ أُسَافِرَ أَبَدًا (I will never travel). Remember the three negatives: لَا for the present, لَمْ for the past and لَنْ for the future.",
+    "table": {
+      "head": [
+        "Future",
+        "Won't",
+        "English"
+      ],
+      "rows": [
+        [
+          "سَأَنَامُ",
+          "لَنْ أَنَامَ",
+          "I won't sleep"
+        ],
+        [
+          "سَأَمْشِي",
+          "لَنْ أَمْشِيَ",
+          "I won't walk"
+        ],
+        [
+          "سَتَأْتِي",
+          "لَنْ تَأْتِيَ",
+          "she won't come"
+        ],
+        [
+          "سَنَرْكَبُ",
+          "لَنْ نَرْكَبَ",
+          "we won't take, we won't ride"
+        ]
+      ]
+    },
+    "examples": [
+      {
+        "ar": "لَنْ أَنَامَ مُتَأَخِّرًا اللَّيْلَة.",
+        "en": "I won't go to bed late tonight."
+      },
+      {
+        "ar": "لَيْلَى لَنْ تَأْتِيَ مَعَنَا فِي الصَّبَاح.",
+        "en": "Layla won't come with us in the morning."
+      }
+    ]
+  },
+  {
+    "id": "li-purpose",
+    "title": "In order to: لِـ + the present",
+    "titleAr": "لِأَشْتَرِيَ",
+    "firstDay": 52,
+    "summary": "To say why you do something, put لِـ (li-) in front of a present verb ending in -a: سَأَذْهَبُ إِلَى السُّوق لِأَشْتَرِيَ هَدِيَّة (I'll go to the market to buy a present).",
+    "formula": "action + لِـ + present verb ending in -a: لِأَشْتَرِيَ · لِنَشْتَرِيَ · لِتَصْنَعَ",
+    "explanation": "English uses 'to' for a purpose: 'I went out to buy bread'. Arabic uses لِـ (li-, 'for, so that'), written joined to the verb. As after أَنْ, the verb keeps its person and ends in -a: أَشْتَرِي (I buy) → لِأَشْتَرِيَ (to buy, so that I buy), نَشْتَرِي (we buy) → لِنَشْتَرِيَ (so that we buy). The person is the one who does the second action: سَتَأْتِي أُمِّي لِتَصْنَعَ الْكَعْكَة (my mother will come to make the cake). Don't mix it up with أَنْ: أَنْ follows verbs such as أُرِيدُ (I want) and أَسْتَطِيعُ (I can), while لِـ gives the reason for an action.",
+    "table": {
+      "head": [
+        "Action",
+        "لِـ + verb",
+        "English"
+      ],
+      "rows": [
+        [
+          "سَأَذْهَبُ إِلَى السُّوق",
+          "لِأَشْتَرِيَ هَدِيَّة",
+          "I'll go to the market to buy a present"
+        ],
+        [
+          "سَنَذْهَبُ إِلَى خَانِ الْخَلِيلِيّ",
+          "لِنَشْتَرِيَ هَدِيَّة",
+          "we'll go to Khan el-Khalili to buy a present"
+        ],
+        [
+          "سَتَأْتِي أُمِّي",
+          "لِتَصْنَعَ الْكَعْكَة",
+          "my mother will come to make the cake"
+        ],
+        [
+          "جِئْتُ",
+          "لِأَدْعُوَكَ",
+          "I've come to invite you (to a man)"
+        ]
+      ]
+    },
+    "examples": [
+      {
+        "ar": "سَأَذْهَبُ إِلَى السُّوق لِأَشْتَرِيَ هَدِيَّة.",
+        "en": "I'll go to the market to buy a present."
+      },
+      {
+        "ar": "أُمِّي سَتَأْتِي مِنْ بَيْرُوت لِتَصْنَعَ الْكَعْكَة.",
+        "en": "My mother is coming from Beirut to make the cake."
+      }
+    ]
+  },
+  {
+    "id": "weather-expressions",
+    "title": "Talking about the weather",
+    "titleAr": "الطَّقْس",
+    "firstDay": 53,
+    "summary": "Describe the weather with الْجَوّ (the weather) + an adjective: الْجَوّ حَارّ (it's hot). Rain has its own verb, تُمْطِرُ (it rains), and the temperature is دَرَجَةُ الْحَرَارَة + a number.",
+    "formula": "الْجَوّ + adjective: الْجَوّ بَارِد · تُمْطِرُ / أَمْطَرَتْ / سَتُمْطِرُ · دَرَجَةُ الْحَرَارَة + number",
+    "explanation": "English says 'it is hot', with an empty 'it'. Arabic names the weather instead: الْجَوّ حَارّ (the weather is hot), الْجَوّ غَائِم (it's cloudy). For rain there is a verb, used in the feminine because 'the sky' is understood: تُمْطِرُ (it rains, it's raining), أَمْطَرَتْ (it rained), سَتُمْطِرُ (it will rain). For snow say يَنْزِلُ الثَّلْج (snow falls). For wind use هُنَاكَ: هُنَاكَ رِيَاح قَوِيَّة (it's very windy). To ask, say كَيْفَ الطَّقْس؟ (what's the weather like?). In the past and the future, كَانَ and سَيَكُونُ put the adjective in the -an form: كَانَ الْجَوّ بَارِدًا (it was cold), سَيَكُونُ الْجَوّ بَارِدًا (it will be cold).",
+    "table": {
+      "head": [
+        "Arabic",
+        "English"
+      ],
+      "rows": [
+        [
+          "الْجَوّ حَارّ",
+          "it's hot"
+        ],
+        [
+          "الْجَوّ بَارِد",
+          "it's cold"
+        ],
+        [
+          "الْجَوّ مُشْمِس",
+          "it's sunny"
+        ],
+        [
+          "الْجَوّ غَائِم",
+          "it's cloudy"
+        ],
+        [
+          "تُمْطِرُ",
+          "it's raining, it rains"
+        ],
+        [
+          "يَنْزِلُ الثَّلْج",
+          "it's snowing (snow falls)"
+        ],
+        [
+          "هُنَاكَ رِيَاح قَوِيَّة",
+          "it's very windy"
+        ],
+        [
+          "دَرَجَةُ الْحَرَارَة ثَلَاثُونَ",
+          "the temperature is thirty degrees"
+        ]
+      ]
+    },
+    "examples": [
+      {
+        "ar": "الْجَوّ حَارّ وَمُشْمِس فِي الْقَاهِرَة.",
+        "en": "It's hot and sunny in Cairo."
+      },
+      {
+        "ar": "سَتُمْطِرُ غَدًا فِي عَمَّان.",
+        "en": "It will rain in Amman tomorrow."
+      }
+    ]
+  },
+  {
+    "id": "yakun-w8",
+    "title": "يَكُونُ: is usually, will be",
+    "titleAr": "سَيَكُونُ الْجَوّ حَارًّا",
+    "firstDay": 54,
+    "summary": "يَكُونُ is the present form of كَانَ. Use it for what is usually true (فِي الصَّيْف يَكُونُ الْجَوّ حَارًّا, in summer the weather is hot) and, with سَـ, for the future: سَيَكُونُ (it will be).",
+    "formula": "(سَـ) يَكُونُ / تَكُونُ + subject + describing word with -an: يَكُونُ الْجَوّ حَارًّا",
+    "explanation": "In the present, Arabic usually needs no verb 'to be': الْجَوّ حَارّ (the weather is hot). But كَانَ has a present form, يَكُونُ, and it is used in two places. First, for what is usually or always true, often with a time phrase: فِي الشِّتَاء يَكُونُ الْجَوّ بَارِدًا (in winter the weather is cold). Second, for the future, with سَـ: سَيَكُونُ الْجَوّ حَارًّا (it will be hot), سَأَكُونُ مَشْغُولًا (I will be busy). Like كَانَ, it changes the describing word to the -an form: حَارّ → حَارًّا. With a feminine subject, and with plurals of things, use تَكُونُ: تَكُونُ الْحَرَارَة أَرْبَعِينَ دَرَجَةً (the temperature is forty degrees).",
+    "table": {
+      "head": [
+        "Person",
+        "Is (usually)",
+        "Will be",
+        "English"
+      ],
+      "rows": [
+        [
+          "أَنَا",
+          "أَكُونُ",
+          "سَأَكُونُ",
+          "I am / I will be"
+        ],
+        [
+          "أَنْتَ",
+          "تَكُونُ",
+          "سَتَكُونُ",
+          "you are / you will be (to a man)"
+        ],
+        [
+          "هُوَ",
+          "يَكُونُ",
+          "سَيَكُونُ",
+          "he, it is / will be"
+        ],
+        [
+          "هِيَ",
+          "تَكُونُ",
+          "سَتَكُونُ",
+          "she, it is / will be"
+        ],
+        [
+          "نَحْنُ",
+          "نَكُونُ",
+          "سَنَكُونُ",
+          "we are / we will be"
+        ]
+      ]
+    },
+    "examples": [
+      {
+        "ar": "فِي الصَّيْف يَكُونُ الْجَوّ حَارًّا.",
+        "en": "In summer the weather is hot."
+      },
+      {
+        "ar": "سَيَكُونُ الشِّتَاء بَارِدًا فِي عَمَّان.",
+        "en": "Winter will be cold in Amman."
+      }
+    ]
+  },
+  {
+    "id": "next-time-w8",
+    "title": "Next week, next month: الْقَادِم, and the months",
+    "titleAr": "الشَّهْرَ الْقَادِمَ",
+    "firstDay": 55,
+    "summary": "For the future, use الْقَادِم (next, coming) where you used الْمَاضِي (last) for the past: الشَّهْرَ الْقَادِمَ (next month), السَّنَةَ الْقَادِمَةَ (next year). For a month, use فِي: فِي مَارِس (in March).",
+    "formula": "الشَّهْرَ الْقَادِمَ · السَّنَةَ الْقَادِمَةَ · فِي (شَهْرِ) + month: فِي شَهْرِ مَارِس",
+    "explanation": "On day 38 you met الْأُسْبُوعَ الْمَاضِي (last week). Its partner for the future is الْقَادِم (coming, next): الشَّهْرَ الْقَادِمَ (next month). Like any adjective it agrees with its noun, so a feminine noun takes ة: السَّنَةَ الْقَادِمَةَ (next year), الشُّهُور الْقَادِمَة (the coming months). Used without a preposition, the time phrase takes the -a ending, just like الشَّهْرَ الْمَاضِي. For a month use فِي, with or without the word شَهْر: فِي دِيسَمْبِر or فِي شَهْرِ دِيسَمْبِر (in December). The month names below are the ones used in Egypt; Lebanon, Syria and Jordan use older names.",
+    "table": {
+      "head": [
+        "Month",
+        "English",
+        "Month",
+        "English"
+      ],
+      "rows": [
+        [
+          "يَنَايِر",
+          "January",
+          "يُولْيُو",
+          "July"
+        ],
+        [
+          "فِبْرَايِر",
+          "February",
+          "أُغُسْطُس",
+          "August"
+        ],
+        [
+          "مَارِس",
+          "March",
+          "سِبْتَمْبِر",
+          "September"
+        ],
+        [
+          "أَبْرِيل",
+          "April",
+          "أُكْتُوبَر",
+          "October"
+        ],
+        [
+          "مَايُو",
+          "May",
+          "نُوفَمْبِر",
+          "November"
+        ],
+        [
+          "يُونْيُو",
+          "June",
+          "دِيسَمْبِر",
+          "December"
+        ]
+      ]
+    },
+    "examples": [
+      {
+        "ar": "سَنُسَافِرُ إِلَى عَمَّان الشَّهْرَ الْقَادِمَ.",
+        "en": "We'll travel to Amman next month."
+      },
+      {
+        "ar": "السَّنَةَ الْقَادِمَةَ سَأَزُورُ لُبْنَان.",
+        "en": "Next year I'll visit Lebanon."
+      }
+    ]
+  },
+  {
+    "id": "dates",
+    "title": "Dates: the fifth of November",
+    "titleAr": "مَا تَارِيخُ الْيَوْم؟",
+    "firstDay": 56,
+    "summary": "Say a date with an ordinal, then مِنْ (of), then the month: الْخَامِسُ مِنْ نُوفَمْبِر (the fifth of November). To ask, say مَا تَارِيخُ الْيَوْم؟ (what's the date today?).",
+    "formula": "الـ + ordinal (masculine) + مِنْ + month: السَّابِعُ مِنْ نُوفَمْبِر · on a date: فِي السَّابِعِ مِنْ نُوفَمْبِر",
+    "explanation": "A date is 'the Nth day of the month'. Use the ordinal with الـ, in the masculine because يَوْم (day) is masculine, then مِنْ (of, from), then the month: الْخَامِسُ مِنْ نُوفَمْبِر. To say 'on' a date, use فِي: فِي السَّابِعِ مِنْ نُوفَمْبِر (on the seventh of November). You can put the weekday first: يَوْمَ الْأَحَد، التَّاسِعِ مِنْ نُوفَمْبِر. Don't mix it up with the time: the hour is feminine, so السَّاعَة السَّابِعَة is seven o'clock, while السَّابِعُ مِنْ نُوفَمْبِر is a date. From the 11th on, people usually just read the number before the month. Dates are written day first, then month: ٧/١١ is the seventh of November.",
+    "table": {
+      "head": [
+        "Day",
+        "Ordinal (for dates)",
+        "English"
+      ],
+      "rows": [
+        [
+          "١",
+          "الْأَوَّل",
+          "the first"
+        ],
+        [
+          "٢",
+          "الثَّانِي",
+          "the second"
+        ],
+        [
+          "٣",
+          "الثَّالِث",
+          "the third"
+        ],
+        [
+          "٤",
+          "الرَّابِع",
+          "the fourth"
+        ],
+        [
+          "٥",
+          "الْخَامِس",
+          "the fifth"
+        ],
+        [
+          "٦",
+          "السَّادِس",
+          "the sixth"
+        ],
+        [
+          "٧",
+          "السَّابِع",
+          "the seventh"
+        ],
+        [
+          "٨",
+          "الثَّامِن",
+          "the eighth"
+        ],
+        [
+          "٩",
+          "التَّاسِع",
+          "the ninth"
+        ],
+        [
+          "١٠",
+          "الْعَاشِر",
+          "the tenth"
+        ]
+      ]
+    },
+    "examples": [
+      {
+        "ar": "الْيَوْمَ الْخَامِسُ مِنْ نُوفَمْبِر.",
+        "en": "Today is the fifth of November."
+      },
+      {
+        "ar": "الْحَفْلَة فِي السَّابِعِ مِنْ نُوفَمْبِر.",
+        "en": "The party is on the seventh of November."
+      }
+    ]
   }
 ]

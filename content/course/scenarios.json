@@ -6835,5 +6835,1392 @@
         "answer": 3
       }
     ]
+  },
+  {
+    "id": "birthday-invitation",
+    "title": "A birthday invitation",
+    "emoji": "🎈",
+    "status": "needs-review",
+    "intro": "Your neighbour Huda knocks on your door to invite you to her son's birthday party. Useful phrases: جِئْتُ لِأَدْعُوَكَ (I've come to invite you), بِكُلِّ سُرُور (with pleasure) and كُلُّ عَامٍ وَهُوَ بِخَيْر (happy birthday to him).",
+    "dialogue": {
+      "title": "A party in the garden",
+      "speakers": [
+        {
+          "key": "huda",
+          "name": "Huda",
+          "nameAr": "هُدَى"
+        },
+        {
+          "key": "daniel",
+          "name": "Daniel",
+          "nameAr": "دَانْيَال"
+        }
+      ],
+      "culture": "Neighbours in Arab cities often know each other well and invite each other to family celebrations. Children's birthday parties are usually in the late afternoon, with a big cake, candles and the birthday song. A small present is welcome, but nobody expects anything expensive.",
+      "lines": [
+        {
+          "id": "birthday-invitation-l1",
+          "sp": "huda",
+          "ar": "مَسَاءُ الْخَيْر يَا دَانْيَال! أَنَا جَارَتُكَ هُدَى، مِنَ الطَّابِق الثَّالِث.",
+          "en": "Good evening, Daniel! I'm your neighbour Huda, from the third floor.",
+          "segs": [
+            [
+              "مَسَاءُ",
+              "evening (of)"
+            ],
+            [
+              "الْخَيْر",
+              "the goodness"
+            ],
+            [
+              "يَا",
+              "O (calling someone)"
+            ],
+            [
+              "دَانْيَال",
+              "Daniel (first name)",
+              "name"
+            ],
+            [
+              "أَنَا",
+              "I"
+            ],
+            [
+              "جَارَتُكَ",
+              "your neighbour (a woman; to a man)"
+            ],
+            [
+              "هُدَى",
+              "Huda (first name)",
+              "name"
+            ],
+            [
+              "مِنَ",
+              "from"
+            ],
+            [
+              "الطَّابِق",
+              "the floor"
+            ],
+            [
+              "الثَّالِث",
+              "the third"
+            ]
+          ]
+        },
+        {
+          "id": "birthday-invitation-l2",
+          "sp": "daniel",
+          "ar": "مَسَاءُ النُّور يَا سَيِّدَة هُدَى! تَفَضَّلِي، كَيْفَ أَسْتَطِيعُ أَنْ أُسَاعِدَكِ؟",
+          "en": "Good evening, Mrs Huda! Please come in. How can I help you?",
+          "segs": [
+            [
+              "مَسَاءُ",
+              "evening (of)"
+            ],
+            [
+              "النُّور",
+              "the light"
+            ],
+            [
+              "يَا",
+              "O (calling someone)"
+            ],
+            [
+              "سَيِّدَة",
+              "Mrs, lady"
+            ],
+            [
+              "هُدَى",
+              "Huda (first name)",
+              "name"
+            ],
+            [
+              "تَفَضَّلِي",
+              "please come in (to a woman)"
+            ],
+            [
+              "كَيْفَ",
+              "how"
+            ],
+            [
+              "أَسْتَطِيعُ",
+              "I can"
+            ],
+            [
+              "أَنْ",
+              "to, that"
+            ],
+            [
+              "أُسَاعِدَكِ",
+              "I help you (to a woman, after an)"
+            ]
+          ]
+        },
+        {
+          "id": "birthday-invitation-l3",
+          "sp": "huda",
+          "ar": "شُكْرًا، لَنْ أَدْخُلَ. جِئْتُ لِأَدْعُوَكَ إِلَى حَفْلَةِ عِيدِ مِيلَادِ وَلَدِي آدَم يَوْمَ السَّبْت.",
+          "en": "Thank you, I won't come in. I've come to invite you to my son Adam's birthday party on Saturday.",
+          "segs": [
+            [
+              "شُكْرًا",
+              "thank you"
+            ],
+            [
+              "لَنْ",
+              "will not"
+            ],
+            [
+              "أَدْخُلَ",
+              "I come in (after lan)"
+            ],
+            [
+              "جِئْتُ",
+              "I came"
+            ],
+            [
+              "لِأَدْعُوَكَ",
+              "to invite you (to a man)"
+            ],
+            [
+              "إِلَى",
+              "to"
+            ],
+            [
+              "حَفْلَةِ",
+              "party (of)"
+            ],
+            [
+              "عِيدِ",
+              "feast, day (of)"
+            ],
+            [
+              "مِيلَادِ",
+              "birth (of)"
+            ],
+            [
+              "وَلَدِي",
+              "my boy, my son"
+            ],
+            [
+              "آدَم",
+              "Adam (first name)",
+              "name"
+            ],
+            [
+              "يَوْمَ",
+              "on the day of"
+            ],
+            [
+              "السَّبْت",
+              "Saturday"
+            ]
+          ]
+        },
+        {
+          "id": "birthday-invitation-l4",
+          "sp": "daniel",
+          "ar": "شُكْرًا عَلَى الدَّعْوَة! كُلُّ عَامٍ وَهُوَ بِخَيْر. كَمْ عُمْرُهُ الْآنَ؟",
+          "en": "Thank you for the invitation! Happy birthday to him. How old is he now?",
+          "segs": [
+            [
+              "شُكْرًا",
+              "thank you"
+            ],
+            [
+              "عَلَى",
+              "for"
+            ],
+            [
+              "الدَّعْوَة",
+              "the invitation"
+            ],
+            [
+              "كُلُّ",
+              "every"
+            ],
+            [
+              "عَامٍ",
+              "year"
+            ],
+            [
+              "وَهُوَ",
+              "and he"
+            ],
+            [
+              "بِخَيْر",
+              "well ('kullu ʿāmin wa-huwa bi-khayr': happy birthday to him)"
+            ],
+            [
+              "كَمْ",
+              "how many, how much"
+            ],
+            [
+              "عُمْرُهُ",
+              "his age"
+            ],
+            [
+              "الْآنَ",
+              "now"
+            ]
+          ]
+        },
+        {
+          "id": "birthday-invitation-l5",
+          "sp": "huda",
+          "ar": "سَيَكُونُ عُمْرُهُ سِتَّ سَنَوَات. الْحَفْلَة فِي الْحَدِيقَة أَمَامَ الْبِنَايَة، فِي السَّاعَة الْخَامِسَة.",
+          "en": "He'll be six years old. The party is in the garden in front of the building, at five o'clock.",
+          "segs": [
+            [
+              "سَيَكُونُ",
+              "will be"
+            ],
+            [
+              "عُمْرُهُ",
+              "his age"
+            ],
+            [
+              "سِتَّ",
+              "six"
+            ],
+            [
+              "سَنَوَات",
+              "years"
+            ],
+            [
+              "الْحَفْلَة",
+              "the party"
+            ],
+            [
+              "فِي",
+              "in"
+            ],
+            [
+              "الْحَدِيقَة",
+              "the garden"
+            ],
+            [
+              "أَمَامَ",
+              "in front of"
+            ],
+            [
+              "الْبِنَايَة",
+              "the building"
+            ],
+            [
+              "فِي",
+              "at"
+            ],
+            [
+              "السَّاعَة",
+              "the hour ('o'clock')"
+            ],
+            [
+              "الْخَامِسَة",
+              "the fifth ('five')"
+            ]
+          ]
+        },
+        {
+          "id": "birthday-invitation-l6",
+          "sp": "daniel",
+          "ar": "يَوْمَ السَّبْت فِي السَّاعَة الْخَامِسَة؟ لَا مُشْكِلَة، لَنْ أَكُونَ مَشْغُولًا. سَآتِي بِكُلِّ سُرُور.",
+          "en": "Saturday at five? No problem, I won't be busy. I'll come with pleasure.",
+          "segs": [
+            [
+              "يَوْمَ",
+              "on the day of"
+            ],
+            [
+              "السَّبْت",
+              "Saturday"
+            ],
+            [
+              "فِي",
+              "at"
+            ],
+            [
+              "السَّاعَة",
+              "the hour ('o'clock')"
+            ],
+            [
+              "الْخَامِسَة",
+              "the fifth ('five')"
+            ],
+            [
+              "لَا",
+              "no"
+            ],
+            [
+              "مُشْكِلَة",
+              "problem"
+            ],
+            [
+              "لَنْ",
+              "will not"
+            ],
+            [
+              "أَكُونَ",
+              "I am, I be (after lan)"
+            ],
+            [
+              "مَشْغُولًا",
+              "busy (after 'be')"
+            ],
+            [
+              "سَآتِي",
+              "I will come"
+            ],
+            [
+              "بِكُلِّ",
+              "with all"
+            ],
+            [
+              "سُرُور",
+              "pleasure ('bi-kulli surūr': with pleasure)"
+            ]
+          ]
+        },
+        {
+          "id": "birthday-invitation-l7",
+          "sp": "huda",
+          "ar": "رَائِع! سَيَكُونُ هُنَاكَ أَطْفَال كَثِيرُونَ مِنَ الْبِنَايَة، وَكَعْكَة كَبِيرَة طَبْعًا.",
+          "en": "Wonderful! There will be lots of children from the building, and a big cake of course.",
+          "segs": [
+            [
+              "رَائِع",
+              "wonderful, great"
+            ],
+            [
+              "سَيَكُونُ",
+              "there will be"
+            ],
+            [
+              "هُنَاكَ",
+              "there"
+            ],
+            [
+              "أَطْفَال",
+              "children"
+            ],
+            [
+              "كَثِيرُونَ",
+              "many"
+            ],
+            [
+              "مِنَ",
+              "from"
+            ],
+            [
+              "الْبِنَايَة",
+              "the building"
+            ],
+            [
+              "وَكَعْكَة",
+              "and a cake"
+            ],
+            [
+              "كَبِيرَة",
+              "big (f)"
+            ],
+            [
+              "طَبْعًا",
+              "of course"
+            ]
+          ]
+        },
+        {
+          "id": "birthday-invitation-l8",
+          "sp": "daniel",
+          "ar": "هَلْ أُحْضِرُ شَيْئًا؟ أُرِيدُ أَنْ أَشْتَرِيَ هَدِيَّة لِآدَم. مَاذَا يُحِبُّ؟",
+          "en": "Shall I bring something? I'd like to buy a present for Adam. What does he like?",
+          "segs": [
+            [
+              "هَلْ",
+              "(starts a yes/no question)"
+            ],
+            [
+              "أُحْضِرُ",
+              "I bring ('shall I bring')"
+            ],
+            [
+              "شَيْئًا",
+              "anything, something"
+            ],
+            [
+              "أُرِيدُ",
+              "I want"
+            ],
+            [
+              "أَنْ",
+              "to, that"
+            ],
+            [
+              "أَشْتَرِيَ",
+              "I buy (after an)"
+            ],
+            [
+              "هَدِيَّة",
+              "a present, a gift"
+            ],
+            [
+              "لِآدَم",
+              "for Adam (first name)",
+              "name"
+            ],
+            [
+              "مَاذَا",
+              "what"
+            ],
+            [
+              "يُحِبُّ",
+              "he likes, he loves"
+            ]
+          ]
+        },
+        {
+          "id": "birthday-invitation-l9",
+          "sp": "huda",
+          "ar": "هُوَ يُحِبُّ كُرَةَ الْقَدَم كَثِيرًا، لٰكِنْ لَا تَشْتَرِ شَيْئًا غَالِيًا، مِنْ فَضْلِكَ!",
+          "en": "He loves football, but please don't buy anything expensive!",
+          "segs": [
+            [
+              "هُوَ",
+              "he"
+            ],
+            [
+              "يُحِبُّ",
+              "he likes, he loves"
+            ],
+            [
+              "كُرَةَ",
+              "ball (of)"
+            ],
+            [
+              "الْقَدَم",
+              "the foot ('football')"
+            ],
+            [
+              "كَثِيرًا",
+              "a lot, very much"
+            ],
+            [
+              "لٰكِنْ",
+              "but"
+            ],
+            [
+              "لَا",
+              "don't"
+            ],
+            [
+              "تَشْتَرِ",
+              "buy (to a man)"
+            ],
+            [
+              "شَيْئًا",
+              "anything, something"
+            ],
+            [
+              "غَالِيًا",
+              "expensive"
+            ],
+            [
+              "مِنْ",
+              "from"
+            ],
+            [
+              "فَضْلِكَ",
+              "your kindness (to a man): 'please'"
+            ]
+          ]
+        },
+        {
+          "id": "birthday-invitation-l10",
+          "sp": "daniel",
+          "ar": "إِذَنْ سَأَذْهَبُ إِلَى السُّوق غَدًا لِأَشْتَرِيَ لَهُ كُرَة صَغِيرَة.",
+          "en": "Then I'll go to the market tomorrow to buy him a small ball.",
+          "segs": [
+            [
+              "إِذَنْ",
+              "then, so"
+            ],
+            [
+              "سَأَذْهَبُ",
+              "I will go"
+            ],
+            [
+              "إِلَى",
+              "to"
+            ],
+            [
+              "السُّوق",
+              "the market"
+            ],
+            [
+              "غَدًا",
+              "tomorrow"
+            ],
+            [
+              "لِأَشْتَرِيَ",
+              "to buy (so that I buy)"
+            ],
+            [
+              "لَهُ",
+              "for him"
+            ],
+            [
+              "كُرَة",
+              "a ball"
+            ],
+            [
+              "صَغِيرَة",
+              "small (f)"
+            ]
+          ]
+        },
+        {
+          "id": "birthday-invitation-l11",
+          "sp": "huda",
+          "ar": "فِكْرَة جَمِيلَة! سَيَفْرَحُ كَثِيرًا. إِذَنْ نَرَاكَ يَوْمَ السَّبْت.",
+          "en": "What a lovely idea! He'll be very happy. So we'll see you on Saturday.",
+          "segs": [
+            [
+              "فِكْرَة",
+              "idea"
+            ],
+            [
+              "جَمِيلَة",
+              "lovely (f)"
+            ],
+            [
+              "سَيَفْرَحُ",
+              "he will be happy"
+            ],
+            [
+              "كَثِيرًا",
+              "a lot, very much"
+            ],
+            [
+              "إِذَنْ",
+              "then, so"
+            ],
+            [
+              "نَرَاكَ",
+              "we see you (to a man)"
+            ],
+            [
+              "يَوْمَ",
+              "on the day of"
+            ],
+            [
+              "السَّبْت",
+              "Saturday"
+            ]
+          ]
+        },
+        {
+          "id": "birthday-invitation-l12",
+          "sp": "daniel",
+          "ar": "إِنْ شَاءَ اللّٰه. شُكْرًا مَرَّةً أُخْرَى، وَمَعَ السَّلَامَة يَا سَيِّدَة هُدَى!",
+          "en": "God willing. Thank you again, and goodbye, Mrs Huda!",
+          "segs": [
+            [
+              "إِنْ",
+              "if"
+            ],
+            [
+              "شَاءَ",
+              "(he) willed"
+            ],
+            [
+              "اللّٰه",
+              "God"
+            ],
+            [
+              "شُكْرًا",
+              "thank you"
+            ],
+            [
+              "مَرَّةً",
+              "once, one time ('again')"
+            ],
+            [
+              "أُخْرَى",
+              "another (f)"
+            ],
+            [
+              "وَمَعَ",
+              "and with"
+            ],
+            [
+              "السَّلَامَة",
+              "the safety ('goodbye')"
+            ],
+            [
+              "يَا",
+              "O (calling someone)"
+            ],
+            [
+              "سَيِّدَة",
+              "Mrs, lady"
+            ],
+            [
+              "هُدَى",
+              "Huda (first name)",
+              "name"
+            ]
+          ]
+        }
+      ]
+    },
+    "mistakes": [
+      {
+        "wrong": "أَنَا لَا سَأَكُونُ مَشْغُولًا",
+        "right": "لَنْ أَكُونَ مَشْغُولًا",
+        "why": "The future negative is lan + the present ending in -a: lan akūna."
+      },
+      {
+        "wrong": "جِئْتُ لِأَدْعُو إِلَيْكَ",
+        "right": "جِئْتُ لِأَدْعُوَكَ",
+        "why": "daʿā (to invite) takes the person as an ending, and after li- the verb ends in -a: li-adʿuwaka."
+      }
+    ],
+    "quiz": [
+      {
+        "id": "birthday-invitation-q1",
+        "prompt": "Who is the party for?",
+        "options": [
+          "Huda",
+          "Huda's son Adam",
+          "Daniel",
+          "Sami's sister"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "birthday-invitation-q2",
+        "prompt": "When is the party?",
+        "options": [
+          "Friday at seven",
+          "Sunday at five",
+          "Saturday at seven",
+          "Saturday at five"
+        ],
+        "answer": 3
+      },
+      {
+        "id": "birthday-invitation-q3",
+        "prompt": "What does this mean?",
+        "ar": "لَنْ أَكُونَ مَشْغُولًا.",
+        "options": [
+          "I wasn't busy.",
+          "I'm not busy.",
+          "I won't be busy.",
+          "Don't be busy."
+        ],
+        "answer": 2
+      },
+      {
+        "id": "birthday-invitation-q4",
+        "prompt": "What will Daniel buy for Adam?",
+        "options": [
+          "a small ball",
+          "a cake",
+          "a book",
+          "a lantern"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  {
+    "id": "weather-plans",
+    "title": "Checking the forecast",
+    "emoji": "🌤️",
+    "status": "needs-review",
+    "intro": "Sami wants to take Daniel to the beach at Ain Sokhna on the Red Sea. Before they choose a day, they check the weather forecast. Useful phrases: كَيْفَ سَيَكُونُ الطَّقْس؟ (what will the weather be like?), سَيَكُونُ الْجَوّ مُشْمِسًا (it will be sunny) and لَنْ نَسْبَحَ (we won't swim).",
+    "dialogue": {
+      "title": "Friday or Saturday?",
+      "speakers": [
+        {
+          "key": "sami",
+          "name": "Sami",
+          "nameAr": "سَامِي"
+        },
+        {
+          "key": "daniel",
+          "name": "Daniel",
+          "nameAr": "دَانْيَال"
+        }
+      ],
+      "culture": "Ain Sokhna is a beach town on the Red Sea, about two hours by road from Cairo, and a favourite weekend trip for Cairenes. The Red Sea stays warm enough for swimming well into the autumn, but the sun is strong all year: Egyptians rarely go to the beach without a hat and plenty of water.",
+      "lines": [
+        {
+          "id": "weather-plans-l1",
+          "sp": "sami",
+          "ar": "يَا دَانْيَال، مَا رَأْيُكَ؟ نِهَايَةَ الْأُسْبُوع الْقَادِم سَنَذْهَبُ إِلَى الْبَحْر فِي الْعَيْن السُّخْنَة!",
+          "en": "Daniel, what do you think? Next weekend we'll go to the sea at Ain Sokhna!",
+          "segs": [
+            [
+              "يَا",
+              "O (calling someone)"
+            ],
+            [
+              "دَانْيَال",
+              "Daniel (first name)",
+              "name"
+            ],
+            [
+              "مَا",
+              "what"
+            ],
+            [
+              "رَأْيُكَ",
+              "your opinion (to a man)"
+            ],
+            [
+              "نِهَايَةَ",
+              "end (of)"
+            ],
+            [
+              "الْأُسْبُوع",
+              "the week"
+            ],
+            [
+              "الْقَادِم",
+              "next, coming"
+            ],
+            [
+              "سَنَذْهَبُ",
+              "we will go"
+            ],
+            [
+              "إِلَى",
+              "to"
+            ],
+            [
+              "الْبَحْر",
+              "the sea"
+            ],
+            [
+              "فِي",
+              "in, at"
+            ],
+            [
+              "الْعَيْن",
+              "Ain (part of the place name; lit. the spring)",
+              "name"
+            ],
+            [
+              "السُّخْنَة",
+              "Sokhna (Ain Sokhna: a beach town on the Red Sea)",
+              "name"
+            ]
+          ]
+        },
+        {
+          "id": "weather-plans-l2",
+          "sp": "daniel",
+          "ar": "فِكْرَة رَائِعَة! لٰكِنْ فِي نُوفَمْبِر، هَلْ سَيَكُونُ الْجَوّ دَافِئًا عَلَى الْبَحْر؟",
+          "en": "A great idea! But in November, will the weather be warm by the sea?",
+          "segs": [
+            [
+              "فِكْرَة",
+              "idea"
+            ],
+            [
+              "رَائِعَة",
+              "wonderful, great (f)"
+            ],
+            [
+              "لٰكِنْ",
+              "but"
+            ],
+            [
+              "فِي",
+              "in"
+            ],
+            [
+              "نُوفَمْبِر",
+              "November"
+            ],
+            [
+              "هَلْ",
+              "(starts a yes/no question)"
+            ],
+            [
+              "سَيَكُونُ",
+              "it will be"
+            ],
+            [
+              "الْجَوّ",
+              "the weather"
+            ],
+            [
+              "دَافِئًا",
+              "warm (after 'be')"
+            ],
+            [
+              "عَلَى",
+              "on, by"
+            ],
+            [
+              "الْبَحْر",
+              "the sea"
+            ]
+          ]
+        },
+        {
+          "id": "weather-plans-l3",
+          "sp": "sami",
+          "ar": "عَادَةً نَعَم، فَالْبَحْر الْأَحْمَر دَافِئ فِي الْخَرِيف. لٰكِنْ سَأَنْظُرُ إِلَى أَخْبَارِ الطَّقْس فِي هَاتِفِي أَوَّلًا.",
+          "en": "Usually, yes: the Red Sea is warm in autumn. But I'll look at the weather forecast on my phone first.",
+          "segs": [
+            [
+              "عَادَةً",
+              "usually"
+            ],
+            [
+              "نَعَم",
+              "yes"
+            ],
+            [
+              "فَالْبَحْر",
+              "for the sea"
+            ],
+            [
+              "الْأَحْمَر",
+              "the red ('the Red Sea')"
+            ],
+            [
+              "دَافِئ",
+              "warm"
+            ],
+            [
+              "فِي",
+              "in"
+            ],
+            [
+              "الْخَرِيف",
+              "the autumn"
+            ],
+            [
+              "لٰكِنْ",
+              "but"
+            ],
+            [
+              "سَأَنْظُرُ",
+              "I will look"
+            ],
+            [
+              "إِلَى",
+              "at, to"
+            ],
+            [
+              "أَخْبَارِ",
+              "news (of) ('the forecast')"
+            ],
+            [
+              "الطَّقْس",
+              "the weather"
+            ],
+            [
+              "فِي",
+              "in, on"
+            ],
+            [
+              "هَاتِفِي",
+              "my phone"
+            ],
+            [
+              "أَوَّلًا",
+              "first, firstly"
+            ]
+          ]
+        },
+        {
+          "id": "weather-plans-l4",
+          "sp": "daniel",
+          "ar": "حَسَنًا. كَيْفَ سَيَكُونُ الطَّقْس يَوْمَ الْجُمُعَة؟",
+          "en": "All right. What will the weather be like on Friday?",
+          "segs": [
+            [
+              "حَسَنًا",
+              "all right, OK"
+            ],
+            [
+              "كَيْفَ",
+              "how"
+            ],
+            [
+              "سَيَكُونُ",
+              "it will be"
+            ],
+            [
+              "الطَّقْس",
+              "the weather"
+            ],
+            [
+              "يَوْمَ",
+              "on the day of"
+            ],
+            [
+              "الْجُمُعَة",
+              "Friday"
+            ]
+          ]
+        },
+        {
+          "id": "weather-plans-l5",
+          "sp": "sami",
+          "ar": "يَوْمَ الْجُمُعَة سَتَكُونُ هُنَاكَ رِيَاح قَوِيَّة، وَرُبَّمَا تُمْطِرُ قَلِيلًا. هٰذَا غَرِيب فِي مِصْر!",
+          "en": "On Friday there will be strong winds, and it might rain a little. That's strange in Egypt!",
+          "segs": [
+            [
+              "يَوْمَ",
+              "on the day of"
+            ],
+            [
+              "الْجُمُعَة",
+              "Friday"
+            ],
+            [
+              "سَتَكُونُ",
+              "there will be (f)"
+            ],
+            [
+              "هُنَاكَ",
+              "there"
+            ],
+            [
+              "رِيَاح",
+              "winds"
+            ],
+            [
+              "قَوِيَّة",
+              "strong (f)"
+            ],
+            [
+              "وَرُبَّمَا",
+              "and maybe"
+            ],
+            [
+              "تُمْطِرُ",
+              "it rains"
+            ],
+            [
+              "قَلِيلًا",
+              "a little"
+            ],
+            [
+              "هٰذَا",
+              "this, that (m)"
+            ],
+            [
+              "غَرِيب",
+              "strange"
+            ],
+            [
+              "فِي",
+              "in"
+            ],
+            [
+              "مِصْر",
+              "Egypt",
+              "name"
+            ]
+          ]
+        },
+        {
+          "id": "weather-plans-l6",
+          "sp": "daniel",
+          "ar": "رِيَاح وَمَطَر؟ إِذَنْ لَنْ نَسْبَحَ يَوْمَ الْجُمُعَة. وَيَوْمَ السَّبْت؟",
+          "en": "Wind and rain? Then we won't swim on Friday. And what about Saturday?",
+          "segs": [
+            [
+              "رِيَاح",
+              "winds"
+            ],
+            [
+              "وَمَطَر",
+              "and rain"
+            ],
+            [
+              "إِذَنْ",
+              "then, so"
+            ],
+            [
+              "لَنْ",
+              "will not"
+            ],
+            [
+              "نَسْبَحَ",
+              "we swim (after an or lan)"
+            ],
+            [
+              "يَوْمَ",
+              "on the day of"
+            ],
+            [
+              "الْجُمُعَة",
+              "Friday"
+            ],
+            [
+              "وَيَوْمَ",
+              "and on the day of"
+            ],
+            [
+              "السَّبْت",
+              "Saturday"
+            ]
+          ]
+        },
+        {
+          "id": "weather-plans-l7",
+          "sp": "sami",
+          "ar": "يَوْمَ السَّبْت سَيَكُونُ الْجَوّ مُشْمِسًا وَدَافِئًا، وَدَرَجَةُ الْحَرَارَة سِتٌّ وَعِشْرُونَ.",
+          "en": "On Saturday it will be sunny and warm, and the temperature will be twenty-six degrees.",
+          "segs": [
+            [
+              "يَوْمَ",
+              "on the day of"
+            ],
+            [
+              "السَّبْت",
+              "Saturday"
+            ],
+            [
+              "سَيَكُونُ",
+              "it will be"
+            ],
+            [
+              "الْجَوّ",
+              "the weather"
+            ],
+            [
+              "مُشْمِسًا",
+              "sunny (after 'be')"
+            ],
+            [
+              "وَدَافِئًا",
+              "and warm (after 'be')"
+            ],
+            [
+              "وَدَرَجَةُ",
+              "and degree (of)"
+            ],
+            [
+              "الْحَرَارَة",
+              "the heat ('the temperature')"
+            ],
+            [
+              "سِتٌّ",
+              "six"
+            ],
+            [
+              "وَعِشْرُونَ",
+              "and twenty"
+            ]
+          ]
+        },
+        {
+          "id": "weather-plans-l8",
+          "sp": "daniel",
+          "ar": "مُمْتَاز! إِذَنْ سَنَذْهَبُ يَوْمَ السَّبْت. مَتَى سَنَخْرُجُ مِنَ الْقَاهِرَة؟",
+          "en": "Excellent! So we'll go on Saturday. When will we leave Cairo?",
+          "segs": [
+            [
+              "مُمْتَاز",
+              "excellent"
+            ],
+            [
+              "إِذَنْ",
+              "then, so"
+            ],
+            [
+              "سَنَذْهَبُ",
+              "we will go"
+            ],
+            [
+              "يَوْمَ",
+              "on the day of"
+            ],
+            [
+              "السَّبْت",
+              "Saturday"
+            ],
+            [
+              "مَتَى",
+              "when"
+            ],
+            [
+              "سَنَخْرُجُ",
+              "we will go out, we will leave"
+            ],
+            [
+              "مِنَ",
+              "from"
+            ],
+            [
+              "الْقَاهِرَة",
+              "Cairo (capital of Egypt)",
+              "name"
+            ]
+          ]
+        },
+        {
+          "id": "weather-plans-l9",
+          "sp": "sami",
+          "ar": "سَنَخْرُجُ فِي السَّاعَة السَّادِسَة صَبَاحًا لِنَصِلَ قَبْلَ الظُّهْر، فَالطَّرِيق طَوِيل.",
+          "en": "We'll leave at six in the morning so that we arrive before noon, because the road is long.",
+          "segs": [
+            [
+              "سَنَخْرُجُ",
+              "we will go out, we will leave"
+            ],
+            [
+              "فِي",
+              "at"
+            ],
+            [
+              "السَّاعَة",
+              "the hour ('o'clock')"
+            ],
+            [
+              "السَّادِسَة",
+              "the sixth ('six')"
+            ],
+            [
+              "صَبَاحًا",
+              "in the morning"
+            ],
+            [
+              "لِنَصِلَ",
+              "so that we arrive"
+            ],
+            [
+              "قَبْلَ",
+              "before"
+            ],
+            [
+              "الظُّهْر",
+              "noon"
+            ],
+            [
+              "فَالطَّرِيق",
+              "for the road"
+            ],
+            [
+              "طَوِيل",
+              "long"
+            ]
+          ]
+        },
+        {
+          "id": "weather-plans-l10",
+          "sp": "daniel",
+          "ar": "وَمَاذَا نَأْخُذُ مَعَنَا؟ أَنَا لَا أَعْرِفُ الْبَحْر الْأَحْمَر.",
+          "en": "And what should we take with us? I don't know the Red Sea at all.",
+          "segs": [
+            [
+              "وَمَاذَا",
+              "and what"
+            ],
+            [
+              "نَأْخُذُ",
+              "we take ('should we take')"
+            ],
+            [
+              "مَعَنَا",
+              "with us"
+            ],
+            [
+              "أَنَا",
+              "I"
+            ],
+            [
+              "لَا",
+              "not"
+            ],
+            [
+              "أَعْرِفُ",
+              "I know"
+            ],
+            [
+              "الْبَحْر",
+              "the sea"
+            ],
+            [
+              "الْأَحْمَر",
+              "the red ('the Red Sea')"
+            ]
+          ]
+        },
+        {
+          "id": "weather-plans-l11",
+          "sp": "sami",
+          "ar": "خُذْ قُبَّعَة وَمَاءً كَثِيرًا، لِأَنَّ الشَّمْس قَوِيَّة هُنَاكَ. وَخُذْ مِعْطَفًا خَفِيفًا لِلْمَسَاء.",
+          "en": "Take a hat and lots of water, because the sun is strong there. And take a light jacket for the evening.",
+          "segs": [
+            [
+              "خُذْ",
+              "take! (to a man)"
+            ],
+            [
+              "قُبَّعَة",
+              "a hat"
+            ],
+            [
+              "وَمَاءً",
+              "and water"
+            ],
+            [
+              "كَثِيرًا",
+              "a lot of, much"
+            ],
+            [
+              "لِأَنَّ",
+              "because"
+            ],
+            [
+              "الشَّمْس",
+              "the sun"
+            ],
+            [
+              "قَوِيَّة",
+              "strong (f)"
+            ],
+            [
+              "هُنَاكَ",
+              "there"
+            ],
+            [
+              "وَخُذْ",
+              "and take! (to a man)"
+            ],
+            [
+              "مِعْطَفًا",
+              "a coat, a jacket"
+            ],
+            [
+              "خَفِيفًا",
+              "light"
+            ],
+            [
+              "لِلْمَسَاء",
+              "for the evening"
+            ]
+          ]
+        },
+        {
+          "id": "weather-plans-l12",
+          "sp": "daniel",
+          "ar": "اِتَّفَقْنَا! سَأَشْتَرِي قُبَّعَة جَدِيدَة غَدًا. لَنْ أَنْسَى الْمَاء هٰذِهِ الْمَرَّة!",
+          "en": "Agreed! I'll buy a new hat tomorrow. I won't forget the water this time!",
+          "segs": [
+            [
+              "اِتَّفَقْنَا",
+              "agreed (lit. we agreed)"
+            ],
+            [
+              "سَأَشْتَرِي",
+              "I will buy"
+            ],
+            [
+              "قُبَّعَة",
+              "a hat"
+            ],
+            [
+              "جَدِيدَة",
+              "new (f)"
+            ],
+            [
+              "غَدًا",
+              "tomorrow"
+            ],
+            [
+              "لَنْ",
+              "will not"
+            ],
+            [
+              "أَنْسَى",
+              "I forget"
+            ],
+            [
+              "الْمَاء",
+              "the water"
+            ],
+            [
+              "هٰذِهِ",
+              "this (f)"
+            ],
+            [
+              "الْمَرَّة",
+              "the time, the occasion"
+            ]
+          ]
+        }
+      ]
+    },
+    "mistakes": [
+      {
+        "wrong": "هُوَ مُشْمِس يَوْمَ السَّبْت",
+        "right": "سَيَكُونُ الْجَوّ مُشْمِسًا يَوْمَ السَّبْت",
+        "why": "Name the weather, al-jaww, instead of an empty 'it'; for the future use sa-yakūnu with the -an ending."
+      },
+      {
+        "wrong": "لَا سَنَسْبَحُ يَوْمَ الْجُمُعَة",
+        "right": "لَنْ نَسْبَحَ يَوْمَ الْجُمُعَة",
+        "why": "The future negative is lan + the present ending in -a, never lā + sa-."
+      }
+    ],
+    "quiz": [
+      {
+        "id": "weather-plans-q1",
+        "prompt": "Why won't they go on Friday?",
+        "options": [
+          "It will be very hot.",
+          "There will be strong winds and maybe rain.",
+          "The road is closed.",
+          "Sami is busy."
+        ],
+        "answer": 1
+      },
+      {
+        "id": "weather-plans-q2",
+        "prompt": "What will the temperature be on Saturday?",
+        "options": [
+          "thirty-six degrees",
+          "sixteen degrees",
+          "twenty-six degrees",
+          "twenty degrees"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "weather-plans-q3",
+        "prompt": "What does this mean?",
+        "ar": "لِنَصِلَ قَبْلَ الظُّهْر",
+        "options": [
+          "so that we arrive before noon",
+          "we arrived at noon",
+          "we won't arrive before noon",
+          "after noon"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "weather-plans-q4",
+        "prompt": "What does Sami tell Daniel to take?",
+        "options": [
+          "a heavy coat and boots",
+          "an umbrella",
+          "nothing at all",
+          "a hat, lots of water and a light jacket"
+        ],
+        "answer": 3
+      }
+    ]
   }
 ]

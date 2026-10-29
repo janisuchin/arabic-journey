@@ -545,5 +545,73 @@
         }
       ]
     ]
+  },
+  {
+    "id": "pausal-forms",
+    "title": "Pausal forms: stop on the bare word",
+    "category": "Endings",
+    "ipa": [
+      "-a",
+      "-aː",
+      "∅"
+    ],
+    "letters": [
+      "ة",
+      "ا"
+    ],
+    "tip": "When you stop at the end of a sentence or a phrase, drop the short vowel or the -un, -in ending of the last word: غَدٍ is said ghad, and يَوْمُ at a stop is just yawm. The -an ending, written with an alif, becomes a long ā: شُكْرًا is said shukrā, غَدًا is said ghadā. A word with ة becomes a plain -a: نِهَايَة is said nihāya. Inside the sentence, keep the endings that the text shows.",
+    "diagram": "nihāyatun → nihāya | shukran → shukrā | yawmu → yawm (stop here)",
+    "error": "Reading every ending in full at a stop, for example fī l-masāʾi at the end of a sentence: it sounds like a machine. Stop on the bare word: fī l-masāʾ.",
+    "examples": [
+      {
+        "ar": "غَدًا",
+        "en": "tomorrow (at a stop: ghadā)"
+      },
+      {
+        "ar": "نِهَايَة",
+        "en": "end (at a stop: nihāya)"
+      },
+      {
+        "ar": "شُكْرًا",
+        "en": "thank you (at a stop: shukrā)"
+      }
+    ]
+  },
+  {
+    "id": "intonation",
+    "title": "Intonation: questions and invitations",
+    "category": "Melody",
+    "ipa": [
+      "↗",
+      "↘"
+    ],
+    "letters": [
+      "؟"
+    ],
+    "tip": "A yes/no question with هَلْ rises at the end: in هَلْ سَتَأْتِي؟ the voice goes up on the last word. A question with a question word such as مَتَى، مَاذَا or أَيْنَ starts high on the question word and falls at the end. Without هَلْ, the melody alone can make a question: سَتَأْتِي. with a fall is a statement, but سَتَأْتِي؟ with a rise asks. Invitations and warm replies such as بِكُلِّ سُرُور move up and down with energy.",
+    "diagram": "hal sa-taʾtī? ↗ (rises at the end) | matā tabdaʾu l-ḥafla? ↘ (high on matā, then falls)",
+    "error": "Saying a هَلْ question flat, like a statement, or ending a مَتَى question with a rise: it sounds surprised or doubtful.",
+    "examples": [
+      {
+        "ar": "هَلْ سَتَأْتِي؟",
+        "en": "Will she come? (voice rises)"
+      },
+      {
+        "ar": "مَتَى تَبْدَأُ الْحَفْلَة؟",
+        "en": "When does the party start? (voice falls)"
+      }
+    ],
+    "pairs": [
+      [
+        {
+          "ar": "سَتَأْتِي.",
+          "en": "She will come. (statement, falls)"
+        },
+        {
+          "ar": "سَتَأْتِي؟",
+          "en": "Will she come? (question, rises)"
+        }
+      ]
+    ]
   }
 ]

@@ -1268,7 +1268,121 @@
      "title": "Dates"
     }
    ],
-   "test": []
+   "test": [
+    {
+     "id": "w8t1",
+     "prompt": "What does this mean?",
+     "ar": "سَنُسَافِرُ غَدًا.",
+     "options": [
+      "We travelled yesterday.",
+      "We will travel tomorrow.",
+      "We travel every day.",
+      "We won't travel tomorrow."
+     ],
+     "answer": 1
+    },
+    {
+     "id": "w8t2",
+     "prompt": "Choose the correct sentence: 'I won't sleep late.'",
+     "options": [
+      "لَا سَأَنَامُ مُتَأَخِّرًا.",
+      "لَنْ أَنَامُ مُتَأَخِّرًا.",
+      "سَوْفَ لَا أَنَامُ مُتَأَخِّرًا.",
+      "لَنْ أَنَامَ مُتَأَخِّرًا."
+     ],
+     "answer": 3
+    },
+    {
+     "id": "w8t3",
+     "prompt": "Fill the gap: 'I went to the market to buy a present.'",
+     "ar": "ذَهَبْتُ إِلَى السُّوق … هَدِيَّة.",
+     "options": [
+      "أَشْتَرِي",
+      "لِأَشْتَرِيَ",
+      "سَأَشْتَرِي",
+      "لَنْ أَشْتَرِيَ"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "w8t4",
+     "prompt": "Which word means 'invitation'?",
+     "options": [
+      "حَفْلَة",
+      "هَدِيَّة",
+      "دَعْوَة",
+      "ضَيْف"
+     ],
+     "answer": 2
+    },
+    {
+     "id": "w8t5",
+     "prompt": "What does this mean?",
+     "ar": "الْجَوّ غَائِم وَبَارِد.",
+     "options": [
+      "It's cloudy and cold.",
+      "It's sunny and warm.",
+      "It's raining and windy.",
+      "It's hot and dry."
+     ],
+     "answer": 0
+    },
+    {
+     "id": "w8t6",
+     "prompt": "How do you say 'It will rain tomorrow'?",
+     "options": [
+      "أَمْطَرَتْ أَمْسِ.",
+      "تُمْطِرُ الْآنَ.",
+      "لَا تُمْطِرُ.",
+      "سَتُمْطِرُ غَدًا."
+     ],
+     "answer": 3
+    },
+    {
+     "id": "w8t7",
+     "prompt": "Which word means 'autumn'?",
+     "options": [
+      "الرَّبِيع",
+      "الصَّيْف",
+      "الْخَرِيف",
+      "الشِّتَاء"
+     ],
+     "answer": 2
+    },
+    {
+     "id": "w8t8",
+     "prompt": "Choose: 'next month'",
+     "options": [
+      "الشَّهْرَ الْمَاضِي",
+      "الشَّهْرَ الْقَادِمَ",
+      "كُلَّ شَهْر",
+      "هٰذَا الشَّهْرَ"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "w8t9",
+     "prompt": "What is this date?",
+     "ar": "الْخَامِسُ مِنْ مَايُو",
+     "options": [
+      "the fifth of March",
+      "the fifth of May",
+      "the fifteenth of May",
+      "the first of May"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "w8t10",
+     "prompt": "Choose the correct sentence: 'In summer the weather is hot.'",
+     "options": [
+      "فِي الصَّيْف يَكُونُ الْجَوّ حَارًّا.",
+      "فِي الصَّيْف يَكُونُ الْجَوّ حَارّ.",
+      "فِي الصَّيْف تَكُونُ الْجَوّ حَارَّة."
+     ],
+     "answer": 0
+    }
+   ]
   },
   {
    "week": 9,
