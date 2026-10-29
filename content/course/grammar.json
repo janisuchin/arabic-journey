@@ -905,5 +905,317 @@
         "en": "The total is seventy-five pounds."
       }
     ]
+  },
+  {
+    "id": "verbal-sentence",
+    "title": "Verb first: the verbal sentence",
+    "titleAr": "الْجُمْلَة الْفِعْلِيَّة",
+    "firstDay": 22,
+    "summary": "A sentence that starts with a verb is a verbal sentence. Before its subject the verb stays singular, even when the subject is plural.",
+    "formula": "verb + subject (+ object)  (يَزُورُ السُّيَّاحُ الْمَتْحَفَ = the tourists visit the museum)",
+    "explanation": "Arabic often puts the verb first: يَذْهَبُ سَامِي إِلَى الْمَسْجِد (Sami goes to the mosque). The verb shows the gender of the subject: يَـ for a man or a masculine noun, تَـ for a woman or a feminine noun, as in تَذْهَبُ لَيْلَى (Layla goes). When the verb comes first it stays singular, even with a plural subject: يَزُورُ السُّيَّاحُ الْمَتْحَفَ, never يَزُورُونَ السُّيَّاحُ. In careful Arabic the subject ends in -u and the object in -a (as-suyyāḥu, al-matḥafa), but these endings are usually dropped at the end of a sentence.",
+    "table": {
+      "head": [
+        "Arabic",
+        "Word for word",
+        "English"
+      ],
+      "rows": [
+        [
+          "يَذْهَبُ سَامِي إِلَى الْمَسْجِد",
+          "goes Sami to the mosque",
+          "Sami goes to the mosque"
+        ],
+        [
+          "تَذْهَبُ لَيْلَى إِلَى الْمَكْتَبَة",
+          "goes Layla to the bookshop",
+          "Layla goes to the bookshop"
+        ],
+        [
+          "يَزُورُ السُّيَّاحُ الْمَتْحَفَ",
+          "visits the tourists the museum",
+          "the tourists visit the museum"
+        ],
+        [
+          "تَجْلِسُ الْعَائِلَاتُ فِي الْحَدِيقَة",
+          "sits the families in the park",
+          "families sit in the park"
+        ]
+      ]
+    },
+    "examples": [
+      {
+        "ar": "يَزُورُ السُّيَّاحُ الْمَتْحَفَ كُلَّ يَوْم.",
+        "en": "The tourists visit the museum every day."
+      },
+      {
+        "ar": "تَذْهَبُ لَيْلَى إِلَى الْمَكْتَبَة.",
+        "en": "Layla goes to the bookshop."
+      }
+    ]
+  },
+  {
+    "id": "ordinals",
+    "title": "First, second, third: ordinal numbers",
+    "titleAr": "الْأَعْدَاد التَّرْتِيبِيَّة",
+    "firstDay": 23,
+    "summary": "Ordinals are adjectives: they come after the noun and agree with it in gender and in 'the'.",
+    "formula": "noun + ordinal  (الشَّارِع الثَّانِي the second street · الْبِنَايَة الثَّالِثَة the third building)",
+    "explanation": "Apart from أَوَّل (first), the ordinals are built from the numbers on the pattern fāʿil: ثَلَاثَة (three) → الثَّالِث (the third), خَمْسَة (five) → الْخَامِس (the fifth). Like any adjective they follow the noun, take الـ when the noun has it, and add ة for a feminine noun: الْبِنَايَة الثَّالِثَة. The feminine of أَوَّل is irregular: الْأُولَى. أَوَّل can also stand in front of an indefinite noun: أَوَّلُ يَوْم (the first day).",
+    "table": {
+      "head": [
+        "Number",
+        "Masculine",
+        "Feminine"
+      ],
+      "rows": [
+        [
+          "١",
+          "الْأَوَّل",
+          "الْأُولَى"
+        ],
+        [
+          "٢",
+          "الثَّانِي",
+          "الثَّانِيَة"
+        ],
+        [
+          "٣",
+          "الثَّالِث",
+          "الثَّالِثَة"
+        ],
+        [
+          "٤",
+          "الرَّابِع",
+          "الرَّابِعَة"
+        ],
+        [
+          "٥",
+          "الْخَامِس",
+          "الْخَامِسَة"
+        ]
+      ]
+    },
+    "examples": [
+      {
+        "ar": "خُذِ الشَّارِعَ الثَّانِي عَلَى الْيَمِين.",
+        "en": "Take the second street on the right."
+      },
+      {
+        "ar": "الْمَكْتَبَة فِي الْبِنَايَة الثَّالِثَة.",
+        "en": "The bookshop is in the third building."
+      }
+    ]
+  },
+  {
+    "id": "bi-transport-w4",
+    "title": "By bus, by taxi: bi-",
+    "titleAr": "بِالْحَافِلَة أَوْ بِالتَّاكْسِي",
+    "firstDay": 24,
+    "summary": "To say how you travel, join بِـ (by) to the vehicle with الـ. On foot is مَشْيًا.",
+    "formula": "بِـ + الـ + vehicle  (بِالْمِتْرُو = by metro)",
+    "explanation": "بِـ is a one-letter preposition, written joined to the next word. With the article it becomes bi-l-: بِالْحَافِلَة (by bus), بِالتَّاكْسِي (by taxi), بِالسَّيَّارَة (by car). The alif of الـ is still written but not said. For 'on foot' Arabic uses one word, مَشْيًا (walking). To take or ride a vehicle is يَرْكَبُ, with the vehicle straight after it and no preposition: يَرْكَبُ الطُّلَّابُ الْحَافِلَةَ (the students take the bus).",
+    "table": {
+      "head": [
+        "Arabic",
+        "English"
+      ],
+      "rows": [
+        [
+          "بِالْحَافِلَة",
+          "by bus"
+        ],
+        [
+          "بِالْمِتْرُو",
+          "by metro"
+        ],
+        [
+          "بِالتَّاكْسِي",
+          "by taxi"
+        ],
+        [
+          "بِالسَّيَّارَة",
+          "by car"
+        ],
+        [
+          "مَشْيًا",
+          "on foot"
+        ]
+      ]
+    },
+    "examples": [
+      {
+        "ar": "أَذْهَبُ إِلَى الْمَدْرَسَة بِالْمِتْرُو.",
+        "en": "I go to school by metro."
+      },
+      {
+        "ar": "يَرْكَبُ الطُّلَّابُ الْحَافِلَةَ كُلَّ صَبَاح.",
+        "en": "The students take the bus every morning."
+      }
+    ]
+  },
+  {
+    "id": "prepositions-place",
+    "title": "Where things are: words of place",
+    "titleAr": "أَمَامَ، خَلْفَ، بِجَانِبِ",
+    "firstDay": 25,
+    "summary": "Words like أَمَامَ (in front of) and خَلْفَ (behind) come straight before a noun, and that noun takes the ending -i.",
+    "formula": "word of place + noun ending in -i  (خَلْفَ الْبَنْكِ = behind the bank)",
+    "explanation": "Most words of place end in -a: أَمَامَ, خَلْفَ, فَوْقَ, تَحْتَ, بَيْنَ, مُقَابِلَ. The noun after them is in the genitive case, so it ends in -i: أَمَامَ الْمَدْرَسَةِ (in front of the school). In speech this -i is often dropped at the end of a sentence. With a pronoun ending they work like nouns: خَلْفَهُ (behind it), خَلْفَكَ (behind you). Don't confuse فِي (in, inside) with عَلَى (on top of).",
+    "table": {
+      "head": [
+        "Arabic",
+        "English",
+        "Example"
+      ],
+      "rows": [
+        [
+          "أَمَامَ",
+          "in front of",
+          "أَمَامَ الْمَدْرَسَةِ"
+        ],
+        [
+          "خَلْفَ",
+          "behind",
+          "خَلْفَ الْبَنْكِ"
+        ],
+        [
+          "بِجَانِبِ",
+          "next to",
+          "بِجَانِبِ الْبَابِ"
+        ],
+        [
+          "بَيْنَ",
+          "between",
+          "بَيْنَ الْمَقْهَى وَالصَّيْدَلِيَّةِ"
+        ],
+        [
+          "فَوْقَ",
+          "above",
+          "فَوْقَ الْبَابِ"
+        ],
+        [
+          "تَحْتَ",
+          "under",
+          "تَحْتَ الْكُرْسِيِّ"
+        ],
+        [
+          "عَلَى",
+          "on",
+          "عَلَى الطَّاوِلَةِ"
+        ],
+        [
+          "مُقَابِلَ",
+          "opposite",
+          "مُقَابِلَ الْمَدْرَسَةِ"
+        ]
+      ]
+    },
+    "examples": [
+      {
+        "ar": "مَكْتَبُ الْبَرِيد خَلْفَ الْبَنْكِ.",
+        "en": "The post office is behind the bank."
+      },
+      {
+        "ar": "الْكِتَاب عَلَى الطَّاوِلَةِ.",
+        "en": "The book is on the table."
+      }
+    ]
+  },
+  {
+    "id": "hunaka",
+    "title": "There is, there are: hunāka",
+    "titleAr": "هُنَاكَ",
+    "firstDay": 26,
+    "summary": "Put هُنَاكَ before an indefinite noun to say 'there is' or 'there are'. Add هَلْ in front to ask.",
+    "formula": "هُنَاكَ + noun without الـ  (هُنَاكَ صَيْدَلِيَّة = there is a pharmacy)",
+    "explanation": "هُنَاكَ literally means 'there'. At the start of a sentence it introduces something new: هُنَاكَ بَنْك فِي هٰذَا الشَّارِع (there is a bank on this street). The same word works for one thing or many: هُنَاكَ مَحَلَّات كَثِيرَة (there are many shops). To ask, put هَلْ in front: هَلْ هُنَاكَ صَيْدَلِيَّة قَرِيبَة؟ (is there a pharmacy nearby?). For 'there isn't', say لَيْسَ هُنَاكَ. You can also start with the place: فِي الْمَدِينَة مَسَاجِد كَثِيرَة (in the city there are many mosques). Don't mix up هُنَاكَ (there) and هُنَا (here).",
+    "table": {
+      "head": [
+        "Arabic",
+        "English"
+      ],
+      "rows": [
+        [
+          "هُنَاكَ صَيْدَلِيَّة قَرِيبَة",
+          "there is a pharmacy nearby"
+        ],
+        [
+          "هُنَاكَ مَحَلَّات كَثِيرَة",
+          "there are many shops"
+        ],
+        [
+          "هَلْ هُنَاكَ بَنْك هُنَا؟",
+          "is there a bank here?"
+        ],
+        [
+          "لَيْسَ هُنَاكَ مُسْتَشْفَى قَرِيب",
+          "there is no hospital nearby"
+        ]
+      ]
+    },
+    "examples": [
+      {
+        "ar": "هُنَاكَ صَيْدَلِيَّة قَرِيبَة مِنْ هُنَا.",
+        "en": "There is a pharmacy near here."
+      },
+      {
+        "ar": "هَلْ هُنَاكَ بَنْك فِي هٰذَا الشَّارِع؟",
+        "en": "Is there a bank on this street?"
+      }
+    ]
+  },
+  {
+    "id": "non-human-plural",
+    "title": "Plurals of things count as 'she'",
+    "titleAr": "جَمْعُ غَيْرِ الْعَاقِل",
+    "firstDay": 27,
+    "summary": "The plural of a thing or an animal is treated as feminine singular: it takes هٰذِهِ, هِيَ and an adjective with ة.",
+    "formula": "plural of things + feminine singular adjective  (الْقُمْصَان جَمِيلَة = the shirts are beautiful)",
+    "explanation": "Arabic sorts plurals into two groups. Plurals of people keep a plural adjective: الْبَاعَة لُطَفَاء (the sellers are kind). But the plural of anything that is not a person, such as shirts, streets, shops or lanterns, behaves like one feminine word: الشَّوَارِع مُزْدَحِمَة (the streets are crowded), هٰذِهِ الْأَحْذِيَة غَالِيَة (these shoes are expensive). You also refer to them with هِيَ (she, it), and a verb takes the feminine تَـ.",
+    "table": {
+      "head": [
+        "Arabic",
+        "English",
+        "Why"
+      ],
+      "rows": [
+        [
+          "الْقُمْصَان جَمِيلَة",
+          "the shirts are beautiful",
+          "things: feminine singular"
+        ],
+        [
+          "الشَّوَارِع مُزْدَحِمَة",
+          "the streets are crowded",
+          "things: feminine singular"
+        ],
+        [
+          "هٰذِهِ الْأَحْذِيَة غَالِيَة",
+          "these shoes are expensive",
+          "things: هٰذِهِ (this, f)"
+        ],
+        [
+          "الْمَحَلَّات مَفْتُوحَة",
+          "the shops are open",
+          "things: feminine singular"
+        ],
+        [
+          "الْبَاعَة لُطَفَاء",
+          "the sellers are kind",
+          "people: plural adjective"
+        ]
+      ]
+    },
+    "examples": [
+      {
+        "ar": "هٰذِهِ الْقُمْصَان جَمِيلَة جِدًّا.",
+        "en": "These shirts are very nice."
+      },
+      {
+        "ar": "الْمَحَلَّات مَفْتُوحَة حَتَّى الْعَاشِرَة.",
+        "en": "The shops are open until ten."
+      }
+    ]
   }
 ]

@@ -2346,5 +2346,1045 @@
         "answer": 3
       }
     ]
+  },
+  {
+    "id": "directions",
+    "title": "Asking the way",
+    "emoji": "🧭",
+    "status": "needs-review",
+    "intro": "You are in downtown Cairo and want to walk to the nearest metro station. Useful phrases: لَوْ سَمَحْتَ (excuse me), أَيْنَ…؟ (where is…?), يَمِينًا (to the right), يَسَارًا (to the left) and الشَّارِع الثَّانِي (the second street).",
+    "dialogue": {
+      "title": "Which way to the metro?",
+      "speakers": [
+        {
+          "key": "layla",
+          "name": "Layla",
+          "nameAr": "لَيْلَى"
+        },
+        {
+          "key": "seller",
+          "name": "Shopkeeper",
+          "nameAr": "الْبَائِع"
+        }
+      ],
+      "culture": "The Cairo metro is marked by a big red sign with the letter م (mīm, for مِتْرُو). Many station names are famous people or places: Sadat station lies under Tahrir Square.",
+      "lines": [
+        {
+          "id": "directions-l1",
+          "sp": "layla",
+          "ar": "لَوْ سَمَحْتَ! أَيْنَ مَحَطَّةُ الْمِتْرُو، مِنْ فَضْلِكَ؟",
+          "en": "Excuse me! Where is the metro station, please?",
+          "segs": [
+            [
+              "لَوْ",
+              "if"
+            ],
+            [
+              "سَمَحْتَ",
+              "you allow (to a man): 'excuse me'"
+            ],
+            [
+              "أَيْنَ",
+              "where"
+            ],
+            [
+              "مَحَطَّةُ",
+              "station (of)"
+            ],
+            [
+              "الْمِتْرُو",
+              "the metro"
+            ],
+            [
+              "مِنْ",
+              "from"
+            ],
+            [
+              "فَضْلِكَ",
+              "your kindness (to a man): 'please'"
+            ]
+          ]
+        },
+        {
+          "id": "directions-l2",
+          "sp": "seller",
+          "ar": "مَحَطَّةُ السَّادَات؟ هِيَ قَرِيبَة، فِي مَيْدَانِ التَّحْرِير.",
+          "en": "Sadat station? It is close, in Tahrir Square.",
+          "segs": [
+            [
+              "مَحَطَّةُ",
+              "station (of)"
+            ],
+            [
+              "السَّادَات",
+              "Sadat (a metro station, named after an Egyptian president)",
+              "name"
+            ],
+            [
+              "هِيَ",
+              "she, it (f)"
+            ],
+            [
+              "قَرِيبَة",
+              "near, close (f)"
+            ],
+            [
+              "فِي",
+              "in"
+            ],
+            [
+              "مَيْدَانِ",
+              "square (of)"
+            ],
+            [
+              "التَّحْرِير",
+              "Tahrir (lit. liberation)",
+              "name"
+            ]
+          ]
+        },
+        {
+          "id": "directions-l3",
+          "sp": "layla",
+          "ar": "هَلْ هِيَ بَعِيدَة مَشْيًا؟ أَنَا لَا أَعْرِفُ هٰذِهِ الْمِنْطَقَة.",
+          "en": "Is it far on foot? I don't know this area.",
+          "segs": [
+            [
+              "هَلْ",
+              "(starts a yes/no question)"
+            ],
+            [
+              "هِيَ",
+              "she, it (f)"
+            ],
+            [
+              "بَعِيدَة",
+              "far (f)"
+            ],
+            [
+              "مَشْيًا",
+              "on foot (lit. walking)"
+            ],
+            [
+              "أَنَا",
+              "I"
+            ],
+            [
+              "لَا",
+              "not"
+            ],
+            [
+              "أَعْرِفُ",
+              "I know"
+            ],
+            [
+              "هٰذِهِ",
+              "this (f)"
+            ],
+            [
+              "الْمِنْطَقَة",
+              "the area"
+            ]
+          ]
+        },
+        {
+          "id": "directions-l4",
+          "sp": "seller",
+          "ar": "لَا، عَشْرُ دَقَائِق فَقَطْ. اِذْهَبِي إِلَى الْأَمَام حَتَّى الْإِشَارَة.",
+          "en": "No, only ten minutes. Go straight ahead as far as the traffic lights.",
+          "segs": [
+            [
+              "لَا",
+              "no"
+            ],
+            [
+              "عَشْرُ",
+              "ten"
+            ],
+            [
+              "دَقَائِق",
+              "minutes"
+            ],
+            [
+              "فَقَطْ",
+              "only"
+            ],
+            [
+              "اِذْهَبِي",
+              "go (to a woman)"
+            ],
+            [
+              "إِلَى",
+              "to"
+            ],
+            [
+              "الْأَمَام",
+              "the front ('straight ahead')"
+            ],
+            [
+              "حَتَّى",
+              "as far as, until"
+            ],
+            [
+              "الْإِشَارَة",
+              "the traffic light"
+            ]
+          ]
+        },
+        {
+          "id": "directions-l5",
+          "sp": "layla",
+          "ar": "حَتَّى الْإِشَارَة، ثُمَّ يَمِينًا أَمْ يَسَارًا؟",
+          "en": "As far as the traffic lights, and then right or left?",
+          "segs": [
+            [
+              "حَتَّى",
+              "as far as, until"
+            ],
+            [
+              "الْإِشَارَة",
+              "the traffic light"
+            ],
+            [
+              "ثُمَّ",
+              "then"
+            ],
+            [
+              "يَمِينًا",
+              "to the right"
+            ],
+            [
+              "أَمْ",
+              "or (in a question)"
+            ],
+            [
+              "يَسَارًا",
+              "to the left"
+            ]
+          ]
+        },
+        {
+          "id": "directions-l6",
+          "sp": "seller",
+          "ar": "ثُمَّ خُذِي الشَّارِعَ الثَّانِي عَلَى الْيَسَار.",
+          "en": "Then take the second street on the left.",
+          "segs": [
+            [
+              "ثُمَّ",
+              "then"
+            ],
+            [
+              "خُذِي",
+              "take (to a woman)"
+            ],
+            [
+              "الشَّارِعَ",
+              "the street"
+            ],
+            [
+              "الثَّانِي",
+              "the second (m)"
+            ],
+            [
+              "عَلَى",
+              "on"
+            ],
+            [
+              "الْيَسَار",
+              "the left"
+            ]
+          ]
+        },
+        {
+          "id": "directions-l7",
+          "sp": "layla",
+          "ar": "الشَّارِع الثَّانِي عَلَى الْيَسَار. وَبَعْدَ ذٰلِكَ؟",
+          "en": "The second street on the left. And after that?",
+          "segs": [
+            [
+              "الشَّارِع",
+              "the street"
+            ],
+            [
+              "الثَّانِي",
+              "the second (m)"
+            ],
+            [
+              "عَلَى",
+              "on"
+            ],
+            [
+              "الْيَسَار",
+              "the left"
+            ],
+            [
+              "وَبَعْدَ",
+              "and after"
+            ],
+            [
+              "ذٰلِكَ",
+              "that"
+            ]
+          ]
+        },
+        {
+          "id": "directions-l8",
+          "sp": "seller",
+          "ar": "بَعْدَ ذٰلِكَ تَرَيْنَ الْمَيْدَان. الْمَحَطَّة أَمَامَ الْمَتْحَف الْمِصْرِيّ تَقْرِيبًا.",
+          "en": "After that you will see the square. The station is more or less in front of the Egyptian Museum.",
+          "segs": [
+            [
+              "بَعْدَ",
+              "after"
+            ],
+            [
+              "ذٰلِكَ",
+              "that"
+            ],
+            [
+              "تَرَيْنَ",
+              "you see (to a woman)"
+            ],
+            [
+              "الْمَيْدَان",
+              "the square"
+            ],
+            [
+              "الْمَحَطَّة",
+              "the stop, the station"
+            ],
+            [
+              "أَمَامَ",
+              "in front of"
+            ],
+            [
+              "الْمَتْحَف",
+              "the museum"
+            ],
+            [
+              "الْمِصْرِيّ",
+              "the Egyptian (m)"
+            ],
+            [
+              "تَقْرِيبًا",
+              "about, roughly"
+            ]
+          ]
+        },
+        {
+          "id": "directions-l9",
+          "sp": "layla",
+          "ar": "هَلْ هُنَاكَ عَلَامَة لِلْمِتْرُو؟",
+          "en": "Is there a sign for the metro?",
+          "segs": [
+            [
+              "هَلْ",
+              "(starts a yes/no question)"
+            ],
+            [
+              "هُنَاكَ",
+              "there is"
+            ],
+            [
+              "عَلَامَة",
+              "sign, mark"
+            ],
+            [
+              "لِلْمِتْرُو",
+              "for the metro"
+            ]
+          ]
+        },
+        {
+          "id": "directions-l10",
+          "sp": "seller",
+          "ar": "نَعَم، هُنَاكَ عَلَامَة حَمْرَاء كَبِيرَة عَلَيْهَا حَرْف «م».",
+          "en": "Yes, there is a big red sign with the letter M on it.",
+          "segs": [
+            [
+              "نَعَم",
+              "yes"
+            ],
+            [
+              "هُنَاكَ",
+              "there is"
+            ],
+            [
+              "عَلَامَة",
+              "sign, mark"
+            ],
+            [
+              "حَمْرَاء",
+              "red (f)"
+            ],
+            [
+              "كَبِيرَة",
+              "big (f)"
+            ],
+            [
+              "عَلَيْهَا",
+              "on it (f)"
+            ],
+            [
+              "حَرْف",
+              "letter (of the alphabet)"
+            ],
+            [
+              "م",
+              "the letter mīm (m)"
+            ]
+          ]
+        },
+        {
+          "id": "directions-l11",
+          "sp": "layla",
+          "ar": "شُكْرًا جَزِيلًا! أَنْتَ لَطِيف جِدًّا.",
+          "en": "Thank you very much! You are very kind.",
+          "segs": [
+            [
+              "شُكْرًا",
+              "thank you"
+            ],
+            [
+              "جَزِيلًا",
+              "very much (lit. abundant)"
+            ],
+            [
+              "أَنْتَ",
+              "you (m)"
+            ],
+            [
+              "لَطِيف",
+              "kind, nice (m)"
+            ],
+            [
+              "جِدًّا",
+              "very"
+            ]
+          ]
+        },
+        {
+          "id": "directions-l12",
+          "sp": "seller",
+          "ar": "عَفْوًا! مَعَ السَّلَامَة، وَانْتَبِهِي مِنَ السَّيَّارَات!",
+          "en": "You're welcome! Goodbye, and watch out for the cars!",
+          "segs": [
+            [
+              "عَفْوًا",
+              "you're welcome"
+            ],
+            [
+              "مَعَ",
+              "with"
+            ],
+            [
+              "السَّلَامَة",
+              "the safety"
+            ],
+            [
+              "وَانْتَبِهِي",
+              "and watch out (to a woman)"
+            ],
+            [
+              "مِنَ",
+              "from, for"
+            ],
+            [
+              "السَّيَّارَات",
+              "the cars"
+            ]
+          ]
+        }
+      ]
+    },
+    "mistakes": [
+      {
+        "wrong": "اِذْهَبْ (to a woman)",
+        "right": "اِذْهَبِي",
+        "why": "Speaking to a woman, the command ends in -ī: idhhabī, khudhī."
+      },
+      {
+        "wrong": "الثَّانِي الشَّارِع",
+        "right": "الشَّارِع الثَّانِي",
+        "why": "An ordinal comes after its noun, like any adjective."
+      }
+    ],
+    "quiz": [
+      {
+        "id": "directions-q1",
+        "prompt": "Where is the metro station?",
+        "options": [
+          "behind the bank",
+          "in Tahrir Square",
+          "next to the shop",
+          "on the third street"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "directions-q2",
+        "prompt": "Which way does Layla go after the traffic lights?",
+        "options": [
+          "the first street on the right",
+          "the third street on the left",
+          "the second street on the left",
+          "the second street on the right"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "directions-q3",
+        "prompt": "What does this mean?",
+        "ar": "الشَّارِع الثَّانِي",
+        "options": [
+          "two streets",
+          "the first street",
+          "the third street",
+          "the second street"
+        ],
+        "answer": 3
+      }
+    ]
+  },
+  {
+    "id": "clothes-shop",
+    "title": "In a clothes shop",
+    "emoji": "👗",
+    "status": "needs-review",
+    "intro": "You are buying a dress in a clothes shop in Cairo. Useful phrases: مَقَاس (size), ضَيِّق (tight), وَاسِع (loose), أُرِيدُ (I want) and بِكَمْ؟ (how much is it?).",
+    "dialogue": {
+      "title": "A dress for a party",
+      "speakers": [
+        {
+          "key": "seller",
+          "name": "Shop assistant",
+          "nameAr": "الْبَائِع"
+        },
+        {
+          "key": "layla",
+          "name": "Layla",
+          "nameAr": "لَيْلَى"
+        }
+      ],
+      "culture": "Many clothes shops in Egypt stay open until late at night, and evening is the busiest time for shopping, especially in summer when the days are hot.",
+      "lines": [
+        {
+          "id": "clothes-shop-l1",
+          "sp": "seller",
+          "ar": "مَسَاءُ الْخَيْر! تَفَضَّلِي. هَلْ تَبْحَثِينَ عَنْ شَيْء خَاصّ؟",
+          "en": "Good evening! Come in. Are you looking for something special?",
+          "segs": [
+            [
+              "مَسَاءُ",
+              "evening (of)"
+            ],
+            [
+              "الْخَيْر",
+              "the goodness"
+            ],
+            [
+              "تَفَضَّلِي",
+              "please come in (to a woman)"
+            ],
+            [
+              "هَلْ",
+              "(starts a yes/no question)"
+            ],
+            [
+              "تَبْحَثِينَ",
+              "you are looking (to a woman)"
+            ],
+            [
+              "عَنْ",
+              "for, about"
+            ],
+            [
+              "شَيْء",
+              "thing, something"
+            ],
+            [
+              "خَاصّ",
+              "special"
+            ]
+          ]
+        },
+        {
+          "id": "clothes-shop-l2",
+          "sp": "layla",
+          "ar": "مَسَاءُ النُّور. أُرِيدُ فُسْتَانًا لِحَفْلَةِ عِيدِ مِيلَاد.",
+          "en": "Good evening. I would like a dress for a birthday party.",
+          "segs": [
+            [
+              "مَسَاءُ",
+              "evening (of)"
+            ],
+            [
+              "النُّور",
+              "the light"
+            ],
+            [
+              "أُرِيدُ",
+              "I want"
+            ],
+            [
+              "فُسْتَانًا",
+              "a dress"
+            ],
+            [
+              "لِحَفْلَةِ",
+              "for a party (of)"
+            ],
+            [
+              "عِيدِ",
+              "feast, day (of)"
+            ],
+            [
+              "مِيلَاد",
+              "birth ('birthday')"
+            ]
+          ]
+        },
+        {
+          "id": "clothes-shop-l3",
+          "sp": "seller",
+          "ar": "عِنْدَنَا فَسَاتِين جَدِيدَة كَثِيرَة. هٰذِهِ الْفَسَاتِين الْخَضْرَاء جَمِيلَة جِدًّا.",
+          "en": "We have lots of new dresses. These green dresses are very pretty.",
+          "segs": [
+            [
+              "عِنْدَنَا",
+              "we have"
+            ],
+            [
+              "فَسَاتِين",
+              "dresses"
+            ],
+            [
+              "جَدِيدَة",
+              "new (f)"
+            ],
+            [
+              "كَثِيرَة",
+              "many (f)"
+            ],
+            [
+              "هٰذِهِ",
+              "this, these (f)"
+            ],
+            [
+              "الْفَسَاتِين",
+              "the dresses"
+            ],
+            [
+              "الْخَضْرَاء",
+              "the green (f)"
+            ],
+            [
+              "جَمِيلَة",
+              "beautiful, pretty (f)"
+            ],
+            [
+              "جِدًّا",
+              "very"
+            ]
+          ]
+        },
+        {
+          "id": "clothes-shop-l4",
+          "sp": "layla",
+          "ar": "نَعَم، هِيَ جَمِيلَة. هَلْ عِنْدَكَ هٰذَا الْفُسْتَان بِمَقَاس صَغِير؟",
+          "en": "Yes, they are pretty. Do you have this dress in a small size?",
+          "segs": [
+            [
+              "نَعَم",
+              "yes"
+            ],
+            [
+              "هِيَ",
+              "she, they (things)"
+            ],
+            [
+              "جَمِيلَة",
+              "beautiful, pretty (f)"
+            ],
+            [
+              "هَلْ",
+              "(starts a yes/no question)"
+            ],
+            [
+              "عِنْدَكَ",
+              "you have (to a man)"
+            ],
+            [
+              "هٰذَا",
+              "this (m)"
+            ],
+            [
+              "الْفُسْتَان",
+              "the dress"
+            ],
+            [
+              "بِمَقَاس",
+              "in a size"
+            ],
+            [
+              "صَغِير",
+              "small (m)"
+            ]
+          ]
+        },
+        {
+          "id": "clothes-shop-l5",
+          "sp": "seller",
+          "ar": "طَبْعًا، تَفَضَّلِي. غُرْفَةُ الْقِيَاس هُنَاكَ، عَلَى الْيَمِين.",
+          "en": "Of course, here you are. The fitting room is over there, on the right.",
+          "segs": [
+            [
+              "طَبْعًا",
+              "of course"
+            ],
+            [
+              "تَفَضَّلِي",
+              "here you are (to a woman)"
+            ],
+            [
+              "غُرْفَةُ",
+              "room (of)"
+            ],
+            [
+              "الْقِيَاس",
+              "the measuring ('fitting room')"
+            ],
+            [
+              "هُنَاكَ",
+              "there"
+            ],
+            [
+              "عَلَى",
+              "on"
+            ],
+            [
+              "الْيَمِين",
+              "the right"
+            ]
+          ]
+        },
+        {
+          "id": "clothes-shop-l6",
+          "sp": "layla",
+          "ar": "لِلْأَسَف، الْفُسْتَان ضَيِّق قَلِيلًا. هَلْ هُنَاكَ مَقَاس أَكْبَر؟",
+          "en": "Unfortunately, the dress is a little tight. Is there a bigger size?",
+          "segs": [
+            [
+              "لِلْأَسَف",
+              "unfortunately"
+            ],
+            [
+              "الْفُسْتَان",
+              "the dress"
+            ],
+            [
+              "ضَيِّق",
+              "tight, narrow"
+            ],
+            [
+              "قَلِيلًا",
+              "a little"
+            ],
+            [
+              "هَلْ",
+              "(starts a yes/no question)"
+            ],
+            [
+              "هُنَاكَ",
+              "there is"
+            ],
+            [
+              "مَقَاس",
+              "size"
+            ],
+            [
+              "أَكْبَر",
+              "bigger"
+            ]
+          ]
+        },
+        {
+          "id": "clothes-shop-l7",
+          "sp": "seller",
+          "ar": "نَعَم، هٰذَا الْمَقَاس الْمُتَوَسِّط. هُوَ مُنَاسِب لَكِ، إِنْ شَاءَ اللّٰه.",
+          "en": "Yes, this is the medium size. It should be right for you, God willing.",
+          "segs": [
+            [
+              "نَعَم",
+              "yes"
+            ],
+            [
+              "هٰذَا",
+              "this (m)"
+            ],
+            [
+              "الْمَقَاس",
+              "the size"
+            ],
+            [
+              "الْمُتَوَسِّط",
+              "the medium (m)"
+            ],
+            [
+              "هُوَ",
+              "he, it (m)"
+            ],
+            [
+              "مُنَاسِب",
+              "suitable, right (m)"
+            ],
+            [
+              "لَكِ",
+              "for you (f)"
+            ],
+            [
+              "إِنْ",
+              "if"
+            ],
+            [
+              "شَاءَ",
+              "(has) willed"
+            ],
+            [
+              "اللّٰه",
+              "God"
+            ]
+          ]
+        },
+        {
+          "id": "clothes-shop-l8",
+          "sp": "layla",
+          "ar": "مُمْتَاز! هٰذَا الْمَقَاس جَيِّد: لَا ضَيِّق وَلَا وَاسِع. بِكَمْ هُوَ؟",
+          "en": "Excellent! This size is good: neither tight nor loose. How much is it?",
+          "segs": [
+            [
+              "مُمْتَاز",
+              "excellent"
+            ],
+            [
+              "هٰذَا",
+              "this (m)"
+            ],
+            [
+              "الْمَقَاس",
+              "the size"
+            ],
+            [
+              "جَيِّد",
+              "good"
+            ],
+            [
+              "لَا",
+              "neither, not"
+            ],
+            [
+              "ضَيِّق",
+              "tight, narrow"
+            ],
+            [
+              "وَلَا",
+              "nor, and not"
+            ],
+            [
+              "وَاسِع",
+              "loose, wide"
+            ],
+            [
+              "بِكَمْ",
+              "for how much"
+            ],
+            [
+              "هُوَ",
+              "he, it (m)"
+            ]
+          ]
+        },
+        {
+          "id": "clothes-shop-l9",
+          "sp": "seller",
+          "ar": "بِسَبْعِمِئَة جُنَيْه. وَعِنْدَنَا أَيْضًا أَحْذِيَة مُنَاسِبَة لِلْفُسْتَان.",
+          "en": "Seven hundred pounds. And we also have shoes that go with the dress.",
+          "segs": [
+            [
+              "بِسَبْعِمِئَة",
+              "for seven hundred"
+            ],
+            [
+              "جُنَيْه",
+              "pound (money)"
+            ],
+            [
+              "وَعِنْدَنَا",
+              "and we have"
+            ],
+            [
+              "أَيْضًا",
+              "also, too"
+            ],
+            [
+              "أَحْذِيَة",
+              "shoes"
+            ],
+            [
+              "مُنَاسِبَة",
+              "suitable (f)"
+            ],
+            [
+              "لِلْفُسْتَان",
+              "for the dress"
+            ]
+          ]
+        },
+        {
+          "id": "clothes-shop-l10",
+          "sp": "layla",
+          "ar": "لَا، شُكْرًا. عِنْدِي أَحْذِيَة كَثِيرَة فِي الْبَيْت!",
+          "en": "No, thank you. I have lots of shoes at home!",
+          "segs": [
+            [
+              "لَا",
+              "no"
+            ],
+            [
+              "شُكْرًا",
+              "thank you"
+            ],
+            [
+              "عِنْدِي",
+              "I have"
+            ],
+            [
+              "أَحْذِيَة",
+              "shoes"
+            ],
+            [
+              "كَثِيرَة",
+              "many (f)"
+            ],
+            [
+              "فِي",
+              "in, at"
+            ],
+            [
+              "الْبَيْت",
+              "the house, home"
+            ]
+          ]
+        },
+        {
+          "id": "clothes-shop-l11",
+          "sp": "seller",
+          "ar": "كَمَا تُحِبِّينَ. تَفَضَّلِي، الْفُسْتَان فِي الْحَقِيبَة. مَبْرُوك!",
+          "en": "As you like. Here you are, the dress is in the bag. Enjoy it!",
+          "segs": [
+            [
+              "كَمَا",
+              "as"
+            ],
+            [
+              "تُحِبِّينَ",
+              "you like (to a woman)"
+            ],
+            [
+              "تَفَضَّلِي",
+              "here you are (to a woman)"
+            ],
+            [
+              "الْفُسْتَان",
+              "the dress"
+            ],
+            [
+              "فِي",
+              "in"
+            ],
+            [
+              "الْحَقِيبَة",
+              "the bag"
+            ],
+            [
+              "مَبْرُوك",
+              "congratulations"
+            ]
+          ]
+        },
+        {
+          "id": "clothes-shop-l12",
+          "sp": "layla",
+          "ar": "شُكْرًا جَزِيلًا! مَعَ السَّلَامَة.",
+          "en": "Thank you very much! Goodbye.",
+          "segs": [
+            [
+              "شُكْرًا",
+              "thank you"
+            ],
+            [
+              "جَزِيلًا",
+              "very much (lit. abundant)"
+            ],
+            [
+              "مَعَ",
+              "with"
+            ],
+            [
+              "السَّلَامَة",
+              "the safety"
+            ]
+          ]
+        }
+      ]
+    },
+    "mistakes": [
+      {
+        "wrong": "هٰذِهِ الْفَسَاتِين جَمِيلُونَ",
+        "right": "هٰذِهِ الْفَسَاتِين جَمِيلَة",
+        "why": "Plurals of things take a feminine singular adjective."
+      },
+      {
+        "wrong": "الْفُسْتَان ضَيِّقَة",
+        "right": "الْفُسْتَان ضَيِّق",
+        "why": "fustān (dress) is masculine, even though women wear it."
+      }
+    ],
+    "quiz": [
+      {
+        "id": "clothes-shop-q1",
+        "prompt": "What does Layla want to buy?",
+        "options": [
+          "shoes",
+          "a dress",
+          "a shirt",
+          "a bag"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "clothes-shop-q2",
+        "prompt": "What is wrong with the first dress?",
+        "options": [
+          "It is too long",
+          "It is too expensive",
+          "It is a little tight",
+          "It is the wrong colour"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "clothes-shop-q3",
+        "prompt": "What does this mean?",
+        "ar": "مَقَاس",
+        "options": [
+          "price",
+          "colour",
+          "shop",
+          "size"
+        ],
+        "answer": 3
+      }
+    ]
   }
 ]

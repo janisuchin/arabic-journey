@@ -1,0 +1,1155 @@
+{
+  "day": 27,
+  "week": 4,
+  "phase": 2,
+  "level": 3,
+  "title": "Clothes shopping",
+  "titleAr": "شِرَاءُ الْمَلَابِس",
+  "titleSegs": [
+    [
+      "شِرَاءُ",
+      "buying (of)"
+    ],
+    [
+      "الْمَلَابِس",
+      "the clothes"
+    ]
+  ],
+  "emoji": "👕",
+  "summary": "Buy clothes: ask for a size, say something is too tight or loose, and describe plural things with a feminine singular adjective.",
+  "intro": "In Arabic the plural of a thing (not a person) behaves like a single feminine word. So 'the shirts are nice' is الْقُمْصَان جَمِيلَة, with the feminine adjective, and you point at them with هٰذِهِ: هٰذِهِ الْأَحْذِيَة غَالِيَة (these shoes are expensive). People are different: الْبَاعَة لُطَفَاء (the sellers are kind) keeps a plural adjective.",
+  "objectives": [
+    "Name six items of clothing",
+    "Ask for another size and say something is tight or loose",
+    "Describe plural things with a feminine singular adjective: الْقُمْصَان جَمِيلَة",
+    "Point at plural things with هٰذِهِ"
+  ],
+  "realLife": {
+    "emoji": "👔",
+    "title": "Dinner at Sami's family home",
+    "story": "Sami's parents have invited Daniel to dinner at their home next Friday. Daniel has only jeans and old T-shirts, so Layla takes him to the clothes shops of downtown Cairo to find a smart shirt, a pair of trousers and, if possible, new shoes."
+  },
+  "letters": [],
+  "newWords": [
+    "malabis",
+    "qamis",
+    "bantalun",
+    "fustan",
+    "hidha",
+    "maqas",
+    "yalbasu",
+    "wasi",
+    "dayyiq"
+  ],
+  "grammar": [
+    "non-human-plural"
+  ],
+  "pronunciation": [
+    "shadda"
+  ],
+  "sentences": [
+    {
+      "id": "d27s1",
+      "ar": "هٰذِهِ الْقُمْصَان جَمِيلَة جِدًّا.",
+      "en": "These shirts are very nice.",
+      "literal": "these (f) the shirts (are) beautiful (f) very",
+      "segs": [
+        [
+          "هٰذِهِ",
+          "this, these (f)",
+          "demonstrative"
+        ],
+        [
+          "الْقُمْصَان",
+          "the shirts",
+          "noun"
+        ],
+        [
+          "جَمِيلَة",
+          "beautiful, nice (f)",
+          "adj"
+        ],
+        [
+          "جِدًّا",
+          "very",
+          "adverb"
+        ]
+      ],
+      "grammar": [
+        "non-human-plural",
+        "demonstratives"
+      ],
+      "mistakes": [
+        {
+          "wrong": "هٰؤُلَاءِ الْقُمْصَان جَمِيلُونَ",
+          "right": "هٰذِهِ الْقُمْصَان جَمِيلَة",
+          "why": "Shirts are things, so their plural takes hādhihi and a feminine singular adjective."
+        }
+      ]
+    },
+    {
+      "id": "d27s2",
+      "ar": "هٰذَا الْقَمِيص ضَيِّق قَلِيلًا.",
+      "en": "This shirt is a little tight.",
+      "literal": "this the shirt (is) tight a little",
+      "segs": [
+        [
+          "هٰذَا",
+          "this (m)",
+          "demonstrative"
+        ],
+        [
+          "الْقَمِيص",
+          "the shirt",
+          "noun"
+        ],
+        [
+          "ضَيِّق",
+          "tight, narrow",
+          "adj"
+        ],
+        [
+          "قَلِيلًا",
+          "a little",
+          "adverb"
+        ]
+      ],
+      "grammar": [
+        "demonstratives",
+        "adjectives"
+      ]
+    },
+    {
+      "id": "d27s3",
+      "ar": "هَلْ عِنْدَكَ مَقَاس أَكْبَر؟",
+      "en": "Do you have a bigger size? (to a man)",
+      "literal": "(question) at you (is) a size bigger",
+      "segs": [
+        [
+          "هَلْ",
+          "(starts a yes/no question)",
+          "particle"
+        ],
+        [
+          "عِنْدَكَ",
+          "you have (to a man)",
+          "prep"
+        ],
+        [
+          "مَقَاس",
+          "size",
+          "noun"
+        ],
+        [
+          "أَكْبَر",
+          "bigger",
+          "adj"
+        ]
+      ],
+      "grammar": [
+        "questions"
+      ]
+    },
+    {
+      "id": "d27s4",
+      "ar": "الْمَحَلَّات مَفْتُوحَة حَتَّى الْعَاشِرَة.",
+      "en": "The shops are open until ten.",
+      "literal": "the shops (are) open (f) until the tenth (hour)",
+      "segs": [
+        [
+          "الْمَحَلَّات",
+          "the shops",
+          "noun"
+        ],
+        [
+          "مَفْتُوحَة",
+          "open (f)",
+          "adj"
+        ],
+        [
+          "حَتَّى",
+          "until",
+          "prep"
+        ],
+        [
+          "الْعَاشِرَة",
+          "the tenth (f): ten o'clock",
+          "adj"
+        ]
+      ],
+      "grammar": [
+        "non-human-plural"
+      ],
+      "mistakes": [
+        {
+          "wrong": "الْمَحَلَّات مَفْتُوح",
+          "right": "الْمَحَلَّات مَفْتُوحَة",
+          "why": "A plural of things takes a feminine singular adjective: maftūḥa."
+        }
+      ]
+    },
+    {
+      "id": "d27s5",
+      "ar": "يَلْبَسُ دَانْيَال قَمِيصًا أَبْيَض.",
+      "en": "Daniel is wearing a white shirt.",
+      "literal": "wears Daniel a shirt white",
+      "segs": [
+        [
+          "يَلْبَسُ",
+          "wears (he)",
+          "verb"
+        ],
+        [
+          "دَانْيَال",
+          "Daniel (first name)",
+          "name"
+        ],
+        [
+          "قَمِيصًا",
+          "a shirt",
+          "noun"
+        ],
+        [
+          "أَبْيَض",
+          "white",
+          "adj"
+        ]
+      ],
+      "grammar": [
+        "verbal-sentence"
+      ]
+    },
+    {
+      "id": "d27s6",
+      "ar": "الْأَحْذِيَة غَالِيَة فِي هٰذَا الْمَحَلّ.",
+      "en": "The shoes are expensive in this shop.",
+      "literal": "the shoes (are) expensive (f) in this the shop",
+      "segs": [
+        [
+          "الْأَحْذِيَة",
+          "the shoes",
+          "noun"
+        ],
+        [
+          "غَالِيَة",
+          "expensive (f)",
+          "adj"
+        ],
+        [
+          "فِي",
+          "in",
+          "prep"
+        ],
+        [
+          "هٰذَا",
+          "this (m)",
+          "demonstrative"
+        ],
+        [
+          "الْمَحَلّ",
+          "the shop",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "non-human-plural"
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "A shirt for Friday",
+    "speakers": [
+      {
+        "key": "layla",
+        "name": "Layla",
+        "nameAr": "لَيْلَى"
+      },
+      {
+        "key": "daniel",
+        "name": "Daniel",
+        "nameAr": "دَانْيَال"
+      },
+      {
+        "key": "seller",
+        "name": "Shop assistant",
+        "nameAr": "الْبَائِع"
+      }
+    ],
+    "culture": "Egyptian cotton (الْقُطْن الْمِصْرِيّ) is famous all over the world for its long, soft fibres. When a friend buys something new, say مَبْرُوك (congratulations). In big stores prices are fixed, but in small shops a friendly request for a discount often works.",
+    "lines": [
+      {
+        "id": "d27l1",
+        "sp": "layla",
+        "ar": "هٰذَا شَارِعُ الْمَلَابِس! هُنَاكَ مَحَلَّات كَثِيرَة هُنَا، وَالْأَسْعَار مَعْقُولَة.",
+        "en": "This is the clothes street! There are lots of shops here, and the prices are reasonable.",
+        "segs": [
+          [
+            "هٰذَا",
+            "this (m)"
+          ],
+          [
+            "شَارِعُ",
+            "street (of)"
+          ],
+          [
+            "الْمَلَابِس",
+            "the clothes"
+          ],
+          [
+            "هُنَاكَ",
+            "there are"
+          ],
+          [
+            "مَحَلَّات",
+            "shops"
+          ],
+          [
+            "كَثِيرَة",
+            "many (f)"
+          ],
+          [
+            "هُنَا",
+            "here"
+          ],
+          [
+            "وَالْأَسْعَار",
+            "and the prices"
+          ],
+          [
+            "مَعْقُولَة",
+            "reasonable (f)"
+          ]
+        ]
+      },
+      {
+        "id": "d27l2",
+        "sp": "daniel",
+        "ar": "أُرِيدُ قَمِيصًا جَمِيلًا وَبَنْطَلُونًا لِلْعَشَاء عِنْدَ عَائِلَةِ سَامِي يَوْمَ الْجُمُعَة.",
+        "en": "I want a nice shirt and trousers for dinner with Sami's family on Friday.",
+        "segs": [
+          [
+            "أُرِيدُ",
+            "I want"
+          ],
+          [
+            "قَمِيصًا",
+            "a shirt"
+          ],
+          [
+            "جَمِيلًا",
+            "beautiful, nice"
+          ],
+          [
+            "وَبَنْطَلُونًا",
+            "and trousers"
+          ],
+          [
+            "لِلْعَشَاء",
+            "for the dinner"
+          ],
+          [
+            "عِنْدَ",
+            "at (someone's home)"
+          ],
+          [
+            "عَائِلَةِ",
+            "family (of)"
+          ],
+          [
+            "سَامِي",
+            "Sami (first name)",
+            "name"
+          ],
+          [
+            "يَوْمَ",
+            "on the day (of)"
+          ],
+          [
+            "الْجُمُعَة",
+            "Friday"
+          ]
+        ]
+      },
+      {
+        "id": "d27l3",
+        "sp": "seller",
+        "ar": "أَهْلًا وَسَهْلًا! تَفَضَّلُوا. عِنْدَنَا قُمْصَان جَدِيدَة، وَكُلُّهَا مِنَ الْقُطْن الْمِصْرِيّ.",
+        "en": "Welcome! Come in. We have new shirts, and they are all made of Egyptian cotton.",
+        "segs": [
+          [
+            "أَهْلًا",
+            "welcome"
+          ],
+          [
+            "وَسَهْلًا",
+            "and ease (part of 'welcome')"
+          ],
+          [
+            "تَفَضَّلُوا",
+            "please come in (to several people)"
+          ],
+          [
+            "عِنْدَنَا",
+            "we have"
+          ],
+          [
+            "قُمْصَان",
+            "shirts"
+          ],
+          [
+            "جَدِيدَة",
+            "new (f)"
+          ],
+          [
+            "وَكُلُّهَا",
+            "and all of them"
+          ],
+          [
+            "مِنَ",
+            "from, made of"
+          ],
+          [
+            "الْقُطْن",
+            "the cotton"
+          ],
+          [
+            "الْمِصْرِيّ",
+            "the Egyptian (m)"
+          ]
+        ]
+      },
+      {
+        "id": "d27l4",
+        "sp": "daniel",
+        "ar": "هٰذِهِ الْقُمْصَان جَمِيلَة جِدًّا! هَلْ عِنْدَكَ هٰذَا الْقَمِيص الْأَزْرَق بِمَقَاس كَبِير؟",
+        "en": "These shirts are very nice! Do you have this blue shirt in a large size?",
+        "segs": [
+          [
+            "هٰذِهِ",
+            "this, these (f)"
+          ],
+          [
+            "الْقُمْصَان",
+            "the shirts"
+          ],
+          [
+            "جَمِيلَة",
+            "beautiful, nice (f)"
+          ],
+          [
+            "جِدًّا",
+            "very"
+          ],
+          [
+            "هَلْ",
+            "(starts a yes/no question)"
+          ],
+          [
+            "عِنْدَكَ",
+            "you have (to a man)"
+          ],
+          [
+            "هٰذَا",
+            "this (m)"
+          ],
+          [
+            "الْقَمِيص",
+            "the shirt"
+          ],
+          [
+            "الْأَزْرَق",
+            "the blue (m)"
+          ],
+          [
+            "بِمَقَاس",
+            "in a size"
+          ],
+          [
+            "كَبِير",
+            "big, large"
+          ]
+        ]
+      },
+      {
+        "id": "d27l5",
+        "sp": "seller",
+        "ar": "نَعَم، تَفَضَّلْ. غُرْفَةُ الْقِيَاس هُنَاكَ، خَلْفَ الْمَرَايَا.",
+        "en": "Yes, here you are. The fitting room is over there, behind the mirrors.",
+        "segs": [
+          [
+            "نَعَم",
+            "yes"
+          ],
+          [
+            "تَفَضَّلْ",
+            "here you are (to a man)"
+          ],
+          [
+            "غُرْفَةُ",
+            "room (of)"
+          ],
+          [
+            "الْقِيَاس",
+            "the measuring ('fitting room')"
+          ],
+          [
+            "هُنَاكَ",
+            "there"
+          ],
+          [
+            "خَلْفَ",
+            "behind"
+          ],
+          [
+            "الْمَرَايَا",
+            "the mirrors"
+          ]
+        ]
+      },
+      {
+        "id": "d27l6",
+        "sp": "daniel",
+        "ar": "لِلْأَسَف، الْقَمِيص ضَيِّق قَلِيلًا. هَلْ عِنْدَكَ مَقَاس أَكْبَر؟",
+        "en": "Unfortunately, the shirt is a little tight. Do you have a bigger size?",
+        "segs": [
+          [
+            "لِلْأَسَف",
+            "unfortunately"
+          ],
+          [
+            "الْقَمِيص",
+            "the shirt"
+          ],
+          [
+            "ضَيِّق",
+            "tight, narrow"
+          ],
+          [
+            "قَلِيلًا",
+            "a little"
+          ],
+          [
+            "هَلْ",
+            "(starts a yes/no question)"
+          ],
+          [
+            "عِنْدَكَ",
+            "you have (to a man)"
+          ],
+          [
+            "مَقَاس",
+            "size"
+          ],
+          [
+            "أَكْبَر",
+            "bigger"
+          ]
+        ]
+      },
+      {
+        "id": "d27l7",
+        "sp": "seller",
+        "ar": "طَبْعًا، هٰذَا مَقَاس أَكْبَر. وَهٰذِهِ بَنْطَلُونَات سَوْدَاء، وَهِيَ مُنَاسِبَة لِلْقَمِيص.",
+        "en": "Of course, this is a bigger size. And these are black trousers, and they go well with the shirt.",
+        "segs": [
+          [
+            "طَبْعًا",
+            "of course"
+          ],
+          [
+            "هٰذَا",
+            "this (m)"
+          ],
+          [
+            "مَقَاس",
+            "size"
+          ],
+          [
+            "أَكْبَر",
+            "bigger"
+          ],
+          [
+            "وَهٰذِهِ",
+            "and this, and these (f)"
+          ],
+          [
+            "بَنْطَلُونَات",
+            "pairs of trousers"
+          ],
+          [
+            "سَوْدَاء",
+            "black (f)"
+          ],
+          [
+            "وَهِيَ",
+            "and she, and they (things)"
+          ],
+          [
+            "مُنَاسِبَة",
+            "suitable (f)"
+          ],
+          [
+            "لِلْقَمِيص",
+            "for the shirt"
+          ]
+        ]
+      },
+      {
+        "id": "d27l8",
+        "sp": "layla",
+        "ar": "الْقَمِيص الْجَدِيد مُمْتَاز يَا دَانْيَال! وَالْبَنْطَلُون؟ هَلْ هُوَ وَاسِع؟",
+        "en": "The new shirt is excellent, Daniel! And the trousers? Are they loose?",
+        "segs": [
+          [
+            "الْقَمِيص",
+            "the shirt"
+          ],
+          [
+            "الْجَدِيد",
+            "the new (m)"
+          ],
+          [
+            "مُمْتَاز",
+            "excellent"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "دَانْيَال",
+            "Daniel (first name)",
+            "name"
+          ],
+          [
+            "وَالْبَنْطَلُون",
+            "and the trousers"
+          ],
+          [
+            "هَلْ",
+            "(starts a yes/no question)"
+          ],
+          [
+            "هُوَ",
+            "he, it (m)"
+          ],
+          [
+            "وَاسِع",
+            "loose, wide"
+          ]
+        ]
+      },
+      {
+        "id": "d27l9",
+        "sp": "daniel",
+        "ar": "الْبَنْطَلُون وَاسِع قَلِيلًا، لٰكِنَّهُ مُرِيح. أَلْبَسُهُ مَعَ حِزَام.",
+        "en": "The trousers are a little loose, but they are comfortable. I will wear them with a belt.",
+        "segs": [
+          [
+            "الْبَنْطَلُون",
+            "the trousers"
+          ],
+          [
+            "وَاسِع",
+            "loose, wide"
+          ],
+          [
+            "قَلِيلًا",
+            "a little"
+          ],
+          [
+            "لٰكِنَّهُ",
+            "but it (m)"
+          ],
+          [
+            "مُرِيح",
+            "comfortable"
+          ],
+          [
+            "أَلْبَسُهُ",
+            "I wear it"
+          ],
+          [
+            "مَعَ",
+            "with"
+          ],
+          [
+            "حِزَام",
+            "belt"
+          ]
+        ]
+      },
+      {
+        "id": "d27l10",
+        "sp": "layla",
+        "ar": "وَالْأَحْذِيَة؟ حِذَاؤُكَ قَدِيم جِدًّا! هُنَاكَ أَحْذِيَة جَمِيلَة فِي الْمَحَلّ الثَّانِي.",
+        "en": "And shoes? Your shoes are very old! There are nice shoes in the second shop.",
+        "segs": [
+          [
+            "وَالْأَحْذِيَة",
+            "and the shoes"
+          ],
+          [
+            "حِذَاؤُكَ",
+            "your shoes (to a man)"
+          ],
+          [
+            "قَدِيم",
+            "old (m)"
+          ],
+          [
+            "جِدًّا",
+            "very"
+          ],
+          [
+            "هُنَاكَ",
+            "there are"
+          ],
+          [
+            "أَحْذِيَة",
+            "shoes"
+          ],
+          [
+            "جَمِيلَة",
+            "beautiful, nice (f)"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "الْمَحَلّ",
+            "the shop"
+          ],
+          [
+            "الثَّانِي",
+            "the second (m)"
+          ]
+        ]
+      },
+      {
+        "id": "d27l11",
+        "sp": "seller",
+        "ar": "عِنْدَنَا أَحْذِيَة هُنَا أَيْضًا! هٰذِهِ الْأَحْذِيَة إِيطَالِيَّة، وَهِيَ جَمِيلَة جِدًّا.",
+        "en": "We have shoes here too! These shoes are Italian, and they are very beautiful.",
+        "segs": [
+          [
+            "عِنْدَنَا",
+            "we have"
+          ],
+          [
+            "أَحْذِيَة",
+            "shoes"
+          ],
+          [
+            "هُنَا",
+            "here"
+          ],
+          [
+            "أَيْضًا",
+            "also, too"
+          ],
+          [
+            "هٰذِهِ",
+            "this, these (f)"
+          ],
+          [
+            "الْأَحْذِيَة",
+            "the shoes"
+          ],
+          [
+            "إِيطَالِيَّة",
+            "Italian (f)"
+          ],
+          [
+            "وَهِيَ",
+            "and she, and they (things)"
+          ],
+          [
+            "جَمِيلَة",
+            "beautiful, nice (f)"
+          ],
+          [
+            "جِدًّا",
+            "very"
+          ]
+        ]
+      },
+      {
+        "id": "d27l12",
+        "sp": "daniel",
+        "ar": "جَمِيلَة، لٰكِنَّهَا غَالِيَة جِدًّا! كَمْ ثَمَنُ الْقَمِيص وَالْبَنْطَلُون مَعًا؟",
+        "en": "Beautiful, but they are very expensive! How much are the shirt and the trousers together?",
+        "segs": [
+          [
+            "جَمِيلَة",
+            "beautiful, nice (f)"
+          ],
+          [
+            "لٰكِنَّهَا",
+            "but they (things), but it (f)"
+          ],
+          [
+            "غَالِيَة",
+            "expensive (f)"
+          ],
+          [
+            "جِدًّا",
+            "very"
+          ],
+          [
+            "كَمْ",
+            "how much, how many"
+          ],
+          [
+            "ثَمَنُ",
+            "price (of)"
+          ],
+          [
+            "الْقَمِيص",
+            "the shirt"
+          ],
+          [
+            "وَالْبَنْطَلُون",
+            "and the trousers"
+          ],
+          [
+            "مَعًا",
+            "together"
+          ]
+        ]
+      },
+      {
+        "id": "d27l13",
+        "sp": "seller",
+        "ar": "الْقَمِيص بِأَرْبَعِمِئَة، وَالْبَنْطَلُون بِسِتِّمِئَة. الْمَجْمُوع أَلْف جُنَيْه.",
+        "en": "The shirt is four hundred, and the trousers are six hundred. The total is a thousand pounds.",
+        "segs": [
+          [
+            "الْقَمِيص",
+            "the shirt"
+          ],
+          [
+            "بِأَرْبَعِمِئَة",
+            "for four hundred"
+          ],
+          [
+            "وَالْبَنْطَلُون",
+            "and the trousers"
+          ],
+          [
+            "بِسِتِّمِئَة",
+            "for six hundred"
+          ],
+          [
+            "الْمَجْمُوع",
+            "the total"
+          ],
+          [
+            "أَلْف",
+            "thousand"
+          ],
+          [
+            "جُنَيْه",
+            "pound (money)"
+          ]
+        ]
+      },
+      {
+        "id": "d27l14",
+        "sp": "layla",
+        "ar": "أَلْف كَثِير! ثَمَانِمِئَة لِلْكُلّ، مِنْ فَضْلِكَ. هُوَ طَالِب، وَنَحْنُ زَبَائِن جُدُد.",
+        "en": "A thousand is a lot! Eight hundred for everything, please. He is a student, and we are new customers.",
+        "segs": [
+          [
+            "أَلْف",
+            "thousand"
+          ],
+          [
+            "كَثِير",
+            "a lot, too much"
+          ],
+          [
+            "ثَمَانِمِئَة",
+            "eight hundred"
+          ],
+          [
+            "لِلْكُلّ",
+            "for everything"
+          ],
+          [
+            "مِنْ",
+            "from"
+          ],
+          [
+            "فَضْلِكَ",
+            "your kindness (to a man): 'please'"
+          ],
+          [
+            "هُوَ",
+            "he"
+          ],
+          [
+            "طَالِب",
+            "student (m)"
+          ],
+          [
+            "وَنَحْنُ",
+            "and we"
+          ],
+          [
+            "زَبَائِن",
+            "customers"
+          ],
+          [
+            "جُدُد",
+            "new (plural, for people)"
+          ]
+        ]
+      },
+      {
+        "id": "d27l15",
+        "sp": "seller",
+        "ar": "طَيِّب، تِسْعُمِئَة، وَهٰذَا آخِرُ سِعْر. مَبْرُوك عَلَيْكَ الْمَلَابِس الْجَدِيدَة!",
+        "en": "All right, nine hundred, and that is my last price. Enjoy your new clothes!",
+        "segs": [
+          [
+            "طَيِّب",
+            "OK, fine"
+          ],
+          [
+            "تِسْعُمِئَة",
+            "nine hundred"
+          ],
+          [
+            "وَهٰذَا",
+            "and this (m)"
+          ],
+          [
+            "آخِرُ",
+            "the last (before a noun)"
+          ],
+          [
+            "سِعْر",
+            "price"
+          ],
+          [
+            "مَبْرُوك",
+            "congratulations"
+          ],
+          [
+            "عَلَيْكَ",
+            "on you (to a man)"
+          ],
+          [
+            "الْمَلَابِس",
+            "the clothes"
+          ],
+          [
+            "الْجَدِيدَة",
+            "the new (f)"
+          ]
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "title": "Ready for Friday",
+    "ar": "عِنْدِي الْآن قَمِيص أَزْرَق وَبَنْطَلُون أَسْوَد. الْقَمِيص مِنَ الْقُطْن الْمِصْرِيّ، وَهُوَ مُرِيح جِدًّا. الْأَحْذِيَة فِي الْمَحَلّ غَالِيَة، فَأَلْبَسُ حِذَائِي الْقَدِيم. يَوْمَ الْجُمُعَة أَلْبَسُ مَلَابِسِي الْجَدِيدَة.",
+    "en": "Now I have a blue shirt and black trousers. The shirt is made of Egyptian cotton, and it is very comfortable. The shoes in the shop are expensive, so I will wear my old shoes. On Friday I will wear my new clothes.",
+    "segs": [
+      [
+        "عِنْدِي",
+        "I have"
+      ],
+      [
+        "الْآن",
+        "now"
+      ],
+      [
+        "قَمِيص",
+        "shirt"
+      ],
+      [
+        "أَزْرَق",
+        "blue (m)"
+      ],
+      [
+        "وَبَنْطَلُون",
+        "and trousers"
+      ],
+      [
+        "أَسْوَد",
+        "black (m)"
+      ],
+      [
+        "الْقَمِيص",
+        "the shirt"
+      ],
+      [
+        "مِنَ",
+        "from, made of"
+      ],
+      [
+        "الْقُطْن",
+        "the cotton"
+      ],
+      [
+        "الْمِصْرِيّ",
+        "the Egyptian (m)"
+      ],
+      [
+        "وَهُوَ",
+        "and it (m)"
+      ],
+      [
+        "مُرِيح",
+        "comfortable"
+      ],
+      [
+        "جِدًّا",
+        "very"
+      ],
+      [
+        "الْأَحْذِيَة",
+        "the shoes"
+      ],
+      [
+        "فِي",
+        "in"
+      ],
+      [
+        "الْمَحَلّ",
+        "the shop"
+      ],
+      [
+        "غَالِيَة",
+        "expensive (f)"
+      ],
+      [
+        "فَأَلْبَسُ",
+        "so I wear"
+      ],
+      [
+        "حِذَائِي",
+        "my shoes"
+      ],
+      [
+        "الْقَدِيم",
+        "the old (m)"
+      ],
+      [
+        "يَوْمَ",
+        "on the day (of)"
+      ],
+      [
+        "الْجُمُعَة",
+        "Friday"
+      ],
+      [
+        "أَلْبَسُ",
+        "I wear"
+      ],
+      [
+        "مَلَابِسِي",
+        "my clothes"
+      ],
+      [
+        "الْجَدِيدَة",
+        "the new (f)"
+      ]
+    ]
+  },
+  "review": [
+    "hunaka",
+    "maftuh",
+    "kabir",
+    "jadid",
+    "thani",
+    "mahall"
+  ],
+  "quiz": [
+    {
+      "id": "d27q1",
+      "prompt": "What does this mean?",
+      "ar": "قَمِيص",
+      "options": [
+        "dress",
+        "shirt",
+        "shoe",
+        "trousers"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "d27q2",
+      "prompt": "Fill the gap: 'The shops are open.'",
+      "ar": "الْمَحَلَّات …",
+      "options": [
+        "مَفْتُوح",
+        "هُنَا",
+        "مَفْتُوحَة",
+        "كَبِير"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "d27q3",
+      "prompt": "Fill the gap: 'These shoes are expensive.'",
+      "ar": "… الْأَحْذِيَة غَالِيَة.",
+      "options": [
+        "هٰذِهِ",
+        "هٰذَا",
+        "هُوَ",
+        "أَنَا"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "d27q4",
+      "prompt": "Why does Daniel need new clothes?",
+      "options": [
+        "For a job interview",
+        "For a wedding",
+        "For the final exam",
+        "For dinner with Sami's family"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "d27q5",
+      "prompt": "What is wrong with the first shirt?",
+      "options": [
+        "It is too expensive",
+        "It is a little tight",
+        "It is the wrong colour",
+        "It is too long"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "d27q6",
+      "prompt": "What is the opposite of ضَيِّق?",
+      "options": [
+        "وَاسِع",
+        "جَدِيد",
+        "قَرِيب",
+        "مُغْلَق"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "d27q7",
+      "prompt": "How much do they pay in the end?",
+      "options": [
+        "eight hundred pounds",
+        "a thousand pounds",
+        "nine hundred pounds",
+        "six hundred pounds"
+      ],
+      "answer": 2
+    }
+  ],
+  "completion": "Great shopping! You can buy clothes, ask for a size and describe plural things the Arabic way.",
+  "status": "needs-review"
+}

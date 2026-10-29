@@ -1,0 +1,1158 @@
+{
+  "day": 23,
+  "week": 4,
+  "phase": 2,
+  "level": 2,
+  "title": "Left and right",
+  "titleAr": "يَمِينًا وَيَسَارًا",
+  "titleSegs": [
+    [
+      "يَمِينًا",
+      "to the right"
+    ],
+    [
+      "وَيَسَارًا",
+      "and to the left"
+    ]
+  ],
+  "emoji": "🧭",
+  "summary": "Ask for and give simple directions: right, left, straight ahead, near and far, and the first, second and third street.",
+  "intro": "To find your way you need يَمِينًا (to the right), يَسَارًا (to the left) and إِلَى الْأَمَام (straight ahead). You also learn the ordinal numbers: الشَّارِع الْأَوَّل (the first street), الشَّارِع الثَّانِي (the second street). An ordinal is an adjective, so it comes after the noun and agrees with it: الْبِنَايَة الثَّالِثَة (the third building).",
+  "objectives": [
+    "Stop someone politely and ask the way",
+    "Give directions with right, left and straight ahead",
+    "Use the ordinals first to fifth with masculine and feminine nouns",
+    "Say whether a place is near or far"
+  ],
+  "realLife": {
+    "emoji": "📵",
+    "title": "Lost on the way",
+    "story": "Daniel is meeting Layla at a café in Zamalek, an island in the Nile. Then his phone battery dies and he takes a wrong turn. He stops a friendly policeman and has to understand every word of the answer: straight ahead, right, the second street on the left, the traffic lights."
+  },
+  "letters": [],
+  "newWords": [
+    "yamin",
+    "yasar",
+    "awwal",
+    "thani",
+    "thalith",
+    "qarib",
+    "baid",
+    "ishara"
+  ],
+  "grammar": [
+    "ordinals"
+  ],
+  "pronunciation": [
+    "wasl"
+  ],
+  "sentences": [
+    {
+      "id": "d23s1",
+      "ar": "خُذِ الشَّارِعَ الثَّانِي عَلَى الْيَمِين.",
+      "en": "Take the second street on the right.",
+      "literal": "take the street the second on the right",
+      "segs": [
+        [
+          "خُذِ",
+          "take (to a man)",
+          "verb"
+        ],
+        [
+          "الشَّارِعَ",
+          "the street",
+          "noun"
+        ],
+        [
+          "الثَّانِي",
+          "the second (m)",
+          "adj"
+        ],
+        [
+          "عَلَى",
+          "on",
+          "prep"
+        ],
+        [
+          "الْيَمِين",
+          "the right",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "ordinals"
+      ],
+      "mistakes": [
+        {
+          "wrong": "خُذِ الثَّانِي الشَّارِعَ",
+          "right": "خُذِ الشَّارِعَ الثَّانِي",
+          "why": "An ordinal is an adjective: it comes after the noun and takes al- too."
+        }
+      ]
+    },
+    {
+      "id": "d23s2",
+      "ar": "الْمَكْتَبَة فِي الْبِنَايَة الثَّالِثَة.",
+      "en": "The bookshop is in the third building.",
+      "literal": "the bookshop (is) in the building the third",
+      "segs": [
+        [
+          "الْمَكْتَبَة",
+          "the bookshop",
+          "noun"
+        ],
+        [
+          "فِي",
+          "in",
+          "prep"
+        ],
+        [
+          "الْبِنَايَة",
+          "the building",
+          "noun"
+        ],
+        [
+          "الثَّالِثَة",
+          "the third (f)",
+          "adj"
+        ]
+      ],
+      "grammar": [
+        "ordinals",
+        "adjectives"
+      ],
+      "mistakes": [
+        {
+          "wrong": "الْمَكْتَبَة فِي الْبِنَايَة الثَّالِث",
+          "right": "الْمَكْتَبَة فِي الْبِنَايَة الثَّالِثَة",
+          "why": "binaya (building) is feminine, so the ordinal takes ة: ath-thālitha."
+        }
+      ]
+    },
+    {
+      "id": "d23s3",
+      "ar": "هَلِ الْمَقْهَى قَرِيب مِنْ هُنَا؟",
+      "en": "Is the café near here?",
+      "literal": "(question) the café near from here",
+      "segs": [
+        [
+          "هَلِ",
+          "(starts a yes/no question)",
+          "particle"
+        ],
+        [
+          "الْمَقْهَى",
+          "the café",
+          "noun"
+        ],
+        [
+          "قَرِيب",
+          "near, close",
+          "adj"
+        ],
+        [
+          "مِنْ",
+          "from",
+          "prep"
+        ],
+        [
+          "هُنَا",
+          "here",
+          "adverb"
+        ]
+      ],
+      "grammar": [
+        "questions",
+        "nominal-sentence"
+      ]
+    },
+    {
+      "id": "d23s4",
+      "ar": "هٰذَا أَوَّلُ يَوْم لِي فِي الزَّمَالِك.",
+      "en": "This is my first day in Zamalek.",
+      "literal": "this (is the) first day for me in Zamalek",
+      "segs": [
+        [
+          "هٰذَا",
+          "this (m)",
+          "demonstrative"
+        ],
+        [
+          "أَوَّلُ",
+          "the first (before a noun)",
+          "adj"
+        ],
+        [
+          "يَوْم",
+          "day",
+          "noun"
+        ],
+        [
+          "لِي",
+          "for me",
+          "prep"
+        ],
+        [
+          "فِي",
+          "in",
+          "prep"
+        ],
+        [
+          "الزَّمَالِك",
+          "Zamalek (district of Cairo on an island in the Nile)",
+          "name"
+        ]
+      ],
+      "grammar": [
+        "ordinals",
+        "demonstratives"
+      ]
+    },
+    {
+      "id": "d23s5",
+      "ar": "الْمَدْرَسَة فِي الْبِنَايَة الرَّابِعَة عَلَى الْيَسَار.",
+      "en": "The school is in the fourth building on the left.",
+      "literal": "the school (is) in the building the fourth on the left",
+      "segs": [
+        [
+          "الْمَدْرَسَة",
+          "the school",
+          "noun"
+        ],
+        [
+          "فِي",
+          "in",
+          "prep"
+        ],
+        [
+          "الْبِنَايَة",
+          "the building",
+          "noun"
+        ],
+        [
+          "الرَّابِعَة",
+          "the fourth (f)",
+          "adj"
+        ],
+        [
+          "عَلَى",
+          "on",
+          "prep"
+        ],
+        [
+          "الْيَسَار",
+          "the left",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "ordinals"
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Asking a policeman the way",
+    "speakers": [
+      {
+        "key": "daniel",
+        "name": "Daniel",
+        "nameAr": "دَانْيَال"
+      },
+      {
+        "key": "police",
+        "name": "Policeman",
+        "nameAr": "الشُّرْطِيّ"
+      },
+      {
+        "key": "layla",
+        "name": "Layla",
+        "nameAr": "لَيْلَى"
+      }
+    ],
+    "culture": "In Cairo people often give directions by landmarks rather than street names: after the mosque, next to the bank. Stop someone politely with لَوْ سَمَحْتَ (excuse me, to a man); to a woman the ending changes to -ti. Shopkeepers, doormen and the traffic police are usually glad to help.",
+    "lines": [
+      {
+        "id": "d23l1",
+        "sp": "daniel",
+        "ar": "لَوْ سَمَحْتَ يَا حَضْرَةَ الشُّرْطِيّ! أَنَا ضَائِع قَلِيلًا. أَيْنَ مَقْهَى النِّيل؟",
+        "en": "Excuse me, officer! I am a little lost. Where is the Nile Café?",
+        "segs": [
+          [
+            "لَوْ",
+            "if"
+          ],
+          [
+            "سَمَحْتَ",
+            "you allow (to a man): 'excuse me'"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "حَضْرَةَ",
+            "sir (polite title)"
+          ],
+          [
+            "الشُّرْطِيّ",
+            "the policeman"
+          ],
+          [
+            "أَنَا",
+            "I"
+          ],
+          [
+            "ضَائِع",
+            "lost"
+          ],
+          [
+            "قَلِيلًا",
+            "a little"
+          ],
+          [
+            "أَيْنَ",
+            "where"
+          ],
+          [
+            "مَقْهَى",
+            "café (of)"
+          ],
+          [
+            "النِّيل",
+            "the Nile (river)",
+            "name"
+          ]
+        ]
+      },
+      {
+        "id": "d23l2",
+        "sp": "police",
+        "ar": "أَهْلًا بِكَ! مَقْهَى النِّيل؟ نَعَم، أَعْرِفُهُ. هُوَ قَرِيب جِدًّا مِنْ هُنَا.",
+        "en": "Hello there! The Nile Café? Yes, I know it. It is very close to here.",
+        "segs": [
+          [
+            "أَهْلًا",
+            "welcome"
+          ],
+          [
+            "بِكَ",
+            "to you (m)"
+          ],
+          [
+            "مَقْهَى",
+            "café (of)"
+          ],
+          [
+            "النِّيل",
+            "the Nile (river)",
+            "name"
+          ],
+          [
+            "نَعَم",
+            "yes"
+          ],
+          [
+            "أَعْرِفُهُ",
+            "I know it"
+          ],
+          [
+            "هُوَ",
+            "he, it (m)"
+          ],
+          [
+            "قَرِيب",
+            "near, close"
+          ],
+          [
+            "جِدًّا",
+            "very"
+          ],
+          [
+            "مِنْ",
+            "from"
+          ],
+          [
+            "هُنَا",
+            "here"
+          ]
+        ]
+      },
+      {
+        "id": "d23l3",
+        "sp": "daniel",
+        "ar": "الْحَمْدُ لِلّٰه! كَيْفَ أَذْهَبُ إِلَى هُنَاكَ؟ أَنَا لَا أَعْرِفُ هٰذِهِ الْمِنْطَقَة.",
+        "en": "Thank goodness! How do I get there? I don't know this area.",
+        "segs": [
+          [
+            "الْحَمْدُ",
+            "praise, thanks"
+          ],
+          [
+            "لِلّٰه",
+            "to God"
+          ],
+          [
+            "كَيْفَ",
+            "how"
+          ],
+          [
+            "أَذْهَبُ",
+            "I go"
+          ],
+          [
+            "إِلَى",
+            "to"
+          ],
+          [
+            "هُنَاكَ",
+            "there"
+          ],
+          [
+            "أَنَا",
+            "I"
+          ],
+          [
+            "لَا",
+            "not"
+          ],
+          [
+            "أَعْرِفُ",
+            "I know"
+          ],
+          [
+            "هٰذِهِ",
+            "this (f)"
+          ],
+          [
+            "الْمِنْطَقَة",
+            "the area"
+          ]
+        ]
+      },
+      {
+        "id": "d23l4",
+        "sp": "police",
+        "ar": "اِذْهَبْ إِلَى الْأَمَام حَتَّى الْإِشَارَة، ثُمَّ اذْهَبْ يَمِينًا.",
+        "en": "Go straight ahead as far as the traffic lights, and then turn right.",
+        "segs": [
+          [
+            "اِذْهَبْ",
+            "go (to a man)"
+          ],
+          [
+            "إِلَى",
+            "to"
+          ],
+          [
+            "الْأَمَام",
+            "the front ('straight ahead')"
+          ],
+          [
+            "حَتَّى",
+            "as far as, until"
+          ],
+          [
+            "الْإِشَارَة",
+            "the traffic light"
+          ],
+          [
+            "ثُمَّ",
+            "then"
+          ],
+          [
+            "اذْهَبْ",
+            "go (to a man)"
+          ],
+          [
+            "يَمِينًا",
+            "to the right"
+          ]
+        ]
+      },
+      {
+        "id": "d23l5",
+        "sp": "daniel",
+        "ar": "إِلَى الْأَمَام حَتَّى الْإِشَارَة، ثُمَّ يَمِينًا. وَبَعْدَ ذٰلِكَ؟",
+        "en": "Straight ahead as far as the traffic lights, then right. And after that?",
+        "segs": [
+          [
+            "إِلَى",
+            "to"
+          ],
+          [
+            "الْأَمَام",
+            "the front ('straight ahead')"
+          ],
+          [
+            "حَتَّى",
+            "as far as, until"
+          ],
+          [
+            "الْإِشَارَة",
+            "the traffic light"
+          ],
+          [
+            "ثُمَّ",
+            "then"
+          ],
+          [
+            "يَمِينًا",
+            "to the right"
+          ],
+          [
+            "وَبَعْدَ",
+            "and after"
+          ],
+          [
+            "ذٰلِكَ",
+            "that"
+          ]
+        ]
+      },
+      {
+        "id": "d23l6",
+        "sp": "police",
+        "ar": "بَعْدَ ذٰلِكَ خُذِ الشَّارِعَ الثَّانِي عَلَى الْيَسَار. اِسْمُهُ شَارِعُ الْبَرَازِيل.",
+        "en": "After that, take the second street on the left. It is called Brazil Street.",
+        "segs": [
+          [
+            "بَعْدَ",
+            "after"
+          ],
+          [
+            "ذٰلِكَ",
+            "that"
+          ],
+          [
+            "خُذِ",
+            "take (to a man)"
+          ],
+          [
+            "الشَّارِعَ",
+            "the street"
+          ],
+          [
+            "الثَّانِي",
+            "the second (m)"
+          ],
+          [
+            "عَلَى",
+            "on"
+          ],
+          [
+            "الْيَسَار",
+            "the left"
+          ],
+          [
+            "اِسْمُهُ",
+            "its name, his name"
+          ],
+          [
+            "شَارِعُ",
+            "street (of)"
+          ],
+          [
+            "الْبَرَازِيل",
+            "Brazil (a street name in Zamalek)",
+            "name"
+          ]
+        ]
+      },
+      {
+        "id": "d23l7",
+        "sp": "daniel",
+        "ar": "الشَّارِع الثَّانِي عَلَى الْيَسَار، لَا الْأَوَّل. وَأَيْنَ الْمَقْهَى فِي الشَّارِع؟",
+        "en": "The second street on the left, not the first. And where is the café on that street?",
+        "segs": [
+          [
+            "الشَّارِع",
+            "the street"
+          ],
+          [
+            "الثَّانِي",
+            "the second (m)"
+          ],
+          [
+            "عَلَى",
+            "on"
+          ],
+          [
+            "الْيَسَار",
+            "the left"
+          ],
+          [
+            "لَا",
+            "not"
+          ],
+          [
+            "الْأَوَّل",
+            "the first (m)"
+          ],
+          [
+            "وَأَيْنَ",
+            "and where"
+          ],
+          [
+            "الْمَقْهَى",
+            "the café"
+          ],
+          [
+            "فِي",
+            "in, on"
+          ],
+          [
+            "الشَّارِع",
+            "the street"
+          ]
+        ]
+      },
+      {
+        "id": "d23l8",
+        "sp": "police",
+        "ar": "الْمَقْهَى فِي الْبِنَايَة الثَّالِثَة عَلَى الْيَمِين، بِجَانِبِ مَكْتَبَة صَغِيرَة.",
+        "en": "The café is in the third building on the right, next to a small bookshop.",
+        "segs": [
+          [
+            "الْمَقْهَى",
+            "the café"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "الْبِنَايَة",
+            "the building"
+          ],
+          [
+            "الثَّالِثَة",
+            "the third (f)"
+          ],
+          [
+            "عَلَى",
+            "on"
+          ],
+          [
+            "الْيَمِين",
+            "the right"
+          ],
+          [
+            "بِجَانِبِ",
+            "next to"
+          ],
+          [
+            "مَكْتَبَة",
+            "bookshop, library"
+          ],
+          [
+            "صَغِيرَة",
+            "small (f)"
+          ]
+        ]
+      },
+      {
+        "id": "d23l9",
+        "sp": "daniel",
+        "ar": "شُكْرًا جَزِيلًا! هَلِ الْمَقْهَى بَعِيد؟ أَنَا مُتْعَب قَلِيلًا.",
+        "en": "Thank you very much! Is the café far? I am a little tired.",
+        "segs": [
+          [
+            "شُكْرًا",
+            "thank you"
+          ],
+          [
+            "جَزِيلًا",
+            "very much (lit. abundant)"
+          ],
+          [
+            "هَلِ",
+            "(starts a yes/no question)"
+          ],
+          [
+            "الْمَقْهَى",
+            "the café"
+          ],
+          [
+            "بَعِيد",
+            "far"
+          ],
+          [
+            "أَنَا",
+            "I"
+          ],
+          [
+            "مُتْعَب",
+            "tired"
+          ],
+          [
+            "قَلِيلًا",
+            "a little"
+          ]
+        ]
+      },
+      {
+        "id": "d23l10",
+        "sp": "police",
+        "ar": "لَا، هُوَ قَرِيب: خَمْسُ دَقَائِق فَقَطْ مَشْيًا. وَالْجَوّ جَمِيل الْيَوْم!",
+        "en": "No, it is close: only five minutes on foot. And the weather is lovely today!",
+        "segs": [
+          [
+            "لَا",
+            "no"
+          ],
+          [
+            "هُوَ",
+            "he, it (m)"
+          ],
+          [
+            "قَرِيب",
+            "near, close"
+          ],
+          [
+            "خَمْسُ",
+            "five"
+          ],
+          [
+            "دَقَائِق",
+            "minutes"
+          ],
+          [
+            "فَقَطْ",
+            "only"
+          ],
+          [
+            "مَشْيًا",
+            "on foot (lit. walking)"
+          ],
+          [
+            "وَالْجَوّ",
+            "and the weather"
+          ],
+          [
+            "جَمِيل",
+            "beautiful, lovely (m)"
+          ],
+          [
+            "الْيَوْم",
+            "today"
+          ]
+        ]
+      },
+      {
+        "id": "d23l11",
+        "sp": "daniel",
+        "ar": "أَلُو، لَيْلَى؟ أَنَا قَرِيب مِنَ الْمَقْهَى الْآن. أَنَا عِنْدَ الْإِشَارَة.",
+        "en": "Hello, Layla? I am near the café now. I am at the traffic lights.",
+        "segs": [
+          [
+            "أَلُو",
+            "hello (on the phone)"
+          ],
+          [
+            "لَيْلَى",
+            "Layla (first name)",
+            "name"
+          ],
+          [
+            "أَنَا",
+            "I"
+          ],
+          [
+            "قَرِيب",
+            "near, close"
+          ],
+          [
+            "مِنَ",
+            "from"
+          ],
+          [
+            "الْمَقْهَى",
+            "the café"
+          ],
+          [
+            "الْآن",
+            "now"
+          ],
+          [
+            "أَنَا",
+            "I"
+          ],
+          [
+            "عِنْدَ",
+            "at"
+          ],
+          [
+            "الْإِشَارَة",
+            "the traffic light"
+          ]
+        ]
+      },
+      {
+        "id": "d23l12",
+        "sp": "layla",
+        "ar": "مُمْتَاز! أَنَا فِي الْمَقْهَى، عَلَى الطَّاوِلَة الْأُولَى بِجَانِبِ الْبَاب.",
+        "en": "Excellent! I am in the café, at the first table next to the door.",
+        "segs": [
+          [
+            "مُمْتَاز",
+            "excellent"
+          ],
+          [
+            "أَنَا",
+            "I"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "الْمَقْهَى",
+            "the café"
+          ],
+          [
+            "عَلَى",
+            "on, at"
+          ],
+          [
+            "الطَّاوِلَة",
+            "the table"
+          ],
+          [
+            "الْأُولَى",
+            "the first (f)"
+          ],
+          [
+            "بِجَانِبِ",
+            "next to"
+          ],
+          [
+            "الْبَاب",
+            "the door"
+          ]
+        ]
+      },
+      {
+        "id": "d23l13",
+        "sp": "daniel",
+        "ar": "الشَّارِع الثَّانِي عَلَى الْيَسَار، ثُمَّ الْبِنَايَة الثَّالِثَة… وَصَلْتُ! أَنَا أَرَاكِ الْآن!",
+        "en": "The second street on the left, then the third building… I've arrived! I can see you now!",
+        "segs": [
+          [
+            "الشَّارِع",
+            "the street"
+          ],
+          [
+            "الثَّانِي",
+            "the second (m)"
+          ],
+          [
+            "عَلَى",
+            "on"
+          ],
+          [
+            "الْيَسَار",
+            "the left"
+          ],
+          [
+            "ثُمَّ",
+            "then"
+          ],
+          [
+            "الْبِنَايَة",
+            "the building"
+          ],
+          [
+            "الثَّالِثَة",
+            "the third (f)"
+          ],
+          [
+            "وَصَلْتُ",
+            "I have arrived"
+          ],
+          [
+            "أَنَا",
+            "I"
+          ],
+          [
+            "أَرَاكِ",
+            "I see you (to a woman)"
+          ],
+          [
+            "الْآن",
+            "now"
+          ]
+        ]
+      },
+      {
+        "id": "d23l14",
+        "sp": "layla",
+        "ar": "أَهْلًا يَا دَانْيَال! أَنْتَ الْآن خَبِير فِي شَوَارِعِ الْقَاهِرَة، مِثْلَ سَائِق تَاكْسِي!",
+        "en": "Welcome, Daniel! Now you are an expert on the streets of Cairo, like a taxi driver!",
+        "segs": [
+          [
+            "أَهْلًا",
+            "welcome"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "دَانْيَال",
+            "Daniel (first name)",
+            "name"
+          ],
+          [
+            "أَنْتَ",
+            "you (m)"
+          ],
+          [
+            "الْآن",
+            "now"
+          ],
+          [
+            "خَبِير",
+            "expert"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "شَوَارِعِ",
+            "streets (of)"
+          ],
+          [
+            "الْقَاهِرَة",
+            "Cairo (capital of Egypt)",
+            "name"
+          ],
+          [
+            "مِثْلَ",
+            "like"
+          ],
+          [
+            "سَائِق",
+            "driver"
+          ],
+          [
+            "تَاكْسِي",
+            "taxi"
+          ]
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "title": "A map in the textbook",
+    "ar": "فِي الْخَرِيطَة، الْبَنْك فِي الشَّارِع الْأَوَّل، وَالْمَسْجِد فِي الشَّارِع الثَّانِي، وَالْمَتْحَف فِي الشَّارِع الثَّالِث. بَيْتُ سَامِي هُوَ الْبَيْت الرَّابِع عَلَى الْيَمِين. بَيْتُ لَيْلَى هُوَ الْبَيْت الْخَامِس عَلَى الْيَسَار.",
+    "en": "On the map, the bank is on the first street, the mosque is on the second street and the museum is on the third street. Sami's house is the fourth house on the right. Layla's house is the fifth house on the left.",
+    "segs": [
+      [
+        "فِي",
+        "in, on"
+      ],
+      [
+        "الْخَرِيطَة",
+        "the map"
+      ],
+      [
+        "الْبَنْك",
+        "the bank"
+      ],
+      [
+        "فِي",
+        "in, on"
+      ],
+      [
+        "الشَّارِع",
+        "the street"
+      ],
+      [
+        "الْأَوَّل",
+        "the first (m)"
+      ],
+      [
+        "وَالْمَسْجِد",
+        "and the mosque"
+      ],
+      [
+        "فِي",
+        "in, on"
+      ],
+      [
+        "الشَّارِع",
+        "the street"
+      ],
+      [
+        "الثَّانِي",
+        "the second (m)"
+      ],
+      [
+        "وَالْمَتْحَف",
+        "and the museum"
+      ],
+      [
+        "فِي",
+        "in, on"
+      ],
+      [
+        "الشَّارِع",
+        "the street"
+      ],
+      [
+        "الثَّالِث",
+        "the third (m)"
+      ],
+      [
+        "بَيْتُ",
+        "house (of)"
+      ],
+      [
+        "سَامِي",
+        "Sami (first name)",
+        "name"
+      ],
+      [
+        "هُوَ",
+        "he, it (m)"
+      ],
+      [
+        "الْبَيْت",
+        "the house"
+      ],
+      [
+        "الرَّابِع",
+        "the fourth (m)"
+      ],
+      [
+        "عَلَى",
+        "on"
+      ],
+      [
+        "الْيَمِين",
+        "the right"
+      ],
+      [
+        "بَيْتُ",
+        "house (of)"
+      ],
+      [
+        "لَيْلَى",
+        "Layla (first name)",
+        "name"
+      ],
+      [
+        "هُوَ",
+        "he, it (m)"
+      ],
+      [
+        "الْبَيْت",
+        "the house"
+      ],
+      [
+        "الْخَامِس",
+        "the fifth (m)"
+      ],
+      [
+        "عَلَى",
+        "on"
+      ],
+      [
+        "الْيَسَار",
+        "the left"
+      ]
+    ]
+  },
+  "review": [
+    "madina",
+    "shari",
+    "maktaba",
+    "bank",
+    "thumma"
+  ],
+  "quiz": [
+    {
+      "id": "d23q1",
+      "prompt": "What does this mean?",
+      "ar": "يَسَارًا",
+      "options": [
+        "to the right",
+        "straight ahead",
+        "to the left",
+        "then"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "d23q2",
+      "prompt": "Fill the gap: 'the second street'",
+      "ar": "الشَّارِع …",
+      "options": [
+        "الثَّانِيَة",
+        "الثَّانِي",
+        "اِثْنَان",
+        "الْأُولَى"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "d23q3",
+      "prompt": "Which phrase means 'the third building'?",
+      "options": [
+        "الْبِنَايَة الثَّالِث",
+        "الثَّالِثَة الْبِنَايَة",
+        "ثَلَاثَة بِنَايَة",
+        "الْبِنَايَة الثَّالِثَة"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "d23q4",
+      "prompt": "In the dialogue, where is the café?",
+      "options": [
+        "in the first building on the left",
+        "in the third building on the right",
+        "next to the mosque",
+        "at the traffic lights"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "d23q5",
+      "prompt": "What is the opposite of قَرِيب?",
+      "options": [
+        "كَبِير",
+        "جَدِيد",
+        "بَعِيد",
+        "ثُمَّ"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "d23q6",
+      "prompt": "In إِلَى الْيَمِين (to the right), which sound is not pronounced?",
+      "options": [
+        "the a of al-",
+        "the l of al-",
+        "the y",
+        "the n"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "d23q7",
+      "prompt": "What does this mean?",
+      "ar": "ثُمَّ",
+      "options": [
+        "here",
+        "near",
+        "first",
+        "then"
+      ],
+      "answer": 3
+    }
+  ],
+  "completion": "Well done! You can ask the way, follow directions and count streets and buildings with first, second and third.",
+  "status": "needs-review"
+}

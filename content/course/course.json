@@ -580,7 +580,125 @@
      "title": "At the market"
     }
    ],
-   "test": []
+   "test": [
+    {
+     "id": "w4t1",
+     "prompt": "What does this mean?",
+     "options": [
+      "office",
+      "bookshop, library",
+      "school",
+      "pharmacy"
+     ],
+     "answer": 1,
+     "ar": "مَكْتَبَة"
+    },
+    {
+     "id": "w4t2",
+     "prompt": "Choose the correct verb: '… the students the museum.'",
+     "options": [
+      "يَزُورُونَ",
+      "تَزُورُ",
+      "يَزُورُ",
+      "نَزُورُ"
+     ],
+     "answer": 2,
+     "ar": "… الطُّلَّابُ الْمَتْحَفَ."
+    },
+    {
+     "id": "w4t3",
+     "prompt": "Fill the gap: 'the third building'",
+     "options": [
+      "الثَّالِثَة",
+      "الثَّالِث",
+      "ثَلَاثَة",
+      "الْأُولَى"
+     ],
+     "answer": 0,
+     "ar": "الْبِنَايَة …"
+    },
+    {
+     "id": "w4t4",
+     "prompt": "What does this mean?",
+     "options": [
+      "to the right",
+      "to the left",
+      "straight ahead",
+      "then"
+     ],
+     "answer": 1,
+     "ar": "يَسَارًا"
+    },
+    {
+     "id": "w4t5",
+     "prompt": "How do you say 'by bus'?",
+     "options": [
+      "فِي الْحَافِلَة",
+      "إِلَى الْحَافِلَة",
+      "مِنَ الْحَافِلَة",
+      "بِالْحَافِلَة"
+     ],
+     "answer": 3
+    },
+    {
+     "id": "w4t6",
+     "prompt": "Which word means 'between'?",
+     "options": [
+      "بَيْنَ",
+      "تَحْتَ",
+      "خَلْفَ",
+      "فَوْقَ"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "w4t7",
+     "prompt": "Fill the gap: 'The post office is behind the bank.'",
+     "options": [
+      "الْبَنْكُ",
+      "الْبَنْكِ",
+      "الْبَنْكَ",
+      "بَنْك"
+     ],
+     "answer": 1,
+     "ar": "مَكْتَبُ الْبَرِيد خَلْفَ …"
+    },
+    {
+     "id": "w4t8",
+     "prompt": "How do you ask 'Is there a pharmacy here?'",
+     "options": [
+      "أَيْنَ الصَّيْدَلِيَّة؟",
+      "هٰذِهِ صَيْدَلِيَّة.",
+      "هَلْ هُنَاكَ صَيْدَلِيَّة هُنَا؟",
+      "الصَّيْدَلِيَّة هُنَاكَ."
+     ],
+     "answer": 2
+    },
+    {
+     "id": "w4t9",
+     "prompt": "Fill the gap: 'These shirts are beautiful.'",
+     "options": [
+      "جَمِيلُونَ",
+      "جَمِيل",
+      "جِدًّا",
+      "جَمِيلَة"
+     ],
+     "answer": 3,
+     "ar": "هٰذِهِ الْقُمْصَان …"
+    },
+    {
+     "id": "w4t10",
+     "prompt": "What does this mean?",
+     "options": [
+      "I want to buy a present.",
+      "I want to sell a present.",
+      "I have a present.",
+      "This is a present."
+     ],
+     "answer": 0,
+     "ar": "أُرِيدُ أَنْ أَشْتَرِيَ هَدِيَّة."
+    }
+   ]
   },
   {
    "week": 5,

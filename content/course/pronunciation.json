@@ -240,5 +240,77 @@
         }
       ]
     ]
+  },
+  {
+    "id": "jim",
+    "title": "jīm (ج)",
+    "category": "Consonants",
+    "ipa": [
+      "d͡ʒ",
+      "ʒ",
+      "g"
+    ],
+    "letters": [
+      "ج"
+    ],
+    "tip": "In Modern Standard Arabic, ج is said like the j in 'jam'. You will also hear two local versions: in Cairo people say a hard g as in 'go' (gamīl for 'beautiful'), and in Lebanon and Syria a soft zh like the s in 'pleasure'. Understand them all, but use j when you speak MSA.",
+    "diagram": "the front of the tongue presses against the hard palate just behind the ridge of the upper teeth, then releases with friction · voice on",
+    "error": "Saying ج as y, or as a hard g in formal Arabic. masjid (mosque) needs a clear j before the d.",
+    "examples": [
+      {
+        "ar": "مَسْجِد",
+        "en": "mosque"
+      },
+      {
+        "ar": "جَدِيد",
+        "en": "new"
+      },
+      {
+        "ar": "جِدًّا",
+        "en": "very"
+      }
+    ]
+  },
+  {
+    "id": "wasl",
+    "title": "Hamzat al-waṣl: the vowel that disappears",
+    "category": "Linking",
+    "ipa": [
+      "ʔa",
+      "ʔi",
+      "∅"
+    ],
+    "letters": [
+      "ا"
+    ],
+    "tip": "Some words begin with an alif that is only said at the very start of speech: the al- of 'the', and words like اِسْم (name) and اِذْهَبْ (go!). After a word that ends in a vowel, this first vowel drops and the two words run together: فِي الْمَدِينَة is fi l-madīna, and إِلَى الْيَمِين is ila l-yamīn. The alif is still written.",
+    "diagram": "at the start of speech: al-yamīn · after a vowel: ila l-yamīn · the alif is written but skipped",
+    "error": "Adding a catch in the throat or an extra a: fī al-madīna instead of fi l-madīna.",
+    "examples": [
+      {
+        "ar": "إِلَى الْيَمِين",
+        "en": "to the right"
+      },
+      {
+        "ar": "فِي الْمَدِينَة",
+        "en": "in the city"
+      },
+      {
+        "ar": "مَا اسْمُكَ؟",
+        "en": "what is your name? (to a man)"
+      }
+    ],
+    "pairs": [
+      [
+        {
+          "ar": "الْبَيْت",
+          "en": "the house (al-bayt)"
+        },
+        {
+          "ar": "فِي الْبَيْت",
+          "en": "in the house (fi l-bayt)"
+        }
+      ]
+    ]
   }
 ]
