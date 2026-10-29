@@ -1,0 +1,1217 @@
+{
+  "day": 44,
+  "week": 7,
+  "phase": 4,
+  "level": 4,
+  "title": "At the doctor's",
+  "titleAr": "عِنْدَ الطَّبِيب",
+  "titleSegs": [
+    [
+      "عِنْدَ",
+      "at (someone's place)"
+    ],
+    [
+      "الطَّبِيب",
+      "the doctor"
+    ]
+  ],
+  "emoji": "🩺",
+  "summary": "Describe your symptoms to a doctor and understand the orders a doctor gives: اِفْتَحْ فَمَكَ (open your mouth), تَنَفَّسْ (breathe).",
+  "intro": "Daniel visits the clinic of Sami's mother, Dr Fatima. Doctors give a lot of orders, so today you learn the imperative: take the 'you' form of the present, drop the ta- and the final vowel. تَفْتَحُ (you open) becomes اِفْتَحْ (open!) for a man and اِفْتَحِي for a woman. You also learn to say what is wrong: عِنْدِي صُدَاع (I have a headache), عِنْدِي حَرَارَة (I have a temperature).",
+  "objectives": [
+    "Describe four symptoms: headache, cough, temperature and a sore throat",
+    "Understand a doctor's orders such as اِفْتَحْ فَمَكَ and تَنَفَّسْ بِعُمْق",
+    "Make an order to a man, to a woman and to a group",
+    "Ask what you should do and how long to stay at home"
+  ],
+  "realLife": {
+    "emoji": "🏥",
+    "title": "Dr Fatima's clinic",
+    "story": "The next morning Sami takes Daniel to his mother's clinic. Dr Fatima takes his temperature, listens to his chest and looks at his throat. It is only a cold, but she writes a prescription and tells him to stay at home for a few days."
+  },
+  "letters": [],
+  "newWords": [
+    "marid",
+    "harara",
+    "suaal",
+    "alam-w7",
+    "halq",
+    "zukam",
+    "yaftahu",
+    "yatanaffasu",
+    "yajlisu"
+  ],
+  "grammar": [
+    "imperative"
+  ],
+  "pronunciation": [
+    "ta-emphatic"
+  ],
+  "sentences": [
+    {
+      "id": "d44s1",
+      "ar": "اِفْتَحْ فَمَكَ، مِنْ فَضْلِكَ.",
+      "en": "Open your mouth, please. (to a man)",
+      "literal": "open your mouth, from your kindness",
+      "segs": [
+        [
+          "اِفْتَحْ",
+          "open! (to a man)",
+          "verb"
+        ],
+        [
+          "فَمَكَ",
+          "your mouth (to a man)",
+          "noun"
+        ],
+        [
+          "مِنْ",
+          "from",
+          "prep"
+        ],
+        [
+          "فَضْلِكَ",
+          "your kindness (to a man): 'please'",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "imperative"
+      ],
+      "mistakes": [
+        {
+          "wrong": "تَفْتَحُ فَمَكَ",
+          "right": "اِفْتَحْ فَمَكَ",
+          "why": "taftaḥu means 'you open', a statement. For an order drop the ta- and the final vowel, and add i- in front: iftaḥ."
+        }
+      ]
+    },
+    {
+      "id": "d44s2",
+      "ar": "تَنَفَّسْ بِعُمْق.",
+      "en": "Breathe deeply. (to a man)",
+      "literal": "breathe with depth",
+      "segs": [
+        [
+          "تَنَفَّسْ",
+          "breathe! (to a man)",
+          "verb"
+        ],
+        [
+          "بِعُمْق",
+          "deeply (lit. with depth)",
+          "adverb"
+        ]
+      ],
+      "grammar": [
+        "imperative"
+      ]
+    },
+    {
+      "id": "d44s3",
+      "ar": "اِجْلِسِي هُنَا، مِنْ فَضْلِكِ.",
+      "en": "Sit here, please. (to a woman)",
+      "literal": "sit here, from your kindness",
+      "segs": [
+        [
+          "اِجْلِسِي",
+          "sit! (to a woman)",
+          "verb"
+        ],
+        [
+          "هُنَا",
+          "here",
+          "adverb"
+        ],
+        [
+          "مِنْ",
+          "from",
+          "prep"
+        ],
+        [
+          "فَضْلِكِ",
+          "your kindness (to a woman): 'please'",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "imperative"
+      ],
+      "mistakes": [
+        {
+          "wrong": "اِجْلِسْ هُنَا (to a woman)",
+          "right": "اِجْلِسِي هُنَا",
+          "why": "An order to a woman ends in -ī: ijlisī. ijlis (with sukūn) is for a man."
+        }
+      ]
+    },
+    {
+      "id": "d44s4",
+      "ar": "عِنْدِي حَرَارَة، وَيُؤْلِمُنِي حَلْقِي.",
+      "en": "I have a temperature, and my throat hurts.",
+      "literal": "at me (is) a temperature, and hurts me my throat",
+      "segs": [
+        [
+          "عِنْدِي",
+          "I have (lit. at me)",
+          "prep"
+        ],
+        [
+          "حَرَارَة",
+          "temperature, fever",
+          "noun"
+        ],
+        [
+          "وَيُؤْلِمُنِي",
+          "and it hurts me (m)",
+          "verb"
+        ],
+        [
+          "حَلْقِي",
+          "my throat",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "body-pain-w7"
+      ],
+      "mistakes": [
+        {
+          "wrong": "تُؤْلِمُنِي حَلْقِي",
+          "right": "يُؤْلِمُنِي حَلْقِي",
+          "why": "ḥalq (throat) is masculine, so the verb starts with yu-."
+        }
+      ]
+    },
+    {
+      "id": "d44s5",
+      "ar": "عِنْدَهُ صُدَاع وَسُعَال.",
+      "en": "He has a headache and a cough.",
+      "literal": "at him (are) a headache and a cough",
+      "segs": [
+        [
+          "عِنْدَهُ",
+          "he has (lit. at him)",
+          "prep"
+        ],
+        [
+          "صُدَاع",
+          "headache",
+          "noun"
+        ],
+        [
+          "وَسُعَال",
+          "and a cough",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "nominal-sentence"
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Say 'aah'",
+    "speakers": [
+      {
+        "key": "sami",
+        "name": "Sami",
+        "nameAr": "سَامِي"
+      },
+      {
+        "key": "fatima",
+        "name": "Dr Fatima",
+        "nameAr": "الدُّكْتُورَة فَاطِمَة"
+      },
+      {
+        "key": "daniel",
+        "name": "Daniel",
+        "nameAr": "دَانْيَال"
+      }
+    ],
+    "culture": "Doctors are addressed as يَا دُكْتُور (to a man) or يَا دُكْتُورَة (to a woman), and the same title is used before the name: الدُّكْتُورَة فَاطِمَة. In Egypt many doctors run a private clinic in the evening, and you can often be seen the same day.",
+    "lines": [
+      {
+        "id": "d44l1",
+        "sp": "sami",
+        "ar": "صَبَاحُ الْخَيْر يَا أُمِّي! هٰذَا صَدِيقِي دَانْيَال، وَهُوَ مَرِيض مُنْذُ أَمْسِ.",
+        "en": "Good morning, Mum! This is my friend Daniel, and he has been ill since yesterday.",
+        "segs": [
+          [
+            "صَبَاحُ",
+            "morning (of)"
+          ],
+          [
+            "الْخَيْر",
+            "the goodness"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "أُمِّي",
+            "my mother"
+          ],
+          [
+            "هٰذَا",
+            "this (m)"
+          ],
+          [
+            "صَدِيقِي",
+            "my friend"
+          ],
+          [
+            "دَانْيَال",
+            "Daniel (first name)",
+            "name"
+          ],
+          [
+            "وَهُوَ",
+            "and he"
+          ],
+          [
+            "مَرِيض",
+            "ill, sick"
+          ],
+          [
+            "مُنْذُ",
+            "since, for"
+          ],
+          [
+            "أَمْسِ",
+            "yesterday"
+          ]
+        ]
+      },
+      {
+        "id": "d44l2",
+        "sp": "fatima",
+        "ar": "أَهْلًا وَسَهْلًا يَا دَانْيَال! تَفَضَّلْ، اِجْلِسْ هُنَا. مِمَّ تَشْكُو؟",
+        "en": "Welcome, Daniel! Please come in and sit down here. What seems to be the problem?",
+        "segs": [
+          [
+            "أَهْلًا",
+            "welcome"
+          ],
+          [
+            "وَسَهْلًا",
+            "and easy (part of the welcome)"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "دَانْيَال",
+            "Daniel (first name)",
+            "name"
+          ],
+          [
+            "تَفَضَّلْ",
+            "please come in (to a man)"
+          ],
+          [
+            "اِجْلِسْ",
+            "sit! (to a man)"
+          ],
+          [
+            "هُنَا",
+            "here"
+          ],
+          [
+            "مِمَّ",
+            "from what, of what"
+          ],
+          [
+            "تَشْكُو",
+            "you complain (to a man)"
+          ]
+        ]
+      },
+      {
+        "id": "d44l3",
+        "sp": "daniel",
+        "ar": "عِنْدِي صُدَاع شَدِيد وَسُعَال، وَحَلْقِي يُؤْلِمُنِي أَيْضًا يَا دُكْتُورَة.",
+        "en": "I have a bad headache and a cough, and my throat hurts too, doctor.",
+        "segs": [
+          [
+            "عِنْدِي",
+            "I have"
+          ],
+          [
+            "صُدَاع",
+            "headache"
+          ],
+          [
+            "شَدِيد",
+            "strong, severe"
+          ],
+          [
+            "وَسُعَال",
+            "and a cough"
+          ],
+          [
+            "وَحَلْقِي",
+            "and my throat"
+          ],
+          [
+            "يُؤْلِمُنِي",
+            "it hurts me (m)"
+          ],
+          [
+            "أَيْضًا",
+            "also, too"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "دُكْتُورَة",
+            "doctor (a woman)"
+          ]
+        ]
+      },
+      {
+        "id": "d44l4",
+        "sp": "fatima",
+        "ar": "سَلَامَتُكَ! هَلْ عِنْدَكَ حَرَارَة؟ سَأَقِيسُ حَرَارَتَكَ الْآنَ. اِفْتَحْ فَمَكَ، مِنْ فَضْلِكَ.",
+        "en": "Get well soon! Do you have a temperature? I'll take your temperature now. Open your mouth, please.",
+        "segs": [
+          [
+            "سَلَامَتُكَ",
+            "get well soon (to a man; lit. your safety)"
+          ],
+          [
+            "هَلْ",
+            "(starts a yes/no question)"
+          ],
+          [
+            "عِنْدَكَ",
+            "you have (to a man)"
+          ],
+          [
+            "حَرَارَة",
+            "temperature, fever"
+          ],
+          [
+            "سَأَقِيسُ",
+            "I will measure"
+          ],
+          [
+            "حَرَارَتَكَ",
+            "your temperature (to a man)"
+          ],
+          [
+            "الْآنَ",
+            "now"
+          ],
+          [
+            "اِفْتَحْ",
+            "open! (to a man)"
+          ],
+          [
+            "فَمَكَ",
+            "your mouth (to a man)"
+          ],
+          [
+            "مِنْ",
+            "from"
+          ],
+          [
+            "فَضْلِكَ",
+            "your kindness (to a man): 'please'"
+          ]
+        ]
+      },
+      {
+        "id": "d44l5",
+        "sp": "fatima",
+        "ar": "حَرَارَتُكَ ثَمَانٍ وَثَلَاثُونَ دَرَجَة وَنِصْف. هٰذِهِ حَرَارَة، لٰكِنَّهَا لَيْسَتْ عَالِيَة جِدًّا.",
+        "en": "Your temperature is thirty-eight and a half degrees. That is a fever, but it is not very high.",
+        "segs": [
+          [
+            "حَرَارَتُكَ",
+            "your temperature (to a man)"
+          ],
+          [
+            "ثَمَانٍ",
+            "eight"
+          ],
+          [
+            "وَثَلَاثُونَ",
+            "and thirty"
+          ],
+          [
+            "دَرَجَة",
+            "degree"
+          ],
+          [
+            "وَنِصْف",
+            "and a half"
+          ],
+          [
+            "هٰذِهِ",
+            "this (f)"
+          ],
+          [
+            "حَرَارَة",
+            "temperature, fever"
+          ],
+          [
+            "لٰكِنَّهَا",
+            "but it (f)"
+          ],
+          [
+            "لَيْسَتْ",
+            "is not (f)"
+          ],
+          [
+            "عَالِيَة",
+            "high (f)"
+          ],
+          [
+            "جِدًّا",
+            "very"
+          ]
+        ]
+      },
+      {
+        "id": "d44l6",
+        "sp": "fatima",
+        "ar": "الْآنَ تَنَفَّسْ بِعُمْق… مَرَّةً أُخْرَى، مِنْ فَضْلِكَ. هَلْ يُؤْلِمُكَ صَدْرُكَ عِنْدَمَا تَسْعُلُ؟",
+        "en": "Now breathe deeply… once more, please. Does your chest hurt when you cough?",
+        "segs": [
+          [
+            "الْآنَ",
+            "now"
+          ],
+          [
+            "تَنَفَّسْ",
+            "breathe! (to a man)"
+          ],
+          [
+            "بِعُمْق",
+            "deeply (lit. with depth)"
+          ],
+          [
+            "مَرَّةً",
+            "once, one time"
+          ],
+          [
+            "أُخْرَى",
+            "another (f)"
+          ],
+          [
+            "مِنْ",
+            "from"
+          ],
+          [
+            "فَضْلِكَ",
+            "your kindness (to a man): 'please'"
+          ],
+          [
+            "هَلْ",
+            "(starts a yes/no question)"
+          ],
+          [
+            "يُؤْلِمُكَ",
+            "it hurts you (to a man)"
+          ],
+          [
+            "صَدْرُكَ",
+            "your chest (to a man)"
+          ],
+          [
+            "عِنْدَمَا",
+            "when"
+          ],
+          [
+            "تَسْعُلُ",
+            "you cough (to a man)"
+          ]
+        ]
+      },
+      {
+        "id": "d44l7",
+        "sp": "daniel",
+        "ar": "لَا، صَدْرِي لَا يُؤْلِمُنِي، لٰكِنْ أَسْعُلُ كَثِيرًا فِي اللَّيْل، وَلَا أَنَامُ جَيِّدًا.",
+        "en": "No, my chest doesn't hurt, but I cough a lot at night, and I don't sleep well.",
+        "segs": [
+          [
+            "لَا",
+            "no"
+          ],
+          [
+            "صَدْرِي",
+            "my chest"
+          ],
+          [
+            "لَا",
+            "not"
+          ],
+          [
+            "يُؤْلِمُنِي",
+            "it hurts me (m)"
+          ],
+          [
+            "لٰكِنْ",
+            "but"
+          ],
+          [
+            "أَسْعُلُ",
+            "I cough"
+          ],
+          [
+            "كَثِيرًا",
+            "a lot, much"
+          ],
+          [
+            "فِي",
+            "in, at"
+          ],
+          [
+            "اللَّيْل",
+            "the night"
+          ],
+          [
+            "وَلَا",
+            "and not"
+          ],
+          [
+            "أَنَامُ",
+            "I sleep"
+          ],
+          [
+            "جَيِّدًا",
+            "well"
+          ]
+        ]
+      },
+      {
+        "id": "d44l8",
+        "sp": "fatima",
+        "ar": "طَيِّب. اِفْتَحْ فَمَكَ مَرَّةً ثَانِيَة، وَأَخْرِجْ لِسَانَكَ… نَعَم، حَلْقُكَ أَحْمَر قَلِيلًا.",
+        "en": "OK. Open your mouth again and stick out your tongue… Yes, your throat is a little red.",
+        "segs": [
+          [
+            "طَيِّب",
+            "OK, fine"
+          ],
+          [
+            "اِفْتَحْ",
+            "open! (to a man)"
+          ],
+          [
+            "فَمَكَ",
+            "your mouth (to a man)"
+          ],
+          [
+            "مَرَّةً",
+            "once, one time"
+          ],
+          [
+            "ثَانِيَة",
+            "second (f): 'again'"
+          ],
+          [
+            "وَأَخْرِجْ",
+            "and put out! (to a man)"
+          ],
+          [
+            "لِسَانَكَ",
+            "your tongue (to a man)"
+          ],
+          [
+            "نَعَم",
+            "yes"
+          ],
+          [
+            "حَلْقُكَ",
+            "your throat (to a man)"
+          ],
+          [
+            "أَحْمَر",
+            "red"
+          ],
+          [
+            "قَلِيلًا",
+            "a little"
+          ]
+        ]
+      },
+      {
+        "id": "d44l9",
+        "sp": "sami",
+        "ar": "هَلْ هُوَ مَرِيض جِدًّا يَا أُمِّي؟ نَحْنُ نَلْعَبُ كُرَةَ الْقَدَم مَعَ عُمَر يَوْمَ السَّبْت!",
+        "en": "Is he very ill, Mum? We are playing football with Omar on Saturday!",
+        "segs": [
+          [
+            "هَلْ",
+            "(starts a yes/no question)"
+          ],
+          [
+            "هُوَ",
+            "he"
+          ],
+          [
+            "مَرِيض",
+            "ill, sick"
+          ],
+          [
+            "جِدًّا",
+            "very"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "أُمِّي",
+            "my mother"
+          ],
+          [
+            "نَحْنُ",
+            "we"
+          ],
+          [
+            "نَلْعَبُ",
+            "we play"
+          ],
+          [
+            "كُرَةَ",
+            "ball (of)"
+          ],
+          [
+            "الْقَدَم",
+            "the foot ('football')"
+          ],
+          [
+            "مَعَ",
+            "with"
+          ],
+          [
+            "عُمَر",
+            "Omar (first name)",
+            "name"
+          ],
+          [
+            "يَوْمَ",
+            "on the day of"
+          ],
+          [
+            "السَّبْت",
+            "Saturday"
+          ]
+        ]
+      },
+      {
+        "id": "d44l10",
+        "sp": "fatima",
+        "ar": "لَا تَقْلَقْ يَا سَامِي. عِنْدَهُ زُكَام، وَحَلْقُهُ مُلْتَهِب قَلِيلًا، وَهٰذَا لَيْسَ شَيْئًا خَطِيرًا.",
+        "en": "Don't worry, Sami. He has a cold, and his throat is a little inflamed, but that is nothing serious.",
+        "segs": [
+          [
+            "لَا",
+            "don't"
+          ],
+          [
+            "تَقْلَقْ",
+            "worry (to a man)"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "سَامِي",
+            "Sami (first name)",
+            "name"
+          ],
+          [
+            "عِنْدَهُ",
+            "he has (lit. at him)"
+          ],
+          [
+            "زُكَام",
+            "a cold"
+          ],
+          [
+            "وَحَلْقُهُ",
+            "and his throat"
+          ],
+          [
+            "مُلْتَهِب",
+            "inflamed, sore"
+          ],
+          [
+            "قَلِيلًا",
+            "a little"
+          ],
+          [
+            "وَهٰذَا",
+            "and this (m)"
+          ],
+          [
+            "لَيْسَ",
+            "is not"
+          ],
+          [
+            "شَيْئًا",
+            "something"
+          ],
+          [
+            "خَطِيرًا",
+            "serious, dangerous"
+          ]
+        ]
+      },
+      {
+        "id": "d44l11",
+        "sp": "daniel",
+        "ar": "الْحَمْدُ لِلّٰه! مَاذَا أَفْعَلُ يَا دُكْتُورَة؟ هَلْ أَحْتَاجُ إِلَى دَوَاء؟",
+        "en": "Thank God! What should I do, doctor? Do I need any medicine?",
+        "segs": [
+          [
+            "الْحَمْدُ",
+            "the praise"
+          ],
+          [
+            "لِلّٰه",
+            "to God"
+          ],
+          [
+            "مَاذَا",
+            "what"
+          ],
+          [
+            "أَفْعَلُ",
+            "I do"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "دُكْتُورَة",
+            "doctor (a woman)"
+          ],
+          [
+            "هَلْ",
+            "(starts a yes/no question)"
+          ],
+          [
+            "أَحْتَاجُ",
+            "I need"
+          ],
+          [
+            "إِلَى",
+            "to (after 'need')"
+          ],
+          [
+            "دَوَاء",
+            "medicine"
+          ]
+        ]
+      },
+      {
+        "id": "d44l12",
+        "sp": "fatima",
+        "ar": "نَعَم. هٰذِهِ وَصْفَة لِلصَّيْدَلِيَّة: حُبُوب لِلْحَرَارَة وَشَرَاب لِلسُّعَال. وَاشْرَبْ مَاءً كَثِيرًا.",
+        "en": "Yes. Here is a prescription for the pharmacy: tablets for the fever and a syrup for the cough. And drink plenty of water.",
+        "segs": [
+          [
+            "نَعَم",
+            "yes"
+          ],
+          [
+            "هٰذِهِ",
+            "this (f)"
+          ],
+          [
+            "وَصْفَة",
+            "prescription"
+          ],
+          [
+            "لِلصَّيْدَلِيَّة",
+            "for the pharmacy"
+          ],
+          [
+            "حُبُوب",
+            "tablets, pills"
+          ],
+          [
+            "لِلْحَرَارَة",
+            "for the fever"
+          ],
+          [
+            "وَشَرَاب",
+            "and a syrup"
+          ],
+          [
+            "لِلسُّعَال",
+            "for the cough"
+          ],
+          [
+            "وَاشْرَبْ",
+            "and drink! (to a man)"
+          ],
+          [
+            "مَاءً",
+            "water"
+          ],
+          [
+            "كَثِيرًا",
+            "a lot, much"
+          ]
+        ]
+      },
+      {
+        "id": "d44l13",
+        "sp": "daniel",
+        "ar": "شُكْرًا جَزِيلًا يَا دُكْتُورَة فَاطِمَة. كَمْ يَوْمًا أَبْقَى فِي الْبَيْت؟",
+        "en": "Thank you very much, Dr Fatima. How many days should I stay at home?",
+        "segs": [
+          [
+            "شُكْرًا",
+            "thank you"
+          ],
+          [
+            "جَزِيلًا",
+            "very much (lit. abundant)"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "دُكْتُورَة",
+            "doctor (a woman)"
+          ],
+          [
+            "فَاطِمَة",
+            "Fatima (first name)",
+            "name"
+          ],
+          [
+            "كَمْ",
+            "how many"
+          ],
+          [
+            "يَوْمًا",
+            "days (after 'how many')"
+          ],
+          [
+            "أَبْقَى",
+            "I stay"
+          ],
+          [
+            "فِي",
+            "in, at"
+          ],
+          [
+            "الْبَيْت",
+            "the house, home"
+          ]
+        ]
+      },
+      {
+        "id": "d44l14",
+        "sp": "fatima",
+        "ar": "اِبْقَ فِي الْبَيْت يَوْمَيْنِ أَوْ ثَلَاثَة، وَارْجِعْ إِلَيَّ يَوْمَ الْخَمِيس.",
+        "en": "Stay at home for two or three days, and come back to see me on Thursday.",
+        "segs": [
+          [
+            "اِبْقَ",
+            "stay! (to a man)"
+          ],
+          [
+            "فِي",
+            "in, at"
+          ],
+          [
+            "الْبَيْت",
+            "the house, home"
+          ],
+          [
+            "يَوْمَيْنِ",
+            "two days"
+          ],
+          [
+            "أَوْ",
+            "or"
+          ],
+          [
+            "ثَلَاثَة",
+            "three"
+          ],
+          [
+            "وَارْجِعْ",
+            "and come back! (to a man)"
+          ],
+          [
+            "إِلَيَّ",
+            "to me"
+          ],
+          [
+            "يَوْمَ",
+            "on the day of"
+          ],
+          [
+            "الْخَمِيس",
+            "Thursday"
+          ]
+        ]
+      },
+      {
+        "id": "d44l15",
+        "sp": "sami",
+        "ar": "شُكْرًا يَا أُمِّي! هَيَّا يَا دَانْيَال، الصَّيْدَلِيَّة قَرِيبَة مِنْ هُنَا.",
+        "en": "Thanks, Mum! Come on, Daniel, the pharmacy is close to here.",
+        "segs": [
+          [
+            "شُكْرًا",
+            "thank you"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "أُمِّي",
+            "my mother"
+          ],
+          [
+            "هَيَّا",
+            "come on, let's go"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "دَانْيَال",
+            "Daniel (first name)",
+            "name"
+          ],
+          [
+            "الصَّيْدَلِيَّة",
+            "the pharmacy"
+          ],
+          [
+            "قَرِيبَة",
+            "near, close (f)"
+          ],
+          [
+            "مِنْ",
+            "from"
+          ],
+          [
+            "هُنَا",
+            "here"
+          ]
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "title": "At the clinic",
+    "ar": "ذَهَبَ دَانْيَال إِلَى الطَّبِيبَة مَعَ سَامِي. الدُّكْتُورَة فَاطِمَة أُمُّ سَامِي. عِنْدَ دَانْيَال صُدَاع وَسُعَال وَحَرَارَة. قَالَتِ الطَّبِيبَة: «اِبْقَ فِي الْبَيْت يَوْمَيْنِ، وَاشْرَبْ مَاءً كَثِيرًا».",
+    "en": "Daniel went to the doctor with Sami. Dr Fatima is Sami's mother. Daniel has a headache, a cough and a temperature. The doctor said: 'Stay at home for two days, and drink plenty of water.'",
+    "segs": [
+      [
+        "ذَهَبَ",
+        "he went"
+      ],
+      [
+        "دَانْيَال",
+        "Daniel (first name)",
+        "name"
+      ],
+      [
+        "إِلَى",
+        "to"
+      ],
+      [
+        "الطَّبِيبَة",
+        "the doctor (a woman)"
+      ],
+      [
+        "مَعَ",
+        "with"
+      ],
+      [
+        "سَامِي",
+        "Sami (first name)",
+        "name"
+      ],
+      [
+        "الدُّكْتُورَة",
+        "the doctor (a woman, as a title)"
+      ],
+      [
+        "فَاطِمَة",
+        "Fatima (first name)",
+        "name"
+      ],
+      [
+        "أُمُّ",
+        "mother (of)"
+      ],
+      [
+        "سَامِي",
+        "Sami (first name)",
+        "name"
+      ],
+      [
+        "عِنْدَ",
+        "at, with ('has')"
+      ],
+      [
+        "دَانْيَال",
+        "Daniel (first name)",
+        "name"
+      ],
+      [
+        "صُدَاع",
+        "headache"
+      ],
+      [
+        "وَسُعَال",
+        "and a cough"
+      ],
+      [
+        "وَحَرَارَة",
+        "and a temperature"
+      ],
+      [
+        "قَالَتِ",
+        "she said"
+      ],
+      [
+        "الطَّبِيبَة",
+        "the doctor (a woman)"
+      ],
+      [
+        "اِبْقَ",
+        "stay! (to a man)"
+      ],
+      [
+        "فِي",
+        "in, at"
+      ],
+      [
+        "الْبَيْت",
+        "the house, home"
+      ],
+      [
+        "يَوْمَيْنِ",
+        "two days"
+      ],
+      [
+        "وَاشْرَبْ",
+        "and drink! (to a man)"
+      ],
+      [
+        "مَاءً",
+        "water"
+      ],
+      [
+        "كَثِيرًا",
+        "a lot, much"
+      ]
+    ]
+  },
+  "review": [
+    "ras",
+    "halq",
+    "yulimu",
+    "salamtak",
+    "fam",
+    "tabib",
+    "suda"
+  ],
+  "quiz": [
+    {
+      "id": "d44q1",
+      "prompt": "What does this mean?",
+      "ar": "طَبِيب",
+      "options": [
+        "patient",
+        "pharmacy",
+        "doctor",
+        "medicine"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "d44q2",
+      "prompt": "How does the doctor tell a man 'Open your mouth'?",
+      "options": [
+        "تَنَفَّسْ بِعُمْق",
+        "اِفْتَحْ فَمَكَ",
+        "اِفْتَحِي فَمَكِ",
+        "تَفْتَحُ فَمَكَ"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "d44q3",
+      "prompt": "Which word means 'headache'?",
+      "options": [
+        "سُعَال",
+        "حَرَارَة",
+        "زُكَام",
+        "صُدَاع"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "d44q4",
+      "prompt": "What is Daniel's temperature?",
+      "options": [
+        "37 degrees",
+        "38.5 degrees",
+        "39.5 degrees",
+        "40 degrees"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "d44q5",
+      "prompt": "What does Dr Fatima say Daniel has?",
+      "options": [
+        "a cold and a sore throat",
+        "a broken leg",
+        "a stomach ache",
+        "nothing at all"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "d44q6",
+      "prompt": "Which is the order 'breathe!' to a woman?",
+      "options": [
+        "تَنَفَّسْ",
+        "تَنَفَّسُوا",
+        "تَنَفَّسِي",
+        "يَتَنَفَّسُ"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "d44q7",
+      "prompt": "Which letter is the heavy, emphatic t at the start of طَبِيب?",
+      "options": [
+        "ت",
+        "ث",
+        "د",
+        "ط"
+      ],
+      "answer": 3
+    }
+  ],
+  "completion": "Great work! You can tell a doctor what is wrong and understand the orders a doctor gives. Next stop: the pharmacy.",
+  "status": "needs-review"
+}

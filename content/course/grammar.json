@@ -1982,5 +1982,342 @@
         "en": "I haven't written the homework yet."
       }
     ]
+  },
+  {
+    "id": "body-pain-w7",
+    "title": "What hurts: يُؤْلِمُنِي and تُؤْلِمُنِي",
+    "titleAr": "يُؤْلِمُنِي رَأْسِي",
+    "firstDay": 43,
+    "summary": "Arabic says 'it hurts me': the verb comes first, and it matches the body part: يُؤْلِمُنِي for a masculine part, تُؤْلِمُنِي for a feminine one.",
+    "formula": "يُؤْلِمُنِي + masculine part · تُؤْلِمُنِي + feminine part",
+    "explanation": "يُؤْلِمُنِي رَأْسِي is 'my head hurts me'. The body part is the subject, so the verb agrees with it. Most body parts are masculine, but the parts that come in pairs, يَد (hand), رِجْل (leg, foot), عَيْن (eye) and أُذُن (ear), are feminine without ة, so they take تُؤْلِمُنِي. Change the ending of the verb for other people: يُؤْلِمُكَ (it hurts you, to a man), يُؤْلِمُهُ (it hurts him). You can also put the body part first: رَأْسِي يُؤْلِمُنِي.",
+    "table": {
+      "head": [
+        "Body part",
+        "Gender",
+        "It hurts"
+      ],
+      "rows": [
+        [
+          "رَأْس",
+          "masculine",
+          "يُؤْلِمُنِي رَأْسِي"
+        ],
+        [
+          "ظَهْر",
+          "masculine",
+          "يُؤْلِمُنِي ظَهْرِي"
+        ],
+        [
+          "بَطْن",
+          "masculine",
+          "يُؤْلِمُنِي بَطْنِي"
+        ],
+        [
+          "حَلْق",
+          "masculine",
+          "يُؤْلِمُنِي حَلْقِي"
+        ],
+        [
+          "يَد",
+          "feminine",
+          "تُؤْلِمُنِي يَدِي"
+        ],
+        [
+          "رِجْل",
+          "feminine",
+          "تُؤْلِمُنِي رِجْلِي"
+        ],
+        [
+          "عَيْن",
+          "feminine",
+          "تُؤْلِمُنِي عَيْنِي"
+        ],
+        [
+          "أُذُن",
+          "feminine",
+          "تُؤْلِمُنِي أُذُنِي"
+        ]
+      ]
+    },
+    "examples": [
+      {
+        "ar": "يُؤْلِمُنِي ظَهْرِي.",
+        "en": "My back hurts."
+      },
+      {
+        "ar": "تُؤْلِمُنِي عَيْنِي.",
+        "en": "My eye hurts."
+      }
+    ]
+  },
+  {
+    "id": "imperative",
+    "title": "Giving orders: the imperative",
+    "titleAr": "اِفْتَحْ فَمَكَ",
+    "firstDay": 44,
+    "summary": "To give an order, take the 'you' form of the present, drop the ta- at the front and the vowel at the end: تَفْتَحُ (you open) → اِفْتَحْ (open!).",
+    "formula": "تَفْتَحُ → اِفْتَحْ (to a man) · اِفْتَحِي (to a woman) · اِفْتَحُوا (to a group)",
+    "explanation": "Start from the 'you' form of the present tense: تَفْتَحُ (you open). Drop the ta-. If the word now starts with two consonants (fta-), add a helping vowel in front: اِ (i) when the middle vowel is a or i, as in اِفْتَحْ and اِجْلِسْ, and اُ (u) when it is u, as in اُرْكُضْ (run!). The end is sukūn for a man, ـِي for a woman and ـُوا for a group. If the word already starts with consonant + vowel, no helper is needed: تَتَنَفَّسُ → تَنَفَّسْ (breathe!). A few common verbs are short and irregular: خُذْ (take!), كُلْ (eat!), نَمْ (sleep!).",
+    "table": {
+      "head": [
+        "You (present)",
+        "To a man",
+        "To a woman",
+        "To a group",
+        "English"
+      ],
+      "rows": [
+        [
+          "تَفْتَحُ",
+          "اِفْتَحْ",
+          "اِفْتَحِي",
+          "اِفْتَحُوا",
+          "open!"
+        ],
+        [
+          "تَجْلِسُ",
+          "اِجْلِسْ",
+          "اِجْلِسِي",
+          "اِجْلِسُوا",
+          "sit!"
+        ],
+        [
+          "تَتَنَفَّسُ",
+          "تَنَفَّسْ",
+          "تَنَفَّسِي",
+          "تَنَفَّسُوا",
+          "breathe!"
+        ],
+        [
+          "تَأْخُذُ",
+          "خُذْ",
+          "خُذِي",
+          "خُذُوا",
+          "take!"
+        ]
+      ]
+    },
+    "examples": [
+      {
+        "ar": "اِفْتَحْ فَمَكَ، مِنْ فَضْلِكَ.",
+        "en": "Open your mouth, please. (to a man)"
+      },
+      {
+        "ar": "اِجْلِسِي هُنَا، مِنْ فَضْلِكِ.",
+        "en": "Sit here, please. (to a woman)"
+      }
+    ]
+  },
+  {
+    "id": "an-subjunctive",
+    "title": "I want to…: أَنْ + the present",
+    "titleAr": "أُرِيدُ أَنْ أَشْتَرِيَ",
+    "firstDay": 45,
+    "summary": "To join a verb like 'want' or 'can' to a second verb, put أَنْ (an, 'that') between them. The second verb keeps its person and ends in -a.",
+    "formula": "أُرِيدُ + أَنْ + أَشْتَرِيَ (present tense, ending -a)",
+    "explanation": "English says 'I want to buy'; Arabic says 'I want that I buy': أُرِيدُ أَنْ أَشْتَرِيَ. Both verbs show the person: تُرِيدُ أَنْ تَجْلِسَ (you want to sit). After أَنْ the present tense takes the subjunctive ending: the last vowel -u becomes -a, so أَشْرَبُ (I drink) becomes أَنْ أَشْرَبَ (to drink). Endings in -na drop it: tashrabīna (you drink, to a woman) becomes an tashrabī. In everyday speech the vowel endings are often not heard, but أَنْ itself is needed in standard Arabic.",
+    "table": {
+      "head": [
+        "First verb",
+        "أَنْ + second verb",
+        "English"
+      ],
+      "rows": [
+        [
+          "أُرِيدُ",
+          "أَنْ أَشْتَرِيَ دَوَاءً",
+          "I want to buy some medicine"
+        ],
+        [
+          "تُرِيدُ",
+          "أَنْ تَجْلِسَ",
+          "you want to sit down"
+        ],
+        [
+          "أَسْتَطِيعُ",
+          "أَنْ أَنَامَ",
+          "I can sleep"
+        ],
+        [
+          "لَا أُرِيدُ",
+          "أَنْ آكُلَ شَيْئًا",
+          "I don't want to eat anything"
+        ]
+      ]
+    },
+    "examples": [
+      {
+        "ar": "أُرِيدُ أَنْ أَشْتَرِيَ مَنَادِيل.",
+        "en": "I want to buy some tissues."
+      },
+      {
+        "ar": "هَلْ تُرِيدُ أَنْ تَجْلِسَ؟",
+        "en": "Do you want to sit down? (to a man)"
+      }
+    ]
+  },
+  {
+    "id": "feelings-adjectives",
+    "title": "How I feel: adjectives that agree",
+    "titleAr": "كَيْفَ تَشْعُرُ؟",
+    "firstDay": 46,
+    "summary": "Say how you feel with أَنَا + an adjective. The adjective agrees with the person: add ة for a woman; a few adjectives in -ān change to -ā.",
+    "formula": "أَنَا + adjective (+ ة for a woman) · أَشْعُرُ بِـ + noun",
+    "explanation": "No verb 'to be' is needed: أَنَا مُتْعَب (I am tired, said by a man), أَنَا مُتْعَبَة (said by a woman). Most adjectives simply add ة. Adjectives on the pattern faʿlān, like عَطْشَان (thirsty) and غَضْبَان (angry), have a feminine in -ā in standard Arabic: عَطْشَى, غَضْبَى (everyday speech often says ʿaṭshāna). With the verb أَشْعُرُ (I feel) use بِـ and a noun, أَشْعُرُ بِالْمَلَل (I feel bored, literally 'I feel boredom'), or a whole sentence: أَشْعُرُ أَنَّنِي أَحْسَن (I feel better).",
+    "table": {
+      "head": [
+        "English",
+        "Man",
+        "Woman"
+      ],
+      "rows": [
+        [
+          "tired",
+          "مُتْعَب",
+          "مُتْعَبَة"
+        ],
+        [
+          "happy",
+          "سَعِيد",
+          "سَعِيدَة"
+        ],
+        [
+          "sad",
+          "حَزِين",
+          "حَزِينَة"
+        ],
+        [
+          "worried",
+          "قَلِق",
+          "قَلِقَة"
+        ],
+        [
+          "hungry",
+          "جَائِع",
+          "جَائِعَة"
+        ],
+        [
+          "thirsty",
+          "عَطْشَان",
+          "عَطْشَى"
+        ],
+        [
+          "angry",
+          "غَضْبَان",
+          "غَضْبَى"
+        ]
+      ]
+    },
+    "examples": [
+      {
+        "ar": "أَنَا سَعِيدَة جِدًّا.",
+        "en": "I am very happy. (a woman)"
+      },
+      {
+        "ar": "هَلْ أَنْتَ عَطْشَان؟",
+        "en": "Are you thirsty? (to a man)"
+      }
+    ]
+  },
+  {
+    "id": "negative-imperative",
+    "title": "Don't…!: لَا + the present without -u",
+    "titleAr": "لَا تَنْسَ",
+    "firstDay": 47,
+    "summary": "To tell someone not to do something, keep the 'you' form of the present, put لَا in front and end it like an order: لَا تَشْرَبْ (don't drink!).",
+    "formula": "لَا تَشْرَبْ (to a man) · لَا تَشْرَبِي (to a woman) · لَا تَشْرَبُوا (to a group)",
+    "explanation": "Unlike the positive order, the ta- stays: تَشْرَبُ (you drink) → لَا تَشْرَبْ (don't drink!). The ending changes as in the imperative: sukūn for a man, ـِي for a woman and ـُوا for a group. Before الـ the sukūn becomes i so the words join: لَا تَشْرَبِ الْقَهْوَة (don't drink the coffee). Verbs that end in a long vowel shorten it: تَنْسَى (you forget) → لَا تَنْسَ (don't forget!), and to a woman لَا تَنْسَيْ. Be careful: لَا تَشْرَبُ with -u is a statement, 'you don't drink'.",
+    "table": {
+      "head": [
+        "Order",
+        "Don't…!",
+        "English"
+      ],
+      "rows": [
+        [
+          "اِشْرَبْ",
+          "لَا تَشْرَبْ",
+          "(don't) drink! (to a man)"
+        ],
+        [
+          "اِشْرَبِي",
+          "لَا تَشْرَبِي",
+          "(don't) drink! (to a woman)"
+        ],
+        [
+          "اِشْرَبُوا",
+          "لَا تَشْرَبُوا",
+          "(don't) drink! (to a group)"
+        ],
+        [
+          "خُذْ",
+          "لَا تَأْخُذْ",
+          "(don't) take! (to a man)"
+        ],
+        [
+          "كُلْ",
+          "لَا تَأْكُلْ",
+          "(don't) eat! (to a man)"
+        ]
+      ]
+    },
+    "examples": [
+      {
+        "ar": "لَا تَنْسَ الدَّوَاء!",
+        "en": "Don't forget the medicine! (to a man)"
+      },
+      {
+        "ar": "لَا تَشْرَبِي الْقَهْوَة الْآنَ.",
+        "en": "Don't drink coffee now. (to a woman)"
+      }
+    ]
+  },
+  {
+    "id": "lazim",
+    "title": "Must: لَازِم and يَجِبُ + أَنْ",
+    "titleAr": "لَازِم أَنْ تَرْتَاحَ",
+    "firstDay": 48,
+    "summary": "To say 'must' or 'have to', use لَازِم (necessary) or يَجِبُ (it is necessary) + أَنْ + the present tense ending in -a.",
+    "formula": "لَازِم / يَجِبُ + أَنْ + present (ending -a)",
+    "explanation": "لَازِم and يَجِبُ never change: the person is shown on the second verb. لَازِم أَنْ أَرْتَاحَ (I must rest), لَازِم أَنْ تَرْتَاحَ (you must rest), يَجِبُ أَنْ يَنَامَ (he must sleep). لَازِم is very common when people speak; يَجِبُ is a little more formal and common in writing. To ask 'do I have to…?' put هَلْ in front: هَلْ يَجِبُ أَنْ آخُذَ الدَّوَاء؟ To say 'it is not necessary', use لَيْسَ ضَرُورِيًّا.",
+    "table": {
+      "head": [
+        "Arabic",
+        "English"
+      ],
+      "rows": [
+        [
+          "لَازِم أَنْ أَرْتَاحَ",
+          "I must rest"
+        ],
+        [
+          "لَازِم أَنْ تَنَامَ مُبَكِّرًا",
+          "you must go to bed early"
+        ],
+        [
+          "يَجِبُ أَنْ يَشْرَبَ مَاءً",
+          "he must drink water"
+        ],
+        [
+          "هَلْ يَجِبُ أَنْ آخُذَ الدَّوَاء؟",
+          "do I have to take the medicine?"
+        ],
+        [
+          "لَيْسَ ضَرُورِيًّا",
+          "it is not necessary"
+        ]
+      ]
+    },
+    "examples": [
+      {
+        "ar": "لَازِم أَنْ تَرْتَاحَ الْيَوْمَ وَغَدًا.",
+        "en": "You must rest today and tomorrow. (to a man)"
+      },
+      {
+        "ar": "يَجِبُ أَنْ أَنَامَ مُبَكِّرًا.",
+        "en": "I must go to bed early."
+      }
+    ]
   }
 ]

@@ -1,0 +1,1189 @@
+{
+  "day": 43,
+  "week": 7,
+  "phase": 4,
+  "level": 4,
+  "title": "The body",
+  "titleAr": "جِسْمُ الْإِنْسَان",
+  "titleSegs": [
+    [
+      "جِسْمُ",
+      "body (of)"
+    ],
+    [
+      "الْإِنْسَان",
+      "the human being"
+    ]
+  ],
+  "emoji": "🧍",
+  "summary": "Name the parts of the body and say what hurts with يُؤْلِمُنِي and تُؤْلِمُنِي.",
+  "intro": "After the weekend in Alexandria, Daniel is back in class, but he does not feel well. Today you learn the main parts of the body. Several of them are feminine even without ة: يَد (hand), رِجْل (leg, foot), عَيْن (eye) and أُذُن (ear). To say what hurts, Arabic says 'it hurts me': يُؤْلِمُنِي رَأْسِي (my head hurts) for a masculine part, and تُؤْلِمُنِي يَدِي (my hand hurts) for a feminine one.",
+  "objectives": [
+    "Name ten parts of the body",
+    "Say what hurts with يُؤْلِمُنِي and تُؤْلِمُنِي",
+    "Tell masculine and feminine body parts apart",
+    "Wish someone well with سَلَامَتُكَ and answer it"
+  ],
+  "realLife": {
+    "emoji": "🤒",
+    "title": "Back from the seaside",
+    "story": "Daniel comes back from Alexandria with a sore head and a stiff back. In class Mr Karim is teaching the parts of the body with a big picture, and Daniel can point to everything that hurts. Before the end of the lesson the teacher sends him home."
+  },
+  "letters": [],
+  "newWords": [
+    "jism",
+    "ras",
+    "udhun",
+    "anf",
+    "fam",
+    "yad",
+    "rijl",
+    "batn",
+    "zahr",
+    "yulimu",
+    "salamtak"
+  ],
+  "grammar": [
+    "body-pain-w7",
+    "possessive"
+  ],
+  "pronunciation": [
+    "ayn"
+  ],
+  "sentences": [
+    {
+      "id": "d43s1",
+      "ar": "هٰذَا رَأْسِي، وَهٰذِهِ يَدِي.",
+      "en": "This is my head, and this is my hand.",
+      "literal": "this (is) my head, and this (is) my hand",
+      "segs": [
+        [
+          "هٰذَا",
+          "this (m)",
+          "demonstrative"
+        ],
+        [
+          "رَأْسِي",
+          "my head",
+          "noun"
+        ],
+        [
+          "وَهٰذِهِ",
+          "and this (f)",
+          "demonstrative"
+        ],
+        [
+          "يَدِي",
+          "my hand",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "possessive",
+        "demonstratives"
+      ],
+      "mistakes": [
+        {
+          "wrong": "هٰذَا يَدِي",
+          "right": "هٰذِهِ يَدِي",
+          "why": "yad (hand) is feminine even though it has no ة, so it takes hādhihi."
+        }
+      ]
+    },
+    {
+      "id": "d43s2",
+      "ar": "يُؤْلِمُنِي رَأْسِي.",
+      "en": "My head hurts.",
+      "literal": "(it) hurts me, my head",
+      "segs": [
+        [
+          "يُؤْلِمُنِي",
+          "it hurts me (m)",
+          "verb"
+        ],
+        [
+          "رَأْسِي",
+          "my head",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "body-pain-w7"
+      ]
+    },
+    {
+      "id": "d43s3",
+      "ar": "تُؤْلِمُنِي رِجْلِي.",
+      "en": "My leg hurts.",
+      "literal": "(she) hurts me, my leg",
+      "segs": [
+        [
+          "تُؤْلِمُنِي",
+          "it hurts me (f)",
+          "verb"
+        ],
+        [
+          "رِجْلِي",
+          "my leg, my foot",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "body-pain-w7"
+      ],
+      "mistakes": [
+        {
+          "wrong": "يُؤْلِمُنِي رِجْلِي",
+          "right": "تُؤْلِمُنِي رِجْلِي",
+          "why": "rijl (leg) is feminine, so the verb starts with tu-, not yu-."
+        }
+      ]
+    },
+    {
+      "id": "d43s4",
+      "ar": "هَلْ تُؤْلِمُكَ عَيْنُكَ؟",
+      "en": "Does your eye hurt? (to a man)",
+      "literal": "(does) hurt you your eye",
+      "segs": [
+        [
+          "هَلْ",
+          "(starts a yes/no question)",
+          "particle"
+        ],
+        [
+          "تُؤْلِمُكَ",
+          "it hurts you (f subject, to a man)",
+          "verb"
+        ],
+        [
+          "عَيْنُكَ",
+          "your eye (to a man)",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "body-pain-w7",
+        "questions"
+      ]
+    },
+    {
+      "id": "d43s5",
+      "ar": "لِلْإِنْسَانِ عَيْنَانِ وَأُذُنَانِ وَأَنْف وَاحِد.",
+      "en": "A person has two eyes, two ears and one nose.",
+      "literal": "to the human (are) two eyes and two ears and one nose",
+      "segs": [
+        [
+          "لِلْإِنْسَانِ",
+          "to, for the human being",
+          "prep"
+        ],
+        [
+          "عَيْنَانِ",
+          "two eyes",
+          "noun"
+        ],
+        [
+          "وَأُذُنَانِ",
+          "and two ears",
+          "noun"
+        ],
+        [
+          "وَأَنْف",
+          "and a nose",
+          "noun"
+        ],
+        [
+          "وَاحِد",
+          "one",
+          "number"
+        ]
+      ],
+      "grammar": [
+        "nominal-sentence"
+      ]
+    },
+    {
+      "id": "d43s6",
+      "ar": "عَيْنِي لَا تُؤْلِمُنِي، لٰكِنْ أُذُنِي تُؤْلِمُنِي.",
+      "en": "My eye doesn't hurt, but my ear hurts.",
+      "literal": "my eye does not hurt me, but my ear hurts me",
+      "segs": [
+        [
+          "عَيْنِي",
+          "my eye",
+          "noun"
+        ],
+        [
+          "لَا",
+          "not",
+          "particle"
+        ],
+        [
+          "تُؤْلِمُنِي",
+          "it hurts me (f)",
+          "verb"
+        ],
+        [
+          "لٰكِنْ",
+          "but",
+          "particle"
+        ],
+        [
+          "أُذُنِي",
+          "my ear",
+          "noun"
+        ],
+        [
+          "تُؤْلِمُنِي",
+          "it hurts me (f)",
+          "verb"
+        ]
+      ],
+      "grammar": [
+        "body-pain-w7"
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "A lesson about the body",
+    "speakers": [
+      {
+        "key": "karim",
+        "name": "Mr Karim",
+        "nameAr": "الْأُسْتَاذ كَرِيم"
+      },
+      {
+        "key": "daniel",
+        "name": "Daniel",
+        "nameAr": "دَانْيَال"
+      },
+      {
+        "key": "sami",
+        "name": "Sami",
+        "nameAr": "سَامِي"
+      },
+      {
+        "key": "layla",
+        "name": "Layla",
+        "nameAr": "لَيْلَى"
+      }
+    ],
+    "culture": "When someone is ill, Arabic speakers say سَلَامَتُكَ to a man or سَلَامَتُكِ to a woman, literally 'your safety': 'get well soon'. The usual reply is اللّٰهُ يُسَلِّمُكِ (to a woman), 'God keep you safe', as Daniel says to Layla.",
+    "lines": [
+      {
+        "id": "d43l1",
+        "sp": "karim",
+        "ar": "صَبَاحُ الْخَيْر يَا طُلَّاب! الْيَوْمَ دَرْسُنَا عَنْ جِسْمِ الْإِنْسَان. اُنْظُرُوا إِلَى هٰذِهِ الصُّورَة.",
+        "en": "Good morning, students! Today our lesson is about the human body. Look at this picture.",
+        "segs": [
+          [
+            "صَبَاحُ",
+            "morning (of)"
+          ],
+          [
+            "الْخَيْر",
+            "the goodness"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "طُلَّاب",
+            "students"
+          ],
+          [
+            "الْيَوْمَ",
+            "today"
+          ],
+          [
+            "دَرْسُنَا",
+            "our lesson"
+          ],
+          [
+            "عَنْ",
+            "about"
+          ],
+          [
+            "جِسْمِ",
+            "body (of)"
+          ],
+          [
+            "الْإِنْسَان",
+            "the human being"
+          ],
+          [
+            "اُنْظُرُوا",
+            "look (to several people)"
+          ],
+          [
+            "إِلَى",
+            "at, to"
+          ],
+          [
+            "هٰذِهِ",
+            "this (f)"
+          ],
+          [
+            "الصُّورَة",
+            "the picture"
+          ]
+        ]
+      },
+      {
+        "id": "d43l2",
+        "sp": "karim",
+        "ar": "هٰذَا هُوَ الرَّأْس، وَفِي الرَّأْسِ عَيْنَان وَأُذُنَان وَأَنْف وَفَم.",
+        "en": "This is the head, and in the head there are two eyes, two ears, a nose and a mouth.",
+        "segs": [
+          [
+            "هٰذَا",
+            "this (m)"
+          ],
+          [
+            "هُوَ",
+            "he, it (m)"
+          ],
+          [
+            "الرَّأْس",
+            "the head"
+          ],
+          [
+            "وَفِي",
+            "and in"
+          ],
+          [
+            "الرَّأْسِ",
+            "the head"
+          ],
+          [
+            "عَيْنَان",
+            "two eyes"
+          ],
+          [
+            "وَأُذُنَان",
+            "and two ears"
+          ],
+          [
+            "وَأَنْف",
+            "and a nose"
+          ],
+          [
+            "وَفَم",
+            "and a mouth"
+          ]
+        ]
+      },
+      {
+        "id": "d43l3",
+        "sp": "daniel",
+        "ar": "عَفْوًا يَا أُسْتَاذ، رَأْسِي يُؤْلِمُنِي قَلِيلًا الْيَوْمَ بَعْدَ الرِّحْلَةِ الطَّوِيلَة.",
+        "en": "Excuse me, teacher, my head hurts a little today, after the long trip.",
+        "segs": [
+          [
+            "عَفْوًا",
+            "excuse me"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "أُسْتَاذ",
+            "teacher"
+          ],
+          [
+            "رَأْسِي",
+            "my head"
+          ],
+          [
+            "يُؤْلِمُنِي",
+            "it hurts me (m)"
+          ],
+          [
+            "قَلِيلًا",
+            "a little"
+          ],
+          [
+            "الْيَوْمَ",
+            "today"
+          ],
+          [
+            "بَعْدَ",
+            "after"
+          ],
+          [
+            "الرِّحْلَةِ",
+            "the trip"
+          ],
+          [
+            "الطَّوِيلَة",
+            "the long (f)"
+          ]
+        ]
+      },
+      {
+        "id": "d43l4",
+        "sp": "karim",
+        "ar": "سَلَامَتُكَ يَا دَانْيَال! هَلْ يُؤْلِمُكَ شَيْء آخَر، الظَّهْر أَوِ الْبَطْن مَثَلًا؟",
+        "en": "Get well soon, Daniel! Does anything else hurt, your back or your stomach, for example?",
+        "segs": [
+          [
+            "سَلَامَتُكَ",
+            "get well soon (to a man; lit. your safety)"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "دَانْيَال",
+            "Daniel (first name)",
+            "name"
+          ],
+          [
+            "هَلْ",
+            "(starts a yes/no question)"
+          ],
+          [
+            "يُؤْلِمُكَ",
+            "it hurts you (to a man)"
+          ],
+          [
+            "شَيْء",
+            "thing, something"
+          ],
+          [
+            "آخَر",
+            "another, other (m)"
+          ],
+          [
+            "الظَّهْر",
+            "the back"
+          ],
+          [
+            "أَوِ",
+            "or"
+          ],
+          [
+            "الْبَطْن",
+            "the stomach"
+          ],
+          [
+            "مَثَلًا",
+            "for example"
+          ]
+        ]
+      },
+      {
+        "id": "d43l5",
+        "sp": "daniel",
+        "ar": "نَعَم، ظَهْرِي يُؤْلِمُنِي أَيْضًا. جَلَسْتُ فِي الْحَافِلَة ثَلَاثَ سَاعَات!",
+        "en": "Yes, my back hurts too. I sat on the bus for three hours!",
+        "segs": [
+          [
+            "نَعَم",
+            "yes"
+          ],
+          [
+            "ظَهْرِي",
+            "my back"
+          ],
+          [
+            "يُؤْلِمُنِي",
+            "it hurts me (m)"
+          ],
+          [
+            "أَيْضًا",
+            "also, too"
+          ],
+          [
+            "جَلَسْتُ",
+            "I sat"
+          ],
+          [
+            "فِي",
+            "in, on"
+          ],
+          [
+            "الْحَافِلَة",
+            "the bus"
+          ],
+          [
+            "ثَلَاثَ",
+            "three"
+          ],
+          [
+            "سَاعَات",
+            "hours"
+          ]
+        ]
+      },
+      {
+        "id": "d43l6",
+        "sp": "sami",
+        "ar": "وَفِي الْإِسْكَنْدَرِيَّة سَبَحَ دَانْيَال فِي الْبَحْر، وَكَانَ الْمَاءُ بَارِدًا جِدًّا!",
+        "en": "And in Alexandria Daniel swam in the sea, and the water was very cold!",
+        "segs": [
+          [
+            "وَفِي",
+            "and in"
+          ],
+          [
+            "الْإِسْكَنْدَرِيَّة",
+            "Alexandria (city in Egypt)",
+            "name"
+          ],
+          [
+            "سَبَحَ",
+            "he swam"
+          ],
+          [
+            "دَانْيَال",
+            "Daniel (first name)",
+            "name"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "الْبَحْر",
+            "the sea"
+          ],
+          [
+            "وَكَانَ",
+            "and (it) was"
+          ],
+          [
+            "الْمَاءُ",
+            "the water"
+          ],
+          [
+            "بَارِدًا",
+            "cold"
+          ],
+          [
+            "جِدًّا",
+            "very"
+          ]
+        ]
+      },
+      {
+        "id": "d43l7",
+        "sp": "layla",
+        "ar": "مِسْكِين يَا دَانْيَال! لِذٰلِكَ أَنْفُكَ أَحْمَر وَصَوْتُكَ ضَعِيف الْيَوْمَ.",
+        "en": "Poor Daniel! That is why your nose is red and your voice is weak today.",
+        "segs": [
+          [
+            "مِسْكِين",
+            "poor thing"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "دَانْيَال",
+            "Daniel (first name)",
+            "name"
+          ],
+          [
+            "لِذٰلِكَ",
+            "that is why (lit. for that)"
+          ],
+          [
+            "أَنْفُكَ",
+            "your nose (to a man)"
+          ],
+          [
+            "أَحْمَر",
+            "red"
+          ],
+          [
+            "وَصَوْتُكَ",
+            "and your voice (to a man)"
+          ],
+          [
+            "ضَعِيف",
+            "weak"
+          ],
+          [
+            "الْيَوْمَ",
+            "today"
+          ]
+        ]
+      },
+      {
+        "id": "d43l8",
+        "sp": "karim",
+        "ar": "اِنْتَبِهُوا: الْيَد وَالرِّجْل وَالْعَيْن وَالْأُذُن كَلِمَات مُؤَنَّثَة، فَنَقُولُ: تُؤْلِمُنِي يَدِي.",
+        "en": "Pay attention: hand, leg, eye and ear are feminine words, so we say 'my hand hurts'.",
+        "segs": [
+          [
+            "اِنْتَبِهُوا",
+            "pay attention (to several people)"
+          ],
+          [
+            "الْيَد",
+            "the hand"
+          ],
+          [
+            "وَالرِّجْل",
+            "and the leg"
+          ],
+          [
+            "وَالْعَيْن",
+            "and the eye"
+          ],
+          [
+            "وَالْأُذُن",
+            "and the ear"
+          ],
+          [
+            "كَلِمَات",
+            "words"
+          ],
+          [
+            "مُؤَنَّثَة",
+            "feminine"
+          ],
+          [
+            "فَنَقُولُ",
+            "so we say"
+          ],
+          [
+            "تُؤْلِمُنِي",
+            "it hurts me (f)"
+          ],
+          [
+            "يَدِي",
+            "my hand"
+          ]
+        ]
+      },
+      {
+        "id": "d43l9",
+        "sp": "layla",
+        "ar": "وَالرَّأْس كَلِمَة مُذَكَّرَة، فَنَقُولُ: يُؤْلِمُنِي رَأْسِي. صَحِيح يَا أُسْتَاذ؟",
+        "en": "And 'head' is a masculine word, so we say 'my head hurts'. Is that right, teacher?",
+        "segs": [
+          [
+            "وَالرَّأْس",
+            "and the head"
+          ],
+          [
+            "كَلِمَة",
+            "word"
+          ],
+          [
+            "مُذَكَّرَة",
+            "masculine (agreeing with a feminine noun)"
+          ],
+          [
+            "فَنَقُولُ",
+            "so we say"
+          ],
+          [
+            "يُؤْلِمُنِي",
+            "it hurts me (m)"
+          ],
+          [
+            "رَأْسِي",
+            "my head"
+          ],
+          [
+            "صَحِيح",
+            "right, correct"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "أُسْتَاذ",
+            "teacher"
+          ]
+        ]
+      },
+      {
+        "id": "d43l10",
+        "sp": "karim",
+        "ar": "صَحِيح، أَحْسَنْتِ يَا لَيْلَى! وَالْآنَ يَا سَامِي، أَيْنَ أُذُنَاكَ وَأَيْنَ عَيْنَاكَ؟",
+        "en": "Correct, well done, Layla! And now, Sami, where are your ears and where are your eyes?",
+        "segs": [
+          [
+            "صَحِيح",
+            "right, correct"
+          ],
+          [
+            "أَحْسَنْتِ",
+            "well done (to a woman)"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "لَيْلَى",
+            "Layla (first name)",
+            "name"
+          ],
+          [
+            "وَالْآنَ",
+            "and now"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "سَامِي",
+            "Sami (first name)",
+            "name"
+          ],
+          [
+            "أَيْنَ",
+            "where"
+          ],
+          [
+            "أُذُنَاكَ",
+            "your two ears (to a man)"
+          ],
+          [
+            "وَأَيْنَ",
+            "and where"
+          ],
+          [
+            "عَيْنَاكَ",
+            "your two eyes (to a man)"
+          ]
+        ]
+      },
+      {
+        "id": "d43l11",
+        "sp": "sami",
+        "ar": "أُذُنَايَ هُنَا، وَعَيْنَايَ هُنَا، وَيَدَايَ الْآنَ عَلَى رَأْسِي!",
+        "en": "My ears are here, my eyes are here, and now my hands are on my head!",
+        "segs": [
+          [
+            "أُذُنَايَ",
+            "my two ears"
+          ],
+          [
+            "هُنَا",
+            "here"
+          ],
+          [
+            "وَعَيْنَايَ",
+            "and my two eyes"
+          ],
+          [
+            "هُنَا",
+            "here"
+          ],
+          [
+            "وَيَدَايَ",
+            "and my two hands"
+          ],
+          [
+            "الْآنَ",
+            "now"
+          ],
+          [
+            "عَلَى",
+            "on"
+          ],
+          [
+            "رَأْسِي",
+            "my head"
+          ]
+        ]
+      },
+      {
+        "id": "d43l12",
+        "sp": "daniel",
+        "ar": "رَأْسِي، ظَهْرِي، بَطْنِي… كُلُّ جِسْمِي يُؤْلِمُنِي الْيَوْمَ يَا أُسْتَاذ!",
+        "en": "My head, my back, my stomach… my whole body hurts today, teacher!",
+        "segs": [
+          [
+            "رَأْسِي",
+            "my head"
+          ],
+          [
+            "ظَهْرِي",
+            "my back"
+          ],
+          [
+            "بَطْنِي",
+            "my stomach"
+          ],
+          [
+            "كُلُّ",
+            "all, the whole (of)"
+          ],
+          [
+            "جِسْمِي",
+            "my body"
+          ],
+          [
+            "يُؤْلِمُنِي",
+            "it hurts me (m)"
+          ],
+          [
+            "الْيَوْمَ",
+            "today"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "أُسْتَاذ",
+            "teacher"
+          ]
+        ]
+      },
+      {
+        "id": "d43l13",
+        "sp": "karim",
+        "ar": "يَا دَانْيَال، أَنْتَ مَرِيض. اِذْهَبْ إِلَى الْبَيْت الْآنَ، وَغَدًا اِذْهَبْ إِلَى الطَّبِيب.",
+        "en": "Daniel, you are ill. Go home now, and tomorrow go and see the doctor.",
+        "segs": [
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "دَانْيَال",
+            "Daniel (first name)",
+            "name"
+          ],
+          [
+            "أَنْتَ",
+            "you (to a man)"
+          ],
+          [
+            "مَرِيض",
+            "ill, sick"
+          ],
+          [
+            "اِذْهَبْ",
+            "go (to a man)"
+          ],
+          [
+            "إِلَى",
+            "to"
+          ],
+          [
+            "الْبَيْت",
+            "the house, home"
+          ],
+          [
+            "الْآنَ",
+            "now"
+          ],
+          [
+            "وَغَدًا",
+            "and tomorrow"
+          ],
+          [
+            "اِذْهَبْ",
+            "go (to a man)"
+          ],
+          [
+            "إِلَى",
+            "to"
+          ],
+          [
+            "الطَّبِيب",
+            "the doctor"
+          ]
+        ]
+      },
+      {
+        "id": "d43l14",
+        "sp": "layla",
+        "ar": "سَلَامَتُكَ يَا دَانْيَال! سَأَتَّصِلُ بِكَ فِي الْمَسَاءِ لِأَسْأَلَ عَنْ صِحَّتِكَ.",
+        "en": "Get well soon, Daniel! I will call you this evening to ask about your health.",
+        "segs": [
+          [
+            "سَلَامَتُكَ",
+            "get well soon (to a man; lit. your safety)"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "دَانْيَال",
+            "Daniel (first name)",
+            "name"
+          ],
+          [
+            "سَأَتَّصِلُ",
+            "I will call"
+          ],
+          [
+            "بِكَ",
+            "you (to a man; after a preposition)"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "الْمَسَاءِ",
+            "the evening"
+          ],
+          [
+            "لِأَسْأَلَ",
+            "to ask (so that I ask)"
+          ],
+          [
+            "عَنْ",
+            "about"
+          ],
+          [
+            "صِحَّتِكَ",
+            "your health (to a man)"
+          ]
+        ]
+      },
+      {
+        "id": "d43l15",
+        "sp": "daniel",
+        "ar": "اللّٰهُ يُسَلِّمُكِ يَا لَيْلَى! شُكْرًا لَكُمْ جَمِيعًا، وَإِلَى اللِّقَاء.",
+        "en": "God keep you safe, Layla! Thank you all, and see you soon.",
+        "segs": [
+          [
+            "اللّٰهُ",
+            "God"
+          ],
+          [
+            "يُسَلِّمُكِ",
+            "keeps you safe (to a woman)"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "لَيْلَى",
+            "Layla (first name)",
+            "name"
+          ],
+          [
+            "شُكْرًا",
+            "thank you"
+          ],
+          [
+            "لَكُمْ",
+            "to you (plural)"
+          ],
+          [
+            "جَمِيعًا",
+            "all, all together"
+          ],
+          [
+            "وَإِلَى",
+            "and until"
+          ],
+          [
+            "اللِّقَاء",
+            "the meeting ('see you')"
+          ]
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "title": "A picture of the body",
+    "ar": "فِي الصُّورَة جِسْمُ إِنْسَان. فِي الرَّأْسِ أُذُنَان وَعَيْنَان وَأَنْف وَفَم. لِلْإِنْسَانِ يَدَان، وَلَهُ رِجْلَان أَيْضًا. الْيَوْمَ دَانْيَال مَرِيض: رَأْسُهُ يُؤْلِمُهُ، وَظَهْرُهُ يُؤْلِمُهُ أَيْضًا.",
+    "en": "In the picture there is a human body. In the head there are two ears, two eyes, a nose and a mouth. A person has two hands, and two legs as well. Today Daniel is ill: his head hurts, and his back hurts too.",
+    "segs": [
+      [
+        "فِي",
+        "in"
+      ],
+      [
+        "الصُّورَة",
+        "the picture"
+      ],
+      [
+        "جِسْمُ",
+        "body (of)"
+      ],
+      [
+        "إِنْسَان",
+        "a human being"
+      ],
+      [
+        "فِي",
+        "in"
+      ],
+      [
+        "الرَّأْسِ",
+        "the head"
+      ],
+      [
+        "أُذُنَان",
+        "two ears"
+      ],
+      [
+        "وَعَيْنَان",
+        "and two eyes"
+      ],
+      [
+        "وَأَنْف",
+        "and a nose"
+      ],
+      [
+        "وَفَم",
+        "and a mouth"
+      ],
+      [
+        "لِلْإِنْسَانِ",
+        "to, for the human being"
+      ],
+      [
+        "يَدَان",
+        "two hands"
+      ],
+      [
+        "وَلَهُ",
+        "and to him: 'he has'"
+      ],
+      [
+        "رِجْلَان",
+        "two legs"
+      ],
+      [
+        "أَيْضًا",
+        "also, too"
+      ],
+      [
+        "الْيَوْمَ",
+        "today"
+      ],
+      [
+        "دَانْيَال",
+        "Daniel (first name)",
+        "name"
+      ],
+      [
+        "مَرِيض",
+        "ill, sick"
+      ],
+      [
+        "رَأْسُهُ",
+        "his head"
+      ],
+      [
+        "يُؤْلِمُهُ",
+        "it hurts him"
+      ],
+      [
+        "وَظَهْرُهُ",
+        "and his back"
+      ],
+      [
+        "يُؤْلِمُهُ",
+        "it hurts him"
+      ],
+      [
+        "أَيْضًا",
+        "also, too"
+      ]
+    ]
+  },
+  "review": [
+    "hal",
+    "bikhayr",
+    "kabir",
+    "hadhihi",
+    "ayn"
+  ],
+  "quiz": [
+    {
+      "id": "d43q1",
+      "prompt": "What does this mean?",
+      "ar": "رَأْس",
+      "options": [
+        "hand",
+        "head",
+        "back",
+        "nose"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "d43q2",
+      "prompt": "Which word means 'hand'?",
+      "options": [
+        "فَم",
+        "أُذُن",
+        "يَد",
+        "بَطْن"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "d43q3",
+      "prompt": "Choose the correct sentence: 'My leg hurts.'",
+      "options": [
+        "يُؤْلِمُنِي رِجْلِي.",
+        "تُؤْلِمُنِي رِجْلِي.",
+        "تُؤْلِمُنِي رَأْسِي.",
+        "يُؤْلِمُنِي يَدِي."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "d43q4",
+      "prompt": "Which of these body parts is feminine?",
+      "options": [
+        "رَأْس",
+        "ظَهْر",
+        "أَنْف",
+        "عَيْن"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "d43q5",
+      "prompt": "Why does Daniel's back hurt?",
+      "options": [
+        "He sat on a bus for three hours",
+        "He played football",
+        "He fell in the sea",
+        "He carried a heavy bag"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "d43q6",
+      "prompt": "What do you say to a man who is ill?",
+      "options": [
+        "مَعَ السَّلَامَة",
+        "تَشَرَّفْنَا",
+        "سَلَامَتُكَ",
+        "صَبَاحُ النُّور"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "d43q7",
+      "prompt": "Which letter starts the word عَيْن (eye)?",
+      "options": [
+        "غ",
+        "ع",
+        "ء",
+        "ح"
+      ],
+      "answer": 1
+    }
+  ],
+  "completion": "Well done! You can name the parts of the body and say what hurts. Daniel goes home to bed: tomorrow he sees the doctor.",
+  "status": "needs-review"
+}

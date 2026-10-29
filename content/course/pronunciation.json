@@ -463,5 +463,87 @@
         "en": "thing"
       }
     ]
+  },
+  {
+    "id": "ta-emphatic",
+    "title": "ṭāʾ (ط) versus tāʾ (ت)",
+    "category": "Emphatics",
+    "ipa": [
+      "tˤ",
+      "t"
+    ],
+    "letters": [
+      "ط",
+      "ت"
+    ],
+    "tip": "ت is a light t with the tongue tip just behind the top teeth. For ط keep the tip in the same place, but pull the back of the tongue up and back so the mouth feels hollow: the sound is heavier, and the vowels next to it turn darker. Neither one has the puff of air of an English t.",
+    "diagram": "same tongue-tip position for both · ط: back of the tongue raised towards the soft palate, mouth hollow",
+    "error": "Saying طَبِيب (doctor) with a light t. tīn (figs) and ṭīn (mud) are different words.",
+    "examples": [
+      {
+        "ar": "طَبِيب",
+        "en": "doctor"
+      },
+      {
+        "ar": "بَطْن",
+        "en": "stomach"
+      },
+      {
+        "ar": "مُتْعَب",
+        "en": "tired"
+      }
+    ],
+    "pairs": [
+      [
+        {
+          "ar": "تِين",
+          "en": "figs"
+        },
+        {
+          "ar": "طِين",
+          "en": "mud"
+        }
+      ]
+    ]
+  },
+  {
+    "id": "ghayn",
+    "title": "ghayn (غ): a soft gargle",
+    "category": "Throat sounds",
+    "ipa": [
+      "ɣ"
+    ],
+    "letters": [
+      "غ"
+    ],
+    "tip": "غ is the voiced partner of خ. Say the kh of خ, then switch your voice on: you feel a buzz in the throat. It is close to the French r in 'Paris', made at the back of the mouth. Keep it smooth and continuous, never a hard g.",
+    "diagram": "back of the tongue close to the soft palate, as for خ, with the voice on",
+    "error": "Saying غ as a hard g, or as the ʿ of ع. غَضْبَان (angry) begins with a soft gargle, not with g.",
+    "examples": [
+      {
+        "ar": "غَضْبَان",
+        "en": "angry"
+      },
+      {
+        "ar": "غَدًا",
+        "en": "tomorrow"
+      },
+      {
+        "ar": "صَغِير",
+        "en": "small"
+      }
+    ],
+    "pairs": [
+      [
+        {
+          "ar": "خَيْر",
+          "en": "goodness"
+        },
+        {
+          "ar": "غَيْر",
+          "en": "other than, not"
+        }
+      ]
+    ]
   }
 ]

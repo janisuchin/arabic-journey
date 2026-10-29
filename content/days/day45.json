@@ -1,0 +1,1210 @@
+{
+  "day": 45,
+  "week": 7,
+  "phase": 4,
+  "level": 4,
+  "title": "At the pharmacy",
+  "titleAr": "فِي الصَّيْدَلِيَّة",
+  "titleSegs": [
+    [
+      "فِي",
+      "in, at"
+    ],
+    [
+      "الصَّيْدَلِيَّة",
+      "the pharmacy"
+    ]
+  ],
+  "emoji": "💊",
+  "summary": "Buy medicine at a pharmacy, understand how often to take it, and say what you want to do with أُرِيدُ أَنْ…",
+  "intro": "With the prescription in his hand, Daniel goes to the pharmacy. To say 'I want to buy', Arabic joins the two verbs with أَنْ: أُرِيدُ أَنْ أَشْتَرِيَ (literally 'I want that I buy'). The second verb ends in -a after أَنْ. You also learn how to talk about doses: حَبَّة وَاحِدَة ثَلَاثَ مَرَّات فِي الْيَوْم (one tablet three times a day).",
+  "objectives": [
+    "Say what you want to do with أُرِيدُ أَنْ + a verb",
+    "Understand a dose: how many tablets and how many times a day",
+    "Ask for medicine, tissues and the bill at a pharmacy",
+    "Use مَرَّة with numbers: مَرَّةً, مَرَّتَيْنِ, ثَلَاثَ مَرَّات"
+  ],
+  "realLife": {
+    "emoji": "🏪",
+    "title": "The corner pharmacy",
+    "story": "The pharmacy near Sami's house is open late, and the pharmacist knows everyone in the street. He explains the tablets and the cough syrup carefully, and Daniel buys tissues and vitamin C as well."
+  },
+  "letters": [],
+  "newWords": [
+    "saydali",
+    "wasfa",
+    "marra",
+    "mindil",
+    "an"
+  ],
+  "grammar": [
+    "an-subjunctive"
+  ],
+  "pronunciation": [
+    "shadda"
+  ],
+  "sentences": [
+    {
+      "id": "d45s1",
+      "ar": "أُرِيدُ أَنْ أَشْتَرِيَ دَوَاءً.",
+      "en": "I want to buy some medicine.",
+      "literal": "I want that I buy medicine",
+      "segs": [
+        [
+          "أُرِيدُ",
+          "I want",
+          "verb"
+        ],
+        [
+          "أَنْ",
+          "to, that",
+          "particle"
+        ],
+        [
+          "أَشْتَرِيَ",
+          "I buy (after an)",
+          "verb"
+        ],
+        [
+          "دَوَاءً",
+          "medicine",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "an-subjunctive"
+      ],
+      "mistakes": [
+        {
+          "wrong": "أُرِيدُ أَشْتَرِي دَوَاءً",
+          "right": "أُرِيدُ أَنْ أَشْتَرِيَ دَوَاءً",
+          "why": "In standard Arabic two verbs are joined with an ('that'), and the second verb then ends in -a."
+        }
+      ]
+    },
+    {
+      "id": "d45s2",
+      "ar": "هَلْ تُرِيدُ أَنْ تَجْلِسَ؟",
+      "en": "Do you want to sit down? (to a man)",
+      "literal": "(do) you want that you sit",
+      "segs": [
+        [
+          "هَلْ",
+          "(starts a yes/no question)",
+          "particle"
+        ],
+        [
+          "تُرِيدُ",
+          "you want (to a man)",
+          "verb"
+        ],
+        [
+          "أَنْ",
+          "to, that",
+          "particle"
+        ],
+        [
+          "تَجْلِسَ",
+          "you sit (after an)",
+          "verb"
+        ]
+      ],
+      "grammar": [
+        "an-subjunctive",
+        "questions"
+      ]
+    },
+    {
+      "id": "d45s3",
+      "ar": "خُذْ حَبَّةً وَاحِدَةً ثَلَاثَ مَرَّاتٍ فِي الْيَوْمِ.",
+      "en": "Take one tablet three times a day. (to a man)",
+      "literal": "take one tablet three times in the day",
+      "segs": [
+        [
+          "خُذْ",
+          "take! (to a man)",
+          "verb"
+        ],
+        [
+          "حَبَّةً",
+          "a tablet",
+          "noun"
+        ],
+        [
+          "وَاحِدَةً",
+          "one (f)",
+          "number"
+        ],
+        [
+          "ثَلَاثَ",
+          "three",
+          "number"
+        ],
+        [
+          "مَرَّاتٍ",
+          "times",
+          "noun"
+        ],
+        [
+          "فِي",
+          "in",
+          "prep"
+        ],
+        [
+          "الْيَوْمِ",
+          "the day",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "imperative"
+      ],
+      "mistakes": [
+        {
+          "wrong": "ثَلَاثَة مَرَّات",
+          "right": "ثَلَاثَ مَرَّات",
+          "why": "marra is feminine, so the number three loses its ة: the numbers 3 to 10 take the opposite gender to the noun."
+        }
+      ]
+    },
+    {
+      "id": "d45s4",
+      "ar": "أُرِيدُ أَنْ أَعْرِفَ سِعْرَ هٰذَا الدَّوَاء.",
+      "en": "I want to know the price of this medicine.",
+      "literal": "I want that I know (the) price (of) this medicine",
+      "segs": [
+        [
+          "أُرِيدُ",
+          "I want",
+          "verb"
+        ],
+        [
+          "أَنْ",
+          "to, that",
+          "particle"
+        ],
+        [
+          "أَعْرِفَ",
+          "I know (after an)",
+          "verb"
+        ],
+        [
+          "سِعْرَ",
+          "price (of)",
+          "noun"
+        ],
+        [
+          "هٰذَا",
+          "this (m)",
+          "demonstrative"
+        ],
+        [
+          "الدَّوَاء",
+          "the medicine",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "an-subjunctive"
+      ]
+    },
+    {
+      "id": "d45s5",
+      "ar": "الصَّيْدَلِيّ يُرِيدُ أَنْ يَرَى الْوَصْفَة.",
+      "en": "The pharmacist wants to see the prescription.",
+      "literal": "the pharmacist wants that he sees the prescription",
+      "segs": [
+        [
+          "الصَّيْدَلِيّ",
+          "the pharmacist",
+          "noun"
+        ],
+        [
+          "يُرِيدُ",
+          "he wants",
+          "verb"
+        ],
+        [
+          "أَنْ",
+          "to, that",
+          "particle"
+        ],
+        [
+          "يَرَى",
+          "he sees",
+          "verb"
+        ],
+        [
+          "الْوَصْفَة",
+          "the prescription",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "an-subjunctive"
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Tablets and syrup",
+    "speakers": [
+      {
+        "key": "saydali",
+        "name": "Pharmacist",
+        "nameAr": "الصَّيْدَلِيّ"
+      },
+      {
+        "key": "daniel",
+        "name": "Daniel",
+        "nameAr": "دَانْيَال"
+      },
+      {
+        "key": "sami",
+        "name": "Sami",
+        "nameAr": "سَامِي"
+      }
+    ],
+    "culture": "Pharmacies in Egypt are everywhere, and many stay open until late at night. Pharmacists often give advice for small problems, and they will usually write the dose on the box for you: مَرَّة, مَرَّتَيْنِ or ثَلَاثَ مَرَّات فِي الْيَوْم.",
+    "lines": [
+      {
+        "id": "d45l1",
+        "sp": "saydali",
+        "ar": "صَبَاحُ الْخَيْر! أَهْلًا بِكُمَا فِي الصَّيْدَلِيَّة. كَيْفَ أَسْتَطِيعُ أَنْ أُسَاعِدَكُمَا؟",
+        "en": "Good morning! Welcome to the pharmacy, both of you. How can I help you?",
+        "segs": [
+          [
+            "صَبَاحُ",
+            "morning (of)"
+          ],
+          [
+            "الْخَيْر",
+            "the goodness"
+          ],
+          [
+            "أَهْلًا",
+            "welcome"
+          ],
+          [
+            "بِكُمَا",
+            "with you (two people)"
+          ],
+          [
+            "فِي",
+            "in, at"
+          ],
+          [
+            "الصَّيْدَلِيَّة",
+            "the pharmacy"
+          ],
+          [
+            "كَيْفَ",
+            "how"
+          ],
+          [
+            "أَسْتَطِيعُ",
+            "I can"
+          ],
+          [
+            "أَنْ",
+            "to, that"
+          ],
+          [
+            "أُسَاعِدَكُمَا",
+            "I help you (two people)"
+          ]
+        ]
+      },
+      {
+        "id": "d45l2",
+        "sp": "daniel",
+        "ar": "صَبَاحُ النُّور. عِنْدِي وَصْفَة مِنَ الطَّبِيبَة، وَأُرِيدُ أَنْ أَشْتَرِيَ هٰذَا الدَّوَاء.",
+        "en": "Good morning. I have a prescription from the doctor, and I want to buy this medicine.",
+        "segs": [
+          [
+            "صَبَاحُ",
+            "morning (of)"
+          ],
+          [
+            "النُّور",
+            "the light"
+          ],
+          [
+            "عِنْدِي",
+            "I have"
+          ],
+          [
+            "وَصْفَة",
+            "prescription"
+          ],
+          [
+            "مِنَ",
+            "from"
+          ],
+          [
+            "الطَّبِيبَة",
+            "the doctor (a woman)"
+          ],
+          [
+            "وَأُرِيدُ",
+            "and I want"
+          ],
+          [
+            "أَنْ",
+            "to, that"
+          ],
+          [
+            "أَشْتَرِيَ",
+            "I buy (after an)"
+          ],
+          [
+            "هٰذَا",
+            "this (m)"
+          ],
+          [
+            "الدَّوَاء",
+            "the medicine"
+          ]
+        ]
+      },
+      {
+        "id": "d45l3",
+        "sp": "saydali",
+        "ar": "لَحْظَة، مِنْ فَضْلِكَ… حُبُوب لِلْحَرَارَة وَشَرَاب لِلسُّعَال. هَلْ أَنْتَ الْمَرِيض؟",
+        "en": "One moment, please… tablets for the fever and a syrup for the cough. Are you the patient?",
+        "segs": [
+          [
+            "لَحْظَة",
+            "a moment"
+          ],
+          [
+            "مِنْ",
+            "from"
+          ],
+          [
+            "فَضْلِكَ",
+            "your kindness (to a man): 'please'"
+          ],
+          [
+            "حُبُوب",
+            "tablets, pills"
+          ],
+          [
+            "لِلْحَرَارَة",
+            "for the fever"
+          ],
+          [
+            "وَشَرَاب",
+            "and a syrup"
+          ],
+          [
+            "لِلسُّعَال",
+            "for the cough"
+          ],
+          [
+            "هَلْ",
+            "(starts a yes/no question)"
+          ],
+          [
+            "أَنْتَ",
+            "you (to a man)"
+          ],
+          [
+            "الْمَرِيض",
+            "the patient, the sick person"
+          ]
+        ]
+      },
+      {
+        "id": "d45l4",
+        "sp": "daniel",
+        "ar": "نَعَم، أَنَا الْمَرِيض. أُرِيدُ أَنْ أَعْرِفَ: كَمْ مَرَّةً فِي الْيَوْم آخُذُ الْحُبُوب؟",
+        "en": "Yes, I'm the patient. I want to know: how many times a day do I take the tablets?",
+        "segs": [
+          [
+            "نَعَم",
+            "yes"
+          ],
+          [
+            "أَنَا",
+            "I"
+          ],
+          [
+            "الْمَرِيض",
+            "the patient, the sick person"
+          ],
+          [
+            "أُرِيدُ",
+            "I want"
+          ],
+          [
+            "أَنْ",
+            "to, that"
+          ],
+          [
+            "أَعْرِفَ",
+            "I know (after an)"
+          ],
+          [
+            "كَمْ",
+            "how many"
+          ],
+          [
+            "مَرَّةً",
+            "times (after 'how many')"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "الْيَوْم",
+            "the day"
+          ],
+          [
+            "آخُذُ",
+            "I take"
+          ],
+          [
+            "الْحُبُوب",
+            "the tablets"
+          ]
+        ]
+      },
+      {
+        "id": "d45l5",
+        "sp": "saydali",
+        "ar": "حَبَّة وَاحِدَة ثَلَاثَ مَرَّات فِي الْيَوْم، بَعْدَ الْأَكْل. لَا تَأْخُذْهَا قَبْلَ الْأَكْل.",
+        "en": "One tablet three times a day, after food. Don't take it before you have eaten.",
+        "segs": [
+          [
+            "حَبَّة",
+            "a tablet"
+          ],
+          [
+            "وَاحِدَة",
+            "one (f)"
+          ],
+          [
+            "ثَلَاثَ",
+            "three"
+          ],
+          [
+            "مَرَّات",
+            "times"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "الْيَوْم",
+            "the day"
+          ],
+          [
+            "بَعْدَ",
+            "after"
+          ],
+          [
+            "الْأَكْل",
+            "the food, eating"
+          ],
+          [
+            "لَا",
+            "don't"
+          ],
+          [
+            "تَأْخُذْهَا",
+            "take it (f; to a man)"
+          ],
+          [
+            "قَبْلَ",
+            "before"
+          ],
+          [
+            "الْأَكْل",
+            "the food, eating"
+          ]
+        ]
+      },
+      {
+        "id": "d45l6",
+        "sp": "daniel",
+        "ar": "وَالشَّرَاب؟ هَلْ آخُذُهُ مَعَ الْحُبُوب أَيْضًا، أَمْ فِي وَقْت آخَر؟",
+        "en": "And the syrup? Do I take it with the tablets too, or at another time?",
+        "segs": [
+          [
+            "وَالشَّرَاب",
+            "and the syrup"
+          ],
+          [
+            "هَلْ",
+            "(starts a yes/no question)"
+          ],
+          [
+            "آخُذُهُ",
+            "I take it (m)"
+          ],
+          [
+            "مَعَ",
+            "with"
+          ],
+          [
+            "الْحُبُوب",
+            "the tablets"
+          ],
+          [
+            "أَيْضًا",
+            "also, too"
+          ],
+          [
+            "أَمْ",
+            "or (in a question)"
+          ],
+          [
+            "فِي",
+            "in, at"
+          ],
+          [
+            "وَقْت",
+            "time"
+          ],
+          [
+            "آخَر",
+            "another, other (m)"
+          ]
+        ]
+      },
+      {
+        "id": "d45l7",
+        "sp": "saydali",
+        "ar": "مِلْعَقَة وَاحِدَة قَبْلَ النَّوْم. هٰذَا الشَّرَاب يُسَاعِدُكَ عَلَى أَنْ تَنَامَ بِدُونِ سُعَال.",
+        "en": "One spoonful before bed. This syrup helps you to sleep without coughing.",
+        "segs": [
+          [
+            "مِلْعَقَة",
+            "spoon, spoonful"
+          ],
+          [
+            "وَاحِدَة",
+            "one (f)"
+          ],
+          [
+            "قَبْلَ",
+            "before"
+          ],
+          [
+            "النَّوْم",
+            "sleep"
+          ],
+          [
+            "هٰذَا",
+            "this (m)"
+          ],
+          [
+            "الشَّرَاب",
+            "the syrup"
+          ],
+          [
+            "يُسَاعِدُكَ",
+            "helps you (to a man)"
+          ],
+          [
+            "عَلَى",
+            "on (after 'help')"
+          ],
+          [
+            "أَنْ",
+            "to, that"
+          ],
+          [
+            "تَنَامَ",
+            "you sleep (after an)"
+          ],
+          [
+            "بِدُونِ",
+            "without"
+          ],
+          [
+            "سُعَال",
+            "cough"
+          ]
+        ]
+      },
+      {
+        "id": "d45l8",
+        "sp": "daniel",
+        "ar": "مُمْتَاز. وَأُرِيدُ أَنْ أَشْتَرِيَ مَنَادِيل وَفِيتَامِين سِي أَيْضًا، مِنْ فَضْلِكَ.",
+        "en": "Excellent. I would also like to buy some tissues and vitamin C, please.",
+        "segs": [
+          [
+            "مُمْتَاز",
+            "excellent"
+          ],
+          [
+            "وَأُرِيدُ",
+            "and I want"
+          ],
+          [
+            "أَنْ",
+            "to, that"
+          ],
+          [
+            "أَشْتَرِيَ",
+            "I buy (after an)"
+          ],
+          [
+            "مَنَادِيل",
+            "tissues"
+          ],
+          [
+            "وَفِيتَامِين",
+            "and vitamin"
+          ],
+          [
+            "سِي",
+            "C (the letter)"
+          ],
+          [
+            "أَيْضًا",
+            "also, too"
+          ],
+          [
+            "مِنْ",
+            "from"
+          ],
+          [
+            "فَضْلِكَ",
+            "your kindness (to a man): 'please'"
+          ]
+        ]
+      },
+      {
+        "id": "d45l9",
+        "sp": "saydali",
+        "ar": "تَفَضَّلْ. خُذْ فِيتَامِين سِي كُلَّ يَوْم، وَاشْرَبْ عَصِيرَ بُرْتُقَال أَيْضًا.",
+        "en": "Here you are. Take vitamin C every day, and drink orange juice as well.",
+        "segs": [
+          [
+            "تَفَضَّلْ",
+            "here you are (to a man)"
+          ],
+          [
+            "خُذْ",
+            "take! (to a man)"
+          ],
+          [
+            "فِيتَامِين",
+            "vitamin"
+          ],
+          [
+            "سِي",
+            "C (the letter)"
+          ],
+          [
+            "كُلَّ",
+            "every"
+          ],
+          [
+            "يَوْم",
+            "day"
+          ],
+          [
+            "وَاشْرَبْ",
+            "and drink! (to a man)"
+          ],
+          [
+            "عَصِيرَ",
+            "juice (of)"
+          ],
+          [
+            "بُرْتُقَال",
+            "oranges"
+          ],
+          [
+            "أَيْضًا",
+            "also, too"
+          ]
+        ]
+      },
+      {
+        "id": "d45l10",
+        "sp": "sami",
+        "ar": "يَا دَانْيَال، هَلْ تُرِيدُ أَنْ تَجْلِسَ قَلِيلًا؟ أَنْتَ مُتْعَب جِدًّا.",
+        "en": "Daniel, do you want to sit down for a moment? You are very tired.",
+        "segs": [
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "دَانْيَال",
+            "Daniel (first name)",
+            "name"
+          ],
+          [
+            "هَلْ",
+            "(starts a yes/no question)"
+          ],
+          [
+            "تُرِيدُ",
+            "you want (to a man)"
+          ],
+          [
+            "أَنْ",
+            "to, that"
+          ],
+          [
+            "تَجْلِسَ",
+            "you sit (after an)"
+          ],
+          [
+            "قَلِيلًا",
+            "a little"
+          ],
+          [
+            "أَنْتَ",
+            "you (to a man)"
+          ],
+          [
+            "مُتْعَب",
+            "tired"
+          ],
+          [
+            "جِدًّا",
+            "very"
+          ]
+        ]
+      },
+      {
+        "id": "d45l11",
+        "sp": "daniel",
+        "ar": "لَا، شُكْرًا يَا سَامِي. أُرِيدُ أَنْ أَدْفَعَ، وَأَنْ أَرْجِعَ إِلَى الْبَيْت لِأَنَامَ.",
+        "en": "No, thanks, Sami. I want to pay and to go back home to sleep.",
+        "segs": [
+          [
+            "لَا",
+            "no"
+          ],
+          [
+            "شُكْرًا",
+            "thank you"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "سَامِي",
+            "Sami (first name)",
+            "name"
+          ],
+          [
+            "أُرِيدُ",
+            "I want"
+          ],
+          [
+            "أَنْ",
+            "to, that"
+          ],
+          [
+            "أَدْفَعَ",
+            "I pay (after an)"
+          ],
+          [
+            "وَأَنْ",
+            "and to"
+          ],
+          [
+            "أَرْجِعَ",
+            "I go back (after an)"
+          ],
+          [
+            "إِلَى",
+            "to"
+          ],
+          [
+            "الْبَيْت",
+            "the house, home"
+          ],
+          [
+            "لِأَنَامَ",
+            "to sleep (so that I sleep)"
+          ]
+        ]
+      },
+      {
+        "id": "d45l12",
+        "sp": "daniel",
+        "ar": "كَمِ الْحِسَاب، مِنْ فَضْلِكَ؟ وَهَلْ تَأْخُذُونَ بِطَاقَةَ الْبَنْك؟",
+        "en": "How much is the bill, please? And do you take bank cards?",
+        "segs": [
+          [
+            "كَمِ",
+            "how much"
+          ],
+          [
+            "الْحِسَاب",
+            "the bill"
+          ],
+          [
+            "مِنْ",
+            "from"
+          ],
+          [
+            "فَضْلِكَ",
+            "your kindness (to a man): 'please'"
+          ],
+          [
+            "وَهَلْ",
+            "and (yes/no question)"
+          ],
+          [
+            "تَأْخُذُونَ",
+            "you take (plural)"
+          ],
+          [
+            "بِطَاقَةَ",
+            "card (of)"
+          ],
+          [
+            "الْبَنْك",
+            "the bank"
+          ]
+        ]
+      },
+      {
+        "id": "d45l13",
+        "sp": "saydali",
+        "ar": "الْحِسَاب مِئَة وَعِشْرُونَ جُنَيْهًا. نَعَم، نَأْخُذُ الْبِطَاقَة، وَالنُّقُود أَيْضًا.",
+        "en": "The bill is one hundred and twenty pounds. Yes, we take cards, and cash too.",
+        "segs": [
+          [
+            "الْحِسَاب",
+            "the bill"
+          ],
+          [
+            "مِئَة",
+            "a hundred"
+          ],
+          [
+            "وَعِشْرُونَ",
+            "and twenty"
+          ],
+          [
+            "جُنَيْهًا",
+            "pounds (after a number)"
+          ],
+          [
+            "نَعَم",
+            "yes"
+          ],
+          [
+            "نَأْخُذُ",
+            "we take"
+          ],
+          [
+            "الْبِطَاقَة",
+            "the card"
+          ],
+          [
+            "وَالنُّقُود",
+            "and cash, money"
+          ],
+          [
+            "أَيْضًا",
+            "also, too"
+          ]
+        ]
+      },
+      {
+        "id": "d45l14",
+        "sp": "sami",
+        "ar": "شُكْرًا جَزِيلًا! وَيَا دَانْيَال، لَا تَنْسَ أَنْ تَأْكُلَ قَبْلَ الدَّوَاء.",
+        "en": "Thank you very much! And Daniel, don't forget to eat before the medicine.",
+        "segs": [
+          [
+            "شُكْرًا",
+            "thank you"
+          ],
+          [
+            "جَزِيلًا",
+            "very much (lit. abundant)"
+          ],
+          [
+            "وَيَا",
+            "and O (calling someone)"
+          ],
+          [
+            "دَانْيَال",
+            "Daniel (first name)",
+            "name"
+          ],
+          [
+            "لَا",
+            "don't"
+          ],
+          [
+            "تَنْسَ",
+            "forget (to a man)"
+          ],
+          [
+            "أَنْ",
+            "to, that"
+          ],
+          [
+            "تَأْكُلَ",
+            "you eat (after an)"
+          ],
+          [
+            "قَبْلَ",
+            "before"
+          ],
+          [
+            "الدَّوَاء",
+            "the medicine"
+          ]
+        ]
+      },
+      {
+        "id": "d45l15",
+        "sp": "saydali",
+        "ar": "مَعَ السَّلَامَة، وَسَلَامَتُكَ يَا دَانْيَال! أَتَمَنَّى لَكَ الشِّفَاءَ الْعَاجِل.",
+        "en": "Goodbye, and get well soon, Daniel! I wish you a speedy recovery.",
+        "segs": [
+          [
+            "مَعَ",
+            "with"
+          ],
+          [
+            "السَّلَامَة",
+            "the safety"
+          ],
+          [
+            "وَسَلَامَتُكَ",
+            "and get well soon (to a man)"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "دَانْيَال",
+            "Daniel (first name)",
+            "name"
+          ],
+          [
+            "أَتَمَنَّى",
+            "I wish"
+          ],
+          [
+            "لَكَ",
+            "for you (to a man)"
+          ],
+          [
+            "الشِّفَاءَ",
+            "the recovery"
+          ],
+          [
+            "الْعَاجِل",
+            "the quick, the speedy"
+          ]
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "title": "The medicine box",
+    "ar": "ذَهَبَ دَانْيَال وَسَامِي إِلَى الصَّيْدَلِيَّة. أَعْطَى دَانْيَال الْوَصْفَة لِلصَّيْدَلِيّ. اِشْتَرَى حُبُوبًا لِلْحَرَارَة، وَشَرَابًا لِلسُّعَال، وَمَنَادِيل. يَأْخُذُ حَبَّة ثَلَاثَ مَرَّات فِي الْيَوْم بَعْدَ الْأَكْل.",
+    "en": "Daniel and Sami went to the pharmacy. Daniel gave the prescription to the pharmacist. He bought tablets for the fever, a syrup for the cough, and tissues. He takes a tablet three times a day after food.",
+    "segs": [
+      [
+        "ذَهَبَ",
+        "he went"
+      ],
+      [
+        "دَانْيَال",
+        "Daniel (first name)",
+        "name"
+      ],
+      [
+        "وَسَامِي",
+        "and Sami (first name)",
+        "name"
+      ],
+      [
+        "إِلَى",
+        "to"
+      ],
+      [
+        "الصَّيْدَلِيَّة",
+        "the pharmacy"
+      ],
+      [
+        "أَعْطَى",
+        "he gave"
+      ],
+      [
+        "دَانْيَال",
+        "Daniel (first name)",
+        "name"
+      ],
+      [
+        "الْوَصْفَة",
+        "the prescription"
+      ],
+      [
+        "لِلصَّيْدَلِيّ",
+        "to the pharmacist"
+      ],
+      [
+        "اِشْتَرَى",
+        "he bought"
+      ],
+      [
+        "حُبُوبًا",
+        "tablets"
+      ],
+      [
+        "لِلْحَرَارَة",
+        "for the fever"
+      ],
+      [
+        "وَشَرَابًا",
+        "and a syrup"
+      ],
+      [
+        "لِلسُّعَال",
+        "for the cough"
+      ],
+      [
+        "وَمَنَادِيل",
+        "and tissues"
+      ],
+      [
+        "يَأْخُذُ",
+        "he takes"
+      ],
+      [
+        "حَبَّة",
+        "a tablet"
+      ],
+      [
+        "ثَلَاثَ",
+        "three"
+      ],
+      [
+        "مَرَّات",
+        "times"
+      ],
+      [
+        "فِي",
+        "in"
+      ],
+      [
+        "الْيَوْم",
+        "the day"
+      ],
+      [
+        "بَعْدَ",
+        "after"
+      ],
+      [
+        "الْأَكْل",
+        "the food, eating"
+      ]
+    ]
+  },
+  "review": [
+    "tabib",
+    "harara",
+    "suaal",
+    "yaftahu",
+    "dawa",
+    "habba",
+    "yuridu",
+    "yashtari"
+  ],
+  "quiz": [
+    {
+      "id": "d45q1",
+      "prompt": "What does this mean?",
+      "ar": "دَوَاء",
+      "options": [
+        "prescription",
+        "medicine",
+        "pharmacist",
+        "tablet"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "d45q2",
+      "prompt": "Fill the gap: 'I want to buy tissues.'",
+      "ar": "أُرِيدُ … أَشْتَرِيَ مَنَادِيل.",
+      "options": [
+        "لَا",
+        "مِنْ",
+        "فِي",
+        "أَنْ"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "d45q3",
+      "prompt": "How often does Daniel take the tablets?",
+      "options": [
+        "once a day",
+        "twice a day",
+        "three times a day",
+        "only before bed"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "d45q4",
+      "prompt": "When does he take the cough syrup?",
+      "options": [
+        "before bed",
+        "after breakfast",
+        "with the tablets",
+        "every hour"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "d45q5",
+      "prompt": "How much does Daniel pay?",
+      "options": [
+        "100 pounds",
+        "120 pounds",
+        "150 pounds",
+        "20 pounds"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "d45q6",
+      "prompt": "Which word means 'prescription'?",
+      "options": [
+        "حَبَّة",
+        "صَيْدَلِيّ",
+        "وَصْفَة",
+        "مَرَّة"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "d45q7",
+      "prompt": "In حَبَّة (tablet), which letter is doubled by the shadda?",
+      "options": [
+        "ح",
+        "ب",
+        "ة",
+        "none"
+      ],
+      "answer": 1
+    }
+  ],
+  "completion": "Excellent! You can buy medicine, understand a dose and say what you want to do with أُرِيدُ أَنْ…",
+  "status": "needs-review"
+}

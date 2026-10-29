@@ -1099,7 +1099,121 @@
      "title": "Sport"
     }
    ],
-   "test": []
+   "test": [
+    {
+     "id": "w7t1",
+     "prompt": "What does this mean?",
+     "ar": "يُؤْلِمُنِي رَأْسِي.",
+     "options": [
+      "My back hurts.",
+      "My head hurts.",
+      "My hand hurts.",
+      "My eye hurts."
+     ],
+     "answer": 1
+    },
+    {
+     "id": "w7t2",
+     "prompt": "Choose the correct sentence: 'My ear hurts.'",
+     "options": [
+      "يُؤْلِمُنِي أُذُنِي.",
+      "أُذُنِي يُؤْلِمُنِي.",
+      "تُؤْلِمُنِي أُذُنِي.",
+      "تُؤْلِمُنِي رَأْسِي."
+     ],
+     "answer": 2
+    },
+    {
+     "id": "w7t3",
+     "prompt": "How does a doctor tell a woman 'Open your mouth'?",
+     "options": [
+      "اِفْتَحْ فَمَكَ",
+      "اِفْتَحِي فَمَكِ",
+      "اِفْتَحُوا فَمَكَ",
+      "تَفْتَحُ فَمَكَ"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "w7t4",
+     "prompt": "Which word means 'medicine'?",
+     "options": [
+      "دَوَاء",
+      "صُدَاع",
+      "سُعَال",
+      "زُكَام"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "w7t5",
+     "prompt": "Fill the gap: 'I want to buy tissues.'",
+     "ar": "أُرِيدُ … أَشْتَرِيَ مَنَادِيل.",
+     "options": [
+      "لَا",
+      "أَنْ",
+      "مِنْ",
+      "فِي"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "w7t6",
+     "prompt": "A woman says 'I am tired'. Which is correct?",
+     "options": [
+      "أَنَا مُتْعَب.",
+      "أَنَا سَعِيدَة.",
+      "أَنَا جَائِع.",
+      "أَنَا مُتْعَبَة."
+     ],
+     "answer": 3
+    },
+    {
+     "id": "w7t7",
+     "prompt": "What does this mean?",
+     "ar": "لَا تَشْرَبِ الْقَهْوَة.",
+     "options": [
+      "You don't drink coffee.",
+      "Drink the coffee.",
+      "Don't drink coffee.",
+      "I don't like coffee."
+     ],
+     "answer": 2
+    },
+    {
+     "id": "w7t8",
+     "prompt": "Which sentence means 'You must rest'?",
+     "options": [
+      "لَازِم أَنْ تَرْتَاحَ.",
+      "لَا تَرْتَحْ.",
+      "أُرِيدُ أَنْ أَرْتَاحَ.",
+      "هَلْ تَرْتَاحُ؟"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "w7t9",
+     "prompt": "How do you tell a group 'Play!'?",
+     "options": [
+      "اِلْعَبْ!",
+      "اِلْعَبِي!",
+      "يَلْعَبُ!",
+      "اِلْعَبُوا!"
+     ],
+     "answer": 3
+    },
+    {
+     "id": "w7t10",
+     "prompt": "What do you say to a man who is ill?",
+     "options": [
+      "تَشَرَّفْنَا",
+      "سَلَامَتُكَ",
+      "صَبَاحُ النُّور",
+      "عَفْوًا"
+     ],
+     "answer": 1
+    }
+   ]
   },
   {
    "week": 8,

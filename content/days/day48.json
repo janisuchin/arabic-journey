@@ -1,0 +1,1272 @@
+{
+  "day": 48,
+  "week": 7,
+  "phase": 4,
+  "level": 5,
+  "title": "You must rest",
+  "titleAr": "لَازِم أَنْ تَرْتَاحَ",
+  "titleSegs": [
+    [
+      "لَازِم",
+      "necessary, must"
+    ],
+    [
+      "أَنْ",
+      "to, that"
+    ],
+    [
+      "تَرْتَاحَ",
+      "you rest (after an)"
+    ]
+  ],
+  "emoji": "🛌",
+  "summary": "Give and understand advice with لَازِم أَنْ… and يَجِبُ أَنْ… (must, have to), and say that something is not necessary.",
+  "intro": "On Thursday Daniel goes back to Dr Fatima's clinic. He feels much better and wants to get back to school and to football, but the doctor has advice. To say 'must', use لَازِم (necessary) or the more formal يَجِبُ, then أَنْ and a present-tense verb ending in -a: لَازِم أَنْ تَرْتَاحَ (you must rest), يَجِبُ أَنْ أَنَامَ (I must sleep). The words لَازِم and يَجِبُ never change; the person is on the second verb.",
+  "objectives": [
+    "Say what someone must do with لَازِم أَنْ and يَجِبُ أَنْ",
+    "Ask 'do I have to…?' with هَلْ يَجِبُ أَنْ…؟",
+    "Say 'it is not necessary' with لَيْسَ ضَرُورِيًّا",
+    "Give simple health advice about rest, sleep and water"
+  ],
+  "realLife": {
+    "emoji": "🩺",
+    "title": "The follow-up visit",
+    "story": "Daniel's temperature is normal again. Dr Fatima is pleased, but she wants him to rest for two more days. Her younger son Omar is at the clinic after school, and he has one question: can Daniel play football on Saturday?"
+  },
+  "letters": [],
+  "newWords": [
+    "lazim",
+    "yajibu",
+    "yartahu",
+    "raha",
+    "sihha",
+    "nasiha",
+    "yanamu",
+    "daruri"
+  ],
+  "grammar": [
+    "lazim",
+    "an-subjunctive"
+  ],
+  "pronunciation": [
+    "ha"
+  ],
+  "sentences": [
+    {
+      "id": "d48s1",
+      "ar": "لَازِم أَنْ تَرْتَاحَ.",
+      "en": "You must rest. (to a man)",
+      "literal": "(it is) necessary that you rest",
+      "segs": [
+        [
+          "لَازِم",
+          "necessary, must",
+          "adj"
+        ],
+        [
+          "أَنْ",
+          "to, that",
+          "particle"
+        ],
+        [
+          "تَرْتَاحَ",
+          "you rest (after an)",
+          "verb"
+        ]
+      ],
+      "grammar": [
+        "lazim",
+        "an-subjunctive"
+      ],
+      "mistakes": [
+        {
+          "wrong": "لَازِم تَرْتَاحُ",
+          "right": "لَازِم أَنْ تَرْتَاحَ",
+          "why": "In standard Arabic lāzim needs an before the verb, and the verb then ends in -a: lāzim an tartāḥa."
+        }
+      ]
+    },
+    {
+      "id": "d48s2",
+      "ar": "يَجِبُ أَنْ أَنَامَ مُبَكِّرًا.",
+      "en": "I must go to bed early.",
+      "literal": "it is necessary that I sleep early",
+      "segs": [
+        [
+          "يَجِبُ",
+          "must, it is necessary",
+          "verb"
+        ],
+        [
+          "أَنْ",
+          "to, that",
+          "particle"
+        ],
+        [
+          "أَنَامَ",
+          "I sleep (after an)",
+          "verb"
+        ],
+        [
+          "مُبَكِّرًا",
+          "early",
+          "adverb"
+        ]
+      ],
+      "grammar": [
+        "lazim"
+      ]
+    },
+    {
+      "id": "d48s3",
+      "ar": "لَازِم أَنْ تَشْرَبِي مَاءً كَثِيرًا.",
+      "en": "You must drink plenty of water. (to a woman)",
+      "literal": "(it is) necessary that you drink much water",
+      "segs": [
+        [
+          "لَازِم",
+          "necessary, must",
+          "adj"
+        ],
+        [
+          "أَنْ",
+          "to, that",
+          "particle"
+        ],
+        [
+          "تَشْرَبِي",
+          "you drink (to a woman, after an)",
+          "verb"
+        ],
+        [
+          "مَاءً",
+          "water",
+          "noun"
+        ],
+        [
+          "كَثِيرًا",
+          "much, a lot",
+          "adj"
+        ]
+      ],
+      "grammar": [
+        "lazim",
+        "an-subjunctive"
+      ],
+      "mistakes": [
+        {
+          "wrong": "لَازِم أَنْ تَشْرَبِينَ",
+          "right": "لَازِم أَنْ تَشْرَبِي",
+          "why": "After an the ending -na drops: tashrabīna becomes an tashrabī."
+        }
+      ]
+    },
+    {
+      "id": "d48s4",
+      "ar": "هَلْ يَجِبُ أَنْ آخُذَ الدَّوَاء؟",
+      "en": "Do I have to take the medicine?",
+      "literal": "(is it) necessary that I take the medicine",
+      "segs": [
+        [
+          "هَلْ",
+          "(starts a yes/no question)",
+          "particle"
+        ],
+        [
+          "يَجِبُ",
+          "must, it is necessary",
+          "verb"
+        ],
+        [
+          "أَنْ",
+          "to, that",
+          "particle"
+        ],
+        [
+          "آخُذَ",
+          "I take (after an)",
+          "verb"
+        ],
+        [
+          "الدَّوَاء",
+          "the medicine",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "lazim",
+        "questions"
+      ]
+    },
+    {
+      "id": "d48s5",
+      "ar": "الرَّاحَة مُهِمَّة لِلصِّحَّة.",
+      "en": "Rest is important for your health.",
+      "literal": "the rest (is) important for the health",
+      "segs": [
+        [
+          "الرَّاحَة",
+          "rest",
+          "noun"
+        ],
+        [
+          "مُهِمَّة",
+          "important (f)",
+          "adj"
+        ],
+        [
+          "لِلصِّحَّة",
+          "for health",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "nominal-sentence"
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Not so fast!",
+    "speakers": [
+      {
+        "key": "fatima",
+        "name": "Dr Fatima",
+        "nameAr": "الدُّكْتُورَة فَاطِمَة"
+      },
+      {
+        "key": "daniel",
+        "name": "Daniel",
+        "nameAr": "دَانْيَال"
+      },
+      {
+        "key": "omar",
+        "name": "Omar",
+        "nameAr": "عُمَر"
+      }
+    ],
+    "culture": "In Egypt the working and school week usually runs from Sunday to Thursday, and Friday is the main day off, so many families spend Friday and Saturday together. Football is played everywhere: in streets, schoolyards and club pitches.",
+    "lines": [
+      {
+        "id": "d48l1",
+        "sp": "fatima",
+        "ar": "أَهْلًا يَا دَانْيَال! تَفَضَّلْ، اِجْلِسْ. وَجْهُكَ أَحْسَن الْيَوْمَ. كَيْفَ تَشْعُرُ؟",
+        "en": "Hello, Daniel! Please sit down. Your face looks better today. How do you feel?",
+        "segs": [
+          [
+            "أَهْلًا",
+            "hello, welcome"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "دَانْيَال",
+            "Daniel (first name)",
+            "name"
+          ],
+          [
+            "تَفَضَّلْ",
+            "please (come in), to a man"
+          ],
+          [
+            "اِجْلِسْ",
+            "sit! (to a man)"
+          ],
+          [
+            "وَجْهُكَ",
+            "your face (to a man)"
+          ],
+          [
+            "أَحْسَن",
+            "better"
+          ],
+          [
+            "الْيَوْمَ",
+            "today"
+          ],
+          [
+            "كَيْفَ",
+            "how"
+          ],
+          [
+            "تَشْعُرُ",
+            "you feel (to a man)"
+          ]
+        ]
+      },
+      {
+        "id": "d48l2",
+        "sp": "daniel",
+        "ar": "أَشْعُرُ أَنَّنِي أَحْسَن بِكَثِير يَا دُكْتُورَة. لَيْسَتْ عِنْدِي حَرَارَة، وَالسُّعَال قَلِيل.",
+        "en": "I feel much better, doctor. I don't have a temperature, and the cough is only slight.",
+        "segs": [
+          [
+            "أَشْعُرُ",
+            "I feel"
+          ],
+          [
+            "أَنَّنِي",
+            "that I"
+          ],
+          [
+            "أَحْسَن",
+            "better"
+          ],
+          [
+            "بِكَثِير",
+            "by a lot: 'much'"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "دُكْتُورَة",
+            "doctor (a woman)"
+          ],
+          [
+            "لَيْسَتْ",
+            "is not (f)"
+          ],
+          [
+            "عِنْدِي",
+            "I have"
+          ],
+          [
+            "حَرَارَة",
+            "temperature, fever"
+          ],
+          [
+            "وَالسُّعَال",
+            "and the cough"
+          ],
+          [
+            "قَلِيل",
+            "little, slight"
+          ]
+        ]
+      },
+      {
+        "id": "d48l3",
+        "sp": "fatima",
+        "ar": "مُمْتَاز! حَرَارَتُكَ الْآنَ سَبْع وَثَلَاثُونَ دَرَجَة، وَهٰذَا طَبِيعِيّ. الْحَمْدُ لِلّٰه.",
+        "en": "Excellent! Your temperature is now thirty-seven degrees, and that is normal. Thank God.",
+        "segs": [
+          [
+            "مُمْتَاز",
+            "excellent"
+          ],
+          [
+            "حَرَارَتُكَ",
+            "your temperature (to a man)"
+          ],
+          [
+            "الْآنَ",
+            "now"
+          ],
+          [
+            "سَبْع",
+            "seven"
+          ],
+          [
+            "وَثَلَاثُونَ",
+            "and thirty"
+          ],
+          [
+            "دَرَجَة",
+            "degree"
+          ],
+          [
+            "وَهٰذَا",
+            "and this (m)"
+          ],
+          [
+            "طَبِيعِيّ",
+            "normal, natural"
+          ],
+          [
+            "الْحَمْدُ",
+            "the praise"
+          ],
+          [
+            "لِلّٰه",
+            "to God"
+          ]
+        ]
+      },
+      {
+        "id": "d48l4",
+        "sp": "daniel",
+        "ar": "إِذَنْ أَسْتَطِيعُ أَنْ أَرْجِعَ إِلَى الْمَدْرَسَة يَوْمَ الْأَحَد؟ عِنْدَنَا امْتِحَان صَغِير.",
+        "en": "So can I go back to school on Sunday? We have a small test.",
+        "segs": [
+          [
+            "إِذَنْ",
+            "so, then"
+          ],
+          [
+            "أَسْتَطِيعُ",
+            "I can"
+          ],
+          [
+            "أَنْ",
+            "to, that"
+          ],
+          [
+            "أَرْجِعَ",
+            "I go back (after an)"
+          ],
+          [
+            "إِلَى",
+            "to"
+          ],
+          [
+            "الْمَدْرَسَة",
+            "the school"
+          ],
+          [
+            "يَوْمَ",
+            "on the day of"
+          ],
+          [
+            "الْأَحَد",
+            "Sunday"
+          ],
+          [
+            "عِنْدَنَا",
+            "we have"
+          ],
+          [
+            "امْتِحَان",
+            "exam, test"
+          ],
+          [
+            "صَغِير",
+            "small"
+          ]
+        ]
+      },
+      {
+        "id": "d48l5",
+        "sp": "fatima",
+        "ar": "نَعَم، لٰكِنْ نَصِيحَتِي: لَازِم أَنْ تَرْتَاحَ الْيَوْمَ وَغَدًا. لَا تَخْرُجْ كَثِيرًا، وَنَمْ مُبَكِّرًا.",
+        "en": "Yes, but here is my advice: you must rest today and tomorrow. Don't go out much, and go to bed early.",
+        "segs": [
+          [
+            "نَعَم",
+            "yes"
+          ],
+          [
+            "لٰكِنْ",
+            "but"
+          ],
+          [
+            "نَصِيحَتِي",
+            "my advice"
+          ],
+          [
+            "لَازِم",
+            "necessary, must"
+          ],
+          [
+            "أَنْ",
+            "to, that"
+          ],
+          [
+            "تَرْتَاحَ",
+            "you rest (after an)"
+          ],
+          [
+            "الْيَوْمَ",
+            "today"
+          ],
+          [
+            "وَغَدًا",
+            "and tomorrow"
+          ],
+          [
+            "لَا",
+            "don't"
+          ],
+          [
+            "تَخْرُجْ",
+            "go out (to a man)"
+          ],
+          [
+            "كَثِيرًا",
+            "a lot, much"
+          ],
+          [
+            "وَنَمْ",
+            "and sleep! (to a man)"
+          ],
+          [
+            "مُبَكِّرًا",
+            "early"
+          ]
+        ]
+      },
+      {
+        "id": "d48l6",
+        "sp": "daniel",
+        "ar": "لَازِم أَنْ أَنَامَ مُبَكِّرًا؟ أَنَا طَالِب يَا دُكْتُورَة، وَالطُّلَّاب يَنَامُونَ مُتَأَخِّرًا!",
+        "en": "Do I have to go to bed early? I'm a student, doctor, and students go to bed late!",
+        "segs": [
+          [
+            "لَازِم",
+            "necessary, must"
+          ],
+          [
+            "أَنْ",
+            "to, that"
+          ],
+          [
+            "أَنَامَ",
+            "I sleep (after an)"
+          ],
+          [
+            "مُبَكِّرًا",
+            "early"
+          ],
+          [
+            "أَنَا",
+            "I"
+          ],
+          [
+            "طَالِب",
+            "student"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "دُكْتُورَة",
+            "doctor (a woman)"
+          ],
+          [
+            "وَالطُّلَّاب",
+            "and the students"
+          ],
+          [
+            "يَنَامُونَ",
+            "they sleep"
+          ],
+          [
+            "مُتَأَخِّرًا",
+            "late"
+          ]
+        ]
+      },
+      {
+        "id": "d48l7",
+        "sp": "fatima",
+        "ar": "أَعْرِفُ، فَابْنِي سَامِي مِثْلُكَ! لٰكِنَّ الْجِسْم يَحْتَاجُ إِلَى الرَّاحَة وَالنَّوْم لِيَتَعَافَى.",
+        "en": "I know, because my son Sami is just like you! But the body needs rest and sleep to get well.",
+        "segs": [
+          [
+            "أَعْرِفُ",
+            "I know"
+          ],
+          [
+            "فَابْنِي",
+            "since my son"
+          ],
+          [
+            "سَامِي",
+            "Sami (first name)",
+            "name"
+          ],
+          [
+            "مِثْلُكَ",
+            "like you (to a man)"
+          ],
+          [
+            "لٰكِنَّ",
+            "but"
+          ],
+          [
+            "الْجِسْم",
+            "the body"
+          ],
+          [
+            "يَحْتَاجُ",
+            "needs"
+          ],
+          [
+            "إِلَى",
+            "to (after 'need')"
+          ],
+          [
+            "الرَّاحَة",
+            "rest"
+          ],
+          [
+            "وَالنَّوْم",
+            "and sleep"
+          ],
+          [
+            "لِيَتَعَافَى",
+            "to recover (so that it recovers)"
+          ]
+        ]
+      },
+      {
+        "id": "d48l8",
+        "sp": "omar",
+        "ar": "يَا دَانْيَال! هَلْ سَتَلْعَبُ مَعَنَا كُرَةَ الْقَدَم يَوْمَ السَّبْت؟ أَنَا وَسَامِي جَاهِزَانِ!",
+        "en": "Daniel! Will you play football with us on Saturday? Sami and I are ready!",
+        "segs": [
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "دَانْيَال",
+            "Daniel (first name)",
+            "name"
+          ],
+          [
+            "هَلْ",
+            "(starts a yes/no question)"
+          ],
+          [
+            "سَتَلْعَبُ",
+            "you will play (to a man)"
+          ],
+          [
+            "مَعَنَا",
+            "with us"
+          ],
+          [
+            "كُرَةَ",
+            "ball (of)"
+          ],
+          [
+            "الْقَدَم",
+            "the foot ('football')"
+          ],
+          [
+            "يَوْمَ",
+            "on the day of"
+          ],
+          [
+            "السَّبْت",
+            "Saturday"
+          ],
+          [
+            "أَنَا",
+            "I"
+          ],
+          [
+            "وَسَامِي",
+            "and Sami (first name)",
+            "name"
+          ],
+          [
+            "جَاهِزَانِ",
+            "ready (two people)"
+          ]
+        ]
+      },
+      {
+        "id": "d48l9",
+        "sp": "fatima",
+        "ar": "يَا عُمَر، دَانْيَال لَيْسَ جَاهِزًا بَعْدُ. الصِّحَّة أَوَّلًا، وَيَجِبُ أَنْ يَرْتَاحَ.",
+        "en": "Omar, Daniel isn't ready yet. Health comes first, and he must rest.",
+        "segs": [
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "عُمَر",
+            "Omar (first name)",
+            "name"
+          ],
+          [
+            "دَانْيَال",
+            "Daniel (first name)",
+            "name"
+          ],
+          [
+            "لَيْسَ",
+            "is not"
+          ],
+          [
+            "جَاهِزًا",
+            "ready"
+          ],
+          [
+            "بَعْدُ",
+            "yet"
+          ],
+          [
+            "الصِّحَّة",
+            "health"
+          ],
+          [
+            "أَوَّلًا",
+            "first, firstly"
+          ],
+          [
+            "وَيَجِبُ",
+            "and it is necessary: 'must'"
+          ],
+          [
+            "أَنْ",
+            "to, that"
+          ],
+          [
+            "يَرْتَاحَ",
+            "he rests (after an)"
+          ]
+        ]
+      },
+      {
+        "id": "d48l10",
+        "sp": "omar",
+        "ar": "لٰكِنْ يَا أُمِّي، هُوَ أَحْسَن الْآنَ! سَنَلْعَبُ سَاعَة وَاحِدَة فَقَطْ، مِنْ فَضْلِكِ!",
+        "en": "But Mum, he is better now! We will only play for one hour, please!",
+        "segs": [
+          [
+            "لٰكِنْ",
+            "but"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "أُمِّي",
+            "my mother"
+          ],
+          [
+            "هُوَ",
+            "he"
+          ],
+          [
+            "أَحْسَن",
+            "better"
+          ],
+          [
+            "الْآنَ",
+            "now"
+          ],
+          [
+            "سَنَلْعَبُ",
+            "we will play"
+          ],
+          [
+            "سَاعَة",
+            "an hour"
+          ],
+          [
+            "وَاحِدَة",
+            "one (f)"
+          ],
+          [
+            "فَقَطْ",
+            "only, just"
+          ],
+          [
+            "مِنْ",
+            "from"
+          ],
+          [
+            "فَضْلِكِ",
+            "your kindness (to a woman): 'please'"
+          ]
+        ]
+      },
+      {
+        "id": "d48l11",
+        "sp": "fatima",
+        "ar": "طَيِّب… يَوْمَ السَّبْت يَلْعَبُ قَلِيلًا فَقَطْ، وَلَازِم أَنْ يَشْرَبَ مَاءً كَثِيرًا.",
+        "en": "All right… on Saturday he plays only a little, and he must drink plenty of water.",
+        "segs": [
+          [
+            "طَيِّب",
+            "OK, all right"
+          ],
+          [
+            "يَوْمَ",
+            "on the day of"
+          ],
+          [
+            "السَّبْت",
+            "Saturday"
+          ],
+          [
+            "يَلْعَبُ",
+            "he plays"
+          ],
+          [
+            "قَلِيلًا",
+            "a little"
+          ],
+          [
+            "فَقَطْ",
+            "only, just"
+          ],
+          [
+            "وَلَازِم",
+            "and (it is) necessary: 'must'"
+          ],
+          [
+            "أَنْ",
+            "to, that"
+          ],
+          [
+            "يَشْرَبَ",
+            "he drinks (after an)"
+          ],
+          [
+            "مَاءً",
+            "water"
+          ],
+          [
+            "كَثِيرًا",
+            "a lot, much"
+          ]
+        ]
+      },
+      {
+        "id": "d48l12",
+        "sp": "daniel",
+        "ar": "شُكْرًا يَا دُكْتُورَة! وَهَلْ يَجِبُ أَنْ آخُذَ الدَّوَاء بَعْدَ الْيَوْم أَيْضًا؟",
+        "en": "Thank you, doctor! And do I still have to take the medicine after today?",
+        "segs": [
+          [
+            "شُكْرًا",
+            "thank you"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "دُكْتُورَة",
+            "doctor (a woman)"
+          ],
+          [
+            "وَهَلْ",
+            "and (yes/no question)"
+          ],
+          [
+            "يَجِبُ",
+            "must, it is necessary"
+          ],
+          [
+            "أَنْ",
+            "to, that"
+          ],
+          [
+            "آخُذَ",
+            "I take (after an)"
+          ],
+          [
+            "الدَّوَاء",
+            "the medicine"
+          ],
+          [
+            "بَعْدَ",
+            "after"
+          ],
+          [
+            "الْيَوْم",
+            "today, the day"
+          ],
+          [
+            "أَيْضًا",
+            "also, too"
+          ]
+        ]
+      },
+      {
+        "id": "d48l13",
+        "sp": "fatima",
+        "ar": "لَا، لَيْسَ ضَرُورِيًّا. أَوْقِفِ الْحُبُوب الْيَوْمَ، لٰكِنْ خُذْ فِيتَامِين سِي أُسْبُوعًا آخَر.",
+        "en": "No, that isn't necessary. Stop the tablets today, but take vitamin C for another week.",
+        "segs": [
+          [
+            "لَا",
+            "no"
+          ],
+          [
+            "لَيْسَ",
+            "is not"
+          ],
+          [
+            "ضَرُورِيًّا",
+            "necessary"
+          ],
+          [
+            "أَوْقِفِ",
+            "stop! (to a man)"
+          ],
+          [
+            "الْحُبُوب",
+            "the tablets"
+          ],
+          [
+            "الْيَوْمَ",
+            "today"
+          ],
+          [
+            "لٰكِنْ",
+            "but"
+          ],
+          [
+            "خُذْ",
+            "take! (to a man)"
+          ],
+          [
+            "فِيتَامِين",
+            "vitamin"
+          ],
+          [
+            "سِي",
+            "C (the letter)"
+          ],
+          [
+            "أُسْبُوعًا",
+            "a week"
+          ],
+          [
+            "آخَر",
+            "another, other (m)"
+          ]
+        ]
+      },
+      {
+        "id": "d48l14",
+        "sp": "daniel",
+        "ar": "حَاضِر. سَأَرْتَاحُ الْيَوْمَ وَغَدًا، وَيَوْمَ السَّبْت نَلْتَقِي فِي الْمَلْعَب يَا عُمَر!",
+        "en": "Will do. I'll rest today and tomorrow, and on Saturday we'll meet at the pitch, Omar!",
+        "segs": [
+          [
+            "حَاضِر",
+            "will do, right away (lit. present)"
+          ],
+          [
+            "سَأَرْتَاحُ",
+            "I will rest"
+          ],
+          [
+            "الْيَوْمَ",
+            "today"
+          ],
+          [
+            "وَغَدًا",
+            "and tomorrow"
+          ],
+          [
+            "وَيَوْمَ",
+            "and on the day of"
+          ],
+          [
+            "السَّبْت",
+            "Saturday"
+          ],
+          [
+            "نَلْتَقِي",
+            "we meet"
+          ],
+          [
+            "فِي",
+            "in, at"
+          ],
+          [
+            "الْمَلْعَب",
+            "the pitch, the sports ground"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "عُمَر",
+            "Omar (first name)",
+            "name"
+          ]
+        ]
+      },
+      {
+        "id": "d48l15",
+        "sp": "omar",
+        "ar": "يَا سَلَام! لَازِم أَنْ أُخْبِرَ سَامِي الْآنَ. إِلَى اللِّقَاء يَوْمَ السَّبْت!",
+        "en": "Wonderful! I must tell Sami right now. See you on Saturday!",
+        "segs": [
+          [
+            "يَا",
+            "O (calling out)"
+          ],
+          [
+            "سَلَام",
+            "peace ('yā salām': wonderful!)"
+          ],
+          [
+            "لَازِم",
+            "necessary, must"
+          ],
+          [
+            "أَنْ",
+            "to, that"
+          ],
+          [
+            "أُخْبِرَ",
+            "I tell (after an)"
+          ],
+          [
+            "سَامِي",
+            "Sami (first name)",
+            "name"
+          ],
+          [
+            "الْآنَ",
+            "now"
+          ],
+          [
+            "إِلَى",
+            "until"
+          ],
+          [
+            "اللِّقَاء",
+            "the meeting ('see you')"
+          ],
+          [
+            "يَوْمَ",
+            "on the day of"
+          ],
+          [
+            "السَّبْت",
+            "Saturday"
+          ]
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "title": "The doctor's advice",
+    "ar": "دَانْيَال أَحْسَن الْآنَ، لٰكِنْ لَازِم أَنْ يَرْتَاحَ الْيَوْمَ وَغَدًا. يَجِبُ أَنْ يَنَامَ مُبَكِّرًا، وَأَنْ يَشْرَبَ مَاءً كَثِيرًا. يَوْمَ السَّبْت يَلْعَبُ كُرَةَ الْقَدَم مَعَ عُمَر وَسَامِي، وَيَوْمَ الْأَحَد يَرْجِعُ إِلَى الْمَدْرَسَة.",
+    "en": "Daniel is better now, but he must rest today and tomorrow. He must go to bed early and drink plenty of water. On Saturday he plays football with Omar and Sami, and on Sunday he goes back to school.",
+    "segs": [
+      [
+        "دَانْيَال",
+        "Daniel (first name)",
+        "name"
+      ],
+      [
+        "أَحْسَن",
+        "better"
+      ],
+      [
+        "الْآنَ",
+        "now"
+      ],
+      [
+        "لٰكِنْ",
+        "but"
+      ],
+      [
+        "لَازِم",
+        "necessary, must"
+      ],
+      [
+        "أَنْ",
+        "to, that"
+      ],
+      [
+        "يَرْتَاحَ",
+        "he rests (after an)"
+      ],
+      [
+        "الْيَوْمَ",
+        "today"
+      ],
+      [
+        "وَغَدًا",
+        "and tomorrow"
+      ],
+      [
+        "يَجِبُ",
+        "must, it is necessary"
+      ],
+      [
+        "أَنْ",
+        "to, that"
+      ],
+      [
+        "يَنَامَ",
+        "he sleeps (after an)"
+      ],
+      [
+        "مُبَكِّرًا",
+        "early"
+      ],
+      [
+        "وَأَنْ",
+        "and to"
+      ],
+      [
+        "يَشْرَبَ",
+        "he drinks (after an)"
+      ],
+      [
+        "مَاءً",
+        "water"
+      ],
+      [
+        "كَثِيرًا",
+        "a lot, much"
+      ],
+      [
+        "يَوْمَ",
+        "on the day of"
+      ],
+      [
+        "السَّبْت",
+        "Saturday"
+      ],
+      [
+        "يَلْعَبُ",
+        "he plays"
+      ],
+      [
+        "كُرَةَ",
+        "ball (of)"
+      ],
+      [
+        "الْقَدَم",
+        "the foot ('football')"
+      ],
+      [
+        "مَعَ",
+        "with"
+      ],
+      [
+        "عُمَر",
+        "Omar (first name)",
+        "name"
+      ],
+      [
+        "وَسَامِي",
+        "and Sami (first name)",
+        "name"
+      ],
+      [
+        "وَيَوْمَ",
+        "and on the day of"
+      ],
+      [
+        "الْأَحَد",
+        "Sunday"
+      ],
+      [
+        "يَرْجِعُ",
+        "he goes back"
+      ],
+      [
+        "إِلَى",
+        "to"
+      ],
+      [
+        "الْمَدْرَسَة",
+        "the school"
+      ]
+    ]
+  },
+  "review": [
+    "mutab",
+    "yashrabu",
+    "yakhudhu",
+    "dawa",
+    "yashuru",
+    "mubakkiran"
+  ],
+  "quiz": [
+    {
+      "id": "d48q1",
+      "prompt": "What does this mean?",
+      "ar": "لَازِم أَنْ تَرْتَاحَ.",
+      "options": [
+        "You can rest.",
+        "You must rest.",
+        "Don't rest!",
+        "You rested."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "d48q2",
+      "prompt": "Fill the gap: 'I must go to bed early.'",
+      "ar": "يَجِبُ … أَنَامَ مُبَكِّرًا.",
+      "options": [
+        "لَا",
+        "فِي",
+        "مِنْ",
+        "أَنْ"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "d48q3",
+      "prompt": "What is Daniel's temperature now?",
+      "options": [
+        "37 degrees",
+        "38.5 degrees",
+        "39 degrees",
+        "36 degrees"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "d48q4",
+      "prompt": "When will Daniel go back to school?",
+      "options": [
+        "tomorrow",
+        "on Saturday",
+        "on Sunday",
+        "next week"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "d48q5",
+      "prompt": "Which word means 'health'?",
+      "options": [
+        "رَاحَة",
+        "صِحَّة",
+        "نَصِيحَة",
+        "حَرَارَة"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "d48q6",
+      "prompt": "What does Omar want?",
+      "options": [
+        "to go to the doctor",
+        "to sleep early",
+        "to take medicine",
+        "to play football with Daniel"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "d48q7",
+      "prompt": "Which word has the breathy throat sound ḥ (ح), not h (ه)?",
+      "options": [
+        "رَاحَة",
+        "هُنَا",
+        "هٰذَا",
+        "هِيَ"
+      ],
+      "answer": 0
+    }
+  ],
+  "completion": "Well done! You can give advice with لَازِم and يَجِبُ, and say when something is not necessary. Next time: Saturday football!",
+  "status": "needs-review"
+}

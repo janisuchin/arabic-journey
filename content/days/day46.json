@@ -1,0 +1,1261 @@
+{
+  "day": 46,
+  "week": 7,
+  "phase": 4,
+  "level": 5,
+  "title": "How do you feel?",
+  "titleAr": "كَيْفَ تَشْعُرُ؟",
+  "titleSegs": [
+    [
+      "كَيْفَ",
+      "how"
+    ],
+    [
+      "تَشْعُرُ",
+      "you feel (to a man)"
+    ]
+  ],
+  "emoji": "🙂",
+  "summary": "Say how you feel: tired, happy, sad, worried, angry, hungry or thirsty, with the right form for a man or a woman.",
+  "intro": "Layla and Sami visit Daniel at his flat with a pot of soup. Feelings are adjectives, so they agree with the person: أَنَا مُتْعَب (a man) but أَنَا مُتْعَبَة (a woman). Adjectives on the pattern faʿlān, like عَطْشَان (thirsty) and غَضْبَان (angry), make their feminine with -ā: عَطْشَى, غَضْبَى. To ask how someone feels, say كَيْفَ تَشْعُرُ؟ to a man and كَيْفَ تَشْعُرِينَ؟ to a woman.",
+  "objectives": [
+    "Name seven feelings: tired, happy, sad, worried, angry, hungry, thirsty",
+    "Use the masculine and feminine forms correctly",
+    "Ask كَيْفَ تَشْعُرُ؟ and كَيْفَ تَشْعُرِينَ؟ and answer them",
+    "Say 'I feel bored' and 'I feel better'"
+  ],
+  "realLife": {
+    "emoji": "🍲",
+    "title": "Soup for the patient",
+    "story": "On Wednesday afternoon Layla and Sami knock on Daniel's door with hot lentil soup. Daniel is bored and a little sad after three days at home. His mother in Chicago is worried too, but the visit makes everyone happy, even hungry Sami."
+  },
+  "letters": [],
+  "newWords": [
+    "mutab",
+    "saeed",
+    "hazin",
+    "qaliq",
+    "ghadban",
+    "malal",
+    "yashuru",
+    "ahsan"
+  ],
+  "grammar": [
+    "feelings-adjectives"
+  ],
+  "pronunciation": [
+    "ghayn"
+  ],
+  "sentences": [
+    {
+      "id": "d46s1",
+      "ar": "أَنَا مُتْعَب الْيَوْمَ.",
+      "en": "I am tired today. (a man)",
+      "literal": "I (am) tired today",
+      "segs": [
+        [
+          "أَنَا",
+          "I",
+          "pronoun"
+        ],
+        [
+          "مُتْعَب",
+          "tired",
+          "adj"
+        ],
+        [
+          "الْيَوْمَ",
+          "today",
+          "adverb"
+        ]
+      ],
+      "grammar": [
+        "feelings-adjectives",
+        "nominal-sentence"
+      ]
+    },
+    {
+      "id": "d46s2",
+      "ar": "لَيْلَى قَلِقَة عَلَى دَانْيَال.",
+      "en": "Layla is worried about Daniel.",
+      "literal": "Layla (is) worried about Daniel",
+      "segs": [
+        [
+          "لَيْلَى",
+          "Layla (first name)",
+          "name"
+        ],
+        [
+          "قَلِقَة",
+          "worried (f)",
+          "adj"
+        ],
+        [
+          "عَلَى",
+          "about (lit. on)",
+          "prep"
+        ],
+        [
+          "دَانْيَال",
+          "Daniel (first name)",
+          "name"
+        ]
+      ],
+      "grammar": [
+        "feelings-adjectives"
+      ],
+      "mistakes": [
+        {
+          "wrong": "لَيْلَى قَلِق",
+          "right": "لَيْلَى قَلِقَة",
+          "why": "Layla is a woman, so the adjective takes ة: qaliqa."
+        }
+      ]
+    },
+    {
+      "id": "d46s3",
+      "ar": "هَلْ أَنْتِ عَطْشَى يَا لَيْلَى؟",
+      "en": "Are you thirsty, Layla?",
+      "literal": "(are) you thirsty, O Layla",
+      "segs": [
+        [
+          "هَلْ",
+          "(starts a yes/no question)",
+          "particle"
+        ],
+        [
+          "أَنْتِ",
+          "you (to a woman)",
+          "pronoun"
+        ],
+        [
+          "عَطْشَى",
+          "thirsty (f)",
+          "adj"
+        ],
+        [
+          "يَا",
+          "O (calling someone)",
+          "particle"
+        ],
+        [
+          "لَيْلَى",
+          "Layla (first name)",
+          "name"
+        ]
+      ],
+      "grammar": [
+        "feelings-adjectives",
+        "questions"
+      ],
+      "mistakes": [
+        {
+          "wrong": "هَلْ أَنْتِ عَطْشَانَة؟",
+          "right": "هَلْ أَنْتِ عَطْشَى؟",
+          "why": "In standard Arabic the feminine of ʿaṭshān is ʿaṭshā, like ghaḍbān → ghaḍbā. ʿaṭshāna is heard in everyday speech."
+        }
+      ]
+    },
+    {
+      "id": "d46s4",
+      "ar": "كَيْفَ تَشْعُرِينَ الْيَوْمَ؟",
+      "en": "How do you feel today? (to a woman)",
+      "literal": "how (do) you feel today",
+      "segs": [
+        [
+          "كَيْفَ",
+          "how",
+          "question"
+        ],
+        [
+          "تَشْعُرِينَ",
+          "you feel (to a woman)",
+          "verb"
+        ],
+        [
+          "الْيَوْمَ",
+          "today",
+          "adverb"
+        ]
+      ],
+      "grammar": [
+        "questions"
+      ]
+    },
+    {
+      "id": "d46s5",
+      "ar": "أَشْعُرُ بِالْمَلَل فِي الْبَيْت.",
+      "en": "I feel bored at home.",
+      "literal": "I feel with the boredom in the house",
+      "segs": [
+        [
+          "أَشْعُرُ",
+          "I feel",
+          "verb"
+        ],
+        [
+          "بِالْمَلَل",
+          "with the boredom: 'bored'",
+          "noun"
+        ],
+        [
+          "فِي",
+          "in, at",
+          "prep"
+        ],
+        [
+          "الْبَيْت",
+          "the house, home",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "feelings-adjectives"
+      ]
+    },
+    {
+      "id": "d46s6",
+      "ar": "سَامِي جَائِع، وَدَانْيَال عَطْشَان.",
+      "en": "Sami is hungry, and Daniel is thirsty.",
+      "literal": "Sami (is) hungry, and Daniel (is) thirsty",
+      "segs": [
+        [
+          "سَامِي",
+          "Sami (first name)",
+          "name"
+        ],
+        [
+          "جَائِع",
+          "hungry",
+          "adj"
+        ],
+        [
+          "وَدَانْيَال",
+          "and Daniel (first name)",
+          "name"
+        ],
+        [
+          "عَطْشَان",
+          "thirsty",
+          "adj"
+        ]
+      ],
+      "grammar": [
+        "feelings-adjectives",
+        "nominal-sentence"
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "A visit with soup",
+    "speakers": [
+      {
+        "key": "layla",
+        "name": "Layla",
+        "nameAr": "لَيْلَى"
+      },
+      {
+        "key": "daniel",
+        "name": "Daniel",
+        "nameAr": "دَانْيَال"
+      },
+      {
+        "key": "sami",
+        "name": "Sami",
+        "nameAr": "سَامِي"
+      }
+    ],
+    "culture": "Visiting a friend who is ill is an important custom in the Arab world. Visitors bring soup, fruit or sweets, say سَلَامَتُكَ or سَلَامَتُكِ, and keep the visit short so the patient can rest.",
+    "lines": [
+      {
+        "id": "d46l1",
+        "sp": "layla",
+        "ar": "مَرْحَبًا يَا دَانْيَال! أَحْضَرْنَا لَكَ شُورْبَةَ عَدَس سَاخِنَة. كَيْفَ تَشْعُرُ الْيَوْمَ؟",
+        "en": "Hello, Daniel! We have brought you some hot lentil soup. How do you feel today?",
+        "segs": [
+          [
+            "مَرْحَبًا",
+            "hello"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "دَانْيَال",
+            "Daniel (first name)",
+            "name"
+          ],
+          [
+            "أَحْضَرْنَا",
+            "we brought"
+          ],
+          [
+            "لَكَ",
+            "for you (to a man)"
+          ],
+          [
+            "شُورْبَةَ",
+            "soup (of)"
+          ],
+          [
+            "عَدَس",
+            "lentils"
+          ],
+          [
+            "سَاخِنَة",
+            "hot (f)"
+          ],
+          [
+            "كَيْفَ",
+            "how"
+          ],
+          [
+            "تَشْعُرُ",
+            "you feel (to a man)"
+          ],
+          [
+            "الْيَوْمَ",
+            "today"
+          ]
+        ]
+      },
+      {
+        "id": "d46l2",
+        "sp": "daniel",
+        "ar": "أَهْلًا بِكُمَا! أَنَا أَحْسَن قَلِيلًا مِنْ أَمْسِ، لٰكِنِّي مَا زِلْتُ مُتْعَبًا.",
+        "en": "Welcome, both of you! I am a little better than yesterday, but I am still tired.",
+        "segs": [
+          [
+            "أَهْلًا",
+            "welcome"
+          ],
+          [
+            "بِكُمَا",
+            "with you (two people)"
+          ],
+          [
+            "أَنَا",
+            "I"
+          ],
+          [
+            "أَحْسَن",
+            "better"
+          ],
+          [
+            "قَلِيلًا",
+            "a little"
+          ],
+          [
+            "مِنْ",
+            "than, from"
+          ],
+          [
+            "أَمْسِ",
+            "yesterday"
+          ],
+          [
+            "لٰكِنِّي",
+            "but I"
+          ],
+          [
+            "مَا",
+            "not"
+          ],
+          [
+            "زِلْتُ",
+            "I ceased ('mā ziltu': I am still)"
+          ],
+          [
+            "مُتْعَبًا",
+            "tired"
+          ]
+        ]
+      },
+      {
+        "id": "d46l3",
+        "sp": "sami",
+        "ar": "وَوَجْهُكَ حَزِين يَا صَدِيقِي. هَلْ أَنْتَ حَزِين، أَمْ مُتْعَب فَقَطْ؟",
+        "en": "And your face looks sad, my friend. Are you sad, or are you just tired?",
+        "segs": [
+          [
+            "وَوَجْهُكَ",
+            "and your face (to a man)"
+          ],
+          [
+            "حَزِين",
+            "sad"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "صَدِيقِي",
+            "my friend"
+          ],
+          [
+            "هَلْ",
+            "(starts a yes/no question)"
+          ],
+          [
+            "أَنْتَ",
+            "you (to a man)"
+          ],
+          [
+            "حَزِين",
+            "sad"
+          ],
+          [
+            "أَمْ",
+            "or (in a question)"
+          ],
+          [
+            "مُتْعَب",
+            "tired"
+          ],
+          [
+            "فَقَطْ",
+            "only, just"
+          ]
+        ]
+      },
+      {
+        "id": "d46l4",
+        "sp": "daniel",
+        "ar": "أَنَا حَزِين قَلِيلًا لِأَنِّي لَا أَذْهَبُ إِلَى الْمَدْرَسَة، وَأَشْعُرُ بِالْمَلَل فِي الْبَيْت.",
+        "en": "I am a bit sad because I am not going to school, and I feel bored at home.",
+        "segs": [
+          [
+            "أَنَا",
+            "I"
+          ],
+          [
+            "حَزِين",
+            "sad"
+          ],
+          [
+            "قَلِيلًا",
+            "a little"
+          ],
+          [
+            "لِأَنِّي",
+            "because I"
+          ],
+          [
+            "لَا",
+            "not"
+          ],
+          [
+            "أَذْهَبُ",
+            "I go"
+          ],
+          [
+            "إِلَى",
+            "to"
+          ],
+          [
+            "الْمَدْرَسَة",
+            "the school"
+          ],
+          [
+            "وَأَشْعُرُ",
+            "and I feel"
+          ],
+          [
+            "بِالْمَلَل",
+            "with the boredom: 'bored'"
+          ],
+          [
+            "فِي",
+            "in, at"
+          ],
+          [
+            "الْبَيْت",
+            "the house, home"
+          ]
+        ]
+      },
+      {
+        "id": "d46l5",
+        "sp": "layla",
+        "ar": "وَأَنَا كُنْتُ قَلِقَة عَلَيْكَ أَمْسِ، لِأَنَّكَ لَمْ تَرُدَّ عَلَى الْهَاتِف.",
+        "en": "And I was worried about you yesterday, because you didn't answer the phone.",
+        "segs": [
+          [
+            "وَأَنَا",
+            "and I"
+          ],
+          [
+            "كُنْتُ",
+            "I was"
+          ],
+          [
+            "قَلِقَة",
+            "worried (f)"
+          ],
+          [
+            "عَلَيْكَ",
+            "about you (to a man)"
+          ],
+          [
+            "أَمْسِ",
+            "yesterday"
+          ],
+          [
+            "لِأَنَّكَ",
+            "because you (to a man)"
+          ],
+          [
+            "لَمْ",
+            "did not"
+          ],
+          [
+            "تَرُدَّ",
+            "you answer (to a man)"
+          ],
+          [
+            "عَلَى",
+            "on (after 'answer')"
+          ],
+          [
+            "الْهَاتِف",
+            "the phone"
+          ]
+        ]
+      },
+      {
+        "id": "d46l6",
+        "sp": "daniel",
+        "ar": "آسِف يَا لَيْلَى! كُنْتُ نَائِمًا طُولَ النَّهَار. وَأُمِّي فِي شِيكَاغُو قَلِقَة جِدًّا أَيْضًا.",
+        "en": "Sorry, Layla! I was asleep all day. And my mother in Chicago is very worried too.",
+        "segs": [
+          [
+            "آسِف",
+            "sorry (said by a man)"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "لَيْلَى",
+            "Layla (first name)",
+            "name"
+          ],
+          [
+            "كُنْتُ",
+            "I was"
+          ],
+          [
+            "نَائِمًا",
+            "asleep"
+          ],
+          [
+            "طُولَ",
+            "the whole length of"
+          ],
+          [
+            "النَّهَار",
+            "the day (daytime)"
+          ],
+          [
+            "وَأُمِّي",
+            "and my mother"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "شِيكَاغُو",
+            "Chicago (city in the USA)",
+            "name"
+          ],
+          [
+            "قَلِقَة",
+            "worried (f)"
+          ],
+          [
+            "جِدًّا",
+            "very"
+          ],
+          [
+            "أَيْضًا",
+            "also, too"
+          ]
+        ]
+      },
+      {
+        "id": "d46l7",
+        "sp": "sami",
+        "ar": "طَبْعًا هِيَ قَلِقَة، فَأَنْتَ بَعِيد عَنْ عَائِلَتِكَ. هَلْ تَكَلَّمْتَ مَعَهَا؟",
+        "en": "Of course she is worried; you are far from your family. Have you spoken to her?",
+        "segs": [
+          [
+            "طَبْعًا",
+            "of course"
+          ],
+          [
+            "هِيَ",
+            "she"
+          ],
+          [
+            "قَلِقَة",
+            "worried (f)"
+          ],
+          [
+            "فَأَنْتَ",
+            "since you (to a man)"
+          ],
+          [
+            "بَعِيد",
+            "far"
+          ],
+          [
+            "عَنْ",
+            "from"
+          ],
+          [
+            "عَائِلَتِكَ",
+            "your family (to a man)"
+          ],
+          [
+            "هَلْ",
+            "(starts a yes/no question)"
+          ],
+          [
+            "تَكَلَّمْتَ",
+            "you spoke (to a man)"
+          ],
+          [
+            "مَعَهَا",
+            "with her"
+          ]
+        ]
+      },
+      {
+        "id": "d46l8",
+        "sp": "daniel",
+        "ar": "نَعَم، تَكَلَّمْنَا بِالْفِيدْيُو، وَالْآنَ هِيَ سَعِيدَة لِأَنَّ أُمَّكَ طَبِيبَة يَا سَامِي.",
+        "en": "Yes, we talked on a video call, and now she is happy because your mother is a doctor, Sami.",
+        "segs": [
+          [
+            "نَعَم",
+            "yes"
+          ],
+          [
+            "تَكَلَّمْنَا",
+            "we spoke"
+          ],
+          [
+            "بِالْفِيدْيُو",
+            "by video"
+          ],
+          [
+            "وَالْآنَ",
+            "and now"
+          ],
+          [
+            "هِيَ",
+            "she"
+          ],
+          [
+            "سَعِيدَة",
+            "happy (f)"
+          ],
+          [
+            "لِأَنَّ",
+            "because"
+          ],
+          [
+            "أُمَّكَ",
+            "your mother (to a man)"
+          ],
+          [
+            "طَبِيبَة",
+            "a doctor (a woman)"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "سَامِي",
+            "Sami (first name)",
+            "name"
+          ]
+        ]
+      },
+      {
+        "id": "d46l9",
+        "sp": "sami",
+        "ar": "يَا لَيْلَى، أَنَا جَائِع جِدًّا! هَلْ أَسْتَطِيعُ أَنْ آكُلَ قَلِيلًا مِنَ الشُّورْبَة؟",
+        "en": "Layla, I am really hungry! Can I eat a little of the soup?",
+        "segs": [
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "لَيْلَى",
+            "Layla (first name)",
+            "name"
+          ],
+          [
+            "أَنَا",
+            "I"
+          ],
+          [
+            "جَائِع",
+            "hungry"
+          ],
+          [
+            "جِدًّا",
+            "very"
+          ],
+          [
+            "هَلْ",
+            "(starts a yes/no question)"
+          ],
+          [
+            "أَسْتَطِيعُ",
+            "I can"
+          ],
+          [
+            "أَنْ",
+            "to, that"
+          ],
+          [
+            "آكُلَ",
+            "I eat (after an)"
+          ],
+          [
+            "قَلِيلًا",
+            "a little"
+          ],
+          [
+            "مِنَ",
+            "from, of"
+          ],
+          [
+            "الشُّورْبَة",
+            "the soup"
+          ]
+        ]
+      },
+      {
+        "id": "d46l10",
+        "sp": "layla",
+        "ar": "لَا يَا سَامِي! الشُّورْبَة لِدَانْيَال لِأَنَّهُ مَرِيض، وَأَنْتَ دَائِمًا جَائِع!",
+        "en": "No, Sami! The soup is for Daniel because he is ill, and you are always hungry!",
+        "segs": [
+          [
+            "لَا",
+            "no"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "سَامِي",
+            "Sami (first name)",
+            "name"
+          ],
+          [
+            "الشُّورْبَة",
+            "the soup"
+          ],
+          [
+            "لِدَانْيَال",
+            "for Daniel (first name)",
+            "name"
+          ],
+          [
+            "لِأَنَّهُ",
+            "because he"
+          ],
+          [
+            "مَرِيض",
+            "ill, sick"
+          ],
+          [
+            "وَأَنْتَ",
+            "and you (to a man)"
+          ],
+          [
+            "دَائِمًا",
+            "always"
+          ],
+          [
+            "جَائِع",
+            "hungry"
+          ]
+        ]
+      },
+      {
+        "id": "d46l11",
+        "sp": "daniel",
+        "ar": "لَا تَغْضَبِي يَا لَيْلَى، الشُّورْبَة كَثِيرَة. تَفَضَّلْ يَا سَامِي، خُذْ صَحْنًا!",
+        "en": "Don't be angry, Layla, there is plenty of soup. Here you are, Sami, take a bowl!",
+        "segs": [
+          [
+            "لَا",
+            "don't"
+          ],
+          [
+            "تَغْضَبِي",
+            "get angry (to a woman)"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "لَيْلَى",
+            "Layla (first name)",
+            "name"
+          ],
+          [
+            "الشُّورْبَة",
+            "the soup"
+          ],
+          [
+            "كَثِيرَة",
+            "a lot, plenty (f)"
+          ],
+          [
+            "تَفَضَّلْ",
+            "here you are (to a man)"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "سَامِي",
+            "Sami (first name)",
+            "name"
+          ],
+          [
+            "خُذْ",
+            "take! (to a man)"
+          ],
+          [
+            "صَحْنًا",
+            "a bowl, a plate"
+          ]
+        ]
+      },
+      {
+        "id": "d46l12",
+        "sp": "layla",
+        "ar": "أَنَا لَسْتُ غَضْبَى، أُرِيدُ فَقَطْ أَنْ تَأْكُلَ أَنْتَ أَوَّلًا. هَلْ أَنْتَ عَطْشَان؟",
+        "en": "I'm not angry; I just want you to eat first. Are you thirsty?",
+        "segs": [
+          [
+            "أَنَا",
+            "I"
+          ],
+          [
+            "لَسْتُ",
+            "I am not"
+          ],
+          [
+            "غَضْبَى",
+            "angry (f)"
+          ],
+          [
+            "أُرِيدُ",
+            "I want"
+          ],
+          [
+            "فَقَطْ",
+            "only, just"
+          ],
+          [
+            "أَنْ",
+            "to, that"
+          ],
+          [
+            "تَأْكُلَ",
+            "you eat (after an)"
+          ],
+          [
+            "أَنْتَ",
+            "you (to a man)"
+          ],
+          [
+            "أَوَّلًا",
+            "first, firstly"
+          ],
+          [
+            "هَلْ",
+            "(starts a yes/no question)"
+          ],
+          [
+            "أَنْتَ",
+            "you (to a man)"
+          ],
+          [
+            "عَطْشَان",
+            "thirsty"
+          ]
+        ]
+      },
+      {
+        "id": "d46l13",
+        "sp": "daniel",
+        "ar": "نَعَم، أَنَا عَطْشَان. الْحَرَارَة تَجْعَلُنِي عَطْشَانَ طُولَ الْوَقْت.",
+        "en": "Yes, I am thirsty. The fever makes me thirsty all the time.",
+        "segs": [
+          [
+            "نَعَم",
+            "yes"
+          ],
+          [
+            "أَنَا",
+            "I"
+          ],
+          [
+            "عَطْشَان",
+            "thirsty"
+          ],
+          [
+            "الْحَرَارَة",
+            "the fever, the temperature"
+          ],
+          [
+            "تَجْعَلُنِي",
+            "makes me"
+          ],
+          [
+            "عَطْشَانَ",
+            "thirsty"
+          ],
+          [
+            "طُولَ",
+            "the whole length of"
+          ],
+          [
+            "الْوَقْت",
+            "the time"
+          ]
+        ]
+      },
+      {
+        "id": "d46l14",
+        "sp": "layla",
+        "ar": "تَفَضَّلْ، هٰذَا مَاء. اِشْرَبْ كَثِيرًا، وَبَعْدَ الشُّورْبَة نَمْ قَلِيلًا.",
+        "en": "Here you are, this is water. Drink a lot, and after the soup sleep for a while.",
+        "segs": [
+          [
+            "تَفَضَّلْ",
+            "here you are (to a man)"
+          ],
+          [
+            "هٰذَا",
+            "this (m)"
+          ],
+          [
+            "مَاء",
+            "water"
+          ],
+          [
+            "اِشْرَبْ",
+            "drink! (to a man)"
+          ],
+          [
+            "كَثِيرًا",
+            "a lot, much"
+          ],
+          [
+            "وَبَعْدَ",
+            "and after"
+          ],
+          [
+            "الشُّورْبَة",
+            "the soup"
+          ],
+          [
+            "نَمْ",
+            "sleep! (to a man)"
+          ],
+          [
+            "قَلِيلًا",
+            "a little"
+          ]
+        ]
+      },
+      {
+        "id": "d46l15",
+        "sp": "daniel",
+        "ar": "شُكْرًا لَكُمَا! أَنَا سَعِيد جِدًّا لِأَنَّكُمَا هُنَا. أَشْعُرُ أَنَّنِي أَحْسَن الْآنَ!",
+        "en": "Thank you both! I am very happy that you are here. I feel better now!",
+        "segs": [
+          [
+            "شُكْرًا",
+            "thank you"
+          ],
+          [
+            "لَكُمَا",
+            "to you (two people)"
+          ],
+          [
+            "أَنَا",
+            "I"
+          ],
+          [
+            "سَعِيد",
+            "happy"
+          ],
+          [
+            "جِدًّا",
+            "very"
+          ],
+          [
+            "لِأَنَّكُمَا",
+            "because you (two people)"
+          ],
+          [
+            "هُنَا",
+            "here"
+          ],
+          [
+            "أَشْعُرُ",
+            "I feel"
+          ],
+          [
+            "أَنَّنِي",
+            "that I"
+          ],
+          [
+            "أَحْسَن",
+            "better"
+          ],
+          [
+            "الْآنَ",
+            "now"
+          ]
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "title": "Three friends",
+    "ar": "دَانْيَال مَرِيض فِي الْبَيْت. هُوَ أَحْسَن قَلِيلًا، لٰكِنَّهُ مُتْعَب وَيَشْعُرُ بِالْمَلَل. زَارَتْهُ لَيْلَى وَسَامِي مَعَ شُورْبَة سَاخِنَة. كَانَ سَامِي جَائِعًا، وَكَانَتْ لَيْلَى قَلِقَة. فِي النِّهَايَة، الْأَصْدِقَاء الثَّلَاثَة سُعَدَاء.",
+    "en": "Daniel is ill at home. He is a little better, but he is tired and feels bored. Layla and Sami visited him with hot soup. Sami was hungry, and Layla was worried. In the end, the three friends are happy.",
+    "segs": [
+      [
+        "دَانْيَال",
+        "Daniel (first name)",
+        "name"
+      ],
+      [
+        "مَرِيض",
+        "ill, sick"
+      ],
+      [
+        "فِي",
+        "in, at"
+      ],
+      [
+        "الْبَيْت",
+        "the house, home"
+      ],
+      [
+        "هُوَ",
+        "he"
+      ],
+      [
+        "أَحْسَن",
+        "better"
+      ],
+      [
+        "قَلِيلًا",
+        "a little"
+      ],
+      [
+        "لٰكِنَّهُ",
+        "but he"
+      ],
+      [
+        "مُتْعَب",
+        "tired"
+      ],
+      [
+        "وَيَشْعُرُ",
+        "and he feels"
+      ],
+      [
+        "بِالْمَلَل",
+        "with the boredom: 'bored'"
+      ],
+      [
+        "زَارَتْهُ",
+        "(she) visited him"
+      ],
+      [
+        "لَيْلَى",
+        "Layla (first name)",
+        "name"
+      ],
+      [
+        "وَسَامِي",
+        "and Sami (first name)",
+        "name"
+      ],
+      [
+        "مَعَ",
+        "with"
+      ],
+      [
+        "شُورْبَة",
+        "soup"
+      ],
+      [
+        "سَاخِنَة",
+        "hot (f)"
+      ],
+      [
+        "كَانَ",
+        "(he) was"
+      ],
+      [
+        "سَامِي",
+        "Sami (first name)",
+        "name"
+      ],
+      [
+        "جَائِعًا",
+        "hungry"
+      ],
+      [
+        "وَكَانَتْ",
+        "and (she) was"
+      ],
+      [
+        "لَيْلَى",
+        "Layla (first name)",
+        "name"
+      ],
+      [
+        "قَلِقَة",
+        "worried (f)"
+      ],
+      [
+        "فِي",
+        "in"
+      ],
+      [
+        "النِّهَايَة",
+        "the end"
+      ],
+      [
+        "الْأَصْدِقَاء",
+        "the friends"
+      ],
+      [
+        "الثَّلَاثَة",
+        "the three"
+      ],
+      [
+        "سُعَدَاء",
+        "happy (plural)"
+      ]
+    ]
+  },
+  "review": [
+    "marid",
+    "yuridu",
+    "an",
+    "harara",
+    "yatanaffasu",
+    "jaai",
+    "atshan"
+  ],
+  "quiz": [
+    {
+      "id": "d46q1",
+      "prompt": "What does this mean?",
+      "ar": "حَزِين",
+      "options": [
+        "happy",
+        "sad",
+        "angry",
+        "hungry"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "d46q2",
+      "prompt": "Layla is worried. Choose the right word.",
+      "ar": "لَيْلَى …",
+      "options": [
+        "قَلِق",
+        "قَلِقَة",
+        "سَعِيد",
+        "جَائِع"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "d46q3",
+      "prompt": "Why is Daniel a little sad?",
+      "options": [
+        "He is not going to school",
+        "His mother is angry",
+        "He lost his phone",
+        "The soup is cold"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "d46q4",
+      "prompt": "Who is hungry in the dialogue?",
+      "options": [
+        "Layla",
+        "Daniel",
+        "Daniel's mother",
+        "Sami"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "d46q5",
+      "prompt": "What is the feminine of غَضْبَان (angry) in standard Arabic?",
+      "options": [
+        "غَضْبَانَة",
+        "غَضْبَى",
+        "حَزِينَة",
+        "سَعِيدَة"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "d46q6",
+      "prompt": "How do you ask a woman 'How do you feel?'",
+      "options": [
+        "كَيْفَ تَشْعُرُ؟",
+        "مَنْ أَنْتِ؟",
+        "كَيْفَ تَشْعُرِينَ؟",
+        "أَيْنَ أَنْتِ؟"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "d46q7",
+      "prompt": "Which word begins with ghayn (غ)?",
+      "options": [
+        "عَطْشَان",
+        "حَزِين",
+        "قَلِق",
+        "غَضْبَان"
+      ],
+      "answer": 3
+    }
+  ],
+  "completion": "Well done! You can say how you feel and ask others how they feel, with the right form for a man or a woman.",
+  "status": "needs-review"
+}
