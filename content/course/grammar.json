@@ -78,5 +78,426 @@
     "table": { "head": ["Digit", "Arabic", "English"], "rows": [
       ["١", "وَاحِد", "one"], ["٢", "اِثْنَان", "two"], ["٣", "ثَلَاثَة", "three"], ["٤", "أَرْبَعَة", "four"], ["٥", "خَمْسَة", "five"],
       ["٦", "سِتَّة", "six"], ["٧", "سَبْعَة", "seven"], ["٨", "ثَمَانِيَة", "eight"], ["٩", "تِسْعَة", "nine"], ["١٠", "عَشَرَة", "ten"] ] },
-    "examples": [ { "ar": "رَقْمِي خَمْسَة سَبْعَة ثَلَاثَة.", "en": "My number is five seven three." }, { "ar": "عِنْدِي ثَلَاثَة إِخْوَة.", "en": "I have three brothers." } ] }
+    "examples": [ { "ar": "رَقْمِي خَمْسَة سَبْعَة ثَلَاثَة.", "en": "My number is five seven three." }, { "ar": "عِنْدِي ثَلَاثَة إِخْوَة.", "en": "I have three brothers." } ] },
+  {
+    "id": "profession-gender",
+    "title": "Jobs for men and women",
+    "titleAr": "الْمِهَن",
+    "firstDay": 8,
+    "summary": "A job word for a woman usually adds ة to the word for a man.",
+    "formula": "مُدَرِّس (m) + ة → مُدَرِّسَة (f)",
+    "explanation": "طَالِب is a male student and طَالِبَة a female student. Almost every job works the same way: مُهَنْدِس → مُهَنْدِسَة, طَبِيب → طَبِيبَة. Use the form that matches the person: هِيَ طَبِيبَة (she is a doctor). There is no word for 'a': أَنَا مُمَرِّض means 'I am a nurse'. To ask about a job, say مَا عَمَلُكَ؟ to a man and مَا عَمَلُكِ؟ to a woman.",
+    "table": {
+      "head": [
+        "Man",
+        "Woman",
+        "English"
+      ],
+      "rows": [
+        [
+          "طَالِب",
+          "طَالِبَة",
+          "student"
+        ],
+        [
+          "مُدَرِّس",
+          "مُدَرِّسَة",
+          "teacher"
+        ],
+        [
+          "طَبِيب",
+          "طَبِيبَة",
+          "doctor"
+        ],
+        [
+          "مُهَنْدِس",
+          "مُهَنْدِسَة",
+          "engineer"
+        ],
+        [
+          "مُمَرِّض",
+          "مُمَرِّضَة",
+          "nurse"
+        ],
+        [
+          "مُوَظَّف",
+          "مُوَظَّفَة",
+          "employee"
+        ],
+        [
+          "مُتَرْجِم",
+          "مُتَرْجِمَة",
+          "translator"
+        ]
+      ]
+    },
+    "examples": [
+      {
+        "ar": "أَبِي مُهَنْدِس.",
+        "en": "My father is an engineer."
+      },
+      {
+        "ar": "أُمِّي طَبِيبَة.",
+        "en": "My mother is a doctor."
+      }
+    ]
+  },
+  {
+    "id": "idafa",
+    "title": "Noun + noun: 'the … of …' (iḍāfa)",
+    "titleAr": "الْإِضَافَة",
+    "firstDay": 9,
+    "summary": "Put two nouns side by side to say 'the X of Y': يَوْمُ الْجُمُعَة, Friday (literally 'the day of Friday').",
+    "formula": "noun (no الـ) + noun with الـ, a name or a 'my/your' ending",
+    "explanation": "In كِتَابُ دَانْيَال (Daniel's book) the first noun never takes الـ, yet it is definite: 'the book of Daniel'. The second noun is a name, a noun with الـ, or a noun with an ending such as ـِي. A ة at the end of the first noun is said as t: مَدْرَسَةُ اللُّغَة (madrasatu l-lugha, the language school). In careful speech the first noun carries a case vowel (often -u) and the second takes -i; at the end of a sentence the last vowel is usually dropped.",
+    "table": {
+      "head": [
+        "Arabic",
+        "Word for word",
+        "English"
+      ],
+      "rows": [
+        [
+          "يَوْمُ الْجُمُعَة",
+          "day (of) the Friday",
+          "Friday"
+        ],
+        [
+          "أَيَّامُ الْأُسْبُوع",
+          "days (of) the week",
+          "the days of the week"
+        ],
+        [
+          "كِتَابُ دَانْيَال",
+          "book (of) Daniel",
+          "Daniel's book"
+        ],
+        [
+          "مَدْرَسَةُ اللُّغَة",
+          "school (of) the language",
+          "the language school"
+        ],
+        [
+          "بَيْتُ سَامِي",
+          "house (of) Sami",
+          "Sami's house"
+        ]
+      ]
+    },
+    "examples": [
+      {
+        "ar": "الْيَوْم يَوْمُ الْأَحَد.",
+        "en": "Today is Sunday."
+      },
+      {
+        "ar": "هٰذَا كِتَابُ دَانْيَال.",
+        "en": "This is Daniel's book."
+      }
+    ]
+  },
+  {
+    "id": "telling-time",
+    "title": "Telling the time",
+    "titleAr": "الْوَقْت",
+    "firstDay": 10,
+    "summary": "Say السَّاعَة (the hour) and a feminine ordinal: السَّاعَة الثَّالِثَة, three o'clock.",
+    "formula": "السَّاعَة + ordinal (f) + وَالرُّبْع / وَالنِّصْف / إِلَّا رُبْعًا",
+    "explanation": "Ask كَمِ السَّاعَة؟ (what time is it?, literally 'how much is the hour?'). Answer with السَّاعَة and the feminine 'first, second, third…' word, because سَاعَة is feminine: السَّاعَة الْخَامِسَة (five o'clock). One o'clock is السَّاعَة الْوَاحِدَة. Add وَالرُّبْع (and a quarter), وَالنِّصْف (and a half) or إِلَّا رُبْعًا (minus a quarter). Add صَبَاحًا for the morning and مَسَاءً for the evening. 'At' a time is فِي: فِي السَّاعَة التَّاسِعَة (at nine o'clock).",
+    "table": {
+      "head": [
+        "Time",
+        "Arabic",
+        "English"
+      ],
+      "rows": [
+        [
+          "١:٠٠",
+          "السَّاعَة الْوَاحِدَة",
+          "one o'clock"
+        ],
+        [
+          "٢:٠٠",
+          "السَّاعَة الثَّانِيَة",
+          "two o'clock"
+        ],
+        [
+          "٣:٠٠",
+          "السَّاعَة الثَّالِثَة",
+          "three o'clock"
+        ],
+        [
+          "٤:٠٠",
+          "السَّاعَة الرَّابِعَة",
+          "four o'clock"
+        ],
+        [
+          "٥:٠٠",
+          "السَّاعَة الْخَامِسَة",
+          "five o'clock"
+        ],
+        [
+          "٦:٠٠",
+          "السَّاعَة السَّادِسَة",
+          "six o'clock"
+        ],
+        [
+          "٧:٠٠",
+          "السَّاعَة السَّابِعَة",
+          "seven o'clock"
+        ],
+        [
+          "٨:٠٠",
+          "السَّاعَة الثَّامِنَة",
+          "eight o'clock"
+        ],
+        [
+          "٩:٠٠",
+          "السَّاعَة التَّاسِعَة",
+          "nine o'clock"
+        ],
+        [
+          "١٠:٠٠",
+          "السَّاعَة الْعَاشِرَة",
+          "ten o'clock"
+        ],
+        [
+          "٣:١٥",
+          "الثَّالِثَة وَالرُّبْع",
+          "quarter past three"
+        ],
+        [
+          "٣:٣٠",
+          "الثَّالِثَة وَالنِّصْف",
+          "half past three"
+        ],
+        [
+          "٢:٤٥",
+          "الثَّالِثَة إِلَّا رُبْعًا",
+          "quarter to three"
+        ]
+      ]
+    },
+    "examples": [
+      {
+        "ar": "كَمِ السَّاعَة الْآن؟",
+        "en": "What time is it now?"
+      },
+      {
+        "ar": "السَّاعَة الْعَاشِرَة وَالنِّصْف.",
+        "en": "It is half past ten."
+      }
+    ]
+  },
+  {
+    "id": "present-tense",
+    "title": "The present tense: I, you, he, she",
+    "titleAr": "الْفِعْل الْمُضَارِع",
+    "firstDay": 11,
+    "summary": "A present-tense verb adds a prefix for the person: a- for I, ta- for you, ya- for he.",
+    "formula": "a- (I) · ta- (you, m) · ta- … -īna (you, f) · ya- (he) · ta- (she) + stem + -u",
+    "explanation": "Arabic verbs change at the front to show who is doing the action. Take ذَهَبَ (he went): أَذْهَبُ (I go), تَذْهَبُ (you go, to a man), تَذْهَبِينَ (you go, to a woman), يَذْهَبُ (he goes), تَذْهَبُ (she goes). 'You' (m) and 'she' look the same; the pronoun or the context tells them apart. The pronoun is usually left out, because the verb already shows the person: أَذْهَبُ إِلَى الْمَدْرَسَة means 'I go to school'. One present form covers 'I go', 'I am going' and 'I do go'.",
+    "table": {
+      "head": [
+        "Pronoun",
+        "Verb",
+        "English"
+      ],
+      "rows": [
+        [
+          "أَنَا",
+          "أَذْهَبُ",
+          "I go"
+        ],
+        [
+          "أَنْتَ",
+          "تَذْهَبُ",
+          "you go (to a man)"
+        ],
+        [
+          "أَنْتِ",
+          "تَذْهَبِينَ",
+          "you go (to a woman)"
+        ],
+        [
+          "هُوَ",
+          "يَذْهَبُ",
+          "he goes"
+        ],
+        [
+          "هِيَ",
+          "تَذْهَبُ",
+          "she goes"
+        ]
+      ]
+    },
+    "examples": [
+      {
+        "ar": "أَسْتَيْقِظُ مُبَكِّرًا.",
+        "en": "I wake up early."
+      },
+      {
+        "ar": "هِيَ تَشْرَبُ الشَّاي.",
+        "en": "She drinks tea."
+      }
+    ]
+  },
+  {
+    "id": "present-plural-w2",
+    "title": "We, you all, they: plural verbs",
+    "titleAr": "نَحْنُ وَهُمْ",
+    "firstDay": 12,
+    "summary": "With 'we' the prefix is na-; with 'you' (a group) and 'they' the verb also ends in -ūna.",
+    "formula": "نَحْنُ نَدْرُسُ · أَنْتُمْ تَدْرُسُونَ · هُمْ يَدْرُسُونَ",
+    "explanation": "You already know أَدْرُسُ (I study) and يَدْرُسُ (he studies). For 'we', the prefix is na-: نَدْرُسُ (we study). For 'you' talking to a group, and for 'they', the verb takes a prefix and the ending ـُونَ: أَنْتُمْ تَدْرُسُونَ (you study), هُمْ يَدْرُسُونَ (they study). أَنْتُمْ and هُمْ are used for groups of men and for mixed groups.",
+    "table": {
+      "head": [
+        "Pronoun",
+        "study",
+        "work"
+      ],
+      "rows": [
+        [
+          "نَحْنُ",
+          "نَدْرُسُ",
+          "نَعْمَلُ"
+        ],
+        [
+          "أَنْتُمْ",
+          "تَدْرُسُونَ",
+          "تَعْمَلُونَ"
+        ],
+        [
+          "هُمْ",
+          "يَدْرُسُونَ",
+          "يَعْمَلُونَ"
+        ]
+      ]
+    },
+    "examples": [
+      {
+        "ar": "نَحْنُ نَدْرُسُ الْعَرَبِيَّة.",
+        "en": "We study Arabic."
+      },
+      {
+        "ar": "هُمْ يَعْمَلُونَ فِي شَرِكَة.",
+        "en": "They work at a company."
+      }
+    ]
+  },
+  {
+    "id": "negation-la",
+    "title": "Not: لَا before a present verb",
+    "titleAr": "النَّفْي",
+    "firstDay": 13,
+    "summary": "Put لَا before a present-tense verb to say 'not': لَا أَعْرِفُ, I don't know.",
+    "formula": "لَا + present verb",
+    "explanation": "On its own لَا means 'no'. Before a present-tense verb it means 'not', and the verb itself does not change: أَفْهَمُ (I understand) → لَا أَفْهَمُ (I don't understand); يَعْمَلُ (he works) → لَا يَعْمَلُ (he doesn't work). English needs 'do' or 'does'; Arabic does not. لَا is only for verbs: to say 'I am not …' in a sentence without a verb, Arabic uses لَيْسَ, which comes in week 5.",
+    "table": {
+      "head": [
+        "Positive",
+        "Negative",
+        "English"
+      ],
+      "rows": [
+        [
+          "أَعْرِفُ",
+          "لَا أَعْرِفُ",
+          "I don't know"
+        ],
+        [
+          "أَفْهَمُ",
+          "لَا أَفْهَمُ",
+          "I don't understand"
+        ],
+        [
+          "تَتَكَلَّمُ",
+          "لَا تَتَكَلَّمُ",
+          "you don't speak (to a man)"
+        ],
+        [
+          "يَعْمَلُ",
+          "لَا يَعْمَلُ",
+          "he doesn't work"
+        ],
+        [
+          "نَذْهَبُ",
+          "لَا نَذْهَبُ",
+          "we don't go"
+        ]
+      ]
+    },
+    "examples": [
+      {
+        "ar": "لَا أَعْرِفُ.",
+        "en": "I don't know."
+      },
+      {
+        "ar": "لَا أَفْهَمُ هٰذِهِ الْكَلِمَة.",
+        "en": "I don't understand this word."
+      }
+    ]
+  },
+  {
+    "id": "colours",
+    "title": "Colours: masculine and feminine",
+    "titleAr": "الْأَلْوَان",
+    "firstDay": 14,
+    "summary": "The basic colours have a masculine form like أَحْمَر and a feminine form like حَمْرَاء.",
+    "formula": "m: aCCaC (أَحْمَر) · f: CaCCāʾ (حَمْرَاء)",
+    "explanation": "The basic colours share one pattern. The masculine starts with أَ: أَحْمَر (red), أَزْرَق (blue). The feminine has a different shape ending in ـَاء: حَمْرَاء, زَرْقَاء. Like every adjective, a colour comes after its noun and matches it: قَلَم أَحْمَر (a red pen), سَيَّارَة حَمْرَاء (a red car). Some colours come from things and work like nationality words, with ـِيّ and ـِيَّة: بُنِّيّ, بُنِّيَّة (brown, from coffee beans).",
+    "table": {
+      "head": [
+        "Masculine",
+        "Feminine",
+        "English"
+      ],
+      "rows": [
+        [
+          "أَحْمَر",
+          "حَمْرَاء",
+          "red"
+        ],
+        [
+          "أَزْرَق",
+          "زَرْقَاء",
+          "blue"
+        ],
+        [
+          "أَخْضَر",
+          "خَضْرَاء",
+          "green"
+        ],
+        [
+          "أَصْفَر",
+          "صَفْرَاء",
+          "yellow"
+        ],
+        [
+          "أَبْيَض",
+          "بَيْضَاء",
+          "white"
+        ],
+        [
+          "أَسْوَد",
+          "سَوْدَاء",
+          "black"
+        ],
+        [
+          "بُنِّيّ",
+          "بُنِّيَّة",
+          "brown"
+        ]
+      ]
+    },
+    "examples": [
+      {
+        "ar": "الْقَلَم أَحْمَر.",
+        "en": "The pen is red."
+      },
+      {
+        "ar": "السَّيَّارَة بَيْضَاء.",
+        "en": "The car is white."
+      }
+    ]
+  }
 ]

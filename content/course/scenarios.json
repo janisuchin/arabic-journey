@@ -77,5 +77,1248 @@
       { "id": "tq2", "prompt": "What fare do they agree on?", "options": ["forty pounds", "fifty pounds", "thirty pounds", "ten pounds"], "answer": 0 },
       { "id": "tq3", "prompt": "What does this mean?", "ar": "يَسَارًا", "options": ["to the left", "to the right", "straight ahead", "here"], "answer": 0 }
     ]
+  },
+  {
+    "id": "morning-routine",
+    "title": "Morning with a host family",
+    "emoji": "🍳",
+    "status": "needs-review",
+    "intro": "It is your first morning with an Egyptian host family, and your host, Mrs Huda, asks about your routine. Useful phrases: مَتَى تَسْتَيْقِظُ؟ (when do you wake up?), أَشْرَبُ (I drink) and لَا آكُلُ كَثِيرًا (I don't eat much).",
+    "dialogue": {
+      "title": "Coffee, and no excuses",
+      "speakers": [
+        {
+          "key": "huda",
+          "name": "Mrs Huda",
+          "nameAr": "خَالَة هُدَى"
+        },
+        {
+          "key": "daniel",
+          "name": "Daniel",
+          "nameAr": "دَانْيَال"
+        }
+      ],
+      "culture": "In Egypt it is polite to call an older woman خَالَة (aunt) and an older man عَمّ (uncle), even when you are not related. A host will nearly always insist that you eat breakfast.",
+      "lines": [
+        {
+          "id": "morning-routine-l1",
+          "sp": "huda",
+          "ar": "صَبَاحُ الْخَيْر يَا دَانْيَال! كَيْفَ حَالُكَ الْيَوْم؟",
+          "en": "Good morning, Daniel! How are you today?",
+          "segs": [
+            [
+              "صَبَاحُ",
+              "morning (of)"
+            ],
+            [
+              "الْخَيْر",
+              "the goodness"
+            ],
+            [
+              "يَا",
+              "O (calling someone)"
+            ],
+            [
+              "دَانْيَال",
+              "Daniel (first name)",
+              "name"
+            ],
+            [
+              "كَيْفَ",
+              "how"
+            ],
+            [
+              "حَالُكَ",
+              "your condition (to a man)"
+            ],
+            [
+              "الْيَوْم",
+              "today"
+            ]
+          ]
+        },
+        {
+          "id": "morning-routine-l2",
+          "sp": "daniel",
+          "ar": "صَبَاحُ النُّور يَا خَالَة هُدَى! أَنَا بِخَيْر، الْحَمْدُ لِلّٰه.",
+          "en": "Good morning, Auntie Huda! I am fine, thank God.",
+          "segs": [
+            [
+              "صَبَاحُ",
+              "morning (of)"
+            ],
+            [
+              "النُّور",
+              "the light"
+            ],
+            [
+              "يَا",
+              "O (calling someone)"
+            ],
+            [
+              "خَالَة",
+              "aunt (polite address for an older woman)"
+            ],
+            [
+              "هُدَى",
+              "Huda (first name)",
+              "name"
+            ],
+            [
+              "أَنَا",
+              "I"
+            ],
+            [
+              "بِخَيْر",
+              "fine (lit. in goodness)"
+            ],
+            [
+              "الْحَمْدُ",
+              "the praise"
+            ],
+            [
+              "لِلّٰه",
+              "to God"
+            ]
+          ]
+        },
+        {
+          "id": "morning-routine-l3",
+          "sp": "huda",
+          "ar": "مَتَى تَسْتَيْقِظُ عَادَةً؟ أَنَا أَسْتَيْقِظُ فِي السَّاعَة السَّادِسَة.",
+          "en": "When do you usually wake up? I wake up at six o'clock.",
+          "segs": [
+            [
+              "مَتَى",
+              "when"
+            ],
+            [
+              "تَسْتَيْقِظُ",
+              "you wake up (to a man)"
+            ],
+            [
+              "عَادَةً",
+              "usually"
+            ],
+            [
+              "أَنَا",
+              "I"
+            ],
+            [
+              "أَسْتَيْقِظُ",
+              "I wake up"
+            ],
+            [
+              "فِي",
+              "at, in"
+            ],
+            [
+              "السَّاعَة",
+              "the hour, o'clock"
+            ],
+            [
+              "السَّادِسَة",
+              "the sixth (f)"
+            ]
+          ]
+        },
+        {
+          "id": "morning-routine-l4",
+          "sp": "daniel",
+          "ar": "أَسْتَيْقِظُ فِي السَّاعَة السَّادِسَة وَالنِّصْف، ثُمَّ أَغْسِلُ وَجْهِي.",
+          "en": "I wake up at half past six, then I wash my face.",
+          "segs": [
+            [
+              "أَسْتَيْقِظُ",
+              "I wake up"
+            ],
+            [
+              "فِي",
+              "at, in"
+            ],
+            [
+              "السَّاعَة",
+              "the hour, o'clock"
+            ],
+            [
+              "السَّادِسَة",
+              "the sixth (f)"
+            ],
+            [
+              "وَالنِّصْف",
+              "and a half"
+            ],
+            [
+              "ثُمَّ",
+              "then"
+            ],
+            [
+              "أَغْسِلُ",
+              "I wash"
+            ],
+            [
+              "وَجْهِي",
+              "my face"
+            ]
+          ]
+        },
+        {
+          "id": "morning-routine-l5",
+          "sp": "huda",
+          "ar": "وَمَاذَا تَشْرَبُ فِي الصَّبَاح؟ شَاي أَوْ قَهْوَة؟",
+          "en": "And what do you drink in the morning? Tea or coffee?",
+          "segs": [
+            [
+              "وَمَاذَا",
+              "and what (before a verb)"
+            ],
+            [
+              "تَشْرَبُ",
+              "you drink (to a man)"
+            ],
+            [
+              "فِي",
+              "in"
+            ],
+            [
+              "الصَّبَاح",
+              "the morning"
+            ],
+            [
+              "شَاي",
+              "tea"
+            ],
+            [
+              "أَوْ",
+              "or"
+            ],
+            [
+              "قَهْوَة",
+              "coffee"
+            ]
+          ]
+        },
+        {
+          "id": "morning-routine-l6",
+          "sp": "daniel",
+          "ar": "أَشْرَبُ الْقَهْوَة، مِنْ فَضْلِكِ، بِدُونِ سُكَّر.",
+          "en": "I drink coffee, please, without sugar.",
+          "segs": [
+            [
+              "أَشْرَبُ",
+              "I drink"
+            ],
+            [
+              "الْقَهْوَة",
+              "the coffee"
+            ],
+            [
+              "مِنْ",
+              "from"
+            ],
+            [
+              "فَضْلِكِ",
+              "your kindness (to a woman): 'please'"
+            ],
+            [
+              "بِدُونِ",
+              "without"
+            ],
+            [
+              "سُكَّر",
+              "sugar"
+            ]
+          ]
+        },
+        {
+          "id": "morning-routine-l7",
+          "sp": "huda",
+          "ar": "حَاضِر. وَالْفُطُور؟ عِنْدِي فُول وَخُبْز وَبَيْض.",
+          "en": "Right away. And breakfast? I have beans, bread and eggs.",
+          "segs": [
+            [
+              "حَاضِر",
+              "certainly, right away"
+            ],
+            [
+              "وَالْفُطُور",
+              "and the breakfast"
+            ],
+            [
+              "عِنْدِي",
+              "I have"
+            ],
+            [
+              "فُول",
+              "fava beans (ful)"
+            ],
+            [
+              "وَخُبْز",
+              "and bread"
+            ],
+            [
+              "وَبَيْض",
+              "and eggs"
+            ]
+          ]
+        },
+        {
+          "id": "morning-routine-l8",
+          "sp": "daniel",
+          "ar": "شُكْرًا يَا خَالَة، لٰكِنْ أَنَا لَا آكُلُ كَثِيرًا فِي الصَّبَاح.",
+          "en": "Thank you, Auntie, but I don't eat much in the morning.",
+          "segs": [
+            [
+              "شُكْرًا",
+              "thank you"
+            ],
+            [
+              "يَا",
+              "O (calling someone)"
+            ],
+            [
+              "خَالَة",
+              "aunt (polite address for an older woman)"
+            ],
+            [
+              "لٰكِنْ",
+              "but"
+            ],
+            [
+              "أَنَا",
+              "I"
+            ],
+            [
+              "لَا",
+              "not"
+            ],
+            [
+              "آكُلُ",
+              "I eat"
+            ],
+            [
+              "كَثِيرًا",
+              "a lot, much"
+            ],
+            [
+              "فِي",
+              "in"
+            ],
+            [
+              "الصَّبَاح",
+              "the morning"
+            ]
+          ]
+        },
+        {
+          "id": "morning-routine-l9",
+          "sp": "huda",
+          "ar": "لَا، لَا! الْفُطُور مُهِمّ. كُلْ قَلِيلًا عَلَى الْأَقَلّ!",
+          "en": "No, no! Breakfast is important. At least eat a little!",
+          "segs": [
+            [
+              "لَا",
+              "no"
+            ],
+            [
+              "لَا",
+              "no"
+            ],
+            [
+              "الْفُطُور",
+              "the breakfast"
+            ],
+            [
+              "مُهِمّ",
+              "important"
+            ],
+            [
+              "كُلْ",
+              "eat! (to a man)"
+            ],
+            [
+              "قَلِيلًا",
+              "a little"
+            ],
+            [
+              "عَلَى",
+              "on"
+            ],
+            [
+              "الْأَقَلّ",
+              "the least ('at least')"
+            ]
+          ]
+        },
+        {
+          "id": "morning-routine-l10",
+          "sp": "daniel",
+          "ar": "حَاضِر! وَمَتَى يَخْرُجُ اِبْنُكِ حَسَن إِلَى الْمَدْرَسَة؟",
+          "en": "All right! And when does your son Hassan leave for school?",
+          "segs": [
+            [
+              "حَاضِر",
+              "certainly, all right"
+            ],
+            [
+              "وَمَتَى",
+              "and when"
+            ],
+            [
+              "يَخْرُجُ",
+              "he goes out, he leaves"
+            ],
+            [
+              "اِبْنُكِ",
+              "your son (to a woman)"
+            ],
+            [
+              "حَسَن",
+              "Hassan (first name)",
+              "name"
+            ],
+            [
+              "إِلَى",
+              "to"
+            ],
+            [
+              "الْمَدْرَسَة",
+              "the school"
+            ]
+          ]
+        },
+        {
+          "id": "morning-routine-l11",
+          "sp": "huda",
+          "ar": "حَسَن يَخْرُجُ فِي السَّاعَة السَّابِعَة وَالنِّصْف، وَيَذْهَبُ بِالْحَافِلَة.",
+          "en": "Hassan leaves at half past seven, and he goes by bus.",
+          "segs": [
+            [
+              "حَسَن",
+              "Hassan (first name)",
+              "name"
+            ],
+            [
+              "يَخْرُجُ",
+              "he goes out, he leaves"
+            ],
+            [
+              "فِي",
+              "at, in"
+            ],
+            [
+              "السَّاعَة",
+              "the hour, o'clock"
+            ],
+            [
+              "السَّابِعَة",
+              "the seventh (f)"
+            ],
+            [
+              "وَالنِّصْف",
+              "and a half"
+            ],
+            [
+              "وَيَذْهَبُ",
+              "and he goes"
+            ],
+            [
+              "بِالْحَافِلَة",
+              "by bus"
+            ]
+          ]
+        },
+        {
+          "id": "morning-routine-l12",
+          "sp": "daniel",
+          "ar": "وَأَنَا أَخْرُجُ فِي السَّاعَة الثَّامِنَة، لِأَنَّ الدَّرْس فِي السَّاعَة التَّاسِعَة.",
+          "en": "And I leave at eight o'clock, because the lesson is at nine.",
+          "segs": [
+            [
+              "وَأَنَا",
+              "and I"
+            ],
+            [
+              "أَخْرُجُ",
+              "I go out, I leave"
+            ],
+            [
+              "فِي",
+              "at, in"
+            ],
+            [
+              "السَّاعَة",
+              "the hour, o'clock"
+            ],
+            [
+              "الثَّامِنَة",
+              "the eighth (f)"
+            ],
+            [
+              "لِأَنَّ",
+              "because"
+            ],
+            [
+              "الدَّرْس",
+              "the lesson"
+            ],
+            [
+              "فِي",
+              "at, in"
+            ],
+            [
+              "السَّاعَة",
+              "the hour, o'clock"
+            ],
+            [
+              "التَّاسِعَة",
+              "the ninth (f)"
+            ]
+          ]
+        },
+        {
+          "id": "morning-routine-l13",
+          "sp": "huda",
+          "ar": "مُمْتَاز. تَفَضَّلْ، الْقَهْوَة جَاهِزَة. صَبَاح جَمِيل يَا دَانْيَال!",
+          "en": "Excellent. Here you are, the coffee is ready. Have a lovely morning, Daniel!",
+          "segs": [
+            [
+              "مُمْتَاز",
+              "excellent"
+            ],
+            [
+              "تَفَضَّلْ",
+              "here you are (to a man)"
+            ],
+            [
+              "الْقَهْوَة",
+              "the coffee"
+            ],
+            [
+              "جَاهِزَة",
+              "ready (f)"
+            ],
+            [
+              "صَبَاح",
+              "morning"
+            ],
+            [
+              "جَمِيل",
+              "beautiful, lovely"
+            ],
+            [
+              "يَا",
+              "O (calling someone)"
+            ],
+            [
+              "دَانْيَال",
+              "Daniel (first name)",
+              "name"
+            ]
+          ]
+        }
+      ]
+    },
+    "mistakes": [
+      {
+        "wrong": "مَتَى تَسْتَيْقِظُ يَا خَالَة؟",
+        "right": "مَتَى تَسْتَيْقِظِينَ يَا خَالَة؟",
+        "why": "Speaking to a woman, the verb ends in -īna: tastayqiẓīna."
+      },
+      {
+        "wrong": "لَا أَنَا آكُلُ كَثِيرًا",
+        "right": "أَنَا لَا آكُلُ كَثِيرًا",
+        "why": "lā goes directly before the verb, not before the pronoun."
+      }
+    ],
+    "quiz": [
+      {
+        "id": "mrq1",
+        "prompt": "When does Daniel wake up?",
+        "options": [
+          "at six o'clock",
+          "at half past six",
+          "at seven o'clock",
+          "at eight o'clock"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "mrq2",
+        "prompt": "What does Daniel drink in the morning?",
+        "options": [
+          "tea with mint",
+          "coffee with sugar",
+          "coffee without sugar",
+          "nothing"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "mrq3",
+        "prompt": "What does this mean?",
+        "ar": "لَا آكُلُ كَثِيرًا فِي الصَّبَاح.",
+        "options": [
+          "I don't eat much in the morning.",
+          "I eat a lot in the morning.",
+          "I don't drink coffee in the morning.",
+          "I don't wake up early."
+        ],
+        "answer": 0
+      },
+      {
+        "id": "mrq4",
+        "prompt": "How do you politely address an older woman in Egypt?",
+        "options": [
+          "يَا أُسْتَاذ",
+          "يَا بِنْت",
+          "يَا أُخْتِي",
+          "يَا خَالَة"
+        ],
+        "answer": 3
+      }
+    ]
+  },
+  {
+    "id": "appointment-time",
+    "title": "Booking an appointment",
+    "emoji": "📅",
+    "status": "needs-review",
+    "intro": "You go to the school office to book an appointment with the director. Useful phrases: أُرِيدُ مَوْعِدًا (I would like an appointment), هَلْ … مُمْكِن؟ (is … possible?), and the days and times from this week.",
+    "dialogue": {
+      "title": "Wednesday at quarter to three",
+      "speakers": [
+        {
+          "key": "receptionist",
+          "name": "Receptionist",
+          "nameAr": "مُوَظَّفَة"
+        },
+        {
+          "key": "daniel",
+          "name": "Daniel",
+          "nameAr": "دَانْيَال"
+        }
+      ],
+      "culture": "When you book a time, repeat the day and the hour back to the other person. It avoids mix-ups between similar words such as الْخَمِيس (Thursday) and الْخَامِسَة (five o'clock).",
+      "lines": [
+        {
+          "id": "appointment-time-l1",
+          "sp": "receptionist",
+          "ar": "صَبَاحُ الْخَيْر، هٰذَا مَكْتَبُ الْمَدْرَسَة. كَيْفَ أُسَاعِدُكَ؟",
+          "en": "Good morning, this is the school office. How can I help you?",
+          "segs": [
+            [
+              "صَبَاحُ",
+              "morning (of)"
+            ],
+            [
+              "الْخَيْر",
+              "the goodness"
+            ],
+            [
+              "هٰذَا",
+              "this (m)"
+            ],
+            [
+              "مَكْتَبُ",
+              "office (of)"
+            ],
+            [
+              "الْمَدْرَسَة",
+              "the school"
+            ],
+            [
+              "كَيْفَ",
+              "how"
+            ],
+            [
+              "أُسَاعِدُكَ",
+              "I help you (to a man)"
+            ]
+          ]
+        },
+        {
+          "id": "appointment-time-l2",
+          "sp": "daniel",
+          "ar": "صَبَاحُ النُّور. أَنَا دَانْيَال، طَالِب فِي صَفِّ الْأُسْتَاذ كَرِيم. أُرِيدُ مَوْعِدًا مَعَ الْمُدِير.",
+          "en": "Good morning. I am Daniel, a student in Mr Karim's class. I would like an appointment with the director.",
+          "segs": [
+            [
+              "صَبَاحُ",
+              "morning (of)"
+            ],
+            [
+              "النُّور",
+              "the light"
+            ],
+            [
+              "أَنَا",
+              "I"
+            ],
+            [
+              "دَانْيَال",
+              "Daniel (first name)",
+              "name"
+            ],
+            [
+              "طَالِب",
+              "student (m)"
+            ],
+            [
+              "فِي",
+              "in"
+            ],
+            [
+              "صَفِّ",
+              "class (of)"
+            ],
+            [
+              "الْأُسْتَاذ",
+              "the teacher; Mr (title)"
+            ],
+            [
+              "كَرِيم",
+              "Karim (first name)",
+              "name"
+            ],
+            [
+              "أُرِيدُ",
+              "I want"
+            ],
+            [
+              "مَوْعِدًا",
+              "an appointment (object form)"
+            ],
+            [
+              "مَعَ",
+              "with"
+            ],
+            [
+              "الْمُدِير",
+              "the director, the head"
+            ]
+          ]
+        },
+        {
+          "id": "appointment-time-l3",
+          "sp": "receptionist",
+          "ar": "طَبْعًا. هَلْ يَوْمُ الثُّلَاثَاء مُمْكِن، فِي السَّاعَة الْعَاشِرَة؟",
+          "en": "Of course. Is Tuesday possible, at ten o'clock?",
+          "segs": [
+            [
+              "طَبْعًا",
+              "of course"
+            ],
+            [
+              "هَلْ",
+              "(starts a yes/no question)"
+            ],
+            [
+              "يَوْمُ",
+              "day (of)"
+            ],
+            [
+              "الثُّلَاثَاء",
+              "Tuesday"
+            ],
+            [
+              "مُمْكِن",
+              "possible"
+            ],
+            [
+              "فِي",
+              "at, in"
+            ],
+            [
+              "السَّاعَة",
+              "the hour, o'clock"
+            ],
+            [
+              "الْعَاشِرَة",
+              "the tenth (f)"
+            ]
+          ]
+        },
+        {
+          "id": "appointment-time-l4",
+          "sp": "daniel",
+          "ar": "آسِف، يَوْمَ الثُّلَاثَاء فِي السَّاعَة الْعَاشِرَة عِنْدِي دَرْس.",
+          "en": "Sorry, on Tuesday at ten o'clock I have a lesson.",
+          "segs": [
+            [
+              "آسِف",
+              "sorry (m)"
+            ],
+            [
+              "يَوْمَ",
+              "on (the day of)"
+            ],
+            [
+              "الثُّلَاثَاء",
+              "Tuesday"
+            ],
+            [
+              "فِي",
+              "at, in"
+            ],
+            [
+              "السَّاعَة",
+              "the hour, o'clock"
+            ],
+            [
+              "الْعَاشِرَة",
+              "the tenth (f)"
+            ],
+            [
+              "عِنْدِي",
+              "I have"
+            ],
+            [
+              "دَرْس",
+              "lesson"
+            ]
+          ]
+        },
+        {
+          "id": "appointment-time-l5",
+          "sp": "receptionist",
+          "ar": "لَا مُشْكِلَة. وَيَوْمَ الْأَرْبِعَاء؟ الْمُدِير هُنَا مِنَ السَّاعَة الْوَاحِدَة إِلَى السَّاعَة الرَّابِعَة.",
+          "en": "No problem. And on Wednesday? The director is here from one o'clock to four o'clock.",
+          "segs": [
+            [
+              "لَا",
+              "no"
+            ],
+            [
+              "مُشْكِلَة",
+              "problem"
+            ],
+            [
+              "وَيَوْمَ",
+              "and on (the day of)"
+            ],
+            [
+              "الْأَرْبِعَاء",
+              "Wednesday"
+            ],
+            [
+              "الْمُدِير",
+              "the director, the head"
+            ],
+            [
+              "هُنَا",
+              "here"
+            ],
+            [
+              "مِنَ",
+              "from"
+            ],
+            [
+              "السَّاعَة",
+              "the hour, o'clock"
+            ],
+            [
+              "الْوَاحِدَة",
+              "the first (f): one o'clock"
+            ],
+            [
+              "إِلَى",
+              "to"
+            ],
+            [
+              "السَّاعَة",
+              "the hour, o'clock"
+            ],
+            [
+              "الرَّابِعَة",
+              "the fourth (f)"
+            ]
+          ]
+        },
+        {
+          "id": "appointment-time-l6",
+          "sp": "daniel",
+          "ar": "الْأَرْبِعَاء مُمْتَاز. هَلِ السَّاعَة الْوَاحِدَة وَالنِّصْف مُمْكِنَة؟",
+          "en": "Wednesday is great. Is half past one possible?",
+          "segs": [
+            [
+              "الْأَرْبِعَاء",
+              "Wednesday"
+            ],
+            [
+              "مُمْتَاز",
+              "excellent"
+            ],
+            [
+              "هَلِ",
+              "(starts a yes/no question)"
+            ],
+            [
+              "السَّاعَة",
+              "the hour, o'clock"
+            ],
+            [
+              "الْوَاحِدَة",
+              "the first (f): one o'clock"
+            ],
+            [
+              "وَالنِّصْف",
+              "and a half"
+            ],
+            [
+              "مُمْكِنَة",
+              "possible (f)"
+            ]
+          ]
+        },
+        {
+          "id": "appointment-time-l7",
+          "sp": "receptionist",
+          "ar": "دَقِيقَة وَاحِدَة، مِنْ فَضْلِكَ… آسِفَة، فِي السَّاعَة الْوَاحِدَة وَالنِّصْف عِنْدَهُ اِجْتِمَاع.",
+          "en": "One minute, please… Sorry, at half past one he has a meeting.",
+          "segs": [
+            [
+              "دَقِيقَة",
+              "minute"
+            ],
+            [
+              "وَاحِدَة",
+              "one (f)"
+            ],
+            [
+              "مِنْ",
+              "from"
+            ],
+            [
+              "فَضْلِكَ",
+              "your kindness (to a man): 'please'"
+            ],
+            [
+              "آسِفَة",
+              "sorry (f)"
+            ],
+            [
+              "فِي",
+              "at, in"
+            ],
+            [
+              "السَّاعَة",
+              "the hour, o'clock"
+            ],
+            [
+              "الْوَاحِدَة",
+              "the first (f): one o'clock"
+            ],
+            [
+              "وَالنِّصْف",
+              "and a half"
+            ],
+            [
+              "عِنْدَهُ",
+              "he has (lit. at him)"
+            ],
+            [
+              "اِجْتِمَاع",
+              "meeting"
+            ]
+          ]
+        },
+        {
+          "id": "appointment-time-l8",
+          "sp": "receptionist",
+          "ar": "هَلِ السَّاعَة الثَّالِثَة إِلَّا رُبْعًا مُمْكِنَة لَكَ؟",
+          "en": "Is quarter to three possible for you?",
+          "segs": [
+            [
+              "هَلِ",
+              "(starts a yes/no question)"
+            ],
+            [
+              "السَّاعَة",
+              "the hour, o'clock"
+            ],
+            [
+              "الثَّالِثَة",
+              "the third (f)"
+            ],
+            [
+              "إِلَّا",
+              "except, minus"
+            ],
+            [
+              "رُبْعًا",
+              "a quarter (after illā)"
+            ],
+            [
+              "مُمْكِنَة",
+              "possible (f)"
+            ],
+            [
+              "لَكَ",
+              "for you (to a man)"
+            ]
+          ]
+        },
+        {
+          "id": "appointment-time-l9",
+          "sp": "daniel",
+          "ar": "نَعَم، هٰذَا وَقْت مُمْتَاز. الدَّرْس حَتَّى السَّاعَة الْوَاحِدَة فَقَطْ.",
+          "en": "Yes, that is an excellent time. The lesson only goes on until one o'clock.",
+          "segs": [
+            [
+              "نَعَم",
+              "yes"
+            ],
+            [
+              "هٰذَا",
+              "this, that (m)"
+            ],
+            [
+              "وَقْت",
+              "time"
+            ],
+            [
+              "مُمْتَاز",
+              "excellent"
+            ],
+            [
+              "الدَّرْس",
+              "the lesson"
+            ],
+            [
+              "حَتَّى",
+              "until"
+            ],
+            [
+              "السَّاعَة",
+              "the hour, o'clock"
+            ],
+            [
+              "الْوَاحِدَة",
+              "the first (f): one o'clock"
+            ],
+            [
+              "فَقَطْ",
+              "only"
+            ]
+          ]
+        },
+        {
+          "id": "appointment-time-l10",
+          "sp": "receptionist",
+          "ar": "إِذَنْ، مَوْعِدُكَ يَوْمَ الْأَرْبِعَاء فِي السَّاعَة الثَّالِثَة إِلَّا رُبْعًا.",
+          "en": "So, your appointment is on Wednesday at quarter to three.",
+          "segs": [
+            [
+              "إِذَنْ",
+              "then, so"
+            ],
+            [
+              "مَوْعِدُكَ",
+              "your appointment (to a man)"
+            ],
+            [
+              "يَوْمَ",
+              "on (the day of)"
+            ],
+            [
+              "الْأَرْبِعَاء",
+              "Wednesday"
+            ],
+            [
+              "فِي",
+              "at, in"
+            ],
+            [
+              "السَّاعَة",
+              "the hour, o'clock"
+            ],
+            [
+              "الثَّالِثَة",
+              "the third (f)"
+            ],
+            [
+              "إِلَّا",
+              "except, minus"
+            ],
+            [
+              "رُبْعًا",
+              "a quarter (after illā)"
+            ]
+          ]
+        },
+        {
+          "id": "appointment-time-l11",
+          "sp": "daniel",
+          "ar": "الْأَرْبِعَاء، الثَّالِثَة إِلَّا رُبْعًا. هَلْ تُرِيدِينَ رَقْمَ هَاتِفِي؟",
+          "en": "Wednesday, quarter to three. Would you like my phone number?",
+          "segs": [
+            [
+              "الْأَرْبِعَاء",
+              "Wednesday"
+            ],
+            [
+              "الثَّالِثَة",
+              "the third (f)"
+            ],
+            [
+              "إِلَّا",
+              "except, minus"
+            ],
+            [
+              "رُبْعًا",
+              "a quarter (after illā)"
+            ],
+            [
+              "هَلْ",
+              "(starts a yes/no question)"
+            ],
+            [
+              "تُرِيدِينَ",
+              "you want (to a woman)"
+            ],
+            [
+              "رَقْمَ",
+              "number (of)"
+            ],
+            [
+              "هَاتِفِي",
+              "my phone"
+            ]
+          ]
+        },
+        {
+          "id": "appointment-time-l12",
+          "sp": "receptionist",
+          "ar": "لَا، شُكْرًا، رَقْمُكَ عِنْدِي. إِلَى اللِّقَاء يَوْمَ الْأَرْبِعَاء!",
+          "en": "No, thank you, I already have your number. See you on Wednesday!",
+          "segs": [
+            [
+              "لَا",
+              "no"
+            ],
+            [
+              "شُكْرًا",
+              "thank you"
+            ],
+            [
+              "رَقْمُكَ",
+              "your number (to a man)"
+            ],
+            [
+              "عِنْدِي",
+              "I have (lit. at me)"
+            ],
+            [
+              "إِلَى",
+              "to, until"
+            ],
+            [
+              "اللِّقَاء",
+              "the meeting ('see you')"
+            ],
+            [
+              "يَوْمَ",
+              "on (the day of)"
+            ],
+            [
+              "الْأَرْبِعَاء",
+              "Wednesday"
+            ]
+          ]
+        },
+        {
+          "id": "appointment-time-l13",
+          "sp": "daniel",
+          "ar": "شُكْرًا جَزِيلًا يَا أُسْتَاذَة! مَعَ السَّلَامَة.",
+          "en": "Thank you very much, madam! Goodbye.",
+          "segs": [
+            [
+              "شُكْرًا",
+              "thank you"
+            ],
+            [
+              "جَزِيلًا",
+              "very much (lit. abundant)"
+            ],
+            [
+              "يَا",
+              "O (calling someone)"
+            ],
+            [
+              "أُسْتَاذَة",
+              "madam (polite address for a woman)"
+            ],
+            [
+              "مَعَ",
+              "with"
+            ],
+            [
+              "السَّلَامَة",
+              "the safety"
+            ]
+          ]
+        }
+      ]
+    },
+    "mistakes": [
+      {
+        "wrong": "أُرِيدُ مَوْعِد يَوْمِ الْأَرْبِعَاء",
+        "right": "أُرِيدُ مَوْعِدًا يَوْمَ الْأَرْبِعَاء",
+        "why": "The object of a verb takes -an (mawʿidan), and 'on' a day is yawma, with -a."
+      },
+      {
+        "wrong": "هَلِ السَّاعَة الْوَاحِدَة مُمْكِن؟",
+        "right": "هَلِ السَّاعَة الْوَاحِدَة مُمْكِنَة؟",
+        "why": "sāʿa is feminine, so 'possible' takes ة: mumkina."
+      }
+    ],
+    "quiz": [
+      {
+        "id": "atq1",
+        "prompt": "Who does Daniel want to see?",
+        "options": [
+          "Mr Karim",
+          "the school director",
+          "a doctor",
+          "Layla"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "atq2",
+        "prompt": "When is Daniel's appointment?",
+        "options": [
+          "Tuesday at ten o'clock",
+          "Wednesday at half past one",
+          "Wednesday at quarter to three",
+          "Thursday at three o'clock"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "atq3",
+        "prompt": "What does this mean?",
+        "ar": "أُرِيدُ مَوْعِدًا مَعَ الْمُدِير.",
+        "options": [
+          "I have a meeting with the director.",
+          "Where is the director?",
+          "The director is here.",
+          "I would like an appointment with the director."
+        ],
+        "answer": 3
+      },
+      {
+        "id": "atq4",
+        "prompt": "Why is half past one not possible?",
+        "options": [
+          "Daniel has a lesson.",
+          "The office is closed.",
+          "The director has a meeting.",
+          "It is Friday."
+        ],
+        "answer": 2
+      }
+    ]
   }
 ]

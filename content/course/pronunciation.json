@@ -64,5 +64,93 @@
     "tip": "Most feminine words end in ة. At the end of a phrase it is said as a short 'a'; when the word is followed by another word in a possessive phrase or gets an ending, the t is heard: sayyāra (a car) but sayyārat Sāmī (Sami's car).",
     "diagram": "ة looks like ه with two dots · said 'a' in pause, 'at' in a construct phrase",
     "error": "Saying the t at the end of a sentence: it is madrasa, not madrasat.",
-    "examples": [ { "ar": "مَدْرَسَة", "en": "school" }, { "ar": "عَائِلَة", "en": "family" }, { "ar": "سَيَّارَة", "en": "car" } ] }
+    "examples": [ { "ar": "مَدْرَسَة", "en": "school" }, { "ar": "عَائِلَة", "en": "family" }, { "ar": "سَيَّارَة", "en": "car" } ] },
+  {
+    "id": "long-vowels",
+    "title": "Long vowels ā, ī, ū",
+    "category": "Vowels",
+    "ipa": [
+      "aː",
+      "iː",
+      "uː"
+    ],
+    "letters": [
+      "ا",
+      "ي",
+      "و"
+    ],
+    "tip": "A long vowel is written with a letter: alif for ā, yāʾ for ī and wāw for ū. Hold it about twice as long as a short vowel, as in English 'seat' against 'sit'. Many job words have one: طَالِب (ṭālib) and طَبِيب (ṭabīb).",
+    "diagram": "fatha + alif = ā · kasra + yāʾ = ī · damma + wāw = ū · a short vowel is only a small mark",
+    "error": "Shortening the long vowel (ṭalib instead of ṭālib), or stretching a short one: مُدَرِّس (mudarris) has no long vowel at all.",
+    "examples": [
+      {
+        "ar": "طَالِب",
+        "en": "student"
+      },
+      {
+        "ar": "طَبِيب",
+        "en": "doctor"
+      },
+      {
+        "ar": "سُوق",
+        "en": "market"
+      }
+    ],
+    "pairs": [
+      [
+        {
+          "ar": "جَمَل",
+          "en": "camel"
+        },
+        {
+          "ar": "جَمَال",
+          "en": "beauty"
+        }
+      ]
+    ]
+  },
+  {
+    "id": "ra",
+    "title": "rāʾ (ر): the tapped r",
+    "category": "Consonants",
+    "ipa": [
+      "r"
+    ],
+    "letters": [
+      "ر"
+    ],
+    "tip": "Arabic ر is a quick tap of the tongue tip just behind the upper teeth, like the r in Spanish 'pero' or the tt in American 'better'. A doubled ر (with shadda) is a short trill. Next to a and u it sounds heavy and dark, as in أَحْمَر; next to i it is lighter, as in كَرِيم.",
+    "diagram": "the tongue tip flicks once against the ridge behind the upper front teeth; the tongue does not curl back",
+    "error": "Using the English r, which curls the tongue back, or dropping it at the end of a word as in British English: أَحْمَر ends in a clear tapped r.",
+    "examples": [
+      {
+        "ar": "أَحْمَر",
+        "en": "red"
+      },
+      {
+        "ar": "أَخْضَر",
+        "en": "green"
+      },
+      {
+        "ar": "أَصْفَر",
+        "en": "yellow"
+      },
+      {
+        "ar": "أَزْرَق",
+        "en": "blue"
+      }
+    ],
+    "pairs": [
+      [
+        {
+          "ar": "حَار",
+          "en": "hot"
+        },
+        {
+          "ar": "حَال",
+          "en": "condition"
+        }
+      ]
+    ]
+  }
 ]

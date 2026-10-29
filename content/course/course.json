@@ -231,7 +231,122 @@
      "title": "Colours"
     }
    ],
-   "test": []
+   "test": [
+    {
+     "id": "w2t1",
+     "prompt": "What does this mean?",
+     "options": [
+      "What is your name? (to a woman)",
+      "What do you do? (to a woman)",
+      "Where do you work? (to a man)",
+      "Who are you? (to a woman)"
+     ],
+     "answer": 1,
+     "ar": "مَا عَمَلُكِ؟"
+    },
+    {
+     "id": "w2t2",
+     "prompt": "A woman who is an engineer is …",
+     "options": [
+      "طَبِيبَة",
+      "مُهَنْدِس",
+      "مُهَنْدِسُون",
+      "مُهَنْدِسَة"
+     ],
+     "answer": 3
+    },
+    {
+     "id": "w2t3",
+     "prompt": "Which word means 'Friday'?",
+     "options": [
+      "الْخَمِيس",
+      "السَّبْت",
+      "الْجُمُعَة",
+      "الْأَحَد"
+     ],
+     "answer": 2
+    },
+    {
+     "id": "w2t4",
+     "prompt": "Which phrase means 'the language school'?",
+     "options": [
+      "الْمَدْرَسَة اللُّغَة",
+      "مَدْرَسَة لُغَة",
+      "اللُّغَة الْمَدْرَسَة",
+      "مَدْرَسَةُ اللُّغَة"
+     ],
+     "answer": 3
+    },
+    {
+     "id": "w2t5",
+     "prompt": "What time is it?",
+     "options": [
+      "4:15",
+      "4:30",
+      "3:30",
+      "5:30"
+     ],
+     "answer": 1,
+     "ar": "السَّاعَة الرَّابِعَة وَالنِّصْف"
+    },
+    {
+     "id": "w2t6",
+     "prompt": "How do you say 'quarter to six'?",
+     "options": [
+      "السَّادِسَة وَالرُّبْع",
+      "السَّادِسَة وَالنِّصْف",
+      "الْخَامِسَة إِلَّا رُبْعًا",
+      "السَّادِسَة إِلَّا رُبْعًا"
+     ],
+     "answer": 3
+    },
+    {
+     "id": "w2t7",
+     "prompt": "Complete: 'Layla, when do you wake up?'",
+     "options": [
+      "تَسْتَيْقِظِينَ",
+      "تَسْتَيْقِظُ",
+      "أَسْتَيْقِظُ",
+      "يَسْتَيْقِظُ"
+     ],
+     "answer": 0,
+     "ar": "يَا لَيْلَى، مَتَى …؟"
+    },
+    {
+     "id": "w2t8",
+     "prompt": "How do you say 'they study'?",
+     "options": [
+      "نَدْرُسُ",
+      "تَدْرُسُونَ",
+      "يَدْرُسُونَ",
+      "يَدْرُسُ"
+     ],
+     "answer": 2
+    },
+    {
+     "id": "w2t9",
+     "prompt": "Make it negative: 'I understand.'",
+     "options": [
+      "أَفْهَمُ لَا",
+      "لَا أَفْهَمُ",
+      "لَيْسَ أَفْهَمُ",
+      "لَا فَهِمَ"
+     ],
+     "answer": 1,
+     "ar": "أَفْهَمُ"
+    },
+    {
+     "id": "w2t10",
+     "prompt": "Choose the correct phrase: 'a green bag'",
+     "options": [
+      "حَقِيبَة خَضْرَاء",
+      "حَقِيبَة أَخْضَر",
+      "خَضْرَاء حَقِيبَة",
+      "الْحَقِيبَة أَخْضَر"
+     ],
+     "answer": 0
+    }
+   ]
   },
   {
    "week": 3,
