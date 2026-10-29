@@ -405,7 +405,122 @@
      "title": "How much is it?"
     }
    ],
-   "test": []
+   "test": [
+    {
+     "id": "w3t1",
+     "prompt": "What does this mean?",
+     "options": [
+      "I eat bread with cheese.",
+      "I drink coffee with milk.",
+      "I like tea without sugar.",
+      "I want cold water."
+     ],
+     "answer": 1,
+     "ar": "أَشْرَبُ قَهْوَةً بِالْحَلِيب."
+    },
+    {
+     "id": "w3t2",
+     "prompt": "Complete: 'I'd like a tea, please.'",
+     "options": [
+      "شَايْ",
+      "الشَّاي",
+      "شَايًا",
+      "شَايٌ"
+     ],
+     "answer": 2,
+     "ar": "أُرِيدُ …، مِنْ فَضْلِكَ."
+    },
+    {
+     "id": "w3t3",
+     "prompt": "Which word is a sound plural for a group of men?",
+     "options": [
+      "طَبَّاخُونَ",
+      "أَقْلَام",
+      "صُحُون",
+      "سَلَطَات"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "w3t4",
+     "prompt": "What is the plural of صَحْن (plate)?",
+     "options": [
+      "أَكْوَاب",
+      "مَلَاعِق",
+      "أَرْغِفَة",
+      "صُحُون"
+     ],
+     "answer": 3
+    },
+    {
+     "id": "w3t5",
+     "prompt": "Choose the correct sentence: 'The plates are new.'",
+     "options": [
+      "الصُّحُون جَدِيد.",
+      "الصُّحُون صَغِيرَة.",
+      "الصُّحُون جَدِيدَة."
+     ],
+     "answer": 2
+    },
+    {
+     "id": "w3t6",
+     "prompt": "What does this mean?",
+     "options": [
+      "two glasses",
+      "a glass",
+      "glasses",
+      "the glass"
+     ],
+     "answer": 0,
+     "ar": "كُوبَانِ"
+    },
+    {
+     "id": "w3t7",
+     "prompt": "Complete: 'I'd like two sandwiches.'",
+     "options": [
+      "شَطِيرَة",
+      "شَطِيرَتَانِ",
+      "شَطَائِر",
+      "شَطِيرَتَيْنِ"
+     ],
+     "answer": 3,
+     "ar": "أُرِيدُ …"
+    },
+    {
+     "id": "w3t8",
+     "prompt": "How do you say 'I don't like spicy food'?",
+     "options": [
+      "أُحِبُّ الطَّعَامَ الْحَارَّ.",
+      "لَا أُحِبُّ الطَّعَامَ الْحَارَّ.",
+      "الطَّعَام حَارّ جِدًّا.",
+      "هَلْ تُحِبُّ الطَّعَامَ الْحَارَّ؟"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "w3t9",
+     "prompt": "Which number is this?",
+     "options": [
+      "75",
+      "57",
+      "15",
+      "50"
+     ],
+     "answer": 0,
+     "ar": "خَمْسَة وَسَبْعُونَ"
+    },
+    {
+     "id": "w3t10",
+     "prompt": "Complete: 'twenty pounds'",
+     "options": [
+      "جُنَيْه",
+      "جُنَيْهَات",
+      "جُنَيْهًا"
+     ],
+     "answer": 2,
+     "ar": "عِشْرُونَ …"
+    }
+   ]
   },
   {
    "week": 4,

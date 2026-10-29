@@ -152,5 +152,93 @@
         }
       ]
     ]
+  },
+  {
+    "id": "tanwin",
+    "title": "Tanwīn: the endings -un, -an, -in",
+    "category": "Endings",
+    "ipa": [
+      "un",
+      "an",
+      "in"
+    ],
+    "letters": [
+      "ً",
+      "ٌ",
+      "ٍ"
+    ],
+    "tip": "A doubled vowel mark at the end of a word adds an n: two dammas = -un, two fathas = -an, two kasras = -in. You hear it on words without الـ. The -an ending is usually written on an extra alif (شَايًا), but not after ة (قَهْوَةً). At the end of a sentence, careful readers drop -un and -in and say -an as a long -ā; set phrases such as شُكْرًا keep their -an in everyday speech.",
+    "diagram": "two fathas above the last letter = -an · two dammas above = -un · two kasras below = -in · the n is pronounced but never written as a letter",
+    "error": "Putting tanwīn on a word that already has الـ. A word has either 'the' or tanwīn, never both: خُبْزًا (bread) or الْخُبْزَ (the bread).",
+    "examples": [
+      {
+        "ar": "شُكْرًا",
+        "en": "thank you"
+      },
+      {
+        "ar": "خُبْزًا",
+        "en": "bread (object)"
+      },
+      {
+        "ar": "قَهْوَةً",
+        "en": "coffee (object)"
+      }
+    ],
+    "pairs": [
+      [
+        {
+          "ar": "شَايًا",
+          "en": "tea (object, no 'the')"
+        },
+        {
+          "ar": "الشَّايَ",
+          "en": "the tea (object)"
+        }
+      ]
+    ]
+  },
+  {
+    "id": "hamza",
+    "title": "Hamza (ء): the glottal stop",
+    "category": "Throat sounds",
+    "ipa": [
+      "ʔ"
+    ],
+    "letters": [
+      "ء",
+      "أ",
+      "إ",
+      "ؤ",
+      "ئ"
+    ],
+    "tip": "Hamza is the little catch in your throat in the middle of 'uh-oh'. It can stand alone (ء) or sit on a seat: أ, إ, ؤ or ئ. The seat is only spelling; the sound is always the same short stop. Say it clearly in the middle and at the end of a word: مَاء (water) ends with a tiny stop.",
+    "diagram": "the vocal cords close completely for a moment and then open: a short silence before or after the vowel",
+    "error": "Dropping hamza in the middle of a word. سُؤَال (question) needs a clear stop between the u and the a, and شَيْئًا (something) a stop before the a.",
+    "examples": [
+      {
+        "ar": "مَاء",
+        "en": "water"
+      },
+      {
+        "ar": "أُرِيدُ",
+        "en": "I want"
+      },
+      {
+        "ar": "سُؤَال",
+        "en": "question"
+      }
+    ],
+    "pairs": [
+      [
+        {
+          "ar": "سَأَلَ",
+          "en": "he asked"
+        },
+        {
+          "ar": "سَالَ",
+          "en": "it flowed"
+        }
+      ]
+    ]
   }
 ]

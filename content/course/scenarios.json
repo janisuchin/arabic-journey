@@ -1320,5 +1320,1031 @@
         "answer": 2
       }
     ]
+  },
+  {
+    "id": "restaurant",
+    "title": "Dinner for two",
+    "emoji": "🍽️",
+    "status": "needs-review",
+    "intro": "You have dinner with a friend in a restaurant in Cairo. Useful phrases: طَاوِلَة لِاثْنَيْنِ (a table for two), الْقَائِمَة (the menu) and الْحِسَاب (the bill).",
+    "dialogue": {
+      "title": "A table for two",
+      "speakers": [
+        {
+          "key": "waiter",
+          "name": "Waiter",
+          "nameAr": "النَّادِل"
+        },
+        {
+          "key": "daniel",
+          "name": "Daniel",
+          "nameAr": "دَانْيَال"
+        }
+      ],
+      "culture": "Many Egyptian restaurants add a service charge to the bill, and people often leave a small tip for the waiter as well. Speaking to two people, the waiter uses the dual: تَفَضَّلَا and شُكْرًا لَكُمَا.",
+      "lines": [
+        {
+          "id": "restaurant-l1",
+          "sp": "waiter",
+          "ar": "مَسَاءُ الْخَيْر! أَهْلًا بِكَ فِي مَطْعَمِنَا. كَمْ شَخْصًا؟",
+          "en": "Good evening! Welcome to our restaurant. How many people?",
+          "segs": [
+            [
+              "مَسَاءُ",
+              "evening (of)"
+            ],
+            [
+              "الْخَيْر",
+              "the goodness"
+            ],
+            [
+              "أَهْلًا",
+              "welcome"
+            ],
+            [
+              "بِكَ",
+              "with you (to a man)"
+            ],
+            [
+              "فِي",
+              "in, to"
+            ],
+            [
+              "مَطْعَمِنَا",
+              "our restaurant"
+            ],
+            [
+              "كَمْ",
+              "how many"
+            ],
+            [
+              "شَخْصًا",
+              "person (after 'how many')"
+            ]
+          ]
+        },
+        {
+          "id": "restaurant-l2",
+          "sp": "daniel",
+          "ar": "مَسَاءُ النُّور! نَحْنُ شَخْصَانِ: أَنَا وَصَدِيقِي. طَاوِلَة لِاثْنَيْنِ، مِنْ فَضْلِكَ.",
+          "en": "Good evening! There are two of us: me and my friend. A table for two, please.",
+          "segs": [
+            [
+              "مَسَاءُ",
+              "evening (of)"
+            ],
+            [
+              "النُّور",
+              "the light"
+            ],
+            [
+              "نَحْنُ",
+              "we"
+            ],
+            [
+              "شَخْصَانِ",
+              "two people"
+            ],
+            [
+              "أَنَا",
+              "I, me"
+            ],
+            [
+              "وَصَدِيقِي",
+              "and my friend"
+            ],
+            [
+              "طَاوِلَة",
+              "table"
+            ],
+            [
+              "لِاثْنَيْنِ",
+              "for two"
+            ],
+            [
+              "مِنْ",
+              "from"
+            ],
+            [
+              "فَضْلِكَ",
+              "your kindness (to a man): 'please'"
+            ]
+          ]
+        },
+        {
+          "id": "restaurant-l3",
+          "sp": "waiter",
+          "ar": "تَفَضَّلَا، هٰذِهِ طَاوِلَة جَمِيلَة بِجَانِبِ الشُّبَّاك. وَهٰذِهِ الْقَائِمَة.",
+          "en": "Please sit down, here is a nice table by the window. And here is the menu.",
+          "segs": [
+            [
+              "تَفَضَّلَا",
+              "please, here you are (to two people)"
+            ],
+            [
+              "هٰذِهِ",
+              "this (f)"
+            ],
+            [
+              "طَاوِلَة",
+              "table"
+            ],
+            [
+              "جَمِيلَة",
+              "beautiful, nice (f)"
+            ],
+            [
+              "بِجَانِبِ",
+              "next to"
+            ],
+            [
+              "الشُّبَّاك",
+              "the window"
+            ],
+            [
+              "وَهٰذِهِ",
+              "and this (f)"
+            ],
+            [
+              "الْقَائِمَة",
+              "the menu"
+            ]
+          ]
+        },
+        {
+          "id": "restaurant-l4",
+          "sp": "daniel",
+          "ar": "شُكْرًا. مَا هٰذَا الطَّبَق؟ هَلْ فِيهِ لَحْم؟",
+          "en": "Thank you. What is this dish? Is there meat in it?",
+          "segs": [
+            [
+              "شُكْرًا",
+              "thank you"
+            ],
+            [
+              "مَا",
+              "what"
+            ],
+            [
+              "هٰذَا",
+              "this (m)"
+            ],
+            [
+              "الطَّبَق",
+              "the dish"
+            ],
+            [
+              "هَلْ",
+              "(starts a yes/no question)"
+            ],
+            [
+              "فِيهِ",
+              "in it (m)"
+            ],
+            [
+              "لَحْم",
+              "meat"
+            ]
+          ]
+        },
+        {
+          "id": "restaurant-l5",
+          "sp": "waiter",
+          "ar": "هٰذِهِ مُلُوخِيَّة بِالدَّجَاج. وَعِنْدَنَا أَيْضًا مَحْشِي بِدُونِ لَحْم.",
+          "en": "This is molokhia with chicken. We also have stuffed vegetables without meat.",
+          "segs": [
+            [
+              "هٰذِهِ",
+              "this (f)"
+            ],
+            [
+              "مُلُوخِيَّة",
+              "molokhia (green leaf stew)"
+            ],
+            [
+              "بِالدَّجَاج",
+              "with chicken"
+            ],
+            [
+              "وَعِنْدَنَا",
+              "and we have"
+            ],
+            [
+              "أَيْضًا",
+              "also, too"
+            ],
+            [
+              "مَحْشِي",
+              "stuffed vegetables"
+            ],
+            [
+              "بِدُونِ",
+              "without"
+            ],
+            [
+              "لَحْم",
+              "meat"
+            ]
+          ]
+        },
+        {
+          "id": "restaurant-l6",
+          "sp": "daniel",
+          "ar": "إِذَنْ نُرِيدُ طَبَقَيْنِ مِنَ الْمَحْشِي، وَسَلَطَةً خَضْرَاء، مِنْ فَضْلِكَ.",
+          "en": "Then we'd like two plates of stuffed vegetables and a green salad, please.",
+          "segs": [
+            [
+              "إِذَنْ",
+              "then, so"
+            ],
+            [
+              "نُرِيدُ",
+              "we want, we'd like"
+            ],
+            [
+              "طَبَقَيْنِ",
+              "two dishes (object)"
+            ],
+            [
+              "مِنَ",
+              "of, from"
+            ],
+            [
+              "الْمَحْشِي",
+              "the stuffed vegetables"
+            ],
+            [
+              "وَسَلَطَةً",
+              "and a salad (object)"
+            ],
+            [
+              "خَضْرَاء",
+              "green (f)"
+            ],
+            [
+              "مِنْ",
+              "from"
+            ],
+            [
+              "فَضْلِكَ",
+              "your kindness (to a man): 'please'"
+            ]
+          ]
+        },
+        {
+          "id": "restaurant-l7",
+          "sp": "waiter",
+          "ar": "وَمَاذَا تَشْرَبَانِ؟ عِنْدَنَا عَصِير وَمَاء وَمَشْرُوبَات بَارِدَة.",
+          "en": "And what will you two drink? We have juice, water and cold drinks.",
+          "segs": [
+            [
+              "وَمَاذَا",
+              "and what (before a verb)"
+            ],
+            [
+              "تَشْرَبَانِ",
+              "you two drink (dual)"
+            ],
+            [
+              "عِنْدَنَا",
+              "we have"
+            ],
+            [
+              "عَصِير",
+              "juice"
+            ],
+            [
+              "وَمَاء",
+              "and water"
+            ],
+            [
+              "وَمَشْرُوبَات",
+              "and drinks"
+            ],
+            [
+              "بَارِدَة",
+              "cold (f)"
+            ]
+          ]
+        },
+        {
+          "id": "restaurant-l8",
+          "sp": "daniel",
+          "ar": "زُجَاجَتَيْنِ مِنَ الْمَاء، لَوْ سَمَحْتَ. وَهَلِ الطَّعَام حَارّ؟",
+          "en": "Two bottles of water, please. And is the food spicy?",
+          "segs": [
+            [
+              "زُجَاجَتَيْنِ",
+              "two bottles (object)"
+            ],
+            [
+              "مِنَ",
+              "of, from"
+            ],
+            [
+              "الْمَاء",
+              "the water"
+            ],
+            [
+              "لَوْ",
+              "if"
+            ],
+            [
+              "سَمَحْتَ",
+              "you allow (to a man)"
+            ],
+            [
+              "وَهَلِ",
+              "and (starts a yes/no question)"
+            ],
+            [
+              "الطَّعَام",
+              "the food"
+            ],
+            [
+              "حَارّ",
+              "hot, spicy"
+            ]
+          ]
+        },
+        {
+          "id": "restaurant-l9",
+          "sp": "waiter",
+          "ar": "لَا، لَيْسَ حَارًّا. وَالصَّلْصَة الْحَارَّة عَلَى الطَّاوِلَة.",
+          "en": "No, it isn't spicy. And the hot sauce is on the table.",
+          "segs": [
+            [
+              "لَا",
+              "no"
+            ],
+            [
+              "لَيْسَ",
+              "is not, it isn't"
+            ],
+            [
+              "حَارًّا",
+              "spicy (after laysa)"
+            ],
+            [
+              "وَالصَّلْصَة",
+              "and the sauce"
+            ],
+            [
+              "الْحَارَّة",
+              "the hot, spicy (f)"
+            ],
+            [
+              "عَلَى",
+              "on"
+            ],
+            [
+              "الطَّاوِلَة",
+              "the table"
+            ]
+          ]
+        },
+        {
+          "id": "restaurant-l10",
+          "sp": "daniel",
+          "ar": "الْمَحْشِي لَذِيذ جِدًّا! الْحِسَاب، مِنْ فَضْلِكَ.",
+          "en": "The stuffed vegetables are delicious! The bill, please.",
+          "segs": [
+            [
+              "الْمَحْشِي",
+              "the stuffed vegetables"
+            ],
+            [
+              "لَذِيذ",
+              "delicious"
+            ],
+            [
+              "جِدًّا",
+              "very"
+            ],
+            [
+              "الْحِسَاب",
+              "the bill"
+            ],
+            [
+              "مِنْ",
+              "from"
+            ],
+            [
+              "فَضْلِكَ",
+              "your kindness (to a man): 'please'"
+            ]
+          ]
+        },
+        {
+          "id": "restaurant-l11",
+          "sp": "waiter",
+          "ar": "الْحِسَاب مِئَة وَعِشْرُونَ جُنَيْهًا. شُكْرًا لَكُمَا!",
+          "en": "The bill is a hundred and twenty pounds. Thank you both!",
+          "segs": [
+            [
+              "الْحِسَاب",
+              "the bill"
+            ],
+            [
+              "مِئَة",
+              "hundred"
+            ],
+            [
+              "وَعِشْرُونَ",
+              "and twenty"
+            ],
+            [
+              "جُنَيْهًا",
+              "pound (after 11–99)"
+            ],
+            [
+              "شُكْرًا",
+              "thank you"
+            ],
+            [
+              "لَكُمَا",
+              "to you two (dual)"
+            ]
+          ]
+        },
+        {
+          "id": "restaurant-l12",
+          "sp": "daniel",
+          "ar": "تَفَضَّلْ. شُكْرًا لَكَ، وَالطَّبَّاخُونَ هُنَا مُمْتَازُونَ!",
+          "en": "Here you are. Thank you, and the cooks here are excellent!",
+          "segs": [
+            [
+              "تَفَضَّلْ",
+              "here you are (to a man)"
+            ],
+            [
+              "شُكْرًا",
+              "thank you"
+            ],
+            [
+              "لَكَ",
+              "to you (to a man)"
+            ],
+            [
+              "وَالطَّبَّاخُونَ",
+              "and the cooks"
+            ],
+            [
+              "هُنَا",
+              "here"
+            ],
+            [
+              "مُمْتَازُونَ",
+              "excellent (m, plural)"
+            ]
+          ]
+        }
+      ]
+    },
+    "mistakes": [
+      {
+        "wrong": "نُرِيدُ طَبَقَانِ مِنَ الْمَحْشِي",
+        "right": "نُرِيدُ طَبَقَيْنِ مِنَ الْمَحْشِي",
+        "why": "After a verb the dual ends in -ayni, not -āni."
+      },
+      {
+        "wrong": "مِئَة وَعِشْرُونَ جُنَيْهَات",
+        "right": "مِئَة وَعِشْرُونَ جُنَيْهًا",
+        "why": "The noun follows the last number: after twenty it is singular with -an."
+      }
+    ],
+    "quiz": [
+      {
+        "id": "restaurant-q1",
+        "prompt": "How many people are at Daniel's table?",
+        "options": [
+          "one",
+          "two",
+          "three",
+          "four"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "restaurant-q2",
+        "prompt": "What does this mean?",
+        "ar": "طَاوِلَة لِاثْنَيْنِ، مِنْ فَضْلِكَ.",
+        "options": [
+          "Two bottles of water, please.",
+          "The menu, please.",
+          "A table for two, please.",
+          "Two salads, please."
+        ],
+        "answer": 2
+      },
+      {
+        "id": "restaurant-q3",
+        "prompt": "How much is the bill?",
+        "options": [
+          "seventy pounds",
+          "a hundred pounds",
+          "twenty pounds",
+          "a hundred and twenty pounds"
+        ],
+        "answer": 3
+      }
+    ]
+  },
+  {
+    "id": "bakery",
+    "title": "At the bakery",
+    "emoji": "🥐",
+    "status": "needs-review",
+    "intro": "You buy bread and pastries early in the morning at a bakery in Cairo. Useful phrases: أُرِيدُ (I'd like), بِكَمْ؟ (how much?) and الْبَاقِي (the change).",
+    "dialogue": {
+      "title": "Five loaves and two croissants",
+      "speakers": [
+        {
+          "key": "baker",
+          "name": "Baker",
+          "nameAr": "الْخَبَّاز"
+        },
+        {
+          "key": "layla",
+          "name": "Layla",
+          "nameAr": "لَيْلَى"
+        }
+      ],
+      "culture": "Bread is so important in Egypt that in everyday speech it is called 'ʿaysh', which means 'life'. Bakeries sell it hot in the morning, and round biscuits called kaʿk are a favourite treat, especially at Eid.",
+      "lines": [
+        {
+          "id": "bakery-l1",
+          "sp": "baker",
+          "ar": "صَبَاحُ الْخَيْر يَا آنِسَة! الْخُبْز طَازَج وَسَاخِن الْآن.",
+          "en": "Good morning, miss! The bread is fresh and hot right now.",
+          "segs": [
+            [
+              "صَبَاحُ",
+              "morning (of)"
+            ],
+            [
+              "الْخَيْر",
+              "the goodness"
+            ],
+            [
+              "يَا",
+              "O (calling someone)"
+            ],
+            [
+              "آنِسَة",
+              "miss (young woman)"
+            ],
+            [
+              "الْخُبْز",
+              "the bread"
+            ],
+            [
+              "طَازَج",
+              "fresh"
+            ],
+            [
+              "وَسَاخِن",
+              "and hot"
+            ],
+            [
+              "الْآن",
+              "now"
+            ]
+          ]
+        },
+        {
+          "id": "bakery-l2",
+          "sp": "layla",
+          "ar": "صَبَاحُ النُّور! أُرِيدُ خَمْسَةَ أَرْغِفَة مِنَ الْخُبْز الْبَلَدِيّ، مِنْ فَضْلِكَ.",
+          "en": "Good morning! I'd like five loaves of country bread, please.",
+          "segs": [
+            [
+              "صَبَاحُ",
+              "morning (of)"
+            ],
+            [
+              "النُّور",
+              "the light"
+            ],
+            [
+              "أُرِيدُ",
+              "I want, I'd like"
+            ],
+            [
+              "خَمْسَةَ",
+              "five (object)"
+            ],
+            [
+              "أَرْغِفَة",
+              "loaves"
+            ],
+            [
+              "مِنَ",
+              "of, from"
+            ],
+            [
+              "الْخُبْز",
+              "the bread"
+            ],
+            [
+              "الْبَلَدِيّ",
+              "the local, country (style)"
+            ],
+            [
+              "مِنْ",
+              "from"
+            ],
+            [
+              "فَضْلِكَ",
+              "your kindness (to a man): 'please'"
+            ]
+          ]
+        },
+        {
+          "id": "bakery-l3",
+          "sp": "baker",
+          "ar": "حَاضِر! هَلْ تُرِيدِينَ شَيْئًا آخَر؟ عِنْدَنَا كَعْك وَكَرْوَاسُون.",
+          "en": "Certainly! Would you like anything else? We have kaʿk biscuits and croissants.",
+          "segs": [
+            [
+              "حَاضِر",
+              "certainly, right away"
+            ],
+            [
+              "هَلْ",
+              "(starts a yes/no question)"
+            ],
+            [
+              "تُرِيدِينَ",
+              "you want (to a woman)"
+            ],
+            [
+              "شَيْئًا",
+              "something (object)"
+            ],
+            [
+              "آخَر",
+              "other, else"
+            ],
+            [
+              "عِنْدَنَا",
+              "we have"
+            ],
+            [
+              "كَعْك",
+              "cake, pastry; kaʿk biscuits"
+            ],
+            [
+              "وَكَرْوَاسُون",
+              "and croissants"
+            ]
+          ]
+        },
+        {
+          "id": "bakery-l4",
+          "sp": "layla",
+          "ar": "بِكَمِ الْكَرْوَاسُون؟ وَبِكَمِ الْكَعْكَة؟",
+          "en": "How much is a croissant? And how much is one kaʿk?",
+          "segs": [
+            [
+              "بِكَمِ",
+              "for how much (price)"
+            ],
+            [
+              "الْكَرْوَاسُون",
+              "the croissant"
+            ],
+            [
+              "وَبِكَمِ",
+              "and for how much"
+            ],
+            [
+              "الْكَعْكَة",
+              "the kaʿk biscuit (one)"
+            ]
+          ]
+        },
+        {
+          "id": "bakery-l5",
+          "sp": "baker",
+          "ar": "الْكَرْوَاسُون بِخَمْسَةَ عَشَرَ جُنَيْهًا، وَالْكَعْكَة بِعَشَرَة جُنَيْهَات.",
+          "en": "A croissant is fifteen pounds, and a kaʿk is ten pounds.",
+          "segs": [
+            [
+              "الْكَرْوَاسُون",
+              "the croissant"
+            ],
+            [
+              "بِخَمْسَةَ",
+              "for five (part of 'fifteen')"
+            ],
+            [
+              "عَشَرَ",
+              "ten (part of 'fifteen')"
+            ],
+            [
+              "جُنَيْهًا",
+              "pound (after 11–99)"
+            ],
+            [
+              "وَالْكَعْكَة",
+              "and the kaʿk biscuit"
+            ],
+            [
+              "بِعَشَرَة",
+              "for ten"
+            ],
+            [
+              "جُنَيْهَات",
+              "pounds"
+            ]
+          ]
+        },
+        {
+          "id": "bakery-l6",
+          "sp": "layla",
+          "ar": "إِذَنْ أُرِيدُ قِطْعَتَيْنِ مِنَ الْكَرْوَاسُون، وَثَلَاثَ كَعْكَات.",
+          "en": "Then I'd like two croissants and three kaʿk biscuits.",
+          "segs": [
+            [
+              "إِذَنْ",
+              "then, so"
+            ],
+            [
+              "أُرِيدُ",
+              "I want, I'd like"
+            ],
+            [
+              "قِطْعَتَيْنِ",
+              "two pieces (object)"
+            ],
+            [
+              "مِنَ",
+              "of, from"
+            ],
+            [
+              "الْكَرْوَاسُون",
+              "the croissant"
+            ],
+            [
+              "وَثَلَاثَ",
+              "and three (with a feminine noun)"
+            ],
+            [
+              "كَعْكَات",
+              "kaʿk biscuits"
+            ]
+          ]
+        },
+        {
+          "id": "bakery-l7",
+          "sp": "baker",
+          "ar": "تَفَضَّلِي: خَمْسَةُ أَرْغِفَة، وَقِطْعَتَانِ مِنَ الْكَرْوَاسُون، وَثَلَاثُ كَعْكَات.",
+          "en": "Here you are: five loaves, two croissants and three kaʿk biscuits.",
+          "segs": [
+            [
+              "تَفَضَّلِي",
+              "here you are (to a woman)"
+            ],
+            [
+              "خَمْسَةُ",
+              "five"
+            ],
+            [
+              "أَرْغِفَة",
+              "loaves"
+            ],
+            [
+              "وَقِطْعَتَانِ",
+              "and two pieces"
+            ],
+            [
+              "مِنَ",
+              "of, from"
+            ],
+            [
+              "الْكَرْوَاسُون",
+              "the croissant"
+            ],
+            [
+              "وَثَلَاثُ",
+              "and three (with a feminine noun)"
+            ],
+            [
+              "كَعْكَات",
+              "kaʿk biscuits"
+            ]
+          ]
+        },
+        {
+          "id": "bakery-l8",
+          "sp": "layla",
+          "ar": "شُكْرًا! كَمِ الْحِسَاب، مِنْ فَضْلِكَ؟",
+          "en": "Thank you! How much is the bill, please?",
+          "segs": [
+            [
+              "شُكْرًا",
+              "thank you"
+            ],
+            [
+              "كَمِ",
+              "how much"
+            ],
+            [
+              "الْحِسَاب",
+              "the bill"
+            ],
+            [
+              "مِنْ",
+              "from"
+            ],
+            [
+              "فَضْلِكَ",
+              "your kindness (to a man): 'please'"
+            ]
+          ]
+        },
+        {
+          "id": "bakery-l9",
+          "sp": "baker",
+          "ar": "الْخُبْز بِعَشَرَة، وَالْكَرْوَاسُون بِثَلَاثِينَ، وَالْكَعْك بِثَلَاثِينَ. الْمَجْمُوع سَبْعُونَ جُنَيْهًا.",
+          "en": "The bread is ten, the croissants thirty and the kaʿk thirty. That's seventy pounds altogether.",
+          "segs": [
+            [
+              "الْخُبْز",
+              "the bread"
+            ],
+            [
+              "بِعَشَرَة",
+              "for ten"
+            ],
+            [
+              "وَالْكَرْوَاسُون",
+              "and the croissants"
+            ],
+            [
+              "بِثَلَاثِينَ",
+              "for thirty"
+            ],
+            [
+              "وَالْكَعْك",
+              "and the kaʿk biscuits"
+            ],
+            [
+              "بِثَلَاثِينَ",
+              "for thirty"
+            ],
+            [
+              "الْمَجْمُوع",
+              "the total"
+            ],
+            [
+              "سَبْعُونَ",
+              "seventy"
+            ],
+            [
+              "جُنَيْهًا",
+              "pound (after 11–99)"
+            ]
+          ]
+        },
+        {
+          "id": "bakery-l10",
+          "sp": "layla",
+          "ar": "تَفَضَّلْ، هٰذِهِ مِئَةُ جُنَيْه.",
+          "en": "Here you are, this is a hundred pounds.",
+          "segs": [
+            [
+              "تَفَضَّلْ",
+              "here you are (to a man)"
+            ],
+            [
+              "هٰذِهِ",
+              "this (f)"
+            ],
+            [
+              "مِئَةُ",
+              "a hundred (of)"
+            ],
+            [
+              "جُنَيْه",
+              "pound (Egyptian money)"
+            ]
+          ]
+        },
+        {
+          "id": "bakery-l11",
+          "sp": "baker",
+          "ar": "وَهٰذَا الْبَاقِي: ثَلَاثُونَ جُنَيْهًا. بِالْهَنَاء وَالشِّفَاء!",
+          "en": "And here is your change: thirty pounds. Enjoy!",
+          "segs": [
+            [
+              "وَهٰذَا",
+              "and this (m)"
+            ],
+            [
+              "الْبَاقِي",
+              "the change, the rest"
+            ],
+            [
+              "ثَلَاثُونَ",
+              "thirty"
+            ],
+            [
+              "جُنَيْهًا",
+              "pound (after 11–99)"
+            ],
+            [
+              "بِالْهَنَاء",
+              "with happiness"
+            ],
+            [
+              "وَالشِّفَاء",
+              "and good health ('enjoy your meal')"
+            ]
+          ]
+        },
+        {
+          "id": "bakery-l12",
+          "sp": "layla",
+          "ar": "شُكْرًا جَزِيلًا! رَائِحَةُ الْخُبْز جَمِيلَة جِدًّا.",
+          "en": "Thank you very much! The bread smells wonderful.",
+          "segs": [
+            [
+              "شُكْرًا",
+              "thank you"
+            ],
+            [
+              "جَزِيلًا",
+              "very much (lit. abundant)"
+            ],
+            [
+              "رَائِحَةُ",
+              "smell (of)"
+            ],
+            [
+              "الْخُبْز",
+              "the bread"
+            ],
+            [
+              "جَمِيلَة",
+              "beautiful, lovely (f)"
+            ],
+            [
+              "جِدًّا",
+              "very"
+            ]
+          ]
+        }
+      ]
+    },
+    "mistakes": [
+      {
+        "wrong": "خَمْسَة رَغِيف",
+        "right": "خَمْسَة أَرْغِفَة",
+        "why": "After the numbers three to ten the noun is plural."
+      },
+      {
+        "wrong": "بِخَمْسَةَ عَشَرَ جُنَيْهَات",
+        "right": "بِخَمْسَةَ عَشَرَ جُنَيْهًا",
+        "why": "After 11 to 99 the noun is singular with the ending -an."
+      }
+    ],
+    "quiz": [
+      {
+        "id": "bakery-q1",
+        "prompt": "How many loaves of bread does Layla buy?",
+        "options": [
+          "three",
+          "five",
+          "ten",
+          "two"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "bakery-q2",
+        "prompt": "How much is one croissant?",
+        "options": [
+          "ten pounds",
+          "twenty pounds",
+          "fifteen pounds",
+          "thirty pounds"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "bakery-q3",
+        "prompt": "What does this mean?",
+        "ar": "خَمْسَةُ أَرْغِفَة",
+        "options": [
+          "fifteen loaves",
+          "one loaf",
+          "five spoons",
+          "five loaves"
+        ],
+        "answer": 3
+      }
+    ]
   }
 ]

@@ -499,5 +499,411 @@
         "en": "The car is white."
       }
     ]
+  },
+  {
+    "id": "accusative",
+    "title": "The object ending -an",
+    "titleAr": "النَّصْب",
+    "firstDay": 15,
+    "summary": "The object of a verb takes the ending -a: -an (tanwīn) without 'the', a single -a with الـ.",
+    "formula": "verb + object: آكُلُ خُبْزًا (I eat bread) · أَشْرَبُ الشَّايَ (I drink tea)",
+    "explanation": "In آكُلُ خُبْزًا (I eat bread), خُبْز is the object, the thing that is eaten, so it ends in -an. This ending is written as two fathas, usually with an extra alif: خُبْزًا, شَايًا. After ة there is no extra alif: قَهْوَةً. A word with الـ never has tanwīn, so a definite object ends in a single fatha: أَشْرَبُ الشَّايَ. Arabic uses الـ for things in general, where English uses no article at all. In everyday speech, and at the end of a sentence, the ending is often not pronounced, but you will see it in careful writing.",
+    "table": {
+      "head": [
+        "Object",
+        "Arabic",
+        "English"
+      ],
+      "rows": [
+        [
+          "indefinite",
+          "آكُلُ خُبْزًا.",
+          "I eat bread."
+        ],
+        [
+          "indefinite, after ة",
+          "أَشْرَبُ قَهْوَةً.",
+          "I drink a coffee."
+        ],
+        [
+          "definite (with الـ)",
+          "أَشْرَبُ الشَّايَ.",
+          "I drink tea."
+        ],
+        [
+          "two objects",
+          "آكُلُ بَيْضًا وَخُبْزًا.",
+          "I eat eggs and bread."
+        ]
+      ]
+    },
+    "examples": [
+      {
+        "ar": "آكُلُ خُبْزًا وَجُبْنًا فِي الْفُطُور.",
+        "en": "I eat bread and cheese for breakfast."
+      },
+      {
+        "ar": "هَلْ تَشْرَبِينَ الشَّايَ أَمِ الْقَهْوَةَ؟",
+        "en": "Do you drink tea or coffee? (to a woman)"
+      }
+    ]
+  },
+  {
+    "id": "ordering-w3",
+    "title": "Ordering politely: أُرِيدُ … مِنْ فَضْلِكَ",
+    "titleAr": "مِنْ فَضْلِكَ",
+    "firstDay": 16,
+    "summary": "Order with أُرِيدُ (I'd like) + the thing you want + 'please'. Ask what there is with هَلْ عِنْدَكُمْ…؟",
+    "formula": "أُرِيدُ + object (-an) + مِنْ فَضْلِكَ / مِنْ فَضْلِكِ",
+    "explanation": "أُرِيدُ means 'I want', and with 'please' it is the normal polite way to order: أُرِيدُ شَايًا، مِنْ فَضْلِكَ (I'd like a tea, please). 'Please' changes with the person you speak to: مِنْ فَضْلِكَ to a man, مِنْ فَضْلِكِ to a woman. لَوْ سَمَحْتَ / لَوْ سَمَحْتِ ('if you allow') is just as polite and is also how you catch a waiter's attention. To ask what a café has, say هَلْ عِنْدَكُمْ…؟ (do you have…?). A cup or a bottle comes first, then the drink: فِنْجَانُ قَهْوَة (a cup of coffee), زُجَاجَةُ مَاء (a bottle of water). After أُرِيدُ the first word takes the object ending: أُرِيدُ فِنْجَانَ قَهْوَة.",
+    "table": {
+      "head": [
+        "Arabic",
+        "English",
+        "Use"
+      ],
+      "rows": [
+        [
+          "أُرِيدُ شَايًا، مِنْ فَضْلِكَ.",
+          "I'd like a tea, please.",
+          "order (to a man)"
+        ],
+        [
+          "أُرِيدُ قَهْوَةً، مِنْ فَضْلِكِ.",
+          "I'd like a coffee, please.",
+          "order (to a woman)"
+        ],
+        [
+          "هَلْ عِنْدَكُمْ عَصِير لَيْمُون؟",
+          "Do you have lemon juice?",
+          "ask what there is"
+        ],
+        [
+          "مَاذَا تُرِيدُ؟",
+          "What would you like?",
+          "the waiter, to a man"
+        ],
+        [
+          "مَاذَا تُرِيدِينَ؟",
+          "What would you like?",
+          "the waiter, to a woman"
+        ],
+        [
+          "الْحِسَاب، لَوْ سَمَحْتَ.",
+          "The bill, please.",
+          "at the end"
+        ]
+      ]
+    },
+    "examples": [
+      {
+        "ar": "أُرِيدُ فِنْجَانَ قَهْوَة، مِنْ فَضْلِكَ.",
+        "en": "I'd like a cup of coffee, please."
+      },
+      {
+        "ar": "أُرِيدُ شَايًا بِدُونِ سُكَّر، لَوْ سَمَحْتِ.",
+        "en": "I'd like a tea without sugar, please. (to a woman)"
+      }
+    ]
+  },
+  {
+    "id": "sound-plurals",
+    "title": "Sound plurals: -ūna and -āt",
+    "titleAr": "الْجَمْع السَّالِم",
+    "firstDay": 17,
+    "summary": "Add ـُونَ for a group of men or a mixed group, and ـَات for women and many things. The singular stays whole.",
+    "formula": "طَبَّاخ → طَبَّاخُونَ (-ūna) · سَلَطَة → سَلَطَات (-āt)",
+    "explanation": "The masculine sound plural adds ـُونَ: طَبَّاخ (cook) → طَبَّاخُونَ (cooks), مِصْرِيّ → مِصْرِيُّونَ (Egyptians). After a verb or a preposition the ending becomes ـِينَ: شُكْرًا لِلطَّبَّاخِينَ (thanks to the cooks). It is used for people, and adjectives that describe male people take it too: طَبَّاخُونَ مُمْتَازُونَ. The feminine sound plural drops ة and adds ـَات: سَلَطَة → سَلَطَات, طَبَّاخَة → طَبَّاخَات. Many masculine words for things also take ـَات: مَشْرُوب → مَشْرُوبَات (drinks). Important: the plural of a thing takes a feminine singular adjective: مَشْرُوبَات بَارِدَة (cold drinks), سَلَطَات كَثِيرَة (many salads).",
+    "table": {
+      "head": [
+        "Singular",
+        "Plural",
+        "Rule"
+      ],
+      "rows": [
+        [
+          "طَبَّاخ",
+          "طَبَّاخُونَ",
+          "men or mixed: + ـُونَ"
+        ],
+        [
+          "طَبَّاخ",
+          "طَبَّاخِينَ",
+          "after a verb or preposition: + ـِينَ"
+        ],
+        [
+          "طَبَّاخَة",
+          "طَبَّاخَات",
+          "women: ة → ـَات"
+        ],
+        [
+          "سَلَطَة",
+          "سَلَطَات",
+          "things: ة → ـَات"
+        ],
+        [
+          "مَشْرُوب",
+          "مَشْرُوبَات",
+          "things: + ـَات"
+        ]
+      ]
+    },
+    "examples": [
+      {
+        "ar": "الطَّبَّاخُونَ فِي هٰذَا الْمَطْعَم مِصْرِيُّونَ.",
+        "en": "The cooks in this restaurant are Egyptian."
+      },
+      {
+        "ar": "عِنْدَنَا سَلَطَات وَمَشْرُوبَات بَارِدَة.",
+        "en": "We have salads and cold drinks."
+      }
+    ]
+  },
+  {
+    "id": "liking",
+    "title": "Likes and dislikes: أُحِبُّ and يُعْجِبُنِي",
+    "titleAr": "أُحِبُّ",
+    "firstDay": 18,
+    "summary": "أُحِبُّ + الـ noun = I like (things in general take الـ). لَا أُحِبُّ = I don't like. With يُعْجِبُنِي the thing you like is the subject.",
+    "formula": "(لَا) أُحِبُّ + الـ noun (-a) · يُعْجِبُنِي / تُعْجِبُنِي + الـ noun",
+    "explanation": "أُحِبُّ means 'I like' and 'I love'. Something you like in general takes الـ, and as the object it ends in -a: أُحِبُّ الْقَهْوَةَ (I like coffee). For 'I don't like', put لَا directly before the verb: لَا أُحِبُّ الطَّعَامَ الْحَارَّ. To make it stronger, add كَثِيرًا (a lot) or, with a negative, أَبَدًا (at all). The verb changes with the person: أُحِبُّ (I), تُحِبُّ (you, to a man), تُحِبِّينَ (you, to a woman), يُحِبُّ (he), نُحِبُّ (we). A second way is يُعْجِبُنِي, literally 'it pleases me'. Here the food is the subject, so the verb agrees with it: يُعْجِبُنِي الْكُشَرِي (masculine), تُعْجِبُنِي الْقَهْوَة (feminine).",
+    "table": {
+      "head": [
+        "Arabic",
+        "English",
+        "Note"
+      ],
+      "rows": [
+        [
+          "أُحِبُّ الشَّايَ.",
+          "I like tea.",
+          "الـ for things in general"
+        ],
+        [
+          "لَا أُحِبُّ السَّمَكَ.",
+          "I don't like fish.",
+          "لَا before the verb"
+        ],
+        [
+          "هَلْ تُحِبُّ الْقَهْوَةَ؟",
+          "Do you like coffee?",
+          "to a man"
+        ],
+        [
+          "هَلْ تُحِبِّينَ الْفَاكِهَةَ؟",
+          "Do you like fruit?",
+          "to a woman"
+        ],
+        [
+          "يُعْجِبُنِي الْكُشَرِي.",
+          "I like koshari.",
+          "masculine thing"
+        ],
+        [
+          "تُعْجِبُنِي الْقَهْوَة.",
+          "I like coffee.",
+          "feminine thing"
+        ]
+      ]
+    },
+    "examples": [
+      {
+        "ar": "أُحِبُّ الْقَهْوَةَ كَثِيرًا.",
+        "en": "I like coffee a lot."
+      },
+      {
+        "ar": "لَا أُحِبُّ الطَّعَامَ الْحَارَّ.",
+        "en": "I don't like spicy food."
+      }
+    ]
+  },
+  {
+    "id": "broken-plurals",
+    "title": "Broken plurals",
+    "titleAr": "جَمْع التَّكْسِير",
+    "firstDay": 19,
+    "summary": "Most plurals change the vowels inside the word: كِتَاب → كُتُب, صَحْن → صُحُون. Plurals of things take a feminine singular adjective.",
+    "formula": "same root letters, new vowel pattern: صَحْن → صُحُون · قَلَم → أَقْلَام",
+    "explanation": "The root letters stay, but the vowels around them change: كِتَاب (book) → كُتُب, صَحْن (plate) → صُحُون, قَلَم (pen) → أَقْلَام, مِلْعَقَة (spoon) → مَلَاعِق. Some patterns are common (aCCāC, CuCūC, maCāCiC), but you cannot always guess the plural, so learn each noun with its plural. Two rules of agreement: (1) a plural of things counts as feminine singular, so it takes an adjective with ة and the pronoun هِيَ: الصُّحُون كَبِيرَة، هِيَ فِي الْمَطْبَخ. (2) A plural of people takes a plural adjective: أَصْدِقَاء كَثِيرُونَ (many friends). After the numbers three to ten the noun is plural: عَشَرَة أَرْغِفَة (ten loaves).",
+    "table": {
+      "head": [
+        "Singular",
+        "Plural",
+        "Pattern"
+      ],
+      "rows": [
+        [
+          "قَلَم",
+          "أَقْلَام",
+          "aCCāC"
+        ],
+        [
+          "كُوب",
+          "أَكْوَاب",
+          "aCCāC"
+        ],
+        [
+          "صَحْن",
+          "صُحُون",
+          "CuCūC"
+        ],
+        [
+          "بَيْت",
+          "بُيُوت",
+          "CuCūC"
+        ],
+        [
+          "كِتَاب",
+          "كُتُب",
+          "CuCuC"
+        ],
+        [
+          "مِلْعَقَة",
+          "مَلَاعِق",
+          "maCāCiC"
+        ],
+        [
+          "رَغِيف",
+          "أَرْغِفَة",
+          "aCCiCa"
+        ],
+        [
+          "سِكِّين",
+          "سَكَاكِين",
+          "CaCāCīC"
+        ]
+      ]
+    },
+    "examples": [
+      {
+        "ar": "هٰذِهِ كُتُب جَدِيدَة.",
+        "en": "These are new books."
+      },
+      {
+        "ar": "أَيْنَ الْمَلَاعِق؟ هِيَ فِي الْمَطْبَخ.",
+        "en": "Where are the spoons? They are in the kitchen."
+      }
+    ]
+  },
+  {
+    "id": "dual",
+    "title": "The dual: exactly two",
+    "titleAr": "الْمُثَنَّى",
+    "firstDay": 20,
+    "summary": "For two of something add ـَانِ (subject, on its own) or ـَيْنِ (after a verb or preposition). ة becomes ت.",
+    "formula": "كُوب → كُوبَانِ / كُوبَيْنِ · شَطِيرَة → شَطِيرَتَانِ / شَطِيرَتَيْنِ",
+    "explanation": "Arabic has a special form for exactly two things or people, the dual. Add ـَانِ to the singular: كِتَاب → كِتَابَانِ (two books). After a verb or a preposition the ending is ـَيْنِ: أُرِيدُ كُوبَيْنِ (I'd like two glasses), مِنْ بَلَدَيْنِ (from two countries). A feminine ة is written as an open ت before the ending, and you hear the t: شَطِيرَة → شَطِيرَتَانِ. The dual already means 'two', so you normally don't add the number; اِثْنَانِ (m) or اِثْنَتَانِ (f) after the noun only adds emphasis. Adjectives agree and take the same ending: الْكُوبَانِ كَبِيرَانِ (the two glasses are big). To say 'two glasses of juice', use مِنْ: كُوبَانِ مِنَ الْعَصِير.",
+    "table": {
+      "head": [
+        "Singular",
+        "Dual (subject)",
+        "Dual (after a verb or preposition)"
+      ],
+      "rows": [
+        [
+          "كِتَاب",
+          "كِتَابَانِ",
+          "كِتَابَيْنِ"
+        ],
+        [
+          "كُوب",
+          "كُوبَانِ",
+          "كُوبَيْنِ"
+        ],
+        [
+          "صَدِيق",
+          "صَدِيقَانِ",
+          "صَدِيقَيْنِ"
+        ],
+        [
+          "شَطِيرَة",
+          "شَطِيرَتَانِ",
+          "شَطِيرَتَيْنِ"
+        ],
+        [
+          "بَلَد",
+          "بَلَدَانِ",
+          "بَلَدَيْنِ"
+        ]
+      ]
+    },
+    "examples": [
+      {
+        "ar": "عِنْدِي كِتَابَانِ.",
+        "en": "I have two books."
+      },
+      {
+        "ar": "أُرِيدُ شَطِيرَتَيْنِ، مِنْ فَضْلِكَ.",
+        "en": "I'd like two sandwiches, please."
+      }
+    ]
+  },
+  {
+    "id": "numbers-11-100",
+    "title": "Numbers 11–100 and prices",
+    "titleAr": "الْأَعْدَاد مِنْ ١١ إِلَى ١٠٠",
+    "firstDay": 21,
+    "summary": "11–19 are two words (خَمْسَةَ عَشَرَ), the tens end in ـُونَ (ثَلَاثُونَ), and 21–99 are 'five and twenty'. After 11–99 the noun is singular with -an: عِشْرُونَ جُنَيْهًا.",
+    "formula": "١٥ خَمْسَةَ عَشَرَ · ٢٠ عِشْرُون · ٧٥ خَمْسَة وَسَبْعُونَ · ١٠٠ مِئَة",
+    "explanation": "11 is أَحَدَ عَشَرَ and 12 is اِثْنَا عَشَرَ. 13 to 19 are 'three-ten' to 'nine-ten': ثَلَاثَةَ عَشَرَ, خَمْسَةَ عَشَرَ. The tens add ـُونَ: عِشْرُون (20, the odd one out), ثَلَاثُون, أَرْبَعُون, خَمْسُون, سِتُّون, سَبْعُون, ثَمَانُون, تِسْعُون. Like the sound plural, they end in ـِينَ after a verb or a preposition: بِعِشْرِينَ (for twenty). From 21 to 99 the unit comes first, joined by وَ: خَمْسَة وَسَبْعُونَ is 'five and seventy', 75. 100 is مِئَة. The counted noun changes with the number: after 3–10 it is plural (ثَلَاثَة جُنَيْهَات), after 11–99 it is singular with the ending -an (عِشْرُونَ جُنَيْهًا), and after مِئَة it is singular (مِئَةُ جُنَيْه). These forms are for a masculine noun such as جُنَيْه; with feminine nouns some units change, which comes later in the course. To ask a price, say بِكَمْ؟ (for how much?).",
+    "table": {
+      "head": [
+        "Number",
+        "Arabic",
+        "With جُنَيْه (pound)"
+      ],
+      "rows": [
+        [
+          "٣",
+          "ثَلَاثَة",
+          "ثَلَاثَة جُنَيْهَات"
+        ],
+        [
+          "١١",
+          "أَحَدَ عَشَرَ",
+          "أَحَدَ عَشَرَ جُنَيْهًا"
+        ],
+        [
+          "١٢",
+          "اِثْنَا عَشَرَ",
+          "اِثْنَا عَشَرَ جُنَيْهًا"
+        ],
+        [
+          "١٥",
+          "خَمْسَةَ عَشَرَ",
+          "خَمْسَةَ عَشَرَ جُنَيْهًا"
+        ],
+        [
+          "٢٠",
+          "عِشْرُون",
+          "عِشْرُونَ جُنَيْهًا"
+        ],
+        [
+          "٣٠",
+          "ثَلَاثُون",
+          "ثَلَاثُونَ جُنَيْهًا"
+        ],
+        [
+          "٧٥",
+          "خَمْسَة وَسَبْعُونَ",
+          "خَمْسَة وَسَبْعُونَ جُنَيْهًا"
+        ],
+        [
+          "١٠٠",
+          "مِئَة",
+          "مِئَةُ جُنَيْه"
+        ]
+      ]
+    },
+    "examples": [
+      {
+        "ar": "الْكِيلُو بِعِشْرِينَ جُنَيْهًا.",
+        "en": "It's twenty pounds a kilo."
+      },
+      {
+        "ar": "الْمَجْمُوع خَمْسَة وَسَبْعُونَ جُنَيْهًا.",
+        "en": "The total is seventy-five pounds."
+      }
+    ]
   }
 ]
