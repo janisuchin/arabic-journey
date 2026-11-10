@@ -1,0 +1,1882 @@
+{
+  "day": 81,
+  "week": 12,
+  "phase": 6,
+  "level": 8,
+  "title": "It was built…",
+  "titleAr": "بُنِيَ…",
+  "titleSegs": [
+    [
+      "بُنِيَ",
+      "it was built"
+    ]
+  ],
+  "emoji": "🕌",
+  "summary": "Visit Cairo's old Citadel and talk about its history with the passive: بُنِيَ (it was built), كُتِبَ (it was written), صُنِعَ (it was made), اُكْتُشِفَ (it was discovered) and يُقَالُ (it is said).",
+  "intro": "When we don't know who did something, or it doesn't matter, Arabic doesn't add a helping word like English 'was': it changes the vowels of the verb. In the past the pattern is u–i: بَنَى (he built) becomes بُنِيَ (it was built), and كَتَبَ (he wrote) becomes كُتِبَ (it was written). In the present it is yu–a: يُقَالُ (it is said), يُسَمَّى (it is called). Guides, signs, museum labels and the news use the passive all the time: بُنِيَتِ الْقَلْعَةُ فِي الْقَرْنِ الثَّانِيَ عَشَرَ (the Citadel was built in the twelfth century).",
+  "objectives": [
+    "Say when a place was built with بُنِيَ and بُنِيَتْ and a century: فِي الْقَرْنِ التَّاسِعَ عَشَرَ",
+    "Form the past passive (u–i: كُتِبَ, صُنِعَ, اُكْتُشِفَ) and the present passive (yu–a: يُقَالُ, يُسَمَّى)",
+    "Pass on a story you are not sure about with يُقَالُ إِنَّ… (it is said that…)",
+    "Describe an old building with the words for century, minaret, stone and calligraphy"
+  ],
+  "realLife": {
+    "emoji": "🏰",
+    "title": "A morning at the Citadel",
+    "story": "This morning Mr Karim takes the class up to the Citadel of Salah al-Din, high above Cairo. A guide called Mrs Amal shows them the old walls and the great Mosque of Muhammad Ali with its two tall minarets. Layla wants to know who built everything and when, Daniel connects it all to the Rosetta Stone, and Sami only wants to see the famous French clock that, people say, has never worked."
+  },
+  "letters": [],
+  "newWords": [
+    "buniya",
+    "kutiba",
+    "suniaa",
+    "uktushifa",
+    "yuqalu",
+    "yusamma",
+    "qarn",
+    "midhana",
+    "hajar",
+    "khatt"
+  ],
+  "grammar": [
+    "passive-w12",
+    "qala-inna"
+  ],
+  "pronunciation": [
+    "sukun"
+  ],
+  "sentences": [
+    {
+      "id": "d81s1",
+      "ar": "بُنِيَتِ الْقَلْعَةُ فِي الْقَرْنِ الثَّانِيَ عَشَرَ.",
+      "en": "The Citadel was built in the twelfth century.",
+      "literal": "was built the citadel in the century the twelfth",
+      "segs": [
+        [
+          "بُنِيَتِ",
+          "was built (f; -i links to the next word)",
+          "verb"
+        ],
+        [
+          "الْقَلْعَةُ",
+          "the citadel",
+          "noun"
+        ],
+        [
+          "فِي",
+          "in",
+          "prep"
+        ],
+        [
+          "الْقَرْنِ",
+          "the century",
+          "noun"
+        ],
+        [
+          "الثَّانِيَ",
+          "twelfth (first part: 'second')",
+          "number"
+        ],
+        [
+          "عَشَرَ",
+          "-teen (second part of 'twelfth')",
+          "number"
+        ]
+      ],
+      "grammar": [
+        "passive-w12",
+        "ordinals"
+      ],
+      "mistakes": [
+        {
+          "wrong": "بَنَتِ الْقَلْعَةُ فِي الْقَرْنِ الثَّانِيَ عَشَرَ.",
+          "right": "بُنِيَتِ الْقَلْعَةُ فِي الْقَرْنِ الثَّانِيَ عَشَرَ.",
+          "why": "بَنَتْ (banat) means 'she built', but the citadel did not build anything. The passive changes the vowels to u–i: بُنِيَتْ (buniyat), 'it was built'."
+        }
+      ]
+    },
+    {
+      "id": "d81s2",
+      "ar": "بُنِيَ هٰذَا الْمَسْجِدُ فِي الْقَرْنِ التَّاسِعَ عَشَرَ.",
+      "en": "This mosque was built in the nineteenth century.",
+      "literal": "was built this the mosque in the century the nineteenth",
+      "segs": [
+        [
+          "بُنِيَ",
+          "was built",
+          "verb"
+        ],
+        [
+          "هٰذَا",
+          "this",
+          "demonstrative"
+        ],
+        [
+          "الْمَسْجِدُ",
+          "the mosque",
+          "noun"
+        ],
+        [
+          "فِي",
+          "in",
+          "prep"
+        ],
+        [
+          "الْقَرْنِ",
+          "the century",
+          "noun"
+        ],
+        [
+          "التَّاسِعَ",
+          "nineteenth (first part: 'ninth')",
+          "number"
+        ],
+        [
+          "عَشَرَ",
+          "-teen (second part of 'nineteenth')",
+          "number"
+        ]
+      ],
+      "grammar": [
+        "passive-w12",
+        "demonstratives"
+      ],
+      "mistakes": [
+        {
+          "wrong": "بُنِيَتْ هٰذَا الْمَسْجِدُ فِي الْقَرْنِ التَّاسِعَ عَشَرَ.",
+          "right": "بُنِيَ هٰذَا الْمَسْجِدُ فِي الْقَرْنِ التَّاسِعَ عَشَرَ.",
+          "why": "مَسْجِد is masculine, so the passive verb has no -t: بُنِيَ (buniya). Use بُنِيَتْ only for feminine words such as قَلْعَة or مَدِينَة."
+        }
+      ]
+    },
+    {
+      "id": "d81s3",
+      "ar": "كُتِبَتْ هٰذِهِ الْكَلِمَاتُ بِخَطٍّ عَرَبِيٍّ جَمِيلٍ.",
+      "en": "These words were written in beautiful Arabic calligraphy.",
+      "literal": "were written these the words with a script Arabic beautiful",
+      "segs": [
+        [
+          "كُتِبَتْ",
+          "were written (f)",
+          "verb"
+        ],
+        [
+          "هٰذِهِ",
+          "these (f)",
+          "demonstrative"
+        ],
+        [
+          "الْكَلِمَاتُ",
+          "the words",
+          "noun"
+        ],
+        [
+          "بِخَطٍّ",
+          "in calligraphy (lit. with a script)",
+          "noun"
+        ],
+        [
+          "عَرَبِيٍّ",
+          "Arabic",
+          "adj"
+        ],
+        [
+          "جَمِيلٍ",
+          "beautiful",
+          "adj"
+        ]
+      ],
+      "grammar": [
+        "passive-w12",
+        "non-human-plural"
+      ],
+      "mistakes": [
+        {
+          "wrong": "كَتَبَتْ هٰذِهِ الْكَلِمَاتُ بِخَطٍّ عَرَبِيٍّ جَمِيلٍ.",
+          "right": "كُتِبَتْ هٰذِهِ الْكَلِمَاتُ بِخَطٍّ عَرَبِيٍّ جَمِيلٍ.",
+          "why": "كَتَبَتْ (katabat) is active: 'she wrote'. For 'were written' the first letter takes u and the second takes i: كُتِبَتْ (kutibat). Words are a non-human plural, so the verb is feminine singular."
+        }
+      ]
+    },
+    {
+      "id": "d81s4",
+      "ar": "صُنِعَتْ هٰذِهِ السَّاعَةُ فِي فَرَنْسَا.",
+      "en": "This clock was made in France.",
+      "literal": "was made this the clock in France",
+      "segs": [
+        [
+          "صُنِعَتْ",
+          "was made (f)",
+          "verb"
+        ],
+        [
+          "هٰذِهِ",
+          "this (f)",
+          "demonstrative"
+        ],
+        [
+          "السَّاعَةُ",
+          "the clock",
+          "noun"
+        ],
+        [
+          "فِي",
+          "in",
+          "prep"
+        ],
+        [
+          "فَرَنْسَا",
+          "France",
+          "name"
+        ]
+      ],
+      "grammar": [
+        "passive-w12"
+      ],
+      "mistakes": [
+        {
+          "wrong": "صُنِعَ هٰذِهِ السَّاعَةُ فِي فَرَنْسَا.",
+          "right": "صُنِعَتْ هٰذِهِ السَّاعَةُ فِي فَرَنْسَا.",
+          "why": "سَاعَة is feminine, so the passive verb takes -t: صُنِعَتْ (ṣuniʿat), just like an active verb."
+        }
+      ]
+    },
+    {
+      "id": "d81s5",
+      "ar": "اُكْتُشِفَ حَجَرُ رَشِيد فِي نِهَايَةِ الْقَرْنِ الثَّامِنَ عَشَرَ.",
+      "en": "The Rosetta Stone was discovered at the end of the eighteenth century.",
+      "literal": "was discovered stone (of) Rashid in end (of) the century the eighteenth",
+      "segs": [
+        [
+          "اُكْتُشِفَ",
+          "was discovered",
+          "verb"
+        ],
+        [
+          "حَجَرُ",
+          "stone (of)",
+          "noun"
+        ],
+        [
+          "رَشِيد",
+          "Rashid, Rosetta (a town in Egypt)",
+          "name"
+        ],
+        [
+          "فِي",
+          "in, at",
+          "prep"
+        ],
+        [
+          "نِهَايَةِ",
+          "the end (of)",
+          "noun"
+        ],
+        [
+          "الْقَرْنِ",
+          "the century",
+          "noun"
+        ],
+        [
+          "الثَّامِنَ",
+          "eighteenth (first part: 'eighth')",
+          "number"
+        ],
+        [
+          "عَشَرَ",
+          "-teen (second part of 'eighteenth')",
+          "number"
+        ]
+      ],
+      "grammar": [
+        "passive-w12",
+        "idafa"
+      ],
+      "mistakes": [
+        {
+          "wrong": "اِكْتَشَفَ حَجَرُ رَشِيد فِي نِهَايَةِ الْقَرْنِ الثَّامِنَ عَشَرَ.",
+          "right": "اُكْتُشِفَ حَجَرُ رَشِيد فِي نِهَايَةِ الْقَرْنِ الثَّامِنَ عَشَرَ.",
+          "why": "اِكْتَشَفَ (iktashafa) means that someone discovered something, so here the stone would be the discoverer. In the passive the vowels become u, u, i: اُكْتُشِفَ (uk-tu-shi-fa), 'was discovered'."
+        }
+      ]
+    },
+    {
+      "id": "d81s6",
+      "ar": "يُقَالُ إِنَّ هٰذِهِ السَّاعَةَ لَمْ تَعْمَلْ أَبَدًا.",
+      "en": "It is said that this clock never worked.",
+      "literal": "is said that this the clock did not work ever",
+      "segs": [
+        [
+          "يُقَالُ",
+          "it is said",
+          "verb"
+        ],
+        [
+          "إِنَّ",
+          "that (after qāla)",
+          "particle"
+        ],
+        [
+          "هٰذِهِ",
+          "this (f)",
+          "demonstrative"
+        ],
+        [
+          "السَّاعَةَ",
+          "the clock (after inna)",
+          "noun"
+        ],
+        [
+          "لَمْ",
+          "did not",
+          "particle"
+        ],
+        [
+          "تَعْمَلْ",
+          "(it, f) work",
+          "verb"
+        ],
+        [
+          "أَبَدًا",
+          "ever ('never' with lam)",
+          "adverb"
+        ]
+      ],
+      "grammar": [
+        "passive-w12",
+        "qala-inna",
+        "negation-lam"
+      ],
+      "mistakes": [
+        {
+          "wrong": "يُقَالُ أَنَّ هٰذِهِ السَّاعَةَ لَمْ تَعْمَلْ أَبَدًا.",
+          "right": "يُقَالُ إِنَّ هٰذِهِ السَّاعَةَ لَمْ تَعْمَلْ أَبَدًا.",
+          "why": "Like قَالَ, the passive يُقَالُ is followed by إِنَّ (with i), not أَنَّ."
+        },
+        {
+          "wrong": "يَقُولُ إِنَّ هٰذِهِ السَّاعَةَ لَمْ تَعْمَلْ أَبَدًا.",
+          "right": "يُقَالُ إِنَّ هٰذِهِ السَّاعَةَ لَمْ تَعْمَلْ أَبَدًا.",
+          "why": "يَقُولُ (yaqūlu) means 'he says'. 'It is said', with nobody named, is the present passive يُقَالُ (yuqālu)."
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "A visit to the Citadel",
+    "speakers": [
+      {
+        "key": "amal",
+        "name": "Mrs Amal (guide)",
+        "nameAr": "السَّيِّدَة أَمَل"
+      },
+      {
+        "key": "karim",
+        "name": "Mr Karim",
+        "nameAr": "الْأُسْتَاذ كَرِيم"
+      },
+      {
+        "key": "layla",
+        "name": "Layla",
+        "nameAr": "لَيْلَى"
+      },
+      {
+        "key": "daniel",
+        "name": "Daniel",
+        "nameAr": "دَانْيَال"
+      },
+      {
+        "key": "sami",
+        "name": "Sami",
+        "nameAr": "سَامِي"
+      }
+    ],
+    "culture": "The Citadel of Salah al-Din was the home of Egypt's rulers for almost 700 years, and from its walls you can see the whole of Cairo. The clock in the courtyard of the Muhammad Ali Mosque was a gift from King Louis-Philippe of France in the 1840s; Egypt gave France the obelisk that still stands in the Place de la Concorde in Paris. When you visit a mosque, take off your shoes at the door, dress modestly (women usually cover their hair) and speak quietly, especially at prayer times.",
+    "lines": [
+      {
+        "id": "d81l1",
+        "sp": "amal",
+        "ar": "أَهْلًا وَسَهْلًا بِكُمْ فِي قَلْعَةِ صَلَاحِ الدِّين! أَنَا أَمَل، دَلِيلَتُكُمُ الْيَوْمَ. هٰذِهِ الْقَلْعَةُ الْقَدِيمَةُ مِنْ أَشْهَرِ الْأَمَاكِنِ فِي الْقَاهِرَة.",
+        "en": "Welcome to the Citadel of Salah al-Din! I'm Amal, your guide today. This old citadel is one of the most famous places in Cairo.",
+        "segs": [
+          [
+            "أَهْلًا",
+            "welcome"
+          ],
+          [
+            "وَسَهْلًا",
+            "and welcome (lit. and easy ground)"
+          ],
+          [
+            "بِكُمْ",
+            "to you (plural)"
+          ],
+          [
+            "فِي",
+            "in, to"
+          ],
+          [
+            "قَلْعَةِ",
+            "citadel (of)"
+          ],
+          [
+            "صَلَاحِ",
+            "Salah (first part of the name Salah al-Din)"
+          ],
+          [
+            "الدِّين",
+            "al-Din (second part of the name: 'of the faith')"
+          ],
+          [
+            "أَنَا",
+            "I"
+          ],
+          [
+            "أَمَل",
+            "Amal (first name)"
+          ],
+          [
+            "دَلِيلَتُكُمُ",
+            "your guide (a woman; 'your' to a group)"
+          ],
+          [
+            "الْيَوْمَ",
+            "today"
+          ],
+          [
+            "هٰذِهِ",
+            "this (f)"
+          ],
+          [
+            "الْقَلْعَةُ",
+            "the citadel"
+          ],
+          [
+            "الْقَدِيمَةُ",
+            "old, ancient (f)"
+          ],
+          [
+            "مِنْ",
+            "of, among ('one of')"
+          ],
+          [
+            "أَشْهَرِ",
+            "the most famous"
+          ],
+          [
+            "الْأَمَاكِنِ",
+            "the places"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "الْقَاهِرَة",
+            "Cairo (city)"
+          ]
+        ]
+      },
+      {
+        "id": "d81l2",
+        "sp": "layla",
+        "ar": "شُكْرًا يَا سَيِّدَة أَمَل. عِنْدِي سُؤَال: مَتَى بُنِيَتْ هٰذِهِ الْقَلْعَةُ، وَمَنْ بَنَاهَا؟",
+        "en": "Thank you, Mrs Amal. I have a question: when was this citadel built, and who built it?",
+        "segs": [
+          [
+            "شُكْرًا",
+            "thank you"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "سَيِّدَة",
+            "Mrs, lady"
+          ],
+          [
+            "أَمَل",
+            "Amal (first name)"
+          ],
+          [
+            "عِنْدِي",
+            "I have"
+          ],
+          [
+            "سُؤَال",
+            "a question"
+          ],
+          [
+            "مَتَى",
+            "when"
+          ],
+          [
+            "بُنِيَتْ",
+            "(it, f) was built"
+          ],
+          [
+            "هٰذِهِ",
+            "this (f)"
+          ],
+          [
+            "الْقَلْعَةُ",
+            "the citadel"
+          ],
+          [
+            "وَمَنْ",
+            "and who"
+          ],
+          [
+            "بَنَاهَا",
+            "built it (he built her)"
+          ]
+        ]
+      },
+      {
+        "id": "d81l3",
+        "sp": "amal",
+        "ar": "بُنِيَتِ الْقَلْعَةُ فِي الْقَرْنِ الثَّانِيَ عَشَرَ، فِي أَيَّامِ صَلَاحِ الدِّين. وَبُنِيَتْ أَسْوَارُهَا الْعَالِيَةُ مِنَ الْحَجَرِ لِحِمَايَةِ الْمَدِينَة.",
+        "en": "The citadel was built in the twelfth century, in the days of Salah al-Din. Its high walls were built of stone to protect the city.",
+        "segs": [
+          [
+            "بُنِيَتِ",
+            "(it, f) was built (-i links to the next word)"
+          ],
+          [
+            "الْقَلْعَةُ",
+            "the citadel"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "الْقَرْنِ",
+            "the century"
+          ],
+          [
+            "الثَّانِيَ",
+            "twelfth (first part: 'second')"
+          ],
+          [
+            "عَشَرَ",
+            "-teen (second part of 'twelfth')"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "أَيَّامِ",
+            "days (of)"
+          ],
+          [
+            "صَلَاحِ",
+            "Salah (first part of the name Salah al-Din)"
+          ],
+          [
+            "الدِّين",
+            "al-Din (second part of the name: 'of the faith')"
+          ],
+          [
+            "وَبُنِيَتْ",
+            "and (they) were built"
+          ],
+          [
+            "أَسْوَارُهَا",
+            "its walls (around a city or citadel)"
+          ],
+          [
+            "الْعَالِيَةُ",
+            "high (f)"
+          ],
+          [
+            "مِنَ",
+            "of, from"
+          ],
+          [
+            "الْحَجَرِ",
+            "the stone"
+          ],
+          [
+            "لِحِمَايَةِ",
+            "to protect (lit. for the protection of)"
+          ],
+          [
+            "الْمَدِينَة",
+            "the city"
+          ]
+        ]
+      },
+      {
+        "id": "d81l4",
+        "sp": "daniel",
+        "ar": "يَا أُسْتَاذ كَرِيم، أَعْرِفُ صَلَاحَ الدِّين مِنْ كُتُبِ التَّارِيخ. لٰكِنْ لِمَاذَا قَالَتْ «بُنِيَتِ الْقَلْعَةُ» وَلَمْ تَقُلْ «بَنَى صَلَاحُ الدِّين الْقَلْعَةَ»؟",
+        "en": "Mr Karim, I know Salah al-Din from history books. But why did she say 'the citadel was built' and not 'Salah al-Din built the citadel'?",
+        "segs": [
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "أُسْتَاذ",
+            "teacher ('Mr')"
+          ],
+          [
+            "كَرِيم",
+            "Karim (first name)"
+          ],
+          [
+            "أَعْرِفُ",
+            "I know"
+          ],
+          [
+            "صَلَاحَ",
+            "Salah (first part of the name Salah al-Din)"
+          ],
+          [
+            "الدِّين",
+            "al-Din (second part of the name: 'of the faith')"
+          ],
+          [
+            "مِنْ",
+            "from"
+          ],
+          [
+            "كُتُبِ",
+            "books (of)"
+          ],
+          [
+            "التَّارِيخ",
+            "history"
+          ],
+          [
+            "لٰكِنْ",
+            "but"
+          ],
+          [
+            "لِمَاذَا",
+            "why"
+          ],
+          [
+            "قَالَتْ",
+            "she said"
+          ],
+          [
+            "بُنِيَتِ",
+            "(it, f) was built (-i links to the next word)"
+          ],
+          [
+            "الْقَلْعَةُ",
+            "the citadel"
+          ],
+          [
+            "وَلَمْ",
+            "and did not"
+          ],
+          [
+            "تَقُلْ",
+            "(she) say"
+          ],
+          [
+            "بَنَى",
+            "(he) built"
+          ],
+          [
+            "صَلَاحُ",
+            "Salah (first part of the name Salah al-Din)"
+          ],
+          [
+            "الدِّين",
+            "al-Din (second part of the name: 'of the faith')"
+          ],
+          [
+            "الْقَلْعَةَ",
+            "the citadel (object)"
+          ]
+        ]
+      },
+      {
+        "id": "d81l5",
+        "sp": "karim",
+        "ar": "سُؤَال مُمْتَاز! «بَنَى» فِعْل عَادِيّ، أَمَّا «بُنِيَ» فَهُوَ الْمَجْهُول. نَسْتَعْمِلُهُ عِنْدَمَا لَا نَعْرِفُ مَنْ عَمِلَ الشَّيْءَ، أَوْ عِنْدَمَا لَا يُهِمُّنَا ذٰلِكَ.",
+        "en": "Excellent question! 'Banā' is an ordinary verb, but 'buniya' is the passive. We use it when we don't know who did the thing, or when that isn't important to us.",
+        "segs": [
+          [
+            "سُؤَال",
+            "a question"
+          ],
+          [
+            "مُمْتَاز",
+            "excellent"
+          ],
+          [
+            "بَنَى",
+            "(he) built"
+          ],
+          [
+            "فِعْل",
+            "a verb"
+          ],
+          [
+            "عَادِيّ",
+            "ordinary"
+          ],
+          [
+            "أَمَّا",
+            "as for"
+          ],
+          [
+            "بُنِيَ",
+            "(it) was built"
+          ],
+          [
+            "فَهُوَ",
+            "(then) it is"
+          ],
+          [
+            "الْمَجْهُول",
+            "the passive (lit. the unknown)"
+          ],
+          [
+            "نَسْتَعْمِلُهُ",
+            "we use it"
+          ],
+          [
+            "عِنْدَمَا",
+            "when"
+          ],
+          [
+            "لَا",
+            "not"
+          ],
+          [
+            "نَعْرِفُ",
+            "we know"
+          ],
+          [
+            "مَنْ",
+            "who"
+          ],
+          [
+            "عَمِلَ",
+            "did, made"
+          ],
+          [
+            "الشَّيْءَ",
+            "the thing"
+          ],
+          [
+            "أَوْ",
+            "or"
+          ],
+          [
+            "عِنْدَمَا",
+            "when"
+          ],
+          [
+            "لَا",
+            "not"
+          ],
+          [
+            "يُهِمُّنَا",
+            "(it) matters to us"
+          ],
+          [
+            "ذٰلِكَ",
+            "that"
+          ]
+        ]
+      },
+      {
+        "id": "d81l6",
+        "sp": "sami",
+        "ar": "وَهٰذَا الْمَسْجِدُ الْكَبِيرُ بِالْمِئْذَنَتَيْنِ الطَّوِيلَتَيْنِ؟ هَلْ بُنِيَ مَعَ الْقَلْعَةِ فِي نَفْسِ الْوَقْت؟",
+        "en": "And this big mosque with the two tall minarets? Was it built together with the citadel, at the same time?",
+        "segs": [
+          [
+            "وَهٰذَا",
+            "and this"
+          ],
+          [
+            "الْمَسْجِدُ",
+            "the mosque"
+          ],
+          [
+            "الْكَبِيرُ",
+            "big"
+          ],
+          [
+            "بِالْمِئْذَنَتَيْنِ",
+            "with the two minarets"
+          ],
+          [
+            "الطَّوِيلَتَيْنِ",
+            "tall (two, f)"
+          ],
+          [
+            "هَلْ",
+            "(yes/no question word)"
+          ],
+          [
+            "بُنِيَ",
+            "(it) was built"
+          ],
+          [
+            "مَعَ",
+            "with"
+          ],
+          [
+            "الْقَلْعَةِ",
+            "the citadel"
+          ],
+          [
+            "فِي",
+            "in, at"
+          ],
+          [
+            "نَفْسِ",
+            "the same (of)"
+          ],
+          [
+            "الْوَقْت",
+            "the time"
+          ]
+        ]
+      },
+      {
+        "id": "d81l7",
+        "sp": "amal",
+        "ar": "لَا، هٰذَا مَسْجِدُ مُحَمَّد عَلِي، وَقَدْ بُنِيَ فِي الْقَرْنِ التَّاسِعَ عَشَرَ. طُولُ كُلِّ مِئْذَنَةٍ أَكْثَرُ مِنْ ثَمَانِينَ مِتْرًا.",
+        "en": "No, this is the Mosque of Muhammad Ali, and it was built in the nineteenth century. Each minaret is more than eighty metres tall.",
+        "segs": [
+          [
+            "لَا",
+            "no"
+          ],
+          [
+            "هٰذَا",
+            "this"
+          ],
+          [
+            "مَسْجِدُ",
+            "mosque (of)"
+          ],
+          [
+            "مُحَمَّد",
+            "Muhammad (first name)"
+          ],
+          [
+            "عَلِي",
+            "Ali (name; Muhammad Ali ruled Egypt in the 1800s)"
+          ],
+          [
+            "وَقَدْ",
+            "and (indeed)"
+          ],
+          [
+            "بُنِيَ",
+            "(it) was built"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "الْقَرْنِ",
+            "the century"
+          ],
+          [
+            "التَّاسِعَ",
+            "nineteenth (first part: 'ninth')"
+          ],
+          [
+            "عَشَرَ",
+            "-teen (second part of 'nineteenth')"
+          ],
+          [
+            "طُولُ",
+            "the length, the height (of)"
+          ],
+          [
+            "كُلِّ",
+            "each, every"
+          ],
+          [
+            "مِئْذَنَةٍ",
+            "minaret"
+          ],
+          [
+            "أَكْثَرُ",
+            "more"
+          ],
+          [
+            "مِنْ",
+            "than"
+          ],
+          [
+            "ثَمَانِينَ",
+            "eighty"
+          ],
+          [
+            "مِتْرًا",
+            "metres (lit. metre)"
+          ]
+        ]
+      },
+      {
+        "id": "d81l8",
+        "sp": "layla",
+        "ar": "الْجُدْرَانُ بَيْضَاءُ وَتَلْمَعُ فِي الشَّمْس. مِنْ أَيِّ حَجَرٍ بُنِيَتْ؟ هَلْ هٰذَا رُخَام؟",
+        "en": "The walls are white and they shine in the sun. What kind of stone were they built from? Is this marble?",
+        "segs": [
+          [
+            "الْجُدْرَانُ",
+            "the walls"
+          ],
+          [
+            "بَيْضَاءُ",
+            "white (f)"
+          ],
+          [
+            "وَتَلْمَعُ",
+            "and (they) shine"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "الشَّمْس",
+            "the sun"
+          ],
+          [
+            "مِنْ",
+            "from, of"
+          ],
+          [
+            "أَيِّ",
+            "which, what kind of"
+          ],
+          [
+            "حَجَرٍ",
+            "stone"
+          ],
+          [
+            "بُنِيَتْ",
+            "(they) were built"
+          ],
+          [
+            "هَلْ",
+            "(yes/no question word)"
+          ],
+          [
+            "هٰذَا",
+            "this"
+          ],
+          [
+            "رُخَام",
+            "marble"
+          ]
+        ]
+      },
+      {
+        "id": "d81l9",
+        "sp": "amal",
+        "ar": "هٰذَا لَيْسَ رُخَامًا، بَلْ مَرْمَر. غُطِّيَتِ الْجُدْرَانُ بِالْمَرْمَر، وَلِذٰلِكَ يُسَمَّى الْمَسْجِدُ أَيْضًا «مَسْجِدَ الْمَرْمَر».",
+        "en": "This isn't marble, it's alabaster. The walls were covered with alabaster, and that's why the mosque is also called 'the Alabaster Mosque'.",
+        "segs": [
+          [
+            "هٰذَا",
+            "this"
+          ],
+          [
+            "لَيْسَ",
+            "is not"
+          ],
+          [
+            "رُخَامًا",
+            "marble"
+          ],
+          [
+            "بَلْ",
+            "but rather"
+          ],
+          [
+            "مَرْمَر",
+            "alabaster (a white stone)"
+          ],
+          [
+            "غُطِّيَتِ",
+            "(they) were covered (-i links to the next word)"
+          ],
+          [
+            "الْجُدْرَانُ",
+            "the walls"
+          ],
+          [
+            "بِالْمَرْمَر",
+            "with the alabaster"
+          ],
+          [
+            "وَلِذٰلِكَ",
+            "and so, that's why"
+          ],
+          [
+            "يُسَمَّى",
+            "(it) is called"
+          ],
+          [
+            "الْمَسْجِدُ",
+            "the mosque"
+          ],
+          [
+            "أَيْضًا",
+            "also"
+          ],
+          [
+            "مَسْجِدَ",
+            "mosque (of)"
+          ],
+          [
+            "الْمَرْمَر",
+            "the alabaster"
+          ]
+        ]
+      },
+      {
+        "id": "d81l10",
+        "sp": "sami",
+        "ar": "وَأَيْنَ السَّاعَةُ الْفَرَنْسِيَّةُ الْمَشْهُورَة؟ أَبِي قَالَ لِي إِنَّهَا لَا تَعْمَلُ، وَأُرِيدُ أَنْ أَرَاهَا بِعَيْنَيَّ.",
+        "en": "And where is the famous French clock? My father told me that it doesn't work, and I want to see it with my own eyes.",
+        "segs": [
+          [
+            "وَأَيْنَ",
+            "and where"
+          ],
+          [
+            "السَّاعَةُ",
+            "the clock"
+          ],
+          [
+            "الْفَرَنْسِيَّةُ",
+            "French (f)"
+          ],
+          [
+            "الْمَشْهُورَة",
+            "famous (f)"
+          ],
+          [
+            "أَبِي",
+            "my father"
+          ],
+          [
+            "قَالَ",
+            "(he) said"
+          ],
+          [
+            "لِي",
+            "to me"
+          ],
+          [
+            "إِنَّهَا",
+            "that it (f)"
+          ],
+          [
+            "لَا",
+            "not"
+          ],
+          [
+            "تَعْمَلُ",
+            "(it, f) works"
+          ],
+          [
+            "وَأُرِيدُ",
+            "and I want"
+          ],
+          [
+            "أَنْ",
+            "to"
+          ],
+          [
+            "أَرَاهَا",
+            "(I) see it (f)"
+          ],
+          [
+            "بِعَيْنَيَّ",
+            "with my (two) eyes"
+          ]
+        ]
+      },
+      {
+        "id": "d81l11",
+        "sp": "amal",
+        "ar": "هِيَ هُنَاكَ، فَوْقَ الْبُرْجِ فِي السَّاحَة. صُنِعَتْ فِي فَرَنْسَا، وَكَانَتْ هَدِيَّةً مِنْ مَلِكِ فَرَنْسَا. يُقَالُ إِنَّهَا لَمْ تَعْمَلْ أَبَدًا!",
+        "en": "It's over there, on top of the tower in the courtyard. It was made in France, and it was a gift from the King of France. It's said that it never worked!",
+        "segs": [
+          [
+            "هِيَ",
+            "she (it)"
+          ],
+          [
+            "هُنَاكَ",
+            "over there"
+          ],
+          [
+            "فَوْقَ",
+            "on top of, above"
+          ],
+          [
+            "الْبُرْجِ",
+            "the tower"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "السَّاحَة",
+            "the courtyard, the square"
+          ],
+          [
+            "صُنِعَتْ",
+            "(it, f) was made"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "فَرَنْسَا",
+            "France"
+          ],
+          [
+            "وَكَانَتْ",
+            "and (it, f) was"
+          ],
+          [
+            "هَدِيَّةً",
+            "a gift"
+          ],
+          [
+            "مِنْ",
+            "from"
+          ],
+          [
+            "مَلِكِ",
+            "king (of)"
+          ],
+          [
+            "فَرَنْسَا",
+            "France"
+          ],
+          [
+            "يُقَالُ",
+            "it is said"
+          ],
+          [
+            "إِنَّهَا",
+            "that it (f)"
+          ],
+          [
+            "لَمْ",
+            "did not"
+          ],
+          [
+            "تَعْمَلْ",
+            "(it, f) work"
+          ],
+          [
+            "أَبَدًا",
+            "ever ('never' with lam)"
+          ]
+        ]
+      },
+      {
+        "id": "d81l12",
+        "sp": "daniel",
+        "ar": "قِصَّة غَرِيبَة! وَلِلْفَرَنْسِيِّينَ قِصَّة أُخْرَى فِي مِصْر: اُكْتُشِفَ حَجَرُ رَشِيد عَلَى يَدِ جُنُودٍ فَرَنْسِيِّينَ فِي نِهَايَةِ الْقَرْنِ الثَّامِنَ عَشَرَ.",
+        "en": "What a strange story! The French have another story in Egypt: the Rosetta Stone was discovered by French soldiers at the end of the eighteenth century.",
+        "segs": [
+          [
+            "قِصَّة",
+            "a story"
+          ],
+          [
+            "غَرِيبَة",
+            "strange (f)"
+          ],
+          [
+            "وَلِلْفَرَنْسِيِّينَ",
+            "and the French have (lit. and to the French)"
+          ],
+          [
+            "قِصَّة",
+            "a story"
+          ],
+          [
+            "أُخْرَى",
+            "another (f)"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "مِصْر",
+            "Egypt"
+          ],
+          [
+            "اُكْتُشِفَ",
+            "(it) was discovered"
+          ],
+          [
+            "حَجَرُ",
+            "stone (of)"
+          ],
+          [
+            "رَشِيد",
+            "Rashid, Rosetta (a town in Egypt)"
+          ],
+          [
+            "عَلَى",
+            "on (with 'yad': by)"
+          ],
+          [
+            "يَدِ",
+            "hand (of) ('at the hand of' = by)"
+          ],
+          [
+            "جُنُودٍ",
+            "soldiers"
+          ],
+          [
+            "فَرَنْسِيِّينَ",
+            "French (plural)"
+          ],
+          [
+            "فِي",
+            "in, at"
+          ],
+          [
+            "نِهَايَةِ",
+            "the end (of)"
+          ],
+          [
+            "الْقَرْنِ",
+            "the century"
+          ],
+          [
+            "الثَّامِنَ",
+            "eighteenth (first part: 'eighth')"
+          ],
+          [
+            "عَشَرَ",
+            "-teen (second part of 'eighteenth')"
+          ]
+        ]
+      },
+      {
+        "id": "d81l13",
+        "sp": "layla",
+        "ar": "وَكُتِبَ عَلَى هٰذَا الْحَجَرِ نَصٌّ وَاحِدٌ بِثَلَاثِ كِتَابَاتٍ، وَبِفَضْلِهِ فَهِمَ الْعُلَمَاءُ الْكِتَابَةَ الْمِصْرِيَّةَ الْقَدِيمَة. أَيْنَ هُوَ الْآنَ؟",
+        "en": "And one text was written on this stone in three scripts, and thanks to it scholars understood the ancient Egyptian writing. Where is it now?",
+        "segs": [
+          [
+            "وَكُتِبَ",
+            "and (it) was written"
+          ],
+          [
+            "عَلَى",
+            "on"
+          ],
+          [
+            "هٰذَا",
+            "this"
+          ],
+          [
+            "الْحَجَرِ",
+            "the stone"
+          ],
+          [
+            "نَصٌّ",
+            "a text"
+          ],
+          [
+            "وَاحِدٌ",
+            "one"
+          ],
+          [
+            "بِثَلَاثِ",
+            "in three"
+          ],
+          [
+            "كِتَابَاتٍ",
+            "scripts, kinds of writing"
+          ],
+          [
+            "وَبِفَضْلِهِ",
+            "and thanks to it"
+          ],
+          [
+            "فَهِمَ",
+            "(he) understood"
+          ],
+          [
+            "الْعُلَمَاءُ",
+            "the scholars, the scientists"
+          ],
+          [
+            "الْكِتَابَةَ",
+            "the writing"
+          ],
+          [
+            "الْمِصْرِيَّةَ",
+            "Egyptian (f)"
+          ],
+          [
+            "الْقَدِيمَة",
+            "ancient, old (f)"
+          ],
+          [
+            "أَيْنَ",
+            "where"
+          ],
+          [
+            "هُوَ",
+            "he (it)"
+          ],
+          [
+            "الْآنَ",
+            "now"
+          ]
+        ]
+      },
+      {
+        "id": "d81l14",
+        "sp": "karim",
+        "ar": "هُوَ الْآنَ فِي الْمَتْحَفِ الْبَرِيطَانِيِّ فِي لَنْدَن، وَيُقَالُ إِنَّهُ أَشْهَرُ حَجَرٍ فِي الْعَالَم. وَتُوجَدُ نُسْخَةٌ مِنْهُ فِي الْمَتْحَفِ الْمِصْرِيِّ هُنَا فِي الْقَاهِرَة.",
+        "en": "It's now in the British Museum in London, and it's said to be the most famous stone in the world. There is a copy of it in the Egyptian Museum here in Cairo.",
+        "segs": [
+          [
+            "هُوَ",
+            "he (it)"
+          ],
+          [
+            "الْآنَ",
+            "now"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "الْمَتْحَفِ",
+            "the museum"
+          ],
+          [
+            "الْبَرِيطَانِيِّ",
+            "British"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "لَنْدَن",
+            "London (city)"
+          ],
+          [
+            "وَيُقَالُ",
+            "and it is said"
+          ],
+          [
+            "إِنَّهُ",
+            "that it (m)"
+          ],
+          [
+            "أَشْهَرُ",
+            "the most famous"
+          ],
+          [
+            "حَجَرٍ",
+            "stone"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "الْعَالَم",
+            "the world"
+          ],
+          [
+            "وَتُوجَدُ",
+            "and (there) is found ('there is')"
+          ],
+          [
+            "نُسْخَةٌ",
+            "a copy"
+          ],
+          [
+            "مِنْهُ",
+            "of it"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "الْمَتْحَفِ",
+            "the museum"
+          ],
+          [
+            "الْمِصْرِيِّ",
+            "Egyptian"
+          ],
+          [
+            "هُنَا",
+            "here"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "الْقَاهِرَة",
+            "Cairo (city)"
+          ]
+        ]
+      },
+      {
+        "id": "d81l15",
+        "sp": "amal",
+        "ar": "وَالْآنَ نَدْخُلُ الْمَسْجِدَ لِنَرَى الْخَطَّ الْعَرَبِيَّ الْجَمِيلَ فِي الدَّاخِل. تُخْلَعُ الْأَحْذِيَةُ هُنَا عِنْدَ الْبَاب، مِنْ فَضْلِكُمْ.",
+        "en": "And now we're going into the mosque to see the beautiful Arabic calligraphy inside. Shoes are taken off here at the door, please.",
+        "segs": [
+          [
+            "وَالْآنَ",
+            "and now"
+          ],
+          [
+            "نَدْخُلُ",
+            "we go in, we enter"
+          ],
+          [
+            "الْمَسْجِدَ",
+            "the mosque"
+          ],
+          [
+            "لِنَرَى",
+            "to see (so that we see)"
+          ],
+          [
+            "الْخَطَّ",
+            "the calligraphy, the handwriting"
+          ],
+          [
+            "الْعَرَبِيَّ",
+            "Arabic"
+          ],
+          [
+            "الْجَمِيلَ",
+            "beautiful"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "الدَّاخِل",
+            "the inside"
+          ],
+          [
+            "تُخْلَعُ",
+            "(they) are taken off"
+          ],
+          [
+            "الْأَحْذِيَةُ",
+            "the shoes"
+          ],
+          [
+            "هُنَا",
+            "here"
+          ],
+          [
+            "عِنْدَ",
+            "at"
+          ],
+          [
+            "الْبَاب",
+            "the door"
+          ],
+          [
+            "مِنْ",
+            "from (with 'fadlikum': please)"
+          ],
+          [
+            "فَضْلِكُمْ",
+            "your kindness ('please', to a group)"
+          ]
+        ]
+      },
+      {
+        "id": "d81l16",
+        "sp": "daniel",
+        "ar": "سَأَكْتُبُ كُلَّ هٰذِهِ الْأَفْعَالِ فِي دَفْتَرِي: بُنِيَ، صُنِعَ، كُتِبَ، اُكْتُشِفَ، يُقَالُ. هٰذَا أَحْسَنُ دَرْسٍ عَنِ الْمَجْهُولِ حَتَّى الْآنَ!",
+        "en": "I'll write all these verbs in my notebook: was built, was made, was written, was discovered, it is said. This is the best lesson on the passive so far!",
+        "segs": [
+          [
+            "سَأَكْتُبُ",
+            "I will write"
+          ],
+          [
+            "كُلَّ",
+            "all"
+          ],
+          [
+            "هٰذِهِ",
+            "these"
+          ],
+          [
+            "الْأَفْعَالِ",
+            "the verbs"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "دَفْتَرِي",
+            "my notebook"
+          ],
+          [
+            "بُنِيَ",
+            "(it) was built"
+          ],
+          [
+            "صُنِعَ",
+            "(it) was made"
+          ],
+          [
+            "كُتِبَ",
+            "(it) was written"
+          ],
+          [
+            "اُكْتُشِفَ",
+            "(it) was discovered"
+          ],
+          [
+            "يُقَالُ",
+            "it is said"
+          ],
+          [
+            "هٰذَا",
+            "this"
+          ],
+          [
+            "أَحْسَنُ",
+            "the best"
+          ],
+          [
+            "دَرْسٍ",
+            "lesson"
+          ],
+          [
+            "عَنِ",
+            "about (-i links to the next word)"
+          ],
+          [
+            "الْمَجْهُولِ",
+            "the passive (lit. the unknown)"
+          ],
+          [
+            "حَتَّى",
+            "until"
+          ],
+          [
+            "الْآنَ",
+            "now ('until now' = so far)"
+          ]
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "title": "A morning at the Citadel",
+    "ar": "زَارَ الطُّلَّابُ صَبَاحَ الْيَوْمِ قَلْعَةَ صَلَاحِ الدِّين. بُنِيَتِ الْقَلْعَةُ فِي الْقَرْنِ الثَّانِيَ عَشَرَ، وَبُنِيَ مَسْجِدُ مُحَمَّد عَلِي فِي الْقَرْنِ التَّاسِعَ عَشَرَ، وَيُسَمَّى أَيْضًا مَسْجِدَ الْمَرْمَر. فِي السَّاحَةِ سَاعَةٌ صُنِعَتْ فِي فَرَنْسَا، وَيُقَالُ إِنَّهَا لَمْ تَعْمَلْ أَبَدًا. وَكَتَبَ دَانْيَال فِي دَفْتَرِهِ كُلَّ أَفْعَالِ الْمَجْهُول.",
+    "en": "This morning the students visited the Citadel of Salah al-Din. The Citadel was built in the twelfth century, and the Mosque of Muhammad Ali was built in the nineteenth century; it is also called the Alabaster Mosque. In the courtyard there is a clock that was made in France, and it is said that it never worked. And Daniel wrote all the passive verbs in his notebook.",
+    "segs": [
+      [
+        "زَارَ",
+        "(they) visited (lit. he visited)"
+      ],
+      [
+        "الطُّلَّابُ",
+        "the students"
+      ],
+      [
+        "صَبَاحَ",
+        "in the morning (of)"
+      ],
+      [
+        "الْيَوْمِ",
+        "the day ('this morning')"
+      ],
+      [
+        "قَلْعَةَ",
+        "citadel (of)"
+      ],
+      [
+        "صَلَاحِ",
+        "Salah (first part of the name Salah al-Din)"
+      ],
+      [
+        "الدِّين",
+        "al-Din (second part of the name: 'of the faith')"
+      ],
+      [
+        "بُنِيَتِ",
+        "(it, f) was built (-i links to the next word)"
+      ],
+      [
+        "الْقَلْعَةُ",
+        "the citadel"
+      ],
+      [
+        "فِي",
+        "in"
+      ],
+      [
+        "الْقَرْنِ",
+        "the century"
+      ],
+      [
+        "الثَّانِيَ",
+        "twelfth (first part: 'second')"
+      ],
+      [
+        "عَشَرَ",
+        "-teen (second part of 'twelfth')"
+      ],
+      [
+        "وَبُنِيَ",
+        "and (it) was built"
+      ],
+      [
+        "مَسْجِدُ",
+        "mosque (of)"
+      ],
+      [
+        "مُحَمَّد",
+        "Muhammad (first name)"
+      ],
+      [
+        "عَلِي",
+        "Ali (name; Muhammad Ali ruled Egypt in the 1800s)"
+      ],
+      [
+        "فِي",
+        "in"
+      ],
+      [
+        "الْقَرْنِ",
+        "the century"
+      ],
+      [
+        "التَّاسِعَ",
+        "nineteenth (first part: 'ninth')"
+      ],
+      [
+        "عَشَرَ",
+        "-teen (second part of 'nineteenth')"
+      ],
+      [
+        "وَيُسَمَّى",
+        "and (it) is called"
+      ],
+      [
+        "أَيْضًا",
+        "also"
+      ],
+      [
+        "مَسْجِدَ",
+        "mosque (of)"
+      ],
+      [
+        "الْمَرْمَر",
+        "the alabaster"
+      ],
+      [
+        "فِي",
+        "in"
+      ],
+      [
+        "السَّاحَةِ",
+        "the courtyard"
+      ],
+      [
+        "سَاعَةٌ",
+        "a clock"
+      ],
+      [
+        "صُنِعَتْ",
+        "(it, f) was made"
+      ],
+      [
+        "فِي",
+        "in"
+      ],
+      [
+        "فَرَنْسَا",
+        "France"
+      ],
+      [
+        "وَيُقَالُ",
+        "and it is said"
+      ],
+      [
+        "إِنَّهَا",
+        "that it (f)"
+      ],
+      [
+        "لَمْ",
+        "did not"
+      ],
+      [
+        "تَعْمَلْ",
+        "(it, f) work"
+      ],
+      [
+        "أَبَدًا",
+        "ever ('never' with lam)"
+      ],
+      [
+        "وَكَتَبَ",
+        "and (he) wrote"
+      ],
+      [
+        "دَانْيَال",
+        "Daniel (first name)"
+      ],
+      [
+        "فِي",
+        "in"
+      ],
+      [
+        "دَفْتَرِهِ",
+        "his notebook"
+      ],
+      [
+        "كُلَّ",
+        "all"
+      ],
+      [
+        "أَفْعَالِ",
+        "verbs (of)"
+      ],
+      [
+        "الْمَجْهُول",
+        "the passive (lit. the unknown)"
+      ]
+    ]
+  },
+  "review": [
+    "masjid",
+    "qalaa",
+    "qadim",
+    "tarikh",
+    "mathaf",
+    "mashhur"
+  ],
+  "quiz": [
+    {
+      "id": "d81q1",
+      "prompt": "When was the Citadel of Salah al-Din built?",
+      "options": [
+        "in the twelfth century",
+        "in the nineteenth century",
+        "in the eighteenth century",
+        "in the tenth century"
+      ],
+      "answer": 0,
+      "explain": "بُنِيَتِ الْقَلْعَةُ فِي الْقَرْنِ الثَّانِيَ عَشَرَ: the Mosque of Muhammad Ali inside it is much newer (nineteenth century)."
+    },
+    {
+      "id": "d81q2",
+      "prompt": "What does this word mean?",
+      "ar": "بُنِيَ",
+      "options": [
+        "he built",
+        "it was built",
+        "it is built",
+        "they built"
+      ],
+      "answer": 1,
+      "explain": "The vowels u–i make a past passive: بَنَى (he built) → بُنِيَ (it was built)."
+    },
+    {
+      "id": "d81q3",
+      "prompt": "Why is the Mosque of Muhammad Ali also called 'the Alabaster Mosque'?",
+      "options": [
+        "Its walls were covered with alabaster",
+        "It was made in France",
+        "Its minarets are made of marble",
+        "A man called Alabaster built it"
+      ],
+      "answer": 0,
+      "explain": "غُطِّيَتِ الْجُدْرَانُ بِالْمَرْمَر: the walls were covered with alabaster."
+    },
+    {
+      "id": "d81q4",
+      "prompt": "What does Mrs Amal say about the clock in the courtyard?",
+      "options": [
+        "It was made in France and was a gift from the King of France",
+        "It was made in Egypt for the King of France",
+        "It is a copy, and the real clock is in London",
+        "It was made in France and it works very well"
+      ],
+      "answer": 0,
+      "explain": "صُنِعَتْ فِي فَرَنْسَا، وَكَانَتْ هَدِيَّةً مِنْ مَلِكِ فَرَنْسَا, and يُقَالُ إِنَّهَا لَمْ تَعْمَلْ أَبَدًا."
+    },
+    {
+      "id": "d81q5",
+      "prompt": "Which word means 'it is said'?",
+      "options": [
+        "قَالَ",
+        "يَقُولُ",
+        "يُقَالُ",
+        "قِيلَ"
+      ],
+      "answer": 2,
+      "explain": "yu–a in the present makes the passive: يُقَالُ. قِيلَ is the past passive, 'it was said'."
+    },
+    {
+      "id": "d81q6",
+      "prompt": "According to Mr Karim, where is the Rosetta Stone now?",
+      "options": [
+        "in the British Museum in London",
+        "in the Citadel",
+        "in the Egyptian Museum in Cairo",
+        "in Paris"
+      ],
+      "answer": 0,
+      "explain": "The Egyptian Museum in Cairo has only a copy (نُسْخَة) of it."
+    },
+    {
+      "id": "d81q7",
+      "prompt": "In اُكْتُشِفَ (uk-tu-shi-fa), which letter carries a sukūn and closes the first syllable?",
+      "ar": "اُكْتُشِفَ",
+      "options": [
+        "ك (k)",
+        "ت (t)",
+        "ش (sh)",
+        "ف (f)"
+      ],
+      "answer": 0,
+      "explain": "uk-tu-shi-fa: the k has a sukūn, so the first syllable stops on it and the t follows at once."
+    }
+  ],
+  "completion": "Great! You can say when a place was built, what something was made of and when it was discovered with بُنِيَ, صُنِعَ, كُتِبَ and اُكْتُشِفَ, and pass on a story with يُقَالُ إِنَّ. Tomorrow: a formal letter.",
+  "status": "needs-review"
+}

@@ -3763,5 +3763,268 @@
         "en": "You reap what you sow."
       }
     ]
+  },
+  {
+    "id": "conditional-w12",
+    "title": "If…: إِذَا, إِنْ and لَوْ",
+    "titleAr": "إِذَا وَإِنْ وَلَوْ",
+    "firstDay": 80,
+    "summary": "Arabic has three words for 'if'. إِذَا (and the more formal إِنْ) is for things that can really happen; لَوْ is for things that are not real, like dreams and wishes. After all three the verb is usually in the past, even when the meaning is the future.",
+    "formula": "إِذَا / إِنْ + past verb, then the answer (fa- before sa-, lan, a command or a question) · لَوْ + past verb, then la- + past verb",
+    "explanation": "1) Real or likely: إِذَا + a past verb. Here the past form does not mean the past: إِذَا أَمْطَرَتْ means 'if it rains'. If the answer starts with sa- (will), with لَنْ, with a command or with a question, put fa- in front of it: إِذَا أَمْطَرَتْ، فَسَنَزُورُ الْمَتْحَفَ. 2) إِنْ means the same and is more formal; its answer can also be a past verb: إِنْ دَرَسْتَ كُلَّ يَوْمٍ، نَجَحْتَ. You hear it every day in إِنْ شَاءَ اللّٰهُ (God willing). 3) Not real (a dream, a wish, something impossible): لَوْ + a past verb, and the answer starts with la- + a past verb: لَوْ كَانَ عِنْدِي مَالٌ كَثِيرٌ، لَسَافَرْتُ حَوْلَ الْعَالَمِ (if I had a lot of money, I would travel around the world). After كُنْتُ the describing word takes tanwīn -an: لَوْ كُنْتُ غَنِيًّا, لَوْ كُنْتُ وَزِيرَةً.",
+    "table": {
+      "head": [
+        "Word",
+        "Use",
+        "Example",
+        "Meaning"
+      ],
+      "rows": [
+        [
+          "إِذَا",
+          "real, likely",
+          "إِذَا أَمْطَرَتْ، فَسَنَزُورُ الْمَتْحَفَ",
+          "if it rains, we'll visit the museum"
+        ],
+        [
+          "إِذَا",
+          "real, likely",
+          "إِذَا وَصَلْتَ مُتَأَخِّرًا، فَلَنْ تَنْتَظِرَكَ الْحَافِلَةُ",
+          "if you arrive late, the bus won't wait for you"
+        ],
+        [
+          "إِنْ",
+          "real (formal)",
+          "إِنْ دَرَسْتَ كُلَّ يَوْمٍ، نَجَحْتَ",
+          "if you study every day, you'll succeed"
+        ],
+        [
+          "إِنْ",
+          "set phrase",
+          "إِنْ شَاءَ اللّٰهُ",
+          "God willing"
+        ],
+        [
+          "لَوْ",
+          "not real",
+          "لَوْ كُنْتُ غَنِيًّا، لَاشْتَرَيْتُ بَيْتًا",
+          "if I were rich, I would buy a house"
+        ],
+        [
+          "لَوْ",
+          "not real",
+          "لَوْ كَانَ عِنْدِي مَالٌ كَثِيرٌ، لَسَافَرْتُ",
+          "if I had a lot of money, I would travel"
+        ]
+      ]
+    },
+    "examples": [
+      {
+        "ar": "إِذَا أَمْطَرَتْ يَوْمَ الْجُمُعَةِ، فَسَنَزُورُ الْمَتْحَفَ.",
+        "en": "If it rains on Friday, we'll visit the museum."
+      },
+      {
+        "ar": "إِنْ شَاءَ اللّٰهُ، سَيَكُونُ الْجَوُّ جَمِيلًا غَدًا.",
+        "en": "God willing, the weather will be nice tomorrow."
+      },
+      {
+        "ar": "لَوْ فُزْتُ بِمِلْيُونِ دُولَارٍ، لَاشْتَرَيْتُ بَيْتًا عَلَى الشَّاطِئِ.",
+        "en": "If I won a million dollars, I would buy a house on the beach."
+      }
+    ]
+  },
+  {
+    "id": "passive-w12",
+    "title": "The passive: بُنِيَ (it was built)",
+    "titleAr": "الْمَبْنِيُّ لِلْمَجْهُول",
+    "firstDay": 81,
+    "summary": "When the doer is unknown or not important, Arabic changes the vowels of the verb instead of adding a word like 'was': past u–i (بُنِيَ, it was built), present yu–a (يُكْتَبُ, it is written). The thing that was done becomes the subject.",
+    "formula": "past: u … i … a (كُتِبَ) · present: yu … a … u (يُكْتَبُ) · passive verb + the thing done (-u)",
+    "explanation": "Past: give the first letter u and the letter before the last i: كَتَبَ (he wrote) → كُتِبَ (it was written), صَنَعَ → صُنِعَ, بَنَى → بُنِيَ. Longer verbs that start with a connecting alif put u on every vowel before that i: اِكْتَشَفَ → اُكْتُشِفَ. Present: the prefix takes u and the letter before the last takes a: يَكْتُبُ → يُكْتَبُ, يَصْنَعُ → يُصْنَعُ. Hollow verbs use long vowels: قَالَ → قِيلَ (it was said), يَقُولُ → يُقَالُ (it is said). The verb agrees with the thing that was done: بُنِيَ الْمَسْجِدُ, but بُنِيَتِ الْقَلْعَةُ. MSA prefers the passive in history, news, signs and museum labels, when the doer is unknown, obvious or unimportant: يُمْنَعُ التَّدْخِينُ (smoking is forbidden). When you want to name the doer, simply use the active verb: بَنَى صَلَاحُ الدِّين الْقَلْعَةَ.",
+    "table": {
+      "head": [
+        "Active (he…)",
+        "Past passive",
+        "Present passive",
+        "Meaning"
+      ],
+      "rows": [
+        [
+          "بَنَى",
+          "بُنِيَ",
+          "يُبْنَى",
+          "was / is built"
+        ],
+        [
+          "كَتَبَ",
+          "كُتِبَ",
+          "يُكْتَبُ",
+          "was / is written"
+        ],
+        [
+          "صَنَعَ",
+          "صُنِعَ",
+          "يُصْنَعُ",
+          "was / is made"
+        ],
+        [
+          "اِكْتَشَفَ",
+          "اُكْتُشِفَ",
+          "يُكْتَشَفُ",
+          "was / is discovered"
+        ],
+        [
+          "قَالَ",
+          "قِيلَ",
+          "يُقَالُ",
+          "was / is said"
+        ],
+        [
+          "سَمَّى",
+          "سُمِّيَ",
+          "يُسَمَّى",
+          "was / is called (named)"
+        ]
+      ]
+    },
+    "examples": [
+      {
+        "ar": "بُنِيَتِ الْقَلْعَةُ فِي الْقَرْنِ الثَّانِيَ عَشَرَ.",
+        "en": "The Citadel was built in the twelfth century."
+      },
+      {
+        "ar": "يُقَالُ إِنَّ هٰذِهِ السَّاعَةَ لَمْ تَعْمَلْ أَبَدًا.",
+        "en": "It is said that this clock never worked."
+      },
+      {
+        "ar": "يُمْنَعُ التَّدْخِينُ هُنَا.",
+        "en": "Smoking is forbidden here."
+      }
+    ]
+  },
+  {
+    "id": "formal-letter-w12",
+    "title": "A formal letter: أَتَشَرَّفُ بِأَنْ and the plural of respect",
+    "titleAr": "الرِّسَالَة الرَّسْمِيَّة",
+    "summary": "A formal letter adds two things to the email frame: أَتَشَرَّفُ بِأَنْ + a verb to present your request, and the plural of respect: you write to one reader as if to several people (تَفَضَّلُوا, رَدِّكُمْ).",
+    "formula": "السَّيِّد … الْمُحْتَرَم، → تَحِيَّة طَيِّبَة وَبَعْدُ، → أَتَشَرَّفُ بِأَنْ + verb → أَرْجُو أَنْ تَتَفَضَّلُوا بِـ + masdar → وَتَفَضَّلُوا بِقَبُولِ فَائِقِ الِاحْتِرَام + name",
+    "explanation": "To an official, open with السَّيِّد (Mr) or السَّيِّدَة (Mrs, Ms) + the title + الْمُحْتَرَم or الْمُحْتَرَمَة, then تَحِيَّة طَيِّبَة وَبَعْدُ. Present the request with أَتَشَرَّفُ بِأَنْ (I have the honour to) + a present verb ending in -a: أَتَشَرَّفُ بِأَنْ أَتَقَدَّمَ بِطَلَبِ مِنْحَةٍ (I have the honour to apply for a scholarship). The new idea is the plural of respect: in a formal letter the one reader is addressed in the plural, so the verbs end in -ū and 'your' is -kum: تَتَفَضَّلُوا (you be so kind), رَدِّكُمْ (your reply), بِجَامِعَتِكُمْ (at your university). After تَفَضَّلُوا comes بِـ + a masdar: أَرْجُو أَنْ تَتَفَضَّلُوا بِقَبُولِ طَلَبِي (I kindly ask you to accept my application). The fixed closing is وَتَفَضَّلُوا بِقَبُولِ فَائِقِ الِاحْتِرَام (Yours faithfully), then your name.",
+    "table": {
+      "head": [
+        "Part",
+        "Arabic",
+        "English"
+      ],
+      "rows": [
+        [
+          "opening",
+          "السَّيِّد الْمُدِير الْمُحْتَرَم",
+          "Dear Director"
+        ],
+        [
+          "opening (to a woman)",
+          "السَّيِّدَة … الْمُحْتَرَمَة",
+          "Dear Mrs …"
+        ],
+        [
+          "the request",
+          "أَتَشَرَّفُ بِأَنْ أَتَقَدَّمَ بِطَلَبِ مِنْحَةٍ",
+          "I have the honour to apply for a scholarship"
+        ],
+        [
+          "plural of respect",
+          "أَرْجُو أَنْ تَتَفَضَّلُوا بِقَبُولِ طَلَبِي",
+          "I kindly ask you to accept my application"
+        ],
+        [
+          "your (plural of respect)",
+          "رَدِّكُمْ ، بِجَامِعَتِكُمْ",
+          "your reply, at your university"
+        ],
+        [
+          "closing",
+          "وَتَفَضَّلُوا بِقَبُولِ فَائِقِ الِاحْتِرَام",
+          "Yours faithfully"
+        ]
+      ]
+    },
+    "examples": [
+      {
+        "ar": "أَتَشَرَّفُ بِأَنْ أَتَقَدَّمَ بِطَلَبِ مِنْحَةٍ فِي بَرْنَامَجِكُمْ.",
+        "en": "I have the honour to apply for a scholarship in your programme."
+      },
+      {
+        "ar": "أَرْجُو أَنْ تَتَفَضَّلُوا بِقَبُولِ طَلَبِي.",
+        "en": "I kindly ask you to accept my application."
+      },
+      {
+        "ar": "وَتَفَضَّلُوا بِقَبُولِ فَائِقِ الِاحْتِرَام.",
+        "en": "Yours faithfully."
+      }
+    ],
+    "firstDay": 82
+  },
+  {
+    "id": "connectors-w12",
+    "title": "Linking an argument: لٰكِنَّ, مَعَ أَنَّ, لِذٰلِكَ…",
+    "titleAr": "مِنْ نَاحِيَةٍ… وَمِنْ نَاحِيَةٍ أُخْرَى",
+    "summary": "Linking words turn opinions into an argument: مِنْ نَاحِيَةٍ… وَمِنْ نَاحِيَةٍ أُخْرَى (on the one hand… on the other hand), بِالْإِضَافَةِ إِلَى (in addition to), لِذٰلِكَ (that's why, so), لٰكِنَّ (but) and مَعَ أَنَّ (although).",
+    "formula": "لٰكِنَّ / مَعَ أَنَّ + noun (-a) or pronoun ending · بِالْإِضَافَةِ إِلَى + noun (-i) · لِذٰلِكَ + sentence",
+    "explanation": "Each linking word has its own job. To weigh two sides, say مِنْ نَاحِيَةٍ… وَمِنْ نَاحِيَةٍ أُخْرَى; أُخْرَى is feminine because نَاحِيَة is feminine. To add a point, use بِالْإِضَافَةِ إِلَى + a noun in -i, or بِالْإِضَافَةِ إِلَى ذٰلِكَ (in addition to that). To give a result, use لِذٰلِكَ + a normal sentence. To turn the argument, use لٰكِنَّ (but) or مَعَ أَنَّ (although): both follow the rule of أَنَّ, so the noun after them ends in -a (لٰكِنَّ الْحَلَّ سَهْل) or a pronoun is attached (لٰكِنَّهُ، مَعَ أَنَّهُ). لٰكِنْ without shadda can stand before any sentence. Put the مَعَ أَنَّ part after the main idea: الْمِتْرُو أَسْرَعُ، مَعَ أَنَّهُ مُزْدَحِم.",
+    "table": {
+      "head": [
+        "Arabic",
+        "Job",
+        "Example",
+        "English"
+      ],
+      "rows": [
+        [
+          "مِنْ نَاحِيَةٍ… وَمِنْ نَاحِيَةٍ أُخْرَى",
+          "two sides",
+          "مِنْ نَاحِيَةٍ، السَّيَّارَةُ مُرِيحَة، وَمِنْ نَاحِيَةٍ أُخْرَى، هِيَ تُسَبِّبُ التَّلَوُّث.",
+          "on the one hand the car is comfortable; on the other hand it causes pollution"
+        ],
+        [
+          "بِالْإِضَافَةِ إِلَى",
+          "adding a point",
+          "بِالْإِضَافَةِ إِلَى الضَّجِيجِ، هُنَاكَ تَلَوُّث كَبِير.",
+          "in addition to the noise, there's a lot of pollution"
+        ],
+        [
+          "لِذٰلِكَ",
+          "a result",
+          "الشَّارِعُ مُزْدَحِم، لِذٰلِكَ سَأَرْكَبُ الْمِتْرُو.",
+          "the street is crowded, so I'll take the metro"
+        ],
+        [
+          "لٰكِنَّ",
+          "a contrast",
+          "أُحِبُّ الْمِتْرُو، لٰكِنَّهُ مُزْدَحِمٌ جِدًّا.",
+          "I like the metro, but it's very crowded"
+        ],
+        [
+          "مَعَ أَنَّ",
+          "although",
+          "أَمْشِي إِلَى الْجَامِعَة مَعَ أَنَّ الطَّرِيقَ طَوِيل.",
+          "I walk to the university although the way is long"
+        ]
+      ]
+    },
+    "examples": [
+      {
+        "ar": "أُحِبُّ الْمِتْرُو، لٰكِنَّهُ مُزْدَحِمٌ جِدًّا.",
+        "en": "I like the metro, but it's very crowded."
+      },
+      {
+        "ar": "الشَّارِعُ مُزْدَحِم، لِذٰلِكَ سَأَرْكَبُ الْمِتْرُو.",
+        "en": "The street is crowded, so I'll take the metro."
+      },
+      {
+        "ar": "أَمْشِي إِلَى الْجَامِعَة مَعَ أَنَّ الطَّرِيقَ طَوِيل.",
+        "en": "I walk to the university although the way is long."
+      }
+    ],
+    "firstDay": 83
   }
 ]

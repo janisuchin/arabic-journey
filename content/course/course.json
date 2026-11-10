@@ -1951,7 +1951,98 @@
      "title": "Review"
     }
    ],
-   "test": []
+   "test": [
+   {
+    "id": "w12t1",
+    "prompt": "What does this mean?",
+    "ar": "الْهَوَاءُ لَيْسَ نَظِيفًا.",
+    "options": [
+     "The air isn't clean.",
+     "The water is cold.",
+     "The city is green.",
+     "The sun is hot."
+    ],
+    "answer": 0
+   },
+   {
+    "id": "w12t2",
+    "prompt": "Which word means 'computer'?",
+    "options": [
+     "الْحَاسُوب",
+     "الشَّرِيحَة",
+     "الْبَلَدِيَّة",
+     "الْجُمْهُور"
+    ],
+    "answer": 0
+   },
+   {
+    "id": "w12t3",
+    "prompt": "Complete: إِذَا ___ جَيِّدًا، نَجَحْتُمْ فِي الِامْتِحَان.",
+    "options": [
+     "رَاجَعْتُمْ",
+     "تُرَاجِعُونَ",
+     "رَاجِعُوا",
+     "مُرَاجَعَة"
+    ],
+    "answer": 0
+   },
+   {
+    "id": "w12t4",
+    "prompt": "Which sentence is passive?",
+    "options": [
+     "بُنِيَتْ هٰذِهِ الْمَدْرَسَةُ قَبْلَ خَمْسِينَ سَنَةً.",
+     "لَيْلَى كَتَبَتِ الرِّسَالَة.",
+     "أَنَا صَنَعْتُ الشَّرَائِحَ عَلَى الْحَاسُوب.",
+     "زَرَعْنَا الْأَشْجَار."
+    ],
+    "answer": 0
+   },
+   {
+    "id": "w12t5",
+    "prompt": "What does this mean?",
+    "ar": "يُسْتَعْمَلُ الْإِنْتَرْنِت فِي كُلِّ بَيْت.",
+    "options": [
+     "The internet is used in every home.",
+     "We use the internet at home.",
+     "Every home has a computer.",
+     "The internet was built at home."
+    ],
+    "answer": 0
+   },
+   {
+    "id": "w12t6",
+    "prompt": "Which greeting belongs in a formal letter?",
+    "options": [
+     "تَحِيَّةً طَيِّبَةً وَبَعْدُ",
+     "مَعَ السَّلَامَة",
+     "مَرْحَبًا",
+     "صَبَاحُ النُّور"
+    ],
+    "answer": 0
+   },
+   {
+    "id": "w12t7",
+    "prompt": "In a debate, how do you say 'I don't agree'?",
+    "options": [
+     "لَا أُوَافِقُ",
+     "أُوَافِقُ",
+     "مَعَكَ حَقّ",
+     "شُكْرًا"
+    ],
+    "answer": 0
+   },
+   {
+    "id": "w12t8",
+    "prompt": "Which word means 'finally' in a presentation?",
+    "options": [
+     "أَوَّلًا",
+     "ثُمَّ",
+     "أَخِيرًا",
+     "لٰكِنَّ"
+    ],
+    "answer": 2
+   }
+  ]
   },
   {
    "week": 13,

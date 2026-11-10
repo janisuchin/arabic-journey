@@ -1,0 +1,1952 @@
+{
+  "day": 83,
+  "week": 12,
+  "phase": 6,
+  "level": 9,
+  "title": "For and against",
+  "titleAr": "مَعَ وَضِدّ",
+  "titleSegs": [
+    [
+      "مَعَ",
+      "with ('for')"
+    ],
+    [
+      "وَضِدّ",
+      "and against"
+    ]
+  ],
+  "emoji": "⚖️",
+  "summary": "Take part in a polite class debate: give arguments for and against an idea, link them with مِنْ نَاحِيَةٍ… وَمِنْ نَاحِيَةٍ أُخْرَى، لٰكِنَّ، مَعَ أَنَّ، بِالْإِضَافَةِ إِلَى and لِذٰلِكَ, and agree or disagree with أُوَافِقُ and لَا أُوَافِقُ.",
+  "intro": "A debate, نِقَاش, needs more than opinions: you need linking words to build an argument. Weigh two sides with مِنْ نَاحِيَةٍ… وَمِنْ نَاحِيَةٍ أُخْرَى (on the one hand… on the other hand). Add a point with بِالْإِضَافَةِ إِلَى (in addition to), give a result with لِذٰلِكَ (that's why, so), and turn the argument with لٰكِنَّ (but) or مَعَ أَنَّ (although). Like أَنَّ, these two put the next noun in -a or take a pronoun ending: لٰكِنَّهُ (but it), مَعَ أَنَّهُ (although it). To stay polite, start with مَعَ احْتِرَامِي (with respect) before لَا أُوَافِقُ (I don't agree).",
+  "objectives": [
+    "Take part in a polite class debate and give arguments for and against an idea",
+    "Build an argument with مِنْ نَاحِيَةٍ… وَمِنْ نَاحِيَةٍ أُخْرَى, بِالْإِضَافَةِ إِلَى and لِذٰلِكَ",
+    "Use لٰكِنَّ and مَعَ أَنَّ with a noun in -a or a pronoun ending (لٰكِنَّهُ, مَعَ أَنَّهُ)",
+    "Agree and disagree politely with أُوَافِقُ, لَا أُوَافِقُ and مَعَ احْتِرَامِي"
+  ],
+  "realLife": {
+    "emoji": "🚗",
+    "title": "Too many cars downtown",
+    "story": "At five in the afternoon, downtown Cairo is a sea of taxis, buses and private cars, and people on foot squeeze between them on narrow pavements. Some cities in the world have closed their old centres to cars, and in Cairo's cafés people argue about whether it could work there too. Today Mr Karim turns the argument into a class debate: Layla and Daniel speak for the idea, Sami speaks against it, and there is only one rule: be polite."
+  },
+  "letters": [],
+  "newWords": [
+    "niqash",
+    "hujja",
+    "did",
+    "nahiya",
+    "lakinna",
+    "maa-anna",
+    "bil-idafa",
+    "lidhalika",
+    "yamnau",
+    "wasat"
+  ],
+  "grammar": [
+    "connectors-w12",
+    "opinion-phrases"
+  ],
+  "pronunciation": [
+    "intonation"
+  ],
+  "sentences": [
+    {
+      "id": "d83s1",
+      "ar": "مِنْ نَاحِيَةٍ، السَّيَّارَةُ مُرِيحَة، وَمِنْ نَاحِيَةٍ أُخْرَى، هِيَ تُسَبِّبُ التَّلَوُّث.",
+      "en": "On the one hand, the car is comfortable; on the other hand, it causes pollution.",
+      "literal": "from a side, the car (is) comfortable, and from another side, it causes the pollution",
+      "segs": [
+        [
+          "مِنْ",
+          "from, on",
+          "prep"
+        ],
+        [
+          "نَاحِيَةٍ",
+          "a side ('on the one hand')",
+          "noun"
+        ],
+        [
+          "السَّيَّارَةُ",
+          "the car",
+          "noun"
+        ],
+        [
+          "مُرِيحَة",
+          "comfortable (f)",
+          "adj"
+        ],
+        [
+          "وَمِنْ",
+          "and from, and on",
+          "prep"
+        ],
+        [
+          "نَاحِيَةٍ",
+          "a side",
+          "noun"
+        ],
+        [
+          "أُخْرَى",
+          "other, another (f)",
+          "adj"
+        ],
+        [
+          "هِيَ",
+          "she, it (f)",
+          "pronoun"
+        ],
+        [
+          "تُسَبِّبُ",
+          "(she) causes",
+          "verb"
+        ],
+        [
+          "التَّلَوُّث",
+          "the pollution",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "connectors-w12",
+        "adjective-agreement"
+      ],
+      "mistakes": [
+        {
+          "wrong": "وَمِنْ نَاحِيَةٍ آخَر",
+          "right": "وَمِنْ نَاحِيَةٍ أُخْرَى",
+          "why": "نَاحِيَة (side) is feminine, so 'other' must be feminine too: أُخْرَى, not the masculine آخَر."
+        }
+      ]
+    },
+    {
+      "id": "d83s2",
+      "ar": "أُحِبُّ الْمِتْرُو، لٰكِنَّهُ مُزْدَحِمٌ جِدًّا.",
+      "en": "I like the metro, but it's very crowded.",
+      "literal": "I love the metro, but it (is) crowded very",
+      "segs": [
+        [
+          "أُحِبُّ",
+          "I like, I love",
+          "verb"
+        ],
+        [
+          "الْمِتْرُو",
+          "the metro",
+          "noun"
+        ],
+        [
+          "لٰكِنَّهُ",
+          "but it (m)",
+          "particle"
+        ],
+        [
+          "مُزْدَحِمٌ",
+          "crowded",
+          "adj"
+        ],
+        [
+          "جِدًّا",
+          "very",
+          "adverb"
+        ]
+      ],
+      "grammar": [
+        "connectors-w12",
+        "attached-pronouns"
+      ],
+      "mistakes": [
+        {
+          "wrong": "لٰكِنَّ هُوَ مُزْدَحِم",
+          "right": "لٰكِنَّهُ مُزْدَحِم",
+          "why": "لٰكِنَّ (with shadda) cannot stand before هُوَ: the pronoun is attached to it, لٰكِنَّهُ (but it). Without a pronoun, use لٰكِنْ + a full sentence."
+        }
+      ]
+    },
+    {
+      "id": "d83s3",
+      "ar": "أَمْشِي إِلَى الْجَامِعَة مَعَ أَنَّ الطَّرِيقَ طَوِيل.",
+      "en": "I walk to the university although the way is long.",
+      "literal": "I walk to the university with that the road (is) long",
+      "segs": [
+        [
+          "أَمْشِي",
+          "I walk",
+          "verb"
+        ],
+        [
+          "إِلَى",
+          "to",
+          "prep"
+        ],
+        [
+          "الْجَامِعَة",
+          "the university",
+          "noun"
+        ],
+        [
+          "مَعَ",
+          "with ('although', with anna)",
+          "prep"
+        ],
+        [
+          "أَنَّ",
+          "that",
+          "particle"
+        ],
+        [
+          "الطَّرِيقَ",
+          "the road, the way (-a after anna)",
+          "noun"
+        ],
+        [
+          "طَوِيل",
+          "long",
+          "adj"
+        ]
+      ],
+      "grammar": [
+        "connectors-w12",
+        "anna"
+      ],
+      "mistakes": [
+        {
+          "wrong": "مَعَ أَنَّ الطَّرِيقُ طَوِيل",
+          "right": "مَعَ أَنَّ الطَّرِيقَ طَوِيل",
+          "why": "مَعَ أَنَّ follows the rule of أَنَّ: the noun after it ends in -a, aṭ-ṭarīqa."
+        }
+      ]
+    },
+    {
+      "id": "d83s4",
+      "ar": "بِالْإِضَافَةِ إِلَى الضَّجِيجِ، هُنَاكَ تَلَوُّث كَبِير.",
+      "en": "In addition to the noise, there's a lot of pollution.",
+      "literal": "with the addition to the noise, there (is) pollution big",
+      "segs": [
+        [
+          "بِالْإِضَافَةِ",
+          "in addition ('with the addition')",
+          "noun"
+        ],
+        [
+          "إِلَى",
+          "to",
+          "prep"
+        ],
+        [
+          "الضَّجِيجِ",
+          "the noise (-i after ilā)",
+          "noun"
+        ],
+        [
+          "هُنَاكَ",
+          "there is",
+          "adverb"
+        ],
+        [
+          "تَلَوُّث",
+          "pollution",
+          "noun"
+        ],
+        [
+          "كَبِير",
+          "big ('a lot of')",
+          "adj"
+        ]
+      ],
+      "grammar": [
+        "connectors-w12",
+        "hunaka"
+      ],
+      "mistakes": [
+        {
+          "wrong": "بِالْإِضَافَةِ إِلَى الضَّجِيجُ",
+          "right": "بِالْإِضَافَةِ إِلَى الضَّجِيجِ",
+          "why": "إِلَى is a preposition, so the noun after it ends in -i: aḍ-ḍajīji."
+        }
+      ]
+    },
+    {
+      "id": "d83s5",
+      "ar": "الشَّارِعُ مُزْدَحِم، لِذٰلِكَ سَأَرْكَبُ الْمِتْرُو.",
+      "en": "The street is crowded, so I'll take the metro.",
+      "literal": "the street (is) crowded, for that I will ride the metro",
+      "segs": [
+        [
+          "الشَّارِعُ",
+          "the street",
+          "noun"
+        ],
+        [
+          "مُزْدَحِم",
+          "crowded",
+          "adj"
+        ],
+        [
+          "لِذٰلِكَ",
+          "that's why, so",
+          "adverb"
+        ],
+        [
+          "سَأَرْكَبُ",
+          "I will ride, I will take",
+          "verb"
+        ],
+        [
+          "الْمِتْرُو",
+          "the metro",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "connectors-w12",
+        "future"
+      ],
+      "mistakes": [
+        {
+          "wrong": "لِذٰلِكَ أَنَّ سَأَرْكَبُ الْمِتْرُو",
+          "right": "لِذٰلِكَ سَأَرْكَبُ الْمِتْرُو",
+          "why": "لِذٰلِكَ (that's why) is followed by a normal sentence; it does not need أَنَّ."
+        }
+      ]
+    },
+    {
+      "id": "d83s6",
+      "ar": "أَنَا ضِدَّ هٰذِهِ الْفِكْرَة، لٰكِنِّي أَحْتَرِمُ رَأْيَكَ.",
+      "en": "I'm against this idea, but I respect your opinion.",
+      "literal": "I (am) against this the idea, but I respect your opinion",
+      "segs": [
+        [
+          "أَنَا",
+          "I",
+          "pronoun"
+        ],
+        [
+          "ضِدَّ",
+          "against",
+          "prep"
+        ],
+        [
+          "هٰذِهِ",
+          "this (f)",
+          "demonstrative"
+        ],
+        [
+          "الْفِكْرَة",
+          "the idea",
+          "noun"
+        ],
+        [
+          "لٰكِنِّي",
+          "but I",
+          "particle"
+        ],
+        [
+          "أَحْتَرِمُ",
+          "I respect",
+          "verb"
+        ],
+        [
+          "رَأْيَكَ",
+          "your opinion (to a man)",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "connectors-w12",
+        "opinion-phrases"
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Should we ban cars?",
+    "speakers": [
+      {
+        "key": "karim",
+        "name": "Mr Karim",
+        "nameAr": "الْأُسْتَاذ كَرِيم"
+      },
+      {
+        "key": "sami",
+        "name": "Sami",
+        "nameAr": "سَامِي"
+      },
+      {
+        "key": "layla",
+        "name": "Layla",
+        "nameAr": "لَيْلَى"
+      },
+      {
+        "key": "daniel",
+        "name": "Daniel",
+        "nameAr": "دَانْيَال"
+      }
+    ],
+    "culture": "Debates are popular in Arab schools and universities, and on television there are whole programmes where two guests argue for and against an idea. A good debater stays polite: use the other person's name, start with مَعَ احْتِرَامِي (with respect), say first what you agree with, and only then say لَا أُوَافِقُ. Saying 'you are wrong' directly sounds rude; it is better to say أَظُنُّ أَنَّ… (I think that…).",
+    "lines": [
+      {
+        "id": "d83l1",
+        "sp": "karim",
+        "ar": "صَبَاحُ الْخَيْر! الْيَوْمَ عِنْدَنَا نِقَاش جَدِيد. السُّؤَالُ هُوَ: هَلْ يَجِبُ أَنْ نَمْنَعَ السَّيَّارَاتِ فِي وَسَطِ الْمَدِينَة؟ لَيْلَى وَدَانْيَال مَعَ الْفِكْرَة، وَسَامِي ضِدَّهَا.",
+        "en": "Good morning! Today we have a new debate. The question is: should we ban cars in the city centre? Layla and Daniel are for the idea, and Sami is against it.",
+        "segs": [
+          [
+            "صَبَاحُ",
+            "morning (of)"
+          ],
+          [
+            "الْخَيْر",
+            "the goodness"
+          ],
+          [
+            "الْيَوْمَ",
+            "today"
+          ],
+          [
+            "عِنْدَنَا",
+            "we have"
+          ],
+          [
+            "نِقَاش",
+            "a debate, a discussion"
+          ],
+          [
+            "جَدِيد",
+            "new"
+          ],
+          [
+            "السُّؤَالُ",
+            "the question"
+          ],
+          [
+            "هُوَ",
+            "he, it ('is')"
+          ],
+          [
+            "هَلْ",
+            "(yes/no question word)"
+          ],
+          [
+            "يَجِبُ",
+            "it is necessary ('should')"
+          ],
+          [
+            "أَنْ",
+            "to, that"
+          ],
+          [
+            "نَمْنَعَ",
+            "we ban"
+          ],
+          [
+            "السَّيَّارَاتِ",
+            "the cars"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "وَسَطِ",
+            "centre (of), middle (of)"
+          ],
+          [
+            "الْمَدِينَة",
+            "the city"
+          ],
+          [
+            "لَيْلَى",
+            "Layla (first name)"
+          ],
+          [
+            "وَدَانْيَال",
+            "and Daniel (first name)"
+          ],
+          [
+            "مَعَ",
+            "with ('for')"
+          ],
+          [
+            "الْفِكْرَة",
+            "the idea"
+          ],
+          [
+            "وَسَامِي",
+            "and Sami (first name)"
+          ],
+          [
+            "ضِدَّهَا",
+            "against her ('against it')"
+          ]
+        ]
+      },
+      {
+        "id": "d83l2",
+        "sp": "sami",
+        "ar": "أَنَا وَحْدِي ضِدَّ اثْنَيْنِ؟ لَا مُشْكِلَة يَا أُسْتَاذ، عِنْدِي حُجَج قَوِيَّة جِدًّا، وَسَأُقَدِّمُهَا بِأَدَب!",
+        "en": "Me alone against two? No problem, sir, I have very strong arguments, and I'll present them politely!",
+        "segs": [
+          [
+            "أَنَا",
+            "I ('me')"
+          ],
+          [
+            "وَحْدِي",
+            "alone, by myself"
+          ],
+          [
+            "ضِدَّ",
+            "against"
+          ],
+          [
+            "اثْنَيْنِ",
+            "two"
+          ],
+          [
+            "لَا",
+            "no"
+          ],
+          [
+            "مُشْكِلَة",
+            "problem"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "أُسْتَاذ",
+            "teacher ('sir')"
+          ],
+          [
+            "عِنْدِي",
+            "I have"
+          ],
+          [
+            "حُجَج",
+            "arguments"
+          ],
+          [
+            "قَوِيَّة",
+            "strong (f)"
+          ],
+          [
+            "جِدًّا",
+            "very"
+          ],
+          [
+            "وَسَأُقَدِّمُهَا",
+            "and I will present them"
+          ],
+          [
+            "بِأَدَب",
+            "politely ('with manners')"
+          ]
+        ]
+      },
+      {
+        "id": "d83l3",
+        "sp": "karim",
+        "ar": "مُمْتَاز يَا سَامِي. تَذَكَّرُوا الْقَاعِدَة: نَتَكَلَّمُ بِأَدَب، وَلَا نُقَاطِعُ أَحَدًا. لَيْلَى، اِبْدَئِي أَنْتِ مِنْ فَضْلِكِ.",
+        "en": "Excellent, Sami. Remember the rule, everyone: we speak politely, and we don't interrupt anyone. Layla, you start, please.",
+        "segs": [
+          [
+            "مُمْتَاز",
+            "excellent"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "سَامِي",
+            "Sami (first name)"
+          ],
+          [
+            "تَذَكَّرُوا",
+            "remember! (to a group)"
+          ],
+          [
+            "الْقَاعِدَة",
+            "the rule"
+          ],
+          [
+            "نَتَكَلَّمُ",
+            "we speak"
+          ],
+          [
+            "بِأَدَب",
+            "politely ('with manners')"
+          ],
+          [
+            "وَلَا",
+            "and not"
+          ],
+          [
+            "نُقَاطِعُ",
+            "we interrupt"
+          ],
+          [
+            "أَحَدًا",
+            "anyone"
+          ],
+          [
+            "لَيْلَى",
+            "Layla (first name)"
+          ],
+          [
+            "اِبْدَئِي",
+            "start! (to a woman)"
+          ],
+          [
+            "أَنْتِ",
+            "you (to a woman)"
+          ],
+          [
+            "مِنْ",
+            "from"
+          ],
+          [
+            "فَضْلِكِ",
+            "your kindness ('please', to a woman)"
+          ]
+        ]
+      },
+      {
+        "id": "d83l4",
+        "sp": "layla",
+        "ar": "شُكْرًا يَا أُسْتَاذ. أَوَّلًا، وَسَطُ الْمَدِينَة مُزْدَحِم جِدًّا، وَفِي الْهَوَاءِ تَلَوُّث كَبِير. لِذٰلِكَ أَعْتَقِدُ أَنَّ الْمَدِينَةَ تَحْتَاجُ إِلَى شَوَارِعَ بِدُونِ سَيَّارَات.",
+        "en": "Thank you, sir. Firstly, the city centre is very crowded, and there's a lot of pollution in the air. That's why I believe that the city needs streets without cars.",
+        "segs": [
+          [
+            "شُكْرًا",
+            "thank you"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "أُسْتَاذ",
+            "teacher ('sir')"
+          ],
+          [
+            "أَوَّلًا",
+            "firstly"
+          ],
+          [
+            "وَسَطُ",
+            "centre (of)"
+          ],
+          [
+            "الْمَدِينَة",
+            "the city"
+          ],
+          [
+            "مُزْدَحِم",
+            "crowded"
+          ],
+          [
+            "جِدًّا",
+            "very"
+          ],
+          [
+            "وَفِي",
+            "and in"
+          ],
+          [
+            "الْهَوَاءِ",
+            "the air"
+          ],
+          [
+            "تَلَوُّث",
+            "pollution"
+          ],
+          [
+            "كَبِير",
+            "big ('a lot of')"
+          ],
+          [
+            "لِذٰلِكَ",
+            "that's why, so"
+          ],
+          [
+            "أَعْتَقِدُ",
+            "I believe"
+          ],
+          [
+            "أَنَّ",
+            "that"
+          ],
+          [
+            "الْمَدِينَةَ",
+            "the city (-a after anna)"
+          ],
+          [
+            "تَحْتَاجُ",
+            "(she) needs"
+          ],
+          [
+            "إِلَى",
+            "to ('needs' + ilā)"
+          ],
+          [
+            "شَوَارِعَ",
+            "streets"
+          ],
+          [
+            "بِدُونِ",
+            "without"
+          ],
+          [
+            "سَيَّارَات",
+            "cars"
+          ]
+        ]
+      },
+      {
+        "id": "d83l5",
+        "sp": "daniel",
+        "ar": "وَبِالْإِضَافَةِ إِلَى التَّلَوُّث، هُنَاكَ الضَّجِيج. فِي شِيكَاغُو، الشَّوَارِعُ الَّتِي لَيْسَ فِيهَا سَيَّارَات أَهْدَأُ وَأَجْمَلُ، وَالنَّاسُ يَمْشُونَ فِيهَا بِسَعَادَة.",
+        "en": "And in addition to the pollution, there's the noise. In Chicago, the streets that have no cars are quieter and more beautiful, and people walk in them happily.",
+        "segs": [
+          [
+            "وَبِالْإِضَافَةِ",
+            "and in addition ('and with the addition')"
+          ],
+          [
+            "إِلَى",
+            "to"
+          ],
+          [
+            "التَّلَوُّث",
+            "the pollution"
+          ],
+          [
+            "هُنَاكَ",
+            "there is"
+          ],
+          [
+            "الضَّجِيج",
+            "the noise"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "شِيكَاغُو",
+            "Chicago (city in the USA)"
+          ],
+          [
+            "الشَّوَارِعُ",
+            "the streets"
+          ],
+          [
+            "الَّتِي",
+            "which, that (f, or plural of things)"
+          ],
+          [
+            "لَيْسَ",
+            "there is not ('have no')"
+          ],
+          [
+            "فِيهَا",
+            "in them"
+          ],
+          [
+            "سَيَّارَات",
+            "cars"
+          ],
+          [
+            "أَهْدَأُ",
+            "quieter"
+          ],
+          [
+            "وَأَجْمَلُ",
+            "and more beautiful"
+          ],
+          [
+            "وَالنَّاسُ",
+            "and the people"
+          ],
+          [
+            "يَمْشُونَ",
+            "(they) walk"
+          ],
+          [
+            "فِيهَا",
+            "in them"
+          ],
+          [
+            "بِسَعَادَة",
+            "happily ('with happiness')"
+          ]
+        ]
+      },
+      {
+        "id": "d83l6",
+        "sp": "sami",
+        "ar": "مِنْ نَاحِيَةٍ، أُوَافِقُ: التَّلَوُّثُ مُشْكِلَة. وَمِنْ نَاحِيَةٍ أُخْرَى، كَيْفَ يَصِلُ النَّاسُ إِلَى عَمَلِهِمْ؟ جَدِّي كَبِير فِي السِّنّ، وَلَا يَسْتَطِيعُ أَنْ يَمْشِيَ كَثِيرًا.",
+        "en": "On the one hand, I agree: pollution is a problem. On the other hand, how do people get to their work? My grandfather is old, and he can't walk very much.",
+        "segs": [
+          [
+            "مِنْ",
+            "from, on"
+          ],
+          [
+            "نَاحِيَةٍ",
+            "a side ('on the one hand')"
+          ],
+          [
+            "أُوَافِقُ",
+            "I agree"
+          ],
+          [
+            "التَّلَوُّثُ",
+            "pollution"
+          ],
+          [
+            "مُشْكِلَة",
+            "a problem"
+          ],
+          [
+            "وَمِنْ",
+            "and from, and on"
+          ],
+          [
+            "نَاحِيَةٍ",
+            "a side"
+          ],
+          [
+            "أُخْرَى",
+            "other, another (f)"
+          ],
+          [
+            "كَيْفَ",
+            "how"
+          ],
+          [
+            "يَصِلُ",
+            "(he) arrives ('get to')"
+          ],
+          [
+            "النَّاسُ",
+            "the people"
+          ],
+          [
+            "إِلَى",
+            "to"
+          ],
+          [
+            "عَمَلِهِمْ",
+            "their work"
+          ],
+          [
+            "جَدِّي",
+            "my grandfather"
+          ],
+          [
+            "كَبِير",
+            "big ('old')"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "السِّنّ",
+            "age ('old in age')"
+          ],
+          [
+            "وَلَا",
+            "and not"
+          ],
+          [
+            "يَسْتَطِيعُ",
+            "(he) can, is able"
+          ],
+          [
+            "أَنْ",
+            "to"
+          ],
+          [
+            "يَمْشِيَ",
+            "(he) walks"
+          ],
+          [
+            "كَثِيرًا",
+            "a lot, much"
+          ]
+        ]
+      },
+      {
+        "id": "d83l7",
+        "sp": "layla",
+        "ar": "سُؤَال جَيِّد يَا سَامِي، لٰكِنَّ الْحَلَّ سَهْل: الْحَافِلَاتُ وَالْمِتْرُو. الْمِتْرُو أَسْرَعُ مِنَ السَّيَّارَة فِي وَسَطِ الْمَدِينَة، مَعَ أَنَّهُ مُزْدَحِم.",
+        "en": "A good question, Sami, but the solution is easy: the buses and the metro. The metro is faster than a car in the city centre, although it's crowded.",
+        "segs": [
+          [
+            "سُؤَال",
+            "a question"
+          ],
+          [
+            "جَيِّد",
+            "good"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "سَامِي",
+            "Sami (first name)"
+          ],
+          [
+            "لٰكِنَّ",
+            "but"
+          ],
+          [
+            "الْحَلَّ",
+            "the solution (-a after lākinna)"
+          ],
+          [
+            "سَهْل",
+            "easy"
+          ],
+          [
+            "الْحَافِلَاتُ",
+            "the buses"
+          ],
+          [
+            "وَالْمِتْرُو",
+            "and the metro"
+          ],
+          [
+            "الْمِتْرُو",
+            "the metro"
+          ],
+          [
+            "أَسْرَعُ",
+            "faster"
+          ],
+          [
+            "مِنَ",
+            "than"
+          ],
+          [
+            "السَّيَّارَة",
+            "the car"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "وَسَطِ",
+            "centre (of)"
+          ],
+          [
+            "الْمَدِينَة",
+            "the city"
+          ],
+          [
+            "مَعَ",
+            "with ('although', with anna)"
+          ],
+          [
+            "أَنَّهُ",
+            "that it (m)"
+          ],
+          [
+            "مُزْدَحِم",
+            "crowded"
+          ]
+        ]
+      },
+      {
+        "id": "d83l8",
+        "sp": "sami",
+        "ar": "مَعَ احْتِرَامِي يَا لَيْلَى، لَا أُوَافِقُ. الْمِتْرُو لَا يَصِلُ إِلَى كُلِّ مَكَان، وَالْحَافِلَاتُ دَائِمًا مُتَأَخِّرَة. بِالْإِضَافَةِ إِلَى ذٰلِكَ، أَصْحَابُ الْمَحَلَّاتِ يَحْتَاجُونَ إِلَى الزَّبَائِن!",
+        "en": "With respect, Layla, I don't agree. The metro doesn't reach every place, and the buses are always late. In addition to that, shop owners need customers!",
+        "segs": [
+          [
+            "مَعَ",
+            "with"
+          ],
+          [
+            "احْتِرَامِي",
+            "my respect"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "لَيْلَى",
+            "Layla (first name)"
+          ],
+          [
+            "لَا",
+            "not"
+          ],
+          [
+            "أُوَافِقُ",
+            "I agree"
+          ],
+          [
+            "الْمِتْرُو",
+            "the metro"
+          ],
+          [
+            "لَا",
+            "not"
+          ],
+          [
+            "يَصِلُ",
+            "(he) arrives, reaches"
+          ],
+          [
+            "إِلَى",
+            "to"
+          ],
+          [
+            "كُلِّ",
+            "every"
+          ],
+          [
+            "مَكَان",
+            "place"
+          ],
+          [
+            "وَالْحَافِلَاتُ",
+            "and the buses"
+          ],
+          [
+            "دَائِمًا",
+            "always"
+          ],
+          [
+            "مُتَأَخِّرَة",
+            "late (f)"
+          ],
+          [
+            "بِالْإِضَافَةِ",
+            "in addition ('with the addition')"
+          ],
+          [
+            "إِلَى",
+            "to"
+          ],
+          [
+            "ذٰلِكَ",
+            "that"
+          ],
+          [
+            "أَصْحَابُ",
+            "owners (of)"
+          ],
+          [
+            "الْمَحَلَّاتِ",
+            "the shops"
+          ],
+          [
+            "يَحْتَاجُونَ",
+            "(they) need"
+          ],
+          [
+            "إِلَى",
+            "to ('need' + ilā)"
+          ],
+          [
+            "الزَّبَائِن",
+            "the customers"
+          ]
+        ]
+      },
+      {
+        "id": "d83l9",
+        "sp": "daniel",
+        "ar": "لٰكِنَّ الزَّبَائِنَ يَمْشُونَ أَيْضًا يَا سَامِي! فِي شِيكَاغُو، قُرْبَ بَيْتِي، أَغْلَقُوا شَارِعًا أَمَامَ السَّيَّارَات، وَالْآنَ فِيهِ مَطَاعِمُ وَمَحَلَّات جَدِيدَة.",
+        "en": "But customers walk too, Sami! In Chicago, near my home, they closed a street to cars, and now there are new restaurants and shops on it.",
+        "segs": [
+          [
+            "لٰكِنَّ",
+            "but"
+          ],
+          [
+            "الزَّبَائِنَ",
+            "the customers (-a after lākinna)"
+          ],
+          [
+            "يَمْشُونَ",
+            "(they) walk"
+          ],
+          [
+            "أَيْضًا",
+            "too, also"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "سَامِي",
+            "Sami (first name)"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "شِيكَاغُو",
+            "Chicago (city in the USA)"
+          ],
+          [
+            "قُرْبَ",
+            "near"
+          ],
+          [
+            "بَيْتِي",
+            "my house, my home"
+          ],
+          [
+            "أَغْلَقُوا",
+            "(they) closed"
+          ],
+          [
+            "شَارِعًا",
+            "a street"
+          ],
+          [
+            "أَمَامَ",
+            "in front of ('to')"
+          ],
+          [
+            "السَّيَّارَات",
+            "the cars"
+          ],
+          [
+            "وَالْآنَ",
+            "and now"
+          ],
+          [
+            "فِيهِ",
+            "in it"
+          ],
+          [
+            "مَطَاعِمُ",
+            "restaurants"
+          ],
+          [
+            "وَمَحَلَّات",
+            "and shops"
+          ],
+          [
+            "جَدِيدَة",
+            "new (f)"
+          ]
+        ]
+      },
+      {
+        "id": "d83l10",
+        "sp": "karim",
+        "ar": "نُقْطَة مُهِمَّة يَا دَانْيَال. يَا سَامِي، عِنْدَكَ دَقِيقَة وَاحِدَة فَقَط. مَا هِيَ أَقْوَى حُجَّة عِنْدَكَ؟",
+        "en": "An important point, Daniel. Sami, you have only one minute left. What is your strongest argument?",
+        "segs": [
+          [
+            "نُقْطَة",
+            "a point"
+          ],
+          [
+            "مُهِمَّة",
+            "important (f)"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "دَانْيَال",
+            "Daniel (first name)"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "سَامِي",
+            "Sami (first name)"
+          ],
+          [
+            "عِنْدَكَ",
+            "you have (to a man)"
+          ],
+          [
+            "دَقِيقَة",
+            "a minute"
+          ],
+          [
+            "وَاحِدَة",
+            "one (f)"
+          ],
+          [
+            "فَقَط",
+            "only"
+          ],
+          [
+            "مَا",
+            "what"
+          ],
+          [
+            "هِيَ",
+            "she, it ('is')"
+          ],
+          [
+            "أَقْوَى",
+            "the strongest"
+          ],
+          [
+            "حُجَّة",
+            "argument"
+          ],
+          [
+            "عِنْدَكَ",
+            "you have (to a man)"
+          ]
+        ]
+      },
+      {
+        "id": "d83l11",
+        "sp": "sami",
+        "ar": "حُجَّتِي هِيَ: لَيْسَ كُلُّ النَّاسِ شَبَابًا وَأَقْوِيَاء. الْمَرْضَى وَالْكِبَارُ يَحْتَاجُونَ إِلَى السَّيَّارَة، لِذٰلِكَ أَنَا ضِدَّ مَنْعِ السَّيَّارَاتِ تَمَامًا.",
+        "en": "My argument is this: not all people are young and strong. Sick people and old people need the car, so I am against banning cars completely.",
+        "segs": [
+          [
+            "حُجَّتِي",
+            "my argument"
+          ],
+          [
+            "هِيَ",
+            "she, it ('is')"
+          ],
+          [
+            "لَيْسَ",
+            "is not, are not"
+          ],
+          [
+            "كُلُّ",
+            "all"
+          ],
+          [
+            "النَّاسِ",
+            "the people"
+          ],
+          [
+            "شَبَابًا",
+            "young (people)"
+          ],
+          [
+            "وَأَقْوِيَاء",
+            "and strong (plural)"
+          ],
+          [
+            "الْمَرْضَى",
+            "the sick (people)"
+          ],
+          [
+            "وَالْكِبَارُ",
+            "and the old (people)"
+          ],
+          [
+            "يَحْتَاجُونَ",
+            "(they) need"
+          ],
+          [
+            "إِلَى",
+            "to ('need' + ilā)"
+          ],
+          [
+            "السَّيَّارَة",
+            "the car"
+          ],
+          [
+            "لِذٰلِكَ",
+            "that's why, so"
+          ],
+          [
+            "أَنَا",
+            "I"
+          ],
+          [
+            "ضِدَّ",
+            "against"
+          ],
+          [
+            "مَنْعِ",
+            "banning (of)"
+          ],
+          [
+            "السَّيَّارَاتِ",
+            "the cars"
+          ],
+          [
+            "تَمَامًا",
+            "completely"
+          ]
+        ]
+      },
+      {
+        "id": "d83l12",
+        "sp": "layla",
+        "ar": "هٰذِهِ حُجَّة قَوِيَّة يَا سَامِي، وَأُوَافِقُكَ فِيهَا. لِذٰلِكَ أَقْتَرِحُ أَنْ تَدْخُلَ سَيَّارَاتُ الْإِسْعَافِ وَالتَّاكْسِي فَقَط.",
+        "en": "That's a strong argument, Sami, and I agree with you on it. That's why I suggest that only ambulances and taxis can come in.",
+        "segs": [
+          [
+            "هٰذِهِ",
+            "this (f)"
+          ],
+          [
+            "حُجَّة",
+            "argument"
+          ],
+          [
+            "قَوِيَّة",
+            "strong (f)"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "سَامِي",
+            "Sami (first name)"
+          ],
+          [
+            "وَأُوَافِقُكَ",
+            "and I agree with you"
+          ],
+          [
+            "فِيهَا",
+            "in it ('on it')"
+          ],
+          [
+            "لِذٰلِكَ",
+            "that's why, so"
+          ],
+          [
+            "أَقْتَرِحُ",
+            "I suggest"
+          ],
+          [
+            "أَنْ",
+            "that"
+          ],
+          [
+            "تَدْخُلَ",
+            "(they, f) enter ('can come in')"
+          ],
+          [
+            "سَيَّارَاتُ",
+            "cars (of)"
+          ],
+          [
+            "الْإِسْعَافِ",
+            "the ambulance service ('ambulances')"
+          ],
+          [
+            "وَالتَّاكْسِي",
+            "and the taxi"
+          ],
+          [
+            "فَقَط",
+            "only"
+          ]
+        ]
+      },
+      {
+        "id": "d83l13",
+        "sp": "sami",
+        "ar": "إِذَنْ نَحْنُ مُتَّفِقُونَ تَقْرِيبًا! مِنْ نَاحِيَةٍ، أَنَا ضِدَّ الْمَنْعِ الْكَامِل. وَمِنْ نَاحِيَةٍ أُخْرَى، شَارِعٌ أَوْ شَارِعَانِ لِلْمُشَاةِ فِكْرَة جَمِيلَة.",
+        "en": "So we almost agree! On the one hand, I'm against a complete ban. On the other hand, one or two streets for people on foot is a lovely idea.",
+        "segs": [
+          [
+            "إِذَنْ",
+            "so, then"
+          ],
+          [
+            "نَحْنُ",
+            "we"
+          ],
+          [
+            "مُتَّفِقُونَ",
+            "in agreement"
+          ],
+          [
+            "تَقْرِيبًا",
+            "almost"
+          ],
+          [
+            "مِنْ",
+            "from, on"
+          ],
+          [
+            "نَاحِيَةٍ",
+            "a side ('on the one hand')"
+          ],
+          [
+            "أَنَا",
+            "I"
+          ],
+          [
+            "ضِدَّ",
+            "against"
+          ],
+          [
+            "الْمَنْعِ",
+            "the ban"
+          ],
+          [
+            "الْكَامِل",
+            "the complete, the total"
+          ],
+          [
+            "وَمِنْ",
+            "and from, and on"
+          ],
+          [
+            "نَاحِيَةٍ",
+            "a side"
+          ],
+          [
+            "أُخْرَى",
+            "other, another (f)"
+          ],
+          [
+            "شَارِعٌ",
+            "a street"
+          ],
+          [
+            "أَوْ",
+            "or"
+          ],
+          [
+            "شَارِعَانِ",
+            "two streets"
+          ],
+          [
+            "لِلْمُشَاةِ",
+            "for the people on foot"
+          ],
+          [
+            "فِكْرَة",
+            "an idea"
+          ],
+          [
+            "جَمِيلَة",
+            "beautiful, lovely (f)"
+          ]
+        ]
+      },
+      {
+        "id": "d83l14",
+        "sp": "karim",
+        "ar": "أَحْسَنْتُمْ جَمِيعًا! اِسْتَعْمَلْتُمْ لٰكِنَّ وَمَعَ أَنَّ وَلِذٰلِكَ، وَلَمْ يُقَاطِعْ أَحَدٌ أَحَدًا. هٰذَا هُوَ النِّقَاشُ الْمُؤَدَّب.",
+        "en": "Well done, all of you! You used 'lākinna', 'maʿa anna' and 'li-dhālika', and nobody interrupted anybody. That is what a polite debate looks like.",
+        "segs": [
+          [
+            "أَحْسَنْتُمْ",
+            "well done (to a group)"
+          ],
+          [
+            "جَمِيعًا",
+            "all (of you)"
+          ],
+          [
+            "اِسْتَعْمَلْتُمْ",
+            "you used (to a group)"
+          ],
+          [
+            "لٰكِنَّ",
+            "but"
+          ],
+          [
+            "وَمَعَ",
+            "and with ('and although', with anna)"
+          ],
+          [
+            "أَنَّ",
+            "that"
+          ],
+          [
+            "وَلِذٰلِكَ",
+            "and that's why"
+          ],
+          [
+            "وَلَمْ",
+            "and did not"
+          ],
+          [
+            "يُقَاطِعْ",
+            "(he) interrupt"
+          ],
+          [
+            "أَحَدٌ",
+            "anyone ('nobody', with lam)"
+          ],
+          [
+            "أَحَدًا",
+            "anyone"
+          ],
+          [
+            "هٰذَا",
+            "this"
+          ],
+          [
+            "هُوَ",
+            "he, it ('is')"
+          ],
+          [
+            "النِّقَاشُ",
+            "the debate"
+          ],
+          [
+            "الْمُؤَدَّب",
+            "the polite"
+          ]
+        ]
+      },
+      {
+        "id": "d83l15",
+        "sp": "daniel",
+        "ar": "يَا أُسْتَاذ، مَنْ فَازَ فِي النِّقَاش؟ نَحْنُ أَمْ سَامِي؟ أَظُنُّ أَنَّ حُجَجَنَا كَانَتْ أَقْوَى قَلِيلًا!",
+        "en": "Sir, who won the debate? Us or Sami? I think that our arguments were a little stronger!",
+        "segs": [
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "أُسْتَاذ",
+            "teacher ('sir')"
+          ],
+          [
+            "مَنْ",
+            "who"
+          ],
+          [
+            "فَازَ",
+            "(he) won"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "النِّقَاش",
+            "the debate"
+          ],
+          [
+            "نَحْنُ",
+            "we ('us')"
+          ],
+          [
+            "أَمْ",
+            "or (in a question)"
+          ],
+          [
+            "سَامِي",
+            "Sami (first name)"
+          ],
+          [
+            "أَظُنُّ",
+            "I think"
+          ],
+          [
+            "أَنَّ",
+            "that"
+          ],
+          [
+            "حُجَجَنَا",
+            "our arguments (-a after anna)"
+          ],
+          [
+            "كَانَتْ",
+            "(she) was ('were')"
+          ],
+          [
+            "أَقْوَى",
+            "stronger"
+          ],
+          [
+            "قَلِيلًا",
+            "a little"
+          ]
+        ]
+      },
+      {
+        "id": "d83l16",
+        "sp": "karim",
+        "ar": "فِي النِّقَاشِ الْجَيِّد لَا يَخْسَرُ أَحَدٌ: كُلُّكُمْ تَعَلَّمْتُمْ شَيْئًا. وَغَدًا نُرَاجِعُ كُلَّ دُرُوسِ الْأُسْبُوع، لِذٰلِكَ اقْرَؤُوا كَلِمَاتِكُمُ الْيَوْمَ!",
+        "en": "In a good debate nobody loses: all of you learned something. And tomorrow we'll review all the lessons of the week, so read over your words today!",
+        "segs": [
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "النِّقَاشِ",
+            "the debate"
+          ],
+          [
+            "الْجَيِّد",
+            "the good"
+          ],
+          [
+            "لَا",
+            "not"
+          ],
+          [
+            "يَخْسَرُ",
+            "(he) loses"
+          ],
+          [
+            "أَحَدٌ",
+            "anyone ('nobody', with lā)"
+          ],
+          [
+            "كُلُّكُمْ",
+            "all of you"
+          ],
+          [
+            "تَعَلَّمْتُمْ",
+            "you learned (to a group)"
+          ],
+          [
+            "شَيْئًا",
+            "something"
+          ],
+          [
+            "وَغَدًا",
+            "and tomorrow"
+          ],
+          [
+            "نُرَاجِعُ",
+            "we review"
+          ],
+          [
+            "كُلَّ",
+            "all"
+          ],
+          [
+            "دُرُوسِ",
+            "lessons (of)"
+          ],
+          [
+            "الْأُسْبُوع",
+            "the week"
+          ],
+          [
+            "لِذٰلِكَ",
+            "that's why, so"
+          ],
+          [
+            "اقْرَؤُوا",
+            "read! (to a group)"
+          ],
+          [
+            "كَلِمَاتِكُمُ",
+            "your words (to a group)"
+          ],
+          [
+            "الْيَوْمَ",
+            "today"
+          ]
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "title": "The debate about the city centre",
+    "ar": "فِي دَرْسِ الْيَوْمِ كَانَ هُنَاكَ نِقَاش: هَلْ يَجِبُ أَنْ نَمْنَعَ السَّيَّارَاتِ فِي وَسَطِ الْمَدِينَة؟ كَانَتْ لَيْلَى وَدَانْيَال مَعَ الْفِكْرَة، لِأَنَّ فِيهِ تَلَوُّثًا وَضَجِيجًا كَثِيرًا. أَمَّا سَامِي فَكَانَ ضِدَّهَا، لِأَنَّ الْكِبَارَ وَالْمَرْضَى يَحْتَاجُونَ إِلَى السَّيَّارَة. وَفِي النِّهَايَة اتَّفَقَ الطُّلَّابُ تَقْرِيبًا: شَارِعٌ أَوْ شَارِعَانِ لِلْمُشَاةِ فِكْرَة جَمِيلَة.",
+    "en": "In today's lesson there was a debate: should we ban cars in the city centre? Layla and Daniel were for the idea, because there is a lot of pollution and noise there. As for Sami, he was against it, because old and sick people need the car. And in the end the students almost agreed: one or two streets for people on foot is a lovely idea.",
+    "segs": [
+      [
+        "فِي",
+        "in"
+      ],
+      [
+        "دَرْسِ",
+        "lesson (of)"
+      ],
+      [
+        "الْيَوْمِ",
+        "the day ('today's')"
+      ],
+      [
+        "كَانَ",
+        "(he) was"
+      ],
+      [
+        "هُنَاكَ",
+        "there ('there was')"
+      ],
+      [
+        "نِقَاش",
+        "a debate"
+      ],
+      [
+        "هَلْ",
+        "(yes/no question word)"
+      ],
+      [
+        "يَجِبُ",
+        "it is necessary ('should')"
+      ],
+      [
+        "أَنْ",
+        "to, that"
+      ],
+      [
+        "نَمْنَعَ",
+        "we ban"
+      ],
+      [
+        "السَّيَّارَاتِ",
+        "the cars"
+      ],
+      [
+        "فِي",
+        "in"
+      ],
+      [
+        "وَسَطِ",
+        "centre (of)"
+      ],
+      [
+        "الْمَدِينَة",
+        "the city"
+      ],
+      [
+        "كَانَتْ",
+        "(she) was ('were')"
+      ],
+      [
+        "لَيْلَى",
+        "Layla (first name)",
+        "name"
+      ],
+      [
+        "وَدَانْيَال",
+        "and Daniel (first name)",
+        "name"
+      ],
+      [
+        "مَعَ",
+        "with ('for')"
+      ],
+      [
+        "الْفِكْرَة",
+        "the idea"
+      ],
+      [
+        "لِأَنَّ",
+        "because"
+      ],
+      [
+        "فِيهِ",
+        "in it ('there')"
+      ],
+      [
+        "تَلَوُّثًا",
+        "pollution (-an after anna)"
+      ],
+      [
+        "وَضَجِيجًا",
+        "and noise"
+      ],
+      [
+        "كَثِيرًا",
+        "a lot of, much"
+      ],
+      [
+        "أَمَّا",
+        "as for"
+      ],
+      [
+        "سَامِي",
+        "Sami (first name)",
+        "name"
+      ],
+      [
+        "فَكَانَ",
+        "(he) was"
+      ],
+      [
+        "ضِدَّهَا",
+        "against her ('against it')"
+      ],
+      [
+        "لِأَنَّ",
+        "because"
+      ],
+      [
+        "الْكِبَارَ",
+        "the old (people) (-a after anna)"
+      ],
+      [
+        "وَالْمَرْضَى",
+        "and the sick (people)"
+      ],
+      [
+        "يَحْتَاجُونَ",
+        "(they) need"
+      ],
+      [
+        "إِلَى",
+        "to ('need' + ilā)"
+      ],
+      [
+        "السَّيَّارَة",
+        "the car"
+      ],
+      [
+        "وَفِي",
+        "and in"
+      ],
+      [
+        "النِّهَايَة",
+        "the end"
+      ],
+      [
+        "اتَّفَقَ",
+        "(he) agreed ('agreed')"
+      ],
+      [
+        "الطُّلَّابُ",
+        "the students"
+      ],
+      [
+        "تَقْرِيبًا",
+        "almost"
+      ],
+      [
+        "شَارِعٌ",
+        "a street"
+      ],
+      [
+        "أَوْ",
+        "or"
+      ],
+      [
+        "شَارِعَانِ",
+        "two streets"
+      ],
+      [
+        "لِلْمُشَاةِ",
+        "for the people on foot"
+      ],
+      [
+        "فِكْرَة",
+        "an idea"
+      ],
+      [
+        "جَمِيلَة",
+        "beautiful, lovely (f)"
+      ]
+    ]
+  },
+  "review": [
+    "yuwafiqu",
+    "ray",
+    "yataqidu",
+    "sayyara",
+    "muzdahim",
+    "mushkila"
+  ],
+  "quiz": [
+    {
+      "id": "d83q1",
+      "prompt": "What does this word mean?",
+      "ar": "لِذٰلِكَ",
+      "options": [
+        "although",
+        "in addition to",
+        "that's why, so",
+        "on the other hand"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "d83q2",
+      "prompt": "In the debate, what is Sami's position at the start?",
+      "options": [
+        "He is for banning cars.",
+        "He is against banning cars.",
+        "He has no opinion.",
+        "He is the judge."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "d83q3",
+      "prompt": "Choose the word that completes the sentence: 'I like the metro, but it's very crowded.'",
+      "ar": "أُحِبُّ الْمِتْرُو، … مُزْدَحِمٌ جِدًّا.",
+      "options": [
+        "لِذٰلِكَ",
+        "بِالْإِضَافَةِ",
+        "نَاحِيَةٍ",
+        "لٰكِنَّهُ"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "d83q4",
+      "prompt": "What happened to a street near Daniel's home in Chicago?",
+      "options": [
+        "They closed it to cars, and now it has new restaurants and shops.",
+        "They built a metro station on it.",
+        "It became a car park.",
+        "It is always full of taxis."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "d83q5",
+      "prompt": "What is Sami's strongest argument?",
+      "options": [
+        "The metro is too expensive.",
+        "Shops sell more without cars.",
+        "Sick people and old people need the car.",
+        "The air in the centre is clean."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "d83q6",
+      "prompt": "Which phrase means 'on the other hand'?",
+      "options": [
+        "مَعَ أَنَّ",
+        "وَمِنْ نَاحِيَةٍ أُخْرَى",
+        "بِالْإِضَافَةِ إِلَى",
+        "لِذٰلِكَ"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "d83q7",
+      "prompt": "Mr Karim asks a yes/no question with هَلْ. How does his voice move at the end?",
+      "ar": "هَلْ يَجِبُ أَنْ نَمْنَعَ السَّيَّارَاتِ؟",
+      "options": [
+        "It rises.",
+        "It falls.",
+        "It stays flat.",
+        "It stops in the middle."
+      ],
+      "answer": 0,
+      "explain": "A yes/no question with هَلْ rises at the end; a question with a question word such as مَا or كَيْفَ falls."
+    }
+  ],
+  "completion": "Mabrūk! You can now argue for and against an idea politely, weigh both sides with مِنْ نَاحِيَةٍ… وَمِنْ نَاحِيَةٍ أُخْرَى, and link your points with لٰكِنَّ, مَعَ أَنَّ, بِالْإِضَافَةِ إِلَى and لِذٰلِكَ. Tomorrow is the Week 12 review. Complete the quiz with 80% to finish the day.",
+  "status": "needs-review"
+}

@@ -1,0 +1,1839 @@
+{
+  "day": 84,
+  "week": 12,
+  "phase": 6,
+  "level": 9,
+  "title": "Review",
+  "titleAr": "مُرَاجَعَة",
+  "titleSegs": [
+    [
+      "مُرَاجَعَة",
+      "review, revision"
+    ]
+  ],
+  "emoji": "🎤",
+  "summary": "Review Week 12 in one story: a class presentation about a greener city, with إِذَا sentences, passive verbs, a formal letter and a polite debate.",
+  "intro": "Today is review day, مُرَاجَعَة. Sami's group gives a تَقْدِيم (presentation) about a greener city, and every part of the week comes back. The problem and the solution use إِذَا + a past verb: إِذَا اسْتَعْمَلْنَا الْحَافِلَةَ، قَلَّ التَّلَوُّثُ (if we use the bus, pollution goes down). The facts use the passive, made by changing the vowels: بُنِيَتْ (it was built), تُصْنَعُ (it is made), يُسْتَعْمَلُ (it is used). The formal letter opens with تَحِيَّةً طَيِّبَةً وَبَعْدُ, the debate needs لَا أُوَافِقُ (I don't agree) and a reason, and the talk is held together by أَوَّلًا، ثُمَّ and أَخِيرًا. A presentation ends with شُكْرًا لِحُسْنِ الِاسْتِمَاع (thank you for listening).",
+  "objectives": [
+    "Give a short presentation in Arabic, organised with أَوَّلًا، ثُمَّ and أَخِيرًا",
+    "Use إِذَا + a past verb to say what happens if we change something",
+    "Recognise and use passive verbs like بُنِيَتْ (it was built) and يُسْتَعْمَلُ (it is used)",
+    "Open a formal letter and agree or disagree in a debate with a reason"
+  ],
+  "realLife": {
+    "emoji": "🌳",
+    "title": "A presentation for a greener city",
+    "story": "It's the last lesson of the week, and Mr Karim wants every group to give a short presentation in Arabic. Sami's group has chosen 'A green city': Sami made the slides on his laptop, Layla wrote a formal letter to the mayor, and Daniel has to present the summary in front of the whole class. Then Mr Karim plays the audience and asks the hardest question he can think of."
+  },
+  "letters": [],
+  "newWords": [
+    "muraja",
+    "taqdim",
+    "yuqaddimu",
+    "mulakhkhas",
+    "hall",
+    "natija",
+    "jumhur",
+    "shariha"
+  ],
+  "grammar": [
+    "conditional-w12",
+    "passive-w12"
+  ],
+  "pronunciation": [
+    "stress"
+  ],
+  "sentences": [
+    {
+      "id": "d84s1",
+      "ar": "إِذَا اسْتَعْمَلْنَا الْحَافِلَةَ، قَلَّ التَّلَوُّثُ فِي الْمَدِينَةِ.",
+      "en": "If we use the bus, there is less pollution in the city.",
+      "literal": "if we-used the bus, became-less the pollution in the city",
+      "segs": [
+        [
+          "إِذَا",
+          "if",
+          "particle"
+        ],
+        [
+          "اسْتَعْمَلْنَا",
+          "we used ('we use')",
+          "verb"
+        ],
+        [
+          "الْحَافِلَةَ",
+          "the bus",
+          "noun"
+        ],
+        [
+          "قَلَّ",
+          "(it) became less ('goes down')",
+          "verb"
+        ],
+        [
+          "التَّلَوُّثُ",
+          "the pollution",
+          "noun"
+        ],
+        [
+          "فِي",
+          "in",
+          "prep"
+        ],
+        [
+          "الْمَدِينَةِ",
+          "the city",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "conditional-w12",
+        "past-tense"
+      ],
+      "mistakes": [
+        {
+          "wrong": "إِذَا نَسْتَعْمِلُ الْحَافِلَةَ",
+          "right": "إِذَا اسْتَعْمَلْنَا الْحَافِلَةَ",
+          "why": "After idhā (if), use the past form, even when you mean now or the future: idhā staʿmalnā (if we use)."
+        }
+      ]
+    },
+    {
+      "id": "d84s2",
+      "ar": "كُتِبَتِ الرِّسَالَةُ بِلُغَةٍ رَسْمِيَّةٍ.",
+      "en": "The letter was written in formal language.",
+      "literal": "was-written the letter in a language formal",
+      "segs": [
+        [
+          "كُتِبَتِ",
+          "(it, f) was written",
+          "verb"
+        ],
+        [
+          "الرِّسَالَةُ",
+          "the letter",
+          "noun"
+        ],
+        [
+          "بِلُغَةٍ",
+          "in a language",
+          "noun"
+        ],
+        [
+          "رَسْمِيَّةٍ",
+          "formal (f)",
+          "adj"
+        ]
+      ],
+      "grammar": [
+        "passive-w12",
+        "adjective-agreement"
+      ],
+      "mistakes": [
+        {
+          "wrong": "كَتَبَتِ الرِّسَالَةُ",
+          "right": "كُتِبَتِ الرِّسَالَةُ",
+          "why": "katabat means 'she wrote', so this says 'the letter wrote'. The passive changes the vowels to u-i: kutibat (it was written)."
+        }
+      ]
+    },
+    {
+      "id": "d84s3",
+      "ar": "يُسْتَعْمَلُ الْإِنْتَرْنِت فِي كُلِّ بَيْت.",
+      "en": "The internet is used in every home.",
+      "literal": "is-used the internet in every house",
+      "segs": [
+        [
+          "يُسْتَعْمَلُ",
+          "(it) is used",
+          "verb"
+        ],
+        [
+          "الْإِنْتَرْنِت",
+          "the internet",
+          "noun"
+        ],
+        [
+          "فِي",
+          "in",
+          "prep"
+        ],
+        [
+          "كُلِّ",
+          "every",
+          "noun"
+        ],
+        [
+          "بَيْت",
+          "house, home",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "passive-w12"
+      ],
+      "mistakes": [
+        {
+          "wrong": "يَسْتَعْمِلُ الْإِنْتَرْنِت فِي كُلِّ بَيْت",
+          "right": "يُسْتَعْمَلُ الْإِنْتَرْنِت فِي كُلِّ بَيْت",
+          "why": "yastaʿmilu means 'he uses'. For 'is used', the present passive has u at the start and a before the last letter: yustaʿmalu."
+        }
+      ]
+    },
+    {
+      "id": "d84s4",
+      "ar": "إِذَا كَانَ عِنْدَكَ سُؤَال، فَاسْأَلْ بَعْدَ التَّقْدِيمِ.",
+      "en": "If you have a question, ask after the presentation.",
+      "literal": "if was at-you a question, then ask after the presentation",
+      "segs": [
+        [
+          "إِذَا",
+          "if",
+          "particle"
+        ],
+        [
+          "كَانَ",
+          "(it) was ('you have', with ʿinda)",
+          "verb"
+        ],
+        [
+          "عِنْدَكَ",
+          "you have (to a man)",
+          "prep"
+        ],
+        [
+          "سُؤَال",
+          "a question",
+          "noun"
+        ],
+        [
+          "فَاسْأَلْ",
+          "then ask! (to a man)",
+          "verb"
+        ],
+        [
+          "بَعْدَ",
+          "after",
+          "prep"
+        ],
+        [
+          "التَّقْدِيمِ",
+          "the presentation",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "conditional-w12",
+        "imperative",
+        "qabla-bada"
+      ],
+      "mistakes": [
+        {
+          "wrong": "إِذَا كَانَ عِنْدَكَ سُؤَال، اسْأَلْ",
+          "right": "إِذَا كَانَ عِنْدَكَ سُؤَال، فَاسْأَلْ",
+          "why": "When the second half of an if-sentence is an order, it starts with fa-: fa-sʾal (then ask)."
+        }
+      ]
+    },
+    {
+      "id": "d84s5",
+      "ar": "أَوَّلًا نَتَكَلَّمُ عَنِ الْمُشْكِلَةِ، ثُمَّ عَنِ الْحَلِّ، وَأَخِيرًا عَنِ النَّتِيجَةِ.",
+      "en": "First we talk about the problem, then about the solution, and finally about the result.",
+      "literal": "firstly we-talk about the problem, then about the solution, and finally about the result",
+      "segs": [
+        [
+          "أَوَّلًا",
+          "first, firstly",
+          "adverb"
+        ],
+        [
+          "نَتَكَلَّمُ",
+          "we talk, we speak",
+          "verb"
+        ],
+        [
+          "عَنِ",
+          "about (-i links to the next word)",
+          "prep"
+        ],
+        [
+          "الْمُشْكِلَةِ",
+          "the problem",
+          "noun"
+        ],
+        [
+          "ثُمَّ",
+          "then",
+          "particle"
+        ],
+        [
+          "عَنِ",
+          "about (-i links to the next word)",
+          "prep"
+        ],
+        [
+          "الْحَلِّ",
+          "the solution",
+          "noun"
+        ],
+        [
+          "وَأَخِيرًا",
+          "and finally",
+          "adverb"
+        ],
+        [
+          "عَنِ",
+          "about (-i links to the next word)",
+          "prep"
+        ],
+        [
+          "النَّتِيجَةِ",
+          "the result",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "connectors-w12",
+        "present-tense"
+      ]
+    },
+    {
+      "id": "d84s6",
+      "ar": "بُنِيَتْ هٰذِهِ الْمَدْرَسَةُ قَبْلَ خَمْسِينَ سَنَةً.",
+      "en": "This school was built fifty years ago.",
+      "literal": "was-built this the school before fifty year",
+      "segs": [
+        [
+          "بُنِيَتْ",
+          "(it, f) was built",
+          "verb"
+        ],
+        [
+          "هٰذِهِ",
+          "this (f)",
+          "demonstrative"
+        ],
+        [
+          "الْمَدْرَسَةُ",
+          "the school",
+          "noun"
+        ],
+        [
+          "قَبْلَ",
+          "before ('ago')",
+          "prep"
+        ],
+        [
+          "خَمْسِينَ",
+          "fifty",
+          "number"
+        ],
+        [
+          "سَنَةً",
+          "year(s)",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "passive-w12",
+        "numbers-11-100"
+      ],
+      "mistakes": [
+        {
+          "wrong": "بَنَتْ هٰذِهِ الْمَدْرَسَةُ",
+          "right": "بُنِيَتْ هٰذِهِ الْمَدْرَسَةُ",
+          "why": "banat means 'she built'. The passive of banā (to build) is buniya, and with a feminine subject buniyat."
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Our green city: a presentation",
+    "speakers": [
+      {
+        "key": "karim",
+        "name": "Mr Karim",
+        "nameAr": "الْأُسْتَاذ كَرِيم"
+      },
+      {
+        "key": "sami",
+        "name": "Sami",
+        "nameAr": "سَامِي"
+      },
+      {
+        "key": "layla",
+        "name": "Layla",
+        "nameAr": "لَيْلَى"
+      },
+      {
+        "key": "daniel",
+        "name": "Daniel",
+        "nameAr": "دَانْيَال"
+      }
+    ],
+    "culture": "In schools and universities across the Arab world, students often give short presentations, and they usually end with the polite formula شُكْرًا لِحُسْنِ الِاسْتِمَاع (thank you for listening, literally 'for the good listening'). Formal letters follow fixed formulas too: after the name comes تَحِيَّةً طَيِّبَةً وَبَعْدُ (kind greetings, and now to the point). In a debate, you show respect by giving a reason for every opinion.",
+    "lines": [
+      {
+        "id": "d84l1",
+        "sp": "karim",
+        "ar": "صَبَاحُ الْخَيْر! الْيَوْمَ يَوْمُ الْمُرَاجَعَة. كُلُّ مَجْمُوعَة تُقَدِّمُ تَقْدِيمًا قَصِيرًا عَنْ مَوْضُوع مِنْ هٰذَا الْأُسْبُوع. مَنْ يَبْدَأُ؟",
+        "en": "Good morning! Today is review day. Every group gives a short presentation about a topic from this week. Who wants to start?",
+        "segs": [
+          [
+            "صَبَاحُ",
+            "morning (of)"
+          ],
+          [
+            "الْخَيْر",
+            "the goodness"
+          ],
+          [
+            "الْيَوْمَ",
+            "today"
+          ],
+          [
+            "يَوْمُ",
+            "day (of)"
+          ],
+          [
+            "الْمُرَاجَعَة",
+            "the review"
+          ],
+          [
+            "كُلُّ",
+            "every"
+          ],
+          [
+            "مَجْمُوعَة",
+            "group"
+          ],
+          [
+            "تُقَدِّمُ",
+            "(she) presents ('gives')"
+          ],
+          [
+            "تَقْدِيمًا",
+            "a presentation"
+          ],
+          [
+            "قَصِيرًا",
+            "short"
+          ],
+          [
+            "عَنْ",
+            "about"
+          ],
+          [
+            "مَوْضُوع",
+            "a topic"
+          ],
+          [
+            "مِنْ",
+            "from"
+          ],
+          [
+            "هٰذَا",
+            "this (m)"
+          ],
+          [
+            "الْأُسْبُوع",
+            "the week"
+          ],
+          [
+            "مَنْ",
+            "who"
+          ],
+          [
+            "يَبْدَأُ",
+            "(he) starts"
+          ]
+        ]
+      },
+      {
+        "id": "d84l2",
+        "sp": "sami",
+        "ar": "نَحْنُ يَا أُسْتَاذ! مَوْضُوعُنَا «مَدِينَة خَضْرَاء». أَنَا صَنَعْتُ الشَّرَائِحَ عَلَى الْحَاسُوب، وَلَيْلَى كَتَبَتِ الرِّسَالَة، وَدَانْيَال سَيُقَدِّمُ الْمُلَخَّص.",
+        "en": "Us, sir! Our topic is 'A green city'. I made the slides on the computer, Layla wrote the letter, and Daniel will present the summary.",
+        "segs": [
+          [
+            "نَحْنُ",
+            "we ('us')"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "أُسْتَاذ",
+            "teacher ('sir')"
+          ],
+          [
+            "مَوْضُوعُنَا",
+            "our topic"
+          ],
+          [
+            "مَدِينَة",
+            "a city"
+          ],
+          [
+            "خَضْرَاء",
+            "green (f)"
+          ],
+          [
+            "أَنَا",
+            "I"
+          ],
+          [
+            "صَنَعْتُ",
+            "I made"
+          ],
+          [
+            "الشَّرَائِحَ",
+            "the slides"
+          ],
+          [
+            "عَلَى",
+            "on"
+          ],
+          [
+            "الْحَاسُوب",
+            "the computer"
+          ],
+          [
+            "وَلَيْلَى",
+            "and Layla (first name)",
+            "name"
+          ],
+          [
+            "كَتَبَتِ",
+            "(she) wrote"
+          ],
+          [
+            "الرِّسَالَة",
+            "the letter"
+          ],
+          [
+            "وَدَانْيَال",
+            "and Daniel (first name)",
+            "name"
+          ],
+          [
+            "سَيُقَدِّمُ",
+            "(he) will present"
+          ],
+          [
+            "الْمُلَخَّص",
+            "the summary"
+          ]
+        ]
+      },
+      {
+        "id": "d84l3",
+        "sp": "karim",
+        "ar": "مُمْتَاز، تَفَضَّلُوا. وَتَذَكَّرُوا: الْجُمْهُورُ يَسْتَمِعُ أَوَّلًا ثُمَّ يَسْأَلُ. إِذَا كَانَ عِنْدَكُمْ سُؤَال، فَاسْأَلُوا بَعْدَ التَّقْدِيم.",
+        "en": "Excellent, go ahead. And remember: the audience listens first and then asks. If you have a question, ask after the presentation.",
+        "segs": [
+          [
+            "مُمْتَاز",
+            "excellent"
+          ],
+          [
+            "تَفَضَّلُوا",
+            "go ahead (to a group)"
+          ],
+          [
+            "وَتَذَكَّرُوا",
+            "and remember (to a group)"
+          ],
+          [
+            "الْجُمْهُورُ",
+            "the audience"
+          ],
+          [
+            "يَسْتَمِعُ",
+            "(he) listens"
+          ],
+          [
+            "أَوَّلًا",
+            "first"
+          ],
+          [
+            "ثُمَّ",
+            "then"
+          ],
+          [
+            "يَسْأَلُ",
+            "(he) asks"
+          ],
+          [
+            "إِذَا",
+            "if"
+          ],
+          [
+            "كَانَ",
+            "(it) was ('you have', with ʿinda)"
+          ],
+          [
+            "عِنْدَكُمْ",
+            "you have (to a group)"
+          ],
+          [
+            "سُؤَال",
+            "a question"
+          ],
+          [
+            "فَاسْأَلُوا",
+            "then ask! (to a group)"
+          ],
+          [
+            "بَعْدَ",
+            "after"
+          ],
+          [
+            "التَّقْدِيم",
+            "the presentation"
+          ]
+        ]
+      },
+      {
+        "id": "d84l4",
+        "sp": "layla",
+        "ar": "أَوَّلًا، الْمُشْكِلَة: فِي مَدِينَتِنَا سَيَّارَات كَثِيرَة جِدًّا، وَالْهَوَاءُ لَيْسَ نَظِيفًا. فِي الصَّيْف لَا نَرَى الْجِبَالَ أَحْيَانًا بِسَبَبِ التَّلَوُّث.",
+        "en": "First, the problem: there are far too many cars in our city, and the air isn't clean. In summer we sometimes can't see the mountains because of the pollution.",
+        "segs": [
+          [
+            "أَوَّلًا",
+            "first, firstly"
+          ],
+          [
+            "الْمُشْكِلَة",
+            "the problem"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "مَدِينَتِنَا",
+            "our city"
+          ],
+          [
+            "سَيَّارَات",
+            "cars"
+          ],
+          [
+            "كَثِيرَة",
+            "many (f)"
+          ],
+          [
+            "جِدًّا",
+            "very"
+          ],
+          [
+            "وَالْهَوَاءُ",
+            "and the air"
+          ],
+          [
+            "لَيْسَ",
+            "(it) is not"
+          ],
+          [
+            "نَظِيفًا",
+            "clean"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "الصَّيْف",
+            "the summer"
+          ],
+          [
+            "لَا",
+            "not"
+          ],
+          [
+            "نَرَى",
+            "we see"
+          ],
+          [
+            "الْجِبَالَ",
+            "the mountains"
+          ],
+          [
+            "أَحْيَانًا",
+            "sometimes"
+          ],
+          [
+            "بِسَبَبِ",
+            "because of"
+          ],
+          [
+            "التَّلَوُّث",
+            "the pollution"
+          ]
+        ]
+      },
+      {
+        "id": "d84l5",
+        "sp": "sami",
+        "ar": "وَالْآنَ الْحَلّ. انْظُرُوا إِلَى هٰذِهِ الشَّرِيحَة: إِذَا اسْتَعْمَلْنَا الْحَافِلَةَ وَالدَّرَّاجَةَ، قَلَّ التَّلَوُّثُ كَثِيرًا. وَإِذَا زَرَعْنَا الْأَشْجَار، صَارَ الْهَوَاءُ أَنْظَف.",
+        "en": "And now the solution. Look at this slide: if we use the bus and the bicycle, pollution goes down a lot. And if we plant trees, the air gets cleaner.",
+        "segs": [
+          [
+            "وَالْآنَ",
+            "and now"
+          ],
+          [
+            "الْحَلّ",
+            "the solution"
+          ],
+          [
+            "انْظُرُوا",
+            "look! (to a group)"
+          ],
+          [
+            "إِلَى",
+            "at, to"
+          ],
+          [
+            "هٰذِهِ",
+            "this (f)"
+          ],
+          [
+            "الشَّرِيحَة",
+            "the slide"
+          ],
+          [
+            "إِذَا",
+            "if"
+          ],
+          [
+            "اسْتَعْمَلْنَا",
+            "we used ('we use')"
+          ],
+          [
+            "الْحَافِلَةَ",
+            "the bus"
+          ],
+          [
+            "وَالدَّرَّاجَةَ",
+            "and the bicycle"
+          ],
+          [
+            "قَلَّ",
+            "(it) became less ('goes down')"
+          ],
+          [
+            "التَّلَوُّثُ",
+            "the pollution"
+          ],
+          [
+            "كَثِيرًا",
+            "a lot, much"
+          ],
+          [
+            "وَإِذَا",
+            "and if"
+          ],
+          [
+            "زَرَعْنَا",
+            "we planted ('we plant')"
+          ],
+          [
+            "الْأَشْجَار",
+            "the trees"
+          ],
+          [
+            "صَارَ",
+            "(it) became ('gets')"
+          ],
+          [
+            "الْهَوَاءُ",
+            "the air"
+          ],
+          [
+            "أَنْظَف",
+            "cleaner"
+          ]
+        ]
+      },
+      {
+        "id": "d84l6",
+        "sp": "daniel",
+        "ar": "وَالتِّكْنُولُوجْيَا تُسَاعِدُ أَيْضًا. هٰذِهِ صُورَة لِمَدْرَسَتِنَا: الْكَهْرَبَاءُ هُنَا تُصْنَعُ مِنَ الشَّمْس، وَالْأَضْوَاءُ تُطْفَأُ وَحْدَهَا فِي الْمَسَاء.",
+        "en": "And technology helps too. This is a picture of our school: the electricity here is made from the sun, and the lights are switched off by themselves in the evening.",
+        "segs": [
+          [
+            "وَالتِّكْنُولُوجْيَا",
+            "and technology"
+          ],
+          [
+            "تُسَاعِدُ",
+            "(she) helps ('helps')"
+          ],
+          [
+            "أَيْضًا",
+            "also, too"
+          ],
+          [
+            "هٰذِهِ",
+            "this (f)"
+          ],
+          [
+            "صُورَة",
+            "a picture, a photo"
+          ],
+          [
+            "لِمَدْرَسَتِنَا",
+            "of our school"
+          ],
+          [
+            "الْكَهْرَبَاءُ",
+            "the electricity"
+          ],
+          [
+            "هُنَا",
+            "here"
+          ],
+          [
+            "تُصْنَعُ",
+            "(it, f) is made"
+          ],
+          [
+            "مِنَ",
+            "from"
+          ],
+          [
+            "الشَّمْس",
+            "the sun"
+          ],
+          [
+            "وَالْأَضْوَاءُ",
+            "and the lights"
+          ],
+          [
+            "تُطْفَأُ",
+            "(they) are switched off"
+          ],
+          [
+            "وَحْدَهَا",
+            "by themselves (lit. alone)"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "الْمَسَاء",
+            "the evening"
+          ]
+        ]
+      },
+      {
+        "id": "d84l7",
+        "sp": "layla",
+        "ar": "ثُمَّ كَتَبْنَا رِسَالَةً رَسْمِيَّةً إِلَى رَئِيسِ الْبَلَدِيَّة، وَبَدَأْنَاهَا هٰكَذَا: «السَّيِّدُ رَئِيسُ الْبَلَدِيَّةِ الْمُحْتَرَم، تَحِيَّةً طَيِّبَةً وَبَعْدُ».",
+        "en": "Then we wrote a formal letter to the mayor, and we began it like this: 'Respected Mr Mayor, kind greetings, and now to the point.'",
+        "segs": [
+          [
+            "ثُمَّ",
+            "then"
+          ],
+          [
+            "كَتَبْنَا",
+            "we wrote"
+          ],
+          [
+            "رِسَالَةً",
+            "a letter"
+          ],
+          [
+            "رَسْمِيَّةً",
+            "formal (f)"
+          ],
+          [
+            "إِلَى",
+            "to"
+          ],
+          [
+            "رَئِيسِ",
+            "head (of) ('the mayor')"
+          ],
+          [
+            "الْبَلَدِيَّة",
+            "the city council"
+          ],
+          [
+            "وَبَدَأْنَاهَا",
+            "and we began it"
+          ],
+          [
+            "هٰكَذَا",
+            "like this"
+          ],
+          [
+            "السَّيِّدُ",
+            "Mr, the gentleman"
+          ],
+          [
+            "رَئِيسُ",
+            "head (of) ('mayor')"
+          ],
+          [
+            "الْبَلَدِيَّةِ",
+            "the city council"
+          ],
+          [
+            "الْمُحْتَرَم",
+            "the respected"
+          ],
+          [
+            "تَحِيَّةً",
+            "a greeting"
+          ],
+          [
+            "طَيِّبَةً",
+            "good, kind (f)"
+          ],
+          [
+            "وَبَعْدُ",
+            "and after (that) ('and now to the point')"
+          ]
+        ]
+      },
+      {
+        "id": "d84l8",
+        "sp": "sami",
+        "ar": "وَفِي الرِّسَالَة طَلَبْنَا شَيْئَيْنِ: طُرُقًا لِلدَّرَّاجَاتِ وَحَافِلَاتٍ أَكْثَرَ. وَأَمْسِ أُرْسِلَتِ الرِّسَالَةُ إِلَى الْبَلَدِيَّة بِالْبَرِيدِ الْإِلِكْتُرُونِيّ.",
+        "en": "And in the letter we asked for two things: bike lanes and more buses. Yesterday the letter was sent to the council by email.",
+        "segs": [
+          [
+            "وَفِي",
+            "and in"
+          ],
+          [
+            "الرِّسَالَة",
+            "the letter"
+          ],
+          [
+            "طَلَبْنَا",
+            "we asked for"
+          ],
+          [
+            "شَيْئَيْنِ",
+            "two things"
+          ],
+          [
+            "طُرُقًا",
+            "roads, lanes"
+          ],
+          [
+            "لِلدَّرَّاجَاتِ",
+            "for bicycles"
+          ],
+          [
+            "وَحَافِلَاتٍ",
+            "and buses"
+          ],
+          [
+            "أَكْثَرَ",
+            "more"
+          ],
+          [
+            "وَأَمْسِ",
+            "and yesterday"
+          ],
+          [
+            "أُرْسِلَتِ",
+            "(it, f) was sent"
+          ],
+          [
+            "الرِّسَالَةُ",
+            "the letter"
+          ],
+          [
+            "إِلَى",
+            "to"
+          ],
+          [
+            "الْبَلَدِيَّة",
+            "the city council"
+          ],
+          [
+            "بِالْبَرِيدِ",
+            "by the mail ('by email')"
+          ],
+          [
+            "الْإِلِكْتُرُونِيّ",
+            "the electronic"
+          ]
+        ]
+      },
+      {
+        "id": "d84l9",
+        "sp": "karim",
+        "ar": "أَحْسَنْتُمْ! وَالْآنَ أَنَا الْجُمْهُور، وَعِنْدِي سُؤَال صَعْب: مَاذَا يَحْدُثُ إِذَا رَكِبَ النَّاسُ الدَّرَّاجَاتِ فِي الصَّيْف، وَالْحَرَارَةُ أَرْبَعُونَ دَرَجَة؟",
+        "en": "Well done, all of you! And now I'm the audience, and I have a hard question: what happens if people ride bicycles in summer, when it's forty degrees?",
+        "segs": [
+          [
+            "أَحْسَنْتُمْ",
+            "well done (to a group)"
+          ],
+          [
+            "وَالْآنَ",
+            "and now"
+          ],
+          [
+            "أَنَا",
+            "I"
+          ],
+          [
+            "الْجُمْهُور",
+            "the audience"
+          ],
+          [
+            "وَعِنْدِي",
+            "and I have (lit. and at me)"
+          ],
+          [
+            "سُؤَال",
+            "a question"
+          ],
+          [
+            "صَعْب",
+            "difficult, hard"
+          ],
+          [
+            "مَاذَا",
+            "what"
+          ],
+          [
+            "يَحْدُثُ",
+            "(it) happens"
+          ],
+          [
+            "إِذَا",
+            "if"
+          ],
+          [
+            "رَكِبَ",
+            "(he) rode ('ride')"
+          ],
+          [
+            "النَّاسُ",
+            "the people"
+          ],
+          [
+            "الدَّرَّاجَاتِ",
+            "the bicycles"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "الصَّيْف",
+            "the summer"
+          ],
+          [
+            "وَالْحَرَارَةُ",
+            "and the heat ('when it's')"
+          ],
+          [
+            "أَرْبَعُونَ",
+            "forty"
+          ],
+          [
+            "دَرَجَة",
+            "degree(s)"
+          ]
+        ]
+      },
+      {
+        "id": "d84l10",
+        "sp": "sami",
+        "ar": "سُؤَال جَيِّد يَا أُسْتَاذ! فِي رَأْيِي، الدَّرَّاجَةُ مُفِيدَة فِي الشِّتَاء وَفِي الصَّبَاحِ الْبَاكِر. أَمَّا فِي حَرِّ الصَّيْف، فَالْحَافِلَةُ أَحْسَن.",
+        "en": "Good question, sir! In my opinion, the bicycle is useful in winter and early in the morning. But in the summer heat, the bus is better.",
+        "segs": [
+          [
+            "سُؤَال",
+            "a question"
+          ],
+          [
+            "جَيِّد",
+            "good"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "أُسْتَاذ",
+            "teacher ('sir')"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "رَأْيِي",
+            "my opinion"
+          ],
+          [
+            "الدَّرَّاجَةُ",
+            "the bicycle"
+          ],
+          [
+            "مُفِيدَة",
+            "useful (f)"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "الشِّتَاء",
+            "the winter"
+          ],
+          [
+            "وَفِي",
+            "and in"
+          ],
+          [
+            "الصَّبَاحِ",
+            "the morning"
+          ],
+          [
+            "الْبَاكِر",
+            "the early"
+          ],
+          [
+            "أَمَّا",
+            "as for"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "حَرِّ",
+            "heat (of)"
+          ],
+          [
+            "الصَّيْف",
+            "the summer"
+          ],
+          [
+            "فَالْحَافِلَةُ",
+            "then the bus ('the bus')"
+          ],
+          [
+            "أَحْسَن",
+            "better"
+          ]
+        ]
+      },
+      {
+        "id": "d84l11",
+        "sp": "layla",
+        "ar": "أَنَا أُوَافِقُ سَامِي. وَإِذَا كَانَتِ الْحَافِلَاتُ مُكَيَّفَةً وَرَخِيصَةً، تَرَكَ النَّاسُ سَيَّارَاتِهِمْ فِي الْبَيْت. هٰذَا مَا طَلَبْنَاهُ فِي الرِّسَالَةِ أَيْضًا.",
+        "en": "I agree with Sami. And if the buses are air-conditioned and cheap, people will leave their cars at home. That's what we asked for in the letter, too.",
+        "segs": [
+          [
+            "أَنَا",
+            "I"
+          ],
+          [
+            "أُوَافِقُ",
+            "I agree (with)"
+          ],
+          [
+            "سَامِي",
+            "Sami (first name)",
+            "name"
+          ],
+          [
+            "وَإِذَا",
+            "and if"
+          ],
+          [
+            "كَانَتِ",
+            "(they, f) were ('are')"
+          ],
+          [
+            "الْحَافِلَاتُ",
+            "the buses"
+          ],
+          [
+            "مُكَيَّفَةً",
+            "air-conditioned (f)"
+          ],
+          [
+            "وَرَخِيصَةً",
+            "and cheap (f)"
+          ],
+          [
+            "تَرَكَ",
+            "(he) left ('will leave')"
+          ],
+          [
+            "النَّاسُ",
+            "the people"
+          ],
+          [
+            "سَيَّارَاتِهِمْ",
+            "their cars"
+          ],
+          [
+            "فِي",
+            "in, at"
+          ],
+          [
+            "الْبَيْت",
+            "the house ('home')"
+          ],
+          [
+            "هٰذَا",
+            "this ('that')"
+          ],
+          [
+            "مَا",
+            "what"
+          ],
+          [
+            "طَلَبْنَاهُ",
+            "we asked for it"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "الرِّسَالَةِ",
+            "the letter"
+          ],
+          [
+            "أَيْضًا",
+            "also, too"
+          ]
+        ]
+      },
+      {
+        "id": "d84l12",
+        "sp": "daniel",
+        "ar": "وَأَنَا لَا أُوَافِقُ تَمَامًا. فِي شِيكَاغُو بُنِيَتْ طُرُق كَثِيرَة لِلدَّرَّاجَات، لٰكِنَّ النَّاسَ مَا زَالُوا يُحِبُّونَ سَيَّارَاتِهِمْ. الطُّرُقُ وَحْدَهَا لَيْسَتِ الْحَلّ.",
+        "en": "And I don't completely agree. In Chicago many bike lanes were built, but people still love their cars. Roads on their own are not the solution.",
+        "segs": [
+          [
+            "وَأَنَا",
+            "and I"
+          ],
+          [
+            "لَا",
+            "not"
+          ],
+          [
+            "أُوَافِقُ",
+            "I agree"
+          ],
+          [
+            "تَمَامًا",
+            "completely"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "شِيكَاغُو",
+            "Chicago (city)",
+            "name"
+          ],
+          [
+            "بُنِيَتْ",
+            "(they, f) were built"
+          ],
+          [
+            "طُرُق",
+            "roads, lanes"
+          ],
+          [
+            "كَثِيرَة",
+            "many (f)"
+          ],
+          [
+            "لِلدَّرَّاجَات",
+            "for bicycles"
+          ],
+          [
+            "لٰكِنَّ",
+            "but (like inna: the noun after it ends in -a)"
+          ],
+          [
+            "النَّاسَ",
+            "the people"
+          ],
+          [
+            "مَا",
+            "not ('still', with zālū)"
+          ],
+          [
+            "زَالُوا",
+            "(they) stopped ('still', with mā)"
+          ],
+          [
+            "يُحِبُّونَ",
+            "(they) love"
+          ],
+          [
+            "سَيَّارَاتِهِمْ",
+            "their cars"
+          ],
+          [
+            "الطُّرُقُ",
+            "the roads"
+          ],
+          [
+            "وَحْدَهَا",
+            "alone ('on their own')"
+          ],
+          [
+            "لَيْسَتِ",
+            "(she) is not ('are not')"
+          ],
+          [
+            "الْحَلّ",
+            "the solution"
+          ]
+        ]
+      },
+      {
+        "id": "d84l13",
+        "sp": "karim",
+        "ar": "نِقَاش مُمْتَاز! هٰذَا هُوَ الْمُهِمُّ فِي النِّقَاش: رَأْي، ثُمَّ سَبَب، ثُمَّ مِثَال. وَالْآنَ يَا دَانْيَال، قَدِّمِ الْمُلَخَّصَ مِنْ فَضْلِكَ.",
+        "en": "An excellent debate! This is what matters in a debate: an opinion, then a reason, then an example. And now, Daniel, please present the summary.",
+        "segs": [
+          [
+            "نِقَاش",
+            "a discussion, a debate"
+          ],
+          [
+            "مُمْتَاز",
+            "excellent"
+          ],
+          [
+            "هٰذَا",
+            "this"
+          ],
+          [
+            "هُوَ",
+            "he, it ('is')"
+          ],
+          [
+            "الْمُهِمُّ",
+            "the important (thing)"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "النِّقَاش",
+            "the debate"
+          ],
+          [
+            "رَأْي",
+            "an opinion"
+          ],
+          [
+            "ثُمَّ",
+            "then"
+          ],
+          [
+            "سَبَب",
+            "a reason"
+          ],
+          [
+            "ثُمَّ",
+            "then"
+          ],
+          [
+            "مِثَال",
+            "an example"
+          ],
+          [
+            "وَالْآنَ",
+            "and now"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "دَانْيَال",
+            "Daniel (first name)",
+            "name"
+          ],
+          [
+            "قَدِّمِ",
+            "present! (to a man)"
+          ],
+          [
+            "الْمُلَخَّصَ",
+            "the summary"
+          ],
+          [
+            "مِنْ",
+            "from ('please', with faḍlika)"
+          ],
+          [
+            "فَضْلِكَ",
+            "your kindness ('please', to a man)"
+          ]
+        ]
+      },
+      {
+        "id": "d84l14",
+        "sp": "daniel",
+        "ar": "بِاخْتِصَار: الْمُشْكِلَةُ هِيَ التَّلَوُّث، وَالْحَلُّ هُوَ الْحَافِلَةُ وَالدَّرَّاجَةُ وَالْأَشْجَار. وَالنَّتِيجَة؟ إِذَا عَمِلْنَا مَعًا، صَارَتْ مَدِينَتُنَا خَضْرَاء. شُكْرًا لِحُسْنِ الِاسْتِمَاع!",
+        "en": "In short: the problem is pollution, and the solution is the bus, the bicycle and trees. And the result? If we work together, our city will become green. Thank you for listening!",
+        "segs": [
+          [
+            "بِاخْتِصَار",
+            "in short"
+          ],
+          [
+            "الْمُشْكِلَةُ",
+            "the problem"
+          ],
+          [
+            "هِيَ",
+            "she, it ('is')"
+          ],
+          [
+            "التَّلَوُّث",
+            "the pollution"
+          ],
+          [
+            "وَالْحَلُّ",
+            "and the solution"
+          ],
+          [
+            "هُوَ",
+            "he, it ('is')"
+          ],
+          [
+            "الْحَافِلَةُ",
+            "the bus"
+          ],
+          [
+            "وَالدَّرَّاجَةُ",
+            "and the bicycle"
+          ],
+          [
+            "وَالْأَشْجَار",
+            "and the trees"
+          ],
+          [
+            "وَالنَّتِيجَة",
+            "and the result"
+          ],
+          [
+            "إِذَا",
+            "if"
+          ],
+          [
+            "عَمِلْنَا",
+            "we worked ('we work')"
+          ],
+          [
+            "مَعًا",
+            "together"
+          ],
+          [
+            "صَارَتْ",
+            "(she) became ('will become')"
+          ],
+          [
+            "مَدِينَتُنَا",
+            "our city"
+          ],
+          [
+            "خَضْرَاء",
+            "green (f)"
+          ],
+          [
+            "شُكْرًا",
+            "thanks, thank you"
+          ],
+          [
+            "لِحُسْنِ",
+            "for (the) good (of)"
+          ],
+          [
+            "الِاسْتِمَاع",
+            "the listening"
+          ]
+        ]
+      },
+      {
+        "id": "d84l15",
+        "sp": "karim",
+        "ar": "تَقْدِيم رَائِع! رَاجِعُوا كُلَّ شَيْء فِي الْبَيْت: جُمَلَ الشَّرْط، وَالْمَبْنِيَّ لِلْمَجْهُول، وَالرِّسَالَةَ الرَّسْمِيَّة. وَلَا تَنْسَوْا أَنَّ امْتِحَانَ الْأُسْبُوعِ غَدًا!",
+        "en": "A wonderful presentation! Revise everything at home: if-sentences, the passive and the formal letter. And don't forget that the week test is tomorrow!",
+        "segs": [
+          [
+            "تَقْدِيم",
+            "a presentation"
+          ],
+          [
+            "رَائِع",
+            "wonderful"
+          ],
+          [
+            "رَاجِعُوا",
+            "revise! (to a group)"
+          ],
+          [
+            "كُلَّ",
+            "every"
+          ],
+          [
+            "شَيْء",
+            "thing"
+          ],
+          [
+            "فِي",
+            "in, at"
+          ],
+          [
+            "الْبَيْت",
+            "the house ('home')"
+          ],
+          [
+            "جُمَلَ",
+            "sentences (of)"
+          ],
+          [
+            "الشَّرْط",
+            "the condition ('if-sentences')"
+          ],
+          [
+            "وَالْمَبْنِيَّ",
+            "and the passive (lit. the built)"
+          ],
+          [
+            "لِلْمَجْهُول",
+            "for the unknown"
+          ],
+          [
+            "وَالرِّسَالَةَ",
+            "and the letter"
+          ],
+          [
+            "الرَّسْمِيَّة",
+            "the formal (f)"
+          ],
+          [
+            "وَلَا",
+            "and don't"
+          ],
+          [
+            "تَنْسَوْا",
+            "forget (to a group)"
+          ],
+          [
+            "أَنَّ",
+            "that"
+          ],
+          [
+            "امْتِحَانَ",
+            "test, exam (of)"
+          ],
+          [
+            "الْأُسْبُوعِ",
+            "the week"
+          ],
+          [
+            "غَدًا",
+            "tomorrow"
+          ]
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "title": "Review day in class",
+    "ar": "فِي آخِرِ يَوْمٍ مِنَ الْأُسْبُوعِ قَدَّمَتْ مَجْمُوعَةُ سَامِي تَقْدِيمًا عَنْ مَدِينَةٍ خَضْرَاء. قَالَتْ لَيْلَى إِنَّ الْمُشْكِلَةَ هِيَ التَّلَوُّث. وَعَرَضَ سَامِي شَرَائِحَ صُنِعَتْ عَلَى الْحَاسُوب. وَفِي النِّقَاشِ قَالَ دَانْيَال إِنَّ الطُّرُقَ وَحْدَهَا لَيْسَتِ الْحَلّ. وَقَالَ الْأُسْتَاذ كَرِيم: إِذَا رَاجَعْتُمْ جَيِّدًا، نَجَحْتُمْ فِي الِامْتِحَان.",
+    "en": "On the last day of the week, Sami's group gave a presentation about a green city. Layla said that the problem is pollution. Sami showed slides that were made on the computer. In the debate, Daniel said that roads alone are not the solution. And Mr Karim said: If you revise well, you will pass the exam.",
+    "segs": [
+      [
+        "فِي",
+        "in"
+      ],
+      [
+        "آخِرِ",
+        "last (of)"
+      ],
+      [
+        "يَوْمٍ",
+        "day"
+      ],
+      [
+        "مِنَ",
+        "of ('of the')"
+      ],
+      [
+        "الْأُسْبُوعِ",
+        "the week"
+      ],
+      [
+        "قَدَّمَتْ",
+        "(she) presented ('gave')"
+      ],
+      [
+        "مَجْمُوعَةُ",
+        "group (of)"
+      ],
+      [
+        "سَامِي",
+        "Sami (first name)",
+        "name"
+      ],
+      [
+        "تَقْدِيمًا",
+        "a presentation"
+      ],
+      [
+        "عَنْ",
+        "about"
+      ],
+      [
+        "مَدِينَةٍ",
+        "a city"
+      ],
+      [
+        "خَضْرَاء",
+        "green (f)"
+      ],
+      [
+        "قَالَتْ",
+        "(she) said"
+      ],
+      [
+        "لَيْلَى",
+        "Layla (first name)",
+        "name"
+      ],
+      [
+        "إِنَّ",
+        "that (after qāla)"
+      ],
+      [
+        "الْمُشْكِلَةَ",
+        "the problem (-a after inna)"
+      ],
+      [
+        "هِيَ",
+        "she, it ('is')"
+      ],
+      [
+        "التَّلَوُّث",
+        "the pollution"
+      ],
+      [
+        "وَعَرَضَ",
+        "and (he) showed"
+      ],
+      [
+        "سَامِي",
+        "Sami (first name)",
+        "name"
+      ],
+      [
+        "شَرَائِحَ",
+        "slides"
+      ],
+      [
+        "صُنِعَتْ",
+        "(they, f) were made"
+      ],
+      [
+        "عَلَى",
+        "on"
+      ],
+      [
+        "الْحَاسُوب",
+        "the computer"
+      ],
+      [
+        "وَفِي",
+        "and in"
+      ],
+      [
+        "النِّقَاشِ",
+        "the debate"
+      ],
+      [
+        "قَالَ",
+        "(he) said"
+      ],
+      [
+        "دَانْيَال",
+        "Daniel (first name)",
+        "name"
+      ],
+      [
+        "إِنَّ",
+        "that (after qāla)"
+      ],
+      [
+        "الطُّرُقَ",
+        "the roads (-a after inna)"
+      ],
+      [
+        "وَحْدَهَا",
+        "alone ('on their own')"
+      ],
+      [
+        "لَيْسَتِ",
+        "(she) is not ('are not')"
+      ],
+      [
+        "الْحَلّ",
+        "the solution"
+      ],
+      [
+        "وَقَالَ",
+        "and (he) said"
+      ],
+      [
+        "الْأُسْتَاذ",
+        "the teacher, Mr"
+      ],
+      [
+        "كَرِيم",
+        "Karim (first name)",
+        "name"
+      ],
+      [
+        "إِذَا",
+        "if"
+      ],
+      [
+        "رَاجَعْتُمْ",
+        "you (all) revised ('revise')"
+      ],
+      [
+        "جَيِّدًا",
+        "well"
+      ],
+      [
+        "نَجَحْتُمْ",
+        "you (all) succeeded ('will pass')"
+      ],
+      [
+        "فِي",
+        "in"
+      ],
+      [
+        "الِامْتِحَان",
+        "the exam"
+      ]
+    ]
+  },
+  "review": [
+    "internet",
+    "rasmi",
+    "risala",
+    "yuwafiqu",
+    "mushkila",
+    "mufid"
+  ],
+  "quiz": [
+    {
+      "id": "d84q1",
+      "prompt": "What does تَقْدِيم mean?",
+      "options": [
+        "presentation",
+        "summary",
+        "solution",
+        "audience"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "d84q2",
+      "prompt": "Complete the if-sentence: إِذَا ___ الْحَافِلَةَ، قَلَّ التَّلَوُّثُ.",
+      "options": [
+        "اسْتَعْمَلْنَا",
+        "يُسْتَعْمَلُ",
+        "اسْتِعْمَال",
+        "تُصْنَعُ"
+      ],
+      "answer": 0,
+      "explain": "After إِذَا (if) comes a past verb: اسْتَعْمَلْنَا (we use)."
+    },
+    {
+      "id": "d84q3",
+      "prompt": "Which verb is passive?",
+      "options": [
+        "كَتَبْنَا",
+        "بُنِيَتْ",
+        "زَرَعْنَا",
+        "صَنَعْتُ"
+      ],
+      "answer": 1,
+      "explain": "بُنِيَتْ (it was built) has the passive vowels u-i."
+    },
+    {
+      "id": "d84q4",
+      "prompt": "What is the problem in the group's city?",
+      "options": [
+        "pollution from too many cars",
+        "there are no schools",
+        "the internet is slow",
+        "there is no water"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "d84q5",
+      "prompt": "Who wrote the formal letter to the mayor?",
+      "options": [
+        "Sami",
+        "Daniel",
+        "Layla",
+        "Mr Karim"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "d84q6",
+      "prompt": "According to Sami, when is the bus better than the bicycle?",
+      "options": [
+        "in winter",
+        "early in the morning",
+        "in the summer heat",
+        "at the weekend"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "d84q7",
+      "prompt": "Where is the stress in تَقْدِيم (taqdīm)?",
+      "options": [
+        "TAQ-dīm",
+        "taq-DĪM",
+        "on both syllables equally",
+        "there is no stress"
+      ],
+      "answer": 1,
+      "explain": "The last syllable -dīm has a long vowel and ends in a consonant, so it takes the stress."
+    }
+  ],
+  "completion": "Mabrūk! You finished the lessons of Week 12: you can talk about the environment and technology, make if-sentences with إِذَا, use the passive, write a formal letter, take part in a debate and give a short presentation. Take the week test, and pass it with 80% to open Week 13.",
+  "status": "needs-review"
+}

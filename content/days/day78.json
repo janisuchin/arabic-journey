@@ -1,0 +1,1653 @@
+{
+  "day": 78,
+  "week": 12,
+  "phase": 6,
+  "level": 8,
+  "title": "The environment",
+  "titleAr": "الْبِيئَة",
+  "titleSegs": [
+    [
+      "الْبِيئَة",
+      "the environment"
+    ]
+  ],
+  "emoji": "♻️",
+  "summary": "Talk about pollution, rubbish, recycling and the climate, say what we must do with يَجِبُ أَنْ and لَازِم أَنْ, and plan a clean-up day with the class.",
+  "intro": "Week 12 is about society and the world, and it opens with the environment, الْبِيئَة. Today you will talk about pollution (تَلَوُّث), rubbish (نُفَايَات), recycling (إِعَادَةُ التَّدْوِير) and the climate (الْمُنَاخ). To say what we must do, use يَجِبُ أَنْ or لَازِم أَنْ + a verb ending in -a: يَجِبُ أَنْ نَحْمِيَ الْبِيئَةَ (we must protect the environment). Many of today's words are verbal nouns: إِعَادَةُ التَّدْوِير is literally 'doing the turning again', and يَوْمُ تَنْظِيفٍ is 'a day of cleaning', a clean-up day. Listen for the ḍād (ض) in الْأَرْضُ (the earth) and مُضِرّ (harmful).",
+  "objectives": [
+    "Name environmental problems: pollution, rubbish and climate change",
+    "Say what we must do with يَجِبُ أَنْ or لَازِم أَنْ + a verb ending in -a",
+    "Use verbal nouns like إِعَادَةُ التَّدْوِير (recycling) and حِمَايَةُ الْبِيئَةِ (protecting the environment)",
+    "Give simple advice on saving water and energy at home"
+  ],
+  "realLife": {
+    "emoji": "🌳",
+    "title": "Rubbish in the park",
+    "story": "Yesterday Sami and his brother Omar went to play in the city park and found plastic bottles, bags and paper everywhere. Sami is still angry when he comes to class, and Mr Karim decides that week 12 will begin with a real project: the class will plan its own clean-up day."
+  },
+  "letters": [],
+  "newWords": [
+    "biia",
+    "talawwuth",
+    "nufayat",
+    "iadat-at-tadwir",
+    "yuwaffiru",
+    "taqa",
+    "munakh",
+    "ard",
+    "mudirr",
+    "yahmi"
+  ],
+  "grammar": [
+    "lazim",
+    "masdar"
+  ],
+  "pronunciation": [
+    "dad"
+  ],
+  "sentences": [
+    {
+      "id": "d78s1",
+      "ar": "يَجِبُ أَنْ نَحْمِيَ الْبِيئَةَ.",
+      "en": "We must protect the environment.",
+      "literal": "(it is) necessary that we protect the environment",
+      "segs": [
+        [
+          "يَجِبُ",
+          "it is necessary, must",
+          "verb"
+        ],
+        [
+          "أَنْ",
+          "that, to",
+          "particle"
+        ],
+        [
+          "نَحْمِيَ",
+          "we protect (-a after an)",
+          "verb"
+        ],
+        [
+          "الْبِيئَةَ",
+          "the environment",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "lazim",
+        "an-subjunctive"
+      ],
+      "mistakes": [
+        {
+          "wrong": "يَجِبُ نَحْمِيَ الْبِيئَةَ",
+          "right": "يَجِبُ أَنْ نَحْمِيَ الْبِيئَةَ",
+          "why": "يَجِبُ needs أَنْ before the next verb: yajibu an naḥmiya."
+        }
+      ]
+    },
+    {
+      "id": "d78s2",
+      "ar": "التَّلَوُّثُ مُضِرٌّ بِالصِّحَّةِ.",
+      "en": "Pollution is harmful to health.",
+      "literal": "the pollution (is) harmful to the health",
+      "segs": [
+        [
+          "التَّلَوُّثُ",
+          "pollution",
+          "noun"
+        ],
+        [
+          "مُضِرٌّ",
+          "harmful",
+          "adj"
+        ],
+        [
+          "بِالصِّحَّةِ",
+          "to (the) health",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "nominal-sentence"
+      ],
+      "mistakes": [
+        {
+          "wrong": "التَّلَوُّثُ مُضِرَّة بِالصِّحَّةِ",
+          "right": "التَّلَوُّثُ مُضِرٌّ بِالصِّحَّةِ",
+          "why": "talawwuth is masculine, so the adjective is masculine too: muḍirr, not muḍirra."
+        }
+      ]
+    },
+    {
+      "id": "d78s3",
+      "ar": "إِعَادَةُ التَّدْوِيرِ تُوَفِّرُ الطَّاقَةَ.",
+      "en": "Recycling saves energy.",
+      "literal": "the doing again (of) the turning saves the energy",
+      "segs": [
+        [
+          "إِعَادَةُ",
+          "doing again (of)",
+          "noun"
+        ],
+        [
+          "التَّدْوِيرِ",
+          "the turning ('recycling')",
+          "noun"
+        ],
+        [
+          "تُوَفِّرُ",
+          "(she) saves",
+          "verb"
+        ],
+        [
+          "الطَّاقَةَ",
+          "the energy",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "masdar",
+        "idafa"
+      ],
+      "mistakes": [
+        {
+          "wrong": "إِعَادَةُ التَّدْوِيرِ يُوَفِّرُ الطَّاقَةَ",
+          "right": "إِعَادَةُ التَّدْوِيرِ تُوَفِّرُ الطَّاقَةَ",
+          "why": "The subject is إِعَادَةُ, which is feminine (it ends in ة), so the verb starts with tu-: tuwaffiru."
+        }
+      ]
+    },
+    {
+      "id": "d78s4",
+      "ar": "لَازِم أَنْ نُوَفِّرَ الْمَاءَ وَالْكَهْرَبَاءَ.",
+      "en": "We must save water and electricity.",
+      "literal": "necessary that we save the water and the electricity",
+      "segs": [
+        [
+          "لَازِم",
+          "necessary, must",
+          "adj"
+        ],
+        [
+          "أَنْ",
+          "that, to",
+          "particle"
+        ],
+        [
+          "نُوَفِّرَ",
+          "we save (-a after an)",
+          "verb"
+        ],
+        [
+          "الْمَاءَ",
+          "the water",
+          "noun"
+        ],
+        [
+          "وَالْكَهْرَبَاءَ",
+          "and the electricity",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "lazim",
+        "an-subjunctive"
+      ],
+      "mistakes": [
+        {
+          "wrong": "لَازِم أَنْ نُوَفِّرُ الْمَاءَ",
+          "right": "لَازِم أَنْ نُوَفِّرَ الْمَاءَ",
+          "why": "After أَنْ the verb ends in -a: nuwaffira, not nuwaffiru."
+        }
+      ]
+    },
+    {
+      "id": "d78s5",
+      "ar": "الْمُنَاخُ يَتَغَيَّرُ بِسُرْعَةٍ.",
+      "en": "The climate is changing quickly.",
+      "literal": "the climate changes with speed",
+      "segs": [
+        [
+          "الْمُنَاخُ",
+          "the climate",
+          "noun"
+        ],
+        [
+          "يَتَغَيَّرُ",
+          "(he) changes, is changing",
+          "verb"
+        ],
+        [
+          "بِسُرْعَةٍ",
+          "quickly (lit. with speed)",
+          "adverb"
+        ]
+      ],
+      "grammar": [
+        "present-tense",
+        "nominal-sentence"
+      ]
+    },
+    {
+      "id": "d78s6",
+      "ar": "الْأَرْضُ بَيْتُنَا جَمِيعًا.",
+      "en": "The earth is home to all of us.",
+      "literal": "the earth (is) our house, all (of us)",
+      "segs": [
+        [
+          "الْأَرْضُ",
+          "the earth",
+          "noun"
+        ],
+        [
+          "بَيْتُنَا",
+          "our house, our home",
+          "noun"
+        ],
+        [
+          "جَمِيعًا",
+          "all (of us), all together",
+          "adverb"
+        ]
+      ],
+      "grammar": [
+        "nominal-sentence",
+        "possessive"
+      ],
+      "mistakes": [
+        {
+          "wrong": "الْأَرْضُ كَبِير",
+          "right": "الْأَرْضُ كَبِيرَة",
+          "why": "أَرْض is feminine although it has no ة, so its adjective is feminine: kabīra."
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "A clean-up day for the park",
+    "speakers": [
+      {
+        "key": "karim",
+        "name": "Mr Karim",
+        "nameAr": "الْأُسْتَاذ كَرِيم"
+      },
+      {
+        "key": "sami",
+        "name": "Sami",
+        "nameAr": "سَامِي"
+      },
+      {
+        "key": "layla",
+        "name": "Layla",
+        "nameAr": "لَيْلَى"
+      },
+      {
+        "key": "daniel",
+        "name": "Daniel",
+        "nameAr": "دَانْيَال"
+      }
+    ],
+    "culture": "In many Arab cities, schools and volunteers organise clean-up days on beaches, in parks and in the desert. Water is precious in most of the region, so children learn early to turn off the tap, and recycling, إِعَادَةُ التَّدْوِير, is spreading fast, with separate bins for plastic, paper and glass in more and more streets.",
+    "lines": [
+      {
+        "id": "d78l1",
+        "sp": "karim",
+        "ar": "صَبَاحُ الْخَيْر! الْيَوْمَ نَبْدَأُ الْأُسْبُوعَ الثَّانِيَ عَشَرَ، وَمَوْضُوعُنَا الْأَوَّلُ هُوَ الْبِيئَة: الْهَوَاءُ وَالْمَاءُ وَالْأَرْضُ الَّتِي نَعِيشُ عَلَيْهَا.",
+        "en": "Good morning! Today we start week twelve, and our first topic is the environment: the air, the water and the earth that we live on.",
+        "segs": [
+          [
+            "صَبَاحُ",
+            "morning (of)"
+          ],
+          [
+            "الْخَيْر",
+            "the goodness"
+          ],
+          [
+            "الْيَوْمَ",
+            "today"
+          ],
+          [
+            "نَبْدَأُ",
+            "we start"
+          ],
+          [
+            "الْأُسْبُوعَ",
+            "the week"
+          ],
+          [
+            "الثَّانِيَ",
+            "second ('twelfth', with the next word)"
+          ],
+          [
+            "عَشَرَ",
+            "-teen ('twelfth')"
+          ],
+          [
+            "وَمَوْضُوعُنَا",
+            "and our topic"
+          ],
+          [
+            "الْأَوَّلُ",
+            "the first"
+          ],
+          [
+            "هُوَ",
+            "he, it ('is')"
+          ],
+          [
+            "الْبِيئَة",
+            "the environment"
+          ],
+          [
+            "الْهَوَاءُ",
+            "the air"
+          ],
+          [
+            "وَالْمَاءُ",
+            "and the water"
+          ],
+          [
+            "وَالْأَرْضُ",
+            "and the earth"
+          ],
+          [
+            "الَّتِي",
+            "which (f)"
+          ],
+          [
+            "نَعِيشُ",
+            "we live"
+          ],
+          [
+            "عَلَيْهَا",
+            "on it (f)"
+          ]
+        ]
+      },
+      {
+        "id": "d78l2",
+        "sp": "sami",
+        "ar": "يَا أُسْتَاذ، أَمْسِ ذَهَبْتُ إِلَى حَدِيقَةِ الْمَدِينَة مَعَ عُمَر، وَرَأَيْنَا نُفَايَات فِي كُلِّ مَكَان: زُجَاجَاتِ بِلَاسْتِيك وَأَكْيَاسًا وَأَوْرَاقًا.",
+        "en": "Sir, yesterday I went to the city park with Omar, and we saw rubbish everywhere: plastic bottles, bags and paper.",
+        "segs": [
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "أُسْتَاذ",
+            "teacher ('sir')"
+          ],
+          [
+            "أَمْسِ",
+            "yesterday"
+          ],
+          [
+            "ذَهَبْتُ",
+            "I went"
+          ],
+          [
+            "إِلَى",
+            "to"
+          ],
+          [
+            "حَدِيقَةِ",
+            "park, garden (of)"
+          ],
+          [
+            "الْمَدِينَة",
+            "the city"
+          ],
+          [
+            "مَعَ",
+            "with"
+          ],
+          [
+            "عُمَر",
+            "Omar (first name)",
+            "name"
+          ],
+          [
+            "وَرَأَيْنَا",
+            "and we saw"
+          ],
+          [
+            "نُفَايَات",
+            "rubbish, waste"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "كُلِّ",
+            "every"
+          ],
+          [
+            "مَكَان",
+            "place ('everywhere')"
+          ],
+          [
+            "زُجَاجَاتِ",
+            "bottles (of)"
+          ],
+          [
+            "بِلَاسْتِيك",
+            "plastic"
+          ],
+          [
+            "وَأَكْيَاسًا",
+            "and bags"
+          ],
+          [
+            "وَأَوْرَاقًا",
+            "and papers"
+          ]
+        ]
+      },
+      {
+        "id": "d78l3",
+        "sp": "karim",
+        "ar": "هٰذَا تَلَوُّث، وَهُوَ مُضِرّ بِالنَّاسِ وَبِالْحَيَوَانَاتِ وَبِالْأَشْجَار. فِي رَأْيِكُمْ، مَاذَا يَجِبُ أَنْ نَفْعَلَ؟",
+        "en": "That is pollution, and it is harmful to people, to animals and to trees. In your opinion, what must we do?",
+        "segs": [
+          [
+            "هٰذَا",
+            "this ('that')"
+          ],
+          [
+            "تَلَوُّث",
+            "pollution"
+          ],
+          [
+            "وَهُوَ",
+            "and it (m)"
+          ],
+          [
+            "مُضِرّ",
+            "harmful"
+          ],
+          [
+            "بِالنَّاسِ",
+            "to (the) people"
+          ],
+          [
+            "وَبِالْحَيَوَانَاتِ",
+            "and to (the) animals"
+          ],
+          [
+            "وَبِالْأَشْجَار",
+            "and to (the) trees"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "رَأْيِكُمْ",
+            "your opinion (to a group)"
+          ],
+          [
+            "مَاذَا",
+            "what"
+          ],
+          [
+            "يَجِبُ",
+            "must, it is necessary"
+          ],
+          [
+            "أَنْ",
+            "that, to"
+          ],
+          [
+            "نَفْعَلَ",
+            "we do (-a after an)"
+          ]
+        ]
+      },
+      {
+        "id": "d78l4",
+        "sp": "layla",
+        "ar": "أَوَّلًا، يَجِبُ أَنْ نَضَعَ النُّفَايَاتِ فِي الْمَكَانِ الصَّحِيح. وَأَنَا أَقْتَرِحُ يَوْمًا لِتَنْظِيفِ الْحَدِيقَة، نَعْمَلُ فِيهِ كُلُّنَا مَعًا!",
+        "en": "First, we must put rubbish in the right place. And I suggest a day for cleaning the park, when we all work together!",
+        "segs": [
+          [
+            "أَوَّلًا",
+            "first, firstly"
+          ],
+          [
+            "يَجِبُ",
+            "must, it is necessary"
+          ],
+          [
+            "أَنْ",
+            "that, to"
+          ],
+          [
+            "نَضَعَ",
+            "we put (-a after an)"
+          ],
+          [
+            "النُّفَايَاتِ",
+            "the rubbish"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "الْمَكَانِ",
+            "the place"
+          ],
+          [
+            "الصَّحِيح",
+            "the right, the correct"
+          ],
+          [
+            "وَأَنَا",
+            "and I"
+          ],
+          [
+            "أَقْتَرِحُ",
+            "I suggest"
+          ],
+          [
+            "يَوْمًا",
+            "a day"
+          ],
+          [
+            "لِتَنْظِيفِ",
+            "for cleaning (of)"
+          ],
+          [
+            "الْحَدِيقَة",
+            "the park"
+          ],
+          [
+            "نَعْمَلُ",
+            "we work"
+          ],
+          [
+            "فِيهِ",
+            "in it ('when', m)"
+          ],
+          [
+            "كُلُّنَا",
+            "all of us"
+          ],
+          [
+            "مَعًا",
+            "together"
+          ]
+        ]
+      },
+      {
+        "id": "d78l5",
+        "sp": "sami",
+        "ar": "فِكْرَة رَائِعَة! يُمْكِنُ أَنْ نَذْهَبَ يَوْمَ السَّبْتِ صَبَاحًا، لِأَنَّ الْحَدِيقَةَ هَادِئَة فِي الصَّبَاح، وَالْجَوُّ لَيْسَ حَارًّا.",
+        "en": "Great idea! We can go on Saturday morning, because the park is quiet in the morning and the weather isn't hot.",
+        "segs": [
+          [
+            "فِكْرَة",
+            "an idea"
+          ],
+          [
+            "رَائِعَة",
+            "great, wonderful (f)"
+          ],
+          [
+            "يُمْكِنُ",
+            "it is possible ('we can')"
+          ],
+          [
+            "أَنْ",
+            "that, to"
+          ],
+          [
+            "نَذْهَبَ",
+            "we go (-a after an)"
+          ],
+          [
+            "يَوْمَ",
+            "on the day of"
+          ],
+          [
+            "السَّبْتِ",
+            "Saturday"
+          ],
+          [
+            "صَبَاحًا",
+            "in the morning"
+          ],
+          [
+            "لِأَنَّ",
+            "because"
+          ],
+          [
+            "الْحَدِيقَةَ",
+            "the park (-a after anna)"
+          ],
+          [
+            "هَادِئَة",
+            "quiet, calm (f)"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "الصَّبَاح",
+            "the morning"
+          ],
+          [
+            "وَالْجَوُّ",
+            "and the weather"
+          ],
+          [
+            "لَيْسَ",
+            "is not"
+          ],
+          [
+            "حَارًّا",
+            "hot (-an after laysa)"
+          ]
+        ]
+      },
+      {
+        "id": "d78l6",
+        "sp": "daniel",
+        "ar": "فِي شِيكَاغُو عِنْدَنَا يَوْم مِثْل هٰذَا عَلَى شَاطِئِ الْبُحَيْرَة كُلَّ رَبِيع. نَجْمَعُ الْبِلَاسْتِيكَ وَنَضَعُهُ فِي صَنَادِيقِ إِعَادَةِ التَّدْوِير.",
+        "en": "In Chicago we have a day like this on the lake shore every spring. We collect the plastic and put it in recycling bins.",
+        "segs": [
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "شِيكَاغُو",
+            "Chicago (city)",
+            "name"
+          ],
+          [
+            "عِنْدَنَا",
+            "we have (lit. at us)"
+          ],
+          [
+            "يَوْم",
+            "a day"
+          ],
+          [
+            "مِثْل",
+            "like"
+          ],
+          [
+            "هٰذَا",
+            "this"
+          ],
+          [
+            "عَلَى",
+            "on"
+          ],
+          [
+            "شَاطِئِ",
+            "shore (of)"
+          ],
+          [
+            "الْبُحَيْرَة",
+            "the lake"
+          ],
+          [
+            "كُلَّ",
+            "every"
+          ],
+          [
+            "رَبِيع",
+            "spring"
+          ],
+          [
+            "نَجْمَعُ",
+            "we collect"
+          ],
+          [
+            "الْبِلَاسْتِيكَ",
+            "the plastic"
+          ],
+          [
+            "وَنَضَعُهُ",
+            "and we put it"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "صَنَادِيقِ",
+            "boxes, bins (of)"
+          ],
+          [
+            "إِعَادَةِ",
+            "doing again (of)"
+          ],
+          [
+            "التَّدْوِير",
+            "the turning ('recycling')"
+          ]
+        ]
+      },
+      {
+        "id": "d78l7",
+        "sp": "karim",
+        "ar": "مُمْتَاز يَا دَانْيَال. «إِعَادَةُ التَّدْوِير» يَعْنِي أَنْ نَسْتَعْمِلَ الْأَشْيَاءَ الْقَدِيمَة مَرَّةً ثَانِيَة، وَهِيَ تُوَفِّرُ الطَّاقَةَ وَالْمَاء.",
+        "en": "Excellent, Daniel. 'Iʿādat at-tadwīr', recycling, means using old things a second time, and it saves energy and water.",
+        "segs": [
+          [
+            "مُمْتَاز",
+            "excellent"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "دَانْيَال",
+            "Daniel (first name)",
+            "name"
+          ],
+          [
+            "إِعَادَةُ",
+            "doing again (of)"
+          ],
+          [
+            "التَّدْوِير",
+            "the turning ('recycling')"
+          ],
+          [
+            "يَعْنِي",
+            "(it) means"
+          ],
+          [
+            "أَنْ",
+            "that, to"
+          ],
+          [
+            "نَسْتَعْمِلَ",
+            "we use (-a after an)"
+          ],
+          [
+            "الْأَشْيَاءَ",
+            "the things"
+          ],
+          [
+            "الْقَدِيمَة",
+            "the old (f)"
+          ],
+          [
+            "مَرَّةً",
+            "a time, once"
+          ],
+          [
+            "ثَانِيَة",
+            "second (f) ('again')"
+          ],
+          [
+            "وَهِيَ",
+            "and it (f)"
+          ],
+          [
+            "تُوَفِّرُ",
+            "(she) saves"
+          ],
+          [
+            "الطَّاقَةَ",
+            "the energy"
+          ],
+          [
+            "وَالْمَاء",
+            "and the water"
+          ]
+        ]
+      },
+      {
+        "id": "d78l8",
+        "sp": "layla",
+        "ar": "وَفِي الْبَيْتِ أَيْضًا نُوَفِّرُ الْمَاءَ وَالْكَهْرَبَاء! أُمِّي تَقُولُ لَنَا دَائِمًا: أَغْلِقُوا الْحَنَفِيَّة، وَأَطْفِئُوا الضَّوْءَ عِنْدَمَا تَخْرُجُونَ مِنَ الْغُرْفَة.",
+        "en": "And at home we save water and electricity too! My mother always tells us: turn off the tap, and switch off the light when you leave the room.",
+        "segs": [
+          [
+            "وَفِي",
+            "and in, and at"
+          ],
+          [
+            "الْبَيْتِ",
+            "the house, home"
+          ],
+          [
+            "أَيْضًا",
+            "also, too"
+          ],
+          [
+            "نُوَفِّرُ",
+            "we save"
+          ],
+          [
+            "الْمَاءَ",
+            "the water"
+          ],
+          [
+            "وَالْكَهْرَبَاء",
+            "and the electricity"
+          ],
+          [
+            "أُمِّي",
+            "my mother"
+          ],
+          [
+            "تَقُولُ",
+            "(she) says"
+          ],
+          [
+            "لَنَا",
+            "to us"
+          ],
+          [
+            "دَائِمًا",
+            "always"
+          ],
+          [
+            "أَغْلِقُوا",
+            "close! turn off! (to a group)"
+          ],
+          [
+            "الْحَنَفِيَّة",
+            "the tap"
+          ],
+          [
+            "وَأَطْفِئُوا",
+            "and switch off! (to a group)"
+          ],
+          [
+            "الضَّوْءَ",
+            "the light"
+          ],
+          [
+            "عِنْدَمَا",
+            "when"
+          ],
+          [
+            "تَخْرُجُونَ",
+            "you (all) go out, leave"
+          ],
+          [
+            "مِنَ",
+            "from"
+          ],
+          [
+            "الْغُرْفَة",
+            "the room"
+          ]
+        ]
+      },
+      {
+        "id": "d78l9",
+        "sp": "daniel",
+        "ar": "يَا أُسْتَاذ، مَا الْفَرْقُ بَيْنَ الطَّقْسِ وَالْمُنَاخ؟ فِي الْأَخْبَار يَتَكَلَّمُونَ كَثِيرًا عَنْ تَغَيُّرِ الْمُنَاخ.",
+        "en": "Sir, what's the difference between the weather and the climate? On the news they talk a lot about climate change.",
+        "segs": [
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "أُسْتَاذ",
+            "teacher ('sir')"
+          ],
+          [
+            "مَا",
+            "what"
+          ],
+          [
+            "الْفَرْقُ",
+            "the difference"
+          ],
+          [
+            "بَيْنَ",
+            "between"
+          ],
+          [
+            "الطَّقْسِ",
+            "the weather"
+          ],
+          [
+            "وَالْمُنَاخ",
+            "and the climate"
+          ],
+          [
+            "فِي",
+            "in, on"
+          ],
+          [
+            "الْأَخْبَار",
+            "the news"
+          ],
+          [
+            "يَتَكَلَّمُونَ",
+            "they talk"
+          ],
+          [
+            "كَثِيرًا",
+            "a lot, much"
+          ],
+          [
+            "عَنْ",
+            "about"
+          ],
+          [
+            "تَغَيُّرِ",
+            "change (of)"
+          ],
+          [
+            "الْمُنَاخ",
+            "the climate"
+          ]
+        ]
+      },
+      {
+        "id": "d78l10",
+        "sp": "karim",
+        "ar": "الطَّقْسُ هُوَ الْجَوُّ الْيَوْمَ أَوْ غَدًا، أَمَّا الْمُنَاخُ فَهُوَ الْجَوُّ فِي بَلَد خِلَالَ سَنَوَاتٍ طَوِيلَة. وَالْمُنَاخُ الْآنَ يَتَغَيَّرُ بِسُرْعَة.",
+        "en": "The weather is what it's like today or tomorrow; as for the climate, it's the weather in a country over many long years. And now the climate is changing quickly.",
+        "segs": [
+          [
+            "الطَّقْسُ",
+            "the weather"
+          ],
+          [
+            "هُوَ",
+            "he, it ('is')"
+          ],
+          [
+            "الْجَوُّ",
+            "the weather, the air"
+          ],
+          [
+            "الْيَوْمَ",
+            "today"
+          ],
+          [
+            "أَوْ",
+            "or"
+          ],
+          [
+            "غَدًا",
+            "tomorrow"
+          ],
+          [
+            "أَمَّا",
+            "as for"
+          ],
+          [
+            "الْمُنَاخُ",
+            "the climate"
+          ],
+          [
+            "فَهُوَ",
+            "(then) it ('is')"
+          ],
+          [
+            "الْجَوُّ",
+            "the weather, the air"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "بَلَد",
+            "a country"
+          ],
+          [
+            "خِلَالَ",
+            "during, over"
+          ],
+          [
+            "سَنَوَاتٍ",
+            "years"
+          ],
+          [
+            "طَوِيلَة",
+            "long (f)"
+          ],
+          [
+            "وَالْمُنَاخُ",
+            "and the climate"
+          ],
+          [
+            "الْآنَ",
+            "now"
+          ],
+          [
+            "يَتَغَيَّرُ",
+            "(he) changes, is changing"
+          ],
+          [
+            "بِسُرْعَة",
+            "quickly (lit. with speed)"
+          ]
+        ]
+      },
+      {
+        "id": "d78l11",
+        "sp": "sami",
+        "ar": "صَحِيح، الصَّيْفُ عِنْدَنَا أَصْبَحَ أَحَرَّ مِنْ قَبْلُ. لِهٰذَا يَجِبُ أَنْ نَزْرَعَ أَشْجَارًا أَكْثَرَ فِي الْمَدِينَة!",
+        "en": "That's true: our summer has become hotter than before. That's why we must plant more trees in the city!",
+        "segs": [
+          [
+            "صَحِيح",
+            "true, right"
+          ],
+          [
+            "الصَّيْفُ",
+            "the summer"
+          ],
+          [
+            "عِنْدَنَا",
+            "at us ('our', here)"
+          ],
+          [
+            "أَصْبَحَ",
+            "(he) became, has become"
+          ],
+          [
+            "أَحَرَّ",
+            "hotter"
+          ],
+          [
+            "مِنْ",
+            "than, from"
+          ],
+          [
+            "قَبْلُ",
+            "before"
+          ],
+          [
+            "لِهٰذَا",
+            "for this ('that's why')"
+          ],
+          [
+            "يَجِبُ",
+            "must, it is necessary"
+          ],
+          [
+            "أَنْ",
+            "that, to"
+          ],
+          [
+            "نَزْرَعَ",
+            "we plant (-a after an)"
+          ],
+          [
+            "أَشْجَارًا",
+            "trees"
+          ],
+          [
+            "أَكْثَرَ",
+            "more"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "الْمَدِينَة",
+            "the city"
+          ]
+        ]
+      },
+      {
+        "id": "d78l12",
+        "sp": "karim",
+        "ar": "فِكْرَة جَيِّدَة. إِذَنْ هٰذِهِ خُطَّتُنَا: يَوْمُ تَنْظِيفٍ فِي الْحَدِيقَة يَوْمَ السَّبْتِ السَّاعَةَ التَّاسِعَة، وَبَعْدَهُ نَزْرَعُ عَشْرَ شَجَرَات.",
+        "en": "A good idea. So this is our plan: a clean-up day in the park on Saturday at nine o'clock, and after it we plant ten trees.",
+        "segs": [
+          [
+            "فِكْرَة",
+            "an idea"
+          ],
+          [
+            "جَيِّدَة",
+            "good (f)"
+          ],
+          [
+            "إِذَنْ",
+            "so, then"
+          ],
+          [
+            "هٰذِهِ",
+            "this (f)"
+          ],
+          [
+            "خُطَّتُنَا",
+            "our plan"
+          ],
+          [
+            "يَوْمُ",
+            "day (of)"
+          ],
+          [
+            "تَنْظِيفٍ",
+            "cleaning ('clean-up')"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "الْحَدِيقَة",
+            "the park"
+          ],
+          [
+            "يَوْمَ",
+            "on the day of"
+          ],
+          [
+            "السَّبْتِ",
+            "Saturday"
+          ],
+          [
+            "السَّاعَةَ",
+            "at the hour"
+          ],
+          [
+            "التَّاسِعَة",
+            "the ninth ('nine o'clock')"
+          ],
+          [
+            "وَبَعْدَهُ",
+            "and after it"
+          ],
+          [
+            "نَزْرَعُ",
+            "we plant"
+          ],
+          [
+            "عَشْرَ",
+            "ten"
+          ],
+          [
+            "شَجَرَات",
+            "trees"
+          ]
+        ]
+      },
+      {
+        "id": "d78l13",
+        "sp": "layla",
+        "ar": "سَأُحْضِرُ أَكْيَاسًا كَبِيرَة، وَسَنَضَعُ الْبِلَاسْتِيكَ فِي كِيس، وَالْوَرَقَ فِي كِيس، وَالزُّجَاجَ فِي كِيسٍ ثَالِث.",
+        "en": "I'll bring some big bags, and we'll put the plastic in one bag, the paper in another, and the glass in a third bag.",
+        "segs": [
+          [
+            "سَأُحْضِرُ",
+            "I will bring"
+          ],
+          [
+            "أَكْيَاسًا",
+            "bags"
+          ],
+          [
+            "كَبِيرَة",
+            "big (f)"
+          ],
+          [
+            "وَسَنَضَعُ",
+            "and we will put"
+          ],
+          [
+            "الْبِلَاسْتِيكَ",
+            "the plastic"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "كِيس",
+            "a bag ('one bag')"
+          ],
+          [
+            "وَالْوَرَقَ",
+            "and the paper"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "كِيس",
+            "a bag ('another')"
+          ],
+          [
+            "وَالزُّجَاجَ",
+            "and the glass"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "كِيسٍ",
+            "a bag"
+          ],
+          [
+            "ثَالِث",
+            "third"
+          ]
+        ]
+      },
+      {
+        "id": "d78l14",
+        "sp": "daniel",
+        "ar": "وَأَنَا سَأَكْتُبُ إِعْلَانًا بِالْعَرَبِيَّة لِلْجِيرَان: «تَعَالَوْا مَعَنَا! الْأَرْضُ بَيْتُنَا جَمِيعًا، وَحِمَايَةُ الْبِيئَةِ وَاجِبُ الْجَمِيع.»",
+        "en": "And I'll write a notice in Arabic for the neighbours: 'Come with us! The earth is home to us all, and protecting the environment is everyone's duty.'",
+        "segs": [
+          [
+            "وَأَنَا",
+            "and I"
+          ],
+          [
+            "سَأَكْتُبُ",
+            "I will write"
+          ],
+          [
+            "إِعْلَانًا",
+            "a notice, an announcement"
+          ],
+          [
+            "بِالْعَرَبِيَّة",
+            "in Arabic"
+          ],
+          [
+            "لِلْجِيرَان",
+            "for the neighbours"
+          ],
+          [
+            "تَعَالَوْا",
+            "come! (to a group)"
+          ],
+          [
+            "مَعَنَا",
+            "with us"
+          ],
+          [
+            "الْأَرْضُ",
+            "the earth"
+          ],
+          [
+            "بَيْتُنَا",
+            "our home"
+          ],
+          [
+            "جَمِيعًا",
+            "all (of us)"
+          ],
+          [
+            "وَحِمَايَةُ",
+            "and protecting, protection (of)"
+          ],
+          [
+            "الْبِيئَةِ",
+            "the environment"
+          ],
+          [
+            "وَاجِبُ",
+            "duty (of)"
+          ],
+          [
+            "الْجَمِيع",
+            "everyone, all"
+          ]
+        ]
+      },
+      {
+        "id": "d78l15",
+        "sp": "karim",
+        "ar": "رَائِع! وَتَذَكَّرُوا: لَيْسَ ضَرُورِيًّا أَنْ نَفْعَلَ أَشْيَاءَ كَبِيرَة، فَكُلُّ عَمَلٍ صَغِير يَحْمِي الْأَرْضَ وَالْبِيئَة.",
+        "en": "Wonderful! And remember: we don't have to do big things, because every small action protects the earth and the environment.",
+        "segs": [
+          [
+            "رَائِع",
+            "wonderful"
+          ],
+          [
+            "وَتَذَكَّرُوا",
+            "and remember! (to a group)"
+          ],
+          [
+            "لَيْسَ",
+            "is not"
+          ],
+          [
+            "ضَرُورِيًّا",
+            "necessary"
+          ],
+          [
+            "أَنْ",
+            "that, to"
+          ],
+          [
+            "نَفْعَلَ",
+            "we do (-a after an)"
+          ],
+          [
+            "أَشْيَاءَ",
+            "things"
+          ],
+          [
+            "كَبِيرَة",
+            "big (f)"
+          ],
+          [
+            "فَكُلُّ",
+            "because every"
+          ],
+          [
+            "عَمَلٍ",
+            "action, deed"
+          ],
+          [
+            "صَغِير",
+            "small"
+          ],
+          [
+            "يَحْمِي",
+            "(he) protects"
+          ],
+          [
+            "الْأَرْضَ",
+            "the earth"
+          ],
+          [
+            "وَالْبِيئَة",
+            "and the environment"
+          ]
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "title": "A plan for the park",
+    "ar": "فِي أَوَّلِ يَوْم مِنَ الْأُسْبُوعِ الثَّانِيَ عَشَرَ تَكَلَّمَ الطُّلَّابُ عَنِ الْبِيئَة. رَأَى سَامِي نُفَايَات كَثِيرَة فِي حَدِيقَةِ الْمَدِينَة، فَاقْتَرَحَتْ لَيْلَى يَوْمًا لِلتَّنْظِيف. سَيَعْمَلُ الطُّلَّابُ يَوْمَ السَّبْتِ السَّاعَةَ التَّاسِعَة، ثُمَّ سَيَزْرَعُونَ عَشْرَ شَجَرَات. وَقَالَ الْأُسْتَاذ كَرِيم إِنَّ إِعَادَةَ التَّدْوِير تُوَفِّرُ الطَّاقَة، وَإِنَّ الْمُنَاخَ يَتَغَيَّرُ بِسُرْعَة.",
+    "en": "On the first day of week twelve the students talked about the environment. Sami saw a lot of rubbish in the city park, so Layla suggested a day for cleaning. The students will work on Saturday at nine o'clock, and then they will plant ten trees. And Mr Karim said that recycling saves energy, and that the climate is changing quickly.",
+    "segs": [
+      [
+        "فِي",
+        "in"
+      ],
+      [
+        "أَوَّلِ",
+        "the first (of)"
+      ],
+      [
+        "يَوْم",
+        "day"
+      ],
+      [
+        "مِنَ",
+        "of, from"
+      ],
+      [
+        "الْأُسْبُوعِ",
+        "the week"
+      ],
+      [
+        "الثَّانِيَ",
+        "second ('twelfth', with the next word)"
+      ],
+      [
+        "عَشَرَ",
+        "-teen ('twelfth')"
+      ],
+      [
+        "تَكَلَّمَ",
+        "(he) talked ('talked')"
+      ],
+      [
+        "الطُّلَّابُ",
+        "the students"
+      ],
+      [
+        "عَنِ",
+        "about (-i links to the next word)"
+      ],
+      [
+        "الْبِيئَة",
+        "the environment"
+      ],
+      [
+        "رَأَى",
+        "(he) saw"
+      ],
+      [
+        "سَامِي",
+        "Sami (first name)",
+        "name"
+      ],
+      [
+        "نُفَايَات",
+        "rubbish, waste"
+      ],
+      [
+        "كَثِيرَة",
+        "a lot of, much (f)"
+      ],
+      [
+        "فِي",
+        "in"
+      ],
+      [
+        "حَدِيقَةِ",
+        "park, garden (of)"
+      ],
+      [
+        "الْمَدِينَة",
+        "the city"
+      ],
+      [
+        "فَاقْتَرَحَتْ",
+        "so (she) suggested"
+      ],
+      [
+        "لَيْلَى",
+        "Layla (first name)",
+        "name"
+      ],
+      [
+        "يَوْمًا",
+        "a day"
+      ],
+      [
+        "لِلتَّنْظِيف",
+        "for (the) cleaning"
+      ],
+      [
+        "سَيَعْمَلُ",
+        "(he) will work ('will work')"
+      ],
+      [
+        "الطُّلَّابُ",
+        "the students"
+      ],
+      [
+        "يَوْمَ",
+        "on the day of"
+      ],
+      [
+        "السَّبْتِ",
+        "Saturday"
+      ],
+      [
+        "السَّاعَةَ",
+        "at the hour"
+      ],
+      [
+        "التَّاسِعَة",
+        "the ninth ('nine o'clock')"
+      ],
+      [
+        "ثُمَّ",
+        "then"
+      ],
+      [
+        "سَيَزْرَعُونَ",
+        "they will plant"
+      ],
+      [
+        "عَشْرَ",
+        "ten"
+      ],
+      [
+        "شَجَرَات",
+        "trees"
+      ],
+      [
+        "وَقَالَ",
+        "and (he) said"
+      ],
+      [
+        "الْأُسْتَاذ",
+        "the teacher, Mr"
+      ],
+      [
+        "كَرِيم",
+        "Karim (first name)",
+        "name"
+      ],
+      [
+        "إِنَّ",
+        "that (after qāla)"
+      ],
+      [
+        "إِعَادَةَ",
+        "doing again (of) (-a after inna)"
+      ],
+      [
+        "التَّدْوِير",
+        "the turning ('recycling')"
+      ],
+      [
+        "تُوَفِّرُ",
+        "(she) saves"
+      ],
+      [
+        "الطَّاقَة",
+        "the energy"
+      ],
+      [
+        "وَإِنَّ",
+        "and that"
+      ],
+      [
+        "الْمُنَاخَ",
+        "the climate (-a after inna)"
+      ],
+      [
+        "يَتَغَيَّرُ",
+        "(he) changes, is changing"
+      ],
+      [
+        "بِسُرْعَة",
+        "quickly (lit. with speed)"
+      ]
+    ]
+  },
+  "review": [
+    "nazzafa",
+    "hadiqa",
+    "zaraa",
+    "yajibu",
+    "taqs",
+    "fikra"
+  ],
+  "quiz": [
+    {
+      "id": "d78q1",
+      "prompt": "What does this mean?",
+      "ar": "إِعَادَةُ التَّدْوِيرِ تُوَفِّرُ الطَّاقَةَ.",
+      "options": [
+        "Recycling saves energy.",
+        "Pollution is harmful to health.",
+        "The climate is changing quickly.",
+        "We must save water."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "d78q2",
+      "prompt": "Which word means 'pollution'?",
+      "options": [
+        "نُفَايَات",
+        "طَاقَة",
+        "تَلَوُّث",
+        "مُنَاخ"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "d78q3",
+      "prompt": "When is the class clean-up day?",
+      "options": [
+        "Friday at ten",
+        "Saturday at nine",
+        "Sunday at nine",
+        "Saturday at noon"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "d78q4",
+      "prompt": "How many trees will the class plant after the clean-up?",
+      "options": [
+        "three",
+        "five",
+        "ten",
+        "twelve"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "d78q5",
+      "prompt": "What happens in Daniel's city every spring?",
+      "options": [
+        "a clean-up day on the lake shore",
+        "a tree festival in the park",
+        "a day without cars",
+        "a recycling test at school"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "d78q6",
+      "prompt": "Complete: يَجِبُ أَنْ ___ الْبِيئَةَ (we must protect the environment)",
+      "options": [
+        "نَحْمِيَ",
+        "يَحْمِي",
+        "تُوَفِّرُ",
+        "نَفْعَلَ"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "d78q7",
+      "prompt": "Which word contains the letter ḍād (ض)?",
+      "options": [
+        "دَار",
+        "طَاقَة",
+        "أَرْض",
+        "بَيْت"
+      ],
+      "answer": 2
+    }
+  ],
+  "completion": "Well done! You can talk about pollution, rubbish, recycling and the climate, say what we must do to protect the environment, and plan a clean-up day. Tomorrow: technology.",
+  "status": "needs-review"
+}

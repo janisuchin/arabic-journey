@@ -1,0 +1,1811 @@
+{
+  "day": 82,
+  "week": 12,
+  "phase": 6,
+  "level": 9,
+  "title": "A formal letter",
+  "titleAr": "رِسَالَة رَسْمِيَّة",
+  "titleSegs": [
+    [
+      "رِسَالَة",
+      "a letter"
+    ],
+    [
+      "رَسْمِيَّة",
+      "formal, official (f)"
+    ]
+  ],
+  "emoji": "🖋️",
+  "summary": "Write a formal letter of application: open with السَّيِّد … الْمُحْتَرَم and تَحِيَّة طَيِّبَة وَبَعْدُ, present your request with أَتَشَرَّفُ بِأَنْ…, speak to the reader in the plural of respect and close with وَتَفَضَّلُوا بِقَبُولِ فَائِقِ الِاحْتِرَام.",
+  "intro": "On day 67 Daniel wrote a polite email at work. Today Layla writes something even more formal: a letter of application, طَلَب, to a university. The frame is fixed. Start with السَّيِّد (Mr) + the person's title + الْمُحْتَرَم (the respected), then تَحِيَّة طَيِّبَة وَبَعْدُ (greetings, and after that). Present your request with أَتَشَرَّفُ بِأَنْ… (I have the honour to…). Speak to the one reader in the plural, as a sign of respect: تَفَضَّلُوا (kindly…), رَدِّكُمْ (your reply). End with وَتَفَضَّلُوا بِقَبُولِ فَائِقِ الِاحْتِرَام (please accept my highest respect) and your name. Listen for ة too: it is 'a' at the end of a phrase (مِنْحَة) but 'at' before another word (مِنْحَةُ الْجَامِعَة).",
+  "objectives": [
+    "Lay out a formal letter: السَّيِّد … الْمُحْتَرَم, the greeting, the request and the closing",
+    "Present a formal request with أَتَشَرَّفُ بِأَنْ + a verb",
+    "Address one reader with the plural of respect: تَفَضَّلُوا, رَدِّكُمْ",
+    "Say ة as 'a' at a pause (مِنْحَة) and as 'at' before another word (مِنْحَةُ الْجَامِعَة)"
+  ],
+  "realLife": {
+    "emoji": "🎓",
+    "title": "The scholarship letter",
+    "story": "Layla has found the programme of her dreams: a master's in translation at Cairo University, with scholarships for the best applicants. The application must arrive by Thursday, and it has to be a real formal letter, not a friendly email. After class she shows her first draft to Mr Karim, and Daniel and Sami lean over her shoulder to read it too."
+  },
+  "letters": [],
+  "newWords": [
+    "sayyid",
+    "muhtaram",
+    "yatasharrafu",
+    "yataqaddamu",
+    "talab",
+    "manha",
+    "barnamaj",
+    "qubul",
+    "faiq",
+    "ihtiram"
+  ],
+  "grammar": [
+    "email-formulas",
+    "formal-letter-w12"
+  ],
+  "pronunciation": [
+    "ta-marbuta"
+  ],
+  "sentences": [
+    {
+      "id": "d82s1",
+      "ar": "السَّيِّد الْمُدِير الْمُحْتَرَم، تَحِيَّة طَيِّبَة وَبَعْدُ.",
+      "en": "Dear Director, greetings.",
+      "literal": "the Mr the director the respected, a good greeting and after (that)",
+      "segs": [
+        [
+          "السَّيِّد",
+          "Mr, sir",
+          "noun"
+        ],
+        [
+          "الْمُدِير",
+          "the director",
+          "noun"
+        ],
+        [
+          "الْمُحْتَرَم",
+          "the respected ('dear')",
+          "adj"
+        ],
+        [
+          "تَحِيَّة",
+          "a greeting",
+          "noun"
+        ],
+        [
+          "طَيِّبَة",
+          "good, kind (f)",
+          "adj"
+        ],
+        [
+          "وَبَعْدُ",
+          "and after (that)",
+          "adverb"
+        ]
+      ],
+      "grammar": [
+        "email-formulas"
+      ],
+      "mistakes": [
+        {
+          "wrong": "عَزِيزِي الْمُدِير، مَرْحَبًا!",
+          "right": "السَّيِّد الْمُدِير الْمُحْتَرَم، تَحِيَّة طَيِّبَة وَبَعْدُ",
+          "why": "عَزِيزِي and مَرْحَبًا are for friends. To an official you don't know, write as-sayyid … al-muḥtaram and the formal greeting."
+        }
+      ]
+    },
+    {
+      "id": "d82s2",
+      "ar": "أَتَشَرَّفُ بِأَنْ أَتَقَدَّمَ بِطَلَبِ مِنْحَةٍ فِي بَرْنَامَجِ التَّرْجَمَة.",
+      "en": "I have the honour to apply for a scholarship in the translation programme.",
+      "literal": "I am honoured with that I come forward with (an) application (of a) scholarship in (the) programme (of) the translation",
+      "segs": [
+        [
+          "أَتَشَرَّفُ",
+          "I have the honour, I am honoured",
+          "verb"
+        ],
+        [
+          "بِأَنْ",
+          "(with) to, that",
+          "particle"
+        ],
+        [
+          "أَتَقَدَّمَ",
+          "I come forward ('apply')",
+          "verb"
+        ],
+        [
+          "بِطَلَبِ",
+          "with an application (for)",
+          "noun"
+        ],
+        [
+          "مِنْحَةٍ",
+          "a scholarship",
+          "noun"
+        ],
+        [
+          "فِي",
+          "in",
+          "prep"
+        ],
+        [
+          "بَرْنَامَجِ",
+          "programme (of)",
+          "noun"
+        ],
+        [
+          "التَّرْجَمَة",
+          "the translation",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "formal-letter-w12",
+        "an-subjunctive"
+      ],
+      "mistakes": [
+        {
+          "wrong": "أَتَشَرَّفُ أَنْ أَتَقَدَّمَ",
+          "right": "أَتَشَرَّفُ بِأَنْ أَتَقَدَّمَ",
+          "why": "atasharrafu always takes bi-: bi-an + a verb (bi-an ataqaddama). Without bi- the phrase sounds broken."
+        }
+      ]
+    },
+    {
+      "id": "d82s3",
+      "ar": "أَرْغَبُ فِي دِرَاسَةِ التَّرْجَمَةِ بِجَامِعَةِ الْقَاهِرَة.",
+      "en": "I would like to study translation at Cairo University.",
+      "literal": "I wish in (the) study (of) the translation at (the) university (of) Cairo",
+      "segs": [
+        [
+          "أَرْغَبُ",
+          "I wish, I would like",
+          "verb"
+        ],
+        [
+          "فِي",
+          "in ('to')",
+          "prep"
+        ],
+        [
+          "دِرَاسَةِ",
+          "studying (of)",
+          "noun"
+        ],
+        [
+          "التَّرْجَمَةِ",
+          "the translation",
+          "noun"
+        ],
+        [
+          "بِجَامِعَةِ",
+          "at the university (of)",
+          "noun"
+        ],
+        [
+          "الْقَاهِرَة",
+          "Cairo (city)",
+          "name"
+        ]
+      ],
+      "grammar": [
+        "idafa",
+        "masdar"
+      ],
+      "mistakes": [
+        {
+          "wrong": "dirāsa t-tarjama bi-jāmiʿa l-qāhira",
+          "right": "dirāsati t-tarjamati bi-jāmiʿati l-qāhira",
+          "why": "Before another word ة is read as t (dirāsati, jāmiʿati); only at the end of the phrase does it become a plain -a: al-qāhira."
+        }
+      ]
+    },
+    {
+      "id": "d82s4",
+      "ar": "مُرْفَقَة مَعَ هٰذِهِ الرِّسَالَة سِيرَتِي الذَّاتِيَّة وَشَهَادَتِي مِنَ الْجَامِعَة.",
+      "en": "Attached to this letter are my CV and my degree certificate from the university.",
+      "literal": "attached (f) with this (f) the letter (is) my biography the personal and my certificate from the university",
+      "segs": [
+        [
+          "مُرْفَقَة",
+          "attached (f)",
+          "adj"
+        ],
+        [
+          "مَعَ",
+          "with",
+          "prep"
+        ],
+        [
+          "هٰذِهِ",
+          "this (f)",
+          "demonstrative"
+        ],
+        [
+          "الرِّسَالَة",
+          "the letter",
+          "noun"
+        ],
+        [
+          "سِيرَتِي",
+          "my biography ('my CV')",
+          "noun"
+        ],
+        [
+          "الذَّاتِيَّة",
+          "the personal ('CV')",
+          "adj"
+        ],
+        [
+          "وَشَهَادَتِي",
+          "and my certificate, my degree",
+          "noun"
+        ],
+        [
+          "مِنَ",
+          "from (-a links to the next word)",
+          "prep"
+        ],
+        [
+          "الْجَامِعَة",
+          "the university",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "email-formulas",
+        "adjective-agreement"
+      ],
+      "mistakes": [
+        {
+          "wrong": "مُرْفَق مَعَ هٰذِهِ الرِّسَالَة سِيرَتِي الذَّاتِيَّة",
+          "right": "مُرْفَقَة مَعَ هٰذِهِ الرِّسَالَة سِيرَتِي الذَّاتِيَّة",
+          "why": "The first thing attached, sīra (CV), is feminine, so murfaq takes ة: murfaqa."
+        }
+      ]
+    },
+    {
+      "id": "d82s5",
+      "ar": "أَرْجُو أَنْ تَتَفَضَّلُوا بِقَبُولِ طَلَبِي.",
+      "en": "I kindly ask you to accept my application.",
+      "literal": "I hope that you (plural) be so kind with (the) acceptance (of) my application",
+      "segs": [
+        [
+          "أَرْجُو",
+          "I hope, I ask",
+          "verb"
+        ],
+        [
+          "أَنْ",
+          "that, to",
+          "particle"
+        ],
+        [
+          "تَتَفَضَّلُوا",
+          "you (plural of respect) be so kind",
+          "verb"
+        ],
+        [
+          "بِقَبُولِ",
+          "with the acceptance (of) ('to accept')",
+          "noun"
+        ],
+        [
+          "طَلَبِي",
+          "my application",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "formal-letter-w12",
+        "an-subjunctive"
+      ],
+      "mistakes": [
+        {
+          "wrong": "أَرْجُو أَنْ تَتَفَضَّلُوا بِقَبْلِ طَلَبِي",
+          "right": "أَرْجُو أَنْ تَتَفَضَّلُوا بِقَبُولِ طَلَبِي",
+          "why": "قَبْلَ means 'before'. Acceptance is qabūl, with a long ū: bi-qabūli ṭalabī."
+        }
+      ]
+    },
+    {
+      "id": "d82s6",
+      "ar": "وَتَفَضَّلُوا بِقَبُولِ فَائِقِ الِاحْتِرَام.",
+      "en": "Yours faithfully.",
+      "literal": "and be so kind (plural) with (the) acceptance (of the) utmost (of) the respect",
+      "segs": [
+        [
+          "وَتَفَضَّلُوا",
+          "and be so kind (plural of respect)",
+          "verb"
+        ],
+        [
+          "بِقَبُولِ",
+          "with the acceptance (of) ('to accept')",
+          "noun"
+        ],
+        [
+          "فَائِقِ",
+          "the utmost (of), the highest (of)",
+          "adj"
+        ],
+        [
+          "الِاحْتِرَام",
+          "the respect",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "formal-letter-w12",
+        "idafa"
+      ],
+      "mistakes": [
+        {
+          "wrong": "وَتَفَضَّلُوا بِقَبُولِ الْفَائِقِ الِاحْتِرَام",
+          "right": "وَتَفَضَّلُوا بِقَبُولِ فَائِقِ الِاحْتِرَام",
+          "why": "fāʾiq is the first word of an iḍāfa (the utmost of respect), so it never takes al-: fāʾiqi l-iḥtirām."
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Layla's scholarship letter",
+    "speakers": [
+      {
+        "key": "karim",
+        "name": "Mr Karim",
+        "nameAr": "الْأُسْتَاذ كَرِيم"
+      },
+      {
+        "key": "layla",
+        "name": "Layla",
+        "nameAr": "لَيْلَى"
+      },
+      {
+        "key": "daniel",
+        "name": "Daniel",
+        "nameAr": "دَانْيَال"
+      },
+      {
+        "key": "sami",
+        "name": "Sami",
+        "nameAr": "سَامِي"
+      }
+    ],
+    "culture": "In the Arab world official letters still follow an old, fixed frame, and readers notice when it is missing. Writing to one official in the plural (تَفَضَّلُوا, رَدِّكُمْ, بِجَامِعَتِكُمْ) is normal and polite, not a mistake. Many letters put the subject on its own line, like الْمَوْضُوع: طَلَبُ مِنْحَة, and end with وَتَفَضَّلُوا بِقَبُولِ فَائِقِ الِاحْتِرَام, the Arabic 'Yours faithfully', before the name and the signature.",
+    "lines": [
+      {
+        "id": "d82l1",
+        "sp": "layla",
+        "ar": "يَا أُسْتَاذ كَرِيم، هَلْ عِنْدَكَ دَقِيقَة؟ كَتَبْتُ رِسَالَة إِلَى جَامِعَةِ الْقَاهِرَة، وَأُرِيدُ أَنْ تَقْرَأَهَا قَبْلَ أَنْ أُرْسِلَهَا.",
+        "en": "Mr Karim, do you have a minute? I've written a letter to Cairo University, and I'd like you to read it before I send it.",
+        "segs": [
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "أُسْتَاذ",
+            "teacher, Mr"
+          ],
+          [
+            "كَرِيم",
+            "Karim (first name)",
+            "name"
+          ],
+          [
+            "هَلْ",
+            "(question word)"
+          ],
+          [
+            "عِنْدَكَ",
+            "you have (to a man)"
+          ],
+          [
+            "دَقِيقَة",
+            "a minute"
+          ],
+          [
+            "كَتَبْتُ",
+            "I wrote"
+          ],
+          [
+            "رِسَالَة",
+            "a letter"
+          ],
+          [
+            "إِلَى",
+            "to"
+          ],
+          [
+            "جَامِعَةِ",
+            "university (of)"
+          ],
+          [
+            "الْقَاهِرَة",
+            "Cairo (city)",
+            "name"
+          ],
+          [
+            "وَأُرِيدُ",
+            "and I want"
+          ],
+          [
+            "أَنْ",
+            "that, to"
+          ],
+          [
+            "تَقْرَأَهَا",
+            "you read it (f)"
+          ],
+          [
+            "قَبْلَ",
+            "before"
+          ],
+          [
+            "أَنْ",
+            "that, to"
+          ],
+          [
+            "أُرْسِلَهَا",
+            "I send it (f)"
+          ]
+        ]
+      },
+      {
+        "id": "d82l2",
+        "sp": "karim",
+        "ar": "طَبْعًا يَا لَيْلَى. مَا مَوْضُوعُ الرِّسَالَة؟ هَلْ هِيَ طَلَب لِلدِّرَاسَة أَمْ طَلَب لِوَظِيفَة؟",
+        "en": "Of course, Layla. What is the letter about? Is it an application to study or an application for a job?",
+        "segs": [
+          [
+            "طَبْعًا",
+            "of course"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "لَيْلَى",
+            "Layla (first name)",
+            "name"
+          ],
+          [
+            "مَا",
+            "what"
+          ],
+          [
+            "مَوْضُوعُ",
+            "subject (of)"
+          ],
+          [
+            "الرِّسَالَة",
+            "the letter"
+          ],
+          [
+            "هَلْ",
+            "(question word)"
+          ],
+          [
+            "هِيَ",
+            "it, she"
+          ],
+          [
+            "طَلَب",
+            "an application, a request"
+          ],
+          [
+            "لِلدِّرَاسَة",
+            "for the study ('to study')"
+          ],
+          [
+            "أَمْ",
+            "or (in questions)"
+          ],
+          [
+            "طَلَب",
+            "an application, a request"
+          ],
+          [
+            "لِوَظِيفَة",
+            "for a job"
+          ]
+        ]
+      },
+      {
+        "id": "d82l3",
+        "sp": "layla",
+        "ar": "هِيَ طَلَبُ مِنْحَة. الْجَامِعَة تُقَدِّمُ مِنَحًا لِبَرْنَامَجِ الْمَاجِسْتِير فِي التَّرْجَمَة، وَآخِرُ يَوْم لِلطَّلَبَات هُوَ يَوْمُ الْخَمِيس.",
+        "en": "It's a scholarship application. The university offers scholarships for the master's programme in translation, and the last day for applications is Thursday.",
+        "segs": [
+          [
+            "هِيَ",
+            "it, she"
+          ],
+          [
+            "طَلَبُ",
+            "application (for)"
+          ],
+          [
+            "مِنْحَة",
+            "a scholarship"
+          ],
+          [
+            "الْجَامِعَة",
+            "the university"
+          ],
+          [
+            "تُقَدِّمُ",
+            "(she) offers"
+          ],
+          [
+            "مِنَحًا",
+            "scholarships"
+          ],
+          [
+            "لِبَرْنَامَجِ",
+            "for the programme (of)"
+          ],
+          [
+            "الْمَاجِسْتِير",
+            "the master's (degree)"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "التَّرْجَمَة",
+            "the translation"
+          ],
+          [
+            "وَآخِرُ",
+            "and the last"
+          ],
+          [
+            "يَوْم",
+            "day"
+          ],
+          [
+            "لِلطَّلَبَات",
+            "for the applications"
+          ],
+          [
+            "هُوَ",
+            "(it) is"
+          ],
+          [
+            "يَوْمُ",
+            "day (of)"
+          ],
+          [
+            "الْخَمِيس",
+            "Thursday"
+          ]
+        ]
+      },
+      {
+        "id": "d82l4",
+        "sp": "karim",
+        "ar": "جَمِيل! لٰكِنَّ أَوَّلَ سَطْر هُوَ: «عَزِيزِي الْمُدِير، مَرْحَبًا!». هٰذَا مُنَاسِب لِصَدِيق، لَا لِمُدِير لَا تَعْرِفِينَهُ.",
+        "en": "Lovely! But the first line is: 'Dear director, hello!'. That's fine for a friend, but not for a director you don't know.",
+        "segs": [
+          [
+            "جَمِيل",
+            "lovely, beautiful"
+          ],
+          [
+            "لٰكِنَّ",
+            "but"
+          ],
+          [
+            "أَوَّلَ",
+            "the first"
+          ],
+          [
+            "سَطْر",
+            "line"
+          ],
+          [
+            "هُوَ",
+            "(it) is"
+          ],
+          [
+            "عَزِيزِي",
+            "my dear (to a man)"
+          ],
+          [
+            "الْمُدِير",
+            "the director"
+          ],
+          [
+            "مَرْحَبًا",
+            "hello"
+          ],
+          [
+            "هٰذَا",
+            "this"
+          ],
+          [
+            "مُنَاسِب",
+            "suitable, fine"
+          ],
+          [
+            "لِصَدِيق",
+            "for a friend"
+          ],
+          [
+            "لَا",
+            "not"
+          ],
+          [
+            "لِمُدِير",
+            "for a director"
+          ],
+          [
+            "لَا",
+            "not"
+          ],
+          [
+            "تَعْرِفِينَهُ",
+            "you know him (to a woman)"
+          ]
+        ]
+      },
+      {
+        "id": "d82l5",
+        "sp": "layla",
+        "ar": "عِنْدَكَ حَقّ. إِذَنْ كَيْفَ أَبْدَأُ؟ عِنْدَمَا كَتَبَ دَانْيَال رِسَالَتَهُ فِي الْعَمَل، تَعَلَّمْنَا «حَضْرَةَ … الْمُحْتَرَم». هَلْ هٰذَا نَفْسُ الشَّيْء؟",
+        "en": "You're right. So how do I begin? When Daniel wrote his email at work, we learned 'ḥaḍrata … al-muḥtaram'. Is that the same thing?",
+        "segs": [
+          [
+            "عِنْدَكَ",
+            "you have (to a man)"
+          ],
+          [
+            "حَقّ",
+            "right ('you're right')"
+          ],
+          [
+            "إِذَنْ",
+            "so, then"
+          ],
+          [
+            "كَيْفَ",
+            "how"
+          ],
+          [
+            "أَبْدَأُ",
+            "I begin"
+          ],
+          [
+            "عِنْدَمَا",
+            "when"
+          ],
+          [
+            "كَتَبَ",
+            "(he) wrote"
+          ],
+          [
+            "دَانْيَال",
+            "Daniel (first name)",
+            "name"
+          ],
+          [
+            "رِسَالَتَهُ",
+            "his message, his email"
+          ],
+          [
+            "فِي",
+            "in, at"
+          ],
+          [
+            "الْعَمَل",
+            "the work"
+          ],
+          [
+            "تَعَلَّمْنَا",
+            "we learned"
+          ],
+          [
+            "حَضْرَةَ",
+            "(title of respect) Mr, Mrs"
+          ],
+          [
+            "الْمُحْتَرَم",
+            "the respected ('dear')"
+          ],
+          [
+            "هَلْ",
+            "(question word)"
+          ],
+          [
+            "هٰذَا",
+            "this, that"
+          ],
+          [
+            "نَفْسُ",
+            "the same"
+          ],
+          [
+            "الشَّيْء",
+            "the thing"
+          ]
+        ]
+      },
+      {
+        "id": "d82l6",
+        "sp": "karim",
+        "ar": "تَقْرِيبًا. فِي الرِّسَالَة الرَّسْمِيَّة نَكْتُبُ: «السَّيِّد مُدِير الْبَرْنَامَج الْمُحْتَرَم»، ثُمَّ «تَحِيَّة طَيِّبَة وَبَعْدُ». وَلِلْمَرْأَة نَكْتُبُ: «السَّيِّدَة … الْمُحْتَرَمَة».",
+        "en": "Almost. In a formal letter we write: 'Dear Mr Director of the Programme', then 'Greetings, and after that'. And to a woman we write: 'Dear Mrs …'.",
+        "segs": [
+          [
+            "تَقْرِيبًا",
+            "almost, about"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "الرِّسَالَة",
+            "the letter"
+          ],
+          [
+            "الرَّسْمِيَّة",
+            "the formal (f)"
+          ],
+          [
+            "نَكْتُبُ",
+            "we write"
+          ],
+          [
+            "السَّيِّد",
+            "Mr, sir"
+          ],
+          [
+            "مُدِير",
+            "director (of)"
+          ],
+          [
+            "الْبَرْنَامَج",
+            "the programme"
+          ],
+          [
+            "الْمُحْتَرَم",
+            "the respected ('dear')"
+          ],
+          [
+            "ثُمَّ",
+            "then"
+          ],
+          [
+            "تَحِيَّة",
+            "a greeting"
+          ],
+          [
+            "طَيِّبَة",
+            "good, kind (f)"
+          ],
+          [
+            "وَبَعْدُ",
+            "and after (that)"
+          ],
+          [
+            "وَلِلْمَرْأَة",
+            "and to the woman"
+          ],
+          [
+            "نَكْتُبُ",
+            "we write"
+          ],
+          [
+            "السَّيِّدَة",
+            "Mrs, Ms, madam"
+          ],
+          [
+            "الْمُحْتَرَمَة",
+            "the respected (f) ('dear')"
+          ]
+        ]
+      },
+      {
+        "id": "d82l7",
+        "sp": "daniel",
+        "ar": "وَمَاذَا كَتَبْتِ بَعْدَ التَّحِيَّة يَا لَيْلَى؟ أَنَا كَتَبْتُ فِي طَلَبِ الْوَظِيفَة: «أُرِيدُ هٰذِهِ الْوَظِيفَة»، وَلَمْ أَكْتُبْ شَيْئًا آخَر!",
+        "en": "And what did you write after the greeting, Layla? In my job application I wrote: 'I want this job', and I didn't write anything else!",
+        "segs": [
+          [
+            "وَمَاذَا",
+            "and what"
+          ],
+          [
+            "كَتَبْتِ",
+            "you wrote (to a woman)"
+          ],
+          [
+            "بَعْدَ",
+            "after"
+          ],
+          [
+            "التَّحِيَّة",
+            "the greeting"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "لَيْلَى",
+            "Layla (first name)",
+            "name"
+          ],
+          [
+            "أَنَا",
+            "I"
+          ],
+          [
+            "كَتَبْتُ",
+            "I wrote"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "طَلَبِ",
+            "application (for)"
+          ],
+          [
+            "الْوَظِيفَة",
+            "the job"
+          ],
+          [
+            "أُرِيدُ",
+            "I want"
+          ],
+          [
+            "هٰذِهِ",
+            "this (f)"
+          ],
+          [
+            "الْوَظِيفَة",
+            "the job"
+          ],
+          [
+            "وَلَمْ",
+            "and did not"
+          ],
+          [
+            "أَكْتُبْ",
+            "I write ('I didn't write')"
+          ],
+          [
+            "شَيْئًا",
+            "a thing, anything"
+          ],
+          [
+            "آخَر",
+            "else, other"
+          ]
+        ]
+      },
+      {
+        "id": "d82l8",
+        "sp": "layla",
+        "ar": "كَتَبْتُ: «أَتَشَرَّفُ بِأَنْ أَتَقَدَّمَ بِطَلَبِ مِنْحَةٍ فِي بَرْنَامَجِ التَّرْجَمَة». هَلْ هٰذِهِ الْجُمْلَة صَحِيحَة يَا أُسْتَاذ؟",
+        "en": "I wrote: 'I have the honour to apply for a scholarship in the translation programme'. Is this sentence correct, sir?",
+        "segs": [
+          [
+            "كَتَبْتُ",
+            "I wrote"
+          ],
+          [
+            "أَتَشَرَّفُ",
+            "I have the honour, I am honoured"
+          ],
+          [
+            "بِأَنْ",
+            "(with) to, that"
+          ],
+          [
+            "أَتَقَدَّمَ",
+            "I come forward ('apply')"
+          ],
+          [
+            "بِطَلَبِ",
+            "with an application (for)"
+          ],
+          [
+            "مِنْحَةٍ",
+            "a scholarship"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "بَرْنَامَجِ",
+            "programme (of)"
+          ],
+          [
+            "التَّرْجَمَة",
+            "the translation"
+          ],
+          [
+            "هَلْ",
+            "(question word)"
+          ],
+          [
+            "هٰذِهِ",
+            "this (f)"
+          ],
+          [
+            "الْجُمْلَة",
+            "the sentence"
+          ],
+          [
+            "صَحِيحَة",
+            "correct (f)"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "أُسْتَاذ",
+            "teacher ('sir')"
+          ]
+        ]
+      },
+      {
+        "id": "d82l9",
+        "sp": "karim",
+        "ar": "صَحِيحَة وَجَمِيلَة! «أَتَشَرَّفُ» مِنْ جَذْرِ «تَشَرَّفْنَا»، وَمَعْنَاهَا: هٰذَا شَرَف لِي. وَبَعْدَهَا نَسْتَعْمِلُ دَائِمًا «بِأَنْ» ثُمَّ فِعْلًا.",
+        "en": "Correct and elegant! 'Atasharrafu' has the same root as 'tasharrafnā', and it means: this is an honour for me. After it we always use 'bi-an' and then a verb.",
+        "segs": [
+          [
+            "صَحِيحَة",
+            "correct (f)"
+          ],
+          [
+            "وَجَمِيلَة",
+            "and beautiful (f)"
+          ],
+          [
+            "أَتَشَرَّفُ",
+            "I have the honour, I am honoured"
+          ],
+          [
+            "مِنْ",
+            "from"
+          ],
+          [
+            "جَذْرِ",
+            "root (of)"
+          ],
+          [
+            "تَشَرَّفْنَا",
+            "nice to meet you (lit. we were honoured)"
+          ],
+          [
+            "وَمَعْنَاهَا",
+            "and its meaning"
+          ],
+          [
+            "هٰذَا",
+            "this"
+          ],
+          [
+            "شَرَف",
+            "an honour"
+          ],
+          [
+            "لِي",
+            "for me"
+          ],
+          [
+            "وَبَعْدَهَا",
+            "and after it"
+          ],
+          [
+            "نَسْتَعْمِلُ",
+            "we use"
+          ],
+          [
+            "دَائِمًا",
+            "always"
+          ],
+          [
+            "بِأَنْ",
+            "(with) to, that"
+          ],
+          [
+            "ثُمَّ",
+            "then"
+          ],
+          [
+            "فِعْلًا",
+            "a verb"
+          ]
+        ]
+      },
+      {
+        "id": "d82l10",
+        "sp": "sami",
+        "ar": "عِنْدِي سُؤَال يَا أُسْتَاذ: لَيْلَى تَكْتُبُ إِلَى مُدِير وَاحِد، فَلِمَاذَا تَسْتَعْمِلُ الْجَمْع فِي «تَفَضَّلُوا» وَفِي «رَدِّكُمْ»؟",
+        "en": "I have a question, sir: Layla is writing to one director, so why does she use the plural in 'tafaḍḍalū' and in 'raddikum'?",
+        "segs": [
+          [
+            "عِنْدِي",
+            "I have"
+          ],
+          [
+            "سُؤَال",
+            "a question"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "أُسْتَاذ",
+            "teacher ('sir')"
+          ],
+          [
+            "لَيْلَى",
+            "Layla (first name)",
+            "name"
+          ],
+          [
+            "تَكْتُبُ",
+            "(she) writes"
+          ],
+          [
+            "إِلَى",
+            "to"
+          ],
+          [
+            "مُدِير",
+            "a director"
+          ],
+          [
+            "وَاحِد",
+            "one"
+          ],
+          [
+            "فَلِمَاذَا",
+            "so why"
+          ],
+          [
+            "تَسْتَعْمِلُ",
+            "(she) uses"
+          ],
+          [
+            "الْجَمْع",
+            "the plural"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "تَفَضَّلُوا",
+            "be so kind, please (plural)"
+          ],
+          [
+            "وَفِي",
+            "and in"
+          ],
+          [
+            "رَدِّكُمْ",
+            "your reply (plural)"
+          ]
+        ]
+      },
+      {
+        "id": "d82l11",
+        "sp": "karim",
+        "ar": "سُؤَال مُمْتَاز يَا سَامِي! فِي الرَّسَائِلِ الرَّسْمِيَّة نُخَاطِبُ الشَّخْصَ الْوَاحِدَ بِالْجَمْع. هٰذَا لَيْسَ خَطَأً، بَلْ هُوَ عَلَامَةُ احْتِرَام.",
+        "en": "Excellent question, Sami! In formal letters we address one person in the plural. That isn't a mistake; it's a sign of respect.",
+        "segs": [
+          [
+            "سُؤَال",
+            "a question"
+          ],
+          [
+            "مُمْتَاز",
+            "excellent"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "سَامِي",
+            "Sami (first name)",
+            "name"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "الرَّسَائِلِ",
+            "the letters"
+          ],
+          [
+            "الرَّسْمِيَّة",
+            "the formal (f)"
+          ],
+          [
+            "نُخَاطِبُ",
+            "we address, we speak to"
+          ],
+          [
+            "الشَّخْصَ",
+            "the person"
+          ],
+          [
+            "الْوَاحِدَ",
+            "the one, the single"
+          ],
+          [
+            "بِالْجَمْع",
+            "in the plural"
+          ],
+          [
+            "هٰذَا",
+            "this"
+          ],
+          [
+            "لَيْسَ",
+            "is not"
+          ],
+          [
+            "خَطَأً",
+            "a mistake"
+          ],
+          [
+            "بَلْ",
+            "but rather"
+          ],
+          [
+            "هُوَ",
+            "it (is)"
+          ],
+          [
+            "عَلَامَةُ",
+            "a sign (of)"
+          ],
+          [
+            "احْتِرَام",
+            "respect"
+          ]
+        ]
+      },
+      {
+        "id": "d82l12",
+        "sp": "daniel",
+        "ar": "سَأَقْرَأُ النِّهَايَة بِصَوْتٍ عَالٍ: «وَتَفَضَّلُوا بِقَبُولِ فَائِقِ الِاحْتِرَام». جُمْلَة جَمِيلَة، لٰكِنْ مَا مَعْنَى «فَائِق» بِالضَّبْط؟",
+        "en": "I'll read the ending out loud: 'wa-tafaḍḍalū bi-qabūli fāʾiqi l-iḥtirām'. It's a lovely sentence, but what exactly does 'fāʾiq' mean?",
+        "segs": [
+          [
+            "سَأَقْرَأُ",
+            "I will read"
+          ],
+          [
+            "النِّهَايَة",
+            "the ending"
+          ],
+          [
+            "بِصَوْتٍ",
+            "with a voice"
+          ],
+          [
+            "عَالٍ",
+            "high, loud ('out loud')"
+          ],
+          [
+            "وَتَفَضَّلُوا",
+            "and be so kind (plural of respect)"
+          ],
+          [
+            "بِقَبُولِ",
+            "with the acceptance (of) ('to accept')"
+          ],
+          [
+            "فَائِقِ",
+            "the utmost (of), the highest (of)"
+          ],
+          [
+            "الِاحْتِرَام",
+            "the respect"
+          ],
+          [
+            "جُمْلَة",
+            "a sentence"
+          ],
+          [
+            "جَمِيلَة",
+            "beautiful, lovely (f)"
+          ],
+          [
+            "لٰكِنْ",
+            "but"
+          ],
+          [
+            "مَا",
+            "what"
+          ],
+          [
+            "مَعْنَى",
+            "meaning (of)"
+          ],
+          [
+            "فَائِق",
+            "utmost, highest"
+          ],
+          [
+            "بِالضَّبْط",
+            "exactly"
+          ]
+        ]
+      },
+      {
+        "id": "d82l13",
+        "sp": "layla",
+        "ar": "«فَائِق» يَعْنِي: أَعْلَى دَرَجَة. فَالْجُمْلَة كُلُّهَا تَعْنِي: اِقْبَلُوا مِنِّي أَكْبَرَ احْتِرَام، مِنْ فَضْلِكُمْ.",
+        "en": "'Fāʾiq' means: of the highest degree. So the whole sentence means: please accept the greatest respect from me.",
+        "segs": [
+          [
+            "فَائِق",
+            "utmost, highest"
+          ],
+          [
+            "يَعْنِي",
+            "(it) means"
+          ],
+          [
+            "أَعْلَى",
+            "the highest"
+          ],
+          [
+            "دَرَجَة",
+            "degree, level"
+          ],
+          [
+            "فَالْجُمْلَة",
+            "so the sentence"
+          ],
+          [
+            "كُلُّهَا",
+            "all of it, whole"
+          ],
+          [
+            "تَعْنِي",
+            "(she) means ('it means')"
+          ],
+          [
+            "اِقْبَلُوا",
+            "accept! (plural)"
+          ],
+          [
+            "مِنِّي",
+            "from me"
+          ],
+          [
+            "أَكْبَرَ",
+            "the greatest"
+          ],
+          [
+            "احْتِرَام",
+            "respect"
+          ],
+          [
+            "مِنْ",
+            "from ('please')"
+          ],
+          [
+            "فَضْلِكُمْ",
+            "your kindness ('please', plural)"
+          ]
+        ]
+      },
+      {
+        "id": "d82l14",
+        "sp": "karim",
+        "ar": "أَحْسَنْتِ! وَانْتَبِهْ يَا دَانْيَال إِلَى التَّاءِ الْمَرْبُوطَة: فِي آخِرِ الْجُمْلَة نَقُولُ «مِنْحَة»، لٰكِنْ قَبْلَ كَلِمَة أُخْرَى نَقُولُ «مِنْحَةُ الْجَامِعَة» بِالتَّاء.",
+        "en": "Well done! And Daniel, pay attention to the tāʾ marbūṭa: at the end of a sentence we say 'minḥa', but before another word we say 'minḥatu l-jāmiʿa', with a t.",
+        "segs": [
+          [
+            "أَحْسَنْتِ",
+            "well done (to a woman)"
+          ],
+          [
+            "وَانْتَبِهْ",
+            "and pay attention (to a man)"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "دَانْيَال",
+            "Daniel (first name)",
+            "name"
+          ],
+          [
+            "إِلَى",
+            "to"
+          ],
+          [
+            "التَّاءِ",
+            "the letter tāʾ"
+          ],
+          [
+            "الْمَرْبُوطَة",
+            "the tied ('tāʾ marbūṭa')"
+          ],
+          [
+            "فِي",
+            "in, at"
+          ],
+          [
+            "آخِرِ",
+            "the end (of)"
+          ],
+          [
+            "الْجُمْلَة",
+            "the sentence"
+          ],
+          [
+            "نَقُولُ",
+            "we say"
+          ],
+          [
+            "مِنْحَة",
+            "a scholarship"
+          ],
+          [
+            "لٰكِنْ",
+            "but"
+          ],
+          [
+            "قَبْلَ",
+            "before"
+          ],
+          [
+            "كَلِمَة",
+            "a word"
+          ],
+          [
+            "أُخْرَى",
+            "other, another (f)"
+          ],
+          [
+            "نَقُولُ",
+            "we say"
+          ],
+          [
+            "مِنْحَةُ",
+            "scholarship (of)"
+          ],
+          [
+            "الْجَامِعَة",
+            "the university"
+          ],
+          [
+            "بِالتَّاء",
+            "with the t"
+          ]
+        ]
+      },
+      {
+        "id": "d82l15",
+        "sp": "layla",
+        "ar": "شُكْرًا جَزِيلًا يَا أُسْتَاذ! سَأُصَحِّحُ الْبِدَايَة اللَّيْلَة، وَسَأُرْسِلُ الطَّلَبَ مَعَ سِيرَتِي الذَّاتِيَّة قَبْلَ يَوْمِ الْخَمِيس.",
+        "en": "Thank you very much, sir! I'll correct the beginning tonight, and I'll send the application with my CV before Thursday.",
+        "segs": [
+          [
+            "شُكْرًا",
+            "thank you"
+          ],
+          [
+            "جَزِيلًا",
+            "very much"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "أُسْتَاذ",
+            "teacher ('sir')"
+          ],
+          [
+            "سَأُصَحِّحُ",
+            "I will correct"
+          ],
+          [
+            "الْبِدَايَة",
+            "the beginning"
+          ],
+          [
+            "اللَّيْلَة",
+            "tonight"
+          ],
+          [
+            "وَسَأُرْسِلُ",
+            "and I will send"
+          ],
+          [
+            "الطَّلَبَ",
+            "the application"
+          ],
+          [
+            "مَعَ",
+            "with"
+          ],
+          [
+            "سِيرَتِي",
+            "my biography ('my CV')"
+          ],
+          [
+            "الذَّاتِيَّة",
+            "the personal ('CV')"
+          ],
+          [
+            "قَبْلَ",
+            "before"
+          ],
+          [
+            "يَوْمِ",
+            "day (of)"
+          ],
+          [
+            "الْخَمِيس",
+            "Thursday"
+          ]
+        ]
+      },
+      {
+        "id": "d82l16",
+        "sp": "sami",
+        "ar": "وَإِذَا قَبِلَتِ الْجَامِعَة طَلَبَكِ، سَنَحْتَفِلُ فِي مَطْعَم! وَأَنْتِ تَدْفَعِينَ طَبْعًا، فَالْمِنْحَة لَكِ!",
+        "en": "And if the university accepts your application, we'll celebrate in a restaurant! And you'll pay, of course, because the scholarship is yours!",
+        "segs": [
+          [
+            "وَإِذَا",
+            "and if"
+          ],
+          [
+            "قَبِلَتِ",
+            "(she) accepted ('accepts')"
+          ],
+          [
+            "الْجَامِعَة",
+            "the university"
+          ],
+          [
+            "طَلَبَكِ",
+            "your application (to a woman)"
+          ],
+          [
+            "سَنَحْتَفِلُ",
+            "we will celebrate"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "مَطْعَم",
+            "a restaurant"
+          ],
+          [
+            "وَأَنْتِ",
+            "and you (to a woman)"
+          ],
+          [
+            "تَدْفَعِينَ",
+            "you pay (to a woman)"
+          ],
+          [
+            "طَبْعًا",
+            "of course"
+          ],
+          [
+            "فَالْمِنْحَة",
+            "because the scholarship"
+          ],
+          [
+            "لَكِ",
+            "for you, yours (to a woman)"
+          ]
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "title": "Layla's letter",
+    "ar": "السَّيِّد مُدِير بَرْنَامَج الْمَاجِسْتِير فِي التَّرْجَمَة الْمُحْتَرَم، تَحِيَّة طَيِّبَة وَبَعْدُ، أَتَشَرَّفُ بِأَنْ أَتَقَدَّمَ بِطَلَبِ مِنْحَةٍ فِي بَرْنَامَجِكُمْ. أَنَا طَالِبَة مِنْ لُبْنَان، وَأَرْغَبُ فِي دِرَاسَةِ التَّرْجَمَةِ بِجَامِعَتِكُمْ. مُرْفَقَة مَعَ هٰذِهِ الرِّسَالَة سِيرَتِي الذَّاتِيَّة وَشَهَادَتِي مِنَ الْجَامِعَة. وَفِي انْتِظَارِ رَدِّكُمْ. وَتَفَضَّلُوا بِقَبُولِ فَائِقِ الِاحْتِرَام. لَيْلَى",
+    "en": "Dear Director of the Master's Programme in Translation, Greetings. I have the honour to apply for a scholarship in your programme. I am a student from Lebanon, and I would like to study translation at your university. Attached to this letter are my CV and my degree certificate from university. I look forward to your reply. Yours faithfully, Layla",
+    "segs": [
+      [
+        "السَّيِّد",
+        "Mr, sir"
+      ],
+      [
+        "مُدِير",
+        "director (of)"
+      ],
+      [
+        "بَرْنَامَج",
+        "programme (of)"
+      ],
+      [
+        "الْمَاجِسْتِير",
+        "the master's (degree)"
+      ],
+      [
+        "فِي",
+        "in"
+      ],
+      [
+        "التَّرْجَمَة",
+        "the translation"
+      ],
+      [
+        "الْمُحْتَرَم",
+        "the respected ('dear')"
+      ],
+      [
+        "تَحِيَّة",
+        "a greeting"
+      ],
+      [
+        "طَيِّبَة",
+        "good, kind (f)"
+      ],
+      [
+        "وَبَعْدُ",
+        "and after (that)"
+      ],
+      [
+        "أَتَشَرَّفُ",
+        "I have the honour, I am honoured"
+      ],
+      [
+        "بِأَنْ",
+        "(with) to, that"
+      ],
+      [
+        "أَتَقَدَّمَ",
+        "I come forward ('apply')"
+      ],
+      [
+        "بِطَلَبِ",
+        "with an application (for)"
+      ],
+      [
+        "مِنْحَةٍ",
+        "a scholarship"
+      ],
+      [
+        "فِي",
+        "in"
+      ],
+      [
+        "بَرْنَامَجِكُمْ",
+        "your programme (plural of respect)"
+      ],
+      [
+        "أَنَا",
+        "I"
+      ],
+      [
+        "طَالِبَة",
+        "a student (f)"
+      ],
+      [
+        "مِنْ",
+        "from"
+      ],
+      [
+        "لُبْنَان",
+        "Lebanon (country)",
+        "name"
+      ],
+      [
+        "وَأَرْغَبُ",
+        "and I wish, and I would like"
+      ],
+      [
+        "فِي",
+        "in ('to')"
+      ],
+      [
+        "دِرَاسَةِ",
+        "studying (of)"
+      ],
+      [
+        "التَّرْجَمَةِ",
+        "the translation"
+      ],
+      [
+        "بِجَامِعَتِكُمْ",
+        "at your university (plural of respect)"
+      ],
+      [
+        "مُرْفَقَة",
+        "attached (f)"
+      ],
+      [
+        "مَعَ",
+        "with"
+      ],
+      [
+        "هٰذِهِ",
+        "this (f)"
+      ],
+      [
+        "الرِّسَالَة",
+        "the letter"
+      ],
+      [
+        "سِيرَتِي",
+        "my biography ('my CV')"
+      ],
+      [
+        "الذَّاتِيَّة",
+        "the personal ('CV')"
+      ],
+      [
+        "وَشَهَادَتِي",
+        "and my certificate, my degree"
+      ],
+      [
+        "مِنَ",
+        "from (-a links to the next word)"
+      ],
+      [
+        "الْجَامِعَة",
+        "the university"
+      ],
+      [
+        "وَفِي",
+        "and in"
+      ],
+      [
+        "انْتِظَارِ",
+        "waiting (for)"
+      ],
+      [
+        "رَدِّكُمْ",
+        "your reply (plural)"
+      ],
+      [
+        "وَتَفَضَّلُوا",
+        "and be so kind (plural of respect)"
+      ],
+      [
+        "بِقَبُولِ",
+        "with the acceptance (of) ('to accept')"
+      ],
+      [
+        "فَائِقِ",
+        "the utmost (of), the highest (of)"
+      ],
+      [
+        "الِاحْتِرَام",
+        "the respect"
+      ],
+      [
+        "لَيْلَى",
+        "Layla (first name)",
+        "name"
+      ]
+    ]
+  },
+  "review": [
+    "risala",
+    "tahiyya",
+    "murfaq",
+    "sira-dhatiyya",
+    "yaruddu",
+    "yaqbalu"
+  ],
+  "quiz": [
+    {
+      "id": "d82q1",
+      "prompt": "Which opening is right for a formal letter to a director you don't know?",
+      "options": [
+        "عَزِيزِي الْمُدِير، مَرْحَبًا!",
+        "السَّيِّد الْمُدِير الْمُحْتَرَم، تَحِيَّة طَيِّبَة وَبَعْدُ",
+        "أَهْلًا يَا مُدِير!",
+        "شُكْرًا جَزِيلًا يَا أُسْتَاذ!"
+      ],
+      "answer": 1,
+      "explain": "To an official you don't know: as-sayyid + title + al-muḥtaram, then taḥiyya ṭayyiba wa-baʿdu."
+    },
+    {
+      "id": "d82q2",
+      "prompt": "What is Layla applying for?",
+      "options": [
+        "a job in a company",
+        "a scholarship for a master's in translation",
+        "a flat in Cairo",
+        "a place in a sports club"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "d82q3",
+      "prompt": "What is the last day for applications?",
+      "options": [
+        "Sunday",
+        "Monday",
+        "Thursday",
+        "Friday"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "d82q4",
+      "prompt": "Why does Layla write تَفَضَّلُوا in the plural to one director?",
+      "options": [
+        "It is a mistake.",
+        "She is writing to many people.",
+        "The plural is a sign of respect.",
+        "Because the director is a woman."
+      ],
+      "answer": 2,
+      "explain": "In formal letters one reader is addressed in the plural as a sign of respect."
+    },
+    {
+      "id": "d82q5",
+      "prompt": "What does this mean?",
+      "ar": "أَتَشَرَّفُ بِأَنْ أَتَقَدَّمَ بِطَلَبِ مِنْحَةٍ.",
+      "options": [
+        "I am sorry that I lost the scholarship.",
+        "I have the honour to apply for a scholarship.",
+        "I hope you will send me a scholarship.",
+        "I want this job."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "d82q6",
+      "prompt": "In وَتَفَضَّلُوا بِقَبُولِ فَائِقِ الِاحْتِرَام, what does فَائِق mean?",
+      "options": [
+        "utmost, highest",
+        "respect",
+        "acceptance",
+        "kind, good"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "d82q7",
+      "prompt": "How is ة pronounced in مِنْحَةُ الْجَامِعَة?",
+      "options": [
+        "as a short -a: minḥa",
+        "as -at with a t: minḥatu",
+        "as a strong -ah",
+        "it is silent"
+      ],
+      "answer": 1,
+      "explain": "Before another word ة is read as t; only at a pause is it a plain -a."
+    }
+  ],
+  "completion": "Mabrūk! You can now write a formal letter: open with السَّيِّد … الْمُحْتَرَم, present your request with أَتَشَرَّفُ بِأَنْ…, speak to the reader in the plural of respect and close with وَتَفَضَّلُوا بِقَبُولِ فَائِقِ الِاحْتِرَام. Tomorrow: for and against.",
+  "status": "needs-review"
+}

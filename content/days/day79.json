@@ -1,0 +1,1709 @@
+{
+  "day": 79,
+  "week": 12,
+  "phase": 6,
+  "level": 8,
+  "title": "Technology",
+  "titleAr": "التِّكْنُولُوجْيَا",
+  "titleSegs": [
+    [
+      "التِّكْنُولُوجْيَا",
+      "the technology"
+    ]
+  ],
+  "emoji": "📱",
+  "summary": "Talk about phones, apps, the internet and social media, say that something broke with اِنْكَسَرَ, and use the maṣdar اِسْتِخْدَام (using) to talk about screen time and staying safe online.",
+  "intro": "Technology words in Arabic are a mix of old roots and borrowed words. Some come straight from English, like الْإِنْتَرْنِت and التِّكْنُولُوجْيَا; others are built from Arabic roots: تَطْبِيق (an app, lit. an application), مَوْقِع (a website, lit. a place) and يُحَمِّلُ (downloads, lit. loads). Two patterns you know from Week 10 help a lot today. Form VII, اِنْكَسَرَ, means that something got broken by itself: اِنْكَسَرَتْ شَاشَةُ هَاتِفِي. And the maṣdar of Form X, اِسْتِخْدَام (using), lets you make 'using the phone' the subject of a sentence: اِسْتِخْدَامُ الْإِنْتَرْنِتِ مُفِيدٌ. Listen for the rough خ in خَطَر (danger), خَاصّ (private) and اِسْتِخْدَام.",
+  "objectives": [
+    "Name a phone's parts and problems: the screen, the battery, charging and repairs",
+    "Say that something broke with اِنْكَسَرَ and use the maṣdar اِسْتِخْدَام (using)",
+    "Talk about apps, websites, downloads and social media",
+    "Give simple advice about screen time and staying safe online, and pronounce خ clearly"
+  ],
+  "realLife": {
+    "emoji": "🔧",
+    "title": "A cracked screen",
+    "story": "On the crowded metro home from class, Daniel's phone slips out of his hand and lands face down: the screen is cracked from corner to corner. Without maps or messages he walks to Sami's flat, where he finds a family argument already in full swing. Omar has spent the whole afternoon on a game app, and Umm Sami has had enough."
+  },
+  "letters": [],
+  "newWords": [
+    "shasha",
+    "tatbiq",
+    "mawqi",
+    "wasail-tawasul",
+    "khatar",
+    "khass",
+    "inkasara",
+    "yashhanu",
+    "yuhammilu",
+    "istikhdam"
+  ],
+  "grammar": [
+    "masdar",
+    "verb-forms"
+  ],
+  "pronunciation": [
+    "kha"
+  ],
+  "sentences": [
+    {
+      "id": "d79s1",
+      "ar": "اِنْكَسَرَتْ شَاشَةُ هَاتِفِي.",
+      "en": "My phone's screen broke.",
+      "literal": "got broken (the) screen (of) my phone",
+      "segs": [
+        [
+          "اِنْكَسَرَتْ",
+          "(she) broke, got broken",
+          "verb"
+        ],
+        [
+          "شَاشَةُ",
+          "screen (of)",
+          "noun"
+        ],
+        [
+          "هَاتِفِي",
+          "my phone",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "verb-forms",
+        "idafa"
+      ],
+      "mistakes": [
+        {
+          "wrong": "كَسَرَتْ شَاشَةُ هَاتِفِي",
+          "right": "اِنْكَسَرَتْ شَاشَةُ هَاتِفِي",
+          "why": "كَسَرَ means 'broke something' and needs someone who breaks it. For 'got broken' use Form VII: اِنْكَسَرَ, اِنْكَسَرَتْ."
+        }
+      ]
+    },
+    {
+      "id": "d79s2",
+      "ar": "يَقْضِي عُمَرُ خَمْسَ سَاعَاتٍ أَمَامَ الشَّاشَةِ كُلَّ يَوْمٍ.",
+      "en": "Omar spends five hours in front of the screen every day.",
+      "literal": "spends Omar five hours in front of the screen every day",
+      "segs": [
+        [
+          "يَقْضِي",
+          "(he) spends (time)",
+          "verb"
+        ],
+        [
+          "عُمَرُ",
+          "Omar (first name)",
+          "name"
+        ],
+        [
+          "خَمْسَ",
+          "five",
+          "number"
+        ],
+        [
+          "سَاعَاتٍ",
+          "hours",
+          "noun"
+        ],
+        [
+          "أَمَامَ",
+          "in front of",
+          "prep"
+        ],
+        [
+          "الشَّاشَةِ",
+          "the screen",
+          "noun"
+        ],
+        [
+          "كُلَّ",
+          "every",
+          "noun"
+        ],
+        [
+          "يَوْمٍ",
+          "day",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "verbal-sentence",
+        "numbers-11-100"
+      ]
+    },
+    {
+      "id": "d79s3",
+      "ar": "اِسْتِخْدَامُ الْإِنْتَرْنِتِ مُفِيدٌ، لٰكِنَّ لَهُ أَخْطَارًا.",
+      "en": "Using the internet is useful, but it has its dangers.",
+      "literal": "using (of) the internet (is) useful, but for it (are) dangers",
+      "segs": [
+        [
+          "اِسْتِخْدَامُ",
+          "using, the use (of)",
+          "noun"
+        ],
+        [
+          "الْإِنْتَرْنِتِ",
+          "the internet",
+          "noun"
+        ],
+        [
+          "مُفِيدٌ",
+          "useful",
+          "adj"
+        ],
+        [
+          "لٰكِنَّ",
+          "but (like inna: the noun after it ends in -a)",
+          "particle"
+        ],
+        [
+          "لَهُ",
+          "it has (lit. for it)",
+          "prep"
+        ],
+        [
+          "أَخْطَارًا",
+          "dangers (-an after lākinna)",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "masdar",
+        "inna"
+      ],
+      "mistakes": [
+        {
+          "wrong": "يَسْتَخْدِمُ الْإِنْتَرْنِت مُفِيد",
+          "right": "اِسْتِخْدَامُ الْإِنْتَرْنِتِ مُفِيدٌ",
+          "why": "To make 'using' the subject of a sentence, use the maṣdar اِسْتِخْدَام, not the verb يَسْتَخْدِمُ (he uses)."
+        }
+      ]
+    },
+    {
+      "id": "d79s4",
+      "ar": "لَا تُعْطِ كَلِمَةَ السِّرِّ لِأَيِّ شَخْصٍ.",
+      "en": "Don't give your password to anyone.",
+      "literal": "don't give (the) word (of) the secret to any person",
+      "segs": [
+        [
+          "لَا",
+          "don't",
+          "particle"
+        ],
+        [
+          "تُعْطِ",
+          "give (to a man)",
+          "verb"
+        ],
+        [
+          "كَلِمَةَ",
+          "word (of)",
+          "noun"
+        ],
+        [
+          "السِّرِّ",
+          "the secret ('password')",
+          "noun"
+        ],
+        [
+          "لِأَيِّ",
+          "to any",
+          "prep"
+        ],
+        [
+          "شَخْصٍ",
+          "person",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "negative-imperative",
+        "idafa"
+      ],
+      "mistakes": [
+        {
+          "wrong": "لَا تُعْطِي كَلِمَةَ السِّرِّ",
+          "right": "لَا تُعْطِ كَلِمَةَ السِّرِّ",
+          "why": "After لَا meaning 'don't', the long ī at the end of تُعْطِي drops to a short i: lā tuʿṭi."
+        }
+      ]
+    },
+    {
+      "id": "d79s5",
+      "ar": "حَمَّلْتُ تَطْبِيقًا جَدِيدًا لِتَعَلُّمِ الْعَرَبِيَّةِ.",
+      "en": "I downloaded a new app for learning Arabic.",
+      "literal": "I downloaded an app new for (the) learning (of) Arabic",
+      "segs": [
+        [
+          "حَمَّلْتُ",
+          "I downloaded",
+          "verb"
+        ],
+        [
+          "تَطْبِيقًا",
+          "an app",
+          "noun"
+        ],
+        [
+          "جَدِيدًا",
+          "new",
+          "adj"
+        ],
+        [
+          "لِتَعَلُّمِ",
+          "for learning",
+          "noun"
+        ],
+        [
+          "الْعَرَبِيَّةِ",
+          "Arabic (the language)",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "verb-forms",
+        "masdar"
+      ],
+      "mistakes": [
+        {
+          "wrong": "حَمَّلْتُ تَطْبِيق جَدِيدًا",
+          "right": "حَمَّلْتُ تَطْبِيقًا جَدِيدًا",
+          "why": "The app is the object of the verb, so both the noun and its adjective end in -an: taṭbīqan jadīdan."
+        }
+      ]
+    },
+    {
+      "id": "d79s6",
+      "ar": "وَسَائِلُ التَّوَاصُلِ الِاجْتِمَاعِيِّ أَسْرَعُ مِنَ الْجَرَائِدِ، لٰكِنَّهَا لَيْسَتْ دَائِمًا صَحِيحَةً.",
+      "en": "Social media is faster than newspapers, but it is not always right.",
+      "literal": "(the) means (of) the communication the social (are) faster than the newspapers, but they (f) are not always correct",
+      "segs": [
+        [
+          "وَسَائِلُ",
+          "means (of)",
+          "noun"
+        ],
+        [
+          "التَّوَاصُلِ",
+          "the communication",
+          "noun"
+        ],
+        [
+          "الِاجْتِمَاعِيِّ",
+          "the social",
+          "adj"
+        ],
+        [
+          "أَسْرَعُ",
+          "faster",
+          "adj"
+        ],
+        [
+          "مِنَ",
+          "than",
+          "prep"
+        ],
+        [
+          "الْجَرَائِدِ",
+          "the newspapers",
+          "noun"
+        ],
+        [
+          "لٰكِنَّهَا",
+          "but it (f)",
+          "particle"
+        ],
+        [
+          "لَيْسَتْ",
+          "is not (f)",
+          "verb"
+        ],
+        [
+          "دَائِمًا",
+          "always",
+          "adverb"
+        ],
+        [
+          "صَحِيحَةً",
+          "correct, true (f)",
+          "adj"
+        ]
+      ],
+      "grammar": [
+        "comparative",
+        "non-human-plural"
+      ],
+      "mistakes": [
+        {
+          "wrong": "وَسَائِلُ التَّوَاصُلِ الِاجْتِمَاعِيِّ لَيْسُوا صَحِيحِينَ",
+          "right": "وَسَائِلُ التَّوَاصُلِ الِاجْتِمَاعِيِّ لَيْسَتْ صَحِيحَةً",
+          "why": "وَسَائِل is a plural of things, so it counts as 'she': لَيْسَتْ صَحِيحَةً."
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Too much screen time",
+    "speakers": [
+      {
+        "key": "daniel",
+        "name": "Daniel",
+        "nameAr": "دَانْيَال"
+      },
+      {
+        "key": "sami",
+        "name": "Sami",
+        "nameAr": "سَامِي"
+      },
+      {
+        "key": "fatima",
+        "name": "Fatima",
+        "nameAr": "فَاطِمَة"
+      },
+      {
+        "key": "omar",
+        "name": "Omar",
+        "nameAr": "عُمَر"
+      }
+    ],
+    "culture": "Small phone repair shops are everywhere in Arab cities, often in a row on the same street, and a cracked screen can usually be changed in an hour. Families keep in touch through WhatsApp groups, and grandparents send good-morning pictures every day. At the same time, many parents worry about screen time, and 'no phones at the table' is a rule you will hear in many homes.",
+    "lines": [
+      {
+        "id": "d79l1",
+        "sp": "daniel",
+        "ar": "مَسَاءُ الْخَيْر يَا سَامِي! آسِف، أَنَا مُتَأَخِّر. سَقَطَ هَاتِفِي فِي الْمِتْرُو، وَانْكَسَرَتْ شَاشَتُهُ.",
+        "en": "Good evening, Sami! Sorry, I'm late. My phone fell in the metro, and its screen broke.",
+        "segs": [
+          [
+            "مَسَاءُ",
+            "evening (of)"
+          ],
+          [
+            "الْخَيْر",
+            "the goodness"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "سَامِي",
+            "Sami (first name)",
+            "name"
+          ],
+          [
+            "آسِف",
+            "sorry (said by a man)"
+          ],
+          [
+            "أَنَا",
+            "I"
+          ],
+          [
+            "مُتَأَخِّر",
+            "late (m)"
+          ],
+          [
+            "سَقَطَ",
+            "(he) fell"
+          ],
+          [
+            "هَاتِفِي",
+            "my phone"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "الْمِتْرُو",
+            "the metro"
+          ],
+          [
+            "وَانْكَسَرَتْ",
+            "and (she) broke, got broken"
+          ],
+          [
+            "شَاشَتُهُ",
+            "its screen"
+          ]
+        ]
+      },
+      {
+        "id": "d79l2",
+        "sp": "sami",
+        "ar": "يَا خَسَارَة! تَعَالَ وَاجْلِسْ. هَلْ يَعْمَلُ الْهَاتِف أَمْ لَا؟ أَحْيَانًا الشَّاشَة فَقَط مَكْسُورَة.",
+        "en": "What a pity! Come in and sit down. Does the phone still work or not? Sometimes only the screen is broken.",
+        "segs": [
+          [
+            "يَا",
+            "O ('what a…')"
+          ],
+          [
+            "خَسَارَة",
+            "loss ('what a pity')"
+          ],
+          [
+            "تَعَالَ",
+            "come! (to a man)"
+          ],
+          [
+            "وَاجْلِسْ",
+            "and sit down! (to a man)"
+          ],
+          [
+            "هَلْ",
+            "(starts a yes/no question)"
+          ],
+          [
+            "يَعْمَلُ",
+            "(he) works"
+          ],
+          [
+            "الْهَاتِف",
+            "the phone"
+          ],
+          [
+            "أَمْ",
+            "or (in a question)"
+          ],
+          [
+            "لَا",
+            "not"
+          ],
+          [
+            "أَحْيَانًا",
+            "sometimes"
+          ],
+          [
+            "الشَّاشَة",
+            "the screen"
+          ],
+          [
+            "فَقَط",
+            "only"
+          ],
+          [
+            "مَكْسُورَة",
+            "broken (f)"
+          ]
+        ]
+      },
+      {
+        "id": "d79l3",
+        "sp": "daniel",
+        "ar": "يَعْمَلُ قَلِيلًا، لٰكِنِّي لَا أَسْتَطِيعُ أَنْ أَقْرَأَ الرَّسَائِل. وَالْبَطَّارِيَّة ضَعِيفَة، وَلَمْ أَشْحَنْهُ مُنْذُ الصَّبَاح.",
+        "en": "It works a little, but I can't read the messages. And the battery is low, and I haven't charged it since the morning.",
+        "segs": [
+          [
+            "يَعْمَلُ",
+            "(he) works ('it works')"
+          ],
+          [
+            "قَلِيلًا",
+            "a little"
+          ],
+          [
+            "لٰكِنِّي",
+            "but I"
+          ],
+          [
+            "لَا",
+            "not"
+          ],
+          [
+            "أَسْتَطِيعُ",
+            "I can"
+          ],
+          [
+            "أَنْ",
+            "to"
+          ],
+          [
+            "أَقْرَأَ",
+            "(I) read"
+          ],
+          [
+            "الرَّسَائِل",
+            "the messages"
+          ],
+          [
+            "وَالْبَطَّارِيَّة",
+            "and the battery"
+          ],
+          [
+            "ضَعِيفَة",
+            "weak (f)"
+          ],
+          [
+            "وَلَمْ",
+            "and did not"
+          ],
+          [
+            "أَشْحَنْهُ",
+            "I charge it"
+          ],
+          [
+            "مُنْذُ",
+            "since"
+          ],
+          [
+            "الصَّبَاح",
+            "the morning"
+          ]
+        ]
+      },
+      {
+        "id": "d79l4",
+        "sp": "fatima",
+        "ar": "أَهْلًا يَا دَانْيَال! هُنَاكَ مَحَلّ قَرِيب يُصَلِّحُ الْهَوَاتِف. صَاحِبُهُ جَارُنَا، وَهُوَ مَاهِر جِدًّا.",
+        "en": "Welcome, Daniel! There's a shop nearby that repairs phones. The owner is our neighbour, and he's very good at his work.",
+        "segs": [
+          [
+            "أَهْلًا",
+            "welcome"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "دَانْيَال",
+            "Daniel (first name)",
+            "name"
+          ],
+          [
+            "هُنَاكَ",
+            "there is"
+          ],
+          [
+            "مَحَلّ",
+            "a shop"
+          ],
+          [
+            "قَرِيب",
+            "near, nearby"
+          ],
+          [
+            "يُصَلِّحُ",
+            "(he) repairs ('that repairs')"
+          ],
+          [
+            "الْهَوَاتِف",
+            "the phones"
+          ],
+          [
+            "صَاحِبُهُ",
+            "its owner"
+          ],
+          [
+            "جَارُنَا",
+            "our neighbour"
+          ],
+          [
+            "وَهُوَ",
+            "and he"
+          ],
+          [
+            "مَاهِر",
+            "skilful, good at his work"
+          ],
+          [
+            "جِدًّا",
+            "very"
+          ]
+        ]
+      },
+      {
+        "id": "d79l5",
+        "sp": "daniel",
+        "ar": "شُكْرًا يَا أُمَّ سَامِي! سَأَذْهَبُ إِلَيْهِ غَدًا صَبَاحًا. وَالْيَوْمَ سَأَعِيشُ بِدُونِ هَاتِف، مِثْلَ جَدِّي!",
+        "en": "Thank you, Umm Sami! I'll go to him tomorrow morning. And today I'll live without a phone, like my grandfather!",
+        "segs": [
+          [
+            "شُكْرًا",
+            "thank you"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "أُمَّ",
+            "mother (of) ('Umm')"
+          ],
+          [
+            "سَامِي",
+            "Sami (first name)",
+            "name"
+          ],
+          [
+            "سَأَذْهَبُ",
+            "I will go"
+          ],
+          [
+            "إِلَيْهِ",
+            "to him"
+          ],
+          [
+            "غَدًا",
+            "tomorrow"
+          ],
+          [
+            "صَبَاحًا",
+            "in the morning"
+          ],
+          [
+            "وَالْيَوْمَ",
+            "and today"
+          ],
+          [
+            "سَأَعِيشُ",
+            "I will live"
+          ],
+          [
+            "بِدُونِ",
+            "without"
+          ],
+          [
+            "هَاتِف",
+            "a phone"
+          ],
+          [
+            "مِثْلَ",
+            "like"
+          ],
+          [
+            "جَدِّي",
+            "my grandfather"
+          ]
+        ]
+      },
+      {
+        "id": "d79l6",
+        "sp": "omar",
+        "ar": "أَنَا لَا أَسْتَطِيعُ أَنْ أَعِيشَ بِدُونِ الشَّاشَة! كُلُّ أَصْدِقَائِي عَلَى هٰذَا التَّطْبِيق، وَنَلْعَبُ مَعًا كُلَّ مَسَاء.",
+        "en": "I can't live without my screen! All my friends are on this app, and we play together every evening.",
+        "segs": [
+          [
+            "أَنَا",
+            "I"
+          ],
+          [
+            "لَا",
+            "not"
+          ],
+          [
+            "أَسْتَطِيعُ",
+            "I can"
+          ],
+          [
+            "أَنْ",
+            "to"
+          ],
+          [
+            "أَعِيشَ",
+            "(I) live"
+          ],
+          [
+            "بِدُونِ",
+            "without"
+          ],
+          [
+            "الشَّاشَة",
+            "the screen"
+          ],
+          [
+            "كُلُّ",
+            "all (of)"
+          ],
+          [
+            "أَصْدِقَائِي",
+            "my friends"
+          ],
+          [
+            "عَلَى",
+            "on"
+          ],
+          [
+            "هٰذَا",
+            "this (m)"
+          ],
+          [
+            "التَّطْبِيق",
+            "the app"
+          ],
+          [
+            "وَنَلْعَبُ",
+            "and we play"
+          ],
+          [
+            "مَعًا",
+            "together"
+          ],
+          [
+            "كُلَّ",
+            "every"
+          ],
+          [
+            "مَسَاء",
+            "evening"
+          ]
+        ]
+      },
+      {
+        "id": "d79l7",
+        "sp": "fatima",
+        "ar": "وَهٰذِهِ هِيَ الْمُشْكِلَة يَا عُمَر. أَنْتَ تَقْضِي خَمْسَ سَاعَات أَمَامَ الشَّاشَة كُلَّ يَوْم، وَهٰذَا كَثِير جِدًّا.",
+        "en": "And that's exactly the problem, Omar. You spend five hours in front of the screen every day, and that's far too much.",
+        "segs": [
+          [
+            "وَهٰذِهِ",
+            "and this (f)"
+          ],
+          [
+            "هِيَ",
+            "she, it ('is')"
+          ],
+          [
+            "الْمُشْكِلَة",
+            "the problem"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "عُمَر",
+            "Omar (first name)",
+            "name"
+          ],
+          [
+            "أَنْتَ",
+            "you (to a man)"
+          ],
+          [
+            "تَقْضِي",
+            "you spend (time)"
+          ],
+          [
+            "خَمْسَ",
+            "five"
+          ],
+          [
+            "سَاعَات",
+            "hours"
+          ],
+          [
+            "أَمَامَ",
+            "in front of"
+          ],
+          [
+            "الشَّاشَة",
+            "the screen"
+          ],
+          [
+            "كُلَّ",
+            "every"
+          ],
+          [
+            "يَوْم",
+            "day"
+          ],
+          [
+            "وَهٰذَا",
+            "and this (m)"
+          ],
+          [
+            "كَثِير",
+            "a lot, much ('too much')"
+          ],
+          [
+            "جِدًّا",
+            "very"
+          ]
+        ]
+      },
+      {
+        "id": "d79l8",
+        "sp": "omar",
+        "ar": "لٰكِنْ يَا أُمِّي، سَامِي أَيْضًا يَسْتَخْدِمُ هَاتِفَهُ طُولَ الْوَقْت! لِمَاذَا تَتَكَلَّمِينَ مَعِي أَنَا فَقَط؟",
+        "en": "But Mum, Sami uses his phone all the time too! Why are you only talking to me?",
+        "segs": [
+          [
+            "لٰكِنْ",
+            "but"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "أُمِّي",
+            "my mother ('Mum')"
+          ],
+          [
+            "سَامِي",
+            "Sami (first name)",
+            "name"
+          ],
+          [
+            "أَيْضًا",
+            "also, too"
+          ],
+          [
+            "يَسْتَخْدِمُ",
+            "(he) uses"
+          ],
+          [
+            "هَاتِفَهُ",
+            "his phone"
+          ],
+          [
+            "طُولَ",
+            "the whole length of ('all')"
+          ],
+          [
+            "الْوَقْت",
+            "the time"
+          ],
+          [
+            "لِمَاذَا",
+            "why"
+          ],
+          [
+            "تَتَكَلَّمِينَ",
+            "you talk (to a woman)"
+          ],
+          [
+            "مَعِي",
+            "with me"
+          ],
+          [
+            "أَنَا",
+            "I, me"
+          ],
+          [
+            "فَقَط",
+            "only"
+          ]
+        ]
+      },
+      {
+        "id": "d79l9",
+        "sp": "sami",
+        "ar": "هٰذَا صَحِيح، لٰكِنِّي أَسْتَخْدِمُهُ لِلدِّرَاسَة. أُحَمِّلُ الْكُتُب وَالتَّمَارِين مِنْ مَوْقِعِ الْجَامِعَة، وَهٰذَا مُفِيد.",
+        "en": "That's true, but I use it for studying. I download books and exercises from the university website, and that's useful.",
+        "segs": [
+          [
+            "هٰذَا",
+            "this ('that')"
+          ],
+          [
+            "صَحِيح",
+            "true, correct"
+          ],
+          [
+            "لٰكِنِّي",
+            "but I"
+          ],
+          [
+            "أَسْتَخْدِمُهُ",
+            "I use it"
+          ],
+          [
+            "لِلدِّرَاسَة",
+            "for studying"
+          ],
+          [
+            "أُحَمِّلُ",
+            "I download"
+          ],
+          [
+            "الْكُتُب",
+            "the books"
+          ],
+          [
+            "وَالتَّمَارِين",
+            "and the exercises"
+          ],
+          [
+            "مِنْ",
+            "from"
+          ],
+          [
+            "مَوْقِعِ",
+            "website (of)"
+          ],
+          [
+            "الْجَامِعَة",
+            "the university"
+          ],
+          [
+            "وَهٰذَا",
+            "and this (m)"
+          ],
+          [
+            "مُفِيد",
+            "useful"
+          ]
+        ]
+      },
+      {
+        "id": "d79l10",
+        "sp": "daniel",
+        "ar": "فِي شِيكَاغُو عِنْدَنَا نَفْسُ النِّقَاش. خَالَتِي تَسْمَحُ لِأَوْلَادِهَا بِسَاعَتَيْنِ فَقَط كُلَّ يَوْم، وَلَا هَوَاتِف عَلَى طَاوِلَةِ الْعَشَاء.",
+        "en": "In Chicago we have the same discussion. My aunt allows her children only two hours every day, and no phones at the dinner table.",
+        "segs": [
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "شِيكَاغُو",
+            "Chicago (city)",
+            "name"
+          ],
+          [
+            "عِنْدَنَا",
+            "we have (lit. at us)"
+          ],
+          [
+            "نَفْسُ",
+            "the same"
+          ],
+          [
+            "النِّقَاش",
+            "the discussion"
+          ],
+          [
+            "خَالَتِي",
+            "my aunt (mother's sister)"
+          ],
+          [
+            "تَسْمَحُ",
+            "(she) allows"
+          ],
+          [
+            "لِأَوْلَادِهَا",
+            "her children (lit. for her children)"
+          ],
+          [
+            "بِسَاعَتَيْنِ",
+            "two hours (lit. with two hours)"
+          ],
+          [
+            "فَقَط",
+            "only"
+          ],
+          [
+            "كُلَّ",
+            "every"
+          ],
+          [
+            "يَوْم",
+            "day"
+          ],
+          [
+            "وَلَا",
+            "and no"
+          ],
+          [
+            "هَوَاتِف",
+            "phones"
+          ],
+          [
+            "عَلَى",
+            "on, at"
+          ],
+          [
+            "طَاوِلَةِ",
+            "table (of)"
+          ],
+          [
+            "الْعَشَاء",
+            "the dinner"
+          ]
+        ]
+      },
+      {
+        "id": "d79l11",
+        "sp": "fatima",
+        "ar": "فِكْرَة مُمْتَازَة! وَشَيْء آخَر يَا عُمَر: وَسَائِلُ التَّوَاصُلِ الِاجْتِمَاعِيّ فِيهَا أَخْطَار. لَا تَتَكَلَّمْ مَعَ أَشْخَاص لَا تَعْرِفُهُمْ.",
+        "en": "What an excellent idea! And another thing, Omar: social media has its dangers. Don't talk to people you don't know.",
+        "segs": [
+          [
+            "فِكْرَة",
+            "an idea"
+          ],
+          [
+            "مُمْتَازَة",
+            "excellent (f)"
+          ],
+          [
+            "وَشَيْء",
+            "and a thing"
+          ],
+          [
+            "آخَر",
+            "other, another"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "عُمَر",
+            "Omar (first name)",
+            "name"
+          ],
+          [
+            "وَسَائِلُ",
+            "means (of)"
+          ],
+          [
+            "التَّوَاصُلِ",
+            "the communication"
+          ],
+          [
+            "الِاجْتِمَاعِيّ",
+            "the social"
+          ],
+          [
+            "فِيهَا",
+            "in it (f) ('has')"
+          ],
+          [
+            "أَخْطَار",
+            "dangers"
+          ],
+          [
+            "لَا",
+            "don't"
+          ],
+          [
+            "تَتَكَلَّمْ",
+            "talk (to a man)"
+          ],
+          [
+            "مَعَ",
+            "with"
+          ],
+          [
+            "أَشْخَاص",
+            "people, persons"
+          ],
+          [
+            "لَا",
+            "not"
+          ],
+          [
+            "تَعْرِفُهُمْ",
+            "you know them (to a man)"
+          ]
+        ]
+      },
+      {
+        "id": "d79l12",
+        "sp": "omar",
+        "ar": "أَعْرِفُ يَا أُمِّي! وَلَا أُعْطِي كَلِمَةَ السِّرّ لِأَحَد، وَلَا أَكْتُبُ عُنْوَانَنَا أَوْ مَعْلُومَاتِنَا الْخَاصَّة.",
+        "en": "I know, Mum! And I don't give my password to anyone, and I never write our address or our private information.",
+        "segs": [
+          [
+            "أَعْرِفُ",
+            "I know"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "أُمِّي",
+            "my mother ('Mum')"
+          ],
+          [
+            "وَلَا",
+            "and not"
+          ],
+          [
+            "أُعْطِي",
+            "I give"
+          ],
+          [
+            "كَلِمَةَ",
+            "word (of)"
+          ],
+          [
+            "السِّرّ",
+            "the secret ('password')"
+          ],
+          [
+            "لِأَحَد",
+            "to anyone"
+          ],
+          [
+            "وَلَا",
+            "and not"
+          ],
+          [
+            "أَكْتُبُ",
+            "I write"
+          ],
+          [
+            "عُنْوَانَنَا",
+            "our address"
+          ],
+          [
+            "أَوْ",
+            "or"
+          ],
+          [
+            "مَعْلُومَاتِنَا",
+            "our information"
+          ],
+          [
+            "الْخَاصَّة",
+            "the private (f)"
+          ]
+        ]
+      },
+      {
+        "id": "d79l13",
+        "sp": "sami",
+        "ar": "بِصَرَاحَة، أَنَا أَيْضًا أَقْضِي وَقْتًا طَوِيلًا عَلَى الْهَاتِف. مَا رَأْيُكُمْ فِي قَاعِدَة لِكُلِّ الْعَائِلَة؟",
+        "en": "Honestly, I spend a long time on my phone too. What do you all think of a rule for the whole family?",
+        "segs": [
+          [
+            "بِصَرَاحَة",
+            "honestly (lit. with frankness)"
+          ],
+          [
+            "أَنَا",
+            "I"
+          ],
+          [
+            "أَيْضًا",
+            "also, too"
+          ],
+          [
+            "أَقْضِي",
+            "I spend (time)"
+          ],
+          [
+            "وَقْتًا",
+            "a time"
+          ],
+          [
+            "طَوِيلًا",
+            "long"
+          ],
+          [
+            "عَلَى",
+            "on"
+          ],
+          [
+            "الْهَاتِف",
+            "the phone"
+          ],
+          [
+            "مَا",
+            "what"
+          ],
+          [
+            "رَأْيُكُمْ",
+            "your opinion (to a group)"
+          ],
+          [
+            "فِي",
+            "in, about"
+          ],
+          [
+            "قَاعِدَة",
+            "a rule"
+          ],
+          [
+            "لِكُلِّ",
+            "for all (of)"
+          ],
+          [
+            "الْعَائِلَة",
+            "the family"
+          ]
+        ]
+      },
+      {
+        "id": "d79l14",
+        "sp": "fatima",
+        "ar": "مُوَافِقَة! سَاعَتَانِ فِي الْيَوْم لِعُمَر، وَلَا هَوَاتِف عَلَى طَاوِلَةِ الْعَشَاء لِأَيِّ شَخْص، حَتَّى أَبُوكُمَا!",
+        "en": "Agreed! Two hours a day for Omar, and no phones at the dinner table for anyone, not even your father!",
+        "segs": [
+          [
+            "مُوَافِقَة",
+            "agreed (said by a woman)"
+          ],
+          [
+            "سَاعَتَانِ",
+            "two hours"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "الْيَوْم",
+            "the day"
+          ],
+          [
+            "لِعُمَر",
+            "for Omar (first name)",
+            "name"
+          ],
+          [
+            "وَلَا",
+            "and no"
+          ],
+          [
+            "هَوَاتِف",
+            "phones"
+          ],
+          [
+            "عَلَى",
+            "on, at"
+          ],
+          [
+            "طَاوِلَةِ",
+            "table (of)"
+          ],
+          [
+            "الْعَشَاء",
+            "the dinner"
+          ],
+          [
+            "لِأَيِّ",
+            "for any"
+          ],
+          [
+            "شَخْص",
+            "person"
+          ],
+          [
+            "حَتَّى",
+            "even"
+          ],
+          [
+            "أَبُوكُمَا",
+            "your (two) father"
+          ]
+        ]
+      },
+      {
+        "id": "d79l15",
+        "sp": "omar",
+        "ar": "سَاعَتَانِ فَقَط؟ هٰذَا قَلِيل جِدًّا! لٰكِنِّي مُوَافِق، لِأَنَّ أَبِي أَيْضًا سَيَأْكُلُ بِدُونِ هَاتِف!",
+        "en": "Only two hours? That's very little! But I agree, because Dad is also going to eat without his phone!",
+        "segs": [
+          [
+            "سَاعَتَانِ",
+            "two hours"
+          ],
+          [
+            "فَقَط",
+            "only"
+          ],
+          [
+            "هٰذَا",
+            "this ('that')"
+          ],
+          [
+            "قَلِيل",
+            "little, not much"
+          ],
+          [
+            "جِدًّا",
+            "very"
+          ],
+          [
+            "لٰكِنِّي",
+            "but I"
+          ],
+          [
+            "مُوَافِق",
+            "agreed, in agreement (m)"
+          ],
+          [
+            "لِأَنَّ",
+            "because"
+          ],
+          [
+            "أَبِي",
+            "my father"
+          ],
+          [
+            "أَيْضًا",
+            "also, too"
+          ],
+          [
+            "سَيَأْكُلُ",
+            "(he) will eat"
+          ],
+          [
+            "بِدُونِ",
+            "without"
+          ],
+          [
+            "هَاتِف",
+            "a phone"
+          ]
+        ]
+      },
+      {
+        "id": "d79l16",
+        "sp": "daniel",
+        "ar": "وَأَنَا سَأُجَرِّبُ يَوْمًا كَامِلًا بِدُونِ إِنْتَرْنِت. رُبَّمَا أَقْرَأُ أَخِيرًا الرِّوَايَة الَّتِي اشْتَرَيْتُهَا مِنَ الْمَعْرِض!",
+        "en": "And I'm going to try a whole day without the internet. Maybe I'll finally read the novel I bought at the book fair!",
+        "segs": [
+          [
+            "وَأَنَا",
+            "and I"
+          ],
+          [
+            "سَأُجَرِّبُ",
+            "I will try"
+          ],
+          [
+            "يَوْمًا",
+            "a day"
+          ],
+          [
+            "كَامِلًا",
+            "whole, complete"
+          ],
+          [
+            "بِدُونِ",
+            "without"
+          ],
+          [
+            "إِنْتَرْنِت",
+            "internet"
+          ],
+          [
+            "رُبَّمَا",
+            "maybe, perhaps"
+          ],
+          [
+            "أَقْرَأُ",
+            "I read ('I'll read')"
+          ],
+          [
+            "أَخِيرًا",
+            "finally, at last"
+          ],
+          [
+            "الرِّوَايَة",
+            "the novel"
+          ],
+          [
+            "الَّتِي",
+            "which (f)"
+          ],
+          [
+            "اشْتَرَيْتُهَا",
+            "I bought it (f)"
+          ],
+          [
+            "مِنَ",
+            "from"
+          ],
+          [
+            "الْمَعْرِض",
+            "the (book) fair"
+          ]
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "title": "A family rule",
+    "ar": "اِنْكَسَرَتْ شَاشَةُ هَاتِفِ دَانْيَال فِي الْمِتْرُو، فَذَهَبَ إِلَى بَيْتِ سَامِي. تَكَلَّمَتِ الْعَائِلَة عَنِ اسْتِخْدَامِ الشَّاشَات. يَقْضِي عُمَر خَمْسَ سَاعَات كُلَّ يَوْم عَلَى تَطْبِيقِ أَلْعَاب. فِي النِّهَايَة اتَّفَقَتِ الْعَائِلَة عَلَى قَاعِدَة: سَاعَتَانِ فِي الْيَوْم لِعُمَر، وَلَا هَوَاتِف عَلَى طَاوِلَةِ الْعَشَاء. وَغَدًا سَيَذْهَبُ دَانْيَال إِلَى مَحَلِّ الْجَار.",
+    "en": "The screen of Daniel's phone broke in the metro, so he went to Sami's house. The family talked about using screens. Omar spends five hours every day on a games app. In the end the family agreed on a rule: two hours a day for Omar, and no phones at the dinner table. And tomorrow Daniel will go to the neighbour's shop.",
+    "segs": [
+      [
+        "اِنْكَسَرَتْ",
+        "(she) broke, got broken"
+      ],
+      [
+        "شَاشَةُ",
+        "screen (of)"
+      ],
+      [
+        "هَاتِفِ",
+        "phone (of)"
+      ],
+      [
+        "دَانْيَال",
+        "Daniel (first name)",
+        "name"
+      ],
+      [
+        "فِي",
+        "in"
+      ],
+      [
+        "الْمِتْرُو",
+        "the metro"
+      ],
+      [
+        "فَذَهَبَ",
+        "so (he) went"
+      ],
+      [
+        "إِلَى",
+        "to"
+      ],
+      [
+        "بَيْتِ",
+        "house (of)"
+      ],
+      [
+        "سَامِي",
+        "Sami (first name)",
+        "name"
+      ],
+      [
+        "تَكَلَّمَتِ",
+        "(she) talked (-i links to the next word)"
+      ],
+      [
+        "الْعَائِلَة",
+        "the family"
+      ],
+      [
+        "عَنِ",
+        "about (-i links to the next word)"
+      ],
+      [
+        "اسْتِخْدَامِ",
+        "using, the use (of)"
+      ],
+      [
+        "الشَّاشَات",
+        "the screens"
+      ],
+      [
+        "يَقْضِي",
+        "(he) spends (time)"
+      ],
+      [
+        "عُمَر",
+        "Omar (first name)",
+        "name"
+      ],
+      [
+        "خَمْسَ",
+        "five"
+      ],
+      [
+        "سَاعَات",
+        "hours"
+      ],
+      [
+        "كُلَّ",
+        "every"
+      ],
+      [
+        "يَوْم",
+        "day"
+      ],
+      [
+        "عَلَى",
+        "on"
+      ],
+      [
+        "تَطْبِيقِ",
+        "app (of)"
+      ],
+      [
+        "أَلْعَاب",
+        "games"
+      ],
+      [
+        "فِي",
+        "in"
+      ],
+      [
+        "النِّهَايَة",
+        "the end"
+      ],
+      [
+        "اتَّفَقَتِ",
+        "(she) agreed (-i links to the next word)"
+      ],
+      [
+        "الْعَائِلَة",
+        "the family"
+      ],
+      [
+        "عَلَى",
+        "on"
+      ],
+      [
+        "قَاعِدَة",
+        "a rule"
+      ],
+      [
+        "سَاعَتَانِ",
+        "two hours"
+      ],
+      [
+        "فِي",
+        "in"
+      ],
+      [
+        "الْيَوْم",
+        "the day"
+      ],
+      [
+        "لِعُمَر",
+        "for Omar (first name)",
+        "name"
+      ],
+      [
+        "وَلَا",
+        "and no"
+      ],
+      [
+        "هَوَاتِف",
+        "phones"
+      ],
+      [
+        "عَلَى",
+        "on, at"
+      ],
+      [
+        "طَاوِلَةِ",
+        "table (of)"
+      ],
+      [
+        "الْعَشَاء",
+        "the dinner"
+      ],
+      [
+        "وَغَدًا",
+        "and tomorrow"
+      ],
+      [
+        "سَيَذْهَبُ",
+        "(he) will go"
+      ],
+      [
+        "دَانْيَال",
+        "Daniel (first name)",
+        "name"
+      ],
+      [
+        "إِلَى",
+        "to"
+      ],
+      [
+        "مَحَلِّ",
+        "shop (of)"
+      ],
+      [
+        "الْجَار",
+        "the neighbour"
+      ]
+    ]
+  },
+  "review": [
+    "hatif",
+    "internet",
+    "kalimat-sirr",
+    "risala",
+    "mufid",
+    "yuwafiqu"
+  ],
+  "quiz": [
+    {
+      "id": "d79q1",
+      "prompt": "What does this mean?",
+      "ar": "اِنْكَسَرَتْ شَاشَةُ هَاتِفِي.",
+      "options": [
+        "My phone's screen broke.",
+        "I charged my phone.",
+        "I downloaded a new app.",
+        "I forgot my password."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "d79q2",
+      "prompt": "Where did Daniel's phone fall?",
+      "options": [
+        "at the sports club",
+        "at Sami's house",
+        "in the metro",
+        "at the book fair"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "d79q3",
+      "prompt": "How many hours a day does Omar spend in front of the screen?",
+      "options": [
+        "two",
+        "three",
+        "five",
+        "eight"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "d79q4",
+      "prompt": "What does Sami use his phone for, according to him?",
+      "options": [
+        "playing games with friends",
+        "studying: he downloads books and exercises",
+        "watching films",
+        "calling Chicago"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "d79q5",
+      "prompt": "What rule does the family agree on?",
+      "options": [
+        "no phones after nine in the evening",
+        "one hour a day for everyone",
+        "no social media for Omar",
+        "two hours a day for Omar and no phones at the dinner table"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "d79q6",
+      "prompt": "Which word is the maṣdar (verbal noun) meaning 'using'?",
+      "options": [
+        "يَسْتَخْدِمُ",
+        "اِسْتِخْدَام",
+        "اِسْتَخْدَمَ",
+        "مُسْتَخْدِم"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "d79q7",
+      "prompt": "Which word has the rough sound kh (خ)?",
+      "options": [
+        "شَاشَة",
+        "هَاتِف",
+        "خَطَر",
+        "حِسَاب"
+      ],
+      "answer": 2
+    }
+  ],
+  "completion": "Well done! Today you talked about phones, apps, websites and social media, said that something broke with اِنْكَسَرَ, and used the maṣdar اِسْتِخْدَام. Tomorrow: sentences with 'if'.",
+  "status": "needs-review"
+}

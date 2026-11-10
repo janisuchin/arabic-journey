@@ -1,0 +1,1650 @@
+{
+  "day": 80,
+  "week": 12,
+  "phase": 6,
+  "level": 8,
+  "title": "If…",
+  "titleAr": "إِذَا… وَلَوْ…",
+  "titleSegs": [
+    [
+      "إِذَا",
+      "if (real, likely)"
+    ],
+    [
+      "وَلَوْ",
+      "and if (imagined)"
+    ]
+  ],
+  "emoji": "🤔",
+  "summary": "Make 'if' sentences: إِذَا + a past verb for things that can really happen, إِنْ in إِنْ شَاءَ اللّٰهُ, and لَوْ … la- for dreams and things that are not real.",
+  "intro": "Arabic has three words for 'if'. إِذَا is for things that can really happen: إِذَا أَمْطَرَتْ، فَسَنَزُورُ الْمَتْحَفَ (if it rains, we'll visit the museum). The verb after إِذَا is in the past, but the meaning is the future. إِنْ means the same and is a little more formal; you hear it every day in إِنْ شَاءَ اللّٰهُ (God willing). لَوْ is for things that are not real: لَوْ كَانَ عِنْدِي مَالٌ كَثِيرٌ، لَسَافَرْتُ حَوْلَ الْعَالَمِ (if I had a lot of money, I would travel around the world). The answer after لَوْ starts with la- and a past verb.",
+  "objectives": [
+    "Talk about real plans with إِذَا + a past verb: إِذَا أَمْطَرَتْ، فَسَنَزُورُ الْمَتْحَفَ",
+    "Imagine and dream with لَوْ … la-: لَوْ كُنْتُ غَنِيًّا، لَاشْتَرَيْتُ بَيْتًا",
+    "Use إِنْ شَاءَ اللّٰهُ and إِنْ + a past verb for the future",
+    "Use the words for money, rich, dream, beach, a million and to win"
+  ],
+  "realLife": {
+    "emoji": "🏖️",
+    "title": "A trip to the beach",
+    "story": "Tomorrow, Friday, Mr Karim's class is going on a trip to the beach. But Sami's brother Omar says the weather is going to change, and nobody knows if it will rain. While the class makes a plan for every 'if', Sami starts a game: what would you do if you were rich, or a minister, or if you won a million dollars?"
+  },
+  "letters": [],
+  "newWords": [
+    "idha",
+    "in",
+    "law",
+    "ghaniyy",
+    "mal",
+    "faza",
+    "milyun",
+    "shati",
+    "hulm"
+  ],
+  "grammar": [
+    "conditional-w12",
+    "kana"
+  ],
+  "pronunciation": [
+    "tanwin"
+  ],
+  "sentences": [
+    {
+      "id": "d80s1",
+      "ar": "إِذَا أَمْطَرَتْ يَوْمَ الْجُمُعَةِ، فَسَنَزُورُ الْمَتْحَفَ.",
+      "en": "If it rains on Friday, we'll visit the museum.",
+      "literal": "if (it) rained (on the) day (of) the Friday, then we will visit the museum",
+      "segs": [
+        [
+          "إِذَا",
+          "if",
+          "particle"
+        ],
+        [
+          "أَمْطَرَتْ",
+          "(it) rained ('rains')",
+          "verb"
+        ],
+        [
+          "يَوْمَ",
+          "on the day of",
+          "noun"
+        ],
+        [
+          "الْجُمُعَةِ",
+          "Friday",
+          "noun"
+        ],
+        [
+          "فَسَنَزُورُ",
+          "then we will visit",
+          "verb"
+        ],
+        [
+          "الْمَتْحَفَ",
+          "the museum",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "conditional-w12",
+        "future"
+      ],
+      "mistakes": [
+        {
+          "wrong": "إِذَا أَمْطَرَتْ، سَنَزُورُ الْمَتْحَفَ",
+          "right": "إِذَا أَمْطَرَتْ، فَسَنَزُورُ الْمَتْحَفَ",
+          "why": "When the answer starts with sa- (will), put fa- in front of it: fa-sa-nazūru."
+        }
+      ]
+    },
+    {
+      "id": "d80s2",
+      "ar": "إِذَا وَصَلْتَ مُتَأَخِّرًا، فَلَنْ تَنْتَظِرَكَ الْحَافِلَةُ.",
+      "en": "If you arrive late, the bus won't wait for you.",
+      "literal": "if you arrived late, then will not wait for you the bus",
+      "segs": [
+        [
+          "إِذَا",
+          "if",
+          "particle"
+        ],
+        [
+          "وَصَلْتَ",
+          "you arrived ('arrive', to a man)",
+          "verb"
+        ],
+        [
+          "مُتَأَخِّرًا",
+          "late (-an: tanwīn)",
+          "adj"
+        ],
+        [
+          "فَلَنْ",
+          "then … will not",
+          "particle"
+        ],
+        [
+          "تَنْتَظِرَكَ",
+          "(she) wait for you (to a man)",
+          "verb"
+        ],
+        [
+          "الْحَافِلَةُ",
+          "the bus",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "conditional-w12",
+        "negation-lan"
+      ],
+      "mistakes": [
+        {
+          "wrong": "إِذَا تَصِلُ مُتَأَخِّرًا",
+          "right": "إِذَا وَصَلْتَ مُتَأَخِّرًا",
+          "why": "After idhā use the past verb, even when you mean the future: idhā waṣalta (if you arrive)."
+        }
+      ]
+    },
+    {
+      "id": "d80s3",
+      "ar": "إِنْ دَرَسْتَ كُلَّ يَوْمٍ، نَجَحْتَ فِي امْتِحَانِ الْأُسْبُوعِ.",
+      "en": "If you study every day, you'll pass the week test.",
+      "literal": "if you studied every day, you succeeded in (the) test (of) the week",
+      "segs": [
+        [
+          "إِنْ",
+          "if (formal)",
+          "particle"
+        ],
+        [
+          "دَرَسْتَ",
+          "you studied ('study', to a man)",
+          "verb"
+        ],
+        [
+          "كُلَّ",
+          "every",
+          "noun"
+        ],
+        [
+          "يَوْمٍ",
+          "day (-in: tanwīn)",
+          "noun"
+        ],
+        [
+          "نَجَحْتَ",
+          "you succeeded ('will pass', to a man)",
+          "verb"
+        ],
+        [
+          "فِي",
+          "in",
+          "prep"
+        ],
+        [
+          "امْتِحَانِ",
+          "test, exam (of)",
+          "noun"
+        ],
+        [
+          "الْأُسْبُوعِ",
+          "the week",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "conditional-w12",
+        "past-tense"
+      ]
+    },
+    {
+      "id": "d80s4",
+      "ar": "إِنْ شَاءَ اللّٰهُ، سَيَكُونُ الْجَوُّ جَمِيلًا غَدًا.",
+      "en": "God willing, the weather will be nice tomorrow.",
+      "literal": "if God willed, the weather will be beautiful tomorrow",
+      "segs": [
+        [
+          "إِنْ",
+          "if",
+          "particle"
+        ],
+        [
+          "شَاءَ",
+          "(he) willed",
+          "verb"
+        ],
+        [
+          "اللّٰهُ",
+          "God",
+          "noun"
+        ],
+        [
+          "سَيَكُونُ",
+          "(it) will be",
+          "verb"
+        ],
+        [
+          "الْجَوُّ",
+          "the weather",
+          "noun"
+        ],
+        [
+          "جَمِيلًا",
+          "nice, beautiful (-an after kāna)",
+          "adj"
+        ],
+        [
+          "غَدًا",
+          "tomorrow",
+          "adverb"
+        ]
+      ],
+      "grammar": [
+        "conditional-w12",
+        "kana"
+      ],
+      "mistakes": [
+        {
+          "wrong": "سَيَكُونُ الْجَوُّ جَمِيلٌ",
+          "right": "سَيَكُونُ الْجَوُّ جَمِيلًا",
+          "why": "After yakūnu (will be), as after kāna, the describing word ends in -an: jamīlan."
+        }
+      ]
+    },
+    {
+      "id": "d80s5",
+      "ar": "لَوْ كَانَ عِنْدِي مَالٌ كَثِيرٌ، لَسَافَرْتُ حَوْلَ الْعَالَمِ.",
+      "en": "If I had a lot of money, I would travel around the world.",
+      "literal": "if (there) was at me much money, I would have travelled around the world",
+      "segs": [
+        [
+          "لَوْ",
+          "if (imagined)",
+          "particle"
+        ],
+        [
+          "كَانَ",
+          "(there) was",
+          "verb"
+        ],
+        [
+          "عِنْدِي",
+          "I have (lit. at me)",
+          "prep"
+        ],
+        [
+          "مَالٌ",
+          "money (-un: tanwīn)",
+          "noun"
+        ],
+        [
+          "كَثِيرٌ",
+          "much, a lot of",
+          "adj"
+        ],
+        [
+          "لَسَافَرْتُ",
+          "I would travel",
+          "verb"
+        ],
+        [
+          "حَوْلَ",
+          "around",
+          "prep"
+        ],
+        [
+          "الْعَالَمِ",
+          "the world",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "conditional-w12",
+        "kana"
+      ],
+      "mistakes": [
+        {
+          "wrong": "لَوْ كَانَ عِنْدِي مَالٌ كَثِيرٌ، سَأُسَافِرُ حَوْلَ الْعَالَمِ",
+          "right": "لَوْ كَانَ عِنْدِي مَالٌ كَثِيرٌ، لَسَافَرْتُ حَوْلَ الْعَالَمِ",
+          "why": "After law the answer is la- + a past verb (la-sāfartu, I would travel), not sa- + a present verb."
+        }
+      ]
+    },
+    {
+      "id": "d80s6",
+      "ar": "لَوْ فُزْتُ بِمِلْيُونِ دُولَارٍ، لَاشْتَرَيْتُ بَيْتًا عَلَى الشَّاطِئِ.",
+      "en": "If I won a million dollars, I would buy a house on the beach.",
+      "literal": "if I won with a million (of) dollar, I would have bought a house on the beach",
+      "segs": [
+        [
+          "لَوْ",
+          "if (imagined)",
+          "particle"
+        ],
+        [
+          "فُزْتُ",
+          "I won",
+          "verb"
+        ],
+        [
+          "بِمِلْيُونِ",
+          "a million (of) (bi- after fāza)",
+          "number"
+        ],
+        [
+          "دُولَارٍ",
+          "dollars (lit. dollar)",
+          "noun"
+        ],
+        [
+          "لَاشْتَرَيْتُ",
+          "I would buy",
+          "verb"
+        ],
+        [
+          "بَيْتًا",
+          "a house (-an: tanwīn)",
+          "noun"
+        ],
+        [
+          "عَلَى",
+          "on",
+          "prep"
+        ],
+        [
+          "الشَّاطِئِ",
+          "the beach",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "conditional-w12"
+      ],
+      "mistakes": [
+        {
+          "wrong": "لَوْ فُزْتُ مِلْيُونَ دُولَارٍ",
+          "right": "لَوْ فُزْتُ بِمِلْيُونِ دُولَارٍ",
+          "why": "fāza (to win) takes bi- before the thing you win: fuztu bi-milyūni dūlār."
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "If it rains tomorrow",
+    "speakers": [
+      {
+        "key": "karim",
+        "name": "Mr Karim",
+        "nameAr": "الْأُسْتَاذ كَرِيم"
+      },
+      {
+        "key": "sami",
+        "name": "Sami",
+        "nameAr": "سَامِي"
+      },
+      {
+        "key": "daniel",
+        "name": "Daniel",
+        "nameAr": "دَانْيَال"
+      },
+      {
+        "key": "layla",
+        "name": "Layla",
+        "nameAr": "لَيْلَى"
+      }
+    ],
+    "culture": "إِنْ شَاءَ اللّٰهُ (God willing) is the most common 'if' in Arabic. People add it to almost every plan, from a trip tomorrow to a meeting next year. Often it is a real 'yes, I hope so', but sometimes it is also a polite 'maybe'. And when you say لَوْ سَمَحْتَ (please), you are really saying 'if you allow'.",
+    "lines": [
+      {
+        "id": "d80l1",
+        "sp": "karim",
+        "ar": "صَبَاحُ الْخَيْر! غَدًا رِحْلَتُنَا إِلَى الشَّاطِئِ. إِذَا كَانَ الْجَوُّ جَمِيلًا، فَسَنَسْبَحُ فِي الْبَحْرِ وَنَأْكُلُ هُنَاكَ.",
+        "en": "Good morning! Tomorrow is our trip to the beach. If the weather is nice, we'll swim in the sea and eat there.",
+        "segs": [
+          [
+            "صَبَاحُ",
+            "morning (of)"
+          ],
+          [
+            "الْخَيْر",
+            "the goodness"
+          ],
+          [
+            "غَدًا",
+            "tomorrow"
+          ],
+          [
+            "رِحْلَتُنَا",
+            "our trip"
+          ],
+          [
+            "إِلَى",
+            "to"
+          ],
+          [
+            "الشَّاطِئِ",
+            "the beach"
+          ],
+          [
+            "إِذَا",
+            "if"
+          ],
+          [
+            "كَانَ",
+            "(it) was ('is')"
+          ],
+          [
+            "الْجَوُّ",
+            "the weather"
+          ],
+          [
+            "جَمِيلًا",
+            "nice, beautiful (-an after kāna)"
+          ],
+          [
+            "فَسَنَسْبَحُ",
+            "then we will swim"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "الْبَحْرِ",
+            "the sea"
+          ],
+          [
+            "وَنَأْكُلُ",
+            "and we (will) eat"
+          ],
+          [
+            "هُنَاكَ",
+            "there"
+          ]
+        ]
+      },
+      {
+        "id": "d80l2",
+        "sp": "sami",
+        "ar": "وَإِذَا أَمْطَرَتْ يَا أُسْتَاذ؟ أَخِي عُمَر يَقُولُ إِنَّ الطَّقْسَ سَيَتَغَيَّرُ غَدًا.",
+        "en": "And what if it rains, sir? My brother Omar says that the weather is going to change tomorrow.",
+        "segs": [
+          [
+            "وَإِذَا",
+            "and if"
+          ],
+          [
+            "أَمْطَرَتْ",
+            "(it) rained ('rains')"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "أُسْتَاذ",
+            "teacher ('sir')"
+          ],
+          [
+            "أَخِي",
+            "my brother"
+          ],
+          [
+            "عُمَر",
+            "Omar (first name)",
+            "name"
+          ],
+          [
+            "يَقُولُ",
+            "(he) says"
+          ],
+          [
+            "إِنَّ",
+            "that (after qāla)"
+          ],
+          [
+            "الطَّقْسَ",
+            "the weather (-a after inna)"
+          ],
+          [
+            "سَيَتَغَيَّرُ",
+            "(it) will change"
+          ],
+          [
+            "غَدًا",
+            "tomorrow"
+          ]
+        ]
+      },
+      {
+        "id": "d80l3",
+        "sp": "karim",
+        "ar": "سُؤَال جَيِّد يَا سَامِي. إِذَا أَمْطَرَتْ، فَسَنَزُورُ الْمَتْحَفَ فِي الْمَدِينَةِ بَدَلًا مِنَ الشَّاطِئِ. لَا تَقْلَقْ!",
+        "en": "Good question, Sami. If it rains, we'll visit the museum in the city instead of going to the beach. Don't worry!",
+        "segs": [
+          [
+            "سُؤَال",
+            "a question"
+          ],
+          [
+            "جَيِّد",
+            "good"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "سَامِي",
+            "Sami (first name)",
+            "name"
+          ],
+          [
+            "إِذَا",
+            "if"
+          ],
+          [
+            "أَمْطَرَتْ",
+            "(it) rained ('rains')"
+          ],
+          [
+            "فَسَنَزُورُ",
+            "then we will visit"
+          ],
+          [
+            "الْمَتْحَفَ",
+            "the museum"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "الْمَدِينَةِ",
+            "the city"
+          ],
+          [
+            "بَدَلًا",
+            "instead"
+          ],
+          [
+            "مِنَ",
+            "of (-a links to the next word)"
+          ],
+          [
+            "الشَّاطِئِ",
+            "the beach"
+          ],
+          [
+            "لَا",
+            "don't"
+          ],
+          [
+            "تَقْلَقْ",
+            "worry (to a man)"
+          ]
+        ]
+      },
+      {
+        "id": "d80l4",
+        "sp": "daniel",
+        "ar": "وَمَتَى تَخْرُجُ الْحَافِلَة يَا أُسْتَاذ؟ أَنَا أَسْكُنُ بَعِيدًا عَنْ هُنَا، وَلَا أُرِيدُ أَنْ أَتَأَخَّرَ.",
+        "en": "And when does the bus leave, sir? I live far from here, and I don't want to be late.",
+        "segs": [
+          [
+            "وَمَتَى",
+            "and when"
+          ],
+          [
+            "تَخْرُجُ",
+            "(she) leaves, goes out"
+          ],
+          [
+            "الْحَافِلَة",
+            "the bus"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "أُسْتَاذ",
+            "teacher ('sir')"
+          ],
+          [
+            "أَنَا",
+            "I"
+          ],
+          [
+            "أَسْكُنُ",
+            "I live"
+          ],
+          [
+            "بَعِيدًا",
+            "far (-an: tanwīn)"
+          ],
+          [
+            "عَنْ",
+            "from"
+          ],
+          [
+            "هُنَا",
+            "here"
+          ],
+          [
+            "وَلَا",
+            "and not"
+          ],
+          [
+            "أُرِيدُ",
+            "I want"
+          ],
+          [
+            "أَنْ",
+            "to"
+          ],
+          [
+            "أَتَأَخَّرَ",
+            "(I) be late"
+          ]
+        ]
+      },
+      {
+        "id": "d80l5",
+        "sp": "karim",
+        "ar": "تَخْرُجُ فِي السَّاعَةِ الثَّامِنَةِ تَمَامًا. إِذَا وَصَلْتَ مُتَأَخِّرًا، فَلَنْ تَنْتَظِرَكَ الْحَافِلَة!",
+        "en": "It leaves at exactly eight o'clock. If you arrive late, the bus won't wait for you!",
+        "segs": [
+          [
+            "تَخْرُجُ",
+            "(she) leaves ('it leaves')"
+          ],
+          [
+            "فِي",
+            "at"
+          ],
+          [
+            "السَّاعَةِ",
+            "the hour ('o'clock')"
+          ],
+          [
+            "الثَّامِنَةِ",
+            "the eighth ('eight')"
+          ],
+          [
+            "تَمَامًا",
+            "exactly"
+          ],
+          [
+            "إِذَا",
+            "if"
+          ],
+          [
+            "وَصَلْتَ",
+            "you arrived ('arrive', to a man)"
+          ],
+          [
+            "مُتَأَخِّرًا",
+            "late (-an: tanwīn)"
+          ],
+          [
+            "فَلَنْ",
+            "then … will not"
+          ],
+          [
+            "تَنْتَظِرَكَ",
+            "(she) wait for you (to a man)"
+          ],
+          [
+            "الْحَافِلَة",
+            "the bus"
+          ]
+        ]
+      },
+      {
+        "id": "d80l6",
+        "sp": "layla",
+        "ar": "وَإِنْ أَرَدْتَ يَا دَانْيَال، فَتَعَالَ مَعِي. بَيْتِي قَرِيب مِنْ بَيْتِكَ، وَأَبِي سَيُوصِلُنَا بِالسَّيَّارَة.",
+        "en": "And if you like, Daniel, come with me. My house is near yours, and my father will drive us there by car.",
+        "segs": [
+          [
+            "وَإِنْ",
+            "and if"
+          ],
+          [
+            "أَرَدْتَ",
+            "you wanted ('like', to a man)"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "دَانْيَال",
+            "Daniel (first name)",
+            "name"
+          ],
+          [
+            "فَتَعَالَ",
+            "then come! (to a man)"
+          ],
+          [
+            "مَعِي",
+            "with me"
+          ],
+          [
+            "بَيْتِي",
+            "my house"
+          ],
+          [
+            "قَرِيب",
+            "near"
+          ],
+          [
+            "مِنْ",
+            "from ('to')"
+          ],
+          [
+            "بَيْتِكَ",
+            "your house (to a man)"
+          ],
+          [
+            "وَأَبِي",
+            "and my father"
+          ],
+          [
+            "سَيُوصِلُنَا",
+            "(he) will drive us, give us a lift"
+          ],
+          [
+            "بِالسَّيَّارَة",
+            "by car"
+          ]
+        ]
+      },
+      {
+        "id": "d80l7",
+        "sp": "daniel",
+        "ar": "شُكْرًا جَزِيلًا يَا لَيْلَى! لَوْ كَانَتْ عِنْدِي سَيَّارَةٌ، لَأَخَذْتُكُمْ كُلَّكُمْ إِلَى الْبَحْرِ بِنَفْسِي.",
+        "en": "Thank you very much, Layla! If I had a car, I would take all of you to the sea myself.",
+        "segs": [
+          [
+            "شُكْرًا",
+            "thank you"
+          ],
+          [
+            "جَزِيلًا",
+            "very much (lit. abundant)"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "لَيْلَى",
+            "Layla (first name)",
+            "name"
+          ],
+          [
+            "لَوْ",
+            "if (imagined)"
+          ],
+          [
+            "كَانَتْ",
+            "(she) was ('there was')"
+          ],
+          [
+            "عِنْدِي",
+            "I have (lit. at me)"
+          ],
+          [
+            "سَيَّارَةٌ",
+            "a car (-un: tanwīn)"
+          ],
+          [
+            "لَأَخَذْتُكُمْ",
+            "I would take you (all)"
+          ],
+          [
+            "كُلَّكُمْ",
+            "all of you"
+          ],
+          [
+            "إِلَى",
+            "to"
+          ],
+          [
+            "الْبَحْرِ",
+            "the sea"
+          ],
+          [
+            "بِنَفْسِي",
+            "myself"
+          ]
+        ]
+      },
+      {
+        "id": "d80l8",
+        "sp": "karim",
+        "ar": "هٰذِهِ هِيَ «لَوْ»: نَقُولُهَا عَنْ شَيْء غَيْر حَقِيقِيّ. دَانْيَال لَيْسَ عِنْدَهُ سَيَّارَة، فَهٰذَا حُلْم فَقَط.",
+        "en": "That is 'law': we use it for something that isn't real. Daniel doesn't have a car, so this is only a dream.",
+        "segs": [
+          [
+            "هٰذِهِ",
+            "this ('that', f)"
+          ],
+          [
+            "هِيَ",
+            "she, it ('is')"
+          ],
+          [
+            "لَوْ",
+            "law (if, imagined)"
+          ],
+          [
+            "نَقُولُهَا",
+            "we say it (f)"
+          ],
+          [
+            "عَنْ",
+            "about"
+          ],
+          [
+            "شَيْء",
+            "a thing"
+          ],
+          [
+            "غَيْر",
+            "not, un-"
+          ],
+          [
+            "حَقِيقِيّ",
+            "real"
+          ],
+          [
+            "دَانْيَال",
+            "Daniel (first name)",
+            "name"
+          ],
+          [
+            "لَيْسَ",
+            "(he) is not"
+          ],
+          [
+            "عِنْدَهُ",
+            "he has (lit. at him)"
+          ],
+          [
+            "سَيَّارَة",
+            "a car"
+          ],
+          [
+            "فَهٰذَا",
+            "so this"
+          ],
+          [
+            "حُلْم",
+            "a dream"
+          ],
+          [
+            "فَقَط",
+            "only"
+          ]
+        ]
+      },
+      {
+        "id": "d80l9",
+        "sp": "sami",
+        "ar": "عِنْدِي فِكْرَة: لِنَلْعَبْ لُعْبَةَ «لَوْ»! أَنَا أَبْدَأُ: لَوْ كُنْتُ غَنِيًّا، لَاشْتَرَيْتُ مَلْعَبًا كَبِيرًا لِفَرِيقِ أَخِي عُمَر.",
+        "en": "I have an idea: let's play the 'law' game! I'll start: if I were rich, I would buy a big stadium for my brother Omar's team.",
+        "segs": [
+          [
+            "عِنْدِي",
+            "I have (lit. at me)"
+          ],
+          [
+            "فِكْرَة",
+            "an idea"
+          ],
+          [
+            "لِنَلْعَبْ",
+            "let's play"
+          ],
+          [
+            "لُعْبَةَ",
+            "game (of)"
+          ],
+          [
+            "لَوْ",
+            "law (if, imagined)"
+          ],
+          [
+            "أَنَا",
+            "I"
+          ],
+          [
+            "أَبْدَأُ",
+            "I start"
+          ],
+          [
+            "لَوْ",
+            "if (imagined)"
+          ],
+          [
+            "كُنْتُ",
+            "I was ('were')"
+          ],
+          [
+            "غَنِيًّا",
+            "rich (-an after kāna)"
+          ],
+          [
+            "لَاشْتَرَيْتُ",
+            "I would buy"
+          ],
+          [
+            "مَلْعَبًا",
+            "a stadium (-an: tanwīn)"
+          ],
+          [
+            "كَبِيرًا",
+            "big (-an)"
+          ],
+          [
+            "لِفَرِيقِ",
+            "for the team (of)"
+          ],
+          [
+            "أَخِي",
+            "my brother"
+          ],
+          [
+            "عُمَر",
+            "Omar (first name)",
+            "name"
+          ]
+        ]
+      },
+      {
+        "id": "d80l10",
+        "sp": "layla",
+        "ar": "أَمَّا أَنَا، فَلَوْ كُنْتُ وَزِيرَةً لِلْبِيئَة، لَزَرَعْتُ شَجَرَةً فِي كُلِّ شَارِع فِي الْمَدِينَة.",
+        "en": "As for me, if I were the minister for the environment, I would plant a tree in every street in the city.",
+        "segs": [
+          [
+            "أَمَّا",
+            "as for"
+          ],
+          [
+            "أَنَا",
+            "I ('me')"
+          ],
+          [
+            "فَلَوْ",
+            "then if (imagined)"
+          ],
+          [
+            "كُنْتُ",
+            "I was ('were')"
+          ],
+          [
+            "وَزِيرَةً",
+            "a minister (f, -an: tanwīn)"
+          ],
+          [
+            "لِلْبِيئَة",
+            "for the environment"
+          ],
+          [
+            "لَزَرَعْتُ",
+            "I would plant"
+          ],
+          [
+            "شَجَرَةً",
+            "a tree (-an: tanwīn)"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "كُلِّ",
+            "every"
+          ],
+          [
+            "شَارِع",
+            "street"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "الْمَدِينَة",
+            "the city"
+          ]
+        ]
+      },
+      {
+        "id": "d80l11",
+        "sp": "daniel",
+        "ar": "فِكْرَة جَمِيلَة! وَلَوْ فُزْتُ بِمِلْيُونِ دُولَار، لَاشْتَرَيْتُ بَيْتًا صَغِيرًا عَلَى الشَّاطِئِ، وَدَعَوْتُكُمْ كُلَّ صَيْف.",
+        "en": "What a lovely idea! And if I won a million dollars, I would buy a small house on the beach and invite you every summer.",
+        "segs": [
+          [
+            "فِكْرَة",
+            "an idea"
+          ],
+          [
+            "جَمِيلَة",
+            "lovely, beautiful (f)"
+          ],
+          [
+            "وَلَوْ",
+            "and if (imagined)"
+          ],
+          [
+            "فُزْتُ",
+            "I won"
+          ],
+          [
+            "بِمِلْيُونِ",
+            "a million (of) (bi- after fāza)"
+          ],
+          [
+            "دُولَار",
+            "dollars (lit. dollar)"
+          ],
+          [
+            "لَاشْتَرَيْتُ",
+            "I would buy"
+          ],
+          [
+            "بَيْتًا",
+            "a house (-an: tanwīn)"
+          ],
+          [
+            "صَغِيرًا",
+            "small (-an)"
+          ],
+          [
+            "عَلَى",
+            "on"
+          ],
+          [
+            "الشَّاطِئِ",
+            "the beach"
+          ],
+          [
+            "وَدَعَوْتُكُمْ",
+            "and (I would) invite you (all)"
+          ],
+          [
+            "كُلَّ",
+            "every"
+          ],
+          [
+            "صَيْف",
+            "summer"
+          ]
+        ]
+      },
+      {
+        "id": "d80l12",
+        "sp": "karim",
+        "ar": "أَحْسَنْتُمْ! لَاحِظُوا: بَعْدَ «لَوْ» يَبْدَأُ الْجَوَابُ بِاللَّامِ: لَاشْتَرَيْتُ، لَزَرَعْتُ. أَمَّا بَعْدَ «إِذَا» فَالْأَمْرُ مُمْكِنٌ وَحَقِيقِيٌّ.",
+        "en": "Well done, all of you! Notice: after 'law' the answer starts with the letter lam: la-shtaraytu, la-zara'tu. But after 'idha', the thing is possible and real.",
+        "segs": [
+          [
+            "أَحْسَنْتُمْ",
+            "well done (to a group)"
+          ],
+          [
+            "لَاحِظُوا",
+            "notice! (to a group)"
+          ],
+          [
+            "بَعْدَ",
+            "after"
+          ],
+          [
+            "لَوْ",
+            "law (if, imagined)"
+          ],
+          [
+            "يَبْدَأُ",
+            "(it) starts"
+          ],
+          [
+            "الْجَوَابُ",
+            "the answer"
+          ],
+          [
+            "بِاللَّامِ",
+            "with the (letter) lām"
+          ],
+          [
+            "لَاشْتَرَيْتُ",
+            "I would buy"
+          ],
+          [
+            "لَزَرَعْتُ",
+            "I would plant"
+          ],
+          [
+            "أَمَّا",
+            "as for ('but')"
+          ],
+          [
+            "بَعْدَ",
+            "after"
+          ],
+          [
+            "إِذَا",
+            "idhā (if)"
+          ],
+          [
+            "فَالْأَمْرُ",
+            "then the matter, the thing"
+          ],
+          [
+            "مُمْكِنٌ",
+            "possible (-un: tanwīn)"
+          ],
+          [
+            "وَحَقِيقِيٌّ",
+            "and real (-un: tanwīn)"
+          ]
+        ]
+      },
+      {
+        "id": "d80l13",
+        "sp": "sami",
+        "ar": "يَعْنِي أَنَّ الْمَطَرَ غَدًا شَيْء مُمْكِن، لٰكِنَّ مِلْيُونَ دَانْيَال حُلْم فَقَط، لِلْأَسَف!",
+        "en": "So rain tomorrow is something possible, but Daniel's million is only a dream, unfortunately!",
+        "segs": [
+          [
+            "يَعْنِي",
+            "(it) means ('so')"
+          ],
+          [
+            "أَنَّ",
+            "that"
+          ],
+          [
+            "الْمَطَرَ",
+            "the rain (-a after anna)"
+          ],
+          [
+            "غَدًا",
+            "tomorrow"
+          ],
+          [
+            "شَيْء",
+            "a thing"
+          ],
+          [
+            "مُمْكِن",
+            "possible"
+          ],
+          [
+            "لٰكِنَّ",
+            "but (like inna: the noun after it ends in -a)"
+          ],
+          [
+            "مِلْيُونَ",
+            "million (of) (-a after lākinna)"
+          ],
+          [
+            "دَانْيَال",
+            "Daniel (first name)",
+            "name"
+          ],
+          [
+            "حُلْم",
+            "a dream"
+          ],
+          [
+            "فَقَط",
+            "only"
+          ],
+          [
+            "لِلْأَسَف",
+            "unfortunately"
+          ]
+        ]
+      },
+      {
+        "id": "d80l14",
+        "sp": "daniel",
+        "ar": "رُبَّمَا! لٰكِنْ إِنْ شَاءَ اللّٰهُ سَأَعْمَلُ كَثِيرًا، وَبَعْدَ عَشْرِ سَنَوَات سَيَكُونُ عِنْدِي بَيْت صَغِير عَلَى الشَّاطِئ. فَمَنْ جَدَّ وَجَدَ!",
+        "en": "Maybe! But God willing, I'll work hard, and in ten years I'll have a small house on the beach. Whoever works hard succeeds!",
+        "segs": [
+          [
+            "رُبَّمَا",
+            "maybe"
+          ],
+          [
+            "لٰكِنْ",
+            "but"
+          ],
+          [
+            "إِنْ",
+            "if"
+          ],
+          [
+            "شَاءَ",
+            "(he) willed"
+          ],
+          [
+            "اللّٰهُ",
+            "God"
+          ],
+          [
+            "سَأَعْمَلُ",
+            "I will work"
+          ],
+          [
+            "كَثِيرًا",
+            "a lot, much"
+          ],
+          [
+            "وَبَعْدَ",
+            "and after ('in')"
+          ],
+          [
+            "عَشْرِ",
+            "ten"
+          ],
+          [
+            "سَنَوَات",
+            "years"
+          ],
+          [
+            "سَيَكُونُ",
+            "(it) will be ('I will have')"
+          ],
+          [
+            "عِنْدِي",
+            "at me ('I have')"
+          ],
+          [
+            "بَيْت",
+            "a house"
+          ],
+          [
+            "صَغِير",
+            "small"
+          ],
+          [
+            "عَلَى",
+            "on"
+          ],
+          [
+            "الشَّاطِئ",
+            "the beach"
+          ],
+          [
+            "فَمَنْ",
+            "because whoever"
+          ],
+          [
+            "جَدَّ",
+            "(he) worked hard, strove"
+          ],
+          [
+            "وَجَدَ",
+            "(he) found ('succeeds')"
+          ]
+        ]
+      },
+      {
+        "id": "d80l15",
+        "sp": "karim",
+        "ar": "مُمْتَاز! الْوَاجِب: اُكْتُبُوا ثَلَاثَ جُمَل مَعَ «لَوْ». وَلَا تَنْسَوْا: إِذَا أَمْطَرَتْ، فَخُذُوا مَعَكُمْ مِظَلَّة!",
+        "en": "Excellent! The homework: write three sentences with 'law'. And don't forget: if it rains, bring an umbrella with you!",
+        "segs": [
+          [
+            "مُمْتَاز",
+            "excellent"
+          ],
+          [
+            "الْوَاجِب",
+            "the homework"
+          ],
+          [
+            "اُكْتُبُوا",
+            "write! (to a group)"
+          ],
+          [
+            "ثَلَاثَ",
+            "three"
+          ],
+          [
+            "جُمَل",
+            "sentences"
+          ],
+          [
+            "مَعَ",
+            "with"
+          ],
+          [
+            "لَوْ",
+            "law (if, imagined)"
+          ],
+          [
+            "وَلَا",
+            "and don't"
+          ],
+          [
+            "تَنْسَوْا",
+            "forget (to a group)"
+          ],
+          [
+            "إِذَا",
+            "if"
+          ],
+          [
+            "أَمْطَرَتْ",
+            "(it) rained ('rains')"
+          ],
+          [
+            "فَخُذُوا",
+            "then take! (to a group)"
+          ],
+          [
+            "مَعَكُمْ",
+            "with you (all)"
+          ],
+          [
+            "مِظَلَّة",
+            "an umbrella"
+          ]
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "title": "Tomorrow at the beach",
+    "ar": "غَدًا يَذْهَبُ الطُّلَّابُ إِلَى الشَّاطِئِ. إِذَا كَانَ الْجَوُّ جَمِيلًا، فَسَيَسْبَحُونَ. وَإِذَا أَمْطَرَتْ، فَسَيَزُورُونَ الْمَتْحَفَ. تَخْرُجُ الْحَافِلَةُ فِي السَّاعَةِ الثَّامِنَةِ، وَلَنْ تَنْتَظِرَ أَحَدًا. حَلَمَ الطُّلَّابُ قَلِيلًا. قَالَ دَانْيَال: لَوْ فُزْتُ بِمِلْيُونِ دُولَار، لَاشْتَرَيْتُ بَيْتًا عَلَى الشَّاطِئِ. وَقَالَتْ لَيْلَى: لَوْ كُنْتُ وَزِيرَةً، لَزَرَعْتُ شَجَرَةً فِي كُلِّ شَارِعٍ.",
+    "en": "Tomorrow the students are going to the beach. If the weather is nice, they will swim. And if it rains, they will visit the museum. The bus leaves at eight o'clock, and it won't wait for anybody. The students dreamed a little. Daniel said: If I won a million dollars, I would buy a house on the beach. And Layla said: If I were a minister, I would plant a tree in every street.",
+    "segs": [
+      [
+        "غَدًا",
+        "tomorrow"
+      ],
+      [
+        "يَذْهَبُ",
+        "(he) goes ('are going')"
+      ],
+      [
+        "الطُّلَّابُ",
+        "the students"
+      ],
+      [
+        "إِلَى",
+        "to"
+      ],
+      [
+        "الشَّاطِئِ",
+        "the beach"
+      ],
+      [
+        "إِذَا",
+        "if"
+      ],
+      [
+        "كَانَ",
+        "(it) was ('is')"
+      ],
+      [
+        "الْجَوُّ",
+        "the weather"
+      ],
+      [
+        "جَمِيلًا",
+        "nice, beautiful (-an after kāna)"
+      ],
+      [
+        "فَسَيَسْبَحُونَ",
+        "then they will swim"
+      ],
+      [
+        "وَإِذَا",
+        "and if"
+      ],
+      [
+        "أَمْطَرَتْ",
+        "(it) rained ('rains')"
+      ],
+      [
+        "فَسَيَزُورُونَ",
+        "then they will visit"
+      ],
+      [
+        "الْمَتْحَفَ",
+        "the museum"
+      ],
+      [
+        "تَخْرُجُ",
+        "(she) leaves ('it leaves')"
+      ],
+      [
+        "الْحَافِلَةُ",
+        "the bus"
+      ],
+      [
+        "فِي",
+        "at"
+      ],
+      [
+        "السَّاعَةِ",
+        "the hour ('o'clock')"
+      ],
+      [
+        "الثَّامِنَةِ",
+        "the eighth ('eight')"
+      ],
+      [
+        "وَلَنْ",
+        "and will not"
+      ],
+      [
+        "تَنْتَظِرَ",
+        "(she) wait"
+      ],
+      [
+        "أَحَدًا",
+        "anybody (-an: tanwīn)"
+      ],
+      [
+        "حَلَمَ",
+        "(he) dreamed ('dreamed')"
+      ],
+      [
+        "الطُّلَّابُ",
+        "the students"
+      ],
+      [
+        "قَلِيلًا",
+        "a little"
+      ],
+      [
+        "قَالَ",
+        "(he) said"
+      ],
+      [
+        "دَانْيَال",
+        "Daniel (first name)",
+        "name"
+      ],
+      [
+        "لَوْ",
+        "if (imagined)"
+      ],
+      [
+        "فُزْتُ",
+        "I won"
+      ],
+      [
+        "بِمِلْيُونِ",
+        "a million (of) (bi- after fāza)"
+      ],
+      [
+        "دُولَار",
+        "dollars (lit. dollar)"
+      ],
+      [
+        "لَاشْتَرَيْتُ",
+        "I would buy"
+      ],
+      [
+        "بَيْتًا",
+        "a house (-an: tanwīn)"
+      ],
+      [
+        "عَلَى",
+        "on"
+      ],
+      [
+        "الشَّاطِئِ",
+        "the beach"
+      ],
+      [
+        "وَقَالَتْ",
+        "and (she) said"
+      ],
+      [
+        "لَيْلَى",
+        "Layla (first name)",
+        "name"
+      ],
+      [
+        "لَوْ",
+        "if (imagined)"
+      ],
+      [
+        "كُنْتُ",
+        "I was ('were')"
+      ],
+      [
+        "وَزِيرَةً",
+        "a minister (f, -an: tanwīn)"
+      ],
+      [
+        "لَزَرَعْتُ",
+        "I would plant"
+      ],
+      [
+        "شَجَرَةً",
+        "a tree (-an: tanwīn)"
+      ],
+      [
+        "فِي",
+        "in"
+      ],
+      [
+        "كُلِّ",
+        "every"
+      ],
+      [
+        "شَارِعٍ",
+        "street (-in: tanwīn)"
+      ]
+    ]
+  },
+  "review": [
+    "matar",
+    "mathaf",
+    "hafila",
+    "wazir",
+    "bahr",
+    "rihla"
+  ],
+  "quiz": [
+    {
+      "id": "d80q1",
+      "prompt": "What does this mean?",
+      "ar": "إِذَا أَمْطَرَتْ، فَسَنَزُورُ الْمَتْحَفَ.",
+      "options": [
+        "If it rains, we'll visit the museum.",
+        "If I were rich, I would visit the museum.",
+        "When it rained, we visited the museum.",
+        "We visit the museum every day."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "d80q2",
+      "prompt": "Which word for 'if' is used for something that is not real, like a dream?",
+      "options": [
+        "إِذَا",
+        "إِنْ",
+        "لَوْ",
+        "عِنْدَمَا"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "d80q3",
+      "prompt": "What time does the bus leave tomorrow?",
+      "options": [
+        "at seven o'clock",
+        "at exactly eight o'clock",
+        "at nine o'clock",
+        "at noon"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "d80q4",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "لَوْ كُنْتُ غَنِيًّا، سَأَشْتَرِي بَيْتًا.",
+        "لَوْ كُنْتُ غَنِيًّا، لَاشْتَرَيْتُ بَيْتًا.",
+        "لَوْ كُنْتُ غَنِيٌّ، لَاشْتَرَيْتُ بَيْتًا.",
+        "لَوْ أَكُونُ غَنِيًّا، لَاشْتَرَيْتُ بَيْتًا."
+      ],
+      "answer": 1,
+      "explain": "After لَوْ comes a past verb (كُنْتُ), the describing word after كُنْتُ ends in -an (غَنِيًّا), and the answer is la- + a past verb (لَاشْتَرَيْتُ)."
+    },
+    {
+      "id": "d80q5",
+      "prompt": "What would Layla do if she were minister for the environment?",
+      "options": [
+        "plant a tree in every street",
+        "build a big stadium",
+        "buy a house on the beach",
+        "travel around the world"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "d80q6",
+      "prompt": "What does مَال mean?",
+      "options": [
+        "money",
+        "beach",
+        "dream",
+        "rich"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "d80q7",
+      "prompt": "How do you say the last word of لَوْ كُنْتُ وَزِيرَةً (if I were a minister)?",
+      "options": [
+        "wazīratun",
+        "wazīratan",
+        "wazīratin",
+        "al-wazīra"
+      ],
+      "answer": 1,
+      "explain": "Two fatḥas = -an. After ة the -an ending is written without an extra alif: وَزِيرَةً."
+    }
+  ],
+  "completion": "Mabrūk! Day 80 is done: you can talk about real plans with إِذَا, say إِنْ شَاءَ اللّٰهُ, and dream with لَوْ. Pass the quiz with 80% to finish the day.",
+  "status": "needs-review"
+}
