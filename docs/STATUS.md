@@ -1,8 +1,8 @@
 # Status — Arabic Journey
 
-Updated 2026-11-10 (week 13 done — all 90 days written). Branch `main`. All work runs on the owner's PC (no cloud session), like Français Journey.
+Updated 2026-11-10 (scenarios 28 of 27 — all Prompt B scenario topics covered except a few listed below). Branch `main`. All work runs on the owner's PC (no cloud session), like Français Journey.
 Main prompt: `Arabic_Reference/PROMPT_B_Nihongo-based.md` (phases A–F, checklist Z).
-Live (preview, v0.1.0 + content to day 90): https://ar-journey.german-journey.workers.dev ·
+Live (preview, v0.1.0 + content to day 90 + 28 scenarios): https://ar-journey.german-journey.workers.dev ·
 unlocked https://ar-journey-unlocked.german-journey.workers.dev
 
 ## Done
@@ -20,11 +20,16 @@ unlocked https://ar-journey-unlocked.german-journey.workers.dev
 - Reusable authoring kit: `docs/authoring/DAY_WRITER_BRIEF.md` (one writer agent per day) +
   `scripts/merge-additions.py` (append-only merge of each writer's additions.json: vocab, grammar, hand glossary,
   week test).
+- Scenarios 22 → 28 (0d82eae): bank, lost-phone-help, museum-info (Jordan Museum), post-office,
+  supermarket (5 writer agents, `docs/authoring/SCENARIO_WRITER_BRIEF.md` + `scripts/merge-scenarios.py`) and
+  phone-shop (written by a parallel session, kept by owner choice). 17 hand-glossary lines. Checks: validator
+  0 errors (28 scenarios), 48 unit tests, e2e 16/16 (port 4191); both editions deployed and verified live.
 
 ## Left (against Prompt B checklist Z)
 1. Final exam: day 89 is a cumulative practice day and the week-13 test is cumulative; a separate final-exam
    screen (if Prompt B needs one) is not built.
-2. Scenarios: 22 of 27.
+2. Scenarios: Prompt B topics still without one: school, machines (ticket machine/ATM), etiquette, dietary
+   (optional — 28 ≥ 27). No photo scenes or branching role-play on scenario pages yet.
 3. Missing screens/labs: Sentence explorer, Placards, Explore (culture), Time lab, Speaking lab, Onboarding/
    placement check, Report, real-life photo card per day.
 4. Photos (Wikimedia Commons, credited); 5,000-word dictionary check.
@@ -34,6 +39,10 @@ unlocked https://ar-journey-unlocked.german-journey.workers.dev
    Week 13: d85l11 deliberate «مِنْ الرَّصِيف»; d85 «الرَّصِيفِ رَقْمِ أَرْبَعَة» case; d85 new speakers `radio`,
    `announcer`; d86 unvowelled hand keys رأينا / مطبخ (override everywhere); d86 فِقْرَات vs فِقَرَات; d87 «يَعْنِي»
    وَ«كَيْفَ أَقُولُ» تُعْطِيكَ agreement; d87 oral exam "five parts" vs d89 "four parts"; d88 simplified hamza rule.
+   Scenarios: supermarket أَمِينُ الصُّنْدُوق vs Egyptian كَاشِير, total 300 not derivable, هَلْ dropped before أَمْ;
+   museum-info loanword فَلَاش + "…" in l7, invented prices; post-office prices plausible only, Egypt Post 1865 and
+   parcel inspection unverified; lost-phone-help invented "Citadel Hotel"; bank أَصْرِفَ…إِلَى vs أُحَوِّلَ, invented
+   no-fee terms, hand key مُوَظَّفُ kept as existing gloss.
 6. `tools/build-android.ps1` (own folders, e.g. C:\m\a / C:\m\au), layout sweep, release v1.0.0 by the Journey
    release-folder rule.
 7. Owner to decide: the whole UI is mirrored right-to-left, so English text is right-aligned too (v0.1.0 choice).
@@ -46,9 +55,12 @@ unlocked https://ar-journey-unlocked.german-journey.workers.dev
 - e2e port 4190: a French `e2e/serve.mjs` (another session) was answering on 4190 on 2026-11-10 and
   `reuseExistingServer` picked it up (16 false failures). If e2e fails at `learner-name`, check
   `curl localhost:4190` for "Français Journey" and run with a copy of the config on 4191.
+- Only one session at a time in this repo: on 2026-11-10 a second window ran the same scenario task and wrote into
+  scenarios.json mid-run. Before merging, check `git status` and file mtimes for edits you did not make.
+- e2e on 4191: copy playwright.config.ts with 4190→4191, `reuseExistingServer: false`, run `npx playwright test -c`.
 - Deploy: `npm run deploy:web` and `npm run deploy:web:unlocked` (wrangler logged in). Wait a few seconds before
   checking the live site.
 
 ## Next step
-Scenarios: write the 5 missing scenarios (22 → 27, Prompt B checklist Z) with the same writer-brief approach,
-then check, e2e (port 4191), deploy, commit and push.
+Missing screens/labs (Left 3), starting with the Sentence explorer and Placards (Prompt B sections K–L), then check,
+e2e (port 4191), deploy, commit and push.
