@@ -7,12 +7,12 @@ Live: https://ar-journey.german-journey.workers.dev · unlocked https://ar-journ
 ## Done
 - v0.1.0 base (RTL Expo SDK 58, Journey base, transliteration, numbers, readings, glossary, validator); all 90 days
   + 13 week tests; 28 scenarios; sentence explorer; 20 placards (see git log for per-phase commits).
-- **Explore the Arab world** (this phase): 9 culture chapters in `content/culture/*.json` (coffee, ramadan,
+- **Explore the Arab world** (9406070): 9 culture chapters in `content/culture/*.json` (coffee, ramadan,
   calligraphy, souq, food, desert, places, science, family): 4 sections each with prose, model sentences, word
   cards, course words, a reading + 3 questions, a 6–7 question quiz; 34 Wikimedia Commons photos in
   `assets/culture/` (credited, © badge, listed on Credits). Screens `/culture`, `/culture/[id]`; linked from
   Path, Practice, Library, Today labs. Schema `Culture` + validator + gloss coverage; all `needs-review`.
-- **Time lab** `/time`: settable clock face, time in words in 5-minute steps (with part of day, word-by-word
+- **Time lab** `/time` (9406070): settable clock face, time in words in 5-minute steps (with part of day, word-by-word
   glosses), minutes table, generated practice quiz, today's date (Egypt/Gulf or Levant month names), Hijri date
   (Intl Umm al-Qura, hidden if the device can't), weekdays, three month sets, parts of the day. Engine
   `src/core/time.ts` + 7 unit tests; 33 hand-glossary lines for time words.
