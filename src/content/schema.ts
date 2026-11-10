@@ -186,4 +186,29 @@ export const Scenario = z.object({
 });
 export type Scenario = z.infer<typeof Scenario>;
 
+// ------------------------------------------------------------------ placards
+
+/** One line on a placard: Arabic, English and a hand gloss for every word (segs). */
+export const PlacardItem = z.object({ ar: arabic, en: latinOnly, segs: z.array(Seg).min(1), note: rich.optional() });
+export type PlacardItem = z.infer<typeof PlacardItem>;
+
+/** A quick-reference card for revision: optional table, word list, example and related grammar. */
+export const Placard = z.object({
+  id: z.string().regex(/^pc\.[a-z0-9-]+$/),
+  title: latinOnly,
+  titleAr: arabic,
+  titleSegs: z.array(Seg).min(1),
+  /** Ionicons name */
+  icon: z.string(),
+  description: rich,
+  table: z
+    .object({ caption: rich.optional(), head: z.array(z.string()).min(2), rows: z.array(z.array(z.string())).min(1) })
+    .optional(),
+  items: z.array(PlacardItem),
+  example: PlacardItem.optional(),
+  grammar: z.array(z.string()).optional(),
+  status: Status,
+});
+export type Placard = z.infer<typeof Placard>;
+
 export const GlossEntry = z.record(z.string(), latinOnly);

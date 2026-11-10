@@ -1,0 +1,3128 @@
+[
+ {
+  "id": "pc.alphabet",
+  "title": "The alphabet",
+  "titleAr": "الْحُرُوفُ الْعَرَبِيَّةُ",
+  "titleSegs": [
+   [
+    "الْحُرُوفُ",
+    "the letters"
+   ],
+   [
+    "الْعَرَبِيَّةُ",
+    "Arabic"
+   ]
+  ],
+  "icon": "text-outline",
+  "description": "The 28 letters in dictionary order, then hamza, tāʾ marbūṭa and alif maqṣūra. Arabic is read from right to left and most letters join to the next one.",
+  "table": {
+   "caption": "Letter · name · sound (tap a letter or a name to hear it)",
+   "head": [
+    "Letter",
+    "Name",
+    "Sound"
+   ],
+   "rows": [
+    [
+     "ا",
+     "أَلِف",
+     "ā / ʾ"
+    ],
+    [
+     "ب",
+     "بَاء",
+     "b"
+    ],
+    [
+     "ت",
+     "تَاء",
+     "t"
+    ],
+    [
+     "ث",
+     "ثَاء",
+     "th"
+    ],
+    [
+     "ج",
+     "جِيم",
+     "j"
+    ],
+    [
+     "ح",
+     "حَاء",
+     "ḥ"
+    ],
+    [
+     "خ",
+     "خَاء",
+     "kh"
+    ],
+    [
+     "د",
+     "دَال",
+     "d"
+    ],
+    [
+     "ذ",
+     "ذَال",
+     "dh"
+    ],
+    [
+     "ر",
+     "رَاء",
+     "r"
+    ],
+    [
+     "ز",
+     "زَاي",
+     "z"
+    ],
+    [
+     "س",
+     "سِين",
+     "s"
+    ],
+    [
+     "ش",
+     "شِين",
+     "sh"
+    ],
+    [
+     "ص",
+     "صَاد",
+     "ṣ"
+    ],
+    [
+     "ض",
+     "ضَاد",
+     "ḍ"
+    ],
+    [
+     "ط",
+     "طَاء",
+     "ṭ"
+    ],
+    [
+     "ظ",
+     "ظَاء",
+     "ẓ"
+    ],
+    [
+     "ع",
+     "عَيْن",
+     "ʿ"
+    ],
+    [
+     "غ",
+     "غَيْن",
+     "gh"
+    ],
+    [
+     "ف",
+     "فَاء",
+     "f"
+    ],
+    [
+     "ق",
+     "قَاف",
+     "q"
+    ],
+    [
+     "ك",
+     "كَاف",
+     "k"
+    ],
+    [
+     "ل",
+     "لَام",
+     "l"
+    ],
+    [
+     "م",
+     "مِيم",
+     "m"
+    ],
+    [
+     "ن",
+     "نُون",
+     "n"
+    ],
+    [
+     "ه",
+     "هَاء",
+     "h"
+    ],
+    [
+     "و",
+     "وَاو",
+     "w / ū"
+    ],
+    [
+     "ي",
+     "يَاء",
+     "y / ī"
+    ],
+    [
+     "ء",
+     "هَمْزَة",
+     "ʾ"
+    ],
+    [
+     "ة",
+     "تَاء مَرْبُوطَة",
+     "a / at"
+    ],
+    [
+     "ى",
+     "أَلِف مَقْصُورَة",
+     "ā"
+    ]
+   ]
+  },
+  "items": [],
+  "grammar": [
+   "article"
+  ],
+  "status": "needs-review"
+ },
+ {
+  "id": "pc.vowel-marks",
+  "title": "Vowel marks",
+  "titleAr": "الْحَرَكَاتُ",
+  "titleSegs": [
+   [
+    "الْحَرَكَاتُ",
+    "the vowel marks"
+   ]
+  ],
+  "icon": "ellipsis-horizontal-outline",
+  "description": "Short vowels are small marks above or below a letter. They are shown here on the letter bāʾ. Long vowels are written with the letters ا, و and ي.",
+  "items": [
+   {
+    "ar": "بَ",
+    "en": "ba — fatḥa: a short a",
+    "segs": [
+     [
+      "بَ",
+      "ba (fatha)"
+     ]
+    ],
+    "note": "The small stroke above the letter."
+   },
+   {
+    "ar": "بُ",
+    "en": "bu — ḍamma: a short u",
+    "segs": [
+     [
+      "بُ",
+      "bu (damma)"
+     ]
+    ],
+    "note": "A small wāw above the letter."
+   },
+   {
+    "ar": "بِ",
+    "en": "bi — kasra: a short i",
+    "segs": [
+     [
+      "بِ",
+      "bi (kasra)"
+     ]
+    ],
+    "note": "The small stroke below the letter."
+   },
+   {
+    "ar": "بْ",
+    "en": "b — sukūn: no vowel",
+    "segs": [
+     [
+      "بْ",
+      "b (sukun, no vowel)"
+     ]
+    ],
+    "note": "A small circle: the letter closes the syllable."
+   },
+   {
+    "ar": "بَّ",
+    "en": "bba — shadda: the letter is doubled",
+    "segs": [
+     [
+      "بَّ",
+      "bba (shadda)"
+     ]
+    ],
+    "note": "Shadda doubles the sound and keeps its own vowel mark."
+   },
+   {
+    "ar": "بًا",
+    "en": "ban — tanwīn with fatḥa",
+    "segs": [
+     [
+      "بًا",
+      "ban (tanwin)"
+     ]
+    ],
+    "note": "Two strokes; usually written with an extra alif."
+   },
+   {
+    "ar": "بٌ",
+    "en": "bun — tanwīn with ḍamma",
+    "segs": [
+     [
+      "بٌ",
+      "bun (tanwin)"
+     ]
+    ]
+   },
+   {
+    "ar": "بٍ",
+    "en": "bin — tanwīn with kasra",
+    "segs": [
+     [
+      "بٍ",
+      "bin (tanwin)"
+     ]
+    ]
+   },
+   {
+    "ar": "بَا",
+    "en": "bā — a long a",
+    "segs": [
+     [
+      "بَا",
+      "ba (long a)"
+     ]
+    ]
+   },
+   {
+    "ar": "بُو",
+    "en": "bū — a long u",
+    "segs": [
+     [
+      "بُو",
+      "bu (long u)"
+     ]
+    ]
+   },
+   {
+    "ar": "بِي",
+    "en": "bī — a long i",
+    "segs": [
+     [
+      "بِي",
+      "bi (long i)"
+     ]
+    ]
+   }
+  ],
+  "example": {
+   "ar": "كِتَابٌ",
+   "en": "a book",
+   "segs": [
+    [
+     "كِتَابٌ",
+     "a book",
+     "noun"
+    ]
+   ],
+   "note": "kitābun: ki + tā + bun"
+  },
+  "status": "needs-review"
+ },
+ {
+  "id": "pc.sun-moon",
+  "title": "Sun and moon letters",
+  "titleAr": "الْحُرُوفُ الشَّمْسِيَّةُ وَالْقَمَرِيَّةُ",
+  "titleSegs": [
+   [
+    "الْحُرُوفُ",
+    "the letters"
+   ],
+   [
+    "الشَّمْسِيَّةُ",
+    "sun (letters)"
+   ],
+   [
+    "وَالْقَمَرِيَّةُ",
+    "and moon (letters)"
+   ]
+  ],
+  "icon": "sunny-outline",
+  "description": "Before a sun letter the l of الـ is not said and the next letter is doubled (ash-shams). Before a moon letter the l is said (al-qamar).",
+  "table": {
+   "caption": "The 14 sun letters and the 14 moon letters",
+   "head": [
+    "Sun letters",
+    "Moon letters"
+   ],
+   "rows": [
+    [
+     "ت ث د ذ ر ز س ش ص ض ط ظ ل ن",
+     "ء ب ج ح خ ع غ ف ق ك م ه و ي"
+    ]
+   ]
+  },
+  "items": [
+   {
+    "ar": "الشَّمْس",
+    "en": "the sun (ash-shams)",
+    "segs": [
+     [
+      "الشَّمْس",
+      "the sun"
+     ]
+    ],
+    "note": "Sun letter ش: the l is silent."
+   },
+   {
+    "ar": "السَّلَام",
+    "en": "peace (as-salām)",
+    "segs": [
+     [
+      "السَّلَام",
+      "the peace"
+     ]
+    ],
+    "note": "Sun letter س."
+   },
+   {
+    "ar": "النُّور",
+    "en": "the light (an-nūr)",
+    "segs": [
+     [
+      "النُّور",
+      "the light"
+     ]
+    ],
+    "note": "Sun letter ن."
+   },
+   {
+    "ar": "الدَّرْس",
+    "en": "the lesson (ad-dars)",
+    "segs": [
+     [
+      "الدَّرْس",
+      "the lesson"
+     ]
+    ],
+    "note": "Sun letter د."
+   },
+   {
+    "ar": "الْقَمَر",
+    "en": "the moon (al-qamar)",
+    "segs": [
+     [
+      "الْقَمَر",
+      "the moon"
+     ]
+    ],
+    "note": "Moon letter ق: the l is said."
+   },
+   {
+    "ar": "الْبَيْت",
+    "en": "the house (al-bayt)",
+    "segs": [
+     [
+      "الْبَيْت",
+      "the house"
+     ]
+    ],
+    "note": "Moon letter ب."
+   },
+   {
+    "ar": "الْكِتَاب",
+    "en": "the book (al-kitāb)",
+    "segs": [
+     [
+      "الْكِتَاب",
+      "the book"
+     ]
+    ],
+    "note": "Moon letter ك."
+   },
+   {
+    "ar": "الْمَدِينَة",
+    "en": "the city (al-madīna)",
+    "segs": [
+     [
+      "الْمَدِينَة",
+      "the city"
+     ]
+    ],
+    "note": "Moon letter م."
+   }
+  ],
+  "grammar": [
+   "article"
+  ],
+  "status": "needs-review"
+ },
+ {
+  "id": "pc.greetings",
+  "title": "Greetings",
+  "titleAr": "التَّحِيَّاتُ",
+  "titleSegs": [
+   [
+    "التَّحِيَّاتُ",
+    "greetings"
+   ]
+  ],
+  "icon": "hand-left-outline",
+  "description": "Greetings with their usual replies. A greeting and its reply often come as a pair: صَبَاحُ الْخَيْر → صَبَاحُ النُّور.",
+  "items": [
+   {
+    "ar": "السَّلَامُ عَلَيْكُمْ",
+    "en": "Peace be upon you (hello)",
+    "segs": [
+     [
+      "السَّلَامُ",
+      "the peace"
+     ],
+     [
+      "عَلَيْكُمْ",
+      "upon you"
+     ]
+    ],
+    "note": "The everyday greeting everywhere in the Arab world."
+   },
+   {
+    "ar": "وَعَلَيْكُمُ السَّلَامُ",
+    "en": "And upon you be peace (the reply)",
+    "segs": [
+     [
+      "وَعَلَيْكُمُ",
+      "and upon you"
+     ],
+     [
+      "السَّلَامُ",
+      "the peace"
+     ]
+    ]
+   },
+   {
+    "ar": "مَرْحَبًا",
+    "en": "Hello",
+    "segs": [
+     [
+      "مَرْحَبًا",
+      "hello"
+     ]
+    ]
+   },
+   {
+    "ar": "أَهْلًا وَسَهْلًا",
+    "en": "Welcome",
+    "segs": [
+     [
+      "أَهْلًا",
+      "welcome"
+     ],
+     [
+      "وَسَهْلًا",
+      "and ease (part of 'welcome')"
+     ]
+    ]
+   },
+   {
+    "ar": "صَبَاحُ الْخَيْرِ",
+    "en": "Good morning",
+    "segs": [
+     [
+      "صَبَاحُ",
+      "morning (of)"
+     ],
+     [
+      "الْخَيْرِ",
+      "the goodness"
+     ]
+    ]
+   },
+   {
+    "ar": "صَبَاحُ النُّورِ",
+    "en": "Good morning (the reply)",
+    "segs": [
+     [
+      "صَبَاحُ",
+      "morning (of)"
+     ],
+     [
+      "النُّورِ",
+      "the light"
+     ]
+    ]
+   },
+   {
+    "ar": "مَسَاءُ الْخَيْرِ",
+    "en": "Good evening",
+    "segs": [
+     [
+      "مَسَاءُ",
+      "evening (of)"
+     ],
+     [
+      "الْخَيْرِ",
+      "the goodness"
+     ]
+    ]
+   },
+   {
+    "ar": "مَسَاءُ النُّورِ",
+    "en": "Good evening (the reply)",
+    "segs": [
+     [
+      "مَسَاءُ",
+      "evening (of)"
+     ],
+     [
+      "النُّورِ",
+      "the light"
+     ]
+    ]
+   },
+   {
+    "ar": "كَيْفَ حَالُكَ؟",
+    "en": "How are you? (to a man)",
+    "segs": [
+     [
+      "كَيْفَ",
+      "how"
+     ],
+     [
+      "حَالُكَ",
+      "your condition (to a man)"
+     ]
+    ],
+    "note": "To a woman: كَيْفَ حَالُكِ؟"
+   },
+   {
+    "ar": "بِخَيْرٍ، الْحَمْدُ لِلّٰهِ",
+    "en": "Fine, thank God",
+    "segs": [
+     [
+      "بِخَيْرٍ",
+      "fine, well"
+     ],
+     [
+      "الْحَمْدُ",
+      "the praise"
+     ],
+     [
+      "لِلّٰهِ",
+      "to God"
+     ]
+    ]
+   },
+   {
+    "ar": "تَشَرَّفْنَا",
+    "en": "Nice to meet you",
+    "segs": [
+     [
+      "تَشَرَّفْنَا",
+      "nice to meet you"
+     ]
+    ]
+   },
+   {
+    "ar": "مَعَ السَّلَامَةِ",
+    "en": "Goodbye",
+    "segs": [
+     [
+      "مَعَ",
+      "with"
+     ],
+     [
+      "السَّلَامَةِ",
+      "the safety"
+     ]
+    ]
+   }
+  ],
+  "grammar": [
+   "greetings"
+  ],
+  "status": "needs-review"
+ },
+ {
+  "id": "pc.courtesy",
+  "title": "Polite words",
+  "titleAr": "كَلِمَاتٌ مُهَذَّبَةٌ",
+  "titleSegs": [
+   [
+    "كَلِمَاتٌ",
+    "words"
+   ],
+   [
+    "مُهَذَّبَةٌ",
+    "polite"
+   ]
+  ],
+  "icon": "heart-outline",
+  "description": "The small words that make every request polite. Some change with the person you speak to: فَضْلِكَ to a man, فَضْلِكِ to a woman.",
+  "items": [
+   {
+    "ar": "مِنْ فَضْلِكَ",
+    "en": "Please (to a man)",
+    "segs": [
+     [
+      "مِنْ",
+      "from"
+     ],
+     [
+      "فَضْلِكَ",
+      "your kindness (to a man)"
+     ]
+    ]
+   },
+   {
+    "ar": "مِنْ فَضْلِكِ",
+    "en": "Please (to a woman)",
+    "segs": [
+     [
+      "مِنْ",
+      "from"
+     ],
+     [
+      "فَضْلِكِ",
+      "your kindness (to a woman)"
+     ]
+    ]
+   },
+   {
+    "ar": "شُكْرًا",
+    "en": "Thank you",
+    "segs": [
+     [
+      "شُكْرًا",
+      "thank you"
+     ]
+    ]
+   },
+   {
+    "ar": "شُكْرًا جَزِيلًا",
+    "en": "Thank you very much",
+    "segs": [
+     [
+      "شُكْرًا",
+      "thank you"
+     ],
+     [
+      "جَزِيلًا",
+      "abundantly, very much"
+     ]
+    ]
+   },
+   {
+    "ar": "عَفْوًا",
+    "en": "You're welcome; excuse me",
+    "segs": [
+     [
+      "عَفْوًا",
+      "you're welcome; excuse me"
+     ]
+    ]
+   },
+   {
+    "ar": "آسِف",
+    "en": "Sorry (said by a man)",
+    "segs": [
+     [
+      "آسِف",
+      "sorry (m)"
+     ]
+    ]
+   },
+   {
+    "ar": "آسِفَة",
+    "en": "Sorry (said by a woman)",
+    "segs": [
+     [
+      "آسِفَة",
+      "sorry (f)"
+     ]
+    ]
+   },
+   {
+    "ar": "لَا بَأْسَ",
+    "en": "No problem, it's all right",
+    "segs": [
+     [
+      "لَا",
+      "no"
+     ],
+     [
+      "بَأْسَ",
+      "harm"
+     ]
+    ]
+   },
+   {
+    "ar": "تَفَضَّلْ",
+    "en": "Please, go ahead; here you are (to a man)",
+    "segs": [
+     [
+      "تَفَضَّلْ",
+      "please, go ahead (to a man)"
+     ]
+    ],
+    "note": "To a woman: تَفَضَّلِي"
+   },
+   {
+    "ar": "إِنْ شَاءَ اللّٰهُ",
+    "en": "God willing (I hope so)",
+    "segs": [
+     [
+      "إِنْ",
+      "if"
+     ],
+     [
+      "شَاءَ",
+      "willed"
+     ],
+     [
+      "اللّٰهُ",
+      "God"
+     ]
+    ]
+   },
+   {
+    "ar": "مَبْرُوك",
+    "en": "Congratulations",
+    "segs": [
+     [
+      "مَبْرُوك",
+      "congratulations"
+     ]
+    ]
+   }
+  ],
+  "grammar": [
+   "polite-requests"
+  ],
+  "status": "needs-review"
+ },
+ {
+  "id": "pc.pronouns",
+  "title": "Personal pronouns",
+  "titleAr": "الضَّمَائِرُ",
+  "titleSegs": [
+   [
+    "الضَّمَائِرُ",
+    "the pronouns"
+   ]
+  ],
+  "icon": "people-outline",
+  "description": "Arabic has a different you for a man, a woman and a group. There is no word for am / is / are in the present: أَنَا طَالِبٌ = I (am) a student.",
+  "items": [
+   {
+    "ar": "أَنَا",
+    "en": "I",
+    "segs": [
+     [
+      "أَنَا",
+      "I",
+      "pronoun"
+     ]
+    ]
+   },
+   {
+    "ar": "أَنْتَ",
+    "en": "you (to a man)",
+    "segs": [
+     [
+      "أَنْتَ",
+      "you (to a man)",
+      "pronoun"
+     ]
+    ]
+   },
+   {
+    "ar": "أَنْتِ",
+    "en": "you (to a woman)",
+    "segs": [
+     [
+      "أَنْتِ",
+      "you (to a woman)",
+      "pronoun"
+     ]
+    ]
+   },
+   {
+    "ar": "هُوَ",
+    "en": "he; it (m)",
+    "segs": [
+     [
+      "هُوَ",
+      "he; it (m)",
+      "pronoun"
+     ]
+    ]
+   },
+   {
+    "ar": "هِيَ",
+    "en": "she; it (f)",
+    "segs": [
+     [
+      "هِيَ",
+      "she; it (f)",
+      "pronoun"
+     ]
+    ]
+   },
+   {
+    "ar": "نَحْنُ",
+    "en": "we",
+    "segs": [
+     [
+      "نَحْنُ",
+      "we",
+      "pronoun"
+     ]
+    ]
+   },
+   {
+    "ar": "أَنْتُمْ",
+    "en": "you (to a group)",
+    "segs": [
+     [
+      "أَنْتُمْ",
+      "you (to a group)",
+      "pronoun"
+     ]
+    ]
+   },
+   {
+    "ar": "هُمْ",
+    "en": "they (men or a mixed group)",
+    "segs": [
+     [
+      "هُمْ",
+      "they (men or a mixed group)",
+      "pronoun"
+     ]
+    ]
+   },
+   {
+    "ar": "هُنَّ",
+    "en": "they (women only)",
+    "segs": [
+     [
+      "هُنَّ",
+      "they (women only)",
+      "pronoun"
+     ]
+    ]
+   }
+  ],
+  "example": {
+   "ar": "أَنَا طَالِبٌ وَهِيَ مُدَرِّسَةٌ.",
+   "en": "I am a student and she is a teacher.",
+   "segs": [
+    [
+     "أَنَا",
+     "I"
+    ],
+    [
+     "طَالِبٌ",
+     "a student"
+    ],
+    [
+     "وَهِيَ",
+     "and she"
+    ],
+    [
+     "مُدَرِّسَةٌ",
+     "a teacher (f)"
+    ]
+   ]
+  },
+  "grammar": [
+   "pronouns",
+   "nominal-sentence"
+  ],
+  "status": "needs-review"
+ },
+ {
+  "id": "pc.my-your",
+  "title": "My, your, his…",
+  "titleAr": "الضَّمَائِرُ الْمُتَّصِلَةُ",
+  "titleSegs": [
+   [
+    "الضَّمَائِرُ",
+    "the pronouns"
+   ],
+   [
+    "الْمُتَّصِلَةُ",
+    "attached"
+   ]
+  ],
+  "icon": "link-outline",
+  "description": "Possessive words are endings joined to the noun. Here they are on كِتَاب (book). A word with an ending never takes الـ.",
+  "items": [
+   {
+    "ar": "كِتَابِي",
+    "en": "my book",
+    "segs": [
+     [
+      "كِتَابِي",
+      "my book"
+     ]
+    ],
+    "note": "ending ـِي (-ī)"
+   },
+   {
+    "ar": "كِتَابُكَ",
+    "en": "your book (to a man)",
+    "segs": [
+     [
+      "كِتَابُكَ",
+      "your book (to a man)"
+     ]
+    ],
+    "note": "ending ـكَ (-ka)"
+   },
+   {
+    "ar": "كِتَابُكِ",
+    "en": "your book (to a woman)",
+    "segs": [
+     [
+      "كِتَابُكِ",
+      "your book (to a woman)"
+     ]
+    ],
+    "note": "ending ـكِ (-ki)"
+   },
+   {
+    "ar": "كِتَابُهُ",
+    "en": "his book",
+    "segs": [
+     [
+      "كِتَابُهُ",
+      "his book"
+     ]
+    ],
+    "note": "ending ـهُ (-hu)"
+   },
+   {
+    "ar": "كِتَابُهَا",
+    "en": "her book",
+    "segs": [
+     [
+      "كِتَابُهَا",
+      "her book"
+     ]
+    ],
+    "note": "ending ـهَا (-hā)"
+   },
+   {
+    "ar": "كِتَابُنَا",
+    "en": "our book",
+    "segs": [
+     [
+      "كِتَابُنَا",
+      "our book"
+     ]
+    ],
+    "note": "ending ـنَا (-nā)"
+   },
+   {
+    "ar": "كِتَابُكُمْ",
+    "en": "your book (to a group)",
+    "segs": [
+     [
+      "كِتَابُكُمْ",
+      "your book (to a group)"
+     ]
+    ],
+    "note": "ending ـكُمْ (-kum)"
+   },
+   {
+    "ar": "كِتَابُهُمْ",
+    "en": "their book",
+    "segs": [
+     [
+      "كِتَابُهُمْ",
+      "their book"
+     ]
+    ],
+    "note": "ending ـهُمْ (-hum)"
+   }
+  ],
+  "example": {
+   "ar": "هٰذِهِ سَيَّارَتِي.",
+   "en": "This is my car.",
+   "segs": [
+    [
+     "هٰذِهِ",
+     "this (f)"
+    ],
+    [
+     "سَيَّارَتِي",
+     "my car"
+    ]
+   ],
+   "note": "With tāʾ marbūṭa the ة becomes ت before the ending: سَيَّارَة → سَيَّارَتِي."
+  },
+  "grammar": [
+   "attached-pronouns",
+   "possessive"
+  ],
+  "status": "needs-review"
+ },
+ {
+  "id": "pc.numbers",
+  "title": "Numbers 0–10",
+  "titleAr": "الْأَرْقَامُ",
+  "titleSegs": [
+   [
+    "الْأَرْقَامُ",
+    "the numbers"
+   ]
+  ],
+  "icon": "calculator-outline",
+  "description": "The numbers in words, with the Arabic-Indic digits used in Egypt and the Gulf. Digits are written from left to right, even inside Arabic text.",
+  "items": [
+   {
+    "ar": "صِفْر",
+    "en": "zero (0)",
+    "segs": [
+     [
+      "صِفْر",
+      "zero",
+      "number"
+     ]
+    ],
+    "note": "Digit: ٠"
+   },
+   {
+    "ar": "وَاحِد",
+    "en": "one (1)",
+    "segs": [
+     [
+      "وَاحِد",
+      "one",
+      "number"
+     ]
+    ],
+    "note": "Digit: ١"
+   },
+   {
+    "ar": "اِثْنَان",
+    "en": "two (2)",
+    "segs": [
+     [
+      "اِثْنَان",
+      "two",
+      "number"
+     ]
+    ],
+    "note": "Digit: ٢"
+   },
+   {
+    "ar": "ثَلَاثَة",
+    "en": "three (3)",
+    "segs": [
+     [
+      "ثَلَاثَة",
+      "three",
+      "number"
+     ]
+    ],
+    "note": "Digit: ٣"
+   },
+   {
+    "ar": "أَرْبَعَة",
+    "en": "four (4)",
+    "segs": [
+     [
+      "أَرْبَعَة",
+      "four",
+      "number"
+     ]
+    ],
+    "note": "Digit: ٤"
+   },
+   {
+    "ar": "خَمْسَة",
+    "en": "five (5)",
+    "segs": [
+     [
+      "خَمْسَة",
+      "five",
+      "number"
+     ]
+    ],
+    "note": "Digit: ٥"
+   },
+   {
+    "ar": "سِتَّة",
+    "en": "six (6)",
+    "segs": [
+     [
+      "سِتَّة",
+      "six",
+      "number"
+     ]
+    ],
+    "note": "Digit: ٦"
+   },
+   {
+    "ar": "سَبْعَة",
+    "en": "seven (7)",
+    "segs": [
+     [
+      "سَبْعَة",
+      "seven",
+      "number"
+     ]
+    ],
+    "note": "Digit: ٧"
+   },
+   {
+    "ar": "ثَمَانِيَة",
+    "en": "eight (8)",
+    "segs": [
+     [
+      "ثَمَانِيَة",
+      "eight",
+      "number"
+     ]
+    ],
+    "note": "Digit: ٨"
+   },
+   {
+    "ar": "تِسْعَة",
+    "en": "nine (9)",
+    "segs": [
+     [
+      "تِسْعَة",
+      "nine",
+      "number"
+     ]
+    ],
+    "note": "Digit: ٩"
+   },
+   {
+    "ar": "عَشَرَة",
+    "en": "ten (10)",
+    "segs": [
+     [
+      "عَشَرَة",
+      "ten",
+      "number"
+     ]
+    ],
+    "note": "Digit: ١٠"
+   }
+  ],
+  "example": {
+   "ar": "عِنْدِي ثَلَاثَةُ أَوْلَادٍ.",
+   "en": "I have three children.",
+   "segs": [
+    [
+     "عِنْدِي",
+     "I have"
+    ],
+    [
+     "ثَلَاثَةُ",
+     "three"
+    ],
+    [
+     "أَوْلَادٍ",
+     "children"
+    ]
+   ]
+  },
+  "grammar": [
+   "numbers-1-10"
+  ],
+  "status": "needs-review"
+ },
+ {
+  "id": "pc.tens",
+  "title": "Tens, hundred, thousand",
+  "titleAr": "الْعَشَرَاتُ",
+  "titleSegs": [
+   [
+    "الْعَشَرَاتُ",
+    "the tens"
+   ]
+  ],
+  "icon": "stats-chart-outline",
+  "description": "The tens end in ـُونَ (‑ūna). In numbers like 25 the unit comes first: five and twenty.",
+  "items": [
+   {
+    "ar": "عِشْرُونَ",
+    "en": "twenty (20)",
+    "segs": [
+     [
+      "عِشْرُونَ",
+      "twenty",
+      "number"
+     ]
+    ],
+    "note": "Digit: ٢٠"
+   },
+   {
+    "ar": "ثَلَاثُونَ",
+    "en": "thirty (30)",
+    "segs": [
+     [
+      "ثَلَاثُونَ",
+      "thirty",
+      "number"
+     ]
+    ],
+    "note": "Digit: ٣٠"
+   },
+   {
+    "ar": "أَرْبَعُونَ",
+    "en": "forty (40)",
+    "segs": [
+     [
+      "أَرْبَعُونَ",
+      "forty",
+      "number"
+     ]
+    ],
+    "note": "Digit: ٤٠"
+   },
+   {
+    "ar": "خَمْسُونَ",
+    "en": "fifty (50)",
+    "segs": [
+     [
+      "خَمْسُونَ",
+      "fifty",
+      "number"
+     ]
+    ],
+    "note": "Digit: ٥٠"
+   },
+   {
+    "ar": "سِتُّونَ",
+    "en": "sixty (60)",
+    "segs": [
+     [
+      "سِتُّونَ",
+      "sixty",
+      "number"
+     ]
+    ],
+    "note": "Digit: ٦٠"
+   },
+   {
+    "ar": "سَبْعُونَ",
+    "en": "seventy (70)",
+    "segs": [
+     [
+      "سَبْعُونَ",
+      "seventy",
+      "number"
+     ]
+    ],
+    "note": "Digit: ٧٠"
+   },
+   {
+    "ar": "ثَمَانُونَ",
+    "en": "eighty (80)",
+    "segs": [
+     [
+      "ثَمَانُونَ",
+      "eighty",
+      "number"
+     ]
+    ],
+    "note": "Digit: ٨٠"
+   },
+   {
+    "ar": "تِسْعُونَ",
+    "en": "ninety (90)",
+    "segs": [
+     [
+      "تِسْعُونَ",
+      "ninety",
+      "number"
+     ]
+    ],
+    "note": "Digit: ٩٠"
+   },
+   {
+    "ar": "مِئَة",
+    "en": "a hundred (100)",
+    "segs": [
+     [
+      "مِئَة",
+      "a hundred",
+      "number"
+     ]
+    ],
+    "note": "Digit: ١٠٠"
+   },
+   {
+    "ar": "أَلْف",
+    "en": "a thousand (1000)",
+    "segs": [
+     [
+      "أَلْف",
+      "a thousand",
+      "number"
+     ]
+    ],
+    "note": "Digit: ١٠٠٠"
+   }
+  ],
+  "example": {
+   "ar": "خَمْسَةٌ وَعِشْرُونَ",
+   "en": "twenty-five (25)",
+   "segs": [
+    [
+     "خَمْسَةٌ",
+     "five"
+    ],
+    [
+     "وَعِشْرُونَ",
+     "and twenty"
+    ]
+   ],
+   "note": "Literally: five and twenty — ٢٥"
+  },
+  "grammar": [
+   "numbers-11-100"
+  ],
+  "status": "needs-review"
+ },
+ {
+  "id": "pc.weekdays",
+  "title": "Days of the week",
+  "titleAr": "أَيَّامُ الْأُسْبُوعِ",
+  "titleSegs": [
+   [
+    "أَيَّامُ",
+    "days (of)"
+   ],
+   [
+    "الْأُسْبُوعِ",
+    "the week"
+   ]
+  ],
+  "icon": "calendar-outline",
+  "description": "The week starts on Sunday. Most day names come from numbers: الْأَحَد (one), الاِثْنَيْن (two)… Friday is the day of the main weekly prayer.",
+  "items": [
+   {
+    "ar": "الْأَحَد",
+    "en": "Sunday",
+    "segs": [
+     [
+      "الْأَحَد",
+      "Sunday"
+     ]
+    ],
+    "note": "From أَحَد, one: the first day."
+   },
+   {
+    "ar": "الاِثْنَيْن",
+    "en": "Monday",
+    "segs": [
+     [
+      "الاِثْنَيْن",
+      "Monday"
+     ]
+    ],
+    "note": "The second day."
+   },
+   {
+    "ar": "الثُّلَاثَاء",
+    "en": "Tuesday",
+    "segs": [
+     [
+      "الثُّلَاثَاء",
+      "Tuesday"
+     ]
+    ]
+   },
+   {
+    "ar": "الْأَرْبِعَاء",
+    "en": "Wednesday",
+    "segs": [
+     [
+      "الْأَرْبِعَاء",
+      "Wednesday"
+     ]
+    ]
+   },
+   {
+    "ar": "الْخَمِيس",
+    "en": "Thursday",
+    "segs": [
+     [
+      "الْخَمِيس",
+      "Thursday"
+     ]
+    ]
+   },
+   {
+    "ar": "الْجُمُعَة",
+    "en": "Friday",
+    "segs": [
+     [
+      "الْجُمُعَة",
+      "Friday"
+     ]
+    ],
+    "note": "From the word for gathering."
+   },
+   {
+    "ar": "السَّبْت",
+    "en": "Saturday",
+    "segs": [
+     [
+      "السَّبْت",
+      "Saturday"
+     ]
+    ]
+   },
+   {
+    "ar": "الْيَوْمَ",
+    "en": "today",
+    "segs": [
+     [
+      "الْيَوْمَ",
+      "today"
+     ]
+    ]
+   },
+   {
+    "ar": "أَمْسِ",
+    "en": "yesterday",
+    "segs": [
+     [
+      "أَمْسِ",
+      "yesterday"
+     ]
+    ]
+   },
+   {
+    "ar": "غَدًا",
+    "en": "tomorrow",
+    "segs": [
+     [
+      "غَدًا",
+      "tomorrow"
+     ]
+    ]
+   }
+  ],
+  "example": {
+   "ar": "الْيَوْمَ يَوْمُ الْجُمُعَةِ.",
+   "en": "Today is Friday.",
+   "segs": [
+    [
+     "الْيَوْمَ",
+     "today"
+    ],
+    [
+     "يَوْمُ",
+     "day (of)"
+    ],
+    [
+     "الْجُمُعَةِ",
+     "Friday"
+    ]
+   ]
+  },
+  "grammar": [
+   "time-expressions"
+  ],
+  "status": "needs-review"
+ },
+ {
+  "id": "pc.questions",
+  "title": "Question words",
+  "titleAr": "أَدَوَاتُ الِاسْتِفْهَامِ",
+  "titleSegs": [
+   [
+    "أَدَوَاتُ",
+    "words, tools (of)"
+   ],
+   [
+    "الِاسْتِفْهَامِ",
+    "asking"
+   ]
+  ],
+  "icon": "help-circle-outline",
+  "description": "Question words come at the start of the sentence. هَلْ turns a statement into a yes/no question.",
+  "items": [
+   {
+    "ar": "مَا",
+    "en": "what (before a noun)",
+    "segs": [
+     [
+      "مَا",
+      "what",
+      "question"
+     ]
+    ]
+   },
+   {
+    "ar": "مَاذَا",
+    "en": "what (before a verb)",
+    "segs": [
+     [
+      "مَاذَا",
+      "what",
+      "question"
+     ]
+    ]
+   },
+   {
+    "ar": "مَنْ",
+    "en": "who",
+    "segs": [
+     [
+      "مَنْ",
+      "who",
+      "question"
+     ]
+    ]
+   },
+   {
+    "ar": "أَيْنَ",
+    "en": "where",
+    "segs": [
+     [
+      "أَيْنَ",
+      "where",
+      "question"
+     ]
+    ]
+   },
+   {
+    "ar": "مَتَى",
+    "en": "when",
+    "segs": [
+     [
+      "مَتَى",
+      "when",
+      "question"
+     ]
+    ]
+   },
+   {
+    "ar": "كَيْفَ",
+    "en": "how",
+    "segs": [
+     [
+      "كَيْفَ",
+      "how",
+      "question"
+     ]
+    ]
+   },
+   {
+    "ar": "لِمَاذَا",
+    "en": "why",
+    "segs": [
+     [
+      "لِمَاذَا",
+      "why",
+      "question"
+     ]
+    ]
+   },
+   {
+    "ar": "كَمْ",
+    "en": "how many; how much",
+    "segs": [
+     [
+      "كَمْ",
+      "how many; how much",
+      "question"
+     ]
+    ],
+    "note": "The noun after كَمْ is singular: كَمْ كِتَابًا؟"
+   },
+   {
+    "ar": "بِكَمْ",
+    "en": "how much? (price)",
+    "segs": [
+     [
+      "بِكَمْ",
+      "how much (price)",
+      "question"
+     ]
+    ]
+   },
+   {
+    "ar": "هَلْ",
+    "en": "(yes/no question word)",
+    "segs": [
+     [
+      "هَلْ",
+      "is it that…? (yes/no question)",
+      "question"
+     ]
+    ]
+   }
+  ],
+  "example": {
+   "ar": "أَيْنَ الْمَحَطَّةُ؟",
+   "en": "Where is the station?",
+   "segs": [
+    [
+     "أَيْنَ",
+     "where"
+    ],
+    [
+     "الْمَحَطَّةُ",
+     "the station"
+    ]
+   ]
+  },
+  "grammar": [
+   "questions"
+  ],
+  "status": "needs-review"
+ },
+ {
+  "id": "pc.colours",
+  "title": "Colours",
+  "titleAr": "الْأَلْوَانُ",
+  "titleSegs": [
+   [
+    "الْأَلْوَانُ",
+    "the colours"
+   ]
+  ],
+  "icon": "color-palette-outline",
+  "description": "The basic colours have their own feminine pattern (أَحْمَر → حَمْرَاء). Newer colour words simply add ـِيّ / ـِيَّة.",
+  "items": [
+   {
+    "ar": "أَحْمَر / حَمْرَاء",
+    "en": "red (m / f)",
+    "segs": [
+     [
+      "أَحْمَر",
+      "red (m)",
+      "adj"
+     ],
+     [
+      "حَمْرَاء",
+      "red (f)",
+      "adj"
+     ]
+    ]
+   },
+   {
+    "ar": "أَزْرَق / زَرْقَاء",
+    "en": "blue (m / f)",
+    "segs": [
+     [
+      "أَزْرَق",
+      "blue (m)",
+      "adj"
+     ],
+     [
+      "زَرْقَاء",
+      "blue (f)",
+      "adj"
+     ]
+    ]
+   },
+   {
+    "ar": "أَخْضَر / خَضْرَاء",
+    "en": "green (m / f)",
+    "segs": [
+     [
+      "أَخْضَر",
+      "green (m)",
+      "adj"
+     ],
+     [
+      "خَضْرَاء",
+      "green (f)",
+      "adj"
+     ]
+    ]
+   },
+   {
+    "ar": "أَصْفَر / صَفْرَاء",
+    "en": "yellow (m / f)",
+    "segs": [
+     [
+      "أَصْفَر",
+      "yellow (m)",
+      "adj"
+     ],
+     [
+      "صَفْرَاء",
+      "yellow (f)",
+      "adj"
+     ]
+    ]
+   },
+   {
+    "ar": "أَبْيَض / بَيْضَاء",
+    "en": "white (m / f)",
+    "segs": [
+     [
+      "أَبْيَض",
+      "white (m)",
+      "adj"
+     ],
+     [
+      "بَيْضَاء",
+      "white (f)",
+      "adj"
+     ]
+    ]
+   },
+   {
+    "ar": "أَسْوَد / سَوْدَاء",
+    "en": "black (m / f)",
+    "segs": [
+     [
+      "أَسْوَد",
+      "black (m)",
+      "adj"
+     ],
+     [
+      "سَوْدَاء",
+      "black (f)",
+      "adj"
+     ]
+    ]
+   },
+   {
+    "ar": "بُنِّيّ / بُنِّيَّة",
+    "en": "brown (m / f)",
+    "segs": [
+     [
+      "بُنِّيّ",
+      "brown (m)",
+      "adj"
+     ],
+     [
+      "بُنِّيَّة",
+      "brown (f)",
+      "adj"
+     ]
+    ]
+   },
+   {
+    "ar": "رَمَادِيّ / رَمَادِيَّة",
+    "en": "grey (m / f)",
+    "segs": [
+     [
+      "رَمَادِيّ",
+      "grey (m)",
+      "adj"
+     ],
+     [
+      "رَمَادِيَّة",
+      "grey (f)",
+      "adj"
+     ]
+    ]
+   },
+   {
+    "ar": "بُرْتُقَالِيّ / بُرْتُقَالِيَّة",
+    "en": "orange (m / f)",
+    "segs": [
+     [
+      "بُرْتُقَالِيّ",
+      "orange (m)",
+      "adj"
+     ],
+     [
+      "بُرْتُقَالِيَّة",
+      "orange (f)",
+      "adj"
+     ]
+    ]
+   }
+  ],
+  "example": {
+   "ar": "السَّيَّارَةُ حَمْرَاءُ.",
+   "en": "The car is red.",
+   "segs": [
+    [
+     "السَّيَّارَةُ",
+     "the car"
+    ],
+    [
+     "حَمْرَاءُ",
+     "red (f)"
+    ]
+   ]
+  },
+  "grammar": [
+   "colours"
+  ],
+  "status": "needs-review"
+ },
+ {
+  "id": "pc.family",
+  "title": "Family",
+  "titleAr": "الْعَائِلَةُ",
+  "titleSegs": [
+   [
+    "الْعَائِلَةُ",
+    "the family"
+   ]
+  ],
+  "icon": "home-outline",
+  "description": "Arabic has two words for uncle and aunt: the father's side (عَمّ، عَمَّة) and the mother's side (خَال، خَالَة).",
+  "items": [
+   {
+    "ar": "أَب",
+    "en": "father",
+    "segs": [
+     [
+      "أَب",
+      "father",
+      "noun"
+     ]
+    ]
+   },
+   {
+    "ar": "أُمّ",
+    "en": "mother",
+    "segs": [
+     [
+      "أُمّ",
+      "mother",
+      "noun"
+     ]
+    ]
+   },
+   {
+    "ar": "أَخ",
+    "en": "brother",
+    "segs": [
+     [
+      "أَخ",
+      "brother",
+      "noun"
+     ]
+    ]
+   },
+   {
+    "ar": "أُخْت",
+    "en": "sister",
+    "segs": [
+     [
+      "أُخْت",
+      "sister",
+      "noun"
+     ]
+    ]
+   },
+   {
+    "ar": "اِبْن",
+    "en": "son",
+    "segs": [
+     [
+      "اِبْن",
+      "son",
+      "noun"
+     ]
+    ]
+   },
+   {
+    "ar": "بِنْت",
+    "en": "daughter; girl",
+    "segs": [
+     [
+      "بِنْت",
+      "daughter; girl",
+      "noun"
+     ]
+    ]
+   },
+   {
+    "ar": "زَوْج",
+    "en": "husband",
+    "segs": [
+     [
+      "زَوْج",
+      "husband",
+      "noun"
+     ]
+    ]
+   },
+   {
+    "ar": "زَوْجَة",
+    "en": "wife",
+    "segs": [
+     [
+      "زَوْجَة",
+      "wife",
+      "noun"
+     ]
+    ]
+   },
+   {
+    "ar": "جَدّ",
+    "en": "grandfather",
+    "segs": [
+     [
+      "جَدّ",
+      "grandfather",
+      "noun"
+     ]
+    ]
+   },
+   {
+    "ar": "جَدَّة",
+    "en": "grandmother",
+    "segs": [
+     [
+      "جَدَّة",
+      "grandmother",
+      "noun"
+     ]
+    ]
+   },
+   {
+    "ar": "عَمّ",
+    "en": "uncle (father's brother)",
+    "segs": [
+     [
+      "عَمّ",
+      "uncle (father's brother)",
+      "noun"
+     ]
+    ]
+   },
+   {
+    "ar": "خَال",
+    "en": "uncle (mother's brother)",
+    "segs": [
+     [
+      "خَال",
+      "uncle (mother's brother)",
+      "noun"
+     ]
+    ]
+   },
+   {
+    "ar": "عَمَّة",
+    "en": "aunt (father's sister)",
+    "segs": [
+     [
+      "عَمَّة",
+      "aunt (father's sister)",
+      "noun"
+     ]
+    ]
+   },
+   {
+    "ar": "خَالَة",
+    "en": "aunt (mother's sister)",
+    "segs": [
+     [
+      "خَالَة",
+      "aunt (mother's sister)",
+      "noun"
+     ]
+    ]
+   }
+  ],
+  "example": {
+   "ar": "هٰذَا أَخِي وَهٰذِهِ أُخْتِي.",
+   "en": "This is my brother and this is my sister.",
+   "segs": [
+    [
+     "هٰذَا",
+     "this (m)"
+    ],
+    [
+     "أَخِي",
+     "my brother"
+    ],
+    [
+     "وَهٰذِهِ",
+     "and this (f)"
+    ],
+    [
+     "أُخْتِي",
+     "my sister"
+    ]
+   ]
+  },
+  "grammar": [
+   "family-idafa-w5"
+  ],
+  "status": "needs-review"
+ },
+ {
+  "id": "pc.demonstratives",
+  "title": "This and that",
+  "titleAr": "أَسْمَاءُ الْإِشَارَةِ",
+  "titleSegs": [
+   [
+    "أَسْمَاءُ",
+    "names, words (of)"
+   ],
+   [
+    "الْإِشَارَةِ",
+    "pointing"
+   ]
+  ],
+  "icon": "hand-right-outline",
+  "description": "هٰذَا كِتَابٌ = This is a book (no الـ). هٰذَا الْكِتَابُ = this book (with الـ). Plurals of things use the feminine singular: هٰذِهِ الْكُتُبُ.",
+  "items": [
+   {
+    "ar": "هٰذَا",
+    "en": "this (m)",
+    "segs": [
+     [
+      "هٰذَا",
+      "this (m)",
+      "demonstrative"
+     ]
+    ]
+   },
+   {
+    "ar": "هٰذِهِ",
+    "en": "this (f)",
+    "segs": [
+     [
+      "هٰذِهِ",
+      "this (f)",
+      "demonstrative"
+     ]
+    ]
+   },
+   {
+    "ar": "ذٰلِكَ",
+    "en": "that (m)",
+    "segs": [
+     [
+      "ذٰلِكَ",
+      "that (m)",
+      "demonstrative"
+     ]
+    ]
+   },
+   {
+    "ar": "تِلْكَ",
+    "en": "that (f)",
+    "segs": [
+     [
+      "تِلْكَ",
+      "that (f)",
+      "demonstrative"
+     ]
+    ]
+   },
+   {
+    "ar": "هٰؤُلَاءِ",
+    "en": "these (people)",
+    "segs": [
+     [
+      "هٰؤُلَاءِ",
+      "these (people)",
+      "demonstrative"
+     ]
+    ]
+   },
+   {
+    "ar": "أُولٰئِكَ",
+    "en": "those (people)",
+    "segs": [
+     [
+      "أُولٰئِكَ",
+      "those (people)",
+      "demonstrative"
+     ]
+    ]
+   }
+  ],
+  "example": {
+   "ar": "هٰذَا الْكِتَابُ جَدِيدٌ.",
+   "en": "This book is new.",
+   "segs": [
+    [
+     "هٰذَا",
+     "this (m)"
+    ],
+    [
+     "الْكِتَابُ",
+     "the book"
+    ],
+    [
+     "جَدِيدٌ",
+     "new"
+    ]
+   ]
+  },
+  "grammar": [
+   "demonstratives"
+  ],
+  "status": "needs-review"
+ },
+ {
+  "id": "pc.present-tense",
+  "title": "Present tense",
+  "titleAr": "الْفِعْلُ الْمُضَارِعُ",
+  "titleSegs": [
+   [
+    "الْفِعْلُ",
+    "the verb"
+   ],
+   [
+    "الْمُضَارِعُ",
+    "present"
+   ]
+  ],
+  "icon": "create-outline",
+  "description": "The present tense adds a prefix (and for some persons an ending) to the stem ـكْتُبُ. Here: يَكْتُبُ, to write.",
+  "items": [
+   {
+    "ar": "أَنَا أَكْتُبُ",
+    "en": "I write",
+    "segs": [
+     [
+      "أَنَا",
+      "I"
+     ],
+     [
+      "أَكْتُبُ",
+      "write"
+     ]
+    ]
+   },
+   {
+    "ar": "أَنْتَ تَكْتُبُ",
+    "en": "you write (to a man)",
+    "segs": [
+     [
+      "أَنْتَ",
+      "you (m)"
+     ],
+     [
+      "تَكْتُبُ",
+      "write"
+     ]
+    ]
+   },
+   {
+    "ar": "أَنْتِ تَكْتُبِينَ",
+    "en": "you write (to a woman)",
+    "segs": [
+     [
+      "أَنْتِ",
+      "you (f)"
+     ],
+     [
+      "تَكْتُبِينَ",
+      "write"
+     ]
+    ]
+   },
+   {
+    "ar": "هُوَ يَكْتُبُ",
+    "en": "he writes",
+    "segs": [
+     [
+      "هُوَ",
+      "he"
+     ],
+     [
+      "يَكْتُبُ",
+      "writes"
+     ]
+    ]
+   },
+   {
+    "ar": "هِيَ تَكْتُبُ",
+    "en": "she writes",
+    "segs": [
+     [
+      "هِيَ",
+      "she"
+     ],
+     [
+      "تَكْتُبُ",
+      "writes"
+     ]
+    ]
+   },
+   {
+    "ar": "نَحْنُ نَكْتُبُ",
+    "en": "we write",
+    "segs": [
+     [
+      "نَحْنُ",
+      "we"
+     ],
+     [
+      "نَكْتُبُ",
+      "write"
+     ]
+    ]
+   },
+   {
+    "ar": "أَنْتُمْ تَكْتُبُونَ",
+    "en": "you write (to a group)",
+    "segs": [
+     [
+      "أَنْتُمْ",
+      "you (pl)"
+     ],
+     [
+      "تَكْتُبُونَ",
+      "write"
+     ]
+    ]
+   },
+   {
+    "ar": "هُمْ يَكْتُبُونَ",
+    "en": "they write",
+    "segs": [
+     [
+      "هُمْ",
+      "they"
+     ],
+     [
+      "يَكْتُبُونَ",
+      "write"
+     ]
+    ]
+   }
+  ],
+  "example": {
+   "ar": "أَكْتُبُ رِسَالَةً إِلَى صَدِيقِي.",
+   "en": "I am writing a letter to my friend.",
+   "segs": [
+    [
+     "أَكْتُبُ",
+     "I write"
+    ],
+    [
+     "رِسَالَةً",
+     "a letter"
+    ],
+    [
+     "إِلَى",
+     "to"
+    ],
+    [
+     "صَدِيقِي",
+     "my friend"
+    ]
+   ]
+  },
+  "grammar": [
+   "present-tense",
+   "present-plural-w2"
+  ],
+  "status": "needs-review"
+ },
+ {
+  "id": "pc.past-tense",
+  "title": "Past tense",
+  "titleAr": "الْفِعْلُ الْمَاضِي",
+  "titleSegs": [
+   [
+    "الْفِعْلُ",
+    "the verb"
+   ],
+   [
+    "الْمَاضِي",
+    "past"
+   ]
+  ],
+  "icon": "time-outline",
+  "description": "The past tense adds endings to the stem كَتَبْـ. The he-form كَتَبَ is the dictionary form of the verb.",
+  "items": [
+   {
+    "ar": "أَنَا كَتَبْتُ",
+    "en": "I wrote",
+    "segs": [
+     [
+      "أَنَا",
+      "I"
+     ],
+     [
+      "كَتَبْتُ",
+      "wrote"
+     ]
+    ]
+   },
+   {
+    "ar": "أَنْتَ كَتَبْتَ",
+    "en": "you wrote (to a man)",
+    "segs": [
+     [
+      "أَنْتَ",
+      "you (m)"
+     ],
+     [
+      "كَتَبْتَ",
+      "wrote"
+     ]
+    ]
+   },
+   {
+    "ar": "أَنْتِ كَتَبْتِ",
+    "en": "you wrote (to a woman)",
+    "segs": [
+     [
+      "أَنْتِ",
+      "you (f)"
+     ],
+     [
+      "كَتَبْتِ",
+      "wrote"
+     ]
+    ]
+   },
+   {
+    "ar": "هُوَ كَتَبَ",
+    "en": "he wrote",
+    "segs": [
+     [
+      "هُوَ",
+      "he"
+     ],
+     [
+      "كَتَبَ",
+      "wrote"
+     ]
+    ]
+   },
+   {
+    "ar": "هِيَ كَتَبَتْ",
+    "en": "she wrote",
+    "segs": [
+     [
+      "هِيَ",
+      "she"
+     ],
+     [
+      "كَتَبَتْ",
+      "wrote"
+     ]
+    ]
+   },
+   {
+    "ar": "نَحْنُ كَتَبْنَا",
+    "en": "we wrote",
+    "segs": [
+     [
+      "نَحْنُ",
+      "we"
+     ],
+     [
+      "كَتَبْنَا",
+      "wrote"
+     ]
+    ]
+   },
+   {
+    "ar": "أَنْتُمْ كَتَبْتُمْ",
+    "en": "you wrote (to a group)",
+    "segs": [
+     [
+      "أَنْتُمْ",
+      "you (pl)"
+     ],
+     [
+      "كَتَبْتُمْ",
+      "wrote"
+     ]
+    ]
+   },
+   {
+    "ar": "هُمْ كَتَبُوا",
+    "en": "they wrote",
+    "segs": [
+     [
+      "هُمْ",
+      "they"
+     ],
+     [
+      "كَتَبُوا",
+      "wrote"
+     ]
+    ],
+    "note": "The final alif of ـُوا is written but not pronounced."
+   }
+  ],
+  "example": {
+   "ar": "كَتَبْتُ رِسَالَةً أَمْسِ.",
+   "en": "I wrote a letter yesterday.",
+   "segs": [
+    [
+     "كَتَبْتُ",
+     "I wrote"
+    ],
+    [
+     "رِسَالَةً",
+     "a letter"
+    ],
+    [
+     "أَمْسِ",
+     "yesterday"
+    ]
+   ]
+  },
+  "grammar": [
+   "past-tense"
+  ],
+  "status": "needs-review"
+ },
+ {
+  "id": "pc.negation",
+  "title": "Saying no: not",
+  "titleAr": "النَّفْيُ",
+  "titleSegs": [
+   [
+    "النَّفْيُ",
+    "negation"
+   ]
+  ],
+  "icon": "close-circle-outline",
+  "description": "Each tense has its own word for not. لَمْ and لَنْ change the ending of the verb that follows.",
+  "items": [
+   {
+    "ar": "لَا أَعْرِفُ.",
+    "en": "I don't know.",
+    "segs": [
+     [
+      "لَا",
+      "not"
+     ],
+     [
+      "أَعْرِفُ",
+      "I know"
+     ]
+    ],
+    "note": "لَا + present: not now / not usually."
+   },
+   {
+    "ar": "لَسْتُ مُتْعَبًا.",
+    "en": "I am not tired.",
+    "segs": [
+     [
+      "لَسْتُ",
+      "I am not"
+     ],
+     [
+      "مُتْعَبًا",
+      "tired"
+     ]
+    ],
+    "note": "لَيْسَ (is not) for sentences without a verb; here the I-form لَسْتُ."
+   },
+   {
+    "ar": "مَا ذَهَبْتُ.",
+    "en": "I didn't go.",
+    "segs": [
+     [
+      "مَا",
+      "not"
+     ],
+     [
+      "ذَهَبْتُ",
+      "I went"
+     ]
+    ],
+    "note": "مَا + past."
+   },
+   {
+    "ar": "لَمْ أَذْهَبْ.",
+    "en": "I didn't go.",
+    "segs": [
+     [
+      "لَمْ",
+      "did not"
+     ],
+     [
+      "أَذْهَبْ",
+      "I go"
+     ]
+    ],
+    "note": "لَمْ + present form (with sukūn): the usual written past negative."
+   },
+   {
+    "ar": "لَنْ أَذْهَبَ.",
+    "en": "I won't go.",
+    "segs": [
+     [
+      "لَنْ",
+      "will not"
+     ],
+     [
+      "أَذْهَبَ",
+      "I go"
+     ]
+    ],
+    "note": "لَنْ + present form (with fatḥa): the future negative."
+   },
+   {
+    "ar": "لَا تَذْهَبْ!",
+    "en": "Don't go! (to a man)",
+    "segs": [
+     [
+      "لَا",
+      "do not"
+     ],
+     [
+      "تَذْهَبْ",
+      "go"
+     ]
+    ],
+    "note": "لَا + present form (with sukūn): don't."
+   }
+  ],
+  "grammar": [
+   "negation-la",
+   "laysa",
+   "negation-ma-past",
+   "negation-lam",
+   "negation-lan",
+   "negative-imperative"
+  ],
+  "status": "needs-review"
+ },
+ {
+  "id": "pc.prepositions",
+  "title": "Prepositions of place",
+  "titleAr": "حُرُوفُ الْجَرِّ وَظُرُوفُ الْمَكَانِ",
+  "titleSegs": [
+   [
+    "حُرُوفُ",
+    "particles (of)"
+   ],
+   [
+    "الْجَرِّ",
+    "the genitive (prepositions)"
+   ],
+   [
+    "وَظُرُوفُ",
+    "and adverbs (of)"
+   ],
+   [
+    "الْمَكَانِ",
+    "the place"
+   ]
+  ],
+  "icon": "location-outline",
+  "description": "Words for place. The noun after them ends in ‑i (the genitive): فِي الْبَيْتِ, in the house.",
+  "items": [
+   {
+    "ar": "فِي",
+    "en": "in",
+    "segs": [
+     [
+      "فِي",
+      "in",
+      "prep"
+     ]
+    ]
+   },
+   {
+    "ar": "عَلَى",
+    "en": "on",
+    "segs": [
+     [
+      "عَلَى",
+      "on",
+      "prep"
+     ]
+    ]
+   },
+   {
+    "ar": "مِنْ",
+    "en": "from",
+    "segs": [
+     [
+      "مِنْ",
+      "from",
+      "prep"
+     ]
+    ]
+   },
+   {
+    "ar": "إِلَى",
+    "en": "to",
+    "segs": [
+     [
+      "إِلَى",
+      "to",
+      "prep"
+     ]
+    ]
+   },
+   {
+    "ar": "مَعَ",
+    "en": "with",
+    "segs": [
+     [
+      "مَعَ",
+      "with",
+      "prep"
+     ]
+    ]
+   },
+   {
+    "ar": "عِنْدَ",
+    "en": "at (someone's place)",
+    "segs": [
+     [
+      "عِنْدَ",
+      "at",
+      "prep"
+     ]
+    ]
+   },
+   {
+    "ar": "تَحْتَ",
+    "en": "under",
+    "segs": [
+     [
+      "تَحْتَ",
+      "under",
+      "prep"
+     ]
+    ]
+   },
+   {
+    "ar": "فَوْقَ",
+    "en": "above",
+    "segs": [
+     [
+      "فَوْقَ",
+      "above",
+      "prep"
+     ]
+    ]
+   },
+   {
+    "ar": "أَمَامَ",
+    "en": "in front of",
+    "segs": [
+     [
+      "أَمَامَ",
+      "in front of",
+      "prep"
+     ]
+    ]
+   },
+   {
+    "ar": "خَلْفَ",
+    "en": "behind",
+    "segs": [
+     [
+      "خَلْفَ",
+      "behind",
+      "prep"
+     ]
+    ]
+   },
+   {
+    "ar": "بِجَانِبِ",
+    "en": "next to",
+    "segs": [
+     [
+      "بِجَانِبِ",
+      "next to",
+      "prep"
+     ]
+    ]
+   },
+   {
+    "ar": "بَيْنَ",
+    "en": "between",
+    "segs": [
+     [
+      "بَيْنَ",
+      "between",
+      "prep"
+     ]
+    ]
+   }
+  ],
+  "example": {
+   "ar": "الْكِتَابُ عَلَى الطَّاوِلَةِ.",
+   "en": "The book is on the table.",
+   "segs": [
+    [
+     "الْكِتَابُ",
+     "the book"
+    ],
+    [
+     "عَلَى",
+     "on"
+    ],
+    [
+     "الطَّاوِلَةِ",
+     "the table"
+    ]
+   ]
+  },
+  "grammar": [
+   "prepositions-place"
+  ],
+  "status": "needs-review"
+ },
+ {
+  "id": "pc.signs",
+  "title": "Signs around town",
+  "titleAr": "لَافِتَاتٌ فِي الْمَدِينَةِ",
+  "titleSegs": [
+   [
+    "لَافِتَاتٌ",
+    "signs"
+   ],
+   [
+    "فِي",
+    "in"
+   ],
+   [
+    "الْمَدِينَةِ",
+    "the city"
+   ]
+  ],
+  "icon": "signpost-outline",
+  "description": "Words you will see on doors, shops and streets. Signs are usually written without vowel marks; they are shown here with them.",
+  "items": [
+   {
+    "ar": "مَدْخَل",
+    "en": "entrance",
+    "segs": [
+     [
+      "مَدْخَل",
+      "entrance",
+      "noun"
+     ]
+    ]
+   },
+   {
+    "ar": "مَخْرَج",
+    "en": "exit",
+    "segs": [
+     [
+      "مَخْرَج",
+      "exit",
+      "noun"
+     ]
+    ]
+   },
+   {
+    "ar": "مَفْتُوح",
+    "en": "open",
+    "segs": [
+     [
+      "مَفْتُوح",
+      "open",
+      "adj"
+     ]
+    ]
+   },
+   {
+    "ar": "مُغْلَق",
+    "en": "closed",
+    "segs": [
+     [
+      "مُغْلَق",
+      "closed",
+      "adj"
+     ]
+    ]
+   },
+   {
+    "ar": "اِدْفَعْ",
+    "en": "push",
+    "segs": [
+     [
+      "اِدْفَعْ",
+      "push (on a door)",
+      "verb"
+     ]
+    ]
+   },
+   {
+    "ar": "اِسْحَبْ",
+    "en": "pull",
+    "segs": [
+     [
+      "اِسْحَبْ",
+      "pull (on a door)",
+      "verb"
+     ]
+    ]
+   },
+   {
+    "ar": "مَمْنُوعُ التَّدْخِين",
+    "en": "no smoking",
+    "segs": [
+     [
+      "مَمْنُوعُ",
+      "forbidden (is)"
+     ],
+     [
+      "التَّدْخِين",
+      "the smoking"
+     ]
+    ]
+   },
+   {
+    "ar": "دَوْرَةُ الْمِيَاه",
+    "en": "toilets",
+    "segs": [
+     [
+      "دَوْرَةُ",
+      "room, cycle (of)"
+     ],
+     [
+      "الْمِيَاه",
+      "the water"
+     ]
+    ]
+   },
+   {
+    "ar": "رِجَال",
+    "en": "men",
+    "segs": [
+     [
+      "رِجَال",
+      "men (toilets)",
+      "noun"
+     ]
+    ]
+   },
+   {
+    "ar": "سَيِّدَات",
+    "en": "ladies",
+    "segs": [
+     [
+      "سَيِّدَات",
+      "ladies (toilets)",
+      "noun"
+     ]
+    ]
+   },
+   {
+    "ar": "مَخْرَجُ الطَّوَارِئ",
+    "en": "emergency exit",
+    "segs": [
+     [
+      "مَخْرَجُ",
+      "exit (of)"
+     ],
+     [
+      "الطَّوَارِئ",
+      "the emergencies"
+     ]
+    ]
+   },
+   {
+    "ar": "صَيْدَلِيَّة",
+    "en": "pharmacy",
+    "segs": [
+     [
+      "صَيْدَلِيَّة",
+      "pharmacy",
+      "noun"
+     ]
+    ]
+   },
+   {
+    "ar": "قِفْ",
+    "en": "stop",
+    "segs": [
+     [
+      "قِفْ",
+      "stop!",
+      "verb"
+     ]
+    ]
+   },
+   {
+    "ar": "خَطَر",
+    "en": "danger",
+    "segs": [
+     [
+      "خَطَر",
+      "danger",
+      "noun"
+     ]
+    ]
+   }
+  ],
+  "grammar": [
+   "imperative"
+  ],
+  "status": "needs-review"
+ },
+ {
+  "id": "pc.cafe",
+  "title": "At the café",
+  "titleAr": "فِي الْمَقْهَى",
+  "titleSegs": [
+   [
+    "فِي",
+    "in"
+   ],
+   [
+    "الْمَقْهَى",
+    "the café"
+   ]
+  ],
+  "icon": "cafe-outline",
+  "description": "Ordering a drink: أُرِيدُ (I want) + the drink. Add مِنْ فَضْلِكَ to be polite.",
+  "items": [
+   {
+    "ar": "قَهْوَة",
+    "en": "coffee",
+    "segs": [
+     [
+      "قَهْوَة",
+      "coffee",
+      "noun"
+     ]
+    ]
+   },
+   {
+    "ar": "شَاي",
+    "en": "tea",
+    "segs": [
+     [
+      "شَاي",
+      "tea",
+      "noun"
+     ]
+    ]
+   },
+   {
+    "ar": "مَاء",
+    "en": "water",
+    "segs": [
+     [
+      "مَاء",
+      "water",
+      "noun"
+     ]
+    ]
+   },
+   {
+    "ar": "عَصِير",
+    "en": "juice",
+    "segs": [
+     [
+      "عَصِير",
+      "juice",
+      "noun"
+     ]
+    ]
+   },
+   {
+    "ar": "حَلِيب",
+    "en": "milk",
+    "segs": [
+     [
+      "حَلِيب",
+      "milk",
+      "noun"
+     ]
+    ]
+   },
+   {
+    "ar": "سُكَّر",
+    "en": "sugar",
+    "segs": [
+     [
+      "سُكَّر",
+      "sugar",
+      "noun"
+     ]
+    ]
+   },
+   {
+    "ar": "بِدُونِ سُكَّر",
+    "en": "without sugar",
+    "segs": [
+     [
+      "بِدُونِ",
+      "without"
+     ],
+     [
+      "سُكَّر",
+      "sugar"
+     ]
+    ]
+   },
+   {
+    "ar": "فِنْجَانُ قَهْوَة",
+    "en": "a cup of coffee",
+    "segs": [
+     [
+      "فِنْجَانُ",
+      "a cup (of)"
+     ],
+     [
+      "قَهْوَة",
+      "coffee"
+     ]
+    ]
+   },
+   {
+    "ar": "الْحِسَابُ، مِنْ فَضْلِكَ.",
+    "en": "The bill, please.",
+    "segs": [
+     [
+      "الْحِسَابُ",
+      "the bill"
+     ],
+     [
+      "مِنْ",
+      "from"
+     ],
+     [
+      "فَضْلِكَ",
+      "your kindness"
+     ]
+    ]
+   }
+  ],
+  "example": {
+   "ar": "أُرِيدُ قَهْوَةً بِدُونِ سُكَّرٍ، مِنْ فَضْلِكَ.",
+   "en": "I'd like a coffee without sugar, please.",
+   "segs": [
+    [
+     "أُرِيدُ",
+     "I want"
+    ],
+    [
+     "قَهْوَةً",
+     "a coffee"
+    ],
+    [
+     "بِدُونِ",
+     "without"
+    ],
+    [
+     "سُكَّرٍ",
+     "sugar"
+    ],
+    [
+     "مِنْ",
+     "from"
+    ],
+    [
+     "فَضْلِكَ",
+     "your kindness"
+    ]
+   ]
+  },
+  "grammar": [
+   "ordering-w3"
+  ],
+  "status": "needs-review"
+ }
+]

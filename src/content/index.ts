@@ -9,6 +9,7 @@ import {
   GlossEntry,
   Grammar,
   Letter,
+  Placard,
   Pronunciation,
   Scenario,
   Vocab,
@@ -16,6 +17,7 @@ import {
   type Day as DayT,
   type Grammar as GrammarT,
   type Letter as LetterT,
+  type Placard as PlacardT,
   type Pronunciation as PronunciationT,
   type Scenario as ScenarioT,
   type Vocab as VocabT,
@@ -58,6 +60,7 @@ export const pronunciation: PronunciationT[] = validList(
   idOf,
 );
 export const scenarios: ScenarioT[] = validList(Scenario, require('../../content/course/scenarios.json'), 'scenarios', idOf);
+export const placards: PlacardT[] = validList(Placard, require('../../content/course/placards.json'), 'placards', idOf);
 
 function loadCourse(): CourseT | null {
   const r = Course.safeParse(require('../../content/course/course.json'));
@@ -110,6 +113,7 @@ export const vocabById = new Map(vocabulary.map((v) => [v.id, v]));
 export const grammarById = new Map(grammar.map((g) => [g.id, g]));
 export const pronunciationById = new Map(pronunciation.map((p) => [p.id, p]));
 export const letterById = new Map(letters.map((l) => [l.id, l]));
+export const placardById = new Map(placards.map((p) => [p.id, p]));
 export const validDays = days.map((d) => d.day).sort((a, b) => a - b);
 
 export const weekOf = (day: number) => {

@@ -20,6 +20,10 @@ const ROUTES = [
   '/numbers',
   '/settings',
   '/scenarios/cafe',
+  '/explorer',
+  '/placards',
+  '/placards/pc.alphabet',
+  '/placards/pc.colours',
 ];
 
 for (const [w, h] of SIZES) {

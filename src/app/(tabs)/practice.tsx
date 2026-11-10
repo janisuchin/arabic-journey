@@ -59,7 +59,15 @@ export default function Practice() {
         testID="letters-lab"
       />
       <Entry icon="calculator-outline" title="Numbers lab" sub="Number calculator, digits and clock times" href="/numbers" />
+      <Entry
+        icon="git-branch-outline"
+        title="Sentence explorer"
+        sub="Every course sentence, word by word, searchable"
+        href="/explorer"
+        testID="explorer-lab"
+      />
       <Entry icon="school-outline" title="Grammar" sub="Every rule in the course" href="/grammar" />
+      <Entry icon="easel-outline" title="Placards" sub="Quick-reference cards to revise and print" href="/placards" />
       <SectionTitle icon="trophy-outline">Quiz centre</SectionTitle>
       {weeks.map((w) => {
         const open = isWeekTestUnlocked(

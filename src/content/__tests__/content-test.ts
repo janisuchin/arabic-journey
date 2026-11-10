@@ -1,4 +1,4 @@
-import { days, validDays } from '../index';
+import { days, placards, validDays } from '../index';
 import { findGlossGaps } from '../gloss-gaps';
 import { validateAll } from '../validate';
 
@@ -12,6 +12,11 @@ describe('content', () => {
   });
   it('has no gloss gaps (gloss-coverage-test)', () => {
     expect(findGlossGaps()).toEqual([]);
+  });
+  it('has about 18–20 placards with unique ids, none marked approved', () => {
+    expect(placards.length).toBeGreaterThanOrEqual(18);
+    expect(new Set(placards.map((p) => p.id)).size).toBe(placards.length);
+    for (const p of placards) expect(p.status).not.toBe('approved');
   });
   it('never marks content approved without a named reviewer', () => {
     for (const d of days) expect(d.status === 'approved' ? !!d.reviewer : true).toBe(true);

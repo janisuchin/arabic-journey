@@ -136,3 +136,55 @@ test('unlock all opens later days and the week test', async ({ page }) => {
   await page.goto('/day/7');
   await expect(page.getByTestId('day-title')).toContainText('Numbers 1–10');
 });
+
+test('sentence explorer searches in English, unvowelled Arabic and transliteration, and filters', async ({ page }) => {
+  await newLearner(page);
+  await page.goto('/explorer');
+  const count = page.getByTestId('explorer-count');
+  await expect(count).toContainText('sentences');
+  const total = parseInt(await count.innerText(), 10);
+  expect(total).toBeGreaterThan(1500);
+  await page.getByTestId('search-input').fill('coffee');
+  await expect(page.getByTestId('explorer-count')).not.toHaveText(`${total} sentences`);
+  const coffee = parseInt(await count.innerText(), 10);
+  expect(coffee).toBeGreaterThan(0);
+  await page.getByTestId('search-input').fill('قهوة');
+  expect(parseInt(await count.innerText(), 10)).toBeGreaterThan(0);
+  await page.getByTestId('search-input').fill('qahwa');
+  await expect.poll(async () => parseInt(await count.innerText(), 10)).toBeGreaterThan(0);
+  // a word inside a result opens the word box
+  await page.locator('[data-testid^="sentence-"]').first().getByRole('button').first().click();
+  await expect(page.getByTestId('word-box')).toBeVisible();
+  await page.getByTestId('word-box-close').click();
+  await page.getByTestId('search-input').fill('');
+  await page.getByTestId('explorer-kind-scenario').click();
+  const scen = parseInt(await count.innerText(), 10);
+  expect(scen).toBeGreaterThan(100);
+  expect(scen).toBeLessThan(total);
+});
+
+test('grammar page links to the sentences that use its rule', async ({ page }) => {
+  await newLearner(page);
+  await page.goto('/grammar/past-tense');
+  await page.getByTestId('grammar-explorer').click();
+  await expect(page.getByTestId('explorer-clear-rule')).toBeVisible();
+  const n = parseInt(await page.getByTestId('explorer-count').innerText(), 10);
+  expect(n).toBeGreaterThan(0);
+  await page.getByTestId('explorer-clear-rule').click();
+  expect(parseInt(await page.getByTestId('explorer-count').innerText(), 10)).toBeGreaterThan(n);
+});
+
+test('placards: 20 cards, every word tappable, large display', async ({ page }) => {
+  await newLearner(page);
+  await page.goto('/library');
+  await page.getByTestId('lib-Placards').click();
+  await expect(page.locator('[data-testid^="placard-pc."]')).toHaveCount(20);
+  await page.getByTestId('placard-pc.cafe').click();
+  await expect(page.getByTestId('placard')).toBeVisible();
+  await page.getByTestId('placard-item-0').getByTestId('tap-word-0').click();
+  await expect(page.getByTestId('word-box-meaning')).toContainText('coffee');
+  await page.getByTestId('placard-large').click();
+  await expect(page.getByTestId('placard-large')).toContainText('Normal size');
+  await page.goto('/placards/pc.alphabet');
+  await expect(page.getByTestId('placard-table')).toContainText('بَاء');
+});

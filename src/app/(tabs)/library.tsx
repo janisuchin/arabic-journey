@@ -11,10 +11,12 @@ import { useLearner } from '@/state/store';
 const SECTIONS: { title: string; icon: IconName; href: string }[] = [
   { title: 'Dictionary', icon: 'book-outline', href: '/dictionary' },
   { title: 'Letters', icon: 'text-outline', href: '/letters' },
+  { title: 'Placards', icon: 'easel-outline', href: '/placards' },
   { title: 'Vocabulary', icon: 'list-outline', href: '/dictionary?view=course' },
   { title: 'Grammar', icon: 'school-outline', href: '/grammar' },
   { title: 'Pronunciation', icon: 'mic-outline', href: '/pronunciation' },
   { title: 'Scenarios', icon: 'chatbubbles-outline', href: '/scenarios' },
+  { title: 'Sentence explorer', icon: 'git-branch-outline', href: '/explorer' },
   { title: 'Numbers', icon: 'calculator-outline', href: '/numbers' },
   { title: 'Flashcards', icon: 'albums-outline', href: '/flashcards?all=1' },
 ];

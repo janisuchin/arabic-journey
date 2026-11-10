@@ -109,6 +109,16 @@ export interface WordTranslit {
 
 /** Transliterate one Arabic word (no spaces). Always returns academic letters. */
 export function translitWord(word: string): WordTranslit {
+  // Fragments written with a tatweel: ending ـِي -> -ī, prefix/stem الـ -> al-, كَتَبْـ -> katab-
+  if (word.length > 1 && word.startsWith('ـ')) {
+    const t = translitWord('ت' + word.slice(1)).text;
+    return { text: '-' + t.slice(1), wasl: false };
+  }
+  if (word.length > 1 && word.endsWith('ـ')) {
+    const stem = word.slice(0, -1);
+    if (stripHarakat(stem) === 'ال') return { text: 'al-', wasl: true };
+    return { text: translitWord(stem).text + '-', wasl: false };
+  }
   const fixed = FIXED_TRANSLIT[stripHarakat(word)];
   if (fixed) return { text: fixed, wasl: true };
 

@@ -21,6 +21,7 @@ import {
   days,
   handGlossary,
   letters,
+  placards,
   pronunciation,
   readingsLayer,
   scenarios,
@@ -145,6 +146,11 @@ function allSegs(): Seg[] {
   }
   for (const sc of scenarios) for (const l of sc.dialogue.lines) segs.push(...l.segs);
   for (const wk of course?.weeks ?? []) segs.push(...wk.titleSegs);
+  // placards last: their glosses never override the lesson glosses
+  for (const p of placards) {
+    segs.push(...p.titleSegs);
+    for (const it of [...p.items, ...(p.example ? [p.example] : [])]) segs.push(...it.segs);
+  }
   return segs;
 }
 

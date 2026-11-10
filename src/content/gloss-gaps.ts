@@ -1,7 +1,7 @@
 // Finds every Arabic word shown anywhere in the content that has no English meaning.
 // Used by the validator and by the gloss-coverage test: a single gap fails the build.
 
-import { days, grammar, letters, pronunciation, scenarios, vocabulary, course } from './index';
+import { days, grammar, letters, placards, pronunciation, scenarios, vocabulary, course } from './index';
 import { arabicWords, meaningOf } from '../lang/ar/tap';
 
 export interface TextRef {
@@ -75,6 +75,17 @@ export function allShownTexts(): TextRef[] {
     sc.quiz.forEach((q) => {
       add(`scenario ${sc.id} ${q.id} ar`, q.ar);
       q.options.forEach((o, i) => add(`scenario ${sc.id} ${q.id} option ${i}`, o));
+    });
+  }
+  for (const p of placards) {
+    add(`placard ${p.id} titleAr`, p.titleAr);
+    add(`placard ${p.id} description`, p.description);
+    add(`placard ${p.id} caption`, p.table?.caption);
+    p.table?.head.forEach((c, i) => add(`placard ${p.id} head ${i}`, c));
+    p.table?.rows.forEach((r, i) => r.forEach((c, j) => add(`placard ${p.id} cell ${i},${j}`, c)));
+    [...p.items, ...(p.example ? [p.example] : [])].forEach((it, i) => {
+      add(`placard ${p.id} item ${i}`, it.ar);
+      add(`placard ${p.id} item ${i} note`, it.note);
     });
   }
   for (const wk of course?.weeks ?? []) {

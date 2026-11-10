@@ -2,7 +2,7 @@
 
 import { FATHA, DAMMA, KASRA, FATHATAN, DAMMATAN, KASRATAN, SUKUN, SHADDA, DAGGER_ALIF } from '../core/arabic';
 import { arabicWords } from '../lang/ar/tap';
-import { contentIssues, days, scenarios, course } from './index';
+import { contentIssues, days, grammarById, placards, scenarios, course } from './index';
 import { findGlossGaps } from './gloss-gaps';
 import type { Seg } from './schema';
 
@@ -67,6 +67,15 @@ export function validateAll(): ValidationError[] {
   }
   for (const sc of scenarios)
     for (const l of sc.dialogue.lines) checkSegs(`scenario ${sc.id} ${l.id}`, l.ar, l.segs, errs);
+  for (const p of placards) {
+    checkSegs(`placard ${p.id} title`, p.titleAr, p.titleSegs, errs);
+    [...p.items, ...(p.example ? [p.example] : [])].forEach((it, i) => checkSegs(`placard ${p.id} item ${i}`, it.ar, it.segs, errs));
+    for (const g of p.grammar ?? []) if (!grammarById.has(g)) errs.push({ where: `placard ${p.id}`, message: `unknown grammar id "${g}"` });
+    if (p.table?.rows.some((r) => r.length !== p.table!.head.length))
+      errs.push({ where: `placard ${p.id} table`, message: 'a row has a different number of cells than the header' });
+  }
+  if (placards.length && new Set(placards.map((p) => p.id)).size !== placards.length)
+    errs.push({ where: 'placards', message: 'duplicate placard id' });
   for (const g of findGlossGaps()) errs.push({ where: g.where, message: `gloss gap: "${g.word}" has no English meaning` });
   return errs;
 }

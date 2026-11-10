@@ -296,17 +296,26 @@ export function Pill({
   label,
   color,
   onPress,
+  off,
   testID,
 }: {
   label: string;
   color?: string;
   onPress?: () => void;
+  /** an unselected filter chip: neutral colours */
+  off?: boolean;
   testID?: string;
 }) {
   const c = usePalette();
   const inner = (
-    <View style={{ paddingHorizontal: 10, paddingVertical: 4, borderRadius: 99, backgroundColor: color ?? c.accentSoft }}>
-      <AppText size={12} weight="700" color={color ? '#fff' : c.accent}>
+    <View
+      style={{
+        paddingHorizontal: 10,
+        paddingVertical: 4,
+        borderRadius: 99,
+        backgroundColor: off ? c.cardAlt : (color ?? c.accentSoft),
+      }}>
+      <AppText size={12} weight="700" color={off ? c.textMuted : color ? '#fff' : c.accent}>
         {label}
       </AppText>
     </View>
@@ -316,6 +325,7 @@ export function Pill({
     <Pressable
       accessibilityRole="button"
       accessibilityLabel={label}
+      accessibilityState={off === undefined ? undefined : { selected: !off }}
       onPress={onPress}
       testID={testID}
       hitSlop={8}
