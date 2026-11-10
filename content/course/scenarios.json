@@ -12298,5 +12298,5497 @@
         "answer": 1
       }
     ]
+  },
+  {
+    "id": "bank",
+    "title": "At the bank",
+    "emoji": "🏦",
+    "status": "needs-review",
+    "intro": "In Amman, Daniel goes to a bank to open an account, and he also needs some Jordanian dinars. He has his passport and residence card with him, but one paper is missing. Useful phrases: أُرِيدُ أَنْ أَفْتَحَ حِسَابًا (I'd like to open an account), مَا سِعْرُ الصَّرْفِ؟ (what is the exchange rate?) and نَسِيتُ عَقْدَ الْإِيجَارِ (I forgot the rental contract).",
+    "dialogue": {
+      "title": "Opening an account",
+      "speakers": [
+        {
+          "key": "bank-employee",
+          "name": "Bank employee",
+          "nameAr": "مُوَظَّفُ الْبَنْك"
+        },
+        {
+          "key": "daniel",
+          "name": "Daniel",
+          "nameAr": "دَانْيَال"
+        }
+      ],
+      "culture": "Jordan's currency is the dinar (دِينَار), divided into 100 piasters (قِرْش) or 1,000 fils, and since 1995 it has been pegged to the US dollar at about 0.71 dinars per dollar. To open an account, Jordanian banks usually ask foreigners for a passport, a residence card (بِطَاقَةُ الْإِقَامَة) and proof of address such as a rental contract. Banks open from Sunday to Thursday, because Friday and Saturday are the weekend in Jordan.",
+      "lines": [
+        {
+          "id": "bank-l1",
+          "sp": "bank-employee",
+          "ar": "صَبَاحُ الْخَيْر، أَهْلًا بِكَ فِي بَنْكِنَا! كَيْفَ أَسْتَطِيعُ أَنْ أُسَاعِدَكَ الْيَوْمَ؟",
+          "en": "Good morning, welcome to our bank! How can I help you today?",
+          "segs": [
+            [
+              "صَبَاحُ",
+              "morning (of)"
+            ],
+            [
+              "الْخَيْر",
+              "the goodness"
+            ],
+            [
+              "أَهْلًا",
+              "welcome"
+            ],
+            [
+              "بِكَ",
+              "to you (to a man)"
+            ],
+            [
+              "فِي",
+              "in, at"
+            ],
+            [
+              "بَنْكِنَا",
+              "our bank"
+            ],
+            [
+              "كَيْفَ",
+              "how"
+            ],
+            [
+              "أَسْتَطِيعُ",
+              "I can, I am able"
+            ],
+            [
+              "أَنْ",
+              "to, that"
+            ],
+            [
+              "أُسَاعِدَكَ",
+              "I help you (to a man, after an)"
+            ],
+            [
+              "الْيَوْمَ",
+              "today"
+            ]
+          ]
+        },
+        {
+          "id": "bank-l2",
+          "sp": "daniel",
+          "ar": "صَبَاحُ النُّور. أَنَا أَمْرِيكِيّ وَأَسْكُنُ فِي عَمَّان الْآنَ، وَأُرِيدُ أَنْ أَفْتَحَ حِسَابًا فِي بَنْكِكُمْ.",
+          "en": "Good morning. I'm American and I live in Amman now, and I'd like to open an account at your bank.",
+          "segs": [
+            [
+              "صَبَاحُ",
+              "morning (of)"
+            ],
+            [
+              "النُّور",
+              "the light"
+            ],
+            [
+              "أَنَا",
+              "I"
+            ],
+            [
+              "أَمْرِيكِيّ",
+              "American (m)"
+            ],
+            [
+              "وَأَسْكُنُ",
+              "and I live"
+            ],
+            [
+              "فِي",
+              "in"
+            ],
+            [
+              "عَمَّان",
+              "Amman (capital of Jordan)",
+              "name"
+            ],
+            [
+              "الْآنَ",
+              "now"
+            ],
+            [
+              "وَأُرِيدُ",
+              "and I want"
+            ],
+            [
+              "أَنْ",
+              "to, that"
+            ],
+            [
+              "أَفْتَحَ",
+              "I open (after an)"
+            ],
+            [
+              "حِسَابًا",
+              "an account"
+            ],
+            [
+              "فِي",
+              "in, at"
+            ],
+            [
+              "بَنْكِكُمْ",
+              "your bank (to several people)"
+            ]
+          ]
+        },
+        {
+          "id": "bank-l3",
+          "sp": "bank-employee",
+          "ar": "بِكُلِّ سُرُور. هَلْ مَعَكَ جَوَازُ سَفَرِكَ وَبِطَاقَةُ الْإِقَامَةِ وَإِثْبَاتُ الْعُنْوَان؟",
+          "en": "With pleasure. Do you have your passport, the residence card and proof of address with you?",
+          "segs": [
+            [
+              "بِكُلِّ",
+              "with all (of)"
+            ],
+            [
+              "سُرُور",
+              "pleasure"
+            ],
+            [
+              "هَلْ",
+              "(starts a yes/no question)"
+            ],
+            [
+              "مَعَكَ",
+              "with you (to a man)"
+            ],
+            [
+              "جَوَازُ",
+              "permit (of): 'passport' with safar"
+            ],
+            [
+              "سَفَرِكَ",
+              "your travel (to a man)"
+            ],
+            [
+              "وَبِطَاقَةُ",
+              "and card (of)"
+            ],
+            [
+              "الْإِقَامَةِ",
+              "the residence"
+            ],
+            [
+              "وَإِثْبَاتُ",
+              "and proof (of)"
+            ],
+            [
+              "الْعُنْوَان",
+              "the address"
+            ]
+          ]
+        },
+        {
+          "id": "bank-l4",
+          "sp": "daniel",
+          "ar": "تَفَضَّلْ، هٰذَا جَوَازُ سَفَرِي وَهٰذِهِ بِطَاقَةُ الْإِقَامَة. لٰكِنْ لِلْأَسَف نَسِيتُ عَقْدَ الْإِيجَارِ فِي الْبَيْت!",
+          "en": "Here you are, this is my passport and this is the residence card. But unfortunately I forgot the rental contract at home!",
+          "segs": [
+            [
+              "تَفَضَّلْ",
+              "here you are (to a man)"
+            ],
+            [
+              "هٰذَا",
+              "this (m)"
+            ],
+            [
+              "جَوَازُ",
+              "permit (of): 'passport' with safar"
+            ],
+            [
+              "سَفَرِي",
+              "my travel"
+            ],
+            [
+              "وَهٰذِهِ",
+              "and this (f)"
+            ],
+            [
+              "بِطَاقَةُ",
+              "card (of)"
+            ],
+            [
+              "الْإِقَامَة",
+              "the residence"
+            ],
+            [
+              "لٰكِنْ",
+              "but"
+            ],
+            [
+              "لِلْأَسَف",
+              "unfortunately"
+            ],
+            [
+              "نَسِيتُ",
+              "I forgot"
+            ],
+            [
+              "عَقْدَ",
+              "contract (of)"
+            ],
+            [
+              "الْإِيجَارِ",
+              "the rent"
+            ],
+            [
+              "فِي",
+              "at, in"
+            ],
+            [
+              "الْبَيْت",
+              "the house, home"
+            ]
+          ]
+        },
+        {
+          "id": "bank-l5",
+          "sp": "bank-employee",
+          "ar": "لَا تَقْلَقْ. هَلْ عِنْدَكَ صُورَةُ الْعَقْدِ عَلَى هَاتِفِكَ؟ نَقْبَلُهَا الْيَوْمَ، وَتُحْضِرُ الْأَصْلَ غَدًا.",
+          "en": "Don't worry. Do you have a photo of the contract on your phone? We'll accept it today, and you bring the original tomorrow.",
+          "segs": [
+            [
+              "لَا",
+              "don't"
+            ],
+            [
+              "تَقْلَقْ",
+              "worry (to a man)"
+            ],
+            [
+              "هَلْ",
+              "(starts a yes/no question)"
+            ],
+            [
+              "عِنْدَكَ",
+              "you have (to a man)"
+            ],
+            [
+              "صُورَةُ",
+              "picture, photo (of)"
+            ],
+            [
+              "الْعَقْدِ",
+              "the contract"
+            ],
+            [
+              "عَلَى",
+              "on"
+            ],
+            [
+              "هَاتِفِكَ",
+              "your phone (to a man)"
+            ],
+            [
+              "نَقْبَلُهَا",
+              "we accept it (f)"
+            ],
+            [
+              "الْيَوْمَ",
+              "today"
+            ],
+            [
+              "وَتُحْضِرُ",
+              "and you bring (to a man)"
+            ],
+            [
+              "الْأَصْلَ",
+              "the original"
+            ],
+            [
+              "غَدًا",
+              "tomorrow"
+            ]
+          ]
+        },
+        {
+          "id": "bank-l6",
+          "sp": "daniel",
+          "ar": "نَعَم، صَاحِبُ الشَّقَّةِ أَرْسَلَهُ لِي فِي رِسَالَة. انْظُرْ، هٰذَا هُوَ الْعَقْد.",
+          "en": "Yes, the owner of the flat sent it to me in a message. Look, this is the contract.",
+          "segs": [
+            [
+              "نَعَم",
+              "yes"
+            ],
+            [
+              "صَاحِبُ",
+              "owner (of)"
+            ],
+            [
+              "الشَّقَّةِ",
+              "the flat"
+            ],
+            [
+              "أَرْسَلَهُ",
+              "(he) sent it (m)"
+            ],
+            [
+              "لِي",
+              "to me"
+            ],
+            [
+              "فِي",
+              "in"
+            ],
+            [
+              "رِسَالَة",
+              "a message"
+            ],
+            [
+              "انْظُرْ",
+              "look (to a man)"
+            ],
+            [
+              "هٰذَا",
+              "this (m)"
+            ],
+            [
+              "هُوَ",
+              "it is (m)"
+            ],
+            [
+              "الْعَقْد",
+              "the contract"
+            ]
+          ]
+        },
+        {
+          "id": "bank-l7",
+          "sp": "bank-employee",
+          "ar": "مُمْتَاز، الصُّورَةُ وَاضِحَة. سَأَفْتَحُ لَكَ حِسَابًا جَارِيًا بِالدِّينَارِ الْأُرْدُنِيِّ بِدُونِ رُسُوم شَهْرِيَّة.",
+          "en": "Excellent, the photo is clear. I'll open a current account in Jordanian dinars for you, with no monthly fees.",
+          "segs": [
+            [
+              "مُمْتَاز",
+              "excellent"
+            ],
+            [
+              "الصُّورَةُ",
+              "the picture, the photo"
+            ],
+            [
+              "وَاضِحَة",
+              "clear (f)"
+            ],
+            [
+              "سَأَفْتَحُ",
+              "I will open"
+            ],
+            [
+              "لَكَ",
+              "for you (to a man)"
+            ],
+            [
+              "حِسَابًا",
+              "an account"
+            ],
+            [
+              "جَارِيًا",
+              "current (bank account)"
+            ],
+            [
+              "بِالدِّينَارِ",
+              "in the dinar"
+            ],
+            [
+              "الْأُرْدُنِيِّ",
+              "the Jordanian (m)"
+            ],
+            [
+              "بِدُونِ",
+              "without"
+            ],
+            [
+              "رُسُوم",
+              "fees"
+            ],
+            [
+              "شَهْرِيَّة",
+              "monthly (f)"
+            ]
+          ]
+        },
+        {
+          "id": "bank-l8",
+          "sp": "daniel",
+          "ar": "رَائِع! وَمَتَى أَحْصُلُ عَلَى بِطَاقَةِ الْبَنْك؟ أَحْتَاجُهَا لِلدَّفْعِ فِي الْمَحَلَّات.",
+          "en": "Great! And when do I get the bank card? I need it for paying in the shops.",
+          "segs": [
+            [
+              "رَائِع",
+              "great, wonderful"
+            ],
+            [
+              "وَمَتَى",
+              "and when"
+            ],
+            [
+              "أَحْصُلُ",
+              "I get"
+            ],
+            [
+              "عَلَى",
+              "on ('get hold of' with aḥṣulu)"
+            ],
+            [
+              "بِطَاقَةِ",
+              "card (of)"
+            ],
+            [
+              "الْبَنْك",
+              "the bank"
+            ],
+            [
+              "أَحْتَاجُهَا",
+              "I need it (f)"
+            ],
+            [
+              "لِلدَّفْعِ",
+              "for paying"
+            ],
+            [
+              "فِي",
+              "in"
+            ],
+            [
+              "الْمَحَلَّات",
+              "the shops"
+            ]
+          ]
+        },
+        {
+          "id": "bank-l9",
+          "sp": "bank-employee",
+          "ar": "تَصِلُ الْبِطَاقَةُ بَعْدَ أُسْبُوع، وَسَنُرْسِلُ لَكَ رِسَالَةً عِنْدَمَا تَكُونُ جَاهِزَة.",
+          "en": "The card arrives in a week, and we'll send you a message when it's ready.",
+          "segs": [
+            [
+              "تَصِلُ",
+              "(she/it) arrives"
+            ],
+            [
+              "الْبِطَاقَةُ",
+              "the card"
+            ],
+            [
+              "بَعْدَ",
+              "after ('in' a time)"
+            ],
+            [
+              "أُسْبُوع",
+              "a week"
+            ],
+            [
+              "وَسَنُرْسِلُ",
+              "and we will send"
+            ],
+            [
+              "لَكَ",
+              "to you (to a man)"
+            ],
+            [
+              "رِسَالَةً",
+              "a message"
+            ],
+            [
+              "عِنْدَمَا",
+              "when"
+            ],
+            [
+              "تَكُونُ",
+              "(she/it) is"
+            ],
+            [
+              "جَاهِزَة",
+              "ready (f)"
+            ]
+          ]
+        },
+        {
+          "id": "bank-l10",
+          "sp": "daniel",
+          "ar": "شُكْرًا. عِنْدِي سُؤَال آخَر: أُرِيدُ أَنْ أَصْرِفَ خَمْسَمِئَةِ دُولَار أَمْرِيكِيّ إِلَى دَنَانِيرَ. مَا سِعْرُ الصَّرْفِ الْيَوْمَ؟",
+          "en": "Thanks. I have another question: I'd like to change five hundred US dollars into dinars. What's the exchange rate today?",
+          "segs": [
+            [
+              "شُكْرًا",
+              "thank you"
+            ],
+            [
+              "عِنْدِي",
+              "I have (lit. at me)"
+            ],
+            [
+              "سُؤَال",
+              "a question"
+            ],
+            [
+              "آخَر",
+              "another (m)"
+            ],
+            [
+              "أُرِيدُ",
+              "I want"
+            ],
+            [
+              "أَنْ",
+              "to, that"
+            ],
+            [
+              "أَصْرِفَ",
+              "I change (money, after an)"
+            ],
+            [
+              "خَمْسَمِئَةِ",
+              "five hundred"
+            ],
+            [
+              "دُولَار",
+              "dollar(s)"
+            ],
+            [
+              "أَمْرِيكِيّ",
+              "American (m)"
+            ],
+            [
+              "إِلَى",
+              "to, into"
+            ],
+            [
+              "دَنَانِيرَ",
+              "dinars"
+            ],
+            [
+              "مَا",
+              "what"
+            ],
+            [
+              "سِعْرُ",
+              "price, rate (of)"
+            ],
+            [
+              "الصَّرْفِ",
+              "the exchange (of money)"
+            ],
+            [
+              "الْيَوْمَ",
+              "today"
+            ]
+          ]
+        },
+        {
+          "id": "bank-l11",
+          "sp": "bank-employee",
+          "ar": "سِعْرُ الدِّينَارِ ثَابِتٌ مُقَابِلَ الدُّولَار: كُلُّ دُولَار بِحَوَالَيْ سَبْعِينَ قِرْشًا. سَتَحْصُلُ عَلَى حَوَالَيْ ثَلَاثِمِئَةٍ وَخَمْسِينَ دِينَارًا.",
+          "en": "The dinar has a fixed rate against the dollar: each dollar is about seventy piasters. You'll get about three hundred and fifty dinars.",
+          "segs": [
+            [
+              "سِعْرُ",
+              "price, rate (of)"
+            ],
+            [
+              "الدِّينَارِ",
+              "the dinar"
+            ],
+            [
+              "ثَابِتٌ",
+              "fixed (m)"
+            ],
+            [
+              "مُقَابِلَ",
+              "against, in exchange for"
+            ],
+            [
+              "الدُّولَار",
+              "the dollar"
+            ],
+            [
+              "كُلُّ",
+              "each, every"
+            ],
+            [
+              "دُولَار",
+              "dollar"
+            ],
+            [
+              "بِحَوَالَيْ",
+              "for about"
+            ],
+            [
+              "سَبْعِينَ",
+              "seventy"
+            ],
+            [
+              "قِرْشًا",
+              "piasters (1/100 of a dinar)"
+            ],
+            [
+              "سَتَحْصُلُ",
+              "you will get (to a man)"
+            ],
+            [
+              "عَلَى",
+              "on ('get hold of' with taḥṣulu)"
+            ],
+            [
+              "حَوَالَيْ",
+              "about, around"
+            ],
+            [
+              "ثَلَاثِمِئَةٍ",
+              "three hundred"
+            ],
+            [
+              "وَخَمْسِينَ",
+              "and fifty"
+            ],
+            [
+              "دِينَارًا",
+              "dinars (after a number)"
+            ]
+          ]
+        },
+        {
+          "id": "bank-l12",
+          "sp": "daniel",
+          "ar": "هٰذَا جَيِّد. وَهَلْ تَأْخُذُونَ عُمُولَةً عَلَى الصَّرْفِ؟",
+          "en": "That's good. And do you take a commission on the exchange?",
+          "segs": [
+            [
+              "هٰذَا",
+              "this ('that')"
+            ],
+            [
+              "جَيِّد",
+              "good"
+            ],
+            [
+              "وَهَلْ",
+              "and (starts a yes/no question)"
+            ],
+            [
+              "تَأْخُذُونَ",
+              "you (all) take"
+            ],
+            [
+              "عُمُولَةً",
+              "a commission"
+            ],
+            [
+              "عَلَى",
+              "on"
+            ],
+            [
+              "الصَّرْفِ",
+              "the exchange (of money)"
+            ]
+          ]
+        },
+        {
+          "id": "bank-l13",
+          "sp": "bank-employee",
+          "ar": "لَا عُمُولَةَ لِلزَّبَائِنِ الْجُدُدِ. تَفَضَّلْ، هٰذِهِ دَنَانِيرُكَ، وَهٰذَا رَقْمُ حِسَابِكَ الْجَدِيد.",
+          "en": "There's no commission for new customers. Here you are, these are your dinars, and this is your new account number.",
+          "segs": [
+            [
+              "لَا",
+              "no"
+            ],
+            [
+              "عُمُولَةَ",
+              "commission"
+            ],
+            [
+              "لِلزَّبَائِنِ",
+              "for the customers"
+            ],
+            [
+              "الْجُدُدِ",
+              "the new (plural)"
+            ],
+            [
+              "تَفَضَّلْ",
+              "here you are (to a man)"
+            ],
+            [
+              "هٰذِهِ",
+              "these (for things)"
+            ],
+            [
+              "دَنَانِيرُكَ",
+              "your dinars (to a man)"
+            ],
+            [
+              "وَهٰذَا",
+              "and this (m)"
+            ],
+            [
+              "رَقْمُ",
+              "number (of)"
+            ],
+            [
+              "حِسَابِكَ",
+              "your account (to a man)"
+            ],
+            [
+              "الْجَدِيد",
+              "the new (m)"
+            ]
+          ]
+        },
+        {
+          "id": "bank-l14",
+          "sp": "daniel",
+          "ar": "شُكْرًا جَزِيلًا! سَأُحْضِرُ عَقْدَ الْإِيجَارِ الْأَصْلِيَّ غَدًا صَبَاحًا، إِنْ شَاءَ اللّٰه.",
+          "en": "Thank you very much! I'll bring the original rental contract tomorrow morning, God willing.",
+          "segs": [
+            [
+              "شُكْرًا",
+              "thank you"
+            ],
+            [
+              "جَزِيلًا",
+              "very much"
+            ],
+            [
+              "سَأُحْضِرُ",
+              "I will bring"
+            ],
+            [
+              "عَقْدَ",
+              "contract (of)"
+            ],
+            [
+              "الْإِيجَارِ",
+              "the rent"
+            ],
+            [
+              "الْأَصْلِيَّ",
+              "the original (adjective)"
+            ],
+            [
+              "غَدًا",
+              "tomorrow"
+            ],
+            [
+              "صَبَاحًا",
+              "in the morning"
+            ],
+            [
+              "إِنْ",
+              "if"
+            ],
+            [
+              "شَاءَ",
+              "(he) willed"
+            ],
+            [
+              "اللّٰه",
+              "God"
+            ]
+          ]
+        }
+      ]
+    },
+    "mistakes": [
+      {
+        "wrong": "أُرِيدُ أَنْ أَفْتَحُ حِسَابًا",
+        "right": "أُرِيدُ أَنْ أَفْتَحَ حِسَابًا",
+        "why": "After an the verb takes the -a ending: aftaḥa, not aftaḥu."
+      },
+      {
+        "wrong": "ثَلَاثِمِئَةٍ وَخَمْسِينَ دَنَانِير",
+        "right": "ثَلَاثِمِئَةٍ وَخَمْسِينَ دِينَارًا",
+        "why": "When a number ends in 11 to 99 (here 350 ends in fifty), the counted noun is singular with -an: dīnāran, not the plural danānīr."
+      }
+    ],
+    "quiz": [
+      {
+        "id": "bank-q1",
+        "prompt": "What did Daniel forget at home?",
+        "options": [
+          "his passport",
+          "his residence card",
+          "the rental contract",
+          "his bank card"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "bank-q2",
+        "prompt": "When will the bank card arrive?",
+        "options": [
+          "tomorrow",
+          "in a week",
+          "in a month",
+          "today"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "bank-q3",
+        "prompt": "About how many dinars does Daniel get for 500 dollars?",
+        "options": [
+          "500 dinars",
+          "700 dinars",
+          "250 dinars",
+          "350 dinars"
+        ],
+        "answer": 3
+      },
+      {
+        "id": "bank-q4",
+        "prompt": "What does this mean?",
+        "ar": "سِعْرُ الصَّرْفِ",
+        "options": [
+          "the exchange rate",
+          "the bank card",
+          "the monthly fees",
+          "the account number"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  {
+    "id": "lost-phone-help",
+    "title": "Asking for help: a lost phone",
+    "emoji": "🆘",
+    "status": "needs-review",
+    "intro": "In the crowded market in downtown Amman, Daniel suddenly realises that his phone is not in his pocket. He asks a shopkeeper for help and then reports it at a tourist police point nearby. Useful phrases: سَاعِدْنِي مِنْ فَضْلِكَ (help me, please), فَقَدْتُ هَاتِفِي (I lost my phone) and أَيْنَ مَرْكَزُ الشُّرْطَة؟ (where is the police station?).",
+    "dialogue": {
+      "title": "My phone has gone!",
+      "speakers": [
+        {
+          "key": "daniel",
+          "name": "Daniel",
+          "nameAr": "دَانْيَال"
+        },
+        {
+          "key": "shopkeeper",
+          "name": "Shopkeeper",
+          "nameAr": "الْبَائِع"
+        },
+        {
+          "key": "police-officer",
+          "name": "Police officer",
+          "nameAr": "الشُّرْطِيّ"
+        }
+      ],
+      "culture": "Jordan has a tourist police (الشُّرْطَة السِّيَاحِيَّة) with officers at the main sights and in busy areas such as downtown Amman, and many of them speak some English. The emergency number in Jordan is 911. If you lose something in a market, ask the shops nearby first: people often keep a lost phone or wallet for its owner or take it to the police.",
+      "lines": [
+        {
+          "id": "lost-phone-help-l1",
+          "sp": "daniel",
+          "ar": "لَوْ سَمَحْتَ، سَاعِدْنِي مِنْ فَضْلِكَ! فَقَدْتُ هَاتِفِي، وَلَا أَعْرِفُ أَيْنَ هُوَ.",
+          "en": "Excuse me, help me please! I've lost my phone, and I don't know where it is.",
+          "segs": [
+            [
+              "لَوْ",
+              "if"
+            ],
+            [
+              "سَمَحْتَ",
+              "you allow (to a man): 'excuse me'"
+            ],
+            [
+              "سَاعِدْنِي",
+              "help me! (to a man)"
+            ],
+            [
+              "مِنْ",
+              "from"
+            ],
+            [
+              "فَضْلِكَ",
+              "your kindness (to a man): 'please'"
+            ],
+            [
+              "فَقَدْتُ",
+              "I lost"
+            ],
+            [
+              "هَاتِفِي",
+              "my phone"
+            ],
+            [
+              "وَلَا",
+              "and not"
+            ],
+            [
+              "أَعْرِفُ",
+              "I know"
+            ],
+            [
+              "أَيْنَ",
+              "where"
+            ],
+            [
+              "هُوَ",
+              "he, it (m)"
+            ]
+          ]
+        },
+        {
+          "id": "lost-phone-help-l2",
+          "sp": "shopkeeper",
+          "ar": "لَا تَقْلَقْ يَا أَخِي. مَتَى رَأَيْتَهُ آخِرَ مَرَّة؟ هَلْ بَحَثْتَ فِي جُيُوبِكَ وَفِي حَقِيبَتِكَ؟",
+          "en": "Don't worry, my brother. When did you last see it? Did you look in your pockets and in your bag?",
+          "segs": [
+            [
+              "لَا",
+              "not, don't"
+            ],
+            [
+              "تَقْلَقْ",
+              "you worry (after la: 'don't worry')"
+            ],
+            [
+              "يَا",
+              "O (calling someone)"
+            ],
+            [
+              "أَخِي",
+              "my brother"
+            ],
+            [
+              "مَتَى",
+              "when"
+            ],
+            [
+              "رَأَيْتَهُ",
+              "you saw it (m)"
+            ],
+            [
+              "آخِرَ",
+              "last"
+            ],
+            [
+              "مَرَّة",
+              "time (occasion)"
+            ],
+            [
+              "هَلْ",
+              "(starts a yes/no question)"
+            ],
+            [
+              "بَحَثْتَ",
+              "you looked, searched (to a man)"
+            ],
+            [
+              "فِي",
+              "in"
+            ],
+            [
+              "جُيُوبِكَ",
+              "your pockets (to a man)"
+            ],
+            [
+              "وَفِي",
+              "and in"
+            ],
+            [
+              "حَقِيبَتِكَ",
+              "your bag (to a man)"
+            ]
+          ]
+        },
+        {
+          "id": "lost-phone-help-l3",
+          "sp": "daniel",
+          "ar": "نَعَم، بَحَثْتُ فِي كُلِّ مَكَان. كَانَ فِي جَيْبِي قَبْلَ نِصْفِ سَاعَة، عِنْدَمَا اشْتَرَيْتُ الْقَهْوَة. وَمَحْفَظَتِي؟ لَا، هَا هِيَ فِي حَقِيبَتِي!",
+          "en": "Yes, I've looked everywhere. It was in my pocket half an hour ago, when I bought the coffee. And my wallet? No, here it is in my bag!",
+          "segs": [
+            [
+              "نَعَم",
+              "yes"
+            ],
+            [
+              "بَحَثْتُ",
+              "I looked, searched"
+            ],
+            [
+              "فِي",
+              "in"
+            ],
+            [
+              "كُلِّ",
+              "every"
+            ],
+            [
+              "مَكَان",
+              "place"
+            ],
+            [
+              "كَانَ",
+              "(it) was"
+            ],
+            [
+              "فِي",
+              "in"
+            ],
+            [
+              "جَيْبِي",
+              "my pocket"
+            ],
+            [
+              "قَبْلَ",
+              "before, ago"
+            ],
+            [
+              "نِصْفِ",
+              "half (of)"
+            ],
+            [
+              "سَاعَة",
+              "an hour"
+            ],
+            [
+              "عِنْدَمَا",
+              "when"
+            ],
+            [
+              "اشْتَرَيْتُ",
+              "I bought"
+            ],
+            [
+              "الْقَهْوَة",
+              "the coffee"
+            ],
+            [
+              "وَمَحْفَظَتِي",
+              "and my wallet"
+            ],
+            [
+              "لَا",
+              "no"
+            ],
+            [
+              "هَا",
+              "here (is)"
+            ],
+            [
+              "هِيَ",
+              "she, it (f)"
+            ],
+            [
+              "فِي",
+              "in"
+            ],
+            [
+              "حَقِيبَتِي",
+              "my bag"
+            ]
+          ]
+        },
+        {
+          "id": "lost-phone-help-l4",
+          "sp": "shopkeeper",
+          "ar": "الْحَمْدُ لِلّٰه عَلَى الْمَحْفَظَة. السُّوق مُزْدَحِم الْيَوْمَ، فَمِنَ الْأَفْضَلِ أَنْ تَذْهَبَ إِلَى الشُّرْطَة السِّيَاحِيَّة. نُقْطَتُهُمْ قَرِيبَة جِدًّا مِنْ هُنَا.",
+          "en": "Thank God for the wallet. The market is crowded today, so it's better to go to the tourist police. Their police point is very close to here.",
+          "segs": [
+            [
+              "الْحَمْدُ",
+              "the praise"
+            ],
+            [
+              "لِلّٰه",
+              "to God"
+            ],
+            [
+              "عَلَى",
+              "for, on"
+            ],
+            [
+              "الْمَحْفَظَة",
+              "the wallet"
+            ],
+            [
+              "السُّوق",
+              "the market"
+            ],
+            [
+              "مُزْدَحِم",
+              "crowded"
+            ],
+            [
+              "الْيَوْمَ",
+              "today"
+            ],
+            [
+              "فَمِنَ",
+              "so (it is) of"
+            ],
+            [
+              "الْأَفْضَلِ",
+              "the best, the better"
+            ],
+            [
+              "أَنْ",
+              "to, that"
+            ],
+            [
+              "تَذْهَبَ",
+              "you go (after an)"
+            ],
+            [
+              "إِلَى",
+              "to"
+            ],
+            [
+              "الشُّرْطَة",
+              "the police"
+            ],
+            [
+              "السِّيَاحِيَّة",
+              "the tourist (f)"
+            ],
+            [
+              "نُقْطَتُهُمْ",
+              "their point (post)"
+            ],
+            [
+              "قَرِيبَة",
+              "near, close (f)"
+            ],
+            [
+              "جِدًّا",
+              "very"
+            ],
+            [
+              "مِنْ",
+              "from"
+            ],
+            [
+              "هُنَا",
+              "here"
+            ]
+          ]
+        },
+        {
+          "id": "lost-phone-help-l5",
+          "sp": "daniel",
+          "ar": "شُكْرًا! أَيْنَ مَرْكَزُ الشُّرْطَة بِالضَّبْط؟ أَنَا لَا أَعْرِفُ هٰذِهِ الْمِنْطَقَة جَيِّدًا.",
+          "en": "Thank you! Where exactly is the police station? I don't know this area well.",
+          "segs": [
+            [
+              "شُكْرًا",
+              "thank you"
+            ],
+            [
+              "أَيْنَ",
+              "where"
+            ],
+            [
+              "مَرْكَزُ",
+              "centre, station (of)"
+            ],
+            [
+              "الشُّرْطَة",
+              "the police ('police station')"
+            ],
+            [
+              "بِالضَّبْط",
+              "exactly"
+            ],
+            [
+              "أَنَا",
+              "I"
+            ],
+            [
+              "لَا",
+              "not"
+            ],
+            [
+              "أَعْرِفُ",
+              "I know"
+            ],
+            [
+              "هٰذِهِ",
+              "this (f)"
+            ],
+            [
+              "الْمِنْطَقَة",
+              "the area"
+            ],
+            [
+              "جَيِّدًا",
+              "well"
+            ]
+          ]
+        },
+        {
+          "id": "lost-phone-help-l6",
+          "sp": "shopkeeper",
+          "ar": "امْشِ إِلَى آخِرِ الشَّارِع، ثُمَّ خُذْ أَوَّلَ شَارِع عَلَى الْيَمِين. سَتَرَى نُقْطَةَ الشُّرْطَة أَمَامَ الْمَسْجِد.",
+          "en": "Walk to the end of the street, then take the first street on the right. You'll see the police point in front of the mosque.",
+          "segs": [
+            [
+              "امْشِ",
+              "walk! (to a man)"
+            ],
+            [
+              "إِلَى",
+              "to"
+            ],
+            [
+              "آخِرِ",
+              "end (of)"
+            ],
+            [
+              "الشَّارِع",
+              "the street"
+            ],
+            [
+              "ثُمَّ",
+              "then"
+            ],
+            [
+              "خُذْ",
+              "take! (to a man)"
+            ],
+            [
+              "أَوَّلَ",
+              "first (of)"
+            ],
+            [
+              "شَارِع",
+              "street"
+            ],
+            [
+              "عَلَى",
+              "on"
+            ],
+            [
+              "الْيَمِين",
+              "the right"
+            ],
+            [
+              "سَتَرَى",
+              "you will see (to a man)"
+            ],
+            [
+              "نُقْطَةَ",
+              "point, post (of)"
+            ],
+            [
+              "الشُّرْطَة",
+              "the police"
+            ],
+            [
+              "أَمَامَ",
+              "in front of"
+            ],
+            [
+              "الْمَسْجِد",
+              "the mosque"
+            ]
+          ]
+        },
+        {
+          "id": "lost-phone-help-l7",
+          "sp": "police-officer",
+          "ar": "أَهْلًا وَسَهْلًا، تَفَضَّلِ اجْلِسْ. أَنَا هُنَا لِمُسَاعَدَتِكَ. مَاذَا حَدَثَ بِالضَّبْط؟",
+          "en": "Welcome, please sit down. I'm here to help you. What exactly happened?",
+          "segs": [
+            [
+              "أَهْلًا",
+              "welcome"
+            ],
+            [
+              "وَسَهْلًا",
+              "and welcome (lit. and easy)"
+            ],
+            [
+              "تَفَضَّلِ",
+              "please (go ahead, to a man; -i links to the next word)"
+            ],
+            [
+              "اجْلِسْ",
+              "sit! (to a man)"
+            ],
+            [
+              "أَنَا",
+              "I"
+            ],
+            [
+              "هُنَا",
+              "here"
+            ],
+            [
+              "لِمُسَاعَدَتِكَ",
+              "to help you (lit. for your help)"
+            ],
+            [
+              "مَاذَا",
+              "what"
+            ],
+            [
+              "حَدَثَ",
+              "(it) happened"
+            ],
+            [
+              "بِالضَّبْط",
+              "exactly"
+            ]
+          ]
+        },
+        {
+          "id": "lost-phone-help-l8",
+          "sp": "daniel",
+          "ar": "فَقَدْتُ هَاتِفِي فِي السُّوق قَبْلَ سَاعَة تَقْرِيبًا، قُرْبَ مَحَلِّ الْبَهَارَات. أَظُنُّ أَنَّهُ وَقَعَ مِنْ جَيْبِي.",
+          "en": "I lost my phone in the market about an hour ago, near the spice shop. I think it fell out of my pocket.",
+          "segs": [
+            [
+              "فَقَدْتُ",
+              "I lost"
+            ],
+            [
+              "هَاتِفِي",
+              "my phone"
+            ],
+            [
+              "فِي",
+              "in"
+            ],
+            [
+              "السُّوق",
+              "the market"
+            ],
+            [
+              "قَبْلَ",
+              "before, ago"
+            ],
+            [
+              "سَاعَة",
+              "an hour"
+            ],
+            [
+              "تَقْرِيبًا",
+              "about, approximately"
+            ],
+            [
+              "قُرْبَ",
+              "near"
+            ],
+            [
+              "مَحَلِّ",
+              "shop (of)"
+            ],
+            [
+              "الْبَهَارَات",
+              "the spices"
+            ],
+            [
+              "أَظُنُّ",
+              "I think"
+            ],
+            [
+              "أَنَّهُ",
+              "that it (m)"
+            ],
+            [
+              "وَقَعَ",
+              "(it) fell"
+            ],
+            [
+              "مِنْ",
+              "from, out of"
+            ],
+            [
+              "جَيْبِي",
+              "my pocket"
+            ]
+          ]
+        },
+        {
+          "id": "lost-phone-help-l9",
+          "sp": "police-officer",
+          "ar": "حَسَنًا، سَأَكْتُبُ تَقْرِيرًا الْآنَ. مَا نَوْعُ الْهَاتِف، وَمَا لَوْنُهُ؟ وَهَلْ لَهُ غِلَاف؟",
+          "en": "All right, I'll write a report now. What kind of phone is it, and what colour is it? And does it have a case?",
+          "segs": [
+            [
+              "حَسَنًا",
+              "all right, OK"
+            ],
+            [
+              "سَأَكْتُبُ",
+              "I will write"
+            ],
+            [
+              "تَقْرِيرًا",
+              "a report"
+            ],
+            [
+              "الْآنَ",
+              "now"
+            ],
+            [
+              "مَا",
+              "what"
+            ],
+            [
+              "نَوْعُ",
+              "kind, type (of)"
+            ],
+            [
+              "الْهَاتِف",
+              "the phone"
+            ],
+            [
+              "وَمَا",
+              "and what"
+            ],
+            [
+              "لَوْنُهُ",
+              "its colour (m)"
+            ],
+            [
+              "وَهَلْ",
+              "and (starts a yes/no question)"
+            ],
+            [
+              "لَهُ",
+              "it has (lit. for it, m)"
+            ],
+            [
+              "غِلَاف",
+              "a case, a cover"
+            ]
+          ]
+        },
+        {
+          "id": "lost-phone-help-l10",
+          "sp": "daniel",
+          "ar": "هُوَ هَاتِف أَسْوَد كَبِير، وَلَهُ غِلَاف أَحْمَر عَلَيْهِ صُورَةُ جَمَل. اشْتَرَيْتُ الْغِلَاف فِي الْبَتْرَاء.",
+          "en": "It's a big black phone, and it has a red case with a picture of a camel on it. I bought the case in Petra.",
+          "segs": [
+            [
+              "هُوَ",
+              "he, it (m)"
+            ],
+            [
+              "هَاتِف",
+              "phone"
+            ],
+            [
+              "أَسْوَد",
+              "black"
+            ],
+            [
+              "كَبِير",
+              "big"
+            ],
+            [
+              "وَلَهُ",
+              "and it has (m)"
+            ],
+            [
+              "غِلَاف",
+              "a case, a cover"
+            ],
+            [
+              "أَحْمَر",
+              "red"
+            ],
+            [
+              "عَلَيْهِ",
+              "on it (m)"
+            ],
+            [
+              "صُورَةُ",
+              "picture (of)"
+            ],
+            [
+              "جَمَل",
+              "a camel"
+            ],
+            [
+              "اشْتَرَيْتُ",
+              "I bought"
+            ],
+            [
+              "الْغِلَاف",
+              "the case, the cover"
+            ],
+            [
+              "فِي",
+              "in"
+            ],
+            [
+              "الْبَتْرَاء",
+              "Petra (ancient city in Jordan)",
+              "name"
+            ]
+          ]
+        },
+        {
+          "id": "lost-phone-help-l11",
+          "sp": "police-officer",
+          "ar": "جَيِّد. الْآنَ أَحْتَاجُ إِلَى اسْمِكَ وَجِنْسِيَّتِكَ وَعُنْوَانِكَ فِي عَمَّان، وَإِلَى رَقْمِ هَاتِف آخَر لِنَتَّصِلَ بِكَ.",
+          "en": "Good. Now I need your name, your nationality and your address in Amman, and another phone number so we can call you.",
+          "segs": [
+            [
+              "جَيِّد",
+              "good"
+            ],
+            [
+              "الْآنَ",
+              "now"
+            ],
+            [
+              "أَحْتَاجُ",
+              "I need"
+            ],
+            [
+              "إِلَى",
+              "to (after ahtaju: 'I need')"
+            ],
+            [
+              "اسْمِكَ",
+              "your name (to a man)"
+            ],
+            [
+              "وَجِنْسِيَّتِكَ",
+              "and your nationality (to a man)"
+            ],
+            [
+              "وَعُنْوَانِكَ",
+              "and your address (to a man)"
+            ],
+            [
+              "فِي",
+              "in"
+            ],
+            [
+              "عَمَّان",
+              "Amman (capital of Jordan)",
+              "name"
+            ],
+            [
+              "وَإِلَى",
+              "and to"
+            ],
+            [
+              "رَقْمِ",
+              "number (of)"
+            ],
+            [
+              "هَاتِف",
+              "phone"
+            ],
+            [
+              "آخَر",
+              "other, another"
+            ],
+            [
+              "لِنَتَّصِلَ",
+              "so that we call"
+            ],
+            [
+              "بِكَ",
+              "you (after a verb, to a man)"
+            ]
+          ]
+        },
+        {
+          "id": "lost-phone-help-l12",
+          "sp": "daniel",
+          "ar": "اسْمِي دَانْيَال، وَأَنَا أَمْرِيكِيّ مِنْ شِيكَاغُو. أَسْكُنُ فِي فُنْدُقِ الْقَلْعَة فِي جَبَلِ عَمَّان، وَهٰذَا رَقْمُ صَدِيقِي سَامِي.",
+          "en": "My name is Daniel, and I'm American, from Chicago. I'm staying at the Citadel Hotel in Jabal Amman, and this is my friend Sami's number.",
+          "segs": [
+            [
+              "اسْمِي",
+              "my name"
+            ],
+            [
+              "دَانْيَال",
+              "Daniel (first name)",
+              "name"
+            ],
+            [
+              "وَأَنَا",
+              "and I"
+            ],
+            [
+              "أَمْرِيكِيّ",
+              "American (m)"
+            ],
+            [
+              "مِنْ",
+              "from"
+            ],
+            [
+              "شِيكَاغُو",
+              "Chicago (city in the USA)",
+              "name"
+            ],
+            [
+              "أَسْكُنُ",
+              "I live ('I'm staying')"
+            ],
+            [
+              "فِي",
+              "in, at"
+            ],
+            [
+              "فُنْدُقِ",
+              "hotel (of)"
+            ],
+            [
+              "الْقَلْعَة",
+              "the citadel ('the Citadel Hotel')"
+            ],
+            [
+              "فِي",
+              "in"
+            ],
+            [
+              "جَبَلِ",
+              "mountain (of) ('Jabal', a district)"
+            ],
+            [
+              "عَمَّان",
+              "Amman (capital of Jordan)",
+              "name"
+            ],
+            [
+              "وَهٰذَا",
+              "and this"
+            ],
+            [
+              "رَقْمُ",
+              "number (of)"
+            ],
+            [
+              "صَدِيقِي",
+              "my friend"
+            ],
+            [
+              "سَامِي",
+              "Sami (first name)",
+              "name"
+            ]
+          ]
+        },
+        {
+          "id": "lost-phone-help-l13",
+          "sp": "police-officer",
+          "ar": "لَحْظَة، مِنْ فَضْلِكَ. زَمِيلِي يَقُولُ إِنَّ رَجُلًا أَحْضَرَ هَاتِفًا أَسْوَدَ بِغِلَاف أَحْمَر قَبْلَ عَشْرِ دَقَائِق! هَلْ هٰذَا هَاتِفُكَ؟",
+          "en": "One moment, please. My colleague says that a man brought in a black phone with a red case ten minutes ago! Is this your phone?",
+          "segs": [
+            [
+              "لَحْظَة",
+              "a moment"
+            ],
+            [
+              "مِنْ",
+              "from"
+            ],
+            [
+              "فَضْلِكَ",
+              "your kindness (to a man): 'please'"
+            ],
+            [
+              "زَمِيلِي",
+              "my colleague"
+            ],
+            [
+              "يَقُولُ",
+              "(he) says"
+            ],
+            [
+              "إِنَّ",
+              "that (after qala)"
+            ],
+            [
+              "رَجُلًا",
+              "a man"
+            ],
+            [
+              "أَحْضَرَ",
+              "(he) brought"
+            ],
+            [
+              "هَاتِفًا",
+              "a phone"
+            ],
+            [
+              "أَسْوَدَ",
+              "black"
+            ],
+            [
+              "بِغِلَاف",
+              "with a case"
+            ],
+            [
+              "أَحْمَر",
+              "red"
+            ],
+            [
+              "قَبْلَ",
+              "before, ago"
+            ],
+            [
+              "عَشْرِ",
+              "ten (with a feminine noun)"
+            ],
+            [
+              "دَقَائِق",
+              "minutes"
+            ],
+            [
+              "هَلْ",
+              "(starts a yes/no question)"
+            ],
+            [
+              "هٰذَا",
+              "this"
+            ],
+            [
+              "هَاتِفُكَ",
+              "your phone (to a man)"
+            ]
+          ]
+        },
+        {
+          "id": "lost-phone-help-l14",
+          "sp": "daniel",
+          "ar": "نَعَم، هٰذَا هُوَ، وَعَلَيْهِ الْجَمَل! الْحَمْدُ لِلّٰه، شُكْرًا جَزِيلًا لَكَ وَلِلرَّجُلِ الطَّيِّب.",
+          "en": "Yes, that's it, with the camel on it! Thank God, thank you very much, to you and to the kind man.",
+          "segs": [
+            [
+              "نَعَم",
+              "yes"
+            ],
+            [
+              "هٰذَا",
+              "this"
+            ],
+            [
+              "هُوَ",
+              "he, it (m) ('that's it')"
+            ],
+            [
+              "وَعَلَيْهِ",
+              "and on it (m)"
+            ],
+            [
+              "الْجَمَل",
+              "the camel"
+            ],
+            [
+              "الْحَمْدُ",
+              "the praise"
+            ],
+            [
+              "لِلّٰه",
+              "to God"
+            ],
+            [
+              "شُكْرًا",
+              "thank you"
+            ],
+            [
+              "جَزِيلًا",
+              "very much"
+            ],
+            [
+              "لَكَ",
+              "to you (to a man)"
+            ],
+            [
+              "وَلِلرَّجُلِ",
+              "and to the man"
+            ],
+            [
+              "الطَّيِّب",
+              "the kind, the good"
+            ]
+          ]
+        }
+      ]
+    },
+    "mistakes": [
+      {
+        "wrong": "لَهُ غِلَاف حَمْرَاء",
+        "right": "لَهُ غِلَاف أَحْمَر",
+        "why": "غِلَاف (case) is masculine, so the colour is masculine too: aḥmar, not ḥamrāʾ."
+      },
+      {
+        "wrong": "قَبْلَ عَشَرَة دَقَائِق",
+        "right": "قَبْلَ عَشْرِ دَقَائِق",
+        "why": "دَقِيقَة (minute) is feminine, so the number from 3 to 10 takes the form without -a: ʿashr daqāʾiq."
+      }
+    ],
+    "quiz": [
+      {
+        "id": "lost-phone-help-q1",
+        "prompt": "Where does Daniel lose his phone?",
+        "options": [
+          "at the hotel",
+          "in the market",
+          "in a taxi",
+          "at the mosque"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "lost-phone-help-q2",
+        "prompt": "What colour is the case of his phone?",
+        "options": [
+          "black",
+          "blue",
+          "green",
+          "red"
+        ],
+        "answer": 3
+      },
+      {
+        "id": "lost-phone-help-q3",
+        "prompt": "Whose phone number does Daniel give the officer?",
+        "options": [
+          "his friend Sami's",
+          "the hotel's",
+          "the shopkeeper's",
+          "Layla's"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "lost-phone-help-q4",
+        "prompt": "What does this mean?",
+        "ar": "أَيْنَ مَرْكَزُ الشُّرْطَة؟",
+        "options": [
+          "call the police!",
+          "where is the market?",
+          "where is the police station?",
+          "where is my phone?"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  {
+    "id": "museum-info",
+    "title": "Tourist info and the museum",
+    "emoji": "🏛️",
+    "status": "needs-review",
+    "intro": "Daniel is in Amman for a few days and visits the Jordan Museum, where he stops at the information desk before he goes in. He hopes to join a guided tour in English, but the plan changes a little. Useful phrases: مَتَى يُغْلِقُ الْمَتْحَفُ؟ (when does the museum close?), هَلْ يُمْكِنُنِي أَنْ أُصَوِّرَ؟ (can I take photos?) and بِبُطْء، مِنْ فَضْلِكَ (slowly, please).",
+    "dialogue": {
+      "title": "One place on the Arabic tour",
+      "speakers": [
+        {
+          "key": "guide-desk",
+          "name": "Information desk",
+          "nameAr": "مَكْتَبُ الِاسْتِعْلَامَات"
+        },
+        {
+          "key": "daniel",
+          "name": "Daniel",
+          "nameAr": "دَانْيَال"
+        }
+      ],
+      "culture": "The Jordan Museum (الْمَتْحَفُ الْأُرْدُنِيّ) in Amman tells the story of Jordan from prehistoric times to today; its best-known treasures are the 'Ain Ghazal statues, about 9,000 years old and among the oldest large human figures ever found. At many museums and sites in Jordan foreign visitors pay more than Jordanians, and prices are in dinars (دِينَار). Asking a guide to speak slowly (بِبُطْء) is perfectly polite, and most guides are pleased when a visitor tries Arabic.",
+      "lines": [
+        {
+          "id": "museum-info-l1",
+          "sp": "guide-desk",
+          "ar": "صَبَاحَ الْخَيْر، أَهْلًا وَسَهْلًا بِكَ فِي الْمَتْحَفِ الْأُرْدُنِيّ! كَيْفَ يُمْكِنُنِي أَنْ أُسَاعِدَكَ؟",
+          "en": "Good morning, and welcome to the Jordan Museum! How can I help you?",
+          "segs": [
+            [
+              "صَبَاحَ",
+              "morning (of)"
+            ],
+            [
+              "الْخَيْر",
+              "the goodness"
+            ],
+            [
+              "أَهْلًا",
+              "welcome"
+            ],
+            [
+              "وَسَهْلًا",
+              "and welcome ('ahlan wa-sahlan')"
+            ],
+            [
+              "بِكَ",
+              "to you (to a man)"
+            ],
+            [
+              "فِي",
+              "in, to"
+            ],
+            [
+              "الْمَتْحَفِ",
+              "the museum"
+            ],
+            [
+              "الْأُرْدُنِيّ",
+              "the Jordanian"
+            ],
+            [
+              "كَيْفَ",
+              "how"
+            ],
+            [
+              "يُمْكِنُنِي",
+              "I can (lit. it is possible for me)"
+            ],
+            [
+              "أَنْ",
+              "to, that"
+            ],
+            [
+              "أُسَاعِدَكَ",
+              "I help you (to a man, after an)"
+            ]
+          ]
+        },
+        {
+          "id": "museum-info-l2",
+          "sp": "daniel",
+          "ar": "صَبَاحَ النُّور. هٰذِهِ أَوَّلُ زِيَارَة لِي هُنَا. مَتَى يُغْلِقُ الْمَتْحَفُ الْيَوْمَ، وَبِكَمِ التَّذْكِرَة؟",
+          "en": "Good morning. This is my first visit here. When does the museum close today, and how much is a ticket?",
+          "segs": [
+            [
+              "صَبَاحَ",
+              "morning (of)"
+            ],
+            [
+              "النُّور",
+              "the light"
+            ],
+            [
+              "هٰذِهِ",
+              "this (f)"
+            ],
+            [
+              "أَوَّلُ",
+              "the first (of)"
+            ],
+            [
+              "زِيَارَة",
+              "visit"
+            ],
+            [
+              "لِي",
+              "for me ('my')"
+            ],
+            [
+              "هُنَا",
+              "here"
+            ],
+            [
+              "مَتَى",
+              "when"
+            ],
+            [
+              "يُغْلِقُ",
+              "(it) closes"
+            ],
+            [
+              "الْمَتْحَفُ",
+              "the museum"
+            ],
+            [
+              "الْيَوْمَ",
+              "today"
+            ],
+            [
+              "وَبِكَمِ",
+              "and how much (-i links to the next word)"
+            ],
+            [
+              "التَّذْكِرَة",
+              "the ticket"
+            ]
+          ]
+        },
+        {
+          "id": "museum-info-l3",
+          "sp": "guide-desk",
+          "ar": "الْمَتْحَفُ مَفْتُوح الْيَوْمَ حَتَّى السَّاعَةِ الْخَامِسَة. التَّذْكِرَةُ لِلْأَجَانِب بِخَمْسَةِ دَنَانِير، وَهِيَ أَرْخَصُ لِلْأُرْدُنِيِّين.",
+          "en": "The museum is open today until five o'clock. A ticket for foreigners is five dinars, and it's cheaper for Jordanians.",
+          "segs": [
+            [
+              "الْمَتْحَفُ",
+              "the museum"
+            ],
+            [
+              "مَفْتُوح",
+              "open"
+            ],
+            [
+              "الْيَوْمَ",
+              "today"
+            ],
+            [
+              "حَتَّى",
+              "until"
+            ],
+            [
+              "السَّاعَةِ",
+              "the hour, o'clock"
+            ],
+            [
+              "الْخَامِسَة",
+              "the fifth ('five o'clock')"
+            ],
+            [
+              "التَّذْكِرَةُ",
+              "the ticket"
+            ],
+            [
+              "لِلْأَجَانِب",
+              "for the foreigners"
+            ],
+            [
+              "بِخَمْسَةِ",
+              "for five (of)"
+            ],
+            [
+              "دَنَانِير",
+              "dinars"
+            ],
+            [
+              "وَهِيَ",
+              "and it (f)"
+            ],
+            [
+              "أَرْخَصُ",
+              "cheaper"
+            ],
+            [
+              "لِلْأُرْدُنِيِّين",
+              "for the Jordanians"
+            ]
+          ]
+        },
+        {
+          "id": "museum-info-l4",
+          "sp": "daniel",
+          "ar": "هٰذَا مَعْقُول. هَلْ هُنَاكَ جَوْلَة مَعَ مُرْشِد؟ أُفَضِّلُ جَوْلَة بِالْإِنْجِلِيزِيَّة، لِأَنَّ عَرَبِيَّتِي مَا زَالَتْ ضَعِيفَة.",
+          "en": "That's reasonable. Is there a tour with a guide? I'd prefer a tour in English, because my Arabic is still weak.",
+          "segs": [
+            [
+              "هٰذَا",
+              "this ('that')"
+            ],
+            [
+              "مَعْقُول",
+              "reasonable"
+            ],
+            [
+              "هَلْ",
+              "(starts a yes/no question)"
+            ],
+            [
+              "هُنَاكَ",
+              "there is"
+            ],
+            [
+              "جَوْلَة",
+              "a tour"
+            ],
+            [
+              "مَعَ",
+              "with"
+            ],
+            [
+              "مُرْشِد",
+              "a guide"
+            ],
+            [
+              "أُفَضِّلُ",
+              "I prefer"
+            ],
+            [
+              "جَوْلَة",
+              "a tour"
+            ],
+            [
+              "بِالْإِنْجِلِيزِيَّة",
+              "in English"
+            ],
+            [
+              "لِأَنَّ",
+              "because"
+            ],
+            [
+              "عَرَبِيَّتِي",
+              "my Arabic"
+            ],
+            [
+              "مَا",
+              "not (in 'mā zālat')"
+            ],
+            [
+              "زَالَتْ",
+              "(she) ceased ('mā zālat': is still)"
+            ],
+            [
+              "ضَعِيفَة",
+              "weak (f)"
+            ]
+          ]
+        },
+        {
+          "id": "museum-info-l5",
+          "sp": "guide-desk",
+          "ar": "نَعَم، هُنَاكَ جَوْلَتَانِ بَعْدَ رُبْعِ سَاعَة: وَاحِدَة بِالْإِنْجِلِيزِيَّة وَوَاحِدَة بِالْعَرَبِيَّة. كُلُّ جَوْلَة بِدِينَارَيْنِ.",
+          "en": "Yes, there are two tours in a quarter of an hour: one in English and one in Arabic. Each tour costs two dinars.",
+          "segs": [
+            [
+              "نَعَم",
+              "yes"
+            ],
+            [
+              "هُنَاكَ",
+              "there is, there are"
+            ],
+            [
+              "جَوْلَتَانِ",
+              "two tours"
+            ],
+            [
+              "بَعْدَ",
+              "after ('in')"
+            ],
+            [
+              "رُبْعِ",
+              "a quarter (of)"
+            ],
+            [
+              "سَاعَة",
+              "an hour"
+            ],
+            [
+              "وَاحِدَة",
+              "one (f)"
+            ],
+            [
+              "بِالْإِنْجِلِيزِيَّة",
+              "in English"
+            ],
+            [
+              "وَوَاحِدَة",
+              "and one (f)"
+            ],
+            [
+              "بِالْعَرَبِيَّة",
+              "in Arabic"
+            ],
+            [
+              "كُلُّ",
+              "every, each"
+            ],
+            [
+              "جَوْلَة",
+              "tour"
+            ],
+            [
+              "بِدِينَارَيْنِ",
+              "for two dinars"
+            ]
+          ]
+        },
+        {
+          "id": "museum-info-l6",
+          "sp": "daniel",
+          "ar": "طَيِّب. وَهَلْ يُمْكِنُنِي أَنْ أُصَوِّرَ فِي الْقَاعَات؟ وَهَلْ عِنْدَكُمْ خَرِيطَة لِلْمَتْحَف؟",
+          "en": "Okay. And can I take photos in the halls? And do you have a map of the museum?",
+          "segs": [
+            [
+              "طَيِّب",
+              "good, okay"
+            ],
+            [
+              "وَهَلْ",
+              "and (starts a yes/no question)"
+            ],
+            [
+              "يُمْكِنُنِي",
+              "I can (lit. it is possible for me)"
+            ],
+            [
+              "أَنْ",
+              "to, that"
+            ],
+            [
+              "أُصَوِّرَ",
+              "I take photos (after an)"
+            ],
+            [
+              "فِي",
+              "in"
+            ],
+            [
+              "الْقَاعَات",
+              "the halls"
+            ],
+            [
+              "وَهَلْ",
+              "and (starts a yes/no question)"
+            ],
+            [
+              "عِنْدَكُمْ",
+              "you have (to a group; lit. at you)"
+            ],
+            [
+              "خَرِيطَة",
+              "a map"
+            ],
+            [
+              "لِلْمَتْحَف",
+              "for the museum ('of the museum')"
+            ]
+          ]
+        },
+        {
+          "id": "museum-info-l7",
+          "sp": "guide-desk",
+          "ar": "التَّصْوِيرُ مَسْمُوح، لٰكِنْ بِدُونِ فَلَاش. وَهٰذِهِ خَرِيطَة مَجَّانِيَّة. آهْ، لَحْظَة… لِلْأَسَف، الْجَوْلَةُ الْإِنْجِلِيزِيَّةُ مُمْتَلِئَة.",
+          "en": "Photography is allowed, but without flash. And here is a free map. Oh, one moment... unfortunately, the English tour is full.",
+          "segs": [
+            [
+              "التَّصْوِيرُ",
+              "photography"
+            ],
+            [
+              "مَسْمُوح",
+              "allowed"
+            ],
+            [
+              "لٰكِنْ",
+              "but"
+            ],
+            [
+              "بِدُونِ",
+              "without"
+            ],
+            [
+              "فَلَاش",
+              "flash (camera)"
+            ],
+            [
+              "وَهٰذِهِ",
+              "and this (f) ('and here is')"
+            ],
+            [
+              "خَرِيطَة",
+              "a map"
+            ],
+            [
+              "مَجَّانِيَّة",
+              "free (of charge, f)"
+            ],
+            [
+              "آهْ",
+              "oh"
+            ],
+            [
+              "لَحْظَة",
+              "a moment"
+            ],
+            [
+              "لِلْأَسَف",
+              "unfortunately"
+            ],
+            [
+              "الْجَوْلَةُ",
+              "the tour"
+            ],
+            [
+              "الْإِنْجِلِيزِيَّةُ",
+              "the English (f)"
+            ],
+            [
+              "مُمْتَلِئَة",
+              "full (f)"
+            ]
+          ]
+        },
+        {
+          "id": "museum-info-l8",
+          "sp": "daniel",
+          "ar": "مُمْتَلِئَة؟ يَا خَسَارَة! وَمَتَى الْجَوْلَةُ الْإِنْجِلِيزِيَّةُ التَّالِيَة؟",
+          "en": "Full? What a pity! And when is the next English tour?",
+          "segs": [
+            [
+              "مُمْتَلِئَة",
+              "full (f)"
+            ],
+            [
+              "يَا",
+              "oh (calling word)"
+            ],
+            [
+              "خَسَارَة",
+              "loss ('what a pity')"
+            ],
+            [
+              "وَمَتَى",
+              "and when"
+            ],
+            [
+              "الْجَوْلَةُ",
+              "the tour"
+            ],
+            [
+              "الْإِنْجِلِيزِيَّةُ",
+              "the English (f)"
+            ],
+            [
+              "التَّالِيَة",
+              "the next (f)"
+            ]
+          ]
+        },
+        {
+          "id": "museum-info-l9",
+          "sp": "guide-desk",
+          "ar": "بَعْدَ الظُّهْر، فِي السَّاعَةِ الثَّالِثَة. لٰكِنْ فِي الْجَوْلَةِ الْعَرَبِيَّةِ مَكَان، وَالْمُرْشِدُ يَتَكَلَّمُ بِبُطْء وَبِوُضُوح.",
+          "en": "In the afternoon, at three o'clock. But there is room on the Arabic tour, and the guide speaks slowly and clearly.",
+          "segs": [
+            [
+              "بَعْدَ",
+              "after"
+            ],
+            [
+              "الظُّهْر",
+              "noon ('in the afternoon')"
+            ],
+            [
+              "فِي",
+              "at"
+            ],
+            [
+              "السَّاعَةِ",
+              "the hour, o'clock"
+            ],
+            [
+              "الثَّالِثَة",
+              "the third ('three o'clock')"
+            ],
+            [
+              "لٰكِنْ",
+              "but"
+            ],
+            [
+              "فِي",
+              "in, on"
+            ],
+            [
+              "الْجَوْلَةِ",
+              "the tour"
+            ],
+            [
+              "الْعَرَبِيَّةِ",
+              "the Arabic (f)"
+            ],
+            [
+              "مَكَان",
+              "a place, room"
+            ],
+            [
+              "وَالْمُرْشِدُ",
+              "and the guide"
+            ],
+            [
+              "يَتَكَلَّمُ",
+              "(he) speaks"
+            ],
+            [
+              "بِبُطْء",
+              "slowly"
+            ],
+            [
+              "وَبِوُضُوح",
+              "and clearly"
+            ]
+          ]
+        },
+        {
+          "id": "museum-info-l10",
+          "sp": "daniel",
+          "ar": "فِكْرَة جَيِّدَة! سَأَنْضَمُّ إِلَى الْجَوْلَةِ الْعَرَبِيَّة. هٰذَا تَمْرِين مُمْتَاز لِي بَعْدَ دُرُوسِ الْعَرَبِيَّة.",
+          "en": "Good idea! I'll join the Arabic tour. That's excellent practice for me after my Arabic lessons.",
+          "segs": [
+            [
+              "فِكْرَة",
+              "an idea"
+            ],
+            [
+              "جَيِّدَة",
+              "good (f)"
+            ],
+            [
+              "سَأَنْضَمُّ",
+              "I will join"
+            ],
+            [
+              "إِلَى",
+              "to"
+            ],
+            [
+              "الْجَوْلَةِ",
+              "the tour"
+            ],
+            [
+              "الْعَرَبِيَّة",
+              "the Arabic (f)"
+            ],
+            [
+              "هٰذَا",
+              "this ('that')"
+            ],
+            [
+              "تَمْرِين",
+              "practice, exercise"
+            ],
+            [
+              "مُمْتَاز",
+              "excellent"
+            ],
+            [
+              "لِي",
+              "for me"
+            ],
+            [
+              "بَعْدَ",
+              "after"
+            ],
+            [
+              "دُرُوسِ",
+              "lessons (of)"
+            ],
+            [
+              "الْعَرَبِيَّة",
+              "Arabic"
+            ]
+          ]
+        },
+        {
+          "id": "museum-info-l11",
+          "sp": "guide-desk",
+          "ar": "تَذْكِرَة وَاحِدَة وَمَكَان فِي الْجَوْلَة: الْمَجْمُوعُ سَبْعَةُ دَنَانِير، خَمْسَة لِلتَّذْكِرَة وَاثْنَانِ لِلْجَوْلَة.",
+          "en": "One ticket and a place on the tour: that's seven dinars altogether, five for the ticket and two for the tour.",
+          "segs": [
+            [
+              "تَذْكِرَة",
+              "a ticket"
+            ],
+            [
+              "وَاحِدَة",
+              "one (f)"
+            ],
+            [
+              "وَمَكَان",
+              "and a place"
+            ],
+            [
+              "فِي",
+              "in, on"
+            ],
+            [
+              "الْجَوْلَة",
+              "the tour"
+            ],
+            [
+              "الْمَجْمُوعُ",
+              "the total"
+            ],
+            [
+              "سَبْعَةُ",
+              "seven (of)"
+            ],
+            [
+              "دَنَانِير",
+              "dinars"
+            ],
+            [
+              "خَمْسَة",
+              "five"
+            ],
+            [
+              "لِلتَّذْكِرَة",
+              "for the ticket"
+            ],
+            [
+              "وَاثْنَانِ",
+              "and two"
+            ],
+            [
+              "لِلْجَوْلَة",
+              "for the tour"
+            ]
+          ]
+        },
+        {
+          "id": "museum-info-l12",
+          "sp": "daniel",
+          "ar": "تَفَضَّلْ، سَبْعَةُ دَنَانِير. أَيْنَ تَبْدَأُ الْجَوْلَة؟ وَمَا اسْمُ الْمُرْشِد؟",
+          "en": "Here you are, seven dinars. Where does the tour start? And what is the guide's name?",
+          "segs": [
+            [
+              "تَفَضَّلْ",
+              "here you are (to a man)"
+            ],
+            [
+              "سَبْعَةُ",
+              "seven (of)"
+            ],
+            [
+              "دَنَانِير",
+              "dinars"
+            ],
+            [
+              "أَيْنَ",
+              "where"
+            ],
+            [
+              "تَبْدَأُ",
+              "(she/it f) starts"
+            ],
+            [
+              "الْجَوْلَة",
+              "the tour"
+            ],
+            [
+              "وَمَا",
+              "and what"
+            ],
+            [
+              "اسْمُ",
+              "name (of)"
+            ],
+            [
+              "الْمُرْشِد",
+              "the guide"
+            ]
+          ]
+        },
+        {
+          "id": "museum-info-l13",
+          "sp": "guide-desk",
+          "ar": "تَبْدَأُ هُنَاكَ، عِنْدَ الْبَابِ الْكَبِير. اسْمُهُ الْأُسْتَاذُ خَالِد، وَهُوَ صَبُور جِدًّا مَعَ الطُّلَّاب.",
+          "en": "It starts over there, by the big door. His name is Mr Khalid, and he is very patient with students.",
+          "segs": [
+            [
+              "تَبْدَأُ",
+              "(she/it f) starts"
+            ],
+            [
+              "هُنَاكَ",
+              "there"
+            ],
+            [
+              "عِنْدَ",
+              "at, by"
+            ],
+            [
+              "الْبَابِ",
+              "the door"
+            ],
+            [
+              "الْكَبِير",
+              "the big"
+            ],
+            [
+              "اسْمُهُ",
+              "his name"
+            ],
+            [
+              "الْأُسْتَاذُ",
+              "Mr, teacher (title)"
+            ],
+            [
+              "خَالِد",
+              "Khalid (first name)",
+              "name"
+            ],
+            [
+              "وَهُوَ",
+              "and he"
+            ],
+            [
+              "صَبُور",
+              "patient"
+            ],
+            [
+              "جِدًّا",
+              "very"
+            ],
+            [
+              "مَعَ",
+              "with"
+            ],
+            [
+              "الطُّلَّاب",
+              "the students"
+            ]
+          ]
+        },
+        {
+          "id": "museum-info-l14",
+          "sp": "daniel",
+          "ar": "شُكْرًا جَزِيلًا! سَأَسْأَلُهُ أَسْئِلَة كَثِيرَة، لٰكِنْ بِبُطْء، كَمَا يَتَكَلَّمُ هُوَ.",
+          "en": "Thank you very much! I'll ask him lots of questions, but slowly, just as he speaks.",
+          "segs": [
+            [
+              "شُكْرًا",
+              "thank you"
+            ],
+            [
+              "جَزِيلًا",
+              "very much"
+            ],
+            [
+              "سَأَسْأَلُهُ",
+              "I will ask him"
+            ],
+            [
+              "أَسْئِلَة",
+              "questions"
+            ],
+            [
+              "كَثِيرَة",
+              "many (f)"
+            ],
+            [
+              "لٰكِنْ",
+              "but"
+            ],
+            [
+              "بِبُطْء",
+              "slowly"
+            ],
+            [
+              "كَمَا",
+              "as, just as"
+            ],
+            [
+              "يَتَكَلَّمُ",
+              "(he) speaks"
+            ],
+            [
+              "هُوَ",
+              "he"
+            ]
+          ]
+        }
+      ]
+    },
+    "mistakes": [
+      {
+        "wrong": "التَّذْكِرَةُ بِخَمْسَة دِينَار",
+        "right": "التَّذْكِرَةُ بِخَمْسَةِ دَنَانِير",
+        "why": "After the numbers 3 to 10 the noun is plural: khamsatu danānīr (five dinars), not khamsa dīnār."
+      },
+      {
+        "wrong": "هَلْ يُمْكِنُنِي أُصَوِّرُ فِي الْقَاعَات؟",
+        "right": "هَلْ يُمْكِنُنِي أَنْ أُصَوِّرَ فِي الْقَاعَات؟",
+        "why": "After yumkinunī (I can) you need an plus the verb in the subjunctive, ending in -a: an uṣawwira."
+      }
+    ],
+    "quiz": [
+      {
+        "id": "museum-info-q1",
+        "prompt": "Until what time is the museum open today?",
+        "options": [
+          "five o'clock",
+          "three o'clock",
+          "seven o'clock",
+          "ten o'clock"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "museum-info-q2",
+        "prompt": "Why does Daniel join the Arabic tour?",
+        "options": [
+          "It is cheaper.",
+          "Mr Khalid is his teacher.",
+          "The English tour is full.",
+          "He does not like English."
+        ],
+        "answer": 2
+      },
+      {
+        "id": "museum-info-q3",
+        "prompt": "How much does Daniel pay altogether?",
+        "options": [
+          "five dinars",
+          "two dinars",
+          "nine dinars",
+          "seven dinars"
+        ],
+        "answer": 3
+      },
+      {
+        "id": "museum-info-q4",
+        "prompt": "What does this mean?",
+        "ar": "التَّصْوِيرُ مَسْمُوح",
+        "options": [
+          "Photography is forbidden.",
+          "Photography is allowed.",
+          "The tour is full.",
+          "The map is free."
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "post-office",
+    "title": "At the post office",
+    "emoji": "📮",
+    "status": "needs-review",
+    "intro": "Daniel takes a parcel of gifts for his family in Chicago to the post office in Cairo: Egyptian dates and a scarf for his mother's birthday. He has to choose how to send it, fill in a customs form and buy stamps for some postcards. Useful phrases: أُرِيدُ أَنْ أُرْسِلَ هٰذَا الطَّرْدَ (I want to send this parcel), كَمْ يَزِنُ الطَّرْدُ؟ (how much does the parcel weigh?) and الْبَرِيدَ الْعَادِيَّ أَمِ الْبَرِيدَ السَّرِيع؟ (normal post or express post?).",
+    "dialogue": {
+      "title": "A parcel for Chicago",
+      "speakers": [
+        {
+          "key": "postal-clerk",
+          "name": "Postal clerk",
+          "nameAr": "مُوَظَّفُ الْبَرِيد"
+        },
+        {
+          "key": "daniel",
+          "name": "Daniel",
+          "nameAr": "دَانْيَال"
+        }
+      ],
+      "culture": "Egypt Post (الْبَرِيدُ الْمِصْرِيّ) is one of the oldest postal services in the world, founded in 1865. A parcel going abroad needs a customs form (اِسْتِمَارَةُ الْجَمَارِك) that lists the contents and their value, and the clerk may look inside before the box is sealed, so it is normal to close the parcel at the counter. Express post costs more, but it is faster and comes with a tracking number.",
+      "lines": [
+        {
+          "id": "post-office-l1",
+          "sp": "postal-clerk",
+          "ar": "صَبَاحَ الْخَيْر! تَفَضَّلْ، كَيْفَ أَسْتَطِيعُ أَنْ أُسَاعِدَكَ الْيَوْم؟",
+          "en": "Good morning! Please come forward, how can I help you today?",
+          "segs": [
+            [
+              "صَبَاحَ",
+              "morning (of)"
+            ],
+            [
+              "الْخَيْر",
+              "the goodness"
+            ],
+            [
+              "تَفَضَّلْ",
+              "please, go ahead (to a man)"
+            ],
+            [
+              "كَيْفَ",
+              "how"
+            ],
+            [
+              "أَسْتَطِيعُ",
+              "I can"
+            ],
+            [
+              "أَنْ",
+              "to, that"
+            ],
+            [
+              "أُسَاعِدَكَ",
+              "I help you (to a man, after an)"
+            ],
+            [
+              "الْيَوْم",
+              "today"
+            ]
+          ]
+        },
+        {
+          "id": "post-office-l2",
+          "sp": "daniel",
+          "ar": "صَبَاحَ النُّور. أُرِيدُ أَنْ أُرْسِلَ هٰذَا الطَّرْدَ إِلَى عَائِلَتِي فِي شِيكَاغُو، فِيهِ هَدَايَا مِنْ مِصْر.",
+          "en": "Good morning. I want to send this parcel to my family in Chicago; there are gifts from Egypt in it.",
+          "segs": [
+            [
+              "صَبَاحَ",
+              "morning (of)"
+            ],
+            [
+              "النُّور",
+              "the light"
+            ],
+            [
+              "أُرِيدُ",
+              "I want"
+            ],
+            [
+              "أَنْ",
+              "to, that"
+            ],
+            [
+              "أُرْسِلَ",
+              "I send (after an)"
+            ],
+            [
+              "هٰذَا",
+              "this"
+            ],
+            [
+              "الطَّرْدَ",
+              "the parcel"
+            ],
+            [
+              "إِلَى",
+              "to"
+            ],
+            [
+              "عَائِلَتِي",
+              "my family"
+            ],
+            [
+              "فِي",
+              "in"
+            ],
+            [
+              "شِيكَاغُو",
+              "Chicago (city)",
+              "name"
+            ],
+            [
+              "فِيهِ",
+              "in it (m)"
+            ],
+            [
+              "هَدَايَا",
+              "gifts"
+            ],
+            [
+              "مِنْ",
+              "from"
+            ],
+            [
+              "مِصْر",
+              "Egypt",
+              "name"
+            ]
+          ]
+        },
+        {
+          "id": "post-office-l3",
+          "sp": "postal-clerk",
+          "ar": "حَسَنًا، ضَعْهُ عَلَى الْمِيزَانِ مِنْ فَضْلِكَ. لَحْظَة، الصُّنْدُوقُ غَيْرُ مُغْلَقٍ جَيِّدًا، وَهُوَ مُمَزَّق مِنْ هٰذَا الْجَانِب.",
+          "en": "All right, put it on the scale, please. One moment, the box isn't closed properly, and it's torn on this side.",
+          "segs": [
+            [
+              "حَسَنًا",
+              "all right, OK"
+            ],
+            [
+              "ضَعْهُ",
+              "put it (to a man)"
+            ],
+            [
+              "عَلَى",
+              "on"
+            ],
+            [
+              "الْمِيزَانِ",
+              "the scale"
+            ],
+            [
+              "مِنْ",
+              "from"
+            ],
+            [
+              "فَضْلِكَ",
+              "your kindness (to a man): 'please'"
+            ],
+            [
+              "لَحْظَة",
+              "a moment"
+            ],
+            [
+              "الصُّنْدُوقُ",
+              "the box"
+            ],
+            [
+              "غَيْرُ",
+              "not (before an adjective)"
+            ],
+            [
+              "مُغْلَقٍ",
+              "closed"
+            ],
+            [
+              "جَيِّدًا",
+              "well, properly"
+            ],
+            [
+              "وَهُوَ",
+              "and it (m)"
+            ],
+            [
+              "مُمَزَّق",
+              "torn"
+            ],
+            [
+              "مِنْ",
+              "from ('on')"
+            ],
+            [
+              "هٰذَا",
+              "this"
+            ],
+            [
+              "الْجَانِب",
+              "the side"
+            ]
+          ]
+        },
+        {
+          "id": "post-office-l4",
+          "sp": "daniel",
+          "ar": "آسِف، هٰذَا صُنْدُوق قَدِيم مِنَ الْبَيْت. هَلْ تَبِيعُونَ صَنَادِيقَ هُنَا فِي مَكْتَبِ الْبَرِيد؟",
+          "en": "Sorry, this is an old box from home. Do you sell boxes here at the post office?",
+          "segs": [
+            [
+              "آسِف",
+              "sorry (said by a man)"
+            ],
+            [
+              "هٰذَا",
+              "this"
+            ],
+            [
+              "صُنْدُوق",
+              "a box"
+            ],
+            [
+              "قَدِيم",
+              "old"
+            ],
+            [
+              "مِنَ",
+              "from"
+            ],
+            [
+              "الْبَيْت",
+              "the house, home"
+            ],
+            [
+              "هَلْ",
+              "(starts a yes/no question)"
+            ],
+            [
+              "تَبِيعُونَ",
+              "you (pl) sell"
+            ],
+            [
+              "صَنَادِيقَ",
+              "boxes"
+            ],
+            [
+              "هُنَا",
+              "here"
+            ],
+            [
+              "فِي",
+              "in, at"
+            ],
+            [
+              "مَكْتَبِ",
+              "office (of)"
+            ],
+            [
+              "الْبَرِيد",
+              "the post"
+            ]
+          ]
+        },
+        {
+          "id": "post-office-l5",
+          "sp": "postal-clerk",
+          "ar": "نَعَم، عِنْدَنَا صُنْدُوق قَوِيّ مَعَ شَرِيط لَاصِق بِثَلَاثِينَ جُنَيْهًا. سَأُغْلِقُهُ لَكَ بِنَفْسِي.",
+          "en": "Yes, we have a strong box with sticky tape for thirty pounds. I'll close it for you myself.",
+          "segs": [
+            [
+              "نَعَم",
+              "yes"
+            ],
+            [
+              "عِنْدَنَا",
+              "we have (lit. at us)"
+            ],
+            [
+              "صُنْدُوق",
+              "a box"
+            ],
+            [
+              "قَوِيّ",
+              "strong"
+            ],
+            [
+              "مَعَ",
+              "with"
+            ],
+            [
+              "شَرِيط",
+              "tape, strip"
+            ],
+            [
+              "لَاصِق",
+              "sticky ('sticky tape')"
+            ],
+            [
+              "بِثَلَاثِينَ",
+              "for thirty"
+            ],
+            [
+              "جُنَيْهًا",
+              "pounds"
+            ],
+            [
+              "سَأُغْلِقُهُ",
+              "I will close it (m)"
+            ],
+            [
+              "لَكَ",
+              "for you (to a man)"
+            ],
+            [
+              "بِنَفْسِي",
+              "myself"
+            ]
+          ]
+        },
+        {
+          "id": "post-office-l6",
+          "sp": "daniel",
+          "ar": "شُكْرًا جَزِيلًا! كَمْ يَزِنُ الطَّرْدُ الْآنَ؟ فِيهِ تَمْر وَوِشَاح لِأُمِّي.",
+          "en": "Thank you very much! How much does the parcel weigh now? There are dates and a scarf for my mother in it.",
+          "segs": [
+            [
+              "شُكْرًا",
+              "thank you"
+            ],
+            [
+              "جَزِيلًا",
+              "very much"
+            ],
+            [
+              "كَمْ",
+              "how much, how many"
+            ],
+            [
+              "يَزِنُ",
+              "(it) weighs"
+            ],
+            [
+              "الطَّرْدُ",
+              "the parcel"
+            ],
+            [
+              "الْآنَ",
+              "now"
+            ],
+            [
+              "فِيهِ",
+              "in it (m)"
+            ],
+            [
+              "تَمْر",
+              "dates (the fruit)"
+            ],
+            [
+              "وَوِشَاح",
+              "and a scarf"
+            ],
+            [
+              "لِأُمِّي",
+              "for my mother"
+            ]
+          ]
+        },
+        {
+          "id": "post-office-l7",
+          "sp": "postal-clerk",
+          "ar": "يَزِنُ أَرْبَعَةَ كِيلُوغْرَامَات بِالضَّبْط. هَلْ تُرِيدُ الْبَرِيدَ الْعَادِيَّ أَمِ الْبَرِيدَ السَّرِيع؟",
+          "en": "It weighs exactly four kilos. Do you want normal post or express post?",
+          "segs": [
+            [
+              "يَزِنُ",
+              "(it) weighs"
+            ],
+            [
+              "أَرْبَعَةَ",
+              "four"
+            ],
+            [
+              "كِيلُوغْرَامَات",
+              "kilograms"
+            ],
+            [
+              "بِالضَّبْط",
+              "exactly"
+            ],
+            [
+              "هَلْ",
+              "(starts a yes/no question)"
+            ],
+            [
+              "تُرِيدُ",
+              "you want (to a man)"
+            ],
+            [
+              "الْبَرِيدَ",
+              "the post"
+            ],
+            [
+              "الْعَادِيَّ",
+              "the normal, ordinary"
+            ],
+            [
+              "أَمِ",
+              "or (in a question)"
+            ],
+            [
+              "الْبَرِيدَ",
+              "the post"
+            ],
+            [
+              "السَّرِيع",
+              "the fast ('express')"
+            ]
+          ]
+        },
+        {
+          "id": "post-office-l8",
+          "sp": "daniel",
+          "ar": "مَا الْفَرْق؟ عِيدُ مِيلَادِ أُمِّي بَعْدَ عَشَرَةِ أَيَّام، وَأُرِيدُ أَنْ تَصِلَ الْهَدَايَا قَبْلَهُ.",
+          "en": "What's the difference? My mother's birthday is in ten days, and I want the gifts to arrive before it.",
+          "segs": [
+            [
+              "مَا",
+              "what"
+            ],
+            [
+              "الْفَرْق",
+              "the difference"
+            ],
+            [
+              "عِيدُ",
+              "feast, day (of)"
+            ],
+            [
+              "مِيلَادِ",
+              "birth (of): 'birthday'"
+            ],
+            [
+              "أُمِّي",
+              "my mother"
+            ],
+            [
+              "بَعْدَ",
+              "after ('in')"
+            ],
+            [
+              "عَشَرَةِ",
+              "ten"
+            ],
+            [
+              "أَيَّام",
+              "days"
+            ],
+            [
+              "وَأُرِيدُ",
+              "and I want"
+            ],
+            [
+              "أَنْ",
+              "to, that"
+            ],
+            [
+              "تَصِلَ",
+              "(they, f) arrive (after an)"
+            ],
+            [
+              "الْهَدَايَا",
+              "the gifts"
+            ],
+            [
+              "قَبْلَهُ",
+              "before it (m)"
+            ]
+          ]
+        },
+        {
+          "id": "post-office-l9",
+          "sp": "postal-clerk",
+          "ar": "الْبَرِيدُ الْعَادِيّ يَأْخُذُ ثَلَاثَةَ أَسَابِيع تَقْرِيبًا، وَهُوَ بِثَمَانِمِئَةِ جُنَيْه. السَّرِيعُ يَصِلُ فِي خَمْسَةِ أَيَّام، لٰكِنَّهُ بِأَلْف جُنَيْه.",
+          "en": "Normal post takes about three weeks and costs eight hundred pounds. Express arrives in five days, but it costs a thousand pounds.",
+          "segs": [
+            [
+              "الْبَرِيدُ",
+              "the post"
+            ],
+            [
+              "الْعَادِيّ",
+              "the normal, ordinary"
+            ],
+            [
+              "يَأْخُذُ",
+              "(it) takes"
+            ],
+            [
+              "ثَلَاثَةَ",
+              "three"
+            ],
+            [
+              "أَسَابِيع",
+              "weeks"
+            ],
+            [
+              "تَقْرِيبًا",
+              "about, roughly"
+            ],
+            [
+              "وَهُوَ",
+              "and it (m)"
+            ],
+            [
+              "بِثَمَانِمِئَةِ",
+              "for eight hundred"
+            ],
+            [
+              "جُنَيْه",
+              "pound(s)"
+            ],
+            [
+              "السَّرِيعُ",
+              "the fast ('express')"
+            ],
+            [
+              "يَصِلُ",
+              "(it) arrives"
+            ],
+            [
+              "فِي",
+              "in"
+            ],
+            [
+              "خَمْسَةِ",
+              "five"
+            ],
+            [
+              "أَيَّام",
+              "days"
+            ],
+            [
+              "لٰكِنَّهُ",
+              "but it (m)"
+            ],
+            [
+              "بِأَلْف",
+              "for a thousand"
+            ],
+            [
+              "جُنَيْه",
+              "pound(s)"
+            ]
+          ]
+        },
+        {
+          "id": "post-office-l10",
+          "sp": "daniel",
+          "ar": "السَّرِيع إِذَنْ، مِنْ فَضْلِكَ. أُمِّي تَنْتَظِرُ التَّمْرَ الْمِصْرِيَّ كُلَّ سَنَة!",
+          "en": "Express then, please. My mother waits for Egyptian dates every year!",
+          "segs": [
+            [
+              "السَّرِيع",
+              "the fast ('express')"
+            ],
+            [
+              "إِذَنْ",
+              "then, so"
+            ],
+            [
+              "مِنْ",
+              "from"
+            ],
+            [
+              "فَضْلِكَ",
+              "your kindness (to a man): 'please'"
+            ],
+            [
+              "أُمِّي",
+              "my mother"
+            ],
+            [
+              "تَنْتَظِرُ",
+              "(she) waits for"
+            ],
+            [
+              "التَّمْرَ",
+              "the dates (fruit)"
+            ],
+            [
+              "الْمِصْرِيَّ",
+              "the Egyptian"
+            ],
+            [
+              "كُلَّ",
+              "every"
+            ],
+            [
+              "سَنَة",
+              "year"
+            ]
+          ]
+        },
+        {
+          "id": "post-office-l11",
+          "sp": "postal-clerk",
+          "ar": "حَسَنًا. اِمْلَأْ هٰذِهِ الِاسْتِمَارَةَ لِلْجَمَارِك: اُكْتُبْ مُحْتَوَيَاتِ الطَّرْدِ وَقِيمَتَهَا بِالْجُنَيْه.",
+          "en": "All right. Fill in this customs form: write the contents of the parcel and their value in pounds.",
+          "segs": [
+            [
+              "حَسَنًا",
+              "all right, OK"
+            ],
+            [
+              "اِمْلَأْ",
+              "fill in (to a man)"
+            ],
+            [
+              "هٰذِهِ",
+              "this (f)"
+            ],
+            [
+              "الِاسْتِمَارَةَ",
+              "the form"
+            ],
+            [
+              "لِلْجَمَارِك",
+              "for the customs"
+            ],
+            [
+              "اُكْتُبْ",
+              "write (to a man)"
+            ],
+            [
+              "مُحْتَوَيَاتِ",
+              "contents (of)"
+            ],
+            [
+              "الطَّرْدِ",
+              "the parcel"
+            ],
+            [
+              "وَقِيمَتَهَا",
+              "and their value"
+            ],
+            [
+              "بِالْجُنَيْه",
+              "in pounds"
+            ]
+          ]
+        },
+        {
+          "id": "post-office-l12",
+          "sp": "daniel",
+          "ar": "كَتَبْتُ: تَمْر وَوِشَاح مِنَ الْقُطْن، وَالْقِيمَةُ خَمْسُمِئَةِ جُنَيْه. وَأُرِيدُ أَيْضًا طَوَابِعَ لِثَلَاثِ بِطَاقَاتٍ بَرِيدِيَّة.",
+          "en": "I've written: dates and a cotton scarf, and the value is five hundred pounds. I'd also like stamps for three postcards.",
+          "segs": [
+            [
+              "كَتَبْتُ",
+              "I wrote"
+            ],
+            [
+              "تَمْر",
+              "dates (the fruit)"
+            ],
+            [
+              "وَوِشَاح",
+              "and a scarf"
+            ],
+            [
+              "مِنَ",
+              "of, from"
+            ],
+            [
+              "الْقُطْن",
+              "the cotton"
+            ],
+            [
+              "وَالْقِيمَةُ",
+              "and the value"
+            ],
+            [
+              "خَمْسُمِئَةِ",
+              "five hundred"
+            ],
+            [
+              "جُنَيْه",
+              "pound(s)"
+            ],
+            [
+              "وَأُرِيدُ",
+              "and I want"
+            ],
+            [
+              "أَيْضًا",
+              "also, too"
+            ],
+            [
+              "طَوَابِعَ",
+              "stamps"
+            ],
+            [
+              "لِثَلَاثِ",
+              "for three"
+            ],
+            [
+              "بِطَاقَاتٍ",
+              "cards"
+            ],
+            [
+              "بَرِيدِيَّة",
+              "postal ('postcards')"
+            ]
+          ]
+        },
+        {
+          "id": "post-office-l13",
+          "sp": "postal-clerk",
+          "ar": "تَفَضَّلْ، ثَلَاثَةُ طَوَابِع بِسِتِّينَ جُنَيْهًا. الْمَجْمُوعُ أَلْف وَتِسْعُونَ جُنَيْهًا، وَهٰذَا الْإِيصَالُ مَعَ رَقْمِ التَّتَبُّع.",
+          "en": "Here you are, three stamps for sixty pounds. The total is one thousand and ninety pounds, and here is the receipt with the tracking number.",
+          "segs": [
+            [
+              "تَفَضَّلْ",
+              "here you are (to a man)"
+            ],
+            [
+              "ثَلَاثَةُ",
+              "three"
+            ],
+            [
+              "طَوَابِع",
+              "stamps"
+            ],
+            [
+              "بِسِتِّينَ",
+              "for sixty"
+            ],
+            [
+              "جُنَيْهًا",
+              "pounds"
+            ],
+            [
+              "الْمَجْمُوعُ",
+              "the total"
+            ],
+            [
+              "أَلْف",
+              "a thousand"
+            ],
+            [
+              "وَتِسْعُونَ",
+              "and ninety"
+            ],
+            [
+              "جُنَيْهًا",
+              "pounds"
+            ],
+            [
+              "وَهٰذَا",
+              "and this ('here is')"
+            ],
+            [
+              "الْإِيصَالُ",
+              "the receipt"
+            ],
+            [
+              "مَعَ",
+              "with"
+            ],
+            [
+              "رَقْمِ",
+              "number (of)"
+            ],
+            [
+              "التَّتَبُّع",
+              "the tracking"
+            ]
+          ]
+        },
+        {
+          "id": "post-office-l14",
+          "sp": "daniel",
+          "ar": "شُكْرًا جَزِيلًا! سَأُرْسِلُ رَقْمَ التَّتَبُّعِ لِأُمِّي الْيَوْم، وَأَكْتُبُ الْبِطَاقَاتِ هُنَا الْآن.",
+          "en": "Thank you very much! I'll send the tracking number to my mother today, and write the postcards here now.",
+          "segs": [
+            [
+              "شُكْرًا",
+              "thank you"
+            ],
+            [
+              "جَزِيلًا",
+              "very much"
+            ],
+            [
+              "سَأُرْسِلُ",
+              "I will send"
+            ],
+            [
+              "رَقْمَ",
+              "number (of)"
+            ],
+            [
+              "التَّتَبُّعِ",
+              "the tracking"
+            ],
+            [
+              "لِأُمِّي",
+              "to my mother"
+            ],
+            [
+              "الْيَوْم",
+              "today"
+            ],
+            [
+              "وَأَكْتُبُ",
+              "and I write"
+            ],
+            [
+              "الْبِطَاقَاتِ",
+              "the cards ('the postcards')"
+            ],
+            [
+              "هُنَا",
+              "here"
+            ],
+            [
+              "الْآن",
+              "now"
+            ]
+          ]
+        }
+      ]
+    },
+    "mistakes": [
+      {
+        "wrong": "ثَلَاثُ طَوَابِع",
+        "right": "ثَلَاثَةُ طَوَابِع",
+        "why": "With the numbers 3 to 10 the number takes the opposite gender: a stamp (ṭābiʿ) is masculine, so 'three' is thalāthatu, with -a. The short form thalāthu goes with feminine nouns, as in thalāthi biṭāqāt (three cards)."
+      },
+      {
+        "wrong": "أُرِيدُ أَنْ أُرْسِلُ هٰذَا الطَّرْدَ",
+        "right": "أُرِيدُ أَنْ أُرْسِلَ هٰذَا الطَّرْدَ",
+        "why": "After an ('to') the present verb ends in -a, not -u: an ursila, 'to send'."
+      }
+    ],
+    "quiz": [
+      {
+        "id": "post-office-q1",
+        "prompt": "What is wrong with Daniel's old box?",
+        "options": [
+          "It is too small for the gifts.",
+          "It is torn and not closed properly.",
+          "It has no address on it.",
+          "It is much too heavy."
+        ],
+        "answer": 1
+      },
+      {
+        "id": "post-office-q2",
+        "prompt": "How long does express post to Chicago take?",
+        "options": [
+          "about three weeks",
+          "ten days",
+          "two days",
+          "five days"
+        ],
+        "answer": 3
+      },
+      {
+        "id": "post-office-q3",
+        "prompt": "What does Daniel write on the customs form?",
+        "options": [
+          "dates and a cotton scarf, worth 500 pounds",
+          "books and photos, worth 1,000 pounds",
+          "a scarf only, worth 60 pounds",
+          "dates and honey, worth 800 pounds"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "post-office-q4",
+        "prompt": "What does this mean?",
+        "ar": "رَقْمِ التَّتَبُّع",
+        "options": [
+          "the price list",
+          "the postcode",
+          "the tracking number",
+          "the phone number"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  {
+    "id": "supermarket",
+    "title": "At the supermarket",
+    "emoji": "🛒",
+    "status": "needs-review",
+    "intro": "Layla and Daniel are shopping in a supermarket in Cairo for a dinner with friends tonight. At the checkout the price of the rice is not the same as on the shelf. Useful phrases: أَيْنَ نَجِدُ الْبَهَارَات؟ (where can we find the spices?), كِيسَانِ بِسِعْرِ كِيس وَاحِد (two bags for the price of one) and نَقْدًا أَمْ بِالْبِطَاقَة؟ (in cash or by card?).",
+    "dialogue": {
+      "title": "Two for the price of one",
+      "speakers": [
+        {
+          "key": "layla",
+          "name": "Layla",
+          "nameAr": "لَيْلَى"
+        },
+        {
+          "key": "daniel",
+          "name": "Daniel",
+          "nameAr": "دَانْيَال"
+        },
+        {
+          "key": "assistant",
+          "name": "Shop assistant",
+          "nameAr": "الْمُوَظَّف"
+        },
+        {
+          "key": "cashier",
+          "name": "Cashier",
+          "nameAr": "أَمِينُ الصُّنْدُوق"
+        }
+      ],
+      "culture": "In big Cairo supermarkets fruit and vegetables are often weighed by a member of staff, who puts a price sticker on the bag before you go to the checkout. Offers such as two for one (اثْنَانِ بِسِعْرِ وَاحِد) are common, and it is normal and polite to ask the cashier to check a price. Many people pay by card, but cash is still very common, and some shops charge a little for a plastic bag.",
+      "lines": [
+        {
+          "id": "supermarket-l1",
+          "sp": "layla",
+          "ar": "دَانْيَال، نَحْتَاجُ إِلَى أَرُزّ وَدَجَاج وَخُضَار وَزَبَادِي لِعَشَاءِ الْأَصْدِقَاءِ اللَّيْلَة.",
+          "en": "Daniel, we need rice, chicken, vegetables and yoghurt for dinner with our friends tonight.",
+          "segs": [
+            [
+              "دَانْيَال",
+              "Daniel (first name)",
+              "name"
+            ],
+            [
+              "نَحْتَاجُ",
+              "we need"
+            ],
+            [
+              "إِلَى",
+              "to (after 'need')"
+            ],
+            [
+              "أَرُزّ",
+              "rice"
+            ],
+            [
+              "وَدَجَاج",
+              "and chicken"
+            ],
+            [
+              "وَخُضَار",
+              "and vegetables"
+            ],
+            [
+              "وَزَبَادِي",
+              "and yoghurt"
+            ],
+            [
+              "لِعَشَاءِ",
+              "for the dinner (of)"
+            ],
+            [
+              "الْأَصْدِقَاءِ",
+              "the friends"
+            ],
+            [
+              "اللَّيْلَة",
+              "tonight"
+            ]
+          ]
+        },
+        {
+          "id": "supermarket-l2",
+          "sp": "daniel",
+          "ar": "الْأَرُزّ هُنَا عَلَى الرَّفِّ الثَّانِي. نَأْخُذُ كِيسًا كَبِيرًا أَمْ كِيسَيْنِ صَغِيرَيْنِ؟",
+          "en": "The rice is here on the second shelf. Shall we take one big bag or two small bags?",
+          "segs": [
+            [
+              "الْأَرُزّ",
+              "the rice"
+            ],
+            [
+              "هُنَا",
+              "here"
+            ],
+            [
+              "عَلَى",
+              "on"
+            ],
+            [
+              "الرَّفِّ",
+              "the shelf"
+            ],
+            [
+              "الثَّانِي",
+              "the second"
+            ],
+            [
+              "نَأْخُذُ",
+              "we take ('shall we take')"
+            ],
+            [
+              "كِيسًا",
+              "a bag"
+            ],
+            [
+              "كَبِيرًا",
+              "big"
+            ],
+            [
+              "أَمْ",
+              "or (in a question)"
+            ],
+            [
+              "كِيسَيْنِ",
+              "two bags"
+            ],
+            [
+              "صَغِيرَيْنِ",
+              "small (two)"
+            ]
+          ]
+        },
+        {
+          "id": "supermarket-l3",
+          "sp": "layla",
+          "ar": "انْظُرْ، هُنَاكَ عَرْض: كِيسَانِ بِسِعْرِ كِيس وَاحِد! سَنَأْخُذُ الْعَرْضَ طَبْعًا.",
+          "en": "Look, there's an offer: two bags for the price of one! We'll take the offer, of course.",
+          "segs": [
+            [
+              "انْظُرْ",
+              "look (to a man)"
+            ],
+            [
+              "هُنَاكَ",
+              "there is"
+            ],
+            [
+              "عَرْض",
+              "an offer"
+            ],
+            [
+              "كِيسَانِ",
+              "two bags"
+            ],
+            [
+              "بِسِعْرِ",
+              "for the price (of)"
+            ],
+            [
+              "كِيس",
+              "bag"
+            ],
+            [
+              "وَاحِد",
+              "one"
+            ],
+            [
+              "سَنَأْخُذُ",
+              "we will take"
+            ],
+            [
+              "الْعَرْضَ",
+              "the offer"
+            ],
+            [
+              "طَبْعًا",
+              "of course"
+            ]
+          ]
+        },
+        {
+          "id": "supermarket-l4",
+          "sp": "daniel",
+          "ar": "أَخَذْتُ الدَّجَاجَ وَالطَّمَاطِمَ وَالْخِيَار. لٰكِنْ أَيْنَ الْبَهَارَات؟ لَا أَرَاهَا فِي أَيِّ مَكَان.",
+          "en": "I've got the chicken, the tomatoes and the cucumbers. But where are the spices? I can't see them anywhere.",
+          "segs": [
+            [
+              "أَخَذْتُ",
+              "I took ('I've got')"
+            ],
+            [
+              "الدَّجَاجَ",
+              "the chicken"
+            ],
+            [
+              "وَالطَّمَاطِمَ",
+              "and the tomatoes"
+            ],
+            [
+              "وَالْخِيَار",
+              "and the cucumbers"
+            ],
+            [
+              "لٰكِنْ",
+              "but"
+            ],
+            [
+              "أَيْنَ",
+              "where"
+            ],
+            [
+              "الْبَهَارَات",
+              "the spices"
+            ],
+            [
+              "لَا",
+              "not"
+            ],
+            [
+              "أَرَاهَا",
+              "I see them (things)"
+            ],
+            [
+              "فِي",
+              "in"
+            ],
+            [
+              "أَيِّ",
+              "any"
+            ],
+            [
+              "مَكَان",
+              "place"
+            ]
+          ]
+        },
+        {
+          "id": "supermarket-l5",
+          "sp": "layla",
+          "ar": "لَوْ سَمَحْتَ، أَيْنَ نَجِدُ الْبَهَارَات؟ نُرِيدُ كَمُّونًا وَفُلْفُلًا أَسْوَد.",
+          "en": "Excuse me, where can we find the spices? We want cumin and black pepper.",
+          "segs": [
+            [
+              "لَوْ",
+              "if"
+            ],
+            [
+              "سَمَحْتَ",
+              "you allowed (to a man): 'excuse me'"
+            ],
+            [
+              "أَيْنَ",
+              "where"
+            ],
+            [
+              "نَجِدُ",
+              "we find ('can we find')"
+            ],
+            [
+              "الْبَهَارَات",
+              "the spices"
+            ],
+            [
+              "نُرِيدُ",
+              "we want"
+            ],
+            [
+              "كَمُّونًا",
+              "cumin"
+            ],
+            [
+              "وَفُلْفُلًا",
+              "and pepper"
+            ],
+            [
+              "أَسْوَد",
+              "black"
+            ]
+          ]
+        },
+        {
+          "id": "supermarket-l6",
+          "sp": "assistant",
+          "ar": "الْبَهَارَاتُ فِي الْمَمَرِّ الْخَامِس، بِجَانِبِ الشَّايِ وَالْقَهْوَة. وَالزَّبَادِي فِي الثَّلَّاجَةِ فِي آخِرِ الْمَحَلّ.",
+          "en": "The spices are in aisle five, next to the tea and coffee. And the yoghurt is in the fridge at the back of the shop.",
+          "segs": [
+            [
+              "الْبَهَارَاتُ",
+              "the spices"
+            ],
+            [
+              "فِي",
+              "in"
+            ],
+            [
+              "الْمَمَرِّ",
+              "the aisle"
+            ],
+            [
+              "الْخَامِس",
+              "the fifth"
+            ],
+            [
+              "بِجَانِبِ",
+              "next to"
+            ],
+            [
+              "الشَّايِ",
+              "the tea"
+            ],
+            [
+              "وَالْقَهْوَة",
+              "and the coffee"
+            ],
+            [
+              "وَالزَّبَادِي",
+              "and the yoghurt"
+            ],
+            [
+              "فِي",
+              "in"
+            ],
+            [
+              "الثَّلَّاجَةِ",
+              "the fridge"
+            ],
+            [
+              "فِي",
+              "at"
+            ],
+            [
+              "آخِرِ",
+              "the end (of) ('the back of')"
+            ],
+            [
+              "الْمَحَلّ",
+              "the shop"
+            ]
+          ]
+        },
+        {
+          "id": "supermarket-l7",
+          "sp": "daniel",
+          "ar": "شُكْرًا جَزِيلًا! لَيْلَى، أَنَا سَآخُذُ الزَّبَادِي، وَأَنْتِ تَأْخُذِينَ الْبَهَارَات، ثُمَّ نَلْتَقِي عِنْدَ الصُّنْدُوق.",
+          "en": "Thank you very much! Layla, I'll get the yoghurt and you get the spices, then we'll meet at the checkout.",
+          "segs": [
+            [
+              "شُكْرًا",
+              "thank you"
+            ],
+            [
+              "جَزِيلًا",
+              "very much"
+            ],
+            [
+              "لَيْلَى",
+              "Layla (first name)",
+              "name"
+            ],
+            [
+              "أَنَا",
+              "I"
+            ],
+            [
+              "سَآخُذُ",
+              "I will take ('I'll get')"
+            ],
+            [
+              "الزَّبَادِي",
+              "the yoghurt"
+            ],
+            [
+              "وَأَنْتِ",
+              "and you (to a woman)"
+            ],
+            [
+              "تَأْخُذِينَ",
+              "you take (to a woman)"
+            ],
+            [
+              "الْبَهَارَات",
+              "the spices"
+            ],
+            [
+              "ثُمَّ",
+              "then"
+            ],
+            [
+              "نَلْتَقِي",
+              "we meet"
+            ],
+            [
+              "عِنْدَ",
+              "at"
+            ],
+            [
+              "الصُّنْدُوق",
+              "the till, the checkout"
+            ]
+          ]
+        },
+        {
+          "id": "supermarket-l8",
+          "sp": "cashier",
+          "ar": "مَسَاءُ الْخَيْر. هَلْ تُرِيدَانِ كِيسًا؟ الْكِيسُ بِجُنَيْهَيْن. تَدْفَعَانِ نَقْدًا أَمْ بِالْبِطَاقَة؟",
+          "en": "Good evening. Would you two like a bag? A bag costs two pounds. Are you paying in cash or by card?",
+          "segs": [
+            [
+              "مَسَاءُ",
+              "evening (of)"
+            ],
+            [
+              "الْخَيْر",
+              "the goodness"
+            ],
+            [
+              "هَلْ",
+              "(starts a yes/no question)"
+            ],
+            [
+              "تُرِيدَانِ",
+              "you two want"
+            ],
+            [
+              "كِيسًا",
+              "a bag"
+            ],
+            [
+              "الْكِيسُ",
+              "the bag"
+            ],
+            [
+              "بِجُنَيْهَيْن",
+              "for two pounds"
+            ],
+            [
+              "تَدْفَعَانِ",
+              "you two pay"
+            ],
+            [
+              "نَقْدًا",
+              "in cash"
+            ],
+            [
+              "أَمْ",
+              "or (in a question)"
+            ],
+            [
+              "بِالْبِطَاقَة",
+              "by card"
+            ]
+          ]
+        },
+        {
+          "id": "supermarket-l9",
+          "sp": "layla",
+          "ar": "نَعَم، كِيس وَاحِد، مِنْ فَضْلِكَ، وَسَنَدْفَعُ بِالْبِطَاقَة. لَحْظَة! لِمَاذَا الْأَرُزّ بِمِئَة وَعِشْرِينَ جُنَيْهًا؟",
+          "en": "Yes, one bag, please, and we'll pay by card. Just a moment! Why is the rice a hundred and twenty pounds?",
+          "segs": [
+            [
+              "نَعَم",
+              "yes"
+            ],
+            [
+              "كِيس",
+              "bag"
+            ],
+            [
+              "وَاحِد",
+              "one"
+            ],
+            [
+              "مِنْ",
+              "from"
+            ],
+            [
+              "فَضْلِكَ",
+              "your kindness (to a man): 'please'"
+            ],
+            [
+              "وَسَنَدْفَعُ",
+              "and we will pay"
+            ],
+            [
+              "بِالْبِطَاقَة",
+              "by card"
+            ],
+            [
+              "لَحْظَة",
+              "a moment"
+            ],
+            [
+              "لِمَاذَا",
+              "why"
+            ],
+            [
+              "الْأَرُزّ",
+              "the rice"
+            ],
+            [
+              "بِمِئَة",
+              "for a hundred"
+            ],
+            [
+              "وَعِشْرِينَ",
+              "and twenty"
+            ],
+            [
+              "جُنَيْهًا",
+              "pounds"
+            ]
+          ]
+        },
+        {
+          "id": "supermarket-l10",
+          "sp": "daniel",
+          "ar": "عَلَى الرَّفِّ مَكْتُوب: كِيسَانِ بِسِتِّينَ جُنَيْهًا. يَعْنِي اثْنَانِ بِسِعْرِ وَاحِد.",
+          "en": "On the shelf it says two bags for sixty pounds. That means two for the price of one.",
+          "segs": [
+            [
+              "عَلَى",
+              "on"
+            ],
+            [
+              "الرَّفِّ",
+              "the shelf"
+            ],
+            [
+              "مَكْتُوب",
+              "written ('it says')"
+            ],
+            [
+              "كِيسَانِ",
+              "two bags"
+            ],
+            [
+              "بِسِتِّينَ",
+              "for sixty"
+            ],
+            [
+              "جُنَيْهًا",
+              "pounds"
+            ],
+            [
+              "يَعْنِي",
+              "(it) means, that is"
+            ],
+            [
+              "اثْنَانِ",
+              "two"
+            ],
+            [
+              "بِسِعْرِ",
+              "for the price (of)"
+            ],
+            [
+              "وَاحِد",
+              "one"
+            ]
+          ]
+        },
+        {
+          "id": "supermarket-l11",
+          "sp": "cashier",
+          "ar": "دَقِيقَة، مِنْ فَضْلِكُمَا، سَأَتَأَكَّدُ مِنَ السِّعْر. آسِف، أَنْتُمَا عَلَى حَقّ: الْعَرْضُ لَمْ يَظْهَرْ فِي النِّظَام.",
+          "en": "One minute, please, I'll check the price. Sorry, you're right: the offer didn't show up in the system.",
+          "segs": [
+            [
+              "دَقِيقَة",
+              "a minute"
+            ],
+            [
+              "مِنْ",
+              "from"
+            ],
+            [
+              "فَضْلِكُمَا",
+              "your kindness (to two): 'please'"
+            ],
+            [
+              "سَأَتَأَكَّدُ",
+              "I will make sure ('I'll check')"
+            ],
+            [
+              "مِنَ",
+              "of, from"
+            ],
+            [
+              "السِّعْر",
+              "the price"
+            ],
+            [
+              "آسِف",
+              "sorry (said by a man)"
+            ],
+            [
+              "أَنْتُمَا",
+              "you two"
+            ],
+            [
+              "عَلَى",
+              "on"
+            ],
+            [
+              "حَقّ",
+              "right ('you are right')"
+            ],
+            [
+              "الْعَرْضُ",
+              "the offer"
+            ],
+            [
+              "لَمْ",
+              "did not"
+            ],
+            [
+              "يَظْهَرْ",
+              "(it) appear (after lam)"
+            ],
+            [
+              "فِي",
+              "in"
+            ],
+            [
+              "النِّظَام",
+              "the system"
+            ]
+          ]
+        },
+        {
+          "id": "supermarket-l12",
+          "sp": "layla",
+          "ar": "لَا مُشْكِلَة، هٰذَا يَحْدُثُ أَحْيَانًا. إِذَنْ، كَمِ الْمَجْمُوعُ الْآنَ مَعَ الْكِيس؟",
+          "en": "No problem, that happens sometimes. So how much is the total now, with the bag?",
+          "segs": [
+            [
+              "لَا",
+              "no"
+            ],
+            [
+              "مُشْكِلَة",
+              "problem"
+            ],
+            [
+              "هٰذَا",
+              "this ('that')"
+            ],
+            [
+              "يَحْدُثُ",
+              "(it) happens"
+            ],
+            [
+              "أَحْيَانًا",
+              "sometimes"
+            ],
+            [
+              "إِذَنْ",
+              "so, then"
+            ],
+            [
+              "كَمِ",
+              "how much (-i links to the next word)"
+            ],
+            [
+              "الْمَجْمُوعُ",
+              "the total"
+            ],
+            [
+              "الْآنَ",
+              "now"
+            ],
+            [
+              "مَعَ",
+              "with"
+            ],
+            [
+              "الْكِيس",
+              "the bag"
+            ]
+          ]
+        },
+        {
+          "id": "supermarket-l13",
+          "sp": "cashier",
+          "ar": "صَحَّحْتُ السِّعْر. الْمَجْمُوعُ الْآنَ ثَلَاثُمِئَةِ جُنَيْه مَعَ الْكِيس. تَفَضَّلِي الْإِيصَال، وَسَهْرَة سَعِيدَة مَعَ أَصْدِقَائِكُمَا!",
+          "en": "I've corrected the price. The total is now three hundred pounds with the bag. Here's your receipt, and have a lovely evening with your friends!",
+          "segs": [
+            [
+              "صَحَّحْتُ",
+              "I corrected"
+            ],
+            [
+              "السِّعْر",
+              "the price"
+            ],
+            [
+              "الْمَجْمُوعُ",
+              "the total"
+            ],
+            [
+              "الْآنَ",
+              "now"
+            ],
+            [
+              "ثَلَاثُمِئَةِ",
+              "three hundred"
+            ],
+            [
+              "جُنَيْه",
+              "pound(s)"
+            ],
+            [
+              "مَعَ",
+              "with"
+            ],
+            [
+              "الْكِيس",
+              "the bag"
+            ],
+            [
+              "تَفَضَّلِي",
+              "here you are (to a woman)"
+            ],
+            [
+              "الْإِيصَال",
+              "the receipt"
+            ],
+            [
+              "وَسَهْرَة",
+              "and an evening (out)"
+            ],
+            [
+              "سَعِيدَة",
+              "happy, lovely"
+            ],
+            [
+              "مَعَ",
+              "with"
+            ],
+            [
+              "أَصْدِقَائِكُمَا",
+              "your (two) friends"
+            ]
+          ]
+        },
+        {
+          "id": "supermarket-l14",
+          "sp": "daniel",
+          "ar": "شُكْرًا لَكَ! لَيْلَى، وَفَّرْنَا سِتِّينَ جُنَيْهًا، فَنَسْتَطِيعُ أَنْ نَشْتَرِيَ حَلْوَى لِلْأَصْدِقَاءِ أَيْضًا!",
+          "en": "Thank you! Layla, we've saved sixty pounds, so we can buy a dessert for our friends too!",
+          "segs": [
+            [
+              "شُكْرًا",
+              "thank you"
+            ],
+            [
+              "لَكَ",
+              "to you (to a man)"
+            ],
+            [
+              "لَيْلَى",
+              "Layla (first name)",
+              "name"
+            ],
+            [
+              "وَفَّرْنَا",
+              "we saved"
+            ],
+            [
+              "سِتِّينَ",
+              "sixty"
+            ],
+            [
+              "جُنَيْهًا",
+              "pounds"
+            ],
+            [
+              "فَنَسْتَطِيعُ",
+              "so we can"
+            ],
+            [
+              "أَنْ",
+              "to, that"
+            ],
+            [
+              "نَشْتَرِيَ",
+              "we buy (after an)"
+            ],
+            [
+              "حَلْوَى",
+              "a dessert, sweets"
+            ],
+            [
+              "لِلْأَصْدِقَاءِ",
+              "for the friends"
+            ],
+            [
+              "أَيْضًا",
+              "also, too"
+            ]
+          ]
+        }
+      ]
+    },
+    "mistakes": [
+      {
+        "wrong": "لِمَاذَا الْأَرُزّ بِمِئَة وَعِشْرِينَ جُنَيْه؟",
+        "right": "لِمَاذَا الْأَرُزّ بِمِئَة وَعِشْرِينَ جُنَيْهًا؟",
+        "why": "When a number ends in a tens word like twenty or sixty, the noun after it is singular with -an: junayhan, not junayh."
+      },
+      {
+        "wrong": "أَيْنَ الْبَهَارَات؟ لَا أَرَاهُمْ.",
+        "right": "أَيْنَ الْبَهَارَات؟ لَا أَرَاهَا.",
+        "why": "Plurals of things are treated as feminine singular, so 'them' is -hā. The ending -hum is only for people."
+      }
+    ],
+    "quiz": [
+      {
+        "id": "supermarket-q1",
+        "prompt": "What do Layla and Daniel need for the dinner?",
+        "options": [
+          "fish, bread and cheese",
+          "rice, chicken, vegetables and yoghurt",
+          "meat, pasta and fruit",
+          "eggs, milk and tea"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "supermarket-q2",
+        "prompt": "Where are the spices?",
+        "options": [
+          "in aisle five, next to the tea and coffee",
+          "in the fridge at the back of the shop",
+          "on the second shelf, next to the rice",
+          "next to the checkout"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "supermarket-q3",
+        "prompt": "What was the problem at the checkout?",
+        "options": [
+          "the card did not work",
+          "they forgot to take a bag",
+          "the two-for-one offer on the rice was missing",
+          "the yoghurt was too old"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "supermarket-q4",
+        "prompt": "What does this mean?",
+        "ar": "نَقْدًا أَمْ بِالْبِطَاقَة؟",
+        "options": [
+          "with or without a bag?",
+          "how much is the total?",
+          "where is the checkout?",
+          "in cash or by card?"
+        ],
+        "answer": 3
+      }
+    ]
+  },
+  {
+    "id": "phone-shop",
+    "title": "At the phone shop",
+    "emoji": "📱",
+    "status": "needs-review",
+    "intro": "Daniel dropped his phone in Cairo: the screen cracked, and his charger has stopped working too. He takes the phone to a small phone shop near his flat, where he also wants a local SIM card with internet. Useful phrases: بِكَمِ الْإِصْلَاح؟ (how much is the repair?), هَلْ هُنَاكَ ضَمَان؟ (is there a warranty?) and أُرِيدُ شَرِيحَةً مَحَلِّيَّةً (I want a local SIM card).",
+    "dialogue": {
+      "title": "A cracked screen and a new SIM card",
+      "speakers": [
+        {
+          "key": "seller",
+          "name": "Seller",
+          "nameAr": "الْبَائِع"
+        },
+        {
+          "key": "daniel",
+          "name": "Daniel",
+          "nameAr": "دَانْيَال"
+        }
+      ],
+      "culture": "In Egypt every SIM card (شَرِيحَة) must be registered to its owner: Egyptians show their national ID card, and foreigners show their passport. Most people use prepaid lines and renew a monthly internet package (بَاقَة) at a phone shop, a kiosk or in the network's app. Small phone repair shops are everywhere in Cairo, and a new screen is often fitted within a day or two.",
+      "lines": [
+        {
+          "id": "phone-shop-l1",
+          "sp": "seller",
+          "ar": "صَبَاحُ الْخَيْر! أَهْلًا بِكَ فِي الْمَحَلّ. كَيْفَ أَسْتَطِيعُ أَنْ أُسَاعِدَكَ الْيَوْم؟",
+          "en": "Good morning! Welcome to the shop. How can I help you today?",
+          "segs": [
+            [
+              "صَبَاحُ",
+              "morning (of)"
+            ],
+            [
+              "الْخَيْر",
+              "the goodness"
+            ],
+            [
+              "أَهْلًا",
+              "welcome"
+            ],
+            [
+              "بِكَ",
+              "to you (to a man)"
+            ],
+            [
+              "فِي",
+              "in, to"
+            ],
+            [
+              "الْمَحَلّ",
+              "the shop"
+            ],
+            [
+              "كَيْفَ",
+              "how"
+            ],
+            [
+              "أَسْتَطِيعُ",
+              "I can"
+            ],
+            [
+              "أَنْ",
+              "to, that"
+            ],
+            [
+              "أُسَاعِدَكَ",
+              "I help you (to a man, after an)"
+            ],
+            [
+              "الْيَوْم",
+              "today"
+            ]
+          ]
+        },
+        {
+          "id": "phone-shop-l2",
+          "sp": "daniel",
+          "ar": "صَبَاحُ النُّور. وَقَعَ هَاتِفِي أَمْسِ فَانْكَسَرَتِ الشَّاشَة، وَالشَّاحِنُ أَيْضًا لَا يَعْمَلُ مُنْذُ أُسْبُوع.",
+          "en": "Good morning. My phone fell yesterday and the screen cracked, and the charger hasn't worked for a week either.",
+          "segs": [
+            [
+              "صَبَاحُ",
+              "morning (of)"
+            ],
+            [
+              "النُّور",
+              "the light"
+            ],
+            [
+              "وَقَعَ",
+              "(it) fell"
+            ],
+            [
+              "هَاتِفِي",
+              "my phone"
+            ],
+            [
+              "أَمْسِ",
+              "yesterday"
+            ],
+            [
+              "فَانْكَسَرَتِ",
+              "and so (it, f) broke"
+            ],
+            [
+              "الشَّاشَة",
+              "the screen"
+            ],
+            [
+              "وَالشَّاحِنُ",
+              "and the charger"
+            ],
+            [
+              "أَيْضًا",
+              "also, too, either"
+            ],
+            [
+              "لَا",
+              "not"
+            ],
+            [
+              "يَعْمَلُ",
+              "(it) works"
+            ],
+            [
+              "مُنْذُ",
+              "since, for"
+            ],
+            [
+              "أُسْبُوع",
+              "a week"
+            ]
+          ]
+        },
+        {
+          "id": "phone-shop-l3",
+          "sp": "seller",
+          "ar": "دَعْنِي أَرَى. الشَّاشَةُ مَكْسُورَة فِعْلًا، لٰكِنَّ الْهَاتِفَ نَفْسَهُ سَلِيم. نَسْتَطِيعُ أَنْ نُغَيِّرَ الشَّاشَةَ كُلَّهَا.",
+          "en": "Let me see. The screen really is cracked, but the phone itself is fine. We can replace the whole screen.",
+          "segs": [
+            [
+              "دَعْنِي",
+              "let me"
+            ],
+            [
+              "أَرَى",
+              "I see"
+            ],
+            [
+              "الشَّاشَةُ",
+              "the screen"
+            ],
+            [
+              "مَكْسُورَة",
+              "broken (f)"
+            ],
+            [
+              "فِعْلًا",
+              "really, indeed"
+            ],
+            [
+              "لٰكِنَّ",
+              "but"
+            ],
+            [
+              "الْهَاتِفَ",
+              "the phone"
+            ],
+            [
+              "نَفْسَهُ",
+              "itself (m)"
+            ],
+            [
+              "سَلِيم",
+              "sound, undamaged"
+            ],
+            [
+              "نَسْتَطِيعُ",
+              "we can"
+            ],
+            [
+              "أَنْ",
+              "to, that"
+            ],
+            [
+              "نُغَيِّرَ",
+              "we change (after an)"
+            ],
+            [
+              "الشَّاشَةَ",
+              "the screen"
+            ],
+            [
+              "كُلَّهَا",
+              "all of it (f)"
+            ]
+          ]
+        },
+        {
+          "id": "phone-shop-l4",
+          "sp": "daniel",
+          "ar": "الْحَمْدُ لِلّٰه! بِكَمِ الْإِصْلَاح؟ وَكَمْ يَوْمًا يَحْتَاجُ؟ أَنَا أَسْتَعْمِلُ الْهَاتِفَ لِلْعَمَلِ كُلَّ يَوْم.",
+          "en": "Thank God! How much is the repair? And how many days does it take? I use the phone for work every day.",
+          "segs": [
+            [
+              "الْحَمْدُ",
+              "the praise"
+            ],
+            [
+              "لِلّٰه",
+              "to God"
+            ],
+            [
+              "بِكَمِ",
+              "how much (-i links to the next word)"
+            ],
+            [
+              "الْإِصْلَاح",
+              "the repair"
+            ],
+            [
+              "وَكَمْ",
+              "and how many"
+            ],
+            [
+              "يَوْمًا",
+              "day (after kam: 'days')"
+            ],
+            [
+              "يَحْتَاجُ",
+              "(it) needs, takes"
+            ],
+            [
+              "أَنَا",
+              "I"
+            ],
+            [
+              "أَسْتَعْمِلُ",
+              "I use"
+            ],
+            [
+              "الْهَاتِفَ",
+              "the phone"
+            ],
+            [
+              "لِلْعَمَلِ",
+              "for work"
+            ],
+            [
+              "كُلَّ",
+              "every"
+            ],
+            [
+              "يَوْم",
+              "day"
+            ]
+          ]
+        },
+        {
+          "id": "phone-shop-l5",
+          "sp": "seller",
+          "ar": "الشَّاشَةُ الْجَدِيدَة بِأَلْف وَخَمْسِمِئَةِ جُنَيْه، وَالْإِصْلَاحُ يَحْتَاجُ يَوْمَيْنِ فَقَط. يُمْكِنُكَ أَنْ تَأْخُذَ الْهَاتِفَ يَوْمَ الْخَمِيس.",
+          "en": "The new screen is one thousand five hundred pounds, and the repair takes only two days. You can collect the phone on Thursday.",
+          "segs": [
+            [
+              "الشَّاشَةُ",
+              "the screen"
+            ],
+            [
+              "الْجَدِيدَة",
+              "the new (f)"
+            ],
+            [
+              "بِأَلْف",
+              "for a thousand"
+            ],
+            [
+              "وَخَمْسِمِئَةِ",
+              "and five hundred"
+            ],
+            [
+              "جُنَيْه",
+              "pound(s)"
+            ],
+            [
+              "وَالْإِصْلَاحُ",
+              "and the repair"
+            ],
+            [
+              "يَحْتَاجُ",
+              "(it) needs, takes"
+            ],
+            [
+              "يَوْمَيْنِ",
+              "two days"
+            ],
+            [
+              "فَقَط",
+              "only"
+            ],
+            [
+              "يُمْكِنُكَ",
+              "you can (to a man)"
+            ],
+            [
+              "أَنْ",
+              "to, that"
+            ],
+            [
+              "تَأْخُذَ",
+              "you take (after an): 'collect'"
+            ],
+            [
+              "الْهَاتِفَ",
+              "the phone"
+            ],
+            [
+              "يَوْمَ",
+              "on the day (of)"
+            ],
+            [
+              "الْخَمِيس",
+              "Thursday"
+            ]
+          ]
+        },
+        {
+          "id": "phone-shop-l6",
+          "sp": "daniel",
+          "ar": "هَلْ هُنَاكَ ضَمَان عَلَى الشَّاشَةِ الْجَدِيدَة؟ لَا أُرِيدُ أَنْ أَدْفَعَ مَرَّةً ثَانِيَةً بَعْدَ شَهْر!",
+          "en": "Is there a warranty on the new screen? I don't want to pay a second time after a month!",
+          "segs": [
+            [
+              "هَلْ",
+              "(starts a yes/no question)"
+            ],
+            [
+              "هُنَاكَ",
+              "there is"
+            ],
+            [
+              "ضَمَان",
+              "a warranty, guarantee"
+            ],
+            [
+              "عَلَى",
+              "on"
+            ],
+            [
+              "الشَّاشَةِ",
+              "the screen"
+            ],
+            [
+              "الْجَدِيدَة",
+              "the new (f)"
+            ],
+            [
+              "لَا",
+              "not"
+            ],
+            [
+              "أُرِيدُ",
+              "I want"
+            ],
+            [
+              "أَنْ",
+              "to, that"
+            ],
+            [
+              "أَدْفَعَ",
+              "I pay (after an)"
+            ],
+            [
+              "مَرَّةً",
+              "a time (occasion)"
+            ],
+            [
+              "ثَانِيَةً",
+              "second (f)"
+            ],
+            [
+              "بَعْدَ",
+              "after"
+            ],
+            [
+              "شَهْر",
+              "a month"
+            ]
+          ]
+        },
+        {
+          "id": "phone-shop-l7",
+          "sp": "seller",
+          "ar": "طَبْعًا، الضَّمَانُ سِتَّةُ أَشْهُر. وَبِالنِّسْبَةِ لِلشَّاحِن، الْأَفْضَلُ أَنْ تَشْتَرِيَ شَاحِنًا جَدِيدًا. هٰذَا بِثَلَاثِمِئَةِ جُنَيْه.",
+          "en": "Of course, the warranty is six months. As for the charger, it's better to buy a new one. This one is three hundred pounds.",
+          "segs": [
+            [
+              "طَبْعًا",
+              "of course"
+            ],
+            [
+              "الضَّمَانُ",
+              "the warranty"
+            ],
+            [
+              "سِتَّةُ",
+              "six"
+            ],
+            [
+              "أَشْهُر",
+              "months"
+            ],
+            [
+              "وَبِالنِّسْبَةِ",
+              "and as for (lit. and in relation)"
+            ],
+            [
+              "لِلشَّاحِن",
+              "to the charger"
+            ],
+            [
+              "الْأَفْضَلُ",
+              "the better (thing)"
+            ],
+            [
+              "أَنْ",
+              "to, that"
+            ],
+            [
+              "تَشْتَرِيَ",
+              "you buy (after an)"
+            ],
+            [
+              "شَاحِنًا",
+              "a charger"
+            ],
+            [
+              "جَدِيدًا",
+              "new"
+            ],
+            [
+              "هٰذَا",
+              "this (m)"
+            ],
+            [
+              "بِثَلَاثِمِئَةِ",
+              "for three hundred"
+            ],
+            [
+              "جُنَيْه",
+              "pound(s)"
+            ]
+          ]
+        },
+        {
+          "id": "phone-shop-l8",
+          "sp": "daniel",
+          "ar": "سَآخُذُهُ. وَسُؤَال آخَر: أُرِيدُ شَرِيحَةً مَحَلِّيَّةً مَعَ بَاقَةِ إِنْتَرْنِت شَهْرِيَّة. هَلْ تَبِيعُونَ ذٰلِكَ هُنَا؟",
+          "en": "I'll take it. And another question: I want a local SIM card with a monthly internet package. Do you sell that here?",
+          "segs": [
+            [
+              "سَآخُذُهُ",
+              "I will take it (m)"
+            ],
+            [
+              "وَسُؤَال",
+              "and a question"
+            ],
+            [
+              "آخَر",
+              "another"
+            ],
+            [
+              "أُرِيدُ",
+              "I want"
+            ],
+            [
+              "شَرِيحَةً",
+              "a SIM card"
+            ],
+            [
+              "مَحَلِّيَّةً",
+              "local (f)"
+            ],
+            [
+              "مَعَ",
+              "with"
+            ],
+            [
+              "بَاقَةِ",
+              "package (of)"
+            ],
+            [
+              "إِنْتَرْنِت",
+              "internet"
+            ],
+            [
+              "شَهْرِيَّة",
+              "monthly (f)"
+            ],
+            [
+              "هَلْ",
+              "(starts a yes/no question)"
+            ],
+            [
+              "تَبِيعُونَ",
+              "you (pl) sell"
+            ],
+            [
+              "ذٰلِكَ",
+              "that"
+            ],
+            [
+              "هُنَا",
+              "here"
+            ]
+          ]
+        },
+        {
+          "id": "phone-shop-l9",
+          "sp": "seller",
+          "ar": "نَعَم، وَالشَّرِيحَةُ نَفْسُهَا مَجَّانِيَّة. عِنْدَنَا بَاقَةُ عِشْرِينَ جِيجَابَايْت بِمِئَتَيْنِ وَخَمْسِينَ جُنَيْهًا فِي الشَّهْر، وَبَاقَةُ أَرْبَعِينَ جِيجَابَايْت بِأَرْبَعِمِئَةِ جُنَيْه.",
+          "en": "Yes, and the SIM card itself is free. We have a twenty-gigabyte package for two hundred and fifty pounds a month, and a forty-gigabyte package for four hundred pounds.",
+          "segs": [
+            [
+              "نَعَم",
+              "yes"
+            ],
+            [
+              "وَالشَّرِيحَةُ",
+              "and the SIM card"
+            ],
+            [
+              "نَفْسُهَا",
+              "itself (f)"
+            ],
+            [
+              "مَجَّانِيَّة",
+              "free (f)"
+            ],
+            [
+              "عِنْدَنَا",
+              "we have (lit. at us)"
+            ],
+            [
+              "بَاقَةُ",
+              "a package (of)"
+            ],
+            [
+              "عِشْرِينَ",
+              "twenty"
+            ],
+            [
+              "جِيجَابَايْت",
+              "gigabyte(s)"
+            ],
+            [
+              "بِمِئَتَيْنِ",
+              "for two hundred"
+            ],
+            [
+              "وَخَمْسِينَ",
+              "and fifty"
+            ],
+            [
+              "جُنَيْهًا",
+              "pounds"
+            ],
+            [
+              "فِي",
+              "in, per"
+            ],
+            [
+              "الشَّهْر",
+              "the month"
+            ],
+            [
+              "وَبَاقَةُ",
+              "and a package (of)"
+            ],
+            [
+              "أَرْبَعِينَ",
+              "forty"
+            ],
+            [
+              "جِيجَابَايْت",
+              "gigabyte(s)"
+            ],
+            [
+              "بِأَرْبَعِمِئَةِ",
+              "for four hundred"
+            ],
+            [
+              "جُنَيْه",
+              "pound(s)"
+            ]
+          ]
+        },
+        {
+          "id": "phone-shop-l10",
+          "sp": "daniel",
+          "ar": "بَاقَةُ الْعِشْرِينَ تَكْفِينِي، لِأَنِّي أَسْتَعْمِلُ الْإِنْتَرْنِتَ فِي الْبَيْتِ أَكْثَر. مَاذَا تَحْتَاجُ مِنِّي لِلشَّرِيحَة؟",
+          "en": "The twenty package is enough for me, because I use the internet at home more. What do you need from me for the SIM card?",
+          "segs": [
+            [
+              "بَاقَةُ",
+              "package (of)"
+            ],
+            [
+              "الْعِشْرِينَ",
+              "the twenty"
+            ],
+            [
+              "تَكْفِينِي",
+              "(it, f) is enough for me"
+            ],
+            [
+              "لِأَنِّي",
+              "because I"
+            ],
+            [
+              "أَسْتَعْمِلُ",
+              "I use"
+            ],
+            [
+              "الْإِنْتَرْنِتَ",
+              "the internet"
+            ],
+            [
+              "فِي",
+              "at, in"
+            ],
+            [
+              "الْبَيْتِ",
+              "the house, home"
+            ],
+            [
+              "أَكْثَر",
+              "more"
+            ],
+            [
+              "مَاذَا",
+              "what"
+            ],
+            [
+              "تَحْتَاجُ",
+              "you need (to a man)"
+            ],
+            [
+              "مِنِّي",
+              "from me"
+            ],
+            [
+              "لِلشَّرِيحَة",
+              "for the SIM card"
+            ]
+          ]
+        },
+        {
+          "id": "phone-shop-l11",
+          "sp": "seller",
+          "ar": "جَوَازُ سَفَرِكَ فَقَط، لِأَنَّ الْقَانُونَ يَطْلُبُ تَسْجِيلَ كُلِّ شَرِيحَة بِاسْمِ صَاحِبِهَا. سَيَعْمَلُ الْإِنْتَرْنِتُ بَعْدَ سَاعَة تَقْرِيبًا.",
+          "en": "Only your passport, because the law requires every SIM card to be registered in its owner's name. The internet will work in about an hour.",
+          "segs": [
+            [
+              "جَوَازُ",
+              "permit (of) ('passport')"
+            ],
+            [
+              "سَفَرِكَ",
+              "your travel (to a man)"
+            ],
+            [
+              "فَقَط",
+              "only"
+            ],
+            [
+              "لِأَنَّ",
+              "because"
+            ],
+            [
+              "الْقَانُونَ",
+              "the law"
+            ],
+            [
+              "يَطْلُبُ",
+              "(it) requires, asks for"
+            ],
+            [
+              "تَسْجِيلَ",
+              "registration (of)"
+            ],
+            [
+              "كُلِّ",
+              "every"
+            ],
+            [
+              "شَرِيحَة",
+              "SIM card"
+            ],
+            [
+              "بِاسْمِ",
+              "in the name (of)"
+            ],
+            [
+              "صَاحِبِهَا",
+              "its owner (f)"
+            ],
+            [
+              "سَيَعْمَلُ",
+              "(it) will work"
+            ],
+            [
+              "الْإِنْتَرْنِتُ",
+              "the internet"
+            ],
+            [
+              "بَعْدَ",
+              "after"
+            ],
+            [
+              "سَاعَة",
+              "an hour"
+            ],
+            [
+              "تَقْرِيبًا",
+              "approximately, about"
+            ]
+          ]
+        },
+        {
+          "id": "phone-shop-l12",
+          "sp": "daniel",
+          "ar": "تَفَضَّلْ، هٰذَا جَوَازُ سَفَرِي. إِذَنِ الْمَجْمُوعُ الْيَوْمَ ثَلَاثُمِئَةٍ لِلشَّاحِنِ وَمِئَتَانِ وَخَمْسُونَ لِلْبَاقَة، صَحِيح؟",
+          "en": "Here you are, this is my passport. So today's total is three hundred for the charger and two hundred and fifty for the package, right?",
+          "segs": [
+            [
+              "تَفَضَّلْ",
+              "here you are (to a man)"
+            ],
+            [
+              "هٰذَا",
+              "this (m)"
+            ],
+            [
+              "جَوَازُ",
+              "permit (of) ('passport')"
+            ],
+            [
+              "سَفَرِي",
+              "my travel"
+            ],
+            [
+              "إِذَنِ",
+              "so, then"
+            ],
+            [
+              "الْمَجْمُوعُ",
+              "the total"
+            ],
+            [
+              "الْيَوْمَ",
+              "today"
+            ],
+            [
+              "ثَلَاثُمِئَةٍ",
+              "three hundred"
+            ],
+            [
+              "لِلشَّاحِنِ",
+              "for the charger"
+            ],
+            [
+              "وَمِئَتَانِ",
+              "and two hundred"
+            ],
+            [
+              "وَخَمْسُونَ",
+              "and fifty"
+            ],
+            [
+              "لِلْبَاقَة",
+              "for the package"
+            ],
+            [
+              "صَحِيح",
+              "right, correct"
+            ]
+          ]
+        },
+        {
+          "id": "phone-shop-l13",
+          "sp": "seller",
+          "ar": "صَحِيح: خَمْسُمِئَةٍ وَخَمْسُونَ جُنَيْهًا الْآنَ، وَثَمَنُ الشَّاشَةِ تَدْفَعُهُ يَوْمَ الْخَمِيس عِنْدَمَا تَأْخُذُ الْهَاتِف.",
+          "en": "Right: five hundred and fifty pounds now, and you pay for the screen on Thursday when you collect the phone.",
+          "segs": [
+            [
+              "صَحِيح",
+              "right, correct"
+            ],
+            [
+              "خَمْسُمِئَةٍ",
+              "five hundred"
+            ],
+            [
+              "وَخَمْسُونَ",
+              "and fifty"
+            ],
+            [
+              "جُنَيْهًا",
+              "pounds"
+            ],
+            [
+              "الْآنَ",
+              "now"
+            ],
+            [
+              "وَثَمَنُ",
+              "and the price (of)"
+            ],
+            [
+              "الشَّاشَةِ",
+              "the screen"
+            ],
+            [
+              "تَدْفَعُهُ",
+              "you pay it (m)"
+            ],
+            [
+              "يَوْمَ",
+              "on the day (of)"
+            ],
+            [
+              "الْخَمِيس",
+              "Thursday"
+            ],
+            [
+              "عِنْدَمَا",
+              "when"
+            ],
+            [
+              "تَأْخُذُ",
+              "you take: 'collect'"
+            ],
+            [
+              "الْهَاتِف",
+              "the phone"
+            ]
+          ]
+        },
+        {
+          "id": "phone-shop-l14",
+          "sp": "daniel",
+          "ar": "مُمْتَاز، شُكْرًا جَزِيلًا! وَحَتَّى يَوْمِ الْخَمِيس سَأَضَعُ الشَّرِيحَةَ الْجَدِيدَةَ فِي هَاتِفِي الْقَدِيمِ الَّذِي فِي الْبَيْت.",
+          "en": "Excellent, thank you very much! And until Thursday I'll put the new SIM card in my old phone that's at home.",
+          "segs": [
+            [
+              "مُمْتَاز",
+              "excellent"
+            ],
+            [
+              "شُكْرًا",
+              "thank you"
+            ],
+            [
+              "جَزِيلًا",
+              "very much"
+            ],
+            [
+              "وَحَتَّى",
+              "and until"
+            ],
+            [
+              "يَوْمِ",
+              "the day (of)"
+            ],
+            [
+              "الْخَمِيس",
+              "Thursday"
+            ],
+            [
+              "سَأَضَعُ",
+              "I will put"
+            ],
+            [
+              "الشَّرِيحَةَ",
+              "the SIM card"
+            ],
+            [
+              "الْجَدِيدَةَ",
+              "the new (f)"
+            ],
+            [
+              "فِي",
+              "in"
+            ],
+            [
+              "هَاتِفِي",
+              "my phone"
+            ],
+            [
+              "الْقَدِيمِ",
+              "the old"
+            ],
+            [
+              "الَّذِي",
+              "which (m)"
+            ],
+            [
+              "فِي",
+              "at, in"
+            ],
+            [
+              "الْبَيْت",
+              "the house, home"
+            ]
+          ]
+        }
+      ]
+    },
+    "mistakes": [
+      {
+        "wrong": "أُرِيدُ شَرِيحَةً مَحَلِّيًّا",
+        "right": "أُرِيدُ شَرِيحَةً مَحَلِّيَّةً",
+        "why": "Sharīḥa (SIM card) is feminine, so its adjective needs the feminine ending: sharīḥatan maḥalliyyatan."
+      },
+      {
+        "wrong": "هٰذَا بِثَلَاثِمِئَةِ جُنَيْهَات",
+        "right": "هٰذَا بِثَلَاثِمِئَةِ جُنَيْه",
+        "why": "After hundreds and thousands the counted noun is singular: bi-thalāthi-mi'ati junayh, never junayhāt."
+      }
+    ],
+    "quiz": [
+      {
+        "id": "phone-shop-q1",
+        "prompt": "How long does the screen repair take?",
+        "options": [
+          "one day",
+          "a week",
+          "two days",
+          "six months"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "phone-shop-q2",
+        "prompt": "How much does Daniel pay today?",
+        "options": [
+          "1500 pounds",
+          "550 pounds",
+          "300 pounds",
+          "400 pounds"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "phone-shop-q3",
+        "prompt": "What does Daniel need to register the SIM card?",
+        "options": [
+          "his student card",
+          "a photo",
+          "a letter from his landlord",
+          "his passport"
+        ],
+        "answer": 3
+      },
+      {
+        "id": "phone-shop-q4",
+        "prompt": "What does this mean?",
+        "ar": "الضَّمَانُ سِتَّةُ أَشْهُر",
+        "options": [
+          "The warranty is six months.",
+          "The repair takes six days.",
+          "The package costs six hundred pounds.",
+          "The screen is six months old."
+        ],
+        "answer": 0
+      }
+    ]
   }
 ]
