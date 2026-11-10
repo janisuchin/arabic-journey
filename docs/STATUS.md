@@ -1,8 +1,8 @@
 # Status — Arabic Journey
 
-Updated 2026-11-10 (week 12 done). Branch `main`. All work runs on the owner's PC (no cloud session), like Français Journey.
+Updated 2026-11-10 (week 13 done — all 90 days written). Branch `main`. All work runs on the owner's PC (no cloud session), like Français Journey.
 Main prompt: `Arabic_Reference/PROMPT_B_Nihongo-based.md` (phases A–F, checklist Z).
-Live (preview, v0.1.0 + content to day 84): https://ar-journey.german-journey.workers.dev ·
+Live (preview, v0.1.0 + content to day 90): https://ar-journey.german-journey.workers.dev ·
 unlocked https://ar-journey-unlocked.german-journey.workers.dev
 
 ## Done
@@ -14,13 +14,16 @@ unlocked https://ar-journey-unlocked.german-journey.workers.dev
   letter = `formal-letter-w12`, debate = `connectors-w12`, review) + week-12 test (8 questions). 67 new words,
   43 hand-glossary lines, readings + auto glossary rebuilt. Checks: validator 0 errors (84 days, 755 words, 78 rules),
   48 unit tests, e2e 16/16 (on port 4191, see Decisions). All content `needs-review`.
+- Week 13 (1e856d7): days 85–90 (listening, reading, speaking, writing review, final exam, next steps) + a
+  10-question cumulative week-13 test (in day 90's additions). 54 new words, 42 hand-glossary lines. Checks:
+  validator 0 errors (90 days, 809 words, 78 rules), 48 unit tests, e2e 16/16 (port 4191); both editions deployed.
 - Reusable authoring kit: `docs/authoring/DAY_WRITER_BRIEF.md` (one writer agent per day) +
   `scripts/merge-additions.py` (append-only merge of each writer's additions.json: vocab, grammar, hand glossary,
   week test).
 
 ## Left (against Prompt B checklist Z)
-1. Week 13 = days 85–90 (listening/reading/speaking/writing review, final exam, next steps) + week-13 test;
-   cumulative test and final exam.
+1. Final exam: day 89 is a cumulative practice day and the week-13 test is cumulative; a separate final-exam
+   screen (if Prompt B needs one) is not built.
 2. Scenarios: 22 of 27.
 3. Missing screens/labs: Sentence explorer, Placards, Explore (culture), Time lab, Speaking lab, Onboarding/
    placement check, Report, real-life photo card per day.
@@ -28,6 +31,9 @@ unlocked https://ar-journey-unlocked.german-journey.workers.dev
 5. Audit tools `scripts/audit/` (audit-dump, chunk, dialogue-stats.py, scan) + two-reviewer + reconciler audit.
    Writers' open points to give the reviewers: d78l7 يَعْنِي vs تَعْنِي; d81 مَرْمَر "alabaster"; d83l12 "ambulances
    and taxis" wording; d82s3 mistake shown in transliteration; d80 "tomorrow, Friday" weekday continuity.
+   Week 13: d85l11 deliberate «مِنْ الرَّصِيف»; d85 «الرَّصِيفِ رَقْمِ أَرْبَعَة» case; d85 new speakers `radio`,
+   `announcer`; d86 unvowelled hand keys رأينا / مطبخ (override everywhere); d86 فِقْرَات vs فِقَرَات; d87 «يَعْنِي»
+   وَ«كَيْفَ أَقُولُ» تُعْطِيكَ agreement; d87 oral exam "five parts" vs d89 "four parts"; d88 simplified hamza rule.
 6. `tools/build-android.ps1` (own folders, e.g. C:\m\a / C:\m\au), layout sweep, release v1.0.0 by the Journey
    release-folder rule.
 7. Owner to decide: the whole UI is mirrored right-to-left, so English text is right-aligned too (v0.1.0 choice).
@@ -44,5 +50,5 @@ unlocked https://ar-journey-unlocked.german-journey.workers.dev
   checking the live site.
 
 ## Next step
-Write week 13 (days 85–90 + week-13 test) with the authoring kit: 6 writers in parallel, then merge, rebuild,
-check, e2e, deploy, commit and push.
+Scenarios: write the 5 missing scenarios (22 → 27, Prompt B checklist Z) with the same writer-brief approach,
+then check, e2e (port 4191), deploy, commit and push.
