@@ -1,0 +1,427 @@
+{
+  "id": "cul.coffee",
+  "n": 1,
+  "title": "Coffee, tea and hospitality",
+  "titleAr": "الْقَهْوَةُ وَالشَّايُ وَالضِّيَافَة",
+  "titleSegs": [
+    ["الْقَهْوَةُ", "the coffee", "noun"],
+    ["وَالشَّايُ", "and the tea", "noun"],
+    ["وَالضِّيَافَة", "and hospitality", "noun"]
+  ],
+  "emoji": "☕",
+  "level": 3,
+  "summary": "How many Arab hosts welcome a guest: أَهْلًا وَسَهْلًا at the door, a seat in the مَجْلِس, Arabic coffee with cardamom poured from a دَلَّة, dates and sweet tea. You will also learn to accept a cup, refuse another and say \"thank you, that's enough\".",
+  "hero": {
+    "file": "coffee-1.jpg",
+    "alt": "Rows of decorated golden and silver Arabic coffee pots with long curved spouts, beside two tall slim jugs, on display.",
+    "caption": "Decorated coffee pots like these, each called a دَلَّة, are a symbol of welcome.",
+    "credit": {
+      "title": "File:A dallah of Arabic coffee.jpg",
+      "author": "Abdulla Al Muhairi",
+      "license": "CC BY 2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:A_dallah_of_Arabic_coffee.jpg",
+      "accessed": "2026-11-10",
+      "modified": "resized and re-encoded",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+    }
+  },
+  "sections": [
+    {
+      "title": "Welcome to the majlis",
+      "titleAr": "أَهْلًا وَسَهْلًا",
+      "titleSegs": [
+        ["أَهْلًا", "welcome (lit. family)", "phrase"],
+        ["وَسَهْلًا", "and easy ground ('welcome')", "phrase"]
+      ],
+      "photo": {
+        "file": "coffee-4.jpg",
+        "alt": "A large wooden tray on a red patterned carpet with old brass coffee pots, three small white cups, a bowl, a mortar with a wooden pestle and a pair of bellows.",
+        "caption": "A traditional coffee set in a مَجْلِس display at a coffee museum in Dubai.",
+        "credit": {
+          "title": "File:Dubai Coffee Museum5.jpg",
+          "author": "Clemens Schmillen",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Dubai_Coffee_Museum5.jpg",
+          "accessed": "2026-11-10",
+          "modified": "resized and re-encoded",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      },
+      "body": [
+        "Hospitality, ضِيَافَة, is one of the values many people in the Arab world are proudest of. A guest, ضَيْف, is often greeted at the door with أَهْلًا وَسَهْلًا, \"welcome\". The phrase is often explained as \"you have come to family and to easy, level ground\". The host then says تَفَضَّلْ, \"please, come in\", a word also used when offering a seat, a cup or a plate. Generosity, كَرَم, is praised in poetry and proverbs across the region.",
+        "In many homes, especially in the Gulf, guests are received in a مَجْلِس: a sitting room or a separate guest hall with cushions or sofas along the walls. In some families men and women receive their guests in separate rooms; in others everyone sits together. In a city flat the living room plays the same role. Wherever the visit happens, the first thing a guest is offered is usually something to drink."
+      ],
+      "sentences": [
+        {
+          "id": "cofs1",
+          "ar": "أَهْلًا وَسَهْلًا، تَفَضَّلْ.",
+          "en": "Welcome, please come in.",
+          "literal": "family and easy ground, please (go ahead)",
+          "segs": [
+            ["أَهْلًا", "welcome (lit. family)", "phrase"],
+            ["وَسَهْلًا", "and easy ground ('welcome')", "phrase"],
+            ["تَفَضَّلْ", "please, come in, go ahead (to a man)", "verb"]
+          ],
+          "grammar": ["greetings", "imperative"]
+        },
+        {
+          "id": "cofs2",
+          "ar": "الْمَجْلِسُ غُرْفَةٌ لِلضُّيُوف.",
+          "en": "The majlis is a room for guests.",
+          "literal": "the majlis (is) a room for the guests",
+          "segs": [
+            ["الْمَجْلِسُ", "the majlis (sitting room for guests)", "noun"],
+            ["غُرْفَةٌ", "a room", "noun"],
+            ["لِلضُّيُوف", "for the guests", "noun"]
+          ],
+          "grammar": ["nominal-sentence"]
+        },
+        {
+          "id": "cofs3",
+          "ar": "أَنْتَ ضَيْفُنَا الْيَوْم.",
+          "en": "You are our guest today.",
+          "literal": "you (are) our guest the day",
+          "segs": [
+            ["أَنْتَ", "you (to a man)", "pronoun"],
+            ["ضَيْفُنَا", "our guest", "noun"],
+            ["الْيَوْم", "today (lit. the day)", "adverb"]
+          ],
+          "grammar": ["attached-pronouns", "nominal-sentence"]
+        }
+      ]
+    },
+    {
+      "title": "Arabic coffee and the dallah",
+      "titleAr": "الْقَهْوَةُ الْعَرَبِيَّة",
+      "titleSegs": [
+        ["الْقَهْوَةُ", "the coffee", "noun"],
+        ["الْعَرَبِيَّة", "Arabic", "adj"]
+      ],
+      "photo": {
+        "file": "coffee-2.jpg",
+        "alt": "A shiny golden coffee pot with a long curved spout behind a small white cup of light brown coffee and two dates on a white saucer.",
+        "caption": "Arabic coffee in a small فِنْجَان, with two dates.",
+        "credit": {
+          "title": "File:Arabic coffee with dates.jpg",
+          "author": "Slywire",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Arabic_coffee_with_dates.jpg",
+          "accessed": "2026-11-10",
+          "modified": "resized and re-encoded",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      },
+      "body": [
+        "The drink of welcome in the Gulf and in much of the Arabian Peninsula is Arabic coffee, قَهْوَة عَرَبِيَّة. It is very different from espresso or Turkish coffee. In the Gulf the beans are often only lightly roasted, then boiled with spices, above all cardamom, هَيْل. Some families add saffron, cloves or rose water. The coffee is golden to light brown, a little bitter, and served without sugar. Other regions, for example Bedouin families in Jordan, prefer a darker, stronger brew.",
+        "The coffee is poured from a دَلَّة, a pot with a long curved spout, into a small cup without a handle, a فِنْجَان. The cup is filled only a little, a few sips at a time. In the Gulf the person serving often holds the pot in the left hand and offers the cup with the right, and guests usually take it with the right hand. In 2015 UNESCO added Arabic coffee, as a symbol of generosity, to its list of the intangible cultural heritage of humanity."
+      ],
+      "sentences": [
+        {
+          "id": "cofs4",
+          "ar": "هَلْ تُرِيدُ قَهْوَةً؟",
+          "en": "Would you like coffee?",
+          "literal": "do you want coffee?",
+          "segs": [
+            ["هَلْ", "(starts a yes/no question)", "question"],
+            ["تُرِيدُ", "you want (to a man)", "verb"],
+            ["قَهْوَةً", "coffee (as object)", "noun"]
+          ],
+          "grammar": ["questions", "accusative"]
+        },
+        {
+          "id": "cofs5",
+          "ar": "نَعَمْ، مِنْ فَضْلِكَ، بِالْهَيْل.",
+          "en": "Yes please, with cardamom.",
+          "literal": "yes, from your kindness, with the cardamom",
+          "segs": [
+            ["نَعَمْ", "yes", "particle"],
+            ["مِنْ", "from", "prep"],
+            ["فَضْلِكَ", "your kindness ('please', to a man)", "noun"],
+            ["بِالْهَيْل", "with cardamom", "noun"]
+          ],
+          "grammar": ["polite-requests"]
+        },
+        {
+          "id": "cofs6",
+          "ar": "الْقَهْوَةُ الْعَرَبِيَّةُ بِدُونِ سُكَّر.",
+          "en": "Arabic coffee is without sugar.",
+          "literal": "the coffee the Arabic (is) without sugar",
+          "segs": [
+            ["الْقَهْوَةُ", "the coffee", "noun"],
+            ["الْعَرَبِيَّةُ", "Arabic", "adj"],
+            ["بِدُونِ", "without", "prep"],
+            ["سُكَّر", "sugar", "noun"]
+          ],
+          "grammar": ["nominal-sentence", "adjectives"]
+        }
+      ]
+    },
+    {
+      "title": "One cup, two cups... enough",
+      "titleAr": "شُكْرًا، يَكْفِي",
+      "titleSegs": [
+        ["شُكْرًا", "thank you", "phrase"],
+        ["يَكْفِي", "(it) is enough", "verb"]
+      ],
+      "body": [
+        "The host keeps refilling the cup as long as the guest holds it out. It is polite to accept at least one cup, and many guests drink one, two or three. Turning coffee down completely can feel cold to a host in some places, so many visitors take at least a sip. Nobody expects you to drink a large amount: the cups are small, and the point of the coffee is the welcome, not the caffeine.",
+        "How do you stop? In the Gulf countries and among many Bedouin families, the guest gently shakes or tilts the empty cup from side to side a few times before handing it back. This means \"no more, thank you\". If you simply hand the cup back, the host may well fill it again. This is a regional custom: in Cairo, Beirut or Casablanca many people do not use it. Everywhere, the words شُكْرًا, \"thank you\", and يَكْفِي, \"it is enough\", work well."
+      ],
+      "sentences": [
+        {
+          "id": "cofs7",
+          "ar": "هَلْ تُرِيدُ فِنْجَانًا آخَر؟",
+          "en": "Would you like another cup?",
+          "literal": "do you want a cup other?",
+          "segs": [
+            ["هَلْ", "(starts a yes/no question)", "question"],
+            ["تُرِيدُ", "you want (to a man)", "verb"],
+            ["فِنْجَانًا", "a cup (as object)", "noun"],
+            ["آخَر", "another, other", "adj"]
+          ],
+          "grammar": ["questions", "accusative"]
+        },
+        {
+          "id": "cofs8",
+          "ar": "شُكْرًا، يَكْفِي.",
+          "en": "Thank you, that's enough.",
+          "literal": "thanks, (it) is enough",
+          "segs": [
+            ["شُكْرًا", "thank you", "phrase"],
+            ["يَكْفِي", "(it) is enough", "verb"]
+          ],
+          "grammar": []
+        },
+        {
+          "id": "cofs9",
+          "ar": "أَشْرَبُ فِنْجَانَيْنِ أَوْ ثَلَاثَة.",
+          "en": "I drink two or three cups.",
+          "literal": "I drink two cups or three",
+          "segs": [
+            ["أَشْرَبُ", "I drink", "verb"],
+            ["فِنْجَانَيْنِ", "two cups", "noun"],
+            ["أَوْ", "or", "particle"],
+            ["ثَلَاثَة", "three", "number"]
+          ],
+          "grammar": ["present-tense", "dual"]
+        }
+      ]
+    },
+    {
+      "title": "Dates, tea and saying yes",
+      "titleAr": "التَّمْرُ وَالشَّاي",
+      "titleSegs": [
+        ["التَّمْرُ", "the dates", "noun"],
+        ["وَالشَّاي", "and the tea", "noun"]
+      ],
+      "photo": {
+        "file": "coffee-3.jpg",
+        "alt": "A Moroccan tea glass decorated with gold and blue patterns, filled with pale green mint tea, standing on a dark table next to strings of beads.",
+        "caption": "Mint tea, شَاي بِالنَّعْنَاع, in a decorated Moroccan glass.",
+        "credit": {
+          "title": "File:Moroccan Mint tea served in a Traditional tea glasses.jpg",
+          "author": "Aharoon12",
+          "license": "CC BY-SA 3.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Moroccan_Mint_tea_served_in_a_Traditional_tea_glasses.jpg",
+          "accessed": "2026-11-10",
+          "modified": "resized and re-encoded",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        }
+      },
+      "body": [
+        "Coffee is rarely served alone. In the Gulf it usually comes with dates, تَمْر: the sweet date and the slightly bitter coffee balance each other. Elsewhere there may be biscuits, fruit or sweets. Tea, شَاي, is just as important. In Egypt and the Levant it is often strong black tea with plenty of sugar, served in a small glass. In Morocco, Algeria and Tunisia green tea with fresh mint, شَاي بِالنَّعْنَاع, is often poured from high above the glass to make a little foam.",
+        "Offering and accepting has its own rhythm. In many places a guest first says لَا، شُكْرًا (shukran) out of politeness, the host insists with تَفَضَّلْ, and the guest then accepts. Hosts often insist two or three times, so a first \"no\" is not always taken as a real no. If you really do not want something, repeat your thanks with a smile and a hand on your heart; if you do want it, a simple \"yes, please\" is never rude."
+      ],
+      "sentences": [
+        {
+          "id": "cofs10",
+          "ar": "التَّمْرُ حُلْوٌ وَالْقَهْوَةُ مُرَّة.",
+          "en": "The dates are sweet and the coffee is bitter.",
+          "literal": "the dates (are) sweet and the coffee (is) bitter",
+          "segs": [
+            ["التَّمْرُ", "the dates", "noun"],
+            ["حُلْوٌ", "sweet", "adj"],
+            ["وَالْقَهْوَةُ", "and the coffee", "noun"],
+            ["مُرَّة", "bitter (f)", "adj"]
+          ],
+          "grammar": ["nominal-sentence", "adjective-agreement"],
+          "mistakes": [
+            {
+              "wrong": "التَّمْرُ حُلْوٌ وَالْقَهْوَةُ مُرّ.",
+              "right": "التَّمْرُ حُلْوٌ وَالْقَهْوَةُ مُرَّة.",
+              "why": "Coffee, qahwa, is feminine, so its adjective takes -a: murra, not murr."
+            }
+          ]
+        },
+        {
+          "id": "cofs11",
+          "ar": "مِنْ فَضْلِكَ، أُرِيدُ شَايًا بِالنَّعْنَاع.",
+          "en": "I'd like mint tea, please.",
+          "literal": "from your kindness, I want tea with the mint",
+          "segs": [
+            ["مِنْ", "from", "prep"],
+            ["فَضْلِكَ", "your kindness ('please', to a man)", "noun"],
+            ["أُرِيدُ", "I want", "verb"],
+            ["شَايًا", "tea (as object)", "noun"],
+            ["بِالنَّعْنَاع", "with mint", "noun"]
+          ],
+          "grammar": ["polite-requests", "accusative"]
+        },
+        {
+          "id": "cofs12",
+          "ar": "طَيِّب، فِنْجَانٌ وَاحِدٌ فَقَطْ.",
+          "en": "All right, just one cup.",
+          "literal": "good, a cup one only",
+          "segs": [
+            ["طَيِّب", "all right, OK (lit. good)", "adj"],
+            ["فِنْجَانٌ", "a cup", "noun"],
+            ["وَاحِدٌ", "one", "number"],
+            ["فَقَطْ", "only, just", "adverb"]
+          ],
+          "grammar": ["numbers-1-10"]
+        }
+      ]
+    }
+  ],
+  "words": [
+    { "ar": "أَهْلًا وَسَهْلًا", "en": "welcome", "segs": [["أَهْلًا", "welcome (lit. family)", "phrase"], ["وَسَهْلًا", "and easy ground ('welcome')", "phrase"]], "note": "The usual reply is أَهْلًا بِكَ, \"welcome to you\"." },
+    { "ar": "تَفَضَّلْ", "en": "please, come in, here you are (to a man)", "segs": [["تَفَضَّلْ", "please, come in, here you are (to a man)", "verb"]] },
+    { "ar": "ضِيَافَة", "en": "hospitality", "segs": [["ضِيَافَة", "hospitality", "noun"]] },
+    { "ar": "كَرَم", "en": "generosity", "segs": [["كَرَم", "generosity", "noun"]] },
+    { "ar": "مَجْلِس", "en": "majlis, sitting room for guests", "segs": [["مَجْلِس", "majlis, sitting room for guests", "noun"]] },
+    { "ar": "قَهْوَة عَرَبِيَّة", "en": "Arabic coffee", "segs": [["قَهْوَة", "coffee", "noun"], ["عَرَبِيَّة", "Arabic", "adj"]] },
+    { "ar": "دَلَّة", "en": "dallah, Arabic coffee pot", "segs": [["دَلَّة", "dallah, Arabic coffee pot", "noun"]] },
+    { "ar": "فِنْجَان", "en": "small cup (for coffee)", "segs": [["فِنْجَان", "small cup", "noun"]], "note": "Plural فَنَاجِين." },
+    { "ar": "هَيْل", "en": "cardamom", "segs": [["هَيْل", "cardamom", "noun"]] },
+    { "ar": "يَكْفِي", "en": "(it) is enough", "segs": [["يَكْفِي", "(it) is enough", "verb"]] },
+    { "ar": "تَمْر", "en": "dates (the fruit)", "segs": [["تَمْر", "dates (the fruit)", "noun"]] },
+    { "ar": "مُرّ", "en": "bitter", "segs": [["مُرّ", "bitter (m)", "adj"]] },
+    { "ar": "شَاي بِالنَّعْنَاع", "en": "mint tea", "segs": [["شَاي", "tea", "noun"], ["بِالنَّعْنَاع", "with mint", "noun"]] }
+  ],
+  "vocab": ["ahlan", "shukran", "qahwa", "shay", "finjan", "sukkar", "dayf", "min-fadlik", "yuridu", "yashrabu"],
+  "reading": {
+    "title": "A cup in the majlis",
+    "ar": "سَامِي ضَيْفٌ فِي بَيْتِ خَالِد. يَجْلِسُ فِي الْمَجْلِس، وَيَقُولُ خَالِد: أَهْلًا وَسَهْلًا! ثُمَّ يَصُبُّ خَالِدٌ الْقَهْوَةَ الْعَرَبِيَّةَ مِنَ الدَّلَّةِ فِي فِنْجَانٍ صَغِير. الْقَهْوَةُ بِالْهَيْلِ وَبِدُونِ سُكَّر، وَمَعَهَا تَمْرٌ حُلْو. يَشْرَبُ سَامِي فِنْجَانَيْن، وَيَقُولُ خَالِد: فِنْجَانٌ آخَر؟ يَهُزُّ سَامِي الْفِنْجَانَ وَيَقُولُ: شُكْرًا، يَكْفِي. ثُمَّ يَشْرَبَانِ الشَّايَ بِالنَّعْنَاع. الشَّايُ حُلْوٌ جِدًّا.",
+    "en": "Sami is a guest at Khalid's house. He sits in the majlis, and Khalid says: Welcome! Then Khalid pours the Arabic coffee from the dallah into a small cup. The coffee is with cardamom and without sugar, and with it there are sweet dates. Sami drinks two cups, and Khalid says: Another cup? Sami shakes the cup and says: Thank you, that's enough. Then the two of them drink mint tea. The tea is very sweet.",
+    "segs": [
+      ["سَامِي", "Sami (first name)", "name"],
+      ["ضَيْفٌ", "a guest", "noun"],
+      ["فِي", "in", "prep"],
+      ["بَيْتِ", "house (of)", "noun"],
+      ["خَالِد", "Khalid (first name)", "name"],
+      ["يَجْلِسُ", "(he) sits", "verb"],
+      ["فِي", "in", "prep"],
+      ["الْمَجْلِس", "the majlis (sitting room for guests)", "noun"],
+      ["وَيَقُولُ", "and (he) says", "verb"],
+      ["خَالِد", "Khalid (first name)", "name"],
+      ["أَهْلًا", "welcome (lit. family)", "phrase"],
+      ["وَسَهْلًا", "and easy ground ('welcome')", "phrase"],
+      ["ثُمَّ", "then", "particle"],
+      ["يَصُبُّ", "(he) pours", "verb"],
+      ["خَالِدٌ", "Khalid (first name)", "name"],
+      ["الْقَهْوَةَ", "the coffee (as object)", "noun"],
+      ["الْعَرَبِيَّةَ", "Arabic", "adj"],
+      ["مِنَ", "from", "prep"],
+      ["الدَّلَّةِ", "the dallah (coffee pot)", "noun"],
+      ["فِي", "into, in", "prep"],
+      ["فِنْجَانٍ", "a small cup", "noun"],
+      ["صَغِير", "small", "adj"],
+      ["الْقَهْوَةُ", "the coffee", "noun"],
+      ["بِالْهَيْلِ", "with cardamom", "noun"],
+      ["وَبِدُونِ", "and without", "prep"],
+      ["سُكَّر", "sugar", "noun"],
+      ["وَمَعَهَا", "and with it (f)", "prep"],
+      ["تَمْرٌ", "dates", "noun"],
+      ["حُلْو", "sweet", "adj"],
+      ["يَشْرَبُ", "(he) drinks", "verb"],
+      ["سَامِي", "Sami (first name)", "name"],
+      ["فِنْجَانَيْن", "two cups", "noun"],
+      ["وَيَقُولُ", "and (he) says", "verb"],
+      ["خَالِد", "Khalid (first name)", "name"],
+      ["فِنْجَانٌ", "a cup", "noun"],
+      ["آخَر", "another, other", "adj"],
+      ["يَهُزُّ", "(he) shakes", "verb"],
+      ["سَامِي", "Sami (first name)", "name"],
+      ["الْفِنْجَانَ", "the cup (as object)", "noun"],
+      ["وَيَقُولُ", "and (he) says", "verb"],
+      ["شُكْرًا", "thank you", "phrase"],
+      ["يَكْفِي", "(it) is enough", "verb"],
+      ["ثُمَّ", "then", "particle"],
+      ["يَشْرَبَانِ", "the two of them drink", "verb"],
+      ["الشَّايَ", "the tea (as object)", "noun"],
+      ["بِالنَّعْنَاع", "with mint", "noun"],
+      ["الشَّايُ", "the tea", "noun"],
+      ["حُلْوٌ", "sweet", "adj"],
+      ["جِدًّا", "very", "adverb"]
+    ]
+  },
+  "readingQuestions": [
+    {
+      "id": "cofr1",
+      "prompt": "Where does Sami sit?",
+      "options": ["in a café", "in the majlis", "in the kitchen", "in a hotel"],
+      "answer": 1,
+      "explain": "يَجْلِسُ فِي الْمَجْلِس: he sits in the majlis, the room for guests."
+    },
+    {
+      "id": "cofr2",
+      "prompt": "What comes with the coffee?",
+      "options": ["milk", "sugar", "sweet dates", "bread"],
+      "answer": 2,
+      "explain": "وَمَعَهَا تَمْرٌ حُلْو: and with it sweet dates. The coffee itself is بِدُونِ سُكَّر, without sugar."
+    },
+    {
+      "id": "cofr3",
+      "prompt": "How does Sami show that he has had enough coffee?",
+      "options": ["He shakes the cup and says thank you.", "He drinks a third cup.", "He asks for more sugar.", "He leaves the room."],
+      "answer": 0,
+      "explain": "يَهُزُّ سَامِي الْفِنْجَانَ: Sami shakes the cup, and says شُكْرًا، يَكْفِي."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "cofq1",
+      "prompt": "What does أَهْلًا وَسَهْلًا mean?",
+      "options": ["Goodbye", "Welcome", "Thank you", "That's enough"],
+      "answer": 1,
+      "explain": "It is the classic greeting for a guest at the door."
+    },
+    {
+      "id": "cofq2",
+      "prompt": "What is a دَلَّة?",
+      "options": ["a coffee pot with a long curved spout", "a small cup without a handle", "a room for guests", "a kind of date"],
+      "answer": 0,
+      "explain": "The small cup without a handle is a فِنْجَان; the room for guests is a مَجْلِس."
+    },
+    {
+      "id": "cofq3",
+      "prompt": "Which spice gives Gulf-style Arabic coffee its typical taste?",
+      "options": ["cinnamon", "black pepper", "ginger", "cardamom"],
+      "answer": 3,
+      "explain": "Cardamom, هَيْل. Some families also add saffron, cloves or rose water."
+    },
+    {
+      "id": "cofq4",
+      "prompt": "In the Gulf, how does a guest often show that he wants no more coffee?",
+      "options": ["He leaves the cup full.", "He turns the cup upside down.", "He gently shakes the empty cup before handing it back.", "He pours the coffee back into the pot."],
+      "answer": 2,
+      "explain": "This is a Gulf and Bedouin custom. Elsewhere, simply say شُكْرًا، يَكْفِي."
+    },
+    {
+      "id": "cofq5",
+      "prompt": "What does this mean?",
+      "ar": "هَلْ تُرِيدُ قَهْوَةً؟",
+      "options": ["Is the coffee hot?", "I want coffee.", "Where is the coffee?", "Would you like coffee?"],
+      "answer": 3,
+      "explain": "هَلْ starts a yes/no question and تُرِيدُ is \"you want\" (to a man)."
+    },
+    {
+      "id": "cofq6",
+      "prompt": "In which year did UNESCO add Arabic coffee to its list of intangible cultural heritage?",
+      "options": ["2005", "2015", "2020", "1995"],
+      "answer": 1,
+      "explain": "In 2015, as \"a symbol of generosity\"."
+    }
+  ],
+  "status": "needs-review"
+}

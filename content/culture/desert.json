@@ -1,0 +1,197 @@
+{
+  "id": "cul.desert",
+  "n": 6,
+  "title": "Desert, oasis and Bedouin life",
+  "titleAr": "الصَّحْرَاءُ وَالْوَاحَةُ وَحَيَاةُ الْبَدْو",
+  "titleSegs": [["الصَّحْرَاءُ", "the desert", "noun"], ["وَالْوَاحَةُ", "and the oasis", "noun"], ["وَحَيَاةُ", "and (the) life (of)", "noun"], ["الْبَدْو", "the Bedouin", "noun"]],
+  "emoji": "🐪",
+  "level": 6,
+  "summary": "Deserts cover a large part of the Arab world, from the Sahara in North Africa to the Empty Quarter of Arabia. Meet the oasis and its date palms, the camel, the goat-hair tent and the old customs of hospitality, and see how most people of Bedouin descent live today. Key word: صَحْرَاء (desert).",
+  "hero": {
+    "file": "desert-1.jpg",
+    "alt": "A single camel walking on a sandy track towards tall red sandstone rocks in Wadi Rum, Jordan, under a clear blue sky.",
+    "caption": "A camel in Wadi Rum, southern Jordan: red sand, dry bushes and sandstone mountains.",
+    "credit": {
+      "title": "File:Wadi Rum landscape and a camel (12465347644).jpg",
+      "author": "Jorge Láscar from Australia",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Wadi_Rum_landscape_and_a_camel_(12465347644).jpg",
+      "accessed": "2026-11-10",
+      "modified": "resized and re-encoded"
+    }
+  },
+  "sections": [
+    {
+      "title": "Seas of sand and rock",
+      "titleAr": "رِمَالٌ وَصُخُور",
+      "titleSegs": [["رِمَالٌ", "sands", "noun"], ["وَصُخُور", "and rocks", "noun"]],
+      "photo": {
+        "file": "desert-2.jpg",
+        "alt": "Long, rippled sand dunes in soft evening light stretching to the horizon in the Rub' al-Khali in Oman.",
+        "caption": "Dunes of the Empty Quarter, الرُّبْعُ الْخَالِي, in Oman.",
+        "credit": {
+          "title": "File:Ar-Rub' Al-Khali (Oman) kz03.jpg",
+          "author": "Krzysztof Ziarnek, Kenraiz",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Ar-Rub%27_Al-Khali_(Oman)_kz03.jpg",
+          "accessed": "2026-11-10",
+          "modified": "resized and re-encoded"
+        }
+      },
+      "body": [
+        "The Arabic word for desert is صَحْرَاء, and the English name 'Sahara' comes from it. The Sahara stretches across North Africa, from Egypt and Libya to Algeria, Morocco and Mauritania. On the Arabian Peninsula lies the Rub' al-Khali, الرُّبْعُ الْخَالِي ('the empty quarter'), one of the largest sand deserts in the world. It is shared by Saudi Arabia, Oman, the United Arab Emirates and Yemen, and some of its dunes, each a كَثِيب (plural kuthbān), are more than 200 metres high.",
+        "Not every desert is a sea of sand. Wadi Rum, وَادِي رَمّ, in the south of Jordan is a wide valley of red sand between huge mountains of sandstone and granite. The word wādī means a valley or a dry riverbed that can suddenly fill with water after rare heavy rain. Other deserts are flat plains of gravel and stone. Wadi Rum is a protected area and a UNESCO World Heritage site, and today it is also one of Jordan's best-known places for visitors.",
+        "Desert weather is extreme. The days can be very hot, حَارّ, and in summer, صَيْف, the temperature in the shade often goes above 40 degrees. Dry air keeps little heat, so after sunset the desert cools quickly and the nights can be cold, بَارِد. In winter, شِتَاء, nights in some deserts come close to freezing. People who know the desert carry plenty of water, مَاء, a scarf against the sun and the sand, and something warm for the night."
+      ],
+      "sentences": [
+        { "id": "dess1", "ar": "الصَّحْرَاءُ حَارَّةٌ فِي النَّهَارِ وَبَارِدَةٌ فِي اللَّيْل.", "en": "The desert is hot in the daytime and cold at night.", "literal": "the desert (is) hot in the daytime and cold in the night",
+          "segs": [["الصَّحْرَاءُ", "the desert", "noun"], ["حَارَّةٌ", "hot (f)", "adj"], ["فِي", "in", "prep"], ["النَّهَارِ", "the daytime", "noun"], ["وَبَارِدَةٌ", "and cold (f)", "adj"], ["فِي", "in", "prep"], ["اللَّيْل", "the night", "noun"]],
+          "grammar": ["nominal-sentence", "adjective-agreement"],
+          "mistakes": [{ "wrong": "الصَّحْرَاءُ حَارٌّ", "right": "الصَّحْرَاءُ حَارَّةٌ", "why": "ṣaḥrāʾ (desert) is feminine, so the adjective takes the feminine ending -a: ḥārra, bārida." }] },
+        { "id": "dess2", "ar": "الرُّبْعُ الْخَالِي مِنْ أَكْبَرِ الصَّحَارَى الرَّمْلِيَّةِ فِي الْعَالَم.", "en": "The Empty Quarter is one of the largest sand deserts in the world.", "literal": "the quarter the empty (is) from (the) biggest (of) the deserts the sandy in the world",
+          "segs": [["الرُّبْعُ", "the quarter", "noun"], ["الْخَالِي", "the empty ('the Empty Quarter', a desert)", "adj"], ["مِنْ", "from, (one) of", "prep"], ["أَكْبَرِ", "(the) biggest (of)", "adj"], ["الصَّحَارَى", "the deserts", "noun"], ["الرَّمْلِيَّةِ", "sandy", "adj"], ["فِي", "in", "prep"], ["الْعَالَم", "the world", "noun"]],
+          "grammar": ["superlative", "idafa"] },
+        { "id": "dess3", "ar": "فِي وَادِي رَمّ رِمَالٌ حَمْرَاءُ وَصُخُورٌ عَالِيَة.", "en": "In Wadi Rum there is red sand and there are tall rocks.", "literal": "in (the) valley (of) Rum (are) red sands and high rocks",
+          "segs": [["فِي", "in", "prep"], ["وَادِي", "valley (of)", "noun"], ["رَمّ", "Rum (a desert valley in Jordan)", "name"], ["رِمَالٌ", "sands", "noun"], ["حَمْرَاءُ", "red (f)", "adj"], ["وَصُخُورٌ", "and rocks", "noun"], ["عَالِيَة", "high, tall (f)", "adj"]],
+          "grammar": ["place-first-w5", "non-human-plural", "colours"] }
+      ]
+    },
+    {
+      "title": "The oasis and the date palm",
+      "titleAr": "الْوَاحَةُ وَالنَّخْلَة",
+      "titleSegs": [["الْوَاحَةُ", "the oasis", "noun"], ["وَالنَّخْلَة", "and the palm tree", "noun"]],
+      "photo": {
+        "file": "desert-3.jpg",
+        "alt": "A still lake reflecting a long line of date palms and a few low mud-brick buildings under a cloudy sky at Siwa Oasis, Egypt.",
+        "caption": "Palm groves beside a lake at Siwa Oasis, سِيوَة, in Egypt's Western Desert.",
+        "credit": {
+          "title": "File:Palm trees in Siwa oasis.jpg",
+          "author": "Ghada M. Elshazly",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Palm_trees_in_Siwa_oasis.jpg",
+          "accessed": "2026-11-10",
+          "modified": "resized and re-encoded"
+        }
+      },
+      "body": [
+        "An oasis, وَاحَة, is a place in the desert where water comes to the surface from springs or wells, so that trees and crops can grow and people can live. Siwa, سِيوَة, in Egypt's Western Desert not far from the Libyan border, is famous for its many springs, its salt lakes and its large groves of date palms and olive trees. Many people in Siwa speak a Berber (Amazigh) language called Siwi at home, as well as Arabic.",
+        "Al-Ahsa, الْأَحْسَاء, in the east of Saudi Arabia, is one of the largest oases in the world, with well over two million date palms, old springs and canals. In 2018 UNESCO listed the Al-Ahsa Oasis as a World Heritage site. Like many oases, it is not a small green island but a whole region of farms, villages and towns, and its city of Hofuf is a busy modern centre.",
+        "The date palm, نَخْلَة (plural nakhīl), was for centuries the most useful tree of the desert. Its fruit, تَمْر (dates), keeps for a long time and gives a lot of energy, and its trunk, leaves and fibre were used for roofs, mats, baskets and rope. Today dates are still offered to guests with coffee in many homes, and many people eat a date to break the fast in Ramadan."
+      ],
+      "sentences": [
+        { "id": "dess4", "ar": "فِي الْوَاحَةِ مَاءٌ وَنَخِيلٌ كَثِير.", "en": "In the oasis there is water and there are many palm trees.", "literal": "in the oasis (is) water and many palm trees",
+          "segs": [["فِي", "in", "prep"], ["الْوَاحَةِ", "the oasis", "noun"], ["مَاءٌ", "water", "noun"], ["وَنَخِيلٌ", "and palm trees", "noun"], ["كَثِير", "many, a lot of", "adj"]],
+          "grammar": ["place-first-w5"] },
+        { "id": "dess5", "ar": "الْأَحْسَاءُ وَاحَةٌ كَبِيرَةٌ فِي شَرْقِ السُّعُودِيَّة.", "en": "Al-Ahsa is a large oasis in the east of Saudi Arabia.", "literal": "Al-Ahsa (is) an oasis big in (the) east (of) Saudi Arabia",
+          "segs": [["الْأَحْسَاءُ", "Al-Ahsa (an oasis region in Saudi Arabia)", "name"], ["وَاحَةٌ", "an oasis", "noun"], ["كَبِيرَةٌ", "big, large (f)", "adj"], ["فِي", "in", "prep"], ["شَرْقِ", "(the) east (of)", "noun"], ["السُّعُودِيَّة", "Saudi Arabia (country)", "name"]],
+          "grammar": ["nominal-sentence", "idafa", "adjective-agreement"] },
+        { "id": "dess6", "ar": "نَأْكُلُ التَّمْرَ وَنَشْرَبُ الْقَهْوَة.", "en": "We eat dates and drink coffee.", "literal": "we eat the dates and we drink the coffee",
+          "segs": [["نَأْكُلُ", "we eat", "verb"], ["التَّمْرَ", "the dates", "noun"], ["وَنَشْرَبُ", "and we drink", "verb"], ["الْقَهْوَة", "the coffee", "noun"]],
+          "grammar": ["present-tense", "accusative"] }
+      ]
+    },
+    {
+      "title": "Camels, tents and guests",
+      "titleAr": "الْإِبِلُ وَبَيْتُ الشَّعْر",
+      "titleSegs": [["الْإِبِلُ", "the camels", "noun"], ["وَبَيْتُ", "and (the) house (of)", "noun"], ["الشَّعْر", "the hair ('the goat-hair tent')", "noun"]],
+      "photo": {
+        "file": "desert-4.jpg",
+        "alt": "Black tents with white stripes standing on red sand below pale sandstone cliffs at a visitors' camp in Wadi Rum, Jordan.",
+        "caption": "Tents in the style of the black goat-hair tent at a visitors' camp in Wadi Rum.",
+        "credit": {
+          "title": "File:Goat-hair Tents (34861965093).jpg",
+          "author": "David Stanley from Nanaimo, Canada",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Goat-hair_Tents_(34861965093).jpg",
+          "accessed": "2026-11-10",
+          "modified": "resized and re-encoded"
+        }
+      },
+      "body": [
+        "For thousands of years the camel, جَمَل, carried people, goods and water across the desert and gave milk, meat, hair and leather. A female camel is a نَاقَة, and camels as a group are إِبِل. Classical Arabic has many more camel words, for camels of different ages, colours and uses, and early dictionary writers collected dozens of them. The popular claim of 'a thousand words for camel' is an exaggeration, and most of these words are rare today. Camel racing and camel beauty contests are still popular in the Gulf.",
+        "The traditional tent of the Bedouin is called بَيْتُ الشَّعْر ('house of hair'), because its cloth is woven from black goat hair, traditionally by the women of the family. In the heat the loose weave gives shade and lets air pass; in rain the hair fibres swell and keep most of the water out. A woven curtain divides the tent into a part for receiving guests and a part for the family. Careful: shaʿr (with a) is hair, while شِعْر (with i) is poetry.",
+        "Hospitality, ضِيَافَة, and generosity (karam) are central values of desert life. A guest, ضَيْف, is welcomed with Arabic coffee, قَهْوَة, often flavoured with cardamom and served in small cups, together with dates. In many tribes an old custom says that a guest may stay three days before being asked about his business. In 2015 Arabic coffee, as a symbol of generosity, was added to UNESCO's list of intangible cultural heritage, nominated by Saudi Arabia, the UAE, Oman and Qatar."
+      ],
+      "sentences": [
+        { "id": "dess7", "ar": "النَّاقَةُ أُنْثَى الْجَمَل.", "en": "A nāqa is a female camel.", "literal": "the she-camel (is the) female (of) the camel",
+          "segs": [["النَّاقَةُ", "the she-camel", "noun"], ["أُنْثَى", "female (of)", "noun"], ["الْجَمَل", "the camel", "noun"]],
+          "grammar": ["nominal-sentence", "idafa"] },
+        { "id": "dess8", "ar": "بَيْتُ الشَّعْرِ مَصْنُوعٌ مِنْ شَعْرِ الْمَاعِز.", "en": "The 'house of hair' is made of goat hair.", "literal": "(the) house (of) the hair (is) made from (the) hair (of) the goats",
+          "segs": [["بَيْتُ", "(the) house (of)", "noun"], ["الشَّعْرِ", "the hair ('the goat-hair tent')", "noun"], ["مَصْنُوعٌ", "made", "adj"], ["مِنْ", "from, of", "prep"], ["شَعْرِ", "(the) hair (of)", "noun"], ["الْمَاعِز", "the goats", "noun"]],
+          "grammar": ["idafa", "nominal-sentence"],
+          "mistakes": [{ "wrong": "بَيْتُ الشِّعْر (for the tent)", "right": "بَيْتُ الشَّعْر", "why": "With a (shaʿr) the word means hair, so the goat-hair tent is bayt ash-shaʿr. With i (shiʿr) it means poetry, and bayt shiʿr is a line of poetry." }] },
+        { "id": "dess9", "ar": "أَهْلًا وَسَهْلًا، تَفَضَّلْ وَاشْرَبِ الْقَهْوَة.", "en": "Welcome! Please come in and have some coffee.", "literal": "family and plain (= welcome), please (come) and drink the coffee",
+          "segs": [["أَهْلًا", "welcome (lit. family)", "phrase"], ["وَسَهْلًا", "and welcome (lit. and easy ground)", "phrase"], ["تَفَضَّلْ", "please, come in (to a man)", "verb"], ["وَاشْرَبِ", "and drink! (to a man)", "verb"], ["الْقَهْوَة", "the coffee", "noun"]],
+          "grammar": ["greetings", "imperative"] }
+      ]
+    },
+    {
+      "title": "Stars, poetry and Bedouin life today",
+      "titleAr": "النُّجُومُ وَالشِّعْرُ وَالْحَيَاةُ الْيَوْم",
+      "titleSegs": [["النُّجُومُ", "the stars", "noun"], ["وَالشِّعْرُ", "and the poetry", "noun"], ["وَالْحَيَاةُ", "and the life", "noun"], ["الْيَوْم", "today", "noun"]],
+      "body": [
+        "Far from city lights, the night sky over the desert is full of stars. A star is a نَجْم (plural nujūm). Travellers and caravans used the stars to find their way, and the rising of certain stars marked the seasons: in Arabia, the first appearance of the star Canopus (suhayl) before dawn is still taken as a sign that the worst summer heat is ending. Many star names used in astronomy today come from Arabic, for example Aldebaran (ad-dabarān, 'the follower') and Altair (aṭ-ṭāʾir, 'the flying one').",
+        "Poetry, شِعْر, has long been the great art of Arabia. The most famous early Arabic poems, the long odes known as the Muʿallaqāt, often begin with the poet stopping at an empty campsite where his loved one once lived. Poetry is still very much alive: Nabati poetry, composed in the spoken dialects of the Arabian Peninsula, fills television competitions such as 'Million's Poet' in Abu Dhabi, and poems are recited at weddings and family gatherings.",
+        "The word بَدْو (Bedouin) is related to bādiya, the open desert land; settled people of towns and villages are called ḥaḍar. Today most people of Bedouin descent live settled lives in towns and cities and work as teachers, engineers, soldiers, drivers, business people or in tourism. Many keep their dialect, family ties, poetry and customs of hospitality, and some families still keep camels or sheep or spend weekends in the desert in the cool season, usually arriving by car. In Wadi Rum, many local Bedouin work as guides and run camps for visitors."
+      ],
+      "sentences": [
+        { "id": "dess10", "ar": "فِي اللَّيْلِ نَرَى نُجُومًا كَثِيرَةً فِي السَّمَاء.", "en": "At night we see many stars in the sky.", "literal": "in the night we see stars many in the sky",
+          "segs": [["فِي", "in", "prep"], ["اللَّيْلِ", "the night", "noun"], ["نَرَى", "we see", "verb"], ["نُجُومًا", "stars", "noun"], ["كَثِيرَةً", "many (f, for a non-human plural)", "adj"], ["فِي", "in", "prep"], ["السَّمَاء", "the sky", "noun"]],
+          "grammar": ["present-tense", "non-human-plural", "accusative"] },
+        { "id": "dess11", "ar": "الشِّعْرُ فَنٌّ قَدِيمٌ فِي الْجَزِيرَةِ الْعَرَبِيَّة.", "en": "Poetry is an old art in the Arabian Peninsula.", "literal": "the poetry (is) an art old in the peninsula the Arabian",
+          "segs": [["الشِّعْرُ", "the poetry", "noun"], ["فَنٌّ", "an art", "noun"], ["قَدِيمٌ", "old, ancient", "adj"], ["فِي", "in", "prep"], ["الْجَزِيرَةِ", "the peninsula", "noun"], ["الْعَرَبِيَّة", "Arabian, Arabic (f)", "adj"]],
+          "grammar": ["nominal-sentence", "adjectives"] },
+        { "id": "dess12", "ar": "يَسْكُنُ أَكْثَرُ الْبَدْوِ الْيَوْمَ فِي الْمُدُن.", "en": "Today most Bedouin live in towns and cities.", "literal": "lives most (of) the Bedouin today in the cities",
+          "segs": [["يَسْكُنُ", "(he) lives (verb first: 'live')", "verb"], ["أَكْثَرُ", "most (of)", "noun"], ["الْبَدْوِ", "the Bedouin", "noun"], ["الْيَوْمَ", "today", "adverb"], ["فِي", "in", "prep"], ["الْمُدُن", "the cities, the towns", "noun"]],
+          "grammar": ["verbal-sentence", "superlative"] }
+      ]
+    }
+  ],
+  "words": [
+    { "ar": "صَحْرَاء", "en": "desert", "segs": [["صَحْرَاء", "desert", "noun"]], "note": "Feminine. The Sahara is often called aṣ-ṣaḥrāʾ al-kubrā, 'the great desert'." },
+    { "ar": "كَثِيب", "en": "sand dune", "segs": [["كَثِيب", "sand dune", "noun"]], "note": "Plural kuthbān. In everyday speech many people simply say 'a hill of sand'." },
+    { "ar": "وَاحَة", "en": "oasis", "segs": [["وَاحَة", "oasis", "noun"]] },
+    { "ar": "نَخْلَة", "en": "palm tree, date palm", "segs": [["نَخْلَة", "palm tree", "noun"]], "note": "One tree; palm trees together are nakhīl." },
+    { "ar": "تَمْر", "en": "dates (the fruit)", "segs": [["تَمْر", "dates", "noun"]], "note": "A collective noun: one date is tamra." },
+    { "ar": "نَاقَة", "en": "she-camel, female camel", "segs": [["نَاقَة", "she-camel", "noun"]] },
+    { "ar": "إِبِل", "en": "camels (as a group)", "segs": [["إِبِل", "camels (as a group)", "noun"]], "note": "One camel is جَمَل." },
+    { "ar": "بَيْتُ الشَّعْر", "en": "goat-hair tent (lit. house of hair)", "segs": [["بَيْتُ", "(the) house (of)", "noun"], ["الشَّعْر", "the hair", "noun"]] },
+    { "ar": "ضِيَافَة", "en": "hospitality", "segs": [["ضِيَافَة", "hospitality", "noun"]], "note": "From the same root as ضَيْف (guest)." },
+    { "ar": "نَجْم", "en": "star", "segs": [["نَجْم", "star", "noun"]], "note": "Plural nujūm." },
+    { "ar": "شِعْر", "en": "poetry", "segs": [["شِعْر", "poetry", "noun"]], "note": "Do not confuse with shaʿr, hair." },
+    { "ar": "بَدْو", "en": "Bedouin (people of the open desert)", "segs": [["بَدْو", "Bedouin", "noun"]], "note": "One Bedouin man is badawī; the English word Bedouin comes from the same root." }
+  ],
+  "vocab": ["jamal", "harr", "barid", "sayf", "shita", "maa", "dayf", "qahwa", "layla-w9", "shams"],
+  "reading": {
+    "title": "A trip to the oasis",
+    "ar": "سَافَرْتُ مَعَ صَدِيقَتِي إِلَى وَاحَةِ سِيوَة فِي غَرْبِ مِصْر. فِي الطَّرِيقِ رَأَيْنَا صَحْرَاءَ وَاسِعَةً وَكُثْبَانًا عَالِيَة. فِي الْوَاحَةِ عُيُونُ مَاءٍ وَنَخِيلٌ كَثِير. كَانَ النَّهَارُ حَارًّا، وَلٰكِنَّ اللَّيْلَ كَانَ بَارِدًا جِدًّا. فِي الْمَسَاءِ شَرِبْنَا الشَّايَ مَعَ عَائِلَةٍ مِنْ سِيوَة، وَأَكَلْنَا التَّمْر. بَعْدَ ذٰلِكَ نَظَرْنَا إِلَى النُّجُومِ فِي السَّمَاء. فِي السَّنَةِ الْقَادِمَةِ نُرِيدُ أَنْ نَزُورَ الْأَحْسَاء.",
+    "en": "I travelled with my friend to Siwa Oasis in the west of Egypt. On the way we saw a wide desert and high dunes. In the oasis there are springs of water and many palm trees. The day was hot, but the night was very cold. In the evening we drank tea with a family from Siwa and ate dates. After that we looked at the stars in the sky. Next year we want to visit Al-Ahsa.",
+    "segs": [
+      ["سَافَرْتُ", "I travelled"], ["مَعَ", "with"], ["صَدِيقَتِي", "my friend (f)"], ["إِلَى", "to"], ["وَاحَةِ", "(the) oasis (of)"], ["سِيوَة", "Siwa (an oasis in Egypt)", "name"], ["فِي", "in"], ["غَرْبِ", "(the) west (of)"], ["مِصْر", "Egypt (country)", "name"],
+      ["فِي", "in, on"], ["الطَّرِيقِ", "the way, the road"], ["رَأَيْنَا", "we saw"], ["صَحْرَاءَ", "a desert"], ["وَاسِعَةً", "wide (f)"], ["وَكُثْبَانًا", "and dunes"], ["عَالِيَة", "high (f)"],
+      ["فِي", "in"], ["الْوَاحَةِ", "the oasis"], ["عُيُونُ", "springs (of) (lit. eyes)"], ["مَاءٍ", "water"], ["وَنَخِيلٌ", "and palm trees"], ["كَثِير", "many, a lot of"],
+      ["كَانَ", "was"], ["النَّهَارُ", "the day, the daytime"], ["حَارًّا", "hot"], ["وَلٰكِنَّ", "but"], ["اللَّيْلَ", "the night"], ["كَانَ", "was"], ["بَارِدًا", "cold"], ["جِدًّا", "very"],
+      ["فِي", "in"], ["الْمَسَاءِ", "the evening"], ["شَرِبْنَا", "we drank"], ["الشَّايَ", "the tea"], ["مَعَ", "with"], ["عَائِلَةٍ", "a family"], ["مِنْ", "from"], ["سِيوَة", "Siwa (an oasis in Egypt)", "name"], ["وَأَكَلْنَا", "and we ate"], ["التَّمْر", "the dates"],
+      ["بَعْدَ", "after"], ["ذٰلِكَ", "that"], ["نَظَرْنَا", "we looked"], ["إِلَى", "at, to"], ["النُّجُومِ", "the stars"], ["فِي", "in"], ["السَّمَاء", "the sky"],
+      ["فِي", "in"], ["السَّنَةِ", "the year"], ["الْقَادِمَةِ", "next, coming (f)"], ["نُرِيدُ", "we want"], ["أَنْ", "to, that"], ["نَزُورَ", "we visit (after an)"], ["الْأَحْسَاء", "Al-Ahsa (an oasis region in Saudi Arabia)", "name"]
+    ]
+  },
+  "readingQuestions": [
+    { "id": "desr1", "prompt": "Where is Siwa Oasis?", "options": ["in the east of Saudi Arabia", "in the west of Egypt", "in the south of Jordan", "in Oman"], "answer": 1, "explain": "The text says وَاحَةِ سِيوَة فِي غَرْبِ مِصْر: Siwa Oasis in the west of Egypt." },
+    { "id": "desr2", "prompt": "What was the night like?", "options": ["very hot", "rainy", "very cold", "windy"], "answer": 2, "explain": "اللَّيْلَ كَانَ بَارِدًا جِدًّا: the night was very cold, although the day was hot." },
+    { "id": "desr3", "prompt": "Which place do they want to visit next year?", "options": ["Al-Ahsa", "Wadi Rum", "the Empty Quarter", "Cairo"], "answer": 0, "explain": "نُرِيدُ أَنْ نَزُورَ الْأَحْسَاء: we want to visit Al-Ahsa, the big oasis in Saudi Arabia." }
+  ],
+  "quiz": [
+    { "id": "desq1", "prompt": "What does this word mean?", "ar": "صَحْرَاء", "options": ["oasis", "desert", "sand dune", "valley"], "answer": 1, "explain": "صَحْرَاء is a desert; the English name 'Sahara' comes from it." },
+    { "id": "desq2", "prompt": "Which desert is shared by Saudi Arabia, Oman, the UAE and Yemen?", "options": ["the Sahara", "Wadi Rum", "the Empty Quarter (Rub' al-Khali)", "Siwa"], "answer": 2, "explain": "الرُّبْعُ الْخَالِي, the Empty Quarter, covers the south of the Arabian Peninsula." },
+    { "id": "desq3", "prompt": "Why is the Bedouin tent called بَيْتُ الشَّعْر?", "options": ["its cloth is woven from goat hair", "poets live in it", "it is made of palm leaves", "it is always white"], "answer": 0, "explain": "shaʿr (with a) is hair: the tent is woven from black goat hair. شِعْر (with i) is poetry." },
+    { "id": "desq4", "prompt": "What is a نَاقَة?", "options": ["a young camel", "a camel race", "a female camel", "a herd of camels"], "answer": 2, "explain": "النَّاقَةُ أُنْثَى الْجَمَل: a nāqa is a female camel. Camels as a group are إِبِل." },
+    { "id": "desq5", "prompt": "The desert is hot in the daytime. What are desert nights often like?", "options": ["hot and humid", "cold", "always rainy", "hotter than the day"], "answer": 1, "explain": "Dry air keeps little heat, so the desert cools quickly after sunset: الصَّحْرَاءُ حَارَّةٌ فِي النَّهَارِ وَبَارِدَةٌ فِي اللَّيْل." },
+    { "id": "desq6", "prompt": "How do most people of Bedouin descent live today?", "options": ["moving with their camels all year", "in tents in Wadi Rum", "only in oases", "settled in towns and cities"], "answer": 3, "explain": "يَسْكُنُ أَكْثَرُ الْبَدْوِ الْيَوْمَ فِي الْمُدُن: most live settled lives in towns and cities, while many keep their customs." }
+  ],
+  "status": "needs-review"
+}

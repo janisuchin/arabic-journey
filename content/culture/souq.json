@@ -1,0 +1,179 @@
+{
+  "id": "cul.souq",
+  "n": 4,
+  "title": "The souq: markets and bargaining",
+  "titleAr": "السُّوقُ وَالْمُسَاوَمَةُ",
+  "titleSegs": [["السُّوقُ", "the market, the souq"], ["وَالْمُسَاوَمَةُ", "and bargaining"]],
+  "emoji": "🛍️",
+  "level": 4,
+  "summary": "Explore the traditional covered markets of the Arab world, from Khan el-Khalili in Cairo to Muttrah Souq in Muscat, and walk their lanes of gold, spices, cloth and copper. Learn to ask بِكَمْ هٰذَا؟ (how much is this?), to bargain politely and to accept a glass of tea from a shopkeeper.",
+  "status": "needs-review",
+  "hero": {
+    "file": "souq-1.jpg",
+    "alt": "A busy covered lane in Khan el-Khalili, Cairo, with water pipes, lamps, hanging cloth and souvenirs on both sides.",
+    "caption": "A lane of Khan el-Khalili in Cairo: lamps, water pipes and cloth on both sides.",
+    "credit": {
+      "title": "File:The Khan el-Khalili market in Cairo, Egypt (2743501345).jpg",
+      "author": "V Manninen from Funland",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:The_Khan_el-Khalili_market_in_Cairo,_Egypt_(2743501345).jpg",
+      "accessed": "2026-11-10",
+      "modified": "resized and re-encoded"
+    }
+  },
+  "sections": [
+    {
+      "title": "Old covered markets",
+      "titleAr": "أَسْوَاق قَدِيمَة",
+      "titleSegs": [["أَسْوَاق", "markets (plural of sūq)"], ["قَدِيمَة", "old"]],
+      "photo": {
+        "file": "souq-3.jpg",
+        "alt": "The long covered street of Souq al-Hamidiyya in Damascus under a high arched metal roof, crowded with shoppers.",
+        "caption": "Souq al-Hamidiyya in Damascus: shops on both sides under one long arched roof.",
+        "credit": {
+          "title": "File:Al-Hamidiyah Souq 02.jpg",
+          "author": "Bernard Gagnon",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Al-Hamidiyah_Souq_02.jpg",
+          "accessed": "2026-11-10",
+          "modified": "resized and re-encoded"
+        }
+      },
+      "body": [
+        "In the old centre of many Arab cities you will find a سُوق (market): not one big building but a maze of narrow lanes lined with small shops, often under a roof of wood, stone, metal or cloth that keeps out the sun. A small shop is a مَحَلّ, and the person behind the counter is the بَائِع (seller). Many of these أَسْوَاق (markets) are hundreds of years old and still busy every day, with local people doing their everyday shopping next to visitors looking for presents.",
+        "Some of them are famous across the region. Khan el-Khalili in Cairo grew up in the Middle Ages around an old trading inn, a khan, and today its lanes are full of lanterns, brass, perfume and souvenirs. Souq al-Hamidiyya in Damascus is a long, wide street under a high arched metal roof, with shops on both sides. In Morocco the souqs of Marrakesh and Fez wind through the old walled city, the medina, and on the coast of Oman, Muttrah Souq in Muscat stands close to the harbour."
+      ],
+      "sentences": [
+        { "id": "suqs1", "ar": "فِي السُّوقِ مَحَلَّاتٌ كَثِيرَةٌ.", "en": "There are many shops in the souq.", "literal": "in the market (are) many shops",
+          "segs": [["فِي", "in", "prep"], ["السُّوقِ", "the market, the souq", "noun"], ["مَحَلَّاتٌ", "shops", "noun"], ["كَثِيرَةٌ", "many (feminine: agrees with a non-human plural)", "adj"]], "grammar": ["place-first-w5", "non-human-plural"] },
+        { "id": "suqs2", "ar": "خَانُ الْخَلِيلِيِّ سُوقٌ قَدِيمٌ فِي الْقَاهِرَةِ.", "en": "Khan el-Khalili is an old market in Cairo.", "literal": "Khan el-Khalili (is) a market old in Cairo",
+          "segs": [["خَانُ", "Khan (an old trading inn; first part of the market's name)", "name"], ["الْخَلِيلِيِّ", "el-Khalili (second part of the market's name)", "name"], ["سُوقٌ", "a market", "noun"], ["قَدِيمٌ", "old", "adj"], ["فِي", "in", "prep"], ["الْقَاهِرَةِ", "Cairo (capital of Egypt)", "name"]], "grammar": ["nominal-sentence", "adjectives"] },
+        { "id": "suqs3", "ar": "مَشَيْنَا فِي سُوقِ الْحَمِيدِيَّةِ فِي دِمَشْقَ.", "en": "We walked through Souq al-Hamidiyya in Damascus.", "literal": "we walked in (the) market (of) al-Hamidiyya in Damascus",
+          "segs": [["مَشَيْنَا", "we walked", "verb"], ["فِي", "in, through", "prep"], ["سُوقِ", "market (of)", "noun"], ["الْحَمِيدِيَّةِ", "al-Hamidiyya (name of the market)", "name"], ["فِي", "in", "prep"], ["دِمَشْقَ", "Damascus (capital of Syria)", "name"]], "grammar": ["past-tense", "idafa"] }
+      ]
+    },
+    {
+      "title": "Lanes by trade",
+      "titleAr": "سُوقُ الذَّهَبِ وَسُوقُ التَّوَابِلِ",
+      "titleSegs": [["سُوقُ", "market (of)"], ["الذَّهَبِ", "the gold"], ["وَسُوقُ", "and market (of)"], ["التَّوَابِلِ", "the spices"]],
+      "photo": {
+        "file": "souq-2.jpg",
+        "alt": "Open sacks of dried herbs and spices lined up against an orange wall in a lane of the Marrakesh medina.",
+        "caption": "Sacks of تَوَابِل (spices) and dried herbs in a lane of the Marrakesh medina.",
+        "credit": {
+          "title": "File:Medina of Marrakech4.jpg",
+          "author": "Forbes Johnston",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Medina_of_Marrakech4.jpg",
+          "accessed": "2026-11-10",
+          "modified": "resized and re-encoded"
+        }
+      },
+      "body": [
+        "A traditional souq is often divided by trade: shops that sell the same thing stand together in one lane or quarter. People speak of the gold market, سُوقُ الذَّهَبِ, where jewellers sit behind glass counters full of ذَهَب (gold), or the spice market, سُوقُ التَّوَابِلِ, where open sacks of تَوَابِل (spices), dried herbs and tea fill the air with their smell. Other lanes are for قُمَاش (cloth), for leather, for carpets or for perfume.",
+        "Some lanes are workshops as well as shops. A حِرَفِيّ (craftsman) may make what he sells right in front of you. In the old city of Fez, a small square is known for its coppersmiths, who hammer pots, trays and big cooking vessels out of نُحَاس (copper), and the ringing of their hammers carries down the nearby lanes. Watching how things are made is one of the pleasures of a souq, and many craftsmen are happy to explain their work to an interested visitor."
+      ],
+      "sentences": [
+        { "id": "suqs4", "ar": "هٰذَا سُوقُ الذَّهَبِ، وَذٰلِكَ سُوقُ التَّوَابِلِ.", "en": "This is the gold market, and that is the spice market.", "literal": "this (is the) market (of) the gold, and that (is the) market (of) the spices",
+          "segs": [["هٰذَا", "this", "demonstrative"], ["سُوقُ", "market (of)", "noun"], ["الذَّهَبِ", "the gold", "noun"], ["وَذٰلِكَ", "and that", "demonstrative"], ["سُوقُ", "market (of)", "noun"], ["التَّوَابِلِ", "the spices", "noun"]], "grammar": ["demonstratives", "idafa"] },
+        { "id": "suqs5", "ar": "أُرِيدُ أَنْ أَشْتَرِيَ قُمَاشًا لِفُسْتَانٍ.", "en": "I want to buy some cloth for a dress.", "literal": "I want that I buy cloth for a dress",
+          "segs": [["أُرِيدُ", "I want", "verb"], ["أَنْ", "to, that", "particle"], ["أَشْتَرِيَ", "I buy (after an)", "verb"], ["قُمَاشًا", "cloth, fabric (object)", "noun"], ["لِفُسْتَانٍ", "for a dress", "noun"]], "grammar": ["an-subjunctive", "accusative"] },
+        { "id": "suqs6", "ar": "يَصْنَعُ الْحِرَفِيُّ صِينِيَّةً مِنَ النُّحَاسِ.", "en": "The craftsman makes a tray out of copper.", "literal": "makes the craftsman a tray from the copper",
+          "segs": [["يَصْنَعُ", "(he) makes", "verb"], ["الْحِرَفِيُّ", "the craftsman", "noun"], ["صِينِيَّةً", "a tray (object)", "noun"], ["مِنَ", "from, (made) of", "prep"], ["النُّحَاسِ", "the copper", "noun"]], "grammar": ["verbal-sentence", "accusative"] }
+      ]
+    },
+    {
+      "title": "Asking the price and bargaining",
+      "titleAr": "بِكَمْ هٰذَا؟",
+      "titleSegs": [["بِكَمْ", "how much? (price)"], ["هٰذَا", "this"]],
+      "photo": {
+        "file": "souq-4.jpg",
+        "alt": "A souvenir shop in Muttrah Souq, Muscat, with brass pots, coloured glass lamps, silver jewellery, cloth and toy camels on display.",
+        "caption": "A shop in Muttrah Souq, Muscat: brass, lamps, silver and cloth to choose from.",
+        "credit": {
+          "title": "File:Souq Muttrah 1.jpg",
+          "author": "Mohammad hajeer",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Souq_Muttrah_1.jpg",
+          "accessed": "2026-11-10",
+          "modified": "resized and re-encoded"
+        }
+      },
+      "body": [
+        "In many souq shops, especially those selling crafts, carpets and souvenirs, the price is not written on the item. You ask بِكَمْ هٰذَا؟ (how much is this?) and the seller names a سِعْر (price). Then the friendly game of مُسَاوَمَة (bargaining) can begin. Not every shop bargains, though: bread, vegetables and many everyday goods usually have a set price, and some shops show their fixed prices clearly.",
+        "Bargaining works best when it is calm and polite. Smile, take your time and look at a few shops first. If the first price seems high you can say هٰذَا غَالٍ جِدًّا! (hādhā ghālin jiddan, that's too expensive!) and offer a lower figure; the seller comes down a little, and you go up a little. Near the end you can ask for the آخِر سِعْر (last price). If you still do not agree, say شُكْرًا (thank you) and walk on with a smile.",
+        "One rule matters more than any phrase: only start bargaining if you really want the item, because agreeing on a price and then walking away is seen as bad manners in many places. Remember too that a few coins may matter more to a small shopkeeper than to a visitor, so the aim is a price that feels fair to both sides, not a victory."
+      ],
+      "sentences": [
+        { "id": "suqs7", "ar": "بِكَمْ هٰذَا الْفَانُوسُ؟", "en": "How much is this lantern?", "literal": "for how much (is) this lantern?",
+          "segs": [["بِكَمْ", "how much? (price; lit. for how many)", "question"], ["هٰذَا", "this", "demonstrative"], ["الْفَانُوسُ", "the lantern", "noun"]], "grammar": ["questions", "demonstratives"] },
+        { "id": "suqs8", "ar": "هٰذَا غَالٍ جِدًّا!", "en": "That's too expensive!", "literal": "this (is) very expensive",
+          "segs": [["هٰذَا", "this", "demonstrative"], ["غَالٍ", "expensive", "adj"], ["جِدًّا", "very", "adverb"]], "grammar": ["nominal-sentence", "adjectives"],
+          "mistakes": [{ "wrong": "هٰذِهِ غَالٍ جِدًّا! (about a lantern)", "right": "هٰذَا غَالٍ جِدًّا!", "why": "فَانُوس (lantern) is masculine, so 'this' is هٰذَا, not the feminine هٰذِهِ." }] },
+        { "id": "suqs9", "ar": "مَا آخِرُ سِعْرٍ؟", "en": "What's your last price?", "literal": "what (is the) last price?",
+          "segs": [["مَا", "what", "question"], ["آخِرُ", "last", "adj"], ["سِعْرٍ", "price", "noun"]], "grammar": ["questions", "idafa"] }
+      ]
+    },
+    {
+      "title": "Tea, opening hours and malls",
+      "titleAr": "مِنَ السُّوقِ إِلَى الْمَرْكَزِ التِّجَارِيِّ",
+      "titleSegs": [["مِنَ", "from"], ["السُّوقِ", "the market, the souq"], ["إِلَى", "to"], ["الْمَرْكَزِ", "the centre"], ["التِّجَارِيِّ", "commercial ('the shopping centre, the mall')"]],
+      "body": [
+        "Spend a little time in a shop and the seller may say تَفَضَّلْ (please, go ahead) and offer you a glass of شَايْ (tea); in Morocco it is often sweet mint tea. It is a gesture of hospitality and a way to talk without hurry. Accepting is usually welcome and does not oblige you to buy anything, but it is polite to drink a little and chat. If you are in a hurry, a warm 'no, thank you' is fine too.",
+        "Opening hours vary from country to country and even from shop to shop. Many souqs are busiest in the late afternoon and evening, and in hot places some shops close for a few hours in the early afternoon. On الْجُمُعَة (Friday) some sellers close for the midday prayer or for the whole morning and open again later, while in other places Friday is an ordinary market day. If you are looking for one particular shop, it is worth asking a local first.",
+        "Alongside the old souqs, most big Arab cities now have large air-conditioned malls; a mall is a مَرْكَز تِجَارِيّ (shopping centre). There prices are usually fixed and paid at the till, and nobody expects you to bargain. Many families use both: the mall for everyday shopping and cool air in summer, the souq for spices, gold, crafts, presents and the pleasure of walking the old lanes."
+      ],
+      "sentences": [
+        { "id": "suqs10", "ar": "تَفَضَّلْ، اِشْرَبْ كُوبَ شَايٍ.", "en": "Please, have a glass of tea.", "literal": "go ahead, drink a glass (of) tea",
+          "segs": [["تَفَضَّلْ", "please, go ahead (offering something, to a man)", "phrase"], ["اِشْرَبْ", "drink! (to a man)", "verb"], ["كُوبَ", "a glass (of)", "noun"], ["شَايٍ", "tea", "noun"]], "grammar": ["imperative", "idafa"] },
+        { "id": "suqs11", "ar": "يُغْلِقُ بَعْضُ الْبَاعَةِ مَحَلَّاتِهِمْ وَقْتَ صَلَاةِ الْجُمُعَةِ.", "en": "Some sellers close their shops during the Friday prayer.", "literal": "close some (of) the sellers their shops (at the) time (of the) prayer (of) Friday",
+          "segs": [["يُغْلِقُ", "(he) closes; here: close", "verb"], ["بَعْضُ", "some (of)", "noun"], ["الْبَاعَةِ", "the sellers", "noun"], ["مَحَلَّاتِهِمْ", "their shops", "noun"], ["وَقْتَ", "(at the) time (of), during", "noun"], ["صَلَاةِ", "prayer (of)", "noun"], ["الْجُمُعَةِ", "Friday", "noun"]], "grammar": ["verbal-sentence", "attached-pronouns", "idafa"] },
+        { "id": "suqs12", "ar": "فِي الْمَرْكَزِ التِّجَارِيِّ السِّعْرُ ثَابِتٌ.", "en": "In the mall the price is fixed.", "literal": "in the centre the commercial, the price (is) fixed",
+          "segs": [["فِي", "in", "prep"], ["الْمَرْكَزِ", "the centre", "noun"], ["التِّجَارِيِّ", "commercial ('the shopping centre, the mall')", "adj"], ["السِّعْرُ", "the price", "noun"], ["ثَابِتٌ", "fixed", "adj"]], "grammar": ["nominal-sentence", "adjectives"] }
+      ]
+    }
+  ],
+  "words": [
+    { "ar": "ذَهَب", "en": "gold", "segs": [["ذَهَب", "gold"]] },
+    { "ar": "تَوَابِل", "en": "spices", "segs": [["تَوَابِل", "spices"]], "note": "You will also hear bahārāt for spices, especially in the Levant and the Gulf." },
+    { "ar": "قُمَاش", "en": "cloth, fabric", "segs": [["قُمَاش", "cloth, fabric"]] },
+    { "ar": "نُحَاس", "en": "copper", "segs": [["نُحَاس", "copper"]], "note": "Brass is nuḥās aṣfar, 'yellow copper'." },
+    { "ar": "حِرَفِيّ", "en": "craftsman, artisan", "segs": [["حِرَفِيّ", "craftsman, artisan"]] },
+    { "ar": "سِعْر", "en": "price", "segs": [["سِعْر", "price"]], "note": "The course word ثَمَن also means price; in shops سِعْر is the everyday word." },
+    { "ar": "بِكَمْ هٰذَا؟", "en": "How much is this?", "segs": [["بِكَمْ", "how much? (price)"], ["هٰذَا", "this"]] },
+    { "ar": "غَالٍ جِدًّا", "en": "too expensive (lit. very expensive)", "segs": [["غَالٍ", "expensive"], ["جِدًّا", "very"]] },
+    { "ar": "آخِر سِعْر", "en": "last price, best price", "segs": [["آخِر", "last"], ["سِعْر", "price"]] },
+    { "ar": "مُسَاوَمَة", "en": "bargaining", "segs": [["مُسَاوَمَة", "bargaining"]] },
+    { "ar": "تَفَضَّلْ", "en": "please, go ahead (offering, to a man)", "segs": [["تَفَضَّلْ", "please, go ahead (to a man)"]], "note": "To a woman: tafaḍḍalī." },
+    { "ar": "مَرْكَز تِجَارِيّ", "en": "shopping centre, mall", "segs": [["مَرْكَز", "centre"], ["تِجَارِيّ", "commercial"]] }
+  ],
+  "vocab": ["suq", "bikam", "ghali", "bai", "yashtari", "fanus", "shay", "mahall", "al-jumua", "qadim"],
+  "reading": {
+    "title": "A lantern from Muttrah",
+    "ar": "ذَهَبَ دَانْيَال إِلَى سُوقِ مَطْرَحَ فِي مَسْقَطَ. مَشَى فِي السُّوقِ وَرَأَى ذَهَبًا وَعِطْرًا وَقُمَاشًا. فِي مَحَلٍّ صَغِيرٍ رَأَى فَانُوسًا جَمِيلًا مِنَ النُّحَاسِ، فَسَأَلَ الْبَائِعَ: بِكَمْ هٰذَا؟ قَالَ الْبَائِعُ: بِعَشَرَةِ رِيَالَاتٍ. قَالَ دَانْيَال: هٰذَا غَالٍ جِدًّا! مَا آخِرُ سِعْرٍ؟ ضَحِكَ الْبَائِعُ وَقَدَّمَ لَهُ كُوبَ شَايٍ. فِي النِّهَايَةِ اشْتَرَى دَانْيَال الْفَانُوسَ بِثَمَانِيَةِ رِيَالَاتٍ، وَكَانَ سَعِيدًا.",
+    "en": "Daniel went to Muttrah Souq in Muscat. He walked through the souq and saw gold, perfume and cloth. In a small shop he saw a beautiful copper lantern, so he asked the seller: How much is this? The seller said: Ten rials. Daniel said: That's too expensive! What's your last price? The seller laughed and offered him a glass of tea. In the end Daniel bought the lantern for eight rials, and he was happy.",
+    "segs": [["ذَهَبَ", "(he) went"], ["دَانْيَال", "Daniel (first name)", "name"], ["إِلَى", "to"], ["سُوقِ", "market (of)"], ["مَطْرَحَ", "Muttrah (a district of Muscat)", "name"], ["فِي", "in"], ["مَسْقَطَ", "Muscat (capital of Oman)", "name"],
+      ["مَشَى", "(he) walked"], ["فِي", "in, through"], ["السُّوقِ", "the market, the souq"], ["وَرَأَى", "and (he) saw"], ["ذَهَبًا", "gold (object)"], ["وَعِطْرًا", "and perfume (object)"], ["وَقُمَاشًا", "and cloth (object)"],
+      ["فِي", "in"], ["مَحَلٍّ", "a shop"], ["صَغِيرٍ", "small"], ["رَأَى", "(he) saw"], ["فَانُوسًا", "a lantern (object)"], ["جَمِيلًا", "beautiful"], ["مِنَ", "from, (made) of"], ["النُّحَاسِ", "the copper"], ["فَسَأَلَ", "so (he) asked"], ["الْبَائِعَ", "the seller (object)"], ["بِكَمْ", "how much? (price)"], ["هٰذَا", "this"],
+      ["قَالَ", "(he) said"], ["الْبَائِعُ", "the seller"], ["بِعَشَرَةِ", "for ten"], ["رِيَالَاتٍ", "rials (Omani money)"], ["قَالَ", "(he) said"], ["دَانْيَال", "Daniel (first name)", "name"], ["هٰذَا", "this"], ["غَالٍ", "expensive"], ["جِدًّا", "very"], ["مَا", "what"], ["آخِرُ", "last"], ["سِعْرٍ", "price"],
+      ["ضَحِكَ", "(he) laughed"], ["الْبَائِعُ", "the seller"], ["وَقَدَّمَ", "and (he) offered"], ["لَهُ", "to him"], ["كُوبَ", "a glass (of)"], ["شَايٍ", "tea"],
+      ["فِي", "in"], ["النِّهَايَةِ", "the end"], ["اشْتَرَى", "(he) bought"], ["دَانْيَال", "Daniel (first name)", "name"], ["الْفَانُوسَ", "the lantern (object)"], ["بِثَمَانِيَةِ", "for eight"], ["رِيَالَاتٍ", "rials (Omani money)"], ["وَكَانَ", "and (he) was"], ["سَعِيدًا", "happy"]]
+  },
+  "readingQuestions": [
+    { "id": "suqr1", "prompt": "Where did Daniel go?", "options": ["Khan el-Khalili in Cairo", "Muttrah Souq in Muscat", "Souq al-Hamidiyya in Damascus", "a mall in Muscat"], "answer": 1 },
+    { "id": "suqr2", "prompt": "What was the lantern made of?", "options": ["gold", "silver", "copper", "glass"], "answer": 2 },
+    { "id": "suqr3", "prompt": "How much did Daniel pay in the end?", "options": ["eight rials", "ten rials", "eighteen rials", "nothing: it was a present"], "answer": 0, "explain": "The seller asked for ten rials; after bargaining Daniel paid eight." }
+  ],
+  "quiz": [
+    { "id": "suqq1", "prompt": "How do you ask 'How much is this?'", "options": ["مَا آخِرُ سِعْرٍ؟", "بِكَمْ هٰذَا؟", "هٰذَا غَالٍ جِدًّا!", "تَفَضَّلْ"], "answer": 1 },
+    { "id": "suqq2", "prompt": "In which city is Souq al-Hamidiyya?", "options": ["Cairo", "Muscat", "Damascus", "Fez"], "answer": 2 },
+    { "id": "suqq3", "prompt": "What does نُحَاس mean?", "options": ["gold", "spices", "cloth", "copper"], "answer": 3, "explain": "In Fez, coppersmiths hammer pots and trays out of نُحَاس." },
+    { "id": "suqq4", "prompt": "A shopkeeper offers you a glass of tea. According to the chapter, what does this usually mean?", "options": ["You must now buy something.", "It is a gesture of hospitality; you are not obliged to buy.", "The prices in this shop are fixed.", "The shop is about to close."], "answer": 1 },
+    { "id": "suqq5", "prompt": "Where are prices usually fixed, so that nobody expects you to bargain?", "options": ["in a مَرْكَز تِجَارِيّ (mall)", "at a carpet shop in the souq", "at a souvenir stall", "in the copper lane"], "answer": 0 },
+    { "id": "suqq6", "prompt": "Near the end of bargaining, what do you ask to hear the seller's best price?", "options": ["مُسَاوَمَة", "سُوقُ الذَّهَبِ", "مَا آخِرُ سِعْرٍ؟", "مَرْكَز تِجَارِيّ"], "answer": 2, "explain": "آخِر سِعْر means 'last price'." }
+  ]
+}

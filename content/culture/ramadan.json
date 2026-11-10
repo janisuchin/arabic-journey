@@ -1,0 +1,271 @@
+{
+  "id": "cul.ramadan",
+  "n": 2,
+  "title": "Ramadan and the two Eids",
+  "titleAr": "رَمَضَان وَالْعِيدَان",
+  "titleSegs": [["رَمَضَان", "Ramadan (the month of fasting)", "name"], ["وَالْعِيدَان", "and the two Eids (festivals)", "noun"]],
+  "emoji": "🌙",
+  "level": 7,
+  "summary": "Ramadan, the month of fasting, follows the moon, so it moves through the seasons from year to year. See how a fasting day runs from سُحُور before dawn to إِفْطَار at sunset, why coloured lanterns fill the streets of Egypt, and how people greet each other at the two Eids with عِيد مُبَارَك.",
+  "status": "needs-review",
+  "hero": {
+    "file": "ramadan-1.jpg",
+    "alt": "A shopping street at night with strings of colourful pennants hung across it and people sitting outside cafes",
+    "caption": "A bazaar street in Hurghada, Egypt, decorated for رَمَضَان, 2004.",
+    "credit": {
+      "title": "File:Hurghada, main street of the bazaar in El Dahar at night, during Ramadan, Egypt, Oct 2004.jpg",
+      "author": "Unknown",
+      "license": "CC BY-SA 2.5",
+      "source": "https://commons.wikimedia.org/wiki/File:Hurghada,_main_street_of_the_bazaar_in_El_Dahar_at_night,_during_Ramadan,_Egypt,_Oct_2004.jpg",
+      "accessed": "2026-11-10",
+      "modified": "resized and re-encoded",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5"
+    }
+  },
+  "sections": [
+    {
+      "title": "The new moon and the lunar month",
+      "titleAr": "هِلَالُ رَمَضَان",
+      "titleSegs": [["هِلَالُ", "the new crescent moon (of)", "noun"], ["رَمَضَان", "Ramadan", "name"]],
+      "photo": {
+        "file": "ramadan-3.jpg",
+        "alt": "A very thin crescent moon in an orange and blue evening sky",
+        "caption": "A thin new crescent, the هِلَال, just after sunset.",
+        "credit": {
+          "title": "File:Thin Crescent Moon in Sunset Sky.jpg",
+          "author": "Carl Young",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Thin_Crescent_Moon_in_Sunset_Sky.jpg",
+          "accessed": "2026-11-10",
+          "modified": "resized and re-encoded",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      },
+      "body": [
+        "Religious dates in the Muslim world follow التَّقْوِيم الْهِجْرِيّ, the Hijri calendar. It is a lunar calendar: each month, or شَهْر, lasts 29 or 30 days, from one new moon to the next. Twelve lunar months make about 354 days, roughly eleven days fewer than a year of the Western calendar. That is why رَمَضَان, the ninth month, starts about eleven days earlier every year and slowly moves through summer, autumn, winter and spring.",
+        "A new month begins when the first thin crescent, the هِلَال, appears in the western sky just after sunset. In many countries an official committee looks for the moon, or uses astronomical calculation, and announces the start of the month on television and online. Because methods differ, Ramadan can begin on different days in neighbouring countries, and people often stay up on the evening before to hear the news.",
+        "When the start is announced, you will hear many people say إِنْ شَاءَ اللّٰه ('if God wills') about the coming days. The phrase is used everywhere in daily life, by people of every faith, for anything planned in the future. The lunar calendar also sets the two Eids, so their dates move with Ramadan. Most offices, banks and schools in the Arab world use the Western calendar for everyday business, but many newspapers and official letters print both dates."
+      ],
+      "sentences": [
+        {
+          "id": "rams1",
+          "ar": "رَمَضَانُ هُوَ الشَّهْرُ التَّاسِعُ فِي التَّقْوِيمِ الْهِجْرِيّ.",
+          "en": "Ramadan is the ninth month of the Hijri calendar.",
+          "literal": "Ramadan, it is the month the ninth in the calendar the Hijri",
+          "segs": [["رَمَضَانُ", "Ramadan", "name"], ["هُوَ", "he, it (is)", "pronoun"], ["الشَّهْرُ", "the month", "noun"], ["التَّاسِعُ", "the ninth", "number"], ["فِي", "in", "prep"], ["التَّقْوِيمِ", "the calendar", "noun"], ["الْهِجْرِيّ", "the Hijri (Islamic lunar)", "adj"]],
+          "grammar": ["nominal-sentence", "ordinals"]
+        },
+        {
+          "id": "rams2",
+          "ar": "رَأَيْنَا الْهِلَالَ بَعْدَ الْمَغْرِب.",
+          "en": "We saw the new crescent moon after sunset.",
+          "literal": "we saw the crescent after the sunset",
+          "segs": [["رَأَيْنَا", "we saw", "verb"], ["الْهِلَالَ", "the new crescent moon", "noun"], ["بَعْدَ", "after", "prep"], ["الْمَغْرِب", "sunset (also the sunset prayer)", "noun"]],
+          "grammar": ["past-tense", "qabla-bada"]
+        },
+        {
+          "id": "rams3",
+          "ar": "يَبْدَأُ رَمَضَانُ غَدًا إِنْ شَاءَ اللّٰه.",
+          "en": "Ramadan begins tomorrow, God willing.",
+          "literal": "begins Ramadan tomorrow, if God wills",
+          "segs": [["يَبْدَأُ", "(it, m) begins", "verb"], ["رَمَضَانُ", "Ramadan", "name"], ["غَدًا", "tomorrow", "adverb"], ["إِنْ", "if", "particle"], ["شَاءَ", "(he) wills, willed", "verb"], ["اللّٰه", "God", "noun"]],
+          "grammar": ["present-tense", "verbal-sentence"]
+        }
+      ]
+    },
+    {
+      "title": "Fasting, suhur and iftar",
+      "titleAr": "الصِّيَامُ وَالْإِفْطَار",
+      "titleSegs": [["الصِّيَامُ", "fasting", "noun"], ["وَالْإِفْطَار", "and breaking the fast", "noun"]],
+      "body": [
+        "During Ramadan many Muslims keep the صِيَام, the fast: from dawn, الْفَجْر, until sunset, الْمَغْرِب, they do not eat, drink or smoke. Young children do not fast, and people who are ill or travelling are excused. In summer the fasting day can be long and hot, so the rhythm of life changes: in many countries offices and schools keep shorter hours, and the streets are quiet in the afternoon.",
+        "Before dawn families eat سُحُور, a light meal that has to last the whole day. At sunset, when the call to prayer is heard, the fast is broken with إِفْطَار. Many people start the way the Prophet is reported to have done, with a few dates, تَمْر, and a glass of مَاء, water, before soup and a large family meal. In many cities you also see free iftar tables in the street, open to anyone who is fasting.",
+        "Visitors are not expected to fast, and non-Muslims in the Arab world, such as Arab Christians, do not fast in Ramadan, though many happily join an iftar invitation. Customs for visitors vary a lot by country. In some places eating, drinking or smoking in public during the day is against the law or strongly frowned upon; in others restaurants open as usual. Rules have also changed over the years, so check local advice, eat and drink discreetly in daytime, and accept an iftar invitation if you get one."
+      ],
+      "sentences": [
+        {
+          "id": "rams4",
+          "ar": "يَصُومُ الْمُسْلِمُونَ مِنَ الْفَجْرِ إِلَى الْمَغْرِب.",
+          "en": "Muslims fast from dawn until sunset.",
+          "literal": "fast the Muslims from the dawn to the sunset",
+          "segs": [["يَصُومُ", "(he) fasts", "verb"], ["الْمُسْلِمُونَ", "the Muslims", "noun"], ["مِنَ", "from", "prep"], ["الْفَجْرِ", "dawn (also the dawn prayer)", "noun"], ["إِلَى", "to, until", "prep"], ["الْمَغْرِب", "sunset (also the sunset prayer)", "noun"]],
+          "grammar": ["verbal-sentence", "present-tense"],
+          "mistakes": [
+            {
+              "wrong": "يَصُومُونَ الْمُسْلِمُونَ مِنَ الْفَجْرِ إِلَى الْمَغْرِب.",
+              "right": "يَصُومُ الْمُسْلِمُونَ مِنَ الْفَجْرِ إِلَى الْمَغْرِب.",
+              "why": "When the verb comes before a plural subject, it stays singular: يَصُومُ الْمُسْلِمُونَ."
+            }
+          ]
+        },
+        {
+          "id": "rams5",
+          "ar": "نَأْكُلُ السُّحُورَ قَبْلَ الْفَجْر.",
+          "en": "We eat suhur before dawn.",
+          "literal": "we eat the suhur before the dawn",
+          "segs": [["نَأْكُلُ", "we eat", "verb"], ["السُّحُورَ", "the suhur (meal before dawn)", "noun"], ["قَبْلَ", "before", "prep"], ["الْفَجْر", "dawn", "noun"]],
+          "grammar": ["present-tense", "qabla-bada"]
+        },
+        {
+          "id": "rams6",
+          "ar": "نُفْطِرُ عَلَى تَمْرٍ وَمَاء.",
+          "en": "We break our fast with dates and water.",
+          "literal": "we break-the-fast on dates and water",
+          "segs": [["نُفْطِرُ", "we break the fast", "verb"], ["عَلَى", "on, with (here)", "prep"], ["تَمْرٍ", "dates", "noun"], ["وَمَاء", "and water", "noun"]],
+          "grammar": ["present-tense"]
+        }
+      ]
+    },
+    {
+      "title": "Lanterns, evenings and greetings",
+      "titleAr": "لَيَالِي رَمَضَان",
+      "titleSegs": [["لَيَالِي", "nights (of)", "noun"], ["رَمَضَان", "Ramadan", "name"]],
+      "photo": {
+        "file": "ramadan-2.jpg",
+        "alt": "Shiny plastic lanterns in gold, green, blue and pink on a market stall, some shaped like oil lamps",
+        "caption": "Modern plastic Ramadan lanterns on sale in Cairo; the traditional فَانُوس is made of metal and coloured glass.",
+        "credit": {
+          "title": "File:Colorful plastic ramadan lanterns.jpg",
+          "author": "B. Simpson Cairocamels",
+          "license": "CC BY 3.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Colorful_plastic_ramadan_lanterns.jpg",
+          "accessed": "2026-11-10",
+          "modified": "resized and re-encoded",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+        }
+      },
+      "body": [
+        "In Egypt the symbol of the month is the فَانُوس, the Ramadan lantern. Before the month starts, markets fill with lanterns of tin and coloured glass, and today also plastic ones that play songs. Children carry small lanterns through the streets in the evening, and big ones hang over doors, balconies and shop fronts. The custom is linked to medieval Cairo and has spread to many other countries, together with strings of lights and paper crescents.",
+        "After iftar the evenings come alive. Many people go to the mosque for the long night prayers called tarawih, others visit relatives and neighbours, sit in cafes until late, or watch the special television series made for Ramadan. Families and friends invite each other to iftar, and sweets are shared after the meal. In many cities shops stay open late into the night, and the busiest time of day moves from the afternoon to the evening.",
+        "The usual greeting for the month is رَمَضَان كَرِيم, 'Ramadan is generous'. The reply is اللّٰهُ أَكْرَم, 'God is more generous'. You can say it to shopkeepers, colleagues and neighbours whether or not you are fasting yourself; people are usually pleased to hear a visitor use it. Some people also say رَمَضَان مُبَارَك, 'blessed Ramadan', which you can answer in the same words."
+      ],
+      "sentences": [
+        {
+          "id": "rams7",
+          "ar": "اِشْتَرَى أَبِي فَانُوسًا جَدِيدًا لِأُخْتِي الصَّغِيرَة.",
+          "en": "My father bought a new lantern for my little sister.",
+          "literal": "bought my father a lantern new for my sister the little",
+          "segs": [["اِشْتَرَى", "(he) bought", "verb"], ["أَبِي", "my father", "noun"], ["فَانُوسًا", "a lantern (object)", "noun"], ["جَدِيدًا", "new (object)", "adj"], ["لِأُخْتِي", "for my sister", "noun"], ["الصَّغِيرَة", "the little, the young (f)", "adj"]],
+          "grammar": ["past-tense", "accusative", "adjective-agreement"]
+        },
+        {
+          "id": "rams8",
+          "ar": "بَعْدَ الْإِفْطَارِ نَزُورُ جَدَّتِي.",
+          "en": "After iftar we visit my grandmother.",
+          "literal": "after the iftar we visit my grandmother",
+          "segs": [["بَعْدَ", "after", "prep"], ["الْإِفْطَارِ", "the iftar (meal that breaks the fast)", "noun"], ["نَزُورُ", "we visit", "verb"], ["جَدَّتِي", "my grandmother", "noun"]],
+          "grammar": ["qabla-bada", "present-tense"]
+        },
+        {
+          "id": "rams9",
+          "ar": "قَالَ جَارِي رَمَضَان كَرِيم، فَقُلْتُ اللّٰهُ أَكْرَم.",
+          "en": "My neighbour said 'Ramadan Kareem', and I answered 'God is more generous'.",
+          "literal": "said my neighbour 'Ramadan generous', so I said 'God more generous'",
+          "segs": [["قَالَ", "(he) said", "verb"], ["جَارِي", "my neighbour", "noun"], ["رَمَضَان", "Ramadan", "name"], ["كَرِيم", "generous", "adj"], ["فَقُلْتُ", "so I said", "verb"], ["اللّٰهُ", "God", "noun"], ["أَكْرَم", "more generous", "adj"]],
+          "grammar": ["past-tense", "hollow-verbs"]
+        }
+      ]
+    },
+    {
+      "title": "The two Eids",
+      "titleAr": "عِيدُ الْفِطْرِ وَعِيدُ الْأَضْحَى",
+      "titleSegs": [["عِيدُ", "festival (of)", "noun"], ["الْفِطْرِ", "breaking the fast", "noun"], ["وَعِيدُ", "and the festival (of)", "noun"], ["الْأَضْحَى", "the sacrifice", "noun"]],
+      "photo": {
+        "file": "ramadan-4.jpg",
+        "alt": "A glass plate piled with round and oval baked biscuits with ridged patterns and a little sugar on top",
+        "caption": "Homemade كَعْك and مَعْمُول, filled with dates or nuts.",
+        "credit": {
+          "title": "File:كعك ومعمول.jpg",
+          "author": "Fjmustak",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:%D9%83%D8%B9%D9%83_%D9%88%D9%85%D8%B9%D9%85%D9%88%D9%84.jpg",
+          "accessed": "2026-11-10",
+          "modified": "resized and re-encoded",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      },
+      "body": [
+        "Ramadan ends with عِيدُ الْفِطْر, the festival of breaking the fast, on the first day of the next month. It usually lasts three days, though public holidays differ from country to country. On the morning of Eid many people go to صَلَاةِ الْعِيد, the Eid prayer, often held in large open spaces. Then come visits to parents, grandparents and other relatives, wearing new مَلَابِس, clothes, bought for the occasion.",
+        "Eid means sweets. In Egypt families bake كَعْك, round biscuits covered in powdered sugar, often together in the last days of Ramadan; in Syria, Lebanon, Palestine, Jordan and the Gulf people make مَعْمُول, shortbread filled with dates, walnuts or pistachios. In the Levant, Christian families bake the same biscuits for Easter. Children receive عِيدِيَّة, Eid money from parents, uncles and grandparents, and spend it on toys, rides and treats.",
+        "About seventy days later comes عِيدُ الْأَضْحَى, the festival of the sacrifice, on the tenth day of the month of الْحَجّ, the pilgrimage to Mecca. It remembers the story of the prophet Ibrahim (Abraham). Families who can afford it sacrifice a sheep or another animal and share the meat with relatives, neighbours and people in need. At both Eids people say عِيد مُبَارَك, answered with عَلَيْنَا وَعَلَيْكُمْ, or the wish كُلُّ عَامٍ وَأَنْتُمْ بِخَيْر."
+      ],
+      "sentences": [
+        {
+          "id": "rams10",
+          "ar": "لَبِسَ الْأَطْفَالُ مَلَابِسَ جَدِيدَةً فِي الْعِيد.",
+          "en": "The children wore new clothes at Eid.",
+          "literal": "wore the children clothes new on the Eid",
+          "segs": [["لَبِسَ", "(he) wore, put on", "verb"], ["الْأَطْفَالُ", "the children", "noun"], ["مَلَابِسَ", "clothes (object)", "noun"], ["جَدِيدَةً", "new (f, object)", "adj"], ["فِي", "in, at", "prep"], ["الْعِيد", "the festival, Eid", "noun"]],
+          "grammar": ["past-tense", "verbal-sentence", "non-human-plural"]
+        },
+        {
+          "id": "rams11",
+          "ar": "أَعْطَتْ جَدَّتِي كُلَّ طِفْلٍ عِيدِيَّة.",
+          "en": "My grandmother gave every child Eid money.",
+          "literal": "gave my grandmother every child Eid-money",
+          "segs": [["أَعْطَتْ", "(she) gave", "verb"], ["جَدَّتِي", "my grandmother", "noun"], ["كُلَّ", "every, each", "noun"], ["طِفْلٍ", "child", "noun"], ["عِيدِيَّة", "Eid money (a gift for children)", "noun"]],
+          "grammar": ["past-tense"]
+        },
+        {
+          "id": "rams12",
+          "ar": "عِيد مُبَارَك، كُلُّ عَامٍ وَأَنْتُمْ بِخَيْر!",
+          "en": "Happy Eid, many happy returns!",
+          "literal": "blessed festival, every year and you (are) in good health",
+          "segs": [["عِيد", "festival, Eid", "noun"], ["مُبَارَك", "blessed", "adj"], ["كُلُّ", "every", "noun"], ["عَامٍ", "year", "noun"], ["وَأَنْتُمْ", "and you (plural)", "pronoun"], ["بِخَيْر", "well, in good health", "noun"]],
+          "grammar": ["occasion-greetings-w11"],
+          "mistakes": [
+            {
+              "wrong": "عِيد مُبَارَك — اللّٰهُ أَكْرَم",
+              "right": "عِيد مُبَارَك — عَلَيْنَا وَعَلَيْكُمْ",
+              "why": "اللّٰهُ أَكْرَم answers رَمَضَان كَرِيم during Ramadan. To عِيد مُبَارَك people answer عَلَيْنَا وَعَلَيْكُمْ, or simply wish عِيد مُبَارَك back."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "words": [
+    { "ar": "هِلَال", "en": "new crescent moon", "segs": [["هِلَال", "new crescent moon"]], "note": "Its sighting after sunset starts a new lunar month." },
+    { "ar": "التَّقْوِيم الْهِجْرِيّ", "en": "the Hijri (Islamic lunar) calendar", "segs": [["التَّقْوِيم", "the calendar"], ["الْهِجْرِيّ", "Hijri (counted from the Hijra)"]], "note": "Years are counted from the Hijra, the Prophet Muhammad's move from Mecca to Medina in 622 CE." },
+    { "ar": "صِيَام", "en": "fasting, the fast", "segs": [["صِيَام", "fasting"]], "note": "The verb is يَصُومُ (he fasts)." },
+    { "ar": "سُحُور", "en": "suhur, the meal before dawn", "segs": [["سُحُور", "suhur, the pre-dawn meal"]] },
+    { "ar": "إِفْطَار", "en": "iftar, the meal that breaks the fast", "segs": [["إِفْطَار", "iftar, breaking the fast"]], "note": "Same root as فُطُور (breakfast)." },
+    { "ar": "تَمْر", "en": "dates (the fruit)", "segs": [["تَمْر", "dates"]] },
+    { "ar": "رَمَضَان كَرِيم", "en": "Ramadan Kareem (the Ramadan greeting)", "segs": [["رَمَضَان", "Ramadan"], ["كَرِيم", "generous"]] },
+    { "ar": "اللّٰهُ أَكْرَم", "en": "God is more generous (the reply)", "segs": [["اللّٰهُ", "God"], ["أَكْرَم", "more generous"]] },
+    { "ar": "عِيدُ الْفِطْر", "en": "Eid al-Fitr, the festival of breaking the fast", "segs": [["عِيدُ", "festival (of)"], ["الْفِطْر", "breaking the fast"]] },
+    { "ar": "عِيدُ الْأَضْحَى", "en": "Eid al-Adha, the festival of the sacrifice", "segs": [["عِيدُ", "festival (of)"], ["الْأَضْحَى", "the sacrifice"]] },
+    { "ar": "عِيد مُبَارَك", "en": "Happy Eid (lit. blessed festival)", "segs": [["عِيد", "festival, Eid"], ["مُبَارَك", "blessed"]] },
+    { "ar": "عَلَيْنَا وَعَلَيْكُمْ", "en": "to you too (reply to Happy Eid; lit. on us and on you)", "segs": [["عَلَيْنَا", "on us"], ["وَعَلَيْكُمْ", "and on you (plural)"]] },
+    { "ar": "مَعْمُول", "en": "maamoul (shortbread filled with dates or nuts)", "segs": [["مَعْمُول", "maamoul (filled Eid biscuit)"]] },
+    { "ar": "الْحَجّ", "en": "the Hajj, the pilgrimage to Mecca", "segs": [["الْحَجّ", "the Hajj (pilgrimage)"]] }
+  ],
+  "vocab": ["ramadan", "yasumu", "fanus", "eid", "mubarak", "kull-am", "kak", "eidiyya", "salat", "malabis"],
+  "reading": {
+    "title": "Ramadan in Salma's family",
+    "ar": "فِي رَمَضَان تَصُومُ عَائِلَةُ سَلْمَى فِي الْقَاهِرَةِ مِنَ الْفَجْرِ إِلَى الْمَغْرِب. قَبْلَ الْفَجْرِ يَأْكُلُونَ السُّحُور. عِنْدَ الْمَغْرِبِ يُفْطِرُونَ عَلَى تَمْرٍ وَمَاءٍ، ثُمَّ يَأْكُلُونَ مَعًا. فِي الْمَسَاءِ يَخْرُجُ الْأَطْفَالُ إِلَى الشَّارِعِ بِالْفَوَانِيس، وَتَزُورُ الْعَائِلَةُ الْأَقَارِبَ وَالْجِيرَان. فِي آخِرِ الشَّهْرِ تَخْبِزُ أُمُّ سَلْمَى الْكَعْك. فِي صَبَاحِ الْعِيدِ يَلْبَسُ الْجَمِيعُ مَلَابِسَ جَدِيدَةً وَيَذْهَبُونَ إِلَى صَلَاةِ الْعِيد. ثُمَّ يَأْخُذُ الْأَطْفَالُ الْعِيدِيَّةَ مِنْ جَدِّهِمْ وَجَدَّتِهِمْ.",
+    "en": "In Ramadan Salma's family in Cairo fasts from dawn until sunset. Before dawn they eat suhur. At sunset they break the fast with dates and water, then they eat together. In the evening the children go out into the street with lanterns, and the family visits relatives and neighbours. At the end of the month Salma's mother bakes kaʿk. On the morning of Eid everyone puts on new clothes and they go to the Eid prayer. Then the children get Eid money from their grandfather and grandmother.",
+    "segs": [
+      ["فِي", "in"], ["رَمَضَان", "Ramadan", "name"], ["تَصُومُ", "(she, it f) fasts"], ["عَائِلَةُ", "family (of)"], ["سَلْمَى", "Salma (first name)", "name"], ["فِي", "in"], ["الْقَاهِرَةِ", "Cairo (capital of Egypt)", "name"], ["مِنَ", "from"], ["الْفَجْرِ", "dawn"], ["إِلَى", "to, until"], ["الْمَغْرِب", "sunset"],
+      ["قَبْلَ", "before"], ["الْفَجْرِ", "dawn"], ["يَأْكُلُونَ", "they eat"], ["السُّحُور", "the suhur (pre-dawn meal)"],
+      ["عِنْدَ", "at"], ["الْمَغْرِبِ", "sunset"], ["يُفْطِرُونَ", "they break the fast"], ["عَلَى", "on, with (here)"], ["تَمْرٍ", "dates"], ["وَمَاءٍ", "and water"], ["ثُمَّ", "then"], ["يَأْكُلُونَ", "they eat"], ["مَعًا", "together"],
+      ["فِي", "in"], ["الْمَسَاءِ", "the evening"], ["يَخْرُجُ", "(he) goes out"], ["الْأَطْفَالُ", "the children"], ["إِلَى", "to, into"], ["الشَّارِعِ", "the street"], ["بِالْفَوَانِيس", "with the lanterns"], ["وَتَزُورُ", "and (she, it f) visits"], ["الْعَائِلَةُ", "the family"], ["الْأَقَارِبَ", "the relatives"], ["وَالْجِيرَان", "and the neighbours"],
+      ["فِي", "in, at"], ["آخِرِ", "end (of)"], ["الشَّهْرِ", "the month"], ["تَخْبِزُ", "(she) bakes"], ["أُمُّ", "mother (of)"], ["سَلْمَى", "Salma (first name)", "name"], ["الْكَعْك", "the kaʿk (Eid biscuits)"],
+      ["فِي", "in, on"], ["صَبَاحِ", "morning (of)"], ["الْعِيدِ", "the Eid, the festival"], ["يَلْبَسُ", "(he) puts on, wears"], ["الْجَمِيعُ", "everyone"], ["مَلَابِسَ", "clothes"], ["جَدِيدَةً", "new (f)"], ["وَيَذْهَبُونَ", "and they go"], ["إِلَى", "to"], ["صَلَاةِ", "prayer (of)"], ["الْعِيد", "the Eid"],
+      ["ثُمَّ", "then"], ["يَأْخُذُ", "(he) takes, gets"], ["الْأَطْفَالُ", "the children"], ["الْعِيدِيَّةَ", "the Eid money"], ["مِنْ", "from"], ["جَدِّهِمْ", "their grandfather"], ["وَجَدَّتِهِمْ", "and their grandmother"]
+    ]
+  },
+  "readingQuestions": [
+    { "id": "ramr1", "prompt": "When does Salma's family eat suhur?", "options": ["before dawn", "at sunset", "at midday", "after the Eid prayer"], "answer": 0, "explain": "قَبْلَ الْفَجْرِ يَأْكُلُونَ السُّحُور: before dawn they eat suhur." },
+    { "id": "ramr2", "prompt": "What does Salma's mother bake at the end of the month?", "options": ["bread", "a birthday cake", "kaʿk", "maamoul"], "answer": 2, "explain": "تَخْبِزُ أُمُّ سَلْمَى الْكَعْك: Salma's mother bakes kaʿk, the Egyptian Eid biscuits." },
+    { "id": "ramr3", "prompt": "Who gives the children Eid money?", "options": ["their neighbours", "their grandfather and grandmother", "the shopkeepers", "their teacher"], "answer": 1, "explain": "مِنْ جَدِّهِمْ وَجَدَّتِهِمْ: from their grandfather and their grandmother." }
+  ],
+  "quiz": [
+    { "id": "ramq1", "prompt": "Why does Ramadan start about eleven days earlier each year in the Western calendar?", "options": ["Each country chooses a new date.", "Ramadan always starts in spring.", "The fast gets shorter every year.", "The Hijri calendar follows the moon, and its year is about 354 days."], "answer": 3, "explain": "Twelve lunar months make about 354 days, roughly eleven days fewer than a solar year." },
+    { "id": "ramq2", "prompt": "What is the هِلَال?", "options": ["the evening meal", "the new crescent moon", "a Ramadan lantern", "the Eid prayer"], "answer": 1, "explain": "The هِلَال is the first thin crescent seen after sunset; it starts a new lunar month." },
+    { "id": "ramq3", "prompt": "What do many people eat first when they break the fast?", "options": ["dates and water", "soup and bread", "kaʿk with sugar", "meat and rice"], "answer": 0, "explain": "Many people start إِفْطَار with a few dates, تَمْر, and a glass of water." },
+    { "id": "ramq4", "prompt": "Someone says رَمَضَان كَرِيم to you. What is the usual reply?", "options": ["عَلَيْنَا وَعَلَيْكُمْ", "عِيد مُبَارَك", "اللّٰهُ أَكْرَم", "إِنْ شَاءَ اللّٰه"], "answer": 2, "explain": "The reply is اللّٰهُ أَكْرَم, 'God is more generous'. عَلَيْنَا وَعَلَيْكُمْ is the answer to عِيد مُبَارَك." },
+    { "id": "ramq5", "prompt": "When is عِيدُ الْأَضْحَى?", "options": ["on the first day of Ramadan", "during the season of the Hajj, about seventy days after the end of Ramadan", "on the last night of Ramadan", "on the same day as عِيدُ الْفِطْر"], "answer": 1, "explain": "It falls on the tenth day of the month of الْحَجّ, about seventy days after عِيدُ الْفِطْر." },
+    { "id": "ramq6", "prompt": "You are visiting an Arab country during Ramadan. What is the best advice about eating in the daytime?", "options": ["Visitors must fast like everyone else.", "The rules are the same in every Arab country.", "Rules vary by country, so check local advice and eat and drink discreetly.", "Eat in the street to show that you are not fasting."], "answer": 2, "explain": "In some countries eating in public during the day is against the law or frowned upon, in others it is not; visitors do not have to fast." }
+  ]
+}

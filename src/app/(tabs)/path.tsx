@@ -95,9 +95,13 @@ export default function Path() {
           </Card>
         );
       })}
-      <Card onPress={() => router.push('/scenarios')} label="Explore">
-        <AppText weight="800">🧭 Explore</AppText>
-        <AppText muted>Real-life scenarios to practise what you know.</AppText>
+      <Card onPress={() => router.push('/culture')} label="Explore the Arab world" testID="path-explore">
+        <AppText weight="800">🧭 Explore the Arab world</AppText>
+        <AppText muted>Culture chapters with photos: hospitality, Ramadan, markets, food, places and more.</AppText>
+      </Card>
+      <Card onPress={() => router.push('/scenarios')} label="Scenarios">
+        <AppText weight="800">💬 Scenarios</AppText>
+        <AppText muted>Real-life situations to practise what you know.</AppText>
       </Card>
       <Card>
         <AppText weight="800">Levels</AppText>

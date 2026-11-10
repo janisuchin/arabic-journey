@@ -2,9 +2,11 @@
 // through `contentIssues`, so the app never shows broken content.
 import { z } from 'zod';
 
+import { RAW_CULTURE } from './culture.generated';
 import { RAW_DAYS } from './days.generated';
 import {
   Course,
+  Culture,
   Day,
   GlossEntry,
   Grammar,
@@ -14,6 +16,7 @@ import {
   Scenario,
   Vocab,
   type Course as CourseT,
+  type Culture as CultureT,
   type Day as DayT,
   type Grammar as GrammarT,
   type Letter as LetterT,
@@ -61,6 +64,7 @@ export const pronunciation: PronunciationT[] = validList(
 );
 export const scenarios: ScenarioT[] = validList(Scenario, require('../../content/course/scenarios.json'), 'scenarios', idOf);
 export const placards: PlacardT[] = validList(Placard, require('../../content/course/placards.json'), 'placards', idOf);
+export const culture: CultureT[] = validList(Culture, RAW_CULTURE, 'culture', idOf).sort((a, b) => a.n - b.n);
 
 function loadCourse(): CourseT | null {
   const r = Course.safeParse(require('../../content/course/course.json'));
@@ -114,6 +118,7 @@ export const grammarById = new Map(grammar.map((g) => [g.id, g]));
 export const pronunciationById = new Map(pronunciation.map((p) => [p.id, p]));
 export const letterById = new Map(letters.map((l) => [l.id, l]));
 export const placardById = new Map(placards.map((p) => [p.id, p]));
+export const cultureById = new Map(culture.map((c) => [c.id, c]));
 export const validDays = days.map((d) => d.day).sort((a, b) => a - b);
 
 export const weekOf = (day: number) => {

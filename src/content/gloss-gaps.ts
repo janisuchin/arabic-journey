@@ -1,7 +1,7 @@
 // Finds every Arabic word shown anywhere in the content that has no English meaning.
 // Used by the validator and by the gloss-coverage test: a single gap fails the build.
 
-import { days, grammar, letters, placards, pronunciation, scenarios, vocabulary, course } from './index';
+import { culture, days, grammar, letters, placards, pronunciation, scenarios, vocabulary, course } from './index';
 import { arabicWords, meaningOf } from '../lang/ar/tap';
 
 export interface TextRef {
@@ -86,6 +86,36 @@ export function allShownTexts(): TextRef[] {
     [...p.items, ...(p.example ? [p.example] : [])].forEach((it, i) => {
       add(`placard ${p.id} item ${i}`, it.ar);
       add(`placard ${p.id} item ${i} note`, it.note);
+    });
+  }
+  for (const ch of culture) {
+    const w = `culture ${ch.id}`;
+    add(`${w} titleAr`, ch.titleAr);
+    add(`${w} summary`, ch.summary);
+    add(`${w} hero caption`, ch.hero?.caption);
+    ch.sections.forEach((s, i) => {
+      add(`${w} section ${i} titleAr`, s.titleAr);
+      add(`${w} section ${i} caption`, s.photo?.caption);
+      s.body.forEach((b, j) => add(`${w} section ${i} body ${j}`, b));
+      s.sentences.forEach((x) => {
+        add(`${w} ${x.id}`, x.ar);
+        x.mistakes?.forEach((m, k) => {
+          add(`${w} ${x.id} mistake ${k} wrong`, m.wrong);
+          add(`${w} ${x.id} mistake ${k} right`, m.right);
+          add(`${w} ${x.id} mistake ${k} why`, m.why);
+        });
+      });
+    });
+    ch.words.forEach((it, i) => {
+      add(`${w} word ${i}`, it.ar);
+      add(`${w} word ${i} note`, it.note);
+    });
+    add(`${w} reading`, ch.reading.ar);
+    [...ch.readingQuestions, ...ch.quiz].forEach((q) => {
+      add(`${w} ${q.id} prompt`, q.prompt);
+      add(`${w} ${q.id} ar`, q.ar);
+      add(`${w} ${q.id} explain`, q.explain);
+      q.options.forEach((o, i) => add(`${w} ${q.id} option ${i}`, o));
     });
   }
   for (const wk of course?.weeks ?? []) {

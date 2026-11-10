@@ -58,7 +58,14 @@ export default function Practice() {
         href="/letters"
         testID="letters-lab"
       />
-      <Entry icon="calculator-outline" title="Numbers lab" sub="Number calculator, digits and clock times" href="/numbers" />
+      <Entry icon="calculator-outline" title="Numbers lab" sub="Number calculator, digits and ordinals" href="/numbers" />
+      <Entry
+        icon="time-outline"
+        title="Time lab"
+        sub="Set a clock and read the time, dates, weekdays and months"
+        href="/time"
+        testID="time-lab-entry"
+      />
       <Entry
         icon="git-branch-outline"
         title="Sentence explorer"
@@ -68,6 +75,13 @@ export default function Practice() {
       />
       <Entry icon="school-outline" title="Grammar" sub="Every rule in the course" href="/grammar" />
       <Entry icon="easel-outline" title="Placards" sub="Quick-reference cards to revise and print" href="/placards" />
+      <Entry
+        icon="earth-outline"
+        title="Explore the Arab world"
+        sub="Culture chapters with photos, readings and quizzes"
+        href="/culture"
+        testID="explore-entry"
+      />
       <SectionTitle icon="trophy-outline">Quiz centre</SectionTitle>
       {weeks.map((w) => {
         const open = isWeekTestUnlocked(

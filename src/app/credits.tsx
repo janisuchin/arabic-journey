@@ -1,4 +1,8 @@
-import { AppText, Card, Screen } from '@/components/ui';
+import { Linking } from 'react-native';
+
+import { AppText, Card, Screen, SectionTitle } from '@/components/ui';
+import { culture } from '@/content';
+import type { Photo } from '@/content/schema';
 
 const SOURCES: [string, string][] = [
   ['Noto Naskh Arabic (Arabic text font)', 'Google / Noto project — SIL Open Font License 1.1'],
@@ -10,6 +14,9 @@ const SOURCES: [string, string][] = [
 ];
 
 export default function Credits() {
+  const photos = culture.flatMap((ch) =>
+    [ch.hero, ...ch.sections.map((s) => s.photo)].filter((p): p is Photo => !!p).map((p) => ({ p, chapter: ch.title })),
+  );
   return (
     <Screen title="Credits" testID="credits">
       {SOURCES.map(([what, who]) => (
@@ -20,12 +27,27 @@ export default function Credits() {
           </AppText>
         </Card>
       ))}
-      <Card>
-        <AppText weight="800">Photos</AppText>
-        <AppText size={14} muted>
-          This version uses emoji tiles instead of photos, so there are no photo credits yet.
-        </AppText>
-      </Card>
+      <SectionTitle icon="images-outline">Photos</SectionTitle>
+      <AppText size={14} muted>
+        {photos.length
+          ? `${photos.length} photos from Wikimedia Commons (public domain, CC0, CC BY or CC BY-SA), resized and re-encoded. Tap a photo credit to open its Commons page.`
+          : 'Lessons use emoji tiles; the culture chapters will show credited photos here.'}
+      </AppText>
+      {photos.map(({ p, chapter }) => (
+        <Card
+          key={p.file}
+          onPress={() => void Linking.openURL(p.credit.source)}
+          label={`Photo credit: ${p.credit.title}`}
+          testID={`credit-${p.file}`}>
+          <AppText weight="700" size={14}>
+            {p.credit.title.replace(/^File:/, '')}
+          </AppText>
+          <AppText size={13} muted>
+            {p.credit.author} · {p.credit.license} · {chapter}
+            {p.credit.modified ? ` · ${p.credit.modified}` : ''}
+          </AppText>
+        </Card>
+      ))}
     </Screen>
   );
 }

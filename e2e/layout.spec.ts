@@ -24,6 +24,10 @@ const ROUTES = [
   '/placards',
   '/placards/pc.alphabet',
   '/placards/pc.colours',
+  '/time',
+  '/culture',
+  '/culture/cul.coffee',
+  '/credits',
 ];
 
 for (const [w, h] of SIZES) {

@@ -211,4 +211,62 @@ export const Placard = z.object({
 });
 export type Placard = z.infer<typeof Placard>;
 
+// ------------------------------------------------------------------ culture (Explore the Arab world)
+
+/** A licensed Wikimedia Commons photo, fetched with scripts/commons_photo.py into assets/culture/. */
+export const Photo = z.object({
+  file: z.string().regex(/^[a-z0-9-]+\.jpg$/),
+  alt: latinOnly,
+  caption: rich.optional(),
+  credit: z.object({
+    title: z.string(),
+    author: z.string().min(1),
+    license: z.string().min(1),
+    licenseUrl: z.string().optional(),
+    source: z.string().url(),
+    accessed: z.string(),
+    modified: z.string().optional(),
+  }),
+});
+export type Photo = z.infer<typeof Photo>;
+
+export const CultureSection = z.object({
+  title: latinOnly,
+  titleAr: arabic.optional(),
+  titleSegs: z.array(Seg).min(1).optional(),
+  photo: Photo.optional(),
+  body: z.array(rich).min(1).max(4),
+  sentences: z.array(Sentence).min(1).max(4),
+});
+export type CultureSection = z.infer<typeof CultureSection>;
+
+/** An optional culture chapter: photos, short English prose with tappable Arabic, model sentences, words, reading, quiz. */
+export const Culture = z
+  .object({
+    id: z.string().regex(/^cul\.[a-z0-9-]+$/),
+    n: z.number().int().min(1),
+    title: latinOnly,
+    titleAr: arabic,
+    titleSegs: z.array(Seg).min(1),
+    emoji: z.string(),
+    level: z.number().int().min(0).max(12),
+    summary: rich,
+    hero: Photo.optional(),
+    sections: z.array(CultureSection).min(3).max(5),
+    words: z.array(PlacardItem).min(6).max(14),
+    vocab: z.array(z.string()),
+    reading: Reading,
+    readingQuestions: z.array(Question).min(2).max(4),
+    quiz: z.array(Question).min(5).max(8),
+    status: Status,
+    reviewer: z.string().optional(),
+  })
+  .superRefine((c, ctx) => {
+    if (c.status === 'approved' && !c.reviewer)
+      ctx.addIssue({ code: 'custom', message: 'status "approved" needs a named human reviewer' });
+    for (const q of [...c.readingQuestions, ...c.quiz])
+      if (q.answer >= q.options.length) ctx.addIssue({ code: 'custom', message: `question ${q.id}: answer out of range` });
+  });
+export type Culture = z.infer<typeof Culture>;
+
 export const GlossEntry = z.record(z.string(), latinOnly);

@@ -1,0 +1,186 @@
+{
+  "id": "cul.places",
+  "n": 7,
+  "title": "Great cities and places",
+  "titleAr": "مُدُنٌ وَأَمَاكِنُ عَظِيمَة",
+  "titleSegs": [["مُدُنٌ", "cities", "noun"], ["وَأَمَاكِنُ", "and places", "noun"], ["عَظِيمَة", "great (f)", "adj"]],
+  "emoji": "🕌",
+  "level": 8,
+  "summary": "A short tour of four famous places: Cairo and the pyramids of Giza beside the Nile, Petra in Jordan, the old medina of Fez in Morocco, and Dubai, old and new. On the way you practise comparing places with أَكْبَرُ مِنْ (bigger than), naming the very best with أَقْدَمُ (the oldest), and saying where you want to go: أُرِيدُ أَنْ أَزُورَ (I would like to visit).",
+  "hero": {
+    "file": "places-1.jpg",
+    "alt": "The pyramids of Giza in the desert under a blue sky, with three small pyramids in front",
+    "caption": "The pyramids of Giza. The nearest large pyramid is Menkaure's; behind it stand Khafre's and the Great Pyramid of Khufu.",
+    "credit": {
+      "title": "File:All Gizah Pyramids.jpg",
+      "author": "Ricardo Liberato",
+      "license": "CC BY-SA 2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:All_Gizah_Pyramids.jpg",
+      "accessed": "2026-11-10",
+      "modified": "resized and re-encoded",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+    }
+  },
+  "sections": [
+    {
+      "title": "Cairo, the Nile and the pyramids",
+      "titleAr": "الْقَاهِرَة وَالْأَهْرَام",
+      "titleSegs": [["الْقَاهِرَة", "Cairo (capital of Egypt)", "name"], ["وَالْأَهْرَام", "and the pyramids", "noun"]],
+      "body": [
+        "Cairo, الْقَاهِرَة, is the capital of Egypt, مِصْر, and one of the biggest cities in Africa and the Arab world. It lies on both banks of the Nile, النِّيل, one of the longest rivers on earth. For thousands of years most Egyptians have lived close to the river, because most of the rest of the country is desert. Historic Cairo, with its old mosques, markets and city gates, has been a UNESCO World Heritage site since 1979.",
+        "On the edge of the city, at Giza, الْجِيزَة, stand the pyramids, الْأَهْرَام; one pyramid is a هَرَم. The Great Pyramid was built for the king Khufu about 4,500 years ago. It is the oldest of the Seven Wonders of the Ancient World and the only one still standing. Near it lies the Sphinx, which Arabic calls أَبُو الْهَوْل ('father of terror'). The pyramids belong to the World Heritage site 'Memphis and its Necropolis', also listed in 1979."
+      ],
+      "sentences": [
+        { "id": "pls1", "ar": "الْأَهْرَام أَقْدَمُ مِنَ الْبَتْرَاء بِكَثِير.", "en": "The pyramids are much older than Petra.", "literal": "the pyramids (are) older than Petra by much",
+          "segs": [["الْأَهْرَام", "the pyramids", "noun"], ["أَقْدَمُ", "older", "adj"], ["مِنَ", "than", "prep"], ["الْبَتْرَاء", "Petra (ancient city in Jordan)", "name"], ["بِكَثِير", "by far, much ('much older')", "adverb"]], "grammar": ["comparative"] },
+        { "id": "pls2", "ar": "النِّيل مِنْ أَطْوَلِ الْأَنْهَار فِي الْعَالَم.", "en": "The Nile is one of the longest rivers in the world.", "literal": "the Nile (is) of the longest (of) the rivers in the world",
+          "segs": [["النِّيل", "the Nile (river)", "name"], ["مِنْ", "of, among", "prep"], ["أَطْوَلِ", "the longest (of)", "adj"], ["الْأَنْهَار", "the rivers", "noun"], ["فِي", "in", "prep"], ["الْعَالَم", "the world", "noun"]], "grammar": ["superlative"] },
+        { "id": "pls3", "ar": "زُرْتُ الْقَاهِرَة وَشَاهَدْتُ أَهْرَامَ الْجِيزَة.", "en": "I visited Cairo and saw the pyramids of Giza.", "literal": "I visited Cairo and I saw (the) pyramids (of) Giza",
+          "segs": [["زُرْتُ", "I visited", "verb"], ["الْقَاهِرَة", "Cairo (capital of Egypt)", "name"], ["وَشَاهَدْتُ", "and I saw", "verb"], ["أَهْرَامَ", "pyramids (of)", "noun"], ["الْجِيزَة", "Giza (city next to Cairo)", "name"]], "grammar": ["hollow-verbs", "past-tense", "idafa"] },
+        { "id": "pls4", "ar": "الْقَاهِرَة أَكْبَرُ مَدِينَة فِي مِصْر.", "en": "Cairo is the biggest city in Egypt.", "literal": "Cairo (is the) biggest (of a) city in Egypt",
+          "segs": [["الْقَاهِرَة", "Cairo (capital of Egypt)", "name"], ["أَكْبَرُ", "the biggest (before a noun)", "adj"], ["مَدِينَة", "city", "noun"], ["فِي", "in", "prep"], ["مِصْر", "Egypt (country)", "name"]], "grammar": ["superlative"],
+          "mistakes": [{ "wrong": "الْقَاهِرَة أَكْبَرُ الْمَدِينَة فِي مِصْر.", "right": "الْقَاهِرَة أَكْبَرُ مَدِينَة فِي مِصْر.", "why": "After the superlative a singular noun has no al-: akbaru madīna." }] }
+      ]
+    },
+    {
+      "title": "Petra, city of the Nabataeans",
+      "titleAr": "مَدِينَةُ الْأَنْبَاط",
+      "titleSegs": [["مَدِينَةُ", "city (of)", "noun"], ["الْأَنْبَاط", "the Nabataeans (ancient Arab people)", "name"]],
+      "photo": {
+        "file": "places-2.jpg",
+        "alt": "The carved stone front of the Treasury at Petra, with columns and statues, cut into pink-red rock",
+        "caption": "الْخَزْنَة, 'the Treasury', carved into the rock face at Petra.",
+        "credit": {
+          "title": "File:Al-Khazneh 2, Petra, Jordan.jpg",
+          "author": "Vyacheslav Argenberg",
+          "license": "CC BY 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Al-Khazneh_2,_Petra,_Jordan.jpg",
+          "accessed": "2026-11-10",
+          "modified": "resized and re-encoded",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+        }
+      },
+      "body": [
+        "Petra, الْبَتْرَاء, in the south of Jordan, الْأُرْدُنّ, was the capital of the Nabataeans, الْأَنْبَاط, an Arab people who grew rich from the caravan trade in incense and spices more than 2,000 years ago. They carved tombs, temples and houses straight into the red and pink sandstone, which is why Petra is often called the 'rose-red city'. It has been a UNESCO World Heritage site since 1985.",
+        "Most visitors walk in through the Siq, السِّيق, a narrow gorge more than a kilometre long. At its end the most famous monument suddenly appears: الْخَزْنَة, 'the Treasury', carved about 2,000 years ago. The name comes from an old story that treasure was hidden in the stone urn at the top; in fact it was probably the tomb of a Nabataean king. The verb يَنْحِتُ (he carves) describes exactly how Petra was made."
+      ],
+      "sentences": [
+        { "id": "pls5", "ar": "الْخَزْنَة أَشْهَرُ مَكَان فِي الْبَتْرَاء.", "en": "The Treasury is the most famous place in Petra.", "literal": "the Treasury (is the) most famous place in Petra",
+          "segs": [["الْخَزْنَة", "the Treasury (monument in Petra)", "name"], ["أَشْهَرُ", "the most famous (before a noun)", "adj"], ["مَكَان", "place", "noun"], ["فِي", "in", "prep"], ["الْبَتْرَاء", "Petra (ancient city in Jordan)", "name"]], "grammar": ["superlative"] },
+        { "id": "pls6", "ar": "نَحَتَ الْأَنْبَاطُ الْخَزْنَةَ فِي الصَّخْر.", "en": "The Nabataeans carved the Treasury into the rock.", "literal": "carved the Nabataeans the Treasury in the rock",
+          "segs": [["نَحَتَ", "(he) carved", "verb"], ["الْأَنْبَاطُ", "the Nabataeans (ancient Arab people)", "name"], ["الْخَزْنَةَ", "the Treasury (monument in Petra)", "name"], ["فِي", "in, into", "prep"], ["الصَّخْر", "the rock", "noun"]], "grammar": ["verbal-sentence", "past-tense"] },
+        { "id": "pls7", "ar": "أُرِيدُ أَنْ أَزُورَ الْبَتْرَاء فِي الرَّبِيع.", "en": "I would like to visit Petra in spring.", "literal": "I want that I visit Petra in the spring",
+          "segs": [["أُرِيدُ", "I want, I would like", "verb"], ["أَنْ", "to, that", "particle"], ["أَزُورَ", "I visit (after an)", "verb"], ["الْبَتْرَاء", "Petra (ancient city in Jordan)", "name"], ["فِي", "in", "prep"], ["الرَّبِيع", "the spring (season)", "noun"]], "grammar": ["an-subjunctive", "hollow-verbs"] }
+      ]
+    },
+    {
+      "title": "The old medina of Fez",
+      "titleAr": "فَاس الْقَدِيمَة",
+      "titleSegs": [["فَاس", "Fez (city in Morocco)", "name"], ["الْقَدِيمَة", "the old (f)", "adj"]],
+      "photo": {
+        "file": "places-3.jpg",
+        "alt": "The Chouara tannery in Fez: many round stone vats of coloured dye between old yellow houses",
+        "caption": "The Chouara دَبَّاغَة (tannery) in the old medina of Fez, where leather has been dyed by hand for centuries.",
+        "credit": {
+          "title": "File:Chouara Tannery - 154 - Marokko Handybilder 2018 - Fes (27347707917).jpg",
+          "author": "Uwe Brodrecht",
+          "license": "CC BY-SA 2.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Chouara_Tannery_-_154_-_Marokko_Handybilder_2018_-_Fes_(27347707917).jpg",
+          "accessed": "2026-11-10",
+          "modified": "resized and re-encoded",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+        }
+      },
+      "body": [
+        "Fez, فَاس, in the north of Morocco, was founded at the end of the 8th century, which makes it older than Marrakesh, مَرَّاكُش. Its old town, Fes el-Bali, is one of the largest historic medinas in the world and has been a UNESCO World Heritage site since 1981. In Arabic it is simply الْمَدِينَة الْقَدِيمَة (the old city). Many of its lanes are so narrow, ضَيِّق, that cars cannot enter, and goods are still carried by donkeys and handcarts.",
+        "In the medina stands the Qarawiyyin, الْقَرَوِيِّين, a mosque and place of learning founded in 859 by a woman, Fatima al-Fihri. It is often described as the oldest university in the world that is still working. Not far away is the Chouara tannery, a دَبَّاغَة, where workers dye leather by hand in stone vats, as in the photo. The bags, slippers and jackets made from it are sold in the nearby سُوق (market)."
+      ],
+      "sentences": [
+        { "id": "pls8", "ar": "فَاس أَقْدَمُ مِنْ مَرَّاكُش.", "en": "Fez is older than Marrakesh.", "literal": "Fez (is) older than Marrakesh",
+          "segs": [["فَاس", "Fez (city in Morocco)", "name"], ["أَقْدَمُ", "older", "adj"], ["مِنْ", "than", "prep"], ["مَرَّاكُش", "Marrakesh (city in Morocco)", "name"]], "grammar": ["comparative"],
+          "mistakes": [{ "wrong": "فَاس أَقْدَمُ مَرَّاكُش.", "right": "فَاس أَقْدَمُ مِنْ مَرَّاكُش.", "why": "'Than' is always مِنْ after a comparative." }] },
+        { "id": "pls9", "ar": "شَوَارِعُ الْمَدِينَةِ الْقَدِيمَةِ ضَيِّقَةٌ جِدًّا.", "en": "The streets of the old city are very narrow.", "literal": "(the) streets (of) the city the old (are) narrow very",
+          "segs": [["شَوَارِعُ", "streets (of)", "noun"], ["الْمَدِينَةِ", "the city", "noun"], ["الْقَدِيمَةِ", "the old (f)", "adj"], ["ضَيِّقَةٌ", "narrow (f)", "adj"], ["جِدًّا", "very", "adverb"]], "grammar": ["non-human-plural", "idafa"],
+          "mistakes": [{ "wrong": "شَوَارِعُ الْمَدِينَةِ الْقَدِيمَةِ ضَيِّق جِدًّا.", "right": "شَوَارِعُ الْمَدِينَةِ الْقَدِيمَةِ ضَيِّقَةٌ جِدًّا.", "why": "The plural of a thing counts as 'she', so the adjective is feminine: ḍayyiqa." }] },
+        { "id": "pls10", "ar": "اِشْتَرَيْتُ حَقِيبَةً مِنَ الْجِلْد فِي سُوقِ فَاس.", "en": "I bought a leather bag in the market of Fez.", "literal": "I bought a bag of the leather in (the) market (of) Fez",
+          "segs": [["اِشْتَرَيْتُ", "I bought", "verb"], ["حَقِيبَةً", "a bag", "noun"], ["مِنَ", "of, made of", "prep"], ["الْجِلْد", "the leather", "noun"], ["فِي", "in", "prep"], ["سُوقِ", "market (of)", "noun"], ["فَاس", "Fez (city in Morocco)", "name"]], "grammar": ["past-tense", "idafa"] }
+      ]
+    },
+    {
+      "title": "Dubai, old and new",
+      "titleAr": "دُبَيّ بَيْنَ الْقَدِيمِ وَالْجَدِيد",
+      "titleSegs": [["دُبَيّ", "Dubai (city in the UAE)", "name"], ["بَيْنَ", "between", "prep"], ["الْقَدِيمِ", "the old", "adj"], ["وَالْجَدِيد", "and the new", "adj"]],
+      "photo": {
+        "file": "places-4.jpg",
+        "alt": "A small wooden water taxi crossing Dubai Creek, with buildings along the water and towers in the distance",
+        "caption": "An عَبْرَة, a small water taxi, crossing خَوْرُ دُبَيّ (Dubai Creek).",
+        "credit": {
+          "title": "File:Dubai Creek from an abra 3.jpg",
+          "author": "CT Cooper",
+          "license": "Public domain",
+          "source": "https://commons.wikimedia.org/wiki/File:Dubai_Creek_from_an_abra_3.jpg",
+          "accessed": "2026-11-10",
+          "modified": "resized and re-encoded"
+        }
+      },
+      "body": [
+        "Dubai, دُبَيّ, is one of the seven emirates of the United Arab Emirates; the capital of the country is Abu Dhabi. Old Dubai grew up around the Creek, خَوْرُ دُبَيّ, a long arm of the sea where pearl divers, fishermen and traders once kept their wooden boats. People still cross the Creek today in an عَبْرَة, a small water taxi, and the old markets for spices and gold lie close to its banks.",
+        "In the old Al Fahidi quarter many houses have wind towers, بَرَاجِيل, which caught the breeze and cooled the rooms long before air conditioning. A short ride away stands the new Dubai of glass and steel. Its best-known building is the Burj Khalifa, بُرْجُ خَلِيفَة, opened in 2010 and about 828 metres high. Here a superlative is the natural thing to say: أَطْوَلُ بُرْج فِي الْعَالَم (the tallest tower in the world)."
+      ],
+      "sentences": [
+        { "id": "pls11", "ar": "بُرْجُ خَلِيفَة أَطْوَلُ بُرْج فِي الْعَالَم.", "en": "The Burj Khalifa is the tallest tower in the world.", "literal": "(the) tower (of) Khalifa (is the) tallest tower in the world",
+          "segs": [["بُرْجُ", "tower (of)", "noun"], ["خَلِيفَة", "Khalifa ('Burj Khalifa', the tower in Dubai)", "name"], ["أَطْوَلُ", "the tallest (before a noun)", "adj"], ["بُرْج", "tower", "noun"], ["فِي", "in", "prep"], ["الْعَالَم", "the world", "noun"]], "grammar": ["superlative", "idafa"] },
+        { "id": "pls12", "ar": "رَكِبْنَا عَبْرَةً فِي خَوْرِ دُبَيّ.", "en": "We took an abra on Dubai Creek.", "literal": "we rode an abra in (the) creek (of) Dubai",
+          "segs": [["رَكِبْنَا", "we rode, we took (a boat)", "verb"], ["عَبْرَةً", "an abra (small water taxi)", "noun"], ["فِي", "in, on", "prep"], ["خَوْرِ", "creek, inlet (of)", "noun"], ["دُبَيّ", "Dubai (city in the UAE)", "name"]], "grammar": ["past-tense", "accusative"] },
+        { "id": "pls13", "ar": "فِي رَأْيِي، دُبَيّ الْقَدِيمَة أَجْمَلُ مِنْ دُبَيّ الْجَدِيدَة.", "en": "In my opinion, old Dubai is more beautiful than new Dubai.", "literal": "in my opinion, Dubai the old (is) more beautiful than Dubai the new",
+          "segs": [["فِي", "in", "prep"], ["رَأْيِي", "my opinion", "noun"], ["دُبَيّ", "Dubai (city in the UAE)", "name"], ["الْقَدِيمَة", "the old (f)", "adj"], ["أَجْمَلُ", "more beautiful", "adj"], ["مِنْ", "than", "prep"], ["دُبَيّ", "Dubai (city in the UAE)", "name"], ["الْجَدِيدَة", "the new (f)", "adj"]], "grammar": ["opinion-phrases", "comparative"] }
+      ]
+    }
+  ],
+  "words": [
+    { "ar": "هَرَم", "en": "pyramid", "segs": [["هَرَم", "pyramid", "noun"]], "note": "Plural أَهْرَام; the pyramids of Giza are الْأَهْرَام." },
+    { "ar": "أَبُو الْهَوْل", "en": "the Sphinx (at Giza)", "segs": [["أَبُو", "father (of)", "noun"], ["الْهَوْل", "terror ('the Sphinx')", "noun"]] },
+    { "ar": "نَهْرُ النِّيل", "en": "the river Nile", "segs": [["نَهْرُ", "river (of)", "noun"], ["النِّيل", "the Nile (river)", "name"]] },
+    { "ar": "الْأَنْبَاط", "en": "the Nabataeans", "segs": [["الْأَنْبَاط", "the Nabataeans (ancient Arab people)", "name"]] },
+    { "ar": "السِّيق", "en": "the Siq (the narrow gorge into Petra)", "segs": [["السِّيق", "the Siq (gorge leading into Petra)", "name"]] },
+    { "ar": "الْخَزْنَة", "en": "the Treasury (in Petra)", "segs": [["الْخَزْنَة", "the Treasury (monument in Petra)", "name"]] },
+    { "ar": "الْمَدِينَة الْقَدِيمَة", "en": "the old city, the medina", "segs": [["الْمَدِينَة", "the city", "noun"], ["الْقَدِيمَة", "the old (f)", "adj"]] },
+    { "ar": "جَامِعَةُ الْقَرَوِيِّين", "en": "al-Qarawiyyin University (in Fez)", "segs": [["جَامِعَةُ", "university (of)", "noun"], ["الْقَرَوِيِّين", "al-Qarawiyyin (mosque and university in Fez)", "name"]] },
+    { "ar": "دَبَّاغَة", "en": "tannery", "segs": [["دَبَّاغَة", "tannery", "noun"]] },
+    { "ar": "خَوْرُ دُبَيّ", "en": "Dubai Creek", "segs": [["خَوْرُ", "creek, inlet (of)", "noun"], ["دُبَيّ", "Dubai (city in the UAE)", "name"]], "note": "Many people in the Gulf say it with a long ō: khōr." },
+    { "ar": "عَبْرَة", "en": "abra (small water taxi in Dubai)", "segs": [["عَبْرَة", "abra (small water taxi)", "noun"]] },
+    { "ar": "بَرَاجِيل", "en": "wind towers (Gulf word)", "segs": [["بَرَاجِيل", "wind towers (Gulf word)", "noun"]], "note": "A Gulf word that came from Persian; the singular is bārjīl." }
+  ],
+  "vocab": ["misr", "madina", "nahr", "qadim", "zara", "aqdam", "akbar", "atwal", "ashhar", "dayyiq"],
+  "reading": {
+    "title": "My journeys",
+    "ar": "زُرْتُ الْقَاهِرَة فِي السَّنَةِ الْمَاضِيَة. شَاهَدْتُ الْأَهْرَام وَأَبَا الْهَوْل، وَرَكِبْتُ مَرْكَبًا فِي النِّيل. الْأَهْرَام أَقْدَمُ مَكَان زُرْتُهُ فِي حَيَاتِي. بَعْدَ ذٰلِكَ سَافَرْتُ إِلَى الْأُرْدُنّ وَمَشَيْتُ فِي السِّيق إِلَى الْخَزْنَة. كَانَتِ الصُّخُورُ وَرْدِيَّةً وَجَمِيلَةً جِدًّا. فِي السَّنَةِ الْقَادِمَة أُرِيدُ أَنْ أَزُورَ فَاس، لِأَنَّ مَدِينَتَهَا الْقَدِيمَة مِنْ أَجْمَلِ الْمُدُن فِي الْعَالَم. حُلْمِي أَيْضًا أَنْ أَرَى دُبَيّ مِنْ بُرْجِ خَلِيفَة.",
+    "en": "Last year I visited Cairo. I saw the pyramids and the Sphinx, and I took a boat on the Nile. The pyramids are the oldest place I have visited in my life. After that I travelled to Jordan and walked through the Siq to the Treasury. The rocks were pink and very beautiful. Next year I would like to visit Fez, because its old city is one of the most beautiful cities in the world. My dream is also to see Dubai from the Burj Khalifa.",
+    "segs": [
+      ["زُرْتُ", "I visited", "verb"], ["الْقَاهِرَة", "Cairo (capital of Egypt)", "name"], ["فِي", "in", "prep"], ["السَّنَةِ", "the year", "noun"], ["الْمَاضِيَة", "the last, the past (f)", "adj"],
+      ["شَاهَدْتُ", "I saw", "verb"], ["الْأَهْرَام", "the pyramids", "noun"], ["وَأَبَا", "and father (of) (object form)", "noun"], ["الْهَوْل", "terror ('the Sphinx')", "noun"],
+      ["وَرَكِبْتُ", "and I rode, and I took (a boat)", "verb"], ["مَرْكَبًا", "a boat", "noun"], ["فِي", "on, in", "prep"], ["النِّيل", "the Nile (river)", "name"],
+      ["الْأَهْرَام", "the pyramids", "noun"], ["أَقْدَمُ", "the oldest (before a noun)", "adj"], ["مَكَان", "place", "noun"], ["زُرْتُهُ", "I visited it (m)", "verb"], ["فِي", "in", "prep"], ["حَيَاتِي", "my life", "noun"],
+      ["بَعْدَ", "after", "prep"], ["ذٰلِكَ", "that", "demonstrative"], ["سَافَرْتُ", "I travelled", "verb"], ["إِلَى", "to", "prep"], ["الْأُرْدُنّ", "Jordan (country)", "name"],
+      ["وَمَشَيْتُ", "and I walked", "verb"], ["فِي", "in, through", "prep"], ["السِّيق", "the Siq (gorge leading into Petra)", "name"], ["إِلَى", "to", "prep"], ["الْخَزْنَة", "the Treasury (monument in Petra)", "name"],
+      ["كَانَتِ", "(they, things) were", "verb"], ["الصُّخُورُ", "the rocks", "noun"], ["وَرْدِيَّةً", "pink, rose-coloured (f)", "adj"], ["وَجَمِيلَةً", "and beautiful (f)", "adj"], ["جِدًّا", "very", "adverb"],
+      ["فِي", "in", "prep"], ["السَّنَةِ", "the year", "noun"], ["الْقَادِمَة", "the next, the coming (f)", "adj"], ["أُرِيدُ", "I want, I would like", "verb"], ["أَنْ", "to, that", "particle"], ["أَزُورَ", "I visit (after an)", "verb"], ["فَاس", "Fez (city in Morocco)", "name"],
+      ["لِأَنَّ", "because", "particle"], ["مَدِينَتَهَا", "its (f) city", "noun"], ["الْقَدِيمَة", "the old (f)", "adj"], ["مِنْ", "of, among", "prep"], ["أَجْمَلِ", "the most beautiful (of)", "adj"], ["الْمُدُن", "the cities", "noun"], ["فِي", "in", "prep"], ["الْعَالَم", "the world", "noun"],
+      ["حُلْمِي", "my dream", "noun"], ["أَيْضًا", "also", "adverb"], ["أَنْ", "to, that", "particle"], ["أَرَى", "I see (after an)", "verb"], ["دُبَيّ", "Dubai (city in the UAE)", "name"], ["مِنْ", "from", "prep"], ["بُرْجِ", "tower (of)", "noun"], ["خَلِيفَة", "Khalifa ('Burj Khalifa', the tower in Dubai)", "name"]
+    ]
+  },
+  "readingQuestions": [
+    { "id": "plr1", "prompt": "What did the writer do on the Nile?", "options": ["went swimming", "took a boat", "bought a bag", "climbed a tower"], "answer": 1, "explain": "رَكِبْتُ مَرْكَبًا فِي النِّيل: I took a boat on the Nile." },
+    { "id": "plr2", "prompt": "What does the writer say about the pyramids?", "options": ["They are the oldest place the writer has visited.", "They are pink.", "They are in Jordan.", "They are the tallest building in the world."], "answer": 0, "explain": "الْأَهْرَام أَقْدَمُ مَكَان زُرْتُهُ: the pyramids are the oldest place I have visited." },
+    { "id": "plr3", "prompt": "Which city does the writer want to visit next year?", "options": ["Cairo", "Petra", "Dubai", "Fez"], "answer": 3, "explain": "أُرِيدُ أَنْ أَزُورَ فَاس: I would like to visit Fez." }
+  ],
+  "quiz": [
+    { "id": "plq1", "prompt": "Which people carved Petra into the rock?", "options": ["the Romans", "the Nabataeans, الْأَنْبَاط", "the ancient Egyptians", "the Phoenicians"], "answer": 1, "explain": "Petra was the capital of the Nabataeans, an Arab people who grew rich from the incense trade." },
+    { "id": "plq2", "prompt": "What does this mean?", "ar": "أُرِيدُ أَنْ أَزُورَ الْبَتْرَاء.", "options": ["I visited Petra.", "Petra is older.", "I live near Petra.", "I would like to visit Petra."], "answer": 3, "explain": "أُرِيدُ أَنْ + a verb ending in -a: I want to / I would like to." },
+    { "id": "plq3", "prompt": "Which is the only one of the Seven Wonders of the Ancient World still standing?", "options": ["the Great Pyramid of Giza", "the Treasury at Petra", "the Burj Khalifa", "the Qarawiyyin in Fez"], "answer": 0, "explain": "The Great Pyramid, built about 4,500 years ago, is the oldest of the Seven Wonders and the only one left." },
+    { "id": "plq4", "prompt": "Which word fills the gap? الْأَهْرَام ___ مِنَ الْبَتْرَاء (The pyramids are older than Petra.)", "options": ["قَدِيم", "الْقَدِيمَة", "أَقْدَمُ", "أَكْبَرُ"], "answer": 2, "explain": "'Older than' is أَقْدَمُ مِنْ; the comparative does not change for a plural." },
+    { "id": "plq5", "prompt": "What is الْمَدِينَة الْقَدِيمَة in Fez?", "options": ["a modern shopping centre", "the old town (medina), a UNESCO World Heritage site", "a wind tower", "a boat"], "answer": 1, "explain": "The old medina of Fez has been a World Heritage site since 1981; many of its lanes are too narrow for cars." },
+    { "id": "plq6", "prompt": "What is an عَبْرَة in Dubai?", "options": ["a wind tower", "a tall building", "a gold market", "a small water taxi on the Creek"], "answer": 3, "explain": "People cross Dubai Creek in an abra, a small wooden water taxi." }
+  ],
+  "status": "needs-review"
+}

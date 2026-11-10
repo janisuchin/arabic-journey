@@ -1,0 +1,330 @@
+{
+  "id": "cul.calligraphy",
+  "n": 3,
+  "title": "The Arabic script and calligraphy",
+  "titleAr": "الْخَطُّ الْعَرَبِيُّ",
+  "titleSegs": [["الْخَطُّ", "the script, the calligraphy", "noun"], ["الْعَرَبِيُّ", "Arabic", "adj"]],
+  "emoji": "✒️",
+  "level": 2,
+  "summary": "Arabic is written from right to left with 28 letters that join together, and the same script also serves Persian, Urdu and other languages. Over the centuries writing became an art, خَطّ, seen in books and on buildings, tiles and coins. You also meet the Arabic digits and find out why 0–9 are called 'Arabic numerals'.",
+  "status": "needs-review",
+  "hero": {
+    "file": "calligraphy-1.jpg",
+    "alt": "Arabic calligraphy practice in brown ink on white paper, with reed pens and a small open jar of ink",
+    "caption": "A student's practice sheet, with reed pens and ink.",
+    "credit": {
+      "title": "File:Learning Arabic calligraphy.jpg",
+      "author": "Aieman Khimji",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Learning_Arabic_calligraphy.jpg",
+      "accessed": "2026-11-10",
+      "modified": "resized and re-encoded"
+    }
+  },
+  "sections": [
+    {
+      "title": "Right to left: one script, many languages",
+      "titleAr": "مِنَ الْيَمِينِ إِلَى الْيَسَارِ",
+      "titleSegs": [["مِنَ", "from", "prep"], ["الْيَمِينِ", "the right", "noun"], ["إِلَى", "to", "prep"], ["الْيَسَارِ", "the left", "noun"]],
+      "body": [
+        "Arabic is written and read from right to left: مِنَ الْيَمِينِ إِلَى الْيَسَار. So an Arabic book opens from what an English reader would call the back. The alphabet has 28 letters, and each letter is a حَرْف. There are no capital letters, but most letters join to the next one, so a letter looks a little different at the start, in the middle or at the end of a word. Six letters, such as alif and dāl, never join to the letter after them.",
+        "In everyday writing (newspapers, shop signs, phone messages) the short vowels are usually left out, and readers fill them in from the words they know. Books for children and for learners, like this course, add the short vowels as small marks above and below the letters.",
+        "The same script, with a few extra letters, is used for other languages too: Persian in Iran, Urdu in Pakistan and India, Pashto in Afghanistan, Kurdish in parts of Iraq and Iran, and Uyghur in western China. Until 1928 Turkish was also written in Arabic letters. Most of these languages are not related to Arabic, but they took its alphabet, together with many words."
+      ],
+      "sentences": [
+        {
+          "id": "cals1",
+          "ar": "أَكْتُبُ مِنَ الْيَمِينِ إِلَى الْيَسَار.",
+          "en": "I write from right to left.",
+          "literal": "I write from the right to the left",
+          "segs": [["أَكْتُبُ", "I write", "verb"], ["مِنَ", "from", "prep"], ["الْيَمِينِ", "the right", "noun"], ["إِلَى", "to", "prep"], ["الْيَسَار", "the left", "noun"]],
+          "grammar": ["present-tense"]
+        },
+        {
+          "id": "cals2",
+          "ar": "فِي الْعَرَبِيَّةِ ثَمَانِيَةٌ وَعِشْرُونَ حَرْفًا.",
+          "en": "Arabic has 28 letters.",
+          "literal": "in Arabic (there are) eight and twenty letter",
+          "segs": [["فِي", "in", "prep"], ["الْعَرَبِيَّةِ", "Arabic (the language)", "noun"], ["ثَمَانِيَةٌ", "eight", "number"], ["وَعِشْرُونَ", "and twenty", "number"], ["حَرْفًا", "letter (after a number: 'letters')", "noun"]],
+          "grammar": ["numbers-11-100"],
+          "mistakes": [
+            {
+              "wrong": "ثَمَانِيَةٌ وَعِشْرُونَ حُرُوف",
+              "right": "ثَمَانِيَةٌ وَعِشْرُونَ حَرْفًا",
+              "why": "After the numbers 11 to 99 the noun stays singular and ends in -an: ḥarfan, not the plural ḥurūf."
+            }
+          ]
+        },
+        {
+          "id": "cals3",
+          "ar": "يَكْتُبُ النَّاسُ فِي إِيرَانَ وَبَاكِسْتَانَ بِالْحُرُوفِ الْعَرَبِيَّة.",
+          "en": "People in Iran and Pakistan write with Arabic letters.",
+          "literal": "write the people in Iran and Pakistan with the letters the Arabic",
+          "segs": [["يَكْتُبُ", "writes (he, it)", "verb"], ["النَّاسُ", "the people", "noun"], ["فِي", "in", "prep"], ["إِيرَانَ", "Iran (country)", "name"], ["وَبَاكِسْتَانَ", "and Pakistan (country)", "name"], ["بِالْحُرُوفِ", "with the letters", "noun"], ["الْعَرَبِيَّة", "Arabic (f)", "adj"]],
+          "grammar": ["verbal-sentence"],
+          "mistakes": [
+            {
+              "wrong": "يَكْتُبُونَ النَّاسُ",
+              "right": "يَكْتُبُ النَّاسُ",
+              "why": "When the verb comes first, it stays singular, even before a plural subject."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Styles of calligraphy",
+      "titleAr": "أَنْوَاعُ الْخَطِّ",
+      "titleSegs": [["أَنْوَاعُ", "kinds, types (of)", "noun"], ["الْخَطِّ", "the calligraphy, the script", "noun"]],
+      "photo": {
+        "file": "calligraphy-2.jpg",
+        "alt": "An old parchment page with thick, angular brown-black Arabic letters in Kufic script",
+        "caption": "A page in Kufic script on parchment (Walters Art Museum, Baltimore).",
+        "credit": {
+          "title": "File:Islamic - Folio with Kufic Script - Walters W5522B - Full Page.jpg",
+          "author": "Anonymous (Islamic)Unknown author",
+          "license": "Public domain",
+          "source": "https://commons.wikimedia.org/wiki/File:Islamic_-_Folio_with_Kufic_Script_-_Walters_W5522B_-_Full_Page.jpg",
+          "accessed": "2026-11-10",
+          "modified": "resized and re-encoded"
+        }
+      },
+      "body": [
+        "Beautiful writing is called خَطّ, a word that also means 'line' and simply 'handwriting'. Over more than a thousand years, calligraphers developed several styles. The oldest well-known one is الْكُوفِيّ, Kufic, named after the city of Kufa in Iraq. It is angular, with straight lines and sharp corners. Early copies of the Qur'an and many old buildings use it.",
+        "النَّسْخ, Naskh, is round and very clear. It was the main style for copying books, and most printed Arabic today, in books and newspapers, is based on it. الثُّلُث, Thuluth, is large and elegant, with tall letters and long curves. You see it on mosques, gates and the titles of books.",
+        "الدِّيوَانِيّ, Diwani, grew up at the Ottoman court for official letters and decrees; its letters are very round and pressed close together. Finally, الرُّقْعَة, Ruq'a, is a simple, quick style with short strokes. Many people, especially in the eastern Arab world, learn it at school, and their everyday handwriting is a form of Ruq'a."
+      ],
+      "sentences": [
+        {
+          "id": "cals4",
+          "ar": "هٰذَا خَطٌّ جَمِيل.",
+          "en": "This is beautiful calligraphy.",
+          "literal": "this (is) calligraphy beautiful",
+          "segs": [["هٰذَا", "this (m)", "demonstrative"], ["خَطٌّ", "calligraphy, handwriting", "noun"], ["جَمِيل", "beautiful", "adj"]],
+          "grammar": ["demonstratives", "adjectives"]
+        },
+        {
+          "id": "cals5",
+          "ar": "أَكْتُبُ بِخَطِّ الرُّقْعَة.",
+          "en": "I write in Ruq'a script.",
+          "literal": "I write in the script of the Ruq'a",
+          "segs": [["أَكْتُبُ", "I write", "verb"], ["بِخَطِّ", "in the script (of)", "noun"], ["الرُّقْعَة", "Ruq'a (an everyday handwriting style)", "name"]],
+          "grammar": ["idafa"]
+        },
+        {
+          "id": "cals6",
+          "ar": "الْخَطُّ الْكُوفِيُّ قَدِيمٌ جِدًّا.",
+          "en": "Kufic script is very old.",
+          "literal": "the script the Kufic (is) old very",
+          "segs": [["الْخَطُّ", "the script, the calligraphy", "noun"], ["الْكُوفِيُّ", "Kufic (from Kufa in Iraq)", "adj"], ["قَدِيمٌ", "old (of things)", "adj"], ["جِدًّا", "very", "adverb"]],
+          "grammar": ["nominal-sentence", "adjectives"]
+        }
+      ]
+    },
+    {
+      "title": "The reed pen and ink",
+      "titleAr": "الْقَلَمُ وَالْحِبْرُ",
+      "titleSegs": [["الْقَلَمُ", "the pen", "noun"], ["وَالْحِبْرُ", "and the ink", "noun"]],
+      "photo": {
+        "file": "calligraphy-3.jpg",
+        "alt": "Four reed pens of different sizes, three of them with tips cut at an angle",
+        "caption": "Reed pens: the tip is cut at an angle with a knife.",
+        "credit": {
+          "title": "File:Qalam1.jpg",
+          "author": "No machine-readable author provided. Baba66 assumed (based on copyright claims).",
+          "license": "CC BY 2.5",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+          "source": "https://commons.wikimedia.org/wiki/File:Qalam1.jpg",
+          "accessed": "2026-11-10",
+          "modified": "resized and re-encoded"
+        }
+      },
+      "body": [
+        "A calligrapher, a خَطَّاط, traditionally writes with a قَلَم, a pen cut from a dried reed, قَصَب. The calligrapher cuts the tip at an angle with a sharp knife and splits it a little so that the ink flows. The width of the tip decides the size of the letters, so a calligrapher keeps many pens. Today قَلَم is also the everyday word for any pen.",
+        "The ink, حِبْر, was traditionally made from soot mixed with gum arabic and water, and it is usually black. Calligraphers like smooth paper, and in the past paper was often polished so that the pen could slide easily across it.",
+        "Letters have fixed proportions. In many styles the height of the alif is measured in small diamond-shaped dots made with the same pen; this system is linked with Ibn Muqla, a scholar in Baghdad in the 10th century. Students learn by copying a teacher's models for years, and in the Ottoman tradition a student who finished received a licence called an ijāza."
+      ],
+      "sentences": [
+        {
+          "id": "cals7",
+          "ar": "هٰذَا قَلَمٌ جَمِيل.",
+          "en": "This is a beautiful pen.",
+          "literal": "this (is) a pen beautiful",
+          "segs": [["هٰذَا", "this (m)", "demonstrative"], ["قَلَمٌ", "a pen", "noun"], ["جَمِيل", "beautiful", "adj"]],
+          "grammar": ["demonstratives", "adjectives"],
+          "mistakes": [
+            {
+              "wrong": "هٰذِهِ قَلَمٌ جَمِيل",
+              "right": "هٰذَا قَلَمٌ جَمِيل",
+              "why": "qalam (pen) is masculine, so 'this' is hādhā, not hādhihi."
+            }
+          ]
+        },
+        {
+          "id": "cals8",
+          "ar": "يَكْتُبُ الْخَطَّاطُ بِالْقَلَمِ وَالْحِبْر.",
+          "en": "The calligrapher writes with the pen and ink.",
+          "literal": "writes the calligrapher with the pen and the ink",
+          "segs": [["يَكْتُبُ", "writes (he, it)", "verb"], ["الْخَطَّاطُ", "the calligrapher", "noun"], ["بِالْقَلَمِ", "with the pen", "noun"], ["وَالْحِبْر", "and the ink", "noun"]],
+          "grammar": ["verbal-sentence"]
+        },
+        {
+          "id": "cals9",
+          "ar": "الْحِبْرُ أَسْوَد.",
+          "en": "The ink is black.",
+          "literal": "the ink (is) black",
+          "segs": [["الْحِبْرُ", "the ink", "noun"], ["أَسْوَد", "black", "adj"]],
+          "grammar": ["nominal-sentence", "colours"]
+        }
+      ]
+    },
+    {
+      "title": "Writing as art, and the numbers we all use",
+      "titleAr": "الْخَطُّ وَالْأَرْقَامُ",
+      "titleSegs": [["الْخَطُّ", "the script, the calligraphy", "noun"], ["وَالْأَرْقَامُ", "and the numbers, and the digits", "noun"]],
+      "photo": {
+        "file": "calligraphy-4.jpg",
+        "alt": "A tiled panel with large blue Arabic letters on white, framed by yellow and blue flower tiles inside a brick arch",
+        "caption": "Calligraphy in glazed tiles at the Wazir Khan Mosque in Lahore, Pakistan (17th century).",
+        "credit": {
+          "title": "File:Arabic Calligraphy at Wazir Khan Mosque.jpg",
+          "author": "self (Atif Gulzar)",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+          "source": "https://commons.wikimedia.org/wiki/File:Arabic_Calligraphy_at_Wazir_Khan_Mosque.jpg",
+          "accessed": "2026-11-10",
+          "modified": "resized and re-encoded"
+        }
+      },
+      "body": [
+        "In Islamic art, writing became one of the main kinds of decoration. Verses, poems and names are written on mosques, palaces, tiles, pottery, carpets and lamps. From the end of the 7th century many coins of the Islamic world carried only writing and no pictures, and Arabic writing is still on the coins and banknotes of many Arab countries today. On a wall you may see خَطّ made of coloured tiles, like the panel in the photo.",
+        "Arabic also has its own digits. In Egypt, Iraq, the Gulf and much of the eastern Arab world, people often write ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩. In Arabic these are called الْأَرْقَام الْهِنْدِيَّة, 'the Indian numbers', because the system came from India. In Morocco, Algeria and Tunisia people mostly use 0 1 2 3, which in Arabic are called الْأَرْقَام الْعَرَبِيَّة. A رَقْم is written from left to right, even inside a right-to-left sentence: ٢٨ is 28.",
+        "The digits used in English came from India to the Arab world, where scholars such as al-Khwarizmi in Baghdad wrote about them in the 9th century. From there they reached Europe, partly through Spain and North Africa. That is why Europeans call them 'Arabic numerals'."
+      ],
+      "sentences": [
+        {
+          "id": "cals10",
+          "ar": "أَرَى خَطًّا جَمِيلًا عَلَى الْجِدَار.",
+          "en": "I see beautiful calligraphy on the wall.",
+          "literal": "I see calligraphy beautiful on the wall",
+          "segs": [["أَرَى", "I see", "verb"], ["خَطًّا", "calligraphy (as object)", "noun"], ["جَمِيلًا", "beautiful (as object)", "adj"], ["عَلَى", "on", "prep"], ["الْجِدَار", "the wall", "noun"]],
+          "grammar": ["accusative"]
+        },
+        {
+          "id": "cals11",
+          "ar": "أَكْتُبُ الْأَرْقَامَ مِنَ الْيَسَارِ إِلَى الْيَمِين.",
+          "en": "I write numbers from left to right.",
+          "literal": "I write the numbers from the left to the right",
+          "segs": [["أَكْتُبُ", "I write", "verb"], ["الْأَرْقَامَ", "the numbers, the digits (as object)", "noun"], ["مِنَ", "from", "prep"], ["الْيَسَارِ", "the left", "noun"], ["إِلَى", "to", "prep"], ["الْيَمِين", "the right", "noun"]],
+          "grammar": ["present-tense", "accusative"]
+        }
+      ]
+    }
+  ],
+  "words": [
+    { "ar": "خَطّ", "en": "calligraphy; handwriting; script", "segs": [["خَطّ", "calligraphy; handwriting; line"]], "note": "Also means 'line'." },
+    { "ar": "حَرْف", "en": "letter (of the alphabet)", "segs": [["حَرْف", "letter (of the alphabet)"]] },
+    { "ar": "قَلَم", "en": "pen; (in calligraphy) reed pen", "segs": [["قَلَم", "pen"]] },
+    { "ar": "حِبْر", "en": "ink", "segs": [["حِبْر", "ink"]] },
+    { "ar": "خَطَّاط", "en": "calligrapher", "segs": [["خَطَّاط", "calligrapher"]] },
+    { "ar": "قَصَب", "en": "reed, reeds", "segs": [["قَصَب", "reed, reeds"]] },
+    { "ar": "رَقْم", "en": "number, digit", "segs": [["رَقْم", "number, digit"]] },
+    { "ar": "مِنَ الْيَمِينِ إِلَى الْيَسَار", "en": "from right to left", "segs": [["مِنَ", "from"], ["الْيَمِينِ", "the right"], ["إِلَى", "to"], ["الْيَسَار", "the left"]] },
+    { "ar": "النَّسْخ", "en": "Naskh (clear, round style of books and print)", "segs": [["النَّسْخ", "Naskh (lit. 'copying')"]] },
+    { "ar": "الثُّلُث", "en": "Thuluth (large, elegant style on buildings)", "segs": [["الثُّلُث", "Thuluth (lit. 'one third')"]] },
+    { "ar": "الْكُوفِيّ", "en": "Kufic (old, angular style)", "segs": [["الْكُوفِيّ", "Kufic (lit. 'from Kufa', a city in Iraq)"]] },
+    { "ar": "الدِّيوَانِيّ", "en": "Diwani (round style of the Ottoman court)", "segs": [["الدِّيوَانِيّ", "Diwani (lit. 'of the court office')"]] },
+    { "ar": "الرُّقْعَة", "en": "Ruq'a (simple style for everyday handwriting)", "segs": [["الرُّقْعَة", "Ruq'a (lit. 'a small piece of paper')"]] },
+    { "ar": "الْأَرْقَام الْهِنْدِيَّة", "en": "the Arabic-Indic digits (lit. 'the Indian numbers')", "segs": [["الْأَرْقَام", "the numbers, the digits"], ["الْهِنْدِيَّة", "Indian (f)"]] }
+  ],
+  "vocab": ["khatt", "harf", "qalam", "raqm", "yamin", "yasar", "yaktubu", "jamil", "aswad", "qadim"],
+  "reading": {
+    "title": "Sami the calligrapher",
+    "ar": "اِسْمِي سَامِي، وَأَنَا خَطَّاط. أَكْتُبُ بِقَلَمٍ مِنَ الْقَصَب وَبِحِبْرٍ أَسْوَد. أَكْتُبُ مِنَ الْيَمِينِ إِلَى الْيَسَار. فِي الْعَرَبِيَّةِ ثَمَانِيَةٌ وَعِشْرُونَ حَرْفًا، وَكُلُّ حَرْفٍ جَمِيل. أُحِبُّ خَطَّ الثُّلُث، لٰكِنْ فِي الْبَيْتِ أَكْتُبُ بِخَطِّ الرُّقْعَة. فِي مَدِينَتِي خَطٌّ جَمِيلٌ عَلَى الْمَسَاجِدِ وَالْبِنَايَاتِ الْقَدِيمَة. الْخَطُّ فَنٌّ قَدِيمٌ وَجَمِيل، وَأَنَا أُحِبُّ عَمَلِي.",
+    "en": "My name is Sami, and I am a calligrapher. I write with a reed pen and black ink. I write from right to left. Arabic has 28 letters, and every letter is beautiful. I love Thuluth script, but at home I write in Ruq'a. In my city there is beautiful calligraphy on the mosques and the old buildings. Calligraphy is an old and beautiful art, and I love my work.",
+    "segs": [
+      ["اِسْمِي", "my name"], ["سَامِي", "Sami (first name)", "name"], ["وَأَنَا", "and I"], ["خَطَّاط", "calligrapher"],
+      ["أَكْتُبُ", "I write"], ["بِقَلَمٍ", "with a pen"], ["مِنَ", "from, (made) of"], ["الْقَصَب", "the reed ('of reed')"], ["وَبِحِبْرٍ", "and with ink"], ["أَسْوَد", "black"],
+      ["أَكْتُبُ", "I write"], ["مِنَ", "from"], ["الْيَمِينِ", "the right"], ["إِلَى", "to"], ["الْيَسَار", "the left"],
+      ["فِي", "in"], ["الْعَرَبِيَّةِ", "Arabic (the language)"], ["ثَمَانِيَةٌ", "eight"], ["وَعِشْرُونَ", "and twenty"], ["حَرْفًا", "letter (after a number: 'letters')"], ["وَكُلُّ", "and every"], ["حَرْفٍ", "letter"], ["جَمِيل", "beautiful"],
+      ["أُحِبُّ", "I love, I like"], ["خَطَّ", "the script (of)"], ["الثُّلُث", "Thuluth (a calligraphy style)", "name"], ["لٰكِنْ", "but"], ["فِي", "in, at"], ["الْبَيْتِ", "the house ('at home')"], ["أَكْتُبُ", "I write"], ["بِخَطِّ", "in the script (of)"], ["الرُّقْعَة", "Ruq'a (an everyday handwriting style)", "name"],
+      ["فِي", "in"], ["مَدِينَتِي", "my city"], ["خَطٌّ", "calligraphy"], ["جَمِيلٌ", "beautiful"], ["عَلَى", "on"], ["الْمَسَاجِدِ", "the mosques"], ["وَالْبِنَايَاتِ", "and the buildings"], ["الْقَدِيمَة", "old (f; with a plural of things)"],
+      ["الْخَطُّ", "calligraphy (lit. 'the calligraphy')"], ["فَنٌّ", "an art"], ["قَدِيمٌ", "old"], ["وَجَمِيل", "and beautiful"], ["وَأَنَا", "and I"], ["أُحِبُّ", "I love, I like"], ["عَمَلِي", "my work"]
+    ]
+  },
+  "readingQuestions": [
+    {
+      "id": "calr1",
+      "prompt": "What does Sami write with?",
+      "options": ["a pencil and paper", "a reed pen and black ink", "a computer", "a brush and blue paint"],
+      "answer": 1,
+      "explain": "أَكْتُبُ بِقَلَمٍ مِنَ الْقَصَب وَبِحِبْرٍ أَسْوَد: I write with a reed pen and black ink."
+    },
+    {
+      "id": "calr2",
+      "prompt": "How many letters does Arabic have, according to Sami?",
+      "options": ["22", "26", "28", "30"],
+      "answer": 2,
+      "explain": "ثَمَانِيَةٌ وَعِشْرُونَ حَرْفًا: eight and twenty, 28 letters."
+    },
+    {
+      "id": "calr3",
+      "prompt": "Which style does Sami use at home?",
+      "options": ["Thuluth", "Kufic", "Naskh", "Ruq'a"],
+      "answer": 3,
+      "explain": "He loves Thuluth, but at home he writes بِخَطِّ الرُّقْعَة, in Ruq'a."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "calq1",
+      "prompt": "In which direction is Arabic written?",
+      "options": ["from right to left", "from left to right", "from top to bottom", "either way, as you like"],
+      "answer": 0,
+      "explain": "مِنَ الْيَمِينِ إِلَى الْيَسَار: from right to left."
+    },
+    {
+      "id": "calq2",
+      "prompt": "Which style is old and angular, and named after a city in Iraq?",
+      "options": ["Naskh", "Kufic", "Diwani", "Ruq'a"],
+      "answer": 1,
+      "explain": "الْكُوفِيّ is named after Kufa; it has straight lines and sharp corners."
+    },
+    {
+      "id": "calq3",
+      "prompt": "Most printed Arabic in books and newspapers is based on which style?",
+      "options": ["Thuluth", "Diwani", "Naskh", "Kufic"],
+      "answer": 2,
+      "explain": "النَّسْخ is round and clear, the main style for copying books and the base of most print."
+    },
+    {
+      "id": "calq4",
+      "prompt": "What is a traditional calligrapher's قَلَم cut from?",
+      "options": ["a bird's feather", "a piece of metal", "a stone", "a dried reed"],
+      "answer": 3,
+      "explain": "The qalam is cut from a dried reed, قَصَب."
+    },
+    {
+      "id": "calq5",
+      "prompt": "What does a خَطَّاط do?",
+      "options": ["writes calligraphy", "sells books", "makes tiles", "prints newspapers"],
+      "answer": 0,
+      "explain": "A خَطَّاط is a calligrapher."
+    },
+    {
+      "id": "calq6",
+      "prompt": "Why are the digits 0–9 called 'Arabic numerals' in English?",
+      "options": ["They were invented in Morocco", "Arabic can only be written with them", "They reached Europe through the Arab world", "They look like Arabic letters"],
+      "answer": 2,
+      "explain": "They came from India to the Arab world, and from there to Europe. In Arabic, ٠ ١ ٢ ٣ are called الْأَرْقَام الْهِنْدِيَّة."
+    },
+    {
+      "id": "calq7",
+      "prompt": "Which of these languages is also written in the Arabic script?",
+      "options": ["Hindi", "Greek", "Russian", "Urdu"],
+      "answer": 3,
+      "explain": "Urdu (Pakistan and India) uses the Arabic script with a few extra letters, like Persian."
+    }
+  ]
+}

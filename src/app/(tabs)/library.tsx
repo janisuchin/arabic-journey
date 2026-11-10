@@ -18,6 +18,8 @@ const SECTIONS: { title: string; icon: IconName; href: string }[] = [
   { title: 'Scenarios', icon: 'chatbubbles-outline', href: '/scenarios' },
   { title: 'Sentence explorer', icon: 'git-branch-outline', href: '/explorer' },
   { title: 'Numbers', icon: 'calculator-outline', href: '/numbers' },
+  { title: 'Time', icon: 'time-outline', href: '/time' },
+  { title: 'Explore', icon: 'earth-outline', href: '/culture' },
   { title: 'Flashcards', icon: 'albums-outline', href: '/flashcards?all=1' },
 ];
 

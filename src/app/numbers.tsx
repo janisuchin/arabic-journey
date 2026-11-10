@@ -1,3 +1,4 @@
+import { router } from 'expo-router';
 import { useState } from 'react';
 import { Text, TextInput, View } from 'react-native';
 
@@ -100,6 +101,9 @@ export default function Numbers() {
       </Card>
 
       <SectionTitle icon="time-outline">Clock times</SectionTitle>
+      <Card onPress={() => router.push('/time')} label="Open the Time lab" testID="numbers-time-lab">
+        <AppText weight="700">⏰ Time lab: set a clock, every five minutes, dates and months →</AppText>
+      </Card>
       {(
         [
           [1, 0],

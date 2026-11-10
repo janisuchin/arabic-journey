@@ -188,3 +188,40 @@ test('placards: 20 cards, every word tappable, large display', async ({ page }) 
   await page.goto('/placards/pc.alphabet');
   await expect(page.getByTestId('placard-table')).toContainText('بَاء');
 });
+
+test('time lab: the clock steps in five minutes and says the time word by word', async ({ page }) => {
+  await newLearner(page);
+  await page.goto('/practice');
+  await page.getByTestId('time-lab-entry').click();
+  await expect(page.getByTestId('time-lab')).toBeVisible();
+  await page.getByTestId('time-now').click();
+  const before = await page.getByTestId('time-digits').innerText();
+  await page.getByTestId('time-plus-5').click();
+  await expect(page.getByTestId('time-digits')).not.toHaveText(before);
+  await expect(page.getByTestId('time-phrase')).toContainText('السَّاعَةُ');
+  await expect(page.getByTestId('time-english')).toContainText('It is');
+  await page.getByTestId('time-phrase').getByTestId('tap-word-0').click();
+  await expect(page.getByTestId('word-box-meaning')).toContainText('hour');
+  await expect(page.getByTestId('time-today')).toContainText('الْيَوْمُ');
+  await expect(page.getByTestId('time-hijri')).toContainText('AH');
+  await expect(page.getByTestId('quiz')).toBeVisible();
+});
+
+test('explore: culture chapters with photos, tappable words, a reading and a quiz; photos are credited', async ({ page }) => {
+  await newLearner(page);
+  await page.goto('/path');
+  await page.getByTestId('path-explore').click();
+  const cards = page.locator('[data-testid^="culture-cul."]');
+  await expect(cards).toHaveCount(9);
+  await page.getByTestId('culture-cul.coffee').click();
+  await expect(page.getByTestId('culture-chapter')).toBeVisible();
+  const hero = page.getByTestId('culture-chapter').locator('img').first();
+  await expect(hero).toBeVisible();
+  await expect.poll(() => hero.evaluate((i: HTMLImageElement) => i.naturalWidth)).toBeGreaterThan(100);
+  await page.getByTestId('culture-word-0').getByTestId('tap-word-0').click();
+  await expect(page.getByTestId('word-box-meaning')).not.toBeEmpty();
+  await expect(page.getByTestId('culture-reading')).toBeVisible();
+  await expect(page.getByTestId('culture-quiz').getByTestId('quiz')).toBeVisible();
+  await page.goto('/credits');
+  await expect(page.locator('[data-testid^="credit-"]')).toHaveCount(34);
+});

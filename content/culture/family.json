@@ -1,0 +1,368 @@
+{
+  "id": "cul.family",
+  "n": 9,
+  "title": "Family, names and greetings",
+  "titleAr": "الْعَائِلَةُ وَالْأَسْمَاءُ وَالتَّحِيَّاتُ",
+  "titleSegs": [["الْعَائِلَةُ", "the family"], ["وَالْأَسْمَاءُ", "and the names"], ["وَالتَّحِيَّاتُ", "and the greetings"]],
+  "emoji": "👪",
+  "level": 2,
+  "summary": "How people greet each other with السَّلَامُ عَلَيْكُمْ, why some people put a hand on the heart instead of shaking hands, and why asking after the family matters. Then names: ibn and bint, parents called أَبُو سَامِي and أُمُّ سَامِي, family names from places and trades, and first names that mean 'hope' or 'light'.",
+  "status": "needs-review",
+  "hero": {
+    "file": "family-1.jpg",
+    "alt": "Black-and-white photo of three women and a small child round a low wooden table in Egypt, shaping biscuits with a hand mincer",
+    "caption": "Getting ready for Eid in Egypt: relatives make the festive biscuits together.",
+    "credit": {
+      "title": "File:Eid el fitr celebration.jpg",
+      "author": "Hbegzee",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Eid_el_fitr_celebration.jpg",
+      "accessed": "2026-11-10",
+      "modified": "resized and re-encoded"
+    }
+  },
+  "sections": [
+    {
+      "title": "Peace be upon you: greetings and handshakes",
+      "titleAr": "السَّلَامُ عَلَيْكُمْ",
+      "titleSegs": [["السَّلَامُ", "peace (lit. the peace)"], ["عَلَيْكُمْ", "upon you (all)"]],
+      "body": [
+        "The greeting you will hear most across the Arab world is السَّلَامُ عَلَيْكُمْ, literally 'peace be upon you'. It is said at any time of day: on entering a shop, an office or a home, or on meeting a friend in the street. The word عَلَيْكُمْ is plural ('upon you all'), yet it is used even to one person. The reply turns the words round: وَعَلَيْكُمُ السَّلَامُ ('and upon you be peace'). In everyday life you will also hear مَرْحَبًا ('hello') and أَهْلًا ('hi, welcome').",
+        "A greeting usually goes with a handshake, often a long and warm one, and the person who arrives greets the people who are already there. Close friends and relatives of the same gender may also kiss on the cheeks; how many kisses depends on the country and the family. Some people, men and women alike, do not shake hands with someone of the other gender, for religious or personal reasons. Instead they place the right hand on the heart, قَلْب, and smile. If you are not sure, wait and see whether the other person holds out a hand: a hand, يَد, on the heart is always polite.",
+        "After the greeting come the questions. كَيْفَ حَالُكَ ('how are you?') is very often followed by كَيْفَ حَالُ الْعَائِلَة ('how is the family?'), and sometimes by questions about each parent and child. A common answer is بِخَيْر ('fine') and الْحَمْدُ لِلّٰه ('praise be to God'), a phrase used very widely in daily speech. These questions are part of good manners: going straight to business, without asking after someone's family, can feel cold."
+      ],
+      "sentences": [
+        {
+          "id": "fams1",
+          "ar": "السَّلَامُ عَلَيْكُمْ، كَيْفَ حَالُكَ؟",
+          "en": "Peace be upon you. How are you?",
+          "literal": "the peace (be) upon you (all), how (is) your state?",
+          "segs": [["السَّلَامُ", "peace (lit. the peace)", "noun"], ["عَلَيْكُمْ", "upon you (all)", "prep"], ["كَيْفَ", "how", "question"], ["حَالُكَ", "your state, how you are (to a man)", "noun"]],
+          "grammar": ["greetings", "questions"]
+        },
+        {
+          "id": "fams2",
+          "ar": "وَعَلَيْكُمُ السَّلَامُ، أَنَا بِخَيْر، الْحَمْدُ لِلّٰه.",
+          "en": "And upon you be peace. I'm fine, thank God.",
+          "literal": "and upon you (all) the peace, I (am) well, the praise (is) to God",
+          "segs": [["وَعَلَيْكُمُ", "and upon you (all)", "prep"], ["السَّلَامُ", "peace (lit. the peace)", "noun"], ["أَنَا", "I", "pronoun"], ["بِخَيْر", "fine, well", "phrase"], ["الْحَمْدُ", "praise (lit. the praise)", "noun"], ["لِلّٰه", "(be) to God", "phrase"]],
+          "grammar": ["greetings", "nominal-sentence"],
+          "mistakes": [
+            {
+              "wrong": "السَّلَامُ عَلَيْكُمْ. (as the reply)",
+              "right": "وَعَلَيْكُمُ السَّلَامُ.",
+              "why": "Greetings come in pairs: the reply turns the words round, wa-ʿalaykumu s-salām."
+            }
+          ]
+        },
+        {
+          "id": "fams3",
+          "ar": "كَيْفَ حَالُ الْعَائِلَة؟",
+          "en": "How is the family?",
+          "literal": "how (is the) state (of) the family?",
+          "segs": [["كَيْفَ", "how", "question"], ["حَالُ", "state, condition (of)", "noun"], ["الْعَائِلَة", "the family", "noun"]],
+          "grammar": ["questions", "idafa"]
+        }
+      ]
+    },
+    {
+      "title": "The big family and its gatherings",
+      "titleAr": "الْعَائِلَةُ الْكَبِيرَة",
+      "titleSegs": [["الْعَائِلَةُ", "the family"], ["الْكَبِيرَة", "big (here: the extended family)"]],
+      "photo": {
+        "file": "family-2.jpg",
+        "alt": "Inside a large tent with red striped walls, patterned rugs on the floor and cushions and sofas all along the sides",
+        "caption": "A tent مَجْلِس ('sitting room') in southern Qatar, with rugs and cushions all round: room for many guests.",
+        "credit": {
+          "title": "File:Majlis of a tent in southern Qatar.jpg",
+          "author": "Maggie Jones from London, England",
+          "license": "Public domain",
+          "source": "https://commons.wikimedia.org/wiki/File:Majlis_of_a_tent_in_southern_Qatar.jpg",
+          "accessed": "2026-11-10",
+          "modified": "resized and re-encoded"
+        }
+      },
+      "body": [
+        "For many people in the Arab world, 'family' means much more than parents and children. Grandparents, جَدّ ('grandfather') and جَدَّة ('grandmother'), uncles, aunts and cousins are close relations. Arabic even has separate words for the two sides of the family: عَمّ is the father's brother and خَال the mother's brother. Many adult children live near their parents, and some families share one large house, or a building with a flat for each married son.",
+        "Visits are frequent. In many families the relatives meet once a week, often on الْجُمُعَة ('Friday'), a weekly day off in many Arab countries, for a long lunch at the grandparents' home. Festivals such as Eid, weddings and the evenings of Ramadan can bring together dozens of relatives. Guests are welcomed in the sitting room, in the Gulf often called the مَجْلِس, with coffee, tea, dates and sweets.",
+        "Respect for older people shapes these gatherings. Younger people often stand up when an older relative comes in and go to greet them, and they let them speak first. In some families children kiss the hand or the forehead of their grandparents. Older relatives in turn ask everyone about their studies, work and health, so a family visit is also where the news is shared."
+      ],
+      "sentences": [
+        {
+          "id": "fams4",
+          "ar": "هٰذَا أَبِي، وَهٰذِهِ أُمِّي.",
+          "en": "This is my father, and this is my mother.",
+          "literal": "this (is) my father, and this (is) my mother",
+          "segs": [["هٰذَا", "this (m)", "pronoun"], ["أَبِي", "my father", "noun"], ["وَهٰذِهِ", "and this (f)", "pronoun"], ["أُمِّي", "my mother", "noun"]],
+          "grammar": ["demonstratives", "possessive"],
+          "mistakes": [
+            {
+              "wrong": "هٰذَا أُمِّي.",
+              "right": "هٰذِهِ أُمِّي.",
+              "why": "A mother is female, so 'this' is hādhihi, not hādhā."
+            }
+          ]
+        },
+        {
+          "id": "fams5",
+          "ar": "عَائِلَتِي كَبِيرَة.",
+          "en": "My family is big.",
+          "literal": "my family (is) big",
+          "segs": [["عَائِلَتِي", "my family", "noun"], ["كَبِيرَة", "big (f)", "adj"]],
+          "grammar": ["nominal-sentence", "adjectives"],
+          "mistakes": [
+            {
+              "wrong": "عَائِلَتِي كَبِير.",
+              "right": "عَائِلَتِي كَبِيرَة.",
+              "why": "ʿāʾila (family) is feminine, so the adjective takes -a: kabīra."
+            }
+          ]
+        },
+        {
+          "id": "fams6",
+          "ar": "نَزُورُ جَدِّي وَجَدَّتِي يَوْمَ الْجُمُعَة.",
+          "en": "We visit my grandfather and grandmother on Friday.",
+          "literal": "we visit my grandfather and my grandmother (on the) day (of) the Friday",
+          "segs": [["نَزُورُ", "we visit", "verb"], ["جَدِّي", "my grandfather", "noun"], ["وَجَدَّتِي", "and my grandmother", "noun"], ["يَوْمَ", "(on the) day (of)", "noun"], ["الْجُمُعَة", "Friday", "noun"]],
+          "grammar": ["present-plural-w2", "possessive"]
+        }
+      ]
+    },
+    {
+      "title": "Son of, daughter of, father of",
+      "titleAr": "أَبُو سَامِي وَأُمُّ سَامِي",
+      "titleSegs": [["أَبُو", "father (of)"], ["سَامِي", "Sami (first name)", "name"], ["وَأُمُّ", "and mother (of)"], ["سَامِي", "Sami (first name)", "name"]],
+      "body": [
+        "A traditional Arabic name is a chain. After the first name come the father's name and often the grandfather's, linked by اِبْن ('son') or بِنْت ('daughter'). Famous names such as Ibn Baṭṭūṭa and Ibn Khaldūn still show this pattern, and in the Gulf the word often appears as bin in men's full names. In many countries identity cards simply list the first name, the father's name, the grandfather's name and the family name, one after the other. In most Arab countries a woman keeps her own family name when she marries.",
+        "Parents are very often called by a كُنْيَة: أَبُو ('father of') or أُمّ ('mother of') followed by the name of a child, traditionally the eldest son. So if the eldest son is Sami, his father becomes أَبُو سَامِي and his mother أُمُّ سَامِي. Some families use the name of the eldest child, son or daughter.",
+        "The kunya is warm and respectful at the same time. Neighbours, friends and colleagues often use it instead of the first name, at home, in the street or at work, and many parents are proud of it. Some men carry a traditional kunya even before they have children. If you hear people call a man Abu Sami, you can use it too: it is friendly, not rude."
+      ],
+      "sentences": [
+        {
+          "id": "fams7",
+          "ar": "أَبُو سَامِي هُوَ وَالِدُ سَامِي.",
+          "en": "Abu Sami is Sami's father.",
+          "literal": "father-of Sami, he (is the) father (of) Sami",
+          "segs": [["أَبُو", "father (of) (in a kunya)", "noun"], ["سَامِي", "Sami (first name)", "name"], ["هُوَ", "he (here: is)", "pronoun"], ["وَالِدُ", "father, parent (of)", "noun"], ["سَامِي", "Sami (first name)", "name"]],
+          "grammar": ["idafa", "nominal-sentence"]
+        },
+        {
+          "id": "fams8",
+          "ar": "أَنَا لَيْلَى، بِنْتُ كَرِيم.",
+          "en": "I'm Layla, Karim's daughter.",
+          "literal": "I (am) Layla, daughter (of) Karim",
+          "segs": [["أَنَا", "I", "pronoun"], ["لَيْلَى", "Layla (first name)", "name"], ["بِنْتُ", "daughter (of)", "noun"], ["كَرِيم", "Karim (first name)", "name"]],
+          "grammar": ["idafa", "nominal-sentence"]
+        },
+        {
+          "id": "fams9",
+          "ar": "هٰذَا اِبْنِي سَامِي.",
+          "en": "This is my son Sami.",
+          "literal": "this (is) my son Sami",
+          "segs": [["هٰذَا", "this (m)", "pronoun"], ["اِبْنِي", "my son", "noun"], ["سَامِي", "Sami (first name)", "name"]],
+          "grammar": ["demonstratives", "possessive"]
+        }
+      ]
+    },
+    {
+      "title": "Names with meanings, family names and titles",
+      "titleAr": "الْأَسْمَاءُ وَالْأَلْقَاب",
+      "titleSegs": [["الْأَسْمَاءُ", "the names"], ["وَالْأَلْقَاب", "and the titles"]],
+      "photo": {
+        "file": "family-3.jpg",
+        "alt": "A man in a welding mask works at a metal bench in an old workshop; another man sits in the background",
+        "caption": "A metalworker in the old town of Sfax, Tunisia. Old trades like this gave many families their name, such as الْحَدَّاد ('the smith').",
+        "credit": {
+          "title": "File:Forgeron medina sfax 1.jpg",
+          "author": "Csisc",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Forgeron_medina_sfax_1.jpg",
+          "accessed": "2026-11-10",
+          "modified": "resized and re-encoded"
+        }
+      },
+      "body": [
+        "Many Arabic first names are ordinary words with a clear meaning. كَرِيم means 'generous', أَمَل means 'hope' and نُور means 'light'. لَيْلَى is usually linked with لَيْل ('night'). Some names are given to both boys and girls; Nur is one of them. Many families also give a child the name of a grandparent, and a first son is often named after his father's father.",
+        "Family names have many sources. Some come from a place, with the -ī ending you know from nationality words: الْمَصْرِيّ ('the Egyptian') or al-Ḥalabī ('from Aleppo'). Others come from an old family trade: النَّجَّار ('the carpenter'), الْحَدَّاد ('the smith') or الْخَيَّاط ('the tailor'). Others again come from an ancestor or a tribe. On a form, 'surname' is often written اِسْمُ الْعَائِلَة ('family name').",
+        "Titles matter in polite speech. أُسْتَاذ means 'teacher' or 'professor', and in Egypt and the Levant it is also a polite 'Mr' for an educated man. دُكْتُور is used for medical doctors and for people with a doctorate. Arabic titles usually go with the first name, not the family name: الْأُسْتَاذ سَامِي ('Mr Sami') or الدُّكْتُورَة لَيْلَى ('Dr Layla')."
+      ],
+      "sentences": [
+        {
+          "id": "fams10",
+          "ar": "مَا مَعْنَى اِسْمِكِ؟",
+          "en": "What does your name mean?",
+          "literal": "what (is the) meaning (of) your name? (to a woman)",
+          "segs": [["مَا", "what", "question"], ["مَعْنَى", "meaning (of)", "noun"], ["اِسْمِكِ", "your name (to a woman)", "noun"]],
+          "grammar": ["questions", "idafa"]
+        },
+        {
+          "id": "fams11",
+          "ar": "اِسْمُ عَائِلَتِي الْحَدَّاد.",
+          "en": "My family name is al-Haddad.",
+          "literal": "(the) name (of) my family (is) al-Haddad",
+          "segs": [["اِسْمُ", "name (of)", "noun"], ["عَائِلَتِي", "my family", "noun"], ["الْحَدَّاد", "al-Haddad (surname; 'the smith')", "name"]],
+          "grammar": ["idafa", "nominal-sentence"]
+        },
+        {
+          "id": "fams13",
+          "ar": "اِسْمُهُ كَرِيم الْمَصْرِيّ.",
+          "en": "His name is Karim al-Masri.",
+          "literal": "his name (is) Karim al-Masri ('the Egyptian')",
+          "segs": [["اِسْمُهُ", "his name", "noun"], ["كَرِيم", "Karim (first name)", "name"], ["الْمَصْرِيّ", "al-Masri (surname; 'the Egyptian')", "name"]],
+          "grammar": ["nominal-sentence", "nisba"]
+        },
+        {
+          "id": "fams12",
+          "ar": "صَبَاحُ الْخَيْر يَا أُسْتَاذ سَامِي.",
+          "en": "Good morning, Mr Sami.",
+          "literal": "morning (of) the good, O teacher Sami",
+          "segs": [["صَبَاحُ", "morning (of)", "noun"], ["الْخَيْر", "the good ('good morning')", "noun"], ["يَا", "(calling someone: O …)", "particle"], ["أُسْتَاذ", "teacher; Mr (title)", "noun"], ["سَامِي", "Sami (first name)", "name"]],
+          "grammar": ["greetings"]
+        }
+      ]
+    }
+  ],
+  "words": [
+    { "ar": "السَّلَامُ عَلَيْكُمْ", "en": "peace be upon you (hello)", "segs": [["السَّلَامُ", "peace (lit. the peace)"], ["عَلَيْكُمْ", "upon you (all)"]], "note": "Said to one person or to many, at any time of day." },
+    { "ar": "وَعَلَيْكُمُ السَّلَامُ", "en": "and upon you be peace (the reply)", "segs": [["وَعَلَيْكُمُ", "and upon you (all)"], ["السَّلَامُ", "peace (lit. the peace)"]] },
+    { "ar": "قَلْب", "en": "heart", "segs": [["قَلْب", "heart"]], "note": "A right hand on the heart is a polite greeting without a handshake." },
+    { "ar": "مَجْلِس", "en": "sitting room for guests, majlis", "segs": [["مَجْلِس", "sitting room for guests, majlis"]], "note": "The word is also used for a council." },
+    { "ar": "اِبْن", "en": "son (of)", "segs": [["اِبْن", "son"]], "note": "In Gulf names it is often heard as bin." },
+    { "ar": "بِنْت", "en": "daughter (of); girl", "segs": [["بِنْت", "daughter; girl"]] },
+    { "ar": "كُنْيَة", "en": "kunya: a name like 'father of Sami'", "segs": [["كُنْيَة", "kunya (a name with abū or umm)"]] },
+    { "ar": "أَبُو سَامِي", "en": "Abu Sami (Sami's father)", "segs": [["أَبُو", "father (of)"], ["سَامِي", "Sami (first name)", "name"]] },
+    { "ar": "أُمُّ سَامِي", "en": "Umm Sami (Sami's mother)", "segs": [["أُمُّ", "mother (of)"], ["سَامِي", "Sami (first name)", "name"]] },
+    { "ar": "اِسْمُ الْعَائِلَة", "en": "family name, surname", "segs": [["اِسْمُ", "name (of)"], ["الْعَائِلَة", "the family"]] },
+    { "ar": "أُسْتَاذ", "en": "teacher, professor; Mr (title)", "segs": [["أُسْتَاذ", "teacher, professor; Mr (title)"]] },
+    { "ar": "النَّجَّار", "en": "an-Najjar (surname: 'the carpenter')", "segs": [["النَّجَّار", "an-Najjar (surname; 'the carpenter')", "name"]] },
+    { "ar": "الْحَدَّاد", "en": "al-Haddad (surname: 'the smith')", "segs": [["الْحَدَّاد", "al-Haddad (surname; 'the smith')", "name"]] },
+    { "ar": "الْخَيَّاط", "en": "al-Khayyat (surname: 'the tailor')", "segs": [["الْخَيَّاط", "al-Khayyat (surname; 'the tailor')", "name"]] }
+  ],
+  "vocab": ["salam", "wa-alaykum", "kayfa-haluka", "aila", "ab", "umm", "ibn", "bint", "ism", "ustadh"],
+  "reading": {
+    "title": "Abu Sami's family",
+    "ar": "اِسْمِي سَامِي، وَأَنَا مِنْ عَمَّان. عَائِلَتِي كَبِيرَة. أَبِي اِسْمُهُ كَرِيم، وَالنَّاسُ يَقُولُونَ لَهُ أَبُو سَامِي، لِأَنِّي اِبْنُهُ الْأَكْبَر. أُمِّي اِسْمُهَا نُور، وَأُخْتِي اِسْمُهَا أَمَل. يَوْمَ الْجُمُعَةِ نَزُورُ جَدِّي وَجَدَّتِي. نَقُولُ: السَّلَامُ عَلَيْكُمْ. وَجَدِّي يَقُولُ: وَعَلَيْكُمُ السَّلَامُ، أَهْلًا وَسَهْلًا. ثُمَّ يَسْأَلُ: كَيْفَ حَالُ الْعَائِلَة؟ نَأْكُلُ مَعًا وَنَتَكَلَّمُ كَثِيرًا. أُحِبُّ يَوْمَ الْجُمُعَة.",
+    "en": "My name is Sami, and I'm from Amman. My family is big. My father's name is Karim, and people call him Abu Sami, because I am his eldest son. My mother's name is Nur, and my sister's name is Amal. On Friday we visit my grandfather and grandmother. We say: 'Peace be upon you.' And my grandfather says: 'And upon you be peace, welcome!' Then he asks: 'How is the family?' We eat together and talk a lot. I love Fridays.",
+    "segs": [
+      ["اِسْمِي", "my name"],
+      ["سَامِي", "Sami (first name)", "name"],
+      ["وَأَنَا", "and I"],
+      ["مِنْ", "from"],
+      ["عَمَّان", "Amman (capital of Jordan)", "name"],
+      ["عَائِلَتِي", "my family"],
+      ["كَبِيرَة", "big (f)"],
+      ["أَبِي", "my father"],
+      ["اِسْمُهُ", "his name"],
+      ["كَرِيم", "Karim (first name)", "name"],
+      ["وَالنَّاسُ", "and the people"],
+      ["يَقُولُونَ", "(they) say"],
+      ["لَهُ", "to him"],
+      ["أَبُو", "father (of) (in a kunya)"],
+      ["سَامِي", "Sami (first name)", "name"],
+      ["لِأَنِّي", "because I"],
+      ["اِبْنُهُ", "his son"],
+      ["الْأَكْبَر", "the eldest"],
+      ["أُمِّي", "my mother"],
+      ["اِسْمُهَا", "her name"],
+      ["نُور", "Nur (first name)", "name"],
+      ["وَأُخْتِي", "and my sister"],
+      ["اِسْمُهَا", "her name"],
+      ["أَمَل", "Amal (first name)", "name"],
+      ["يَوْمَ", "(on the) day (of)"],
+      ["الْجُمُعَةِ", "Friday"],
+      ["نَزُورُ", "we visit"],
+      ["جَدِّي", "my grandfather"],
+      ["وَجَدَّتِي", "and my grandmother"],
+      ["نَقُولُ", "we say"],
+      ["السَّلَامُ", "peace (lit. the peace)"],
+      ["عَلَيْكُمْ", "upon you (all)"],
+      ["وَجَدِّي", "and my grandfather"],
+      ["يَقُولُ", "(he) says"],
+      ["وَعَلَيْكُمُ", "and upon you (all)"],
+      ["السَّلَامُ", "peace (lit. the peace)"],
+      ["أَهْلًا", "welcome (with sahlan)"],
+      ["وَسَهْلًا", "and easy ('welcome!')"],
+      ["ثُمَّ", "then"],
+      ["يَسْأَلُ", "(he) asks"],
+      ["كَيْفَ", "how"],
+      ["حَالُ", "state, condition (of)"],
+      ["الْعَائِلَة", "the family"],
+      ["نَأْكُلُ", "we eat"],
+      ["مَعًا", "together"],
+      ["وَنَتَكَلَّمُ", "and we talk"],
+      ["كَثِيرًا", "a lot"],
+      ["أُحِبُّ", "I love, I like"],
+      ["يَوْمَ", "day (of)"],
+      ["الْجُمُعَة", "Friday"]
+    ]
+  },
+  "readingQuestions": [
+    {
+      "id": "famr1",
+      "prompt": "Why do people call Karim 'Abu Sami'?",
+      "options": ["Because Sami is his father.", "Because he is from Amman.", "Because Sami is his eldest son.", "Because Sami is his brother."],
+      "answer": 2,
+      "explain": "Sami says: لِأَنِّي اِبْنُهُ الْأَكْبَر, 'because I am his eldest son'."
+    },
+    {
+      "id": "famr2",
+      "prompt": "When does the family visit the grandparents?",
+      "options": ["every morning", "on Friday", "only at Eid", "on Monday"],
+      "answer": 1,
+      "explain": "يَوْمَ الْجُمُعَةِ نَزُورُ جَدِّي وَجَدَّتِي: 'on Friday we visit my grandfather and grandmother'."
+    },
+    {
+      "id": "famr3",
+      "prompt": "How does the grandfather answer السَّلَامُ عَلَيْكُمْ?",
+      "options": ["Good morning.", "Thank you.", "Goodbye.", "And upon you be peace, welcome!"],
+      "answer": 3,
+      "explain": "He says وَعَلَيْكُمُ السَّلَامُ and then أَهْلًا وَسَهْلًا."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "famq1",
+      "prompt": "What is the reply to السَّلَامُ عَلَيْكُمْ?",
+      "options": ["وَعَلَيْكُمُ السَّلَامُ", "صَبَاحُ الْخَيْر", "شُكْرًا", "أَهْلًا وَسَهْلًا"],
+      "answer": 0,
+      "explain": "The reply turns the words round: wa-ʿalaykumu s-salām, 'and upon you be peace'."
+    },
+    {
+      "id": "famq2",
+      "prompt": "Someone does not shake your hand but places the right hand on the heart. What does this mean?",
+      "options": ["They are angry with you.", "It is a polite greeting without a handshake.", "They want you to leave.", "They are ill."],
+      "answer": 1,
+      "explain": "Some people do not shake hands with the other gender; a hand on the heart is a respectful greeting instead."
+    },
+    {
+      "id": "famq3",
+      "prompt": "Who is أَبُو سَامِي?",
+      "options": ["Sami's son", "Sami's brother", "Sami's father", "Sami's grandfather"],
+      "answer": 2,
+      "explain": "أَبُو means 'father of', so Abu Sami is Sami's father, and أُمُّ سَامِي is Sami's mother."
+    },
+    {
+      "id": "famq4",
+      "prompt": "What does the name أَمَل mean?",
+      "options": ["light", "generous", "night", "hope"],
+      "answer": 3,
+      "explain": "Amal means 'hope'; نُور means 'light' and كَرِيم means 'generous'."
+    },
+    {
+      "id": "famq5",
+      "prompt": "In Arabic, عَمّ is …",
+      "options": ["the father's brother", "the mother's brother", "a cousin", "a grandfather"],
+      "answer": 0,
+      "explain": "عَمّ is the father's brother; the mother's brother is خَال."
+    },
+    {
+      "id": "famq6",
+      "prompt": "Which family name comes from a trade?",
+      "options": ["al-Miṣrī", "al-Ḥalabī", "an-Najjār", "Abū Sāmī"],
+      "answer": 2,
+      "explain": "النَّجَّار means 'the carpenter'. al-Miṣrī and al-Ḥalabī come from places, and Abū Sāmī is a kunya, not a family name."
+    }
+  ]
+}

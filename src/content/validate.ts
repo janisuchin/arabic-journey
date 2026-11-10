@@ -2,7 +2,8 @@
 
 import { FATHA, DAMMA, KASRA, FATHATAN, DAMMATAN, KASRATAN, SUKUN, SHADDA, DAGGER_ALIF } from '../core/arabic';
 import { arabicWords } from '../lang/ar/tap';
-import { contentIssues, days, grammarById, placards, scenarios, course } from './index';
+import { contentIssues, culture, days, grammarById, placards, scenarios, course, vocabById } from './index';
+import { CULTURE_PHOTO_FILES } from './culture.generated';
 import { findGlossGaps } from './gloss-gaps';
 import type { Seg } from './schema';
 
@@ -19,7 +20,7 @@ export function isUnvocalised(word: string) {
   return letters.length >= 2 && ![...word].some((c) => MARKS.has(c));
 }
 
-function checkSegs(where: string, ar: string, segs: Seg[], errs: ValidationError[]) {
+export function checkSegs(where: string, ar: string, segs: Seg[], errs: ValidationError[]) {
   const words = arabicWords(ar);
   const tokens = segs.map((s) => s[0]);
   if (words.join(' ') !== tokens.join(' '))
@@ -76,6 +77,28 @@ export function validateAll(): ValidationError[] {
   }
   if (placards.length && new Set(placards.map((p) => p.id)).size !== placards.length)
     errs.push({ where: 'placards', message: 'duplicate placard id' });
+  for (const ch of culture) {
+    const w = `culture ${ch.id}`;
+    checkSegs(`${w} title`, ch.titleAr, ch.titleSegs, errs);
+    checkSegs(`${w} reading`, ch.reading.ar, ch.reading.segs, errs);
+    ch.sections.forEach((s, i) => {
+      if (s.titleAr || s.titleSegs) {
+        if (!s.titleAr || !s.titleSegs) errs.push({ where: `${w} section ${i}`, message: 'titleAr and titleSegs go together' });
+        else checkSegs(`${w} section ${i} title`, s.titleAr, s.titleSegs, errs);
+      }
+      for (const x of s.sentences) {
+        checkSegs(`${w} ${x.id}`, x.ar, x.segs, errs);
+        for (const g of x.grammar) if (!grammarById.has(g)) errs.push({ where: `${w} ${x.id}`, message: `unknown grammar id "${g}"` });
+      }
+    });
+    ch.words.forEach((it, i) => checkSegs(`${w} word ${i}`, it.ar, it.segs, errs));
+    for (const v of ch.vocab) if (!vocabById.has(v)) errs.push({ where: w, message: `unknown vocabulary id "${v}"` });
+    const photos = [ch.hero, ...ch.sections.map((s) => s.photo)].filter((p): p is NonNullable<typeof p> => !!p);
+    for (const p of photos) if (!CULTURE_PHOTO_FILES.includes(p.file)) errs.push({ where: w, message: `photo file "${p.file}" is not in assets/culture` });
+  }
+  const ids = culture.flatMap((c) => [c.id, ...c.sections.flatMap((s) => s.sentences.map((x) => x.id)), ...c.quiz.map((q) => q.id)]);
+  if (new Set(ids).size !== ids.length) errs.push({ where: 'culture', message: 'duplicate chapter, sentence or question id' });
+  if (new Set(culture.map((c) => c.n)).size !== culture.length) errs.push({ where: 'culture', message: 'duplicate chapter number' });
   for (const g of findGlossGaps()) errs.push({ where: g.where, message: `gloss gap: "${g.word}" has no English meaning` });
   return errs;
 }

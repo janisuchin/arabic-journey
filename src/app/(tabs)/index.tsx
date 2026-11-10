@@ -24,6 +24,8 @@ const LABS: { title: string; icon: IconName; href: string }[] = [
   { title: 'Letters', icon: 'text-outline', href: '/letters' },
   { title: 'Pronunciation', icon: 'mic-outline', href: '/pronunciation' },
   { title: 'Numbers', icon: 'calculator-outline', href: '/numbers' },
+  { title: 'Time', icon: 'time-outline', href: '/time' },
+  { title: 'Explore', icon: 'earth-outline', href: '/culture' },
   { title: 'Grammar', icon: 'school-outline', href: '/grammar' },
   { title: 'Scenarios', icon: 'chatbubbles-outline', href: '/scenarios' },
   { title: 'Sentences', icon: 'git-branch-outline', href: '/explorer' },

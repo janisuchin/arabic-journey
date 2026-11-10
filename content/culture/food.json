@@ -1,0 +1,303 @@
+{
+  "id": "cul.food",
+  "n": 5,
+  "title": "Food: bread, mezze and shared dishes",
+  "titleAr": "الطَّعَامُ وَالْمَائِدَة",
+  "titleSegs": [["الطَّعَامُ", "food"], ["وَالْمَائِدَة", "and the (dining) table"]],
+  "emoji": "🍽️",
+  "level": 5,
+  "summary": "Bread, mezze and big shared dishes: what many people eat across the Arab world and how they eat together. Meet famous dishes from مَنْسَف in Jordan to كُسْكُس (couscous) in the Maghreb, and learn the wishes and polite phrases you hear at the table.",
+  "status": "needs-review",
+  "hero": {
+    "file": "food-1.jpg",
+    "alt": "A plate of mezze seen from above: green olives, pickled chillies and cucumber, a yogurt dip, hummus and vegetable salads.",
+    "caption": "A mezze plate in Syria: olives, pickles, dips and salads, eaten with bread.",
+    "credit": {
+      "title": "File:Syria, Al-Husn, Arabic meze or mezze.jpg",
+      "author": "Vyacheslav Argenberg",
+      "license": "CC BY 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Syria,_Al-Husn,_Arabic_meze_or_mezze.jpg",
+      "accessed": "2026-11-10",
+      "modified": "resized and re-encoded",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+    }
+  },
+  "sections": [
+    {
+      "title": "Bread at every meal",
+      "titleAr": "الْخُبْزُ فِي كُلِّ وَجْبَة",
+      "titleSegs": [["الْخُبْزُ", "the bread"], ["فِي", "at, in"], ["كُلِّ", "every"], ["وَجْبَة", "meal"]],
+      "photo": {
+        "file": "food-2.jpg",
+        "alt": "A large round flatbread folded on a white plate, with a dish of white cheese behind it.",
+        "caption": "خُبْز عَرَبِيّ: a thin round loaf, folded and ready for the table.",
+        "credit": {
+          "title": "File:Lebanese bread -).jpg",
+          "author": "M.Alzaraa",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Lebanese_bread_-).jpg",
+          "accessed": "2026-11-10",
+          "modified": "resized and re-encoded",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      },
+      "body": [
+        "Across the Arab world, bread, خُبْز, is on the table at almost every meal: breakfast, lunch and dinner. The most familiar kind is a round, flat loaf with a pocket inside, often called خُبْز عَرَبِيّ ('Arabic bread'). People tear off a piece and use it like a spoon to pick up hummus, beans or salad, so at many tables you hardly need a fork. Bread is also cheap and filling, and in several countries the price of everyday bread is kept low by the state.",
+        "Bread changes from place to place. In Egypt the round loaf is called عَيْش (ʿēsh), a word that in MSA means 'life' or 'living', which shows how central bread is there. In Iraq many bakeries still bake bread in a clay oven called a tannour; in the Gulf thin breads are common; in Morocco people eat a thicker round loaf with their tagines. In many homes, especially among older people, bread is treated with respect: if a piece falls on the floor, some people pick it up, kiss it and put it somewhere higher instead of throwing it away."
+      ],
+      "sentences": [
+        {
+          "id": "fods1",
+          "ar": "نَأْكُلُ الْخُبْزَ مَعَ كُلِّ وَجْبَة.",
+          "en": "We eat bread with every meal.",
+          "literal": "we eat the bread with every meal",
+          "segs": [["نَأْكُلُ", "we eat", "verb"], ["الْخُبْزَ", "(the) bread", "noun"], ["مَعَ", "with", "prep"], ["كُلِّ", "every", "noun"], ["وَجْبَة", "meal", "noun"]],
+          "grammar": ["present-tense"]
+        },
+        {
+          "id": "fods2",
+          "ar": "فِي مِصْرَ يَقُولُونَ «عَيْش» لِلْخُبْزِ، وَمَعْنَاهُ الْحَيَاة.",
+          "en": "In Egypt they say ʿēsh for bread, and it means 'life'.",
+          "literal": "in Egypt they say ʿēsh for the bread, and its meaning (is) the life",
+          "segs": [["فِي", "in", "prep"], ["مِصْرَ", "Egypt (country)", "name"], ["يَقُولُونَ", "they say", "verb"], ["عَيْش", "ʿēsh (Egyptian word for bread; in MSA 'living, life')", "noun"], ["لِلْخُبْزِ", "for (the) bread", "noun"], ["وَمَعْنَاهُ", "and its meaning", "noun"], ["الْحَيَاة", "(the) life", "noun"]],
+          "grammar": ["present-plural-w2"]
+        },
+        {
+          "id": "fods3",
+          "ar": "نَأْكُلُ الْحُمُّصَ بِقِطْعَةٍ مِنَ الْخُبْز.",
+          "en": "We eat hummus with a piece of bread.",
+          "literal": "we eat the hummus with a piece of the bread",
+          "segs": [["نَأْكُلُ", "we eat", "verb"], ["الْحُمُّصَ", "(the) hummus", "noun"], ["بِقِطْعَةٍ", "with a piece", "noun"], ["مِنَ", "of, from", "prep"], ["الْخُبْز", "(the) bread", "noun"]],
+          "grammar": ["present-tense"]
+        }
+      ]
+    },
+    {
+      "title": "Mezze: many small dishes",
+      "titleAr": "الْمُقَبِّلَات",
+      "titleSegs": [["الْمُقَبِّلَات", "the starters (mezze)"]],
+      "body": [
+        "In Lebanon, Syria, Jordan and Palestine a meal with guests often begins with many small dishes shared by everyone. In English they are called mezze; the MSA word is مُقَبِّلَات ('starters'), and in everyday speech in the Levant many people say mazza. The dishes arrive together, everyone takes a little from each with bread, and the meal can go on for a long time with conversation, more dishes and, at the end, tea or coffee.",
+        "Some mezze are known far beyond the region. حُمُّص is the word for chickpeas and also for the creamy dip made from them with tahini, lemon and garlic. مُتَبَّل is a smoky dip of grilled aubergine with tahini. تَبُّولَة is a fresh salad of chopped parsley, a little bulgur wheat, tomato, lemon and olive oil. Falafel are fried balls of ground chickpeas; in Egypt they are usually made from fava beans and called طَعْمِيَّة."
+      ],
+      "sentences": [
+        {
+          "id": "fods4",
+          "ar": "الْحُمُّصُ وَالْمُتَبَّلُ وَالتَّبُّولَةُ مِنَ الْمُقَبِّلَاتِ الْمَشْهُورَة.",
+          "en": "Hummus, mutabbal and tabbouleh are among the famous mezze.",
+          "literal": "the hummus and the mutabbal and the tabbouleh (are) from the famous starters",
+          "segs": [["الْحُمُّصُ", "(the) hummus", "noun"], ["وَالْمُتَبَّلُ", "and (the) mutabbal", "noun"], ["وَالتَّبُّولَةُ", "and (the) tabbouleh", "noun"], ["مِنَ", "among, from", "prep"], ["الْمُقَبِّلَاتِ", "the starters (mezze)", "noun"], ["الْمَشْهُورَة", "famous (f, for a non-human plural)", "adj"]],
+          "grammar": ["nominal-sentence", "non-human-plural"]
+        },
+        {
+          "id": "fods5",
+          "ar": "التَّبُّولَةُ سَلَطَةٌ مِنَ الْبَقْدُونِسِ وَالْبُرْغُلِ وَالطَّمَاطِم.",
+          "en": "Tabbouleh is a salad of parsley, bulgur and tomatoes.",
+          "literal": "the tabbouleh (is) a salad from the parsley and the bulgur and the tomatoes",
+          "segs": [["التَّبُّولَةُ", "(the) tabbouleh", "noun"], ["سَلَطَةٌ", "a salad", "noun"], ["مِنَ", "of, from", "prep"], ["الْبَقْدُونِسِ", "(the) parsley", "noun"], ["وَالْبُرْغُلِ", "and (the) bulgur (cracked wheat)", "noun"], ["وَالطَّمَاطِم", "and (the) tomatoes", "noun"]],
+          "grammar": ["nominal-sentence"]
+        },
+        {
+          "id": "fods6",
+          "ar": "أُرِيدُ صَحْنَ حُمُّصٍ، مِنْ فَضْلِكَ.",
+          "en": "I'd like a plate of hummus, please.",
+          "literal": "I want a plate (of) hummus, from your kindness",
+          "segs": [["أُرِيدُ", "I want, I'd like", "verb"], ["صَحْنَ", "a plate (of)", "noun"], ["حُمُّصٍ", "hummus", "noun"], ["مِنْ", "from", "prep"], ["فَضْلِكَ", "your kindness ('please', to a man)", "noun"]],
+          "grammar": ["idafa", "polite-requests"]
+        }
+      ]
+    },
+    {
+      "title": "Big dishes from region to region",
+      "titleAr": "أَطْبَاقٌ كَبِيرَة",
+      "titleSegs": [["أَطْبَاقٌ", "dishes"], ["كَبِيرَة", "big"]],
+      "photo": {
+        "file": "food-3.jpg",
+        "alt": "A large round metal tray of yellow rice covered with pieces of lamb, toasted almonds and pine nuts.",
+        "caption": "مَنْسَف: lamb on rice with almonds and pine nuts, served on one big tray.",
+        "credit": {
+          "title": "File:سدر منسف 02.jpg",
+          "author": "Fjmustak",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:%D8%B3%D8%AF%D8%B1_%D9%85%D9%86%D8%B3%D9%81_02.jpg",
+          "accessed": "2026-11-10",
+          "modified": "resized and re-encoded",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      },
+      "body": [
+        "Each region has a big dish for family days and celebrations. In Jordan it is مَنْسَف: lamb cooked in a sauce of jameed, a dried yogurt, served on a large tray of rice, often over thin bread and topped with almonds or pine nuts. Mansaf is served at weddings and to important guests, and it is often called Jordan's national dish; it is also eaten in Palestine. Traditionally people stand or sit around the tray and eat with the right hand.",
+        "Egypt is famous for everyday dishes: كُشَرِي, rice, lentils and pasta with tomato sauce and fried onions, and فُول, slow-cooked fava beans, a very common breakfast that is also eaten in Sudan and the Levant. In Morocco, Algeria and Tunisia, كُسْكُس (couscous), steamed semolina with vegetables and meat, is a family meal; in Morocco many families eat it on Friday. In the Gulf, كَبْسَة, spiced rice with meat or chicken, is a favourite, especially in Saudi Arabia, and Bahrain, Kuwait and Qatar have a similar dish called machboos."
+      ],
+      "sentences": [
+        {
+          "id": "fods7",
+          "ar": "الْمَنْسَفُ أَشْهَرُ طَبَقٍ فِي الْأُرْدُنّ.",
+          "en": "Mansaf is the most famous dish in Jordan.",
+          "literal": "the mansaf (is) the most famous (of) dish in Jordan",
+          "segs": [["الْمَنْسَفُ", "(the) mansaf", "noun"], ["أَشْهَرُ", "the most famous", "adj"], ["طَبَقٍ", "dish", "noun"], ["فِي", "in", "prep"], ["الْأُرْدُنّ", "Jordan (country)", "name"]],
+          "grammar": ["superlative"]
+        },
+        {
+          "id": "fods8",
+          "ar": "الْكُشَرِي وَالْفُولُ مِنْ مِصْرَ، وَالْكُسْكُسُ مِنَ الْمَغْرِبِ الْعَرَبِيّ.",
+          "en": "Koshari and ful come from Egypt, and couscous from the Maghreb.",
+          "literal": "the koshari and the ful (are) from Egypt, and the couscous from the Arab West",
+          "segs": [["الْكُشَرِي", "(the) koshari", "noun"], ["وَالْفُولُ", "and (the) ful (fava beans)", "noun"], ["مِنْ", "from", "prep"], ["مِصْرَ", "Egypt (country)", "name"], ["وَالْكُسْكُسُ", "and (the) couscous", "noun"], ["مِنَ", "from", "prep"], ["الْمَغْرِبِ", "the West ('the Maghreb')", "noun"], ["الْعَرَبِيّ", "Arab ('the Maghreb': Morocco, Algeria, Tunisia, Libya)", "adj"]],
+          "grammar": ["nominal-sentence"]
+        },
+        {
+          "id": "fods9",
+          "ar": "فِي الْخَلِيجِ يَطْبُخُونَ الْكَبْسَةَ بِالْأَرُزِّ وَاللَّحْمِ أَوِ الدَّجَاج.",
+          "en": "In the Gulf they cook kabsa with rice and meat or chicken.",
+          "literal": "in the Gulf they cook the kabsa with the rice and the meat or the chicken",
+          "segs": [["فِي", "in", "prep"], ["الْخَلِيجِ", "the Gulf (region)", "noun"], ["يَطْبُخُونَ", "they cook", "verb"], ["الْكَبْسَةَ", "(the) kabsa", "noun"], ["بِالْأَرُزِّ", "with (the) rice", "noun"], ["وَاللَّحْمِ", "and (the) meat", "noun"], ["أَوِ", "or", "particle"], ["الدَّجَاج", "(the) chicken", "noun"]],
+          "grammar": ["present-plural-w2"]
+        }
+      ]
+    },
+    {
+      "title": "At the table: sharing, wishes and generosity",
+      "titleAr": "عَلَى الْمَائِدَة",
+      "titleSegs": [["عَلَى", "at, on"], ["الْمَائِدَة", "the (dining) table"]],
+      "photo": {
+        "file": "food-4.jpg",
+        "alt": "A table seen from above with one large clay dish of couscous, vegetables and chickpeas in the middle, and empty plates, spoons and bowls of broth around it.",
+        "caption": "Moroccan couscous in one big dish in the middle of the table, for everyone to share.",
+        "credit": {
+          "title": "File:Moroccan cuscus, from Casablanca, September 2018.jpg",
+          "author": "Lmmima",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Moroccan_cuscus,_from_Casablanca,_September_2018.jpg",
+          "accessed": "2026-11-10",
+          "modified": "resized and re-encoded",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      },
+      "body": [
+        "Eating together often matters more than the menu. In many homes, and often for big dishes like mansaf or couscous, everyone eats from one large shared plate, each person from the part in front of him or her. Many people eat, pass food and give things with the right hand (بِالْيَدِ الْيُمْنَى, 'with the right hand'), a custom that comes from Islamic tradition. Before eating many people say بِسْمِ اللّٰه ('in the name of God'), and when they finish, الْحَمْدُ لِلّٰه ('praise be to God').",
+        "When you start eating, you will often hear a wish. A phrase that is understood everywhere and fits well in MSA is بِالْهَنَاءِ وَالشِّفَاء ('with enjoyment and good health'); a more classical wish is هَنِيئًا مَرِيئًا. In the Levant people also say صَحْتَيْن ('two healths'), which is regional spoken Arabic, not MSA. Whatever the local phrase, a simple شُكْرًا in reply is always polite.",
+        "Hosts show generosity (karam) by offering more food than guests can eat, and by insisting. A host may say تَفَضَّلْ ('please, help yourself') and keep filling your plate; a first 'no, thank you' is often heard as politeness, so you may need to say شَبِعْتُ ('I'm full') more than once. Most meat sold in Arab countries is حَلَال, prepared according to Islamic rules, and Muslims do not eat pork, so pork is rare or absent on most menus."
+      ],
+      "sentences": [
+        {
+          "id": "fods10",
+          "ar": "نَأْكُلُ مَعًا مِنْ صَحْنٍ وَاحِدٍ بِالْيَدِ الْيُمْنَى.",
+          "en": "We eat together from one plate with the right hand.",
+          "literal": "we eat together from a plate one with the hand the right",
+          "segs": [["نَأْكُلُ", "we eat", "verb"], ["مَعًا", "together", "adverb"], ["مِنْ", "from", "prep"], ["صَحْنٍ", "a plate", "noun"], ["وَاحِدٍ", "one", "number"], ["بِالْيَدِ", "with the hand", "noun"], ["الْيُمْنَى", "right (f)", "adj"]],
+          "grammar": ["present-tense", "adjective-agreement"]
+        },
+        {
+          "id": "fods11",
+          "ar": "تَفَضَّلْ، كُلْ أَكْثَر!",
+          "en": "Please, have some more!",
+          "literal": "please (go ahead), eat more!",
+          "segs": [["تَفَضَّلْ", "please, help yourself (to a man)", "verb"], ["كُلْ", "eat! (to a man)", "verb"], ["أَكْثَر", "more", "adverb"]],
+          "grammar": ["imperative"]
+        },
+        {
+          "id": "fods12",
+          "ar": "شُكْرًا، شَبِعْتُ، الْحَمْدُ لِلّٰه.",
+          "en": "Thank you, I'm full, praise be to God.",
+          "literal": "thanks, I have become full, the praise (is) to God",
+          "segs": [["شُكْرًا", "thank you", "phrase"], ["شَبِعْتُ", "I'm full (lit. I have eaten my fill)", "verb"], ["الْحَمْدُ", "the praise", "noun"], ["لِلّٰه", "to God", "noun"]],
+          "grammar": ["past-tense"]
+        },
+        {
+          "id": "fods13",
+          "ar": "هَلْ هٰذَا اللَّحْمُ حَلَال؟",
+          "en": "Is this meat halal?",
+          "literal": "(question) this the meat (is) halal?",
+          "segs": [["هَلْ", "(starts a yes/no question)", "question"], ["هٰذَا", "this", "demonstrative"], ["اللَّحْمُ", "(the) meat ('this meat')", "noun"], ["حَلَال", "halal, permitted", "adj"]],
+          "grammar": ["questions", "demonstratives"]
+        }
+      ]
+    }
+  ],
+  "words": [
+    { "ar": "خُبْز عَرَبِيّ", "en": "Arabic (flat) bread", "segs": [["خُبْز", "bread"], ["عَرَبِيّ", "Arabic"]], "note": "A thin round loaf with a pocket. In Egypt bread is called عَيْش (ʿēsh)." },
+    { "ar": "مُقَبِّلَات", "en": "starters, mezze", "segs": [["مُقَبِّلَات", "starters, mezze"]], "note": "The MSA word. In everyday Levantine speech many people say mazza." },
+    { "ar": "حُمُّص", "en": "hummus; chickpeas", "segs": [["حُمُّص", "hummus; chickpeas"]] },
+    { "ar": "مُتَبَّل", "en": "mutabbal (grilled aubergine dip)", "segs": [["مُتَبَّل", "mutabbal (grilled aubergine dip)"]] },
+    { "ar": "تَبُّولَة", "en": "tabbouleh (parsley salad)", "segs": [["تَبُّولَة", "tabbouleh (parsley salad)"]] },
+    { "ar": "مَنْسَف", "en": "mansaf (lamb in yogurt sauce on rice)", "segs": [["مَنْسَف", "mansaf (lamb in yogurt sauce on rice)"]], "note": "Often called Jordan's national dish." },
+    { "ar": "كُسْكُس", "en": "couscous", "segs": [["كُسْكُس", "couscous"]], "note": "The family dish of Morocco, Algeria and Tunisia." },
+    { "ar": "كَبْسَة", "en": "kabsa (spiced rice with meat)", "segs": [["كَبْسَة", "kabsa (spiced rice with meat)"]], "note": "Popular in the Gulf, especially Saudi Arabia." },
+    { "ar": "بِالْهَنَاءِ وَالشِّفَاء", "en": "Enjoy your meal!", "segs": [["بِالْهَنَاءِ", "with enjoyment"], ["وَالشِّفَاء", "and good health"]], "note": "Understood everywhere and fine in MSA." },
+    { "ar": "هَنِيئًا مَرِيئًا", "en": "Enjoy! (classical wish for food or drink)", "segs": [["هَنِيئًا", "with pleasure, may it do you good"], ["مَرِيئًا", "and may it be wholesome"]] },
+    { "ar": "صَحْتَيْن", "en": "Enjoy! (spoken, Levant)", "segs": [["صَحْتَيْن", "two healths ('enjoy', regional spoken)"]], "note": "Regional spoken Arabic, not MSA. In MSA say بِالْهَنَاءِ وَالشِّفَاء." },
+    { "ar": "حَلَال", "en": "halal, permitted", "segs": [["حَلَال", "halal, permitted"]], "note": "Food prepared according to Islamic rules." }
+  ],
+  "vocab": ["khubz", "ful", "tamiyya", "kushari", "lahm", "dajaj", "aruzz", "ladhidh", "sahn", "akthar"],
+  "reading": {
+    "title": "Lunch with a family in Amman",
+    "ar": "زُرْتُ عَائِلَةَ صَدِيقِي فِي عَمَّانَ يَوْمَ الْجُمُعَة. عَلَى الطَّاوِلَةِ كَانَ هُنَاكَ خُبْزٌ وَحُمُّصٌ وَتَبُّولَة. ثُمَّ جَاءَ الْمَنْسَفُ فِي صِينِيَّةٍ كَبِيرَة. قُلْنَا «بِسْمِ اللّٰه» وَأَكَلْنَا مَعًا بِالْيَدِ الْيُمْنَى. قَالَتْ أُمُّ صَدِيقِي: «بِالْهَنَاءِ وَالشِّفَاء!» بَعْدَ قَلِيلٍ قُلْتُ: «شُكْرًا، شَبِعْتُ.» فَقَالَتْ: «تَفَضَّلْ، كُلْ أَكْثَر!» كَانَ كُلُّ شَيْءٍ لَذِيذًا جِدًّا، وَفِي النِّهَايَةِ شَرِبْنَا الشَّاي.",
+    "en": "I visited my friend's family in Amman on Friday. On the table there was bread, hummus and tabbouleh. Then the mansaf came on a big tray. We said 'In the name of God' and ate together with the right hand. My friend's mother said: 'Enjoy your meal!' After a little while I said: 'Thank you, I'm full.' So she said: 'Please, eat more!' Everything was very tasty, and at the end we drank tea.",
+    "segs": [
+      ["زُرْتُ", "I visited"],
+      ["عَائِلَةَ", "the family (of)"],
+      ["صَدِيقِي", "my friend"],
+      ["فِي", "in"],
+      ["عَمَّانَ", "Amman (capital of Jordan)", "name"],
+      ["يَوْمَ", "on the day (of)"],
+      ["الْجُمُعَة", "Friday"],
+      ["عَلَى", "on"],
+      ["الطَّاوِلَةِ", "the table"],
+      ["كَانَ", "(there) was"],
+      ["هُنَاكَ", "there ('there was')"],
+      ["خُبْزٌ", "bread"],
+      ["وَحُمُّصٌ", "and hummus"],
+      ["وَتَبُّولَة", "and tabbouleh"],
+      ["ثُمَّ", "then"],
+      ["جَاءَ", "came"],
+      ["الْمَنْسَفُ", "the mansaf"],
+      ["فِي", "on ('in')"],
+      ["صِينِيَّةٍ", "a tray"],
+      ["كَبِيرَة", "big"],
+      ["قُلْنَا", "we said"],
+      ["بِسْمِ", "in the name (of)"],
+      ["اللّٰه", "God"],
+      ["وَأَكَلْنَا", "and we ate"],
+      ["مَعًا", "together"],
+      ["بِالْيَدِ", "with the hand"],
+      ["الْيُمْنَى", "right (f)"],
+      ["قَالَتْ", "(she) said"],
+      ["أُمُّ", "the mother (of)"],
+      ["صَدِيقِي", "my friend"],
+      ["بِالْهَنَاءِ", "with enjoyment"],
+      ["وَالشِّفَاء", "and good health ('enjoy your meal')"],
+      ["بَعْدَ", "after"],
+      ["قَلِيلٍ", "a little (while)"],
+      ["قُلْتُ", "I said"],
+      ["شُكْرًا", "thank you"],
+      ["شَبِعْتُ", "I'm full"],
+      ["فَقَالَتْ", "so (she) said"],
+      ["تَفَضَّلْ", "please, help yourself"],
+      ["كُلْ", "eat!"],
+      ["أَكْثَر", "more"],
+      ["كَانَ", "was"],
+      ["كُلُّ", "every, all"],
+      ["شَيْءٍ", "thing ('everything')"],
+      ["لَذِيذًا", "tasty"],
+      ["جِدًّا", "very"],
+      ["وَفِي", "and in, and at"],
+      ["النِّهَايَةِ", "the end"],
+      ["شَرِبْنَا", "we drank"],
+      ["الشَّاي", "the tea"]
+    ]
+  },
+  "readingQuestions": [
+    { "id": "fodr1", "prompt": "Where did the visit take place?", "options": ["Cairo", "Amman", "Rabat", "Riyadh"], "answer": 1, "explain": "فِي عَمَّانَ: in Amman, the capital of Jordan, where mansaf is the famous dish." },
+    { "id": "fodr2", "prompt": "What did the writer say when he had eaten enough?", "options": ["Please, eat more!", "In the name of God.", "Enjoy your meal!", "Thank you, I'm full."], "answer": 3, "explain": "He said شُكْرًا، شَبِعْتُ (thank you, I'm full), but the mother answered تَفَضَّلْ، كُلْ أَكْثَر (please, eat more)." },
+    { "id": "fodr3", "prompt": "How did they eat the mansaf?", "options": ["Together, with the right hand", "Each from his own plate, with a fork", "Standing in the kitchen", "Only with spoons"], "answer": 0, "explain": "أَكَلْنَا مَعًا بِالْيَدِ الْيُمْنَى: we ate together with the right hand." }
+  ],
+  "quiz": [
+    { "id": "fodq1", "prompt": "Which word is the MSA word for mezze (starters)?", "options": ["مَنْسَف", "حَلَال", "مُقَبِّلَات", "كُسْكُس"], "answer": 2, "explain": "مُقَبِّلَات means 'starters'; in the Levant many people say mazza in everyday speech." },
+    { "id": "fodq2", "prompt": "Which dish is often called Jordan's national dish?", "options": ["koshari", "mansaf", "kabsa", "couscous"], "answer": 1, "explain": "مَنْسَف: lamb in a jameed (dried yogurt) sauce on rice." },
+    { "id": "fodq3", "prompt": "What does حَلَال mean when it is said of meat?", "options": ["cooked slowly", "very spicy", "prepared according to Islamic rules", "imported from abroad"], "answer": 2, "explain": "حَلَال means 'permitted': the meat is prepared according to Islamic rules." },
+    { "id": "fodq4", "prompt": "Which wish is regional spoken Arabic rather than MSA?", "options": ["بِالْهَنَاءِ وَالشِّفَاء", "هَنِيئًا مَرِيئًا", "شُكْرًا", "صَحْتَيْن"], "answer": 3, "explain": "صَحْتَيْن is Levantine spoken Arabic; بِالْهَنَاءِ وَالشِّفَاء works well in MSA." },
+    { "id": "fodq5", "prompt": "Which hand do many people use to eat from a shared plate?", "options": ["the right hand", "the left hand", "either, it does not matter", "neither: always a fork"], "answer": 0, "explain": "Many people eat, pass food and give things بِالْيَدِ الْيُمْنَى, with the right hand." },
+    { "id": "fodq6", "prompt": "In Egypt, what do people call bread?", "options": ["كَبْسَة", "عَيْش", "فُول", "تَبُّولَة"], "answer": 1, "explain": "عَيْش (ʿēsh): in MSA the word means 'living, life', which shows how central bread is." }
+  ]
+}

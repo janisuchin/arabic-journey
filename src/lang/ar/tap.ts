@@ -18,6 +18,7 @@ import { capitalise, capitaliseName, toStyle, translitWord, type TranslitStyle }
 import {
   autoGlossary,
   course,
+  culture,
   days,
   handGlossary,
   letters,
@@ -150,6 +151,15 @@ function allSegs(): Seg[] {
   for (const p of placards) {
     segs.push(...p.titleSegs);
     for (const it of [...p.items, ...(p.example ? [p.example] : [])]) segs.push(...it.segs);
+  }
+  // culture chapters after placards, for the same reason
+  for (const c of culture) {
+    segs.push(...c.titleSegs, ...c.reading.segs);
+    for (const s of c.sections) {
+      segs.push(...(s.titleSegs ?? []));
+      for (const x of s.sentences) segs.push(...x.segs);
+    }
+    for (const w of c.words) segs.push(...w.segs);
   }
   return segs;
 }

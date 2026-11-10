@@ -1,0 +1,182 @@
+{
+  "id": "cul.science",
+  "n": 8,
+  "title": "Science, books and words English took from Arabic",
+  "titleAr": "الْعِلْمُ وَالْكُتُبُ وَالْكَلِمَات",
+  "titleSegs": [["الْعِلْمُ", "science, knowledge"], ["وَالْكُتُبُ", "and the books"], ["وَالْكَلِمَات", "and the words"]],
+  "emoji": "🔭",
+  "level": 9,
+  "summary": "More than a thousand years ago the بَيْتُ الْحِكْمَة (House of Wisdom) in Baghdad helped make Arabic a great language of science. Meet al-Khwārizmī, Ibn al-Haytham and Ibn Sīnā, find Arabic in the names of stars, visit al-Qarawiyyīn in Fez, and discover everyday English words that came from Arabic, such as 'zero' from صِفْر.",
+  "status": "needs-review",
+  "hero": {
+    "file": "science-1.jpg",
+    "alt": "A round brass astrolabe with curved pointers and engraved markings, shown in a museum case against a dark blue background.",
+    "caption": "An astrolabe made in Iran in the 18th century. The tips of the curved pointers on the front mark the positions of bright stars.",
+    "credit": {
+      "title": "File:Astrolabe-Persian-18C.jpg",
+      "author": "Andrew Dunn",
+      "license": "CC BY-SA 2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Astrolabe-Persian-18C.jpg",
+      "accessed": "2026-11-10",
+      "modified": "resized and re-encoded",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+    }
+  },
+  "sections": [
+    {
+      "title": "The House of Wisdom in Baghdad",
+      "titleAr": "بَيْتُ الْحِكْمَةِ فِي بَغْدَاد",
+      "titleSegs": [["بَيْتُ", "house (of)"], ["الْحِكْمَةِ", "wisdom"], ["فِي", "in"], ["بَغْدَاد", "Baghdad (capital of Iraq)"]],
+      "body": [
+        "In the 9th century بَغْدَاد, the capital of the Abbasid caliphs, was one of the biggest and richest cities in the world. Under the caliph al-Maʾmūn, who ruled from 813 to 833, a palace library and centre of learning became famous as the بَيْتُ الْحِكْمَة ('the House of Wisdom'). Historians still discuss how large it was and what exactly happened there, but its name has become a symbol of a golden age of learning.",
+        "Its best-known work was translation. Scholars, many of them Christians who read Greek and Syriac, translated books by Aristotle, Euclid, Galen and Ptolemy into Arabic, together with works from Persian and Sanskrit. The verb for this is تَرْجَمَ ('he translated'). One famous translator was the doctor حُنَيْنُ بْنُ إِسْحَاقَ, who put many of Galen's medical books into Arabic and also wrote his own book on the eye.",
+        "The translators did more than copy. They compared manuscripts, corrected mistakes and added their own notes, and new Arabic words were made for ideas in medicine, mathematics and astronomy. For several centuries after that, Arabic was one of the main languages of science, written by Arabs, Persians, Jews, Christians and others, from al-Andalus in Spain to Central Asia."
+      ],
+      "sentences": [
+        { "id": "scis1", "ar": "كَانَ بَيْتُ الْحِكْمَةِ فِي بَغْدَاد.", "en": "The House of Wisdom was in Baghdad.", "literal": "was (the) house (of) the wisdom in Baghdad",
+          "segs": [["كَانَ", "was", "verb"], ["بَيْتُ", "house (of)", "noun"], ["الْحِكْمَةِ", "wisdom", "noun"], ["فِي", "in", "prep"], ["بَغْدَاد", "Baghdad (capital of Iraq)", "name"]], "grammar": ["kana", "idafa"] },
+        { "id": "scis2", "ar": "تَرْجَمَ الْعُلَمَاءُ كُتُبًا كَثِيرَةً مِنَ الْيُونَانِيَّةِ إِلَى الْعَرَبِيَّة.", "en": "Scholars translated many books from Greek into Arabic.", "literal": "translated the scholars many books from the Greek to the Arabic",
+          "segs": [["تَرْجَمَ", "translated", "verb"], ["الْعُلَمَاءُ", "the scholars", "noun"], ["كُتُبًا", "books", "noun"], ["كَثِيرَةً", "many", "adj"], ["مِنَ", "from", "prep"], ["الْيُونَانِيَّةِ", "Greek (the language)", "noun"], ["إِلَى", "to, into", "prep"], ["الْعَرَبِيَّة", "Arabic (the language)", "noun"]], "grammar": ["verbal-sentence", "past-tense"] },
+        { "id": "scis3", "ar": "كَانَ حُنَيْنُ بْنُ إِسْحَاقَ مُتَرْجِمًا مَشْهُورًا.", "en": "Hunayn ibn Ishaq was a famous translator.", "literal": "was Hunayn son (of) Ishaq a translator famous",
+          "segs": [["كَانَ", "was", "verb"], ["حُنَيْنُ", "Hunayn (first name)", "name"], ["بْنُ", "son of (in a name)", "noun"], ["إِسْحَاقَ", "Ishaq (father's name)", "name"], ["مُتَرْجِمًا", "a translator", "noun"], ["مَشْهُورًا", "famous", "adj"]], "grammar": ["kana", "adjective-agreement"],
+          "mistakes": [{ "wrong": "كَانَ حُنَيْنُ بْنُ إِسْحَاقَ مُتَرْجِمٌ مَشْهُورٌ.", "right": "كَانَ حُنَيْنُ بْنُ إِسْحَاقَ مُتَرْجِمًا مَشْهُورًا.", "why": "After kāna the predicate is accusative: mutarjiman mashhūran, not mutarjimun mashhūrun." }] }
+      ]
+    },
+    {
+      "title": "Al-Khwarizmi: algebra, algorithms and zero",
+      "titleAr": "الْأَرْقَامُ وَالْجَبْر",
+      "titleSegs": [["الْأَرْقَامُ", "the numbers, the digits"], ["وَالْجَبْر", "and algebra"]],
+      "body": [
+        "Muḥammad ibn Mūsā al-Khwārizmī (الْخُوَارِزْمِيُّ) worked in Baghdad in the early 9th century, in the time of al-Maʾmūn. His most famous book shows how to solve problems of inheritance, trade and land measurement with equations. Its Arabic title contains the word الْجَبْر ('restoring' or 'setting', as when a doctor sets a broken bone), the name of one step in his method. When the book was translated into Latin, al-jabr became 'algebra'.",
+        "Another of his books explained the Indian way of writing numbers with nine digits and a sign for nothing. A Latin version of it begins 'Dixit Algorizmi', 'al-Khwārizmī said', and over time his name turned into the word 'algorithm': a fixed set of steps for solving a problem. The digits that Europe learned in this way are still called 'Arabic numerals' in English, although they first came from India.",
+        "The most important new idea was zero. The Arabic word صِفْر means 'empty'. Through Latin and Italian it became the English word 'zero', and through Old French it also gave English 'cipher', which first meant zero and later a secret code. In many countries of the eastern Arab world people write a different set of digits, which also came from India."
+      ],
+      "sentences": [
+        { "id": "scis4", "ar": "كَانَ الْخُوَارِزْمِيُّ عَالِمًا عَاشَ فِي بَغْدَاد.", "en": "Al-Khwarizmi was a scholar who lived in Baghdad.", "literal": "was al-Khwarizmi a scholar (who) lived in Baghdad",
+          "segs": [["كَانَ", "was", "verb"], ["الْخُوَارِزْمِيُّ", "al-Khwarizmi (a scholar's name)", "name"], ["عَالِمًا", "a scholar, a scientist", "noun"], ["عَاشَ", "(he) lived", "verb"], ["فِي", "in", "prep"], ["بَغْدَاد", "Baghdad (capital of Iraq)", "name"]], "grammar": ["kana", "hollow-verbs"] },
+        { "id": "scis5", "ar": "صَارَ اسْمُ الْخُوَارِزْمِيِّ كَلِمَةً فِي لُغَاتٍ كَثِيرَة.", "en": "Al-Khwarizmi's name became a word in many languages.", "literal": "became (the) name (of) al-Khwarizmi a word in languages many",
+          "segs": [["صَارَ", "became", "verb"], ["اسْمُ", "name (of)", "noun"], ["الْخُوَارِزْمِيِّ", "al-Khwarizmi (a scholar's name)", "name"], ["كَلِمَةً", "a word", "noun"], ["فِي", "in", "prep"], ["لُغَاتٍ", "languages", "noun"], ["كَثِيرَة", "many", "adj"]], "grammar": ["idafa", "kana"] },
+        { "id": "scis6", "ar": "الصِّفْرُ رَقْمٌ مُهِمٌّ جِدًّا.", "en": "Zero is a very important number.", "literal": "the zero (is) a number important very",
+          "segs": [["الصِّفْرُ", "(the) zero", "noun"], ["رَقْمٌ", "a number", "noun"], ["مُهِمٌّ", "important", "adj"], ["جِدًّا", "very", "adv"]], "grammar": ["nominal-sentence", "adjectives"] }
+      ]
+    },
+    {
+      "title": "Light, medicine and the stars",
+      "titleAr": "الضَّوْءُ وَالطِّبُّ وَالنُّجُوم",
+      "titleSegs": [["الضَّوْءُ", "light"], ["وَالطِّبُّ", "and medicine"], ["وَالنُّجُوم", "and the stars"]],
+      "photo": {
+        "file": "science-2.jpg",
+        "alt": "A page of an old Arabic manuscript with a large coloured diagram of the human eye in red, black and grey, and handwritten Arabic text above and below it.",
+        "caption": "A diagram of the eye in an old Arabic medical manuscript. Doctors and scientists writing in Arabic studied the eye closely.",
+        "credit": {
+          "title": "File:Cheshm manuscript.jpg",
+          "author": "Unknown",
+          "license": "Public domain",
+          "source": "https://commons.wikimedia.org/wiki/File:Cheshm_manuscript.jpg",
+          "accessed": "2026-11-10",
+          "modified": "resized and re-encoded"
+        }
+      },
+      "body": [
+        "ابْنُ الْهَيْثَمِ (about 965 to about 1040) was born in Basra in Iraq and did much of his work in Cairo. In his Book of Optics he argued that we see because light travels from objects into the eye, not from the eye to the objects, and he tested his ideas with careful experiments using lamps, mirrors and dark rooms. Translated into Latin, where he was called Alhazen, the book was read by European scientists for centuries.",
+        "ابْنُ سِينَا (980–1037), known in Europe as Avicenna, was born near Bukhara in Central Asia and wrote mostly in Arabic. His huge الْقَانُونُ فِي الطِّبّ ('The Canon of Medicine') collected the medical knowledge of his time, and in Latin it was taught in European universities for hundreds of years. Even 'alcohol' has an Arabic root: الْكُحْل was a fine black powder for the eyes, and later the word was used for any very fine, pure substance.",
+        "Astronomers watched the sky to make calendars and to find the direction of Mecca for prayer. With an أَسْطُرْلَاب (astrolabe), a Greek invention that astronomers in the Islamic world improved, they could measure the height of the sun or a star and tell the time. Many star names in English come from Arabic: Aldebaran from الدَّبَرَان ('the follower'), because it seems to follow the Pleiades across the sky, and Altair from النَّسْرُ الطَّائِر ('the flying eagle')."
+      ],
+      "sentences": [
+        { "id": "scis7", "ar": "دَرَسَ ابْنُ الْهَيْثَمِ الضَّوْءَ وَالْعَيْن.", "en": "Ibn al-Haytham studied light and the eye.", "literal": "studied Ibn al-Haytham the light and the eye",
+          "segs": [["دَرَسَ", "studied", "verb"], ["ابْنُ", "Ibn ('son of', part of a name)", "noun"], ["الْهَيْثَمِ", "al-Haytham (a scholar's name)", "name"], ["الضَّوْءَ", "(the) light", "noun"], ["وَالْعَيْن", "and the eye", "noun"]], "grammar": ["verbal-sentence", "past-tense"] },
+        { "id": "scis8", "ar": "كَتَبَ ابْنُ سِينَا كِتَابًا كَبِيرًا فِي الطِّبّ.", "en": "Ibn Sina wrote a big book on medicine.", "literal": "wrote Ibn Sina a book big in the medicine",
+          "segs": [["كَتَبَ", "wrote", "verb"], ["ابْنُ", "Ibn ('son of', part of a name)", "noun"], ["سِينَا", "Sina (a scholar's name)", "name"], ["كِتَابًا", "a book", "noun"], ["كَبِيرًا", "big", "adj"], ["فِي", "in, on (a subject)", "prep"], ["الطِّبّ", "medicine", "noun"]], "grammar": ["past-tense", "accusative"] },
+        { "id": "scis9", "ar": "أَسْمَاءُ نُجُومٍ كَثِيرَةٍ عَرَبِيَّة.", "en": "The names of many stars are Arabic.", "literal": "names (of) stars many (are) Arabic",
+          "segs": [["أَسْمَاءُ", "names (of)", "noun"], ["نُجُومٍ", "stars", "noun"], ["كَثِيرَةٍ", "many", "adj"], ["عَرَبِيَّة", "Arabic", "adj"]], "grammar": ["idafa", "non-human-plural"] }
+      ]
+    },
+    {
+      "title": "Paper, libraries and everyday words",
+      "titleAr": "الْوَرَقُ وَالْمَكْتَبَاتُ وَالْكَلِمَات",
+      "titleSegs": [["الْوَرَقُ", "paper"], ["وَالْمَكْتَبَاتُ", "and the libraries"], ["وَالْكَلِمَات", "and the words"]],
+      "photo": {
+        "file": "science-3.jpg",
+        "alt": "Green-tiled roofs around a white courtyard with arches and a tall white minaret, with the old city of Fez behind under a clear blue sky.",
+        "caption": "The courtyard and minaret of al-Qarawiyyīn in Fez, Morocco, seen from a nearby rooftop.",
+        "credit": {
+          "title": "File:Qarawiyyin Mosque DSCF4250.jpg",
+          "author": "R Prazeres",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Qarawiyyin_Mosque_DSCF4250.jpg",
+          "accessed": "2026-11-10",
+          "modified": "resized and re-encoded",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      },
+      "body": [
+        "Books need paper. The art of making paper came from China to Central Asia, and by the end of the 8th century paper was being made in Baghdad. Paper, الْوَرَقُ, was much cheaper than parchment, so books became easier to copy and to buy. Cities such as Baghdad, Cairo and Córdoba had markets for booksellers and copyists, and rulers and scholars built up large libraries.",
+        "One of the most famous places of learning is in Fez, Morocco. In 859 a woman called Fatima al-Fihri (فَاطِمَةُ الْفِهْرِيَّةُ), whose family had come from Kairouan in Tunisia, founded the mosque of الْقَرَوِيِّينَ ('of the people of Kairouan'). Over the centuries it became a great centre of teaching, and today it is often described as the oldest university in the world that is still working. Its old library was carefully restored and reopened in 2016.",
+        "Arabic words also travelled with trade, often through Spanish, Italian, French or Turkish. English 'coffee' comes from قَهْوَة, 'sugar' from سُكَّر, 'lemon' from لَيْمُون and 'cotton' from قُطْن. A 'sofa' was first a صُفَّة (a raised bench), a 'magazine' was first a مَخْزَن ('storehouse'), and 'admiral' comes from titles such as أَمِيرُ الْبَحْر ('commander of the sea')."
+      ],
+      "sentences": [
+        { "id": "scis10", "ar": "أَسَّسَتْ فَاطِمَةُ الْفِهْرِيَّةُ جَامِعَ الْقَرَوِيِّينَ فِي فَاس.", "en": "Fatima al-Fihri founded the al-Qarawiyyin mosque in Fez.", "literal": "founded Fatima al-Fihriyya (the great) mosque (of) al-Qarawiyyin in Fez",
+          "segs": [["أَسَّسَتْ", "(she) founded", "verb"], ["فَاطِمَةُ", "Fatima (first name)", "name"], ["الْفِهْرِيَّةُ", "al-Fihri (family name, feminine form)", "name"], ["جَامِعَ", "(great) mosque (of)", "noun"], ["الْقَرَوِيِّينَ", "al-Qarawiyyin (name: 'of the people of Kairouan')", "name"], ["فِي", "in", "prep"], ["فَاس", "Fez (city in Morocco)", "name"]], "grammar": ["past-tense", "verbal-sentence"] },
+        { "id": "scis11", "ar": "فِي الْمَكْتَبَةِ كُتُبٌ قَدِيمَةٌ جِدًّا.", "en": "In the library there are very old books.", "literal": "in the library (are) books old very",
+          "segs": [["فِي", "in", "prep"], ["الْمَكْتَبَةِ", "the library", "noun"], ["كُتُبٌ", "books", "noun"], ["قَدِيمَةٌ", "old", "adj"], ["جِدًّا", "very", "adv"]], "grammar": ["place-first-w5", "non-human-plural"] },
+        { "id": "scis12", "ar": "جَاءَتْ كَلِمَاتٌ إِنْجِلِيزِيَّةٌ كَثِيرَةٌ مِنَ الْعَرَبِيَّة.", "en": "Many English words came from Arabic.", "literal": "came (f) words English many from the Arabic",
+          "segs": [["جَاءَتْ", "came (f)", "verb"], ["كَلِمَاتٌ", "words", "noun"], ["إِنْجِلِيزِيَّةٌ", "English", "adj"], ["كَثِيرَةٌ", "many", "adj"], ["مِنَ", "from", "prep"], ["الْعَرَبِيَّة", "Arabic (the language)", "noun"]], "grammar": ["hollow-verbs", "non-human-plural"] }
+      ]
+    }
+  ],
+  "words": [
+    { "ar": "بَيْتُ الْحِكْمَة", "en": "the House of Wisdom", "segs": [["بَيْتُ", "house (of)"], ["الْحِكْمَة", "wisdom"]], "note": "A library and centre of translation in 9th-century Baghdad." },
+    { "ar": "الْجَبْر", "en": "algebra (lit. restoring, setting)", "segs": [["الْجَبْر", "algebra; restoring"]], "note": "From the title of al-Khwārizmī's book; in Latin it became 'algebra'." },
+    { "ar": "صِفْر", "en": "zero (lit. empty)", "segs": [["صِفْر", "zero; empty"]], "note": "The source of English 'zero' and 'cipher'." },
+    { "ar": "الْقَانُونُ فِي الطِّبّ", "en": "The Canon of Medicine", "segs": [["الْقَانُونُ", "the canon, the law"], ["فِي", "in, on (a subject)"], ["الطِّبّ", "medicine"]], "note": "Ibn Sīnā's great medical book." },
+    { "ar": "أَسْطُرْلَاب", "en": "astrolabe", "segs": [["أَسْطُرْلَاب", "astrolabe"]], "note": "The word came into Arabic from Greek." },
+    { "ar": "الدَّبَرَان", "en": "Aldebaran (lit. the follower)", "segs": [["الدَّبَرَان", "the follower (the star Aldebaran)"]] },
+    { "ar": "النَّسْرُ الطَّائِر", "en": "Altair (lit. the flying eagle)", "segs": [["النَّسْرُ", "the eagle"], ["الطَّائِر", "flying"]], "note": "English 'Altair' comes from the second word." },
+    { "ar": "الْكُحْل", "en": "kohl, a fine eye powder", "segs": [["الْكُحْل", "kohl (fine eye powder)"]], "note": "The root of English 'alcohol'." },
+    { "ar": "مَخْزَن", "en": "storehouse, store", "segs": [["مَخْزَن", "storehouse"]], "note": "Through Italian 'magazzino' it became English 'magazine'." },
+    { "ar": "قُطْن", "en": "cotton", "segs": [["قُطْن", "cotton"]] },
+    { "ar": "صُفَّة", "en": "a raised bench or platform", "segs": [["صُفَّة", "raised bench, platform"]], "note": "The root of English 'sofa', through Turkish and French." },
+    { "ar": "أَمِيرُ الْبَحْر", "en": "admiral (lit. commander of the sea)", "segs": [["أَمِيرُ", "commander, prince (of)"], ["الْبَحْر", "the sea"]], "note": "English 'admiral' comes from amīr ('commander') followed by al- ('the')." }
+  ],
+  "vocab": ["kitab", "maktaba", "kalima", "lugha", "mutarjim", "qahwa", "sukkar", "laymun", "qadim", "mashhur"],
+  "reading": {
+    "title": "From Baghdad to Europe",
+    "ar": "قَبْلَ أَكْثَرَ مِنْ أَلْفِ سَنَةٍ كَانَتْ بَغْدَادُ مَدِينَةَ الْعِلْم. فِي بَيْتِ الْحِكْمَةِ تَرْجَمَ الْعُلَمَاءُ كُتُبًا مِنَ الْيُونَانِيَّةِ وَالْفَارِسِيَّةِ إِلَى الْعَرَبِيَّة. هُنَاكَ عَمِلَ الْخُوَارِزْمِيُّ، وَكَتَبَ كِتَابًا عَنِ الْجَبْر. بَعْدَ ذٰلِكَ دَرَسَ ابْنُ الْهَيْثَمِ الضَّوْءَ فِي الْقَاهِرَةِ، وَكَتَبَ ابْنُ سِينَا كِتَابَ الْقَانُونِ فِي الطِّبّ. تُرْجِمَتْ هٰذِهِ الْكُتُبُ إِلَى اللَّاتِينِيَّةِ، وَقَرَأَهَا الطُّلَّابُ فِي أُورُوبَّا مِئَاتِ السِّنِين. لِذٰلِكَ نَجِدُ الْيَوْمَ كَلِمَاتٍ عَرَبِيَّةً كَثِيرَةً فِي الْإِنْجِلِيزِيَّةِ، مِثْلَ الْجَبْرِ وَالصِّفْر.",
+    "en": "More than a thousand years ago Baghdad was the city of learning. In the House of Wisdom scholars translated books from Greek and Persian into Arabic. Al-Khwarizmi worked there and wrote a book about algebra. Later Ibn al-Haytham studied light in Cairo, and Ibn Sina wrote the Canon of Medicine. These books were translated into Latin, and students in Europe read them for hundreds of years. That is why today we find many Arabic words in English, like algebra and zero.",
+    "segs": [
+      ["قَبْلَ", "before; ago"], ["أَكْثَرَ", "more"], ["مِنْ", "than, from"], ["أَلْفِ", "a thousand (of)"], ["سَنَةٍ", "year"],
+      ["كَانَتْ", "was (f)"], ["بَغْدَادُ", "Baghdad (capital of Iraq)", "name"], ["مَدِينَةَ", "city (of)"], ["الْعِلْم", "knowledge, learning, science"],
+      ["فِي", "in"], ["بَيْتِ", "house (of)"], ["الْحِكْمَةِ", "wisdom"], ["تَرْجَمَ", "translated"], ["الْعُلَمَاءُ", "the scholars"], ["كُتُبًا", "books"],
+      ["مِنَ", "from"], ["الْيُونَانِيَّةِ", "Greek (the language)"], ["وَالْفَارِسِيَّةِ", "and Persian (the language)"], ["إِلَى", "to, into"], ["الْعَرَبِيَّة", "Arabic (the language)"],
+      ["هُنَاكَ", "there"], ["عَمِلَ", "worked"], ["الْخُوَارِزْمِيُّ", "al-Khwarizmi (a scholar's name)", "name"], ["وَكَتَبَ", "and (he) wrote"], ["كِتَابًا", "a book"], ["عَنِ", "about"], ["الْجَبْر", "algebra"],
+      ["بَعْدَ", "after"], ["ذٰلِكَ", "that ('later')"], ["دَرَسَ", "studied"], ["ابْنُ", "Ibn ('son of', part of a name)"], ["الْهَيْثَمِ", "al-Haytham (a scholar's name)", "name"], ["الضَّوْءَ", "(the) light"], ["فِي", "in"], ["الْقَاهِرَةِ", "Cairo (capital of Egypt)", "name"],
+      ["وَكَتَبَ", "and (he) wrote"], ["ابْنُ", "Ibn ('son of', part of a name)"], ["سِينَا", "Sina (a scholar's name)", "name"], ["كِتَابَ", "the book (of)"], ["الْقَانُونِ", "the canon, the law"], ["فِي", "in, on (a subject)"], ["الطِّبّ", "medicine"],
+      ["تُرْجِمَتْ", "(they, f) were translated"], ["هٰذِهِ", "these (with a plural of things)"], ["الْكُتُبُ", "the books"], ["إِلَى", "into"], ["اللَّاتِينِيَّةِ", "Latin (the language)"],
+      ["وَقَرَأَهَا", "and (they) read them"], ["الطُّلَّابُ", "the students"], ["فِي", "in"], ["أُورُوبَّا", "Europe", "name"], ["مِئَاتِ", "hundreds (of)"], ["السِّنِين", "the years"],
+      ["لِذٰلِكَ", "that is why, so"], ["نَجِدُ", "we find"], ["الْيَوْمَ", "today"], ["كَلِمَاتٍ", "words"], ["عَرَبِيَّةً", "Arabic"], ["كَثِيرَةً", "many"], ["فِي", "in"], ["الْإِنْجِلِيزِيَّةِ", "English (the language)"],
+      ["مِثْلَ", "like, such as"], ["الْجَبْرِ", "algebra"], ["وَالصِّفْر", "and zero"]
+    ]
+  },
+  "readingQuestions": [
+    { "id": "scir1", "prompt": "According to the reading, where did scholars translate books into Arabic?", "options": ["in Cairo", "in the House of Wisdom in Baghdad", "in Fez", "in Europe"], "answer": 1,
+      "explain": "فِي بَيْتِ الْحِكْمَةِ تَرْجَمَ الْعُلَمَاءُ كُتُبًا: in the House of Wisdom the scholars translated books." },
+    { "id": "scir2", "prompt": "What did Ibn al-Haytham study in Cairo?", "options": ["medicine", "the stars", "light", "algebra"], "answer": 2,
+      "explain": "دَرَسَ ابْنُ الْهَيْثَمِ الضَّوْءَ: Ibn al-Haytham studied light." },
+    { "id": "scir3", "prompt": "Who read the Latin translations for hundreds of years?", "options": ["translators in Baghdad", "teachers in Fez", "doctors in Cairo", "students in Europe"], "answer": 3,
+      "explain": "وَقَرَأَهَا الطُّلَّابُ فِي أُورُوبَّا: and the students in Europe read them." }
+  ],
+  "quiz": [
+    { "id": "sciq1", "prompt": "Which Arabic word gave English 'algebra'?", "options": ["الْجَبْر", "صِفْر", "مَخْزَن", "قُطْن"], "answer": 0,
+      "explain": "al-jabr ('restoring') is in the title of al-Khwārizmī's book; in Latin it became 'algebra'." },
+    { "id": "sciq2", "prompt": "صِفْر means 'empty'. Which two English words come from it?", "options": ["sugar and sofa", "zero and cipher", "coffee and cotton", "admiral and magazine"], "answer": 1,
+      "explain": "Through Latin and Italian ṣifr became 'zero', and through Old French it became 'cipher'." },
+    { "id": "sciq3", "prompt": "Who founded al-Qarawiyyin in Fez in 859?", "options": ["Ibn Sina", "al-Khwarizmi", "Fatima al-Fihri", "Hunayn ibn Ishaq"], "answer": 2,
+      "explain": "أَسَّسَتْ فَاطِمَةُ الْفِهْرِيَّةُ جَامِعَ الْقَرَوِيِّينَ فِي فَاس: Fatima al-Fihri founded the al-Qarawiyyin mosque in Fez." },
+    { "id": "sciq4", "prompt": "What did مَخْزَن, the source of English 'magazine', first mean?", "options": ["a newspaper", "a library", "a market", "a storehouse"], "answer": 3,
+      "explain": "makhzan means 'storehouse'; through Italian it became 'magazine'." },
+    { "id": "sciq5", "prompt": "What does this sentence mean?", "ar": "أَسْمَاءُ نُجُومٍ كَثِيرَةٍ عَرَبِيَّة.", "options": ["The names of many stars are Arabic.", "Many Arabs know the names of the stars.", "The Arabic stars have many names.", "There are many stars in the Arab sky."], "answer": 0,
+      "explain": "asmāʾ nujūmin kathīratin = the names of many stars; ʿarabiyya = (are) Arabic." },
+    { "id": "sciq6", "prompt": "What could astronomers do with an أَسْطُرْلَاب?", "options": ["make paper", "translate Greek books", "measure the height of the sun or a star and tell the time", "mix medicines"], "answer": 2,
+      "explain": "With an asṭurlāb (astrolabe) astronomers measured the height of the sun or a star and told the time." }
+  ]
+}
