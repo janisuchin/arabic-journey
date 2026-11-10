@@ -1,8 +1,8 @@
 # Status — Arabic Journey
 
-Updated 2026-11-10 (scenarios 28 of 27 — all Prompt B scenario topics covered except a few listed below). Branch `main`. All work runs on the owner's PC (no cloud session), like Français Journey.
+Updated 2026-11-10 (Sentence explorer + 20 placards done; 28 scenarios). Branch `main`. All work runs on the owner's PC (no cloud session), like Français Journey.
 Main prompt: `Arabic_Reference/PROMPT_B_Nihongo-based.md` (phases A–F, checklist Z).
-Live (preview, v0.1.0 + content to day 90 + 28 scenarios): https://ar-journey.german-journey.workers.dev ·
+Live (preview, v0.1.0 + 90 days + 28 scenarios + explorer + placards): https://ar-journey.german-journey.workers.dev ·
 unlocked https://ar-journey-unlocked.german-journey.workers.dev
 
 ## Done
@@ -24,13 +24,20 @@ unlocked https://ar-journey-unlocked.german-journey.workers.dev
   supermarket (5 writer agents, `docs/authoring/SCENARIO_WRITER_BRIEF.md` + `scripts/merge-scenarios.py`) and
   phone-shop (written by a parallel session, kept by owner choice). 17 hand-glossary lines. Checks: validator
   0 errors (28 scenarios), 48 unit tests, e2e 16/16 (port 4191); both editions deployed and verified live.
+- Sentence explorer + Placards (0f0925a): `/explorer` lists 2,155 lesson/dialogue/scenario sentences as word-by-word
+  cards, search in Arabic (any harakat), transliteration or English, kind filter, grammar-rule filter (button on
+  every grammar page). `content/course/placards.json`: 20 sets, 186 items, each word hand-glossed (`segs`), schema +
+  validator + gloss coverage; screens `/placards` and `/placards/[id]` (large display, print/share, grammar links);
+  linked from Today labs, Practice, Library. Fix: tatweel fragments now transliterate (ـِي -ī, ـُونَ -ūna, الـ al-;
+  were y / wna / Āl, also on grammar pages). Checks: validator 0 errors, 49 unit tests, e2e 19/19 (port 4191),
+  both editions deployed and verified live.
 
 ## Left (against Prompt B checklist Z)
 1. Final exam: day 89 is a cumulative practice day and the week-13 test is cumulative; a separate final-exam
    screen (if Prompt B needs one) is not built.
 2. Scenarios: Prompt B topics still without one: school, machines (ticket machine/ATM), etiquette, dietary
    (optional — 28 ≥ 27). No photo scenes or branching role-play on scenario pages yet.
-3. Missing screens/labs: Sentence explorer, Placards, Explore (culture), Time lab, Speaking lab, Onboarding/
+3. Missing screens/labs: Explore (culture), Time lab, Speaking lab, Onboarding/
    placement check, Report, real-life photo card per day.
 4. Photos (Wikimedia Commons, credited); 5,000-word dictionary check.
 5. Audit tools `scripts/audit/` (audit-dump, chunk, dialogue-stats.py, scan) + two-reviewer + reconciler audit.
@@ -43,6 +50,9 @@ unlocked https://ar-journey-unlocked.german-journey.workers.dev
    museum-info loanword فَلَاش + "…" in l7, invented prices; post-office prices plausible only, Egypt Post 1865 and
    parcel inspection unverified; lost-phone-help invented "Citadel Hotel"; bank أَصْرِفَ…إِلَى vs أُحَوِّلَ, invented
    no-fee terms, hand key مُوَظَّفُ kept as existing gloss.
+   Placards (all `needs-review`): single-word list items are pause forms (قَهْوَة, not قَهْوَةٌ) to match the
+   vocabulary; examples keep full endings; sign wording (دَوْرَةُ الْمِيَاه، مَخْرَجُ الطَّوَارِئ) and the ‑iyy colour
+   feminines want a teacher check.
 6. `tools/build-android.ps1` (own folders, e.g. C:\m\a / C:\m\au), layout sweep, release v1.0.0 by the Journey
    release-folder rule.
 7. Owner to decide: the whole UI is mirrored right-to-left, so English text is right-aligned too (v0.1.0 choice).
@@ -58,9 +68,12 @@ unlocked https://ar-journey-unlocked.german-journey.workers.dev
 - Only one session at a time in this repo: on 2026-11-10 a second window ran the same scenario task and wrote into
   scenarios.json mid-run. Before merging, check `git status` and file mtimes for edits you did not make.
 - e2e on 4191: copy playwright.config.ts with 4190→4191, `reuseExistingServer: false`, run `npx playwright test -c`.
+- Placards: edit `content/course/placards.json` directly (no generator in the repo); every item needs `segs` that join
+  to its `ar`. Placard glosses are indexed last, so they never override lesson glosses; they are not fed to
+  `glossary:auto`.
 - Deploy: `npm run deploy:web` and `npm run deploy:web:unlocked` (wrangler logged in). Wait a few seconds before
   checking the live site.
 
 ## Next step
-Missing screens/labs (Left 3), starting with the Sentence explorer and Placards (Prompt B sections K–L), then check,
-e2e (port 4191), deploy, commit and push.
+Missing screens/labs (Left 3): Explore (culture chapters) and the Time lab, then check, e2e (port 4191), deploy,
+commit and push.
