@@ -1,0 +1,1941 @@
+{
+  "day": 87,
+  "week": 13,
+  "phase": 7,
+  "level": 9,
+  "title": "Speaking review",
+  "titleAr": "مُرَاجَعَةُ الْمُحَادَثَة",
+  "titleSegs": [
+    [
+      "مُرَاجَعَةُ",
+      "review (of)"
+    ],
+    [
+      "الْمُحَادَثَة",
+      "the conversation, speaking"
+    ]
+  ],
+  "emoji": "🗣️",
+  "summary": "Practise the speaking exam with a partner: introduce yourself, describe your city and family, ask the way and give your opinion, and keep the conversation going with بِبُطْء (slowly), هَلْ تَقْصِدُ…؟ (do you mean…?) and أَعْتَذِرُ (I apologise).",
+  "intro": "In two days the final exam has a مُحَادَثَة (conversation) with a شَرِيك (partner), so today is speaking day. Nobody understands everything, and nobody speaks without mistakes; good speakers use strategies. If someone speaks too fast, ask politely: هَلْ تَسْتَطِيعُ أَنْ تَتَكَلَّمَ بِبُطْء؟ (could you speak slowly?) or أَرْجُو أَنْ تُكَرِّرَ السُّؤَال (please repeat the question). To check that you understood, say هَلْ تَقْصِدُ أَنَّ…؟ (do you mean that…?). To win a few seconds, say يَعْنِي… كَيْفَ أَقُولُ؟ (well… how can I put it?). And after a mistake, say أَعْتَذِرُ عَنْ هٰذَا الْخَطَأ or just عَفْوًا، أَقْصِدُ… (sorry, I mean…) and carry on. Today's verbs also have their own rhythm: نَطَقَ (na-ṭa-qa), عَبَّرَ (ʿab-ba-ra), حَاوَلَ (ḥā-wa-la).",
+  "objectives": [
+    "Introduce yourself and describe your city and family in a short speaking test",
+    "Ask someone to repeat or to speak slowly with لَوْ سَمَحْتَ and أَرْجُو أَنْ…",
+    "Check that you understood with هَلْ تَقْصِدُ أَنَّ…؟ and apologise for a mistake with أَعْتَذِرُ",
+    "Give your opinion with فِي رَأْيِي and أَعْتَقِدُ أَنَّ, and use the words for conversation, accent, fluency and confidence"
+  ],
+  "realLife": {
+    "emoji": "🎙️",
+    "title": "A practice exam in pairs",
+    "story": "Two days before the final exam, Mr Karim turns the classroom into an exam room. Every student gets a partner and a card with five tasks: introduce yourself, describe your city and family, ask the way, order in a café and give your opinion. Daniel is worried about his accent and about the letter qaf, so he asks Layla to be his examiner. She promises to be strict, and to answer as fast as people in a Cairo street."
+  },
+  "letters": [],
+  "newWords": [
+    "muhadatha",
+    "sharik",
+    "lahja",
+    "talaqa",
+    "thiqa",
+    "bibut",
+    "yantiqu",
+    "yuabbiru",
+    "yuhawilu",
+    "yatadhiru"
+  ],
+  "grammar": [
+    "opinion-phrases",
+    "polite-requests"
+  ],
+  "pronunciation": [
+    "verb-rhythm"
+  ],
+  "sentences": [
+    {
+      "id": "d87s1",
+      "ar": "لَوْ سَمَحْتَ، هَلْ تَسْتَطِيعُ أَنْ تَتَكَلَّمَ بِبُطْء؟",
+      "en": "Excuse me, could you speak slowly?",
+      "literal": "if you allow, (do) you can that you speak with slowness?",
+      "segs": [
+        [
+          "لَوْ",
+          "if",
+          "particle"
+        ],
+        [
+          "سَمَحْتَ",
+          "you allowed ('excuse me')",
+          "verb"
+        ],
+        [
+          "هَلْ",
+          "(question word)",
+          "question"
+        ],
+        [
+          "تَسْتَطِيعُ",
+          "you can (to a man)",
+          "verb"
+        ],
+        [
+          "أَنْ",
+          "that, to",
+          "particle"
+        ],
+        [
+          "تَتَكَلَّمَ",
+          "you speak (to a man; -a after an)",
+          "verb"
+        ],
+        [
+          "بِبُطْء",
+          "slowly",
+          "adverb"
+        ]
+      ],
+      "grammar": [
+        "polite-requests",
+        "an-subjunctive"
+      ],
+      "mistakes": [
+        {
+          "wrong": "هَلْ تَسْتَطِيعُ أَنْ تَتَكَلَّمُ بِبُطْء؟",
+          "right": "هَلْ تَسْتَطِيعُ أَنْ تَتَكَلَّمَ بِبُطْء؟",
+          "why": "After أَنْ the verb ends in -a: tatakallama, not tatakallamu."
+        }
+      ]
+    },
+    {
+      "id": "d87s2",
+      "ar": "أَرْجُو أَنْ تُكَرِّرَ السُّؤَال مَرَّةً أُخْرَى.",
+      "en": "Please repeat the question once more.",
+      "literal": "I hope that you repeat the question a time other",
+      "segs": [
+        [
+          "أَرْجُو",
+          "I ask, I hope ('please')",
+          "verb"
+        ],
+        [
+          "أَنْ",
+          "that, to",
+          "particle"
+        ],
+        [
+          "تُكَرِّرَ",
+          "you repeat (to a man; -a after an)",
+          "verb"
+        ],
+        [
+          "السُّؤَال",
+          "the question",
+          "noun"
+        ],
+        [
+          "مَرَّةً",
+          "a time, once",
+          "noun"
+        ],
+        [
+          "أُخْرَى",
+          "other, more (f)",
+          "adj"
+        ]
+      ],
+      "grammar": [
+        "polite-requests",
+        "an-subjunctive"
+      ],
+      "mistakes": [
+        {
+          "wrong": "أَرْجُو تُكَرِّرَ السُّؤَال.",
+          "right": "أَرْجُو أَنْ تُكَرِّرَ السُّؤَال.",
+          "why": "أَرْجُو needs أَنْ before the next verb, like 'I would ask that you…'."
+        }
+      ]
+    },
+    {
+      "id": "d87s3",
+      "ar": "آسِف، أَعْتَذِرُ عَنْ هٰذَا الْخَطَأ. أَقْصِدُ «قَلْبِي»، لَا «كَلْبِي».",
+      "en": "Sorry, I apologise for this mistake. I mean 'my heart', not 'my dog'.",
+      "literal": "sorry (m), I apologise about this the mistake. I mean my heart, not my dog",
+      "segs": [
+        [
+          "آسِف",
+          "sorry (said by a man)",
+          "adj"
+        ],
+        [
+          "أَعْتَذِرُ",
+          "I apologise",
+          "verb"
+        ],
+        [
+          "عَنْ",
+          "about, for",
+          "prep"
+        ],
+        [
+          "هٰذَا",
+          "this (m)",
+          "demonstrative"
+        ],
+        [
+          "الْخَطَأ",
+          "the mistake",
+          "noun"
+        ],
+        [
+          "أَقْصِدُ",
+          "I mean",
+          "verb"
+        ],
+        [
+          "قَلْبِي",
+          "my heart",
+          "noun"
+        ],
+        [
+          "لَا",
+          "not",
+          "particle"
+        ],
+        [
+          "كَلْبِي",
+          "my dog",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "demonstratives",
+        "attached-pronouns"
+      ],
+      "mistakes": [
+        {
+          "wrong": "أَعْتَذِرُ عَنْ هٰذِهِ الْخَطَأ.",
+          "right": "أَعْتَذِرُ عَنْ هٰذَا الْخَطَأ.",
+          "why": "خَطَأ is masculine, so 'this' is هٰذَا, not هٰذِهِ."
+        }
+      ]
+    },
+    {
+      "id": "d87s4",
+      "ar": "فِي رَأْيِي، الثِّقَةُ أَهَمُّ مِنَ الطَّلَاقَة.",
+      "en": "In my opinion, confidence is more important than fluency.",
+      "literal": "in my opinion, the confidence (is) more important from the fluency",
+      "segs": [
+        [
+          "فِي",
+          "in",
+          "prep"
+        ],
+        [
+          "رَأْيِي",
+          "my opinion",
+          "noun"
+        ],
+        [
+          "الثِّقَةُ",
+          "confidence",
+          "noun"
+        ],
+        [
+          "أَهَمُّ",
+          "more important",
+          "adj"
+        ],
+        [
+          "مِنَ",
+          "than (-a links to the next word)",
+          "prep"
+        ],
+        [
+          "الطَّلَاقَة",
+          "the fluency",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "opinion-phrases",
+        "comparative"
+      ],
+      "mistakes": [
+        {
+          "wrong": "الثِّقَةُ أَهَمَّة مِنَ الطَّلَاقَة.",
+          "right": "الثِّقَةُ أَهَمُّ مِنَ الطَّلَاقَة.",
+          "why": "The comparative أَهَمُّ (more important) never takes a feminine ending, even after a feminine noun."
+        }
+      ]
+    },
+    {
+      "id": "d87s5",
+      "ar": "أَعْتَقِدُ أَنَّ لَهْجَتَكَ وَاضِحَة، وَالنَّاسُ يَفْهَمُونَكَ جَيِّدًا.",
+      "en": "I believe that your accent is clear, and people understand you well.",
+      "literal": "I believe that your accent (is) clear, and the people understand you well",
+      "segs": [
+        [
+          "أَعْتَقِدُ",
+          "I believe",
+          "verb"
+        ],
+        [
+          "أَنَّ",
+          "that",
+          "particle"
+        ],
+        [
+          "لَهْجَتَكَ",
+          "your accent (to a man; -a after anna)",
+          "noun"
+        ],
+        [
+          "وَاضِحَة",
+          "clear (f)",
+          "adj"
+        ],
+        [
+          "وَالنَّاسُ",
+          "and people",
+          "noun"
+        ],
+        [
+          "يَفْهَمُونَكَ",
+          "they understand you (to a man)",
+          "verb"
+        ],
+        [
+          "جَيِّدًا",
+          "well",
+          "adverb"
+        ]
+      ],
+      "grammar": [
+        "opinion-phrases",
+        "anna"
+      ],
+      "mistakes": [
+        {
+          "wrong": "أَعْتَقِدُ أَنَّ لَهْجَتُكَ وَاضِحَة.",
+          "right": "أَعْتَقِدُ أَنَّ لَهْجَتَكَ وَاضِحَة.",
+          "why": "After أَنَّ the noun ends in -a: lahjataka, not lahjatuka."
+        }
+      ]
+    },
+    {
+      "id": "d87s6",
+      "ar": "هَلْ تَقْصِدِينَ أَنَّ الْمَتْحَفَ بَعْدَ الْبَنْك؟",
+      "en": "Do you mean that the museum is after the bank?",
+      "literal": "(do) you mean (f) that the museum (is) after the bank?",
+      "segs": [
+        [
+          "هَلْ",
+          "(question word)",
+          "question"
+        ],
+        [
+          "تَقْصِدِينَ",
+          "you mean (to a woman)",
+          "verb"
+        ],
+        [
+          "أَنَّ",
+          "that",
+          "particle"
+        ],
+        [
+          "الْمَتْحَفَ",
+          "the museum (-a after anna)",
+          "noun"
+        ],
+        [
+          "بَعْدَ",
+          "after",
+          "prep"
+        ],
+        [
+          "الْبَنْك",
+          "the bank",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "anna",
+        "questions"
+      ],
+      "mistakes": [
+        {
+          "wrong": "هَلْ تَقْصِدُ أَنَّ الْمَتْحَفَ بَعْدَ الْبَنْك؟ (to Layla)",
+          "right": "هَلْ تَقْصِدِينَ أَنَّ الْمَتْحَفَ بَعْدَ الْبَنْك؟",
+          "why": "To a woman, 'you mean' is taqṣidīna; taqṣidu is for a man."
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "The practice exam",
+    "speakers": [
+      {
+        "key": "karim",
+        "name": "Mr Karim",
+        "nameAr": "الْأُسْتَاذ كَرِيم"
+      },
+      {
+        "key": "daniel",
+        "name": "Daniel",
+        "nameAr": "دَانْيَال"
+      },
+      {
+        "key": "layla",
+        "name": "Layla",
+        "nameAr": "لَيْلَى"
+      }
+    ],
+    "culture": "Arabic speakers fill pauses all the time, and the favourite filler is يَعْنِي (literally 'it means', here 'well…' or 'I mean'). In an exam it buys you a second or two, and it sounds natural. People are also very patient with learners: if you try to speak Arabic, even with an accent and a few mistakes, most people will be delighted and slow down for you. Every country has its own لَهْجَة (dialect and accent), but a clear, careful Standard Arabic is understood everywhere.",
+    "lines": [
+      {
+        "id": "d87l1",
+        "sp": "karim",
+        "ar": "صَبَاحُ الْخَيْر! بَعْدَ يَوْمَيْنِ عِنْدَكُمُ الِامْتِحَانُ النِّهَائِيّ، وَفِيهِ مُحَادَثَة. الْيَوْمَ يَتَدَرَّبُ كُلُّ طَالِب مَعَ شَرِيك: وَاحِد يَسْأَلُ، وَالْآخَرُ يُجِيبُ.",
+        "en": "Good morning! In two days you have the final exam, and there is a conversation in it. Today every student practises with a partner: one asks, and the other answers.",
+        "segs": [
+          [
+            "صَبَاحُ",
+            "morning (of)"
+          ],
+          [
+            "الْخَيْر",
+            "the goodness"
+          ],
+          [
+            "بَعْدَ",
+            "after"
+          ],
+          [
+            "يَوْمَيْنِ",
+            "two days"
+          ],
+          [
+            "عِنْدَكُمُ",
+            "you have (plural; -u links to the next word)"
+          ],
+          [
+            "الِامْتِحَانُ",
+            "the exam"
+          ],
+          [
+            "النِّهَائِيّ",
+            "the final"
+          ],
+          [
+            "وَفِيهِ",
+            "and in it"
+          ],
+          [
+            "مُحَادَثَة",
+            "a conversation"
+          ],
+          [
+            "الْيَوْمَ",
+            "today"
+          ],
+          [
+            "يَتَدَرَّبُ",
+            "(he) practises"
+          ],
+          [
+            "كُلُّ",
+            "every"
+          ],
+          [
+            "طَالِب",
+            "student"
+          ],
+          [
+            "مَعَ",
+            "with"
+          ],
+          [
+            "شَرِيك",
+            "a partner"
+          ],
+          [
+            "وَاحِد",
+            "one"
+          ],
+          [
+            "يَسْأَلُ",
+            "(he) asks"
+          ],
+          [
+            "وَالْآخَرُ",
+            "and the other"
+          ],
+          [
+            "يُجِيبُ",
+            "(he) answers"
+          ]
+        ]
+      },
+      {
+        "id": "d87l2",
+        "sp": "karim",
+        "ar": "الِامْتِحَانُ خَمْسَةُ أَجْزَاء: عَرِّفْ بِنَفْسِكَ، صِفْ مَدِينَتَكَ وَعَائِلَتَكَ، اِسْأَلْ عَنِ الطَّرِيق، اُطْلُبْ فِي مَقْهًى، ثُمَّ عَبِّرْ عَنْ رَأْيِكَ.",
+        "en": "The exam has five parts: introduce yourself, describe your city and your family, ask the way, order in a café, and then express your opinion.",
+        "segs": [
+          [
+            "الِامْتِحَانُ",
+            "the exam"
+          ],
+          [
+            "خَمْسَةُ",
+            "five"
+          ],
+          [
+            "أَجْزَاء",
+            "parts"
+          ],
+          [
+            "عَرِّفْ",
+            "introduce! (to a man)"
+          ],
+          [
+            "بِنَفْسِكَ",
+            "yourself (to a man)"
+          ],
+          [
+            "صِفْ",
+            "describe! (to a man)"
+          ],
+          [
+            "مَدِينَتَكَ",
+            "your city (to a man)"
+          ],
+          [
+            "وَعَائِلَتَكَ",
+            "and your family (to a man)"
+          ],
+          [
+            "اِسْأَلْ",
+            "ask! (to a man)"
+          ],
+          [
+            "عَنِ",
+            "about (-i links to the next word)"
+          ],
+          [
+            "الطَّرِيق",
+            "the way, the road"
+          ],
+          [
+            "اُطْلُبْ",
+            "order! (to a man)"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "مَقْهًى",
+            "a café"
+          ],
+          [
+            "ثُمَّ",
+            "then"
+          ],
+          [
+            "عَبِّرْ",
+            "express! (to a man)"
+          ],
+          [
+            "عَنْ",
+            "about"
+          ],
+          [
+            "رَأْيِكَ",
+            "your opinion (to a man)"
+          ]
+        ]
+      },
+      {
+        "id": "d87l3",
+        "sp": "daniel",
+        "ar": "يَا لَيْلَى، هَلْ تُرِيدِينَ أَنْ تَكُونِي شَرِيكَتِي؟ أَنْتِ تَسْأَلِينَ وَأَنَا أُجِيبُ، لِأَنِّي أَحْتَاجُ إِلَى تَدْرِيب كَثِير قَبْلَ الِامْتِحَان.",
+        "en": "Layla, would you like to be my partner? You ask and I'll answer, because I need a lot of practice before the exam.",
+        "segs": [
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "لَيْلَى",
+            "Layla (first name)"
+          ],
+          [
+            "هَلْ",
+            "(question word)"
+          ],
+          [
+            "تُرِيدِينَ",
+            "you want (to a woman)"
+          ],
+          [
+            "أَنْ",
+            "to, that"
+          ],
+          [
+            "تَكُونِي",
+            "you are, you be (to a woman)"
+          ],
+          [
+            "شَرِيكَتِي",
+            "my partner (f)"
+          ],
+          [
+            "أَنْتِ",
+            "you (to a woman)"
+          ],
+          [
+            "تَسْأَلِينَ",
+            "you ask (to a woman)"
+          ],
+          [
+            "وَأَنَا",
+            "and I"
+          ],
+          [
+            "أُجِيبُ",
+            "I answer"
+          ],
+          [
+            "لِأَنِّي",
+            "because I"
+          ],
+          [
+            "أَحْتَاجُ",
+            "I need"
+          ],
+          [
+            "إِلَى",
+            "to (with 'need': need of)"
+          ],
+          [
+            "تَدْرِيب",
+            "training, practice"
+          ],
+          [
+            "كَثِير",
+            "a lot of, much"
+          ],
+          [
+            "قَبْلَ",
+            "before"
+          ],
+          [
+            "الِامْتِحَان",
+            "the exam"
+          ]
+        ]
+      },
+      {
+        "id": "d87l4",
+        "sp": "layla",
+        "ar": "بِكُلِّ سُرُور يَا دَانْيَال! أَنَا الْمُمْتَحِنَة الْيَوْمَ. السُّؤَالُ الْأَوَّل: عَرِّفْنَا بِنَفْسِكَ مِنْ فَضْلِكَ، وَصِفْ لَنَا مَدِينَتَكَ وَعَائِلَتَكَ.",
+        "en": "With pleasure, Daniel! I'm the examiner today. The first question: introduce yourself, please, and describe your city and your family for us.",
+        "segs": [
+          [
+            "بِكُلِّ",
+            "with all"
+          ],
+          [
+            "سُرُور",
+            "pleasure"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "دَانْيَال",
+            "Daniel (first name)"
+          ],
+          [
+            "أَنَا",
+            "I"
+          ],
+          [
+            "الْمُمْتَحِنَة",
+            "the examiner (f)"
+          ],
+          [
+            "الْيَوْمَ",
+            "today"
+          ],
+          [
+            "السُّؤَالُ",
+            "the question"
+          ],
+          [
+            "الْأَوَّل",
+            "the first"
+          ],
+          [
+            "عَرِّفْنَا",
+            "introduce to us! (to a man)"
+          ],
+          [
+            "بِنَفْسِكَ",
+            "yourself (to a man)"
+          ],
+          [
+            "مِنْ",
+            "from ('please')"
+          ],
+          [
+            "فَضْلِكَ",
+            "your kindness (to a man)"
+          ],
+          [
+            "وَصِفْ",
+            "and describe! (to a man)"
+          ],
+          [
+            "لَنَا",
+            "for us"
+          ],
+          [
+            "مَدِينَتَكَ",
+            "your city (to a man)"
+          ],
+          [
+            "وَعَائِلَتَكَ",
+            "and your family (to a man)"
+          ]
+        ]
+      },
+      {
+        "id": "d87l5",
+        "sp": "daniel",
+        "ar": "اِسْمِي دَانْيَال، وَأَنَا أَمْرِيكِيّ مِنْ شِيكَاغُو. هِيَ مَدِينَة كَبِيرَة عَلَى بُحَيْرَة، فِيهَا عِمَارَات عَالِيَة جِدًّا. عَائِلَتِي تَسْكُنُ هُنَاكَ: أَبِي وَأُمِّي وَأُخْتِي إِيمَا. أُحِبُّهُمْ مِنْ كُلِّ كَلْبِي!",
+        "en": "My name is Daniel, and I'm American, from Chicago. It's a big city on a lake, with very tall buildings. My family lives there: my father, my mother and my sister Emma. I love them with all my dog!",
+        "segs": [
+          [
+            "اِسْمِي",
+            "my name"
+          ],
+          [
+            "دَانْيَال",
+            "Daniel (first name)"
+          ],
+          [
+            "وَأَنَا",
+            "and I"
+          ],
+          [
+            "أَمْرِيكِيّ",
+            "American (m)"
+          ],
+          [
+            "مِنْ",
+            "from"
+          ],
+          [
+            "شِيكَاغُو",
+            "Chicago (city in the USA)"
+          ],
+          [
+            "هِيَ",
+            "she, it (f)"
+          ],
+          [
+            "مَدِينَة",
+            "a city"
+          ],
+          [
+            "كَبِيرَة",
+            "big (f)"
+          ],
+          [
+            "عَلَى",
+            "on"
+          ],
+          [
+            "بُحَيْرَة",
+            "a lake"
+          ],
+          [
+            "فِيهَا",
+            "in it (f)"
+          ],
+          [
+            "عِمَارَات",
+            "buildings, blocks of flats"
+          ],
+          [
+            "عَالِيَة",
+            "tall, high (f)"
+          ],
+          [
+            "جِدًّا",
+            "very"
+          ],
+          [
+            "عَائِلَتِي",
+            "my family"
+          ],
+          [
+            "تَسْكُنُ",
+            "(she) lives"
+          ],
+          [
+            "هُنَاكَ",
+            "there"
+          ],
+          [
+            "أَبِي",
+            "my father"
+          ],
+          [
+            "وَأُمِّي",
+            "and my mother"
+          ],
+          [
+            "وَأُخْتِي",
+            "and my sister"
+          ],
+          [
+            "إِيمَا",
+            "Emma (first name)"
+          ],
+          [
+            "أُحِبُّهُمْ",
+            "I love them"
+          ],
+          [
+            "مِنْ",
+            "from"
+          ],
+          [
+            "كُلِّ",
+            "all (of)"
+          ],
+          [
+            "كَلْبِي",
+            "my dog (he means: qalbī, my heart)"
+          ]
+        ]
+      },
+      {
+        "id": "d87l6",
+        "sp": "layla",
+        "ar": "مِنْ كُلِّ كَلْبِكَ؟! أَظُنُّ أَنَّكَ تَقْصِدُ «قَلْبَكَ». الْكَلْبُ حَيَوَان، وَالْقَلْبُ هُنَا فِي صَدْرِكَ!",
+        "en": "With all your dog?! I think you mean 'your heart'. A dog is an animal, and the heart is here, in your chest!",
+        "segs": [
+          [
+            "مِنْ",
+            "from"
+          ],
+          [
+            "كُلِّ",
+            "all (of)"
+          ],
+          [
+            "كَلْبِكَ",
+            "your dog (to a man)"
+          ],
+          [
+            "أَظُنُّ",
+            "I think"
+          ],
+          [
+            "أَنَّكَ",
+            "that you (to a man)"
+          ],
+          [
+            "تَقْصِدُ",
+            "you mean (to a man)"
+          ],
+          [
+            "قَلْبَكَ",
+            "your heart (to a man)"
+          ],
+          [
+            "الْكَلْبُ",
+            "the dog"
+          ],
+          [
+            "حَيَوَان",
+            "an animal"
+          ],
+          [
+            "وَالْقَلْبُ",
+            "and the heart"
+          ],
+          [
+            "هُنَا",
+            "here"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "صَدْرِكَ",
+            "your chest (to a man)"
+          ]
+        ]
+      },
+      {
+        "id": "d87l7",
+        "sp": "daniel",
+        "ar": "آسِف جِدًّا، أَعْتَذِرُ عَنْ هٰذَا الْخَطَأ! أَقْصِدُ قَلْبِي طَبْعًا. حَرْفُ الْقَاف صَعْب عَلَيَّ، فَأُحَاوِلُ أَنْ أَنْطِقَهُ بِبُطْء.",
+        "en": "I'm very sorry, I apologise for this mistake! Of course I mean my heart. The letter qaf is hard for me, so I try to pronounce it slowly.",
+        "segs": [
+          [
+            "آسِف",
+            "sorry (said by a man)"
+          ],
+          [
+            "جِدًّا",
+            "very"
+          ],
+          [
+            "أَعْتَذِرُ",
+            "I apologise"
+          ],
+          [
+            "عَنْ",
+            "about, for"
+          ],
+          [
+            "هٰذَا",
+            "this (m)"
+          ],
+          [
+            "الْخَطَأ",
+            "the mistake"
+          ],
+          [
+            "أَقْصِدُ",
+            "I mean"
+          ],
+          [
+            "قَلْبِي",
+            "my heart"
+          ],
+          [
+            "طَبْعًا",
+            "of course"
+          ],
+          [
+            "حَرْفُ",
+            "letter (of)"
+          ],
+          [
+            "الْقَاف",
+            "the qaf (the letter q)"
+          ],
+          [
+            "صَعْب",
+            "difficult, hard"
+          ],
+          [
+            "عَلَيَّ",
+            "for me, on me"
+          ],
+          [
+            "فَأُحَاوِلُ",
+            "so I try"
+          ],
+          [
+            "أَنْ",
+            "to, that"
+          ],
+          [
+            "أَنْطِقَهُ",
+            "I pronounce it (-a after an)"
+          ],
+          [
+            "بِبُطْء",
+            "slowly"
+          ]
+        ]
+      },
+      {
+        "id": "d87l8",
+        "sp": "karim",
+        "ar": "لَا بَأْسَ يَا دَانْيَال، هٰذَا يَحْدُثُ لِلْجَمِيع. فِي الِامْتِحَان، إِذَا أَخْطَأْتَ، قُلْ «عَفْوًا، أَقْصِدُ…» ثُمَّ صَحِّحِ الْكَلِمَة، وَاسْتَمِرَّ بِثِقَة.",
+        "en": "Never mind, Daniel, this happens to everyone. In the exam, if you make a mistake, say 'Sorry, I mean…', then correct the word and carry on with confidence.",
+        "segs": [
+          [
+            "لَا",
+            "no"
+          ],
+          [
+            "بَأْسَ",
+            "harm ('never mind')"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "دَانْيَال",
+            "Daniel (first name)"
+          ],
+          [
+            "هٰذَا",
+            "this"
+          ],
+          [
+            "يَحْدُثُ",
+            "(it) happens"
+          ],
+          [
+            "لِلْجَمِيع",
+            "to everyone"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "الِامْتِحَان",
+            "the exam"
+          ],
+          [
+            "إِذَا",
+            "if"
+          ],
+          [
+            "أَخْطَأْتَ",
+            "you made a mistake (to a man)"
+          ],
+          [
+            "قُلْ",
+            "say! (to a man)"
+          ],
+          [
+            "عَفْوًا",
+            "sorry, excuse me"
+          ],
+          [
+            "أَقْصِدُ",
+            "I mean"
+          ],
+          [
+            "ثُمَّ",
+            "then"
+          ],
+          [
+            "صَحِّحِ",
+            "correct! (to a man; -i links to the next word)"
+          ],
+          [
+            "الْكَلِمَة",
+            "the word"
+          ],
+          [
+            "وَاسْتَمِرَّ",
+            "and carry on! (to a man)"
+          ],
+          [
+            "بِثِقَة",
+            "with confidence"
+          ]
+        ]
+      },
+      {
+        "id": "d87l9",
+        "sp": "layla",
+        "ar": "السُّؤَالُ الثَّانِي: أَنَا فِي الشَّارِع، وَأَنْتَ سَائِح. اِسْأَلْنِي عَنِ الطَّرِيقِ إِلَى الْمَتْحَف، وَسَأُجِيبُ بِسُرْعَة مِثْلَ أَهْلِ الْقَاهِرَة!",
+        "en": "The second question: I'm in the street, and you're a tourist. Ask me the way to the museum, and I'll answer quickly, like the people of Cairo!",
+        "segs": [
+          [
+            "السُّؤَالُ",
+            "the question"
+          ],
+          [
+            "الثَّانِي",
+            "the second"
+          ],
+          [
+            "أَنَا",
+            "I"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "الشَّارِع",
+            "the street"
+          ],
+          [
+            "وَأَنْتَ",
+            "and you (to a man)"
+          ],
+          [
+            "سَائِح",
+            "a tourist"
+          ],
+          [
+            "اِسْأَلْنِي",
+            "ask me! (to a man)"
+          ],
+          [
+            "عَنِ",
+            "about (-i links to the next word)"
+          ],
+          [
+            "الطَّرِيقِ",
+            "the way"
+          ],
+          [
+            "إِلَى",
+            "to"
+          ],
+          [
+            "الْمَتْحَف",
+            "the museum"
+          ],
+          [
+            "وَسَأُجِيبُ",
+            "and I will answer"
+          ],
+          [
+            "بِسُرْعَة",
+            "quickly"
+          ],
+          [
+            "مِثْلَ",
+            "like"
+          ],
+          [
+            "أَهْلِ",
+            "people (of)"
+          ],
+          [
+            "الْقَاهِرَة",
+            "Cairo (city)"
+          ]
+        ]
+      },
+      {
+        "id": "d87l10",
+        "sp": "daniel",
+        "ar": "لَوْ سَمَحْتِ يَا آنِسَة، أَيْنَ الْمَتْحَفُ؟ هَلْ هُوَ بَعِيد عَنْ هُنَا، أَمْ أَسْتَطِيعُ أَنْ أَمْشِيَ إِلَيْهِ؟",
+        "en": "Excuse me, miss, where is the museum? Is it far from here, or can I walk there?",
+        "segs": [
+          [
+            "لَوْ",
+            "if"
+          ],
+          [
+            "سَمَحْتِ",
+            "you allowed ('excuse me', to a woman)"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "آنِسَة",
+            "miss"
+          ],
+          [
+            "أَيْنَ",
+            "where"
+          ],
+          [
+            "الْمَتْحَفُ",
+            "the museum"
+          ],
+          [
+            "هَلْ",
+            "(question word)"
+          ],
+          [
+            "هُوَ",
+            "he, it"
+          ],
+          [
+            "بَعِيد",
+            "far"
+          ],
+          [
+            "عَنْ",
+            "from"
+          ],
+          [
+            "هُنَا",
+            "here"
+          ],
+          [
+            "أَمْ",
+            "or (in questions)"
+          ],
+          [
+            "أَسْتَطِيعُ",
+            "I can"
+          ],
+          [
+            "أَنْ",
+            "to, that"
+          ],
+          [
+            "أَمْشِيَ",
+            "I walk (-a after an)"
+          ],
+          [
+            "إِلَيْهِ",
+            "to it"
+          ]
+        ]
+      },
+      {
+        "id": "d87l11",
+        "sp": "layla",
+        "ar": "سَهْل! اِمْشِ إِلَى آخِرِ الشَّارِع، ثُمَّ خُذِ الشَّارِعَ الثَّانِيَ عَلَى الْيَمِين، وَالْمَتْحَفُ بَعْدَ الْبَنْك عَلَى الْيَسَار، أَمَامَ الْحَدِيقَة.",
+        "en": "Easy! Walk to the end of the street, then take the second street on the right, and the museum is after the bank on the left, in front of the park.",
+        "segs": [
+          [
+            "سَهْل",
+            "easy"
+          ],
+          [
+            "اِمْشِ",
+            "walk! (to a man)"
+          ],
+          [
+            "إِلَى",
+            "to"
+          ],
+          [
+            "آخِرِ",
+            "end (of)"
+          ],
+          [
+            "الشَّارِع",
+            "the street"
+          ],
+          [
+            "ثُمَّ",
+            "then"
+          ],
+          [
+            "خُذِ",
+            "take! (to a man; -i links to the next word)"
+          ],
+          [
+            "الشَّارِعَ",
+            "the street"
+          ],
+          [
+            "الثَّانِيَ",
+            "the second"
+          ],
+          [
+            "عَلَى",
+            "on"
+          ],
+          [
+            "الْيَمِين",
+            "the right"
+          ],
+          [
+            "وَالْمَتْحَفُ",
+            "and the museum"
+          ],
+          [
+            "بَعْدَ",
+            "after"
+          ],
+          [
+            "الْبَنْك",
+            "the bank"
+          ],
+          [
+            "عَلَى",
+            "on"
+          ],
+          [
+            "الْيَسَار",
+            "the left"
+          ],
+          [
+            "أَمَامَ",
+            "in front of"
+          ],
+          [
+            "الْحَدِيقَة",
+            "the park, the garden"
+          ]
+        ]
+      },
+      {
+        "id": "d87l12",
+        "sp": "daniel",
+        "ar": "عَفْوًا، تَتَكَلَّمِينَ بِسُرْعَة! هَلْ تَسْتَطِيعِينَ أَنْ تُكَرِّرِي ذٰلِكَ بِبُطْء، لَوْ سَمَحْتِ؟ هَلْ تَقْصِدِينَ أَنَّ الْمَتْحَفَ بَعْدَ الْبَنْك، عَلَى الْيَسَار؟",
+        "en": "Sorry, you're speaking fast! Could you repeat that slowly, please? Do you mean that the museum is after the bank, on the left?",
+        "segs": [
+          [
+            "عَفْوًا",
+            "sorry, excuse me"
+          ],
+          [
+            "تَتَكَلَّمِينَ",
+            "you speak (to a woman)"
+          ],
+          [
+            "بِسُرْعَة",
+            "quickly, fast"
+          ],
+          [
+            "هَلْ",
+            "(question word)"
+          ],
+          [
+            "تَسْتَطِيعِينَ",
+            "you can (to a woman)"
+          ],
+          [
+            "أَنْ",
+            "to, that"
+          ],
+          [
+            "تُكَرِّرِي",
+            "you repeat (to a woman; after an)"
+          ],
+          [
+            "ذٰلِكَ",
+            "that"
+          ],
+          [
+            "بِبُطْء",
+            "slowly"
+          ],
+          [
+            "لَوْ",
+            "if"
+          ],
+          [
+            "سَمَحْتِ",
+            "you allowed ('please', to a woman)"
+          ],
+          [
+            "هَلْ",
+            "(question word)"
+          ],
+          [
+            "تَقْصِدِينَ",
+            "you mean (to a woman)"
+          ],
+          [
+            "أَنَّ",
+            "that"
+          ],
+          [
+            "الْمَتْحَفَ",
+            "the museum (-a after anna)"
+          ],
+          [
+            "بَعْدَ",
+            "after"
+          ],
+          [
+            "الْبَنْك",
+            "the bank"
+          ],
+          [
+            "عَلَى",
+            "on"
+          ],
+          [
+            "الْيَسَار",
+            "the left"
+          ]
+        ]
+      },
+      {
+        "id": "d87l13",
+        "sp": "layla",
+        "ar": "نَعَمْ، بِالضَّبْط! أَحْسَنْتَ، هٰكَذَا نَتَأَكَّدُ أَنَّنَا فَهِمْنَا. وَالْآنَ آخِرُ سُؤَال: مَا رَأْيُكَ، هَلِ الْعَرَبِيَّةُ صَعْبَة؟ وَهَلْ لَهْجَتُكَ مُشْكِلَة؟",
+        "en": "Yes, exactly! Well done, that's how we make sure we've understood. And now the last question: what do you think, is Arabic difficult? And is your accent a problem?",
+        "segs": [
+          [
+            "نَعَمْ",
+            "yes"
+          ],
+          [
+            "بِالضَّبْط",
+            "exactly"
+          ],
+          [
+            "أَحْسَنْتَ",
+            "well done (to a man)"
+          ],
+          [
+            "هٰكَذَا",
+            "like this, this is how"
+          ],
+          [
+            "نَتَأَكَّدُ",
+            "we make sure"
+          ],
+          [
+            "أَنَّنَا",
+            "that we"
+          ],
+          [
+            "فَهِمْنَا",
+            "we understood"
+          ],
+          [
+            "وَالْآنَ",
+            "and now"
+          ],
+          [
+            "آخِرُ",
+            "the last (of)"
+          ],
+          [
+            "سُؤَال",
+            "question"
+          ],
+          [
+            "مَا",
+            "what"
+          ],
+          [
+            "رَأْيُكَ",
+            "your opinion (to a man)"
+          ],
+          [
+            "هَلِ",
+            "(question word; -i links to the next word)"
+          ],
+          [
+            "الْعَرَبِيَّةُ",
+            "Arabic"
+          ],
+          [
+            "صَعْبَة",
+            "difficult (f)"
+          ],
+          [
+            "وَهَلْ",
+            "and (question word)"
+          ],
+          [
+            "لَهْجَتُكَ",
+            "your accent (to a man)"
+          ],
+          [
+            "مُشْكِلَة",
+            "a problem"
+          ]
+        ]
+      },
+      {
+        "id": "d87l14",
+        "sp": "daniel",
+        "ar": "يَعْنِي… كَيْفَ أَقُولُ؟ فِي رَأْيِي، الْعَرَبِيَّةُ صَعْبَة فِي الْبِدَايَة، لٰكِنَّهَا جَمِيلَة. أَعْتَقِدُ أَنَّ لَهْجَتِي لَيْسَتْ مُشْكِلَة إِذَا فَهِمَنِي النَّاسُ.",
+        "en": "Well… how can I put it? In my opinion, Arabic is difficult at the beginning, but it's beautiful. I believe that my accent isn't a problem if people understand me.",
+        "segs": [
+          [
+            "يَعْنِي",
+            "I mean, well (a filler; it means)"
+          ],
+          [
+            "كَيْفَ",
+            "how"
+          ],
+          [
+            "أَقُولُ",
+            "I say ('can I put it')"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "رَأْيِي",
+            "my opinion"
+          ],
+          [
+            "الْعَرَبِيَّةُ",
+            "Arabic"
+          ],
+          [
+            "صَعْبَة",
+            "difficult (f)"
+          ],
+          [
+            "فِي",
+            "in, at"
+          ],
+          [
+            "الْبِدَايَة",
+            "the beginning"
+          ],
+          [
+            "لٰكِنَّهَا",
+            "but she, but it (f)"
+          ],
+          [
+            "جَمِيلَة",
+            "beautiful (f)"
+          ],
+          [
+            "أَعْتَقِدُ",
+            "I believe"
+          ],
+          [
+            "أَنَّ",
+            "that"
+          ],
+          [
+            "لَهْجَتِي",
+            "my accent"
+          ],
+          [
+            "لَيْسَتْ",
+            "(she) is not"
+          ],
+          [
+            "مُشْكِلَة",
+            "a problem"
+          ],
+          [
+            "إِذَا",
+            "if"
+          ],
+          [
+            "فَهِمَنِي",
+            "(he) understood me"
+          ],
+          [
+            "النَّاسُ",
+            "the people"
+          ]
+        ]
+      },
+      {
+        "id": "d87l15",
+        "sp": "karim",
+        "ar": "مُمْتَاز يَا دَانْيَال! أُوَافِقُكَ: الطَّلَاقَةُ تَأْتِي مَعَ الْوَقْت، وَالْمُهِمُّ أَنْ تُعَبِّرَ عَنْ رَأْيِكَ بِثِقَة. «يَعْنِي» وَ«كَيْفَ أَقُولُ» تُعْطِيكَ وَقْتًا لِلتَّفْكِير.",
+        "en": "Excellent, Daniel! I agree with you: fluency comes with time, and the important thing is to express your opinion with confidence. 'Ya'ni' and 'how can I put it' give you time to think.",
+        "segs": [
+          [
+            "مُمْتَاز",
+            "excellent"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "دَانْيَال",
+            "Daniel (first name)"
+          ],
+          [
+            "أُوَافِقُكَ",
+            "I agree with you (to a man)"
+          ],
+          [
+            "الطَّلَاقَةُ",
+            "fluency"
+          ],
+          [
+            "تَأْتِي",
+            "(she) comes"
+          ],
+          [
+            "مَعَ",
+            "with"
+          ],
+          [
+            "الْوَقْت",
+            "the time"
+          ],
+          [
+            "وَالْمُهِمُّ",
+            "and the important thing"
+          ],
+          [
+            "أَنْ",
+            "to, that"
+          ],
+          [
+            "تُعَبِّرَ",
+            "you express (to a man; -a after an)"
+          ],
+          [
+            "عَنْ",
+            "about"
+          ],
+          [
+            "رَأْيِكَ",
+            "your opinion (to a man)"
+          ],
+          [
+            "بِثِقَة",
+            "with confidence"
+          ],
+          [
+            "يَعْنِي",
+            "I mean, well (a filler; it means)"
+          ],
+          [
+            "وَ",
+            "and"
+          ],
+          [
+            "كَيْفَ",
+            "how"
+          ],
+          [
+            "أَقُولُ",
+            "I say ('can I put it')"
+          ],
+          [
+            "تُعْطِيكَ",
+            "(they) give you (to a man)"
+          ],
+          [
+            "وَقْتًا",
+            "time"
+          ],
+          [
+            "لِلتَّفْكِير",
+            "for thinking"
+          ]
+        ]
+      },
+      {
+        "id": "d87l16",
+        "sp": "layla",
+        "ar": "الْآنَ دَوْرُكَ يَا دَانْيَال: أَنْتَ تَسْأَلُنِي، وَأَنَا أُجِيبُ. لٰكِنْ تَكَلَّمْ بِبُطْء، وَلَا تَسْأَلْنِي عَنْ كَلْبِكَ!",
+        "en": "Now it's your turn, Daniel: you ask me, and I answer. But speak slowly, and don't ask me about your dog!",
+        "segs": [
+          [
+            "الْآنَ",
+            "now"
+          ],
+          [
+            "دَوْرُكَ",
+            "your turn (to a man)"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "دَانْيَال",
+            "Daniel (first name)"
+          ],
+          [
+            "أَنْتَ",
+            "you (to a man)"
+          ],
+          [
+            "تَسْأَلُنِي",
+            "you ask me (to a man)"
+          ],
+          [
+            "وَأَنَا",
+            "and I"
+          ],
+          [
+            "أُجِيبُ",
+            "I answer"
+          ],
+          [
+            "لٰكِنْ",
+            "but"
+          ],
+          [
+            "تَكَلَّمْ",
+            "speak! (to a man)"
+          ],
+          [
+            "بِبُطْء",
+            "slowly"
+          ],
+          [
+            "وَلَا",
+            "and don't"
+          ],
+          [
+            "تَسْأَلْنِي",
+            "ask me (to a man; after la)"
+          ],
+          [
+            "عَنْ",
+            "about"
+          ],
+          [
+            "كَلْبِكَ",
+            "your dog (to a man)"
+          ]
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "title": "Practice for the speaking exam",
+    "ar": "الْيَوْمَ تَدَرَّبَ الطُّلَّابُ عَلَى امْتِحَانِ الْمُحَادَثَة. كَانَتْ لَيْلَى شَرِيكَةَ دَانْيَال، فَسَأَلَتْهُ عَنْ مَدِينَتِهِ وَعَائِلَتِهِ. قَالَ دَانْيَال «كَلْبِي» بَدَلًا مِنْ «قَلْبِي»، فَاعْتَذَرَ وَصَحَّحَ الْخَطَأ. ثُمَّ تَكَلَّمَتْ لَيْلَى بِسُرْعَة، فَطَلَبَ مِنْهَا أَنْ تُكَرِّرَ بِبُطْء. فِي رَأْيِ الْأُسْتَاذ كَرِيم، الثِّقَةُ أَهَمُّ مِنَ الطَّلَاقَة.",
+    "en": "Today the students practised for the speaking exam. Layla was Daniel's partner, so she asked him about his city and his family. Daniel said 'my dog' instead of 'my heart', so he apologised and corrected the mistake. Then Layla spoke quickly, so he asked her to repeat it slowly. In Mr Karim's opinion, confidence is more important than fluency.",
+    "segs": [
+      [
+        "الْيَوْمَ",
+        "today"
+      ],
+      [
+        "تَدَرَّبَ",
+        "(he) practised ('practised')"
+      ],
+      [
+        "الطُّلَّابُ",
+        "the students"
+      ],
+      [
+        "عَلَى",
+        "on, for"
+      ],
+      [
+        "امْتِحَانِ",
+        "exam (of)"
+      ],
+      [
+        "الْمُحَادَثَة",
+        "the conversation"
+      ],
+      [
+        "كَانَتْ",
+        "(she) was"
+      ],
+      [
+        "لَيْلَى",
+        "Layla (first name)"
+      ],
+      [
+        "شَرِيكَةَ",
+        "partner (f, of)"
+      ],
+      [
+        "دَانْيَال",
+        "Daniel (first name)"
+      ],
+      [
+        "فَسَأَلَتْهُ",
+        "so she asked him"
+      ],
+      [
+        "عَنْ",
+        "about"
+      ],
+      [
+        "مَدِينَتِهِ",
+        "his city"
+      ],
+      [
+        "وَعَائِلَتِهِ",
+        "and his family"
+      ],
+      [
+        "قَالَ",
+        "(he) said"
+      ],
+      [
+        "دَانْيَال",
+        "Daniel (first name)"
+      ],
+      [
+        "كَلْبِي",
+        "my dog"
+      ],
+      [
+        "بَدَلًا",
+        "instead"
+      ],
+      [
+        "مِنْ",
+        "of, from"
+      ],
+      [
+        "قَلْبِي",
+        "my heart"
+      ],
+      [
+        "فَاعْتَذَرَ",
+        "so he apologised"
+      ],
+      [
+        "وَصَحَّحَ",
+        "and (he) corrected"
+      ],
+      [
+        "الْخَطَأ",
+        "the mistake"
+      ],
+      [
+        "ثُمَّ",
+        "then"
+      ],
+      [
+        "تَكَلَّمَتْ",
+        "(she) spoke"
+      ],
+      [
+        "لَيْلَى",
+        "Layla (first name)"
+      ],
+      [
+        "بِسُرْعَة",
+        "quickly"
+      ],
+      [
+        "فَطَلَبَ",
+        "so he asked"
+      ],
+      [
+        "مِنْهَا",
+        "from her"
+      ],
+      [
+        "أَنْ",
+        "to, that"
+      ],
+      [
+        "تُكَرِّرَ",
+        "(she) repeats (-a after an)"
+      ],
+      [
+        "بِبُطْء",
+        "slowly"
+      ],
+      [
+        "فِي",
+        "in"
+      ],
+      [
+        "رَأْيِ",
+        "opinion (of)"
+      ],
+      [
+        "الْأُسْتَاذ",
+        "the teacher"
+      ],
+      [
+        "كَرِيم",
+        "Karim (first name)"
+      ],
+      [
+        "الثِّقَةُ",
+        "confidence"
+      ],
+      [
+        "أَهَمُّ",
+        "more important"
+      ],
+      [
+        "مِنَ",
+        "than (-a links to the next word)"
+      ],
+      [
+        "الطَّلَاقَة",
+        "the fluency"
+      ]
+    ]
+  },
+  "review": [
+    "khata",
+    "yukarriru",
+    "ray",
+    "imtihan",
+    "yafhamu",
+    "law-samaht"
+  ],
+  "quiz": [
+    {
+      "id": "d87q1",
+      "prompt": "What does this mean?",
+      "ar": "هَلْ تَسْتَطِيعُ أَنْ تَتَكَلَّمَ بِبُطْء؟",
+      "options": [
+        "Could you speak slowly?",
+        "Could you speak more loudly?",
+        "Do you speak Arabic?",
+        "Could you write it down?"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "d87q2",
+      "prompt": "How many parts does the speaking exam have?",
+      "options": [
+        "four",
+        "five",
+        "three",
+        "six"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "d87q3",
+      "prompt": "What mistake does Daniel make when he talks about his family?",
+      "options": [
+        "He says Chicago is a small city.",
+        "He forgets his sister's name.",
+        "He says 'with all my dog' instead of 'with all my heart'.",
+        "He says he is from Cairo."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "d87q4",
+      "prompt": "Complete the polite request: أَرْجُو ___ تُكَرِّرَ السُّؤَال.",
+      "options": [
+        "أَنَّ",
+        "لَنْ",
+        "أَنْ",
+        "لَمْ"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "d87q5",
+      "prompt": "What does Daniel say to check that he understood the way?",
+      "options": [
+        "هَلْ تَقْصِدِينَ أَنَّ الْمَتْحَفَ بَعْدَ الْبَنْك؟",
+        "أَيْنَ الْمَتْحَفُ؟",
+        "مَا رَأْيُكَ؟",
+        "آسِف جِدًّا"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "d87q6",
+      "prompt": "According to Mr Karim, what should you do after a mistake in the exam?",
+      "options": [
+        "Stop talking and wait.",
+        "Say 'Sorry, I mean…', correct the word and carry on with confidence.",
+        "Start the whole answer again.",
+        "Ask the examiner for the right word."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "d87q7",
+      "prompt": "Which verb has the held, doubled consonant of Form II (a shadda in the middle)?",
+      "options": [
+        "نَطَقَ",
+        "حَاوَلَ",
+        "اِعْتَذَرَ",
+        "عَبَّرَ"
+      ],
+      "answer": 3
+    }
+  ],
+  "completion": "Mabrūk! You can now get through a speaking test: introduce yourself, describe your city and family, ask the way, give your opinion, and keep a conversation going when you don't understand or make a mistake. Complete the quiz with 80% to finish the day; tomorrow is the writing review.",
+  "status": "needs-review"
+}

@@ -1,0 +1,1812 @@
+{
+  "day": 86,
+  "week": 13,
+  "phase": 7,
+  "level": 9,
+  "title": "Reading review",
+  "titleAr": "مُرَاجَعَةُ الْقِرَاءَة",
+  "titleSegs": [
+    [
+      "مُرَاجَعَةُ",
+      "review (of)"
+    ],
+    [
+      "الْقِرَاءَة",
+      "the reading"
+    ]
+  ],
+  "emoji": "📰",
+  "summary": "Review reading with real texts: find the main idea of a newspaper article from its headline, read a sign and a menu quickly, and guess new words from their root and the context, even when a text has no vowel marks.",
+  "intro": "Today is reading review. Real Arabic texts, such as newspapers, magazines, signs and menus, are almost always printed without the vowel marks, الْحَرَكَات. In this course every word keeps them, so you can read with confidence, but good readers use other tools too. Read the headline, الْعُنْوَان, first; look for the main idea, الْفِكْرَة الرَّئِيسِيَّة, which is usually in the first paragraph; and skim for numbers and names. For a new word, find its root, جَذْر, and look at the context, السِّيَاق: مَلْعَب has the root l-ʿ-b (play), and the pattern ma-…-a- often means a place, so it is a playground. Headlines are full of iḍāfa, like عُنْوَانُ الْمَقَالَةِ (the headline of the article), and الَّذِي and الَّتِي help you follow long sentences. When you read a headline aloud, stop on the bare word: مَجَلَّة is said majalla.",
+  "objectives": [
+    "Find the main idea of a short newspaper article from its headline and first paragraph",
+    "Read a sign and a menu quickly by looking only for what you need",
+    "Guess a new word from its root and its context, like مَلْعَب (playground)",
+    "Use iḍāfa like عُنْوَانُ الْمَقَالَةِ and the relative words الَّذِي and الَّتِي when you talk about a text"
+  ],
+  "realLife": {
+    "emoji": "📚",
+    "title": "A morning in the library",
+    "story": "For the reading review, Mr Karim takes the class to the library and spreads out today's newspaper, a sports magazine and the menu from the café next door. Daniel, who is used to the fully vowelled pages of his course book, gets a shock: the newspaper has no vowel marks at all. Mr Karim just smiles and promises that by the end of the lesson everybody will find the main idea anyway."
+  },
+  "letters": [],
+  "newWords": [
+    "maqala",
+    "fiqra",
+    "majalla",
+    "raisi",
+    "haraka",
+    "yukhammin",
+    "lafita",
+    "siyaq",
+    "safha",
+    "yatasaffahu"
+  ],
+  "grammar": [
+    "idafa",
+    "relative-pronouns"
+  ],
+  "pronunciation": [
+    "pausal-forms"
+  ],
+  "sentences": [
+    {
+      "id": "d86s1",
+      "ar": "قَرَأْتُ عُنْوَانَ الْمَقَالَةِ أَوَّلًا.",
+      "en": "I read the headline of the article first.",
+      "literal": "I-read headline (of) the article first",
+      "segs": [
+        [
+          "قَرَأْتُ",
+          "I read",
+          "verb"
+        ],
+        [
+          "عُنْوَانَ",
+          "headline, title (of)",
+          "noun"
+        ],
+        [
+          "الْمَقَالَةِ",
+          "the article",
+          "noun"
+        ],
+        [
+          "أَوَّلًا",
+          "first",
+          "adverb"
+        ]
+      ],
+      "grammar": [
+        "idafa",
+        "past-tense"
+      ],
+      "mistakes": [
+        {
+          "wrong": "قَرَأْتُ الْعُنْوَانَ الْمَقَالَةِ",
+          "right": "قَرَأْتُ عُنْوَانَ الْمَقَالَةِ",
+          "why": "The first noun of an iḍāfa never takes al-: ʿunwāna l-maqālati (the headline of the article). Headlines and articles are full of iḍāfa phrases like this."
+        }
+      ]
+    },
+    {
+      "id": "d86s2",
+      "ar": "الْفِكْرَةُ الرَّئِيسِيَّةُ فِي الْفِقْرَةِ الْأُولَى.",
+      "en": "The main idea is in the first paragraph.",
+      "literal": "the idea the main (is) in the paragraph the first",
+      "segs": [
+        [
+          "الْفِكْرَةُ",
+          "the idea",
+          "noun"
+        ],
+        [
+          "الرَّئِيسِيَّةُ",
+          "the main",
+          "adj"
+        ],
+        [
+          "فِي",
+          "in",
+          "prep"
+        ],
+        [
+          "الْفِقْرَةِ",
+          "the paragraph",
+          "noun"
+        ],
+        [
+          "الْأُولَى",
+          "the first (f)",
+          "adj"
+        ]
+      ],
+      "grammar": [
+        "adjective-agreement",
+        "nominal-sentence"
+      ],
+      "mistakes": [
+        {
+          "wrong": "الْفِكْرَةُ الرَّئِيسِيُّ",
+          "right": "الْفِكْرَةُ الرَّئِيسِيَّةُ",
+          "why": "فِكْرَة is feminine, so the adjective takes the feminine ending -iyya: al-fikratu r-raʾīsiyyatu."
+        }
+      ]
+    },
+    {
+      "id": "d86s3",
+      "ar": "هٰذِهِ هِيَ الْكَلِمَةُ الَّتِي لَا أَعْرِفُ مَعْنَاهَا.",
+      "en": "This is the word whose meaning I don't know.",
+      "literal": "this she the word which not I-know its-meaning",
+      "segs": [
+        [
+          "هٰذِهِ",
+          "this",
+          "demonstrative"
+        ],
+        [
+          "هِيَ",
+          "(it) is",
+          "pronoun"
+        ],
+        [
+          "الْكَلِمَةُ",
+          "the word",
+          "noun"
+        ],
+        [
+          "الَّتِي",
+          "which, that (f)",
+          "pronoun"
+        ],
+        [
+          "لَا",
+          "not",
+          "particle"
+        ],
+        [
+          "أَعْرِفُ",
+          "I know",
+          "verb"
+        ],
+        [
+          "مَعْنَاهَا",
+          "its meaning",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "relative-pronouns",
+        "negation-la"
+      ],
+      "mistakes": [
+        {
+          "wrong": "الْكَلِمَةُ الَّذِي",
+          "right": "الْكَلِمَةُ الَّتِي",
+          "why": "كَلِمَة is feminine, so use allatī, not alladhī. The -hā in maʿnāhā (its meaning) points back to the word."
+        }
+      ]
+    },
+    {
+      "id": "d86s4",
+      "ar": "أُخَمِّنُ مَعْنَى الْكَلِمَةِ مِنَ السِّيَاقِ وَمِنْ جَذْرِهَا.",
+      "en": "I guess the meaning of the word from the context and from its root.",
+      "literal": "I-guess meaning (of) the word from the context and from its-root",
+      "segs": [
+        [
+          "أُخَمِّنُ",
+          "I guess",
+          "verb"
+        ],
+        [
+          "مَعْنَى",
+          "meaning (of)",
+          "noun"
+        ],
+        [
+          "الْكَلِمَةِ",
+          "the word",
+          "noun"
+        ],
+        [
+          "مِنَ",
+          "from",
+          "prep"
+        ],
+        [
+          "السِّيَاقِ",
+          "the context",
+          "noun"
+        ],
+        [
+          "وَمِنْ",
+          "and from",
+          "prep"
+        ],
+        [
+          "جَذْرِهَا",
+          "its root",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "idafa",
+        "present-tense"
+      ],
+      "mistakes": [
+        {
+          "wrong": "أَخَمِّنُ",
+          "right": "أُخَمِّنُ",
+          "why": "khammana has a doubled middle letter, so its present forms start with u: ukhammin (I guess), yukhammin (he guesses), not akhammin."
+        }
+      ]
+    },
+    {
+      "id": "d86s5",
+      "ar": "فِي الْجَرَائِدِ وَالْمَجَلَّاتِ لَا نَرَى الْحَرَكَاتِ عَادَةً.",
+      "en": "In newspapers and magazines we don't usually see the vowel marks.",
+      "literal": "in the newspapers and the magazines not we-see the vowel-marks usually",
+      "segs": [
+        [
+          "فِي",
+          "in",
+          "prep"
+        ],
+        [
+          "الْجَرَائِدِ",
+          "the newspapers",
+          "noun"
+        ],
+        [
+          "وَالْمَجَلَّاتِ",
+          "and the magazines",
+          "noun"
+        ],
+        [
+          "لَا",
+          "not",
+          "particle"
+        ],
+        [
+          "نَرَى",
+          "we see",
+          "verb"
+        ],
+        [
+          "الْحَرَكَاتِ",
+          "the vowel marks",
+          "noun"
+        ],
+        [
+          "عَادَةً",
+          "usually",
+          "adverb"
+        ]
+      ],
+      "grammar": [
+        "negation-la",
+        "sound-plurals"
+      ],
+      "mistakes": [
+        {
+          "wrong": "لَا رَأَيْنَا",
+          "right": "لَا نَرَى",
+          "why": "lā negates the present: lā narā (we don't see). For the past, use mā: mā raʾaynā (we didn't see)."
+        }
+      ]
+    },
+    {
+      "id": "d86s6",
+      "ar": "تَصَفَّحْنَا الْجَرِيدَةَ الَّتِي أَحْضَرَهَا الْأُسْتَاذُ.",
+      "en": "We leafed through the newspaper that the teacher brought.",
+      "literal": "we-leafed-through the newspaper which he-brought-it the teacher",
+      "segs": [
+        [
+          "تَصَفَّحْنَا",
+          "we leafed through",
+          "verb"
+        ],
+        [
+          "الْجَرِيدَةَ",
+          "the newspaper",
+          "noun"
+        ],
+        [
+          "الَّتِي",
+          "which, that (f)",
+          "pronoun"
+        ],
+        [
+          "أَحْضَرَهَا",
+          "(he) brought it",
+          "verb"
+        ],
+        [
+          "الْأُسْتَاذُ",
+          "the teacher",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "relative-pronouns",
+        "past-tense"
+      ],
+      "mistakes": [
+        {
+          "wrong": "الْجَرِيدَةَ الَّتِي أَحْضَرَهُ",
+          "right": "الْجَرِيدَةَ الَّتِي أَحْضَرَهَا",
+          "why": "After allatī the verb needs a pronoun that points back to the feminine noun: aḥḍarahā (he brought it), not aḥḍarahu."
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Reading the newspaper in the library",
+    "speakers": [
+      {
+        "key": "karim",
+        "name": "Mr Karim",
+        "nameAr": "الْأُسْتَاذ كَرِيم"
+      },
+      {
+        "key": "daniel",
+        "name": "Daniel",
+        "nameAr": "دَانْيَال"
+      },
+      {
+        "key": "layla",
+        "name": "Layla",
+        "nameAr": "لَيْلَى"
+      },
+      {
+        "key": "sami",
+        "name": "Sami",
+        "nameAr": "سَامِي"
+      }
+    ],
+    "culture": "Almost everything adults read in Arabic, from newspapers and novels to street signs, menus and text messages, is written without vowel marks. Readers know the words and use the context, so كُتُب (books) and كَتَبَ (he wrote) look the same on paper and are still easy to tell apart. The marks appear in the Qur'an, in poetry, in children's books and in books for learners, and sometimes on a single word to avoid a misunderstanding.",
+    "lines": [
+      {
+        "id": "d86l1",
+        "sp": "karim",
+        "ar": "صَبَاحُ الْخَيْر! الْيَوْمَ نُرَاجِعُ الْقِرَاءَة، وَلِذٰلِكَ دَرْسُنَا هُنَا فِي الْمَكْتَبَة. أَحْضَرْتُ لَكُمْ جَرِيدَةَ الْيَوْم، وَمَجَلَّةً، وَقَائِمَةَ طَعَام.",
+        "en": "Good morning! Today we're reviewing reading, and that's why our lesson is here in the library. I've brought you today's newspaper, a magazine and a menu.",
+        "segs": [
+          [
+            "صَبَاحُ",
+            "morning (of)"
+          ],
+          [
+            "الْخَيْر",
+            "the goodness"
+          ],
+          [
+            "الْيَوْمَ",
+            "today"
+          ],
+          [
+            "نُرَاجِعُ",
+            "we review"
+          ],
+          [
+            "الْقِرَاءَة",
+            "the reading"
+          ],
+          [
+            "وَلِذٰلِكَ",
+            "and that's why"
+          ],
+          [
+            "دَرْسُنَا",
+            "our lesson"
+          ],
+          [
+            "هُنَا",
+            "here"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "الْمَكْتَبَة",
+            "the library"
+          ],
+          [
+            "أَحْضَرْتُ",
+            "I brought"
+          ],
+          [
+            "لَكُمْ",
+            "for you (all)"
+          ],
+          [
+            "جَرِيدَةَ",
+            "newspaper (of)"
+          ],
+          [
+            "الْيَوْم",
+            "the day ('today's')"
+          ],
+          [
+            "وَمَجَلَّةً",
+            "and a magazine"
+          ],
+          [
+            "وَقَائِمَةَ",
+            "and a list (of) ('a menu')"
+          ],
+          [
+            "طَعَام",
+            "food"
+          ]
+        ]
+      },
+      {
+        "id": "d86l2",
+        "sp": "daniel",
+        "ar": "قَبْلَ أَنْ نَبْدَأَ يَا أُسْتَاذ، قَرَأْتُ لَافِتَةً عَلَى الْبَاب: «الرَّجَاءُ الْهُدُوء». هَلْ يَجِبُ أَنْ نَتَكَلَّمَ بِصَوْت مُنْخَفِض هُنَا؟",
+        "en": "Before we start, sir, I read a sign on the door: 'Quiet, please'. Do we have to speak in a low voice here?",
+        "segs": [
+          [
+            "قَبْلَ",
+            "before"
+          ],
+          [
+            "أَنْ",
+            "that (+ verb)"
+          ],
+          [
+            "نَبْدَأَ",
+            "we start"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "أُسْتَاذ",
+            "teacher, sir"
+          ],
+          [
+            "قَرَأْتُ",
+            "I read"
+          ],
+          [
+            "لَافِتَةً",
+            "a sign"
+          ],
+          [
+            "عَلَى",
+            "on"
+          ],
+          [
+            "الْبَاب",
+            "the door"
+          ],
+          [
+            "الرَّجَاءُ",
+            "the request ('please')"
+          ],
+          [
+            "الْهُدُوء",
+            "the quiet"
+          ],
+          [
+            "هَلْ",
+            "(question word)"
+          ],
+          [
+            "يَجِبُ",
+            "(it) is necessary, must"
+          ],
+          [
+            "أَنْ",
+            "that (+ verb)"
+          ],
+          [
+            "نَتَكَلَّمَ",
+            "we speak"
+          ],
+          [
+            "بِصَوْت",
+            "with a voice"
+          ],
+          [
+            "مُنْخَفِض",
+            "low"
+          ],
+          [
+            "هُنَا",
+            "here"
+          ]
+        ]
+      },
+      {
+        "id": "d86l3",
+        "sp": "karim",
+        "ar": "نَعَم، أَحْسَنْتَ يَا دَانْيَال! اللَّافِتَاتُ قَصِيرَة جِدًّا، فَاقْرَأْهَا بِسُرْعَة. وَالْآنَ انْظُرُوا إِلَى الصَّفْحَةِ الْأُولَى مِنَ الْجَرِيدَة: مَا الْعُنْوَانُ الْكَبِير؟",
+        "en": "Yes, well done, Daniel! Signs are very short, so read them quickly. And now look at the first page of the newspaper: what's the big headline?",
+        "segs": [
+          [
+            "نَعَم",
+            "yes"
+          ],
+          [
+            "أَحْسَنْتَ",
+            "well done (to a man)"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "دَانْيَال",
+            "Daniel (first name)"
+          ],
+          [
+            "اللَّافِتَاتُ",
+            "the signs"
+          ],
+          [
+            "قَصِيرَة",
+            "short"
+          ],
+          [
+            "جِدًّا",
+            "very"
+          ],
+          [
+            "فَاقْرَأْهَا",
+            "so read them"
+          ],
+          [
+            "بِسُرْعَة",
+            "quickly (lit. with speed)"
+          ],
+          [
+            "وَالْآنَ",
+            "and now"
+          ],
+          [
+            "انْظُرُوا",
+            "look (you all)"
+          ],
+          [
+            "إِلَى",
+            "at, to"
+          ],
+          [
+            "الصَّفْحَةِ",
+            "the page"
+          ],
+          [
+            "الْأُولَى",
+            "the first (f)"
+          ],
+          [
+            "مِنَ",
+            "of, from"
+          ],
+          [
+            "الْجَرِيدَة",
+            "the newspaper"
+          ],
+          [
+            "مَا",
+            "what"
+          ],
+          [
+            "الْعُنْوَانُ",
+            "the headline, the title"
+          ],
+          [
+            "الْكَبِير",
+            "the big"
+          ]
+        ]
+      },
+      {
+        "id": "d86l4",
+        "sp": "layla",
+        "ar": "الْعُنْوَانُ: «حَدِيقَة جَدِيدَة فِي وَسَطِ الْقَاهِرَة». هٰذَا خَبَر جَمِيل! مَدِينَتُنَا تَصِيرُ خَضْرَاءَ، مِثْلَ تَقْدِيمِنَا فِي الْأُسْبُوعِ الْمَاضِي.",
+        "en": "The headline is: 'A new park in the centre of Cairo'. That's lovely news! Our city is becoming green, just like our presentation last week.",
+        "segs": [
+          [
+            "الْعُنْوَانُ",
+            "the headline"
+          ],
+          [
+            "حَدِيقَة",
+            "a park, a garden"
+          ],
+          [
+            "جَدِيدَة",
+            "new"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "وَسَطِ",
+            "centre (of)"
+          ],
+          [
+            "الْقَاهِرَة",
+            "Cairo (city)"
+          ],
+          [
+            "هٰذَا",
+            "this"
+          ],
+          [
+            "خَبَر",
+            "piece of news"
+          ],
+          [
+            "جَمِيل",
+            "lovely, beautiful"
+          ],
+          [
+            "مَدِينَتُنَا",
+            "our city"
+          ],
+          [
+            "تَصِيرُ",
+            "(it) is becoming"
+          ],
+          [
+            "خَضْرَاءَ",
+            "green (f)"
+          ],
+          [
+            "مِثْلَ",
+            "like"
+          ],
+          [
+            "تَقْدِيمِنَا",
+            "our presentation"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "الْأُسْبُوعِ",
+            "the week"
+          ],
+          [
+            "الْمَاضِي",
+            "the past ('last')"
+          ]
+        ]
+      },
+      {
+        "id": "d86l5",
+        "sp": "karim",
+        "ar": "مُمْتَاز. الْعُنْوَانُ يُعْطِينَا الْفِكْرَةَ الرَّئِيسِيَّة. لَا تَقْرَؤُوا كُلَّ كَلِمَة الْآن: تَصَفَّحُوا الْمَقَالَةَ، وَابْحَثُوا عَنِ الْأَرْقَامِ وَالْأَسْمَاء.",
+        "en": "Excellent. The headline gives us the main idea. Don't read every word now: skim through the article, and look for the numbers and the names.",
+        "segs": [
+          [
+            "مُمْتَاز",
+            "excellent"
+          ],
+          [
+            "الْعُنْوَانُ",
+            "the headline"
+          ],
+          [
+            "يُعْطِينَا",
+            "gives us"
+          ],
+          [
+            "الْفِكْرَةَ",
+            "the idea"
+          ],
+          [
+            "الرَّئِيسِيَّة",
+            "the main"
+          ],
+          [
+            "لَا",
+            "don't"
+          ],
+          [
+            "تَقْرَؤُوا",
+            "read (you all)"
+          ],
+          [
+            "كُلَّ",
+            "every"
+          ],
+          [
+            "كَلِمَة",
+            "word"
+          ],
+          [
+            "الْآن",
+            "now"
+          ],
+          [
+            "تَصَفَّحُوا",
+            "skim, leaf through (you all)"
+          ],
+          [
+            "الْمَقَالَةَ",
+            "the article"
+          ],
+          [
+            "وَابْحَثُوا",
+            "and look (you all)"
+          ],
+          [
+            "عَنِ",
+            "for (-i links to the next word)"
+          ],
+          [
+            "الْأَرْقَامِ",
+            "the numbers"
+          ],
+          [
+            "وَالْأَسْمَاء",
+            "and the names"
+          ]
+        ]
+      },
+      {
+        "id": "d86l6",
+        "sp": "sami",
+        "ar": "وَجَدْتُ رَقْمًا فِي الْفِقْرَةِ الثَّانِيَة: فِي الْحَدِيقَةِ أَلْفُ شَجَرَة. وَفِي الْفِقْرَةِ الثَّالِثَة: تُفْتَحُ الْحَدِيقَةُ يَوْمَ الْجُمُعَة.",
+        "en": "I found a number in the second paragraph: there are a thousand trees in the park. And in the third paragraph: the park opens on Friday.",
+        "segs": [
+          [
+            "وَجَدْتُ",
+            "I found"
+          ],
+          [
+            "رَقْمًا",
+            "a number"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "الْفِقْرَةِ",
+            "the paragraph"
+          ],
+          [
+            "الثَّانِيَة",
+            "the second"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "الْحَدِيقَةِ",
+            "the park"
+          ],
+          [
+            "أَلْفُ",
+            "a thousand"
+          ],
+          [
+            "شَجَرَة",
+            "tree(s)"
+          ],
+          [
+            "وَفِي",
+            "and in"
+          ],
+          [
+            "الْفِقْرَةِ",
+            "the paragraph"
+          ],
+          [
+            "الثَّالِثَة",
+            "the third"
+          ],
+          [
+            "تُفْتَحُ",
+            "(it) is opened ('opens')"
+          ],
+          [
+            "الْحَدِيقَةُ",
+            "the park"
+          ],
+          [
+            "يَوْمَ",
+            "on the day (of)"
+          ],
+          [
+            "الْجُمُعَة",
+            "Friday"
+          ]
+        ]
+      },
+      {
+        "id": "d86l7",
+        "sp": "daniel",
+        "ar": "وَهُنَاكَ كَلِمَة لَا أَعْرِفُهَا: «مَلْعَب». لٰكِنَّ الْمُشْكِلَةَ الْأَكْبَرَ هِيَ أَنَّ الْجَرِيدَةَ بِدُونِ حَرَكَات!",
+        "en": "And there's a word that I don't know: 'malʿab'. But the bigger problem is that the newspaper is printed without any vowel marks!",
+        "segs": [
+          [
+            "وَهُنَاكَ",
+            "and there is"
+          ],
+          [
+            "كَلِمَة",
+            "a word"
+          ],
+          [
+            "لَا",
+            "not"
+          ],
+          [
+            "أَعْرِفُهَا",
+            "I know it"
+          ],
+          [
+            "مَلْعَب",
+            "playground, sports ground"
+          ],
+          [
+            "لٰكِنَّ",
+            "but"
+          ],
+          [
+            "الْمُشْكِلَةَ",
+            "the problem"
+          ],
+          [
+            "الْأَكْبَرَ",
+            "the bigger"
+          ],
+          [
+            "هِيَ",
+            "(it) is"
+          ],
+          [
+            "أَنَّ",
+            "that"
+          ],
+          [
+            "الْجَرِيدَةَ",
+            "the newspaper"
+          ],
+          [
+            "بِدُونِ",
+            "without"
+          ],
+          [
+            "حَرَكَات",
+            "vowel marks"
+          ]
+        ]
+      },
+      {
+        "id": "d86l8",
+        "sp": "karim",
+        "ar": "صَحِيح. أَكْثَرُ الْجَرَائِدِ وَالْمَجَلَّاتِ تُكْتَبُ بِدُونِ حَرَكَات، وَنَحْنُ نَفْهَمُ الْكَلِمَةَ مِنَ السِّيَاق. أَمَّا فِي كِتَابِنَا، فَكُلُّ الْكَلِمَاتِ لَهَا حَرَكَات.",
+        "en": "That's right. Most newspapers and magazines are written without vowel marks, and we understand the word from the context. But in our book, all the words have vowel marks.",
+        "segs": [
+          [
+            "صَحِيح",
+            "right, correct"
+          ],
+          [
+            "أَكْثَرُ",
+            "most (of)"
+          ],
+          [
+            "الْجَرَائِدِ",
+            "the newspapers"
+          ],
+          [
+            "وَالْمَجَلَّاتِ",
+            "and the magazines"
+          ],
+          [
+            "تُكْتَبُ",
+            "(they) are written"
+          ],
+          [
+            "بِدُونِ",
+            "without"
+          ],
+          [
+            "حَرَكَات",
+            "vowel marks"
+          ],
+          [
+            "وَنَحْنُ",
+            "and we"
+          ],
+          [
+            "نَفْهَمُ",
+            "understand"
+          ],
+          [
+            "الْكَلِمَةَ",
+            "the word"
+          ],
+          [
+            "مِنَ",
+            "from"
+          ],
+          [
+            "السِّيَاق",
+            "the context"
+          ],
+          [
+            "أَمَّا",
+            "as for"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "كِتَابِنَا",
+            "our book"
+          ],
+          [
+            "فَكُلُّ",
+            "(then) all (of)"
+          ],
+          [
+            "الْكَلِمَاتِ",
+            "the words"
+          ],
+          [
+            "لَهَا",
+            "(they) have (lit. to them)"
+          ],
+          [
+            "حَرَكَات",
+            "vowel marks"
+          ]
+        ]
+      },
+      {
+        "id": "d86l9",
+        "sp": "layla",
+        "ar": "يَا دَانْيَال، اِبْحَثْ عَنِ الْجَذْرِ أَوَّلًا: «مَلْعَب» مِنْ «لَعِبَ». وَكَلِمَات مِثْلُ مَكْتَب وَمَطْبَخ تَعْنِي مَكَانًا. مَاذَا تُخَمِّنُ؟",
+        "en": "Daniel, look for the root first: 'malʿab' comes from 'laʿiba', to play. And words like 'maktab' and 'maṭbakh' mean a place. What do you guess?",
+        "segs": [
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "دَانْيَال",
+            "Daniel (first name)"
+          ],
+          [
+            "اِبْحَثْ",
+            "look (to a man)"
+          ],
+          [
+            "عَنِ",
+            "for (-i links to the next word)"
+          ],
+          [
+            "الْجَذْرِ",
+            "the root"
+          ],
+          [
+            "أَوَّلًا",
+            "first"
+          ],
+          [
+            "مَلْعَب",
+            "malʿab (playground)"
+          ],
+          [
+            "مِنْ",
+            "from"
+          ],
+          [
+            "لَعِبَ",
+            "(he) played"
+          ],
+          [
+            "وَكَلِمَات",
+            "and words"
+          ],
+          [
+            "مِثْلُ",
+            "like"
+          ],
+          [
+            "مَكْتَب",
+            "office, desk"
+          ],
+          [
+            "وَمَطْبَخ",
+            "and kitchen"
+          ],
+          [
+            "تَعْنِي",
+            "mean"
+          ],
+          [
+            "مَكَانًا",
+            "a place"
+          ],
+          [
+            "مَاذَا",
+            "what"
+          ],
+          [
+            "تُخَمِّنُ",
+            "do you guess"
+          ]
+        ]
+      },
+      {
+        "id": "d86l10",
+        "sp": "daniel",
+        "ar": "أُخَمِّنُ أَنَّ الْمَلْعَبَ مَكَان لِلَّعِب! إِذَنْ فِي الْحَدِيقَةِ الْجَدِيدَةِ مَلْعَب لِلْأَطْفَال أَيْضًا. هٰذِهِ الطَّرِيقَةُ مُفِيدَة جِدًّا!",
+        "en": "I guess that a malʿab is a place for playing! So there's also a playground for children in the new park. This method is really useful!",
+        "segs": [
+          [
+            "أُخَمِّنُ",
+            "I guess"
+          ],
+          [
+            "أَنَّ",
+            "that"
+          ],
+          [
+            "الْمَلْعَبَ",
+            "the malʿab"
+          ],
+          [
+            "مَكَان",
+            "(is) a place"
+          ],
+          [
+            "لِلَّعِب",
+            "for playing"
+          ],
+          [
+            "إِذَنْ",
+            "so, then"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "الْحَدِيقَةِ",
+            "the park"
+          ],
+          [
+            "الْجَدِيدَةِ",
+            "the new"
+          ],
+          [
+            "مَلْعَب",
+            "(there is) a playground"
+          ],
+          [
+            "لِلْأَطْفَال",
+            "for the children"
+          ],
+          [
+            "أَيْضًا",
+            "also"
+          ],
+          [
+            "هٰذِهِ",
+            "this"
+          ],
+          [
+            "الطَّرِيقَةُ",
+            "the method, the way"
+          ],
+          [
+            "مُفِيدَة",
+            "useful"
+          ],
+          [
+            "جِدًّا",
+            "very"
+          ]
+        ]
+      },
+      {
+        "id": "d86l11",
+        "sp": "karim",
+        "ar": "بِالضَّبْط! الْجَذْرُ وَالسِّيَاقُ صَدِيقَانِ لِلْقَارِئ. وَالْآنَ الْمَجَلَّة يَا سَامِي: اِقْرَأْ لَنَا الْمَقَالَةَ الَّتِي فِي الصَّفْحَةِ الْعَاشِرَة.",
+        "en": "Exactly! The root and the context are the reader's two friends. And now the magazine, Sami: read us the article that is on page ten.",
+        "segs": [
+          [
+            "بِالضَّبْط",
+            "exactly"
+          ],
+          [
+            "الْجَذْرُ",
+            "the root"
+          ],
+          [
+            "وَالسِّيَاقُ",
+            "and the context"
+          ],
+          [
+            "صَدِيقَانِ",
+            "(are) two friends"
+          ],
+          [
+            "لِلْقَارِئ",
+            "of the reader (lit. for the reader)"
+          ],
+          [
+            "وَالْآنَ",
+            "and now"
+          ],
+          [
+            "الْمَجَلَّة",
+            "the magazine"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "سَامِي",
+            "Sami (first name)"
+          ],
+          [
+            "اِقْرَأْ",
+            "read (to a man)"
+          ],
+          [
+            "لَنَا",
+            "to us, for us"
+          ],
+          [
+            "الْمَقَالَةَ",
+            "the article"
+          ],
+          [
+            "الَّتِي",
+            "which, that (f)"
+          ],
+          [
+            "فِي",
+            "(is) on, in"
+          ],
+          [
+            "الصَّفْحَةِ",
+            "the page"
+          ],
+          [
+            "الْعَاشِرَة",
+            "the tenth"
+          ]
+        ]
+      },
+      {
+        "id": "d86l12",
+        "sp": "sami",
+        "ar": "الْمَقَالَةُ عَنْ لَاعِبِ كُرَةِ قَدَم مِصْرِيّ. الْفِكْرَةُ الرَّئِيسِيَّةُ فِي الْفِقْرَةِ الْأُولَى: هُوَ اللَّاعِبُ الَّذِي سَجَّلَ هَدَفَيْنِ فِي الْمُبَارَاةِ الْأَخِيرَة.",
+        "en": "The article is about an Egyptian footballer. The main idea is in the first paragraph: he's the player who scored two goals in the last match.",
+        "segs": [
+          [
+            "الْمَقَالَةُ",
+            "the article"
+          ],
+          [
+            "عَنْ",
+            "(is) about"
+          ],
+          [
+            "لَاعِبِ",
+            "player (of)"
+          ],
+          [
+            "كُرَةِ",
+            "ball (of)"
+          ],
+          [
+            "قَدَم",
+            "foot ('football')"
+          ],
+          [
+            "مِصْرِيّ",
+            "Egyptian"
+          ],
+          [
+            "الْفِكْرَةُ",
+            "the idea"
+          ],
+          [
+            "الرَّئِيسِيَّةُ",
+            "the main"
+          ],
+          [
+            "فِي",
+            "(is) in"
+          ],
+          [
+            "الْفِقْرَةِ",
+            "the paragraph"
+          ],
+          [
+            "الْأُولَى",
+            "the first (f)"
+          ],
+          [
+            "هُوَ",
+            "he (is)"
+          ],
+          [
+            "اللَّاعِبُ",
+            "the player"
+          ],
+          [
+            "الَّذِي",
+            "who"
+          ],
+          [
+            "سَجَّلَ",
+            "scored (lit. recorded)"
+          ],
+          [
+            "هَدَفَيْنِ",
+            "two goals"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "الْمُبَارَاةِ",
+            "the match"
+          ],
+          [
+            "الْأَخِيرَة",
+            "the last"
+          ]
+        ]
+      },
+      {
+        "id": "d86l13",
+        "sp": "layla",
+        "ar": "وَأَنَا قَرَأْتُ الْقَائِمَة: «فُول، فَلَافِل، شَاي بِالنَّعْنَاع». فِي الْمَطْعَمِ لَا أَقْرَأُ كُلَّ شَيْء؛ أَبْحَثُ فَقَطْ عَنِ الْأَكْلِ الَّذِي أُحِبُّهُ وَعَنِ الْأَسْعَار.",
+        "en": "And I read the menu: 'Fūl, falafel, mint tea'. In a restaurant I don't read everything; I only look for the food that I love and for the prices.",
+        "segs": [
+          [
+            "وَأَنَا",
+            "and I"
+          ],
+          [
+            "قَرَأْتُ",
+            "read (I read, past)"
+          ],
+          [
+            "الْقَائِمَة",
+            "the menu, the list"
+          ],
+          [
+            "فُول",
+            "fava beans (fūl)"
+          ],
+          [
+            "فَلَافِل",
+            "falafel"
+          ],
+          [
+            "شَاي",
+            "tea"
+          ],
+          [
+            "بِالنَّعْنَاع",
+            "with mint"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "الْمَطْعَمِ",
+            "the restaurant"
+          ],
+          [
+            "لَا",
+            "not, don't"
+          ],
+          [
+            "أَقْرَأُ",
+            "I read"
+          ],
+          [
+            "كُلَّ",
+            "every"
+          ],
+          [
+            "شَيْء",
+            "thing"
+          ],
+          [
+            "أَبْحَثُ",
+            "I look"
+          ],
+          [
+            "فَقَطْ",
+            "only"
+          ],
+          [
+            "عَنِ",
+            "for (-i links to the next word)"
+          ],
+          [
+            "الْأَكْلِ",
+            "the food"
+          ],
+          [
+            "الَّذِي",
+            "that, which"
+          ],
+          [
+            "أُحِبُّهُ",
+            "I love (it)"
+          ],
+          [
+            "وَعَنِ",
+            "and for"
+          ],
+          [
+            "الْأَسْعَار",
+            "the prices"
+          ]
+        ]
+      },
+      {
+        "id": "d86l14",
+        "sp": "karim",
+        "ar": "هٰذِهِ هِيَ الْقِرَاءَةُ الذَّكِيَّة: الْعُنْوَانُ أَوَّلًا، ثُمَّ الْفِكْرَةُ الرَّئِيسِيَّة، ثُمَّ الْجَذْرُ وَالسِّيَاقُ لِلْكَلِمَاتِ الصَّعْبَة. لَا تَحْتَاجُونَ إِلَى الْقَامُوسِ دَائِمًا.",
+        "en": "That's smart reading: the headline first, then the main idea, then the root and the context for the difficult words. You don't always need the dictionary.",
+        "segs": [
+          [
+            "هٰذِهِ",
+            "this"
+          ],
+          [
+            "هِيَ",
+            "is (lit. she)"
+          ],
+          [
+            "الْقِرَاءَةُ",
+            "the reading"
+          ],
+          [
+            "الذَّكِيَّة",
+            "the smart, the clever"
+          ],
+          [
+            "الْعُنْوَانُ",
+            "the headline"
+          ],
+          [
+            "أَوَّلًا",
+            "first"
+          ],
+          [
+            "ثُمَّ",
+            "then"
+          ],
+          [
+            "الْفِكْرَةُ",
+            "the idea"
+          ],
+          [
+            "الرَّئِيسِيَّة",
+            "the main"
+          ],
+          [
+            "ثُمَّ",
+            "then"
+          ],
+          [
+            "الْجَذْرُ",
+            "the root"
+          ],
+          [
+            "وَالسِّيَاقُ",
+            "and the context"
+          ],
+          [
+            "لِلْكَلِمَاتِ",
+            "for the words"
+          ],
+          [
+            "الصَّعْبَة",
+            "the difficult"
+          ],
+          [
+            "لَا",
+            "not, don't"
+          ],
+          [
+            "تَحْتَاجُونَ",
+            "you (all) need"
+          ],
+          [
+            "إِلَى",
+            "(to, after 'need')"
+          ],
+          [
+            "الْقَامُوسِ",
+            "the dictionary"
+          ],
+          [
+            "دَائِمًا",
+            "always"
+          ]
+        ]
+      },
+      {
+        "id": "d86l15",
+        "sp": "daniel",
+        "ar": "شُكْرًا يَا أُسْتَاذ! مِنَ الْيَوْمِ سَأَتَصَفَّحُ الْجَرِيدَةَ كُلَّ صَبَاح، وَيَوْمَ الْجُمُعَة سَأَذْهَبُ إِلَى الْحَدِيقَةِ الْجَدِيدَة لِأَرَى الْأَشْجَارَ بِنَفْسِي!",
+        "en": "Thank you, sir! From today I'll leaf through the newspaper every morning, and on Friday I'll go to the new park to see the trees for myself!",
+        "segs": [
+          [
+            "شُكْرًا",
+            "thank you"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "أُسْتَاذ",
+            "teacher, sir"
+          ],
+          [
+            "مِنَ",
+            "from"
+          ],
+          [
+            "الْيَوْمِ",
+            "today (lit. the day)"
+          ],
+          [
+            "سَأَتَصَفَّحُ",
+            "I will leaf through"
+          ],
+          [
+            "الْجَرِيدَةَ",
+            "the newspaper"
+          ],
+          [
+            "كُلَّ",
+            "every"
+          ],
+          [
+            "صَبَاح",
+            "morning"
+          ],
+          [
+            "وَيَوْمَ",
+            "and on the day (of)"
+          ],
+          [
+            "الْجُمُعَة",
+            "Friday"
+          ],
+          [
+            "سَأَذْهَبُ",
+            "I will go"
+          ],
+          [
+            "إِلَى",
+            "to"
+          ],
+          [
+            "الْحَدِيقَةِ",
+            "the park"
+          ],
+          [
+            "الْجَدِيدَة",
+            "the new"
+          ],
+          [
+            "لِأَرَى",
+            "to see, so that I see"
+          ],
+          [
+            "الْأَشْجَارَ",
+            "the trees"
+          ],
+          [
+            "بِنَفْسِي",
+            "myself (lit. with myself)"
+          ]
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "title": "Smart reading in the library",
+    "ar": "فِي يَوْمِ الْمُرَاجَعَةِ دَرَسَ الطُّلَّابُ فِي الْمَكْتَبَة. قَرَؤُوا عُنْوَانَ الْجَرِيدَةِ: «حَدِيقَة جَدِيدَة فِي وَسَطِ الْقَاهِرَة». ثُمَّ وَجَدَ سَامِي أَنَّ الْحَدِيقَةَ تُفْتَحُ يَوْمَ الْجُمُعَة. أَمَّا دَانْيَال فَخَمَّنَ مَعْنَى كَلِمَة صَعْبَة مِنْ جَذْرِهَا. وَقَالَ الْأُسْتَاذ كَرِيم إِنَّ الْقَارِئَ الَّذِي يَعْرِفُ الْجَذْرَ لَا يَحْتَاجُ إِلَى الْقَامُوسِ دَائِمًا.",
+    "en": "On review day the students studied in the library. They read the newspaper's headline: 'A new park in the centre of Cairo'. Then Sami found that the park opens on Friday. As for Daniel, he guessed the meaning of a difficult word from its root. And Mr Karim said that a reader who knows the root does not always need the dictionary.",
+    "segs": [
+      [
+        "فِي",
+        "on"
+      ],
+      [
+        "يَوْمِ",
+        "day (of)"
+      ],
+      [
+        "الْمُرَاجَعَةِ",
+        "the review"
+      ],
+      [
+        "دَرَسَ",
+        "(they) studied"
+      ],
+      [
+        "الطُّلَّابُ",
+        "the students"
+      ],
+      [
+        "فِي",
+        "in"
+      ],
+      [
+        "الْمَكْتَبَة",
+        "the library"
+      ],
+      [
+        "قَرَؤُوا",
+        "they read"
+      ],
+      [
+        "عُنْوَانَ",
+        "headline (of)"
+      ],
+      [
+        "الْجَرِيدَةِ",
+        "the newspaper"
+      ],
+      [
+        "حَدِيقَة",
+        "a park"
+      ],
+      [
+        "جَدِيدَة",
+        "new"
+      ],
+      [
+        "فِي",
+        "in"
+      ],
+      [
+        "وَسَطِ",
+        "centre (of)"
+      ],
+      [
+        "الْقَاهِرَة",
+        "Cairo (city)"
+      ],
+      [
+        "ثُمَّ",
+        "then"
+      ],
+      [
+        "وَجَدَ",
+        "(he) found"
+      ],
+      [
+        "سَامِي",
+        "Sami (first name)"
+      ],
+      [
+        "أَنَّ",
+        "that"
+      ],
+      [
+        "الْحَدِيقَةَ",
+        "the park"
+      ],
+      [
+        "تُفْتَحُ",
+        "(it) is opened ('opens')"
+      ],
+      [
+        "يَوْمَ",
+        "on the day (of)"
+      ],
+      [
+        "الْجُمُعَة",
+        "Friday"
+      ],
+      [
+        "أَمَّا",
+        "as for"
+      ],
+      [
+        "دَانْيَال",
+        "Daniel (first name)"
+      ],
+      [
+        "فَخَمَّنَ",
+        "(then) he guessed"
+      ],
+      [
+        "مَعْنَى",
+        "meaning (of)"
+      ],
+      [
+        "كَلِمَة",
+        "a word"
+      ],
+      [
+        "صَعْبَة",
+        "difficult"
+      ],
+      [
+        "مِنْ",
+        "from"
+      ],
+      [
+        "جَذْرِهَا",
+        "its root"
+      ],
+      [
+        "وَقَالَ",
+        "and (he) said"
+      ],
+      [
+        "الْأُسْتَاذ",
+        "the teacher, Mr"
+      ],
+      [
+        "كَرِيم",
+        "Karim (first name)"
+      ],
+      [
+        "إِنَّ",
+        "that (after 'said')"
+      ],
+      [
+        "الْقَارِئَ",
+        "the reader"
+      ],
+      [
+        "الَّذِي",
+        "who"
+      ],
+      [
+        "يَعْرِفُ",
+        "knows"
+      ],
+      [
+        "الْجَذْرَ",
+        "the root"
+      ],
+      [
+        "لَا",
+        "not"
+      ],
+      [
+        "يَحْتَاجُ",
+        "(he) needs"
+      ],
+      [
+        "إِلَى",
+        "(to, after 'need')"
+      ],
+      [
+        "الْقَامُوسِ",
+        "the dictionary"
+      ],
+      [
+        "دَائِمًا",
+        "always"
+      ]
+    ]
+  },
+  "review": [
+    "unwan",
+    "jarida",
+    "jidhr",
+    "mana",
+    "qaima",
+    "fikra"
+  ],
+  "quiz": [
+    {
+      "id": "d86q1",
+      "prompt": "What is the big headline on the first page of the newspaper about?",
+      "options": [
+        "a new park in the centre of Cairo",
+        "a new library",
+        "an Egyptian footballer",
+        "a new restaurant"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "d86q2",
+      "prompt": "What does this mean?",
+      "ar": "الْفِكْرَةُ الرَّئِيسِيَّةُ",
+      "options": [
+        "the main idea",
+        "the first paragraph",
+        "the big headline",
+        "the difficult word"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "d86q3",
+      "prompt": "According to the article, when does the new park open?",
+      "options": [
+        "on Thursday",
+        "on Friday",
+        "on Saturday",
+        "on Sunday"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "d86q4",
+      "prompt": "How does Daniel find the meaning of مَلْعَب?",
+      "options": [
+        "He looks it up in the dictionary.",
+        "He guesses it from the root and the pattern.",
+        "Sami translates it for him.",
+        "He finds a picture in the newspaper."
+      ],
+      "answer": 1,
+      "explain": "Layla tells him to look for the root: مَلْعَب comes from لَعِبَ (to play), and the pattern ma-…-a- means a place, so a malʿab is a place for playing."
+    },
+    {
+      "id": "d86q5",
+      "prompt": "Fill the gap: 'This is the word whose meaning I don't know.'",
+      "ar": "هٰذِهِ هِيَ الْكَلِمَةُ … لَا أَعْرِفُ مَعْنَاهَا.",
+      "options": [
+        "الَّتِي",
+        "الَّذِي",
+        "الَّذِينَ",
+        "مَنْ"
+      ],
+      "answer": 0,
+      "explain": "كَلِمَة is feminine and has al-, so the relative word is الَّتِي."
+    },
+    {
+      "id": "d86q6",
+      "prompt": "According to Mr Karim, which texts are written without vowel marks?",
+      "options": [
+        "our course book",
+        "most newspapers and magazines",
+        "only children's books",
+        "only menus"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "d86q7",
+      "prompt": "At the end of a sentence (the pausal form), how do you say مَجَلَّة?",
+      "options": [
+        "majalla",
+        "majallatun",
+        "majallati",
+        "majallan"
+      ],
+      "answer": 0,
+      "explain": "At a stop, the ة ending loses its case vowel and becomes a plain -a: majalla."
+    }
+  ],
+  "completion": "Mabrūk! You reviewed reading: you can find the main idea of an article from its headline and first paragraph, read a sign and a menu quickly, and guess a new word from its root and the context, even without vowel marks. Pass the quiz with 80% to finish the day.",
+  "status": "needs-review"
+}

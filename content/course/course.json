@@ -2096,7 +2096,125 @@
      "title": "Next steps"
     }
    ],
-   "test": []
+   "test": [
+   {
+    "id": "w13t1",
+    "prompt": "How do you answer السَّلَامُ عَلَيْكُمْ?",
+    "options": [
+     "صَبَاحُ النُّور",
+     "وَعَلَيْكُمُ السَّلَامُ",
+     "مَعَ السَّلَامَة",
+     "شُكْرًا"
+    ],
+    "answer": 1
+   },
+   {
+    "id": "w13t2",
+    "prompt": "What is ثَلَاثَة + خَمْسَة?",
+    "options": [
+     "عَشَرَة",
+     "سِتَّة",
+     "ثَمَانِيَة",
+     "تِسْعَة"
+    ],
+    "answer": 2
+   },
+   {
+    "id": "w13t3",
+    "prompt": "What time is it?",
+    "ar": "السَّاعَةُ الثَّالِثَةُ وَالنِّصْفُ.",
+    "options": [
+     "It's three o'clock.",
+     "It's half past three.",
+     "It's a quarter to three.",
+     "It's half past two."
+    ],
+    "answer": 1
+   },
+   {
+    "id": "w13t4",
+    "prompt": "What does this mean?",
+    "ar": "أُخْتِي أَصْغَرُ مِنِّي.",
+    "options": [
+     "My sister is taller than me.",
+     "My brother is older than me.",
+     "My sister is very young.",
+     "My sister is younger than me."
+    ],
+    "answer": 3
+   },
+   {
+    "id": "w13t5",
+    "prompt": "Complete: أَمْسِ ___ قَهْوَةً مَعَ أَخِي.",
+    "options": [
+     "أَشْرَبُ",
+     "سَأَشْرَبُ",
+     "شَرِبْتُ",
+     "اِشْرَبْ"
+    ],
+    "answer": 2,
+    "explain": "أَمْسِ (yesterday) needs the past: شَرِبْتُ (I drank)."
+   },
+   {
+    "id": "w13t6",
+    "prompt": "How do you say 'I didn't go to the station'?",
+    "options": [
+     "لَنْ أَذْهَبَ إِلَى الْمَحَطَّة.",
+     "لَمْ أَذْهَبْ إِلَى الْمَحَطَّة.",
+     "لَا أَذْهَبُ إِلَى الْمَحَطَّة.",
+     "سَأَذْهَبُ إِلَى الْمَحَطَّة."
+    ],
+    "answer": 1,
+    "explain": "لَمْ + the present form with a sukūn ending means 'did not'."
+   },
+   {
+    "id": "w13t7",
+    "prompt": "What does this mean?",
+    "ar": "سَنُسَافِرُ بِالْقِطَارِ غَدًا.",
+    "options": [
+     "We will travel by train tomorrow.",
+     "We travelled by train yesterday.",
+     "We don't travel by train.",
+     "Travel by train tomorrow!"
+    ],
+    "answer": 0
+   },
+   {
+    "id": "w13t8",
+    "prompt": "What does this mean?",
+    "ar": "إِذَا شَرِبْتَ قَهْوَةً مَسَاءً، لَا تَنَامُ.",
+    "options": [
+     "You drank coffee and slept well.",
+     "Don't drink coffee in the morning.",
+     "If you drink coffee in the evening, you don't sleep.",
+     "When I sleep, I don't drink coffee."
+    ],
+    "answer": 2
+   },
+   {
+    "id": "w13t9",
+    "prompt": "Which sentence is passive?",
+    "options": [
+     "كَتَبَ دَانْيَال الرِّسَالَةَ.",
+     "سَأَكْتُبُ رِسَالَةً.",
+     "لَمْ أَكْتُبِ الرِّسَالَةَ.",
+     "كُتِبَتِ الرِّسَالَةُ أَمْسِ."
+    ],
+    "answer": 3,
+    "explain": "كُتِبَتْ (it was written) has the passive vowels u-i."
+   },
+   {
+    "id": "w13t10",
+    "prompt": "Which line opens a formal letter to a man?",
+    "options": [
+     "مَرْحَبًا يَا صَدِيقِي",
+     "مَعَ السَّلَامَة",
+     "السَّيِّدُ الْمُدِيرُ الْمُحْتَرَمُ",
+     "صَبَاحُ الْخَيْر"
+    ],
+    "answer": 2
+   }
+  ]
   }
  ],
  "levels": [

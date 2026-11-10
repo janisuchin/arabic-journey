@@ -1,0 +1,1762 @@
+{
+  "day": 89,
+  "week": 13,
+  "phase": 7,
+  "level": 9,
+  "title": "Final exam",
+  "titleAr": "الِامْتِحَان النِّهَائِيّ",
+  "titleSegs": [
+    [
+      "الِامْتِحَان",
+      "the exam"
+    ],
+    [
+      "النِّهَائِيّ",
+      "the final"
+    ]
+  ],
+  "emoji": "📝",
+  "summary": "Take the course's final exam: understand its four parts, its rules and the time allowed, talk about questions, answers and marks, say who passed (نَجَحَ) or failed (رَسَبَ), and congratulate with مَبْرُوك.",
+  "intro": "Today is the day of the final exam, الِامْتِحَان النِّهَائِيّ. You will hear the words every student needs on exam day: question and answer (سُؤَال, إِجَابَة), mark (عَلَامَة), the time allowed (الْمُدَّة), to pass and to fail (نَجَحَ, رَسَبَ). The day's sentences sweep the whole course: greetings, numbers and time, past, present and future, comparatives like أَصْعَبَ, if-sentences with إِذَا, إِنْ and لَوْ, and the passive (تُكْتَبُ الْإِجَابَاتُ, the answers are written). Read them aloud with their case endings: -u for the subject, -a after kāna, inna and in objects, -i after a preposition. And when someone passes, say مَبْرُوك!",
+  "objectives": [
+    "Understand the four parts of an exam, its rules and the time allowed (مُدَّة)",
+    "Talk about questions, answers and marks, and say who passed (نَجَحَ) or failed (رَسَبَ)",
+    "Use if-sentences and the passive from Week 12 in a review of the whole course",
+    "Read exam sentences aloud with clear case endings: -u, -a and -i"
+  ],
+  "realLife": {
+    "emoji": "🎓",
+    "title": "The big day",
+    "story": "It's nine o'clock in the morning, and the classroom has become an exam hall: one desk per student, with a sheet of paper and a pen on each one. Daniel revised until one in the morning and is very nervous; Layla tries to calm him down. Mr Karim explains the four parts and the rules, and in the afternoon everyone comes back to hear the results."
+  },
+  "letters": [],
+  "newWords": [
+    "najaha",
+    "rasaba",
+    "ijaba",
+    "mutawattir",
+    "alama",
+    "mudda",
+    "najah",
+    "mumtaz",
+    "mabruk",
+    "waraqa"
+  ],
+  "grammar": [
+    "conditional-w12",
+    "passive-w12"
+  ],
+  "pronunciation": [
+    "case-endings"
+  ],
+  "sentences": [
+    {
+      "id": "d89s1",
+      "ar": "إِذَا كُنْتَ مُتَوَتِّرًا، فَخُذْ نَفَسًا عَمِيقًا.",
+      "en": "If you're nervous, take a deep breath.",
+      "literal": "if you were nervous, so take a breath deep",
+      "segs": [
+        [
+          "إِذَا",
+          "if",
+          "particle"
+        ],
+        [
+          "كُنْتَ",
+          "you were ('are', to a man)",
+          "verb"
+        ],
+        [
+          "مُتَوَتِّرًا",
+          "nervous (-an after kāna)",
+          "adj"
+        ],
+        [
+          "فَخُذْ",
+          "then take! (to a man)",
+          "verb"
+        ],
+        [
+          "نَفَسًا",
+          "a breath",
+          "noun"
+        ],
+        [
+          "عَمِيقًا",
+          "deep",
+          "adj"
+        ]
+      ],
+      "grammar": [
+        "conditional-w12",
+        "kana"
+      ],
+      "mistakes": [
+        {
+          "wrong": "إِذَا كُنْتَ مُتَوَتِّرٌ",
+          "right": "إِذَا كُنْتَ مُتَوَتِّرًا",
+          "why": "After kāna (kunta) the describing word ends in -an: mutawattiran, not mutawattirun. Say the ending clearly."
+        }
+      ]
+    },
+    {
+      "id": "d89s2",
+      "ar": "مُدَّةُ الِامْتِحَانِ سَاعَتَانِ.",
+      "en": "The exam lasts two hours.",
+      "literal": "length (of) the exam (is) two hours",
+      "segs": [
+        [
+          "مُدَّةُ",
+          "length of time (of)",
+          "noun"
+        ],
+        [
+          "الِامْتِحَانِ",
+          "the exam",
+          "noun"
+        ],
+        [
+          "سَاعَتَانِ",
+          "two hours",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "idafa",
+        "dual",
+        "nominal-sentence"
+      ],
+      "mistakes": [
+        {
+          "wrong": "مُدَّةُ الِامْتِحَانِ اثْنَانِ سَاعَة",
+          "right": "مُدَّةُ الِامْتِحَانِ سَاعَتَانِ",
+          "why": "For two of something, Arabic puts the dual ending -āni on the noun itself (sāʿatāni) and does not use the number two."
+        }
+      ]
+    },
+    {
+      "id": "d89s3",
+      "ar": "تُكْتَبُ الْإِجَابَاتُ عَلَى الْوَرَقَةِ بِالْقَلَمِ.",
+      "en": "The answers are written on the paper in pen.",
+      "literal": "are written the answers on the paper with the pen",
+      "segs": [
+        [
+          "تُكْتَبُ",
+          "(they) are written (f)",
+          "verb"
+        ],
+        [
+          "الْإِجَابَاتُ",
+          "the answers",
+          "noun"
+        ],
+        [
+          "عَلَى",
+          "on",
+          "prep"
+        ],
+        [
+          "الْوَرَقَةِ",
+          "the paper, the sheet",
+          "noun"
+        ],
+        [
+          "بِالْقَلَمِ",
+          "with the pen ('in pen')",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "passive-w12",
+        "non-human-plural"
+      ],
+      "mistakes": [
+        {
+          "wrong": "تَكْتُبُ الْإِجَابَاتُ",
+          "right": "تُكْتَبُ الْإِجَابَاتُ",
+          "why": "The passive changes the vowels: taktubu (she writes) becomes tuktabu (it is written)."
+        }
+      ]
+    },
+    {
+      "id": "d89s4",
+      "ar": "نَجَحَ كُلُّ الطُّلَّابِ فِي الِامْتِحَانِ.",
+      "en": "All the students passed the exam.",
+      "literal": "passed all (of) the students in the exam",
+      "segs": [
+        [
+          "نَجَحَ",
+          "(he) passed, succeeded",
+          "verb"
+        ],
+        [
+          "كُلُّ",
+          "all (of)",
+          "noun"
+        ],
+        [
+          "الطُّلَّابِ",
+          "the students",
+          "noun"
+        ],
+        [
+          "فِي",
+          "in",
+          "prep"
+        ],
+        [
+          "الِامْتِحَانِ",
+          "the exam",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "verbal-sentence",
+        "past-tense"
+      ],
+      "mistakes": [
+        {
+          "wrong": "نَجَحُوا كُلُّ الطُّلَّابِ",
+          "right": "نَجَحَ كُلُّ الطُّلَّابِ",
+          "why": "When the verb comes before its subject, it stays singular: najaḥa kullu ṭ-ṭullābi."
+        }
+      ]
+    },
+    {
+      "id": "d89s5",
+      "ar": "إِنْ دَرَسْتَ كُلَّ يَوْمٍ، فَلَنْ تَرْسُبَ.",
+      "en": "If you study every day, you won't fail.",
+      "literal": "if you studied every day, so you will not fail",
+      "segs": [
+        [
+          "إِنْ",
+          "if",
+          "particle"
+        ],
+        [
+          "دَرَسْتَ",
+          "you studied ('study', to a man)",
+          "verb"
+        ],
+        [
+          "كُلَّ",
+          "every",
+          "noun"
+        ],
+        [
+          "يَوْمٍ",
+          "day",
+          "noun"
+        ],
+        [
+          "فَلَنْ",
+          "then will not",
+          "particle"
+        ],
+        [
+          "تَرْسُبَ",
+          "you fail (to a man)",
+          "verb"
+        ]
+      ],
+      "grammar": [
+        "conditional-w12",
+        "negation-lan"
+      ],
+      "mistakes": [
+        {
+          "wrong": "إِنْ دَرَسْتَ كُلَّ يَوْمٍ، لَنْ تَرْسُبَ",
+          "right": "إِنْ دَرَسْتَ كُلَّ يَوْمٍ، فَلَنْ تَرْسُبَ",
+          "why": "When the answer to an if-sentence starts with lan, put fa- in front of it: fa-lan tarsuba."
+        }
+      ]
+    },
+    {
+      "id": "d89s6",
+      "ar": "أُعْلِنَتِ النَّتَائِجُ، وَحَصَلَ دَانْيَال عَلَى عَلَامَةٍ مُمْتَازَةٍ.",
+      "en": "The results were announced, and Daniel got an excellent mark.",
+      "literal": "were announced the results, and got Daniel on a mark excellent",
+      "segs": [
+        [
+          "أُعْلِنَتِ",
+          "(they) were announced (f; -i links to the next word)",
+          "verb"
+        ],
+        [
+          "النَّتَائِجُ",
+          "the results",
+          "noun"
+        ],
+        [
+          "وَحَصَلَ",
+          "and (he) got",
+          "verb"
+        ],
+        [
+          "دَانْيَال",
+          "Daniel (first name)",
+          "name"
+        ],
+        [
+          "عَلَى",
+          "on (ḥaṣala ʿalā: to get)",
+          "prep"
+        ],
+        [
+          "عَلَامَةٍ",
+          "a mark",
+          "noun"
+        ],
+        [
+          "مُمْتَازَةٍ",
+          "excellent (f)",
+          "adj"
+        ]
+      ],
+      "grammar": [
+        "passive-w12",
+        "adjective-agreement"
+      ],
+      "mistakes": [
+        {
+          "wrong": "أُعْلِنَ النَّتَائِجُ",
+          "right": "أُعْلِنَتِ النَّتَائِجُ",
+          "why": "Plurals of things take a feminine singular verb: uʿlinat-i n-natāʾiju."
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Exam day",
+    "speakers": [
+      {
+        "key": "karim",
+        "name": "Mr Karim",
+        "nameAr": "الْأُسْتَاذ كَرِيم"
+      },
+      {
+        "key": "sami",
+        "name": "Sami",
+        "nameAr": "سَامِي"
+      },
+      {
+        "key": "daniel",
+        "name": "Daniel",
+        "nameAr": "دَانْيَال"
+      },
+      {
+        "key": "layla",
+        "name": "Layla",
+        "nameAr": "لَيْلَى"
+      }
+    ],
+    "culture": "In the Arab world, exam results are a family event. When the results of the big school-leaving exam are announced, families share sweets, phones ring all evening and everybody says مَبْرُوك (congratulations). Marks are often given out of a hundred, and the best students are named in the newspaper. The polite answer to مَبْرُوك is 'Allāh yubārik fīk' (God bless you).",
+    "lines": [
+      {
+        "id": "d89l1",
+        "sp": "karim",
+        "ar": "صَبَاحُ الْخَيْر يَا شَبَاب! الْيَوْمَ يَوْمٌ مُهِمّ: الِامْتِحَانُ النِّهَائِيّ. هَلْ أَنْتُمْ مُسْتَعِدُّونَ؟ أَرَى أَنَّ بَعْضَكُمْ مُتَوَتِّرٌ قَلِيلًا.",
+        "en": "Good morning, everyone! Today is an important day: the final exam. Are you ready? I can see that some of you are a little nervous.",
+        "segs": [
+          [
+            "صَبَاحُ",
+            "morning (of)"
+          ],
+          [
+            "الْخَيْر",
+            "the goodness"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "شَبَاب",
+            "young people ('everyone')"
+          ],
+          [
+            "الْيَوْمَ",
+            "today"
+          ],
+          [
+            "يَوْمٌ",
+            "a day"
+          ],
+          [
+            "مُهِمّ",
+            "important"
+          ],
+          [
+            "الِامْتِحَانُ",
+            "the exam"
+          ],
+          [
+            "النِّهَائِيّ",
+            "the final"
+          ],
+          [
+            "هَلْ",
+            "(starts a yes/no question)"
+          ],
+          [
+            "أَنْتُمْ",
+            "you (all)"
+          ],
+          [
+            "مُسْتَعِدُّونَ",
+            "ready, prepared (plural)"
+          ],
+          [
+            "أَرَى",
+            "I see"
+          ],
+          [
+            "أَنَّ",
+            "that"
+          ],
+          [
+            "بَعْضَكُمْ",
+            "some of you (-a after anna)"
+          ],
+          [
+            "مُتَوَتِّرٌ",
+            "nervous"
+          ],
+          [
+            "قَلِيلًا",
+            "a little"
+          ]
+        ]
+      },
+      {
+        "id": "d89l2",
+        "sp": "daniel",
+        "ar": "نَعَم، أَنَا مُتَوَتِّر جِدًّا! لَمْ أَنَمْ جَيِّدًا أَمْسِ، لِأَنِّي رَاجَعْتُ كُلَّ الدُّرُوس حَتَّى السَّاعَةِ الْوَاحِدَةِ لَيْلًا.",
+        "en": "Yes, I'm very nervous! I didn't sleep well yesterday, because I revised all the lessons until one o'clock at night.",
+        "segs": [
+          [
+            "نَعَم",
+            "yes"
+          ],
+          [
+            "أَنَا",
+            "I"
+          ],
+          [
+            "مُتَوَتِّر",
+            "nervous"
+          ],
+          [
+            "جِدًّا",
+            "very"
+          ],
+          [
+            "لَمْ",
+            "did not"
+          ],
+          [
+            "أَنَمْ",
+            "I sleep ('sleep')"
+          ],
+          [
+            "جَيِّدًا",
+            "well"
+          ],
+          [
+            "أَمْسِ",
+            "yesterday"
+          ],
+          [
+            "لِأَنِّي",
+            "because I"
+          ],
+          [
+            "رَاجَعْتُ",
+            "I revised"
+          ],
+          [
+            "كُلَّ",
+            "all (of)"
+          ],
+          [
+            "الدُّرُوس",
+            "the lessons"
+          ],
+          [
+            "حَتَّى",
+            "until"
+          ],
+          [
+            "السَّاعَةِ",
+            "the hour ('o'clock')"
+          ],
+          [
+            "الْوَاحِدَةِ",
+            "the first ('one')"
+          ],
+          [
+            "لَيْلًا",
+            "at night"
+          ]
+        ]
+      },
+      {
+        "id": "d89l3",
+        "sp": "layla",
+        "ar": "لَا تَقْلَقْ يَا دَانْيَال. إِذَا كُنْتَ مُتَوَتِّرًا، فَخُذْ نَفَسًا عَمِيقًا. أَنْتَ تَدْرُسُ كُلَّ يَوْم، وَمَنْ جَدَّ وَجَدَ!",
+        "en": "Don't worry, Daniel. If you're nervous, take a deep breath. You study every day, and whoever works hard succeeds!",
+        "segs": [
+          [
+            "لَا",
+            "don't"
+          ],
+          [
+            "تَقْلَقْ",
+            "worry (to a man)"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "دَانْيَال",
+            "Daniel (first name)",
+            "name"
+          ],
+          [
+            "إِذَا",
+            "if"
+          ],
+          [
+            "كُنْتَ",
+            "you were ('are', to a man)"
+          ],
+          [
+            "مُتَوَتِّرًا",
+            "nervous (-an after kāna)"
+          ],
+          [
+            "فَخُذْ",
+            "then take! (to a man)"
+          ],
+          [
+            "نَفَسًا",
+            "a breath"
+          ],
+          [
+            "عَمِيقًا",
+            "deep"
+          ],
+          [
+            "أَنْتَ",
+            "you (to a man)"
+          ],
+          [
+            "تَدْرُسُ",
+            "you study (to a man)"
+          ],
+          [
+            "كُلَّ",
+            "every"
+          ],
+          [
+            "يَوْم",
+            "day"
+          ],
+          [
+            "وَمَنْ",
+            "and whoever"
+          ],
+          [
+            "جَدَّ",
+            "(he) worked hard, strove"
+          ],
+          [
+            "وَجَدَ",
+            "(he) found ('succeeds')"
+          ]
+        ]
+      },
+      {
+        "id": "d89l4",
+        "sp": "karim",
+        "ar": "اِسْمَعُوا جَيِّدًا مِنْ فَضْلِكُمْ. الِامْتِحَانُ فِيهِ أَرْبَعَةُ أَجْزَاء: الِاسْتِمَاعُ وَالْقِرَاءَةُ وَالْكِتَابَةُ، ثُمَّ الْمُحَادَثَةُ مَعِي.",
+        "en": "Listen carefully, please. The exam has four parts: listening, reading and writing, and then the conversation with me.",
+        "segs": [
+          [
+            "اِسْمَعُوا",
+            "listen! (to a group)"
+          ],
+          [
+            "جَيِّدًا",
+            "well ('carefully')"
+          ],
+          [
+            "مِنْ",
+            "from"
+          ],
+          [
+            "فَضْلِكُمْ",
+            "your kindness ('please', to a group)"
+          ],
+          [
+            "الِامْتِحَانُ",
+            "the exam"
+          ],
+          [
+            "فِيهِ",
+            "in it ('has')"
+          ],
+          [
+            "أَرْبَعَةُ",
+            "four"
+          ],
+          [
+            "أَجْزَاء",
+            "parts"
+          ],
+          [
+            "الِاسْتِمَاعُ",
+            "the listening"
+          ],
+          [
+            "وَالْقِرَاءَةُ",
+            "and the reading"
+          ],
+          [
+            "وَالْكِتَابَةُ",
+            "and the writing"
+          ],
+          [
+            "ثُمَّ",
+            "then"
+          ],
+          [
+            "الْمُحَادَثَةُ",
+            "the conversation, the speaking"
+          ],
+          [
+            "مَعِي",
+            "with me"
+          ]
+        ]
+      },
+      {
+        "id": "d89l5",
+        "sp": "sami",
+        "ar": "وَكَمْ مُدَّةُ الِامْتِحَان يَا أُسْتَاذ؟ وَهَلْ نَكْتُبُ الْإِجَابَات عَلَى الْوَرَقَة أَمْ عَلَى الْحَاسُوب؟",
+        "en": "And how long is the exam, sir? And do we write the answers on the paper or on the computer?",
+        "segs": [
+          [
+            "وَكَمْ",
+            "and how much ('how long')"
+          ],
+          [
+            "مُدَّةُ",
+            "length of time (of)"
+          ],
+          [
+            "الِامْتِحَان",
+            "the exam"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "أُسْتَاذ",
+            "teacher ('sir')"
+          ],
+          [
+            "وَهَلْ",
+            "and (starts a yes/no question)"
+          ],
+          [
+            "نَكْتُبُ",
+            "we write"
+          ],
+          [
+            "الْإِجَابَات",
+            "the answers"
+          ],
+          [
+            "عَلَى",
+            "on"
+          ],
+          [
+            "الْوَرَقَة",
+            "the paper, the sheet"
+          ],
+          [
+            "أَمْ",
+            "or (in questions)"
+          ],
+          [
+            "عَلَى",
+            "on"
+          ],
+          [
+            "الْحَاسُوب",
+            "the computer"
+          ]
+        ]
+      },
+      {
+        "id": "d89l6",
+        "sp": "karim",
+        "ar": "الْمُدَّةُ سَاعَتَانِ لِلْأَجْزَاءِ الثَّلَاثَةِ الْأُولَى، وَعَشْرُ دَقَائِقَ لِلْمُحَادَثَة. وَتُكْتَبُ الْإِجَابَاتُ عَلَى الْوَرَقَة بِالْقَلَمِ فَقَط.",
+        "en": "The time allowed is two hours for the first three parts, and ten minutes for the conversation. And the answers are written on the paper, in pen only.",
+        "segs": [
+          [
+            "الْمُدَّةُ",
+            "the length of time ('the time allowed')"
+          ],
+          [
+            "سَاعَتَانِ",
+            "two hours"
+          ],
+          [
+            "لِلْأَجْزَاءِ",
+            "for the parts"
+          ],
+          [
+            "الثَّلَاثَةِ",
+            "the three"
+          ],
+          [
+            "الْأُولَى",
+            "the first"
+          ],
+          [
+            "وَعَشْرُ",
+            "and ten"
+          ],
+          [
+            "دَقَائِقَ",
+            "minutes"
+          ],
+          [
+            "لِلْمُحَادَثَة",
+            "for the conversation"
+          ],
+          [
+            "وَتُكْتَبُ",
+            "and (they) are written (f)"
+          ],
+          [
+            "الْإِجَابَاتُ",
+            "the answers"
+          ],
+          [
+            "عَلَى",
+            "on"
+          ],
+          [
+            "الْوَرَقَة",
+            "the paper, the sheet"
+          ],
+          [
+            "بِالْقَلَمِ",
+            "with the pen ('in pen')"
+          ],
+          [
+            "فَقَط",
+            "only"
+          ]
+        ]
+      },
+      {
+        "id": "d89l7",
+        "sp": "layla",
+        "ar": "وَمَا هِيَ الْقَوَاعِد يَا أُسْتَاذ؟ هَلْ يُمْكِنُ أَنْ نَسْتَعْمِلَ الْقَامُوسَ إِذَا نَسِينَا كَلِمَة صَعْبَة؟",
+        "en": "And what are the rules, sir? Can we use the dictionary if we forget a difficult word?",
+        "segs": [
+          [
+            "وَمَا",
+            "and what"
+          ],
+          [
+            "هِيَ",
+            "she ('are')"
+          ],
+          [
+            "الْقَوَاعِد",
+            "the rules"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "أُسْتَاذ",
+            "teacher ('sir')"
+          ],
+          [
+            "هَلْ",
+            "(starts a yes/no question)"
+          ],
+          [
+            "يُمْكِنُ",
+            "(it) is possible ('can')"
+          ],
+          [
+            "أَنْ",
+            "to (before a verb)"
+          ],
+          [
+            "نَسْتَعْمِلَ",
+            "we use"
+          ],
+          [
+            "الْقَامُوسَ",
+            "the dictionary"
+          ],
+          [
+            "إِذَا",
+            "if"
+          ],
+          [
+            "نَسِينَا",
+            "we forgot ('forget')"
+          ],
+          [
+            "كَلِمَة",
+            "a word"
+          ],
+          [
+            "صَعْبَة",
+            "difficult (f)"
+          ]
+        ]
+      },
+      {
+        "id": "d89l8",
+        "sp": "karim",
+        "ar": "لَا، الْقَامُوسُ مَمْنُوع، وَتُغْلَقُ الْهَوَاتِفُ قَبْلَ الِامْتِحَان. وَلَا كَلَامَ بَيْنَ الطُّلَّاب. إِذَا انْتَهَيْتُمْ مُبَكِّرًا، فَرَاجِعُوا إِجَابَاتِكُمْ.",
+        "en": "No, the dictionary isn't allowed, and phones are switched off before the exam. And no talking between students. If you finish early, check your answers.",
+        "segs": [
+          [
+            "لَا",
+            "no"
+          ],
+          [
+            "الْقَامُوسُ",
+            "the dictionary"
+          ],
+          [
+            "مَمْنُوع",
+            "forbidden ('not allowed')"
+          ],
+          [
+            "وَتُغْلَقُ",
+            "and (they) are switched off (f)"
+          ],
+          [
+            "الْهَوَاتِفُ",
+            "the phones"
+          ],
+          [
+            "قَبْلَ",
+            "before"
+          ],
+          [
+            "الِامْتِحَان",
+            "the exam"
+          ],
+          [
+            "وَلَا",
+            "and no"
+          ],
+          [
+            "كَلَامَ",
+            "talking, speech"
+          ],
+          [
+            "بَيْنَ",
+            "between"
+          ],
+          [
+            "الطُّلَّاب",
+            "the students"
+          ],
+          [
+            "إِذَا",
+            "if"
+          ],
+          [
+            "انْتَهَيْتُمْ",
+            "you (all) finished ('finish')"
+          ],
+          [
+            "مُبَكِّرًا",
+            "early"
+          ],
+          [
+            "فَرَاجِعُوا",
+            "then check! (to a group)"
+          ],
+          [
+            "إِجَابَاتِكُمْ",
+            "your answers (to a group)"
+          ]
+        ]
+      },
+      {
+        "id": "d89l9",
+        "sp": "sami",
+        "ar": "الْحَمْدُ لِلّٰه، انْتَهَى الِامْتِحَان! الْقِرَاءَةُ كَانَتْ سَهْلَة، لٰكِنَّ الِاسْتِمَاعَ كَانَ أَصْعَبَ مِمَّا تَوَقَّعْتُ. مَاذَا كَتَبْتُمْ فِي السُّؤَالِ الْأَخِير؟",
+        "en": "Thank God, the exam is over! The reading was easy, but the listening was harder than I expected. What did you write for the last question?",
+        "segs": [
+          [
+            "الْحَمْدُ",
+            "the praise ('thank')"
+          ],
+          [
+            "لِلّٰه",
+            "to God"
+          ],
+          [
+            "انْتَهَى",
+            "(he) ended ('is over')"
+          ],
+          [
+            "الِامْتِحَان",
+            "the exam"
+          ],
+          [
+            "الْقِرَاءَةُ",
+            "the reading"
+          ],
+          [
+            "كَانَتْ",
+            "(she) was"
+          ],
+          [
+            "سَهْلَة",
+            "easy (f)"
+          ],
+          [
+            "لٰكِنَّ",
+            "but (like inna: the noun after it ends in -a)"
+          ],
+          [
+            "الِاسْتِمَاعَ",
+            "the listening (-a after lākinna)"
+          ],
+          [
+            "كَانَ",
+            "(he) was"
+          ],
+          [
+            "أَصْعَبَ",
+            "harder (-a after kāna)"
+          ],
+          [
+            "مِمَّا",
+            "than what"
+          ],
+          [
+            "تَوَقَّعْتُ",
+            "I expected"
+          ],
+          [
+            "مَاذَا",
+            "what"
+          ],
+          [
+            "كَتَبْتُمْ",
+            "you (all) wrote"
+          ],
+          [
+            "فِي",
+            "in ('for')"
+          ],
+          [
+            "السُّؤَالِ",
+            "the question"
+          ],
+          [
+            "الْأَخِير",
+            "the last"
+          ]
+        ]
+      },
+      {
+        "id": "d89l10",
+        "sp": "layla",
+        "ar": "السُّؤَالُ الْأَخِير كَانَ عَنِ الْمُسْتَقْبَل: «مَاذَا سَتَفْعَلُ بَعْدَ الدَّوْرَة؟» كَتَبْتُ أَنِّي سَأَدْرُسُ فِي الْجَامِعَة السَّنَةَ الْقَادِمَة.",
+        "en": "The last question was about the future: 'What will you do after the course?' I wrote that I'll study at university next year.",
+        "segs": [
+          [
+            "السُّؤَالُ",
+            "the question"
+          ],
+          [
+            "الْأَخِير",
+            "the last"
+          ],
+          [
+            "كَانَ",
+            "(he) was ('was')"
+          ],
+          [
+            "عَنِ",
+            "about (-i links to the next word)"
+          ],
+          [
+            "الْمُسْتَقْبَل",
+            "the future"
+          ],
+          [
+            "مَاذَا",
+            "what"
+          ],
+          [
+            "سَتَفْعَلُ",
+            "you will do (to a man)"
+          ],
+          [
+            "بَعْدَ",
+            "after"
+          ],
+          [
+            "الدَّوْرَة",
+            "the course"
+          ],
+          [
+            "كَتَبْتُ",
+            "I wrote"
+          ],
+          [
+            "أَنِّي",
+            "that I"
+          ],
+          [
+            "سَأَدْرُسُ",
+            "I will study"
+          ],
+          [
+            "فِي",
+            "in, at"
+          ],
+          [
+            "الْجَامِعَة",
+            "the university"
+          ],
+          [
+            "السَّنَةَ",
+            "the year"
+          ],
+          [
+            "الْقَادِمَة",
+            "the coming ('next')"
+          ]
+        ]
+      },
+      {
+        "id": "d89l11",
+        "sp": "daniel",
+        "ar": "وَأَنَا كَتَبْتُ: «لَوْ كَانَ عِنْدِي وَقْتٌ، لَدَرَسْتُ الْعَرَبِيَّةَ سَنَةً أُخْرَى». وَفِي الْمُحَادَثَة سَأَلَنِي الْأُسْتَاذ عَنْ شِيكَاغُو، فَتَكَلَّمْتُ عَشْرَ دَقَائِق!",
+        "en": "And I wrote: 'If I had time, I would study Arabic for another year.' And in the conversation the teacher asked me about Chicago, so I talked for ten minutes!",
+        "segs": [
+          [
+            "وَأَنَا",
+            "and I"
+          ],
+          [
+            "كَتَبْتُ",
+            "I wrote"
+          ],
+          [
+            "لَوْ",
+            "if (not real)"
+          ],
+          [
+            "كَانَ",
+            "(he) was ('had', with ʿindī)"
+          ],
+          [
+            "عِنْدِي",
+            "I have (lit. at me)"
+          ],
+          [
+            "وَقْتٌ",
+            "time"
+          ],
+          [
+            "لَدَرَسْتُ",
+            "I would study (la- + past)"
+          ],
+          [
+            "الْعَرَبِيَّةَ",
+            "Arabic (the language)"
+          ],
+          [
+            "سَنَةً",
+            "a year ('for a year')"
+          ],
+          [
+            "أُخْرَى",
+            "another, other (f)"
+          ],
+          [
+            "وَفِي",
+            "and in"
+          ],
+          [
+            "الْمُحَادَثَة",
+            "the conversation"
+          ],
+          [
+            "سَأَلَنِي",
+            "(he) asked me"
+          ],
+          [
+            "الْأُسْتَاذ",
+            "the teacher"
+          ],
+          [
+            "عَنْ",
+            "about"
+          ],
+          [
+            "شِيكَاغُو",
+            "Chicago (city)",
+            "name"
+          ],
+          [
+            "فَتَكَلَّمْتُ",
+            "so I spoke"
+          ],
+          [
+            "عَشْرَ",
+            "ten"
+          ],
+          [
+            "دَقَائِق",
+            "minutes"
+          ]
+        ]
+      },
+      {
+        "id": "d89l12",
+        "sp": "sami",
+        "ar": "وَأَنَا نَسِيتُ كَلِمَة فِي الْكِتَابَة، فَكَتَبْتُ جُمْلَة أُخْرَى. أَتَمَنَّى أَلَّا أَرْسُبَ فِي هٰذَا الْجُزْء!",
+        "en": "And I forgot a word in the writing, so I wrote a different sentence. I hope I don't fail this part!",
+        "segs": [
+          [
+            "وَأَنَا",
+            "and I"
+          ],
+          [
+            "نَسِيتُ",
+            "I forgot"
+          ],
+          [
+            "كَلِمَة",
+            "a word"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "الْكِتَابَة",
+            "the writing"
+          ],
+          [
+            "فَكَتَبْتُ",
+            "so I wrote"
+          ],
+          [
+            "جُمْلَة",
+            "a sentence"
+          ],
+          [
+            "أُخْرَى",
+            "another, different (f)"
+          ],
+          [
+            "أَتَمَنَّى",
+            "I hope, I wish"
+          ],
+          [
+            "أَلَّا",
+            "that … not"
+          ],
+          [
+            "أَرْسُبَ",
+            "I fail"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "هٰذَا",
+            "this (m)"
+          ],
+          [
+            "الْجُزْء",
+            "the part"
+          ]
+        ]
+      },
+      {
+        "id": "d89l13",
+        "sp": "karim",
+        "ar": "اِنْتَبِهُوا مِنْ فَضْلِكُمْ: أُعْلِنَتِ النَّتَائِج! نَجَحَ كُلُّ الطُّلَّابِ فِي الِامْتِحَان، وَلَمْ يَرْسُبْ أَحَد. مَبْرُوك لَكُمْ جَمِيعًا!",
+        "en": "Your attention, please: the results have been announced! All the students passed the exam, and nobody failed. Congratulations to you all!",
+        "segs": [
+          [
+            "اِنْتَبِهُوا",
+            "pay attention! (to a group)"
+          ],
+          [
+            "مِنْ",
+            "from"
+          ],
+          [
+            "فَضْلِكُمْ",
+            "your kindness ('please', to a group)"
+          ],
+          [
+            "أُعْلِنَتِ",
+            "(they) were announced (f; -i links to the next word)"
+          ],
+          [
+            "النَّتَائِج",
+            "the results"
+          ],
+          [
+            "نَجَحَ",
+            "(he) passed, succeeded"
+          ],
+          [
+            "كُلُّ",
+            "all (of)"
+          ],
+          [
+            "الطُّلَّابِ",
+            "the students"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "الِامْتِحَان",
+            "the exam"
+          ],
+          [
+            "وَلَمْ",
+            "and did not"
+          ],
+          [
+            "يَرْسُبْ",
+            "(he) fail"
+          ],
+          [
+            "أَحَد",
+            "anyone ('nobody' with lam)"
+          ],
+          [
+            "مَبْرُوك",
+            "congratulations"
+          ],
+          [
+            "لَكُمْ",
+            "to you (all)"
+          ],
+          [
+            "جَمِيعًا",
+            "all, together"
+          ]
+        ]
+      },
+      {
+        "id": "d89l14",
+        "sp": "daniel",
+        "ar": "حَقًّا؟ وَمَا عَلَامَتِي يَا أُسْتَاذ؟ كُنْتُ خَائِفًا مِنَ الْكِتَابَة أَكْثَرَ مِنْ كُلِّ شَيْء.",
+        "en": "Really? And what's my mark, sir? I was more afraid of the writing than of anything else.",
+        "segs": [
+          [
+            "حَقًّا",
+            "really"
+          ],
+          [
+            "وَمَا",
+            "and what"
+          ],
+          [
+            "عَلَامَتِي",
+            "my mark"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "أُسْتَاذ",
+            "teacher ('sir')"
+          ],
+          [
+            "كُنْتُ",
+            "I was"
+          ],
+          [
+            "خَائِفًا",
+            "afraid (-an after kāna)"
+          ],
+          [
+            "مِنَ",
+            "of (-a links to the next word)"
+          ],
+          [
+            "الْكِتَابَة",
+            "the writing"
+          ],
+          [
+            "أَكْثَرَ",
+            "more"
+          ],
+          [
+            "مِنْ",
+            "than"
+          ],
+          [
+            "كُلِّ",
+            "every, all"
+          ],
+          [
+            "شَيْء",
+            "thing"
+          ]
+        ]
+      },
+      {
+        "id": "d89l15",
+        "sp": "karim",
+        "ar": "حَصَلْتَ عَلَى اثْنَيْنِ وَتِسْعِينَ مِنْ مِئَة: عَلَامَة مُمْتَازَة! وَالْكِتَابَةُ كَانَتْ أَحْسَنَ جُزْء عِنْدَكَ. هٰذَا النَّجَاحُ نَتِيجَةُ عَمَلِكَ كُلَّ يَوْم.",
+        "en": "You got ninety-two out of a hundred: an excellent mark! And the writing was your best part. This success is the result of your work every day.",
+        "segs": [
+          [
+            "حَصَلْتَ",
+            "you got (to a man)"
+          ],
+          [
+            "عَلَى",
+            "on (ḥaṣala ʿalā: to get)"
+          ],
+          [
+            "اثْنَيْنِ",
+            "two"
+          ],
+          [
+            "وَتِسْعِينَ",
+            "and ninety"
+          ],
+          [
+            "مِنْ",
+            "out of"
+          ],
+          [
+            "مِئَة",
+            "a hundred"
+          ],
+          [
+            "عَلَامَة",
+            "a mark"
+          ],
+          [
+            "مُمْتَازَة",
+            "excellent (f)"
+          ],
+          [
+            "وَالْكِتَابَةُ",
+            "and the writing"
+          ],
+          [
+            "كَانَتْ",
+            "(she) was"
+          ],
+          [
+            "أَحْسَنَ",
+            "the best (-a after kāna)"
+          ],
+          [
+            "جُزْء",
+            "part"
+          ],
+          [
+            "عِنْدَكَ",
+            "you have ('your', to a man)"
+          ],
+          [
+            "هٰذَا",
+            "this"
+          ],
+          [
+            "النَّجَاحُ",
+            "the success"
+          ],
+          [
+            "نَتِيجَةُ",
+            "result (of)"
+          ],
+          [
+            "عَمَلِكَ",
+            "your work (to a man)"
+          ],
+          [
+            "كُلَّ",
+            "every"
+          ],
+          [
+            "يَوْم",
+            "day"
+          ]
+        ]
+      },
+      {
+        "id": "d89l16",
+        "sp": "layla",
+        "ar": "مَبْرُوك يَا دَانْيَال! إِذَا جِئْتَ إِلَى لُبْنَان فِي الصَّيْف، فَسَنَحْتَفِلُ بِنَجَاحِكَ مَعَ عَائِلَتِي!",
+        "en": "Congratulations, Daniel! If you come to Lebanon in the summer, we'll celebrate your success with my family!",
+        "segs": [
+          [
+            "مَبْرُوك",
+            "congratulations"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "دَانْيَال",
+            "Daniel (first name)",
+            "name"
+          ],
+          [
+            "إِذَا",
+            "if"
+          ],
+          [
+            "جِئْتَ",
+            "you came ('come', to a man)"
+          ],
+          [
+            "إِلَى",
+            "to"
+          ],
+          [
+            "لُبْنَان",
+            "Lebanon (country)",
+            "name"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "الصَّيْف",
+            "the summer"
+          ],
+          [
+            "فَسَنَحْتَفِلُ",
+            "then we will celebrate"
+          ],
+          [
+            "بِنَجَاحِكَ",
+            "(with) your success (to a man)"
+          ],
+          [
+            "مَعَ",
+            "with"
+          ],
+          [
+            "عَائِلَتِي",
+            "my family"
+          ]
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "title": "The day of the final exam",
+    "ar": "وَصَلَ الطُّلَّابُ إِلَى الْمَدْرَسَةِ فِي السَّاعَةِ التَّاسِعَةِ صَبَاحًا لِلِامْتِحَانِ النِّهَائِيّ. كَانَ دَانْيَال مُتَوَتِّرًا قَلِيلًا. شَرَحَ الْأُسْتَاذ كَرِيم أَنَّ الِامْتِحَانَ فِيهِ أَرْبَعَةُ أَجْزَاء، وَأَنَّ مُدَّةَ الْأَجْزَاءِ الثَّلَاثَةِ الْأُولَى سَاعَتَانِ. كُتِبَتِ الْإِجَابَاتُ عَلَى الْوَرَقَةِ بِالْقَلَم. بَعْدَ الظُّهْرِ أُعْلِنَتِ النَّتَائِج: نَجَحَ الْجَمِيع، وَحَصَلَ دَانْيَال عَلَى عَلَامَة مُمْتَازَة.",
+    "en": "The students arrived at the school at nine o'clock in the morning for the final exam. Daniel was a little nervous. Mr Karim explained that the exam has four parts, and that the time allowed for the first three parts is two hours. The answers were written on the paper in pen. In the afternoon the results were announced: everyone passed, and Daniel got an excellent mark.",
+    "segs": [
+      [
+        "وَصَلَ",
+        "(he) arrived ('arrived')"
+      ],
+      [
+        "الطُّلَّابُ",
+        "the students"
+      ],
+      [
+        "إِلَى",
+        "to, at"
+      ],
+      [
+        "الْمَدْرَسَةِ",
+        "the school"
+      ],
+      [
+        "فِي",
+        "at"
+      ],
+      [
+        "السَّاعَةِ",
+        "the hour ('o'clock')"
+      ],
+      [
+        "التَّاسِعَةِ",
+        "the ninth ('nine')"
+      ],
+      [
+        "صَبَاحًا",
+        "in the morning"
+      ],
+      [
+        "لِلِامْتِحَانِ",
+        "for the exam"
+      ],
+      [
+        "النِّهَائِيّ",
+        "the final"
+      ],
+      [
+        "كَانَ",
+        "(he) was"
+      ],
+      [
+        "دَانْيَال",
+        "Daniel (first name)",
+        "name"
+      ],
+      [
+        "مُتَوَتِّرًا",
+        "nervous (-an after kāna)"
+      ],
+      [
+        "قَلِيلًا",
+        "a little"
+      ],
+      [
+        "شَرَحَ",
+        "(he) explained"
+      ],
+      [
+        "الْأُسْتَاذ",
+        "the teacher, Mr"
+      ],
+      [
+        "كَرِيم",
+        "Karim (first name)",
+        "name"
+      ],
+      [
+        "أَنَّ",
+        "that"
+      ],
+      [
+        "الِامْتِحَانَ",
+        "the exam (-a after anna)"
+      ],
+      [
+        "فِيهِ",
+        "in it ('has')"
+      ],
+      [
+        "أَرْبَعَةُ",
+        "four"
+      ],
+      [
+        "أَجْزَاء",
+        "parts"
+      ],
+      [
+        "وَأَنَّ",
+        "and that"
+      ],
+      [
+        "مُدَّةَ",
+        "length of time (of) (-a after anna)"
+      ],
+      [
+        "الْأَجْزَاءِ",
+        "the parts"
+      ],
+      [
+        "الثَّلَاثَةِ",
+        "the three"
+      ],
+      [
+        "الْأُولَى",
+        "the first"
+      ],
+      [
+        "سَاعَتَانِ",
+        "two hours"
+      ],
+      [
+        "كُتِبَتِ",
+        "(they) were written (f; -i links to the next word)"
+      ],
+      [
+        "الْإِجَابَاتُ",
+        "the answers"
+      ],
+      [
+        "عَلَى",
+        "on"
+      ],
+      [
+        "الْوَرَقَةِ",
+        "the paper, the sheet"
+      ],
+      [
+        "بِالْقَلَم",
+        "with the pen ('in pen')"
+      ],
+      [
+        "بَعْدَ",
+        "after"
+      ],
+      [
+        "الظُّهْرِ",
+        "noon ('in the afternoon')"
+      ],
+      [
+        "أُعْلِنَتِ",
+        "(they) were announced (f; -i links to the next word)"
+      ],
+      [
+        "النَّتَائِج",
+        "the results"
+      ],
+      [
+        "نَجَحَ",
+        "(he) passed ('passed')"
+      ],
+      [
+        "الْجَمِيع",
+        "everyone"
+      ],
+      [
+        "وَحَصَلَ",
+        "and (he) got"
+      ],
+      [
+        "دَانْيَال",
+        "Daniel (first name)",
+        "name"
+      ],
+      [
+        "عَلَى",
+        "on (ḥaṣala ʿalā: to get)"
+      ],
+      [
+        "عَلَامَة",
+        "a mark"
+      ],
+      [
+        "مُمْتَازَة",
+        "excellent (f)"
+      ]
+    ]
+  },
+  "review": [
+    "imtihan",
+    "sual",
+    "qaliq",
+    "natija",
+    "mustaidd",
+    "sab"
+  ],
+  "quiz": [
+    {
+      "id": "d89q1",
+      "prompt": "Greetings: what do you answer when someone says صَبَاحُ الْخَيْر?",
+      "options": [
+        "صَبَاحُ النُّور",
+        "مَعَ السَّلَامَة",
+        "مَبْرُوك",
+        "شُكْرًا"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "d89q2",
+      "prompt": "Numbers: what mark did Daniel get?",
+      "ar": "حَصَلْتَ عَلَى اثْنَيْنِ وَتِسْعِينَ مِنْ مِئَة.",
+      "options": [
+        "29 out of 100",
+        "82 out of 100",
+        "92 out of 100",
+        "100 out of 100"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "d89q3",
+      "prompt": "Time: how long do the listening, reading and writing parts take together?",
+      "options": [
+        "ten minutes",
+        "two hours",
+        "one hour",
+        "three hours"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "d89q4",
+      "prompt": "Past, present and future: which verb means 'I will study'?",
+      "options": [
+        "دَرَسْتَ",
+        "أَدْرُسُ",
+        "تَدْرُسُ",
+        "سَأَدْرُسُ"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "d89q5",
+      "prompt": "Comparatives: Sami says الِاسْتِمَاعَ كَانَ أَصْعَبَ. What does أَصْعَبَ mean here?",
+      "options": [
+        "harder",
+        "easier",
+        "longer",
+        "better"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "d89q6",
+      "prompt": "If-sentences: in إِذَا كُنْتَ مُتَوَتِّرًا، فَخُذْ نَفَسًا عَمِيقًا, why does the answer start with fa-?",
+      "options": [
+        "Because the verb is in the past",
+        "Because the subject is plural",
+        "Because the answer is a command",
+        "Because it is a question"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "d89q7",
+      "prompt": "The passive: what does this mean?",
+      "ar": "أُعْلِنَتِ النَّتَائِجُ.",
+      "options": [
+        "The students announced the results.",
+        "The results were announced.",
+        "The results will be good.",
+        "The teacher is announcing the results."
+      ],
+      "answer": 1
+    }
+  ],
+  "completion": "Mabrūk! You passed the final exam day: you can understand an exam's parts, rules and time allowed, talk about questions, answers and marks, and use the whole course, from greetings to if-sentences and the passive. Tomorrow, the last day: your next steps. Complete the quiz with 80% to finish the day.",
+  "status": "needs-review"
+}

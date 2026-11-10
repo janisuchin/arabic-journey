@@ -1,0 +1,2062 @@
+{
+  "day": 85,
+  "week": 13,
+  "phase": 7,
+  "level": 9,
+  "title": "Listening review",
+  "titleAr": "مُرَاجَعَةُ الِاسْتِمَاع",
+  "titleSegs": [
+    [
+      "مُرَاجَعَةُ",
+      "review (of)"
+    ],
+    [
+      "الِاسْتِمَاع",
+      "the listening"
+    ]
+  ],
+  "emoji": "🎧",
+  "summary": "Start the final week by listening to three real recordings, a radio weather bulletin, a station announcement and a voicemail, and catch the numbers, times, names and connectors that carry the key facts.",
+  "intro": "The last week of the course begins with مُرَاجَعَةُ الِاسْتِمَاع, a listening review. Mr Karim plays three تَسْجِيلَات (recordings): a نَشْرَةُ الطَّقْس (weather bulletin) on the radio, an إِعْلَان (announcement) at the station and a رِسَالَة صَوْتِيَّة (voicemail). The secret of listening is not to catch every word but the key facts: numbers, times, names and connectors like لٰكِنْ (but) and أَمَّا (as for). Past weather comes with كَانَ and the -an ending, كَانَ الْجَوُّ غَائِمًا أَمْسِ (it was cloudy yesterday), and time words like أَمْسِ, غَدًا and مُنْذُ tell you when. In fast speech, words run together: مِنَ الرَّصِيفِ (mina r-raṣīf, from the platform) and عَنِ التَّأْخِير (ʿani t-taʾkhīr, for the delay). If you miss something, ask: هَلْ يُمْكِنُ أَنْ تُكَرِّرَ بِوُضُوح؟ (could you repeat that clearly?).",
+  "objectives": [
+    "Pick out the key facts in a recording: numbers, times, names and places",
+    "Understand a weather bulletin that says what the weather was like with كَانَ and what it will be like with سَيَكُونُ",
+    "Follow a station announcement: the train, the platform (الرَّصِيف), the time and the delay",
+    "Hear the helping vowel in fast speech, as in مِنَ الرَّصِيفِ and عَنِ التَّأْخِير, and ask someone to repeat clearly"
+  ],
+  "realLife": {
+    "emoji": "📻",
+    "title": "Listening for the facts",
+    "story": "It's the first morning of the last week of the course, and Mr Karim walks into class with a small speaker and his phone. Over the weekend he recorded three pieces of real Arabic in Cairo: the weather bulletin on the radio, an announcement at Ramses Station and a voicemail that Sami's brother Omar left this morning. Nobody may read anything today: the class has to listen, catch the numbers, times and names, and answer his questions."
+  },
+  "letters": [],
+  "newWords": [
+    "tasjil",
+    "nashra",
+    "ilan",
+    "sawt",
+    "biwuduh",
+    "tafsil",
+    "rasif",
+    "maluma",
+    "intibah"
+  ],
+  "grammar": [
+    "kana",
+    "time-expressions"
+  ],
+  "pronunciation": [
+    "linking"
+  ],
+  "sentences": [
+    {
+      "id": "d85s1",
+      "ar": "كَانَ الْجَوُّ غَائِمًا فِي الْقَاهِرَةِ أَمْسِ.",
+      "en": "The weather was cloudy in Cairo yesterday.",
+      "literal": "was the weather cloudy in Cairo yesterday",
+      "segs": [
+        [
+          "كَانَ",
+          "(it) was",
+          "verb"
+        ],
+        [
+          "الْجَوُّ",
+          "the weather",
+          "noun"
+        ],
+        [
+          "غَائِمًا",
+          "cloudy",
+          "adj"
+        ],
+        [
+          "فِي",
+          "in",
+          "prep"
+        ],
+        [
+          "الْقَاهِرَةِ",
+          "Cairo (city)",
+          "name"
+        ],
+        [
+          "أَمْسِ",
+          "yesterday",
+          "adverb"
+        ]
+      ],
+      "grammar": [
+        "kana",
+        "time-expressions",
+        "weather-expressions"
+      ],
+      "mistakes": [
+        {
+          "wrong": "كَانَ الْجَوُّ غَائِم",
+          "right": "كَانَ الْجَوُّ غَائِمًا",
+          "why": "After kāna (was) the describing word takes the -an ending: kāna l-jawwu ghāʾiman."
+        }
+      ]
+    },
+    {
+      "id": "d85s2",
+      "ar": "يُغَادِرُ الْقِطَارُ مِنَ الرَّصِيفِ رَقْمِ أَرْبَعَة.",
+      "en": "The train leaves from platform four.",
+      "literal": "leaves the train from the platform number four",
+      "segs": [
+        [
+          "يُغَادِرُ",
+          "(he, it) leaves, departs",
+          "verb"
+        ],
+        [
+          "الْقِطَارُ",
+          "the train",
+          "noun"
+        ],
+        [
+          "مِنَ",
+          "from (-a links to the next word)",
+          "prep"
+        ],
+        [
+          "الرَّصِيفِ",
+          "the platform",
+          "noun"
+        ],
+        [
+          "رَقْمِ",
+          "number",
+          "noun"
+        ],
+        [
+          "أَرْبَعَة",
+          "four",
+          "number"
+        ]
+      ],
+      "grammar": [
+        "verbal-sentence",
+        "numbers-1-10"
+      ],
+      "mistakes": [
+        {
+          "wrong": "مِنْ الرَّصِيفِ",
+          "right": "مِنَ الرَّصِيفِ",
+          "why": "Before the article al-, min takes the helping vowel -a and the a of al- drops: mina r-raṣīf, not min al-raṣīf."
+        }
+      ]
+    },
+    {
+      "id": "d85s3",
+      "ar": "اسْتَمِعُوا إِلَى التَّسْجِيلِ بِانْتِبَاه.",
+      "en": "Listen to the recording carefully. (to a group)",
+      "literal": "listen (all) to the recording with attention",
+      "segs": [
+        [
+          "اسْتَمِعُوا",
+          "listen! (to a group)",
+          "verb"
+        ],
+        [
+          "إِلَى",
+          "to",
+          "prep"
+        ],
+        [
+          "التَّسْجِيلِ",
+          "the recording",
+          "noun"
+        ],
+        [
+          "بِانْتِبَاه",
+          "carefully (lit. with attention)",
+          "adverb"
+        ]
+      ],
+      "grammar": [
+        "imperative"
+      ],
+      "mistakes": [
+        {
+          "wrong": "اسْتَمِعُوا التَّسْجِيلَ",
+          "right": "اسْتَمِعُوا إِلَى التَّسْجِيلِ",
+          "why": "istamaʿa / yastamiʿu (to listen) always needs ilā (to): istamiʿū ilā t-tasjīl."
+        }
+      ]
+    },
+    {
+      "id": "d85s4",
+      "ar": "كَانَ صَوْتُهُ سَرِيعًا، لٰكِنِّي فَهِمْتُ كُلَّ التَّفَاصِيلِ الْمُهِمَّةِ.",
+      "en": "His voice was fast, but I understood all the important details.",
+      "literal": "was his voice fast, but-I understood all the details the important",
+      "segs": [
+        [
+          "كَانَ",
+          "(it) was",
+          "verb"
+        ],
+        [
+          "صَوْتُهُ",
+          "his voice",
+          "noun"
+        ],
+        [
+          "سَرِيعًا",
+          "fast",
+          "adj"
+        ],
+        [
+          "لٰكِنِّي",
+          "but I",
+          "particle"
+        ],
+        [
+          "فَهِمْتُ",
+          "I understood",
+          "verb"
+        ],
+        [
+          "كُلَّ",
+          "all",
+          "noun"
+        ],
+        [
+          "التَّفَاصِيلِ",
+          "the details",
+          "noun"
+        ],
+        [
+          "الْمُهِمَّةِ",
+          "the important (f)",
+          "adj"
+        ]
+      ],
+      "grammar": [
+        "kana",
+        "non-human-plural"
+      ],
+      "mistakes": [
+        {
+          "wrong": "التَّفَاصِيلِ الْمُهِمِّ",
+          "right": "التَّفَاصِيلِ الْمُهِمَّةِ",
+          "why": "tafāṣīl (details) is a plural of things, so its adjective is feminine singular: at-tafāṣīli l-muhimma."
+        }
+      ]
+    },
+    {
+      "id": "d85s5",
+      "ar": "اتَّصَلَتْ فَاطِمَةُ مُنْذُ سَاعَةٍ وَتَرَكَتْ رِسَالَةً صَوْتِيَّةً.",
+      "en": "Fatima called an hour ago and left a voicemail.",
+      "literal": "called Fatima since an hour and left a message vocal",
+      "segs": [
+        [
+          "اتَّصَلَتْ",
+          "(she) called, phoned",
+          "verb"
+        ],
+        [
+          "فَاطِمَةُ",
+          "Fatima (first name)",
+          "name"
+        ],
+        [
+          "مُنْذُ",
+          "ago (before a time)",
+          "prep"
+        ],
+        [
+          "سَاعَةٍ",
+          "an hour",
+          "noun"
+        ],
+        [
+          "وَتَرَكَتْ",
+          "and (she) left",
+          "verb"
+        ],
+        [
+          "رِسَالَةً",
+          "a message",
+          "noun"
+        ],
+        [
+          "صَوْتِيَّةً",
+          "voice, audio (f) (\"a voicemail\")",
+          "adj"
+        ]
+      ],
+      "grammar": [
+        "time-expressions",
+        "past-tense"
+      ],
+      "mistakes": [
+        {
+          "wrong": "اتَّصَلَتْ فَاطِمَةُ سَاعَةً مُنْذُ",
+          "right": "اتَّصَلَتْ فَاطِمَةُ مُنْذُ سَاعَةٍ",
+          "why": "mundhu comes before the length of time, where English puts 'ago' after it: mundhu sāʿatin (an hour ago)."
+        }
+      ]
+    },
+    {
+      "id": "d85s6",
+      "ar": "هَلْ يُمْكِنُ أَنْ تُكَرِّرَ الرَّقْمَ بِوُضُوح، مِنْ فَضْلِكَ؟",
+      "en": "Could you repeat the number clearly, please? (to a man)",
+      "literal": "is it possible that you-repeat the number with clarity, from your kindness",
+      "segs": [
+        [
+          "هَلْ",
+          "(yes/no question word)",
+          "question"
+        ],
+        [
+          "يُمْكِنُ",
+          "(it) is possible",
+          "verb"
+        ],
+        [
+          "أَنْ",
+          "that, to",
+          "particle"
+        ],
+        [
+          "تُكَرِّرَ",
+          "you repeat (to a man)",
+          "verb"
+        ],
+        [
+          "الرَّقْمَ",
+          "the number",
+          "noun"
+        ],
+        [
+          "بِوُضُوح",
+          "clearly",
+          "adverb"
+        ],
+        [
+          "مِنْ",
+          "from (\"please\", with faḍlika)",
+          "prep"
+        ],
+        [
+          "فَضْلِكَ",
+          "your kindness (\"please\", to a man)",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "yumkin-an",
+        "an-subjunctive"
+      ],
+      "mistakes": [
+        {
+          "wrong": "هَلْ يُمْكِنُ أَنْ تُكَرِّرُ الرَّقْمَ؟",
+          "right": "هَلْ يُمْكِنُ أَنْ تُكَرِّرَ الرَّقْمَ؟",
+          "why": "After an (that, to) the present verb ends in -a: an tukarrira."
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Three recordings in class",
+    "speakers": [
+      {
+        "key": "karim",
+        "name": "Mr Karim",
+        "nameAr": "الْأُسْتَاذ كَرِيم"
+      },
+      {
+        "key": "daniel",
+        "name": "Daniel",
+        "nameAr": "دَانْيَال"
+      },
+      {
+        "key": "layla",
+        "name": "Layla",
+        "nameAr": "لَيْلَى"
+      },
+      {
+        "key": "sami",
+        "name": "Sami",
+        "nameAr": "سَامِي"
+      },
+      {
+        "key": "radio",
+        "name": "Radio presenter (recording)",
+        "nameAr": "مُذِيعَةُ الرَّادْيُو"
+      },
+      {
+        "key": "announcer",
+        "name": "Station announcer (recording)",
+        "nameAr": "مُذِيعُ الْمَحَطَّة"
+      },
+      {
+        "key": "omar",
+        "name": "Omar",
+        "nameAr": "عُمَر"
+      }
+    ],
+    "culture": "Radio and TV news across the Arab world is read in Modern Standard Arabic, the language of this course, and announcements at big stations and airports are usually in MSA too, often followed by English. A news bulletin often opens with إِلَيْكُمْ نَشْرَةَ الْأَخْبَار (here is the news bulletin). Voicemails and chats between friends are often in a local dialect, but numbers, times and names sound almost the same everywhere, so they are the best place to start listening.",
+    "lines": [
+      {
+        "id": "d85l1",
+        "sp": "karim",
+        "ar": "صَبَاحُ الْخَيْر! هٰذَا أَوَّلُ يَوْمٍ فِي الْأُسْبُوعِ الْأَخِيرِ مِنَ الدَّوْرَة. الْيَوْمَ لَا نَقْرَأُ شَيْئًا: سَنَسْتَمِعُ إِلَى ثَلَاثَةِ تَسْجِيلَاتٍ مِنَ الْقَاهِرَة.",
+        "en": "Good morning! This is the first day of the last week of the course. Today we won't read anything: we'll listen to three recordings from Cairo.",
+        "segs": [
+          [
+            "صَبَاحُ",
+            "morning (of)"
+          ],
+          [
+            "الْخَيْر",
+            "the goodness"
+          ],
+          [
+            "هٰذَا",
+            "this"
+          ],
+          [
+            "أَوَّلُ",
+            "(the) first"
+          ],
+          [
+            "يَوْمٍ",
+            "day"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "الْأُسْبُوعِ",
+            "the week"
+          ],
+          [
+            "الْأَخِيرِ",
+            "the last"
+          ],
+          [
+            "مِنَ",
+            "of (-a links to the next word)"
+          ],
+          [
+            "الدَّوْرَة",
+            "the course"
+          ],
+          [
+            "الْيَوْمَ",
+            "today"
+          ],
+          [
+            "لَا",
+            "not"
+          ],
+          [
+            "نَقْرَأُ",
+            "we read"
+          ],
+          [
+            "شَيْئًا",
+            "anything, something"
+          ],
+          [
+            "سَنَسْتَمِعُ",
+            "we will listen"
+          ],
+          [
+            "إِلَى",
+            "to"
+          ],
+          [
+            "ثَلَاثَةِ",
+            "three"
+          ],
+          [
+            "تَسْجِيلَاتٍ",
+            "recordings"
+          ],
+          [
+            "مِنَ",
+            "from (-a links to the next word)"
+          ],
+          [
+            "الْقَاهِرَة",
+            "Cairo (city)",
+            "name"
+          ]
+        ]
+      },
+      {
+        "id": "d85l2",
+        "sp": "daniel",
+        "ar": "ثَلَاثَة؟ لٰكِنَّ الْعَرَبِيَّةَ فِي الرَّادْيُو سَرِيعَة جِدًّا يَا أُسْتَاذ. أَمْسِ اسْتَمَعْتُ إِلَى نَشْرَةِ الْأَخْبَار، وَمَا فَهِمْتُ إِلَّا كَلِمَتَيْنِ.",
+        "en": "Three? But the Arabic on the radio is very fast, sir. Yesterday I listened to the news bulletin, and I understood only two words.",
+        "segs": [
+          [
+            "ثَلَاثَة",
+            "three"
+          ],
+          [
+            "لٰكِنَّ",
+            "but (like inna: the noun after it ends in -a)"
+          ],
+          [
+            "الْعَرَبِيَّةَ",
+            "Arabic (the language)"
+          ],
+          [
+            "فِي",
+            "on, in"
+          ],
+          [
+            "الرَّادْيُو",
+            "the radio"
+          ],
+          [
+            "سَرِيعَة",
+            "fast (f)"
+          ],
+          [
+            "جِدًّا",
+            "very"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "أُسْتَاذ",
+            "teacher (\"sir\")"
+          ],
+          [
+            "أَمْسِ",
+            "yesterday"
+          ],
+          [
+            "اسْتَمَعْتُ",
+            "I listened"
+          ],
+          [
+            "إِلَى",
+            "to"
+          ],
+          [
+            "نَشْرَةِ",
+            "bulletin (of)"
+          ],
+          [
+            "الْأَخْبَار",
+            "the news"
+          ],
+          [
+            "وَمَا",
+            "and not (\"only\", with illā)"
+          ],
+          [
+            "فَهِمْتُ",
+            "I understood"
+          ],
+          [
+            "إِلَّا",
+            "except (\"only\", with mā)"
+          ],
+          [
+            "كَلِمَتَيْنِ",
+            "two words"
+          ]
+        ]
+      },
+      {
+        "id": "d85l3",
+        "sp": "karim",
+        "ar": "لَا تَقْلَقْ يَا دَانْيَال، وَلَا تُحَاوِلْ أَنْ تَفْهَمَ كُلَّ كَلِمَة. اسْتَمِعْ أَوَّلًا إِلَى الْمَعْلُومَاتِ الْمُهِمَّة: الْأَرْقَامِ وَالْأَوْقَاتِ وَالْأَسْمَاء، ثُمَّ إِلَى كَلِمَاتٍ مِثْلِ «لٰكِنْ» أَوْ «لِأَنَّ».",
+        "en": "Don't worry, Daniel, and don't try to understand every word. First listen for the important information: the numbers, the times and the names, then for words like 'but' or 'because'.",
+        "segs": [
+          [
+            "لَا",
+            "don't"
+          ],
+          [
+            "تَقْلَقْ",
+            "worry (to a man)"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "دَانْيَال",
+            "Daniel (first name)",
+            "name"
+          ],
+          [
+            "وَلَا",
+            "and don't"
+          ],
+          [
+            "تُحَاوِلْ",
+            "try (to a man)"
+          ],
+          [
+            "أَنْ",
+            "to, that"
+          ],
+          [
+            "تَفْهَمَ",
+            "you understand"
+          ],
+          [
+            "كُلَّ",
+            "every"
+          ],
+          [
+            "كَلِمَة",
+            "word"
+          ],
+          [
+            "اسْتَمِعْ",
+            "listen! (to a man)"
+          ],
+          [
+            "أَوَّلًا",
+            "first, firstly"
+          ],
+          [
+            "إِلَى",
+            "to (\"for\")"
+          ],
+          [
+            "الْمَعْلُومَاتِ",
+            "the information"
+          ],
+          [
+            "الْمُهِمَّة",
+            "the important (f)"
+          ],
+          [
+            "الْأَرْقَامِ",
+            "the numbers"
+          ],
+          [
+            "وَالْأَوْقَاتِ",
+            "and the times"
+          ],
+          [
+            "وَالْأَسْمَاء",
+            "and the names"
+          ],
+          [
+            "ثُمَّ",
+            "then"
+          ],
+          [
+            "إِلَى",
+            "to (\"for\")"
+          ],
+          [
+            "كَلِمَاتٍ",
+            "words"
+          ],
+          [
+            "مِثْلِ",
+            "like"
+          ],
+          [
+            "لٰكِنْ",
+            "but"
+          ],
+          [
+            "أَوْ",
+            "or"
+          ],
+          [
+            "لِأَنَّ",
+            "because"
+          ]
+        ]
+      },
+      {
+        "id": "d85l4",
+        "sp": "layla",
+        "ar": "فِكْرَة جَيِّدَة يَا أُسْتَاذ. فِي الِامْتِحَانِ النِّهَائِيِّ سَنَسْمَعُ تَسْجِيلَاتٍ أَيْضًا، أَلَيْسَ كَذٰلِكَ؟",
+        "en": "That's a good idea, sir. In the final exam we will hear recordings too, won't we?",
+        "segs": [
+          [
+            "فِكْرَة",
+            "an idea"
+          ],
+          [
+            "جَيِّدَة",
+            "good (f)"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "أُسْتَاذ",
+            "teacher (\"sir\")"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "الِامْتِحَانِ",
+            "the exam"
+          ],
+          [
+            "النِّهَائِيِّ",
+            "the final"
+          ],
+          [
+            "سَنَسْمَعُ",
+            "we will hear"
+          ],
+          [
+            "تَسْجِيلَاتٍ",
+            "recordings"
+          ],
+          [
+            "أَيْضًا",
+            "also, too"
+          ],
+          [
+            "أَلَيْسَ",
+            "isn't it (\"won't we\", with kadhālika)"
+          ],
+          [
+            "كَذٰلِكَ",
+            "so, like that"
+          ]
+        ]
+      },
+      {
+        "id": "d85l5",
+        "sp": "karim",
+        "ar": "نَعَمْ، فِي آخِرِ الْأُسْبُوع. التَّسْجِيلُ الْأَوَّلُ نَشْرَةُ الطَّقْسِ مِنَ الرَّادْيُو. اسْمَعُوا بِانْتِبَاه: كَيْفَ كَانَ الْجَوُّ أَمْسِ، وَكَيْفَ سَيَكُونُ غَدًا؟",
+        "en": "Yes, at the end of the week. The first recording is the weather bulletin from the radio. Listen carefully: what was the weather like yesterday, and what will it be like tomorrow?",
+        "segs": [
+          [
+            "نَعَمْ",
+            "yes"
+          ],
+          [
+            "فِي",
+            "in, at"
+          ],
+          [
+            "آخِرِ",
+            "(the) end (of)"
+          ],
+          [
+            "الْأُسْبُوع",
+            "the week"
+          ],
+          [
+            "التَّسْجِيلُ",
+            "the recording"
+          ],
+          [
+            "الْأَوَّلُ",
+            "the first"
+          ],
+          [
+            "نَشْرَةُ",
+            "bulletin (of)"
+          ],
+          [
+            "الطَّقْسِ",
+            "the weather"
+          ],
+          [
+            "مِنَ",
+            "from (-a links to the next word)"
+          ],
+          [
+            "الرَّادْيُو",
+            "the radio"
+          ],
+          [
+            "اسْمَعُوا",
+            "listen! hear! (to a group)"
+          ],
+          [
+            "بِانْتِبَاه",
+            "carefully (lit. with attention)"
+          ],
+          [
+            "كَيْفَ",
+            "how"
+          ],
+          [
+            "كَانَ",
+            "(it) was"
+          ],
+          [
+            "الْجَوُّ",
+            "the weather"
+          ],
+          [
+            "أَمْسِ",
+            "yesterday"
+          ],
+          [
+            "وَكَيْفَ",
+            "and how"
+          ],
+          [
+            "سَيَكُونُ",
+            "(it) will be"
+          ],
+          [
+            "غَدًا",
+            "tomorrow"
+          ]
+        ]
+      },
+      {
+        "id": "d85l6",
+        "sp": "radio",
+        "ar": "وَالْآنَ نَشْرَةُ الطَّقْس. كَانَ الْجَوُّ أَمْسِ غَائِمًا فِي الْقَاهِرَة، أَمَّا غَدًا فَسَيَكُونُ مُشْمِسًا، وَدَرَجَةُ الْحَرَارَةِ ثَلَاثُونَ دَرَجَةً. وَفِي الْإِسْكَنْدَرِيَّةِ سَيَكُونُ هُنَاكَ مَطَر وَرِيح.",
+        "en": "And now the weather bulletin. Yesterday it was cloudy in Cairo, but tomorrow it will be sunny, with a temperature of thirty degrees. In Alexandria there will be rain and wind.",
+        "segs": [
+          [
+            "وَالْآنَ",
+            "and now"
+          ],
+          [
+            "نَشْرَةُ",
+            "bulletin (of)"
+          ],
+          [
+            "الطَّقْس",
+            "the weather"
+          ],
+          [
+            "كَانَ",
+            "(it) was"
+          ],
+          [
+            "الْجَوُّ",
+            "the weather"
+          ],
+          [
+            "أَمْسِ",
+            "yesterday"
+          ],
+          [
+            "غَائِمًا",
+            "cloudy"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "الْقَاهِرَة",
+            "Cairo (city)",
+            "name"
+          ],
+          [
+            "أَمَّا",
+            "as for"
+          ],
+          [
+            "غَدًا",
+            "tomorrow"
+          ],
+          [
+            "فَسَيَكُونُ",
+            "(then) it will be"
+          ],
+          [
+            "مُشْمِسًا",
+            "sunny"
+          ],
+          [
+            "وَدَرَجَةُ",
+            "and (the) degree (of) (\"temperature\")"
+          ],
+          [
+            "الْحَرَارَةِ",
+            "the heat (\"temperature\")"
+          ],
+          [
+            "ثَلَاثُونَ",
+            "thirty"
+          ],
+          [
+            "دَرَجَةً",
+            "degree(s)"
+          ],
+          [
+            "وَفِي",
+            "and in"
+          ],
+          [
+            "الْإِسْكَنْدَرِيَّةِ",
+            "Alexandria (city)",
+            "name"
+          ],
+          [
+            "سَيَكُونُ",
+            "(it) will be"
+          ],
+          [
+            "هُنَاكَ",
+            "there (\"there will be\", with sayakūnu)"
+          ],
+          [
+            "مَطَر",
+            "rain"
+          ],
+          [
+            "وَرِيح",
+            "and wind"
+          ]
+        ]
+      },
+      {
+        "id": "d85l7",
+        "sp": "sami",
+        "ar": "سَمِعْتُ رَقْمًا: ثَلَاثُونَ دَرَجَةً غَدًا فِي الْقَاهِرَة. وَسَمِعْتُ كَلِمَةَ «أَمَّا»، يَعْنِي أَنَّ الطَّقْسَ سَيَتَغَيَّرُ: أَمْسِ كَانَ غَائِمًا، وَغَدًا سَيَكُونُ مُشْمِسًا.",
+        "en": "I heard a number: thirty degrees tomorrow in Cairo. And I heard the word 'as for', which means the weather is going to change: yesterday it was cloudy, and tomorrow it will be sunny.",
+        "segs": [
+          [
+            "سَمِعْتُ",
+            "I heard"
+          ],
+          [
+            "رَقْمًا",
+            "a number"
+          ],
+          [
+            "ثَلَاثُونَ",
+            "thirty"
+          ],
+          [
+            "دَرَجَةً",
+            "degree(s)"
+          ],
+          [
+            "غَدًا",
+            "tomorrow"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "الْقَاهِرَة",
+            "Cairo (city)",
+            "name"
+          ],
+          [
+            "وَسَمِعْتُ",
+            "and I heard"
+          ],
+          [
+            "كَلِمَةَ",
+            "(the) word"
+          ],
+          [
+            "أَمَّا",
+            "as for"
+          ],
+          [
+            "يَعْنِي",
+            "(it) means"
+          ],
+          [
+            "أَنَّ",
+            "that (the noun after it ends in -a)"
+          ],
+          [
+            "الطَّقْسَ",
+            "the weather"
+          ],
+          [
+            "سَيَتَغَيَّرُ",
+            "(it) will change"
+          ],
+          [
+            "أَمْسِ",
+            "yesterday"
+          ],
+          [
+            "كَانَ",
+            "(it) was"
+          ],
+          [
+            "غَائِمًا",
+            "cloudy"
+          ],
+          [
+            "وَغَدًا",
+            "and tomorrow"
+          ],
+          [
+            "سَيَكُونُ",
+            "(it) will be"
+          ],
+          [
+            "مُشْمِسًا",
+            "sunny"
+          ]
+        ]
+      },
+      {
+        "id": "d85l8",
+        "sp": "karim",
+        "ar": "مُمْتَاز يَا سَامِي، هٰذَا هُوَ الْمُهِمّ. التَّسْجِيلُ الثَّانِي إِعْلَان سَجَّلْتُهُ فِي مَحَطَّةِ رَمْسِيس. يَا لَيْلَى، اسْتَمِعِي إِلَى الرَّقْمِ وَالْوَقْت.",
+        "en": "Excellent, Sami, that's what matters. The second recording is an announcement I recorded at Ramses Station. Layla, listen for the number and the time.",
+        "segs": [
+          [
+            "مُمْتَاز",
+            "excellent"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "سَامِي",
+            "Sami (first name)",
+            "name"
+          ],
+          [
+            "هٰذَا",
+            "this"
+          ],
+          [
+            "هُوَ",
+            "he, it (\"is\")"
+          ],
+          [
+            "الْمُهِمّ",
+            "the important (thing)"
+          ],
+          [
+            "التَّسْجِيلُ",
+            "the recording"
+          ],
+          [
+            "الثَّانِي",
+            "the second"
+          ],
+          [
+            "إِعْلَان",
+            "an announcement"
+          ],
+          [
+            "سَجَّلْتُهُ",
+            "I recorded it"
+          ],
+          [
+            "فِي",
+            "in, at"
+          ],
+          [
+            "مَحَطَّةِ",
+            "station (of)"
+          ],
+          [
+            "رَمْسِيس",
+            "Ramses (Cairo's main railway station)",
+            "name"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "لَيْلَى",
+            "Layla (first name)",
+            "name"
+          ],
+          [
+            "اسْتَمِعِي",
+            "listen! (to a woman)"
+          ],
+          [
+            "إِلَى",
+            "to (\"for\")"
+          ],
+          [
+            "الرَّقْمِ",
+            "the number"
+          ],
+          [
+            "وَالْوَقْت",
+            "and the time"
+          ]
+        ]
+      },
+      {
+        "id": "d85l9",
+        "sp": "announcer",
+        "ar": "انْتِبَاه مِنْ فَضْلِكُمْ! قِطَارُ الْإِسْكَنْدَرِيَّةِ، مَوْعِدُهُ السَّاعَةُ الْعَاشِرَةُ وَالنِّصْف، سَيُغَادِرُ مِنَ الرَّصِيفِ رَقْمِ أَرْبَعَة مُتَأَخِّرًا رُبْعَ سَاعَة. نَعْتَذِرُ عَنِ التَّأْخِير.",
+        "en": "Attention, please! The Alexandria train, due at half past ten, will leave from platform four a quarter of an hour late. We apologise for the delay.",
+        "segs": [
+          [
+            "انْتِبَاه",
+            "attention"
+          ],
+          [
+            "مِنْ",
+            "from (\"please\", with faḍlikum)"
+          ],
+          [
+            "فَضْلِكُمْ",
+            "your kindness (\"please\", to a group)"
+          ],
+          [
+            "قِطَارُ",
+            "train (of)"
+          ],
+          [
+            "الْإِسْكَنْدَرِيَّةِ",
+            "Alexandria (city)",
+            "name"
+          ],
+          [
+            "مَوْعِدُهُ",
+            "its (agreed) time"
+          ],
+          [
+            "السَّاعَةُ",
+            "the hour, o'clock"
+          ],
+          [
+            "الْعَاشِرَةُ",
+            "the tenth (\"ten\")"
+          ],
+          [
+            "وَالنِّصْف",
+            "and the half (\"half past\")"
+          ],
+          [
+            "سَيُغَادِرُ",
+            "(it) will leave"
+          ],
+          [
+            "مِنَ",
+            "from (-a links to the next word)"
+          ],
+          [
+            "الرَّصِيفِ",
+            "the platform"
+          ],
+          [
+            "رَقْمِ",
+            "number"
+          ],
+          [
+            "أَرْبَعَة",
+            "four"
+          ],
+          [
+            "مُتَأَخِّرًا",
+            "late"
+          ],
+          [
+            "رُبْعَ",
+            "a quarter (of)"
+          ],
+          [
+            "سَاعَة",
+            "an hour"
+          ],
+          [
+            "نَعْتَذِرُ",
+            "we apologise"
+          ],
+          [
+            "عَنِ",
+            "for, about (-i links to the next word)"
+          ],
+          [
+            "التَّأْخِير",
+            "the delay"
+          ]
+        ]
+      },
+      {
+        "id": "d85l10",
+        "sp": "layla",
+        "ar": "الرَّصِيفُ رَقْمُ أَرْبَعَة، وَالْمَوْعِدُ الْعَاشِرَةُ وَالنِّصْف. لٰكِنَّ الْقِطَارَ مُتَأَخِّر رُبْعَ سَاعَة، إِذَنْ سَيُغَادِرُ فِي الْحَادِيَةَ عَشْرَةَ إِلَّا رُبْعًا.",
+        "en": "Platform four, and the time is half past ten. But the train is a quarter of an hour late, so it will leave at a quarter to eleven.",
+        "segs": [
+          [
+            "الرَّصِيفُ",
+            "the platform"
+          ],
+          [
+            "رَقْمُ",
+            "number"
+          ],
+          [
+            "أَرْبَعَة",
+            "four"
+          ],
+          [
+            "وَالْمَوْعِدُ",
+            "and the (agreed) time"
+          ],
+          [
+            "الْعَاشِرَةُ",
+            "the tenth (\"ten\")"
+          ],
+          [
+            "وَالنِّصْف",
+            "and the half (\"half past\")"
+          ],
+          [
+            "لٰكِنَّ",
+            "but (like inna: the noun after it ends in -a)"
+          ],
+          [
+            "الْقِطَارَ",
+            "the train"
+          ],
+          [
+            "مُتَأَخِّر",
+            "late"
+          ],
+          [
+            "رُبْعَ",
+            "a quarter (of)"
+          ],
+          [
+            "سَاعَة",
+            "an hour"
+          ],
+          [
+            "إِذَنْ",
+            "so, then"
+          ],
+          [
+            "سَيُغَادِرُ",
+            "(it) will leave"
+          ],
+          [
+            "فِي",
+            "at, in"
+          ],
+          [
+            "الْحَادِيَةَ",
+            "the eleventh (with ʿashrata: \"eleven\")"
+          ],
+          [
+            "عَشْرَةَ",
+            "-teen (with al-ḥādiyata: \"eleven\")"
+          ],
+          [
+            "إِلَّا",
+            "except (\"to\", in times)"
+          ],
+          [
+            "رُبْعًا",
+            "a quarter"
+          ]
+        ]
+      },
+      {
+        "id": "d85l11",
+        "sp": "daniel",
+        "ar": "وَأَنَا لَاحَظْتُ شَيْئًا: الْمُذِيعُ لَا يَقُولُ «مِنْ الرَّصِيف»، بَلْ يَقُولُ «مِنَ الرَّصِيف»، وَالْكَلِمَتَانِ تَصِيرَانِ كَلِمَةً وَاحِدَةً تَقْرِيبًا.",
+        "en": "And I noticed something: the announcer doesn't say 'min al-rasif', he says 'mina r-rasif', and the two words almost become one word.",
+        "segs": [
+          [
+            "وَأَنَا",
+            "and I"
+          ],
+          [
+            "لَاحَظْتُ",
+            "I noticed"
+          ],
+          [
+            "شَيْئًا",
+            "something"
+          ],
+          [
+            "الْمُذِيعُ",
+            "the announcer"
+          ],
+          [
+            "لَا",
+            "not"
+          ],
+          [
+            "يَقُولُ",
+            "(he) says"
+          ],
+          [
+            "مِنْ",
+            "from (wrong here — correct: mina before al-)"
+          ],
+          [
+            "الرَّصِيف",
+            "the platform"
+          ],
+          [
+            "بَلْ",
+            "but rather"
+          ],
+          [
+            "يَقُولُ",
+            "(he) says"
+          ],
+          [
+            "مِنَ",
+            "from (-a links to the next word)"
+          ],
+          [
+            "الرَّصِيف",
+            "the platform"
+          ],
+          [
+            "وَالْكَلِمَتَانِ",
+            "and the two words"
+          ],
+          [
+            "تَصِيرَانِ",
+            "(they two) become"
+          ],
+          [
+            "كَلِمَةً",
+            "a word"
+          ],
+          [
+            "وَاحِدَةً",
+            "one (f)"
+          ],
+          [
+            "تَقْرِيبًا",
+            "almost"
+          ]
+        ]
+      },
+      {
+        "id": "d85l12",
+        "sp": "karim",
+        "ar": "صَحِيح يَا دَانْيَال، هٰذَا هُوَ الْوَصْل. وَالْآنَ التَّسْجِيلُ الثَّالِث: يَا سَامِي، شَغِّلْ لَنَا رِسَالَةَ أَخِيكَ عُمَرَ مِنْ فَضْلِكَ.",
+        "en": "Right, Daniel, that is called linking. And now the third recording: Sami, please play us the message from your brother Omar.",
+        "segs": [
+          [
+            "صَحِيح",
+            "right, correct"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "دَانْيَال",
+            "Daniel (first name)",
+            "name"
+          ],
+          [
+            "هٰذَا",
+            "this"
+          ],
+          [
+            "هُوَ",
+            "he, it (\"is\")"
+          ],
+          [
+            "الْوَصْل",
+            "the linking"
+          ],
+          [
+            "وَالْآنَ",
+            "and now"
+          ],
+          [
+            "التَّسْجِيلُ",
+            "the recording"
+          ],
+          [
+            "الثَّالِث",
+            "the third"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "سَامِي",
+            "Sami (first name)",
+            "name"
+          ],
+          [
+            "شَغِّلْ",
+            "play, switch on (to a man)"
+          ],
+          [
+            "لَنَا",
+            "for us"
+          ],
+          [
+            "رِسَالَةَ",
+            "(the) message (of)"
+          ],
+          [
+            "أَخِيكَ",
+            "your brother (to a man)"
+          ],
+          [
+            "عُمَرَ",
+            "Omar (first name)",
+            "name"
+          ],
+          [
+            "مِنْ",
+            "from (\"please\", with faḍlika)"
+          ],
+          [
+            "فَضْلِكَ",
+            "your kindness (\"please\", to a man)"
+          ]
+        ]
+      },
+      {
+        "id": "d85l13",
+        "sp": "sami",
+        "ar": "حَاضِر يَا أُسْتَاذ! تَرَكَ لِي عُمَرُ هٰذِهِ الرِّسَالَةَ الصَّوْتِيَّةَ هٰذَا الصَّبَاحَ، وَكَانَ صَوْتُهُ سَرِيعًا جِدًّا كَالْعَادَة.",
+        "en": "Of course, sir! Omar left me this voicemail this morning, and his voice was very fast, as usual.",
+        "segs": [
+          [
+            "حَاضِر",
+            "of course, right away"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "أُسْتَاذ",
+            "teacher (\"sir\")"
+          ],
+          [
+            "تَرَكَ",
+            "(he) left"
+          ],
+          [
+            "لِي",
+            "for me"
+          ],
+          [
+            "عُمَرُ",
+            "Omar (first name)",
+            "name"
+          ],
+          [
+            "هٰذِهِ",
+            "this (f)"
+          ],
+          [
+            "الرِّسَالَةَ",
+            "the message"
+          ],
+          [
+            "الصَّوْتِيَّةَ",
+            "the voice, audio (f) (\"voicemail\")"
+          ],
+          [
+            "هٰذَا",
+            "this"
+          ],
+          [
+            "الصَّبَاحَ",
+            "the morning"
+          ],
+          [
+            "وَكَانَ",
+            "and (it) was"
+          ],
+          [
+            "صَوْتُهُ",
+            "his voice"
+          ],
+          [
+            "سَرِيعًا",
+            "fast"
+          ],
+          [
+            "جِدًّا",
+            "very"
+          ],
+          [
+            "كَالْعَادَة",
+            "as usual"
+          ]
+        ]
+      },
+      {
+        "id": "d85l14",
+        "sp": "omar",
+        "ar": "أَهْلًا يَا سَامِي، أَنَا عُمَر. كُنْتُ مَشْغُولًا أَمْسِ، لِذٰلِكَ لَمْ أَتَّصِلْ بِكَ. مَوْعِدُنَا مَعَ جَدِّي الْيَوْمَ فِي السَّاعَةِ الْخَامِسَةِ أَمَامَ مَحَطَّةِ الْمِتْرُو، لَا فِي السَّادِسَة. لَا تَنْسَ!",
+        "en": "Hi Sami, it's Omar. I was busy yesterday, so I didn't call you. Our meeting with Grandpa is today at five o'clock in front of the metro station, not at six. Don't forget!",
+        "segs": [
+          [
+            "أَهْلًا",
+            "hi, hello"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "سَامِي",
+            "Sami (first name)",
+            "name"
+          ],
+          [
+            "أَنَا",
+            "I (\"it's\")"
+          ],
+          [
+            "عُمَر",
+            "Omar (first name)",
+            "name"
+          ],
+          [
+            "كُنْتُ",
+            "I was"
+          ],
+          [
+            "مَشْغُولًا",
+            "busy"
+          ],
+          [
+            "أَمْسِ",
+            "yesterday"
+          ],
+          [
+            "لِذٰلِكَ",
+            "so, that's why"
+          ],
+          [
+            "لَمْ",
+            "did not"
+          ],
+          [
+            "أَتَّصِلْ",
+            "I call, I phone"
+          ],
+          [
+            "بِكَ",
+            "you (to a man)"
+          ],
+          [
+            "مَوْعِدُنَا",
+            "our appointment, our meeting"
+          ],
+          [
+            "مَعَ",
+            "with"
+          ],
+          [
+            "جَدِّي",
+            "my grandfather (\"Grandpa\")"
+          ],
+          [
+            "الْيَوْمَ",
+            "today"
+          ],
+          [
+            "فِي",
+            "at, in"
+          ],
+          [
+            "السَّاعَةِ",
+            "the hour, o'clock"
+          ],
+          [
+            "الْخَامِسَةِ",
+            "the fifth (\"five\")"
+          ],
+          [
+            "أَمَامَ",
+            "in front of"
+          ],
+          [
+            "مَحَطَّةِ",
+            "station (of)"
+          ],
+          [
+            "الْمِتْرُو",
+            "the metro"
+          ],
+          [
+            "لَا",
+            "not"
+          ],
+          [
+            "فِي",
+            "at, in"
+          ],
+          [
+            "السَّادِسَة",
+            "the sixth (\"six\")"
+          ],
+          [
+            "لَا",
+            "don't"
+          ],
+          [
+            "تَنْسَ",
+            "forget (to a man)"
+          ]
+        ]
+      },
+      {
+        "id": "d85l15",
+        "sp": "layla",
+        "ar": "كَتَبْتُ التَّفَاصِيلَ الْمُهِمَّةَ: الْمَوْعِدُ الْيَوْمَ فِي الْخَامِسَةِ، لَا فِي السَّادِسَةِ، أَمَامَ مَحَطَّةِ الْمِتْرُو. عُمَرُ يَتَكَلَّمُ بِسُرْعَة، لٰكِنْ بِوُضُوح.",
+        "en": "I wrote down the important details: the meeting is today at five, not at six, in front of the metro station. Omar speaks fast, but clearly.",
+        "segs": [
+          [
+            "كَتَبْتُ",
+            "I wrote"
+          ],
+          [
+            "التَّفَاصِيلَ",
+            "the details"
+          ],
+          [
+            "الْمُهِمَّةَ",
+            "the important (f)"
+          ],
+          [
+            "الْمَوْعِدُ",
+            "the appointment, the meeting"
+          ],
+          [
+            "الْيَوْمَ",
+            "today"
+          ],
+          [
+            "فِي",
+            "at, in"
+          ],
+          [
+            "الْخَامِسَةِ",
+            "the fifth (\"five\")"
+          ],
+          [
+            "لَا",
+            "not"
+          ],
+          [
+            "فِي",
+            "at, in"
+          ],
+          [
+            "السَّادِسَةِ",
+            "the sixth (\"six\")"
+          ],
+          [
+            "أَمَامَ",
+            "in front of"
+          ],
+          [
+            "مَحَطَّةِ",
+            "station (of)"
+          ],
+          [
+            "الْمِتْرُو",
+            "the metro"
+          ],
+          [
+            "عُمَرُ",
+            "Omar (first name)",
+            "name"
+          ],
+          [
+            "يَتَكَلَّمُ",
+            "(he) speaks"
+          ],
+          [
+            "بِسُرْعَة",
+            "fast (lit. with speed)"
+          ],
+          [
+            "لٰكِنْ",
+            "but"
+          ],
+          [
+            "بِوُضُوح",
+            "clearly"
+          ]
+        ]
+      },
+      {
+        "id": "d85l16",
+        "sp": "karim",
+        "ar": "أَحْسَنْتُمْ جَمِيعًا! وَفِي الْحَيَاةِ الْحَقِيقِيَّةِ، إِذَا لَمْ تَفْهَمُوا شَيْئًا، فَقُولُوا: «هَلْ يُمْكِنُ أَنْ تُكَرِّرَ بِوُضُوح؟» غَدًا نُرَاجِعُ الْقِرَاءَة.",
+        "en": "Well done, all of you! And in real life, if you don't understand something, say: 'Could you repeat that clearly?' Tomorrow we review reading.",
+        "segs": [
+          [
+            "أَحْسَنْتُمْ",
+            "well done (to a group)"
+          ],
+          [
+            "جَمِيعًا",
+            "all (of you)"
+          ],
+          [
+            "وَفِي",
+            "and in"
+          ],
+          [
+            "الْحَيَاةِ",
+            "the life"
+          ],
+          [
+            "الْحَقِيقِيَّةِ",
+            "the real"
+          ],
+          [
+            "إِذَا",
+            "if"
+          ],
+          [
+            "لَمْ",
+            "did not (\"don't\", after idhā)"
+          ],
+          [
+            "تَفْهَمُوا",
+            "you (all) understand"
+          ],
+          [
+            "شَيْئًا",
+            "something, anything"
+          ],
+          [
+            "فَقُولُوا",
+            "then say! (to a group)"
+          ],
+          [
+            "هَلْ",
+            "(yes/no question word)"
+          ],
+          [
+            "يُمْكِنُ",
+            "(it) is possible (\"could\")"
+          ],
+          [
+            "أَنْ",
+            "that, to"
+          ],
+          [
+            "تُكَرِّرَ",
+            "you repeat (to a man)"
+          ],
+          [
+            "بِوُضُوح",
+            "clearly"
+          ],
+          [
+            "غَدًا",
+            "tomorrow"
+          ],
+          [
+            "نُرَاجِعُ",
+            "we review, we revise"
+          ],
+          [
+            "الْقِرَاءَة",
+            "the reading"
+          ]
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "title": "A day of listening",
+    "ar": "فِي أَوَّلِ يَوْمٍ مِنَ الْأُسْبُوعِ الْأَخِيرِ اسْتَمَعَ الطُّلَّابُ إِلَى ثَلَاثَةِ تَسْجِيلَاتٍ. فِي نَشْرَةِ الطَّقْسِ كَانَ الْجَوُّ غَائِمًا أَمْسِ، وَغَدًا سَيَكُونُ مُشْمِسًا. وَفِي الْإِعْلَانِ كَانَ الْقِطَارُ مُتَأَخِّرًا. وَفِي الرِّسَالَةِ الصَّوْتِيَّةِ كَانَ صَوْتُ عُمَرَ سَرِيعًا، لٰكِنَّ لَيْلَى كَتَبَتْ كُلَّ التَّفَاصِيلِ. قَالَ الْأُسْتَاذ كَرِيم: اسْتَمِعُوا إِلَى الْأَرْقَامِ وَالْأَوْقَاتِ.",
+    "en": "On the first day of the last week, the students listened to three recordings. In the weather bulletin it was cloudy yesterday, and tomorrow it will be sunny. In the announcement the train was late. In the voicemail Omar's voice was fast, but Layla wrote down all the details. Mr Karim said: Listen for the numbers and the times.",
+    "segs": [
+      [
+        "فِي",
+        "in, on"
+      ],
+      [
+        "أَوَّلِ",
+        "(the) first (of)"
+      ],
+      [
+        "يَوْمٍ",
+        "day"
+      ],
+      [
+        "مِنَ",
+        "of (-a links to the next word)"
+      ],
+      [
+        "الْأُسْبُوعِ",
+        "the week"
+      ],
+      [
+        "الْأَخِيرِ",
+        "the last"
+      ],
+      [
+        "اسْتَمَعَ",
+        "(he) listened (\"listened\")"
+      ],
+      [
+        "الطُّلَّابُ",
+        "the students"
+      ],
+      [
+        "إِلَى",
+        "to"
+      ],
+      [
+        "ثَلَاثَةِ",
+        "three"
+      ],
+      [
+        "تَسْجِيلَاتٍ",
+        "recordings"
+      ],
+      [
+        "فِي",
+        "in"
+      ],
+      [
+        "نَشْرَةِ",
+        "bulletin (of)"
+      ],
+      [
+        "الطَّقْسِ",
+        "the weather"
+      ],
+      [
+        "كَانَ",
+        "(it) was"
+      ],
+      [
+        "الْجَوُّ",
+        "the weather"
+      ],
+      [
+        "غَائِمًا",
+        "cloudy"
+      ],
+      [
+        "أَمْسِ",
+        "yesterday"
+      ],
+      [
+        "وَغَدًا",
+        "and tomorrow"
+      ],
+      [
+        "سَيَكُونُ",
+        "(it) will be"
+      ],
+      [
+        "مُشْمِسًا",
+        "sunny"
+      ],
+      [
+        "وَفِي",
+        "and in"
+      ],
+      [
+        "الْإِعْلَانِ",
+        "the announcement"
+      ],
+      [
+        "كَانَ",
+        "(it) was"
+      ],
+      [
+        "الْقِطَارُ",
+        "the train"
+      ],
+      [
+        "مُتَأَخِّرًا",
+        "late"
+      ],
+      [
+        "وَفِي",
+        "and in"
+      ],
+      [
+        "الرِّسَالَةِ",
+        "the message"
+      ],
+      [
+        "الصَّوْتِيَّةِ",
+        "the voice, audio (f) (\"voicemail\")"
+      ],
+      [
+        "كَانَ",
+        "(it) was"
+      ],
+      [
+        "صَوْتُ",
+        "(the) voice (of)"
+      ],
+      [
+        "عُمَرَ",
+        "Omar (first name)",
+        "name"
+      ],
+      [
+        "سَرِيعًا",
+        "fast"
+      ],
+      [
+        "لٰكِنَّ",
+        "but (like inna: the noun after it ends in -a)"
+      ],
+      [
+        "لَيْلَى",
+        "Layla (first name)",
+        "name"
+      ],
+      [
+        "كَتَبَتْ",
+        "(she) wrote"
+      ],
+      [
+        "كُلَّ",
+        "all"
+      ],
+      [
+        "التَّفَاصِيلِ",
+        "the details"
+      ],
+      [
+        "قَالَ",
+        "(he) said"
+      ],
+      [
+        "الْأُسْتَاذ",
+        "the teacher, Mr"
+      ],
+      [
+        "كَرِيم",
+        "Karim (first name)",
+        "name"
+      ],
+      [
+        "اسْتَمِعُوا",
+        "listen! (to a group)"
+      ],
+      [
+        "إِلَى",
+        "to (\"for\")"
+      ],
+      [
+        "الْأَرْقَامِ",
+        "the numbers"
+      ],
+      [
+        "وَالْأَوْقَاتِ",
+        "and the times"
+      ]
+    ]
+  },
+  "review": [
+    "yastamiu",
+    "yukarriru",
+    "khabar",
+    "qitar",
+    "mutaakhkhir",
+    "taqs"
+  ],
+  "quiz": [
+    {
+      "id": "d85q1",
+      "prompt": "What does تَسْجِيل mean?",
+      "options": [
+        "announcement",
+        "recording",
+        "bulletin",
+        "detail"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "d85q2",
+      "prompt": "What was the weather like in Cairo yesterday, according to the bulletin?",
+      "options": [
+        "sunny and hot",
+        "rainy and windy",
+        "cloudy",
+        "thirty degrees and sunny"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "d85q3",
+      "prompt": "Which platform does the Alexandria train leave from?",
+      "options": [
+        "platform four",
+        "platform ten",
+        "platform one",
+        "platform three"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "d85q4",
+      "prompt": "Complete: كَانَ الْجَوُّ أَمْسِ ___ .",
+      "options": [
+        "غَائِمَاتٌ",
+        "غَائِمِينَ",
+        "غَائِمَةً",
+        "غَائِمًا"
+      ],
+      "answer": 3,
+      "explain": "After كَانَ the description takes the -an ending and agrees with الْجَوّ (masculine): غَائِمًا."
+    },
+    {
+      "id": "d85q5",
+      "prompt": "When and where is the meeting in Omar's voicemail?",
+      "options": [
+        "tomorrow at six, at home",
+        "today at five, in front of the metro station",
+        "today at six, at Ramses Station",
+        "yesterday evening, at the radio station"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "d85q6",
+      "prompt": "How do you say 'from the platform' with the helping vowel?",
+      "options": [
+        "مِنْ الرَّصِيفِ",
+        "مِنُ الرَّصِيفِ",
+        "مِنَ الرَّصِيفِ",
+        "مِنِ الرَّصِيفِ"
+      ],
+      "answer": 2,
+      "explain": "Before al-, مِنْ takes -a and the a of al- drops: mina r-raṣīf."
+    },
+    {
+      "id": "d85q7",
+      "prompt": "What does Mr Karim tell the class to listen for first?",
+      "options": [
+        "every single word",
+        "only the verbs",
+        "the speaker's accent",
+        "the numbers, the times and the names"
+      ],
+      "answer": 3
+    }
+  ],
+  "completion": "Mabrūk on the first day of the final week! You listened to a weather bulletin, a station announcement and a voicemail, caught the numbers, times, names and connectors, used كَانَ for the past and heard the helping vowel in مِنَ الرَّصِيفِ. Tomorrow: reading review.",
+  "status": "needs-review"
+}

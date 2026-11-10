@@ -1,0 +1,1908 @@
+{
+  "day": 88,
+  "week": 13,
+  "phase": 7,
+  "level": 9,
+  "title": "Writing review",
+  "titleAr": "مُرَاجَعَةُ الْكِتَابَة",
+  "titleSegs": [
+    [
+      "مُرَاجَعَةُ",
+      "review, revision (of)"
+    ],
+    [
+      "الْكِتَابَة",
+      "the writing"
+    ]
+  ],
+  "emoji": "✍️",
+  "summary": "Review writing in one story: Daniel's essay 'My year with Arabic', corrected by Mr Karim, with the spelling of hamza, ta marbuta and alif maqsura, joining letters, linking words and email phrases.",
+  "intro": "Today is writing day. Daniel reads his مَقَالَة (essay) سَنَتِي مَعَ الْعَرَبِيَّة (My year with Arabic), and Mr Karim corrects it on the board, so every spelling point of the course comes back. Hamza sits on a seat chosen by the vowels around it: on a yaa with a kasra, as in قَارِئ (reader), on a waw with a damma, as in سُؤَال (question), otherwise on an alif, as in سَأَلَ (he asked). Ta marbuta ة has two dots: مَدْرَسَة (school) without them is misspelt. إِلَى (to) and عَلَى (on) end in alif maqsura ى, with no dots. Six letters never join to the next one: ا د ذ ر ز و. A good text is also organised: one idea in each فِقْرَة (paragraph), linking words like لٰكِنَّ (but), لِذٰلِكَ (so) and مَعَ أَنَّ (although), the letter phrases عَزِيزِي (dear) and أَرْجُو أَنْ تَكُونَ بِخَيْر (I hope you are well), and عَلَامَات التَّرْقِيم (punctuation). Write a مُسَوَّدَة (draft) first, then يُصَحِّحُ (he corrects) becomes your own job.",
+  "objectives": [
+    "Write a short paragraph about yourself, with one idea per فِقْرَة (paragraph)",
+    "Spell hamza, ta marbuta ة and alif maqsura ى correctly, as in سُؤَال, مَدْرَسَة and إِلَى",
+    "Link sentences in an essay with لٰكِنَّ, لِذٰلِكَ, بِالْإِضَافَةِ إِلَى and مَعَ أَنَّ",
+    "Open and close a message or a postcard with عَزِيزِي / عَزِيزَتِي and أَرْجُو أَنْ تَكُونَ بِخَيْر"
+  ],
+  "realLife": {
+    "emoji": "📝",
+    "title": "An essay about a year of Arabic",
+    "story": "It's the second-to-last week of the course, and Mr Karim gave the class one last piece of homework: a short essay called 'My year with Arabic'. Daniel wrote his at the kitchen table, crossing out words and starting again. Now he has to read his draft aloud, while Mr Karim copies his mistakes onto the board for everyone to correct together. Layla is secretly happy: she makes the same mistakes with hamza."
+  },
+  "letters": [],
+  "newWords": [
+    "maqala",
+    "musawwada",
+    "yusahhihu",
+    "imla",
+    "jumla",
+    "fiqra",
+    "alamat-tarqim",
+    "yunazzimu",
+    "bitaqa-baridiyya",
+    "taqaddum"
+  ],
+  "grammar": [
+    "connectors-w12",
+    "email-formulas"
+  ],
+  "pronunciation": [
+    "hamza"
+  ],
+  "sentences": [
+    {
+      "id": "d88s1",
+      "ar": "كَتَبْتُ مُسَوَّدَةً أَوَّلًا، ثُمَّ صَحَّحْتُ الْأَخْطَاءَ.",
+      "en": "First I wrote a draft, then I corrected the mistakes.",
+      "literal": "I-wrote a draft firstly, then I-corrected the mistakes",
+      "segs": [
+        [
+          "كَتَبْتُ",
+          "I wrote",
+          "verb"
+        ],
+        [
+          "مُسَوَّدَةً",
+          "a draft",
+          "noun"
+        ],
+        [
+          "أَوَّلًا",
+          "first, firstly",
+          "adverb"
+        ],
+        [
+          "ثُمَّ",
+          "then",
+          "particle"
+        ],
+        [
+          "صَحَّحْتُ",
+          "I corrected",
+          "verb"
+        ],
+        [
+          "الْأَخْطَاءَ",
+          "the mistakes",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "connectors-w12",
+        "past-tense"
+      ],
+      "mistakes": [
+        {
+          "wrong": "كَتَبْتُ مُسَوَّدَه",
+          "right": "كَتَبْتُ مُسَوَّدَةً",
+          "why": "A feminine word ending in -a is written with ta marbuta, the round letter with two dots on top. Without the dots it is the letter haa, and the word is misspelt."
+        }
+      ]
+    },
+    {
+      "id": "d88s2",
+      "ar": "الْعَرَبِيَّةُ صَعْبَة، لٰكِنَّ الْإِمْلَاءَ أَسْهَلُ مِمَّا ظَنَنْتُ.",
+      "en": "Arabic is hard, but spelling is easier than I thought.",
+      "literal": "the Arabic (is) hard, but the spelling (is) easier than-what I-thought",
+      "segs": [
+        [
+          "الْعَرَبِيَّةُ",
+          "Arabic (the language)",
+          "noun"
+        ],
+        [
+          "صَعْبَة",
+          "difficult, hard (f)",
+          "adj"
+        ],
+        [
+          "لٰكِنَّ",
+          "but (the noun after it ends in -a)",
+          "particle"
+        ],
+        [
+          "الْإِمْلَاءَ",
+          "the spelling",
+          "noun"
+        ],
+        [
+          "أَسْهَلُ",
+          "easier",
+          "adj"
+        ],
+        [
+          "مِمَّا",
+          "than (what)",
+          "prep"
+        ],
+        [
+          "ظَنَنْتُ",
+          "I thought",
+          "verb"
+        ]
+      ],
+      "grammar": [
+        "connectors-w12",
+        "comparative"
+      ],
+      "mistakes": [
+        {
+          "wrong": "لٰكِنَّ الْإِمْلَاءُ أَسْهَلُ",
+          "right": "لٰكِنَّ الْإِمْلَاءَ أَسْهَلُ",
+          "why": "lākinna (but) works like inna and anna: the noun right after it ends in -a, al-imlāʾa."
+        }
+      ]
+    },
+    {
+      "id": "d88s3",
+      "ar": "عَزِيزِي سَامِي، أَرْجُو أَنْ تَكُونَ بِخَيْر.",
+      "en": "Dear Sami, I hope you are well.",
+      "literal": "my-dear Sami, I-hope that you-be in-good (health)",
+      "segs": [
+        [
+          "عَزِيزِي",
+          "my dear (to a man)",
+          "adj"
+        ],
+        [
+          "سَامِي",
+          "Sami (first name)",
+          "name"
+        ],
+        [
+          "أَرْجُو",
+          "I hope",
+          "verb"
+        ],
+        [
+          "أَنْ",
+          "that",
+          "particle"
+        ],
+        [
+          "تَكُونَ",
+          "you are (to a man, after an)",
+          "verb"
+        ],
+        [
+          "بِخَيْر",
+          "well (lit. in good)",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "email-formulas",
+        "an-subjunctive"
+      ],
+      "mistakes": [
+        {
+          "wrong": "عَزِيزَتِي سَامِي",
+          "right": "عَزِيزِي سَامِي",
+          "why": "Sami is a man, so write ʿazīzī. ʿAzīzatī, with ta marbuta, is for a woman: عَزِيزَتِي لَيْلَى."
+        }
+      ]
+    },
+    {
+      "id": "d88s4",
+      "ar": "كَتَبْتُ بِطَاقَةً بَرِيدِيَّةً إِلَى أُمِّي فِي شِيكَاغُو.",
+      "en": "I wrote a postcard to my mother in Chicago.",
+      "literal": "I-wrote a card postal to my-mother in Chicago",
+      "segs": [
+        [
+          "كَتَبْتُ",
+          "I wrote",
+          "verb"
+        ],
+        [
+          "بِطَاقَةً",
+          "a card",
+          "noun"
+        ],
+        [
+          "بَرِيدِيَّةً",
+          "postal ('a postcard')",
+          "adj"
+        ],
+        [
+          "إِلَى",
+          "to",
+          "prep"
+        ],
+        [
+          "أُمِّي",
+          "my mother",
+          "noun"
+        ],
+        [
+          "فِي",
+          "in",
+          "prep"
+        ],
+        [
+          "شِيكَاغُو",
+          "Chicago (city)",
+          "name"
+        ]
+      ],
+      "grammar": [
+        "past-tense",
+        "adjective-agreement"
+      ],
+      "mistakes": [
+        {
+          "wrong": "كَتَبْتُ بِطَاقَةً بَرِيدِيَّةً إِلِي أُمِّي",
+          "right": "كَتَبْتُ بِطَاقَةً بَرِيدِيَّةً إِلَى أُمِّي",
+          "why": "ilā (to) ends in alif maqsura, a yaa shape with no dots, read as a long ā. With two dots it becomes yaa and reads ī."
+        }
+      ]
+    },
+    {
+      "id": "d88s5",
+      "ar": "كُلُّ فِقْرَةٍ تَبْدَأُ بِفِكْرَةٍ وَاحِدَةٍ.",
+      "en": "Every paragraph begins with one idea.",
+      "literal": "every paragraph she-begins with an idea one",
+      "segs": [
+        [
+          "كُلُّ",
+          "every",
+          "noun"
+        ],
+        [
+          "فِقْرَةٍ",
+          "paragraph",
+          "noun"
+        ],
+        [
+          "تَبْدَأُ",
+          "(she) begins ('begins')",
+          "verb"
+        ],
+        [
+          "بِفِكْرَةٍ",
+          "with an idea",
+          "noun"
+        ],
+        [
+          "وَاحِدَةٍ",
+          "one (f)",
+          "number"
+        ]
+      ],
+      "grammar": [
+        "present-tense",
+        "adjective-agreement"
+      ],
+      "mistakes": [
+        {
+          "wrong": "كُلُّ فِقْرَةٍ تَبْدَا بِفِكْرَةٍ وَاحِدَةٍ",
+          "right": "كُلُّ فِقْرَةٍ تَبْدَأُ بِفِكْرَةٍ وَاحِدَةٍ",
+          "why": "The last letter of tabdaʾu is a hamza, and it must be written. The vowel before it is a, so it sits on an alif: تَبْدَأُ."
+        }
+      ]
+    },
+    {
+      "id": "d88s6",
+      "ar": "نَظَّمْتُ أَفْكَارِي، لِذٰلِكَ صَارَتِ الْمَقَالَةُ وَاضِحَةً.",
+      "en": "I organised my ideas, so the essay became clear.",
+      "literal": "I-organised my-ideas, for-that became the essay clear",
+      "segs": [
+        [
+          "نَظَّمْتُ",
+          "I organised",
+          "verb"
+        ],
+        [
+          "أَفْكَارِي",
+          "my ideas",
+          "noun"
+        ],
+        [
+          "لِذٰلِكَ",
+          "that's why, so",
+          "particle"
+        ],
+        [
+          "صَارَتِ",
+          "(she) became ('became')",
+          "verb"
+        ],
+        [
+          "الْمَقَالَةُ",
+          "the essay",
+          "noun"
+        ],
+        [
+          "وَاضِحَةً",
+          "clear (f)",
+          "adj"
+        ]
+      ],
+      "grammar": [
+        "connectors-w12",
+        "kana"
+      ],
+      "mistakes": [
+        {
+          "wrong": "صَارَتِ الْمَقَالَةُ وَاضِحَةٌ",
+          "right": "صَارَتِ الْمَقَالَةُ وَاضِحَةً",
+          "why": "ṣāra (to become) works like kāna: the describing word after it ends in -an, wāḍiḥatan."
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "My year with Arabic: correcting the essay",
+    "speakers": [
+      {
+        "key": "karim",
+        "name": "Mr Karim",
+        "nameAr": "الْأُسْتَاذ كَرِيم"
+      },
+      {
+        "key": "daniel",
+        "name": "Daniel",
+        "nameAr": "دَانْيَال"
+      },
+      {
+        "key": "layla",
+        "name": "Layla",
+        "nameAr": "لَيْلَى"
+      }
+    ],
+    "culture": "Arab schools take spelling seriously: pupils do إِمْلَاء (dictation) for years, and a teacher's red pen circles every missing dot and every hamza on the wrong seat. The two dots matter, because without them ة is read as a haa and ي as an alif maqsura. Handwriting is valued too: the art of الْخَطّ (calligraphy) is everywhere, from mosques to shop signs. Personal letters and postcards start warmly with عَزِيزِي or عَزِيزَتِي, and formal ones with تَحِيَّة طَيِّبَة وَبَعْدُ.",
+    "lines": [
+      {
+        "id": "d88l1",
+        "sp": "karim",
+        "ar": "صَبَاحُ الْخَيْر! الْيَوْمَ دَرْسُ الْكِتَابَة. أَمْسِ كَتَبْتُمْ مَقَالَةً قَصِيرَةً بِعُنْوَان «سَنَتِي مَعَ الْعَرَبِيَّة». مَنْ يَقْرَأُ مَقَالَتَهُ أَوَّلًا؟",
+        "en": "Good morning! Today is the writing lesson. Yesterday you wrote a short essay with the title 'My year with Arabic'. Who will read their essay first?",
+        "segs": [
+          [
+            "صَبَاحُ",
+            "morning (of)"
+          ],
+          [
+            "الْخَيْر",
+            "the goodness"
+          ],
+          [
+            "الْيَوْمَ",
+            "today"
+          ],
+          [
+            "دَرْسُ",
+            "lesson (of)"
+          ],
+          [
+            "الْكِتَابَة",
+            "the writing"
+          ],
+          [
+            "أَمْسِ",
+            "yesterday"
+          ],
+          [
+            "كَتَبْتُمْ",
+            "you (all) wrote"
+          ],
+          [
+            "مَقَالَةً",
+            "an essay"
+          ],
+          [
+            "قَصِيرَةً",
+            "short (f)"
+          ],
+          [
+            "بِعُنْوَان",
+            "with the title"
+          ],
+          [
+            "سَنَتِي",
+            "my year"
+          ],
+          [
+            "مَعَ",
+            "with"
+          ],
+          [
+            "الْعَرَبِيَّة",
+            "Arabic (the language)"
+          ],
+          [
+            "مَنْ",
+            "who"
+          ],
+          [
+            "يَقْرَأُ",
+            "(he) reads"
+          ],
+          [
+            "مَقَالَتَهُ",
+            "his essay"
+          ],
+          [
+            "أَوَّلًا",
+            "first"
+          ]
+        ]
+      },
+      {
+        "id": "d88l2",
+        "sp": "daniel",
+        "ar": "أَنَا يَا أُسْتَاذ! لٰكِنْ هٰذِهِ مُسَوَّدَة فَقَطْ. كَتَبْتُهَا فِي الْبَيْت أَمْسِ، وَأَعْرِفُ أَنَّ فِيهَا أَخْطَاءً كَثِيرَةً فِي الْإِمْلَاء.",
+        "en": "Me, sir! But this is only a draft. I wrote it at home yesterday, and I know that it has a lot of spelling mistakes.",
+        "segs": [
+          [
+            "أَنَا",
+            "I ('me')"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "أُسْتَاذ",
+            "teacher ('sir')"
+          ],
+          [
+            "لٰكِنْ",
+            "but"
+          ],
+          [
+            "هٰذِهِ",
+            "this (f)"
+          ],
+          [
+            "مُسَوَّدَة",
+            "a draft"
+          ],
+          [
+            "فَقَطْ",
+            "only"
+          ],
+          [
+            "كَتَبْتُهَا",
+            "I wrote it"
+          ],
+          [
+            "فِي",
+            "in, at"
+          ],
+          [
+            "الْبَيْت",
+            "the house ('home')"
+          ],
+          [
+            "أَمْسِ",
+            "yesterday"
+          ],
+          [
+            "وَأَعْرِفُ",
+            "and I know"
+          ],
+          [
+            "أَنَّ",
+            "that"
+          ],
+          [
+            "فِيهَا",
+            "in it ('it has')"
+          ],
+          [
+            "أَخْطَاءً",
+            "mistakes"
+          ],
+          [
+            "كَثِيرَةً",
+            "many (f)"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "الْإِمْلَاء",
+            "the spelling"
+          ]
+        ]
+      },
+      {
+        "id": "d88l3",
+        "sp": "karim",
+        "ar": "لَا بَأْس، الْمُسَوَّدَةُ لِلْأَخْطَاء! اقْرَأِ الْفِقْرَةَ الْأُولَى، ثُمَّ نُصَحِّحُ الْأَخْطَاءَ مَعًا عَلَى السَّبُّورَة.",
+        "en": "No problem, a draft is there for mistakes! Read the first paragraph, and then we'll correct the mistakes together on the board.",
+        "segs": [
+          [
+            "لَا",
+            "no"
+          ],
+          [
+            "بَأْس",
+            "harm ('no problem')"
+          ],
+          [
+            "الْمُسَوَّدَةُ",
+            "the draft"
+          ],
+          [
+            "لِلْأَخْطَاء",
+            "for the mistakes"
+          ],
+          [
+            "اقْرَأِ",
+            "read! (to a man)"
+          ],
+          [
+            "الْفِقْرَةَ",
+            "the paragraph"
+          ],
+          [
+            "الْأُولَى",
+            "the first (f)"
+          ],
+          [
+            "ثُمَّ",
+            "then"
+          ],
+          [
+            "نُصَحِّحُ",
+            "we correct"
+          ],
+          [
+            "الْأَخْطَاءَ",
+            "the mistakes"
+          ],
+          [
+            "مَعًا",
+            "together"
+          ],
+          [
+            "عَلَى",
+            "on"
+          ],
+          [
+            "السَّبُّورَة",
+            "the board"
+          ]
+        ]
+      },
+      {
+        "id": "d88l4",
+        "sp": "daniel",
+        "ar": "قَبْلَ سَنَةٍ جِئْتُ إِلَى هُنَا مِنْ شِيكَاغُو، وَلَمْ أَعْرِفْ كَلِمَةً وَاحِدَةً. مِنْ نَاحِيَةٍ، كَانَتِ اللُّغَةُ صَعْبَةً، وَمِنْ نَاحِيَةٍ أُخْرَى، كَانَ النَّاسُ لُطَفَاءَ جِدًّا.",
+        "en": "A year ago I came here from Chicago, and I didn't know a single word. On the one hand the language was hard, and on the other hand people were very kind.",
+        "segs": [
+          [
+            "قَبْلَ",
+            "before ('ago')"
+          ],
+          [
+            "سَنَةٍ",
+            "a year"
+          ],
+          [
+            "جِئْتُ",
+            "I came"
+          ],
+          [
+            "إِلَى",
+            "to"
+          ],
+          [
+            "هُنَا",
+            "here"
+          ],
+          [
+            "مِنْ",
+            "from"
+          ],
+          [
+            "شِيكَاغُو",
+            "Chicago (city)",
+            "name"
+          ],
+          [
+            "وَلَمْ",
+            "and not ('didn't', with a verb)"
+          ],
+          [
+            "أَعْرِفْ",
+            "I know ('know')"
+          ],
+          [
+            "كَلِمَةً",
+            "a word"
+          ],
+          [
+            "وَاحِدَةً",
+            "one, single (f)"
+          ],
+          [
+            "مِنْ",
+            "from ('on')"
+          ],
+          [
+            "نَاحِيَةٍ",
+            "a side ('the one hand')"
+          ],
+          [
+            "كَانَتِ",
+            "(she) was"
+          ],
+          [
+            "اللُّغَةُ",
+            "the language"
+          ],
+          [
+            "صَعْبَةً",
+            "difficult, hard (f)"
+          ],
+          [
+            "وَمِنْ",
+            "and from ('and on')"
+          ],
+          [
+            "نَاحِيَةٍ",
+            "a side ('hand')"
+          ],
+          [
+            "أُخْرَى",
+            "other (f)"
+          ],
+          [
+            "كَانَ",
+            "(he) was ('were')"
+          ],
+          [
+            "النَّاسُ",
+            "the people"
+          ],
+          [
+            "لُطَفَاءَ",
+            "kind (plural)"
+          ],
+          [
+            "جِدًّا",
+            "very"
+          ]
+        ]
+      },
+      {
+        "id": "d88l5",
+        "sp": "karim",
+        "ar": "بِدَايَة جَمِيلَة! لٰكِنِ انْظُرْ إِلَى السَّبُّورَة: كَتَبْتَ «إِلَى» بِالْيَاءِ وَنُقْطَتَيْنِ. هٰذِهِ الْكَلِمَةُ تَنْتَهِي بِأَلِفٍ مَقْصُورَةٍ بِدُونِ نُقَط، مِثْل «عَلَى».",
+        "en": "A lovely beginning! But look at the board: you wrote 'to' with a yaa and two dots. This word ends in an alif maqsura without dots, like 'on'.",
+        "segs": [
+          [
+            "بِدَايَة",
+            "a beginning"
+          ],
+          [
+            "جَمِيلَة",
+            "beautiful, lovely (f)"
+          ],
+          [
+            "لٰكِنِ",
+            "but (-i links to the next word)"
+          ],
+          [
+            "انْظُرْ",
+            "look! (to a man)"
+          ],
+          [
+            "إِلَى",
+            "at, to"
+          ],
+          [
+            "السَّبُّورَة",
+            "the board"
+          ],
+          [
+            "كَتَبْتَ",
+            "you wrote (to a man)"
+          ],
+          [
+            "إِلَى",
+            "to"
+          ],
+          [
+            "بِالْيَاءِ",
+            "with the yaa"
+          ],
+          [
+            "وَنُقْطَتَيْنِ",
+            "and two dots"
+          ],
+          [
+            "هٰذِهِ",
+            "this (f)"
+          ],
+          [
+            "الْكَلِمَةُ",
+            "the word"
+          ],
+          [
+            "تَنْتَهِي",
+            "(she) ends ('ends')"
+          ],
+          [
+            "بِأَلِفٍ",
+            "with an alif"
+          ],
+          [
+            "مَقْصُورَةٍ",
+            "shortened ('alif maqsura')"
+          ],
+          [
+            "بِدُونِ",
+            "without"
+          ],
+          [
+            "نُقَط",
+            "dots"
+          ],
+          [
+            "مِثْل",
+            "like"
+          ],
+          [
+            "عَلَى",
+            "on"
+          ]
+        ]
+      },
+      {
+        "id": "d88l6",
+        "sp": "daniel",
+        "ar": "صَحِيح، دَائِمًا أَنْسَى ذٰلِكَ! وَفِي الْجُمْلَةِ الثَّانِيَةِ نَسِيتُ النُّقْطَتَيْنِ عَلَى التَّاءِ الْمَرْبُوطَةِ فِي كَلِمَةِ «مَدْرَسَة»، فَصَارَتْ هَاءً.",
+        "en": "That's right, I always forget that! And in the second sentence I forgot the two dots on the ta marbuta in the word 'school', so it turned into a haa.",
+        "segs": [
+          [
+            "صَحِيح",
+            "right, correct"
+          ],
+          [
+            "دَائِمًا",
+            "always"
+          ],
+          [
+            "أَنْسَى",
+            "I forget"
+          ],
+          [
+            "ذٰلِكَ",
+            "that"
+          ],
+          [
+            "وَفِي",
+            "and in"
+          ],
+          [
+            "الْجُمْلَةِ",
+            "the sentence"
+          ],
+          [
+            "الثَّانِيَةِ",
+            "the second (f)"
+          ],
+          [
+            "نَسِيتُ",
+            "I forgot"
+          ],
+          [
+            "النُّقْطَتَيْنِ",
+            "the two dots"
+          ],
+          [
+            "عَلَى",
+            "on"
+          ],
+          [
+            "التَّاءِ",
+            "the taa"
+          ],
+          [
+            "الْمَرْبُوطَةِ",
+            "the tied ('ta marbuta')"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "كَلِمَةِ",
+            "word (of) ('the word')"
+          ],
+          [
+            "مَدْرَسَة",
+            "school"
+          ],
+          [
+            "فَصَارَتْ",
+            "so (she) became ('turned into')"
+          ],
+          [
+            "هَاءً",
+            "a haa (the letter)"
+          ]
+        ]
+      },
+      {
+        "id": "d88l7",
+        "sp": "layla",
+        "ar": "وَأَنَا عِنْدِي نَفْسُ الْمُشْكِلَةِ مَعَ الْهَمْزَةِ يَا أُسْتَاذ. مَتَى نَكْتُبُهَا عَلَى الْأَلِف، وَمَتَى نَكْتُبُهَا عَلَى الْوَاوِ أَوِ الْيَاء؟",
+        "en": "And I have the same problem with the hamza, sir. When do we write it on the alif, and when do we write it on the waw or the yaa?",
+        "segs": [
+          [
+            "وَأَنَا",
+            "and I"
+          ],
+          [
+            "عِنْدِي",
+            "I have (lit. at me)"
+          ],
+          [
+            "نَفْسُ",
+            "same (of) ('the same')"
+          ],
+          [
+            "الْمُشْكِلَةِ",
+            "the problem"
+          ],
+          [
+            "مَعَ",
+            "with"
+          ],
+          [
+            "الْهَمْزَةِ",
+            "the hamza"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "أُسْتَاذ",
+            "teacher ('sir')"
+          ],
+          [
+            "مَتَى",
+            "when"
+          ],
+          [
+            "نَكْتُبُهَا",
+            "we write it"
+          ],
+          [
+            "عَلَى",
+            "on"
+          ],
+          [
+            "الْأَلِف",
+            "the alif"
+          ],
+          [
+            "وَمَتَى",
+            "and when"
+          ],
+          [
+            "نَكْتُبُهَا",
+            "we write it"
+          ],
+          [
+            "عَلَى",
+            "on"
+          ],
+          [
+            "الْوَاوِ",
+            "the waw"
+          ],
+          [
+            "أَوِ",
+            "or (-i links to the next word)"
+          ],
+          [
+            "الْيَاء",
+            "the yaa"
+          ]
+        ]
+      },
+      {
+        "id": "d88l8",
+        "sp": "karim",
+        "ar": "سُؤَال مُمْتَاز! انْظُرُوا إِلَى الْحَرَكَاتِ حَوْلَهَا: إِذَا كَانَتْ هُنَاكَ كَسْرَة، فَهِيَ عَلَى الْيَاء، مِثْل «قَارِئ». وَإِذَا كَانَتْ ضَمَّة، فَعَلَى الْوَاو، مِثْل «سُؤَال». وَإِلَّا فَعَلَى الْأَلِف، مِثْل «سَأَلَ».",
+        "en": "Excellent question! Look at the vowels around it: if there is a kasra, it sits on the yaa, like 'reader'. If there is a damma, on the waw, like 'question'. Otherwise on the alif, like 'he asked'.",
+        "segs": [
+          [
+            "سُؤَال",
+            "a question"
+          ],
+          [
+            "مُمْتَاز",
+            "excellent"
+          ],
+          [
+            "انْظُرُوا",
+            "look! (to a group)"
+          ],
+          [
+            "إِلَى",
+            "at, to"
+          ],
+          [
+            "الْحَرَكَاتِ",
+            "the vowel marks"
+          ],
+          [
+            "حَوْلَهَا",
+            "around it"
+          ],
+          [
+            "إِذَا",
+            "if"
+          ],
+          [
+            "كَانَتْ",
+            "(she) was ('there is', with hunāka)"
+          ],
+          [
+            "هُنَاكَ",
+            "there"
+          ],
+          [
+            "كَسْرَة",
+            "a kasra (the i mark)"
+          ],
+          [
+            "فَهِيَ",
+            "then it"
+          ],
+          [
+            "عَلَى",
+            "on"
+          ],
+          [
+            "الْيَاء",
+            "the yaa"
+          ],
+          [
+            "مِثْل",
+            "like"
+          ],
+          [
+            "قَارِئ",
+            "reader"
+          ],
+          [
+            "وَإِذَا",
+            "and if"
+          ],
+          [
+            "كَانَتْ",
+            "(she) was ('there is')"
+          ],
+          [
+            "ضَمَّة",
+            "a damma (the u mark)"
+          ],
+          [
+            "فَعَلَى",
+            "then on"
+          ],
+          [
+            "الْوَاو",
+            "the waw"
+          ],
+          [
+            "مِثْل",
+            "like"
+          ],
+          [
+            "سُؤَال",
+            "question"
+          ],
+          [
+            "وَإِلَّا",
+            "and otherwise"
+          ],
+          [
+            "فَعَلَى",
+            "then on"
+          ],
+          [
+            "الْأَلِف",
+            "the alif"
+          ],
+          [
+            "مِثْل",
+            "like"
+          ],
+          [
+            "سَأَلَ",
+            "he asked"
+          ]
+        ]
+      },
+      {
+        "id": "d88l9",
+        "sp": "daniel",
+        "ar": "فَهِمْتُ، شُكْرًا! أَمَّا الْفِقْرَةُ الثَّانِيَةُ فَعَنِ الْخَطّ: خَطِّي كَانَ سَيِّئًا جِدًّا، لِأَنَّنِي لَمْ أَعْرِفْ أَيَّ الْحُرُوفِ تَتَّصِلُ بِمَا بَعْدَهَا.",
+        "en": "I understand, thank you! As for the second paragraph, it's about handwriting: my handwriting was very bad, because I didn't know which letters join to the one after them.",
+        "segs": [
+          [
+            "فَهِمْتُ",
+            "I understood ('I understand')"
+          ],
+          [
+            "شُكْرًا",
+            "thanks, thank you"
+          ],
+          [
+            "أَمَّا",
+            "as for"
+          ],
+          [
+            "الْفِقْرَةُ",
+            "the paragraph"
+          ],
+          [
+            "الثَّانِيَةُ",
+            "the second (f)"
+          ],
+          [
+            "فَعَنِ",
+            "then about ('it's about')"
+          ],
+          [
+            "الْخَطّ",
+            "the handwriting"
+          ],
+          [
+            "خَطِّي",
+            "my handwriting"
+          ],
+          [
+            "كَانَ",
+            "(he) was"
+          ],
+          [
+            "سَيِّئًا",
+            "bad"
+          ],
+          [
+            "جِدًّا",
+            "very"
+          ],
+          [
+            "لِأَنَّنِي",
+            "because I"
+          ],
+          [
+            "لَمْ",
+            "not ('didn't')"
+          ],
+          [
+            "أَعْرِفْ",
+            "I know ('know')"
+          ],
+          [
+            "أَيَّ",
+            "which"
+          ],
+          [
+            "الْحُرُوفِ",
+            "the letters"
+          ],
+          [
+            "تَتَّصِلُ",
+            "(she) joins ('join')"
+          ],
+          [
+            "بِمَا",
+            "to what ('to the one')"
+          ],
+          [
+            "بَعْدَهَا",
+            "after it ('after them')"
+          ]
+        ]
+      },
+      {
+        "id": "d88l10",
+        "sp": "karim",
+        "ar": "نَعَمْ، سِتَّةُ حُرُوفٍ لَا تَتَّصِلُ بِمَا بَعْدَهَا: الْأَلِف وَالدَّال وَالذَّال وَالرَّاء وَالزَّاي وَالْوَاو. لِذٰلِكَ فِي اسْمِكَ «دَانْيَال» مَسَافَات صَغِيرَة بَيْنَ الْحُرُوف.",
+        "en": "Yes, six letters don't join to the letter after them: alif, dal, dhal, ra, zay and waw. That's why there are small gaps between the letters in your name, 'Daniel'.",
+        "segs": [
+          [
+            "نَعَمْ",
+            "yes"
+          ],
+          [
+            "سِتَّةُ",
+            "six"
+          ],
+          [
+            "حُرُوفٍ",
+            "letters"
+          ],
+          [
+            "لَا",
+            "not"
+          ],
+          [
+            "تَتَّصِلُ",
+            "(she) joins ('join')"
+          ],
+          [
+            "بِمَا",
+            "to what ('to the letter')"
+          ],
+          [
+            "بَعْدَهَا",
+            "after it ('after them')"
+          ],
+          [
+            "الْأَلِف",
+            "the alif"
+          ],
+          [
+            "وَالدَّال",
+            "and the dal"
+          ],
+          [
+            "وَالذَّال",
+            "and the dhal"
+          ],
+          [
+            "وَالرَّاء",
+            "and the ra"
+          ],
+          [
+            "وَالزَّاي",
+            "and the zay"
+          ],
+          [
+            "وَالْوَاو",
+            "and the waw"
+          ],
+          [
+            "لِذٰلِكَ",
+            "that's why, so"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "اسْمِكَ",
+            "your name (to a man)"
+          ],
+          [
+            "دَانْيَال",
+            "Daniel (first name)",
+            "name"
+          ],
+          [
+            "مَسَافَات",
+            "gaps, spaces"
+          ],
+          [
+            "صَغِيرَة",
+            "small (f)"
+          ],
+          [
+            "بَيْنَ",
+            "between"
+          ],
+          [
+            "الْحُرُوف",
+            "the letters"
+          ]
+        ]
+      },
+      {
+        "id": "d88l11",
+        "sp": "layla",
+        "ar": "وَالْفِقْرَةُ الثَّالِثَةُ؟ أَظُنُّ أَنَّهَا عَنِ التَّقَدُّمِ، لِأَنَّ دَانْيَالَ الْآنَ يَكْتُبُ رَسَائِلَ بِالْعَرَبِيَّةِ إِلَى كُلِّ الصَّفّ!",
+        "en": "And the third paragraph? I think it's about progress, because these days Daniel writes messages in Arabic to the whole class!",
+        "segs": [
+          [
+            "وَالْفِقْرَةُ",
+            "and the paragraph"
+          ],
+          [
+            "الثَّالِثَةُ",
+            "the third (f)"
+          ],
+          [
+            "أَظُنُّ",
+            "I think"
+          ],
+          [
+            "أَنَّهَا",
+            "that it"
+          ],
+          [
+            "عَنِ",
+            "about (-i links to the next word)"
+          ],
+          [
+            "التَّقَدُّمِ",
+            "the progress"
+          ],
+          [
+            "لِأَنَّ",
+            "because"
+          ],
+          [
+            "دَانْيَالَ",
+            "Daniel (first name)",
+            "name"
+          ],
+          [
+            "الْآنَ",
+            "now ('these days')"
+          ],
+          [
+            "يَكْتُبُ",
+            "(he) writes"
+          ],
+          [
+            "رَسَائِلَ",
+            "messages"
+          ],
+          [
+            "بِالْعَرَبِيَّةِ",
+            "in Arabic"
+          ],
+          [
+            "إِلَى",
+            "to"
+          ],
+          [
+            "كُلِّ",
+            "all (of) ('the whole')"
+          ],
+          [
+            "الصَّفّ",
+            "the class"
+          ]
+        ]
+      },
+      {
+        "id": "d88l12",
+        "sp": "daniel",
+        "ar": "صَحِيح! فِي الْفِقْرَةِ الثَّالِثَةِ كَتَبْتُ: بِالْإِضَافَةِ إِلَى الدُّرُوسِ، أَكْتُبُ الْآنَ بِطَاقَاتٍ بَرِيدِيَّةً إِلَى أُمِّي، وَأَبْدَأُ كُلَّ بِطَاقَةٍ بِكَلِمَةِ «عَزِيزَتِي».",
+        "en": "That's right! In the third paragraph I wrote: in addition to the lessons, I now write postcards to my mother, and I start every postcard with the word 'dear'.",
+        "segs": [
+          [
+            "صَحِيح",
+            "right, correct"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "الْفِقْرَةِ",
+            "the paragraph"
+          ],
+          [
+            "الثَّالِثَةِ",
+            "the third (f)"
+          ],
+          [
+            "كَتَبْتُ",
+            "I wrote"
+          ],
+          [
+            "بِالْإِضَافَةِ",
+            "in addition"
+          ],
+          [
+            "إِلَى",
+            "to"
+          ],
+          [
+            "الدُّرُوسِ",
+            "the lessons"
+          ],
+          [
+            "أَكْتُبُ",
+            "I write"
+          ],
+          [
+            "الْآنَ",
+            "now"
+          ],
+          [
+            "بِطَاقَاتٍ",
+            "cards"
+          ],
+          [
+            "بَرِيدِيَّةً",
+            "postal ('postcards')"
+          ],
+          [
+            "إِلَى",
+            "to"
+          ],
+          [
+            "أُمِّي",
+            "my mother"
+          ],
+          [
+            "وَأَبْدَأُ",
+            "and I start"
+          ],
+          [
+            "كُلَّ",
+            "every"
+          ],
+          [
+            "بِطَاقَةٍ",
+            "card"
+          ],
+          [
+            "بِكَلِمَةِ",
+            "with word (of) ('with the word')"
+          ],
+          [
+            "عَزِيزَتِي",
+            "my dear (to a woman)"
+          ]
+        ]
+      },
+      {
+        "id": "d88l13",
+        "sp": "karim",
+        "ar": "جَمِيل جِدًّا! وَلٰكِنْ عِنْدِي مُلَاحَظَة أَخِيرَة: الْجُمَلُ طَوِيلَة، وَنَسِيتَ عَلَامَاتِ التَّرْقِيم. ضَعْ نُقْطَةً فِي آخِرِ كُلِّ جُمْلَة، وَفَاصِلَةً بَيْنَ الْأَفْكَار.",
+        "en": "Very nice! But I have one last remark: the sentences are long, and you forgot the punctuation. Put a full stop at the end of every sentence, and a comma between the ideas.",
+        "segs": [
+          [
+            "جَمِيل",
+            "beautiful, nice"
+          ],
+          [
+            "جِدًّا",
+            "very"
+          ],
+          [
+            "وَلٰكِنْ",
+            "and but ('but')"
+          ],
+          [
+            "عِنْدِي",
+            "I have (lit. at me)"
+          ],
+          [
+            "مُلَاحَظَة",
+            "a remark, a note"
+          ],
+          [
+            "أَخِيرَة",
+            "last (f)"
+          ],
+          [
+            "الْجُمَلُ",
+            "the sentences"
+          ],
+          [
+            "طَوِيلَة",
+            "long (f)"
+          ],
+          [
+            "وَنَسِيتَ",
+            "and you forgot (to a man)"
+          ],
+          [
+            "عَلَامَاتِ",
+            "marks (of)"
+          ],
+          [
+            "التَّرْقِيم",
+            "the punctuation"
+          ],
+          [
+            "ضَعْ",
+            "put! (to a man)"
+          ],
+          [
+            "نُقْطَةً",
+            "a dot ('a full stop')"
+          ],
+          [
+            "فِي",
+            "in, at"
+          ],
+          [
+            "آخِرِ",
+            "end (of)"
+          ],
+          [
+            "كُلِّ",
+            "every"
+          ],
+          [
+            "جُمْلَة",
+            "sentence"
+          ],
+          [
+            "وَفَاصِلَةً",
+            "and a comma"
+          ],
+          [
+            "بَيْنَ",
+            "between"
+          ],
+          [
+            "الْأَفْكَار",
+            "the ideas"
+          ]
+        ]
+      },
+      {
+        "id": "d88l14",
+        "sp": "daniel",
+        "ar": "حَسَنًا، سَأُنَظِّمُ أَفْكَارِي، وَأُصَحِّحُ الْأَخْطَاءَ، ثُمَّ أَكْتُبُ الْمَقَالَةَ مَرَّةً ثَانِيَةً بِخَطٍّ جَمِيل. أَنَا أُحِبُّ الْعَرَبِيَّةَ، مَعَ أَنَّهَا صَعْبَة!",
+        "en": "All right, I'll organise my ideas, correct the mistakes, and then write the essay again in nice handwriting. I love Arabic, even though it's hard!",
+        "segs": [
+          [
+            "حَسَنًا",
+            "all right, OK"
+          ],
+          [
+            "سَأُنَظِّمُ",
+            "I will organise"
+          ],
+          [
+            "أَفْكَارِي",
+            "my ideas"
+          ],
+          [
+            "وَأُصَحِّحُ",
+            "and I correct ('correct')"
+          ],
+          [
+            "الْأَخْطَاءَ",
+            "the mistakes"
+          ],
+          [
+            "ثُمَّ",
+            "then"
+          ],
+          [
+            "أَكْتُبُ",
+            "I write ('write')"
+          ],
+          [
+            "الْمَقَالَةَ",
+            "the essay"
+          ],
+          [
+            "مَرَّةً",
+            "a time"
+          ],
+          [
+            "ثَانِيَةً",
+            "second ('again')"
+          ],
+          [
+            "بِخَطٍّ",
+            "in handwriting"
+          ],
+          [
+            "جَمِيل",
+            "beautiful, nice"
+          ],
+          [
+            "أَنَا",
+            "I"
+          ],
+          [
+            "أُحِبُّ",
+            "I love"
+          ],
+          [
+            "الْعَرَبِيَّةَ",
+            "Arabic (the language)"
+          ],
+          [
+            "مَعَ",
+            "with ('although', with anna)"
+          ],
+          [
+            "أَنَّهَا",
+            "that it ('it is')"
+          ],
+          [
+            "صَعْبَة",
+            "difficult, hard (f)"
+          ]
+        ]
+      },
+      {
+        "id": "d88l15",
+        "sp": "karim",
+        "ar": "هٰذَا هُوَ الْمُهِمّ! الْكَاتِبُ الْجَيِّدُ يَكْتُبُ مُسَوَّدَةً، ثُمَّ يُصَحِّحُ، ثُمَّ يَكْتُبُ مِنْ جَدِيد. أَحْسَنْتَ يَا دَانْيَال، تَقَدُّمُكَ هٰذِهِ السَّنَةَ رَائِع.",
+        "en": "That is what matters! A good writer writes a draft, then corrects it, then writes it again. Well done, Daniel, your progress this year is wonderful.",
+        "segs": [
+          [
+            "هٰذَا",
+            "this ('that')"
+          ],
+          [
+            "هُوَ",
+            "he, it ('is')"
+          ],
+          [
+            "الْمُهِمّ",
+            "the important (thing)"
+          ],
+          [
+            "الْكَاتِبُ",
+            "the writer"
+          ],
+          [
+            "الْجَيِّدُ",
+            "the good"
+          ],
+          [
+            "يَكْتُبُ",
+            "(he) writes"
+          ],
+          [
+            "مُسَوَّدَةً",
+            "a draft"
+          ],
+          [
+            "ثُمَّ",
+            "then"
+          ],
+          [
+            "يُصَحِّحُ",
+            "(he) corrects"
+          ],
+          [
+            "ثُمَّ",
+            "then"
+          ],
+          [
+            "يَكْتُبُ",
+            "(he) writes"
+          ],
+          [
+            "مِنْ",
+            "from ('again', with jadīd)"
+          ],
+          [
+            "جَدِيد",
+            "new ('again', with min)"
+          ],
+          [
+            "أَحْسَنْتَ",
+            "well done (to a man)"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "دَانْيَال",
+            "Daniel (first name)",
+            "name"
+          ],
+          [
+            "تَقَدُّمُكَ",
+            "your progress (to a man)"
+          ],
+          [
+            "هٰذِهِ",
+            "this (f)"
+          ],
+          [
+            "السَّنَةَ",
+            "the year"
+          ],
+          [
+            "رَائِع",
+            "wonderful"
+          ]
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "title": "My year with Arabic (the corrected essay)",
+    "ar": "قَبْلَ سَنَةٍ جِئْتُ إِلَى الْقَاهِرَةِ، وَلَمْ أَعْرِفْ كَلِمَةً وَاحِدَةً. فِي الْبِدَايَةِ كَانَ خَطِّي سَيِّئًا، وَكَانَتْ أَخْطَائِي فِي الْإِمْلَاءِ كَثِيرَةً. لٰكِنَّ أُسْتَاذِي صَحَّحَ كُلَّ جُمْلَةٍ بِصَبْر. الْآنَ أُنَظِّمُ أَفْكَارِي قَبْلَ الْكِتَابَةِ، وَأَكْتُبُ مُسَوَّدَةً أَوَّلًا. الْيَوْمَ أَكْتُبُ رَسَائِلَ وَبِطَاقَاتٍ بَرِيدِيَّةً بِالْعَرَبِيَّةِ، لِذٰلِكَ أَنَا فَخُور بِتَقَدُّمِي.",
+    "en": "A year ago I came to Cairo, and I didn't know a single word. At the beginning my handwriting was bad, and I made a lot of spelling mistakes. But my teacher corrected every sentence patiently. Now I organise my ideas before writing, and I write a draft first. Today I write messages and postcards in Arabic, so I am proud of my progress.",
+    "segs": [
+      [
+        "قَبْلَ",
+        "before ('ago')"
+      ],
+      [
+        "سَنَةٍ",
+        "a year"
+      ],
+      [
+        "جِئْتُ",
+        "I came"
+      ],
+      [
+        "إِلَى",
+        "to"
+      ],
+      [
+        "الْقَاهِرَةِ",
+        "Cairo"
+      ],
+      [
+        "وَلَمْ",
+        "and not ('didn't', with a verb)"
+      ],
+      [
+        "أَعْرِفْ",
+        "I know ('know')"
+      ],
+      [
+        "كَلِمَةً",
+        "a word"
+      ],
+      [
+        "وَاحِدَةً",
+        "one, single (f)"
+      ],
+      [
+        "فِي",
+        "in"
+      ],
+      [
+        "الْبِدَايَةِ",
+        "the beginning"
+      ],
+      [
+        "كَانَ",
+        "(he) was"
+      ],
+      [
+        "خَطِّي",
+        "my handwriting"
+      ],
+      [
+        "سَيِّئًا",
+        "bad"
+      ],
+      [
+        "وَكَانَتْ",
+        "and (she) was ('were')"
+      ],
+      [
+        "أَخْطَائِي",
+        "my mistakes"
+      ],
+      [
+        "فِي",
+        "in"
+      ],
+      [
+        "الْإِمْلَاءِ",
+        "the spelling"
+      ],
+      [
+        "كَثِيرَةً",
+        "many (f)"
+      ],
+      [
+        "لٰكِنَّ",
+        "but (the noun after it ends in -a)"
+      ],
+      [
+        "أُسْتَاذِي",
+        "my teacher"
+      ],
+      [
+        "صَحَّحَ",
+        "(he) corrected"
+      ],
+      [
+        "كُلَّ",
+        "every"
+      ],
+      [
+        "جُمْلَةٍ",
+        "sentence"
+      ],
+      [
+        "بِصَبْر",
+        "with patience ('patiently')"
+      ],
+      [
+        "الْآنَ",
+        "now"
+      ],
+      [
+        "أُنَظِّمُ",
+        "I organise"
+      ],
+      [
+        "أَفْكَارِي",
+        "my ideas"
+      ],
+      [
+        "قَبْلَ",
+        "before"
+      ],
+      [
+        "الْكِتَابَةِ",
+        "the writing"
+      ],
+      [
+        "وَأَكْتُبُ",
+        "and I write"
+      ],
+      [
+        "مُسَوَّدَةً",
+        "a draft"
+      ],
+      [
+        "أَوَّلًا",
+        "first, firstly"
+      ],
+      [
+        "الْيَوْمَ",
+        "today"
+      ],
+      [
+        "أَكْتُبُ",
+        "I write"
+      ],
+      [
+        "رَسَائِلَ",
+        "messages"
+      ],
+      [
+        "وَبِطَاقَاتٍ",
+        "and cards"
+      ],
+      [
+        "بَرِيدِيَّةً",
+        "postal ('postcards')"
+      ],
+      [
+        "بِالْعَرَبِيَّةِ",
+        "in Arabic"
+      ],
+      [
+        "لِذٰلِكَ",
+        "that's why, so"
+      ],
+      [
+        "أَنَا",
+        "I"
+      ],
+      [
+        "فَخُور",
+        "proud"
+      ],
+      [
+        "بِتَقَدُّمِي",
+        "of my progress"
+      ]
+    ]
+  },
+  "review": [
+    "khata",
+    "kitaba",
+    "fikra",
+    "unwan",
+    "khatt",
+    "risala"
+  ],
+  "quiz": [
+    {
+      "id": "d88q1",
+      "prompt": "What does مُسَوَّدَة mean?",
+      "options": [
+        "draft",
+        "essay",
+        "paragraph",
+        "spelling"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "d88q2",
+      "prompt": "How does the word إِلَى (to) end?",
+      "options": [
+        "with an alif maqsura, without dots",
+        "with a yaa with two dots",
+        "with a ta marbuta",
+        "with a hamza on an alif"
+      ],
+      "answer": 0,
+      "explain": "إِلَى and عَلَى end in alif maqsura ى, which has no dots and is read as a long ā."
+    },
+    {
+      "id": "d88q3",
+      "prompt": "Complete Daniel's sentence: أَنَا أُحِبُّ الْعَرَبِيَّةَ، ___ أَنَّهَا صَعْبَة.",
+      "options": [
+        "مَعَ",
+        "لِذٰلِكَ",
+        "ثُمَّ",
+        "إِذَا"
+      ],
+      "answer": 0,
+      "explain": "مَعَ أَنَّ means 'although': I love Arabic, although it is hard."
+    },
+    {
+      "id": "d88q4",
+      "prompt": "Which letters never join to the letter after them?",
+      "options": [
+        "alif, dal, dhal, ra, zay and waw",
+        "ba, ta and tha",
+        "sin, shin, sad and dad",
+        "lam, mim and nun"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "d88q5",
+      "prompt": "Why does the hamza in سُؤَال (question) sit on a waw?",
+      "options": [
+        "because there is a damma before it",
+        "because there is a kasra before it",
+        "because it is at the end of the word",
+        "because the word is feminine"
+      ],
+      "answer": 0,
+      "explain": "With a damma (u) next to it and no kasra, hamza sits on a waw: سُؤَال."
+    },
+    {
+      "id": "d88q6",
+      "prompt": "What was Mr Karim's last remark about Daniel's essay?",
+      "options": [
+        "The sentences were long and had no punctuation",
+        "The essay was too short",
+        "Every sentence was correct",
+        "The title was wrong"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "d88q7",
+      "prompt": "Daniel writes postcards to his mother. Which word does he start every postcard with?",
+      "options": [
+        "عَزِيزَتِي",
+        "عَزِيزِي",
+        "حَضْرَةَ",
+        "شُكْرًا"
+      ],
+      "answer": 0,
+      "explain": "His mother is a woman, so he writes عَزِيزَتِي (my dear, to a woman)."
+    }
+  ],
+  "completion": "Mabrūk! You reviewed writing: you can write a short paragraph about yourself, a postcard, an email and a short essay with linking words, and you know the spelling of hamza, ta marbuta and alif maqsura. Keep writing a little every day: next comes the final exam.",
+  "status": "needs-review"
+}

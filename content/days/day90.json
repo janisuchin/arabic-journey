@@ -1,0 +1,1849 @@
+{
+  "day": 90,
+  "week": 13,
+  "phase": 7,
+  "level": 9,
+  "title": "Next steps",
+  "titleAr": "الْخُطُوَات الْقَادِمَة",
+  "titleSegs": [
+    [
+      "الْخُطُوَات",
+      "the steps"
+    ],
+    [
+      "الْقَادِمَة",
+      "the next, the coming (f)"
+    ]
+  ],
+  "emoji": "🎓",
+  "summary": "The last day of the course: say what you will do next with سَـ and أَنْ + a verb, give and take advice on how to keep learning, and say thank you and goodbye at a graduation party.",
+  "intro": "Ninety days ago you learned your first letter; today is the حَفْلَةُ التَّخَرُّج, the graduation party. Everyone gets a شَهَادَة (certificate) and says what comes next, so today brings back two rules you know well. For plans, put سَـ in front of a present verb: سَأُسَافِرُ (I will travel), سَأَسْتَمِرُّ (I will keep on). For wishes and goals, use أَنْ + a present verb ending in -a: أُرِيدُ أَنْ أَتَعَلَّمَ (I want to learn), هَدَفِي أَنْ أَقْرَأَ (my goal is to read). Mr Karim's advice uses the imperative: اِقْرَؤُوا يَوْمِيًّا (read daily). And to thank someone warmly, say نَحْنُ مُمْتَنُّونَ لَكَ (we are grateful to you).",
+  "objectives": [
+    "Talk about your plans for the future with سَـ and سَوْفَ",
+    "Say what you want to do and what your goal is with أَنْ + a verb in -a",
+    "Give advice on how to keep learning: read daily, listen to the news, find a conversation partner",
+    "Thank a teacher and say goodbye with the words for grateful, farewell and remember"
+  ],
+  "realLife": {
+    "emoji": "🎓",
+    "title": "The graduation party",
+    "story": "On the last evening of the course, the classroom looks different: the desks are pushed against the wall, Sami's mother has sent a tray of sweets, and there is a pile of certificates on Mr Karim's desk. Before anyone can take one, there is a rule: say in Arabic what you will do next. Daniel already has a plane ticket to Amman in his pocket, Layla is still waiting for an answer from Cairo University, and Sami has a plan nobody expected."
+  },
+  "letters": [],
+  "newWords": [
+    "takharruj",
+    "wada",
+    "lahja",
+    "muhadatha",
+    "yawmiyyan",
+    "mumtann",
+    "yatadhakkaru",
+    "mustaqbal",
+    "yastamirru"
+  ],
+  "grammar": [
+    "future",
+    "an-subjunctive"
+  ],
+  "pronunciation": [
+    "clusters"
+  ],
+  "sentences": [
+    {
+      "id": "d90s1",
+      "ar": "سَأُسَافِرُ إِلَى الْأُرْدُنِّ فِي الشَّهْرِ الْقَادِمِ.",
+      "en": "I will travel to Jordan next month.",
+      "literal": "I-will-travel to Jordan in the month the coming",
+      "segs": [
+        [
+          "سَأُسَافِرُ",
+          "I will travel",
+          "verb"
+        ],
+        [
+          "إِلَى",
+          "to",
+          "prep"
+        ],
+        [
+          "الْأُرْدُنِّ",
+          "Jordan (country)",
+          "name"
+        ],
+        [
+          "فِي",
+          "in",
+          "prep"
+        ],
+        [
+          "الشَّهْرِ",
+          "the month",
+          "noun"
+        ],
+        [
+          "الْقَادِمِ",
+          "the next, the coming",
+          "adj"
+        ]
+      ],
+      "grammar": [
+        "future",
+        "adjectives"
+      ],
+      "mistakes": [
+        {
+          "wrong": "سَ أُسَافِرُ",
+          "right": "سَأُسَافِرُ",
+          "why": "The future prefix sa- is written joined to the verb, never as a separate word."
+        }
+      ]
+    },
+    {
+      "id": "d90s2",
+      "ar": "أُرِيدُ أَنْ أَتَعَلَّمَ لَهْجَةً عَرَبِيَّةً.",
+      "en": "I want to learn an Arabic dialect.",
+      "literal": "I-want that I-learn a dialect Arabic",
+      "segs": [
+        [
+          "أُرِيدُ",
+          "I want",
+          "verb"
+        ],
+        [
+          "أَنْ",
+          "to (lit. that)",
+          "particle"
+        ],
+        [
+          "أَتَعَلَّمَ",
+          "I learn (-a after an)",
+          "verb"
+        ],
+        [
+          "لَهْجَةً",
+          "a dialect",
+          "noun"
+        ],
+        [
+          "عَرَبِيَّةً",
+          "Arabic (f)",
+          "adj"
+        ]
+      ],
+      "grammar": [
+        "an-subjunctive"
+      ],
+      "mistakes": [
+        {
+          "wrong": "أُرِيدُ أَنْ أَتَعَلَّمُ",
+          "right": "أُرِيدُ أَنْ أَتَعَلَّمَ",
+          "why": "After an the present verb ends in -a, not -u: an ataʿallama."
+        }
+      ]
+    },
+    {
+      "id": "d90s3",
+      "ar": "هَدَفِي أَنْ أَقْرَأَ رِوَايَةً كُلَّ شَهْرٍ.",
+      "en": "My goal is to read a novel every month.",
+      "literal": "my-goal that I-read a novel every month",
+      "segs": [
+        [
+          "هَدَفِي",
+          "my goal",
+          "noun"
+        ],
+        [
+          "أَنْ",
+          "to (lit. that)",
+          "particle"
+        ],
+        [
+          "أَقْرَأَ",
+          "I read (-a after an)",
+          "verb"
+        ],
+        [
+          "رِوَايَةً",
+          "a novel",
+          "noun"
+        ],
+        [
+          "كُلَّ",
+          "every",
+          "noun"
+        ],
+        [
+          "شَهْرٍ",
+          "month",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "an-subjunctive",
+        "nominal-sentence"
+      ],
+      "mistakes": [
+        {
+          "wrong": "هَدَفِي أَقْرَأُ رِوَايَةً",
+          "right": "هَدَفِي أَنْ أَقْرَأَ رِوَايَةً",
+          "why": "To say 'my goal is to…', join the two parts with an: hadafī an aqraʾa."
+        }
+      ]
+    },
+    {
+      "id": "d90s4",
+      "ar": "اِبْحَثْ عَنْ شَرِيكِ مُحَادَثَةٍ، وَاقْرَأْ يَوْمِيًّا.",
+      "en": "Look for a conversation partner, and read daily.",
+      "literal": "look about partner (of) conversation, and read daily",
+      "segs": [
+        [
+          "اِبْحَثْ",
+          "look! (to a man)",
+          "verb"
+        ],
+        [
+          "عَنْ",
+          "for (lit. about)",
+          "prep"
+        ],
+        [
+          "شَرِيكِ",
+          "partner (of)",
+          "noun"
+        ],
+        [
+          "مُحَادَثَةٍ",
+          "conversation",
+          "noun"
+        ],
+        [
+          "وَاقْرَأْ",
+          "and read! (to a man)",
+          "verb"
+        ],
+        [
+          "يَوْمِيًّا",
+          "daily, every day",
+          "adverb"
+        ]
+      ],
+      "grammar": [
+        "imperative",
+        "idafa"
+      ],
+      "mistakes": [
+        {
+          "wrong": "شَرِيكُ الْمُحَادَثَةِ",
+          "right": "شَرِيكُ مُحَادَثَةٍ",
+          "why": "Without al- on the second word, the iḍāfa means 'a conversation partner', any one; with al- it means one particular partner."
+        }
+      ]
+    },
+    {
+      "id": "d90s5",
+      "ar": "نَحْنُ مُمْتَنُّونَ لَكَ، وَسَنَتَذَكَّرُكَ دَائِمًا.",
+      "en": "We are grateful to you, and we will always remember you.",
+      "literal": "we grateful to-you, and we-will-remember-you always",
+      "segs": [
+        [
+          "نَحْنُ",
+          "we",
+          "pronoun"
+        ],
+        [
+          "مُمْتَنُّونَ",
+          "grateful (plural)",
+          "adj"
+        ],
+        [
+          "لَكَ",
+          "to you (to a man)",
+          "prep"
+        ],
+        [
+          "وَسَنَتَذَكَّرُكَ",
+          "and we will remember you (to a man)",
+          "verb"
+        ],
+        [
+          "دَائِمًا",
+          "always",
+          "adverb"
+        ]
+      ],
+      "grammar": [
+        "future",
+        "nominal-sentence"
+      ],
+      "mistakes": [
+        {
+          "wrong": "نَحْنُ مُمْتَنّ لَكَ",
+          "right": "نَحْنُ مُمْتَنُّونَ لَكَ",
+          "why": "The adjective agrees with nahnu (we): use the plural mumtannūn."
+        }
+      ]
+    },
+    {
+      "id": "d90s6",
+      "ar": "الْمُهِمُّ أَنْ تَسْتَمِرَّ فِي التَّعَلُّمِ بَعْدَ التَّخَرُّجِ.",
+      "en": "The important thing is to keep on learning after graduation.",
+      "literal": "the important (is) that you-continue in the learning after the graduation",
+      "segs": [
+        [
+          "الْمُهِمُّ",
+          "the important (thing)",
+          "adj"
+        ],
+        [
+          "أَنْ",
+          "to (lit. that)",
+          "particle"
+        ],
+        [
+          "تَسْتَمِرَّ",
+          "you continue (-a after an)",
+          "verb"
+        ],
+        [
+          "فِي",
+          "in ('keep on')",
+          "prep"
+        ],
+        [
+          "التَّعَلُّمِ",
+          "the learning",
+          "noun"
+        ],
+        [
+          "بَعْدَ",
+          "after",
+          "prep"
+        ],
+        [
+          "التَّخَرُّجِ",
+          "the graduation",
+          "noun"
+        ]
+      ],
+      "grammar": [
+        "an-subjunctive"
+      ],
+      "mistakes": [
+        {
+          "wrong": "أَنْ تَسْتَمِرُّ",
+          "right": "أَنْ تَسْتَمِرَّ",
+          "why": "After an the last vowel changes from -u to -a, also on doubled verbs: tastamirra."
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Certificates and plans",
+    "speakers": [
+      {
+        "key": "karim",
+        "name": "Mr Karim",
+        "nameAr": "الْأُسْتَاذ كَرِيم"
+      },
+      {
+        "key": "daniel",
+        "name": "Daniel",
+        "nameAr": "دَانْيَال"
+      },
+      {
+        "key": "layla",
+        "name": "Layla",
+        "nameAr": "لَيْلَى"
+      },
+      {
+        "key": "sami",
+        "name": "Sami",
+        "nameAr": "سَامِي"
+      }
+    ],
+    "culture": "Arabic has warm phrases for every goodbye. At a graduation people say مَبْرُوك (congratulations) and the reply is اللّٰه يُبَارِكُ فِيكَ (God bless you). When friends part, they say إِلَى اللِّقَاء (until we meet again) and, about any plan for the future, إِنْ شَاءَ اللّٰه (God willing). Learners who move on to a dialect find that standard Arabic, الْفُصْحَى, is the best base: the news, books and formal speech are in it everywhere.",
+    "lines": [
+      {
+        "id": "d90l1",
+        "sp": "karim",
+        "ar": "مَسَاءُ الْخَيْر، وَأَهْلًا بِكُمْ فِي حَفْلَةِ التَّخَرُّج! الْيَوْمَ آخِرُ يَوْم فِي الدَّوْرَة، وَلِكُلِّ وَاحِد مِنْكُمْ شَهَادَة.",
+        "en": "Good evening, and welcome to the graduation party! Today is the last day of the course, and there is a certificate for each one of you.",
+        "segs": [
+          [
+            "مَسَاءُ",
+            "evening (of)"
+          ],
+          [
+            "الْخَيْر",
+            "the goodness"
+          ],
+          [
+            "وَأَهْلًا",
+            "and welcome"
+          ],
+          [
+            "بِكُمْ",
+            "(with) you (all)"
+          ],
+          [
+            "فِي",
+            "to, in"
+          ],
+          [
+            "حَفْلَةِ",
+            "party (of)"
+          ],
+          [
+            "التَّخَرُّج",
+            "the graduation"
+          ],
+          [
+            "الْيَوْمَ",
+            "today"
+          ],
+          [
+            "آخِرُ",
+            "the last"
+          ],
+          [
+            "يَوْم",
+            "day"
+          ],
+          [
+            "فِي",
+            "in, of"
+          ],
+          [
+            "الدَّوْرَة",
+            "the course"
+          ],
+          [
+            "وَلِكُلِّ",
+            "and for every"
+          ],
+          [
+            "وَاحِد",
+            "one"
+          ],
+          [
+            "مِنْكُمْ",
+            "of you (all)"
+          ],
+          [
+            "شَهَادَة",
+            "a certificate"
+          ]
+        ]
+      },
+      {
+        "id": "d90l2",
+        "sp": "daniel",
+        "ar": "لَا أُصَدِّقُ أَنَّ تِسْعِينَ يَوْمًا انْتَهَتْ! أَتَذَكَّرُ أَوَّلَ دَرْس: كُنْتُ أَعْرِفُ كَلِمَةً وَاحِدَة فَقَطْ، وَهِيَ «شُكْرًا».",
+        "en": "I can't believe that ninety days are over! I remember the first lesson: I knew only one word, and it was 'thank you'.",
+        "segs": [
+          [
+            "لَا",
+            "not"
+          ],
+          [
+            "أُصَدِّقُ",
+            "I believe"
+          ],
+          [
+            "أَنَّ",
+            "that"
+          ],
+          [
+            "تِسْعِينَ",
+            "ninety (-a after anna)"
+          ],
+          [
+            "يَوْمًا",
+            "days (lit. day)"
+          ],
+          [
+            "انْتَهَتْ",
+            "(they) ended, are over"
+          ],
+          [
+            "أَتَذَكَّرُ",
+            "I remember"
+          ],
+          [
+            "أَوَّلَ",
+            "the first (of)"
+          ],
+          [
+            "دَرْس",
+            "lesson"
+          ],
+          [
+            "كُنْتُ",
+            "I was"
+          ],
+          [
+            "أَعْرِفُ",
+            "I know ('I knew')"
+          ],
+          [
+            "كَلِمَةً",
+            "a word"
+          ],
+          [
+            "وَاحِدَة",
+            "one"
+          ],
+          [
+            "فَقَطْ",
+            "only"
+          ],
+          [
+            "وَهِيَ",
+            "and it (f) ('was')"
+          ],
+          [
+            "شُكْرًا",
+            "thank you"
+          ]
+        ]
+      },
+      {
+        "id": "d90l3",
+        "sp": "karim",
+        "ar": "وَالْيَوْمَ تَتَكَلَّمُ عَنِ الْمَاضِي وَالْمُسْتَقْبَل يَا دَانْيَال! تَفَضَّلْ، هٰذِهِ شَهَادَتُكَ. مَاذَا سَتَفْعَلُ بَعْدَ الدَّوْرَة؟",
+        "en": "And today you can talk about the past and the future, Daniel! Here you are, this is your certificate. What will you do after the course?",
+        "segs": [
+          [
+            "وَالْيَوْمَ",
+            "and today"
+          ],
+          [
+            "تَتَكَلَّمُ",
+            "you speak, talk (to a man)"
+          ],
+          [
+            "عَنِ",
+            "about (-i links to the next word)"
+          ],
+          [
+            "الْمَاضِي",
+            "the past"
+          ],
+          [
+            "وَالْمُسْتَقْبَل",
+            "and the future"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "دَانْيَال",
+            "Daniel (first name)",
+            "name"
+          ],
+          [
+            "تَفَضَّلْ",
+            "here you are (to a man)"
+          ],
+          [
+            "هٰذِهِ",
+            "this (f)"
+          ],
+          [
+            "شَهَادَتُكَ",
+            "your certificate (to a man)"
+          ],
+          [
+            "مَاذَا",
+            "what"
+          ],
+          [
+            "سَتَفْعَلُ",
+            "you will do (to a man)"
+          ],
+          [
+            "بَعْدَ",
+            "after"
+          ],
+          [
+            "الدَّوْرَة",
+            "the course"
+          ]
+        ]
+      },
+      {
+        "id": "d90l4",
+        "sp": "daniel",
+        "ar": "شُكْرًا جَزِيلًا يَا أُسْتَاذ! فِي الشَّهْرِ الْقَادِم سَأُسَافِرُ إِلَى الْأُرْدُنّ لِأَزُورَ يُوسُف، وَسَأَدْرُسُ فِي مَعْهَد فِي عَمَّان ثَلَاثَةَ أَشْهُر.",
+        "en": "Thank you very much, sir! Next month I'll travel to Jordan to visit Yusuf, and I'll study at an institute in Amman for three months.",
+        "segs": [
+          [
+            "شُكْرًا",
+            "thank you"
+          ],
+          [
+            "جَزِيلًا",
+            "very much"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "أُسْتَاذ",
+            "teacher ('sir')"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "الشَّهْرِ",
+            "the month"
+          ],
+          [
+            "الْقَادِم",
+            "the next, the coming"
+          ],
+          [
+            "سَأُسَافِرُ",
+            "I will travel"
+          ],
+          [
+            "إِلَى",
+            "to"
+          ],
+          [
+            "الْأُرْدُنّ",
+            "Jordan (country)",
+            "name"
+          ],
+          [
+            "لِأَزُورَ",
+            "to visit (lit. so that I visit)"
+          ],
+          [
+            "يُوسُف",
+            "Yusuf (first name)",
+            "name"
+          ],
+          [
+            "وَسَأَدْرُسُ",
+            "and I will study"
+          ],
+          [
+            "فِي",
+            "at, in"
+          ],
+          [
+            "مَعْهَد",
+            "an institute"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "عَمَّان",
+            "Amman (capital of Jordan)",
+            "name"
+          ],
+          [
+            "ثَلَاثَةَ",
+            "three ('for three')"
+          ],
+          [
+            "أَشْهُر",
+            "months"
+          ]
+        ]
+      },
+      {
+        "id": "d90l5",
+        "sp": "layla",
+        "ar": "عَمَّان مَدِينَة جَمِيلَة! وَهَلْ سَتَرْجِعُ إِلَى الْقَاهِرَة بَعْدَ ذٰلِكَ، أَمْ سَتَبْقَى فِي الْأُرْدُنّ؟",
+        "en": "Amman is a beautiful city! And will you come back to Cairo after that, or will you stay in Jordan?",
+        "segs": [
+          [
+            "عَمَّان",
+            "Amman (capital of Jordan)",
+            "name"
+          ],
+          [
+            "مَدِينَة",
+            "a city"
+          ],
+          [
+            "جَمِيلَة",
+            "beautiful (f)"
+          ],
+          [
+            "وَهَلْ",
+            "and (starts a yes/no question)"
+          ],
+          [
+            "سَتَرْجِعُ",
+            "you will come back (to a man)"
+          ],
+          [
+            "إِلَى",
+            "to"
+          ],
+          [
+            "الْقَاهِرَة",
+            "Cairo (city)",
+            "name"
+          ],
+          [
+            "بَعْدَ",
+            "after"
+          ],
+          [
+            "ذٰلِكَ",
+            "that"
+          ],
+          [
+            "أَمْ",
+            "or (in a question)"
+          ],
+          [
+            "سَتَبْقَى",
+            "you will stay (to a man)"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "الْأُرْدُنّ",
+            "Jordan (country)",
+            "name"
+          ]
+        ]
+      },
+      {
+        "id": "d90l6",
+        "sp": "daniel",
+        "ar": "طَبْعًا سَأَرْجِعُ! أُرِيدُ أَنْ أَتَعَلَّمَ اللَّهْجَةَ الْمِصْرِيَّة مِنْ سَامِي وَمِنَ الْأَفْلَام. وَأَنْتِ يَا لَيْلَى، مَا خُطَّتُكِ لِلْمُسْتَقْبَل؟",
+        "en": "Of course I'll come back! I want to learn the Egyptian dialect from Sami and from films. And you, Layla, what is your plan for the future?",
+        "segs": [
+          [
+            "طَبْعًا",
+            "of course"
+          ],
+          [
+            "سَأَرْجِعُ",
+            "I will come back"
+          ],
+          [
+            "أُرِيدُ",
+            "I want"
+          ],
+          [
+            "أَنْ",
+            "to (lit. that)"
+          ],
+          [
+            "أَتَعَلَّمَ",
+            "I learn (-a after an)"
+          ],
+          [
+            "اللَّهْجَةَ",
+            "the dialect"
+          ],
+          [
+            "الْمِصْرِيَّة",
+            "the Egyptian (f)"
+          ],
+          [
+            "مِنْ",
+            "from"
+          ],
+          [
+            "سَامِي",
+            "Sami (first name)",
+            "name"
+          ],
+          [
+            "وَمِنَ",
+            "and from"
+          ],
+          [
+            "الْأَفْلَام",
+            "the films"
+          ],
+          [
+            "وَأَنْتِ",
+            "and you (to a woman)"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "لَيْلَى",
+            "Layla (first name)",
+            "name"
+          ],
+          [
+            "مَا",
+            "what"
+          ],
+          [
+            "خُطَّتُكِ",
+            "your plan (to a woman)"
+          ],
+          [
+            "لِلْمُسْتَقْبَل",
+            "for the future"
+          ]
+        ]
+      },
+      {
+        "id": "d90l7",
+        "sp": "layla",
+        "ar": "أَنْتَظِرُ جَوَابَ الْجَامِعَة. إِذَا قَبِلُوا طَلَبِي، فَسَأَدْرُسُ التَّرْجَمَة. وَفِي كُلِّ حَال، هَدَفِي أَنْ أَقْرَأَ رِوَايَةً عَرَبِيَّةً كُلَّ شَهْر.",
+        "en": "I'm waiting for the university's answer. If they accept my application, I'll study translation. And in any case, my goal is to read an Arabic novel every month.",
+        "segs": [
+          [
+            "أَنْتَظِرُ",
+            "I wait for, I'm waiting for"
+          ],
+          [
+            "جَوَابَ",
+            "answer (of)"
+          ],
+          [
+            "الْجَامِعَة",
+            "the university"
+          ],
+          [
+            "إِذَا",
+            "if"
+          ],
+          [
+            "قَبِلُوا",
+            "they accepted ('accept')"
+          ],
+          [
+            "طَلَبِي",
+            "my application"
+          ],
+          [
+            "فَسَأَدْرُسُ",
+            "then I will study"
+          ],
+          [
+            "التَّرْجَمَة",
+            "the translation"
+          ],
+          [
+            "وَفِي",
+            "and in"
+          ],
+          [
+            "كُلِّ",
+            "every, any"
+          ],
+          [
+            "حَال",
+            "case, state"
+          ],
+          [
+            "هَدَفِي",
+            "my goal"
+          ],
+          [
+            "أَنْ",
+            "to (lit. that)"
+          ],
+          [
+            "أَقْرَأَ",
+            "I read (-a after an)"
+          ],
+          [
+            "رِوَايَةً",
+            "a novel"
+          ],
+          [
+            "عَرَبِيَّةً",
+            "Arabic (f)"
+          ],
+          [
+            "كُلَّ",
+            "every"
+          ],
+          [
+            "شَهْر",
+            "month"
+          ]
+        ]
+      },
+      {
+        "id": "d90l8",
+        "sp": "sami",
+        "ar": "وَأَنَا سَأَسْتَمِرُّ فِي الْكِتَابَة بِالْفُصْحَى: سَأَكْتُبُ قِصَّةً قَصِيرَةً كُلَّ أُسْبُوع، وَسَأُعَلِّمُ أَخِي عُمَر كُلَّ مَا تَعَلَّمْتُهُ هُنَا!",
+        "en": "And I'll keep on writing in standard Arabic: I'll write a short story every week, and I'll teach my brother Omar everything I learned here!",
+        "segs": [
+          [
+            "وَأَنَا",
+            "and I"
+          ],
+          [
+            "سَأَسْتَمِرُّ",
+            "I will continue, keep on"
+          ],
+          [
+            "فِي",
+            "in ('keep on')"
+          ],
+          [
+            "الْكِتَابَة",
+            "the writing"
+          ],
+          [
+            "بِالْفُصْحَى",
+            "in standard Arabic"
+          ],
+          [
+            "سَأَكْتُبُ",
+            "I will write"
+          ],
+          [
+            "قِصَّةً",
+            "a story"
+          ],
+          [
+            "قَصِيرَةً",
+            "short (f)"
+          ],
+          [
+            "كُلَّ",
+            "every"
+          ],
+          [
+            "أُسْبُوع",
+            "week"
+          ],
+          [
+            "وَسَأُعَلِّمُ",
+            "and I will teach"
+          ],
+          [
+            "أَخِي",
+            "my brother"
+          ],
+          [
+            "عُمَر",
+            "Omar (first name)",
+            "name"
+          ],
+          [
+            "كُلَّ",
+            "all"
+          ],
+          [
+            "مَا",
+            "what"
+          ],
+          [
+            "تَعَلَّمْتُهُ",
+            "I learned it"
+          ],
+          [
+            "هُنَا",
+            "here"
+          ]
+        ]
+      },
+      {
+        "id": "d90l9",
+        "sp": "karim",
+        "ar": "أَفْكَار مُمْتَازَة! وَالْآنَ نَصِيحَتِي لَكُمْ: اِقْرَؤُوا يَوْمِيًّا، وَلَوْ صَفْحَةً وَاحِدَة، وَاسْتَمِعُوا إِلَى الْأَخْبَار بِالْعَرَبِيَّة كُلَّ صَبَاح.",
+        "en": "Excellent ideas! And now my advice to you: read daily, even if it's only one page, and listen to the news in Arabic every morning.",
+        "segs": [
+          [
+            "أَفْكَار",
+            "ideas"
+          ],
+          [
+            "مُمْتَازَة",
+            "excellent (f)"
+          ],
+          [
+            "وَالْآنَ",
+            "and now"
+          ],
+          [
+            "نَصِيحَتِي",
+            "my advice"
+          ],
+          [
+            "لَكُمْ",
+            "to you (all)"
+          ],
+          [
+            "اِقْرَؤُوا",
+            "read! (to a group)"
+          ],
+          [
+            "يَوْمِيًّا",
+            "daily, every day"
+          ],
+          [
+            "وَلَوْ",
+            "even if (it is)"
+          ],
+          [
+            "صَفْحَةً",
+            "a page"
+          ],
+          [
+            "وَاحِدَة",
+            "one"
+          ],
+          [
+            "وَاسْتَمِعُوا",
+            "and listen! (to a group)"
+          ],
+          [
+            "إِلَى",
+            "to"
+          ],
+          [
+            "الْأَخْبَار",
+            "the news"
+          ],
+          [
+            "بِالْعَرَبِيَّة",
+            "in Arabic"
+          ],
+          [
+            "كُلَّ",
+            "every"
+          ],
+          [
+            "صَبَاح",
+            "morning"
+          ]
+        ]
+      },
+      {
+        "id": "d90l10",
+        "sp": "daniel",
+        "ar": "وَمَاذَا عَنِ الْكَلَام يَا أُسْتَاذ؟ بَعْدَ الصَّفّ سَأَكُونُ وَحْدِي فِي عَمَّان، فَكَيْفَ أَتَكَلَّمُ الْعَرَبِيَّةَ كُلَّ يَوْم؟",
+        "en": "And what about speaking, sir? After class I'll be on my own in Amman, so how will I speak Arabic every day?",
+        "segs": [
+          [
+            "وَمَاذَا",
+            "and what"
+          ],
+          [
+            "عَنِ",
+            "about (-i links to the next word)"
+          ],
+          [
+            "الْكَلَام",
+            "the speaking, the talk"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "أُسْتَاذ",
+            "teacher ('sir')"
+          ],
+          [
+            "بَعْدَ",
+            "after"
+          ],
+          [
+            "الصَّفّ",
+            "the class"
+          ],
+          [
+            "سَأَكُونُ",
+            "I will be"
+          ],
+          [
+            "وَحْدِي",
+            "alone, on my own"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "عَمَّان",
+            "Amman (capital of Jordan)",
+            "name"
+          ],
+          [
+            "فَكَيْفَ",
+            "so how"
+          ],
+          [
+            "أَتَكَلَّمُ",
+            "I speak ('will I speak')"
+          ],
+          [
+            "الْعَرَبِيَّةَ",
+            "Arabic"
+          ],
+          [
+            "كُلَّ",
+            "every"
+          ],
+          [
+            "يَوْم",
+            "day"
+          ]
+        ]
+      },
+      {
+        "id": "d90l11",
+        "sp": "karim",
+        "ar": "اِبْحَثْ عَنْ شَرِيكِ مُحَادَثَة: شَخْص يُرِيدُ أَنْ يَتَعَلَّمَ الْإِنْجِلِيزِيَّة، وَأَنْتَ تَتَعَلَّمُ مِنْهُ الْعَرَبِيَّة. وَاكْتُبْ كُلَّ كَلِمَة جَدِيدَة فِي دَفْتَر.",
+        "en": "Look for a conversation partner: someone who wants to learn English, while you learn Arabic from him. And write every new word down in a notebook.",
+        "segs": [
+          [
+            "اِبْحَثْ",
+            "look! (to a man)"
+          ],
+          [
+            "عَنْ",
+            "for (lit. about)"
+          ],
+          [
+            "شَرِيكِ",
+            "partner (of)"
+          ],
+          [
+            "مُحَادَثَة",
+            "conversation"
+          ],
+          [
+            "شَخْص",
+            "a person ('someone')"
+          ],
+          [
+            "يُرِيدُ",
+            "(he) wants"
+          ],
+          [
+            "أَنْ",
+            "to (lit. that)"
+          ],
+          [
+            "يَتَعَلَّمَ",
+            "he learns (-a after an)"
+          ],
+          [
+            "الْإِنْجِلِيزِيَّة",
+            "English (the language)"
+          ],
+          [
+            "وَأَنْتَ",
+            "and you (to a man)"
+          ],
+          [
+            "تَتَعَلَّمُ",
+            "you learn (to a man)"
+          ],
+          [
+            "مِنْهُ",
+            "from him"
+          ],
+          [
+            "الْعَرَبِيَّة",
+            "Arabic"
+          ],
+          [
+            "وَاكْتُبْ",
+            "and write! (to a man)"
+          ],
+          [
+            "كُلَّ",
+            "every"
+          ],
+          [
+            "كَلِمَة",
+            "word"
+          ],
+          [
+            "جَدِيدَة",
+            "new (f)"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "دَفْتَر",
+            "a notebook"
+          ]
+        ]
+      },
+      {
+        "id": "d90l12",
+        "sp": "sami",
+        "ar": "وَاللَّهَجَات يَا أُسْتَاذ؟ دَانْيَال سَيَسْمَعُ اللَّهْجَةَ الْأُرْدُنِّيَّة فِي الشَّارِع، وَهِيَ مُخْتَلِفَة عَنِ الْفُصْحَى. هَلْ هٰذِهِ مُشْكِلَة؟",
+        "en": "And what about the dialects, sir? Daniel will hear the Jordanian dialect in the street, and it's different from standard Arabic. Is that a problem?",
+        "segs": [
+          [
+            "وَاللَّهَجَات",
+            "and the dialects"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "أُسْتَاذ",
+            "teacher ('sir')"
+          ],
+          [
+            "دَانْيَال",
+            "Daniel (first name)",
+            "name"
+          ],
+          [
+            "سَيَسْمَعُ",
+            "(he) will hear"
+          ],
+          [
+            "اللَّهْجَةَ",
+            "the dialect"
+          ],
+          [
+            "الْأُرْدُنِّيَّة",
+            "the Jordanian (f)"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "الشَّارِع",
+            "the street"
+          ],
+          [
+            "وَهِيَ",
+            "and it (f)"
+          ],
+          [
+            "مُخْتَلِفَة",
+            "different (f)"
+          ],
+          [
+            "عَنِ",
+            "from (-i links to the next word)"
+          ],
+          [
+            "الْفُصْحَى",
+            "standard Arabic"
+          ],
+          [
+            "هَلْ",
+            "(starts a yes/no question)"
+          ],
+          [
+            "هٰذِهِ",
+            "this (f) ('that')"
+          ],
+          [
+            "مُشْكِلَة",
+            "a problem"
+          ]
+        ]
+      },
+      {
+        "id": "d90l13",
+        "sp": "karim",
+        "ar": "أَبَدًا! الْفُصْحَى أَسَاس قَوِيّ، وَالَّذِي يَعْرِفُ الْفُصْحَى يَتَعَلَّمُ أَيَّ لَهْجَة بِسُرْعَة. الْمُهِمُّ أَنْ تَسْتَمِرُّوا وَأَلَّا تَخَافُوا مِنَ الْأَخْطَاء.",
+        "en": "Not at all! Standard Arabic is a strong foundation, and anyone who knows it learns any dialect quickly. The important thing is to keep going and not to be afraid of mistakes.",
+        "segs": [
+          [
+            "أَبَدًا",
+            "not at all, never"
+          ],
+          [
+            "الْفُصْحَى",
+            "standard Arabic"
+          ],
+          [
+            "أَسَاس",
+            "a foundation, a base"
+          ],
+          [
+            "قَوِيّ",
+            "strong"
+          ],
+          [
+            "وَالَّذِي",
+            "and the one who ('anyone who')"
+          ],
+          [
+            "يَعْرِفُ",
+            "(he) knows"
+          ],
+          [
+            "الْفُصْحَى",
+            "standard Arabic ('it')"
+          ],
+          [
+            "يَتَعَلَّمُ",
+            "(he) learns"
+          ],
+          [
+            "أَيَّ",
+            "any"
+          ],
+          [
+            "لَهْجَة",
+            "dialect"
+          ],
+          [
+            "بِسُرْعَة",
+            "quickly (lit. with speed)"
+          ],
+          [
+            "الْمُهِمُّ",
+            "the important (thing)"
+          ],
+          [
+            "أَنْ",
+            "to (lit. that)"
+          ],
+          [
+            "تَسْتَمِرُّوا",
+            "you (all) continue, keep going"
+          ],
+          [
+            "وَأَلَّا",
+            "and not to (an + lā)"
+          ],
+          [
+            "تَخَافُوا",
+            "you (all) are afraid"
+          ],
+          [
+            "مِنَ",
+            "of"
+          ],
+          [
+            "الْأَخْطَاء",
+            "the mistakes"
+          ]
+        ]
+      },
+      {
+        "id": "d90l14",
+        "sp": "layla",
+        "ar": "شُكْرًا لَكَ يَا أُسْتَاذ كَرِيم. نَحْنُ مُمْتَنُّونَ لِصَبْرِكَ وَلِكُلِّ مَا عَلَّمْتَنَا. سَنَتَذَكَّرُ هٰذِهِ الدَّوْرَةَ دَائِمًا!",
+        "en": "Thank you, Mr Karim. We're grateful for your patience and for everything that you taught us. We'll always remember this course!",
+        "segs": [
+          [
+            "شُكْرًا",
+            "thank you"
+          ],
+          [
+            "لَكَ",
+            "to you (to a man)"
+          ],
+          [
+            "يَا",
+            "O (calling someone)"
+          ],
+          [
+            "أُسْتَاذ",
+            "teacher, Mr"
+          ],
+          [
+            "كَرِيم",
+            "Karim (first name)",
+            "name"
+          ],
+          [
+            "نَحْنُ",
+            "we"
+          ],
+          [
+            "مُمْتَنُّونَ",
+            "grateful (plural)"
+          ],
+          [
+            "لِصَبْرِكَ",
+            "for your patience (to a man)"
+          ],
+          [
+            "وَلِكُلِّ",
+            "and for all"
+          ],
+          [
+            "مَا",
+            "what"
+          ],
+          [
+            "عَلَّمْتَنَا",
+            "you taught us (to a man)"
+          ],
+          [
+            "سَنَتَذَكَّرُ",
+            "we will remember"
+          ],
+          [
+            "هٰذِهِ",
+            "this (f)"
+          ],
+          [
+            "الدَّوْرَةَ",
+            "the course"
+          ],
+          [
+            "دَائِمًا",
+            "always"
+          ]
+        ]
+      },
+      {
+        "id": "d90l15",
+        "sp": "daniel",
+        "ar": "هٰذِهِ لَيْسَتْ حَفْلَةَ وَدَاع، بَلْ بِدَايَة جَدِيدَة! سَأُرْسِلُ لَكُمْ رِسَالَةً بِالْعَرَبِيَّة مِنْ عَمَّان، وَبِدُونِ أَخْطَاء إِنْ شَاءَ اللّٰه!",
+        "en": "This isn't a farewell party; it's a new beginning! I'll send you all a message in Arabic from Amman, and without mistakes, God willing!",
+        "segs": [
+          [
+            "هٰذِهِ",
+            "this (f)"
+          ],
+          [
+            "لَيْسَتْ",
+            "(she) is not"
+          ],
+          [
+            "حَفْلَةَ",
+            "party (of)"
+          ],
+          [
+            "وَدَاع",
+            "farewell"
+          ],
+          [
+            "بَلْ",
+            "but rather"
+          ],
+          [
+            "بِدَايَة",
+            "a beginning"
+          ],
+          [
+            "جَدِيدَة",
+            "new (f)"
+          ],
+          [
+            "سَأُرْسِلُ",
+            "I will send"
+          ],
+          [
+            "لَكُمْ",
+            "to you (all)"
+          ],
+          [
+            "رِسَالَةً",
+            "a message"
+          ],
+          [
+            "بِالْعَرَبِيَّة",
+            "in Arabic"
+          ],
+          [
+            "مِنْ",
+            "from"
+          ],
+          [
+            "عَمَّان",
+            "Amman (capital of Jordan)",
+            "name"
+          ],
+          [
+            "وَبِدُونِ",
+            "and without"
+          ],
+          [
+            "أَخْطَاء",
+            "mistakes"
+          ],
+          [
+            "إِنْ",
+            "if"
+          ],
+          [
+            "شَاءَ",
+            "(he) wills"
+          ],
+          [
+            "اللّٰه",
+            "God"
+          ]
+        ]
+      },
+      {
+        "id": "d90l16",
+        "sp": "karim",
+        "ar": "إِنْ شَاءَ اللّٰه! أَنَا فَخُور بِكُمْ جَمِيعًا. مَبْرُوك عَلَيْكُمُ الشَّهَادَة، وَإِلَى اللِّقَاء فِي الْمُسْتَقْبَل، وَمَعَ السَّلَامَة!",
+        "en": "God willing! I'm proud of you all. Congratulations on your certificates, until we meet again in the future, and goodbye!",
+        "segs": [
+          [
+            "إِنْ",
+            "if"
+          ],
+          [
+            "شَاءَ",
+            "(he) wills"
+          ],
+          [
+            "اللّٰه",
+            "God"
+          ],
+          [
+            "أَنَا",
+            "I"
+          ],
+          [
+            "فَخُور",
+            "proud"
+          ],
+          [
+            "بِكُمْ",
+            "of you (all)"
+          ],
+          [
+            "جَمِيعًا",
+            "all, all together"
+          ],
+          [
+            "مَبْرُوك",
+            "congratulations"
+          ],
+          [
+            "عَلَيْكُمُ",
+            "on you (all)"
+          ],
+          [
+            "الشَّهَادَة",
+            "the certificate"
+          ],
+          [
+            "وَإِلَى",
+            "and until"
+          ],
+          [
+            "اللِّقَاء",
+            "the meeting ('we meet again')"
+          ],
+          [
+            "فِي",
+            "in"
+          ],
+          [
+            "الْمُسْتَقْبَل",
+            "the future"
+          ],
+          [
+            "وَمَعَ",
+            "and with"
+          ],
+          [
+            "السَّلَامَة",
+            "safety ('goodbye')"
+          ]
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "title": "The last day",
+    "ar": "فِي آخِرِ يَوْمٍ مِنَ الدَّوْرَةِ أَقَامَ الْأُسْتَاذ كَرِيم حَفْلَةَ تَخَرُّجٍ، وَأَعْطَى كُلَّ طَالِبٍ شَهَادَة. قَالَ دَانْيَال إِنَّهُ سَيُسَافِرُ إِلَى الْأُرْدُنّ. وَهَدَفُ لَيْلَى أَنْ تَقْرَأَ رِوَايَةً كُلَّ شَهْر، وَسَامِي سَيَكْتُبُ قِصَّةً كُلَّ أُسْبُوع. وَنَصَحَهُمْ بِأَنْ يَقْرَؤُوا يَوْمِيًّا وَيَبْحَثُوا عَنْ شَرِيكِ مُحَادَثَة. هٰذِهِ لَيْسَتْ نِهَايَة، بَلْ بِدَايَة.",
+    "en": "On the last day of the course, Mr Karim held a graduation party and gave every student a certificate. Daniel said that he will travel to Jordan. Layla's goal is to read a novel every month, and Sami will write a story every week. He advised them to read daily and to look for a conversation partner. This is not an end, but a beginning.",
+    "segs": [
+      [
+        "فِي",
+        "on, in"
+      ],
+      [
+        "آخِرِ",
+        "the last (of)"
+      ],
+      [
+        "يَوْمٍ",
+        "day"
+      ],
+      [
+        "مِنَ",
+        "of"
+      ],
+      [
+        "الدَّوْرَةِ",
+        "the course"
+      ],
+      [
+        "أَقَامَ",
+        "(he) held"
+      ],
+      [
+        "الْأُسْتَاذ",
+        "the teacher, Mr"
+      ],
+      [
+        "كَرِيم",
+        "Karim (first name)",
+        "name"
+      ],
+      [
+        "حَفْلَةَ",
+        "party (of)"
+      ],
+      [
+        "تَخَرُّجٍ",
+        "graduation"
+      ],
+      [
+        "وَأَعْطَى",
+        "and (he) gave"
+      ],
+      [
+        "كُلَّ",
+        "every"
+      ],
+      [
+        "طَالِبٍ",
+        "student"
+      ],
+      [
+        "شَهَادَة",
+        "a certificate"
+      ],
+      [
+        "قَالَ",
+        "(he) said"
+      ],
+      [
+        "دَانْيَال",
+        "Daniel (first name)",
+        "name"
+      ],
+      [
+        "إِنَّهُ",
+        "that he (after qāla)"
+      ],
+      [
+        "سَيُسَافِرُ",
+        "(he) will travel"
+      ],
+      [
+        "إِلَى",
+        "to"
+      ],
+      [
+        "الْأُرْدُنّ",
+        "Jordan (country)",
+        "name"
+      ],
+      [
+        "وَهَدَفُ",
+        "and the goal (of)"
+      ],
+      [
+        "لَيْلَى",
+        "Layla (first name)",
+        "name"
+      ],
+      [
+        "أَنْ",
+        "to (lit. that)"
+      ],
+      [
+        "تَقْرَأَ",
+        "she reads (-a after an)"
+      ],
+      [
+        "رِوَايَةً",
+        "a novel"
+      ],
+      [
+        "كُلَّ",
+        "every"
+      ],
+      [
+        "شَهْر",
+        "month"
+      ],
+      [
+        "وَسَامِي",
+        "and Sami (first name)",
+        "name"
+      ],
+      [
+        "سَيَكْتُبُ",
+        "(he) will write"
+      ],
+      [
+        "قِصَّةً",
+        "a story"
+      ],
+      [
+        "كُلَّ",
+        "every"
+      ],
+      [
+        "أُسْبُوع",
+        "week"
+      ],
+      [
+        "وَنَصَحَهُمْ",
+        "and (he) advised them"
+      ],
+      [
+        "بِأَنْ",
+        "to (lit. with that)"
+      ],
+      [
+        "يَقْرَؤُوا",
+        "they read (after an)"
+      ],
+      [
+        "يَوْمِيًّا",
+        "daily, every day"
+      ],
+      [
+        "وَيَبْحَثُوا",
+        "and they look (after an)"
+      ],
+      [
+        "عَنْ",
+        "for (lit. about)"
+      ],
+      [
+        "شَرِيكِ",
+        "partner (of)"
+      ],
+      [
+        "مُحَادَثَة",
+        "conversation"
+      ],
+      [
+        "هٰذِهِ",
+        "this (f)"
+      ],
+      [
+        "لَيْسَتْ",
+        "(she) is not"
+      ],
+      [
+        "نِهَايَة",
+        "an end"
+      ],
+      [
+        "بَلْ",
+        "but rather"
+      ],
+      [
+        "بِدَايَة",
+        "a beginning"
+      ]
+    ]
+  },
+  "review": [
+    "shahada-w10",
+    "riwaya",
+    "nasiha",
+    "daftar",
+    "khutta",
+    "hadaf"
+  ],
+  "quiz": [
+    {
+      "id": "d90q1",
+      "prompt": "What does لَهْجَة mean?",
+      "options": [
+        "novel",
+        "certificate",
+        "dialect",
+        "conversation"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "d90q2",
+      "prompt": "Where will Daniel go next month, and for how long?",
+      "options": [
+        "to Jordan, for three months",
+        "to Chicago, for a week",
+        "to Alexandria, for a month",
+        "to Cairo University, for a year"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "d90q3",
+      "prompt": "Complete: أُرِيدُ أَنْ ___ اللَّهْجَةَ الْمِصْرِيَّة.",
+      "options": [
+        "أَتَعَلَّمُ",
+        "أَتَعَلَّمَ",
+        "تَعَلَّمْتُ",
+        "سَأَتَعَلَّمُ"
+      ],
+      "answer": 1,
+      "explain": "After أَنْ the present verb ends in -a: أَتَعَلَّمَ."
+    },
+    {
+      "id": "d90q4",
+      "prompt": "What is Layla's goal?",
+      "options": [
+        "to watch a film every week",
+        "to visit Amman",
+        "to teach her brother",
+        "to read an Arabic novel every month"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "d90q5",
+      "prompt": "Which of these is part of Mr Karim's advice?",
+      "options": [
+        "Only study before a test.",
+        "Read daily and listen to the news in Arabic.",
+        "Forget the dialects.",
+        "Never speak until you make no mistakes."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "d90q6",
+      "prompt": "How do you say 'We will always remember you'?",
+      "options": [
+        "نَحْنُ مُمْتَنُّونَ لَكَ",
+        "تَذَكَّرْنَاكَ أَمْسِ",
+        "سَنَتَذَكَّرُكَ دَائِمًا",
+        "لَا نَنْسَى الدَّرْسَ"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "d90q7",
+      "prompt": "How do you split مُسْتَقْبَل (future) into syllables?",
+      "options": [
+        "mu-sa-ta-qa-bal",
+        "mus-taq-bal",
+        "must-aq-bal",
+        "mu-staq-bal"
+      ],
+      "answer": 1,
+      "explain": "Each sukūn closes a syllable: mus-taq-bal, with no extra vowel between s-t or q-b."
+    }
+  ],
+  "completion": "Mabrūk! You have finished all 90 days of Arabic Journey. You can greet people, count and tell the time, talk about your family, order food, travel, tell stories in the past, make plans for the future, give your opinion, use if-sentences and the passive, and write a formal letter, all in Arabic. Take the Week 13 test and pass it with 80% to complete the course. Then keep going: read a little every day, listen to the news, find a conversation partner, and maybe start a dialect. Ilā l-liqāʾ, until we meet again!",
+  "status": "needs-review"
+}
