@@ -1,6 +1,6 @@
 # Status — Arabic Journey
 
-Updated 2026-11-10 (Explore + Time lab done). Branch `main`. All work runs on the owner's PC (no cloud session).
+Updated 2026-11-11 (Speaking lab + onboarding/placement done). Branch `main`. All work runs on the owner's PC (no cloud session).
 Main prompt: `Arabic_Reference/PROMPT_B_Nihongo-based.md` (phases A–F, checklist Z).
 Live: https://ar-journey.german-journey.workers.dev · unlocked https://ar-journey-unlocked.german-journey.workers.dev
 
@@ -16,7 +16,15 @@ Live: https://ar-journey.german-journey.workers.dev · unlocked https://ar-journ
   glosses), minutes table, generated practice quiz, today's date (Egypt/Gulf or Levant month names), Hijri date
   (Intl Umm al-Qura, hidden if the device can't), weekdays, three month sets, parts of the day. Engine
   `src/core/time.ts` + 7 unit tests; 33 hand-glossary lines for time words.
-- Checks: validator 0 errors, 56 unit tests, e2e 21/21 (port 4191), both editions deployed and verified live.
+- **Speaking lab** `/speaking` (e3b3c2b): my sentences / my dialogue lines / starter set; model normal + slow;
+  web speech recognition only after consent (`speakingConsent`), harakat-insensitive word diff `src/core/speech.ts`;
+  record-and-compare (expo-audio, on device); self-check; not scored. Native builds: no recogniser (says so).
+- **Onboarding** `/onboarding` + **placement** `/placement` (e3b3c2b): 3-step welcome (goal, minutes, audio, privacy);
+  placement = 6 stages × 4 week-test questions (`src/core/placement.ts`), stops below 3/4, stores
+  `placement.week`; week tests up to it open one at a time; a passed week test opens the next week (`progress.ts`).
+- Fixed (e3b3c2b): switching learners saved a blank state over the previous learner's progress (writes now paused
+  during `loadLearner`). Reading questions hide the transliteration that gave the answer away (`asksReading`).
+- Checks: validator 0 errors, 65 unit tests, e2e 24/24 (port 4191), both editions deployed and verified live.
 
 ## Left (against Prompt B checklist Z)
 1. Teacher review of the culture chapters: open points per chapter in `docs/review/culture-notes/*.md`
@@ -24,7 +32,8 @@ Live: https://ar-journey.german-journey.workers.dev · unlocked https://ar-journ
    ramadan hero credit author "Unknown").
 2. Final exam screen (if needed); scenarios still missing school, machines, etiquette, dietary (28 ≥ 27);
    no photo scenes / branching role-play on scenario pages.
-3. Missing screens: Speaking lab, Onboarding/placement check, Report, real-life photo card per day.
+3. Missing screens: Report, real-life photo card per day. Speaking lab: native speech recognition not bundled;
+   expo-audio recording on Android untested until the next APK build.
 4. Word photos (150–300) and the 5,000-word dictionary check.
 5. Audit tools `scripts/audit/` + two-reviewer + reconciler audit (writers' open points from weeks 12–13,
    scenarios and placards are in git history of this file, commit 68d8cac).
@@ -44,8 +53,10 @@ Live: https://ar-journey.german-journey.workers.dev · unlocked https://ar-journ
 - e2e: run on port 4191 (a French server may hold 4190): copy playwright.config.ts with 4190→4191 and
   `reuseExistingServer: false`, run `npx playwright test -c <copy>`, delete the copy.
 - One session at a time in this repo. Deploy: `npm run deploy:web` and `deploy:web:unlocked`.
+- Onboarding: learners saved before it existed count as onboarded (store `merge`); e2e `newLearner` goes through it.
+- Placement never skips by itself: only week tests passed in order open later weeks.
 - hand.json key أَحَد = "Sunday (wrong…)": write أَحَدٌ with tanwin when you mean "anyone".
 
 ## Next step
-Missing screens (Left 3): Speaking lab and Onboarding/placement check, then check, e2e (port 4191), deploy,
-commit and push.
+Report screen (Prompt B K: Me → report: progress, accuracy by skill, week tests, placement), then check, e2e (port
+4191), deploy, commit and push.
