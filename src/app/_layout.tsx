@@ -6,7 +6,7 @@ import { useEffect, useSyncExternalStore } from 'react';
 import { ActivityIndicator, View } from 'react-native';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 
-import { setupRtl, webLang } from '@/base/rtl';
+import { IS_RTL, setupRtl, webLang } from '@/base/rtl';
 import { usePalette } from '@/state/hooks';
 import { loadLearner, useLearner, useProfiles } from '@/state/store';
 
@@ -39,7 +39,7 @@ export default function RootLayout() {
 
   return (
     <SafeAreaProvider>
-      <View style={{ flex: 1, backgroundColor: c.bg }} {...webLang('ar', 'rtl')}>
+      <View style={{ flex: 1, backgroundColor: c.bg }} {...webLang(IS_RTL ? 'ar' : 'en', IS_RTL ? 'rtl' : 'ltr')}>
         <StatusBar style={c.dark ? 'light' : 'dark'} />
         {ready ? (
           <Stack screenOptions={{ headerShown: false, contentStyle: { backgroundColor: c.bg } }} />

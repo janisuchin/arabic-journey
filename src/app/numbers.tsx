@@ -2,7 +2,7 @@ import { router } from 'expo-router';
 import { useState } from 'react';
 import { Text, TextInput, View } from 'react-native';
 
-import { webLang } from '@/base/rtl';
+import { AR_START, webLang } from '@/base/rtl';
 import { TapText } from '@/components/tap';
 import { AR_FONT, AppText, Card, IconButton, Row, Screen, SectionTitle, TrText } from '@/components/ui';
 import { clockTime, describeNumber, ordinal, parseDigits } from '@/core/numbers';
@@ -71,7 +71,7 @@ export default function Numbers() {
               {x.arabicDigits}
             </Text>
             <View style={{ flex: 1 }}>
-              <Text {...webLang('ar', 'rtl')} style={{ fontFamily: AR_FONT, fontSize: 24, color: c.text, textAlign: 'right' }}>
+              <Text {...webLang('ar', 'rtl')} style={{ fontFamily: AR_FONT, fontSize: 24, color: c.text, textAlign: AR_START }}>
                 {x.ar}
               </Text>
               {settings.showTranslit && <TrText size={14}>{`${x.translit} — ${x.digits} (${x.en})`}</TrText>}
@@ -91,7 +91,7 @@ export default function Numbers() {
           <Row key={o.en} gap={10}>
             <Text
               {...webLang('ar', 'rtl')}
-              style={{ fontFamily: AR_FONT, fontSize: 22, color: c.text, minWidth: 80, textAlign: 'right' }}>
+              style={{ fontFamily: AR_FONT, fontSize: 22, color: c.text, minWidth: 80, textAlign: AR_START }}>
               {o.ar}
             </Text>
             {settings.showTranslit && <TrText size={14}>{translitLine(o.ar, settings.translitStyle)}</TrText>}

@@ -29,7 +29,7 @@
     },
     "plugins": [
       "expo-router",
-      ["expo-localization", { "supportsRTL": true, "forcesRTL": true }],
+      ["expo-localization", { "supportsRTL": false, "forcesRTL": false }],
       ["expo-splash-screen", { "backgroundColor": "#0B7A5C", "image": "./assets/images/splash-icon.png", "imageWidth": 76 }],
       "expo-font",
       [
@@ -40,6 +40,6 @@
       ]
     ],
     "experiments": { "typedRoutes": true, "reactCompiler": true },
-    "extra": { "supportsRTL": true, "forcesRTL": true }
+    "extra": { "supportsRTL": false, "forcesRTL": false }
   }
 }

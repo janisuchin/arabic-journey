@@ -5,10 +5,10 @@ import { buildFinalExam } from '../src/core/finalExam';
 import { buildPlacement } from '../src/core/placement';
 import { answerQuiz, newLearner, skipOnboarding } from './helpers';
 
-test('onboarding creates a learner and the whole document is right-to-left', async ({ page }) => {
+test('onboarding creates a learner; document is English layout, Arabic runs are right-to-left', async ({ page }) => {
   await newLearner(page);
-  await expect(page.locator('html')).toHaveAttribute('dir', 'rtl');
-  await expect(page.locator('html')).toHaveAttribute('lang', 'ar');
+  await expect(page.locator('html')).toHaveAttribute('dir', 'ltr');
+  await expect(page.locator('html')).toHaveAttribute('lang', 'en');
   await expect(page.getByTestId('lesson-card')).toContainText('Hello!');
   // Arabic text is tagged and uses the Naskh font
   const ar = page.getByTestId('lesson-card').locator('[lang="ar"][dir="rtl"]').filter({ hasText: 'مَرْحَبًا' }).last();
@@ -17,16 +17,19 @@ test('onboarding creates a learner and the whole document is right-to-left', asy
   expect(await page.evaluate(() => document.fonts.check('24px NotoNaskhArabic_400Regular', 'مرحبا'))).toBe(true);
 });
 
-test('layout is mirrored: tabs start at the right, progress fills from the right', async ({ page }) => {
+test('English layout: tabs start at the left, progress fills from the left, Arabic stays right-to-left', async ({ page }) => {
   await newLearner(page);
+  expect(await page.evaluate(() => document.documentElement.getAttribute('dir'))).toBe('ltr');
   const today = await page.getByTestId('tab-index').boundingBox();
   const me = await page.getByTestId('tab-me').boundingBox();
-  expect(today!.x).toBeGreaterThan(me!.x);
+  expect(today!.x).toBeLessThan(me!.x);
+  const ar = page.getByTestId('lesson-card').locator('[lang="ar"][dir="rtl"]').first();
+  expect(await ar.evaluate((el) => getComputedStyle(el).direction)).toBe('rtl');
   await page.getByTestId('start-lesson').click();
   const bar = page.getByRole('progressbar', { name: 'lesson progress' });
   const box = await bar.boundingBox();
   const fill = await bar.locator('div').first().boundingBox();
-  expect(Math.abs(fill!.x + fill!.width - (box!.x + box!.width))).toBeLessThan(2);
+  expect(Math.abs(fill!.x - box!.x)).toBeLessThan(2);
   expect(fill!.width).toBeLessThan(box!.width);
 });
 

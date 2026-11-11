@@ -5,7 +5,7 @@
 import { router } from 'expo-router';
 import { Text, View } from 'react-native';
 
-import { webLang } from '../base/rtl';
+import { AR_START, webLang } from '../base/rtl';
 import { letterForms, stripHarakat } from '../core/arabic';
 import type { Letter } from '../content/schema';
 import { tts } from '../services/tts';
@@ -109,7 +109,7 @@ export function ColouredWord({ word, letters, size = 28 }: { word: string; lette
         lineHeight: fs(size) * 1.9,
         color: c.text,
         writingDirection: 'rtl',
-        textAlign: 'right',
+        textAlign: AR_START,
       }}>
       {groups.map((g, i) => (
         <Text key={i} style={letters.some((l) => g.includes(l)) ? { color: c.accent } : undefined}>

@@ -4,7 +4,7 @@
 import { useMemo, useState, type ReactNode } from 'react';
 import { Modal, Platform, Pressable, ScrollView, Text, View, type LayoutChangeEvent } from 'react-native';
 
-import { START, webLang } from '../base/rtl';
+import { AR_START, START, webLang } from '../base/rtl';
 import { isolateLtr, isolateRtl, stripHarakat } from '../core/arabic';
 import type { Seg } from '../content/schema';
 import { namesSet, splitRuns, syllables, tapTokens, translitLine, wordToken, type WordInfo } from '../lang/ar/tap';
@@ -227,6 +227,7 @@ export function TapText({
   };
   const wantTranslit = showTranslit ?? settings.showTranslit;
   const align = center ? 'center' : START;
+  const arAlign = center ? 'center' : AR_START;
 
   return (
     <View onLayout={(e: LayoutChangeEvent) => setWidth(e.nativeEvent.layout.width)} testID={testID} style={{ gap: 2 }}>
@@ -238,7 +239,7 @@ export function TapText({
           lineHeight: fs(size) * 1.9,
           color: c.text,
           writingDirection: 'rtl',
-          textAlign: align,
+          textAlign: arAlign,
         }}>
         {indexed.map((t, i) =>
           t.kind === 'ar' ? (

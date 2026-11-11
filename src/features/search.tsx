@@ -1,6 +1,6 @@
 import { Pressable, Text, TextInput, View } from 'react-native';
 
-import { webLang } from '../base/rtl';
+import { START, webLang } from '../base/rtl';
 import { AR_FONT, IconButton, Row } from '../components/ui';
 import { usePalette } from '../state/hooks';
 
@@ -28,7 +28,7 @@ export function SearchBox({
           value={value}
           onChangeText={onChange}
           onSubmitEditing={onSubmit}
-          style={{ flex: 1, minHeight: 48, color: c.text, fontSize: 17, textAlign: 'right', writingDirection: 'auto' as never }}
+          style={{ flex: 1, minHeight: 48, color: c.text, fontSize: 17, textAlign: START, writingDirection: 'auto' as never }}
           {...webLang('ar', 'rtl')}
           {...({ dir: 'auto' } as object)}
         />

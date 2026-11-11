@@ -1,6 +1,6 @@
 # Status — Arabic Journey
 
-Updated 2026-11-11 (Final exam done). Branch `main`. All work runs on the owner's PC (no cloud session).
+Updated 2026-11-11 (Direction flip done). Branch `main`. All work runs on the owner's PC (no cloud session).
 Main prompt: `Arabic_Reference/PROMPT_B_Nihongo-based.md` (phases A–F, checklist Z).
 Live: https://ar-journey.german-journey.workers.dev · unlocked https://ar-journey-unlocked.german-journey.workers.dev
 
@@ -38,7 +38,15 @@ Live: https://ar-journey.german-journey.workers.dev · unlocked https://ar-journ
   exam (placement unchanged in behaviour, still not logged to skills; final exam logs skill "final exam").
 - Fixed (e3b3c2b): switching learners saved a blank state over the previous learner's progress (writes now paused
   during `loadLearner`). Reading questions hide the transliteration that gave the answer away (`asksReading`).
-- Checks: validator 0 errors, 76 unit tests, e2e 26/26 (port 4191), both editions deployed and verified live.
+- **Direction flip** (owner decision 2026-11-11, closes old item 7): the app shell is now the Journey/Nihongo
+  layout for English readers (`<html dir="ltr" lang="en">`, English + transliteration left-aligned, arrows point
+  right, tabs start with Today on the left, progress fills from the left, `forcesRTL` off in app.json). Arabic
+  text itself is unchanged: always `dir="rtl" lang="ar"`, Naskh, harakat. Single switch `UI_DIR` in
+  `src/base/rtl.ts` (`EXPO_PUBLIC_UI_DIR=rtl` restores the full mirror); `AR_START` / `EXPO_PUBLIC_AR_EDGE=right`
+  would put Arabic lines on the right edge instead (not chosen). Before/after screenshots + owner check page in
+  `docs/review/rtl-screens/compare.html`. e2e asserts the LTR document + RTL Arabic runs.
+- Checks: validator 0 errors, 76 unit tests, e2e 26/26 (port 4191), both editions deployed and verified live
+  (`dir="ltr"` served).
 
 ## Left (against Prompt B checklist Z)
 1. Teacher review of the culture chapters: open points per chapter in `docs/review/culture-notes/*.md`
@@ -52,7 +60,7 @@ Live: https://ar-journey.german-journey.workers.dev · unlocked https://ar-journ
 5. Audit tools `scripts/audit/` + two-reviewer + reconciler audit (writers' open points from weeks 12–13,
    scenarios and placards are in git history of this file, commit 68d8cac).
 6. `tools/build-android.ps1`, layout sweep, release v1.0.0 by the Journey release-folder rule.
-7. Owner to decide: English text is right-aligned in the mirrored RTL UI (v0.1.0 choice).
+7. Next APK build must be checked on device: forced RTL is now off, native layout should match the web.
 
 ## Decisions
 - Never mark content `approved` without a named human reviewer.
@@ -66,6 +74,8 @@ Live: https://ar-journey.german-journey.workers.dev · unlocked https://ar-journ
 - Time phrases carry their own segs (generic lookup mis-glosses ظُهْرًا as "back"); 25/35 past = "half ∓ five".
 - e2e: run on port 4191 (a French server may hold 4190): copy playwright.config.ts with 4190→4191 and
   `reuseExistingServer: false`, run `npx playwright test -c <copy>`, delete the copy.
+- UI direction is LTR for English readers; Arabic text always RTL. Use `START` for English/transliteration and
+  `AR_START` for Arabic lines; never hard-code `textAlign: 'right'`.
 - One session at a time in this repo. Deploy: `npm run deploy:web` and `deploy:web:unlocked`.
 - Onboarding: learners saved before it existed count as onboarded (store `merge`); e2e `newLearner` goes through it.
 - Placement never skips by itself: only week tests passed in order open later weeks.

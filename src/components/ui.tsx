@@ -7,7 +7,7 @@ import type { ComponentProps, ReactNode } from 'react';
 import { Pressable, ScrollView, StyleSheet, Text, View, type StyleProp, type TextStyle, type ViewStyle } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
-import { BACK_ICON, START, webLang } from '../base/rtl';
+import { AR_START, BACK_ICON, START, webLang } from '../base/rtl';
 import { stripHarakat } from '../core/arabic';
 import { useFs, usePalette, useSettings } from '../state/hooks';
 
@@ -78,7 +78,7 @@ export function ArText({ children, size = 24, bold, color, center, style, select
           lineHeight: fs(size) * 1.9,
           fontFamily: bold ? AR_FONT_BOLD : AR_FONT,
           writingDirection: 'rtl',
-          textAlign: center ? 'center' : START,
+          textAlign: center ? 'center' : AR_START,
         },
         style,
       ]}>

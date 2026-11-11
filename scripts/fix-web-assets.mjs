@@ -1,4 +1,4 @@
-// Post-processes a web export: sets <html dir="rtl" lang="ar">, adds a web manifest and icons.
+// Post-processes a web export: sets <html dir="ltr" lang="en">, adds a web manifest and icons.
 import { copyFileSync, existsSync, readFileSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 
@@ -11,7 +11,7 @@ if (!existsSync(index)) {
   process.exit(1);
 }
 let html = readFileSync(index, 'utf8');
-html = html.replace(/<html[^>]*>/, '<html dir="rtl" lang="ar">');
+html = html.replace(/<html[^>]*>/, '<html dir="ltr" lang="en">');
 if (!html.includes('manifest.webmanifest'))
   html = html.replace(
     '</head>',
@@ -27,7 +27,7 @@ writeFileSync(
       name,
       short_name: 'Arabic Journey',
       lang: 'ar',
-      dir: 'rtl',
+      dir: 'ltr',
       start_url: '/',
       display: 'standalone',
       background_color: '#F6F4EF',
@@ -38,4 +38,4 @@ writeFileSync(
     2,
   ),
 );
-console.log(`fix-web-assets: ${out} ready (dir=rtl, manifest, icons)`);
+console.log(`fix-web-assets: ${out} ready (dir=ltr, manifest, icons)`);

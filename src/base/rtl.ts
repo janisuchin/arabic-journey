@@ -1,37 +1,43 @@
-// Right-to-left setup. The whole app reads right to left: layout is mirrored (rows flow from the
-// right, start/end instead of left/right, arrows and progress bars mirrored). Arabic text is
-// tagged dir="rtl" lang="ar"; English runs are isolated as dir="ltr" lang="en" so their
-// punctuation and numbers stay in place inside the mirrored layout.
+// Text direction setup. UI_DIR decides the app shell: 'ltr' = Journey layout for English readers (rows flow
+// from the left, English and transliteration left-aligned, arrows point right), 'rtl' = fully mirrored
+// Arabic-native layout. Arabic text itself is ALWAYS right-to-left (dir="rtl" lang="ar"); AR_ALIGN decides
+// which edge Arabic lines sit on inside the chosen layout. English runs are isolated as dir="ltr" lang="en".
 
 import { I18nManager, Platform, type TextStyle } from 'react-native';
 
-export const IS_RTL = true;
+export const UI_DIR: 'ltr' | 'rtl' = (process.env.EXPO_PUBLIC_UI_DIR as 'ltr' | 'rtl') || 'ltr';
+export const IS_RTL = UI_DIR === 'rtl';
+
+/** Edge for Arabic lines. 'start' = same edge as the English (Nihongo style); 'right' = textbook column. */
+const ARABIC_EDGE: 'start' | 'right' = (process.env.EXPO_PUBLIC_AR_EDGE as 'start' | 'right') || 'start';
 
 /** Call once at startup. Native needs a reload for forceRTL; the expo-localization plugin
- *  (forcesRTL: true in app.json) makes builds start in RTL from the first launch. */
+ *  (forcesRTL in app.json) makes builds start in the right direction from the first launch. */
 export function setupRtl() {
   if (Platform.OS === 'web') {
     if (typeof document !== 'undefined') {
-      document.documentElement.setAttribute('dir', 'rtl');
-      document.documentElement.setAttribute('lang', 'ar');
+      document.documentElement.setAttribute('dir', UI_DIR);
+      document.documentElement.setAttribute('lang', IS_RTL ? 'ar' : 'en');
     }
     return;
   }
   try {
-    I18nManager.allowRTL(true);
-    if (!I18nManager.isRTL) I18nManager.forceRTL(true);
+    I18nManager.allowRTL(IS_RTL);
+    if (I18nManager.isRTL !== IS_RTL) I18nManager.forceRTL(IS_RTL);
   } catch {
     /* ignore */
   }
 }
 
-/** Physical side where text starts in this RTL app. */
-export const START: TextStyle['textAlign'] = 'right';
+/** Physical side where English and transliteration start. */
+export const START: TextStyle['textAlign'] = IS_RTL ? 'right' : 'left';
+/** Physical side where Arabic lines sit. */
+export const AR_START: TextStyle['textAlign'] = IS_RTL || ARABIC_EDGE === 'right' ? 'right' : 'left';
 
-/** Arrows: "next" points left in RTL, "back" points right. */
-export const NEXT_ICON = 'arrow-back' as const;
-export const BACK_ICON = 'arrow-forward' as const;
-export const ROW_CHEVRON = 'chevron-back' as const;
+/** Arrows: "next" points along the reading direction of the UI. */
+export const NEXT_ICON = IS_RTL ? ('arrow-back' as const) : ('arrow-forward' as const);
+export const BACK_ICON = IS_RTL ? ('arrow-forward' as const) : ('arrow-back' as const);
+export const ROW_CHEVRON = IS_RTL ? ('chevron-back' as const) : ('chevron-forward' as const);
 
 /** Web-only DOM attributes (react-native-web forwards dir and lang to the element). */
 export function webLang(lang: 'ar' | 'en' | 'ar-Latn', dir: 'rtl' | 'ltr'): Record<string, string> {
