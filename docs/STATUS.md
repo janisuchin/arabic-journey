@@ -1,6 +1,6 @@
 # Status — Arabic Journey
 
-Updated 2026-11-11 (Speaking lab + onboarding/placement done). Branch `main`. All work runs on the owner's PC (no cloud session).
+Updated 2026-11-11 (Report screen + study-time logging done). Branch `main`. All work runs on the owner's PC (no cloud session).
 Main prompt: `Arabic_Reference/PROMPT_B_Nihongo-based.md` (phases A–F, checklist Z).
 Live: https://ar-journey.german-journey.workers.dev · unlocked https://ar-journey-unlocked.german-journey.workers.dev
 
@@ -22,9 +22,15 @@ Live: https://ar-journey.german-journey.workers.dev · unlocked https://ar-journ
 - **Onboarding** `/onboarding` + **placement** `/placement` (e3b3c2b): 3-step welcome (goal, minutes, audio, privacy);
   placement = 6 stages × 4 week-test questions (`src/core/placement.ts`), stops below 3/4, stores
   `placement.week`; week tests up to it open one at a time; a passed week test opens the next week (`progress.ts`).
+- **Report** `/report` (25baa23, Prompt B K): progress (days, quiz average, words learned/mastered, week tests passed),
+  study time (total, last 7 days, active days, streak), accuracy by skill (weakest first, judged after 5 answers:
+  ≥80 strong, 60–79 developing, <60 needs work), all 13 week tests with best score + status, placement result,
+  empty state, "Final report" heading at day 90. Engine `src/core/report.ts` + 5 tests. Me → "Full progress
+  report" row (`me-report`). `useStudyTimer` (hooks.ts) logs 1 min/60 s on day, week-test, flashcards, scenario
+  and culture screens (study minutes were always 0 before: nothing called `logActivity`).
 - Fixed (e3b3c2b): switching learners saved a blank state over the previous learner's progress (writes now paused
   during `loadLearner`). Reading questions hide the transliteration that gave the answer away (`asksReading`).
-- Checks: validator 0 errors, 65 unit tests, e2e 24/24 (port 4191), both editions deployed and verified live.
+- Checks: validator 0 errors, 70 unit tests, e2e 25/25 (port 4191), both editions deployed and verified live (report chunk 200).
 
 ## Left (against Prompt B checklist Z)
 1. Teacher review of the culture chapters: open points per chapter in `docs/review/culture-notes/*.md`
@@ -32,7 +38,7 @@ Live: https://ar-journey.german-journey.workers.dev · unlocked https://ar-journ
    ramadan hero credit author "Unknown").
 2. Final exam screen (if needed); scenarios still missing school, machines, etiquette, dietary (28 ≥ 27);
    no photo scenes / branching role-play on scenario pages.
-3. Missing screens: Report, real-life photo card per day. Speaking lab: native speech recognition not bundled;
+3. Missing screen: real-life photo card per day. Speaking lab: native speech recognition not bundled;
    expo-audio recording on Android untested until the next APK build.
 4. Word photos (150–300) and the 5,000-word dictionary check.
 5. Audit tools `scripts/audit/` + two-reviewer + reconciler audit (writers' open points from weeks 12–13,
@@ -58,5 +64,5 @@ Live: https://ar-journey.german-journey.workers.dev · unlocked https://ar-journ
 - hand.json key أَحَد = "Sunday (wrong…)": write أَحَدٌ with tanwin when you mean "anyone".
 
 ## Next step
-Report screen (Prompt B K: Me → report: progress, accuracy by skill, week tests, placement), then check, e2e (port
-4191), deploy, commit and push.
+Final exam screen (Prompt B L: cumulative test over all 13 weeks, opened after week 13 or by unlock-all; result
+feeds the Report "Final report"), then check, e2e (port 4191), deploy, commit and push.
