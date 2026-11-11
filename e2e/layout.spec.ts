@@ -27,6 +27,7 @@ const ROUTES = [
   '/time',
   '/culture',
   '/culture/cul.coffee',
+  '/report',
   '/credits',
 ];
 

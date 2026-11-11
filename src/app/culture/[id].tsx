@@ -10,7 +10,7 @@ import { cultureById, vocabById } from '@/content';
 import type { PlacardItem } from '@/content/schema';
 import { QuizRunner, SentenceCard, WordCard } from '@/features/lesson';
 import { tts } from '@/services/tts';
-import { useSettings } from '@/state/hooks';
+import { useSettings, useStudyTimer } from '@/state/hooks';
 
 function WordItem({ it, testID }: { it: PlacardItem; testID: string }) {
   const settings = useSettings();
@@ -29,6 +29,7 @@ function WordItem({ it, testID }: { it: PlacardItem; testID: string }) {
 }
 
 export default function CultureChapter() {
+  useStudyTimer();
   const { id } = useLocalSearchParams<{ id: string }>();
   const ch = cultureById.get(id);
   const settings = useSettings();

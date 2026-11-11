@@ -36,7 +36,7 @@ import { Dialogue, GenderLegend, QuizRunner, SentenceCard, WordCard } from '@/fe
 import { GrammarBody } from '@/features/grammar';
 import { translitLine } from '@/lang/ar/tap';
 import { tts } from '@/services/tts';
-import { usePalette, useProgressInput, useSettings } from '@/state/hooks';
+import { usePalette, useProgressInput, useSettings, useStudyTimer } from '@/state/hooks';
 import { useLearner } from '@/state/store';
 
 type PageId =
@@ -79,6 +79,7 @@ export default function DayScreen() {
   const d = dayByNumber.get(dayNum);
   const progress = useProgressInput();
   const setLastPage = useLearner((s) => s.setLastPage);
+  useStudyTimer();
   const [page, setPage] = useState(Number(params.p ?? 0) || 0);
 
   useEffect(() => {

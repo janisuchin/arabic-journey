@@ -8,9 +8,9 @@ import { isMastered } from '@/core/srs';
 import { useCurrentLearner, usePalette, useProgressInput } from '@/state/hooks';
 import { useLearner, useProfiles } from '@/state/store';
 
-function MenuRow({ icon, label, href }: { icon: IconName; label: string; href: string }) {
+function MenuRow({ icon, label, href, testID }: { icon: IconName; label: string; href: string; testID?: string }) {
   return (
-    <Card onPress={() => router.push(href as never)} label={label} style={{ paddingVertical: 10 }}>
+    <Card onPress={() => router.push(href as never)} label={label} style={{ paddingVertical: 10 }} testID={testID}>
       <Row gap={12}>
         <Icon name={icon} />
         <AppText weight="700" style={{ flex: 1 }}>
@@ -121,6 +121,7 @@ export default function Me() {
         </View>
       ))}
       <SectionTitle icon="menu-outline">More</SectionTitle>
+      <MenuRow icon="document-text-outline" label="Full progress report" href="/report" testID="me-report" />
       <MenuRow icon="settings-outline" label="Settings" href="/settings" />
       <MenuRow icon="shield-checkmark-outline" label="Privacy" href="/settings#privacy" />
       <MenuRow icon="information-circle-outline" label="About" href="/about" />

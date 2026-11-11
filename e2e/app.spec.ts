@@ -289,3 +289,33 @@ test('speaking lab: model, consent before recognition, record-and-compare and se
   await expect(page.getByTestId('speak-position')).toContainText('2 of');
   await expect(page.getByTestId('speak-tally')).toContainText('1 said clearly');
 });
+
+test('report: empty at first, then shows days, quiz accuracy and the week-1 test after a lesson and a test', async ({ page }) => {
+  await newLearner(page);
+  await page.getByTestId('tab-me').click();
+  await page.getByTestId('me-report').click();
+  await expect(page.getByTestId('report')).toBeVisible();
+  await expect(page.getByTestId('report-empty')).toBeVisible();
+  await expect(page.getByTestId('report-days')).toContainText('0 of 90 days');
+  await expect(page.getByTestId('report-placement')).toContainText('Not taken');
+  await expect(page.getByTestId('report-week-1')).toContainText('not taken');
+  // finish Day 1 and pass the week 1 test (unlock all so the test is open)
+  await page.goto('/day/1');
+  for (let i = 0; i < 8; i++) await page.getByTestId('next-page').click();
+  await answerQuiz(page, day1.quiz);
+  await expect(page.getByTestId('done')).toContainText('Day complete');
+  await page.goto('/settings');
+  await page.getByTestId('unlock-all').click();
+  await page.goto('/week-test/1');
+  await answerQuiz(page, course.weeks[0].test);
+  await expect(page.getByTestId('quiz-score')).toContainText('100%');
+  await page.goto('/report');
+  await expect(page.getByTestId('report-empty')).toHaveCount(0);
+  await expect(page.getByTestId('report-days')).toContainText('1 of 90 days');
+  await expect(page.getByTestId('report-skills')).toContainText('Day quizzes');
+  await expect(page.getByTestId('report-skills')).toContainText('Week tests');
+  await expect(page.getByTestId('report-week-1')).toContainText('1 of 7 days done');
+  await expect(page.getByTestId('report-week-1')).toContainText('100% · passed');
+  await expect(page.getByTestId('report-week-2')).toContainText('not taken');
+  await expect(page.getByTestId('report')).toContainText('1 of 13');
+});

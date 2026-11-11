@@ -5,9 +5,10 @@ import { RichText } from '@/components/tap';
 import { AppText, Card, Screen, SectionTitle } from '@/components/ui';
 import { scenarios } from '@/content';
 import { Dialogue, QuizRunner } from '@/features/lesson';
-import { usePalette, useSettings } from '@/state/hooks';
+import { usePalette, useSettings, useStudyTimer } from '@/state/hooks';
 
 export default function ScenarioScreen() {
+  useStudyTimer();
   const { id } = useLocalSearchParams<{ id: string }>();
   const s = scenarios.find((x) => x.id === id);
   const c = usePalette();

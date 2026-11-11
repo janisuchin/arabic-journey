@@ -1,5 +1,5 @@
-import { useMemo } from 'react';
-import { useColorScheme } from 'react-native';
+import { useEffect, useMemo } from 'react';
+import { AppState, useColorScheme } from 'react-native';
 
 import { paletteFor, type Palette } from '../base/palette';
 import { validDays, weekOf } from '../content';
@@ -34,4 +34,25 @@ export function useProgressInput(): ProgressInput {
 export function useFs() {
   const scale = useSettings().textScale;
   return (n: number) => Math.round(n * scale);
+}
+
+/**
+ * Counts study time while a learning screen is open: one minute is logged to today's activity every 60 seconds
+ * (foreground only on native). Nothing is sent anywhere; it feeds the Me stats and the Report.
+ */
+export function useStudyTimer() {
+  const logActivity = useLearner((s) => s.logActivity);
+  useEffect(() => {
+    let active = AppState.currentState !== 'background';
+    const sub = AppState.addEventListener('change', (st) => {
+      active = st === 'active';
+    });
+    const id = setInterval(() => {
+      if (active) logActivity(1);
+    }, 60_000);
+    return () => {
+      clearInterval(id);
+      sub.remove();
+    };
+  }, [logActivity]);
 }

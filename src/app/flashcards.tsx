@@ -7,10 +7,11 @@ import { vocabById } from '@/content';
 import { isDue, type Grade } from '@/core/srs';
 import { translitLine } from '@/lang/ar/tap';
 import { tts } from '@/services/tts';
-import { useSettings } from '@/state/hooks';
+import { useSettings, useStudyTimer } from '@/state/hooks';
 import { useLearner } from '@/state/store';
 
 export default function Flashcards() {
+  useStudyTimer();
   const { all } = useLocalSearchParams<{ all?: string }>();
   const settings = useSettings();
   const cards = useLearner((s) => s.cards);

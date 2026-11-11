@@ -5,7 +5,7 @@ import { AppText, Button, Caption, Card, Screen } from '@/components/ui';
 import { weekByNumber } from '@/content';
 import { isWeekTestUnlocked } from '@/core/progress';
 import { QuizRunner } from '@/features/lesson';
-import { useProgressInput, useSettings } from '@/state/hooks';
+import { useProgressInput, useSettings, useStudyTimer } from '@/state/hooks';
 import { useLearner } from '@/state/store';
 
 export default function WeekTest() {
@@ -14,6 +14,7 @@ export default function WeekTest() {
   const progress = useProgressInput();
   const { passMark } = useSettings();
   const setWeekTest = useLearner((s) => s.setWeekTest);
+  useStudyTimer();
   if (!w || w.test.length === 0)
     return (
       <Screen title="Week test">
