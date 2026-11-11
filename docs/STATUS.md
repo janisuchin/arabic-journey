@@ -28,7 +28,7 @@ Live: https://ar-journey.german-journey.workers.dev · unlocked https://ar-journ
   empty state, "Final report" heading at day 90. Engine `src/core/report.ts` + 5 tests. Me → "Full progress
   report" row (`me-report`). `useStudyTimer` (hooks.ts) logs 1 min/60 s on day, week-test, flashcards, scenario
   and culture screens (study minutes were always 0 before: nothing called `logActivity`).
-- **Final exam** `/final-exam` (Prompt B L): cumulative test, 4 questions per week from the 13 week tests (52, fixed seed,
+- **Final exam** `/final-exam` (43be00a, Prompt B L): cumulative test, 4 questions per week from the 13 week tests (52, fixed seed,
   course order), opens after the week 13 test is passed or with unlock-all (`isFinalExamUnlocked`). Start page shows the
   best attempt; result page scores by week and names the weak weeks (< pass mark, weakest first). Engine
   `src/core/finalExam.ts` + 6 tests; store `finalExam` (best attempt kept, attempts counted). Linked from Path card
@@ -72,5 +72,6 @@ Live: https://ar-journey.german-journey.workers.dev · unlocked https://ar-journ
 - hand.json key أَحَد = "Sunday (wrong…)": write أَحَدٌ with tanwin when you mean "anyone".
 
 ## Next step
-Final exam screen (Prompt B L: cumulative test over all 13 weeks, opened after week 13 or by unlock-all; result
-feeds the Report "Final report"), then check, e2e (port 4191), deploy, commit and push.
+Real-life photo card per day (Prompt B L "In real life" + M photos): one licensed Commons photo per day with the
+day's words as tappable chips, via `scripts/commons_photo.py` (credited, © badge, Credits page); then check, e2e
+(port 4191), deploy, commit and push.
