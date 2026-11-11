@@ -44,6 +44,12 @@ export function isWeekTestUnlocked(week: number, weekDays: number[], p: Progress
   return false;
 }
 
+/** The final exam opens once the last week's test is passed, or with unlock-all. */
+export function isFinalExamUnlocked(lastWeek: number, p: ProgressInput) {
+  if (p.unlockAll) return true;
+  return lastWeek > 0 && weekPassed(lastWeek, p);
+}
+
 export function nextDay(p: ProgressInput): number | null {
   const sorted = [...p.validDays].sort((a, b) => a - b);
   // days of a week whose test is already passed (tested in after placement) are not "next"; they stay open to revisit

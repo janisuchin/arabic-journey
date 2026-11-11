@@ -3,17 +3,13 @@
 // week tests up to that week, one at a time, and each pass opens the next week.
 import { router } from 'expo-router';
 import { useMemo, useState } from 'react';
-import { Pressable, View } from 'react-native';
+import { View } from 'react-native';
 
-import { RichText, TapText } from '@/components/tap';
 import { AppText, Button, Card, ProgressBar, Screen } from '@/components/ui';
 import { course } from '@/content';
 import type { Question } from '@/content/schema';
-import { hasScript } from '@/core/arabic';
-import { asksReading, seededShuffle } from '@/core/answer';
 import { buildPlacement, placementResult } from '@/core/placement';
-import { OptionArabic } from '@/features/lesson';
-import { usePalette } from '@/state/hooks';
+import { OneQuestion } from '@/features/lesson';
 import { useLearner } from '@/state/store';
 
 type StageScore = { weeks: number[]; correct: number; total: number };
@@ -109,75 +105,8 @@ export default function Placement() {
         {stage.questions.length}
       </AppText>
       <ProgressBar value={(si + qi / stage.questions.length) / stages.length} label="placement progress" />
-      <PlacementQuestion key={`${si}-${qi}`} q={q} seed={si * 10 + qi} onNext={advance} />
+      <OneQuestion key={`${si}-${qi}`} q={q} seed={si * 10 + qi} onNext={advance} testID="placement-q" />
       <Button kind="ghost" label="I don't know" onPress={() => advance(false)} testID="placement-skip" />
     </Screen>
-  );
-}
-
-function PlacementQuestion({ q, seed, onNext }: { q: Question; seed: number; onNext: (ok: boolean) => void }) {
-  const c = usePalette();
-  const [picked, setPicked] = useState<number | null>(null);
-  const opts = useMemo(
-    () =>
-      seededShuffle(
-        q.options.map((o, idx) => ({ o, idx })),
-        991 + seed,
-      ),
-    [q, seed],
-  );
-  const ok = picked !== null && opts[picked].idx === q.answer;
-  return (
-    <View style={{ gap: 10 }} testID="placement-q">
-      <RichText text={q.prompt} size={18} />
-      {q.ar && (
-        <Card>
-          <TapText text={q.ar} size={30} center showTranslit={asksReading(q.prompt) ? false : undefined} />
-        </Card>
-      )}
-      {opts.map(({ o, idx }, k) => {
-        const isAnswer = idx === q.answer;
-        const chosen = picked === k;
-        const bg = picked === null ? c.card : isAnswer ? c.good : chosen ? c.bad : c.card;
-        const fg = picked !== null && (isAnswer || chosen) ? '#fff' : c.text;
-        return (
-          <Pressable
-            key={k}
-            accessibilityRole="button"
-            accessibilityLabel={`Answer ${k + 1}`}
-            testID={`option-${k}`}
-            disabled={picked !== null}
-            onPress={() => setPicked(k)}
-            style={{
-              minHeight: 52,
-              borderRadius: 14,
-              borderWidth: 1,
-              borderColor: c.border,
-              backgroundColor: bg,
-              paddingHorizontal: 14,
-              paddingVertical: 8,
-              justifyContent: 'center',
-            }}>
-            {hasScript(o) ? (
-              <View pointerEvents="none">
-                <OptionArabic text={o} color={fg} />
-              </View>
-            ) : (
-              <AppText weight="600" color={fg}>
-                {o}
-              </AppText>
-            )}
-          </Pressable>
-        );
-      })}
-      {picked !== null && (
-        <View style={{ gap: 6 }}>
-          <AppText weight="800" color={ok ? c.good : c.bad} testID="quiz-feedback">
-            {ok ? '✓ Correct!' : '✗ Not this one. The right answer is highlighted.'}
-          </AppText>
-          <Button label="Next" testID="quiz-next" onPress={() => onNext(ok)} />
-        </View>
-      )}
-    </View>
   );
 }

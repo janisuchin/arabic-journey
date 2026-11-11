@@ -28,6 +28,7 @@ const ROUTES = [
   '/culture',
   '/culture/cul.coffee',
   '/report',
+  '/final-exam',
   '/credits',
 ];
 

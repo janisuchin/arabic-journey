@@ -461,6 +461,94 @@ export function QuizRunner({
   );
 }
 
+/**
+ * One multiple-choice question with its own Next button. Used where a screen tracks the answers itself (placement
+ * check, final exam). Answers are logged to the Report only when `skill` is given.
+ */
+export function OneQuestion({
+  q,
+  seed,
+  onNext,
+  skill,
+  testID = 'one-question',
+}: {
+  q: Question;
+  seed: number;
+  onNext: (ok: boolean) => void;
+  skill?: string;
+  testID?: string;
+}) {
+  const c = usePalette();
+  const logAnswer = useLearner((s) => s.logAnswer);
+  const [picked, setPicked] = useState<number | null>(null);
+  const opts = useMemo(
+    () =>
+      seededShuffle(
+        q.options.map((o, idx) => ({ o, idx })),
+        991 + seed,
+      ),
+    [q, seed],
+  );
+  const ok = picked !== null && opts[picked].idx === q.answer;
+  return (
+    <View style={{ gap: 10 }} testID={testID}>
+      <RichText text={q.prompt} size={18} />
+      {q.ar && (
+        <Card>
+          <TapText text={q.ar} size={30} center showTranslit={asksReading(q.prompt) ? false : undefined} />
+        </Card>
+      )}
+      {opts.map(({ o, idx }, k) => {
+        const isAnswer = idx === q.answer;
+        const chosen = picked === k;
+        const bg = picked === null ? c.card : isAnswer ? c.good : chosen ? c.bad : c.card;
+        const fg = picked !== null && (isAnswer || chosen) ? '#fff' : c.text;
+        return (
+          <Pressable
+            key={k}
+            accessibilityRole="button"
+            accessibilityLabel={`Answer ${k + 1}`}
+            testID={`option-${k}`}
+            disabled={picked !== null}
+            onPress={() => {
+              setPicked(k);
+              if (skill) logAnswer(skill, isAnswer);
+            }}
+            style={{
+              minHeight: 52,
+              borderRadius: 14,
+              borderWidth: 1,
+              borderColor: c.border,
+              backgroundColor: bg,
+              paddingHorizontal: 14,
+              paddingVertical: 8,
+              justifyContent: 'center',
+            }}>
+            {hasScript(o) ? (
+              <View pointerEvents="none">
+                <OptionArabic text={o} color={fg} />
+              </View>
+            ) : (
+              <AppText weight="600" color={fg}>
+                {o}
+              </AppText>
+            )}
+          </Pressable>
+        );
+      })}
+      {picked !== null && (
+        <View style={{ gap: 6 }}>
+          <AppText weight="800" color={ok ? c.good : c.bad} testID="quiz-feedback">
+            {ok ? '✓ Correct!' : '✗ Not this one. The right answer is highlighted.'}
+          </AppText>
+          {q.explain && <RichText text={q.explain} size={14} muted />}
+          <Button label="Next" testID="quiz-next" onPress={() => onNext(ok)} />
+        </View>
+      )}
+    </View>
+  );
+}
+
 /** Arabic inside an answer option: shows the transliteration, but the press reaches the option. */
 export function OptionArabic({ text, color }: { text: string; color: string }) {
   const settings = useSettings();

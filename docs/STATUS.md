@@ -1,6 +1,6 @@
 # Status — Arabic Journey
 
-Updated 2026-11-11 (Report screen + study-time logging done). Branch `main`. All work runs on the owner's PC (no cloud session).
+Updated 2026-11-11 (Final exam done). Branch `main`. All work runs on the owner's PC (no cloud session).
 Main prompt: `Arabic_Reference/PROMPT_B_Nihongo-based.md` (phases A–F, checklist Z).
 Live: https://ar-journey.german-journey.workers.dev · unlocked https://ar-journey-unlocked.german-journey.workers.dev
 
@@ -28,15 +28,23 @@ Live: https://ar-journey.german-journey.workers.dev · unlocked https://ar-journ
   empty state, "Final report" heading at day 90. Engine `src/core/report.ts` + 5 tests. Me → "Full progress
   report" row (`me-report`). `useStudyTimer` (hooks.ts) logs 1 min/60 s on day, week-test, flashcards, scenario
   and culture screens (study minutes were always 0 before: nothing called `logActivity`).
+- **Final exam** `/final-exam` (Prompt B L): cumulative test, 4 questions per week from the 13 week tests (52, fixed seed,
+  course order), opens after the week 13 test is passed or with unlock-all (`isFinalExamUnlocked`). Start page shows the
+  best attempt; result page scores by week and names the weak weeks (< pass mark, weakest first). Engine
+  `src/core/finalExam.ts` + 6 tests; store `finalExam` (best attempt kept, attempts counted). Linked from Path card
+  (`path-final-exam`, locked/open), Today card after week 13 (`final-exam-card`), Me row (`me-final-exam`), Report.
+  Report: "Final exam" section (`report-final`); heading "Final report" now needs all 90 days AND a passed final exam
+  ("All days done" in between). `OneQuestion` (features/lesson) is the shared single-question UI for placement + final
+  exam (placement unchanged in behaviour, still not logged to skills; final exam logs skill "final exam").
 - Fixed (e3b3c2b): switching learners saved a blank state over the previous learner's progress (writes now paused
   during `loadLearner`). Reading questions hide the transliteration that gave the answer away (`asksReading`).
-- Checks: validator 0 errors, 70 unit tests, e2e 25/25 (port 4191), both editions deployed and verified live (report chunk 200).
+- Checks: validator 0 errors, 76 unit tests, e2e 26/26 (port 4191), both editions deployed and verified live.
 
 ## Left (against Prompt B checklist Z)
 1. Teacher review of the culture chapters: open points per chapter in `docs/review/culture-notes/*.md`
    (facts like UNESCO years, Burj Khalifa "tallest", regional customs; family hero photo shows faces;
    ramadan hero credit author "Unknown").
-2. Final exam screen (if needed); scenarios still missing school, machines, etiquette, dietary (28 ≥ 27);
+2. Scenarios still missing school, machines, etiquette, dietary (28 ≥ 27);
    no photo scenes / branching role-play on scenario pages.
 3. Missing screen: real-life photo card per day. Speaking lab: native speech recognition not bundled;
    expo-audio recording on Android untested until the next APK build.

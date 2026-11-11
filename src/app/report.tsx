@@ -24,6 +24,7 @@ export default function ReportScreen() {
   const activity = useLearner((s) => s.activity);
   const answered = useLearner((s) => s.answered);
   const placement = useLearner((s) => s.placement);
+  const finalExam = useLearner((s) => s.finalExam);
   const goal = useLearner((s) => s.goal);
   const studyMinutes = useLearner((s) => s.studyMinutes);
 
@@ -40,9 +41,10 @@ export default function ReportScreen() {
         activity,
         answered,
         placement,
+        finalExam,
         today: new Date().toISOString().slice(0, 10),
       }),
-    [completedDays, quizScores, weekTests, passMark, cards, activity, answered, placement],
+    [completedDays, quizScores, weekTests, passMark, cards, activity, answered, placement, finalExam],
   );
 
   // undefined = a neutral ("off") pill
@@ -58,14 +60,15 @@ export default function ReportScreen() {
     'not taken': undefined,
   };
   const empty = r.daysDone === 0 && r.weekTestsTaken === 0 && r.skills.length === 0 && !r.placement;
-  const finished = r.daysDone >= r.totalDays;
+  const finished = r.finished;
+  const allDays = r.daysDone >= r.totalDays;
 
   return (
     <Screen title="Report" testID="report">
       <Card accent>
         <Caption>{learner?.name ?? 'Learner'} · progress report</Caption>
         <AppText size={22} weight="800" testID="report-title">
-          {finished ? 'Final report' : 'Where you are'}
+          {finished ? 'Final report' : allDays ? 'All days done' : 'Where you are'}
         </AppText>
         <AppText size={14} muted>
           Everything here is counted from what you answered in this app. It is a mirror of your practice, not a certificate: an
@@ -201,6 +204,48 @@ export default function ReportScreen() {
         </AppText>
       </Card>
 
+      <SectionTitle icon="school-outline">Final exam</SectionTitle>
+      <Card testID="report-final">
+        {r.finalExam ? (
+          <>
+            <Row style={{ justifyContent: 'space-between' }} gap={8}>
+              <AppText weight="700">Best attempt</AppText>
+              <Pill
+                label={`${pct(r.finalExam.score)} · ${r.finalExam.passed ? 'passed' : 'below pass mark'}`}
+                color={r.finalExam.passed ? c.good : c.bad}
+              />
+            </Row>
+            <AppText size={14} muted>
+              {r.finalExam.correct} of {r.finalExam.total} questions right on {new Date(r.finalExam.at).toLocaleDateString()} ·{' '}
+              {r.finalExam.attempts} {r.finalExam.attempts === 1 ? 'attempt' : 'attempts'}.
+              {r.finalExam.weakWeeks.length
+                ? ` Worth another look: ${r.finalExam.weakWeeks.map((w) => `week ${w}`).join(', ')}.`
+                : ' Every week at or above the pass mark.'}
+            </AppText>
+            <Button
+              kind="secondary"
+              icon="school-outline"
+              label="Open the final exam"
+              onPress={() => router.push('/final-exam')}
+            />
+          </>
+        ) : (
+          <>
+            <AppText weight="700">Not taken</AppText>
+            <AppText size={14} muted>
+              A cumulative test over all 13 weeks, four questions from each. It opens after the week 13 test; passing it turns
+              this page into your final report.
+            </AppText>
+            <Button
+              kind="secondary"
+              icon="school-outline"
+              label="Open the final exam"
+              onPress={() => router.push('/final-exam')}
+            />
+          </>
+        )}
+      </Card>
+
       <SectionTitle icon="compass-outline">Placement check</SectionTitle>
       <Card testID="report-placement">
         {r.placement ? (
@@ -231,9 +276,12 @@ export default function ReportScreen() {
         )}
       </Card>
 
-      {finished && (
+      {allDays && (
         <Card accent>
-          <AppText weight="800">🎓 You have finished the 90 days</AppText>
+          <AppText weight="800">
+            {finished ? '🎓 You have finished the 90 days and passed the final exam' : '🎓 You have finished the 90 days'}
+          </AppText>
+          {!finished && <AppText size={14}>Take the final exam to complete your final report.</AppText>}
           <AppText size={14}>
             Keep your daily reviews going, revisit the scenarios and placards, and use Arabic in real conversations. The
             dictionary and the sentence explorer stay with you.

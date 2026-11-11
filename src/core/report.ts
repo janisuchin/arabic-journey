@@ -3,6 +3,21 @@
 
 import { isMastered, type Card } from './srs';
 
+export interface FinalExamRecord {
+  at: number;
+  score: number;
+  correct: number;
+  total: number;
+  byWeek: Record<number, { correct: number; total: number }>;
+  attempts: number;
+}
+
+export interface FinalExamRow extends FinalExamRecord {
+  passed: boolean;
+  /** weeks below the pass mark in the best attempt, weakest first */
+  weakWeeks: number[];
+}
+
 export interface ReportWeek {
   week: number;
   title: string;
@@ -23,6 +38,7 @@ export interface ReportInput {
   activity: Record<string, number>;
   answered: { correct: number; total: number; bySkill: Record<string, { correct: number; total: number }> };
   placement?: { at: number; week: number; score: number };
+  finalExam?: FinalExamRecord;
   /** today as YYYY-MM-DD (passed in so the engine stays deterministic) */
   today: string;
 }
@@ -61,6 +77,9 @@ export interface Report {
   words: { learned: number; mastered: number };
   study: { minutes: number; activeDays: number; last7Minutes: number; streak: number };
   placement: { at: number; week: number; score: number } | null;
+  finalExam: FinalExamRow | null;
+  /** every day done and the final exam passed */
+  finished: boolean;
 }
 
 /** Fewer than this many answers in a skill: the accuracy is shown but not judged. */
@@ -74,6 +93,7 @@ export const SKILL_LABELS: Record<string, string> = {
   pronunciation: 'Pronunciation',
   scenarios: 'Scenarios',
   time: 'Telling the time',
+  'final exam': 'Final exam',
 };
 
 export const skillLabel = (skill: string) => SKILL_LABELS[skill] ?? skill.replace(/^./, (ch) => ch.toUpperCase());
@@ -141,6 +161,17 @@ export function buildReport(p: ReportInput): Report {
     d = dayBefore(d);
   }
   const entries = Object.values(p.activity);
+  const finalExam: FinalExamRow | null = p.finalExam
+    ? {
+        ...p.finalExam,
+        passed: p.finalExam.score >= p.passMark,
+        weakWeeks: Object.entries(p.finalExam.byWeek)
+          .map(([week, s]) => ({ week: Number(week), acc: s.total ? s.correct / s.total : 0 }))
+          .filter((x) => x.acc < p.passMark)
+          .sort((a, b) => a.acc - b.acc || a.week - b.week)
+          .map((x) => x.week),
+      }
+    : null;
   return {
     daysDone: done.size,
     totalDays: p.totalDays,
@@ -157,5 +188,7 @@ export function buildReport(p: ReportInput): Report {
       streak: studyStreak(p.activity, p.today),
     },
     placement: p.placement ?? null,
+    finalExam,
+    finished: done.size >= p.totalDays && !!finalExam?.passed,
   };
 }

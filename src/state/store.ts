@@ -98,6 +98,18 @@ export interface LearnerData {
   studyMinutes: 15 | 30 | 45;
   /** optional placement check: may test into weeks up to `week` */
   placement?: { at: number; week: number; score: number };
+  /** final exam: best attempt, with a per-week breakdown for the Report */
+  finalExam?: FinalExamRecord;
+}
+
+export interface FinalExamRecord {
+  at: number;
+  /** 0..1 */
+  score: number;
+  correct: number;
+  total: number;
+  byWeek: Record<number, { correct: number; total: number }>;
+  attempts: number;
 }
 
 const freshData = (): LearnerData => ({
@@ -129,6 +141,8 @@ interface LearnerActions {
   resetProgress: () => void;
   completeOnboarding: (goal: string, minutes: 15 | 30 | 45) => void;
   setPlacement: (week: number, score: number) => void;
+  /** keeps the best attempt; always counts the attempt */
+  setFinalExam: (r: Omit<FinalExamRecord, 'at' | 'attempts'>) => void;
 }
 
 export type LearnerState = LearnerData & LearnerActions;
@@ -196,6 +210,12 @@ export const useLearner = create<LearnerState>()(
         })),
       completeOnboarding: (goal, minutes) => set({ onboarded: true, goal, studyMinutes: minutes }),
       setPlacement: (week, score) => set({ placement: { at: Date.now(), week, score } }),
+      setFinalExam: (r) =>
+        set((s) => {
+          const attempts = (s.finalExam?.attempts ?? 0) + 1;
+          if (s.finalExam && s.finalExam.score > r.score) return { finalExam: { ...s.finalExam, attempts } };
+          return { finalExam: { ...r, at: Date.now(), attempts } };
+        }),
     }),
     {
       name: `${STORAGE_PREFIX}/state/none`,

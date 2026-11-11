@@ -1,6 +1,7 @@
 import { expect, test } from '@playwright/test';
 import course from '../content/course/course.json';
 import day1 from '../content/days/day01.json';
+import { buildFinalExam } from '../src/core/finalExam';
 import { buildPlacement } from '../src/core/placement';
 import { answerQuiz, newLearner, skipOnboarding } from './helpers';
 
@@ -318,4 +319,56 @@ test('report: empty at first, then shows days, quiz accuracy and the week-1 test
   await expect(page.getByTestId('report-week-1')).toContainText('100% · passed');
   await expect(page.getByTestId('report-week-2')).toContainText('not taken');
   await expect(page.getByTestId('report')).toContainText('1 of 13');
+});
+
+test('final exam: locked until week 13 is passed, open with unlock-all, result feeds the Final report', async ({ page }) => {
+  await newLearner(page);
+  await page.goto('/final-exam');
+  await expect(page.getByTestId('final-locked')).toContainText('Pass the week 13 test first');
+  await page.goto('/path');
+  await expect(page.getByTestId('path-final-exam')).toContainText('🔒 Final exam');
+  await page.goto('/report');
+  await expect(page.getByTestId('report-final')).toContainText('Not taken');
+  await page.goto('/settings');
+  await page.getByTestId('unlock-all').click();
+  await page.goto('/path');
+  await expect(page.getByTestId('path-final-exam')).toContainText('🎓 Final exam');
+  await page.getByTestId('path-final-exam').click();
+  await expect(page.getByTestId('final-exam')).toBeVisible();
+  const exam = buildFinalExam(course.weeks);
+  await expect(page.getByTestId('final-exam')).toContainText(`${exam.length} questions`);
+  await page.getByTestId('final-start').click();
+  await expect(page.getByTestId('final-pos')).toContainText(`QUESTION 1 OF ${exam.length} · WEEK 1`);
+  // answer the first question wrong (week 1), the rest right
+  const q0 = exam[0].q;
+  const options = page.locator('[data-testid^="option-"]');
+  const n = await options.count();
+  for (let k = 0; k < n; k++) {
+    const text = (await options.nth(k).innerText()).trim().split('\n')[0].trim();
+    if (text !== q0.options[q0.answer]) {
+      await options.nth(k).click();
+      break;
+    }
+  }
+  await expect(page.getByTestId('quiz-feedback')).toContainText('Not this one');
+  await page.getByTestId('quiz-next').click();
+  await answerQuiz(
+    page,
+    exam.slice(1).map((x) => x.q),
+  );
+  await expect(page.getByTestId('final-exam-result')).toBeVisible();
+  await expect(page.getByTestId('final-score')).toContainText(`${exam.length - 1} / ${exam.length} correct`);
+  await expect(page.getByTestId('final-by-week')).toContainText('Week 1');
+  await expect(page.getByTestId('final-by-week')).toContainText('Worth another look: week 1');
+  await page.getByTestId('final-report').click();
+  await expect(page.getByTestId('report-final')).toContainText('passed');
+  await expect(page.getByTestId('report-final')).toContainText('1 attempt');
+  await expect(page.getByTestId('report-final')).toContainText('week 1');
+  await expect(page.getByTestId('report-skills')).toContainText('Final exam');
+  // not all 90 days are done, so it is not yet the final report
+  await expect(page.getByTestId('report-title')).toContainText('Where you are');
+  // the best attempt is kept on the exam's start page
+  await page.goto('/final-exam');
+  await expect(page.getByTestId('final-best')).toContainText('passed');
+  await expect(page.getByTestId('final-best')).toContainText('1 attempt');
 });

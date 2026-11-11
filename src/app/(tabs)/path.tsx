@@ -4,12 +4,14 @@ import { Pressable, View } from 'react-native';
 import { GlossLine } from '@/components/tap';
 import { AppText, Caption, Card, Pill, ProgressBar, Row, Screen } from '@/components/ui';
 import { course, dayByNumber } from '@/content';
-import { isDayUnlocked, isWeekTestUnlocked } from '@/core/progress';
+import { isDayUnlocked, isFinalExamUnlocked, isWeekTestUnlocked } from '@/core/progress';
+import { useLearner } from '@/state/store';
 import { usePalette, useProgressInput } from '@/state/hooks';
 
 export default function Path() {
   const c = usePalette();
   const progress = useProgressInput();
+  const finalExam = useLearner((s) => s.finalExam);
   if (!course)
     return (
       <Screen back={false}>
@@ -95,6 +97,30 @@ export default function Path() {
           </Card>
         );
       })}
+      {(() => {
+        const lastTestWeek = course.weeks.reduce((m, w) => (w.test.length > 0 ? Math.max(m, w.week) : m), 0);
+        const open = isFinalExamUnlocked(lastTestWeek, progress);
+        return (
+          <Card onPress={open ? () => router.push('/final-exam') : undefined} label="Final exam" testID="path-final-exam">
+            <Row style={{ justifyContent: 'space-between' }} gap={8}>
+              <View style={{ flex: 1 }}>
+                <AppText weight="800">{open ? '🎓 Final exam' : '🔒 Final exam'}</AppText>
+                <AppText muted>
+                  {open
+                    ? 'A cumulative test over all 13 weeks. Your result feeds the final report.'
+                    : `Opens after the week ${lastTestWeek} test. A cumulative test over all 13 weeks.`}
+                </AppText>
+              </View>
+              {finalExam && (
+                <Pill
+                  label={`${Math.round(finalExam.score * 100)}%`}
+                  color={finalExam.score >= progress.passMark ? c.good : c.bad}
+                />
+              )}
+            </Row>
+          </Card>
+        );
+      })()}
       <Card onPress={() => router.push('/culture')} label="Explore the Arab world" testID="path-explore">
         <AppText weight="800">🧭 Explore the Arab world</AppText>
         <AppText muted>Culture chapters with photos: hospitality, Ramadan, markets, food, places and more.</AppText>

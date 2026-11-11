@@ -7,7 +7,7 @@ import { TOTAL_DAYS } from '@/base/config';
 import { GlossLine, TapText } from '@/components/tap';
 import { AppText, Button, Caption, Card, Icon, ProgressBar, Row, Screen, type IconName } from '@/components/ui';
 import { course, dayByNumber, letters, weekByNumber } from '@/content';
-import { isWeekTestUnlocked, nextDay } from '@/core/progress';
+import { isFinalExamUnlocked, isWeekTestUnlocked, nextDay } from '@/core/progress';
 import { isDue } from '@/core/srs';
 import { tts } from '@/services/tts';
 import { useCurrentLearner, usePalette, useProgressInput, useSettings } from '@/state/hooks';
@@ -62,6 +62,12 @@ export default function Today() {
       (progress.weekTests[w.week] ?? 0) < settings.passMark &&
       w.test.length > 0,
   );
+  const lastTestWeek = (course?.weeks ?? []).reduce((m, w) => (w.test.length > 0 ? Math.max(m, w.week) : m), 0);
+  const finalExam = useLearner((s) => s.finalExam);
+  const finalPending =
+    !pendingWeek &&
+    isFinalExamUnlocked(lastTestWeek, { ...progress, unlockAll: false }) &&
+    (finalExam?.score ?? 0) < settings.passMark;
   const lastDay = lastPage ? dayByNumber.get(lastPage.day) : undefined;
 
   return (
@@ -103,6 +109,13 @@ export default function Today() {
           testID="week-test-card">
           <Caption>Week {pendingWeek.week} test</Caption>
           <AppText weight="800">Pass with 80% to open Week {pendingWeek.week + 1}.</AppText>
+        </Card>
+      )}
+
+      {finalPending && (
+        <Card onPress={() => router.push('/final-exam')} label="Final exam" testID="final-exam-card">
+          <Caption>Final exam</Caption>
+          <AppText weight="800">All 13 weeks are behind you. Take the cumulative final exam.</AppText>
         </Card>
       )}
 

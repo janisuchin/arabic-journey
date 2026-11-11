@@ -122,6 +122,7 @@ export default function Me() {
       ))}
       <SectionTitle icon="menu-outline">More</SectionTitle>
       <MenuRow icon="document-text-outline" label="Full progress report" href="/report" testID="me-report" />
+      <MenuRow icon="school-outline" label="Final exam" href="/final-exam" testID="me-final-exam" />
       <MenuRow icon="settings-outline" label="Settings" href="/settings" />
       <MenuRow icon="shield-checkmark-outline" label="Privacy" href="/settings#privacy" />
       <MenuRow icon="information-circle-outline" label="About" href="/about" />
