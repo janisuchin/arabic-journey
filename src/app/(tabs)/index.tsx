@@ -23,6 +23,7 @@ function greeting() {
 const LABS: { title: string; icon: IconName; href: string }[] = [
   { title: 'Letters', icon: 'text-outline', href: '/letters' },
   { title: 'Pronunciation', icon: 'mic-outline', href: '/pronunciation' },
+  { title: 'Speaking', icon: 'chatbox-ellipses-outline', href: '/speaking' },
   { title: 'Numbers', icon: 'calculator-outline', href: '/numbers' },
   { title: 'Time', icon: 'time-outline', href: '/time' },
   { title: 'Explore', icon: 'earth-outline', href: '/culture' },

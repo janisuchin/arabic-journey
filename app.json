@@ -31,7 +31,13 @@
       "expo-router",
       ["expo-localization", { "supportsRTL": true, "forcesRTL": true }],
       ["expo-splash-screen", { "backgroundColor": "#0B7A5C", "image": "./assets/images/splash-icon.png", "imageWidth": 76 }],
-      "expo-font"
+      "expo-font",
+      [
+        "expo-audio",
+        {
+          "microphonePermission": "Arabic Journey uses the microphone only when you choose to record yourself in speaking practice. Recordings stay on your device."
+        }
+      ]
     ],
     "experiments": { "typedRoutes": true, "reactCompiler": true },
     "extra": { "supportsRTL": true, "forcesRTL": true }

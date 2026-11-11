@@ -1,6 +1,8 @@
 import { expect, test } from '@playwright/test';
+import course from '../content/course/course.json';
 import day1 from '../content/days/day01.json';
-import { answerQuiz, newLearner } from './helpers';
+import { buildPlacement } from '../src/core/placement';
+import { answerQuiz, newLearner, skipOnboarding } from './helpers';
 
 test('onboarding creates a learner and the whole document is right-to-left', async ({ page }) => {
   await newLearner(page);
@@ -90,6 +92,7 @@ test('learners have separate progress and can switch', async ({ page }) => {
   await page.getByTestId('switch-learner').click();
   await page.getByTestId('learner-name').fill('Omar');
   await page.getByTestId('add-learner').click();
+  await skipOnboarding(page);
   await expect(page.getByTestId('greeting')).toContainText('Omar');
   await page.goto('/profiles');
   await page.getByTestId('learner-Sara').click();
@@ -224,4 +227,65 @@ test('explore: culture chapters with photos, tappable words, a reading and a qui
   await expect(page.getByTestId('culture-quiz').getByTestId('quiz')).toBeVisible();
   await page.goto('/credits');
   await expect(page.locator('[data-testid^="credit-"]')).toHaveCount(34);
+});
+
+test('onboarding: welcome, goal and time, audio check, then the placement check suggests a start', async ({ page }) => {
+  await page.goto('/');
+  await page.getByTestId('learner-name').fill('Layla');
+  await page.getByTestId('add-learner').click();
+  await expect(page.getByTestId('onboarding')).toBeVisible();
+  await expect(page.getByTestId('onboarding')).toContainText('Welcome, Layla!');
+  await expect(page.getByTestId('onboarding')).toContainText('What to expect, honestly');
+  await page.getByTestId('onb-next-0').click();
+  await page.getByTestId('onb-min-30').click();
+  await page.getByTestId('onb-next-1').click();
+  await expect(page.getByTestId('onb-audio')).toBeVisible();
+  await page.getByTestId('onb-placement').click();
+  // placement: "I don't know" for the whole first stage → start from Day 1
+  await expect(page.getByTestId('placement-pos')).toContainText('STAGE 1 OF 6');
+  for (let i = 0; i < 4; i++) await page.getByTestId('placement-skip').click();
+  await expect(page.getByTestId('placement-advice')).toContainText('starting from Day 1');
+  await page.getByTestId('placement-day1').click();
+  await expect(page.getByTestId('greeting')).toContainText('Layla');
+  // onboarding is done for this learner: reloading goes straight to Today
+  await page.reload();
+  await expect(page.getByTestId('greeting')).toContainText('Layla');
+});
+
+test('placement: passing stages lets the learner test into week 1 and open week 2 without doing the days', async ({ page }) => {
+  const stages = buildPlacement(course.weeks);
+  await newLearner(page);
+  await page.goto('/day/8');
+  await expect(page.getByTestId('locked')).toBeVisible();
+  await page.goto('/placement');
+  await answerQuiz(page, stages[0].questions); // weeks 1–2 right
+  for (let i = 0; i < 4; i++) await page.getByTestId('placement-skip').click(); // weeks 3–4 not known
+  await expect(page.getByTestId('placement-advice')).toContainText('up to week 2');
+  await expect(page.getByTestId('placement-result')).toContainText('Weeks 1–2: 4 of 4');
+  await page.getByTestId('placement-week1').click();
+  await expect(page.getByTestId('quiz')).toBeVisible();
+  await answerQuiz(page, course.weeks[0].test);
+  await expect(page.getByTestId('quiz-score')).toContainText('100%');
+  await page.goto('/day/8');
+  await expect(page.getByTestId('locked')).toHaveCount(0);
+  await expect(page.getByTestId('day-title')).toBeVisible();
+});
+
+test('speaking lab: model, consent before recognition, record-and-compare and self-check', async ({ page }) => {
+  await newLearner(page);
+  await page.getByTestId('tab-practice').click();
+  await page.getByTestId('speaking-lab-entry').click();
+  await expect(page.getByTestId('speaking')).toContainText('never part of your quiz or test scores');
+  // no day finished yet → starter sentences
+  await expect(page.getByTestId('speak-fallback')).toBeVisible();
+  await expect(page.getByTestId('speak-position')).toContainText('Day 1 · 1 of');
+  await expect(page.getByTestId('speak-model')).toBeVisible();
+  await expect(page.getByTestId('speak-rec')).toBeVisible();
+  // Chromium has a recogniser: it stays off until the learner allows it
+  await expect(page.getByTestId('speak-listen')).toHaveCount(0);
+  await page.getByTestId('speak-consent').click();
+  await expect(page.getByTestId('speak-listen')).toBeVisible();
+  await page.getByTestId('speak-self-ok').click();
+  await expect(page.getByTestId('speak-position')).toContainText('2 of');
+  await expect(page.getByTestId('speak-tally')).toContainText('1 said clearly');
 });

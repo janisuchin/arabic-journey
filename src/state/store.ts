@@ -92,6 +92,12 @@ export interface LearnerData {
   recent: string[];
   activity: Record<string, number>;
   answered: { correct: number; total: number; bySkill: Record<string, { correct: number; total: number }> };
+  /** first-run welcome done (learners from before onboarding existed count as done) */
+  onboarded: boolean;
+  goal?: string;
+  studyMinutes: 15 | 30 | 45;
+  /** optional placement check: may test into weeks up to `week` */
+  placement?: { at: number; week: number; score: number };
 }
 
 const freshData = (): LearnerData => ({
@@ -105,6 +111,8 @@ const freshData = (): LearnerData => ({
   recent: [],
   activity: {},
   answered: { correct: 0, total: 0, bySkill: {} },
+  onboarded: false,
+  studyMinutes: 15,
 });
 
 interface LearnerActions {
@@ -119,11 +127,22 @@ interface LearnerActions {
   logAnswer: (skill: string, correct: boolean) => void;
   logActivity: (minutes: number) => void;
   resetProgress: () => void;
+  completeOnboarding: (goal: string, minutes: 15 | 30 | 45) => void;
+  setPlacement: (week: number, score: number) => void;
 }
 
 export type LearnerState = LearnerData & LearnerActions;
 
 const today = () => new Date().toISOString().slice(0, 10);
+
+// While a learner is being swapped in, nothing is written: otherwise the blank state set between two learners would
+// be saved over the previous (or the next) learner's progress.
+let writesPaused = false;
+const learnerStorage = createJSONStorage(() => ({
+  getItem: (k: string) => AsyncStorage.getItem(k),
+  setItem: (k: string, v: string) => (writesPaused ? Promise.resolve() : AsyncStorage.setItem(k, v)),
+  removeItem: (k: string) => AsyncStorage.removeItem(k),
+}));
 
 export const useLearner = create<LearnerState>()(
   persist(
@@ -167,11 +186,20 @@ export const useLearner = create<LearnerState>()(
           };
         }),
       logActivity: (minutes) => set((s) => ({ activity: { ...s.activity, [today()]: (s.activity[today()] ?? 0) + minutes } })),
-      resetProgress: () => set((s) => ({ ...freshData(), settings: s.settings })),
+      resetProgress: () =>
+        set((s) => ({
+          ...freshData(),
+          settings: s.settings,
+          onboarded: s.onboarded,
+          goal: s.goal,
+          studyMinutes: s.studyMinutes,
+        })),
+      completeOnboarding: (goal, minutes) => set({ onboarded: true, goal, studyMinutes: minutes }),
+      setPlacement: (week, score) => set({ placement: { at: Date.now(), week, score } }),
     }),
     {
       name: `${STORAGE_PREFIX}/state/none`,
-      storage: createJSONStorage(() => AsyncStorage),
+      storage: learnerStorage,
       version: 1,
       skipHydration: true,
       partialize: ({ hydrated: _h, ...rest }) =>
@@ -183,7 +211,9 @@ export const useLearner = create<LearnerState>()(
       },
       merge: (persisted, current) => {
         const p = (persisted ?? {}) as Partial<LearnerData>;
-        return { ...current, ...p, settings: { ...DEFAULT_SETTINGS, ...(p.settings ?? {}) } };
+        // a learner saved before onboarding existed has already started: don't send them through the welcome again
+        const onboarded = p.onboarded ?? (persisted ? true : current.onboarded);
+        return { ...current, ...p, onboarded, settings: { ...DEFAULT_SETTINGS, ...(p.settings ?? {}) } };
       },
     },
   ),
@@ -191,12 +221,13 @@ export const useLearner = create<LearnerState>()(
 
 /** Point the learner store at a learner's own key and load it. */
 export async function loadLearner(id: string | null) {
-  useLearner.setState({ ...freshData(), hydrated: false });
-  if (!id) {
-    useLearner.setState({ hydrated: true });
-    return;
+  writesPaused = true;
+  try {
+    useLearner.setState({ ...freshData(), hydrated: false });
+    useLearner.persist.setOptions({ name: `${STORAGE_PREFIX}/state/${id ?? 'none'}` });
+    if (id) await useLearner.persist.rehydrate();
+  } finally {
+    writesPaused = false;
   }
-  useLearner.persist.setOptions({ name: `${STORAGE_PREFIX}/state/${id}` });
-  await useLearner.persist.rehydrate();
   useLearner.setState({ hydrated: true });
 }

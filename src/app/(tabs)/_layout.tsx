@@ -3,7 +3,7 @@ import { Redirect } from 'expo-router';
 import { Tabs } from 'expo-router/js-tabs';
 
 import { usePalette } from '@/state/hooks';
-import { useProfiles } from '@/state/store';
+import { useLearner, useProfiles } from '@/state/store';
 
 type IconName = React.ComponentProps<typeof Ionicons>['name'];
 const TABS: { name: string; title: string; icon: IconName }[] = [
@@ -17,7 +17,9 @@ const TABS: { name: string; title: string; icon: IconName }[] = [
 export default function TabsLayout() {
   const c = usePalette();
   const currentId = useProfiles((s) => s.currentId);
+  const onboarded = useLearner((s) => s.onboarded);
   if (!currentId) return <Redirect href="/profiles" />;
+  if (!onboarded) return <Redirect href="/onboarding" />;
   return (
     <Tabs
       screenOptions={{

@@ -50,6 +50,13 @@ export default function Practice() {
         href="/scenarios"
       />
       <SectionTitle icon="flask-outline">Labs</SectionTitle>
+      <Entry
+        icon="chatbox-ellipses-outline"
+        title="Speaking lab"
+        sub="Say your sentences aloud: listen, speak, record and compare"
+        href="/speaking"
+        testID="speaking-lab-entry"
+      />
       <Entry icon="mic-outline" title="Pronunciation lab" sub="Every sound, with tips and minimal pairs" href="/pronunciation" />
       <Entry
         icon="text-outline"
@@ -83,6 +90,13 @@ export default function Practice() {
         testID="explore-entry"
       />
       <SectionTitle icon="trophy-outline">Quiz centre</SectionTitle>
+      <Entry
+        icon="compass-outline"
+        title="Placement check (optional)"
+        sub="Already know some Arabic? Find where to start, then test into those weeks"
+        href="/placement"
+        testID="placement-entry"
+      />
       {weeks.map((w) => {
         const open = isWeekTestUnlocked(
           w.week,

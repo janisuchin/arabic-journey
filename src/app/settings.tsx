@@ -189,7 +189,7 @@ export default function SettingsScreen() {
           label="Allow speech recognition"
           value={s.speakingConsent}
           onChange={set('speakingConsent')}
-          note="Speech recognition is not used in this version; nothing is recorded or uploaded."
+          note="Speaking lab only, on web browsers that have it: the browser's recogniser (in Chrome and Edge an online service) writes down the words it hears. Off = never used. Recordings for record-and-compare stay on this device and are never uploaded."
         />
       </Section>
       <Section title="Display">

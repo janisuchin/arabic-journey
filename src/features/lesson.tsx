@@ -8,7 +8,7 @@ import * as Speech from 'expo-speech';
 
 import { TTS_LOCALE } from '../base/config';
 import { START, webLang } from '../base/rtl';
-import { seededShuffle, score as scoreOf } from '../core/answer';
+import { asksReading, seededShuffle, score as scoreOf } from '../core/answer';
 import { hasScript, stripHarakat } from '../core/arabic';
 import { grammarById } from '../content';
 import type { DialogueLine, Question, Sentence, Vocab } from '../content/schema';
@@ -394,7 +394,7 @@ export function QuizRunner({
       <RichText text={q.prompt} size={18} />
       {q.ar && (
         <Card>
-          <TapText text={q.ar} size={30} center />
+          <TapText text={q.ar} size={30} center showTranslit={asksReading(q.prompt) ? false : undefined} />
         </Card>
       )}
       {opts.map(({ o, idx }, k) => {
@@ -462,7 +462,7 @@ export function QuizRunner({
 }
 
 /** Arabic inside an answer option: shows the transliteration, but the press reaches the option. */
-function OptionArabic({ text, color }: { text: string; color: string }) {
+export function OptionArabic({ text, color }: { text: string; color: string }) {
   const settings = useSettings();
   return (
     <View>

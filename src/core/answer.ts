@@ -35,6 +35,9 @@ export function seededShuffle<T>(items: T[], seed: number): T[] {
   return a;
 }
 
+/** A question that asks how a word is read: showing its transliteration would give the answer away. */
+export const asksReading = (prompt: string) => /\b(read|pronounc\w*|transliterat\w*|sounds?)\b/i.test(prompt);
+
 export function score(correct: number, total: number) {
   return total === 0 ? 0 : correct / total;
 }

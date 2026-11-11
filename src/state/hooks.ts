@@ -22,10 +22,11 @@ export function useCurrentLearner() {
 export function useProgressInput(): ProgressInput {
   const completed = useLearner((s) => s.completedDays);
   const weekTests = useLearner((s) => s.weekTests);
+  const placementWeek = useLearner((s) => s.placement?.week);
   const { passMark, unlockAll } = useSettings();
   return useMemo(
-    () => ({ validDays, weekOf, completedDays: new Set(completed), weekTests, passMark, unlockAll }),
-    [completed, weekTests, passMark, unlockAll],
+    () => ({ validDays, weekOf, completedDays: new Set(completed), weekTests, passMark, unlockAll, placementWeek }),
+    [completed, weekTests, passMark, unlockAll, placementWeek],
   );
 }
 

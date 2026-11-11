@@ -302,9 +302,10 @@ function PronPage({ d }: { d: Day }) {
           label="Say it yourself"
           onPress={() => tts.speak(examples[0].ar, { rate: settings.slowRate })}
         />
+        <Button kind="ghost" icon="chatbox-ellipses-outline" label="Speaking lab" onPress={() => router.push('/speaking')} />
       </Row>
       <AppText size={12} muted>
-        Say it yourself: listen to the slow model, then repeat it aloud. Recording and comparing is not available in this version.
+        Say it yourself: listen to the slow model, then repeat it aloud. To record yourself and compare, open the Speaking lab.
       </AppText>
     </View>
   );
