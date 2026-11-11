@@ -24,6 +24,7 @@ writeFileSync(
 
 const chapters = list('content/culture', /^[a-z0-9-]+\.json$/);
 const photos = list('assets/culture', /^[a-z0-9-]+\.jpg$/);
+const realLife = list('assets/real-life', /^day\d{2}\.jpg$/);
 writeFileSync(
   join(root, 'src/content/culture.generated.ts'),
   [
@@ -47,7 +48,14 @@ writeFileSync(
     'export const CULTURE_IMAGES: Record<string, number> = {',
     ...photos.map((f) => `  '${f}': require('../../assets/culture/${f}'),`),
     '};',
+    '/** Bundled "In real life" photos (assets/real-life), one per day, keyed by file name. */',
+    'export const REAL_LIFE_IMAGES: Record<string, number> = {',
+    ...realLife.map((f) => `  '${f}': require('../../assets/real-life/${f}'),`),
+    '};',
     '',
   ].join(NL),
 );
-console.log(`content:index: ${files.length} day files, ${chapters.length} culture chapters, ${photos.length} culture photos`);
+console.log(
+  `content:index: ${files.length} day files, ${chapters.length} culture chapters, ${photos.length} culture photos, ` +
+    `${realLife.length} real-life photos`,
+);

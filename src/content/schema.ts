@@ -90,6 +90,24 @@ export type Question = z.infer<typeof Question>;
 
 export const Reading = z.object({ title: latinOnly, ar: arabic, en: latinOnly, segs: z.array(Seg).min(1) });
 
+/** A licensed Wikimedia Commons photo, fetched with scripts/commons_photo.py (culture, assets/culture/) or
+ *  scripts/real_life_photos.py (one per day, assets/real-life/). */
+export const Photo = z.object({
+  file: z.string().regex(/^[a-z0-9-]+\.jpg$/),
+  alt: latinOnly,
+  caption: rich.optional(),
+  credit: z.object({
+    title: z.string(),
+    author: z.string().min(1),
+    license: z.string().min(1),
+    licenseUrl: z.string().optional(),
+    source: z.string().url(),
+    accessed: z.string(),
+    modified: z.string().optional(),
+  }),
+});
+export type Photo = z.infer<typeof Photo>;
+
 export const Day = z
   .object({
     day: z.number().int().min(1).max(90),
@@ -103,7 +121,8 @@ export const Day = z
     summary: rich,
     intro: z.string(),
     objectives: z.array(rich).min(2),
-    realLife: z.object({ emoji: z.string(), title: latinOnly, story: z.string() }),
+    /** The "In real life" card: story + one licensed photo (the day's new words become tappable chips). */
+    realLife: z.object({ emoji: z.string(), title: latinOnly, story: z.string(), photo: Photo }),
     letters: z.array(z.string()),
     newWords: z.array(z.string()).min(4),
     grammar: z.array(z.string()).min(1),
@@ -212,23 +231,6 @@ export const Placard = z.object({
 export type Placard = z.infer<typeof Placard>;
 
 // ------------------------------------------------------------------ culture (Explore the Arab world)
-
-/** A licensed Wikimedia Commons photo, fetched with scripts/commons_photo.py into assets/culture/. */
-export const Photo = z.object({
-  file: z.string().regex(/^[a-z0-9-]+\.jpg$/),
-  alt: latinOnly,
-  caption: rich.optional(),
-  credit: z.object({
-    title: z.string(),
-    author: z.string().min(1),
-    license: z.string().min(1),
-    licenseUrl: z.string().optional(),
-    source: z.string().url(),
-    accessed: z.string(),
-    modified: z.string().optional(),
-  }),
-});
-export type Photo = z.infer<typeof Photo>;
 
 export const CultureSection = z.object({
   title: latinOnly,

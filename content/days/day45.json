@@ -27,7 +27,8 @@
   "realLife": {
     "emoji": "🏪",
     "title": "The corner pharmacy",
-    "story": "The pharmacy near Sami's house is open late, and the pharmacist knows everyone in the street. He explains the tablets and the cough syrup carefully, and Daniel buys tissues and vitamin C as well."
+    "story": "The pharmacy near Sami's house is open late, and the pharmacist knows everyone in the street. He explains the tablets and the cough syrup carefully, and Daniel buys tissues and vitamin C as well.",
+    "photo": {"file": "day45.jpg", "alt": "Rows of white porcelain medicine jars with black labels on the wooden shelves of a pharmacy.", "credit": {"title": "File:Former pharmacy, shelves with medicines.jpg", "author": "Zalasem1", "license": "CC BY 4.0", "source": "https://commons.wikimedia.org/wiki/File:Former_pharmacy,_shelves_with_medicines.jpg", "accessed": "2026-11-11", "modified": "resized and re-encoded", "licenseUrl": "https://creativecommons.org/licenses/by/4.0"}}
   },
   "letters": [],
   "newWords": [

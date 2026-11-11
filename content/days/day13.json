@@ -5,7 +5,7 @@
   "summary": "Say what you don't know, don't understand or don't speak, with لَا before a verb, and ask for help in class.",
   "intro": "To make a present-tense verb negative, put لَا in front of it: أَعْرِفُ (I know) → لَا أَعْرِفُ (I don't know). Nothing else changes. Three phrases will help you every day in class: لَا أَفْهَمُ (I don't understand), مَا مَعْنَى …؟ (what does … mean?) and مَرَّة أُخْرَى، مِنْ فَضْلِكَ (once more, please).",
   "objectives": ["Say 'I don't know' and 'I don't understand'", "Make any present-tense verb negative with لَا", "Ask what a word means with مَا مَعْنَى …؟", "Say which languages you speak, and which you don't"],
-  "realLife": { "emoji": "📝", "title": "A hard question", "story": "In class Mr Karim asks Daniel what a word means, and Daniel has no idea. Instead of staying silent, he learns to say so in Arabic, to ask what a word means and to ask the teacher to say it again." },
+  "realLife": { "emoji": "📝", "title": "A hard question", "story": "In class Mr Karim asks Daniel what a word means, and Daniel has no idea. Instead of staying silent, he learns to say so in Arabic, to ask what a word means and to ask the teacher to say it again.", "photo": {"file": "day13.jpg", "alt": "An empty lecture room with long blackboards covered in half-erased writing and rows of chairs.", "credit": {"title": "File:Blackboards – UNM Astrophysics.JPG", "author": "Anthony J. Bentley", "license": "Public domain", "source": "https://commons.wikimedia.org/wiki/File:Blackboards_%E2%80%93_UNM_Astrophysics.JPG", "accessed": "2026-11-11", "modified": "resized and re-encoded"}} },
   "letters": [],
   "newWords": ["yarifu", "yafhamu", "yatakallamu", "la", "sahl", "sab", "kalima", "sual", "al-arabiyya"],
   "grammar": ["negation-la"],

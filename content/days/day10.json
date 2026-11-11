@@ -5,7 +5,7 @@
   "summary": "Ask and tell the time, with half past, quarter past and quarter to.",
   "intro": "To ask the time, say كَمِ السَّاعَة؟ (literally 'how much is the hour?'). Answer with السَّاعَة and a feminine 'first, second, third' word: السَّاعَة الثَّالِثَة (three o'clock). Add وَالنِّصْف for half past, وَالرُّبْع for quarter past and إِلَّا رُبْعًا for quarter to.",
   "objectives": ["Ask what time it is", "Tell the time on the hour from one to ten o'clock", "Add half past, quarter past and quarter to", "Say when something happens with فِي السَّاعَة …"],
-  "realLife": { "emoji": "⏰", "title": "Late for class", "story": "Daniel's phone battery is dead, so his alarm does not ring, and the bus is slow. He runs into class at quarter past nine. Mr Karim is kind about it, but now Daniel really wants a watch." },
+  "realLife": { "emoji": "⏰", "title": "Late for class", "story": "Daniel's phone battery is dead, so his alarm does not ring, and the bus is slow. He runs into class at quarter past nine. Mr Karim is kind about it, but now Daniel really wants a watch.", "photo": {"file": "day10.jpg", "alt": "The clock tower on the main avenue of the University of Jordan in Amman, with students walking under tall trees.", "credit": {"title": "File:Clock Tower in University of Jordan.jpg", "author": "Malkawi99", "license": "CC BY-SA 4.0", "source": "https://commons.wikimedia.org/wiki/File:Clock_Tower_in_University_of_Jordan.jpg", "accessed": "2026-11-11", "modified": "resized and re-encoded", "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"}} },
   "letters": [],
   "newWords": ["saa", "waqt", "nisf", "rub", "illa", "daqiqa", "sabahan", "masaan", "mutaakhkhir", "al-an"],
   "grammar": ["telling-time"],

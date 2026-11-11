@@ -5,7 +5,7 @@
   "summary": "Introduce yourself, ask someone's name and say 'nice to meet you'.",
   "intro": "Arabic has two words for 'you': أَنْتَ for a man and أَنْتِ for a woman. 'My' and 'your' are endings on the noun: اِسْمِي (my name), اِسْمُكَ (your name). New letters today: ج ح خ. They share one shape and differ only in their dots.",
   "objectives": ["Say your name", "Ask a man or a woman for their name", "Use أَنَا, أَنْتَ and أَنْتِ", "Read and write jīm, ḥāʾ and khāʾ"],
-  "realLife": { "emoji": "🙋", "title": "Round the class", "story": "On the second day the teacher goes round the class and asks every student their name. Daniel meets Layla, a new student from Lebanon. He has to remember to say اِسْمُكِ to her, not اِسْمُكَ." },
+  "realLife": { "emoji": "🙋", "title": "Round the class", "story": "On the second day the teacher goes round the class and asks every student their name. Daniel meets Layla, a new student from Lebanon. He has to remember to say اِسْمُكِ to her, not اِسْمُكَ.", "photo": {"file": "day02.jpg", "alt": "A classroom in Egypt decorated for the first day of school, with rows of small wooden desks and balloons.", "credit": {"title": "File:Classroom to Welcome students First Day of School-2021, Egypt.jpg", "author": "Tarek Shawki Facebook Page", "license": "CC BY-SA 3.0", "source": "https://commons.wikimedia.org/wiki/File:Classroom_to_Welcome_students_First_Day_of_School-2021,_Egypt.jpg", "accessed": "2026-11-11", "modified": "resized and re-encoded", "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"}} },
   "letters": ["jim", "ha", "kha"],
   "newWords": ["ism", "ismi", "ma", "ismuka", "ismuki", "ana", "anta", "anti", "tasharrafna"],
   "grammar": ["pronouns", "possessive"],

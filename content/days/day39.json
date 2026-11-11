@@ -23,7 +23,8 @@
   "realLife": {
     "emoji": "🏡",
     "title": "Summer in the mountains",
-    "story": "In Wednesday's speaking class Mr Karim asks each student to talk about a holiday. Layla describes her summer in Lebanon: a week in Beirut, then a crowded, happy house in her grandmother's mountain village."
+    "story": "In Wednesday's speaking class Mr Karim asks each student to talk about a holiday. Layla describes her summer in Lebanon: a week in Beirut, then a crowded, happy house in her grandmother's mountain village.",
+    "photo": {"file": "day39.jpg", "alt": "Hills near Ajloun in Jordan at dusk, with village lights in the valley and dark clouds above.", "credit": {"title": "File:Sunset View - Ajloun, Jordan.jpg", "author": "Taha Al-Hayali", "license": "CC BY-SA 4.0", "source": "https://commons.wikimedia.org/wiki/File:Sunset_View_-_Ajloun,_Jordan.jpg", "accessed": "2026-11-11", "modified": "resized and re-encoded", "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"}}
   },
   "letters": [],
   "newWords": [

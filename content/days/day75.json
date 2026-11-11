@@ -27,7 +27,8 @@
   "realLife": {
     "emoji": "📞",
     "title": "A phone call after class",
-    "story": "Layla wakes up with a bad cold and stays at home. In the evening she phones Daniel: what did Mr Karim say, what is the homework, and is there really a test on Sunday? Daniel has his notebook open and reports everything, almost word for word."
+    "story": "Layla wakes up with a bad cold and stays at home. In the evening she phones Daniel: what did Mr Karim say, what is the homework, and is there really a test on Sunday? Daniel has his notebook open and reports everything, almost word for word.",
+    "photo": {"file": "day75.jpg", "alt": "A hand holding a black smartphone, with a plant in the background.", "credit": {"title": "File:Black smartphone in hand (Unsplash).jpg", "author": "Dennis Cortés cortes", "license": "CC0", "source": "https://commons.wikimedia.org/wiki/File:Black_smartphone_in_hand_(Unsplash).jpg", "accessed": "2026-11-11", "modified": "resized and re-encoded", "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"}}
   },
   "letters": [],
   "newWords": [

@@ -27,7 +27,8 @@
   "realLife": {
     "emoji": "📵",
     "title": "Lost on the way",
-    "story": "Daniel is meeting Layla at a café in Zamalek, an island in the Nile. Then his phone battery dies and he takes a wrong turn. He stops a friendly policeman and has to understand every word of the answer: straight ahead, right, the second street on the left, the traffic lights."
+    "story": "Daniel is meeting Layla at a café in Zamalek, an island in the Nile. Then his phone battery dies and he takes a wrong turn. He stops a friendly policeman and has to understand every word of the answer: straight ahead, right, the second street on the left, the traffic lights.",
+    "photo": {"file": "day23.jpg", "alt": "An enamel street sign in Cairo reading Kasr El Nil St. in Arabic and English, with the number 6 above it.", "credit": {"title": "File:Street sign in Cairo 05.jpg", "author": "Marsupium", "license": "CC BY 4.0", "source": "https://commons.wikimedia.org/wiki/File:Street_sign_in_Cairo_05.jpg", "accessed": "2026-11-11", "modified": "resized and re-encoded", "licenseUrl": "https://creativecommons.org/licenses/by/4.0"}}
   },
   "letters": [],
   "newWords": [

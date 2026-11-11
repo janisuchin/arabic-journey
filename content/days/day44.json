@@ -27,7 +27,8 @@
   "realLife": {
     "emoji": "🏥",
     "title": "Dr Fatima's clinic",
-    "story": "The next morning Sami takes Daniel to his mother's clinic. Dr Fatima takes his temperature, listens to his chest and looks at his throat. It is only a cold, but she writes a prescription and tells him to stay at home for a few days."
+    "story": "The next morning Sami takes Daniel to his mother's clinic. Dr Fatima takes his temperature, listens to his chest and looks at his throat. It is only a cold, but she writes a prescription and tells him to stay at home for a few days.",
+    "photo": {"file": "day44.jpg", "alt": "A doctor in a white coat holds the chest piece of a stethoscope towards the camera.", "credit": {"title": "File:Close-up of a stethoscope chest piece in a womans hand with a blurry background.jpg", "author": "Shixart1985", "license": "CC BY 2.0", "source": "https://commons.wikimedia.org/wiki/File:Close-up_of_a_stethoscope_chest_piece_in_a_womans_hand_with_a_blurry_background.jpg", "accessed": "2026-11-11", "modified": "resized and re-encoded", "licenseUrl": "https://creativecommons.org/licenses/by/2.0"}}
   },
   "letters": [],
   "newWords": [

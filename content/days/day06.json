@@ -5,7 +5,7 @@
   "summary": "Name everyday things, say 'the' with الـ and describe things as new or big.",
   "intro": "Arabic has no word for 'a': كِتَاب is 'a book'. 'The' is الـ joined to the front: الْكِتَاب. Adjectives come after the noun and add ة for a feminine noun: سَيَّارَة جَدِيدَة (a new car). New letters: ف ق ك ل.",
   "objectives": ["Name eight everyday things", "Say 'the' with الـ, with sun and moon letters", "Describe a noun with جَدِيد and كَبِير", "Read and write fāʾ, qāf, kāf and lām"],
-  "realLife": { "emoji": "🖊️", "title": "A forgotten bag", "story": "Daniel arrives with a brand-new Arabic textbook, but he has left his bag, and his pen, at home. Layla lends him a pen, and Sami spots a new car outside the school." },
+  "realLife": { "emoji": "🖊️", "title": "A forgotten bag", "story": "Daniel arrives with a brand-new Arabic textbook, but he has left his bag, and his pen, at home. Layla lends him a pen, and Sami spots a new car outside the school.", "photo": {"file": "day06.jpg", "alt": "A red and black school backpack standing on a carpet by a wall.", "credit": {"title": "File:School bag backpack.jpg", "author": "Gamingforfun365", "license": "CC BY-SA 3.0", "source": "https://commons.wikimedia.org/wiki/File:School_bag_backpack.jpg", "accessed": "2026-11-11", "modified": "resized and re-encoded", "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"}} },
   "letters": ["fa", "qaf", "kaf", "lam"],
   "newWords": ["kitab", "qalam", "bab", "bayt", "sayyara", "haqiba", "jadid", "kabir"],
   "grammar": ["article", "adjectives"],

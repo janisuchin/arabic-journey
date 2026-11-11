@@ -27,7 +27,8 @@
   "realLife": {
     "emoji": "🏢",
     "title": "First day as an intern",
-    "story": "Daniel puts on his best shirt and takes the metro to a busy office in the centre of Cairo. Tariq shows him a desk next to the window, the manager has three meetings before lunch, and by one o'clock Daniel has translated his first page. He goes home tired and very proud."
+    "story": "Daniel puts on his best shirt and takes the metro to a busy office in the centre of Cairo. Tariq shows him a desk next to the window, the manager has three meetings before lunch, and by one o'clock Daniel has translated his first page. He goes home tired and very proud.",
+    "photo": {"file": "day64.jpg", "alt": "A modern open-plan office with rows of desks, computer screens and people at work.", "credit": {"title": "File:Une salle de coding de l'école 1337 Khouribga.jpg", "author": "Bertrand SOUBEYRAND", "license": "CC BY 4.0", "source": "https://commons.wikimedia.org/wiki/File:Une_salle_de_coding_de_l%27%C3%A9cole_1337_Khouribga.jpg", "accessed": "2026-11-11", "modified": "resized and re-encoded", "licenseUrl": "https://creativecommons.org/licenses/by/4.0"}}
   },
   "letters": [],
   "newWords": [

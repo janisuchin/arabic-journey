@@ -27,7 +27,8 @@
   "realLife": {
     "emoji": "🚗",
     "title": "Too many cars downtown",
-    "story": "At five in the afternoon, downtown Cairo is a sea of taxis, buses and private cars, and people on foot squeeze between them on narrow pavements. Some cities in the world have closed their old centres to cars, and in Cairo's cafés people argue about whether it could work there too. Today Mr Karim turns the argument into a class debate: Layla and Daniel speak for the idea, Sami speaks against it, and there is only one rule: be polite."
+    "story": "At five in the afternoon, downtown Cairo is a sea of taxis, buses and private cars, and people on foot squeeze between them on narrow pavements. Some cities in the world have closed their old centres to cars, and in Cairo's cafés people argue about whether it could work there too. Today Mr Karim turns the argument into a class debate: Layla and Daniel speak for the idea, Sami speaks against it, and there is only one rule: be polite.",
+    "photo": {"file": "day83.jpg", "alt": "Cairo traffic seen through a bus window, with the Citadel and the Muhammad Ali Mosque in the distance.", "credit": {"title": "File:Cairo traffic near Muhammad Ali mosque in Cairo Egypt.jpg", "author": "Tim Adams", "license": "CC BY 3.0", "source": "https://commons.wikimedia.org/wiki/File:Cairo_traffic_near_Muhammad_Ali_mosque_in_Cairo_Egypt.jpg", "accessed": "2026-11-11", "modified": "resized and re-encoded", "licenseUrl": "https://creativecommons.org/licenses/by/3.0"}}
   },
   "letters": [],
   "newWords": [

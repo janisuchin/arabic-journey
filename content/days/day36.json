@@ -23,7 +23,8 @@
   "realLife": {
     "emoji": "🚆",
     "title": "A day by the sea",
-    "story": "On Saturday Daniel and Sami took the early train to Alexandria and spent the whole day by the sea. On Sunday morning Mr Karim asks the class what everyone did yesterday, and Daniel has a lot to tell."
+    "story": "On Saturday Daniel and Sami took the early train to Alexandria and spent the whole day by the sea. On Sunday morning Mr Karim asks the class what everyone did yesterday, and Daniel has a lot to tell.",
+    "photo": {"file": "day36.jpg", "alt": "The seaside promenade of Alexandria with the Mediterranean on one side and a long stone wall.", "credit": {"title": "File:Egypt, Alexandria, The Corniche of Alexandria, Mediterranean Sea.jpg", "author": "Vyacheslav Argenberg", "license": "CC BY 4.0", "source": "https://commons.wikimedia.org/wiki/File:Egypt,_Alexandria,_The_Corniche_of_Alexandria,_Mediterranean_Sea.jpg", "accessed": "2026-11-11", "modified": "resized and re-encoded", "licenseUrl": "https://creativecommons.org/licenses/by/4.0"}}
   },
   "letters": [],
   "newWords": [

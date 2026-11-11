@@ -27,7 +27,8 @@
   "realLife": {
     "emoji": "📱",
     "title": "A video call from Amman",
-    "story": "On Friday evening Sami is at Daniel's new flat when his friend Yusuf calls from Amman. Yusuf hasn't heard from them for a week and wants to know what they did last week, day by day."
+    "story": "On Friday evening Sami is at Daniel's new flat when his friend Yusuf calls from Amman. Yusuf hasn't heard from them for a week and wants to know what they did last week, day by day.",
+    "photo": {"file": "day38.jpg", "alt": "The Amman skyline at sunset: hills covered in pale houses, lit towers and a pink sky.", "credit": {"title": "File:Amman Skyline at Sunset - Jordan.jpg", "author": "Ibrahim nabeel salah", "license": "CC BY 4.0", "source": "https://commons.wikimedia.org/wiki/File:Amman_Skyline_at_Sunset_-_Jordan.jpg", "accessed": "2026-11-11", "modified": "resized and re-encoded", "licenseUrl": "https://creativecommons.org/licenses/by/4.0"}}
   },
   "letters": [],
   "newWords": [

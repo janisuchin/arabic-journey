@@ -55,6 +55,16 @@ test('lesson flow: page 2 is Pronunciation, quiz passes, progress persists', asy
   await page.getByTestId('start-lesson').click();
   await expect(page.getByTestId('page-caption')).toContainText('Start · 1 / 10');
   await expect(page.getByTestId('counts-line')).toContainText('80%');
+  // "In real life": a licensed photo with a © credit, the story, and the day's words as tappable chips.
+  const real = page.getByTestId('real-life');
+  await expect(real).toBeVisible();
+  const photo = real.locator('img').first();
+  await expect.poll(() => photo.evaluate((i: HTMLImageElement) => i.naturalWidth)).toBeGreaterThan(100);
+  await real.getByTestId('photo-credit').click();
+  await expect(real.getByText(/Wikimedia Commons/)).toBeVisible();
+  await real.getByTestId('real-life-chip-marhaban').click();
+  await expect(page.getByTestId('word-box-meaning')).toContainText(/hello|welcome/i);
+  await page.getByTestId('word-box-close').click();
   await page.getByTestId('next-page').click();
   await expect(page.getByTestId('page-caption')).toContainText('Pronunciation · 2 / 10');
   for (let i = 0; i < 7; i++) await page.getByTestId('next-page').click();
@@ -230,7 +240,7 @@ test('explore: culture chapters with photos, tappable words, a reading and a qui
   await expect(page.getByTestId('culture-reading')).toBeVisible();
   await expect(page.getByTestId('culture-quiz').getByTestId('quiz')).toBeVisible();
   await page.goto('/credits');
-  await expect(page.locator('[data-testid^="credit-"]')).toHaveCount(34);
+  await expect(page.locator('[data-testid^="credit-"]')).toHaveCount(124); // 90 real-life + 34 culture
 });
 
 test('onboarding: welcome, goal and time, audio check, then the placement check suggests a start', async ({ page }) => {

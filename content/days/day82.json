@@ -27,7 +27,8 @@
   "realLife": {
     "emoji": "🎓",
     "title": "The scholarship letter",
-    "story": "Layla has found the programme of her dreams: a master's in translation at Cairo University, with scholarships for the best applicants. The application must arrive by Thursday, and it has to be a real formal letter, not a friendly email. After class she shows her first draft to Mr Karim, and Daniel and Sami lean over her shoulder to read it too."
+    "story": "Layla has found the programme of her dreams: a master's in translation at Cairo University, with scholarships for the best applicants. The application must arrive by Thursday, and it has to be a real formal letter, not a friendly email. After class she shows her first draft to Mr Karim, and Daniel and Sami lean over her shoulder to read it too.",
+    "photo": {"file": "day82.jpg", "alt": "The modern stone entrance of the American University in Cairo campus, with its AUC sign.", "credit": {"title": "File:American University in Cairo (AUC) 2026 (1).jpg", "author": "Ibrahim.ID", "license": "CC BY 4.0", "source": "https://commons.wikimedia.org/wiki/File:American_University_in_Cairo_(AUC)_2026_(1).jpg", "accessed": "2026-11-11", "modified": "resized and re-encoded", "licenseUrl": "https://creativecommons.org/licenses/by/4.0"}}
   },
   "letters": [],
   "newWords": [

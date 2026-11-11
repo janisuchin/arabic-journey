@@ -34,6 +34,7 @@ import { isDayUnlocked } from '@/core/progress';
 import { ColouredWord, LetterTile } from '@/features/script';
 import { Dialogue, GenderLegend, QuizRunner, SentenceCard, WordCard } from '@/features/lesson';
 import { GrammarBody } from '@/features/grammar';
+import { RealLifeCard } from '@/features/realLife';
 import { translitLine } from '@/lang/ar/tap';
 import { tts } from '@/services/tts';
 import { usePalette, useProgressInput, useSettings, useStudyTimer } from '@/state/hooks';
@@ -185,7 +186,6 @@ function PageBody({ d, id, onPassed }: { d: Day; id: PageId; onPassed: () => voi
 }
 
 function StartPage({ d }: { d: Day }) {
-  const c = usePalette();
   const words = d.newWords.length;
   return (
     <View style={{ gap: 12 }}>
@@ -212,26 +212,7 @@ function StartPage({ d }: { d: Day }) {
         <AppText weight="800">📖 Introduction</AppText>
         <RichText text={d.intro} />
       </Card>
-      <Card testID="real-life">
-        <Row>
-          <View
-            style={{
-              width: 64,
-              height: 64,
-              borderRadius: 14,
-              backgroundColor: c.cardAlt,
-              alignItems: 'center',
-              justifyContent: 'center',
-            }}>
-            <Text style={{ fontSize: 36 }}>{d.realLife.emoji}</Text>
-          </View>
-          <View style={{ flex: 1 }}>
-            <Caption>In real life</Caption>
-            <AppText weight="800">{d.realLife.title}</AppText>
-          </View>
-        </Row>
-        <RichText text={d.realLife.story} />
-      </Card>
+      <RealLifeCard d={d} />
       {d.letters.length > 0 && (
         <Card>
           <AppText weight="800">New letters</AppText>

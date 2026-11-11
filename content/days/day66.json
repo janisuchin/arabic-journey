@@ -27,7 +27,8 @@
   "realLife": {
     "emoji": "☎️",
     "title": "The office phone",
-    "story": "Every phone in the office seems to ring at the same time. Daniel's hands shake the first time he picks one up, but the caller is patient and speaks clearly. Daniel writes the message on a yellow note, puts it on the manager's desk and sends her a text as well, just in case."
+    "story": "Every phone in the office seems to ring at the same time. Daniel's hands shake the first time he picks one up, but the caller is patient and speaks clearly. Daniel writes the message on a yellow note, puts it on the manager's desk and sends her a text as well, just in case.",
+    "photo": {"file": "day66.jpg", "alt": "An old black-and-white photograph of a man at an office desk with a telephone and papers.", "credit": {"title": "File:Office, desk, telephone Fortepan 8191.jpg", "author": "Fortepan (donor unknown)", "license": "Public domain", "source": "https://commons.wikimedia.org/wiki/File:Office,_desk,_telephone_Fortepan_8191.jpg", "accessed": "2026-11-11", "modified": "resized and re-encoded"}}
   },
   "letters": [],
   "newWords": [

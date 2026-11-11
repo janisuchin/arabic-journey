@@ -31,7 +31,8 @@
   "realLife": {
     "emoji": "🩺",
     "title": "The follow-up visit",
-    "story": "Daniel's temperature is normal again. Dr Fatima is pleased, but she wants him to rest for two more days. Her younger son Omar is at the clinic after school, and he has one question: can Daniel play football on Saturday?"
+    "story": "Daniel's temperature is normal again. Dr Fatima is pleased, but she wants him to rest for two more days. Her younger son Omar is at the clinic after school, and he has one question: can Daniel play football on Saturday?",
+    "photo": {"file": "day48.jpg", "alt": "A hospital room with an adjustable bed, a sofa by the window and a reading lamp.", "credit": {"title": "File:Modern hospital room with bed and sofa.jpg", "author": "JesusisGreat7", "license": "CC0", "source": "https://commons.wikimedia.org/wiki/File:Modern_hospital_room_with_bed_and_sofa.jpg", "accessed": "2026-11-11", "modified": "resized and re-encoded", "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"}}
   },
   "letters": [],
   "newWords": [

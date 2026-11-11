@@ -27,7 +27,8 @@
   "realLife": {
     "emoji": "🗞️",
     "title": "The morning papers",
-    "story": "Every morning a man on the corner of Daniel's street sells newspapers from a small wooden kiosk, and the old men in the café next door read them from the first page to the last. Today Mr Karim buys three different papers and asks the class to find one piece of news they can understand."
+    "story": "Every morning a man on the corner of Daniel's street sells newspapers from a small wooden kiosk, and the old men in the café next door read them from the first page to the last. Today Mr Karim buys three different papers and asks the class to find one piece of news they can understand.",
+    "photo": {"file": "day73.jpg", "alt": "A newspaper kiosk with papers and magazines in the window and people reading beside it.", "credit": {"title": "File:Newsstand-iraqi-kurdistan-Arbil.JPG", "author": "Kushared", "license": "CC BY 3.0", "source": "https://commons.wikimedia.org/wiki/File:Newsstand-iraqi-kurdistan-Arbil.JPG", "accessed": "2026-11-11", "modified": "resized and re-encoded", "licenseUrl": "https://creativecommons.org/licenses/by/3.0"}}
   },
   "letters": [],
   "newWords": [

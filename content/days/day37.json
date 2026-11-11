@@ -27,7 +27,8 @@
   "realLife": {
     "emoji": "📸",
     "title": "A hundred photos",
-    "story": "On Monday after class, Layla wants to hear everything about the trip to Alexandria. Over tea near the school, Sami and Daniel tell her about the old castle, the cold sea and the cats of Alexandria, and Daniel shows her his photos."
+    "story": "On Monday after class, Layla wants to hear everything about the trip to Alexandria. Over tea near the school, Sami and Daniel tell her about the old castle, the cold sea and the cats of Alexandria, and Daniel shows her his photos.",
+    "photo": {"file": "day37.jpg", "alt": "The Great Pyramid of Giza with tour buses and visitors on the sand in front of it.", "credit": {"title": "File:Tourist buses and the Great Pyramid of Giza.jpg", "author": "kallerna", "license": "CC BY-SA 3.0", "source": "https://commons.wikimedia.org/wiki/File:Tourist_buses_and_the_Great_Pyramid_of_Giza.jpg", "accessed": "2026-11-11", "modified": "resized and re-encoded", "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"}}
   },
   "letters": [],
   "newWords": [

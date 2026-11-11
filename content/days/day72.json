@@ -27,7 +27,8 @@
   "realLife": {
     "emoji": "🎭",
     "title": "Old songs or a new film?",
-    "story": "On Thursday evening Cairo is full of choices. At the Opera House an orchestra plays the songs of Umm Kulthum, whose concerts once lasted all night, and in the big cinemas downtown a new Egyptian comedy has just come out. Layla, Sami and Daniel have one free evening and three different opinions."
+    "story": "On Thursday evening Cairo is full of choices. At the Opera House an orchestra plays the songs of Umm Kulthum, whose concerts once lasted all night, and in the big cinemas downtown a new Egyptian comedy has just come out. Layla, Sami and Daniel have one free evening and three different opinions.",
+    "photo": {"file": "day72.jpg", "alt": "The Cairo Opera House at evening, with its domes and arches lit up and people in the square.", "credit": {"title": "File:Cairo Opera House at evening 01.jpg", "author": "لا روسا", "license": "CC BY-SA 4.0", "source": "https://commons.wikimedia.org/wiki/File:Cairo_Opera_House_at_evening_01.jpg", "accessed": "2026-11-11", "modified": "resized and re-encoded", "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"}}
   },
   "letters": [],
   "newWords": [

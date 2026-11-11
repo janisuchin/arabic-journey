@@ -27,7 +27,8 @@
   "realLife": {
     "emoji": "🍲",
     "title": "Soup for the patient",
-    "story": "On Wednesday afternoon Layla and Sami knock on Daniel's door with hot lentil soup. Daniel is bored and a little sad after three days at home. His mother in Chicago is worried too, but the visit makes everyone happy, even hungry Sami."
+    "story": "On Wednesday afternoon Layla and Sami knock on Daniel's door with hot lentil soup. Daniel is bored and a little sad after three days at home. His mother in Chicago is worried too, but the visit makes everyone happy, even hungry Sami.",
+    "photo": {"file": "day46.jpg", "alt": "Lentil soup served in a hollowed-out loaf of bread, with carrot and lemon on top, at a Cairo restaurant.", "credit": {"title": "File:Lentil soup served in a bread bowl at Koshary Abou Tarek, Cairo.jpg", "author": "07", "license": "CC BY-SA 4.0", "source": "https://commons.wikimedia.org/wiki/File:Lentil_soup_served_in_a_bread_bowl_at_Koshary_Abou_Tarek,_Cairo.jpg", "accessed": "2026-11-11", "modified": "resized and re-encoded", "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"}}
   },
   "letters": [],
   "newWords": [

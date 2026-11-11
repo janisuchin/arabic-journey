@@ -27,7 +27,8 @@
   "realLife": {
     "emoji": "🛫",
     "title": "An afternoon at Cairo Airport",
-    "story": "Layla says you should always be at the airport two hours early, and she is right: the queue at the check-in desk is long. Daniel has his passport ready, asks for a window seat, and keeps one small bag with him for the short flight to Amman, where Yusuf is waiting."
+    "story": "Layla says you should always be at the airport two hours early, and she is right: the queue at the check-in desk is long. Daniel has his passport ready, asks for a window seat, and keeps one small bag with him for the short flight to Amman, where Yusuf is waiting.",
+    "photo": {"file": "day57.jpg", "alt": "Terminal 3 of Cairo International Airport: a long glass walkway with white steel columns.", "credit": {"title": "File:Cairo Airport Terminal 3.jpg", "author": "Alensha", "license": "CC BY-SA 4.0", "source": "https://commons.wikimedia.org/wiki/File:Cairo_Airport_Terminal_3.jpg", "accessed": "2026-11-11", "modified": "resized and re-encoded", "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"}}
   },
   "letters": [],
   "newWords": [

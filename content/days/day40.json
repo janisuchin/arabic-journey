@@ -27,7 +27,8 @@
   "realLife": {
     "emoji": "🍽️",
     "title": "Dinner at Sami's",
-    "story": "Daniel is invited to dinner at Sami's family home. Before they eat, Sami's mother Fatima asks little Omar whether he did his homework before or after football, and Sami knows the real answer."
+    "story": "Daniel is invited to dinner at Sami's family home. Before they eat, Sami's mother Fatima asks little Omar whether he did his homework before or after football, and Sami knows the real answer.",
+    "photo": {"file": "day40.jpg", "alt": "A pan of mahshi: stuffed courgettes, peppers and vine leaves, cooked with onions.", "credit": {"title": "File:Mahshi.jpg", "author": "Aseel zm", "license": "CC BY-SA 4.0", "source": "https://commons.wikimedia.org/wiki/File:Mahshi.jpg", "accessed": "2026-11-11", "modified": "resized and re-encoded", "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"}}
   },
   "letters": [],
   "newWords": [

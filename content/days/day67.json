@@ -27,7 +27,8 @@
   "realLife": {
     "emoji": "💻",
     "title": "The forgotten attachment",
-    "story": "Everyone in an office has done it once: written 'attached' and forgotten the attachment. Daniel's email to the client is polite and clear, Tariq checks the address, and the manager notices just in time that there is no file. Two minutes after he sends it, a friendly reply arrives."
+    "story": "Everyone in an office has done it once: written 'attached' and forgotten the attachment. Daniel's email to the client is polite and clear, Tariq checks the address, and the manager notices just in time that there is no file. Two minutes after he sends it, a friendly reply arrives.",
+    "photo": {"file": "day67.jpg", "alt": "A desk with a large computer monitor, a white keyboard, a mouse and a green lamp.", "credit": {"title": "File:Workspace @ Nottingham Flat.jpg", "author": "David Wellbeloved", "license": "CC BY 2.0", "source": "https://commons.wikimedia.org/wiki/File:Workspace_@_Nottingham_Flat.jpg", "accessed": "2026-11-11", "modified": "resized and re-encoded", "licenseUrl": "https://creativecommons.org/licenses/by/2.0"}}
   },
   "letters": [],
   "newWords": [

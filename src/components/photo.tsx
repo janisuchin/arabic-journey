@@ -5,7 +5,7 @@ import { Image } from 'expo-image';
 import { useState } from 'react';
 import { Linking, Pressable, Text, View, type StyleProp, type ViewStyle } from 'react-native';
 
-import { CULTURE_IMAGES } from '@/content/culture-images.generated';
+import { CULTURE_IMAGES, REAL_LIFE_IMAGES } from '@/content/culture-images.generated';
 import type { Photo } from '@/content/schema';
 import { usePalette } from '@/state/hooks';
 
@@ -22,7 +22,7 @@ export function PhotoFrame({
 }) {
   const c = usePalette();
   const [open, setOpen] = useState(false);
-  const src = CULTURE_IMAGES[photo.file];
+  const src = CULTURE_IMAGES[photo.file] ?? REAL_LIFE_IMAGES[photo.file];
   if (!src) return null;
   return (
     <View style={{ gap: 4 }}>

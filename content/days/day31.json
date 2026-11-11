@@ -23,7 +23,8 @@
   "realLife": {
     "emoji": "🧊",
     "title": "An empty fridge",
-    "story": "Daniel's flat came with a bed and a desk, but no fridge and no television. Layla, who has lived in Cairo for a year, comes over with a list of shops, and Sami brings an invitation: his family wants Daniel to come for lunch on Friday."
+    "story": "Daniel's flat came with a bed and a desk, but no fridge and no television. Layla, who has lived in Cairo for a year, comes over with a list of shops, and Sami brings an invitation: his family wants Daniel to come for lunch on Friday.",
+    "photo": {"file": "day31.jpg", "alt": "A tabby street cat under a wooden bench in a Cairo park, next to a fence.", "credit": {"title": "File:Street cat- Cairo -Egypt.jpg", "author": "Sara Adel Sayed", "license": "CC BY-SA 4.0", "source": "https://commons.wikimedia.org/wiki/File:Street_cat-_Cairo_-Egypt.jpg", "accessed": "2026-11-11", "modified": "resized and re-encoded", "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"}}
   },
   "letters": [],
   "newWords": [

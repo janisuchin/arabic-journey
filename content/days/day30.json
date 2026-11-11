@@ -27,7 +27,8 @@
   "realLife": {
     "emoji": "💻",
     "title": "A video call to Chicago",
-    "story": "On Sunday evening Daniel calls his sister Emma in Chicago. Emma is learning Arabic at university, so they practise together. Daniel shows her his new bedroom on the phone: the bed, the desk, the wardrobe and, on the wall, a photo of their family."
+    "story": "On Sunday evening Daniel calls his sister Emma in Chicago. Emma is learning Arabic at university, so they practise together. Daniel shows her his new bedroom on the phone: the bed, the desk, the wardrobe and, on the wall, a photo of their family.",
+    "photo": {"file": "day30.jpg", "alt": "A dark room in old Cairo with tall wooden mashrabiya screens and small stained-glass windows.", "credit": {"title": "File:Mashrabiya in the Coptic Museum, located in Cairo, 2025.jpg", "author": "Alessiaazari", "license": "CC BY 4.0", "source": "https://commons.wikimedia.org/wiki/File:Mashrabiya_in_the_Coptic_Museum,_located_in_Cairo,_2025.jpg", "accessed": "2026-11-11", "modified": "resized and re-encoded", "licenseUrl": "https://creativecommons.org/licenses/by/4.0"}}
   },
   "letters": [],
   "newWords": [

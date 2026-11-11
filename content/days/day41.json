@@ -27,7 +27,8 @@
   "realLife": {
     "emoji": "🤒",
     "title": "An empty seat on Thursday",
-    "story": "Daniel missed class on Thursday and didn't answer his phone all weekend. On Sunday morning Mr Karim, Layla and Sami want to know what happened, and Daniel still doesn't look quite well."
+    "story": "Daniel missed class on Thursday and didn't answer his phone all weekend. On Sunday morning Mr Karim, Layla and Sami want to know what happened, and Daniel still doesn't look quite well.",
+    "photo": {"file": "day41.jpg", "alt": "An empty classroom with rows of wooden desks and benches, ceiling fans and large windows.", "credit": {"title": "File:Rows of Desks in Lecture Theatre.jpg", "author": "Paul The Writer", "license": "CC0", "source": "https://commons.wikimedia.org/wiki/File:Rows_of_Desks_in_Lecture_Theatre.jpg", "accessed": "2026-11-11", "modified": "resized and re-encoded", "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"}}
   },
   "letters": [],
   "newWords": [

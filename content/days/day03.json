@@ -5,7 +5,7 @@
   "summary": "Say where you are from and give your nationality, for a man and for a woman.",
   "intro": "Arabic has no word for 'am / is / are' in the present: أَنَا مِصْرِيّ is simply 'I Egyptian'. Nationalities end in ـِيّ for a man and ـِيَّة for a woman. New letters: د ذ ر ز. None of them joins the letter after it.",
   "objectives": ["Ask where someone is from", "Say where you are from", "Give a nationality for a man and for a woman", "Read and write dāl, dhāl, rāʾ and zāy"],
-  "realLife": { "emoji": "☕", "title": "Coffee break", "story": "In the break, Layla, Sami and Daniel drink tea in the school courtyard. The class has students from many countries, and the first question everyone asks is مِنْ أَيْنَ أَنْتَ؟" },
+  "realLife": { "emoji": "☕", "title": "Coffee break", "story": "In the break, Layla, Sami and Daniel drink tea in the school courtyard. The class has students from many countries, and the first question everyone asks is مِنْ أَيْنَ أَنْتَ؟", "photo": {"file": "day03.jpg", "alt": "A small cup of dark coffee on a patterned saucer, with a glass of water behind it.", "credit": {"title": "File:Turkish coffee in a traditional design cup.jpg", "author": "Garrett Ziegler", "license": "CC BY-SA 4.0", "source": "https://commons.wikimedia.org/wiki/File:Turkish_coffee_in_a_traditional_design_cup.jpg", "accessed": "2026-11-11", "modified": "resized and re-encoded", "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"}} },
   "letters": ["dal", "dhal", "ra", "zay"],
   "newWords": ["min", "ayna", "huwa", "hiya", "misr", "misri", "misriyya", "amriki", "balad"],
   "grammar": ["nominal-sentence", "nisba"],

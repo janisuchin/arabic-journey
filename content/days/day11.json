@@ -5,7 +5,7 @@
   "summary": "Describe your morning routine with present-tense verbs: I wake up, I drink, I go.",
   "intro": "Arabic verbs show the person with a prefix: أَ for 'I' (أَذْهَبُ, I go), تَ for 'you' (تَذْهَبُ) and يَ for 'he' (يَذْهَبُ). Speaking to a woman, the verb also ends in ـِينَ: تَذْهَبِينَ. Join one action to the next with ثُمَّ (then).",
   "objectives": ["Say five things you do every morning", "Use present-tense verbs with I, you, he and she", "Say when you do something: أَسْتَيْقِظُ فِي السَّاعَة السَّابِعَة", "Link actions with ثُمَّ (then)"],
-  "realLife": { "emoji": "☕", "title": "An early start", "story": "After being late yesterday, Daniel tells Layla about his new morning plan. Layla gets up even earlier than he does, and Sami admits that he often rushes out of the house without breakfast." },
+  "realLife": { "emoji": "☕", "title": "An early start", "story": "After being late yesterday, Daniel tells Layla about his new morning plan. Layla gets up even earlier than he does, and Sami admits that he often rushes out of the house without breakfast.", "photo": {"file": "day11.jpg", "alt": "Morning on the Nile in Cairo: a man stands at a bridge railing with the river, hotels and a tower behind him.", "credit": {"title": "File:Cairo and Nile at the morning vibe.jpg", "author": "Mohammed Irsyaad", "license": "CC BY-SA 4.0", "source": "https://commons.wikimedia.org/wiki/File:Cairo_and_Nile_at_the_morning_vibe.jpg", "accessed": "2026-11-11", "modified": "resized and re-encoded", "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"}} },
   "letters": [],
   "newWords": ["yastayqizu", "yaghsilu", "yashrabu", "yadhhabu", "yakhruju", "sabah", "mubakkiran", "thumma", "kull"],
   "grammar": ["present-tense"],

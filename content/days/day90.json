@@ -27,7 +27,8 @@
   "realLife": {
     "emoji": "🎓",
     "title": "The graduation party",
-    "story": "On the last evening of the course, the classroom looks different: the desks are pushed against the wall, Sami's mother has sent a tray of sweets, and there is a pile of certificates on Mr Karim's desk. Before anyone can take one, there is a rule: say in Arabic what you will do next. Daniel already has a plane ticket to Amman in his pocket, Layla is still waiting for an answer from Cairo University, and Sami has a plan nobody expected."
+    "story": "On the last evening of the course, the classroom looks different: the desks are pushed against the wall, Sami's mother has sent a tray of sweets, and there is a pile of certificates on Mr Karim's desk. Before anyone can take one, there is a rule: say in Arabic what you will do next. Daniel already has a plane ticket to Amman in his pocket, Layla is still waiting for an answer from Cairo University, and Sami has a plan nobody expected.",
+    "photo": {"file": "day90.jpg", "alt": "Graduates in caps and gowns seen from behind at a ceremony, in black and white.", "credit": {"title": "File:Graduation-cap-g6c3c0e4d0 1920.jpg", "author": "McElspeth", "license": "CC0", "source": "https://commons.wikimedia.org/wiki/File:Graduation-cap-g6c3c0e4d0_1920.jpg", "accessed": "2026-11-11", "modified": "resized and re-encoded", "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"}}
   },
   "letters": [],
   "newWords": [

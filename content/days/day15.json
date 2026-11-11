@@ -23,7 +23,8 @@
   "realLife": {
     "emoji": "🥙",
     "title": "No time for breakfast",
-    "story": "Daniel oversleeps and runs to school without breakfast. Of course, today's lesson is about food: Mr Karim asks everyone what they eat in the morning, and Daniel gets hungrier with every answer. Luckily Sami has a فُول sandwich in his bag."
+    "story": "Daniel oversleeps and runs to school without breakfast. Of course, today's lesson is about food: Mr Karim asks everyone what they eat in the morning, and Daniel gets hungrier with every answer. Luckily Sami has a فُول sandwich in his bag.",
+    "photo": {"file": "day15.jpg", "alt": "A Cairo breakfast on a red tablecloth: a plate of ful beans, round flat bread, a cup of tea and a coffee cup.", "credit": {"title": "File:Breakfast in Cairo.jpg", "author": "H. Hakan Atik", "license": "CC BY-SA 4.0", "source": "https://commons.wikimedia.org/wiki/File:Breakfast_in_Cairo.jpg", "accessed": "2026-11-11", "modified": "resized and re-encoded", "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"}}
   },
   "letters": [],
   "newWords": [

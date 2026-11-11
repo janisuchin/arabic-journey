@@ -5,7 +5,7 @@
   "summary": "Name the basic colours and describe things with them, using the right masculine or feminine form.",
   "intro": "Colours are adjectives, so they come after the noun and agree with it. The basic colours have two shapes: أَحْمَر (red, masculine) and حَمْرَاء (red, feminine). So it is قَلَم أَحْمَر (a red pen) but سَيَّارَة حَمْرَاء (a red car). Ask about a colour with مَا لَوْنُ …؟ (what is the colour of …?).",
   "objectives": ["Name seven colours", "Use the masculine and the feminine form of a colour", "Ask and answer مَا لَوْنُ …؟", "Describe the flags of Egypt, Lebanon and Jordan"],
-  "realLife": { "emoji": "🚩", "title": "Flags on the wall", "story": "At the end of the week the classroom wall is covered in flags. Mr Karim asks each student to describe a flag in Arabic, and the lesson ends with a quick colour game." },
+  "realLife": { "emoji": "🚩", "title": "Flags on the wall", "story": "At the end of the week the classroom wall is covered in flags. Mr Karim asks each student to describe a flag in Arabic, and the lesson ends with a quick colour game.", "photo": {"file": "day14.jpg", "alt": "The green flag of the Arab League with its golden emblem flying on a white pole.", "credit": {"title": "File:Flag of Arab League in Amman, Jordan.JPG", "author": "Faris El-Gwely", "license": "CC BY-SA 4.0", "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Arab_League_in_Amman,_Jordan.JPG", "accessed": "2026-11-11", "modified": "resized and re-encoded", "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"}} },
   "letters": [],
   "newWords": ["lawn", "ahmar", "azraq", "akhdar", "asfar", "abyad", "aswad", "bunni", "alam"],
   "grammar": ["colours", "adjectives"],

@@ -5,7 +5,7 @@
   "summary": "Name the members of your family and point at people with 'this'.",
   "intro": "Every Arabic noun is masculine or feminine. Most feminine nouns end in ة, and female people are feminine too: أُمّ (mother), بِنْت (girl). Point with هٰذَا (this, masculine) and هٰذِهِ (this, feminine). New letters: ط ظ ع غ, including the famous ʿayn.",
   "objectives": ["Name six family members", "Say 'this is my …' with هٰذَا and هٰذِهِ", "Tell masculine and feminine nouns apart", "Read and write ṭāʾ, ẓāʾ, ʿayn and ghayn"],
-  "realLife": { "emoji": "📱", "title": "Family photos", "story": "At lunch Sami takes out his phone and shows Daniel photos of his family in Cairo: his father, his mother, his little brother and his sister. Pointing at each photo, Daniel learns هٰذَا and هٰذِهِ." },
+  "realLife": { "emoji": "📱", "title": "Family photos", "story": "At lunch Sami takes out his phone and shows Daniel photos of his family in Cairo: his father, his mother, his little brother and his sister. Pointing at each photo, Daniel learns هٰذَا and هٰذِهِ.", "photo": {"file": "day05.jpg", "alt": "Two old photo albums with printed covers lying on a white sheet.", "credit": {"title": "File:Vintage Photo Albums.jpg", "author": "পাপৰি বৰা", "license": "CC BY-SA 4.0", "source": "https://commons.wikimedia.org/wiki/File:Vintage_Photo_Albums.jpg", "accessed": "2026-11-11", "modified": "resized and re-encoded", "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"}} },
   "letters": ["tta", "za", "ayn", "ghayn"],
   "newWords": ["aila", "ab", "umm", "akh", "ukht", "ibn", "bint", "hadha", "hadhihi"],
   "grammar": ["demonstratives", "possessive"],

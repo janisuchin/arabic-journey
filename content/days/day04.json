@@ -5,7 +5,7 @@
   "summary": "Ask how someone is, say how you are, thank people and ask simple questions.",
   "intro": "كَيْفَ حَالُكَ؟ is literally 'how is your condition?'. Most people answer بِخَيْر، الْحَمْدُ لِلّٰه (fine, thank God). Today's question words are كَيْفَ, أَيْنَ, مَنْ and هَلْ. New letters: س ش ص ض, including two of the 'heavy' emphatic sounds.",
   "objectives": ["Ask a man or a woman how they are", "Say that you are fine, or tired", "Thank someone and answer a thank-you", "Use the question words كَيْفَ, أَيْنَ, مَنْ and هَلْ"],
-  "realLife": { "emoji": "😴", "title": "A tired friend", "story": "It is Thursday morning. Sami looks tired after a long night of studying, and he has brought a friend from Jordan to class. Daniel and Layla practise asking how everyone is." },
+  "realLife": { "emoji": "😴", "title": "A tired friend", "story": "It is Thursday morning. Sami looks tired after a long night of studying, and he has brought a friend from Jordan to class. Daniel and Layla practise asking how everyone is.", "photo": {"file": "day04.jpg", "alt": "The crowded El Fishawi cafe in Khan el-Khalili, Cairo, with mirrors on the walls and guests at small tables.", "credit": {"title": "File:Kairo 2019-11-04j.jpg", "author": "Djehouty", "license": "CC BY-SA 4.0", "source": "https://commons.wikimedia.org/wiki/File:Kairo_2019-11-04j.jpg", "accessed": "2026-11-11", "modified": "resized and re-encoded", "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"}} },
   "letters": ["sin", "shin", "sad", "dad"],
   "newWords": ["kayfa", "hal", "kayfa-haluka", "bikhayr", "alhamdulillah", "shukran", "afwan", "man"],
   "grammar": ["questions"],
