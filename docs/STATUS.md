@@ -1,6 +1,6 @@
 # Status — Arabic Journey
 
-Updated 2026-11-11 (Real-life photo card done). Branch `main`. All work runs on the owner's PC (no cloud session).
+Updated 2026-11-12 (Scenario photo scenes + 32 scenarios done). Branch `main`. All work runs on the owner's PC (no cloud session).
 Main prompt: `Arabic_Reference/PROMPT_B_Nihongo-based.md` (phases A–F, checklist Z).
 Live: https://ar-journey.german-journey.workers.dev · unlocked https://ar-journey-unlocked.german-journey.workers.dev
 
@@ -20,7 +20,15 @@ Live: https://ar-journey.german-journey.workers.dev · unlocked https://ar-journ
   (90 real-life + 34 culture); validator checks every photo file exists and none is used twice.
   Tooling: `scripts/real_life_photos.py search|get|apply` + plan `scripts/real-life-plan.json` (query, chosen
   title, alt, credit per day). Alt texts were written from the pictures (contact sheets), not from file names.
-- Checks (92a1f01): validator 0 errors, 76 unit tests, e2e 26/26 (port 4191), both editions deployed + 200 live.
+- **Scenario photo scenes + 32 scenarios** (ad04299, Prompt B L/M): school, machines, etiquette, dietary added
+  (writers via `docs/authoring/SCENARIO_WRITER_BRIEF.md` + `merge-scenarios.py`). Every scenario page now has
+  "The scene": one licensed Commons photo (`assets/scenes/<id>.jpg`) with 6–15 outlined objects (367 spots). An
+  object shows a red outline on hover/touch or when its word chip is tapped; label (Arabic, translit, English,
+  note) under the photo; no numbers. `src/components/scene.tsx`, schema `Scene`, `content/course/scenes.json`
+  (generated from `scripts/scene-plan.json` by `scripts/scene_photos.py apply`), `scripts/render-spots.py`
+  (box check), `docs/authoring/SCENE_SPOTS_BRIEF.md` (4 writer agents placed the boxes, all renders checked).
+  Credits lists 156 photos. Checks: validator 0 errors, 76 unit tests, e2e 28/28 (port 4191), both editions
+  deployed + 200 live.
 
 ## Left (against Prompt B checklist Z)
 1. Teacher review of the culture chapters: open points per chapter in `docs/review/culture-notes/*.md`.
@@ -29,8 +37,13 @@ Live: https://ar-journey.german-journey.workers.dev · unlocked https://ar-journ
    he look like"; day 35 is a 1930s Bedouin tent photo; days 4, 8, 27, 42, 89 show people's faces (public scenes).
    Swap any photo by editing its title in `scripts/real-life-plan.json`, deleting the jpg, removing the day's
    `"photo"` block, then `get` + `apply`.
-3. Scenarios still missing school, machines, etiquette, dietary (28 ≥ 27); no photo scenes / branching role-play
-   on scenario pages (Prompt B M scene photos with red outline boxes, `render-spots.py` not written yet).
+3. Scenarios: branching role-play and practice (Prompt B L) not built. Scene photo compromises for the owner's
+   glance: lost-luggage (airport carousel, dialogue is a train office), holiday-story (Petra, dialogue is
+   Luxor), museum-info (Cairo museum, dialogue is Amman), machines (ticket windows, not a machine); non-Arab
+   photos for appointment-time, renting-flat, lost-luggage, doctor, birthday, hotel, job-interview, office-phone,
+   airport (Paphos), bank (New Orleans); faces in eid-visit, job-interview, office-phone, school is empty.
+   Writers' word doubts are in the per-spot `note`s only; a teacher should glance at the spot words
+   (e.g. الْمِرْطَبَان, الْعَرَبَة = trolley, dish names in restaurant/dietary).
 4. Speaking lab: native speech recognition not bundled; expo-audio recording on Android untested until next APK.
 5. Word photos (150–300) and the 5,000-word dictionary check.
 6. Audit tools `scripts/audit/` + two-reviewer + reconciler audit (writers' open points in git history, 68d8cac).
@@ -42,8 +55,12 @@ Live: https://ar-journey.german-journey.workers.dev · unlocked https://ar-journ
 - After content changes: `content:index` → `readings:build` → `glossary:auto` → `check`.
 - Shared content files have mixed layouts: append only, never re-serialise (merge scripts and
   `real_life_photos.py apply` insert by text).
-- Photos: Commons only via `python -I -X utf8 scripts/commons_photo.py` / `real_life_photos.py` (throttled,
-  licence-filtered, credit JSON). Real-life card: one photo per day, no caption (the story is the caption), chips =
+- Photos: Commons only via `python -I -X utf8 scripts/commons_photo.py` / `real_life_photos.py` /
+  `scene_photos.py` (throttled, licence-filtered, credit JSON). Swap a scene photo: delete the jpg, drop
+  file/width/height/credit from its plan entry, set a new title, `get`, redo spots, `apply`.
+- Scene spots: one word with the article where possible (a one-word spot is glossed by its own `en`); the hand
+  glossary overrides every gloss app-wide, so never add a hand entry for a word the course already glosses.
+  Selected box always shows; hovered box shows in addition. `render-spots.py --all <dir>` before deploying. Real-life card: one photo per day, no caption (the story is the caption), chips =
   the day's `newWords`. `content:index` writes `REAL_LIFE_IMAGES` next to `CULTURE_IMAGES` in
   `culture-images.generated.ts`; `PhotoFrame` looks in both.
 - Culture: one writer agent per chapter with `docs/authoring/CULTURE_WRITER_BRIEF.md`; prose must NOT type
@@ -58,7 +75,7 @@ Live: https://ar-journey.german-journey.workers.dev · unlocked https://ar-journ
 - The Bash tool on this PC strips backslashes inside heredocs: write Python helpers to a file (Write tool) instead.
 
 ## Next step
-Scenario photo scenes (Prompt B M): for each of the 28 scenarios one licensed Commons scene photo with up to 15
-objects, each with a red outline box checked by a new `scripts/render-spots.py`; an object is shown on hover/touch
-or when its word chip is tapped, on the same page, no numbers. Add the 4 missing scenarios (school, machines,
-etiquette, dietary) first if time allows; then check, e2e (port 4191), deploy, commit and push.
+Word photos (Prompt B M): about 150–300 square 360×360 licensed Commons photos for concrete nouns in
+`content/course/vocabulary.json` (emoji tile stays for the rest), shown in the word box, flashcards and dictionary
+with the © badge and listed on Credits; tooling like `scene_photos.py` (plan + search/get/apply, validator checks
+file exists and no reuse); then check, e2e (port 4191), deploy, commit and push.
