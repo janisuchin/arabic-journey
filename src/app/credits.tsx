@@ -1,7 +1,7 @@
 import { Linking } from 'react-native';
 
 import { AppText, Card, Screen, SectionTitle } from '@/components/ui';
-import { culture, days } from '@/content';
+import { culture, days, scenarios, scenes } from '@/content';
 import type { Photo } from '@/content/schema';
 
 const SOURCES: [string, string][] = [
@@ -14,9 +14,13 @@ const SOURCES: [string, string][] = [
 ];
 
 export default function Credits() {
-  // Every bundled photo: the "In real life" photo of each day, then the culture chapters.
+  // Every bundled photo: the "In real life" photo of each day, the scenario scenes, then the culture chapters.
   const photos = [
     ...days.map((d) => ({ p: d.realLife.photo, chapter: `Day ${d.day} · ${d.realLife.title}` })),
+    ...scenes.map((s) => ({
+      p: s as Photo,
+      chapter: `Scenario · ${scenarios.find((x) => x.id === s.scenario)?.title ?? s.scenario}`,
+    })),
     ...culture.flatMap((ch) =>
       [ch.hero, ...ch.sections.map((s) => s.photo)].filter((p): p is Photo => !!p).map((p) => ({ p, chapter: ch.title })),
     ),

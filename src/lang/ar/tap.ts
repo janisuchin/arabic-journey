@@ -26,6 +26,7 @@ import {
   pronunciation,
   readingsLayer,
   scenarios,
+  scenes,
   vocabulary,
 } from '../../content';
 import type { Seg, Vocab } from '../../content/schema';
@@ -161,6 +162,8 @@ function allSegs(): Seg[] {
     }
     for (const w of c.words) segs.push(...w.segs);
   }
+  // scene photos last: a one-word spot glosses its word, a phrase spot glosses the phrase as a unit
+  for (const s of scenes) for (const sp of s.spots) if (!sp.ar.includes(' ')) segs.push([sp.ar, sp.en]);
   return segs;
 }
 
@@ -179,6 +182,7 @@ export function namesSet() {
 }
 
 const vocabExact = new Map(vocabulary.map((v) => [v.ar, v]));
+const scenePhrases = new Map(scenes.flatMap((s) => s.spots.map((sp) => [sp.ar, sp.en] as [string, string])));
 const vocabStripped = new Map<string, Vocab | null>();
 for (const v of vocabulary) {
   const k = stripHarakat(v.ar);
@@ -235,7 +239,7 @@ export function meaningOf(word: string): string | undefined {
 
 /** Meaning of a whole phrase if the course has it as a unit (vocabulary or glossary). */
 export function phraseMeaning(text: string): string | undefined {
-  return vocabExact.get(text)?.en ?? handGlossary[text] ?? handGlossary[stripHarakat(text)];
+  return vocabExact.get(text)?.en ?? handGlossary[text] ?? handGlossary[stripHarakat(text)] ?? scenePhrases.get(text);
 }
 
 export function exampleFor(word: string) {

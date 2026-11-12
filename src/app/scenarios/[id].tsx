@@ -1,9 +1,10 @@
 import { useLocalSearchParams } from 'expo-router';
 import { View } from 'react-native';
 
+import { PhotoScene } from '@/components/scene';
 import { RichText } from '@/components/tap';
 import { AppText, Card, Screen, SectionTitle } from '@/components/ui';
-import { scenarios } from '@/content';
+import { sceneByScenario, scenarios } from '@/content';
 import { Dialogue, QuizRunner } from '@/features/lesson';
 import { usePalette, useSettings, useStudyTimer } from '@/state/hooks';
 
@@ -11,6 +12,7 @@ export default function ScenarioScreen() {
   useStudyTimer();
   const { id } = useLocalSearchParams<{ id: string }>();
   const s = scenarios.find((x) => x.id === id);
+  const scene = s ? sceneByScenario.get(s.id) : undefined;
   const c = usePalette();
   const { passMark } = useSettings();
   if (!s)
@@ -24,6 +26,14 @@ export default function ScenarioScreen() {
       <Card accent>
         <RichText text={s.intro} />
       </Card>
+      {scene && (
+        <>
+          <SectionTitle icon="image-outline">The scene</SectionTitle>
+          <Card>
+            <PhotoScene scene={scene} />
+          </Card>
+        </>
+      )}
       <SectionTitle icon="chatbubbles-outline">{s.dialogue.title}</SectionTitle>
       <Dialogue lines={s.dialogue.lines} speakers={s.dialogue.speakers} culture={s.dialogue.culture} />
       <SectionTitle icon="warning-outline">Common mistakes</SectionTitle>

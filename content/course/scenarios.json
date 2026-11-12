@@ -17790,5 +17790,4137 @@
         "answer": 0
       }
     ]
+  },
+  {
+    "id": "dietary",
+    "title": "Allergies and dietary needs",
+    "emoji": "🥗",
+    "status": "needs-review",
+    "intro": "Daniel takes a colleague from the Amman office out to dinner: the colleague is vegetarian, and Daniel himself has a nut allergy. Before they order he has a few careful questions for the waiter. Useful phrases: عِنْدِي حَسَاسِيَّة مِنَ الْمُكَسَّرَات (I have a nut allergy), هَلْ فِيهِ لَحْم؟ (does it have meat in it?) and نَبَاتِيّ (vegetarian).",
+    "dialogue": {
+      "title": "Does it have nuts in it?",
+      "speakers": [
+        {
+          "key": "waiter",
+          "name": "Waiter",
+          "nameAr": "النَّادِل"
+        },
+        {
+          "key": "daniel",
+          "name": "Daniel",
+          "nameAr": "دَانْيَال"
+        }
+      ],
+      "culture": "In Jordan, as across the Levant, مُسَخَّن (chicken on flatbread with onions, sumac and olive oil) and مَقْلُوبَة (the 'upside-down' rice dish) are festive favourites, and both are usually finished with fried pine nuts and almonds, so anyone with a nut allergy should ask before ordering. Restaurant food in Jordan is halal by default, so the question هَلْ هُوَ حَلَال؟ rarely needs asking; vegetarianism is less common, and a dish described as 'without meat' may still be cooked in meat stock (مَرَق). Allergies are taken seriously, and a waiter will normally check with the kitchen without any fuss.",
+      "lines": [
+        {
+          "id": "dietary-l1",
+          "sp": "waiter",
+          "ar": "مَسَاءُ الْخَيْر وَأَهْلًا بِكُمَا! هَلْ أَنْتُمَا مُسْتَعِدَّانِ لِلطَّلَب، أَمْ تُرِيدَانِ وَقْتًا أَكْثَر؟",
+          "en": "Good evening and welcome to you both! Are you two ready to order, or would you like more time?",
+          "segs": [
+            [
+              "مَسَاءُ",
+              "evening (of)"
+            ],
+            [
+              "الْخَيْر",
+              "the goodness"
+            ],
+            [
+              "وَأَهْلًا",
+              "and welcome"
+            ],
+            [
+              "بِكُمَا",
+              "with you two (dual)"
+            ],
+            [
+              "هَلْ",
+              "(starts a yes/no question)"
+            ],
+            [
+              "أَنْتُمَا",
+              "you two (dual)"
+            ],
+            [
+              "مُسْتَعِدَّانِ",
+              "ready (two people)"
+            ],
+            [
+              "لِلطَّلَب",
+              "for the order, to order"
+            ],
+            [
+              "أَمْ",
+              "or (in a question)"
+            ],
+            [
+              "تُرِيدَانِ",
+              "you two want"
+            ],
+            [
+              "وَقْتًا",
+              "time (object)"
+            ],
+            [
+              "أَكْثَر",
+              "more"
+            ]
+          ]
+        },
+        {
+          "id": "dietary-l2",
+          "sp": "daniel",
+          "ar": "مَسَاءُ النُّور. قَبْلَ أَنْ نَطْلُبَ، يَجِبُ أَنْ أَقُولَ شَيْئَيْنِ مُهِمَّيْنِ: زَمِيلِي نَبَاتِيّ، وَأَنَا عِنْدِي حَسَاسِيَّة مِنَ الْمُكَسَّرَات.",
+          "en": "Good evening. Before we order, I must tell you two important things: my colleague is vegetarian, and I have a nut allergy.",
+          "segs": [
+            [
+              "مَسَاءُ",
+              "evening (of)"
+            ],
+            [
+              "النُّور",
+              "the light"
+            ],
+            [
+              "قَبْلَ",
+              "before"
+            ],
+            [
+              "أَنْ",
+              "to, that"
+            ],
+            [
+              "نَطْلُبَ",
+              "we order (after an)"
+            ],
+            [
+              "يَجِبُ",
+              "it is necessary, (I) must"
+            ],
+            [
+              "أَنْ",
+              "to, that"
+            ],
+            [
+              "أَقُولَ",
+              "I say (after an)"
+            ],
+            [
+              "شَيْئَيْنِ",
+              "two things (object)"
+            ],
+            [
+              "مُهِمَّيْنِ",
+              "important (two things, object)"
+            ],
+            [
+              "زَمِيلِي",
+              "my colleague"
+            ],
+            [
+              "نَبَاتِيّ",
+              "vegetarian (m)"
+            ],
+            [
+              "وَأَنَا",
+              "and I"
+            ],
+            [
+              "عِنْدِي",
+              "I have (lit. at me)"
+            ],
+            [
+              "حَسَاسِيَّة",
+              "allergy"
+            ],
+            [
+              "مِنَ",
+              "from, to (with 'allergy')"
+            ],
+            [
+              "الْمُكَسَّرَات",
+              "the nuts"
+            ]
+          ]
+        },
+        {
+          "id": "dietary-l3",
+          "sp": "waiter",
+          "ar": "لَا مُشْكِلَة أَبَدًا، شُكْرًا لِأَنَّكَ أَخْبَرْتَنِي. سَأَكْتُبُ ذٰلِكَ لِلْمَطْبَخ. مَاذَا تُرِيدَانِ أَنْ تَعْرِفَا؟",
+          "en": "No problem at all, thank you for telling me. I'll write that down for the kitchen. What would you two like to know?",
+          "segs": [
+            [
+              "لَا",
+              "no"
+            ],
+            [
+              "مُشْكِلَة",
+              "problem"
+            ],
+            [
+              "أَبَدًا",
+              "at all, ever"
+            ],
+            [
+              "شُكْرًا",
+              "thank you"
+            ],
+            [
+              "لِأَنَّكَ",
+              "because you (to a man)"
+            ],
+            [
+              "أَخْبَرْتَنِي",
+              "you told me (to a man)"
+            ],
+            [
+              "سَأَكْتُبُ",
+              "I will write"
+            ],
+            [
+              "ذٰلِكَ",
+              "that (m)"
+            ],
+            [
+              "لِلْمَطْبَخ",
+              "for the kitchen"
+            ],
+            [
+              "مَاذَا",
+              "what (before a verb)"
+            ],
+            [
+              "تُرِيدَانِ",
+              "you two want"
+            ],
+            [
+              "أَنْ",
+              "to, that"
+            ],
+            [
+              "تَعْرِفَا",
+              "you two know (after an)"
+            ]
+          ]
+        },
+        {
+          "id": "dietary-l4",
+          "sp": "daniel",
+          "ar": "هَلْ فِي السَّلَطَةِ مُكَسَّرَات؟ وَهَلِ الْأَرُزُّ مَطْبُوخ بِمَرَقِ اللَّحْم؟ زَمِيلِي لَا يَأْكُلُ لَحْمًا وَلَا دَجَاجًا وَلَا سَمَكًا.",
+          "en": "Are there nuts in the salad? And is the rice cooked with meat stock? My colleague doesn't eat meat, chicken or fish.",
+          "segs": [
+            [
+              "هَلْ",
+              "(starts a yes/no question)"
+            ],
+            [
+              "فِي",
+              "in"
+            ],
+            [
+              "السَّلَطَةِ",
+              "the salad"
+            ],
+            [
+              "مُكَسَّرَات",
+              "nuts"
+            ],
+            [
+              "وَهَلِ",
+              "and (starts a yes/no question)"
+            ],
+            [
+              "الْأَرُزُّ",
+              "the rice"
+            ],
+            [
+              "مَطْبُوخ",
+              "cooked"
+            ],
+            [
+              "بِمَرَقِ",
+              "with stock (of)"
+            ],
+            [
+              "اللَّحْم",
+              "the meat"
+            ],
+            [
+              "زَمِيلِي",
+              "my colleague"
+            ],
+            [
+              "لَا",
+              "not"
+            ],
+            [
+              "يَأْكُلُ",
+              "(he) eats"
+            ],
+            [
+              "لَحْمًا",
+              "meat (object)"
+            ],
+            [
+              "وَلَا",
+              "and not, nor"
+            ],
+            [
+              "دَجَاجًا",
+              "chicken (object)"
+            ],
+            [
+              "وَلَا",
+              "and not, nor"
+            ],
+            [
+              "سَمَكًا",
+              "fish (object)"
+            ]
+          ]
+        },
+        {
+          "id": "dietary-l5",
+          "sp": "waiter",
+          "ar": "السَّلَطَةُ بِدُونِ مُكَسَّرَات، لٰكِنَّ الْأَرُزَّ مَطْبُوخ بِمَرَقِ الدَّجَاج. عِنْدَنَا أَرُزّ عَادِيّ بِالْمَاء إِذَا أَرَدْتُمَا.",
+          "en": "The salad has no nuts, but the rice is cooked with chicken stock. We have plain rice cooked in water if you two want.",
+          "segs": [
+            [
+              "السَّلَطَةُ",
+              "the salad"
+            ],
+            [
+              "بِدُونِ",
+              "without"
+            ],
+            [
+              "مُكَسَّرَات",
+              "nuts"
+            ],
+            [
+              "لٰكِنَّ",
+              "but"
+            ],
+            [
+              "الْأَرُزَّ",
+              "the rice (after lākinna)"
+            ],
+            [
+              "مَطْبُوخ",
+              "cooked"
+            ],
+            [
+              "بِمَرَقِ",
+              "with stock (of)"
+            ],
+            [
+              "الدَّجَاج",
+              "the chicken"
+            ],
+            [
+              "عِنْدَنَا",
+              "we have"
+            ],
+            [
+              "أَرُزّ",
+              "rice"
+            ],
+            [
+              "عَادِيّ",
+              "ordinary, plain"
+            ],
+            [
+              "بِالْمَاء",
+              "with water, in water"
+            ],
+            [
+              "إِذَا",
+              "if"
+            ],
+            [
+              "أَرَدْتُمَا",
+              "you two want (lit. wanted)"
+            ]
+          ]
+        },
+        {
+          "id": "dietary-l6",
+          "sp": "daniel",
+          "ar": "مُمْتَاز. هَلْ عِنْدَكُمْ طَبَق رَئِيسِيّ نَبَاتِيّ؟ أَقْصِدُ طَبَقًا كَامِلًا، لَيْسَ سَلَطَةً فَقَطْ. وَهَلِ الطَّعَامُ حَلَال؟",
+          "en": "Excellent. Do you have a vegetarian main course? I mean a full dish, not just a salad. And is the food halal?",
+          "segs": [
+            [
+              "مُمْتَاز",
+              "excellent"
+            ],
+            [
+              "هَلْ",
+              "(starts a yes/no question)"
+            ],
+            [
+              "عِنْدَكُمْ",
+              "you (plural) have"
+            ],
+            [
+              "طَبَق",
+              "dish"
+            ],
+            [
+              "رَئِيسِيّ",
+              "main"
+            ],
+            [
+              "نَبَاتِيّ",
+              "vegetarian (m)"
+            ],
+            [
+              "أَقْصِدُ",
+              "I mean"
+            ],
+            [
+              "طَبَقًا",
+              "a dish (object)"
+            ],
+            [
+              "كَامِلًا",
+              "complete, full"
+            ],
+            [
+              "لَيْسَ",
+              "not, it is not"
+            ],
+            [
+              "سَلَطَةً",
+              "a salad (after laysa)"
+            ],
+            [
+              "فَقَطْ",
+              "only, just"
+            ],
+            [
+              "وَهَلِ",
+              "and (starts a yes/no question)"
+            ],
+            [
+              "الطَّعَامُ",
+              "the food"
+            ],
+            [
+              "حَلَال",
+              "halal, permitted"
+            ]
+          ]
+        },
+        {
+          "id": "dietary-l7",
+          "sp": "waiter",
+          "ar": "طَبْعًا، كُلُّ طَعَامِنَا حَلَال. وَعِنْدَنَا مَقْلُوبَة بِالْخُضَار بِدُونِ لَحْم، وَفَلَافِل مَعَ حُمُّص وَخُبْز سَاخِن.",
+          "en": "Of course, all our food is halal. And we have maqluba with vegetables and no meat, and falafel with hummus and hot bread.",
+          "segs": [
+            [
+              "طَبْعًا",
+              "of course"
+            ],
+            [
+              "كُلُّ",
+              "all (of)"
+            ],
+            [
+              "طَعَامِنَا",
+              "our food"
+            ],
+            [
+              "حَلَال",
+              "halal, permitted"
+            ],
+            [
+              "وَعِنْدَنَا",
+              "and we have"
+            ],
+            [
+              "مَقْلُوبَة",
+              "maqluba (upside-down rice dish)"
+            ],
+            [
+              "بِالْخُضَار",
+              "with vegetables"
+            ],
+            [
+              "بِدُونِ",
+              "without"
+            ],
+            [
+              "لَحْم",
+              "meat"
+            ],
+            [
+              "وَفَلَافِل",
+              "and falafel"
+            ],
+            [
+              "مَعَ",
+              "with"
+            ],
+            [
+              "حُمُّص",
+              "hummus"
+            ],
+            [
+              "وَخُبْز",
+              "and bread"
+            ],
+            [
+              "سَاخِن",
+              "hot (temperature)"
+            ]
+          ]
+        },
+        {
+          "id": "dietary-l8",
+          "sp": "daniel",
+          "ar": "الْمَقْلُوبَة لِزَمِيلِي، إِذَنْ. وَأَنَا أُرِيدُ الْمُسَخَّن، لٰكِنْ هَلْ فِيهِ مُكَسَّرَات؟ مِنْ فَضْلِكَ اسْأَلِ الْمَطْبَخ.",
+          "en": "Maqluba for my colleague, then. And I'd like the musakhan, but does it have nuts in it? Please ask the kitchen.",
+          "segs": [
+            [
+              "الْمَقْلُوبَة",
+              "the maqluba"
+            ],
+            [
+              "لِزَمِيلِي",
+              "for my colleague"
+            ],
+            [
+              "إِذَنْ",
+              "then, so"
+            ],
+            [
+              "وَأَنَا",
+              "and I"
+            ],
+            [
+              "أُرِيدُ",
+              "I want"
+            ],
+            [
+              "الْمُسَخَّن",
+              "the musakhan (chicken on bread with onions and sumac)"
+            ],
+            [
+              "لٰكِنْ",
+              "but"
+            ],
+            [
+              "هَلْ",
+              "(starts a yes/no question)"
+            ],
+            [
+              "فِيهِ",
+              "in it (m)"
+            ],
+            [
+              "مُكَسَّرَات",
+              "nuts"
+            ],
+            [
+              "مِنْ",
+              "from"
+            ],
+            [
+              "فَضْلِكَ",
+              "your kindness (to a man): 'please'"
+            ],
+            [
+              "اسْأَلِ",
+              "ask (to a man; -i links to the next word)"
+            ],
+            [
+              "الْمَطْبَخ",
+              "the kitchen"
+            ]
+          ]
+        },
+        {
+          "id": "dietary-l9",
+          "sp": "waiter",
+          "ar": "لِلْأَسَف، نَعَم. الْمُسَخَّنُ عِنْدَنَا عَلَيْهِ صَنَوْبَر وَلَوْز. أَنْصَحُكَ بِالسَّمَكِ الْمَشْوِيّ، أَوْ نُحَضِّرُ لَكَ الْمُسَخَّنَ بِدُونِ مُكَسَّرَات.",
+          "en": "Unfortunately, yes. Our musakhan has pine nuts and almonds on top. I recommend the grilled fish, or we can prepare the musakhan for you without nuts.",
+          "segs": [
+            [
+              "لِلْأَسَف",
+              "unfortunately"
+            ],
+            [
+              "نَعَم",
+              "yes"
+            ],
+            [
+              "الْمُسَخَّنُ",
+              "the musakhan"
+            ],
+            [
+              "عِنْدَنَا",
+              "we have, at our place"
+            ],
+            [
+              "عَلَيْهِ",
+              "on it (m)"
+            ],
+            [
+              "صَنَوْبَر",
+              "pine nuts"
+            ],
+            [
+              "وَلَوْز",
+              "and almonds"
+            ],
+            [
+              "أَنْصَحُكَ",
+              "I advise you (to a man)"
+            ],
+            [
+              "بِالسَّمَكِ",
+              "(with) the fish"
+            ],
+            [
+              "الْمَشْوِيّ",
+              "the grilled"
+            ],
+            [
+              "أَوْ",
+              "or"
+            ],
+            [
+              "نُحَضِّرُ",
+              "we prepare"
+            ],
+            [
+              "لَكَ",
+              "for you (to a man)"
+            ],
+            [
+              "الْمُسَخَّنَ",
+              "the musakhan (object)"
+            ],
+            [
+              "بِدُونِ",
+              "without"
+            ],
+            [
+              "مُكَسَّرَات",
+              "nuts"
+            ]
+          ]
+        },
+        {
+          "id": "dietary-l10",
+          "sp": "daniel",
+          "ar": "الْمُسَخَّن بِدُونِ مُكَسَّرَات، مِنْ فَضْلِكَ. لٰكِنْ هَلْ هُوَ آمِن حَقًّا؟ حَسَاسِيَّتِي شَدِيدَة، وَحَتَّى الْكَمِّيَّةُ الصَّغِيرَةُ تُسَبِّبُ لِي مُشْكِلَة.",
+          "en": "The musakhan without nuts, please. But is it really safe? My allergy is severe, and even a small amount causes me a problem.",
+          "segs": [
+            [
+              "الْمُسَخَّن",
+              "the musakhan (chicken on bread with onions and sumac)"
+            ],
+            [
+              "بِدُونِ",
+              "without"
+            ],
+            [
+              "مُكَسَّرَات",
+              "nuts"
+            ],
+            [
+              "مِنْ",
+              "from"
+            ],
+            [
+              "فَضْلِكَ",
+              "your kindness (to a man): 'please'"
+            ],
+            [
+              "لٰكِنْ",
+              "but"
+            ],
+            [
+              "هَلْ",
+              "(starts a yes/no question)"
+            ],
+            [
+              "هُوَ",
+              "he, it (m)"
+            ],
+            [
+              "آمِن",
+              "safe"
+            ],
+            [
+              "حَقًّا",
+              "really, truly"
+            ],
+            [
+              "حَسَاسِيَّتِي",
+              "my allergy"
+            ],
+            [
+              "شَدِيدَة",
+              "severe, strong (f)"
+            ],
+            [
+              "وَحَتَّى",
+              "and even"
+            ],
+            [
+              "الْكَمِّيَّةُ",
+              "the quantity, amount"
+            ],
+            [
+              "الصَّغِيرَةُ",
+              "the small (f)"
+            ],
+            [
+              "تُسَبِّبُ",
+              "(it, f) causes"
+            ],
+            [
+              "لِي",
+              "to me, for me"
+            ],
+            [
+              "مُشْكِلَة",
+              "problem"
+            ]
+          ]
+        },
+        {
+          "id": "dietary-l11",
+          "sp": "waiter",
+          "ar": "سَأَتَأَكَّدُ مِنَ الطَّبَّاخِ بِنَفْسِي، وَسَيُحَضِّرُهُ بَعِيدًا عَنِ الْمُكَسَّرَات. وَمَاذَا تَشْرَبَانِ؟",
+          "en": "I will check with the cook myself, and he will prepare it away from the nuts. And what will you two drink?",
+          "segs": [
+            [
+              "سَأَتَأَكَّدُ",
+              "I will make sure, check"
+            ],
+            [
+              "مِنَ",
+              "from, with (after 'make sure')"
+            ],
+            [
+              "الطَّبَّاخِ",
+              "the cook"
+            ],
+            [
+              "بِنَفْسِي",
+              "myself"
+            ],
+            [
+              "وَسَيُحَضِّرُهُ",
+              "and he will prepare it"
+            ],
+            [
+              "بَعِيدًا",
+              "far"
+            ],
+            [
+              "عَنِ",
+              "from, away from (-i links to the next word)"
+            ],
+            [
+              "الْمُكَسَّرَات",
+              "the nuts"
+            ],
+            [
+              "وَمَاذَا",
+              "and what (before a verb)"
+            ],
+            [
+              "تَشْرَبَانِ",
+              "you two drink (dual)"
+            ]
+          ]
+        },
+        {
+          "id": "dietary-l12",
+          "sp": "daniel",
+          "ar": "عَصِيرَ لَيْمُون بِالنَّعْنَاع لِزَمِيلِي، بِدُونِ سُكَّر مِنْ فَضْلِكَ. وَأَنَا أُرِيدُ مَاءً فَقَطْ. وَلَوْ سَمَحْتَ، مِلْح أَقَلّ فِي الطَّعَام، فَالطَّبِيبُ قَالَ لِي ذٰلِكَ.",
+          "en": "A lemon and mint juice for my colleague, with no sugar please. And I just want water. And if you don't mind, less salt in the food, because the doctor told me that.",
+          "segs": [
+            [
+              "عَصِيرَ",
+              "juice (of) (object)"
+            ],
+            [
+              "لَيْمُون",
+              "lemon"
+            ],
+            [
+              "بِالنَّعْنَاع",
+              "with mint"
+            ],
+            [
+              "لِزَمِيلِي",
+              "for my colleague"
+            ],
+            [
+              "بِدُونِ",
+              "without"
+            ],
+            [
+              "سُكَّر",
+              "sugar"
+            ],
+            [
+              "مِنْ",
+              "from"
+            ],
+            [
+              "فَضْلِكَ",
+              "your kindness (to a man): 'please'"
+            ],
+            [
+              "وَأَنَا",
+              "and I"
+            ],
+            [
+              "أُرِيدُ",
+              "I want"
+            ],
+            [
+              "مَاءً",
+              "water (object)"
+            ],
+            [
+              "فَقَطْ",
+              "only, just"
+            ],
+            [
+              "وَلَوْ",
+              "and if"
+            ],
+            [
+              "سَمَحْتَ",
+              "you allow (to a man)"
+            ],
+            [
+              "مِلْح",
+              "salt"
+            ],
+            [
+              "أَقَلّ",
+              "less"
+            ],
+            [
+              "فِي",
+              "in"
+            ],
+            [
+              "الطَّعَام",
+              "the food"
+            ],
+            [
+              "فَالطَّبِيبُ",
+              "because the doctor, so the doctor"
+            ],
+            [
+              "قَالَ",
+              "(he) said"
+            ],
+            [
+              "لِي",
+              "to me"
+            ],
+            [
+              "ذٰلِكَ",
+              "that (m)"
+            ]
+          ]
+        },
+        {
+          "id": "dietary-l13",
+          "sp": "waiter",
+          "ar": "حَاضِر: بِدُونِ سُكَّر، وَمِلْح أَقَلّ، وَبِدُونِ مُكَسَّرَات أَبَدًا. سَأَعُودُ بَعْدَ قَلِيل مَعَ الْخُبْزِ وَالْحُمُّص.",
+          "en": "Certainly: no sugar, less salt, and no nuts at all. I'll be back in a little while with the bread and the hummus.",
+          "segs": [
+            [
+              "حَاضِر",
+              "certainly, right away"
+            ],
+            [
+              "بِدُونِ",
+              "without"
+            ],
+            [
+              "سُكَّر",
+              "sugar"
+            ],
+            [
+              "وَمِلْح",
+              "and salt"
+            ],
+            [
+              "أَقَلّ",
+              "less"
+            ],
+            [
+              "وَبِدُونِ",
+              "and without"
+            ],
+            [
+              "مُكَسَّرَات",
+              "nuts"
+            ],
+            [
+              "أَبَدًا",
+              "at all, ever"
+            ],
+            [
+              "سَأَعُودُ",
+              "I will return"
+            ],
+            [
+              "بَعْدَ",
+              "after"
+            ],
+            [
+              "قَلِيل",
+              "a little (while)"
+            ],
+            [
+              "مَعَ",
+              "with"
+            ],
+            [
+              "الْخُبْزِ",
+              "the bread"
+            ],
+            [
+              "وَالْحُمُّص",
+              "and the hummus"
+            ]
+          ]
+        },
+        {
+          "id": "dietary-l14",
+          "sp": "daniel",
+          "ar": "شُكْرًا جَزِيلًا عَلَى صَبْرِكَ. فِي شِيكَاغُو أَسْأَلُ نَفْسَ الْأَسْئِلَة فِي كُلِّ مَطْعَم، وَلَيْسَ كُلُّ النُّدُلِ لُطَفَاءَ مِثْلَكَ!",
+          "en": "Thank you very much for your patience. In Chicago I ask the same questions in every restaurant, and not all waiters are as kind as you!",
+          "segs": [
+            [
+              "شُكْرًا",
+              "thank you"
+            ],
+            [
+              "جَزِيلًا",
+              "very much"
+            ],
+            [
+              "عَلَى",
+              "on, for"
+            ],
+            [
+              "صَبْرِكَ",
+              "your patience (to a man)"
+            ],
+            [
+              "فِي",
+              "in"
+            ],
+            [
+              "شِيكَاغُو",
+              "Chicago"
+            ],
+            [
+              "أَسْأَلُ",
+              "I ask"
+            ],
+            [
+              "نَفْسَ",
+              "the same (object)"
+            ],
+            [
+              "الْأَسْئِلَة",
+              "the questions"
+            ],
+            [
+              "فِي",
+              "in"
+            ],
+            [
+              "كُلِّ",
+              "every (of)"
+            ],
+            [
+              "مَطْعَم",
+              "restaurant"
+            ],
+            [
+              "وَلَيْسَ",
+              "and (is) not"
+            ],
+            [
+              "كُلُّ",
+              "all (of)"
+            ],
+            [
+              "النُّدُلِ",
+              "the waiters"
+            ],
+            [
+              "لُطَفَاءَ",
+              "kind (plural, after laysa)"
+            ],
+            [
+              "مِثْلَكَ",
+              "like you (to a man)"
+            ]
+          ]
+        }
+      ]
+    },
+    "mistakes": [
+      {
+        "wrong": "أَنَا حَسَاسِيَّة مِنَ الْمُكَسَّرَات",
+        "right": "عِنْدِي حَسَاسِيَّة مِنَ الْمُكَسَّرَات",
+        "why": "In Arabic you 'have' an allergy: ʿindī (at me) plus the noun, not 'I am' plus the noun."
+      },
+      {
+        "wrong": "زَمِيلِي لَا يَأْكُلُ لَحْم",
+        "right": "زَمِيلِي لَا يَأْكُلُ لَحْمًا",
+        "why": "The object of the verb is indefinite accusative: laḥman with the -an ending."
+      }
+    ],
+    "quiz": [
+      {
+        "id": "dietary-q1",
+        "prompt": "What is true of Daniel's colleague?",
+        "options": [
+          "he is vegetarian",
+          "he has a nut allergy",
+          "he is a doctor",
+          "he only drinks water"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "dietary-q2",
+        "prompt": "Why can't Daniel eat the musakhan as it is usually served?",
+        "options": [
+          "it is cooked with chicken stock",
+          "it is too salty",
+          "it has pine nuts and almonds on top",
+          "it is not halal"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "dietary-q3",
+        "prompt": "What does this mean?",
+        "ar": "هَلْ فِيهِ لَحْم؟",
+        "options": [
+          "Is it halal?",
+          "Does it have meat in it?",
+          "Is it spicy?",
+          "Is there salt in it?"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "dietary-q4",
+        "prompt": "What does Daniel ask for his colleague's juice?",
+        "options": [
+          "less salt",
+          "more ice",
+          "extra sugar",
+          "no sugar"
+        ],
+        "answer": 3
+      }
+    ]
+  },
+  {
+    "id": "etiquette",
+    "title": "Good manners at a dinner",
+    "emoji": "🤝",
+    "status": "needs-review",
+    "intro": "Daniel has been invited to dinner at Sami's parents' house for the first time, and he is not sure what to bring or how to behave at the table. The evening before, he asks Layla for a quick lesson in good manners. Useful phrases: تَفَضَّلْ (please, go ahead), بِالْيَدِ الْيُمْنَى (with the right hand) and الْحَمْدُ لِلّٰه، شَبِعْتُ (thank God, I'm full).",
+    "dialogue": {
+      "title": "What do I bring, and when do I leave?",
+      "speakers": [
+        {
+          "key": "daniel",
+          "name": "Daniel",
+          "nameAr": "دَانْيَال"
+        },
+        {
+          "key": "layla",
+          "name": "Layla",
+          "nameAr": "لَيْلَى"
+        }
+      ],
+      "culture": "In most Arab homes a guest never arrives with empty hands: sweets, fruit or a box of dates (تَمْر) are safe choices, while alcohol is best avoided unless you know the family drinks. The host will press food on you several times; a first refusal is not taken seriously, so الْحَمْدُ لِلّٰه، شَبِعْتُ said with a smile is the usual way to show you have really had enough. Leaving straight after the meal looks as if you only came for the food, so stay for tea and conversation.",
+      "lines": [
+        {
+          "id": "etiquette-l1",
+          "sp": "daniel",
+          "ar": "يَا لَيْلَى، أَحْتَاجُ إِلَى نَصِيحَتِكِ. وَالِدَا سَامِي دَعَوَانِي إِلَى الْعَشَاء غَدًا، وَهٰذِهِ أَوَّلُ مَرَّة أَزُورُ بَيْتَهُمَا.",
+          "en": "Layla, I need your advice. Sami's parents have invited me to dinner tomorrow, and it's the first time I'm visiting their house.",
+          "segs": [
+            [
+              "يَا",
+              "O (calling someone)"
+            ],
+            [
+              "لَيْلَى",
+              "Layla (first name)",
+              "name"
+            ],
+            [
+              "أَحْتَاجُ",
+              "I need"
+            ],
+            [
+              "إِلَى",
+              "to"
+            ],
+            [
+              "نَصِيحَتِكِ",
+              "your advice (to a woman)"
+            ],
+            [
+              "وَالِدَا",
+              "the two parents (of)"
+            ],
+            [
+              "سَامِي",
+              "Sami (first name)",
+              "name"
+            ],
+            [
+              "دَعَوَانِي",
+              "they (two) invited me"
+            ],
+            [
+              "إِلَى",
+              "to"
+            ],
+            [
+              "الْعَشَاء",
+              "the dinner"
+            ],
+            [
+              "غَدًا",
+              "tomorrow"
+            ],
+            [
+              "وَهٰذِهِ",
+              "and this (f)"
+            ],
+            [
+              "أَوَّلُ",
+              "first (of)"
+            ],
+            [
+              "مَرَّة",
+              "time (occasion)"
+            ],
+            [
+              "أَزُورُ",
+              "I visit"
+            ],
+            [
+              "بَيْتَهُمَا",
+              "their (two) house"
+            ]
+          ]
+        },
+        {
+          "id": "etiquette-l2",
+          "sp": "layla",
+          "ar": "جَمِيل! لَا تَقْلَقْ، الْأَمْرُ سَهْل. أَوَّلًا، مَاذَا سَتَحْمِلُ مَعَكَ كَهَدِيَّة؟",
+          "en": "Lovely! Don't worry, it's easy. First of all, what are you going to take with you as a gift?",
+          "segs": [
+            [
+              "جَمِيل",
+              "lovely, beautiful"
+            ],
+            [
+              "لَا",
+              "don't (with a verb)"
+            ],
+            [
+              "تَقْلَقْ",
+              "worry (to a man, after lā)"
+            ],
+            [
+              "الْأَمْرُ",
+              "the matter"
+            ],
+            [
+              "سَهْل",
+              "easy"
+            ],
+            [
+              "أَوَّلًا",
+              "first of all"
+            ],
+            [
+              "مَاذَا",
+              "what"
+            ],
+            [
+              "سَتَحْمِلُ",
+              "you will carry, take (to a man)"
+            ],
+            [
+              "مَعَكَ",
+              "with you (to a man)"
+            ],
+            [
+              "كَهَدِيَّة",
+              "as a gift"
+            ]
+          ]
+        },
+        {
+          "id": "etiquette-l3",
+          "sp": "daniel",
+          "ar": "اِشْتَرَيْتُ زُجَاجَةَ نَبِيذ مِنَ السُّوبَرْمَارْكِت. هٰذَا مَا نَفْعَلُهُ عَادَةً فِي أَمْرِيكَا.",
+          "en": "I bought a bottle of wine from the supermarket. That's what we usually do in America.",
+          "segs": [
+            [
+              "اِشْتَرَيْتُ",
+              "I bought"
+            ],
+            [
+              "زُجَاجَةَ",
+              "bottle (of)"
+            ],
+            [
+              "نَبِيذ",
+              "wine"
+            ],
+            [
+              "مِنَ",
+              "from"
+            ],
+            [
+              "السُّوبَرْمَارْكِت",
+              "the supermarket"
+            ],
+            [
+              "هٰذَا",
+              "this ('that')"
+            ],
+            [
+              "مَا",
+              "what (in 'what we do')"
+            ],
+            [
+              "نَفْعَلُهُ",
+              "we do it"
+            ],
+            [
+              "عَادَةً",
+              "usually"
+            ],
+            [
+              "فِي",
+              "in"
+            ],
+            [
+              "أَمْرِيكَا",
+              "America",
+              "name"
+            ]
+          ]
+        },
+        {
+          "id": "etiquette-l4",
+          "sp": "layla",
+          "ar": "لَا، لَا! النَّبِيذُ هَدِيَّة غَيْرُ مُنَاسِبَة هُنَا، وَوَالِدَا سَامِي لَا يَشْرَبَانِ. خُذْ عُلْبَةَ بَقْلَاوَة أَوْ فَاكِهَة بَدَلًا مِنْهُ.",
+          "en": "No, no! Wine is not a suitable gift here, and Sami's parents don't drink. Take a box of baklava or some fruit instead.",
+          "segs": [
+            [
+              "لَا",
+              "no"
+            ],
+            [
+              "لَا",
+              "no"
+            ],
+            [
+              "النَّبِيذُ",
+              "the wine"
+            ],
+            [
+              "هَدِيَّة",
+              "a gift"
+            ],
+            [
+              "غَيْرُ",
+              "not, un- (before an adjective)"
+            ],
+            [
+              "مُنَاسِبَة",
+              "suitable (f)"
+            ],
+            [
+              "هُنَا",
+              "here"
+            ],
+            [
+              "وَوَالِدَا",
+              "and the two parents (of)"
+            ],
+            [
+              "سَامِي",
+              "Sami (first name)",
+              "name"
+            ],
+            [
+              "لَا",
+              "not"
+            ],
+            [
+              "يَشْرَبَانِ",
+              "they (two) drink"
+            ],
+            [
+              "خُذْ",
+              "take! (to a man)"
+            ],
+            [
+              "عُلْبَةَ",
+              "box (of)"
+            ],
+            [
+              "بَقْلَاوَة",
+              "baklava"
+            ],
+            [
+              "أَوْ",
+              "or"
+            ],
+            [
+              "فَاكِهَة",
+              "fruit"
+            ],
+            [
+              "بَدَلًا",
+              "instead"
+            ],
+            [
+              "مِنْهُ",
+              "of it (m)"
+            ]
+          ]
+        },
+        {
+          "id": "etiquette-l5",
+          "sp": "daniel",
+          "ar": "فِكْرَة مُمْتَازَة، سَأَشْتَرِي الْبَقْلَاوَة مِنْ مَحَلِّ الْحَلْوِيَّات. وَهَلْ يَجِبُ أَنْ أَصِلَ فِي الْوَقْتِ بِالضَّبْط؟",
+          "en": "Excellent idea, I'll buy the baklava from the sweet shop. And do I have to arrive exactly on time?",
+          "segs": [
+            [
+              "فِكْرَة",
+              "idea"
+            ],
+            [
+              "مُمْتَازَة",
+              "excellent (f)"
+            ],
+            [
+              "سَأَشْتَرِي",
+              "I will buy"
+            ],
+            [
+              "الْبَقْلَاوَة",
+              "the baklava"
+            ],
+            [
+              "مِنْ",
+              "from"
+            ],
+            [
+              "مَحَلِّ",
+              "shop (of)"
+            ],
+            [
+              "الْحَلْوِيَّات",
+              "the sweets"
+            ],
+            [
+              "وَهَلْ",
+              "and (starts a yes/no question)"
+            ],
+            [
+              "يَجِبُ",
+              "it is necessary"
+            ],
+            [
+              "أَنْ",
+              "to, that"
+            ],
+            [
+              "أَصِلَ",
+              "I arrive (after an)"
+            ],
+            [
+              "فِي",
+              "at, in"
+            ],
+            [
+              "الْوَقْتِ",
+              "the time"
+            ],
+            [
+              "بِالضَّبْط",
+              "exactly"
+            ]
+          ]
+        },
+        {
+          "id": "etiquette-l6",
+          "sp": "layla",
+          "ar": "التَّأَخُّرُ عَشْرَ دَقَائِقَ أَمْرٌ عَادِيّ. وَعِنْدَ الْبَاب، إِذَا خَلَعَ أَهْلُ الْبَيْتِ أَحْذِيَتَهُمْ فَاخْلَعْ حِذَاءَكَ أَيْضًا.",
+          "en": "Being ten minutes late is normal. And at the door, if the hosts take off their shoes, take off your shoes too.",
+          "segs": [
+            [
+              "التَّأَخُّرُ",
+              "being late, lateness"
+            ],
+            [
+              "عَشْرَ",
+              "ten (before a feminine noun)"
+            ],
+            [
+              "دَقَائِقَ",
+              "minutes"
+            ],
+            [
+              "أَمْرٌ",
+              "a matter, a thing"
+            ],
+            [
+              "عَادِيّ",
+              "normal, ordinary"
+            ],
+            [
+              "وَعِنْدَ",
+              "and at"
+            ],
+            [
+              "الْبَاب",
+              "the door"
+            ],
+            [
+              "إِذَا",
+              "if, when"
+            ],
+            [
+              "خَلَعَ",
+              "(he) took off"
+            ],
+            [
+              "أَهْلُ",
+              "people (of), family (of)"
+            ],
+            [
+              "الْبَيْتِ",
+              "the house ('the hosts')"
+            ],
+            [
+              "أَحْذِيَتَهُمْ",
+              "their shoes"
+            ],
+            [
+              "فَاخْلَعْ",
+              "then take off! (to a man)"
+            ],
+            [
+              "حِذَاءَكَ",
+              "your shoe(s) (to a man)"
+            ],
+            [
+              "أَيْضًا",
+              "also, too"
+            ]
+          ]
+        },
+        {
+          "id": "etiquette-l7",
+          "sp": "daniel",
+          "ar": "فَهِمْتُ. وَمَنْ أُسَلِّمُ عَلَيْهِ أَوَّلًا عِنْدَمَا أَدْخُلُ؟ سَامِي أَمْ وَالِدَاهُ؟",
+          "en": "Got it. And who do I greet first when I go in? Sami or his parents?",
+          "segs": [
+            [
+              "فَهِمْتُ",
+              "I understood ('got it')"
+            ],
+            [
+              "وَمَنْ",
+              "and who"
+            ],
+            [
+              "أُسَلِّمُ",
+              "I greet, I say hello"
+            ],
+            [
+              "عَلَيْهِ",
+              "to him (lit. on him)"
+            ],
+            [
+              "أَوَّلًا",
+              "first"
+            ],
+            [
+              "عِنْدَمَا",
+              "when"
+            ],
+            [
+              "أَدْخُلُ",
+              "I enter"
+            ],
+            [
+              "سَامِي",
+              "Sami (first name)",
+              "name"
+            ],
+            [
+              "أَمْ",
+              "or (in a question)"
+            ],
+            [
+              "وَالِدَاهُ",
+              "his two parents"
+            ]
+          ]
+        },
+        {
+          "id": "etiquette-l8",
+          "sp": "layla",
+          "ar": "سَلِّمْ عَلَى الْوَالِدَيْنِ أَوَّلًا، وَقِفْ دَائِمًا عِنْدَمَا يَدْخُلُ شَخْص أَكْبَرُ مِنْكَ سِنًّا. هٰذَا احْتِرَام مُهِمّ جِدًّا.",
+          "en": "Greet the parents first, and always stand up when someone older than you comes in. That is a very important sign of respect.",
+          "segs": [
+            [
+              "سَلِّمْ",
+              "say hello (to a man)"
+            ],
+            [
+              "عَلَى",
+              "to (lit. on)"
+            ],
+            [
+              "الْوَالِدَيْنِ",
+              "the two parents (after a preposition)"
+            ],
+            [
+              "أَوَّلًا",
+              "first"
+            ],
+            [
+              "وَقِفْ",
+              "and stand up! (to a man)"
+            ],
+            [
+              "دَائِمًا",
+              "always"
+            ],
+            [
+              "عِنْدَمَا",
+              "when"
+            ],
+            [
+              "يَدْخُلُ",
+              "(he) enters"
+            ],
+            [
+              "شَخْص",
+              "a person"
+            ],
+            [
+              "أَكْبَرُ",
+              "older, bigger"
+            ],
+            [
+              "مِنْكَ",
+              "than you (to a man)"
+            ],
+            [
+              "سِنًّا",
+              "in age"
+            ],
+            [
+              "هٰذَا",
+              "this ('that')"
+            ],
+            [
+              "احْتِرَام",
+              "respect"
+            ],
+            [
+              "مُهِمّ",
+              "important"
+            ],
+            [
+              "جِدًّا",
+              "very"
+            ]
+          ]
+        },
+        {
+          "id": "etiquette-l9",
+          "sp": "daniel",
+          "ar": "وَعَلَى الْمَائِدَة؟ سَمِعْتُ أَنَّ النَّاسَ يَأْكُلُونَ بِالْيَدِ الْيُمْنَى فَقَطْ.",
+          "en": "And at the table? I heard that people eat with the right hand only.",
+          "segs": [
+            [
+              "وَعَلَى",
+              "and at (lit. on)"
+            ],
+            [
+              "الْمَائِدَة",
+              "the dining table"
+            ],
+            [
+              "سَمِعْتُ",
+              "I heard"
+            ],
+            [
+              "أَنَّ",
+              "that (after a verb like 'hear')"
+            ],
+            [
+              "النَّاسَ",
+              "the people"
+            ],
+            [
+              "يَأْكُلُونَ",
+              "they eat"
+            ],
+            [
+              "بِالْيَدِ",
+              "with the hand"
+            ],
+            [
+              "الْيُمْنَى",
+              "the right (f)"
+            ],
+            [
+              "فَقَطْ",
+              "only"
+            ]
+          ]
+        },
+        {
+          "id": "etiquette-l10",
+          "sp": "layla",
+          "ar": "صَحِيح، الْيَدُ الْيُمْنَى لِلْأَكْل. وَعِنْدَمَا تَقُولُ لَكَ الْأُمُّ تَفَضَّلْ، فَخُذْ مِنْ كُلِّ طَبَق وَامْدَحِ الطَّعَام.",
+          "en": "Right, the right hand is for eating. And when the mother says to you 'please, go ahead', take some of every dish and praise the food.",
+          "segs": [
+            [
+              "صَحِيح",
+              "true, correct ('that's right')"
+            ],
+            [
+              "الْيَدُ",
+              "the hand"
+            ],
+            [
+              "الْيُمْنَى",
+              "the right (f)"
+            ],
+            [
+              "لِلْأَكْل",
+              "for eating"
+            ],
+            [
+              "وَعِنْدَمَا",
+              "and when"
+            ],
+            [
+              "تَقُولُ",
+              "(she) says"
+            ],
+            [
+              "لَكَ",
+              "to you (to a man)"
+            ],
+            [
+              "الْأُمُّ",
+              "the mother"
+            ],
+            [
+              "تَفَضَّلْ",
+              "please, go ahead (to a man)"
+            ],
+            [
+              "فَخُذْ",
+              "then take! (to a man)"
+            ],
+            [
+              "مِنْ",
+              "from, some of"
+            ],
+            [
+              "كُلِّ",
+              "every"
+            ],
+            [
+              "طَبَق",
+              "dish, plate"
+            ],
+            [
+              "وَامْدَحِ",
+              "and praise! (to a man; -i links to the next word)"
+            ],
+            [
+              "الطَّعَام",
+              "the food"
+            ]
+          ]
+        },
+        {
+          "id": "etiquette-l11",
+          "sp": "daniel",
+          "ar": "وَإِذَا أَرَادَتْ أَنْ تَمْلَأَ صَحْنِي لِلْمَرَّةِ الثَّالِثَة؟ لَا أَسْتَطِيعُ أَنْ آكُلَ كُلَّ هٰذَا!",
+          "en": "And if she wants to fill my plate for the third time? I can't eat all of that!",
+          "segs": [
+            [
+              "وَإِذَا",
+              "and if"
+            ],
+            [
+              "أَرَادَتْ",
+              "(she) wanted"
+            ],
+            [
+              "أَنْ",
+              "to, that"
+            ],
+            [
+              "تَمْلَأَ",
+              "she fills (after an)"
+            ],
+            [
+              "صَحْنِي",
+              "my plate"
+            ],
+            [
+              "لِلْمَرَّةِ",
+              "for the time (occasion)"
+            ],
+            [
+              "الثَّالِثَة",
+              "the third (f)"
+            ],
+            [
+              "لَا",
+              "not"
+            ],
+            [
+              "أَسْتَطِيعُ",
+              "I can"
+            ],
+            [
+              "أَنْ",
+              "to, that"
+            ],
+            [
+              "آكُلَ",
+              "I eat (after an)"
+            ],
+            [
+              "كُلَّ",
+              "all (of)"
+            ],
+            [
+              "هٰذَا",
+              "this"
+            ]
+          ]
+        },
+        {
+          "id": "etiquette-l12",
+          "sp": "layla",
+          "ar": "اِبْتَسِمْ وَقُلْ: الْحَمْدُ لِلّٰه، شَبِعْتُ، الطَّعَامُ كَانَ لَذِيذًا جِدًّا. سَتَفْهَمُ وَلَنْ تُصِرَّ.",
+          "en": "Smile and say: thank God, I'm full, the food was very delicious. She will understand and won't insist.",
+          "segs": [
+            [
+              "اِبْتَسِمْ",
+              "smile! (to a man)"
+            ],
+            [
+              "وَقُلْ",
+              "and say! (to a man)"
+            ],
+            [
+              "الْحَمْدُ",
+              "the praise"
+            ],
+            [
+              "لِلّٰه",
+              "to God ('al-ḥamdu li-llāh': thank God)"
+            ],
+            [
+              "شَبِعْتُ",
+              "I am full (lit. I became full)"
+            ],
+            [
+              "الطَّعَامُ",
+              "the food"
+            ],
+            [
+              "كَانَ",
+              "(it) was"
+            ],
+            [
+              "لَذِيذًا",
+              "delicious"
+            ],
+            [
+              "جِدًّا",
+              "very"
+            ],
+            [
+              "سَتَفْهَمُ",
+              "(she) will understand"
+            ],
+            [
+              "وَلَنْ",
+              "and will not"
+            ],
+            [
+              "تُصِرَّ",
+              "(she) insists (after lan)"
+            ]
+          ]
+        },
+        {
+          "id": "etiquette-l13",
+          "sp": "daniel",
+          "ar": "وَبَعْدَ الْعَشَاء، هَلْ أَذْهَبُ مُبَاشَرَةً؟ لَا أُرِيدُ أَنْ أَبْقَى أَكْثَرَ مِنَ اللَّازِم.",
+          "en": "And after dinner, do I leave straight away? I don't want to stay longer than I should.",
+          "segs": [
+            [
+              "وَبَعْدَ",
+              "and after"
+            ],
+            [
+              "الْعَشَاء",
+              "the dinner"
+            ],
+            [
+              "هَلْ",
+              "(starts a yes/no question)"
+            ],
+            [
+              "أَذْهَبُ",
+              "I go, I leave"
+            ],
+            [
+              "مُبَاشَرَةً",
+              "straight away, directly"
+            ],
+            [
+              "لَا",
+              "not"
+            ],
+            [
+              "أُرِيدُ",
+              "I want"
+            ],
+            [
+              "أَنْ",
+              "to, that"
+            ],
+            [
+              "أَبْقَى",
+              "I stay (after an)"
+            ],
+            [
+              "أَكْثَرَ",
+              "more"
+            ],
+            [
+              "مِنَ",
+              "than"
+            ],
+            [
+              "اللَّازِم",
+              "the necessary ('than I should')"
+            ]
+          ]
+        },
+        {
+          "id": "etiquette-l14",
+          "sp": "layla",
+          "ar": "لَا تَذْهَبْ مُبَاشَرَةً أَبَدًا! اِجْلِسْ لِلشَّاي وَالْحَدِيث سَاعَةً عَلَى الْأَقَلّ، وَفِي الْيَوْمِ التَّالِي أَرْسِلْ رِسَالَةَ شُكْر لِوَالِدَيْ سَامِي.",
+          "en": "Never leave straight away! Stay for tea and conversation for at least an hour, and the next day send a thank-you message to Sami's parents.",
+          "segs": [
+            [
+              "لَا",
+              "don't (with a verb)"
+            ],
+            [
+              "تَذْهَبْ",
+              "go, leave (to a man, after lā)"
+            ],
+            [
+              "مُبَاشَرَةً",
+              "straight away, directly"
+            ],
+            [
+              "أَبَدًا",
+              "never, not at all"
+            ],
+            [
+              "اِجْلِسْ",
+              "sit! stay! (to a man)"
+            ],
+            [
+              "لِلشَّاي",
+              "for the tea"
+            ],
+            [
+              "وَالْحَدِيث",
+              "and the conversation"
+            ],
+            [
+              "سَاعَةً",
+              "an hour"
+            ],
+            [
+              "عَلَى",
+              "on (in 'at least')"
+            ],
+            [
+              "الْأَقَلّ",
+              "the least ('at least')"
+            ],
+            [
+              "وَفِي",
+              "and on, and in"
+            ],
+            [
+              "الْيَوْمِ",
+              "the day"
+            ],
+            [
+              "التَّالِي",
+              "the following, the next"
+            ],
+            [
+              "أَرْسِلْ",
+              "send! (to a man)"
+            ],
+            [
+              "رِسَالَةَ",
+              "message (of)"
+            ],
+            [
+              "شُكْر",
+              "thanks ('thank-you')"
+            ],
+            [
+              "لِوَالِدَيْ",
+              "to the two parents (of)"
+            ],
+            [
+              "سَامِي",
+              "Sami (first name)",
+              "name"
+            ]
+          ]
+        }
+      ]
+    },
+    "mistakes": [
+      {
+        "wrong": "سَلِّمْ عَلَى الْوَالِدَانِ أَوَّلًا",
+        "right": "سَلِّمْ عَلَى الْوَالِدَيْنِ أَوَّلًا",
+        "why": "After a preposition the dual ends in -ayni: al-wālidayni, not al-wālidāni."
+      },
+      {
+        "wrong": "آكُلُ بِالْيَدِ الْيَمِين",
+        "right": "آكُلُ بِالْيَدِ الْيُمْنَى",
+        "why": "Yad (hand) is feminine, so the adjective is al-yumnā; al-yamīn is the noun 'the right side', as in 'on the right'."
+      }
+    ],
+    "quiz": [
+      {
+        "id": "etiquette-q1",
+        "prompt": "What does Layla tell Daniel to bring instead of the wine?",
+        "options": [
+          "a bottle of perfume",
+          "a box of baklava or some fruit",
+          "flowers",
+          "a book about Chicago"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "etiquette-q2",
+        "prompt": "What does this mean?",
+        "ar": "الْحَمْدُ لِلّٰه، شَبِعْتُ",
+        "options": [
+          "thank God, I'm full",
+          "the food is delicious",
+          "please, go ahead",
+          "I'm still hungry"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "etiquette-q3",
+        "prompt": "What should Daniel do when an older person comes into the room?",
+        "options": [
+          "keep eating",
+          "shake hands with Sami",
+          "stand up",
+          "leave the room"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "etiquette-q4",
+        "prompt": "What does Layla say about leaving after dinner?",
+        "options": [
+          "leave straight after the meal",
+          "leave before the tea",
+          "stay the night",
+          "stay at least an hour for tea and conversation"
+        ],
+        "answer": 3
+      }
+    ]
+  },
+  {
+    "id": "machines",
+    "title": "Using a ticket machine",
+    "emoji": "🎫",
+    "status": "needs-review",
+    "intro": "Daniel stands in front of a ticket machine in a Cairo metro station: the screen is all in Arabic and the machine keeps rejecting his crumpled banknote. Sami happens to be passing and shows him how it works, button by button. Useful phrases: اِضْغَطْ عَلَى الزِّرّ (press the button), الْآلَة لَا تَعْمَل (the machine isn't working) and أَيْنَ أَضَعُ النُّقُود؟ (where do I put the money?).",
+    "dialogue": {
+      "title": "The machine won't take my note",
+      "speakers": [
+        {
+          "key": "daniel",
+          "name": "Daniel",
+          "nameAr": "دَانْيَال"
+        },
+        {
+          "key": "sami",
+          "name": "Sami",
+          "nameAr": "سَامِي"
+        }
+      ],
+      "culture": "The Cairo Metro, opened in 1987, was the first metro in Africa and the Arab world; it now has three lines, and the fare depends on how many stations (مَحَطَّات) you travel, with a different coloured paper ticket for each band. Machines and the ticket window (شُبَّاك التَّذَاكِر) sell single tickets, and you need the ticket at both the entry gate and the exit gate, so keep it until you leave. Two cars in the middle of every train are reserved for women (سَيِّدَات), which men should keep in mind in the rush hour.",
+      "lines": [
+        {
+          "id": "machines-l1",
+          "sp": "daniel",
+          "ar": "عَفْوًا، هَلْ تَسْتَطِيعُ أَنْ تُسَاعِدَنِي؟ هٰذِهِ الْآلَة لَا تَأْخُذُ وَرَقَتِي، وَالشَّاشَة كُلُّهَا بِالْعَرَبِيَّة.",
+          "en": "Excuse me, can you help me? This machine won't take my banknote, and the screen is all in Arabic.",
+          "segs": [
+            [
+              "عَفْوًا",
+              "excuse me"
+            ],
+            [
+              "هَلْ",
+              "(starts a yes/no question)"
+            ],
+            [
+              "تَسْتَطِيعُ",
+              "you can, you are able (to a man)"
+            ],
+            [
+              "أَنْ",
+              "to, that"
+            ],
+            [
+              "تُسَاعِدَنِي",
+              "you help me (to a man, after an)"
+            ],
+            [
+              "هٰذِهِ",
+              "this (f)"
+            ],
+            [
+              "الْآلَة",
+              "the machine"
+            ],
+            [
+              "لَا",
+              "not"
+            ],
+            [
+              "تَأْخُذُ",
+              "(she/it) takes"
+            ],
+            [
+              "وَرَقَتِي",
+              "my banknote (lit. my paper)"
+            ],
+            [
+              "وَالشَّاشَة",
+              "and the screen"
+            ],
+            [
+              "كُلُّهَا",
+              "all of it (f)"
+            ],
+            [
+              "بِالْعَرَبِيَّة",
+              "in Arabic"
+            ]
+          ]
+        },
+        {
+          "id": "machines-l2",
+          "sp": "sami",
+          "ar": "بِكُلِّ سُرُور! أَوَّلًا، اِضْغَطْ عَلَى الزِّرِّ الَّذِي فِيهِ عَلَمٌ لِتَغْيِيرِ اللُّغَة إِلَى الْإِنْجِلِيزِيَّة.",
+          "en": "With pleasure! First, press the button with the flag on it to change the language to English.",
+          "segs": [
+            [
+              "بِكُلِّ",
+              "with all (of)"
+            ],
+            [
+              "سُرُور",
+              "pleasure"
+            ],
+            [
+              "أَوَّلًا",
+              "first, first of all"
+            ],
+            [
+              "اِضْغَطْ",
+              "press (to a man)"
+            ],
+            [
+              "عَلَى",
+              "on"
+            ],
+            [
+              "الزِّرِّ",
+              "the button"
+            ],
+            [
+              "الَّذِي",
+              "which (m)"
+            ],
+            [
+              "فِيهِ",
+              "in it, on it (m)"
+            ],
+            [
+              "عَلَمٌ",
+              "a flag"
+            ],
+            [
+              "لِتَغْيِيرِ",
+              "to change (lit. for the changing of)"
+            ],
+            [
+              "اللُّغَة",
+              "the language"
+            ],
+            [
+              "إِلَى",
+              "to"
+            ],
+            [
+              "الْإِنْجِلِيزِيَّة",
+              "the English (language)"
+            ]
+          ]
+        },
+        {
+          "id": "machines-l3",
+          "sp": "daniel",
+          "ar": "ضَغَطْتُ عَلَيْهِ، وَالْآنَ أَفْهَمُ الشَّاشَة. لٰكِنَّهَا تَسْأَلُنِي عَنْ عَدَدِ الْمَحَطَّات، وَأَنَا لَا أَعْرِفُ كَمْ مَحَطَّة بَيْنَنَا وَبَيْنَ الْمَتْحَف.",
+          "en": "I pressed it, and now I understand the screen. But it's asking me about the number of stations, and I don't know how many stations there are between us and the museum.",
+          "segs": [
+            [
+              "ضَغَطْتُ",
+              "I pressed"
+            ],
+            [
+              "عَلَيْهِ",
+              "on it (m)"
+            ],
+            [
+              "وَالْآنَ",
+              "and now"
+            ],
+            [
+              "أَفْهَمُ",
+              "I understand"
+            ],
+            [
+              "الشَّاشَة",
+              "the screen"
+            ],
+            [
+              "لٰكِنَّهَا",
+              "but it (f)"
+            ],
+            [
+              "تَسْأَلُنِي",
+              "(she/it) asks me"
+            ],
+            [
+              "عَنْ",
+              "about"
+            ],
+            [
+              "عَدَدِ",
+              "number (of)"
+            ],
+            [
+              "الْمَحَطَّات",
+              "the stations"
+            ],
+            [
+              "وَأَنَا",
+              "and I"
+            ],
+            [
+              "لَا",
+              "not"
+            ],
+            [
+              "أَعْرِفُ",
+              "I know"
+            ],
+            [
+              "كَمْ",
+              "how many"
+            ],
+            [
+              "مَحَطَّة",
+              "station (singular after kam)"
+            ],
+            [
+              "بَيْنَنَا",
+              "between us"
+            ],
+            [
+              "وَبَيْنَ",
+              "and between"
+            ],
+            [
+              "الْمَتْحَف",
+              "the museum"
+            ]
+          ]
+        },
+        {
+          "id": "machines-l4",
+          "sp": "sami",
+          "ar": "الْمَتْحَفُ الْمِصْرِيّ فِي مَحَطَّةِ السَّادَات، وَهِيَ الْمَحَطَّةُ الرَّابِعَة مِنْ هُنَا. اِخْتَرِ التَّذْكِرَةَ الْأُولَى: حَتَّى تِسْعِ مَحَطَّات بِثَمَانِيَةِ جُنَيْهَات.",
+          "en": "The Egyptian Museum is at Sadat station, and that's the fourth station from here. Choose the first ticket: up to nine stations for eight pounds.",
+          "segs": [
+            [
+              "الْمَتْحَفُ",
+              "the museum"
+            ],
+            [
+              "الْمِصْرِيّ",
+              "the Egyptian (m)"
+            ],
+            [
+              "فِي",
+              "at, in"
+            ],
+            [
+              "مَحَطَّةِ",
+              "station (of)"
+            ],
+            [
+              "السَّادَات",
+              "Sadat (metro station on Tahrir Square)",
+              "name"
+            ],
+            [
+              "وَهِيَ",
+              "and it (f)"
+            ],
+            [
+              "الْمَحَطَّةُ",
+              "the station"
+            ],
+            [
+              "الرَّابِعَة",
+              "the fourth (f)"
+            ],
+            [
+              "مِنْ",
+              "from"
+            ],
+            [
+              "هُنَا",
+              "here"
+            ],
+            [
+              "اِخْتَرِ",
+              "choose (to a man; -i links to the next word)"
+            ],
+            [
+              "التَّذْكِرَةَ",
+              "the ticket"
+            ],
+            [
+              "الْأُولَى",
+              "the first (f)"
+            ],
+            [
+              "حَتَّى",
+              "up to, until"
+            ],
+            [
+              "تِسْعِ",
+              "nine (of)"
+            ],
+            [
+              "مَحَطَّات",
+              "stations"
+            ],
+            [
+              "بِثَمَانِيَةِ",
+              "for eight"
+            ],
+            [
+              "جُنَيْهَات",
+              "pounds"
+            ]
+          ]
+        },
+        {
+          "id": "machines-l5",
+          "sp": "daniel",
+          "ar": "اِخْتَرْتُهَا. وَالْآنَ، أَيْنَ أَضَعُ النُّقُود؟ أَرَى فَتْحَةً لِلْعُمْلَاتِ الْمَعْدَنِيَّةِ وَفَتْحَةً أُخْرَى، وَلَا أَعْرِفُ أَيَّهُمَا لِلْوَرَقَة.",
+          "en": "I've chosen it. And now, where do I put the money? I see a slot for coins and another slot, and I don't know which of the two is for the note.",
+          "segs": [
+            [
+              "اِخْتَرْتُهَا",
+              "I chose it (f)"
+            ],
+            [
+              "وَالْآنَ",
+              "and now"
+            ],
+            [
+              "أَيْنَ",
+              "where"
+            ],
+            [
+              "أَضَعُ",
+              "I put"
+            ],
+            [
+              "النُّقُود",
+              "the money"
+            ],
+            [
+              "أَرَى",
+              "I see"
+            ],
+            [
+              "فَتْحَةً",
+              "a slot, an opening"
+            ],
+            [
+              "لِلْعُمْلَاتِ",
+              "for the coins (lit. currencies)"
+            ],
+            [
+              "الْمَعْدَنِيَّةِ",
+              "the metal (f): 'coins' with ʿumlāt"
+            ],
+            [
+              "وَفَتْحَةً",
+              "and a slot"
+            ],
+            [
+              "أُخْرَى",
+              "another (f)"
+            ],
+            [
+              "وَلَا",
+              "and not"
+            ],
+            [
+              "أَعْرِفُ",
+              "I know"
+            ],
+            [
+              "أَيَّهُمَا",
+              "which of the two"
+            ],
+            [
+              "لِلْوَرَقَة",
+              "for the banknote"
+            ]
+          ]
+        },
+        {
+          "id": "machines-l6",
+          "sp": "sami",
+          "ar": "الْفَتْحَةُ الْعَرِيضَة لِلْوَرَقَة. ضَعِ الْوَرَقَةَ مَبْسُوطَةً، لِأَنَّ الْآلَةَ لَا تَقْبَلُ الْوَرَقَ الْمَطْوِيَّ أَوِ الْمُجَعَّد.",
+          "en": "The wide slot is for the note. Put the note in flat, because the machine doesn't accept folded or crumpled paper.",
+          "segs": [
+            [
+              "الْفَتْحَةُ",
+              "the slot"
+            ],
+            [
+              "الْعَرِيضَة",
+              "the wide (f)"
+            ],
+            [
+              "لِلْوَرَقَة",
+              "for the banknote"
+            ],
+            [
+              "ضَعِ",
+              "put (to a man; -i links to the next word)"
+            ],
+            [
+              "الْوَرَقَةَ",
+              "the banknote"
+            ],
+            [
+              "مَبْسُوطَةً",
+              "flat, spread out (f)"
+            ],
+            [
+              "لِأَنَّ",
+              "because"
+            ],
+            [
+              "الْآلَةَ",
+              "the machine"
+            ],
+            [
+              "لَا",
+              "not"
+            ],
+            [
+              "تَقْبَلُ",
+              "(she/it) accepts"
+            ],
+            [
+              "الْوَرَقَ",
+              "the paper (money)"
+            ],
+            [
+              "الْمَطْوِيَّ",
+              "the folded"
+            ],
+            [
+              "أَوِ",
+              "or (-i links to the next word)"
+            ],
+            [
+              "الْمُجَعَّد",
+              "the crumpled"
+            ]
+          ]
+        },
+        {
+          "id": "machines-l7",
+          "sp": "daniel",
+          "ar": "حَاوَلْتُ ثَلَاثَ مَرَّات، وَكُلَّ مَرَّة تَرُدُّ الْآلَةُ الْوَرَقَةَ إِلَيَّ! أَظُنُّ أَنَّهَا مُجَعَّدَة جِدًّا مِنْ جَيْبِي.",
+          "en": "I've tried three times, and every time the machine gives the note back to me! I think it's too crumpled from being in my pocket.",
+          "segs": [
+            [
+              "حَاوَلْتُ",
+              "I tried"
+            ],
+            [
+              "ثَلَاثَ",
+              "three (of)"
+            ],
+            [
+              "مَرَّات",
+              "times"
+            ],
+            [
+              "وَكُلَّ",
+              "and every"
+            ],
+            [
+              "مَرَّة",
+              "time (occasion)"
+            ],
+            [
+              "تَرُدُّ",
+              "(she/it) gives back"
+            ],
+            [
+              "الْآلَةُ",
+              "the machine"
+            ],
+            [
+              "الْوَرَقَةَ",
+              "the banknote"
+            ],
+            [
+              "إِلَيَّ",
+              "to me"
+            ],
+            [
+              "أَظُنُّ",
+              "I think"
+            ],
+            [
+              "أَنَّهَا",
+              "that it (f)"
+            ],
+            [
+              "مُجَعَّدَة",
+              "crumpled (f)"
+            ],
+            [
+              "جِدًّا",
+              "very, too"
+            ],
+            [
+              "مِنْ",
+              "from"
+            ],
+            [
+              "جَيْبِي",
+              "my pocket"
+            ]
+          ]
+        },
+        {
+          "id": "machines-l8",
+          "sp": "sami",
+          "ar": "لَا مُشْكِلَة. هَلْ مَعَكَ عُمْلَات مَعْدَنِيَّة أَوْ بِطَاقَة بَنْكِيَّة؟ الْآلَةُ تَقْبَلُ الْبِطَاقَاتَ أَيْضًا، اِضْغَطْ عَلَى زِرِّ الْبِطَاقَة.",
+          "en": "No problem. Do you have coins or a bank card with you? The machine takes cards too, press the card button.",
+          "segs": [
+            [
+              "لَا",
+              "no"
+            ],
+            [
+              "مُشْكِلَة",
+              "problem"
+            ],
+            [
+              "هَلْ",
+              "(starts a yes/no question)"
+            ],
+            [
+              "مَعَكَ",
+              "with you (to a man)"
+            ],
+            [
+              "عُمْلَات",
+              "coins (lit. currencies)"
+            ],
+            [
+              "مَعْدَنِيَّة",
+              "metal (f): 'coins' with ʿumlāt"
+            ],
+            [
+              "أَوْ",
+              "or"
+            ],
+            [
+              "بِطَاقَة",
+              "card"
+            ],
+            [
+              "بَنْكِيَّة",
+              "bank (adjective, f)"
+            ],
+            [
+              "الْآلَةُ",
+              "the machine"
+            ],
+            [
+              "تَقْبَلُ",
+              "(she/it) accepts"
+            ],
+            [
+              "الْبِطَاقَاتَ",
+              "the cards"
+            ],
+            [
+              "أَيْضًا",
+              "also, too"
+            ],
+            [
+              "اِضْغَطْ",
+              "press (to a man)"
+            ],
+            [
+              "عَلَى",
+              "on"
+            ],
+            [
+              "زِرِّ",
+              "button (of)"
+            ],
+            [
+              "الْبِطَاقَة",
+              "the card"
+            ]
+          ]
+        },
+        {
+          "id": "machines-l9",
+          "sp": "daniel",
+          "ar": "ضَغَطْتُ عَلَيْهِ، لٰكِنَّ الشَّاشَةَ الْآنَ تَقُولُ إِنَّ الْآلَةَ لَا تَعْمَل وَإِنَّ عَلَيَّ أَنْ أَسْتَعْمِلَ آلَةً أُخْرَى!",
+          "en": "I pressed it, but now the screen says that the machine isn't working and that I have to use another machine!",
+          "segs": [
+            [
+              "ضَغَطْتُ",
+              "I pressed"
+            ],
+            [
+              "عَلَيْهِ",
+              "on it (m)"
+            ],
+            [
+              "لٰكِنَّ",
+              "but"
+            ],
+            [
+              "الشَّاشَةَ",
+              "the screen"
+            ],
+            [
+              "الْآنَ",
+              "now"
+            ],
+            [
+              "تَقُولُ",
+              "(she/it) says"
+            ],
+            [
+              "إِنَّ",
+              "that (after qāla)"
+            ],
+            [
+              "الْآلَةَ",
+              "the machine"
+            ],
+            [
+              "لَا",
+              "not"
+            ],
+            [
+              "تَعْمَل",
+              "(she/it) works"
+            ],
+            [
+              "وَإِنَّ",
+              "and that"
+            ],
+            [
+              "عَلَيَّ",
+              "on me: 'I have to'"
+            ],
+            [
+              "أَنْ",
+              "to, that"
+            ],
+            [
+              "أَسْتَعْمِلَ",
+              "I use (after an)"
+            ],
+            [
+              "آلَةً",
+              "a machine"
+            ],
+            [
+              "أُخْرَى",
+              "another (f)"
+            ]
+          ]
+        },
+        {
+          "id": "machines-l10",
+          "sp": "sami",
+          "ar": "هٰذَا يَحْدُثُ كَثِيرًا فِي سَاعَةِ الذُّرْوَة. تَعَالَ، الْآلَةُ الثَّانِيَة هُنَاكَ تَعْمَل، أَوْ نَذْهَبُ إِلَى شُبَّاكِ التَّذَاكِرِ عِنْدَ الْمَدْخَل.",
+          "en": "That happens a lot in the rush hour. Come on, the second machine over there is working, or we go to the ticket window by the entrance.",
+          "segs": [
+            [
+              "هٰذَا",
+              "this ('that')"
+            ],
+            [
+              "يَحْدُثُ",
+              "(it) happens"
+            ],
+            [
+              "كَثِيرًا",
+              "a lot, often"
+            ],
+            [
+              "فِي",
+              "in"
+            ],
+            [
+              "سَاعَةِ",
+              "hour (of)"
+            ],
+            [
+              "الذُّرْوَة",
+              "the peak: 'rush hour' with sāʿa"
+            ],
+            [
+              "تَعَالَ",
+              "come (to a man)"
+            ],
+            [
+              "الْآلَةُ",
+              "the machine"
+            ],
+            [
+              "الثَّانِيَة",
+              "the second (f)"
+            ],
+            [
+              "هُنَاكَ",
+              "there, over there"
+            ],
+            [
+              "تَعْمَل",
+              "(she/it) works"
+            ],
+            [
+              "أَوْ",
+              "or"
+            ],
+            [
+              "نَذْهَبُ",
+              "we go"
+            ],
+            [
+              "إِلَى",
+              "to"
+            ],
+            [
+              "شُبَّاكِ",
+              "window (of)"
+            ],
+            [
+              "التَّذَاكِرِ",
+              "the tickets"
+            ],
+            [
+              "عِنْدَ",
+              "at, by"
+            ],
+            [
+              "الْمَدْخَل",
+              "the entrance"
+            ]
+          ]
+        },
+        {
+          "id": "machines-l11",
+          "sp": "daniel",
+          "ar": "الْآلَةُ الثَّانِيَة أَخَذَتْ وَرَقَةَ الْعِشْرِينَ جُنَيْهًا مِنْ مِحْفَظَتِي فَوْرًا! سَمِعْتُ صَوْتًا، فَمَاذَا أَفْعَلُ الْآنَ؟",
+          "en": "The second machine took the twenty-pound note from my wallet straight away! I heard a sound, so what do I do now?",
+          "segs": [
+            [
+              "الْآلَةُ",
+              "the machine"
+            ],
+            [
+              "الثَّانِيَة",
+              "the second (f)"
+            ],
+            [
+              "أَخَذَتْ",
+              "(she/it) took"
+            ],
+            [
+              "وَرَقَةَ",
+              "note (of)"
+            ],
+            [
+              "الْعِشْرِينَ",
+              "the twenty"
+            ],
+            [
+              "جُنَيْهًا",
+              "pound (after a number)"
+            ],
+            [
+              "مِنْ",
+              "from"
+            ],
+            [
+              "مِحْفَظَتِي",
+              "my wallet"
+            ],
+            [
+              "فَوْرًا",
+              "immediately, straight away"
+            ],
+            [
+              "سَمِعْتُ",
+              "I heard"
+            ],
+            [
+              "صَوْتًا",
+              "a sound"
+            ],
+            [
+              "فَمَاذَا",
+              "so what"
+            ],
+            [
+              "أَفْعَلُ",
+              "I do"
+            ],
+            [
+              "الْآنَ",
+              "now"
+            ]
+          ]
+        },
+        {
+          "id": "machines-l12",
+          "sp": "sami",
+          "ar": "خُذِ التَّذْكِرَةَ مِنَ الْفَتْحَةِ السُّفْلَى، وَلَا تَنْسَ الْبَاقِي، اِثْنَيْ عَشَرَ جُنَيْهًا، فِي الصُّنْدُوقِ الصَّغِيرِ تَحْتَهَا.",
+          "en": "Take the ticket from the lower slot, and don't forget the change, twelve pounds, in the little tray underneath it.",
+          "segs": [
+            [
+              "خُذِ",
+              "take (to a man; -i links to the next word)"
+            ],
+            [
+              "التَّذْكِرَةَ",
+              "the ticket"
+            ],
+            [
+              "مِنَ",
+              "from"
+            ],
+            [
+              "الْفَتْحَةِ",
+              "the slot"
+            ],
+            [
+              "السُّفْلَى",
+              "the lower (f)"
+            ],
+            [
+              "وَلَا",
+              "and don't"
+            ],
+            [
+              "تَنْسَ",
+              "forget (to a man)"
+            ],
+            [
+              "الْبَاقِي",
+              "the change (lit. the rest)"
+            ],
+            [
+              "اِثْنَيْ",
+              "two (in 'twelve')"
+            ],
+            [
+              "عَشَرَ",
+              "ten (in 'twelve')"
+            ],
+            [
+              "جُنَيْهًا",
+              "pound (after a number)"
+            ],
+            [
+              "فِي",
+              "in"
+            ],
+            [
+              "الصُّنْدُوقِ",
+              "the box, the tray"
+            ],
+            [
+              "الصَّغِيرِ",
+              "the small"
+            ],
+            [
+              "تَحْتَهَا",
+              "under it (f)"
+            ]
+          ]
+        },
+        {
+          "id": "machines-l13",
+          "sp": "daniel",
+          "ar": "شُكْرًا جَزِيلًا يَا سَامِي! وَمَاذَا أَفْعَلُ بِالتَّذْكِرَةِ عِنْدَ الْبَوَّابَة؟",
+          "en": "Thank you very much, Sami! And what do I do with the ticket at the gate?",
+          "segs": [
+            [
+              "شُكْرًا",
+              "thank you"
+            ],
+            [
+              "جَزِيلًا",
+              "very much"
+            ],
+            [
+              "يَا",
+              "O (used before a name)"
+            ],
+            [
+              "سَامِي",
+              "Sami (first name)",
+              "name"
+            ],
+            [
+              "وَمَاذَا",
+              "and what"
+            ],
+            [
+              "أَفْعَلُ",
+              "I do"
+            ],
+            [
+              "بِالتَّذْكِرَةِ",
+              "with the ticket"
+            ],
+            [
+              "عِنْدَ",
+              "at"
+            ],
+            [
+              "الْبَوَّابَة",
+              "the gate"
+            ]
+          ]
+        },
+        {
+          "id": "machines-l14",
+          "sp": "sami",
+          "ar": "أَدْخِلِ التَّذْكِرَةَ فِي الْبَوَّابَةِ وَخُذْهَا مَرَّةً أُخْرَى مِنَ الْأَعْلَى، وَاحْتَفِظْ بِهَا حَتَّى الْخُرُوج، لِأَنَّكَ تَحْتَاجُهَا عِنْدَ بَوَّابَةِ الْخُرُوجِ أَيْضًا.",
+          "en": "Insert the ticket into the gate and take it again from the top, and keep it until you leave, because you need it at the exit gate too.",
+          "segs": [
+            [
+              "أَدْخِلِ",
+              "insert (to a man; -i links to the next word)"
+            ],
+            [
+              "التَّذْكِرَةَ",
+              "the ticket"
+            ],
+            [
+              "فِي",
+              "into"
+            ],
+            [
+              "الْبَوَّابَةِ",
+              "the gate"
+            ],
+            [
+              "وَخُذْهَا",
+              "and take it (f)"
+            ],
+            [
+              "مَرَّةً",
+              "time (occasion)"
+            ],
+            [
+              "أُخْرَى",
+              "another (f): 'again' with marra"
+            ],
+            [
+              "مِنَ",
+              "from"
+            ],
+            [
+              "الْأَعْلَى",
+              "the top"
+            ],
+            [
+              "وَاحْتَفِظْ",
+              "and keep (to a man)"
+            ],
+            [
+              "بِهَا",
+              "it (f) (with iḥtafiẕ bi-)"
+            ],
+            [
+              "حَتَّى",
+              "until"
+            ],
+            [
+              "الْخُرُوج",
+              "the exit, leaving"
+            ],
+            [
+              "لِأَنَّكَ",
+              "because you (to a man)"
+            ],
+            [
+              "تَحْتَاجُهَا",
+              "you need it (f)"
+            ],
+            [
+              "عِنْدَ",
+              "at"
+            ],
+            [
+              "بَوَّابَةِ",
+              "gate (of)"
+            ],
+            [
+              "الْخُرُوجِ",
+              "the exit"
+            ],
+            [
+              "أَيْضًا",
+              "too"
+            ]
+          ]
+        }
+      ]
+    },
+    "mistakes": [
+      {
+        "wrong": "اِضْغَطِ الزِّرّ",
+        "right": "اِضْغَطْ عَلَى الزِّرّ",
+        "why": "In standard Arabic the verb ḍaghaṭa takes ʿalā: you press on the button, iḍghaṭ ʿalā z-zirr."
+      },
+      {
+        "wrong": "الْآلَة لَا يَعْمَل",
+        "right": "الْآلَة لَا تَعْمَل",
+        "why": "āla (machine) is feminine, so the verb must be feminine too: taʿmal, not yaʿmal."
+      }
+    ],
+    "quiz": [
+      {
+        "id": "machines-q1",
+        "prompt": "Why does the first machine keep giving Daniel's banknote back?",
+        "options": [
+          "it is torn",
+          "it is foreign money",
+          "it is crumpled",
+          "it is too large"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "machines-q2",
+        "prompt": "How much does the ticket for up to nine stations cost?",
+        "options": [
+          "five pounds",
+          "eight pounds",
+          "ten pounds",
+          "twenty pounds"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "machines-q3",
+        "prompt": "Where can they buy a ticket if the machines are not working?",
+        "options": [
+          "at the ticket window by the entrance",
+          "at the museum",
+          "at the bank",
+          "at the next station"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "machines-q4",
+        "prompt": "What does this mean?",
+        "ar": "أَيْنَ أَضَعُ النُّقُود؟",
+        "options": [
+          "Where is the ticket window?",
+          "How much is the ticket?",
+          "Is the machine working?",
+          "Where do I put the money?"
+        ],
+        "answer": 3
+      }
+    ]
+  },
+  {
+    "id": "school",
+    "title": "At the language school",
+    "emoji": "🏫",
+    "status": "needs-review",
+    "intro": "Daniel will be working in Amman for six months, so he goes to a small private language school downtown to enrol in an Arabic course. The secretary asks about his level, and the evening class he wanted turns out to be full. Useful phrases: أُرِيدُ أَنْ أُسَجِّلَ (I want to enrol), الْمُسْتَوَى (the level) and كَمِ الرَّسْم؟ (how much is the fee?).",
+    "dialogue": {
+      "title": "Enrolling in an Arabic course",
+      "speakers": [
+        {
+          "key": "clerk",
+          "name": "Clerk",
+          "nameAr": "الْمُوَظَّفَة"
+        },
+        {
+          "key": "daniel",
+          "name": "Daniel",
+          "nameAr": "دَانْيَال"
+        }
+      ],
+      "culture": "Private language schools in Amman (عَمَّان) teach Modern Standard Arabic (الْفُصْحَى) and usually Jordanian colloquial too, and most place a new student with a short placement test rather than by self-assessment. The working week in Jordan runs from Sunday to Thursday, so a Sunday morning class is perfectly normal and Friday is the day off. Fees are quoted in Jordanian dinars (دِينَار), and a deposit (عُرْبُون) is commonly asked for to hold a place in a small group.",
+      "lines": [
+        {
+          "id": "school-l1",
+          "sp": "clerk",
+          "ar": "صَبَاحُ الْخَيْر، أَهْلًا وَسَهْلًا بِكَ فِي الْمَعْهَد. كَيْفَ أَسْتَطِيعُ أَنْ أُسَاعِدَكَ؟",
+          "en": "Good morning, welcome to the institute. How can I help you?",
+          "segs": [
+            [
+              "صَبَاحُ",
+              "morning (of)"
+            ],
+            [
+              "الْخَيْر",
+              "the goodness"
+            ],
+            [
+              "أَهْلًا",
+              "welcome"
+            ],
+            [
+              "وَسَهْلًا",
+              "and ease (second half of 'welcome')"
+            ],
+            [
+              "بِكَ",
+              "to you (to a man)"
+            ],
+            [
+              "فِي",
+              "in, to"
+            ],
+            [
+              "الْمَعْهَد",
+              "the institute"
+            ],
+            [
+              "كَيْفَ",
+              "how"
+            ],
+            [
+              "أَسْتَطِيعُ",
+              "I can"
+            ],
+            [
+              "أَنْ",
+              "to, that"
+            ],
+            [
+              "أُسَاعِدَكَ",
+              "I help you (to a man, after an)"
+            ]
+          ]
+        },
+        {
+          "id": "school-l2",
+          "sp": "daniel",
+          "ar": "صَبَاحُ النُّور. أُرِيدُ أَنْ أُسَجِّلَ فِي دَوْرَةِ لُغَة عَرَبِيَّة، لِأَنِّي سَأَبْقَى فِي عَمَّان سِتَّةَ أَشْهُر لِلْعَمَل.",
+          "en": "Good morning. I want to enrol in an Arabic language course, because I'll be staying in Amman for six months for work.",
+          "segs": [
+            [
+              "صَبَاحُ",
+              "morning (of)"
+            ],
+            [
+              "النُّور",
+              "the light"
+            ],
+            [
+              "أُرِيدُ",
+              "I want"
+            ],
+            [
+              "أَنْ",
+              "to, that"
+            ],
+            [
+              "أُسَجِّلَ",
+              "I enrol, register (after an)"
+            ],
+            [
+              "فِي",
+              "in"
+            ],
+            [
+              "دَوْرَةِ",
+              "course (of)"
+            ],
+            [
+              "لُغَة",
+              "language"
+            ],
+            [
+              "عَرَبِيَّة",
+              "Arabic (f)"
+            ],
+            [
+              "لِأَنِّي",
+              "because I"
+            ],
+            [
+              "سَأَبْقَى",
+              "I will stay"
+            ],
+            [
+              "فِي",
+              "in"
+            ],
+            [
+              "عَمَّان",
+              "Amman (capital of Jordan)"
+            ],
+            [
+              "سِتَّةَ",
+              "six"
+            ],
+            [
+              "أَشْهُر",
+              "months"
+            ],
+            [
+              "لِلْعَمَل",
+              "for work"
+            ]
+          ]
+        },
+        {
+          "id": "school-l3",
+          "sp": "clerk",
+          "ar": "أَهْلًا بِكَ! عَرَبِيَّتُكَ جَيِّدَة. هَلْ دَرَسْتَ الْعَرَبِيَّةَ قَبْلَ ذٰلِكَ؟ وَمَا مُسْتَوَاكَ فِي رَأْيِكَ؟",
+          "en": "Welcome! Your Arabic is good. Have you studied Arabic before? And what is your level, in your opinion?",
+          "segs": [
+            [
+              "أَهْلًا",
+              "welcome"
+            ],
+            [
+              "بِكَ",
+              "to you (to a man)"
+            ],
+            [
+              "عَرَبِيَّتُكَ",
+              "your Arabic (to a man)"
+            ],
+            [
+              "جَيِّدَة",
+              "good (f)"
+            ],
+            [
+              "هَلْ",
+              "(starts a yes/no question)"
+            ],
+            [
+              "دَرَسْتَ",
+              "you studied (to a man)"
+            ],
+            [
+              "الْعَرَبِيَّةَ",
+              "the Arabic (language)"
+            ],
+            [
+              "قَبْلَ",
+              "before"
+            ],
+            [
+              "ذٰلِكَ",
+              "that"
+            ],
+            [
+              "وَمَا",
+              "and what"
+            ],
+            [
+              "مُسْتَوَاكَ",
+              "your level (to a man)"
+            ],
+            [
+              "فِي",
+              "in"
+            ],
+            [
+              "رَأْيِكَ",
+              "your opinion (to a man)"
+            ]
+          ]
+        },
+        {
+          "id": "school-l4",
+          "sp": "daniel",
+          "ar": "دَرَسْتُ وَحْدِي لِمُدَّةِ ثَلَاثَةِ أَشْهُر بِتَطْبِيق عَلَى الْهَاتِف. أَفْهَمُ كَثِيرًا، لٰكِنِّي أَحْتَاجُ إِلَى مُمَارَسَةِ الْكَلَام.",
+          "en": "I studied on my own for three months with an app on my phone. I understand a lot, but I need to practise speaking.",
+          "segs": [
+            [
+              "دَرَسْتُ",
+              "I studied"
+            ],
+            [
+              "وَحْدِي",
+              "on my own, alone"
+            ],
+            [
+              "لِمُدَّةِ",
+              "for a period (of)"
+            ],
+            [
+              "ثَلَاثَةِ",
+              "three"
+            ],
+            [
+              "أَشْهُر",
+              "months"
+            ],
+            [
+              "بِتَطْبِيق",
+              "with an app"
+            ],
+            [
+              "عَلَى",
+              "on"
+            ],
+            [
+              "الْهَاتِف",
+              "the phone"
+            ],
+            [
+              "أَفْهَمُ",
+              "I understand"
+            ],
+            [
+              "كَثِيرًا",
+              "a lot"
+            ],
+            [
+              "لٰكِنِّي",
+              "but I"
+            ],
+            [
+              "أَحْتَاجُ",
+              "I need"
+            ],
+            [
+              "إِلَى",
+              "to"
+            ],
+            [
+              "مُمَارَسَةِ",
+              "practice (of)"
+            ],
+            [
+              "الْكَلَام",
+              "speaking, talk"
+            ]
+          ]
+        },
+        {
+          "id": "school-l5",
+          "sp": "clerk",
+          "ar": "إِذَنْ سَنُعْطِيكَ امْتِحَانَ تَحْدِيدِ الْمُسْتَوَى الْقَصِير، وَبَعْدَهُ نَضَعُكَ فِي الْمُسْتَوَى الْمُنَاسِب. عِنْدَنَا سِتَّةُ مُسْتَوَيَات.",
+          "en": "Then we'll give you the short placement test, and after it we'll put you in the right level. We have six levels.",
+          "segs": [
+            [
+              "إِذَنْ",
+              "so, then"
+            ],
+            [
+              "سَنُعْطِيكَ",
+              "we will give you (to a man)"
+            ],
+            [
+              "امْتِحَانَ",
+              "test, exam (of)"
+            ],
+            [
+              "تَحْدِيدِ",
+              "determining (of): 'placement'"
+            ],
+            [
+              "الْمُسْتَوَى",
+              "the level"
+            ],
+            [
+              "الْقَصِير",
+              "the short"
+            ],
+            [
+              "وَبَعْدَهُ",
+              "and after it (m)"
+            ],
+            [
+              "نَضَعُكَ",
+              "we put you (to a man)"
+            ],
+            [
+              "فِي",
+              "in"
+            ],
+            [
+              "الْمُسْتَوَى",
+              "the level"
+            ],
+            [
+              "الْمُنَاسِب",
+              "the suitable, right"
+            ],
+            [
+              "عِنْدَنَا",
+              "we have (lit. at us)"
+            ],
+            [
+              "سِتَّةُ",
+              "six"
+            ],
+            [
+              "مُسْتَوَيَات",
+              "levels"
+            ]
+          ]
+        },
+        {
+          "id": "school-l6",
+          "sp": "daniel",
+          "ar": "مُمْتَاز. وَمَا هِيَ أَيَّامُ الدُّرُوسِ وَأَوْقَاتُهَا؟ أَنَا أَعْمَلُ مِنَ الْعَاشِرَةِ حَتَّى السَّادِسَة، فَالْمَسَاءُ أَفْضَلُ لِي.",
+          "en": "Excellent. And what are the days and times of the classes? I work from ten to six, so the evening is better for me.",
+          "segs": [
+            [
+              "مُمْتَاز",
+              "excellent"
+            ],
+            [
+              "وَمَا",
+              "and what"
+            ],
+            [
+              "هِيَ",
+              "she, they (for things): 'are'"
+            ],
+            [
+              "أَيَّامُ",
+              "days (of)"
+            ],
+            [
+              "الدُّرُوسِ",
+              "the lessons, classes"
+            ],
+            [
+              "وَأَوْقَاتُهَا",
+              "and their times (f)"
+            ],
+            [
+              "أَنَا",
+              "I"
+            ],
+            [
+              "أَعْمَلُ",
+              "I work"
+            ],
+            [
+              "مِنَ",
+              "from"
+            ],
+            [
+              "الْعَاشِرَةِ",
+              "the tenth ('ten o'clock')"
+            ],
+            [
+              "حَتَّى",
+              "until"
+            ],
+            [
+              "السَّادِسَة",
+              "the sixth ('six o'clock')"
+            ],
+            [
+              "فَالْمَسَاءُ",
+              "so the evening"
+            ],
+            [
+              "أَفْضَلُ",
+              "better"
+            ],
+            [
+              "لِي",
+              "for me"
+            ]
+          ]
+        },
+        {
+          "id": "school-l7",
+          "sp": "clerk",
+          "ar": "دُرُوسُ الْمَسَاءِ يَوْمَ الْإِثْنَيْنِ وَالْأَرْبِعَاء مِنَ السَّادِسَةِ حَتَّى الثَّامِنَة، لٰكِنَّ هٰذِهِ الْمَجْمُوعَةَ مُمْتَلِئَة لِلْأَسَف.",
+          "en": "The evening classes are on Monday and Wednesday from six to eight, but unfortunately that group is full.",
+          "segs": [
+            [
+              "دُرُوسُ",
+              "lessons (of)"
+            ],
+            [
+              "الْمَسَاءِ",
+              "the evening"
+            ],
+            [
+              "يَوْمَ",
+              "on the day (of)"
+            ],
+            [
+              "الْإِثْنَيْنِ",
+              "Monday"
+            ],
+            [
+              "وَالْأَرْبِعَاء",
+              "and Wednesday"
+            ],
+            [
+              "مِنَ",
+              "from"
+            ],
+            [
+              "السَّادِسَةِ",
+              "the sixth ('six o'clock')"
+            ],
+            [
+              "حَتَّى",
+              "until"
+            ],
+            [
+              "الثَّامِنَة",
+              "the eighth ('eight o'clock')"
+            ],
+            [
+              "لٰكِنَّ",
+              "but"
+            ],
+            [
+              "هٰذِهِ",
+              "this (f)"
+            ],
+            [
+              "الْمَجْمُوعَةَ",
+              "the group"
+            ],
+            [
+              "مُمْتَلِئَة",
+              "full (f)"
+            ],
+            [
+              "لِلْأَسَف",
+              "unfortunately"
+            ]
+          ]
+        },
+        {
+          "id": "school-l8",
+          "sp": "daniel",
+          "ar": "يَا لَلْخَسَارَة! هَلْ هُنَاكَ حَلٌّ آخَر؟ لَا أُرِيدُ أَنْ أَنْتَظِرَ شَهْرًا كَامِلًا بِدُونِ دُرُوس.",
+          "en": "What a pity! Is there another solution? I don't want to wait a whole month without lessons.",
+          "segs": [
+            [
+              "يَا",
+              "oh (calling out)"
+            ],
+            [
+              "لَلْخَسَارَة",
+              "what a loss ('what a pity')"
+            ],
+            [
+              "هَلْ",
+              "(starts a yes/no question)"
+            ],
+            [
+              "هُنَاكَ",
+              "there is"
+            ],
+            [
+              "حَلٌّ",
+              "a solution"
+            ],
+            [
+              "آخَر",
+              "another"
+            ],
+            [
+              "لَا",
+              "not"
+            ],
+            [
+              "أُرِيدُ",
+              "I want"
+            ],
+            [
+              "أَنْ",
+              "to, that"
+            ],
+            [
+              "أَنْتَظِرَ",
+              "I wait (after an)"
+            ],
+            [
+              "شَهْرًا",
+              "a month"
+            ],
+            [
+              "كَامِلًا",
+              "whole, complete"
+            ],
+            [
+              "بِدُونِ",
+              "without"
+            ],
+            [
+              "دُرُوس",
+              "lessons"
+            ]
+          ]
+        },
+        {
+          "id": "school-l9",
+          "sp": "clerk",
+          "ar": "عِنْدَكَ خِيَارَانِ: مَجْمُوعَةُ الصَّبَاحِ يَوْمَ الْأَحَدِ وَالثُّلَاثَاء مِنَ السَّابِعَةِ حَتَّى التَّاسِعَة، أَوْ نَضَعُ اسْمَكَ عَلَى قَائِمَةِ الِانْتِظَار لِلْمَسَاء.",
+          "en": "You have two options: the morning group on Sunday and Tuesday from seven to nine, or we put your name on the waiting list for the evening.",
+          "segs": [
+            [
+              "عِنْدَكَ",
+              "you have (to a man, lit. at you)"
+            ],
+            [
+              "خِيَارَانِ",
+              "two options"
+            ],
+            [
+              "مَجْمُوعَةُ",
+              "group (of)"
+            ],
+            [
+              "الصَّبَاحِ",
+              "the morning"
+            ],
+            [
+              "يَوْمَ",
+              "on the day (of)"
+            ],
+            [
+              "الْأَحَدِ",
+              "Sunday"
+            ],
+            [
+              "وَالثُّلَاثَاء",
+              "and Tuesday"
+            ],
+            [
+              "مِنَ",
+              "from"
+            ],
+            [
+              "السَّابِعَةِ",
+              "the seventh ('seven o'clock')"
+            ],
+            [
+              "حَتَّى",
+              "until"
+            ],
+            [
+              "التَّاسِعَة",
+              "the ninth ('nine o'clock')"
+            ],
+            [
+              "أَوْ",
+              "or"
+            ],
+            [
+              "نَضَعُ",
+              "we put"
+            ],
+            [
+              "اسْمَكَ",
+              "your name (to a man)"
+            ],
+            [
+              "عَلَى",
+              "on"
+            ],
+            [
+              "قَائِمَةِ",
+              "list (of)"
+            ],
+            [
+              "الِانْتِظَار",
+              "the waiting"
+            ],
+            [
+              "لِلْمَسَاء",
+              "for the evening"
+            ]
+          ]
+        },
+        {
+          "id": "school-l10",
+          "sp": "daniel",
+          "ar": "السَّابِعَةُ صَبَاحًا مُبَكِّرَة قَلِيلًا، لٰكِنَّ مَكْتَبِي قَرِيب مِنْ هُنَا. سَأَخْتَارُ مَجْمُوعَةَ الصَّبَاح. وَكَمِ الرَّسْم؟",
+          "en": "Seven in the morning is a little early, but my office is near here. I'll choose the morning group. And how much is the fee?",
+          "segs": [
+            [
+              "السَّابِعَةُ",
+              "the seventh ('seven o'clock')"
+            ],
+            [
+              "صَبَاحًا",
+              "in the morning"
+            ],
+            [
+              "مُبَكِّرَة",
+              "early (f)"
+            ],
+            [
+              "قَلِيلًا",
+              "a little"
+            ],
+            [
+              "لٰكِنَّ",
+              "but"
+            ],
+            [
+              "مَكْتَبِي",
+              "my office"
+            ],
+            [
+              "قَرِيب",
+              "near"
+            ],
+            [
+              "مِنْ",
+              "from"
+            ],
+            [
+              "هُنَا",
+              "here"
+            ],
+            [
+              "سَأَخْتَارُ",
+              "I will choose"
+            ],
+            [
+              "مَجْمُوعَةَ",
+              "group (of)"
+            ],
+            [
+              "الصَّبَاح",
+              "the morning"
+            ],
+            [
+              "وَكَمِ",
+              "and how much (-i links to the next word)"
+            ],
+            [
+              "الرَّسْم",
+              "the fee"
+            ]
+          ]
+        },
+        {
+          "id": "school-l11",
+          "sp": "clerk",
+          "ar": "الرَّسْمُ مِئَة وَعِشْرُونَ دِينَارًا فِي الشَّهْر، وَالْكِتَابُ بِخَمْسَةَ عَشَرَ دِينَارًا. الصَّفُّ فِي الطَّابِقِ الثَّانِي، وَفِيهِ ثَمَانِيَةُ طُلَّاب فَقَط.",
+          "en": "The fee is a hundred and twenty dinars a month, and the textbook is fifteen dinars. The classroom is on the second floor, and there are only eight students in it.",
+          "segs": [
+            [
+              "الرَّسْمُ",
+              "the fee"
+            ],
+            [
+              "مِئَة",
+              "a hundred"
+            ],
+            [
+              "وَعِشْرُونَ",
+              "and twenty"
+            ],
+            [
+              "دِينَارًا",
+              "dinar(s) (singular after 11-99)"
+            ],
+            [
+              "فِي",
+              "in, per"
+            ],
+            [
+              "الشَّهْر",
+              "the month"
+            ],
+            [
+              "وَالْكِتَابُ",
+              "and the book"
+            ],
+            [
+              "بِخَمْسَةَ",
+              "for five (in 'fifteen')"
+            ],
+            [
+              "عَشَرَ",
+              "ten (in 'fifteen')"
+            ],
+            [
+              "دِينَارًا",
+              "dinar(s) (singular after 11-99)"
+            ],
+            [
+              "الصَّفُّ",
+              "the classroom"
+            ],
+            [
+              "فِي",
+              "on, in"
+            ],
+            [
+              "الطَّابِقِ",
+              "the floor (of a building)"
+            ],
+            [
+              "الثَّانِي",
+              "the second"
+            ],
+            [
+              "وَفِيهِ",
+              "and in it (m)"
+            ],
+            [
+              "ثَمَانِيَةُ",
+              "eight"
+            ],
+            [
+              "طُلَّاب",
+              "students"
+            ],
+            [
+              "فَقَط",
+              "only"
+            ]
+          ]
+        },
+        {
+          "id": "school-l12",
+          "sp": "daniel",
+          "ar": "السِّعْرُ مَعْقُول. هَلْ يَجِبُ أَنْ أَدْفَعَ كُلَّ الْمَبْلَغِ الْيَوْم، أَمْ يُمْكِنُنِي أَنْ أَدْفَعَ عُرْبُونًا الْآنَ وَالْبَاقِيَ فِي أَوَّلِ دَرْس؟",
+          "en": "The price is reasonable. Do I have to pay the whole amount today, or can I pay a deposit now and the rest at the first lesson?",
+          "segs": [
+            [
+              "السِّعْرُ",
+              "the price"
+            ],
+            [
+              "مَعْقُول",
+              "reasonable"
+            ],
+            [
+              "هَلْ",
+              "(starts a yes/no question)"
+            ],
+            [
+              "يَجِبُ",
+              "(it) is necessary: 'must'"
+            ],
+            [
+              "أَنْ",
+              "to, that"
+            ],
+            [
+              "أَدْفَعَ",
+              "I pay (after an)"
+            ],
+            [
+              "كُلَّ",
+              "all (of)"
+            ],
+            [
+              "الْمَبْلَغِ",
+              "the amount"
+            ],
+            [
+              "الْيَوْم",
+              "today"
+            ],
+            [
+              "أَمْ",
+              "or (in a question)"
+            ],
+            [
+              "يُمْكِنُنِي",
+              "I can (lit. it is possible for me)"
+            ],
+            [
+              "أَنْ",
+              "to, that"
+            ],
+            [
+              "أَدْفَعَ",
+              "I pay (after an)"
+            ],
+            [
+              "عُرْبُونًا",
+              "a deposit"
+            ],
+            [
+              "الْآنَ",
+              "now"
+            ],
+            [
+              "وَالْبَاقِيَ",
+              "and the rest"
+            ],
+            [
+              "فِي",
+              "at, in"
+            ],
+            [
+              "أَوَّلِ",
+              "first (of)"
+            ],
+            [
+              "دَرْس",
+              "lesson"
+            ]
+          ]
+        },
+        {
+          "id": "school-l13",
+          "sp": "clerk",
+          "ar": "طَبْعًا، عُرْبُونُ ثَلَاثِينَ دِينَارًا يَحْفَظُ مَكَانَكَ. أَكْتُبُ اسْمَكَ الْآنَ، وَامْتِحَانُ الْمُسْتَوَى غَدًا فِي الْعَاشِرَة. أَهْلًا بِكَ فِي مَعْهَدِنَا!",
+          "en": "Of course, a deposit of thirty dinars keeps your place. I'll write your name down now, and the level test is tomorrow at ten. Welcome to our institute!",
+          "segs": [
+            [
+              "طَبْعًا",
+              "of course"
+            ],
+            [
+              "عُرْبُونُ",
+              "a deposit (of)"
+            ],
+            [
+              "ثَلَاثِينَ",
+              "thirty"
+            ],
+            [
+              "دِينَارًا",
+              "dinar(s) (singular after 11-99)"
+            ],
+            [
+              "يَحْفَظُ",
+              "(it) keeps, saves"
+            ],
+            [
+              "مَكَانَكَ",
+              "your place (to a man)"
+            ],
+            [
+              "أَكْتُبُ",
+              "I write"
+            ],
+            [
+              "اسْمَكَ",
+              "your name (to a man)"
+            ],
+            [
+              "الْآنَ",
+              "now"
+            ],
+            [
+              "وَامْتِحَانُ",
+              "and the test (of)"
+            ],
+            [
+              "الْمُسْتَوَى",
+              "the level"
+            ],
+            [
+              "غَدًا",
+              "tomorrow"
+            ],
+            [
+              "فِي",
+              "at"
+            ],
+            [
+              "الْعَاشِرَة",
+              "the tenth ('ten o'clock')"
+            ],
+            [
+              "أَهْلًا",
+              "welcome"
+            ],
+            [
+              "بِكَ",
+              "to you (to a man)"
+            ],
+            [
+              "فِي",
+              "in, to"
+            ],
+            [
+              "مَعْهَدِنَا",
+              "our institute"
+            ]
+          ]
+        },
+        {
+          "id": "school-l14",
+          "sp": "daniel",
+          "ar": "شُكْرًا جَزِيلًا! تَفَضَّلِي، هٰذَا الْعُرْبُون. سَأَكُونُ هُنَا غَدًا فِي الْعَاشِرَةِ تَمَامًا، وَإِنْ شَاءَ اللّٰه سَأَتَكَلَّمُ الْعَرَبِيَّةَ بِطَلَاقَة بَعْدَ سِتَّةِ أَشْهُر.",
+          "en": "Thank you very much! Here you are, this is the deposit. I'll be here tomorrow at ten exactly, and God willing I'll speak Arabic fluently after six months.",
+          "segs": [
+            [
+              "شُكْرًا",
+              "thank you"
+            ],
+            [
+              "جَزِيلًا",
+              "very much"
+            ],
+            [
+              "تَفَضَّلِي",
+              "here you are (to a woman)"
+            ],
+            [
+              "هٰذَا",
+              "this (m)"
+            ],
+            [
+              "الْعُرْبُون",
+              "the deposit"
+            ],
+            [
+              "سَأَكُونُ",
+              "I will be"
+            ],
+            [
+              "هُنَا",
+              "here"
+            ],
+            [
+              "غَدًا",
+              "tomorrow"
+            ],
+            [
+              "فِي",
+              "at"
+            ],
+            [
+              "الْعَاشِرَةِ",
+              "the tenth ('ten o'clock')"
+            ],
+            [
+              "تَمَامًا",
+              "exactly"
+            ],
+            [
+              "وَإِنْ",
+              "and if"
+            ],
+            [
+              "شَاءَ",
+              "(he) willed"
+            ],
+            [
+              "اللّٰه",
+              "God"
+            ],
+            [
+              "سَأَتَكَلَّمُ",
+              "I will speak"
+            ],
+            [
+              "الْعَرَبِيَّةَ",
+              "the Arabic (language)"
+            ],
+            [
+              "بِطَلَاقَة",
+              "fluently"
+            ],
+            [
+              "بَعْدَ",
+              "after"
+            ],
+            [
+              "سِتَّةِ",
+              "six"
+            ],
+            [
+              "أَشْهُر",
+              "months"
+            ]
+          ]
+        }
+      ]
+    },
+    "mistakes": [
+      {
+        "wrong": "أُرِيدُ أَنْ أُسَجِّلُ",
+        "right": "أُرِيدُ أَنْ أُسَجِّلَ",
+        "why": "After an the verb takes the subjunctive ending -a: urīdu an usajjila, not usajjilu."
+      },
+      {
+        "wrong": "الرَّسْمُ مِئَة وَعِشْرُونَ دَنَانِير",
+        "right": "الرَّسْمُ مِئَة وَعِشْرُونَ دِينَارًا",
+        "why": "After the numbers 11 to 99 the counted noun is singular and accusative: ʿishrūna dīnāran, never the plural danānīr."
+      }
+    ],
+    "quiz": [
+      {
+        "id": "school-q1",
+        "prompt": "On which days is the morning group?",
+        "options": [
+          "Monday and Wednesday",
+          "Sunday and Tuesday",
+          "Saturday and Thursday",
+          "Tuesday and Thursday"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "school-q2",
+        "prompt": "Why can't Daniel join the evening class?",
+        "options": [
+          "It is too expensive.",
+          "It starts too early.",
+          "The group is full.",
+          "It is on Friday."
+        ],
+        "answer": 2
+      },
+      {
+        "id": "school-q3",
+        "prompt": "How much is the fee per month?",
+        "options": [
+          "15 dinars",
+          "30 dinars",
+          "150 dinars",
+          "120 dinars"
+        ],
+        "answer": 3
+      },
+      {
+        "id": "school-q4",
+        "prompt": "What does this mean?",
+        "ar": "أُرِيدُ أَنْ أُسَجِّلَ",
+        "options": [
+          "I want to enrol.",
+          "I want to pay.",
+          "I want to wait.",
+          "I want to choose."
+        ],
+        "answer": 0
+      }
+    ]
   }
 ]

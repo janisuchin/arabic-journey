@@ -3,7 +3,7 @@
 import { existsSync } from 'node:fs';
 import { join } from 'node:path';
 
-import { culture, days, scenarios, vocabulary, grammar, letters, placards } from '../src/content';
+import { culture, days, scenarios, scenes, vocabulary, grammar, letters, placards } from '../src/content';
 import { validateAll } from '../src/content/validate';
 
 const errs = validateAll();
@@ -21,9 +21,20 @@ for (const ch of culture)
   for (const p of [ch.hero, ...ch.sections.map((s) => s.photo)])
     if (p && !existsSync(join(root, 'assets/culture', p.file)))
       errs.push({ where: `culture ${ch.id}`, message: `missing photo assets/culture/${p.file}` });
+// Scene photos: one licensed photo per scenario, the file must exist and no photo may be used twice.
+for (const s of scenes) {
+  if (!existsSync(join(root, 'assets/scenes', s.file)))
+    errs.push({ where: `scene ${s.scenario}`, message: `missing photo assets/scenes/${s.file}` });
+  if (seen.has(s.file))
+    errs.push({ where: `scene ${s.scenario}`, message: `photo ${s.file} is also used by ${seen.get(s.file)}` });
+  seen.set(s.file, `scene ${s.scenario}`);
+}
+const withoutScene = scenarios.filter((sc) => !scenes.some((s) => s.scenario === sc.id)).map((sc) => sc.id);
+if (withoutScene.length) errs.push({ where: 'scenes', message: `scenarios without a scene photo: ${withoutScene.join(', ')}` });
 console.log(
   `content: ${days.length} days, ${vocabulary.length} words, ${grammar.length} grammar rules, ` +
-    `${letters.length} letters, ${scenarios.length} scenarios, ${placards.length} placards, ${culture.length} culture chapters`,
+    `${letters.length} letters, ${scenarios.length} scenarios (${scenes.length} scene photos), ${placards.length} placards, ` +
+    `${culture.length} culture chapters`,
 );
 for (const e of errs) console.log(`  ✗ ${e.where}: ${e.message}`);
 console.log(`errors: ${errs.length}`);

@@ -1,0 +1,4533 @@
+{
+  "cafe": {
+    "query": "Amman cafe interior tea",
+    "title": "File:Inbound5066053888189486970.jpg",
+    "file": "cafe.jpg",
+    "width": 1280,
+    "height": 691,
+    "credit": {
+      "title": "File:Inbound5066053888189486970.jpg",
+      "author": "Nesrenrafat",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Inbound5066053888189486970.jpg",
+      "accessed": "2026-11-12",
+      "modified": "resized and re-encoded",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "alt": "Two men stand behind the counter of a traditional coffeehouse, surrounded by rows of shisha pipes, hanging cups, glasses and plates.",
+    "caption": "A Cairo coffeehouse (مَقْهَى): tea in small glasses, shisha pipes on the shelves and the waiter (النَّادِل) behind the counter.",
+    "spots": [
+      {
+        "box": {
+          "x": 23,
+          "y": 27,
+          "w": 24,
+          "h": 50
+        },
+        "ar": "النَّادِل",
+        "en": "the waiter",
+        "note": "Call him with لَوْ سَمَحْتَ (excuse me)."
+      },
+      {
+        "box": {
+          "x": 58,
+          "y": 17,
+          "w": 10,
+          "h": 33
+        },
+        "ar": "الشِّيشَة",
+        "en": "the shisha pipe",
+        "note": "In the Levant it is called الْأَرْجِيلَة."
+      },
+      {
+        "box": {
+          "x": 10,
+          "y": 52,
+          "w": 30,
+          "h": 18
+        },
+        "ar": "الْخُرْطُوم",
+        "en": "the hose"
+      },
+      {
+        "box": {
+          "x": 61,
+          "y": 36,
+          "w": 14,
+          "h": 45
+        },
+        "ar": "الرَّجُل",
+        "en": "the man"
+      },
+      {
+        "box": {
+          "x": 63,
+          "y": 36,
+          "w": 7,
+          "h": 9
+        },
+        "ar": "الْقُبَّعَة",
+        "en": "the hat"
+      },
+      {
+        "box": {
+          "x": 46,
+          "y": 53,
+          "w": 12,
+          "h": 13
+        },
+        "ar": "الْفَنَاجِين",
+        "en": "the cups",
+        "note": "Singular: فِنْجَان, a small cup for coffee or tea."
+      },
+      {
+        "box": {
+          "x": 52,
+          "y": 80,
+          "w": 20,
+          "h": 12
+        },
+        "ar": "الْأَكْوَاب",
+        "en": "the tea glasses",
+        "note": "Tea comes in a small glass; ask for شَاي بِنَعْنَاع, tea with mint."
+      },
+      {
+        "box": {
+          "x": 76,
+          "y": 82,
+          "w": 10,
+          "h": 10
+        },
+        "ar": "الصُّحُون",
+        "en": "the plates"
+      },
+      {
+        "box": {
+          "x": 70,
+          "y": 74,
+          "w": 10,
+          "h": 10
+        },
+        "ar": "الْإِبْرِيق",
+        "en": "the pot"
+      },
+      {
+        "box": {
+          "x": 70,
+          "y": 33,
+          "w": 6,
+          "h": 17
+        },
+        "ar": "الْمِرْطَبَان",
+        "en": "the jar"
+      },
+      {
+        "box": {
+          "x": 0,
+          "y": 0,
+          "w": 80,
+          "h": 11
+        },
+        "ar": "الرَّفّ",
+        "en": "the shelf"
+      },
+      {
+        "box": {
+          "x": 0,
+          "y": 90,
+          "w": 100,
+          "h": 10
+        },
+        "ar": "الْمِنْضَدَة",
+        "en": "the counter"
+      }
+    ],
+    "hand": {
+      "الْأَرْجِيلَة": "the shisha pipe (Levantine word)",
+      "بِنَعْنَاع": "with mint"
+    }
+  },
+  "taxi": {
+    "query": "Cairo taxi street",
+    "title": "File:Lada VAZ-2107, Taxi in Damanhour, 2019-1.jpg",
+    "file": "taxi.jpg",
+    "width": 1280,
+    "height": 655,
+    "credit": {
+      "title": "File:Lada VAZ-2107, Taxi in Damanhour, 2019-1.jpg",
+      "author": "Faris El-Gwely",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Lada_VAZ-2107,_Taxi_in_Damanhour,_2019-1.jpg",
+      "accessed": "2026-11-12",
+      "modified": "resized and re-encoded",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "alt": "A white taxi drives along a sunny city street lined with tall apartment buildings, palm trees, shop signs and a few pedestrians.",
+    "caption": "A street in Egypt: the taxi (التَّاكْسِي) waits in the road while people cross between the buildings and shop signs.",
+    "spots": [
+      {
+        "box": {
+          "x": 31,
+          "y": 79,
+          "w": 12,
+          "h": 15
+        },
+        "ar": "التَّاكْسِي",
+        "en": "the taxi",
+        "note": "Agree the fare first, or ask for the meter: الْعَدَّاد."
+      },
+      {
+        "box": {
+          "x": 0,
+          "y": 78,
+          "w": 10,
+          "h": 19
+        },
+        "ar": "السَّيَّارَة",
+        "en": "the car"
+      },
+      {
+        "box": {
+          "x": 10,
+          "y": 88,
+          "w": 60,
+          "h": 12
+        },
+        "ar": "الشَّارِع",
+        "en": "the street"
+      },
+      {
+        "box": {
+          "x": 42,
+          "y": 0,
+          "w": 18,
+          "h": 72
+        },
+        "ar": "الْبِنَايَة",
+        "en": "the building"
+      },
+      {
+        "box": {
+          "x": 49,
+          "y": 50,
+          "w": 8,
+          "h": 35
+        },
+        "ar": "النَّخْلَة",
+        "en": "the palm tree"
+      },
+      {
+        "box": {
+          "x": 60,
+          "y": 64,
+          "w": 8,
+          "h": 8
+        },
+        "ar": "اللَّافِتَة",
+        "en": "the sign"
+      },
+      {
+        "box": {
+          "x": 53,
+          "y": 73,
+          "w": 6,
+          "h": 20
+        },
+        "ar": "الرَّجُل",
+        "en": "the man"
+      },
+      {
+        "box": {
+          "x": 60,
+          "y": 86,
+          "w": 40,
+          "h": 10
+        },
+        "ar": "الرَّصِيف",
+        "en": "the pavement"
+      },
+      {
+        "box": {
+          "x": 73,
+          "y": 62,
+          "w": 22,
+          "h": 8
+        },
+        "ar": "الصَّيْدَلِيَّة",
+        "en": "the pharmacy",
+        "note": "The sign reads صَيْدَلِيَّة, pharmacy."
+      },
+      {
+        "box": {
+          "x": 80,
+          "y": 43,
+          "w": 8,
+          "h": 19
+        },
+        "ar": "الْإِعْلَان",
+        "en": "the advertisement"
+      },
+      {
+        "box": {
+          "x": 8,
+          "y": 0,
+          "w": 30,
+          "h": 25
+        },
+        "ar": "السَّمَاء",
+        "en": "the sky"
+      },
+      {
+        "box": {
+          "x": 10,
+          "y": 76,
+          "w": 5,
+          "h": 7
+        },
+        "ar": "الْحَافِلَة",
+        "en": "the bus"
+      },
+      {
+        "box": {
+          "x": 60,
+          "y": 72,
+          "w": 10,
+          "h": 12
+        },
+        "ar": "الْمَحَلّ",
+        "en": "the shop"
+      }
+    ],
+    "hand": {
+      "الْعَدَّاد": "the meter (in a taxi)"
+    }
+  },
+  "morning-routine": {
+    "query": "Arabic breakfast table bread cheese tea",
+    "title": "File:Levantine breakfast JO.jpg",
+    "file": "morning-routine.jpg",
+    "width": 1280,
+    "height": 720,
+    "credit": {
+      "title": "File:Levantine breakfast JO.jpg",
+      "author": "Freedom's Falcon",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Levantine_breakfast_JO.jpg",
+      "accessed": "2026-11-12",
+      "modified": "resized and re-encoded",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "alt": "A breakfast seen from above on a wooden table: a round metal tray of small bowls with olives, labneh and zaatar, red teapots, a glass of tea, bread and a plate with cutlery.",
+    "caption": "A Levantine breakfast (فُطُور): labneh, zaatar with oil, olives and bread, with tea (شَاي) poured from the red teapot.",
+    "spots": [
+      {
+        "box": {
+          "x": 30,
+          "y": 9,
+          "w": 38,
+          "h": 60
+        },
+        "ar": "الصِّينِيَّة",
+        "en": "the tray"
+      },
+      {
+        "box": {
+          "x": 7,
+          "y": 59,
+          "w": 17,
+          "h": 38
+        },
+        "ar": "الْإِبْرِيق",
+        "en": "the teapot"
+      },
+      {
+        "box": {
+          "x": 30,
+          "y": 74,
+          "w": 9,
+          "h": 19
+        },
+        "ar": "الشَّاي",
+        "en": "the tea",
+        "note": "Served in a small glass; ask for it بِدُونِ سُكَّر, without sugar."
+      },
+      {
+        "box": {
+          "x": 36,
+          "y": 44,
+          "w": 12,
+          "h": 20
+        },
+        "ar": "الزَّيْتُون",
+        "en": "the olives"
+      },
+      {
+        "box": {
+          "x": 38,
+          "y": 10,
+          "w": 12,
+          "h": 18
+        },
+        "ar": "اللَّبْنَة",
+        "en": "the labneh",
+        "note": "Thick strained yogurt, eaten with olive oil and bread."
+      },
+      {
+        "box": {
+          "x": 30,
+          "y": 24,
+          "w": 11,
+          "h": 20
+        },
+        "ar": "الزَّعْتَر",
+        "en": "the zaatar",
+        "note": "A thyme and sesame mix; dip bread in oil, then in zaatar."
+      },
+      {
+        "box": {
+          "x": 51,
+          "y": 37,
+          "w": 12,
+          "h": 21
+        },
+        "ar": "اللَّبَن",
+        "en": "the yogurt"
+      },
+      {
+        "box": {
+          "x": 56,
+          "y": 80,
+          "w": 11,
+          "h": 12
+        },
+        "ar": "الْخُبْز",
+        "en": "the bread"
+      },
+      {
+        "box": {
+          "x": 53,
+          "y": 58,
+          "w": 25,
+          "h": 39
+        },
+        "ar": "الصَّحْن",
+        "en": "the plate"
+      },
+      {
+        "box": {
+          "x": 65,
+          "y": 50,
+          "w": 6,
+          "h": 30
+        },
+        "ar": "الشَّوْكَة",
+        "en": "the fork"
+      },
+      {
+        "box": {
+          "x": 69,
+          "y": 62,
+          "w": 7,
+          "h": 34
+        },
+        "ar": "السِّكِّين",
+        "en": "the knife"
+      },
+      {
+        "box": {
+          "x": 83,
+          "y": 17,
+          "w": 6,
+          "h": 10
+        },
+        "ar": "الْمِلْعَقَة",
+        "en": "the spoon"
+      },
+      {
+        "box": {
+          "x": 7,
+          "y": 51,
+          "w": 14,
+          "h": 18
+        },
+        "ar": "الْمِنْدِيل",
+        "en": "the napkin"
+      },
+      {
+        "box": {
+          "x": 13,
+          "y": 0,
+          "w": 16,
+          "h": 35
+        },
+        "ar": "الْمَنْقُوشَة",
+        "en": "the cheese flatbread",
+        "note": "Manousheh: flatbread baked with cheese or zaatar."
+      },
+      {
+        "box": {
+          "x": 41,
+          "y": 72,
+          "w": 11,
+          "h": 18
+        },
+        "ar": "الطَّاوِلَة",
+        "en": "the table"
+      }
+    ],
+    "hand": {
+      "بِدُونِ": "without"
+    }
+  },
+  "appointment-time": {
+    "query": "clinic reception desk waiting room",
+    "title": "File:A waiting room at a medical healthcare clinic, doctor's office, hospital.jpg",
+    "file": "appointment-time.jpg",
+    "width": 1280,
+    "height": 960,
+    "credit": {
+      "title": "File:A waiting room at a medical healthcare clinic, doctor's office, hospital.jpg",
+      "author": "Harrison Keely",
+      "license": "CC BY 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:A_waiting_room_at_a_medical_healthcare_clinic,_doctor%27s_office,_hospital.jpg",
+      "accessed": "2026-11-12",
+      "modified": "resized and re-encoded",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+    },
+    "alt": "An empty clinic waiting room with black armchairs along a grey wall, a television, a glass door with an exit sign and a small wooden table with tissues and hand sanitizer.",
+    "caption": "The waiting room (غُرْفَةُ الِانْتِظَار): sit down, and the receptionist (الْمُوَظَّفَة) will call your name.",
+    "spots": [
+      {
+        "box": {
+          "x": 53,
+          "y": 60,
+          "w": 21,
+          "h": 32
+        },
+        "ar": "الْكُرْسِيّ",
+        "en": "the chair",
+        "note": "تَفَضَّلْ، اِجْلِسْ: please, sit down."
+      },
+      {
+        "box": {
+          "x": 22,
+          "y": 46,
+          "w": 50,
+          "h": 20
+        },
+        "ar": "الْكَرَاسِيّ",
+        "en": "the chairs"
+      },
+      {
+        "box": {
+          "x": 37,
+          "y": 22,
+          "w": 17,
+          "h": 14
+        },
+        "ar": "التِّلْفَاز",
+        "en": "the television"
+      },
+      {
+        "box": {
+          "x": 78,
+          "y": 26,
+          "w": 11,
+          "h": 33
+        },
+        "ar": "الْبَاب",
+        "en": "the door"
+      },
+      {
+        "box": {
+          "x": 82,
+          "y": 17,
+          "w": 7,
+          "h": 5
+        },
+        "ar": "الْمَخْرَج",
+        "en": "the exit",
+        "note": "On signs in the Arab world you read مَخْرَج instead of EXIT."
+      },
+      {
+        "box": {
+          "x": 4,
+          "y": 59,
+          "w": 18,
+          "h": 36
+        },
+        "ar": "الطَّاوِلَة",
+        "en": "the table"
+      },
+      {
+        "box": {
+          "x": 12,
+          "y": 58,
+          "w": 7,
+          "h": 5
+        },
+        "ar": "الْكِتَاب",
+        "en": "the book"
+      },
+      {
+        "box": {
+          "x": 9,
+          "y": 63,
+          "w": 6,
+          "h": 5
+        },
+        "ar": "الْمَنَادِيل",
+        "en": "the tissues"
+      },
+      {
+        "box": {
+          "x": 8,
+          "y": 53,
+          "w": 4,
+          "h": 9
+        },
+        "ar": "الْمُعَقِّم",
+        "en": "the hand sanitizer"
+      },
+      {
+        "box": {
+          "x": 25,
+          "y": 72,
+          "w": 28,
+          "h": 25
+        },
+        "ar": "الْأَرْضِيَّة",
+        "en": "the floor"
+      },
+      {
+        "box": {
+          "x": 57,
+          "y": 16,
+          "w": 13,
+          "h": 28
+        },
+        "ar": "الْجِدَار",
+        "en": "the wall"
+      },
+      {
+        "box": {
+          "x": 15,
+          "y": 0,
+          "w": 60,
+          "h": 12
+        },
+        "ar": "السَّقْف",
+        "en": "the ceiling"
+      },
+      {
+        "box": {
+          "x": 0,
+          "y": 60,
+          "w": 7,
+          "h": 10
+        },
+        "ar": "الِاسْتِقْبَال",
+        "en": "the reception counter"
+      }
+    ],
+    "hand": {
+      "الْمُوَظَّفَة": "the (female) employee, the receptionist"
+    }
+  },
+  "restaurant": {
+    "query": "Lebanese restaurant table mezze",
+    "title": "File:Syria, Al-Husn, Arabic meze or mezze.jpg",
+    "file": "restaurant.jpg",
+    "width": 1280,
+    "height": 960,
+    "credit": {
+      "title": "File:Syria, Al-Husn, Arabic meze or mezze.jpg",
+      "author": "Vyacheslav Argenberg",
+      "license": "CC BY 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Syria,_Al-Husn,_Arabic_meze_or_mezze.jpg",
+      "accessed": "2026-11-12",
+      "modified": "resized and re-encoded",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+    },
+    "alt": "A round patterned plate of mezze on a green tablecloth, seen from above: olives, hummus, a potato salad, pickles, green peppers and a yogurt dip.",
+    "caption": "A plate of mezze (مَزَّة), the small dishes that start an Arab meal: hummus, olives, pickles and salads.",
+    "spots": [
+      {
+        "box": {
+          "x": 21,
+          "y": 7,
+          "w": 62,
+          "h": 85
+        },
+        "ar": "الصَّحْن",
+        "en": "the plate"
+      },
+      {
+        "box": {
+          "x": 41,
+          "y": 33,
+          "w": 18,
+          "h": 30
+        },
+        "ar": "الزَّيْتُون",
+        "en": "the olives"
+      },
+      {
+        "box": {
+          "x": 50,
+          "y": 12,
+          "w": 16,
+          "h": 24
+        },
+        "ar": "الْحُمُّص",
+        "en": "the hummus",
+        "note": "Scoop it up with bread, never with a fork."
+      },
+      {
+        "box": {
+          "x": 57,
+          "y": 28,
+          "w": 21,
+          "h": 32
+        },
+        "ar": "السَّلَطَة",
+        "en": "the salad"
+      },
+      {
+        "box": {
+          "x": 24,
+          "y": 38,
+          "w": 17,
+          "h": 22
+        },
+        "ar": "الْبَطَاطِس",
+        "en": "the potatoes"
+      },
+      {
+        "box": {
+          "x": 49,
+          "y": 42,
+          "w": 12,
+          "h": 48
+        },
+        "ar": "الْمُخَلَّل",
+        "en": "the pickle",
+        "note": "Pickled cucumber, served with most meals."
+      },
+      {
+        "box": {
+          "x": 29,
+          "y": 45,
+          "w": 20,
+          "h": 32
+        },
+        "ar": "الْفُلْفُل",
+        "en": "the chili pepper",
+        "note": "Ask: هَلْ هُوَ حَارّ؟ Is it hot?"
+      },
+      {
+        "box": {
+          "x": 36,
+          "y": 65,
+          "w": 18,
+          "h": 23
+        },
+        "ar": "اللَّبَن",
+        "en": "the yogurt"
+      },
+      {
+        "box": {
+          "x": 82,
+          "y": 2,
+          "w": 16,
+          "h": 25
+        },
+        "ar": "الْمَفْرَش",
+        "en": "the tablecloth"
+      },
+      {
+        "box": {
+          "x": 0,
+          "y": 0,
+          "w": 22,
+          "h": 30
+        },
+        "ar": "الْمِنْدِيل",
+        "en": "the napkin"
+      }
+    ],
+    "hand": {
+      "مَزَّة": "mezze (small starter dishes)"
+    }
+  },
+  "bakery": {
+    "query": "Egyptian bakery baladi bread",
+    "title": "File:Egyptian Bakery.jpg",
+    "file": "bakery.jpg",
+    "width": 1280,
+    "height": 852,
+    "credit": {
+      "title": "File:Egyptian Bakery.jpg",
+      "author": "Yasser ahmed1",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Egyptian_Bakery.jpg",
+      "accessed": "2026-11-12",
+      "modified": "resized and re-encoded",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "alt": "Inside a dark old bakery, a baker in a long white robe carries a tray of bread on his shoulder as sunbeams fall through the roof beside a large oven.",
+    "caption": "An old bakery (مَخْبَز) in Cairo: the baker (الْخَبَّاز) carries hot bread from the oven on a wooden tray.",
+    "spots": [
+      {
+        "box": {
+          "x": 8,
+          "y": 42,
+          "w": 18,
+          "h": 56
+        },
+        "ar": "الْخَبَّاز",
+        "en": "the baker"
+      },
+      {
+        "box": {
+          "x": 17,
+          "y": 36,
+          "w": 14,
+          "h": 7
+        },
+        "ar": "الْخُبْز",
+        "en": "the bread",
+        "note": "In Egypt people call bread عَيْش, which also means life."
+      },
+      {
+        "box": {
+          "x": 16,
+          "y": 36,
+          "w": 16,
+          "h": 10
+        },
+        "ar": "الصِّينِيَّة",
+        "en": "the tray"
+      },
+      {
+        "box": {
+          "x": 46,
+          "y": 30,
+          "w": 54,
+          "h": 50
+        },
+        "ar": "الْفُرْن",
+        "en": "the oven"
+      },
+      {
+        "box": {
+          "x": 85,
+          "y": 67,
+          "w": 15,
+          "h": 13
+        },
+        "ar": "النَّار",
+        "en": "the fire"
+      },
+      {
+        "box": {
+          "x": 3,
+          "y": 32,
+          "w": 12,
+          "h": 22
+        },
+        "ar": "النَّافِذَة",
+        "en": "the window"
+      },
+      {
+        "box": {
+          "x": 35,
+          "y": 2,
+          "w": 45,
+          "h": 30
+        },
+        "ar": "الضَّوْء",
+        "en": "the light"
+      },
+      {
+        "box": {
+          "x": 26,
+          "y": 80,
+          "w": 30,
+          "h": 19
+        },
+        "ar": "الْأَرْضِيَّة",
+        "en": "the floor"
+      },
+      {
+        "box": {
+          "x": 60,
+          "y": 72,
+          "w": 30,
+          "h": 25
+        },
+        "ar": "الْخُرْطُوم",
+        "en": "the hose"
+      },
+      {
+        "box": {
+          "x": 9,
+          "y": 50,
+          "w": 16,
+          "h": 40
+        },
+        "ar": "الْجَلَّابِيَّة",
+        "en": "the gallabiya robe",
+        "note": "The long loose robe many Egyptian men wear."
+      },
+      {
+        "box": {
+          "x": 0,
+          "y": 0,
+          "w": 35,
+          "h": 18
+        },
+        "ar": "السَّقْف",
+        "en": "the ceiling"
+      },
+      {
+        "box": {
+          "x": 15,
+          "y": 90,
+          "w": 7,
+          "h": 8
+        },
+        "ar": "الْحِذَاء",
+        "en": "the shoes"
+      },
+      {
+        "box": {
+          "x": 36,
+          "y": 60,
+          "w": 9,
+          "h": 20
+        },
+        "ar": "الطَّاوِلَة",
+        "en": "the table"
+      }
+    ],
+    "hand": {
+      "مَخْبَز": "bakery"
+    }
+  },
+  "directions": {
+    "query": "Amman street sign",
+    "title": "File:Amman Street Signs (2).JPG",
+    "file": "directions.jpg",
+    "width": 1280,
+    "height": 960,
+    "credit": {
+      "title": "File:Amman Street Signs (2).JPG",
+      "author": "Producer",
+      "license": "CC BY 2.5",
+      "source": "https://commons.wikimedia.org/wiki/File:Amman_Street_Signs_(2).JPG",
+      "accessed": "2026-11-12",
+      "modified": "resized and re-encoded",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5"
+    },
+    "alt": "Green bilingual street signs and a traffic light on a red signal stand on a pole in front of stone houses and trees in a hilly city.",
+    "caption": "Street signs in Amman: ش. is short for شَارِع (street). At the traffic light (الْإِشَارَة) ask: أَيْنَ…؟ Where is…?",
+    "spots": [
+      {
+        "box": {
+          "x": 48,
+          "y": 60,
+          "w": 13,
+          "h": 35
+        },
+        "ar": "الْإِشَارَة",
+        "en": "the traffic light",
+        "note": "Directions often say: عِنْدَ الْإِشَارَة, at the traffic light."
+      },
+      {
+        "box": {
+          "x": 27,
+          "y": 42,
+          "w": 25,
+          "h": 18
+        },
+        "ar": "اللَّافِتَة",
+        "en": "the street sign",
+        "note": "Read the first word: ش. = شَارِع, street."
+      },
+      {
+        "box": {
+          "x": 40,
+          "y": 54,
+          "w": 10,
+          "h": 6
+        },
+        "ar": "السَّهْم",
+        "en": "the arrow",
+        "note": "Pointing يَسَارًا, to the left."
+      },
+      {
+        "box": {
+          "x": 50,
+          "y": 0,
+          "w": 7,
+          "h": 58
+        },
+        "ar": "الْعَمُود",
+        "en": "the pole"
+      },
+      {
+        "box": {
+          "x": 41,
+          "y": 15,
+          "w": 7,
+          "h": 13
+        },
+        "ar": "الْكَامِيرَا",
+        "en": "the camera"
+      },
+      {
+        "box": {
+          "x": 10,
+          "y": 28,
+          "w": 35,
+          "h": 44
+        },
+        "ar": "الْبَيْت",
+        "en": "the house"
+      },
+      {
+        "box": {
+          "x": 62,
+          "y": 22,
+          "w": 35,
+          "h": 60
+        },
+        "ar": "الشَّجَرَة",
+        "en": "the tree"
+      },
+      {
+        "box": {
+          "x": 75,
+          "y": 2,
+          "w": 25,
+          "h": 28
+        },
+        "ar": "الْبِنَايَة",
+        "en": "the building"
+      },
+      {
+        "box": {
+          "x": 0,
+          "y": 0,
+          "w": 40,
+          "h": 25
+        },
+        "ar": "السَّمَاء",
+        "en": "the sky"
+      },
+      {
+        "box": {
+          "x": 18,
+          "y": 60,
+          "w": 12,
+          "h": 10
+        },
+        "ar": "النَّافِذَة",
+        "en": "the window"
+      },
+      {
+        "box": {
+          "x": 14,
+          "y": 36,
+          "w": 30,
+          "h": 7
+        },
+        "ar": "السُّور",
+        "en": "the railing"
+      },
+      {
+        "box": {
+          "x": 0,
+          "y": 71,
+          "w": 45,
+          "h": 9
+        },
+        "ar": "الْجِدَار",
+        "en": "the wall"
+      }
+    ],
+    "hand": {}
+  },
+  "clothes-shop": {
+    "query": "clothes shop interior souq",
+    "title": "File:AmmanClothesMarked.jpg",
+    "file": "clothes-shop.jpg",
+    "width": 1280,
+    "height": 959,
+    "credit": {
+      "title": "File:AmmanClothesMarked.jpg",
+      "author": "Niels Elgaard Larsen - (WT-en) Elgaard at English Wikivoyage",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:AmmanClothesMarked.jpg",
+      "accessed": "2026-11-12",
+      "modified": "resized and re-encoded",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "alt": "A crowded open-air clothes market on a city square: racks of clothing, stalls, shoppers and a black railing in front of old stone buildings on a hillside.",
+    "caption": "An open-air clothes market (سُوق) in Amman. Ask the seller: بِكَمْ هٰذَا؟ How much is this?",
+    "spots": [
+      {
+        "box": {
+          "x": 0,
+          "y": 46,
+          "w": 100,
+          "h": 40
+        },
+        "ar": "السُّوق",
+        "en": "the market",
+        "note": "It is مُزْدَحِم, crowded."
+      },
+      {
+        "box": {
+          "x": 0,
+          "y": 53,
+          "w": 20,
+          "h": 18
+        },
+        "ar": "الْمَلَابِس",
+        "en": "the clothes"
+      },
+      {
+        "box": {
+          "x": 52,
+          "y": 60,
+          "w": 14,
+          "h": 11
+        },
+        "ar": "الْبَنْطَلُون",
+        "en": "the trousers"
+      },
+      {
+        "box": {
+          "x": 47,
+          "y": 67,
+          "w": 9,
+          "h": 15
+        },
+        "ar": "السُّتْرَة",
+        "en": "the jacket"
+      },
+      {
+        "box": {
+          "x": 46,
+          "y": 65,
+          "w": 10,
+          "h": 29
+        },
+        "ar": "الرَّجُل",
+        "en": "the man"
+      },
+      {
+        "box": {
+          "x": 85,
+          "y": 69,
+          "w": 5,
+          "h": 21
+        },
+        "ar": "الطِّفْل",
+        "en": "the child"
+      },
+      {
+        "box": {
+          "x": 22,
+          "y": 52,
+          "w": 56,
+          "h": 20
+        },
+        "ar": "النَّاس",
+        "en": "the people"
+      },
+      {
+        "box": {
+          "x": 0,
+          "y": 73,
+          "w": 45,
+          "h": 15
+        },
+        "ar": "السُّور",
+        "en": "the railing"
+      },
+      {
+        "box": {
+          "x": 17,
+          "y": 21,
+          "w": 40,
+          "h": 26
+        },
+        "ar": "الْبِنَايَة",
+        "en": "the building"
+      },
+      {
+        "box": {
+          "x": 28,
+          "y": 38,
+          "w": 10,
+          "h": 9
+        },
+        "ar": "الْمَحَلّ",
+        "en": "the shop"
+      },
+      {
+        "box": {
+          "x": 80,
+          "y": 37,
+          "w": 10,
+          "h": 7
+        },
+        "ar": "الْفُنْدُق",
+        "en": "the hotel",
+        "note": "The sign reads فُنْدُق سَن رَايْز, Sunrise Hotel."
+      },
+      {
+        "box": {
+          "x": 61,
+          "y": 44,
+          "w": 10,
+          "h": 6
+        },
+        "ar": "السَّيَّارَة",
+        "en": "the car"
+      },
+      {
+        "box": {
+          "x": 0,
+          "y": 88,
+          "w": 100,
+          "h": 12
+        },
+        "ar": "الرَّصِيف",
+        "en": "the pavement"
+      },
+      {
+        "box": {
+          "x": 34,
+          "y": 61,
+          "w": 6,
+          "h": 8
+        },
+        "ar": "الْحِجَاب",
+        "en": "the headscarf"
+      },
+      {
+        "box": {
+          "x": 52,
+          "y": 82,
+          "w": 5,
+          "h": 9
+        },
+        "ar": "الْحَقِيبَة",
+        "en": "the bag"
+      }
+    ],
+    "hand": {
+      "سَن": "Sun (in the hotel's name)",
+      "رَايْز": "Rise (in the hotel's name)"
+    }
+  },
+  "renting-flat": {
+    "query": "apartment living room Amman",
+    "title": "File:Empty apartment in Berlin with fitted kitchen and chair.jpg",
+    "file": "renting-flat.jpg",
+    "width": 1280,
+    "height": 960,
+    "credit": {
+      "title": "File:Empty apartment in Berlin with fitted kitchen and chair.jpg",
+      "author": "SmashingIt99",
+      "license": "CC0",
+      "source": "https://commons.wikimedia.org/wiki/File:Empty_apartment_in_Berlin_with_fitted_kitchen_and_chair.jpg",
+      "accessed": "2026-11-12",
+      "modified": "resized and re-encoded",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    },
+    "alt": "An empty flat with a white fitted kitchen, a wooden floor, a square pillar in the middle, an open bathroom door and a single grey chair.",
+    "caption": "An empty شَقَّة waiting for a tenant: the kitchen is fitted, the rest is up to you.",
+    "spots": [
+      {
+        "box": {
+          "x": 65,
+          "y": 34,
+          "w": 32,
+          "h": 32
+        },
+        "ar": "الْمَطْبَخ",
+        "en": "the kitchen",
+        "note": "A fitted kitchen often comes with the flat even when it is not furnished."
+      },
+      {
+        "box": {
+          "x": 86,
+          "y": 46,
+          "w": 9,
+          "h": 11
+        },
+        "ar": "الْفُرْن",
+        "en": "the oven"
+      },
+      {
+        "box": {
+          "x": 66,
+          "y": 35.5,
+          "w": 11,
+          "h": 6.5
+        },
+        "ar": "الْخِزَانَة",
+        "en": "the cupboard",
+        "note": "The same word is used for a wardrobe."
+      },
+      {
+        "box": {
+          "x": 66,
+          "y": 50,
+          "w": 6,
+          "h": 4
+        },
+        "ar": "الْحَوْض",
+        "en": "the sink"
+      },
+      {
+        "box": {
+          "x": 75,
+          "y": 64,
+          "w": 18,
+          "h": 34
+        },
+        "ar": "الْكُرْسِيّ",
+        "en": "the chair"
+      },
+      {
+        "box": {
+          "x": 21,
+          "y": 31,
+          "w": 9,
+          "h": 41
+        },
+        "ar": "الْحَمَّام",
+        "en": "the bathroom"
+      },
+      {
+        "box": {
+          "x": 24,
+          "y": 32,
+          "w": 5,
+          "h": 17
+        },
+        "ar": "النَّافِذَة",
+        "en": "the window"
+      },
+      {
+        "box": {
+          "x": 46,
+          "y": 30,
+          "w": 5,
+          "h": 37
+        },
+        "ar": "الْبَاب",
+        "en": "the door"
+      },
+      {
+        "box": {
+          "x": 39,
+          "y": 19,
+          "w": 7,
+          "h": 57
+        },
+        "ar": "الْعَمُود",
+        "en": "the pillar"
+      },
+      {
+        "box": {
+          "x": 4,
+          "y": 20,
+          "w": 14,
+          "h": 52
+        },
+        "ar": "الْجِدَار",
+        "en": "the wall"
+      },
+      {
+        "box": {
+          "x": 10,
+          "y": 0,
+          "w": 60,
+          "h": 12
+        },
+        "ar": "السَّقْف",
+        "en": "the ceiling"
+      },
+      {
+        "box": {
+          "x": 2,
+          "y": 72,
+          "w": 96,
+          "h": 27
+        },
+        "ar": "الْأَرْضِيَّة",
+        "en": "the floor",
+        "note": "Wooden parquet; ask whether cleaning it is your job or the owner's."
+      }
+    ]
+  },
+  "family-visit": {
+    "query": "Arab family living room majlis",
+    "title": "File:View of a traditional majlis in northern Qatar.jpg",
+    "file": "family-visit.jpg",
+    "width": 1280,
+    "height": 853,
+    "credit": {
+      "title": "File:View of a traditional majlis in northern Qatar.jpg",
+      "author": "https://www.flickr.com/photos/lawrenceyeah/7081108559/in/album-72157629786342662/",
+      "license": "CC BY-SA 2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:View_of_a_traditional_majlis_in_northern_Qatar.jpg",
+      "accessed": "2026-11-12",
+      "modified": "resized and re-encoded",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    "alt": "A large traditional sitting room with floral sofas along the walls, patterned carpets, curtained windows, a wooden archway, a wall clock and a big tray of fruit on the floor.",
+    "caption": "A majlis-style غُرْفَةُ الْجُلُوس: low seating all round and fruit for the guests.",
+    "spots": [
+      {
+        "box": {
+          "x": 33,
+          "y": 35,
+          "w": 34,
+          "h": 16
+        },
+        "ar": "الْكَنَبَة",
+        "en": "the sofa"
+      },
+      {
+        "box": {
+          "x": 2,
+          "y": 44.5,
+          "w": 8,
+          "h": 8
+        },
+        "ar": "الْوِسَادَة",
+        "en": "the cushion"
+      },
+      {
+        "box": {
+          "x": 24,
+          "y": 50,
+          "w": 50,
+          "h": 25
+        },
+        "ar": "السَّجَّادَة",
+        "en": "the carpet"
+      },
+      {
+        "box": {
+          "x": 17,
+          "y": 53,
+          "w": 9,
+          "h": 16
+        },
+        "ar": "الطَّاوِلَة",
+        "en": "the table"
+      },
+      {
+        "box": {
+          "x": 18,
+          "y": 16,
+          "w": 13,
+          "h": 24
+        },
+        "ar": "السِّتَارَة",
+        "en": "the curtain"
+      },
+      {
+        "box": {
+          "x": 94,
+          "y": 9.5,
+          "w": 6,
+          "h": 9
+        },
+        "ar": "السَّاعَة",
+        "en": "the clock"
+      },
+      {
+        "box": {
+          "x": 23,
+          "y": 6,
+          "w": 4.5,
+          "h": 9
+        },
+        "ar": "الصُّورَة",
+        "en": "the picture"
+      },
+      {
+        "box": {
+          "x": 64,
+          "y": 20,
+          "w": 25,
+          "h": 41
+        },
+        "ar": "الْبَاب",
+        "en": "the door"
+      },
+      {
+        "box": {
+          "x": 0,
+          "y": 1,
+          "w": 5,
+          "h": 8
+        },
+        "ar": "الْمُكَيِّف",
+        "en": "the air conditioner"
+      },
+      {
+        "box": {
+          "x": 37.5,
+          "y": 0,
+          "w": 9.5,
+          "h": 7
+        },
+        "ar": "الثُّرَيَّا",
+        "en": "the chandelier"
+      },
+      {
+        "box": {
+          "x": 62,
+          "y": 82,
+          "w": 23,
+          "h": 18
+        },
+        "ar": "الْفَاكِهَة",
+        "en": "the fruit",
+        "note": "Hosts offer fruit after tea; take a little and say يَكْفِي، شُكْرًا when you have had enough."
+      },
+      {
+        "box": {
+          "x": 68,
+          "y": 82,
+          "w": 7,
+          "h": 7
+        },
+        "ar": "الْمَوْز",
+        "en": "the bananas"
+      },
+      {
+        "box": {
+          "x": 73.5,
+          "y": 85,
+          "w": 6,
+          "h": 6
+        },
+        "ar": "الْعِنَب",
+        "en": "the grapes"
+      },
+      {
+        "box": {
+          "x": 75,
+          "y": 95,
+          "w": 6,
+          "h": 5
+        },
+        "ar": "الْبُرْتُقَال",
+        "en": "the oranges"
+      },
+      {
+        "box": {
+          "x": 54.5,
+          "y": 76,
+          "w": 9,
+          "h": 6
+        },
+        "ar": "الصَّحْن",
+        "en": "the plate"
+      }
+    ]
+  },
+  "lost-luggage": {
+    "query": "airport baggage claim carousel",
+    "title": "File:Baggage claim carousel 2 with display screen at Terminal 3 of Toronto Pearson International Airport (YYZ).jpg",
+    "file": "lost-luggage.jpg",
+    "width": 1280,
+    "height": 576,
+    "credit": {
+      "title": "File:Baggage claim carousel 2 with display screen at Terminal 3 of Toronto Pearson International Airport (YYZ).jpg",
+      "author": "Silver Dovelet",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Baggage_claim_carousel_2_with_display_screen_at_Terminal_3_of_Toronto_Pearson_International_Airport_(YYZ).jpg",
+      "accessed": "2026-11-12",
+      "modified": "resized and re-encoded",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "alt": "An airport baggage hall with an empty metal carousel, a lit sign above it, a display screen, a grey pillar and travellers waiting on the far side.",
+    "caption": "Waiting at the carousel and nothing comes: time to find مَكْتَبُ الْمَفْقُودَات.",
+    "spots": [
+      {
+        "box": {
+          "x": 0,
+          "y": 50,
+          "w": 100,
+          "h": 49
+        },
+        "ar": "سَيْرُ الْحَقَائِب",
+        "en": "the baggage carousel"
+      },
+      {
+        "box": {
+          "x": 49.5,
+          "y": 11,
+          "w": 15,
+          "h": 36
+        },
+        "ar": "الشَّاشَة",
+        "en": "the screen",
+        "note": "Check the flight listed here before you wait."
+      },
+      {
+        "box": {
+          "x": 34,
+          "y": 5,
+          "w": 16,
+          "h": 42
+        },
+        "ar": "اللَّافِتَة",
+        "en": "the sign"
+      },
+      {
+        "box": {
+          "x": 18,
+          "y": 4,
+          "w": 15,
+          "h": 48
+        },
+        "ar": "الْعَمُود",
+        "en": "the pillar"
+      },
+      {
+        "box": {
+          "x": 0,
+          "y": 42,
+          "w": 18,
+          "h": 15
+        },
+        "ar": "النَّاس",
+        "en": "the people"
+      },
+      {
+        "box": {
+          "x": 65,
+          "y": 0,
+          "w": 35,
+          "h": 18
+        },
+        "ar": "السَّقْف",
+        "en": "the ceiling"
+      }
+    ],
+    "hand": {
+      "سَيْرُ": "conveyor belt (of)"
+    }
+  },
+  "holiday-story": {
+    "query": "Petra Treasury tourists",
+    "title": "File:Petra - the Treasury (9779187806).jpg",
+    "file": "holiday-story.jpg",
+    "width": 1280,
+    "height": 960,
+    "credit": {
+      "title": "File:Petra - the Treasury (9779187806).jpg",
+      "author": "Maya-Anaïs Yataghène from Paris, France",
+      "license": "CC BY 2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Petra_-_the_Treasury_(9779187806).jpg",
+      "accessed": "2026-11-12",
+      "modified": "resized and re-encoded",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+    },
+    "alt": "The rose-coloured facade of the Treasury at Petra carved into the cliff, with crowds of tourists and seated camels in the sandy square below.",
+    "caption": "الْخَزْنَة in Petra, Jordan: a tomb facade carved straight into the rock.",
+    "spots": [
+      {
+        "box": {
+          "x": 25,
+          "y": 3,
+          "w": 46,
+          "h": 76
+        },
+        "ar": "الْخَزْنَة",
+        "en": "the Treasury",
+        "note": "Al-Khazneh, the most famous facade in Petra."
+      },
+      {
+        "box": {
+          "x": 27,
+          "y": 48,
+          "w": 4,
+          "h": 30
+        },
+        "ar": "الْعَمُود",
+        "en": "the column"
+      },
+      {
+        "box": {
+          "x": 45,
+          "y": 57,
+          "w": 7,
+          "h": 20
+        },
+        "ar": "الْبَاب",
+        "en": "the door"
+      },
+      {
+        "box": {
+          "x": 30,
+          "y": 61,
+          "w": 6,
+          "h": 12
+        },
+        "ar": "التِّمْثَال",
+        "en": "the statue"
+      },
+      {
+        "box": {
+          "x": 0,
+          "y": 0,
+          "w": 22,
+          "h": 70
+        },
+        "ar": "الصَّخْر",
+        "en": "the rock"
+      },
+      {
+        "box": {
+          "x": 72,
+          "y": 0,
+          "w": 28,
+          "h": 72
+        },
+        "ar": "الْجَبَل",
+        "en": "the mountain"
+      },
+      {
+        "box": {
+          "x": 0,
+          "y": 70,
+          "w": 50,
+          "h": 30
+        },
+        "ar": "السُّيَّاح",
+        "en": "the tourists"
+      },
+      {
+        "box": {
+          "x": 53,
+          "y": 80,
+          "w": 10,
+          "h": 18
+        },
+        "ar": "الْجَمَل",
+        "en": "the camel"
+      },
+      {
+        "box": {
+          "x": 63,
+          "y": 84,
+          "w": 10,
+          "h": 13
+        },
+        "ar": "السَّرْج",
+        "en": "the saddle"
+      }
+    ]
+  },
+  "doctor": {
+    "query": "doctor office examination room",
+    "title": "File:Exam room in a doctor's office.jpg",
+    "file": "doctor.jpg",
+    "width": 1280,
+    "height": 960,
+    "credit": {
+      "title": "File:Exam room in a doctor's office.jpg",
+      "author": "Harrison Keely",
+      "license": "CC BY 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Exam_room_in_a_doctor%27s_office.jpg",
+      "accessed": "2026-11-12",
+      "modified": "resized and re-encoded",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+    },
+    "alt": "A small examination room with a wooden door, a padded examination bed covered with paper, a chair in the corner and medical equipment mounted on the grey wall.",
+    "caption": "The examination room at a clinic. Sit down and tell the طَبِيب what hurts.",
+    "spots": [
+      {
+        "box": {
+          "x": 0,
+          "y": 3,
+          "w": 36,
+          "h": 93
+        },
+        "ar": "الْبَاب",
+        "en": "the door"
+      },
+      {
+        "box": {
+          "x": 29.5,
+          "y": 57.5,
+          "w": 5,
+          "h": 4.5
+        },
+        "ar": "مِقْبَضُ الْبَاب",
+        "en": "the door handle"
+      },
+      {
+        "box": {
+          "x": 49,
+          "y": 50,
+          "w": 28,
+          "h": 36
+        },
+        "ar": "السَّرِير",
+        "en": "the bed",
+        "note": "The examination couch; the doctor may point to it and say تَفَضَّلِي (please)."
+      },
+      {
+        "box": {
+          "x": 51,
+          "y": 66,
+          "w": 8,
+          "h": 21
+        },
+        "ar": "الدُّرْج",
+        "en": "the drawer"
+      },
+      {
+        "box": {
+          "x": 75,
+          "y": 55,
+          "w": 21,
+          "h": 28
+        },
+        "ar": "الْكُرْسِيّ",
+        "en": "the chair"
+      },
+      {
+        "box": {
+          "x": 46,
+          "y": 34,
+          "w": 6,
+          "h": 15
+        },
+        "ar": "جِهَازُ ضَغْطِ الدَّم",
+        "en": "the blood pressure monitor"
+      },
+      {
+        "box": {
+          "x": 37,
+          "y": 37,
+          "w": 8.5,
+          "h": 7
+        },
+        "ar": "الْقُفَّازَات",
+        "en": "the gloves"
+      },
+      {
+        "box": {
+          "x": 41,
+          "y": 43.5,
+          "w": 5,
+          "h": 14
+        },
+        "ar": "الصَّابُون",
+        "en": "the soap"
+      },
+      {
+        "box": {
+          "x": 60,
+          "y": 10,
+          "w": 38,
+          "h": 40
+        },
+        "ar": "الْجِدَار",
+        "en": "the wall"
+      },
+      {
+        "box": {
+          "x": 65,
+          "y": 0,
+          "w": 15,
+          "h": 8
+        },
+        "ar": "الْمِصْبَاح",
+        "en": "the lamp"
+      },
+      {
+        "box": {
+          "x": 40,
+          "y": 85,
+          "w": 60,
+          "h": 15
+        },
+        "ar": "الْأَرْضِيَّة",
+        "en": "the floor"
+      }
+    ],
+    "hand": {
+      "مِقْبَضُ": "handle (of)",
+      "جِهَازُ": "device (of)",
+      "ضَغْطِ": "pressure (of)",
+      "الدَّم": "the blood"
+    }
+  },
+  "pharmacy-visit": {
+    "query": "pharmacy interior shelves medicine",
+    "title": "File:Pharmacy Anwar.jpg",
+    "file": "pharmacy-visit.jpg",
+    "width": 1280,
+    "height": 591,
+    "credit": {
+      "title": "File:Pharmacy Anwar.jpg",
+      "author": "𐰇𐱅𐰚𐰤",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Pharmacy_Anwar.jpg",
+      "accessed": "2026-11-12",
+      "modified": "resized and re-encoded",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "alt": "An old pharmacy shopfront on an Egyptian street with an Arabic sign, an open door, a window full of products, and a car, a motorbike and palm trees along the road.",
+    "caption": "A neighbourhood صَيْدَلِيَّة. The green bowl-and-snake symbol marks pharmacies across the Arab world.",
+    "spots": [
+      {
+        "box": {
+          "x": 27,
+          "y": 10,
+          "w": 48,
+          "h": 88
+        },
+        "ar": "الصَّيْدَلِيَّة",
+        "en": "the pharmacy"
+      },
+      {
+        "box": {
+          "x": 42,
+          "y": 23,
+          "w": 12,
+          "h": 11
+        },
+        "ar": "اللَّافِتَة",
+        "en": "the sign",
+        "note": "It reads صَيْدَلِيَّة (pharmacy); the name is below in Latin letters."
+      },
+      {
+        "box": {
+          "x": 44,
+          "y": 44,
+          "w": 7,
+          "h": 50
+        },
+        "ar": "الْبَاب",
+        "en": "the door"
+      },
+      {
+        "box": {
+          "x": 51,
+          "y": 44,
+          "w": 14,
+          "h": 50
+        },
+        "ar": "النَّافِذَة",
+        "en": "the window"
+      },
+      {
+        "box": {
+          "x": 52,
+          "y": 66,
+          "w": 12,
+          "h": 14
+        },
+        "ar": "الدَّوَاء",
+        "en": "the medicine"
+      },
+      {
+        "box": {
+          "x": 0,
+          "y": 50,
+          "w": 18,
+          "h": 48
+        },
+        "ar": "الشَّارِع",
+        "en": "the street"
+      },
+      {
+        "box": {
+          "x": 8,
+          "y": 71,
+          "w": 36,
+          "h": 28
+        },
+        "ar": "الرَّصِيف",
+        "en": "the pavement"
+      },
+      {
+        "box": {
+          "x": 1,
+          "y": 45,
+          "w": 8,
+          "h": 11
+        },
+        "ar": "السَّيَّارَة",
+        "en": "the car"
+      },
+      {
+        "box": {
+          "x": 21,
+          "y": 56,
+          "w": 6,
+          "h": 18
+        },
+        "ar": "الدَّرَّاجَةُ النَّارِيَّة",
+        "en": "the motorbike"
+      },
+      {
+        "box": {
+          "x": 11,
+          "y": 22,
+          "w": 9,
+          "h": 20
+        },
+        "ar": "النَّخْلَة",
+        "en": "the palm tree"
+      },
+      {
+        "box": {
+          "x": 23,
+          "y": 32,
+          "w": 7,
+          "h": 13
+        },
+        "ar": "الشَّجَرَة",
+        "en": "the tree"
+      },
+      {
+        "box": {
+          "x": 3,
+          "y": 11,
+          "w": 18,
+          "h": 14
+        },
+        "ar": "الْبِنَايَة",
+        "en": "the building"
+      },
+      {
+        "box": {
+          "x": 68,
+          "y": 19,
+          "w": 6,
+          "h": 15
+        },
+        "ar": "الصُّورَة",
+        "en": "the picture"
+      },
+      {
+        "box": {
+          "x": 85,
+          "y": 0,
+          "w": 15,
+          "h": 25
+        },
+        "ar": "الشُّرْفَة",
+        "en": "the balcony"
+      }
+    ],
+    "hand": {
+      "النَّارِيَّة": "motorised (lit. fiery; with darrāja: motorbike)"
+    }
+  },
+  "birthday-invitation": {
+    "query": "birthday cake candles party table",
+    "title": "File:Celebration of a birthday with cake and clapping hands at a party in a garden setting.jpg",
+    "file": "birthday-invitation.jpg",
+    "width": 1280,
+    "height": 854,
+    "credit": {
+      "title": "File:Celebration of a birthday with cake and clapping hands at a party in a garden setting.jpg",
+      "author": "Shixart1985",
+      "license": "CC BY 2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Celebration_of_a_birthday_with_cake_and_clapping_hands_at_a_party_in_a_garden_setting.jpg",
+      "accessed": "2026-11-12",
+      "modified": "resized and re-encoded",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+    },
+    "alt": "A garden birthday party: adults clap in the foreground while a small girl looks at a pink cake with one lit candle on a pink tablecloth, next to a coffee cup and a glass.",
+    "caption": "حَفْلَةُ عِيدِ مِيلَاد in the garden: cake, one candle and everyone clapping.",
+    "spots": [
+      {
+        "box": {
+          "x": 54,
+          "y": 53,
+          "w": 25,
+          "h": 20
+        },
+        "ar": "الْكَعْكَة",
+        "en": "the cake"
+      },
+      {
+        "box": {
+          "x": 64,
+          "y": 46,
+          "w": 5,
+          "h": 13
+        },
+        "ar": "الشَّمْعَة",
+        "en": "the candle",
+        "note": "Everyone sings, then the child blows it out."
+      },
+      {
+        "box": {
+          "x": 58,
+          "y": 22,
+          "w": 20,
+          "h": 36
+        },
+        "ar": "الْبِنْت",
+        "en": "the girl"
+      },
+      {
+        "box": {
+          "x": 50,
+          "y": 0,
+          "w": 15,
+          "h": 40
+        },
+        "ar": "الطِّفْل",
+        "en": "the child"
+      },
+      {
+        "box": {
+          "x": 29,
+          "y": 33,
+          "w": 29,
+          "h": 32
+        },
+        "ar": "الْيَد",
+        "en": "the hand"
+      },
+      {
+        "box": {
+          "x": 36,
+          "y": 60,
+          "w": 64,
+          "h": 40
+        },
+        "ar": "الطَّاوِلَة",
+        "en": "the table"
+      },
+      {
+        "box": {
+          "x": 88,
+          "y": 74,
+          "w": 12,
+          "h": 18
+        },
+        "ar": "الْفِنْجَان",
+        "en": "the cup"
+      },
+      {
+        "box": {
+          "x": 90.5,
+          "y": 75.5,
+          "w": 8,
+          "h": 5
+        },
+        "ar": "الْقَهْوَة",
+        "en": "the coffee"
+      },
+      {
+        "box": {
+          "x": 85.5,
+          "y": 81,
+          "w": 14.5,
+          "h": 12
+        },
+        "ar": "الصَّحْن",
+        "en": "the plate"
+      },
+      {
+        "box": {
+          "x": 40,
+          "y": 70,
+          "w": 8.5,
+          "h": 13
+        },
+        "ar": "الْكُوب",
+        "en": "the glass"
+      },
+      {
+        "box": {
+          "x": 82,
+          "y": 0,
+          "w": 18,
+          "h": 60
+        },
+        "ar": "الْفُسْتَان",
+        "en": "the dress"
+      },
+      {
+        "box": {
+          "x": 40,
+          "y": 0,
+          "w": 10,
+          "h": 30
+        },
+        "ar": "الْحَدِيقَة",
+        "en": "the garden"
+      }
+    ],
+    "hand": {}
+  },
+  "weather-plans": {
+    "query": "Dead Sea beach Jordan",
+    "title": "File:Dead Sea beach in Jordan.jpg",
+    "file": "weather-plans.jpg",
+    "width": 1280,
+    "height": 960,
+    "credit": {
+      "title": "File:Dead Sea beach in Jordan.jpg",
+      "author": "John Romano D'Orazio",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Dead_Sea_beach_in_Jordan.jpg",
+      "accessed": "2026-11-12",
+      "modified": "resized and re-encoded",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "alt": "A sunny view over the Dead Sea from a hillside garden with a tall palm tree, pink flowering bushes, a parasol on the beach path, a small round pool and hazy mountains across the water.",
+    "caption": "Blue sky and a warm بَحْر: the kind of day you plan the trip for.",
+    "spots": [
+      {
+        "box": {
+          "x": 0,
+          "y": 0,
+          "w": 100,
+          "h": 42
+        },
+        "ar": "السَّمَاء",
+        "en": "the sky"
+      },
+      {
+        "box": {
+          "x": 0,
+          "y": 49,
+          "w": 100,
+          "h": 16
+        },
+        "ar": "الْبَحْر",
+        "en": "the sea"
+      },
+      {
+        "box": {
+          "x": 0,
+          "y": 44,
+          "w": 100,
+          "h": 6
+        },
+        "ar": "الْجَبَل",
+        "en": "the mountain",
+        "note": "The hazy hills on the far shore."
+      },
+      {
+        "box": {
+          "x": 10,
+          "y": 42,
+          "w": 23,
+          "h": 33
+        },
+        "ar": "النَّخْلَة",
+        "en": "the palm tree"
+      },
+      {
+        "box": {
+          "x": 51,
+          "y": 65,
+          "w": 13,
+          "h": 21
+        },
+        "ar": "الشَّمْسِيَّة",
+        "en": "the parasol"
+      },
+      {
+        "box": {
+          "x": 65,
+          "y": 65,
+          "w": 25,
+          "h": 12
+        },
+        "ar": "الشَّاطِئ",
+        "en": "the beach"
+      },
+      {
+        "box": {
+          "x": 37,
+          "y": 67,
+          "w": 19,
+          "h": 19
+        },
+        "ar": "الزُّهُور",
+        "en": "the flowers"
+      },
+      {
+        "box": {
+          "x": 42,
+          "y": 58,
+          "w": 16,
+          "h": 13
+        },
+        "ar": "الشَّجَرَة",
+        "en": "the tree"
+      },
+      {
+        "box": {
+          "x": 73,
+          "y": 87.5,
+          "w": 10,
+          "h": 9
+        },
+        "ar": "الْمَسْبَح",
+        "en": "the pool"
+      },
+      {
+        "box": {
+          "x": 88,
+          "y": 83,
+          "w": 12,
+          "h": 17
+        },
+        "ar": "الدَّرَابْزِين",
+        "en": "the railing"
+      },
+      {
+        "box": {
+          "x": 70,
+          "y": 70,
+          "w": 4.5,
+          "h": 10
+        },
+        "ar": "الْوَلَد",
+        "en": "the boy"
+      },
+      {
+        "box": {
+          "x": 0,
+          "y": 72,
+          "w": 38,
+          "h": 28
+        },
+        "ar": "الْحَدِيقَة",
+        "en": "the garden"
+      }
+    ]
+  },
+  "airport-checkin": {
+    "query": "Queen Alia airport check-in",
+    "title": "File:Paphos International Airport Check-in Hall.jpg",
+    "file": "airport-checkin.jpg",
+    "width": 1280,
+    "height": 960,
+    "credit": {
+      "title": "File:Paphos International Airport Check-in Hall.jpg",
+      "author": "TomasNY at English Wikipedia",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Paphos_International_Airport_Check-in_Hall.jpg",
+      "accessed": "2026-11-12",
+      "modified": "resized and re-encoded",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "alt": "A large airport check-in hall with a row of counters and screens along the back wall, a maze of blue queue barriers in front and passengers waiting with their luggage.",
+    "caption": "The check-in hall: find your airline on the شَاشَة, then wait in the طَابُور.",
+    "spots": [
+      {
+        "box": {
+          "x": 30,
+          "y": 46,
+          "w": 8,
+          "h": 6
+        },
+        "ar": "الشَّاشَة",
+        "en": "the screen",
+        "note": "The screen above each counter shows the flight number and destination."
+      },
+      {
+        "box": {
+          "x": 13,
+          "y": 58,
+          "w": 36,
+          "h": 7
+        },
+        "ar": "الْمَكْتَب",
+        "en": "the counter",
+        "note": "The check-in counter; the clerk weighs your suitcase here."
+      },
+      {
+        "box": {
+          "x": 48,
+          "y": 64,
+          "w": 36,
+          "h": 22
+        },
+        "ar": "الْحَاجِز",
+        "en": "the queue barrier"
+      },
+      {
+        "box": {
+          "x": 55,
+          "y": 56,
+          "w": 33,
+          "h": 16
+        },
+        "ar": "الطَّابُور",
+        "en": "the queue",
+        "note": "Ask هَلْ هٰذَا هُوَ الطَّابُور؟ (is this the queue?) before you join it."
+      },
+      {
+        "box": {
+          "x": 81,
+          "y": 56,
+          "w": 8,
+          "h": 20
+        },
+        "ar": "الْمُسَافِر",
+        "en": "the passenger"
+      },
+      {
+        "box": {
+          "x": 9,
+          "y": 73,
+          "w": 8,
+          "h": 12
+        },
+        "ar": "الْعَرَبَة",
+        "en": "the luggage trolley"
+      },
+      {
+        "box": {
+          "x": 10,
+          "y": 75,
+          "w": 5,
+          "h": 6
+        },
+        "ar": "الْحَقِيبَة",
+        "en": "the suitcase",
+        "note": "Most airlines allow 23 kilos; it goes on the مِيزَان (scales) at the counter."
+      },
+      {
+        "box": {
+          "x": 47,
+          "y": 39,
+          "w": 8,
+          "h": 24
+        },
+        "ar": "الْعَمُود",
+        "en": "the pillar"
+      },
+      {
+        "box": {
+          "x": 10,
+          "y": 2,
+          "w": 85,
+          "h": 33
+        },
+        "ar": "السَّقْف",
+        "en": "the ceiling"
+      },
+      {
+        "box": {
+          "x": 23,
+          "y": 51,
+          "w": 5,
+          "h": 8
+        },
+        "ar": "الصُّورَة",
+        "en": "the picture"
+      },
+      {
+        "box": {
+          "x": 15,
+          "y": 88,
+          "w": 50,
+          "h": 10
+        },
+        "ar": "الْأَرْض",
+        "en": "the floor"
+      }
+    ],
+    "hand": {
+      "هٰذَا هُوَ": "this is (it)",
+      "مِيزَان": "scales"
+    }
+  },
+  "hotel-reception": {
+    "query": "hotel reception desk lobby",
+    "title": "File:Reception desk at Hotel Holiday Inn Helsinki City Centre.jpg",
+    "file": "hotel-reception.jpg",
+    "width": 1280,
+    "height": 960,
+    "credit": {
+      "title": "File:Reception desk at Hotel Holiday Inn Helsinki City Centre.jpg",
+      "author": "JIP",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Reception_desk_at_Hotel_Holiday_Inn_Helsinki_City_Centre.jpg",
+      "accessed": "2026-11-12",
+      "modified": "resized and re-encoded",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "alt": "A hotel lobby at night with a long wooden reception desk, two computer screens on it, a green pendant lamp, big square ceiling lights, a green stool and stairs at the left.",
+    "caption": "The lobby of a hotel: the مَكْتَبُ الِاسْتِقْبَال is where you ask for your key.",
+    "spots": [
+      {
+        "box": {
+          "x": 45,
+          "y": 57,
+          "w": 55,
+          "h": 26
+        },
+        "ar": "مَكْتَبُ الِاسْتِقْبَال",
+        "en": "the reception desk",
+        "note": "Say لَوْ سَمَحْتِ، عِنْدِي حَجْز (excuse me, I have a booking)."
+      },
+      {
+        "box": {
+          "x": 72,
+          "y": 55,
+          "w": 8,
+          "h": 5
+        },
+        "ar": "الشَّاشَة",
+        "en": "the screen"
+      },
+      {
+        "box": {
+          "x": 45,
+          "y": 39,
+          "w": 7,
+          "h": 11
+        },
+        "ar": "الْمِصْبَاح",
+        "en": "the lamp"
+      },
+      {
+        "box": {
+          "x": 13,
+          "y": 3,
+          "w": 31,
+          "h": 21
+        },
+        "ar": "الضَّوْء",
+        "en": "the light"
+      },
+      {
+        "box": {
+          "x": 58,
+          "y": 43,
+          "w": 11,
+          "h": 10
+        },
+        "ar": "اللَّافِتَة",
+        "en": "the sign"
+      },
+      {
+        "box": {
+          "x": 20,
+          "y": 72,
+          "w": 11,
+          "h": 14
+        },
+        "ar": "الْمَقْعَد",
+        "en": "the seat"
+      },
+      {
+        "box": {
+          "x": 48,
+          "y": 83,
+          "w": 52,
+          "h": 15
+        },
+        "ar": "السَّجَّادَة",
+        "en": "the rug"
+      },
+      {
+        "box": {
+          "x": 0,
+          "y": 78,
+          "w": 45,
+          "h": 21
+        },
+        "ar": "الْأَرْض",
+        "en": "the floor"
+      },
+      {
+        "box": {
+          "x": 3,
+          "y": 52,
+          "w": 14,
+          "h": 16
+        },
+        "ar": "الدَّرَج",
+        "en": "the stairs",
+        "note": "The lift is الْمِصْعَد; the first floor is الطَّابِق الْأَوَّل."
+      },
+      {
+        "box": {
+          "x": 31,
+          "y": 38,
+          "w": 14,
+          "h": 42
+        },
+        "ar": "الْبَاب",
+        "en": "the door"
+      },
+      {
+        "box": {
+          "x": 36,
+          "y": 62,
+          "w": 8,
+          "h": 8
+        },
+        "ar": "النَّشْرَة",
+        "en": "the leaflet"
+      },
+      {
+        "box": {
+          "x": 49,
+          "y": 26,
+          "w": 4,
+          "h": 5
+        },
+        "ar": "الْكَامِيرَا",
+        "en": "the camera"
+      }
+    ],
+    "hand": {}
+  },
+  "job-interview": {
+    "query": "office meeting desk interview",
+    "title": "File:Woman on a Job Interview - 38826218972.jpg",
+    "file": "job-interview.jpg",
+    "width": 1280,
+    "height": 854,
+    "credit": {
+      "title": "File:Woman on a Job Interview - 38826218972.jpg",
+      "author": "amtec_photos",
+      "license": "CC BY-SA 2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Woman_on_a_Job_Interview_-_38826218972.jpg",
+      "accessed": "2026-11-12",
+      "modified": "resized and re-encoded",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    "alt": "A young woman in a dark jacket and glasses sits at a glass table with a sheet of paper in front of her, talking to an older woman seen from behind who is holding a pen.",
+    "caption": "An interview: the مُدِيرَة asks the questions, and the السِّيرَة الذَّاتِيَّة lies on the table.",
+    "spots": [
+      {
+        "box": {
+          "x": 11,
+          "y": 11,
+          "w": 33,
+          "h": 75
+        },
+        "ar": "الْمُتَقَدِّمَة",
+        "en": "the applicant",
+        "note": "A man applying is الْمُتَقَدِّم."
+      },
+      {
+        "box": {
+          "x": 55,
+          "y": 0,
+          "w": 45,
+          "h": 95
+        },
+        "ar": "الْمُدِيرَة",
+        "en": "the director",
+        "note": "Address her as يَا سَيِّدَة (madam) or with her title."
+      },
+      {
+        "box": {
+          "x": 24,
+          "y": 72,
+          "w": 21,
+          "h": 16
+        },
+        "ar": "السِّيرَة الذَّاتِيَّة",
+        "en": "the CV"
+      },
+      {
+        "box": {
+          "x": 43,
+          "y": 66,
+          "w": 11,
+          "h": 7
+        },
+        "ar": "الْقَلَم",
+        "en": "the pen"
+      },
+      {
+        "box": {
+          "x": 24,
+          "y": 21,
+          "w": 10,
+          "h": 6
+        },
+        "ar": "النَّظَّارَة",
+        "en": "the glasses"
+      },
+      {
+        "box": {
+          "x": 11,
+          "y": 36,
+          "w": 31,
+          "h": 42
+        },
+        "ar": "السُّتْرَة",
+        "en": "the jacket"
+      },
+      {
+        "box": {
+          "x": 23,
+          "y": 40,
+          "w": 9,
+          "h": 24
+        },
+        "ar": "الْقَمِيص",
+        "en": "the shirt"
+      },
+      {
+        "box": {
+          "x": 0,
+          "y": 60,
+          "w": 60,
+          "h": 38
+        },
+        "ar": "الطَّاوِلَة",
+        "en": "the table"
+      },
+      {
+        "box": {
+          "x": 7,
+          "y": 42,
+          "w": 8,
+          "h": 45
+        },
+        "ar": "الْكُرْسِيّ",
+        "en": "the chair"
+      },
+      {
+        "box": {
+          "x": 0,
+          "y": 0,
+          "w": 18,
+          "h": 55
+        },
+        "ar": "الْجِدَار",
+        "en": "the wall"
+      },
+      {
+        "box": {
+          "x": 17,
+          "y": 76,
+          "w": 13,
+          "h": 12
+        },
+        "ar": "الْيَد",
+        "en": "the hand"
+      }
+    ],
+    "hand": {
+      "الْمُتَقَدِّم": "the applicant (a man)"
+    }
+  },
+  "office-phone": {
+    "query": "office desk telephone computer",
+    "title": "File:Secretary at work.jpg",
+    "file": "office-phone.jpg",
+    "width": 1024,
+    "height": 685,
+    "credit": {
+      "title": "File:Secretary at work.jpg",
+      "author": "Holy Trinity Lutheran Church, Thousand Oaks, California",
+      "license": "CC BY 2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Secretary_at_work.jpg",
+      "accessed": "2026-11-12",
+      "modified": "resized and re-encoded",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+    },
+    "alt": "A woman sits at an office desk in front of an old computer monitor, with a telephone in the foreground, a printer and filing cabinet behind her and a green notice board covered in papers on the wall.",
+    "caption": "A busy office: the مُوَظَّفَة answers the هَاتِف and checks the تَقْوِيم.",
+    "spots": [
+      {
+        "box": {
+          "x": 4,
+          "y": 58,
+          "w": 16,
+          "h": 18
+        },
+        "ar": "الْهَاتِف",
+        "en": "the telephone",
+        "note": "Answer with آلُو (hello) on the phone."
+      },
+      {
+        "box": {
+          "x": 21,
+          "y": 36,
+          "w": 19,
+          "h": 32
+        },
+        "ar": "الْحَاسُوب",
+        "en": "the computer",
+        "note": "Many people also say الْكُمْبْيُوتَر."
+      },
+      {
+        "box": {
+          "x": 40,
+          "y": 66,
+          "w": 12,
+          "h": 13
+        },
+        "ar": "لَوْحَةُ الْمَفَاتِيح",
+        "en": "the keyboard"
+      },
+      {
+        "box": {
+          "x": 53,
+          "y": 24,
+          "w": 24,
+          "h": 60
+        },
+        "ar": "الْمُوَظَّفَة",
+        "en": "the office worker"
+      },
+      {
+        "box": {
+          "x": 73,
+          "y": 57,
+          "w": 10,
+          "h": 25
+        },
+        "ar": "الْكُرْسِيّ",
+        "en": "the chair"
+      },
+      {
+        "box": {
+          "x": 34,
+          "y": 12,
+          "w": 9,
+          "h": 12
+        },
+        "ar": "التَّقْوِيم",
+        "en": "the calendar"
+      },
+      {
+        "box": {
+          "x": 69,
+          "y": 6,
+          "w": 31,
+          "h": 38
+        },
+        "ar": "لَوْحَةُ الْإِعْلَانَات",
+        "en": "the notice board"
+      },
+      {
+        "box": {
+          "x": 52,
+          "y": 7,
+          "w": 11,
+          "h": 19
+        },
+        "ar": "الصُّورَة",
+        "en": "the picture"
+      },
+      {
+        "box": {
+          "x": 48,
+          "y": 31,
+          "w": 14,
+          "h": 9
+        },
+        "ar": "الطَّابِعَة",
+        "en": "the printer"
+      },
+      {
+        "box": {
+          "x": 83,
+          "y": 55,
+          "w": 17,
+          "h": 30
+        },
+        "ar": "الْخِزَانَة",
+        "en": "the filing cabinet"
+      },
+      {
+        "box": {
+          "x": 50,
+          "y": 77,
+          "w": 14,
+          "h": 22
+        },
+        "ar": "الْوَرَقَة",
+        "en": "the sheet of paper"
+      },
+      {
+        "box": {
+          "x": 13,
+          "y": 21,
+          "w": 8,
+          "h": 16
+        },
+        "ar": "النَّبْتَة",
+        "en": "the plant"
+      },
+      {
+        "box": {
+          "x": 0,
+          "y": 0,
+          "w": 16,
+          "h": 40
+        },
+        "ar": "الْبَاب",
+        "en": "the door"
+      }
+    ],
+    "hand": {
+      "لَوْحَةُ": "board (of)",
+      "الْإِعْلَانَات": "the notices, the announcements",
+      "الْكُمْبْيُوتَر": "the computer (loanword)"
+    }
+  },
+  "eid-visit": {
+    "query": "Eid sweets Arabic coffee tray",
+    "title": "File:Kahk making in egypt.jpg",
+    "file": "eid-visit.jpg",
+    "width": 1280,
+    "height": 853,
+    "credit": {
+      "title": "File:Kahk making in egypt.jpg",
+      "author": "Hbegzee",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Kahk_making_in_egypt.jpg",
+      "accessed": "2026-11-12",
+      "modified": "resized and re-encoded",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "alt": "An older woman in a dark headscarf shapes a small round biscuit in her hands, with trays of unbaked kaʿk on the table beside her, a blue metal oven behind and a second woman working in the background.",
+    "caption": "Making كَعْك for Eid: the biscuits go on the صِينِيَّة and into the فُرْن.",
+    "spots": [
+      {
+        "box": {
+          "x": 0,
+          "y": 10,
+          "w": 50,
+          "h": 88
+        },
+        "ar": "الْجَارَة",
+        "en": "the neighbour",
+        "note": "A male neighbour is الْجَار; the saying goes الْجَارُ قَبْلَ الدَّار (choose the neighbour before the house)."
+      },
+      {
+        "box": {
+          "x": 55,
+          "y": 70,
+          "w": 33,
+          "h": 12
+        },
+        "ar": "الْكَعْك",
+        "en": "the kaʿk",
+        "note": "Sweet Eid biscuits filled with dates or nuts and dusted with sugar."
+      },
+      {
+        "box": {
+          "x": 70,
+          "y": 58,
+          "w": 30,
+          "h": 11
+        },
+        "ar": "الصِّينِيَّة",
+        "en": "the tray"
+      },
+      {
+        "box": {
+          "x": 36,
+          "y": 24,
+          "w": 34,
+          "h": 36
+        },
+        "ar": "الْفُرْن",
+        "en": "the oven"
+      },
+      {
+        "box": {
+          "x": 35,
+          "y": 78,
+          "w": 40,
+          "h": 21
+        },
+        "ar": "الطَّاوِلَة",
+        "en": "the table"
+      },
+      {
+        "box": {
+          "x": 65,
+          "y": 87,
+          "w": 35,
+          "h": 13
+        },
+        "ar": "الصَّحْن",
+        "en": "the plate"
+      },
+      {
+        "box": {
+          "x": 30,
+          "y": 43,
+          "w": 20,
+          "h": 19
+        },
+        "ar": "الْيَد",
+        "en": "the hand"
+      },
+      {
+        "box": {
+          "x": 13,
+          "y": 10,
+          "w": 24,
+          "h": 28
+        },
+        "ar": "الْحِجَاب",
+        "en": "the headscarf"
+      },
+      {
+        "box": {
+          "x": 71,
+          "y": 24,
+          "w": 19,
+          "h": 38
+        },
+        "ar": "الْمَرْأَة",
+        "en": "the woman"
+      },
+      {
+        "box": {
+          "x": 82,
+          "y": 0,
+          "w": 18,
+          "h": 48
+        },
+        "ar": "الْجِدَار",
+        "en": "the wall"
+      }
+    ],
+    "hand": {
+      "صِينِيَّة": "tray"
+    }
+  },
+  "cinema": {
+    "query": "cinema hall seats screen",
+    "title": "File:Cinema Metro in Cairo 02.jpg",
+    "file": "cinema.jpg",
+    "width": 1280,
+    "height": 960,
+    "credit": {
+      "title": "File:Cinema Metro in Cairo 02.jpg",
+      "author": "Marsupium",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Cinema_Metro_in_Cairo_02.jpg",
+      "accessed": "2026-11-12",
+      "modified": "resized and re-encoded",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "alt": "The faded art-deco front of an old cinema on a Cairo street, with film posters above the entrance, a tall vertical sign, a taxi and a grey car passing and a few people on the pavement.",
+    "caption": "An old سِينِمَا in downtown Cairo: the مُلْصَق shows tonight's فِيلْم.",
+    "spots": [
+      {
+        "box": {
+          "x": 17,
+          "y": 8,
+          "w": 27,
+          "h": 70
+        },
+        "ar": "السِّينِمَا",
+        "en": "the cinema"
+      },
+      {
+        "box": {
+          "x": 19,
+          "y": 52,
+          "w": 24,
+          "h": 14
+        },
+        "ar": "الْمُلْصَق",
+        "en": "the poster",
+        "note": "The film poster: ask أَيُّ فِيلْم هٰذَا؟ (which film is this?)."
+      },
+      {
+        "box": {
+          "x": 37,
+          "y": 7,
+          "w": 7,
+          "h": 40
+        },
+        "ar": "اللَّافِتَة",
+        "en": "the sign"
+      },
+      {
+        "box": {
+          "x": 7,
+          "y": 76,
+          "w": 33,
+          "h": 22
+        },
+        "ar": "التَّاكْسِي",
+        "en": "the taxi",
+        "note": "Cairo taxis are white; agree the أُجْرَة (fare) or ask for the meter."
+      },
+      {
+        "box": {
+          "x": 31,
+          "y": 76,
+          "w": 30,
+          "h": 14
+        },
+        "ar": "السَّيَّارَة",
+        "en": "the car"
+      },
+      {
+        "box": {
+          "x": 0,
+          "y": 88,
+          "w": 35,
+          "h": 12
+        },
+        "ar": "الشَّارِع",
+        "en": "the street"
+      },
+      {
+        "box": {
+          "x": 62,
+          "y": 82,
+          "w": 38,
+          "h": 6
+        },
+        "ar": "الرَّصِيف",
+        "en": "the pavement"
+      },
+      {
+        "box": {
+          "x": 0,
+          "y": 0,
+          "w": 28,
+          "h": 40
+        },
+        "ar": "الْبِنَايَة",
+        "en": "the building"
+      },
+      {
+        "box": {
+          "x": 60,
+          "y": 40,
+          "w": 12,
+          "h": 13
+        },
+        "ar": "النَّافِذَة",
+        "en": "the window"
+      },
+      {
+        "box": {
+          "x": 72,
+          "y": 58,
+          "w": 6,
+          "h": 5
+        },
+        "ar": "الْمُكَيِّف",
+        "en": "the air conditioner"
+      },
+      {
+        "box": {
+          "x": 61,
+          "y": 73,
+          "w": 6,
+          "h": 12
+        },
+        "ar": "النَّاس",
+        "en": "the people"
+      },
+      {
+        "box": {
+          "x": 45,
+          "y": 0,
+          "w": 55,
+          "h": 12
+        },
+        "ar": "السَّمَاء",
+        "en": "the sky"
+      }
+    ],
+    "hand": {
+      "أَيُّ": "which",
+      "مُلْصَق": "poster"
+    }
+  },
+  "bank": {
+    "query": "bank counter interior Jordan",
+    "title": "File:Hancock Whitney Bank, Carrollton Branch, New Orleans March 2026 - 5.jpg",
+    "file": "bank.jpg",
+    "width": 1280,
+    "height": 960,
+    "credit": {
+      "title": "File:Hancock Whitney Bank, Carrollton Branch, New Orleans March 2026 - 5.jpg",
+      "author": "Infrogmation",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Hancock_Whitney_Bank,_Carrollton_Branch,_New_Orleans_March_2026_-_5.jpg",
+      "accessed": "2026-11-12",
+      "modified": "resized and re-encoded",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "alt": "The bright interior of a bank branch with a long wooden counter in the middle, tall glass windows with blinds looking out on green trees, hanging lamps, a queue barrier in the foreground and a blue sign on the right.",
+    "caption": "Inside a بَنْك: wait behind the حَاجِز until the مُوَظَّف at the مَكْتَب calls you.",
+    "spots": [
+      {
+        "box": {
+          "x": 34,
+          "y": 56,
+          "w": 44,
+          "h": 32
+        },
+        "ar": "الْمَكْتَب",
+        "en": "the counter",
+        "note": "Say أُرِيدُ أَنْ أَفْتَحَ حِسَابًا (I would like to open an account) here."
+      },
+      {
+        "box": {
+          "x": 40,
+          "y": 8,
+          "w": 20,
+          "h": 35
+        },
+        "ar": "النَّافِذَة",
+        "en": "the window"
+      },
+      {
+        "box": {
+          "x": 58,
+          "y": 12,
+          "w": 22,
+          "h": 25
+        },
+        "ar": "الشَّجَرَة",
+        "en": "the tree"
+      },
+      {
+        "box": {
+          "x": 9,
+          "y": 27,
+          "w": 10,
+          "h": 6
+        },
+        "ar": "الْمِصْبَاح",
+        "en": "the lamp"
+      },
+      {
+        "box": {
+          "x": 0,
+          "y": 67,
+          "w": 60,
+          "h": 7
+        },
+        "ar": "الْحَاجِز",
+        "en": "the queue barrier"
+      },
+      {
+        "box": {
+          "x": 57,
+          "y": 66,
+          "w": 4,
+          "h": 30
+        },
+        "ar": "الْعَمُود",
+        "en": "the post"
+      },
+      {
+        "box": {
+          "x": 95,
+          "y": 57,
+          "w": 5,
+          "h": 40
+        },
+        "ar": "اللَّافِتَة",
+        "en": "the sign"
+      },
+      {
+        "box": {
+          "x": 0,
+          "y": 75,
+          "w": 55,
+          "h": 25
+        },
+        "ar": "الْأَرْض",
+        "en": "the floor"
+      },
+      {
+        "box": {
+          "x": 84,
+          "y": 59,
+          "w": 9,
+          "h": 12
+        },
+        "ar": "الْكُرْسِيّ",
+        "en": "the chair"
+      },
+      {
+        "box": {
+          "x": 87,
+          "y": 50,
+          "w": 7,
+          "h": 6
+        },
+        "ar": "الشَّاشَة",
+        "en": "the screen"
+      },
+      {
+        "box": {
+          "x": 40,
+          "y": 50,
+          "w": 17,
+          "h": 8
+        },
+        "ar": "السَّيَّارَة",
+        "en": "the car"
+      }
+    ],
+    "hand": {
+      "حَاجِز": "barrier"
+    }
+  },
+  "lost-phone-help": {
+    "query": "police station Jordan",
+    "title": "File:Jordanian tourist police kiosk at Petra.jpg",
+    "file": "lost-phone-help.jpg",
+    "width": 1280,
+    "height": 981,
+    "credit": {
+      "title": "File:Jordanian tourist police kiosk at Petra.jpg",
+      "author": "Daniel Case",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Jordanian_tourist_police_kiosk_at_Petra.jpg",
+      "accessed": "2026-11-12",
+      "modified": "resized and re-encoded",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "alt": "A small wooden tourist police kiosk with a tiled roof stands on sandy ground at Petra; two police officers in blue stand in its doorway talking to tourists, while a donkey with a red saddle blanket waits at the left.",
+    "caption": "The الشُّرْطَة السِّيَاحِيَّة at Petra: tell the شُرْطِيّ فَقَدْتُ هَاتِفِي (I lost my phone).",
+    "spots": [
+      {
+        "box": {
+          "x": 35,
+          "y": 10,
+          "w": 55,
+          "h": 70
+        },
+        "ar": "الْكُشْك",
+        "en": "the kiosk"
+      },
+      {
+        "box": {
+          "x": 44,
+          "y": 25,
+          "w": 45,
+          "h": 11
+        },
+        "ar": "الشُّرْطَة السِّيَاحِيَّة",
+        "en": "the tourist police",
+        "note": "Officers at the main sights; many speak some English."
+      },
+      {
+        "box": {
+          "x": 52,
+          "y": 44,
+          "w": 9,
+          "h": 33
+        },
+        "ar": "الشُّرْطِيّ",
+        "en": "the police officer"
+      },
+      {
+        "box": {
+          "x": 63,
+          "y": 53,
+          "w": 7,
+          "h": 35
+        },
+        "ar": "السَّائِحَة",
+        "en": "the tourist (woman)"
+      },
+      {
+        "box": {
+          "x": 0,
+          "y": 48,
+          "w": 13,
+          "h": 16
+        },
+        "ar": "السُّيَّاح",
+        "en": "the tourists"
+      },
+      {
+        "box": {
+          "x": 0,
+          "y": 63,
+          "w": 26,
+          "h": 30
+        },
+        "ar": "الْحِمَار",
+        "en": "the donkey",
+        "note": "Donkeys, horses and camels carry visitors through Petra; agree the price first."
+      },
+      {
+        "box": {
+          "x": 3,
+          "y": 65,
+          "w": 12,
+          "h": 9
+        },
+        "ar": "السَّرْج",
+        "en": "the saddle"
+      },
+      {
+        "box": {
+          "x": 35,
+          "y": 11,
+          "w": 55,
+          "h": 14
+        },
+        "ar": "السَّقْف",
+        "en": "the roof"
+      },
+      {
+        "box": {
+          "x": 60,
+          "y": 0,
+          "w": 40,
+          "h": 22
+        },
+        "ar": "الْجَبَل",
+        "en": "the mountain"
+      },
+      {
+        "box": {
+          "x": 0,
+          "y": 40,
+          "w": 30,
+          "h": 14
+        },
+        "ar": "الْجِدَار",
+        "en": "the wall"
+      },
+      {
+        "box": {
+          "x": 34,
+          "y": 55,
+          "w": 8,
+          "h": 38
+        },
+        "ar": "الرَّجُل",
+        "en": "the man"
+      },
+      {
+        "box": {
+          "x": 14,
+          "y": 49,
+          "w": 6,
+          "h": 10
+        },
+        "ar": "الْكُوفِيَّة",
+        "en": "the keffiyeh",
+        "note": "The red-and-white checked headcloth worn in Jordan."
+      },
+      {
+        "box": {
+          "x": 56,
+          "y": 31,
+          "w": 22,
+          "h": 5
+        },
+        "ar": "اللَّافِتَة",
+        "en": "the sign"
+      },
+      {
+        "box": {
+          "x": 70,
+          "y": 38,
+          "w": 17,
+          "h": 18
+        },
+        "ar": "النَّافِذَة",
+        "en": "the window"
+      },
+      {
+        "box": {
+          "x": 48,
+          "y": 38,
+          "w": 12,
+          "h": 38
+        },
+        "ar": "الْبَاب",
+        "en": "the door"
+      }
+    ],
+    "hand": {
+      "شُرْطِيّ": "police officer"
+    }
+  },
+  "museum-info": {
+    "query": "Egyptian Museum Cairo hall",
+    "title": "File:Egyptian Museum Halls (Cairo) 14.jpg",
+    "file": "museum-info.jpg",
+    "width": 1280,
+    "height": 960,
+    "credit": {
+      "title": "File:Egyptian Museum Halls (Cairo) 14.jpg",
+      "author": "Шухрат Саъдиев",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Egyptian_Museum_Halls_(Cairo)_14.jpg",
+      "accessed": "2026-11-12",
+      "modified": "resized and re-encoded",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "alt": "The tall main hall of the Egyptian Museum in Cairo, with a large dark stone statue on the left, white columns and an upper gallery, and visitors walking between glass display cases and stone sarcophagi.",
+    "caption": "The main hall of the Egyptian Museum (الْمَتْحَفُ الْمِصْرِيّ) in Cairo: statues, columns and a gallery above.",
+    "spots": [
+      {
+        "box": {
+          "x": 17,
+          "y": 5,
+          "w": 17,
+          "h": 66
+        },
+        "ar": "التِّمْثَال",
+        "en": "the statue",
+        "note": "Ask هَلْ يُمْكِنُنِي أَنْ أُصَوِّرَ؟ before taking a photo."
+      },
+      {
+        "box": {
+          "x": 76,
+          "y": 20,
+          "w": 7,
+          "h": 43
+        },
+        "ar": "الْعَمُود",
+        "en": "the column"
+      },
+      {
+        "box": {
+          "x": 37,
+          "y": 28,
+          "w": 35,
+          "h": 9
+        },
+        "ar": "الشُّرْفَة",
+        "en": "the balcony (upper gallery)"
+      },
+      {
+        "box": {
+          "x": 39,
+          "y": 11,
+          "w": 18,
+          "h": 11
+        },
+        "ar": "الْقَوْس",
+        "en": "the arch"
+      },
+      {
+        "box": {
+          "x": 47,
+          "y": 39,
+          "w": 6,
+          "h": 11
+        },
+        "ar": "الْإِعْلَان",
+        "en": "the poster"
+      },
+      {
+        "box": {
+          "x": 55,
+          "y": 63,
+          "w": 12,
+          "h": 20
+        },
+        "ar": "خِزَانَةُ الْعَرْض",
+        "en": "the display case"
+      },
+      {
+        "box": {
+          "x": 63,
+          "y": 53,
+          "w": 20,
+          "h": 13
+        },
+        "ar": "التَّابُوت",
+        "en": "the stone coffin (sarcophagus)"
+      },
+      {
+        "box": {
+          "x": 43,
+          "y": 57,
+          "w": 12,
+          "h": 28
+        },
+        "ar": "الزُّوَّار",
+        "en": "the visitors"
+      },
+      {
+        "box": {
+          "x": 91,
+          "y": 56,
+          "w": 8,
+          "h": 7
+        },
+        "ar": "الْقُبَّعَة",
+        "en": "the hat"
+      },
+      {
+        "box": {
+          "x": 0,
+          "y": 0,
+          "w": 15,
+          "h": 75
+        },
+        "ar": "النَّقْش",
+        "en": "the carving (relief)"
+      },
+      {
+        "box": {
+          "x": 38,
+          "y": 84,
+          "w": 50,
+          "h": 15
+        },
+        "ar": "الْأَرْضِيَّة",
+        "en": "the floor"
+      }
+    ],
+    "hand": {
+      "الْعَرْض": "the display, the showing"
+    }
+  },
+  "post-office": {
+    "query": "post office counter Egypt",
+    "title": "File:Jordan Post in Amman.jpg",
+    "file": "post-office.jpg",
+    "width": 1280,
+    "height": 747,
+    "credit": {
+      "title": "File:Jordan Post in Amman.jpg",
+      "author": "High Contrast",
+      "license": "CC BY 3.0 de",
+      "source": "https://commons.wikimedia.org/wiki/File:Jordan_Post_in_Amman.jpg",
+      "accessed": "2026-11-12",
+      "modified": "resized and re-encoded",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/de/deed.en"
+    },
+    "alt": "A sand-coloured post office building in Amman with the words Jordan Post on its facade in English and Arabic, an outside metal staircase, and a car park full of parked cars in front.",
+    "caption": "Jordan Post (الْبَرِيدُ الْأُرْدُنِيّ) in Amman, seen from across its car park.",
+    "spots": [
+      {
+        "box": {
+          "x": 41,
+          "y": 18,
+          "w": 26,
+          "h": 9
+        },
+        "ar": "اللَّافِتَة",
+        "en": "the sign",
+        "note": "The sign reads الْبَرِيد الْأُرْدُنِيّ, Jordan Post."
+      },
+      {
+        "box": {
+          "x": 14,
+          "y": 16,
+          "w": 78,
+          "h": 56
+        },
+        "ar": "مَكْتَبُ الْبَرِيد",
+        "en": "the post office"
+      },
+      {
+        "box": {
+          "x": 32,
+          "y": 43,
+          "w": 5,
+          "h": 8
+        },
+        "ar": "النَّافِذَة",
+        "en": "the window"
+      },
+      {
+        "box": {
+          "x": 66,
+          "y": 35,
+          "w": 17,
+          "h": 36
+        },
+        "ar": "السُّلَّم",
+        "en": "the staircase"
+      },
+      {
+        "box": {
+          "x": 46,
+          "y": 60,
+          "w": 4,
+          "h": 5
+        },
+        "ar": "الْمُكَيِّف",
+        "en": "the air conditioner"
+      },
+      {
+        "box": {
+          "x": 30,
+          "y": 55,
+          "w": 4,
+          "h": 30
+        },
+        "ar": "الْعَمُود",
+        "en": "the pole"
+      },
+      {
+        "box": {
+          "x": 21,
+          "y": 77,
+          "w": 9,
+          "h": 9
+        },
+        "ar": "السَّيَّارَة",
+        "en": "the car"
+      },
+      {
+        "box": {
+          "x": 0,
+          "y": 75,
+          "w": 90,
+          "h": 25
+        },
+        "ar": "مَوْقِفُ السَّيَّارَات",
+        "en": "the car park"
+      },
+      {
+        "box": {
+          "x": 2,
+          "y": 67,
+          "w": 60,
+          "h": 12
+        },
+        "ar": "الْجِدَار",
+        "en": "the wall"
+      },
+      {
+        "box": {
+          "x": 90,
+          "y": 72,
+          "w": 7,
+          "h": 14
+        },
+        "ar": "خَزَّانُ الْمَاء",
+        "en": "the water tank"
+      },
+      {
+        "box": {
+          "x": 16,
+          "y": 59,
+          "w": 5,
+          "h": 8
+        },
+        "ar": "الْبَاب",
+        "en": "the door"
+      },
+      {
+        "box": {
+          "x": 89,
+          "y": 80,
+          "w": 7,
+          "h": 8
+        },
+        "ar": "الْبَوَّابَة",
+        "en": "the gate"
+      }
+    ],
+    "hand": {
+      "مَوْقِفُ": "stop, parking place (of)",
+      "خَزَّانُ": "tank (of)"
+    }
+  },
+  "supermarket": {
+    "query": "supermarket aisle Cairo",
+    "title": "File:2011 deli Spinneys HyperMarket grocery Cairo 5384776750.jpg",
+    "file": "supermarket.jpg",
+    "width": 1280,
+    "height": 960,
+    "credit": {
+      "title": "File:2011 deli Spinneys HyperMarket grocery Cairo 5384776750.jpg",
+      "author": "juliegomoll",
+      "license": "CC BY 2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:2011_deli_Spinneys_HyperMarket_grocery_Cairo_5384776750.jpg",
+      "accessed": "2026-11-12",
+      "modified": "resized and re-encoded",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+    },
+    "alt": "Shoppers with trolleys crowd in front of the delicatessen and meat counter of a large supermarket in Cairo, under a dark ceiling hung with red advertising banners.",
+    "caption": "The deli counter of a big Cairo supermarket on a busy evening: shoppers, trolleys (عَرَبَات) and offers (عُرُوض) everywhere.",
+    "spots": [
+      {
+        "box": {
+          "x": 37,
+          "y": 63,
+          "w": 16,
+          "h": 33
+        },
+        "ar": "الْعَرَبَة",
+        "en": "the trolley"
+      },
+      {
+        "box": {
+          "x": 49,
+          "y": 41,
+          "w": 8,
+          "h": 40
+        },
+        "ar": "الزَّبُون",
+        "en": "the customer"
+      },
+      {
+        "box": {
+          "x": 55,
+          "y": 50,
+          "w": 9,
+          "h": 20
+        },
+        "ar": "الْمِعْطَف",
+        "en": "the coat"
+      },
+      {
+        "box": {
+          "x": 26,
+          "y": 14,
+          "w": 26,
+          "h": 16
+        },
+        "ar": "اللَّافِتَة",
+        "en": "the sign"
+      },
+      {
+        "box": {
+          "x": 33,
+          "y": 33,
+          "w": 8,
+          "h": 6
+        },
+        "ar": "اللَّحْم",
+        "en": "the meat (counter sign)"
+      },
+      {
+        "box": {
+          "x": 17,
+          "y": 47,
+          "w": 9,
+          "h": 14
+        },
+        "ar": "الْحِجَاب",
+        "en": "the headscarf"
+      },
+      {
+        "box": {
+          "x": 24,
+          "y": 78,
+          "w": 7,
+          "h": 14
+        },
+        "ar": "الْحَقِيبَة",
+        "en": "the bag"
+      },
+      {
+        "box": {
+          "x": 56,
+          "y": 72,
+          "w": 44,
+          "h": 28
+        },
+        "ar": "الْأَرْضِيَّة",
+        "en": "the floor"
+      },
+      {
+        "box": {
+          "x": 84,
+          "y": 2,
+          "w": 12,
+          "h": 13
+        },
+        "ar": "الْإِعْلَان",
+        "en": "the advertisement"
+      },
+      {
+        "box": {
+          "x": 3,
+          "y": 60,
+          "w": 10,
+          "h": 31
+        },
+        "ar": "الْبَنْطَلُون",
+        "en": "the trousers"
+      },
+      {
+        "box": {
+          "x": 80,
+          "y": 42,
+          "w": 20,
+          "h": 33
+        },
+        "ar": "النَّاس",
+        "en": "the people"
+      }
+    ],
+    "hand": {
+      "عَرَبَات": "trolleys, carriages",
+      "عُرُوض": "offers"
+    }
+  },
+  "phone-shop": {
+    "query": "mobile phone shop interior",
+    "title": "File:Mobile phone shop in Singapore.jpg",
+    "file": "phone-shop.jpg",
+    "width": 1280,
+    "height": 853,
+    "credit": {
+      "title": "File:Mobile phone shop in Singapore.jpg",
+      "author": "Maksym Kozlenko",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Mobile_phone_shop_in_Singapore.jpg",
+      "accessed": "2026-11-12",
+      "modified": "resized and re-encoded",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "alt": "The open front of a small mobile phone shop: a glass display counter full of phone boxes on the left, racks of colourful phone covers inside, price lists on the right wall and a man leaning on the counter.",
+    "caption": "A small phone shop (مَحَلُّ هَوَاتِف): SIM cards (شَرَائِح), covers and repairs under one roof.",
+    "spots": [
+      {
+        "box": {
+          "x": 0,
+          "y": 62,
+          "w": 40,
+          "h": 38
+        },
+        "ar": "خِزَانَةُ الْعَرْض",
+        "en": "the display case"
+      },
+      {
+        "box": {
+          "x": 30,
+          "y": 48,
+          "w": 8,
+          "h": 18
+        },
+        "ar": "الشَّرِيحَة",
+        "en": "the SIM card (sign)",
+        "note": "In Egypt a SIM card must be registered with your passport."
+      },
+      {
+        "box": {
+          "x": 59,
+          "y": 24,
+          "w": 14,
+          "h": 34
+        },
+        "ar": "الْغِطَاء",
+        "en": "the phone cover"
+      },
+      {
+        "box": {
+          "x": 30,
+          "y": 33,
+          "w": 5,
+          "h": 13
+        },
+        "ar": "الْبَائِع",
+        "en": "the seller"
+      },
+      {
+        "box": {
+          "x": 41,
+          "y": 32,
+          "w": 9,
+          "h": 35
+        },
+        "ar": "الزَّبُون",
+        "en": "the customer"
+      },
+      {
+        "box": {
+          "x": 78,
+          "y": 4,
+          "w": 14,
+          "h": 52
+        },
+        "ar": "الْأَسْعَار",
+        "en": "the prices (price list)"
+      },
+      {
+        "box": {
+          "x": 70,
+          "y": 56,
+          "w": 27,
+          "h": 18
+        },
+        "ar": "السَّلَّة",
+        "en": "the basket"
+      },
+      {
+        "box": {
+          "x": 40,
+          "y": 10,
+          "w": 30,
+          "h": 72
+        },
+        "ar": "الْمَدْخَل",
+        "en": "the entrance"
+      },
+      {
+        "box": {
+          "x": 27,
+          "y": 0,
+          "w": 49,
+          "h": 8
+        },
+        "ar": "الْإِعْلَان",
+        "en": "the advertisement"
+      },
+      {
+        "box": {
+          "x": 41,
+          "y": 68,
+          "w": 27,
+          "h": 14
+        },
+        "ar": "الْأَرْضِيَّة",
+        "en": "the floor"
+      }
+    ],
+    "hand": {
+      "الْعَرْض": "the display, the showing"
+    }
+  },
+  "school": {
+    "query": "classroom Jordan school whiteboard",
+    "title": "File:Salle de classe lfc01.jpg",
+    "file": "school.jpg",
+    "width": 1280,
+    "height": 960,
+    "credit": {
+      "title": "File:Salle de classe lfc01.jpg",
+      "author": "Khoyobegenn",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Salle_de_classe_lfc01.jpg",
+      "accessed": "2026-11-12",
+      "modified": "resized and re-encoded",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "alt": "An empty classroom with cream walls, a long white board on the far wall, and rows of white desks with yellow-framed wooden chairs.",
+    "caption": "An empty classroom (الصَّفّ) before the lesson: board, desks and chairs.",
+    "spots": [
+      {
+        "box": {
+          "x": 26,
+          "y": 20,
+          "w": 63,
+          "h": 30
+        },
+        "ar": "السَّبُّورَة",
+        "en": "the whiteboard"
+      },
+      {
+        "box": {
+          "x": 0,
+          "y": 70,
+          "w": 56,
+          "h": 20
+        },
+        "ar": "الْمَكْتَب",
+        "en": "the desk"
+      },
+      {
+        "box": {
+          "x": 25,
+          "y": 76,
+          "w": 23,
+          "h": 24
+        },
+        "ar": "الْكُرْسِيّ",
+        "en": "the chair"
+      },
+      {
+        "box": {
+          "x": 0,
+          "y": 20,
+          "w": 4,
+          "h": 17
+        },
+        "ar": "النَّافِذَة",
+        "en": "the window"
+      },
+      {
+        "box": {
+          "x": 42,
+          "y": 14,
+          "w": 28,
+          "h": 5
+        },
+        "ar": "الْمِصْبَاح",
+        "en": "the lamp"
+      },
+      {
+        "box": {
+          "x": 5,
+          "y": 0,
+          "w": 90,
+          "h": 10
+        },
+        "ar": "السَّقْف",
+        "en": "the ceiling"
+      },
+      {
+        "box": {
+          "x": 5,
+          "y": 12,
+          "w": 18,
+          "h": 38
+        },
+        "ar": "الْجِدَار",
+        "en": "the wall"
+      },
+      {
+        "box": {
+          "x": 96,
+          "y": 21,
+          "w": 4,
+          "h": 30
+        },
+        "ar": "الْخِزَانَة",
+        "en": "the cupboard"
+      },
+      {
+        "box": {
+          "x": 66,
+          "y": 72,
+          "w": 34,
+          "h": 28
+        },
+        "ar": "الْأَرْضِيَّة",
+        "en": "the floor"
+      },
+      {
+        "box": {
+          "x": 71,
+          "y": 61,
+          "w": 5,
+          "h": 8
+        },
+        "ar": "سَلَّةُ الْمُهْمَلَات",
+        "en": "the waste bin"
+      }
+    ],
+    "hand": {
+      "سَلَّةُ": "basket (of)",
+      "الْمُهْمَلَات": "the rubbish, the waste"
+    }
+  },
+  "machines": {
+    "query": "Cairo metro ticket machine",
+    "title": "File:Ticket office in Cairo Metro.JPG",
+    "file": "machines.jpg",
+    "width": 1280,
+    "height": 853,
+    "credit": {
+      "title": "File:Ticket office in Cairo Metro.JPG",
+      "author": "Stolbovsky",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Ticket_office_in_Cairo_Metro.JPG",
+      "accessed": "2026-11-12",
+      "modified": "resized and re-encoded",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "alt": "The ticket hall of a Cairo Metro station: a long blue counter with barred ticket windows, a clock above it, bright strip lights on a dark ceiling and a few passengers walking across the grey floor.",
+    "caption": "The ticket hall (صَالَةُ التَّذَاكِر) of a Cairo Metro station; the ticket windows (شَبَابِيك) sell paper tickets.",
+    "spots": [
+      {
+        "box": {
+          "x": 47,
+          "y": 46,
+          "w": 8,
+          "h": 11
+        },
+        "ar": "شُبَّاكُ التَّذَاكِر",
+        "en": "the ticket window",
+        "note": "Say تَذْكِرَة وَاحِدَة، مِنْ فَضْلِكَ, one ticket, please."
+      },
+      {
+        "box": {
+          "x": 45,
+          "y": 48,
+          "w": 5,
+          "h": 22
+        },
+        "ar": "الْمُسَافِر",
+        "en": "the passenger"
+      },
+      {
+        "box": {
+          "x": 60,
+          "y": 37,
+          "w": 4,
+          "h": 6
+        },
+        "ar": "السَّاعَة",
+        "en": "the clock"
+      },
+      {
+        "box": {
+          "x": 23,
+          "y": 22,
+          "w": 20,
+          "h": 5
+        },
+        "ar": "الْمِصْبَاح",
+        "en": "the lamp"
+      },
+      {
+        "box": {
+          "x": 5,
+          "y": 72,
+          "w": 60,
+          "h": 28
+        },
+        "ar": "الْأَرْضِيَّة",
+        "en": "the floor"
+      },
+      {
+        "box": {
+          "x": 17,
+          "y": 56,
+          "w": 76,
+          "h": 12
+        },
+        "ar": "الْمَكْتَب",
+        "en": "the counter"
+      },
+      {
+        "box": {
+          "x": 64,
+          "y": 44,
+          "w": 8,
+          "h": 36
+        },
+        "ar": "الرَّجُل",
+        "en": "the man"
+      },
+      {
+        "box": {
+          "x": 94,
+          "y": 50,
+          "w": 5,
+          "h": 13
+        },
+        "ar": "الْحَقِيبَة",
+        "en": "the bag"
+      },
+      {
+        "box": {
+          "x": 0,
+          "y": 42,
+          "w": 13,
+          "h": 30
+        },
+        "ar": "الْكُشْك",
+        "en": "the kiosk (booth)"
+      },
+      {
+        "box": {
+          "x": 5,
+          "y": 0,
+          "w": 90,
+          "h": 33
+        },
+        "ar": "السَّقْف",
+        "en": "the ceiling"
+      },
+      {
+        "box": {
+          "x": 29,
+          "y": 35,
+          "w": 4,
+          "h": 5
+        },
+        "ar": "الْكَامِيرَا",
+        "en": "the camera"
+      },
+      {
+        "box": {
+          "x": 77,
+          "y": 47,
+          "w": 5,
+          "h": 13
+        },
+        "ar": "الْقَمِيص",
+        "en": "the shirt"
+      }
+    ],
+    "hand": {
+      "شُبَّاكُ": "window (of)",
+      "صَالَةُ": "hall (of)",
+      "شَبَابِيك": "windows"
+    }
+  },
+  "etiquette": {
+    "query": "Arab hospitality dinner mansaf",
+    "title": "File:سدر منسف 02.jpg",
+    "file": "etiquette.jpg",
+    "width": 1280,
+    "height": 978,
+    "credit": {
+      "title": "File:سدر منسف 02.jpg",
+      "author": "Fjmustak",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:%D8%B3%D8%AF%D8%B1_%D9%85%D9%86%D8%B3%D9%81_02.jpg",
+      "accessed": "2026-11-12",
+      "modified": "resized and re-encoded",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "alt": "A large round metal platter of mansaf: pieces of lamb on the bone laid over yellow rice and scattered with fried almonds, standing on a patterned tablecloth.",
+    "caption": "Mansaf (الْمَنْسَف), the national dish of Jordan: lamb cooked in dried yoghurt (جَمِيد) over rice, with almonds on top.",
+    "spots": [
+      {
+        "box": {
+          "x": 3,
+          "y": 3,
+          "w": 94,
+          "h": 89
+        },
+        "ar": "الْمَنْسَف",
+        "en": "the mansaf",
+        "note": "Traditionally eaten with the right hand, بِالْيَدِ الْيُمْنَى."
+      },
+      {
+        "box": {
+          "x": 30,
+          "y": 78,
+          "w": 35,
+          "h": 14
+        },
+        "ar": "الْأَرُزّ",
+        "en": "the rice"
+      },
+      {
+        "box": {
+          "x": 47,
+          "y": 49,
+          "w": 24,
+          "h": 21
+        },
+        "ar": "لَحْمُ الْخَرُوف",
+        "en": "the lamb"
+      },
+      {
+        "box": {
+          "x": 80,
+          "y": 54,
+          "w": 16,
+          "h": 16
+        },
+        "ar": "اللَّحْم",
+        "en": "the meat"
+      },
+      {
+        "box": {
+          "x": 33,
+          "y": 45,
+          "w": 14,
+          "h": 12
+        },
+        "ar": "اللَّوْز",
+        "en": "the almonds",
+        "note": "Say عِنْدِي حَسَاسِيَّة مِنَ الْمُكَسَّرَات if you have a nut allergy."
+      },
+      {
+        "box": {
+          "x": 16,
+          "y": 62,
+          "w": 20,
+          "h": 20
+        },
+        "ar": "الْعَظْم",
+        "en": "the bone"
+      },
+      {
+        "box": {
+          "x": 0,
+          "y": 0,
+          "w": 100,
+          "h": 100
+        },
+        "ar": "الصِّينِيَّة",
+        "en": "the tray (platter)"
+      },
+      {
+        "box": {
+          "x": 87,
+          "y": 0,
+          "w": 13,
+          "h": 22
+        },
+        "ar": "الْمِفْرَش",
+        "en": "the tablecloth"
+      }
+    ],
+    "hand": {
+      "الْخَرُوف": "the lamb, the sheep",
+      "جَمِيد": "jameed (dried yoghurt)"
+    }
+  },
+  "dietary": {
+    "query": "Lebanese mezze hummus salad",
+    "title": "File:Grand assortiment de nourriture libanaise (Lyon, 2017).jpg",
+    "file": "dietary.jpg",
+    "width": 1203,
+    "height": 1280,
+    "credit": {
+      "title": "File:Grand assortiment de nourriture libanaise (Lyon, 2017).jpg",
+      "author": "Benoît Prieur",
+      "license": "CC0",
+      "source": "https://commons.wikimedia.org/wiki/File:Grand_assortiment_de_nourriture_libanaise_(Lyon,_2017).jpg",
+      "accessed": "2026-11-12",
+      "modified": "resized and re-encoded",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    },
+    "alt": "A square white plate seen from above, filled with Lebanese dishes: tabbouleh, hummus, a fried kibbeh, lentils, roasted potatoes, a chickpea stew and creamy dips.",
+    "caption": "A plate of Lebanese mezze (مَزَّة): most of it is vegetarian (نَبَاتِيّ), but ask about nuts and meat stock.",
+    "spots": [
+      {
+        "box": {
+          "x": 5,
+          "y": 8,
+          "w": 40,
+          "h": 34
+        },
+        "ar": "التَّبُّولَة",
+        "en": "the tabbouleh",
+        "note": "Parsley, tomato and a little bulgur; naturally vegetarian."
+      },
+      {
+        "box": {
+          "x": 36,
+          "y": 35,
+          "w": 25,
+          "h": 19
+        },
+        "ar": "الْحُمُّص",
+        "en": "the hummus"
+      },
+      {
+        "box": {
+          "x": 62,
+          "y": 6,
+          "w": 27,
+          "h": 26
+        },
+        "ar": "الْكُبَّة",
+        "en": "the kibbeh",
+        "note": "Usually filled with minced meat and pine nuts, so ask هَلْ فِيهِ لَحْم؟"
+      },
+      {
+        "box": {
+          "x": 25,
+          "y": 64,
+          "w": 37,
+          "h": 26
+        },
+        "ar": "الْعَدَس",
+        "en": "the lentils"
+      },
+      {
+        "box": {
+          "x": 42,
+          "y": 44,
+          "w": 30,
+          "h": 26
+        },
+        "ar": "الْبَطَاطِس",
+        "en": "the potatoes"
+      },
+      {
+        "box": {
+          "x": 60,
+          "y": 32,
+          "w": 28,
+          "h": 27
+        },
+        "ar": "الْيَخْنَة",
+        "en": "the stew (chickpeas in tomato sauce)"
+      },
+      {
+        "box": {
+          "x": 58,
+          "y": 62,
+          "w": 32,
+          "h": 30
+        },
+        "ar": "الْمُتَبَّل",
+        "en": "the baba ghanoush (aubergine dip)"
+      },
+      {
+        "box": {
+          "x": 4,
+          "y": 62,
+          "w": 24,
+          "h": 30
+        },
+        "ar": "الْبُرْغُل",
+        "en": "the bulgur"
+      },
+      {
+        "box": {
+          "x": 42,
+          "y": 10,
+          "w": 20,
+          "h": 24
+        },
+        "ar": "السَّلَطَة",
+        "en": "the salad"
+      },
+      {
+        "box": {
+          "x": 3,
+          "y": 40,
+          "w": 37,
+          "h": 26
+        },
+        "ar": "اللَّبَن",
+        "en": "the yoghurt (on the aubergine)"
+      },
+      {
+        "box": {
+          "x": 2,
+          "y": 3,
+          "w": 96,
+          "h": 93
+        },
+        "ar": "الصَّحْن",
+        "en": "the plate"
+      }
+    ],
+    "hand": {
+      "مَزَّة": "mezze (small dishes)"
+    }
+  }
+}

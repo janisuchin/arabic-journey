@@ -23,7 +23,7 @@ export default function Scenarios() {
         </Card>
       ))}
       <AppText size={12} muted>
-        {scenarios.length} of the 27 planned scenarios are available in this version.
+        {scenarios.length} scenarios (the course plans 27), each with a scene photo, a dialogue, common mistakes and a quiz.
       </AppText>
     </Screen>
   );

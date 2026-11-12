@@ -205,6 +205,33 @@ export const Scenario = z.object({
 });
 export type Scenario = z.infer<typeof Scenario>;
 
+/** One labelled object in a scene photo: a red outline box (percent of the photo), the Arabic word and its English. */
+const pct = z.number().min(0).max(100);
+export const SceneSpot = z.object({
+  box: z.object({ x: pct, y: pct, w: z.number().min(1).max(100), h: z.number().min(1).max(100) }),
+  ar: arabic,
+  en: latinOnly,
+  note: rich.optional(),
+});
+export type SceneSpot = z.infer<typeof SceneSpot>;
+
+/** A scenario's scene photo (Prompt B M): one licensed Commons photo (assets/scenes/<scenario>.jpg) with up to 15
+ *  outlined objects. Built from scripts/scene-plan.json by `scripts/scene_photos.py apply`. */
+export const Scene = Photo.extend({
+  scenario: z.string(),
+  width: z.number().int().positive(),
+  height: z.number().int().positive(),
+  spots: z.array(SceneSpot).min(1).max(15),
+}).superRefine((s, ctx) => {
+  s.spots.forEach((sp, i) => {
+    if (sp.box.x + sp.box.w > 100.01 || sp.box.y + sp.box.h > 100.01)
+      ctx.addIssue({ code: 'custom', message: `spot ${i} (${sp.en}): box leaves the photo` });
+  });
+  if (new Set(s.spots.map((sp) => sp.ar)).size !== s.spots.length)
+    ctx.addIssue({ code: 'custom', message: 'two spots carry the same Arabic word' });
+});
+export type Scene = z.infer<typeof Scene>;
+
 // ------------------------------------------------------------------ placards
 
 /** One line on a placard: Arabic, English and a hand gloss for every word (segs). */

@@ -2,7 +2,7 @@
 
 import { FATHA, DAMMA, KASRA, FATHATAN, DAMMATAN, KASRATAN, SUKUN, SHADDA, DAGGER_ALIF } from '../core/arabic';
 import { arabicWords } from '../lang/ar/tap';
-import { contentIssues, culture, days, grammarById, placards, scenarios, course, vocabById } from './index';
+import { contentIssues, culture, days, grammarById, placards, scenarios, scenes, course, vocabById } from './index';
 import { CULTURE_PHOTO_FILES } from './culture.generated';
 import { findGlossGaps } from './gloss-gaps';
 import type { Seg } from './schema';
@@ -68,6 +68,13 @@ export function validateAll(): ValidationError[] {
   }
   for (const sc of scenarios)
     for (const l of sc.dialogue.lines) checkSegs(`scenario ${sc.id} ${l.id}`, l.ar, l.segs, errs);
+  const scenarioIds = new Set(scenarios.map((sc) => sc.id));
+  for (const s of scenes) {
+    const w = `scene ${s.scenario}`;
+    if (!scenarioIds.has(s.scenario)) errs.push({ where: w, message: 'no scenario with this id' });
+    if (scenes.filter((x) => x.scenario === s.scenario).length > 1) errs.push({ where: w, message: 'more than one scene for this scenario' });
+    for (const sp of s.spots) for (const word of arabicWords(sp.ar)) if (isUnvocalised(word)) errs.push({ where: `${w} spot ${sp.en}`, message: `unvocalised word "${word}"` });
+  }
   for (const p of placards) {
     checkSegs(`placard ${p.id} title`, p.titleAr, p.titleSegs, errs);
     [...p.items, ...(p.example ? [p.example] : [])].forEach((it, i) => checkSegs(`placard ${p.id} item ${i}`, it.ar, it.segs, errs));

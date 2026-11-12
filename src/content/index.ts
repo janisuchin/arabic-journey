@@ -14,6 +14,7 @@ import {
   Placard,
   Pronunciation,
   Scenario,
+  Scene,
   Vocab,
   type Course as CourseT,
   type Culture as CultureT,
@@ -23,6 +24,7 @@ import {
   type Placard as PlacardT,
   type Pronunciation as PronunciationT,
   type Scenario as ScenarioT,
+  type Scene as SceneT,
   type Vocab as VocabT,
 } from './schema';
 
@@ -63,6 +65,7 @@ export const pronunciation: PronunciationT[] = validList(
   idOf,
 );
 export const scenarios: ScenarioT[] = validList(Scenario, require('../../content/course/scenarios.json'), 'scenarios', idOf);
+export const scenes: SceneT[] = validList(Scene, require('../../content/course/scenes.json'), 'scenes', (x) => String(x?.scenario));
 export const placards: PlacardT[] = validList(Placard, require('../../content/course/placards.json'), 'placards', idOf);
 export const culture: CultureT[] = validList(Culture, RAW_CULTURE, 'culture', idOf).sort((a, b) => a.n - b.n);
 
@@ -119,6 +122,8 @@ export const pronunciationById = new Map(pronunciation.map((p) => [p.id, p]));
 export const letterById = new Map(letters.map((l) => [l.id, l]));
 export const placardById = new Map(placards.map((p) => [p.id, p]));
 export const cultureById = new Map(culture.map((c) => [c.id, c]));
+/** The scene photo of a scenario, if one is bundled. */
+export const sceneByScenario = new Map(scenes.map((s) => [s.scenario, s]));
 export const validDays = days.map((d) => d.day).sort((a, b) => a - b);
 
 export const weekOf = (day: number) => {

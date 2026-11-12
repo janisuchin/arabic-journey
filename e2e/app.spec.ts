@@ -191,6 +191,39 @@ test('grammar page links to the sentences that use its rule', async ({ page }) =
   expect(parseInt(await page.getByTestId('explorer-count').innerText(), 10)).toBeGreaterThan(n);
 });
 
+test('scenario scene photo: red outline on hover and on a word chip tap, label on the same page, no numbers', async ({
+  page,
+}) => {
+  await newLearner(page);
+  await page.goto('/scenarios/cafe');
+  const scene = page.getByTestId('photo-scene');
+  await expect(scene).toBeVisible();
+  const chips = page.locator('[data-testid^="scene-chip-"]');
+  const n = await chips.count();
+  expect(n).toBeGreaterThanOrEqual(5);
+  expect(n).toBeLessThanOrEqual(15);
+  // chips carry the Arabic word, never a number
+  for (let i = 0; i < n; i++) expect((await chips.nth(i).innerText()).trim()).not.toMatch(/^\d+$/);
+  const border = (i: number) => page.getByTestId(`scene-box-${i}`).evaluate((el) => getComputedStyle(el).borderTopWidth);
+  await expect(page.getByTestId('scene-label')).toHaveCount(0);
+  expect(await border(0)).toBe('0px');
+  // hovering a word chip shows the outline without selecting
+  await chips.nth(0).hover();
+  expect(await border(0)).toBe('3px');
+  await expect(page.getByTestId('scene-label')).toHaveCount(0);
+  await page.mouse.move(0, 0);
+  // tapping a chip selects: outline + label under the photo
+  await chips.nth(1).click();
+  expect(await border(1)).toBe('3px');
+  await expect(page.getByTestId('scene-label')).toBeVisible();
+  expect((await page.getByTestId('scene-label-en').innerText()).trim().length).toBeGreaterThan(0);
+  // tapping the same chip again deselects
+  await chips.nth(1).click();
+  await expect(page.getByTestId('scene-label')).toHaveCount(0);
+  // the photo keeps its © credit badge
+  await expect(scene.getByTestId('photo-credit')).toBeVisible();
+});
+
 test('placards: 20 cards, every word tappable, large display', async ({ page }) => {
   await newLearner(page);
   await page.goto('/library');
@@ -240,7 +273,7 @@ test('explore: culture chapters with photos, tappable words, a reading and a qui
   await expect(page.getByTestId('culture-reading')).toBeVisible();
   await expect(page.getByTestId('culture-quiz').getByTestId('quiz')).toBeVisible();
   await page.goto('/credits');
-  await expect(page.locator('[data-testid^="credit-"]')).toHaveCount(124); // 90 real-life + 34 culture
+  await expect(page.locator('[data-testid^="credit-"]')).toHaveCount(156); // 90 real-life + 32 scenes + 34 culture
 });
 
 test('onboarding: welcome, goal and time, audio check, then the placement check suggests a start', async ({ page }) => {

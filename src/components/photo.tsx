@@ -2,10 +2,10 @@
 // need the author credited: tapping © shows a credit strip over the photo that links to the Commons page.
 // Every photo is also listed on the Credits page.
 import { Image } from 'expo-image';
-import { useState } from 'react';
+import { useState, type ReactNode } from 'react';
 import { Linking, Pressable, Text, View, type StyleProp, type ViewStyle } from 'react-native';
 
-import { CULTURE_IMAGES, REAL_LIFE_IMAGES } from '@/content/culture-images.generated';
+import { CULTURE_IMAGES, REAL_LIFE_IMAGES, SCENE_IMAGES } from '@/content/culture-images.generated';
 import type { Photo } from '@/content/schema';
 import { usePalette } from '@/state/hooks';
 
@@ -15,14 +15,17 @@ export function PhotoFrame({
   photo,
   aspectRatio = 3 / 2,
   style,
+  children,
 }: {
   photo: Photo;
   aspectRatio?: number;
   style?: StyleProp<ViewStyle>;
+  /** Overlays drawn on the photo (scene outlines), under the credit strip and the © badge. */
+  children?: ReactNode;
 }) {
   const c = usePalette();
   const [open, setOpen] = useState(false);
-  const src = CULTURE_IMAGES[photo.file] ?? REAL_LIFE_IMAGES[photo.file];
+  const src = CULTURE_IMAGES[photo.file] ?? REAL_LIFE_IMAGES[photo.file] ?? SCENE_IMAGES[photo.file];
   if (!src) return null;
   return (
     <View style={{ gap: 4 }}>
@@ -34,6 +37,7 @@ export function PhotoFrame({
           accessibilityLabel={photo.alt}
           transition={200}
         />
+        {children}
         {open && (
           <Pressable
             onPress={() => void Linking.openURL(photo.credit.source)}
