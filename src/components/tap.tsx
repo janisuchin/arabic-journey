@@ -8,7 +8,17 @@ import { AR_START, START, webLang } from '../base/rtl';
 import { isolateLtr, isolateRtl, stripHarakat } from '../core/arabic';
 import { wordPhotoByVocab } from '../content';
 import type { Seg } from '../content/schema';
-import { namesSet, splitRuns, syllables, tapTokens, translitLine, wordToken, type GlossCtx, type WordInfo } from '../lang/ar/tap';
+import {
+  namesSet,
+  proseTranslit,
+  splitRuns,
+  syllables,
+  tapTokens,
+  translitLine,
+  wordToken,
+  type GlossCtx,
+  type WordInfo,
+} from '../lang/ar/tap';
 import { tts } from '../services/tts';
 import { useFs, usePalette, useSettings } from '../state/hooks';
 import { useLearner } from '../state/store';
@@ -428,9 +438,9 @@ export function RichText({ text, size = 16, muted, center }: { text: string; siz
           )}
           {NATIVE ? '\u2069' : ''}
         </Text>
-        {settings.showTranslit && (
+        {settings.showTranslit && proseTranslit(runText, settings.translitStyle) !== '' && (
           <Text {...webLang('ar-Latn', 'ltr')} style={{ color: c.translit, fontStyle: 'italic', fontWeight: '600' }}>
-            {isoL(` (${translitLine(runText, settings.translitStyle, namesSet())})`)}
+            {isoL(` (${proseTranslit(runText, settings.translitStyle)})`)}
           </Text>
         )}
       </Text>

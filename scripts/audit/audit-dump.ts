@@ -8,7 +8,7 @@ import { mkdirSync, readFileSync, readdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 
 import { hasScript } from '../../src/core/arabic';
-import { arabicWords, meaningOf, namesSet, translitLine, type GlossCtx } from '../../src/lang/ar/tap';
+import { arabicWords, meaningOf, namesSet, proseTranslit, translitLine, type GlossCtx } from '../../src/lang/ar/tap';
 
 const root = join(__dirname, '..', '..');
 const outDir = process.argv[2] ?? join(root, 'audit');
@@ -33,7 +33,8 @@ const names = namesSet();
 
 function tr(s: string) {
   try {
-    return translitLine(s, 'academic', names);
+    // English prose with Arabic inside is read the way RichText reads it (no sentence capital, letters named)
+    return /[A-Za-z]{2}/.test(s) ? proseTranslit(s, 'academic') : translitLine(s, 'academic', names);
   } catch {
     return '(no transliteration)';
   }

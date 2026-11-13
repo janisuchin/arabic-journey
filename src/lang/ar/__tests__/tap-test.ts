@@ -1,7 +1,7 @@
 import { ZWJ } from '../../../core/arabic';
 import autoList from '../../../../content/glossary/auto.json';
 import { handGlossary, mistakeGlossary } from '../../../content';
-import { compatibleForms, meaningOf, splitRuns, syllables, tapTokens, translitLine, vocabOf } from '../tap';
+import { compatibleForms, meaningOf, proseTranslit, splitRuns, syllables, tapTokens, translitLine, vocabOf } from '../tap';
 
 describe('Arabic language pack', () => {
   it('keeps Arabic words whole and attaches leading digits', () => {
@@ -47,6 +47,14 @@ describe('Arabic language pack', () => {
     expect(meaningOf('ل')).toBe('the letter lām');
     expect(meaningOf('و')).toBe('the letter wāw');
     expect(meaningOf('أَنْتَ')).toBe('you (to a man)');
+  });
+  it('hyphenates a clitic before a name and keeps the capital on the name', () => {
+    expect(translitLine('أَنَا وَسَامِي', 'academic', new Set(['وَسَامِي', 'سَامِي']))).toBe('Anā wa-Sāmī');
+  });
+  it('reads Arabic inside English prose without a capital and names bare letters', () => {
+    expect(proseTranslit('ة', 'academic')).toBe('tāʾ marbūṭa');
+    expect(proseTranslit('مَا عَمَلُكَ؟', 'academic')).toBe('mā ʿamaluka?');
+    expect(proseTranslit('أنت', 'academic')).toBe('');
   });
   it('lets the lesson day choose between senses', () => {
     expect(meaningOf('حَارّ', { day: 18 })).toMatch(/spicy/);

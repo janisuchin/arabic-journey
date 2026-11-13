@@ -6,6 +6,7 @@
 
 import {
   DAGGER_ALIF,
+  ENDS_TANWIN,
   DAMMA,
   DAMMATAN,
   FATHA,
@@ -131,41 +132,69 @@ export function translitWord(word: string): WordTranslit {
 
   const isWaslAlif = (x?: Unit) => !!x && (x.ch === 'ا' || x.ch === 'ٱ');
   const lamOk = (x?: Unit) => !!x && x.ch === 'ل' && (x.marks === '' || x.marks === SUKUN);
-  const articleAt = (k: number) =>
-    isWaslAlif(u[k]) && (u[k].marks === '' || u[k].marks === FATHA) && lamOk(u[k + 1]) && u.length > k + 2;
-
-  const article = (k: number) => {
-    const next = u[k + 2];
+  /** al- before a noun that itself starts with hamzat al-waṣl: the lām takes a kasra (الِاسْتِفْهَام). */
+  const lamKasraWasl = (k: number) =>
+    !!u[k] && u[k].ch === 'ل' && u[k].marks === KASRA && isWaslAlif(u[k + 1]) && u[k + 1].marks === '' && u.length > k + 2;
+  /** The lām of the article at k (after its alif, or after li-): returns the article text and where the noun starts. */
+  const lamArticle = (k: number): { text: string; next: number } | null => {
+    if (lamKasraWasl(k)) return { text: 'l-i', next: k + 2 };
+    if (!lamOk(u[k]) || u.length <= k + 1) return null;
+    const next = u[k + 1];
     if (SUN_LETTERS.has(next.ch) && has(next.marks, SHADDA)) {
-      suppressShaddaAt = k + 2;
-      return 'a' + CONSONANTS[next.ch] + '-';
+      suppressShaddaAt = k + 1;
+      return { text: CONSONANTS[next.ch] + '-', next: k + 1 };
     }
-    return 'al-';
+    return { text: 'l-', next: k + 1 };
   };
+  const articleAt = (k: number) =>
+    isWaslAlif(u[k]) &&
+    (u[k].marks === '' || u[k].marks === FATHA) &&
+    (lamOk(u[k + 1]) || lamKasraWasl(k + 1)) &&
+    u.length > k + 2;
+  const prefixVowel = (x?: Unit) => !!x && (x.marks === FATHA || x.marks === KASRA);
+  const proclitic = (k: number) => CONSONANTS[u[k].ch] + vowelOf(u[k].marks) + '-';
 
-  if (articleAt(0)) {
-    out = article(0);
-    i = 2;
+  // one or two proclitics before the article: wa-l-, bi-sh-, wa-bi-l-, wa-li-r-rajuli, fa-li-l-
+  let k = 0;
+  let pre = '';
+  if (u.length > 3 && 'وف'.includes(u[0].ch) && u[0].marks === FATHA && ('بك'.includes(u[1].ch) || u[1].ch === 'ل')) {
+    const inner = u[1];
+    if (
+      prefixVowel(inner) &&
+      ((inner.ch !== 'ل' && articleAt(2)) || (inner.ch === 'ل' && inner.marks === KASRA && lamOk(u[2])))
+    ) {
+      pre = proclitic(0);
+      k = 1;
+    }
+  }
+
+  if (k === 0 && isWaslAlif(u[0]) && u[0].marks === '' && u[1]?.ch === 'ل' && has(u[1].marks, SHADDA)) {
+    // relative pronouns alladhī, allatī, alladhīna: the waṣla vowel is a (like the article)
+    out = 'a';
+    i = 1;
+    wasl = true;
+  } else if (k === 0 && articleAt(0)) {
+    const art = lamArticle(1)!;
+    out = 'a' + art.text;
+    i = art.next;
     wasl = true;
     afterPrefix = true;
-  } else if (u.length > 4 && 'وفبك'.includes(u[0].ch) && (u[0].marks === FATHA || u[0].marks === KASRA) && articleAt(1)) {
-    // wa-/fa-/bi-/ka- + article: the article's a is elided (wa-l-kitāb, bi-sh-shāriʿ)
-    out = CONSONANTS[u[0].ch] + vowelOf(u[0].marks) + '-' + article(1).slice(1);
-    i = 3;
+  } else if (u.length > k + 3 && 'وفبك'.includes(u[k].ch) && prefixVowel(u[k]) && articleAt(k + 1)) {
+    // (wa-) wa-/fa-/bi-/ka- + article: the article's a is elided (wa-l-kitāb, bi-sh-shāriʿ, wa-bi-l-ashjār)
+    const art = lamArticle(k + 2)!;
+    out = pre + proclitic(k) + art.text;
+    i = art.next;
+    afterPrefix = true;
+  } else if (u.length > k + 2 && u[k].ch === 'ل' && u[k].marks === KASRA && (lamOk(u[k + 1]) || lamKasraWasl(k + 1))) {
+    // (wa-) li- + article: li-l-kitāb, li-sh-shams, wa-li-r-rajuli
+    const art = lamArticle(k + 1)!;
+    out = pre + 'li-' + art.text;
+    i = art.next;
     afterPrefix = true;
   } else if (u.length > 2 && 'وف'.includes(u[0].ch) && u[0].marks === FATHA && 'أإآ'.includes(u[1].ch)) {
     // wa-/fa- before a word starting with hamza: wa-anta, fa-ana
     out = CONSONANTS[u[0].ch] + 'a-';
     i = 1;
-    afterPrefix = true;
-  } else if (u.length > 3 && u[0].ch === 'ل' && u[0].marks === KASRA && lamOk(u[1])) {
-    // li- + article: li-l-kitāb, li-sh-shams
-    const next = u[2];
-    if (SUN_LETTERS.has(next.ch) && has(next.marks, SHADDA)) {
-      suppressShaddaAt = 2;
-      out = 'li-' + CONSONANTS[next.ch] + '-';
-    } else out = 'li-l-';
-    i = 2;
     afterPrefix = true;
   } else if (isWaslAlif(u[0]) && u.length > 2 && (u[0].marks === '' || u[0].marks === KASRA || u[0].marks === DAMMA)) {
     // hamzat al-wasl on a verb or noun such as ism, ibn, ithnān
@@ -194,10 +223,12 @@ export function translitWord(word: string): WordTranslit {
         'وفبلك'.includes(u[0].ch) &&
         /^[aiu]$/.test(vowelOf(u[0].marks)) &&
         u[2] &&
-        has(u[2].marks, SUKUN)
+        (has(u[2].marks, SUKUN) || has(u[2].marks, SHADDA))
       )
-        out += '-'; // hamzat al-wasl after a one-letter prefix: wa-smuki
-      else if (out.endsWith('an') && prev && has(prev.marks, FATHATAN)) {
+        out += '-'; // hamzat al-wasl after a one-letter prefix: wa-smuki, wa-ttaṣala
+      else if (marks === '' && prev && has(prev.marks, KASRA) && u[i + 1]?.ch === 'ئ') {
+        /* the old spelling مِائَة: the alif is silent (miʾa) */
+      } else if (out.endsWith('an') && prev && has(prev.marks, FATHATAN)) {
         /* alif carrying the tanween of the previous letter: silent */
       } else if (i === u.length - 1 && prev && prev.ch === 'و' && (out.endsWith('ū') || out.endsWith('w'))) {
         /* silent alif after plural waw */
@@ -214,13 +245,17 @@ export function translitWord(word: string): WordTranslit {
 
     if (ch === 'ى') {
       if (has(marks, FATHATAN)) out += 'an';
-      else if (last === 'a') out = out.slice(0, -1) + 'ā';
+      else if (prev && has(prev.marks, FATHATAN)) {
+        /* tanwīn written on the letter before: maqhan, liḥan */
+      } else if (last === 'a') out = out.slice(0, -1) + 'ā';
       else out += 'ā';
       continue;
     }
 
     if (ch === 'ة') {
-      if (hasVowel(marks)) out += 't' + vowelOf(marks);
+      // ة before a suffix is a spelling mistake (غُرْفَةِي): show it as written, ghurfa-ī
+      if (i < u.length - 1 && isLetter(u[i + 1].ch)) out += (last === 'a' ? '' : 'a') + '-' + vowelOf(marks);
+      else if (hasVowel(marks)) out += 't' + vowelOf(marks);
       else if (last === 'ā') out += 'h';
       else if (last !== 'a') out += 'a';
       continue;
@@ -228,7 +263,8 @@ export function translitWord(word: string): WordTranslit {
 
     if (ch === 'و' && !hasVowel(marks) && !has(marks, SHADDA)) {
       if (last === 'u') out = out.slice(0, -1) + 'ū';
-      else if (last === 'a' || atStart || has(marks, SUKUN)) out += 'w';
+      // a consonant after a, ā or a vowelless letter: yawm, wāw, ḥulw, badw
+      else if (last === 'a' || last === 'ā' || atStart || has(marks, SUKUN) || (prev && has(prev.marks, SUKUN))) out += 'w';
       else out += 'ū';
       continue;
     }
@@ -241,7 +277,8 @@ export function translitWord(word: string): WordTranslit {
         continue;
       }
       if (last === 'i') out = out.slice(0, -1) + 'ī';
-      else if (last === 'a' || atStart || has(marks, SUKUN)) out += 'y';
+      // a consonant after a, ā or a vowelless letter: bayt, shāy, zāy, raʾy, nafy
+      else if (last === 'a' || last === 'ā' || atStart || has(marks, SUKUN) || (prev && has(prev.marks, SUKUN))) out += 'y';
       else out += 'ī';
       continue;
     }
@@ -250,6 +287,8 @@ export function translitWord(word: string): WordTranslit {
     let c = CONSONANTS[ch] ?? '';
     const hamza = 'أإؤئء'.includes(ch);
     if (hamza && (atStart || (afterPrefix && i === start))) c = '';
+    // s+h, k+h, d+h, t+h are two letters, not sh, kh, dh, th: as·halu
+    if (ch === 'ه' && prev && 'سكدت'.includes(prev.ch) && !hasVowel(prev.marks)) c = '·' + c;
     if (has(marks, SHADDA) && i !== suppressShaddaAt) c = c + c;
     out += c;
     if (has(marks, DAGGER_ALIF)) out += 'ā';
@@ -331,7 +370,7 @@ export function translit(text: string, opts: TranslitOptions = {}): string {
       if (sentenceStart) w = capitalise(w);
       sentenceStart = false;
       out += w;
-      prevEndsVowel = /[aiuāīū]$/.test(w0);
+      prevEndsVowel = /[aiuāīū]$/.test(w0) || ENDS_TANWIN.test(m[0]); // tanwīn: jiddan l-yawma
       wordIndex++;
       i += m[0].length;
       continue;

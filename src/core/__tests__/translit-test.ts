@@ -28,6 +28,27 @@ describe('transliteration engine (academic)', () => {
     ['أَنَا بِخَيْر، وَأَنْتِ؟', 'Anā bikhayr, wa-anti?'],
   ])('%s → %s', (ar, expected) => expect(t(ar)).toBe(expected));
 
+  // accuracy review round 1: the engine bugs the reviewers found, one case each
+  it.each([
+    ['عِنْدِي صَدِيق الَّذِي', 'ʿIndī ṣadīq alladhī'], // relative pronoun: a-, not i-
+    ['هِيَ الَّتِي', 'Hiya llatī'],
+    ['أَدَوَاتُ الِاسْتِفْهَامِ', 'Adawātu l-istifhāmi'], // kasra on the article before hamzat al-waṣl
+    ['فِي الِامْتِحَان', 'Fī l-imtiḥān'],
+    ['وَبِالْأَشْجَار', 'Wa-bi-l-ashjār'], // two clitics before the article
+    ['وَلِلرَّجُلِ', 'Wa-li-r-rajuli'],
+    ['وَبِالنِّسْبَةِ', 'Wa-bi-n-nisbati'],
+    ['نَشْرَبُ الشَّاي', 'Nashrabu sh-shāy'], // consonantal final y / w
+    ['الزَّاي وَالْوَاو', 'Az-zāy wa-l-wāw'],
+    ['رَأْي', 'Raʾy'],
+    ['تَمْرٌ حُلْو', 'Tamrun ḥulw'],
+    ['أَسْهَلُ', 'As·halu'], // s and h are two letters
+    ['مَقْهًى', 'Maqhan'], // tanwīn before alif maqṣūra
+    ['مِائَة', 'Miʾa'], // silent alif of the old spelling
+    ['غُرْفَةِي', 'Ghurfa-ī'], // the mistake shows as written
+    ['وَاتَّصَلَ', 'Wa-ttaṣala'],
+    ['مُزْدَحِم جِدًّا الْيَوْمَ', 'Muzdaḥim jiddan l-yawma'], // elision after tanwīn
+  ])('round 1: %s → %s', (ar, expected) => expect(t(ar)).toBe(expected));
+
   it('simple style uses plain letters', () => {
     expect(translit('صَبَاحُ الْخَيْر', { style: 'simple' })).toBe('Sabaahu l-khayr');
     expect(translit('عَائِلَة', { style: 'simple' })).toBe("'Aa'ila");

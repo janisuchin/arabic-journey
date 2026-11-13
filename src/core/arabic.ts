@@ -21,6 +21,9 @@ export const SCRIPT_RE = /[\u0600-\u06FF\u0750-\u077F\u08A0-\u08FF\uFB50-\uFDFF\
 /** Arabic letters only (no marks, no punctuation, no digits). */
 export const LETTER_RE = /[\u0621-\u063A\u0641-\u064A\u0671]/;
 
+/** A word ending in tanwīn (with an optional shadda and a seat alif / alif maqṣūra): jiddan, maqhan. */
+export const ENDS_TANWIN = /[ً-ٍ]ّ?[اى]?$/;
+
 export const isMark = (ch: string) => /[\u064B-\u065F\u0670]/.test(ch);
 export const isLetter = (ch: string) => LETTER_RE.test(ch);
 export const hasScript = (text: string) => SCRIPT_RE.test(text);

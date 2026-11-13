@@ -2,6 +2,7 @@
 // Tokens are whole words: a word is never split inside, so letters keep their joined shapes.
 
 import {
+  ENDS_TANWIN,
   SCRIPT_RE,
   SHADDA,
   SUKUN,
@@ -86,19 +87,41 @@ export function translitWords(
 ): string[] {
   let prevVowel = opts.startsAfterVowel ?? false;
   return words.map((w, i) => {
-    const fromLayer = readingsLayer[w];
-    const { text, wasl } = fromLayer ? { text: fromLayer[0], wasl: fromLayer[1] === 1 } : translitWord(w);
+    const { text, wasl } = readingOf(w);
     let t = text;
     if (wasl && prevVowel && /^[aiu]/.test(t)) t = t.slice(1);
-    if (opts.names?.has(i)) t = capitaliseName(t);
+    if (opts.names?.has(i)) t = nameReading(w) ?? capitaliseName(t);
     if (i === 0 && opts.capitaliseFirst) t = capitalise(t);
-    prevVowel = /[aiuāīū]$/.test(text);
+    prevVowel = endsInVowel(w, text);
     return toStyle(t, style);
   });
 }
 
+/** The reading of one word: the offline layer, else the engine; an unvocalised word gets none (never guess). */
+function readingOf(w: string): { text: string; wasl: boolean } {
+  const fromLayer = readingsLayer[w];
+  if (fromLayer) return { text: fromLayer[0], wasl: fromLayer[1] === 1 };
+  if (!/[ً-ْٰـ]/.test(w) && stripHarakat(w).replace(/‍/g, '').length > 1) return { text: '', wasl: false };
+  return translitWord(w);
+}
+
+/** A word ending in a vowel or in tanwīn lets the next article or hamzat al-waṣl elide (jiddan l-yawma). */
+const endsInVowel = (w: string, tr: string) => /[aiuāīū]$/.test(tr) || ENDS_TANWIN.test(w);
+
+let bareNames: Set<string> | null = null;
+/** A name behind a one-letter clitic keeps its capital and gets a hyphen: wa-Laylā, li-Sāmī, wa-ʿUmar. */
+function nameReading(w: string): string | undefined {
+  const m = /^([وفلبك])([َِ])(.+)$/.exec(w);
+  if (!m) return undefined;
+  if (!bareNames) bareNames = new Set([...namesSet()].map((n) => stripHarakat(n)));
+  const rest = stripHarakat(m[3]);
+  if (rest.length < 2 || rest.startsWith('ال') || !bareNames.has(rest)) return undefined;
+  const clitic = ({ و: 'w', ف: 'f', ل: 'l', ب: 'b', ك: 'k' } as Record<string, string>)[m[1]] + (m[2] === 'َ' ? 'a' : 'i');
+  return `${clitic}-${capitaliseName(readingOf(m[3]).text)}`;
+}
+
 /** Per-token transliteration for a token list (non-Arabic tokens map to themselves). */
-export function tapTokens(text: string, style: TranslitStyle, names?: Set<string>) {
+export function tapTokens(text: string, style: TranslitStyle, names?: Set<string>, sentence = true) {
   const runs = splitRuns(text);
   const arIdx: number[] = [];
   runs.forEach((t, i) => t.kind === 'ar' && arIdx.push(i));
@@ -111,20 +134,35 @@ export function tapTokens(text: string, style: TranslitStyle, names?: Set<string
     const i = arIdx[k];
     const between = k > 0 ? runs.slice(arIdx[k - 1] + 1, i) : [];
     const plainGap = k > 0 && between.every((t) => t.kind === 'space');
-    const sentenceStart = k === 0 || between.some((t) => /[.!?\u061F]/.test(t.text));
+    const sentenceStart = sentence && (k === 0 || between.some((t) => /[.!?\u061F]/.test(t.text)));
     const [t] = translitWords([w], style, {
       names: nameIdx.has(k) ? new Set([0]) : undefined,
       capitaliseFirst: sentenceStart,
       startsAfterVowel: plainGap && prevEndsVowel,
     });
     tr.push(t);
-    prevEndsVowel = /[aiuāīū]$/.test(translitWord(w).text);
+    prevEndsVowel = endsInVowel(w, readingOf(w).text);
   });
   let n = 0;
   return runs.map((t) => ({
     ...t,
     tr: t.kind === 'ar' ? tr[n++] : t.kind === 'num' ? toWesternDigits(t.text) : t.text,
   }));
+}
+
+/**
+ * Transliteration of an Arabic run inside English prose: no sentence capital (the run is mid-sentence),
+ * a bare letter is named (tāʾ marbūṭa, not its sound table 'a / at'), an unvocalised word gets none.
+ */
+export function proseTranslit(text: string, style: TranslitStyle) {
+  return tapTokens(text, style, namesSet(), false)
+    .map((t) => {
+      if (t.kind === 'punct') return ({ '،': ',', '؟': '?', '؛': ';' } as Record<string, string>)[t.text] ?? t.text;
+      const letter = t.kind === 'ar' && t.text.length === 1 ? letterByChar.get(t.text) : undefined;
+      return letter ? toStyle(letter.name, style) : t.tr;
+    })
+    .join('')
+    .trim();
 }
 
 /** Whole-line transliteration, e.g. for the gold transliteration line. */
