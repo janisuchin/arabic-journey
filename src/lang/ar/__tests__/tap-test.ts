@@ -1,5 +1,7 @@
 import { ZWJ } from '../../../core/arabic';
-import { meaningOf, splitRuns, syllables, tapTokens, translitLine } from '../tap';
+import autoList from '../../../../content/glossary/auto.json';
+import { handGlossary, mistakeGlossary } from '../../../content';
+import { compatibleForms, meaningOf, splitRuns, syllables, tapTokens, translitLine, vocabOf } from '../tap';
 
 describe('Arabic language pack', () => {
   it('keeps Arabic words whole and attaches leading digits', () => {
@@ -26,5 +28,34 @@ describe('Arabic language pack', () => {
     expect(meaningOf('٧')).toBe('seven');
     expect(meaningOf('ب')).toBe('the letter bāʾ');
     expect(meaningOf('زَرْزُور')).toBeUndefined();
+  });
+  // round-1 accuracy review: the tap meaning must come from the vocalised form, never the bare spelling
+  it('never borrows a meaning from a word with other harakat', () => {
+    expect(compatibleForms('الْمَدْرَسَةِ', 'الْمَدْرَسَة')).toBe(true);
+    expect(compatibleForms('هُمُ', 'هُمْ')).toBe(true);
+    expect(compatibleForms('مُدَرِّسَة', 'مَدْرَسَة')).toBe(false);
+    expect(compatibleForms('شَرِبْتُ', 'شَرِبْتَ', 'verb')).toBe(false);
+    expect(compatibleForms('اسْمُكَ', 'اسْمُكِ', 'noun')).toBe(false);
+    expect(compatibleForms('كِتَابٌ', 'كِتَابَ', 'noun')).toBe(true);
+    expect(meaningOf('مُدَرِّسَة')).toMatch(/teacher/);
+    expect(vocabOf('مُدَرِّسَة')?.en ?? '').not.toMatch(/school/);
+    expect(meaningOf('شَرِبْتَ')).not.toBe('I drank');
+    expect(meaningOf('رِجْل')).toMatch(/leg/);
+    expect(meaningOf('رَجُل')).toMatch(/man/);
+  });
+  it('names a bare letter as a letter', () => {
+    expect(meaningOf('ل')).toBe('the letter lām');
+    expect(meaningOf('و')).toBe('the letter wāw');
+    expect(meaningOf('أَنْتَ')).toBe('you (to a man)');
+  });
+  it('lets the lesson day choose between senses', () => {
+    expect(meaningOf('حَارّ', { day: 18 })).toMatch(/spicy/);
+  });
+  it('keeps exercise notes inside mistake cards', () => {
+    for (const [k, g] of Object.entries(handGlossary)) expect(`${k} = ${g}`).not.toMatch(/wrong/i);
+    expect(meaningOf('الْأَخْبَارِ')).not.toMatch(/wrong/);
+    expect(meaningOf('الْأَخْبَارِ', { mistake: true })).toMatch(/wrong/);
+    for (const [k, g] of Object.entries(autoList as Record<string, string>))
+      if (/wrong/i.test(g)) expect(mistakeGlossary[k]).toBe(g); // only a non-word keeps its note
   });
 });

@@ -8,3 +8,4 @@ package-lock.json
 *.md
 all release journey and links and architecture
 store/screenshots
+docs/review/**/*.json

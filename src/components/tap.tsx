@@ -1,14 +1,14 @@
 // Tap-to-hear: every Arabic word can be tapped, heard and understood. A tap reads the word aloud,
 // highlights it in both the script line and the transliteration line, and opens the word box.
 
-import { useMemo, useState, type ReactNode } from 'react';
+import { createContext, useContext, useMemo, useState, type ReactNode } from 'react';
 import { Modal, Platform, Pressable, ScrollView, Text, View, type LayoutChangeEvent } from 'react-native';
 
 import { AR_START, START, webLang } from '../base/rtl';
 import { isolateLtr, isolateRtl, stripHarakat } from '../core/arabic';
 import { wordPhotoByVocab } from '../content';
 import type { Seg } from '../content/schema';
-import { namesSet, splitRuns, syllables, tapTokens, translitLine, wordToken, type WordInfo } from '../lang/ar/tap';
+import { namesSet, splitRuns, syllables, tapTokens, translitLine, wordToken, type GlossCtx, type WordInfo } from '../lang/ar/tap';
 import { tts } from '../services/tts';
 import { useFs, usePalette, useSettings } from '../state/hooks';
 import { useLearner } from '../state/store';
@@ -33,6 +33,15 @@ const POS_LABEL: Record<string, string> = {
   name: 'name',
   demonstrative: 'demonstrative',
 };
+
+/** Where taps happen: the lesson day decides between a word's senses; mistake cards show exercise notes. */
+export const GlossScope = createContext<GlossCtx>({});
+
+/** Marks its children as the wrong side of a mistake card. */
+export function MistakeScope({ children }: { children: ReactNode }) {
+  const ctx = useContext(GlossScope);
+  return <GlossScope.Provider value={{ ...ctx, mistake: true }}>{children}</GlossScope.Provider>;
+}
 
 function useSpeakWord() {
   const { readAloudOnTap, speechRate } = useSettings();
@@ -227,7 +236,8 @@ export function TapText({
   const indexed = tokens.map((t) => ({ ...t, k: t.kind === 'ar' ? arCount++ : -1 }));
   const gloss = (k: number) => segs?.[k]?.[1];
   const selected = sel !== null ? indexed.find((t) => t.k === sel) : undefined;
-  const info = selected ? wordToken(selected.text, settings.translitStyle, selected.tr, gloss(selected.k)) : null;
+  const ctx = useContext(GlossScope);
+  const info = selected ? wordToken(selected.text, settings.translitStyle, selected.tr, gloss(selected.k), ctx) : null;
   const tapWord = (k: number, word: string) => {
     setSel(k === sel ? null : k);
     if (k !== sel) speak(word);
@@ -375,6 +385,7 @@ export function RichText({ text, size = 16, muted, center }: { text: string; siz
   const settings = useSettings();
   const speak = useSpeakWord();
   const [open, setOpen] = useState<WordInfo | null>(null);
+  const ctx = useContext(GlossScope);
   const runs = splitRuns(text);
   // group consecutive Arabic words (with spaces/Arabic punctuation between) into one run
   const parts: { ar: boolean; tokens: typeof runs }[] = [];
@@ -406,7 +417,7 @@ export function RichText({ text, size = 16, muted, center }: { text: string; siz
                 accessibilityRole="button"
                 onPress={() => {
                   speak(t.text);
-                  setOpen(wordToken(t.text, settings.translitStyle));
+                  setOpen(wordToken(t.text, settings.translitStyle, undefined, undefined, ctx));
                 }}
                 style={{ color: c.accent }}>
                 {settings.showHarakat ? t.text : stripHarakat(t.text)}

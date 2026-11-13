@@ -5,7 +5,7 @@ import { Text, View } from 'react-native';
 
 import { NEXT_ICON, BACK_ICON } from '@/base/rtl';
 import { TOTAL_DAYS } from '@/base/config';
-import { GlossLine, RichText, TapText } from '@/components/tap';
+import { GlossLine, GlossScope, RichText, TapText } from '@/components/tap';
 import {
   AppText,
   ArText,
@@ -123,7 +123,9 @@ function Chapter({ d, page, setPage }: { d: Day; page: number; setPage: (n: numb
         {PAGE_NAMES[id]} · {page + 1} / {pages.length}
       </Caption>
       <ProgressBar value={(page + 1) / pages.length} label="lesson progress" />
-      <PageBody d={d} id={id} onPassed={() => go(pages.indexOf('done'))} />
+      <GlossScope.Provider value={{ day: d.day }}>
+        <PageBody d={d} id={id} onPassed={() => go(pages.indexOf('done'))} />
+      </GlossScope.Provider>
       {next && id !== 'quiz' && (
         <Button label={`Next: ${PAGE_NAMES[next]}`} iconAfter={NEXT_ICON} testID="next-page" onPress={() => go(page + 1)} />
       )}

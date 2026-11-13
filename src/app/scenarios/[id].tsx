@@ -2,7 +2,7 @@ import { useLocalSearchParams } from 'expo-router';
 import { View } from 'react-native';
 
 import { PhotoScene } from '@/components/scene';
-import { RichText } from '@/components/tap';
+import { MistakeScope, RichText } from '@/components/tap';
 import { AppText, Card, Screen, SectionTitle } from '@/components/ui';
 import { sceneByScenario, scenarios } from '@/content';
 import { Dialogue, QuizRunner } from '@/features/lesson';
@@ -39,7 +39,9 @@ export default function ScenarioScreen() {
       <SectionTitle icon="warning-outline">Common mistakes</SectionTitle>
       {s.mistakes.map((m, i) => (
         <Card key={i}>
-          <RichText text={`✗ ${m.wrong}`} />
+          <MistakeScope>
+            <RichText text={`✗ ${m.wrong}`} />
+          </MistakeScope>
           <RichText text={`✓ ${m.right}`} />
           <AppText size={14} color={c.textMuted}>
             {m.why}

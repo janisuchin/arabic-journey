@@ -17,7 +17,7 @@ import { tts } from '../services/tts';
 import { useFs, usePalette, useSettings } from '../state/hooks';
 import { useLearner } from '../state/store';
 import { WordTile } from '../components/photo';
-import { RichText, TapText, WordBox } from '../components/tap';
+import { MistakeScope, RichText, TapText, WordBox } from '../components/tap';
 import { AR_FONT, AppText, ArText, Button, Card, IconButton, Pill, Row, TrText } from '../components/ui';
 
 const POS_COLOURS: Record<string, string> = {
@@ -190,7 +190,9 @@ export function SentenceCard({ s }: { s: Sentence }) {
           <AppText size={13} color={c.bad} weight="700">
             Common mistake
           </AppText>
-          <RichText text={`✗ ${m.wrong}`} size={14} />
+          <MistakeScope>
+            <RichText text={`✗ ${m.wrong}`} size={14} />
+          </MistakeScope>
           <RichText text={`✓ ${m.right}`} size={14} />
           <RichText text={m.why} size={13} muted />
         </View>

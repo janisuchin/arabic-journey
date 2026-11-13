@@ -8,13 +8,27 @@ import { mkdirSync, readFileSync, readdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 
 import { hasScript } from '../../src/core/arabic';
-import { arabicWords, meaningOf, namesSet, translitLine } from '../../src/lang/ar/tap';
+import { arabicWords, meaningOf, namesSet, translitLine, type GlossCtx } from '../../src/lang/ar/tap';
 
 const root = join(__dirname, '..', '..');
 const outDir = process.argv[2] ?? join(root, 'audit');
 mkdirSync(outDir, { recursive: true });
 
-const SKIP_KEYS = new Set(['credit', 'file', 'box', 'width', 'height', 'emoji', 'icon', 'status', 'accessed', 'modified', 'source', 'licenseUrl', 'alt']);
+const SKIP_KEYS = new Set([
+  'credit',
+  'file',
+  'box',
+  'width',
+  'height',
+  'emoji',
+  'icon',
+  'status',
+  'accessed',
+  'modified',
+  'source',
+  'licenseUrl',
+  'alt',
+]);
 const names = namesSet();
 
 function tr(s: string) {
@@ -24,10 +38,18 @@ function tr(s: string) {
     return '(no transliteration)';
   }
 }
-function tapLine(s: string) {
+/** The tap context of the file being dumped: a day file is that lesson; a week test is the week's last day. */
+let fileDay: number | undefined;
+let weekTests = false;
+function tapLine(s: string, path: string) {
   const words = arabicWords(s);
   if (!words.length) return '';
-  return words.map((w) => `${w}=${meaningOf(w) ?? '∅'}`).join(' · ');
+  const week = weekTests ? /^weeks\[(\d+)\]/.exec(path) : null;
+  const ctx: GlossCtx = {
+    day: week ? (Number(week[1]) + 1) * 7 : fileDay,
+    mistake: /mistakes\[\d+\]\.wrong$/.test(path),
+  };
+  return words.map((w) => `${w}=${meaningOf(w, ctx) ?? '∅'}`).join(' · ');
 }
 const isSeg = (v: unknown): v is [string, string, string?] =>
   Array.isArray(v) && v.length >= 2 && v.length <= 3 && typeof v[0] === 'string' && typeof v[1] === 'string' && hasScript(v[0]);
@@ -40,7 +62,7 @@ function walk(v: unknown, path: string, out: string[], inSegs: boolean) {
       out.push(`${path}: ${v}`);
       out.push(`${' '.repeat(2)}⟶ ${tr(v)}`);
       if (!inSegs) {
-        const t = tapLine(v);
+        const t = tapLine(v, path);
         if (t) out.push(`${' '.repeat(2)}tap: ${t}`);
       }
     } else out.push(`${path}: ${v}`);
@@ -74,6 +96,9 @@ function walk(v: unknown, path: string, out: string[], inSegs: boolean) {
 }
 
 function dumpFile(file: string, data: unknown, header: string) {
+  const day = /days\/day(\d+)\.json$/.exec(file);
+  fileDay = day ? Number(day[1]) : undefined;
+  weekTests = file.endsWith('course.json');
   const out: string[] = [`### ${header}`, `# source: ${file}`, ''];
   walk(data, '', out, false);
   out.push('');
@@ -126,11 +151,15 @@ const half = Math.ceil(scList.length / 2);
 // Grammar, letters, pronunciation
 write(
   'grammar',
-  (read('content/course/grammar.json') as unknown[]).map((g, i) => dumpFile(`content/course/grammar.json [${i}]`, g, `grammar ${(g as { id: string }).id}`)).join('\n'),
+  (read('content/course/grammar.json') as unknown[])
+    .map((g, i) => dumpFile(`content/course/grammar.json [${i}]`, g, `grammar ${(g as { id: string }).id}`))
+    .join('\n'),
 );
 write(
   'letters-pronunciation',
-  (read('content/course/letters.json') as unknown[]).map((g, i) => dumpFile(`content/course/letters.json [${i}]`, g, `letter ${(g as { id: string }).id}`)).join('\n') +
+  (read('content/course/letters.json') as unknown[])
+    .map((g, i) => dumpFile(`content/course/letters.json [${i}]`, g, `letter ${(g as { id: string }).id}`))
+    .join('\n') +
     (read('content/course/pronunciation.json') as unknown[])
       .map((g, i) => dumpFile(`content/course/pronunciation.json [${i}]`, g, `pronunciation ${(g as { id: string }).id}`))
       .join('\n'),
@@ -139,28 +168,62 @@ write(
 // Vocabulary (+ word photo alts are skipped) and placards
 write(
   'vocabulary',
-  (read('content/course/vocabulary.json') as unknown[]).map((g, i) => dumpFile(`content/course/vocabulary.json [${i}]`, g, `word ${(g as { id: string }).id}`)).join('\n'),
+  (read('content/course/vocabulary.json') as unknown[])
+    .map((g, i) => dumpFile(`content/course/vocabulary.json [${i}]`, g, `word ${(g as { id: string }).id}`))
+    .join('\n'),
 );
 write(
   'placards',
-  (read('content/course/placards.json') as unknown[]).map((g, i) => dumpFile(`content/course/placards.json [${i}]`, g, `placard ${(g as { id: string }).id}`)).join('\n'),
+  (read('content/course/placards.json') as unknown[])
+    .map((g, i) => dumpFile(`content/course/placards.json [${i}]`, g, `placard ${(g as { id: string }).id}`))
+    .join('\n'),
 );
 
 // Culture chapters
-const cultureFiles = readdirSync(join(root, 'content/culture')).filter((f) => f.endsWith('.json')).sort();
-write('culture', cultureFiles.map((f) => dumpFile(`content/culture/${f}`, read(`content/culture/${f}`), `culture ${f.replace('.json', '')}`)).join('\n'));
+const cultureFiles = readdirSync(join(root, 'content/culture'))
+  .filter((f) => f.endsWith('.json'))
+  .sort();
+write(
+  'culture',
+  cultureFiles
+    .map((f) => dumpFile(`content/culture/${f}`, read(`content/culture/${f}`), `culture ${f.replace('.json', '')}`))
+    .join('\n'),
+);
 
 // Glossaries: word, transliteration, gloss
 const hand = read('content/glossary/hand.json') as Record<string, string>;
+const mistakes = read('content/glossary/mistakes.json') as Record<string, string>;
 const auto = read('content/glossary/auto.json') as Record<string, string>;
 write(
   'glossary-hand',
-  ['### hand glossary (overrides every other gloss app-wide)', '# source: content/glossary/hand.json', '', ...Object.entries(hand).map(([k, v]) => `${k} ⟶ ${tr(k)} = ${v}`)].join('\n'),
+  [
+    '### hand glossary (overrides the course glosses for exactly this vocalised form, app-wide)',
+    '# source: content/glossary/hand.json',
+    '',
+    ...Object.entries(hand).map(([k, v]) => `${k} ⟶ ${tr(k)} = ${v}`),
+  ].join('\n'),
+);
+write(
+  'glossary-mistakes',
+  [
+    '### mistake notes (shown only on the wrong side of a mistake card, or for a non-word)',
+    '# source: content/glossary/mistakes.json',
+    '',
+    ...Object.entries(mistakes).map(([k, v]) => `${k} ⟶ ${tr(k)} = ${v}`),
+  ].join('\n'),
 );
 const autoLines = Object.entries(auto).map(([k, v]) => `${k} = ${v}`);
 const perChunk = Math.ceil(autoLines.length / 2);
 for (let i = 0; i < 2; i++)
-  write(`glossary-auto-${i + 1}`, ['### auto glossary (unvocalised keys; shown when no curated gloss exists)', '# source: content/glossary/auto.json', '', ...autoLines.slice(i * perChunk, (i + 1) * perChunk)].join('\n'));
+  write(
+    `glossary-auto-${i + 1}`,
+    [
+      '### auto glossary (vocalised keys: the meaning a tap shows outside a lesson, when the line has no curated gloss)',
+      '# source: content/glossary/auto.json',
+      '',
+      ...autoLines.slice(i * perChunk, (i + 1) * perChunk),
+    ].join('\n'),
+  );
 
 const total = written.reduce((s, [, n]) => s + n, 0);
 for (const [n, b] of written) console.log(`${n}.txt  ${(b / 1024).toFixed(0)} KB`);

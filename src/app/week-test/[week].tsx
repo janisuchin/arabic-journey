@@ -1,6 +1,6 @@
 import { router, useLocalSearchParams } from 'expo-router';
 
-import { GlossLine } from '@/components/tap';
+import { GlossLine, GlossScope } from '@/components/tap';
 import { AppText, Button, Caption, Card, Screen } from '@/components/ui';
 import { weekByNumber } from '@/content';
 import { isWeekTestUnlocked } from '@/core/progress';
@@ -36,13 +36,15 @@ export default function WeekTest() {
       {open ? (
         <>
           <AppText muted>Pass with 80% to open the next week.</AppText>
-          <QuizRunner
-            questions={w.test}
-            seed={100 + w.week}
-            passMark={passMark}
-            skill="week tests"
-            onFinish={(sc) => setWeekTest(w.week, sc)}
-          />
+          <GlossScope.Provider value={{ day: Math.max(...w.days.map((d) => d.day)) }}>
+            <QuizRunner
+              questions={w.test}
+              seed={100 + w.week}
+              passMark={passMark}
+              skill="week tests"
+              onFinish={(sc) => setWeekTest(w.week, sc)}
+            />
+          </GlossScope.Provider>
           <Button kind="ghost" label="Back to Today" icon="home-outline" onPress={() => router.replace('/')} />
         </>
       ) : (
