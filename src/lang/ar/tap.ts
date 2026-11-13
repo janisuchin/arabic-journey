@@ -113,7 +113,10 @@ let bareNames: Set<string> | null = null;
 function nameReading(w: string): string | undefined {
   const m = /^([وفلبك])([َِ])(.+)$/.exec(w);
   if (!m) return undefined;
-  if (!bareNames) bareNames = new Set([...namesSet()].map((n) => stripHarakat(n)));
+  if (!bareNames) {
+    namesSet();
+    bareNames = new Set([...nameIndex!].map((n) => stripHarakat(n)));
+  }
   const rest = stripHarakat(m[3]);
   if (rest.length < 2 || rest.startsWith('ال') || !bareNames.has(rest)) return undefined;
   const clitic = ({ و: 'w', ف: 'f', ل: 'l', ب: 'b', ك: 'k' } as Record<string, string>)[m[1]] + (m[2] === 'َ' ? 'a' : 'i');
@@ -140,6 +143,9 @@ export function tapTokens(text: string, style: TranslitStyle, names?: Set<string
       capitaliseFirst: sentenceStart,
       startsAfterVowel: plainGap && prevEndsVowel,
     });
+    // tanwīn before hamzat al-waṣl takes a helping kasra: jiddani l-yawma
+    if (plainGap && prevEndsVowel && ENDS_TANWIN.test(words[k - 1]) && readingOf(w).wasl && /^[aiu]/.test(readingOf(w).text))
+      tr[k - 1] += 'i';
     tr.push(t);
     prevEndsVowel = endsInVowel(w, readingOf(w).text);
   });
@@ -154,15 +160,41 @@ export function tapTokens(text: string, style: TranslitStyle, names?: Set<string
  * Transliteration of an Arabic run inside English prose: no sentence capital (the run is mid-sentence),
  * a bare letter is named (tāʾ marbūṭa, not its sound table 'a / at'), an unvocalised word gets none.
  */
-export function proseTranslit(text: string, style: TranslitStyle) {
-  return tapTokens(text, style, namesSet(), false)
-    .map((t) => {
+export function proseTranslit(text: string, style: TranslitStyle, after = '', before = '') {
+  const toks = tapTokens(text, style, namesSet(), false);
+  const join = (xs: typeof toks) => xs.map((x) => x.text).join('');
+  return toks
+    .map((t, i) => {
       if (t.kind === 'punct') return ({ '،': ',', '؟': '?', '؛': ';' } as Record<string, string>)[t.text] ?? t.text;
       const letter = t.kind === 'ar' && t.text.length === 1 ? letterByChar.get(t.text) : undefined;
-      return letter ? toStyle(letter.name, style) : t.tr;
+      if (!letter) return t.tr;
+      // the English already names it ("ء (hamza)", "hamza ء"): do not say the name twice
+      const named =
+        namedNext(letter.name, join(toks.slice(i + 1)) + after) || namedBefore(letter.name, before + join(toks.slice(0, i)));
+      return named ? '' : toStyle(letter.name, style);
     })
     .join('')
+    .replace(/\s{2,}/g, ' ')
     .trim();
+}
+
+const plainLatin = (s: string) =>
+  s
+    .normalize('NFD')
+    .replace(/[̀-ͯ]/g, '')
+    .replace(/[ʾʿ'’]/g, '')
+    .toLowerCase();
+/** True if the text right after a letter already gives its name, e.g. " (hamza)" or " the letter hamza". */
+function namedNext(name: string, follow: string) {
+  return plainLatin(follow)
+    .replace(/^[\s(]*(the letter\s+)?/, '')
+    .startsWith(plainLatin(name));
+}
+/** True if the text right before a letter ends with its name, e.g. "hamza ء" or "hamza (ء)". */
+function namedBefore(name: string, before: string) {
+  return plainLatin(before)
+    .replace(/[\s(]+$/, '')
+    .endsWith(plainLatin(name));
 }
 
 /** Whole-line transliteration, e.g. for the gold transliteration line. */
@@ -267,7 +299,8 @@ function buildIndexes() {
     addSense(v.ar, v.en, 'vocab', v.pos);
     const base = v.en.split(/[;(]/)[0].trim();
     if (v.plural) addSense(v.plural, `${base} (plural)`, 'form', v.pos);
-    for (const f of v.forms ?? []) addSense(f.ar, `${base} (${f.label.replace(/ \((.*)\)$/, ', $1')})`, 'form', v.pos);
+    // "form of 'sends': past", never "sends (past)", which would state a wrong tense or person
+    for (const f of v.forms ?? []) addSense(f.ar, `form of '${base}': ${f.label}`, 'form', v.pos);
   }
   // letter names and one-word examples from the letter and pronunciation pages
   for (const l of letters) {
@@ -278,9 +311,25 @@ function buildIndexes() {
     for (const e of [...p.examples, ...(p.pairs ?? []).flat()]) if (!e.ar.includes(' ')) addSense(e.ar, e.en, 'form');
 }
 
+let plainNames: Set<string> | null = null;
+/**
+ * Forms the course uses only as names. A form that is also an ordinary word (كَرِيم generous / Karim)
+ * is left out: it is capitalised only where its own line's segs mark it as a name.
+ */
 export function namesSet() {
-  if (!nameIndex) buildIndexes();
-  return nameIndex!;
+  if (!plainNames) {
+    if (!exact) buildIndexes();
+    plainNames = new Set(
+      [...nameIndex!].filter((n) => !(exact!.get(clean(n)) ?? []).some((s) => s.pos !== 'name' && s.src !== 'form')),
+    );
+  }
+  return plainNames;
+}
+
+/** The first lesson day that teaches a grammar rule (a grammar page reads its words in that lesson's sense). */
+export function grammarDay(id: string): number | undefined {
+  for (const d of days) if (d.sentences.some((s) => s.grammar.includes(id))) return d.day;
+  return undefined;
 }
 
 type Unit = { ch: string; vowel: string; shadda: boolean; marked: boolean };
@@ -330,19 +379,40 @@ export function compatibleForms(a: string, b: string, pos?: string): boolean {
   return true;
 }
 
+const byFreq = (a: Sense, b: Sense) => b.n - a.n || a.first - b.first;
+
 function pick(senses: Sense[], ctx: GlossCtx): string | undefined {
   if (!senses.length) return undefined;
-  const byFreq = (a: Sense, b: Sense) => b.n - a.n || a.first - b.first;
   const segs = senses.filter((s) => s.src === 'seg');
-  if (ctx.day !== undefined) {
-    const sameDay = segs.filter((s) => s.days.has(ctx.day!)).sort(byFreq);
-    if (sameDay.length) return sameDay[0].en;
-  }
+  let chosen: Sense | undefined;
+  if (ctx.day !== undefined) chosen = segs.filter((s) => s.days.has(ctx.day!)).sort(byFreq)[0];
   // the course dictionary, except for a verb: its sentences give the person (he works, not 'to work')
   const vocab = senses.find((s) => s.src === 'vocab');
-  if (vocab && !(vocab.pos === 'verb' && segs.length)) return vocab.en;
-  if (segs.length) return [...segs].sort(byFreq)[0].en;
-  return [...senses].sort(byFreq)[0].en;
+  if (!chosen && vocab && !(vocab.pos === 'verb' && segs.length)) chosen = vocab;
+  chosen ??= (segs.length ? [...segs] : [...senses]).sort(byFreq)[0];
+  return widen(chosen, senses);
+}
+
+const SUPERLATIVE = /\bthe (?:\w+est|most|best|worst|least)\b/i;
+const COMPARATIVE = /\b(?:\w{2,}er|more|better|worse|less)\b/i;
+/**
+ * Two readings that one form really has, shown together so that neither is wrong in any line:
+ * a name that is also a word (karīm: generous; Karim) and an elative (akbaru: bigger; the biggest).
+ */
+function widen(chosen: Sense, senses: Sense[]): string {
+  const others = senses.filter((s) => s.en !== chosen.en).sort(byFreq);
+  if (chosen.pos === 'name') {
+    const word = others.find((s) => s.pos !== 'name' && s.src !== 'form');
+    if (word) return `${word.en}; ${chosen.en}`;
+  }
+  if (SUPERLATIVE.test(chosen.en)) {
+    const comp = others.find((s) => !SUPERLATIVE.test(s.en) && COMPARATIVE.test(s.en));
+    if (comp) return `${comp.en}; ${chosen.en}`;
+  } else if (COMPARATIVE.test(chosen.en)) {
+    const sup = others.find((s) => SUPERLATIVE.test(s.en));
+    if (sup) return `${chosen.en}; ${sup.en}`;
+  }
+  return chosen.en;
 }
 
 const vocabExact = new Map(vocabulary.map((v) => [v.ar, v]));
@@ -397,7 +467,7 @@ export function meaningOf(word: string, ctx: GlossCtx = {}): string | undefined 
   if (/^\d+$/.test(western)) return numberToEnglish(Number(western));
   const num = numberWords.get(w);
   if (num !== undefined) return numberToEnglish(num);
-  if (letter) return `the letter ${letter.name}`;
+  if (letter && !w.includes('ـ')) return `the letter ${letter.name}`;
   return mistakeGlossary[w];
 }
 

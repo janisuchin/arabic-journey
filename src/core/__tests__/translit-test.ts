@@ -46,7 +46,7 @@ describe('transliteration engine (academic)', () => {
     ['مِائَة', 'Miʾa'], // silent alif of the old spelling
     ['غُرْفَةِي', 'Ghurfa-ī'], // the mistake shows as written
     ['وَاتَّصَلَ', 'Wa-ttaṣala'],
-    ['مُزْدَحِم جِدًّا الْيَوْمَ', 'Muzdaḥim jiddan l-yawma'], // elision after tanwīn
+    ['مُزْدَحِم جِدًّا الْيَوْمَ', 'Muzdaḥim jiddani l-yawma'], // tanwīn + waṣla: helping i
   ])('round 1: %s → %s', (ar, expected) => expect(t(ar)).toBe(expected));
 
   it('simple style uses plain letters', () => {

@@ -48,7 +48,7 @@
         "segs": [["صَحِيح", "correct, right"], ["مِنْ", "from"], ["أَمْرِيكَا", "America (country)", "name"], ["وَلُبْنَان", "and Lebanon (country)", "name"], ["وَمِصْر", "and Egypt (country)", "name"], ["وَبِلَاد", "and countries"], ["أُخْرَى", "other (f)"]] },
       { "id": "d3l11", "sp": "sami", "ar": "هٰذَا جَمِيل! الصَّفّ مِثْل عَائِلَة كَبِيرَة.", "en": "That is lovely! The class is like a big family.",
         "segs": [["هٰذَا", "this (m)"], ["جَمِيل", "beautiful, lovely"], ["الصَّفّ", "the class"], ["مِثْل", "like"], ["عَائِلَة", "family"], ["كَبِيرَة", "big (f)"]] },
-      { "id": "d3l12", "sp": "layla", "ar": "نَعَم، عَائِلَة كَبِيرَة وَجَمِيلَة!", "en": "Yes, a big and very beautiful family!",
+      { "id": "d3l12", "sp": "layla", "ar": "نَعَم، عَائِلَة كَبِيرَة وَجَمِيلَة!", "en": "Yes, a big and beautiful family!",
         "segs": [["نَعَم", "yes"], ["عَائِلَة", "family"], ["كَبِيرَة", "big (f)"], ["وَجَمِيلَة", "and beautiful (f)"]] }
     ]
   },

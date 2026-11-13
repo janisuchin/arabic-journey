@@ -56,7 +56,7 @@
       ["هٰذَا أَخ", "هٰذِهِ أُخْت", "this is a brother / this is a sister"],
       ["هٰذَا كِتَاب", "هٰذِهِ سَيَّارَة", "this is a book / this is a car"] ] },
     "examples": [ { "ar": "هٰذَا أَخِي.", "en": "This is my brother." }, { "ar": "هٰذِهِ أُمِّي.", "en": "This is my mother." } ] },
-  { "id": "article", "title": "the: الـ (al-)", "titleAr": "أَدَاة التَّعْرِيف", "firstDay": 6,
+  { "id": "article", "title": "the: الـ (al-)", "titleAr": "أَدَاةُ التَّعْرِيف", "firstDay": 6,
     "summary": "'The' is الـ joined to the front of the noun. There is no word for 'a'.",
     "formula": "الـ + noun  (كِتَاب a book → الْكِتَاب the book)",
     "explanation": "A noun without الـ means 'a': كِتَاب = a book. With الـ it means 'the'. Before a sun letter the l is not said and the next letter is doubled (السَّيَّارَة as-sayyāra). Before a moon letter the l is said (الْقَلَم al-qalam).",
@@ -792,7 +792,7 @@
     "firstDay": 20,
     "summary": "For two of something add ـَانِ (subject, on its own) or ـَيْنِ (as an object or after a preposition). ة becomes ت.",
     "formula": "كُوب → كُوبَانِ / كُوبَيْنِ · شَطِيرَة → شَطِيرَتَانِ / شَطِيرَتَيْنِ",
-    "explanation": "Arabic has a special form for exactly two things or people, the dual. Add ـَانِ to the singular: كِتَاب → كِتَابَانِ (two books). After a verb or a preposition the ending is ـَيْنِ: أُرِيدُ كُوبَيْنِ (I'd like two glasses), مِنْ بَلَدَيْنِ (from two countries). A feminine ة is written as an open ت before the ending, and you hear the t: شَطِيرَة → شَطِيرَتَانِ. The dual already means 'two', so you normally don't add the number; اِثْنَانِ (m) or اِثْنَتَانِ (f) after the noun only adds emphasis. Adjectives agree and take the same ending: الْكُوبَانِ كَبِيرَانِ (the two glasses are big). To say 'two glasses of juice', use مِنْ: كُوبَانِ مِنَ الْعَصِير.",
+    "explanation": "Arabic has a special form for exactly two things or people, the dual. Add ـَانِ to the singular: كِتَاب → كِتَابَانِ (two books). As the object of a verb or after a preposition the ending is ـَيْنِ: أُرِيدُ كُوبَيْنِ (I'd like two glasses), مِنْ بَلَدَيْنِ (from two countries). A feminine ة is written as an open ت before the ending, and you hear the t: شَطِيرَة → شَطِيرَتَانِ. The dual already means 'two', so you normally don't add the number; اِثْنَانِ (m) or اِثْنَتَانِ (f) after the noun only adds emphasis. Adjectives agree and take the same ending: الْكُوبَانِ كَبِيرَانِ (the two glasses are big). To say 'two glasses of juice', use مِنْ: كُوبَانِ مِنَ الْعَصِير.",
     "table": {
       "head": [
         "Singular",
@@ -1515,7 +1515,7 @@
     "firstDay": 34,
     "summary": "Ask كَمْ عُمْرُكَ؟ and answer عُمْرِي + number + years. The word for 'years' depends on the number.",
     "formula": "عُمْرِي + 3–10 + سَنَوَاتٍ · عُمْرِي + 11–99 + سَنَةً",
-    "explanation": "عُمْر means 'age' (and 'life'). Add an ending: عُمْرِي (my age), عُمْرُكَ, عُمْرُكِ, عُمْرُهُ, عُمْرُهَا. To ask, use كَمْ (how much): كَمْ عُمْرُكَ؟ After 3 to 10 comes the plural سَنَوَات, and because سَنَة is feminine the number loses its ة: عَشْرُ سَنَوَاتٍ (ten years), not عَشَرَة. From 11 upwards the singular follows, with the ending ـَةً: عِشْرُونَ سَنَةً. The round tens are easy: عِشْرُون, ثَلَاثُون, أَرْبَعُون, خَمْسُون, سِتُّون, سَبْعُون.",
+    "explanation": "عُمْر means 'age' (and 'life'). Add an ending: عُمْرِي (my age), عُمْرُكَ, عُمْرُكِ, عُمْرُهُ, عُمْرُهَا. To ask, use كَمْ (how much): كَمْ عُمْرُكَ؟ After 3 to 10 comes the plural سَنَوَات, and because سَنَة is feminine the number loses its ة: عَشْرُ سَنَوَاتٍ (ten years), not عَشَرَة. From 11 to 99 the singular follows, with the ending ـَةً: عِشْرُونَ سَنَةً (after مِئَة and أَلْف it takes -in: مِئَةُ سَنَةٍ). The round tens are easy: عِشْرُون, ثَلَاثُون, أَرْبَعُون, خَمْسُون, سِتُّون, سَبْعُون.",
     "table": {
       "head": [
         "Age",
@@ -3728,7 +3728,7 @@
     "firstDay": 77,
     "summary": "مَنْ means 'who?' in a question, but at the start of a statement it means 'whoever, anyone who'. Proverbs use it with two past verbs for something that is always true: مَنْ جَدَّ وَجَدَ (whoever works hard succeeds).",
     "formula": "مَنْ + past verb + past verb = a general truth (whoever does A gets B)",
-    "explanation": "In proverbs the past tense often states something that is always true: مَنْ زَرَعَ حَصَدَ, literally 'who sowed, reaped', means 'whoever sows will reap'. مَنْ never changes and always takes a singular verb, although it can mean a man, a woman or many people. In ordinary sentences you can say the same with the present: مَنْ يَعْمَلُ كَثِيرًا يَجِدُ النَّجَاح (whoever works hard finds success). Compare: مَنْ هٰذَا؟ (who is this?) is a question, but مَنْ جَدَّ وَجَدَ is a statement.",
+    "explanation": "In proverbs the past tense often states something that is always true: مَنْ زَرَعَ حَصَدَ, literally 'who sowed, reaped', means 'whoever sows will reap'. مَنْ never changes and normally takes a singular verb, although it can mean a man, a woman or many people. In ordinary sentences you can say the same with the present: مَنْ يَعْمَلُ كَثِيرًا يَجِدُ النَّجَاح (whoever works hard finds success). Compare: مَنْ هٰذَا؟ (who is this?) is a question, but مَنْ جَدَّ وَجَدَ is a statement.",
     "table": {
       "head": [
         "Proverb",

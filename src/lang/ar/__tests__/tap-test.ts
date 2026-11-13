@@ -1,7 +1,17 @@
 import { ZWJ } from '../../../core/arabic';
 import autoList from '../../../../content/glossary/auto.json';
 import { handGlossary, mistakeGlossary } from '../../../content';
-import { compatibleForms, meaningOf, proseTranslit, splitRuns, syllables, tapTokens, translitLine, vocabOf } from '../tap';
+import {
+  compatibleForms,
+  meaningOf,
+  namesSet,
+  proseTranslit,
+  splitRuns,
+  syllables,
+  tapTokens,
+  translitLine,
+  vocabOf,
+} from '../tap';
 
 describe('Arabic language pack', () => {
   it('keeps Arabic words whole and attaches leading digits', () => {
@@ -55,6 +65,15 @@ describe('Arabic language pack', () => {
     expect(proseTranslit('ة', 'academic')).toBe('tāʾ marbūṭa');
     expect(proseTranslit('مَا عَمَلُكَ؟', 'academic')).toBe('mā ʿamaluka?');
     expect(proseTranslit('أنت', 'academic')).toBe('');
+    // round 2: never name a letter twice
+    expect(proseTranslit('plus hamza ء, and ة (tāʾ marbūṭa)', 'academic')).toBe('plus hamza , and (tāʾ marbūṭa)');
+  });
+  it('round 2: shows both readings of a name/word and of an elative, and forms as forms', () => {
+    expect(meaningOf('كَرِيم')).toMatch(/generous.*Karim/);
+    expect(meaningOf('أَكْبَرُ')).toMatch(/bigger.*biggest/);
+    expect(meaningOf('يَضْحَكُ') ?? '').not.toMatch(/^laughed/);
+    expect(translitLine('رَمَضَان كَرِيم', 'academic', namesSet())).toBe('Ramaḍān karīm');
+    expect(translitLine('مُزْدَحِم جِدًّا الْيَوْمَ', 'academic')).toBe('Muzdaḥim jiddani l-yawma');
   });
   it('lets the lesson day choose between senses', () => {
     expect(meaningOf('حَارّ', { day: 18 })).toMatch(/spicy/);

@@ -358,6 +358,7 @@ export function translit(text: string, opts: TranslitOptions = {}): string {
   let prevEndsVowel = false;
   let wordIndex = 0;
   let sentenceStart = opts.sentence ?? true;
+  let prevTanwin = false;
   let i = 0;
   while (i < text.length) {
     WORD_RE.lastIndex = i;
@@ -365,12 +366,17 @@ export function translit(text: string, opts: TranslitOptions = {}): string {
     if (m && m.index === i) {
       const { text: w0, wasl } = translitWord(m[0]);
       let w = w0;
-      if (wasl && prevEndsVowel && /^[aiu]/.test(w)) w = w.slice(1);
+      if (wasl && prevEndsVowel && /^[aiu]/.test(w)) {
+        w = w.slice(1);
+        // tanwīn before hamzat al-waṣl takes a helping kasra: jiddani l-yawma
+        if (prevTanwin) out = out.replace(/(\s+)$/, 'i$1');
+      }
       if (names.has(wordIndex)) w = capitaliseName(w);
       if (sentenceStart) w = capitalise(w);
       sentenceStart = false;
       out += w;
-      prevEndsVowel = /[aiuāīū]$/.test(w0) || ENDS_TANWIN.test(m[0]); // tanwīn: jiddan l-yawma
+      prevTanwin = ENDS_TANWIN.test(m[0]);
+      prevEndsVowel = /[aiuāīū]$/.test(w0) || prevTanwin;
       wordIndex++;
       i += m[0].length;
       continue;

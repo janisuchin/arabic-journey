@@ -416,6 +416,15 @@ export function RichText({ text, size = 16, muted, center }: { text: string; siz
   const children: ReactNode[] = parts.map((p, i) => {
     if (!p.ar) return <Text key={i}>{p.tokens.map((t) => t.text).join('')}</Text>;
     const runText = p.tokens.map((t) => t.text).join('');
+    const after = parts
+      .slice(i + 1)
+      .flatMap((q) => q.tokens.map((t) => t.text))
+      .join('');
+    const before = parts
+      .slice(0, i)
+      .flatMap((q) => q.tokens.map((t) => t.text))
+      .join('');
+    const runTr = proseTranslit(runText, settings.translitStyle, after, before);
     return (
       <Text key={i}>
         <Text {...webLang('ar', 'rtl')} style={{ fontFamily: AR_FONT, fontSize: fs(size + 4), color }}>
@@ -438,9 +447,9 @@ export function RichText({ text, size = 16, muted, center }: { text: string; siz
           )}
           {NATIVE ? '\u2069' : ''}
         </Text>
-        {settings.showTranslit && proseTranslit(runText, settings.translitStyle) !== '' && (
+        {settings.showTranslit && runTr !== '' && (
           <Text {...webLang('ar-Latn', 'ltr')} style={{ color: c.translit, fontStyle: 'italic', fontWeight: '600' }}>
-            {isoL(` (${proseTranslit(runText, settings.translitStyle)})`)}
+            {isoL(` (${runTr})`)}
           </Text>
         )}
       </Text>

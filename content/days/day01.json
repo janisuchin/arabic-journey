@@ -38,7 +38,7 @@
         "segs": [["وَعَلَيْكُمُ", "and upon you (plural)"], ["السَّلَامُ", "the peace"], ["يَا", "O (calling someone)"], ["أُسْتَاذ", "teacher"], ["صَبَاحُ", "morning (of)"], ["الْخَيْر", "the goodness"]] },
       { "id": "d1l6", "sp": "karim", "ar": "صَبَاحُ النُّور! الدَّرْس الْأَوَّل الْيَوْم: التَّحِيَّات.", "en": "Good morning to you! The first lesson today is greetings.",
         "segs": [["صَبَاحُ", "morning (of)"], ["النُّور", "the light"], ["الدَّرْس", "the lesson"], ["الْأَوَّل", "the first"], ["الْيَوْم", "today"], ["التَّحِيَّات", "the greetings"]] },
-      { "id": "d1l7", "sp": "daniel", "ar": "مُمْتَاز! أَنَا أُحِبُّ اللُّغَة الْعَرَبِيَّة.", "en": "Excellent! I really love the Arabic language.",
+      { "id": "d1l7", "sp": "daniel", "ar": "مُمْتَاز! أَنَا أُحِبُّ اللُّغَة الْعَرَبِيَّة.", "en": "Excellent! I love the Arabic language.",
         "segs": [["مُمْتَاز", "excellent"], ["أَنَا", "I"], ["أُحِبُّ", "I love"], ["اللُّغَة", "the language"], ["الْعَرَبِيَّة", "Arabic (f)"]] },
       { "id": "d1l8", "sp": "sami", "ar": "وَأَنَا أَيْضًا! الْعَرَبِيَّة جَمِيلَة جِدًّا.", "en": "Me too! Arabic is a very beautiful language.",
         "segs": [["وَأَنَا", "and I"], ["أَيْضًا", "also, too"], ["الْعَرَبِيَّة", "Arabic (the language)"], ["جَمِيلَة", "beautiful (f)"], ["جِدًّا", "very"]] },

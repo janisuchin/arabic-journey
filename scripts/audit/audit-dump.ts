@@ -8,7 +8,7 @@ import { mkdirSync, readFileSync, readdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 
 import { hasScript } from '../../src/core/arabic';
-import { arabicWords, meaningOf, namesSet, proseTranslit, translitLine, type GlossCtx } from '../../src/lang/ar/tap';
+import { arabicWords, grammarDay, meaningOf, namesSet, proseTranslit, translitLine, type GlossCtx } from '../../src/lang/ar/tap';
 
 const root = join(__dirname, '..', '..');
 const outDir = process.argv[2] ?? join(root, 'audit');
@@ -98,7 +98,8 @@ function walk(v: unknown, path: string, out: string[], inSegs: boolean) {
 
 function dumpFile(file: string, data: unknown, header: string) {
   const day = /days\/day(\d+)\.json$/.exec(file);
-  fileDay = day ? Number(day[1]) : undefined;
+  const rule = file.includes('grammar.json') ? (data as { id?: string }).id : undefined;
+  fileDay = day ? Number(day[1]) : rule ? grammarDay(rule) : undefined;
   weekTests = file.endsWith('course.json');
   const out: string[] = [`### ${header}`, `# source: ${file}`, ''];
   walk(data, '', out, false);

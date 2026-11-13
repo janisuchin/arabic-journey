@@ -1407,7 +1407,7 @@
    ]
   ],
   "icon": "calendar-outline",
-  "description": "The week starts on Sunday. Most day names come from numbers: الْأَحَد (one), الاِثْنَيْن (two)… Friday is the day of the main weekly prayer.",
+  "description": "The week starts on Sunday. Most day names come from numbers: الْأَحَد (one), الِاثْنَيْن (two)… Friday is the day of the main weekly prayer.",
   "items": [
    {
     "ar": "الْأَحَد",
@@ -1421,11 +1421,11 @@
     "note": "From أَحَد, one: the first day."
    },
    {
-    "ar": "الاِثْنَيْن",
+    "ar": "الِاثْنَيْن",
     "en": "Monday",
     "segs": [
      [
-      "الاِثْنَيْن",
+      "الِاثْنَيْن",
       "Monday"
      ]
     ],
