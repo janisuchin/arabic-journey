@@ -2,8 +2,9 @@ import { useLocalSearchParams } from 'expo-router';
 import { useMemo, useState } from 'react';
 import { Text, View } from 'react-native';
 
+import { WordTile } from '@/components/photo';
 import { AppText, ArText, Button, Card, Row, Screen, TrText } from '@/components/ui';
-import { vocabById } from '@/content';
+import { vocabById, wordPhotoByVocab } from '@/content';
 import { isDue, type Grade } from '@/core/srs';
 import { translitLine } from '@/lang/ar/tap';
 import { tts } from '@/services/tts';
@@ -53,7 +54,11 @@ export default function Flashcards() {
             style={{ alignItems: 'center', minHeight: 220, justifyContent: 'center' }}
             onPress={() => tts.speak(v.ar, { rate: settings.speechRate })}
             label="Hear the word">
-            <Text style={{ fontSize: 40 }}>{v.emoji}</Text>
+            {wordPhotoByVocab.has(v.id) ? (
+              <WordTile v={v} size={160} testID="card-photo" />
+            ) : (
+              <Text style={{ fontSize: 40 }}>{v.emoji}</Text>
+            )}
             <ArText size={44} bold center>
               {v.ar}
             </ArText>

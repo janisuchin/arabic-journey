@@ -232,6 +232,12 @@ export const Scene = Photo.extend({
 });
 export type Scene = z.infer<typeof Scene>;
 
+/** A word photo (Prompt B M): one square 360×360 licensed Commons photo for a concrete noun
+ *  (assets/words/<vocab id>.jpg). Built from scripts/word-plan.json by `scripts/word_photos.py apply`.
+ *  Words without one keep their emoji tile. */
+export const WordPhoto = Photo.extend({ vocab: z.string() });
+export type WordPhoto = z.infer<typeof WordPhoto>;
+
 // ------------------------------------------------------------------ placards
 
 /** One line on a placard: Arabic, English and a hand gloss for every word (segs). */

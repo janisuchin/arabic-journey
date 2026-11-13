@@ -5,8 +5,9 @@ import { Image } from 'expo-image';
 import { useState, type ReactNode } from 'react';
 import { Linking, Pressable, Text, View, type StyleProp, type ViewStyle } from 'react-native';
 
-import { CULTURE_IMAGES, REAL_LIFE_IMAGES, SCENE_IMAGES } from '@/content/culture-images.generated';
-import type { Photo } from '@/content/schema';
+import { wordPhotoByVocab } from '@/content';
+import { CULTURE_IMAGES, REAL_LIFE_IMAGES, SCENE_IMAGES, WORD_IMAGES } from '@/content/culture-images.generated';
+import type { Photo, Vocab } from '@/content/schema';
 import { usePalette } from '@/state/hooks';
 
 import { RichText } from './tap';
@@ -25,7 +26,7 @@ export function PhotoFrame({
 }) {
   const c = usePalette();
   const [open, setOpen] = useState(false);
-  const src = CULTURE_IMAGES[photo.file] ?? REAL_LIFE_IMAGES[photo.file] ?? SCENE_IMAGES[photo.file];
+  const src = CULTURE_IMAGES[photo.file] ?? REAL_LIFE_IMAGES[photo.file] ?? SCENE_IMAGES[photo.file] ?? WORD_IMAGES[photo.file];
   if (!src) return null;
   return (
     <View style={{ gap: 4 }}>
@@ -78,6 +79,68 @@ export function PhotoFrame({
         </Pressable>
       </View>
       {photo.caption ? <RichText text={photo.caption} size={13} muted /> : null}
+    </View>
+  );
+}
+
+/**
+ * The square tile of a vocabulary word (word cards, word box, flashcards): its licensed 360×360 Commons photo
+ * with the © badge when one is bundled (Prompt B M, concrete nouns), otherwise the emoji tile. Small tiles open the
+ * Commons page straight from the badge; from 120 px up the badge shows the credit strip like every other photo.
+ */
+export function WordTile({ v, size = 56, testID }: { v: Vocab; size?: number; testID?: string }) {
+  const c = usePalette();
+  const photo = wordPhotoByVocab.get(v.id);
+  const src = photo ? WORD_IMAGES[photo.file] : undefined;
+  if (!photo || !src)
+    return (
+      <View
+        testID={testID}
+        style={{
+          width: size,
+          height: size,
+          borderRadius: 12,
+          backgroundColor: c.cardAlt,
+          alignItems: 'center',
+          justifyContent: 'center',
+        }}>
+        <Text style={{ fontSize: Math.min(64, Math.round(size * 0.54)) }}>{v.emoji}</Text>
+      </View>
+    );
+  if (size >= 120)
+    return (
+      <View testID={testID} style={{ width: size }}>
+        <PhotoFrame photo={photo} aspectRatio={1} style={{ borderRadius: 12 }} />
+      </View>
+    );
+  return (
+    <View testID={testID} style={{ width: size, height: size, borderRadius: 12, overflow: 'hidden', backgroundColor: c.cardAlt }}>
+      <Image
+        source={src}
+        style={{ width: '100%', height: '100%' }}
+        contentFit="cover"
+        accessibilityLabel={photo.alt}
+        transition={150}
+      />
+      <Pressable
+        onPress={() => void Linking.openURL(photo.credit.source)}
+        hitSlop={8}
+        accessibilityRole="link"
+        accessibilityLabel={`Photo: ${photo.credit.author}, ${photo.credit.license}. Opens the photo page on Wikimedia Commons`}
+        testID="photo-credit"
+        style={{
+          position: 'absolute',
+          right: 3,
+          bottom: 3,
+          width: 16,
+          height: 16,
+          borderRadius: 8,
+          alignItems: 'center',
+          justifyContent: 'center',
+          backgroundColor: 'rgba(20,18,15,0.6)',
+        }}>
+        <Text style={{ color: '#fff', fontSize: 10, fontWeight: '700', lineHeight: 12 }}>©</Text>
+      </Pressable>
     </View>
   );
 }

@@ -6,11 +6,13 @@ import { Modal, Platform, Pressable, ScrollView, Text, View, type LayoutChangeEv
 
 import { AR_START, START, webLang } from '../base/rtl';
 import { isolateLtr, isolateRtl, stripHarakat } from '../core/arabic';
+import { wordPhotoByVocab } from '../content';
 import type { Seg } from '../content/schema';
 import { namesSet, splitRuns, syllables, tapTokens, translitLine, wordToken, type WordInfo } from '../lang/ar/tap';
 import { tts } from '../services/tts';
 import { useFs, usePalette, useSettings } from '../state/hooks';
 import { useLearner } from '../state/store';
+import { WordTile } from './photo';
 import { AR_FONT, AR_FONT_BOLD, AppText, ArText, IconButton, Row, TrText } from './ui';
 
 const NATIVE = Platform.OS !== 'web';
@@ -85,6 +87,11 @@ export function WordBox({ info, onClose, floating }: { info: WordInfo; onClose: 
           )}
         </View>
       </Row>
+      {v && wordPhotoByVocab.has(v.id) && (
+        <View style={{ width: 150 }} testID="word-box-photo">
+          <WordTile v={v} size={150} />
+        </View>
+      )}
       {facts.length > 0 && (
         <AppText size={13} muted>
           {facts.join(' · ')}

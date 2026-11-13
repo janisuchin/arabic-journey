@@ -16,6 +16,7 @@ import {
   Scenario,
   Scene,
   Vocab,
+  WordPhoto,
   type Course as CourseT,
   type Culture as CultureT,
   type Day as DayT,
@@ -26,6 +27,7 @@ import {
   type Scenario as ScenarioT,
   type Scene as SceneT,
   type Vocab as VocabT,
+  type WordPhoto as WordPhotoT,
 } from './schema';
 
 export interface ContentIssue {
@@ -66,6 +68,12 @@ export const pronunciation: PronunciationT[] = validList(
 );
 export const scenarios: ScenarioT[] = validList(Scenario, require('../../content/course/scenarios.json'), 'scenarios', idOf);
 export const scenes: SceneT[] = validList(Scene, require('../../content/course/scenes.json'), 'scenes', (x) => String(x?.scenario));
+export const wordPhotos: WordPhotoT[] = validList(
+  WordPhoto,
+  require('../../content/course/word-photos.json'),
+  'word-photos',
+  (x) => String(x?.vocab),
+);
 export const placards: PlacardT[] = validList(Placard, require('../../content/course/placards.json'), 'placards', idOf);
 export const culture: CultureT[] = validList(Culture, RAW_CULTURE, 'culture', idOf).sort((a, b) => a.n - b.n);
 
@@ -124,6 +132,8 @@ export const placardById = new Map(placards.map((p) => [p.id, p]));
 export const cultureById = new Map(culture.map((c) => [c.id, c]));
 /** The scene photo of a scenario, if one is bundled. */
 export const sceneByScenario = new Map(scenes.map((s) => [s.scenario, s]));
+/** The square word photo of a vocabulary item, if one is bundled (the rest show their emoji tile). */
+export const wordPhotoByVocab = new Map(wordPhotos.map((p) => [p.vocab, p]));
 export const validDays = days.map((d) => d.day).sort((a, b) => a - b);
 
 export const weekOf = (day: number) => {

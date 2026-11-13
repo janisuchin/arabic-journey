@@ -224,6 +224,33 @@ test('scenario scene photo: red outline on hover and on a word chip tap, label o
   await expect(scene.getByTestId('photo-credit')).toBeVisible();
 });
 
+test('word photos: a concrete noun shows its square photo with the © badge on the word card and in the word box', async ({
+  page,
+}) => {
+  await newLearner(page);
+  await page.goto('/dictionary');
+  await page.getByTestId('search-input').fill('book');
+  const card = page.getByTestId('word-card-kitab');
+  const tile = card.getByTestId('word-tile-kitab');
+  const img = tile.locator('img').first();
+  await expect(img).toBeVisible();
+  await expect.poll(() => img.evaluate((i: HTMLImageElement) => i.naturalWidth)).toBe(360);
+  await expect.poll(() => img.evaluate((i: HTMLImageElement) => i.naturalHeight)).toBe(360);
+  await expect(tile.getByTestId('photo-credit')).toBeVisible();
+  // a word without a photo keeps its emoji tile
+  await page.getByTestId('search-input').fill('hello');
+  await expect(page.getByTestId('word-tile-marhaban')).toContainText('👋');
+  await expect(page.getByTestId('word-tile-marhaban').locator('img')).toHaveCount(0);
+  // the word box shows the photo too
+  await page.getByTestId('search-input').fill('book');
+  await card.getByText('book', { exact: true }).click();
+  await expect(page.getByTestId('word-box')).toBeVisible();
+  const boxPhoto = page.getByTestId('word-box-photo');
+  await expect(boxPhoto.locator('img').first()).toBeVisible();
+  await boxPhoto.getByTestId('photo-credit').click();
+  await expect(boxPhoto.getByText(/Wikimedia Commons/)).toBeVisible();
+});
+
 test('placards: 20 cards, every word tappable, large display', async ({ page }) => {
   await newLearner(page);
   await page.goto('/library');
@@ -273,7 +300,7 @@ test('explore: culture chapters with photos, tappable words, a reading and a qui
   await expect(page.getByTestId('culture-reading')).toBeVisible();
   await expect(page.getByTestId('culture-quiz').getByTestId('quiz')).toBeVisible();
   await page.goto('/credits');
-  await expect(page.locator('[data-testid^="credit-"]')).toHaveCount(156); // 90 real-life + 32 scenes + 34 culture
+  await expect(page.locator('[data-testid^="credit-"]')).toHaveCount(358); // 90 real-life + 32 scenes + 202 words + 34 culture
 });
 
 test('onboarding: welcome, goal and time, audio check, then the placement check suggests a start', async ({ page }) => {

@@ -2,8 +2,8 @@
 
 import { FATHA, DAMMA, KASRA, FATHATAN, DAMMATAN, KASRATAN, SUKUN, SHADDA, DAGGER_ALIF } from '../core/arabic';
 import { arabicWords } from '../lang/ar/tap';
-import { contentIssues, culture, days, grammarById, placards, scenarios, scenes, course, vocabById } from './index';
-import { CULTURE_PHOTO_FILES } from './culture.generated';
+import { contentIssues, culture, days, grammarById, placards, scenarios, scenes, course, vocabById, wordPhotos } from './index';
+import { CULTURE_PHOTO_FILES, WORD_PHOTO_FILES } from './culture.generated';
 import { findGlossGaps } from './gloss-gaps';
 import type { Seg } from './schema';
 
@@ -74,6 +74,20 @@ export function validateAll(): ValidationError[] {
     if (!scenarioIds.has(s.scenario)) errs.push({ where: w, message: 'no scenario with this id' });
     if (scenes.filter((x) => x.scenario === s.scenario).length > 1) errs.push({ where: w, message: 'more than one scene for this scenario' });
     for (const sp of s.spots) for (const word of arabicWords(sp.ar)) if (isUnvocalised(word)) errs.push({ where: `${w} spot ${sp.en}`, message: `unvocalised word "${word}"` });
+  }
+  // Word photos: one per vocabulary id, for nouns only, file bundled, no file or Commons photo used twice.
+  const photoTitles = new Map<string, string>();
+  for (const p of wordPhotos) {
+    const w = `word photo ${p.vocab}`;
+    const v = vocabById.get(p.vocab);
+    if (!v) errs.push({ where: w, message: 'no vocabulary item with this id' });
+    else if (v.pos !== 'noun') errs.push({ where: w, message: `"${v.en}" is a ${v.pos}, word photos are for concrete nouns` });
+    if (p.file !== `${p.vocab}.jpg`) errs.push({ where: w, message: `file should be ${p.vocab}.jpg` });
+    if (!WORD_PHOTO_FILES.includes(p.file)) errs.push({ where: w, message: `photo file "${p.file}" is not in assets/words` });
+    if (wordPhotos.filter((x) => x.vocab === p.vocab).length > 1) errs.push({ where: w, message: 'more than one photo for this word' });
+    const other = photoTitles.get(p.credit.title);
+    if (other) errs.push({ where: w, message: `Commons photo ${p.credit.title} is also used by ${other}` });
+    photoTitles.set(p.credit.title, w);
   }
   for (const p of placards) {
     checkSegs(`placard ${p.id} title`, p.titleAr, p.titleSegs, errs);

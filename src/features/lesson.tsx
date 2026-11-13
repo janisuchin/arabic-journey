@@ -16,6 +16,7 @@ import { namesSet, translitLine, wordToken, type WordInfo } from '../lang/ar/tap
 import { tts } from '../services/tts';
 import { useFs, usePalette, useSettings } from '../state/hooks';
 import { useLearner } from '../state/store';
+import { WordTile } from '../components/photo';
 import { RichText, TapText, WordBox } from '../components/tap';
 import { AR_FONT, AppText, ArText, Button, Card, IconButton, Pill, Row, TrText } from '../components/ui';
 
@@ -51,17 +52,7 @@ export function WordCard({ v, compact }: { v: Vocab; compact?: boolean }) {
         setOpen(wordToken(v.ar, settings.translitStyle, tr));
       }}>
       <Row style={{ alignItems: 'flex-start' }} gap={12}>
-        <View
-          style={{
-            width: 56,
-            height: 56,
-            borderRadius: 12,
-            backgroundColor: c.cardAlt,
-            alignItems: 'center',
-            justifyContent: 'center',
-          }}>
-          <Text style={{ fontSize: 30 }}>{v.emoji}</Text>
-        </View>
+        <WordTile v={v} size={56} testID={`word-tile-${v.id}`} />
         <View style={{ flex: 1, gap: 0 }}>
           <ArText size={compact ? 24 : 28} bold color={colour}>
             {v.ar}
