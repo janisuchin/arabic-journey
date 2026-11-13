@@ -37,9 +37,9 @@
           "segs": [["النِّيل", "the Nile (river)", "name"], ["مِنْ", "of, among", "prep"], ["أَطْوَلِ", "the longest (of)", "adj"], ["الْأَنْهَار", "the rivers", "noun"], ["فِي", "in", "prep"], ["الْعَالَم", "the world", "noun"]], "grammar": ["superlative"] },
         { "id": "pls3", "ar": "زُرْتُ الْقَاهِرَة وَشَاهَدْتُ أَهْرَامَ الْجِيزَة.", "en": "I visited Cairo and saw the pyramids of Giza.", "literal": "I visited Cairo and I saw (the) pyramids (of) Giza",
           "segs": [["زُرْتُ", "I visited", "verb"], ["الْقَاهِرَة", "Cairo (capital of Egypt)", "name"], ["وَشَاهَدْتُ", "and I saw", "verb"], ["أَهْرَامَ", "pyramids (of)", "noun"], ["الْجِيزَة", "Giza (city next to Cairo)", "name"]], "grammar": ["hollow-verbs", "past-tense", "idafa"] },
-        { "id": "pls4", "ar": "الْقَاهِرَة أَكْبَرُ مَدِينَة فِي مِصْر.", "en": "Cairo is the biggest city in Egypt.", "literal": "Cairo (is the) biggest (of a) city in Egypt",
-          "segs": [["الْقَاهِرَة", "Cairo (capital of Egypt)", "name"], ["أَكْبَرُ", "the biggest (before a noun)", "adj"], ["مَدِينَة", "city", "noun"], ["فِي", "in", "prep"], ["مِصْر", "Egypt (country)", "name"]], "grammar": ["superlative"],
-          "mistakes": [{ "wrong": "الْقَاهِرَة أَكْبَرُ الْمَدِينَة فِي مِصْر.", "right": "الْقَاهِرَة أَكْبَرُ مَدِينَة فِي مِصْر.", "why": "After the superlative a singular noun has no al-: akbaru madīna." }] }
+        { "id": "pls4", "ar": "الْقَاهِرَة أَكْبَرُ مَدِينَةٍ فِي مِصْر.", "en": "Cairo is the biggest city in Egypt.", "literal": "Cairo (is the) biggest (of a) city in Egypt",
+          "segs": [["الْقَاهِرَة", "Cairo (capital of Egypt)", "name"], ["أَكْبَرُ", "the biggest (before a noun)", "adj"], ["مَدِينَةٍ", "city", "noun"], ["فِي", "in", "prep"], ["مِصْر", "Egypt (country)", "name"]], "grammar": ["superlative"],
+          "mistakes": [{ "wrong": "الْقَاهِرَة أَكْبَرُ الْمَدِينَة فِي مِصْر.", "right": "الْقَاهِرَة أَكْبَرُ مَدِينَةٍ فِي مِصْر.", "why": "After the superlative a singular noun has no al-: akbaru madīna." }] }
       ]
     },
     {
@@ -65,8 +65,8 @@
         "Most visitors walk in through the Siq, السِّيق, a narrow gorge more than a kilometre long. At its end the most famous monument suddenly appears: الْخَزْنَة, 'the Treasury', carved about 2,000 years ago. The name comes from an old story that treasure was hidden in the stone urn at the top; in fact it was probably the tomb of a Nabataean king. The verb يَنْحِتُ (he carves) describes exactly how Petra was made."
       ],
       "sentences": [
-        { "id": "pls5", "ar": "الْخَزْنَة أَشْهَرُ مَكَان فِي الْبَتْرَاء.", "en": "The Treasury is the most famous place in Petra.", "literal": "the Treasury (is the) most famous place in Petra",
-          "segs": [["الْخَزْنَة", "the Treasury (monument in Petra)", "name"], ["أَشْهَرُ", "the most famous (before a noun)", "adj"], ["مَكَان", "place", "noun"], ["فِي", "in", "prep"], ["الْبَتْرَاء", "Petra (ancient city in Jordan)", "name"]], "grammar": ["superlative"] },
+        { "id": "pls5", "ar": "الْخَزْنَة أَشْهَرُ مَكَانٍ فِي الْبَتْرَاء.", "en": "The Treasury is the most famous place in Petra.", "literal": "the Treasury (is the) most famous place in Petra",
+          "segs": [["الْخَزْنَة", "the Treasury (monument in Petra)", "name"], ["أَشْهَرُ", "the most famous (before a noun)", "adj"], ["مَكَانٍ", "place", "noun"], ["فِي", "in", "prep"], ["الْبَتْرَاء", "Petra (ancient city in Jordan)", "name"]], "grammar": ["superlative"] },
         { "id": "pls6", "ar": "نَحَتَ الْأَنْبَاطُ الْخَزْنَةَ فِي الصَّخْر.", "en": "The Nabataeans carved the Treasury into the rock.", "literal": "carved the Nabataeans the Treasury in the rock",
           "segs": [["نَحَتَ", "(he) carved", "verb"], ["الْأَنْبَاطُ", "the Nabataeans (ancient Arab people)", "name"], ["الْخَزْنَةَ", "the Treasury (monument in Petra)", "name"], ["فِي", "in, into", "prep"], ["الصَّخْر", "the rock", "noun"]], "grammar": ["verbal-sentence", "past-tense"] },
         { "id": "pls7", "ar": "أُرِيدُ أَنْ أَزُورَ الْبَتْرَاء فِي الرَّبِيع.", "en": "I would like to visit Petra in spring.", "literal": "I want that I visit Petra in the spring",
@@ -128,8 +128,8 @@
         "In the old Al Fahidi quarter many houses have wind towers, بَرَاجِيل, which caught the breeze and cooled the rooms long before air conditioning. A short ride away stands the new Dubai of glass and steel. Its best-known building is the Burj Khalifa, بُرْجُ خَلِيفَة, opened in 2010 and about 828 metres high. Here a superlative is the natural thing to say: أَطْوَلُ بُرْج فِي الْعَالَم (the tallest tower in the world)."
       ],
       "sentences": [
-        { "id": "pls11", "ar": "بُرْجُ خَلِيفَة أَطْوَلُ بُرْج فِي الْعَالَم.", "en": "The Burj Khalifa is the tallest tower in the world.", "literal": "(the) tower (of) Khalifa (is the) tallest tower in the world",
-          "segs": [["بُرْجُ", "tower (of)", "noun"], ["خَلِيفَة", "Khalifa ('Burj Khalifa', the tower in Dubai)", "name"], ["أَطْوَلُ", "the tallest (before a noun)", "adj"], ["بُرْج", "tower", "noun"], ["فِي", "in", "prep"], ["الْعَالَم", "the world", "noun"]], "grammar": ["superlative", "idafa"] },
+        { "id": "pls11", "ar": "بُرْجُ خَلِيفَة أَطْوَلُ بُرْجٍ فِي الْعَالَم.", "en": "The Burj Khalifa is the tallest tower in the world.", "literal": "(the) tower (of) Khalifa (is the) tallest tower in the world",
+          "segs": [["بُرْجُ", "tower (of)", "noun"], ["خَلِيفَة", "Khalifa ('Burj Khalifa', the tower in Dubai)", "name"], ["أَطْوَلُ", "the tallest (before a noun)", "adj"], ["بُرْجٍ", "tower", "noun"], ["فِي", "in", "prep"], ["الْعَالَم", "the world", "noun"]], "grammar": ["superlative", "idafa"] },
         { "id": "pls12", "ar": "رَكِبْنَا عَبْرَةً فِي خَوْرِ دُبَيّ.", "en": "We took an abra on Dubai Creek.", "literal": "we rode an abra in (the) creek (of) Dubai",
           "segs": [["رَكِبْنَا", "we rode, we took (a boat)", "verb"], ["عَبْرَةً", "an abra (small water taxi)", "noun"], ["فِي", "in, on", "prep"], ["خَوْرِ", "creek, inlet (of)", "noun"], ["دُبَيّ", "Dubai (city in the UAE)", "name"]], "grammar": ["past-tense", "accusative"] },
         { "id": "pls13", "ar": "فِي رَأْيِي، دُبَيّ الْقَدِيمَة أَجْمَلُ مِنْ دُبَيّ الْجَدِيدَة.", "en": "In my opinion, old Dubai is more beautiful than new Dubai.", "literal": "in my opinion, Dubai the old (is) more beautiful than Dubai the new",

@@ -234,9 +234,9 @@
       ],
       "mistakes": [
         {
-          "wrong": "شَرِيكُ الْمُحَادَثَةِ",
+          "wrong": "الشَّرِيكُ مُحَادَثَةٍ",
           "right": "شَرِيكُ مُحَادَثَةٍ",
-          "why": "Without al- on the second word, the iḍāfa means 'a conversation partner', any one; with al- it means one particular partner."
+          "why": "The first word of an iḍāfa never takes al-: sharīku muḥādathatin is 'a conversation partner' (and sharīku l-muḥādathati 'the conversation partner')."
         }
       ]
     },

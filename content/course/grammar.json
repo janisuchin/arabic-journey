@@ -613,7 +613,7 @@
     "firstDay": 17,
     "summary": "Add ـُونَ for a group of men or a mixed group, and ـَات for women and many things. The singular stays whole.",
     "formula": "طَبَّاخ → طَبَّاخُونَ (-ūna) · سَلَطَة → سَلَطَات (-āt)",
-    "explanation": "The masculine sound plural adds ـُونَ: طَبَّاخ (cook) → طَبَّاخُونَ (cooks), مِصْرِيّ → مِصْرِيُّونَ (Egyptians). After a verb or a preposition the ending becomes ـِينَ: شُكْرًا لِلطَّبَّاخِينَ (thanks to the cooks). It is used for people, and adjectives that describe male people take it too: طَبَّاخُونَ مُمْتَازُونَ. The feminine sound plural drops ة and adds ـَات: سَلَطَة → سَلَطَات, طَبَّاخَة → طَبَّاخَات. Many masculine words for things also take ـَات: مَشْرُوب → مَشْرُوبَات (drinks). Important: the plural of a thing takes a feminine singular adjective: مَشْرُوبَات بَارِدَة (cold drinks), سَلَطَات كَثِيرَة (many salads).",
+    "explanation": "The masculine sound plural adds ـُونَ: طَبَّاخ (cook) → طَبَّاخُونَ (cooks), مِصْرِيّ → مِصْرِيُّونَ (Egyptians). As the object of a verb or after a preposition the ending becomes ـِينَ: شُكْرًا لِلطَّبَّاخِينَ (thanks to the cooks). It is used for people, and adjectives that describe male people take it too: طَبَّاخُونَ مُمْتَازُونَ. The feminine sound plural drops ة and adds ـَات: سَلَطَة → سَلَطَات, طَبَّاخَة → طَبَّاخَات. Many masculine words for things also take ـَات: مَشْرُوب → مَشْرُوبَات (drinks). Important: the plural of a thing takes a feminine singular adjective: مَشْرُوبَات بَارِدَة (cold drinks), سَلَطَات كَثِيرَة (many salads).",
     "table": {
       "head": [
         "Singular",
@@ -629,7 +629,7 @@
         [
           "طَبَّاخ",
           "طَبَّاخِينَ",
-          "after a verb or preposition: + ـِينَ"
+          "as an object or after a preposition: + ـِينَ"
         ],
         [
           "طَبَّاخَة",
@@ -790,14 +790,14 @@
     "title": "The dual: exactly two",
     "titleAr": "الْمُثَنَّى",
     "firstDay": 20,
-    "summary": "For two of something add ـَانِ (subject, on its own) or ـَيْنِ (after a verb or preposition). ة becomes ت.",
+    "summary": "For two of something add ـَانِ (subject, on its own) or ـَيْنِ (as an object or after a preposition). ة becomes ت.",
     "formula": "كُوب → كُوبَانِ / كُوبَيْنِ · شَطِيرَة → شَطِيرَتَانِ / شَطِيرَتَيْنِ",
     "explanation": "Arabic has a special form for exactly two things or people, the dual. Add ـَانِ to the singular: كِتَاب → كِتَابَانِ (two books). After a verb or a preposition the ending is ـَيْنِ: أُرِيدُ كُوبَيْنِ (I'd like two glasses), مِنْ بَلَدَيْنِ (from two countries). A feminine ة is written as an open ت before the ending, and you hear the t: شَطِيرَة → شَطِيرَتَانِ. The dual already means 'two', so you normally don't add the number; اِثْنَانِ (m) or اِثْنَتَانِ (f) after the noun only adds emphasis. Adjectives agree and take the same ending: الْكُوبَانِ كَبِيرَانِ (the two glasses are big). To say 'two glasses of juice', use مِنْ: كُوبَانِ مِنَ الْعَصِير.",
     "table": {
       "head": [
         "Singular",
         "Dual (subject)",
-        "Dual (after a verb or preposition)"
+        "Dual (as an object or after a preposition)"
       ],
       "rows": [
         [
@@ -845,7 +845,7 @@
     "firstDay": 21,
     "summary": "11–19 are two words (خَمْسَةَ عَشَرَ), the tens end in ـُونَ (ثَلَاثُونَ), and 21–99 are 'five and twenty'. After 11–99 the noun is singular with -an: عِشْرُونَ جُنَيْهًا.",
     "formula": "١٥ خَمْسَةَ عَشَرَ · ٢٠ عِشْرُون · ٧٥ خَمْسَة وَسَبْعُونَ · ١٠٠ مِئَة",
-    "explanation": "11 is أَحَدَ عَشَرَ and 12 is اِثْنَا عَشَرَ. 13 to 19 are 'three-ten' to 'nine-ten': ثَلَاثَةَ عَشَرَ, خَمْسَةَ عَشَرَ. The tens add ـُونَ: عِشْرُون (20, the odd one out), ثَلَاثُون, أَرْبَعُون, خَمْسُون, سِتُّون, سَبْعُون, ثَمَانُون, تِسْعُون. Like the sound plural, they end in ـِينَ after a verb or a preposition: بِعِشْرِينَ (for twenty). From 21 to 99 the unit comes first, joined by وَ: خَمْسَة وَسَبْعُونَ is 'five and seventy', 75. 100 is مِئَة. The counted noun changes with the number: after 3–10 it is plural (ثَلَاثَة جُنَيْهَات), after 11–99 it is singular with the ending -an (عِشْرُونَ جُنَيْهًا), and after مِئَة it is singular (مِئَةُ جُنَيْه). These forms are for a masculine noun such as جُنَيْه; with feminine nouns some units change, which comes later in the course. To ask a price, say بِكَمْ؟ (for how much?).",
+    "explanation": "11 is أَحَدَ عَشَرَ and 12 is اِثْنَا عَشَرَ. 13 to 19 are 'three-ten' to 'nine-ten': ثَلَاثَةَ عَشَرَ, خَمْسَةَ عَشَرَ. The tens add ـُونَ: عِشْرُون (20, the odd one out), ثَلَاثُون, أَرْبَعُون, خَمْسُون, سِتُّون, سَبْعُون, ثَمَانُون, تِسْعُون. Like the sound plural, they end in ـِينَ as an object or after a preposition: بِعِشْرِينَ (for twenty). From 21 to 99 the unit comes first, joined by وَ: خَمْسَة وَسَبْعُونَ is 'five and seventy', 75. 100 is مِئَة. The counted noun changes with the number: after 3–10 it is plural (ثَلَاثَة جُنَيْهَات), after 11–99 it is singular with the ending -an (عِشْرُونَ جُنَيْهًا), and after مِئَة it is singular (مِئَةُ جُنَيْه). These forms are for a masculine noun such as جُنَيْه; with feminine nouns some units change, which comes later in the course. To ask a price, say بِكَمْ؟ (for how much?).",
     "table": {
       "head": [
         "Number",
@@ -2737,7 +2737,7 @@
     },
     "examples": [
       {
-        "ar": "الْيَوْمَ الْخَامِسُ مِنْ نُوفَمْبِر.",
+        "ar": "الْيَوْمُ الْخَامِسُ مِنْ نُوفَمْبِر.",
         "en": "Today is the fifth of November."
       },
       {
@@ -3049,7 +3049,7 @@
     "firstDay": 62,
     "summary": "The a-CCaC form also means 'the most'. Put it in front of a noun without الـ: أَكْبَرُ مَدِينَة (the biggest city). Before a plural with الـ it means 'the …-est of': مِنْ أَكْبَرِ الْمَسَارِح (one of the biggest theatres).",
     "formula": "a-CCaC + noun (no الـ) = the …-est · مِنْ + a-CCaC + plural with الـ = one of the …-est",
-    "explanation": "You already know أَكْبَرُ مِنْ (bigger than). Without مِنْ, and placed in front of a noun, the same word means 'the biggest': عَمَّان أَكْبَرُ مَدِينَة فِي الْأُرْدُنّ (Amman is the biggest city in Jordan). The noun after it is singular and has no الـ, and the superlative itself takes no الـ either. The form does not change for feminine nouns: أَجْمَلُ صُورَة (the most beautiful photo), أَفْضَلُ رِحْلَة (the best trip). To say 'one of the most…', use مِنْ + the superlative + a plural with الـ: مِنْ أَعْلَى الْجِبَال (one of the highest hills), مِنْ أَكْبَرِ الْمَسَارِح (one of the biggest theatres). أَفْضَلُ (better, best) works the same way: أَفْضَلُ مَكَان (the best place).",
+    "explanation": "You already know أَكْبَرُ مِنْ (bigger than). Without مِنْ, and placed in front of a noun, the same word means 'the biggest': عَمَّان أَكْبَرُ مَدِينَة فِي الْأُرْدُنّ (Amman is the biggest city in Jordan). The noun after it is singular and has no الـ, and the superlative itself takes no الـ either. The form does not change for feminine nouns: أَجْمَلُ صُورَة (the most beautiful photo), أَفْضَلُ رِحْلَة (the best trip). To say 'one of the most…', use مِنْ + the superlative + a plural with الـ: مِنْ أَعْلَى الْجِبَال (one of the highest mountains), مِنْ أَكْبَرِ الْمَسَارِح (one of the biggest theatres). أَفْضَلُ (better, best) works the same way: أَفْضَلُ مَكَان (the best place).",
     "table": {
       "head": [
         "Arabic",

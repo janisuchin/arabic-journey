@@ -24,12 +24,12 @@
       "segs": [["الْفُنْدُق", "the hotel", "noun"], ["صَغِير", "small", "adj"], ["لٰكِنَّهُ", "but it (m)", "particle"], ["نَظِيف", "clean", "adj"], ["وَمُرِيح", "and comfortable", "adj"]], "grammar": ["nominal-sentence", "adjectives"] },
     { "id": "d58s5", "ar": "أَرْجُو أَنْ تَطْلُبَ لَنَا تَاكْسِي.", "en": "Please order a taxi for us.", "literal": "I hope that you order for us a taxi",
       "segs": [["أَرْجُو", "I ask, I hope ('please')", "verb"], ["أَنْ", "to, that", "particle"], ["تَطْلُبَ", "you order (after an)", "verb"], ["لَنَا", "for us", "prep"], ["تَاكْسِي", "taxi", "noun"]], "grammar": ["polite-requests", "an-subjunctive"] },
-    { "id": "d58s6", "ar": "الْمَفَاتِيح عِنْدَ مُوَظَّفِ الاِسْتِقْبَال.", "en": "The keys are with the receptionist.", "literal": "the keys (are) at (the) employee (of) the reception",
-      "segs": [["الْمَفَاتِيح", "the keys", "noun"], ["عِنْدَ", "at, with", "prep"], ["مُوَظَّفِ", "employee (of)", "noun"], ["الاِسْتِقْبَال", "the reception", "noun"]], "grammar": ["idafa", "prepositions-place"] }
+    { "id": "d58s6", "ar": "الْمَفَاتِيح عِنْدَ مُوَظَّفِ الِاسْتِقْبَال.", "en": "The keys are with the receptionist.", "literal": "the keys (are) at (the) employee (of) the reception",
+      "segs": [["الْمَفَاتِيح", "the keys", "noun"], ["عِنْدَ", "at, with", "prep"], ["مُوَظَّفِ", "employee (of)", "noun"], ["الِاسْتِقْبَال", "the reception", "noun"]], "grammar": ["idafa", "prepositions-place"] }
   ],
   "dialogue": {
     "title": "Checking in",
-    "speakers": [ { "key": "yusuf", "name": "Yusuf", "nameAr": "يُوسُف" }, { "key": "receptionist", "name": "Receptionist", "nameAr": "مُوَظَّفُ الاِسْتِقْبَال" }, { "key": "layla", "name": "Layla", "nameAr": "لَيْلَى" }, { "key": "daniel", "name": "Daniel", "nameAr": "دَانْيَال" } ],
+    "speakers": [ { "key": "yusuf", "name": "Yusuf", "nameAr": "يُوسُف" }, { "key": "receptionist", "name": "Receptionist", "nameAr": "مُوَظَّفُ الِاسْتِقْبَال" }, { "key": "layla", "name": "Layla", "nameAr": "لَيْلَى" }, { "key": "daniel", "name": "Daniel", "nameAr": "دَانْيَال" } ],
     "culture": "Hotels in Jordan ask for every guest's passport at check-in, and breakfast is usually included: bread, cheese, olives, hummus and sweet tea. At the end of the evening people say تُصْبِحُونَ عَلَى خَيْر, literally 'may you wake up to something good': good night.",
     "lines": [
       { "id": "d58l1", "sp": "yusuf", "ar": "وَصَلْنَا! هٰذَا هُوَ الْفُنْدُق. هُوَ صَغِير، لٰكِنَّهُ نَظِيف وَمُرِيح، وَقَرِيب مِنْ وَسَطِ الْبَلَد.", "en": "Here we are! This is the hotel. It's small, but it's clean and comfortable, and it's close to the city centre.",

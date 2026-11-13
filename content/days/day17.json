@@ -23,7 +23,7 @@
       "segs": [["أَنْتُمْ", "you (several people)", "pronoun"], ["طَبَّاخُونَ", "cooks", "noun"], ["مُمْتَازُونَ", "excellent (m, plural)", "adj"]], "grammar": ["sound-plurals", "adjectives"] },
     { "id": "d17s5", "ar": "شُكْرًا لِلطَّبَّاخِينَ!", "en": "Thanks to the cooks!", "literal": "thanks to the cooks",
       "segs": [["شُكْرًا", "thank you, thanks", "phrase"], ["لِلطَّبَّاخِينَ", "to the cooks", "noun"]], "grammar": ["sound-plurals"],
-      "mistakes": [{ "wrong": "شُكْرًا لِلطَّبَّاخُونَ", "right": "شُكْرًا لِلطَّبَّاخِينَ", "why": "After a preposition (here لِـ, 'to') and after a verb, -ūna becomes -īna." }] }
+      "mistakes": [{ "wrong": "شُكْرًا لِلطَّبَّاخُونَ", "right": "شُكْرًا لِلطَّبَّاخِينَ", "why": "After a preposition (here لِـ, 'to') and as the object of a verb, -ūna becomes -īna." }] }
   ],
   "dialogue": {
     "title": "Dinner with Mr Karim",

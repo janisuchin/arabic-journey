@@ -185,7 +185,7 @@
       },
       "body": [
         "Many Arabic first names are ordinary words with a clear meaning. كَرِيم means 'generous', أَمَل means 'hope' and نُور means 'light'. لَيْلَى is usually linked with لَيْل ('night'). Some names are given to both boys and girls; Nur is one of them. Many families also give a child the name of a grandparent, and a first son is often named after his father's father.",
-        "Family names have many sources. Some come from a place, with the -ī ending you know from nationality words: الْمَصْرِيّ ('the Egyptian') or al-Ḥalabī ('from Aleppo'). Others come from an old family trade: النَّجَّار ('the carpenter'), الْحَدَّاد ('the smith') or الْخَيَّاط ('the tailor'). Others again come from an ancestor or a tribe. On a form, 'surname' is often written اِسْمُ الْعَائِلَة ('family name').",
+        "Family names have many sources. Some come from a place, with the -ī ending you know from nationality words: الْمِصْرِيّ ('the Egyptian') or al-Ḥalabī ('from Aleppo'). Others come from an old family trade: النَّجَّار ('the carpenter'), الْحَدَّاد ('the smith') or الْخَيَّاط ('the tailor'). Others again come from an ancestor or a tribe. On a form, 'surname' is often written اِسْمُ الْعَائِلَة ('family name').",
         "Titles matter in polite speech. أُسْتَاذ means 'teacher' or 'professor', and in Egypt and the Levant it is also a polite 'Mr' for an educated man. دُكْتُور is used for medical doctors and for people with a doctorate. Arabic titles usually go with the first name, not the family name: الْأُسْتَاذ سَامِي ('Mr Sami') or الدُّكْتُورَة لَيْلَى ('Dr Layla')."
       ],
       "sentences": [
@@ -207,10 +207,10 @@
         },
         {
           "id": "fams13",
-          "ar": "اِسْمُهُ كَرِيم الْمَصْرِيّ.",
-          "en": "His name is Karim al-Masri.",
-          "literal": "his name (is) Karim al-Masri ('the Egyptian')",
-          "segs": [["اِسْمُهُ", "his name", "noun"], ["كَرِيم", "Karim (first name)", "name"], ["الْمَصْرِيّ", "al-Masri (surname; 'the Egyptian')", "name"]],
+          "ar": "اِسْمُهُ كَرِيم الْمِصْرِيّ.",
+          "en": "His name is Karim al-Misri.",
+          "literal": "his name (is) Karim al-Misri ('the Egyptian')",
+          "segs": [["اِسْمُهُ", "his name", "noun"], ["كَرِيم", "Karim (first name)", "name"], ["الْمِصْرِيّ", "al-Misri (surname; 'the Egyptian')", "name"]],
           "grammar": ["nominal-sentence", "nisba"]
         },
         {

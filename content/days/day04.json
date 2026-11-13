@@ -50,7 +50,7 @@
         "segs": [["تَشَرَّفْنَا", "nice to meet you"], ["يَا", "O (calling someone)"], ["يُوسُف", "Yusuf (first name)", "name"], ["كَيْفَ", "how"], ["حَالُكَ", "your condition (to a man)"]] },
       { "id": "d4l11", "sp": "yusuf", "ar": "بِخَيْر، شُكْرًا جَزِيلًا. أَنْتُمْ لُطَفَاء جِدًّا!", "en": "Fine, thank you very much. You are all very kind!",
         "segs": [["بِخَيْر", "fine (lit. in goodness)"], ["شُكْرًا", "thank you"], ["جَزِيلًا", "very much (lit. abundant)"], ["أَنْتُمْ", "you (plural)"], ["لُطَفَاء", "kind (plural)"], ["جِدًّا", "very"]] },
-      { "id": "d4l12", "sp": "daniel", "ar": "عَفْوًا يَا يُوسُف! أَهْلًا وَسَهْلًا فِي الصَّفّ.", "en": "You're welcome, Yusuf! Welcome to our class.",
+      { "id": "d4l12", "sp": "daniel", "ar": "عَفْوًا يَا يُوسُف! أَهْلًا وَسَهْلًا فِي الصَّفّ.", "en": "You're welcome, Yusuf! Welcome to the class.",
         "segs": [["عَفْوًا", "you're welcome"], ["يَا", "O (calling someone)"], ["يُوسُف", "Yusuf (first name)", "name"], ["أَهْلًا", "welcome"], ["وَسَهْلًا", "and ease (part of 'welcome')"], ["فِي", "in"], ["الصَّفّ", "the class"]] }
     ]
   },

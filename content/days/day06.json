@@ -40,7 +40,7 @@
         "segs": [["لَا", "no"], ["مُشْكِلَة", "problem"], ["عِنْدِي", "I have"], ["قَلَم", "pen"], ["آخَر", "another, other (m)"], ["تَفَضَّلْ", "here you are (to a man)"]] },
       { "id": "d6l6", "sp": "daniel", "ar": "شُكْرًا جَزِيلًا يَا لَيْلَى! الْقَلَم جَدِيد؟", "en": "Thank you very much, Layla! Is the pen new?",
         "segs": [["شُكْرًا", "thank you"], ["جَزِيلًا", "very much (lit. abundant)"], ["يَا", "O (calling someone)"], ["لَيْلَى", "Layla (first name)", "name"], ["الْقَلَم", "the pen"], ["جَدِيد", "new"]] },
-      { "id": "d6l7", "sp": "layla", "ar": "نَعَم، الْقَلَم جَدِيد، وَالْحَقِيبَة جَدِيدَة أَيْضًا.", "en": "Yes, the pen is new, and my bag is new too.",
+      { "id": "d6l7", "sp": "layla", "ar": "نَعَم، الْقَلَم جَدِيد، وَالْحَقِيبَة جَدِيدَة أَيْضًا.", "en": "Yes, the pen is new, and the bag is new too.",
         "segs": [["نَعَم", "yes"], ["الْقَلَم", "the pen"], ["جَدِيد", "new"], ["وَالْحَقِيبَة", "and the bag"], ["جَدِيدَة", "new (f)"], ["أَيْضًا", "also, too"]] },
       { "id": "d6l8", "sp": "daniel", "ar": "حَقِيبَتُكِ جَمِيلَة! هَلْ هِيَ مِنْ لُبْنَان؟", "en": "Your bag is beautiful! Is it from Lebanon?",
         "segs": [["حَقِيبَتُكِ", "your bag (to a woman)"], ["جَمِيلَة", "beautiful (f)"], ["هَلْ", "(starts a yes/no question)"], ["هِيَ", "she, it (f)"], ["مِنْ", "from"], ["لُبْنَان", "Lebanon (country)", "name"]] },

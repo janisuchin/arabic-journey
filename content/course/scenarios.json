@@ -53,7 +53,7 @@
           "segs": [["أَهْلًا", "hi, welcome"], ["الْمَتْحَف", "the museum"], ["قَرِيب", "near, close"], ["فِي", "in, on"], ["مَيْدَانِ", "square (of)"], ["التَّحْرِير", "Tahrir (lit. liberation)", "name"]] },
         { "id": "t3", "sp": "layla", "ar": "كَمِ الْأُجْرَة إِلَى الْمَتْحَف، مِنْ فَضْلِكَ؟", "en": "How much is the fare to the museum, please?",
           "segs": [["كَمِ", "how much, how many"], ["الْأُجْرَة", "the fare"], ["إِلَى", "to"], ["الْمَتْحَف", "the museum"], ["مِنْ", "from"], ["فَضْلِكَ", "your kindness (to a man): 'please'"]] },
-        { "id": "t4", "sp": "driver", "ar": "خَمْسُونَ جُنَيْهًا. الطَّرِيق مُزْدَحِم الْيَوْم.", "en": "Fifty pounds. The road is very crowded today.",
+        { "id": "t4", "sp": "driver", "ar": "خَمْسُونَ جُنَيْهًا. الطَّرِيق مُزْدَحِم الْيَوْم.", "en": "Fifty pounds. The road is crowded today.",
           "segs": [["خَمْسُونَ", "fifty"], ["جُنَيْهًا", "pounds (after a number)"], ["الطَّرِيق", "the road"], ["مُزْدَحِم", "crowded"], ["الْيَوْم", "today"]] },
         { "id": "t5", "sp": "layla", "ar": "خَمْسُونَ كَثِير! أَرْبَعُونَ، مِنْ فَضْلِكَ؟", "en": "Fifty is a lot! How about forty, please?",
           "segs": [["خَمْسُونَ", "fifty"], ["كَثِير", "a lot, much"], ["أَرْبَعُونَ", "forty"], ["مِنْ", "from"], ["فَضْلِكَ", "your kindness (to a man): 'please'"]] },
@@ -8060,7 +8060,7 @@
         {
           "id": "weather-plans-l11",
           "sp": "sami",
-          "ar": "خُذْ قُبَّعَة وَمَاءً كَثِيرًا، لِأَنَّ الشَّمْس قَوِيَّة هُنَاكَ. وَخُذْ مِعْطَفًا خَفِيفًا لِلْمَسَاء.",
+          "ar": "خُذْ قُبَّعَةً وَمَاءً كَثِيرًا، لِأَنَّ الشَّمْس قَوِيَّة هُنَاكَ. وَخُذْ مِعْطَفًا خَفِيفًا لِلْمَسَاء.",
           "en": "Take a hat and lots of water, because the sun is strong there. And take a light jacket for the evening.",
           "segs": [
             [
@@ -8068,7 +8068,7 @@
               "take! (to a man)"
             ],
             [
-              "قُبَّعَة",
+              "قُبَّعَةً",
               "a hat"
             ],
             [
@@ -11651,7 +11651,7 @@
     "title": "At the cinema",
     "emoji": "🎬",
     "status": "needs-review",
-    "intro": "On Saturday Daniel buys cinema tickets for the Egyptian comedy that Sami chose. Useful phrases: تَذْكِرَتَيْنِ (two tickets, after a verb), فِي الْوَسَط (in the middle) and هَلْ هُنَاكَ خَصْم لِلطُّلَّاب؟ (is there a discount for students?).",
+    "intro": "On Saturday Daniel buys cinema tickets for the Egyptian comedy that Sami chose. Useful phrases: تَذْكِرَتَيْنِ (two tickets, as the object of a verb), فِي الْوَسَط (in the middle) and هَلْ هُنَاكَ خَصْم لِلطُّلَّاب؟ (is there a discount for students?).",
     "dialogue": {
       "title": "Two tickets, please",
       "speakers": [
@@ -15935,7 +15935,7 @@
       {
         "id": "post-office-q4",
         "prompt": "What does this mean?",
-        "ar": "رَقْمِ التَّتَبُّع",
+        "ar": "رَقْمُ التَّتَبُّع",
         "options": [
           "the price list",
           "the postcode",
@@ -20793,9 +20793,9 @@
     },
     "mistakes": [
       {
-        "wrong": "اِضْغَطِ الزِّرّ",
+        "wrong": "اِضْغَطِي عَلَى الزِّرّ",
         "right": "اِضْغَطْ عَلَى الزِّرّ",
-        "why": "In standard Arabic the verb ḍaghaṭa takes ʿalā: you press on the button, iḍghaṭ ʿalā z-zirr."
+        "why": "To a man the order has no ending: iḍghaṭ ʿalā z-zirr (press the button). iḍghaṭī with -ī is for a woman."
       },
       {
         "wrong": "الْآلَة لَا يَعْمَل",
@@ -21260,7 +21260,7 @@
         {
           "id": "school-l7",
           "sp": "clerk",
-          "ar": "دُرُوسُ الْمَسَاءِ يَوْمَ الْإِثْنَيْنِ وَالْأَرْبِعَاء مِنَ السَّادِسَةِ حَتَّى الثَّامِنَة، لٰكِنَّ هٰذِهِ الْمَجْمُوعَةَ مُمْتَلِئَة لِلْأَسَف.",
+          "ar": "دُرُوسُ الْمَسَاءِ يَوْمَ الِاثْنَيْنِ وَالْأَرْبِعَاء مِنَ السَّادِسَةِ حَتَّى الثَّامِنَة، لٰكِنَّ هٰذِهِ الْمَجْمُوعَةَ مُمْتَلِئَة لِلْأَسَف.",
           "en": "The evening classes are on Monday and Wednesday from six to eight, but unfortunately that group is full.",
           "segs": [
             [
@@ -21276,7 +21276,7 @@
               "on the day (of)"
             ],
             [
-              "الْإِثْنَيْنِ",
+              "الِاثْنَيْنِ",
               "Monday"
             ],
             [

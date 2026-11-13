@@ -17,7 +17,7 @@
   ],
   "emoji": "🗓️",
   "summary": "Say when things happened: last week, the day before yesterday, a month ago, in the morning.",
-  "intro": "Time words tell you when something happened: أَمْسِ (yesterday), أَوَّلَ أَمْسِ (the day before yesterday), الْأُسْبُوعَ الْمَاضِي (last week), مُنْذُ شَهْر (a month ago). Used on their own, without فِي, they take an -a ending: صَبَاحًا (in the morning), مَسَاءً (in the evening), يَوْمَ الْأَحَد (on Sunday).",
+  "intro": "Time words tell you when something happened: أَمْسِ (yesterday), أَوَّلَ أَمْسِ (the day before yesterday), الْأُسْبُوعَ الْمَاضِي (last week), مُنْذُ شَهْر (a month ago). Used on their own, without فِي, they take the object ending: -an on an indefinite word, صَبَاحًا (in the morning), مَسَاءً (in the evening), and -a on a definite one, يَوْمَ الْأَحَد (on Sunday).",
   "objectives": [
     "Tell someone what you did on each day of last week",
     "Use أَمْسِ, أَوَّلَ أَمْسِ, الْأُسْبُوعَ الْمَاضِي and السَّنَةَ الْمَاضِيَة",
@@ -266,7 +266,7 @@
         "nameAr": "دَانْيَال"
       }
     ],
-    "culture": "Most Arabic weekday names are numbers: الْأَحَد (Sunday) comes from 'one', الْإِثْنَيْن (Monday) from 'two', الثُّلَاثَاء from 'three', الْأَرْبِعَاء from 'four' and الْخَمِيس from 'five'. Friday, الْجُمُعَة, is the day of gathering for the midday prayer; in Egypt and Jordan the weekend is Friday and Saturday.",
+    "culture": "Most Arabic weekday names are numbers: الْأَحَد (Sunday) comes from 'one', الِاثْنَيْن (Monday) from 'two', الثُّلَاثَاء from 'three', الْأَرْبِعَاء from 'four' and الْخَمِيس from 'five'. Friday, الْجُمُعَة, is the day of gathering for the midday prayer; in Egypt and Jordan the weekend is Friday and Saturday.",
     "lines": [
       {
         "id": "d38l1",
@@ -514,7 +514,7 @@
       {
         "id": "d38l6",
         "sp": "daniel",
-        "ar": "يَوْمَ الْأَحَد نَظَّفْتُ شَقَّتِي الْجَدِيدَة، وَيَوْمَ الْإِثْنَيْن طَبَخْتُ الْمُلُوخِيَّة لِأَوَّلِ مَرَّة.",
+        "ar": "يَوْمَ الْأَحَد نَظَّفْتُ شَقَّتِي الْجَدِيدَة، وَيَوْمَ الِاثْنَيْن طَبَخْتُ الْمُلُوخِيَّة لِأَوَّلِ مَرَّة.",
         "en": "On Sunday I cleaned my new flat, and on Monday I cooked molokhia for the first time.",
         "segs": [
           [
@@ -542,7 +542,7 @@
             "and on (the day of)"
           ],
           [
-            "الْإِثْنَيْن",
+            "الِاثْنَيْن",
             "Monday"
           ],
           [
@@ -611,7 +611,7 @@
       {
         "id": "d38l8",
         "sp": "sami",
-        "ar": "نَعَم، أَكَلْتُهَا مَسَاءَ الْإِثْنَيْن فِي شَقَّتِهِ. أُمِّي تَطْبُخُهَا أَحْسَن، لٰكِنْ لَا بَأْسَ!",
+        "ar": "نَعَم، أَكَلْتُهَا مَسَاءَ الِاثْنَيْن فِي شَقَّتِهِ. أُمِّي تَطْبُخُهَا أَحْسَن، لٰكِنْ لَا بَأْسَ!",
         "en": "Yes, I ate it at his flat on Monday evening. My mother cooks it better, but it wasn't bad!",
         "segs": [
           [
@@ -627,7 +627,7 @@
             "(on the) evening (of)"
           ],
           [
-            "الْإِثْنَيْن",
+            "الِاثْنَيْن",
             "Monday"
           ],
           [
@@ -989,7 +989,7 @@
   },
   "reading": {
     "title": "Daniel's week",
-    "ar": "يَوْمَ الْأَحَد نَظَّفْتُ شَقَّتِي. يَوْمَ الْإِثْنَيْن طَبَخْتُ الْمُلُوخِيَّة، وَأَكَلَهَا سَامِي مَسَاءً. يَوْمَ الثُّلَاثَاء قَرَأْتُ قِصَّة، وَيَوْمَ الْأَرْبِعَاء دَرَسْتُ الْقَوَاعِد.",
+    "ar": "يَوْمَ الْأَحَد نَظَّفْتُ شَقَّتِي. يَوْمَ الِاثْنَيْن طَبَخْتُ الْمُلُوخِيَّة، وَأَكَلَهَا سَامِي مَسَاءً. يَوْمَ الثُّلَاثَاء قَرَأْتُ قِصَّة، وَيَوْمَ الْأَرْبِعَاء دَرَسْتُ الْقَوَاعِد.",
     "en": "On Sunday I cleaned my flat. On Monday I cooked molokhia, and Sami ate it in the evening. On Tuesday I read a story, and on Wednesday I studied grammar.",
     "segs": [
       [
@@ -1013,7 +1013,7 @@
         "on (the day of)"
       ],
       [
-        "الْإِثْنَيْن",
+        "الِاثْنَيْن",
         "Monday"
       ],
       [

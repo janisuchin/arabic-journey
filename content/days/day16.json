@@ -32,8 +32,8 @@
     "lines": [
       { "id": "d16l1", "sp": "waiter", "ar": "مَسَاءُ الْخَيْر وَأَهْلًا وَسَهْلًا! تَفَضَّلُوا، هٰذِهِ طَاوِلَة جَمِيلَة.", "en": "Good afternoon and welcome! Please sit down, here is a nice table.",
         "segs": [["مَسَاءُ", "evening, afternoon (of)"], ["الْخَيْر", "the goodness"], ["وَأَهْلًا", "and welcome"], ["وَسَهْلًا", "and ease (part of 'welcome')"], ["تَفَضَّلُوا", "please, come in, sit down (to several people)"], ["هٰذِهِ", "this (f)"], ["طَاوِلَة", "table"], ["جَمِيلَة", "beautiful, nice (f)"]] },
-      { "id": "d16l2", "sp": "sami", "ar": "شُكْرًا! يَا دَانْيَال، هٰذَا مَقْهىً قَدِيم وَمَشْهُور فِي الْقَاهِرَة.", "en": "Thank you! Daniel, this is an old and famous café in Cairo.",
-        "segs": [["شُكْرًا", "thank you"], ["يَا", "O (calling someone)"], ["دَانْيَال", "Daniel (first name)", "name"], ["هٰذَا", "this (m)"], ["مَقْهىً", "café"], ["قَدِيم", "old"], ["وَمَشْهُور", "and famous"], ["فِي", "in"], ["الْقَاهِرَة", "Cairo (capital of Egypt)", "name"]] },
+      { "id": "d16l2", "sp": "sami", "ar": "شُكْرًا! يَا دَانْيَال، هٰذَا مَقْهًى قَدِيم وَمَشْهُور فِي الْقَاهِرَة.", "en": "Thank you! Daniel, this is an old and famous café in Cairo.",
+        "segs": [["شُكْرًا", "thank you"], ["يَا", "O (calling someone)"], ["دَانْيَال", "Daniel (first name)", "name"], ["هٰذَا", "this (m)"], ["مَقْهًى", "café"], ["قَدِيم", "old"], ["وَمَشْهُور", "and famous"], ["فِي", "in"], ["الْقَاهِرَة", "Cairo (capital of Egypt)", "name"]] },
       { "id": "d16l3", "sp": "waiter", "ar": "مَاذَا تَشْرَبُونَ؟ عِنْدَنَا شَايْ وَقَهْوَة وَعَصِير طَازَج.", "en": "What will you drink? We have tea, coffee and fresh juice.",
         "segs": [["مَاذَا", "what (before a verb)"], ["تَشْرَبُونَ", "you drink (to several people)"], ["عِنْدَنَا", "we have"], ["شَايْ", "tea"], ["وَقَهْوَة", "and coffee"], ["وَعَصِير", "and juice"], ["طَازَج", "fresh"]] },
       { "id": "d16l4", "sp": "layla", "ar": "أُرِيدُ فِنْجَانَ قَهْوَة تُرْكِيَّة، مِنْ فَضْلِكَ.", "en": "I'd like a cup of Turkish coffee, please.",
