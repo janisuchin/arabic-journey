@@ -1,6 +1,6 @@
 # Status — Arabic Journey
 
-Updated 2026-11-13 (accuracy round 3 done, web deployed). Branch `main`. All work runs on the owner's PC.
+Updated 2026-11-13 (teacher-review pack ready; round 3 done, web deployed). Branch `main`. All work runs on the owner's PC.
 Main prompt: `Arabic_Reference/PROMPT_B_Nihongo-based.md`. Live (round-3 build, deployed 2026-11-13):
 https://ar-journey.german-journey.workers.dev · unlocked https://ar-journey-unlocked.german-journey.workers.dev
 
@@ -20,11 +20,17 @@ https://ar-journey.german-journey.workers.dev · unlocked https://ar-journey-unl
      hamza seats named, no repeated senses, digit/letter quiz options show no reading.
   3. Content: day 86 Form II rule, day 89 kāna note, day 53 card, الْيَوْمَ, إِنْجِلِيزِيَّة, وَادِي رَمّ, construct
      case vowels (qiṭʿata kaʿk), age table 11–99.
-- Checks at this commit: validator 0 errors, 103 unit tests, e2e 28/28 (port 4191). Both editions verified live.
+- Checks after round 3: validator 0 errors, 103 unit tests, e2e 28/28 (port 4191). Both editions verified live.
+- **Teacher-review pack** `docs/review/TEACHER-REVIEW-PACK.md` (docs only): live links, how to review/report,
+  130 round-3 notes as R3-n questions (A grammar, B register, C spelling, D culture/story, E English, F taps/⟶
+  which the owner fixes), and 58 still-open rounds-1–2 notes as R12-n (540 triaged against the current export).
+  Likely real errors to fix even before the teacher replies: R12-23 (day 37 card + week 6 test q3 mark مَا
+  فَعَلْتَ؟ wrong), R12-30 (nisba card example لُبْنَان drops nothing), R12-31 (accusative card: -an is said -ā in
+  pause).
 
 ## Left
-1. **Human Arabic teacher review** of the live web app (the last gate; AI review never reaches zero). Give them
-   the reviewer notes: 130 in `docs/review/round-3/*-A.json` (`notes`), plus rounds 1–2 `*-MERGED.md`.
+1. **Human Arabic teacher review**: owner sends `docs/review/TEACHER-REVIEW-PACK.md` to a teacher (the last
+   gate). Teacher replies by number (R3-n / R12-n: Keep / Change); then apply as a normal fix round.
 2. Optional round 4 (fresh reviewers + cross-check, same prompts in `docs/review/round-3/`) if the owner wants AI
    confidence closer to the French app; expect mostly tap-gloss rows.
 3. Unchanged from v1.0.0: teacher review of culture notes and photo compromises; branching role-play (Prompt B L).
@@ -43,4 +49,5 @@ https://ar-journey.german-journey.workers.dev · unlocked https://ar-journey-unl
 - UI is LTR for English readers; Arabic text always RTL. One session at a time in this repo.
 
 ## Next step
-Owner's choice: send the live web app to a human Arabic teacher (Left 1), or run optional round 4 (Left 2).
+Owner sends the pack to a teacher. Meanwhile (optional): fix R12-23/30/31 and the section-F tap/⟶ items, which
+need no teacher; or run round 4 (Left 2). After teacher replies: apply them and record the reviewer's name.
