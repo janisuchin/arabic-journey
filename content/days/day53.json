@@ -20,7 +20,7 @@
       "segs": [["تُمْطِرُ", "it rains", "verb"], ["كَثِيرًا", "a lot, much", "adverb"], ["فِي", "in", "prep"], ["الشِّتَاء", "the winter", "noun"]], "grammar": ["weather-expressions"] },
     { "id": "d53s4", "ar": "سَتَكُونُ دَرَجَةُ الْحَرَارَة خَمْسَ دَرَجَات فِي اللَّيْل.", "en": "The temperature will be five degrees at night.", "literal": "will-be degree-of the heat five degrees in the night",
       "segs": [["سَتَكُونُ", "(it) will be (f)", "verb"], ["دَرَجَةُ", "degree (of)", "noun"], ["الْحَرَارَة", "the heat ('the temperature')", "noun"], ["خَمْسَ", "five", "number"], ["دَرَجَات", "degrees", "noun"], ["فِي", "in, at", "prep"], ["اللَّيْل", "the night", "noun"]], "grammar": ["weather-expressions", "future"],
-      "mistakes": [{ "wrong": "سَتَكُونُ دَرَجَةُ الْحَرَارَة خَمْسَة دَرَجَات", "right": "سَتَكُونُ دَرَجَةُ الْحَرَارَة خَمْسَ دَرَجَات", "why": "daraja (degree) is feminine, so the numbers 3–10 drop their ة: khams darajāt." }] },
+      "mistakes": [{ "wrong": "سَتَكُونُ دَرَجَةُ الْحَرَارَة خَمْسَةُ دَرَجَات", "right": "سَتَكُونُ دَرَجَةُ الْحَرَارَة خَمْسَ دَرَجَات", "why": "daraja (degree) is feminine, so the numbers 3–10 drop their ة: khams darajāt." }] },
     { "id": "d53s5", "ar": "كَانَ الْجَوّ بَارِدًا وَغَائِمًا أَمْسِ.", "en": "Yesterday it was cold and cloudy.", "literal": "was the weather cold and cloudy yesterday",
       "segs": [["كَانَ", "(it) was", "verb"], ["الْجَوّ", "the weather", "noun"], ["بَارِدًا", "cold (after 'was')", "adj"], ["وَغَائِمًا", "and cloudy (after 'was')", "adj"], ["أَمْسِ", "yesterday", "adverb"]], "grammar": ["kana", "weather-expressions"] }
   ],

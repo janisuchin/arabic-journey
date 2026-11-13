@@ -75,6 +75,13 @@ describe('Arabic language pack', () => {
     expect(translitLine('رَمَضَان كَرِيم', 'academic', namesSet())).toBe('Ramaḍān karīm');
     expect(translitLine('مُزْدَحِم جِدًّا الْيَوْمَ', 'academic')).toBe('Muzdaḥim jiddani l-yawma');
   });
+  it('round 2b: hyphenates a clitic only on a clitic + word, reads Arabic digits as words', () => {
+    expect(translitLine('وَهُوَ', 'academic')).toBe('Wa-huwa');
+    expect(translitLine('كَلَام', 'academic')).toBe('Kalām');
+    expect(translitLine('بِطَاقَة', 'academic')).toBe('Biṭāqa');
+    expect(translitLine('٧', 'academic')).toBe('sabʿa');
+    expect(proseTranslit('the digits ٧ and 7', 'academic')).toBe('the digits ٧ and 7');
+  });
   it('lets the lesson day choose between senses', () => {
     expect(meaningOf('حَارّ', { day: 18 })).toMatch(/spicy/);
   });

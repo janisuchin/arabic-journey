@@ -100,25 +100,69 @@ export function translitWords(
 /** The reading of one word: the offline layer, else the engine; an unvocalised word gets none (never guess). */
 function readingOf(w: string): { text: string; wasl: boolean } {
   const fromLayer = readingsLayer[w];
-  if (fromLayer) return { text: fromLayer[0], wasl: fromLayer[1] === 1 };
+  if (fromLayer) return cliticReading(w, { text: fromLayer[0], wasl: fromLayer[1] === 1 });
   if (!/[ً-ْٰـ]/.test(w) && stripHarakat(w).replace(/‍/g, '').length > 1) return { text: '', wasl: false };
-  return translitWord(w);
+  return cliticReading(w, translitWord(w));
+}
+
+/**
+ * Arabic-Indic digits up to 100 are read as the Arabic number word (٧ → sabʿa), so the transliteration line
+ * never answers a "which digit is this?" question; larger numbers fall back to Western digits.
+ */
+function digitsReading(digits: string, style: TranslitStyle) {
+  const western = toWesternDigits(digits);
+  if (western === digits || !/^\d+$/.test(western) || Number(western) > 100) return western;
+  return toStyle(translitWord(numberToArabic(Number(western))).text, style);
+}
+
+const CLITIC_TR: Record<string, string> = { و: 'wa', ف: 'fa', ب: 'bi', ل: 'li', ك: 'ka' };
+const CLITIC_EN: Record<string, RegExp> = {
+  و: /^\(?and\b/i,
+  ف: /^\(?(?:so|then|and)\b/i,
+  ب: /^\(?(?:with|by|in|at|for|on)\b/i,
+  ل: /^\(?(?:for|to|so that|in order|because)\b/i,
+  ك: /^\(?(?:like|as)\b/i,
+};
+/**
+ * One house style for a one-letter clitic: hyphenated (wa-huwa, bi-surʿa, li-arbaʿa), as before the article.
+ * It is split off only when the rest is itself a word the course glosses, so a root letter stays (walad, bint).
+ */
+function cliticReading(w: string, r: { text: string; wasl: boolean }): { text: string; wasl: boolean } {
+  if (r.text.includes('-')) return r;
+  const m = /^([وفبلك])([َِ])(.{2,})$/.exec(w);
+  if (!m || CLITIC_TR[m[1]].slice(-1) !== (m[2] === 'َ' ? 'a' : 'i')) return r;
+  if (!exact) buildIndexes();
+  const rest = m[3];
+  if (stripHarakat(rest).length < 2 || !exact!.has(clean(rest))) return r;
+  // and the course must gloss the whole word as clitic + word ("and he", "with a smile"): kalām, biṭāqa stay whole
+  const gloss = handGlossary[w] ?? pick(exact!.get(clean(w)) ?? [], {}) ?? '';
+  if (!CLITIC_EN[m[1]].test(gloss)) return r;
+  let restTr = (readingsLayer[rest]?.[0] ?? translitWord(rest).text).replace(/^ʾ/, '');
+  if (!restTr) return r;
+  namesSet();
+  if (nameIndex!.has(rest) || bareNamesSet().has(stripHarakat(rest))) restTr = capitaliseName(restTr);
+  return { text: `${CLITIC_TR[m[1]]}-${restTr}`, wasl: false };
 }
 
 /** A word ending in a vowel or in tanwīn lets the next article or hamzat al-waṣl elide (jiddan l-yawma). */
 const endsInVowel = (w: string, tr: string) => /[aiuāīū]$/.test(tr) || ENDS_TANWIN.test(w);
 
 let bareNames: Set<string> | null = null;
-/** A name behind a one-letter clitic keeps its capital and gets a hyphen: wa-Laylā, li-Sāmī, wa-ʿUmar. */
-function nameReading(w: string): string | undefined {
-  const m = /^([وفلبك])([َِ])(.+)$/.exec(w);
-  if (!m) return undefined;
+/** Every name the course uses, unvocalised (for a name behind a clitic). */
+function bareNamesSet() {
   if (!bareNames) {
     namesSet();
     bareNames = new Set([...nameIndex!].map((n) => stripHarakat(n)));
   }
+  return bareNames;
+}
+/** A name behind a one-letter clitic keeps its capital and gets a hyphen: wa-Laylā, li-Sāmī, wa-ʿUmar. */
+function nameReading(w: string): string | undefined {
+  const m = /^([وفلبك])([َِ])(.+)$/.exec(w);
+  if (!m) return undefined;
+  bareNamesSet();
   const rest = stripHarakat(m[3]);
-  if (rest.length < 2 || rest.startsWith('ال') || !bareNames.has(rest)) return undefined;
+  if (rest.length < 2 || rest.startsWith('ال') || !bareNamesSet().has(rest)) return undefined;
   const clitic = ({ و: 'w', ف: 'f', ل: 'l', ب: 'b', ك: 'k' } as Record<string, string>)[m[1]] + (m[2] === 'َ' ? 'a' : 'i');
   return `${clitic}-${capitaliseName(readingOf(m[3]).text)}`;
 }
@@ -152,7 +196,7 @@ export function tapTokens(text: string, style: TranslitStyle, names?: Set<string
   let n = 0;
   return runs.map((t) => ({
     ...t,
-    tr: t.kind === 'ar' ? tr[n++] : t.kind === 'num' ? toWesternDigits(t.text) : t.text,
+    tr: t.kind === 'ar' ? tr[n++] : t.kind === 'num' ? digitsReading(t.text, style) : t.text,
   }));
 }
 
@@ -166,6 +210,7 @@ export function proseTranslit(text: string, style: TranslitStyle, after = '', be
   return toks
     .map((t, i) => {
       if (t.kind === 'punct') return ({ '،': ',', '؟': '?', '؛': ';' } as Record<string, string>)[t.text] ?? t.text;
+      if (t.kind === 'num') return t.text; // digits talked about in English stay as written (٠١٢٣ ≠ 0123)
       const letter = t.kind === 'ar' && t.text.length === 1 ? letterByChar.get(t.text) : undefined;
       if (!letter) return t.tr;
       // the English already names it ("ء (hamza)", "hamza ء"): do not say the name twice
@@ -380,6 +425,9 @@ export function compatibleForms(a: string, b: string, pos?: string): boolean {
 }
 
 const byFreq = (a: Sense, b: Sense) => b.n - a.n || a.first - b.first;
+/** A gloss that only fits the sentence it was written for. */
+const ONE_LINE =
+  /['"‘“]|\((?:they|he|she)\)|\bafter (?:an|lan|lam|lā|lākinna|kāna|inna|anna|a verb|'[^']+')\b|verb first|-[aiu] links/i;
 
 function pick(senses: Sense[], ctx: GlossCtx): string | undefined {
   if (!senses.length) return undefined;
@@ -389,7 +437,11 @@ function pick(senses: Sense[], ctx: GlossCtx): string | undefined {
   // the course dictionary, except for a verb: its sentences give the person (he works, not 'to work')
   const vocab = senses.find((s) => s.src === 'vocab');
   if (!chosen && vocab && !(vocab.pos === 'verb' && segs.length)) chosen = vocab;
-  chosen ??= (segs.length ? [...segs] : [...senses]).sort(byFreq)[0];
+  // outside its own lesson, a gloss written for one sentence ('(they) fast', 'after an', a quoted phrase)
+  // yields to a plain one when the form has both
+  chosen ??= (segs.length ? [...segs] : [...senses]).sort(
+    (a, b) => +ONE_LINE.test(a.en) - +ONE_LINE.test(b.en) || byFreq(a, b),
+  )[0];
   return widen(chosen, senses);
 }
 
