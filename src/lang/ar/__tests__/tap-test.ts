@@ -5,6 +5,7 @@ import {
   compatibleForms,
   meaningOf,
   namesSet,
+  proseLine,
   proseTranslit,
   splitRuns,
   syllables,
@@ -70,6 +71,16 @@ describe('Arabic language pack', () => {
     expect(proseTranslit('plus hamza ء, and ة (tāʾ marbūṭa)', 'academic')).toBe('plus hamza, and (tāʾ marbūṭa)');
     expect(proseTranslit('ḥāʾ (ح) versus hāʾ (ه)', 'academic')).toBe('ḥāʾ versus hāʾ');
     expect(proseTranslit('a seat: أ or ؤ', 'academic')).toBe('a seat: alif with hamza or wāw with hamza');
+  });
+  it('teacher-pack F: no reading when the English right after the Arabic already gives it', () => {
+    expect(proseTranslit('أَبِي', 'academic', ' (abī).')).toBe('');
+    expect(proseTranslit('قَرَأْتُ', 'academic', ' (qaraʾtu, I read).')).toBe('');
+    expect(proseTranslit('بَيْت', 'academic', ' bayt, house)')).toBe('');
+    expect(proseTranslit('كَيْفَ حَالُكِ؟', 'academic', ' (kayfa ḥāluki).')).toBe('');
+    // a different word after it keeps the reading
+    expect(proseTranslit('أَبِي', 'academic', ' (my father).')).toBe('abī');
+    expect(proseLine("'My father' is أَبِي (abī).", 'academic')).toBe("'My father' is أَبِي (abī).");
+    expect(proseLine('١ وَاحِد · ٢ اِثْنَان', 'academic')).toBe('١ wāḥid · ٢ ithnān');
   });
   it('round 3: one clitic style, endings, Allāhu, names after titles, no repeated senses', () => {
     expect(translitLine('وَجُبْنًا وَخُبْزًا', 'academic')).toBe('Wa-jubnan wa-khubzan');

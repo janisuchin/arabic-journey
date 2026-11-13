@@ -12,6 +12,11 @@
   "أَرَاهَا": {
     "*": "I see her, I see it (f; also 'them' for things)"
   },
+  "أَشْهَرُ": {
+    "*": "more famous; the most famous (before a noun)",
+    "day:62": "more famous; the most famous (before a noun)",
+    "day:63": "more famous; the most famous (before a noun)"
+  },
   "أَصْغَرُ": {
     "week:13": "smaller; younger"
   },
@@ -28,7 +33,11 @@
     "culture:cul.desert": "most (of); more"
   },
   "أَنَامَ": {
-    "week:8": "I sleep (form after an / lan)"
+    "week:8": "I sleep (form after an / lan)",
+    "vocab:lan": "I sleep (form after an / lan)"
+  },
+  "أَنَّهُ": {
+    "vocab:maa-anna": "that it (m); that he"
   },
   "أَوْزَان": {
     "vocab:wazn": "weights"
@@ -46,6 +55,12 @@
     "grammar:inna": "indeed he, it (m) ('he is'); that he (after qāla)",
     "*": "indeed he / it (starts a statement); that he / it (after qāla)"
   },
+  "الرِّسَالَةَ": {
+    "week:13": "the letter, the message"
+  },
+  "الرِّسَالَةُ": {
+    "week:13": "the letter, the message"
+  },
   "السَّاعَة": {
     "scenario:family-visit": "the clock; the hour, the time",
     "scenario:machines": "the clock; the hour"
@@ -55,6 +70,12 @@
   },
   "السَّاعَةُ": {
     "week:13": "the hour, the time"
+  },
+  "السَّقْف": {
+    "scenario:lost-phone-help": "the roof; the ceiling"
+  },
+  "السِّيَاحِيَّة": {
+    "*": "tourist (adjective, f: for tourists)"
   },
   "اللَّيْلَة": {
     "vocab:dinar": "the night (here: per night)"
@@ -82,6 +103,9 @@
     "scenario:weather-plans": "the mountain",
     "scenario:lost-phone-help": "the mountain"
   },
+  "الْحَرَارَة": {
+    "vocab:daraja": "the heat (darajatu l-ḥarāra: the temperature)"
+  },
   "الْعَرَبَة": {
     "scenario:airport-checkin": "the trolley, the cart",
     "scenario:supermarket": "the trolley, the cart"
@@ -91,6 +115,9 @@
     "culture:cul.coffee": "Arabic (f)",
     "vocab:musiqa": "Arabic, Arab (f adjective)",
     "vocab:yastamiu": "Arabic, Arab (f adjective)"
+  },
+  "الْعَمُود": {
+    "*": "the pole, the pillar, the column"
   },
   "الْعُنْوَان": {
     "day:86": "the headline, the title; the address"
@@ -132,6 +159,9 @@
   },
   "بِخَيْر": {
     "day:52": "well, in good health ('kullu ʿāmin wa-anta / wa-anti bi-khayr': many happy returns)"
+  },
+  "بِكَ": {
+    "week:10": "with you, you (ittaṣala bi-: call; to a man)"
   },
   "بِي": {
     "grammar:yumkin-an": "me (bi- + -ī; ittaṣala bi- = call someone)"
@@ -175,7 +205,8 @@
   },
   "تَفَضَّلْ": {
     "scenario:family-visit": "please (come in / sit / go ahead); here you are (to a man)",
-    "scenario:appointment-time": "please (come in / sit / go ahead); here you are (to a man)"
+    "scenario:appointment-time": "please (come in / sit / go ahead); here you are (to a man)",
+    "*": "please (come in / sit / go ahead); here you are (to a man)"
   },
   "تَقْرَأْهَا": {
     "*": "you read it (f; also 'them' for things) (form after lam)"
@@ -188,6 +219,9 @@
   },
   "تَمَامًا": {
     "vocab:jahiz": "completely"
+  },
+  "تَنْتَظِرَكَ": {
+    "grammar:conditional-w12": "(it, f) waits for you (after lan; to a man)"
   },
   "تُحِبُّ": {
     "vocab:ughniya": "she loves, she likes"
@@ -209,6 +243,10 @@
   },
   "تُقَدِّمُ": {
     "vocab:yuqaddimu": "(it, f) gives, presents"
+  },
+  "تُوَفِّرُ": {
+    "vocab:iadat-at-tadwir": "(it, f) saves",
+    "vocab:taqa": "(it, f) saves"
   },
   "ثَانِيَة": {
     "vocab:thani": "second (f)"
@@ -255,6 +293,10 @@
   },
   "زَرَعْنَا": {
     "week:12": "we planted"
+  },
+  "سَتَأْتِي": {
+    "*": "she will come; you will come (to a man)",
+    "day:52": "will you come? (to a man); she will come"
   },
   "سَتَكُونُ": {
     "day:53": "(it) will be (f)",
@@ -311,7 +353,9 @@
     "vocab:bi-kulli-surur": "for (after shukran: thanks for)",
     "vocab:musaada": "for (after shukran: thanks for)",
     "vocab:kharif": "to, over (ufaḍḍilu A ʿalā B: prefer A to B)",
-    "vocab:yufaddilu": "to, over (ufaḍḍilu A ʿalā B: prefer A to B)"
+    "vocab:yufaddilu": "to, over (ufaḍḍilu A ʿalā B: prefer A to B)",
+    "day:30": "on; to (sallim ʿalā: say hello to)",
+    "vocab:qaliq": "about (qaliq ʿalā: worried about); on"
   },
   "عَلِي": {
     "day:18": "Ali (first name): Umm Ali is a bread pudding",
@@ -386,12 +430,20 @@
     "grammar:inda-li": "he has, it has (lit. for him, for it)",
     "vocab:li": "for him, for it"
   },
+  "لَوْ": {
+    "*": "if (imagined); law samaḥta = excuse me, please"
+  },
   "لِكُلِّ": {
     "scenario:airport-checkin": "for every, for each"
   },
   "مَرَّةً": {
     "day:45": "once, one time",
     "scenario:pharmacy-visit": "time(s) (after kam: 'how many times'); once"
+  },
+  "مَعَ": {
+    "grammar:connectors-w12": "with; maʿa anna = although",
+    "vocab:maa-anna": "with; maʿa anna = although",
+    "day:83": "with; maʿa anna = although"
   },
   "مَقَالَة": {
     "day:88": "essay; article"
@@ -434,6 +486,9 @@
   "نَشْتَرِيَ": {
     "day:52": "we buy (after an or lan)"
   },
+  "نُقْطَة": {
+    "vocab:alamat-tarqim": "full stop, dot; point"
+  },
   "نُور": {
     "culture:cul.family": "light; Nour (first name)",
     "letter:nun": "light; Nour (first name)",
@@ -457,11 +512,15 @@
     "vocab:atwal": "it (f); they (plural of things); she",
     "vocab:asima": "it (f); they (plural of things); she",
     "vocab:haqiqa": "it (f); they (plural of things); she",
-    "vocab:nahiya": "it (f); they (plural of things); she"
+    "vocab:nahiya": "it (f); they (plural of things); she",
+    "vocab:binaya": "it (f); she"
   },
   "وَجَدَ": {
     "vocab:yajidu": "(he) found",
     "vocab:wajada": "(he) found (in the proverb man jadda wajada: succeeds)"
+  },
+  "وَسَائِل": {
+    "day:79": "means (plural of wasīla)"
   },
   "وَسَيَأْتِي": {
     "*": "and he will come"
@@ -479,6 +538,9 @@
   "وْ": {
     "pron:diphthongs": "the letter wāw (with sukūn: the glide aw)"
   },
+  "يَتَغَيَّرُ": {
+    "vocab:munakh": "(it) changes, is changing"
+  },
   "يَسْتَيْقِظُ": {
     "week:2": "he wakes up"
   },
@@ -487,6 +549,9 @@
   },
   "يَقْرَؤُهَا": {
     "*": "he reads it (f), them (things)"
+  },
+  "يَنْزِلُ": {
+    "grammar:weather-expressions": "falls, comes down (rain, snow); gets off"
   },
   "يَوْمًا": {
     "vocab:yasumu": "days (after a number)"

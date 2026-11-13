@@ -121,7 +121,8 @@ one of these misleads a learner.
 
 The AI reviewers also noted about 70 small points about the meaning shown when a word is tapped (too narrow, a
 missing "(object)" label, "pen (plural)" instead of "pens", "(she)" where the subject is a thing) and about the ⟶
-line (a romanisation printed twice, sa- (sa-), capital letters after a hyphen). We will fix these ourselves.
+line (a romanisation printed twice, sa- (sa-), capital letters after a hyphen). These were fixed on 2026-11-13
+(`docs/review/round-3f/SUMMARY.md`).
 **Please mention a tap meaning only if it is wrong for its sentence.** Points 1 and 2 below may need your view:
 
 1. Mistake-only forms in quizzes show their "wrong — correct: …" note when tapped (R3-45). This helps learning but
@@ -137,7 +138,8 @@ and 98 were fixed in round 3 after the notes were written.)
 
 These come from AI review rounds 1 and 2 (540 notes). They have been checked against the current app; fixed
 items, internal points and duplicates have been removed. Reply with the number (R12-n) and **Keep** or **Change**.
-**R12-23, R12-30 and R12-31 look like real errors**: please check them first.
+**R12-23, R12-30 and R12-31 looked like real errors and have already been corrected** (see the notes on each):
+please check the new wording.
 
 ### Register and word choice
 
@@ -166,15 +168,17 @@ items, internal points and duplicates have been removed. Reply with the number (
 
 ### Grammar rules and simplifications in teaching notes
 
-- **R12-23** **Day 37 mistake card (sentence 1); week 6 test, question 3** — The card says "Right before a past verb, مَا means 'not'". The test "Fill the gap: 'What did you do on Friday?'" offers مَاذَا (marked correct) and مَا (marked wrong). But مَا فَعَلْتَ؟ is also good MSA for "what did you do?". — Reword the card to "use مَاذَا to avoid confusion", and remove مَا from the test options?
+- **R12-23** **Day 37 mistake card (sentence 1); week 6 test, question 3** — The card says "Right before a past verb, مَا means 'not'". The test "Fill the gap: 'What did you do on Friday?'" offers مَاذَا (marked correct) and مَا (marked wrong). But مَا فَعَلْتَ؟ is also good MSA for "what did you do?". — Reword the card to "use مَاذَا to avoid confusion", and remove مَا from the test options? *Done: the card now
+  says "not wrong, but unclear", and the test offers هَلْ instead of مَا.*
 - **R12-24** **Day 42 mistake card (sentence 2)** — رَكِبَ جُحَا عَلَى الْحِمَار is marked wrong. رَكِبَ عَلَى is attested and common in modern writing; transitive رَكِبَ is the classical preference. — Present it as "better" rather than "wrong"?
 - **R12-25** **Day 82 mistake card (sentence 4)** — مُرْفَق مَعَ هٰذِهِ الرِّسَالَة سِيرَتِي الذَّاتِيَّة is marked wrong, and مُرْفَقَة right. Agreement with the nearest noun favours مُرْفَقَة, but frozen masculine مُرْفَق is very common in real letters. — Is "wrong" too strong?
 - **R12-26** **Day 75 (sentence 4, line 9); grammar card "qāla + inna"** — Reported yes/no questions are taught as سَأَلَنِي هَلْ فَهِمْتُ. This is common in the press; careful style prefers سَأَلَنِي إِنْ كُنْتُ / عَمَّا إِذَا كُنْتُ. — Keep هَلْ as the taught form, or add a remark?
 - **R12-27** **Day 77 line 8; grammar card "man = whoever"** — مَنْ يَعْمَلُ كَثِيرًا يَجِدُ النَّجَاح (indicative) is offered as a paraphrase of the proverb مَنْ جَدَّ وَجَدَ. As a conditional it would be jussive: مَنْ يَعْمَلْ … يَجِدِ النَّجَاحَ. The indicative works only as a relative ("the one who"). — Keep, or switch to the jussive?
 - **R12-28** **Day 80, sentence 3** — إِنْ دَرَسْتَ كُلَّ يَوْمٍ، نَجَحْتَ is the classical past–past conditional. It is correct but sounds archaic next to the course's own فَسَـ pattern. — Change it to فَسَتَنْجَحُ?
 - **R12-29** **Day 66 (sentence 4, objective 4); week 10 test, question 9** — "I'll call you tomorrow" is taught as أَتَّصِلُ بِكَ غَدًا (plain present). The lesson promises "promise to call back", and the future with سَـ is taught in week 8. — Use سَأَتَّصِلُ بِكَ?
-- **R12-30** **Grammar card "nisba"** — The card says "Drop a final ā or the article first: لُبْنَان → لُبْنَانِيّ", but nothing is dropped in that example. Better examples: أَمْرِيكَا → أَمْرِيكِيّ, الْأُرْدُنّ → أُرْدُنِيّ. — Confirm the example.
-- **R12-31** **Grammar card "accusative"** — The card says that at the end of a sentence "the ending is often not pronounced". In pause, -an is pronounced -ā (khubzā); only -un and -in drop. — Correct the wording?
+- **R12-30** **Grammar card "nisba"** — The card says "Drop a final ā or the article first: لُبْنَان → لُبْنَانِيّ", but nothing is dropped in that example. Better examples: أَمْرِيكَا → أَمْرِيكِيّ, الْأُرْدُنّ → أُرْدُنِيّ. — Confirm the example. *Done: the card now gives أَمْرِيكَا → أَمْرِيكِيّ and الْأُرْدُنّ → أُرْدُنِّيّ (note: the course also
+  writes أُرْدُنِيّ without shadda in some lessons; which spelling should it use throughout?).*
+- **R12-31** **Grammar card "accusative"** — The card says that at the end of a sentence "the ending is often not pronounced". In pause, -an is pronounced -ā (khubzā); only -un and -in drop. — Correct the wording? *Done: the card now says -an is said -ā in pause (khubzā).*
 - **R12-32** **Grammar card "family iḍāfa"** — The card says أَخ / أَب "become أَخُو and أَبُو before another word". That is only the nominative; the other cases are أَخَا / أَخِي and أَبَا / أَبِي. — Add "as the subject"?
 - **R12-33** **Day 6 quiz, question 4; Day 9 quiz, question 6** — The quizzes say the l of the article is "silent / not pronounced" before a sun letter. It actually assimilates, and the sun letter is doubled; the pronunciation page now says this correctly. — Should the quizzes say "blends into the next letter"?
 - **R12-34** **Day 15, sentence 4 (mistake card)** — The card explains "آ (a + hamza) at the start means 'I'". The order is reversed: آ is hamza + long ā. — Fix the wording?

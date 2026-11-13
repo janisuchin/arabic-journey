@@ -10,8 +10,8 @@ import { wordPhotoByVocab } from '../content';
 import type { Seg } from '../content/schema';
 import {
   namesSet,
+  proseParts,
   proseTranslit,
-  splitRuns,
   syllables,
   tapTokens,
   translitLine,
@@ -395,29 +395,28 @@ export function GlossLine({ text, segs, size = 28, center }: { text: string; seg
  * English text with Arabic inside: each Arabic run is an isolated right-to-left span whose words
  * are tappable, followed by its transliteration in brackets.
  */
-export function RichText({ text, size = 16, muted, center }: { text: string; size?: number; muted?: boolean; center?: boolean }) {
+export function RichText({
+  text,
+  size = 16,
+  muted,
+  center,
+  noTranslit,
+}: {
+  text: string;
+  size?: number;
+  muted?: boolean;
+  center?: boolean;
+  /** hide the readings (a quiz prompt whose reading would be the answer) */
+  noTranslit?: boolean;
+}) {
   const c = usePalette();
   const fs = useFs();
   const settings = useSettings();
   const speak = useSpeakWord();
   const [open, setOpen] = useState<WordInfo | null>(null);
   const ctx = useContext(GlossScope);
-  const runs = splitRuns(text);
-  // group consecutive Arabic words (with spaces/Arabic punctuation between) into one run
-  const parts: { ar: boolean; tokens: typeof runs }[] = [];
-  for (let i = 0; i < runs.length; i++) {
-    const t = runs[i];
-    const last = parts[parts.length - 1];
-    const joinsAr =
-      last?.ar &&
-      (t.kind === 'ar' ||
-        ((t.kind === 'space' || /[\u060C\u061F\u061B]/.test(t.text)) &&
-          runs.slice(i + 1).find((x) => x.kind !== 'space')?.kind === 'ar'));
-    if (joinsAr) last.tokens.push(t);
-    else if (t.kind === 'ar') parts.push({ ar: true, tokens: [t] });
-    else if (last && !last.ar) last.tokens.push(t);
-    else parts.push({ ar: false, tokens: [t] });
-  }
+  // consecutive Arabic words (with spaces/Arabic punctuation between) form one run
+  const parts = proseParts(text);
   const color = muted ? c.textMuted : c.text;
   const children: ReactNode[] = parts.map((p, i) => {
     if (!p.ar) return <Text key={i}>{p.tokens.map((t) => t.text).join('')}</Text>;
@@ -453,7 +452,7 @@ export function RichText({ text, size = 16, muted, center }: { text: string; siz
           )}
           {NATIVE ? '\u2069' : ''}
         </Text>
-        {settings.showTranslit && runTr !== '' && (
+        {settings.showTranslit && !noTranslit && runTr !== '' && (
           <Text {...webLang('ar-Latn', 'ltr')} style={{ color: c.translit, fontStyle: 'italic', fontWeight: '600' }}>
             {isoL(` (${runTr})`)}
           </Text>

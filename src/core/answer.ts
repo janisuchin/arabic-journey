@@ -38,6 +38,13 @@ export function seededShuffle<T>(items: T[], seed: number): T[] {
 /** A question that asks how a word is read: showing its transliteration would give the answer away. */
 export const asksReading = (prompt: string) => /\b(read|pronounc\w*|transliterat\w*|sounds?)\b/i.test(prompt);
 
+/**
+ * A prompt that quotes Arabic and asks how it is said, with romanised options ("How do you say مِنَ السِّينِمَا?"):
+ * the reading shown after the Arabic in the prompt would be the answer.
+ */
+export const promptGivesAway = (q: { prompt: string; options: string[] }) =>
+  (asksReading(q.prompt) || /\bsay\b/i.test(q.prompt)) && /[؀-ۿ]/.test(q.prompt) && q.options.every((o) => !/[؀-ۿ]/.test(o));
+
 export function score(correct: number, total: number) {
   return total === 0 ? 0 : correct / total;
 }

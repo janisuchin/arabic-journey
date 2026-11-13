@@ -35,7 +35,7 @@
   { "id": "nisba", "title": "Nationality words: -ī and -iyya", "titleAr": "النِّسْبَة", "firstDay": 3,
     "summary": "Add ـِيّ to a country to say a man's nationality, and ـِيَّة for a woman's.",
     "formula": "country + ـِيّ (m) · + ـِيَّة (f)",
-    "explanation": "مِصْر (Egypt) → مِصْرِيّ (an Egyptian man) → مِصْرِيَّة (an Egyptian woman). Drop a final ā or the article first: لُبْنَان → لُبْنَانِيّ. The feminine adds ة, which you will meet on every feminine word.",
+    "explanation": "مِصْر (Egypt) → مِصْرِيّ (an Egyptian man) → مِصْرِيَّة (an Egyptian woman). Drop a final ā or the article first: أَمْرِيكَا → أَمْرِيكِيّ, الْأُرْدُنّ → أُرْدُنِّيّ. Other countries just add the ending: لُبْنَان → لُبْنَانِيّ. The feminine adds ة, which you will meet on every feminine word.",
     "table": { "head": ["Country", "Man", "Woman"], "rows": [
       ["مِصْر", "مِصْرِيّ", "مِصْرِيَّة"], ["لُبْنَان", "لُبْنَانِيّ", "لُبْنَانِيَّة"], ["أَمْرِيكَا", "أَمْرِيكِيّ", "أَمْرِيكِيَّة"] ] },
     "examples": [ { "ar": "أَنَا أَمْرِيكِيّ.", "en": "I am American. (man)" }, { "ar": "هِيَ لُبْنَانِيَّة.", "en": "She is Lebanese." } ] },
@@ -507,7 +507,7 @@
     "firstDay": 15,
     "summary": "The object of a verb takes the ending -a: -an (tanwīn) without 'the', a single -a with الـ.",
     "formula": "verb + object: آكُلُ خُبْزًا (I eat bread) · أَشْرَبُ الشَّايَ (I drink tea)",
-    "explanation": "In آكُلُ خُبْزًا (I eat bread), خُبْز is the object, the thing that is eaten, so it ends in -an. This ending is written as two fathas, usually with an extra alif: خُبْزًا, شَايًا. After ة there is no extra alif: قَهْوَةً. A word with الـ never has tanwīn, so a definite object ends in a single fatha: أَشْرَبُ الشَّايَ. Arabic uses الـ for things in general, where English uses no article at all. In everyday speech, and at the end of a sentence, the ending is often not pronounced, but you will see it in careful writing.",
+    "explanation": "In آكُلُ خُبْزًا (I eat bread), خُبْز is the object, the thing that is eaten, so it ends in -an. This ending is written as two fathas, usually with an extra alif: خُبْزًا, شَايًا. After ة there is no extra alif: قَهْوَةً. A word with الـ never has tanwīn, so a definite object ends in a single fatha: أَشْرَبُ الشَّايَ. Arabic uses الـ for things in general, where English uses no article at all. In everyday speech the ending is often dropped. At the end of a sentence (in pause) -un and -in fall away, but -an is said as a long -ā: آكُلُ خُبْزًا ends in 'khubzā'. You will see the full ending in careful writing.",
     "table": {
       "head": [
         "Object",

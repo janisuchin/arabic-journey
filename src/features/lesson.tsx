@@ -8,7 +8,7 @@ import * as Speech from 'expo-speech';
 
 import { TTS_LOCALE } from '../base/config';
 import { START, webLang } from '../base/rtl';
-import { asksReading, seededShuffle, score as scoreOf } from '../core/answer';
+import { asksReading, promptGivesAway, seededShuffle, score as scoreOf } from '../core/answer';
 import { hasScript, stripHarakat } from '../core/arabic';
 import { grammarById } from '../content';
 import type { DialogueLine, Question, Sentence, Vocab } from '../content/schema';
@@ -386,7 +386,7 @@ export function QuizRunner({
       <AppText muted>
         Question {i + 1} of {questions.length}
       </AppText>
-      <RichText text={q.prompt} size={18} />
+      <RichText text={q.prompt} size={18} noTranslit={promptGivesAway(q)} />
       {q.ar && (
         <Card>
           <TapText text={q.ar} size={30} center showTranslit={asksReading(q.prompt) ? false : undefined} />
@@ -487,7 +487,7 @@ export function OneQuestion({
   const ok = picked !== null && opts[picked].idx === q.answer;
   return (
     <View style={{ gap: 10 }} testID={testID}>
-      <RichText text={q.prompt} size={18} />
+      <RichText text={q.prompt} size={18} noTranslit={promptGivesAway(q)} />
       {q.ar && (
         <Card>
           <TapText text={q.ar} size={30} center showTranslit={asksReading(q.prompt) ? false : undefined} />

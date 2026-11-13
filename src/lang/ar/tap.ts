@@ -263,7 +263,7 @@ export function tapTokens(text: string, style: TranslitStyle, names?: Set<string
 export function proseTranslit(text: string, style: TranslitStyle, after = '', before = '') {
   const toks = tapTokens(text, style, namesSet(), false);
   const join = (xs: typeof toks) => xs.map((x) => x.text).join('');
-  return toks
+  const out = toks
     .map((t, i) => {
       if (t.kind === 'punct') return ({ '،': ',', '؟': '?', '؛': ';' } as Record<string, string>)[t.text] ?? t.text;
       if (t.kind === 'num') return t.text; // digits talked about in English stay as written (٠١٢٣ ≠ 0123)
@@ -282,6 +282,63 @@ export function proseTranslit(text: string, style: TranslitStyle, after = '', be
     .replace(/\s+([,.;:?!)])/g, '$1')
     .replace(/\s{2,}/g, ' ')
     .trim();
+  // the English right after the Arabic already gives this reading: "سَـ (sa-)", "أَبِي (abī)", "بَيْت bayt, house"
+  return out && echoes(after, out) ? '' : out;
+}
+
+const looseLatin = (s: string) =>
+  plainLatin(s)
+    .replace(/[^a-z\s]/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+/** True if `after` starts (behind a space, "(" or "→") with the same reading, e.g. " (qaraʾtu, I read)". */
+function echoes(after: string, reading: string) {
+  const m = /^\s*(?:\(|→)?\s*/.exec(after)!;
+  if (!m[0]) return false;
+  const n = reading.trim().split(/\s+/).length;
+  const head = after
+    .slice(m[0].length)
+    .split(/[(),;]/)[0]
+    .split(/\s+/)
+    .slice(0, n)
+    .join(' ');
+  const want = looseLatin(reading);
+  return want !== '' && looseLatin(head) === want;
+}
+
+/**
+ * The prose line as the learner reads it (RichText): Arabic runs grouped as on screen, each replaced by its reading.
+ * A run whose reading the English already gives (or which has none) stays in Arabic. Used by the review export.
+ */
+export function proseParts(text: string) {
+  const runs = splitRuns(text);
+  // group consecutive Arabic words (with spaces/Arabic punctuation between) into one run
+  const parts: { ar: boolean; tokens: Token[] }[] = [];
+  for (let i = 0; i < runs.length; i++) {
+    const t = runs[i];
+    const last = parts[parts.length - 1];
+    const joinsAr =
+      last?.ar &&
+      (t.kind === 'ar' ||
+        ((t.kind === 'space' || /[،؟؛]/.test(t.text)) && runs.slice(i + 1).find((x) => x.kind !== 'space')?.kind === 'ar'));
+    if (joinsAr) last.tokens.push(t);
+    else if (t.kind === 'ar') parts.push({ ar: true, tokens: [t] });
+    else if (last && !last.ar) last.tokens.push(t);
+    else parts.push({ ar: false, tokens: [t] });
+  }
+  return parts;
+}
+
+export function proseLine(text: string, style: TranslitStyle) {
+  const groups = proseParts(text);
+  const parts = groups.map((p) => p.tokens.map((t) => t.text).join(''));
+  return parts
+    .map((s, i) => {
+      if (!groups[i].ar) return s.replace(/[،؟؛]/g, (p) => ({ '،': ',', '؟': '?', '؛': ';' })[p]!);
+      const r = proseTranslit(s, style, parts.slice(i + 1).join(''), parts.slice(0, i).join(''));
+      return r || s;
+    })
+    .join('');
 }
 
 /** Signs that are not letters of the alphabet table, named when they stand alone in prose. */

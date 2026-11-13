@@ -89,4 +89,11 @@ describe('reading questions', () => {
     expect(asksReading('What does this mean?')).toBe(false);
     expect(asksReading('Which word is ready?')).toBe(false);
   });
+  it('hide the readings in a prompt that asks how quoted Arabic is said (romanised options)', () => {
+    const { promptGivesAway } = jest.requireActual<typeof import('../answer')>('../answer');
+    const opts = ['min as-sīnimā', 'mina s-sīnimā'];
+    expect(promptGivesAway({ prompt: 'How do you say مِنَ السِّينِمَا (from the cinema)?', options: opts })).toBe(true);
+    expect(promptGivesAway({ prompt: "How do you say 'from the cinema'?", options: opts })).toBe(false);
+    expect(promptGivesAway({ prompt: 'How do you say مِنَ السِّينِمَا?', options: ['مِنَ', 'إِلَى'] })).toBe(false);
+  });
 });

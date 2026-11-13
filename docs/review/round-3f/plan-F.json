@@ -1,0 +1,1165 @@
+{
+ "group": "F (teacher-pack section F + R12-23/30/31)",
+ "ops": [
+  {
+   "chunk": "F",
+   "ids": [
+    5
+   ],
+   "op": "scoped",
+   "word": "تَفَضَّلْ",
+   "scope": "*",
+   "gloss": "please (come in / sit / go ahead); here you are (to a man)"
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    13
+   ],
+   "op": "hand",
+   "word": "فَضْلِكِ",
+   "gloss": "your kindness (to a woman): 'please'"
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    14
+   ],
+   "op": "hand",
+   "word": "مَاءً",
+   "gloss": "water (object)"
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    15
+   ],
+   "op": "hand",
+   "word": "أَقْلَام",
+   "gloss": "pens"
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    15
+   ],
+   "op": "hand",
+   "word": "بُيُوت",
+   "gloss": "houses, homes"
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    24
+   ],
+   "op": "scoped",
+   "word": "عَلَى",
+   "scope": "day:30",
+   "gloss": "on; to (sallim ʿalā: say hello to)"
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    25
+   ],
+   "op": "text",
+   "file": "content/days/day24.json",
+   "old": "As t: tadhkiratu l-mitro\"",
+   "new": "As t: tadhkiratu l-mitrū\"",
+   "count": 1
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    28
+   ],
+   "op": "text",
+   "file": "content/days/day36.json",
+   "old": "\"wrong\": \"هَلْ أَكَلْتِ سَمَكًا؟ (to Daniel)\",",
+   "new": "\"wrong\": \"هَلْ أَكَلْتِ سَمَكًا؟\",",
+   "count": 1
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    28
+   ],
+   "op": "text",
+   "file": "content/days/day36.json",
+   "old": "\"why\": \"-ta is 'you' to a man and -ti is 'you' to a woman. Only the last vowel is different.\"",
+   "new": "\"why\": \"Said to Daniel, a man. -ta is 'you' to a man and -ti is 'you' to a woman. Only the last vowel is different.\"",
+   "count": 1
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    31
+   ],
+   "op": "text",
+   "file": "content/days/day50.json",
+   "old": "\"يَرَ\", \"he see (after lam)\"",
+   "new": "\"يَرَ\", \"he sees (form after 'lam')\"",
+   "count": 1
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    31
+   ],
+   "op": "text",
+   "file": "content/days/day50.json",
+   "old": "\"تَرَ\", \"you see (after lam, to a man)\"",
+   "new": "\"تَرَ\", \"you see (form after 'lam', to a man)\"",
+   "count": 1
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    32
+   ],
+   "op": "text",
+   "file": "content/days/day45.json",
+   "old": "\"يَرَى\",\r\n          \"he sees\",\r\n          \"verb\"",
+   "new": "\"يَرَى\",\r\n          \"he sees (after an)\",\r\n          \"verb\"",
+   "count": 1
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    38,
+    90
+   ],
+   "op": "scoped",
+   "word": "سَتَأْتِي",
+   "scope": "*",
+   "gloss": "she will come; you will come (to a man)"
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    38
+   ],
+   "op": "scoped",
+   "word": "سَتَأْتِي",
+   "scope": "day:52",
+   "gloss": "will you come? (to a man); she will come"
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    39
+   ],
+   "op": "text",
+   "file": "content/days/day51.json",
+   "old": "\"سَيَخْرُجُ\", \"(they) will go out\"",
+   "new": "\"سَيَخْرُجُ\", \"(they) will go out (verb first: singular)\"",
+   "count": 1
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    39
+   ],
+   "op": "text",
+   "file": "content/days/day53.json",
+   "old": "\"سَيُسَافِرُ\", \"(they) will travel\"",
+   "new": "\"سَيُسَافِرُ\", \"(they) will travel (verb first: singular)\"",
+   "count": 1
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    39
+   ],
+   "op": "text",
+   "file": "content/days/day55.json",
+   "old": "\"سَيُسَافِرُ\", \"(they) will travel\"",
+   "new": "\"سَيُسَافِرُ\", \"(they) will travel (verb first: singular)\"",
+   "count": 1
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    39
+   ],
+   "op": "text",
+   "file": "content/days/day56.json",
+   "old": "\"سَيُسَافِرُ\", \"(they) will travel\"",
+   "new": "\"سَيُسَافِرُ\", \"(they) will travel (verb first: singular)\"",
+   "count": 1
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    43
+   ],
+   "op": "scoped",
+   "word": "أَشْهَرُ",
+   "scope": "*",
+   "gloss": "more famous; the most famous (before a noun)"
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    43
+   ],
+   "op": "scoped",
+   "word": "أَشْهَرُ",
+   "scope": "day:62",
+   "gloss": "more famous; the most famous (before a noun)"
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    43
+   ],
+   "op": "scoped",
+   "word": "أَشْهَرُ",
+   "scope": "day:63",
+   "gloss": "more famous; the most famous (before a noun)"
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    44
+   ],
+   "op": "hand",
+   "word": "الْكِتَابَة",
+   "gloss": "writing"
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    52
+   ],
+   "op": "text",
+   "file": "content/days/day80.json",
+   "old": "la-shtaraytu, la-zara'tu. But after 'idha',",
+   "new": "la-shtaraytu, la-zaraʿtu. But after idhā,",
+   "count": 1
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    52
+   ],
+   "op": "text",
+   "file": "content/days/day80.json",
+   "old": "after 'law' the answer starts with the letter lam:",
+   "new": "after law the answer starts with the letter lām:",
+   "count": 1
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    58
+   ],
+   "op": "text",
+   "file": "content/days/day90.json",
+   "old": "\"تِسْعِينَ\",\r\n            \"ninety (-a after anna)\"",
+   "new": "\"تِسْعِينَ\",\r\n            \"ninety (-īna after anna)\"",
+   "count": 1
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    65
+   ],
+   "op": "hand",
+   "word": "يَفْهَمُ",
+   "gloss": "he understands"
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    65
+   ],
+   "op": "hand",
+   "word": "يَشْتَرِي",
+   "gloss": "he buys"
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    65
+   ],
+   "op": "hand",
+   "word": "يَغْسِلُ",
+   "gloss": "he washes"
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    65
+   ],
+   "op": "hand",
+   "word": "يَسْتَيْقِظُ",
+   "gloss": "he wakes up"
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    70
+   ],
+   "op": "scoped",
+   "word": "وَسَائِل",
+   "scope": "day:79",
+   "gloss": "means (plural of wasīla)"
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    72
+   ],
+   "op": "text",
+   "file": "content/glossary/mistakes.json",
+   "old": " \"جُمُعَة\": \"Friday without 'the' (wrong — correct: al-jumuʿa)\",\n",
+   "new": "",
+   "count": 1
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    72
+   ],
+   "op": "text",
+   "file": "content/glossary/mistakes.json",
+   "old": " \"إِنْتَرْنِت\": \"internet (without 'the': wrong here — correct: al-intarnita)\",\n",
+   "new": "",
+   "count": 1
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    73,
+    74
+   ],
+   "op": "text",
+   "file": "content/glossary/mistakes.json",
+   "old": "\"جَوَازِي\": \"my permit (wrong here — correct: jawāzu safarī)\",",
+   "new": "\"جَوَازِي\": \"my passport (wrong here — correct: jawāzu safarī)\",\n \"الْوَالِدَانِ\": \"the two parents (wrong after ʿalā — correct: al-wālidayni)\",",
+   "count": 1
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    79
+   ],
+   "op": "scoped",
+   "word": "مَعَ",
+   "scope": "grammar:connectors-w12",
+   "gloss": "with; maʿa anna = although"
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    79
+   ],
+   "op": "scoped",
+   "word": "مَعَ",
+   "scope": "vocab:maa-anna",
+   "gloss": "with; maʿa anna = although"
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    79
+   ],
+   "op": "scoped",
+   "word": "مَعَ",
+   "scope": "day:83",
+   "gloss": "with; maʿa anna = although"
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    81
+   ],
+   "op": "scoped",
+   "word": "يَنْزِلُ",
+   "scope": "grammar:weather-expressions",
+   "gloss": "falls, comes down (rain, snow); gets off"
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    82
+   ],
+   "op": "scoped",
+   "word": "تَنْتَظِرَكَ",
+   "scope": "grammar:conditional-w12",
+   "gloss": "(it, f) waits for you (after lan; to a man)"
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    88
+   ],
+   "op": "text",
+   "file": "content/course/pronunciation.json",
+   "old": "for ص the back of the tongue is also pulled up and back towards the throat\"",
+   "new": "for ص the back of the tongue is also raised towards the soft palate and pulled back\"",
+   "count": 1
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    92
+   ],
+   "op": "text",
+   "file": "content/course/placards.json",
+   "old": "\"ba (long a)\"",
+   "new": "\"bā (long a)\"",
+   "count": 1
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    92
+   ],
+   "op": "text",
+   "file": "content/course/placards.json",
+   "old": "\"bu (long u)\"",
+   "new": "\"bū (long u)\"",
+   "count": 1
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    92
+   ],
+   "op": "text",
+   "file": "content/course/placards.json",
+   "old": "\"bi (long i)\"",
+   "new": "\"bī (long i)\"",
+   "count": 1
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    100
+   ],
+   "op": "scoped",
+   "word": "الْعَمُود",
+   "scope": "*",
+   "gloss": "the pole, the pillar, the column"
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    105
+   ],
+   "op": "scoped",
+   "word": "السَّقْف",
+   "scope": "scenario:lost-phone-help",
+   "gloss": "the roof; the ceiling"
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    106
+   ],
+   "op": "scoped",
+   "word": "السِّيَاحِيَّة",
+   "scope": "*",
+   "gloss": "tourist (adjective, f: for tourists)"
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    111
+   ],
+   "op": "scoped",
+   "word": "هِيَ",
+   "scope": "vocab:binaya",
+   "gloss": "it (f); she"
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    113
+   ],
+   "op": "text",
+   "file": "content/course/vocabulary.json",
+   "old": "is said as t: maḥaṭṭatu l-mitro.",
+   "new": "is said as t: maḥaṭṭatu l-mitrū.",
+   "count": 1
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    115
+   ],
+   "op": "scoped",
+   "word": "عَلَى",
+   "scope": "vocab:qaliq",
+   "gloss": "about (qaliq ʿalā: worried about); on"
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    118
+   ],
+   "op": "scoped",
+   "word": "الْحَرَارَة",
+   "scope": "vocab:daraja",
+   "gloss": "the heat (darajatu l-ḥarāra: the temperature)"
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    121
+   ],
+   "op": "scoped",
+   "word": "تُوَفِّرُ",
+   "scope": "vocab:iadat-at-tadwir",
+   "gloss": "(it, f) saves"
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    121
+   ],
+   "op": "scoped",
+   "word": "تُوَفِّرُ",
+   "scope": "vocab:taqa",
+   "gloss": "(it, f) saves"
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    121
+   ],
+   "op": "scoped",
+   "word": "يَتَغَيَّرُ",
+   "scope": "vocab:munakh",
+   "gloss": "(it) changes, is changing"
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    122
+   ],
+   "op": "scoped",
+   "word": "أَنَامَ",
+   "scope": "vocab:lan",
+   "gloss": "I sleep (form after an / lan)"
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    123
+   ],
+   "op": "scoped",
+   "word": "أَنَّهُ",
+   "scope": "vocab:maa-anna",
+   "gloss": "that it (m); that he"
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    124
+   ],
+   "op": "scoped",
+   "word": "نُقْطَة",
+   "scope": "vocab:alamat-tarqim",
+   "gloss": "full stop, dot; point"
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    128
+   ],
+   "op": "scoped",
+   "word": "لَوْ",
+   "scope": "*",
+   "gloss": "if (imagined); law samaḥta = excuse me, please"
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    129
+   ],
+   "op": "scoped",
+   "word": "بِكَ",
+   "scope": "week:10",
+   "gloss": "with you, you (ittaṣala bi-: call; to a man)"
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    130
+   ],
+   "op": "scoped",
+   "word": "الرِّسَالَةَ",
+   "scope": "week:13",
+   "gloss": "the letter, the message"
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    130
+   ],
+   "op": "scoped",
+   "word": "الرِّسَالَةُ",
+   "scope": "week:13",
+   "gloss": "the letter, the message"
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    30
+   ],
+   "op": "hand",
+   "word": "أُرْدُنِّيّ",
+   "gloss": "Jordanian (man)"
+  }
+ ],
+ "checks": [
+  {
+   "chunk": "R12",
+   "ids": [
+    23
+   ],
+   "area": "days-31-40",
+   "expect": "Not wrong, but unclear: before a past verb مَا can mean 'what?' or 'not'"
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    30
+   ],
+   "area": "grammar",
+   "expect": "أَمْرِيكَا → أَمْرِيكِيّ, الْأُرْدُنّ → أُرْدُنِّيّ"
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    31
+   ],
+   "area": "grammar",
+   "expect": "but -an is said as a long -ā"
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    5
+   ],
+   "area": "culture",
+   "expect": "تَفَضَّلْ=please (come in / sit / go ahead); here you are (to a man)"
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    13
+   ],
+   "area": "days-11-20",
+   "expect": "فَضْلِكِ=your kindness (to a woman): 'please'"
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    14
+   ],
+   "area": "days-11-20",
+   "expect": "مَاءً=water (object)"
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    15
+   ],
+   "area": "days-11-20",
+   "expect": "أَقْلَام=pens"
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    15
+   ],
+   "area": "days-11-20",
+   "expect": "بُيُوت=houses, homes"
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    24
+   ],
+   "area": "days-21-30",
+   "expect": "عَلَى=on; to (sallim ʿalā: say hello to)"
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    25
+   ],
+   "area": "days-21-30",
+   "expect": "As t: tadhkiratu l-mitrū"
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    28
+   ],
+   "area": "days-31-40",
+   "expect": "wrong: هَلْ أَكَلْتِ سَمَكًا؟\n"
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    28
+   ],
+   "area": "days-31-40",
+   "expect": "Said to Daniel, a man."
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    31
+   ],
+   "area": "days-41-50",
+   "expect": "يَرَ = he sees (form after 'lam')"
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    31
+   ],
+   "area": "days-41-50",
+   "expect": "تَرَ = you see (form after 'lam', to a man)"
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    32
+   ],
+   "area": "days-41-50",
+   "expect": "يَرَى = he sees (after an)"
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    38,
+    90
+   ],
+   "area": "letters-pronunciation",
+   "expect": "سَتَأْتِي=she will come; you will come (to a man)"
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    38
+   ],
+   "area": "days-51-60",
+   "expect": "سَتَأْتِي=will you come? (to a man); she will come"
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    39
+   ],
+   "area": "days-51-60",
+   "expect": "سَيَخْرُجُ = (they) will go out (verb first: singular)"
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    39
+   ],
+   "area": "days-51-60",
+   "expect": "سَيُسَافِرُ = (they) will travel (verb first: singular)"
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    39
+   ],
+   "area": "days-51-60",
+   "expect": "سَيُسَافِرُ = (they) will travel (verb first: singular)"
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    39
+   ],
+   "area": "days-51-60",
+   "expect": "سَيُسَافِرُ = (they) will travel (verb first: singular)"
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    43
+   ],
+   "area": "days-61-70",
+   "expect": "أَشْهَرُ=more famous; the most famous (before a noun)"
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    44
+   ],
+   "area": "days-61-70",
+   "expect": "الْكِتَابَة=writing"
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    52
+   ],
+   "area": "days-71-80",
+   "expect": "la-shtaraytu, la-zaraʿtu. But after idhā,"
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    58
+   ],
+   "area": "days-81-90",
+   "expect": "تِسْعِينَ = ninety (-īna after anna)"
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    65
+   ],
+   "area": "days-21-30",
+   "expect": "يَشْتَرِي=he buys"
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    70
+   ],
+   "area": "days-71-80",
+   "expect": "وَسَائِل=means (plural of wasīla)"
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    73,
+    74
+   ],
+   "area": "days-51-60",
+   "expect": "جَوَازِي=my passport (wrong here — correct: jawāzu safarī)"
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    74
+   ],
+   "area": "scenarios-2",
+   "expect": "الْوَالِدَانِ=the two parents (wrong after ʿalā — correct: al-wālidayni)"
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    79
+   ],
+   "area": "grammar",
+   "expect": "مَعَ=with; maʿa anna = although"
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    79
+   ],
+   "area": "vocabulary",
+   "expect": "مَعَ=with; maʿa anna = although"
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    79
+   ],
+   "area": "days-81-90",
+   "expect": "مَعَ=with; maʿa anna = although"
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    81
+   ],
+   "area": "grammar",
+   "expect": "يَنْزِلُ=falls, comes down (rain, snow); gets off"
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    82
+   ],
+   "area": "grammar",
+   "expect": "تَنْتَظِرَكَ=(it, f) waits for you (after lan; to a man)"
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    88
+   ],
+   "area": "letters-pronunciation",
+   "expect": "raised towards the soft palate and pulled back"
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    92
+   ],
+   "area": "placards",
+   "expect": "= bā (long a)"
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    92
+   ],
+   "area": "placards",
+   "expect": "= bū (long u)"
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    92
+   ],
+   "area": "placards",
+   "expect": "= bī (long i)"
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    100
+   ],
+   "area": "scenarios-1",
+   "expect": "الْعَمُود=the pole, the pillar, the column"
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    105
+   ],
+   "area": "scenarios-2",
+   "expect": "السَّقْف=the roof; the ceiling"
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    106
+   ],
+   "area": "scenarios-2",
+   "expect": "السِّيَاحِيَّة=tourist (adjective, f: for tourists)"
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    111
+   ],
+   "area": "vocabulary",
+   "expect": "هِيَ=it (f); she"
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    113
+   ],
+   "area": "vocabulary",
+   "expect": "maḥaṭṭatu l-mitrū."
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    115
+   ],
+   "area": "vocabulary",
+   "expect": "عَلَى=about (qaliq ʿalā: worried about); on"
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    118
+   ],
+   "area": "vocabulary",
+   "expect": "الْحَرَارَة=the heat (darajatu l-ḥarāra: the temperature)"
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    121
+   ],
+   "area": "vocabulary",
+   "expect": "تُوَفِّرُ=(it, f) saves"
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    121
+   ],
+   "area": "vocabulary",
+   "expect": "يَتَغَيَّرُ=(it) changes, is changing"
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    122
+   ],
+   "area": "vocabulary",
+   "expect": "أَنَامَ=I sleep (form after an / lan)"
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    123
+   ],
+   "area": "vocabulary",
+   "expect": "أَنَّهُ=that it (m); that he"
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    124
+   ],
+   "area": "vocabulary",
+   "expect": "نُقْطَة=full stop, dot; point"
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    128
+   ],
+   "area": "vocabulary",
+   "expect": "لَوْ=if (imagined); law samaḥta = excuse me, please"
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    129
+   ],
+   "area": "weeks-tests",
+   "expect": "بِكَ=with you, you (ittaṣala bi-: call; to a man)"
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    35
+   ],
+   "area": "grammar",
+   "expect": "put سَـ (sa-) or سَوْفَ (sawfa) in front"
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    112
+   ],
+   "area": "vocabulary",
+   "expect": "'My father' is أَبِي (abī)."
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    76
+   ],
+   "area": "grammar",
+   "expect": "⟶ ١ wāḥid · ٢ ithnān"
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    86
+   ],
+   "area": "letters-pronunciation",
+   "expect": "(بَيْت bayt, house)"
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    130
+   ],
+   "area": "weeks-tests",
+   "expect": "الرِّسَالَةَ=the letter, the message"
+  },
+  {
+   "chunk": "F",
+   "ids": [
+    130
+   ],
+   "area": "weeks-tests",
+   "expect": "الرِّسَالَةُ=the letter, the message"
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    30
+   ],
+   "area": "grammar",
+   "expect": "أُرْدُنِّيّ=Jordanian (man)"
+  }
+ ],
+ "skipped": [
+  {
+   "ids": [
+    45,
+    85
+   ],
+   "why": "Section F points 1 and 2: the teacher is asked to decide."
+  },
+  {
+   "ids": [
+    30
+   ],
+   "why": "al-mubārāh follows ALA-LC (tāʾ marbūṭa after alif); not an error."
+  },
+  {
+   "ids": [
+    47
+   ],
+   "why": "newWords hold vocabulary ids; the app shows the words, never the ids."
+  },
+  {
+   "ids": [
+    60,
+    62,
+    63,
+    64,
+    66,
+    67,
+    68,
+    69
+   ],
+   "why": "auto.json review list only (the app never reads it); every place a learner taps these words already shows the right sense."
+  },
+  {
+   "ids": [
+    75
+   ],
+   "why": "Export only: a bare hamza seat is never a lesson line; in prose it is named (alif with hamza)."
+  },
+  {
+   "ids": [
+    93,
+    97
+   ],
+   "why": "Export artefact: on screen the Arabic stays next to its reading; the echo fix removes the doubled -ī."
+  },
+  {
+   "ids": [
+    109
+   ],
+   "why": "Reviewer: nothing to change."
+  },
+  {
+   "ids": [
+    3,
+    9,
+    12,
+    37,
+    48,
+    71,
+    77,
+    80,
+    87,
+    98
+   ],
+   "why": "Already fixed in round 3."
+  }
+ ],
+ "notesForLead": [
+  "R3-72: غُرْفَةُهُ is not dead (day 30 quiz option, a non-word), so its note stays; جُمُعَة and إِنْتَرْنِت were removed."
+ ]
+}

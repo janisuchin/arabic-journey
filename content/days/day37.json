@@ -84,7 +84,7 @@
         {
           "wrong": "مَا فَعَلْتَ يَوْمَ السَّبْت؟",
           "right": "مَاذَا فَعَلْتَ يَوْمَ السَّبْت؟",
-          "why": "Right before a past verb, مَا means 'not': مَا فَعَلْتَ is 'you didn't do'. To ask 'what?' before a verb, use مَاذَا."
+          "why": "Not wrong, but unclear: before a past verb مَا can mean 'what?' or 'not', so مَا فَعَلْتَ can also be 'you didn't do'. To ask 'what?' before a verb, use مَاذَا: it can only be a question."
         }
       ]
     },

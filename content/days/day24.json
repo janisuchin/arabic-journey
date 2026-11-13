@@ -70,7 +70,7 @@
     { "id": "d24q3", "prompt": "Which verb means 'to get off'?", "options": ["يَرْكَبُ", "يَزُورُ", "يَذْهَبُ", "يَنْزِلُ"], "answer": 3 },
     { "id": "d24q4", "prompt": "Which fare do the friends agree on with the taxi driver?", "options": ["twenty pounds", "twenty-five pounds", "thirty pounds", "eight pounds"], "answer": 1 },
     { "id": "d24q5", "prompt": "Why does Sami prefer the metro to the bus?", "options": ["The buses are crowded and the road is long", "The metro is free", "There is no bus stop", "Daniel doesn't like buses"], "answer": 0 },
-    { "id": "d24q6", "prompt": "How is the ة read in this phrase?", "ar": "تَذْكِرَةُ الْمِتْرُو", "options": ["It is silent", "As t: tadhkiratu l-mitro", "As h: tadhkirah", "As i: tadhkiri"], "answer": 1 },
+    { "id": "d24q6", "prompt": "How is the ة read in this phrase?", "ar": "تَذْكِرَةُ الْمِتْرُو", "options": ["It is silent", "As t: tadhkiratu l-mitrū", "As h: tadhkirah", "As i: tadhkiri"], "answer": 1 },
     { "id": "d24q7", "prompt": "What does this mean?", "ar": "الشَّارِع مُزْدَحِم.", "options": ["The street is crowded.", "The street is long.", "The street is near.", "The street is new."], "answer": 0 }
   ],
   "completion": "Excellent! You can get around Cairo by metro, bus and taxi, and you know how to agree on a fare.",

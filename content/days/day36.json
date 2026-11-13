@@ -199,9 +199,9 @@
       ],
       "mistakes": [
         {
-          "wrong": "هَلْ أَكَلْتِ سَمَكًا؟ (to Daniel)",
+          "wrong": "هَلْ أَكَلْتِ سَمَكًا؟",
           "right": "هَلْ أَكَلْتَ سَمَكًا؟",
-          "why": "-ta is 'you' to a man and -ti is 'you' to a woman. Only the last vowel is different."
+          "why": "Said to Daniel, a man. -ta is 'you' to a man and -ti is 'you' to a woman. Only the last vowel is different."
         }
       ]
     },

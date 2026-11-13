@@ -1,53 +1,47 @@
 # Status — Arabic Journey
 
-Updated 2026-11-13 (teacher-review pack ready; round 3 done, web deployed). Branch `main`. All work runs on the owner's PC.
-Main prompt: `Arabic_Reference/PROMPT_B_Nihongo-based.md`. Live (round-3 build, deployed 2026-11-13):
+Updated 2026-11-13 (round 3F: pack items that need no teacher fixed, web deployed). Branch `main`. All work runs
+on the owner's PC. Main prompt: `Arabic_Reference/PROMPT_B_Nihongo-based.md`. Live (round-3F build):
 https://ar-journey.german-journey.workers.dev · unlocked https://ar-journey-unlocked.german-journey.workers.dev
 
 ## Done
 - v1.0.0 released (8386d49, tag v1.0.0): 90 days, 13 week tests, 32 scenarios, culture, labs, report, final exam.
-- Accuracy rounds 1, 2, 2b (443 / 260 rows; see `docs/review/round-1|2/SUMMARY.md`).
-- **Accuracy round 3** (this commit; `docs/review/round-3/SUMMARY.md`): 21 reviewers + 10 cross-checkers
-  (AGREE/CHANGE/DISAGREE, French-style). 202 findings (19 major, 8 in Arabic/grammar/answer keys), 200 agreed and
-  applied, 2 rejected. 275 ops via `scripts/audit/apply-plans.py`; `scripts/audit/verify-plans.py` found 230/230
-  fixes in the fresh export. The Arabic text is now clean; what remained was tap glosses and the engine.
-  1. Root cause of rows that "stayed unfixed": `auto.json` is never read by the app, and `hand.json` is app-wide.
-     New `content/glossary/scoped.json`: gloss per place (`day:N`, `week:N`, `scenario:<id>`, `culture:<id>`,
-     `grammar:<id>`, `vocab:<id>`, `placard:<id>`, `letter:<id>`, `pron:<id>`) or `*` (default outside the lessons
-     that teach another sense). Screens set the place with `GlossPlace`; the audit export uses the same keys.
-  2. Engine: one clitic style (wa-/fa-/bi-/li-/la-/ka- on inflected stems too), wa-li-Sāmī, -hu without ·,
-     Allāhu, names after titles / proper-noun names capitalised, no empty "()" or stray spaces after a named letter,
-     hamza seats named, no repeated senses, digit/letter quiz options show no reading.
-  3. Content: day 86 Form II rule, day 89 kāna note, day 53 card, الْيَوْمَ, إِنْجِلِيزِيَّة, وَادِي رَمّ, construct
-     case vowels (qiṭʿata kaʿk), age table 11–99.
-- Checks after round 3: validator 0 errors, 103 unit tests, e2e 28/28 (port 4191). Both editions verified live.
-- **Teacher-review pack** `docs/review/TEACHER-REVIEW-PACK.md` (docs only): live links, how to review/report,
-  130 round-3 notes as R3-n questions (A grammar, B register, C spelling, D culture/story, E English, F taps/⟶
-  which the owner fixes), and 58 still-open rounds-1–2 notes as R12-n (540 triaged against the current export).
-  Likely real errors to fix even before the teacher replies: R12-23 (day 37 card + week 6 test q3 mark مَا
-  فَعَلْتَ؟ wrong), R12-30 (nisba card example لُبْنَان drops nothing), R12-31 (accusative card: -an is said -ā in
-  pause).
+- Accuracy rounds 1, 2, 2b, 3 (`docs/review/round-1|2|3/SUMMARY.md`). Round 3: cross-checked, 202 findings, 230/230
+  verified; introduced `content/glossary/scoped.json` (gloss per place, see Decisions).
+- **Teacher-review pack** `docs/review/TEACHER-REVIEW-PACK.md`: R3-n (round-3 notes, sections A–F) and R12-n
+  (open rounds-1–2 notes). R12-23/30/31 and section F are now marked done in the pack.
+- **Round 3F** (this commit; `docs/review/round-3f/SUMMARY.md`, `plan-F.json`): R12-23 (day 37 card, week 6 q3),
+  R12-30 (nisba examples), R12-31 (-an said -ā in pause), and the section-F tap/⟶ notes: ~45 gloss/content ops
+  (59/59 checks; round 3's 230 still pass). Engine: a reading the English already gives is not repeated
+  ("سَـ (sa-)"); quiz prompts asking how quoted Arabic is said hide its reading (`promptGivesAway`); the export
+  reads prose run by run like RichText (`proseParts`/`proseLine`). Skipped items and reasons are in the plan.
+- Checks: validator 0 errors, 105 unit tests, e2e 28/28 (port 4191). Both editions deployed and verified live.
 
 ## Left
-1. **Human Arabic teacher review**: owner sends `docs/review/TEACHER-REVIEW-PACK.md` to a teacher (the last
-   gate). Teacher replies by number (R3-n / R12-n: Keep / Change); then apply as a normal fix round.
-2. Optional round 4 (fresh reviewers + cross-check, same prompts in `docs/review/round-3/`) if the owner wants AI
-   confidence closer to the French app; expect mostly tap-gloss rows.
+1. **Human Arabic teacher review**: owner sends the pack to a teacher (the last gate). Teacher replies by number
+   (R3-n / R12-n: Keep / Change); apply as a normal fix round and record the reviewer's name.
+   Open questions for the teacher include section F points 1–2 (R3-45 quiz mistake notes, R3-85 waṣl page) and
+   the أُرْدُنِيّ / أُرْدُنِّيّ spelling (both are used in the course).
+2. Optional round 4 (fresh reviewers + cross-check, prompts in `docs/review/round-3/`).
 3. Unchanged from v1.0.0: teacher review of culture notes and photo compromises; branching role-play (Prompt B L).
 4. **No APK / version release** until all language modules are combined (owner, 2026-11-13). Web deploys only.
 
 ## Decisions
 - Never mark content `approved` without a named human reviewer.
-- Fixes go only where the app reads them: segs/content (counted text replace), `scoped.json` (one place), or
-  `hand.json` (only if right in every place). Never `auto.json` (generated review list).
+- Fixes go only where the app reads them: segs/content (counted text replace), `scoped.json` (one place:
+  `day:N`, `week:N`, `scenario:<id>`, `culture:<id>`, `grammar:<id>`, `vocab:<id>`, `placard:<id>`, `letter:<id>`,
+  `pron:<id>`, or `*` default), or `hand.json` (only if right everywhere). Never `auto.json` (review list).
+- The validator ignores place glosses: a new word in a lesson text needs a `hand.json` or seg gloss.
+- A scoped gloss is keyed by the exact vocalised form (الرِّسَالَةَ ≠ الرِّسَالَة).
 - A review round = reviewers → cross-check → fix plans → `apply-plans.py` → re-export → `verify-plans.py`.
 - After content changes: `content:index` → `readings:build` → `glossary:auto` → `check`.
-- Shared content files have mixed layouts and line endings: edit by counted text replacement, never re-serialise.
+- Shared content files have mixed layouts and line endings (many day files are CRLF): edit by counted text
+  replacement, never re-serialise; build multi-line `old` strings from the raw file (`newline=''`).
 - بِخَيْر is written bi-khayr; يَا أُسْتَاذ without ḍamma is house style; mistake notes live in `mistakes.json`.
-- Python on this PC writes CRLF unless `newline='\n'`; Bash heredocs mangle backslashes: put scripts in files.
+- Bash heredocs break on these scripts: write Python scripts to files (scratchpad) and run them.
 - e2e on port 4191: copy playwright.config.ts with 4190→4191 and `reuseExistingServer: false`, then delete it.
 - UI is LTR for English readers; Arabic text always RTL. One session at a time in this repo.
 
 ## Next step
-Owner sends the pack to a teacher. Meanwhile (optional): fix R12-23/30/31 and the section-F tap/⟶ items, which
-need no teacher; or run round 4 (Left 2). After teacher replies: apply them and record the reviewer's name.
+Owner sends `docs/review/TEACHER-REVIEW-PACK.md` to an Arabic teacher. When the reply comes: apply it as a fix
+round (plan file + apply/verify), record the reviewer's name, deploy web. Optional meanwhile: round 4.

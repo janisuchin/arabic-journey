@@ -8,7 +8,7 @@ import { mkdirSync, readFileSync, readdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 
 import { hasScript } from '../../src/core/arabic';
-import { arabicWords, grammarDay, meaningOf, namesSet, proseTranslit, translitLine, type GlossCtx } from '../../src/lang/ar/tap';
+import { arabicWords, grammarDay, meaningOf, namesSet, proseLine, translitLine, type GlossCtx } from '../../src/lang/ar/tap';
 
 const root = join(__dirname, '..', '..');
 const outDir = process.argv[2] ?? join(root, 'audit');
@@ -31,10 +31,12 @@ const SKIP_KEYS = new Set([
 ]);
 const names = namesSet();
 
-function tr(s: string) {
+function tr(s: string, path = '') {
+  // English prose with Arabic inside (and a grammar formula) is read the way RichText reads it: run by run, no
+  // sentence capital, letters named, a run whose reading the English already gives stays in Arabic
+  const prose = /[A-Za-z]{2}/.test(s) || /(^|\.)formula$/.test(path);
   try {
-    // English prose with Arabic inside is read the way RichText reads it (no sentence capital, letters named)
-    return /[A-Za-z]{2}/.test(s) ? proseTranslit(s, 'academic') : translitLine(s, 'academic', names);
+    return prose ? proseLine(s, 'academic') : translitLine(s, 'academic', names);
   } catch {
     return '(no transliteration)';
   }
@@ -64,7 +66,7 @@ function walk(v: unknown, path: string, out: string[], inSegs: boolean) {
     if (!v.trim()) return;
     if (hasScript(v)) {
       out.push(`${path}: ${v}`);
-      out.push(`${' '.repeat(2)}⟶ ${tr(v)}`);
+      out.push(`${' '.repeat(2)}⟶ ${tr(v, path)}`);
       if (!inSegs) {
         const t = tapLine(v, path);
         if (t) out.push(`${' '.repeat(2)}tap: ${t}`);
