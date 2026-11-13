@@ -1,7 +1,7 @@
 # Status — Arabic Journey
 
-Updated 2026-11-13 (accuracy rounds 1–2 fixed). Branch `main`. All work runs on the owner's PC (no cloud session).
-Main prompt: `Arabic_Reference/PROMPT_B_Nihongo-based.md`. Live (still v1.0.0 until redeployed):
+Updated 2026-11-13 (accuracy rounds 1–2 fixed and deployed). Branch `main`. All work runs on the owner's PC.
+Main prompt: `Arabic_Reference/PROMPT_B_Nihongo-based.md`. Live (web build of 26b43c1, deployed 2026-11-13):
 https://ar-journey.german-journey.workers.dev · unlocked https://ar-journey-unlocked.german-journey.workers.dev
 
 ## Done
@@ -19,20 +19,20 @@ https://ar-journey.german-journey.workers.dev · unlocked https://ar-journey-unl
   ~1–4% wrong per chunk. Fixed: form glosses "form of 'X': label"; name/word and comparative/superlative show both
   readings; multi-sense particles (mā, lā, min, man, inna, hunāka…); tanwīn + waṣla = jiddani l-yawma; ~40 hand
   glosses; content fixes in `scripts/audit/fix-round2-content.py`.
-- Checks at 74c3e0b: validator 0 errors, 100 unit tests, e2e 28/28 (port 4191).
+- **Round 2b** (26b43c1): the open round-2 rows. One clitic style (wa-huwa, bi-khayr; only when the course glosses
+  the word as clitic + word, so kalām/biṭāqa stay whole); Arabic digits ≤100 read as words in ⟶ lines; one-sentence
+  glosses yield to plain ones outside their lesson; day 40 quiz, day 53 card, day 82 note
+  (`scripts/audit/fix-round2b-content.py`). Web deployed, both editions serve the 26b43c1 bundle (checked).
+- Checks at 26b43c1: validator 0 errors, 101 unit tests, e2e 28/28 (port 4191).
 
 ## Left
-1. **Deploy** the fixes: `npm run deploy:web` and `npm run deploy:web:unlocked` (the auto-mode classifier blocked the
-   deploy in this session; the owner runs it or allows it). Then decide whether this is v1.0.1 (bump, release folder,
-   APKs, tag) per the release rule.
-2. Round-2 rows not applied (owner's call, in `docs/review/round-2/*-MERGED.md`): seg glosses that carry one
-   sentence's person ("(they) …" for a singular verb, "you (to a man)" for she-forms) beyond the 40 fixed in hand;
-   day 40 quiz (bayda mā also correct); day 81 atasharrafu card; day 5x khamsa wrong side; wa- hyphenation style;
-   Eastern digits in ⟶ lines. The 124 round-2 + 416 round-1 notes are for the owner.
-3. Round 3 (optional): re-export (`npx tsx scripts/audit/audit-dump.ts`), one reviewer per chunk with
-   `docs/review/round-2/BRIEF-ROUND-2.md` updated, merge with `scripts/audit/merge-findings.py docs/review/round-3`.
-4. Unchanged from v1.0.0: teacher review of culture notes and photo compromises; branching role-play (Prompt B L);
-   device check of the APKs; Play upload needs an EAS AAB and a `/privacy` page.
+1. Round 3 (final AI check, optional): re-export (`npx tsx scripts/audit/audit-dump.ts`), one reviewer per chunk
+   (write `docs/review/round-3/BRIEF-ROUND-3.md` from the round-2 addendum + rounds 2/2b changes), merge with
+   `scripts/audit/merge-findings.py docs/review/round-3`, fix, deploy web. Expect tens of rows, mostly one-line
+   glosses and style notes; AI review never reaches literal zero, so the last gate is a human Arabic teacher.
+2. Owner notes (not errors): 416 round-1 + 124 round-2 in `docs/review/round-*/*-MERGED.md`.
+3. Unchanged from v1.0.0: teacher review of culture notes and photo compromises; branching role-play (Prompt B L).
+4. **No APK / version release** until all language modules are combined (owner, 2026-11-13). Web deploys only.
 
 ## Decisions
 - Never mark content `approved` without a named human reviewer.
@@ -46,4 +46,4 @@ https://ar-journey.german-journey.workers.dev · unlocked https://ar-journey-unl
 - UI is LTR for English readers; Arabic text always RTL. One session at a time in this repo.
 
 ## Next step
-Owner runs the deploy (Left 1) and says whether to release v1.0.1; then, if wanted, round 3 (Left 3).
+Round 3 (Left 1) if the owner wants a final AI pass; otherwise a human teacher review of the live web app.
