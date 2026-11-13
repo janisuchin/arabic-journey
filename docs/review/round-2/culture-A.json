@@ -1,0 +1,153 @@
+{
+  "chunk": "culture",
+  "reviewer": "A",
+  "errors": [
+    {
+      "file": "content/culture/ramadan.json",
+      "path": "sections[2].body[2]; sections[3].sentences[2].mistakes[0].why; quiz[3].prompt",
+      "current": "كَرِيم=Karim (first name)",
+      "problem": "In the greeting رَمَضَان كَرِيم the word كَرِيم is the adjective 'generous', but the tap shows the first name 'Karim'. The transliteration also capitalises it as a name (Ramaḍān Karīm). The lesson's own segs (sentences[2].segs, words[6].segs) correctly say 'generous'. A learner tapping the greeting learns that it means 'Ramadan Karim (the man)'.",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "كَرِيم=generous",
+      "alsoChange": "Make the day/lesson context pick the 'generous' sense of كَرِيم in the ramadan chapter (it is a name only in family.json); transliteration should then read Ramaḍān karīm"
+    },
+    {
+      "file": "content/culture/places.json",
+      "path": "sections[2].sentences[0].mistakes[0].right; quiz[3].options[2]; quiz[3].explain",
+      "current": "أَقْدَمُ=the oldest (before a noun)",
+      "problem": "In فَاس أَقْدَمُ مِنْ مَرَّاكُش and in quiz[3] ('The pyramids are older than Petra', with the explanation ''Older than' is أَقْدَمُ مِنْ'), أَقْدَمُ is the comparative 'older'. The tap gives the superlative 'the oldest (before a noun)', so the correct quiz option and the correct side of the mistake card both tell the learner the opposite of what the lesson teaches. The segs of the same sentences correctly say 'older'.",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "أَقْدَمُ=older; (before a noun) the oldest",
+      "alsoChange": "Or let the tap pick 'older' when مِنْ follows; same check for sections[0].sentences[0] (أَقْدَمُ مِنَ الْبَتْرَاء)"
+    },
+    {
+      "file": "content/culture/places.json",
+      "path": "sections[0].sentences[3].mistakes[0].wrong; sections[0].sentences[3].mistakes[0].right",
+      "current": "أَكْبَرُ=bigger",
+      "problem": "In الْقَاهِرَة أَكْبَرُ مَدِينَةٍ فِي مِصْر the point of the card is the superlative 'the biggest (city)'; the tap shows the comparative 'bigger'. The sentence segs correctly say 'the biggest (before a noun)'.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "أَكْبَرُ=the biggest (before a noun); bigger",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/culture/places.json",
+      "path": "summary; sections[2].sentences[0].mistakes[0].right; sections[2].sentences[0].mistakes[0].why; quiz[3].prompt; quiz[3].explain",
+      "current": "مِنْ=from",
+      "problem": "After a comparative (أَكْبَرُ مِنْ, أَقْدَمُ مِنْ, أَقْدَمُ مِنَ الْبَتْرَاء) مِنْ means 'than'. The tap shows only 'from', even in the line that says ''Than' is always مِنْ after a comparative'. The sentence segs correctly say 'than'.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "مِنْ=than (after a comparative); from",
+      "alsoChange": "Same for مِنَ in quiz[3].prompt (مِنَ=from)"
+    },
+    {
+      "file": "content/culture/calligraphy.json",
+      "path": "sections[3].body[1] (الْأَرْقَام الْعَرَبِيَّة); content/culture/coffee.json sections[1].titleAr (الْقَهْوَةُ الْعَرَبِيَّة)",
+      "current": "الْعَرَبِيَّة=Arabic (the language)",
+      "problem": "In الْأَرْقَام الْعَرَبِيَّة ('Arabic numerals') and الْقَهْوَةُ الْعَرَبِيَّة ('Arabic coffee') the word is a feminine adjective, not the noun 'the Arabic language'. The coffee titleSegs correctly say 'Arabic · adj'.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "الْعَرَبِيَّة=Arabic (f)",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/culture/desert.json",
+      "path": "sections[0].body[1]",
+      "current": "وَادِي=Wadi (valley): part of 'Wadi Musa', a town near Petra",
+      "problem": "The line is about Wadi Rum (وَادِي رَمّ). The tap gloss belongs to another lesson (Wadi Musa) and tells the learner the word is part of a town name near Petra.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "وَادِي=valley (of), wadi",
+      "alsoChange": "The segs of sentences[2] already say 'valley (of)'"
+    },
+    {
+      "file": "content/culture/desert.json",
+      "path": "quiz[5].explain",
+      "current": "أَكْثَرُ=more",
+      "problem": "In يَسْكُنُ أَكْثَرُ الْبَدْوِ ('most Bedouin live') أَكْثَرُ + definite noun means 'most (of)'. The tap says 'more'. The sentence segs correctly say 'most (of)'.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "أَكْثَرُ=most (of); more",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/culture/family.json",
+      "path": "readingQuestions[0].explain",
+      "current": "الْأَكْبَر=the biggest",
+      "problem": "In اِبْنُهُ الْأَكْبَر the sense is 'his eldest son', and the English line says so. The tap gives 'the biggest'. The reading segs correctly say 'the eldest'.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "الْأَكْبَر=the eldest, the biggest",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/culture/ramadan.json",
+      "path": "words[2].note",
+      "current": "يَصُومُ=(they) fast (verb first: singular)",
+      "problem": "The note says 'The verb is يَصُومُ (he fasts)', but tapping the word shows the gloss from the verb-first sentence, '(they) fast'. Out of that sentence the form means 'he fasts'.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "يَصُومُ=(he) fasts",
+      "alsoChange": "Keep '(they) fast (verb first: singular)' only for sections[1].sentences[0] and its mistake card"
+    },
+    {
+      "file": "content/culture/food.json",
+      "path": "sections[3].body[1]; words[9].segs; quiz[3].options[1]",
+      "current": "مَرِيئًا=and may it be wholesome",
+      "problem": "هَنِيئًا مَرِيئًا has no 'and' (there is no وَ), so the gloss adds a word that is not there.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "مَرِيئًا=wholesome, may it be wholesome",
+      "alsoChange": "Also the seg [مَرِيئًا = and may it be wholesome] in words[9].segs"
+    },
+    {
+      "file": "content/culture/places.json",
+      "path": "sections[3].body[1]",
+      "current": "أَطْوَلُ بُرْج فِي الْعَالَم",
+      "problem": "In the middle of the phrase the indefinite noun after the superlative needs its genitive tanwīn (بُرْجٍ), as in sentences[0] (أَطْوَلُ بُرْجٍ فِي الْعَالَم). The tap here also says بُرْج='tower (of)', but the word is not in construct.",
+      "category": "arabic",
+      "severity": "minor",
+      "fix": "أَطْوَلُ بُرْجٍ فِي الْعَالَم",
+      "alsoChange": "tap بُرْج/بُرْجٍ → 'tower' (not 'tower (of)')"
+    },
+    {
+      "file": "content/culture/places.json",
+      "path": "reading.ar; readingQuestions[1].explain",
+      "current": "الْأَهْرَام أَقْدَمُ مَكَان زُرْتُهُ",
+      "problem": "The noun after the superlative is followed by a relative clause (zurtuhu), so it is not in pause and needs its tanwīn: مَكَانٍ. Without it the reading teaches aqdamu makān zurtuhu.",
+      "category": "arabic",
+      "severity": "minor",
+      "fix": "الْأَهْرَام أَقْدَمُ مَكَانٍ زُرْتُهُ",
+      "alsoChange": "transliteration becomes aqdamu makānin zurtuhu"
+    },
+    {
+      "file": "content/culture/calligraphy.json",
+      "path": "sections[0].sentences[2].ar",
+      "current": "Yaktubu n-nāsu fī Īrāna Wabākistāna bi-l-ḥurūfi l-ʿarabiyya.",
+      "problem": "The engine writes the name after the clitic wa- as 'Wabākistāna': it capitalises the clitic, not the name, and leaves out the hyphen. Round 2 says names after a clitic were fixed (wa-Laylā), but this one is not.",
+      "category": "engine",
+      "severity": "minor",
+      "fix": "Yaktubu n-nāsu fī Īrāna wa-Bākistāna bi-l-ḥurūfi l-ʿarabiyya.",
+      "alsoChange": "Check that names not listed as names (Bākistān) are recognised after wa-/bi-"
+    },
+    {
+      "file": "content/culture/calligraphy.json",
+      "path": "sections[3].body[1]; quiz[5].explain",
+      "current": "A raqm is written from left to right, even inside a right-to-left sentence: 28 is 28.",
+      "problem": "In the transliteration of English prose the engine turns the Arabic-Indic digits (٠ ١ ٢ ٣ … ٢٨) into Western digits. This line then says '28 is 28', and the list of 'Indian numbers' shows as 0 1 2 3. That defeats the point of the paragraph.",
+      "category": "engine",
+      "severity": "minor",
+      "fix": "A raqm is written from left to right, even inside a right-to-left sentence: ٢٨ is 28.",
+      "alsoChange": "Leave Arabic-Indic digits unchanged in the ⟶ line (also quiz[5].explain: 'In Arabic, ٠ ١ ٢ ٣ are called…')"
+    }
+  ],
+  "notes": [
+    { "file": "content/culture/ramadan.json", "path": "sections[3].body[2]; quiz[4].explain", "note": "Eid al-Adha is on the 10th of the month Dhū l-Ḥijja (ذُو الْحِجَّة). 'The month of الْحَجّ' could make a learner think the month is called al-ḥajj." },
+    { "file": "content/culture/coffee.json", "path": "sections[0].body[0]; sections[3].body[1]", "note": "The text explains تَفَضَّلْ as 'please, come in', but the tap shows 'here you are (to a man)'. That is not wrong, but the wider gloss from words[1] ('please, come in, here you are') would fit better." },
+    { "file": "content/culture/souq.json", "path": "sections[3].body[0]", "note": "Here tea is spelled شَايْ with a sukūn; everywhere else it is شَاي. Harmless, but inconsistent." },
+    { "file": "content/culture/coffee.json", "path": "reading.ar", "note": "Tanwīn before hamzat al-waṣl is transliterated 'Khālidun l-qahwata' (no helping vowel -i). This follows the round-2 house decision, so it is not reported." }
+  ],
+  "summary": "I read the whole culture chunk (10 chapters: calligraphy, coffee, desert, family, food, places, ramadan, science, souq) and checked every Arabic line: harakat, case after kāna and inna, verb-first agreement, diptotes (مِصْرَ, إِيرَانَ, صَحْرَاءَ, مَلَابِسَ, مَسْقَطَ), number–noun agreement (بِعَشَرَةِ رِيَالَاتٍ, ثَمَانِيَةٌ وَعِشْرُونَ حَرْفًا), segs, translations, the mistake cards and the quiz keys. The Arabic itself is very clean: no wrong answer key, no wrong translation and no wrong grammar rule. Every mistake card is correct, and the mistake-notes glossary has no culture entries. I found 14 errors (2 major, 12 minor). Ten are tap glosses (one gloss can cover several taps). The pattern: a tap picks a sense from another context. كَرِيم is shown as the name Karim inside رَمَضَان كَرِيم. أَقْدَمُ is shown as 'the oldest' where the lesson teaches 'older than', including on the correct quiz option. أَكْبَرُ is shown as 'bigger' in a superlative. مِنْ is shown only as 'from' in 'than' lines. الْعَرَبِيَّة is shown as 'the language' when it is an adjective. وَادِي carries a Wadi Musa gloss in the Wadi Rum line. Two more errors are missing tanwīn in the middle of a phrase (بُرْج, مَكَان), and two are engine issues (clitic + name 'Wabākistāna', Arabic-Indic digits turned into Western digits in the ⟶ line). Tap glosses checked: 876 entries in 324 tap lines; 24 of them were wrong or misleading in their line."
+}

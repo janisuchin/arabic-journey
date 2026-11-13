@@ -1,0 +1,75 @@
+{
+  "chunk": "placards",
+  "reviewer": "A",
+  "errors": [
+    {
+      "file": "content/course/placards.json",
+      "path": "[16] pc.negation items[2].note (tap)",
+      "current": "مَا=what",
+      "problem": "The note says مَا + past is a negation (mā dhahabtu = I didn't go), but tapping مَا in that note gives 'what'. The tap gloss comes from the question-word sense, so the learner is taught the wrong meaning right where the negative مَا is introduced.",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "مَا=not (before a past verb)",
+      "alsoChange": "the day-context lookup for bare مَا on this placard should use the negation sense, as items[2].segs already does ([مَا = not])"
+    },
+    {
+      "file": "content/course/placards.json",
+      "path": "[6] pc.my-your items[1].note; items[2].note; items[3].note; items[4].note; items[5].note; items[6].note; items[7].note (tap)",
+      "current": "ـكَ=you (object ending, to a man: -ka)",
+      "problem": "On the possessive placard (kitābuka = your book), tapping the endings gives the object-pronoun glosses: ـكَ 'you (object ending…)', ـكِ 'you (object ending…)', ـهُ 'him, it (object ending)', ـهَا 'her, it (object ending)', ـنَا 'us (object ending)', ـكُمْ 'you (object ending…)', ـهُمْ 'them (object ending)'. Here they mean your/his/her/our/their. Only ـِي (item 0) is glossed correctly as 'my'. The glosses belong to the verb-object sense and contradict the placard.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "ـكَ=your (to a man) / you (object); ـكِ=your (to a woman) / you (object); ـهُ=his / him, it; ـهَا=her (possessive and object); ـنَا=our / us; ـكُمْ=your (to a group) / you; ـهُمْ=their / them",
+      "alsoChange": "content/glossary/hand.json entries ـكَ ـكِ ـهُ ـهَا ـنَا ـكُمْ ـهُمْ, or a placard-context gloss"
+    },
+    {
+      "file": "content/course/placards.json",
+      "path": "[9] pc.weekdays description; items[1].ar; items[1].segs",
+      "current": "الاِثْنَيْن",
+      "problem": "Hamzat waṣl after the article carries a kasra on the alif (الاِ) instead of on the lām (الِا). Elsewhere the course already uses الِاثْنَيْن (and this placard set uses الِاسْتِفْهَامِ), so the Monday spelling is inconsistent with the round-1 hamzat-waṣl fix.",
+      "category": "arabic",
+      "severity": "minor",
+      "fix": "الِاثْنَيْن",
+      "alsoChange": "the same spelling in the days files and glossary (الاِثْنَيْن occurs about 10 times in content/)"
+    },
+    {
+      "file": "content/course/placards.json",
+      "path": "[11] pc.colours description (tap)",
+      "current": "ـِيّ=-ī (masculine nationality ending) · ـِيَّة=-iyya (feminine nationality ending)",
+      "problem": "The placard is about colour adjectives (bunnī, ramādī, burtuqālī), but the tapped ending is glossed as a 'nationality ending'. That is misleading here: the ending is the general nisba (relation adjective) ending, not specific to nationality.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "ـِيّ=-ī (adjective ending, m: 'related to'; also nationality) · ـِيَّة=-iyya (adjective ending, f)",
+      "alsoChange": "content/glossary/hand.json entries for ـِيّ and ـِيَّة"
+    },
+    {
+      "file": "content/course/placards.json",
+      "path": "[15] pc.past-tense description (tap)",
+      "current": "كَتَبْـ=(he) wrote",
+      "problem": "The description presents كَتَبْـ as the past stem that takes endings, but tapping it gives '(he) wrote', the gloss of the full form كَتَبَ. A learner may take katab- (with sukūn) for the he-form.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "كَتَبْـ=katab- (the past-tense stem of 'to write')",
+      "alsoChange": "match the present-tense placard, where ـكْتُبُ is glossed '-ktubu (the present-tense stem of 'to write')'"
+    },
+    {
+      "file": "content/course/placards.json",
+      "path": "[6] pc.my-your items[3].note; items[4].note; items[7].note (transliteration)",
+      "current": "ending ـهُ (-hu)",
+      "problem": "The engine renders the endings as '-·hu', '-·hā', '-·hum' (ending -·hu (-hu)). The s·h separator dot is inserted after a hyphen where no s/k/t/d/g precedes, so the transliteration shows a stray symbol. The Arabic is correct.",
+      "category": "engine",
+      "severity": "minor",
+      "fix": "the engine should output '-hu', '-hā', '-hum' (no separator after a hyphen or at the start of a word)",
+      "alsoChange": "none in content"
+    }
+  ],
+  "notes": [
+    { "file": "content/course/placards.json", "path": "[1] pc.vowel-marks items[8..10].segs", "note": "The seg glosses 'ba (long a)', 'bu (long u)', 'bi (long i)' have no macrons while the en lines say bā, bū, bī. Use the macron forms for consistency." },
+    { "file": "content/course/placards.json", "path": "[6] pc.my-your items[*].note", "note": "The generated line reads 'ending -ī (-ī)' because the Arabic ending and its own transliteration are both transliterated. It is redundant; consider dropping the bracketed part." },
+    { "file": "content/course/placards.json", "path": "[6] pc.my-your example.note", "note": "The transliterated line reads 'With tāʾ marbūṭa the tāʾ marbūṭa becomes tāʾ'. It is awkward but correct." },
+    { "file": "content/course/placards.json", "path": "[8] pc.tens description (tap)", "note": "ـُونَ is glossed as the masculine sound plural / verb ending. That is correct, but on the tens placard a short 'ending of the tens (20–90)' would help." },
+    { "file": "content/course/placards.json", "path": "[3] pc.greetings, [4] pc.courtesy", "note": "'wa' is hyphenated only before al- (wa-l-qamariyyatu) but not elsewhere (Waʿalaykumu, Ahlan wasahlan, wahiya). This is house style, but beginners may find wa- easier to see." },
+    { "file": "content/course/placards.json", "path": "[5] pc.pronouns", "note": "The dual and feminine-plural 'you' (antumā, antunna) are left out. That is acceptable for a beginner placard, but the description says 'a different you for a man, a woman and a group' only." }
+  ],
+  "summary": "I checked all 20 placards in audit/placards.txt: every Arabic line, its harakat, case endings, agreement, the transliteration, the segs, and all 65 tap lines (116 tap glosses). The Arabic is in very good shape. There are no wrong case endings, agreement or verb forms: numbers polarity (thalāthatu awlādin), the diptote ḥamrāʾu, lam/lan moods, laysa, the demonstratives and the sun/moon lists are all correct. I found 6 errors (1 major, 5 minor). The patterns are tap glosses taken from the wrong sense of a particle or ending: مَا = 'what' on the mā-negation note (major); object-pronoun glosses on the possessive placard; a 'nationality ending' gloss on colours; a he-form gloss on the past stem. There is also one leftover hamzat-waṣl spelling (الاِثْنَيْن) and one engine glitch ('-·hu'). Tap glosses checked: 116, wrong or misleading: 11 (مَا 1, possessive endings 7, nisba endings 2, past stem 1)."
+}

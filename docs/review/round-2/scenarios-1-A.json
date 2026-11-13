@@ -1,0 +1,136 @@
+{
+  "chunk": "scenarios-1",
+  "reviewer": "A",
+  "errors": [
+    {
+      "file": "content/course/scenarios.json",
+      "path": "scenarios[11].mistakes[0].right (tap)",
+      "current": "طَوِيلَةً=tall (f, after 'is not')",
+      "problem": "On the right side of the holiday-story mistake card (كَانَتِ الرِّحْلَةُ طَوِيلَةً 'the trip was long'), tapping طَوِيلَةً shows 'tall (f, after 'is not')'. A trip is long, not tall, and the -an here comes after كَانَتْ, not after لَيْسَ. So the tap contradicts the card it is on, whose 'why' says 'after kāna or kānat the description takes -an'. The dialogue segs for the same word (lines[3]) correctly say 'long (f, after 'was')'.",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "طَوِيلَةً=long (f, after 'was')",
+      "alsoChange": "glossary-auto-2.txt line 689 'طَوِيلَةً = tall (f, after 'is not')' should become 'long; tall (f, -an form after kāna/laysa)' so that no context is hard-coded"
+    },
+    {
+      "file": "content/course/scenes.json",
+      "path": "scene for directions: caption (tap); spots[0].ar (tap); spots[0].note (tap)",
+      "current": "الْإِشَارَة=pointing",
+      "problem": "In the directions photo scene, الْإِشَارَة is the traffic light: spots[0].en is 'the traffic light', the caption says 'At the traffic light (الْإِشَارَة)', and the note says 'عِنْدَ الْإِشَارَة, at the traffic light'. But all three taps show 'pointing'. On the photo spot, which is where the word is taught, the learner gets a meaning that clashes with the English label. The dialogue segs in scenarios[6] correctly say 'the traffic light'.",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "الْإِشَارَة=the traffic light; the signal, sign",
+      "alsoChange": "glossary-hand.txt line 33 'الْإِشَارَة = pointing' should list 'traffic light' first (or the scene and scenario contexts should take the scenario gloss)"
+    },
+    {
+      "file": "content/course/scenarios.json",
+      "path": "scenarios[3].dialogue.lines[4].segs; scenarios[3].dialogue.lines[5].segs; scenarios[3].dialogue.lines[6].segs; scenarios[3].dialogue.lines[8].segs; scenarios[3].mistakes[1].wrong (tap); scenarios[3].mistakes[1].right (tap)",
+      "current": "الْوَاحِدَة = the first (f): one o'clock",
+      "problem": "الْوَاحِدَة is the cardinal 'one'. In telling the time, السَّاعَة الْوَاحِدَة means 'one o'clock', but the word does not mean 'the first': that is الْأُولَى. The other hours in the same dialogue are real ordinals (الثَّالِثَة = the third, الرَّابِعَة = the fourth), so glossing الْوَاحِدَة the same way teaches a wrong equation, الْوَاحِدَة = 'the first'.",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "الْوَاحِدَة = one (f): 'one o'clock' (the hour uses 'one', not 'the first' الْأُولَى)",
+      "alsoChange": "glossary-auto-1.txt line 2085 'الْوَاحِدَة = the first (f): one o'clock' should be changed the same way"
+    },
+    {
+      "file": "content/course/scenarios.json",
+      "path": "scenarios[0].dialogue.lines[5].ar; scenarios[0].dialogue.lines[9].ar; scenarios[5].dialogue.lines[4].ar; scenarios[5].mistakes[0].right; scenarios[9].dialogue.lines[8].ar",
+      "current": "نَعَم، قِطْعَة كَعْك وَاحِدَة، مِنْ فَضْلِكَ.",
+      "problem": "When the first term of an iḍāfa ends in tāʾ marbūṭa and has no case vowel, the transliteration drops the -t, which is always pronounced in construct. Examples: قِطْعَة كَعْك → 'qiṭʿa kaʿk' (should be qiṭʿat kaʿk), ثَلَاثَة دَنَانِير → 'thalātha danānīr' (thalāthat), بِعَشَرَة جُنَيْهَات → 'biʿashara junayhāt' (biʿasharat), خَمْسَة أَرْغِفَة → 'khamsa arghifa' (khamsat), and Fatima's قِطْعَة كَعْك أُخْرَى → 'qiṭʿa kaʿk'. The learner who reads the romanisation will say 'qiṭʿa kaʿk', which is not how construct state sounds. Where the Arabic does carry the vowel (خَمْسَةُ أَرْغِفَة → khamsatu) it comes out right.",
+      "category": "engine",
+      "severity": "minor",
+      "fix": "نَعَم، قِطْعَةُ كَعْكٍ وَاحِدَة، مِنْ فَضْلِكَ.",
+      "alsoChange": "either vocalise the construct tāʾ (قِطْعَةَ / ثَلَاثَةُ / بِعَشَرَةِ / خَمْسَةُ) in these lines, or have the engine render a tāʾ marbūṭa as -at when an indefinite noun follows directly"
+    },
+    {
+      "file": "content/course/scenarios.json",
+      "path": "scenarios[13].mistakes[1].wrong (tap); scenarios[13].mistakes[1].right (tap)",
+      "current": "مِنْ=from",
+      "problem": "In أَكْثَرَ مِنْ ثَلَاثِ مَلَاعِق ('more than three spoonfuls') مِنْ means 'than', and the dialogue segs for the same phrase (lines[7]) say so. On the mistake card the tap shows 'from', so the card reads 'more from three spoons'.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "مِنْ=than (after a comparative); from",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/course/scenarios.json",
+      "path": "scenarios[13].quiz[2].ar (tap)",
+      "current": "لَا=no; not (before a present verb)",
+      "problem": "In لَا تُعْطِهَا ('don't give her'), لَا is the prohibitive 'don't' before a jussive, not the plain 'not' before an indicative present. The quiz tests exactly this meaning (answer: 'don't give her'), and the tap points the learner towards 'she does not give / you do not give'. The dialogue segs for line 7 rightly say 'and don't'.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "لَا=don't (before the short form of the verb)",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/course/scenarios.json",
+      "path": "scenarios[13].intro (tap)",
+      "current": "مَرَّةً=once, one time",
+      "problem": "The intro presents كَمْ مَرَّةً as 'how many times', but tapping مَرَّةً shows 'once, one time', so the phrase reads 'how many once'. After كَمْ the singular -an noun means 'times'. The dialogue segs (lines[5]) correctly say 'times (after 'how many')'.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "مَرَّةً=time(s) (after kam: 'how many times'); once",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/course/scenarios.json",
+      "path": "scenarios[14].intro (tap)",
+      "current": "وَهُوَ=and it (m)",
+      "problem": "In كُلُّ عَامٍ وَهُوَ بِخَيْر ('happy birthday to him'), هُوَ is the boy, so it should be 'and he'. The same phrase in dialogue lines[3] has the seg 'and he'.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "وَهُوَ=and he",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/course/scenes.json",
+      "path": "scene for restaurant: spots[6].note (tap)",
+      "current": "هُوَ=he",
+      "problem": "هَلْ هُوَ حَارّ؟ asks about the chili pepper ('Is it hot?'), but هُوَ is glossed only as 'he'. Elsewhere in the chunk the word is glossed 'he, it (m)'.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "هُوَ=it (m), he",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/course/scenes.json",
+      "path": "scene for cafe: caption (tap)",
+      "current": "مَقْهَى=café (of)",
+      "problem": "In the caption 'A Cairo coffeehouse (مَقْهَى)' the word stands alone and is not the first term of an iḍāfa, so '(of)' is wrong here.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "مَقْهَى=café, coffeehouse",
+      "alsoChange": "glossary-auto-2.txt line 2069 'مَقْهَى = café (of)'"
+    },
+    {
+      "file": "content/course/scenes.json",
+      "path": "scene for holiday-story: spots[5].ar (tap); scene for weather-plans: spots[2].ar (tap)",
+      "current": "الْجَبَل=the mountain(s)",
+      "problem": "الْجَبَل is singular ('the mountain', as spots[].en says). The plural is الْجِبَال. A '(s)' teaches the learner that the singular form also covers the plural.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "الْجَبَل=the mountain",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/course/scenes.json",
+      "path": "scene for appointment-time: spots[0].note (tap); scene for doctor: spots[2].note (tap); content/course/scenarios.json scenarios[9].intro (tap)",
+      "current": "تَفَضَّلْ=here you are (to a man)",
+      "problem": "In these lines the text itself gives تَفَضَّلْ / تَفَضَّلِي the sense 'please (sit / come in)': 'تَفَضَّلْ، اِجْلِسْ: please, sit down', 'the doctor may point to it and say تَفَضَّلِي (please)', and the intro's 'تَفَضَّلْ (please, come in)'. The tap gives only 'here you are', which does not fit any of the three. The dialogue segs use 'please come in (to a man/woman)' when that is the sense.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "تَفَضَّلْ=please (come in / sit / go ahead); here you are (to a man)",
+      "alsoChange": "the same for تَفَضَّلِي=here you are (to a woman) in the doctor scene"
+    }
+  ],
+  "notes": [
+    { "file": "content/course/scenarios.json", "path": "scenarios[11].dialogue.lines[2].ar", "note": "Huda first asks كَيْفَ سَافَرْتُمَا؟ (dual), then لَمْ تَذْهَبْ بِالطَّائِرَة (singular, to Daniel alone), and Daniel answers لَمْ نَذْهَبْ. This is correct, but لَمْ تَذْهَبَا would keep the dual the line is showing off." },
+    { "file": "content/course/scenarios.json", "path": "scenarios[11].dialogue.lines[7].ar", "note": "كَانَ حَارًّا فِي النَّهَار، لٰكِنْ لَطِيفًا: in careful MSA, light لٰكِنْ after a positive clause starts a new clause, so لٰكِنْ كَانَ لَطِيفًا (or لٰكِنَّهُ كَانَ لَطِيفًا) is cleaner than an elliptical accusative." },
+    { "file": "content/course/scenarios.json", "path": "scenarios[4].dialogue.lines[0].ar", "note": "The waiter greets two guests with أَهْلًا بِكَ (singular). Later he uses the dual (تَفَضَّلَا, تَشْرَبَانِ, لَكُمَا), so أَهْلًا بِكُمَا would be consistent." },
+    { "file": "content/course/scenes.json", "path": "scenes for holiday-story, lost-luggage, morning-routine, cafe", "note": "Photo and story mismatches: Petra's Khazneh illustrates an Egypt (Luxor/Aswan) holiday; an airport baggage carousel ('check the flight') illustrates a bag lost on a train; a Levantine labneh/zaatar breakfast illustrates an Egyptian host family; a Cairo coffeehouse illustrates a café in Amman." },
+    { "file": "content/course/scenarios.json", "path": "scenarios[6].dialogue.culture (⟶)", "note": "Inside English prose, م becomes 'the letter mīm (mīm, for mitrū)', which repeats itself. Likewise 'ش. is short for' becomes 'shīn. is short for'. This is readable but awkward." },
+    { "file": "content/course/scenes.json", "path": "scene for cafe: spots[11]", "note": "الْمِنْضَدَة is usually 'table, desk'. For a café counter, الْكَاوْنْتَر or طَاوِلَةُ الْخِدْمَة is commoner, but the word is not wrong." },
+    { "file": "content/course/scenes.json", "path": "scene for morning-routine: spots[6]; scene for restaurant: spots[7]", "note": "اللَّبَن = yogurt is right for the Levant (and MSA allows it), but in an Egyptian scene لَبَن is milk; a short note would avoid confusion." }
+  ],
+  "summary": "I read all of audit/scenarios-1.txt: 16 scenarios (cafe to weather-plans), each with its dialogue, segs, mistakes, quizzes and photo-scene spots. I checked harakat, case endings (tanwīn after verbs, kāna/laysa predicates, lam/lan/an moods, imperatives and prohibitives), gender and number agreement (number-noun polarity with جُنَيْه، رَغِيف، كَعْكَة، دَقِيقَة، مِلْعَقَة، سَنَة، دَرَجَة; non-human plurals; addressee gender for -ka/-ki), translations and quiz keys. The Arabic of the dialogues is in very good shape: I found no wrong case ending, conjugation, agreement or answer key, and the round-1 fixes (mistake cards, -ayni and dual rules) read correctly. All 12 errors are glosses or transliteration (3 major, 9 minor). (1) The tap on طَوِيلَةً in holiday-story mistakes[0].right says 'tall (f, after 'is not')' on a kāna card. (2) الْإِشَارَة is tapped as 'pointing' on the traffic-light photo spot. (3) الْوَاحِدَة is glossed 'the first (f)' in the appointment scenario. (4) The minor ones are context-blind taps (مِنْ='from' for 'than', لَا='not' for prohibitive 'don't', مَرَّةً='once' after كَمْ, هُوَ='it'/'he' mix-ups, مَقْهَى '(of)', الْجَبَل '(s)', تَفَضَّلْ='here you are' where the text says 'please sit/come in'), plus one engine pattern: a construct tāʾ marbūṭa with no vowel is romanised without its -t (qiṭʿa kaʿk, thalātha danānīr). Tap-gloss check: 390 tap lines with 660 tap glosses checked; 18 tap glosses were wrong or misleading in context (covered by 11 findings), plus 4 seg glosses of الْوَاحِدَة."
+}

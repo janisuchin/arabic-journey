@@ -1,0 +1,207 @@
+{
+  "chunk": "days-81-90",
+  "reviewer": "A",
+  "errors": [
+    {
+      "file": "content/days/day81.json",
+      "path": "objectives[0] tap; sentences[1].mistakes[0].wrong tap; sentences[1].mistakes[0].right tap; sentences[4].mistakes[0].wrong tap; sentences[4].mistakes[0].right tap",
+      "current": "عَشَرَ=-teen (second part of 'twelfth')",
+      "problem": "In these lines عَشَرَ is part of التَّاسِعَ عَشَرَ (nineteenth) or الثَّامِنَ عَشَرَ (eighteenth), but the tap gloss says 'second part of twelfth'. The segs of the same sentences correctly say 'nineteenth' / 'eighteenth'.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "عَشَرَ=-teen (second part of a compound ordinal: 'twelfth', 'eighteenth', 'nineteenth')",
+      "alsoChange": "use a neutral day-81 gloss for the form عَشَرَ so it fits all three ordinals"
+    },
+    {
+      "file": "content/days/day81.json; audit/glossary-auto-1.txt",
+      "path": "sentences[4].mistakes[0].wrong tap; sentences[4].mistakes[0].why tap; glossary-auto-1.txt entry اِكْتَشَفَ",
+      "current": "اِكْتَشَفَ=was discovered (active, he discovered)",
+      "problem": "The active form اِكْتَشَفَ means 'he discovered'. The gloss begins with 'was discovered', which is exactly the confusion this mistake card is meant to correct. The auto glossary has the same wrong gloss for this exact vocalised form.",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "اِكْتَشَفَ=(he) discovered (active; wrong here — correct: uktushifa, was discovered)",
+      "alsoChange": "glossary-auto-1.txt: اِكْتَشَفَ = (he) discovered"
+    },
+    {
+      "file": "content/days/day81.json",
+      "path": "sentences[2].mistakes[0].wrong tap; sentences[2].mistakes[0].right tap",
+      "current": "هٰذِهِ=this (f)",
+      "problem": "Here هٰذِهِ goes with الْكَلِمَاتُ and means 'these'. The segs of the main sentence say 'these (f)', but the tap gloss in the mistake card says 'this (f)'.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "هٰذِهِ=these (f; with a plural of things), this (f)",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/days/day82.json",
+      "path": "sentences[1].mistakes[0].why; dialogue.lines[8].ar",
+      "current": "atasharrafu always takes bi-: bi-an + a verb (bi-an ataqaddama). Without bi- the phrase sounds broken.",
+      "problem": "The card marks أَتَشَرَّفُ أَنْ أَتَقَدَّمَ as wrong and says that without bi- the phrase 'sounds broken'. Dropping a preposition before أَنْ / أَنَّ is regular in Arabic (حذف حرف الجر قبل أن وأنّ قياسي), and أتشرف أن أتقدم is common in real formal letters. bi-an is the preferred formal choice, but the other form is not an error. Karim says the same in dialogue.lines[8] ('نَسْتَعْمِلُ دَائِمًا «بِأَنْ»').",
+      "category": "grammar-fact",
+      "severity": "minor",
+      "fix": "atasharrafu takes bi-: bi-an + a verb (bi-an ataqaddama). You will also see atasharrafu an…, but bi-an is the classic formal choice.",
+      "alsoChange": "dialogue.lines[8]: soften دَائِمًا (e.g. وَبَعْدَهَا نَسْتَعْمِلُ عَادَةً «بِأَنْ») and adjust the English 'always'"
+    },
+    {
+      "file": "content/days/day82.json",
+      "path": "quiz[0].options[2] tap",
+      "current": "مُدِير=director (of)",
+      "problem": "In أَهْلًا يَا مُدِير! the word is a vocative, not the first part of an iḍāfa. '(of)' is misleading.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "مُدِير=director, manager",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/days/day83.json",
+      "path": "summary tap (2nd نَاحِيَةٍ); intro tap (2nd نَاحِيَةٍ); objectives[1] tap (2nd نَاحِيَةٍ); sentences[0].mistakes[0].wrong tap; sentences[0].mistakes[0].right tap; quiz[5].options[1] tap; completion tap (2nd نَاحِيَةٍ)",
+      "current": "نَاحِيَةٍ=a side ('on the one hand')",
+      "problem": "In وَمِنْ نَاحِيَةٍ أُخْرَى ('on the other hand') the tap gloss for نَاحِيَةٍ says 'on the one hand'. In quiz[5] this is the right answer to 'Which phrase means on the other hand?', and tapping it says 'on the one hand'. The segs already use a plain 'a side' for the second occurrence.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "نَاحِيَةٍ=a side ('on the one hand / on the other hand')",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/days/day85.json",
+      "path": "sentences[1].mistakes[0].wrong tap; quiz[5].options[0] tap; quiz[5].explain tap",
+      "current": "مِنْ=from (\"please\", with faḍlika)",
+      "problem": "The context is مِنْ الرَّصِيفِ / 'min takes -a before al-', not مِنْ فَضْلِكَ. The gloss comes from another sentence's sense.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "مِنْ=from (before al- it becomes mina)",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/days/day85.json",
+      "path": "quiz[5].options[1] tap",
+      "current": "مِنُ=from (-a links to the next word)",
+      "problem": "مِنُ is a wrong option that ends in -u, but its tap gloss talks about '-a', which describes the correct option. This is confusing on a quiz about exactly that vowel.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "مِنُ=from (wrong helping vowel — correct: mina before al-)",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/days/day86.json",
+      "path": "intro tap (الْعُنْوَان, عُنْوَانُ); objectives[3] tap (عُنْوَانُ)",
+      "current": "الْعُنْوَان=the address · … · عُنْوَانُ=address (of)",
+      "problem": "The intro and objective explain الْعُنْوَان as 'the headline' and عُنْوَانُ الْمَقَالَةِ as 'the headline of the article', but the tap glosses say 'address'. The day-86 sentences and dialogue segs use 'headline'.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "الْعُنْوَان=the headline, the title; the address · عُنْوَانُ=headline, title (of)",
+      "alsoChange": "day-86 context gloss for الْعُنْوَان and عُنْوَانُ"
+    },
+    {
+      "file": "content/days/day86.json",
+      "path": "dialogue.lines[6].ar",
+      "current": "الْمُشْكِلَةَ الْأَكْبَرَ",
+      "problem": "An elative used as an adjective with al- must agree in gender with its noun: الْمُشْكِلَةُ الْكُبْرَى, not الْأَكْبَر. The masculine form is widespread in journalism but breaks the agreement rule this course teaches.",
+      "category": "agreement",
+      "severity": "minor",
+      "fix": "الْمُشْكِلَةَ الْكُبْرَى",
+      "alsoChange": "segs: الْكُبْرَى = the bigger, the biggest (f)"
+    },
+    {
+      "file": "content/days/day87.json",
+      "path": "intro tap; sentences[1].mistakes[0].wrong tap; sentences[1].mistakes[0].right tap; quiz[3].prompt tap",
+      "current": "تُكَرِّرَ=(she) repeats (-a after an)",
+      "problem": "In أَرْجُو أَنْ تُكَرِّرَ السُّؤَال ('please repeat the question') the verb is 'you repeat'. The tap gloss says '(she) repeats', which is the wrong person. The segs of sentences[1] correctly say 'you repeat (to a man)'.",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "تُكَرِّرَ=you repeat (to a man; -a after an)",
+      "alsoChange": "keep '(she) repeats' only for reading.segs, where Layla is the subject"
+    },
+    {
+      "file": "content/days/day88.json",
+      "path": "intro tap",
+      "current": "مَقَالَة=article (in a newspaper or magazine)",
+      "problem": "In the intro مَقَالَة is Daniel's school essay ('his مَقَالَة (essay)'). The tap gloss gives only the newspaper sense.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "مَقَالَة=essay; article",
+      "alsoChange": "day-88 context gloss"
+    },
+    {
+      "file": "content/days/day88.json",
+      "path": "intro tap",
+      "current": "عَلَامَات=mark, grade (plural)",
+      "problem": "In عَلَامَات التَّرْقِيم (punctuation) عَلَامَات means 'marks, signs', not school 'grades'.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "عَلَامَات=marks, signs ('punctuation marks' with at-tarqīm)",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/days/day88.json",
+      "path": "dialogue.culture tap",
+      "current": "الْخَطّ=the (phone) line; handwriting",
+      "problem": "The context is 'the art of الْخَطّ (calligraphy)'. The phone-line sense comes first and calligraphy is missing.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "الْخَطّ=calligraphy, handwriting",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/days/day88.json",
+      "path": "sentences[3].mistakes[0].wrong tap; sentences[3].mistakes[0].right tap",
+      "current": "بَرِيدِيَّةً=postal ('postcards')",
+      "problem": "In بِطَاقَةً بَرِيدِيَّةً the noun is singular ('a postcard'), but the gloss says 'postcards'. The segs of sentences[3] say 'a postcard'.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "بَرِيدِيَّةً=postal ('postcard')",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/days/day88.json",
+      "path": "dialogue.lines[8].ar",
+      "current": "لَمْ أَعْرِفْ أَيَّ الْحُرُوفِ تَتَّصِلُ بِمَا بَعْدَهَا",
+      "problem": "Interrogative أَيّ keeps its own role inside the question clause ('which of the letters joins…'). Here it is the subject (mubtadaʾ), so it is nominative: أَيُّ, as in لِنَعْلَمَ أَيُّ الْحِزْبَيْنِ أَحْصَى. It is not the object of أَعْرِفْ.",
+      "category": "arabic",
+      "severity": "major",
+      "fix": "لَمْ أَعْرِفْ أَيُّ الْحُرُوفِ تَتَّصِلُ بِمَا بَعْدَهَا",
+      "alsoChange": "segs[13]: أَيُّ = which; transliteration follows (ayyu l-ḥurūfi)"
+    },
+    {
+      "file": "content/days/day88.json",
+      "path": "intro ⟶; objectives[1] ⟶; quiz[1].explain ⟶",
+      "current": "Ta marbuta ة has two dots",
+      "problem": "The prose names the letter in English and then gives the bare letter. The engine renders the bare letter as its name, so the transliteration reads 'Ta marbuta tāʾ marbūṭa has two dots', 'alif maqsura alif maqṣūra' and 'Spell hamza, ta marbuta tāʾ marbūṭa and alif maqsura alif maqṣūra'.",
+      "category": "engine",
+      "severity": "minor",
+      "fix": "Have the engine leave the bare letter as the glyph (or skip it) when its English name comes right before it, or rewrite the prose as 'Tāʾ marbūṭa (ة) has two dots'.",
+      "alsoChange": "same pattern: 'end in alif maqsura ى' in intro and quiz[1].explain"
+    },
+    {
+      "file": "content/days/day89.json",
+      "path": "sentences[2].mistakes[0].wrong tap",
+      "current": "تَكْتُبُ=you write (to a man)",
+      "problem": "In the wrong line تَكْتُبُ الْإِجَابَاتُ the verb has الْإِجَابَاتُ as its subject ('the answers write'), and the why says 'taktubu (she writes)'. The tap gloss 'you write (to a man)' contradicts the explanation.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "تَكْتُبُ=(she, it) writes; you write (active — correct here: tuktabu)",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/days/day89.json; audit/glossary-auto-1.txt",
+      "path": "dialogue.lines[1].segs (الْوَاحِدَةِ); glossary-auto-1.txt entry الْوَاحِدَةِ",
+      "current": "[الْوَاحِدَةِ = the first ('one')]",
+      "problem": "الْوَاحِدَة means 'one' (السَّاعَةُ الْوَاحِدَةُ = one o'clock). 'The first' is الْأُولَى. The auto glossary has the same gloss for this exact form.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "[الْوَاحِدَةِ = one ('one o'clock')]",
+      "alsoChange": "glossary-auto-1.txt: الْوَاحِدَةِ = the one ('one o'clock')"
+    }
+  ],
+  "notes": [
+    { "file": "content/days/day89.json", "path": "sentences[5].mistakes[0]", "note": "أُعْلِنَ النَّتَائِجُ is marked wrong ('plurals of things take the feminine'). A verb before a broken plural may be masculine or feminine in classical grammar, so the feminine is the preferred norm, not the only correct form. Consider 'usually take'." },
+    { "file": "content/days/day85.json", "path": "sentences[2].mistakes[0].why", "note": "'istamaʿa always needs ilā': it also takes li- (اِسْتَمَعَ لَهُ). 'needs a preposition, usually ilā' would be safer." },
+    { "file": "content/days/day88.json", "path": "realLife.story", "note": "'It's the second-to-last week of the course' contradicts day 85 ('the last week of the course'). Day 88 is in week 13, the final week." },
+    { "file": "content/days/day87.json", "path": "intro tap; quiz[6].options taps", "note": "Past verbs are glossed as 'pronounces (past)', 'expresses (past)', 'tries (past)', 'apologises (past)'. '(he) pronounced', '(he) expressed' etc. would be clearer." },
+    { "file": "content/days/day87.json", "path": "dialogue.lines[14].ar", "note": "«يَعْنِي» وَ«كَيْفَ أَقُولُ» تُعْطِيكَ: with two coordinated items the dual تُعْطِيَانِكَ is more careful. The feminine singular is tolerable." },
+    { "file": "content/days/day85.json", "path": "dialogue.culture", "note": "إِلَيْكُمْ نَشْرَةَ الْأَخْبَار is defensible (ilaykum as a verbal noun, 'take'), but broadcasters mostly say إِلَيْكُمْ نَشْرَةُ الْأَخْبَار." },
+    { "file": "content/days/day81.json", "path": "dialogue.lines[0], [6], [13] ⟶; reading ⟶", "note": "Names are lowercased in the transliteration in the same line where others are capitalised: 'ṣalāḥi d-dīn', 'muḥammad ʿAlī', 'landan'." },
+    { "file": "content/days/day81.json", "path": "dialogue.lines[8]", "note": "رُخَام vs مَرْمَر: in most of the Arab world both mean 'marble'. 'Alabaster' for مَرْمَر is right for the Egyptian name of the mosque, but a culture note could say so." }
+  ],
+  "summary": "Read the whole days-81-90 export (days 81-90: Arabic lines, segs, taps, mistake cards, quizzes, readings) against MSA grammar, and spot-checked the auto glossaries for the forms involved. Found 19 errors (3 major, 16 minor). Arabic and grammar: one wrong case (أَيَّ for nominative أَيُّ in an embedded question, day 88), one elative agreement slip (الْمُشْكِلَةَ الْأَكْبَرَ, day 86), and one over-strict rule in the day-82 formal-letter mistake card (أتشرف أن is not 'broken'). Everything else in the passive, conditionals, inna/anna, kāna, numbers, ordinals and the formal-letter formulas is correct. Most findings are tap glosses carried over from another sentence or another sense: عَشَرَ glossed 'twelfth' on 18th/19th, the second نَاحِيَةٍ glossed 'on the one hand' (also on the quiz answer for 'on the other hand'), مِنْ glossed with the 'please' sense in the min/mina lesson, عُنْوَان glossed 'address' on headline day, تُكَرِّرَ glossed '(she) repeats' in 'please repeat (you)', and اِكْتَشَفَ glossed 'was discovered' (also in the auto glossary). One engine problem: an English letter name followed by the bare letter gives a doubled name in the transliteration. Tap glosses checked: 1224 (in 383 tap lines); wrong: 34, across 15 findings. Round-1 fixes in this chunk (days 81-90 cards, -īna/-ayni rules, al-yawmu, hamzat waṣl spellings) look correct, and I found no new problems introduced by them."
+}

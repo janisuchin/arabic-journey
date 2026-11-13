@@ -1,0 +1,94 @@
+{
+  "chunk": "days-71-80",
+  "reviewer": "A",
+  "errors": [
+    {
+      "file": "content/days/day80.json",
+      "path": "sentences[5].mistakes[0].wrong",
+      "current": "مِلْيُونَ=million (of) (-a after lākinna)",
+      "problem": "Tap gloss imported from d80l13 (لٰكِنَّ مِلْيُونَ دَانْيَال). In the mistake card لَوْ فُزْتُ مِلْيُونَ دُولَارٍ there is no lākinna: the -a here is the (wrong) direct-object ending after fāza without bi-. The gloss gives the learner a false reason for the ending on exactly the form the card is correcting.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "مِلْيُونَ=million (of) (-a: object ending)",
+      "alsoChange": "keep '(-a after lākinna)' only for d80 dialogue.lines[12]"
+    },
+    {
+      "file": "content/days/day80.json",
+      "path": "sentences[1].mistakes[0].wrong",
+      "current": "تَصِلُ=arrives (she, it)",
+      "problem": "In the mistake card إِذَا تَصِلُ مُتَأَخِّرًا (the wrong version of إِذَا وَصَلْتَ مُتَأَخِّرًا, 'if you arrive late') تَصِلُ is 'you (m) arrive'. The tap shows only 'she/it arrives', so the learner cannot see that the card contrasts the same person in present vs past.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "تَصِلُ=you arrive (to a man); she arrives"
+    },
+    {
+      "file": "content/days/day73.json",
+      "path": "sentences[3].mistakes[0].wrong",
+      "current": "أَعْلَنَ=announces (past)",
+      "problem": "Self-contradictory tap gloss (round 1 flagged it inside item 8; the عُطْلَةً half was fixed, this half was not). أَعْلَنَ is a past verb, '(he) announced'; 'announces' teaches the wrong tense on the very card that contrasts aʿlana / aʿlanat.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "أَعْلَنَ=(he) announced"
+    },
+    {
+      "file": "content/days/day78.json",
+      "path": "objectives[2]",
+      "current": "حِمَايَةُ=protects (verbal noun)",
+      "problem": "Round-1 item 11 is still present: حِمَايَةُ is the maṣdar 'protecting, protection (of)', not the finite verb 'protects'. The objective is the place where the lesson introduces verbal nouns, and the seg in d78l14 already has the right gloss.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "حِمَايَةُ=protecting, protection (of) (verbal noun)"
+    },
+    {
+      "file": "content/days/day77.json",
+      "path": "summary; intro; objectives[1]; quiz[1].prompt; sentences[2].mistakes[0].wrong; sentences[2].mistakes[0].right; quiz[2].options[0]; quiz[3].options[1]",
+      "current": "مَنْ=who",
+      "problem": "On day 77 every مَنْ the learner taps in a proverb (مَنْ جَدَّ وَجَدَ, مَنْ زَرَعَ حَصَدَ) shows 'who', while the lesson's point is that this مَنْ does not mean 'who?' but 'whoever' (the intro says so in the same line the tap contradicts; the segs say 'whoever'). Since the lesson day now decides the gloss, day 77 should show the 'whoever' sense. 11 taps affected.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "مَنْ=whoever (in sayings); who?",
+      "alsoChange": "keep 'who' for d77 dialogue.lines[0] (مَنْ يَبْدَأُ؟), which is a real question"
+    },
+    {
+      "file": "content/days/day77.json",
+      "path": "sentences[2].mistakes[0].why",
+      "current": "man (whoever) always takes a singular verb, even when it means many people.",
+      "problem": "'Always' states a false rule: مَنْ can take a plural verb by sense (e.g. Qurʾān 10:42 وَمِنْهُمْ مَنْ يَسْتَمِعُونَ إِلَيْكَ). The card itself is fine for the proverb (مَنْ زَرَعَ حَصَدَ is the fixed form, and singular is the normal agreement), but the rule should not be absolute.",
+      "category": "grammar-fact",
+      "severity": "minor",
+      "fix": "man (whoever) normally takes a singular verb, even when it means many people, and proverbs always keep it singular."
+    },
+    {
+      "file": "content/days/day71.json",
+      "path": "objectives[3]",
+      "current": "يَصُومُ=(they) fast (verb first: singular)",
+      "problem": "In the objective 'Say what people do … with يَصُومُ and يَحْتَفِلُ' the word stands alone as the vocabulary item. The tap shows the sentence-specific gloss from d71s3 ('(they) fast'), so the learner reads yaṣūmu as 'they fast'; on its own it is '(he) fasts' (the plural is يَصُومُونَ, which the same lesson's mistake card shows). Its partner يَحْتَفِلُ in the same line is glossed neutrally ('celebrates').",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "يَصُومُ=(he) fasts"
+    }
+  ],
+  "notes": [
+    {
+      "file": "content/days/day77.json",
+      "path": "dialogue.lines[7].ar",
+      "note": "مَنْ يَعْمَلُ كَثِيرًا يَجِدُ النَّجَاح is correct if مَنْ is read as a relative ('the one who works hard finds success'). As a conditional paraphrase of مَنْ جَدَّ وَجَدَ it would be jussive: مَنْ يَعْمَلْ كَثِيرًا يَجِدِ النَّجَاحَ. Not an error; worth knowing if conditionals with مَنْ are taught later."
+    },
+    {
+      "file": "content/days/day76.json",
+      "path": "dialogue.lines[4].ar; dialogue.lines[9].ar; content/days/day79.json dialogue.lines[1].ar",
+      "note": "هَلْ … أَمْ … (هَلْ تُوَافِقُ سَامِي أَمْ لَيْلَى؟, هَلْ يَعْمَلُ الْهَاتِف أَمْ لَا؟) is common in modern MSA, but careful grammar pairs أَمْ with أَ- (أَتُوَافِقُ سَامِي أَمْ لَيْلَى؟) and uses أَوْ after هَلْ. Register note only."
+    },
+    {
+      "file": "content/days/day73.json",
+      "path": "dialogue.lines[2].ar",
+      "note": "Seg 'إِنَّهَا = indeed it (f)' is right for day 73; the round-1 day-75 split (إِنَّهَا = that she after qāla) is now in place and both read correctly."
+    },
+    {
+      "file": "content/days/day78.json",
+      "path": "dialogue.lines[1].ar",
+      "note": "رَأَيْنَا نُفَايَات … زُجَاجَاتِ بِلَاسْتِيك: the object نُفَايَاتٍ is left without its ending mid-sentence while the badal زُجَاجَاتِ has it. Consistent with the course's everyday-dialogue style, so not reported."
+    }
+  ],
+  "summary": "Read the whole export for days 71-80 (2,829 lines: Eid, music and film with أَنَّ, headlines with إِنَّ, relative pronouns, reported speech with قَالَ إِنَّ, opinions, proverbs with مَنْ, environment with يَجِبُ/لَازِم أَنْ and maṣdars, technology with Form VII and istikhdām, conditionals with إِذَا/إِنْ/لَوْ). Checked every Arabic line for spelling, harakat and case after إِنَّ/أَنَّ/لٰكِنَّ/كَانَ/لَيْسَ, mood after أَنْ/لَنْ/لَمْ/لَا, agreement (non-human plurals, verb-first singular, duals تَكَلَّمَا/اشْتَرَيَاهَا), numbers 3-10 and 100/200, the English and literal translations, all 70 quiz answer keys and all mistakes pairs, plus every seg and tap gloss. All round-1 fixes I could see are in place and correct (الْيَوْمُ الْخَمِيس, the lā tuʿṭi why, إِنَّ/إِنَّهَا day-split, عُطْلَةً, أَنْتَ, تُحِبُّ, the alladhī / wa-bi-l- / l-ijtimāʿī / Raʾy / wa-Laylā transliterations, tāʾ marbūṭa in prose). The Arabic itself and every answer key are correct; I found no new case, agreement or verb error. Remaining problems are all in the tap layer plus one over-absolute rule: 7 errors, 0 major and 7 minor (6 gloss, 1 grammar-fact). Two are round-1 leftovers (أَعْلَنَ=announces, حِمَايَةُ=protects); the others are glosses imported from another sentence (مِلْيُونَ '-a after lākinna' on a card with no lākinna, تَصِلُ 'she arrives' where it is 'you arrive', يَصُومُ '(they) fast' standing alone) and مَنْ=who on day 77 where the lesson teaches 'whoever'. Tap glosses checked: 895 (in 323 tap lines); wrong: 16 (مَنْ ×11, and 1 each for مِلْيُونَ, تَصِلُ, أَعْلَنَ, حِمَايَةُ, يَصُومُ)."
+}

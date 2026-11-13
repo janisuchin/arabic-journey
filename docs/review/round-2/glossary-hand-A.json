@@ -1,0 +1,74 @@
+{
+  "chunk": "glossary-hand",
+  "reviewer": "A",
+  "errors": [
+    {
+      "file": "content/glossary/hand.json",
+      "path": "ـُ",
+      "current": "-u (case ending: the subject, and the first word of a chain)",
+      "problem": "The first word of an iḍāfa does not always end in -u: it takes whatever case its position needs (fī bayti akhī, raʾaytu bna ʿammī). This gloss is shown on the case-endings letter card (letters-pronunciation, category Endings) and on the iḍāfa grammar card (grammar.txt ~l.1116), so a learner learns 'first word of a chain = -u' as a rule.",
+      "category": "grammar-fact",
+      "severity": "major",
+      "fix": "-u (case ending: the subject, and the predicate)",
+      "alsoChange": "In the iḍāfa grammar formula 'first word (no الـ, ending ـُ)', say the ending follows the first word's place in the sentence (-u as subject); the explanation already says 'usually ـُ'."
+    },
+    {
+      "file": "content/glossary/hand.json",
+      "path": "أَبُوهُ",
+      "current": "his father (subject form; after a verb use abāhu)",
+      "problem": "Teaches a wrong rule: abāhu is the object form, not the form 'after a verb'. A subject after a verb stays abūhu (jāʾa abūhu). Shown on the wrong side of the day-3x card دَانْيَال يُشْبِهُ أَبُوهُ, where the point is that abāhu is the object.",
+      "category": "grammar-fact",
+      "severity": "major",
+      "fix": "his father (subject form; as an object use abāhu, after a preposition abīhi)",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/glossary/mistakes.json",
+      "path": "طَبَقَانِ; تَذْكِرَتَانِ",
+      "current": "two dishes (wrong after a verb — correct: ṭabaqayni)",
+      "problem": "The note blames the position 'after a verb', but the dual changes to -ayni because it is the object (نُرِيدُ طَبَقَانِ, أُرِيدُ تَذْكِرَتَانِ); a dual subject after a verb keeps -āni (يُوجَدُ طَبَقَانِ). Same wording in the تَذْكِرَتَانِ note: 'two tickets (wrong after a verb — correct: tadhkiratayni)'.",
+      "category": "grammar-fact",
+      "severity": "minor",
+      "fix": "two dishes (wrong as an object — correct: ṭabaqayni)",
+      "alsoChange": "تَذْكِرَتَانِ: 'two tickets (wrong as an object — correct: tadhkiratayni)'"
+    },
+    {
+      "file": "content/glossary/mistakes.json",
+      "path": "لِأَدْعُو",
+      "current": "to invite (wrong ending here — correct: li-adʿuwa)",
+      "problem": "The card (جِئْتُ لِأَدْعُو إِلَيْكَ → جِئْتُ لِأَدْعُوَكَ) corrects two things: the subjunctive -a and the object as an ending instead of ilayka. The note's 'correct' form li-adʿuwa does not match the card's right side li-adʿuwaka.",
+      "category": "answer-key",
+      "severity": "minor",
+      "fix": "to invite (wrong ending here — correct: li-adʿuwaka, 'to invite you')",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/glossary/mistakes.json",
+      "path": "إِنْتَرْنِت",
+      "current": "internet (without 'the': wrong here — correct: al-intarnita)",
+      "problem": "No mistake card has bare إِنْتَرْنِت on the wrong side (the cards have الْإِنْتَرْنِتُ after anna and الْإِنْتَرْنِت in a verb-for-maṣdar card), and bare إِنْتَرْنِت is correct in the course (بَاقَةِ إِنْتَرْنِت, بِدُونِ إِنْتَرْنِت). The note describes a mistake that does not exist; the real anna card is about the case ending (-u → -a).",
+      "category": "answer-key",
+      "severity": "minor",
+      "fix": "remove this note, or key it to الْإِنْتَرْنِتُ: 'the internet (wrong ending after anna — correct: al-intarnita)'",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/glossary/hand.json",
+      "path": "ـهُ; ـهَا; ـهُمْ",
+      "current": "-·hu",
+      "problem": "The s·h separator is applied after the tatweel: the transliteration of the bare object endings shows -·hu, -·hā, -·hum (other endings: -Ka, -Nā, -Kum). There is no s before the h. Shown on the grammar object-endings card and the day-5x intro.",
+      "category": "engine",
+      "severity": "minor",
+      "fix": "-hu / -hā / -hum (do not insert · when the preceding character is tatweel)",
+      "alsoChange": "ـهَا '-·hā' → '-hā'; ـهُمْ '-·hum' → '-hum'"
+    }
+  ],
+  "notes": [
+    { "file": "content/glossary/hand.json", "path": "وَخَمْسَة; بِخَمْسَة; بِنَعْنَاع; لِيَشْتَرِيَ; بِأَنَّ; بِدُونِ", "note": "Clitics wa-/bi-/li- before a non-article word are written joined (Wakhamsa, Bikhamsa, Binaʿnāʿ, Liyashtariya), while fa- is hyphenated (fa-ajabtu) and prose writes li-yashtariya. ALA-LC hyphenates all of these; consider making the engine consistent." },
+    { "file": "content/days/day85.json", "path": "quiz[5].options", "note": "Tap glosses on the options of d85q6 give the answer away: مِنِ's hand gloss says 'before al- it is mina', and مِنُ borrows mina's gloss 'from (-a links to the next word)', which is wrong for a -u form. مِنْ shows 'from (\"please\", with faḍlika)', a gloss from another sentence." },
+    { "file": "content/glossary/hand.json", "path": "جَوَازِي", "note": "Hand gloss says 'my passport (short for jawāzu safarī)' and the mistake note says 'my permit'. The form occurs only on the wrong side of a card, so only the mistake note is shown; the two glosses could be aligned." },
+    { "file": "content/glossary/hand.json", "path": "أ; إ", "note": "Bare hamza-seat letters transliterate inconsistently: أ ⟶ (empty), إ ⟶ 'I'." },
+    { "file": "content/glossary/hand.json", "path": "أَكْرَم", "note": "'more generous' is right in اللّٰهُ أَكْرَم; if Akram is ever used as a name, this app-wide override would show the wrong gloss." }
+  ],
+  "summary": "Checked every entry of the hand glossary (about 395 vocalised forms) and all 46 mistake notes (441 tap glosses in total), grepping content/ for forms used in several senses and reading every mistake card whose note looked doubtful. 6 errors (2 major, 4 minor): the case-ending gloss for ـُ teaches that the first word of an iḍāfa always ends in -u; أَبُوهُ teaches 'after a verb use abāhu' (it is the object form); the dual mistake notes say 'wrong after a verb' instead of 'as an object'; the لِأَدْعُو note's correct form does not match the card; the إِنْتَرْنِت mistake note describes a mistake no card contains (bare internet is correct in the course); and the engine shows -·hu/-·hā/-·hum for the bare object endings. The other glosses, including months, ordinals, time expressions, clitic and number forms, are correct for every place the form appears. Pattern: the wrong glosses state a rule that ties a case to a position ('first word of a chain', 'after a verb') when it really depends on the word's role."
+}

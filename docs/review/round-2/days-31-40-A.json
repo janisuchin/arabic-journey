@@ -1,0 +1,84 @@
+{
+  "chunk": "days-31-40",
+  "reviewer": "A",
+  "errors": [
+    {
+      "file": "content/days/day32.json",
+      "path": "intro (tap); sentences[1].mistakes[0].right (tap); quiz[1].options[0] (tap); quiz[1].options[2] (tap)",
+      "current": "طَوِيل=tall",
+      "problem": "In every one of these lines طَوِيل describes hair (شَعْرُهُ طَوِيل 'his hair is long', شَعْرُهَا طَوِيل, هِيَ شَعْر طَوِيل), but the tap shows only 'tall'. The day-32 gloss for the bare form is taken from the 'tall man' sense, so a learner tapping the correct quiz answer reads 'her hair is tall'. The same line's segs and the feminine tap (طَوِيلَة=long (f)) say 'long', so the two forms disagree.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "طَوِيل=long, tall",
+      "alsoChange": "make the day-32 tap gloss for طَوِيل 'long; tall' (the vocabulary entry already says 'tall; long'), or 'long' on day 32, where the lesson is about hair"
+    },
+    {
+      "file": "content/days/day33.json",
+      "path": "intro (tap); objectives[2] (tap); sentences[0].mistakes[0].why (tap); quiz[4].prompt (tap)",
+      "current": "ـًا=the letter alif",
+      "problem": "ـًا here is the accusative ending -an (tanwīn fatḥa written on a seat alif), which is the point of the whole lesson ('add ـًا after لَيْسَ'). The tap calls it 'the letter alif', so it hides the -an sound the learner is meant to add.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "ـًا=the ending -an (tanwīn fatḥa + alif)",
+      "alsoChange": "glossary-auto-1.txt line 8 'ـًا = the letter alif' should be changed the same way"
+    },
+    {
+      "file": "content/days/day39.json",
+      "path": "quiz[4].options[1] (tap)",
+      "current": "كَانُوا=was (they were)",
+      "problem": "كَانُوا is the plural 'they were'. The gloss starts with 'was', the singular, in a quiz whose point is telling the persons of كَانَ apart.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "كَانُوا=they were",
+      "alsoChange": "glossary-auto-2.txt line 1272 'كَانُوا = was (they were)' → 'they were'"
+    },
+    {
+      "file": "content/days/day40.json",
+      "path": "quiz[1].options[3]",
+      "current": "مَا",
+      "problem": "This is a fill-the-gap for 'After we ate…' (بَعْدَ … أَكَلْنَا), keyed to أَنْ. But بَعْدَ مَا أَكَلْنَا (usually written بَعْدَمَا) is also correct, standard MSA for 'after we ate', using the 'mā' that turns a verb into a noun (maṣdariyya). A learner who knows it would be marked wrong. The tap gloss 'what' does not help either.",
+      "category": "answer-key",
+      "severity": "minor",
+      "fix": "عَنْ",
+      "alsoChange": "the tap gloss then becomes 'about'; the answer index stays 1"
+    },
+    {
+      "file": "content/days/day40.json",
+      "path": "quiz[6].prompt",
+      "current": "Which word begins with the deep q (ق), said far back in the throat?",
+      "problem": "qāf is uvular: it is made at the very back of the mouth, not in the throat. Throat (pharyngeal or glottal) letters are ع ح ء ه. Day 33's qāf question says it correctly ('made at the back of the mouth'), so the two descriptions disagree, and a learner may push qāf down toward ʿayn/ḥāʾ.",
+      "category": "script-sound",
+      "severity": "minor",
+      "fix": "Which word begins with the deep q (ق), made at the very back of the mouth?",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/days/day31.json",
+      "path": "reading.ar (⟶); content/days/day34.json reading.ar (⟶)",
+      "current": "Lilaylā qiṭṭa smuhā Lūlū, walisāmī akh wa-ukht.",
+      "problem": "Engine: a name after a one-letter clitic loses its capital and hyphen: لِلَيْلَى → 'Lilaylā', وَلِسَامِي → 'walisāmī' (day 31), وَنُور → 'wanūr' (day 34). The same texts elsewhere give 'wa-ʿUmar', 'wa-Dānyāl', 'wa-Khālid', so the learner cannot see that Laylā/Sāmī/Nūr are the names. Round 2 says names after a clitic were fixed, but li- and wa-li- (and wa- before نُور, probably read as the noun 'light') still fail.",
+      "category": "engine",
+      "severity": "minor",
+      "fix": "li-Laylā qiṭṭa smuhā Lūlū, wa-li-Sāmī akh wa-ukht. / … wa-Nūr ʿumruhā thamānī sanawātin.",
+      "alsoChange": "day34 reading ⟶ 'wanūr' → 'wa-Nūr'"
+    },
+    {
+      "file": "content/days/day38.json",
+      "path": "quiz[6].options[0] (⟶); content/days/day36.json quiz[6].prompt (⟶)",
+      "current": "أ",
+      "problem": "Engine: bare marks lose their transliteration. A bare أ in a letter-option list gives an empty ⟶ line (day 38, where the other options show S, B, ʿ). On day 36 the sukūn sign ْ quoted in the prompt disappears, leaving 'carries the sukūn ?'. Round 2 says bare letters are now named; hamza-on-alif and the diacritic marks are still missed.",
+      "category": "engine",
+      "severity": "minor",
+      "fix": "⟶ 'ʾ' (or 'hamza on alif') for أ; ⟶ '… carries the sukūn (ْ)?' or name the mark",
+      "alsoChange": ""
+    }
+  ],
+  "notes": [
+    { "file": "content/days/day37.json", "path": "sentences[0].mistakes[0].why", "note": "The rule 'right before a past verb, مَا means not' is a sound beginner simplification. Note, though, that مَا فَعَلْتَ؟ with a question mark is also good MSA for 'what did you do?' (interrogative mā before a verb is classical and common). Consider softening it to 'to avoid confusion, use مَاذَا before a verb'." },
+    { "file": "content/days/day34.json", "path": "intro; sentences[1].mistakes[0].why", "note": "'From 11 upwards the singular سَنَةً follows' holds for 11–99 only: 100 and up take the genitive (مِئَةُ سَنَةٍ). This is fine for ages, but 'from 11 to 99' would be exact." },
+    { "file": "content/days/day38.json", "path": "sentences[2].mistakes[0] taps; quiz[2].options[0] tap", "note": "مُنْذُ taps as 'since, for' in lines that teach it as 'ago' (the segs and the auto glossary already say 'since; ago'). Adding 'ago' would match the lesson." },
+    { "file": "content/days/day34.json", "path": "quiz[6].prompt (⟶)", "note": "The transliteration prints 'Which word ends in tāʾ marbūṭa (tāʾ marbūṭa)?' because the bare ة is now named. This is harmless but reads oddly; the prompt could drop the (ة)." },
+    { "file": "content/days/day35.json", "path": "sentences[1].mistakes[0] taps; sentences[5].segs", "note": "يَسْكُنُ is glossed 'lives, live'. In the mistake card it is contrasted with تَسْكُنُ, so 'he lives' would be clearer." }
+  ],
+  "summary": "I read all of days 31–40 (2,775 lines): every Arabic line, harakat, case ending, agreement, verb form, translation, seg, tap gloss, mistake card and quiz key, checking context in the source JSON where needed. The Arabic itself is clean in this chunk. The laysa + accusative, kāna/kānat + accusative, numbers 3–10 vs 11+ with sana, hollow-verb past (zurnā), mā + past negation, the qabla/baʿda (an) rule, idafa family chains and the object form abāhu are all correct, and I found no arabic, agreement, verb or translation errors. There are 7 errors, all minor: 3 gloss problems (طَوِيل shown as 'tall' for hair in 4 taps; ـًا shown as 'the letter alif' in 4 taps; كَانُوا 'was (they were)'), 1 answer-key problem (day 40 fill-the-gap, where مَا is also correct), 1 script-sound problem (qāf described as 'in the throat') and 2 engine problems (names after li-/wa-li- lose their capital and hyphen; bare أ and ْ get no transliteration). Tap glosses: I checked 722 (330 tap lines) and 9 were wrong (4 طَوِيل, 4 ـًا, 1 كَانُوا). I also checked the mistake-card notes for this chunk in glossary-mistakes.txt (الْخَالَتِي, زَارْنَا) and glossary-hand.txt (أَبُوهُ); they are correct."
+}

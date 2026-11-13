@@ -1,0 +1,187 @@
+{
+  "chunk": "scenarios-2",
+  "reviewer": "A",
+  "errors": [
+    {
+      "file": "content/course/scenes.json",
+      "path": "scene phone-shop caption (tap شَرَائِح); scene phone-shop spots[1].ar (tap الشَّرِيحَة)",
+      "current": "شَرَائِح=slide (plural)",
+      "problem": "In the phone-shop scene the caption says 'SIM cards (شَرَائِح)' and the spot is 'the SIM card (sign)', but the tap glosses are 'slide (plural)' and 'the slide' (a presentation slide). The learner taps the word for SIM card and is told it means 'slide'.",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "شَرَائِح=SIM cards; الشَّرِيحَة=the SIM card",
+      "alsoChange": "the tap for الشَّرِيحَة in spots[1].ar: 'the slide' → 'the SIM card'. In glossary-auto-2, شَرِيحَة should list 'SIM card' first (the course only uses it in that sense) and شَرَائِح 'SIM cards; slides'"
+    },
+    {
+      "file": "content/course/scenarios.json",
+      "path": "scenarios[27].dialogue.culture (tap شَرِيحَة)",
+      "current": "شَرِيحَة=slide (in a presentation); slice",
+      "problem": "The culture note says 'every SIM card (شَرِيحَة) must be registered', but the tap gloss says 'slide (in a presentation); slice'. The dialogue segs for the same scenario correctly say 'a SIM card'.",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "شَرِيحَة=SIM card",
+      "alsoChange": "glossary-auto-2 line for شَرِيحَة: put 'SIM card' first"
+    },
+    {
+      "file": "content/course/scenarios.json",
+      "path": "scenarios[17].mistakes[1].right (tap أَفْضَلُ)",
+      "current": "أَفْضَلُ=the best (before a noun)",
+      "problem": "In the correct sentence الْغُرْفَة الْجَدِيدَة أَفْضَلُ ('the new room is better'), the tap gloss says 'the best (before a noun)'. The card teaches that the comparative does not change for a feminine noun, so 'the best' gives the wrong meaning. Here there is no noun after it, and the dialogue seg correctly says 'better'.",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "أَفْضَلُ=better",
+      "alsoChange": "make the lesson-day gloss pick 'better' for أَفْضَلُ when it is a predicate"
+    },
+    {
+      "file": "content/course/scenarios.json",
+      "path": "scenarios[16].mistakes[0].right (tap مِنَ); scenarios[16].quiz[2].ar (tap مِنَ); scenarios[17].quiz[2].ar (tap مِنْ, same problem)",
+      "current": "مِنَ=from",
+      "problem": "After a comparative (أَغْلَى مِنَ الْهَدَايَا, أَرْخَصُ مِنْ مَطَاعِمِ الْمَدِينَة), min means 'than', but the tap gloss is 'from'. These lines teach comparison and the quiz asks for the meaning. The dialogue segs correctly say 'than'.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "مِنَ=than",
+      "alsoChange": "hotel quiz[2] tap مِنْ=from → 'than'"
+    },
+    {
+      "file": "content/course/scenes.json",
+      "path": "scene airport-checkin spots[1].ar; scene bank spots[0].ar; scene machines spots[5].ar; scene school spots[1].ar",
+      "current": "الْمَكْتَب=the office",
+      "problem": "The spot's English is 'the counter' (airport, bank, metro) or 'the desk' (school), but the tap gloss is always 'the office'. A beginner tapping the desk in a classroom is told it means 'office'. The bank caption already glosses مَكْتَب as 'office; desk'.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "الْمَكْتَب=the desk, the counter",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/course/scenes.json",
+      "path": "scene airport-checkin spots[5].ar; scene supermarket spots[0].ar",
+      "current": "الْعَرَبَة=the carriage",
+      "problem": "The spot is 'the luggage trolley' or 'the trolley', but the tap gloss says 'the carriage'. The supermarket caption itself glosses عَرَبَات as 'trolleys'.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "الْعَرَبَة=the trolley, the cart",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/course/scenes.json",
+      "path": "scene airport-checkin spots[3].note (tap هُوَ); also content/course/scenarios.json scenarios[28].dialogue.culture (tap هُوَ in هَلْ هُوَ حَلَال؟)",
+      "current": "هُوَ=he",
+      "problem": "In هَلْ هٰذَا هُوَ الطَّابُور؟ ('is this the queue?') and هَلْ هُوَ حَلَال؟ ('is it halal?' said of food), هُوَ refers to a thing, but the tap shows only 'he'. The dialogue segs elsewhere use 'he, it (m)'.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "هُوَ=he, it (m)",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/course/scenarios.json",
+      "path": "scenarios[23].dialogue.culture (taps الشُّرْطَة, السِّيَاحِيَّة); scenes.json scene lost-phone-help caption and spots[1].ar (same taps)",
+      "current": "الشُّرْطَة=the police ('police station') · السِّيَاحِيَّة=the tourist (f) ('sightseeing')",
+      "problem": "In الشُّرْطَة السِّيَاحِيَّة ('the tourist police') the taps say 'the police (police station)' and 'the tourist (f) (sightseeing)'. These hints belong to other phrases (مَرْكَزُ الشُّرْطَة, sightseeing) and mislead here: the phrase means neither 'police station' nor 'sightseeing'.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "الشُّرْطَة=the police · السِّيَاحِيَّة=tourist (f) ('tourist police')",
+      "alsoChange": "same taps in scene lost-phone-help caption and spots[1].ar"
+    },
+    {
+      "file": "content/course/scenarios.json",
+      "path": "scenarios[30].dialogue.culture (tap سَيِّدَات)",
+      "current": "سَيِّدَات=ladies (toilets)",
+      "problem": "The note says that two metro cars are reserved for women (سَيِّدَات), but the tap gloss says 'ladies (toilets)'.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "سَيِّدَات=ladies, women",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/course/scenes.json",
+      "path": "scene machines spots[2].ar",
+      "current": "السَّاعَة=the hour, o'clock",
+      "problem": "The spot is 'the clock' on the wall, but the tap gloss gives only 'the hour, o'clock'.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "السَّاعَة=the clock; the hour",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/course/scenes.json",
+      "path": "scene airport-checkin caption (tap طَابُور)",
+      "current": "طَابُور=queue (of)",
+      "problem": "In the caption 'wait in the طَابُور' the word stands alone, but the tap marks it as a construct form 'queue (of)'.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "طَابُور=queue",
+      "alsoChange": "glossary-auto-2: طَابُور = queue (keep '(of)' only for طَابُورِ in iḍāfa)"
+    },
+    {
+      "file": "content/course/scenarios.json",
+      "path": "scenarios[16].mistakes[0].wrong (tap لِكُلِّ); scenarios[16].mistakes[0].right (tap لِكُلِّ)",
+      "current": "لِكُلِّ=for all (of)",
+      "problem": "In لِكُلِّ كِيلُو ('for every kilo', before a singular indefinite noun), kull means 'every', but the tap says 'for all (of)'. The dialogue seg on the same sentence correctly says 'for every'.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "لِكُلِّ=for every, for each",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/course/scenarios.json",
+      "path": "scenarios[24].dialogue.lines[0].ar; scenarios[24].dialogue.lines[1].ar; scenarios[25].dialogue.lines[0].ar; scenarios[25].dialogue.lines[1].ar",
+      "current": "صَبَاحَ",
+      "problem": "These four greetings are written صَبَاحَ الْخَيْر / صَبَاحَ النُّور with an accusative -a. Everywhere else the course teaches the nominative صَبَاحُ الْخَيْر / صَبَاحُ النُّور (109 times), and the learner sees and hears the inconsistency (ṣabāḥa l-khayr).",
+      "category": "arabic",
+      "severity": "minor",
+      "fix": "صَبَاحُ",
+      "alsoChange": "transliteration follows (Ṣabāḥu l-khayr / Ṣabāḥu n-nūr)"
+    },
+    {
+      "file": "content/course/scenarios.json",
+      "path": "scenarios[30].dialogue.lines[4].ar",
+      "current": "وَلَا أَعْرِفُ أَيَّهُمَا لِلْوَرَقَة",
+      "problem": "أَيّ is the interrogative heading the nominal clause أَيُّهُمَا لِلْوَرَقَة ('which of the two is for the note'). The verb أَعْرِفُ is suspended (taʿlīq), so أَيّ is a mubtadaʾ in the nominative: أَيُّهُمَا. The accusative أَيَّهُمَا is wrong for this syntax.",
+      "category": "arabic",
+      "severity": "minor",
+      "fix": "وَلَا أَعْرِفُ أَيُّهُمَا لِلْوَرَقَة",
+      "alsoChange": "segs: أَيَّهُمَا → أَيُّهُمَا; transliteration ayyuhumā"
+    },
+    {
+      "file": "content/course/scenarios.json",
+      "path": "scenarios[23].dialogue.lines[2].ar; scenarios[23].dialogue.lines[3].ar",
+      "current": "مَحْفَظَ",
+      "problem": "This dialogue spells wallet مَحْفَظَة (وَمَحْفَظَتِي, الْمَحْفَظَة), but the rest of the course, including the machines scenario and the vocabulary, uses مِحْفَظَة. Both forms exist, but the learner gets two vocalisations of the same core word.",
+      "category": "arabic",
+      "severity": "minor",
+      "fix": "مِحْفَظَ",
+      "alsoChange": "segs وَمَحْفَظَتِي / الْمَحْفَظَة → وَمِحْفَظَتِي / الْمِحْفَظَة; transliteration follows"
+    },
+    {
+      "file": "content/course/scenarios.json",
+      "path": "scenarios[23].dialogue.lines[8].ar (taqrīran l-āna); scenarios[27].dialogue.lines[12].ar (junayhan l-āna); scenarios[31].dialogue.lines[11].ar (ʿurbūnan l-āna)",
+      "current": "سَأَكْتُبُ تَقْرِيرًا الْآنَ",
+      "problem": "Tanwīn before hamzat al-waṣl takes a helping kasra in fuṣḥā (taqrīrani l-āna, junayhani l-āna, ʿurbūnani l-āna). The engine writes 'taqrīran l-āna', which drops the hamzat-waṣl vowel and leaves an unpronounceable n+l- cluster, so the learner is taught a wrong pronunciation. The Arabic itself is correct.",
+      "category": "engine",
+      "severity": "minor",
+      "fix": "transliterate tanwīn + waṣla as -ani l- / -uni l- / -ini l- (taqrīrani l-āna)",
+      "alsoChange": "the same applies to the round-1 'jiddan l-yawma' rule, which should be jiddani l-yawma"
+    },
+    {
+      "file": "content/course/scenarios.json",
+      "path": "scenarios[30].dialogue.lines[13].segs (بِهَا)",
+      "current": "(with iḥtafiẕ bi-)",
+      "problem": "The seg gloss uses the wrong transliteration symbol ẕ (z with a line below) instead of ẓ for ظ in iḥtafiẓ.",
+      "category": "script-sound",
+      "severity": "minor",
+      "fix": "(with iḥtafiẓ bi-)",
+      "alsoChange": ""
+    }
+  ],
+  "notes": [
+    { "file": "content/course/scenes.json", "path": "scene museum-info caption", "note": "The photo is of the Egyptian Museum in Cairo, but the scenario takes place at the Jordan Museum in Amman." },
+    { "file": "content/course/scenes.json", "path": "scene post-office caption", "note": "The photo is of Jordan Post in Amman, but the dialogue is at a Cairo post office (Egypt Post)." },
+    { "file": "content/course/scenes.json", "path": "scene lost-phone-help caption", "note": "The caption says the tourist police are at Petra, but the story is in downtown Amman." },
+    { "file": "content/course/scenes.json", "path": "scene lost-phone-help spots[7]", "note": "السَّقْف is tapped as 'the ceiling' while the English says 'the roof'. Either word is fine, but they should match." },
+    { "file": "content/course/scenarios.json", "path": "scenarios[21].dialogue.lines[4].ar", "note": "The ticket seller uses the dual (تُرِيدَانِ أَنْ تَجْلِسَا) to Daniel, who is alone at the window. It is defensible because he buys two tickets, but it may surprise learners." },
+    { "file": "content/course/scenarios.json", "path": "scenarios[28].dialogue.lines[10].ar", "note": "سَأَتَأَكَّدُ مِنَ الطَّبَّاخِ literally means 'I will make sure of the cook'. سَأَسْأَلُ الطَّبَّاخَ بِنَفْسِي or سَأَتَأَكَّدُ مِنْ ذٰلِكَ مَعَ الطَّبَّاخِ would be clearer." },
+    { "file": "content/course/scenarios.json", "path": "scenarios[30].dialogue.lines[10].ar", "note": "The story logic is odd: the machine 'took the twenty-pound note from my wallet'. 'Took my twenty-pound note' would be clearer." },
+    { "file": "content/course/scenarios.json", "path": "scenarios[29].intro (tap تَفَضَّلْ)", "note": "The intro presents تَفَضَّلْ as 'please, go ahead', but the tap shows 'here you are (to a man)'. This is not wrong, but it does not match the sense being taught." }
+  ],
+  "summary": "I read the whole scenarios-2 chunk: 16 scenarios (airport-checkin to school), with their dialogues, segs, mistake cards and quizzes, plus their scene photo spots. I checked harakat and case, agreement, verb moods after an/lan/lam/lā, number–noun rules (3–10 polarity, 11–99 tamyīz, hundreds), the totals in the dialogues against the quiz keys, and every tap gloss. The dialogue Arabic is in very good shape: number agreement, dual forms, moods and the gender of address are correct throughout, and all quiz answer keys and mistake-card rules are right. I found 17 errors (3 major, 14 minor). The majors are all tap glosses: شَرِيحَة/شَرَائِح is glossed as 'slide' in the SIM-card scenario (two findings), and the correct mistake card's أَفْضَلُ is glossed as 'the best'. The minors are mostly tap glosses that take a sense from another context: مِنْ 'from' for 'than', الْمَكْتَب 'office' for counter or desk, الْعَرَبَة 'carriage', هُوَ 'he' for 'it', سَيِّدَات 'toilets', the tourist-police hints. The others are an inconsistent accusative صَبَاحَ الْخَيْر in two scenarios, أَيَّهُمَا for أَيُّهُمَا, an inconsistent مَحْفَظَة/مِحْفَظَة, a ẕ typo, and one engine issue: tanwīn before waṣla is rendered 'taqrīran l-āna' instead of 'taqrīrani l-āna'. Tap glosses checked: 818 word glosses on 366 tap lines; 23 of them are wrong or misleading in their line (all covered by the gloss findings above)."
+}

@@ -1,0 +1,70 @@
+{
+  "chunk": "days-01-10",
+  "reviewer": "A",
+  "errors": [
+    {
+      "file": "content/days/day10.json",
+      "path": "dialogue.lines[9].segs[8]; dialogue.lines[12].segs[4]; quiz[6].options[3] (tap gloss); content/glossary/auto.json key الْوَاحِدَة",
+      "current": "the first (f): one o'clock",
+      "problem": "الْوَاحِدَة is the cardinal 'the one (f)', not an ordinal. 'The first (f)' is الْأُولَى. The day's intro says the time uses a feminine 'first, second, third' word, and then this gloss tells the learner that الْوَاحِدَة means 'the first'. A learner will learn the wrong word for 'first' and will not know that one o'clock is the exception (cardinal الْوَاحِدَة, not الْأُولَى).",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "one (f): one o'clock (for 1 o'clock Arabic uses al-wāḥida, not al-ūlā 'the first')",
+      "alsoChange": "the same gloss is in content/course/scenarios.json (4 places) and the auto glossary; optionally add to the day-10 intro: 'except one o'clock: السَّاعَة الْوَاحِدَة'"
+    },
+    {
+      "file": "content/days/day09.json; content/days/day10.json",
+      "path": "day09 intro; day09 dialogue.lines[2].ar; day09 dialogue.lines[2].segs[7]; day09 dialogue.lines[5].ar; day09 dialogue.lines[5].segs[8]; day09 quiz[0].options[2]; day10 dialogue.lines[8].ar; day10 dialogue.lines[8].segs[6]; day10 dialogue.lines[9].ar; day10 dialogue.lines[9].segs[0]; day10 reading.ar; day10 reading.segs[5]",
+      "current": "الاِ",
+      "problem": "In الاِثْنَيْن and (وَ)الاِسْتِرَاحَة the kasra is written on the hamzat-waṣl alif after the article, and the lām has no vowel. After al- the alif of a waṣl noun is silent and the helping vowel goes on the lām: الِاثْنَيْن, الِاسْتِرَاحَة. The course itself spells it this way on later days (day 38 الِاثْنَيْن, day 82 الِاحْتِرَام, day 89 الِامْتِحَان). The kasra-on-alif spelling shows a vowel on a letter that is not pronounced. The word does not change, so this is minor.",
+      "category": "arabic",
+      "severity": "minor",
+      "fix": "الِا",
+      "alsoChange": "the find-and-replace covers الاِثْنَيْن → الِاثْنَيْن and الاِسْتِرَاحَة / وَالاِسْتِرَاحَة → الِاسْتِرَاحَة / وَالِاسْتِرَاحَة; re-key the tap glossary entries (Monday, the break) to the new vocalised forms; transliteration should stay al-ithnayn / l-istirāḥa"
+    },
+    {
+      "file": "content/days/day03.json",
+      "path": "dialogue.lines[11].en",
+      "current": "Yes, a big and very beautiful family!",
+      "problem": "The Arabic عَائِلَة كَبِيرَة وَجَمِيلَة has no جِدًّا. 'Very' is added in the English, so a beginner may think جَمِيلَة alone means 'very beautiful'. On day 5 the course uses جَمِيلَة جِدًّا for 'very beautiful'. Round 1 listed this only as a note.",
+      "category": "translation",
+      "severity": "minor",
+      "fix": "Yes, a big and beautiful family!"
+    },
+    {
+      "file": "content/days/day01.json",
+      "path": "dialogue.lines[6].en",
+      "current": "Excellent! I really love the Arabic language.",
+      "problem": "أَنَا أُحِبُّ اللُّغَة الْعَرَبِيَّة is 'I love the Arabic language'. 'Really' adds an intensifier the Arabic does not have, and the seg says أُحِبُّ = 'I love'.",
+      "category": "translation",
+      "severity": "minor",
+      "fix": "Excellent! I love the Arabic language."
+    },
+    {
+      "file": "content/days/day07.json",
+      "path": "intro (⟶); objectives[1] (⟶); dialogue.culture (⟶); quiz[1].options[0..3] (⟶)",
+      "current": "In Egypt, the Levant and the Gulf most people use the digits 0123456789. In North Africa (Morocco, Algeria, Tunisia) the digits 0123456789 are common, and they are Arabic in origin too.",
+      "problem": "Engine. The transliteration converts the Eastern Arabic digits ٠١٢٣٤٥٦٧٨٩ to Western 0123456789, even in English prose whose subject is the difference between the two digit sets. In the transliterated culture note, the Levant and North Africa both 'use 0123456789', which is a contradiction. The intro reads 'written with the digits 0123456789 … 10 is ten'. In quiz d7q2 ('How do you write 7 in Arabic digits?') the ⟶ line under each option shows its Western value (٧ ⟶ 7), which gives the answer away. The Arabic is correct.",
+      "category": "engine",
+      "severity": "minor",
+      "fix": "leave Eastern Arabic digits unchanged in ⟶ (or suppress ⟶ for digit-only strings and for digits inside English prose)"
+    },
+    {
+      "file": "content/days/day07.json",
+      "path": "intro (⟶)",
+      "current": "plus hamza hamza, tāʾ marbūṭa tāʾ marbūṭa and alif maqṣūra alif maqṣūra",
+      "problem": "Engine, introduced by the round-2 fix that names bare letters in English prose. When the English already names the letter ('plus hamza ء, tāʾ marbūṭa ة and alif maqṣūra ى'), the bare letter is replaced by its name again, so the line reads 'hamza hamza, tāʾ marbūṭa tāʾ marbūṭa, alif maqṣūra alif maqṣūra'. The source Arabic and English are correct.",
+      "category": "engine",
+      "severity": "minor",
+      "fix": "when a bare letter immediately follows its own name in prose, drop it in ⟶ (→ 'plus hamza, tāʾ marbūṭa and alif maqṣūra')"
+    }
+  ],
+  "notes": [
+    { "file": "content/days/day10.json", "path": "intro", "note": "The intro says the answer uses a feminine 'first, second, third' word, but one o'clock is السَّاعَة الْوَاحِدَة (cardinal). A one-line exception would stop learners from producing *الْأُولَى." },
+    { "file": "content/days/day09.json", "path": "sentences[0].ar", "note": "مَا الْيَوْم؟ is understood, but textbook MSA usually asks أَيُّ يَوْمٍ الْيَوْمَ؟ for 'What day is it today?'. Consider teaching it alongside." },
+    { "file": "content/days/day08.json", "path": "dialogue.lines[13].en", "note": "'I would like that job too' for أُرِيدُ هٰذَا الْعَمَل; the Arabic is 'I want'. This is harmless, but the seg says 'I want'." },
+    { "file": "content/days/day06.json", "path": "quiz[3].options[0]; day09 quiz[5].prompt", "note": "'The l is silent' before a sun letter is a simplification. The lām assimilates and the next consonant is doubled. A hint about the doubling (as-sayyāra) would help." },
+    { "file": "content/days/day01.json", "path": "dialogue.lines[0].ar ⟶ and others", "note": "Transliteration hyphenation after وَ is still mixed: 'wa-anā', 'wa-Lubnān' but 'wasahlan', 'wahuwa', 'wabilād', 'wajamīla'. This is a style point only." }
+  ],
+  "summary": "I read all 2,490 lines of audit/days-01-10.txt (days 1–10): titles, intros, objectives, stories, sentences with literals and mistake cards, dialogues, readings, all 64 quizzes and completions. I checked spelling, harakat, case endings, agreement, verb and imperative forms, number–noun polarity, iḍāfa, the time expressions, the translations, every seg, every answer key and the generated transliteration. I also checked the glossary-mistakes entries that appear here (أَحَد, جُمُعَة): both describe the mistake correctly. The round-1 fixes are in place: the مُدَرِّسَة gloss, the letter glosses for ل and و, أَنْتَ/أَنْتِ, wa-Lubnān wa-Miṣr, and 'the class' / 'the bag'. The Arabic of the lessons is clean, and every answer key is correct. Errors: 6, 0 major and 6 minor. (1) الْوَاحِدَة is glossed 'the first (f)'; it is the cardinal, and 'first' is الْأُولَى. (2) The hamzat-waṣl nouns after al- have the kasra on the alif (الاِثْنَيْن, الاِسْتِرَاحَة) instead of on the lām, which also differs from the course's own later spelling. (3–4) Two English lines add intensifiers ('very', 'really'). (5) The engine turns Eastern Arabic digits into Western ones in ⟶, which garbles the day-7 digits lesson and gives away quiz d7q2. (6) The new rule that names bare letters in prose produces 'hamza hamza, tāʾ marbūṭa tāʾ marbūṭa'. Tap glosses: I checked 493 tap glosses (270 tap lines, 0 ∅), and 1 was wrong (الْوَاحِدَة in d10q7). The same wrong gloss is in 2 segs. All the other taps fit the sense of their line. Five notes."
+}

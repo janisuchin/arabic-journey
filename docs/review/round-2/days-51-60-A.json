@@ -1,0 +1,107 @@
+{
+  "chunk": "days-51-60",
+  "reviewer": "A",
+  "errors": [
+    {
+      "file": "content/days/day51.json",
+      "path": "quiz[3].options[2]",
+      "current": "تَأْتِي",
+      "problem": "In the option لَيْلَى تَأْتِي. the tap gloss for تَأْتِي is '(they) come (f)' (the sense from day 54, رِيَاح تَأْتِي). Here the subject is Layla, so it means 'she comes'. A learner would be told that a 3rd-person feminine singular verb means 'they (f) come'.",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "tap gloss for تَأْتِي in this line → 'she comes'",
+      "alsoChange": "make sure the lesson-day gloss chosen for bare تَأْتِي on day 51 is 'she comes, you come (to a woman)' and not the day-54 plural-of-things gloss"
+    },
+    {
+      "file": "content/days/day52.json",
+      "path": "summary; intro; objectives[2]; completion",
+      "current": "لِـ",
+      "problem": "Day 52 teaches purpose li- + subjunctive ('to, in order to', as the intro itself says), but tapping لِـ in the summary, intro, objective and completion shows 'for; belonging to', the prepositional/possessive sense. The gloss contradicts the rule taught on the same screen.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "day-52 gloss for لِـ → 'to, in order to (before a verb); for (before a noun)'",
+      "alsoChange": "glossary-auto-2.txt لِـ = for; belonging to can stay for other days"
+    },
+    {
+      "file": "content/days/day52.json",
+      "path": "intro; dialogue.culture",
+      "current": "بِخَيْر",
+      "problem": "In كُلُّ عَامٍ وَأَنْتَ بِخَيْر (to a man) and in the reply وَأَنْتَ بِخَيْر the tap gloss for بِخَيْر is \"well ('kullu ʿāmin wa-anti bi-khayr': many happy returns)\": it quotes the feminine wa-anti inside the masculine phrase the intro is contrasting, and labels the reply 'and you too' as 'many happy returns'.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "tap gloss for بِخَيْر in these lines → \"well, in good health ('kullu ʿāmin wa-anta/wa-anti bi-khayr': many happy returns)\"",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/days/day53.json",
+      "path": "quiz[4].options[3]",
+      "current": "لَا تُمْطِرُ.",
+      "problem": "Tap gloss for لَا here is \"don't\" (prohibitive sense). With the indicative تُمْطِرُ it is simple negation, 'it doesn't rain / it isn't raining'; \"don't\" suggests an imperative 'don't rain!'.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "tap gloss for لَا in this line → 'not'",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/days/day53.json",
+      "path": "sentences[3].mistakes[0].wrong; sentences[3].mistakes[0].right",
+      "current": "سَتَكُونُ",
+      "problem": "On the mistake card for 'The temperature will be five degrees', tapping سَتَكُونُ shows 'there will be (f)', but in this sentence it is the copula 'will be' (the sentence's own segs say '(it) will be (f)').",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "tap gloss for سَتَكُونُ on this card → '(it) will be (f)'",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/days/day53.json",
+      "path": "sentences[3].mistakes[0].wrong",
+      "current": "سَتَكُونُ دَرَجَةُ الْحَرَارَة خَمْسَة دَرَجَات",
+      "problem": "The wrong form خَمْسَة has no case vowel, so the transliteration of the wrong side reads 'khamsa darajāt', identical to the right side 'khamsa darajāt'. The learner cannot hear or see the mistake the card is about.",
+      "category": "arabic",
+      "severity": "minor",
+      "fix": "سَتَكُونُ دَرَجَةُ الْحَرَارَة خَمْسَةُ دَرَجَات",
+      "alsoChange": "transliteration of the wrong side then reads khamsatu darajāt; why text can stay"
+    },
+    {
+      "file": "content/days/day54.json",
+      "path": "dialogue.lines[11].ar",
+      "current": "وَتَكُونُ حَارَّة وَفِيهَا رَمْل كَثِير",
+      "problem": "Day 54's rule (intro, mistake card, quiz[3]) is that after يَكُونُ/تَكُونُ the describing word takes -an. Here the predicate of وَتَكُونُ is left bare حَارَّة in mid-sentence (not in pause), so the line breaks the rule the lesson is drilling.",
+      "category": "arabic",
+      "severity": "minor",
+      "fix": "وَتَكُونُ حَارَّةً وَفِيهَا رَمْل كَثِير",
+      "alsoChange": "segs: حَارَّةً = hot (f, after 'be')"
+    },
+    {
+      "file": "content/days/day51.json",
+      "path": "quiz[0].ar",
+      "current": "لَنْ أَذْهَبَ.",
+      "problem": "In the lan sentence the tap gloss for أَذْهَبَ is \"I go (after 'an')\". The line has no an. On a day that teaches lan + -a, the gloss should say after an or lan, as the other verbs on this day do.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "tap gloss for أَذْهَبَ → 'I go (after an or lan)'",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/days/day60.json",
+      "path": "intro",
+      "current": "ـهُ",
+      "problem": "The Arabic is right, but the generated transliteration of the bare suffixes ـهُ and ـهَا in the intro is '-·hu' and '-·hā': the s·h/d·h separator dot is being inserted after the tatweel/hyphen, where no letter comes before h.",
+      "category": "engine",
+      "severity": "minor",
+      "fix": "engine: do not insert the · separator when h follows a hyphen/tatweel → '-hu', '-hā'",
+      "alsoChange": "check other bare-suffix mentions (e.g. ـهُمْ, ـهُمَا) elsewhere in the course"
+    }
+  ],
+  "notes": [
+    { "file": "content/days/day57.json", "path": "dialogue.lines[8].ar", "note": "Daniel wants to see the Red Sea from the Cairo-Amman flight. The route crosses Sinai and the Gulf of Aqaba, so this is plausible but loose geography." },
+    { "file": "content/days/day57.json", "path": "reading.ar", "note": "The flight leaves at six and lands at eight, but the culture note says it takes 1.5 h. In winter Jordan (UTC+3) is one hour ahead of Egypt, so local arrival would be about 8:30." },
+    { "file": "content/days/day59.json", "path": "dialogue.lines[0].ar", "note": "لَازِم أَنْ نَنَامَ is colloquial in tone. In fuṣḥā, مِنَ اللَّازِم أَنْ or يَجِبُ أَنْ is more standard." },
+    { "file": "content/days/day57.json", "path": "summary; intro; objectives[1]; quiz[3].options[3]", "note": "In هَلْ مِنَ الْمُمْكِن the tap gloss for مِنَ is 'from', while the segs say 'of, from'. 'of' fits this phrase better." },
+    { "file": "content/days/day57.json", "path": "dialogue.lines[0].ar", "note": "The transliteration 'jiddan l-yawma' keeps the round-1 house choice. Classical reading inserts a helping vowel (jiddani l-yawma). Not reported as an error." },
+    { "file": "content/days/day59.json", "path": "sentences[4].ar; dialogue.lines[9].ar", "note": "مَرَّة وَاحِدَة is written bare here but مَرَّةً وَاحِدَةً on day 53 (dialogue.lines[3]). The adverbial accusative should be marked consistently." },
+    { "file": "content/days/day58.json; content/days/day60.json", "path": "day58 sentences[0].mistakes[0].wrong; day60 sentences[2].mistakes[0].wrong", "note": "English labels '(to a woman)' and '(the wallet)' sit inside the Arabic field, so the transliteration starts in lower case and the label is read as part of the line." },
+    { "file": "content/days/day57.json", "path": "dialogue.lines[3].ar", "note": "The clerk asks two people for جَوَازَ السَّفَر (singular). Correct, but جَوَازَيِ السَّفَر would match 'your passports'." }
+  ],
+  "summary": "I read the whole days-51-60 export: every Arabic line, every seg, every tap list, quiz and mistake card. I also checked the matching entries in glossary-mistakes.txt (أَجْلِسُ, جَوَازِي, تُوقِظُنَا, لِلَيْلَتَانِ, زَارْتُمُ, نَزُورْهَا), and all of them describe the mistake correctly. The Arabic of these ten days is clean. The lan + subjunctive, li- of purpose, kāna/yakūnu + -an, ordinal dates, dual after prepositions, hollow-verb shortening (zurtu, lam nazurhā) and object suffixes are all taught and used correctly, and every answer key is right. I found 9 errors: 1 major and 8 minor. The one major is a tap gloss on day 51: تَأْتِي is glossed '(they) come (f)' in 'Layla comes'. Five minor tap glosses show another sense of the word: لِـ = 'for; belonging to' on the purpose-li day, بِخَيْر quoting wa-anti inside the masculine phrase, لَا = 'don't' on an indicative verb, سَتَكُونُ = 'there will be' for a copula, and أَذْهَبَ '(after an)' in a lan line. There are also two minor Arabic points: a bare حَارَّة after تَكُونُ, against the day's own rule, and a mistake card whose wrong and right sides transliterate the same. One engine issue: '-·hu'/'-·hā' for bare suffixes. Tap glosses checked: about 668 tap tokens (266 tap lines). 12 were wrong or misleading: تَأْتِي 1, لِـ 4, بِخَيْر 3, لَا 1, سَتَكُونُ 2, أَذْهَبَ 1. About 650 were correct. The round-1 fixes I could see in this range (al-yawmu dates, -ayni after li-, hamzat-waṣl spellings) introduced no new problems."
+}

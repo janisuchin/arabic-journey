@@ -1,0 +1,115 @@
+{
+  "chunk": "glossary-auto-2",
+  "reviewer": "A",
+  "errors": [
+    {
+      "file": "content/glossary/auto.json",
+      "path": "يُبْنَى; يَحْضُرُ; يُخْبِرُ; يَرْسُبُ; يَزْرَعُ; يَسْمَعُ; يُشَاهِدُ; يُصْنَعُ; يُصَوِّرُ; يَضْحَكُ; يَضِيعُ; يَطْبُخُ; يَعِدُ; يَفْعَلُ; يُكْتَبُ; يُكْتَشَفُ; يَنْجَحُ; يُنَظِّفُ",
+      "current": "يَضْحَكُ = laughed (present)",
+      "problem": "Present-tense (imperfect) forms are glossed with an English past tense and a '(present)' tag: يَضْحَكُ 'laughed', يَسْمَعُ 'heard', يَفْعَلُ 'did', يَنْجَحُ 'passed', يُكْتَبُ 'was written', يُبْنَى 'was built', يُصْنَعُ 'was made'. Outside a lesson the learner sees a past meaning on a present verb. The gloss looks like it was made from the past-tense entry with a label added",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "يُبْنَى = it is built; يَحْضُرُ = he attends, comes; يُخْبِرُ = he tells, informs; يَرْسُبُ = he fails; يَزْرَعُ = he plants, sows; يَسْمَعُ = he hears; يُشَاهِدُ = he watches, sees; يُصْنَعُ = it is made; يُصَوِّرُ = he photographs; يَضْحَكُ = he laughs; يَضِيعُ = it gets lost; يَطْبُخُ = he cooks; يَعِدُ = he promises; يَفْعَلُ = he does; يُكْتَبُ = it is written; يُكْتَشَفُ = it is discovered; يَنْجَحُ = he passes, succeeds; يُنَظِّفُ = he cleans",
+      "alsoChange": "check the generator that builds a present gloss from the past gloss + '(present)'"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "صَنَعَ",
+      "current": "صَنَعَ = was made (active, he made)",
+      "problem": "صَنَعَ is the active past 'he made'. The gloss starts with 'was made', which is the meaning of the passive صُنِعَ, so the two forms the passive lesson contrasts get the same first meaning",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "صَنَعَ = (he) made",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "شَابَّة",
+      "current": "شَابَّة = young man (feminine)",
+      "problem": "شَابَّة means 'young woman'. 'young man (feminine)' gives the learner the wrong word",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "شَابَّة = young woman; young (f)",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "شَعَرَ; صَامَ; ظَنَّ; عَبَّرَ; عُدْتُ; غَادَرَ; فَتَحَ; فَضَّلَ; قَابَلَ; قَدَّمَ; كَرَّرَ; مَنَعَ; نَطَقَ; نَظَّمَ; وَافَقَ; وَفَّرَ",
+      "current": "فَتَحَ = opens (past)",
+      "problem": "Past-tense forms are glossed with a present-tense English verb and a '(past)' tag: فَتَحَ 'opens (past)', عُدْتُ 'returns, goes back (I, past)', شَعَرَ 'feels (past)'. The person and tense the learner reads are wrong for the form (عُدْتُ is 'I returned'), even with the tag",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "شَعَرَ = (he) felt; صَامَ = (he) fasted; ظَنَّ = (he) thought; عَبَّرَ = (he) expressed; عُدْتُ = I returned, I went back; غَادَرَ = (he) left; فَتَحَ = (he) opened; فَضَّلَ = (he) preferred; قَابَلَ = (he) met; قَدَّمَ = (he) presented, gave; كَرَّرَ = (he) repeated; مَنَعَ = (he) banned; نَطَقَ = (he) pronounced; نَظَّمَ = (he) organised; وَافَقَ = (he) agreed; وَفَّرَ = (he) saved",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "سَكَنَ; نَزَلَ; يَسْتَيْقِظُ; يَشْتَرِي; يَغْسِلُ; يَفْهَمُ",
+      "current": "يَفْهَمُ = to understand",
+      "problem": "Finite verbs are glossed as an English infinitive ('to understand', 'to buy', 'to live (past)'). يَفْهَمُ is 'he understands', سَكَنَ is 'he lived'. Arabic has no infinitive here, so the learner gets the wrong person",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "سَكَنَ = (he) lived; نَزَلَ = (he) got off, went down; يَسْتَيْقِظُ = he wakes up; يَشْتَرِي = he buys; يَغْسِلُ = he washes; يَفْهَمُ = he understands",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "سَاعِدْ; قَدِّمْ; نَامِي",
+      "current": "سَاعِدْ = helps (order, to a man)",
+      "problem": "Imperatives are glossed with a 3rd-person present ('helps', 'presents, gives', 'sleeps') and an '(order)' tag, instead of the imperative",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "سَاعِدْ = help! (to a man); قَدِّمْ = present! give! (to a man); نَامِي = sleep! (to a woman)",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "سَيَخْرُجُ; سَيُسَافِرُ; وَسَيَأْتِي; يَصُومُ; قَالَهَا; يَقْرَؤُهَا; وَقَرَأَهَا",
+      "current": "سَيَخْرُجُ = (they) will go out",
+      "problem": "3rd-person masculine singular verbs are glossed as 'they' (taken from a verb-first sentence with a plural subject). Outside the lesson the form means 'he/it'. يَصُومُ = '(they) fast (verb first: singular)' presents a note as the meaning",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "سَيَخْرُجُ = he will go out; سَيُسَافِرُ = he will travel; وَسَيَأْتِي = and he will come; يَصُومُ = he fasts; قَالَهَا = he said it (f); يَقْرَؤُهَا = he reads it (f); وَقَرَأَهَا = and he read it (f)",
+      "alsoChange": "keep the 'they' reading only in the curated segs of the verb-first sentences"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "وَإِنَّ",
+      "current": "وَإِنَّ = and that",
+      "problem": "'that' is أَنَّ. إِنَّ starts a sentence ('indeed, truly') or follows قَالَ. 'and that' blurs the inna/anna difference the course teaches",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "وَإِنَّ = and indeed (inna: + noun in -a)",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "مِنْهُ",
+      "current": "مِنْهُ = at him (lit. from him)",
+      "problem": "This sense only fits one context (ضَحِكَ مِنْهُ 'laughed at him'). Outside a lesson the meaning should be 'from him / from it'",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "مِنْهُ = from him, from it (m)",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "شَجَرَة; مَوْزَة",
+      "current": "شَجَرَة = tree(s)",
+      "problem": "These are singular nouns of unity (one tree, one banana) but are glossed as plurals: 'tree(s)', 'bananas (one banana)'",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "شَجَرَة = a tree; مَوْزَة = a banana",
+      "alsoChange": ""
+    }
+  ],
+  "notes": [
+    { "file": "content/glossary/auto.json", "path": "سَعَدَ; طَالِبَةَانِ; غُرْفَةُهُ; غُرْفَةِي; لِأَدْعُو; لِلطَّبَّاخُونَ; لِلَيْلَتَانِ; نَزُورْهَا", "note": "These keys show '(wrong — correct: …)' as the meaning. They look like forms that occur only in mistake cards or quiz distractors, which is the round-2 design, so I did not count them. Check that none of them appears in a correct line." },
+    { "file": "content/glossary/auto.json", "path": "مِنُ", "note": "Taps as 'from'. It is the deliberately wrong distractor in day85 q6. A note ('wrong helping vowel: mina') would be safer than a plain meaning." },
+    { "file": "content/glossary/auto.json", "path": "كَعْكَة; وَكَعْكَة; وَالْكَعْكَة; وَالْكَعْك", "note": "This set is inconsistent: كَعْكَة / وَكَعْكَة are 'cake', وَالْكَعْكَة is 'kaʿk biscuit', and وَالْكَعْك is 'the cake' while كَعْك is 'kaʿk (Eid biscuits)'." },
+    { "file": "content/glossary/auto.json", "path": "وَالتَّأْمِين", "note": "'and the deposit': تَأْمِين is 'insurance' (a security deposit in rental contexts). 'insurance; deposit' would be clearer." },
+    { "file": "content/glossary/auto.json", "path": "قلعة", "note": "The unvocalised key shows three slash-joined glosses: 'castle (of), citadel (of) / castle, citadel / citadel (of)'." },
+    { "file": "content/glossary/auto.json", "path": "سَتَكُونُ; وَسَتَكُونُ", "note": "'there will be (f)' fits a context. 'she/it (f) will be; you will be (m)' would fit outside a lesson." }
+  ],
+  "summary": "Checked all 3,657 vocalised keys in audit/glossary-auto-2.txt (zāy to yāʾ) against the exact form. 63 tap glosses are wrong for their form, grouped into 10 findings (3 major, 7 minor). Major: 18 present-tense verbs glossed in the past tense ('laughed (present)', 'was written (present passive)'), صَنَعَ glossed 'was made', شَابَّة glossed 'young man'. Minor patterns: past verbs with present English plus '(past)', finite verbs as English infinitives, imperatives as 3rd person, singular verbs glossed 'they' from verb-first sentences, وَإِنَّ as 'and that', context-only senses (مِنْهُ 'at him'), nouns of unity glossed as plurals. Nouns, pronoun suffixes, case labels, numbers and letter names were otherwise consistently correct."
+}

@@ -1,0 +1,145 @@
+{
+  "chunk": "weeks-tests",
+  "reviewer": "A",
+  "errors": [
+    {
+      "file": "content/course/course.json",
+      "path": "weeks[5].test[3].ar (tap on مَا)",
+      "current": "مَا=what",
+      "problem": "In مَا سَبَحْتُ the particle مَا is the past-tense negation ('I didn't swim'), which is exactly what the question tests. The tap gloss 'what' points the learner to the distractor 'What did I swim?'.",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "مَا=not (before a past verb: 'did not')",
+      "alsoChange": "only the tap meaning of مَا in this line (w6t4)"
+    },
+    {
+      "file": "content/course/course.json",
+      "path": "weeks[8].test[8].ar (tap on أَكْبَرُ)",
+      "current": "أَكْبَرُ=bigger",
+      "problem": "In عَمَّان أَكْبَرُ مَدِينَة فِي الْأُرْدُنّ the elative before an indefinite noun is a superlative ('the biggest city'), which is the tested point. The gloss 'bigger' supports the distractor 'Amman is bigger than Jordan'.",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "أَكْبَرُ=the biggest (before a noun)",
+      "alsoChange": "only the tap meaning in w9t9"
+    },
+    {
+      "file": "content/course/course.json",
+      "path": "weeks[3].test[7].options[3] (tap on هُنَاكَ)",
+      "current": "هُنَاكَ=there is",
+      "problem": "In الصَّيْدَلِيَّة هُنَاكَ the word means 'there' (place): 'The pharmacy is over there'. The gloss 'there is' belongs to option 2's sense and makes the two options look the same.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "هُنَاكَ=there, over there",
+      "alsoChange": "keep 'there is' for options[2] هَلْ هُنَاكَ صَيْدَلِيَّة هُنَا؟"
+    },
+    {
+      "file": "content/course/course.json",
+      "path": "weeks[1].test[6].options[3] (tap on يَسْتَيْقِظُ)",
+      "current": "يَسْتَيْقِظُ=to wake up",
+      "problem": "The options contrast persons (you f / you m / I / he). يَسْتَيْقِظُ is 'he wakes up'; the dictionary gloss 'to wake up' hides the person being tested.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "يَسْتَيْقِظُ=he wakes up",
+      "alsoChange": "none"
+    },
+    {
+      "file": "content/course/course.json",
+      "path": "weeks[7].test[7].options[2] (tap on كُلَّ)",
+      "current": "كُلَّ=all (of)",
+      "problem": "Before an indefinite singular (كُلَّ شَهْر) كُلّ means 'every', not 'all (of)'. Elsewhere (w11t2, w12t5) the course glosses it 'every'.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "كُلَّ=every",
+      "alsoChange": "none"
+    },
+    {
+      "file": "content/course/course.json",
+      "path": "weeks[7].test[9].options[0] (tap on حَارًّا)",
+      "current": "حَارًّا=hot (after 'was')",
+      "problem": "Here حَارًّا follows يَكُونُ ('is (usually)'), not كَانَ. The note '(after was)' misdescribes why the word ends in -an in the correct answer of this question.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "حَارًّا=hot (after kāna / yakūnu)",
+      "alsoChange": "none"
+    },
+    {
+      "file": "content/course/course.json",
+      "path": "weeks[10].test[4].options[0]; weeks[10].test[4].options[1]; weeks[10].test[4].options[2]; weeks[10].test[4].options[3] (tap on إِنَّ)",
+      "current": "إِنَّ=that (after qāla)",
+      "problem": "The options are stand-alone sentences that begin with إِنَّ ('indeed, truly'); there is no qāla. The gloss 'that (after qāla)' belongs to the reported-speech sense of another lesson.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "إِنَّ=indeed, truly (the noun after it ends in -a)",
+      "alsoChange": "tap meaning of إِنَّ in all four options of w11t5"
+    },
+    {
+      "file": "content/course/course.json",
+      "path": "weeks[12].test[2].ar (tap on السَّاعَةُ)",
+      "current": "السَّاعَةُ=the clock",
+      "problem": "In a time phrase السَّاعَةُ الثَّالِثَةُ means 'the hour / o'clock' ('It is three...'). w2t5 glosses the same word 'the hour, o'clock'; 'the clock' here is the wrong sense.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "السَّاعَةُ=the hour, o'clock",
+      "alsoChange": "none"
+    },
+    {
+      "file": "content/course/course.json",
+      "path": "weeks[12].test[8].explain (tap on كُتِبَتْ)",
+      "current": "كُتِبَتْ=were written (f)",
+      "problem": "The explanation says 'كُتِبَتْ (it was written)' and the answer line glosses كُتِبَتِ as '(it, f) was written'. 'were written' suggests a plural and contradicts the explanation the tap sits in.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "كُتِبَتْ=(it, f) was written",
+      "alsoChange": "none"
+    },
+    {
+      "file": "content/course/course.json",
+      "path": "weeks[4].test[5].options[3] (tap on لَسْنَا)",
+      "current": "لَسْنَا=is not (we are not)",
+      "problem": "لَسْنَا is only 'we are not'. Glossing it 'is not' gives it the same meaning as the correct answer لَيْسَتْ in a question that tests the person of laysa.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "لَسْنَا=we are not",
+      "alsoChange": "none"
+    },
+    {
+      "file": "content/course/course.json",
+      "path": "weeks[7].test[1].options[3] (tap on أَنَامَ); weeks[7].test[2].options[3] (tap on أَشْتَرِيَ); weeks[12].test[5].options[0] (tap on أَذْهَبَ)",
+      "current": "أَنَامَ=I sleep (after an)",
+      "problem": "In these options the -a form follows لَنْ, not أَنْ. The note '(after an)' tells the learner the wrong trigger in exactly the questions that test the mood after lan.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "أَنَامَ=I sleep (form after an / lan)",
+      "alsoChange": "same change for أَشْتَرِيَ=I buy (after an) in w8t3 options[3] and أَذْهَبَ=I go (after 'an') in w13t6 options[0]"
+    },
+    {
+      "file": "content/course/course.json",
+      "path": "weeks[12].test[3].ar (tap on أَصْغَرُ)",
+      "current": "أَصْغَرُ=smaller",
+      "problem": "With people (أُخْتِي أَصْغَرُ مِنِّي) أَصْغَر means 'younger', and the keyed answer is 'My sister is younger than me'. The gloss gives only 'smaller'.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "أَصْغَرُ=smaller; younger",
+      "alsoChange": "none"
+    },
+    {
+      "file": "content/course/course.json",
+      "path": "weeks[2].test[8].ar; weeks[7].test[4].ar; weeks[8].test[1].options[0]; weeks[10].test[1].prompt; weeks[7].test[2].options[1]; weeks[11].test[5].options[0]",
+      "current": "خَمْسَة وَسَبْعُونَ",
+      "problem": "The transliteration attaches a proclitic to a word without al- with no hyphen ('Khamsa wasabʿūna', 'ghāʾim wabārid', 'Ajlisu bijānibi', 'wa-anta bikhayr', 'Liʾashtariya', 'ṭayyibatan wabaʿdu', 'Waʿalaykumu'). The same engine writes 'wa-n-niṣf', 'bi-l-ḥāfila' and 'Wa-anta', and ALA-LC hyphenates wa-/bi-/li-/fa- (li-ashtariya, with no ʾ for the initial hamza). The Arabic is correct.",
+      "category": "engine",
+      "severity": "minor",
+      "fix": "Khamsa wa-sabʿūna; ghāʾim wa-bārid; bi-jānibi; bi-khayr; li-ashtariya; wa-baʿdu; Wa-ʿalaykumu",
+      "alsoChange": "transliteration engine only; no content change"
+    }
+  ],
+  "notes": [
+    { "file": "content/course/course.json", "path": "weeks[10].test[6].options[3]", "note": "قَالَ سَامِي إِنَّنِي مُتْعَب is grammatical as a direct quotation ('Sami said: I am tired'). The prompt says 'report it', so the key (innahu) holds, but a hint such as 'in reported speech' would remove the ambiguity." },
+    { "file": "content/course/course.json", "path": "weeks[8].test[2].options[0], options[3] (tap on لَوْ)", "note": "'if (for things that are not real)' is the counterfactual sense. In the fixed phrase لَوْ سَمَحْتَ/سَمَحْتِ, 'if (you would allow)' or 'excuse me (lit. if you allow)' would be clearer." },
+    { "file": "content/course/course.json", "path": "weeks[6].test[8].options[1]; weeks[6].test[7].options[1..3]; weeks[7].test[5].options[0]", "note": "Several auto glosses read oddly: 'plays (order, to a woman)', 'rests (you, present)', 'rests (I, present)', 'rests (after lā, to a man)', '(it) rained (\"rains\")'. They are not wrong, but 'play! (to a woman)', 'you rest', 'I rest' and 'don't rest! (to a man)' are clearer." },
+    { "file": "content/course/course.json", "path": "weeks[12].test[7].ar", "note": "إِذَا شَرِبْتَ قَهْوَةً مَسَاءً، لَا تَنَامُ is acceptable as a general statement. The textbook pattern is ... لَنْ تَنَامَ or ... فَلَنْ تَنَامَ if a future sense is meant." },
+    { "file": "content/course/course.json", "path": "weeks[4].test[8].ar", "note": "اِبْنُ is written with a kasra on the alif after the name خَالِد. Since round 2 standardised hamzat-waṣl spellings, plain ابْنُ may be the house form; check that it matches." },
+    { "file": "content/course/course.json", "path": "weeks[11].test", "note": "Week 12 has 8 test items while the other weeks have 10. w3t5 and w8t10 have 3 options instead of 4." }
+  ],
+  "summary": "I read all 2,055 lines of audit/weeks-tests.txt: 13 week tests (128 items), titles, titleSegs and levels. I checked every answer key against the Arabic and the English options. All 128 keys are correct, and no distractor is also correct (the closest is w11t7 options[3], a direct quotation, listed as a note). No harakat, case, agreement or verb-form errors were found in the Arabic. The remaining problems are tap meanings. I checked 822 tap glosses across 442 tap lines and 17 were wrong or misleading for their line. Two are major: مَا glossed 'what' in the negation item w6t4, and أَكْبَرُ glossed 'bigger' in the superlative item w9t9; in both the gloss points to the distractor. The minor ones are mostly a sense borrowed from another lesson (هُنَاكَ 'there is', إِنَّ 'that (after qāla)', السَّاعَة 'the clock', حَارًّا 'after was', '(after an)' on verbs that follow lan). There is also one engine pattern: proclitics before words without al- are not hyphenated in the transliteration. Totals: 13 findings (2 major, 11 minor), 6 notes."
+}

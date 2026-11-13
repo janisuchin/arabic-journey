@@ -1,0 +1,318 @@
+{
+  "chunk": "grammar",
+  "reviewer": "A",
+  "errors": [
+    {
+      "file": "content/course/grammar.json",
+      "path": "[22].explanation",
+      "current": "After a verb or a preposition the ending is ـَيْنِ",
+      "problem": "Wrong rule. -ayni is used for an object (or after a preposition / as second term of an iḍāfa), not 'after a verb'. A dual subject that follows its verb keeps -āni (جَاءَ صَدِيقَانِ, and the course itself teaches verb-first sentences on day 22). The summary on the same lesson correctly says 'as an object or after a preposition'.",
+      "category": "grammar-fact",
+      "severity": "major",
+      "fix": "As the object of a verb or after a preposition the ending is ـَيْنِ",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/course/grammar.json",
+      "path": "[35].explanation; [35].table.rows[4][2]; [35].table.rows[5][2]",
+      "current": "From 11 upwards the singular follows, with the ending ـَةً: عِشْرُونَ سَنَةً.",
+      "problem": "The accusative singular (-atan) follows 11–99 only; after مِئَة and أَلْف the noun is genitive (مِئَةُ سَنَةٍ), as the course itself teaches on day 21 (مِئَةُ جُنَيْه). The formula of this lesson says 11–99, but the explanation, the table notes ('11 and up') and the tap gloss of سَنَةً ('after a number from 11 up') say 'from 11 upwards'.",
+      "category": "grammar-fact",
+      "severity": "minor",
+      "fix": "From 11 to 99 the singular follows, with the ending ـَةً: عِشْرُونَ سَنَةً.",
+      "alsoChange": "table.rows[4][2] and [5][2] '11 and up: singular + ـَةً' → '11–99: singular + ـَةً'; tap gloss سَنَةً 'year (after a number from 11 up)' → 'year (after 11–99)'"
+    },
+    {
+      "file": "content/course/grammar.json",
+      "path": "[7].titleAr",
+      "current": "أَدَاة التَّعْرِيف",
+      "problem": "أَدَاة is the first term of an iḍāfa, so its tāʾ marbūṭa is pronounced t with a case vowel (adātu t-taʿrīf). With no vowel on ة the engine reads it in pause and prints 'Adāh at-taʿrīf', which teaches the wrong pronunciation (compare the course's own rule on day 9: 'A ة at the end of the first noun is said as t').",
+      "category": "arabic",
+      "severity": "minor",
+      "fix": "أَدَاةُ التَّعْرِيف",
+      "alsoChange": "transliteration follows: Adātu t-taʿrīf"
+    },
+    {
+      "file": "content/course/grammar.json",
+      "path": "[13].explanation (tap, 1st تَذْهَبُ 'you go, to a man'); [13].examples[1].ar (tap); [44].table.rows[1][0] (tap); [53].table.rows[1][1] (tap); [53].table.rows[1][2] (tap); [53].table.rows[3][2] (tap); [62].explanation (tap, تَتَّصِلَ); [68].examples[1].ar (tap)",
+      "current": "تَشْرَبُ=you drink (to a man)",
+      "problem": "Tap glosses give the wrong person for the sentence they are in: هِيَ تَشْرَبُ الشَّاي 'she drinks tea' taps as 'you drink (to a man)'; أَعْرِفُ أَنَّهَا تُحِبُّ … taps تُحِبُّ as 'you like (to a man)'; هَلْ يُمْكِنُ أَنْ تَتَّصِلَ بِي؟ 'could you call me?' taps تَتَّصِلَ as 'she calls'; in the present-tense explanation the 'you go (to a man)' تَذْهَبُ taps as 'goes (she)'; in the imperative table the 'You (present)' cell تَجْلِسُ taps as 'sits (she, it)'; in the yakūnu table the أَنْتَ row taps تَكُونُ as '(it) is (f)' and سَتَكُونُ as 'there will be (f)' (also 'there will be' in the هِيَ row, where it means 'she will be'). The ta- form is ambiguous on paper, which is exactly what these lessons teach, so the tap must show both readings or the one the line needs.",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "تَشْرَبُ=she drinks; you drink (to a man)",
+      "alsoChange": "same pattern for تُحِبُّ → 'she likes; you like (to a man)', تَتَّصِلَ → 'you call; she calls (after an)', تَذْهَبُ → 'she goes; you go (to a man)', تَجْلِسُ → 'you sit (to a man); she sits', تَكُونُ → 'you are; she, it is (present of kāna)', سَتَكُونُ → 'you will be; she, it will be'"
+    },
+    {
+      "file": "content/course/grammar.json",
+      "path": "[38].title (tap); [38].titleAr (tap); [38].summary (tap, both مَا); [38].formula (tap); [38].explanation (tap, 1st and 4th مَا: 'مَا + a past verb', 'مَا directly before a past verb means not'); [38].examples[0].ar (tap); [38].examples[1].ar (tap); [42].explanation (tap, 'مَا + past')",
+      "current": "مَا=what",
+      "problem": "The whole lesson teaches مَا before a past verb = 'not' (مَا فَعَلْتُ شَيْئًا 'I didn't do anything', مَا سَبَحَ دَانْيَال 'Daniel didn't swim'), but every tap shows 'what'. A learner tapping the example sentences reads 'what I did something', the exact confusion the lesson warns about.",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "مَا=not (before a past verb)",
+      "alsoChange": "keep 'what' only for مَا اسْمُكَ in the same explanation; give مَا the day-37 gloss 'not (before a past verb); what'"
+    },
+    {
+      "file": "content/course/grammar.json",
+      "path": "[69].title (tap); [69].titleAr (tap); [69].summary (tap); [69].formula (tap); [69].explanation (tap, all إِنَّ/إِنَّهُ/إِنَّهَا); [69].table.head[1] (tap); [69].examples[0].ar (tap); [69].examples[1].ar (tap); [71].explanation (tap, قَالَتْ إِنَّهَا ×2)",
+      "current": "إِنَّ=that (after qāla)",
+      "problem": "The day-73 lesson is 'Indeed: إِنَّ' at the start of a sentence (إِنَّ الْأَخْبَارَ الْيَوْمَ جَيِّدَة 'the news today is good'), but every tap gives the day-75 reported-speech sense 'that (after qāla)'; إِنَّهُ taps 'that he (after qāla)' and إِنَّهَا taps 'that it (f)', so إِنَّهَا الْعَرَبِيَّةُ الْفُصْحَى 'It is standard Arabic' reads 'that it (f) standard Arabic'. In [71] قَالَتْ إِنَّهَا مَرِيضَة 'she said that she was ill' also taps إِنَّهَا as 'that it (f)'.",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "إِنَّ=indeed (starts a statement; noun after it ends in -a); that (after qāla)",
+      "alsoChange": "إِنَّهُ → 'indeed he/it (m); that he (after qāla)'; إِنَّهَا → 'indeed she/it (f); that she, that it (f)'"
+    },
+    {
+      "file": "content/course/grammar.json",
+      "path": "[66].formula (tap); [66].explanation (tap); [66].table.rows[3][1] (tap)",
+      "current": "أَفْعَلَ=I do",
+      "problem": "أَفْعَلَ (afʿala) is the Form IV pattern; 'I do' is أَفْعَلُ (the present). Every other pattern in this lesson is glossed as a pattern (فَعَّلَ = 'faʿʿala (verb pattern, Form II)'), so the learner is told Form IV means 'I do'.",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "أَفْعَلَ=afʿala (verb pattern, Form IV)",
+      "alsoChange": "also فَعَلَ=he did, (they) did → 'faʿala (verb pattern, Form I; lit. he did)'"
+    },
+    {
+      "file": "content/course/grammar.json",
+      "path": "[75].explanation (tap, صَنَعَ, اِكْتَشَفَ); [75].table.rows[2][0] (tap); [75].table.rows[3][0] (tap)",
+      "current": "صَنَعَ=was made (active, he made)",
+      "problem": "In the passive lesson the ACTIVE forms صَنَعَ and اِكْتَشَفَ tap first as 'was made' / 'was discovered', in the very column headed 'Active (he…)'. That reverses the contrast the lesson teaches. In the same lesson the present passives lead with a past meaning (يُكْتَبُ, يُصْنَعُ, يُبْنَى, يُكْتَشَفُ = 'was written/made/built/discovered (present passive, it is …)') and the past passives قِيلَ, سُمِّيَ lead with a present ('it is said (past passive, it was said)', 'is called… (past passive, was named)').",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "صَنَعَ=(he) made",
+      "alsoChange": "اِكْتَشَفَ → '(he) discovered'; يُكْتَبُ → 'is written (present passive)'; يُصْنَعُ → 'is made'; يُبْنَى → 'is built'; يُكْتَشَفُ → 'is discovered'; قِيلَ → 'it was said'; سُمِّيَ → 'was named, was called'"
+    },
+    {
+      "file": "content/course/grammar.json",
+      "path": "[61].title (tap); [61].titleAr (tap); [61].summary (tap); [61].explanation (tap, عَمَّان أَكْبَرُ مَدِينَة); [61].examples[0].ar (tap); [72].explanation (tap, أَحْسَنُ); [72].examples[0].ar (tap)",
+      "current": "أَحْسَنُ=the best",
+      "problem": "Comparative and superlative glosses are swapped against the lesson. In فِي رَأْيِي، الْكُتُبُ أَحْسَنُ مِنَ الْإِنْتَرْنِت 'books are better than the internet' the tap says أَحْسَنُ = 'the best'. In the superlative lesson أَكْبَرُ مَدِينَة 'the biggest city' taps أَكْبَرُ = 'bigger' (5 taps), although other superlatives in the same lesson are glossed 'the most beautiful (before a noun)', 'the best (before a noun)'.",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "أَحْسَنُ=better; the best (before a noun)",
+      "alsoChange": "أَكْبَرُ → 'bigger; the biggest (before a noun)' (or day-62 gloss 'the biggest (before a noun)')"
+    },
+    {
+      "file": "content/course/grammar.json",
+      "path": "[67].explanation (tap)",
+      "current": "كَرِيم=Karim (first name)",
+      "problem": "In رَمَضَان كَرِيم (translated in the same line as 'Ramadan is generous') كَرِيم is the adjective 'generous', not the man's name. The reply اللّٰهُ أَكْرَم 'God is more generous' only makes sense with the adjective.",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "كَرِيم=generous, noble",
+      "alsoChange": "keep 'Karim (first name)' only for الْأُسْتَاذ كَرِيم in [66]"
+    },
+    {
+      "file": "content/course/grammar.json",
+      "path": "[75].examples[1].ar (tap)",
+      "current": "السَّاعَةَ=at the hour",
+      "problem": "In يُقَالُ إِنَّ هٰذِهِ السَّاعَةَ لَمْ تَعْمَلْ أَبَدًا 'It is said that this clock never worked', السَّاعَةَ is the noun after إِنَّ ('the clock', -a because of inna), not the adverb 'at the hour'.",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "السَّاعَةَ=the clock (-a after inna)",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/course/grammar.json",
+      "path": "[37].formula (tap)",
+      "current": "ذَهَب=gold",
+      "problem": "In 'stem ذَهَب + ending' the word is the verb stem dhahab- (went), but the tap shows the noun 'gold'.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "ذَهَب=the stem of ذَهَبَ 'went'",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/course/grammar.json",
+      "path": "[16].explanation (tap)",
+      "current": "أَ=a- (prefix of the present tense: I)",
+      "problem": "In 'The masculine starts with أَ: أَحْمَر, أَزْرَق' the أَ is the first letter of the colour pattern aCCaC, not the present-tense prefix 'I'. The tap suggests أَحْمَر is a verb form.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "أَ=a- (first letter of the colour pattern aCCaC)",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/course/grammar.json",
+      "path": "[44].explanation (tap); [47].explanation (tap)",
+      "current": "ـِي=my (ending: -ī)",
+      "problem": "In 'The end is sukūn for a man, ـِي for a woman' (imperative and negative imperative) ـِي is the feminine verb ending of اِفْتَحِي / لَا تَشْرَبِي, not the possessive 'my'.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "ـِي=-ī (verb ending: to a woman)",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/course/grammar.json",
+      "path": "[47].formula (tap, تَشْرَبِي and تَشْرَبُوا); [47].examples[1].ar (tap)",
+      "current": "تَشْرَبِي=you drink (to a woman, after an)",
+      "problem": "In لَا تَشْرَبِي / لَا تَشْرَبُوا 'don't drink!' the form comes after the prohibitive لَا, not after أَنْ. The gloss mislabels the form and does not show it is an order (the masculine تَشْرَبْ in the same line is glossed 'drink (to a man)').",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "تَشْرَبِي=drink (to a woman; after lā: don't drink)",
+      "alsoChange": "تَشْرَبُوا → 'drink (to a group; after lā: don't drink)'"
+    },
+    {
+      "file": "content/course/grammar.json",
+      "path": "[44].explanation (tap, اُرْكُضْ); [44].table.rows[1][3] (tap); [44].table.rows[2][3] (tap); [44].table.rows[3][3] (tap)",
+      "current": "اِجْلِسُوا=sits (order, to a group)",
+      "problem": "Imperatives are glossed as third-person present verbs: اِجْلِسُوا 'sits', تَنَفَّسُوا 'breathes', خُذُوا 'takes', اُرْكُضْ 'runs (order, to a man)'. The neighbouring cells say 'sit! (to a man)', 'breathe! (to a woman)'.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "اِجْلِسُوا=sit! (to a group)",
+      "alsoChange": "تَنَفَّسُوا → 'breathe! (to a group)'; خُذُوا → 'take! (to a group)'; اُرْكُضْ → 'run! (to a man)'"
+    },
+    {
+      "file": "content/course/grammar.json",
+      "path": "[34].summary (tap); [34].formula (tap); [34].explanation (tap, ـًا and ـَةً); [35].explanation (tap, ـَةً); [35].table.rows[4][2] (tap); [35].table.rows[5][2] (tap); [31].explanation (tap, ـِهِ)",
+      "current": "ـًا=the letter alif",
+      "problem": "These are endings, the point of the lessons: ـًا is the accusative -an after لَيْسَ, ـَةً is -atan, ـِهِ is 'his' after an i sound. The taps name them as bare letters ('the letter alif', 'the letter tāʾ marbūṭa', 'the letter hāʾ'), while ـِهِمْ in the same line has a proper gloss ('their (ending after an i sound: -him)').",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "ـًا=-an (accusative ending)",
+      "alsoChange": "ـَةً → '-atan (accusative ending after ة)'; ـِهِ → 'his, its (ending after an i sound: -hi)'"
+    },
+    {
+      "file": "content/course/grammar.json",
+      "path": "[53].titleAr (tap); [53].summary (tap); [53].formula (tap); [53].explanation (tap, ×2); [53].examples[0].ar (tap)",
+      "current": "حَارًّا=hot (after 'was')",
+      "problem": "The yakūnu lesson uses حَارًّا after يَكُونُ and سَيَكُونُ ('is usually', 'will be'). Every tap says 'after was', contradicting the lesson's point that يَكُونُ also takes -an.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "حَارًّا=hot (-an after kāna, yakūnu)",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/course/grammar.json",
+      "path": "[23].explanation (tap, عَشَرَ in أَحَدَ عَشَرَ, اِثْنَا عَشَرَ, ثَلَاثَةَ عَشَرَ); [75].examples[0].ar (tap)",
+      "current": "عَشَرَ=ten (part of 'fifteen')",
+      "problem": "عَشَرَ is glossed 'part of fifteen' in eleven, twelve, thirteen and in الثَّانِيَ عَشَرَ 'twelfth'.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "عَشَرَ=ten (second part of 11–19)",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/course/grammar.json",
+      "path": "[12].explanation (tap)",
+      "current": "الْوَاحِدَة=the first (f): one o'clock",
+      "problem": "الْوَاحِدَة is 'the one'; 'the first (f)' is الْأُولَى, which the course teaches on day 23. The gloss tells the learner the wrong word for 'first'.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "الْوَاحِدَة=one (f): one o'clock",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/course/grammar.json",
+      "path": "[24].examples[1].ar (tap); [25].examples[1].ar (tap)",
+      "current": "الْمَكْتَبَة=the library",
+      "problem": "Both sentences are translated 'bookshop' (and the [24] table says 'goes Layla to the bookshop'), but the tap says 'the library'. مَكْتَبَة means both; the tap should not contradict the translation.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "الْمَكْتَبَة=the bookshop; the library",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/course/grammar.json",
+      "path": "[21].explanation (tap, هِيَ ×2); [21].examples[1].ar (tap); [29].summary (tap)",
+      "current": "هِيَ=she",
+      "problem": "These lines teach that a plural of things is referred to with هِيَ meaning 'it/they' (أَيْنَ الْمَلَاعِق؟ هِيَ فِي الْمَطْبَخ 'They are in the kitchen'), but the tap shows only 'she'.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "هِيَ=she; it, they (for things)",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/course/grammar.json",
+      "path": "[18].explanation (tap ×2); [18].examples[1].ar (tap); [57].title (tap); [57].titleAr (tap); [57].summary (tap); [57].formula (tap); [57].explanation (tap ×5); [57].examples[0].ar (tap)",
+      "current": "لَوْ=if (for things that are not real)",
+      "problem": "In the fixed politeness phrase لَوْ سَمَحْتَ 'please / excuse me' the tap says 'if (for things that are not real)', which is the day-80 conditional sense and suggests the request is hypothetical.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "لَوْ=if (law samaḥta = please, excuse me)",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/course/grammar.json",
+      "path": "[51].title (tap); [51].summary (tap); [51].formula (tap); [51].explanation (tap ×2); [51].table.head[1] (tap)",
+      "current": "لِـ=for; belonging to",
+      "problem": "The lesson is 'In order to: لِـ + the present'. The tap gives the possessive sense 'belonging to'; the purpose sense 'in order to, so that' is missing.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "لِـ=for; in order to (before a verb)",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/course/grammar.json",
+      "path": "[60].explanation (tap)",
+      "current": "قَلِيل=a little (while)",
+      "problem": "In 'قَلِيل (few) → أَقَلّ (fewer, less)' the adjective means 'few, little'; the tap gives the adverbial 'a little (while)'.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "قَلِيل=few, little",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/course/grammar.json",
+      "path": "[76].summary (tap); [76].explanation (tap)",
+      "current": "تَفَضَّلُوا=please come in (to several people)",
+      "problem": "In the formal-letter lesson تَفَضَّلُوا is the respectful 'be so kind' (After تَفَضَّلُوا comes بِـ + a masdar), not 'please come in'. The other forms in the same lines are glossed correctly ('and be so kind (plural of respect)').",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "تَفَضَّلُوا=be so kind (plural of respect); please come in",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/course/grammar.json",
+      "path": "[58].explanation (tap, عُدْتُ); [58].table.rows[3][1] (tap); [68].explanation (tap, يُشَاهِدُ)",
+      "current": "عُدْتُ=returns, goes back (I, past)",
+      "problem": "Garbled tense/person glosses: عُدْتُ 'I returned' taps as 'returns, goes back (I, past)'; in أَعْرِفُ أَنَّهُ يُشَاهِدُ 'I know that he is watching' يُشَاهِدُ taps as 'saw, watched (present)'.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "عُدْتُ=I returned, I came back",
+      "alsoChange": "يُشَاهِدُ → 'he watches, he is watching'. Similar but less misleading: [66] أَرْسَلَ 'sends (past)', اِنْتَظَرَ 'waits (past)', اِسْتَعْمَلَ 'uses (past)' → '(he) sent / waited / used'"
+    },
+    {
+      "file": "content/course/grammar.json",
+      "path": "[59].formula (⟶); [59].explanation (⟶)",
+      "current": "verb + -nī · -ka · -ki · -·hu · -·hā · -nā · -kum · -·hum",
+      "problem": "Engine: the new s·h separator is inserted between a hyphen and h: '-·hu', '-·hā', '-·hum' (also 'with -·hu for a masculine word and -·hā' in the explanation). There is no s before the h. This was introduced by the round-1 s·h fix.",
+      "category": "engine",
+      "severity": "minor",
+      "fix": "verb + -nī · -ka · -ki · -hu · -hā · -nā · -kum · -hum",
+      "alsoChange": "apply the · separator only when the preceding letter is s"
+    },
+    {
+      "file": "content/course/grammar.json",
+      "path": "[50].examples[0].ar (⟶)",
+      "current": "Lan anāma mutaʾakhkhiran l-layla.",
+      "problem": "Engine: tanwīn before a hamzat-waṣl word needs a helping vowel i (the n cannot be followed by a consonant cluster): mutaʾakhkhirani l-layla. The output 'mutaʾakhkhiran l-layla' is unpronounceable as written. Round 2 lists 'jiddan l-yawma' as the fixed form, but the standard reading is jiddani l-yawma.",
+      "category": "engine",
+      "severity": "minor",
+      "fix": "Lan anāma mutaʾakhkhirani l-layla.",
+      "alsoChange": "same rule for every -an/-un/-in before al- (e.g. jiddani l-yawma)"
+    },
+    {
+      "file": "content/course/grammar.json",
+      "path": "[1].explanation (⟶); [5].explanation (⟶)",
+      "current": "Without harakat both are written , so the vowel marks matter while you learn.",
+      "problem": "Engine: in English prose an unvocalised Arabic word (أنت) is dropped, leaving 'both are written ,', and the Arabic question mark ؟ is turned into '?', so [5] reads 'The Arabic question mark ? is a mirrored ?'. Both sentences lose their example.",
+      "category": "engine",
+      "severity": "minor",
+      "fix": "Without harakat both are written ʾnt (أنت), so the vowel marks matter while you learn. / The Arabic question mark ؟ is a mirrored ?.",
+      "alsoChange": "keep unvocalised words and the sign ؟ as they are inside English prose"
+    }
+  ],
+  "notes": [
+    { "file": "content/course/grammar.json", "path": "[4].explanation", "note": "'Drop a final ā or the article first: لُبْنَان → لُبْنَانِيّ' — the example drops neither; أَمْرِيكَا → أَمْرِيكِيّ would illustrate the rule." },
+    { "file": "content/course/grammar.json", "path": "[36].explanation", "note": "أَخُو / أَبُو are the nominative forms; after a preposition or as an object they are أَخِي/أَبِي and أَخَا/أَبَا. Fine for the examples given, but 'before another word, as a subject' would be exact." },
+    { "file": "content/course/grammar.json", "path": "[71].explanation; [71].examples[0].ar (tap)", "note": "الدَّرْسَ after إِنَّ taps as 'the lesson (object form)'; it is the noun of inna, not an object. '(-a after inna)' as used for الْفِيلْمَ would be consistent." },
+    { "file": "content/course/grammar.json", "path": "[72]", "note": "مَعَكَ حَقّ is colloquial-leaning; MSA usually says مَعَكَ الْحَقُّ or أَنْتَ عَلَى حَقّ (the lesson already uses عَلَى حَقّ)." },
+    { "file": "content/course/grammar.json", "path": "[48]", "note": "لَازِم أَنْ alone is spoken style; written MSA prefers مِنَ اللَّازِمِ أَنْ. The lesson does say لَازِم is for speech, so this is a register note only." },
+    { "file": "content/course/grammar.json", "path": "[32].explanation (tap)", "note": "لَهُ taps as 'it has (lit. for it)'; in the possession lesson 'he has (lit. for him)' would be clearer." },
+    { "file": "content/course/grammar.json", "path": "[7].explanation (⟶)", "note": "The transliteration repeats the word: '(as-sayyāra as-sayyāra)', '(al-qalam al-qalam)', and in [11] '(madrasatu l-lugha, madrasatu l-lugha …)'. Harmless but odd." },
+    { "file": "content/course/grammar.json", "path": "[52].table.rows / explanation", "note": "هُنَاكَ رِيَاح قَوِيَّة is translated 'it's very windy'; literally 'there are strong winds'." },
+    { "file": "content/course/grammar.json", "path": "[58].examples[1].ar", "note": "لَمْ نَزُرْهَا أَبَدًا is common modern usage; purists use قَطُّ for 'never' in the past. Acceptable." }
+  ],
+  "summary": "I read the whole grammar chunk (78 grammar cards, about 3,060 lines): every Arabic line, harakat and case ending, formula, table cell, explanation, example, translation, transliteration and tap gloss. The Arabic itself is clean: I found no misspellings, no wrong case endings after inna/kāna/laysa/lam/lan/an, no agreement or conjugation errors, and the rules for -ūna/-īna, the numbers 3–10 vs 11–99, idāfa, hollow verbs, imperatives, the passive and conditionals are correct. There are 30 errors (9 major, 21 minor): 2 grammar-fact (the dual -ayni said to follow 'a verb', major; '11 upwards' for -atan, minor), 1 arabic (أَدَاة without the construct vowel, read as 'Adāh'), 24 gloss and 3 engine. The main pattern is tap glosses chosen from another sense or another day: wrong person on ambiguous ta- verbs (تَشْرَبُ 'you' in 'she drinks', تُحِبُّ, تَتَّصِلَ, تَكُونُ), مَا = 'what' throughout the mā-negation lesson, إِنَّ = 'that (after qāla)' throughout the 'Indeed: inna' lesson, أَفْعَلَ = 'I do' for the Form IV pattern, active verbs glossed as passive in the passive lesson, comparative/superlative swapped (أَحْسَنُ = 'the best' in 'books are better'), كَرِيم = 'Karim' in رَمَضَان كَرِيم and السَّاعَةَ = 'at the hour' for 'this clock'. Engine: the new s·h separator now fires after a hyphen ('-·hu'), tanwīn before al- lacks the helping i ('mutaʾakhkhiran l-layla'), and unvocalised words and ؟ in prose are dropped or changed. Tap glosses: I checked all 3,178 taps (701 tap lines); about 125 were wrong or misleading for their line (the largest groups: إِنَّ 18, passive forms 15, لَوْ in لَوْ سَمَحْتَ 13, مَا 10, endings named as letters 9, wrong person 8, superlative/comparative 7)."
+}
