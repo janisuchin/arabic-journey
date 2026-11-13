@@ -1,6 +1,6 @@
 # Status — Arabic Journey
 
-Updated 2026-11-12 (Scenario photo scenes + 32 scenarios done). Branch `main`. All work runs on the owner's PC (no cloud session).
+Updated 2026-11-13 (Word photos done). Branch `main`. All work runs on the owner's PC (no cloud session).
 Main prompt: `Arabic_Reference/PROMPT_B_Nihongo-based.md` (phases A–F, checklist Z).
 Live: https://ar-journey.german-journey.workers.dev · unlocked https://ar-journey-unlocked.german-journey.workers.dev
 
@@ -27,8 +27,16 @@ Live: https://ar-journey.german-journey.workers.dev · unlocked https://ar-journ
   note) under the photo; no numbers. `src/components/scene.tsx`, schema `Scene`, `content/course/scenes.json`
   (generated from `scripts/scene-plan.json` by `scripts/scene_photos.py apply`), `scripts/render-spots.py`
   (box check), `docs/authoring/SCENE_SPOTS_BRIEF.md` (4 writer agents placed the boxes, all renders checked).
-  Credits lists 156 photos. Checks: validator 0 errors, 76 unit tests, e2e 28/28 (port 4191), both editions
-  deployed + 200 live.
+  Credits lists 156 photos.
+- **Word photos** (6838b81, Prompt B M): 202 concrete nouns have a square 360×360 licensed Commons photo in
+  `assets/words/<vocab-id>.jpg`; every other word keeps its emoji tile. `WordTile` (`src/components/photo.tsx`)
+  shows it with the © badge on the dictionary/lesson word cards (56 px, badge opens the Commons page), the word
+  box (150 px) and flashcards (160 px, credit strip); Credits lists all 358 photos. Content file
+  `content/course/word-photos.json` (`{vocab, file, alt, credit}`) is written by `scripts/word_photos.py apply`
+  from `scripts/word-plan.json` (query, optional `wd` Wikidata item, title, crop, alt). Search = Wikidata P18
+  concept image, then Commons search; 57 first picks were replaced by hand from `candidates` sheets. Validator:
+  noun only, one photo per vocab, file = `<id>.jpg`, bundled, 360×360, no Commons title or file used twice.
+  Checks: validator 0 errors, 76 unit tests, e2e 28/28 (port 4191), both editions deployed + 200 live.
 
 ## Left (against Prompt B checklist Z)
 1. Teacher review of the culture chapters: open points per chapter in `docs/review/culture-notes/*.md`.
@@ -45,7 +53,10 @@ Live: https://ar-journey.german-journey.workers.dev · unlocked https://ar-journ
    Writers' word doubts are in the per-spot `note`s only; a teacher should glance at the spot words
    (e.g. الْمِرْطَبَان, الْعَرَبَة = trolley, dish names in restaurant/dietary).
 4. Speaking lab: native speech recognition not bundled; expo-audio recording on Android untested until next APK.
-5. Word photos (150–300) and the 5,000-word dictionary check.
+5. Word photos: owner glance at `assets/words/` (sheets: `python -I -X utf8 scripts/word_photos.py sheet <dir>`).
+   Known compromises: `ras` (head) is a silhouette, `kub` is an engraved stemmed glass, `qaima` and
+   `bitaqa-baridiyya` are vintage PD items, `harf` is an alphabet graphic, `wajh` reuses a "woman" search hit;
+   faces appear in people/job words (public or CC-licensed portraits). Then the 5,000-word dictionary check.
 6. Audit tools `scripts/audit/` + two-reviewer + reconciler audit (writers' open points in git history, 68d8cac).
 7. `tools/build-android.ps1`, layout sweep, release v1.0.0 by the Journey release-folder rule; next APK must be
    checked on device (forced RTL is off).
@@ -56,8 +67,12 @@ Live: https://ar-journey.german-journey.workers.dev · unlocked https://ar-journ
 - Shared content files have mixed layouts: append only, never re-serialise (merge scripts and
   `real_life_photos.py apply` insert by text).
 - Photos: Commons only via `python -I -X utf8 scripts/commons_photo.py` / `real_life_photos.py` /
-  `scene_photos.py` (throttled, licence-filtered, credit JSON). Swap a scene photo: delete the jpg, drop
-  file/width/height/credit from its plan entry, set a new title, `get`, redo spots, `apply`.
+  `scene_photos.py` / `word_photos.py` (throttled, licence-filtered, credit JSON). Swap a scene photo: delete
+  the jpg, drop file/width/height/credit from its plan entry, set a new title, `get`, redo spots, `apply`.
+  Swap a word photo: `word_photos.py candidates <dir> <id>` (new `query` in the plan first), look at
+  `cand-<id>.png`, `choose <dir> <id>=N`, `get <id>`, write `alt`, `apply`, `content:index`; crop with
+  `"crop": "top|bottom|left|right"` + `recrop <id>`. Word photos are keyed `words/<file>` in the validator's
+  reuse map because scene and word files may share a name (bank.jpg).
 - Scene spots: one word with the article where possible (a one-word spot is glossed by its own `en`); the hand
   glossary overrides every gloss app-wide, so never add a hand entry for a word the course already glosses.
   Selected box always shows; hovered box shows in addition. `render-spots.py --all <dir>` before deploying. Real-life card: one photo per day, no caption (the story is the caption), chips =
@@ -75,7 +90,8 @@ Live: https://ar-journey.german-journey.workers.dev · unlocked https://ar-journ
 - The Bash tool on this PC strips backslashes inside heredocs: write Python helpers to a file (Write tool) instead.
 
 ## Next step
-Word photos (Prompt B M): about 150–300 square 360×360 licensed Commons photos for concrete nouns in
-`content/course/vocabulary.json` (emoji tile stays for the rest), shown in the word box, flashcards and dictionary
-with the © badge and listed on Credits; tooling like `scene_photos.py` (plan + search/get/apply, validator checks
-file exists and no reuse); then check, e2e (port 4191), deploy, commit and push.
+Release v1.0.0 by the Journey release-folder rule (Left 7): `tools/build-android.ps1` (local APKs, locked +
+unlocked), layout sweep at 360×800 and 800×1280 with the largest text size, web zips + store assets into the
+release folder "Arabic Journeyll release journey and links and architecture" (Nihongo = format), and a device
+check of the APK (forced RTL off, expo-audio recording in the Speaking lab); then check, e2e (port 4191),
+deploy, commit and push.
