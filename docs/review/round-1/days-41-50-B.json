@@ -1,0 +1,183 @@
+{
+  "chunk": "days-41-50",
+  "reviewer": "B",
+  "errors": [
+    {
+      "file": "content/days/day43.json; content/days/day46.json",
+      "path": "day43 dialogue.culture (tap); day46 dialogue.culture (tap)",
+      "current": "سَلَامَتُكِ=get well soon (to a man)",
+      "problem": "سَلَامَتُكِ (with kasra, -ki) is the form said to a WOMAN; the tap gloss says 'to a man'. The culture text itself explains it correctly, so the tap contradicts the lesson.",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "سَلَامَتُكِ=get well soon (lit. your safety, to a woman)",
+      "alsoChange": "the gloss entry for سَلَامَتُكِ in the word dictionary used by the tap engine"
+    },
+    {
+      "file": "content/days/day44.json",
+      "path": "intro (tap); sentences[0].mistakes[0].wrong (tap); quiz[1].options[3] (tap)",
+      "current": "تَفْتَحُ=(it) is opened ('opens')",
+      "problem": "تَفْتَحُ is active, 2nd person masculine (or 3rd f.): 'you open'. The gloss gives a passive '(it) is opened', which is a different form (تُفْتَحُ). The intro and the mistake explanation both rely on the learner reading it as 'you open'.",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "تَفْتَحُ=you open (to a man; statement, not an order)"
+    },
+    {
+      "file": "content/days/day41.json",
+      "path": "intro (tap); completion (tap)",
+      "current": "مَا=what",
+      "problem": "In مَا ذَهَبْتُ and 'with مَا and with لَمْ' the word مَا is the past-tense negative 'not', which is the whole point of the lesson, but tapping it shows 'what' (the interrogative sense from an earlier lesson).",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "مَا=not (before a past verb)",
+      "alsoChange": "dialogue.lines[8].segs already glosses وَمَا as 'and mā (not)'; align the tap entry with it"
+    },
+    {
+      "file": "content/days/day41.json",
+      "path": "sentences[1].mistakes[0].wrong (tap); quiz[5].options[1] (tap)",
+      "current": "يَحْضُرُ=attended, came (present)",
+      "problem": "يَحْضُرُ is the present indicative 'he attends / he comes'; the gloss gives the past 'attended, came'. In the quiz the learner must reject this option precisely because it is the present with -u, so the wrong tense in the gloss undermines the task.",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "يَحْضُرُ=he attends, he comes (present, with -u)"
+    },
+    {
+      "file": "content/days/day43.json; content/days/day45.json; content/days/day46.json; content/days/day50.json",
+      "path": "day43 intro; day43 sentences[0].mistakes[0].why; day45 sentences[2].mistakes[0].why; day45 quiz[6].options[2]; day46 sentences[1].mistakes[0].why; day50 sentences[3].mistakes[0].why",
+      "current": "A / at",
+      "problem": "The transliteration engine renders the stand-alone letter ة as 'A / at' inside running English (e.g. 'feminine even without A / at', 'the adjective takes A / at', quiz option '⟶ A / at'). The Arabic is right; the ⟶ line is noise for the learner.",
+      "category": "engine",
+      "severity": "minor",
+      "fix": "Render a bare ة as 'tāʾ marbūṭa (ة)' or leave the letter untransliterated"
+    },
+    {
+      "file": "content/days/day45.json; content/days/day46.json; content/days/day48.json; content/days/day49.json; content/days/day50.json",
+      "path": "day45 reading.ar; day46 sentences[5].ar; day46 dialogue.lines[9].ar; day46 reading.ar; day48 dialogue.lines[7].ar; day48 reading.ar; day49 dialogue.lines[2].ar; day49 reading.ar; day50 reading.ar",
+      "current": "Wasāmī",
+      "problem": "When وَ or لِ is prefixed to a proper name the engine capitalises the particle and lowercases the name: 'Wasāmī', 'Wadānyāl', 'Lidānyāl', 'Waʿumar' (which also hides the ʿayn as the first letter of ʿUmar). Elsewhere the engine writes 'wa-bnuhu', 'wa-anā', so the hyphenated form exists; names should get it too.",
+      "category": "engine",
+      "severity": "minor",
+      "fix": "wa-Sāmī, wa-Dānyāl, li-Dānyāl, wa-ʿUmar"
+    },
+    {
+      "file": "content/days/day47.json",
+      "path": "dialogue.lines[7].ar",
+      "current": "Shāī bi-l-ʿasal?",
+      "problem": "شَاي is shāy (final yāʾ is a consonant after ā); the engine gives 'Shāī'. In the same day شَايًا is correctly 'shāyan'.",
+      "category": "engine",
+      "severity": "minor",
+      "fix": "Shāy bi-l-ʿasal?"
+    },
+    {
+      "file": "content/days/day44.json; content/days/day47.json; content/days/day49.json",
+      "path": "day44 quiz[5].options[1] (tap); day47 intro (tap); day47 sentences[2].mistakes[0].wrong (tap); day47 quiz[1].options[2] (tap); day49 intro (tap); day49 quiz[3].options[1] (tap)",
+      "current": "تَنَفَّسُوا=breathes (order, to a group); اِلْعَبِي=plays (order, to a woman); تَنْسَى=forgets (you (present))",
+      "problem": "Three tap glosses are garbled 3rd-person forms: the imperatives تَنَفَّسُوا and اِلْعَبِي are glossed 'breathes' / 'plays', and تَنْسَى (you forget) is glossed 'forgets (you (present))'. The sibling forms (اِلْعَبُوا=play! (to a group), كُلِي=eat! (to a woman)) show the intended format.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "تَنَفَّسُوا=breathe! (to a group); اِلْعَبِي=play! (to a woman); تَنْسَى=you forget (to a man; statement)"
+    },
+    {
+      "file": "content/days/day48.json",
+      "path": "sentences[0].mistakes[0].wrong (tap)",
+      "current": "تَرْتَاحُ=you rest (after an)",
+      "problem": "The 'wrong' example لَازِم تَرْتَاحُ is wrong precisely because تَرْتَاحُ (with -u) is NOT the form after أَنْ, yet the tap gloss labels it '(after an)'. Compare the correct option's gloss تَرْتَاحَ=you rest (after an).",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "تَرْتَاحُ=you rest (to a man; statement, with -u)"
+    },
+    {
+      "file": "content/days/day47.json",
+      "path": "sentences[1].mistakes[0].right (tap)",
+      "current": "تَشْرَبِ=you drink (form after 'lam'; -i before al-)",
+      "problem": "In لَا تَشْرَبِ الْقَهْوَة the form is the negative imperative 'don't drink', not a form after لَمْ; the tap gloss is carried over from day 41. The seg gloss on the same sentence gets it right ('drink (to a man; i joins it to the next word)').",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "تَشْرَبِ=drink (to a man, after 'don't'; -i before al-)"
+    },
+    {
+      "file": "content/days/day46.json",
+      "path": "sentences[2].mistakes[0].wrong (tap); sentences[2].mistakes[0].right (tap); quiz[5].options[1] (tap); quiz[5].options[3] (tap)",
+      "current": "أَنْتِ=you (written without vowel marks: anta or anti)",
+      "problem": "The word is fully vocalised (أَنْتِ, kasra = to a woman), but the tap gloss says it is 'written without vowel marks' and may be anta or anti. The learner is told the gender is unknown when the text shows it.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "أَنْتِ=you (to a woman)"
+    },
+    {
+      "file": "content/days/day45.json",
+      "path": "intro (tap); dialogue.culture (tap)",
+      "current": "الْيَوْم=today",
+      "problem": "In ثَلَاثَ مَرَّات فِي الْيَوْم the phrase means 'three times a day / per day'; the tap gloss 'today' is the adverbial sense (الْيَوْمَ). The segs on sentences[2] and the dialogue correctly say 'the day'.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "الْيَوْم=the day ('fī l-yawm': a day, per day)"
+    },
+    {
+      "file": "content/days/day44.json",
+      "path": "intro",
+      "current": "take the 'you' form of the present, drop the ta- and the final vowel. تَفْتَحُ (you open) becomes اِفْتَحْ (open!)",
+      "problem": "The rule as stated yields 'ftaḥ'; it omits the step the examples rely on, adding the helping alif (i- or u-) when the stem starts with two consonants. The 'why' on sentences[0] adds it ('and add i- in front'), so the intro rule is incomplete rather than wrong, but a learner applying it literally gets no word.",
+      "category": "grammar-fact",
+      "severity": "minor",
+      "fix": "take the 'you' form of the present, drop the ta- and the final vowel, and put a helping i- (or u-) in front when the word would start with two consonants. تَفْتَحُ (you open) becomes اِفْتَحْ (open!)"
+    }
+  ],
+  "notes": [
+    {
+      "file": "content/days/day41.json",
+      "path": "dialogue.lines[1].ar; reading.ar",
+      "note": "تَعْبَان (taʿbān) is the colloquial word for 'tired'; MSA uses مُتْعَب (which day 46 then teaches) or تَعِب. Not wrong in a polite everyday dialogue, but the two days now teach two different words for the same idea."
+    },
+    {
+      "file": "content/days/day41.json",
+      "path": "dialogue.culture",
+      "note": "'salāmtik to a woman' is the colloquial pronunciation; the MSA form the course teaches on day 43 is سَلَامَتُكِ (salāmatuki). Consider aligning the two culture notes."
+    },
+    {
+      "file": "content/days/day42.json",
+      "path": "sentences[1].mistakes[0]",
+      "note": "رَكِبَ عَلَى الْحِمَار is attested in classical and modern Arabic (رَكِبَ عَلَى الدَّابَّة); رَكِبَ الْحِمَار is more common, but calling the عَلَى version a mistake is too strong. Perhaps present it as 'the usual way' rather than wrong."
+    },
+    {
+      "file": "content/days/day45.json",
+      "path": "sentences[2].mistakes[0]",
+      "note": "The wrong (ثَلَاثَة مَرَّات) and right (ثَلَاثَ مَرَّات) forms both transliterate as 'Thalātha marrāt' because ة in pause is -a. The learner sees two identical ⟶ lines under two different Arabic strings; a transliteration 'thalāthat' or an explicit note would make the difference audible."
+    },
+    {
+      "file": "content/days/day48.json",
+      "path": "title; sentences[0].mistakes[0].why",
+      "note": "لَازِم أَنْ is a colloquial-flavoured construction; in careful MSA one says يَجِبُ أَنْ or مِنَ اللَّازِمِ أَنْ. The intro flags يَجِبُ as 'more formal', which covers it, but 'In standard Arabic lāzim needs an' presents لَازِم itself as standard."
+    },
+    {
+      "file": "content/days/day50.json",
+      "path": "dialogue.lines[6].en",
+      "note": "The English adds 'all day' ('I'll be busy all day on Saturday'); the Arabic says only سَأَكُونُ مَشْغُولًا يَوْمَ السَّبْت."
+    },
+    {
+      "file": "content/days/day50.json",
+      "path": "dialogue.lines[13].en",
+      "note": "The English ends 'See you on Sunday!' while the Arabic is إِلَى اللِّقَاء ('see you'); harmless but not literal."
+    },
+    {
+      "file": "content/days/day43.json",
+      "path": "intro (tap); quiz[1].options[2] (tap)",
+      "note": "The tap gloss يَد=hand ('hand luggage') carries an odd parenthetical from another lesson; 'hand' alone would be clearer here."
+    },
+    {
+      "file": "content/days/day49.json",
+      "path": "sentences[3].grammar",
+      "note": "سَامِي يَسْبَحُ فِي النَّادِي is tagged 'nominal-sentence'; it is a subject + verbal predicate. Only affects the grammar link, not the Arabic."
+    },
+    {
+      "file": "content/days/day48.json; content/days/day50.json",
+      "path": "day48 dialogue.lines[3].ar; day50 dialogue.lines[5].ar; day50 dialogue.lines[12].ar; day50 reading.ar",
+      "note": "امْتِحَان is written with a bare alif on day 48 and with اِ (kasra on the hamzat al-waṣl) on day 50. Both are acceptable; pick one for consistency."
+    },
+    {
+      "file": "content/days/day44.json",
+      "path": "dialogue.lines[4].ar",
+      "note": "ثَمَانٍ وَثَلَاثُونَ دَرَجَة is correct (feminine counted noun); the house style leaves دَرَجَة without its accusative tanwīn mid-phrase, consistent with the rest of the export, so not reported."
+    }
+  ],
+  "summary": "Checked every Arabic string in days 41-50 (titles, intros, sentences with their mistakes, dialogues, readings, quizzes, culture notes) for harakat, case endings, jussive after لَمْ, subjunctive after أَنْ, imperatives and negative imperatives, dual forms, feminine body parts, faʿlān/faʿlā adjectives, numbers 3-10 and 20-99, plus every seg and tap gloss, every ⟶ transliteration and every answer key. The core Arabic of the lessons is sound: no misspelt word, wrong verb form or wrong answer key was found, and the grammar rules taught (لَمْ + jussive, verb before plural subject stays singular, أَنْ + -a, ʿaṭshān → ʿaṭshā, 3-10 opposite gender) are correct. All 13 findings are in the tap-gloss dictionary and the transliteration engine rather than in the lessons themselves: 4 major gloss errors where a tapped word shows the wrong sense or wrong gender/tense (سَلَامَتُكِ labelled 'to a man', تَفْتَحُ glossed as passive, مَا glossed 'what' in a negation lesson, يَحْضُرُ glossed as past), 9 minor items (ة rendered 'A / at', 'Wasāmī'-style capitalisation of names after wa-/li-, 'Shāī' for shāy, garbled imperative glosses, glosses copied from another lesson's sense, and an imperative rule in the day 44 intro that omits the helping alif). The pattern is that the one-word tap dictionary reuses a single gloss across all senses and tenses of a word, so each new grammar point (negation مَا, jussive vs indicative, imperative vs statement) inherits glosses from the lesson where the word first appeared. Notes cover register (تَعْبَان, salāmtik, لَازِم), one over-strict 'mistake' (رَكِبَ عَلَى), and small English additions."
+}

@@ -1,0 +1,209 @@
+{
+  "chunk": "weeks-tests",
+  "reviewer": "B",
+  "errors": [
+    {
+      "file": "content/course/course.json",
+      "path": "weeks[5].test[3].ar (tap gloss of مَا)",
+      "current": "مَا=what",
+      "problem": "In مَا سَبَحْتُ the particle مَا is the past-tense negation 'not' (the marked answer is 'I didn't swim'), but the tap gloss says 'what'. The gloss contradicts the correct answer and supports the distractor 'What did I swim?'.",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "مَا=not (negates a past verb)",
+      "alsoChange": "nothing else; answer key 2 is correct"
+    },
+    {
+      "file": "content/course/course.json",
+      "path": "weeks[9].test[6].options[1] (tap gloss of دَرَّسَ)",
+      "current": "دَرَّسَ=lesson",
+      "problem": "دَرَّسَ is the Form II verb 'he taught' (the correct answer to 'Which verb means taught?'); 'lesson' is دَرْس. The learner who taps the right answer is told it means 'lesson'.",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "دَرَّسَ=(he) taught",
+      "alsoChange": "nothing else; answer key 1 is correct"
+    },
+    {
+      "file": "content/course/course.json",
+      "path": "weeks[12].test[7].ar (tap gloss of شَرِبْتَ)",
+      "current": "شَرِبْتَ=I drank",
+      "problem": "شَرِبْتَ (fatḥa on the tāʾ) is 'you (m) drank'; 'I drank' is شَرِبْتُ. The marked answer 'If you drink coffee in the evening, you don't sleep' is right, but the gloss teaches the wrong person and supports distractor 3 'When I sleep, I don't drink coffee'.",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "شَرِبْتَ=you drank (to a man)",
+      "alsoChange": "tap gloss تَنَامُ=you sleep (after an) → 'you sleep' (indicative, no an here)"
+    },
+    {
+      "file": "content/course/course.json",
+      "path": "weeks[10].test[5].options[0]; weeks[10].test[5].options[1]; weeks[10].test[5].options[3]",
+      "current": "Illadhī",
+      "problem": "The relative pronouns الَّذِي / الَّذِينَ / الَّتِي are transliterated 'Illadhī', 'Illadhīna', 'Illatī'. The Arabic is correct (lām with shadda + fatḥa); the pronunciation is alladhī / alladhīna / allatī. The learner reads a wrong first vowel for one of the most common words in the course.",
+      "category": "engine",
+      "severity": "major",
+      "fix": "Alladhī / Alladhīna / Allatī (engine: treat the الَّ of the relative pronoun as al- + shadda-lām, not as a kasra-initial word)",
+      "alsoChange": "check the same rendering wherever الَّذِي / الَّتِي appear in the day lessons"
+    },
+    {
+      "file": "content/course/course.json",
+      "path": "weeks[11].test[2].prompt (transliteration of الِامْتِحَان)",
+      "current": "fī liāmtiḥān",
+      "problem": "الِامْتِحَان is written in the conventional way (kasra on the lām, hamzat waṣl of the noun dropped) and is correct Arabic, but the engine renders it 'liāmtiḥān' (reads the kasra as a vowel of lām and the waṣl alif as ā). The pronunciation is fī l-imtiḥān.",
+      "category": "engine",
+      "severity": "major",
+      "fix": "fī l-imtiḥān (engine: after al- with kasra on the lām before an alif-waṣl noun, read 'l-i' + the noun; or spell the word الْاِمْتِحَان in the source)",
+      "alsoChange": "same pattern will affect الِاثْنَيْنِ, الِاسْم, الِابْن etc. wherever spelt this way"
+    },
+    {
+      "file": "content/course/course.json",
+      "path": "weeks[2].titleAr (tap gloss of وَالشَّرَاب)",
+      "current": "وَالشَّرَاب=and the syrup",
+      "problem": "In the week title الطَّعَام وَالشَّرَاب 'Food and drink', الشَّرَاب means 'drink/beverage'; 'syrup' is a secondary sense that belongs to another context. titleSegs correctly says 'and the drink'.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "وَالشَّرَاب=and the drink",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/course/course.json",
+      "path": "weeks[6].test[2].options[3] (tap gloss of تَفْتَحُ)",
+      "current": "تَفْتَحُ=(it) is opened ('opens')",
+      "problem": "تَفْتَحُ is active: 'you (m) open' or 'she/it opens'. 'is opened' describes a passive (تُفْتَحُ), which the learner has not met and which this word is not.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "تَفْتَحُ=you open (to a man) / she opens",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/course/course.json",
+      "path": "weeks[1].test[6].options[3] (tap gloss of يَسْتَيْقِظُ)",
+      "current": "يَسْتَيْقِظُ=to wake up",
+      "problem": "يَسْتَيْقِظُ is 'he wakes up' (3rd person present); glossing it as an infinitive hides exactly the person distinction this question tests (the other options are glossed 'you wake up (to a woman)', 'I wake up').",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "يَسْتَيْقِظُ=he wakes up",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/course/course.json",
+      "path": "weeks[6].test[7].options[3] (tap gloss of تَرْتَاحُ); weeks[12].test[7].ar (tap gloss of تَنَامُ)",
+      "current": "تَرْتَاحُ=you rest (after an)",
+      "problem": "In هَلْ تَرْتَاحُ؟ and لَا تَنَامُ the verbs end in -u (indicative); there is no أَنْ. The tag '(after an)' teaches that the -u form is the subjunctive, the opposite of what the course teaches (after an the ending is -a: تَرْتَاحَ, تَنَامَ).",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "تَرْتَاحُ=you rest (to a man); تَنَامُ=you sleep (to a man)",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/course/course.json",
+      "path": "weeks[6].test[6].ar (tap gloss of تَشْرَبِ); weeks[12].test[8].options[2] is correct (لَمْ)",
+      "current": "تَشْرَبِ=you drink (form after 'lam'; -i before al-)",
+      "problem": "In لَا تَشْرَبِ الْقَهْوَة the verb is a prohibitive after لَا (don't …), not after لَمْ. The form is the same (jussive) but the explanation names the wrong particle and will confuse the learner who has just chosen 'Don't drink coffee'.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "تَشْرَبِ=(don't) drink (form after lā; -i before al-)",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/course/course.json",
+      "path": "weeks[8].test[8].ar (tap gloss of أَكْبَرُ)",
+      "current": "أَكْبَرُ=bigger",
+      "problem": "In عَمَّان أَكْبَرُ مَدِينَة فِي الْأُرْدُنّ the elative before an indefinite noun is the superlative 'the biggest city'; the marked answer says 'biggest' but the tap says 'bigger', which matches the distractor 'Amman is bigger than Jordan'.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "أَكْبَرُ=biggest (before an indefinite noun)",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/course/course.json",
+      "path": "weeks[8].test[1].options[0] (tap gloss of أَجْلِسُ)",
+      "current": "أَجْلِسُ=I sit (wrong after an — correct: ajlisa)",
+      "problem": "Option 0 is أَجْلِسُ بِجَانِبِ النَّافِذَة, a plain statement with no أَنْ; the -u ending is correct there. The tag 'wrong after an' belongs to a different sentence and tells the learner a correct form is wrong.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "أَجْلِسُ=I sit",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/course/course.json",
+      "path": "weeks[8].titleAr (tap gloss of السَّفَر)",
+      "current": "السَّفَر=the travel ('passport')",
+      "problem": "On the week-9 title السَّفَر alone, the hint ('passport') belongs to جَوَازُ السَّفَر in w9t1, not to the word 'travel' by itself.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "السَّفَر=travel, travelling",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/course/course.json",
+      "path": "weeks[2].test[1].options[1]",
+      "current": "Ash-shāī",
+      "problem": "Known engine quirk: الشَّاي is rendered 'Ash-shāī'; the pronunciation is ash-shāy (final yāʾ is a consonant after ā).",
+      "category": "engine",
+      "severity": "minor",
+      "fix": "Ash-shāy",
+      "alsoChange": ""
+    }
+  ],
+  "notes": [
+    {
+      "file": "content/course/course.json",
+      "path": "weeks[8].test[8].ar; weeks[2].test[7].options[2]; weeks[7].test[4].ar; weeks[9].test[9].options[2] and many others",
+      "note": "Mid-sentence case endings are often omitted (أَكْبَرُ مَدِينَة فِي, الطَّعَام حَارّ جِدًّا, الْجَوّ غَائِم وَبَارِد, قَبِلْتُ الْوَظِيفَة) while other sentences carry full endings (السَّاعَةُ الثَّالِثَةُ وَالنِّصْفُ, كُتِبَتِ الرِّسَالَةُ). None is wrong Arabic, but the mix is inconsistent; e.g. أَكْبَرُ مَدِينَةٍ would normally carry the genitive tanwīn mid-sentence. Owner decision on house style."
+    },
+    {
+      "file": "content/course/course.json",
+      "path": "weeks[2].test[8].ar; weeks[7].test[4].ar; weeks[9].test[4].ar; weeks[11].test[5].options[0]",
+      "note": "Engine hyphenates wa- inconsistently: 'wasabʿūna', 'wabārid', 'wahiya', 'wabaʿdu' but 'wa-n-niṣf', 'wa-r-rubʿ', 'Wa-anta', 'wa-l-ʿāʾila'. Style only; the Arabic is fine."
+    },
+    {
+      "file": "content/course/course.json",
+      "path": "weeks[9].test[8].prompt",
+      "note": "'I'll call you tomorrow' is rendered with the plain present أَتَّصِلُ بِكَ غَدًا. Correct (present + غَدًا can be future) but سَأَتَّصِلُ would match the English and the week-8 lesson on sa-."
+    },
+    {
+      "file": "content/course/course.json",
+      "path": "weeks[6].test[7].options[0]",
+      "note": "لَازِم أَنْ تَرْتَاحَ is everyday/colloquial-flavoured MSA (the course teaches it on day 48). Fine for the course; a stricter MSA alternative is يَجِبُ أَنْ تَرْتَاحَ or عَلَيْكَ أَنْ تَرْتَاحَ."
+    },
+    {
+      "file": "content/course/course.json",
+      "path": "weeks[5].test[5].ar",
+      "note": "مُنْذُ أُسْبُوع glossed 'since' and translated 'a week ago': both readings exist ('a week ago' with a past verb; 'for a week' with a present one). Acceptable; the lesson context should make clear which."
+    },
+    {
+      "file": "content/course/course.json",
+      "path": "weeks[0].test[4].options[3]; weeks[8].test[1].options[3]",
+      "note": "Tap gloss for أَنْتَ says 'written without vowel marks: anta or anti' although the word is fully vowelled here. Harmless but puzzling."
+    },
+    {
+      "file": "content/course/course.json",
+      "path": "weeks[9].test[5].options[2]",
+      "note": "In حَضْرَةَ الْأُسْتَاذ عَادِل الْمُحْتَرَم the tap glosses الْأُسْتَاذ as 'the teacher'; in a letter opening it is the honorific 'Mr'. Also عَادِل should strictly be عَادِلٍ (genitive) if endings are shown — but this is pausal house style."
+    },
+    {
+      "file": "content/course/course.json",
+      "path": "weeks[3].test[8].ar",
+      "note": "Tap gloss هٰذِهِ=this (f) before the plural الْقُمْصَان: here it means 'these' (non-human plural takes f. sg.). The lesson rule is right; the per-word gloss is the generic one."
+    },
+    {
+      "file": "content/course/course.json",
+      "path": "weeks[12].test[2].ar; weeks[12].test[3].ar; weeks[12].test[8].explain",
+      "note": "Small gloss mismatches: السَّاعَةُ='the clock' (in time-telling 'the hour'), أَصْغَرُ='smaller' (here 'younger', as the answer says), كُتِبَتْ='were written (f)' (singular 'was written'). Not wrong enough to mark as errors."
+    },
+    {
+      "file": "content/course/course.json",
+      "path": "weeks[2].test[1].options[0]",
+      "note": "Distractor شَايْ carries a sukūn on the final yāʾ; unusual orthography (شَاي is normal). It is a distractor so it does no harm."
+    },
+    {
+      "file": "content/course/course.json",
+      "path": "weeks[11].test",
+      "note": "Week 12 has 8 test questions; every other week has 10. Design point only."
+    },
+    {
+      "file": "content/course/course.json",
+      "path": "weeks[3].test[1].prompt",
+      "note": "English prompt '… the students the museum.' is hard to read as a gap sentence; 'The students … the museum.' would be clearer."
+    }
+  ],
+  "summary": "I read all 2,055 lines of audit/weeks-tests.txt (13 week titles with segs, 128 test items with options, answer keys, taps and transliterations, and the 13 level rows) against the brief. Every answer key is correct and no option set has a second correct answer; the Arabic strings themselves (harakat, agreement, moods after lam/lan/an, kāna/laysa accusatives, dual and plural forms, passives) are sound. The errors are concentrated in the tap glosses, which are drawn from a global word list and sometimes carry a sense or a grammatical tag from another sentence: three of them directly contradict the marked answer (مَا 'what' in مَا سَبَحْتُ, دَرَّسَ 'lesson', شَرِبْتَ 'I drank') and are major; six more are misleading tags ('after an' on indicative forms, 'after lam' on a lā-prohibitive, 'wrong after an' on a sentence with no an, 'bigger' for a superlative, 'syrup', 'is opened'). Two engine faults are major because they teach a wrong pronunciation: the relative pronouns الَّذِي/الَّذِينَ/الَّتِي come out as 'Illadhī…' and الِامْتِحَان as 'liāmtiḥān'; the الشَّاي → 'shāī' quirk is noted once. Total 14 errors (5 major, 9 minor) and 12 notes, mostly on inconsistent mid-sentence case endings, wa- hyphenation and small gloss wording."
+}

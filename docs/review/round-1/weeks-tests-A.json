@@ -1,0 +1,187 @@
+{
+  "chunk": "weeks-tests",
+  "reviewer": "A",
+  "errors": [
+    {
+      "file": "content/course/course.json",
+      "path": "weeks[9].test[6].options[1] (tap gloss)",
+      "current": "دَرَّسَ=lesson",
+      "problem": "the correct answer of 'Which verb means taught?' is glossed 'lesson' when tapped; دَرَّسَ is the form II verb 'he taught' (lesson is دَرْس). The learner who taps the right option is told it means something else",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "دَرَّسَ=(he) taught",
+      "alsoChange": "the same dictionary entry wherever دَرَّسَ is tapped"
+    },
+    {
+      "file": "content/course/course.json",
+      "path": "weeks[12].test[7].ar (tap gloss)",
+      "current": "شَرِبْتَ=I drank",
+      "problem": "شَرِبْتَ (fatḥa on the tāʾ) is 'you (m) drank'; 'I drank' is شَرِبْتُ. The answer key correctly reads the sentence as 'If you drink coffee…', so the tap gloss contradicts the test and teaches the wrong person",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "شَرِبْتَ=you drank (to a man)"
+    },
+    {
+      "file": "content/course/course.json",
+      "path": "weeks[5].test[3].ar (tap gloss)",
+      "current": "مَا=what",
+      "problem": "in مَا سَبَحْتُ the particle مَا is the past-tense negation 'not' (the answer key says 'I didn't swim'), but the tap gloss gives the interrogative sense 'what', which is exactly the distractor 'What did I swim?'",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "مَا=not (negates a past verb)"
+    },
+    {
+      "file": "content/course/course.json",
+      "path": "weeks[2].titleAr (tap gloss)",
+      "current": "وَالشَّرَاب=and the syrup",
+      "problem": "in the week title 'Food and drink' الشَّرَاب means 'drink'; the tap shows the secondary sense 'syrup', while titleSegs correctly says 'and the drink'",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "وَالشَّرَاب=and the drink"
+    },
+    {
+      "file": "content/course/course.json",
+      "path": "weeks[8].titleAr (tap gloss)",
+      "current": "السَّفَر=the travel ('passport')",
+      "problem": "the week title السَّفَر on its own means 'travel'; the '(passport)' hint belongs only to the compound جَوَازُ السَّفَر in w9t1",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "السَّفَر=travel, travelling (title); keep the 'passport' hint only on the compound in weeks[8].test[0].ar"
+    },
+    {
+      "file": "content/course/course.json",
+      "path": "weeks[6].test[2].options[3] (tap gloss)",
+      "current": "تَفْتَحُ=(it) is opened ('opens')",
+      "problem": "تَفْتَحُ is the active indicative 'you (m) open / she opens', not a passive 'is opened' (passive would be تُفْتَحُ)",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "تَفْتَحُ=you open (to a man) / she opens"
+    },
+    {
+      "file": "content/course/course.json",
+      "path": "weeks[1].test[6].options[3] (tap gloss)",
+      "current": "يَسْتَيْقِظُ=to wake up",
+      "problem": "يَسْتَيْقِظُ is 'he wakes up'; glossing a conjugated 3rd-person form as an infinitive next to options glossed 'you wake up / I wake up' misleads the learner about what the yā- prefix means",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "يَسْتَيْقِظُ=he wakes up"
+    },
+    {
+      "file": "content/course/course.json",
+      "path": "weeks[6].test[7].options[3] (tap gloss); weeks[12].test[7].ar (tap gloss)",
+      "current": "تَرْتَاحُ=you rest (after an)",
+      "problem": "تَرْتَاحُ (ḍamma) and likewise تَنَامُ=you sleep (after an) in w13t8 are plain indicative forms; the '(after an)' label describes the subjunctive -a ending and here teaches the wrong mood label",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "تَرْتَاحُ=you rest (to a man); تَنَامُ=you sleep (to a man)"
+    },
+    {
+      "file": "content/course/course.json",
+      "path": "weeks[6].test[6].ar (tap gloss)",
+      "current": "تَشْرَبِ=you drink (form after 'lam'; -i before al-)",
+      "problem": "in لَا تَشْرَبِ الْقَهْوَة the jussive follows لَا of prohibition ('don't'), not لَمْ; the gloss names the wrong particle",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "تَشْرَبِ=you drink (jussive after 'lā' = don't; -i before al-)"
+    },
+    {
+      "file": "content/course/course.json",
+      "path": "weeks[8].test[1].options[0] (tap gloss)",
+      "current": "أَجْلِسُ=I sit (wrong after an — correct: ajlisa)",
+      "problem": "this option (أَجْلِسُ بِجَانِبِ النَّافِذَة) contains no أَنْ, so the indicative أَجْلِسُ is correct Arabic in it ('I sit by the window'); the gloss calls a correct form wrong",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "أَجْلِسُ=I sit"
+    },
+    {
+      "file": "content/course/course.json",
+      "path": "weeks[10].test[5].options[0]; weeks[10].test[5].options[1]; weeks[10].test[5].options[3]",
+      "current": "Illadhī",
+      "problem": "the Arabic الَّذِي / الَّذِينَ / الَّتِي is correct, but the engine transliterates the bare initial alif of the relative pronoun with i- (Illadhī, Illadhīna, Illatī); the correct reading is alladhī, alladhīna, allatī",
+      "category": "engine",
+      "severity": "major",
+      "fix": "transliterate الَّذِي → Alladhī, الَّذِينَ → Alladhīna, الَّتِي → Allatī (treat الَّ like al-)"
+    },
+    {
+      "file": "content/course/course.json",
+      "path": "weeks[11].test[2].prompt",
+      "current": "fī liāmtiḥān",
+      "problem": "فِي الِامْتِحَان is written with the standard kasra under the lām before a hamzat-waṣl noun; the engine reads it as 'liāmtiḥān' instead of eliding: fī l-imtiḥān",
+      "category": "engine",
+      "severity": "major",
+      "fix": "fī l-imtiḥān (handle الِ + alif waṣla: al-i…)"
+    },
+    {
+      "file": "content/course/course.json",
+      "path": "weeks[2].test[1].options[1]",
+      "current": "Ash-shāī",
+      "problem": "known engine quirk: الشَّاي rendered 'Ash-shāī' (should be ash-shāy)",
+      "category": "engine",
+      "severity": "minor",
+      "fix": "ash-shāy"
+    }
+  ],
+  "notes": [
+    {
+      "file": "content/course/course.json",
+      "path": "weeks[5].test[2]",
+      "note": "w6t3 marks مَاذَا as the only correct gap-filler before فَعَلْتَ. Standard MSA also allows مَا before a verb (مَا فَعَلْتَ؟ 'what did you do?'), though it is ambiguous with negation. Consider rewording the prompt ('Which word is used for what before a verb?') or keeping the course rule explicit."
+    },
+    {
+      "file": "content/course/course.json",
+      "path": "weeks[3].test[1].options[0]; weeks[8].test[1].options[0]; weeks[9].test[1].options[1]; weeks[10].test[4].options[2]",
+      "note": "several distractor tap glosses give the answer away ('wrong before a plural subject — correct: yazūru', 'wrong — correct: yumkinunī', 'wrong ending after inna — correct: al-akhbāra'). Fine as feedback after answering, but in a test the learner can tap before choosing."
+    },
+    {
+      "file": "content/course/course.json",
+      "path": "weeks[3].test[1].prompt",
+      "note": "'… the students the museum.' is hard to parse in English; 'The students … the museum' or 'Choose the verb: the students visit the museum (verb first)' would be clearer."
+    },
+    {
+      "file": "content/course/course.json",
+      "path": "weeks[0].test[4].options[3]; weeks[8].test[1].options[3]",
+      "note": "tap gloss for أَنْتَ says 'written without vowel marks: anta or anti' although the word is fully vocalised in the option; 'you (to a man)' would match the other glosses."
+    },
+    {
+      "file": "content/course/course.json",
+      "path": "weeks[2].test[1].options[0]",
+      "note": "شَايْ carries an explicit sukūn on the final yāʾ; unusual orthography for a pause form (شَاي is normal). Harmless as a distractor."
+    },
+    {
+      "file": "content/course/course.json",
+      "path": "weeks[2].test[7].options[2]",
+      "note": "tap حَارّ=hot (weather) in a sentence about food (الطَّعَام حَارّ جِدًّا); 'hot, spicy' would fit the context."
+    },
+    {
+      "file": "content/course/course.json",
+      "path": "weeks[8].test[8].ar",
+      "note": "tap أَكْبَرُ=bigger in the superlative construction أَكْبَرُ مَدِينَة ('the biggest city'); a context gloss 'biggest (before an indefinite noun)' would help. Also, strictly مَدِينَةٍ with kasra tanwīn mid-phrase."
+    },
+    {
+      "file": "content/course/course.json",
+      "path": "weeks[9].test[8].prompt",
+      "note": "'I'll call you tomorrow' is rendered with the plain present أَتَّصِلُ بِكَ غَدًا; acceptable, but سَأَتَّصِلُ would match the course's future lesson (week 8)."
+    },
+    {
+      "file": "content/course/course.json",
+      "path": "weeks[2].test[8].ar; weeks[7].test[4].ar; weeks[9].test[4].ar; weeks[11].test[5].options[0]",
+      "note": "engine style inconsistency: وَ before a word without al- is run together (wasabʿūna, wabārid, wahiya, wabaʿdu) while before al- and before أَنْتَ it is hyphenated (wa-n-niṣf, wa-anta). Not wrong, but a learner may not spot the و."
+    },
+    {
+      "file": "content/course/course.json",
+      "path": "weeks[6].test[7].options[1]; weeks[6].test[7].options[2]; weeks[6].test[8].options[1]; weeks[12].test[8].explain",
+      "note": "clumsy English in tap glosses: 'rests (after lā, to a man)' for لَا تَرْتَحْ (= don't rest), 'rests (I (present))' for أَرْتَاحَ, 'plays (order, to a woman)' for اِلْعَبِي, 'were written (f)' for كُتِبَتْ (singular: was written)."
+    },
+    {
+      "file": "content/course/course.json",
+      "path": "weeks[1].test[5].options[2]",
+      "note": "tap الْخَامِسَة=the fifth lacks the '(f)' marker the sibling options carry."
+    },
+    {
+      "file": "content/course/course.json",
+      "path": "weeks[4].test[3].options[1]; weeks[1].test[8].options[2]; weeks[11].test[0].ar",
+      "note": "the gloss 'لَيْسَ=is not (taught in week 5)' is shown in weeks 2, 5 and 12 alike; the parenthesis is stale once the learner is past week 5."
+    }
+  ],
+  "summary": "Checked all 13 weekly tests (128 items), the week titles, topics and level table in audit/weeks-tests.txt: every Arabic string and its harakat, case endings, agreement, verb forms and moods, the English prompts and options, every tap gloss and every answer key, and the transliteration against the Arabic. The Arabic itself is clean: every answer key is correct and unique (one debatable case, مَا vs مَاذَا in w6t3, listed as a note), case endings after إِنَّ / لَيْسَ / كَانَ / أَنْ / لَنْ / لَمْ and prepositions are right, agreement (feminine أُذُن, non-human plurals with f. sg.) is right. The errors are all in the tap-gloss layer and the transliteration engine: 3 major glosses that contradict the test itself (دَرَّسَ=lesson on the right answer of w10t7, شَرِبْتَ=I drank in w13t8, مَا=what on the negation in w6t4), 7 minor gloss mislabels (wrong mood/particle labels, a passive label on an active verb, a title gloss carrying the compound's meaning), and 3 engine findings: the relative pronouns الَّذِي / الَّتِي / الَّذِينَ transliterated Illadhī, the الِامْتِحَان case rendered liāmtiḥān, and the known الشَّاي quirk. Pattern: dictionary glosses are shared across contexts, so a word's gloss written for one sentence shows up wrongly in another (مَا, السَّفَر, الشَّرَاب, حَارّ), and distractor glosses often reveal the answer."
+}

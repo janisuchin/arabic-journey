@@ -1,0 +1,92 @@
+{
+  "chunk": "days-21-30",
+  "reviewer": "B",
+  "errors": [
+    {
+      "file": "content/days/day22.json",
+      "path": "sentences[3].mistakes[0].right (tap تَذْهَبُ); quiz[3].options[3] (tap)",
+      "current": "تَذْهَبُ=you go (to a man)",
+      "problem": "In both places تَذْهَبُ is the verb of 'Layla goes' (تَذْهَبُ لَيْلَى), and the 'why' text says 'Layla is a woman, so the verb starts with ta-'. The tap gloss gives the other reading of the form, 'you go (to a man)', so the learner who taps the correct answer is told it means 'you go'. The sentence segs (sentences[3].segs) correctly say 'goes (she)'.",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "تَذْهَبُ=goes (she); you go (to a man)",
+      "alsoChange": "same tap entry wherever تَذْهَبُ is glossed only as 'you go (to a man)' in a she-goes context (the quiz option is the marked correct answer)"
+    },
+    {
+      "file": "content/days/day24.json",
+      "path": "intro (tap يَنْزِلُ); quiz[2].options[3] (tap)",
+      "current": "يَنْزِلُ=falls, comes down",
+      "problem": "The lesson teaches يَنْزِلُ as 'to get off (a vehicle)' and quiz[2] asks 'Which verb means to get off?' with يَنْزِلُ as the answer, but the tap gloss says 'falls, comes down'. نَزَلَ means to descend / come down / get off; 'falls' is not a sense a beginner should learn for it (that is يَسْقُطُ), and the gloss contradicts the lesson's own definition.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "يَنْزِلُ=gets off, comes down (he, it)",
+      "alsoChange": "the segs in the dialogue already say 'we get off' / 'I get off'; only the shared tap gloss needs the change"
+    },
+    {
+      "file": "content/days/day24.json",
+      "path": "title",
+      "current": "By bus and taxi",
+      "problem": "titleAr is بِالْحَافِلَة أَوْ بِالتَّاكْسِي ('by bus or by taxi'; the tap gloss for أَوْ is 'or'), but the English title says 'and'.",
+      "category": "translation",
+      "severity": "minor",
+      "fix": "By bus or taxi"
+    },
+    {
+      "file": "content/days/day23.json; content/days/day24.json; content/days/day26.json; content/days/day29.json; content/days/day30.json",
+      "path": "day23 sentences[1].mistakes[0].why; day24 intro; day24 quiz[5].prompt; day26 sentences[3].mistakes[0].why; day29 sentences[3].mistakes[0].why; day30 intro; day30 objectives[2]; day30 sentences[0].mistakes[0].why; day30 sentences[2].mistakes[0].why",
+      "current": "A / at",
+      "problem": "Whenever an English explanation names the letter ة on its own, the ⟶ line renders it as 'A / at' (or 'a / at'), e.g. 'so the ordinal takes A / at', 'Listen for the A / at in phrases like…', 'How is the A / at read in this phrase?', 'Turn A / at into t before an ending'. The Arabic is right; the engine's rendering of a bare letter name makes the grammar explanation unreadable. Report once; the same thing will happen in every chunk where ة is quoted in prose.",
+      "category": "engine",
+      "severity": "minor",
+      "fix": "Render a standalone ة in prose as 'ة (tāʾ marbūṭa)' or leave the letter untransliterated, as the engine already does for ج (→ 'J') and ض (→ 'Ḍ')."
+    }
+  ],
+  "notes": [
+    {
+      "file": "content/days/day21.json",
+      "path": "dialogue.lines[7].ar",
+      "note": "Sami's counter-offer 'خَمْسُونَ؟' ('fifty?') is fine as an elliptical price, but after the seller's 'بِسِتِّينَ جُنَيْهًا' the parallel form بِخَمْسِينَ؟ would also reinforce the -īna-after-bi- rule the intro teaches."
+    },
+    {
+      "file": "content/days/day21.json",
+      "path": "intro (tap ـِينَ)",
+      "note": "'-īna (ending: masculine sound plural after a verb or preposition…)' is loose: the -īna form is the accusative/genitive, i.e. after a preposition or as the object of a verb, not 'after a verb' in general (the subject after a verb keeps -ūna)."
+    },
+    {
+      "file": "content/days/day23.json",
+      "path": "title / titleAr",
+      "note": "titleAr is يَمِينًا وَيَسَارًا ('right and left'); the English title reverses the order to 'Left and right'. Natural in English, but the learner comparing the two may be puzzled."
+    },
+    {
+      "file": "content/days/day24.json",
+      "path": "dialogue.lines[9].segs; dialogue.lines[14].segs",
+      "note": "جُنَيْهًا is glossed 'pounds (after a number)' here but 'pound (after 11–99)' everywhere in day 21; both are fine, but one wording would be more consistent."
+    },
+    {
+      "file": "content/days/day25.json",
+      "path": "dialogue.culture",
+      "note": "The phrase is quoted in its genitive form الطَّابِقِ الثَّانِي (as it appears after فِي) although it stands alone in the culture note; الطَّابِقُ الثَّانِي or the pausal الطَّابِق الثَّانِي would be the citation form."
+    },
+    {
+      "file": "content/days/day28.json",
+      "path": "intro (tap); objectives[3] (tap); quiz[1].options[0] (tap)",
+      "note": "The two market verbs are glossed inconsistently: يَشْتَرِي='to buy' (infinitive style) but يَبِيعُ='sells (he)' (conjugated style). Either is acceptable, but a matched pair ('buys (he)' / 'sells (he)') would be clearer."
+    },
+    {
+      "file": "content/days/day30.json",
+      "path": "sentences[0].mistakes[0].wrong; quiz[3].options[0]",
+      "note": "The deliberately misspelt forms غُرْفَةِي and غُرْفَةُهُ are transliterated exactly like the correct forms (ghurfatī, Ghurfatuhu), so the ⟶ line gives no hint that anything is wrong. The tap gloss does say '(wrong — correct: …)', so the learner is still told; just an engine limitation to be aware of for spelling-type mistakes."
+    },
+    {
+      "file": "content/days/day22.json",
+      "path": "quiz[6]",
+      "note": "'How is ج said in MSA?' → 'like the j in jam' is correct for standard MSA; since the course is set in Cairo, where ج is /g/, a short remark that Egyptians say 'g' (as day 22's own context suggests) would prevent confusion when the learner hears locals."
+    },
+    {
+      "file": "content/days/day26.json",
+      "path": "dialogue.lines[1].ar",
+      "note": "يَا ابْنِي → 'yā bnī' is correct waṣl; a beginner may not recognise ابْنِي without a vowel on the alif. Consider اِبْنِي with kasra for consistency with اِذْهَبْ, اِشْرَبْ etc. (style only)."
+    }
+  ],
+  "summary": "I read the whole export of days 21–30 (2,685 lines: intros, objectives, sentences with mistakes, dialogues, readings, quizzes and all seg/tap glosses) and checked every Arabic string for spelling, harakat, case endings (numbers 11–99 + -an, 3–10 + plural, 100/1000 + singular, genitive after prepositions and place words, accusative after لٰكِنَّ and أَنْ), agreement (non-human plurals as feminine singular, verb before plural subject, ordinals), verb forms (dual imperatives تَفَضَّلَا/تَعَالَيَا/اُنْظُرَا, jussive لَا تَقْلَقْ, subjunctive أَنْ أَشْتَرِيَ), the English translations and literals, the transliteration, and every answer key. The Arabic in this chunk is in very good shape: I found no spelling, harakat, case or agreement errors in the Arabic itself and all 70 quiz answer keys are correct. The 4 errors are: one major gloss error (تَذْهَبُ tapped as 'you go (to a man)' where it is 'Layla goes', including on the marked correct quiz answer in day 22), one minor gloss error (يَنْزِلُ glossed 'falls, comes down' while the lesson and quiz teach 'to get off'), one minor title translation (أَوْ rendered 'and' in day 24), and one systematic engine issue (a standalone ة in prose rendered as 'A / at', 9 occurrences across days 23–30). The notes cover gloss-wording consistency, a citation-form quibble, the ج pronunciation in Cairo, and the engine's identical transliteration of deliberately misspelt forms."
+}

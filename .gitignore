@@ -47,7 +47,7 @@ playwright-report/
 coverage/
 
 # audit exports (regenerate with npx tsx scripts/audit/audit-dump.ts)
-audit/
+/audit/
 dist-trial/
 
 __pycache__/

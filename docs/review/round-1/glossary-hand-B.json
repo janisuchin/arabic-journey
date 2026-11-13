@@ -1,0 +1,198 @@
+{
+  "chunk": "glossary-hand",
+  "reviewer": "B",
+  "errors": [
+    {
+      "file": "content/glossary/hand.json",
+      "path": "الِاسْتِفْهَام; الِاسْمِيَّة; الِاسْتِعْلَامَات",
+      "current": "الِاسْتِفْهَام = asking questions",
+      "problem": "the Arabic is correct (article + hamzat waṣl word, kasra carried by the lām) but the engine renders it 'Iliāstifhām', 'Iliāsmiyya', 'Iliāstiʿlāmāt' — the article is split into 'Ili' + 'ā' and the learner sees an unreadable transliteration on every tap of these three grammar terms",
+      "category": "engine",
+      "severity": "major",
+      "fix": "engine: when alif-lām with a kasra on the lām is followed by a bare alif + sukūn letter, elide the alif and output al-istifhām, al-ismiyya, al-istiʿlāmāt",
+      "alsoChange": "check any other key or seg whose article precedes a hamzat-waṣl word (الِانْتِقَال, الِابْن …)"
+    },
+    {
+      "file": "content/glossary/hand.json",
+      "path": "أَحَد",
+      "current": "أَحَد = Sunday without 'the' (wrong — correct: al-aḥad)",
+      "problem": "أَحَد is a real, common word: 'one, someone, anyone' (لَا أَحَد, أَحَدُ الطُّلَّاب, and the 'one' in eleven). Because the hand glossary overrides every gloss, a learner tapping أَحَد anywhere in the course is told it is a wrong form of Sunday",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "أَحَد = one, someone, anyone (Sunday is al-aḥad, with 'the')",
+      "alsoChange": "keep the 'wrong — correct' remark in the mistakes pair's own note, not in the glossary"
+    },
+    {
+      "file": "content/glossary/hand.json",
+      "path": "ـُوا",
+      "current": "ـُوا = you all (ending of an order to a group: -ū)",
+      "problem": "ـُوا is first of all the past-tense 'they' ending (زَرَعُوا, حَصَدُوا, نَجَحُوا, ذَهَبُوا — all in this course) and the 'they / you all' ending after أَنْ, لَمْ, لَا; glossing it only as the imperative 'you all' tells the learner زَرَعُوا is an order",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "ـُوا = -ū (ending: they, in the past tense; you all, in an order or after an / lam)"
+    },
+    {
+      "file": "content/glossary/hand.json",
+      "path": "تُعْطِي",
+      "current": "تُعْطِي = you give (to a woman); she gives",
+      "problem": "indicative تُعْطِي is 2nd person masculine ('you give, to a man') or 3rd feminine ('she gives'); 'you give (to a woman)' is تُعْطِينَ (the nūn-less تُعْطِي for a woman exists only after lā / lam / an). Same pattern as the correct entries تُقَابِلُ and تَرُدُّ",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "تُعْطِي = you give (to a man); she gives"
+    },
+    {
+      "file": "content/glossary/hand.json",
+      "path": "صِينِيَّة",
+      "current": "صِينِيَّة = tray",
+      "problem": "صِينِيَّة is also the everyday feminine nisba 'Chinese (f)' (هِيَ صِينِيَّة), a form a nationality lesson is likely to use; the hand glossary overrides every seg, so a learner tapping it in a nationality sentence gets 'tray'",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "صِينِيَّة = tray; Chinese (f)"
+    },
+    {
+      "file": "content/glossary/hand.json",
+      "path": "جُمُعَة; بَارِدُونَ; طَبَقَانِ; يَزُورُونَ; أَجِدُهَا; أَجْلِسُ; جَوَازِي; تُوقِظُنَا; الْأَشْهَرُ; الْأَخْبَارِ; إِنْتَرْنِت; الْمِفْتَاحُ; زَرَعُوا; حَصَدُوا; تَذْكِرَتَانِ; بَنَتِ; الْفَائِقِ; الضَّجِيجُ; الطَّرِيقُ; نَجَحُوا; أُعْلِنَ; غَائِمَاتٌ; غَائِمِينَ; أُسَجِّلُ",
+      "current": "طَبَقَانِ = two dishes (wrong after a verb — correct: ṭabaqayni)",
+      "problem": "these 24 keys are all correct Arabic forms in their own right (طَبَقَانِ as a subject, الضَّجِيجُ as a subject, الْأَخْبَارِ after a preposition, زَرَعُوا with a pronoun subject, أَجْلِسُ as plain indicative, جَوَازِي 'my passport/permit', etc.), but the gloss carries a one-sentence remark 'wrong here / wrong after …'. Because the hand glossary wins app-wide, the remark appears wherever the word is tapped, including sentences where the form is right. (The misspelt or non-existent keys such as غُرْفَةُهُ, زَارْنَا, أَفْضَلَة, أُمْكِنُ are fine: they cannot occur correctly.)",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "keep only the dictionary gloss (e.g. 'two dishes (subject form)', 'the noise', 'they sowed', 'I sit', 'my passport', 'the news (genitive)', 'cloudy (f pl)') and move the 'wrong — correct …' remark to the mistakes item's own explanation field",
+      "alsoChange": "for طَبَقَانِ and تَذْكِرَتَانِ the rule text is also inexact: the -ayni form is required when the dual is the object or after a preposition, not simply 'after a verb' (a subject can follow its verb: جَاءَ طَبَقَانِ)"
+    },
+    {
+      "file": "content/glossary/hand.json",
+      "path": "ـِينَ; ـَيْنِ; كِتَابَيْنِ",
+      "current": "ـَيْنِ = -ayni (dual ending after a verb or preposition)",
+      "problem": "'after a verb' is not the rule: the subject also follows its verb in Arabic (جَاءَ كِتَابَانِ is correct). The -ayni / -īna forms are the object (accusative) and after-preposition (genitive) forms",
+      "category": "grammar-fact",
+      "severity": "minor",
+      "fix": "ـَيْنِ = -ayni (dual ending for the object of a verb, or after a preposition); same wording for ـِينَ and كِتَابَيْنِ ('two books, as object or after a preposition')"
+    },
+    {
+      "file": "content/glossary/hand.json",
+      "path": "ـُهَا; ـُهُ",
+      "current": "ـُهَا = her (ending: -hā)",
+      "problem": "the possessive endings -hā and -hu are also 'its' (اِسْمُهَا of a city, بَابُهُ of a house); the object-ending entries ـهَا / ـهُ correctly say 'her, it' but the possessive ones only say 'her' / 'his'",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "ـُهَا = her, its (ending: -hā); ـُهُ = his, its (ending: -hu)"
+    },
+    {
+      "file": "content/glossary/hand.json",
+      "path": "تَأْمِين",
+      "current": "تَأْمِين = deposit",
+      "problem": "تَأْمِين means 'insurance, securing'; the 'security deposit' sense is a narrower everyday use (and the course has عُرْبُون = deposit separately). As an app-wide gloss 'deposit' alone would mislabel تَأْمِين صِحِّيّ / تَأْمِين السَّيَّارَة",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "تَأْمِين = insurance; security deposit"
+    },
+    {
+      "file": "content/glossary/hand.json",
+      "path": "سَمَحْتُمْ",
+      "current": "سَمَحْتُمْ = you allow (to several people)",
+      "problem": "سَمَحْتُمْ is past tense ('you allowed / permitted'); the present gloss hides the form, and the idiom the learner meets is لَوْ سَمَحْتُمْ = 'please (if you would allow)'",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "سَمَحْتُمْ = you allowed, you permitted (to several people; law samaḥtum = please)"
+    },
+    {
+      "file": "content/glossary/hand.json",
+      "path": "تُسَاعِدَ",
+      "current": "تُسَاعِدَ = you help (after an)",
+      "problem": "subjunctive تُسَاعِدَ is 'you help (to a man)' or 'she helps'; the entry gives only the 2nd person and omits the gender restriction that sister entries (تُقَابِلُ, تَرُدُّ) state",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "تُسَاعِدَ = you help (to a man); she helps (form after an)"
+    },
+    {
+      "file": "content/glossary/hand.json",
+      "path": "لِلْمَسْجِدِ",
+      "current": "لِلْمَسْجِدِ = the mosque has (lit. to the mosque)",
+      "problem": "a sentence meaning ('the mosque has') is given as the word gloss; لِلْمَسْجِدِ is simply 'to / for the mosque' and only means 'has' when it is the predicate of a nominal sentence",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "لِلْمَسْجِدِ = to the mosque, for the mosque (as predicate: the mosque has)"
+    },
+    {
+      "file": "content/glossary/hand.json",
+      "path": "الْعَدَّاد",
+      "current": "الْعَدَّاد = the taxi meter",
+      "problem": "الْعَدَّاد is any meter / counter (electricity meter, speedometer); 'taxi' is the context of one dialogue, not part of the word",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "الْعَدَّاد = the meter (counter; in a taxi: the fare meter)"
+    },
+    {
+      "file": "content/glossary/hand.json",
+      "path": "أَسْهَلُ; يَذْهَبُونَ; تَذْهَبِينَ",
+      "current": "أَسْهَلُ = easier",
+      "problem": "transliteration 'Ashalu' merges s + h into the digraph sh, so the word reads as *ashalu; likewise 'Yadhhabūna' / 'Tadhhabīna' put dh + h side by side. ALA-LC separates such clusters with a prime (as′halu, yadh′habūna)",
+      "category": "engine",
+      "severity": "minor",
+      "fix": "engine: insert a separator (′ or ·) between s-h, d-h, t-h, k-h, g-h when the two letters are separate consonants: as′halu, yadh′habūna, tadh′habīna"
+    }
+  ],
+  "notes": [
+    {
+      "file": "content/glossary/hand.json",
+      "path": "أنت; مطبخ; رأينا",
+      "note": "unvocalised keys transliterate as consonant skeletons ('Nt', 'Mṭbkh', 'Rʾīnā'); if the transliteration is shown for these keys, either vocalise them (أَنْتَ/أَنْتِ, مَطْبَخ, رَأَيْنَا) or suppress the ⟶ line for unvocalised keys. The أنت gloss itself is good."
+    },
+    {
+      "file": "content/glossary/hand.json",
+      "path": "لَيْسَ",
+      "note": "'(taught in week 5)' is course meta-information shown on every tap of لَيْسَ, including in week 5 and after; consider dropping it from the gloss."
+    },
+    {
+      "file": "content/glossary/hand.json",
+      "path": "الْخَبَر",
+      "note": "glossed only as the grammar term 'the predicate (lit. the news)'; if a reading text ever uses الْخَبَر in its plain sense 'the news item', this override will show the grammar term. Fine as long as the word appears only in grammar pages."
+    },
+    {
+      "file": "content/glossary/hand.json",
+      "path": "ـِي",
+      "note": "'my (ending: -ī)' is right for nouns; the same shape is the feminine 'you' ending of imperatives (صَوِّرِي, اِضْغَطِي). Only a problem if the segmenter splits verb endings with this key."
+    },
+    {
+      "file": "content/glossary/hand.json",
+      "path": "الْحَال",
+      "note": "'the condition, things' — 'things' only fits كَيْفَ الْحَال; 'the state, the condition (how things are)' reads more clearly."
+    },
+    {
+      "file": "content/glossary/hand.json",
+      "path": "ظُرُوف",
+      "note": "glossed as the grammar term 'adverbs'; the everyday meanings 'circumstances' and 'envelopes' will be hidden if the word appears in a dialogue."
+    },
+    {
+      "file": "content/glossary/hand.json",
+      "path": "عَطْشَانَة; غَضْبَانَة",
+      "note": "the remark 'standard Arabic: ʿaṭshā / ghaḍbā' is accurate (فَعْلَان → فَعْلَى); عَطْشَانَة is widely accepted in modern MSA too, so the entries are fine."
+    },
+    {
+      "file": "content/glossary/hand.json",
+      "path": "لِلطَّبَّاخُونَ",
+      "note": "the correction text 'lil-ṭabbākhīna' is not assimilated like the house style elsewhere ('li-ṭ-ṭabbākhīna'); cosmetic."
+    },
+    {
+      "file": "content/glossary/hand.json",
+      "path": "قِرْش",
+      "note": "'piaster (1/100 of a dinar)' is right for Jordan; it is also 1/100 of the Egyptian/Syrian/Lebanese pound. Consider '1/100 of a dinar or pound'."
+    },
+    {
+      "file": "content/glossary/hand.json",
+      "path": "سَن; رَايْز",
+      "note": "'Sun' and 'Rise' as parts of a hotel name are fine as long as no other content uses سَن (tooth/age, usually سِنّ) or رَايْز."
+    },
+    {
+      "file": "content/glossary/hand.json",
+      "path": "شَحَنَ; حَمَّلَ",
+      "note": "شَحَنَ also 'shipped, loaded'; حَمَّلَ also 'loaded, uploaded'. The phone-context glosses are correct for the course."
+    },
+    {
+      "file": "content/glossary/hand.json",
+      "path": "months and ordinals",
+      "note": "all Levantine Gregorian month names, all Hijri month names, the numeral-gender notes (سِتُّ, ثَلَاثُ, أَحَدَ, اِثْنَا) and the ordinal/time entries checked and correct."
+    }
+  ],
+  "summary": "Read all 409 hand-glossary entries as app-wide dictionary glosses and checked each transliteration against its harakat. 14 errors: 5 major (engine renders the article before hamzat-waṣl words as 'Iliā…' in 3 keys; أَحَد glossed only as a 'wrong' Sunday although it means 'one/someone'; ـُوا glossed only as the imperative 'you all' although it is the past 'they' ending in this course; تُعْطِي glossed as 'you (to a woman)' instead of 'you (to a man)/she'; صِينِيَّة 'tray' hides 'Chinese (f)') and 9 minor (24 valid forms carrying one-sentence 'wrong — correct' remarks, grouped; 'after a verb' as the rule for -ayni/-īna; -hā/-hu missing 'its'; تَأْمِين, سَمَحْتُمْ, تُسَاعِدَ, لِلْمَسْجِدِ, الْعَدَّاد narrowed or shifted; s-h/dh-h digraph ambiguity in the engine). The main pattern: the file mixes true dictionary glosses with mistakes-pair commentary ('wrong here', 'wrong after inna'), which is harmless on non-words but leaks onto correct forms wherever they occur. Vocabulary glosses, month names, number-gender rules, pronoun endings and grammar-term entries are otherwise accurate; 12 notes for the owner."
+}

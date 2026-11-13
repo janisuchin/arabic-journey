@@ -1,0 +1,332 @@
+{
+  "chunk": "glossary-auto-1",
+  "reviewer": "A",
+  "errors": [
+    {
+      "file": "content/glossary/auto.json",
+      "path": "أحمل; حملت",
+      "current": "أحمل = I download",
+      "problem": "unvocalised أحمل covers أَحْمِلُ 'I carry' (Form I, the basic beginner sense) as well as أُحَمِّلُ 'I download' (Form II); the gloss gives only the Form II sense. Same for حملت = I downloaded (حَمَلْتُ 'I carried', حَمَلَتْ 'she carried', حَمَلْتَ 'you carried')",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "أحمل → 'I carry; I download'; حملت → 'I carried, I downloaded (also: you carried / she carried)'"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "أقدم",
+      "current": "أقدم = the oldest (before a noun)",
+      "problem": "أقدم also spells أُقَدِّمُ 'I present, I offer, I apply' (Form II, very common in a course that teaches تقديم / أتقدم); the 'before a noun' note is sentence-specific and the comparative sense 'older' is missing",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "older, oldest; I present, I offer (I apply)"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "الدين",
+      "current": "الدين = al-Din (second part of the name: 'of the faith')",
+      "problem": "الدين is first of all the common noun 'the religion' (الدِّين); the gloss only gives the name-component sense, so a learner tapping الدين in any other sentence learns a wrong meaning",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "the religion; al-Din (second part of names such as Salah al-Din: 'of the faith')"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "الضيق",
+      "current": "الضيق = hardship, a hard time",
+      "problem": "الضيق also spells الضَّيِّق 'the narrow (m)' (the glossary itself has الضيقة = the narrow (f)); a learner tapping الشارع الضيق gets 'hardship'",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "the narrow (m); hardship, a hard time (ḍīq)"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "العام",
+      "current": "العام = the general",
+      "problem": "العام is above all 'the year' (العَام, e.g. العام الماضي); the gloss gives only the adjective sense",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "the year; the general, the public (adjective)"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "الحساب",
+      "current": "الحساب = the bill",
+      "problem": "الحساب also means 'the (bank) account' (the glossary has حسابا = an account, حسابك = your account); in a bank scene the gloss 'the bill' is wrong",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "the bill; the account"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "جد",
+      "current": "جد = (he) worked hard, strove",
+      "problem": "جد is first of all 'grandfather' (جَدّ; the glossary has جدك, جدته, جدهم, الجد); the verb sense alone is wrong wherever the noun appears (e.g. جد سامي)",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "grandfather; (he) worked hard, strove (jadda)"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "جمع",
+      "current": "جمع = (he) gathered, collected",
+      "problem": "جمع also spells جَمْع 'plural' (the course teaches الجمع = the plural, جمع المذكر …) and 'gathering'; the verb-only gloss is wrong in every grammar context",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "plural (grammar); gathering; (he) gathered, collected"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "جملا",
+      "current": "جملا = a camel",
+      "problem": "جملا also spells جُمَلًا 'sentences' (accusative plural of جملة, a core grammar word in the course); a learner tapping اكتب جملا gets 'a camel'",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "sentences (object form); a camel (object form)"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "حرب",
+      "current": "حرب = Harb (part of a street name in Cairo)",
+      "problem": "حرب is the common noun 'war' (the glossary has الحرب = the war); the street-name gloss is only true in one sentence",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "war; Harb (part of a Cairo street name)"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "رجل; رجلان",
+      "current": "رجل = man",
+      "problem": "unvocalised رجل covers رَجُل 'man' and رِجْل 'leg, foot' (the glossary has رجلي = my leg); رجلان = two legs likewise covers رَجُلان 'two men'",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "رجل → 'man; leg, foot'; رجلان → 'two men; two legs'"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "درسنا",
+      "current": "درسنا = our lesson",
+      "problem": "درسنا equally spells دَرَسْنَا 'we studied' (a basic past-tense form that certainly occurs in the course); the noun-only gloss is a wrong meaning there",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "our lesson; we studied"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "أنظف",
+      "current": "أنظف = cleaner",
+      "problem": "أنظف also spells أُنَظِّفُ 'I clean' (the course has سأنظف = I will clean); the comparative-only gloss is wrong in that use",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "cleaner (comparative); I clean"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "زارنا",
+      "current": "زارنا = (they) visited us",
+      "problem": "wrong person: زَارَنَا is 3rd m. singular + 'us' ('he visited us'); 'they visited us' would be زارونا",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "(he) visited us"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "خالتك",
+      "current": "خالتك = your aunt (mother's sister) ('your cousin')",
+      "problem": "the leaked alternative 'your cousin' is wrong: خالة is only 'maternal aunt'; a beginner will take the quoted word as a second meaning",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "your aunt (mother's sister)"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "تخف; تأخذها; تحاول; تركض; تسجل; تشتر; تشتريا; تعط; تعطها; تغضبي; تقلقي; تقولوا; تنس; تنسي; تنم; تقرؤوا; تصفحوا",
+      "current": "تخف = be afraid (to a man)",
+      "problem": "imperative/present mix-up: these are 2nd-person present/jussive forms (تَخَفْ 'you fear', تَأْخُذُها 'you take it / she takes it', تَنْسَ 'you forget'…) taken from لا + jussive prohibitions ('don't be afraid', 'don't forget'); glossed as bare imperatives they read as commands meaning the opposite of the sentence, and they are wrong wherever the same spelling is an ordinary 'you/she …' statement (تحاول = you try / she tries; تأخذها; تسجل; تركض)",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "gloss as 'you … (jussive form, used after lā = don't …)' and, where the spelling also fits the indicative, add '/ she …': e.g. تخف → 'you fear, you are afraid (after lā: don't be afraid)'; تنس → 'you forget (after lā: don't forget)'; تأخذها → 'you take it (f) / she takes it'; تحاول → 'you try / she tries'; تغضبي → 'you (f) get angry (after lā: don't get angry)'; تقولوا → 'you (all) say (after lā / an)'"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "ابتسم; اتصل; اتفق; اجتمع; استعمل; افتتح; انتبه; اتبعوني; تدرب; تذكروا; تكلما; ترجم; حدثني; خمن; ساعدنا; ساعده; راجعوا; سجل; تنفس; أوقف",
+      "current": "ابتسم = smile! (to a man)",
+      "problem": "imperative/past mix-up: in Forms II, III, IV, V, VIII and X the m.sg imperative and the 3rd m.sg past share the unvocalised spelling (ابْتَسِمْ smile! / ابْتَسَمَ he smiled; اتَّصِلْ / اتَّصَلَ; سَاعِدْنا help us! / سَاعَدَنا he helped us; رَاجِعُوا revise! / رَاجَعُوا they revised; سَجِّلْ record! / سَجَّلَ he scored); each gloss gives one side only, so it is wrong in the other sentences",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "list both: ابتسم → 'smile! (to a man); (he) smiled'; اتصل → '(he) called, phoned; call! (to a man)'; اتفق → '(he) agreed; agree! (to a man)'; اجتمع → '(he) met; meet! (to a man)'; استعمل → 'use! (to a man); (he) used'; افتتح → '(he) opened (officially); open! (to a man)'; انتبه → 'watch out! (to a man); (he) paid attention'; اتبعوني → 'follow me! (to several people); they followed me'; تدرب → '(he) practised; practise! (to a man)'; تذكروا → 'remember! (to a group); they remembered'; تكلما → 'they (two) talked; talk! (to two people)'; ترجم → '(he) translated; translate! (to a man)'; حدثني → 'tell me (to a man); (he) told me'; خمن → 'guess (to a man); (he) guessed'; ساعدنا → 'help us! (to a man); (he) helped us'; ساعده → '(he) helped him; help him! (to a man)'; راجعوا → 'revise! (to a group); they revised'; سجل → '(he) scored, recorded; record!, register! (to a man)'; تنفس → 'breathe! (to a man); (he) breathed'; أوقف → 'stop! (to a man); (he) stopped (something)'"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "أخبر; أرسله; أحضرها; أصبح; أقام; أعطي",
+      "current": "أخبر = I tell (after an)",
+      "problem": "wrong person for half the uses: in Form IV the 1st-person present (أُخْبِرُ I tell) and the 3rd m.sg past (أَخْبَرَ he told) share the unvocalised spelling; أرسله = (he) sent it also spells أُرْسِلُهُ 'I send it', أحضرها 'I bring it', أصبح 'I become', أقام 'I hold / I reside', أعطي 'I give' also أَعْطِي 'give! (to a woman)'; each gloss gives one person only",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "أخبر → 'I tell; (he) told'; أرسله → '(he) sent it (m); I send it'; أحضرها → '(he) brought it (f); I bring it'; أصبح → '(he) became; I become'; أقام → '(he) held, (he) set up; I hold, I reside'; أعطي → 'I give; give! (to a woman)'"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "تبدو; تبيع; تبيعه; تترجم; تتعلم; تدرس; ترسب; ترى; تسافر; تستطيع; تستيقظ; تسعل; تشكو; تصبح; تطفو; تعرفه; تعرفهم; تقصد; تعبر; تخمن; تدخل; تؤلمني; تجعلني; تزور; تساعد; تسبب; تستعمل; تشبهك; تطبخ; تطبخها; تعلن; تغادر; تقل; تكفيني; تنتظرك; تنتهي; توفر; تصنع; تفتح; تعطيك; تجدها; ستحب; ستحبها; ستحصل; سترى; ستسافر; ستسمع; ستشتري; ستضحك; ستفعل; ستلعب; ستأتي; ستتصل; ستقابل; ستقابلنا; ستنتهي; ستنظف",
+      "current": "تدرس = you study (to a man)",
+      "problem": "systematic wrong person/gender: every present or future verb with the تـ prefix spells both 'you (m. sg.)' and 'she / it (f.)' (تَدْرُسُ = you study / she studies; سَتُحِبُّ = you will love / she will love); the auto glosses pick one side from a single sentence ('you … (to a man)' or '(she) …'), so a beginner tapping هي تدرس gets 'you study (to a man)' and tapping أنت تبيع gets 'she sells'. Also تدخل = '(they, f) enter', تخلع/تطفأ/تعطيك '(they) …' give only the non-human-plural reading; تصنع/تفتح give only the passive",
+      "category": "engine",
+      "severity": "major",
+      "fix": "generate both readings for every تـ-prefixed present/future verb: 'you (m) … / she (it) …', e.g. تدرس → 'you study (to a man) / she studies'; تبيع → 'she sells / you sell (to a man)'; تبدو → 'you look, you seem (to a man) / she (it) looks'; ستحب → 'you will love (to a man) / she will love'; ستأتي → 'she will come / you will come (to a man)'; تقل → 'she says / you say (jussive)'; تدخل → 'you enter / she enters (they, things, enter)'; تصنع → 'you make / she makes; (it, f) is made'; تعطيك → '(she, it) gives you'. The bare 'you …' glosses (تترك, تحكي, تشاهد, تفكر, تنام, تمشي, تستمر …) need the same '/ she …' addition"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "أتعبت; اتفقت; أحضرت; أخطأت; استأجرت; استمعت; اشتريت; اشتريتها; أكلته; أكلتها; تعلمته; توقعت; حجزت; حصلت; خفت; دفعت; رأيت; رأيته; رأيتها; راجعت; ركبت; زارته; سافرت; سبحت; سجلته; سمعت; سمعته; سمعتها",
+      "current": "رأيت = you saw (to a man)",
+      "problem": "systematic wrong person: a past verb ending in ـت spells 'I …' (رَأَيْتُ), 'you (m) …' (رَأَيْتَ), 'you (f) …' (رَأَيْتِ) and, without an object suffix, 'she …' (حَجَزَتْ); each gloss gives only the person of one sentence (رأيت = you saw, اشتريت = I bought, حجزت = she booked, حصلت = you got), which is wrong in every other sentence with the same spelling",
+      "category": "engine",
+      "severity": "major",
+      "fix": "generate 'I … / you … / (she …)' for every past ـت form, e.g. رأيت → 'I saw / you saw'; رأيته → 'I saw it (m) / you saw it'; اشتريت → 'I bought / you bought'; حجزت → 'she booked / I booked / you booked'; حصلت → 'you got / I got / she got'; أخطأت → 'you made a mistake / I made a mistake'; أكلته → 'I ate it / you ate it'; زارته → 'she visited him / I visited him'; اتفقت → 'she agreed / I agreed / you agreed' (and drop the note '-i links to the next word')"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "ابنك; اتصالك; أريك; إنك; بأنك; ساعتك; خطتك; أبوك; أختك; أخبرتك; أخوك; أخيك; أصدقائك; أقاربك; أنتظرك; أنفك; إليك; أوافقك; بجانبك; بنايتك; بنجاحك; ترجمتك; تقدمك; تؤلمك; تشبهك; تنتظرك; جارتك; جدتك; جدك; جيوبك; حاسوبك; حذاؤك; حرارتك; حسابك; خلفك; دفترك; دنانيرك; رأسك; رأيتك; رسالتك; رقمك; زميلك; سرك; سفرك; سيارتك; ألطفك",
+      "current": "ابنك = your son (to a woman)",
+      "problem": "wrong gender for half the uses: on a noun or verb the suffix ـك is 'your/you' to a man (ـكَ) or to a woman (ـكِ) and the unvocalised key covers both; the auto glosses fix one gender from one sentence (ابنك, اتصالك, ساعتك, خطتك, إنك, بأنك, أريك 'to a woman'; أختك, جدك, رقمك … 'to a man'), which is wrong whenever the word is addressed to the other gender",
+      "category": "engine",
+      "severity": "minor",
+      "fix": "drop the gender tag on ـك suffixes (or write 'to a man or woman'): ابنك → 'your son'; اتصالك → 'your call'; ساعتك → 'your watch'; خطتك → 'your plan'; إنك → 'that you'; بأنك → 'that you'; أريك → 'I show you'; أختك → 'your sister'; جدك → 'your grandfather'; رقمك → 'your number'; أنتظرك → 'I wait for you'; رأيتك → 'I saw you'; خلفك → 'behind you'; ألطفك → '(how) kind you are' … and so on for every path listed"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "أجلس; أحتفل; أحجز; أخاف; أدخل; أرجع; أركض; أزعجكم; أسأل; أصرف; أصور; أفتح; أكتبه; أطبخ; أنطقه; أصعب; ازدحاما; استعملنا; الحار; الساخن; الفاكهة; اللحم; المشوي; الغد; الكبار; المرمى; المعرض; الوادي; انتهيتم; أنم; بالأستاذ; بعضكم; بقبول; بكلمة; بمليون; بي; تترك; ترتاح; ترفق; تساعدني; تستعمله; تستمر; تشاهد; تشتري; تضعها; تفكر; تمشي; تنام; تعطينا; توقظنا; تحكي; تجدها; تعبر; تسعين; حججنا; حقيقيا; خائفا; خير; دافئا; ذكيا; رائعا; راجعتم; راضين; زرعنا; سهلا",
+      "current": "أجلس = I sit (after an)",
+      "problem": "sentence-specific editorial notes leaked into dictionary glosses: '(after an)', '(-a after an)', '(-a after kāna/anna)', '(object)', '(after 'call')', '(bi- after fāza)' describe the syntax of one sentence although the unvocalised spelling is identical in the indicative/nominative (أجلس, تترك, الحار, اللحم …); several carry a contradictory quoted alternative that teaches the wrong tense (أخاف = I am afraid ('I was afraid'); استعملنا = we used ('we use'); انتهيتم = you (all) finished ('finish'); راجعتم ('revise'); زرعنا = we planted ('we plant'); أنم = I sleep ('sleep')); others pin a word to one sentence's object (الغد = tomorrow ('tomorrow's trip'); المرمى = the goal ('goalkeeper'); المعرض = the (book) fair; الوادي = the valley ('Valley Hotel'); بي = me (after 'call'); بالأستاذ = Mr, the teacher (after 'call'); خير = goodness ('good night'))",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "remove the parenthetical syntax notes and contradictory quotes, keeping the plain meaning: أجلس → 'I sit'; أخاف → 'I am afraid, I fear'; استعملنا → 'we used'; انتهيتم → 'you (all) finished'; راجعتم → 'you (all) revised'; زرعنا → 'we planted'; أنم → 'I sleep'; الحار → 'the hot, the spicy'; الساخن → 'the hot'; الفاكهة → 'the fruit'; اللحم → 'the meat'; المشوي → 'the grilled'; الغد → 'tomorrow'; الكبار → 'the grown-ups, the elders'; المرمى → 'the goal (in football)'; المعرض → 'the exhibition, the fair'; الوادي → 'the valley'; بي → 'with me, by me'; بالأستاذ → 'the teacher, the professor (with bi-)'; خير → 'goodness, good'; بمليون → 'with a million'; بكلمة → 'with a word'; بقبول → 'with the acceptance (of)'; تترك → 'you leave / she leaves' … (keep the notes only where the form itself is distinctive, e.g. أر, تر, تذهبي, تكوني, تبقوا)"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "الأقصر",
+      "current": "الأقصر = Luxor (city in Egypt)",
+      "problem": "الأقصر also spells the superlative 'the shorter, the shortest' (the course teaches القصير and comparatives)",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "Luxor (city in Egypt); the shorter, the shortest"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "أرز",
+      "current": "أرز = rice",
+      "problem": "أرز also spells أَرْز 'cedar(s)' (the glossary has أرزة = cedar tree, الأرزة), the Lebanon context in the course",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "rice; cedar(s)"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "بنت",
+      "current": "بنت = daughter (of)",
+      "problem": "بنت is also simply 'girl' (the glossary has البنت = the girl); the construct-only gloss is one-sided",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "girl; daughter (of)"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "الطلب",
+      "current": "الطلب = the application",
+      "problem": "الطلب is primarily 'the request, the order (in a restaurant/shop)'; 'application' is one sentence's sense",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "the request, the order; the application"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "الرصيف",
+      "current": "الرصيف = the platform",
+      "problem": "الرصيف is first of all 'the pavement, the sidewalk'; 'platform' is the station sense only",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "the pavement, the sidewalk; the platform (station)"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "حر",
+      "current": "حر = heat (of)",
+      "problem": "حر also spells حُرّ 'free' (a common adjective)",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "heat (of); free (adjective)"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "تمر",
+      "current": "تمر = dates (the fruit)",
+      "problem": "تمر also spells تَمُرّ 'you pass / she (it) passes (by)' (e.g. تمر الحافلة)",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "dates (the fruit); you pass / she (it) passes by"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "أسبوعي",
+      "current": "أسبوعي = my week",
+      "problem": "أسبوعي also spells أُسْبُوعِيّ 'weekly' (e.g. جدول أسبوعي)",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "my week; weekly"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "دوري",
+      "current": "دوري = my turn",
+      "problem": "دوري also spells دَوْرِيّ 'league (football)' and 'periodic'; the course has football content (الأهلي, الحارس, المباراة)",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "my turn; league (football), periodic"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "سادة",
+      "current": "سادة = plain, without sugar",
+      "problem": "سادة also means 'gentlemen' (plural of سيد, as in سيداتي سادتي)",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "plain, without sugar (coffee); gentlemen (plural of sayyid)"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "البرازيل",
+      "current": "البرازيل = Brazil (a street name in Zamalek)",
+      "problem": "Brazil is the country; the parenthesis makes the one-sentence street-name sense the only meaning",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "Brazil (the country; also a street name in Zamalek)"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "سيأتي",
+      "current": "سيأتي = will come",
+      "problem": "the person is missing: سَيَأْتِي is 'he / it will come' (all the other future glosses state the person)",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "he will come, it will come"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "أمل; حسن; جاري",
+      "current": "أمل = Amal (first name)",
+      "problem": "name-only glosses on words that are also common vocabulary: أمل = أَمَل 'hope'; حسن = حَسَن 'good, fine' (the glossary has حسنا = all right); جاري = my neighbour also spells جَارٍ 'current, running' (the glossary has جاريا = current (bank account))",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "أمل → 'hope; Amal (first name)'; حسن → 'good, fine; Hassan (first name)'; جاري → 'my neighbour; current, running'"
+    }
+  ],
+  "notes": [
+    { "file": "content/glossary/auto.json", "path": "أصحاب", "note": "أصحاب = owners (of): also 'friends, companions' (plural of صاحب); add if the course uses it that way" },
+    { "file": "content/glossary/auto.json", "path": "أكلا", "note": "أكلا = food (object form) also spells أَكَلَا 'they (two) ate'; the course teaches dual past (حملا, ركبا), so consider 'food (object form); they (two) ate'" },
+    { "file": "content/glossary/auto.json", "path": "الإشارة; البلد; حدث; الحكم", "note": "narrow one-sentence senses that are correct but incomplete: الإشارة 'the traffic light' (also 'the sign, the signal'); البلد 'the town' (also 'the country'); حدث '(it) happened' (also 'an event'); الحكم 'the referee' (also 'the ruling, the judgment')" },
+    { "file": "content/glossary/auto.json", "path": "سلطات; خاص; القريب; الشاب", "note": "secondary senses a learner may meet later: سلطات 'salads' also 'authorities'; خاص 'special' also 'private, own'; القريب 'the near' also 'the relative'; الشاب 'the young' should read 'the young man'" },
+    { "file": "content/glossary/auto.json", "path": "انتهت; تخلع; تطفأ", "note": "'(they) ended / are taken off / are switched off' give only the non-human-plural reading of a 3rd f. sg. form; 'she / it (f) …' is the primary reading" },
+    { "file": "content/glossary/auto.json", "path": "تقل; تنتظرك; بناها", "note": "clumsy English: '(she) say' → 'she says'; '(she) wait for you' → 'she waits for you'; 'built it (he built her)' → '(he) built it (f)'" },
+    { "file": "content/glossary/auto.json", "path": "الأخيرة; الحقيقية; الرئيسية; النهائية", "note": "feminine adjectives glossed without the '(f)' tag that the neighbouring entries carry; consistency only" },
+    { "file": "content/glossary/auto.json", "path": "(general)", "note": "the auto glossary is clearly generated from single occurrences; the four systematic findings (تـ-verbs, past ـت, ـك gender, leaked syntax notes) would be best fixed in the generator rather than entry by entry, and the key-level dictionary should list every common vocalisation of a spelling" }
+  ],
+  "summary": "Checked all ~1,700 auto-glossary entries (آتي … سيارتي) as spelling-level dictionary glosses that must hold wherever the unvocalised word appears. 20 major findings and 15 minor findings (several grouped). The dominant pattern is one-sidedness inherited from a single source sentence: (1) every تـ-prefixed present/future verb is glossed as either 'you (m)' or 'she' though the spelling is both; (2) every past ـت verb is glossed as only I, only you or only she; (3) ـك suffixes carry a fixed 'to a man / to a woman' tag; (4) Form II/III/V/VIII/X imperatives and 3ms past share a spelling but get one gloss, and Form IV 1s present vs 3ms past likewise; (5) prohibitions were stripped of لا and glossed as bare imperatives (تخف = 'be afraid'). Beyond these, 15 individual keys give a one-sentence sense while a basic beginner meaning of the same spelling is missing (رجل leg, جد grandfather, جمع plural, جملا sentences, الدين religion, العام year, درسنا we studied, الضيق narrow, الحساب account, حرب war, أحمل carry, أقدم I present, أنظف I clean), one wrong person (زارنا), one wrong leaked alternative (خالتك 'your cousin'), and ~70 glosses with sentence-specific syntax notes or contradictory quoted tenses leaked into the dictionary text."
+}

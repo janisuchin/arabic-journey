@@ -1,0 +1,106 @@
+{
+  "chunk": "days-01-10",
+  "reviewer": "B",
+  "errors": [
+    {
+      "file": "content/days/day08.json",
+      "path": "quiz[1].options[2] (tap gloss of مُدَرِّسَة)",
+      "current": "مُدَرِّسَة=school",
+      "problem": "The tap gloss of مُدَرِّسَة says 'school'. مُدَرِّسَة is 'teacher (f)' (مَدْرَسَة is 'school'). This is the correct answer of the quiz 'How do you say a female teacher?', so a learner who taps it is told the right answer means 'school' and will either pick a wrong option or learn the wrong word.",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "مُدَرِّسَة=teacher (f)",
+      "alsoChange": "check the vocabulary entry the tap gloss comes from, so every other occurrence of مُدَرِّسَة is corrected too"
+    },
+    {
+      "file": "content/days/day02.json; content/days/day03.json; content/days/day04.json; content/days/day08.json",
+      "path": "day02 intro (tap); day02 objectives[2] (tap); day02 quiz[2].ar (tap); day03 titleAr (tap); day03 realLife.story (tap); day03 quiz[0].ar (tap); day04 quiz[1].options[3] (tap); day08 quiz[3].options[1] (tap); day08 quiz[3].options[2] (tap)",
+      "current": "you (written without vowel marks: anta or anti)",
+      "problem": "The tap gloss for أَنْتَ and for أَنْتِ is the same hedge 'you (written without vowel marks: anta or anti)', although every occurrence in the course is fully vocalised (أَنْتَ with fatḥa, أَنْتِ with kasra). The segs on the same lines already say 'you (to a man)' / 'you (to a woman)'. A beginner tapping أَنْتِ in 'مَنْ أَنْتِ؟' is told it could be masculine, which contradicts the day-2 lesson that the vowel marks the gender.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "أَنْتَ=you (to a man); أَنْتِ=you (to a woman)",
+      "alsoChange": "the two dictionary entries that feed the tap glosses (anta, anti)"
+    },
+    {
+      "file": "content/days/day06.json; content/days/day07.json",
+      "path": "day06 intro (tap of ل); day06 quiz[4].options[3] (tap); day07 intro (tap of و)",
+      "current": "ل=for; belonging to",
+      "problem": "In the lists of new letters ('New letters: ف ق ك ل' and 'م ن ه و ي') the tap on ل shows the preposition gloss 'for; belonging to' and the tap on و shows 'and', while the other letters show 'the letter fāʾ', 'the letter qāf' etc. In quiz d6q5 ('Which letter is the deep k…') the option ل also shows 'for; belonging to'. The learner is told the letter lām is 'for' and the letter wāw is 'and'.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "ل=the letter lām; و=the letter wāw (in letter lists and letter quizzes)",
+      "alsoChange": "the second occurrence has current 'و=and' in day07 intro tap"
+    },
+    {
+      "file": "content/days/day06.json",
+      "path": "dialogue.lines[6].en",
+      "current": "Yes, the pen is new, and my bag is new too.",
+      "problem": "The Arabic says وَالْحَقِيبَة جَدِيدَة ('and the bag is new'); the seg gloss says 'and the bag'. The English 'my bag' adds a possessive that is not in the Arabic, so the learner may read الْحَقِيبَة as 'my bag'.",
+      "category": "translation",
+      "severity": "minor",
+      "fix": "Yes, the pen is new, and the bag is new too."
+    },
+    {
+      "file": "content/days/day04.json",
+      "path": "dialogue.lines[11].en",
+      "current": "You're welcome, Yusuf! Welcome to our class.",
+      "problem": "The Arabic is أَهْلًا وَسَهْلًا فِي الصَّفّ ('welcome to the class'); the seg says 'the class'. 'our class' adds a possessive not in the Arabic (the same line on day 1 is translated 'Welcome to the school').",
+      "category": "translation",
+      "severity": "minor",
+      "fix": "You're welcome, Yusuf! Welcome to the class."
+    },
+    {
+      "file": "content/days/day03.json; content/days/day08.json",
+      "path": "day03 dialogue.lines[9].ar (⟶); day08 reading.ar (⟶)",
+      "current": "Min Amrīkā Walubnān Wamiṣr wabilād ukhrā.",
+      "problem": "Engine: when وَ is prefixed to a proper noun the transliteration capitalises the conjunction and glues it to the name ('Walubnān', 'Wamiṣr', 'Wasāmī' in day03 lines[3]), while before pronouns and the article it writes 'wa-anā', 'wa-l-ustādh'. The Arabic is correct; the learner sees a capitalised word 'Walubnān' that looks like a different name. Also in day08 reading ⟶ 'min Amrīkā Walubnān Wamiṣr'.",
+      "category": "engine",
+      "severity": "minor",
+      "fix": "transliterate the conjunction in lower case and separated: 'min Amrīkā wa-Lubnān wa-Miṣr wa-bilād ukhrā', 'wa-Sāmī'"
+    }
+  ],
+  "notes": [
+    {
+      "file": "content/days/day01.json … day07.json",
+      "path": "quiz[*].answer",
+      "note": "Every quiz answer on days 1–7 is option 0 (the first option). If the app does not shuffle options, a learner can pass week 1 by always tapping the first answer. Days 8–10 vary the index."
+    },
+    {
+      "file": "content/days/day01.json",
+      "path": "dialogue.lines[8].ar",
+      "note": "Story logic: the dialogue is 'The first morning at school' and starts with صَبَاحُ الْخَيْر, but Mr Karim closes the lesson with مَسَاءُ الْخَيْر. The Arabic is correct; it is there to show the evening greeting, but a line like 'the lesson ran until evening' would make it believable."
+    },
+    {
+      "file": "content/days/day04.json",
+      "path": "dialogue.lines[3].ar; dialogue.lines[5].ar",
+      "note": "تَعْبَان is the everyday/colloquial word for 'tired'; textbook MSA is مُتْعَب or تَعِب. Acceptable in a polite everyday dialogue, but worth a one-word remark since the course promises fuṣḥā."
+    },
+    {
+      "file": "content/days/day03.json",
+      "path": "dialogue.culture",
+      "note": "مَصْر (with fatḥa) is the Egyptian colloquial pronunciation; MSA is مِصْر as used everywhere else in the course. The note does say 'in everyday speech', so it is intentional, but the two vocalisations side by side may confuse a beginner."
+    },
+    {
+      "file": "content/days/day06.json",
+      "path": "dialogue.lines[8].ar",
+      "note": "سُوق كَبِير: سُوق is more commonly treated as feminine in MSA (سُوق كَبِيرَة), though both genders are attested in the dictionaries. Not wrong, but the feminine would be the safer model for learners."
+    },
+    {
+      "file": "content/days/day01.json; content/days/day03.json; content/days/day08.json",
+      "path": "day01 dialogue.lines[6].en; day03 dialogue.lines[11].en; day08 dialogue.lines[13].en",
+      "note": "Small intensifiers added in English that are not in the Arabic: 'I really love' (أَنَا أُحِبُّ), 'a big and very beautiful family' (كَبِيرَة وَجَمِيلَة, no جِدًّا), 'I would like that job' (أُرِيدُ = I want). Harmless, but the 'very' may make the learner think جَمِيلَة alone means 'very beautiful'."
+    },
+    {
+      "file": "engine",
+      "path": "⟶ inside English prose (intro, objectives, culture, completion)",
+      "note": "The engine capitalises the first word of every embedded Arabic run inside an English sentence ('say Mā ʿamaluka? to a man', 'Kitāb is a book', \"say 'the' with Al-\"), and renders ة as 'A / at' and ا as 'Ā / ʾ' when a bare letter is quoted. Readable but odd mid-sentence; lower-case for embedded runs would be cleaner."
+    },
+    {
+      "file": "content/days/day09.json",
+      "path": "dialogue.lines[11].ar",
+      "note": "نَذْهَبُ إِلَى الْمَتْحَف؟ as 'Shall we go to the museum?' is fine in speech; the explicit MSA suggestion would be هَلْ نَذْهَبُ…؟ since هَلْ was taught on day 4."
+    }
+  ],
+  "summary": "Read the whole export of days 1–10 (2,490 lines): every Arabic string with its harakat and case endings, agreement, verb forms, the English and literal translations, every seg and tap gloss, every quiz answer key and the generated transliteration. The Arabic itself is clean: iḍāfa endings (كِتَابُ دَانْيَال, سَيَّارَةُ الْأُسْتَاذ, مُدِيرِ الْمَدْرَسَة), the five-noun forms أَبُوكَ / أَبِيكَ / أَخُوكَ, number–noun agreement (ثَلَاثَة إِخْوَة, عَشَرَة أَسْئِلَة), waṣla handling (لٰكِنِ الْحَمْدُ, هَلِ الْيَوْم, كَمِ السَّاعَة), the imperatives (اُدْرُسْ, اِفْتَحُوا, اِجْلِسْ, اِشْتَرِ) and إِلَّا رُبْعًا are all correct, and all 62 quiz answer keys check out. I found 6 errors: 1 major (the tap gloss of مُدَرِّسَة says 'school' on the correct answer of the day-8 teacher quiz) and 5 minor (the hedged tap gloss for the fully vocalised أَنْتَ / أَنْتِ; the letters ل and و glossed as the words 'for' and 'and' in letter lists; two English lines that add a possessive not in the Arabic; and the engine capitalising وَ before proper names as 'Walubnān Wamiṣr'). The pattern is that the dictionary-driven tap glosses, not the lesson content, are where the mistakes live. Eight notes cover register (تَعْبَان, مَصْر, سُوق gender), story logic, English intensifiers, engine capitalisation and the all-option-0 answer keys in week 1."
+}

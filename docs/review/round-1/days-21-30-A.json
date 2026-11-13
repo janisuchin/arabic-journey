@@ -1,0 +1,94 @@
+{
+  "chunk": "days-21-30",
+  "reviewer": "A",
+  "errors": [
+    {
+      "file": "content/days/day24.json",
+      "path": "intro (tap gloss of يَنْزِلُ); quiz[2].options[3] (tap gloss)",
+      "current": "يَنْزِلُ=falls, comes down",
+      "problem": "The lesson teaches يَنْزِلُ as 'to get off' (a vehicle), and quiz d24q3 asks 'Which verb means to get off?' with يَنْزِلُ as the key. The tap gloss the learner sees on that very option says 'falls, comes down'. 'Falls' is not the sense taught (that is يَسْقُطُ) and the gloss contradicts the answer key, so a learner tapping the options would reject the right answer or learn يَنْزِلُ = 'falls'.",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "يَنْزِلُ=gets off, goes down (he, it)",
+      "alsoChange": "the shared glossary entry for yanzilu, if that is where the tap gloss comes from; the seg gloss in sentences[3] ('أَنْزِلُ = I get off') is already right"
+    },
+    {
+      "file": "content/days/day22.json",
+      "path": "sentences[3].mistakes[0].right (tap gloss of تَذْهَبُ); quiz[3].options[3] (tap gloss)",
+      "current": "تَذْهَبُ=you go (to a man)",
+      "problem": "In both places the sentence is 'Layla goes to the bookshop' (تَذْهَبُ لَيْلَى), so the form is 3rd person feminine 'she goes'. The tap gloss gives only the 2nd person masculine reading, which contradicts the mistake note ('Layla is a woman, so the verb starts with ta-') and the quiz prompt. The seg gloss in sentences[3] ('goes (she)') is right; only the tap gloss is wrong for this context.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "تَذْهَبُ=goes (she); you go (to a man)",
+      "alsoChange": "nothing else; the Arabic is correct"
+    },
+    {
+      "file": "content/days/day23.json",
+      "path": "sentences[1].mistakes[0].why (⟶); content/days/day24.json intro (⟶), quiz[5].prompt (⟶); content/days/day26.json sentences[3].mistakes[0].why (⟶); content/days/day29.json sentences[3].mistakes[0].why (⟶); content/days/day30.json intro (⟶), objectives[2] (⟶), sentences[0].mistakes[0].why (⟶), sentences[2].mistakes[0].why (⟶)",
+      "current": "A / at",
+      "problem": "Engine: when the bare letter ة appears inside an English explanation, the transliteration line renders it as 'A / at' (or 'a / at'), e.g. 'so the ordinal takes A / at: ath-thālitha', 'Listen for the A / at in phrases like…', 'A / at turns into t when an ending is added'. The Arabic is right; the generated line is unreadable and does not name the letter.",
+      "category": "engine",
+      "severity": "minor",
+      "fix": "render a standalone ة in prose as 'tāʾ marbūṭa' (or leave the Arabic letter untransliterated)",
+      "alsoChange": "applies wherever a lone ة is embedded in an English string"
+    },
+    {
+      "file": "content/days/day30.json",
+      "path": "sentences[0].mistakes[0].wrong (⟶); quiz[3].options[0] (⟶)",
+      "current": "Hādhihi ghurfatī",
+      "problem": "Engine: the deliberately wrong spellings غُرْفَةِي and غُرْفَةُهُ (ة kept before a suffix) are transliterated exactly like the correct forms غُرْفَتِي / غُرْفَتُهُ ('ghurfatī', 'Ghurfatuhu'), so the 'wrong' and 'right' lines read identically and the learner cannot see what the mistake is. The Arabic is as intended; the engine treats a vowelled ة as t.",
+      "category": "engine",
+      "severity": "minor",
+      "fix": "transliterate a vowelled ة followed by a suffix literally (e.g. 'ghurfa-ī', 'ghurfa-uhu') or mark the form as unpronounceable; alternatively hide the ⟶ line on the wrong form",
+      "alsoChange": "quiz[3].options[0] ⟶ 'Ghurfatuhu' has the same problem"
+    }
+  ],
+  "notes": [
+    {
+      "file": "content/days/day21.json",
+      "path": "reading.ar",
+      "note": "دَانْيَال يَدْفَعُ سَبْعِينَ جُنَيْهًا، وَالْبَاقِي ثَلَاثُونَ: in the dialogue the goods cost 70, Daniel hands over 100 and gets 30 back. 'Pays seventy … and the change is thirty' is arithmetically confusing (70 paid would leave no change). Consider يَدْفَعُ مِئَةَ جُنَيْه, وَالْبَاقِي ثَلَاثُونَ, or 'the fruit costs seventy'."
+    },
+    {
+      "file": "content/days/day21.json",
+      "path": "dialogue.lines[2].ar; quiz[4].options[1]",
+      "note": "حُلْوْ is written with a sukūn on the final wāw, while every other pausal word in the course has no mark on its last letter (رَخِيص, كَبِير). Not wrong (ḥulw), but inconsistent; حُلْو would match house style."
+    },
+    {
+      "file": "content/days/day23.json",
+      "path": "dialogue.lines[3].ar",
+      "note": "The first imperative is written اِذْهَبْ (with the kasra on the alif) and the second اذْهَبْ (without). Both are read correctly by the engine; only a vocalisation-consistency point."
+    },
+    {
+      "file": "content/days/day24.json",
+      "path": "sentences[3].mistakes[0].wrong; content/days/day25.json sentences[2].mistakes[0].wrong",
+      "note": "English parentheticals are embedded inside the Arabic 'wrong' string ('(to ask where to get off)', '(for 'on the table')') and so appear in the transliteration line too. Design point: better carried in the 'why' field."
+    },
+    {
+      "file": "content/days/day25.json",
+      "path": "titleAr (tap gloss of هُوَ)",
+      "note": "Title أَيْنَ هُوَ؟ is translated 'Where is it?', but the tap gloss says only 'he'; titleSegs has 'he, it (m)'. Harmless, but the tap could match the segs."
+    },
+    {
+      "file": "content/days/day25.json",
+      "path": "dialogue.lines[4].ar; content/days/day28.json dialogue.lines[5].ar; content/days/day29.json dialogue.lines[9].ar; content/days/day30.json dialogue.lines[2].ar",
+      "note": "هَلْ … أَمْ (e.g. هَلْ هِيَ كَبِيرَة أَمْ صَغِيرَة؟) is very common in modern MSA, but classical grammar pairs أَمْ with the hamza question (أَهِيَ كَبِيرَة أَمْ صَغِيرَة؟). Register note only; no change needed for a beginners' course."
+    },
+    {
+      "file": "content/days/day28.json",
+      "path": "intro (tap); objectives[3] (tap); quiz[1].options[0] (tap)",
+      "note": "يَشْتَرِي is glossed 'to buy' while يَبِيعُ next to it is glossed 'sells (he)'. Both correct; a consistent pattern ('buys (he)') would help the learner compare the two."
+    },
+    {
+      "file": "content/days/day28.json",
+      "path": "dialogue.lines[0].ar",
+      "note": "عُمْرُ هٰذَا السُّوق treats سُوق as masculine. Classical usage prefers feminine (هٰذِهِ السُّوق), though masculine is widespread in modern MSA and in Egypt. Acceptable; mention only so the course is consistent if سوق appears with an adjective later."
+    },
+    {
+      "file": "content/days/day22.json",
+      "path": "dialogue.lines[10].ar (⟶)",
+      "note": "لِلصَّلَاة is transliterated 'li-ṣ-ṣalāh' (final -h for ة after ā) whereas elsewhere ة is dropped (madīna, maktaba). ALA-LC does write ṣalāh, so this is defensible; just a visible inconsistency in the house transliteration."
+    }
+  ],
+  "summary": "Checked every Arabic string in days 21–30 (titles, intros, sentences and their mistakes, dialogues, readings, quizzes) for spelling, harakat, case endings, agreement, verb forms, translations, literals, seg and tap glosses, answer keys and the generated transliteration. The Arabic in this chunk is clean: numbers 11–100 with the singular -an noun, hundreds (أربعمئة, بمئتي جنيه), 3–10 with plural (ثمانية جنيهات, ست ساعات, عشرة أيام), verbal-sentence word order, ordinals, place words with -i, non-human plural agreement, duals (تفضلا، تعاليا، انظرا), hamzat waṣl treatment (بكمِ، هلِ، خذِ، لكنِ) and the possessive suffixes are all correct, and all 70 quiz answer keys are right. Four errors found: one major (day 24 tap gloss 'falls, comes down' on يَنْزِلُ, the key to the 'to get off' quiz), one minor gloss (day 22 تَذْهَبُ glossed only as 'you go (to a man)' where Layla is the subject), and two engine issues (the bare letter ة rendered as 'A / at' in transliterated English prose across days 23, 24, 26, 29, 30; the wrong spellings غُرْفَةِي / غُرْفَةُهُ transliterated identically to the correct forms in day 30). Nine notes cover story logic (day 21 reading: pays seventy vs. hands over a hundred), vocalisation consistency (حُلْوْ, اِذْهَبْ/اذْهَبْ), gloss consistency, the هل…أم register point, the gender of سوق and English text embedded in Arabic 'wrong' strings."
+}

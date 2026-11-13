@@ -1,0 +1,99 @@
+{
+  "chunk": "days-31-40",
+  "reviewer": "A",
+  "errors": [
+    {
+      "file": "content/days/day37.json",
+      "path": "summary (tap); intro (tap); objectives[1] (tap); sentences[0].mistakes[0].why (tap); sentences[2].mistakes[0].right (tap); sentences[2].mistakes[0].why (tap); quiz[0].ar (tap); quiz[1].options[1] (tap); completion (tap)",
+      "current": "مَا=what",
+      "problem": "The whole lesson teaches that مَا before a past verb means 'not', but every tap on مَا in these lines (including the model sentence مَا سَبَحَ دَانْيَال, the quiz item مَا سَبَحْتُ and the explanation 'mā right before a past verb means not') shows the gloss 'what'. The learner taps the word the lesson is about and is told the opposite of what the lesson says. The segs on the dialogue and sentences are right ('not (before a past verb)'); only the tap glossary entry is wrong for this sense.",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "مَا=what; not (before a past verb)",
+      "alsoChange": "the shared glossary entry for مَا, so every tap of the negative مَا (days 37-38 and later) shows both senses"
+    },
+    {
+      "file": "content/days/day35.json",
+      "path": "objectives[3] (tap); sentences[1].mistakes[0].right (tap); sentences[1].mistakes[0].why (tap); quiz[5].options[1] (tap); quiz[5].options[2] (tap); quiz[5].options[3] (tap)",
+      "current": "تَسْكُنُ=you live (to a man)",
+      "problem": "In all these places تَسْكُنُ means 'she lives' (خَالَتِي هُدَى تَسْكُنُ, هِيَ تَسْكُنُ فِي عَمَّان, and the objective 'say where relatives live with يَسْكُنُ and تَسْكُنُ'). The tap gloss shows only 'you live (to a man)', directly under the mistake note that says 'تَسْكُنُ (she lives)'. The learner is told the verb in the correct answer means something else.",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "تَسْكُنُ=she lives; you live (to a man)",
+      "alsoChange": "the shared glossary entry for تَسْكُنُ (the sentence segs already say '(she) lives')"
+    },
+    {
+      "file": "content/days/day33.json",
+      "path": "intro (tap); objectives[2] (tap); sentences[0].mistakes[0].why (tap); quiz[4].prompt (tap)",
+      "current": "ـًا=the letter alif",
+      "problem": "The lesson's key point is the ending ـًا (-an, tanwīn fatḥ) after لَيْسَ. Tapping that ending shows 'the letter alif', which is not what the symbol is teaching: the alif is only the seat; the mark that carries the meaning is the double fatḥa. A learner reading 'Add ـًا = the letter alif' will think a bare alif is added.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "ـًا=the -an ending (tanwīn fatḥ, written on an alif)",
+      "alsoChange": "same glossary entry is used on day 39 ('-an ending after كَانَ') if it is tapped there"
+    },
+    {
+      "file": "content/days/day38.json",
+      "path": "intro",
+      "current": "Used on their own, without فِي, they take an -a ending: صَبَاحًا (in the morning), مَسَاءً (in the evening), يَوْمَ الْأَحَد (on Sunday).",
+      "problem": "The rule says '-a ending' but two of the three examples (صَبَاحًا, مَسَاءً) end in -an (indefinite accusative, tanwīn), as the transliteration ṣabāḥan / masāʾan shows. Only the definite or construct forms (الْأُسْبُوعَ, يَوْمَ) end in plain -a. A learner following the rule as written would produce صَبَاحَ. Days 33 and 39 call the same indefinite ending '-an', so this is also inconsistent with the rest of the course.",
+      "category": "grammar-fact",
+      "severity": "minor",
+      "fix": "Used on their own, without فِي, they take the accusative ending: -an on an indefinite word (صَبَاحًا in the morning, مَسَاءً in the evening) and -a on a definite one or the first word of a pair (الْأُسْبُوعَ الْمَاضِي last week, يَوْمَ الْأَحَد on Sunday).",
+      "alsoChange": "none"
+    },
+    {
+      "file": "content/days/day40.json",
+      "path": "dialogue.lines[13].ar (⟶)",
+      "current": "nashrabu sh-shāī fī sh-shurfa",
+      "problem": "The Arabic الشَّاي is correct, but the engine transliterates the final يْ after ā as a long vowel 'ī' (shāī) instead of the consonant y: ALA-LC shāy (compare the engine's own correct Qāytbāy, yawm, shayʾ). Same word will recur whenever الشَّاي appears without a sukūn on the yāʾ.",
+      "category": "engine",
+      "severity": "minor",
+      "fix": "nashrabu sh-shāy fī sh-shurfa",
+      "alsoChange": "engine rule: a yāʾ after a long ā at word end (or before a consonant) is a consonant y, not ī; or add sukūn to the yāʾ in الشَّايْ in the glossary so the engine reads it as a glide"
+    }
+  ],
+  "notes": [
+    {
+      "file": "content/days/day33.json",
+      "path": "quiz[0].prompt (tap); sentences[0].mistakes[0].wrong (tap); quiz[1].options[1] (tap)",
+      "note": "The glossary tap for طَوِيل / طَوِيلَة shows only 'long', while this lesson teaches it as 'tall' (the segs say 'tall'). Not wrong, but 'tall, long' in the glossary would match the lesson."
+    },
+    {
+      "file": "content/days/day35.json",
+      "path": "sentences[4].ar; content/days/day38.json dialogue.lines[11].ar",
+      "note": "وَثَلَاثَة أَخْوَال and ثَلَاثَة أَيَّام leave the number without its ḍamma, while the other counted phrases in these days are fully vocalised (عَشْرُ سَنَوَاتٍ, سِتَّةُ أَشْخَاص, عَشَرَةُ أَحْفَاد, عَشَرَةَ أَشْخَاص). Correct Arabic, just inconsistent vocalisation: ثَلَاثَةُ أَخْوَال, ثَلَاثَةَ أَيَّام."
+    },
+    {
+      "file": "content/days/day31.json",
+      "path": "reading.ar (⟶); dialogue.lines[1].ar (⟶); content/days/day33.json dialogue.lines[1].ar (⟶); content/days/day34.json dialogue.lines[3].ar (⟶); content/days/day35.json dialogue.lines[7].ar (⟶)",
+      "note": "Engine style: wa- and li- are hyphenated before some words (wa-ukht, wa-l-māʾ, li-sh-shaqqa) but fused before others (wamaktab, walā, Lilaylā, walisāmī), and a name after wa- loses its capital (Wadānyāl, Wasāmī, Wamuṣṭafā, Waʿumar). Not an Arabic error; a consistency choice for the transliteration engine."
+    },
+    {
+      "file": "content/days/day33.json",
+      "path": "intro (⟶); objectives[2] (⟶); quiz[4].prompt (⟶)",
+      "note": "The engine renders the isolated ending ـًا as '-An' with a capital A mid-sentence ('the ending -An'). Cosmetic."
+    },
+    {
+      "file": "content/days/day38.json",
+      "path": "quiz[6].options[0] (⟶)",
+      "note": "The transliteration line for the option أ is empty. The tap gloss ('hamza on an alif seat') covers it, but a learner sees a blank line."
+    },
+    {
+      "file": "content/days/day32.json",
+      "path": "sentences[4].mistakes[0].wrong (tap)",
+      "note": "The tap for أَبُوهُ says 'subject form; after a verb use abāhu'. 'After a verb' is a shortcut: it is the object form that is needed, as the why-line says. Clearer: 'subject form; as the object use abāhu'."
+    },
+    {
+      "file": "content/days/day31.json",
+      "path": "dialogue.lines[2].ar",
+      "note": "إِذَنْ is written with nūn here and throughout the chunk; the more common spelling is إِذًا. Both are accepted; keep consistent (it is)."
+    },
+    {
+      "file": "content/days/day35.json",
+      "path": "dialogue.lines[2].en",
+      "note": "The English keeps 'my khāl' untranslated on purpose; fine as a teaching device, but it is the only line in the chunk that does this."
+    }
+  ],
+  "summary": "Checked all ten days (31-40): every Arabic string with its harakat and case endings, the segs and tap glosses, the English and literal lines, all 70 quiz answer keys, the mistakes right/wrong pairs, grammar statements in intros and why-lines, the pronunciation items and the transliteration against the Arabic. The Arabic itself is clean: عِنْدَ/لِ/مَعَ, لَيْسَ with the accusative, adjective agreement (including non-human plurals with feminine singular, عُيُونُهَا خَضْرَاء, اللَّيَالِي بَارِدَةً), the 3-10 / 11+ counting rules, the hollow verbs زُرْنَا/كُنَّا/نِمْتُ, كَانَ with the accusative predicate, and قَبْلَ/بَعْدَ (أَنْ) are all correct, and every quiz key is right. I found 5 errors: 2 major, both in the shared tap glossary rather than in the lesson text, where a word is glossed in a sense that contradicts the lesson (مَا shown as 'what' on the very sentences teaching it as 'not' on day 37; تَسْكُنُ shown as 'you live (to a man)' on the day-35 lines where it means 'she lives'); and 3 minor (ـًا glossed as 'the letter alif', the day-38 intro calling the -an ending '-a', and the engine writing shāī for الشَّاي). The pattern is that the glossary stores one sense per spelling, so any homograph (مَا, تَسْكُنُ, طَوِيل) shows the wrong sense whenever a lesson uses the other one; fixing those entries once would clear every occurrence."
+}

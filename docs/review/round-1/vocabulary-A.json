@@ -1,0 +1,180 @@
+{
+  "chunk": "vocabulary",
+  "reviewer": "A",
+  "errors": [
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[64].forms[0].ar (tap); [64].example.ar (tap); [403].forms[0].ar (tap); [390].forms[0].ar (tap); [521].forms[0].ar (tap); [606].forms[0].ar (tap); [607].forms[0].ar (tap); [616].forms[0].ar (tap); [660].plural (tap); [718].forms[1].ar (tap); [719].forms[2].ar (tap); [720].forms[2].ar (tap); [727].plural (tap); [730].forms[0].ar (tap); [745].forms[0].ar (tap); [749].forms[0].ar (tap); [763].note (tap); [769].forms[0].ar (tap); [781].forms[0].ar (tap); [802].note (tap)",
+      "current": "مُدَرِّسَة=school",
+      "problem": "The tap-gloss dictionary is matched on the consonant skeleton (or an unvocalised key), so a correctly vocalised word shows another word's meaning. Learner-facing wrong meanings: مُدَرِّسَة=school (teacher f; also in the example أُمِّي مُدَرِّسَة); شَعَرَ=hair (he felt); تَنَفَّسَ=breathe! (to a man) (he breathed); حَجَزَ=booking, reservation (he booked); دَرَّسَ=lesson (he taught); اِسْتَعْمَلَ=use (to a man) (he used); كَرَّرَ=repeat! (to a man) (he repeated); كُتَّاب=book (writers); يُكْتَبُ=writes (is written); صَنَعَ=was made (he made); اِكْتَشَفَ=was discovered (he discovered); سَادَة=plain, without sugar (gentlemen); تَقَدَّمَ=progress (he came forward); مَنَعَ=banning (of) (he banned); قَدَّمَ=presents, gives (imperative) (he presented); انْتَبَهَ=watch out! (to a man) (he paid attention); خَمَّنَ=guess (to a man) (he guessed); عَبَّرَ=express! (to a man) (he expressed); تَخَرَّجَ=graduation (he graduated).",
+      "category": "engine",
+      "severity": "major",
+      "fix": "Key the tap dictionary on the fully vocalised form (or give each forms[].ar its own gloss from the entry's label); for this list set the glosses to the meanings in brackets above, e.g. مُدَرِّسَة=teacher (f)",
+      "alsoChange": "Any other screen that taps these forms (dialogues, drills) shows the same wrong gloss"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[382].forms[0].ar (tap); [807].example.ar (tap); [333].forms[2].ar (tap); [792].forms[1].ar (tap); [297].forms[0].ar (tap); [159].forms[0].ar (tap); [389].forms[2].ar (tap)",
+      "current": "سَلَامَتُكِ=get well soon (to a man)",
+      "problem": "Tap glosses give the wrong person or gender for the form shown: سَلَامَتُكِ=get well soon (to a man) is the form to a woman; خُطَّتُكَ=your plan (to a woman) is to a man (-ka); سَبَحَتْ=I swam is 'she swam' (the label says so); نَجَحْتُ=you succeeded ('will pass', to a man) is 'I passed'; أَشْبَهَ=I look like is 'he resembled'; أَحَبَّ=to like, to love (I) is 'he liked/loved'; تَفْتَحُ=(it) is opened ('opens') is 'you open (m) / she opens'.",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "سَلَامَتُكِ=get well soon (to a woman); خُطَّتُكَ=your plan (to a man); سَبَحَتْ=she swam; نَجَحْتُ=I passed, I succeeded; أَشْبَهَ=he resembled, looked like; أَحَبَّ=he liked, he loved; تَفْتَحُ=you open (to a man) / she opens",
+      "alsoChange": "none (the Arabic and labels are correct)"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[558].example.ar (tap); [756].example.ar (tap)",
+      "current": "يَزُورُونَ=they visit (wrong before a plural subject — correct: yazūru)",
+      "problem": "Two tap glosses contain leaked editorial annotations that are shown to the learner, and both annotations are themselves wrong for these sentences: in السُّيَّاح يَزُورُونَ الْبَتْرَاء the subject comes first, so the plural يَزُورُونَ is correct (yazūru would be required only in verb-first order); in نَشْرَةِ الْأَخْبَارِ the genitive الْأَخْبَارِ is correct (second term of an iḍāfa; there is no إِنَّ in this sentence). Second gloss as exported: الْأَخْبَارِ=the news (wrong ending after inna — correct: al-akhbāra).",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "يَزُورُونَ=they visit; الْأَخْبَارِ=the news",
+      "alsoChange": "Search the tap dictionary for other glosses containing 'wrong' or 'correct:'"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[335].example.ar (tap); [630].note (tap); [216].example.ar (tap); [721].example.ar (tap); [658].plural (tap)",
+      "current": "مَا=what",
+      "problem": "Tap glosses show a different sense of a same-spelled word, giving a wrong meaning in this sentence: مَا=what in مَا فَعَلْتُ شَيْئًا (here مَا is the negative 'not', so the learner reads 'what did I do?'); كَرِيم=Karim (first name) in رَمَضَان كَرِيم (here 'generous'); الْإِشَارَة=pointing in حَتَّى الْإِشَارَة (the traffic lights); السَّاعَةَ=at the hour in يُقَالُ إِنَّ هٰذِهِ السَّاعَةَ لَمْ تَعْمَلْ (the clock); رِجَال=men (toilets) as the plural of رَجُل.",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "مَا=not (negative, with a past verb); كَرِيم=generous; الْإِشَارَة=the traffic light; السَّاعَةَ=the clock; رِجَال=men",
+      "alsoChange": "none"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[128].example.ar (tap); [137].forms[3].ar (tap); [206].example.ar (tap); [314].example.ar (tap); [316].example.ar (tap); [318].example.ar (tap); [638].example.ar (tap); [573].forms[3].ar (tap); [777].example.ar (tap); [277].example.ar (tap); [394].example.ar (tap); [534].example.ar (tap); [715].example.ar (tap); [806].example.ar (tap); [508].plural (tap); [455].plural (tap); [754].ar (tap); [303].forms[0].ar (tap); [649].forms[0].ar (tap); [67].forms[0].ar (tap)",
+      "current": "تَأْكُلُ=she eats",
+      "problem": "Tap glosses that are a possible reading of the form but the wrong one for this entry (person or sense mismatch): تَأْكُلُ=she eats where the sentence is 'you (m)'; تَذْهَبُ=you go (to a man) with subject Layla (she goes); تَسْكُنُ=you live (to a man) with subject 'Sami's aunt' / 'my aunt Huda' (she lives, three examples); تُحِبُّ=you like (to a man) after أَنَّهَا (she likes); تَكْتُبُ=you write (to a man) under the label 'she (present)'; تَأْتِي=(they) come (f) for 'comes' (fluency); الْمَكْتَب=the office where the translation says desk; الْيَوْم=today in فِي الْيَوْم (a day); سَاعَة=watch, clock in قَبْلَ سَاعَة (an hour); رِحْلَتُنَا=our flight for a trip to the beach; أَوَّلَ=the first (of): with 'yesterday', the day before yesterday in أَوَّلَ دَرْسٍ; أَوْزَان=patterns (weights); عَنَاوِين=headlines (of) (addresses, titles); شَرِيحَة=SIM card for the headword 'slide; slice'; شَابَّة=young man (feminine) (young woman); وَزِيرَة=a minister (f, -an: tanwīn) (garbled); مُوَظَّفَة=employee (f) (of) ('receptionist') (garbled).",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "Give each form a gloss that matches its label/sentence, e.g. تَأْكُلُ=you eat (to a man) / she eats; تَذْهَبُ=she goes; تَسْكُنُ=she lives; تُحِبُّ=she likes; الْمَكْتَب=the desk; سَاعَة=hour; رِحْلَتُنَا=our trip; أَوَّلَ=the first (of); أَوْزَان=weights; عَنَاوِين=addresses; شَرِيحَة=slide; slice; شَابَّة=young woman; وَزِيرَة=minister (f); مُوَظَّفَة=employee (f)",
+      "alsoChange": "none"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[369].forms[0].ar (tap); [599].example.ar (tap); [155].example.ar (tap); [414].forms[3].ar (tap); [410].forms[3].ar (tap); [422].forms[2].ar (tap); [422].forms[3].ar (tap); [453].forms[2].ar (tap); [521].forms[2].ar (tap); [772].example.ar (tap); [749].example.ar (tap); [650].example.ar (tap); [652].example.ar (tap); [463].example.ar (tap)",
+      "current": "يَسْمَعُ=he hears (form after 'lam')",
+      "problem": "Tap glosses carry a grammar tag that belongs to another sentence and contradicts the form shown, teaching a wrong rule: يَسْمَعُ (indicative, -u) is tagged 'form after lam'; تَرُدَّ after أَنْ is tagged 'form after lam'; سَلَطَةً after أُرِيدُ is tagged 'after laysa'; the indicative forms تَنَامُ, تَرْتَاحُ, أَرْكُضُ, أَحْتَفِلُ, أَحْجِزُ are tagged '(after an)'; تَرْكُضُ (indicative) is glossed 'run (to a man)' as if an imperative; الْكِتَابَ as a direct object is tagged '-a after anna'; قَصِيرًا after تُقَدِّمُ is tagged \"after 'is not'\"; عُطْلَةً as the object of أَعْلَنَتْ is tagged \"after 'was'\"; بَارِدًا after كَانَ is tagged '(object)'.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "Remove the context tags from the dictionary entries or attach them per sentence: يَسْمَعُ=he hears; تَرُدَّ=you reply (after an); سَلَطَةً=a salad (object); تَنَامُ=you sleep (to a man); تَرْتَاحُ=you rest (to a man); أَرْكُضُ=I run; تَرْكُضُ=you run (to a man); أَحْتَفِلُ=I celebrate; أَحْجِزُ=I book; الْكِتَابَ=the book (object); قَصِيرًا=short (object); عُطْلَةً=a holiday (object); بَارِدًا=cold (after 'was')",
+      "alsoChange": "none"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[138].ar",
+      "current": "مَقْهىً",
+      "problem": "The fatḥatān is written after the alif maqṣūra; standard spelling places it before it: مَقْهًى (the transliteration Maqhan is right).",
+      "category": "arabic",
+      "severity": "minor",
+      "fix": "مَقْهًى",
+      "alsoChange": "none"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[763].ar; [763].example.ar",
+      "current": "انْتِبَاه",
+      "problem": "The headword lacks the kasra on the hamzat waṣl that every other Form VIII/X headword carries (اِجْتِمَاع, اِسْتِقْبَال, اِحْتِرَام); the transliteration still reads Intibāh, but the vocalisation is inconsistent.",
+      "category": "arabic",
+      "severity": "minor",
+      "fix": "اِنْتِبَاه",
+      "alsoChange": "example.ar اِنْتِبَاه مِنْ فَضْلِكُمْ!"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[295].plural",
+      "current": "Liḥanā",
+      "problem": "Engine: fatḥatān before alif maqṣūra (لِحًى) is transliterated 'anā' instead of 'an'; the Arabic is correct (liḥan).",
+      "category": "engine",
+      "severity": "minor",
+      "fix": "Liḥan",
+      "alsoChange": "transliterator rule: tanwīn fatḥ + ى → -an"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[671].ar",
+      "current": "Raʾī",
+      "problem": "Engine: a final yāʾ with no vowel after a consonant (رَأْي) is rendered as long ī; the word is raʾy (one syllable). The Arabic is correct.",
+      "category": "engine",
+      "severity": "minor",
+      "fix": "Raʾy",
+      "alsoChange": "transliterator rule: ي after sukūn/consonant at word end → y"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[667].example.ar; [786].example.ar",
+      "current": "ashalu",
+      "problem": "Engine: أَسْهَلُ is rendered 'ashalu', which the learner reads as a-sha-lu (sh digraph); ALA-LC separates s and h (as·halu / as-halu).",
+      "category": "engine",
+      "severity": "minor",
+      "fix": "as-halu",
+      "alsoChange": "transliterator rule: insert a separator between s+h, d+h, t+h, k+h when they are two letters"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[197].forms[0].ar",
+      "current": "Miāʾa",
+      "problem": "Engine: the silent alif of the older spelling مِائَة is transliterated; the word is miʾa in both spellings (the note itself says the alif is silent).",
+      "category": "engine",
+      "severity": "minor",
+      "fix": "Miʾa",
+      "alsoChange": "none"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[36].note; [135].note; [155].note; [176].note; [265].note; [374].note; [377].note; [378].note; [466].note; [566].note; [691].note; [695].note",
+      "current": "Feminine without A / at: a female person.",
+      "problem": "Engine (known quirk): a bare ة quoted in English prose is transliterated as 'A / at' or 'a / at', e.g. 'drop A / at and add -āt', 'After A / at the object ending -an…'.",
+      "category": "engine",
+      "severity": "minor",
+      "fix": "Render a bare ة in prose as 'tāʾ marbūṭa (ة)'",
+      "alsoChange": "none"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[420].example.ar",
+      "current": "anā Waʿumar",
+      "problem": "Engine (known quirk): a name after the clitic وَ is capitalised as one word and the name loses its capital.",
+      "category": "engine",
+      "severity": "minor",
+      "fix": "anā wa-ʿUmar",
+      "alsoChange": "none"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[95].example.ar; [98].example.ar; [100].example.ar",
+      "current": "sh-shāī",
+      "problem": "Engine (known quirk): الشَّاي is rendered 'sh-shāī'; the word is shāy.",
+      "category": "engine",
+      "severity": "minor",
+      "fix": "sh-shāy",
+      "alsoChange": "none"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[774].example.ar; [792].example.ar; [792].note; [793].note; [797].example.ar; [797].note; [735].example.ar; [735].note; [736].note; [701].ar; [701].example.ar; [702].example.ar; [655].ar; [656].ar; [657].ar",
+      "current": "liāmtiḥāni",
+      "problem": "Engine (known quirk): words whose al- alif carries a kasra (الِامْتِحَان, الِاحْتِرَام, الِاجْتِمَاعِيّ) are rendered 'liāmtiḥān', 'liāḥtirām', 'liājtimāʿī', and sentence-initial 'Iliāmtiḥānu'; الَّذِي / الَّتِي / الَّذِينَ headwords are rendered 'Illadhī', 'Illatī', 'Illadhīna'.",
+      "category": "engine",
+      "severity": "minor",
+      "fix": "l-imtiḥāni / al-imtiḥānu; l-iḥtirām; l-ijtimāʿī; alladhī, allatī, alladhīna",
+      "alsoChange": "transliterator: treat a kasra on the alif of al- as hamzat waṣl, not as a vowel of the preceding word"
+    }
+  ],
+  "notes": [
+    { "file": "content/course/vocabulary.json", "path": "[566].plural", "note": "مُدَرَاء is the everyday plural of مُدِير but purists reject it (the regular plural is مُدِيرُونَ); worth a word in the note or a switch." },
+    { "file": "content/course/vocabulary.json", "path": "[134].ar; [162].ar", "note": "شَايْ and حُلْوْ carry a final sukūn that no other headword has; harmless, but inconsistent with شَاي / حُلْو elsewhere." },
+    { "file": "content/course/vocabulary.json", "path": "[14].ar (tap); [15].ar (tap)", "note": "The tap gloss for the fully vocalised أَنْتَ / أَنْتِ says 'you (written without vowel marks: anta or anti)', which is confusing when the marks are shown." },
+    { "file": "content/course/vocabulary.json", "path": "[631].ar (tap)", "note": "Headword gloss for يَصُومُ is '(they) fast (verb first: singular)', an explanation from a sentence rather than a meaning; 'fasts' would do." },
+    { "file": "content/course/vocabulary.json", "path": "[223].ar (tap)", "note": "Headword gloss 'falls, comes down' for يَنْزِلُ while the entry teaches 'to get off'; the snow example later uses the 'falls' sense." },
+    { "file": "content/course/vocabulary.json", "path": "[212].forms[0].ar (tap)", "note": "ثَانِيَة glossed \"second (f): 'again'\": correct in speech but puzzling under the label 'feminine'." },
+    { "file": "content/course/vocabulary.json", "path": "[408].example.ar", "note": "لَازِم أَنْ تَرْتَاحَ is colloquial-flavoured MSA; fine for the course register, but يَجِبُ أَنْ is the textbook form (which the next entry gives)." },
+    { "file": "content/course/vocabulary.json", "path": "[137].note", "note": "The transliterated note loses the quoted letters: 'the hamza of a and the first letter  of the root merge into ā' (bare أَ / أ render as 'a' / empty)." },
+    { "file": "content/course/vocabulary.json", "path": "[254].gender", "note": "سُوق is given as masculine; most references and the Gulf/Levant treat it as feminine. The note already says both are heard, so no change needed." },
+    { "file": "content/course/vocabulary.json", "path": "[77].example.ar (tap); [685].note (tap)", "note": "Odd but harmless glosses: الْأَرْبِعَاء fine; سَلَام=peace ('wow!' with yā) shows a dialogue sense in a root note." },
+    { "file": "content/course/vocabulary.json", "path": "[588] – [592] pos", "note": "ذَاهِب, عَائِد, غَائِب, حَاضِر are active participles used predicatively; 'adj' is acceptable, but a learner may look for them as verbs." }
+  ],
+  "summary": "Checked all 809 entries of audit/vocabulary.txt: headword spelling and harakat, English meaning, gender, plural, listed forms, example sentence (agreement, case after كَانَ/لَيْسَ/إِنَّ/أَنْ, numbers with counted nouns, iḍāfa) and its translation, and the generated transliteration and tap glosses. The Arabic itself is in very good shape: no misspelt headword, wrong gender, wrong plural, wrong conjugation or wrong example agreement was found, and the number/counted-noun forms (ثَلَاثَ مَرَّات, عَشْرُ سَنَوَاتٍ, خَمْسَةَ عَشَرَ ضَيْفًا, عِشْرُونَ جُنَيْهًا) are all correct. Only two minor orthographic points (مَقْهىً tanwīn position, انْتِبَاه without kasra). Almost every real problem is in the app-generated tap glosses, which are looked up by consonant skeleton or shared key: about twenty forms show another word's meaning (مُدَرِّسَة=school, كُتَّاب=book, سَادَة=plain, without sugar, يُكْتَبُ=writes), several show the wrong person or gender (سَلَامَتُكِ 'to a man', خُطَّتُكَ 'to a woman', سَبَحَتْ 'I swam', نَجَحْتُ 'you succeeded'), two glosses leak editorial annotations that are themselves wrong (يَزُورُونَ, الْأَخْبَارِ), and many carry grammar tags from another sentence ('after an', 'form after lam', 'after laysa'). Transliteration errors are minor and systematic (لِحًى → Liḥanā, رَأْي → Raʾī, أَسْهَلُ → ashalu, مِائَة → Miāʾa) plus the four known quirks. Totals: 16 errors (4 major, 12 minor), 11 notes."
+}

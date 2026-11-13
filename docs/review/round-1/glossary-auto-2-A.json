@@ -1,0 +1,484 @@
+{
+  "chunk": "glossary-auto-2",
+  "reviewer": "A",
+  "errors": [
+    {
+      "file": "content/glossary/auto.json",
+      "path": "سيخرج",
+      "current": "سيخرج = (they) will go out",
+      "problem": "سَيَخْرُجُ is 3rd person masculine singular; 'they' is only true in one verb-first sentence with a plural subject",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "(he) will go out, will leave"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "وسيأتي",
+      "current": "وسيأتي = and (they) will come",
+      "problem": "سَيَأْتِي is singular (he/it will come); 'they' is a one-sentence reading",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "and (he, it) will come"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "ظهرا",
+      "current": "ظهرا = back",
+      "problem": "the unvocalised key covers ظُهْرًا 'at noon' (very common after clock times: الثانية عشرة ظهرًا) as well as ظَهْرًا 'a back (object form)'; the gloss gives only the rarer reading, with no object-form note",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "at noon (ẕuhran); a back (ẕahran, object form)"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "عبر",
+      "current": "عبر = express! (to a man)",
+      "problem": "the key covers عَبْرَ 'across, through, via' (a very common preposition) and عَبَرَ 'he crossed' as well as the imperative عَبِّرْ; the imperative is the least common reading",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "across, through, via (ʿabra); (he) crossed (ʿabara); express! (to a man, ʿabbir)"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "عرفنا",
+      "current": "عرفنا = introduce to us! (to a man)",
+      "problem": "عَرَفْنَا 'we knew, we recognised' is the ordinary reading of this spelling; only the Form II imperative عَرِّفْنَا means 'introduce (to) us'",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "we knew, we recognised (ʿarafnā); introduce (to) us! (to a man, ʿarrifnā)"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "علمت",
+      "current": "علمت = I taught",
+      "problem": "عَلِمْتُ 'I knew, I found out' and عَلِمَتْ 'she knew' share the spelling with عَلَّمْتُ 'I taught'; a learner tapping عَلِمْتُ learns a wrong verb",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "I knew, I found out (ʿalimtu); I taught (ʿallamtu); also you knew / she knew"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "عملنا",
+      "current": "عملنا = we worked ('we work')",
+      "problem": "عَمَلُنَا 'our work' (noun + our) is as common as the verb عَمِلْنَا and is a different part of speech",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "we worked (ʿamilnā); our work (ʿamalunā)"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "قلت",
+      "current": "قلت = you said (to a woman)",
+      "problem": "قُلْتُ 'I said' is by far the commonest reading of this spelling, and قُلْتَ 'you said (to a man)' is also covered; the gloss gives only the feminine 2nd person from one sentence",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "I said (qultu); you said (qulta to a man, qulti to a woman)"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "كتبه",
+      "current": "كتبه = (he) wrote it",
+      "problem": "كُتُبُهُ 'his books' shares the spelling; the sibling entry كتبها is glossed 'her books', so the two keys are glossed inconsistently and each one-sidedly",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "his books (kutubuhu); (he) wrote it (katabahu)"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "كتبها",
+      "current": "كتبها = her books",
+      "problem": "كَتَبَهَا '(he) wrote it (f)' shares the spelling; the verb reading is at least as common as 'her books'",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "her books (kutubuhā); (he) wrote it (f) (katabahā)"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "ناموا",
+      "current": "ناموا = sleep! go to bed! (to a group)",
+      "problem": "نَامُوا 'they slept' (past, 3rd plural) is spelled identically to the plural imperative and is the commoner reading in narrative; imperative/past mix-up",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "they slept (nāmū); sleep!, go to bed! (to a group)"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "نجحت",
+      "current": "نجحت = you succeeded ('will pass', to a man)",
+      "problem": "نَجَحْتُ 'I passed' and نَجَحَتْ 'she passed' are covered too, and 'will pass' is a leaked translation of one conditional sentence (إذا نجحت), not a meaning of this past-tense form",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "I passed, I succeeded (najaḥtu); you passed (to a man najaḥta, to a woman najaḥti); she passed (najaḥat)"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "وأقدم",
+      "current": "وأقدم = and the oldest (before a noun)",
+      "problem": "وَأُقَدِّمُ 'and I present, I offer, I introduce' (Form II present) shares the spelling and is a frequent verb in the course register; the gloss gives only the elative",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "and the oldest (aqdam, before a noun); and I present, I offer (uqaddimu)"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "وتكلم",
+      "current": "وتكلم = and speak! (to a man)",
+      "problem": "وَتَكَلَّمَ 'and he spoke' (past) is spelled identically to the imperative وَتَكَلَّمْ and is the usual reading in narrative; imperative/past mix-up",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "and (he) spoke (takallama); and speak! (to a man, takallam)"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "وجدته",
+      "current": "وجدته = and his grandmother",
+      "problem": "وَجَدْتُهُ 'I found him / it' shares the spelling and is the expected reading next to the sibling entries وجدت = I found and وجدتها = I found it; the gloss gives only wa-jaddatuhu",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "I found him, I found it (wajadtuhu); and his grandmother (wa-jaddatuhu)"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "وجدتها",
+      "current": "وجدتها = I found it (f)",
+      "problem": "by the same split as وجدته, this key also covers وَجَدَّتُهَا 'and her grandmother'; a learner tapping it in a family sentence gets a verb",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "I found it, I found her (wajadtuhā); and her grandmother (wa-jaddatuhā)"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "وصور",
+      "current": "وصور = and he photographed",
+      "problem": "وَصُوَر 'and pictures, photos' (plural of صورة) shares the spelling and is a basic noun in the course; the gloss gives only the Form II past verb",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "and pictures, photos (wa-ṣuwar); and (he) photographed (wa-ṣawwara)"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "يعلم",
+      "current": "يعلم = teaches",
+      "problem": "يَعْلَمُ '(he) knows' is the commonest reading of this spelling (الله يعلم, لا يعلم); only Form II يُعَلِّمُ means 'teaches'",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "(he) knows (yaʿlamu); (he) teaches (yuʿallimu)"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "صنع",
+      "current": "صنع = (it) was made",
+      "problem": "the key covers the active صَنَعَ '(he) made' and the noun صُنْع 'making, manufacture' as well as the passive صُنِعَ",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "(he) made (ṣanaʿa); (it) was made (ṣuniʿa); making (ṣunʿ)"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "ضيفا",
+      "current": "ضيفا = guests (after a number)",
+      "problem": "ضَيْفًا is singular; it means 'a guest' (object form, كان ضيفًا) and only after 11–99 translates as 'guests'",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "a guest (object form; 'guests' after the numbers 11–99)"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "شغل",
+      "current": "شغل = play, switch on (to a man)",
+      "problem": "شُغْل 'work, job' (noun) shares the spelling and is a common word; the gloss gives only the Form II imperative",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "switch on!, play! (to a man, shaghghil); work, job (shughl)"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "فاعل",
+      "current": "فاعل = fāʿala (verb pattern, Form III)",
+      "problem": "فَاعِل 'doer; the subject of a verb (grammar term)' shares the spelling and is a grammar term a learner will meet; the gloss gives only the Form III pattern",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "fāʿil: the doer, the subject (grammar); fāʿala: Form III verb pattern"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "فهم",
+      "current": "فهم = (he) understood",
+      "problem": "the key also covers فَهُمْ 'so they' (fa- + hum) and the noun فَهْم 'understanding'",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "(he) understood (fahima); understanding (fahm); fa-hum: so they"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "لنجيب",
+      "current": "لنجيب = by Naguib (first name)",
+      "problem": "لِنُجِيبَ 'so that we answer, let's answer' shares the spelling and follows the pattern of the neighbouring لنرى / لنزور entries",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "for / by Naguib (first name); so that we answer, let's answer (li-nujība)"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "مختلفين",
+      "current": "مختلفين = different (dual, after a preposition)",
+      "problem": "مُخْتَلِفِينَ (sound masculine plural, object or after a preposition) is far commoner than the dual مُخْتَلِفَيْنِ and shares the spelling",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "different (plural or dual; object form / after a preposition)"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "نحضر",
+      "current": "نحضر = we bring ('should we bring')",
+      "problem": "نَحْضُرُ 'we attend, we are present' shares the spelling with نُحْضِرُ 'we bring'; both are common in the course (attending lectures)",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "we bring (nuḥḍiru); we attend (naḥḍuru)"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "وآخر",
+      "current": "وآخر = and the last",
+      "problem": "وَآخَر 'and another' (ākhar) is the commoner reading of this spelling; آخِر 'last' is the other",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "and another (ākhar); and the last (ākhir)"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "واستعمل",
+      "current": "واستعمل = and (he) used",
+      "problem": "the key also covers the imperative وَاسْتَعْمِلْ 'and use!' (the course's neighbouring واستمر / واستمع entries are imperatives)",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "and (he) used (istaʿmala); and use! (to a man, istaʿmil)"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "وأسرع",
+      "current": "وأسرع = and faster",
+      "problem": "وَأَسْرِعْ 'and hurry up!' (imperative) shares the spelling with the elative أَسْرَع",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "and faster (asraʿ); and hurry up! (to a man, asriʿ)"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "والباقي",
+      "current": "والباقي = and the change",
+      "problem": "الباقي means 'the rest, the remainder'; 'the change' is only the shop-counter sense of one sentence",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "and the rest, the remainder ('the change' when paying)"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "والتأمين",
+      "current": "والتأمين = and the deposit",
+      "problem": "التأمين means 'insurance'; 'deposit' is the security-deposit sense of one rental sentence",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "and the insurance; the (security) deposit"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "والوزن",
+      "current": "والوزن = and the pattern",
+      "problem": "الوزن first means 'the weight'; 'pattern' is only the grammar sense (verb pattern) of one explanation",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "and the weight; the (verb) pattern (grammar)"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "وبني",
+      "current": "وبني = and (it) was built",
+      "problem": "وَبُنِّيّ 'and brown' (the colour) shares the spelling and is a basic adjective in colour lessons",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "and (it) was built (buniya); and brown (bunnī)"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "وصف",
+      "current": "وصف = and describe! (to a man)",
+      "problem": "the key also covers the noun وَصْف 'description' and the past وَصَفَ 'he described'; both commoner than the wa- + imperative reading",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "description (waṣf); (he) described (waṣafa); and describe! (to a man, wa-ṣif)"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "وصفة",
+      "current": "وصفة = prescription",
+      "problem": "وَصْفَة also means 'recipe', a sense a food-lesson learner will meet",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "prescription; recipe"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "وعد",
+      "current": "وعد = (he) promised",
+      "problem": "the noun وَعْد 'a promise' shares the spelling",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "(he) promised (waʿada); a promise (waʿd)"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "وفرنا",
+      "current": "وفرنا = we saved",
+      "problem": "وَفُرْنُنَا 'and our oven' shares the spelling (فرن is a glossary word in this chunk)",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "we saved (waffarnā); and our oven (wa-furnunā)"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "وقع",
+      "current": "وقع = (it) fell",
+      "problem": "وَقَّعَ 'he signed' (Form II) shares the spelling and appears in contract / form contexts",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "(it) fell, happened (waqaʿa); (he) signed (waqqaʿa)"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "ولد",
+      "current": "ولد = boy",
+      "problem": "وُلِدَ '(he) was born' shares the spelling and is the standard verb of biographies (ولد في القاهرة)",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "boy, child (walad); (he) was born (wulida)"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "عام",
+      "current": "عام = year",
+      "problem": "عَامّ 'general, public' (adjective, as in نقل عام / مكان عام) shares the spelling",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "year (ʿām); general, public (ʿāmm)"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "مقصورة",
+      "current": "مقصورة = shortened ('alif maqsura')",
+      "problem": "مَقْصُورَة also means 'compartment, cabin' (train, boat), a sense in travel lessons",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "shortened (alif maqṣūra); a compartment, cabin (train)"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "يسمع; يظهر; ينام; يزورنا; يراجع; يرتاح; نسبح; نستمع; نضع; نحمي; نغير; نتزلج; نسهر; نتأخر; نرضي; نركبه; نعطيك; ونسبح; وتحتفلا; يذهبوا; يكونوا",
+      "current": "يسمع = he hears (form after 'lam')",
+      "problem": "editorial mood notes leaked into dictionary glosses. For يسمع, يظهر, ينام, يزورنا, يراجع, يرتاح, نسبح, نستمع, نضع, نحمي, نغير, نتزلج, نسهر, نتأخر, نرضي, نركبه, نعطيك, ونسبح the unvocalised spelling is identical to the plain present indicative, so '(after an / lam / lan)' is false wherever the word is an ordinary present ('he hears'). Only the plural/dual forms without ن (يذهبوا, يكونوا, وتحتفلا, يأخذا, يركبا, يبحثوا, يقرؤوا) are really marked; for those the note should read 'after an / lan / lam' (any of the three), not just one particle",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "drop the mood parenthesis on the forms that are spelled like the indicative, e.g. يسمع = he hears; ينام = he sleeps; نسبح = we swim; and on the ن-less forms write 'after an / lan / lam', e.g. يذهبوا = they go (form after an / lan / lam)"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "شربت; صححت; ظننت; غبت; غسلت; فزت; فقدت; قضيت; لاحظت; لبست; مشيت; نسيت; نظفت; نظمت; وجدت; واشتريت; وبقيت; وسمعت; وشربت; وشعرت; وكتبت; وفهمت; ونمت; فأجبت; فتكلمت; فكتبت; قرأتها; فأخذتها; غادرت; قدمت; فاقترحت; فسألته; وأخذت; وتركت; وسألت; وطبخت; ووصلت; وبنيت; غطيت; صنعته; نسيتها; ودفعت; ونسيت; شاهدتك; علمتنا",
+      "current": "شربت = I drank",
+      "problem": "past-tense verbs ending in ت are glossed with one person only, taken from one sentence. The unvocalised key covers -tu (I), -ta (you, m), -ti (you, f) and -at (she / it f) alike, so e.g. شربت = 'I drank' is wrong when the learner taps شَرِبَتْ 'she drank', قدمت = '(she) presented' is wrong for قَدَّمْتُ 'I presented', ودفعت = 'and you paid (to a man)' is wrong for وَدَفَعْتُ 'and I paid', and صنعته = 'you made it (to a woman)' is wrong for صَنَعْتُهُ 'I made it'",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "give all persons the spelling covers, e.g. شربت = I drank; you drank (m/f); she drank — قدمت = I / you / she presented ('gave') — ودفعت = and I paid; and you paid — صنعته = I made it; you made it; she made it — نسيتها = I forgot it / left it; you forgot it (f) — ونسيت = and I forgot; and you forgot — شاهدتك = I saw you; she saw you — علمتنا = you taught us; she taught us"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "وتحضر; وتشرب; وتساعد; وتفهم; وتكون; وتغلق; وتكتب; وتعلمني",
+      "current": "وتحضر = and you bring (to a man)",
+      "problem": "present-tense verbs with the ت prefix are glossed with one subject only; the spelling covers both 'you (m)' and 'she / it (f)' (and for وتكون, وتغلق, وتكتب also the active 'you / she'), so وتشرب = 'and she drinks' is wrong when the learner taps وَتَشْرَبُ 'and you drink', and وتحضر = 'and you bring' is wrong for 'and she brings / attends'",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "give both subjects, e.g. وتحضر = and you bring (to a man); and she brings, attends — وتشرب = and she drinks; and you drink (to a man) — وتساعد = and she helps; and you help — وتفهم = and you understand; and she understands — وتكون = and (they, f) are; and you are / she is — وتغلق = and (they, f) are switched off; and you / she close(s) — وتكتب = and (they, f) are written; and you / she write(s)"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "طلبك; عنوانك; يدك; نساعدك; نعطيك; واسمك; ولصديقك",
+      "current": "طلبك = your application (to a woman)",
+      "problem": "a possessive or object suffix ك is glossed with a single gender taken from one sentence; the unvocalised key covers both -ka and -ki. These seven entries say 'to a woman' while all the other ك entries in the chunk default to 'to a man', so the gloss is wrong whenever the same word is addressed to a man (طلبك also means 'your order, your request')",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "your application, your order (to a man or a woman); عنوانك = your address (to a man or a woman); يدك = your hand (to a man or a woman); نساعدك = we help you; نعطيك = we give you; واسمك = and your name; ولصديقك = and for your friend"
+    }
+  ],
+  "notes": [
+    {
+      "file": "content/glossary/auto.json",
+      "path": "فالباعة; فالحمار; فالشارع; فالمحطة; فالمنحة; فالموسيقى; فاليوم; فرأسي; فصديقك; ففي; فابني",
+      "note": "fa- is rendered 'because' / 'since' in these entries (from an explanatory sentence) but 'so / then' elsewhere; a beginner may conclude that ف means 'because'. Consider a uniform 'so, and (fa-) + the …' with 'because' in quotes"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "شرب; شرح; غسل; نحت; منع; قطع; طرق; ملك; عقد",
+      "note": "these Form I pasts also read as verbal nouns or other nouns with the same spelling (شُرْب drinking, شَرْح explanation, غَسْل washing, نَحْت carving, مَنْع banning is given but not مَنَعَ he banned, قَطَعَ he cut, طَرَقَ he knocked, مَلَكَ he owned / مِلْك property, عِقْد necklace / decade). Low priority: add the second reading where the course uses it"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "نجحتم",
+      "note": "'(\\'will pass\\')' is a leaked future translation of a conditional sentence; نَجَحْتُمْ is simply 'you (all) passed, succeeded'"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "والكبار",
+      "note": "الكبار is better 'the grown-ups, the adults' (vs الصغار the children) than 'the old (people)'"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "كعكة; والكعكة; كعكا; كعكات",
+      "note": "كعكة is glossed 'a cake' in one entry and 'the kaʿk biscuit' in another; pick one wording ('a cake; a kaʿk biscuit') so the two taps agree"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "مضبوط",
+      "note": "'just right (medium sweet)' is the coffee-order sense only; the general meaning 'exact, correct, just right' should come first"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "مذكرة",
+      "note": "besides the grammar term مُذَكَّرَة 'masculine (f adj.)', the spelling covers مُذَكِّرَة 'a memo, a note, a notebook'; add it if the word appears in an office scenario"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "موافقة",
+      "note": "also the noun مُوَافَقَة 'agreement, approval'; 'agreed (said by a woman)' is one sentence's sense"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "هرقل",
+      "note": "in Arabic texts هِرَقْل usually names the Byzantine emperor Heraclius; Hercules is more often هرقليس. Check which the lesson means"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "قرشا",
+      "note": "piaster as 1/100 of a dinar is right for Jordan; in Egypt the qirsh is 1/100 of a pound. The gloss could say 'piasters (1/100 of a dinar or pound)' to fit both countries used in the course"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "لظهر",
+      "note": "'to back' is not English; لِظَهْرِ is 'for / to the back (of)' (or 'for noon' if لِظُهْر). Clumsy gloss"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "ولدي",
+      "note": "also وَلَدَيَّ 'and I have' (wa-ladayya); add if the course uses لدي"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "ير",
+      "note": "'he see' reads as a typo; 'he sees (shortened form after lam / lā)' is clearer"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "غنيا; متوترا; قويا; متزوجا; هادئا; مزدحما; معتدلا; مليئا; وحارا; ودافئا; وغائما; وصفراء; ملوحة; ملعبا; وحقيقي; وزيرة",
+      "note": "the case notes ('-an after kāna', 'after is not', 'after be', 'after more', '-un: tanwīn') are helpful but inconsistent in wording across the chunk; a single formula such as '(object form, e.g. after kāna / laysa)' would read better"
+    }
+  ],
+  "summary": "Checked all ~1,700 entries of the second half of the auto glossary (س to ي) as dictionary glosses for an unvocalised key. 45 findings: 18 major and 27 minor (five of the minor ones are grouped entries covering about 80 keys). The dominant pattern is one-sided glossing: a key that covers two different words gets only the reading of the sentence it was harvested from (يعلم = teaches but not knows; عرفنا = introduce to us! but not we knew; كتبه = he wrote it vs كتبها = her books; وجدته = and his grandmother vs وجدتها = I found it; ظهرا = back but not at noon; عبر = express! but not across). Second pattern: past verbs in -ت and present verbs in ت- glossed with a single person or gender from one sentence (قلت = you said (to a woman) when I said is the default; ناموا and وتكلم glossed only as imperatives though the past reading is identical). Third: editorial notes leaked into glosses, chiefly '(after an / lam)' on forms whose spelling is also the plain indicative, and 'will pass' on the past نجحت. Noun/verb homographs (وصور, عملنا, وأقدم, وفرنا, وبني) round out the majors. The rest of the chunk is accurate; number phrases, prepositional la-/li- compounds, names and place names were sound."
+}

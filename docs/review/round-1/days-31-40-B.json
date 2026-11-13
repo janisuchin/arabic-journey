@@ -1,0 +1,125 @@
+{
+  "chunk": "days-31-40",
+  "reviewer": "B",
+  "errors": [
+    {
+      "file": "content/days/day37.json",
+      "path": "summary (tap); intro (tap); objectives[1] (tap); sentences[0].mistakes[0].wrong (tap); sentences[0].mistakes[0].why (tap); sentences[2].mistakes[0].right (tap); sentences[2].mistakes[0].why (tap); quiz[0].ar (tap); quiz[1].options[1] (tap); completion (tap)",
+      "current": "مَا=what",
+      "problem": "The whole lesson teaches that مَا before a past verb means 'not', yet every tap gloss of مَا in these negated sentences says 'what'. In quiz[0] the learner taps مَا سَبَحْتُ, reads 'what', and is then told the answer is 'I didn't swim'; in sentences[2].mistakes[0].right the model answer مَا سَبَحَ دَانْيَال glosses مَا as 'what'. The seg glosses in the dialogue ('not (before a past verb)') are correct; only the tap dictionary entry is wrong for this sense.",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "مَا=what; not (before a past verb)",
+      "alsoChange": "the shared tap/dictionary entry for مَا, so the same gloss appears in day40 quiz[1].options[3]"
+    },
+    {
+      "file": "content/days/day35.json",
+      "path": "objectives[3] (tap); sentences[1].mistakes[0].right (tap); sentences[1].mistakes[0].why (tap); quiz[5].options[1] (tap); quiz[5].options[2] (tap); quiz[5].options[3] (tap)",
+      "current": "تَسْكُنُ=you live (to a man)",
+      "problem": "In all of these places تَسْكُنُ means 'she lives' (خَالَتِي هُدَى تَسْكُنُ, هِيَ تَسْكُنُ فِي عَمَّان). The mistake card and quiz[5] exist precisely to teach he-يَسْكُنُ vs she-تَسْكُنُ, but tapping the correct answer shows 'you live (to a man)', which contradicts the 'why' text ('تَسْكُنُ (she lives)').",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "تَسْكُنُ=she lives; you live (to a man)",
+      "alsoChange": "objectives[3] text says 'with يَسْكُنُ and تَسْكُنُ' for relatives, so the she-sense should come first in the tap gloss"
+    },
+    {
+      "file": "content/days/day38.json",
+      "path": "dialogue.culture; dialogue.lines[5].ar; dialogue.lines[7].ar; reading.ar",
+      "current": "الْإِثْنَيْن",
+      "problem": "اِثْنَان / اِثْنَيْن has hamzat waṣl, so the weekday is spelt الِاثْنَيْن (al-ithnayn), not with hamzat qaṭʿ الْإِثْنَيْن. The transliteration al-ithnayn is right; the Arabic spelling teaches a common error. Pronunciation and meaning are unchanged.",
+      "category": "arabic",
+      "severity": "minor",
+      "fix": "الِاثْنَيْن",
+      "alsoChange": "the tap entry 'الْإِثْنَيْن=Monday' in dialogue.culture and the matching seg in dialogue.lines[5], [7] and reading.segs"
+    },
+    {
+      "file": "content/days/day35.json",
+      "path": "intro (tap); objectives[0] (tap); quiz[1].options[3] (tap)",
+      "current": "خَالَة=aunt, auntie",
+      "problem": "The lesson's point is عَمَّة (father's sister) vs خَالَة (mother's sister); the other three kin words are glossed with the side, but خَالَة only says 'aunt, auntie'. In quiz[1] ('Your mother's sister is your …') the tap gloss gives the learner no way to tell خَالَة from عَمَّة.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "خَالَة=aunt (mother's sister); also 'auntie' for a family friend"
+    },
+    {
+      "file": "content/days/day33.json",
+      "path": "titleAr (tap); quiz[0].prompt (tap); sentences[0].mistakes[0].wrong (tap); quiz[1].options[1] (tap: طَوِيلَة=long (f))",
+      "current": "طَوِيل=long",
+      "problem": "In this lesson طَوِيل is 'tall' (people); the segs and titleSegs say 'tall, long' but the tap dictionary only shows 'long', so the title 'Tall and short' taps as 'long · and short' and quiz[0] 'the opposite of طَوِيل' shows 'long' while the key is 'short (person)'.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "طَوِيل=tall, long",
+      "alsoChange": "طَوِيلَة=tall, long (f)"
+    },
+    {
+      "file": "content/days/day33.json",
+      "path": "intro (tap); objectives[2] (tap); sentences[0].mistakes[0].why (tap); quiz[4].prompt (tap)",
+      "current": "ـًا=the letter alif",
+      "problem": "The symbol being taught is the accusative tanwīn ending -an (fatḥatān + alif), not 'the letter alif'. A learner who taps the ending in 'Add ـًا to the adjective after لَيْسَ' is told it is a letter, which misdescribes the rule being taught.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "ـًا=the -an ending (tanwīn with alif)"
+    },
+    {
+      "file": "content/days/day32.json; content/days/day33.json; content/days/day34.json; content/days/day35.json",
+      "path": "day32 reading.ar (⟶ Wadānyāl); day33 dialogue.lines[1].ar (⟶ Wadānyāl); day34 dialogue.lines[3].ar (⟶ Wasāmī); day34 reading.ar (⟶ Waʿumar, wanūr); day35 dialogue.lines[7].ar (⟶ Wamuṣṭafā, Wakhālid); day35 dialogue.lines[11].ar (⟶ Wakhālid); day31 reading.ar (⟶ Lilaylā, walisāmī)",
+      "current": "Wadānyāl",
+      "problem": "Engine: when وَ or لِ is prefixed to a proper name the transliteration capitalises the particle and lowercases the name (Wadānyāl, Wasāmī, Waʿumar, wanūr, Lilaylā, walisāmī). Elsewhere the engine writes wa-anā, wa-l-ab, li-sh-shaqqa with a hyphen. Names should keep their capital: wa-Dānyāl, wa-Sāmī, wa-ʿUmar, wa-Nūr, li-Laylā, wa-li-Sāmī. The Arabic is correct.",
+      "category": "engine",
+      "severity": "minor",
+      "fix": "wa-Dānyāl (hyphenate the prefix and keep the name's capital)"
+    },
+    {
+      "file": "content/days/day34.json; content/days/day33.json; content/days/day38.json; content/days/day40.json",
+      "path": "day34 intro (⟶ 'loses its a / at'); day34 sentences[2].mistakes[0].why (⟶ 'drops its a / at'); day34 quiz[6].prompt (⟶ 'tāʾ marbūṭa (A / at)'); day33 intro and objectives[2] (⟶ '-An'); day38 quiz[6].options[0] (أ ⟶ empty string); day40 dialogue.lines[13].ar (الشَّاي ⟶ sh-shāī)",
+      "current": "tāʾ marbūṭa (A / at)",
+      "problem": "Engine: isolated letters and endings embedded in English prose are transliterated as if they were words: ة becomes 'a / at' or 'A / at', ـًا becomes '-An', the bare أ quiz option becomes an empty transliteration, and الشَّاي (shāy) is rendered sh-shāī (final -āy read as -āī). The Arabic is correct in every case.",
+      "category": "engine",
+      "severity": "minor",
+      "fix": "leave a bare letter/ending untransliterated or show its name (tāʾ marbūṭa, -an, hamza); render final ـَاي as -āy (sh-shāy)"
+    }
+  ],
+  "notes": [
+    {
+      "file": "content/days/day38.json",
+      "path": "intro",
+      "note": "'they take an -a ending: صَبَاحًا (in the morning), مَسَاءً' — the examples end in -an (tanwīn), and day39 then calls the same ending '-an'. Saying '-an ending' here would be consistent and less confusing; the Arabic forms are right."
+    },
+    {
+      "file": "content/days/day32.json",
+      "path": "sentences[4].mistakes[0].wrong (tap)",
+      "note": "Tap gloss 'أَبُوهُ=his father (subject form; after a verb use abāhu)' — 'after a verb' is a shortcut for 'as the object'; أَبُوهُ is also used after a verb when it is the subject (ذَهَبَ أَبُوهُ). Consider 'as the object use abāhu'."
+    },
+    {
+      "file": "content/days/day31.json",
+      "path": "dialogue.lines[10].en",
+      "note": "مَنْ فِي الْبَيْت؟ is translated 'Who lives in the house?'; the Arabic says 'Who is in the house?'. Acceptable free translation, flagged only for consistency with the literal glosses."
+    },
+    {
+      "file": "content/days/day33.json",
+      "path": "dialogue.lines[11].ar",
+      "note": "لَا أَحَدَ هَادِئ is correct (lā of absolute negation). A beginner might wonder why أَحَد has fatḥa with no tanwīn; a one-line gloss '(no one: lā + aḥada)' would help. Not an error."
+    },
+    {
+      "file": "content/days/day35.json",
+      "path": "dialogue.lines[9].ar",
+      "note": "أَقَارِب كَثِيرُونَ is fine; أَقَارِبُ كَثِيرُونَ / أَقَارِبٌ كَثِيرُونَ with the full ending would match the other fully vocalised lines, but pausal spelling is accepted by the brief."
+    },
+    {
+      "file": "content/days/day40.json",
+      "path": "dialogue.lines[2].ar (⟶ l-mubārāh) vs dialogue.lines[3].ar (⟶ l-mubārāti)",
+      "note": "Same word, two renderings: pausal 'mubārāh' (ALA-LC after long ā) and 'mubārāti' with the kasra written. Both are correct given the different harakat in the source; the inconsistency inside one dialogue is worth a look (add the kasra in lines[2] for consistency)."
+    },
+    {
+      "file": "content/days/day36.json",
+      "path": "dialogue.lines[13].ar",
+      "note": "اُكْتُبُوا خَمْس جُمَل — fully vocalised this would be خَمْسَ جُمَلٍ; the pausal form is acceptable and the gender rule (جُمْلَة f → خَمْس) is correct."
+    },
+    {
+      "file": "content/days/day37.json",
+      "path": "dialogue.lines[2].ar",
+      "note": "مِئَة صُورَة is the standard '100 + singular' construction; fully vocalised مِئَةُ صُورَةٍ. Correct."
+    }
+  ],
+  "summary": "Read the whole of audit/days-31-40.txt (2,775 lines, days 31-40: عِنْدِي/لِي/مَعِي, describing people, لَيْسَ with the -an predicate, ages and counted nouns, kin terms, past tense, مَا-negation, time expressions, كَانَ, قَبْلَ/بَعْدَ). I checked every Arabic string, its harakat and case endings, agreement (adjective-noun, verb-subject, non-human plurals as f.sg., number polarity 3-10 vs 11+), the translations and literals, every seg and tap gloss, every quiz answer key and the transliteration. The Arabic itself is in good shape: all answer keys are right, the لَيْسَ/كَانَ accusative predicates, hollow-verb shortening (زُرْنَا), ثَمَانِي/عَشْرُ سَنَوَاتٍ, عَشَرَةُ أَحْفَاد, كَانَتِ اللَّيَالِي بَارِدَةً are all correct. I found 8 errors (2 major, 6 minor) and 8 notes. The two major findings are both gloss problems caused by the shared tap dictionary giving only one sense of a word: مَا is glossed 'what' in every negated sentence of day 37 (including the quiz item whose answer is 'I didn't swim'), and تَسْكُنُ is glossed 'you live (to a man)' where it means 'she lives' in day 35 (the exact he/she contrast the card and quiz are testing). The minor findings are the hamzat-qaṭʿ spelling الْإِثْنَيْن for Monday (should be waṣl), two more one-sense tap glosses (خَالَة without 'mother's sister', طَوِيل as only 'long', ـًا as 'the letter alif'), and two engine patterns: names after وَ/لِ lose their capital (Wadānyāl, wanūr), and bare letters/endings in prose get odd transliterations (ة → 'a / at', أ → empty, الشَّاي → sh-shāī). Pattern for the owner: the seg glosses written per sentence are reliable; the global tap dictionary needs multi-sense entries for function words and verb forms that are ambiguous (مَا, تَسْكُنُ and similar 2nd-m/3rd-f present forms)."
+}

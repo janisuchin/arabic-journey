@@ -1,0 +1,402 @@
+{
+  "chunk": "grammar",
+  "reviewer": "A",
+  "errors": [
+    {
+      "file": "content/course/grammar.json",
+      "path": "[10].formula (tap gloss)",
+      "current": "مُدَرِّسَة=school",
+      "problem": "the feminine job word مُدَرِّسَة (teacher, f) is glossed 'school' (that is مَدْرَسَة); the whole guide is about adding ة to a job word, so the learner taps the key example and reads a wrong meaning",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "مُدَرِّسَة=teacher (f)",
+      "alsoChange": "the gloss comes from the shared word list, so fix it there (it will also appear wherever مُدَرِّسَة is tapped)"
+    },
+    {
+      "file": "content/course/grammar.json",
+      "path": "[66].summary (tap); [66].explanation (tap); [66].table.rows[1][2] (tap)",
+      "current": "دَرَّسَ=lesson",
+      "problem": "دَرَّسَ is the Form II verb 'he taught' (the guide says so in the text); 'lesson' is دَرْس. The tap gloss contradicts the rule being taught",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "دَرَّسَ=(he) taught",
+      "alsoChange": "shared word list"
+    },
+    {
+      "file": "content/course/grammar.json",
+      "path": "[66].formula (tap); [66].explanation (tap); [66].table.rows[3][1] (tap)",
+      "current": "أَفْعَلَ=I do",
+      "problem": "أَفْعَلَ (fatha at the end) is the Form IV pattern afʿala, as the table says; 'I do' would be أَفْعَلُ. The gloss teaches the pattern name as a conjugated verb",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "أَفْعَلَ=afʿala (verb pattern, Form IV)",
+      "alsoChange": "the other pattern names already use this format (فَعَّلَ=faʿʿala (verb pattern, Form II))"
+    },
+    {
+      "file": "content/course/grammar.json",
+      "path": "[66].explanation (tap); [66].table.rows[6][2] (tap)",
+      "current": "اِسْتَعْمَلَ=use (to a man)",
+      "problem": "اِسْتَعْمَلَ is the past tense 'he used' (Form X, as the text says); the imperative 'use!' would be اِسْتَعْمِلْ. The gloss gives the wrong form and meaning",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "اِسْتَعْمَلَ=(he) used",
+      "alsoChange": "shared word list"
+    },
+    {
+      "file": "content/course/grammar.json",
+      "path": "[67].explanation (tap)",
+      "current": "كَرِيم=Karim (first name)",
+      "problem": "in رَمَضَان كَرِيم the word is the adjective 'generous' (the text translates it so); the tap gloss gives the first name",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "كَرِيم=generous, noble",
+      "alsoChange": "the name sense is right in [66].examples[0] (الْأُسْتَاذ كَرِيم); the word list needs both senses or a sentence-level override"
+    },
+    {
+      "file": "content/course/grammar.json",
+      "path": "[75].summary (tap); [75].formula (tap); [75].table.rows[1][2] (tap)",
+      "current": "يُكْتَبُ=writes",
+      "problem": "يُكْتَبُ is the present passive 'it is written' (the summary itself says so); the gloss 'writes' is the active meaning and defeats the lesson",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "يُكْتَبُ=(it) is written",
+      "alsoChange": "shared word list"
+    },
+    {
+      "file": "content/course/grammar.json",
+      "path": "[75].explanation (tap); [75].table.rows[2][0] (tap); [75].table.rows[3][0] (tap)",
+      "current": "صَنَعَ=was made",
+      "problem": "the active verbs in the 'Active (he…)' column are glossed as passives: صَنَعَ is 'he made' (صُنِعَ is 'it was made'), and in the same rows اِكْتَشَفَ=was discovered should be 'he discovered' (اُكْتُشِفَ is the passive). The learner cannot tell active from passive, which is the whole point of the guide",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "صَنَعَ=(he) made",
+      "alsoChange": "also change اِكْتَشَفَ=was discovered → اِكْتَشَفَ=(he) discovered in the same paths"
+    },
+    {
+      "file": "content/course/grammar.json",
+      "path": "[44].summary (tap); [44].formula (tap); [44].explanation (tap); [44].table.rows[0][0] (tap)",
+      "current": "تَفْتَحُ=(it) is opened ('opens')",
+      "problem": "تَفْتَحُ is the active 'you open (to a man) / she opens', which is exactly how the guide uses it ('you open'). The gloss presents it as a passive",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "تَفْتَحُ=you open (to a man); she opens",
+      "alsoChange": "shared word list"
+    },
+    {
+      "file": "content/course/grammar.json",
+      "path": "[38].title (tap); [38].titleAr (tap); [38].summary (tap); [38].formula (tap); [38].explanation (tap); [38].examples[0].ar (tap); [38].examples[1].ar (tap)",
+      "current": "مَا=what",
+      "problem": "the whole guide teaches مَا as 'not' before a past verb, but every tap on مَا in مَا ذَهَبْتُ, مَا فَعَلْتُ شَيْئًا, مَا سَبَحَ دَانْيَال shows 'what'. The learner taps the key word of the lesson and gets the other sense",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "مَا=not (before a past verb)",
+      "alsoChange": "needs a sentence-level gloss for مَا in this guide (and in days where مَا negates a past verb); the gloss 'what' is right in مَا اسْمُكَ؟ in the same explanation"
+    },
+    {
+      "file": "content/course/grammar.json",
+      "path": "[37].formula (tap)",
+      "current": "ذَهَب=gold",
+      "problem": "in 'stem ذَهَب + ending' the word is the verb stem of ذَهَبَ (went); the tap shows the homograph 'gold', which is confusing at the moment the learner is told to add endings to it",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "ذَهَب=stem of ذَهَبَ (went)",
+      "alsoChange": "or vocalise the stem as ذَهَبْ in the formula so it is not matched to the noun"
+    },
+    {
+      "file": "content/course/grammar.json",
+      "path": "[19].explanation; [19].table.rows[1]; [22].summary; [22].explanation; [22].table.head",
+      "current": "After a verb or a preposition the ending becomes ـِينَ",
+      "problem": "the rule 'after a verb' is wrong as stated: the subject of a verb-first sentence stays ـُونَ / ـَانِ (يَزُورُ السُّيَّاحُ, as [24] teaches). Only the object of a verb (accusative) and the noun after a preposition (genitive) take ـِينَ / ـَيْنِ. A learner following the rule literally would produce يَذْهَبُ الطَّالِبَيْنِ",
+      "category": "grammar-fact",
+      "severity": "minor",
+      "fix": "As the object of a verb or after a preposition the ending becomes ـِينَ",
+      "alsoChange": "same wording in the dual guide: 'ـَيْنِ (as the object of a verb or after a preposition)' in [22].summary, explanation and table head 'Dual (object or after a preposition)'; [19].table.rows[1] rule 'object or after a preposition: + ـِينَ'"
+    },
+    {
+      "file": "content/course/grammar.json",
+      "path": "[55].examples[0].ar",
+      "current": "الْيَوْمَ الْخَامِسُ مِنْ نُوفَمْبِر.",
+      "problem": "with fatha الْيَوْمَ is the adverb 'today' (as in [39]), so the sentence 'Today is the fifth of November' has no subject for الْخَامِسُ. As a nominal sentence the subject needs ḍamma: الْيَوْمُ (هُوَ) الْخَامِسُ مِنْ نُوفَمْبِر",
+      "category": "arabic",
+      "severity": "minor",
+      "fix": "الْيَوْمُ هُوَ الْخَامِسُ مِنْ نُوفَمْبِر.",
+      "alsoChange": "tap الْيَوْمُ=today (subject); transliteration follows"
+    },
+    {
+      "file": "content/course/grammar.json",
+      "path": "[13].explanation (tap تَذْهَبُ for 'she goes'); [13].examples[1].ar (tap تَشْرَبُ); [24].explanation (tap تَذْهَبُ); [24].examples[1].ar (tap تَذْهَبُ); [50].formula/explanation/examples[1].ar (tap تَأْتِيَ for 'she won't come'); [62].explanation (tap تَتَّصِلَ for 'could you call me'); [68].examples[1].ar (tap تُحِبُّ for 'she loves'); [53].table.rows[1][1] and [1][2] (tap تَكُونُ / سَتَكُونُ on the أَنْتَ row)",
+      "current": "تَشْرَبُ=you drink (to a man)",
+      "problem": "forms that are identical for 'you (m)' and 'she' are glossed with only one person, and in these sentences it is the wrong one: هِيَ تَشْرَبُ shows 'you drink (to a man)', تَذْهَبُ لَيْلَى shows 'you go (to a man)', لَنْ تَأْتِيَ (Layla) shows 'you come', هَلْ يُمْكِنُ أَنْ تَتَّصِلَ بِي shows 'she calls', أَنَّهَا تُحِبُّ shows 'you like (to a man)', and the أَنْتَ row of the يَكُونُ table shows '(it) is usually (f)'",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "تَشْرَبُ=she drinks; you drink (to a man)",
+      "alsoChange": "give these ambiguous forms a two-reading gloss in the word list (as تُقَابِلُ=she meets; you meet (to a man) already has), or sentence-level overrides"
+    },
+    {
+      "file": "content/course/grammar.json",
+      "path": "[34].summary (tap); [34].formula (tap); [34].explanation (tap); [35].explanation (tap); [35].table.rows[4][2] (tap); [35].table.rows[5][2] (tap)",
+      "current": "ـًا=the letter alif",
+      "problem": "the accusative ending ـًا is glossed as 'the letter alif' and ـَةً as 'the letter tāʾ marbūṭa'; in a guide about the -an ending after لَيْسَ and after numbers, the tap should name the ending, as ـِي=my (ending: -ī) does",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "ـًا=-an (the accusative ending with tanwīn)",
+      "alsoChange": "ـَةً=-atan (the -an ending after ة)"
+    },
+    {
+      "file": "content/course/grammar.json",
+      "path": "[44].explanation (tap); [47].explanation (tap)",
+      "current": "ـِي=my (ending: -ī)",
+      "problem": "in the imperative guides 'the end is … ـِي for a woman' the ending is the feminine imperative -ī, not the possessive 'my'",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "ـِي=-ī (ending of an order to a woman)",
+      "alsoChange": "the neighbouring ـُوا=you all (ending of an order to a group: -ū) shows the intended format"
+    },
+    {
+      "file": "content/course/grammar.json",
+      "path": "[31].explanation (tap)",
+      "current": "ـِهِ=the letter hāʾ",
+      "problem": "ـِهِ is the 'his' ending after an i sound (-ihi), which is what the sentence explains; the neighbouring ـِهِمْ has the right kind of gloss",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "ـِهِ=his (ending after an i sound: -hi)"
+    },
+    {
+      "file": "content/course/grammar.json",
+      "path": "[12].explanation (tap)",
+      "current": "الْوَاحِدَة=the first (f): one o'clock",
+      "problem": "الْوَاحِدَة is 'the one (f)', the cardinal, not an ordinal 'the first' (that is الْأُولَى, taught in [25]); the text itself contrasts it with the ordinals",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "الْوَاحِدَة=one (f): one o'clock"
+    },
+    {
+      "file": "content/course/grammar.json",
+      "path": "[64].explanation (tap); [64].table.rows[1][1] (tap)",
+      "current": "حَاضِر=certainly, right away",
+      "problem": "in the participle guide حَاضِر is 'present (attending)', as the table's English column says; the tap shows the colloquial reply sense from a dialogue",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "حَاضِر=present, attending (also the reply 'certainly')"
+    },
+    {
+      "file": "content/course/grammar.json",
+      "path": "[72].explanation (tap); [72].examples[0].ar (tap)",
+      "current": "أَحْسَنُ=the best",
+      "problem": "in الْكُتُبُ أَحْسَنُ مِنَ الْإِنْتَرْنِت the form is the comparative 'better' (with مِنْ), as the translation says; 'the best' is the superlative use",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "أَحْسَنُ=better (with مِنْ); the best"
+    },
+    {
+      "file": "content/course/grammar.json",
+      "path": "[60].explanation (tap)",
+      "current": "قَلِيل=a little (while)",
+      "problem": "the guide uses قَلِيل as the adjective 'few, little' (→ أَقَلّ 'fewer, less'); the tap gives the adverbial sense from a dialogue",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "قَلِيل=few, little"
+    },
+    {
+      "file": "content/course/grammar.json",
+      "path": "[39].summary (tap); [39].formula (tap); [39].explanation (tap); [39].examples[1].ar (tap)",
+      "current": "مُنْذُ=since",
+      "problem": "the guide teaches مُنْذُ + a length of time as 'ago' (مُنْذُ أُسْبُوع = a week ago), but every tap shows only 'since'",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "مُنْذُ=since; (with a length of time) ago"
+    },
+    {
+      "file": "content/course/grammar.json",
+      "path": "[69].title/titleAr/summary/formula/explanation/table.head[1]/examples[0].ar (tap إِنَّ, إِنَّهُ, إِنَّهَا); [71].explanation (tap إِنَّهَا)",
+      "current": "إِنَّ=that (after 'say')",
+      "problem": "in the guide 'Indeed: إِنَّ' the particle starts a statement (إِنَّ الْأَخْبَارَ جَيِّدَة) and the tap says 'that (after say)'; إِنَّهُ=that he (after qāla) is shown on إِنَّهُ مَشْهُور 'he is famous'; conversely in [71] قَالَتْ إِنَّهَا مَرِيضَة 'she said that she was ill' the tap shows إِنَّهَا=indeed it (f) ('it is'). Each gloss belongs to the other guide's sense",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "إِنَّ=indeed (starts a statement); that (after 'say')",
+      "alsoChange": "إِنَّهُ=indeed he / that he (after قَالَ); إِنَّهَا=indeed she, it (f) / that she (after قَالَ)"
+    },
+    {
+      "file": "content/course/grammar.json",
+      "path": "[47].formula (tap); [47].explanation (tap); [47].examples[1].ar (tap)",
+      "current": "تَشْرَبِ=you drink (form after 'lam'; -i before al-)",
+      "problem": "in the 'Don't…!' guide the forms follow لَا, not لَمْ or أَنْ: تَشْرَبِ الْقَهْوَة is a prohibition, and تَشْرَبِي / تَشْرَبُوا are glossed 'you drink (to a woman, after an)' and '(to several people, after an)'. The learner is told the forms belong to other constructions",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "تَشْرَبِ=drink (prohibition after لَا; -i before al-)",
+      "alsoChange": "تَشْرَبِي=don't drink! (to a woman, after لَا); تَشْرَبُوا=don't drink! (to a group, after لَا)"
+    },
+    {
+      "file": "content/course/grammar.json",
+      "path": "[52].explanation (tap); [53].explanation (tap); [53].examples[1].ar (tap)",
+      "current": "بَارِدًا=cold (object)",
+      "problem": "after كَانَ / سَيَكُونُ the word is the predicate (khabar kāna), not an object; the guides themselves call it 'the describing word with -an'. مُمْتِعَةً and حَارًّا are glossed '(after was)', so this one is inconsistent and misleading about the grammar",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "بَارِدًا=cold (after 'was / will be')"
+    },
+    {
+      "file": "content/course/grammar.json",
+      "path": "[75].examples[1].ar (tap)",
+      "current": "السَّاعَةَ=at the hour",
+      "problem": "in هٰذِهِ السَّاعَةَ لَمْ تَعْمَلْ أَبَدًا the word is 'this clock' (the English says so), with -a after إِنَّ; 'at the hour' is a time-expression gloss",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "السَّاعَةَ=the clock (-a after إِنَّ)"
+    },
+    {
+      "file": "content/course/grammar.json",
+      "path": "[65].table.rows[0][1] (tap); [65].examples[0].ar (tap)",
+      "current": "الْأُسْتَاذ=the teacher",
+      "problem": "in the letter opening حَضْرَةَ الْأُسْتَاذ عَادِل الْمُحْتَرَم the word is the polite title (Mr / Sir), as the English 'Dear Mr Adel' shows",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "الْأُسْتَاذ=Mr (polite title; also: the teacher)"
+    },
+    {
+      "file": "content/course/grammar.json",
+      "path": "[43].explanation (tap)",
+      "current": "يَد=hand ('hand luggage')",
+      "problem": "in the body-parts guide يَد is simply 'hand'; the bracket from a travel dialogue is confusing here",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "يَد=hand"
+    },
+    {
+      "file": "content/course/grammar.json",
+      "path": "[66].formula (tap); [66].explanation (tap)",
+      "current": "ل=for; belonging to",
+      "problem": "in the model root ف ع ل the third letter is the letter lām, not the preposition لِـ; its neighbours are glossed 'the letter fāʾ', 'the letter ʿayn'",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "ل=the letter lām"
+    },
+    {
+      "file": "content/course/grammar.json",
+      "path": "[61].explanation",
+      "current": "مِنْ أَعْلَى الْجِبَال (one of the highest hills)",
+      "problem": "جِبَال is 'mountains' (the tap gloss says so); 'hills' is تِلَال",
+      "category": "translation",
+      "severity": "minor",
+      "fix": "مِنْ أَعْلَى الْجِبَال (one of the highest mountains)"
+    },
+    {
+      "file": "content/course/grammar.json",
+      "path": "[4].explanation (⟶); [6].explanation (⟶); [10].summary (⟶)",
+      "current": "The feminine adds A / at, which you will meet on every feminine word.",
+      "problem": "engine: a bare ة in English prose is transliterated 'A / at' (also 'Most feminine nouns end in A / at (a tied t)', 'adds A / at to the word for a man'); the Arabic is right",
+      "category": "engine",
+      "severity": "minor",
+      "fix": "render a bare ة as 'ة (tāʾ marbūṭa)' or leave it untransliterated"
+    },
+    {
+      "file": "content/course/grammar.json",
+      "path": "[1].explanation (⟶)",
+      "current": "Without harakat both are written Nt, so the vowel marks matter while you learn.",
+      "problem": "engine: the deliberately unvocalised أنت is transliterated 'Nt' (consonant skeleton with a capital); the point of the sentence is that it has no vowels, so the Arabic should be left as is",
+      "category": "engine",
+      "severity": "minor",
+      "fix": "leave unvocalised words untransliterated (or render as 'ʾnt')"
+    },
+    {
+      "file": "content/course/grammar.json",
+      "path": "[3].titleAr (⟶); [5].titleAr (⟶); [76].formula (⟶); [70].title (⟶)",
+      "current": "Al-jumla liāsmiyya",
+      "problem": "engine: words with kasra on the al- alif and الَّذِي are rendered 'liāsmiyya', 'iliāstifhām', 'liāḥtirām', 'Illadhī' (should be al-jumla l-ismiyya, adawāt al-istifhām, fāʾiqi l-iḥtirām, alladhī)",
+      "category": "engine",
+      "severity": "minor",
+      "fix": "Al-jumla l-ismiyya"
+    },
+    {
+      "file": "content/course/grammar.json",
+      "path": "[13].examples[1].ar (⟶)",
+      "current": "Hiya tashrabu sh-shāī.",
+      "problem": "engine: الشَّاي rendered 'sh-shāī' (should be sh-shāy)",
+      "category": "engine",
+      "severity": "minor",
+      "fix": "Hiya tashrabu sh-shāy."
+    },
+    {
+      "file": "content/course/grammar.json",
+      "path": "[7].titleAr (⟶)",
+      "current": "Adāh at-taʿrīf",
+      "problem": "engine: ة as the first term of an iḍāfa is rendered -h; in أَدَاة التَّعْرِيف it is pronounced t (adāt at-taʿrīf / adātu t-taʿrīf), as the course itself teaches in [11]",
+      "category": "engine",
+      "severity": "minor",
+      "fix": "Adāt at-taʿrīf"
+    }
+  ],
+  "notes": [
+    {
+      "file": "content/course/grammar.json",
+      "path": "[4].explanation",
+      "note": "'Drop a final ā or the article first: لُبْنَان → لُبْنَانِيّ' — the example drops nothing; an example such as سُورِيَا → سُورِيّ or الْأُرْدُنّ → أُرْدُنِيّ would illustrate the rule."
+    },
+    {
+      "file": "content/course/grammar.json",
+      "path": "[15].explanation",
+      "note": "'لَا is only for verbs' is a beginner simplification; لَا also negates nouns in لَا شَيْء, لَا أَحَد, لَا بَأْس, which the learner will meet. Acceptable at this stage."
+    },
+    {
+      "file": "content/course/grammar.json",
+      "path": "[48]",
+      "note": "لَازِم as 'must' is colloquial in origin; the guide labels it as spoken and gives يَجِبُ for writing, which is fair. Consider adding عَلَيَّ أَنْ / يَنْبَغِي as the fuṣḥā alternatives later."
+    },
+    {
+      "file": "content/course/grammar.json",
+      "path": "[73].explanation; [73].table.rows[2]",
+      "note": "مَنْ يَعْمَلُ كَثِيرًا يَجِدُ النَّجَاح with indicative verbs reads مَنْ as a relative pronoun ('the one who works hard finds success'), which is acceptable MSA; as a conditional مَنْ the classical form is jussive: مَنْ يَعْمَلْ كَثِيرًا يَجِدِ النَّجَاحَ. Not an error, but worth a word if the owner wants strict grammar."
+    },
+    {
+      "file": "content/course/grammar.json",
+      "path": "[71].explanation",
+      "note": "Reporting a yes/no question with سَأَلَنِي هَلْ … is common modern usage; the more formal forms are سَأَلَنِي إِنْ كُنْتُ … / عَمَّا إِذَا كُنْتُ …."
+    },
+    {
+      "file": "content/course/grammar.json",
+      "path": "[46].explanation",
+      "note": "أَشْعُرُ أَنَّنِي أَحْسَن is understandable; أَشْعُرُ بِأَنَّنِي أَحْسَن (with بِـ) is the more usual MSA phrasing and matches the بِـ rule the same sentence teaches."
+    },
+    {
+      "file": "content/course/grammar.json",
+      "path": "[55].explanation",
+      "note": "يَوْمَ الْأَحَد، التَّاسِعِ مِنْ نُوفَمْبِر: the genitive التَّاسِعِ (apposition to الْأَحَد) is defensible; التَّاسِعَ agreeing with يَوْمَ is also common. Either is fine."
+    },
+    {
+      "file": "content/course/grammar.json",
+      "path": "[12].explanation (tap)",
+      "note": "سَاعَة=watch, clock in 'because سَاعَة is feminine' — the sense here is 'hour'; a combined gloss 'hour; watch, clock' would serve both."
+    },
+    {
+      "file": "content/course/grammar.json",
+      "path": "many tap glosses",
+      "note": "Several machine-built verb glosses are clumsy though not wrong: اُرْكُضْ=runs (order, to a man), خُذُوا=takes (order, to a group), تَتَنَفَّسُ=breathes (you (present)), عُدْتُ=returns, goes back (I (past)), بَاعَ=to sell (past), أَرْسَلَ=sends (past), اِنْتَظَرَ=waits (past), يُشَاهِدُ=saw, watched (present), أَرْتَاحَ=rests (I (present)), لَسْنَا=is not (we are not). A pass over the word list to write them as 'run! (to a man)', 'I returned', 'he sold', etc. would help."
+    },
+    {
+      "file": "content/course/grammar.json",
+      "path": "[63].explanation (tap)",
+      "note": "الْكِتَابَة=writing ('spelling') — the bracket is from another lesson; 'writing' alone fits the maṣdar guide."
+    },
+    {
+      "file": "content/course/grammar.json",
+      "path": "[50].examples[0].ar (⟶)",
+      "note": "'mutaʾakhkhiran al-layla' — after tanwīn the article's hamza is normally elided in connected reading (mutaʾakhkhirani l-layla); engine style, not a content error."
+    },
+    {
+      "file": "content/course/grammar.json",
+      "path": "[40].table; [49].table",
+      "note": "The كَانَ table has no أَنْتُمْ row (كُنْتُمْ) although the past-tense table in [37] does; the future table has no هُمْ row. Consistency only."
+    },
+    {
+      "file": "content/course/grammar.json",
+      "path": "[74].explanation (tap)",
+      "note": "كَثِيرٌ=many on مَالٌ كَثِيرٌ ('a lot of money') — 'much, a lot of' would be the better gloss for a mass noun."
+    },
+    {
+      "file": "content/course/grammar.json",
+      "path": "[76].firstDay; [77].firstDay",
+      "note": "In these two guides firstDay is exported after the examples instead of after titleAr; harmless, but the key order differs from the other 76 guides."
+    }
+  ],
+  "summary": "I read all 78 grammar guides (summary, formula, explanation, tables, examples, translations, transliterations and tap glosses) against MSA. The grammar rules themselves are sound: the taught forms (nisba, iḍāfa, numbers 3–10 vs 11–99 with polarity, kāna/laysa/inna predicates, لَمْ/لَنْ/أَنْ moods, imperatives, hollow verbs, passive vowelling, dual and sound plurals, conditionals) are correct, and the Arabic strings and harakat are almost entirely right; I found one Arabic case error (الْيَوْمَ as the subject of 'today is the fifth') and one rule stated too loosely ('after a verb' for the -īna / -ayni endings). The real weakness is the tap-gloss layer, which is context-blind: 34 errors in total, 9 major and 25 minor. The major ones are all wrong tap glosses that contradict the guide they sit in (مُدَرِّسَة=school, دَرَّسَ=lesson, أَفْعَلَ=I do, اِسْتَعْمَلَ=use (to a man), كَرِيم=Karim in رَمَضَان كَرِيم, يُكْتَبُ=writes, صَنَعَ/اِكْتَشَفَ glossed as passives, تَفْتَحُ=(it) is opened, and مَا=what throughout the 'didn't' guide). The minor ones are glosses taken from another sentence's sense (إِنَّ, مُنْذُ, أَحْسَنُ, حَاضِر, endings glossed as letter names) plus five engine transliteration quirks reported once each. 14 notes cover simplifications, clumsy machine glosses and style."
+}

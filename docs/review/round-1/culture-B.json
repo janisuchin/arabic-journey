@@ -1,0 +1,194 @@
+{
+  "chunk": "culture",
+  "reviewer": "B",
+  "errors": [
+    {
+      "file": "content/culture/family.json",
+      "path": "sections[3].body[1]; sections[3].sentences[2].ar; sections[3].sentences[2].segs[2]",
+      "current": "الْمَصْرِيّ",
+      "problem": "the nisba of مِصْر (miṣr, kasra) is مِصْرِيّ (miṣrī); the fatḥa on the mīm gives the Egyptian-colloquial pronunciation maṣrī, and the chunk itself is inconsistent: quiz[5].options and quiz[5].explain write 'al-Miṣrī' while the body, the sentence fams13 and all tap glosses ('al-Masri') teach maṣrī",
+      "category": "arabic",
+      "severity": "major",
+      "fix": "الْمِصْرِيّ",
+      "alsoChange": "tap/seg gloss 'al-Masri (surname; \"the Egyptian\")' → 'al-Misri (surname; \"the Egyptian\")'; sections[3].sentences[2].en and .literal 'Karim al-Masri' → 'Karim al-Misri'; transliteration follows automatically (al-Miṣrī)"
+    },
+    {
+      "file": "content/culture/places.json",
+      "path": "sections[0].sentences[3].ar; sections[0].sentences[3].mistakes[0].right; sections[1].sentences[0].ar; sections[3].sentences[0].ar; sections[3].body[1]; reading.ar",
+      "current": "أَكْبَرُ مَدِينَة فِي مِصْر",
+      "problem": "the superlative is followed by an indefinite singular in the genitive (akbaru madīnatin, ashharu makānin, aṭwalu burjin, aqdamu makānin); mid-sentence the tanwīn is missing, so the engine reads 'akbaru madīna', hiding the case the lesson is teaching. food.json fods7 (أَشْهَرُ طَبَقٍ فِي الْأُرْدُنّ) shows the correct pattern. Same in pls5 'أَشْهَرُ مَكَان فِي الْبَتْرَاء', pls11 and body[1] 'أَطْوَلُ بُرْج فِي الْعَالَم', reading 'أَقْدَمُ مَكَان زُرْتُهُ'",
+      "category": "arabic",
+      "severity": "minor",
+      "fix": "أَكْبَرُ مَدِينَةٍ فِي مِصْر (and مَكَانٍ, بُرْجٍ in the other paths)",
+      "alsoChange": "mistakes[0].why 'akbaru madīna' → 'akbaru madīnatin'; transliteration follows automatically"
+    },
+    {
+      "file": "content/culture/places.json",
+      "path": "sections[0].sentences[0].ar; sections[0].sentences[1].ar; sections[0].sentences[3].ar; sections[1].sentences[0].ar; quiz[3].prompt",
+      "current": "الْأَهْرَام أَقْدَمُ مِنَ الْبَتْرَاء بِكَثِير.",
+      "problem": "sentence-initial subjects in this chapter carry no case vowel (الْأَهْرَام, النِّيل, الْقَاهِرَة, الْخَزْنَة) although they are not in pause; every other chapter vocalises them (الْخَطُّ, التَّمْرُ, الصِّفْرُ, الصَّحْرَاءُ). Not a change of word, but the transliteration 'Al-ahrām aqdamu' teaches a vowelless form",
+      "category": "arabic",
+      "severity": "minor",
+      "fix": "الْأَهْرَامُ أَقْدَمُ مِنَ الْبَتْرَاءِ بِكَثِير. (likewise النِّيلُ مِنْ أَطْوَلِ الْأَنْهَارِ, الْقَاهِرَةُ أَكْبَرُ, الْخَزْنَةُ أَشْهَرُ)",
+      "alsoChange": "segs text for those words; transliteration follows automatically"
+    },
+    {
+      "file": "content/culture/desert.json",
+      "path": "sections[0].body[1]",
+      "current": "وَادِي=Wadi (valley): part of 'Wadi Musa', a town near Petra",
+      "problem": "the tap gloss for وَادِي in 'Wadi Rum, وَادِي رَمّ' belongs to another lesson's sentence (Wadi Musa near Petra); here it should simply be 'valley (of)', as the segs of dess3 give",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "وَادِي = valley (of); 'Wadi' in place names",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/culture/family.json",
+      "path": "sections[0].body[1]",
+      "current": "يَد=hand ('hand luggage')",
+      "problem": "the tap gloss for يَد in 'a hand, يَد, on the heart' is taken from another lesson's sense ('hand luggage'); misleading in a sentence about greeting with a hand on the heart",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "يَد = hand",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/culture/ramadan.json",
+      "path": "sections[2].body[2]; sections[3].sentences[2].mistakes[0].why; quiz[3].prompt",
+      "current": "كَرِيم=Karim (first name)",
+      "problem": "in رَمَضَان كَرِيم the word كَرِيم is the adjective 'generous' (the body text itself translates 'Ramadan is generous'); the tap gloss shows the first-name sense from family.json, so a learner tapping the greeting sees 'Karim (first name)'. The segs of rams9 and words[6] correctly say 'generous'",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "كَرِيم = generous",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/culture/ramadan.json",
+      "path": "words[2].note; sections[1].sentences[0].mistakes[0].right; sections[1].sentences[0].mistakes[0].why",
+      "current": "يَصُومُ=(they) fast (verb first: singular)",
+      "problem": "the tap gloss is written for the verb-first sentence rams4; on the isolated verb in words[2].note ('The verb is يَصُومُ (he fasts)') it contradicts the note and teaches that يَصُومُ means 'they fast'",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "يَصُومُ = (he) fasts (verb first before a plural subject: 'fast')",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/culture/family.json",
+      "path": "readingQuestions[0].explain",
+      "current": "الْأَكْبَر=the biggest",
+      "problem": "in اِبْنُهُ الْأَكْبَر the word means 'the eldest' (the reading.segs say so); the tap gloss 'the biggest' misleads on the one word the question hinges on",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "الْأَكْبَر = the eldest, the biggest",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/culture/desert.json",
+      "path": "readingQuestions[1].explain",
+      "current": "بَارِدًا=cold (object)",
+      "problem": "in اللَّيْلَ كَانَ بَارِدًا the accusative بَارِدًا is the predicate of كَانَ, not an object; '(object)' teaches the wrong reason for the -an ending (the lesson on kāna in science.json explains the predicate rule)",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "بَارِدًا = cold (predicate of kāna: -an)",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/culture/places.json",
+      "path": "sections[0].sentences[3].mistakes[0].wrong; sections[0].sentences[3].mistakes[0].right; sections[2].sentences[0].mistakes[0].wrong; sections[2].sentences[0].mistakes[0].right; quiz[3].options[2]; quiz[3].options[3]; quiz[3].explain; summary",
+      "current": "أَقْدَمُ=the oldest (before a noun)",
+      "problem": "the elative has one tap gloss each, so it shows the wrong one for the construction: in the comparative فَاس أَقْدَمُ مِنْ مَرَّاكُش and quiz plq4 ('older than') the tap says 'the oldest (before a noun)', while in the superlative الْقَاهِرَة أَكْبَرُ مَدِينَة the tap for أَكْبَرُ says 'bigger' (also desert.json quiz[5].explain: أَكْثَرُ=more for 'most of'). Beginners meeting the comparative/superlative for the first time get the opposite reading",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "أَقْدَمُ = older; (before a noun) the oldest · أَكْبَرُ = bigger; (before a noun) the biggest · أَكْثَرُ = more; (before a noun) most (of)",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/culture/coffee.json",
+      "path": "sections[0].body[0]; sections[3].body[1]; content/culture/food.json sections[3].body[2]; content/culture/food.json readingQuestions[1].explain; content/culture/souq.json sections[3].body[0]; content/culture/souq.json quiz[0].options[3]",
+      "current": "تَفَضَّلْ=here you are (to a man)",
+      "problem": "the tap gloss gives only the 'here you are' sense; in these passages the body text glosses تَفَضَّلْ as 'please, come in' (coffee) and 'please, help yourself / go ahead' (food, souq), so the tap contradicts the prose beside it. The words[] entries give the full range",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "تَفَضَّلْ = please: come in, go ahead, here you are (to a man)",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/culture/coffee.json",
+      "path": "sections[3].titleAr; words[12].ar; reading.ar; content/culture/food.json reading.ar; content/culture/calligraphy.json sections[0].sentences[2].ar; content/culture/desert.json titleAr; content/culture/food.json sections[0].sentences[1].ar",
+      "current": "التَّمْرُ وَالشَّاي",
+      "problem": "engine quirks, Arabic correct: (1) الشَّاي rendered 'sh-shāī' (coffee title ⟶ 'wa-sh-shāī', words[12] 'Shāī bi-n-naʿnāʿ', food reading 'sharibnā sh-shāī'); (2) a final و with sukūn after a consonant rendered as ū: حُلْو ⟶ 'ḥulū' (coffee reading, cofr2) and الْبَدْو ⟶ 'l-badū' (desert title, words[11] 'Badū'), should be ḥulw / badw; (3) names after clitic وَ capitalised as one word: وَبَاكِسْتَانَ ⟶ 'Wabākistāna' (cals3); (4) الْحَيَاة at the end of fods2 rendered 'l-ḥayāh' while ة is 'a' everywhere else",
+      "category": "engine",
+      "severity": "minor",
+      "fix": "transliterator: ي after ā with no vowel → y (shāy); final و with sukūn after a consonant → w; lowercase after wa-/li- clitics; ة → a consistently",
+      "alsoChange": ""
+    }
+  ],
+  "notes": [
+    {
+      "file": "content/culture/ramadan.json",
+      "path": "sections[3].body[2]; quiz[4].explain",
+      "note": "'on the tenth day of the month of الْحَجّ' reads as if the month were called al-ḥajj; the month is ذُو الْحِجَّة (Dhū l-Ḥijja). Consider 'the month of the Hajj, Dhu l-Hijja'."
+    },
+    {
+      "file": "content/culture/souq.json",
+      "path": "sections[3].body[0]",
+      "note": "شَايْ is written with a sukūn on the yāʾ here but شَاي everywhere else in the course (coffee.json, food.json); harmonise the spelling (the sukūn form is not wrong, and it happens to make the engine output the better 'shāy')."
+    },
+    {
+      "file": "content/culture/coffee.json",
+      "path": "summary",
+      "note": "English: 'How many Arab hosts welcome a guest' can be read as a question about quantity; 'How Arab hosts welcome a guest' or 'How many Arab hosts welcome a guest:' with a stronger lead-in would be clearer."
+    },
+    {
+      "file": "content/culture/coffee.json",
+      "path": "sections[2].sentences[1].grammar",
+      "note": "grammar tag is empty for cofs8 (شُكْرًا، يَكْفِي); other sentences all carry a tag."
+    },
+    {
+      "file": "content/culture/family.json",
+      "path": "sections[3].sentences[2].id; sections[3].sentences[3].id",
+      "note": "sentence ids run fams11, fams13, fams12 (order swapped); harmless, but may confuse cross-references."
+    },
+    {
+      "file": "content/culture/family.json",
+      "path": "sections[3].body[1]",
+      "note": "mixes Arabic script (الْمَصْرِيّ, النَّجَّار …) with Latin-only names (al-Ḥalabī) in one list; giving الْحَلَبِيّ in Arabic too would let the learner tap it."
+    },
+    {
+      "file": "content/culture/desert.json",
+      "path": "sections[2].body[1]; words[10].note",
+      "note": "'shaʿr (with a) is hair' — the word is also commonly pronounced shaʿar in MSA; both are standard. No change needed, just be aware a teacher may say shaʿar."
+    },
+    {
+      "file": "content/culture/calligraphy.json",
+      "path": "words[12].segs",
+      "note": "رُقْعَة glossed 'lit. a small piece of paper'; the basic sense is 'patch, piece (of cloth or paper)'. Fine, but 'patch' is the usual dictionary first sense."
+    },
+    {
+      "file": "content/culture/science.json",
+      "path": "words[11].note",
+      "note": "etymology of 'admiral' (amīr + al-) is the common account and acceptable; some dictionaries derive it from amīr al-baḥr / amīr ar-raḥl. Culture fact only."
+    },
+    {
+      "file": "content/culture/places.json",
+      "path": "hero.caption",
+      "note": "caption identifies the three Giza pyramids from the viewpoint of the photo (nearest = Menkaure); verify against the actual image chosen, since from the common south-west viewpoint the order is Menkaure, Khafre, Khufu, but from other angles it differs."
+    },
+    {
+      "file": "content/culture/places.json",
+      "path": "sections[2].body[1]; content/culture/science.json sections[3].body[1]",
+      "note": "'often described as the oldest university in the world that is still working' is hedged correctly; some sources give that title to Bologna or al-Azhar depending on the definition of university. Culture fact, fine as written."
+    },
+    {
+      "file": "content/culture/desert.json",
+      "path": "sections[1].body[1]",
+      "note": "Al-Ahsa 'well over two million date palms' — figures cited range from about 2.5 to 3 million; the wording is safe."
+    },
+    {
+      "file": "content/culture/souq.json",
+      "path": "readingQuestions[0]; readingQuestions[1]; quiz[0]; quiz[1]; quiz[3]; quiz[4]",
+      "note": "these questions have no 'explain' field while all other chapters give one for every question; design consistency only."
+    }
+  ],
+  "summary": "Checked all nine Explore chapters (calligraphy, coffee, desert, family, food, places, ramadan, science, souq): every Arabic title, body-text Arabic, example sentence with literal and segs, mistakes pairs, words list, reading and its segs, reading questions and quizzes with answer keys, and the engine transliteration. The Arabic is of a high standard: case after kāna, diptotes (صَحْرَاءَ, مَلَابِسَ, إِسْحَاقَ, مِصْرَ, دِمَشْقَ), accusative أَبَا الْهَوْل, numbers 3-10 and 11-99, verb-first singular agreement and non-human plural agreement are all correct, and every answer key and mistakes pair is right. 12 errors: 1 major (الْمَصْرِيّ for مِصْرِيّ in family.json, with an internal inconsistency against the quiz's 'al-Miṣrī'), 11 minor: two vocalisation gaps in places.json (missing tanwīn on the noun after a superlative, missing case vowels on sentence subjects), seven tap-gloss problems where the single-sense tap dictionary shows a sense from another sentence (وَادِي 'Wadi Musa', يَد 'hand luggage', كَرِيم as a first name in رَمَضَان كَرِيم, يَصُومُ 'they fast' on the isolated verb, الْأَكْبَر 'biggest' for eldest, بَارِدًا '(object)' for a kāna predicate, elatives glossed as superlative in comparatives and vice versa, تَفَضَّلْ 'here you are' beside prose saying 'come in'), and one engine finding (shāī, ḥulū/badū, Wabākistāna, ḥayāh). 13 notes on facts, English wording and consistency; no history or geography statement was found to be wrong."
+}

@@ -1,0 +1,89 @@
+{
+  "chunk": "days-11-20",
+  "reviewer": "A",
+  "errors": [
+    {
+      "file": "content/days/day17.json",
+      "path": "sentences[4].mistakes[0].why; content/days/day20.json intro; content/days/day20.json summary (tap gloss of ـَيْنِ); content/days/day20.json objectives[1] (tap gloss of ـَيْنِ); content/days/day17.json objectives[2] (tap gloss of ـِينَ); content/days/day11.json intro (tap gloss of ـِينَ)",
+      "current": "After a preposition (here لِـ, 'to') and after a verb, -ūna becomes -īna.",
+      "problem": "The rule 'after a verb the ending is -īna / -ayni' is wrong as stated: a sound plural or dual that follows the verb as its SUBJECT keeps -ūna / -āni (the course itself has يَأْكُلُ الْمِصْرِيُّونَ in day 15 and يَأْكُلَانِ in day 20). Only the OBJECT of a verb (and a noun after a preposition) takes -īna / -ayni. A learner following the rule as written would produce *يَعْمَلُ الْمُوَظَّفِينَ. The same wording is repeated in the day-20 intro ('After a verb or a preposition the ending is ـَيْنِ') and in the dictionary tap glosses for ـِينَ ('masculine sound plural after a verb or preposition') and ـَيْنِ ('dual ending after a verb or preposition').",
+      "category": "grammar-fact",
+      "severity": "major",
+      "fix": "After a preposition (here لِـ, 'to') and as the object of a verb, -ūna becomes -īna.",
+      "alsoChange": "day20 intro: 'After a verb or a preposition the ending is ـَيْنِ' → 'As the object of a verb or after a preposition the ending is ـَيْنِ'; tap gloss ـِينَ → '-īna (ending: masculine sound plural as object or after a preposition; verb ending for you, to a woman)'; tap gloss ـَيْنِ → '-ayni (dual ending as object or after a preposition)'"
+    },
+    {
+      "file": "content/days/day18.json",
+      "path": "quiz[3].options[1]",
+      "current": "حَارّ=hot (weather)",
+      "problem": "In day 18 حَارّ is taught in the sense 'spicy' (newWords harr, sentences d18s2, d18l7) and the quiz asks for 'sweet' among taste words; the tap gloss 'hot (weather)' belongs to the day-16 weather sense and misleads the learner about the word's meaning in this lesson.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "حَارّ=hot, spicy (also: hot weather)",
+      "alsoChange": "same dictionary gloss is shown wherever حَارّ is tapped as a bare word"
+    },
+    {
+      "file": "content/days/day11.json",
+      "path": "sentences[1].ar; dialogue.lines[4].ar; quiz[2].ar; content/days/day12.json dialogue.lines[14].ar",
+      "current": "الشَّاي",
+      "problem": "The Arabic is correct, but the engine transliterates a final unmarked ي after ā as a long vowel: الشَّاي → 'sh-shāī' / 'ash-shāī' instead of 'sh-shāy'. Where the word is written with sukūn (شَايْ, days 15–16) the engine gives the right 'shāy'. Systematic: an unmarked ي after a long ā should be read as the consonant y.",
+      "category": "engine",
+      "severity": "minor",
+      "fix": "Engine: treat an unvowelled ي after ā (and و after ā, e.g. in diptych words) as a consonant → sh-shāy; or vocalise the content consistently as الشَّايْ.",
+      "alsoChange": "transliterations ⟶ of all four lines follow automatically"
+    },
+    {
+      "file": "content/days/day12.json",
+      "path": "dialogue.lines[13].ar (⟶ Wadānyāl); reading.ar (⟶ Walaylā); content/days/day14.json reading.ar (⟶ Walubnān); content/days/day16.json reading.ar (⟶ Wasāmī); content/days/day18.json dialogue.lines[14].ar (⟶ Lidānyāl, Liyūsuf); content/days/day20.json dialogue.lines[11].ar (⟶ Lisāmī); content/days/day20.json reading.ar (⟶ Walaylā, Wadānyāl)",
+      "current": "Wadānyāl",
+      "problem": "When وَ or لِ is prefixed to a proper name the engine puts the capital letter on the prefix and lowercases the name, with no hyphen (Wadānyāl, Walaylā, Lidānyāl, Liyūsuf, Lisāmī), even mid-sentence. The Arabic is correct; the house style elsewhere is 'wa-Amrīkā', 'Wa-anā'. Expected: wa-Dānyāl, wa-Laylā, li-Dānyāl, li-Yūsuf, li-Sāmī.",
+      "category": "engine",
+      "severity": "minor",
+      "fix": "Engine: when a one-letter prefix (وَ، فَ، لِ، بِ) precedes a token tagged 'name', output prefix + hyphen + capitalised name (wa-Dānyāl, li-Sāmī).",
+      "alsoChange": "none in content"
+    }
+  ],
+  "notes": [
+    {
+      "file": "content/days/day15.json",
+      "path": "sentences[3].mistakes[0].why",
+      "note": "'آ (a + hamza) at the start means I' — the order is misleading; آ is hamza + long ā (as the tap gloss correctly says). Suggest 'آ (hamza + long ā)'."
+    },
+    {
+      "file": "content/days/day16.json",
+      "path": "dialogue.lines[1].ar",
+      "note": "مَقْهىً places the fathatān after the alif maqṣūra; the more usual print form is مَقْهًى (tanwīn on the hāʾ). Both are seen and the transliteration 'maqhan' is right; purely orthographic."
+    },
+    {
+      "file": "content/days/day18.json",
+      "path": "sentences[3].ar; dialogue.lines[11].ar; dialogue.lines[14].ar; reading.ar; dialogue.culture",
+      "note": "The name عَلِي is written without the shadda (strictly عَلِيّ, ʿAlī). It is consistent throughout and the engine still gives ʿAlī, so not counted as an error."
+    },
+    {
+      "file": "content/days/day11.json",
+      "path": "dialogue.lines[2].ar and many others",
+      "note": "Transliteration hyphenation is inconsistent: wa-, bi-, li- are hyphenated before hamza/al- (wa-anta, bi-l-ḥāfila, li-l-ʿamal) but fused before a consonant (Wamādhā, wahiya, bisurʿa, liʾarbaʿa, wayadrusu). Style only, but a learner may not recognise وَ in 'Wamādhā'."
+    },
+    {
+      "file": "content/days/day19.json",
+      "path": "intro (tap); objectives[1] (tap); quiz[0].options[0]; quiz[0].options[2]",
+      "note": "Dictionary glosses 'أَقْلَام=pen (plural)' and 'بُيُوت=house, home (plural)' read oddly next to 'كُتُب=books'; suggest 'pens' and 'houses'."
+    },
+    {
+      "file": "content/days/day12.json",
+      "path": "dialogue.lines[2].ar and throughout the chunk",
+      "note": "Final short vowels / tanwīn are dropped on nouns mid-sentence (مَكْتَب كَبِير, قَرِيب مِنَ النِّيل, عَصِير لَيْمُون) while the object -an is shown from day 15 on. This is a consistent course choice, not an error, but the owner may want to decide whether 'careful Arabic' endings should also appear in the week-2 sentences."
+    },
+    {
+      "file": "content/days/day17.json",
+      "path": "dialogue.lines[15].ar",
+      "note": "الْعَفْوْ is written with a sukūn on the final و (pausal form), like شَايْ and حُلْوْ elsewhere; consistent with the course's pausal spelling, fine."
+    },
+    {
+      "file": "content/days/day16.json",
+      "path": "dialogue.lines[0].en",
+      "note": "مَسَاءُ الْخَيْر rendered 'Good afternoon' fits the story (hot afternoon) and is acceptable; the segs gloss 'evening, afternoon (of)' covers it."
+    }
+  ],
+  "summary": "Read the whole export for days 11–20 (2,866 lines): every Arabic string with its harakat, the English and literal translations, all seg and tap glosses, all quiz answer keys and the mistakes right/wrong pairs, plus the generated transliteration. The Arabic itself is in very good shape: verb conjugations (singular, plural, dual, feminine -īna), colour agreement (aḥmar/ḥamrāʾ), object -an including the tāʾ marbūṭa case, number–noun gender polarity (عَشْر كَلِمَات vs عَشَرَة أَرْغِفَة, سَبْعَ مَلَاعِق vs سَبْعَة صُحُون), broken plurals with feminine-singular agreement, dual -āni/-ayni and هِيَ for non-human plurals are all correct, and every quiz answer key checked out. I found 4 errors: 1 major grammar-fact (the repeated rule that -īna / -ayni appear 'after a verb', which is wrong for a verb's subject and is contradicted by the course's own VSO sentences; should be 'as the object of a verb'), 1 minor gloss (حَارّ glossed 'hot (weather)' in the spicy-food lesson quiz), and 2 minor engine issues (الشَّاي → 'shāī'; capitalised fused prefixes on names such as 'Wadānyāl', 'Lidānyāl'). Eight notes cover orthographic and style points (tanwīn placement on مَقْهىً, عَلِي without shadda, hyphenation inconsistency, clumsy plural glosses, pausal spellings)."
+}

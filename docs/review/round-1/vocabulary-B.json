@@ -1,0 +1,430 @@
+{
+  "chunk": "vocabulary",
+  "reviewer": "B",
+  "errors": [
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[64] mudarris forms[0].ar tap; [64] example.ar tap",
+      "current": "مُدَرِّسَة=school",
+      "problem": "the feminine of مُدَرِّس is glossed 'school' (that is مَدْرَسَة); مُدَرِّسَة is a female teacher — the learner taps 'My mother is a teacher' and reads 'school'",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "مُدَرِّسَة=teacher (f)"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[159] yuhibbu forms[0].ar tap",
+      "current": "أَحَبَّ=to like, to love (I)",
+      "problem": "أَحَبَّ is the past 'he' form (he loved), not an 'I' form",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "أَحَبَّ=he liked, he loved"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[297] yushbihu forms[0].ar tap",
+      "current": "أَشْبَهَ=I look like",
+      "problem": "أَشْبَهَ is the past 'he' form (he resembled); 'I look like' would be أُشْبِهُ",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "أَشْبَهَ=(he) looked like, resembled"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[333] sabaha forms[2].ar tap",
+      "current": "سَبَحَتْ=I swam",
+      "problem": "the form is labelled 'she swam' and is 3rd person feminine, but the tap gloss says 'I swam'",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "سَبَحَتْ=she swam"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[382] salamtak forms[0].ar tap",
+      "current": "سَلَامَتُكِ=get well soon (to a man)",
+      "problem": "سَلَامَتُكِ (with -ki) is the form to a woman; the label says 'to a woman' but the gloss says 'to a man'",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "سَلَامَتُكِ=get well soon (to a woman)"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[807] mustaqbal example.ar tap",
+      "current": "خُطَّتُكَ=your plan (to a woman)",
+      "problem": "-ka is the masculine ending; the gloss says 'to a woman'",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "خُطَّتُكَ=your plan (to a man)"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[792] najaha forms[1].ar tap",
+      "current": "نَجَحْتُ=you succeeded ('will pass', to a man)",
+      "problem": "نَجَحْتُ (-tu) is 'I passed', as the label 'I (past)' says; the gloss gives the wrong person and tense",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "نَجَحْتُ=I passed, I succeeded"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[206] maktaba example.ar tap (تَذْهَبُ); [314] amma example.ar tap (تَسْكُنُ); [316] khala example.ar tap (تَسْكُنُ); [318] zawj example.ar tap (تَسْكُنُ); [638] ughniya example.ar tap (تُحِبُّ)",
+      "current": "تَذْهَبُ=you go (to a man)",
+      "problem": "in these sentences the subject is a woman (Layla goes, Sami's aunt lives, my aunt Huda lives, she loves) but the tap gloss of the تَـ verb says 'you (to a man)'; also تَسْكُنُ=you live (to a man) and تُحِبُّ=you like (to a man) in the listed examples",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "gloss the verb for the sentence: تَذْهَبُ=she goes · تَسْكُنُ=she lives · تُحِبُّ=she loves (or 'you (m) / she' when the gloss is shared)"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[128] futur example.ar tap; [137] yakulu forms[3].ar tap (label 'you (m)'); [391] yajlisu forms[2].ar tap (label 'you (present)'); [573] yaktubu forms[3].ar tap (label 'she (present)')",
+      "current": "تَأْكُلُ=she eats",
+      "problem": "the reverse mismatch: 'What do you eat for breakfast? (to a man)' glosses تَأْكُلُ as 'she eats'; yakulu forms[3] is labelled 'you (m)' but glossed 'she eats'; yajlisu forms[2] labelled 'you' glossed 'sits (she, it)'; yaktubu forms[3] labelled 'she (present)' but glossed 'تَكْتُبُ=you write (to a man)'",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "make label and gloss agree, e.g. تَأْكُلُ=you eat (to a man) / she eats; تَكْتُبُ=she writes; تَجْلِسُ=you sit (to a man)"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[335] shay-w6 example.ar tap",
+      "current": "مَا=what",
+      "problem": "in مَا فَعَلْتُ شَيْئًا the مَا is the negative 'not' (I did not do anything), but the tap gloss says 'what'",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "مَا=not (before a past verb)"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[558] saih example.ar tap",
+      "current": "يَزُورُونَ=they visit (wrong before a plural subject — correct: yazūru)",
+      "problem": "a reviewer comment has leaked into the learner-facing gloss, and it is wrong here: in السُّيَّاح يَزُورُونَ the subject comes first, so the plural verb is correct",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "يَزُورُونَ=they visit"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[756] nashra example.ar tap",
+      "current": "الْأَخْبَارِ=the news (wrong ending after inna — correct: al-akhbāra)",
+      "problem": "a reviewer comment has leaked into the gloss and is wrong here: in نَشْرَةِ الْأَخْبَارِ the -i is the correct genitive of the iḍāfa; there is no إِنَّ in the sentence",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "الْأَخْبَارِ=the news"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[216] ishara example.ar tap",
+      "current": "الْإِشَارَة=pointing",
+      "problem": "in the headword's own example ('as far as the traffic lights') the word is glossed 'pointing'",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "الْإِشَارَة=the traffic light"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[403] yashuru forms[0].ar tap",
+      "current": "شَعَرَ=hair",
+      "problem": "شَعَرَ is the past verb 'he felt'; 'hair' is شَعْر",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "شَعَرَ=(he) felt"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[606] yudarrisu forms[0].ar tap",
+      "current": "دَرَّسَ=lesson",
+      "problem": "دَرَّسَ is the past verb 'he taught'; 'lesson' is دَرْس",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "دَرَّسَ=(he) taught"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[521] yahjizu forms[0].ar tap",
+      "current": "حَجَزَ=booking, reservation",
+      "problem": "حَجَزَ is the past verb 'he booked'; the noun is حَجْز",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "حَجَزَ=(he) booked, reserved"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[730] yataqaddamu forms[0].ar tap",
+      "current": "تَقَدَّمَ=progress",
+      "problem": "تَقَدَّمَ is the past verb 'he came forward, applied'; the noun 'progress' is تَقَدُّم",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "تَقَدَّمَ=(he) came forward, applied"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[745] yamnau forms[0].ar tap",
+      "current": "مَنَعَ=banning (of)",
+      "problem": "مَنَعَ is the past verb 'he banned'; the noun is مَنْع (forms[2])",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "مَنَعَ=(he) banned, forbade"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[802] takharruj note tap",
+      "current": "تَخَرَّجَ=graduation",
+      "problem": "تَخَرَّجَ is the past verb 'he graduated'; 'graduation' is تَخَرُّج",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "تَخَرَّجَ=(he) graduated"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[660] katib plural tap",
+      "current": "كُتَّاب=book",
+      "problem": "كُتَّاب is the plural 'writers'; 'book' is كِتَاب",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "كُتَّاب=writers"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[727] sayyid plural tap",
+      "current": "سَادَة=plain, without sugar",
+      "problem": "as the plural of سَيِّد, سَادَة means 'gentlemen, sirs'; the gloss belongs to the colloquial coffee word",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "سَادَة=gentlemen, sirs"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[754] shariha ar tap",
+      "current": "شَرِيحَة=SIM card",
+      "problem": "the entry teaches 'slide (in a presentation); slice' but the tap on the headword says 'SIM card'",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "شَرِيحَة=slide; slice"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[390] yatanaffasu forms[0].ar tap",
+      "current": "تَنَفَّسَ=breathe! (to a man)",
+      "problem": "تَنَفَّسَ (final -a) is the past 'he breathed'; the imperative is تَنَفَّسْ (forms[3]) — the two are glossed identically",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "تَنَفَّسَ=(he) breathed"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[616] yukarriru forms[0].ar tap",
+      "current": "كَرَّرَ=repeat! (to a man)",
+      "problem": "كَرَّرَ is the past 'he repeated'; the imperative is كَرِّرْ",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "كَرَّرَ=(he) repeated"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[607] yastamilu forms[0].ar tap",
+      "current": "اِسْتَعْمَلَ=use (to a man)",
+      "problem": "اِسْتَعْمَلَ is the past 'he used'; the imperative would be اِسْتَعْمِلْ",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "اِسْتَعْمَلَ=(he) used"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[781] yuabbiru forms[0].ar tap",
+      "current": "عَبَّرَ=express! (to a man)",
+      "problem": "عَبَّرَ is the past 'he expressed'; the imperative is عَبِّرْ (forms[1]) — both are glossed as the imperative",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "عَبَّرَ=(he) expressed"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[769] yukhammin forms[0].ar tap",
+      "current": "خَمَّنَ=guess (to a man)",
+      "problem": "خَمَّنَ is the past 'he guessed'; the imperative is خَمِّنْ",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "خَمَّنَ=(he) guessed"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[763] intibah note tap",
+      "current": "انْتَبَهَ=watch out! (to a man)",
+      "problem": "the note introduces انْتَبَهَ / يَنْتَبِهُ as the past/present verb 'to pay attention'; the tap glosses the past form as an imperative (which would be اِنْتَبِهْ)",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "انْتَبَهَ=(he) paid attention"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[389] yaftahu forms[2].ar tap",
+      "current": "تَفْتَحُ=(it) is opened ('opens')",
+      "problem": "تَفْتَحُ is active ('you open / she opens'), as the label 'you (present)' says; 'is opened' would be the passive تُفْتَحُ",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "تَفْتَحُ=you open (to a man); she opens"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[508] wazn plural tap",
+      "current": "أَوْزَان=patterns",
+      "problem": "in the travel entry 'weight' the plural is glossed with the grammar sense 'patterns'",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "أَوْزَان=weights"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[455] unwan plural tap",
+      "current": "عَنَاوِين=headlines (of)",
+      "problem": "the entry teaches 'address; title'; the plural tap gives only the newspaper sense",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "عَنَاوِين=addresses; titles"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[223] yanzilu ar tap; [223] forms[1].ar tap; [467] thalj example.ar tap; [476] ahyanan example.ar tap",
+      "current": "يَنْزِلُ=falls, comes down",
+      "problem": "يَنْزِلُ means 'goes down, comes down, gets off'; 'falls' is يَسْقُطُ — the headword entry itself teaches 'to get off; to go down'",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "يَنْزِلُ=comes down, gets off"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[303] shabb forms[0].ar tap",
+      "current": "شَابَّة=young man (feminine)",
+      "problem": "auto-generated gloss; شَابَّة is 'young woman'",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "شَابَّة=young woman"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[155] salata example.ar tap",
+      "current": "سَلَطَةً=a salad (after laysa)",
+      "problem": "the sentence is أُرِيدُ سَلَطَةً (object of 'I want'); there is no لَيْسَ — the gloss belongs to another sentence",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "سَلَطَةً=a salad (object)"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[369] samia forms[0].ar tap (يَسْمَعُ); [599] yaruddu example.ar tap (تَرُدَّ); [410] yartahu forms[3].ar tap (تَرْتَاحُ); [414] yanamu forms[3].ar tap (تَنَامُ); [422] yarkudu forms[2].ar tap (أَرْكُضُ); [453] yahtafilu forms[2].ar tap (أَحْتَفِلُ); [521] yahjizu forms[2].ar tap (أَحْجِزُ)",
+      "current": "يَسْمَعُ=he hears (form after 'lam')",
+      "problem": "mood labels in the glosses contradict the form shown: يَسْمَعُ (-u) is the plain present, not the form after لَمْ; تَرُدَّ in أَرْجُو أَنْ تَرُدَّ is the form after أَنْ, not after لَمْ; تَرْتَاحُ, تَنَامُ, أَرْكُضُ, أَحْتَفِلُ, أَحْجِزُ all end in -u but are glossed '(after an)'",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "drop the wrong bracket: يَسْمَعُ=he hears · تَرُدَّ=you reply (after an) · تَرْتَاحُ=you rest · تَنَامُ=you sleep · أَرْكُضُ=I run · أَحْتَفِلُ=I celebrate · أَحْجِزُ=I book"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[394] marra example.ar tap (الْيَوْم); [534] jayb example.ar tap (سَاعَة); [277] misbah example.ar tap (الْمَكْتَب); [377] yad ar tap; [715] shati example.ar tap (رِحْلَتُنَا); [721] yuqalu example.ar tap (السَّاعَةَ); [806] yatadhakkaru example.ar tap (أَوَّلَ); [630] ramadan note tap (كَرِيم); [512] funduq example.ar tap (لٰكِنَّهُ)",
+      "current": "الْيَوْم=today",
+      "problem": "tap glosses taken from another sentence's sense: فِي الْيَوْم = 'a day' not 'today'; قَبْلَ سَاعَة = 'an hour ago' but سَاعَة=watch, clock; عَلَى الْمَكْتَب = 'on the desk' but glossed 'the office'; يَد=hand ('hand luggage'); رِحْلَتُنَا=our flight in 'our trip to the beach'; السَّاعَةَ=at the hour for 'this clock'; أَوَّلَ=... the day before yesterday in 'the first lesson'; كَرِيم=Karim (first name) in رَمَضَان كَرِيم (generous); لٰكِنَّهُ=but he for 'but it (the hotel)'",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "give each word its sense in that sentence: الْيَوْم=the day (per day) · سَاعَة=hour · الْمَكْتَب=the desk · يَد=hand · رِحْلَتُنَا=our trip · السَّاعَةَ=the clock · أَوَّلَ=the first (of) · كَرِيم=generous · لٰكِنَّهُ=but it"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[718] kutiba forms[1].ar tap (يُكْتَبُ); [719] suniaa forms[2].ar tap (صَنَعَ); [720] uktushifa forms[2].ar tap (اِكْتَشَفَ)",
+      "current": "يُكْتَبُ=writes",
+      "problem": "passive/active mixed in the glosses: يُكْتَبُ (passive) glossed 'writes'; صَنَعَ (active, labelled 'he made') glossed 'was made'; اِكْتَشَفَ (active, labelled 'he discovered') glossed 'was discovered'",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "يُكْتَبُ=is written · صَنَعَ=(he) made · اِكْتَشَفَ=(he) discovered"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[749] yuqaddimu forms[0].ar tap",
+      "current": "قَدَّمَ=presents, gives (imperative)",
+      "problem": "قَدَّمَ is the past 'he presented'; the imperative is قَدِّمْ (forms[1]) — both forms carry the same '(imperative)' gloss",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "قَدَّمَ=(he) presented, offered"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[67] muwazzaf forms[0].ar tap",
+      "current": "مُوَظَّفَة=employee (f) (of) ('receptionist')",
+      "problem": "the feminine form carries an iḍāfa gloss from another phrase (مُوَظَّفَةُ الاِسْتِقْبَال); on its own it is just 'employee (f)'",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "مُوَظَّفَة=employee (f)"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[649] wazir forms[0].ar tap",
+      "current": "وَزِيرَة=a minister (f, -an: tanwīn)",
+      "problem": "the form وَزِيرَة has no tanwīn; the bracket belongs to another sentence",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "وَزِيرَة=minister (f)"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[763] intibah ar; [763] example.ar; [754] shariha example.ar (انْظُرُوا); [757] ilan example.ar (اسْمَعُوا)",
+      "current": "انْتِبَاه",
+      "problem": "sentence-initial hamzat waṣl without its vowel mark while the rest of the course writes it (اِسْتِقْبَال, اِفْتَحْ, اُكْتُبِ): انْتِبَاه, انْظُرُوا, اسْمَعُوا should carry the kasra / ḍamma; the word is not changed, only the vocalisation is incomplete",
+      "category": "arabic",
+      "severity": "minor",
+      "fix": "اِنْتِبَاه · اُنْظُرُوا · اِسْمَعُوا"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "engine: [36] umm note (ة → 'A / at'); [420] fariq example (وَعُمَر → 'Waʿumar'); [95] yashrabu example (الشَّاي → 'sh-shāī'); [701] wasail-tawasul ar (الِاجْتِمَاعِيّ → 'liājtimāʿī'); [774] muhadatha example (الِامْتِحَانُ → 'Iliāmtiḥānu'); [655] alladhi ar ('Illadhī')",
+      "current": "Feminine without A / at: a female person.",
+      "problem": "known engine quirks confirmed in this chunk: a bare ة in English prose is read as 'A / at'; a name after وَ is capitalised as one word (Waʿumar); الشَّاي becomes sh-shāī; the kasra written on the al- alif gives liājtimāʿī / Iliāmtiḥānu / liāḥtirām; الَّذِي / الَّتِي / الَّذِينَ become Illadhī / Illatī / Illadhīna",
+      "category": "engine",
+      "severity": "minor",
+      "fix": "handle ة as a letter name in prose; split clitic + name (wa-ʿUmar); shāy; l-ijtimāʿī / al-imtiḥānu / al-iḥtirām; alladhī / allatī / alladhīna"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "engine: [671] ray ar (رَأْي → 'Raʾī'); [197] mia forms[0].ar (مِائَة → 'Miāʾa'); [295] lihya plural (لِحًى → 'Liḥanā')",
+      "current": "Raʾī",
+      "problem": "the Arabic is right but the engine reads a final consonantal yāʾ with no sukūn as long ī (raʾy → Raʾī), pronounces the silent alif of مِائَة (miʾa → Miāʾa), and does not recognise tanwīn written before alif maqṣūra (liḥan → Liḥanā; مَقْهىً with the marks reversed is read correctly as Maqhan)",
+      "category": "engine",
+      "severity": "minor",
+      "fix": "Raʾy · Miʾa · Liḥan"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "engine: [667] kalam example (أَسْهَلُ → 'ashalu'); [786] imla example (أَسْهَلُ → 'ashalu')",
+      "current": "ashalu",
+      "problem": "s followed by h is written without a separator, so as-halu reads as 'a-sha-lu' (sh)",
+      "category": "engine",
+      "severity": "minor",
+      "fix": "as-halu (or as·halu) wherever s and h meet across a syllable"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "engine: [541] aghla example (الْحَيَاة → 'Al-ḥayāh'); [634] salat ar (صَلَاة → 'Ṣalāh')",
+      "current": "Ṣalāh",
+      "problem": "ة after a long ā is rendered 'h' while everywhere else ة in pause is 'a' (madrasa, qahwa); inconsistent for the learner",
+      "category": "engine",
+      "severity": "minor",
+      "fix": "ḥayā / ṣalā (or ḥayāt- / ṣalāt- when a word follows), consistent with the rest of the course"
+    }
+  ],
+  "notes": [
+    { "file": "content/course/vocabulary.json", "path": "[190] kilu forms[0].ar", "note": "the dual كِيلُوَانِ is a theoretical form for a loanword that ends in -ū; speakers say كِيلُو + the number (كِيلُوَانِ is very rarely heard). Consider dropping the dual or marking it as rare." },
+    { "file": "content/course/vocabulary.json", "path": "[566] mudir plural", "note": "مُدَرَاء is the common plural in practice; prescriptive grammars give مُدِيرُونَ. Worth a one-word note, not an error." },
+    { "file": "content/course/vocabulary.json", "path": "[212] thani forms[0].ar tap", "note": "ثَانِيَة=second (f): 'again' — 'again' is ثَانِيَةً with tanwīn; also ثَانِيَة is the time unit 'second'. The bracket may confuse." },
+    { "file": "content/course/vocabulary.json", "path": "[317] ibn-amm example.ar", "note": "the headword is اِبْنُ عَمّ (father's brother's son) but the example is خَالِد اِبْنُ خَالَتِي (mother's sister's son); a matching example would help." },
+    { "file": "content/course/vocabulary.json", "path": "[134] shay ar; [162] hulw ar", "note": "شَايْ and حُلْوْ are written with a final sukūn while other headwords leave the final consonant unmarked (بَيْت, قَلَم); consistent but unusual — not wrong." },
+    { "file": "content/course/vocabulary.json", "path": "[138] maqha ar", "note": "the headword is given with tanwīn (مَقْهىً, maqhan) while every other noun is given without; consider مَقْهَى (maqhā) to match, with the note already explaining الْمَقْهَى." },
+    { "file": "content/course/vocabulary.json", "path": "[137] yakulu note", "note": "the transliteration of the note drops the bare letters: 'the hamza of a and the first letter  of the root' — the engine leaves أَ and أ empty in prose." },
+    { "file": "content/course/vocabulary.json", "path": "[304] laysa note tap; [329] faala note tap; [324] wasala note tap", "note": "letters used as letters get word glosses: ـًا=the letter alif (it is alif + fatḥatān), ل=for; belonging to, و=and. Harmless but odd when tapped." },
+    { "file": "content/course/vocabulary.json", "path": "[491] nufambir example.ar; [496] khamis example.ar", "note": "الْيَوْمَ الْخَامِسُ مِنْ نُوفَمْبِر reads 'today, (it is) the fifth' with الْيَوْمَ as an adverb; fine, but الْيَوْمُ هُوَ الْخَامِسُ would be clearer for a beginner." },
+    { "file": "content/course/vocabulary.json", "path": "[320] aqarib example.ar tap", "note": "يَسْكُنُ=he lives under أَيْنَ يَسْكُنُ أَقَارِبُكَ (where do your relatives live); the singular verb before a plural subject is correct, the gloss could say 'live(s)'." },
+    { "file": "content/course/vocabulary.json", "path": "[685] salim note tap", "note": "سَلَام=peace ('wow!' with yā) — the exclamation sense is irrelevant in a note about roots." },
+    { "file": "content/course/vocabulary.json", "path": "[631] yasumu ar tap; [631] example.ar tap", "note": "يَصُومُ=(they) fast (verb first: singular) is a sentence-specific gloss sitting on the headword; and يَوْمًا=days (after 'how many') for ثَلَاثِينَ يَوْمًا (after 11–99) is the wrong bracket." },
+    { "file": "content/course/vocabulary.json", "path": "[646] khabar example.ar tap", "note": "إِنَّ=that (after 'say') at the start of إِنَّ الْأَخْبَارَ الْيَوْمَ جَيِّدَة; here it is the emphatic 'indeed', no verb of saying." },
+    { "file": "content/course/vocabulary.json", "path": "[661]–[664] level 8 examples", "note": "الْكِتَابَ=the book (-a after anna) under اِفْتَحُوا الْكِتَابَ (page entry [772]): the -a is the object of the imperative, not after أَنَّ." },
+    { "file": "content/course/vocabulary.json", "path": "[446] jahiz example.ar tap", "note": "تَمَامًا=exactly; in أَنَا جَاهِز تَمَامًا it means 'completely'." },
+    { "file": "content/course/vocabulary.json", "path": "[777] talaqa example.ar tap", "note": "تَأْتِي=(they) come (f) for الطَّلَاقَةُ تَأْتِي (fluency comes): 'it comes (f)'." }
+  ],
+  "summary": "Read all 809 entries of audit/vocabulary.txt (17,983 lines) and checked headword spelling and harakat, English meaning, gender, plural, listed forms, example sentences with their translations and the tap glosses. The Arabic itself is in very good shape: I found no misspelt headword, no wrong plural or gender, no agreement or case error in the example sentences, and no wrong English translation of a sentence. Almost every error is in the tap-gloss layer, which is clearly auto-filled from a shared dictionary: (1) person/gender mismatches between a verb form and its gloss (أَحَبَّ 'I', أَشْبَهَ 'I look like', سَبَحَتْ 'I swam', سَلَامَتُكِ 'to a man', خُطَّتُكَ 'to a woman', نَجَحْتُ 'you', and the recurring تَـ-verb glossed 'you (to a man)' where the subject is a woman or vice versa); (2) a verb form glossed as a different word altogether (شَعَرَ=hair, دَرَّسَ=lesson, حَجَزَ=booking, تَقَدَّمَ=progress, مَنَعَ=banning, تَخَرَّجَ=graduation, كُتَّاب=book, سَادَة=plain coffee, مُدَرِّسَة=school, شَرِيحَة=SIM card, الْإِشَارَة=pointing); (3) past 'he' forms glossed as imperatives (تَنَفَّسَ, كَرَّرَ, اِسْتَعْمَلَ, عَبَّرَ, خَمَّنَ, انْتَبَهَ); (4) two reviewer comments that leaked into learner-facing glosses and are wrong where they now sit (saih يَزُورُونَ, nashra الْأَخْبَارِ); (5) minor mood brackets ('after an', 'after lam') attached to plain indicative forms and senses copied from another sentence. 45 findings in all: 29 major (all gloss) and 16 minor, the minor ones being 11 gloss, 1 Arabic (sentence-initial hamzat waṣl left unvowelled in three places) and 4 engine (the four known quirks confirmed, and additionally رَأْي→Raʾī, مِائَة→Miāʾa, لِحًى→Liḥanā, أَسْهَلُ→ashalu, ة after ā → 'h'). 16 notes for the owner."
+}

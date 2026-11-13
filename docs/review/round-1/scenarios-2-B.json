@@ -1,0 +1,186 @@
+{
+  "chunk": "scenarios-2",
+  "reviewer": "B",
+  "errors": [
+    {
+      "file": "content/course/scenes.json",
+      "path": "scene phone-shop caption tap شَرَائِح; scene phone-shop spots[1].ar tap الشَّرِيحَة",
+      "current": "شَرَائِح=slides",
+      "problem": "the caption and spot are about SIM cards (the scenario teaches شَرِيحَة = SIM card throughout), but the tap gloss gives the unrelated sense 'slides' / 'the slide'. A learner tapping the SIM-card sign learns the wrong meaning for this context.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "شَرَائِح=SIM cards (also: slices)",
+      "alsoChange": "spots[1] tap: الشَّرِيحَة=the SIM card"
+    },
+    {
+      "file": "content/course/scenarios.json",
+      "path": "scenarios[30] machines: dialogue.culture tap سَيِّدَات",
+      "current": "سَيِّدَات=ladies (toilets)",
+      "problem": "the culture note is about metro cars reserved for women; the tap gloss '(toilets)' belongs to another context (a toilet sign) and is misleading here",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "سَيِّدَات=ladies, women"
+    },
+    {
+      "file": "content/course/scenarios.json",
+      "path": "scenarios[19] office-phone: mistakes[1].wrong tap; mistakes[1].right tap; quiz[3].options[0] tap",
+      "current": "حَضْرَةَ=sir (polite title)",
+      "problem": "حَضْرَة is a gender-neutral title of respect (lit. 'the presence of'); glossing it 'sir' is wrong when the phrase addresses Dr Mona (a woman). The dialogue seg glosses it correctly as '(title of respect, lit. the presence of)'.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "حَضْرَةَ=(title of respect, lit. the presence of)"
+    },
+    {
+      "file": "content/course/scenarios.json",
+      "path": "scenarios[17] hotel-reception: mistakes[1].right tap أَفْضَلُ",
+      "current": "أَفْضَلُ=the best (before a noun)",
+      "problem": "in الْغُرْفَة الْجَدِيدَة أَفْضَلُ the word is the predicate comparative 'better' (as the mistake's own 'why' says: afḍal), not 'the best before a noun'; the gloss contradicts the lesson point",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "أَفْضَلُ=better"
+    },
+    {
+      "file": "content/course/scenarios.json",
+      "path": "scenarios[25] post-office: quiz[3].ar",
+      "current": "رَقْمِ التَّتَبُّع",
+      "problem": "the quiz shows the phrase on its own, but رَقْمِ carries the genitive kasra it had after مَعَ in the dialogue; as a standalone phrase it should be nominative رَقْمُ التَّتَبُّع (compare bank quiz[3] سِعْرُ الصَّرْفِ)",
+      "category": "arabic",
+      "severity": "minor",
+      "fix": "رَقْمُ التَّتَبُّع",
+      "alsoChange": "tap رَقْمِ=number → رَقْمُ=number (of)"
+    },
+    {
+      "file": "content/course/scenarios.json",
+      "path": "scenarios[30] machines: mistakes[0]",
+      "current": "اِضْغَطِ الزِّرّ",
+      "problem": "this is marked as a mistake with the rule 'in standard Arabic ḍaghaṭa takes ʿalā', but ضَغَطَ is also transitive in MSA (ضَغَطَ الزِّرَّ is standard and common, e.g. on devices and in dictionaries). Both اضْغَطْ عَلَى الزِّرّ and اضْغَطِ الزِّرَّ are correct; teaching the direct object as wrong teaches an over-strict rule. (Also the 'wrong' form lacks the accusative on الزِّرَّ.)",
+      "category": "grammar-fact",
+      "severity": "minor",
+      "fix": "replace this mistake pair with a real error (e.g. اِضْغَطِي الزِّرّ said to a man → اِضْغَطْ عَلَى الزِّرّ), or soften the why to 'the course uses ḍaghaṭa ʿalā'"
+    },
+    {
+      "file": "content/course/scenes.json",
+      "path": "scene airport-checkin spots[1].ar tap; scene bank spots[0].ar tap; scene machines spots[5].ar tap; scene school spots[1].ar tap",
+      "current": "الْمَكْتَب=the office",
+      "problem": "in these scenes the spot is labelled 'the counter' / 'the desk' (en), but the tap gloss says 'the office'; مَكْتَب also means desk/counter and the gloss should match the object pointed at",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "الْمَكْتَب=the desk, the counter (also: the office)"
+    },
+    {
+      "file": "content/course/scenes.json",
+      "path": "scene airport-checkin spots[5].ar tap; scene supermarket spots[0].ar tap",
+      "current": "الْعَرَبَة=the carriage",
+      "problem": "the spot is a luggage/shopping trolley (en: 'the luggage trolley', 'the trolley') but the tap gloss says 'the carriage'",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "الْعَرَبَة=the trolley, the cart"
+    },
+    {
+      "file": "content/course/scenes.json",
+      "path": "scene cinema spots[6].ar tap",
+      "current": "الرَّصِيف=the platform",
+      "problem": "the spot is the pavement (en: 'the pavement') in a street scene; 'the platform' is the railway sense of رَصِيف",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "الرَّصِيف=the pavement, the sidewalk"
+    },
+    {
+      "file": "content/course/scenes.json",
+      "path": "scene museum-info spots[1].ar tap; scene airport-checkin spots[7].ar tap",
+      "current": "الْعَمُود=the pole",
+      "problem": "the spot is a stone column / pillar (en: 'the column', 'the pillar'); 'the pole' is a different sense of عَمُود",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "الْعَمُود=the column, the pillar"
+    },
+    {
+      "file": "content/course/scenes.json",
+      "path": "scene machines spots[2].ar tap",
+      "current": "السَّاعَة=the hour, o'clock",
+      "problem": "the spot is a wall clock (en: 'the clock'); the gloss gives only the time sense",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "السَّاعَة=the clock (also: the hour)"
+    },
+    {
+      "file": "content/course/scenarios.json",
+      "path": "scenarios[23] lost-phone-help: dialogue.lines[13].ar ⟶; scenarios[27] phone-shop: dialogue.lines[6].ar ⟶",
+      "current": "walilrrajuli",
+      "problem": "engine: when two clitics precede al- (وَلِلرَّجُلِ, وَبِالنِّسْبَةِ) the transliterator does not resolve the article: 'walilrrajuli' should be wa-li-r-rajuli, and 'Wabiālnnisbati' should be wa-bi-n-nisbati. The Arabic is correct.",
+      "category": "engine",
+      "severity": "minor",
+      "fix": "handle wa+li+al / wa+bi+al clusters: wa-li-r-rajuli, wa-bi-n-nisbati"
+    },
+    {
+      "file": "content/course/scenarios.json",
+      "path": "scenarios[18] job-interview: mistakes[0].why ⟶; scenarios[19] office-phone: mistakes[1].why ⟶",
+      "current": "A / at",
+      "problem": "engine (known quirk): a bare ة in English prose is transliterated 'A / at' ('A woman says mustaʿidda, with A / at')",
+      "category": "engine",
+      "severity": "minor",
+      "fix": "render a bare ة as 'ة (tāʾ marbūṭa)' or leave it untransliterated"
+    },
+    {
+      "file": "content/course/scenes.json",
+      "path": "scene hotel-reception caption ⟶ and spots[0].ar ⟶ (مَكْتَبُ الِاسْتِقْبَال); scenarios[24] museum-info speakers[0].nameAr ⟶ (مَكْتَبُ الِاسْتِعْلَامَات); scenarios[25] post-office lines[10].ar ⟶ (الِاسْتِمَارَةَ); scenarios[31] school lines[8].ar ⟶ (الِانْتِظَار)",
+      "current": "Maktabu liāstiqbāl",
+      "problem": "engine (known quirk): words whose al- alif carries a kasra (hamzat waṣl marked) are rendered 'liāstiqbāl', 'liāstiʿlāmāt', 'liāstimārata', 'liāntiẓār' instead of l-istiqbāl, l-istiʿlāmāt, l-istimārata, l-intiẓār",
+      "category": "engine",
+      "severity": "minor",
+      "fix": "treat الِ as the article: maktabu l-istiqbāl, hādhihi l-istimārata, qāʾimati l-intiẓār"
+    },
+    {
+      "file": "content/course/scenarios.json",
+      "path": "scenarios[29] etiquette: dialogue.lines[13].ar ⟶",
+      "current": "li-sh-shāī",
+      "problem": "engine (known quirk): الشَّاي rendered 'sh-shāī' instead of sh-shāy (compare supermarket lines[5] 'sh-shāyi', which is right)",
+      "category": "engine",
+      "severity": "minor",
+      "fix": "li-sh-shāy"
+    }
+  ],
+  "notes": [
+    {
+      "file": "content/course/scenarios.json",
+      "path": "scenarios[24] museum-info lines[0]-[1]; scenarios[25] post-office lines[0]-[1]",
+      "note": "these two scenarios open with صَبَاحَ الْخَيْر / صَبَاحَ النُّور (accusative), while every other scenario in the chunk uses صَبَاحُ الْخَيْر. Both forms are correct Arabic; consider harmonising to the nominative the course teaches."
+    },
+    {
+      "file": "content/course/scenarios.json",
+      "path": "scenarios[23] lost-phone-help lines[3].ar",
+      "note": "السُّوق مُزْدَحِم: سُوق is usually treated as feminine in MSA (السُّوقُ مُزْدَحِمَة), though masculine agreement is also attested. Not an error, but the feminine would be the safer model."
+    },
+    {
+      "file": "content/course/scenes.json",
+      "path": "scene museum-info caption; scene post-office caption; scene lost-phone-help caption; scene dietary caption",
+      "note": "photo/caption location differs from the scenario: museum-info is set in the Jordan Museum (Amman) but the photo is the Egyptian Museum in Cairo; post-office is set in Cairo but the photo is Jordan Post in Amman; lost-phone-help is set in downtown Amman but the photo is at Petra; dietary is a Jordan restaurant but the plate is 'Lebanese mezze'. Content is fine, only the mismatch may confuse."
+    },
+    {
+      "file": "content/course/scenarios.json",
+      "path": "scenarios[16] airport-checkin mistakes[0] tap",
+      "note": "tap glosses لِكُلِّ=for all and كِيلُو=kilo (of) are clumsy; the dialogue segs have the better 'for every' / 'kilo'."
+    },
+    {
+      "file": "content/course/scenes.json",
+      "path": "scene museum-info spots[5].ar tap; scene phone-shop spots[0].ar tap",
+      "note": "خِزَانَةُ الْعَرْض: the word-level tap 'wardrobe, cupboard' is accurate for خِزَانَة alone, but 'case, cabinet' would read better under a display case."
+    },
+    {
+      "file": "content/course/scenarios.json",
+      "path": "scenarios[19] office-phone scene caption tap",
+      "note": "مُوَظَّفَة=employee (f) (of) ('receptionist'): the '(of)' is stray (the word is not in a construct here)."
+    },
+    {
+      "file": "content/course/scenarios.json",
+      "path": "scenarios[27] phone-shop lines[4].ar",
+      "note": "الْإِصْلَاحُ يَحْتَاجُ يَوْمَيْنِ is fine in everyday MSA; the fuller يَحْتَاجُ إِلَى يَوْمَيْنِ is the form taught elsewhere in the course (e.g. أَحْتَاجُ إِلَى)."
+    },
+    {
+      "file": "content/course/scenarios.json",
+      "path": "scenarios[28] dietary lines[7].ar ⟶",
+      "note": "مِنْ فَضْلِكَ اسْأَلِ الْمَطْبَخ is transliterated 'min faḍlika sʾali l-maṭbakh'; the waṣla elision is technically right but 'sʾali' is hard for a beginner to read. Design choice, not an error."
+    }
+  ],
+  "summary": "Read all 3,091 lines of audit/scenarios-2.txt (16 scenarios: airport-checkin, hotel-reception, job-interview, office-phone, eid-visit, cinema, bank, lost-phone-help, museum-info, post-office, supermarket, phone-shop, dietary, etiquette, machines, school, each with intro, dialogue, mistakes, quiz and photo-scene spots) and checked the Arabic, harakat, case endings, agreement, verb moods, number-noun syntax, translations, seg/tap glosses, answer keys, mistakes pairs and transliteration. The Arabic itself is in very good shape: dual forms (وَالِدَا سَامِي دَعَوَانِي, تُرِيدَانِ أَنْ تَجْلِسَا), diptotes (إِلَى دَنَانِيرَ, لُطَفَاءَ, دَقَائِقَ), numbers (ثَلَاثِمِئَةٍ وَخَمْسِينَ دِينَارًا, عَشْرِ دَقَائِق, اِثْنَيْ عَشَرَ جُنَيْهًا), إِنَّ after قَالَ and subjunctives after أَنْ/لَنْ are all correct, every quiz answer key and every mistakes right/wrong pair checks out except one over-strict rule (machines: اِضْغَطِ الزِّرّ treated as wrong). I found 0 major and 15 minor errors: 1 small case-ending slip in a standalone quiz phrase (رَقْمِ التَّتَبُّع), 1 questionable grammar rule, 9 tap-gloss sense mismatches on scene spots and culture notes (the SIM card شَرِيحَة glossed 'slide', سَيِّدَات '(toilets)', حَضْرَة 'sir' for a woman, مَكْتَب/عَرَبَة/رَصِيف/عَمُود/سَاعَة glossed with the wrong sense for the pictured object, أَفْضَلُ 'the best' where it means 'better'), and 4 engine findings (the known 'A / at', 'liāstiqbāl' and 'sh-shāī' quirks plus a new one: wa+li+al / wa+bi+al clusters rendered 'walilrrajuli' / 'Wabiālnnisbati'). The main pattern is that scene-spot tap glosses are drawn from a word-level dictionary and do not always match the object in the photo; the dialogue segs, by contrast, are consistently context-correct. Eight notes cover the صَبَاحَ/صَبَاحُ inconsistency, سُوق gender, photo-location mismatches and minor gloss wording."
+}

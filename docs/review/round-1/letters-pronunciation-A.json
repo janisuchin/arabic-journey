@@ -1,0 +1,104 @@
+{
+  "chunk": "letters-pronunciation",
+  "reviewer": "A",
+  "errors": [
+    {
+      "file": "content/course/pronunciation.json; content/course/letters.json",
+      "path": "pronunciation [0].pairs[0][1].ar (كَاتَبَ); [2].pairs[0][1].ar, [27].examples[1].ar, [27].pairs[0][1].ar, [27].tip (دَرَّسَ); [10].pairs[0][1].ar (جَمَال); [25].pairs[0][1].ar, [25].error (حَجَزَ); letters [16].example.ar (ظُهْر)",
+      "current": "tap: كَاتَبَ=writer",
+      "problem": "The tap gloss is looked up without the harakat/shadda, so on the minimal-pair pages the learner taps the second word and gets the gloss of the FIRST word or of an unrelated noun: كَاتَبَ (he corresponded with) shows 'writer' (= كَاتِب); دَرَّسَ (he taught) shows 'lesson' (= دَرْس) on three pages; جَمَال (beauty) shows 'camel (plural)' (plural of camel is جِمَال); حَجَزَ (he booked) shows 'booking, reservation' (= حَجْز); ظُهْر (noon) shows 'back (of the body)' (= ظَهْر). Each page exists to teach that these are different words, and the tap says they are the same.",
+      "category": "engine",
+      "severity": "major",
+      "fix": "Match tap glosses on the vocalised form (or add exact vocabulary entries): كَاتَبَ = he corresponded with; دَرَّسَ = he taught; جَمَال = beauty; حَجَزَ = he booked; ظُهْر = noon",
+      "alsoChange": "the .en fields of these pairs are already correct; only the tap lookup is wrong"
+    },
+    {
+      "file": "content/course/pronunciation.json",
+      "path": "[1].error; [1].pairs[0][1].en",
+      "current": "ḥāl (condition) and hāl (halo) sound different.",
+      "problem": "هَال does not mean 'halo' (halo is هَالَة); هَال is cardamom (the spice). The pair itself is valid, only the gloss is wrong.",
+      "category": "translation",
+      "severity": "major",
+      "fix": "ḥāl (condition) and hāl (cardamom) sound different.",
+      "alsoChange": "pairs[0][1].en 'halo, cardamom' → 'cardamom'; tap gloss هَال=halo, cardamom → cardamom"
+    },
+    {
+      "file": "content/course/pronunciation.json",
+      "path": "[26].pairs[0][1].en",
+      "current": "humble",
+      "problem": "ذَلِيل means lowly, abject, humiliated (a negative word); 'humble' (the virtue, مُتَوَاضِع) is misleading as the learner's only gloss",
+      "category": "translation",
+      "severity": "minor",
+      "fix": "lowly, humiliated",
+      "alsoChange": "tap gloss ذَلِيل=humble → lowly, humiliated"
+    },
+    {
+      "file": "content/course/letters.json",
+      "path": "[10].nameAr (زَاي ⟶ Zāī); [26].nameAr (وَاو ⟶ Wāū)",
+      "current": "Zāī",
+      "problem": "The Arabic is right but the engine transliterates a final yāʾ/wāw after ā as a second long vowel; the letter names are zāy and wāw (and the 'name' field says so), so the learner sees two different names for one letter",
+      "category": "engine",
+      "severity": "minor",
+      "fix": "Zāy; Wāw (after ā a bare ي / و is the consonant y / w)",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/course/letters.json; content/course/pronunciation.json",
+      "path": "letters [22].char (ل); [26].char (و); pronunciation [0].letters[1], [5].letters[0], [10].letters[2], [16].letters[1], [19].letters[1], [19].diagram (وْ), [28].letters[1]",
+      "current": "tap: ل=for; belonging to",
+      "problem": "On the letter and pronunciation pages the single glyph ل is glossed as the preposition 'for; belonging to' and و as 'and' (the particles), while every other letter is glossed 'the letter …'; a beginner on the alphabet page learns that the letter lām means 'for'",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "ل=the letter lām; و=the letter wāw (prefer the letter entry when a bare glyph is tapped on a letters/pronunciation page)",
+      "alsoChange": ""
+    }
+  ],
+  "notes": [
+    {
+      "file": "content/course/pronunciation.json",
+      "path": "[24].tip; [24].diagram",
+      "note": "For ṣād the tip says 'pull the back of the tongue DOWN and back', while the emphatics page [3], ṭāʾ page [20] and ḍād page [17] say 'raise the back of the tongue up and back towards the soft palate'. Both describe real parts of the emphatic gesture (tongue-root retraction vs velarisation), but the learner meets two opposite instructions for the same sound; pick one wording for all four emphatics."
+    },
+    {
+      "file": "content/course/pronunciation.json",
+      "path": "[3].tip; [17].tip; [24].tip",
+      "note": "English anchors for the emphatic vowel differ: 'u in but' (emphatics), 'du of dull' (ḍād), 'sun or saw' (ṣād). The backed a after an emphatic is closer to the a of 'father' / o of 'hot' than to 'but'; not wrong enough to teach a wrong sound, but worth one consistent anchor."
+    },
+    {
+      "file": "content/course/letters.json; content/course/pronunciation.json",
+      "path": "letters [18].sound; pronunciation [4].tip, [4].diagram, [21].tip",
+      "note": "ghayn is compared to the French r and placed 'near the uvula'. MSA ɣ is velar (the voiced partner of خ, as page [21] itself says); French r is uvular. Acceptable beginner approximation; the diagram of [21] (soft palate) is the accurate one."
+    },
+    {
+      "file": "content/course/vocabulary lookup (tap glosses)",
+      "path": "letters [6].example.ar خَيْر; letters [11].example.ar سَلَام; pronunciation [24].examples[1].ar السَّفَر; letters [24].example.ar نُور",
+      "note": "Tap glosses carry phrase-level remarks that do not fit the single word: خَيْر='goodness (\"good night\")', سَلَام='peace (\"wow!\" with yā)', السَّفَر='the travel (\"passport\")', نُور='Nour (first name)' where the page says 'light'. Not wrong, but confusing on an alphabet page."
+    },
+    {
+      "file": "content/course/pronunciation.json",
+      "path": "[2].tip ⟶; [13].tip ⟶; [18].tip ⟶; [25].diagram ⟶; letters [28].sound ⟶",
+      "note": "The generated transliteration line of tips that contain bare diacritics or hamza seats drops them: 'The small w-shaped mark  (shadda)', 'sit on a seat: , i,  or .', '( i  )'. If the learner can see the ⟶ line for tips, these read as garbled; otherwise ignore."
+    },
+    {
+      "file": "content/course/pronunciation.json",
+      "path": "[5].diagram ⟶",
+      "note": "The transliteration of the sun/moon diagram turns الشَّمْس into 'ash-shams → ash-shams', so the before/after contrast disappears in the ⟶ line (Arabic itself is right)."
+    },
+    {
+      "file": "content/course/pronunciation.json",
+      "path": "[23].tip; [23].examples[0]; [23].pairs",
+      "note": "سَتَأْتِي is glossed only 'she will come'; it is equally 'you (m.) will come'. Fine for the page, but a learner who meets it in a dialogue addressed to a man may be confused."
+    },
+    {
+      "file": "content/course/pronunciation.json",
+      "path": "[14].ipa",
+      "note": "IPA lists 'd͡ʒ | ʒ | g' (MSA plus two dialect values) while the letter entry gives only d͡ʒ. Intentional per the tip, but the letter page and the pronunciation page differ."
+    },
+    {
+      "file": "content/course/letters.json",
+      "path": "[19].example.ar فِنْجَان",
+      "note": "Tap gloss 'small cup' vs example.en 'cup' — same word, slightly different gloss; harmless."
+    }
+  ],
+  "summary": "Checked all 31 letter entries (names, Arabic names, IPA, transliteration symbols, sun/moon status, sound descriptions, example words and glosses) and all 30 pronunciation pages (IPA, letters, tips, diagrams, common-error texts, examples and every minimal pair). Letter names, sun/moon assignments (14/14), IPA values and transliteration symbols are all correct; every minimal pair is a real pair with correct harakat and the .en glosses of the pairs are right. 5 errors: 2 major, 3 minor. The one systematic problem is the tap-gloss engine, which matches words without harakat/shadda, so on the minimal-pair pages the second word of the pair (كَاتَبَ, دَرَّسَ, جَمَال, حَجَزَ, ظُهْر) is glossed as the first word or an unrelated noun — exactly the confusion the pages are meant to remove. The only content error in the Arabic/English itself is هَال glossed 'halo' (it is cardamom), plus the mild 'humble' for ذَلِيل. Minor engine/gloss points: zāy/wāw transliterated Zāī/Wāū, and ل / و glossed as the particles 'for' / 'and' on the alphabet pages. Notes cover inconsistent tongue-position wording for the emphatics, English vowel anchors, the French-r comparison for ghayn, and garbled ⟶ lines where tips contain bare diacritics."
+}

@@ -1,0 +1,170 @@
+{
+  "chunk": "days-51-60",
+  "reviewer": "B",
+  "errors": [
+    {
+      "file": "content/days/day51.json",
+      "path": "quiz[3].options[2] (tap gloss)",
+      "current": "تَأْتِي=(they) come (f)",
+      "problem": "in the option لَيْلَى تَأْتِي the verb is 3rd person feminine singular 'she comes'; '(they) come (f)' would be يَأْتِينَ. The learner is told a wrong person/number for the form they are being tested on",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "تَأْتِي=she comes (or: you come, to a man)",
+      "alsoChange": "the dictionary entry for تَأْتِي, so that every tap on this form shows the right persons"
+    },
+    {
+      "file": "content/days/day52.json",
+      "path": "quiz[4].options[0] (tap gloss)",
+      "current": "سَلَامَتُكِ=get well soon (to a man)",
+      "problem": "the ending ـكِ (-ki) is feminine; سَلَامَتُكِ is said to a woman, سَلَامَتُكَ to a man. The gloss teaches the wrong gender for the suffix the course has just been drilling",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "سَلَامَتُكِ=get well soon (to a woman)",
+      "alsoChange": "the dictionary entry for سَلَامَتُكِ"
+    },
+    {
+      "file": "content/days/day51.json",
+      "path": "sentences[1].mistakes[0].right (tap gloss); quiz[3].options[3] (tap gloss)",
+      "current": "تَأْتِيَ=you come (after 'an')",
+      "problem": "in both places the subject is Layla (لَيْلَى لَنْ تَأْتِيَ), so the form is 'she comes (after lan)'; the segs of sentences[1] gloss it correctly, the tap dictionary does not",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "تَأْتِيَ=she comes / you come (to a man) (after an or lan)",
+      "alsoChange": "dictionary entry for تَأْتِيَ"
+    },
+    {
+      "file": "content/days/day57.json; content/days/day60.json",
+      "path": "day57 quiz[3].options[0] (tap gloss); day60 quiz[3].options[3] (tap gloss)",
+      "current": "أَجْلِسُ=I sit (wrong after an — correct: ajlisa)",
+      "problem": "the 'wrong after an / wrong after lam' glosses were written for the mistakes examples, but they also appear on quiz options that contain no أَنْ or لَمْ: أَجْلِسُ بِجَانِبِ النَّافِذَة is a correct indicative statement, and أَجِدُهَا in day60 quiz[3].options[3] (tap 'I find it (wrong after lam — correct: ajidhā)') is likewise a correct indicative. The learner is told a correct form is wrong",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "day57: أَجْلِسُ=I sit · day60: أَجِدُهَا=I find it (f)",
+      "alsoChange": "keep the 'wrong after an/lam' wording only on the mistakes[].wrong strings, not in the shared tap dictionary"
+    },
+    {
+      "file": "content/days/day57.json",
+      "path": "quiz[3].options[2] (tap gloss)",
+      "current": "أَنْتَ=you (written without vowel marks: anta or anti)",
+      "problem": "the word in the option is fully vocalised أَنْتَ (to a man); the gloss belongs to an unvocalised أنت elsewhere and is misleading here",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "أَنْتَ=you (to a man)"
+    },
+    {
+      "file": "content/days/day59.json",
+      "path": "sentences[0].mistakes[0].wrong (tap gloss)",
+      "current": "أَحْجِزُ=I book (after an)",
+      "problem": "أَحْجِزُ is the indicative (-u) form, i.e. the WRONG form after أَنْ that this very example is correcting; the tap gloss labels it as the after-an form, contradicting the 'why' line (compare the other mistakes, which say 'wrong after an — correct: …')",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "أَحْجِزُ=I book (wrong after an — correct: aḥjiza)"
+    },
+    {
+      "file": "content/days/day54.json",
+      "path": "quiz[3].options[2] (tap gloss)",
+      "current": "بَارِدًا=cold (object)",
+      "problem": "بَارِدًا here is the predicate of يَكُونُ (the very point of the quiz), not an object; '(object)' teaches a wrong reason for the -an ending",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "بَارِدًا=cold (after 'be')"
+    },
+    {
+      "file": "content/days/day55.json",
+      "path": "quiz[6].prompt (tap gloss)",
+      "current": "و=and",
+      "problem": "the prompt asks about the LETTER و (long ū); tapping it shows the conjunction 'and', which is the wrong sense for a pronunciation question (compare day53 quiz[6], where ط/ت correctly show 'the letter ṭāʾ/tāʾ')",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "و=the letter wāw (long ū / w)"
+    },
+    {
+      "file": "content/days/day58.json",
+      "path": "sentences[5].ar; dialogue.speakers[1].nameAr",
+      "current": "الاِسْتِقْبَال",
+      "problem": "the kasra is written on the hamzat-waṣl alif instead of on the lām of the article; after الـ the waṣl alif is silent and carries no vowel. Standard vocalisation is الِاسْتِقْبَال (al-istiqbāl). The transliteration happens to come out right, but the harakat shown to the learner are misplaced",
+      "category": "arabic",
+      "severity": "minor",
+      "fix": "الِاسْتِقْبَال"
+    },
+    {
+      "file": "content/days/day53.json; content/days/day55.json; content/days/day58.json",
+      "path": "day53 sentences[3].mistakes[0].why ⟶; day55 sentences[2].mistakes[0].why ⟶; day58 quiz[6].prompt ⟶",
+      "current": "A / at",
+      "problem": "a bare ة quoted inside English prose is transliterated as 'A / at' ('the numbers 3–10 drop their A / at', 'the adjective takes A / at', 'tāʾ marbūṭa (A / at)'); it should stay ة or read 'tāʾ marbūṭa'",
+      "category": "engine",
+      "severity": "minor",
+      "fix": "render an isolated ة in prose as 'ة (tāʾ marbūṭa)' or leave it untransliterated"
+    },
+    {
+      "file": "content/days/day51.json; content/days/day53.json; content/days/day59.json; content/days/day60.json",
+      "path": "day51 reading.ar ⟶ (Wadānyāl); day52 dialogue.lines[11].ar ⟶ (Wadānyāl); day53 dialogue.lines[4].ar ⟶ (Walaylā); day59 dialogue.lines[15].ar ⟶ (Liyūsuf); day60 reading.ar ⟶ (Lidānyāl)",
+      "current": "Wadānyāl",
+      "problem": "a name after the clitics وَ / لِ is capitalised as one word with the clitic and the name loses its capital: Wadānyāl, Walaylā, Liyūsuf, Lidānyāl. House style elsewhere is wa-anta, li-l-muwaẓẓafa; expected wa-Dānyāl, wa-Laylā, li-Yūsuf, li-Dānyāl",
+      "category": "engine",
+      "severity": "minor",
+      "fix": "hyphenate the clitic before a proper name and keep the name's capital: wa-Dānyāl, li-Yūsuf"
+    },
+    {
+      "file": "content/days/day53.json",
+      "path": "dialogue.lines[12].ar ⟶",
+      "current": "sh-shāī",
+      "problem": "الشَّاي is rendered 'sh-shāī'; the final yāʾ after ā is a consonant here, expected 'sh-shāy'",
+      "category": "engine",
+      "severity": "minor",
+      "fix": "sh-shāy"
+    },
+    {
+      "file": "content/days/day51.json; content/days/day57.json",
+      "path": "day51 sentences[0].ar ⟶; day51 dialogue.lines[3].ar ⟶; day57 dialogue.lines[0].ar ⟶",
+      "current": "mutaʾakhkhiran al-layla",
+      "problem": "the hamzat waṣl of the article is not elided after a word ending in tanwīn -an: 'mutaʾakhkhiran al-layla', 'muzdaḥim jiddan al-yawma'. Elsewhere the engine elides after a vowel (ṣabāḥu l-khayr); after -an the classical reading is mutaʾakhkhirani l-layla / jiddani l-yawma (or at least …an l-layla). The Arabic itself is correct",
+      "category": "engine",
+      "severity": "minor",
+      "fix": "treat tanwīn -an/-un/-in like a vowel for waṣla elision: mutaʾakhkhirani l-layla, jiddani l-yawma"
+    }
+  ],
+  "notes": [
+    {
+      "file": "content/days/day52.json",
+      "path": "dialogue.lines[7].en",
+      "note": "Arabic says وَطُلَّابَ الصَّفّ 'and the students of the class'; the English adds 'the other students in our class'. Harmless paraphrase, but 'other' and 'our' are not in the Arabic."
+    },
+    {
+      "file": "content/days/day56.json",
+      "path": "sentences[5].ar",
+      "note": "يَوْمُ أَرْبِعَاء without the article is heard, but the usual MSA form is يَوْمُ الْأَرْبِعَاءِ (the course itself writes الْأَرْبِعَاء in dialogue.lines[1]). Consider making the two consistent."
+    },
+    {
+      "file": "content/days/day53.json",
+      "path": "objectives[2] (tap gloss); sentences[3].mistakes[0] (tap gloss)",
+      "note": "الْحَرَارَة taps as 'the fever, the temperature' — the 'fever' sense comes from the health lesson and is confusing in a weather lesson; the segs gloss 'the heat (the temperature)' is better."
+    },
+    {
+      "file": "content/days/day59.json",
+      "path": "sentences[4].ar; dialogue.lines[9].ar; dialogue.lines[5].ar; dialogue.lines[0].ar",
+      "note": "Indefinite accusative ة-nouns are written without tanwīn even mid-sentence (مَرَّة وَاحِدَة فَقَطْ, لَيْلَة وَاحِدَة فَقَطْ, نَنَامَ لَيْلَة فِي…), whereas day53 writes مَرَّةً وَاحِدَةً مُنْذُ. This looks like a deliberate house convention for tāʾ marbūṭa; if so it is fine, but the owner may want one rule across the course."
+    },
+    {
+      "file": "content/days/day58.json",
+      "path": "sentences[0].mistakes[0].wrong",
+      "note": "The 'wrong' string carries an English stage direction inside the Arabic: 'لَوْ سَمَحْتَ، أَيْنَ الْمِصْعَد؟ (to a woman)'. It also appears in the transliteration. Works, but a separate 'context' field would be cleaner (same for day60 sentences[2].mistakes[0].wrong '(the wallet)')."
+    },
+    {
+      "file": "content/days/day59.json",
+      "path": "dialogue.lines[0].ar",
+      "note": "لَازِم أَنْ نَنَامَ is colloquial-flavoured; textbook MSA would be يَجِبُ أَنْ نَنَامَ or لَا بُدَّ أَنْ نَنَامَ (the course already teaches يَجِبُ أَنْ). Acceptable in reported speech, register choice for the owner."
+    },
+    {
+      "file": "content/days/day57.json",
+      "path": "dialogue.lines[3].en",
+      "note": "Arabic has singular جَوَازَ السَّفَر ('the passport') while the English says 'your passports'. Natural for a clerk addressing two people, but not literal."
+    },
+    {
+      "file": "content/days/day53.json; content/days/day54.json; content/days/day55.json; content/days/day60.json",
+      "path": "quiz[6].prompt ⟶",
+      "note": "In the pronunciation prompts the quoted letter is transliterated oddly: 'ṭ (Ṭ)', 'kh (Kh)', 'ū (W / ū)', 'sīn (S)'. Cosmetic; the Arabic letter should probably be left as is in prose."
+    }
+  ],
+  "summary": "Checked every Arabic string, harakat, case ending, verb mood, agreement, English translation and literal, seg and tap gloss, answer key and transliteration in days 51–60 (weekend plans with لَنْ, invitations with لِـ, weather, seasons with يَكُونُ, months, dates with ordinals, airport, hotel, booking with hollow verbs, lost wallet with object pronouns). The Arabic itself is in very good shape: subjunctives after أَنْ/لَنْ/لِـ, jussives after لَمْ and in prohibitions, hollow-verb shortening, kāna/yakūnu predicates in the accusative, number–noun gender rules (خَمْسَ دَرَجَات, سَبْعٌ وَعِشْرُونَ, خَمْسَةَ عَشَرَ ضَيْفًا), duals after prepositions and the diptotes (مَعَاطِفَ, حَمْرَاءَ) are all correct; every quiz answer key and every mistakes right/wrong pair is correct. 13 errors found: 2 major, both in the shared tap-gloss dictionary (لَيْلَى تَأْتِي glossed as '(they) come (f)'; سَلَامَتُكِ glossed 'to a man'), and 11 minor: five more tap-gloss leaks where a dictionary sense written for one context (the mistakes 'wrong after an/lam' notes, 'cold (object)', و='and', unvocalised أَنْتَ) shows on a word in a different context, one misplaced kasra on the waṣl alif of الِاسْتِقْبَال, and four engine quirks reported once each (ة→'A / at', Wadānyāl-type capitalisation, sh-shāī, no waṣla elision after tanwīn -an). The pattern to watch is the single tap dictionary: glosses tied to one sentence's context (person, 'wrong after…') surface on the same form elsewhere and mislead. 8 notes on paraphrase, register and conventions."
+}

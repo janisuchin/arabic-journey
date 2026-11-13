@@ -1,0 +1,169 @@
+{
+  "chunk": "days-61-70",
+  "reviewer": "A",
+  "errors": [
+    {
+      "file": "content/days/day68.json",
+      "path": "summary (tap); intro (tap); objectives[1] (tap); quiz[1].prompt (tap); quiz[6].options[0] (tap)",
+      "current": "دَرَّسَ=lesson",
+      "problem": "the tap gloss for دَرَّسَ (Form II, 'he taught') is 'lesson'. 'Lesson' is دَرْس; the whole lesson is about telling دَرَسَ (studied) from دَرَّسَ (taught), and the quiz asks 'What does دَرَّسَ (with a shadda) mean?' while the tap on the same word tells the learner 'lesson', which is also not among the options",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "دَرَّسَ=(he) taught (Form II)",
+      "alsoChange": "the dictionary entry behind the tap, so every occurrence of دَرَّسَ in days 68-69 shows 'taught'"
+    },
+    {
+      "file": "content/days/day68.json",
+      "path": "summary (tap); quiz[3].options[2] (tap)",
+      "current": "اِسْتَعْمَلَ=use (to a man)",
+      "problem": "اِسْتَعْمَلَ is the Form X past tense 'he used' (the summary itself says 'اِسْتَعْمَلَ (used)'); the tap glosses it as an imperative 'use (to a man)', which would be اِسْتَعْمِلْ. In quiz[3] the learner compares verb forms by tapping, so the gloss misleads",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "اِسْتَعْمَلَ=(he) used (Form X)",
+      "alsoChange": "dictionary entry behind the tap"
+    },
+    {
+      "file": "content/days/day67.json",
+      "path": "sentences[3].mistakes[0].right (tap)",
+      "current": "تَرُدَّ=you answer (form after 'lam')",
+      "problem": "in this sentence تَرُدَّ is the subjunctive after أَنْ (أَرْجُو أَنْ تَرُدَّ); the gloss says 'form after lam', which is not what the sentence teaches and contradicts the 'why' line ('After an the verb ends in -a')",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "تَرُدَّ=you reply (after an)"
+    },
+    {
+      "file": "content/days/day67.json",
+      "path": "sentences[3].mistakes[0].wrong (tap); sentences[3].mistakes[0].right (tap)",
+      "current": "قَرِيبًا=near, close by",
+      "problem": "in أَرْجُو أَنْ تَرُدَّ عَلَيَّ قَرِيبًا the adverb means 'soon' (as the segs and translation say); the tap gives only the spatial sense",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "قَرِيبًا=soon; near"
+    },
+    {
+      "file": "content/days/day66.json",
+      "path": "summary (tap); sentences[0].mistakes[0].wrong (tap); quiz[0].ar (tap); completion (tap)",
+      "current": "مُسَافِر=passenger, traveller (m)",
+      "problem": "the lesson teaches مُسَافِر as the active participle 'travelling / away on a trip' (quiz[0] answer is 'travelling'); the tap gives only the noun sense 'passenger, traveller', so a learner checking the quiz word by tapping gets a meaning that is not among the options",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "مُسَافِر=travelling, away (m); traveller"
+    },
+    {
+      "file": "content/days/day69.json",
+      "path": "intro (tap)",
+      "current": "ل=for; belonging to",
+      "problem": "in the root listing ع ل م the bare letter ل is glossed as the preposition لِ ('for; belonging to') instead of as the letter lām, unlike the neighbouring ع and م which are glossed as letters",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "ل=the letter lām"
+    },
+    {
+      "file": "content/days/day64.json",
+      "path": "reading.ar",
+      "current": "حَضَرَ دَانْيَال اِجْتِمَاعًا",
+      "problem": "hamzat waṣl written with a kasra in the middle of a sentence; elsewhere in the same lesson the word is correctly written bare after a vowel (عِنْدَنَا اجْتِمَاع). The kasra makes the engine read it as a full vowel (ijtimāʿan instead of jtimāʿan)",
+      "category": "arabic",
+      "severity": "minor",
+      "fix": "حَضَرَ دَانْيَال اجْتِمَاعًا"
+    },
+    {
+      "file": "content/days/day61.json",
+      "path": "dialogue.lines[9].ar (⟶); reading.ar (⟶); day62 dialogue.lines[13].ar (⟶); day63 reading.ar (⟶); day69 reading.ar (⟶)",
+      "current": "Lisāmī",
+      "problem": "engine: names after the clitics وَ / لِ are capitalised as one word: 'Lisāmī' (لِسَامِي), 'Walaylā' (وَلَيْلَى), 'Wayūsuf', 'Waṭāriq', 'Wadānyāl'; elsewhere the engine writes 'wa-anā', 'li-l-ustādh' with a hyphen. Known quirk, reported once",
+      "category": "engine",
+      "severity": "minor",
+      "fix": "li-Sāmī, wa-Laylā, wa-Yūsuf, wa-Ṭāriq, wa-Dānyāl"
+    },
+    {
+      "file": "content/days/day64.json",
+      "path": "sentences[1].mistakes[0].why (⟶); day65 sentences[1].mistakes[0].why (⟶); day67 quiz[6].prompt (⟶)",
+      "current": "takes A / at as well",
+      "problem": "engine: a bare ة in English prose is transliterated as 'A / at' ('so busy takes A / at as well: mashghūla', 'ends in tāʾ marbūṭa (A / at)'). Known quirk, reported once",
+      "category": "engine",
+      "severity": "minor",
+      "fix": "leave the bare letter as ة (or 'tāʾ marbūṭa') in the transliterated prose"
+    },
+    {
+      "file": "content/days/day61.json",
+      "path": "dialogue.lines[12].ar (⟶)",
+      "current": "nashrabu sh-shāī",
+      "problem": "engine: الشَّاي is rendered 'sh-shāī' (long ā followed by ī) instead of 'sh-shāy'. Known quirk, reported once",
+      "category": "engine",
+      "severity": "minor",
+      "fix": "nashrabu sh-shāy"
+    },
+    {
+      "file": "content/days/day66.json",
+      "path": "quiz[6].prompt (⟶); day62 quiz[6].prompt (⟶); day63 quiz[6].prompt (⟶); day64 quiz[6].prompt (⟶)",
+      "current": "a hamza on a yāʾ seat ()?",
+      "problem": "engine: a bare letter inside English prose is transliterated as a capital letter or dropped: ئ disappears entirely ('yāʾ seat ()'), ق → 'Q', خ → 'Kh', ذ → 'Dh'. In the transliteration view the learner cannot see which letter the question is about",
+      "category": "engine",
+      "severity": "minor",
+      "fix": "keep bare letters as Arabic glyphs in the transliterated prose (ئ, ق, خ, ذ)"
+    },
+    {
+      "file": "content/days/day70.json",
+      "path": "reading.ar (⟶)",
+      "current": "wāttaṣala bi-l-ustādh",
+      "problem": "engine: وَاتَّصَلَ (wa + Form VIII with hamzat waṣl) is transliterated 'wāttaṣala' as if wa + ā; after a vowel the waṣla should elide: 'wa-ttaṣala' (compare the correct 'wa-ktub', 'wa-staʿmala' elsewhere in the chunk)",
+      "category": "engine",
+      "severity": "minor",
+      "fix": "wa-ttaṣala bi-l-ustādh"
+    }
+  ],
+  "notes": [
+    {
+      "file": "content/days/day61.json",
+      "path": "dialogue.lines[0].ar; dialogue.lines[7].ar",
+      "note": "the adjective 'Jordanian' is vocalised أُرْدُنِيَّة (no shadda) in line 1 but الْأُرْدُنِّيّ (shadda on the nūn) in line 8; both spellings are attested, but one form should be used throughout the course (dictionaries give أُرْدُنِيّ)."
+    },
+    {
+      "file": "content/days/day61.json",
+      "path": "dialogue.lines[4].ar",
+      "note": "حَوَالَيْ أَرْبَعَةِ مَلَايِين is fine in everyday MSA; a more classical alternative is نَحْوَ أَرْبَعَةِ مَلَايِين. No change needed."
+    },
+    {
+      "file": "content/days/day61.json; content/days/day62.json; content/days/day63.json",
+      "path": "summary, intro, objectives, quiz taps",
+      "note": "the tap dictionary gives أَكْبَرُ=bigger and مِنْ=from everywhere, including in superlative phrases (أَكْبَرُ مَدِينَة 'the biggest city', مِنْ أَجْمَلِ الْأَمَاكِن 'one of the most beautiful places'). The segs are right; only the context-free taps are coarse. Consider 'أَكْبَرُ=bigger; the biggest (before a noun)' and 'مِنْ=from; than; one of'."
+    },
+    {
+      "file": "content/days/day64.json",
+      "path": "dialogue.lines[7].ar; day69 dialogue.lines[0].ar and following",
+      "note": "الْإِنْجْلِيزِيَّة is vocalised with two consecutive sukūns (نْجْ). It is a loanword and the pronunciation injlīziyya is common, but the fully vocalised form usually shows a vowel: الْإِنْجِلِيزِيَّة (injilīziyya). Style choice; flagging for consistency."
+    },
+    {
+      "file": "content/days/day64.json",
+      "path": "quiz[5].options[0] (tap); quiz[6].options[0] (tap)",
+      "note": "the bare word مُدِير is glossed 'director (of)'; the '(of)' only applies inside an iḍāfa. Harmless, but 'manager, director' would be cleaner."
+    },
+    {
+      "file": "content/days/day65.json",
+      "path": "summary (tap); intro (tap); completion (tap)",
+      "note": "الْكِتَابَة is glossed 'writing (\\'spelling\\')' in a lesson where it means 'writing' (the '(spelling)' sense belongs to day 69 line 11). The segs say 'writing', so the learner is not misled, but the tap could drop the bracket."
+    },
+    {
+      "file": "content/days/day67.json",
+      "path": "titleAr; dialogue.lines[8].ar",
+      "note": "الْإِلِكْتُرُونِيّ (ilikturūnī) is a possible vocalisation; the more common one is الْإِلِكْتْرُونِيّ (iliktrūnī). Loanword; either is acceptable."
+    },
+    {
+      "file": "content/days/day62.json",
+      "path": "dialogue.culture",
+      "note": "'Amman is said to be built on seven hills' is correct as a saying; the Citadel's Temple of Hercules dates from the 2nd century AD and the Umayyad palace from the 8th century, as the text says. Facts check out."
+    },
+    {
+      "file": "content/days/day63.json",
+      "path": "dialogue.lines[9].ar",
+      "note": "مِنْ فَوْقُ (with ḍamma) is the correct classical form for 'from above'; a beginner may find the ḍamma on a preposition-like word surprising. A short seg note ('fixed form after min') might help; not an error."
+    },
+    {
+      "file": "content/days/day66.json",
+      "path": "sentences[3].en; objectives[3]",
+      "note": "أَتَّصِلُ بِكَ غَدًا is translated 'I'll call you tomorrow'; the dialogue later uses سَتَتَّصِلُ بِكَ. Both are fine MSA; the learner might benefit from seeing سَأَتَّصِلُ بِكَ in the model sentence too, since the title promises 'promise to call back'."
+    }
+  ],
+  "summary": "Checked every Arabic string, harakat, case ending, agreement, verb form, translation, literal, seg and tap gloss, quiz answer key and transliteration in days 61-70 (comparative/superlative, yumkinu an, maṣdar, active participle, email formulas, verb forms, interview). The Arabic itself is clean: case endings after قَبْلَ/مِنْ with diptote comparatives (أَكْثَرَ), accusative apposition (أَشْهَرَ مَكَان), duals, subjunctives after أَنْ, feminine agreement and the superlative constructions are all correct, and every quiz answer key is right. 12 findings: 2 major, both tap glosses in day 68 that teach the wrong form of the very verbs the lesson is about (دَرَّسَ=lesson, اِسْتَعْمَلَ=use imperative); 10 minor: four context-free tap glosses that contradict the sentence sense (تَرُدَّ 'after lam', قَرِيبًا 'near', مُسَافِر 'passenger', root letter ل glossed as the preposition), one stray kasra on a hamzat waṣl mid-sentence (day 64 reading), and five engine quirks reported once each (clitic capitalisation Lisāmī/Walaylā, ة → 'A / at', الشَّاي → sh-shāī, bare letters in prose dropped or capitalised, وَاتَّصَلَ → wāttaṣala). Pattern: the content JSON is accurate; nearly all problems come from the shared tap dictionary serving one gloss to every sentence regardless of sense, and from the transliteration engine's handling of bare letters and clitics. Ten notes cover spelling consistency (أُرْدُنِيّ, الْإِنْجْلِيزِيَّة, الْإِلِكْتُرُونِيّ) and gloss polish."
+}

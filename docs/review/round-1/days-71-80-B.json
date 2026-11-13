@@ -1,0 +1,181 @@
+{
+  "chunk": "days-71-80",
+  "reviewer": "B",
+  "errors": [
+    {
+      "file": "content/days/day74.json",
+      "path": "summary; intro; objectives[0]; quiz[0].options[2]; quiz[1].options[1]; quiz[2].options[0]; sentences[4].mistakes[0].wrong; quiz[3].options[0]; quiz[3].options[1]; completion; content/days/day77.json completion",
+      "current": "Illadhī",
+      "problem": "The engine transliterates the relative pronouns الَّذِي / الَّتِي / الَّذِينَ as 'Illadhī', 'illatī', 'illadhīna' whenever they are not preceded by a vowel (titles, lists, quiz options, after a consonant: 'ṣadīq illadhī'). The lām carries shadda+fatḥa and no sukūn, so the engine does not recognise the article and treats the alif as hamzat waṣl with -i-. The correct pronunciation is alladhī / allatī / alladhīna (the 'why' text of d74s1 itself says 'alladhī'). Inside sentences after a vowel ('r-rajulu lladhī') the output is right.",
+      "category": "engine",
+      "severity": "major",
+      "fix": "alladhī / allatī / alladhīna (engine rule: الَّ at the start of a word = al-l…, not il-l…)",
+      "alsoChange": "the same affects every isolated occurrence of these three words in day 74 and the Week 11 completion text of day 77"
+    },
+    {
+      "file": "content/days/day79.json",
+      "path": "sentences[5].ar; sentences[5].mistakes[0].wrong; sentences[5].mistakes[0].right; dialogue.lines[10].ar",
+      "current": "liājtimāʿiyyi",
+      "problem": "The engine transliterates الِاجْتِمَاعِيِّ (article before a word beginning with hamzat waṣl, written with kasra on the lām) as 'liājtimāʿiyyi' / 'liājtimāʿī'. Correct: l-ijtimāʿiyyi (after t-tawāṣuli), i.e. 'wasāʾilu t-tawāṣuli l-ijtimāʿiyyi'. The Arabic is right; only the transliteration is wrong, but the learner reads a non-existent word in a key vocabulary item (social media).",
+      "category": "engine",
+      "severity": "major",
+      "fix": "wasāʾilu t-tawāṣuli l-ijtimāʿiyyi (engine rule: الِ + alif-waṣl = al-i…, article vowel elided after a vowel)",
+      "alsoChange": "dialogue.lines[10] transliteration 'liājtimāʿī' → 'l-ijtimāʿī'"
+    },
+    {
+      "file": "content/days/day78.json",
+      "path": "dialogue.lines[2].ar",
+      "current": "wabiālḥayawānāti wabiālʾashjār",
+      "problem": "The engine fails on بِ + article after وَ: وَبِالْحَيَوَانَاتِ وَبِالْأَشْجَار comes out as 'wabiālḥayawānāti wabiālʾashjār' instead of 'wa-bi-l-ḥayawānāti wa-bi-l-ashjār'. Elsewhere بِالْ alone is handled correctly ('bi-l-ʿīd', 'bi-ṣ-ṣiḥḥati'), so the bug is the وَبِالْ stack. The Arabic is correct.",
+      "category": "engine",
+      "severity": "major",
+      "fix": "wa-bi-l-ḥayawānāti wa-bi-l-ashjār"
+    },
+    {
+      "file": "content/days/day72.json",
+      "path": "dialogue.lines[0].ar",
+      "current": "الْيَوْمَ الْخَمِيس",
+      "problem": "'Today is Thursday' is a nominal sentence whose subject is الْيَوْمُ; it needs the nominative -u. With the fatḥa (الْيَوْمَ) the word is the adverb 'today' and the sentence has no subject. The learner hears 'al-yawma l-khamīs' for a pattern the course has been teaching with -u (d73 objective 3, 'hear the case endings').",
+      "category": "arabic",
+      "severity": "minor",
+      "fix": "الْيَوْمُ الْخَمِيس",
+      "alsoChange": "seg gloss stays 'today'; transliteration becomes 'Al-yawmu l-khamīs' automatically"
+    },
+    {
+      "file": "content/days/day79.json",
+      "path": "sentences[3].mistakes[0].wrong; sentences[3].mistakes[0].why",
+      "current": "تُعْطِي=you give (to a woman); she gives",
+      "problem": "Tap gloss gives the wrong form: تُعْطِي is 'you (m) give' (indicative) or 'she gives'. 'You give (to a woman)' is تُعْطِينَ. The gloss is attached to the very contrast the lesson teaches (tuʿṭī indicative vs tuʿṭi jussive), so a learner will take تُعْطِي as a feminine form.",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "تُعْطِي=you give (to a man, statement); she gives",
+      "alsoChange": "same tap in sentences[3].mistakes[0].why"
+    },
+    {
+      "file": "content/days/day73.json",
+      "path": "summary; intro; objectives[2]; sentences[2].mistakes[0].wrong; sentences[2].mistakes[0].right; quiz[2].options[0]; quiz[2].options[1]; quiz[2].options[2]; quiz[2].options[3]; completion; content/days/day75.json intro; content/days/day75.json objectives[3]; content/days/day75.json sentences[1].mistakes[0].right; content/days/day75.json quiz[2].options[1]",
+      "current": "إِنَّ=that (after 'say')",
+      "problem": "The tap glosses of the إِنَّ family are fixed to one sense regardless of context. In day 73 the lesson teaches إِنَّ as the statement-opener 'indeed' (the segs say 'indeed'), but every tap shows 'that (after 'say')'. Conversely in day 75, where إِنَّهَا means 'that she' after قَالَتْ, the tap shows 'إِنَّهَا=indeed it (f) ('it is')' (intro, objectives[3], d75s2 right, d75q3 option 1). Learners tapping the quiz options in d73q3 and d75q3 get a gloss that contradicts the lesson.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "day 73 taps: إِنَّ=indeed; that (after 'say') — day 75 taps: إِنَّهَا=that she (after qāla); indeed she/it",
+      "alsoChange": "إِنَّهَا tap 'indeed it (f) ('it is')' in day 75 intro, objectives[3], sentences[1].mistakes[0].right, quiz[2].options[1]"
+    },
+    {
+      "file": "content/days/day72.json",
+      "path": "sentences[1].mistakes[0].wrong; sentences[1].mistakes[0].right",
+      "current": "تُحِبُّ=you like (to a man)",
+      "problem": "In أَعْرِفُ أَنَّهَا تُحِبُّ الْمُوسِيقَى the verb is 'she loves' (the sentence seg says 'she loves'); the tap gloss shows only the 2nd-person masculine sense, which contradicts the sentence and the 'why' text (annahā … she).",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "تُحِبُّ=she loves; you like (to a man)"
+    },
+    {
+      "file": "content/days/day73.json",
+      "path": "sentences[3].mistakes[0].wrong; sentences[3].mistakes[0].right",
+      "current": "عُطْلَةً=a holiday (after 'was')",
+      "problem": "In أَعْلَنَتِ الْحُكُومَةُ عُطْلَةً the -an is the object ending (the sentence seg says 'a holiday'), not a predicate after كَانَ. The tap gloss imports a rule from another lesson and misleads the learner about why the word ends in -an.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "عُطْلَةً=a holiday (object: -an)"
+    },
+    {
+      "file": "content/days/day75.json",
+      "path": "quiz[5].ar",
+      "current": "أَنْتَ=you (written without vowel marks: anta or anti)",
+      "problem": "The word in the quiz is fully vowelled (أَنْتَ, 'to a man'); the tap gloss says it is unvowelled and could be anti. Wrong statement about the form shown.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "أَنْتَ=you (to a man)"
+    },
+    {
+      "file": "content/days/day78.json",
+      "path": "objectives[2]",
+      "current": "حِمَايَةُ=protects (verbal noun)",
+      "problem": "حِمَايَةُ is the maṣdar 'protection / protecting (of)', not a verb 'protects'; the dialogue seg (d78l14) glosses it correctly as 'protecting, protection (of)'. The objective is exactly where the lesson introduces verbal nouns, so the gloss teaches the wrong word class.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "حِمَايَةُ=protecting, protection (of) (verbal noun)"
+    },
+    {
+      "file": "content/days/day76.json",
+      "path": "quiz[6].options[0]",
+      "current": "Raʾī",
+      "problem": "Known engine quirk: a final ي with no vowel mark is rendered as long ī, so رَأْي (raʾy) appears as 'Raʾī'. The Arabic is correct.",
+      "category": "engine",
+      "severity": "minor",
+      "fix": "raʾy"
+    },
+    {
+      "file": "content/days/day71.json",
+      "path": "sentences[0].mistakes[0].why; content/days/day78.json sentences[2].mistakes[0].why; content/days/day78.json sentences[5].mistakes[0].why; content/days/day80.json quiz[6].explain",
+      "current": "A / at",
+      "problem": "Known engine quirk: a bare ة quoted inside English prose is transliterated as 'A / at' ('the adjective has no A / at', 'it ends in a / at', 'After A / at the -an ending…').",
+      "category": "engine",
+      "severity": "minor",
+      "fix": "leave the letter ة untransliterated in English prose (or 'tāʾ marbūṭa')"
+    },
+    {
+      "file": "content/days/day72.json",
+      "path": "reading.ar; content/days/day74.json reading.ar; content/days/day74.json dialogue.lines[2].ar; content/days/day73.json dialogue.lines[8].ar; content/days/day77.json dialogue.lines[7].ar; content/days/day79.json dialogue.lines[13].ar; content/days/day79.json reading.ar",
+      "current": "Walaylā Wasāmī",
+      "problem": "Known engine quirk: a name after the clitics وَ / لِ is capitalised as one word ('Walaylā Wasāmī', 'Linajīb Maḥfūẓ', 'Likhālid', 'Liʿumar'). Should be 'wa-Laylā wa-Sāmī', 'li-Najīb', 'li-Khālid', 'li-ʿUmar'.",
+      "category": "engine",
+      "severity": "minor",
+      "fix": "wa-Laylā wa-Sāmī / li-Najīb / li-Khālid / li-ʿUmar"
+    }
+  ],
+  "notes": [
+    {
+      "file": "content/days/day77.json",
+      "path": "dialogue.lines[6].ar",
+      "note": "بَلْ تَعْنِي: كُلُّ شَخْص — as the object of تَعْنِي the phrase would be accusative كُلَّ شَخْصٍ (compare d77l11 'الضِّيقُ يَعْنِي الْوَقْتَ الصَّعْب', which uses the accusative). The colon makes a quoted-gloss reading possible, so not counted as an error; consider كُلَّ شَخْص for consistency."
+    },
+    {
+      "file": "content/days/day78.json",
+      "path": "sentences[3].ar; summary; intro; objectives[1]",
+      "note": "لَازِم أَنْ is colloquial/semi-formal rather than fuṣḥā; MSA writing uses يَجِبُ أَنْ or مِنَ اللَّازِمِ أَنْ. Acceptable in dialogue, but presenting it as a parallel MSA structure in the objectives is a register choice the owner may want to flag."
+    },
+    {
+      "file": "content/days/day75.json",
+      "path": "sentences[3].ar; dialogue.lines[8].ar; reading.ar",
+      "note": "سَأَلَنِي … هَلْ … is understood but formal MSA more often reports a yes/no question with إِنْ كُنْتُ / إِذَا كُنْتُ or عَمَّا إِذَا. Register note only."
+    },
+    {
+      "file": "content/days/day80.json",
+      "path": "sentences[2].ar",
+      "note": "إِنْ دَرَسْتَ كُلَّ يَوْمٍ، نَجَحْتَ … is correct classical past-past conditional, but the apodosis in the past sounds archaic for a beginner; modern MSA would say فَسَتَنْجَحُ (as the course itself does with فَسَنَزُورُ). Style only."
+    },
+    {
+      "file": "content/days/day71.json",
+      "path": "sentences[1].segs; dialogue.lines[1].segs",
+      "note": "بِخَيْر is tagged 'adj'; it is a preposition + noun (bi + khayr). Harmless for the learner but inconsistent with the pos labels elsewhere."
+    },
+    {
+      "file": "content/days/day73.json",
+      "path": "sentences[3].mistakes[0].wrong",
+      "note": "Tap gloss 'أَعْلَنَ=announces (past)' is self-contradictory; '(he) announced' would be clearer."
+    },
+    {
+      "file": "content/days/day79.json",
+      "path": "sentences[1].grammar",
+      "note": "Grammar tag 'numbers-11-100' on خَمْسَ سَاعَاتٍ (a 3–10 number). Tag only, not learner-visible content."
+    },
+    {
+      "file": "content/days/day79.json",
+      "path": "intro",
+      "note": "Intro says خَاصّ means 'private' but the tap gloss shows 'special'; both are valid senses, and the dialogue (مَعْلُومَاتِنَا الْخَاصَّة) uses 'private'. Consider 'private; special' in the tap."
+    },
+    {
+      "file": "content/days/day79.json",
+      "path": "dialogue.lines[13].ar",
+      "note": "حَتَّى أَبُوكُمَا after لِأَيِّ شَخْصٍ: nominative is defensible (ḥattā ibtidāʾiyya, 'even your father [is included]'); the coordinating reading would give أَبِيكُمَا. Not an error."
+    },
+    {
+      "file": "content/days/day71.json",
+      "path": "quiz[6].options[0]",
+      "note": "صَلَاة rendered 'Ṣalāh' (ة in pause as -h) while elsewhere ة is '-a' (ʿīdiyya, ḥafla). Transliteration consistency only."
+    }
+  ],
+  "summary": "Read the whole export for days 71–80 (2,829 lines): every Arabic string with its harakat and case endings, agreement, verb forms and moods after أَنْ/لَنْ/لَمْ, the English and literal translations, every seg and tap gloss, all quiz answer keys and all mistakes right/wrong pairs, and the transliteration against the Arabic. The Arabic itself is in very good shape: the case work the week teaches (إِنَّ/أَنَّ/لٰكِنَّ + accusative, kāna + -an, lām of the apodosis after لَوْ, fa- before sa-, numbers 3–10 with gender reversal, duals, the relative pronouns) is consistently correct, and every answer key checked out. I found one genuine case slip (الْيَوْمَ الْخَمِيس for 'today is Thursday'). The real problems are in the engine and the tap-gloss layer: the relative pronoun is transliterated 'Illadhī' in every isolated position in day 74 (major, repeated ~15 times), the article before a hamzat-waṣl word (الِاجْتِمَاعِيّ) and the وَبِالْ stack produce garbage transliterations, and several tap glosses are context-blind (إِنَّ 'that (after say)' shown where the lesson teaches 'indeed', إِنَّهَا 'indeed it' shown where it means 'that she', تُحِبُّ 'you like' for 'she loves', تُعْطِي labelled 'to a woman', عُطْلَةً '(after was)', حِمَايَةُ 'protects'). Totals: 13 errors (4 major: 3 engine, 1 gloss; 9 minor: 1 arabic, 5 gloss, 3 engine), 10 notes."
+}

@@ -1,0 +1,189 @@
+{
+  "chunk": "culture",
+  "reviewer": "A",
+  "errors": [
+    {
+      "file": "content/culture/ramadan.json",
+      "path": "sections[2].body[2] (tap); sections[3].sentences[2].mistakes[0].why (tap); quiz[3].prompt (tap)",
+      "current": "كَرِيم=Karim (first name)",
+      "problem": "In رَمَضَان كَرِيم the word is the adjective 'generous' (the prose itself translates it 'Ramadan is generous'), but the tap gloss gives the homograph first name Karim. The segs of sentence rams9 have it right ('generous').",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "tap gloss for كَرِيم in these three places → 'generous' (or 'generous; also the first name Karim')",
+      "alsoChange": "nothing else; words[6].segs already says 'generous'"
+    },
+    {
+      "file": "content/culture/family.json",
+      "path": "sections[0].body[1] (tap)",
+      "current": "يَد=hand ('hand luggage')",
+      "problem": "The body text is about placing a hand on the heart; the tap gloss carries the sense of another lesson ('hand luggage').",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "يَد = hand"
+    },
+    {
+      "file": "content/culture/desert.json",
+      "path": "sections[0].body[1] (tap)",
+      "current": "وَادِي=Wadi (valley): part of 'Wadi Musa', a town near Petra",
+      "problem": "The text is about Wadi Rum in Jordan; the tap gloss belongs to the Wadi Musa sentence of another lesson and will confuse a learner reading about Wadi Rum.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "وَادِي = valley, wadi (of)"
+    },
+    {
+      "file": "content/culture/places.json; content/culture/desert.json; content/culture/family.json",
+      "path": "places sections[2].sentences[0].mistakes[0].wrong/right (tap أَقْدَمُ); places quiz[3].options[2] and quiz[3].explain (tap أَقْدَمُ); places sections[0].sentences[3].mistakes[0].wrong/right (tap أَكْبَرُ); desert quiz[5].explain (tap أَكْثَرُ); family readingQuestions[0].explain (tap الْأَكْبَر)",
+      "current": "أَقْدَمُ=the oldest (before a noun) · أَكْبَرُ=bigger · أَكْثَرُ=more · الْأَكْبَر=the biggest",
+      "problem": "Elative tap glosses are fixed to one sense regardless of the construction: أَقْدَمُ مِنْ ('older than') is tapped as 'the oldest (before a noun)' in the very quiz that teaches the comparative; أَكْبَرُ مَدِينَة ('the biggest city') is tapped as 'bigger'; أَكْثَرُ الْبَدْوِ ('most of the Bedouin') as 'more'; اِبْنُهُ الْأَكْبَر ('his eldest son') as 'the biggest'. The segs of the same sentences are right; only the taps are wrong.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "tap glosses: أَقْدَمُ → 'older; the oldest', أَكْبَرُ → 'bigger; the biggest', أَكْثَرُ → 'more; most (of)', الْأَكْبَر → 'the biggest, the eldest'"
+    },
+    {
+      "file": "content/culture/ramadan.json",
+      "path": "words[2].note (tap)",
+      "current": "يَصُومُ=(they) fast (verb first: singular)",
+      "problem": "The note says 'The verb is يَصُومُ (he fasts)', but the tap gives the contextual gloss written for sentence rams4 ('(they) fast (verb first: singular)'), which is wrong for a bare dictionary form.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "tap gloss for يَصُومُ → '(he) fasts' (keep the verb-first explanation inside sentence rams4 only)"
+    },
+    {
+      "file": "content/culture/coffee.json; content/culture/food.json; content/culture/souq.json",
+      "path": "coffee sections[0].body[0] (tap); coffee sections[3].body[1] (tap); food sections[3].body[2] (tap); food readingQuestions[1].explain (tap); souq sections[3].body[0] (tap); souq quiz[0].options[3] (tap)",
+      "current": "تَفَضَّلْ=here you are (to a man)",
+      "problem": "In every one of these places تَفَضَّلْ means 'please, come in / go ahead / help yourself' (the prose says so), but the tap shows only the 'here you are' sense from another lesson. The segs and words entries have the right range of meanings.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "tap gloss for تَفَضَّلْ → 'please, go ahead; come in; here you are (to a man)'"
+    },
+    {
+      "file": "content/culture/desert.json",
+      "path": "readingQuestions[1].explain (tap)",
+      "current": "بَارِدًا=cold (object)",
+      "problem": "In اللَّيْلَ كَانَ بَارِدًا the accusative is the predicate of كَانَ, not an object; labelling it '(object)' teaches the wrong reason for the -an ending.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "بَارِدًا = cold (predicate after kāna)"
+    },
+    {
+      "file": "content/culture/family.json",
+      "path": "sections[3].body[1]; sections[3].sentences[2].ar; sections[3].sentences[2].segs; sections[3].sentences[2].literal (tap)",
+      "current": "الْمَصْرِيّ",
+      "problem": "The nisba of مِصْر in MSA is مِصْرِيّ (miṣrī), as the chapter's own quiz[5] writes it ('al-Miṣrī'); the Arabic is vocalised with fatḥa (al-Maṣrī, the colloquial pronunciation), so the learner sees miṣrī and maṣrī for the same surname in one chapter.",
+      "category": "arabic",
+      "severity": "minor",
+      "fix": "الْمِصْرِيّ (or, if the owner prefers the Egyptian pronunciation of the surname, change quiz[5].options and quiz[5].explain to 'al-Maṣrī' so the two agree)",
+      "alsoChange": "transliteration and the tap gloss 'al-Masri' follow automatically"
+    },
+    {
+      "file": "content/culture/coffee.json; content/culture/food.json",
+      "path": "coffee sections[3].titleAr; coffee sections[3].photo.caption; coffee sections[3].body[0]; coffee words[12].ar; food reading.ar",
+      "current": "wa-sh-shāī",
+      "problem": "Engine: شَاي without a written sukūn on the yāʾ is transliterated 'shāī' (At-tamru wa-sh-shāī, Shāī bi-n-naʿnāʿ, sharibnā sh-shāī); the Arabic is correct and the form with a sukūn (souq sections[3].body[0] شَايْ) comes out right as 'shāy'.",
+      "category": "engine",
+      "severity": "minor",
+      "fix": "transliteration of final -َاي → 'shāy'"
+    },
+    {
+      "file": "content/culture/coffee.json; content/culture/desert.json",
+      "path": "coffee reading.ar; coffee readingQuestions[1].explain; desert titleAr; desert sections[3].body[2]; desert words[11].ar",
+      "current": "tamrun ḥulū",
+      "problem": "Engine: a final wāw with sukūn after a short vowel is rendered as a long ū instead of a consonant: حُلْو → 'ḥulū' (should be ḥulw), الْبَدْو → 'l-badū' / 'Badū' (should be l-badw / badw). The Arabic is right.",
+      "category": "engine",
+      "severity": "minor",
+      "fix": "transliterate -ْو after a short vowel as 'w' (ḥulw, badw)"
+    },
+    {
+      "file": "content/culture/coffee.json",
+      "path": "reading.ar",
+      "current": "yaṣubbu Khālidun al-qahwata",
+      "problem": "Engine: after a word ending in tanwīn the waṣla of the following al- is not elided ('Khālidun al-qahwata' should be 'Khālidun l-qahwata' / 'Khālidu l-qahwata'); elsewhere the engine elides correctly after vowels.",
+      "category": "engine",
+      "severity": "minor",
+      "fix": "treat -un/-in/-an like any other final vowel for waṣla elision"
+    },
+    {
+      "file": "content/culture/calligraphy.json; content/culture/family.json",
+      "path": "calligraphy sections[0].sentences[2].ar; calligraphy sections[1].body[1]; calligraphy words[9].ar; calligraphy words[12].ar; family words[11].ar; family quiz[5].explain",
+      "current": "Wabākistāna",
+      "problem": "Engine (known): names after the clitic وَ are capitalised as one word ('Wabākistāna'), and the sun-letter article before a capitalised name is itself capitalised ('Ath-Thuluth', 'Ar-Ruqʿa', 'An-Najjār') while the same words elsewhere get 'ath-thuluth'-style lower case. Arabic correct.",
+      "category": "engine",
+      "severity": "minor",
+      "fix": "wa-Bākistāna; ath-Thuluth, ar-Ruqʿa, an-Najjār"
+    }
+  ],
+  "notes": [
+    {
+      "file": "content/culture/family.json",
+      "path": "sections[3].sentences[3].ar",
+      "note": "صَبَاحُ الْخَيْر يَا أُسْتَاذ سَامِي: as a vocative in iḍāfa the title would take -a (يَا أُسْتَاذَ سَامِي); the course leaves the vowel off mid-sentence. Owner's call whether to vocalise it."
+    },
+    {
+      "file": "content/culture/souq.json",
+      "path": "sections[0].sentences[1].ar",
+      "note": "سُوقٌ قَدِيمٌ treats سُوق as masculine; in MSA the word is more often feminine (سُوقٌ قَدِيمَةٌ), though both genders are attested. The chapter title أَسْوَاق قَدِيمَة is fine either way."
+    },
+    {
+      "file": "content/culture/science.json",
+      "path": "sections[1].body[0]; sections[1].sentences[0].ar; sections[1].sentences[1].ar; reading.ar",
+      "note": "الْخُوَارِزْمِيُّ is vocalised khuwārizmī (consistent throughout) while the English prose writes al-Khwārizmī; Arabic sources also vocalise الخَوارزمي (khawārizmī). Name spelling, consistent, so not counted."
+    },
+    {
+      "file": "content/culture/science.json",
+      "path": "sections[1].sentences[1].ar",
+      "note": "اسْمُ is written without the kasra on the hamzat waṣl here but اِسْمُ everywhere else; no effect on sound or transliteration."
+    },
+    {
+      "file": "content/culture/ramadan.json",
+      "path": "sections[3].body[2]; quiz[4].explain",
+      "note": "'the month of الْحَجّ': the month is ذُو الْحِجَّة (Dhū l-Ḥijja); 'the month of the Hajj' is a paraphrase, not the month's name. Clearer: 'the tenth day of Dhū l-Ḥijja, the month of the pilgrimage'."
+    },
+    {
+      "file": "content/culture/ramadan.json",
+      "path": "hero.caption",
+      "note": "'decorated for رَمَضَان, 2004' — the year reads oddly in a caption; check the photo date is wanted."
+    },
+    {
+      "file": "content/culture/places.json",
+      "path": "hero.caption",
+      "note": "Caption identifies the pyramids by position (Menkaure's nearest, then Khafre's and Khufu's); only true for a photo taken from the south-west. Check against the actual image."
+    },
+    {
+      "file": "content/culture/food.json",
+      "path": "sections[3].body[1] (tap); words[9].segs",
+      "note": "مَرِيئًا is glossed 'and may it be wholesome'; the 'and' is not in the word (the phrase هَنِيئًا مَرِيئًا has no conjunction). Harmless."
+    },
+    {
+      "file": "content/culture/food.json",
+      "path": "sections[0].sentences[1].ar",
+      "note": "Transliteration 'l-ḥayāh' for الْحَيَاة follows ALA-LC (ā + tāʾ marbūṭa → āh); fine, just unlike the '-a' the learner sees elsewhere."
+    },
+    {
+      "file": "content/culture/coffee.json",
+      "path": "sections[2].sentences[2].ar",
+      "note": "أَشْرَبُ فِنْجَانَيْنِ أَوْ ثَلَاثَة is elliptical (full form ثَلَاثَةَ فَنَاجِين); natural in speech, acceptable."
+    },
+    {
+      "file": "content/culture/calligraphy.json",
+      "path": "sections[3].body[1]",
+      "note": "Culture: Libya also uses the Western digits alongside Morocco, Algeria and Tunisia; the sentence is not wrong, just incomplete."
+    },
+    {
+      "file": "content/culture/desert.json",
+      "path": "sections[0].body[1]",
+      "note": "Culture: Wadi Rum was listed by UNESCO in 2011 as a mixed natural/cultural site; the text's claim is correct but a year could be added like the other sites."
+    },
+    {
+      "file": "content/culture/calligraphy.json",
+      "path": "sections[3].body[1] (⟶ line)",
+      "note": "The transliteration line converts the Arabic-Indic digits ٠ ١ ٢ ٣ into 0 1 2 3, so the example '٢٨ is 28' reads '28 is 28' in the ⟶ view. Engine display quirk, no learning effect."
+    },
+    {
+      "file": "content/culture/family.json",
+      "path": "readingQuestions and quiz (all chapters)",
+      "note": "All quiz and reading-question answer keys in the nine chapters were checked and are correct; all mistakes[].wrong/right pairs and their 'why' explanations are correct."
+    }
+  ],
+  "summary": "Checked all nine Explore chapters (calligraphy, coffee, desert, family, food, places, ramadan, science, souq): every Arabic title, body-text word, sentence, mistake pair, word entry, reading and quiz, with their harakat, case endings (diptotes إِيرَانَ / إِسْحَاقَ / مَلَابِسَ / دِمَشْقَ, accusative after كَانَ and لٰكِنَّ, number–noun gender in بِعَشَرَةِ رِيَالَاتٍ), agreement, verb forms, translations, literals, segs, tap glosses, answer keys and the generated transliteration. The Arabic itself is clean: I found no major error and no sentence a learner would copy wrongly. The 12 findings are all minor: 7 tap-gloss mismatches where a word shows the sense written for another sentence (كَرِيم as 'Karim (first name)' in رَمَضَان كَرِيم, يَد 'hand luggage', وَادِي 'Wadi Musa', elatives أَقْدَمُ/أَكْبَرُ/أَكْثَرُ fixed to one of their two senses, يَصُومُ, تَفَضَّلْ, بَارِدًا '(object)'), one vocalisation inconsistency (الْمَصْرِيّ vs the quiz's al-Miṣrī), and 4 engine transliteration quirks reported once each (shāī, final -w as ū, no waṣla elision after tanwīn, capitalisation of names after وَ and al-). All quiz and reading answer keys are correct. 14 notes for the owner cover a vocative vowel, the gender of سُوق, the Khwārizmī vowel, a few culture/caption details and harmless display quirks."
+}

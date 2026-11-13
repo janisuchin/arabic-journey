@@ -1,0 +1,399 @@
+{
+  "chunk": "glossary-hand",
+  "reviewer": "A",
+  "errors": [
+    {
+      "file": "content/glossary/hand.json",
+      "path": "أَحَد",
+      "current": "أَحَد = Sunday without 'the' (wrong — correct: al-aḥad)",
+      "problem": "sentence-specific 'wrong' note on a common word: أَحَد means 'one; someone, anyone' (لَا أَحَد, أَحَدُهُمْ) and this glossary overrides every tap of it app-wide",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "أَحَد = one; someone, anyone (al-aḥad: Sunday)",
+      "alsoChange": "keep the 'wrong — correct: al-aḥad' explanation in the mistake exercise's own seg"
+    },
+    {
+      "file": "content/glossary/hand.json",
+      "path": "جُمُعَة",
+      "current": "جُمُعَة = Friday without 'the' (wrong — correct: al-jumuʿa)",
+      "problem": "same pattern: a 'wrong' note as the only dictionary gloss of a real word (جُمُعَة = Friday; يَوْمُ جُمُعَةٍ, كُلَّ جُمُعَةٍ are correct)",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "جُمُعَة = Friday (the day is usually al-jumuʿa, with 'the')"
+    },
+    {
+      "file": "content/glossary/hand.json",
+      "path": "ـُوا",
+      "current": "ـُوا = you all (ending of an order to a group: -ū)",
+      "problem": "ـُوا is also the past-tense 'they' ending (ذَهَبُوا, زَرَعُوا, نَجَحُوا); every tap on such a verb ending would teach 'you all (order)'",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "ـُوا = -ū (ending: they, in the past tense; you all, in an order to a group)"
+    },
+    {
+      "file": "content/glossary/hand.json",
+      "path": "تُعْطِي",
+      "current": "تُعْطِي = you give (to a woman); she gives",
+      "problem": "تُعْطِي in the indicative is 'you give (to a man)' or 'she gives'; 'you give (to a woman)' is تُعْطِينَ (تُعْطِي for a woman only after أَنْ/لَمْ). Compare the correct pattern used for تُقَابِلُ and تَرُدُّ",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "تُعْطِي = you give (to a man); she gives"
+    },
+    {
+      "file": "content/glossary/hand.json",
+      "path": "تُسَاعِدَ",
+      "current": "تُسَاعِدَ = you help (after an)",
+      "problem": "the form is also 'she helps' (after an); person not stated as in the other entries (to a man)",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "تُسَاعِدَ = you help (to a man); she helps (form after an)"
+    },
+    {
+      "file": "content/glossary/hand.json",
+      "path": "سَمَحْتُمْ",
+      "current": "سَمَحْتُمْ = you allow (to several people)",
+      "problem": "سَمَحْتُمْ is past tense ('you allowed'); the present reading only fits the idiom لَوْ سَمَحْتُمْ",
+      "category": "translation",
+      "severity": "minor",
+      "fix": "سَمَحْتُمْ = you allowed (to several people; law samaḥtum = if you please)"
+    },
+    {
+      "file": "content/glossary/hand.json",
+      "path": "ـُ",
+      "current": "ـُ = -u (the vowel ending of the first word in a chain)",
+      "problem": "ḍamma is the nominative ending in general (subject, predicate, first word of an iḍāfa); the gloss teaches it as an iḍāfa marker only, while the ـَ and ـِ entries give the general case rule",
+      "category": "grammar-fact",
+      "severity": "minor",
+      "fix": "ـُ = -u (case ending: the subject, and the first word of a chain)"
+    },
+    {
+      "file": "content/glossary/hand.json",
+      "path": "تَأْمِين",
+      "current": "تَأْمِين = deposit",
+      "problem": "the primary meaning of تَأْمِين is 'insurance'; 'deposit' is the hotel/rental sense only, yet the entry overrides every occurrence",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "تَأْمِين = insurance; (security) deposit"
+    },
+    {
+      "file": "content/glossary/hand.json",
+      "path": "يَزُورُونَ",
+      "current": "يَزُورُونَ = they visit (wrong before a plural subject — correct: yazūru)",
+      "problem": "valid form (هُمْ يَزُورُونَ = they visit) glossed as wrong app-wide; the word-order rule belongs to one exercise",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "يَزُورُونَ = they visit"
+    },
+    {
+      "file": "content/glossary/hand.json",
+      "path": "زَرَعُوا",
+      "current": "زَرَعُوا = they sowed (wrong after man — correct: zaraʿa)",
+      "problem": "valid form 'they sowed' glossed as wrong app-wide (and مَنْ زَرَعُوا is itself acceptable when مَن refers to a group)",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "زَرَعُوا = they sowed, they planted"
+    },
+    {
+      "file": "content/glossary/hand.json",
+      "path": "حَصَدُوا",
+      "current": "حَصَدُوا = they reaped (wrong after man — correct: ḥaṣada)",
+      "problem": "valid form 'they reaped' glossed as wrong app-wide",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "حَصَدُوا = they reaped, they harvested"
+    },
+    {
+      "file": "content/glossary/hand.json",
+      "path": "نَجَحُوا",
+      "current": "نَجَحُوا = they passed (wrong here: a verb before its subject stays singular)",
+      "problem": "valid form (الطُّلَّابُ نَجَحُوا, هُمْ نَجَحُوا) glossed as wrong app-wide",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "نَجَحُوا = they passed, they succeeded"
+    },
+    {
+      "file": "content/glossary/hand.json",
+      "path": "أُعْلِنَ",
+      "current": "أُعْلِنَ = (it) was announced (m; wrong here: plurals of things take the feminine)",
+      "problem": "valid passive form (أُعْلِنَ الْخَبَرُ) glossed as wrong app-wide",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "أُعْلِنَ = (it) was announced (m)"
+    },
+    {
+      "file": "content/glossary/hand.json",
+      "path": "بَنَتِ",
+      "current": "بَنَتِ = she built (wrong here — correct: buniyat)",
+      "problem": "بَنَتِ is simply بَنَتْ with the linking kasra before a following word (بَنَتِ الْمَرْأَةُ): a valid active form, glossed as wrong app-wide; the passive is only required in one sentence",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "بَنَتِ = she built (-i links to the next word)"
+    },
+    {
+      "file": "content/glossary/hand.json",
+      "path": "أَجِدُهَا",
+      "current": "أَجِدُهَا = I find it (wrong after lam — correct: ajidhā)",
+      "problem": "valid indicative form glossed as wrong app-wide",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "أَجِدُهَا = I find it (f), I find her"
+    },
+    {
+      "file": "content/glossary/hand.json",
+      "path": "أَجْلِسُ",
+      "current": "أَجْلِسُ = I sit (wrong after an — correct: ajlisa)",
+      "problem": "valid indicative form glossed as wrong app-wide",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "أَجْلِسُ = I sit"
+    },
+    {
+      "file": "content/glossary/hand.json",
+      "path": "تُوقِظُنَا",
+      "current": "تُوقِظُنَا = you wake us (wrong after an — correct: tūqiẓanā)",
+      "problem": "valid indicative form glossed as wrong app-wide",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "تُوقِظُنَا = you wake us (to a man); she wakes us"
+    },
+    {
+      "file": "content/glossary/hand.json",
+      "path": "أُسَجِّلُ",
+      "current": "أُسَجِّلُ = I enrol, register (indicative; wrong after an)",
+      "problem": "valid indicative form glossed as wrong app-wide",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "أُسَجِّلُ = I enrol, I register"
+    },
+    {
+      "file": "content/glossary/hand.json",
+      "path": "الْأَخْبَارِ",
+      "current": "الْأَخْبَارِ = the news (wrong ending after inna — correct: al-akhbāra)",
+      "problem": "genitive الْأَخْبَارِ is the normal form after any preposition (فِي الْأَخْبَارِ) and as second word of a chain; glossed as wrong app-wide",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "الْأَخْبَارِ = the news (-i: after a preposition or in a chain)"
+    },
+    {
+      "file": "content/glossary/hand.json",
+      "path": "الضَّجِيجُ",
+      "current": "الضَّجِيجُ = the noise (wrong after a preposition — correct: aḍ-ḍajīji)",
+      "problem": "valid nominative form glossed as wrong app-wide",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "الضَّجِيجُ = the noise"
+    },
+    {
+      "file": "content/glossary/hand.json",
+      "path": "الطَّرِيقُ",
+      "current": "الطَّرِيقُ = the road, the way (wrong after anna — correct: aṭ-ṭarīqa)",
+      "problem": "valid nominative form glossed as wrong app-wide",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "الطَّرِيقُ = the road, the way"
+    },
+    {
+      "file": "content/glossary/hand.json",
+      "path": "الْمِفْتَاحُ",
+      "current": "الْمِفْتَاحُ = the key (wrong in an iḍāfa — correct: miftāḥu)",
+      "problem": "valid nominative form glossed as wrong app-wide",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "الْمِفْتَاحُ = the key"
+    },
+    {
+      "file": "content/glossary/hand.json",
+      "path": "الْأَشْهَرُ",
+      "current": "الْأَشْهَرُ = the most famous (wrong before a noun — correct: ashharu)",
+      "problem": "valid form (هُوَ الْأَشْهَرُ = he is the most famous) glossed as wrong app-wide",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "الْأَشْهَرُ = the most famous"
+    },
+    {
+      "file": "content/glossary/hand.json",
+      "path": "إِنْتَرْنِت",
+      "current": "إِنْتَرْنِت = internet (without 'the': wrong here — correct: al-intarnita)",
+      "problem": "a plain noun glossed as wrong app-wide; the article is only required in one sentence",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "إِنْتَرْنِت = internet"
+    },
+    {
+      "file": "content/glossary/hand.json",
+      "path": "الْفَائِقِ",
+      "current": "الْفَائِقِ = the utmost (wrong in an iḍāfa — correct: fāʾiqi)",
+      "problem": "valid form glossed as wrong app-wide (sentence-specific iḍāfa note)",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "الْفَائِقِ = the utmost, the superior"
+    },
+    {
+      "file": "content/glossary/hand.json",
+      "path": "طَبَقَانِ",
+      "current": "طَبَقَانِ = two dishes (wrong after a verb — correct: ṭabaqayni)",
+      "problem": "valid nominative dual glossed as wrong app-wide; the entry بَلَدَانِ shows the right pattern",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "طَبَقَانِ = two dishes (subject form)"
+    },
+    {
+      "file": "content/glossary/hand.json",
+      "path": "تَذْكِرَتَانِ",
+      "current": "تَذْكِرَتَانِ = two tickets (wrong after a verb — correct: tadhkiratayni)",
+      "problem": "valid nominative dual glossed as wrong app-wide",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "تَذْكِرَتَانِ = two tickets (subject form)"
+    },
+    {
+      "file": "content/glossary/hand.json",
+      "path": "جَوَازِي",
+      "current": "جَوَازِي = my permit (wrong here — correct: jawāzu safarī)",
+      "problem": "جَوَازِي ('my passport', short for jawāz safar) is normal everyday MSA; marking it wrong app-wide teaches a non-rule",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "جَوَازِي = my passport (short for jawāzu safarī), my permit"
+    },
+    {
+      "file": "content/glossary/hand.json",
+      "path": "بَارِدُونَ",
+      "current": "بَارِدُونَ = cold (plural for people; wrong here — correct: bārida)",
+      "problem": "'wrong here' is sentence-specific in a glossary that applies everywhere",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "بَارِدُونَ = cold (plural, for people; things take bārida)"
+    },
+    {
+      "file": "content/glossary/hand.json",
+      "path": "غَائِمَاتٌ",
+      "current": "غَائِمَاتٌ = cloudy (f pl; wrong here)",
+      "problem": "'wrong here' is sentence-specific in a glossary that applies everywhere",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "غَائِمَاتٌ = cloudy (f pl, for people; weather takes ghāʾim / ghāʾima)"
+    },
+    {
+      "file": "content/glossary/hand.json",
+      "path": "غَائِمِينَ",
+      "current": "غَائِمِينَ = cloudy (m pl; wrong here)",
+      "problem": "'wrong here' is sentence-specific in a glossary that applies everywhere",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "غَائِمِينَ = cloudy (m pl, for people; weather takes ghāʾim / ghāʾima)"
+    },
+    {
+      "file": "content/glossary/hand.json",
+      "path": "مِنِ",
+      "current": "مِنِ = from (wrong vowel)",
+      "problem": "مِنِ with kasra is the correct linking form before hamzat al-waṣl other than ال (مِنِ ابْنِهِ); only مِنُ is never right",
+      "category": "grammar-fact",
+      "severity": "minor",
+      "fix": "مِنِ = from (-i links to a following word starting with hamzat al-waṣl, e.g. mini bnihi; before al- it is mina)"
+    },
+    {
+      "file": "content/glossary/hand.json",
+      "path": "أَخَمِّنُ",
+      "current": "أَخَمِّنُ = (wrong — correct: ukhammin, I guess)",
+      "problem": "the correct form given is truncated: Form II 1st person indicative is ukhamminu (أُخَمِّنُ)",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "أَخَمِّنُ = (wrong — correct: ukhamminu, I guess)"
+    },
+    {
+      "file": "content/glossary/hand.json",
+      "path": "الِاسْتِفْهَام; الِاسْمِيَّة; الِاسْتِعْلَامَات",
+      "current": "الِاسْتِفْهَام ⟶ Iliāstifhām",
+      "problem": "engine: a word-initial hamzat al-waṣl written with kasra under the alif after the article (الِا…) is transliterated as 'Iliā…' (also 'Iliāsmiyya', 'Iliāstiʿlāmāt'); the Arabic is correct",
+      "category": "engine",
+      "severity": "major",
+      "fix": "Al-istifhām; Al-ismiyya; Al-istiʿlāmāt"
+    },
+    {
+      "file": "content/glossary/hand.json",
+      "path": "النَّفْي",
+      "current": "النَّفْي ⟶ An-nafī",
+      "problem": "engine: final ـْي after a sukūn consonant is a consonant y, not ī (ALA-LC nafy); the Arabic is correct",
+      "category": "engine",
+      "severity": "minor",
+      "fix": "An-nafy"
+    },
+    {
+      "file": "content/glossary/hand.json",
+      "path": "أَسْهَلُ",
+      "current": "أَسْهَلُ ⟶ Ashalu",
+      "problem": "engine: س followed by هـ is rendered 'sh', which the learner reads as ش; the Arabic is correct",
+      "category": "engine",
+      "severity": "minor",
+      "fix": "As-halu (or Asʹhalu: separate the s and the h)"
+    }
+  ],
+  "notes": [
+    {
+      "file": "content/glossary/hand.json",
+      "path": "أ; ؤ; ئ; ّ; ً; ٌ; ٍ; ْ",
+      "note": "single-diacritic / single-letter keys show an empty transliteration after ⟶; harmless, but the glossary card could hide the arrow for these"
+    },
+    {
+      "file": "content/glossary/hand.json",
+      "path": "أنت; رأينا; مطبخ",
+      "note": "unvocalised keys produce transliterations 'Nt', 'Rʾīnā', 'Mṭbkh'; the glosses explain the situation, but the transliteration line should be suppressed for unvocalised keys"
+    },
+    {
+      "file": "content/glossary/hand.json",
+      "path": "غُرْفَةُهُ; غُرْفَةِي; الْخَالَتِي; طَالِبَةَانِ; زَارْنَا; زَارْتُمُ; نَزُورْهَا; لِأَدْعُو; لِلطَّبَّاخُونَ; لِلَيْلَتَانِ; أَفْضَلَة; أَهَمَّة; أُمْكِنُ; أَتَّصِلُكَ; مُسَوَّدَه; إِلِي; تَبْدَا; بِقَبْلِ; مِنُ",
+      "note": "these '(wrong — correct: …)' entries are acceptable because the forms are non-words that can only occur as deliberate mistakes; still, mistake glosses would be safer in the exercise's own segs than in a global override glossary"
+    },
+    {
+      "file": "content/glossary/hand.json",
+      "path": "لِلطَّبَّاخُونَ",
+      "note": "the correction 'lil-ṭabbākhīna' does not follow the house sun-letter style (li-ṭ-ṭabbākhīna, as in the entry's own transliteration)"
+    },
+    {
+      "file": "content/glossary/hand.json",
+      "path": "سَعَدَ",
+      "note": "سَعَدَ/سَعِدَ does exist (was happy, was fortunate), but the 'wrong — correct: sāʿada' gloss is acceptable if the form only occurs in the mistake exercise"
+    },
+    {
+      "file": "content/glossary/hand.json",
+      "path": "ظُرُوف",
+      "note": "'adverbs' is the grammar sense only; the word also means 'circumstances' and 'envelopes' — fine if it only appears in grammar headings"
+    },
+    {
+      "file": "content/glossary/hand.json",
+      "path": "الْعَدَّاد",
+      "note": "'the taxi meter' is the dialogue sense; dictionary sense is 'the meter, the counter'"
+    },
+    {
+      "file": "content/glossary/hand.json",
+      "path": "لِلْمَسْجِدِ",
+      "note": "'the mosque has' is a sentence-level rendering; as a dictionary gloss 'to / for the mosque (li-l-masjidi … = the mosque has)' would read better"
+    },
+    {
+      "file": "content/glossary/hand.json",
+      "path": "بِأَنَّ",
+      "note": "'after ajāba' is narrower than the usage (also after أَخْبَرَ, شَعَرَ, اعْتَرَفَ …)"
+    },
+    {
+      "file": "content/glossary/hand.json",
+      "path": "مُذِيعَةُ; مُذِيعُ",
+      "note": "glossed 'presenter (f)' vs 'announcer (m)'; use one English word for both"
+    },
+    {
+      "file": "content/glossary/hand.json",
+      "path": "عَطْشَانَة; غَضْبَانَة",
+      "note": "the register note is correct (classical ʿaṭshā / ghaḍbā); modern MSA widely accepts the -āna forms, so no error"
+    },
+    {
+      "file": "content/glossary/hand.json",
+      "path": "شُبَاط … أَيْلُول; مُحَرَّم … الْحِجَّة",
+      "note": "all Levantine and Hijri month entries checked: names, order numbers and vocalisation are correct"
+    },
+    {
+      "file": "content/glossary/hand.json",
+      "path": "هٰؤُلَاءِ; جَمِيلُونَ; كَثِيرُونَ",
+      "note": "'for people only' is a sound beginner simplification (strictly: rational-being plurals)"
+    }
+  ],
+  "summary": "Checked all 409 hand-glossary entries as dictionary glosses that override every tap app-wide, plus each transliteration against its harakat. 36 errors: 23 major, 13 minor. The dominant pattern (24 findings) is a sentence-specific '(wrong here — correct: …)' note used as the only gloss of a form that is perfectly valid elsewhere (أَحَد 'one', يَزُورُونَ, نَجَحُوا, أُعْلِنَ, بَنَتِ, the indicatives أَجِدُهَا/أَجْلِسُ/تُوقِظُنَا/أُسَجِّلُ, the nominatives الضَّجِيجُ/الطَّرِيقُ/الْمِفْتَاحُ/الْأَشْهَرُ, the genitive الْأَخْبَارِ, the duals طَبَقَانِ/تَذْكِرَتَانِ, إِنْتَرْنِت); these should carry the plain meaning, with the exercise-specific correction moved to the exercise's own seg. Separate real gloss errors: ـُوا glossed only as the imperative 'you all' though it is also the past 'they' ending; تُعْطِي glossed 'you give (to a woman)' instead of 'to a man / she gives'; سَمَحْتُمْ glossed as present; ـُ glossed as an iḍāfa marker only; تَأْمِين missing 'insurance'. Engine: الِا… keys transliterate as 'Iliā…' (3 keys), نَفْي as nafī, أَسْهَلُ as 'Ashalu'. The non-word mistake entries (غُرْفَةُهُ, طَالِبَةَانِ, زَارْنَا …), the pronoun/case-ending series, the grammar terms and the month names are correct."
+}

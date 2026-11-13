@@ -1,0 +1,197 @@
+{
+  "chunk": "scenarios-1",
+  "reviewer": "B",
+  "errors": [
+    {
+      "file": "content/course/scenarios.json",
+      "path": "scenarios[11].mistakes[0].right (tap gloss of طَوِيلَةً)",
+      "current": "طَوِيلَةً=tall (f, after 'is not')",
+      "problem": "the tap gloss on the model answer كَانَتِ الرِّحْلَةُ طَوِيلَةً shows the sense of another sentence: the trip was 'long', not 'tall', and the -an ending here follows كَانَتْ, not 'is not'",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "طَوِيلَةً=long (f, after 'was')",
+      "alsoChange": "check the shared tap dictionary entry for طَوِيلَةً so the same text does not resurface elsewhere"
+    },
+    {
+      "file": "content/course/scenes.json",
+      "path": "scene directions caption (tap of الْإِشَارَة); scene directions spots[0].ar (tap); scene directions spots[0].note (tap)",
+      "current": "الْإِشَارَة=pointing",
+      "problem": "the photo spot is labelled 'the traffic light' in English and the dialogue glosses الْإِشَارَة as 'the traffic light', but tapping the spot label shows 'pointing' (the verbal-noun sense), which is wrong for this object",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "الْإِشَارَة=the traffic light (lit. the signal)"
+    },
+    {
+      "file": "content/course/scenes.json",
+      "path": "scene restaurant spots[6].note (tap of حَارّ and هُوَ)",
+      "current": "هُوَ=he · حَارّ=hot (weather)",
+      "problem": "the note asks about a chili pepper (هَلْ هُوَ حَارّ؟ 'Is it hot?'); the tap glosses give 'he' and 'hot (weather)', the sense of another lesson; here حَارّ means spicy/hot (food) and هُوَ means 'it'",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "هُوَ=he, it (m) · حَارّ=hot, spicy (food)"
+    },
+    {
+      "file": "content/course/scenes.json",
+      "path": "scene taxi spots[7].ar (tap); scene clothes-shop spots[12].ar (tap); scene pharmacy-visit spots[6].ar (tap)",
+      "current": "الرَّصِيف=the platform",
+      "problem": "the spot's English label is 'the pavement' (a street scene) but the tap gloss says 'the platform' (station sense); a beginner would learn the wrong meaning for the object shown",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "الرَّصِيف=the pavement, the sidewalk (also: the platform)"
+    },
+    {
+      "file": "content/course/scenes.json",
+      "path": "scene family-visit spots[5].ar (tap)",
+      "current": "السَّاعَة=the hour, o'clock",
+      "problem": "the spot is 'the clock' on the wall; the tap gloss gives only the time sense and never 'clock, watch'",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "السَّاعَة=the clock, the watch; the hour"
+    },
+    {
+      "file": "content/course/scenes.json",
+      "path": "scene holiday-story spots[1].ar (tap); scene lost-luggage spots[3].ar (tap); scene renting-flat spots[8].ar (tap)",
+      "current": "الْعَمُود=the pole",
+      "problem": "the English labels are 'the column' (Petra facade) and 'the pillar' (hall, flat) but the tap gloss says 'the pole' in all three; for a carved stone column 'pole' is a wrong meaning",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "الْعَمُود=the column, the pillar, the pole"
+    },
+    {
+      "file": "content/course/scenes.json; content/course/scenarios.json",
+      "path": "scene cafe caption (tap of مَقْهَى); scenarios[3].dialogue.speakers[0].nameAr (tap of مُوَظَّفَة)",
+      "current": "مَقْهَى=café (of); مُوَظَّفَة=employee (f) (of) ('receptionist')",
+      "problem": "both words stand alone (no construct), yet the tap gloss adds '(of)', which tells the learner they are the first half of an iḍāfa",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "مَقْهَى=café, coffeehouse; مُوَظَّفَة=employee (f) ('receptionist')"
+    },
+    {
+      "file": "content/course/scenarios.json",
+      "path": "scenarios[2].intro (tap of لَا); scenarios[2].mistakes[0..1] (tap); scenarios[2].quiz[2].ar (tap); scenarios[13].quiz[2].ar (tap of لَا in لَا تُعْطِهَا); scenarios[15].mistakes[1].wrong (tap)",
+      "current": "لَا=no",
+      "problem": "wherever لَا negates a verb (لَا آكُلُ 'I do not eat', لَا تُعْطِهَا 'don't give her') the tap gloss still says 'no'; the dialogue segs correctly say 'not' / 'don't', so the tap teaches the wrong function of the word in these sentences",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "لَا=no; not (before a verb); don't (before a command form)"
+    },
+    {
+      "file": "content/course/scenarios.json",
+      "path": "scenarios[1].dialogue.lines[3].en",
+      "current": "Fifty pounds. The road is very crowded today.",
+      "problem": "the Arabic الطَّرِيق مُزْدَحِم الْيَوْم has no جِدًّا; the English adds 'very', so the learner matches 'very' to nothing",
+      "category": "translation",
+      "severity": "minor",
+      "fix": "Fifty pounds. The road is crowded today."
+    },
+    {
+      "file": "content/course/scenarios.json",
+      "path": "scenarios[15].dialogue.lines[10].ar; scenarios[15].dialogue.lines[11].ar; scenarios[14].dialogue.lines[7].ar; scenarios[10].dialogue.lines[9].ar",
+      "current": "خُذْ قُبَّعَة وَمَاءً كَثِيرًا",
+      "problem": "the course teaches (cafe, appointment, restaurant mistakes) that a direct object takes -an, and marks it on مَاءً, فُسْتَانًا, مَوْعِدًا, دَوَاءً, but leaves it off tāʾ-marbūṭa objects in mid-sentence: قُبَّعَة وَمَاءً (one object marked, the other not, in the same line), سَأَشْتَرِي قُبَّعَة جَدِيدَة, أَشْتَرِيَ هَدِيَّة لِآدَم, وَجَدُوا حَقِيبَة زَرْقَاء; the inconsistency contradicts the rule the mistakes sections teach",
+      "category": "arabic",
+      "severity": "minor",
+      "fix": "خُذْ قُبَّعَةً وَمَاءً كَثِيرًا (and قُبَّعَةً جَدِيدَةً, هَدِيَّةً لِآدَم, حَقِيبَةً زَرْقَاءَ)",
+      "alsoChange": "transliteration follows; segs glosses can add '(object form)' as in فُسْتَانًا"
+    },
+    {
+      "file": "content/course/scenarios.json",
+      "path": "scenarios[3].mistakes[1].why; scenarios[13].mistakes[1].why",
+      "current": "sāʿa is feminine, so 'possible' takes A / at: mumkina.",
+      "problem": "engine quirk: a bare ة in English prose is transliterated as 'A / at' (also 'the number three has no A / at' in the pharmacy why)",
+      "category": "engine",
+      "severity": "minor",
+      "fix": "render a bare ة as 'ة (tāʾ marbūṭa)' or leave the letter untransliterated"
+    },
+    {
+      "file": "content/course/scenes.json",
+      "path": "scene appointment-time caption (الِانْتِظَار); scene appointment-time spots[12].ar (الِاسْتِقْبَال)",
+      "current": "Ghurfatu liāntiẓār; Iliāstiqbāl",
+      "problem": "engine quirk: words with kasra on the al- alif (الِانْتِظَار, الِاسْتِقْبَال) are transliterated 'liāntiẓār' / 'Iliāstiqbāl' instead of 'l-intiẓār' / 'al-istiqbāl'",
+      "category": "engine",
+      "severity": "minor",
+      "fix": "treat الِ + hamzat-waṣl verb-noun as al- + i: ghurfatu l-intiẓār, al-istiqbāl"
+    },
+    {
+      "file": "content/course/scenarios.json; content/course/scenes.json",
+      "path": "scenarios[0].dialogue.lines[2].ar; scenarios[0].dialogue.lines[6].ar; scene morning-routine spots[2].ar (and every other شَاي / الشَّاي)",
+      "current": "Shāī bi-n-naʿnāʿ aw shāī ʿādī?",
+      "problem": "engine quirk: شَاي / الشَّاي is rendered 'shāī' / 'ash-shāī' instead of 'shāy' / 'ash-shāy'",
+      "category": "engine",
+      "severity": "minor",
+      "fix": "final ي after ā → y: shāy, ash-shāy"
+    },
+    {
+      "file": "content/course/scenarios.json",
+      "path": "scenarios[14].dialogue.lines[7].ar (Liʾādam); scenarios[9].mistakes[0].why (-Ukum); scenarios[5].intro (and Al-bāqī); scenarios[1].dialogue.culture (Al-ʿaddād)",
+      "current": "Urīdu an ashtariya hadiyya Liʾādam.",
+      "problem": "engine quirk: a name after the clitic لِ is capitalised as one word ('Liʾādam' for li-Ādam), the suffix ـُكُمْ comes out as '-Ukum', and the first word of an Arabic run inside English prose is capitalised mid-sentence ('and Al-bāqī', 'the meter (Al-ʿaddād)')",
+      "category": "engine",
+      "severity": "minor",
+      "fix": "li-Ādam; -ukum; lower-case the first Arabic word when the run is mid-sentence (al-bāqī, al-ʿaddād)"
+    }
+  ],
+  "notes": [
+    {
+      "file": "content/course/scenarios.json",
+      "path": "scenarios[0].dialogue.lines[7].en",
+      "note": "'The tea is really very delicious' doubles the intensifier for a single جِدًّا; 'The tea is very delicious' / 'really delicious' reads better."
+    },
+    {
+      "file": "content/course/scenes.json",
+      "path": "scene cafe spots[9].ar",
+      "note": "الْمِرْطَبَان: the dictionary vocalisation (Wehr, al-Maany) is مَرْطَبَان marṭabān with fatḥa; in Egypt the everyday word is بَرْطَمَان. Worth checking the kasra before it is taught."
+    },
+    {
+      "file": "content/course/scenes.json",
+      "path": "scene restaurant spots[7].ar",
+      "note": "اللَّبَن glossed 'the yogurt' is Levantine usage; in Egypt (the scenario's setting) laban means milk and yogurt is زَبَادِي. A short note on the spot would avoid confusion."
+    },
+    {
+      "file": "content/course/scenarios.json",
+      "path": "scenarios[2].dialogue.lines[4].ar",
+      "note": "شَاي أَوْ قَهْوَة؟ uses أَوْ in an alternative question while directions-l5 teaches أَمْ for the same job; both are heard, but a beginner may wonder which to use."
+    },
+    {
+      "file": "content/course/scenarios.json",
+      "path": "scenarios[7].dialogue.lines[10].en",
+      "note": "مَبْرُوك is translated 'Enjoy it!' while its seg says 'congratulations'; the English could read 'Congratulations (on the purchase)!' so the two match."
+    },
+    {
+      "file": "content/course/scenarios.json",
+      "path": "scenarios[11].dialogue.lines[2].ar",
+      "note": "Huda switches from dual (سَافَرْتُمَا) to singular (لَمْ تَذْهَبْ) inside one turn; grammatical, since the second question is addressed to Daniel alone, but a beginner might not notice why."
+    },
+    {
+      "file": "content/course/scenarios.json",
+      "path": "scenarios[4].dialogue.lines[2].ar",
+      "note": "الشُّبَّاك is colloquially flavoured; the scenes teach النَّافِذَة for 'window'. Either is fine, but one word would be simpler for the learner."
+    },
+    {
+      "file": "content/course/scenes.json",
+      "path": "scene directions spots[10].ar; scene clothes-shop spots[7].ar; scene weather-plans spots[9].ar",
+      "note": "'the railing' is labelled السُّور (lit. wall, fence) in two scenes and الدَّرَابْزِين in a third; the latter is the precise word for a railing/handrail."
+    },
+    {
+      "file": "content/course/scenes.json",
+      "path": "scene pharmacy-visit spots[8].ar",
+      "note": "الدَّرَّاجَةُ النَّارِيَّة is the only spot label carrying a final case vowel (ḍamma on الدَّرَّاجَةُ); every other label is in pause form. Style only."
+    },
+    {
+      "file": "content/course/scenarios.json",
+      "path": "scenarios[4].dialogue.lines[10].segs (جُنَيْهًا)",
+      "note": "the seg says 'pound (after 11–99)' under مِئَة وَعِشْرُونَ (120); the mistakes[1].why explains correctly that the noun follows the last number, so the seg could say 'pound (follows the last number, 20)'."
+    },
+    {
+      "file": "content/course/scenarios.json",
+      "path": "scenarios[14].intro",
+      "note": "كُلُّ عَامٍ وَهُوَ بِخَيْر is a third-person adaptation of the fixed phrase كُلُّ عَامٍ وَأَنْتَ بِخَيْر; it is understandable, but the learner should also meet the standard second-person form."
+    },
+    {
+      "file": "content/course/scenes.json",
+      "path": "scene cafe spots[11].ar",
+      "note": "الْمِنْضَدَة is 'table' in most dictionaries; for a café counter people usually say الْكَاوْنْتَر or الطَّاوِلَة; acceptable as is."
+    }
+  ],
+  "summary": "Read the whole scenarios-1 export (16 scenarios: intros, dialogues, mistakes, quizzes and all photo-scene spots) line by line, checking harakat, case and tanwīn, gender/number agreement, verb moods after لَمْ / لَنْ / أَنْ, number–noun rules, every English line, every seg and tap gloss, every answer key and every scene label. The core Arabic is in good shape: all answer keys and right/wrong pairs are correct, dual, jussive and subjunctive forms are right, the number rules (3–10 plural, 11–99 singular -an, مِئَة + singular, feminine ثَلَاث / سِتّ) are applied correctly throughout. Fourteen findings: one major (the tap gloss on the model answer طَوِيلَةً reads 'tall (f, after is not)'), nine minor content issues that are almost all tap glosses pulled from a shared dictionary and mismatching the scene or sentence (الْإِشَارَة 'pointing', الرَّصِيف 'platform', الْعَمُود 'pole', السَّاعَة without 'clock', حَارّ 'weather', spurious '(of)', لَا always 'no'), one added 'very' in a translation, one inconsistent tanwīn on tāʾ-marbūṭa objects against the course's own taught rule, and four engine quirks reported once each. Twelve notes cover register, Egyptian vs Levantine vocabulary and style."
+}

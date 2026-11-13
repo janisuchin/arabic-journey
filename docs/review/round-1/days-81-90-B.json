@@ -1,0 +1,229 @@
+{
+  "chunk": "days-81-90",
+  "reviewer": "B",
+  "errors": [
+    {
+      "file": "content/days/day81.json",
+      "path": "sentences[4].mistakes[0].wrong (tap); sentences[4].mistakes[0].why (tap)",
+      "current": "اِكْتَشَفَ=was discovered",
+      "problem": "the tap gloss gives the ACTIVE verb اِكْتَشَفَ (he discovered) the passive meaning 'was discovered', i.e. the same gloss as اُكْتُشِفَ; the whole point of the mistake pair is that اِكْتَشَفَ is active, and the learner tapping both words sees no difference",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "اِكْتَشَفَ=(he) discovered",
+      "alsoChange": "the shared vocabulary entry for اِكْتَشَفَ, so every tap on the active form says '(he) discovered'"
+    },
+    {
+      "file": "content/days/day81.json",
+      "path": "quiz[4].options[3] (tap); quiz[4].explain (tap)",
+      "current": "قِيلَ=it is said (past passive (it was said))",
+      "problem": "the quiz asks which word means 'it is said'; the tap gloss on the distractor قِيلَ starts with 'it is said', so by the tap text option 3 is also correct; قِيلَ is 'it was said' only (the explain line says so)",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "قِيلَ=it was said (past passive)",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/days/day87.json",
+      "path": "intro (tap); quiz[6].options[3] (tap); quiz[6].options[0] (tap); quiz[6].options[1] (tap)",
+      "current": "عَبَّرَ=express! (to a man)",
+      "problem": "عَبَّرَ is the past tense 'he expressed' (the imperative is عَبِّرْ, which the day uses correctly in d87l2); the tap glosses of the neighbouring verbs are also muddled: 'نَطَقَ=pronounces (past)', 'حَاوَلَ=tries (past)', 'اِعْتَذَرَ=apologises (past)' give a present-tense meaning for past forms",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "عَبَّرَ=(he) expressed; نَطَقَ=(he) pronounced; حَاوَلَ=(he) tried; اِعْتَذَرَ=(he) apologised",
+      "alsoChange": "the same vocabulary entries wherever these bare past forms are tapped"
+    },
+    {
+      "file": "content/days/day81.json",
+      "path": "intro (tap); objectives[0] (tap); sentences[0].mistakes[0].wrong (tap); sentences[0].mistakes[0].right (tap); sentences[1].mistakes[0].wrong (tap); sentences[1].mistakes[0].right (tap); sentences[4].mistakes[0].wrong (tap); sentences[4].mistakes[0].right (tap); quiz[0].explain (tap)",
+      "current": "عَشَرَ=ten (part of 'fifteen')",
+      "problem": "the shared tap gloss for عَشَرَ was written for an earlier 'fifteen' sentence; in day 81 every occurrence is in 'twelfth / eighteenth / nineteenth century', so the tap tells the learner the word is part of 'fifteen'",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "عَشَرَ=-teen (second part of 11-19)",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/days/day81.json",
+      "path": "sentences[5].mistakes[0].wrong (tap); sentences[5].mistakes[0].right (tap); sentences[5].mistakes[1].wrong (tap); sentences[5].mistakes[1].right (tap)",
+      "current": "السَّاعَةَ=at the hour",
+      "problem": "in يُقَالُ إِنَّ هٰذِهِ السَّاعَةَ لَمْ تَعْمَلْ the word is 'the clock' (accusative after إِنَّ), not 'at the hour'; the tap gloss belongs to a time-telling sentence",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "السَّاعَةَ=the clock (after inna)",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/days/day86.json",
+      "path": "intro (tap); objectives[3] (tap)",
+      "current": "الْعُنْوَان=the address",
+      "problem": "the whole day teaches عُنْوَان as 'headline / title' (segs say so), but the tap gloss in the intro and objective says 'the address', and 'عُنْوَانُ=address (of)' for عُنْوَانُ الْمَقَالَةِ (the headline of the article)",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "الْعُنْوَان=the headline, the title (also: address); عُنْوَانُ=headline, title (of)",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/days/day87.json",
+      "path": "intro (tap)",
+      "current": "عَفْوًا=you're welcome",
+      "problem": "in عَفْوًا، أَقْصِدُ… (sorry, I mean…) the word means 'sorry / excuse me', as the segs of d87l8 and d87l12 say; the tap gloss gives only the other sense",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "عَفْوًا=sorry, excuse me; (also: you're welcome)",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/days/day90.json",
+      "path": "sentences[5].mistakes[0].wrong (tap)",
+      "current": "تَسْتَمِرُّ=you continue (-a after an)",
+      "problem": "the tap gloss on the WRONG option (indicative تَسْتَمِرُّ with -u) says '-a after an', i.e. it describes the right form; the learner tapping the mistake is told it already has the -a ending",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "تَسْتَمِرُّ=you continue (indicative -u; wrong after an — correct: tastamirra)",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/days/day90.json",
+      "path": "sentences[3].mistakes[0].wrong; sentences[3].mistakes[0].right",
+      "current": "شَرِيكُ الْمُحَادَثَةِ",
+      "problem": "the pair marks شَرِيكُ الْمُحَادَثَةِ as 'wrong', but it is perfectly grammatical ('the conversation partner'); the why line itself says it only has a different meaning. A learner is taught that a correct iḍāfa is a mistake",
+      "category": "answer-key",
+      "severity": "minor",
+      "fix": "replace the pair with a real error, e.g. wrong: الشَّرِيكُ مُحَادَثَةٍ (al- on the first noun of an iḍāfa) → right: شَرِيكُ مُحَادَثَةٍ, or reword the pair as 'not what we mean here' rather than wrong",
+      "alsoChange": "why text accordingly"
+    },
+    {
+      "file": "content/days/day82.json",
+      "path": "day82 summary ⟶; day82 intro ⟶; day82 sentences[5].ar ⟶ 'fāʾiqi liāḥtirām'; day84 intro ⟶ 'Shukran liḥusni liāstimāʿ'; day84 reading.ar ⟶ 'fī liāmtiḥān'; day85 titleAr ⟶ 'Murājaʿatu liāstimāʿ'; day85 dialogue.lines[3].ar ⟶ 'Fī liāmtiḥāni'; day87 dialogue.lines[0].ar ⟶ 'ʿindakumu liāmtiḥānu'; day87 dialogue.lines[1].ar ⟶ 'Iliāmtiḥānu'; day89 titleAr ⟶ 'Iliāmtiḥān an-nihāʾī'; day89 sentences[1].ar ⟶ 'Muddatu liāmtiḥāni'; day89 dialogue.lines[3].ar ⟶ 'iliāstimāʿu'; day89 reading.ar ⟶ 'liliāmtiḥāni'",
+      "current": "fāʾiqi liāḥtirām",
+      "problem": "the Arabic is correct (الِاحْتِرَام, الِاسْتِمَاع, الِامْتِحَان with kasra on the hamzat-waṣl alif), but the engine reads the kasra-bearing alif as 'i' + the alif of the Form VIII/X maṣdar as 'ā', producing non-words: 'liāḥtirām' for l-iḥtirām, 'Iliāmtiḥān' for al-imtiḥān, 'liāstimāʿ' for l-istimāʿ, 'liliāmtiḥāni' for li-l-imtiḥāni. Every title and formula of days 85 and 89 carries this",
+      "category": "engine",
+      "severity": "major",
+      "fix": "al-iḥtirām / l-iḥtirām, al-imtiḥān / l-imtiḥān, al-istimāʿ / l-istimāʿ, li-l-imtiḥāni: treat الِ + consonant-sukūn as al- + hamzat waṣl (i) and elide the i after a vowel",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/days/day86.json",
+      "path": "intro ⟶ ('illadhī and illatī'); objectives[3] ⟶; quiz[4].options[0] ⟶ 'Illatī'; quiz[4].options[1] ⟶ 'Illadhī'; quiz[4].options[2] ⟶ 'Illadhīna'; quiz[4].explain ⟶",
+      "current": "Illatī",
+      "problem": "the relative pronouns الَّذِي / الَّتِي / الَّذِينَ are correct in Arabic, but when they stand alone or at the start of a phrase the engine transliterates them as 'Illadhī / Illatī / Illadhīna'; the correct forms are alladhī / allatī / alladhīna (after a vowel 'lladhī', which the engine does get right inside sentences)",
+      "category": "engine",
+      "severity": "major",
+      "fix": "alladhī, allatī, alladhīna",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/days/day83.json",
+      "path": "dialogue.lines[4].ar ⟶",
+      "current": "Wabiālʾiḍāfati",
+      "problem": "وَبِالْإِضَافَةِ is correct Arabic, but with the وَ prefix the engine fails to resolve bi + al + hamza and outputs 'Wabiālʾiḍāfati'; the same word without وَ is rendered correctly as 'Bi-l-iḍāfati' (d83s4)",
+      "category": "engine",
+      "severity": "major",
+      "fix": "Wa-bi-l-iḍāfati",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/days/day88.json",
+      "path": "day88 dialogue.lines[7].ar ⟶ 'faʿalā l-wāū'; day88 dialogue.lines[9].ar ⟶ 'wa-z-zāī wa-l-wāū'; day86 dialogue.lines[12].ar ⟶ 'shāī bi-n-naʿnāʿ'",
+      "current": "wa-z-zāī wa-l-wāū",
+      "problem": "a final ي or و after a long ā is transliterated as a vowel (zāī, wāū, shāī) instead of a consonant: الزَّاي = zāy, الْوَاو = wāw, شَاي = shāy (the known الشَّاي quirk); the Arabic is correct",
+      "category": "engine",
+      "severity": "minor",
+      "fix": "zāy, wāw, shāy",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/days/day88.json",
+      "path": "day88 intro ⟶ ('Ta marbuta A / at', 'alif maqsura ā', 'Ā / ʾ d dh r z w / ū'); day88 objectives[1] ⟶; day88 dialogue.culture ⟶ ('y / ī as an alif maqsura'); day82 intro ⟶ ('Listen for A / at too'); day82 objectives[3] ⟶; day82 sentences[2].mistakes[0].why ⟶; day82 quiz[6].prompt ⟶; day86 quiz[6].explain ⟶",
+      "current": "Six letters never join to the next one: Ā / ʾ d dh r z w / ū.",
+      "problem": "bare letters named in English prose (ة, ى, ا, و, ي, and the list ا د ذ ر ز و) are transliterated as their sound values ('A / at', 'ā', 'Ā / ʾ', 'w / ū', 'y / ī'), so the transliterated prose reads 'Ta marbuta A / at has two dots' and the six non-joining letters become 'Ā / ʾ d dh r z w / ū'; the known ة quirk extends to every bare letter",
+      "category": "engine",
+      "severity": "minor",
+      "fix": "leave a bare letter in Arabic script (or give its name: tāʾ marbūṭa, alif maqṣūra, alif, dāl, dhāl, rāʾ, zāy, wāw) in the ⟶ line",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/days/day88.json",
+      "path": "sentences[1].ar ⟶; sentences[1].mistakes[0].wrong ⟶; sentences[1].mistakes[0].right ⟶",
+      "current": "ashalu",
+      "problem": "أَسْهَلُ (as-ha-lu) is transliterated 'ashalu', which in the house ALA-LC system reads as ash-a-lu with ش; s followed by h needs a separator (asʹhalu or as-halu). Arabic is correct",
+      "category": "engine",
+      "severity": "minor",
+      "fix": "as-halu (or asʹhalu); same for any s+h, t+h, d+h, k+h sequence across letters",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/days/day83.json",
+      "path": "day83 dialogue.lines[0].ar ⟶ ('Laylā Wadānyāl … Wasāmī'); day83 reading.ar ⟶; day84 dialogue.lines[1].ar ⟶ ('Walaylā … Wadānyāl'); day90 reading.ar ⟶ ('Wasāmī')",
+      "current": "Wasāmī",
+      "problem": "known engine quirk: a name after the clitic وَ is capitalised as one word (Wadānyāl, Wasāmī, Walaylā) while the name itself loses its capital; the Arabic is correct",
+      "category": "engine",
+      "severity": "minor",
+      "fix": "wa-Dānyāl, wa-Sāmī, wa-Laylā",
+      "alsoChange": ""
+    }
+  ],
+  "notes": [
+    {
+      "file": "content/days/day81.json",
+      "path": "dialogue.lines[8].ar",
+      "note": "مَرْمَر is given as 'alabaster' in contrast to رُخَام 'marble'. In general MSA مَرْمَر also means marble; the alabaster sense is the local Egyptian usage behind 'مسجد المرمر'. Correct for the story, but a learner may later meet مَرْمَر = marble; a short gloss '(here: alabaster)' would help."
+    },
+    {
+      "file": "content/days/day81.json",
+      "path": "dialogue.lines[0].ar",
+      "note": "دَلِيلَتُكُمُ (your guide, f.) is understandable but unusual; دَلِيل is normally used for both genders (أَنَا دَلِيلُكُمُ الْيَوْمَ) or مُرْشِدَتُكُمْ for a female guide. Style only."
+    },
+    {
+      "file": "content/days/day82.json",
+      "path": "sentences[3].mistakes[0]; sentences[3].mistakes[0].why",
+      "note": "مُرْفَق مَعَ هٰذِهِ الرِّسَالَة سِيرَتِي الذَّاتِيَّة is marked wrong and مُرْفَقَة right. With the predicate fronted before a compound subject (CV + certificate), agreement with the nearest noun is the usual rule, so مُرْفَقَة is fine, but invariable مُرْفَق ('Attached: …') is also extremely common in real letters. Consider softening 'wrong' to 'less careful'."
+    },
+    {
+      "file": "content/days/day82.json; content/days/day84.json",
+      "path": "day82 sentences[0].ar, reading.ar, dialogue.lines[5].ar ('تَحِيَّة طَيِّبَة وَبَعْدُ'); day84 intro, dialogue.culture, dialogue.lines[6].ar ('تَحِيَّةً طَيِّبَةً وَبَعْدُ')",
+      "note": "Day 82 vocalises the formula without tanwīn (تَحِيَّة طَيِّبَة, pausal) and day 84 with the accusative tanwīn (تَحِيَّةً طَيِّبَةً), which is the fully-vocalised form. Both are accepted, but the two days should agree, since the learner is told the frame is 'fixed'."
+    },
+    {
+      "file": "content/days/day86.json",
+      "path": "dialogue.lines[6].ar",
+      "note": "الْمُشْكِلَةَ الْأَكْبَرَ: with the definite article the elative traditionally agrees in gender (الْمُشْكِلَةُ الْكُبْرَى). 'المشكلة الأكبر' is very common in modern press Arabic, so not reported as an error, but الْكُبْرَى would be the safer model for a course that teaches case and agreement."
+    },
+    {
+      "file": "content/days/day87.json",
+      "path": "sentences[3].mistakes[0].right (tap); dialogue.lines[14] (tap glosses)",
+      "note": "tap gloss 'أَهَمُّ=the most important' appears in a comparative sentence (أَهَمُّ مِنَ …, 'more important than'); the segs are right, only the shared tap gloss shows the superlative sense."
+    },
+    {
+      "file": "content/days/day87.json",
+      "path": "dialogue.lines[14].ar",
+      "note": "«يَعْنِي» وَ«كَيْفَ أَقُولُ» تُعْطِيكَ وَقْتًا: two quoted phrases as subject would strictly take the dual تُعْطِيَانِكَ; treating them as a non-human plural with f. sg. is tolerated. Style only."
+    },
+    {
+      "file": "content/days/day88.json",
+      "path": "realLife.story",
+      "note": "Story logic: 'It's the second-to-last week of the course' but day 88 is in week 13, the last week (day 85 says 'the first day of the last week')."
+    },
+    {
+      "file": "content/days/day88.json",
+      "path": "intro; dialogue.lines[7].ar",
+      "note": "The hamza-seat rule (kasra → yāʾ, ḍamma → wāw, otherwise alif) is a deliberate simplification; it does not cover long vowels, initial hamza or final hamza after sukūn (شَيْء, written on the line). Fine for the course level, but the learner may apply it to words like شَيْء; a one-line caveat could help."
+    },
+    {
+      "file": "content/days/day88.json",
+      "path": "intro (tap)",
+      "note": "In the list of the six non-joining letters, the tap on و says 'و=and'; in this context it is the letter wāw (the other five taps correctly give letter names)."
+    },
+    {
+      "file": "content/days/day81.json",
+      "path": "dialogue.lines[6].ar ⟶; reading.ar ⟶",
+      "note": "Engine capitalisation of names is inconsistent: 'masjidu muḥammad ʿAlī' (lower-case Muḥammad, capital ʿAlī), 'ṣalāḥi d-dīn' lower-case. Cosmetic."
+    },
+    {
+      "file": "content/days/day83.json; content/days/day84.json",
+      "path": "summary/intro taps ('لَا=no' before أُوَافِقُ)",
+      "note": "The shared tap gloss 'لَا=no' appears inside لَا أُوَافِقُ (I do NOT agree), where 'not' is meant; segs in the dialogues say 'not'. Minor tap-gloss sense mismatch."
+    }
+  ],
+  "summary": "I read all 3,123 lines of audit/days-81-90.txt (days 81-90: passive, formal letter, debate connectors, Week 12 review, listening/reading/speaking/writing reviews, final exam, next steps) and checked every Arabic string, its harakat and case endings, agreement, verb forms, translations and literals, seg and tap glosses, quiz answer keys and the transliteration against the Arabic. The Arabic itself is clean: I found no misspelt word, wrong case ending, wrong agreement, wrong mood or wrong answer key in the sentences, dialogues, readings or quizzes. The 16 reported errors are 3 major gloss errors (اِكْتَشَفَ glossed as passive 'was discovered'; قِيلَ glossed 'it is said' on a distractor whose prompt is 'it is said'; عَبَّرَ glossed as an imperative and the neighbouring past verbs glossed in the present), 5 minor gloss/answer-key issues (shared tap glosses pulled from other sentences: 'ten (part of fifteen)', 'at the hour', 'the address', 'you're welcome'; a tap on the wrong form claiming '-a after an'; a grammatical iḍāfa marked 'wrong'), and 7 engine findings, of which 3 are major because they produce non-words the learner will read aloud: the hamzat-waṣl maṣdars after al- (الِاسْتِمَاع/الِامْتِحَان/الِاحْتِرَام → 'liāstimāʿ', 'Iliāmtiḥān', 'liāḥtirām' in titles and formulas of days 82, 84, 85, 87, 89), standalone الَّذِي/الَّتِي → 'Illadhī/Illatī', and وَبِالْإِضَافَةِ → 'Wabiālʾiḍāfati'; the minor ones are the known bare-letter and وَ-name quirks, final -āy/-āw rendered as vowels, and 'ashalu' for أَسْهَلُ. Pattern: the content author's segs are consistently right while the shared tap vocabulary occasionally carries a sense from another day; and the transliteration engine mishandles every word whose hamzat waṣl is written with a kasra under the alif of al-."
+}

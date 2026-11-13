@@ -1,0 +1,146 @@
+{
+  "chunk": "placards",
+  "reviewer": "A",
+  "errors": [
+    {
+      "file": "content/course/placards.json",
+      "path": "[14].description (tap ـكْتُبُ); [15].description (tap كَتَبْـ)",
+      "current": "ـكْتُبُ=was written",
+      "problem": "The tap gloss for the verb stem shown in the description is 'was written' (the passive كُتِبَ). ـكْتُبُ is the present stem of 'to write' and كَتَبْـ is the past stem; neither is a passive form. The learner who taps the stem learns a wrong meaning. Same wrong gloss on the past-tense placard: 'كَتَبْـ=was written'.",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "ـكْتُبُ=(present stem of 'to write': -ktub-)",
+      "alsoChange": "[15].description tap: كَتَبْـ=was written → كَتَبْـ=(past stem of 'to write': katab-)"
+    },
+    {
+      "file": "content/course/placards.json",
+      "path": "[15].items[7].note (tap ـُوا)",
+      "current": "ـُوا=you all (ending of an order to a group: -ū)",
+      "problem": "On the past-tense placard the ending ـُوا in كَتَبُوا is the third person masculine plural past ending (they wrote), not the plural imperative ending. The gloss belongs to another lesson's sense and contradicts the line it sits under ('they wrote').",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "ـُوا=they (ending of the past tense for a group: -ū)"
+    },
+    {
+      "file": "content/course/placards.json",
+      "path": "[16].items[2].note (tap مَا)",
+      "current": "مَا=what",
+      "problem": "In the negation placard the note 'مَا + past' explains مَا as the negative particle 'not' (the item's own seg says 'مَا = not'); the tap gloss shows the question-word homograph 'what', which directly contradicts the lesson.",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "مَا=not (negates a past-tense verb)"
+    },
+    {
+      "file": "content/course/placards.json",
+      "path": "[9].items[0].note (tap أَحَد)",
+      "current": "أَحَد=Sunday without 'the' (wrong — correct: al-aḥad)",
+      "problem": "The note says Sunday comes 'From أَحَد, one'. The tap gloss for أَحَد is a quiz-distractor explanation copied from another exercise ('Sunday without the (wrong ...)'), not the meaning the note is teaching (one). A beginner tapping the word reads that the word is 'wrong'.",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "أَحَد=one (the number; the root of al-aḥad, Sunday)"
+    },
+    {
+      "file": "content/course/placards.json",
+      "path": "[1].description (tap و)",
+      "current": "و=and",
+      "problem": "The description lists the three long-vowel letters ا, و and ي. The taps for ا and ي give the letter names ('the letter alif', 'the letter yāʾ') but و is glossed as the conjunction 'and', so the learner is told the vowel letter wāw means 'and'.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "و=the letter wāw"
+    },
+    {
+      "file": "content/course/placards.json",
+      "path": "[1].items[8].segs; [1].items[9].segs; [1].items[10].segs",
+      "current": "[بَا = ba (long a)]",
+      "problem": "The seg glosses of the long-vowel items drop the length mark: بَا glossed 'ba', بُو 'bu', بِي 'bi', while the en lines correctly say bā / bū / bī. In a placard whose whole point is short vs long vowels, the tap gloss shows the short reading.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "[بَا = bā (long a)]",
+      "alsoChange": "items[9].segs → [بُو = bū (long u)]; items[10].segs → [بِي = bī (long i)]"
+    },
+    {
+      "file": "content/course/placards.json",
+      "path": "[6].example.note (⟶ line)",
+      "current": "With tāʾ marbūṭa the A / at becomes t before the ending",
+      "problem": "Engine: a bare ة inside English prose is transliterated with its alphabet-table sound 'A / at' instead of being left as the letter name. The same happens to bare letters in [1].description ('the letters Ā / ʾ, w / ū and y / ī') and in the sun-moon notes ('Sun letter Sh', 'Moon letter Q').",
+      "category": "engine",
+      "severity": "minor",
+      "fix": "Leave single bare letters in prose untransliterated or render them by name (tāʾ marbūṭa, alif, wāw, yāʾ, shīn...)"
+    },
+    {
+      "file": "content/course/placards.json",
+      "path": "[19].items[1].ar (⟶ line)",
+      "current": "Shāī",
+      "problem": "Engine: final ي after a long ā in شَاي is a consonant (shāy), but the engine renders it as a long vowel 'ī'. The Arabic is correct.",
+      "category": "engine",
+      "severity": "minor",
+      "fix": "Shāy"
+    },
+    {
+      "file": "content/course/placards.json",
+      "path": "[10].titleAr (⟶ line)",
+      "current": "Adawātu liāstifhāmi",
+      "problem": "Engine: the kasra written on the hamzat waṣl of الِاسْتِفْهَامِ is read as a vowel of the article, so the elided waṣla comes out as 'liā-'. The Arabic is correct; expected 'Adawātu l-istifhāmi'.",
+      "category": "engine",
+      "severity": "minor",
+      "fix": "Adawātu l-istifhāmi"
+    },
+    {
+      "file": "content/course/placards.json",
+      "path": "[6].items[0].note; [14].description; [2].description; [8].description (⟶ lines)",
+      "current": "ending -Ī (-ī)",
+      "problem": "Engine: Arabic fragments embedded in English prose are capitalised as if sentence-initial ('-Ī (-ī)', '-Ka (-ka)', 'the stem -Ktubu', 'the l of Al-', 'end in -Ūna'). Harmless for meaning but gives a wrong impression that these are capitalised names.",
+      "category": "engine",
+      "severity": "minor",
+      "fix": "Do not capitalise a transliterated fragment that is not at the start of the string"
+    }
+  ],
+  "notes": [
+    {
+      "file": "content/course/placards.json",
+      "path": "[5].items",
+      "note": "The pronoun table stops at هُنَّ; أَنْتُنَّ (you, women only) and the duals are not listed, although هُنَّ is. If هُنَّ is kept, أَنْتُنَّ would complete the pair."
+    },
+    {
+      "file": "content/course/placards.json",
+      "path": "[6].items[1..7].note (tap glosses)",
+      "note": "The tap glosses of the endings describe them as 'object ending' (-ka, -hu, -nā...) while the placard teaches them as possessive endings on a noun. Correct forms, but a 'my/your/his' wording would match the placard."
+    },
+    {
+      "file": "content/course/placards.json",
+      "path": "[11].description (tap ـِيّ / ـِيَّة)",
+      "note": "The nisba endings are glossed as 'nationality ending'; on the colours placard a wording like 'adjective ending -ī / -iyya (also nationalities)' would fit better."
+    },
+    {
+      "file": "content/course/placards.json",
+      "path": "[16].items[1].note (tap لَيْسَ)",
+      "note": "Gloss 'is not (taught in week 5)' leaks course scheduling into a word meaning; harmless but odd on a reference placard."
+    },
+    {
+      "file": "content/course/placards.json",
+      "path": "[10].items[7].note (tap)",
+      "note": "The tap list shows كَمْ twice for one occurrence in the note ('كَمْ=how much, how many · كَمْ=how much, how many')."
+    },
+    {
+      "file": "content/course/placards.json",
+      "path": "[18].items[7].segs",
+      "note": "دَوْرَةُ glossed 'room, cycle (of)': دَوْرَة means cycle/circuit; 'room' is only the idiomatic meaning of the whole phrase دَوْرَةُ الْمِيَاه. 'cycle (of) — idiom: toilets' would be more exact."
+    },
+    {
+      "file": "content/course/placards.json",
+      "path": "[4].items[10].ar",
+      "note": "مَبْرُوك is the everyday (colloquial-derived) form; the formal MSA word is مُبَارَك. Acceptable in a polite-words list, worth one word in the note."
+    },
+    {
+      "file": "content/course/placards.json",
+      "path": "[17].items[6..11]",
+      "note": "تَحْتَ, فَوْقَ, أَمَامَ, خَلْفَ, بَيْنَ, عِنْدَ are adverbs of place (ẓurūf), tagged 'prep' in the segs. The title already says 'ḥurūf al-jarr wa-ẓurūf al-makān', so this is a labelling choice, not an error."
+    },
+    {
+      "file": "content/course/placards.json",
+      "path": "[2].table.rows",
+      "note": "The moon-letter row starts with ء (hamza); most tables list أ (alif/hamza) as the moon letter. Both conventions exist."
+    }
+  ],
+  "summary": "Checked all 20 placards (alphabet, vowel marks, sun/moon, greetings, polite words, pronouns, attached pronouns, numbers 0-10, tens, weekdays, question words, colours, family, demonstratives, present and past tense, negation, prepositions, signs, café): every Arabic string with its harakat, every table cell, seg, tap gloss, English gloss and the generated transliteration. The Arabic itself is clean: no spelling, harakat, case, agreement or verb-form errors were found, and all paradigms (present/past of كَتَبَ, possessive endings, colour feminines, numbers 3-10 with plural, diptote حَمْرَاءُ) are correct. The 10 findings are all in the tap-gloss layer and the transliteration engine: 4 major glosses where a consonant-skeleton match shows a homograph or another lesson's sense (verb stems glossed 'was written', past ـُوا glossed as an imperative ending, negative مَا glossed 'what', أَحَد glossed with a quiz-distractor text), 2 minor glosses (و as 'and' among the long-vowel letters, short 'ba/bu/bi' glosses on the long-vowel items), and 4 one-time engine quirks (bare ة/letters transliterated by sound in prose, شَاي as shāī, الِاسْتِفْهَام as liāstifhām, capitalised embedded fragments). 9 notes for the owner cover wording and labelling choices."
+}
