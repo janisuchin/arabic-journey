@@ -1,6 +1,6 @@
 # Status — Arabic Journey
 
-Updated 2026-11-13 (Word photos done). Branch `main`. All work runs on the owner's PC (no cloud session).
+Updated 2026-11-13 (v1.0.0 released). Branch `main`. All work runs on the owner's PC (no cloud session).
 Main prompt: `Arabic_Reference/PROMPT_B_Nihongo-based.md` (phases A–F, checklist Z).
 Live: https://ar-journey.german-journey.workers.dev · unlocked https://ar-journey-unlocked.german-journey.workers.dev
 
@@ -37,6 +37,14 @@ Live: https://ar-journey.german-journey.workers.dev · unlocked https://ar-journ
   concept image, then Commons search; 57 first picks were replaced by hand from `candidates` sheets. Validator:
   noun only, one photo per vocab, file = `<id>.jpg`, bundled, 360×360, no Commons title or file used twice.
   Checks: validator 0 errors, 76 unit tests, e2e 28/28 (port 4191), both editions deployed + 200 live.
+- **Release v1.0.0** (2026-11-13, tag `v1.0.0`, Prompt B P): version 1.0.0 in app.json/package.json; brand icon set
+  (ع speech bubble, green; replaces Expo's placeholder) + Play graphics from `scripts/build-brand-assets.mjs`
+  (`npm run store:assets`); 8 Play screenshots from `scripts/store-screenshots.mjs` (`npm run store:shots`, serve
+  `dist` on 4192); `store/LISTING.md`; `tools/build-android.ps1` (work folders `C:\mr`, `C:\mru`); release
+  folder `all release journey and links and architecture/` (README, RELEASE_JOURNEY, ARCHITECTURE, prompt/, .url
+  shortcuts, `releases/v1.0.0 (2026-11-13, Expo SDK 58)/` with web zips, source zip, store copies, APKs, README.txt).
+  Checks: `npm run check` green (validator 0 errors, 76 unit tests), e2e 28/28 incl. the 5-size layout sweep, both
+  editions deployed and byte-identical to `dist/` / `dist-unlocked/`, live normal locks Day 2 and unlocked opens it.
 
 ## Left (against Prompt B checklist Z)
 1. Teacher review of the culture chapters: open points per chapter in `docs/review/culture-notes/*.md`.
@@ -58,8 +66,8 @@ Live: https://ar-journey.german-journey.workers.dev · unlocked https://ar-journ
    `bitaqa-baridiyya` are vintage PD items, `harf` is an alphabet graphic, `wajh` reuses a "woman" search hit;
    faces appear in people/job words (public or CC-licensed portraits). Then the 5,000-word dictionary check.
 6. Audit tools `scripts/audit/` + two-reviewer + reconciler audit (writers' open points in git history, 68d8cac).
-7. `tools/build-android.ps1`, layout sweep, release v1.0.0 by the Journey release-folder rule; next APK must be
-   checked on device (forced RTL is off).
+7. Device check of the v1.0.0 APKs (install both side by side, Arabic text with forced RTL off, expo-audio
+   recording in the Speaking lab). Play upload needs an EAS production AAB and a `/privacy` page first.
 
 ## Decisions
 - Never mark content `approved` without a named human reviewer.
@@ -90,8 +98,7 @@ Live: https://ar-journey.german-journey.workers.dev · unlocked https://ar-journ
 - The Bash tool on this PC strips backslashes inside heredocs: write Python helpers to a file (Write tool) instead.
 
 ## Next step
-Release v1.0.0 by the Journey release-folder rule (Left 7): `tools/build-android.ps1` (local APKs, locked +
-unlocked), layout sweep at 360×800 and 800×1280 with the largest text size, web zips + store assets into the
-release folder "Arabic Journeyll release journey and links and architecture" (Nihongo = format), and a device
-check of the APK (forced RTL off, expo-audio recording in the Speaking lab); then check, e2e (port 4191),
-deploy, commit and push.
+Owner's choice. Options in order: (a) device check of the two v1.0.0 APKs in the release folder (Left 7);
+(b) teacher review hand-off of the culture notes and the photo compromises (Left 1, 2, 3, 5); (c) branching role-play
+and practice for the scenarios (Prompt B L, Left 3); (d) audit tools + two-reviewer round (Left 6). Any content change
+after v1.0.0 is a new version: bump, check, e2e (port 4191), deploy, new `releases/` folder, tag, push.

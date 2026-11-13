@@ -1,6 +1,6 @@
 {
   "name": "arabic-journey",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "main": "expo-router/entry",
   "dependencies": {
     "@expo-google-fonts/noto-naskh-arabic": "^0.4.5",
@@ -68,7 +68,9 @@
     "build:web:unlocked": "cross-env APP_VARIANT=unlocked EXPO_PUBLIC_UNLOCK_ALL=1 expo export --platform web --output-dir dist-unlocked && node scripts/fix-web-assets.mjs dist-unlocked",
     "deploy:web": "npm run build:web && wrangler deploy --config wrangler.jsonc",
     "deploy:web:unlocked": "npm run build:web:unlocked && wrangler deploy --config wrangler.unlocked.jsonc",
-    "e2e": "playwright test"
+    "e2e": "playwright test",
+    "store:assets": "node scripts/build-brand-assets.mjs",
+    "store:shots": "node scripts/store-screenshots.mjs"
   },
   "private": true,
   "jest": {

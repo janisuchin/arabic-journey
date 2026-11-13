@@ -1,0 +1,7 @@
+## Release notes 1.0.0 (500 characters max per language)
+
+```
+<en-GB>
+First release of Arabic Journey: a 90-day Modern Standard Arabic course with 90 lessons, 13 weekly tests and a final exam, the letters lab, 32 real-life scenarios with outlined photos, a pronunciation lab, flashcards with spaced repetition, a speaking lab and Explore the Arab world. Works offline, no account, no ads.
+</en-GB>
+```

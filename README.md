@@ -4,23 +4,19 @@ A structured, local-first 90-day **Modern Standard Arabic** course for English s
 Nihongo-based Journey blueprint (`Arabic_Reference/PROMPT_B_Nihongo-based.md`). One Expo / React Native
 codebase (Expo SDK 58, React Native 0.88, React 19.3, TypeScript) for Android, iOS and the web.
 
-**Status (v0.1.0): Week 1 (days 1–7) is written; days 8–90 are outlined on the Path only.**
-All lesson content is marked `needs-review`: it has not been checked by a native-speaker teacher.
+**Status (v1.0.0, 13 Nov 2026): all 90 days, 13 week tests, a final exam, 32 scenarios with outlined photos,
+20 placard sets, 90 real-life photo cards, 202 word photos and Explore the Arab world (9 chapters).**
+All content is AI-authored and AI-reviewed and marked `needs-review`: a native-speaker teacher has not checked it.
+Releases, links and the architecture note live in `all release journey and links and architecture/`
+(live: https://ar-journey.german-journey.workers.dev · unlocked https://ar-journey-unlocked.german-journey.workers.dev).
 
-## Right to left
+## Direction
 
-Every screen reads right to left:
-
-- Web: `<html dir="rtl" lang="ar">` (set at runtime and in the exported `index.html`) and a root
-  `dir="rtl"` view, so react-native-web mirrors rows, `start`/`end` spacing and `textAlign`.
-- Native: `I18nManager.allowRTL/forceRTL` plus the `expo-localization` plugin with
-  `supportsRTL`/`forcesRTL` in `app.json`, so builds start mirrored from the first launch.
-- Arabic text is tagged `dir="rtl" lang="ar"` and set in **Noto Naskh Arabic** (full contextual shaping).
-  Words are never split: letter forms are drawn with zero-width joiners, and syllable chips keep their
-  joins the same way.
-- English and transliteration runs are isolated as `dir="ltr"` (web) or wrapped in Unicode bidi isolates
-  (LRI/RLI…PDI, native), so punctuation and numbers stay in place in mixed lines.
-- Arrows are mirrored (“Next” points left, “Back” points right) and progress bars fill from the right.
+The app shell uses the Journey left-to-right layout for English readers (`<html dir="ltr" lang="en">`); Arabic text
+is always tagged `dir="rtl" lang="ar"` and set in **Noto Naskh Arabic** (full contextual shaping). `UI_DIR` in
+`src/base/rtl.ts` holds the choice; `EXPO_PUBLIC_UI_DIR=rtl` restores the fully mirrored shell. Letter forms are drawn
+with zero-width joiners so words are never split, and English/transliteration runs inside Arabic lines are bidi-isolated
+so punctuation and numbers stay in place. Never hard-code `textAlign: 'right'`.
 
 ## Language engine
 
@@ -41,7 +37,9 @@ Every screen reads right to left:
 | `npm run readings:build` / `npm run glossary:auto` | rebuild the offline readings layer and auto glossary after any content change |
 | `npm run content:index` | regenerate the static list of day files |
 | `npm run build:web` / `build:web:unlocked` | export the web editions to `dist/` and `dist-unlocked/` |
-| `npm run e2e` | Playwright tests against `dist/` on port 4190 (build first) |
+| `npm run e2e` | Playwright tests against `dist/` on port 4190 (build first); use 4191 when 4190 is busy |
+| `npm run store:assets` / `npm run store:shots` | render the icon set + Play graphics; capture the 8 Play screenshots (serve `dist` on 4192 first) |
+| `tools/build-android.ps1 -Variant normal\|unlocked` | build a debug-signed APK locally into the release folder |
 | `python3 scripts/audit/dialogue-stats.py` | dialogue length and density per day |
 | `npx tsx scripts/audit/audit-dump.ts` | export every lesson as shown (Arabic, transliteration, English) for review |
 
