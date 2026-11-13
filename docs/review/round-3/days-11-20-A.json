@@ -1,0 +1,37 @@
+{
+  "chunk": "days-11-20",
+  "reviewer": "A",
+  "errors": [
+    {
+      "file": "content/days/day18.json",
+      "path": "sentences[3].mistakes[0].wrong (tap gloss of عَلِي); sentences[3].mistakes[0].right (tap gloss of عَلِي); dialogue.culture (tap gloss of عَلِي)",
+      "current": "عَلِي=Ali (name; Muhammad Ali ruled Egypt in the 1800s); Ali (first name): Umm Ali is a bread pudding",
+      "problem": "In day 18 عَلِي occurs only inside أُمّ عَلِي (the dessert). The tap gloss now starts with the day-81 sense 'Muhammad Ali ruled Egypt in the 1800s', which belongs to another lesson's sentence (content/days/day81.json). It has leaked into the app-wide auto glossary (content/glossary/auto.json, key عَلِي), contrary to round-3 rule 6 (one-sentence glosses stay in their lesson). A beginner tapping the dessert name gets an unrelated history note. The segs of the same day are correct: 'Ali (first name): Umm Ali is a bread pudding'.",
+      "category": "gloss",
+      "severity": "minor",
+      "confidence": "high",
+      "fix": "عَلِي=Ali (first name): Umm Ali is a bread pudding",
+      "alsoChange": "Remove the 'Muhammad Ali ruled Egypt…' part from the app-wide auto-glossary entry for عَلِي (and علي); keep it only as the day-81 hand gloss."
+    },
+    {
+      "file": "content/days/day13.json",
+      "path": "dialogue.lines[13].ar (⟶ watafhamu); content/days/day14.json dialogue.lines[6].ar (⟶ faṣadīquka); content/days/day14.json dialogue.lines[7].ar (⟶ wanajma); content/days/day15.json sentences[0].ar (⟶ wajubnan); content/days/day15.json reading.ar (⟶ waṭaʿmiyyatan, wajubnan); content/days/day17.json dialogue.lines[10].ar (⟶ wamusaqqaʿa); content/days/day18.json dialogue.lines[5].ar (⟶ wamakarūna, wabaṣal); content/days/day18.json dialogue.lines[14].ar (⟶ wasalaṭatu); content/days/day19.json dialogue.lines[11].ar (⟶ wakhuḍār); content/days/day20.json dialogue.lines[8].ar (⟶ washaṭīrata)",
+      "current": "watafhamu",
+      "problem": "The Arabic is correct. Round-3 change 5 says a word glossed as clitic + word ('and you understand', 'and a star', 'and cheese') is transliterated with a hyphen, and most such words now are (wa-yadrusu, wa-khubzan, wa-ʿadas, wa-dajāj). But these words, all segged as 'and …' / 'because …', are still fused. The inconsistency even occurs within one line: day 15 reading has 'waṭaʿmiyyatan … wajubnan, wa-tashrabu'; day 18 line 5 has 'wamakarūna wa-ʿadas … wabaṣal'; day 19 line 11 has 'wa-dajāj wakhuḍār'. It looks as if the hyphen is applied only to words that are in the lookup, and not to the rest.",
+      "category": "engine",
+      "severity": "minor",
+      "confidence": "high",
+      "fix": "wa-tafhamu (likewise fa-ṣadīquka, wa-najma, wa-jubnan, wa-ṭaʿmiyyatan, wa-musaqqaʿa, wa-makarūna, wa-baṣal, wa-salaṭatu, wa-khuḍār, wa-shaṭīrata)",
+      "alsoChange": "Apply the clitic hyphen to every word whose seg gloss starts with 'and'/'because' (a proclitic وَ/فَ), regardless of whether the stem is in the glossary."
+    }
+  ],
+  "notes": [
+    { "file": "content/days/day13.json", "path": "dialogue.speakers[0].nameAr (and day14, day15, day17 speakers; day13 reading.ar; day17 reading.ar)", "note": "الْأُسْتَاذ كَرِيم is transliterated 'Al-ustādh karīm' with a lower-case name, and the speaker tap lists 'generous' first. Similarly 'miṣr' is lower-case while 'Lubnān' is capitalised (day 14). Cosmetic." },
+    { "file": "content/days/day16.json", "path": "intro (tap gloss of فَضْلِكِ); quiz[0].options[2]", "note": "فَضْلِكِ=your kindness (to a woman) lacks the ': 'please'' that the masculine فَضْلِكَ has; on the quiz whose answer is 'please' to a woman this would help." },
+    { "file": "content/days/day16.json", "path": "quiz[1].ar; quiz[6].options[2] (tap)", "note": "مَاءً=water still has no '(object)' label, unlike شَايًا / بَارِدًا (round-2 note, unchanged)." },
+    { "file": "content/days/day19.json", "path": "intro; objectives[1]; quiz[0].options[0], quiz[0].options[2] (tap)", "note": "أَقْلَام=pen (plural) and بُيُوت=house, home (plural) next to كُتُب=books, صُحُون=plates: 'pens', 'houses' would be clearer (round-1/2 note, unchanged)." },
+    { "file": "content/days/day13.json", "path": "sentences[4].mistakes[0].wrong; quiz[1].options[2]", "note": "لَيْسَ + present verb (لَيْسَ يَتَكَلَّمُ) is attested in Classical Arabic, though rare in modern MSA; marking it 'wrong' for beginners is fine, but the why could say 'use lā' rather than imply it is impossible." },
+    { "file": "content/days/day17.json", "path": "dialogue.lines[15].ar; content/days/day18.json dialogue.lines[12].ar", "note": "Sukun on a final waw (الْعَفْوْ، حُلْوْ, also شَايْ in day 16) is unusual in fully vocalised text but harmless (pause)." }
+  ],
+  "summary": "I read all 2,866 lines of days 11-20 and checked every Arabic string: 544 lines with a ⟶ transliteration, covering sentences, mistakes pairs, dialogues, readings, titles, culture notes and quiz options. For each I checked harakat, case endings (objects in -an, idāfa, after prepositions, after لٰكِنَّ, VSO with singular verbs), the present-tense prefixes and suffixes (-īna, -ūna, dual -āni), number–noun polarity (سَبْعَة أَشْخَاص/صُحُون/أَكْوَاب, سَبْعَ مَلَاعِق/شُوَك, عَشَرَة أَرْغِفَة, ثَلَاثَة أَكْوَاب, عَشْر كَلِمَات: all correct), colour agreement, the feminine-singular agreement of plurals of things, and the duals (عَطْشَانَانِ, مُخْتَلِفَيْنِ, تُرِيدَانِ, تَفَضَّلَا: correct). I also checked all 1,721 seg glosses, all 643 tap glosses, every translation and literal, all 70 quiz answer keys and every mistakes right/wrong pair. All round-2 findings are fixed: the day-20 intro and mistake note now say 'as the object of a verb', the طَبَّاخِينَ tap is correct, the present-tense prefixes تَ/يَ/نَ/يَـ have prefix glosses, and مَحْشِيّ has its shadda. I found no wrong Arabic, agreement, verb form, translation, answer key or grammar rule. Errors: 2, both minor. (1) A gloss leak: the app-wide tap gloss for عَلِي now carries the day-81 sense 'Muhammad Ali ruled Egypt' on the dessert أُمّ عَلِي in day 18 (3 tap glosses wrong out of 643). (2) An engine inconsistency: 13 words glossed 'and …' are still transliterated without the clitic hyphen (watafhamu, wanajma, wajubnan …), sometimes next to hyphenated ones in the same line. Arabic strings wrong: 0 of 544."
+}

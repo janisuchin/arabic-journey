@@ -1,0 +1,99 @@
+{
+  "chunk": "letters-pronunciation",
+  "reviewer": "A",
+  "errors": [
+    {
+      "file": "content/course/letters.json; content/course/pronunciation.json",
+      "path": "letters.json [6].example.ar (tap); pronunciation.json [8].examples[0].ar (tap); pronunciation.json [21].pairs[0][0].ar (tap)",
+      "current": "خَيْر=goodness ('good night')",
+      "problem": "On the khāʾ card, the khāʾ page and the khayr/ghayr minimal pair, خَيْر is taught as 'good' / 'goodness' (example.en: good; pairs[0][0].en: goodness). The tap still carries a scenario remark, 'good night', which خَيْر alone never means (and صَبَاح/مَسَاء الْخَيْر are good morning/evening). Reported in rounds 1 and 2, still present (glossary/auto.json: \"خَيْر\").",
+      "category": "gloss",
+      "severity": "minor",
+      "confidence": "high",
+      "fix": "خَيْر=good, goodness",
+      "alsoChange": "fix in these three lessons (or the plain gloss for خَيْر), not as a scenario-specific sense"
+    },
+    {
+      "file": "content/course/letters.json; content/course/pronunciation.json",
+      "path": "letters.json [24].example.ar (tap); pronunciation.json [0].examples[2].ar (tap)",
+      "current": "نُور=Nour (first name)",
+      "problem": "On the nūn card and the vowels page نُور is the example word 'light' (example.en: light), but the tap shows only the girl's name. Round 3 introduced two-reading glosses for words that are both a name and a common word; this one still shows only the name. Reported in rounds 1 and 2, still present.",
+      "category": "gloss",
+      "severity": "minor",
+      "confidence": "high",
+      "fix": "نُور=light (also a first name, Nour)",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/course/pronunciation.json",
+      "path": "[19].diagram (tap)",
+      "current": "وْ=and",
+      "problem": "In the diphthong diagram 'fatha + وْ = aw', وْ is the letter wāw with sukūn (the second half of the glide aw), not the conjunction 'and'. Its neighbour يْ is correctly glossed 'the letter yāʾ'. Reported in round 2, still present (glossary/auto.json: \"وْ\": \"and\").",
+      "category": "gloss",
+      "severity": "minor",
+      "confidence": "high",
+      "fix": "وْ=the letter wāw (with sukūn: the glide aw)",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/course/pronunciation.json",
+      "path": "[1].title ⟶; [4].title ⟶; [7].title ⟶; [8].title ⟶; [9].title ⟶; [11].title ⟶; [13].title ⟶; [17].title ⟶; [20].title ⟶; [21].title ⟶; [24].title ⟶; [26].title ⟶; [25].diagram ⟶; [14].title ⟶",
+      "current": "ḥāʾ () versus hāʾ ()",
+      "problem": "Engine (regression): a bare letter in brackets in a title is now transliterated as nothing, so the learner reads 'ḥāʾ () versus hāʾ ()', 'ʿayn () and ghayn ()', 'qāf () versus kāf ()', 'khāʾ ()', 'tāʾ marbūṭa ()', 'rāʾ (): the tapped r', 'Hamza (): the glottal stop', 'ḍād (): the letter of Arabic', 'ṭāʾ () versus tāʾ ()', 'ghayn (): a soft gargle', 'sīn () and ṣād ()', 'dāl () versus dhāl ()', and in [25].diagram 'the sukūn () marks'. In round 2 these were named (ḥāʾ (ḥāʾ)); the same bare letters outside brackets in tips are still named correctly ('For ḥāʾ, tighten…'). [14].title still reads 'jīm (J)' (bare consonant instead of empty), so the handling is inconsistent as well.",
+      "category": "engine",
+      "severity": "minor",
+      "confidence": "high",
+      "fix": "ḥāʾ (ḥāʾ) versus hāʾ (hāʾ) — i.e. name the bare letter inside brackets as in tips (or drop the bracket from the ⟶ line); same for the other titles, 'jīm (jīm)' and 'the sukūn (sukūn) marks'",
+      "alsoChange": "engine rule for a bare letter or diacritic between brackets"
+    },
+    {
+      "file": "content/course/letters.json; content/course/pronunciation.json",
+      "path": "letters.json [28].sound ⟶; pronunciation.json [13].tip ⟶; pronunciation.json [13].letters[1] ⟶; [13].letters[2] ⟶; [13].letters[3] ⟶; [13].letters[4] ⟶",
+      "current": "a glottal stop, the catch in 'uh-oh'; it often sits on an alif, waw or yaa seat ( i )",
+      "problem": "Engine: bare seated hamzas are still not named. أ ؤ ئ come out as empty strings and إ as 'i'/'I', so the hamza card reads '( i )', the hamza page tip reads 'sit on a seat: , i, or .', and the hamza letter list shows blank or 'I' under four of its five letters (while ء is correctly 'hamza'/'ʾ'). Reported in rounds 1 and 2, still present.",
+      "category": "engine",
+      "severity": "minor",
+      "confidence": "high",
+      "fix": "a glottal stop, the catch in 'uh-oh'; it often sits on an alif, waw or yaa seat (hamza on alif, hamza under alif, hamza on wāw, hamza on yāʾ)",
+      "alsoChange": "pronunciation.json [13].tip ⟶ '…or sit on a seat: hamza on alif, hamza under alif, hamza on wāw or hamza on yāʾ'; [13].letters[1..4] ⟶ ʾa / ʾi / ʾ (on wāw) / ʾ (on yāʾ) or the seat names"
+    }
+  ],
+  "notes": [
+    {
+      "file": "content/course/letters.json",
+      "path": "[9].example.ar",
+      "note": "رَقْم (raqm) for 'number' is correct MSA (Hans Wehr: raqm, pl. arqām) and used consistently across the course; رَقَم (raqam) is also widely heard. Not an error, just checked."
+    },
+    {
+      "file": "content/course/pronunciation.json",
+      "path": "[15].examples[1].ar ⟶; [15].pairs[0][1].ar ⟶; [15].tip ⟶",
+      "note": "The waṣl page teaches the shortened 'fi l-madīna' / 'ila l-yamīn' / 'fi l-bayt', but the ⟶ lines show 'Fī l-madīna', 'Ilā l-yamīn', 'Fī l-bayt', so the tip reads 'fī l-madīna is fi l-madīna'. ALA-LC house style, but on this page it looks like a contradiction; consider a page-level note or leaving prose untransliterated."
+    },
+    {
+      "file": "content/course/pronunciation.json",
+      "path": "[10].tip ⟶; [18].tip/error ⟶; [19].tip ⟶; [5].diagram ⟶; [28].tip ⟶",
+      "note": "Where the prose already gives the transliteration next to the Arabic, the ⟶ line doubles it: 'ṭālib (ṭālib)', 'dhahabtu (dhahabtu)', 'bayt bayt, house', 'al-qamar → al-qamar', 'ʿani l-fīlm (ʿani l-fīlm)'. Harmless but noisy."
+    },
+    {
+      "file": "content/course/pronunciation.json",
+      "path": "[29].tip (tap); [29].examples[2].ar (tap)",
+      "note": "الْقَاهِرَةِ taps to 'Cairo; Cairo (city in Egypt)' (duplicated sense), and its ⟶ is lower-case 'fī l-qāhirati' while [28].pairs[0][1] gives 'Mina l-Qāhira'. Cosmetic."
+    },
+    {
+      "file": "content/course/pronunciation.json",
+      "path": "[24].diagram",
+      "note": "Now 'pulled up and back towards the throat' (round-2 fix applied). Acceptable; 'raised towards the soft palate and pulled back' would match the emphatics/ṭāʾ/ḍād pages word for word."
+    },
+    {
+      "file": "content/course/pronunciation.json",
+      "path": "[22].tip",
+      "note": "'نِهَايَة is said nihāya' illustrates nothing because the Arabic is written without tanwīn; the diagram's 'nihāyatun → nihāya' makes the point. Could write نِهَايَةٌ in the tip."
+    },
+    {
+      "file": "content/course/pronunciation.json",
+      "path": "[23] (taps of سَتَأْتِي)",
+      "note": "سَتَأْتِي is also 'you (m.) will come'; glossed only 'she will come', matching the page's English. Not an error."
+    }
+  ],
+  "summary": "Checked the whole export (1,892 lines): all 31 letter cards (char, name, Arabic name, transliteration, IPA, sun/moon status, sound tip, example) and all 30 pronunciation pages (titles, tips, diagrams, errors, examples, minimal pairs). 299 Arabic strings checked (char/letters/nameAr/examples/pairs), 0 with wrong Arabic: letter names, IPA, the 14/14 sun/moon split, minimal pairs, stress rules, helping-vowel rules (mina, ʿani, humu), pausal forms and case-ending rules are correct, and the round-2 fixes (حَارّ, the -u tap, the ṣād diagram, السَّفَر, حَجَزَ) are in. 501 tap glosses checked (on 373 tap lines), 6 wrong across 3 words (خَيْر x3 'good night', نُور x2 name only, وْ 'and'), all reported in earlier rounds and still present. 374 ⟶ lines checked: two engine problems with bare letters in prose — a regression where a bracketed bare letter in a title now prints '()' (12 titles + 1 diagram; jīm still 'J'), and the unnamed hamza seats. Total 5 errors, 0 major, 5 minor."
+}

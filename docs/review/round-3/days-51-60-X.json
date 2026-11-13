@@ -1,0 +1,56 @@
+{
+  "chunk": "days-51-60",
+  "checker": "X3-6",
+  "verdicts": [
+    {
+      "id": 1,
+      "verdict": "AGREE",
+      "fix": "سَتَكُونُ دَرَجَةُ الْحَرَارَة خَمْسَةَ دَرَجَات",
+      "scope": "day53 sentences[3].mistakes[0].wrong only",
+      "reason": "Real regression. خَمْسَ is the predicate of سَتَكُونُ, so accusative. The wrong side should differ only in the gender polarity (the tāʾ marbūṭa), not also in case. خَمْسَةُ (nominative) wrongly suggests the khabar of كَانَ can be marfūʿ. خَمْسَةَ keeps the mistake audible (khamsata vs khamsa)."
+    },
+    {
+      "id": 2,
+      "verdict": "AGREE",
+      "fix": "tap gloss for سَتَكُونُ on this card → '(it) will be (f)'",
+      "scope": "one-sentence gloss: day53 sentences[3].mistakes[0].wrong and .right only; do not change the app-wide gloss",
+      "reason": "Here سَتَكُونُ is the copula with the subject دَرَجَةُ الْحَرَارَة. 'There will be' teaches the existential structure, which is wrong here. The sentence's own segs already say '(it) will be (f)'."
+    },
+    {
+      "id": 3,
+      "verdict": "AGREE",
+      "fix": "tap gloss for بِخَيْر in these two fields → \"well, in good health ('kullu ʿāmin wa-anta / wa-anti bi-khayr': many happy returns)\"",
+      "scope": "day52 intro and day52 dialogue.culture only; dialogue.lines[4] and quiz[4].options[2] keep the current gloss",
+      "reason": "The tap quotes the feminine wa-anti on the masculine phrase and on the reply وَأَنْتَ بِخَيْر. The neutral 'well, in good health' also fits the reply 'and you too'."
+    },
+    {
+      "id": 4,
+      "verdict": "AGREE",
+      "fix": "نَشْتَرِيَ → 'we buy (after an or lan)'",
+      "scope": "safe as the form gloss (content/glossary/auto.json 'نَشْتَرِيَ'): the subjunctive form is correct after both particles, and this is its only occurrence. Day 51 uses the same label.",
+      "reason": "The option is لَنْ نَشْتَرِيَ, so the label '(after an)' names a particle that is not there."
+    },
+    {
+      "id": 5,
+      "verdict": "CHANGE",
+      "fix": "engine (proseTranslit in src/lang/ar/tap.ts): when a bare letter is dropped because its name is written just before or after it, also drop the brackets left empty around it → 'Which word has sīn, the light s?', 'Which word ends in tāʾ marbūṭa?', 'Which word has ʿayn, the sound from deep in the throat?'",
+      "scope": "engine; ⟶ lines only, the Arabic prompts stay as written",
+      "reason": "The bug is real: day57/58/60 quiz[6] ⟶ lines show '()'. Dropping the repeated name is the engine's intended rule (namedBefore in tap.ts), so the fix should remove the empty brackets, not print 'sīn (sīn)'."
+    },
+    {
+      "id": 6,
+      "verdict": "AGREE",
+      "fix": "engine: no · separator when ه follows a tatweel/hyphen → '-hu', '-hā'; keep tajid·hā",
+      "scope": "engine (src/core/translit.ts s/k/d/t + h separator)",
+      "reason": "Confirmed in the day60 intro ⟶: '-·hu' and '-·hā'. With nothing before the h, the separator is meaningless."
+    },
+    {
+      "id": 7,
+      "verdict": "CHANGE",
+      "fix": "engine: hyphenate wa-/fa-/bi-/li-/ka- whenever the seg/tap gloss is clitic + word (e.g. 'and a camera', 'and the students (of)', 'for two people', 'and for thirty', 'and yellow (f)'), including stems missing from the lexicon: wa-kāmīrā, wa-ṭullāba, wa-taḥtafilā, wa-ṣafrāʾa, wa-maqʿadu, wa-waṣalat, wa-jawāzuka, li-shakhṣayni, wa-bi-thalāthīna, wa-tastaṭīʿūna, wa-zūrū, wa-dafaʿta. EXCLUDE بِخَيْر (bikhayr) and other whole-word glosses such as بِجَانِبِ 'next to': they stay unhyphenated.",
+      "scope": "engine; transliteration only, no Arabic change",
+      "reason": "The inconsistency is real ('wa-qubbaʿa wakāmīrā', 'lishakhṣayni wa-ghurfa li-shakhṣ' in one line). But بِخَيْر is not an error under the house rule: the course glosses it as one word ('fine (lit. in goodness)', newWord id 'bikhayr' since day 2). Change 5 keeps whole-word glosses whole, so bikhayr is consistent with the rest of the course. The brief's 'bi-khayr' example is for the owner to settle; it is not a defect in days 51-60."
+    }
+  ],
+  "summary": "7 findings checked against audit/days-51-60.txt, the day files and src/lang/ar/tap.ts, src/core/translit.ts and content/glossary/auto.json. AGREE 5, CHANGE 2, DISAGREE 0. The day 53 regression (nominative خَمْسَةُ on the wrong side) is real; the wrong side should be خَمْسَةَ. The empty-bracket fix should remove the brackets, not repeat the name. The clitic-hyphen fix must leave the whole-word بِخَيْر (bikhayr) alone. All gloss fixes stay scoped to their card/field, except نَشْتَرِيَ, whose form gloss is safe app-wide."
+}

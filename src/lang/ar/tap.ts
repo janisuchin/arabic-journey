@@ -28,6 +28,7 @@ import {
   readingsLayer,
   scenarios,
   scenes,
+  scopedGlossary,
   vocabulary,
 } from '../../content';
 import type { Seg, Vocab } from '../../content/schema';
@@ -118,7 +119,7 @@ function digitsReading(digits: string, style: TranslitStyle) {
 const CLITIC_TR: Record<string, string> = { و: 'wa', ف: 'fa', ب: 'bi', ل: 'li', ك: 'ka' };
 const CLITIC_EN: Record<string, RegExp> = {
   و: /^\(?and\b/i,
-  ف: /^\(?(?:so|then|and)\b/i,
+  ف: /^\(?(?:so|then|and|because)\b/i,
   ب: /^\(?(?:with|by|in|at|for|on)\b/i,
   ل: /^\(?(?:for|to|so that|in order|because)\b/i,
   ك: /^\(?(?:like|as)\b/i,
@@ -130,19 +131,63 @@ const CLITIC_EN: Record<string, RegExp> = {
 function cliticReading(w: string, r: { text: string; wasl: boolean }): { text: string; wasl: boolean } {
   if (r.text.includes('-')) return r;
   const m = /^([وفبلك])([َِ])(.{2,})$/.exec(w);
-  if (!m || CLITIC_TR[m[1]].slice(-1) !== (m[2] === 'َ' ? 'a' : 'i')) return r;
+  if (!m) return r;
+  const bare = stripHarakat(w);
+  if (CLITIC_WHOLE.has(bare)) return r;
+  // lam with fatha is the "would / indeed" la- (la-shtaraytu); otherwise the clitic's own vowel must match
+  const tr = m[1] === 'ل' && m[2] === 'َ' ? 'la' : CLITIC_TR[m[1]];
+  if (tr.slice(-1) !== (m[2] === 'َ' ? 'a' : 'i')) return r;
   if (!exact) buildIndexes();
   const rest = m[3];
-  if (stripHarakat(rest).length < 2 || !exact!.has(clean(rest))) return r;
-  // and the course must gloss the whole word as clitic + word ("and he", "with a smile"): kalām, biṭāqa stay whole
-  const gloss = handGlossary[w] ?? pick(exact!.get(clean(w)) ?? [], {}) ?? '';
-  if (!CLITIC_EN[m[1]].test(gloss)) return r;
+  if (stripHarakat(rest).length < 2) return r;
+  // two clitics before a name: wa-li-Sāmī
+  const inner = /^([لب])ِ(.+)$/.exec(rest);
+  if (inner && bareNamesSet().has(stripHarakat(inner[2]))) {
+    const name = readingsLayer[inner[2]]?.[0] ?? translitWord(inner[2]).text;
+    if (name) return { text: `${tr}-${inner[1] === 'ل' ? 'li' : 'bi'}-${capitaliseName(name)}`, wasl: false };
+  }
+  // the course must gloss the whole word as clitic + word ("and he", "with a smile"): kalām, biṭāqa stay whole
+  const gloss = handGlossary[w] ?? pick(exact!.get(clean(w)) ?? [], {}) ?? meaningOf(w) ?? '';
+  const en = tr === 'la' ? /^\(?(?:(?:I|we|you|he|she|they|it)\)?\s+)?(?:would|indeed|surely|certainly)\b/i : CLITIC_EN[m[1]];
+  const glossed = en.test(gloss) || CLITIC_FORCE.has(bare);
+  // with no gloss of its own, clitic + a word the course glosses is read as two (bi-miʾatin)
+  const known = !gloss && (exact!.has(clean(rest)) || meaningOf(rest) !== undefined);
+  if (!glossed && !known) return r;
   let restTr = (readingsLayer[rest]?.[0] ?? translitWord(rest).text).replace(/^ʾ/, '');
   if (!restTr) return r;
   namesSet();
   if (nameIndex!.has(rest) || bareNamesSet().has(stripHarakat(rest))) restTr = capitaliseName(restTr);
-  return { text: `${CLITIC_TR[m[1]]}-${restTr}`, wasl: false };
+  return { text: `${tr}-${restTr}`, wasl: false };
 }
+/** Titles and kin words that are followed by a person's name. */
+const TITLE_WORDS = new Set([
+  'أستاذ',
+  'الأستاذ',
+  'أستاذة',
+  'الأستاذة',
+  'دكتور',
+  'الدكتور',
+  'دكتورة',
+  'الدكتورة',
+  'سيد',
+  'السيد',
+  'سيدة',
+  'السيدة',
+  'يا',
+  'بنت',
+  'ابن',
+  'أم',
+  'أبو',
+  'أخو',
+  'عم',
+  'خال',
+]);
+/** A title, also behind a clitic (wa-l-ustādh, bi-l-ustādh). */
+const isTitle = (bare: string) => TITLE_WORDS.has(bare) || TITLE_WORDS.has(bare.replace(/^[وفبل]/, ''));
+/** Words that begin with a clitic letter but are taught as one word. */
+const CLITIC_WHOLE = new Set(['كما', 'لماذا', 'لكن', 'لكي', 'كذلك', 'لذلك', 'بجانب']);
+/** Taught as clitic + word although the gloss does not start with "with/in": the course writes bi-khayr. */
+const CLITIC_FORCE = new Set(['بخير']);
 
 /** A word ending in a vowel or in tanwīn lets the next article or hamzat al-waṣl elide (jiddan l-yawma). */
 const endsInVowel = (w: string, tr: string) => /[aiuāīū]$/.test(tr) || ENDS_TANWIN.test(w);
@@ -161,9 +206,13 @@ function nameReading(w: string): string | undefined {
   const m = /^([وفلبك])([َِ])(.+)$/.exec(w);
   if (!m) return undefined;
   bareNamesSet();
+  const clitic = ({ و: 'w', ف: 'f', ل: 'l', ب: 'b', ك: 'k' } as Record<string, string>)[m[1]] + (m[2] === 'َ' ? 'a' : 'i');
+  // two clitics before a name: wa-li-Sāmī
+  const inner = /^([لب])ِ(.+)$/.exec(m[3]);
+  if (inner && bareNamesSet().has(stripHarakat(inner[2])))
+    return `${clitic}-${inner[1] === 'ل' ? 'li' : 'bi'}-${capitaliseName(readingOf(inner[2]).text)}`;
   const rest = stripHarakat(m[3]);
   if (rest.length < 2 || rest.startsWith('ال') || !bareNamesSet().has(rest)) return undefined;
-  const clitic = ({ و: 'w', ف: 'f', ل: 'l', ب: 'b', ك: 'k' } as Record<string, string>)[m[1]] + (m[2] === 'َ' ? 'a' : 'i');
   return `${clitic}-${capitaliseName(readingOf(m[3]).text)}`;
 }
 
@@ -173,7 +222,14 @@ export function tapTokens(text: string, style: TranslitStyle, names?: Set<string
   const arIdx: number[] = [];
   runs.forEach((t, i) => t.kind === 'ar' && arIdx.push(i));
   const words = arIdx.map((i) => runs[i].text);
-  const nameIdx = new Set(words.map((w, i) => (names?.has(w) ? i : -1)).filter((i) => i >= 0));
+  // a name, or a course name right after a title or kin word (al-ustādh Karīm, bintu Karīm; karīm "generous" elsewhere)
+  const nameIdx = new Set(
+    words
+      .map((w, i) =>
+        names?.has(w) || (i > 0 && isTitle(stripHarakat(words[i - 1])) && bareNamesSet().has(stripHarakat(w))) ? i : -1,
+      )
+      .filter((i) => i >= 0),
+  );
   // elision only between words separated by a plain space
   const tr: string[] = [];
   let prevEndsVowel = false;
@@ -211,7 +267,10 @@ export function proseTranslit(text: string, style: TranslitStyle, after = '', be
     .map((t, i) => {
       if (t.kind === 'punct') return ({ '،': ',', '؟': '?', '؛': ';' } as Record<string, string>)[t.text] ?? t.text;
       if (t.kind === 'num') return t.text; // digits talked about in English stay as written (٠١٢٣ ≠ 0123)
-      const letter = t.kind === 'ar' && t.text.length === 1 ? letterByChar.get(t.text) : undefined;
+      const letter =
+        t.kind === 'ar' && t.text.length === 1
+          ? (letterByChar.get(t.text) ?? (SIGN_NAMES[t.text] ? { name: SIGN_NAMES[t.text] } : undefined))
+          : undefined;
       if (!letter) return t.tr;
       // the English already names it ("ء (hamza)", "hamza ء"): do not say the name twice
       const named =
@@ -219,9 +278,25 @@ export function proseTranslit(text: string, style: TranslitStyle, after = '', be
       return named ? '' : toStyle(letter.name, style);
     })
     .join('')
+    .replace(/\(\s*\)/g, '') // a letter named in the English leaves no empty brackets: "ḥāʾ versus hāʾ"
+    .replace(/\s+([,.;:?!)])/g, '$1')
     .replace(/\s{2,}/g, ' ')
     .trim();
 }
+
+/** Signs that are not letters of the alphabet table, named when they stand alone in prose. */
+const SIGN_NAMES: Record<string, string> = {
+  أ: 'alif with hamza',
+  إ: 'alif with hamza below',
+  ؤ: 'wāw with hamza',
+  ئ: 'yāʾ with hamza',
+  آ: 'alif madda',
+  'ْ': 'sukūn',
+  'ّ': 'shadda',
+  'َ': 'fatḥa',
+  'ُ': 'ḍamma',
+  'ِ': 'kasra',
+};
 
 const plainLatin = (s: string) =>
   s
@@ -244,9 +319,11 @@ function namedBefore(name: string, before: string) {
 
 /** Whole-line transliteration, e.g. for the gold transliteration line. */
 export function translitLine(text: string, style: TranslitStyle, names?: Set<string>) {
-  return tapTokens(text, style, names)
+  const line = tapTokens(text, style, names)
     .map((t) => (t.kind === 'punct' ? (({ '،': ',', '؟': '?', '؛': ';' } as Record<string, string>)[t.text] ?? t.text) : t.tr))
     .join('');
+  // an unvocalised word gets no reading; a line left with punctuation only is not shown ("?" for أنت؟)
+  return /[\p{L}\p{N}]/u.test(line) ? line : '';
 }
 
 // ---------------------------------------------------------------- meanings
@@ -264,6 +341,8 @@ export function translitLine(text: string, style: TranslitStyle, names?: Set<str
 export interface GlossCtx {
   day?: number;
   mistake?: boolean;
+  /** The screen part a tap happens in: scenario:<id>, culture:<id>, placard:<id>, grammar:<id>, vocab:<id>… */
+  place?: string;
 }
 
 interface Sense {
@@ -365,7 +444,11 @@ export function namesSet() {
   if (!plainNames) {
     if (!exact) buildIndexes();
     plainNames = new Set(
-      [...nameIndex!].filter((n) => !(exact!.get(clean(n)) ?? []).some((s) => s.pos !== 'name' && s.src !== 'form')),
+      // a form whose other glosses are proper nouns too (مِصْر: Egypt) is still only a name
+      [...nameIndex!].filter(
+        (n) =>
+          !(exact!.get(clean(n)) ?? []).some((s) => s.pos !== 'name' && s.src !== 'form' && !/^\(?(?:the\s+)?\p{Lu}/u.test(s.en)),
+      ),
     );
   }
   return plainNames;
@@ -452,7 +535,9 @@ const COMPARATIVE = /\b(?:\w{2,}er|more|better|worse|less)\b/i;
  * a name that is also a word (karīm: generous; Karim) and an elative (akbaru: bigger; the biggest).
  */
 function widen(chosen: Sense, senses: Sense[]): string {
-  const others = senses.filter((s) => s.en !== chosen.en).sort(byFreq);
+  // a reading the chosen gloss already contains is not added again ("bigger; bigger, older" → "bigger, older")
+  const head = (en: string) => en.split(/[;(]/)[0].trim().toLowerCase();
+  const others = senses.filter((s) => s.en !== chosen.en && !chosen.en.toLowerCase().includes(head(s.en))).sort(byFreq);
   if (chosen.pos === 'name') {
     const word = others.find((s) => s.pos !== 'name' && s.src !== 'form');
     if (word) return `${word.en}; ${chosen.en}`;
@@ -500,8 +585,19 @@ export function meaningOf(word: string, ctx: GlossCtx = {}): string | undefined 
   if (ctx.mistake && mistakeGlossary[w]) return mistakeGlossary[w];
   const letter = letterByChar.get(bare);
   if (letter && w === bare) return `the letter ${letter.name}`;
+  // a gloss scoped to this place or lesson (content/glossary/scoped.json)
+  const scoped = scopedGlossary[w];
+  const here = scoped && ((ctx.place && scoped[ctx.place]) || (ctx.day !== undefined && scoped[`day:${ctx.day}`]));
+  if (here) return here;
   const hand = handGlossary[w] ?? (isVocalised(w) ? undefined : handGlossary[bare]);
   if (hand) return hand;
+  if (scoped?.['*']) {
+    // the lesson that glosses the form in its own sentences keeps that sense; elsewhere the plain default
+    const all = exact!.get(w) ?? [];
+    const inLesson =
+      ctx.day !== undefined ? all.filter((s) => s.src === 'seg' && s.days.has(ctx.day!)).sort(byFreq)[0] : undefined;
+    return inLesson ? widen(inLesson, all) : scoped['*'];
+  }
   const own = pick(exact!.get(w) ?? [], ctx);
   if (own) return own;
   const forms = bySkeleton!.get(bare) ?? [];

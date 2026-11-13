@@ -1,0 +1,70 @@
+{
+  "chunk": "days-61-70",
+  "checker": "X3-9",
+  "verdicts": [
+    {
+      "id": 1,
+      "verdict": "AGREE",
+      "fix": "أُسْتَاذَة=teacher (f); Mrs, madam (polite title)",
+      "scope": "content/glossary/hand.json entry أُسْتَاذَة (app-wide is safe: both senses are true of the word everywhere, and it mirrors the masculine أُسْتَاذ=professor; teacher; Mr (title)). The day-specific segs 'madam (polite address for a woman)' and 'and the professor (a woman)' stay as they are.",
+      "reason": "Verified audit line 887: the culture note says أُسْتَاذَة is used for colleagues 'even if they are not teachers', while the tap shows only 'teacher (f)'. The masculine tap on the same line already carries the title sense. Real gloss gap; fix correct."
+    },
+    {
+      "id": 2,
+      "verdict": "AGREE",
+      "fix": "مُسَافِر=travelling, away (m); traveller",
+      "scope": "content/glossary/hand.json entry مُسَافِر (app-wide is safe: active participle 'travelling' and noun 'traveller' are both standard senses; matches the feminine مُسَافِرَة=travelling (f)).",
+      "reason": "Verified audit lines 1328, 1353, 1513, 1579: day 66 teaches مُسَافِر as the active participle and quiz d66q1 (options absent | travelling | coming back | sure) keys 'travelling', yet the tap on the quiz word says 'traveller (m)', which is not an option. The two-sense gloss fixes it without losing the noun sense."
+    },
+    {
+      "id": 3,
+      "verdict": "AGREE",
+      "fix": "أَغْلَى=more expensive; the most expensive (before a noun)",
+      "scope": "content/glossary/auto.json entry أَغْلَى (fixes all day-61 taps).",
+      "reason": "Confirmed auto.json line 541: 'more expensive; more expensive; the most expensive' duplicates a sense. The fix matches the house style of أَكْبَرُ=bigger; the biggest (before a noun)."
+    },
+    {
+      "id": 4,
+      "verdict": "AGREE",
+      "fix": "الْخَزْنَة=the Treasury (famous building in Petra)",
+      "scope": "content/glossary/auto.json entry الْخَزْنَة. App-wide is acceptable: the word occurs only in Petra contexts (day63, course/scenes.json, culture/places.json, readings).",
+      "reason": "Confirmed auto.json line 1104 has the duplicated sense 'the Treasury; the Treasury (...)'. Removing the repeat is harmless."
+    },
+    {
+      "id": 5,
+      "verdict": "AGREE",
+      "fix": "الْيَوْمَ نُتَرْجِمُ (day64 dialogue.lines[7].ar); الْيَوْمَ نَتَكَلَّمُ (day65 dialogue.lines[3].ar); الْيَوْمَ نَدْرُسُ (day68 dialogue.lines[0].ar)",
+      "scope": "those three lines only, plus the matching seg word الْيَوْم -> الْيَوْمَ in each line's segs.",
+      "reason": "Verified audit lines 932, 1185, 1970. Sentence-initial الْيَوْم is not in pause; it is the adverbial accusative, and the course writes الْيَوْمَ in that position nine times in this chunk (e.g. day61 'الْيَوْمَ دَفَعْتُ'). The word does not change, so minor, but the fatha is correct Arabic and makes the course consistent."
+    },
+    {
+      "id": 6,
+      "verdict": "AGREE",
+      "fix": "إِنْجِلِيزِيَّة (and الْإِنْجْلِيزِيَّة -> الْإِنْجِلِيزِيَّة)",
+      "scope": "content/days/day64.json and day69.json (every occurrence, including segs) and the matching keys in content/readings/readings.json; in content/glossary/auto.json drop the double-sukūn keys and make sure the bare key \"إِنْجِلِيزِيَّة\": \"English (f)\" exists (today only إِنْجِلِيزِيَّةٌ and the definite forms exist in the correct spelling).",
+      "reason": "Two consecutive sukūns (نْجْ) inside a word are impossible in Arabic vocalisation. Grep of content/: the correct إِنْجِلِيزِيَّة spelling is used about 45 times across the course; the double-sukūn spelling (19 occurrences) is only in day64/day69 and their glossary/readings keys. The fix restores correct, consistent harakat."
+    },
+    {
+      "id": 7,
+      "verdict": "CHANGE",
+      "fix": "Engine/transliteration: when the bracketed bare Arabic letter renders as nothing, drop the empty brackets and the space before them, e.g. 'Which word has qāf, the deep k from the back of the throat?'; 'Which word has a hamza on a yāʾ seat?'; 'Which word ends in tāʾ marbūṭa?'; 'Which word has ʿayn, the sound Daniel finds hardest?'. Arabic prompts unchanged.",
+      "scope": "⟶ lines of day62/63/64/66/67/69/70 quiz[6].prompt (one engine rule, the same as the X3-4 verdict for days 41-50).",
+      "reason": "Confirmed: audit lines 506, 762, 1037, 1562, 1830, 2390, 2654 all show '()'. Real cosmetic engine bug. The reviewer's '(q)' option leads to awkward cases such as 'tāʾ marbūṭa (h/t)'; dropping the empty brackets is the minimal fix and matches the days-41-50 verdict, so one rule covers both chunks."
+    },
+    {
+      "id": 8,
+      "verdict": "AGREE",
+      "fix": "wa-shaʿartu, wa-ʿāfiya, li-shaṭīrati, wa-māʾuhu, wa-saʾursiluhā, wa-ṭūluhu, wa-ṣaʿidū, wa-sayusāʿiduka, fa-hiya, wa-wāḍiḥan, Wa-taʾakkad, wa-muhadhdhaba, wa-tuʿallimunī, wa-taḍḥakāni, fa-huwa",
+      "scope": "engine only (src/lang/ar/tap.ts cliticReading): it splits a clitic only when the remainder is itself an exact glossary headword, so inflected remainders (شَعَرْتُ، شَطِيرَةِ ...) stay fused. No content change.",
+      "reason": "Verified audit lines 136/138 (وَشَعَرْتُ = 'and I felt' -> 'washaʿartu' next to 'bi-l-bard', 'Wa-l-Qāhira') and 154/156 (لِشَطِيرَةِ = 'for a sandwich (of)' -> 'lishaṭīrati'). The code confirms the cause. Hyphenated forms are the declared round-3 house style; Arabic is unaffected."
+    },
+    {
+      "id": 9,
+      "verdict": "AGREE",
+      "fix": "Al-ustādh Karīm; Shīkāghū; Wādī Ram",
+      "scope": "engine only: capitalise a word in a ⟶ line when that line's seg for it is tagged '· name' (كَرِيم Karim, شِيكَاغُو Chicago, وَادِي 'part of Wadi Rum · name'). Do not capitalise كَرِيم globally: it is also the adjective 'generous'.",
+      "reason": "Verified audit line 891 ('Al-ustādh karīm'), 427/462 ('wādī Ram'), and segs at 893, 429, 1224 tagging these words '· name'. Other names in the same lines are capitalised, so lower case invites reading karīm as the adjective."
+    }
+  ],
+  "summary": "Checked all 9 findings against audit/days-61-70.txt, the day JSON files, content/glossary/hand.json and auto.json, content/readings/readings.json and src/lang/ar/tap.ts. 8 AGREE, 1 CHANGE, 0 DISAGREE. All findings are real and minor. The Arabic fixes (fatha on sentence-initial الْيَوْمَ in three lines; إِنْجِلِيزِيَّة instead of the impossible double-sukūn إِنْجْلِيزِيَّة in day64/day69 plus their glossary/readings keys) are correct and match the rest of the course. The gloss fixes (أُسْتَاذَة, مُسَافِر, أَغْلَى, الْخَزْنَة) are safe as glossary-wide entries because every listed sense is true of the word everywhere. CHANGE: the empty '()' in pronunciation prompts is fixed by dropping the empty brackets (same rule as days 41-50), not by inserting symbols such as '(h/t)'. Engine items (clitic hyphen on inflected words; capitalising seg-tagged names) are real; capitalisation must follow the line's '· name' seg, not apply to كَرِيم app-wide."
+}

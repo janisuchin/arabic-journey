@@ -1,0 +1,70 @@
+{
+  "chunk": "days-41-50",
+  "reviewer": "A",
+  "errors": [
+    {
+      "file": "content/days/day45.json",
+      "path": "objectives[3] (tap)",
+      "current": "مَرَّةً=times (after 'how many')",
+      "problem": "Still there from round 2 (#5). The objective lists مَرَّةً, مَرَّتَيْنِ, ثَلَاثَ مَرَّات: once, twice, three times. Here مَرَّةً on its own means 'once', but the tap shows the day-45 one-sentence gloss from كَمْ مَرَّةً (dialogue.lines[3]), so 'once' is glossed as 'times'. Rule 6 of round 3 (one-sentence glosses only in their own sentence) is not being applied within the same day.",
+      "category": "gloss",
+      "severity": "minor",
+      "confidence": "high",
+      "fix": "مَرَّةً=once, one time",
+      "alsoChange": "keep 'times (after how many)' only on dialogue.lines[3] seg"
+    },
+    {
+      "file": "content/days/day46.json",
+      "path": "quiz[6].prompt (transliteration); content/days/day49.json quiz[6].prompt (transliteration); content/days/day50.json quiz[6].prompt (transliteration)",
+      "current": "Which word begins with ghayn (غ)?",
+      "problem": "Regression in the engine: the round-2 note about doubled names ('ghayn (ghayn)') was fixed by dropping the letter, so the ⟶ line now shows empty brackets: 'Which word begins with ghayn ()?', day 49 'Which word has qāf (), the deep k…', day 50 'Which word begins with ghayn (), the soft gargle?'. The learner sees a pair of empty brackets where the letter was. Day 48 quiz[6] ('ḥ (ḥāʾ), not h (hāʾ)') still renders, so it is the de-duplication rule that blanks it.",
+      "category": "engine",
+      "severity": "minor",
+      "confidence": "high",
+      "fix": "when the letter name already precedes the brackets, drop the brackets too ('Which word begins with ghayn?') or keep the Arabic letter itself inside them",
+      "alsoChange": "the doubled 'put sa- (sa-) in front' in day50 intro is the same rule not applied (see notes)"
+    },
+    {
+      "file": "content/days/day43.json",
+      "path": "dialogue.lines[6].ar; dialogue.lines[10].ar; reading.ar; content/days/day42.json dialogue.lines[3].ar; content/days/day44.json dialogue.lines[9].ar; dialogue.lines[11].ar; content/days/day45.json dialogue.lines[2].ar; reading.ar; content/days/day46.json dialogue.lines[14].ar; content/days/day47.json dialogue.lines[8].ar; content/days/day48.json dialogue.lines[6].ar; content/days/day50.json dialogue.lines[4].ar; dialogue.lines[12].ar",
+      "current": "مِسْكِين يَا دَانْيَال! لِذٰلِكَ أَنْفُكَ أَحْمَر وَصَوْتُكَ ضَعِيف الْيَوْمَ.",
+      "problem": "Round 3 says a word glossed as clitic + word is hyphenated (wa-huwa), but about 15 such words in this chunk are still run together, beside hyphenated twins in the same lines: 'waṣawtuka' (seg 'and your voice'), 'waʿaynāya, wayadāya' (43 l10), 'waẓahruhu' (43 reading), 'wamaʿahu' (42 l3, while 42 reading has 'wa-maʿahumā'), 'waḥalquhu' (44 l9), 'washarāb / washarāban' (44 l11, 45 l2, 45 reading, beside 'wa-suʿāl', 'wa-ḥarāra'), 'liʾannakumā' (46 l14, while elsewhere 'li-annī', 'li-annaka'), 'fahuwa … liḥalqika' (47 l8), 'liyataʿāfā' (48 l6), 'fahiya' (50 l4), 'wasaʾasʾalukum' (50 l12). The Arabic is correct; only the ⟶ line is inconsistent, so a learner cannot see where 'and/for/so' ends.",
+      "category": "engine",
+      "severity": "minor",
+      "confidence": "medium",
+      "fix": "transliteration: wa-ṣawtuka, wa-ʿaynāya, wa-yadāya, wa-ẓahruhu, wa-maʿahu, wa-ḥalquhu, wa-sharāb, li-annakumā, fa-huwa, li-ḥalqika, li-yataʿāfā, fa-hiya, wa-saʾasʾalukum",
+      "alsoChange": "Arabic unchanged"
+    },
+    {
+      "file": "content/days/day43.json",
+      "path": "dialogue.lines[14].ar; dialogue.culture",
+      "current": "اللّٰهُ يُسَلِّمُكِ يَا لَيْلَى! شُكْرًا لَكُمْ جَمِيعًا، وَإِلَى اللِّقَاء.",
+      "problem": "The Arabic is vocalised اللّٰهُ (subject, -u), but the ⟶ line gives 'Allāh yusallimuki' (and 'allāh yusallimuki' in the culture note): the case vowel is dropped mid-phrase, although the engine keeps mid-phrase vowels everywhere else (Ṣabāḥu l-khayr, Juḥā wa-bnuhu). The learner hears a pause form where none is possible.",
+      "category": "engine",
+      "severity": "minor",
+      "confidence": "medium",
+      "fix": "transliteration: Allāhu yusallimuki yā Laylā!",
+      "alsoChange": "culture line: allāhu yusallimuki; keep 'in shāʾa llāh' (pause) as is"
+    },
+    {
+      "file": "content/days/day41.json",
+      "path": "dialogue.speakers[0].nameAr; reading.ar; content/days/day42.json dialogue.speakers[0].nameAr; content/days/day43.json dialogue.speakers[0].nameAr; content/days/day50.json dialogue.speakers[0].nameAr",
+      "current": "الْأُسْتَاذ كَرِيم",
+      "problem": "The name Karim is transliterated in lower case: 'Al-ustādh karīm' (and 'Yā ustādh karīm' in day 41 reading), while every other name is capitalised (Ad-duktūra Fāṭima, Dānyāl, Laylā). The two-readings gloss ('generous; Karim') seems to make the engine treat it as the adjective. Here it is clearly the name.",
+      "category": "engine",
+      "severity": "minor",
+      "confidence": "medium",
+      "fix": "transliteration: Al-ustādh Karīm; Yā ustādh Karīm",
+      "alsoChange": "Arabic unchanged"
+    }
+  ],
+  "notes": [
+    { "file": "content/days/day50.json", "path": "dialogue.lines[7].segs (يَرَ); dialogue.lines[8].segs (تَرَ)", "note": "Glosses 'he see (after lam)' and 'you see (after lam, to a man)' read as broken English and differ from the house style 'he sees (form after 'lam')' used on day 41. Meaning is right." },
+    { "file": "content/days/day45.json", "path": "sentences[4].segs (يَرَى)", "note": "يَرَى after أَنْ is glossed 'he sees' without '(after an)', unlike every other verb after an in the chunk. The form is correct (subjunctive = yarā); a learner might think the -a rule failed." },
+    { "file": "content/days/day41.json", "path": "dialogue.lines[1].ar; reading.ar", "note": "تَعْبَان is widely used but leans colloquial; the course itself uses MSA مُتْعَب from day 45. Consider مُتْعَبًا (after kuntu) for consistency." },
+    { "file": "content/days/day44.json", "path": "dialogue.lines[4].ar; content/days/day48.json dialogue.lines[2].ar", "note": "After 38 / 37 the counted noun is accusative singular (دَرَجَةً). The bare دَرَجَة is accepted as a pause form under the house style, but these lines teach counting with numbers above 10, so the -an could be shown." },
+    { "file": "content/days/day50.json", "path": "intro", "note": "'put sa- (sa-) in front' is still doubled in the transliteration line (cosmetic; noted in round 2)." },
+    { "file": "content/days/day48.json", "path": "dialogue.lines[3].ar vs content/days/day50.json dialogue.lines[5].ar", "note": "امْتِحَان (day 48) vs اِمْتِحَان with a kasra on the waṣl alif (day 50). Both are read the same, but the spelling convention differs." }
+  ],
+  "summary": "I read all 2,732 lines of days 41-50: 512 Arabic strings with a ⟶ line (sentences, mistake cards, dialogues, readings, quiz items, prose), about 2,100 seg glosses in context, and all 302 tap lines (620 tap glosses), and opened the sources where needed. The round-1/2 fixes have held. لَا and مَا now show the multi-sense glosses, يَحْضُرُ is present, and the form glosses for اِلْعَبِي and تَنَفَّسُوا are acceptable. I re-checked the grammar and found it all correct: lam + jussive (including lam tarudda, lam arahu, lam yara, -i before al-), an + subjunctive (ashtariya, an tashrabī without -na), imperatives and prohibitions (ibqa, irtaḥ, khudh, kul, nam, lā tansa/tansay, lā tansaw, ilʿabā), faʿlān feminines, body-part gender, number-noun agreement (thamānin/sabʿ wa-thalāthūna daraja, thalātha marrāt, miʾa wa-ʿishrūna junayhan, khamsa daqāʾiq), verb-subject order in the Juha story, and every quiz answer key. Arabic strings wrong: 0. Tap glosses wrong: 1 of 620 (مَرَّةً='times' on day 45 objectives, still unfixed from round 2). Errors: 5, all minor (1 gloss, 4 engine). The engine issues: empty brackets where a letter used to be doubled (a regression, 3 quiz prompts); inconsistent hyphenation of wa-/li-/fa- in about 15 words, against the round-3 clitic rule; a dropped -u on Allāhu mid-phrase; and the name Karīm in lower case. I found no major errors."
+}

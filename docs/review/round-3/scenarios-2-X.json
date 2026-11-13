@@ -1,0 +1,98 @@
+{
+  "chunk": "scenarios-2",
+  "checker": "X3-6",
+  "verdicts": [
+    {
+      "id": 1,
+      "verdict": "AGREE",
+      "fix": "الْمَكْتَب=the desk, the counter; the office",
+      "scope": "scene-only (scenes.json spots for airport-checkin, bank, machines, school); keep the app-wide gloss of الْمَكْتَب",
+      "reason": "مَكْتَب means desk/counter as well as office. The spots are labelled counter/desk, and 'the office' alone misleads there."
+    },
+    {
+      "id": 2,
+      "verdict": "AGREE",
+      "fix": "الْعَرَبَة=the trolley, the cart",
+      "scope": "scene-only (airport-checkin spots[5], supermarket spots[0]); keep 'the carriage' app-wide, which is right for metro/train contexts",
+      "reason": "عَرَبَة is a trolley/cart in these photos; 'carriage' is a different sense."
+    },
+    {
+      "id": 3,
+      "verdict": "AGREE",
+      "fix": "لِكُلِّ=for every, for each",
+      "scope": "scenarios[16].mistakes[0].wrong and .right taps only",
+      "reason": "كُلّ + singular indefinite (كِيلُو) = every; the dialogue seg on the same sentence already says 'for every'."
+    },
+    {
+      "id": 4,
+      "verdict": "AGREE",
+      "fix": "هُوَ=he, it (m)",
+      "scope": "these two taps (airport-checkin spots[3].note; scenarios[28] dialogue.culture). Also safe as the app-wide form gloss, since هُوَ always covers he/it",
+      "reason": "In هَلْ هٰذَا هُوَ الطَّابُور؟ and هَلْ هُوَ حَلَال؟ the pronoun refers to a thing."
+    },
+    {
+      "id": 5,
+      "verdict": "AGREE",
+      "fix": "سَيِّدَات=ladies, women",
+      "scope": "scenarios[30] dialogue.culture only",
+      "reason": "Here the note is about women's metro cars, not toilets; the '(toilets)' sense belongs to the sign lesson."
+    },
+    {
+      "id": 6,
+      "verdict": "AGREE",
+      "fix": "السَّاعَة=the clock; the hour",
+      "scope": "scene-only (machines spots[2])",
+      "reason": "The spot points at a wall clock, a standard sense of سَاعَة that the current tap leaves out."
+    },
+    {
+      "id": 7,
+      "verdict": "AGREE",
+      "fix": "طَابُور=queue",
+      "scope": "airport-checkin caption tap. Also safe app-wide: this is the only export occurrence of indefinite طَابُور",
+      "reason": "The word stands alone in the caption ('wait in the طَابُور'), not in idāfa."
+    },
+    {
+      "id": 8,
+      "verdict": "AGREE",
+      "fix": "مُدِيرَة=manager, director (a woman)",
+      "scope": "job-interview caption only; the dialogue seg مُدِيرَةُ الْمَرْكَز keeps '(of)'",
+      "reason": "The word stands alone in the caption, so the construct '(of)' is wrong there."
+    },
+    {
+      "id": 9,
+      "verdict": "AGREE",
+      "fix": "خِزَانَةُ=cabinet, case (of) ('display case')",
+      "scope": "scene-only (museum-info spots[5], phone-shop spots[0])",
+      "reason": "خِزَانَةُ الْعَرْض is a display case/cabinet; 'wardrobe' misleads, and the construct state needs '(of)'."
+    },
+    {
+      "id": 10,
+      "verdict": "AGREE",
+      "fix": "أَغْلَى=more expensive; the most expensive (before a noun)",
+      "scope": "safe app-wide (content/glossary/auto.json 'أَغْلَى'); also check the two-readings generator for other duplicated senses",
+      "reason": "The duplicated 'more expensive' is a generator artefact. The corrected two-reading gloss is accurate for the elative."
+    },
+    {
+      "id": 11,
+      "verdict": "CHANGE",
+      "fix": "الْجَبَل=the mountain",
+      "scope": "scene-only (lost-phone-help spots[8]). Do NOT change the app-wide gloss 'the mountain(s)'",
+      "reason": "Correct for the photo spot. But the app-wide '(s)' is deliberate: on days 31-40 فِي الْجَبَل / الْجَبَل فِي الصَّيْف! use the generic singular for 'in the mountains', a genuine MSA usage. An app-wide change would mis-gloss that lesson."
+    },
+    {
+      "id": 12,
+      "verdict": "AGREE",
+      "fix": "bi-thalāthimiʾati junayh",
+      "scope": "scenarios[27].mistakes[1].why only",
+      "reason": "The straight apostrophe breaks the house ʾ symbol, and the split 'thalāthi-mi'ati' does not match the ⟶ line. The fix matches the course's one-word ثَلَاثِمِئَة."
+    },
+    {
+      "id": 13,
+      "verdict": "AGREE",
+      "fix": "engine: hyphenate every seg-glossed clitic + word (wa-khuḍār wa-zabādī li-ʿashāʾi, wa-shahādatī, li-laylati, wa-bi-thamānīna, bi-miʾatayni …)",
+      "scope": "engine; transliteration only. Same root cause as days-51-60 #7: fix once, and keep whole-word glosses (e.g. bikhayr, bijānibi 'next to') whole",
+      "reason": "Confirmed: the segs gloss these as clitic + word ('and vegetables', 'for two hundred', 'for the night (of)'), while the same lines hyphenate wa-dajāj and bi-miʾa."
+    }
+  ],
+  "summary": "13 findings checked against audit/scenarios-2.txt, scenarios.json/scenes.json and content/glossary/auto.json. AGREE 12, CHANGE 1, DISAGREE 0. All the scene/tap gloss findings are real; the Arabic itself is correct. The one CHANGE: الْجَبَل 'the mountain' must stay scene-only, because the app-wide 'the mountain(s)' is intended for 'in the mountains' on days 31-40. Gloss fixes are scoped to the scene, card or culture note, except هُوَ, طَابُور and أَغْلَى, which are safe as form glosses. The engine clitic-hyphen finding shares its root with days-51-60 #7."
+}

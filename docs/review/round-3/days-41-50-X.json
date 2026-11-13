@@ -1,0 +1,42 @@
+{
+  "chunk": "days-41-50",
+  "checker": "X3-4",
+  "verdicts": [
+    {
+      "id": 1,
+      "verdict": "AGREE",
+      "fix": "مَرَّةً=once, one time",
+      "scope": "day45 objectives[3] tap only; the 'times (after how many)' gloss stays on day45 dialogue.lines[3] seg (كَمْ مَرَّةً) only",
+      "reason": "Verified in audit line 1137: the objective lists مَرَّةً، مَرَّتَيْنِ، ثَلَاثَ مَرَّات (once, twice, three times), so مَرَّةً here means 'once'. The tap shows the one-sentence gloss from كَمْ مَرَّةً. The same day already glosses مَرَّةً 'once, one time' in dialogue lines 5 and 7."
+    },
+    {
+      "id": 2,
+      "verdict": "CHANGE",
+      "fix": "Engine/transliteration: when the bracketed Arabic letter's reading duplicates the letter name just before it, drop the brackets and the space too: 'Which word begins with ghayn?'; 'Which word has qāf, the deep k said at the back of the throat?'; 'Which word begins with ghayn, the soft gargle?'. Arabic prompts unchanged.",
+      "scope": "⟶ lines of day46 quiz[6].prompt, day49 quiz[6].prompt, day50 quiz[6].prompt (and any other prompt hit by the same de-duplication rule)",
+      "reason": "Confirmed: audit lines 1649, 2439, 2715 show empty '()' in the ⟶ line. The reviewer offered two alternatives; one definite fix is needed. Dropping the empty brackets is the minimal fix consistent with the round-2 de-duplication. Cosmetic, no Arabic changes."
+    },
+    {
+      "id": 3,
+      "verdict": "AGREE",
+      "fix": "transliteration: wa-ṣawtuka, wa-ʿaynāya, wa-yadāya, wa-ẓahruhu, wa-maʿahu, wa-ḥalquhu, wa-sharāb / wa-sharāban, li-annakumā, fa-huwa, li-ḥalqika, li-yataʿāfā, fa-hiya, wa-saʾasʾalukum",
+      "scope": "engine rule (clitic hyphenation) for the listed words; Arabic unchanged",
+      "reason": "Confirmed in the export (e.g. line 685 'waṣawtuka', 1006 'washarāb … Wa-shrab', 1573 'liʾannakumā', 1812 'fahuwa … liḥalqika', 2649 'wasaʾasʾalukum') while the segs gloss these as clitic + word ('and your voice', 'because you two', 'because it'). Round-3 rule 5 requires the hyphen; same lines contain hyphenated twins. Note li-annakumā drops the ʾ after the hyphen, as in the existing li-annī."
+    },
+    {
+      "id": 4,
+      "verdict": "AGREE",
+      "fix": "transliteration: Allāhu yusallimuki yā Laylā! (culture line: allāhu yusallimuki)",
+      "scope": "engine: FIXED_TRANSLIT for الله (src/core/translit.ts) should keep a written case vowel mid-phrase; check that 'in shāʾa llāh' and other waṣl/pause uses stay as they are",
+      "reason": "Source day43.json line 957 and the culture note vocalise اللّٰهُ with damma (subject of يُسَلِّمُ). The fixed reading 'allāh' in translit.ts discards the vowel, so the ⟶ shows a pause form mid-phrase, unlike every other word. Arabic is correct."
+    },
+    {
+      "id": 5,
+      "verdict": "AGREE",
+      "fix": "transliteration: Al-ustādh Karīm; Yā ustādh Karīm",
+      "scope": "⟶ lines of speaker names day41/42/43/50 and day41 reading.ar; Arabic unchanged",
+      "reason": "Confirmed: audit lines 94, 200, 365, 626, 2554 show 'karīm' in lower case although the reading seg itself tags كَرِيم as 'Karim (first name) · name'. Here it is clearly the name and other names are capitalised."
+    }
+  ],
+  "summary": "X3-4 checked all 5 findings against audit/days-41-50.txt, the day files and src/core/translit.ts. All are real and minor; none touches the Arabic. 4 AGREE, 1 CHANGE (#2: pick one definite fix, drop the empty brackets), 0 DISAGREE. #1 must stay scoped to the day-45 objective tap; #4 is an engine change to the fixed reading of الله and must not disturb waṣl/pause readings such as in shāʾa llāh."
+}

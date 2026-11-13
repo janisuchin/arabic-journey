@@ -1,0 +1,98 @@
+{
+  "chunk": "scenarios-1",
+  "checker": "X3-5",
+  "verdicts": [
+    {
+      "id": 1,
+      "verdict": "AGREE",
+      "fix": "طَوِيلَةً=long (f, after 'was')",
+      "scope": "scenarios.json scenarios[11].mistakes[0].right only (one-sentence gloss); leave day33's 'tall (f, after 'is not')' for Nour",
+      "reason": "Export l.2214: on كَانَتِ الرِّحْلَةُ طَوِيلَةً the tap says 'tall (f, after 'is not')', a gloss leaked from day33 (نُور لَيْسَتْ طَوِيلَةً). A trip is long, and the -an here is after kānat. Major: contradicts the card's own rule."
+    },
+    {
+      "id": 2,
+      "verdict": "AGREE",
+      "fix": "الْإِشَارَة=the traffic light; the signal, sign",
+      "scope": "scenes.json directions scene only (caption, spots[0].ar, spots[0].note)",
+      "reason": "l.1270/1273/1277: all three taps say 'pointing' while the spot label, caption and note teach 'the traffic light'. Major on the spot that teaches the word."
+    },
+    {
+      "id": 3,
+      "verdict": "AGREE",
+      "fix": "مَرَّةً=time(s) (after kam: 'how many times'); once",
+      "scope": "scenarios[13].intro only",
+      "reason": "l.2476: in كَمْ مَرَّةً ('how many times') the tap 'once, one time' makes the phrase read 'how many once'; the dialogue seg already has 'times (after 'how many')'."
+    },
+    {
+      "id": 4,
+      "verdict": "AGREE",
+      "fix": "وَهُوَ=and he",
+      "scope": "scenarios[14].intro only (the birthday phrase)",
+      "reason": "l.2676: in كُلُّ عَامٍ وَهُوَ بِخَيْر هُوَ is the boy; 'and it (m)' is wrong here, and the dialogue seg says 'and he'."
+    },
+    {
+      "id": 5,
+      "verdict": "AGREE",
+      "fix": "تَفَضَّلْ=please (come in / sit / go ahead); here you are (to a man)",
+      "scope": "scenarios[9].intro only",
+      "reason": "l.1738-1740: the intro glosses it as '(please, come in)' and the tap shows only 'here you are'. The fuller gloss covers the taught sense."
+    },
+    {
+      "id": 6,
+      "verdict": "AGREE",
+      "fix": "تَفَضَّلْ=please (come in / sit / go ahead); here you are (to a man)",
+      "scope": "scenes.json appointment-time spots[0].note only",
+      "reason": "l.725-727: تَفَضَّلْ، اِجْلِسْ 'please, sit down'; 'here you are' does not fit."
+    },
+    {
+      "id": 7,
+      "verdict": "AGREE",
+      "fix": "تَفَضَّلِي=please (come in / sit / go ahead); here you are (to a woman)",
+      "scope": "scenes.json doctor spots[2].note only",
+      "reason": "l.2433-2435: the doctor points to the couch and says تَفَضَّلِي (please); 'here you are' does not fit."
+    },
+    {
+      "id": 8,
+      "verdict": "AGREE",
+      "fix": "هُوَ=it (m), he",
+      "scope": "scenes.json restaurant spots[6].note only",
+      "reason": "l.940-942: هَلْ هُوَ حَارّ؟ is about the chili pepper, 'Is it hot?'; 'he' alone is misleading."
+    },
+    {
+      "id": 9,
+      "verdict": "AGREE",
+      "fix": "الْجَبَل=the mountain",
+      "scope": "scenes.json holiday-story spots[5].ar and weather-plans spots[2].ar only; do not touch day39, where 'the mountain(s)' is a deliberate one-sentence gloss for the generic 'to the mountains'",
+      "reason": "l.2272, l.2993: a single-word photo label for 'the mountain'; the '(s)' leaks from day39's sentence gloss and suggests the singular is also the plural (الْجِبَال)."
+    },
+    {
+      "id": 10,
+      "verdict": "AGREE",
+      "fix": "مَقْهَى=café, coffeehouse",
+      "scope": "scenes.json cafe caption only; keep 'café (of)' in day23 where the word is the first term of an idāfa",
+      "reason": "l.127-129: مَقْهَى stands alone in the caption; '(of)' leaks from day23's idāfa gloss."
+    },
+    {
+      "id": 11,
+      "verdict": "AGREE",
+      "fix": "السَّاعَة=the clock; the hour, the time",
+      "scope": "scenes.json family-visit spots[5].ar only",
+      "reason": "l.1912-1915: the photo spot teaches 'the clock' but the tap never gives that sense. Medium but real for a photo-label spot."
+    },
+    {
+      "id": 12,
+      "verdict": "CHANGE",
+      "fix": "Content fix, not an engine rule: give the construct first term its case vowel so the -t is read. scenarios[0].dialogue.lines[5].ar: 'نَعَم، قِطْعَة كَعْك وَاحِدَة، مِنْ فَضْلِكَ.' → 'نَعَم، قِطْعَةَ كَعْك وَاحِدَة، مِنْ فَضْلِكَ.' (answer to تُرِيدُ شَيْئًا, so accusative); scenarios[0].dialogue.lines[9].ar: 'ثَلَاثَة دَنَانِير، مِنْ فَضْلِكَ.' → 'ثَلَاثَةُ دَنَانِير، مِنْ فَضْلِكَ.' (answer to كَمِ الْحِسَاب, predicate, nominative); scenarios[5].dialogue.lines[4].ar: 'وَالْكَعْكَة بِعَشَرَة جُنَيْهَات' → 'وَالْكَعْكَة بِعَشَرَةِ جُنَيْهَات' (genitive after بِـ); scenarios[5].mistakes[0].right: 'خَمْسَة أَرْغِفَة' → 'خَمْسَةُ أَرْغِفَة' and, to keep the card's pair parallel, mistakes[0].wrong: 'خَمْسَة رَغِيف' → 'خَمْسَةُ رَغِيف'; scenarios[9].dialogue.lines[8].ar: 'وَخُذْ قِطْعَة كَعْك أُخْرَى!' → 'وَخُذْ قِطْعَةَ كَعْك أُخْرَى!' (object of خُذْ).",
+      "scope": "these six strings only; transliteration then follows (qiṭʿata kaʿk, thalāthatu danānīr, bi-ʿasharati junayhāt, khamsatu arghifa, khudh qiṭʿata kaʿk)",
+      "reason": "Real: l.56 'qiṭʿa kaʿk', l.80 'Thalātha danānīr', l.1003 'bi-ʿashara junayhāt', l.1052 'Khamsa arghifa', l.1811 'qiṭʿa kaʿk' teach a pronunciation with the construct -t dropped, which is wrong in MSA (no pause between muḍāf and muḍāf ilayh). But an engine rule cannot tell construct from noun + adjective (قِطْعَة كَبِيرَة must stay qiṭʿa kabīra), and the engine never guesses a vowel, so the fix belongs in the Arabic. The cases chosen follow the syntax of each line."
+    },
+    {
+      "id": 13,
+      "verdict": "AGREE",
+      "fix": "Engine: hyphen after every clitic glossed as clitic + word (wa-kāmīrā, wa-karwāsūn, wa-qiṭʿatāni, wa-thalāthu, wa-ʿasalan, bi-sabʿimiʾa, bi-ṭaʿmi, li-naṣila, li-adʿuwaka without the stray ʾ, wa-bi-kami, bi-naʿnāʿ) and keep كَمَا whole as kamā.",
+      "scope": "engine (tap.ts cliticReading); no content change",
+      "reason": "Confirmed: l.2022 'kitāb wakāmīrā wa-miftāḥu' (two styles in one line), l.997 'Bi-kami … Wa-bikami', l.2704 'liʾadʿuwaka' (the ʾ survives because the stem أَدْعُوَكَ is not a glossary entry, so the split is skipped), l.1412 'Ka-mā' (كَمَا is a single word, ALA-LC kamā). Same root cause as days-21-30 #1."
+    }
+  ],
+  "summary": "13 findings checked against audit/scenarios-1.txt, scenarios.json/scenes.json and tap.ts. AGREE 12 / CHANGE 1 / DISAGREE 0. All gloss findings are real context leaks from one-sentence glosses elsewhere (day33 طَوِيلَةً, day39 الْجَبَل, day23 مَقْهَى) and must be fixed as scene/line-scoped glosses only. #12 changed from an engine rule to a content fix (case vowel on the construct first term in six strings), because the engine cannot distinguish construct from noun + adjective."
+}

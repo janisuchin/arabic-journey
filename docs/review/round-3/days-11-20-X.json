@@ -1,0 +1,21 @@
+{
+  "chunk": "days-11-20",
+  "checker": "X3-2",
+  "verdicts": [
+    {
+      "id": 1,
+      "verdict": "CHANGE",
+      "fix": "App-wide auto glossary (content/glossary/auto.json, key عَلِي, and علي if present): 'Ali (first name)'. Day 18 taps on عَلِي (sentences[3].mistakes[0].wrong, sentences[3].mistakes[0].right, dialogue.culture): 'Ali (first name): Umm Ali is a bread pudding'. Day 81 keeps its hand gloss 'Ali (name; Muhammad Ali ruled Egypt in the 1800s)'.",
+      "scope": "the dessert sense is day-18 only and the Muhammad Ali sense is day-81 only; the app-wide entry must be the plain name",
+      "reason": "The leak is real: auto.json line 4451 joins the day-81 history sense and the day-18 dessert sense into one app-wide gloss, so all three day-18 taps start with 'Muhammad Ali ruled Egypt'. The reviewer's fix would make the dessert sentence ('Umm Ali is a bread pudding') the app-wide gloss, which is itself a one-sentence gloss; rule 6 requires the plain gloss app-wide and the sentence gloss scoped to its lesson. عَلِي currently occurs only in days 18 and 81."
+    },
+    {
+      "id": 2,
+      "verdict": "AGREE",
+      "fix": "wa-tafhamu; fa-ṣadīquka; wa-najma; wa-jubnan; wa-ṭaʿmiyyatan; wa-musaqqaʿa; wa-makarūna; wa-baṣal; wa-salaṭatu; wa-khuḍār; wa-shaṭīrata",
+      "scope": "engine transliteration rule (apply the clitic hyphen to every proclitic وَ/فَ the seg glosses as 'and …'/'because …/so …', whether or not the stem is in the lookup); no Arabic or gloss change",
+      "reason": "Confirmed in the export: e.g. line 769 'watafhamu' (seg 'and you understand'), line 1351 'waṭaʿmiyyatan … wajubnan, wa-tashrabu', line 2498 'wa-dajāj wakhuḍār' in one line. This contradicts round-3 change 5 and shows two styles side by side. The Arabic is correct."
+    }
+  ],
+  "summary": "2 findings checked against audit/days-11-20.txt, content/days/day18.json, day81.json and content/glossary/auto.json: 1 AGREE, 1 CHANGE, 0 DISAGREE. The CHANGE keeps the fix inside its context: plain 'Ali (first name)' app-wide, the Umm Ali dessert gloss for day 18 only, the Muhammad Ali sense for day 81 only."
+}

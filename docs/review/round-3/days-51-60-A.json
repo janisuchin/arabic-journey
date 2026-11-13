@@ -1,0 +1,106 @@
+{
+  "chunk": "days-51-60",
+  "reviewer": "A",
+  "errors": [
+    {
+      "file": "content/days/day53.json",
+      "path": "sentences[3].mistakes[0].wrong",
+      "current": "سَتَكُونُ دَرَجَةُ الْحَرَارَة خَمْسَةُ دَرَجَات",
+      "problem": "Regression from the round-2 fix. The card teaches one mistake: gender polarity (khamsa for khams before the feminine darajāt). The right side has خَمْسَ in the accusative, because it is the predicate of سَتَكُونُ. The round-2 fix gave the wrong side a nominative -u (خَمْسَةُ), so it now differs from the right side in both gender and case. A learner may think the case vowel is part of the mistake, or that the predicate of كَانَ/يَكُونُ can be nominative, which contradicts the day 54 rule. The wrong side should differ in the tāʾ marbūṭa only. It stays audibly different from khamsa: khamsata vs khamsa.",
+      "category": "arabic",
+      "severity": "minor",
+      "confidence": "medium",
+      "fix": "سَتَكُونُ دَرَجَةُ الْحَرَارَة خَمْسَةَ دَرَجَات",
+      "alsoChange": "tap gloss for خَمْسَةَ stays 'five'; transliteration follows automatically (khamsata darajāt)"
+    },
+    {
+      "file": "content/days/day53.json",
+      "path": "sentences[3].mistakes[0].wrong; sentences[3].mistakes[0].right",
+      "current": "سَتَكُونُ",
+      "problem": "Still present from round 2 (not fixed). On this mistake card ('The temperature will be five degrees') the tap gloss for سَتَكُونُ is 'there will be (f)'. Here it is the copula 'will be', with دَرَجَةُ الْحَرَارَة as subject; the sentence's own segs say '(it) will be (f)'. 'There will be' teaches a different structure (سَتَكُونُ هُنَاكَ).",
+      "category": "gloss",
+      "severity": "minor",
+      "confidence": "high",
+      "fix": "tap gloss for سَتَكُونُ on this card → '(it) will be (f)'",
+      "alsoChange": "one-sentence gloss: this card only"
+    },
+    {
+      "file": "content/days/day52.json",
+      "path": "intro; dialogue.culture",
+      "current": "بِخَيْر",
+      "problem": "Still present from round 2. The intro contrasts كُلُّ عَامٍ وَأَنْتَ بِخَيْر (to a man) with وَأَنْتِ (to a woman). The culture note gives the masculine phrase and the reply وَأَنْتَ بِخَيْر ('and you too'). In both places every بِخَيْر shows the tap gloss \"well ('kullu ʿāmin wa-anti bi-khayr': many happy returns)\". So the masculine phrase is glossed with the feminine wa-anti, and the reply 'and you too' is labelled 'many happy returns'.",
+      "category": "gloss",
+      "severity": "minor",
+      "confidence": "medium",
+      "fix": "tap gloss for بِخَيْر in these two fields → \"well, in good health ('kullu ʿāmin wa-anta / wa-anti bi-khayr': many happy returns)\"",
+      "alsoChange": "keep the current gloss in dialogue.lines[4] and quiz[4].options[2], where the feminine is correct"
+    },
+    {
+      "file": "content/days/day52.json",
+      "path": "quiz[3].options[2]",
+      "current": "لَنْ نَشْتَرِيَ",
+      "problem": "In the option لَنْ نَشْتَرِيَ the tap gloss for نَشْتَرِيَ is 'we buy (after an)'. There is no an in the line; the verb follows lan. On day 51 the course labels these forms '(after an or lan)' or '(after lan)'. Here the label names the wrong particle.",
+      "category": "gloss",
+      "severity": "minor",
+      "confidence": "medium",
+      "fix": "tap gloss for نَشْتَرِيَ in this option → 'we buy (after an or lan)'",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/days/day57.json; content/days/day58.json; content/days/day60.json",
+      "path": "day57 quiz[6].prompt; day58 quiz[6].prompt; day60 quiz[6].prompt",
+      "current": "Which word has sīn (س), the light s?",
+      "problem": "Engine. The Arabic letter in brackets disappears from the generated line and leaves empty brackets. Day 57: 'Which word has sīn (), the light s?'. Day 58: 'Which word ends in tāʾ marbūṭa ()?'. Day 60: 'Which word has ʿayn (), the sound from deep in the throat?'. It happens when the letter's name already comes just before the bracket. Elsewhere the letter is rendered by its name ('ṭ (ṭāʾ)' day 53, 'kh (khāʾ)' day 54, 'ū (wāw)' day 55). The learner sees '()' where the letter should be.",
+      "category": "engine",
+      "severity": "minor",
+      "confidence": "high",
+      "fix": "engine: do not drop the bracketed letter when its name comes just before. Render it as the letter itself or as its name again, e.g. 'sīn (sīn)' or keep 'س'",
+      "alsoChange": "the other two prompts: 'Which word ends in tāʾ marbūṭa (ة)?' and 'Which word has ʿayn (ع), the sound from deep in the throat?'"
+    },
+    {
+      "file": "content/days/day60.json",
+      "path": "intro",
+      "current": "ـهُ",
+      "problem": "Engine. Still present from round 2 (#9). In the intro the generated transliteration of the bare suffixes ـهُ and ـهَا is '-·hu' and '-·hā'. The s·h/d·h separator dot is inserted after the tatweel/hyphen, where no consonant comes before the h. (The dot in 'tajid·hā', day 60 dialogue.lines[6], is correct and should stay.)",
+      "category": "engine",
+      "severity": "minor",
+      "confidence": "high",
+      "fix": "engine: no · separator when h follows a hyphen/tatweel → '-hu', '-hā'",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/days/day51.json; content/days/day52.json; content/days/day53.json; content/days/day54.json; content/days/day57.json; content/days/day58.json; content/days/day59.json; content/days/day60.json",
+      "path": "day51 dialogue.lines[1].ar; day52 dialogue.lines[7].ar; day52 dialogue.lines[12].ar; day52 dialogue.lines[4].ar; day53 dialogue.lines[1].ar; day54 dialogue.lines[7].ar; day57 dialogue.lines[9].ar; day57 reading.ar; day58 dialogue.lines[3].ar; day59 dialogue.lines[6].ar; day59 dialogue.lines[8].ar; day59 dialogue.lines[10].ar; day60 dialogue.lines[5].ar",
+      "current": "وَكَامِيرَا",
+      "problem": "Engine. Round-3 change 5 says a word glossed as clitic + word is transliterated with a hyphen (wa-huwa, bi-khayr). Many such words are still run together, often next to hyphenated ones in the same line. Day 51: 'wa-qubbaʿa wakāmīrā' (segs: 'and a hat', 'and a camera'). Day 59 lines[6]: 'lishakhṣayni wa-ghurfa li-shakhṣ' and 'bi-khamsīna … wa-bithalāthīna'. Day 52 lines[4] and day 53 lines[1] give 'bikhayr', the brief's own example 'bi-khayr'. Other cases: waṭullāba, wataḥtafilā (d52), waṣafrāʾa (d54), wamaqʿadu, wawaṣalat (d57), wajawāzuka (d58), watastaṭīʿūna, wazūrū (d59), wadafaʿta (d60). The learner sees one prefix written two ways.",
+      "category": "engine",
+      "severity": "minor",
+      "confidence": "high",
+      "fix": "engine: hyphenate wa-/bi-/li-/fa-/ka- whenever the seg/tap gloss is clitic + word ('and …', 'for …', 'with …'), whether or not the stem is in the lexicon",
+      "alsoChange": "transliteration only; no Arabic change"
+    }
+  ],
+  "notes": [
+    {
+      "file": "content/days/*.json",
+      "path": "day52 dialogue.lines[7]/[8]; day54 dialogue.lines[4],[8],[10], reading; day53 dialogue.lines[7]; speakers nameAr الْأُسْتَاذ كَرِيم",
+      "note": "Proper names are sometimes lower case in the transliteration: 'l-ustādh karīm', 'fī miṣr', 'shīkāghū', 'wādī Mūsā', while Lubnān, ʿAmmān and Laylā are capitalised. This is cosmetic, so I list it as a note, not an error."
+    },
+    {
+      "file": "content/days/day52.json",
+      "path": "quiz[6].prompt",
+      "note": "In the example هَلْ سَتَأْتِي؟ the tap gloss for سَتَأْتِي is only 'she will come'. As a stand-alone yes/no question it is more naturally 'will you come? (to a man)'. A two-reading gloss, like the one for تَأْتِي on day 51, would fit."
+    },
+    {
+      "file": "content/days/day51.json",
+      "path": "reading.ar",
+      "note": "سَيَخْرُجُ before the compound subject سَامِي وَدَانْيَال is correctly singular (verb-first). Its gloss '(they) will go out' fits the context, but a learner may not see that the form itself is 3rd person masculine singular. The same applies to سَيُسَافِرُ on days 53, 55 and 56."
+    },
+    {
+      "file": "content/days/day54.json",
+      "path": "dialogue.lines[6].ar",
+      "note": "Mr Karim assumes Daniel's favourite season is winter 'because you love snow'. On day 53 it is Emma who loves snow and Daniel who prefers the sun. Daniel's 'No' reply makes this work as a joke."
+    }
+  ],
+  "summary": "I read the whole export for days 51-60 (2,646 lines): every Arabic line, seg, tap list, quiz, reading and mistake card, and checked the syntax of each sentence before judging case endings. I checked 478 Arabic strings with their transliterations, about 2,735 seg glosses and 668 tap glosses (266 tap lines). The Arabic is clean. The lan + subjunctive, li- of purpose, kāna/yakūnu + -an (day 54's حَارَّةً is now fixed), number–noun gender polarity, ordinal dates, duals after prepositions, hollow-verb shortening, object suffixes and every answer key are correct. I found 7 errors, 0 major and 7 minor. One is a round-2 regression: the day 53 mistake card now shows a nominative خَمْسَةُ where only the gender should differ. Three are glosses: two left over from round 2 (سَتَكُونُ 'there will be' on the day 53 card; بِخَيْر quoting wa-anti in the masculine intro and culture note on day 52) and a new '(after an)' label on a lan verb (day 52 quiz). Three are engine issues: empty '()' where a bracketed letter should be in three letter-quiz prompts, the leftover '-·hu/-·hā', and inconsistent clitic hyphenation (wakāmīrā, bikhayr, lishakhṣayni next to li-shakhṣ). Tap glosses wrong or misleading: about 9 of 668 (سَتَكُونُ 2, بِخَيْر 4, نَشْتَرِيَ 1, plus 2 notes). Arabic strings wrong: 1 of 478."
+}

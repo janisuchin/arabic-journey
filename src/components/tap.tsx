@@ -53,6 +53,12 @@ export function MistakeScope({ children }: { children: ReactNode }) {
   return <GlossScope.Provider value={{ ...ctx, mistake: true }}>{children}</GlossScope.Provider>;
 }
 
+/** Names the part of the app its children belong to (scenario:<id>, vocab:<id>…), for scoped glosses. */
+export function GlossPlace({ place, children }: { place: string; children: ReactNode }) {
+  const ctx = useContext(GlossScope);
+  return <GlossScope.Provider value={{ ...ctx, place }}>{children}</GlossScope.Provider>;
+}
+
 function useSpeakWord() {
   const { readAloudOnTap, speechRate } = useSettings();
   return (w: string) => readAloudOnTap && tts.speak(w, { rate: speechRate });

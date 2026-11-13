@@ -1,0 +1,60 @@
+{
+  "chunk": "days-21-30",
+  "reviewer": "A",
+  "errors": [
+    {
+      "file": "content/days/day21.json; day22.json; day24.json; day26.json; day27.json; day28.json; day30.json",
+      "path": "day21 dialogue.lines[9].ar; day22 dialogue.lines[6].ar; day22 dialogue.lines[13].ar; day24 dialogue.lines[1].ar; day26 dialogue.lines[5].ar; day26 reading.ar; day27 dialogue.lines[1].ar; day27 dialogue.lines[12].ar; day28 dialogue.lines[6].ar; day28 dialogue.lines[11].ar; day28 dialogue.lines[13].ar; day30 sentences[3].ar; day30 dialogue.lines[8].ar; day30 dialogue.lines[10].ar; day30 reading.ar",
+      "current": "wakīluwayni",
+      "problem": "Clitic hyphenation in the ⟶ line is still inconsistent after the round-3 'one clitic style' change. The Arabic is right, but some clitic + word forms whose segs gloss them as 'and X' / 'for X' / 'because X' come out unhyphenated, while identical structures nearby are hyphenated: wakīluwayni (day21 l.9) vs wa-kīluwāni (day21 l.10); wanās (day22 l.13) vs wa-shawāriʿ in the same line; wanahāran (day26) vs wa-ḥabba (day26 l.9); biʾarbaʿimiʾa (day27 l.12) vs bi-sittimiʾa in the same line; bikhamsimiʾa, bimiʾatay, Waʿiṭru, waliṣadīqiki (day28); fahuwa (day24 l.1) vs fa-sh-shāriʿ (day24 l.13); wakutubī, liʿāʾilatinā, liʿāʾilatihi (day30); and bikhayr (day30 l.10), although the round-3 brief gives bi-khayr as the model. Other unhyphenated forms: wabijānibihi (day22), wabanṭalūnan (day27). This seems to happen when the bare stem is not in the glossary.",
+      "category": "engine",
+      "severity": "minor",
+      "confidence": "medium",
+      "fix": "Hyphenate the wa-/bi-/fa-/li- clitic whenever the seg gloss is clitic + word: wa-kīluwayni, wa-bijānibihi, wa-nās, fa-huwa, wa-nahāran, wa-banṭalūnan, bi-arbaʿimiʾa, bi-khamsimiʾa, wa-ʿiṭru, bi-miʾatay, wa-li-ṣadīqiki, li-ʿāʾilatinā, wa-kutubī, bi-khayr, li-ʿāʾilatihi.",
+      "alsoChange": "engine rule only; no Arabic changes"
+    }
+  ],
+  "notes": [
+    {
+      "file": "content/days/day22.json",
+      "path": "quiz[2].options[2]",
+      "note": "In '… السُّيَّاحُ الْمَتْحَفَ', the key يَزُورُ is the expected answer. But with a broken plural, even of male people, classical grammar also allows a feminine verb (قَالَتِ الْأَعْرَابُ), so تَزُورُ السُّيَّاحُ is not strictly wrong. It is rare in modern prose. You may want to replace تَزُورُ with a clearly wrong option such as تَزُورَانِ."
+    },
+    {
+      "file": "content/days/day25.json; day28.json; day29.json; day30.json",
+      "path": "day25 dialogue.lines[4].ar; day28 dialogue.lines[5].ar; day29 dialogue.lines[9].ar; day30 dialogue.lines[2].ar",
+      "note": "هَلْ … أَمْ …? Classical grammar prefers أَ … أَمْ, or هَلْ … أَوْ, but هَلْ … أَمْ is very common in modern MSA and acceptable. No change is needed."
+    },
+    {
+      "file": "content/days/day26.json",
+      "path": "dialogue.lines[14].ar",
+      "note": "الْحَمْدُ لِلّٰه أَنَّ هُنَاكَ صَيْدَلِيَّة مَفْتُوحَة: the noun is the ism of أَنَّ, so with full case endings it would be صَيْدَلِيَّةً مَفْتُوحَةً. The unmarked form is acceptable in the course style, but if endings are ever added here they must be accusative, not nominative."
+    },
+    {
+      "file": "content/days/day21.json",
+      "path": "reading.ar / reading.en",
+      "note": "Still from round 2 (story logic): 'Daniel pays seventy pounds, and the change is thirty' does not add up. In the dialogue he pays 100 for 70. Possible fix: دَانْيَال يَدْفَعُ مِئَةَ جُنَيْه / 'pays a hundred pounds'."
+    },
+    {
+      "file": "content/days/day25.json",
+      "path": "dialogue.lines[8].ar vs dialogue.culture",
+      "note": "Still from round 2: the guard says the second floor is فَوْقَنَا مُبَاشَرَةً ('right above us'), but the culture note says it is two floors above street level."
+    },
+    {
+      "file": "content/days/day27.json; day28.json",
+      "path": "day27 dialogue.lines[2].ar; day28 dialogue.lines[0].ar",
+      "note": "Still from round 2: تَفَضَّلُوا and أَهْلًا بِكُمْ are said to two people. This is acceptable as a general welcome, but strict MSA uses تَفَضَّلَا and بِكُمَا, and day 29 teaches the dual for exactly this situation."
+    },
+    {
+      "file": "content/days/day30.json",
+      "path": "dialogue.culture (tap)",
+      "note": "In سَلِّمْ عَلَى أَهْلِكَ the tap shows عَلَى=on. For this phrase 'to' (say hello to) would be clearer. The seg in dialogue.lines[13] already says 'on, to'."
+    },
+    {
+      "file": "content/days/day30.json; day24.json",
+      "path": "day30 quiz[4].options (⟶); day24 quiz[5].options",
+      "note": "Cosmetic: suffix-only options are still capitalised after the hyphen (-Unā, -Uhum). Day 24 quiz[5] has 'tadhkiratu l-mitro' with no macron (mitrū elsewhere)."
+    }
+  ],
+  "summary": "I read the whole days-21-30 export (2,685 lines, days 21 to 30: intros, objectives, sentences, mistake cards, dialogues, readings, quizzes) and checked the round-2 merged findings. All four round-2 fixes are in place: يَنْزِلُ glossed 'gets off', هُنَاكَ 'there; there is', تَقْتَرِحَانِ, and هٰذِهِ 'this (f); these (for things)'. Arabic strings checked: 490 (every ⟶ line), with every sentence's syntax re-read for case endings after prepositions, words of place, idafa, لَا of absolute negation, the vocative and إِنَّ/أَنَّ. Number–noun agreement and polarity are correct throughout: خَمْسَةَ عَشَرَ جُنَيْهًا, خَمْسُ دَقَائِق, سِتِّ سَاعَات, عَشَرَةِ أَيَّام, ثَمَانِيَة جُنَيْهَات, سَبْعَةُ آلَافِ, بِمِئَتَيْ, the hundreds after بِـ and مِنْ. So are verb–subject agreement in verbal sentences, non-human plurals with feminine singular adjectives, ordinals, the dual imperatives and the possessive suffixes. Tap glosses checked: 541 (on 278 tap lines), plus 1,866 seg glosses. Wrong: 0 Arabic strings, 0 tap or seg glosses, 0 answer keys. Errors: 1 (0 major, 1 minor). It is an engine issue: clitic hyphenation in the transliteration is still inconsistent across 15 lines (wakīluwayni vs wa-kīluwāni, biʾarbaʿimiʾa vs bi-sittimiʾa, bikhayr). There are 8 notes, 4 of them carried over from round 2 and still unchanged."
+}

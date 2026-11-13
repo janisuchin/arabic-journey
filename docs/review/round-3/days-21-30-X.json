@@ -1,0 +1,14 @@
+{
+  "chunk": "days-21-30",
+  "checker": "X3-5",
+  "verdicts": [
+    {
+      "id": 1,
+      "verdict": "AGREE",
+      "fix": "Engine: hyphenate a one-letter proclitic (wa-/fa-/bi-/li-) whenever the word's gloss in that line is clitic + word, also when the bare stem is an inflected form not found as such in the glossary: wa-kīluwayni, wa-bijānibihi, wa-nās, fa-huwa, wa-nahāran, wa-banṭalūnan, bi-arbaʿimiʾa, bi-khamsimiʾa, wa-ʿiṭru, bi-miʾatay, wa-li-ṣadīqiki, li-ʿāʾilatinā, wa-kutubī, bi-khayr, li-ʿāʾilatihi.",
+      "scope": "engine (src/lang/ar/tap.ts cliticReading); no Arabic or gloss changes",
+      "reason": "Confirmed in audit/days-21-30.txt: 'wakīluwayni' (l.156) next to 'wa-kīluwāni' (l.162), 'wanās' next to 'wa-shawāriʿ' in one line, 'biʾarbaʿimiʾa' next to 'bi-sittimiʾa', 'bikhayr' (l.2579). Cause in tap.ts: cliticReading only splits when the stem is an exact glossary entry and the glossary gloss (not the line's seg) starts with and/with/for…; inflected stems (kīluwayni, nās, arbaʿimiʾa) fail the first test, and بِخَيْر fails the second because its gloss is 'fine (lit. in goodness)'. The round-3 brief itself names bi-khayr as the model, so bikhayr must be included (allow the 'lit. in/with' gloss or the seg 'fine (lit. in goodness)' to count). Arabic is correct throughout; minor."
+    }
+  ],
+  "summary": "1 finding checked against the export and tap.ts. AGREE 1 / CHANGE 0 / DISAGREE 0. The clitic-hyphen inconsistency is real and engine-only; bikhayr needs an explicit allowance because its gloss does not start with a clitic word."
+}

@@ -1,0 +1,622 @@
+{
+ "group": "P3",
+ "ops": [
+  {
+   "chunk": "grammar",
+   "ids": [
+    18
+   ],
+   "op": "text",
+   "file": "content/course/grammar.json",
+   "old": "11 and up: singular + ـَةً",
+   "new": "11–99: singular + ـَةً",
+   "count": 2
+  },
+  {
+   "chunk": "grammar",
+   "ids": [
+    1
+   ],
+   "op": "scoped",
+   "word": "إِنَّهُ",
+   "scope": "grammar:inna",
+   "gloss": "indeed he, it (m) ('he is'); that he (after qāla)"
+  },
+  {
+   "chunk": "grammar",
+   "ids": [
+    2
+   ],
+   "op": "scoped",
+   "word": "أَفْعَلَ",
+   "scope": "grammar:verb-forms",
+   "gloss": "afʿala (verb pattern, Form IV)"
+  },
+  {
+   "chunk": "grammar",
+   "ids": [
+    3
+   ],
+   "op": "scoped",
+   "word": "تَتَّصِلَ",
+   "scope": "grammar:yumkin-an",
+   "gloss": "you call (to a man; after an); she calls"
+  },
+  {
+   "chunk": "grammar",
+   "ids": [
+    4
+   ],
+   "op": "scoped",
+   "word": "تَكُونُ",
+   "scope": "grammar:yakun-w8",
+   "gloss": "you are (to a man); she, it (f) is"
+  },
+  {
+   "chunk": "grammar",
+   "ids": [
+    5
+   ],
+   "op": "scoped",
+   "word": "سَتَكُونُ",
+   "scope": "grammar:yakun-w8",
+   "gloss": "you will be (to a man); she, it (f) will be"
+  },
+  {
+   "chunk": "grammar",
+   "ids": [
+    6
+   ],
+   "op": "scoped",
+   "word": "تَجْلِسُ",
+   "scope": "grammar:imperative",
+   "gloss": "you sit (to a man); she sits"
+  },
+  {
+   "chunk": "grammar",
+   "ids": [
+    7
+   ],
+   "op": "scoped",
+   "word": "تَذْهَبُ",
+   "scope": "grammar:present-tense",
+   "gloss": "you go (to a man); she goes"
+  },
+  {
+   "chunk": "grammar",
+   "ids": [
+    8
+   ],
+   "op": "scoped",
+   "word": "حَاضِر",
+   "scope": "grammar:active-participle",
+   "gloss": "present (attending); also 'certainly!' (at your service)"
+  },
+  {
+   "chunk": "grammar",
+   "ids": [
+    9
+   ],
+   "op": "scoped",
+   "word": "بِي",
+   "scope": "grammar:yumkin-an",
+   "gloss": "me (bi- + -ī; ittaṣala bi- = call someone)"
+  },
+  {
+   "chunk": "grammar",
+   "ids": [
+    10
+   ],
+   "op": "scoped",
+   "word": "ـِي",
+   "scope": "grammar:imperative",
+   "gloss": "-ī (verb ending: to a woman)"
+  },
+  {
+   "chunk": "grammar",
+   "ids": [
+    10
+   ],
+   "op": "scoped",
+   "word": "ـِي",
+   "scope": "grammar:negative-imperative",
+   "gloss": "-ī (verb ending: to a woman)"
+  },
+  {
+   "chunk": "grammar",
+   "ids": [
+    11
+   ],
+   "op": "scoped",
+   "word": "اِ",
+   "scope": "grammar:imperative",
+   "gloss": "i- (helping vowel in front of an order: iftaḥ)"
+  },
+  {
+   "chunk": "grammar",
+   "ids": [
+    11
+   ],
+   "op": "scoped",
+   "word": "اُ",
+   "scope": "grammar:imperative",
+   "gloss": "u- (helping vowel in front of an order: urkuḍ)"
+  },
+  {
+   "chunk": "grammar",
+   "ids": [
+    12
+   ],
+   "op": "scoped",
+   "word": "مُـ",
+   "scope": "grammar:active-participle",
+   "gloss": "mu- (prefix of participles of the longer verb forms)"
+  },
+  {
+   "chunk": "grammar",
+   "ids": [
+    13
+   ],
+   "op": "scoped",
+   "word": "تَشْرَبُوا",
+   "scope": "grammar:negative-imperative",
+   "gloss": "drink (to a group; after lā: don't drink)"
+  },
+  {
+   "chunk": "grammar",
+   "ids": [
+    14
+   ],
+   "op": "scoped",
+   "word": "أَ",
+   "scope": "grammar:colours",
+   "gloss": "a- (first letter of the colour pattern aCCaC)"
+  },
+  {
+   "chunk": "grammar",
+   "ids": [
+    15
+   ],
+   "op": "scoped",
+   "word": "عَشَرَ",
+   "scope": "grammar:numbers-11-100",
+   "gloss": "ten (second part of 11–19)"
+  },
+  {
+   "chunk": "grammar",
+   "ids": [
+    16
+   ],
+   "op": "scoped",
+   "word": "ذَهَب",
+   "scope": "grammar:past-tense",
+   "gloss": "dhahab- (the stem of ذَهَبَ 'went')"
+  },
+  {
+   "chunk": "grammar",
+   "ids": [
+    17
+   ],
+   "op": "scoped",
+   "word": "قَلِيل",
+   "scope": "grammar:comparative",
+   "gloss": "few, little"
+  },
+  {
+   "chunk": "grammar",
+   "ids": [
+    18
+   ],
+   "op": "scoped",
+   "word": "سَنَةً",
+   "scope": "grammar:age",
+   "gloss": "year (after 11–99)"
+  },
+  {
+   "chunk": "grammar",
+   "ids": [
+    19
+   ],
+   "op": "scoped",
+   "word": "هِيَ",
+   "scope": "grammar:non-human-plural",
+   "gloss": "she, it; they (for things)"
+  },
+  {
+   "chunk": "grammar",
+   "ids": [
+    19
+   ],
+   "op": "scoped",
+   "word": "هِيَ",
+   "scope": "grammar:relative-pronouns",
+   "gloss": "she, it; they (for things)"
+  },
+  {
+   "chunk": "grammar",
+   "ids": [
+    20
+   ],
+   "op": "scoped",
+   "word": "عِنْدَ",
+   "scope": "grammar:inda-li",
+   "gloss": "at; (with an ending) to have"
+  },
+  {
+   "chunk": "grammar",
+   "ids": [
+    21
+   ],
+   "op": "scoped",
+   "word": "لَهُ",
+   "scope": "grammar:inda-li",
+   "gloss": "he has, it has (lit. for him, for it)"
+  },
+  {
+   "chunk": "grammar",
+   "ids": [
+    22
+   ],
+   "op": "scoped",
+   "word": "طَوِيلًا",
+   "scope": "grammar:laysa",
+   "gloss": "tall, long (-an after laysa)"
+  },
+  {
+   "chunk": "grammar",
+   "ids": [
+    23
+   ],
+   "op": "scoped",
+   "word": "مُنْذُ",
+   "scope": "grammar:time-expressions",
+   "gloss": "since, for; ago (before a time)"
+  },
+  {
+   "chunk": "grammar",
+   "ids": [
+    24
+   ],
+   "op": "scoped",
+   "word": "الَّتِي",
+   "scope": "grammar:relative-pronouns",
+   "gloss": "who, which, that (f)"
+  },
+  {
+   "chunk": "grammar",
+   "ids": [
+    24
+   ],
+   "op": "scoped",
+   "word": "الَّذِي",
+   "scope": "grammar:relative-pronouns",
+   "gloss": "who, which, that (m)"
+  },
+  {
+   "chunk": "grammar",
+   "ids": [
+    25
+   ],
+   "op": "scoped",
+   "word": "نَاحِيَةٍ",
+   "scope": "grammar:connectors-w12",
+   "gloss": "a side ('on the one hand'; with أُخْرَى 'on the other hand')"
+  },
+  {
+   "chunk": "grammar",
+   "ids": [
+    26
+   ],
+   "op": "scoped",
+   "word": "عَمِلَ",
+   "scope": "grammar:masdar",
+   "gloss": "(he) worked; also did, made"
+  },
+  {
+   "chunk": "grammar",
+   "ids": [
+    27
+   ],
+   "op": "engine",
+   "note": "Transliteration (⟶) of English prose drops unvocalised Arabic and converts ؟ to ?, losing the very example the sentence shows. Keep an unvocalised Arabic word in the ⟶ line (as-is, or as 'أنت (ʾnt)') and keep the Arabic question mark ؟ when it is quoted in prose. Examples: grammar pronouns (explanation) 'Without harakat both are written , so…' → 'Without harakat both are written أنت (ʾnt), so…'; grammar questions (explanation) 'The Arabic question mark ? is a mirrored ?.' → 'The Arabic question mark ؟ is a mirrored ?.' (a ؟ that ends an Arabic question, e.g. hal anta miṣrī?, may still become ?)."
+  },
+  {
+   "chunk": "grammar",
+   "ids": [
+    28
+   ],
+   "op": "engine",
+   "note": "The s·h separator (·) is inserted after a tatweel / hyphen: bare object endings ـهُ ـهَا ـهُمْ come out -·hu, -·hā, -·hum. Insert · only after a real vowelless s/k/d/t + h (As·halu). Examples: grammar object-pronouns-w9 formula 'verb + -nī · -ka · -ki · -·hu · -·hā · -nā · -kum · -·hum' → '… -hu · -hā · -nā · -kum · -hum'; its explanation 'with -·hu for a masculine word and -·hā' → '-hu … -hā'; glossary-hand ـهُ ⟶ -·hu → -hu. Same root cause as glossary-hand id 1 (one fix)."
+  },
+  {
+   "chunk": "grammar",
+   "ids": [
+    29
+   ],
+   "op": "engine",
+   "note": "One clitic style not applied everywhere: proclitics wa-/fa-/li-/la-/bi- stay joined in some words. Hyphenate consistently. Examples (grammar): وَجُبْنًا 'wajubnan' → 'wa-jubnan' (next to wa-khubzan); لِتَصْنَعَ 'litaṣnaʿa' → 'li-taṣnaʿa'; فَسَنَزُورُ 'fasanazūru' → 'fa-sanazūru'; لَسَافَرْتُ 'lasāfartu' → 'la-sāfartu'; بِقَبُولِ 'biqabūli' → 'bi-qabūli'; 75 'khamsa wasabʿūn' → 'khamsa wa-sabʿūn'. Reviewer A's glossary-hand note shows the same misses: بِنَعْنَاع Binaʿnāʿ, لِيَشْتَرِيَ Liyashtariya, بِأَنَّ Biʾanna."
+  },
+  {
+   "chunk": "glossary-hand",
+   "ids": [
+    1
+   ],
+   "op": "engine",
+   "note": "Same problem as the grammar id 28 engine op (no separate work): do not insert the · separator when ه follows a tatweel or starts the fragment. ـهُ ⟶ -hu, ـهَا ⟶ -hā, ـهُمْ ⟶ -hum; keep As·halu."
+  },
+  {
+   "chunk": "glossary-hand",
+   "ids": [
+    2
+   ],
+   "op": "hand",
+   "word": "أَمِينُ",
+   "gloss": "keeper (of) (with aṣ-ṣundūq: cashier)"
+  }
+ ],
+ "checks": [
+  {
+   "chunk": "grammar",
+   "ids": [
+    18
+   ],
+   "area": "grammar",
+   "expect": "table.rows[4][2]: 11–99: singular + ـَةً"
+  },
+  {
+   "chunk": "grammar",
+   "ids": [
+    1
+   ],
+   "area": "grammar",
+   "expect": "إِنَّهُ=indeed he, it (m) ('he is'); that he (after qāla)"
+  },
+  {
+   "chunk": "grammar",
+   "ids": [
+    2
+   ],
+   "area": "grammar",
+   "expect": "أَفْعَلَ=afʿala (verb pattern, Form IV)"
+  },
+  {
+   "chunk": "grammar",
+   "ids": [
+    3
+   ],
+   "area": "grammar",
+   "expect": "تَتَّصِلَ=you call (to a man; after an); she calls"
+  },
+  {
+   "chunk": "grammar",
+   "ids": [
+    4
+   ],
+   "area": "grammar",
+   "expect": "تَكُونُ=you are (to a man); she, it (f) is"
+  },
+  {
+   "chunk": "grammar",
+   "ids": [
+    5
+   ],
+   "area": "grammar",
+   "expect": "سَتَكُونُ=you will be (to a man); she, it (f) will be"
+  },
+  {
+   "chunk": "grammar",
+   "ids": [
+    6
+   ],
+   "area": "grammar",
+   "expect": "تَجْلِسُ=you sit (to a man); she sits"
+  },
+  {
+   "chunk": "grammar",
+   "ids": [
+    7
+   ],
+   "area": "grammar",
+   "expect": "تَذْهَبُ=you go (to a man); she goes"
+  },
+  {
+   "chunk": "grammar",
+   "ids": [
+    8
+   ],
+   "area": "grammar",
+   "expect": "حَاضِر=present (attending); also 'certainly!' (at your service)"
+  },
+  {
+   "chunk": "grammar",
+   "ids": [
+    9
+   ],
+   "area": "grammar",
+   "expect": "بِي=me (bi- + -ī; ittaṣala bi- = call someone)"
+  },
+  {
+   "chunk": "grammar",
+   "ids": [
+    10
+   ],
+   "area": "grammar",
+   "expect": "ـِي=-ī (verb ending: to a woman)"
+  },
+  {
+   "chunk": "grammar",
+   "ids": [
+    10
+   ],
+   "area": "grammar",
+   "expect": "ـِي=-ī (verb ending: to a woman)"
+  },
+  {
+   "chunk": "grammar",
+   "ids": [
+    11
+   ],
+   "area": "grammar",
+   "expect": "اِ=i- (helping vowel in front of an order: iftaḥ)"
+  },
+  {
+   "chunk": "grammar",
+   "ids": [
+    11
+   ],
+   "area": "grammar",
+   "expect": "اُ=u- (helping vowel in front of an order: urkuḍ)"
+  },
+  {
+   "chunk": "grammar",
+   "ids": [
+    12
+   ],
+   "area": "grammar",
+   "expect": "مُـ=mu- (prefix of participles of the longer verb forms)"
+  },
+  {
+   "chunk": "grammar",
+   "ids": [
+    13
+   ],
+   "area": "grammar",
+   "expect": "تَشْرَبُوا=drink (to a group; after lā: don't drink)"
+  },
+  {
+   "chunk": "grammar",
+   "ids": [
+    14
+   ],
+   "area": "grammar",
+   "expect": "أَ=a- (first letter of the colour pattern aCCaC)"
+  },
+  {
+   "chunk": "grammar",
+   "ids": [
+    15
+   ],
+   "area": "grammar",
+   "expect": "عَشَرَ=ten (second part of 11–19)"
+  },
+  {
+   "chunk": "grammar",
+   "ids": [
+    16
+   ],
+   "area": "grammar",
+   "expect": "ذَهَب=dhahab- (the stem of ذَهَبَ 'went')"
+  },
+  {
+   "chunk": "grammar",
+   "ids": [
+    17
+   ],
+   "area": "grammar",
+   "expect": "قَلِيل=few, little"
+  },
+  {
+   "chunk": "grammar",
+   "ids": [
+    18
+   ],
+   "area": "grammar",
+   "expect": "سَنَةً=year (after 11–99)"
+  },
+  {
+   "chunk": "grammar",
+   "ids": [
+    19
+   ],
+   "area": "grammar",
+   "expect": "هِيَ=she, it; they (for things)"
+  },
+  {
+   "chunk": "grammar",
+   "ids": [
+    19
+   ],
+   "area": "grammar",
+   "expect": "هِيَ=she, it; they (for things)"
+  },
+  {
+   "chunk": "grammar",
+   "ids": [
+    20
+   ],
+   "area": "grammar",
+   "expect": "عِنْدَ=at; (with an ending) to have"
+  },
+  {
+   "chunk": "grammar",
+   "ids": [
+    21
+   ],
+   "area": "grammar",
+   "expect": "لَهُ=he has, it has (lit. for him, for it)"
+  },
+  {
+   "chunk": "grammar",
+   "ids": [
+    22
+   ],
+   "area": "grammar",
+   "expect": "طَوِيلًا=tall, long (-an after laysa)"
+  },
+  {
+   "chunk": "grammar",
+   "ids": [
+    23
+   ],
+   "area": "grammar",
+   "expect": "مُنْذُ=since, for; ago (before a time)"
+  },
+  {
+   "chunk": "grammar",
+   "ids": [
+    24
+   ],
+   "area": "grammar",
+   "expect": "الَّتِي=who, which, that (f)"
+  },
+  {
+   "chunk": "grammar",
+   "ids": [
+    24
+   ],
+   "area": "grammar",
+   "expect": "الَّذِي=who, which, that (m)"
+  },
+  {
+   "chunk": "grammar",
+   "ids": [
+    25
+   ],
+   "area": "grammar",
+   "expect": "نَاحِيَةٍ=a side ('on the one hand'; with أُخْرَى 'on the other hand')"
+  },
+  {
+   "chunk": "grammar",
+   "ids": [
+    26
+   ],
+   "area": "grammar",
+   "expect": "عَمِلَ=(he) worked; also did, made"
+  },
+  {
+   "chunk": "glossary-hand",
+   "ids": [
+    2
+   ],
+   "area": "glossary-hand",
+   "expect": "أَمِينُ ⟶ Amīnu = keeper (of) (with aṣ-ṣundūq: cashier)"
+  }
+ ],
+ "skipped": [
+  {
+   "chunk": "grammar",
+   "id": 9,
+   "reason": "Partly: the alsoChange to content/glossary/auto.json ('bi (long i)') is not planned (the app never reads auto.json); the grammar:yumkin-an scoped gloss covers the only tap of بِي."
+  }
+ ]
+}

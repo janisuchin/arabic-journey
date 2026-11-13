@@ -1,0 +1,125 @@
+{
+  "chunk": "culture",
+  "reviewer": "A",
+  "errors": [
+    {
+      "file": "content/culture/calligraphy.json",
+      "path": "sections[3].body[1]; content/culture/coffee.json sections[1].titleAr",
+      "current": "الْعَرَبِيَّة=Arabic (the language)",
+      "problem": "Not fixed since round 2 (#4). In الْأَرْقَام الْعَرَبِيَّة ('Arabic numerals') and الْقَهْوَةُ الْعَرَبِيَّة ('Arabic coffee') the word is a feminine adjective agreeing with the noun before it, not the noun 'the Arabic language'. The coffee titleSegs correctly say 'Arabic · adj'. The tap teaches the learner to read 'the numbers, the Arabic language'.",
+      "category": "gloss",
+      "severity": "minor",
+      "confidence": "high",
+      "fix": "الْعَرَبِيَّة=Arabic (f)",
+      "alsoChange": "only in these two lines; where the word really is the language (science sentences, calligraphy sentences[0].sentences[1]) keep 'Arabic (the language)'"
+    },
+    {
+      "file": "content/culture/desert.json",
+      "path": "quiz[5].explain",
+      "current": "أَكْثَرُ=more",
+      "problem": "Not fixed since round 2 (#6). In يَسْكُنُ أَكْثَرُ الْبَدْوِ الْيَوْمَ فِي الْمُدُن ('most Bedouin live in cities') أَكْثَرُ + definite noun means 'most (of)'. The tap says only 'more', which contradicts the English of the same line and the sentence segs ('most (of)').",
+      "category": "gloss",
+      "severity": "minor",
+      "confidence": "high",
+      "fix": "أَكْثَرُ=most (of); more",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/culture/family.json",
+      "path": "readingQuestions[0].explain",
+      "current": "الْأَكْبَر=the biggest",
+      "problem": "Not fixed since round 2 (#8). In لِأَنِّي اِبْنُهُ الْأَكْبَر the sense is 'his eldest son', and the English of the same line says 'eldest'. The tap gives 'the biggest'. The reading segs correctly say 'the eldest'.",
+      "category": "gloss",
+      "severity": "minor",
+      "confidence": "high",
+      "fix": "الْأَكْبَر=the eldest; the biggest",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/culture/food.json",
+      "path": "sections[3].body[1]; words[9].segs; quiz[3].options[1]",
+      "current": "مَرِيئًا=and may it be wholesome",
+      "problem": "Not fixed since round 2 (#9). هَنِيئًا مَرِيئًا has no وَ; the gloss adds an 'and' that is not in the Arabic, so the learner may think مَرِيئًا contains wa-.",
+      "category": "gloss",
+      "severity": "minor",
+      "confidence": "high",
+      "fix": "مَرِيئًا=wholesome, may it be wholesome",
+      "alsoChange": "the source seg in words[9].segs: [\"مَرِيئًا\", \"and may it be wholesome\"] → [\"مَرِيئًا\", \"wholesome, may it be wholesome\"]"
+    },
+    {
+      "file": "content/culture/food.json",
+      "path": "readingQuestions[1].explain",
+      "current": "أَكْثَر=more; more; the most",
+      "problem": "The tap gloss lists 'more' twice (a merge glitch) and adds 'the most', which does not fit تَفَضَّلْ، كُلْ أَكْثَر ('please, eat more'). The sentence and reading segs correctly say 'more'.",
+      "category": "gloss",
+      "severity": "minor",
+      "confidence": "high",
+      "fix": "أَكْثَر=more",
+      "alsoChange": "if the multi-sense gloss is kept elsewhere, at least remove the duplicate: 'more; the most (before a noun)'"
+    },
+    {
+      "file": "content/culture/family.json",
+      "path": "sections[3].body[0]; quiz[3].explain",
+      "current": "أَمَل=Amal (first name) · نُور=Nour (first name)",
+      "problem": "These lines teach the meaning of the names ('أَمَل means hope and نُور means light'), but the tap shows only the first name, with no meaning. Round 3 says words that are both a name and a common word show both readings; كَرِيم in the same lines does (generous; Karim), أَمَل and نُور do not. (In quiz[3].prompt the name-only gloss is fine, because the meaning is the answer.)",
+      "category": "gloss",
+      "severity": "minor",
+      "confidence": "medium",
+      "fix": "أَمَل=hope; Amal (first name) · نُور=light; Nour (first name)",
+      "alsoChange": "only in sections[3].body[0] and quiz[3].explain (نُور); leave the reading segs (sister's/mother's name) as they are"
+    },
+    {
+      "file": "content/culture/places.json",
+      "path": "sections[1].photo.caption; sections[1].body[1]",
+      "current": "الْخَزْنَة=the Treasury; the Treasury (famous building in Petra)",
+      "problem": "The tap gloss repeats the same sense twice (merge glitch). The sentence segs say 'the Treasury (monument in Petra)'.",
+      "category": "gloss",
+      "severity": "minor",
+      "confidence": "high",
+      "fix": "الْخَزْنَة=the Treasury (monument in Petra)",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/culture/family.json",
+      "path": "sections[3].sentences[3].ar",
+      "current": "صَبَاحُ الْخَيْر يَا أُسْتَاذ سَامِي.",
+      "problem": "After يَا a definite-by-address singular noun (munādā) is built on ḍamma: يَا أُسْتَاذُ. The word is in the middle of the phrase (the name follows), so it is not a pause form; the line teaches yā ustādh Sāmī with no vowel.",
+      "category": "arabic",
+      "severity": "minor",
+      "confidence": "medium",
+      "fix": "صَبَاحُ الْخَيْر يَا أُسْتَاذُ سَامِي.",
+      "alsoChange": "transliteration follows (yā ustādhu Sāmī)"
+    },
+    {
+      "file": "content/culture/family.json",
+      "path": "sections[0].sentences[1].ar (bikhayr); content/culture/ramadan.json sections[3].sentences[2].ar (bikhayr), reading.ar (wajaddatihim); content/culture/calligraphy.json sections[0].sentences[2].ar (Wabākistāna), reading.ar (biqalamin, wabiḥibrin, bikhaṭṭi); content/culture/desert.json titleAr (waḥayātu), sections[0].sentences[0].ar (wabāridatun), sections[0].sentences[2].ar (waṣukhūrun), sections[1].sentences[0].ar (wanakhīlun), reading.ar (wakuthbānan); content/culture/food.json sections[0].sentences[1].ar (wamaʿnāhu), sections[0].sentences[2].ar (biqiṭʿatin), reading.ar (waḥummuṣun); content/culture/science.json reading.ar (waqaraʾahā); content/culture/souq.json sections[1].sentences[1].ar (lifustānin), reading.ar (bithamāniyati)",
+      "current": "Wa-ʿalaykumu s-salāmu, anā bikhayr, al-ḥamdu lillāh.",
+      "problem": "Round 3 announces one clitic style (wa-huwa, bi-khayr), but many clitic + word forms are still written solid in the ⟶ line, side by side with hyphenated ones in the same text: bikhayr (the brief's own example), biqalamin next to bi-l-qalami, wabāridatun next to wa-l-qahwatu, bithamāniyati next to bi-ʿasharati in the same reading. The worst case is still 'Wabākistāna' (round 2 #3): the clitic is capitalised and the name is not. The segs gloss all these words as clitic + word ('and cold (f)', 'with a pen', 'for a dress').",
+      "category": "engine",
+      "severity": "minor",
+      "confidence": "high",
+      "fix": "Anā bi-khayr; bi-qalamin, wa-bi-ḥibrin, bi-khaṭṭi; wa-bāridatun; wa-Bākistāna; bi-thamāniyati; li-fustānin (hyphen after every clitic wa-/bi-/li-/fa-, capital on the name, not on the clitic)",
+      "alsoChange": "engine rule, not content"
+    },
+    {
+      "file": "content/culture/family.json",
+      "path": "sections[2].sentences[1].ar (bintu karīm); sections[3].sentences[2].ar (Ismuhu karīm al-miṣrī); reading.ar (Abī smuhu karīm); content/culture/desert.json reading.ar (fī gharbi miṣr); content/culture/places.json sections[0].sentences[3].ar (fī miṣr); content/culture/ramadan.json reading.ar (Fī ramaḍān … fī l-qāhirati), sections[2].sentences[2].ar (Qāla jārī ramaḍān karīm); content/culture/science.json reading.ar (fī l-qāhirati); content/culture/souq.json sections[0].sentences[1].ar (fī l-qāhirati); content/culture/places.json sections[1].sentences[0].ar (Al-khazna) vs sections[1].sentences[1].ar (l-Khaznata)",
+      "current": "Anā Laylā, bintu karīm.",
+      "problem": "Names that the segs mark as names are written in lower case in the ⟶ line in some forms and capitalised in others: karīm for the man Karim (segs: 'Karim (first name) · name'), miṣr but Miṣra, ramaḍān but Ramaḍānu, l-qāhirati but l-Qāhira, Al-khazna but l-Khaznata, al-miṣrī (surname) but al-Miṣrī in the quiz. A learner reads 'bintu karīm' as 'daughter of a generous (man)'. The round-2 fix for رَمَضَان كَرِيم seems to have made كَرِيم lower case everywhere, including where it is the name.",
+      "category": "engine",
+      "severity": "minor",
+      "confidence": "high",
+      "fix": "Anā Laylā, bintu Karīm. / Ismuhu Karīm al-Miṣrī. / fī gharbi Miṣr / Fī Ramaḍān … fī l-Qāhirati / Al-Khazna (capitalise whenever the seg is a name; keep karīm lower case only where it means 'generous')",
+      "alsoChange": "engine rule, not content"
+    }
+  ],
+  "notes": [
+    { "file": "content/culture/family.json", "path": "sections[3].sentences[2].ar", "note": "اِسْمُهُ كَرِيم الْمِصْرِيّ: a first name followed by a surname normally keeps its tanwīn in full vocalisation (كَرِيمٌ الْمِصْرِيُّ). Not reported as an error because pause-style vocalisation of names is common in teaching material, but it is inconsistent with the course's full harakat elsewhere." },
+    { "file": "content/culture/family.json", "path": "sections[3].body[0]; reading.en", "note": "The English text spells the name 'Nur', while the tap gloss and the rest of the app say 'Nour'. Harmless, but one spelling would be cleaner." },
+    { "file": "content/culture/ramadan.json", "path": "sections[2].sentences[2].ar; sections[2].body[2]; words[7]", "note": "اللّٰهُ أَكْرَم has a ḍamma on اللّٰهُ, but the ⟶ line reads 'llāh akram' / 'Allāh akram' (no -u), unlike every other nominative before a following word. Probably a deliberate treatment of the divine name; worth checking." },
+    { "file": "content/culture/ramadan.json", "path": "sections[3].body[2]; quiz[4].explain", "note": "Still open from round 2: Eid al-Adha is on 10 Dhū l-Ḥijja (ذُو الْحِجَّة); 'the month of الْحَجّ' can make a learner think the month is called al-ḥajj." },
+    { "file": "content/culture/coffee.json", "path": "sections[0].body[0]; sections[3].body[1]; content/culture/food.json sections[3].body[2]; content/culture/souq.json sections[3].body[0]", "note": "The text explains تَفَضَّلْ as 'please, come in' / 'please, help yourself' / 'please, go ahead', but the tap still shows only 'here you are (to a man)'. Not wrong, but the wider gloss 'please, come in, here you are, go ahead (to a man)' would match the text." },
+    { "file": "content/culture/souq.json", "path": "sections[3].body[0]", "note": "Still open from round 2: tea is spelled شَايْ with a sukūn here; everywhere else it is شَاي." }
+  ],
+  "summary": "I read the whole culture export (2,804 lines, 10 chapters: calligraphy, coffee, desert, family, food, places, ramadan, science, souq) and checked every Arabic line (558 Arabic strings with ⟶ lines, 234 segs lines) for harakat, case after kāna/inna/prepositions, idāfa, diptotes (مِصْرَ، دِمَشْقَ، مَسْقَطَ، صَحْرَاءَ، مَلَابِسَ، إِسْحَاقَ), verb-first agreement, non-human plural agreement, number–noun agreement, the mistake cards, translations and every quiz key; and all 876 tap glosses in 324 tap lines. The Arabic itself is clean: no wrong answer key, translation, rule or mistake card, and most round-2 fixes are in (بُرْجٍ، مَكَانٍ، كَرِيم, أَقْدَمُ, مِنْ, وَادِي, يَصُومُ, the ٢٨ digits). I found 10 errors, all minor: 1 Arabic string (يَا أُسْتَاذ without its ḍamma in mid-phrase), 7 tap glosses (about 9 tap entries wrong or misleading in their line: four round-2 glosses still unfixed — الْعَرَبِيَّة as 'the language', أَكْثَرُ 'more' for 'most', الْأَكْبَر 'the biggest' for 'the eldest', مَرِيئًا with an extra 'and' — plus two duplicated merged glosses and name-only glosses for أَمَل/نُور where the meaning is taught), and 2 engine patterns: clitics still written solid (bikhayr, biqalamin, Wabākistāna) despite the round-3 hyphen rule, and names lower-cased in some forms (bintu karīm, fī miṣr, ramaḍān, l-qāhirati)."
+}

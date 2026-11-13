@@ -1,0 +1,1233 @@
+{
+  "group": "P5",
+  "ops": [
+    {
+      "chunk": "scenarios-1",
+      "ids": [
+        1
+      ],
+      "op": "scoped",
+      "word": "طَوِيلَةً",
+      "scope": "scenario:holiday-story",
+      "gloss": "long (f, after 'was')"
+    },
+    {
+      "chunk": "scenarios-1",
+      "ids": [
+        2
+      ],
+      "op": "scoped",
+      "word": "الْإِشَارَة",
+      "scope": "scenario:directions",
+      "gloss": "the traffic light; the signal, sign"
+    },
+    {
+      "chunk": "scenarios-1",
+      "ids": [
+        3
+      ],
+      "op": "scoped",
+      "word": "مَرَّةً",
+      "scope": "scenario:pharmacy-visit",
+      "gloss": "time(s) (after kam: 'how many times'); once"
+    },
+    {
+      "chunk": "scenarios-1",
+      "ids": [
+        4
+      ],
+      "op": "scoped",
+      "word": "وَهُوَ",
+      "scope": "scenario:birthday-invitation",
+      "gloss": "and he"
+    },
+    {
+      "chunk": "scenarios-1",
+      "ids": [
+        5
+      ],
+      "op": "scoped",
+      "word": "تَفَضَّلْ",
+      "scope": "scenario:family-visit",
+      "gloss": "please (come in / sit / go ahead); here you are (to a man)"
+    },
+    {
+      "chunk": "scenarios-1",
+      "ids": [
+        6
+      ],
+      "op": "scoped",
+      "word": "تَفَضَّلْ",
+      "scope": "scenario:appointment-time",
+      "gloss": "please (come in / sit / go ahead); here you are (to a man)"
+    },
+    {
+      "chunk": "scenarios-1",
+      "ids": [
+        7
+      ],
+      "op": "scoped",
+      "word": "تَفَضَّلِي",
+      "scope": "scenario:doctor",
+      "gloss": "please (come in / sit / go ahead); here you are (to a woman)"
+    },
+    {
+      "chunk": "scenarios-1",
+      "ids": [
+        8
+      ],
+      "op": "scoped",
+      "word": "هُوَ",
+      "scope": "scenario:restaurant",
+      "gloss": "it (m), he"
+    },
+    {
+      "chunk": "scenarios-1",
+      "ids": [
+        9
+      ],
+      "op": "scoped",
+      "word": "الْجَبَل",
+      "scope": "scenario:holiday-story",
+      "gloss": "the mountain"
+    },
+    {
+      "chunk": "scenarios-1",
+      "ids": [
+        9
+      ],
+      "op": "scoped",
+      "word": "الْجَبَل",
+      "scope": "scenario:weather-plans",
+      "gloss": "the mountain"
+    },
+    {
+      "chunk": "scenarios-1",
+      "ids": [
+        10
+      ],
+      "op": "scoped",
+      "word": "مَقْهَى",
+      "scope": "scenario:cafe",
+      "gloss": "café, coffeehouse"
+    },
+    {
+      "chunk": "scenarios-1",
+      "ids": [
+        11
+      ],
+      "op": "scoped",
+      "word": "السَّاعَة",
+      "scope": "scenario:family-visit",
+      "gloss": "the clock; the hour, the time"
+    },
+    {
+      "chunk": "scenarios-1",
+      "ids": [
+        12
+      ],
+      "op": "text",
+      "file": "content/course/scenarios.json",
+      "old": "\"ar\": \"نَعَم، قِطْعَة كَعْك وَاحِدَة، مِنْ فَضْلِكَ.\"",
+      "new": "\"ar\": \"نَعَم، قِطْعَةَ كَعْك وَاحِدَة، مِنْ فَضْلِكَ.\"",
+      "count": 1
+    },
+    {
+      "chunk": "scenarios-1",
+      "ids": [
+        12
+      ],
+      "op": "text",
+      "file": "content/course/scenarios.json",
+      "old": "[[\"نَعَم\", \"yes\"], [\"قِطْعَة\", \"piece\"], [\"كَعْك\", \"cake, pastry\"], [\"وَاحِدَة\", \"one (f)\"]",
+      "new": "[[\"نَعَم\", \"yes\"], [\"قِطْعَةَ\", \"piece\"], [\"كَعْك\", \"cake, pastry\"], [\"وَاحِدَة\", \"one (f)\"]",
+      "count": 1
+    },
+    {
+      "chunk": "scenarios-1",
+      "ids": [
+        12
+      ],
+      "op": "text",
+      "file": "content/course/scenarios.json",
+      "old": "\"ar\": \"ثَلَاثَة دَنَانِير، مِنْ فَضْلِكَ.",
+      "new": "\"ar\": \"ثَلَاثَةُ دَنَانِير، مِنْ فَضْلِكَ.",
+      "count": 1
+    },
+    {
+      "chunk": "scenarios-1",
+      "ids": [
+        12
+      ],
+      "op": "text",
+      "file": "content/course/scenarios.json",
+      "old": "[[\"ثَلَاثَة\", \"three\"], [\"دَنَانِير\", \"dinars\"]",
+      "new": "[[\"ثَلَاثَةُ\", \"three\"], [\"دَنَانِير\", \"dinars\"]",
+      "count": 1
+    },
+    {
+      "chunk": "scenarios-1",
+      "ids": [
+        12
+      ],
+      "op": "text",
+      "file": "content/course/scenarios.json",
+      "old": "وَالْكَعْكَة بِعَشَرَة جُنَيْهَات.",
+      "new": "وَالْكَعْكَة بِعَشَرَةِ جُنَيْهَات.",
+      "count": 1
+    },
+    {
+      "chunk": "scenarios-1",
+      "ids": [
+        12
+      ],
+      "op": "text",
+      "file": "content/course/scenarios.json",
+      "old": "\"and the kaʿk biscuit\"\n            ],\n            [\n              \"بِعَشَرَة\",",
+      "new": "\"and the kaʿk biscuit\"\n            ],\n            [\n              \"بِعَشَرَةِ\",",
+      "count": 1
+    },
+    {
+      "chunk": "scenarios-1",
+      "ids": [
+        12
+      ],
+      "op": "text",
+      "file": "content/course/scenarios.json",
+      "old": "\"wrong\": \"خَمْسَة رَغِيف\",\n        \"right\": \"خَمْسَة أَرْغِفَة\",",
+      "new": "\"wrong\": \"خَمْسَةُ رَغِيف\",\n        \"right\": \"خَمْسَةُ أَرْغِفَة\",",
+      "count": 1
+    },
+    {
+      "chunk": "scenarios-1",
+      "ids": [
+        12
+      ],
+      "op": "text",
+      "file": "content/course/scenarios.json",
+      "old": "وَخُذْ قِطْعَة كَعْك أُخْرَى!",
+      "new": "وَخُذْ قِطْعَةَ كَعْك أُخْرَى!",
+      "count": 1
+    },
+    {
+      "chunk": "scenarios-1",
+      "ids": [
+        12
+      ],
+      "op": "text",
+      "file": "content/course/scenarios.json",
+      "old": "\"and take (to a man)\"\n            ],\n            [\n              \"قِطْعَة\",",
+      "new": "\"and take (to a man)\"\n            ],\n            [\n              \"قِطْعَةَ\",",
+      "count": 1
+    },
+    {
+      "chunk": "scenarios-1",
+      "ids": [
+        13
+      ],
+      "op": "engine",
+      "note": "Clitic hyphen (round-3 change 5) is applied inconsistently in the ⟶ line: every word whose seg/gloss is clitic + word ('and …', 'with …', 'for …', 'to …') must get the hyphen, also when the stem is not itself a glossary entry (then split on the clitic letter and transliterate the stem, dropping a leading ʾ of a hamzat waṣl/qaṭʿ stem only as the course's own 'why' lines do: li-adʿuwaka). Stacked clitics take two hyphens. Whole-word glosses stay whole: كَمَا 'as' → kamā (not Ka-mā), بِخَيْر when glossed whole, بِجَانِبِ 'next to'. Examples: 'kitāb wakāmīrā wa-miftāḥu' → 'kitāb wa-kāmīrā wa-miftāḥu'; 'Wa-bikami l-kaʿka?' → 'Wa-bi-kami l-kaʿka?'; 'liʾadʿuwaka' → 'li-adʿuwaka'; scenes cafe spots[6].note 'shāy binaʿnāʿ' → 'shāy bi-naʿnāʿ'. Same root cause as scenarios-2 #13, culture #9, placards #5 (and days-21-30 #1, days-51-60 #7)."
+    },
+    {
+      "chunk": "scenarios-2",
+      "ids": [
+        1
+      ],
+      "op": "scoped",
+      "word": "الْمَكْتَب",
+      "scope": "scenario:airport-checkin",
+      "gloss": "the desk, the counter; the office"
+    },
+    {
+      "chunk": "scenarios-2",
+      "ids": [
+        1
+      ],
+      "op": "scoped",
+      "word": "الْمَكْتَب",
+      "scope": "scenario:bank",
+      "gloss": "the desk, the counter; the office"
+    },
+    {
+      "chunk": "scenarios-2",
+      "ids": [
+        1
+      ],
+      "op": "scoped",
+      "word": "الْمَكْتَب",
+      "scope": "scenario:machines",
+      "gloss": "the desk, the counter; the office"
+    },
+    {
+      "chunk": "scenarios-2",
+      "ids": [
+        1
+      ],
+      "op": "scoped",
+      "word": "الْمَكْتَب",
+      "scope": "scenario:school",
+      "gloss": "the desk, the counter; the office"
+    },
+    {
+      "chunk": "scenarios-2",
+      "ids": [
+        2
+      ],
+      "op": "scoped",
+      "word": "الْعَرَبَة",
+      "scope": "scenario:airport-checkin",
+      "gloss": "the trolley, the cart"
+    },
+    {
+      "chunk": "scenarios-2",
+      "ids": [
+        2
+      ],
+      "op": "scoped",
+      "word": "الْعَرَبَة",
+      "scope": "scenario:supermarket",
+      "gloss": "the trolley, the cart"
+    },
+    {
+      "chunk": "scenarios-2",
+      "ids": [
+        3
+      ],
+      "op": "scoped",
+      "word": "لِكُلِّ",
+      "scope": "scenario:airport-checkin",
+      "gloss": "for every, for each"
+    },
+    {
+      "chunk": "scenarios-2",
+      "ids": [
+        4
+      ],
+      "op": "scoped",
+      "word": "هُوَ",
+      "scope": "scenario:airport-checkin",
+      "gloss": "he, it (m)"
+    },
+    {
+      "chunk": "scenarios-2",
+      "ids": [
+        4
+      ],
+      "op": "scoped",
+      "word": "هُوَ",
+      "scope": "scenario:dietary",
+      "gloss": "he, it (m)"
+    },
+    {
+      "chunk": "scenarios-2",
+      "ids": [
+        5
+      ],
+      "op": "scoped",
+      "word": "سَيِّدَات",
+      "scope": "scenario:machines",
+      "gloss": "ladies, women"
+    },
+    {
+      "chunk": "scenarios-2",
+      "ids": [
+        6
+      ],
+      "op": "scoped",
+      "word": "السَّاعَة",
+      "scope": "scenario:machines",
+      "gloss": "the clock; the hour"
+    },
+    {
+      "chunk": "scenarios-2",
+      "ids": [
+        7
+      ],
+      "op": "scoped",
+      "word": "طَابُور",
+      "scope": "scenario:airport-checkin",
+      "gloss": "queue"
+    },
+    {
+      "chunk": "scenarios-2",
+      "ids": [
+        8
+      ],
+      "op": "scoped",
+      "word": "مُدِيرَة",
+      "scope": "scenario:job-interview",
+      "gloss": "manager, director (a woman)"
+    },
+    {
+      "chunk": "scenarios-2",
+      "ids": [
+        9
+      ],
+      "op": "scoped",
+      "word": "خِزَانَةُ",
+      "scope": "scenario:museum-info",
+      "gloss": "cabinet, case (of) ('display case')"
+    },
+    {
+      "chunk": "scenarios-2",
+      "ids": [
+        9
+      ],
+      "op": "scoped",
+      "word": "خِزَانَةُ",
+      "scope": "scenario:phone-shop",
+      "gloss": "cabinet, case (of) ('display case')"
+    },
+    {
+      "chunk": "scenarios-2",
+      "ids": [
+        10
+      ],
+      "op": "hand",
+      "word": "أَغْلَى",
+      "gloss": "more expensive; the most expensive (before a noun)"
+    },
+    {
+      "chunk": "scenarios-2",
+      "ids": [
+        11
+      ],
+      "op": "scoped",
+      "word": "الْجَبَل",
+      "scope": "scenario:lost-phone-help",
+      "gloss": "the mountain"
+    },
+    {
+      "chunk": "scenarios-2",
+      "ids": [
+        12
+      ],
+      "op": "text",
+      "file": "content/course/scenarios.json",
+      "old": "bi-thalāthi-mi'ati junayh, never",
+      "new": "bi-thalāthimiʾati junayh, never",
+      "count": 1
+    },
+    {
+      "chunk": "scenarios-2",
+      "ids": [
+        13
+      ],
+      "op": "engine",
+      "note": "Same problem as the scenarios-1 #13 engine op (clitic hyphen not applied to every clitic-glossed word). Verify on: 'aruzz wa-dajāj wakhuḍār wazabādī liʿashāʾi' → 'wa-khuḍār wa-zabādī li-ʿashāʾi'; 'washahādatī' → 'wa-shahādatī'; 'lilaylati' → 'li-laylati'; 'bi-miʾa junayh, wa-bithamānīna' → 'wa-bi-thamānīna'; 'bimiʾatayni' → 'bi-miʾatayni'. Keep whole-word glosses whole (bikhayr when glossed as one word, bijānibi 'next to')."
+    },
+    {
+      "chunk": "culture",
+      "ids": [
+        1
+      ],
+      "op": "scoped",
+      "word": "الْعَرَبِيَّة",
+      "scope": "culture:cul.calligraphy",
+      "gloss": "Arabic (f)"
+    },
+    {
+      "chunk": "culture",
+      "ids": [
+        1
+      ],
+      "op": "scoped",
+      "word": "الْعَرَبِيَّة",
+      "scope": "culture:cul.coffee",
+      "gloss": "Arabic (f)"
+    },
+    {
+      "chunk": "culture",
+      "ids": [
+        2
+      ],
+      "op": "scoped",
+      "word": "أَكْثَرُ",
+      "scope": "culture:cul.desert",
+      "gloss": "most (of); more"
+    },
+    {
+      "chunk": "culture",
+      "ids": [
+        3
+      ],
+      "op": "scoped",
+      "word": "الْأَكْبَر",
+      "scope": "culture:cul.family",
+      "gloss": "the eldest; the biggest"
+    },
+    {
+      "chunk": "culture",
+      "ids": [
+        4
+      ],
+      "op": "text",
+      "file": "content/culture/food.json",
+      "old": "[\"مَرِيئًا\", \"and may it be wholesome\"]",
+      "new": "[\"مَرِيئًا\", \"may it be wholesome\"]",
+      "count": 1
+    },
+    {
+      "chunk": "culture",
+      "ids": [
+        5
+      ],
+      "op": "scoped",
+      "word": "أَكْثَر",
+      "scope": "culture:cul.food",
+      "gloss": "more"
+    },
+    {
+      "chunk": "culture",
+      "ids": [
+        6
+      ],
+      "op": "scoped",
+      "word": "نُور",
+      "scope": "culture:cul.family",
+      "gloss": "light; Nour (first name)"
+    },
+    {
+      "chunk": "culture",
+      "ids": [
+        7
+      ],
+      "op": "hand",
+      "word": "الْخَزْنَة",
+      "gloss": "the Treasury (famous building in Petra)"
+    },
+    {
+      "chunk": "culture",
+      "ids": [
+        9
+      ],
+      "op": "engine",
+      "note": "Same problem as the scenarios-1 #13 engine op (clitic hyphen), plus: a clitic in front of a name is lower case and the name is capitalised, mid-sentence: 'fī Īrāna Wabākistāna' → 'fī Īrāna wa-Bākistāna' (sentence-initial capital only on the first word of the sentence). Verify: 'anā bikhayr' → 'anā bi-khayr'; 'biqalamin wabiḥibrin bikhaṭṭi' → 'bi-qalamin wa-bi-ḥibrin bi-khaṭṭi'; 'wabāridatun' → 'wa-bāridatun'; 'bithamāniyati' → 'bi-thamāniyati'; 'lifustānin' → 'li-fustānin'."
+    },
+    {
+      "chunk": "culture",
+      "ids": [
+        10
+      ],
+      "op": "engine",
+      "note": "Names in lower case: capitalise every token whose seg in its own line (or the name index) marks it as a name, in every inflected/clitic form, also after the article (l-Qāhirati, Al-Khazna). Keep كَرِيم lower case only where its seg means 'generous' (Ramaḍān karīm). Examples: 'Anā Laylā, bintu karīm' → 'bintu Karīm'; 'Ismuhu karīm al-miṣrī' → 'Ismuhu Karīm al-Miṣrī'; 'fī gharbi miṣr' → 'fī gharbi Miṣr'; 'Fī ramaḍān … fī l-qāhirati' → 'Fī Ramaḍān … fī l-Qāhirati'; 'Al-khazna' → 'Al-Khazna'."
+    },
+    {
+      "chunk": "culture",
+      "ids": [
+        5,
+        7
+      ],
+      "op": "engine",
+      "note": "Duplicated senses in two-reading glosses: when a form's merged gloss repeats a sense (or one sense is a prefix of the other), drop the repeat. Examples: 'more; more; the most' → 'more; the most (before a noun)' (vocab akthar); 'the Treasury; the Treasury (famous building in Petra)' → one sense; 'more expensive; more expensive; the most expensive' (scenarios-2 #10). The hand ops for أَغْلَى and الْخَزْنَة and the scoped أَكْثَر in cul.food fix the reviewed places; this op is the generator fix for the rest."
+    },
+    {
+      "chunk": "placards",
+      "ids": [
+        1
+      ],
+      "op": "scoped",
+      "word": "ـكَ",
+      "scope": "placard:pc.my-your",
+      "gloss": "your (on a noun) / you (on a verb), to a man: -ka"
+    },
+    {
+      "chunk": "placards",
+      "ids": [
+        1
+      ],
+      "op": "scoped",
+      "word": "ـكِ",
+      "scope": "placard:pc.my-your",
+      "gloss": "your / you (to a woman: -ki)"
+    },
+    {
+      "chunk": "placards",
+      "ids": [
+        1
+      ],
+      "op": "scoped",
+      "word": "ـهُ",
+      "scope": "placard:pc.my-your",
+      "gloss": "his, its / him, it (-hu)"
+    },
+    {
+      "chunk": "placards",
+      "ids": [
+        1
+      ],
+      "op": "scoped",
+      "word": "ـهَا",
+      "scope": "placard:pc.my-your",
+      "gloss": "her, its / her, it (-hā)"
+    },
+    {
+      "chunk": "placards",
+      "ids": [
+        1
+      ],
+      "op": "scoped",
+      "word": "ـنَا",
+      "scope": "placard:pc.my-your",
+      "gloss": "our / us (-nā)"
+    },
+    {
+      "chunk": "placards",
+      "ids": [
+        1
+      ],
+      "op": "scoped",
+      "word": "ـكُمْ",
+      "scope": "placard:pc.my-your",
+      "gloss": "your / you (to several people: -kum)"
+    },
+    {
+      "chunk": "placards",
+      "ids": [
+        1
+      ],
+      "op": "scoped",
+      "word": "ـهُمْ",
+      "scope": "placard:pc.my-your",
+      "gloss": "their / them (-hum)"
+    },
+    {
+      "chunk": "placards",
+      "ids": [
+        2
+      ],
+      "op": "scoped",
+      "word": "كَتَبْـ",
+      "scope": "placard:pc.past-tense",
+      "gloss": "katab- (the past-tense stem of 'to write')"
+    },
+    {
+      "chunk": "placards",
+      "ids": [
+        3
+      ],
+      "op": "hand",
+      "word": "ـِيّ",
+      "gloss": "-ī (adjective ending 'related to', m; also nationality)"
+    },
+    {
+      "chunk": "placards",
+      "ids": [
+        3
+      ],
+      "op": "hand",
+      "word": "ـِيَّة",
+      "gloss": "-iyya (adjective ending 'related to', f; also nationality)"
+    },
+    {
+      "chunk": "placards",
+      "ids": [
+        4
+      ],
+      "op": "engine",
+      "note": "Stray s·h separator after a tatweel/hyphen: '-·hu', '-·hā', '-·hum' must be '-hu', '-hā', '-hum'. Likely src/core/translit.ts ~l.291: 'سكدت'.includes(prev.ch) is true for an empty prev.ch (tatweel); require prev.ch to be one of س ك د ت. Seen on pc.my-your items[3,4,7].note, and in grammar, days-51-60, glossary-hand."
+    },
+    {
+      "chunk": "placards",
+      "ids": [
+        5
+      ],
+      "op": "engine",
+      "note": "Same problem as the scenarios-1 #13 engine op: وَظُرُوفُ (seg 'and adverbs (of)') must split even though ظُرُوفُ is not an index entry: 'Ḥurūfu l-jarri waẓurūfu l-makāni' → 'Ḥurūfu l-jarri wa-ẓurūfu l-makāni'; also 'waẓahruhu' → 'wa-ẓahruhu', 'wawaṣalat' → 'wa-waṣalat'."
+    },
+    {
+      "chunk": "letters-pronunciation",
+      "ids": [
+        1
+      ],
+      "op": "scoped",
+      "word": "خَيْر",
+      "scope": "letter:kha",
+      "gloss": "good, goodness"
+    },
+    {
+      "chunk": "letters-pronunciation",
+      "ids": [
+        1
+      ],
+      "op": "scoped",
+      "word": "خَيْر",
+      "scope": "pron:kha",
+      "gloss": "good, goodness"
+    },
+    {
+      "chunk": "letters-pronunciation",
+      "ids": [
+        1
+      ],
+      "op": "scoped",
+      "word": "خَيْر",
+      "scope": "pron:ghayn",
+      "gloss": "good, goodness"
+    },
+    {
+      "chunk": "letters-pronunciation",
+      "ids": [
+        2
+      ],
+      "op": "scoped",
+      "word": "نُور",
+      "scope": "letter:nun",
+      "gloss": "light; Nour (first name)"
+    },
+    {
+      "chunk": "letters-pronunciation",
+      "ids": [
+        2
+      ],
+      "op": "scoped",
+      "word": "نُور",
+      "scope": "pron:vowels",
+      "gloss": "light; Nour (first name)"
+    },
+    {
+      "chunk": "letters-pronunciation",
+      "ids": [
+        3
+      ],
+      "op": "scoped",
+      "word": "وْ",
+      "scope": "pron:diphthongs",
+      "gloss": "the letter wāw (with sukūn: the glide aw)"
+    },
+    {
+      "chunk": "letters-pronunciation",
+      "ids": [
+        4
+      ],
+      "op": "engine",
+      "note": "A bare letter or diacritic in brackets in prose prints '()' (or a bare consonant): 'ḥāʾ () versus hāʾ ()', 'jīm (J)', 'the sukūn () marks'. Either drop the bracket from the ⟶ line ('ḥāʾ versus hāʾ') — the checker's preferred option — or name it as in tips ('ḥāʾ (ḥāʾ)'). Affects pronunciation titles of ha, ayn, qaf, kha, ta-marbuta, ra, hamza, dad, ta-emphatic, ghayn, sin-sad, dal-dhal, jim and the clusters/sukun diagram."
+    },
+    {
+      "chunk": "letters-pronunciation",
+      "ids": [
+        5
+      ],
+      "op": "engine",
+      "note": "Seated hamzas in prose are unnamed: أ ؤ ئ print empty and إ prints 'i'/'I'. Name them like ء: 'hamza on alif', 'hamza under alif', 'hamza on wāw', 'hamza on yāʾ' in prose ('… seat (hamza on alif, hamza under alif, hamza on wāw, hamza on yāʾ)'), and give pron hamza letters[1..4] a non-empty ⟶ (ʾa / ʾi / ʾ …). Seen on letters.json [28].sound and pronunciation.json [13].tip and letters[1..4]."
+    }
+  ],
+  "checks": [
+    {
+      "chunk": "scenarios-1",
+      "ids": [
+        1
+      ],
+      "area": "scenarios-1",
+      "expect": "طَوِيلَةً=long (f, after 'was')"
+    },
+    {
+      "chunk": "scenarios-1",
+      "ids": [
+        2
+      ],
+      "area": "scenarios-1",
+      "expect": "الْإِشَارَة=the traffic light; the signal, sign"
+    },
+    {
+      "chunk": "scenarios-1",
+      "ids": [
+        3
+      ],
+      "area": "scenarios-1",
+      "expect": "مَرَّةً=time(s) (after kam: 'how many times'); once"
+    },
+    {
+      "chunk": "scenarios-1",
+      "ids": [
+        4
+      ],
+      "area": "scenarios-1",
+      "expect": "وَهُوَ=and he"
+    },
+    {
+      "chunk": "scenarios-1",
+      "ids": [
+        5
+      ],
+      "area": "scenarios-1",
+      "expect": "تَفَضَّلْ=please (come in / sit / go ahead); here you are (to a man)"
+    },
+    {
+      "chunk": "scenarios-1",
+      "ids": [
+        6
+      ],
+      "area": "scenarios-1",
+      "expect": "تَفَضَّلْ=please (come in / sit / go ahead); here you are (to a man)"
+    },
+    {
+      "chunk": "scenarios-1",
+      "ids": [
+        7
+      ],
+      "area": "scenarios-1",
+      "expect": "تَفَضَّلِي=please (come in / sit / go ahead); here you are (to a woman)"
+    },
+    {
+      "chunk": "scenarios-1",
+      "ids": [
+        8
+      ],
+      "area": "scenarios-1",
+      "expect": "هُوَ=it (m), he"
+    },
+    {
+      "chunk": "scenarios-1",
+      "ids": [
+        9
+      ],
+      "area": "scenarios-1",
+      "expect": "الْجَبَل=the mountain"
+    },
+    {
+      "chunk": "scenarios-1",
+      "ids": [
+        9
+      ],
+      "area": "scenarios-1",
+      "expect": "الْجَبَل=the mountain"
+    },
+    {
+      "chunk": "scenarios-1",
+      "ids": [
+        10
+      ],
+      "area": "scenarios-1",
+      "expect": "مَقْهَى=café, coffeehouse"
+    },
+    {
+      "chunk": "scenarios-1",
+      "ids": [
+        11
+      ],
+      "area": "scenarios-1",
+      "expect": "السَّاعَة=the clock; the hour, the time"
+    },
+    {
+      "chunk": "scenarios-1",
+      "ids": [
+        12
+      ],
+      "area": "scenarios-1",
+      "expect": "نَعَم، قِطْعَةَ كَعْك وَاحِدَة، مِنْ فَضْلِكَ."
+    },
+    {
+      "chunk": "scenarios-1",
+      "ids": [
+        12
+      ],
+      "area": "scenarios-1",
+      "expect": "[قِطْعَةَ = piece]"
+    },
+    {
+      "chunk": "scenarios-1",
+      "ids": [
+        12
+      ],
+      "area": "scenarios-1",
+      "expect": "ثَلَاثَةُ دَنَانِير، مِنْ فَضْلِكَ."
+    },
+    {
+      "chunk": "scenarios-1",
+      "ids": [
+        12
+      ],
+      "area": "scenarios-1",
+      "expect": "[ثَلَاثَةُ = three]"
+    },
+    {
+      "chunk": "scenarios-1",
+      "ids": [
+        12
+      ],
+      "area": "scenarios-1",
+      "expect": "وَالْكَعْكَة بِعَشَرَةِ جُنَيْهَات."
+    },
+    {
+      "chunk": "scenarios-1",
+      "ids": [
+        12
+      ],
+      "area": "scenarios-1",
+      "expect": "[بِعَشَرَةِ = for ten]"
+    },
+    {
+      "chunk": "scenarios-1",
+      "ids": [
+        12
+      ],
+      "area": "scenarios-1",
+      "expect": "mistakes[0].right: خَمْسَةُ أَرْغِفَة"
+    },
+    {
+      "chunk": "scenarios-1",
+      "ids": [
+        12
+      ],
+      "area": "scenarios-1",
+      "expect": "وَخُذْ قِطْعَةَ كَعْك أُخْرَى!"
+    },
+    {
+      "chunk": "scenarios-1",
+      "ids": [
+        12
+      ],
+      "area": "scenarios-1",
+      "expect": "[وَخُذْ = and take (to a man)] [قِطْعَةَ = piece]"
+    },
+    {
+      "chunk": "scenarios-2",
+      "ids": [
+        1
+      ],
+      "area": "scenarios-2",
+      "expect": "الْمَكْتَب=the desk, the counter; the office"
+    },
+    {
+      "chunk": "scenarios-2",
+      "ids": [
+        1
+      ],
+      "area": "scenarios-2",
+      "expect": "الْمَكْتَب=the desk, the counter; the office"
+    },
+    {
+      "chunk": "scenarios-2",
+      "ids": [
+        1
+      ],
+      "area": "scenarios-2",
+      "expect": "الْمَكْتَب=the desk, the counter; the office"
+    },
+    {
+      "chunk": "scenarios-2",
+      "ids": [
+        1
+      ],
+      "area": "scenarios-2",
+      "expect": "الْمَكْتَب=the desk, the counter; the office"
+    },
+    {
+      "chunk": "scenarios-2",
+      "ids": [
+        2
+      ],
+      "area": "scenarios-2",
+      "expect": "الْعَرَبَة=the trolley, the cart"
+    },
+    {
+      "chunk": "scenarios-2",
+      "ids": [
+        2
+      ],
+      "area": "scenarios-2",
+      "expect": "الْعَرَبَة=the trolley, the cart"
+    },
+    {
+      "chunk": "scenarios-2",
+      "ids": [
+        3
+      ],
+      "area": "scenarios-2",
+      "expect": "لِكُلِّ=for every, for each"
+    },
+    {
+      "chunk": "scenarios-2",
+      "ids": [
+        4
+      ],
+      "area": "scenarios-2",
+      "expect": "هُوَ=he, it (m)"
+    },
+    {
+      "chunk": "scenarios-2",
+      "ids": [
+        4
+      ],
+      "area": "scenarios-2",
+      "expect": "هُوَ=he, it (m)"
+    },
+    {
+      "chunk": "scenarios-2",
+      "ids": [
+        5
+      ],
+      "area": "scenarios-2",
+      "expect": "سَيِّدَات=ladies, women"
+    },
+    {
+      "chunk": "scenarios-2",
+      "ids": [
+        6
+      ],
+      "area": "scenarios-2",
+      "expect": "السَّاعَة=the clock; the hour"
+    },
+    {
+      "chunk": "scenarios-2",
+      "ids": [
+        7
+      ],
+      "area": "scenarios-2",
+      "expect": "طَابُور=queue"
+    },
+    {
+      "chunk": "scenarios-2",
+      "ids": [
+        8
+      ],
+      "area": "scenarios-2",
+      "expect": "مُدِيرَة=manager, director (a woman)"
+    },
+    {
+      "chunk": "scenarios-2",
+      "ids": [
+        9
+      ],
+      "area": "scenarios-2",
+      "expect": "خِزَانَةُ=cabinet, case (of) ('display case')"
+    },
+    {
+      "chunk": "scenarios-2",
+      "ids": [
+        9
+      ],
+      "area": "scenarios-2",
+      "expect": "خِزَانَةُ=cabinet, case (of) ('display case')"
+    },
+    {
+      "chunk": "scenarios-2",
+      "ids": [
+        10
+      ],
+      "area": "scenarios-2",
+      "expect": "أَغْلَى=more expensive; the most expensive (before a noun)"
+    },
+    {
+      "chunk": "scenarios-2",
+      "ids": [
+        11
+      ],
+      "area": "scenarios-2",
+      "expect": "الْجَبَل=the mountain"
+    },
+    {
+      "chunk": "scenarios-2",
+      "ids": [
+        12
+      ],
+      "area": "scenarios-2",
+      "expect": "bi-thalāthimiʾati junayh"
+    },
+    {
+      "chunk": "culture",
+      "ids": [
+        1
+      ],
+      "area": "culture",
+      "expect": "الْعَرَبِيَّة=Arabic (f)"
+    },
+    {
+      "chunk": "culture",
+      "ids": [
+        1
+      ],
+      "area": "culture",
+      "expect": "الْعَرَبِيَّة=Arabic (f)"
+    },
+    {
+      "chunk": "culture",
+      "ids": [
+        2
+      ],
+      "area": "culture",
+      "expect": "أَكْثَرُ=most (of); more"
+    },
+    {
+      "chunk": "culture",
+      "ids": [
+        3
+      ],
+      "area": "culture",
+      "expect": "الْأَكْبَر=the eldest; the biggest"
+    },
+    {
+      "chunk": "culture",
+      "ids": [
+        4
+      ],
+      "area": "culture",
+      "expect": "مَرِيئًا=may it be wholesome"
+    },
+    {
+      "chunk": "culture",
+      "ids": [
+        5
+      ],
+      "area": "culture",
+      "expect": "أَكْثَر=more"
+    },
+    {
+      "chunk": "culture",
+      "ids": [
+        6
+      ],
+      "area": "culture",
+      "expect": "نُور=light; Nour (first name)"
+    },
+    {
+      "chunk": "culture",
+      "ids": [
+        7
+      ],
+      "area": "culture",
+      "expect": "الْخَزْنَة=the Treasury (famous building in Petra)"
+    },
+    {
+      "chunk": "placards",
+      "ids": [
+        1
+      ],
+      "area": "placards",
+      "expect": "ـكَ=your (on a noun) / you (on a verb), to a man: -ka"
+    },
+    {
+      "chunk": "placards",
+      "ids": [
+        1
+      ],
+      "area": "placards",
+      "expect": "ـكِ=your / you (to a woman: -ki)"
+    },
+    {
+      "chunk": "placards",
+      "ids": [
+        1
+      ],
+      "area": "placards",
+      "expect": "ـهُ=his, its / him, it (-hu)"
+    },
+    {
+      "chunk": "placards",
+      "ids": [
+        1
+      ],
+      "area": "placards",
+      "expect": "ـهَا=her, its / her, it (-hā)"
+    },
+    {
+      "chunk": "placards",
+      "ids": [
+        1
+      ],
+      "area": "placards",
+      "expect": "ـنَا=our / us (-nā)"
+    },
+    {
+      "chunk": "placards",
+      "ids": [
+        1
+      ],
+      "area": "placards",
+      "expect": "ـكُمْ=your / you (to several people: -kum)"
+    },
+    {
+      "chunk": "placards",
+      "ids": [
+        1
+      ],
+      "area": "placards",
+      "expect": "ـهُمْ=their / them (-hum)"
+    },
+    {
+      "chunk": "placards",
+      "ids": [
+        2
+      ],
+      "area": "placards",
+      "expect": "كَتَبْـ=katab- (the past-tense stem of 'to write')"
+    },
+    {
+      "chunk": "placards",
+      "ids": [
+        3
+      ],
+      "area": "placards",
+      "expect": "ـِيّ=-ī (adjective ending 'related to', m; also nationality)"
+    },
+    {
+      "chunk": "placards",
+      "ids": [
+        3
+      ],
+      "area": "placards",
+      "expect": "ـِيَّة=-iyya (adjective ending 'related to', f; also nationality)"
+    },
+    {
+      "chunk": "letters-pronunciation",
+      "ids": [
+        1
+      ],
+      "area": "letters-pronunciation",
+      "expect": "خَيْر=good, goodness"
+    },
+    {
+      "chunk": "letters-pronunciation",
+      "ids": [
+        1
+      ],
+      "area": "letters-pronunciation",
+      "expect": "خَيْر=good, goodness"
+    },
+    {
+      "chunk": "letters-pronunciation",
+      "ids": [
+        1
+      ],
+      "area": "letters-pronunciation",
+      "expect": "خَيْر=good, goodness"
+    },
+    {
+      "chunk": "letters-pronunciation",
+      "ids": [
+        2
+      ],
+      "area": "letters-pronunciation",
+      "expect": "نُور=light; Nour (first name)"
+    },
+    {
+      "chunk": "letters-pronunciation",
+      "ids": [
+        2
+      ],
+      "area": "letters-pronunciation",
+      "expect": "نُور=light; Nour (first name)"
+    },
+    {
+      "chunk": "letters-pronunciation",
+      "ids": [
+        3
+      ],
+      "area": "letters-pronunciation",
+      "expect": "وْ=the letter wāw (with sukūn: the glide aw)"
+    }
+  ],
+  "skipped": [
+    {
+      "chunk": "culture",
+      "id": 6,
+      "reason": "Partly planned: نُور=light; Nour (first name) is scoped to culture:cul.family. أَمَل is NOT planned: in the same place (cul.family) quiz[3].prompt asks 'What does the name أَمَل mean?', and the checker says that tap must stay name-only; with one gloss per form per place, 'hope; Amal' would give the quiz answer away. Lead decides: either accept the giveaway, or add an engine rule that a quiz prompt asking for a word's meaning taps that word without its meaning, then add scoped أَمَل=hope; Amal (first name) at culture:cul.family."
+    },
+    {
+      "chunk": "culture",
+      "id": 8,
+      "reason": "DISAGREE (يَا أُسْتَاذ without ḍamma is the course-wide house style, ~85 occurrences; a munādā-ḍamma change would be a course-wide owner decision)."
+    }
+  ]
+}

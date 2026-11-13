@@ -1,0 +1,188 @@
+{
+  "chunk": "vocabulary-1",
+  "reviewer": "A",
+  "errors": [
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[314].example.ar (tap); [316].example.ar (tap); [318].example.ar (tap)",
+      "current": "تَسْكُنُ=you live (to a man)",
+      "problem": "Regression: the round-2 fix for the [104] note ('where do you live?') seems to have become the app-wide gloss. In عَمَّةُ سَامِي تَسْكُنُ فِي عَمَّان ('Sami's aunt lives in Amman'), خَالَتِي هُدَى تَسْكُنُ فِي الْإِسْكَنْدَرِيَّة ('My aunt Huda lives in Alexandria') and عَمَّةُ سَامِي تَسْكُنُ فِي عَمَّان مَعَ زَوْجِهَا the subject is a woman (she lives), but the tap says 'you live (to a man)'.",
+      "category": "gloss",
+      "severity": "major",
+      "confidence": "high",
+      "fix": "تَسْكُنُ=(she) lives",
+      "alsoChange": "keep 'you live (to a man)' only in the [104] note (أَيْنَ تَسْكُنُ؟)"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[206].example.ar (tap)",
+      "current": "تَذْهَبُ=you go (to a man)",
+      "problem": "In تَذْهَبُ لَيْلَى إِلَى الْمَكْتَبَة ('Layla goes to the bookshop') the subject is Layla, so تَذْهَبُ is 'she goes'. The tap gives 'you go (to a man)', the wrong person and gender.",
+      "category": "gloss",
+      "severity": "major",
+      "confidence": "high",
+      "fix": "تَذْهَبُ=(she) goes"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[216].example.ar (tap)",
+      "current": "الْإِشَارَة=pointing",
+      "problem": "In the headword's own example اِذْهَبْ إِلَى الْأَمَام حَتَّى الْإِشَارَة ('as far as the traffic lights') the word is glossed 'pointing'. Reported in rounds 1 and 2 and still there.",
+      "category": "gloss",
+      "severity": "major",
+      "confidence": "high",
+      "fix": "الْإِشَارَة=the traffic lights"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[277].example.ar (tap)",
+      "current": "الْمَكْتَب=the office",
+      "problem": "عَلَى الْمَكْتَب مِصْبَاح جَدِيد is translated 'On the desk there is a new lamp', but the tap says 'the office' ('on the office'). Reported in round 2 and still there.",
+      "category": "gloss",
+      "severity": "major",
+      "confidence": "high",
+      "fix": "الْمَكْتَب=the desk"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[394].example.ar (tap)",
+      "current": "الْيَوْم=today",
+      "problem": "ثَلَاثَ مَرَّات فِي الْيَوْم is 'three times a day' (as translated); the tap makes it 'three times today'. Reported in rounds 1 and 2 and still there.",
+      "category": "gloss",
+      "severity": "major",
+      "confidence": "high",
+      "fix": "الْيَوْم=the day (here: a day, per day)"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[155].example.ar (tap)",
+      "current": "سَلَطَةً=a salad (after laysa)",
+      "problem": "In أُرِيدُ سَلَطَةً خَضْرَاء the -an is the object of 'I want'; there is no لَيْسَ in the sentence. Wrong grammar tag; reported in rounds 1 and 2 and still there.",
+      "category": "gloss",
+      "severity": "minor",
+      "confidence": "high",
+      "fix": "سَلَطَةً=a salad (object)"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[212].forms[0].ar (tap)",
+      "current": "ثَانِيَة=second (f): 'again'",
+      "problem": "The feminine adjective ثَانِيَة ('second', f) is glossed with 'again', the sense of the adverb مَرَّةً ثَانِيَةً. Reported in round 2 and still there.",
+      "category": "gloss",
+      "severity": "minor",
+      "confidence": "high",
+      "fix": "ثَانِيَة=second (f)"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[282].note (tap)",
+      "current": "لَهُ=it has (lit. for it)",
+      "problem": "The note lists لَكَ, لَهُ, لَهَا as the forms of لِـ 'for' ('for you, for him, for her'); لَهُ is glossed 'it has', breaking the paradigm (لَهَا = 'for her'). Reported in round 2 and still there.",
+      "category": "gloss",
+      "severity": "minor",
+      "confidence": "high",
+      "fix": "لَهُ=for him, for it"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[297].forms[2].ar (tap)",
+      "current": "تُشْبِهُ=you look like (to a man)",
+      "problem": "The form is labelled 'she (present)', but tapping it shows 'you look like (to a man)'. The learner sees a label and a gloss that disagree on the person.",
+      "category": "gloss",
+      "severity": "minor",
+      "confidence": "high",
+      "fix": "تُشْبِهُ=she looks like (also: you look like, to a man)"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[391].forms[2].ar (tap)",
+      "current": "تَجْلِسُ=sits (she, it)",
+      "problem": "The form is labelled 'you (present)', but the tap shows 'sits (she, it)'. Label and gloss disagree on the person (mirror image of the تُشْبِهُ case).",
+      "category": "gloss",
+      "severity": "minor",
+      "confidence": "high",
+      "fix": "تَجْلِسُ=you sit (to a man); she sits"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[324].ar (tap); [358].example.ar (tap)",
+      "current": "وَصَلَ=it arrived (m)",
+      "problem": "The headword وَصَلَ ('arrived', he/it) is glossed 'it arrived (m)'. In أَخِيرًا وَصَلَ دَانْيَال بَعْدَ السَّاعَة الثَّامِنَة the subject is Daniel, so the learner reads 'it arrived' for a person.",
+      "category": "gloss",
+      "severity": "minor",
+      "confidence": "high",
+      "fix": "وَصَلَ=(he, it) arrived"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[405].forms[0].ar (tap)",
+      "current": "أَخَذَ=(he) took ('won')",
+      "problem": "A one-sentence sense ('won', from a sports line elsewhere) leaks into the plain paradigm form of يَأْخُذُ 'to take'. In the vocabulary card أَخَذَ is simply 'he took'.",
+      "category": "gloss",
+      "severity": "minor",
+      "confidence": "high",
+      "fix": "أَخَذَ=(he) took"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[361].forms[1].ar (tap)",
+      "current": "خَرَجْتُ=I went out, I got off",
+      "problem": "خَرَجْتُ is 'I went out, I left'; 'I got off' (a vehicle) is نَزَلْتُ, the verb the course teaches in [223]. The extra sense mixes up the two verbs.",
+      "category": "gloss",
+      "severity": "minor",
+      "confidence": "medium",
+      "fix": "خَرَجْتُ=I went out, I left"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[103].forms[0].ar (tap)",
+      "current": "عَمِلَ=did, made",
+      "problem": "The past form of يَعْمَلُ 'to work' (card: 'to work', example 'Yusuf works at a company') is glossed 'did, made'. As the past of this verb it is 'he worked'; 'did, made' hides the meaning the card teaches.",
+      "category": "gloss",
+      "severity": "minor",
+      "confidence": "medium",
+      "fix": "عَمِلَ=(he) worked"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[392].forms[0].ar (tap)",
+      "current": "صَيْدَلِيَّة=pharmacy, chemist's",
+      "problem": "This is the feminine form of صَيْدَلِيّ 'pharmacist' (label 'feminine'), and the note says it also means 'woman pharmacist', but the tap shows only 'pharmacy'.",
+      "category": "gloss",
+      "severity": "minor",
+      "confidence": "medium",
+      "fix": "صَيْدَلِيَّة=pharmacist (f); also pharmacy"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[328].note (tap)",
+      "current": "الْمُتَوَسِّط=the medium (m)",
+      "problem": "In الْبَحْر الْأَبْيَض الْمُتَوَسِّط (the Mediterranean) the note itself explains 'the white middle sea'; the tap 'the medium' contradicts the note.",
+      "category": "gloss",
+      "severity": "minor",
+      "confidence": "medium",
+      "fix": "الْمُتَوَسِّط=the middle (one), lying in the middle"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[129].example.ar; [131].example.ar; [243].example.ar; [247].example.ar",
+      "current": "وَجُبْنًا",
+      "problem": "Clitic style is inconsistent with the round-3 rule (a word glossed as clitic + word gets a hyphen): وَجُبْنًا 'and cheese' ⟶ wajubnan, وَنَهَارًا 'and by day' ⟶ wanahāran, وَبَنْطَلُونًا 'and trousers' ⟶ wabanṭalūnan, while in the same kind of line وَخُبْزًا 'and bread' ⟶ wa-khubzan. The Arabic is correct.",
+      "category": "engine",
+      "severity": "minor",
+      "confidence": "medium",
+      "fix": "transliterate wa-jubnan, wa-nahāran, wa-banṭalūnan (no change to the Arabic)"
+    }
+  ],
+  "notes": [
+    {"file": "content/course/vocabulary.json", "path": "[25].plural", "note": "بِلَاد is given as the plural of بَلَد. It is used so, but بِلَاد is also a singular 'country, land' and the usual plural of بَلَد is بُلْدَان; worth showing both."},
+    {"file": "content/course/vocabulary.json", "path": "[235].example.ar (tap)", "note": "هِيَ بِنَايَة صَفْرَاء قَدِيمَة is translated 'It is…', but tapping هِيَ shows only 'she'. A gloss 'she; it (for a feminine thing)' would help."},
+    {"file": "content/course/vocabulary.json", "path": "[28].note; [35].note; [37].note; [344].note; [401].note", "note": "Notes that give Arabic + its romanisation now print the romanisation twice: 'kayfa ḥāluki? (kayfa ḥāluki)', 'abī (abī)', 'akhī (akhī)', 'qaraʾtu (qaraʾtu, I read)', 'ghaḍbā (ghaḍbā)'. The hand-written brackets can go."},
+    {"file": "content/course/vocabulary.json", "path": "[220].note", "note": "The English note still hard-codes 'maḥaṭṭatu l-mitro' while the engine writes mitrū."},
+    {"file": "content/course/vocabulary.json", "path": "[356].note", "note": "'A hollow verb like كَانَ: before -tu the long ā becomes i: نِمْتُ' may confuse, since كَانَ gives كُنْتُ with u. 'A hollow verb (like كَانَ, but with i): نِمْتُ' would be clearer."},
+    {"file": "content/course/vocabulary.json", "path": "[400].example.ar (tap)", "note": "In قَلِقَة عَلَى دَانْيَال the tap on عَلَى says only 'on'; the note teaches 'worried about'. A sentence gloss 'about (after qaliq)' would help."},
+    {"file": "content/course/vocabulary.json", "path": "[74].note", "note": "الْأَحَد is literally 'the one' (from أَحَد), not 'the first'; the meaning (first day of the week) is right."},
+    {"file": "content/course/vocabulary.json", "path": "[174].example.en", "note": "لَا نُرِيدُ السَّكَاكِين is 'we don't want the knives'; the English says 'need'."}
+  ],
+  "summary": "Read lines 1-9010 of audit/vocabulary.txt (vocabulary.json entries [0]-[410], 412 cards): every headword, plural, form, example, note and tap gloss, checking the syntax of each example before judging case endings. I checked 1,268 Arabic strings (headwords, plurals, forms, examples; plus the Arabic inside notes) and about 2,670 tap glosses. The Arabic itself is sound: I found no wrong harakat, case ending, agreement, number-noun agreement, verb form, jussive/subjunctive or imperative; the round-2 spelling fixes (الِاثْنَيْن etc.) hold. All 17 errors are tap glosses (16) plus one transliteration-consistency engine point: 0 arabic, 16 gloss, 1 engine; 5 major, 12 minor. Patterns: (1) wrong person on تَـ verbs with a female 3rd-person subject (تَذْهَبُ لَيْلَى, three تَسْكُنُ lines), the تَسْكُنُ case being a regression from the round-2 [104] fix; (2) five round-1/2 items still unfixed (الْإِشَارَة=pointing, الْمَكْتَب=the office, الْيَوْم=today in 'three times a day', سَلَطَةً 'after laysa', ثَانِيَة 'again', لَهُ 'it has'); (3) form-tab glosses that contradict their label (تُشْبِهُ, تَجْلِسُ, صَيْدَلِيَّة) or carry a sense from another sentence (أَخَذَ 'won', خَرَجْتُ 'got off', وَصَلَ 'it arrived'). 8 notes for the owner."
+}

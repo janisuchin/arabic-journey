@@ -1,0 +1,89 @@
+{
+  "chunk": "days-31-40",
+  "reviewer": "A",
+  "errors": [
+    {
+      "file": "content/days/day38.json",
+      "path": "intro (tap); objectives[2] (tap); sentences[2].mistakes[0].wrong (tap); sentences[2].mistakes[0].right (tap); sentences[2].mistakes[0].why (tap); quiz[2].options[0] (tap)",
+      "current": "مُنْذُ=since, for",
+      "problem": "In every one of these lines مُنْذُ is taught as 'ago' (مُنْذُ شَهْر 'a month ago'; objective 'Say how long ago…'; the mistake card 'وَصَلْتُ إِلَى الْقَاهِرَة مُنْذُ شَهْر' = 'I arrived in Cairo a month ago'; the quiz gap for 'a month ago'). The tap gloss gives only 'since, for', so a learner tapping the correct answer reads 'I arrived in Cairo for a month'. The sentence segs on the same day were already corrected to 'since, ago' (sentences[2].segs), so the taps now disagree with the segs. Round 2 left this as a note; it is the gloss for the very sense the lesson teaches.",
+      "category": "gloss",
+      "severity": "minor",
+      "confidence": "medium",
+      "fix": "مُنْذُ=since, for; ago (with a past verb)",
+      "alsoChange": "day38 lesson only (one-sentence gloss rule); leave 'since, for' where it means 'for' (dialogue.lines[0] مُنْذُ أُسْبُوع)."
+    },
+    {
+      "file": "content/days/day31.json",
+      "path": "reading.ar (⟶)",
+      "current": "Li-Laylā qiṭṭa smuhā Lūlū, wa-Lisāmī akh wa-ukht.",
+      "problem": "Engine: round 2 fixed لِلَيْلَى (now 'Li-Laylā') but وَلِسَامِي still comes out as 'wa-Lisāmī': the li- clitic is fused to the name and the capital is on the clitic, so the learner cannot see the name Sāmī. The seg glosses the word as 'and for Sami: Sami has', i.e. wa + li + Sāmī.",
+      "category": "engine",
+      "severity": "minor",
+      "confidence": "high",
+      "fix": "Li-Laylā qiṭṭa smuhā Lūlū, wa-li-Sāmī akh wa-ukht.",
+      "alsoChange": "transliteration only; the Arabic is correct"
+    },
+    {
+      "file": "content/days/day32.json",
+      "path": "dialogue.lines[5].ar (⟶); content/days/day35.json dialogue.lines[5].ar (⟶); content/days/day35.json reading.ar (⟶); content/days/day38.json dialogue.lines[13].ar (⟶); content/days/day39.json dialogue.lines[11].ar (⟶)",
+      "current": "wa-shaʿruhā aswad, waʿuyūnuhā khaḍrāʾ",
+      "problem": "Engine: the round-3 'one clitic style' rule (a word glossed as clitic + word gets a hyphen) is not applied in these lines, although each word's seg glosses it as 'and …'/'so …': وَعُيُونُهَا 'and her eyes' → 'waʿuyūnuhā' (day 32, next to 'wa-shaʿruhā' in the same line); فَفِي 'because in (lit. so in)' → 'fafī' (day 35 l6); وَعَمَّتُهُ 'and his aunt' → 'Waʿammatuhu' (day 35 reading); وَسَأَلَتْ 'and she asked' → 'wasaʾalat' (day 38 l14); وَكِبَّة 'and kibbeh', وَمَنَاقِيش 'and manakish' → 'wakibba wamanāqīsh' (day 39 l12). The same texts write wa-hiya, wa-Khālid, wa-ṭawīl, so the learner sees two styles side by side and may not recognise the conjunction.",
+      "category": "engine",
+      "severity": "minor",
+      "confidence": "high",
+      "fix": "wa-ʿuyūnuhā; fa-fī; Wa-ʿammatuhu; wa-saʾalat; wa-kibba wa-manāqīsh",
+      "alsoChange": "transliteration only; probably one engine rule (wa-/fa- before a word the dictionary does not split) covers all five"
+    },
+    {
+      "file": "content/days/day34.json",
+      "path": "quiz[6].prompt (⟶); content/days/day36.json quiz[6].prompt (⟶); content/days/day38.json quiz[6].options[0] (⟶)",
+      "current": "Which word ends in tāʾ marbūṭa ()?",
+      "problem": "Engine: bare letters and marks quoted on their own get an empty transliteration. Day 34: the bare ة now prints as empty brackets '()' (regression: in round 2 it printed '(tāʾ marbūṭa)'). Day 36: the sukūn sign ْ disappears ('which consonant carries the sukūn ?'). Day 38: the option أ has an empty ⟶ line while the other options show S, B, ʿ (reported in round 2, still there).",
+      "category": "engine",
+      "severity": "minor",
+      "confidence": "high",
+      "fix": "day 34: 'Which word ends in tāʾ marbūṭa (ة)?' or drop the bracket; day 36: '… carries the sukūn (ْ)?'; day 38 option: ⟶ 'ʾ' (hamza on alif)",
+      "alsoChange": "transliteration only"
+    },
+    {
+      "file": "content/days/day32.json",
+      "path": "dialogue.lines[0].ar (⟶); reading.ar (⟶); content/days/day36.json dialogue.speakers[0].nameAr (⟶); content/days/day39.json dialogue.speakers[0].nameAr (⟶)",
+      "current": "fī shīkāghū",
+      "problem": "Engine: two names lose their capital letter. شِيكَاغُو (seg 'Chicago (city in the USA) · name') is transliterated 'shīkāghū' in both day-32 lines, while every other place name is capitalised (Amrīkā, Bayrūt, ʿAmmān). In the speaker label الْأُسْتَاذ كَرِيم the name comes out as 'Al-ustādh karīm' (days 36 and 39), because كَرِيم is read as the adjective 'generous'; here it is only the teacher's name.",
+      "category": "engine",
+      "severity": "minor",
+      "confidence": "medium",
+      "fix": "fī Shīkāghū; Al-ustādh Karīm",
+      "alsoChange": "transliteration only"
+    }
+  ],
+  "notes": [
+    {
+      "file": "content/days/day33.json",
+      "path": "intro; objectives[2]; sentences[0].mistakes[0].why; quiz[4].prompt (tap ـًا)",
+      "note": "The round-2 fix for ـًا now reads '-an (ending: an indefinite object; also adverbs like shukran)'. In this lesson ـًا marks the predicate of لَيْسَ, not an object. It matches the course's 'object form' wording, so it is not wrong, but '-an (the ending after laysa/kāna, on objects and on adverbs like shukran)' would fit the lesson better."
+    },
+    {
+      "file": "content/days/day31.json",
+      "path": "dialogue.lines[10].en",
+      "note": "مَنْ فِي الْبَيْت؟ is 'Who is in the house?' / 'Who is at home?'; the English 'Who lives in the house?' is a free rendering. Acceptable in context."
+    },
+    {
+      "file": "content/days/day36.json",
+      "path": "sentences[3].mistakes[0].wrong (⟶)",
+      "note": "The Arabic field contains the English '(to Daniel)', so the transliteration starts with a lower-case 'hal akalti samakan? (to Daniel)'. Moving '(to Daniel)' into the why text would keep the Arabic field clean."
+    },
+    {
+      "file": "content/days/day39.json",
+      "path": "dialogue.lines[1].ar",
+      "note": "Layla is Lebanese and the trip is to Beirut; in Lebanon July is normally تَمُّوز. يُولْيُو is correct MSA (Egyptian/Maghrebi usage), so this is only a register/culture note."
+    },
+    {
+      "file": "content/days/day40.json",
+      "path": "dialogue.lines[2].ar (⟶)",
+      "note": "الْمُبَارَاة in pause prints 'al-mubārāh' (ALA-LC -āh for tāʾ marbūṭa after alif), while elsewhere tāʾ marbūṭa is silent ('sayyāra'). It follows ALA-LC, so not an error, but learners may wonder about the -h."
+    }
+  ],
+  "summary": "I read all 2,775 lines of audit/days-31-40.txt (days 31–40): about 535 Arabic strings with their transliterations, ~1,990 seg glosses and 722 tap glosses (330 tap lines), plus every translation, literal, mistake card, grammar note and quiz key, checking the syntax of each sentence before judging case endings and opening the round-2 merged report to avoid re-reporting fixed items. The Arabic itself is clean: laysa/lastu/laysat + accusative, kāna/kānat + accusative (incl. kunnā ʿasharata), number–counted-noun agreement (ʿashru sanawātin, ʿishrūna sanatan, thalāthatu akhwāl, ʿasharatu aḥfād), hollow-verb past (zurnā, zurtumā, nimtu), mā + past negation, qabla/baʿda (an) + noun/verb, idāfa family chains, abāhu/abāka object forms, dual forms (yadayya, naẓīfatāni, faʿaltumā) and the round-2 fixes (ṭawīl gloss, kānū gloss, the day 40 fill-the-gap options, the qāf description) are all correct. I found 0 Arabic, agreement, verb, translation or answer-key errors. Errors: 5, all minor: 1 gloss (مُنْذُ tapped as 'since, for' in 6 taps of the day-38 lesson that teaches it as 'ago'; 6 of 722 taps wrong) and 4 engine problems in the ⟶ lines (wa-Lisāmī; unhyphenated wa-/fa- clitics in 5 lines; bare ة/ْ/أ with empty transliteration, ة being a regression; Chicago and Karim not capitalised). 5 notes."
+}

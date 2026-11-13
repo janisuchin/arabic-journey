@@ -1,0 +1,42 @@
+{
+  "chunk": "days-31-40",
+  "checker": "X3-2",
+  "verdicts": [
+    {
+      "id": 1,
+      "verdict": "CHANGE",
+      "fix": "مُنْذُ=since, for; ago",
+      "scope": "day 38 lesson taps: intro, objectives[2], sentences[2].mistakes[0].wrong, sentences[2].mistakes[0].right, sentences[2].mistakes[0].why, quiz[2].options[0]. (It is a true dictionary sense list, so it could also be app-wide, but day 38 is the minimum.) Leave the dialogue.lines[0] seg 'since, for' (مُنْذُ أُسْبُوع = for a week).",
+      "reason": "Real: the lesson teaches مُنْذُ شَهْر = 'a month ago', the sentence seg already says 'since, ago', but the taps say only 'since, for'. The reviewer's qualifier '(with a past verb)' is wrong: in the same lesson مَا سَمِعْتُ … مُنْذُ أُسْبُوع has a past verb and means 'for a week'. The 'ago' reading depends on the sense (a point in the past, typically with an affirmative past verb), not on the past tense alone, so the plain multi-sense gloss is safer."
+    },
+    {
+      "id": 2,
+      "verdict": "AGREE",
+      "fix": "⟶ 'Li-Laylā qiṭṭa smuhā Lūlū, wa-li-Sāmī akh wa-ukht.'",
+      "scope": "engine transliteration only; day31 reading.ar unchanged",
+      "reason": "Confirmed at export line 200: 'wa-Lisāmī', while the seg is 'and for Sami: Sami has' and the parallel لِلَيْلَى already gives 'Li-Laylā'. The capital on the clitic hides the name."
+    },
+    {
+      "id": 3,
+      "verdict": "AGREE",
+      "fix": "wa-ʿuyūnuhā; fa-fī; Wa-ʿammatuhu; wa-saʾalat; wa-kibba wa-manāqīsh",
+      "scope": "engine transliteration rule (same as days-11-20 error 2); no Arabic change",
+      "reason": "Confirmed: line 406 'wa-shaʿruhā aswad, waʿuyūnuhā', line 1277 'fafī', line 1330 'Waʿammatuhu', line 2138 'wasaʾalat', line 2398 'wakibba wamanāqīsh'; all are segged as 'and …' or 'because in (lit. so in)'."
+    },
+    {
+      "id": 4,
+      "verdict": "CHANGE",
+      "fix": "day 34 quiz[6].prompt ⟶ 'Which word ends in tāʾ marbūṭa?' (drop the bracket together with the letter that follows its own name); day 36 quiz[6].prompt ⟶ 'In dhahabtu (I went), which consonant carries the sukūn?' (no space before '?'); day 38 quiz[6].options[0] أ ⟶ 'ʾ', or better suppress ⟶ under the single-letter options of d38q7, because the ⟶ 'ʿ' under ع already gives away the answer to 'which letter is the ʿayn'.",
+      "scope": "engine/quiz rendering only; source prompts and options unchanged",
+      "reason": "All three are real (export lines 1107, 1674, 2206-2207). The reviewer's day-36 fix '(ْ)' adds a bracket that is not in the source; the same rule as days-01-10 error 2 (drop the letter after its own name and the space before it) gives the clean result. In d38q7 a filled-in ⟶ under every option lets the learner pick ع from its 'ʿ' transliteration, the same give-away as d7q2."
+    },
+    {
+      "id": 5,
+      "verdict": "AGREE",
+      "fix": "fī Shīkāghū (day 32 dialogue.lines[0] and reading); Al-ustādh Karīm (speaker labels days 36 and 39)",
+      "scope": "engine capitalisation only; Arabic and glosses unchanged",
+      "reason": "Confirmed: شِيكَاغُو is segged '· name' but printed lower-case, unlike Amrīkā/Bayrūt; in the speaker label الْأُسْتَاذ كَرِيم the word can only be the name. Minor and cosmetic, but a systematic engine inconsistency."
+    }
+  ],
+  "summary": "5 findings checked against audit/days-31-40.txt and content/days/day31-39: 3 AGREE, 2 CHANGE, 0 DISAGREE. CHANGE 1: مُنْذُ gloss 'since, for; ago' without the misleading '(with a past verb)'. CHANGE 4: clean engine fixes for the bare letters (no added brackets) and a note that the d38q7 option transliterations reveal the answer. No Arabic content change is involved."
+}

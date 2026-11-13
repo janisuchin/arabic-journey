@@ -1,0 +1,266 @@
+{
+  "chunk": "vocabulary-2",
+  "checker": "X3-10",
+  "verdicts": [
+    {
+      "id": 1,
+      "verdict": "AGREE",
+      "fix": "حَتَّى=even",
+      "scope": "scoped.json: حَتَّى → {\"vocab:dafi\": \"even\"}. Not app-wide: 'until' is right elsewhere.",
+      "reason": "حَتَّى فِي الشِّتَاء = 'even in winter'; 'until' gives a wrong reading."
+    },
+    {
+      "id": 2,
+      "verdict": "AGREE",
+      "fix": "اللَّيْلَة=the night (here: per night)",
+      "scope": "scoped.json: اللَّيْلَة → {\"vocab:dinar\": \"the night (here: per night)\"}. Not app-wide ('tonight' is right in other lessons).",
+      "reason": "سِعْرُ اللَّيْلَة = the price of a night, i.e. per night; 'tonight' changes the meaning."
+    },
+    {
+      "id": 3,
+      "verdict": "AGREE",
+      "fix": "تُحِبُّ=she loves, she likes",
+      "scope": "scoped.json: تُحِبُّ → {\"vocab:ughniya\": \"she loves, she likes\"}.",
+      "reason": "After أَنَّهَا the subject is 'she'; تُحِبُّ is 3rd f. sg. here, not 2nd m."
+    },
+    {
+      "id": 4,
+      "verdict": "AGREE",
+      "fix": "رِجَال=men",
+      "scope": "scoped.json: رِجَال → {\"vocab:rajul\": \"men\"} (a '*' default 'men' would also be safe, since 'men' fits the toilet sign too).",
+      "reason": "The plural of رَجُل is simply 'men'; the toilet-sign bracket belongs to the sign lesson."
+    },
+    {
+      "id": 5,
+      "verdict": "AGREE",
+      "fix": "رِحْلَتُنَا=our trip",
+      "scope": "scoped.json: رِحْلَتُنَا → {\"vocab:shati\": \"our trip\"}.",
+      "reason": "A trip to the beach, as the English says; 'flight' is a sense from an airport lesson."
+    },
+    {
+      "id": 6,
+      "verdict": "AGREE",
+      "fix": "السَّاعَةَ=the clock (-a after inna)",
+      "scope": "scoped.json: السَّاعَةَ → {\"vocab:yuqalu\": \"the clock (-a after inna)\"}. Not app-wide: 'at the hour' (adverbial accusative) is right in time sentences.",
+      "reason": "هٰذِهِ السَّاعَةَ is the noun of إِنَّ (the clock that never worked); accusative because of إِنَّ, not an adverb of time."
+    },
+    {
+      "id": 7,
+      "verdict": "AGREE",
+      "fix": "تَمَامًا=completely",
+      "scope": "scoped.json: تَمَامًا → {\"vocab:jahiz\": \"completely\"}.",
+      "reason": "جَاهِز تَمَامًا = completely ready; 'exactly' misleads here."
+    },
+    {
+      "id": 8,
+      "verdict": "AGREE",
+      "fix": "حَارًّا=hot (-an after yakūnu)",
+      "scope": "scoped.json: حَارًّا → {\"vocab:sayf\": \"hot (-an after yakūnu)\"}.",
+      "reason": "Regression confirmed: there is no لَيْسَ in the sentence; the accusative is the predicate of يَكُونُ."
+    },
+    {
+      "id": 9,
+      "verdict": "AGREE",
+      "fix": "لَطِيفًا=pleasant, nice (-an after yakūnu)",
+      "scope": "scoped.json: لَطِيفًا → same value for \"vocab:mayu\" and \"vocab:uktubar\".",
+      "reason": "The verb is يَكُونُ (present, 'is usually'); 'after was' suggests a past sentence."
+    },
+    {
+      "id": 10,
+      "verdict": "AGREE",
+      "fix": "عَشَرَ=ten (second part of a number from 11 to 19)",
+      "scope": "scoped.json: عَشَرَ → {\"*\": \"ten (second part of a number from 11 to 19)\"}: correct in every sentence, and the in-lesson seg rule keeps 'fifteen' in its own lesson. Minimum: vocab:shahr, vocab:buniya, vocab:uktushifa, vocab:qarn.",
+      "reason": "The lines say twelve, nineteenth, eighteenth and twelfth; 'part of fifteen' is wrong there."
+    },
+    {
+      "id": 11,
+      "verdict": "AGREE",
+      "fix": "أَوْزَان=weights",
+      "scope": "scoped.json: أَوْزَان → {\"vocab:wazn\": \"weights\"}. Not app-wide: 'patterns' is right in the grammar (wazn = pattern) lessons.",
+      "reason": "Under the entry 'weight' the plural means 'weights'."
+    },
+    {
+      "id": 12,
+      "verdict": "CHANGE",
+      "fix": "vocab:yajidu: وَجَدَ=(he) found; vocab:wajada: وَجَدَ=(he) found (in the proverb man jadda wajada: succeeds)",
+      "scope": "scoped.json: وَجَدَ → {\"vocab:yajidu\": \"(he) found\", \"vocab:wajada\": \"(he) found (in the proverb man jadda wajada: succeeds)\"}; optionally '*' = \"(he) found\".",
+      "reason": "Real: the bracket is wrong on the form row, the note and the headword. But a vocab place covers the whole card, and the vocab:wajada card also holds the proverb, where the 'succeeds' hint is useful; one value for that card must fit both the headword and the proverb."
+    },
+    {
+      "id": 13,
+      "verdict": "AGREE",
+      "fix": "أَخَذَ=(he) took, got",
+      "scope": "scoped.json: أَخَذَ → {\"vocab:eidiyya\": \"(he) took, got\"}. Keep ('won') in vocab:katib (Nobel sentence).",
+      "reason": "Omar got Eid money; nothing is 'won'."
+    },
+    {
+      "id": 14,
+      "verdict": "AGREE",
+      "fix": "الْعَرَبِيَّة=Arabic, Arab (f adjective)",
+      "scope": "scoped.json: الْعَرَبِيَّة → same value for \"vocab:musiqa\" and \"vocab:yastamiu\". Not app-wide: 'Arabic (the language)' is right in language sentences.",
+      "reason": "In الْمُوسِيقَى الْعَرَبِيَّة it is the f. adjective agreeing with music."
+    },
+    {
+      "id": 15,
+      "verdict": "AGREE",
+      "fix": "عَرَبِيٍّ=Arab",
+      "scope": "scoped.json: عَرَبِيٍّ → {\"vocab:katib\": \"Arab\"}. Not for vocab:kutiba or [726] (Arabic script).",
+      "reason": "For a person (a writer) English uses 'Arab'."
+    },
+    {
+      "id": 16,
+      "verdict": "AGREE",
+      "fix": "قَرِيبًا=soon",
+      "scope": "scoped.json: قَرِيبًا → {\"vocab:yaruddu\": \"soon\"}.",
+      "reason": "تَرُدَّ عَلَيَّ قَرِيبًا = reply soon; time adverb."
+    },
+    {
+      "id": 17,
+      "verdict": "AGREE",
+      "fix": "تُقَدِّمُ=(it, f) gives, presents",
+      "scope": "scoped.json: تُقَدِّمُ → {\"vocab:yuqaddimu\": \"(it, f) gives, presents\"}.",
+      "reason": "The subject is مَجْمُوعَة (a group, f.); the sense is 'gives a presentation'."
+    },
+    {
+      "id": 18,
+      "verdict": "AGREE",
+      "fix": "سَجَّلَ=(he) recorded, registered",
+      "scope": "scoped.json: سَجَّلَ → {\"vocab:tasjil\": \"(he) recorded, registered\"}. Keep 'scored' in football lessons.",
+      "reason": "The note teaches 'to record; to register'."
+    },
+    {
+      "id": 19,
+      "verdict": "AGREE",
+      "fix": "الْإِعْلَانَ=the announcement",
+      "scope": "scoped.json: الْإِعْلَانَ → {\"vocab:ilan\": \"the announcement\"}.",
+      "reason": "At the station one listens to an announcement, as translated."
+    },
+    {
+      "id": 20,
+      "verdict": "AGREE",
+      "fix": "الْكِتَابَ=the book (object)",
+      "scope": "scoped.json: الْكِتَابَ → {\"vocab:safha\": \"the book (object)\"}.",
+      "reason": "There is no أَنَّ; the accusative is the object of اِفْتَحُوا."
+    },
+    {
+      "id": 21,
+      "verdict": "AGREE",
+      "fix": "عَلَامَات=marks, signs",
+      "scope": "scoped.json: عَلَامَات → {\"vocab:alamat-tarqim\": \"marks, signs\"}. Not app-wide (the grades sense is right in school lessons).",
+      "reason": "In عَلَامَات التَّرْقِيم the word means punctuation marks, not grades."
+    },
+    {
+      "id": 22,
+      "verdict": "AGREE",
+      "fix": "Drop the repeated sense: أَكْبَر=bigger, older; the biggest; أَغْلَى=more expensive; the most expensive; أَكْثَر=more; the most; أَقَلّ=less, fewer; the least; الْقَاهِرَةِ=Cairo (city in Egypt); شِيكَاغُو=Chicago (city in the USA)",
+      "scope": "Engine: src/lang/ar/tap.ts widen(): do not add the other reading when the chosen gloss already contains it (chosen already has 'X; the Xest', or the name gloss already starts with the word reading). No glossary entries.",
+      "reason": "Confirmed at export lines 11914, 11971, 11990, 12001, 14412, 17551 and in [539]/[549]: widen() merges a reading that the chosen vocab or name gloss already contains. A systematic engine fault, so fix it once in the engine, not per word."
+    },
+    {
+      "id": 23,
+      "verdict": "AGREE",
+      "fix": "أَجْمَلَ=how beautiful (in mā ajmala …!)",
+      "scope": "scoped.json: أَجْمَلَ → {\"vocab:ajmal\": \"how beautiful (in mā ajmala …!)\"}. Not app-wide: أَجْمَلَ before a noun in the accusative is a real superlative elsewhere.",
+      "reason": "In مَا أَجْمَلَ…! أَجْمَلَ is the verb of wonder (fiʿl al-taʿajjub), not the superlative."
+    },
+    {
+      "id": 24,
+      "verdict": "AGREE",
+      "fix": "تَرَكَ=(he) left (something)",
+      "scope": "scoped.json: تَرَكَ → {\"vocab:yatruku\": \"(he) left (something)\"}.",
+      "reason": "A past form glossed 'will leave' contradicts itself."
+    },
+    {
+      "id": 25,
+      "verdict": "AGREE",
+      "fix": "يَوْمًا=days (after a number)",
+      "scope": "scoped.json: يَوْمًا → {\"vocab:yasumu\": \"days (after a number)\"}. Not app-wide ('a day' is right elsewhere).",
+      "reason": "After ثَلَاثِينَ the singular accusative is the counted noun (tamyīz) = 'days'; matches the course's دِينَارًا / شَهْرًا style."
+    },
+    {
+      "id": 26,
+      "verdict": "AGREE",
+      "fix": "كُلَّ=all (of)",
+      "scope": "scoped.json: كُلَّ → same value for \"vocab:mutadarrib\" and \"vocab:tafsil\". Not app-wide: كُلَّ مَسَاء / كُلَّ يَوْم = every.",
+      "reason": "كُلّ + a definite plural = all; the English says 'all'."
+    },
+    {
+      "id": 27,
+      "verdict": "AGREE",
+      "fix": "هُوَ=it (m); he",
+      "scope": "scoped.json: هُوَ → same value for vocab:ajmal, vocab:ala-w9, vocab:masrah, vocab:madkhal, vocab:maarid, vocab:talab, vocab:ihtiram. Not app-wide (most lessons use 'he' for people).",
+      "reason": "Real: the referent is a thing, or the pronoun is the linking pronoun (ḍamīr al-faṣl), and the English says 'it' / 'is'; 'he' misleads. The Arabic is correct. Optional nicer value for madkhal/maarid/talab/ajmal: \"it (m); here the linking 'is'\"."
+    },
+    {
+      "id": 28,
+      "verdict": "AGREE",
+      "fix": "هِيَ=it (f); they (plural of things); she",
+      "scope": "scoped.json: هِيَ → same value for vocab:atwal, vocab:asima, vocab:haqiqa, vocab:nahiya. Not app-wide.",
+      "reason": "The referents are columns, words (non-human plurals take هِيَ), Amman and an idea; the English says they / it. The Arabic is correct; only the tap misleads."
+    },
+    {
+      "id": 29,
+      "verdict": "AGREE",
+      "fix": "عَلَى=for (after shukran: thanks for)",
+      "scope": "scoped.json: عَلَى → same value for vocab:daawa, vocab:bi-kulli-surur, vocab:musaada. Never app-wide (on is the core sense).",
+      "reason": "شُكْرًا عَلَى = thanks for."
+    },
+    {
+      "id": 30,
+      "verdict": "AGREE",
+      "fix": "عَلَى=to, over (ufaḍḍilu A ʿalā B: prefer A to B)",
+      "scope": "scoped.json: عَلَى → same value for vocab:kharif and vocab:yufaddilu. Never app-wide.",
+      "reason": "faḍḍala A ʿalā B = prefer A to B; the note of [475] teaches exactly this."
+    },
+    {
+      "id": 31,
+      "verdict": "AGREE",
+      "fix": "عَنْ=for (after yabḥathu: looks for); about",
+      "scope": "scoped.json: عَنْ → same value for vocab:yabhathu and vocab:markaz. Never app-wide.",
+      "reason": "بَحَثَ عَنْ = look for; 'about' gives the wrong English."
+    },
+    {
+      "id": 32,
+      "verdict": "AGREE",
+      "fix": "مُسَافِرَة=passenger, traveller (f)",
+      "scope": "scoped.json: مُسَافِرَة → {\"vocab:musafir\": \"passenger, traveller (f)\"}.",
+      "reason": "The card teaches the noun; its feminine form should carry the noun sense (the participle reading is not wrong Arabic, but contradicts the card)."
+    },
+    {
+      "id": 33,
+      "verdict": "AGREE",
+      "fix": "سَتَكُونُ=(it, f) will be",
+      "scope": "scoped.json: سَتَكُونُ → {\"vocab:daraja\": \"(it, f) will be\"}.",
+      "reason": "The subject is دَرَجَةُ الْحَرَارَة (f.) and خَمْسَ دَرَجَات is the accusative predicate of كَانَ; not existential 'there will be'."
+    },
+    {
+      "id": 34,
+      "verdict": "AGREE",
+      "fix": "قَلِيل=little, few",
+      "scope": "scoped.json: قَلِيل → {\"vocab:aqall\": \"little, few\"}.",
+      "reason": "The note names the adjective whose comparative is أَقَلّ; '(while)' belongs to بَعْدَ قَلِيل."
+    },
+    {
+      "id": 35,
+      "verdict": "AGREE",
+      "fix": "يَصُومُ=(they) fast (verb first: singular)",
+      "scope": "scoped.json: يَصُومُ → {\"vocab:ramadan\": \"(they) fast (verb first: singular)\"}. Must be a place scope: hand.json has يَصُومُ=(he) fasts app-wide (right for the headword), and a place scope is checked before hand.json.",
+      "reason": "Verb–subject order: a singular verb before the plural subject الْمُسْلِمُونَ; '(he) fasts' misreads the sentence."
+    },
+    {
+      "id": 36,
+      "verdict": "CHANGE",
+      "fix": "كُتِبَتْ=(it, f) was written; (things) were written",
+      "scope": "scoped.json: كُتِبَتْ → {\"vocab:kutiba\": \"(it, f) was written; (things) were written\"}.",
+      "reason": "Real mismatch with the form label, but the vocab:kutiba place also covers the example كُتِبَتْ هٰذِهِ الْكَلِمَاتُ, where 'were written' is right (non-human plural with a f. sg. verb). The reviewer's '(it, f) was written' alone would make the example tap wrong; one value for the card must cover both lines."
+    },
+    {
+      "id": 37,
+      "verdict": "AGREE",
+      "fix": "بَرِيدِيَّةً=postal ('a postcard')",
+      "scope": "scoped.json: بَرِيدِيَّةً → {\"vocab:bitaqa-baridiyya\": \"postal ('a postcard')\"}.",
+      "reason": "بِطَاقَةً بَرِيدِيَّةً is one card, singular."
+    }
+  ],
+  "summary": "Checked all 37 findings of vocabulary-2-A against audit/vocabulary.txt (lines 9001-end), content/course/vocabulary.json, content/glossary/hand.json and the tap engine (meaningOf/widen in src/lang/ar/tap.ts). All 37 are real gloss or engine faults; the Arabic text itself is correct. 35 AGREE, 2 CHANGE, 0 DISAGREE. CHANGE #12 (وَجَدَ) and #36 (كُتِبَتْ): a vocab:<id> scope covers the whole card, and those cards also hold an example where the reviewer's single gloss would be wrong or lose a needed hint, so the value must fit both lines. #22 is one engine fix in widen() (a reading repeated), not glossary entries. Every other fix goes in content/glossary/scoped.json under vocab:<id>, never hand.json; only #10 (عَشَرَ) is safe as a '*' default. #35 must be a place scope because hand.json's app-wide يَصُومُ=(he) fasts is right for the headword. Note: GlossPlace exists in src/components/tap.tsx but no screen uses it yet, so vocab:<id> scopes only take effect once the vocabulary screen passes place=vocab:<id>."
+}

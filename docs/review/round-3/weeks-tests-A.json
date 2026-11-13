@@ -1,0 +1,125 @@
+{
+  "chunk": "weeks-tests",
+  "reviewer": "A",
+  "errors": [
+    {
+      "file": "content/course/course.json",
+      "path": "weeks[7].test[9].options[0] (tap on حَارًّا)",
+      "current": "حَارًّا=hot (-an after laysa)",
+      "problem": "Regression: round 2 flagged '(after was)'; the gloss now says '(-an after laysa)'. The sentence فِي الصَّيْف يَكُونُ الْجَوّ حَارًّا has no laysa: the -an comes from يَكُونُ. This is the keyed answer of a question that tests exactly why the predicate ends in -an, so the gloss names the wrong trigger. (The same app-wide auto gloss in content/glossary/auto.json also serves day78; fix it only for this line, or make the auto gloss neutral.)",
+      "category": "gloss",
+      "severity": "minor",
+      "confidence": "high",
+      "fix": "حَارًّا=hot (-an after kāna / yakūnu)",
+      "alsoChange": "keep any laysa-specific wording only where the line really has laysa (day78)"
+    },
+    {
+      "file": "content/course/course.json",
+      "path": "weeks[7].test[1].options[3] (tap on أَنَامَ)",
+      "current": "أَنَامَ=I sleep (after an)",
+      "problem": "Still present from round 2: in لَنْ أَنَامَ مُتَأَخِّرًا the -a form follows لَنْ, not أَنْ. The question tests the mood after lan, and the gloss names the wrong trigger. (w8t3 أَشْتَرِيَ and w13t6 أَذْهَبَ were fixed; this one was not.)",
+      "category": "gloss",
+      "severity": "minor",
+      "confidence": "high",
+      "fix": "أَنَامَ=I sleep (form after an / lan)",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/course/course.json",
+      "path": "weeks[7].test[7].options[2] (tap on كُلَّ)",
+      "current": "كُلَّ=all (of)",
+      "problem": "Still present from round 2: before an indefinite singular (كُلَّ شَهْر) كُلّ means 'every' ('every month'), not 'all (of)'. The course itself glosses كُلِّ as 'every' in w12t5 and 'all (of), every' in w11t2.",
+      "category": "gloss",
+      "severity": "minor",
+      "confidence": "high",
+      "fix": "كُلَّ=every",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/course/course.json",
+      "path": "weeks[12].test[2].ar (tap on السَّاعَةُ)",
+      "current": "السَّاعَةُ=the clock",
+      "problem": "Still present from round 2: in a time phrase السَّاعَةُ الثَّالِثَةُ وَالنِّصْفُ means 'the hour / o'clock' ('It is half past three'). w2t5 glosses the same word 'the hour, the time'; 'the clock' is the wrong sense in a 'What time is it?' question.",
+      "category": "gloss",
+      "severity": "minor",
+      "confidence": "high",
+      "fix": "السَّاعَةُ=the hour, the time",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/course/course.json",
+      "path": "weeks[12].test[3].ar (tap on أَصْغَرُ)",
+      "current": "أَصْغَرُ=smaller",
+      "problem": "Still present from round 2: with people (أُخْتِي أَصْغَرُ مِنِّي) أَصْغَر means 'younger', and the keyed answer is 'My sister is younger than me'. The gloss gives only 'smaller', which does not lead to the key.",
+      "category": "gloss",
+      "severity": "minor",
+      "confidence": "high",
+      "fix": "أَصْغَرُ=smaller; younger",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/course/course.json",
+      "path": "weeks[12].test[3].ar (tap on مِنِّي)",
+      "current": "مِنِّي=from me",
+      "problem": "After a comparative مِنْ means 'than' (the course's own gloss of مِنْ says 'than (after a comparative)'). In أُخْتِي أَصْغَرُ مِنِّي, مِنِّي is 'than me'; 'from me' gives a wrong reading of the comparative being tested.",
+      "category": "gloss",
+      "severity": "minor",
+      "confidence": "high",
+      "fix": "مِنِّي=than me (after a comparative); from me",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/course/course.json",
+      "path": "weeks[12].test[8].explain (tap on كُتِبَتْ)",
+      "current": "كُتِبَتْ=were written (f)",
+      "problem": "Still present from round 2: the explanation says 'كُتِبَتْ (it was written)' and the answer line glosses كُتِبَتِ as '(it, f) was written'. 'were written' suggests a plural and contradicts the sentence the tap sits in.",
+      "category": "gloss",
+      "severity": "minor",
+      "confidence": "high",
+      "fix": "كُتِبَتْ=(it, f) was written",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/course/course.json",
+      "path": "weeks[1].test[6].options[3] (tap on يَسْتَيْقِظُ)",
+      "current": "يَسْتَيْقِظُ=to wake up",
+      "problem": "Still present from round 2: the options contrast persons (you f / you m / I / he). يَسْتَيْقِظُ is 'he wakes up'; the dictionary gloss 'to wake up' hides the person, which is the point of the question (the other three options are glossed with their person).",
+      "category": "gloss",
+      "severity": "minor",
+      "confidence": "high",
+      "fix": "يَسْتَيْقِظُ=he wakes up",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/course/course.json",
+      "path": "weeks[11].test[3].options[3] (tap on زَرَعْنَا)",
+      "current": "زَرَعْنَا=we planted ('we plant')",
+      "problem": "In the stand-alone past sentence زَرَعْنَا الْأَشْجَار ('We planted the trees') the parenthetical ('we plant') belongs to another lesson's sentence (day84) and suggests a present meaning here. It leaks a one-sentence gloss into the week test.",
+      "category": "gloss",
+      "severity": "minor",
+      "confidence": "medium",
+      "fix": "زَرَعْنَا=we planted",
+      "alsoChange": "keep the ('we plant') variant only on the day84 line it was written for"
+    },
+    {
+      "file": "content/course/course.json",
+      "path": "weeks[8].test[9].options[3] (tap on أَغْلَى)",
+      "current": "أَغْلَى=more expensive; more expensive; the most expensive",
+      "problem": "The two-readings gloss repeats 'more expensive' twice (a merge glitch from the new comparative/superlative glosses). Not a wrong meaning, but it is the keyed answer and reads as an error.",
+      "category": "gloss",
+      "severity": "minor",
+      "confidence": "high",
+      "fix": "أَغْلَى=more expensive; the most expensive (before a noun)",
+      "alsoChange": "the same string is in content/glossary/auto.json"
+    }
+  ],
+  "notes": [
+    { "file": "content/course/course.json", "path": "weeks[3].test[1].options[1]", "note": "Key يَزُورُ is the textbook answer for verb-first with a masculine human plural. Classical grammar also tolerates a feminine verb (تَزُورُ) with a broken plural (الطُّلَّابُ); not an error for beginners, but a teacher may accept it." },
+    { "file": "content/course/course.json", "path": "weeks[10].test[6].options[3]", "note": "Unchanged from round 2: قَالَ سَامِي إِنَّنِي مُتْعَب is grammatical as a direct quotation. The prompt says 'report it', so the key innahu holds; 'in reported speech' in the prompt would remove the ambiguity." },
+    { "file": "content/course/course.json", "path": "weeks[12].test[7].ar", "note": "إِذَا شَرِبْتَ قَهْوَةً مَسَاءً، لَا تَنَامُ is acceptable as a general statement; the textbook pattern for a result is ...لَنْ تَنَامَ or فَلَا تَنَامُ." },
+    { "file": "content/course/course.json", "path": "weeks[8].test[2].options[0]; weeks[8].test[2].options[3] (tap on لَوْ)", "note": "'if (for things that are not real)' is the counterfactual sense; in the fixed phrase لَوْ سَمَحْتَ/سَمَحْتِ 'if (you would allow) — excuse me' would be clearer." },
+    { "file": "content/course/course.json", "path": "weeks[9].test[8].options[1]; weeks[9].test[8].options[2]", "note": "بِكَ and إِلَيْكَ are both glossed 'to you (to a man)' in a question that asks which preposition goes with اتَّصَلَ. Not wrong, but 'with/at you (after ittaṣala: call you)' for بِكَ would help." },
+    { "file": "content/course/course.json", "path": "weeks[12].test[8].options[0]; weeks[12].test[8].options[2]; weeks[12].test[8].options[3]", "note": "الرِّسَالَة is glossed 'the message' in options 0 and 2 and 'the letter' in option 3 of the same question; harmless but inconsistent." }
+  ],
+  "summary": "I read all 2,055 lines of audit/weeks-tests.txt: 13 week titles, 128 test items, and the level list. I checked 442 Arabic strings (every vocalisation, case ending, agreement and verb form, with the syntax of each sentence) and found no wrong Arabic; all 128 answer keys are correct and no distractor is also correct. I checked 822 tap glosses across 442 tap lines: 10 are wrong or misleading for their line (all minor). Six are round-2 findings that are still present (أَنَامَ '(after an)' after lan, كُلَّ 'all (of)', السَّاعَةُ 'the clock', أَصْغَرُ 'smaller' for 'younger', كُتِبَتْ 'were written', يَسْتَيْقِظُ 'to wake up'); one is a regression (حَارًّا now '(-an after laysa)' in a yakūnu sentence); the rest are مِنِّي 'from me' after a comparative, a one-sentence gloss leaking into the test (زَرَعْنَا ('we plant')), and a duplicated two-readings gloss on أَغْلَى. The round-2 engine hyphen issue is resolved under the round-3 clitic rule. Totals: 10 errors (0 major, 10 minor), 6 notes."
+}

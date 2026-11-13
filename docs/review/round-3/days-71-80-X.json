@@ -1,0 +1,14 @@
+{
+  "chunk": "days-71-80",
+  "checker": "X3-9",
+  "verdicts": [
+    {
+      "id": 1,
+      "verdict": "CHANGE",
+      "fix": "Engine: apply the one-letter clitic hyphen to every word whose seg gloss starts with the clitic sense, also when the remainder is an inflected form that is not a glossary headword, and add lām al-jawāb لَ (seg glosses starting 'I would' / '(I would)') as 'la-'. Resulting forms: la-zaraʿtu, la-sāfartu, la-akhadhtukum, fa-sanazūru, fa-sayasbaḥūna, fa-sayazūrūna, bi-miʾatin, wa-naḍḥaku, wa-sutra, bi-ākhirihā, li-kātibāt, li-kātiba, li-aṭluba, fa-raʾsī, fa-huwa, Wa-mithluhu, fa-man, li-tanẓīfi, wa-naḍaʿuhu, wa-sanaḍaʿu, wa-ḥimāyatu, fa-kullu, li-awlādihā, bi-sāʿatayni, wa-daʿawtukum. Only the one-letter clitic takes a hyphen: the future prefix sa- stays attached (fa-sanazūru, not fa-sa-nazūru), and no ʾ is written after the hyphen before an initial hamza (la-akhadhtukum, like li-arbaʿa). No content change; the day-80 why-card prose 'fa-sa-nazūru' is explanatory and stays as written.",
+      "scope": "engine only (src/lang/ar/tap.ts cliticReading with CLITIC_TR/CLITIC_EN: ل maps only to 'li' with kasra and its regex has no 'would' sense, so lām al-jawāb لَ is never split; and the remainder must be an exact headword, so inflected remainders stay fused). Re-export and grep the ⟶ lines afterwards.",
+      "reason": "Verified in audit/days-71-80.txt: line 2725 'lazaraʿtu' (seg 'I would plant') while 2632/2719 give 'la-shtaraytu' (that hyphen comes from the waṣla path, not the clitic rule); line 986 'bimiʾatin ... bi-thamānīna' with segs 'for a hundred' / 'for eighty'; 2569/2683 'fasanazūru' with seg 'then we will visit'. The problem is real and matters on day 80, whose topic is the fa-/la- answer prefixes. The reviewer's list was internally inconsistent (fa-sa-nazūru vs fa-sayasbaḥūna / wa-sanaḍaʿu; la-ʾakhadhtukum with ʾ vs bi-ākhirihā / li-aṭluba without), so it is normalised to the one-clitic, no-initial-ʾ house style, and the la- cases need an explicit lām al-jawāb rule because the current clitic table cannot produce them."
+    }
+  ],
+  "summary": "Checked the single finding against audit/days-71-80.txt (lines 986/988 and 2549-2762), content/days/day80.json and src/lang/ar/tap.ts. 0 AGREE, 1 CHANGE, 0 DISAGREE. The engine inconsistency is real (fused wa/fa/bi/li/la forms next to hyphenated ones in the same line, most visibly on day 80 where la- and fa- are the lesson topic). The fix is changed to one consistent form: a hyphen after the one-letter clitic only (fa-sanazūru, not fa-sa-nazūru), no ʾ after the hyphen (la-akhadhtukum), and an explicit lām al-jawāb 'la-' rule, since the current clitic table only knows li- with kasra. No Arabic content changes. The reviewer's notes (empty brackets, two pronunciation quizzes whose ⟶ line shows the answer, masculine يَعْنِي after a quoted feminine maṣdar, حَتَّى أَبُوكُمَا) are rightly notes, not errors."
+}

@@ -1,0 +1,414 @@
+{
+  "chunk": "vocabulary-2",
+  "reviewer": "A",
+  "errors": [
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[465].example.ar (tap)",
+      "current": "حَتَّى=until",
+      "problem": "In الْجَوّ هُنَاكَ دَافِئ حَتَّى فِي الشِّتَاء ('warm even in winter') حَتَّى means 'even'; 'until' gives 'warm until in winter'. Round-2 item 6, still there.",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "حَتَّى=even",
+      "confidence": "high"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[527].example.ar (tap)",
+      "current": "اللَّيْلَة=tonight",
+      "problem": "سِعْرُ اللَّيْلَة خَمْسُونَ دِينَارًا is 'the price for one night (per night) is fifty dinars', as translated; 'tonight' changes the meaning. Round-2 item 7, still there.",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "اللَّيْلَة=the night (here: per night)",
+      "confidence": "high"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[638].example.ar (tap)",
+      "current": "تُحِبُّ=you like (to a man)",
+      "problem": "In أَعْرِفُ أَنَّهَا تُحِبُّ أَغَانِيَ أُمِّ كُلْثُوم the subject is 'she' (أَنَّهَا), as the English says ('she loves'). Round-2 item 9, still there.",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "تُحِبُّ=she loves, she likes",
+      "confidence": "high"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[658].plural (tap)",
+      "current": "رِجَال=men (toilets)",
+      "problem": "The plural of رَجُل (man) is glossed with the sign sense 'men (toilets)'. Round-2 item 11, still there.",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "رِجَال=men",
+      "confidence": "high"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[715].example.ar (tap)",
+      "current": "رِحْلَتُنَا=our flight",
+      "problem": "غَدًا رِحْلَتُنَا إِلَى الشَّاطِئِ is 'tomorrow is our trip to the beach' (as translated); a 'flight' to the beach is wrong. Round-2 item 13, still there.",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "رِحْلَتُنَا=our trip",
+      "confidence": "high"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[721].example.ar (tap)",
+      "current": "السَّاعَةَ=at the hour",
+      "problem": "In يُقَالُ إِنَّ هٰذِهِ السَّاعَةَ لَمْ تَعْمَلْ أَبَدًا ('this clock never worked') السَّاعَةَ is 'the clock', in -a because of إِنَّ; 'at the hour' is a time-adverb gloss from another sentence. Round-1/2 item 16, still there.",
+      "category": "gloss",
+      "severity": "major",
+      "fix": "السَّاعَةَ=the clock (-a after inna)",
+      "confidence": "high"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[446].example.ar (tap)",
+      "current": "تَمَامًا=exactly",
+      "problem": "أَنَا جَاهِز تَمَامًا is 'I'm completely ready', as translated; 'exactly' is wrong here. Round-2 item 34, still there.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "تَمَامًا=completely",
+      "confidence": "high"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[470].example.ar (tap)",
+      "current": "حَارًّا=hot (-an after laysa)",
+      "problem": "Regression: in فِي الصَّيْف يَكُونُ الْجَوّ حَارًّا there is no لَيْسَ; the -an comes from يَكُونُ. Round 2 reported the tag 'after was'; it has been changed to another wrong tag, 'after laysa', which also makes the sentence look negative.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "حَارًّا=hot (-an after yakūnu)",
+      "confidence": "high"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[485].example.ar (tap); [490].example.ar (tap)",
+      "current": "لَطِيفًا=pleasant, nice (after 'was')",
+      "problem": "The verb in these lines is يَكُونُ ('is usually'), not كَانَ; the tag 'after was' tells the learner the sentence is past. Round-2 item 36, still there.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "لَطِيفًا=pleasant, nice (-an after yakūnu)",
+      "confidence": "high"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[479].example.ar (tap); [717].example.ar (tap); [720].example.ar (tap); [723].example.ar (tap); [723].note (tap)",
+      "current": "عَشَرَ=ten (part of 'fifteen')",
+      "problem": "عَشَرَ is glossed 'part of fifteen' in lines that say twelve (اِثْنَا عَشَرَ شَهْرًا), the nineteenth (التَّاسِعَ عَشَرَ), the eighteenth (الثَّامِنَ عَشَرَ) and the twelfth (الثَّانِيَ عَشَرَ). Round-2 item 35, still there. ([456] and [507] really are fifteen and are fine.)",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "عَشَرَ=ten (second part of a number from 11 to 19)",
+      "confidence": "high"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[508].plural (tap)",
+      "current": "أَوْزَان=patterns",
+      "problem": "Under the travel entry 'weight', the plural is glossed with the grammar sense 'patterns'. Round-2 item 37, still there.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "أَوْزَان=weights",
+      "confidence": "high"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[535].forms[0].ar (tap); [535].note (tap); [683].ar (tap)",
+      "current": "وَجَدَ=(he) found ('succeeds')",
+      "problem": "The 'succeeds' bracket belongs only to the proverb مَنْ جَدَّ وَجَدَ ([683].example.ar, where it is fine). On the past form of 'to find', in the note 'The w of the past وَجَدَ disappears', and on the headword of [683] (en: found) it is wrong. Round-2 item 38, still there.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "وَجَدَ=(he) found",
+      "confidence": "high"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[633].example.ar (tap)",
+      "current": "أَخَذَ=(he) took ('won')",
+      "problem": "أَخَذَ عُمَر عِيدِيَّة مِنْ جَدَّتِهِ is 'Omar got Eid money from his grandmother'; 'won' belongs to the Nobel-prize sentences. Round-2 item 33, still there.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "أَخَذَ=(he) took, got",
+      "confidence": "high"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[637].example.ar (tap); [643].example.ar (tap)",
+      "current": "الْعَرَبِيَّة=Arabic (the language)",
+      "problem": "In الْمُوسِيقَى الْعَرَبِيَّة ('Arabic music') الْعَرَبِيَّة is the feminine adjective agreeing with music, not the noun 'the Arabic language'. Round-2 item 43, still there.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "الْعَرَبِيَّة=Arabic, Arab (f adjective)",
+      "confidence": "high"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[660].example.ar (tap)",
+      "current": "عَرَبِيٍّ=Arabic",
+      "problem": "أَوَّلُ كَاتِبٍ عَرَبِيٍّ is 'the first Arab writer' (as translated); for a person the adjective is 'Arab'. Round-2 item 45, still there. (In بِخَطٍّ عَرَبِيٍّ [718]/[726] 'Arabic' is right.)",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "عَرَبِيٍّ=Arab",
+      "confidence": "high"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[599].example.ar (tap)",
+      "current": "قَرِيبًا=near, close by",
+      "problem": "In أَرْجُو أَنْ تَرُدَّ عَلَيَّ قَرِيبًا ('reply to me soon') قَرِيبًا is the time adverb 'soon'. Round-2 item 41, still there.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "قَرِيبًا=soon",
+      "confidence": "high"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[749].example.ar (tap)",
+      "current": "تُقَدِّمُ=(she) offers",
+      "problem": "كُلُّ مَجْمُوعَة تُقَدِّمُ تَقْدِيمًا قَصِيرًا is 'every group gives a short presentation', the entry's own sense; 'offers' belongs to the scholarship sentences ([730], [732], where it is fine). Round-2 item 46, still there.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "تُقَدِّمُ=(it, f) gives, presents",
+      "confidence": "high"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[755].note (tap)",
+      "current": "سَجَّلَ=scored (lit. recorded)",
+      "problem": "The note says 'سَجَّلَ / يُسَجِّلُ (to record; to register)'; the tap shows the football sense 'scored'. Round-2 item 47, still there.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "سَجَّلَ=(he) recorded, registered",
+      "confidence": "high"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[757].example.ar (tap)",
+      "current": "الْإِعْلَانَ=the advertisement",
+      "problem": "اسْمَعُوا الْإِعْلَانَ فِي الْمَحَطَّة is 'listen to the announcement at the station' (as translated). Round-2 item 48, still there.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "الْإِعْلَانَ=the announcement",
+      "confidence": "high"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[772].example.ar (tap)",
+      "current": "الْكِتَابَ=the book (-a after anna)",
+      "problem": "In اِفْتَحُوا الْكِتَابَ the -a marks the object of the imperative; there is no أَنَّ. Round-2 item 50, still there.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "الْكِتَابَ=the book (object)",
+      "confidence": "high"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[788].ar (tap)",
+      "current": "عَلَامَات=mark, grade (plural)",
+      "problem": "In the headword عَلَامَات التَّرْقِيم ('punctuation marks') the tap shows the exam sense 'mark, grade'. Round-2 item 52, still there. (The example's عَلَامَاتِ=marks (of) is fine.)",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "عَلَامَات=marks, signs",
+      "confidence": "high"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[539].ar (tap); [549].note (tap); [541].ar (tap); [541].example.ar (tap); [544].ar (tap); [545].ar (tap); [545].note (tap); [654].example.ar (tap); [790].example.ar (tap)",
+      "current": "أَكْبَر=bigger; bigger, older; the biggest",
+      "problem": "Systematic, new with the round-3 'two readings' merge: the merged gloss repeats a sense. أَكْبَر=bigger; bigger, older; the biggest; أَغْلَى=more expensive; more expensive; the most expensive; أَكْثَر=more; more; the most; أَقَلّ=less; less, fewer; the least; and in name glosses الْقَاهِرَةِ=Cairo; Cairo (city in Egypt), شِيكَاغُو=Chicago; Chicago (city in the USA). The meaning is not wrong, but the gloss looks broken.",
+      "category": "engine",
+      "severity": "minor",
+      "fix": "Drop the repeated sense: أَكْبَر=bigger, older; the biggest; أَغْلَى=more expensive; the most expensive; أَكْثَر=more; the most; أَقَلّ=less, fewer; the least; الْقَاهِرَةِ=Cairo (capital of Egypt); شِيكَاغُو=Chicago (city in the USA)",
+      "confidence": "high"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[551].note (tap)",
+      "current": "أَجْمَلَ=the most beautiful (before a noun)",
+      "problem": "The note quotes the exclamation مَا أَجْمَلَ…! (how beautiful…!). There أَجْمَلَ is the verb of wonder ('how beautiful [is]…'), not the superlative 'the most beautiful (before a noun)'.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "أَجْمَلَ=how beautiful (in mā ajmala …!)",
+      "confidence": "high"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[587].forms[0].ar (tap)",
+      "current": "تَرَكَ=(he) left ('will leave')",
+      "problem": "The past form تَرَكَ is glossed with a contradictory bracket 'will leave' (a sense from another sentence).",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "تَرَكَ=(he) left (something)",
+      "confidence": "high"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[631].example.ar (tap)",
+      "current": "يَوْمًا=a day",
+      "problem": "In صُمْنَا ثَلَاثِينَ يَوْمًا ('we fasted for thirty days') يَوْمًا is the counted noun after a number ('days'), not 'a day'; the course glosses the same construction as 'X (after a number)' elsewhere (دِينَارًا, ضَيْفًا, شَهْرًا).",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "يَوْمًا=days (after a number)",
+      "confidence": "high"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[570].note (tap); [760].example.ar (tap)",
+      "current": "كُلَّ=every",
+      "problem": "كُلّ + a definite plural means 'all': كُلَّ الْمُتَدَرِّبِينَ (all the interns), كَتَبَتْ لَيْلَى كُلَّ التَّفَاصِيلِ الْمُهِمَّة ('all the important details'), as the English says. 'every' is the sense before an indefinite singular (كُلَّ يَوْم).",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "كُلَّ=all (of)",
+      "confidence": "high"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[551].example.ar (tap); [552].example.ar (tap); [556].example.ar (tap); [563].example.ar (tap); [663].example.ar (tap); [731].example.ar (tap); [736].example.ar (tap)",
+      "current": "هُوَ=he",
+      "problem": "In these lines هُوَ refers to a thing or is the linking pronoun ('is'): أَجْمَلُ وَقْت هُنَا هُوَ وَقْتُ الْغُرُوب, هُوَ مِنْ أَعْلَى الْجِبَال ('It's one of the highest hills'), هُوَ مِنْ أَكْبَرِ الْمَسَارِح, هٰذَا هُوَ الْمَدْخَل, هٰذَا هُوَ مَعْرِضُ الْكِتَاب, … هُوَ يَوْمُ الْخَمِيس, بَلْ هُوَ عَلَامَةُ احْتِرَام ('it's a sign'). The tap 'he' does not match the English 'it / is'.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "هُوَ=it (m); he",
+      "confidence": "medium"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[550].example.ar (tap); [555].example.ar (tap); [670].example.ar (tap); [740].example.ar (tap)",
+      "current": "هِيَ=she",
+      "problem": "هِيَ here refers to things: the columns (هِيَ أَطْوَلُ أَعْمِدَة … 'They're the tallest columns'), Amman (هِيَ الْعَاصِمَة, 'is the capital'), the hard words (هِيَ صَعْبَة جِدًّا, 'they're very hard') and the idea ('it is difficult'). The course teaches that plurals of things take هِيَ, but the tap 'she' contradicts the English 'they / it'.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "هِيَ=it (f); they (plural of things); she",
+      "confidence": "medium"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[447].example.ar (tap); [454].example.ar (tap); [530].example.ar (tap)",
+      "current": "عَلَى=on",
+      "problem": "In شُكْرًا عَلَى الدَّعْوَة / شُكْرًا جَزِيلًا عَلَى الْمُسَاعَدَة ('thank you for …') عَلَى means 'for'; 'on' gives 'thank you on the invitation'.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "عَلَى=for (after shukran: thanks for)",
+      "confidence": "medium"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[471].example.ar (tap); [475].example.ar (tap)",
+      "current": "عَلَى=on",
+      "problem": "In أُفَضِّلُ الْخَرِيف عَلَى الصَّيْف ('I prefer autumn to summer') عَلَى means 'to, over'; the note of [475] teaches ufaḍḍilu A ʿalā B, but the tap says 'on'.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "عَلَى=to, over (ufaḍḍilu A ʿalā B: prefer A to B)",
+      "confidence": "medium"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[536].example.ar (tap); [536].note (tap); [538].example.ar (tap)",
+      "current": "عَنْ=about",
+      "problem": "With يَبْحَثُ, عَنْ gives 'look for': أَبْحَثُ عَنْ مَرْكَزِ الشُّرْطَة is 'I'm looking for the police station'. The tap 'about' makes it 'I search about the police station'.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "عَنْ=for (after yabḥathu: looks for); about",
+      "confidence": "medium"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[505].forms[0].ar (tap)",
+      "current": "مُسَافِرَة=travelling (f)",
+      "problem": "forms[0] is the feminine of the noun 'passenger, traveller'; the tap gives the participle 'travelling (f)'.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "مُسَافِرَة=passenger, traveller (f)",
+      "confidence": "medium"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[466].example.ar (tap)",
+      "current": "سَتَكُونُ=there will be (f)",
+      "problem": "In سَتَكُونُ دَرَجَةُ الْحَرَارَة خَمْسَ دَرَجَات the subject is دَرَجَةُ الْحَرَارَة: 'the temperature will be five degrees' (as translated; خَمْسَ is the -a predicate of كَانَ). 'there will be' misreads the syntax.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "سَتَكُونُ=(it, f) will be",
+      "confidence": "medium"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[545].note (tap)",
+      "current": "قَلِيل=a little (while)",
+      "problem": "The note says 'The comparative of قَلِيل'; the adjective is 'little, few'. '(while)' comes from the phrase بَعْدَ قَلِيل and does not fit here.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "قَلِيل=little, few",
+      "confidence": "medium"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[630].example.ar (tap)",
+      "current": "يَصُومُ=(he) fasts",
+      "problem": "Regression: in يَصُومُ الْمُسْلِمُونَ the subject is 'the Muslims' and the verb is singular only because it comes first. After the round-2 fix of the headword, the example now also shows '(he) fasts', which reads 'he fasts the Muslims'. The sentence-specific gloss belongs on this line.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "يَصُومُ=(they) fast (verb first: singular)",
+      "confidence": "medium"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[718].forms[0].ar (tap)",
+      "current": "كُتِبَتْ=were written (f)",
+      "problem": "forms[0] is labelled 'feminine (it was written)', but the tap says 'were written (f)' (the plural sense of the example sentence). Label and gloss disagree on the form being taught.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "كُتِبَتْ=(it, f) was written",
+      "confidence": "medium"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[790].example.ar (tap)",
+      "current": "بَرِيدِيَّةً=postal ('postcards')",
+      "problem": "كَتَبْتُ بِطَاقَةً بَرِيدِيَّةً is one postcard ('I wrote a postcard'); the bracket says 'postcards'.",
+      "category": "gloss",
+      "severity": "minor",
+      "fix": "بَرِيدِيَّةً=postal ('a postcard')",
+      "confidence": "medium"
+    }
+  ],
+  "notes": [
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[466].example.ar (tap)",
+      "note": "الْحَرَارَة=the fever, the temperature: in دَرَجَةُ الْحَرَارَة 'the heat' (lit.) would explain the phrase better than 'fever'."
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[479].note",
+      "note": "''For two months' is مُنْذُ شَهْرَيْن' fits only an ongoing situation (I have been here for two months); a finished period is لِمُدَّةِ شَهْرَيْن. Worth a word."
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[747].note",
+      "note": "'The verb is رَاجِعُوا' gives the imperative as 'the verb'; رَاجَعَ / يُرَاجِعُ is the citation form, with رَاجِعُوا as the order to a group."
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[691].example.ar (tap); [693].example.ar (tap); [694].example.ar (tap)",
+      "note": "Pronoun brackets on things: تُوَفِّرُ=(she) saves (subject: recycling), يَتَغَيَّرُ=(he) changes (subject: the climate). '(it, f)' / '(it)' would be clearer."
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[438].example.ar (tap)",
+      "note": "أَنَامَ=I sleep (after an) is shown in a لَنْ sentence; '(after an or lan)', as used for نَرْكَبَ, would be clearer."
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[742].note (tap)",
+      "note": "أَنَّهُ=that he in مَعَ أَنَّهُ مُزْدَحِم ('although it's crowded'): 'that it (m)' fits the example."
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[788].note (tap)",
+      "note": "نُقْطَة=a point, while the note teaches it as 'full stop, dot'."
+    }
+  ],
+  "summary": "Read lines 9001-17983 of audit/vocabulary.txt in full (398 entries, [410]-[808]): every headword, plural, form, example, note and every tap gloss. Checked 1,247 Arabic strings (headwords, plurals, forms, examples, plus the Arabic quoted in notes) and 3,344 tap glosses. The Arabic itself is correct: no misspelling, wrong harakat, case ending, agreement, verb form or wrong grammar rule was found in this half (the round-2 fixes اُنْظُرُوا, the إِنَّ multi-sense gloss, أَوَّلَ, عُطْلَةً, تَكْتُبُ, تَرُدَّ, سَادَة, أَحْسَنُ are in). Wrong: 0 Arabic strings, 37 errors in tap glosses (about 75 taps), 6 major and 31 minor. 20 are round-2 items still present (حَتَّى=until, اللَّيْلَة=tonight, تُحِبُّ=you like, رِجَال=men (toilets), رِحْلَتُنَا=our flight, السَّاعَةَ=at the hour, تَمَامًا, لَطِيفًا 'after was', عَشَرَ 'part of fifteen', أَوْزَان, وَجَدَ 'succeeds', أَخَذَ 'won', الْعَرَبِيَّة in 'Arabic music', عَرَبِيٍّ for a writer, قَرِيبًا, تُقَدِّمُ, سَجَّلَ, الْإِعْلَانَ, الْكِتَابَ, عَلَامَات); 2 are regressions (حَارًّا now 'after laysa'; يَصُومُ in the Ramadan example now '(he) fasts'); 1 engine pattern is new (the round-3 two-readings merge repeats a sense: أَكْبَر=bigger; bigger, older…, الْقَاهِرَةِ=Cairo; Cairo); the rest are context glosses (هُوَ=he / هِيَ=she for things, عَلَى=on in 'thanks for' and 'prefer A to B', عَنْ=about in 'look for', كُلَّ=every before a definite plural, يَوْمًا=a day after thirty, مَا أَجْمَلَ glossed as a superlative). 7 notes."
+}

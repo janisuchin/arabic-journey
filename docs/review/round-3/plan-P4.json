@@ -1,0 +1,986 @@
+{
+ "group": "P4",
+ "ops": [
+  {
+   "chunk": "vocabulary-1",
+   "ids": [
+    1
+   ],
+   "op": "scoped",
+   "word": "تَسْكُنُ",
+   "scope": "vocab:amma",
+   "gloss": "(she) lives"
+  },
+  {
+   "chunk": "vocabulary-1",
+   "ids": [
+    1
+   ],
+   "op": "scoped",
+   "word": "تَسْكُنُ",
+   "scope": "vocab:khala",
+   "gloss": "(she) lives"
+  },
+  {
+   "chunk": "vocabulary-1",
+   "ids": [
+    1
+   ],
+   "op": "scoped",
+   "word": "تَسْكُنُ",
+   "scope": "vocab:zawj",
+   "gloss": "(she) lives"
+  },
+  {
+   "chunk": "vocabulary-1",
+   "ids": [
+    2
+   ],
+   "op": "scoped",
+   "word": "تَذْهَبُ",
+   "scope": "vocab:maktaba",
+   "gloss": "(she) goes"
+  },
+  {
+   "chunk": "vocabulary-1",
+   "ids": [
+    3
+   ],
+   "op": "scoped",
+   "word": "الْإِشَارَة",
+   "scope": "vocab:ishara",
+   "gloss": "the traffic lights"
+  },
+  {
+   "chunk": "vocabulary-1",
+   "ids": [
+    4
+   ],
+   "op": "scoped",
+   "word": "الْمَكْتَب",
+   "scope": "vocab:misbah",
+   "gloss": "the desk"
+  },
+  {
+   "chunk": "vocabulary-1",
+   "ids": [
+    5
+   ],
+   "op": "scoped",
+   "word": "الْيَوْم",
+   "scope": "vocab:marra",
+   "gloss": "the day (fī l-yawm: a day, per day)"
+  },
+  {
+   "chunk": "vocabulary-1",
+   "ids": [
+    6
+   ],
+   "op": "scoped",
+   "word": "سَلَطَةً",
+   "scope": "vocab:salata",
+   "gloss": "a salad (object)"
+  },
+  {
+   "chunk": "vocabulary-1",
+   "ids": [
+    7
+   ],
+   "op": "scoped",
+   "word": "ثَانِيَة",
+   "scope": "vocab:thani",
+   "gloss": "second (f)"
+  },
+  {
+   "chunk": "vocabulary-1",
+   "ids": [
+    8
+   ],
+   "op": "scoped",
+   "word": "لَهُ",
+   "scope": "vocab:li",
+   "gloss": "for him, for it"
+  },
+  {
+   "chunk": "vocabulary-1",
+   "ids": [
+    9
+   ],
+   "op": "scoped",
+   "word": "تُشْبِهُ",
+   "scope": "vocab:yushbihu",
+   "gloss": "she looks like (also: you look like, to a man)"
+  },
+  {
+   "chunk": "vocabulary-1",
+   "ids": [
+    10
+   ],
+   "op": "scoped",
+   "word": "تَجْلِسُ",
+   "scope": "vocab:yajlisu",
+   "gloss": "you sit (to a man); she sits"
+  },
+  {
+   "chunk": "vocabulary-1",
+   "ids": [
+    11
+   ],
+   "op": "scoped",
+   "word": "وَصَلَ",
+   "scope": "*",
+   "gloss": "(he, it) arrived"
+  },
+  {
+   "chunk": "vocabulary-1",
+   "ids": [
+    12
+   ],
+   "op": "scoped",
+   "word": "أَخَذَ",
+   "scope": "vocab:yakhudhu",
+   "gloss": "(he) took"
+  },
+  {
+   "chunk": "vocabulary-1",
+   "ids": [
+    12
+   ],
+   "op": "scoped",
+   "word": "أَخَذَ",
+   "scope": "vocab:eidiyya",
+   "gloss": "(he) took, got"
+  },
+  {
+   "chunk": "vocabulary-1",
+   "ids": [
+    13
+   ],
+   "op": "scoped",
+   "word": "خَرَجْتُ",
+   "scope": "vocab:kharaja",
+   "gloss": "I went out, I left"
+  },
+  {
+   "chunk": "vocabulary-1",
+   "ids": [
+    14
+   ],
+   "op": "scoped",
+   "word": "عَمِلَ",
+   "scope": "vocab:yamalu",
+   "gloss": "(he) worked (also: did, made)"
+  },
+  {
+   "chunk": "vocabulary-1",
+   "ids": [
+    15
+   ],
+   "op": "scoped",
+   "word": "صَيْدَلِيَّة",
+   "scope": "vocab:saydali",
+   "gloss": "pharmacist (f); also pharmacy"
+  },
+  {
+   "chunk": "vocabulary-1",
+   "ids": [
+    16
+   ],
+   "op": "scoped",
+   "word": "الْمُتَوَسِّط",
+   "scope": "vocab:bahr",
+   "gloss": "the middle (m)"
+  },
+  {
+   "chunk": "vocabulary-1",
+   "ids": [
+    17
+   ],
+   "op": "engine",
+   "note": "Clitic hyphen missing when the rest of the word is a tanwin -an form not in the gloss index: src/lang/ar/tap.ts cliticReading should also try the rest without tanwin (or via its skeleton) so وَجُبْنًا -> wa-jubnan, وَنَهَارًا -> wa-nahāran, وَبَنْطَلُونًا -> wa-banṭalūnan (like وَخُبْزًا -> wa-khubzan). Arabic unchanged (vocabulary.json [129], [131], [243], [247] examples)."
+  },
+  {
+   "chunk": "glossary-auto-1",
+   "ids": [
+    1
+   ],
+   "op": "scoped",
+   "word": "انْتَهَتْ",
+   "scope": "*",
+   "gloss": "(she, it f) ended, is over; (they) ended, with a plural of things"
+  },
+  {
+   "chunk": "glossary-auto-1",
+   "ids": [
+    1
+   ],
+   "op": "scoped",
+   "word": "تُعْطِيكَ",
+   "scope": "*",
+   "gloss": "(she, it f) gives you (to a man); (they) give you, with a plural of things"
+  },
+  {
+   "chunk": "glossary-auto-1",
+   "ids": [
+    1
+   ],
+   "op": "scoped",
+   "word": "تُخْلَعُ",
+   "scope": "*",
+   "gloss": "(it, f) is taken off; (they) are taken off, with a plural of things"
+  },
+  {
+   "chunk": "glossary-auto-1",
+   "ids": [
+    1
+   ],
+   "op": "scoped",
+   "word": "تَدْخُلَ",
+   "scope": "*",
+   "gloss": "(she, it f) enters; you enter (to a man) (form after an)"
+  },
+  {
+   "chunk": "glossary-auto-1",
+   "ids": [
+    1
+   ],
+   "op": "scoped",
+   "word": "تُرْجِمَتْ",
+   "scope": "*",
+   "gloss": "(it, f) was translated; (they) were translated, with a plural of things"
+  },
+  {
+   "chunk": "glossary-auto-1",
+   "ids": [
+    1
+   ],
+   "op": "scoped",
+   "word": "تَصِلَ",
+   "scope": "*",
+   "gloss": "(she, it f) arrives; you arrive (to a man) (form after an)"
+  },
+  {
+   "chunk": "glossary-auto-1",
+   "ids": [
+    1
+   ],
+   "op": "scoped",
+   "word": "تُطْفَأُ",
+   "scope": "*",
+   "gloss": "(it, f) is switched off; (they) are switched off, with a plural of things"
+  },
+  {
+   "chunk": "glossary-auto-1",
+   "ids": [
+    1
+   ],
+   "op": "scoped",
+   "word": "أُعْلِنَتِ",
+   "scope": "*",
+   "gloss": "(it, f) was announced; (they) were announced, with a plural of things (-i links to the next word)"
+  },
+  {
+   "chunk": "glossary-auto-1",
+   "ids": [
+    2
+   ],
+   "op": "scoped",
+   "word": "حَرْب",
+   "scope": "*",
+   "gloss": "war; Harb (in the street name Talaat Harb)"
+  },
+  {
+   "chunk": "glossary-auto-1",
+   "ids": [
+    3
+   ],
+   "op": "scoped",
+   "word": "دَوْرَةُ",
+   "scope": "*",
+   "gloss": "course, cycle, round (of) (dawratu l-miyāh: toilet)"
+  },
+  {
+   "chunk": "glossary-auto-1",
+   "ids": [
+    4
+   ],
+   "op": "scoped",
+   "word": "الْجَبَل",
+   "scope": "*",
+   "gloss": "the mountain, the hill"
+  },
+  {
+   "chunk": "glossary-auto-1",
+   "ids": [
+    5
+   ],
+   "op": "scoped",
+   "word": "الْمَلْعَبَ",
+   "scope": "*",
+   "gloss": "the pitch, the sports ground"
+  },
+  {
+   "chunk": "glossary-auto-1",
+   "ids": [
+    6
+   ],
+   "op": "scoped",
+   "word": "إِنَّهَا",
+   "scope": "*",
+   "gloss": "indeed she / it (f) (starts a statement); that she / it (after qāla)"
+  },
+  {
+   "chunk": "glossary-auto-1",
+   "ids": [
+    6
+   ],
+   "op": "scoped",
+   "word": "إِنَّهُ",
+   "scope": "*",
+   "gloss": "indeed he / it (starts a statement); that he / it (after qāla)"
+  },
+  {
+   "chunk": "glossary-auto-1",
+   "ids": [
+    6
+   ],
+   "op": "scoped",
+   "word": "إِنَّكِ",
+   "scope": "*",
+   "gloss": "indeed you (to a woman); that you (after qāla)"
+  },
+  {
+   "chunk": "glossary-auto-1",
+   "ids": [
+    7
+   ],
+   "op": "scoped",
+   "word": "أَرَاهَا",
+   "scope": "*",
+   "gloss": "I see her, I see it (f; also 'them' for things)"
+  },
+  {
+   "chunk": "glossary-auto-1",
+   "ids": [
+    7
+   ],
+   "op": "scoped",
+   "word": "رَأَيْتُهَا",
+   "scope": "*",
+   "gloss": "I saw her, I saw it (f; also 'them' for things)"
+  },
+  {
+   "chunk": "glossary-auto-1",
+   "ids": [
+    7
+   ],
+   "op": "scoped",
+   "word": "أَكْتُبْهَا",
+   "scope": "*",
+   "gloss": "I write it (f; also 'them' for things) (form after lam)"
+  },
+  {
+   "chunk": "glossary-auto-1",
+   "ids": [
+    7
+   ],
+   "op": "scoped",
+   "word": "تَقْرَأْهَا",
+   "scope": "*",
+   "gloss": "you read it (f; also 'them' for things) (form after lam)"
+  },
+  {
+   "chunk": "glossary-auto-1",
+   "ids": [
+    8
+   ],
+   "op": "scoped",
+   "word": "تَكْتُبِينَ",
+   "scope": "*",
+   "gloss": "you write (to a woman)"
+  },
+  {
+   "chunk": "glossary-auto-1",
+   "ids": [
+    8
+   ],
+   "op": "scoped",
+   "word": "تَعْنِي",
+   "scope": "*",
+   "gloss": "it (f), she means; you mean (to a man)"
+  },
+  {
+   "chunk": "glossary-auto-1",
+   "ids": [
+    9
+   ],
+   "op": "scoped",
+   "word": "تَسْتَمِرُّ",
+   "scope": "*",
+   "gloss": "you continue (to a man); she, it (f) continues"
+  },
+  {
+   "chunk": "glossary-auto-1",
+   "ids": [
+    10
+   ],
+   "op": "scoped",
+   "word": "الْكُبْرَى",
+   "scope": "*",
+   "gloss": "the biggest, the greatest (f)"
+  },
+  {
+   "chunk": "glossary-auto-1",
+   "ids": [
+    11
+   ],
+   "op": "text",
+   "file": "content/days/day62.json",
+   "old": "وَادِي رَم أَجْمَلُ مَكَان",
+   "new": "وَادِي رَمّ أَجْمَلُ مَكَان",
+   "count": 2
+  },
+  {
+   "chunk": "glossary-auto-1",
+   "ids": [
+    11
+   ],
+   "op": "text",
+   "file": "content/days/day62.json",
+   "old": "[\"رَم\", \"Rum: part of 'Wadi Rum'\", \"name\"]",
+   "new": "[\"رَمّ\", \"Rum: part of 'Wadi Rum'\", \"name\"]",
+   "count": 2
+  },
+  {
+   "chunk": "glossary-auto-2",
+   "ids": [
+    1
+   ],
+   "op": "scoped",
+   "word": "سَيُسَافِرُ",
+   "scope": "*",
+   "gloss": "he will travel"
+  },
+  {
+   "chunk": "glossary-auto-2",
+   "ids": [
+    1
+   ],
+   "op": "scoped",
+   "word": "وَسَيَأْتِي",
+   "scope": "*",
+   "gloss": "and he will come"
+  },
+  {
+   "chunk": "glossary-auto-2",
+   "ids": [
+    1
+   ],
+   "op": "scoped",
+   "word": "وَقَرَأَهَا",
+   "scope": "*",
+   "gloss": "and he read it (f), them (things)"
+  },
+  {
+   "chunk": "glossary-auto-2",
+   "ids": [
+    1
+   ],
+   "op": "scoped",
+   "word": "وَقَرَأَهَا",
+   "scope": "culture:cul.science",
+   "gloss": "and (they) read them"
+  },
+  {
+   "chunk": "glossary-auto-2",
+   "ids": [
+    1
+   ],
+   "op": "scoped",
+   "word": "قَالَهَا",
+   "scope": "*",
+   "gloss": "he said it (f), them (things)"
+  },
+  {
+   "chunk": "glossary-auto-2",
+   "ids": [
+    1
+   ],
+   "op": "scoped",
+   "word": "يَقْرَؤُهَا",
+   "scope": "*",
+   "gloss": "he reads it (f), them (things)"
+  },
+  {
+   "chunk": "glossary-auto-2",
+   "ids": [
+    2
+   ],
+   "op": "scoped",
+   "word": "مِنْهُ",
+   "scope": "*",
+   "gloss": "from him, from it (m)"
+  },
+  {
+   "chunk": "glossary-auto-2",
+   "ids": [
+    2
+   ],
+   "op": "scoped",
+   "word": "مِنْهَا",
+   "scope": "*",
+   "gloss": "from her, from it (f); than it (after a comparative)"
+  },
+  {
+   "chunk": "glossary-auto-2",
+   "ids": [
+    3
+   ],
+   "op": "scoped",
+   "word": "شَجَرَة",
+   "scope": "*",
+   "gloss": "tree"
+  }
+ ],
+ "checks": [
+  {
+   "chunk": "vocabulary-1",
+   "ids": [
+    1
+   ],
+   "area": "vocabulary",
+   "expect": "تَسْكُنُ=(she) lives"
+  },
+  {
+   "chunk": "vocabulary-1",
+   "ids": [
+    1
+   ],
+   "area": "vocabulary",
+   "expect": "تَسْكُنُ=(she) lives"
+  },
+  {
+   "chunk": "vocabulary-1",
+   "ids": [
+    1
+   ],
+   "area": "vocabulary",
+   "expect": "تَسْكُنُ=(she) lives"
+  },
+  {
+   "chunk": "vocabulary-1",
+   "ids": [
+    2
+   ],
+   "area": "vocabulary",
+   "expect": "تَذْهَبُ=(she) goes"
+  },
+  {
+   "chunk": "vocabulary-1",
+   "ids": [
+    3
+   ],
+   "area": "vocabulary",
+   "expect": "الْإِشَارَة=the traffic lights"
+  },
+  {
+   "chunk": "vocabulary-1",
+   "ids": [
+    4
+   ],
+   "area": "vocabulary",
+   "expect": "الْمَكْتَب=the desk"
+  },
+  {
+   "chunk": "vocabulary-1",
+   "ids": [
+    5
+   ],
+   "area": "vocabulary",
+   "expect": "الْيَوْم=the day (fī l-yawm: a day, per day)"
+  },
+  {
+   "chunk": "vocabulary-1",
+   "ids": [
+    6
+   ],
+   "area": "vocabulary",
+   "expect": "سَلَطَةً=a salad (object)"
+  },
+  {
+   "chunk": "vocabulary-1",
+   "ids": [
+    7
+   ],
+   "area": "vocabulary",
+   "expect": "ثَانِيَة=second (f)"
+  },
+  {
+   "chunk": "vocabulary-1",
+   "ids": [
+    8
+   ],
+   "area": "vocabulary",
+   "expect": "لَهُ=for him, for it"
+  },
+  {
+   "chunk": "vocabulary-1",
+   "ids": [
+    9
+   ],
+   "area": "vocabulary",
+   "expect": "تُشْبِهُ=she looks like (also: you look like, to a man)"
+  },
+  {
+   "chunk": "vocabulary-1",
+   "ids": [
+    10
+   ],
+   "area": "vocabulary",
+   "expect": "تَجْلِسُ=you sit (to a man); she sits"
+  },
+  {
+   "chunk": "vocabulary-1",
+   "ids": [
+    11
+   ],
+   "area": "vocabulary",
+   "expect": "وَصَلَ=(he, it) arrived"
+  },
+  {
+   "chunk": "vocabulary-1",
+   "ids": [
+    12
+   ],
+   "area": "vocabulary",
+   "expect": "أَخَذَ=(he) took"
+  },
+  {
+   "chunk": "vocabulary-1",
+   "ids": [
+    12
+   ],
+   "area": "vocabulary",
+   "expect": "أَخَذَ=(he) took, got"
+  },
+  {
+   "chunk": "vocabulary-1",
+   "ids": [
+    13
+   ],
+   "area": "vocabulary",
+   "expect": "خَرَجْتُ=I went out, I left"
+  },
+  {
+   "chunk": "vocabulary-1",
+   "ids": [
+    14
+   ],
+   "area": "vocabulary",
+   "expect": "عَمِلَ=(he) worked (also: did, made)"
+  },
+  {
+   "chunk": "vocabulary-1",
+   "ids": [
+    15
+   ],
+   "area": "vocabulary",
+   "expect": "صَيْدَلِيَّة=pharmacist (f); also pharmacy"
+  },
+  {
+   "chunk": "vocabulary-1",
+   "ids": [
+    16
+   ],
+   "area": "vocabulary",
+   "expect": "الْمُتَوَسِّط=the middle (m)"
+  },
+  {
+   "chunk": "vocabulary-1",
+   "ids": [
+    17
+   ],
+   "area": "vocabulary",
+   "expect": "wa-jubnan"
+  },
+  {
+   "chunk": "glossary-auto-1",
+   "ids": [
+    1
+   ],
+   "area": "glossary-auto-1",
+   "expect": "انْتَهَتْ = (she, it f) ended, is over; (they) ended, with a plural of things"
+  },
+  {
+   "chunk": "glossary-auto-1",
+   "ids": [
+    1
+   ],
+   "area": "glossary-auto-1",
+   "expect": "تُعْطِيكَ = (she, it f) gives you (to a man); (they) give you, with a plural of things"
+  },
+  {
+   "chunk": "glossary-auto-1",
+   "ids": [
+    1
+   ],
+   "area": "glossary-auto-1",
+   "expect": "تُخْلَعُ = (it, f) is taken off; (they) are taken off, with a plural of things"
+  },
+  {
+   "chunk": "glossary-auto-1",
+   "ids": [
+    1
+   ],
+   "area": "glossary-auto-1",
+   "expect": "تَدْخُلَ = (she, it f) enters; you enter (to a man) (form after an)"
+  },
+  {
+   "chunk": "glossary-auto-1",
+   "ids": [
+    1
+   ],
+   "area": "glossary-auto-1",
+   "expect": "تُرْجِمَتْ = (it, f) was translated; (they) were translated, with a plural of things"
+  },
+  {
+   "chunk": "glossary-auto-1",
+   "ids": [
+    1
+   ],
+   "area": "glossary-auto-1",
+   "expect": "تَصِلَ = (she, it f) arrives; you arrive (to a man) (form after an)"
+  },
+  {
+   "chunk": "glossary-auto-1",
+   "ids": [
+    1
+   ],
+   "area": "glossary-auto-1",
+   "expect": "تُطْفَأُ = (it, f) is switched off; (they) are switched off, with a plural of things"
+  },
+  {
+   "chunk": "glossary-auto-1",
+   "ids": [
+    1
+   ],
+   "area": "glossary-auto-1",
+   "expect": "أُعْلِنَتِ = (it, f) was announced; (they) were announced, with a plural of things (-i links to the next word)"
+  },
+  {
+   "chunk": "glossary-auto-1",
+   "ids": [
+    2
+   ],
+   "area": "glossary-auto-1",
+   "expect": "حَرْب = war; Harb (in the street name Talaat Harb)"
+  },
+  {
+   "chunk": "glossary-auto-1",
+   "ids": [
+    3
+   ],
+   "area": "glossary-auto-1",
+   "expect": "دَوْرَةُ = course, cycle, round (of) (dawratu l-miyāh: toilet)"
+  },
+  {
+   "chunk": "glossary-auto-1",
+   "ids": [
+    4
+   ],
+   "area": "glossary-auto-1",
+   "expect": "الْجَبَل = the mountain, the hill"
+  },
+  {
+   "chunk": "glossary-auto-1",
+   "ids": [
+    5
+   ],
+   "area": "glossary-auto-1",
+   "expect": "الْمَلْعَبَ = the pitch, the sports ground"
+  },
+  {
+   "chunk": "glossary-auto-1",
+   "ids": [
+    6
+   ],
+   "area": "glossary-auto-1",
+   "expect": "إِنَّهَا = indeed she / it (f) (starts a statement); that she / it (after qāla)"
+  },
+  {
+   "chunk": "glossary-auto-1",
+   "ids": [
+    6
+   ],
+   "area": "glossary-auto-1",
+   "expect": "إِنَّهُ = indeed he / it (starts a statement); that he / it (after qāla)"
+  },
+  {
+   "chunk": "glossary-auto-1",
+   "ids": [
+    6
+   ],
+   "area": "glossary-auto-1",
+   "expect": "إِنَّكِ = indeed you (to a woman); that you (after qāla)"
+  },
+  {
+   "chunk": "glossary-auto-1",
+   "ids": [
+    7
+   ],
+   "area": "glossary-auto-1",
+   "expect": "أَرَاهَا = I see her, I see it (f; also 'them' for things)"
+  },
+  {
+   "chunk": "glossary-auto-1",
+   "ids": [
+    7
+   ],
+   "area": "glossary-auto-1",
+   "expect": "رَأَيْتُهَا = I saw her, I saw it (f; also 'them' for things)"
+  },
+  {
+   "chunk": "glossary-auto-1",
+   "ids": [
+    7
+   ],
+   "area": "glossary-auto-1",
+   "expect": "أَكْتُبْهَا = I write it (f; also 'them' for things) (form after lam)"
+  },
+  {
+   "chunk": "glossary-auto-1",
+   "ids": [
+    7
+   ],
+   "area": "glossary-auto-1",
+   "expect": "تَقْرَأْهَا = you read it (f; also 'them' for things) (form after lam)"
+  },
+  {
+   "chunk": "glossary-auto-1",
+   "ids": [
+    8
+   ],
+   "area": "glossary-auto-1",
+   "expect": "تَكْتُبِينَ = you write (to a woman)"
+  },
+  {
+   "chunk": "glossary-auto-1",
+   "ids": [
+    8
+   ],
+   "area": "glossary-auto-1",
+   "expect": "تَعْنِي = it (f), she means; you mean (to a man)"
+  },
+  {
+   "chunk": "glossary-auto-1",
+   "ids": [
+    9
+   ],
+   "area": "glossary-auto-1",
+   "expect": "تَسْتَمِرُّ = you continue (to a man); she, it (f) continues"
+  },
+  {
+   "chunk": "glossary-auto-1",
+   "ids": [
+    10
+   ],
+   "area": "glossary-auto-1",
+   "expect": "الْكُبْرَى = the biggest, the greatest (f)"
+  },
+  {
+   "chunk": "glossary-auto-1",
+   "ids": [
+    11
+   ],
+   "area": "days-61-70",
+   "expect": "وَادِي رَمّ أَجْمَلُ مَكَان"
+  },
+  {
+   "chunk": "glossary-auto-1",
+   "ids": [
+    11
+   ],
+   "area": "days-61-70",
+   "expect": "[رَمّ = Rum: part of 'Wadi Rum'"
+  },
+  {
+   "chunk": "glossary-auto-2",
+   "ids": [
+    1
+   ],
+   "area": "glossary-auto-2",
+   "expect": "سَيُسَافِرُ = he will travel"
+  },
+  {
+   "chunk": "glossary-auto-2",
+   "ids": [
+    1
+   ],
+   "area": "glossary-auto-2",
+   "expect": "وَسَيَأْتِي = and he will come"
+  },
+  {
+   "chunk": "glossary-auto-2",
+   "ids": [
+    1
+   ],
+   "area": "glossary-auto-2",
+   "expect": "وَقَرَأَهَا = and he read it (f), them (things)"
+  },
+  {
+   "chunk": "glossary-auto-2",
+   "ids": [
+    1
+   ],
+   "area": "culture",
+   "expect": "وَقَرَأَهَا=and (they) read them"
+  },
+  {
+   "chunk": "glossary-auto-2",
+   "ids": [
+    1
+   ],
+   "area": "glossary-auto-2",
+   "expect": "قَالَهَا = he said it (f), them (things)"
+  },
+  {
+   "chunk": "glossary-auto-2",
+   "ids": [
+    1
+   ],
+   "area": "glossary-auto-2",
+   "expect": "يَقْرَؤُهَا = he reads it (f), them (things)"
+  },
+  {
+   "chunk": "glossary-auto-2",
+   "ids": [
+    2
+   ],
+   "area": "glossary-auto-2",
+   "expect": "مِنْهُ = from him, from it (m)"
+  },
+  {
+   "chunk": "glossary-auto-2",
+   "ids": [
+    2
+   ],
+   "area": "glossary-auto-2",
+   "expect": "مِنْهَا = from her, from it (f); than it (after a comparative)"
+  },
+  {
+   "chunk": "glossary-auto-2",
+   "ids": [
+    3
+   ],
+   "area": "glossary-auto-2",
+   "expect": "شَجَرَة = tree"
+  }
+ ],
+ "skipped": [
+  {
+   "chunk": "glossary-auto-1",
+   "id": 12,
+   "reason": "DISAGREE: auto.json is a generated review list; the mistake-form keys come from mistakes.json by design and removing them changes nothing the learner sees."
+  }
+ ]
+}

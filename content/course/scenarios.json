@@ -17,16 +17,16 @@
           "segs": [["بِالنَّعْنَاع", "with mint"], ["مِنْ", "from"], ["فَضْلِكَ", "your kindness (to a man): 'please'"], ["وَبِدُونِ", "and without"], ["سُكَّر", "sugar"]] },
         { "id": "c5", "sp": "waiter", "ar": "حَاضِر! هَلْ تُرِيدُ شَيْئًا آخَر؟ عِنْدَنَا كَعْك طَازَج.", "en": "Certainly! Would you like anything else? We have fresh cake.",
           "segs": [["حَاضِر", "certainly, right away"], ["هَلْ", "(starts a yes/no question)"], ["تُرِيدُ", "you want (to a man)"], ["شَيْئًا", "something (object form)"], ["آخَر", "other, else"], ["عِنْدَنَا", "we have"], ["كَعْك", "cake, pastry"], ["طَازَج", "fresh"]] },
-        { "id": "c6", "sp": "daniel", "ar": "نَعَم، قِطْعَة كَعْك وَاحِدَة، مِنْ فَضْلِكَ.", "en": "Yes, one piece of cake, please.",
-          "segs": [["نَعَم", "yes"], ["قِطْعَة", "piece"], ["كَعْك", "cake, pastry"], ["وَاحِدَة", "one (f)"], ["مِنْ", "from"], ["فَضْلِكَ", "your kindness (to a man): 'please'"]] },
+        { "id": "c6", "sp": "daniel", "ar": "نَعَم، قِطْعَةَ كَعْك وَاحِدَة، مِنْ فَضْلِكَ.", "en": "Yes, one piece of cake, please.",
+          "segs": [["نَعَم", "yes"], ["قِطْعَةَ", "piece"], ["كَعْك", "cake, pastry"], ["وَاحِدَة", "one (f)"], ["مِنْ", "from"], ["فَضْلِكَ", "your kindness (to a man): 'please'"]] },
         { "id": "c7", "sp": "waiter", "ar": "تَفَضَّلْ، الشَّاي وَالْكَعْك. بِالْهَنَاء وَالشِّفَاء!", "en": "Here you are, the tea and the cake. Enjoy your meal!",
           "segs": [["تَفَضَّلْ", "here you are (to a man)"], ["الشَّاي", "the tea"], ["وَالْكَعْك", "and the cake"], ["بِالْهَنَاء", "with happiness"], ["وَالشِّفَاء", "and good health ('enjoy your meal')"]] },
         { "id": "c8", "sp": "daniel", "ar": "شُكْرًا! الشَّاي لَذِيذ جِدًّا.", "en": "Thank you! The tea is really very delicious.",
           "segs": [["شُكْرًا", "thank you"], ["الشَّاي", "the tea"], ["لَذِيذ", "delicious"], ["جِدًّا", "very"]] },
         { "id": "c9", "sp": "daniel", "ar": "مِنْ فَضْلِكَ، الْحِسَاب. كَمِ الْحِسَاب؟", "en": "Excuse me, the bill please. How much is the bill?",
           "segs": [["مِنْ", "from"], ["فَضْلِكَ", "your kindness (to a man): 'please'"], ["الْحِسَاب", "the bill"], ["كَمِ", "how much, how many"], ["الْحِسَاب", "the bill"]] },
-        { "id": "c10", "sp": "waiter", "ar": "ثَلَاثَة دَنَانِير، مِنْ فَضْلِكَ. شُكْرًا وَمَعَ السَّلَامَة!", "en": "Three dinars, please. Thank you, and goodbye!",
-          "segs": [["ثَلَاثَة", "three"], ["دَنَانِير", "dinars"], ["مِنْ", "from"], ["فَضْلِكَ", "your kindness (to a man): 'please'"], ["شُكْرًا", "thank you"], ["وَمَعَ", "and with"], ["السَّلَامَة", "the safety"]] }
+        { "id": "c10", "sp": "waiter", "ar": "ثَلَاثَةُ دَنَانِير، مِنْ فَضْلِكَ. شُكْرًا وَمَعَ السَّلَامَة!", "en": "Three dinars, please. Thank you, and goodbye!",
+          "segs": [["ثَلَاثَةُ", "three"], ["دَنَانِير", "dinars"], ["مِنْ", "from"], ["فَضْلِكَ", "your kindness (to a man): 'please'"], ["شُكْرًا", "thank you"], ["وَمَعَ", "and with"], ["السَّلَامَة", "the safety"]] }
       ]
     },
     "mistakes": [
@@ -2027,7 +2027,7 @@
         {
           "id": "bakery-l5",
           "sp": "baker",
-          "ar": "الْكَرْوَاسُون بِخَمْسَةَ عَشَرَ جُنَيْهًا، وَالْكَعْكَة بِعَشَرَة جُنَيْهَات.",
+          "ar": "الْكَرْوَاسُون بِخَمْسَةَ عَشَرَ جُنَيْهًا، وَالْكَعْكَة بِعَشَرَةِ جُنَيْهَات.",
           "en": "A croissant is fifteen pounds, and a kaʿk is ten pounds.",
           "segs": [
             [
@@ -2051,7 +2051,7 @@
               "and the kaʿk biscuit"
             ],
             [
-              "بِعَشَرَة",
+              "بِعَشَرَةِ",
               "for ten"
             ],
             [
@@ -2300,8 +2300,8 @@
     },
     "mistakes": [
       {
-        "wrong": "خَمْسَة رَغِيف",
-        "right": "خَمْسَة أَرْغِفَة",
+        "wrong": "خَمْسَةُ رَغِيف",
+        "right": "خَمْسَةُ أَرْغِفَة",
         "why": "After the numbers three to ten the noun is plural."
       },
       {
@@ -4331,7 +4331,7 @@
         {
           "id": "family-visit-l9",
           "sp": "fatima",
-          "ar": "تَفَضَّلِ الشَّاي، وَخُذْ قِطْعَة كَعْك أُخْرَى!",
+          "ar": "تَفَضَّلِ الشَّاي، وَخُذْ قِطْعَةَ كَعْك أُخْرَى!",
           "en": "Here's your tea, and have another piece of cake!",
           "segs": [
             [
@@ -4347,7 +4347,7 @@
               "and take (to a man)"
             ],
             [
-              "قِطْعَة",
+              "قِطْعَةَ",
               "piece"
             ],
             [
@@ -17740,7 +17740,7 @@
       {
         "wrong": "هٰذَا بِثَلَاثِمِئَةِ جُنَيْهَات",
         "right": "هٰذَا بِثَلَاثِمِئَةِ جُنَيْه",
-        "why": "After hundreds and thousands the counted noun is singular: bi-thalāthi-mi'ati junayh, never junayhāt."
+        "why": "After hundreds and thousands the counted noun is singular: bi-thalāthimiʾati junayh, never junayhāt."
       }
     ],
     "quiz": [

@@ -17,7 +17,7 @@ import { tts } from '../services/tts';
 import { useFs, usePalette, useSettings } from '../state/hooks';
 import { useLearner } from '../state/store';
 import { WordTile } from '../components/photo';
-import { MistakeScope, RichText, TapText, WordBox } from '../components/tap';
+import { GlossPlace, MistakeScope, RichText, TapText, WordBox } from '../components/tap';
 import { AR_FONT, AppText, ArText, Button, Card, IconButton, Pill, Row, TrText } from '../components/ui';
 
 const POS_COLOURS: Record<string, string> = {
@@ -44,64 +44,66 @@ export function WordCard({ v, compact }: { v: Vocab; compact?: boolean }) {
   const colour = v.gender === 'f' ? '#C2255C' : v.gender === 'm' ? '#1C7ED6' : (POS_COLOURS[v.pos] ?? c.text);
   const tr = v.tr ?? translitLine(v.ar, settings.translitStyle);
   return (
-    <Card
-      testID={`word-card-${v.id}`}
-      label={`${tr}, ${v.en}`}
-      onPress={() => {
-        if (settings.readAloudOnTap) tts.speak(v.ar, { rate: settings.speechRate });
-        setOpen(wordToken(v.ar, settings.translitStyle, tr));
-      }}>
-      <Row style={{ alignItems: 'flex-start' }} gap={12}>
-        <WordTile v={v} size={56} testID={`word-tile-${v.id}`} />
-        <View style={{ flex: 1, gap: 0 }}>
-          <ArText size={compact ? 24 : 28} bold color={colour}>
-            {v.ar}
-          </ArText>
-          {settings.showTranslit && <TrText>{tr}</TrText>}
-          <AppText weight="700">{v.en}</AppText>
-          {!compact && (
-            <Row wrap gap={6} style={{ marginTop: 4 }}>
-              {v.gender && <Pill label={v.gender === 'm' ? 'masculine' : 'feminine'} />}
-              <Pill label={v.pos} />
-            </Row>
-          )}
-        </View>
-      </Row>
-      {!compact && v.plural && (
-        <Row gap={6}>
-          <AppText size={13} muted>
-            plural:
-          </AppText>
-          <ArText size={18}>{v.plural}</ArText>
-          {settings.showTranslit && <TrText size={13}>{translitLine(v.plural, settings.translitStyle)}</TrText>}
-        </Row>
-      )}
-      {!compact &&
-        v.forms?.map((f) => (
-          <Row gap={6} key={f.label}>
-            <AppText size={13} muted>
-              {f.label}:
-            </AppText>
-            <ArText size={18}>{f.ar}</ArText>
-            {settings.showTranslit && <TrText size={13}>{translitLine(f.ar, settings.translitStyle)}</TrText>}
-          </Row>
-        ))}
-      {!compact && (
-        <View style={{ borderTopWidth: 1, borderColor: c.border, paddingTop: 6 }}>
-          <TapText text={v.example.ar} size={20} interactive={false} />
-          {settings.showTranslations && <AppText size={14}>{v.example.en}</AppText>}
-        </View>
-      )}
-      {!compact && v.note && (
-        <Row style={{ alignItems: 'flex-start' }}>
-          <Text>💡</Text>
-          <View style={{ flex: 1 }}>
-            <RichText text={v.note} size={14} muted />
+    <GlossPlace place={`vocab:${v.id}`}>
+      <Card
+        testID={`word-card-${v.id}`}
+        label={`${tr}, ${v.en}`}
+        onPress={() => {
+          if (settings.readAloudOnTap) tts.speak(v.ar, { rate: settings.speechRate });
+          setOpen(wordToken(v.ar, settings.translitStyle, tr));
+        }}>
+        <Row style={{ alignItems: 'flex-start' }} gap={12}>
+          <WordTile v={v} size={56} testID={`word-tile-${v.id}`} />
+          <View style={{ flex: 1, gap: 0 }}>
+            <ArText size={compact ? 24 : 28} bold color={colour}>
+              {v.ar}
+            </ArText>
+            {settings.showTranslit && <TrText>{tr}</TrText>}
+            <AppText weight="700">{v.en}</AppText>
+            {!compact && (
+              <Row wrap gap={6} style={{ marginTop: 4 }}>
+                {v.gender && <Pill label={v.gender === 'm' ? 'masculine' : 'feminine'} />}
+                <Pill label={v.pos} />
+              </Row>
+            )}
           </View>
         </Row>
-      )}
-      {open && <WordBox info={open} floating onClose={() => setOpen(null)} />}
-    </Card>
+        {!compact && v.plural && (
+          <Row gap={6}>
+            <AppText size={13} muted>
+              plural:
+            </AppText>
+            <ArText size={18}>{v.plural}</ArText>
+            {settings.showTranslit && <TrText size={13}>{translitLine(v.plural, settings.translitStyle)}</TrText>}
+          </Row>
+        )}
+        {!compact &&
+          v.forms?.map((f) => (
+            <Row gap={6} key={f.label}>
+              <AppText size={13} muted>
+                {f.label}:
+              </AppText>
+              <ArText size={18}>{f.ar}</ArText>
+              {settings.showTranslit && <TrText size={13}>{translitLine(f.ar, settings.translitStyle)}</TrText>}
+            </Row>
+          ))}
+        {!compact && (
+          <View style={{ borderTopWidth: 1, borderColor: c.border, paddingTop: 6 }}>
+            <TapText text={v.example.ar} size={20} interactive={false} />
+            {settings.showTranslations && <AppText size={14}>{v.example.en}</AppText>}
+          </View>
+        )}
+        {!compact && v.note && (
+          <Row style={{ alignItems: 'flex-start' }}>
+            <Text>💡</Text>
+            <View style={{ flex: 1 }}>
+              <RichText text={v.note} size={14} muted />
+            </View>
+          </Row>
+        )}
+        {open && <WordBox info={open} floating onClose={() => setOpen(null)} />}
+      </Card>
+    </GlossPlace>
   );
 }
 
@@ -545,12 +547,14 @@ export function OneQuestion({
 /** Arabic inside an answer option: shows the transliteration, but the press reaches the option. */
 export function OptionArabic({ text, color }: { text: string; color: string }) {
   const settings = useSettings();
+  // a digit or a bare letter is what the question asks to recognise: its reading would give the answer away
+  const recognise = /^\s*(?:[٠-٩۰-۹]+|\p{Script=Arabic}[ً-ْ]?)\s*$/u.test(text);
   return (
     <View>
       <ArText size={22} color={color}>
         {text}
       </ArText>
-      {settings.showTranslit && (
+      {settings.showTranslit && !recognise && (
         <TrText size={13} style={{ textAlign: START }}>
           {translitLine(text, settings.translitStyle, namesSet())}
         </TrText>

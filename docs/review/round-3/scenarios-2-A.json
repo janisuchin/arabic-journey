@@ -1,0 +1,159 @@
+{
+  "chunk": "scenarios-2",
+  "reviewer": "A",
+  "errors": [
+    {
+      "file": "content/course/scenes.json",
+      "path": "scene airport-checkin spots[1].ar (tap); scene bank spots[0].ar (tap); scene machines spots[5].ar (tap); scene school spots[1].ar (tap)",
+      "current": "الْمَكْتَب=the office",
+      "problem": "Still present from round 2. The spot's English is 'the counter' (airport, bank, metro) or 'the desk' (classroom), but the tap gloss is always 'the office'. A beginner tapping the desk in a classroom is told the word means 'office'. The bank caption itself glosses مَكْتَب as 'office; desk'.",
+      "category": "gloss",
+      "severity": "minor",
+      "confidence": "high",
+      "fix": "الْمَكْتَب=the desk, the counter; the office",
+      "alsoChange": "scene-only gloss; do not change the app-wide gloss of مَكْتَب"
+    },
+    {
+      "file": "content/course/scenes.json",
+      "path": "scene airport-checkin spots[5].ar (tap); scene supermarket spots[0].ar (tap)",
+      "current": "الْعَرَبَة=the carriage",
+      "problem": "Still present from round 2. The spot is 'the luggage trolley' / 'the trolley', but the tap says 'the carriage'. The supermarket caption itself glosses عَرَبَات as 'trolleys, carriages'.",
+      "category": "gloss",
+      "severity": "minor",
+      "confidence": "high",
+      "fix": "الْعَرَبَة=the trolley, the cart",
+      "alsoChange": "scene-only gloss"
+    },
+    {
+      "file": "content/course/scenarios.json",
+      "path": "scenarios[16].mistakes[0].wrong (tap لِكُلِّ); scenarios[16].mistakes[0].right (tap لِكُلِّ)",
+      "current": "لِكُلِّ=for all (of)",
+      "problem": "Still present from round 2. In لِكُلِّ كِيلُو ('for every kilo', kull before a singular indefinite noun) kull means 'every', but the tap says 'for all (of)'. The dialogue seg on the same sentence (lines[7]) correctly says 'for every'.",
+      "category": "gloss",
+      "severity": "minor",
+      "confidence": "high",
+      "fix": "لِكُلِّ=for every, for each",
+      "alsoChange": "these two mistake-card taps only"
+    },
+    {
+      "file": "content/course/scenes.json",
+      "path": "scene airport-checkin spots[3].note (tap هُوَ); content/course/scenarios.json scenarios[28].dialogue.culture (tap هُوَ in هَلْ هُوَ حَلَال؟)",
+      "current": "هُوَ=he",
+      "problem": "Still present from round 2. In هَلْ هٰذَا هُوَ الطَّابُور؟ ('is this the queue?') and هَلْ هُوَ حَلَال؟ ('is it halal?', of food) هُوَ refers to a thing, but the tap shows only 'he'. The dialogue segs elsewhere in this chunk use 'he, it (m)'.",
+      "category": "gloss",
+      "severity": "minor",
+      "confidence": "high",
+      "fix": "هُوَ=he, it (m)",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/course/scenarios.json",
+      "path": "scenarios[30].dialogue.culture (tap سَيِّدَات)",
+      "current": "سَيِّدَات=ladies (toilets)",
+      "problem": "Still present from round 2. The note says two metro cars are reserved for women (سَيِّدَات), but the tap hint says 'ladies (toilets)', a sense from a sign lesson that does not fit here.",
+      "category": "gloss",
+      "severity": "minor",
+      "confidence": "high",
+      "fix": "سَيِّدَات=ladies, women",
+      "alsoChange": "this culture note only"
+    },
+    {
+      "file": "content/course/scenes.json",
+      "path": "scene machines spots[2].ar (tap)",
+      "current": "السَّاعَة=the hour, the time",
+      "problem": "Still present (round 2 #17, wording changed). The spot is 'the clock' on the wall, but the tap gives only 'the hour, the time', so the learner never sees the meaning being pointed at.",
+      "category": "gloss",
+      "severity": "minor",
+      "confidence": "high",
+      "fix": "السَّاعَة=the clock; the hour",
+      "alsoChange": "scene-only gloss"
+    },
+    {
+      "file": "content/course/scenes.json",
+      "path": "scene airport-checkin caption (tap طَابُور)",
+      "current": "طَابُور=queue (of)",
+      "problem": "Still present from round 2. In the caption 'wait in the طَابُور' the word stands alone, but the tap marks it as a construct form 'queue (of)'.",
+      "category": "gloss",
+      "severity": "minor",
+      "confidence": "high",
+      "fix": "طَابُور=queue",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/course/scenes.json",
+      "path": "scene job-interview caption (tap مُدِيرَة)",
+      "current": "مُدِيرَة=manager (of) (a woman)",
+      "problem": "In the caption 'the مُدِيرَة asks the questions' the word stands alone (not in idāfa), but the tap marks it as a construct form 'manager (of)'. The spot below correctly glosses الْمُدِيرَة as 'the manager (a woman)'.",
+      "category": "gloss",
+      "severity": "minor",
+      "confidence": "high",
+      "fix": "مُدِيرَة=manager, director (a woman)",
+      "alsoChange": "caption only; the dialogue seg مُدِيرَةُ الْمَرْكَز keeps '(of)'"
+    },
+    {
+      "file": "content/course/scenes.json",
+      "path": "scene museum-info spots[5].ar (tap خِزَانَةُ); scene phone-shop spots[0].ar (tap خِزَانَةُ)",
+      "current": "خِزَانَةُ=wardrobe, cupboard",
+      "problem": "In خِزَانَةُ الْعَرْض ('the display case') the tap gloss is 'wardrobe, cupboard', which misleads in a museum or shop counter, and unlike every other construct form in the chunk it lacks '(of)', so the learner does not see that the two words form one phrase.",
+      "category": "gloss",
+      "severity": "minor",
+      "confidence": "medium",
+      "fix": "خِزَانَةُ=cabinet, case (of) ('display case')",
+      "alsoChange": "scene-only gloss"
+    },
+    {
+      "file": "content/course/scenarios.json",
+      "path": "scenarios[16].mistakes[0].right (tap أَغْلَى); scenarios[16].quiz[2].ar (tap أَغْلَى)",
+      "current": "أَغْلَى=more expensive; more expensive; the most expensive",
+      "problem": "The new two-readings gloss repeats 'more expensive' twice. Cosmetic, but it looks like an error to the learner on a card that teaches the comparative.",
+      "category": "gloss",
+      "severity": "minor",
+      "confidence": "high",
+      "fix": "أَغْلَى=more expensive; the most expensive (before a noun)",
+      "alsoChange": "check the two-readings generator for other duplicated senses"
+    },
+    {
+      "file": "content/course/scenes.json",
+      "path": "scene lost-phone-help spots[8].ar (tap)",
+      "current": "الْجَبَل=the mountain(s)",
+      "problem": "الْجَبَل is singular ('the mountain', as the spot's English says); the gloss '(s)' suggests it can also be plural (the plural is الْجِبَال).",
+      "category": "gloss",
+      "severity": "minor",
+      "confidence": "medium",
+      "fix": "الْجَبَل=the mountain",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/course/scenarios.json",
+      "path": "scenarios[27].mistakes[1].why",
+      "current": "bi-thalāthi-mi'ati junayh",
+      "problem": "The transliteration uses a straight apostrophe (mi'ati) instead of the house hamza symbol ʾ, and splits the number with a hyphen unlike the course's own ⟶ line (bithalāthimiʾati).",
+      "category": "script-sound",
+      "severity": "minor",
+      "confidence": "high",
+      "fix": "bi-thalāthimiʾati junayh",
+      "alsoChange": ""
+    },
+    {
+      "file": "content/course/scenarios.json",
+      "path": "scenarios[26].dialogue.lines[0].ar (wa-dajāj wakhuḍār wazabādī liʿashāʾi); scenarios[18].dialogue.lines[1].ar (washahādatī); scenarios[17].dialogue.lines[1].ar (lilaylati); scenarios[21].dialogue.lines[8].ar (bithamānīna, against bi-miʾa in the same line); scenarios[23].dialogue.lines[10].ar (wajinsiyyatika waʿunwānika ... linattaṣila); scenarios[27].dialogue.lines[8].ar (bimiʾatayni, biʾarbaʿimiʾati)",
+      "current": "wakhuḍār wazabādī",
+      "problem": "Engine regression against round-3 change 5 ('a word glossed as clitic + word is transliterated with a hyphen'). Many words whose segs gloss them as clitic + word ('and vegetables', 'and my certificate', 'for the night (of)', 'and for eighty', 'for two hundred') are transliterated without the hyphen, often in the same line as hyphenated ones: aruzz wa-dajāj wakhuḍār wazabādī; bi-miʾa junayh, wa-bithamānīna. Other examples: watadrusīna, wasanursilu, watuḥḍiru, wawishāḥ, waqīmatahā, wasanadfaʿu, wasahra, wamiʾatāni, walawz, wasayuḥaḍḍiruhu, wakhudhhā, bidīnārayni, bijunayhayn, bisiʿri, bimaraqi, limusāʿadatika, liwāliday, limuddati, litaghyīri. The Arabic is correct.",
+      "category": "engine",
+      "severity": "minor",
+      "confidence": "high",
+      "fix": "transliterate every seg-glossed clitic with a hyphen: wa-khuḍār wa-zabādī li-ʿashāʾi, wa-shahādatī, li-laylati, wa-bi-thamānīna, bi-miʾatayni …",
+      "alsoChange": "engine fix; the Arabic strings stay unchanged"
+    }
+  ],
+  "notes": [
+    { "file": "content/course/scenarios.json", "path": "scenarios[17].dialogue.lines[1].ar", "note": "لِلَيْلَةِ السَّبْت is translated 'for Saturday night'. In traditional Arabic usage لَيْلَةُ السَّبْت is the night before Saturday (Friday night); many speakers still read it so. Consider a footnote or 'مَسَاءَ السَّبْت' if Saturday evening is meant." },
+    { "file": "content/course/scenes.json", "path": "scene museum-info caption; scene post-office caption; scene lost-phone-help caption", "note": "Still as in round 2: the museum photo is the Egyptian Museum (Cairo) for a Jordan Museum dialogue, the post photo is Jordan Post for a Cairo dialogue, and the tourist-police caption says Petra while the story is in downtown Amman." },
+    { "file": "content/course/scenes.json", "path": "scene lost-phone-help spots[7]", "note": "السَّقْف is tapped 'the ceiling' while the English says 'the roof'. Both are correct meanings; they should match." },
+    { "file": "content/course/scenes.json", "path": "scene lost-phone-help caption / spots[1] (tap السِّيَاحِيَّة)", "note": "The tap 'the tourist (f)' can be read as 'the female tourist' (السَّائِحَة, which is a spot in the same scene). 'tourist (adjective, f)' would be clearer." },
+    { "file": "content/course/scenarios.json", "path": "scenarios[31].dialogue.lines[12].ar", "note": "Story logic: Daniel says he works from ten, but the placement test is set for tomorrow at ten and he agrees to be there 'at ten exactly'." },
+    { "file": "content/course/scenarios.json", "path": "scenarios[18].dialogue.lines[10].ar; scenarios[19].dialogue.lines[8].ar", "note": "الْإِلِكْتُرُونِيّ (ilikturūnī) is a possible vocalisation, but dictionaries and most courses give إِلِكْتْرُونِيّ (iliktrūnī). Check it matches the vocabulary list." },
+    { "file": "content/course/scenarios.json", "path": "scenarios[28].dialogue.lines[11].ar", "note": "عَصِيرَ لَيْمُون … is accusative with an implied أُرِيدُ; correct, but a beginner may be puzzled. The seg already says '(object)'; nothing to change unless a note is wanted." }
+  ],
+  "summary": "I read the whole scenarios-2 export (3,091 lines: 16 scenarios from airport-checkin to school, with dialogues, segs, mistake cards, quizzes and the scene photo spots) and opened the merged round-2 findings to avoid re-reporting fixes. I checked harakat and case endings against the syntax of each sentence (objects, idāfa, after prepositions, after إِنَّ/لٰكِنَّ/كَانَ/لَيْسَ, pause forms), verb moods after أَنْ/لَنْ/لَمْ/لَا, gender and dual agreement, number–noun rules (3–10 polarity, 11–99 singular accusative, hundreds and thousands, compound totals), the arithmetic of every total against the quiz keys, every quiz key and mistake card, and every tap and seg gloss. Checked: 579 Arabic strings (none wrong; the round-2 Arabic fixes — صَبَاحُ, أَيُّهُمَا, مِحْفَظَة, taqrīrani l-āna — are in place), 818 tap glosses on 366 tap lines (19 wrong or misleading, in 11 findings) and 2,864 seg glosses (none wrong). I found 13 errors, all minor: 11 gloss findings (seven of them round-2 scene/tap gloss findings that are still unchanged: الْمَكْتَب 'office' for counter/desk, الْعَرَبَة 'carriage', لِكُلِّ 'for all', هُوَ 'he' for a thing, سَيِّدَات 'toilets', السَّاعَة for the clock, طَابُور '(of)'; plus مُدِيرَة '(of)', خِزَانَةُ 'wardrobe', a duplicated sense in the new أَغْلَى two-readings gloss, and الْجَبَل 'mountain(s)'), one transliteration typo (mi'ati) and one engine regression: the new clitic-hyphen rule is applied inconsistently (wa-dajāj wakhuḍār wazabādī in one line). The dialogue Arabic, answer keys and grammar rules are correct throughout."
+}

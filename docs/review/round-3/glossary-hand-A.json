@@ -1,0 +1,55 @@
+{
+  "chunk": "glossary-hand",
+  "reviewer": "A",
+  "errors": [
+    {
+      "file": "content/glossary/hand.json",
+      "path": "ـهُ; ـهَا; ـهُمْ",
+      "current": "ـهُ ⟶ -·hu",
+      "problem": "Still there from round 2 (not fixed): the s·h separator is inserted after the tatweel, so the bare object endings are transliterated -·hu, -·hā, -·hum (no s precedes the h). The other endings in the same set come out clean (-Ka, -Nā, -Kum). The learner sees it on the grammar object-endings card: 'verb + -nī · -ka · -ki · -·hu · -·hā · -nā · -kum · -·hum' (audit/grammar.txt ~l.2143). The Arabic and the glosses are correct.",
+      "category": "engine",
+      "severity": "minor",
+      "confidence": "high",
+      "fix": "-hu / -hā / -hum: do not insert the · separator when the character before h is a tatweel (keep it for real s+h as in As·halu)",
+      "alsoChange": "no content change; engine only"
+    },
+    {
+      "file": "content/glossary/hand.json",
+      "path": "أَمِينُ",
+      "current": "keeper (of) (with al-sundūq: cashier)",
+      "problem": "The transliteration inside the gloss is wrong: الصُّنْدُوق starts with the sun letter ṣād (assimilated, and ṣ not s), so it is aṣ-ṣundūq, not al-sundūq. The course everywhere else assimilates sun letters (as the engine does: aṣ-ṣundūq). The phrase in the course is أَمِينُ الصُّنْدُوق (scenarios.json nameAr).",
+      "category": "script-sound",
+      "severity": "minor",
+      "confidence": "high",
+      "fix": "keeper (of) (with aṣ-ṣundūq: cashier)"
+    }
+  ],
+  "notes": [
+    {
+      "file": "content/glossary/hand.json",
+      "path": "بِنَعْنَاع; لِيَشْتَرِيَ; بِأَنَّ; بِأَنَّهُ",
+      "note": "Clitic transliteration is still not one style: بِخَمْسَة → Bi-khamsa and وَخَمْسَة → Wa-khamsa are hyphenated, but بِنَعْنَاع (glossed 'with mint') → Binaʿnāʿ, لِيَشْتَرِيَ → Liyashtariya, بِأَنَّ → Biʾanna stay joined; mistake note لِلَيْلَتَانِ → Lilaylatāni while its own text says li-laylatayni. Round 3 promises one clitic style; the engine's clitic test probably misses these glosses/forms."
+    },
+    {
+      "file": "content/glossary/mistakes.json",
+      "path": "إِنْتَرْنِت; جُمُعَة; غُرْفَةُهُ; تُوقِظُنَا",
+      "note": "These mistake notes match no mistake card's wrong side (and the first two are real words with a hand gloss, so the non-word fallback never shows them): they are dead entries. The إِنْتَرْنِت note in particular describes a mistake ('without the') that the course does not contain (bare إِنْتَرْنِت is correct in the scenarios); the real day-76 card is about the ending after anna. Consider deleting them."
+    },
+    {
+      "file": "content/glossary/mistakes.json",
+      "path": "جَوَازِي",
+      "note": "Mistake note says 'my permit', the hand gloss says 'my passport'. On the day-57 card (هٰذَا جَوَازِي السَّفَر → هٰذَا جَوَازُ سَفَرِي) 'my passport' is what the learner meant; aligning the two glosses would be clearer."
+    },
+    {
+      "file": "content/course/scenarios.json",
+      "path": "mistakes[0].wrong: سَلِّمْ عَلَى الْوَالِدَانِ أَوَّلًا",
+      "note": "The wrong-side word الْوَالِدَانِ shows the hand gloss 'the two parents (subject form)', which is correct but gives no hint. Like the other dual cards, a mistake note could be added: 'the two parents (wrong after a preposition — correct: al-wālidayni)'."
+    },
+    {
+      "file": "content/glossary/hand.json",
+      "path": "أ; إ",
+      "note": "Still from round 2: the bare hamza-seat letters transliterate inconsistently (أ → empty, إ → 'I')."
+    }
+  ],
+  "summary": "Checked every line of audit/glossary-hand.txt (443 hand glosses with their transliterations) and audit/glossary-mistakes.txt (44 mistake notes), 487 tap glosses / Arabic strings in total. For each mistake note I located the mistake card(s) whose wrong side contains the form (script over content/) and checked the note's 'correct' form against the card's right side; for app-wide hand glosses with several possible senses (أَحَدَ in لَا أَحَدَ, الْيَوْمُ, أَيُّ, سِتُّ, ثَلَاثُ, مِلْيُونَ, الْوَالِدَانِ, لِي, كُلُّ, هٰذِهِ, طَوِيل, يَنْزِلُ …) I checked every place they are tapped without segs. Months (Levantine and Hijri), ordinals, clock expressions, number polarity, dual/plural endings, verb forms, moods and the round-2 fixes (ـُ, أَبُوهُ, the dual notes, لِأَدْعُو) are all correct now. 2 errors, both minor (0 major): the engine still writes -·hu/-·hā/-·hum for the bare object endings (round-2 item not yet fixed), and the أَمِينُ gloss writes al-sundūq instead of aṣ-ṣundūq. Pattern: the Arabic and meanings in this chunk are clean; what remains is transliteration (separator after tatweel, a non-assimilated sun letter, mixed clitic style) and a few dead mistake notes."
+}

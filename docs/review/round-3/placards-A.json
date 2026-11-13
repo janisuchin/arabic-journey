@@ -1,0 +1,89 @@
+{
+  "chunk": "placards",
+  "reviewer": "A",
+  "errors": [
+    {
+      "file": "content/course/placards.json",
+      "path": "[6] pc.my-your items[1].note; items[2].note; items[3].note; items[4].note; items[5].note; items[6].note; items[7].note (tap)",
+      "current": "ـكَ=you (object ending, to a man: -ka)",
+      "problem": "Still unfixed from round 2. On the possessive placard (kitābuka = your book, kitābuhu = his book), tapping the endings gives only the verb-object sense: ـكَ 'you (object ending, to a man)', ـكِ 'you (object ending, to a woman)', ـهُ 'him, it (object ending)', ـهَا 'her, it (object ending)', ـنَا 'us (object ending)', ـكُمْ 'you (object ending, to several people)', ـهُمْ 'them (object ending)'. Here they mean your / his / her / our / their. Only ـِي (item 0) is glossed as 'my'. The tap contradicts the placard it sits on.",
+      "category": "gloss",
+      "severity": "minor",
+      "confidence": "high",
+      "fix": "ـكَ=your (on a noun) / you (on a verb), to a man: -ka",
+      "alsoChange": "same pattern for the others, in this placard only or as two-sense glosses: ـكِ=your / you (to a woman: -ki); ـهُ=his, its / him, it (-hu); ـهَا=her, its / her, it (-hā); ـنَا=our / us (-nā); ـكُمْ=your / you (to several people: -kum); ـهُمْ=their / them (-hum). Source: content/glossary/hand.json keys ـكَ, ـكِ, ـهُ, ـهَا, ـنَا, ـكُمْ, ـهُمْ"
+    },
+    {
+      "file": "content/course/placards.json",
+      "path": "[15] pc.past-tense description (tap)",
+      "current": "كَتَبْـ=wrote",
+      "problem": "The description presents كَتَبْـ (katab-, with sukūn) as the past stem that takes endings and says the he-form كَتَبَ is the dictionary form, but tapping the stem gives 'wrote', the same gloss as كَتَبَ. The present-tense placard glosses its stem properly (ـكْتُبُ = '-ktubu (the present-tense stem of 'to write')'); the past stem should match.",
+      "category": "gloss",
+      "severity": "minor",
+      "confidence": "high",
+      "fix": "كَتَبْـ=katab- (the past-tense stem of 'to write')",
+      "alsoChange": "content/glossary/auto.json key كَتَبْـ (or a placard-only gloss)"
+    },
+    {
+      "file": "content/course/placards.json",
+      "path": "[11] pc.colours description (tap)",
+      "current": "ـِيّ=-ī (masculine nationality ending) · ـِيَّة=-iyya (feminine nationality ending)",
+      "problem": "Still unfixed from round 2. The description says newer colour words add ـِيّ / ـِيَّة (bunnī, ramādī, burtuqālī), but the tapped ending is glossed as a 'nationality ending'. On the colours placard this is misleading: it is the general nisba (relation) adjective ending, of which nationality is one use.",
+      "category": "gloss",
+      "severity": "minor",
+      "confidence": "high",
+      "fix": "ـِيّ=-ī (adjective ending 'related to', m; also nationality) · ـِيَّة=-iyya (adjective ending 'related to', f; also nationality)",
+      "alsoChange": "content/glossary/hand.json keys ـِيّ, ـِيَّة"
+    },
+    {
+      "file": "content/course/placards.json",
+      "path": "[6] pc.my-your items[3].note; items[4].note; items[7].note (transliteration)",
+      "current": "ending ـهُ (-hu)",
+      "problem": "Still unfixed from round 2. The ⟶ line shows 'ending -·hu (-hu)', 'ending -·hā (-hā)', 'ending -·hum (-hum)': the s·h / k·h separator dot is inserted after a hyphen where no s, k, t, d or g precedes. The Arabic is correct; the transliteration shows a stray symbol on the placard that teaches these endings.",
+      "category": "engine",
+      "severity": "minor",
+      "confidence": "high",
+      "fix": "the engine should output '-hu', '-hā', '-hum' (no separator after a hyphen or at the start of a word)",
+      "alsoChange": "no content change"
+    },
+    {
+      "file": "content/course/placards.json",
+      "path": "[17] pc.prepositions titleAr",
+      "current": "حُرُوفُ الْجَرِّ وَظُرُوفُ الْمَكَانِ",
+      "problem": "The Arabic is correct, but the ⟶ line reads 'Ḥurūfu l-jarri waẓurūfu l-makāni'. وَظُرُوفُ is glossed as clitic + word ('and adverbs (of)'), so under the round-3 one-clitic-style rule it should be hyphenated like every other wa- on the placards (wa-ʿalaykumu, wa-sahlan, wa-hiya, wa-ʿishrūna, wa-hādhihi, wa-l-qamariyyatu). The same miss appears outside this chunk (waẓahruhu, wawaṣalat), so it looks like an engine gap rather than a content issue.",
+      "category": "engine",
+      "severity": "minor",
+      "confidence": "medium",
+      "fix": "⟶ Ḥurūfu l-jarri wa-ẓurūfu l-makāni",
+      "alsoChange": "no Arabic change; check the clitic splitter for wa- before ẓ / w (and other letters it misses)"
+    }
+  ],
+  "notes": [
+    {
+      "file": "content/course/placards.json",
+      "path": "[7] pc.numbers description",
+      "note": "'Arabic-Indic digits used in Egypt and the Gulf': they are also standard in the Levant, Iraq and Sudan; 'in the Middle East' would be more accurate (geography, not an error)."
+    },
+    {
+      "file": "content/course/placards.json",
+      "path": "[1] pc.vowel-marks items[8..10].segs",
+      "note": "Seg glosses 'ba (long a)', 'bu (long u)', 'bi (long i)' still lack the macrons used in the en lines (bā, bū, bī)."
+    },
+    {
+      "file": "content/course/placards.json",
+      "path": "[6] pc.my-your items[*].note; [15] pc.past-tense items[7].note (transliteration)",
+      "note": "Transliterated notes are redundant or odd: 'ending -ī (-ī)', and 'The final alif of -ū is written but not pronounced' (the alif disappears from the transliteration, so the sentence no longer shows what it describes). Consider keeping the Arabic ending untransliterated in these notes."
+    },
+    {
+      "file": "content/course/placards.json",
+      "path": "[17] pc.prepositions items[5..11]",
+      "note": "عِنْدَ، تَحْتَ، فَوْقَ، أَمَامَ، خَلْفَ، بَيْنَ are grammatically ẓurūf (adverbs of place), not ḥurūf al-jarr; the title already says so, but the segs label them 'prep'. Fine for beginners."
+    },
+    {
+      "file": "content/course/placards.json",
+      "path": "[5] pc.pronouns",
+      "note": "Dual forms and antunna are left out; acceptable for a beginner placard."
+    }
+  ],
+  "summary": "I read all 20 placards in audit/placards.txt (1,217 lines): 220 Arabic strings (titles, items, examples) with their harakat, case endings, agreement and transliteration, about 350 seg glosses, and all 65 tap lines (116 tap glosses). The Arabic itself is correct throughout: no wrong harakat, case ending, agreement or verb form (number polarity thalāthatu awlādin, khamsatun wa-ʿishrūna, the diptote ḥamrāʾu, lam/lan/lā moods, lastu mutʿaban, kam + singular accusative, demonstratives, the 14/14 sun-moon split, makhraju ṭ-ṭawāriʾ). Round-2 fixes applied: الِاثْنَيْن spelling, and مَا on the negation note now lists the 'not (before a past verb)' sense. I found 5 errors (0 major, 5 minor), 0 in the Arabic strings. Tap glosses wrong or misleading: 10 of 116 (7 possessive endings with object-only glosses, 2 nisba endings glossed as nationality, the past stem كَتَبْـ glossed 'wrote'); three of these are round-2 findings that were not applied. Two engine issues: the stray separator in '-·hu/-·hā/-·hum' (unfixed) and a missing clitic hyphen in 'waẓurūfu'. 5 notes."
+}

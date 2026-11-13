@@ -1,0 +1,45 @@
+{
+  "group": "P1",
+  "ops": [
+    {"chunk": "days-11-20", "ids": [1], "op": "scoped", "word": "عَلِي", "scope": "day:18", "gloss": "Ali (first name): Umm Ali is a bread pudding"},
+    {"chunk": "days-11-20", "ids": [1], "op": "scoped", "word": "عَلِي", "scope": "*", "gloss": "Ali (first name)"},
+    {"chunk": "days-31-40", "ids": [1], "op": "scoped", "word": "مُنْذُ", "scope": "day:38", "gloss": "since, for; ago"},
+    {"chunk": "days-41-50", "ids": [1], "op": "scoped", "word": "مَرَّةً", "scope": "day:45", "gloss": "once, one time"},
+    {"chunk": "days-51-60", "ids": [1], "op": "text", "file": "content/days/day53.json",
+     "old": "\"wrong\": \"سَتَكُونُ دَرَجَةُ الْحَرَارَة خَمْسَةُ دَرَجَات\"",
+     "new": "\"wrong\": \"سَتَكُونُ دَرَجَةُ الْحَرَارَة خَمْسَةَ دَرَجَات\"", "count": 1},
+    {"chunk": "days-51-60", "ids": [2], "op": "scoped", "word": "سَتَكُونُ", "scope": "day:53", "gloss": "(it) will be (f)"},
+    {"chunk": "days-51-60", "ids": [3], "op": "scoped", "word": "بِخَيْر", "scope": "day:52", "gloss": "well, in good health ('kullu ʿāmin wa-anta / wa-anti bi-khayr': many happy returns)"},
+    {"chunk": "days-51-60", "ids": [4], "op": "scoped", "word": "نَشْتَرِيَ", "scope": "day:52", "gloss": "we buy (after an or lan)"},
+
+    {"chunk": "days-01-10", "ids": [1], "op": "engine", "related": [{"chunk": "days-31-40", "ids": [4]}],
+     "note": "Quiz options that are a bare digit or a bare letter must not show a ⟶ line that gives the answer away (OptionArabic in src/features/lesson.tsx prints translitLine under every option). Suppress ⟶ for digit-only and single-letter options. Examples: d7q2 'How do you write 7 in Arabic digits?' options ٧ ٦ ٨ ٢ now read sabʿa / sitta / thamāniya / ithnān; d38q7 'which letter is the ʿayn' shows 'ʿ' under ع (and an empty ⟶ under أ). Arabic options and answer keys unchanged."},
+    {"chunk": "days-01-10", "ids": [2], "op": "engine", "related": [{"chunk": "days-31-40", "ids": [4]}, {"chunk": "days-41-50", "ids": [2]}, {"chunk": "days-51-60", "ids": [5]}],
+     "note": "proseTranslit (src/lang/ar/tap.ts, namedBefore rule): when a bare letter or mark is dropped because its name is written just before it, also drop the space before it and any brackets left empty around it. Expected ⟶: day 7 intro '… plus hamza, tāʾ marbūṭa and alif maqṣūra.' (not 'hamza , … maqṣūra .'); day 34 / day 58 quiz[6].prompt 'Which word ends in tāʾ marbūṭa?'; day 36 quiz[6].prompt '… which consonant carries the sukūn?'; day 46 'Which word begins with ghayn?'; day 49 'Which word has qāf, the deep k said at the back of the throat?'; day 50 'Which word begins with ghayn, the soft gargle?'; day 57 'Which word has sīn, the light s?'; day 60 'Which word has ʿayn, the sound from deep in the throat?'. Source prompts unchanged; do not print 'sīn (sīn)'."},
+    {"chunk": "days-11-20", "ids": [2], "op": "engine", "related": [{"chunk": "days-21-30", "ids": [1]}, {"chunk": "days-31-40", "ids": [3]}, {"chunk": "days-41-50", "ids": [3]}, {"chunk": "days-51-60", "ids": [7]}],
+     "note": "Clitic hyphen (cliticReading in src/lang/ar/tap.ts): hyphenate a one-letter proclitic wa-/fa-/bi-/li-/ka- whenever the line's seg (or tap) gloss for the word is clitic + word ('and …', 'so/because …', 'for …', 'with/in …'), also when the bare stem is an inflected form not found as such in the glossary. Today only exact glossary stems whose glossary gloss starts with a clitic word split. Examples: watafhamu → wa-tafhamu, faṣadīquka → fa-ṣadīquka, wajubnan → wa-jubnan (d13-20); wakīluwayni → wa-kīluwayni, biʾarbaʿimiʾa → bi-arbaʿimiʾa, liʿāʾilatinā → li-ʿāʾilatinā (d21-30); waʿuyūnuhā → wa-ʿuyūnuhā, fafī → fa-fī, wakibba wamanāqīsh → wa-kibba wa-manāqīsh (d31-40); waṣawtuka → wa-ṣawtuka, liʾannakumā → li-annakumā, wasaʾasʾalukum → wa-saʾasʾalukum (d41-50); wakāmīrā → wa-kāmīrā, lishakhṣayni → li-shakhṣayni, wa-bithalāthīna → wa-bi-thalāthīna (d51-60). LEAD DECIDES بِخَيْر: days-21-30 checker wants bi-khayr (the round-3 brief's own model; allow 'fine (lit. in goodness)' to count), days-51-60 checker wants bikhayr kept whole (one-word gloss, like بِجَانِبِ 'next to')."},
+    {"chunk": "days-31-40", "ids": [2], "op": "engine",
+     "note": "Double clitic before a name: وَلِسَامِي (seg 'and for Sami') prints 'wa-Lisāmī'; split both clitics and capitalise the name, not the clitic: 'wa-li-Sāmī' (day 31 reading: 'Li-Laylā qiṭṭa smuhā Lūlū, wa-li-Sāmī akh wa-ukht.'). Same pattern for any wa-/fa- + li-/bi- + name, e.g. وَلِصَدِيقِكِ → wa-li-ṣadīqiki (day 28)."},
+    {"chunk": "days-31-40", "ids": [5], "op": "engine", "related": [{"chunk": "days-41-50", "ids": [5]}],
+     "note": "Names in lower case in ⟶: a word segged '· name' must be capitalised even when the form also has a common-word sense. شِيكَاغُو → 'fī Shīkāghū' (day 32 dialogue.lines[0], reading); الْأُسْتَاذ كَرِيم → 'Al-ustādh Karīm' (speaker labels days 36, 39, 41, 42, 43, 50) and 'Yā ustādh Karīm' (day 41 reading). In the speaker label الْأُسْتَاذ كَرِيم the word is always the name."},
+    {"chunk": "days-41-50", "ids": [4], "op": "engine",
+     "note": "FIXED_TRANSLIT for الله (src/core/translit.ts) drops a written case vowel mid-phrase: اللّٰهُ يُسَلِّمُكِ يَا لَيْلَى prints 'Allāh yusallimuki' (day 43 dialogue.lines[14]) and 'allāh yusallimuki' (day 43 dialogue.culture). Keep the written vowel when the word is not in pause: 'Allāhu yusallimuki yā Laylā!'; pause and waṣl readings such as 'in shāʾa llāh', 'al-ḥamdu lillāh' must stay as they are."},
+    {"chunk": "days-51-60", "ids": [6], "op": "engine",
+     "note": "The s·h / d·h / k·h / t·h separator dot (src/core/translit.ts) is inserted after a hyphen/tatweel, where no consonant precedes the h: the day 60 intro shows bare suffixes ـهُ, ـهَا as '-·hu', '-·hā'. Expected '-hu', '-hā'; keep the real separator in 'tajid·hā' (day 60 dialogue.lines[6])."}
+  ],
+  "checks": [
+    {"chunk": "days-11-20", "ids": [1], "area": "days-11-20", "expect": "عَلِي=Ali (first name): Umm Ali is a bread pudding"},
+    {"chunk": "days-31-40", "ids": [1], "area": "days-31-40", "expect": "مُنْذُ=since, for; ago"},
+    {"chunk": "days-41-50", "ids": [1], "area": "days-41-50", "expect": "مَرَّةً=once, one time"},
+    {"chunk": "days-51-60", "ids": [1], "area": "days-51-60", "expect": "سَتَكُونُ دَرَجَةُ الْحَرَارَة خَمْسَةَ دَرَجَات"},
+    {"chunk": "days-51-60", "ids": [2], "area": "days-51-60", "expect": "سَتَكُونُ=(it) will be (f)"},
+    {"chunk": "days-51-60", "ids": [3], "area": "days-51-60", "expect": "بِخَيْر=well, in good health ('kullu ʿāmin wa-anta / wa-anti bi-khayr': many happy returns)"},
+    {"chunk": "days-51-60", "ids": [4], "area": "days-51-60", "expect": "نَشْتَرِيَ=we buy (after an or lan)"}
+  ],
+  "skipped": [],
+  "notesForLead": [
+    "عَلِي (days-11-20 #1): the leak is not from auto.json (the app never reads it) but from widen() in src/lang/ar/tap.ts: the day-18 seg is pos 'name', and widen() prepends the day-81 seg 'Ali (name; Muhammad Ali ruled Egypt in the 1800s)', which has no '· name' pos, as if it were a common-word sense. The scoped day:18 op fixes day 18; giving the day-81 seg (content/days/day81.json dialogue.lines[6]) the pos 'name' would remove the cause (outside P1's chunks). The '*' op only sets the plain default for places with no seg sense of their own; عَلِي is currently tapped only on days 18 and 81.",
+    "بِخَيْر day:52 scope also changes quiz[4].options[2] (the scope is per day); the new gloss still names wa-anti, so it is right there too.",
+    "بِخَيْر hyphenation: the two checkers disagree (days-21-30 X: bi-khayr; days-51-60 X: bikhayr). Owner/lead must pick one before the clitic engine fix."
+  ]
+}

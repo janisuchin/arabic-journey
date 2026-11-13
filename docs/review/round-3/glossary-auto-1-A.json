@@ -1,0 +1,136 @@
+{
+  "chunk": "glossary-auto-1",
+  "reviewer": "A",
+  "errors": [
+    {
+      "file": "content/glossary/auto.json",
+      "path": "انْتَهَتْ; تُعْطِيكَ; تُخْلَعُ; تَدْخُلَ; تُرْجِمَتْ; تَصِلَ; تُطْفَأُ; أُعْلِنَتِ",
+      "current": "(they) ended, are over",
+      "problem": "Not fixed since round 2: these are 3rd person feminine SINGULAR forms (and ta- forms are also 2nd person masc.), but the gloss says 'they', copied from a sentence with a non-human plural subject. Outside the lesson it teaches that -at / ta- mean 'they'. Exact current glosses: انْتَهَتْ '(they) ended, are over'; تُعْطِيكَ '(they) give you (to a man)'; تُخْلَعُ '(they) are taken off'; تَدْخُلَ '(they, f) enter ('can come in')'; تُرْجِمَتْ '(they, f) were translated'; تَصِلَ '(they, f) arrive (after an)'; تُطْفَأُ '(they) are switched off'; أُعْلِنَتِ '(they) were announced (f; -i links to the next word)'. The ONE_LINE rule only demotes such a gloss when a plain one exists; these keys have none, so the 'they' gloss is what shows.",
+      "category": "gloss",
+      "severity": "minor",
+      "confidence": "high",
+      "fix": "انْتَهَتْ '(she, it f) ended, is over'; تُعْطِيكَ '(she, it f) gives you (to a man)'; تُخْلَعُ '(it, f) is taken off'; تَدْخُلَ '(she, it f) enters; you enter (to a man) (form after an)'; تُرْجِمَتْ '(it, f) was translated'; تَصِلَ '(she, it f) arrives; you arrive (to a man) (form after an)'; تُطْفَأُ '(it, f) is switched off'; أُعْلِنَتِ '(it, f) was announced'",
+      "alsoChange": "keep the 'they' wording only as the in-lesson seg gloss of the sentence with the non-human plural"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "حَرْب",
+      "current": "Harb (part of a street name in Cairo)",
+      "problem": "Not fixed since round 2: حَرْب is the common noun 'war' (الْحَرْب = 'the war' in the same glossary). Outside the Talaat Harb lesson the learner is told it is only a name. Round 3 shows both readings for a name that is also a word, but this key still shows only the name.",
+      "category": "gloss",
+      "severity": "minor",
+      "confidence": "high",
+      "fix": "war; Harb (in the street name Talaat Harb)"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "دَوْرَةُ",
+      "current": "room, cycle (of)",
+      "problem": "Not fixed since round 2: دَوْرَة does not mean 'room'. The sense comes from دَوْرَةُ الْمِيَاهِ 'toilet' (lit. water cycle). الدَّوْرَة / دَوْرَةِ are glossed 'course' in the same glossary.",
+      "category": "gloss",
+      "severity": "minor",
+      "confidence": "high",
+      "fix": "course, cycle, round (of) (dawratu l-miyāh: toilet)"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "الْجَبَل",
+      "current": "the mountain(s)",
+      "problem": "Not fixed since round 2: الْجَبَل is singular; the plural الْجِبَال is glossed separately ('the mountains'). The '(s)' teaches that jabal can be plural. The lesson seg for this form already says 'the mountain, the hill'.",
+      "category": "gloss",
+      "severity": "minor",
+      "confidence": "high",
+      "fix": "the mountain, the hill"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "الْمَلْعَبَ",
+      "current": "the malʿab",
+      "problem": "Not fixed since round 2: the gloss is a transliteration, not a meaning (الْمَلْعَب is glossed 'the pitch, the sports ground').",
+      "category": "gloss",
+      "severity": "minor",
+      "confidence": "high",
+      "fix": "the pitch, the stadium"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "إِنَّهَا; إِنَّهُ; إِنَّكِ",
+      "current": "that it (f)",
+      "problem": "إِنَّهَا is glossed 'that it (f)' with no restriction, the gloss of أَنَّهَا. In the course it also opens a statement (إِنَّهَا الْعَرَبِيَّةُ 'it is Arabic'), where 'that' is wrong. إِنَّهُ 'that he (after qāla)' and إِنَّكِ 'that you (to a woman, after qāla)' give only the after-qāla sense. The hand gloss of إِنَّ already gives both senses ('indeed (starts a statement); that (after qāla, 'said')'); the pronoun forms should match it.",
+      "category": "gloss",
+      "severity": "minor",
+      "confidence": "medium",
+      "fix": "إِنَّهَا 'indeed she / it (f) (starts a statement); that she / it (after qāla)'; إِنَّهُ 'indeed he / it (starts a statement); that he / it (after qāla)'; إِنَّكِ 'indeed you (to a woman); that you (after qāla)'"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "أَرَاهَا; رَأَيْتُهَا; أَكْتُبْهَا; تَقْرَأْهَا",
+      "current": "I see them (things)",
+      "problem": "The suffix -hā is 'her / it (f)'. These keys give only the sense 'them', taken from one sentence with a non-human plural (رَأَيْتُهَا: أَعْمِدَة 'columns'; أَرَاهَا: الْبَهَارَات 'spices'). Elsewhere أَرَاهَا means 'see it (f)' (أَنْ أَرَاهَا أَوَّلًا). Outside the lesson this teaches that -hā means 'them'. Exact current glosses: أَرَاهَا 'I see them (things)'; رَأَيْتُهَا 'I saw them (things)'; أَكْتُبْهَا 'I write them (form after 'lam')'; تَقْرَأْهَا 'you read them (form after 'lam')'. Compare the correct style used for اخْتَرْنَاهَا 'we chose them (lit. it)'.",
+      "category": "gloss",
+      "severity": "minor",
+      "confidence": "medium",
+      "fix": "أَرَاهَا 'I see her, I see it (f; also 'them' for things)'; رَأَيْتُهَا 'I saw her, I saw it (f; also 'them' for things)'; أَكْتُبْهَا 'I write it (f; also 'them' for things) (form after lam)'; تَقْرَأْهَا 'you read it (f; also 'them' for things) (form after lam)'"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "تَكْتُبِينَ; تَعْنِي",
+      "current": "write",
+      "problem": "Person and gender are lost (تَكْتُبِينَ was reported in round 2 and is still unfixed). تَكْتُبِينَ is 'you write (to a woman)', not a bare 'write' (which reads as an imperative or infinitive). تَعْنِي is glossed 'mean'; it is 'you mean (to a man); she / it (f) means' (in the course: الْجُمْلَة كُلُّهَا تَعْنِي ... 'the whole sentence means').",
+      "category": "gloss",
+      "severity": "minor",
+      "confidence": "high",
+      "fix": "تَكْتُبِينَ 'you write (to a woman)'; تَعْنِي 'it (f), she means; you mean (to a man)'"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "تَسْتَمِرُّ",
+      "current": "you continue (-a after an)",
+      "problem": "Not fixed since round 2: the key ends in -u (indicative); the tag '-a after an' belongs to تَسْتَمِرَّ (the line above, same gloss). It also omits 'she continues'.",
+      "category": "gloss",
+      "severity": "minor",
+      "confidence": "high",
+      "fix": "you continue (to a man); she, it (f) continues"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "الْكُبْرَى",
+      "current": "the bigger",
+      "problem": "الْكُبْرَى is the feminine elative with al-: 'the biggest, the greatest (f)' (in the course: الْمُشْكِلَةَ الْكُبْرَى 'the biggest problem'; cf. الْقَاهِرَة الْكُبْرَى 'Greater Cairo'). 'the bigger' with no (f) misreads the form; other elatives in this glossary give the superlative sense ('the most famous', 'the biggest').",
+      "category": "gloss",
+      "severity": "minor",
+      "confidence": "medium",
+      "fix": "the biggest, the greatest (f)"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "رَم",
+      "current": "Rum: part of 'Wadi Rum'",
+      "problem": "The place is وَادِي رَمّ (Ramm, with shadda), which is how the course spells it elsewhere (رَمّ = 'Rum (a desert valley in Jordan)' in this glossary; وَادِي رَمّ in the culture text and dess3). The key رَم without shadda comes from two day-62 lines (وَادِي رَم) and gives a second, unvocalised-for-shadda spelling of the same name.",
+      "category": "arabic",
+      "severity": "minor",
+      "confidence": "medium",
+      "fix": "remove this key once the source lines read رَمّ",
+      "alsoChange": "content/days/day62.json: the two lines with وَادِي رَم (around lines 51 and 65) → وَادِي رَمّ, and their seg ['رَم', ...] → ['رَمّ', ...]"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "أَتَّصِلُكَ; أَخَمِّنُ; أَفْضَلَة; الْخَالَتِي; أُمْكِنُ; أَهَمَّة; بِقَبْلِ; زَارْتُمُ; زَارْنَا",
+      "current": "I can (wrong — correct: yumkinunī)",
+      "problem": "Not fixed since round 2: these wrong forms are still in auto.json with the mistake note as their 'meaning', and several start with a plain meaning that presents the wrong form as valid ('I can' for أُمْكِنُ, 'better' for أَفْضَلَة, 'you visited' for زَارْتُمُ, 'we visited' for زَارْنَا, 'I call you' for أَتَّصِلُكَ). They are already in glossary/mistakes.json, which is where the mistake card reads them.",
+      "category": "gloss",
+      "severity": "minor",
+      "confidence": "medium",
+      "fix": "remove these keys from auto.json (mistakes.json keeps them), or start each with 'not a correct form:' and drop the leading meaning"
+    }
+  ],
+  "notes": [
+    { "file": "content/glossary/auto.json", "path": "أَغْلَى; أَكْبَر; أَكْثَر; أَقَلّ", "note": "Merged comparative glosses repeat a sense: 'more expensive; more expensive; the most expensive', 'bigger; bigger, older; the biggest', 'more; more; the most', 'less; less, fewer; the least'. Correct but untidy." },
+    { "file": "content/glossary/auto.json", "path": "حَسَن", "note": "Only 'Hassan (first name)'. حَسَن is usually romanised Hasan (Hassan = حَسَّان), and the adjective 'good' is not shown even though round 3 shows both readings for names that are also words." },
+    { "file": "content/glossary/auto.json", "path": "الدِّين; الدين", "note": "Only 'al-Din (second part of the name)'. Outside a name the word means 'the religion, the faith'." },
+    { "file": "content/glossary/auto.json", "path": "رِجَال", "note": "'men (toilets)': the '(toilets)' is the sign sense. The plain meaning 'men' would be clearer outside the sign lesson." },
+    { "file": "content/glossary/auto.json", "path": "الْأَرْض; السُّور; الْفَتْحَةُ; الطَّائِر", "note": "Still narrow lesson senses (round-2 notes): 'the floor', 'the railing', 'the slot', 'flying'. 'the earth, the ground', 'the wall', 'the fatha; the opening' and 'the bird' would be better outside the lesson." }
+  ],
+  "summary": "I checked every line of audit/glossary-auto-1.txt (lines 1-3638, ء to زَالَ): about 3,630 vocalised keys (the Arabic strings) and their 3,630 tap glosses, each against the exact vocalised form. I also checked the source senses in content/ for doubtful cases, and hand.json, which already overrides several round-2 items (زَارَنَا, تَأْتِي, اِكْتَشَفَ, الْوَاحِدَة, حِمَايَةُ). 12 findings, 0 major and 12 minor, covering 31 keys: 30 wrong glosses and 1 key with a spelling problem (رَم for رَمّ). Most are round-2 rows that were never fixed in auto.json: 'they' glosses on 3rd person feminine singular forms; الْجَبَل 'mountain(s)', الْمَلْعَبَ 'the malʿab', حَرْب 'Harb' only, دَوْرَةُ 'room', تَسْتَمِرُّ with a wrong '-a after an' tag, تَكْتُبِينَ 'write', and the mistake notes kept as meanings. The new findings are: -hā glossed only as 'them' (taken from one sentence with a non-human plural), إِنَّهَا glossed 'that' with no restriction, الْكُبْرَى 'the bigger', تَعْنِي 'mean', and the unshadda'd رَم from day 62. The 'form of X: label' glosses, the lesson-tag glosses ('-a after kāna') and the numbers, letters, names and elatives were correct for their forms."
+}

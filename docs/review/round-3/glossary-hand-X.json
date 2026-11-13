@@ -1,0 +1,21 @@
+{
+  "chunk": "glossary-hand",
+  "checker": "X3-8",
+  "verdicts": [
+    {
+      "id": 1,
+      "verdict": "AGREE",
+      "fix": "Engine: when ه follows a tatweel (or starts the fragment), do not insert the · separator; output -hu, -hā, -hum. Keep · only for a real vowelless s/k/d/t + h (as·halu).",
+      "scope": "engine only (translit); no content change. Also fixes grammar [59].formula/explanation.",
+      "reason": "Confirmed in audit/glossary-hand.txt l.166-170 (ـهُ ⟶ -·hu, ـهَا ⟶ -·hā, ـهُمْ ⟶ -·hum) and audit/grammar.txt l.2143. No s/k/d/t precedes the h, so the separator is wrong. Arabic and glosses are correct."
+    },
+    {
+      "id": 2,
+      "verdict": "AGREE",
+      "fix": "keeper (of) (with aṣ-ṣundūq: cashier)",
+      "scope": "hand.json entry أَمِينُ (gloss text only)",
+      "reason": "الصُّنْدُوق begins with the sun letter ṣād (shadda on ص), so ALA-LC with assimilation is aṣ-ṣundūq; 'al-sundūq' is both unassimilated and has s for ṣ. House style assimilates everywhere."
+    }
+  ],
+  "summary": "glossary-hand (audit/glossary-hand.txt + audit/glossary-mistakes.txt): reviewer A reported 2 errors, both minor; the mistakes file produced notes only, no errors. Both verified against the export, content/glossary/hand.json and src/core/translit.ts: 2 AGREE, 0 CHANGE, 0 DISAGREE."
+}

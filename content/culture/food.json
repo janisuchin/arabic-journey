@@ -225,7 +225,7 @@
     { "ar": "كُسْكُس", "en": "couscous", "segs": [["كُسْكُس", "couscous"]], "note": "The family dish of Morocco, Algeria and Tunisia." },
     { "ar": "كَبْسَة", "en": "kabsa (spiced rice with meat)", "segs": [["كَبْسَة", "kabsa (spiced rice with meat)"]], "note": "Popular in the Gulf, especially Saudi Arabia." },
     { "ar": "بِالْهَنَاءِ وَالشِّفَاء", "en": "Enjoy your meal!", "segs": [["بِالْهَنَاءِ", "with enjoyment"], ["وَالشِّفَاء", "and good health"]], "note": "Understood everywhere and fine in MSA." },
-    { "ar": "هَنِيئًا مَرِيئًا", "en": "Enjoy! (classical wish for food or drink)", "segs": [["هَنِيئًا", "with pleasure, may it do you good"], ["مَرِيئًا", "and may it be wholesome"]] },
+    { "ar": "هَنِيئًا مَرِيئًا", "en": "Enjoy! (classical wish for food or drink)", "segs": [["هَنِيئًا", "with pleasure, may it do you good"], ["مَرِيئًا", "may it be wholesome"]] },
     { "ar": "صَحْتَيْن", "en": "Enjoy! (spoken, Levant)", "segs": [["صَحْتَيْن", "two healths ('enjoy', regional spoken)"]], "note": "Regional spoken Arabic, not MSA. In MSA say بِالْهَنَاءِ وَالشِّفَاء." },
     { "ar": "حَلَال", "en": "halal, permitted", "segs": [["حَلَال", "halal, permitted"]], "note": "Food prepared according to Islamic rules." }
   ],

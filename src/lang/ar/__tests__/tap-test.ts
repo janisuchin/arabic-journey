@@ -66,7 +66,26 @@ describe('Arabic language pack', () => {
     expect(proseTranslit('مَا عَمَلُكَ؟', 'academic')).toBe('mā ʿamaluka?');
     expect(proseTranslit('أنت', 'academic')).toBe('');
     // round 2: never name a letter twice
-    expect(proseTranslit('plus hamza ء, and ة (tāʾ marbūṭa)', 'academic')).toBe('plus hamza , and (tāʾ marbūṭa)');
+    // round 3: and no stray space or empty brackets where the letter was
+    expect(proseTranslit('plus hamza ء, and ة (tāʾ marbūṭa)', 'academic')).toBe('plus hamza, and (tāʾ marbūṭa)');
+    expect(proseTranslit('ḥāʾ (ح) versus hāʾ (ه)', 'academic')).toBe('ḥāʾ versus hāʾ');
+    expect(proseTranslit('a seat: أ or ؤ', 'academic')).toBe('a seat: alif with hamza or wāw with hamza');
+  });
+  it('round 3: one clitic style, endings, Allāhu, names after titles, no repeated senses', () => {
+    expect(translitLine('وَجُبْنًا وَخُبْزًا', 'academic')).toBe('Wa-jubnan wa-khubzan');
+    expect(translitLine('لَاشْتَرَيْتُ', 'academic')).toBe('La-shtaraytu');
+    expect(translitLine('وَلَد وَصَلَ كَمَا', 'academic')).toBe('Walad waṣala kamā');
+    expect(translitLine('وَلِسَامِي', 'academic', namesSet())).toBe('Wa-li-Sāmī');
+    expect(translitLine('ـهُ', 'academic')).toBe('-hu');
+    expect(translitLine('اللّٰهُ يُسَلِّمُكِ', 'academic')).toBe('Allāhu yusallimuki');
+    expect(translitLine('الْأُسْتَاذ كَرِيم', 'academic', namesSet())).toBe('Al-ustādh Karīm');
+    expect(translitLine('رَجُل كَرِيم', 'academic', namesSet())).toBe('Rajul karīm');
+    expect(translitLine('فِي مِصْر', 'academic', namesSet())).toBe('Fī Miṣr');
+    expect(meaningOf('أَكْبَر')).not.toMatch(/bigger; bigger/);
+  });
+  it('round 3: a scoped gloss holds in its own place only', () => {
+    expect(meaningOf('الْإِشَارَة', { place: 'scenario:directions' })).toMatch(/traffic light/);
+    expect(meaningOf('الْإِشَارَة')).toBe('pointing');
   });
   it('round 2: shows both readings of a name/word and of an elative, and forms as forms', () => {
     expect(meaningOf('كَرِيم')).toMatch(/generous.*Karim/);

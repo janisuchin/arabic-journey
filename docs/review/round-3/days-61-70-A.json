@@ -1,0 +1,143 @@
+{
+  "chunk": "days-61-70",
+  "reviewer": "A",
+  "errors": [
+    {
+      "file": "content/days/day64.json",
+      "path": "dialogue.culture (tap)",
+      "current": "أُسْتَاذَة=teacher (f)",
+      "problem": "Still there from round 2. The culture note says colleagues and managers are called أُسْتَاذ / أُسْتَاذَة 'even if they are not teachers', but the tap on أُسْتَاذَة (hand glossary: \"أُسْتَاذَة\": \"teacher (f)\") gives only 'teacher (f)', which contradicts the sentence it sits in. The masculine tap in the same line gives 'professor; teacher; Mr (title)', and the day 64/67 segs give 'madam (polite address for a woman)'.",
+      "category": "gloss",
+      "severity": "minor",
+      "confidence": "high",
+      "fix": "أُسْتَاذَة=teacher (f); Mrs, madam (polite title)",
+      "alsoChange": "content/glossary/hand.json entry أُسْتَاذَة, or a day-64-only gloss for the culture note"
+    },
+    {
+      "file": "content/days/day66.json",
+      "path": "summary (tap); sentences[0].mistakes[0].wrong (tap); quiz[0].ar (tap); completion (tap)",
+      "current": "مُسَافِر=traveller (m)",
+      "problem": "Partly fixed since round 2 ('passenger' removed), but day 66 teaches مُسَافِر as the active participle 'travelling, away on a trip' (summary: 'say who is away, travelling or coming back with the active participle'; quiz d66q1 'What does this mean? مُسَافِر', answer 'travelling'). The tap still gives only the noun sense 'traveller', which is not one of the quiz options and hides the participle meaning the lesson is about. The feminine tap مُسَافِرَة already says 'travelling (f)'.",
+      "category": "gloss",
+      "severity": "minor",
+      "confidence": "medium",
+      "fix": "مُسَافِر=travelling, away (m); traveller",
+      "alsoChange": "content/glossary/hand.json entry مُسَافِر (or a day-66-only gloss)"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "day61 summary (tap); day61 quiz[3].options[3] (tap); day61 quiz[5].options[1] (tap); day61 quiz[6].prompt (tap)",
+      "current": "أَغْلَى=more expensive; more expensive; the most expensive",
+      "problem": "The two-readings gloss repeats its first sense: 'more expensive; more expensive; …'. In quiz d61q6 ('Which word means more expensive?') the learner taps the answer and sees a garbled gloss. The glossary entry itself is duplicated (auto.json: \"أَغْلَى\": \"more expensive; more expensive; the most expensive\").",
+      "category": "gloss",
+      "severity": "minor",
+      "confidence": "high",
+      "fix": "أَغْلَى=more expensive; the most expensive (before a noun)",
+      "alsoChange": "same style as أَكْبَرُ=bigger; the biggest (before a noun)"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "day63 sentences[3].mistakes[0].wrong (tap); day63 sentences[3].mistakes[0].right (tap); day63 dialogue.culture (tap); day63 quiz[6].options[2] (tap)",
+      "current": "الْخَزْنَة=the Treasury; the Treasury (famous building in Petra)",
+      "problem": "Duplicated gloss: 'the Treasury; the Treasury (famous building in Petra)'. The same word is glossed once, correctly, in every day-63 seg. Same duplication pattern as أَغْلَى (the two-readings merge repeats a sense).",
+      "category": "gloss",
+      "severity": "minor",
+      "confidence": "high",
+      "fix": "الْخَزْنَة=the Treasury (famous building in Petra)",
+      "alsoChange": "auto.json entry الْخَزْنَة"
+    },
+    {
+      "file": "content/days/day64.json; content/days/day65.json; content/days/day68.json",
+      "path": "day64 dialogue.lines[7].ar; day65 dialogue.lines[3].ar; day68 dialogue.lines[0].ar",
+      "current": "الْيَوْم نُتَرْجِمُ",
+      "problem": "Still there from round 2. The adverb 'today' at the start of a clause, not in pause, has no case vowel, while the course writes الْيَوْمَ (adverbial accusative) in the same position elsewhere in this chunk: day61 'الْيَوْمَ طَبَخْتُ', 'الْيَوْمَ دَفَعْتُ'; day63 'دَلِيلُكُمُ الْيَوْمَ'; day69 reading 'وَالْيَوْمَ تَعَلَّمَ'. The word does not change, but in a fully vocalised text it is inconsistent. The three exact strings are: day64 'الْيَوْم نُتَرْجِمُ', day65 'الْيَوْم نَتَكَلَّمُ', day68 'الْيَوْم نَدْرُسُ'.",
+      "category": "arabic",
+      "severity": "minor",
+      "confidence": "medium",
+      "fix": "الْيَوْمَ نُتَرْجِمُ (and الْيَوْمَ نَتَكَلَّمُ, الْيَوْمَ نَدْرُسُ)",
+      "alsoChange": "the matching segs word الْيَوْم → الْيَوْمَ in those three lines; transliteration becomes Al-yawma"
+    },
+    {
+      "file": "content/days/day64.json; content/days/day69.json",
+      "path": "day64 dialogue.lines[7].ar; day69 dialogue.lines[0].ar; day69 dialogue.lines[1].ar; day69 dialogue.lines[9].ar; day69 dialogue.lines[10].ar; day69 dialogue.lines[12].ar; day69 reading.ar",
+      "current": "إِنْجْلِيزِيَّة",
+      "problem": "'English' is vocalised with two consecutive sukūns (نْجْ → injlīziyya), which gives an onset cluster Arabic phonotactics do not allow. The rest of the course writes إِنْجِلِيزِيَّة (injilīziyya): days 12, 13, 22, 35, 90, scenarios, vocabulary, science (content/glossary has both). Round 1 left it as a note; it is the only place in the course with this vocalisation, so it is an inconsistency in the harakat.",
+      "category": "arabic",
+      "severity": "minor",
+      "confidence": "medium",
+      "fix": "إِنْجِلِيزِيَّة",
+      "alsoChange": "the same replacement inside segs (الْإِنْجْلِيزِيَّة, إِنْجْلِيزِيَّة) and the readings.json entries; transliteration follows (al-injilīziyya)"
+    },
+    {
+      "file": "content/days/day62.json; day63; day64; day66; day67; day69; day70",
+      "path": "day62 quiz[6].prompt (⟶); day63 quiz[6].prompt (⟶); day64 quiz[6].prompt (⟶); day66 quiz[6].prompt (⟶); day67 quiz[6].prompt (⟶); day69 quiz[6].prompt (⟶); day70 quiz[6].prompt (⟶)",
+      "current": "Which word has qāf (), the deep k from the back of the throat?",
+      "problem": "Engine: a bare letter in parentheses is rendered as nothing, so every pronunciation quiz prompt in this chunk shows empty brackets in the transliteration: 'qāf ()', 'khāʾ ()', 'dhāl ()', 'a hamza on a yāʾ seat ()', 'tāʾ marbūṭa ()', 'ʿayn ()', 'qāf (), said deep in the throat'. Round 2 reported this for ئ and believed ق/خ were fixed; all seven are still empty. The taps on the letters are correct.",
+      "category": "engine",
+      "severity": "minor",
+      "confidence": "high",
+      "fix": "Which word has qāf (q), the deep k from the back of the throat?",
+      "alsoChange": "engine: render a bare letter as its transliteration symbol (q, kh, dh, ʾ, h/t, ʿ) or drop the empty brackets"
+    },
+    {
+      "file": "content/days/day61.json; day62; day63; day64; day66; day67; day69; day70",
+      "path": "day61 dialogue.lines[3].ar (⟶ washaʿartu); day61 dialogue.culture and dialogue.lines[12].ar (⟶ waʿāfiya); day61 dialogue.lines[6].ar (⟶ lishaṭīrati); day62 dialogue.lines[10].ar (⟶ wamāʾuhu); day62 dialogue.lines[13].ar (⟶ wasaʾursiluhā); day63 dialogue.lines[2].ar (⟶ waṭūluhu); day63 reading.ar (⟶ waṣaʿidū); day64 dialogue.lines[4].ar (⟶ wasayusāʿiduka); day66 dialogue.lines[12].ar and lines[13].ar (⟶ fahiya); day67 dialogue.lines[8].ar (⟶ wawāḍiḥan, Wataʾakkad); day67 dialogue.lines[10].ar (⟶ wamuhadhdhaba); day69 dialogue.lines[1].ar (⟶ watuʿallimunī); day69 dialogue.lines[11].ar (⟶ wataḍḥakāni); day70 dialogue.lines[14].ar (⟶ fahuwa)",
+      "current": "Ṣaḥīḥ! Amsi labistu qamīṣan khafīfan washaʿartu bi-l-bard.",
+      "problem": "Engine: the round-3 clitic rule (a word glossed as clitic + word gets a hyphen: wa-huwa, bi-khayr) is not applied to these words, although their segs are clitic glosses ('and I felt', 'and wellness', 'for a sandwich (of)', 'and its water', 'and I will send it', 'and its length', 'and they climbed', 'and he will help you', 'because she (lit. so she)', 'and clear', 'and make sure', 'and polite', 'and you teach me', 'and you two laugh', 'because he (lit. so he)'). The same lines write wa-huwa, wa-anā, wa-l-… with a hyphen, so one line mixes both styles. About 17 forms in this chunk; it seems to hit inflected words that are not glossary headwords.",
+      "category": "engine",
+      "severity": "minor",
+      "confidence": "high",
+      "fix": "Ṣaḥīḥ! Amsi labistu qamīṣan khafīfan wa-shaʿartu bi-l-bard.",
+      "alsoChange": "engine: wa-ʿāfiya, li-shaṭīrati, wa-māʾuhu, wa-saʾursiluhā, wa-ṭūluhu, wa-ṣaʿidū, wa-sayusāʿiduka, fa-hiya, wa-wāḍiḥan, Wa-taʾakkad, wa-muhadhdhaba, wa-tuʿallimunī, wa-taḍḥakāni, fa-huwa"
+    },
+    {
+      "file": "content/days/day62.json; day64; day65; day68; day70",
+      "path": "day64 dialogue.lines[0].ar (⟶); day65 dialogue.lines[7].ar (⟶); day65 dialogue.lines[9].ar (⟶ shīkāghū); day68 sentences[1].ar (⟶); day68 dialogue.speakers[0].nameAr (⟶); day70 dialogue.lines[2].ar (⟶ shīkāghū); day70 dialogue.lines[14].ar (⟶); day70 reading.ar (⟶); day62 dialogue.lines[8].ar and reading.ar (⟶ wādī Ram)",
+      "current": "Ahlan wa-sahlan yā Dānyāl! Anā Hudā, mudīratu sh-sharika. Al-ustādh karīm takallama ʿanka kathīran.",
+      "problem": "Engine: three names are never capitalised in the transliteration, although their segs mark them '· name': كَرِيم (Mr Karim) is always 'karīm' (79 times across the audit, never 'Karīm', probably because كَرِيم is also the adjective 'generous'), شِيكَاغُو is always 'shīkāghū' (35 times), and وَادِي in 'Wadi Rum' is 'wādī Ram'. Other names in the same lines are capitalised (Hudā, Hishām, Amrīkā, Ram), so a learner reads 'karīm' as an adjective.",
+      "category": "engine",
+      "severity": "minor",
+      "confidence": "high",
+      "fix": "Ahlan wa-sahlan yā Dānyāl! Anā Hudā, mudīratu sh-sharika. Al-ustādh Karīm takallama ʿanka kathīran.",
+      "alsoChange": "engine: capitalise a word whose seg in that line is tagged '· name' (Karīm, Shīkāghū, Wādī Ram)"
+    }
+  ],
+  "notes": [
+    {
+      "file": "content/days/day61.json",
+      "path": "dialogue.lines[0].ar; dialogue.lines[7].ar",
+      "note": "Jordanian is still spelt two ways in one dialogue: أُرْدُنِيَّة (no shadda) and الْأُرْدُنِّيّ (shadda). Both exist; pick one."
+    },
+    {
+      "file": "content/days/day63.json",
+      "path": "dialogue.lines[4].ar",
+      "note": "وَكَانَتْ مَدِينَة غَنِيَّة: the predicate of kāna is accusative (مَدِينَةً غَنِيَّةً). The house style omits tanwīn on ة, but here it hides the kāna rule the course teaches."
+    },
+    {
+      "file": "content/days/day62.json; content/days/day63.json",
+      "path": "day62 quiz[4].options[2] (tap); day63 quiz[1].ar (tap)",
+      "note": "أَشْهَرُ taps only as 'the most famous (before a noun)'; in the distractor أَشْهَرُ مِنْ مَكَان it is the comparative 'more famous'. Consider the two-readings style used for أَكْبَرُ / أَفْضَلُ / أَقْدَمُ: 'more famous; the most famous (before a noun)'."
+    },
+    {
+      "file": "content/days/day65.json",
+      "path": "summary (tap); intro (tap); completion (tap)",
+      "note": "The two verbal nouns of the lesson tap differently: الْقِرَاءَة=reading but الْكِتَابَة=the writing. Harmless; 'writing' would match."
+    },
+    {
+      "file": "content/days/day66.json; content/days/day70.json",
+      "path": "day66 quiz[4].options[0] (tap); day70 quiz[4].options[2] (tap); day64 sentences[0].mistakes[0].wrong (tap)",
+      "note": "Mistake-only forms in quiz options still show their mistake note when tapped ('أَتَّصِلُكَ=I call you (wrong — correct: attaṣilu bika)', 'أُمْكِنُ=I can (wrong — correct: yumkinunī)'), which gives the quiz answer away. Design choice."
+    },
+    {
+      "file": "content/days/day62.json",
+      "path": "dialogue.lines[8].ar; reading.ar",
+      "note": "Wadi Rum is usually written وَادِي رَمّ (Ramm) with a shadda; the course writes رَم consistently, so it is only a spelling note."
+    },
+    {
+      "file": "content/days/day62.json; content/days/day70.json",
+      "path": "newWords",
+      "note": "'ala-w9' and 'shahada-w10' still look like internal ids in the newWords lists."
+    }
+  ],
+  "summary": "I read the whole days-61-70 export (2,669 lines): every Arabic string with its harakat, case endings, agreement, numerals and verb forms; every translation and literal; every seg, tap gloss, quiz answer key, mistake card and grammar note; and the ⟶ transliterations. I checked 487 Arabic-bearing strings (with ⟶ lines) and 211 seg lines; 10 Arabic strings are wrong, all minor (3 × الْيَوْم without its fatha at the start of a clause, still there from round 2; 7 × إِنْجْلِيزِيَّة with a double sukūn, against إِنْجِلِيزِيَّة elsewhere in the course). Tap glosses: 696 checked (278 distinct word=gloss pairs on 276 tap lines); 13 wrong or misleading (4 أَغْلَى and 4 الْخَزْنَة with a duplicated sense, 4 مُسَافِر = 'traveller' where the lesson and quiz teach 'travelling', 1 أُسْتَاذَة = 'teacher (f)' in a note about non-teachers). Round-2 fixes are in place: أَكْبَرُ and مِنْ now show the superlative/'than' senses, الْوَاحِدَة = one, اسْمُهَا without kasra, اِسْتَعْمَلَ as a past form, l-ʿayn lower case. The Arabic itself is clean: comparatives and superlatives (أَكْبَرُ مَدِينَة, مِنْ أَكْبَرِ الْمَسَارِح, accusative apposition أَشْهَرَ مَكَان), numbers and their counted nouns (عِشْرِينَ مِلْيُونَ, أَرْبَعَةِ مَلَايِين, سِتَّةِ آلَافِ, عَشْرِ دَقَائِق, ثَمَانِمِئَةِ دَرَجَة), duals, subjunctives after أَنْ, kāna/laysa predicates, imperatives and hamza seats are correct, and all 70 quiz answer keys are right with no second correct option. 9 errors, 0 major and 9 minor: 4 gloss, 2 arabic, 3 engine (empty brackets for bare letters in all seven pronunciation prompts; the clitic hyphen rule not applied to ~17 inflected forms; Karīm, Shīkāghū and Wādī never capitalised). Pattern: the remaining problems are in the glossary layer (single-sense or duplicated entries) and the transliteration engine, not in the lesson Arabic."
+}

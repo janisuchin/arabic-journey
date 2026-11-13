@@ -1,0 +1,872 @@
+{
+ "group": "P6",
+ "ops": [
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    1
+   ],
+   "op": "scoped",
+   "word": "حَتَّى",
+   "scope": "vocab:dafi",
+   "gloss": "even"
+  },
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    2
+   ],
+   "op": "scoped",
+   "word": "اللَّيْلَة",
+   "scope": "vocab:dinar",
+   "gloss": "the night (here: per night)"
+  },
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    3
+   ],
+   "op": "scoped",
+   "word": "تُحِبُّ",
+   "scope": "vocab:ughniya",
+   "gloss": "she loves, she likes"
+  },
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    4
+   ],
+   "op": "scoped",
+   "word": "رِجَال",
+   "scope": "vocab:rajul",
+   "gloss": "men"
+  },
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    5
+   ],
+   "op": "scoped",
+   "word": "رِحْلَتُنَا",
+   "scope": "vocab:shati",
+   "gloss": "our trip"
+  },
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    6
+   ],
+   "op": "scoped",
+   "word": "السَّاعَةَ",
+   "scope": "vocab:yuqalu",
+   "gloss": "the clock (-a after inna)"
+  },
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    7
+   ],
+   "op": "scoped",
+   "word": "تَمَامًا",
+   "scope": "vocab:jahiz",
+   "gloss": "completely"
+  },
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    8
+   ],
+   "op": "scoped",
+   "word": "حَارًّا",
+   "scope": "vocab:sayf",
+   "gloss": "hot (-an after yakūnu)"
+  },
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    9
+   ],
+   "op": "scoped",
+   "word": "لَطِيفًا",
+   "scope": "vocab:mayu",
+   "gloss": "pleasant, nice (-an after yakūnu)"
+  },
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    9
+   ],
+   "op": "scoped",
+   "word": "لَطِيفًا",
+   "scope": "vocab:uktubar",
+   "gloss": "pleasant, nice (-an after yakūnu)"
+  },
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    10
+   ],
+   "op": "scoped",
+   "word": "عَشَرَ",
+   "scope": "vocab:shahr",
+   "gloss": "ten (second part of a number from 11 to 19)"
+  },
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    10
+   ],
+   "op": "scoped",
+   "word": "عَشَرَ",
+   "scope": "vocab:buniya",
+   "gloss": "ten (second part of a number from 11 to 19)"
+  },
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    10
+   ],
+   "op": "scoped",
+   "word": "عَشَرَ",
+   "scope": "vocab:uktushifa",
+   "gloss": "ten (second part of a number from 11 to 19)"
+  },
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    10
+   ],
+   "op": "scoped",
+   "word": "عَشَرَ",
+   "scope": "vocab:qarn",
+   "gloss": "ten (second part of a number from 11 to 19)"
+  },
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    11
+   ],
+   "op": "scoped",
+   "word": "أَوْزَان",
+   "scope": "vocab:wazn",
+   "gloss": "weights"
+  },
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    12
+   ],
+   "op": "scoped",
+   "word": "وَجَدَ",
+   "scope": "vocab:yajidu",
+   "gloss": "(he) found"
+  },
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    12
+   ],
+   "op": "scoped",
+   "word": "وَجَدَ",
+   "scope": "vocab:wajada",
+   "gloss": "(he) found (in the proverb man jadda wajada: succeeds)"
+  },
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    13
+   ],
+   "op": "scoped",
+   "word": "أَخَذَ",
+   "scope": "vocab:eidiyya",
+   "gloss": "(he) took, got"
+  },
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    14
+   ],
+   "op": "scoped",
+   "word": "الْعَرَبِيَّة",
+   "scope": "vocab:musiqa",
+   "gloss": "Arabic, Arab (f adjective)"
+  },
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    14
+   ],
+   "op": "scoped",
+   "word": "الْعَرَبِيَّة",
+   "scope": "vocab:yastamiu",
+   "gloss": "Arabic, Arab (f adjective)"
+  },
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    15
+   ],
+   "op": "scoped",
+   "word": "عَرَبِيٍّ",
+   "scope": "vocab:katib",
+   "gloss": "Arab"
+  },
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    16
+   ],
+   "op": "scoped",
+   "word": "قَرِيبًا",
+   "scope": "vocab:yaruddu",
+   "gloss": "soon"
+  },
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    17
+   ],
+   "op": "scoped",
+   "word": "تُقَدِّمُ",
+   "scope": "vocab:yuqaddimu",
+   "gloss": "(it, f) gives, presents"
+  },
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    18
+   ],
+   "op": "scoped",
+   "word": "سَجَّلَ",
+   "scope": "vocab:tasjil",
+   "gloss": "(he) recorded, registered"
+  },
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    19
+   ],
+   "op": "scoped",
+   "word": "الْإِعْلَانَ",
+   "scope": "vocab:ilan",
+   "gloss": "the announcement"
+  },
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    20
+   ],
+   "op": "scoped",
+   "word": "الْكِتَابَ",
+   "scope": "vocab:safha",
+   "gloss": "the book (object)"
+  },
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    21
+   ],
+   "op": "scoped",
+   "word": "عَلَامَات",
+   "scope": "vocab:alamat-tarqim",
+   "gloss": "marks, signs"
+  },
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    23
+   ],
+   "op": "scoped",
+   "word": "أَجْمَلَ",
+   "scope": "vocab:ajmal",
+   "gloss": "how beautiful (in mā ajmala …!)"
+  },
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    24
+   ],
+   "op": "scoped",
+   "word": "تَرَكَ",
+   "scope": "vocab:yatruku",
+   "gloss": "(he) left (something)"
+  },
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    25
+   ],
+   "op": "scoped",
+   "word": "يَوْمًا",
+   "scope": "vocab:yasumu",
+   "gloss": "days (after a number)"
+  },
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    26
+   ],
+   "op": "scoped",
+   "word": "كُلَّ",
+   "scope": "vocab:mutadarrib",
+   "gloss": "all (of)"
+  },
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    26
+   ],
+   "op": "scoped",
+   "word": "كُلَّ",
+   "scope": "vocab:tafsil",
+   "gloss": "all (of)"
+  },
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    27
+   ],
+   "op": "scoped",
+   "word": "هُوَ",
+   "scope": "vocab:ajmal",
+   "gloss": "it (m); he"
+  },
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    27
+   ],
+   "op": "scoped",
+   "word": "هُوَ",
+   "scope": "vocab:ala-w9",
+   "gloss": "it (m); he"
+  },
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    27
+   ],
+   "op": "scoped",
+   "word": "هُوَ",
+   "scope": "vocab:masrah",
+   "gloss": "it (m); he"
+  },
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    27
+   ],
+   "op": "scoped",
+   "word": "هُوَ",
+   "scope": "vocab:madkhal",
+   "gloss": "it (m); he"
+  },
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    27
+   ],
+   "op": "scoped",
+   "word": "هُوَ",
+   "scope": "vocab:maarid",
+   "gloss": "it (m); he"
+  },
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    27
+   ],
+   "op": "scoped",
+   "word": "هُوَ",
+   "scope": "vocab:talab",
+   "gloss": "it (m); he"
+  },
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    27
+   ],
+   "op": "scoped",
+   "word": "هُوَ",
+   "scope": "vocab:ihtiram",
+   "gloss": "it (m); he"
+  },
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    28
+   ],
+   "op": "scoped",
+   "word": "هِيَ",
+   "scope": "vocab:atwal",
+   "gloss": "it (f); they (plural of things); she"
+  },
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    28
+   ],
+   "op": "scoped",
+   "word": "هِيَ",
+   "scope": "vocab:asima",
+   "gloss": "it (f); they (plural of things); she"
+  },
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    28
+   ],
+   "op": "scoped",
+   "word": "هِيَ",
+   "scope": "vocab:haqiqa",
+   "gloss": "it (f); they (plural of things); she"
+  },
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    28
+   ],
+   "op": "scoped",
+   "word": "هِيَ",
+   "scope": "vocab:nahiya",
+   "gloss": "it (f); they (plural of things); she"
+  },
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    29
+   ],
+   "op": "scoped",
+   "word": "عَلَى",
+   "scope": "vocab:daawa",
+   "gloss": "for (after shukran: thanks for)"
+  },
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    29
+   ],
+   "op": "scoped",
+   "word": "عَلَى",
+   "scope": "vocab:bi-kulli-surur",
+   "gloss": "for (after shukran: thanks for)"
+  },
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    29
+   ],
+   "op": "scoped",
+   "word": "عَلَى",
+   "scope": "vocab:musaada",
+   "gloss": "for (after shukran: thanks for)"
+  },
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    30
+   ],
+   "op": "scoped",
+   "word": "عَلَى",
+   "scope": "vocab:kharif",
+   "gloss": "to, over (ufaḍḍilu A ʿalā B: prefer A to B)"
+  },
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    30
+   ],
+   "op": "scoped",
+   "word": "عَلَى",
+   "scope": "vocab:yufaddilu",
+   "gloss": "to, over (ufaḍḍilu A ʿalā B: prefer A to B)"
+  },
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    31
+   ],
+   "op": "scoped",
+   "word": "عَنْ",
+   "scope": "vocab:yabhathu",
+   "gloss": "for (after yabḥathu: looks for); about"
+  },
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    31
+   ],
+   "op": "scoped",
+   "word": "عَنْ",
+   "scope": "vocab:markaz",
+   "gloss": "for (after yabḥathu: looks for); about"
+  },
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    32
+   ],
+   "op": "scoped",
+   "word": "مُسَافِرَة",
+   "scope": "vocab:musafir",
+   "gloss": "passenger, traveller (f)"
+  },
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    33
+   ],
+   "op": "scoped",
+   "word": "سَتَكُونُ",
+   "scope": "vocab:daraja",
+   "gloss": "(it, f) will be"
+  },
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    34
+   ],
+   "op": "scoped",
+   "word": "قَلِيل",
+   "scope": "vocab:aqall",
+   "gloss": "little, few"
+  },
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    35
+   ],
+   "op": "scoped",
+   "word": "يَصُومُ",
+   "scope": "vocab:ramadan",
+   "gloss": "(they) fast (verb first: singular)"
+  },
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    36
+   ],
+   "op": "scoped",
+   "word": "كُتِبَتْ",
+   "scope": "vocab:kutiba",
+   "gloss": "(it, f) was written; (things) were written"
+  },
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    37
+   ],
+   "op": "scoped",
+   "word": "بَرِيدِيَّةً",
+   "scope": "vocab:bitaqa-baridiyya",
+   "gloss": "postal ('a postcard')"
+  },
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    22
+   ],
+   "op": "engine",
+   "note": "src/lang/ar/tap.ts widen(): the 'two readings' merge repeats a sense the chosen gloss already contains. Do not append a reading whose senses are already in the chosen gloss (compare comma/semicolon-split senses), and for names do not append the bare word reading when the name gloss already starts with it. Examples: أَكْبَر 'bigger; bigger, older; the biggest' → 'bigger, older; the biggest'; أَكْثَر 'more; more; the most' → 'more; the most'; أَغْلَى 'more expensive; more expensive; the most expensive' → 'more expensive; the most expensive'; أَقَلّ 'less; less, fewer; the least' → 'less, fewer; the least'; الْقَاهِرَةِ 'Cairo; Cairo (city in Egypt)' → 'Cairo (city in Egypt)'; شِيكَاغُو 'Chicago; Chicago (city in the USA)' → 'Chicago (city in the USA)'. Seen in vocab [539] akbar, [541] aghla, [544] akthar, [545] aqall, [549] aqdam, [654] mihrajan, [790] bitaqa-baridiyya."
+  }
+ ],
+ "checks": [
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    1
+   ],
+   "area": "vocabulary",
+   "expect": "حَتَّى=even"
+  },
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    2
+   ],
+   "area": "vocabulary",
+   "expect": "اللَّيْلَة=the night (here: per night)"
+  },
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    3
+   ],
+   "area": "vocabulary",
+   "expect": "تُحِبُّ=she loves, she likes"
+  },
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    4
+   ],
+   "area": "vocabulary",
+   "expect": "رِجَال=men"
+  },
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    5
+   ],
+   "area": "vocabulary",
+   "expect": "رِحْلَتُنَا=our trip"
+  },
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    6
+   ],
+   "area": "vocabulary",
+   "expect": "السَّاعَةَ=the clock (-a after inna)"
+  },
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    7
+   ],
+   "area": "vocabulary",
+   "expect": "تَمَامًا=completely"
+  },
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    8
+   ],
+   "area": "vocabulary",
+   "expect": "حَارًّا=hot (-an after yakūnu)"
+  },
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    9
+   ],
+   "area": "vocabulary",
+   "expect": "لَطِيفًا=pleasant, nice (-an after yakūnu)"
+  },
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    10
+   ],
+   "area": "vocabulary",
+   "expect": "عَشَرَ=ten (second part of a number from 11 to 19)"
+  },
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    11
+   ],
+   "area": "vocabulary",
+   "expect": "أَوْزَان=weights"
+  },
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    12
+   ],
+   "area": "vocabulary",
+   "expect": "وَجَدَ=(he) found"
+  },
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    12
+   ],
+   "area": "vocabulary",
+   "expect": "وَجَدَ=(he) found (in the proverb man jadda wajada: succeeds)"
+  },
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    13
+   ],
+   "area": "vocabulary",
+   "expect": "أَخَذَ=(he) took, got"
+  },
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    14
+   ],
+   "area": "vocabulary",
+   "expect": "الْعَرَبِيَّة=Arabic, Arab (f adjective)"
+  },
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    15
+   ],
+   "area": "vocabulary",
+   "expect": "عَرَبِيٍّ=Arab"
+  },
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    16
+   ],
+   "area": "vocabulary",
+   "expect": "قَرِيبًا=soon"
+  },
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    17
+   ],
+   "area": "vocabulary",
+   "expect": "تُقَدِّمُ=(it, f) gives, presents"
+  },
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    18
+   ],
+   "area": "vocabulary",
+   "expect": "سَجَّلَ=(he) recorded, registered"
+  },
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    19
+   ],
+   "area": "vocabulary",
+   "expect": "الْإِعْلَانَ=the announcement"
+  },
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    20
+   ],
+   "area": "vocabulary",
+   "expect": "الْكِتَابَ=the book (object)"
+  },
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    21
+   ],
+   "area": "vocabulary",
+   "expect": "عَلَامَات=marks, signs"
+  },
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    23
+   ],
+   "area": "vocabulary",
+   "expect": "أَجْمَلَ=how beautiful (in mā ajmala …!)"
+  },
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    24
+   ],
+   "area": "vocabulary",
+   "expect": "تَرَكَ=(he) left (something)"
+  },
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    25
+   ],
+   "area": "vocabulary",
+   "expect": "يَوْمًا=days (after a number)"
+  },
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    26
+   ],
+   "area": "vocabulary",
+   "expect": "كُلَّ=all (of)"
+  },
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    27
+   ],
+   "area": "vocabulary",
+   "expect": "هُوَ=it (m); he"
+  },
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    28
+   ],
+   "area": "vocabulary",
+   "expect": "هِيَ=it (f); they (plural of things); she"
+  },
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    29
+   ],
+   "area": "vocabulary",
+   "expect": "عَلَى=for (after shukran: thanks for)"
+  },
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    30
+   ],
+   "area": "vocabulary",
+   "expect": "عَلَى=to, over (ufaḍḍilu A ʿalā B: prefer A to B)"
+  },
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    31
+   ],
+   "area": "vocabulary",
+   "expect": "عَنْ=for (after yabḥathu: looks for); about"
+  },
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    32
+   ],
+   "area": "vocabulary",
+   "expect": "مُسَافِرَة=passenger, traveller (f)"
+  },
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    33
+   ],
+   "area": "vocabulary",
+   "expect": "سَتَكُونُ=(it, f) will be"
+  },
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    34
+   ],
+   "area": "vocabulary",
+   "expect": "قَلِيل=little, few"
+  },
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    35
+   ],
+   "area": "vocabulary",
+   "expect": "يَصُومُ=(they) fast (verb first: singular)"
+  },
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    36
+   ],
+   "area": "vocabulary",
+   "expect": "كُتِبَتْ=(it, f) was written; (things) were written"
+  },
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    37
+   ],
+   "area": "vocabulary",
+   "expect": "بَرِيدِيَّةً=postal ('a postcard')"
+  }
+ ],
+ "skipped": []
+}

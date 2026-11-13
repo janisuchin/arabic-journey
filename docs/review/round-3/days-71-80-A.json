@@ -1,0 +1,45 @@
+{
+  "chunk": "days-71-80",
+  "reviewer": "A",
+  "errors": [
+    {
+      "file": "content/days/day80.json",
+      "path": "dialogue.lines[11].ar; sentences[0].ar; sentences[4].ar; dialogue.lines[6].ar; dialogue.lines[10].ar; reading.ar; content/days/day74.json dialogue.lines[12].ar; content/days/day74.json dialogue.lines[5].ar; content/days/day74.json dialogue.lines[10].ar; content/days/day72.json dialogue.lines[7].ar; content/days/day72.json dialogue.lines[14].ar; content/days/day73.json dialogue.lines[11].ar; content/days/day75.json dialogue.lines[9].ar; content/days/day76.json dialogue.lines[13].ar; content/days/day77.json dialogue.lines[8].ar; content/days/day77.json dialogue.lines[14].ar; content/days/day78.json dialogue.lines[3].ar; content/days/day78.json dialogue.lines[5].ar; content/days/day78.json dialogue.lines[12].ar; content/days/day78.json dialogue.lines[13].ar; content/days/day78.json dialogue.lines[14].ar; content/days/day79.json dialogue.lines[9].ar",
+      "current": "أَحْسَنْتُمْ! لَاحِظُوا: بَعْدَ «لَوْ» يَبْدَأُ الْجَوَابُ بِاللَّامِ: لَاشْتَرَيْتُ، لَزَرَعْتُ. أَمَّا بَعْدَ «إِذَا» فَالْأَمْرُ مُمْكِنٌ وَحَقِيقِيٌّ.",
+      "problem": "The Arabic is correct, but the round-3 'one clitic style' rule is still not applied consistently in the ⟶ lines: words whose seg is glossed as clitic + word ('and we laugh', 'for a hundred', 'because whoever', 'I would plant') are sometimes hyphenated and sometimes fused, even inside one line. Clearest cases: d80l12, the line that teaches that the law-answer starts with la-, reads 'la-shtaraytu, lazaraʿtu' (same la- prefix, two styles); d80s1 reads 'fasanazūru' while its own why-card says 'fa-sa-nazūru' (and fa-lan, fa-taʿāla, fa-khudhū are hyphenated in the same lesson); d74l13 reads 'bimiʾatin wa-ʿishrīna … bi-thamānīna' (same bi- in one sentence); d71l10 'wa-naʾkulu' but d72l8 'wanaḍḥaku' for identical segs ('and we eat' / 'and we laugh'). Other fused forms: wasutra (d72l15), biʾākhirihā (d73l12), likātibāt, likātiba (d74l6-7), liʾaṭluba (d74l11), faraʾsī (d75l10), fahuwa (d76l14), Wamithluhu (d77l9), faman (d77l15, d80l14), litanẓīfi (d78l4), wanaḍaʿuhu (d78l6), wasanaḍaʿu (d78l13), waḥimāyatu (d78l14), fakullu (d78l15), liʾawlādihā bisāʿatayni (d79l10), lasāfartu (d80s5, intro), laʾakhadhtukum (d80l7), wadaʿawtukum (d80l11), fasayasbaḥūna / fasayazūrūna (d80 reading). On day 80 this matters for learning: the lesson is about the fa- and la- prefixes, and the transliteration hides them half the time.",
+      "category": "engine",
+      "severity": "minor",
+      "confidence": "high",
+      "fix": "Apply the clitic hyphen to every word whose seg gloss starts with a clitic sense (and / so, then, because / for, to / with, by / would): la-zaraʿtu, fa-sa-nazūru, la-sāfartu, la-ʾakhadhtukum, bi-miʾatin, wa-naḍḥaku, wa-sutra, bi-ākhirihā, li-kātibāt, li-aṭluba, fa-raʾsī, fa-huwa, wa-mithluhu, fa-man, li-tanẓīfi, wa-naḍaʿuhu, wa-sanaḍaʿu, wa-ḥimāyatu, fa-kullu, li-awlādihā, bi-sāʿatayni, wa-daʿawtukum, fa-sayasbaḥūna, fa-sayazūrūna.",
+      "alsoChange": "No content change: engine (transliteration clitic table). Re-run the export afterwards and grep the ⟶ lines for fused wa/fa/bi/li/la forms whose seg starts with 'and', 'so', 'then', 'because', 'for', 'with', 'by' or 'would'."
+    }
+  ],
+  "notes": [
+    {
+      "file": "content/days/day71.json",
+      "path": "quiz[6].prompt; content/days/day76.json quiz[6].prompt; content/days/day77.json quiz[6].prompt; content/days/day78.json quiz[6].prompt; content/days/day78.json intro",
+      "note": "Engine (cosmetic): when a letter in brackets follows its own name, the ⟶ line drops it and leaves empty brackets: 'ʿayn ()', 'hamza ()', 'ṣād ()', 'ḍād ()'. On day 79 the same pattern works ('kh (khāʾ)'). Nothing wrong is taught, but '()' looks like a bug; either keep the name or drop the brackets."
+    },
+    {
+      "file": "content/days/day72.json",
+      "path": "quiz[6].prompt; content/days/day80.json quiz[6].prompt",
+      "note": "Pronunciation quizzes give the answer away if the ⟶ line is shown under the prompt: d72q7 'How do you say مِنَ السِّينِمَا' shows 'mina s-sīnimā' (the key), d80q7 'the last word of لَوْ كُنْتُ وَزِيرَةً' shows 'wazīratan' (the key). Consider hiding the transliteration on these two prompts."
+    },
+    {
+      "file": "content/days/day78.json",
+      "path": "dialogue.lines[6].ar",
+      "note": "«إِعَادَةُ التَّدْوِير» يَعْنِي … وَهِيَ تُوَفِّرُ: a quoted expression may take a masculine verb (the 'word' means), so this is not wrong, but the same lesson's mistake card (d78s3) drills that إِعَادَةُ is feminine and needs tu-, and the same sentence goes on with وَهِيَ تُوَفِّرُ. «إِعَادَةُ التَّدْوِير» تَعْنِي would avoid confusing the learner."
+    },
+    {
+      "file": "content/days/day79.json",
+      "path": "dialogue.lines[13].ar",
+      "note": "لِأَيِّ شَخْص، حَتَّى أَبُوكُمَا: nominative after ḥattā ('even') is acceptable (ibtidāʾiyya, predicate understood); genitive حَتَّى أَبِيكُمَا, matching لِأَيِّ, is the more textbook choice. Not an error."
+    },
+    {
+      "file": "content/days/day80.json",
+      "path": "dialogue.lines[11].en",
+      "note": "The English uses 'la-zara'tu', 'lam' and 'idha' with an apostrophe and no macron, while the course writes ʿ and long vowels elsewhere (laʾ, lām, idhā). Style only."
+    }
+  ],
+  "summary": "Read all 2,829 lines of audit/days-71-80.txt (Eid greetings, music/film with anna, headlines with inna, relative pronouns, reported speech with qāla inna, opinions, proverbs with man, environment with yajibu/lāzim an + maṣdars, technology with Form VII and istikhdām, conditionals with idhā/in/law), checking source files where needed. Checked about 537 Arabic strings (every line with a ⟶) for spelling, hamza seats (yaqraʾuhā, iqraʾī, aṭfiʾū, aṣdiqāʾunā), harakat and case after inna/anna/lākinna/kāna/laysa, mood after an/lan/lam/lā, verb-first agreement, non-human plurals, duals, numbers (thalātha/thalāth, ʿashr, 120 + tamyīz, miʾatā), conditional syntax (fa- with sa-/lan/imperative, law + la-), all English and literal translations, all 70 quiz keys and every mistakes pair; and 895 tap glosses (323 tap lines) plus about 2,770 seg glosses. All 7 round-2 items are now fixed (yaṣūmu = (he) fasts, aʿlana as a past form, the 'normally singular' rule, man = who; whoever, ḥimāya = protection, taṣilu = you arrive; she arrives, milyūna as object form). I found no wrong Arabic form, agreement, mood, translation, answer key or rule: 0 of the ~537 Arabic strings and 0 of the 895 tap glosses are wrong. One engine error remains (minor): the round-3 clitic-hyphen rule is applied inconsistently in the ⟶ lines (about 25 words, e.g. la-shtaraytu next to lazaraʿtu, bimiʾatin next to bi-thamānīna), which matters most on day 80 where the fa-/la- prefixes are the topic. Notes: empty brackets after letter names, two pronunciation quizzes whose ⟶ line shows the answer, a masculine yaʿnī after a quoted feminine maṣdar, and two style points."
+}

@@ -1,0 +1,494 @@
+{
+  "أَ": {
+    "grammar:colours": "a- (first letter of the colour pattern aCCaC)"
+  },
+  "أَجْمَلَ": {
+    "vocab:ajmal": "how beautiful (in mā ajmala …!)"
+  },
+  "أَخَذَ": {
+    "vocab:yakhudhu": "(he) took",
+    "vocab:eidiyya": "(he) took, got"
+  },
+  "أَرَاهَا": {
+    "*": "I see her, I see it (f; also 'them' for things)"
+  },
+  "أَصْغَرُ": {
+    "week:13": "smaller; younger"
+  },
+  "أَفْعَلَ": {
+    "grammar:verb-forms": "afʿala (verb pattern, Form IV)"
+  },
+  "أَكْتُبْهَا": {
+    "*": "I write it (f; also 'them' for things) (form after lam)"
+  },
+  "أَكْثَر": {
+    "culture:cul.food": "more"
+  },
+  "أَكْثَرُ": {
+    "culture:cul.desert": "most (of); more"
+  },
+  "أَنَامَ": {
+    "week:8": "I sleep (form after an / lan)"
+  },
+  "أَوْزَان": {
+    "vocab:wazn": "weights"
+  },
+  "أُعْلِنَتِ": {
+    "*": "(it, f) was announced; (they) were announced, with a plural of things (-i links to the next word)"
+  },
+  "إِنَّكِ": {
+    "*": "indeed you (to a woman); that you (after qāla)"
+  },
+  "إِنَّهَا": {
+    "*": "indeed she / it (f) (starts a statement); that she / it (after qāla)"
+  },
+  "إِنَّهُ": {
+    "grammar:inna": "indeed he, it (m) ('he is'); that he (after qāla)",
+    "*": "indeed he / it (starts a statement); that he / it (after qāla)"
+  },
+  "السَّاعَة": {
+    "scenario:family-visit": "the clock; the hour, the time",
+    "scenario:machines": "the clock; the hour"
+  },
+  "السَّاعَةَ": {
+    "vocab:yuqalu": "the clock (-a after inna)"
+  },
+  "السَّاعَةُ": {
+    "week:13": "the hour, the time"
+  },
+  "اللَّيْلَة": {
+    "vocab:dinar": "the night (here: per night)"
+  },
+  "الَّتِي": {
+    "grammar:relative-pronouns": "who, which, that (f)"
+  },
+  "الَّذِي": {
+    "day:86": "who, which, that (m)",
+    "grammar:relative-pronouns": "who, which, that (m)"
+  },
+  "الْأَكْبَر": {
+    "culture:cul.family": "the eldest; the biggest"
+  },
+  "الْإِشَارَة": {
+    "vocab:ishara": "the traffic lights",
+    "scenario:directions": "the traffic light; the signal, sign"
+  },
+  "الْإِعْلَانَ": {
+    "vocab:ilan": "the announcement"
+  },
+  "الْجَبَل": {
+    "*": "the mountain, the hill",
+    "scenario:holiday-story": "the mountain",
+    "scenario:weather-plans": "the mountain",
+    "scenario:lost-phone-help": "the mountain"
+  },
+  "الْعَرَبَة": {
+    "scenario:airport-checkin": "the trolley, the cart",
+    "scenario:supermarket": "the trolley, the cart"
+  },
+  "الْعَرَبِيَّة": {
+    "culture:cul.calligraphy": "Arabic (f)",
+    "culture:cul.coffee": "Arabic (f)",
+    "vocab:musiqa": "Arabic, Arab (f adjective)",
+    "vocab:yastamiu": "Arabic, Arab (f adjective)"
+  },
+  "الْعُنْوَان": {
+    "day:86": "the headline, the title; the address"
+  },
+  "الْكُبْرَى": {
+    "*": "the biggest, the greatest (f)"
+  },
+  "الْكِتَابَ": {
+    "vocab:safha": "the book (object)"
+  },
+  "الْمَكْتَب": {
+    "vocab:misbah": "the desk",
+    "scenario:airport-checkin": "the desk, the counter; the office",
+    "scenario:bank": "the desk, the counter; the office",
+    "scenario:machines": "the desk, the counter; the office",
+    "scenario:school": "the desk, the counter; the office"
+  },
+  "الْمَلْعَبَ": {
+    "*": "the pitch, the sports ground"
+  },
+  "الْمُتَوَسِّط": {
+    "vocab:bahr": "the middle (m)"
+  },
+  "الْيَوْم": {
+    "vocab:marra": "the day (fī l-yawm: a day, per day)"
+  },
+  "انْتَهَتْ": {
+    "*": "(she, it f) ended, is over; (they) ended, with a plural of things"
+  },
+  "اُ": {
+    "grammar:imperative": "u- (helping vowel in front of an order: urkuḍ)"
+  },
+  "اِ": {
+    "grammar:imperative": "i- (helping vowel in front of an order: iftaḥ)"
+  },
+  "بَرِيدِيَّةً": {
+    "day:88": "postal (with biṭāqa: postcard)",
+    "vocab:bitaqa-baridiyya": "postal ('a postcard')"
+  },
+  "بِخَيْر": {
+    "day:52": "well, in good health ('kullu ʿāmin wa-anta / wa-anti bi-khayr': many happy returns)"
+  },
+  "بِي": {
+    "grammar:yumkin-an": "me (bi- + -ī; ittaṣala bi- = call someone)"
+  },
+  "تَتَّصِلَ": {
+    "grammar:yumkin-an": "you call (to a man; after an); she calls"
+  },
+  "تَجْلِسُ": {
+    "grammar:imperative": "you sit (to a man); she sits",
+    "vocab:yajlisu": "you sit (to a man); she sits"
+  },
+  "تَدْخُلَ": {
+    "*": "(she, it f) enters; you enter (to a man) (form after an)"
+  },
+  "تَذْهَبُ": {
+    "grammar:present-tense": "you go (to a man); she goes",
+    "vocab:maktaba": "(she) goes"
+  },
+  "تَرَكَ": {
+    "vocab:yatruku": "(he) left (something)"
+  },
+  "تَسْتَمِرُّ": {
+    "*": "you continue (to a man); she, it (f) continues"
+  },
+  "تَسْكُنُ": {
+    "vocab:amma": "(she) lives",
+    "vocab:khala": "(she) lives",
+    "vocab:zawj": "(she) lives"
+  },
+  "تَشْرَبُوا": {
+    "grammar:negative-imperative": "drink (to a group; after lā: don't drink)"
+  },
+  "تَصِلَ": {
+    "*": "(she, it f) arrives; you arrive (to a man) (form after an)"
+  },
+  "تَعْنِي": {
+    "*": "it (f), she means; you mean (to a man)"
+  },
+  "تَفَضَّلِي": {
+    "scenario:doctor": "please (come in / sit / go ahead); here you are (to a woman)"
+  },
+  "تَفَضَّلْ": {
+    "scenario:family-visit": "please (come in / sit / go ahead); here you are (to a man)",
+    "scenario:appointment-time": "please (come in / sit / go ahead); here you are (to a man)"
+  },
+  "تَقْرَأْهَا": {
+    "*": "you read it (f; also 'them' for things) (form after lam)"
+  },
+  "تَكُونُ": {
+    "grammar:yakun-w8": "you are (to a man); she, it (f) is"
+  },
+  "تَكْتُبِينَ": {
+    "*": "you write (to a woman)"
+  },
+  "تَمَامًا": {
+    "vocab:jahiz": "completely"
+  },
+  "تُحِبُّ": {
+    "vocab:ughniya": "she loves, she likes"
+  },
+  "تُخْلَعُ": {
+    "*": "(it, f) is taken off; (they) are taken off, with a plural of things"
+  },
+  "تُرْجِمَتْ": {
+    "*": "(it, f) was translated; (they) were translated, with a plural of things"
+  },
+  "تُشْبِهُ": {
+    "vocab:yushbihu": "she looks like (also: you look like, to a man)"
+  },
+  "تُطْفَأُ": {
+    "*": "(it, f) is switched off; (they) are switched off, with a plural of things"
+  },
+  "تُعْطِيكَ": {
+    "*": "(she, it f) gives you (to a man); (they) give you, with a plural of things"
+  },
+  "تُقَدِّمُ": {
+    "vocab:yuqaddimu": "(it, f) gives, presents"
+  },
+  "ثَانِيَة": {
+    "vocab:thani": "second (f)"
+  },
+  "حَارًّا": {
+    "week:8": "hot (-an after kāna / yakūnu)",
+    "vocab:sayf": "hot (-an after yakūnu)"
+  },
+  "حَاضِر": {
+    "grammar:active-participle": "present (attending); also 'certainly!' (at your service)"
+  },
+  "حَتَّى": {
+    "vocab:dafi": "even"
+  },
+  "حَرْب": {
+    "*": "war; Harb (in the street name Talaat Harb)"
+  },
+  "خَرَجْتُ": {
+    "vocab:kharaja": "I went out, I left"
+  },
+  "خَيْر": {
+    "letter:kha": "good, goodness",
+    "pron:kha": "good, goodness",
+    "pron:ghayn": "good, goodness"
+  },
+  "خِزَانَةُ": {
+    "scenario:museum-info": "cabinet, case (of) ('display case')",
+    "scenario:phone-shop": "cabinet, case (of) ('display case')"
+  },
+  "دَوْرَةُ": {
+    "*": "course, cycle, round (of) (dawratu l-miyāh: toilet)"
+  },
+  "ذَهَب": {
+    "grammar:past-tense": "dhahab- (the stem of ذَهَبَ 'went')"
+  },
+  "رَأَيْتُهَا": {
+    "*": "I saw her, I saw it (f; also 'them' for things)"
+  },
+  "رِجَال": {
+    "vocab:rajul": "men"
+  },
+  "رِحْلَتُنَا": {
+    "vocab:shati": "our trip"
+  },
+  "زَرَعْنَا": {
+    "week:12": "we planted"
+  },
+  "سَتَكُونُ": {
+    "day:53": "(it) will be (f)",
+    "grammar:yakun-w8": "you will be (to a man); she, it (f) will be",
+    "vocab:daraja": "(it, f) will be"
+  },
+  "سَجَّلَ": {
+    "vocab:tasjil": "(he) recorded, registered"
+  },
+  "سَلَطَةً": {
+    "vocab:salata": "a salad (object)"
+  },
+  "سَنَةً": {
+    "grammar:age": "year (after 11–99)"
+  },
+  "سَيُسَافِرُ": {
+    "*": "he will travel"
+  },
+  "سَيِّدَات": {
+    "scenario:machines": "ladies, women"
+  },
+  "شَجَرَة": {
+    "*": "tree"
+  },
+  "صَيْدَلِيَّة": {
+    "vocab:saydali": "pharmacist (f); also pharmacy"
+  },
+  "طَابُور": {
+    "scenario:airport-checkin": "queue"
+  },
+  "طَوِيلًا": {
+    "grammar:laysa": "tall, long (-an after laysa)"
+  },
+  "طَوِيلَةً": {
+    "scenario:holiday-story": "long (f, after 'was')"
+  },
+  "عَرَبِيٍّ": {
+    "vocab:katib": "Arab"
+  },
+  "عَشَرَ": {
+    "day:81": "-teen (second part of a compound ordinal: 'twelfth', 'eighteenth', 'nineteenth')",
+    "grammar:numbers-11-100": "ten (second part of 11–19)",
+    "vocab:shahr": "ten (second part of a number from 11 to 19)",
+    "vocab:buniya": "ten (second part of a number from 11 to 19)",
+    "vocab:uktushifa": "ten (second part of a number from 11 to 19)",
+    "vocab:qarn": "ten (second part of a number from 11 to 19)"
+  },
+  "عَلَامَات": {
+    "day:88": "marks, signs ('punctuation' with at-tarqīm)",
+    "vocab:alamat-tarqim": "marks, signs"
+  },
+  "عَلَى": {
+    "vocab:daawa": "for (after shukran: thanks for)",
+    "vocab:bi-kulli-surur": "for (after shukran: thanks for)",
+    "vocab:musaada": "for (after shukran: thanks for)",
+    "vocab:kharif": "to, over (ufaḍḍilu A ʿalā B: prefer A to B)",
+    "vocab:yufaddilu": "to, over (ufaḍḍilu A ʿalā B: prefer A to B)"
+  },
+  "عَلِي": {
+    "day:18": "Ali (first name): Umm Ali is a bread pudding",
+    "*": "Ali (first name)"
+  },
+  "عَمِلَ": {
+    "grammar:masdar": "(he) worked; also did, made",
+    "vocab:yamalu": "(he) worked (also: did, made)"
+  },
+  "عَنْ": {
+    "vocab:yabhathu": "for (after yabḥathu: looks for); about",
+    "vocab:markaz": "for (after yabḥathu: looks for); about"
+  },
+  "عُنْوَانُ": {
+    "day:86": "headline, title (of)"
+  },
+  "عِنْدَ": {
+    "grammar:inda-li": "at; (with an ending) to have"
+  },
+  "ـكَ": {
+    "placard:pc.my-your": "your (on a noun) / you (on a verb), to a man: -ka"
+  },
+  "ـكُمْ": {
+    "placard:pc.my-your": "your / you (to several people: -kum)"
+  },
+  "ـكِ": {
+    "placard:pc.my-your": "your / you (to a woman: -ki)"
+  },
+  "ـنَا": {
+    "placard:pc.my-your": "our / us (-nā)"
+  },
+  "ـهَا": {
+    "placard:pc.my-your": "her, its / her, it (-hā)"
+  },
+  "ـهُ": {
+    "placard:pc.my-your": "his, its / him, it (-hu)"
+  },
+  "ـهُمْ": {
+    "placard:pc.my-your": "their / them (-hum)"
+  },
+  "ـِي": {
+    "grammar:imperative": "-ī (verb ending: to a woman)",
+    "grammar:negative-imperative": "-ī (verb ending: to a woman)"
+  },
+  "قَالَهَا": {
+    "*": "he said it (f), them (things)"
+  },
+  "قَرِيبًا": {
+    "vocab:yaruddu": "soon"
+  },
+  "قَلِيل": {
+    "grammar:comparative": "few, little",
+    "vocab:aqall": "little, few"
+  },
+  "كَتَبْـ": {
+    "placard:pc.past-tense": "katab- (the past-tense stem of 'to write')"
+  },
+  "كُتِبَتْ": {
+    "week:13": "(it, f) was written",
+    "vocab:kutiba": "(it, f) was written; (things) were written"
+  },
+  "كُلَّ": {
+    "week:8": "every",
+    "vocab:mutadarrib": "all (of)",
+    "vocab:tafsil": "all (of)"
+  },
+  "لَطِيفًا": {
+    "vocab:mayu": "pleasant, nice (-an after yakūnu)",
+    "vocab:uktubar": "pleasant, nice (-an after yakūnu)"
+  },
+  "لَهُ": {
+    "grammar:inda-li": "he has, it has (lit. for him, for it)",
+    "vocab:li": "for him, for it"
+  },
+  "لِكُلِّ": {
+    "scenario:airport-checkin": "for every, for each"
+  },
+  "مَرَّةً": {
+    "day:45": "once, one time",
+    "scenario:pharmacy-visit": "time(s) (after kam: 'how many times'); once"
+  },
+  "مَقَالَة": {
+    "day:88": "essay; article"
+  },
+  "مَقْهَى": {
+    "scenario:cafe": "café, coffeehouse"
+  },
+  "مُدِير": {
+    "day:82": "director, manager"
+  },
+  "مُدِيرَة": {
+    "scenario:job-interview": "manager, director (a woman)"
+  },
+  "مُسَافِرَة": {
+    "vocab:musafir": "passenger, traveller (f)"
+  },
+  "مُـ": {
+    "grammar:active-participle": "mu- (prefix of participles of the longer verb forms)"
+  },
+  "مُنْذُ": {
+    "day:38": "since, for; ago",
+    "grammar:time-expressions": "since, for; ago (before a time)"
+  },
+  "مِنُ": {
+    "day:85": "from (wrong helping vowel — correct: mina before al-)"
+  },
+  "مِنِّي": {
+    "week:13": "than me (after a comparative); from me"
+  },
+  "مِنْهَا": {
+    "*": "from her, from it (f); than it (after a comparative)"
+  },
+  "مِنْهُ": {
+    "*": "from him, from it (m)"
+  },
+  "نَاحِيَةٍ": {
+    "day:83": "a side ('on the one hand' / 'on the other hand')",
+    "grammar:connectors-w12": "a side ('on the one hand'; with أُخْرَى 'on the other hand')"
+  },
+  "نَشْتَرِيَ": {
+    "day:52": "we buy (after an or lan)"
+  },
+  "نُور": {
+    "culture:cul.family": "light; Nour (first name)",
+    "letter:nun": "light; Nour (first name)",
+    "pron:vowels": "light; Nour (first name)"
+  },
+  "هُوَ": {
+    "scenario:restaurant": "it (m), he",
+    "scenario:airport-checkin": "he, it (m)",
+    "scenario:dietary": "he, it (m)",
+    "vocab:ajmal": "it (m); he",
+    "vocab:ala-w9": "it (m); he",
+    "vocab:masrah": "it (m); he",
+    "vocab:madkhal": "it (m); he",
+    "vocab:maarid": "it (m); he",
+    "vocab:talab": "it (m); he",
+    "vocab:ihtiram": "it (m); he"
+  },
+  "هِيَ": {
+    "grammar:non-human-plural": "she, it; they (for things)",
+    "grammar:relative-pronouns": "she, it; they (for things)",
+    "vocab:atwal": "it (f); they (plural of things); she",
+    "vocab:asima": "it (f); they (plural of things); she",
+    "vocab:haqiqa": "it (f); they (plural of things); she",
+    "vocab:nahiya": "it (f); they (plural of things); she"
+  },
+  "وَجَدَ": {
+    "vocab:yajidu": "(he) found",
+    "vocab:wajada": "(he) found (in the proverb man jadda wajada: succeeds)"
+  },
+  "وَسَيَأْتِي": {
+    "*": "and he will come"
+  },
+  "وَصَلَ": {
+    "*": "(he, it) arrived"
+  },
+  "وَقَرَأَهَا": {
+    "*": "and he read it (f), them (things)",
+    "culture:cul.science": "and (they) read them"
+  },
+  "وَهُوَ": {
+    "scenario:birthday-invitation": "and he"
+  },
+  "وْ": {
+    "pron:diphthongs": "the letter wāw (with sukūn: the glide aw)"
+  },
+  "يَسْتَيْقِظُ": {
+    "week:2": "he wakes up"
+  },
+  "يَصُومُ": {
+    "vocab:ramadan": "(they) fast (verb first: singular)"
+  },
+  "يَقْرَؤُهَا": {
+    "*": "he reads it (f), them (things)"
+  },
+  "يَوْمًا": {
+    "vocab:yasumu": "days (after a number)"
+  }
+}

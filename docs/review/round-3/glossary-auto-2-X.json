@@ -1,0 +1,28 @@
+{
+  "chunk": "glossary-auto-2",
+  "checker": "X3-4",
+  "verdicts": [
+    {
+      "id": 1,
+      "verdict": "CHANGE",
+      "fix": "سَيُسَافِرُ = he will travel; وَسَيَأْتِي = and he will come; وَقَرَأَهَا = and he read it (f), them (things); قَالَهَا = he said it (f), them (things); يَقْرَؤُهَا = he reads it (f), them (things)",
+      "scope": "auto.json (app-wide fallback). The '(they) …' readings stay only as lesson-scoped segs in the verb-first sentences: day52/53/55/56 and readings (… سَيُسَافِرُ دَانْيَال وَلَيْلَى, وَسَيَأْتِي بَعْضُ أَصْدِقَائِي), culture/science (وَقَرَأَهَا الطُّلَّابُ), day74 (يَقْرَؤُهَا الطُّلَّاب), day75 (قَالَهَا أَصْدِقَاؤُنَا)",
+      "reason": "Error is real: these are 3ms forms; day90 'قَالَ دَانْيَال إِنَّهُ سَيُسَافِرُ' needs 'he will travel', and the 'they' comes from verb-first sentences with plural subjects. But the reviewer's 'it (f)' alone is too narrow: in every course use the suffix ـهَا refers to a non-human plural (الْكُتُب، أَشْيَاء), so the fallback should give both 'it (f)' and 'them (things)'."
+    },
+    {
+      "id": 2,
+      "verdict": "AGREE",
+      "fix": "مِنْهُ = from him, from it (m); مِنْهَا = from her, from it (f); (after a comparative: than it)",
+      "scope": "auto.json fallback; 'at him' stays a seg on day42 (يَضْحَكُونَ مِنْهُ) and 'than it (f)' on day61 (أَهْدَأُ مِنْهَا) only",
+      "reason": "Confirmed: current fallbacks 'at him (lit. from him)' and 'than it (f)' are one-sentence senses; other uses are plain 'from' (day87 فَطَلَبَ مِنْهَا أَنْ تُكَرِّرَ 'asked her', day90 تَتَعَلَّمُ مِنْهُ 'learn from him', day81 نُسْخَةٌ مِنْهُ 'a copy of it', scenarios بَدَلًا مِنْهُ 'instead of it')."
+    },
+    {
+      "id": 3,
+      "verdict": "AGREE",
+      "fix": "شَجَرَة = tree",
+      "scope": "auto.json fallback; 'trees' only as a seg in day86 أَلْفُ شَجَرَة if a seg is wanted there",
+      "reason": "شَجَرَة is the singular noun of unity 'a tree'; 'tree(s)' comes only from the counted singular after أَلْف in day86. The fallback must not teach that شَجَرَة can be plural."
+    }
+  ],
+  "summary": "X3-4 checked all 3 findings against audit/glossary-auto-2.txt and every content use of the forms. All three are real minor gloss errors. 2 AGREE, 1 CHANGE (#1: the ـهَا verbs need 'it (f), them (things)' because every course use refers to a non-human plural), 0 DISAGREE. All 'they' / 'at him' / 'than it' / 'trees' senses must stay lesson-scoped, never app-wide."
+}

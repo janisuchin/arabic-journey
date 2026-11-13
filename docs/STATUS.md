@@ -1,49 +1,46 @@
 # Status — Arabic Journey
 
-Updated 2026-11-13 (accuracy rounds 1–2 fixed and deployed). Branch `main`. All work runs on the owner's PC.
-Main prompt: `Arabic_Reference/PROMPT_B_Nihongo-based.md`. Live (web build of 26b43c1, deployed 2026-11-13):
+Updated 2026-11-13 (accuracy round 3 done, web deployed). Branch `main`. All work runs on the owner's PC.
+Main prompt: `Arabic_Reference/PROMPT_B_Nihongo-based.md`. Live (round-3 build, deployed 2026-11-13):
 https://ar-journey.german-journey.workers.dev · unlocked https://ar-journey-unlocked.german-journey.workers.dev
 
 ## Done
-- v1.0.0 released (8386d49, tag v1.0.0): 90 days, 13 week tests, 32 scenarios with photo scenes, culture, labs,
-  report, final exam, 358 credited photos, release folder + local APKs. Feature history: git log.
-- **Accuracy round 1** (a36790a findings; fixes 00a957b, 502a050, 8b9507e): 443 rows.
-  1. Root cause fixed: tap meanings are keyed by the VOCALISED form (`meaningOf` in `src/lang/ar/tap.ts`); a form
-     with other harakat lends its meaning only if compatible (case/mood ending may differ, never -tu/-ta/-ti,
-     -ka/-ki). `GlossScope` gives the lesson day (week test: last day; grammar page: day that teaches the rule).
-     Exercise notes live in `content/glossary/mistakes.json` (shown only on a mistake card's wrong side).
-  2. Engine (`src/core/translit.ts`): alladhī, al-istifhām, wa-bi-l-, shāy/raʾy/ḥulw, as·halu, maqhan, miʾa,
-     names after clitics (wa-Laylā), prose runs (no capital, bare letters named once), unvocalised = no reading.
-  3. 43 Arabic/translation/rule/answer-key fixes (`scripts/audit/fix-round1-content.py`).
-- **Accuracy round 2** (0f788f4 findings, one fresh reviewer per chunk; fixes 74c3e0b): 260 rows, tap glosses
-  ~1–4% wrong per chunk. Fixed: form glosses "form of 'X': label"; name/word and comparative/superlative show both
-  readings; multi-sense particles (mā, lā, min, man, inna, hunāka…); tanwīn + waṣla = jiddani l-yawma; ~40 hand
-  glosses; content fixes in `scripts/audit/fix-round2-content.py`.
-- **Round 2b** (26b43c1): the open round-2 rows. One clitic style (wa-huwa, bi-khayr; only when the course glosses
-  the word as clitic + word, so kalām/biṭāqa stay whole); Arabic digits ≤100 read as words in ⟶ lines; one-sentence
-  glosses yield to plain ones outside their lesson; day 40 quiz, day 53 card, day 82 note
-  (`scripts/audit/fix-round2b-content.py`). Web deployed, both editions serve the 26b43c1 bundle (checked).
-- Checks at 26b43c1: validator 0 errors, 101 unit tests, e2e 28/28 (port 4191).
+- v1.0.0 released (8386d49, tag v1.0.0): 90 days, 13 week tests, 32 scenarios, culture, labs, report, final exam.
+- Accuracy rounds 1, 2, 2b (443 / 260 rows; see `docs/review/round-1|2/SUMMARY.md`).
+- **Accuracy round 3** (this commit; `docs/review/round-3/SUMMARY.md`): 21 reviewers + 10 cross-checkers
+  (AGREE/CHANGE/DISAGREE, French-style). 202 findings (19 major, 8 in Arabic/grammar/answer keys), 200 agreed and
+  applied, 2 rejected. 275 ops via `scripts/audit/apply-plans.py`; `scripts/audit/verify-plans.py` found 230/230
+  fixes in the fresh export. The Arabic text is now clean; what remained was tap glosses and the engine.
+  1. Root cause of rows that "stayed unfixed": `auto.json` is never read by the app, and `hand.json` is app-wide.
+     New `content/glossary/scoped.json`: gloss per place (`day:N`, `week:N`, `scenario:<id>`, `culture:<id>`,
+     `grammar:<id>`, `vocab:<id>`, `placard:<id>`, `letter:<id>`, `pron:<id>`) or `*` (default outside the lessons
+     that teach another sense). Screens set the place with `GlossPlace`; the audit export uses the same keys.
+  2. Engine: one clitic style (wa-/fa-/bi-/li-/la-/ka- on inflected stems too), wa-li-Sāmī, -hu without ·,
+     Allāhu, names after titles / proper-noun names capitalised, no empty "()" or stray spaces after a named letter,
+     hamza seats named, no repeated senses, digit/letter quiz options show no reading.
+  3. Content: day 86 Form II rule, day 89 kāna note, day 53 card, الْيَوْمَ, إِنْجِلِيزِيَّة, وَادِي رَمّ, construct
+     case vowels (qiṭʿata kaʿk), age table 11–99.
+- Checks at this commit: validator 0 errors, 103 unit tests, e2e 28/28 (port 4191). Both editions verified live.
 
 ## Left
-1. Round 3 (final AI check, optional): re-export (`npx tsx scripts/audit/audit-dump.ts`), one reviewer per chunk
-   (write `docs/review/round-3/BRIEF-ROUND-3.md` from the round-2 addendum + rounds 2/2b changes), merge with
-   `scripts/audit/merge-findings.py docs/review/round-3`, fix, deploy web. Expect tens of rows, mostly one-line
-   glosses and style notes; AI review never reaches literal zero, so the last gate is a human Arabic teacher.
-2. Owner notes (not errors): 416 round-1 + 124 round-2 in `docs/review/round-*/*-MERGED.md`.
+1. **Human Arabic teacher review** of the live web app (the last gate; AI review never reaches zero). Give them
+   the reviewer notes: 130 in `docs/review/round-3/*-A.json` (`notes`), plus rounds 1–2 `*-MERGED.md`.
+2. Optional round 4 (fresh reviewers + cross-check, same prompts in `docs/review/round-3/`) if the owner wants AI
+   confidence closer to the French app; expect mostly tap-gloss rows.
 3. Unchanged from v1.0.0: teacher review of culture notes and photo compromises; branching role-play (Prompt B L).
 4. **No APK / version release** until all language modules are combined (owner, 2026-11-13). Web deploys only.
 
 ## Decisions
 - Never mark content `approved` without a named human reviewer.
+- Fixes go only where the app reads them: segs/content (counted text replace), `scoped.json` (one place), or
+  `hand.json` (only if right in every place). Never `auto.json` (generated review list).
+- A review round = reviewers → cross-check → fix plans → `apply-plans.py` → re-export → `verify-plans.py`.
 - After content changes: `content:index` → `readings:build` → `glossary:auto` → `check`.
-- Shared content files have mixed layouts: edit by counted text replacement (see the fix scripts), never re-serialise.
-- Tap meanings: never look up by the unvocalised spelling; a sentence-specific note never goes in `hand.json`
-  (it overrides that form app-wide); exercise notes go in `mistakes.json`. `auto.json` is a review list only.
-- When a particle's sense depends on the next word, the hand gloss lists every sense.
-- Python on this PC writes CRLF unless `newline='\n'`; Bash heredocs strip backslashes: put scripts in files.
+- Shared content files have mixed layouts and line endings: edit by counted text replacement, never re-serialise.
+- بِخَيْر is written bi-khayr; يَا أُسْتَاذ without ḍamma is house style; mistake notes live in `mistakes.json`.
+- Python on this PC writes CRLF unless `newline='\n'`; Bash heredocs mangle backslashes: put scripts in files.
 - e2e on port 4191: copy playwright.config.ts with 4190→4191 and `reuseExistingServer: false`, then delete it.
 - UI is LTR for English readers; Arabic text always RTL. One session at a time in this repo.
 
 ## Next step
-Round 3 (Left 1) if the owner wants a final AI pass; otherwise a human teacher review of the live web app.
+Owner's choice: send the live web app to a human Arabic teacher (Left 1), or run optional round 4 (Left 2).

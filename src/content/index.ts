@@ -95,6 +95,20 @@ export const handGlossary = parseGloss(require('../../content/glossary/hand.json
 export const autoGlossary = parseGloss(require('../../content/glossary/auto.json'), 'glossary/auto');
 /** Exercise notes for deliberate mistakes ("wrong after inna"): shown only in a mistake card or for a non-word. */
 export const mistakeGlossary = parseGloss(require('../../content/glossary/mistakes.json'), 'glossary/mistakes');
+/**
+ * Glosses scoped to where a word is tapped: { word: { "day:45" | "scenario:<id>" | "culture:<id>" | "placard:<id>" |
+ * "grammar:<id>" | "vocab:<id>" | "letter:<id>" | "pron:<id>": gloss, "*": gloss outside the lessons that teach
+ * another sense } }. A sentence-specific sense goes here, never in hand.json (which is app-wide).
+ */
+const SCOPE_KEY = /^(\*|(day|week):\d+|(scenario|culture|placard|grammar|vocab|letter|pron):[\w.-]+)$/;
+export const scopedGlossary: Record<string, Record<string, string>> = (() => {
+  const raw = require('../../content/glossary/scoped.json') as Record<string, Record<string, string>>;
+  for (const [w, m] of Object.entries(raw))
+    for (const [k, g] of Object.entries(m))
+      if (!SCOPE_KEY.test(k) || typeof g !== 'string' || !g)
+        contentIssues.push({ where: 'glossary/scoped', message: `${w}: bad scope "${k}"` });
+  return raw;
+})();
 /** Offline readings layer: word -> [academic transliteration, 1 if its first vowel is elidable]. */
 export const readingsLayer: Record<string, [string, 0 | 1]> = require('../../content/readings/readings.json');
 

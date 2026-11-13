@@ -1,0 +1,713 @@
+{
+  "group": "P2",
+  "ops": [
+    {
+      "chunk": "days-61-70",
+      "ids": [
+        1
+      ],
+      "op": "hand",
+      "word": "أُسْتَاذَة",
+      "gloss": "teacher (f); Mrs, madam (polite title)"
+    },
+    {
+      "chunk": "days-61-70",
+      "ids": [
+        2
+      ],
+      "op": "hand",
+      "word": "مُسَافِر",
+      "gloss": "travelling, away (m); traveller"
+    },
+    {
+      "chunk": "days-61-70",
+      "ids": [
+        3
+      ],
+      "op": "hand",
+      "word": "أَغْلَى",
+      "gloss": "more expensive; the most expensive (before a noun)"
+    },
+    {
+      "chunk": "days-61-70",
+      "ids": [
+        4
+      ],
+      "op": "hand",
+      "word": "الْخَزْنَة",
+      "gloss": "the Treasury (famous building in Petra)"
+    },
+    {
+      "chunk": "days-61-70",
+      "ids": [
+        3,
+        4
+      ],
+      "op": "engine",
+      "note": "widen() in src/lang/ar/tap.ts appends a second sense that already contains the chosen one, giving duplicated glosses: أَغْلَى 'more expensive; more expensive; the most expensive' (comparative path: chosen 'more expensive' + superlative sense 'more expensive; the most expensive'), الْخَزْنَة 'the Treasury; the Treasury (famous building in Petra)' (name path). Rule: when one sense already contains the other, return the longer one instead of joining them. The hand ops fix these two words; the engine rule prevents the same glitch elsewhere (grammar, scenarios-2, vocabulary, culture, scenarios-1 exports show the same strings)."
+    },
+    {
+      "chunk": "days-61-70",
+      "ids": [
+        5
+      ],
+      "op": "text",
+      "file": "content/days/day64.json",
+      "old": "\"ar\": \"الْيَوْم نُتَرْجِمُ",
+      "new": "\"ar\": \"الْيَوْمَ نُتَرْجِمُ",
+      "count": 1
+    },
+    {
+      "chunk": "days-61-70",
+      "ids": [
+        5
+      ],
+      "op": "text",
+      "file": "content/days/day64.json",
+      "old": "\"الْيَوْم\",\n            \"today\"\n          ],\n          [\n            \"نُتَرْجِمُ\"",
+      "new": "\"الْيَوْمَ\",\n            \"today\"\n          ],\n          [\n            \"نُتَرْجِمُ\"",
+      "count": 1
+    },
+    {
+      "chunk": "days-61-70",
+      "ids": [
+        5
+      ],
+      "op": "text",
+      "file": "content/days/day65.json",
+      "old": "الْيَوْم نَتَكَلَّمُ",
+      "new": "الْيَوْمَ نَتَكَلَّمُ",
+      "count": 1
+    },
+    {
+      "chunk": "days-61-70",
+      "ids": [
+        5
+      ],
+      "op": "text",
+      "file": "content/days/day65.json",
+      "old": "[\"الْيَوْم\", \"today\"], [\"نَتَكَلَّمُ\"",
+      "new": "[\"الْيَوْمَ\", \"today\"], [\"نَتَكَلَّمُ\"",
+      "count": 1
+    },
+    {
+      "chunk": "days-61-70",
+      "ids": [
+        5
+      ],
+      "op": "text",
+      "file": "content/days/day68.json",
+      "old": "الْيَوْم نَدْرُسُ",
+      "new": "الْيَوْمَ نَدْرُسُ",
+      "count": 1
+    },
+    {
+      "chunk": "days-61-70",
+      "ids": [
+        5
+      ],
+      "op": "text",
+      "file": "content/days/day68.json",
+      "old": "\"الْيَوْم\",\r\n            \"today\"\r\n          ],\r\n          [\r\n            \"نَدْرُسُ\"",
+      "new": "\"الْيَوْمَ\",\r\n            \"today\"\r\n          ],\r\n          [\r\n            \"نَدْرُسُ\"",
+      "count": 1
+    },
+    {
+      "chunk": "days-61-70",
+      "ids": [
+        6
+      ],
+      "op": "text",
+      "file": "content/days/day64.json",
+      "old": "إِنْجْلِيزِيَّة",
+      "new": "إِنْجِلِيزِيَّة",
+      "count": 2
+    },
+    {
+      "chunk": "days-61-70",
+      "ids": [
+        6
+      ],
+      "op": "text",
+      "file": "content/days/day69.json",
+      "old": "إِنْجْلِيزِيَّة",
+      "new": "إِنْجِلِيزِيَّة",
+      "count": 12
+    },
+    {
+      "chunk": "days-61-70",
+      "ids": [
+        7
+      ],
+      "op": "engine",
+      "note": "Transliteration (⟶) of English prose with a bare Arabic letter in brackets: when the letter renders as nothing, drop the empty brackets and the space before them (checker's CHANGE; Arabic unchanged). Examples: day62 quiz[6].prompt 'Which word has qāf (), the deep k from the back of the throat?' -> 'Which word has qāf, the deep k from the back of the throat?'; 'Which word has a hamza on a yāʾ seat ()?' -> 'Which word has a hamza on a yāʾ seat?'; 'Which word ends in tāʾ marbūṭa ()?' -> 'Which word ends in tāʾ marbūṭa?'. All seven prompts (days 62/63/64/66/67/69/70); same rule as days-41-50 and days-81-90 #14."
+    },
+    {
+      "chunk": "days-61-70",
+      "ids": [
+        8
+      ],
+      "op": "engine",
+      "note": "Clitic hyphen (src/lang/ar/tap.ts cliticReading): split a one-letter clitic (wa/fa/bi/li) when the line's seg gloss starts with the clitic sense even if the remainder is an inflected form that is not a glossary headword. Examples: وَشَعَرْتُ 'and I felt' washaʿartu -> wa-shaʿartu; لِشَطِيرَةِ 'for a sandwich (of)' lishaṭīrati -> li-shaṭīrati; فَهِيَ 'because she (lit. so she)' fahiya -> fa-hiya; also wa-ʿāfiya, wa-māʾuhu, wa-saʾursiluhā, wa-ṭūluhu, wa-ṣaʿidū, wa-sayusāʿiduka, wa-wāḍiḥan, Wa-taʾakkad, wa-muhadhdhaba, wa-tuʿallimunī, wa-taḍḥakāni, fa-huwa. Same rule as days-71-80 #1."
+    },
+    {
+      "chunk": "days-61-70",
+      "ids": [
+        9
+      ],
+      "op": "engine",
+      "note": "Transliteration capitalisation: capitalise a word in a ⟶ line when that line's seg for it is tagged '· name' (not globally: كَرِيم is also the adjective 'generous'). Examples: day64 dialogue.lines[0] 'Al-ustādh karīm' -> 'Al-ustādh Karīm'; day65 lines[9] / day70 lines[2] 'shīkāghū' -> 'Shīkāghū'; day62 dialogue.lines[8] and reading 'wādī Ram' -> 'Wādī Ram'."
+    },
+    {
+      "chunk": "days-71-80",
+      "ids": [
+        1
+      ],
+      "op": "engine",
+      "note": "Clitic hyphen, extended (checker's CHANGE): (a) hyphenate a one-letter clitic also when the remainder is inflected and not a headword (same rule as days-61-70 #8); (b) add lām al-jawāb لَ as 'la-' for seg glosses starting 'I would' / '(I would)' / 'would' (today ل maps only to li-). Only the one-letter clitic takes a hyphen: sa- stays attached (fa-sanazūru, not fa-sa-nazūru); no ʾ after the hyphen before an initial hamza (la-akhadhtukum, li-aṭluba). Examples: day80 dialogue.lines[11] 'lazaraʿtu' -> 'la-zaraʿtu'; day80 sentences[0] 'fasanazūru' -> 'fa-sanazūru'; day74 dialogue.lines[12] 'bimiʾatin' -> 'bi-miʾatin'; day72 dialogue.lines[7] 'wanaḍḥaku' -> 'wa-naḍḥaku'; also la-sāfartu, la-akhadhtukum, fa-sayasbaḥūna, fa-sayazūrūna, wa-sutra, bi-ākhirihā, li-kātibāt, li-kātiba, fa-raʾsī, fa-huwa, Wa-mithluhu, fa-man, li-tanẓīfi, wa-naḍaʿuhu, wa-sanaḍaʿu, wa-ḥimāyatu, fa-kullu, li-awlādihā, bi-sāʿatayni, wa-daʿawtukum. No content change (the day-80 why-card prose 'fa-sa-nazūru' stays)."
+    },
+    {
+      "chunk": "days-81-90",
+      "ids": [
+        1
+      ],
+      "op": "text",
+      "file": "content/days/day86.json",
+      "old": "khammana has a doubled middle letter, so its present forms start with u: ukhammin (I guess), yukhammin (he guesses), not akhammin.",
+      "new": "khammana is a Form II verb (pattern faʿʿala), and Form II presents start with u: ukhamminu (I guess), yukhamminu (he guesses), not akhamminu.",
+      "count": 1
+    },
+    {
+      "chunk": "days-81-90",
+      "ids": [
+        2
+      ],
+      "op": "scoped",
+      "word": "عَشَرَ",
+      "scope": "day:81",
+      "gloss": "-teen (second part of a compound ordinal: 'twelfth', 'eighteenth', 'nineteenth')"
+    },
+    {
+      "chunk": "days-81-90",
+      "ids": [
+        3
+      ],
+      "op": "scoped",
+      "word": "نَاحِيَةٍ",
+      "scope": "day:83",
+      "gloss": "a side ('on the one hand' / 'on the other hand')"
+    },
+    {
+      "chunk": "days-81-90",
+      "ids": [
+        4
+      ],
+      "op": "scoped",
+      "word": "الْعُنْوَان",
+      "scope": "day:86",
+      "gloss": "the headline, the title; the address"
+    },
+    {
+      "chunk": "days-81-90",
+      "ids": [
+        5
+      ],
+      "op": "scoped",
+      "word": "عُنْوَانُ",
+      "scope": "day:86",
+      "gloss": "headline, title (of)"
+    },
+    {
+      "chunk": "days-81-90",
+      "ids": [
+        6
+      ],
+      "op": "scoped",
+      "word": "مَقَالَة",
+      "scope": "day:88",
+      "gloss": "essay; article"
+    },
+    {
+      "chunk": "days-81-90",
+      "ids": [
+        7
+      ],
+      "op": "scoped",
+      "word": "عَلَامَات",
+      "scope": "day:88",
+      "gloss": "marks, signs ('punctuation' with at-tarqīm)"
+    },
+    {
+      "chunk": "days-81-90",
+      "ids": [
+        8
+      ],
+      "op": "hand",
+      "word": "الْخَطّ",
+      "gloss": "handwriting, calligraphy; the (phone) line"
+    },
+    {
+      "chunk": "days-81-90",
+      "ids": [
+        9
+      ],
+      "op": "scoped",
+      "word": "بَرِيدِيَّةً",
+      "scope": "day:88",
+      "gloss": "postal (with biṭāqa: postcard)"
+    },
+    {
+      "chunk": "days-81-90",
+      "ids": [
+        10
+      ],
+      "op": "scoped",
+      "word": "مِنُ",
+      "scope": "day:85",
+      "gloss": "from (wrong helping vowel — correct: mina before al-)"
+    },
+    {
+      "chunk": "days-81-90",
+      "ids": [
+        11
+      ],
+      "op": "scoped",
+      "word": "مُدِير",
+      "scope": "day:82",
+      "gloss": "director, manager"
+    },
+    {
+      "chunk": "days-81-90",
+      "ids": [
+        12
+      ],
+      "op": "scoped",
+      "word": "الَّذِي",
+      "scope": "day:86",
+      "gloss": "who, which, that (m)"
+    },
+    {
+      "chunk": "days-81-90",
+      "ids": [
+        13
+      ],
+      "op": "text",
+      "file": "content/days/day89.json",
+      "old": "-u for the subject, -a after kāna, inna and in objects, -i after a preposition",
+      "new": "-u for the subject, -a for the describing word after kāna, for the noun after inna and for objects, -i after a preposition",
+      "count": 1
+    },
+    {
+      "chunk": "days-81-90",
+      "ids": [
+        14
+      ],
+      "op": "engine",
+      "note": "Bare Arabic letters in English prose / quiz options (⟶): when a bare letter follows its English name and renders as nothing, drop it together with the space before it; render isolated letter options consistently (all as names). Examples: day88 intro 'end in alif maqsura , with no dots' -> 'end in alif maqsura, with no dots'; day88 quiz[1].explain 'alif maqsura , which has no dots' -> 'alif maqsura, which has no dots'; day81 quiz[6] options 'K (k)', 'T (t)', 'shīn (sh)', 'F (f)' -> one style (e.g. kāf, tāʾ, shīn, fāʾ). Related to days-61-70 #7 (empty brackets)."
+    },
+    {
+      "chunk": "weeks-tests",
+      "ids": [
+        1
+      ],
+      "op": "scoped",
+      "word": "حَارًّا",
+      "scope": "week:8",
+      "gloss": "hot (-an after kāna / yakūnu)"
+    },
+    {
+      "chunk": "weeks-tests",
+      "ids": [
+        2
+      ],
+      "op": "scoped",
+      "word": "أَنَامَ",
+      "scope": "week:8",
+      "gloss": "I sleep (form after an / lan)"
+    },
+    {
+      "chunk": "weeks-tests",
+      "ids": [
+        3
+      ],
+      "op": "scoped",
+      "word": "كُلَّ",
+      "scope": "week:8",
+      "gloss": "every"
+    },
+    {
+      "chunk": "weeks-tests",
+      "ids": [
+        4
+      ],
+      "op": "scoped",
+      "word": "السَّاعَةُ",
+      "scope": "week:13",
+      "gloss": "the hour, the time"
+    },
+    {
+      "chunk": "weeks-tests",
+      "ids": [
+        5
+      ],
+      "op": "scoped",
+      "word": "أَصْغَرُ",
+      "scope": "week:13",
+      "gloss": "smaller; younger"
+    },
+    {
+      "chunk": "weeks-tests",
+      "ids": [
+        6
+      ],
+      "op": "scoped",
+      "word": "مِنِّي",
+      "scope": "week:13",
+      "gloss": "than me (after a comparative); from me"
+    },
+    {
+      "chunk": "weeks-tests",
+      "ids": [
+        7
+      ],
+      "op": "scoped",
+      "word": "كُتِبَتْ",
+      "scope": "week:13",
+      "gloss": "(it, f) was written"
+    },
+    {
+      "chunk": "weeks-tests",
+      "ids": [
+        8
+      ],
+      "op": "scoped",
+      "word": "يَسْتَيْقِظُ",
+      "scope": "week:2",
+      "gloss": "he wakes up"
+    },
+    {
+      "chunk": "weeks-tests",
+      "ids": [
+        9
+      ],
+      "op": "scoped",
+      "word": "زَرَعْنَا",
+      "scope": "week:12",
+      "gloss": "we planted"
+    },
+    {
+      "chunk": "weeks-tests",
+      "ids": [
+        10
+      ],
+      "op": "hand",
+      "word": "أَغْلَى",
+      "gloss": "more expensive; the most expensive (before a noun)"
+    }
+  ],
+  "checks": [
+    {
+      "chunk": "days-61-70",
+      "ids": [
+        1
+      ],
+      "area": "days-61-70",
+      "expect": "أُسْتَاذَة=teacher (f); Mrs, madam (polite title)"
+    },
+    {
+      "chunk": "days-61-70",
+      "ids": [
+        2
+      ],
+      "area": "days-61-70",
+      "expect": "مُسَافِر=travelling, away (m); traveller"
+    },
+    {
+      "chunk": "days-61-70",
+      "ids": [
+        3
+      ],
+      "area": "days-61-70",
+      "expect": "أَغْلَى=more expensive; the most expensive (before a noun)"
+    },
+    {
+      "chunk": "days-61-70",
+      "ids": [
+        4
+      ],
+      "area": "days-61-70",
+      "expect": "الْخَزْنَة=the Treasury (famous building in Petra)"
+    },
+    {
+      "chunk": "days-61-70",
+      "ids": [
+        5
+      ],
+      "area": "days-61-70",
+      "expect": "الْيَوْمَ نُتَرْجِمُ"
+    },
+    {
+      "chunk": "days-61-70",
+      "ids": [
+        5
+      ],
+      "area": "days-61-70",
+      "expect": "Al-yawma nutarjimu"
+    },
+    {
+      "chunk": "days-61-70",
+      "ids": [
+        5
+      ],
+      "area": "days-61-70",
+      "expect": "الْيَوْمَ نَتَكَلَّمُ"
+    },
+    {
+      "chunk": "days-61-70",
+      "ids": [
+        5
+      ],
+      "area": "days-61-70",
+      "expect": "Al-yawma natakallamu"
+    },
+    {
+      "chunk": "days-61-70",
+      "ids": [
+        5
+      ],
+      "area": "days-61-70",
+      "expect": "الْيَوْمَ نَدْرُسُ"
+    },
+    {
+      "chunk": "days-61-70",
+      "ids": [
+        5
+      ],
+      "area": "days-61-70",
+      "expect": "Al-yawma nadrusu"
+    },
+    {
+      "chunk": "days-61-70",
+      "ids": [
+        6
+      ],
+      "area": "days-61-70",
+      "expect": "إِلَى الْإِنْجِلِيزِيَّة"
+    },
+    {
+      "chunk": "days-61-70",
+      "ids": [
+        6
+      ],
+      "area": "days-61-70",
+      "expect": "كَلِمَة إِنْجِلِيزِيَّة"
+    },
+    {
+      "chunk": "days-61-70",
+      "ids": [
+        6
+      ],
+      "area": "days-61-70",
+      "expect": "al-injilīziyya"
+    },
+    {
+      "chunk": "days-61-70",
+      "ids": [
+        6
+      ],
+      "area": "days-61-70",
+      "expect": "injilīziyya"
+    },
+    {
+      "chunk": "days-81-90",
+      "ids": [
+        1
+      ],
+      "area": "days-81-90",
+      "expect": "khammana is a Form II verb (pattern faʿʿala)"
+    },
+    {
+      "chunk": "days-81-90",
+      "ids": [
+        2
+      ],
+      "area": "days-81-90",
+      "expect": "عَشَرَ=-teen (second part of a compound ordinal: 'twelfth', 'eighteenth', 'nineteenth')"
+    },
+    {
+      "chunk": "days-81-90",
+      "ids": [
+        3
+      ],
+      "area": "days-81-90",
+      "expect": "نَاحِيَةٍ=a side ('on the one hand' / 'on the other hand')"
+    },
+    {
+      "chunk": "days-81-90",
+      "ids": [
+        4
+      ],
+      "area": "days-81-90",
+      "expect": "الْعُنْوَان=the headline, the title; the address"
+    },
+    {
+      "chunk": "days-81-90",
+      "ids": [
+        5
+      ],
+      "area": "days-81-90",
+      "expect": "عُنْوَانُ=headline, title (of)"
+    },
+    {
+      "chunk": "days-81-90",
+      "ids": [
+        6
+      ],
+      "area": "days-81-90",
+      "expect": "مَقَالَة=essay; article"
+    },
+    {
+      "chunk": "days-81-90",
+      "ids": [
+        7
+      ],
+      "area": "days-81-90",
+      "expect": "عَلَامَات=marks, signs ('punctuation' with at-tarqīm)"
+    },
+    {
+      "chunk": "days-81-90",
+      "ids": [
+        8
+      ],
+      "area": "days-81-90",
+      "expect": "الْخَطّ=handwriting, calligraphy; the (phone) line"
+    },
+    {
+      "chunk": "days-81-90",
+      "ids": [
+        9
+      ],
+      "area": "days-81-90",
+      "expect": "بَرِيدِيَّةً=postal (with biṭāqa: postcard)"
+    },
+    {
+      "chunk": "days-81-90",
+      "ids": [
+        10
+      ],
+      "area": "days-81-90",
+      "expect": "مِنُ=from (wrong helping vowel — correct: mina before al-)"
+    },
+    {
+      "chunk": "days-81-90",
+      "ids": [
+        11
+      ],
+      "area": "days-81-90",
+      "expect": "مُدِير=director, manager"
+    },
+    {
+      "chunk": "days-81-90",
+      "ids": [
+        12
+      ],
+      "area": "days-81-90",
+      "expect": "الَّذِي=who, which, that (m)"
+    },
+    {
+      "chunk": "days-81-90",
+      "ids": [
+        13
+      ],
+      "area": "days-81-90",
+      "expect": "-a for the describing word after kāna, for the noun after inna and for objects"
+    },
+    {
+      "chunk": "weeks-tests",
+      "ids": [
+        1
+      ],
+      "area": "weeks-tests",
+      "expect": "حَارًّا=hot (-an after kāna / yakūnu)"
+    },
+    {
+      "chunk": "weeks-tests",
+      "ids": [
+        2
+      ],
+      "area": "weeks-tests",
+      "expect": "أَنَامَ=I sleep (form after an / lan)"
+    },
+    {
+      "chunk": "weeks-tests",
+      "ids": [
+        3
+      ],
+      "area": "weeks-tests",
+      "expect": "كُلَّ=every"
+    },
+    {
+      "chunk": "weeks-tests",
+      "ids": [
+        4
+      ],
+      "area": "weeks-tests",
+      "expect": "السَّاعَةُ=the hour, the time"
+    },
+    {
+      "chunk": "weeks-tests",
+      "ids": [
+        5
+      ],
+      "area": "weeks-tests",
+      "expect": "أَصْغَرُ=smaller; younger"
+    },
+    {
+      "chunk": "weeks-tests",
+      "ids": [
+        6
+      ],
+      "area": "weeks-tests",
+      "expect": "مِنِّي=than me (after a comparative); from me"
+    },
+    {
+      "chunk": "weeks-tests",
+      "ids": [
+        7
+      ],
+      "area": "weeks-tests",
+      "expect": "كُتِبَتْ=(it, f) was written"
+    },
+    {
+      "chunk": "weeks-tests",
+      "ids": [
+        8
+      ],
+      "area": "weeks-tests",
+      "expect": "يَسْتَيْقِظُ=he wakes up"
+    },
+    {
+      "chunk": "weeks-tests",
+      "ids": [
+        9
+      ],
+      "area": "weeks-tests",
+      "expect": "زَرَعْنَا=we planted"
+    },
+    {
+      "chunk": "weeks-tests",
+      "ids": [
+        10
+      ],
+      "area": "weeks-tests",
+      "expect": "أَغْلَى=more expensive; the most expensive (before a noun)"
+    }
+  ],
+  "skipped": [
+    {
+      "id": 0,
+      "chunk": "days-61-70",
+      "reason": "lead: readings.json ops dropped; readings are rebuilt by npm run readings:build"
+    }
+  ]
+}

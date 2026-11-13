@@ -1,0 +1,56 @@
+{
+  "chunk": "days-01-10",
+  "reviewer": "A",
+  "errors": [
+    {
+      "file": "content/days/day07.json",
+      "path": "quiz[1].options[0] (⟶); quiz[1].options[1] (⟶); quiz[1].options[2] (⟶); quiz[1].options[3] (⟶)",
+      "current": "٧",
+      "problem": "Regression from the round-3 engine change (digits up to 100 are read as words in ⟶). Quiz d7q2 asks 'How do you write 7 in Arabic digits?', and the ⟶ line under each option now reads the digit out: ٧ ⟶ sabʿa, ٦ ⟶ sitta, ٨ ⟶ thamāniya, ٢ ⟶ ithnān. A learner who has just learnt sabʿa = seven can pick the answer from the transliteration and never has to recognise the digit shape ٧, which is what the quiz tests. The Arabic and the answer key are correct.",
+      "category": "engine",
+      "severity": "minor",
+      "confidence": "medium",
+      "fix": "suppress the ⟶ line for digit-only quiz options (at least where the prompt asks for the digit shape), or leave Eastern Arabic digits unconverted there",
+      "alsoChange": "none in the content; engine/export rule only"
+    },
+    {
+      "file": "content/days/day07.json",
+      "path": "intro (⟶)",
+      "current": "plus hamza , tāʾ marbūṭa and alif maqṣūra .",
+      "problem": "Regression from the round-2 engine fix for 'hamza hamza, tāʾ marbūṭa tāʾ marbūṭa'. The doubled name is gone, but the bare letters are now deleted and leave a space before the comma and before the full stop: 'plus hamza , tāʾ marbūṭa and alif maqṣūra .'. The source English ('plus hamza ء, tāʾ marbūṭa ة and alif maqṣūra ى') is correct. Cosmetic only; the learner learns nothing wrong.",
+      "category": "engine",
+      "severity": "minor",
+      "confidence": "high",
+      "fix": "plus hamza, tāʾ marbūṭa and alif maqṣūra.",
+      "alsoChange": "when a bare letter that follows its own name is dropped in ⟶, also drop the space before it"
+    }
+  ],
+  "notes": [
+    {
+      "file": "content/days/day10.json",
+      "path": "intro",
+      "note": "Still says the answer uses a feminine 'first, second, third' word. The grammar card telling-time now gives the exception (one o'clock is السَّاعَة الْوَاحِدَة), and the dialogue uses it, but the day intro does not. Adding 'except one o'clock: السَّاعَة الْوَاحِدَة' would stop learners from producing *الْأُولَى."
+    },
+    {
+      "file": "content/days/day08.json",
+      "path": "dialogue.lines[13].en",
+      "note": "'I would like that job too' for أُرِيدُ هٰذَا الْعَمَل; the seg says أُرِيدُ = 'I want'. Harmless, already noted in round 2."
+    },
+    {
+      "file": "content/days/day01.json; day02; day03; day07; day08; day10",
+      "path": "dialogue.speakers[*].nameAr (⟶) and lines with الْأُسْتَاذ كَرِيم; day06 dialogue.lines[8] (⟶), day09 sentences[4] and dialogue.lines[3] (⟶); day03 dialogue.lines[1] (⟶)",
+      "note": "Name capitalisation in ⟶ is inconsistent: 'al-ustādh karīm' (lower case because كَرِيم has two readings), 'fī miṣr' next to 'wa-Miṣr', 'shīkāghū' next to 'Bayrūt'. Style only."
+    },
+    {
+      "file": "content/days/day09.json",
+      "path": "intro",
+      "note": "الِاثْنَيْن is literally 'the two' (dual), not 'the second'; 'second day' would be more exact. Pedagogically harmless."
+    },
+    {
+      "file": "content/days/day02.json",
+      "path": "dialogue.lines[8].en",
+      "note": "'Excellent! And now, …' adds 'and'; the Arabic is مُمْتَاز! الْآن، … Harmless."
+    }
+  ],
+  "summary": "I read all 2,490 lines of audit/days-01-10.txt (days 1-10): titles, intros, objectives, stories, sentences with literals and mistake cards, dialogues, readings, quizzes and completions, and checked the day-10 intro against content/course/grammar.json (telling-time). I checked 462 Arabic strings with their transliteration (spelling, harakat, case endings after prepositions, in iḍāfa and with the five nouns أَبُو/أَبِي/أَخُو, هَلِ/لٰكِنِ before waṣla, imperatives اُدْرُسْ، اِفْتَحُوا، تَعَالَ/تَعَالَوْا، اِشْتَرِ، اِجْلِسْ, number-noun polarity in ثَلَاثَة إِخْوَة / عَشَرَة أَسْئِلَة, non-human plural agreement الْأَرْقَام صَعْبَة, the time expressions with إِلَّا رُبْعًا), 1,232 segs and 493 tap glosses (270 tap lines, 0 ∅), plus every translation and answer key. All round-2 fixes are in place: الِاثْنَيْن/الِاسْتِرَاحَة now carry the kasra on the lām, الْوَاحِدَة is glossed 'one (f): one o'clock', the 'really'/'very' additions are gone, and Eastern digits are no longer turned into Western ones in prose. I found no wrong Arabic, no wrong gloss and no wrong answer key: 0 of 462 Arabic strings and 0 of 493 tap glosses are wrong. Errors: 2, both minor engine regressions, 0 major: (1) the new digit-reading rule makes the ⟶ under the d7q2 options read the answer aloud (٧ ⟶ sabʿa); (2) the round-2 letter-name fix now leaves stray spaces in the day-7 intro ⟶ ('hamza , … maqṣūra .'). Five notes."
+}

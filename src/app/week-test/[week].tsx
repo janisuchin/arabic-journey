@@ -36,7 +36,7 @@ export default function WeekTest() {
       {open ? (
         <>
           <AppText muted>Pass with 80% to open the next week.</AppText>
-          <GlossScope.Provider value={{ day: Math.max(...w.days.map((d) => d.day)) }}>
+          <GlossScope.Provider value={{ day: Math.max(...w.days.map((d) => d.day)), place: `week:${w.week}` }}>
             <QuizRunner
               questions={w.test}
               seed={100 + w.week}

@@ -1,0 +1,21 @@
+{
+  "chunk": "days-01-10",
+  "checker": "X3-2",
+  "verdicts": [
+    {
+      "id": 1,
+      "verdict": "AGREE",
+      "fix": "Do not show the ⟶ line under quiz options that are digits only (Eastern Arabic digits), at least in d7q2 'How do you write 7 in Arabic digits?'; the options ٧ ٦ ٨ ٢ and the answer key stay as they are.",
+      "scope": "engine/quiz rendering (OptionArabic in src/features/lesson.tsx shows translitLine under every option); no content change",
+      "reason": "Confirmed in the export and in the code: OptionArabic prints translitLine(o) under each option, and the round-3 digit-reading rule now turns ٧ into 'sabʿa', so the quiz that tests recognising the digit shape gives the answer away. The Arabic and key are correct."
+    },
+    {
+      "id": 2,
+      "verdict": "AGREE",
+      "fix": "⟶ '… Today you finish the alphabet: mīm nūn hāʾ wāw yāʾ, plus hamza, tāʾ marbūṭa and alif maqṣūra.'",
+      "scope": "engine rule (when a bare letter that follows its own name is dropped, drop the preceding space too); source English unchanged",
+      "reason": "Export line 1418 shows 'plus hamza , tāʾ marbūṭa and alif maqṣūra .' with stray spaces; cosmetic regression of the round-2 letter-name fix. Same mechanism as days-31-40 error 4 (day 34 '()', day 36 'sukūn ?')."
+    }
+  ],
+  "summary": "2 findings, both minor engine issues, both confirmed against audit/days-01-10.txt, content/days/day07.json and src/features/lesson.tsx: 2 AGREE, 0 CHANGE, 0 DISAGREE. No Arabic content change is involved."
+}

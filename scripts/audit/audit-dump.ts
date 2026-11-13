@@ -42,6 +42,8 @@ function tr(s: string) {
 /** The tap context of the file being dumped: a day file is that lesson; a week test is the week's last day. */
 let fileDay: number | undefined;
 let weekTests = false;
+/** The app's GlossPlace for the file being dumped (scenario:<id>, vocab:<id>…), as the screens set it. */
+let filePlace: string | undefined;
 function tapLine(s: string, path: string) {
   const words = arabicWords(s);
   if (!words.length) return '';
@@ -49,6 +51,7 @@ function tapLine(s: string, path: string) {
   const ctx: GlossCtx = {
     day: week ? (Number(week[1]) + 1) * 7 : fileDay,
     mistake: /mistakes\[\d+\]\.wrong$/.test(path),
+    place: week ? `week:${Number(week[1]) + 1}` : filePlace,
   };
   return words.map((w) => `${w}=${meaningOf(w, ctx) ?? '∅'}`).join(' · ');
 }
@@ -101,6 +104,11 @@ function dumpFile(file: string, data: unknown, header: string) {
   const rule = file.includes('grammar.json') ? (data as { id?: string }).id : undefined;
   fileDay = day ? Number(day[1]) : rule ? grammarDay(rule) : undefined;
   weekTests = file.endsWith('course.json');
+  const m = /^(scenario|scene photo spots for|grammar|letter|pronunciation|word|placard|culture) (\S+)/.exec(header);
+  const kind =
+    m && ({ 'scene photo spots for': 'scenario', pronunciation: 'pron', word: 'vocab' } as Record<string, string>)[m[1]];
+  const d = data as { id?: string; scenario?: string };
+  filePlace = m ? `${kind ?? m[1]}:${(m[1].startsWith('scene') ? d.scenario : d.id) ?? m[2]}` : undefined;
   const out: string[] = [`### ${header}`, `# source: ${file}`, ''];
   walk(data, '', out, false);
   out.push('');

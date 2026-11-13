@@ -1,0 +1,72 @@
+{
+  "chunk": "glossary-auto-2",
+  "reviewer": "A",
+  "errors": [
+    {
+      "file": "content/glossary/auto.json",
+      "path": "سَيُسَافِرُ; وَسَيَأْتِي; وَقَرَأَهَا; قَالَهَا; يَقْرَؤُهَا",
+      "current": "سَيُسَافِرُ = (they) will travel",
+      "problem": "Still open from round 2 (#6). These are 3rd-person masculine singular verbs, but the gloss says 'they' because it was taken from a verb-first sentence with a plural subject (e.g. وَسَيَأْتِي بَعْضُ أَصْدِقَائِي, day 5x). Outside that lesson the learner sees 'they' on a 'he' form. قَالَهَا and يَقْرَؤُهَا add '(lit. he said it)', but the main gloss still says 'they'",
+      "category": "gloss",
+      "severity": "minor",
+      "confidence": "high",
+      "fix": "سَيُسَافِرُ = he will travel; وَسَيَأْتِي = and he will come; وَقَرَأَهَا = and he read it (f); قَالَهَا = he said it (f); يَقْرَؤُهَا = he reads it (f)",
+      "alsoChange": "Keep the 'they' reading only as a lesson-scoped gloss in the verb-first sentences"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "مِنْهُ; مِنْهَا",
+      "current": "مِنْهُ = at him (lit. from him)",
+      "problem": "Still open from round 2 (#9), and مِنْهَا has the same problem. Each gloss fits one sentence only: ضَحِكَ مِنْهُ 'laughed at him', and a comparative 'bigger than it'. Outside that lesson the learner gets 'at him' or 'than it' for the plain 'from him / from her, from it' (e.g. فَطَلَبَ مِنْهَا أَنْ تُكَرِّرَ 'he asked her to repeat', where 'than it' is wrong)",
+      "category": "gloss",
+      "severity": "minor",
+      "confidence": "high",
+      "fix": "مِنْهُ = from him, from it (m); مِنْهَا = from her, from it (f); (after a comparative: than it)",
+      "alsoChange": "The 'at him' and 'than it' senses stay as lesson-scoped glosses in their own sentences"
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "شَجَرَة",
+      "current": "شَجَرَة = tree(s)",
+      "problem": "Still open from round 2 (#7). شَجَرَة is the singular noun of unity, 'a tree'. 'tree(s)' comes from أَلْفُ شَجَرَة ('a thousand trees', day 86), where the singular follows a number. Outside that sentence it teaches a beginner that شَجَرَة can be plural. The plurals are شَجَرَات / أَشْجَار, which the glossary lists separately",
+      "category": "gloss",
+      "severity": "minor",
+      "confidence": "high",
+      "fix": "شَجَرَة = tree",
+      "alsoChange": "none"
+    }
+  ],
+  "notes": [
+    {
+      "file": "content/glossary/auto.json",
+      "path": "يَفْهَمُ; يَشْتَرِي; يَغْسِلُ; يَسْتَيْقِظُ",
+      "note": "These are glossed as English infinitives ('to understand', 'to buy'), taken from the vocabulary headwords where the present 3ms is the citation form. That is a dictionary convention, so I did not count it as an error. On a tapped word in a sentence, 'he understands, understands' would read better (round 2 #5 asked for the same)."
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "كَعْك; وَالْكَعْك; كَعْكَة; وَكَعْكَة; وَالْكَعْكَة",
+      "note": "Still inconsistent: كَعْك = 'kaʿk (Eid biscuits)' but وَالْكَعْك = 'and the cake'; كَعْكَة = 'cake' but وَالْكَعْكَة = 'and the kaʿk biscuit'."
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "سَتَكُونُ; وَسَتَكُونُ; يَكُونُ",
+      "note": "These are context glosses ('there will be (f)', '(it) is usually'). 'she/it will be; you will be (m)' and 'he/it is, will be' would fit outside the lesson."
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "زِيَادَة",
+      "note": "'extra (very sweet)' is the coffee sense (sukkar ziyāda). The plain sense is 'increase; extra'."
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "وَإِلَى",
+      "note": "'and until' fits وَإِلَى اللِّقَاء, but another line uses it as 'and to' (وَإِلَى رَقْمِ هَاتِف آخَر). 'and to; and until' would cover both."
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "طَابُور; مُدِيرَة; وَسَائِل",
+      "note": "The bare (pausal) key carries an '(of)' label taken from a construct use ('queue (of)', 'manager (of) (a woman)', 'means (of)'). This is harmless, but it is inconsistent with the other bare keys."
+    }
+  ],
+  "summary": "I read all 3,637 lines of audit/glossary-auto-2.txt (zāy to yāʾ, about 3,630 vocalised keys, each with one tap gloss), and checked every gloss against its exact vocalised form. I checked the case, mood, person, number and gender labels, the dual and plural forms, the numbers, the letter names and the clitic glosses, and opened content files for context where a gloss looked context-bound. The Arabic keys are the forms in the course: the deliberate wrong forms are marked '(wrong — correct: …)' and I did not count them. 9 tap glosses are wrong for their form, in 3 minor findings (all high confidence, and all still open from round 2). (1) 3ms verbs are glossed 'they', taken from verb-first sentences. (2) مِنْهُ and مِنْهَا have one-sentence senses ('at him', 'than it'). (3) شَجَرَة is glossed 'tree(s)'. The round-2 present/past tense mix-ups, imperatives, شَابَّة and صَنَعَ now read correctly through the new 'form of …' glosses or have been fixed. Nouns, suffix pronouns, case labels, the dual and plural, the numbers and the letter names are consistently correct. I found no major error."
+}

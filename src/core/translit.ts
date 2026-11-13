@@ -112,7 +112,8 @@ export interface WordTranslit {
 export function translitWord(word: string): WordTranslit {
   // Fragments written with a tatweel: ending ـِي -> -ī, prefix/stem الـ -> al-, كَتَبْـ -> katab-
   if (word.length > 1 && word.startsWith('ـ')) {
-    const t = translitWord('ت' + word.slice(1)).text;
+    // a stand-in bāʾ carries the vowel (not tāʾ, which would read t+h as t·h before an ending -hu)
+    const t = translitWord('ب' + word.slice(1)).text;
     return { text: '-' + t.slice(1), wasl: false };
   }
   if (word.length > 1 && word.endsWith('ـ')) {
@@ -121,7 +122,11 @@ export function translitWord(word: string): WordTranslit {
     return { text: translitWord(stem).text + '-', wasl: false };
   }
   const fixed = FIXED_TRANSLIT[stripHarakat(word)];
-  if (fixed) return { text: fixed, wasl: true };
+  if (fixed) {
+    // the case vowel written on the last letter is read inside a phrase: Allāhu yusallimuki
+    const lastMarks = parseUnits(word).at(-1)?.marks ?? '';
+    return { text: fixed + vowelOf(lastMarks), wasl: true };
+  }
 
   const u = parseUnits(word);
   let out = '';
@@ -327,6 +332,7 @@ export function toStyle(academic: string, style: TranslitStyle) {
 }
 
 export function capitalise(s: string) {
+  if (s.startsWith('-')) return s; // an ending shown on its own (-hu, -ī) is not a sentence
   return s.replace(/^([ʾʿ'"\-]*)(\p{L})/u, (_, pre: string, ch: string) => pre + ch.toUpperCase());
 }
 

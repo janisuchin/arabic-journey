@@ -1,0 +1,77 @@
+{
+  "chunk": "culture",
+  "checker": "X3-5",
+  "verdicts": [
+    {
+      "id": 1,
+      "verdict": "AGREE",
+      "fix": "الْعَرَبِيَّة=Arabic (f)",
+      "scope": "only calligraphy.json sections[3].body[1] (الْأَرْقَام الْعَرَبِيَّة) and coffee.json sections[1].titleAr (الْقَهْوَةُ الْعَرَبِيَّة); keep 'Arabic (the language)' wherever the word stands alone as the language",
+      "reason": "In both phrases الْعَرَبِيَّة is an attributive adjective agreeing with a feminine/non-human-plural noun (export l.149, l.356); 'the language' is wrong there. The coffee titleSegs already say 'Arabic · adj'."
+    },
+    {
+      "id": 2,
+      "verdict": "AGREE",
+      "fix": "أَكْثَرُ=most (of); more",
+      "scope": "desert.json quiz[5].explain only (one-sentence gloss)",
+      "reason": "يَسْكُنُ أَكْثَرُ الْبَدْوِ: أَكْثَرُ + definite plural in idāfa = 'most of'. Tap 'more' (l.903) contradicts the line's own English."
+    },
+    {
+      "id": 3,
+      "verdict": "AGREE",
+      "fix": "الْأَكْبَر=the eldest; the biggest",
+      "scope": "family.json readingQuestions[0].explain only",
+      "reason": "اِبْنُهُ الْأَكْبَر = his eldest son; the English of the same line says 'eldest' and the reading segs say 'the eldest'. Tap 'the biggest' (l.1162) is misleading."
+    },
+    {
+      "id": 4,
+      "verdict": "CHANGE",
+      "fix": "مَرِيئًا=may it be wholesome",
+      "scope": "food.json words[9].segs (source seg) and the taps of مَرِيئًا in sections[3].body[1] and quiz[3].options[1]; the word only occurs in this fixed phrase, so changing its gloss is safe",
+      "reason": "Real error: there is no وَ in هَنِيئًا مَرِيئًا, so 'and may it be wholesome' invents a clitic. The reviewer's 'wholesome, may it be wholesome' is redundant; simply dropping 'and' is the minimal correct fix."
+    },
+    {
+      "id": 5,
+      "verdict": "AGREE",
+      "fix": "أَكْثَر=more",
+      "scope": "food.json readingQuestions[1].explain only (كُلْ أَكْثَر); separately remove the duplicated 'more' wherever the merged gloss 'more; more; the most' appears",
+      "reason": "Tap at l.1476 shows 'more; more; the most', a merge duplicate; in كُلْ أَكْثَر ('eat more') only 'more' fits."
+    },
+    {
+      "id": 6,
+      "verdict": "AGREE",
+      "fix": "أَمَل=hope; Amal (first name) · نُور=light; Nour (first name)",
+      "scope": "only family.json sections[3].body[0] (أَمَل, نُور) and quiz[3].explain (نُور); leave quiz[3].prompt and the reading segs as names",
+      "reason": "These two lines explicitly teach the meanings (l.1053-1055, l.1217-1219), and round 3 says name+word items show both readings, as كَرِيم already does in the same lines. Not in quiz[3].prompt, where the meaning is the answer."
+    },
+    {
+      "id": 7,
+      "verdict": "AGREE",
+      "fix": "الْخَزْنَة=the Treasury (monument in Petra)",
+      "scope": "the gloss of الْخَزْنَة (it always means this monument, so a single deduplicated gloss is fine wherever it appears, including scenes.json holiday-story)",
+      "reason": "l.1630 and l.1636 show 'the Treasury; the Treasury (famous building in Petra)': a two-reading merge repeating one sense."
+    },
+    {
+      "id": 8,
+      "verdict": "DISAGREE",
+      "fix": "",
+      "scope": "",
+      "reason": "يَا أُسْتَاذُ سَامِي is the fully vocalised form, but the unmarked يَا أُسْتَاذ is not a wrong vowel: it is the course's consistent house style for vocatives. A scan of content/ finds يَا أُسْتَاذ about 85 times (including يَا أُسْتَاذ كَرِيم ×6, يَا أُسْتَاذ مَحْمُود, يَا سَيِّدَة سَمِيرَة, يَا دُكْتُورَة فَاطِمَة, يَا عَمّ حَسَن), all without ḍamma. Changing this one line would make it the only exception and teach an inconsistency; it does not change the word or teach a wrong case. If the owner wants munādā ḍamma, it must be a course-wide decision, not a one-line fix."
+    },
+    {
+      "id": 9,
+      "verdict": "AGREE",
+      "fix": "Engine: hyphen after every clitic glossed as clitic + word (bi-khayr, bi-qalamin, wa-bi-ḥibrin, bi-khaṭṭi, wa-bāridatun, bi-thamāniyati, li-fustānin …) and, for a name behind a clitic, lower-case clitic + capitalised name: wa-Bākistāna (sentence-initial capital applies to the first word only, not to a mid-sentence clitic).",
+      "scope": "engine (tap.ts cliticReading / nameReading); no content change",
+      "reason": "Confirmed: l.49 'fī Īrāna Wabākistāna' (capital on the clitic, name lower case, no hyphen, mid-sentence) and the solid/hyphenated mix in the same texts. Same root cause as days-21-30 #1."
+    },
+    {
+      "id": 10,
+      "verdict": "AGREE",
+      "fix": "Engine: capitalise every token whose seg is marked as a name in every inflected form (bintu Karīm, Ismuhu Karīm al-Miṣrī, Abī smuhu Karīm, fī Miṣr, Fī Ramaḍān, fī l-Qāhirati, Al-Khazna); keep karīm lower case only where its seg means 'generous' (Ramaḍān karīm).",
+      "scope": "engine; no content change",
+      "reason": "Confirmed: l.1033 'Anā Laylā, bintu karīm' while the seg is 'Karim (first name) · name'; l.1611 'fī miṣr', l.1639 'Al-khazna' vs l.1646 'l-Khaznata'. A learner reads bintu karīm as 'daughter of a generous man'."
+    }
+  ],
+  "summary": "10 findings checked against audit/culture.txt, the culture JSON and tap.ts. AGREE 8 / CHANGE 1 / DISAGREE 1. All gloss findings are real and must stay scoped to their lines (except the deduplicated الْخَزْنَة and مَرِيئًا glosses, which are single-sense words). #4 changed to the minimal 'may it be wholesome'. #8 (يَا أُسْتَاذ سَامِي) rejected: the unmarked vocative is the course's consistent house style (~85 occurrences), not a wrong form."
+}
