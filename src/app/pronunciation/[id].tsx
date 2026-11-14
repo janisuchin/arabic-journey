@@ -10,6 +10,9 @@ import { translitLine } from '@/lang/ar/tap';
 import { tts } from '@/services/tts';
 import { usePalette, useSettings } from '@/state/hooks';
 
+/** Pages whose prose gives readings as said (fi l-madīna), since the page teaches that very change. */
+const SPOKEN_PAGES = new Set(['wasl']);
+
 export default function PronunciationTopic() {
   const { id } = useLocalSearchParams<{ id: string }>();
   const p = pronunciationById.get(id);
@@ -21,6 +24,7 @@ export default function PronunciationTopic() {
         <AppText>Unknown sound.</AppText>
       </Screen>
     );
+  const spoken = SPOKEN_PAGES.has(p.id);
   const quiz = p.examples.slice(0, 3).map((e, i) => ({
     id: `${p.id}-q${i}`,
     prompt: 'What does this word mean?',
@@ -31,7 +35,7 @@ export default function PronunciationTopic() {
   return (
     <Screen title="Pronunciation" testID="pron-topic">
       <GlossPlace place={`pron:${p.id}`}>
-        <RichText text={p.title} size={22} />
+        <RichText text={p.title} size={22} spoken={spoken} />
         <Row wrap gap={6}>
           <Pill label={p.category} />
           {p.ipa.map((x) => (
@@ -40,11 +44,11 @@ export default function PronunciationTopic() {
         </Row>
         <Card accent>
           <AppText weight="800">💡 Tip</AppText>
-          <RichText text={p.tip} />
+          <RichText text={p.tip} spoken={spoken} />
         </Card>
         <Card>
           <AppText weight="800">Mouth and tongue</AppText>
-          <RichText text={p.diagram} muted />
+          <RichText text={p.diagram} muted spoken={spoken} />
         </Card>
         {p.examples.map((e, i) => (
           <Card key={i} onPress={() => tts.speak(e.ar, { rate: settings.speechRate })} label={e.en}>
@@ -75,7 +79,7 @@ export default function PronunciationTopic() {
           <AppText weight="800" color={c.bad}>
             Most common error
           </AppText>
-          <RichText text={p.error} />
+          <RichText text={p.error} spoken={spoken} />
         </Card>
         <View style={{ gap: 6 }}>
           <AppText size={18} weight="800">

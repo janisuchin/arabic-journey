@@ -1,0 +1,649 @@
+{
+ "group": "G1",
+ "ops": [
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-11"
+   ],
+   "op": "text",
+   "file": "content/days/day02.json",
+   "old": "\"en\": \"Excellent! And now, what is the teacher's name?\"",
+   "new": "\"en\": \"Excellent! Now, what is the teacher's name?\"",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-22"
+   ],
+   "op": "text",
+   "file": "content/days/day03.json",
+   "old": "Egyptians often call their country and its capital by the same name, مَصْر, in everyday speech.",
+   "new": "Egyptians often call their country and its capital by the same name: مِصْر in standard Arabic, said مَصْر (Maṣr) in everyday speech.",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-22"
+   ],
+   "op": "scoped",
+   "word": "مِصْر",
+   "scope": "day:3",
+   "gloss": "Egypt (country); in Egypt also used for Cairo"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-33"
+   ],
+   "op": "text",
+   "file": "content/days/day04.json",
+   "old": "تَعْبَان",
+   "new": "مُتْعَب",
+   "count": 4
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-33"
+   ],
+   "op": "text",
+   "file": "content/days/day06.json",
+   "old": "\"silent, because s is a sun letter\"",
+   "new": "\"blends into the next letter, which is doubled (s is a sun letter)\"",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-33"
+   ],
+   "op": "text",
+   "file": "content/days/day09.json",
+   "old": "\"prompt\": \"In السَّبْت the l of the article is not pronounced. Why?\"",
+   "new": "\"prompt\": \"In السَّبْت the l of the article blends into the next letter, which is doubled. Why?\"",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-55"
+   ],
+   "op": "text",
+   "file": "content/days/day07.json",
+   "old": "In Egypt, the Levant and the Gulf most people use the digits ٠١٢٣٤٥٦٧٨٩. In North Africa (Morocco, Algeria, Tunisia) the digits 0123456789 are common, and they are Arabic in origin too.",
+   "new": "In Egypt, Syria, Jordan, Iraq and the Gulf most people use the digits ٠١٢٣٤٥٦٧٨٩. Lebanon mostly uses the digits 0123456789, as North Africa (Morocco, Algeria, Tunisia) does, and they are Arabic in origin too.",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-8"
+   ],
+   "op": "text",
+   "file": "content/days/day08.json",
+   "old": "That is a lovely job. I would like that job too.",
+   "new": "That is a lovely job. I want that job too.",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-10"
+   ],
+   "op": "text",
+   "file": "content/days/day09.json",
+   "old": "most day names come from numbers: الِاثْنَيْن (Monday) is 'the second' and الْخَمِيس (Thursday) 'the fifth'.",
+   "new": "most day names come from numbers: الْأَحَد (Sunday) is 'the first' (lit. 'the one'), الِاثْنَيْن (Monday) 'the second' (lit. 'the two') and الْخَمِيس (Thursday) 'the fifth'.",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-20"
+   ],
+   "op": "text",
+   "file": "content/days/day09.json",
+   "old": "This noun + noun pattern is called the iḍāfa, Arabic's way of saying 'of'.\",",
+   "new": "This noun + noun pattern is called the iḍāfa, Arabic's way of saying 'of'. To ask the day, say مَا الْيَوْم؟ or, in more formal Arabic, أَيُّ يَوْمٍ الْيَوْمَ؟ (which day is today?).\",",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-20"
+   ],
+   "op": "scoped",
+   "word": "يَوْمٍ",
+   "scope": "day:9",
+   "gloss": "day"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-20"
+   ],
+   "op": "scoped",
+   "word": "الْيَوْمَ",
+   "scope": "day:9",
+   "gloss": "today"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-54"
+   ],
+   "op": "text",
+   "file": "content/days/day09.json",
+   "old": "\"ar\": \"مِنَ الْأَحَد؟ فِي أَمْرِيكَا الْأُسْبُوع يَبْدَأُ يَوْمَ الِاثْنَيْن!\", \"en\": \"From Sunday? In America the week starts on Monday!\"",
+   "new": "\"ar\": \"مِنَ الْأَحَد؟ فِي أَمْرِيكَا أُسْبُوعُ الْعَمَل يَبْدَأُ يَوْمَ الِاثْنَيْن!\", \"en\": \"From Sunday? In America the working week starts on Monday!\"",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-54"
+   ],
+   "op": "text",
+   "file": "content/days/day09.json",
+   "old": "[\"أَمْرِيكَا\", \"America (country)\", \"name\"], [\"الْأُسْبُوع\", \"the week\"], [\"يَبْدَأُ\", \"(it) starts\"]",
+   "new": "[\"أَمْرِيكَا\", \"America (country)\", \"name\"], [\"أُسْبُوعُ\", \"week (of)\"], [\"الْعَمَل\", \"work\"], [\"يَبْدَأُ\", \"(it) starts\"]",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-7"
+   ],
+   "op": "text",
+   "file": "content/days/day10.json",
+   "old": "السَّاعَة الثَّالِثَة (three o'clock). Add وَالنِّصْف",
+   "new": "السَّاعَة الثَّالِثَة (three o'clock). One o'clock is the exception: السَّاعَة الْوَاحِدَة (lit. 'the one hour'). Add وَالنِّصْف",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-3"
+   ],
+   "op": "text",
+   "file": "content/days/day10.json",
+   "old": "\"ar\": \"عَفْوًا يَا أُسْتَاذ، هَاتِفِي بِدُونِ بَطَّارِيَّة الْيَوْم.\", \"en\": \"Excuse me, sir, my phone has no battery today.\"",
+   "new": "\"ar\": \"عَفْوًا يَا أُسْتَاذ، بَطَّارِيَّةُ هَاتِفِي فَارِغَةٌ الْيَوْمَ.\", \"en\": \"Excuse me, sir, my phone's battery is flat today.\"",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-3"
+   ],
+   "op": "text",
+   "file": "content/days/day10.json",
+   "old": "[\"هَاتِفِي\", \"my phone\"], [\"بِدُونِ\", \"without\"], [\"بَطَّارِيَّة\", \"battery\"], [\"الْيَوْم\", \"today\"]]",
+   "new": "[\"بَطَّارِيَّةُ\", \"battery (of)\"], [\"هَاتِفِي\", \"my phone\"], [\"فَارِغَةٌ\", \"empty, flat (f)\"], [\"الْيَوْمَ\", \"today\"]]",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-16"
+   ],
+   "op": "text",
+   "file": "content/days/day13.json",
+   "old": "\"why\": \"Before a present-tense verb, 'not' is lā.\" }",
+   "new": "\"why\": \"Before a present-tense verb, 'not' is lā. لَيْسَ + a present verb is rare in modern Arabic; use lā.\" }",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-34"
+   ],
+   "op": "text",
+   "file": "content/days/day15.json",
+   "old": "آ (a + hamza) at the start means 'I'.",
+   "new": "آ (hamza + long ā) at the start means 'I'.",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-21"
+   ],
+   "op": "text",
+   "file": "content/days/day21.json",
+   "old": "دَانْيَال يَدْفَعُ سَبْعِينَ جُنَيْهًا، وَالْبَاقِي ثَلَاثُونَ.",
+   "new": "دَانْيَال يَدْفَعُ مِئَةَ جُنَيْه، وَالْبَاقِي ثَلَاثُونَ.",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-21"
+   ],
+   "op": "text",
+   "file": "content/days/day21.json",
+   "old": "Daniel pays seventy pounds, and the change is thirty.",
+   "new": "Daniel pays a hundred pounds, and the change is thirty.",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-21"
+   ],
+   "op": "text",
+   "file": "content/days/day21.json",
+   "old": "[\"يَدْفَعُ\", \"he pays\"], [\"سَبْعِينَ\", \"seventy (object)\"], [\"جُنَيْهًا\", \"pound (after 11–99)\"], [\"وَالْبَاقِي\", \"and the change\"]",
+   "new": "[\"يَدْفَعُ\", \"he pays\"], [\"مِئَةَ\", \"a hundred (of)\"], [\"جُنَيْه\", \"pound (Egyptian money)\"], [\"وَالْبَاقِي\", \"and the change\"]",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-18"
+   ],
+   "op": "text",
+   "file": "content/days/day22.json",
+   "old": "\"options\": [\"يَزُورُ\", \"يَزُورُونَ\", \"تَزُورُ\", \"نَزُورُ\"], \"answer\": 0",
+   "new": "\"options\": [\"يَزُورُ\", \"يَزُورُونَ\", \"أَزُورُ\", \"نَزُورُ\"], \"answer\": 0",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-22"
+   ],
+   "op": "text",
+   "file": "content/days/day25.json",
+   "old": "\"ar\": \"وَعَلَيْكُمُ السَّلَامُ! الطُّرُود فِي الطَّابِقِ الثَّانِي، فَوْقَنَا مُبَاشَرَةً.\", \"en\": \"And peace be upon you! Parcels are on the second floor, right above us.\"",
+   "new": "\"ar\": \"وَعَلَيْكُمُ السَّلَامُ! الطُّرُود فِي الطَّابِقِ الثَّانِي. اِصْعَدْ طَابِقَيْنِ.\", \"en\": \"And peace be upon you! Parcels are on the second floor. Go up two floors.\"",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-22"
+   ],
+   "op": "text",
+   "file": "content/days/day25.json",
+   "old": "[\"الثَّانِي\", \"the second (m)\"], [\"فَوْقَنَا\", \"above us\"], [\"مُبَاشَرَةً\", \"directly, right\"]]",
+   "new": "[\"الثَّانِي\", \"the second (m)\"], [\"اِصْعَدْ\", \"go up (to a man)\"], [\"طَابِقَيْنِ\", \"two floors\"]]",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-53"
+   ],
+   "op": "text",
+   "file": "content/days/day25.json",
+   "old": "so الطَّابِقِ الثَّانِي (the second floor) is two floors up.",
+   "new": "so الطَّابِقُ الثَّانِي (the second floor) is two floors up.",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-53"
+   ],
+   "op": "scoped",
+   "word": "الطَّابِقُ",
+   "scope": "day:25",
+   "gloss": "the floor, the storey"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-20"
+   ],
+   "op": "text",
+   "file": "content/days/day26.json",
+   "old": "الْحَمْدُ لِلّٰه أَنَّ هُنَاكَ صَيْدَلِيَّة مَفْتُوحَة فِي اللَّيْل.",
+   "new": "الْحَمْدُ لِلّٰه أَنَّ هُنَاكَ صَيْدَلِيَّةً مَفْتُوحَةً فِي اللَّيْل.",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-20"
+   ],
+   "op": "text",
+   "file": "content/days/day26.json",
+   "old": "[\"أَنَّ\", \"that\"], [\"هُنَاكَ\", \"there is\"], [\"صَيْدَلِيَّة\", \"pharmacy\"], [\"مَفْتُوحَة\", \"open (f)\"]",
+   "new": "[\"أَنَّ\", \"that\"], [\"هُنَاكَ\", \"there is\"], [\"صَيْدَلِيَّةً\", \"a pharmacy (-an after anna)\"], [\"مَفْتُوحَةً\", \"open (f, -an)\"]",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-23"
+   ],
+   "op": "text",
+   "file": "content/days/day27.json",
+   "old": "\"ar\": \"أَهْلًا وَسَهْلًا! تَفَضَّلُوا. عِنْدَنَا",
+   "new": "\"ar\": \"أَهْلًا وَسَهْلًا! تَفَضَّلَا. عِنْدَنَا",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-23"
+   ],
+   "op": "text",
+   "file": "content/days/day27.json",
+   "old": "\"تَفَضَّلُوا\",\r\n            \"please come in (to several people)\"",
+   "new": "\"تَفَضَّلَا\",\r\n            \"please come in (to two people)\"",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-23"
+   ],
+   "op": "text",
+   "file": "content/days/day28.json",
+   "old": "\"ar\": \"أَهْلًا بِكُمْ فِي خَانِ الْخَلِيلِيّ!",
+   "new": "\"ar\": \"أَهْلًا بِكُمَا فِي خَانِ الْخَلِيلِيّ!",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-23"
+   ],
+   "op": "text",
+   "file": "content/days/day28.json",
+   "old": "[\"بِكُمْ\", \"to you (plural)\"]",
+   "new": "[\"بِكُمَا\", \"to you two (dual)\"]",
+   "count": 1
+  }
+ ],
+ "checks": [
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-11"
+   ],
+   "area": "days-01-10",
+   "expect": "Excellent! Now, what is the teacher's name?"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-22"
+   ],
+   "area": "days-01-10",
+   "expect": "مِصْر in standard Arabic, said مَصْر (Maṣr) in everyday speech"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-22"
+   ],
+   "area": "days-01-10",
+   "expect": "مِصْر=Egypt (country); in Egypt also used for Cairo"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-33"
+   ],
+   "area": "days-01-10",
+   "expect": "هُوَ مُتْعَب قَلِيلًا"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-33"
+   ],
+   "area": "days-01-10",
+   "expect": "أَنَا مُتْعَب، لٰكِنِ"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-33"
+   ],
+   "area": "days-01-10",
+   "expect": "blends into the next letter, which is doubled (s is a sun letter)"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-33"
+   ],
+   "area": "days-01-10",
+   "expect": "the l of the article blends into the next letter, which is doubled. Why?"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-55"
+   ],
+   "area": "days-01-10",
+   "expect": "Lebanon mostly uses the digits 0123456789"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-8"
+   ],
+   "area": "days-01-10",
+   "expect": "I want that job too."
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-10"
+   ],
+   "area": "days-01-10",
+   "expect": "الْأَحَد (Sunday) is 'the first' (lit. 'the one'), الِاثْنَيْن (Monday) 'the second' (lit. 'the two')"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-20"
+   ],
+   "area": "days-01-10",
+   "expect": "أَيُّ يَوْمٍ الْيَوْمَ؟ (which day is today?)"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-20"
+   ],
+   "area": "days-01-10",
+   "expect": "يَوْمٍ=day"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-20"
+   ],
+   "area": "days-01-10",
+   "expect": "الْيَوْمَ=today"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-54"
+   ],
+   "area": "days-01-10",
+   "expect": "In America the working week starts on Monday!"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-54"
+   ],
+   "area": "days-01-10",
+   "expect": "أُسْبُوعُ = week (of)] [الْعَمَل = work]"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-7"
+   ],
+   "area": "days-01-10",
+   "expect": "One o'clock is the exception: السَّاعَة الْوَاحِدَة"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-3"
+   ],
+   "area": "days-01-10",
+   "expect": "بَطَّارِيَّةُ هَاتِفِي فَارِغَةٌ الْيَوْمَ."
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-3"
+   ],
+   "area": "days-01-10",
+   "expect": "فَارِغَةٌ = empty, flat (f)"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-16"
+   ],
+   "area": "days-11-20",
+   "expect": "لَيْسَ + a present verb is rare in modern Arabic; use lā."
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-34"
+   ],
+   "area": "days-11-20",
+   "expect": "(hamza + long ā) at the start means 'I'."
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-21"
+   ],
+   "area": "days-21-30",
+   "expect": "دَانْيَال يَدْفَعُ مِئَةَ جُنَيْه، وَالْبَاقِي ثَلَاثُونَ."
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-21"
+   ],
+   "area": "days-21-30",
+   "expect": "Daniel pays a hundred pounds, and the change is thirty."
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-21"
+   ],
+   "area": "days-21-30",
+   "expect": "مِئَةَ = a hundred (of)"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-18"
+   ],
+   "area": "days-21-30",
+   "expect": "quiz[2].options[2]: أَزُورُ"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-22"
+   ],
+   "area": "days-21-30",
+   "expect": "اِصْعَدْ طَابِقَيْنِ."
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-22"
+   ],
+   "area": "days-21-30",
+   "expect": "طَابِقَيْنِ = two floors"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-53"
+   ],
+   "area": "days-21-30",
+   "expect": "so الطَّابِقُ الثَّانِي (the second floor)"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-53"
+   ],
+   "area": "days-21-30",
+   "expect": "الطَّابِقُ=the floor, the storey"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-20"
+   ],
+   "area": "days-21-30",
+   "expect": "الْحَمْدُ لِلّٰه أَنَّ هُنَاكَ صَيْدَلِيَّةً مَفْتُوحَةً فِي اللَّيْل."
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-20"
+   ],
+   "area": "days-21-30",
+   "expect": "صَيْدَلِيَّةً = a pharmacy (-an after anna)"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-23"
+   ],
+   "area": "days-21-30",
+   "expect": "أَهْلًا وَسَهْلًا! تَفَضَّلَا."
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-23"
+   ],
+   "area": "days-21-30",
+   "expect": "تَفَضَّلَا = please come in (to two people)"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-23"
+   ],
+   "area": "days-21-30",
+   "expect": "أَهْلًا بِكُمَا فِي خَانِ الْخَلِيلِيّ!"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-23"
+   ],
+   "area": "days-21-30",
+   "expect": "بِكُمَا = to you two (dual)"
+  }
+ ],
+ "skipped": [],
+ "notesForLead": [
+  "R3-18 (day 22): the decision names يَزُورُونَ as the clearly wrong replacement, but d22q3 already has يَزُورُونَ as option 1. Closest correct form applied: تَزُورُ replaced by أَزُورُ (I visit), clearly wrong with السُّيَّاحُ; hand.json already glosses أَزُورُ = I visit.",
+  "R3-23 (days 27-28): changed only the lines said to two people: day 27 d27l3 seller to Layla and Daniel (تَفَضَّلَا), day 28 d28l1 Sami to Layla and Daniel (بِكُمَا). Day 28 d28l5 seller's تَفَضَّلُوا is said to all three (Sami, Layla, Daniel), so the plural is correct and kept.",
+  "R12-3 (day 10): the decision's wording kept exactly, including الْيَوْمَ with its ending before the full stop (pause would be الْيَوْم); change to الْيَوْم if the lead prefers strict pause at sentence end. Story text (realLife) already says 'battery is dead' and fits.",
+  "R12-54 (day 9): the Arabic was changed with the English (أُسْبُوعُ الْعَمَل, 'the working week') so line and translation agree; Layla's reply 'In Lebanon too' still fits.",
+  "R3-22 (day 25): the guard's 'right above us' (فَوْقَنَا مُبَاشَرَةً) replaced by اِصْعَدْ طَابِقَيْنِ 'Go up two floors', matching the culture note (ground floor + two). The culture note is unchanged except the R12-53 citation form.",
+  "R12-20 (day 9): أَيُّ يَوْمٍ الْيَوْمَ؟ is taught in the intro (days have no per-sentence note field); أَيُّ already has hand gloss 'which'; scoped day:9 glosses added for يَوْمٍ and الْيَوْمَ.",
+  "R3-8 (day 8): only the flagged line changed. Ordering lines with 'please' (day 15 tea order, day 25 parcel, day 28 necklace) keep 'I would like' as the polite English rendering of أُرِيدُ … مِنْ فَضْلِكَ; say if those should change too.",
+  "readings.json / audio caches keyed by text (e.g. بَطَّارِيَّة, تَعْبَان) may need regenerating after these text edits; R3-16 keeps the d13q2 quiz key unchanged as decided."
+ ]
+}

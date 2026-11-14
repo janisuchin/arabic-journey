@@ -16,8 +16,8 @@
     ]
   ],
   "emoji": "📧",
-  "summary": "Write a polite Arabic email: the formal opening, the greeting تَحِيَّة طَيِّبَة وَبَعْدُ, an attachment, and a closing phrase.",
-  "intro": "Mr Adel needs the translation, and Daniel must send it by email. Arabic emails use fixed phrases. To someone you don't know well, start with حَضْرَةَ + the name + الْمُحْتَرَم (the respected), then the greeting تَحِيَّة طَيِّبَة وَبَعْدُ. Say what comes with the email with مُرْفَق (attached), and end with مَعَ أَطْيَبِ التَّحِيَّات (with best regards).",
+  "summary": "Write a polite Arabic email: the formal opening, the greeting تَحِيَّةً طَيِّبَةً وَبَعْدُ, an attachment, and a closing phrase.",
+  "intro": "Mr Adel needs the translation, and Daniel must send it by email. Arabic emails use fixed phrases. To someone you don't know well, start with حَضْرَةَ + the name + الْمُحْتَرَم (the respected), then the greeting تَحِيَّةً طَيِّبَةً وَبَعْدُ. Say what comes with the email with مُرْفَق (attached), and end with مَعَ أَطْيَبِ التَّحِيَّات (with best regards).",
   "objectives": [
     "Open a formal email with حَضْرَةَ … الْمُحْتَرَم and a greeting",
     "Say that a file is attached with مُرْفَق",
@@ -51,7 +51,7 @@
   "sentences": [
     {
       "id": "d67s1",
-      "ar": "حَضْرَةَ الْأُسْتَاذ عَادِل الْمُحْتَرَم، تَحِيَّة طَيِّبَة وَبَعْدُ.",
+      "ar": "حَضْرَةَ الْأُسْتَاذ عَادِل الْمُحْتَرَم، تَحِيَّةً طَيِّبَةً وَبَعْدُ.",
       "en": "Dear Mr Adel, greetings.",
       "literal": "(the) presence (of) Mr Adel the respected, a good greeting, and after (that)",
       "segs": [
@@ -76,12 +76,12 @@
           "adj"
         ],
         [
-          "تَحِيَّة",
+          "تَحِيَّةً",
           "a greeting",
           "noun"
         ],
         [
-          "طَيِّبَة",
+          "طَيِّبَةً",
           "good, kind (f)",
           "adj"
         ],
@@ -97,7 +97,7 @@
       "mistakes": [
         {
           "wrong": "مَرْحَبًا يَا عَادِل، كَيْفَ حَالُكَ؟",
-          "right": "حَضْرَةَ الْأُسْتَاذ عَادِل الْمُحْتَرَم، تَحِيَّة طَيِّبَة وَبَعْدُ.",
+          "right": "حَضْرَةَ الْأُسْتَاذ عَادِل الْمُحْتَرَم، تَحِيَّةً طَيِّبَةً وَبَعْدُ.",
           "why": "Fine for a friend, but too casual for a client: a formal email starts with a title, the name and al-muḥtaram."
         }
       ]
@@ -533,7 +533,7 @@
       {
         "id": "d67l5",
         "sp": "tariq",
-        "ar": "صَحِيح. نَكْتُبُ: تَحِيَّة طَيِّبَة وَبَعْدُ، ثُمَّ الْمَوْضُوع. وَفِي آخِرِ الرِّسَالَة: مَعَ أَطْيَبِ التَّحِيَّات.",
+        "ar": "صَحِيح. نَكْتُبُ: تَحِيَّةً طَيِّبَةً وَبَعْدُ، ثُمَّ الْمَوْضُوع. وَفِي آخِرِ الرِّسَالَة: مَعَ أَطْيَبِ التَّحِيَّات.",
         "en": "Right. We write 'Greetings, and now to the point', then the subject. And at the end of the message: 'With best regards'.",
         "segs": [
           [
@@ -545,11 +545,11 @@
             "we write"
           ],
           [
-            "تَحِيَّة",
+            "تَحِيَّةً",
             "a greeting"
           ],
           [
-            "طَيِّبَة",
+            "طَيِّبَةً",
             "good, kind (f)"
           ],
           [
@@ -890,7 +890,7 @@
       {
         "id": "d67l11",
         "sp": "huda",
-        "ar": "بِكُلِّ سُرُور… حَضْرَةَ الْأُسْتَاذ عَادِل الْمُحْتَرَم، تَحِيَّة طَيِّبَة وَبَعْدُ… مُمْتَاز يَا دَانْيَال، رِسَالَتُكَ وَاضِحَة وَمُهَذَّبَة.",
+        "ar": "بِكُلِّ سُرُور… حَضْرَةَ الْأُسْتَاذ عَادِل الْمُحْتَرَم، تَحِيَّةً طَيِّبَةً وَبَعْدُ… مُمْتَاز يَا دَانْيَال، رِسَالَتُكَ وَاضِحَة وَمُهَذَّبَة.",
         "en": "With pleasure… 'Dear Mr Adel, greetings…' Excellent, Daniel, your message is clear and polite.",
         "segs": [
           [
@@ -919,11 +919,11 @@
             "the respected (m)"
           ],
           [
-            "تَحِيَّة",
+            "تَحِيَّةً",
             "a greeting"
           ],
           [
-            "طَيِّبَة",
+            "طَيِّبَةً",
             "good, kind (f)"
           ],
           [
@@ -1204,7 +1204,7 @@
   },
   "reading": {
     "title": "Daniel's email",
-    "ar": "حَضْرَةَ الْأُسْتَاذ عَادِل الْمُحْتَرَم، تَحِيَّة طَيِّبَة وَبَعْدُ. أَرْجُو أَنْ تَكُونَ بِخَيْر. مُرْفَق مَعَ هٰذِهِ الرِّسَالَة مِلَفُّ تَرْجَمَةِ مَشْرُوعِ السِّيَاحَة. فِي انْتِظَارِ رَدِّكُمْ. مَعَ أَطْيَبِ التَّحِيَّات، دَانْيَال، شَرِكَةُ النِّيل لِلتَّرْجَمَة.",
+    "ar": "حَضْرَةَ الْأُسْتَاذ عَادِل الْمُحْتَرَم، تَحِيَّةً طَيِّبَةً وَبَعْدُ. أَرْجُو أَنْ تَكُونَ بِخَيْر. مُرْفَق مَعَ هٰذِهِ الرِّسَالَة مِلَفُّ تَرْجَمَةِ مَشْرُوعِ السِّيَاحَة. فِي انْتِظَارِ رَدِّكُمْ. مَعَ أَطْيَبِ التَّحِيَّات، دَانْيَال، شَرِكَةُ النِّيل لِلتَّرْجَمَة.",
     "en": "Dear Mr Adel, greetings. I hope you are well. Attached to this message is the file with the translation of the tourism project. I look forward to your reply. With best regards, Daniel, Nile Translation Company.",
     "segs": [
       [
@@ -1225,11 +1225,11 @@
         "the respected (m)"
       ],
       [
-        "تَحِيَّة",
+        "تَحِيَّةً",
         "a greeting"
       ],
       [
-        "طَيِّبَة",
+        "طَيِّبَةً",
         "good, kind (f)"
       ],
       [
@@ -1373,7 +1373,7 @@
     },
     {
       "id": "d67q4",
-      "prompt": "What does تَحِيَّة طَيِّبَة وَبَعْدُ do in a letter?",
+      "prompt": "What does تَحِيَّةً طَيِّبَةً وَبَعْدُ do in a letter?",
       "options": [
         "It ends the letter.",
         "It greets the reader before the subject.",
@@ -1386,7 +1386,7 @@
       "id": "d67q5",
       "prompt": "Which phrase closes an email?",
       "options": [
-        "تَحِيَّة طَيِّبَة وَبَعْدُ",
+        "تَحِيَّةً طَيِّبَةً وَبَعْدُ",
         "حَضْرَةَ الْأُسْتَاذ",
         "مُرْفَق مَعَ هٰذِهِ الرِّسَالَة",
         "مَعَ أَطْيَبِ التَّحِيَّات"

@@ -12,6 +12,7 @@ import {
   tapTokens,
   translitLine,
   vocabOf,
+  withoutExerciseNote,
 } from '../tap';
 
 describe('Arabic language pack', () => {
@@ -121,5 +122,31 @@ describe('Arabic language pack', () => {
     expect(meaningOf('الْأَخْبَارِ', { mistake: true })).toMatch(/wrong/);
     for (const [k, g] of Object.entries(autoList as Record<string, string>))
       if (/wrong/i.test(g)) expect(mistakeGlossary[k]).toBe(g); // only a non-word keeps its note
+  });
+  it("R3-45: an unanswered quiz question shows a mistake form's meaning, not its correction", () => {
+    const w = 'لِلطَّبَّاخُونَ';
+    expect(meaningOf(w)).toMatch(/wrong/);
+    expect(meaningOf(w, { unanswered: true })).toBe('to the cooks');
+    expect(meaningOf(w, { unanswered: true, mistake: true })).toBe('to the cooks');
+    expect(meaningOf(w, { unanswered: false })).toMatch(/correct: li-ṭ-ṭabbākhīna/);
+    expect(meaningOf('الْأَخْبَارِ', { mistake: true })).toMatch(/wrong/); // mistake cards keep the note
+    expect(meaningOf('الْخَالَتِي', { unanswered: true })).toBe('my aunt');
+    expect(withoutExerciseNote('(it) was announced (m; wrong here: plurals of things take the feminine)')).toBe(
+      '(it) was announced (m)',
+    );
+    expect(withoutExerciseNote('I enrol, register (indicative; wrong after an)')).toBe('I enrol, register (indicative)');
+    expect(withoutExerciseNote('from (wrong helping vowel — correct: mina before al-)')).toBe('from');
+    for (const [k, g] of Object.entries(mistakeGlossary)) {
+      expect(`${k} = ${withoutExerciseNote(g)}`).not.toMatch(/wrong|correct/i);
+      expect(meaningOf(k, { unanswered: true }) ?? '').not.toMatch(/wrong|correct/i);
+    }
+  });
+  it('R3-85: spoken readings shorten a long vowel before an elided waṣl', () => {
+    const tip = 'فِي الْمَدِينَة is fi l-madīna, and إِلَى الْيَمِين is ila l-yamīn; مَا اسْمُكَ؟';
+    expect(proseLine(tip, 'academic')).toMatch(/^fī l-madīna is .* ilā l-yamīn/);
+    expect(proseLine(tip, 'academic', true)).toBe('fi l-madīna is fi l-madīna, and ila l-yamīn is ila l-yamīn; ma smuka?');
+    expect(proseTranslit('فِي الْمَدِينَة', 'simple', '', '', true)).toBe('fi l-madiina');
+    expect(proseTranslit('جِدًّا الْيَوْمَ', 'academic', '', '', true)).toBe('jiddani l-yawma');
+    expect(proseTranslit('فِي بَيْت', 'academic', '', '', true)).toBe('fī bayt');
   });
 });

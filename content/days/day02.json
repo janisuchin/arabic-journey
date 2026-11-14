@@ -42,7 +42,7 @@
         "segs": [["أَهْلًا", "hi, welcome"], ["يَا", "O (calling someone)"], ["دَانْيَال", "Daniel (first name)", "name"], ["تَشَرَّفْنَا", "nice to meet you"], ["اِسْمُكَ", "your name (to a man)"], ["جَمِيل", "beautiful"]] },
       { "id": "d2l8", "sp": "daniel", "ar": "شُكْرًا! وَاسْمُكِ جَمِيل أَيْضًا يَا لَيْلَى.", "en": "Thank you! And your name is beautiful too, Layla.",
         "segs": [["شُكْرًا", "thank you"], ["وَاسْمُكِ", "and your name (to a woman)"], ["جَمِيل", "beautiful"], ["أَيْضًا", "also, too"], ["يَا", "O (calling someone)"], ["لَيْلَى", "Layla (first name)", "name"]] },
-      { "id": "d2l9", "sp": "karim", "ar": "مُمْتَاز! الْآن، مَا اسْمُ الْأُسْتَاذ؟", "en": "Excellent! And now, what is the teacher's name?",
+      { "id": "d2l9", "sp": "karim", "ar": "مُمْتَاز! الْآن، مَا اسْمُ الْأُسْتَاذ؟", "en": "Excellent! Now, what is the teacher's name?",
         "segs": [["مُمْتَاز", "excellent"], ["الْآن", "now"], ["مَا", "what"], ["اسْمُ", "name (of)"], ["الْأُسْتَاذ", "the teacher"]] },
       { "id": "d2l10", "sp": "layla", "ar": "اِسْمُكَ كَرِيم، وَأَنْتَ أُسْتَاذُ اللُّغَةِ الْعَرَبِيَّة.", "en": "Your name is Karim, and you are the Arabic teacher.",
         "segs": [["اِسْمُكَ", "your name (to a man)"], ["كَرِيم", "Karim (first name)", "name"], ["وَأَنْتَ", "and you (to a man)"], ["أُسْتَاذُ", "teacher (of)"], ["اللُّغَةِ", "the language"], ["الْعَرَبِيَّة", "Arabic (f)"]] },

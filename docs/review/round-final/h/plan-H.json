@@ -1,0 +1,213 @@
+{
+ "group": "H (tap meanings for words new in the final round)",
+ "ops": [
+  {
+   "chunk": "H",
+   "ids": [
+    "validator"
+   ],
+   "op": "hand",
+   "word": "أَرْبِعَاء",
+   "gloss": "Wednesday"
+  },
+  {
+   "chunk": "H",
+   "ids": [
+    "validator"
+   ],
+   "op": "hand",
+   "word": "مُدَرَاء",
+   "gloss": "managers, directors (common plural; standard: mudīrūna)"
+  },
+  {
+   "chunk": "H",
+   "ids": [
+    "validator"
+   ],
+   "op": "hand",
+   "word": "بِجَائِزَةِ",
+   "gloss": "a prize (fāza bi-: to win)"
+  },
+  {
+   "chunk": "H",
+   "ids": [
+    "validator"
+   ],
+   "op": "hand",
+   "word": "بِجَائِزَة",
+   "gloss": "a prize (fāza bi-: to win)"
+  },
+  {
+   "chunk": "H",
+   "ids": [
+    "validator"
+   ],
+   "op": "hand",
+   "word": "عَالِيًا",
+   "gloss": "loud, high (-an after kāna)"
+  },
+  {
+   "chunk": "H",
+   "ids": [
+    "validator"
+   ],
+   "op": "hand",
+   "word": "الْأَقْدَامِ",
+   "gloss": "the feet (ʿalā l-aqdām: on foot)"
+  },
+  {
+   "chunk": "H",
+   "ids": [
+    "validator"
+   ],
+   "op": "hand",
+   "word": "أَخَا",
+   "gloss": "brother (object form, before another word)"
+  },
+  {
+   "chunk": "H",
+   "ids": [
+    "validator"
+   ],
+   "op": "hand",
+   "word": "أَبَا",
+   "gloss": "father (object form, before another word)"
+  },
+  {
+   "chunk": "H",
+   "ids": [
+    "validator"
+   ],
+   "op": "hand",
+   "word": "بِأَنَّنِي",
+   "gloss": "that I (after ashʿuru bi-)"
+  },
+  {
+   "chunk": "H",
+   "ids": [
+    "validator"
+   ],
+   "op": "hand",
+   "word": "يَتَسَاقَطُ",
+   "gloss": "falls (snow, rain)"
+  },
+  {
+   "chunk": "H",
+   "ids": [
+    "validator"
+   ],
+   "op": "hand",
+   "word": "نَجَحْتَ",
+   "gloss": "you succeed (past form after in: 'if you study, you succeed')"
+  },
+  {
+   "chunk": "H",
+   "ids": [
+    "validator"
+   ],
+   "op": "hand",
+   "word": "الْخِدْمَة",
+   "gloss": "the service"
+  }
+ ],
+ "checks": [
+  {
+   "chunk": "H",
+   "ids": [
+    "validator"
+   ],
+   "area": "glossary-hand",
+   "expect": "أَرْبِعَاء=Wednesday"
+  },
+  {
+   "chunk": "H",
+   "ids": [
+    "validator"
+   ],
+   "area": "glossary-hand",
+   "expect": "مُدَرَاء=managers, directors (common plural; standard: mudīrūna)"
+  },
+  {
+   "chunk": "H",
+   "ids": [
+    "validator"
+   ],
+   "area": "glossary-hand",
+   "expect": "بِجَائِزَةِ=a prize (fāza bi-: to win)"
+  },
+  {
+   "chunk": "H",
+   "ids": [
+    "validator"
+   ],
+   "area": "glossary-hand",
+   "expect": "بِجَائِزَة=a prize (fāza bi-: to win)"
+  },
+  {
+   "chunk": "H",
+   "ids": [
+    "validator"
+   ],
+   "area": "glossary-hand",
+   "expect": "عَالِيًا=loud, high (-an after kāna)"
+  },
+  {
+   "chunk": "H",
+   "ids": [
+    "validator"
+   ],
+   "area": "glossary-hand",
+   "expect": "الْأَقْدَامِ=the feet (ʿalā l-aqdām: on foot)"
+  },
+  {
+   "chunk": "H",
+   "ids": [
+    "validator"
+   ],
+   "area": "glossary-hand",
+   "expect": "أَخَا=brother (object form, before another word)"
+  },
+  {
+   "chunk": "H",
+   "ids": [
+    "validator"
+   ],
+   "area": "glossary-hand",
+   "expect": "أَبَا=father (object form, before another word)"
+  },
+  {
+   "chunk": "H",
+   "ids": [
+    "validator"
+   ],
+   "area": "glossary-hand",
+   "expect": "بِأَنَّنِي=that I (after ashʿuru bi-)"
+  },
+  {
+   "chunk": "H",
+   "ids": [
+    "validator"
+   ],
+   "area": "glossary-hand",
+   "expect": "يَتَسَاقَطُ=falls (snow, rain)"
+  },
+  {
+   "chunk": "H",
+   "ids": [
+    "validator"
+   ],
+   "area": "glossary-hand",
+   "expect": "نَجَحْتَ=you succeed (past form after in: 'if you study, you succeed')"
+  },
+  {
+   "chunk": "H",
+   "ids": [
+    "validator"
+   ],
+   "area": "glossary-hand",
+   "expect": "الْخِدْمَة=the service"
+  }
+ ],
+ "skipped": [],
+ "notesForLead": []
+}

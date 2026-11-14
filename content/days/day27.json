@@ -374,7 +374,7 @@
       {
         "id": "d27l3",
         "sp": "seller",
-        "ar": "أَهْلًا وَسَهْلًا! تَفَضَّلُوا. عِنْدَنَا قُمْصَان جَدِيدَة، وَكُلُّهَا مِنَ الْقُطْن الْمِصْرِيّ.",
+        "ar": "أَهْلًا وَسَهْلًا! تَفَضَّلَا. عِنْدَنَا قُمْصَان جَدِيدَة، وَكُلُّهَا مِنَ الْقُطْن الْمِصْرِيّ.",
         "en": "Welcome! Come in. We have new shirts, and they are all made of Egyptian cotton.",
         "segs": [
           [
@@ -386,8 +386,8 @@
             "and ease (part of 'welcome')"
           ],
           [
-            "تَفَضَّلُوا",
-            "please come in (to several people)"
+            "تَفَضَّلَا",
+            "please come in (to two people)"
           ],
           [
             "عِنْدَنَا",

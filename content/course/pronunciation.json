@@ -22,15 +22,15 @@
     "pairs": [ [ { "ar": "دَرَسَ", "en": "he studied" }, { "ar": "دَرَّسَ", "en": "he taught" } ] ] },
   { "id": "emphatics", "title": "Emphatic consonants ص ض ط ظ", "category": "Emphatics", "ipa": ["sˤ", "dˤ", "tˤ", "ðˤ"],
     "letters": ["ص", "ض", "ط", "ظ"],
-    "tip": "Say s, d, t or th, but pull the back of your tongue up and back and make the mouth hollow. The vowels around an emphatic sound darker: a becomes closer to the 'u' in 'but'.",
+    "tip": "Say s, d, t or th, but pull the back of your tongue up and back and make the mouth hollow. The vowels around an emphatic sound darker: a becomes closer to the a of 'father' or the o of 'hot'.",
     "diagram": "tongue tip in the same place as s / d / t / th; the back of the tongue is raised towards the soft palate",
     "error": "Saying ص as a plain s. sayf (sword) and ṣayf (summer) are different words.",
     "examples": [ { "ar": "صَبَاح", "en": "morning" }, { "ar": "طَالِب", "en": "student" }, { "ar": "أَيْضًا", "en": "also" } ],
     "pairs": [ [ { "ar": "سَيْف", "en": "sword" }, { "ar": "صَيْف", "en": "summer" } ] ] },
   { "id": "ayn", "title": "ʿayn (ع) and ghayn (غ)", "category": "Throat sounds", "ipa": ["ʕ", "ɣ"],
     "letters": ["ع", "غ"],
-    "tip": "For ع, squeeze the muscles of the middle of your throat while your voice is on, as if gagging gently. For غ, gargle softly at the back of the mouth, like a French r.",
-    "diagram": "ع: middle of the throat narrows, voice on · غ: back of the tongue near the uvula, voice on, air rubs through",
+    "tip": "For ع, squeeze the muscles of the middle of your throat while your voice is on, as if gagging gently. For غ, gargle softly at the soft palate (غ is the voiced partner of خ), close to a French r.",
+    "diagram": "ع: middle of the throat narrows, voice on · غ: back of the tongue near the soft palate, voice on, air rubs through",
     "error": "Leaving ع out completely. ʿĀʾila (family) needs the throat squeeze at the start.",
     "examples": [ { "ar": "عَائِلَة", "en": "family" }, { "ar": "مَعَ السَّلَامَة", "en": "goodbye" }, { "ar": "غُرْفَة", "en": "room" } ] },
   { "id": "sun-moon", "title": "Sun and moon letters", "category": "The article", "ipa": ["al", "aC-C"],
@@ -79,7 +79,7 @@
       "ي",
       "و"
     ],
-    "tip": "A long vowel is written with a letter: alif for ā, yāʾ for ī and wāw for ū. Hold it about twice as long as a short vowel, as in English 'seat' against 'sit'. Many job words have one: طَالِب (ṭālib) and طَبِيب (ṭabīb).",
+    "tip": "A long vowel is written with a letter: alif for ā, yāʾ for ī and wāw for ū. Hold it about twice as long as a short vowel: the length is what matters. طَالِب (ṭālib, student) and طَبِيب (ṭabīb, doctor) each have one.",
     "diagram": "fatha + alif = ā · kasra + yāʾ = ī · damma + wāw = ū · a short vowel is only a small mark",
     "error": "Shortening the long vowel (ṭalib instead of ṭālib), or stretching a short one: مُدَرِّس (mudarris) has no long vowel at all.",
     "examples": [
@@ -354,7 +354,7 @@
       "ض",
       "د"
     ],
-    "tip": "Arabic is often called لُغَةُ الضَّاد, 'the language of ḍād', because this sound is so rare in other languages. Say d, but press the front of the tongue firmly behind the top teeth and raise the back of the tongue, so the mouth feels hollow. The vowels next to it sound darker: ḍa sounds closer to the 'du' of 'dull'.",
+    "tip": "Arabic is often called لُغَةُ الضَّاد, 'the language of ḍād', because this sound is so rare in other languages. Say d, but press the front of the tongue firmly behind the top teeth and raise the back of the tongue, so the mouth feels hollow. The vowels next to it sound darker: the a of ḍa sounds closer to the a of 'father' or the o of 'hot'.",
     "diagram": "tongue tip behind the upper teeth, as for d · back of the tongue raised towards the soft palate · voice on",
     "error": "Saying ض as a plain d. darb (path) and ḍarb (hitting) are different words, and أَرْض (floor, ground) said with a light d sounds wrong.",
     "examples": [
@@ -476,7 +476,7 @@
       "ط",
       "ت"
     ],
-    "tip": "ت is a light t with the tongue tip just behind the top teeth. For ط keep the tip in the same place, but pull the back of the tongue up and back so the mouth feels hollow: the sound is heavier, and the vowels next to it turn darker. Neither one has the puff of air of an English t.",
+    "tip": "ت is a light t with the tongue tip just behind the top teeth. For ط keep the tip in the same place, but pull the back of the tongue up and back so the mouth feels hollow: the sound is heavier, and the vowels next to it turn darker. ط has no puff of air at all.",
     "diagram": "same tongue-tip position for both · ط: back of the tongue raised towards the soft palate, mouth hollow",
     "error": "Saying طَبِيب (doctor) with a light t. tīn (figs) and ṭīn (mud) are different words.",
     "examples": [
@@ -516,7 +516,7 @@
     "letters": [
       "غ"
     ],
-    "tip": "غ is the voiced partner of خ. Say the kh of خ, then switch your voice on: you feel a buzz in the throat. It is close to the French r in 'Paris', made at the back of the mouth. Keep it smooth and continuous, never a hard g.",
+    "tip": "غ is the voiced partner of خ. Say the kh of خ, then switch your voice on: you feel a buzz in the throat. It is made at the soft palate and is close to the French r in 'Paris'. Keep it smooth and continuous, never a hard g.",
     "diagram": "back of the tongue close to the soft palate, as for خ, with the voice on",
     "error": "Saying غ as a hard g, or as the ʿ of ع. غَضْبَان (angry) begins with a soft gargle, not with g.",
     "examples": [
@@ -559,7 +559,7 @@
       "ة",
       "ا"
     ],
-    "tip": "When you stop at the end of a sentence or a phrase, drop the short vowel or the -un, -in ending of the last word: غَدٍ is said ghad, and يَوْمُ at a stop is just yawm. The -an ending, written with an alif, becomes a long ā: شُكْرًا is said shukrā, غَدًا is said ghadā. A word with ة becomes a plain -a: نِهَايَة is said nihāya. Inside the sentence, keep the endings that the text shows.",
+    "tip": "When you stop at the end of a sentence or a phrase, drop the short vowel or the -un, -in ending of the last word: غَدٍ is said ghad, and يَوْمُ at a stop is just yawm. The -an ending, written with an alif, becomes a long ā: شُكْرًا is said shukrā, غَدًا is said ghadā. A word with ة becomes a plain -a: نِهَايَةٌ is said nihāya. Inside the sentence, keep the endings that the text shows.",
     "diagram": "nihāyatun → nihāya | shukran → shukrā | yawmu → yawm (stop here)",
     "error": "Reading every ending in full at a stop, for example fī l-masāʾi at the end of a sentence: it sounds like a machine. Stop on the bare word: fī l-masāʾ.",
     "examples": [
@@ -626,7 +626,7 @@
       "س",
       "ص"
     ],
-    "tip": "س is the ordinary English s. For ص keep the tip of the tongue in the same place, but pull the back of the tongue up and back, as if you had something hot in your mouth. The s itself sounds darker, and the vowel next to it sounds deeper: صَ is closer to the vowel in 'sun' or 'saw' than to the one in 'sat'.",
+    "tip": "س is the ordinary English s. For ص keep the tip of the tongue in the same place, but pull the back of the tongue up and back, as if you had something hot in your mouth. The s itself sounds darker, and the vowel next to it sounds deeper: the a of صَ is closer to the a of 'father' or the o of 'hot' than to the a of 'sat'.",
     "diagram": "for both letters the tip of the tongue is just behind the upper teeth; for ص the back of the tongue is also raised towards the soft palate and pulled back",
     "error": "Saying ص as a plain s. Then صَيْف (summer) sounds like سَيْف (sword). Listen to the vowel: after ص the a is dark and deep, after س it is bright.",
     "examples": [
@@ -729,7 +729,7 @@
     ],
     "tip": "د is a clean d, with the tip of the tongue just behind the top teeth, lighter than the English d. For ذ push the tip of the tongue out a little between the teeth and let the air buzz past it: the th of 'this'. Both have the voice on.",
     "diagram": "د: tongue tip touches the ridge behind the upper teeth, then lets go · ذ: tongue tip lightly between the teeth, air flows the whole time",
-    "error": "Saying ذ as d or z, as many people do in Egyptian Arabic: هٰذَا becomes 'hāda' or 'hāza'. In standard Arabic keep the th of 'this': hādhā, dhāhib.",
+    "error": "Saying ذ as d or z, as many people do in everyday Egyptian Arabic: ذَهَب (gold) is said 'dahab' in Egypt. In standard Arabic keep the th of 'this': dhahab, hādhā, dhāhib.",
     "examples": [
       {
         "ar": "مُدِير",

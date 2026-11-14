@@ -36,7 +36,7 @@ function tr(s: string, path = '') {
   // sentence capital, letters named, a run whose reading the English already gives stays in Arabic
   const prose = /[A-Za-z]{2}/.test(s) || /(^|\.)formula$/.test(path);
   try {
-    return prose ? proseLine(s, 'academic') : translitLine(s, 'academic', names);
+    return prose ? proseLine(s, 'academic', filePlace === 'pron:wasl') : translitLine(s, 'academic', names);
   } catch {
     return '(no transliteration)';
   }

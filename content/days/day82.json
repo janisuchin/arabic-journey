@@ -16,8 +16,8 @@
     ]
   ],
   "emoji": "🖋️",
-  "summary": "Write a formal letter of application: open with السَّيِّد … الْمُحْتَرَم and تَحِيَّة طَيِّبَة وَبَعْدُ, present your request with أَتَشَرَّفُ بِأَنْ…, speak to the reader in the plural of respect and close with وَتَفَضَّلُوا بِقَبُولِ فَائِقِ الِاحْتِرَام.",
-  "intro": "On day 67 Daniel wrote a polite email at work. Today Layla writes something even more formal: a letter of application, طَلَب, to a university. The frame is fixed. Start with السَّيِّد (Mr) + the person's title + الْمُحْتَرَم (the respected), then تَحِيَّة طَيِّبَة وَبَعْدُ (greetings, and after that). Present your request with أَتَشَرَّفُ بِأَنْ… (I have the honour to…). Speak to the one reader in the plural, as a sign of respect: تَفَضَّلُوا (kindly…), رَدِّكُمْ (your reply). End with وَتَفَضَّلُوا بِقَبُولِ فَائِقِ الِاحْتِرَام (please accept my highest respect) and your name. Listen for ة too: it is 'a' at the end of a phrase (مِنْحَة) but 'at' before another word (مِنْحَةُ الْجَامِعَة).",
+  "summary": "Write a formal letter of application: open with السَّيِّد … الْمُحْتَرَم and تَحِيَّةً طَيِّبَةً وَبَعْدُ, present your request with أَتَشَرَّفُ بِأَنْ…, speak to the reader in the plural of respect and close with وَتَفَضَّلُوا بِقَبُولِ فَائِقِ الِاحْتِرَام.",
+  "intro": "On day 67 Daniel wrote a polite email at work. Today Layla writes something even more formal: a letter of application, طَلَب, to a university. The frame is fixed. Start with السَّيِّد (Mr) + the person's title + الْمُحْتَرَم (the respected), then تَحِيَّةً طَيِّبَةً وَبَعْدُ (greetings, and after that). Present your request with أَتَشَرَّفُ بِأَنْ… (I have the honour to…). Speak to the one reader in the plural, as a sign of respect: تَفَضَّلُوا (kindly…), رَدِّكُمْ (your reply). End with وَتَفَضَّلُوا بِقَبُولِ فَائِقِ الِاحْتِرَام (please accept my highest respect) and your name. Listen for ة too: it is 'a' at the end of a phrase (مِنْحَة) but 'at' before another word (مِنْحَةُ الْجَامِعَة).",
   "objectives": [
     "Lay out a formal letter: السَّيِّد … الْمُحْتَرَم, the greeting, the request and the closing",
     "Present a formal request with أَتَشَرَّفُ بِأَنْ + a verb",
@@ -53,7 +53,7 @@
   "sentences": [
     {
       "id": "d82s1",
-      "ar": "السَّيِّد الْمُدِير الْمُحْتَرَم، تَحِيَّة طَيِّبَة وَبَعْدُ.",
+      "ar": "السَّيِّد الْمُدِير الْمُحْتَرَم، تَحِيَّةً طَيِّبَةً وَبَعْدُ.",
       "en": "Dear Director, greetings.",
       "literal": "the Mr the director the respected, a good greeting and after (that)",
       "segs": [
@@ -73,12 +73,12 @@
           "adj"
         ],
         [
-          "تَحِيَّة",
+          "تَحِيَّةً",
           "a greeting",
           "noun"
         ],
         [
-          "طَيِّبَة",
+          "طَيِّبَةً",
           "good, kind (f)",
           "adj"
         ],
@@ -94,7 +94,7 @@
       "mistakes": [
         {
           "wrong": "عَزِيزِي الْمُدِير، مَرْحَبًا!",
-          "right": "السَّيِّد الْمُدِير الْمُحْتَرَم، تَحِيَّة طَيِّبَة وَبَعْدُ",
+          "right": "السَّيِّد الْمُدِير الْمُحْتَرَم، تَحِيَّةً طَيِّبَةً وَبَعْدُ",
           "why": "عَزِيزِي and مَرْحَبًا are for friends. To an official you don't know, write as-sayyid … al-muḥtaram and the formal greeting."
         }
       ]
@@ -154,7 +154,7 @@
         {
           "wrong": "أَتَشَرَّفُ أَنْ أَتَقَدَّمَ",
           "right": "أَتَشَرَّفُ بِأَنْ أَتَقَدَّمَ",
-          "why": "In a formal letter the set phrase is atasharrafu bi-an + a verb (bi-an ataqaddama): keep the bi-."
+          "why": "In a formal letter the set phrase is usually atasharrafu bi-an + a verb (bi-an ataqaddama). Without bi- it is also seen in real letters, but it is less careful, so keep the bi-."
         }
       ]
     },
@@ -267,7 +267,7 @@
         {
           "wrong": "مُرْفَق مَعَ هٰذِهِ الرِّسَالَة سِيرَتِي الذَّاتِيَّة",
           "right": "مُرْفَقَة مَعَ هٰذِهِ الرِّسَالَة سِيرَتِي الذَّاتِيَّة",
-          "why": "The first thing attached, sīra (CV), is feminine, so murfaq takes ة: murfaqa."
+          "why": "Both are seen in real letters, but murfaqa is better: the first thing attached, sīra (CV), is feminine, so murfaqa agrees with it."
         }
       ]
     },
@@ -663,19 +663,23 @@
       {
         "id": "d82l5",
         "sp": "layla",
-        "ar": "عِنْدَكَ حَقّ. إِذَنْ كَيْفَ أَبْدَأُ؟ عِنْدَمَا كَتَبَ دَانْيَال رِسَالَتَهُ فِي الْعَمَل، تَعَلَّمْنَا «حَضْرَةَ … الْمُحْتَرَم». هَلْ هٰذَا نَفْسُ الشَّيْء؟",
+        "ar": "أَنْتَ عَلَى حَقّ. إِذًا كَيْفَ أَبْدَأُ؟ عِنْدَمَا كَتَبَ دَانْيَال رِسَالَتَهُ فِي الْعَمَل، تَعَلَّمْنَا «حَضْرَةَ … الْمُحْتَرَم». هَلْ هٰذَا نَفْسُ الشَّيْء؟",
         "en": "You're right. So how do I begin? When Daniel wrote his email at work, we learned 'ḥaḍrata … al-muḥtaram'. Is that the same thing?",
         "segs": [
           [
-            "عِنْدَكَ",
-            "you have (to a man)"
+            "أَنْتَ",
+            "you (to a man)"
+          ],
+          [
+            "عَلَى",
+            "on (ʿalā ḥaqq: in the right)"
           ],
           [
             "حَقّ",
             "right ('you're right')"
           ],
           [
-            "إِذَنْ",
+            "إِذًا",
             "so, then"
           ],
           [
@@ -744,7 +748,7 @@
       {
         "id": "d82l6",
         "sp": "karim",
-        "ar": "تَقْرِيبًا. فِي الرِّسَالَة الرَّسْمِيَّة نَكْتُبُ: «السَّيِّد مُدِير الْبَرْنَامَج الْمُحْتَرَم»، ثُمَّ «تَحِيَّة طَيِّبَة وَبَعْدُ». وَلِلْمَرْأَة نَكْتُبُ: «السَّيِّدَة … الْمُحْتَرَمَة».",
+        "ar": "تَقْرِيبًا. فِي الرِّسَالَة الرَّسْمِيَّة نَكْتُبُ: «السَّيِّد مُدِير الْبَرْنَامَج الْمُحْتَرَم»، ثُمَّ «تَحِيَّةً طَيِّبَةً وَبَعْدُ». وَلِلْمَرْأَة نَكْتُبُ: «السَّيِّدَة … الْمُحْتَرَمَة».",
         "en": "Almost. In a formal letter we write: 'Dear Mr Director of the Programme', then 'Greetings, and after that'. And to a woman we write: 'Dear Mrs …'.",
         "segs": [
           [
@@ -788,11 +792,11 @@
             "then"
           ],
           [
-            "تَحِيَّة",
+            "تَحِيَّةً",
             "a greeting"
           ],
           [
-            "طَيِّبَة",
+            "طَيِّبَةً",
             "good, kind (f)"
           ],
           [
@@ -969,8 +973,8 @@
       {
         "id": "d82l9",
         "sp": "karim",
-        "ar": "صَحِيحَة وَجَمِيلَة! «أَتَشَرَّفُ» مِنْ جَذْرِ «تَشَرَّفْنَا»، وَمَعْنَاهَا: هٰذَا شَرَف لِي. وَبَعْدَهَا نَسْتَعْمِلُ دَائِمًا «بِأَنْ» ثُمَّ فِعْلًا.",
-        "en": "Correct and elegant! 'Atasharrafu' has the same root as 'tasharrafnā', and it means: this is an honour for me. After it we always use 'bi-an' and then a verb.",
+        "ar": "صَحِيحَة وَجَمِيلَة! «أَتَشَرَّفُ» مِنْ جَذْرِ «تَشَرَّفْنَا»، وَمَعْنَاهَا: هٰذَا شَرَف لِي. وَبَعْدَهَا نَسْتَعْمِلُ عَادَةً «بِأَنْ» ثُمَّ فِعْلًا.",
+        "en": "Correct and elegant! 'Atasharrafu' has the same root as 'tasharrafnā', and it means: this is an honour for me. After it we usually use 'bi-an' and then a verb.",
         "segs": [
           [
             "صَحِيحَة",
@@ -1021,8 +1025,8 @@
             "we use"
           ],
           [
-            "دَائِمًا",
-            "always"
+            "عَادَةً",
+            "usually"
           ],
           [
             "بِأَنْ",
@@ -1537,7 +1541,7 @@
   },
   "reading": {
     "title": "Layla's letter",
-    "ar": "السَّيِّد مُدِير بَرْنَامَج الْمَاجِسْتِير فِي التَّرْجَمَة الْمُحْتَرَم، تَحِيَّة طَيِّبَة وَبَعْدُ، أَتَشَرَّفُ بِأَنْ أَتَقَدَّمَ بِطَلَبِ مِنْحَةٍ فِي بَرْنَامَجِكُمْ. أَنَا طَالِبَة مِنْ لُبْنَان، وَأَرْغَبُ فِي دِرَاسَةِ التَّرْجَمَةِ بِجَامِعَتِكُمْ. مُرْفَقَة مَعَ هٰذِهِ الرِّسَالَة سِيرَتِي الذَّاتِيَّة وَشَهَادَتِي مِنَ الْجَامِعَة. وَفِي انْتِظَارِ رَدِّكُمْ. وَتَفَضَّلُوا بِقَبُولِ فَائِقِ الِاحْتِرَام. لَيْلَى",
+    "ar": "السَّيِّد مُدِير بَرْنَامَج الْمَاجِسْتِير فِي التَّرْجَمَة الْمُحْتَرَم، تَحِيَّةً طَيِّبَةً وَبَعْدُ، أَتَشَرَّفُ بِأَنْ أَتَقَدَّمَ بِطَلَبِ مِنْحَةٍ فِي بَرْنَامَجِكُمْ. أَنَا طَالِبَة مِنْ لُبْنَان، وَأَرْغَبُ فِي دِرَاسَةِ التَّرْجَمَةِ بِجَامِعَتِكُمْ. مُرْفَقَة مَعَ هٰذِهِ الرِّسَالَة سِيرَتِي الذَّاتِيَّة وَشَهَادَتِي مِنَ الْجَامِعَة. وَفِي انْتِظَارِ رَدِّكُمْ. وَتَفَضَّلُوا بِقَبُولِ فَائِقِ الِاحْتِرَام. لَيْلَى",
     "en": "Dear Director of the Master's Programme in Translation, Greetings. I have the honour to apply for a scholarship in your programme. I am a student from Lebanon, and I would like to study translation at your university. Attached to this letter are my CV and my degree certificate from university. I look forward to your reply. Yours faithfully, Layla",
     "segs": [
       [
@@ -1569,11 +1573,11 @@
         "the respected ('dear')"
       ],
       [
-        "تَحِيَّة",
+        "تَحِيَّةً",
         "a greeting"
       ],
       [
-        "طَيِّبَة",
+        "طَيِّبَةً",
         "good, kind (f)"
       ],
       [
@@ -1730,12 +1734,12 @@
       "prompt": "Which opening is right for a formal letter to a director you don't know?",
       "options": [
         "عَزِيزِي الْمُدِير، مَرْحَبًا!",
-        "السَّيِّد الْمُدِير الْمُحْتَرَم، تَحِيَّة طَيِّبَة وَبَعْدُ",
+        "السَّيِّد الْمُدِير الْمُحْتَرَم، تَحِيَّةً طَيِّبَةً وَبَعْدُ",
         "أَهْلًا يَا مُدِير!",
         "شُكْرًا جَزِيلًا يَا أُسْتَاذ!"
       ],
       "answer": 1,
-      "explain": "To an official you don't know: as-sayyid + title + al-muḥtaram, then taḥiyya ṭayyiba wa-baʿdu."
+      "explain": "To an official you don't know: as-sayyid + title + al-muḥtaram, then taḥiyyatan ṭayyibatan wa-baʿdu."
     },
     {
       "id": "d82q2",

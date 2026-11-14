@@ -1,5 +1,5 @@
 [
-  { "id": "alif", "char": "ا", "name": "alif", "nameAr": "أَلِف", "tr": "ā / ʾ", "ipa": "aː, ʔ", "sun": false, "day": 1, "sound": "a long 'aa' after a consonant; at the start of a word it carries a hamza (a glottal stop)", "example": { "ar": "بَاب", "en": "door" } },
+  { "id": "alif", "char": "ا", "name": "alif", "nameAr": "أَلِف", "tr": "ā / ʾ", "ipa": "aː, ʔ", "sun": false, "day": 1, "sound": "a long 'aa' after a consonant; at the start of a word it usually carries a hamza (a glottal stop)", "example": { "ar": "بَاب", "en": "door" } },
   { "id": "ba", "char": "ب", "name": "bāʾ", "nameAr": "بَاء", "tr": "b", "ipa": "b", "sun": false, "day": 1, "sound": "b as in 'book'", "example": { "ar": "بَيْت", "en": "house" } },
   { "id": "ta", "char": "ت", "name": "tāʾ", "nameAr": "تَاء", "tr": "t", "ipa": "t", "sun": true, "day": 1, "sound": "t as in 'ten', with the tongue touching the back of the top teeth", "example": { "ar": "تُفَّاح", "en": "apples" } },
   { "id": "tha", "char": "ث", "name": "thāʾ", "nameAr": "ثَاء", "tr": "th", "ipa": "θ", "sun": true, "day": 1, "sound": "th as in 'think' (never as in 'this')", "example": { "ar": "ثَلَاثَة", "en": "three" } },
@@ -17,7 +17,7 @@
   { "id": "tta", "char": "ط", "name": "ṭāʾ", "nameAr": "طَاء", "tr": "ṭ", "ipa": "tˤ", "sun": true, "day": 5, "sound": "an emphatic t: a heavy, dark t", "example": { "ar": "طَالِب", "en": "student" } },
   { "id": "za", "char": "ظ", "name": "ẓāʾ", "nameAr": "ظَاء", "tr": "ẓ", "ipa": "ðˤ", "sun": true, "day": 5, "sound": "an emphatic voiced th (as in 'this'), heavy and dark", "example": { "ar": "ظُهْر", "en": "noon" } },
   { "id": "ayn", "char": "ع", "name": "ʿayn", "nameAr": "عَيْن", "tr": "ʿ", "ipa": "ʕ", "sun": false, "day": 5, "sound": "a voiced squeeze deep in the throat; there is no English equivalent", "example": { "ar": "عَائِلَة", "en": "family" } },
-  { "id": "ghayn", "char": "غ", "name": "ghayn", "nameAr": "غَيْن", "tr": "gh", "ipa": "ɣ", "sun": false, "day": 5, "sound": "like a gargled r, as in French 'Paris'", "example": { "ar": "غُرْفَة", "en": "room" } },
+  { "id": "ghayn", "char": "غ", "name": "ghayn", "nameAr": "غَيْن", "tr": "gh", "ipa": "ɣ", "sun": false, "day": 5, "sound": "a soft gargle made at the soft palate (the voiced partner of خ), close to the French r in 'Paris'", "example": { "ar": "غُرْفَة", "en": "room" } },
   { "id": "fa", "char": "ف", "name": "fāʾ", "nameAr": "فَاء", "tr": "f", "ipa": "f", "sun": false, "day": 6, "sound": "f as in 'fan'", "example": { "ar": "فِنْجَان", "en": "cup" } },
   { "id": "qaf", "char": "ق", "name": "qāf", "nameAr": "قَاف", "tr": "q", "ipa": "q", "sun": false, "day": 6, "sound": "a k made further back, at the uvula", "example": { "ar": "قَلَم", "en": "pen" } },
   { "id": "kaf", "char": "ك", "name": "kāf", "nameAr": "كَاف", "tr": "k", "ipa": "k", "sun": false, "day": 6, "sound": "k as in 'kite'", "example": { "ar": "كِتَاب", "en": "book" } },

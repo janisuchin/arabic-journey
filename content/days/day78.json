@@ -12,11 +12,11 @@
     ]
   ],
   "emoji": "♻️",
-  "summary": "Talk about pollution, rubbish, recycling and the climate, say what we must do with يَجِبُ أَنْ and لَازِم أَنْ, and plan a clean-up day with the class.",
-  "intro": "Week 12 is about society and the world, and it opens with the environment, الْبِيئَة. Today you will talk about pollution (تَلَوُّث), rubbish (نُفَايَات), recycling (إِعَادَةُ التَّدْوِير) and the climate (الْمُنَاخ). To say what we must do, use يَجِبُ أَنْ or لَازِم أَنْ + a verb ending in -a: يَجِبُ أَنْ نَحْمِيَ الْبِيئَةَ (we must protect the environment). Many of today's words are verbal nouns: إِعَادَةُ التَّدْوِير is literally 'doing the turning again', and يَوْمُ تَنْظِيفٍ is 'a day of cleaning', a clean-up day. Listen for the ḍād (ض) in الْأَرْضُ (the earth) and مُضِرّ (harmful).",
+  "summary": "Talk about pollution, rubbish, recycling and the climate, say what we must do with يَجِبُ أَنْ and مِنَ اللَّازِمِ أَنْ, and plan a clean-up day with the class.",
+  "intro": "Week 12 is about society and the world, and it opens with the environment, الْبِيئَة. Today you will talk about pollution (تَلَوُّث), rubbish (نُفَايَات), recycling (إِعَادَةُ التَّدْوِير) and the climate (الْمُنَاخ). To say what we must do, use يَجِبُ أَنْ or مِنَ اللَّازِمِ أَنْ (it is necessary to) + a verb ending in -a: يَجِبُ أَنْ نَحْمِيَ الْبِيئَةَ (we must protect the environment). In everyday speech you will also hear لَازِم أَنْ; in writing, use these forms. Many of today's words are verbal nouns: إِعَادَةُ التَّدْوِير is literally 'doing the turning again', and يَوْمُ تَنْظِيفٍ is 'a day of cleaning', a clean-up day. Listen for the ḍād (ض) in الْأَرْضُ (the earth) and مُضِرّ (harmful).",
   "objectives": [
     "Name environmental problems: pollution, rubbish and climate change",
-    "Say what we must do with يَجِبُ أَنْ or لَازِم أَنْ + a verb ending in -a",
+    "Say what we must do with يَجِبُ أَنْ or مِنَ اللَّازِمِ أَنْ + a verb ending in -a",
     "Use verbal nouns like إِعَادَةُ التَّدْوِير (recycling) and حِمَايَةُ الْبِيئَةِ (protecting the environment)",
     "Give simple advice on saving water and energy at home"
   ],
@@ -160,14 +160,19 @@
     },
     {
       "id": "d78s4",
-      "ar": "لَازِم أَنْ نُوَفِّرَ الْمَاءَ وَالْكَهْرَبَاءَ.",
+      "ar": "مِنَ اللَّازِمِ أَنْ نُوَفِّرَ الْمَاءَ وَالْكَهْرَبَاءَ.",
       "en": "We must save water and electricity.",
-      "literal": "necessary that we save the water and the electricity",
+      "literal": "from the necessary (it is necessary) that we save the water and the electricity",
       "segs": [
         [
-          "لَازِم",
-          "necessary, must",
-          "adj"
+          "مِنَ",
+          "from (min al-lāzim: it is necessary)",
+          "prep"
+        ],
+        [
+          "اللَّازِمِ",
+          "the necessary (min al-lāzim an: it is necessary to)",
+          "noun"
         ],
         [
           "أَنْ",
@@ -196,8 +201,8 @@
       ],
       "mistakes": [
         {
-          "wrong": "لَازِم أَنْ نُوَفِّرُ الْمَاءَ",
-          "right": "لَازِم أَنْ نُوَفِّرَ الْمَاءَ",
+          "wrong": "مِنَ اللَّازِمِ أَنْ نُوَفِّرُ الْمَاءَ",
+          "right": "مِنَ اللَّازِمِ أَنْ نُوَفِّرَ الْمَاءَ",
           "why": "After أَنْ the verb ends in -a: nuwaffira, not nuwaffiru."
         }
       ]
@@ -739,7 +744,7 @@
       {
         "id": "d78l7",
         "sp": "karim",
-        "ar": "مُمْتَاز يَا دَانْيَال. «إِعَادَةُ التَّدْوِير» يَعْنِي أَنْ نَسْتَعْمِلَ الْأَشْيَاءَ الْقَدِيمَة مَرَّةً ثَانِيَة، وَهِيَ تُوَفِّرُ الطَّاقَةَ وَالْمَاء.",
+        "ar": "مُمْتَاز يَا دَانْيَال. «إِعَادَةُ التَّدْوِير» تَعْنِي أَنْ نَسْتَعْمِلَ الْأَشْيَاءَ الْقَدِيمَة مَرَّةً ثَانِيَة، وَهِيَ تُوَفِّرُ الطَّاقَةَ وَالْمَاء.",
         "en": "Excellent, Daniel. 'Iʿādat at-tadwīr', recycling, means using old things a second time, and it saves energy and water.",
         "segs": [
           [
@@ -764,8 +769,8 @@
             "the turning ('recycling')"
           ],
           [
-            "يَعْنِي",
-            "(it) means"
+            "تَعْنِي",
+            "(it, f) means"
           ],
           [
             "أَنْ",
@@ -1108,7 +1113,7 @@
       {
         "id": "d78l12",
         "sp": "karim",
-        "ar": "فِكْرَة جَيِّدَة. إِذَنْ هٰذِهِ خُطَّتُنَا: يَوْمُ تَنْظِيفٍ فِي الْحَدِيقَة يَوْمَ السَّبْتِ السَّاعَةَ التَّاسِعَة، وَبَعْدَهُ نَزْرَعُ عَشْرَ شَجَرَات.",
+        "ar": "فِكْرَة جَيِّدَة. إِذًا هٰذِهِ خُطَّتُنَا: يَوْمُ تَنْظِيفٍ فِي الْحَدِيقَة يَوْمَ السَّبْتِ السَّاعَةَ التَّاسِعَة، وَبَعْدَهُ نَزْرَعُ عَشْرَ شَجَرَات.",
         "en": "A good idea. So this is our plan: a clean-up day in the park on Saturday at nine o'clock, and after it we plant ten trees.",
         "segs": [
           [
@@ -1120,7 +1125,7 @@
             "good (f)"
           ],
           [
-            "إِذَنْ",
+            "إِذًا",
             "so, then"
           ],
           [

@@ -192,7 +192,7 @@
         {
           "wrong": "هُوَ آكُلُ فُولًا",
           "right": "هُوَ يَأْكُلُ فُولًا",
-          "why": "The prefix يَـ means 'he'. آ (a + hamza) at the start means 'I'."
+          "why": "The prefix يَـ means 'he'. آ (hamza + long ā) at the start means 'I'."
         }
       ]
     },
@@ -935,7 +935,7 @@
     },
     {
       "id": "d15q3",
-      "prompt": "Why does شَايْ end in -an here?",
+      "prompt": "Why does شَاي end in -an here?",
       "ar": "أَشْرَبُ شَايًا.",
       "options": [
         "It is the object of the verb",

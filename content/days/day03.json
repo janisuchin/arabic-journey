@@ -24,7 +24,7 @@
   "dialogue": {
     "title": "Where is everyone from?",
     "speakers": [ { "key": "layla", "name": "Layla", "nameAr": "لَيْلَى" }, { "key": "daniel", "name": "Daniel", "nameAr": "دَانْيَال" }, { "key": "sami", "name": "Sami", "nameAr": "سَامِي" } ],
-    "culture": "Cairo (الْقَاهِرَة) is the largest city in the Arab world. Egyptians often call their country and its capital by the same name, مَصْر, in everyday speech.",
+    "culture": "Cairo (الْقَاهِرَة) is the largest city in the Arab world. Egyptians often call their country and its capital by the same name: مِصْر in standard Arabic, said مَصْر (Maṣr) in everyday speech.",
     "lines": [
       { "id": "d3l1", "sp": "layla", "ar": "مِنْ أَيْنَ أَنْتَ يَا دَانْيَال؟ مِنْ أَمْرِيكَا؟", "en": "Where are you from, Daniel? Are you from America?",
         "segs": [["مِنْ", "from"], ["أَيْنَ", "where"], ["أَنْتَ", "you (to a man)"], ["يَا", "O (calling someone)"], ["دَانْيَال", "Daniel (first name)", "name"], ["مِنْ", "from"], ["أَمْرِيكَا", "America (country)", "name"]] },

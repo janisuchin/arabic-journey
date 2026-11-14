@@ -162,9 +162,9 @@
       ],
       "mistakes": [
         {
-          "wrong": "ثَلَاثَة مَرَّات",
-          "right": "ثَلَاثَ مَرَّات",
-          "why": "marra is feminine, so the number three loses its ة: the numbers 3 to 10 take the opposite gender to the noun."
+          "wrong": "ثَلَاثَةَ مَرَّاتٍ",
+          "right": "ثَلَاثَ مَرَّاتٍ",
+          "why": "marra is feminine, so the number three loses its ة: thalātha marrātin, not thalāthata marrātin. The numbers 3 to 10 take the opposite gender to the noun."
         }
       ]
     },

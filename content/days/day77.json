@@ -649,8 +649,8 @@
       {
         "id": "d77l7",
         "sp": "karim",
-        "ar": "أَحْسَنْتِ يَا لَيْلَى. وَهٰذَا مَثَل أُحِبُّهُ أَنَا: «مَنْ جَدَّ وَجَدَ». هُنَا «مَنْ» لَيْسَتْ سُؤَالًا، بَلْ تَعْنِي: كُلُّ شَخْص.",
-        "en": "Well done, Layla. And here is a proverb that I love: 'man jadda wajada'. Here 'man' is not a question; it means: every person.",
+        "ar": "أَحْسَنْتِ يَا لَيْلَى. وَهٰذَا مَثَل أُحِبُّهُ أَنَا: «مَنْ جَدَّ وَجَدَ». هُنَا «مَنْ» لَيْسَتْ سُؤَالًا، بَلْ تَعْنِي كُلَّ شَخْصٍ.",
+        "en": "Well done, Layla. And here is a proverb that I love: 'man jadda wajada'. Here 'man' is not a question; it means every person.",
         "segs": [
           [
             "أَحْسَنْتِ",
@@ -718,11 +718,11 @@
             "(she) means"
           ],
           [
-            "كُلُّ",
-            "every"
+            "كُلَّ",
+            "every (object of 'means')"
           ],
           [
-            "شَخْص",
+            "شَخْصٍ",
             "person"
           ]
         ]
@@ -730,7 +730,7 @@
       {
         "id": "d77l8",
         "sp": "sami",
-        "ar": "يَعْنِي: مَنْ يَعْمَلُ كَثِيرًا يَجِدُ النَّجَاح. هٰذَا مَا يَقُولُهُ أَبِي لِعُمَر قَبْلَ كُلِّ امْتِحَان!",
+        "ar": "يَعْنِي: مَنْ يَعْمَلْ كَثِيرًا يَجِدِ النَّجَاحَ. هٰذَا مَا يَقُولُهُ أَبِي لِعُمَر قَبْلَ كُلِّ امْتِحَان!",
         "en": "It means: whoever works hard finds success. That's what my father tells Omar before every test!",
         "segs": [
           [
@@ -742,19 +742,19 @@
             "whoever"
           ],
           [
-            "يَعْمَلُ",
-            "(he) works"
+            "يَعْمَلْ",
+            "(he) works (jussive after man, whoever)"
           ],
           [
             "كَثِيرًا",
             "a lot, much"
           ],
           [
-            "يَجِدُ",
-            "(he) finds"
+            "يَجِدِ",
+            "(he) finds (jussive; -i before al-)"
           ],
           [
-            "النَّجَاح",
+            "النَّجَاحَ",
             "the success"
           ],
           [

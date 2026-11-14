@@ -1,0 +1,1878 @@
+{
+ "group": "Z (course-wide spelling pass)",
+ "ops": [
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-83"
+   ],
+   "op": "text",
+   "file": "content/days/day50.json",
+   "old": "\"ar\": \"مَعَكِ حَقّ. سَنَخْرُجُ",
+   "new": "\"ar\": \"أَنْتِ عَلَى حَقّ. سَنَخْرُجُ",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-83"
+   ],
+   "op": "text",
+   "file": "content/days/day50.json",
+   "old": "[[\"مَعَكِ\", \"with you (to a woman)\"], [\"حَقّ\", \"right, truth ('maʿaki ḥaqq': you're right)\"], [\"سَنَخْرُجُ\"",
+   "new": "[[\"أَنْتِ\", \"you (to a woman)\"], [\"عَلَى\", \"on (ʿalā ḥaqq: in the right)\"], [\"حَقّ\", \"right, truth ('you're right')\"], [\"سَنَخْرُجُ\"",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-83"
+   ],
+   "op": "text",
+   "file": "content/days/day82.json",
+   "old": "\"ar\": \"عِنْدَكَ حَقّ. ",
+   "new": "\"ar\": \"أَنْتَ عَلَى حَقّ. ",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-83"
+   ],
+   "op": "text",
+   "file": "content/days/day82.json",
+   "old": "[\n            \"عِنْدَكَ\",\n            \"you have (to a man)\"\n          ],\n          [\n            \"حَقّ\",\n            \"right ('you're right')\"\n          ]",
+   "new": "[\n            \"أَنْتَ\",\n            \"you (to a man)\"\n          ],\n          [\n            \"عَلَى\",\n            \"on (ʿalā ḥaqq: in the right)\"\n          ],\n          [\n            \"حَقّ\",\n            \"right ('you're right')\"\n          ]",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-83"
+   ],
+   "op": "text",
+   "file": "content/course/vocabulary.json",
+   "old": "\"example\": {\"ar\": \"أُوَافِقُكَ، مَعَكَ حَقّ.\", \"en\": \"I agree with you; you're right.\"}",
+   "new": "\"example\": {\"ar\": \"أُوَافِقُكَ، أَنْتَ عَلَى حَقّ.\", \"en\": \"I agree with you; you're right.\"}",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-83"
+   ],
+   "op": "text",
+   "file": "content/course/vocabulary.json",
+   "old": "\"note\": \"مَعَكَ حَقّ (to a man) and مَعَكِ حَقّ (to a woman) mean 'you're right', literally 'with you is the truth'.\"",
+   "new": "\"note\": \"أَنْتَ عَلَى حَقّ (to a man) and أَنْتِ عَلَى حَقّ (to a woman) mean 'you're right', literally 'you are on the truth'. In everyday speech you also hear مَعَكَ حَقّ.\"",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-48"
+   ],
+   "op": "text",
+   "file": "content/days/day67.json",
+   "old": "تَحِيَّة طَيِّبَة وَبَعْدُ",
+   "new": "تَحِيَّةً طَيِّبَةً وَبَعْدُ",
+   "count": 9
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-48"
+   ],
+   "op": "text",
+   "file": "content/days/day88.json",
+   "old": "تَحِيَّة طَيِّبَة وَبَعْدُ",
+   "new": "تَحِيَّةً طَيِّبَةً وَبَعْدُ",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-48"
+   ],
+   "op": "text",
+   "file": "content/course/grammar.json",
+   "old": "تَحِيَّة طَيِّبَة وَبَعْدُ",
+   "new": "تَحِيَّةً طَيِّبَةً وَبَعْدُ",
+   "count": 6
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-48"
+   ],
+   "op": "text",
+   "file": "content/course/vocabulary.json",
+   "old": "تَحِيَّة طَيِّبَة وَبَعْدُ",
+   "new": "تَحِيَّةً طَيِّبَةً وَبَعْدُ",
+   "count": 2
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-48"
+   ],
+   "op": "text",
+   "file": "content/days/day67.json",
+   "old": "\"تَحِيَّة\",\r\n            \"a greeting\"\r\n          ],\r\n          [\r\n            \"طَيِّبَة\"",
+   "new": "\"تَحِيَّةً\",\r\n            \"a greeting\"\r\n          ],\r\n          [\r\n            \"طَيِّبَةً\"",
+   "count": 2
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-48"
+   ],
+   "op": "text",
+   "file": "content/days/day67.json",
+   "old": "\"تَحِيَّة\",\r\n          \"a greeting\",\r\n          \"noun\"\r\n        ],\r\n        [\r\n          \"طَيِّبَة\"",
+   "new": "\"تَحِيَّةً\",\r\n          \"a greeting\",\r\n          \"noun\"\r\n        ],\r\n        [\r\n          \"طَيِّبَةً\"",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-48"
+   ],
+   "op": "text",
+   "file": "content/days/day67.json",
+   "old": "\"تَحِيَّة\",\r\n        \"a greeting\"\r\n      ],\r\n      [\r\n        \"طَيِّبَة\"",
+   "new": "\"تَحِيَّةً\",\r\n        \"a greeting\"\r\n      ],\r\n      [\r\n        \"طَيِّبَةً\"",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-48"
+   ],
+   "op": "text",
+   "file": "content/days/day82.json",
+   "old": "then taḥiyya ṭayyiba wa-baʿdu.",
+   "new": "then taḥiyyatan ṭayyibatan wa-baʿdu.",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-96"
+   ],
+   "op": "text",
+   "file": "content/course/grammar.json",
+   "old": "لَمْ + the present form of the verb, with a sukūn at the end, means 'did not':",
+   "new": "لَمْ + the short form of the present (sukūn for most persons; -na/-ni endings drop) means 'did not':",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-96"
+   ],
+   "op": "text",
+   "file": "content/course/course.json",
+   "old": "لَمْ + the present form with a sukūn ending means 'did not'.",
+   "new": "لَمْ + the short form of the present (sukūn for most persons; -na/-ni endings drop) means 'did not'.",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-101"
+   ],
+   "op": "text",
+   "file": "content/days/day16.json",
+   "old": "cold and really delicious.",
+   "new": "cold and very delicious.",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-101"
+   ],
+   "op": "text",
+   "file": "content/days/day16.json",
+   "old": "The juice is really delicious!",
+   "new": "The juice is very delicious!",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-101"
+   ],
+   "op": "text",
+   "file": "content/days/day17.json",
+   "old": "The fish is delicious, and the salads",
+   "new": "The fish is very delicious, and the salads",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-101"
+   ],
+   "op": "text",
+   "file": "content/days/day18.json",
+   "old": "the koshari is really delicious!",
+   "new": "the koshari is very delicious!",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-101"
+   ],
+   "op": "text",
+   "file": "content/days/day19.json",
+   "old": "All the dishes are really delicious.",
+   "new": "All the dishes are very delicious.",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-101"
+   ],
+   "op": "text",
+   "file": "content/days/day36.json",
+   "old": "Really delicious fish!",
+   "new": "Very delicious fish!",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-101"
+   ],
+   "op": "text",
+   "file": "content/days/day61.json",
+   "old": "the mansaf is delicious!",
+   "new": "the mansaf is very delicious!",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-101"
+   ],
+   "op": "text",
+   "file": "content/days/day71.json",
+   "old": "My mother's kaʿk is very tasty,",
+   "new": "My mother's kaʿk is very delicious,",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-101"
+   ],
+   "op": "text",
+   "file": "content/course/vocabulary.json",
+   "old": "The koshari is really delicious!",
+   "new": "The koshari is very delicious!",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-101"
+   ],
+   "op": "text",
+   "file": "content/course/vocabulary.json",
+   "old": "My mother's kaʿk is very tasty.",
+   "new": "My mother's kaʿk is very delicious.",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-49"
+   ],
+   "op": "text",
+   "file": "content/days/day18.json",
+   "old": "عَلِي",
+   "new": "عَلِيّ",
+   "count": 11
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-49"
+   ],
+   "op": "text",
+   "file": "content/days/day81.json",
+   "old": "عَلِي",
+   "new": "عَلِيّ",
+   "count": 4
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-41",
+    "R12-30"
+   ],
+   "op": "text",
+   "file": "content/days/day61.json",
+   "old": "أُرْدُنِي",
+   "new": "أُرْدُنِّي",
+   "count": 2
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-41",
+    "R12-30"
+   ],
+   "op": "text",
+   "file": "content/course/scenarios.json",
+   "old": "أُرْدُنِي",
+   "new": "أُرْدُنِّي",
+   "count": 7
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-41",
+    "R12-30"
+   ],
+   "op": "text",
+   "file": "content/course/scenes.json",
+   "old": "أُرْدُنِي",
+   "new": "أُرْدُنِّي",
+   "count": 2
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-50"
+   ],
+   "op": "text",
+   "file": "content/days/day08.json",
+   "old": "إِذَنْ",
+   "new": "إِذًا",
+   "count": 2
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-50"
+   ],
+   "op": "text",
+   "file": "content/days/day09.json",
+   "old": "إِذَنْ",
+   "new": "إِذًا",
+   "count": 2
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-50"
+   ],
+   "op": "text",
+   "file": "content/days/day10.json",
+   "old": "إِذَنْ",
+   "new": "إِذًا",
+   "count": 2
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-50"
+   ],
+   "op": "text",
+   "file": "content/days/day13.json",
+   "old": "إِذَنْ",
+   "new": "إِذًا",
+   "count": 2
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-50"
+   ],
+   "op": "text",
+   "file": "content/days/day17.json",
+   "old": "إِذَنْ",
+   "new": "إِذًا",
+   "count": 2
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-50"
+   ],
+   "op": "text",
+   "file": "content/days/day18.json",
+   "old": "إِذَنْ",
+   "new": "إِذًا",
+   "count": 4
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-50"
+   ],
+   "op": "text",
+   "file": "content/days/day19.json",
+   "old": "إِذَنْ",
+   "new": "إِذًا",
+   "count": 2
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-50"
+   ],
+   "op": "text",
+   "file": "content/days/day21.json",
+   "old": "إِذَنْ",
+   "new": "إِذًا",
+   "count": 2
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-50"
+   ],
+   "op": "text",
+   "file": "content/days/day31.json",
+   "old": "إِذَنْ",
+   "new": "إِذًا",
+   "count": 2
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-50"
+   ],
+   "op": "text",
+   "file": "content/days/day33.json",
+   "old": "إِذَنْ",
+   "new": "إِذًا",
+   "count": 2
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-50"
+   ],
+   "op": "text",
+   "file": "content/days/day35.json",
+   "old": "إِذَنْ",
+   "new": "إِذًا",
+   "count": 4
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-50"
+   ],
+   "op": "text",
+   "file": "content/days/day36.json",
+   "old": "إِذَنْ",
+   "new": "إِذًا",
+   "count": 2
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-50"
+   ],
+   "op": "text",
+   "file": "content/days/day38.json",
+   "old": "إِذَنْ",
+   "new": "إِذًا",
+   "count": 2
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-50"
+   ],
+   "op": "text",
+   "file": "content/days/day39.json",
+   "old": "إِذَنْ",
+   "new": "إِذًا",
+   "count": 2
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-50"
+   ],
+   "op": "text",
+   "file": "content/days/day40.json",
+   "old": "إِذَنْ",
+   "new": "إِذًا",
+   "count": 2
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-50"
+   ],
+   "op": "text",
+   "file": "content/days/day41.json",
+   "old": "إِذَنْ",
+   "new": "إِذًا",
+   "count": 2
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-50"
+   ],
+   "op": "text",
+   "file": "content/days/day48.json",
+   "old": "إِذَنْ",
+   "new": "إِذًا",
+   "count": 2
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-50"
+   ],
+   "op": "text",
+   "file": "content/days/day50.json",
+   "old": "إِذَنْ",
+   "new": "إِذًا",
+   "count": 2
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-50"
+   ],
+   "op": "text",
+   "file": "content/days/day51.json",
+   "old": "إِذَنْ",
+   "new": "إِذًا",
+   "count": 4
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-50"
+   ],
+   "op": "text",
+   "file": "content/days/day52.json",
+   "old": "إِذَنْ",
+   "new": "إِذًا",
+   "count": 2
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-50"
+   ],
+   "op": "text",
+   "file": "content/days/day53.json",
+   "old": "إِذَنْ",
+   "new": "إِذًا",
+   "count": 2
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-50"
+   ],
+   "op": "text",
+   "file": "content/days/day56.json",
+   "old": "إِذَنْ",
+   "new": "إِذًا",
+   "count": 6
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-50"
+   ],
+   "op": "text",
+   "file": "content/days/day59.json",
+   "old": "إِذَنْ",
+   "new": "إِذًا",
+   "count": 2
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-50"
+   ],
+   "op": "text",
+   "file": "content/days/day60.json",
+   "old": "إِذَنْ",
+   "new": "إِذًا",
+   "count": 2
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-50"
+   ],
+   "op": "text",
+   "file": "content/days/day63.json",
+   "old": "إِذَنْ",
+   "new": "إِذًا",
+   "count": 2
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-50"
+   ],
+   "op": "text",
+   "file": "content/days/day64.json",
+   "old": "إِذَنْ",
+   "new": "إِذًا",
+   "count": 2
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-50"
+   ],
+   "op": "text",
+   "file": "content/days/day68.json",
+   "old": "إِذَنْ",
+   "new": "إِذًا",
+   "count": 2
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-50"
+   ],
+   "op": "text",
+   "file": "content/days/day69.json",
+   "old": "إِذَنْ",
+   "new": "إِذًا",
+   "count": 4
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-50"
+   ],
+   "op": "text",
+   "file": "content/days/day73.json",
+   "old": "إِذَنْ",
+   "new": "إِذًا",
+   "count": 2
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-50"
+   ],
+   "op": "text",
+   "file": "content/days/day76.json",
+   "old": "إِذَنْ",
+   "new": "إِذًا",
+   "count": 2
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-50"
+   ],
+   "op": "text",
+   "file": "content/days/day78.json",
+   "old": "إِذَنْ",
+   "new": "إِذًا",
+   "count": 2
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-50"
+   ],
+   "op": "text",
+   "file": "content/days/day82.json",
+   "old": "إِذَنْ",
+   "new": "إِذًا",
+   "count": 2
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-50"
+   ],
+   "op": "text",
+   "file": "content/days/day83.json",
+   "old": "إِذَنْ",
+   "new": "إِذًا",
+   "count": 2
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-50"
+   ],
+   "op": "text",
+   "file": "content/days/day85.json",
+   "old": "إِذَنْ",
+   "new": "إِذًا",
+   "count": 2
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-50"
+   ],
+   "op": "text",
+   "file": "content/days/day86.json",
+   "old": "إِذَنْ",
+   "new": "إِذًا",
+   "count": 2
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-50"
+   ],
+   "op": "text",
+   "file": "content/course/scenarios.json",
+   "old": "إِذَنْ",
+   "new": "إِذًا",
+   "count": 24
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-50"
+   ],
+   "op": "text",
+   "file": "content/days/day60.json",
+   "old": "إِذَنِ",
+   "new": "إِذًا",
+   "count": 2
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-50"
+   ],
+   "op": "text",
+   "file": "content/course/scenarios.json",
+   "old": "إِذَنِ",
+   "new": "إِذًا",
+   "count": 2
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-36"
+   ],
+   "op": "text",
+   "file": "content/days/day50.json",
+   "old": "اِمْتِحَان",
+   "new": "امْتِحَان",
+   "count": 6
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-36"
+   ],
+   "op": "text",
+   "file": "content/days/day51.json",
+   "old": "اِمْتِحَان",
+   "new": "امْتِحَان",
+   "count": 2
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-36"
+   ],
+   "op": "text",
+   "file": "content/days/day52.json",
+   "old": "اِمْتِحَان",
+   "new": "امْتِحَان",
+   "count": 2
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-36"
+   ],
+   "op": "text",
+   "file": "content/days/day56.json",
+   "old": "اِمْتِحَان",
+   "new": "امْتِحَان",
+   "count": 6
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-36"
+   ],
+   "op": "text",
+   "file": "content/course/vocabulary.json",
+   "old": "اِمْتِحَان",
+   "new": "امْتِحَان",
+   "count": 3
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-6",
+    "R3-17"
+   ],
+   "op": "text",
+   "file": "content/days/day15.json",
+   "old": "شَايْ",
+   "new": "شَاي",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-6",
+    "R3-17"
+   ],
+   "op": "text",
+   "file": "content/days/day16.json",
+   "old": "شَايْ",
+   "new": "شَاي",
+   "count": 4
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-6",
+    "R3-17"
+   ],
+   "op": "text",
+   "file": "content/course/course.json",
+   "old": "شَايْ",
+   "new": "شَاي",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-6",
+    "R3-17"
+   ],
+   "op": "text",
+   "file": "content/course/vocabulary.json",
+   "old": "شَايْ",
+   "new": "شَاي",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-6",
+    "R3-17"
+   ],
+   "op": "text",
+   "file": "content/culture/souq.json",
+   "old": "شَايْ",
+   "new": "شَاي",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-6",
+    "R3-17"
+   ],
+   "op": "text",
+   "file": "content/days/day16.json",
+   "old": "وَالشَّايْ",
+   "new": "وَالشَّاي",
+   "count": 2
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-6",
+    "R3-17"
+   ],
+   "op": "text",
+   "file": "content/days/day18.json",
+   "old": "حُلْوْ",
+   "new": "حُلْو",
+   "count": 4
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-6",
+    "R3-17"
+   ],
+   "op": "text",
+   "file": "content/days/day21.json",
+   "old": "حُلْوْ",
+   "new": "حُلْو",
+   "count": 3
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-6",
+    "R3-17"
+   ],
+   "op": "text",
+   "file": "content/course/vocabulary.json",
+   "old": "حُلْوْ",
+   "new": "حُلْو",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-6",
+    "R3-17"
+   ],
+   "op": "text",
+   "file": "content/days/day17.json",
+   "old": "الْعَفْوْ",
+   "new": "الْعَفْو",
+   "count": 2
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-6",
+    "R3-17"
+   ],
+   "op": "text",
+   "file": "content/days/day37.json",
+   "old": "قَايْتْبَايْ",
+   "new": "قَايْتْبَاي",
+   "count": 6
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-6",
+    "R3-17"
+   ],
+   "op": "text",
+   "file": "content/course/vocabulary.json",
+   "old": "قَايْتْبَايْ",
+   "new": "قَايْتْبَاي",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-61"
+   ],
+   "op": "text",
+   "file": "content/days/day26.json",
+   "old": "Hassan",
+   "new": "Hasan",
+   "count": 7
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-61"
+   ],
+   "op": "text",
+   "file": "content/course/scenarios.json",
+   "old": "Hassan",
+   "new": "Hasan",
+   "count": 4
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-2"
+   ],
+   "op": "text",
+   "file": "content/culture/family.json",
+   "old": "Nur is one of them",
+   "new": "Nour is one of them",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-2"
+   ],
+   "op": "text",
+   "file": "content/culture/family.json",
+   "old": "My mother's name is Nur,",
+   "new": "My mother's name is Nour,",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-2"
+   ],
+   "op": "text",
+   "file": "content/culture/family.json",
+   "old": "\"Nur (first name)\"",
+   "new": "\"Nour (first name)\"",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-78"
+   ],
+   "op": "hand",
+   "word": "ـًا",
+   "gloss": "-an (ending: on objects, and after laysa / kāna; also adverbs like shukran)"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-78"
+   ],
+   "op": "hand",
+   "word": "ـَةً",
+   "gloss": "-atan (the -an ending after tāʾ marbūṭa: on objects, and after laysa / kāna; also adverbs like ʿādatan)"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-49"
+   ],
+   "op": "scoped",
+   "word": "عَلِيّ",
+   "scope": "day:18",
+   "gloss": "Ali (first name): Umm Ali is a bread pudding"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-49"
+   ],
+   "op": "scoped",
+   "word": "عَلِيّ",
+   "scope": "*",
+   "gloss": "Ali (first name)"
+  }
+ ],
+ "checks": [
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-83"
+   ],
+   "area": "days-41-50",
+   "expect": "أَنْتِ عَلَى حَقّ. سَنَخْرُجُ"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-83"
+   ],
+   "area": "days-41-50",
+   "expect": "[أَنْتِ = you (to a woman)] [عَلَى = on (ʿalā ḥaqq: in the right)] [حَقّ = right, truth ('you're right')]"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-83"
+   ],
+   "area": "days-81-90",
+   "expect": "أَنْتَ عَلَى حَقّ. "
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-83"
+   ],
+   "area": "days-81-90",
+   "expect": "[أَنْتَ = you (to a man)] [عَلَى = on (ʿalā ḥaqq: in the right)] [حَقّ = right ('you're right')]"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-83"
+   ],
+   "area": "vocabulary",
+   "expect": "أُوَافِقُكَ، أَنْتَ عَلَى حَقّ."
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-83"
+   ],
+   "area": "vocabulary",
+   "expect": "أَنْتَ عَلَى حَقّ (to a man) and أَنْتِ عَلَى حَقّ (to a woman) mean 'you're right', literally 'you are on the truth'."
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-48"
+   ],
+   "area": "days-61-70",
+   "expect": "تَحِيَّةً طَيِّبَةً وَبَعْدُ"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-48"
+   ],
+   "area": "days-81-90",
+   "expect": "تَحِيَّةً طَيِّبَةً وَبَعْدُ"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-48"
+   ],
+   "area": "grammar",
+   "expect": "تَحِيَّةً طَيِّبَةً وَبَعْدُ"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-48"
+   ],
+   "area": "vocabulary",
+   "expect": "تَحِيَّةً طَيِّبَةً وَبَعْدُ"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-48"
+   ],
+   "area": "days-61-70",
+   "expect": "[تَحِيَّةً = a greeting"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-48"
+   ],
+   "area": "days-61-70",
+   "expect": "[تَحِيَّةً = a greeting"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-48"
+   ],
+   "area": "days-61-70",
+   "expect": "[تَحِيَّةً = a greeting"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-48"
+   ],
+   "area": "days-81-90",
+   "expect": "then taḥiyyatan ṭayyibatan wa-baʿdu."
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-96"
+   ],
+   "area": "grammar",
+   "expect": "لَمْ + the short form of the present (sukūn for most persons; -na/-ni endings drop) means 'did not':"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-96"
+   ],
+   "area": "weeks-tests",
+   "expect": "لَمْ + the short form of the present (sukūn for most persons; -na/-ni endings drop) means 'did not'."
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-101"
+   ],
+   "area": "days-11-20",
+   "expect": "cold and very delicious."
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-101"
+   ],
+   "area": "days-11-20",
+   "expect": "The juice is very delicious!"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-101"
+   ],
+   "area": "days-11-20",
+   "expect": "The fish is very delicious, and the salads"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-101"
+   ],
+   "area": "days-11-20",
+   "expect": "the koshari is very delicious!"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-101"
+   ],
+   "area": "days-11-20",
+   "expect": "All the dishes are very delicious."
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-101"
+   ],
+   "area": "days-31-40",
+   "expect": "Very delicious fish!"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-101"
+   ],
+   "area": "days-61-70",
+   "expect": "the mansaf is very delicious!"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-101"
+   ],
+   "area": "days-71-80",
+   "expect": "My mother's kaʿk is very delicious,"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-101"
+   ],
+   "area": "vocabulary",
+   "expect": "The koshari is very delicious!"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-101"
+   ],
+   "area": "vocabulary",
+   "expect": "My mother's kaʿk is very delicious."
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-49"
+   ],
+   "area": "days-11-20",
+   "expect": "عَلِيّ"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-49"
+   ],
+   "area": "days-81-90",
+   "expect": "عَلِيّ"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-41",
+    "R12-30"
+   ],
+   "area": "days-61-70",
+   "expect": "أُرْدُنِّي"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-41",
+    "R12-30"
+   ],
+   "area": "scenarios-2",
+   "expect": "أُرْدُنِّي"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-41",
+    "R12-30"
+   ],
+   "area": "scenarios-2",
+   "expect": "أُرْدُنِّي"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-50"
+   ],
+   "area": "days-01-10",
+   "expect": "إِذًا"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-50"
+   ],
+   "area": "days-01-10",
+   "expect": "إِذًا"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-50"
+   ],
+   "area": "days-01-10",
+   "expect": "إِذًا"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-50"
+   ],
+   "area": "days-11-20",
+   "expect": "إِذًا"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-50"
+   ],
+   "area": "days-11-20",
+   "expect": "إِذًا"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-50"
+   ],
+   "area": "days-11-20",
+   "expect": "إِذًا"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-50"
+   ],
+   "area": "days-11-20",
+   "expect": "إِذًا"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-50"
+   ],
+   "area": "days-21-30",
+   "expect": "إِذًا"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-50"
+   ],
+   "area": "days-31-40",
+   "expect": "إِذًا"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-50"
+   ],
+   "area": "days-31-40",
+   "expect": "إِذًا"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-50"
+   ],
+   "area": "days-31-40",
+   "expect": "إِذًا"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-50"
+   ],
+   "area": "days-31-40",
+   "expect": "إِذًا"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-50"
+   ],
+   "area": "days-31-40",
+   "expect": "إِذًا"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-50"
+   ],
+   "area": "days-31-40",
+   "expect": "إِذًا"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-50"
+   ],
+   "area": "days-31-40",
+   "expect": "إِذًا"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-50"
+   ],
+   "area": "days-41-50",
+   "expect": "إِذًا"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-50"
+   ],
+   "area": "days-41-50",
+   "expect": "إِذًا"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-50"
+   ],
+   "area": "days-41-50",
+   "expect": "إِذًا"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-50"
+   ],
+   "area": "days-51-60",
+   "expect": "إِذًا"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-50"
+   ],
+   "area": "days-51-60",
+   "expect": "إِذًا"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-50"
+   ],
+   "area": "days-51-60",
+   "expect": "إِذًا"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-50"
+   ],
+   "area": "days-51-60",
+   "expect": "إِذًا"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-50"
+   ],
+   "area": "days-51-60",
+   "expect": "إِذًا"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-50"
+   ],
+   "area": "days-51-60",
+   "expect": "إِذًا"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-50"
+   ],
+   "area": "days-61-70",
+   "expect": "إِذًا"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-50"
+   ],
+   "area": "days-61-70",
+   "expect": "إِذًا"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-50"
+   ],
+   "area": "days-61-70",
+   "expect": "إِذًا"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-50"
+   ],
+   "area": "days-61-70",
+   "expect": "إِذًا"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-50"
+   ],
+   "area": "days-71-80",
+   "expect": "إِذًا"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-50"
+   ],
+   "area": "days-71-80",
+   "expect": "إِذًا"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-50"
+   ],
+   "area": "days-71-80",
+   "expect": "إِذًا"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-50"
+   ],
+   "area": "days-81-90",
+   "expect": "إِذًا"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-50"
+   ],
+   "area": "days-81-90",
+   "expect": "إِذًا"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-50"
+   ],
+   "area": "days-81-90",
+   "expect": "إِذًا"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-50"
+   ],
+   "area": "days-81-90",
+   "expect": "إِذًا"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-50"
+   ],
+   "area": "scenarios-1",
+   "expect": "إِذًا"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-50"
+   ],
+   "area": "days-51-60",
+   "expect": "إِذًا"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-50"
+   ],
+   "area": "scenarios-2",
+   "expect": "إِذًا"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-36"
+   ],
+   "area": "days-41-50",
+   "expect": "امْتِحَان"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-36"
+   ],
+   "area": "days-51-60",
+   "expect": "امْتِحَان"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-36"
+   ],
+   "area": "days-51-60",
+   "expect": "امْتِحَان"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-36"
+   ],
+   "area": "days-51-60",
+   "expect": "امْتِحَان"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-36"
+   ],
+   "area": "vocabulary",
+   "expect": "امْتِحَان"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-6",
+    "R3-17"
+   ],
+   "area": "days-11-20",
+   "expect": "شَاي"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-6",
+    "R3-17"
+   ],
+   "area": "days-11-20",
+   "expect": "شَاي"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-6",
+    "R3-17"
+   ],
+   "area": "weeks-tests",
+   "expect": "شَاي"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-6",
+    "R3-17"
+   ],
+   "area": "vocabulary",
+   "expect": "شَاي"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-6",
+    "R3-17"
+   ],
+   "area": "culture",
+   "expect": "شَاي"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-6",
+    "R3-17"
+   ],
+   "area": "days-11-20",
+   "expect": "وَالشَّاي"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-6",
+    "R3-17"
+   ],
+   "area": "days-11-20",
+   "expect": "حُلْو"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-6",
+    "R3-17"
+   ],
+   "area": "days-21-30",
+   "expect": "حُلْو"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-6",
+    "R3-17"
+   ],
+   "area": "vocabulary",
+   "expect": "حُلْو"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-6",
+    "R3-17"
+   ],
+   "area": "days-11-20",
+   "expect": "الْعَفْو"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-6",
+    "R3-17"
+   ],
+   "area": "days-31-40",
+   "expect": "قَايْتْبَاي"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-6",
+    "R3-17"
+   ],
+   "area": "vocabulary",
+   "expect": "قَايْتْبَاي"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-61"
+   ],
+   "area": "days-21-30",
+   "expect": "Hasan"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-61"
+   ],
+   "area": "scenarios-1",
+   "expect": "Hasan"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-2"
+   ],
+   "area": "culture",
+   "expect": "Nour is one of them"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-2"
+   ],
+   "area": "culture",
+   "expect": "My mother's name is Nour,"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-2"
+   ],
+   "area": "culture",
+   "expect": "Nour (first name)"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-78"
+   ],
+   "area": "glossary-hand",
+   "expect": "-an (ending: on objects, and after laysa / kāna; also adverbs like shukran)"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-78"
+   ],
+   "area": "glossary-hand",
+   "expect": "-atan (the -an ending after tāʾ marbūṭa: on objects, and after laysa / kāna; also adverbs like ʿādatan)"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-49"
+   ],
+   "area": "days-11-20",
+   "expect": "عَلِيّ = Ali (first name): Umm Ali is a bread pudding"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-49"
+   ],
+   "area": "days-81-90",
+   "expect": "عَلِيّ = Ali (name"
+  }
+ ],
+ "skipped": [
+  {
+   "chunk": "final",
+   "id": "R3-46",
+   "reason": "Already done: every Wadi Rum in the content is رَمّ (day 62 x4, culture desert x3); no رَم left. 0 ops."
+  },
+  {
+   "chunk": "final",
+   "id": "R3-108",
+   "reason": "Already consistent: all 14 occurrences are الْإِلِكْتُرُونِيّ (days 67, 84, scenarios, vocabulary); no other spelling or -iyya form exists. 0 ops."
+  },
+  {
+   "chunk": "final",
+   "id": "R12-49",
+   "reason": "Left: day81.json line 27 photo credit file title (unvocalised Commons filename \"ومسجد محمد علي\"), not course text."
+  },
+  {
+   "chunk": "final",
+   "id": "R3-6",
+   "reason": "Left by design: word-final sukūn on verbs (jussive/imperative, -at), particles (مِنْ، هَلْ، لَمْ، أَنْ…), pronoun suffixes (-kum, -hum), نَعَمْ, آهْ, diphthong -ay endings (حَوَالَيْ، أَلْفَيْ، تَعَالَيْ) and the pronunciation page sukūn demos (ـْ، بْ، وْ، يْ). Only pause sukūn on nouns/adjectives was removed: شَايْ, وَالشَّايْ, حُلْوْ, الْعَفْوْ, and the same -āy pause on the name قَايْتْبَايْ."
+  },
+  {
+   "chunk": "final",
+   "id": "R3-6",
+   "reason": "Left: hand.json key آبْ (August, Levant) has a pause sukūn but that form is not used anywhere in the content; dead entry. Lead may rename it to آب."
+  },
+  {
+   "chunk": "final",
+   "id": "R3-61",
+   "reason": "Left: the internal speaker key \"hassan\" in day26.json (an id, not shown); only the English \"Hassan\" was changed (11x)."
+  }
+ ],
+ "notesForLead": [
+  "R12-49: scoped.json key \"عَلِي\" cannot be renamed with a text op (apply-plans rebuilds scoped.json from the original file, so a text op there is lost). Added scoped ops for عَلِيّ (day:18 and *) with the same glosses; the old key \"عَلِيّ\"-less entry stays as a dead key - delete it by hand if wanted.",
+  "R3-36 count (word-initial, no article, raw occurrences incl. segs): no kasra امْتِحَان/ـَ/ـِ/ـًا/امْتِحَانَاتِهِ = 30; with kasra اِمْتِحَان/اِمْتِحَانُ/اِمْتِحَانَات = 19. Normalised the 19 to امْتِحَان (days 50, 51, 52, 56, vocabulary incl. the imtihan entry and its plural). Article forms (الِامْتِحَان) and وَامْتِحَانُ are a separate pattern and untouched.",
+  "R3-2 count: \"Nour\" 52 (days 5, 15, 31, 33, 34, 56, 71, grammar, scenarios, vocabulary, scoped) vs \"Nur\" 3 (culture family). Majority Nour: the 3 in family.json changed.",
+  "R12-50: إِذَنْ (106) and إِذَنِ (4, before a waṣl: day 60 l7, scenarios) all become إِذًا. إِذًا is a new tapped form; lesson and scenario segs keep \"then, so\". Check in the fresh export that the ⟶ line still gives idhan and that the tap engine does not split إِذًا into stem + ـًا.",
+  "R3-83: day 50 l12 (Sami to Layla) → أَنْتِ عَلَى حَقّ; day 82 l5 (Layla to Karim) → أَنْتَ عَلَى حَقّ; segs now أَنْتِ/أَنْتَ + عَلَى + حَقّ with the day-76 glosses. Vocabulary haqq example and note use أَنْتَ/أَنْتِ عَلَى حَقّ, the note keeps \"in everyday speech you also hear مَعَكَ حَقّ\" (as the grammar card does).",
+  "R12-48: all تَحِيَّة طَيِّبَة وَبَعْدُ → تَحِيَّةً طَيِّبَةً وَبَعْدُ (day 67 x9, day 88, grammar x6, vocabulary x2) and the day-67 seg pairs; day 82 explain \"taḥiyya ṭayyiba\" → \"taḥiyyatan ṭayyibatan\". Standalone تَحِيَّة (day 67 l: يَكْتُبُونَ تَحِيَّة, a quiz option, vocab headword) unchanged.",
+  "Item 14 (hand ـًا / ـَةً): glosses aligned with the scoped day:33 / grammar:laysa wording already in scoped.json. ids R3-78 used for these two hand ops.",
+  "Order matters: R3-83/R12-48 ops run before the إِذَنْ ops (day 82 l5 old string avoids إِذَنْ). Dry run of z/ alone: OK, 95 ops."
+ ]
+}

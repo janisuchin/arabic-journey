@@ -21,7 +21,7 @@
           "segs": [["نَعَم", "yes"], ["قِطْعَةَ", "piece"], ["كَعْك", "cake, pastry"], ["وَاحِدَة", "one (f)"], ["مِنْ", "from"], ["فَضْلِكَ", "your kindness (to a man): 'please'"]] },
         { "id": "c7", "sp": "waiter", "ar": "تَفَضَّلْ، الشَّاي وَالْكَعْك. بِالْهَنَاء وَالشِّفَاء!", "en": "Here you are, the tea and the cake. Enjoy your meal!",
           "segs": [["تَفَضَّلْ", "here you are (to a man)"], ["الشَّاي", "the tea"], ["وَالْكَعْك", "and the cake"], ["بِالْهَنَاء", "with happiness"], ["وَالشِّفَاء", "and good health ('enjoy your meal')"]] },
-        { "id": "c8", "sp": "daniel", "ar": "شُكْرًا! الشَّاي لَذِيذ جِدًّا.", "en": "Thank you! The tea is really very delicious.",
+        { "id": "c8", "sp": "daniel", "ar": "شُكْرًا! الشَّاي لَذِيذ جِدًّا.", "en": "Thank you! The tea is very delicious.",
           "segs": [["شُكْرًا", "thank you"], ["الشَّاي", "the tea"], ["لَذِيذ", "delicious"], ["جِدًّا", "very"]] },
         { "id": "c9", "sp": "daniel", "ar": "مِنْ فَضْلِكَ، الْحِسَاب. كَمِ الْحِسَاب؟", "en": "Excuse me, the bill please. How much is the bill?",
           "segs": [["مِنْ", "from"], ["فَضْلِكَ", "your kindness (to a man): 'please'"], ["الْحِسَاب", "the bill"], ["كَمِ", "how much, how many"], ["الْحِسَاب", "the bill"]] },
@@ -454,7 +454,7 @@
           "id": "morning-routine-l10",
           "sp": "daniel",
           "ar": "حَاضِر! وَمَتَى يَخْرُجُ اِبْنُكِ حَسَن إِلَى الْمَدْرَسَة؟",
-          "en": "All right! And when does your son Hassan leave for school?",
+          "en": "All right! And when does your son Hasan leave for school?",
           "segs": [
             [
               "حَاضِر",
@@ -474,7 +474,7 @@
             ],
             [
               "حَسَن",
-              "Hassan (first name)",
+              "Hasan (first name)",
               "name"
             ],
             [
@@ -491,11 +491,11 @@
           "id": "morning-routine-l11",
           "sp": "huda",
           "ar": "حَسَن يَخْرُجُ فِي السَّاعَة السَّابِعَة وَالنِّصْف، وَيَذْهَبُ بِالْحَافِلَة.",
-          "en": "Hassan leaves at half past seven, and he goes by bus.",
+          "en": "Hasan leaves at half past seven, and he goes by bus.",
           "segs": [
             [
               "حَسَن",
-              "Hassan (first name)",
+              "Hasan (first name)",
               "name"
             ],
             [
@@ -1106,11 +1106,11 @@
         {
           "id": "appointment-time-l10",
           "sp": "receptionist",
-          "ar": "إِذَنْ، مَوْعِدُكَ يَوْمَ الْأَرْبِعَاء فِي السَّاعَة الثَّالِثَة إِلَّا رُبْعًا.",
+          "ar": "إِذًا، مَوْعِدُكَ يَوْمَ الْأَرْبِعَاء فِي السَّاعَة الثَّالِثَة إِلَّا رُبْعًا.",
           "en": "So, your appointment is on Wednesday at quarter to three.",
           "segs": [
             [
-              "إِذَنْ",
+              "إِذًا",
               "then, so"
             ],
             [
@@ -1341,12 +1341,12 @@
           "nameAr": "دَانْيَال"
         }
       ],
-      "culture": "Many Egyptian restaurants add a service charge to the bill, and people often leave a small tip for the waiter as well. Speaking to two people, the waiter uses the dual: تَفَضَّلَا and شُكْرًا لَكُمَا.",
+      "culture": "Many Egyptian restaurants add a service charge to the bill, and people often leave a small tip for the waiter as well. Speaking to two people, the waiter uses the dual: أَهْلًا بِكُمَا, تَفَضَّلَا and شُكْرًا لَكُمَا.",
       "lines": [
         {
           "id": "restaurant-l1",
           "sp": "waiter",
-          "ar": "مَسَاءُ الْخَيْر! أَهْلًا بِكَ فِي مَطْعَمِنَا. كَمْ شَخْصًا؟",
+          "ar": "مَسَاءُ الْخَيْر! أَهْلًا بِكُمَا فِي مَطْعَمِنَا. كَمْ شَخْصًا؟",
           "en": "Good evening! Welcome to our restaurant. How many people?",
           "segs": [
             [
@@ -1362,8 +1362,8 @@
               "welcome"
             ],
             [
-              "بِكَ",
-              "with you (to a man)"
+              "بِكُمَا",
+              "with you (two people)"
             ],
             [
               "فِي",
@@ -1434,7 +1434,7 @@
         {
           "id": "restaurant-l3",
           "sp": "waiter",
-          "ar": "تَفَضَّلَا، هٰذِهِ طَاوِلَة جَمِيلَة بِجَانِبِ الشُّبَّاك. وَهٰذِهِ الْقَائِمَة.",
+          "ar": "تَفَضَّلَا، هٰذِهِ طَاوِلَة جَمِيلَة بِجَانِبِ النَّافِذَة. وَهٰذِهِ الْقَائِمَة.",
           "en": "Please sit down, here is a nice table by the window. And here is the menu.",
           "segs": [
             [
@@ -1458,7 +1458,7 @@
               "next to"
             ],
             [
-              "الشُّبَّاك",
+              "النَّافِذَة",
               "the window"
             ],
             [
@@ -1550,11 +1550,11 @@
         {
           "id": "restaurant-l6",
           "sp": "daniel",
-          "ar": "إِذَنْ نُرِيدُ طَبَقَيْنِ مِنَ الْمَحْشِيّ، وَسَلَطَةً خَضْرَاء، مِنْ فَضْلِكَ.",
+          "ar": "إِذًا نُرِيدُ طَبَقَيْنِ مِنَ الْمَحْشِيّ، وَسَلَطَةً خَضْرَاء، مِنْ فَضْلِكَ.",
           "en": "Then we'd like two plates of stuffed vegetables and a green salad, please.",
           "segs": [
             [
-              "إِذَنْ",
+              "إِذًا",
               "then, so"
             ],
             [
@@ -1707,7 +1707,7 @@
           "id": "restaurant-l10",
           "sp": "daniel",
           "ar": "الْمَحْشِيّ لَذِيذ جِدًّا! الْحِسَاب، مِنْ فَضْلِكَ.",
-          "en": "The stuffed vegetables are delicious! The bill, please.",
+          "en": "The stuffed vegetables are very delicious! The bill, please.",
           "segs": [
             [
               "الْمَحْشِيّ",
@@ -2063,11 +2063,11 @@
         {
           "id": "bakery-l6",
           "sp": "layla",
-          "ar": "إِذَنْ أُرِيدُ قِطْعَتَيْنِ مِنَ الْكَرْوَاسُون، وَثَلَاثَ كَعْكَات.",
+          "ar": "إِذًا أُرِيدُ قِطْعَتَيْنِ مِنَ الْكَرْوَاسُون، وَثَلَاثَ كَعْكَات.",
           "en": "Then I'd like two croissants and three kaʿk biscuits.",
           "segs": [
             [
-              "إِذَنْ",
+              "إِذًا",
               "then, so"
             ],
             [
@@ -3280,7 +3280,7 @@
           "id": "clothes-shop-l11",
           "sp": "seller",
           "ar": "كَمَا تُحِبِّينَ. تَفَضَّلِي، الْفُسْتَان فِي الْحَقِيبَة. مَبْرُوك!",
-          "en": "As you like. Here you are, the dress is in the bag. Enjoy it!",
+          "en": "As you like. Here you are, the dress is in the bag. Congratulations!",
           "segs": [
             [
               "كَمَا",
@@ -5294,8 +5294,8 @@
         {
           "id": "holiday-story-l3",
           "sp": "huda",
-          "ar": "مَا شَاءَ اللّٰه! كَيْفَ سَافَرْتُمَا؟ لَمْ تَذْهَبْ بِالطَّائِرَة، صَحِيح؟",
-          "en": "How lovely! How did you two travel? You didn't go by plane, did you?",
+          "ar": "مَا شَاءَ اللّٰه! كَيْفَ سَافَرْتُمَا؟ لَمْ تَذْهَبَا بِالطَّائِرَة، صَحِيح؟",
+          "en": "How lovely! How did you two travel? You two didn't go by plane, did you?",
           "segs": [
             [
               "مَا",
@@ -5322,8 +5322,8 @@
               "did not"
             ],
             [
-              "تَذْهَبْ",
-              "you go (to a man; form after 'lam')"
+              "تَذْهَبَا",
+              "you go (two people; form after 'lam')"
             ],
             [
               "بِالطَّائِرَة",
@@ -5496,8 +5496,8 @@
         {
           "id": "holiday-story-l8",
           "sp": "daniel",
-          "ar": "كَانَ حَارًّا فِي النَّهَار، لٰكِنْ لَطِيفًا فِي الْمَسَاء. وَأَنْتِ؟ لَمْ تَذْهَبِي إِلَى أَيِّ مَكَان؟",
-          "en": "It was hot in the daytime but pleasant in the evening. And you? Didn't you go anywhere?",
+          "ar": "كَانَ حَارًّا فِي النَّهَار، لٰكِنَّهُ كَانَ لَطِيفًا فِي الْمَسَاء. وَأَنْتِ؟ لَمْ تَذْهَبِي إِلَى أَيِّ مَكَان؟",
+          "en": "It was hot in the daytime, but it was pleasant in the evening. And you? Didn't you go anywhere?",
           "segs": [
             [
               "كَانَ",
@@ -5516,8 +5516,12 @@
               "the daytime"
             ],
             [
-              "لٰكِنْ",
-              "but"
+              "لٰكِنَّهُ",
+              "but it (m)"
+            ],
+            [
+              "كَانَ",
+              "(it, m) was"
             ],
             [
               "لَطِيفًا",
@@ -5742,7 +5746,7 @@
       {
         "wrong": "لَمْ سَافَرْتُ",
         "right": "لَمْ أُسَافِرْ",
-        "why": "لَمْ takes the present form with a sukūn at the end, not the past."
+        "why": "لَمْ takes the short form of the present (sukūn for most persons; -na/-ni endings drop), not the past."
       }
     ],
     "quiz": [
@@ -6464,11 +6468,11 @@
         {
           "id": "pharmacy-visit-l5",
           "sp": "pharmacist",
-          "ar": "إِذَنْ هٰذَا الشَّرَاب جَيِّد لِلْأَطْفَال، وَهُوَ بِطَعْمِ الْفَرَاوِلَة.",
+          "ar": "إِذًا هٰذَا الشَّرَاب جَيِّد لِلْأَطْفَال، وَهُوَ بِطَعْمِ الْفَرَاوِلَة.",
           "en": "Then this syrup is good for children, and it tastes of strawberry.",
           "segs": [
             [
-              "إِذَنْ",
+              "إِذًا",
               "so, then"
             ],
             [
@@ -7338,11 +7342,11 @@
         {
           "id": "birthday-invitation-l10",
           "sp": "daniel",
-          "ar": "إِذَنْ سَأَذْهَبُ إِلَى السُّوق غَدًا لِأَشْتَرِيَ لَهُ كُرَة صَغِيرَة.",
+          "ar": "إِذًا سَأَذْهَبُ إِلَى السُّوق غَدًا لِأَشْتَرِيَ لَهُ كُرَة صَغِيرَة.",
           "en": "Then I'll go to the market tomorrow to buy him a small ball.",
           "segs": [
             [
-              "إِذَنْ",
+              "إِذًا",
               "then, so"
             ],
             [
@@ -7382,7 +7386,7 @@
         {
           "id": "birthday-invitation-l11",
           "sp": "huda",
-          "ar": "فِكْرَة جَمِيلَة! سَيَفْرَحُ كَثِيرًا. إِذَنْ نَرَاكَ يَوْمَ السَّبْت.",
+          "ar": "فِكْرَة جَمِيلَة! سَيَفْرَحُ كَثِيرًا. إِذًا نَرَاكَ يَوْمَ السَّبْت.",
           "en": "What a lovely idea! He'll be very happy. So we'll see you on Saturday.",
           "segs": [
             [
@@ -7402,7 +7406,7 @@
               "a lot, very much"
             ],
             [
-              "إِذَنْ",
+              "إِذًا",
               "then, so"
             ],
             [
@@ -7835,7 +7839,7 @@
         {
           "id": "weather-plans-l6",
           "sp": "daniel",
-          "ar": "رِيَاح وَمَطَر؟ إِذَنْ لَنْ نَسْبَحَ يَوْمَ الْجُمُعَة. وَيَوْمَ السَّبْت؟",
+          "ar": "رِيَاح وَمَطَر؟ إِذًا لَنْ نَسْبَحَ يَوْمَ الْجُمُعَة. وَيَوْمَ السَّبْت؟",
           "en": "Wind and rain? Then we won't swim on Friday. And what about Saturday?",
           "segs": [
             [
@@ -7847,7 +7851,7 @@
               "and rain"
             ],
             [
-              "إِذَنْ",
+              "إِذًا",
               "then, so"
             ],
             [
@@ -7927,7 +7931,7 @@
         {
           "id": "weather-plans-l8",
           "sp": "daniel",
-          "ar": "مُمْتَاز! إِذَنْ سَنَذْهَبُ يَوْمَ السَّبْت. مَتَى سَنَخْرُجُ مِنَ الْقَاهِرَة؟",
+          "ar": "مُمْتَاز! إِذًا سَنَذْهَبُ يَوْمَ السَّبْت. مَتَى سَنَخْرُجُ مِنَ الْقَاهِرَة؟",
           "en": "Excellent! So we'll go on Saturday. When will we leave Cairo?",
           "segs": [
             [
@@ -7935,7 +7939,7 @@
               "excellent"
             ],
             [
-              "إِذَنْ",
+              "إِذًا",
               "then, so"
             ],
             [
@@ -9026,8 +9030,8 @@
         {
           "id": "hotel-reception-l2",
           "sp": "daniel",
-          "ar": "مَسَاءُ النُّور. نَعَم، الْحَجْز بِاسْمِ لَيْلَى: غُرْفَتَانِ لِلَيْلَةِ السَّبْت.",
-          "en": "Good evening. Yes, the booking is in Layla's name: two rooms for Saturday night.",
+          "ar": "مَسَاءُ النُّور. نَعَم، الْحَجْز بِاسْمِ لَيْلَى: غُرْفَتَانِ لِلَيْلَةٍ وَاحِدَةٍ يَوْمَ السَّبْت.",
+          "en": "Good evening. Yes, the booking is in Layla's name: two rooms for one night, on Saturday.",
           "segs": [
             [
               "مَسَاءُ",
@@ -9059,8 +9063,16 @@
               "two rooms"
             ],
             [
-              "لِلَيْلَةِ",
-              "for the night (of)"
+              "لِلَيْلَةٍ",
+              "for a night"
+            ],
+            [
+              "وَاحِدَةٍ",
+              "one (f)"
+            ],
+            [
+              "يَوْمَ",
+              "on the day of"
             ],
             [
               "السَّبْت",
@@ -11411,7 +11423,7 @@
           "id": "eid-visit-l9",
           "sp": "daniel",
           "ar": "وَهٰذَا الْكَعْك لَذِيذ جِدًّا! هَلْ صَنَعْتِهِ بِنَفْسِكِ؟",
-          "en": "And this kaʿk is delicious! Did you make it yourself?",
+          "en": "And this kaʿk is very delicious! Did you make it yourself?",
           "segs": [
             [
               "وَهٰذَا",
@@ -12665,7 +12677,7 @@
         {
           "id": "bank-l7",
           "sp": "bank-employee",
-          "ar": "مُمْتَاز، الصُّورَةُ وَاضِحَة. سَأَفْتَحُ لَكَ حِسَابًا جَارِيًا بِالدِّينَارِ الْأُرْدُنِيِّ بِدُونِ رُسُوم شَهْرِيَّة.",
+          "ar": "مُمْتَاز، الصُّورَةُ وَاضِحَة. سَأَفْتَحُ لَكَ حِسَابًا جَارِيًا بِالدِّينَارِ الْأُرْدُنِّيِّ بِدُونِ رُسُوم شَهْرِيَّة.",
           "en": "Excellent, the photo is clear. I'll open a current account in Jordanian dinars for you, with no monthly fees.",
           "segs": [
             [
@@ -12701,7 +12713,7 @@
               "in the dinar"
             ],
             [
-              "الْأُرْدُنِيِّ",
+              "الْأُرْدُنِّيِّ",
               "the Jordanian (m)"
             ],
             [
@@ -14199,12 +14211,12 @@
           "nameAr": "دَانْيَال"
         }
       ],
-      "culture": "The Jordan Museum (الْمَتْحَفُ الْأُرْدُنِيّ) in Amman tells the story of Jordan from prehistoric times to today; its best-known treasures are the 'Ain Ghazal statues, about 9,000 years old and among the oldest large human figures ever found. At many museums and sites in Jordan foreign visitors pay more than Jordanians, and prices are in dinars (دِينَار). Asking a guide to speak slowly (بِبُطْء) is perfectly polite, and most guides are pleased when a visitor tries Arabic.",
+      "culture": "The Jordan Museum (الْمَتْحَفُ الْأُرْدُنِّيّ) in Amman tells the story of Jordan from prehistoric times to today; its best-known treasures are the 'Ain Ghazal statues, about 9,000 years old and among the oldest large human figures ever found. At many museums and sites in Jordan foreign visitors pay more than Jordanians, and prices are in dinars (دِينَار). Asking a guide to speak slowly (بِبُطْء) is perfectly polite, and most guides are pleased when a visitor tries Arabic.",
       "lines": [
         {
           "id": "museum-info-l1",
           "sp": "guide-desk",
-          "ar": "صَبَاحُ الْخَيْر، أَهْلًا وَسَهْلًا بِكَ فِي الْمَتْحَفِ الْأُرْدُنِيّ! كَيْفَ يُمْكِنُنِي أَنْ أُسَاعِدَكَ؟",
+          "ar": "صَبَاحُ الْخَيْر، أَهْلًا وَسَهْلًا بِكَ فِي الْمَتْحَفِ الْأُرْدُنِّيّ! كَيْفَ يُمْكِنُنِي أَنْ أُسَاعِدَكَ؟",
           "en": "Good morning, and welcome to the Jordan Museum! How can I help you?",
           "segs": [
             [
@@ -14236,7 +14248,7 @@
               "the museum"
             ],
             [
-              "الْأُرْدُنِيّ",
+              "الْأُرْدُنِّيّ",
               "the Jordanian"
             ],
             [
@@ -14320,7 +14332,7 @@
         {
           "id": "museum-info-l3",
           "sp": "guide-desk",
-          "ar": "الْمَتْحَفُ مَفْتُوح الْيَوْمَ حَتَّى السَّاعَةِ الْخَامِسَة. التَّذْكِرَةُ لِلْأَجَانِب بِخَمْسَةِ دَنَانِير، وَهِيَ أَرْخَصُ لِلْأُرْدُنِيِّين.",
+          "ar": "الْمَتْحَفُ مَفْتُوح الْيَوْمَ حَتَّى السَّاعَةِ الْخَامِسَة. التَّذْكِرَةُ لِلْأَجَانِب بِخَمْسَةِ دَنَانِير، وَهِيَ أَرْخَصُ لِلْأُرْدُنِّيِّين.",
           "en": "The museum is open today until five o'clock. A ticket for foreigners is five dinars, and it's cheaper for Jordanians.",
           "segs": [
             [
@@ -14372,7 +14384,7 @@
               "cheaper"
             ],
             [
-              "لِلْأُرْدُنِيِّين",
+              "لِلْأُرْدُنِّيِّين",
               "for the Jordanians"
             ]
           ]
@@ -15611,7 +15623,7 @@
         {
           "id": "post-office-l10",
           "sp": "daniel",
-          "ar": "السَّرِيع إِذَنْ، مِنْ فَضْلِكَ. أُمِّي تَنْتَظِرُ التَّمْرَ الْمِصْرِيَّ كُلَّ سَنَة!",
+          "ar": "السَّرِيع إِذًا، مِنْ فَضْلِكَ. أُمِّي تَنْتَظِرُ التَّمْرَ الْمِصْرِيَّ كُلَّ سَنَة!",
           "en": "Express then, please. My mother waits for Egyptian dates every year!",
           "segs": [
             [
@@ -15619,7 +15631,7 @@
               "the fast ('express')"
             ],
             [
-              "إِذَنْ",
+              "إِذًا",
               "then, so"
             ],
             [
@@ -16579,7 +16591,7 @@
         {
           "id": "supermarket-l12",
           "sp": "layla",
-          "ar": "لَا مُشْكِلَة، هٰذَا يَحْدُثُ أَحْيَانًا. إِذَنْ، كَمِ الْمَجْمُوعُ الْآنَ مَعَ الْكِيس؟",
+          "ar": "لَا مُشْكِلَة، هٰذَا يَحْدُثُ أَحْيَانًا. إِذًا، كَمِ الْمَجْمُوعُ الْآنَ مَعَ الْكِيس؟",
           "en": "No problem, that happens sometimes. So how much is the total now, with the bag?",
           "segs": [
             [
@@ -16603,7 +16615,7 @@
               "sometimes"
             ],
             [
-              "إِذَنْ",
+              "إِذًا",
               "so, then"
             ],
             [
@@ -17072,7 +17084,7 @@
         {
           "id": "phone-shop-l5",
           "sp": "seller",
-          "ar": "الشَّاشَةُ الْجَدِيدَة بِأَلْف وَخَمْسِمِئَةِ جُنَيْه، وَالْإِصْلَاحُ يَحْتَاجُ يَوْمَيْنِ فَقَط. يُمْكِنُكَ أَنْ تَأْخُذَ الْهَاتِفَ يَوْمَ الْخَمِيس.",
+          "ar": "الشَّاشَةُ الْجَدِيدَة بِأَلْف وَخَمْسِمِئَةِ جُنَيْه، وَالْإِصْلَاحُ يَحْتَاجُ إِلَى يَوْمَيْنِ فَقَط. يُمْكِنُكَ أَنْ تَأْخُذَ الْهَاتِفَ يَوْمَ الْخَمِيس.",
           "en": "The new screen is one thousand five hundred pounds, and the repair takes only two days. You can collect the phone on Thursday.",
           "segs": [
             [
@@ -17102,6 +17114,10 @@
             [
               "يَحْتَاجُ",
               "(it) needs, takes"
+            ],
+            [
+              "إِلَى",
+              "to (yaḥtāju ilā: needs)"
             ],
             [
               "يَوْمَيْنِ",
@@ -17544,7 +17560,7 @@
         {
           "id": "phone-shop-l12",
           "sp": "daniel",
-          "ar": "تَفَضَّلْ، هٰذَا جَوَازُ سَفَرِي. إِذَنِ الْمَجْمُوعُ الْيَوْمَ ثَلَاثُمِئَةٍ لِلشَّاحِنِ وَمِئَتَانِ وَخَمْسُونَ لِلْبَاقَة، صَحِيح؟",
+          "ar": "تَفَضَّلْ، هٰذَا جَوَازُ سَفَرِي. إِذًا الْمَجْمُوعُ الْيَوْمَ ثَلَاثُمِئَةٍ لِلشَّاحِنِ وَمِئَتَانِ وَخَمْسُونَ لِلْبَاقَة، صَحِيح؟",
           "en": "Here you are, this is my passport. So today's total is three hundred for the charger and two hundred and fifty for the package, right?",
           "segs": [
             [
@@ -17564,7 +17580,7 @@
               "my travel"
             ],
             [
-              "إِذَنِ",
+              "إِذًا",
               "so, then"
             ],
             [
@@ -18280,7 +18296,7 @@
         {
           "id": "dietary-l8",
           "sp": "daniel",
-          "ar": "الْمَقْلُوبَة لِزَمِيلِي، إِذَنْ. وَأَنَا أُرِيدُ الْمُسَخَّن، لٰكِنْ هَلْ فِيهِ مُكَسَّرَات؟ مِنْ فَضْلِكَ اسْأَلِ الْمَطْبَخ.",
+          "ar": "الْمَقْلُوبَة لِزَمِيلِي، إِذًا. وَأَنَا أُرِيدُ الْمُسَخَّن، لٰكِنْ هَلْ فِيهِ مُكَسَّرَات؟ مِنْ فَضْلِكَ اسْأَلِ الْمَطْبَخ.",
           "en": "Maqluba for my colleague, then. And I'd like the musakhan, but does it have nuts in it? Please ask the kitchen.",
           "segs": [
             [
@@ -18292,7 +18308,7 @@
               "for my colleague"
             ],
             [
-              "إِذَنْ",
+              "إِذًا",
               "then, so"
             ],
             [
@@ -18496,16 +18512,24 @@
         {
           "id": "dietary-l11",
           "sp": "waiter",
-          "ar": "سَأَتَأَكَّدُ مِنَ الطَّبَّاخِ بِنَفْسِي، وَسَيُحَضِّرُهُ بَعِيدًا عَنِ الْمُكَسَّرَات. وَمَاذَا تَشْرَبَانِ؟",
-          "en": "I will check with the cook myself, and he will prepare it away from the nuts. And what will you two drink?",
+          "ar": "سَأَتَأَكَّدُ مِنْ ذٰلِكَ مَعَ الطَّبَّاخِ بِنَفْسِي، وَسَيُحَضِّرُهُ بَعِيدًا عَنِ الْمُكَسَّرَات. وَمَاذَا تَشْرَبَانِ؟",
+          "en": "I will check that with the cook myself, and he will prepare it away from the nuts. And what will you two drink?",
           "segs": [
             [
               "سَأَتَأَكَّدُ",
               "I will make sure, check"
             ],
             [
-              "مِنَ",
-              "from, with (after 'make sure')"
+              "مِنْ",
+              "of (taʾakkada min: make sure of)"
+            ],
+            [
+              "ذٰلِكَ",
+              "that"
+            ],
+            [
+              "مَعَ",
+              "with"
             ],
             [
               "الطَّبَّاخِ",
@@ -21128,11 +21152,11 @@
         {
           "id": "school-l5",
           "sp": "clerk",
-          "ar": "إِذَنْ سَنُعْطِيكَ امْتِحَانَ تَحْدِيدِ الْمُسْتَوَى الْقَصِير، وَبَعْدَهُ نَضَعُكَ فِي الْمُسْتَوَى الْمُنَاسِب. عِنْدَنَا سِتَّةُ مُسْتَوَيَات.",
+          "ar": "إِذًا سَنُعْطِيكَ امْتِحَانَ تَحْدِيدِ الْمُسْتَوَى الْقَصِير، وَبَعْدَهُ نَضَعُكَ فِي الْمُسْتَوَى الْمُنَاسِب. عِنْدَنَا سِتَّةُ مُسْتَوَيَات.",
           "en": "Then we'll give you the short placement test, and after it we'll put you in the right level. We have six levels.",
           "segs": [
             [
-              "إِذَنْ",
+              "إِذًا",
               "so, then"
             ],
             [
@@ -21696,8 +21720,8 @@
         {
           "id": "school-l13",
           "sp": "clerk",
-          "ar": "طَبْعًا، عُرْبُونُ ثَلَاثِينَ دِينَارًا يَحْفَظُ مَكَانَكَ. أَكْتُبُ اسْمَكَ الْآنَ، وَامْتِحَانُ الْمُسْتَوَى غَدًا فِي الْعَاشِرَة. أَهْلًا بِكَ فِي مَعْهَدِنَا!",
-          "en": "Of course, a deposit of thirty dinars keeps your place. I'll write your name down now, and the level test is tomorrow at ten. Welcome to our institute!",
+          "ar": "طَبْعًا، عُرْبُونُ ثَلَاثِينَ دِينَارًا يَحْفَظُ مَكَانَكَ. أَكْتُبُ اسْمَكَ الْآنَ، وَامْتِحَانُ الْمُسْتَوَى غَدًا فِي التَّاسِعَة. أَهْلًا بِكَ فِي مَعْهَدِنَا!",
+          "en": "Of course, a deposit of thirty dinars keeps your place. I'll write your name down now, and the level test is tomorrow at nine. Welcome to our institute!",
           "segs": [
             [
               "طَبْعًا",
@@ -21752,8 +21776,8 @@
               "at"
             ],
             [
-              "الْعَاشِرَة",
-              "the tenth ('ten o'clock')"
+              "التَّاسِعَة",
+              "the ninth ('nine o'clock')"
             ],
             [
               "أَهْلًا",
@@ -21776,8 +21800,8 @@
         {
           "id": "school-l14",
           "sp": "daniel",
-          "ar": "شُكْرًا جَزِيلًا! تَفَضَّلِي، هٰذَا الْعُرْبُون. سَأَكُونُ هُنَا غَدًا فِي الْعَاشِرَةِ تَمَامًا، وَإِنْ شَاءَ اللّٰه سَأَتَكَلَّمُ الْعَرَبِيَّةَ بِطَلَاقَة بَعْدَ سِتَّةِ أَشْهُر.",
-          "en": "Thank you very much! Here you are, this is the deposit. I'll be here tomorrow at ten exactly, and God willing I'll speak Arabic fluently after six months.",
+          "ar": "شُكْرًا جَزِيلًا! تَفَضَّلِي، هٰذَا الْعُرْبُون. سَأَكُونُ هُنَا غَدًا فِي التَّاسِعَةِ تَمَامًا، وَإِنْ شَاءَ اللّٰه سَأَتَكَلَّمُ الْعَرَبِيَّةَ بِطَلَاقَة بَعْدَ سِتَّةِ أَشْهُر.",
+          "en": "Thank you very much! Here you are, this is the deposit. I'll be here tomorrow at nine exactly, and God willing I'll speak Arabic fluently after six months.",
           "segs": [
             [
               "شُكْرًا",
@@ -21816,8 +21840,8 @@
               "at"
             ],
             [
-              "الْعَاشِرَةِ",
-              "the tenth ('ten o'clock')"
+              "التَّاسِعَةِ",
+              "the ninth ('nine o'clock')"
             ],
             [
               "تَمَامًا",

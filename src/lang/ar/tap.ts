@@ -217,7 +217,17 @@ function nameReading(w: string): string | undefined {
 }
 
 /** Per-token transliteration for a token list (non-Arabic tokens map to themselves). */
-export function tapTokens(text: string, style: TranslitStyle, names?: Set<string>, sentence = true) {
+/** A long vowel said short before a joined consonant pair: fī l-madīna is said fi l-madīna (also ii → i). */
+const LONG_END = /(?:([āīūĀĪŪ])|([aiuAIU])([aiu]))$/;
+const SHORT: Record<string, string> = { ā: 'a', ī: 'i', ū: 'u', Ā: 'A', Ī: 'I', Ū: 'U' };
+const shortenEnd = (t: string) =>
+  t.replace(LONG_END, (m, long?: string, a?: string, b?: string) => (long ? SHORT[long] : a!.toLowerCase() === b ? a! : m));
+
+/**
+ * Tokens with their readings. `spoken` gives the form as said (pronunciation pages): a long vowel before an
+ * elided hamzat al-waṣl is shortened (fi l-madīna, ila l-yamīn), instead of the dictionary form (fī l-madīna).
+ */
+export function tapTokens(text: string, style: TranslitStyle, names?: Set<string>, sentence = true, spoken = false) {
   const runs = splitRuns(text);
   const arIdx: number[] = [];
   runs.forEach((t, i) => t.kind === 'ar' && arIdx.push(i));
@@ -244,8 +254,9 @@ export function tapTokens(text: string, style: TranslitStyle, names?: Set<string
       startsAfterVowel: plainGap && prevEndsVowel,
     });
     // tanwīn before hamzat al-waṣl takes a helping kasra: jiddani l-yawma
-    if (plainGap && prevEndsVowel && ENDS_TANWIN.test(words[k - 1]) && readingOf(w).wasl && /^[aiu]/.test(readingOf(w).text))
-      tr[k - 1] += 'i';
+    const elides = plainGap && prevEndsVowel && readingOf(w).wasl && /^[aiu]/.test(readingOf(w).text);
+    if (elides && ENDS_TANWIN.test(words[k - 1])) tr[k - 1] += 'i';
+    else if (elides && spoken) tr[k - 1] = shortenEnd(tr[k - 1]);
     tr.push(t);
     prevEndsVowel = endsInVowel(w, readingOf(w).text);
   });
@@ -260,8 +271,8 @@ export function tapTokens(text: string, style: TranslitStyle, names?: Set<string
  * Transliteration of an Arabic run inside English prose: no sentence capital (the run is mid-sentence),
  * a bare letter is named (tāʾ marbūṭa, not its sound table 'a / at'), an unvocalised word gets none.
  */
-export function proseTranslit(text: string, style: TranslitStyle, after = '', before = '') {
-  const toks = tapTokens(text, style, namesSet(), false);
+export function proseTranslit(text: string, style: TranslitStyle, after = '', before = '', spoken = false) {
+  const toks = tapTokens(text, style, namesSet(), false, spoken);
   const join = (xs: typeof toks) => xs.map((x) => x.text).join('');
   const out = toks
     .map((t, i) => {
@@ -329,13 +340,13 @@ export function proseParts(text: string) {
   return parts;
 }
 
-export function proseLine(text: string, style: TranslitStyle) {
+export function proseLine(text: string, style: TranslitStyle, spoken = false) {
   const groups = proseParts(text);
   const parts = groups.map((p) => p.tokens.map((t) => t.text).join(''));
   return parts
     .map((s, i) => {
       if (!groups[i].ar) return s.replace(/[،؟؛]/g, (p) => ({ '،': ',', '؟': '?', '؛': ';' })[p]!);
-      const r = proseTranslit(s, style, parts.slice(i + 1).join(''), parts.slice(0, i).join(''));
+      const r = proseTranslit(s, style, parts.slice(i + 1).join(''), parts.slice(0, i).join(''), spoken);
       return r || s;
     })
     .join('');
@@ -398,6 +409,8 @@ export function translitLine(text: string, style: TranslitStyle, names?: Set<str
 export interface GlossCtx {
   day?: number;
   mistake?: boolean;
+  /** A quiz or test question not answered yet: an exercise note ("wrong — correct: …") would give the answer away. */
+  unanswered?: boolean;
   /** The screen part a tap happens in: scenario:<id>, culture:<id>, placard:<id>, grammar:<id>, vocab:<id>… */
   place?: string;
 }
@@ -636,6 +649,34 @@ export function vocabOf(word: string): Vocab | undefined {
  * word → numbers → letters → mistake note of a non-word. Returns undefined rather than guessing.
  */
 export function meaningOf(word: string, ctx: GlossCtx = {}): string | undefined {
+  if (!ctx.unanswered) return meaningChain(word, ctx);
+  const g = meaningChain(word, { ...ctx, mistake: false });
+  return g && isExerciseNote(g) ? withoutExerciseNote(g) : g;
+}
+
+/**
+ * The meaning part of an exercise note, for a question not answered yet: "cold (plural for people; wrong here —
+ * correct: bārida)" → "cold (plural for people)". A note that is only the correction keeps the intended meaning:
+ * "(wrong — correct: khālatī, my aunt)" → "my aunt". Never the correct form itself.
+ */
+export function withoutExerciseNote(g: string): string | undefined {
+  const kept = g
+    .replace(/\(([^()]*)\)/g, (all, inner: string) => {
+      if (!isExerciseNote(inner)) return all;
+      const rest = inner
+        .split(';')
+        .map((x) => x.trim())
+        .filter((x) => x && !isExerciseNote(x));
+      return rest.length ? `(${rest.join('; ')})` : '';
+    })
+    .replace(/\s+/g, ' ')
+    .trim();
+  if (kept && !isExerciseNote(kept)) return kept;
+  if (kept) return undefined;
+  return /correct:\s*[^,()]+,\s*([^()]+?)\s*\)?\s*$/.exec(g)?.[1];
+}
+
+function meaningChain(word: string, ctx: GlossCtx): string | undefined {
   if (!exact) buildIndexes();
   const w = clean(word);
   const bare = stripHarakat(w);

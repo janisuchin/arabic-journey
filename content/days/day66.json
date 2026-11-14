@@ -22,7 +22,7 @@
     "Answer the phone and say who is speaking",
     "Say that someone is away, travelling or coming back with active participles",
     "Take a message, or offer to take one",
-    "Promise to call someone back with أَتَّصِلُ بِكَ"
+    "Promise to call someone back with سَأَتَّصِلُ بِكَ"
   ],
   "realLife": {
     "emoji": "☎️",
@@ -156,13 +156,13 @@
     },
     {
       "id": "d66s4",
-      "ar": "أَتَّصِلُ بِكَ غَدًا.",
+      "ar": "سَأَتَّصِلُ بِكَ غَدًا.",
       "en": "I'll call you tomorrow. (to a man)",
-      "literal": "I call to you tomorrow",
+      "literal": "I will call to you tomorrow",
       "segs": [
         [
-          "أَتَّصِلُ",
-          "I call, I phone",
+          "سَأَتَّصِلُ",
+          "I will call, I will phone",
           "verb"
         ],
         [
@@ -181,9 +181,9 @@
       ],
       "mistakes": [
         {
-          "wrong": "أَتَّصِلُكَ غَدًا.",
-          "right": "أَتَّصِلُ بِكَ غَدًا.",
-          "why": "ittaṣala always takes bi- before the person: attaṣilu bika."
+          "wrong": "سَأَتَّصِلُكَ غَدًا.",
+          "right": "سَأَتَّصِلُ بِكَ غَدًا.",
+          "why": "ittaṣala always takes bi- before the person: sa-attaṣilu bika."
         }
       ]
     },
@@ -1288,9 +1288,9 @@
       "id": "d66q5",
       "prompt": "How do you say 'I'll call you tomorrow' to a man?",
       "options": [
-        "أَتَّصِلُكَ غَدًا.",
-        "أَكْتُبُ لَكَ غَدًا.",
-        "أَتَّصِلُ بِكَ غَدًا.",
+        "سَأَتَّصِلُكَ غَدًا.",
+        "سَأَكْتُبُ لَكَ غَدًا.",
+        "سَأَتَّصِلُ بِكَ غَدًا.",
         "سَتَتَّصِلُ بِكَ غَدًا."
       ],
       "answer": 2

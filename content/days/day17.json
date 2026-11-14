@@ -52,16 +52,16 @@
         "segs": [["أَنَا", "I"], ["لَا", "not"], ["آكُلُ", "I eat"], ["اللَّحْمَ", "the meat (object)"], ["كَثِيرًا", "much, a lot"], ["هَلْ", "(starts a yes/no question)"], ["عِنْدَكُمْ", "you have (to several people)"], ["طَعَام", "food"], ["نَبَاتِيّ", "vegetarian"]] },
       { "id": "d17l11", "sp": "waiter", "ar": "نَعَم، عِنْدَنَا مَحْشِيّ وَمُسَقَّعَة وَسَلَطَات كَثِيرَة.", "en": "Yes, we have stuffed vegetables, aubergine moussaka and lots of salads.",
         "segs": [["نَعَم", "yes"], ["عِنْدَنَا", "we have"], ["مَحْشِيّ", "stuffed vegetables"], ["وَمُسَقَّعَة", "and aubergine moussaka"], ["وَسَلَطَات", "and salads"], ["كَثِيرَة", "many (f)"]] },
-      { "id": "d17l12", "sp": "daniel", "ar": "إِذَنْ أُرِيدُ الْمَحْشِيَّ، مِنْ فَضْلِكَ، وَمَاءً لِلْجَمِيع.", "en": "Then I'd like the stuffed vegetables, please, and water for everyone.",
-        "segs": [["إِذَنْ", "then, so"], ["أُرِيدُ", "I want, I'd like"], ["الْمَحْشِيَّ", "the stuffed vegetables (object)"], ["مِنْ", "from"], ["فَضْلِكَ", "your kindness (to a man): 'please'"], ["وَمَاءً", "and water (object)"], ["لِلْجَمِيع", "for everyone"]] },
+      { "id": "d17l12", "sp": "daniel", "ar": "إِذًا أُرِيدُ الْمَحْشِيَّ، مِنْ فَضْلِكَ، وَمَاءً لِلْجَمِيع.", "en": "Then I'd like the stuffed vegetables, please, and water for everyone.",
+        "segs": [["إِذًا", "then, so"], ["أُرِيدُ", "I want, I'd like"], ["الْمَحْشِيَّ", "the stuffed vegetables (object)"], ["مِنْ", "from"], ["فَضْلِكَ", "your kindness (to a man): 'please'"], ["وَمَاءً", "and water (object)"], ["لِلْجَمِيع", "for everyone"]] },
       { "id": "d17l13", "sp": "sami", "ar": "وَأَنَا أُرِيدُ لَحْمًا مَشْوِيًّا مَعَ الْأَرُزّ. أَنَا جَائِع جِدًّا!", "en": "And I'd like grilled meat with rice. I am really hungry!",
         "segs": [["وَأَنَا", "and I"], ["أُرِيدُ", "I want, I'd like"], ["لَحْمًا", "meat (object)"], ["مَشْوِيًّا", "grilled (object)"], ["مَعَ", "with"], ["الْأَرُزّ", "the rice"], ["أَنَا", "I"], ["جَائِع", "hungry"], ["جِدًّا", "very"]] },
       { "id": "d17l14", "sp": "karim", "ar": "كَيْفَ الطَّعَام يَا طُلَّاب؟ هَلْ هُوَ لَذِيذ؟", "en": "How is the food, students? Is it tasty?",
         "segs": [["كَيْفَ", "how"], ["الطَّعَام", "the food"], ["يَا", "O (calling someone)"], ["طُلَّاب", "students"], ["هَلْ", "(starts a yes/no question)"], ["هُوَ", "he, it (m)"], ["لَذِيذ", "delicious, tasty"]] },
-      { "id": "d17l15", "sp": "layla", "ar": "السَّمَك لَذِيذ جِدًّا، وَالسَّلَطَات طَازَجَة. شُكْرًا يَا أُسْتَاذ!", "en": "The fish is delicious, and the salads are fresh. Thank you, teacher!",
+      { "id": "d17l15", "sp": "layla", "ar": "السَّمَك لَذِيذ جِدًّا، وَالسَّلَطَات طَازَجَة. شُكْرًا يَا أُسْتَاذ!", "en": "The fish is very delicious, and the salads are fresh. Thank you, teacher!",
         "segs": [["السَّمَك", "the fish"], ["لَذِيذ", "delicious"], ["جِدًّا", "very"], ["وَالسَّلَطَات", "and the salads"], ["طَازَجَة", "fresh (f)"], ["شُكْرًا", "thank you"], ["يَا", "O (calling someone)"], ["أُسْتَاذ", "teacher"]] },
-      { "id": "d17l16", "sp": "karim", "ar": "الْعَفْوْ! لَوْ سَمَحْتَ، الْحِسَاب. الْيَوْم أَنَا أَدْفَعُ!", "en": "Not at all! Excuse me, the bill, please. Today I'm paying!",
-        "segs": [["الْعَفْوْ", "not at all, you're welcome"], ["لَوْ", "if"], ["سَمَحْتَ", "you allow (to a man)"], ["الْحِسَاب", "the bill"], ["الْيَوْم", "today"], ["أَنَا", "I"], ["أَدْفَعُ", "I pay"]] }
+      { "id": "d17l16", "sp": "karim", "ar": "الْعَفْو! لَوْ سَمَحْتَ، الْحِسَاب. الْيَوْم أَنَا أَدْفَعُ!", "en": "Not at all! Excuse me, the bill, please. Today I'm paying!",
+        "segs": [["الْعَفْو", "not at all, you're welcome"], ["لَوْ", "if"], ["سَمَحْتَ", "you allow (to a man)"], ["الْحِسَاب", "the bill"], ["الْيَوْم", "today"], ["أَنَا", "I"], ["أَدْفَعُ", "I pay"]] }
     ]
   },
   "reading": { "title": "A famous restaurant", "ar": "فِي الْمَسَاء يَأْكُلُ الطُّلَّاب فِي مَطْعَم مَشْهُور. الْأُسْتَاذ كَرِيم يَأْكُلُ دَجَاجًا مَعَ الْأَرُزّ، وَلَيْلَى تَأْكُلُ سَمَكًا. الطَّبَّاخُونَ مُمْتَازُونَ، وَالسَّلَطَات طَازَجَة. الْمَشْرُوبَات بَارِدَة أَيْضًا.", "en": "In the evening the students eat at a famous restaurant. Mr Karim eats chicken with rice, and Layla eats fish. The cooks are excellent, and the salads are fresh. The drinks are cold too.",

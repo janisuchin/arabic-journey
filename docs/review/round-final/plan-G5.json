@@ -1,0 +1,1725 @@
+{
+ "group": "G5 (grammar cards, vocabulary, letters, pronunciation)",
+ "ops": [
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-78"
+   ],
+   "op": "scoped",
+   "word": "ـًا",
+   "scope": "grammar:laysa",
+   "gloss": "-an (ending: on objects, and after laysa / kāna)"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-78"
+   ],
+   "op": "scoped",
+   "word": "ـَةً",
+   "scope": "grammar:laysa",
+   "gloss": "-atan (the -an ending after ة: on objects, and after laysa / kāna)"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-32"
+   ],
+   "op": "text",
+   "file": "content/course/grammar.json",
+   "old": "Note that أَخ (brother) and أَب (father) become أَخُو and أَبُو before another word: أَخُو أَبِي (my father's brother).",
+   "new": "Note that أَخ (brother) and أَب (father) become أَخُو and أَبُو before another word when they are the subject (nominative): أَخُو أَبِي (my father's brother). In the other cases they are أَخَا / أَخِي and أَبَا / أَبِي (object / after a preposition).",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-32"
+   ],
+   "op": "scoped",
+   "word": "أَخَا",
+   "scope": "grammar:family-idafa-w5",
+   "gloss": "brother (of), object form"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-32"
+   ],
+   "op": "scoped",
+   "word": "أَبَا",
+   "scope": "grammar:family-idafa-w5",
+   "gloss": "father (of), object form"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-32"
+   ],
+   "op": "scoped",
+   "word": "أَخِي",
+   "scope": "grammar:family-idafa-w5",
+   "gloss": "my brother; also brother (of) after a preposition"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-32"
+   ],
+   "op": "scoped",
+   "word": "أَبِي",
+   "scope": "grammar:family-idafa-w5",
+   "gloss": "my father; also father (of) after a preposition"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-19"
+   ],
+   "op": "text",
+   "file": "content/course/grammar.json",
+   "old": "or a whole sentence: أَشْعُرُ أَنَّنِي أَحْسَن (I feel better).",
+   "new": "or a whole sentence: أَشْعُرُ بِأَنَّنِي أَفْضَلُ (I feel better).",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-19"
+   ],
+   "op": "scoped",
+   "word": "بِأَنَّنِي",
+   "scope": "grammar:feelings-adjectives",
+   "gloss": "that I (bi- + anna + -nī)"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-19"
+   ],
+   "op": "scoped",
+   "word": "أَفْضَلُ",
+   "scope": "grammar:feelings-adjectives",
+   "gloss": "better"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-1"
+   ],
+   "op": "text",
+   "file": "content/course/grammar.json",
+   "old": "\"title\": \"Must: لَازِم and يَجِبُ + أَنْ\",",
+   "new": "\"title\": \"Must: يَجِبُ أَنْ (spoken: لَازِم)\",",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-1"
+   ],
+   "op": "text",
+   "file": "content/course/grammar.json",
+   "old": "\"titleAr\": \"لَازِم أَنْ تَرْتَاحَ\",",
+   "new": "\"titleAr\": \"يَجِبُ أَنْ تَرْتَاحَ\",",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-1"
+   ],
+   "op": "text",
+   "file": "content/course/grammar.json",
+   "old": "\"summary\": \"To say 'must' or 'have to', use لَازِم (necessary) or يَجِبُ (it is necessary) + أَنْ + the present tense ending in -a.\",",
+   "new": "\"summary\": \"To say 'must' or 'have to' in standard Arabic, use يَجِبُ (it is necessary) + أَنْ + the present tense ending in -a. لَازِم (necessary) is the spoken word.\",",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-1"
+   ],
+   "op": "text",
+   "file": "content/course/grammar.json",
+   "old": "\"formula\": \"لَازِم / يَجِبُ + أَنْ + present (ending -a)\",",
+   "new": "\"formula\": \"يَجِبُ / مِنَ اللَّازِمِ / عَلَيْكَ + أَنْ + present (ending -a) · spoken: لَازِم أَنْ\",",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-1"
+   ],
+   "op": "text",
+   "file": "content/course/grammar.json",
+   "old": "لَازِم and يَجِبُ never change: the person is shown on the second verb. لَازِم أَنْ أَرْتَاحَ (I must rest), لَازِم أَنْ تَرْتَاحَ (you must rest), يَجِبُ أَنْ يَنَامَ (he must sleep). لَازِم is very common when people speak; يَجِبُ is a little more formal and common in writing.",
+   "new": "يَجِبُ never changes: the person is shown on the second verb. يَجِبُ أَنْ أَرْتَاحَ (I must rest), يَجِبُ أَنْ تَرْتَاحَ (you must rest), يَجِبُ أَنْ يَنَامَ (he must sleep). Two other written forms: مِنَ اللَّازِمِ أَنْ (it is necessary that) and عَلَيْكَ أَنْ (you have to, literally 'it is on you'): عَلَيْكَ أَنْ تَرْتَاحَ (you have to rest). لَازِم أَنْ is very common when people speak (لَازِم أَنْ أَرْتَاحَ), but it is spoken style: in writing use يَجِبُ أَنْ.",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-1"
+   ],
+   "op": "text",
+   "file": "content/course/grammar.json",
+   "old": "\"لَازِم أَنْ أَرْتَاحَ\",\n          \"I must rest\"\n",
+   "new": "\"مِنَ اللَّازِمِ أَنْ أَرْتَاحَ\",\n          \"I must rest (it is necessary that I rest)\"\n",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-1"
+   ],
+   "op": "text",
+   "file": "content/course/grammar.json",
+   "old": "\"لَازِم أَنْ تَنَامَ مُبَكِّرًا\",\n          \"you must go to bed early\"\n",
+   "new": "\"عَلَيْكَ أَنْ تَنَامَ مُبَكِّرًا\",\n          \"you have to go to bed early\"\n",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-1"
+   ],
+   "op": "text",
+   "file": "content/course/grammar.json",
+   "old": "\"لَيْسَ ضَرُورِيًّا\",\n          \"it is not necessary\"\n        ]\n      ]",
+   "new": "\"لَيْسَ ضَرُورِيًّا\",\n          \"it is not necessary\"\n        ],\n        [\n          \"لَازِم أَنْ أَرْتَاحَ\",\n          \"I must rest (spoken style)\"\n        ]\n      ]",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-1"
+   ],
+   "op": "text",
+   "file": "content/course/grammar.json",
+   "old": "\"ar\": \"لَازِم أَنْ تَرْتَاحَ الْيَوْمَ وَغَدًا.\",\n        \"en\": \"You must rest today and tomorrow. (to a man)\"",
+   "new": "\"ar\": \"عَلَيْكَ أَنْ تَرْتَاحَ الْيَوْمَ وَغَدًا.\",\n        \"en\": \"You have to rest today and tomorrow. (to a man)\"",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-1"
+   ],
+   "op": "scoped",
+   "word": "اللَّازِمِ",
+   "scope": "grammar:lazim",
+   "gloss": "the necessary (min al-lāzimi an: it is necessary that)"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-1"
+   ],
+   "op": "scoped",
+   "word": "عَلَيْكَ",
+   "scope": "grammar:lazim",
+   "gloss": "on you (to a man); ʿalayka an: you have to"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-1"
+   ],
+   "op": "scoped",
+   "word": "تَنَامَ",
+   "scope": "grammar:lazim",
+   "gloss": "you sleep, go to bed (after an, to a man)"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-1"
+   ],
+   "op": "scoped",
+   "word": "لَازِم",
+   "scope": "grammar:lazim",
+   "gloss": "necessary, must (spoken style)"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-18"
+   ],
+   "op": "text",
+   "file": "content/course/grammar.json",
+   "old": "For snow say يَنْزِلُ الثَّلْج (snow falls). For wind use هُنَاكَ: هُنَاكَ رِيَاح قَوِيَّة (it's very windy).",
+   "new": "For snow say يَتَسَاقَطُ الثَّلْجُ (snow falls). For wind use هُنَاكَ: هُنَاكَ رِيَاح قَوِيَّة (there are strong winds).",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-18"
+   ],
+   "op": "text",
+   "file": "content/course/grammar.json",
+   "old": "\"يَنْزِلُ الثَّلْج\",\n          \"it's snowing (snow falls)\"",
+   "new": "\"يَتَسَاقَطُ الثَّلْجُ\",\n          \"it's snowing (snow falls)\"",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-18"
+   ],
+   "op": "text",
+   "file": "content/course/grammar.json",
+   "old": "\"هُنَاكَ رِيَاح قَوِيَّة\",\n          \"it's very windy\"",
+   "new": "\"هُنَاكَ رِيَاح قَوِيَّة\",\n          \"there are strong winds\"",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-18"
+   ],
+   "op": "scoped",
+   "word": "يَتَسَاقَطُ",
+   "scope": "grammar:weather-expressions",
+   "gloss": "falls (snow, rain)"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-18"
+   ],
+   "op": "scoped",
+   "word": "الثَّلْجُ",
+   "scope": "grammar:weather-expressions",
+   "gloss": "the snow"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-18"
+   ],
+   "op": "text",
+   "file": "content/course/grammar.json",
+   "old": "On foot is مَشْيًا.\",",
+   "new": "On foot is مَشْيًا عَلَى الْأَقْدَامِ.\",",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-18"
+   ],
+   "op": "text",
+   "file": "content/course/grammar.json",
+   "old": "For 'on foot' Arabic uses one word, مَشْيًا (walking).",
+   "new": "For 'on foot' Arabic says مَشْيًا عَلَى الْأَقْدَامِ (walking on the feet).",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-18"
+   ],
+   "op": "text",
+   "file": "content/course/grammar.json",
+   "old": "\"مَشْيًا\",\n          \"on foot\"",
+   "new": "\"مَشْيًا عَلَى الْأَقْدَامِ\",\n          \"on foot\"",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-18"
+   ],
+   "op": "scoped",
+   "word": "الْأَقْدَامِ",
+   "scope": "grammar:bi-transport-w4",
+   "gloss": "the feet (mashyan ʿalā l-aqdām: on foot)"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-18"
+   ],
+   "op": "scoped",
+   "word": "مَشْيًا",
+   "scope": "grammar:bi-transport-w4",
+   "gloss": "walking (mashyan ʿalā l-aqdām: on foot)"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-26"
+   ],
+   "op": "text",
+   "file": "content/course/grammar.json",
+   "old": "سَأَلَنِي هَلْ فَهِمْتُ الدَّرْسَ (he asked me whether I had understood the lesson).",
+   "new": "سَأَلَنِي هَلْ فَهِمْتُ الدَّرْسَ (he asked me whether I had understood the lesson). Careful style prefers إِنْ (if) with كَانَ: سَأَلَنِي إِنْ كُنْتُ فَهِمْتُ الدَّرْسَ.",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-26"
+   ],
+   "op": "scoped",
+   "word": "إِنْ",
+   "scope": "grammar:qala-inna",
+   "gloss": "if, whether (in a reported question)"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-26"
+   ],
+   "op": "scoped",
+   "word": "كُنْتُ",
+   "scope": "grammar:qala-inna",
+   "gloss": "I was (kuntu fahimtu: I had understood)"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-27"
+   ],
+   "op": "text",
+   "file": "content/course/grammar.json",
+   "old": "In ordinary sentences you can say the same with the present: مَنْ يَعْمَلُ كَثِيرًا يَجِدُ النَّجَاح (whoever works hard finds success).",
+   "new": "In ordinary sentences you can say the same with the short form of the present, as after لَمْ: مَنْ يَعْمَلْ كَثِيرًا يَجِدِ النَّجَاحَ (whoever works hard finds success). The -i of يَجِدِ only links it to the next word.",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-27"
+   ],
+   "op": "text",
+   "file": "content/course/grammar.json",
+   "old": "\"مَنْ يَعْمَلُ كَثِيرًا يَجِدُ النَّجَاح\",",
+   "new": "\"مَنْ يَعْمَلْ كَثِيرًا يَجِدِ النَّجَاحَ\",",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-27"
+   ],
+   "op": "scoped",
+   "word": "يَعْمَلْ",
+   "scope": "grammar:man-whoever-w11",
+   "gloss": "works (short form after man 'whoever')"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-27"
+   ],
+   "op": "scoped",
+   "word": "يَجِدِ",
+   "scope": "grammar:man-whoever-w11",
+   "gloss": "finds (short form; -i links it to the next word)"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-27"
+   ],
+   "op": "scoped",
+   "word": "النَّجَاحَ",
+   "scope": "grammar:man-whoever-w11",
+   "gloss": "success (object form)"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-110"
+   ],
+   "op": "text",
+   "file": "content/course/vocabulary.json",
+   "old": "\"plural\": \"بِلَاد\", \"emoji\": \"🌍\"",
+   "new": "\"plural\": \"بُلْدَان\", \"emoji\": \"🌍\"",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-110"
+   ],
+   "op": "text",
+   "file": "content/course/vocabulary.json",
+   "old": "\"en\": \"Egypt is a beautiful country.\" } },",
+   "new": "\"en\": \"Egypt is a beautiful country.\" }, \"note\": \"The usual plural is بُلْدَان; بِلَاد is also used.\" },",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-110"
+   ],
+   "op": "scoped",
+   "word": "بُلْدَان",
+   "scope": "vocab:balad",
+   "gloss": "countries"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-110"
+   ],
+   "op": "scoped",
+   "word": "بِلَاد",
+   "scope": "vocab:balad",
+   "gloss": "countries; a land"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-116"
+   ],
+   "op": "text",
+   "file": "content/course/vocabulary.json",
+   "old": "\"note\": \"Literally 'the first': the Arab week starts on Sunday.\"",
+   "new": "\"note\": \"الْأَحَد is 'the first' (lit. 'the one'): the Arab week starts on Sunday.\"",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-116"
+   ],
+   "op": "text",
+   "file": "content/course/vocabulary.json",
+   "old": "\"note\": \"From اِثْنَان (two): the second day of the week.\"",
+   "new": "\"note\": \"الِاثْنَيْن is 'the second' (lit. 'the two', from اِثْنَان): the second day of the week.\"",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-117"
+   ],
+   "op": "text",
+   "file": "content/course/vocabulary.json",
+   "old": "\"en\": \"We don't need the knives today.\"",
+   "new": "\"en\": \"We don't want the knives today.\"",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-114"
+   ],
+   "op": "text",
+   "file": "content/course/vocabulary.json",
+   "old": "\"note\": \"A hollow verb like كَانَ: before -tu the long ā becomes i: نِمْتُ (I slept).\"",
+   "new": "\"note\": \"A hollow verb: before -tu the long ā becomes short: i in نِمْتُ (I slept), u in كُنْتُ (I was).\"",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-114"
+   ],
+   "op": "scoped",
+   "word": "كُنْتُ",
+   "scope": "vocab:nama",
+   "gloss": "I was"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-119"
+   ],
+   "op": "text",
+   "file": "content/course/vocabulary.json",
+   "old": "'For two months' is مُنْذُ شَهْرَيْن.\"",
+   "new": "'For two months' is مُنْذُ شَهْرَيْن for an ongoing situation; for a finished period: لِمُدَّةِ شَهْرَيْنِ.\"",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-119"
+   ],
+   "op": "scoped",
+   "word": "لِمُدَّةِ",
+   "scope": "vocab:shahr",
+   "gloss": "for (a period of)"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-119"
+   ],
+   "op": "scoped",
+   "word": "شَهْرَيْنِ",
+   "scope": "vocab:shahr",
+   "gloss": "two months"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-120"
+   ],
+   "op": "text",
+   "file": "content/course/vocabulary.json",
+   "old": "\"note\": \"The verb is رَاجِعُوا (revise! to a group), from the same root.\"",
+   "new": "\"note\": \"The verb is رَاجَعَ / يُرَاجِعُ (revised / revises), from the same root; رَاجِعُوا (revise! to a group) is its imperative.\"",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-120"
+   ],
+   "op": "scoped",
+   "word": "رَاجَعَ",
+   "scope": "vocab:muraja",
+   "gloss": "(he) revised, reviewed"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-120"
+   ],
+   "op": "scoped",
+   "word": "يُرَاجِعُ",
+   "scope": "vocab:muraja",
+   "gloss": "revises, reviews"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-14"
+   ],
+   "op": "text",
+   "file": "content/course/vocabulary.json",
+   "old": "\"plural\": \"مُدَرَاء\", \"emoji\": \"👔\"",
+   "new": "\"plural\": \"مُدِيرُونَ\", \"emoji\": \"👔\"",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-14"
+   ],
+   "op": "text",
+   "file": "content/course/vocabulary.json",
+   "old": "\"note\": \"For a woman add ة: مُدِيرَةُ الشَّرِكَة (the manager of the company).\"",
+   "new": "\"note\": \"For a woman add ة: مُدِيرَةُ الشَّرِكَة (the manager of the company). The plural مُدَرَاء is also common.\"",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-14"
+   ],
+   "op": "scoped",
+   "word": "مُدِيرُونَ",
+   "scope": "vocab:mudir",
+   "gloss": "managers, directors"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-14"
+   ],
+   "op": "scoped",
+   "word": "مُدَرَاء",
+   "scope": "vocab:mudir",
+   "gloss": "managers, directors (common plural)"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-15",
+    "R12-46"
+   ],
+   "op": "text",
+   "file": "content/course/vocabulary.json",
+   "old": "\"example\": {\"ar\": \"هُوَ أَوَّلُ كَاتِبٍ عَرَبِيٍّ أَخَذَ جَائِزَةَ نُوبِل.\", \"en\": \"He was the first Arab writer who won the Nobel Prize.\"}",
+   "new": "\"example\": {\"ar\": \"هُوَ أَوَّلُ كَاتِبٍ عَرَبِيٍّ فَازَ بِجَائِزَةِ نُوبِل.\", \"en\": \"He is the first Arab writer who won the Nobel Prize.\"}",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-15"
+   ],
+   "op": "scoped",
+   "word": "فَازَ",
+   "scope": "vocab:katib",
+   "gloss": "(he) won (fāza bi-: won something)"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-15"
+   ],
+   "op": "scoped",
+   "word": "بِجَائِزَةِ",
+   "scope": "vocab:katib",
+   "gloss": "(with) the prize (of); fāza bi-jāʾiza: won a prize"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-15"
+   ],
+   "op": "text",
+   "file": "content/course/vocabulary.json",
+   "old": "\"example\": {\"ar\": \"هَلْ هُوَ الْكَاتِبُ الَّذِي أَخَذَ جَائِزَةَ نُوبِل؟\", \"en\": \"Is he the writer who won the Nobel Prize?\"}",
+   "new": "\"example\": {\"ar\": \"هَلْ هُوَ الْكَاتِبُ الَّذِي فَازَ بِجَائِزَةِ نُوبِل؟\", \"en\": \"Is he the writer who won the Nobel Prize?\"}",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-15"
+   ],
+   "op": "text",
+   "file": "content/course/vocabulary.json",
+   "old": "\"note\": \"To win a prize is أَخَذَ جَائِزَة (took a prize).\"",
+   "new": "\"note\": \"To win a prize is فَازَ بِجَائِزَة (won a prize). In speech you also hear أَخَذَ جَائِزَة (took a prize).\"",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-15"
+   ],
+   "op": "scoped",
+   "word": "فَازَ",
+   "scope": "vocab:jaiza",
+   "gloss": "(he) won (fāza bi-: won something)"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-15"
+   ],
+   "op": "scoped",
+   "word": "بِجَائِزَةِ",
+   "scope": "vocab:jaiza",
+   "gloss": "(with) the prize (of); fāza bi-jāʾiza: won a prize"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-15"
+   ],
+   "op": "scoped",
+   "word": "بِجَائِزَة",
+   "scope": "vocab:jaiza",
+   "gloss": "(with) a prize; fāza bi-jāʾiza: won a prize"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-16"
+   ],
+   "op": "text",
+   "file": "content/course/vocabulary.json",
+   "old": "\"example\": {\"ar\": \"كَانَ صَوْتُهُ سَرِيعًا جِدًّا.\", \"en\": \"His voice was very fast.\"}",
+   "new": "\"example\": {\"ar\": \"كَانَ صَوْتُهُ عَالِيًا جِدًّا.\", \"en\": \"His voice was very loud.\"}",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-16"
+   ],
+   "op": "scoped",
+   "word": "عَالِيًا",
+   "scope": "vocab:sawt",
+   "gloss": "loud, high (-an after kāna)"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-53"
+   ],
+   "op": "text",
+   "file": "content/course/vocabulary.json",
+   "old": "تَغَيُّرِ الْمُنَاخ means climate change.",
+   "new": "تَغَيُّرُ الْمُنَاخ means climate change.",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-53"
+   ],
+   "op": "scoped",
+   "word": "تَغَيُّرُ",
+   "scope": "vocab:munakh",
+   "gloss": "change (of)"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-52"
+   ],
+   "op": "text",
+   "file": "content/course/vocabulary.json",
+   "old": "\"note\": \"Older grammar books treat سُوق as feminine; today both genders are heard.\"",
+   "new": "\"note\": \"Gender: m. or f. Both are used (older grammar books prefer the feminine); this course uses سُوق as masculine.\"",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-52"
+   ],
+   "op": "engine",
+   "note": "Vocabulary gender 'm. or f.': the schema (src/content/schema.ts gender z.enum(['m','f'])) and the pill/colour in src/features/lesson.tsx and src/components/tap.tsx only know m/f. Add a value (e.g. 'mf') shown as 'm. or f.' (neutral colour), then set سُوق (vocab id suq) to it: in content/course/vocabulary.json replace '\"id\": \"suq\", \"ar\": \"سُوق\", \"en\": \"market\", \"pos\": \"noun\", \"gender\": \"m\"' with '... \"gender\": \"mf\"'. The G5 note change already says 'Gender: m. or f.' so the card is right even without this."
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-1"
+   ],
+   "op": "text",
+   "file": "content/course/vocabulary.json",
+   "old": "\"example\": {\"ar\": \"لَازِم أَنْ تَرْتَاحَ.\", \"en\": \"You must rest. (to a man)\"}, \"note\": \"لَازِم does not change: the person is on the next verb. لَازِم أَنْ أَنَامَ = I must sleep.\"",
+   "new": "\"example\": {\"ar\": \"لَازِم أَنْ تَرْتَاحَ.\", \"en\": \"You must rest. (to a man; spoken)\"}, \"note\": \"Spoken style. لَازِم does not change: the person is on the next verb. لَازِم أَنْ أَنَامَ = I must sleep. In writing use يَجِبُ أَنْ or مِنَ اللَّازِمِ أَنْ.\"",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-1"
+   ],
+   "op": "scoped",
+   "word": "اللَّازِمِ",
+   "scope": "vocab:lazim",
+   "gloss": "the necessary (min al-lāzimi an: it is necessary that)"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-1"
+   ],
+   "op": "text",
+   "file": "content/course/vocabulary.json",
+   "old": "\"note\": \"A little more formal than لَازِم. It does not change for the person.\"",
+   "new": "\"note\": \"The standard written word for 'must'; لَازِم is spoken style. It does not change for the person.\"",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-1"
+   ],
+   "op": "text",
+   "file": "content/course/vocabulary.json",
+   "old": "\"example\": {\"ar\": \"لَازِم أَنْ نُوَفِّرَ الْمَاءَ وَالْكَهْرَبَاءَ.\", \"en\": \"We must save water and electricity.\"}",
+   "new": "\"example\": {\"ar\": \"يَجِبُ أَنْ نُوَفِّرَ الْمَاءَ وَالْكَهْرَبَاءَ.\", \"en\": \"We must save water and electricity.\"}",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-36"
+   ],
+   "op": "text",
+   "file": "content/course/letters.json",
+   "old": "at the start of a word it carries a hamza (a glottal stop)",
+   "new": "at the start of a word it usually carries a hamza (a glottal stop)",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-42"
+   ],
+   "op": "text",
+   "file": "content/course/letters.json",
+   "old": "\"sound\": \"like a gargled r, as in French 'Paris'\"",
+   "new": "\"sound\": \"a soft gargle made at the soft palate (the voiced partner of خ), close to the French r in 'Paris'\"",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-41"
+   ],
+   "op": "text",
+   "file": "content/course/pronunciation.json",
+   "old": "The vowels around an emphatic sound darker: a becomes closer to the 'u' in 'but'.",
+   "new": "The vowels around an emphatic sound darker: a becomes closer to the a of 'father' or the o of 'hot'.",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-41"
+   ],
+   "op": "text",
+   "file": "content/course/pronunciation.json",
+   "old": "The vowels next to it sound darker: ḍa sounds closer to the 'du' of 'dull'.",
+   "new": "The vowels next to it sound darker: the a of ḍa sounds closer to the a of 'father' or the o of 'hot'.",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-41"
+   ],
+   "op": "text",
+   "file": "content/course/pronunciation.json",
+   "old": "صَ is closer to the vowel in 'sun' or 'saw' than to the one in 'sat'.",
+   "new": "the a of صَ is closer to the a of 'father' or the o of 'hot' than to the a of 'sat'.",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-42"
+   ],
+   "op": "text",
+   "file": "content/course/pronunciation.json",
+   "old": "For غ, gargle softly at the back of the mouth, like a French r.",
+   "new": "For غ, gargle softly at the soft palate (غ is the voiced partner of خ), close to a French r.",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-42"
+   ],
+   "op": "text",
+   "file": "content/course/pronunciation.json",
+   "old": "غ: back of the tongue near the uvula, voice on, air rubs through",
+   "new": "غ: back of the tongue near the soft palate, voice on, air rubs through",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-42"
+   ],
+   "op": "text",
+   "file": "content/course/pronunciation.json",
+   "old": "It is close to the French r in 'Paris', made at the back of the mouth.",
+   "new": "It is made at the soft palate and is close to the French r in 'Paris'.",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-43"
+   ],
+   "op": "text",
+   "file": "content/course/pronunciation.json",
+   "old": "Neither one has the puff of air of an English t.",
+   "new": "ط has no puff of air at all.",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-44"
+   ],
+   "op": "text",
+   "file": "content/course/pronunciation.json",
+   "old": "Hold it about twice as long as a short vowel, as in English 'seat' against 'sit'. Many job words have one: طَالِب (ṭālib) and طَبِيب (ṭabīb).",
+   "new": "Hold it about twice as long as a short vowel: the length is what matters. طَالِب (ṭālib, student) and طَبِيب (ṭabīb, doctor) each have one.",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-45"
+   ],
+   "op": "text",
+   "file": "content/course/pronunciation.json",
+   "old": "Saying ذ as d or z, as many people do in Egyptian Arabic: هٰذَا becomes 'hāda' or 'hāza'. In standard Arabic keep the th of 'this': hādhā, dhāhib.",
+   "new": "Saying ذ as d or z, as many people do in everyday Egyptian Arabic: ذَهَب (gold) is said 'dahab' in Egypt. In standard Arabic keep the th of 'this': dhahab, hādhā, dhāhib.",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-45"
+   ],
+   "op": "scoped",
+   "word": "ذَهَب",
+   "scope": "pron:dal-dhal",
+   "gloss": "gold"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-89"
+   ],
+   "op": "text",
+   "file": "content/course/pronunciation.json",
+   "old": "A word with ة becomes a plain -a: نِهَايَة is said nihāya.",
+   "new": "A word with ة becomes a plain -a: نِهَايَةٌ is said nihāya.",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-89"
+   ],
+   "op": "scoped",
+   "word": "نِهَايَةٌ",
+   "scope": "pron:pausal-forms",
+   "gloss": "an end (nihāyatun; at a stop: nihāya)"
+  }
+ ],
+ "checks": [
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-78"
+   ],
+   "area": "grammar",
+   "expect": "ـًا=-an (ending: on objects, and after laysa / kāna)"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-78"
+   ],
+   "area": "grammar",
+   "expect": "ـَةً=-atan (the -an ending after ة: on objects, and after laysa / kāna)"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-32"
+   ],
+   "area": "grammar",
+   "expect": "when they are the subject (nominative)"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-32"
+   ],
+   "area": "grammar",
+   "expect": "أَخَا=brother (of), object form"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-32"
+   ],
+   "area": "grammar",
+   "expect": "أَبَا=father (of), object form"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-32"
+   ],
+   "area": "grammar",
+   "expect": "أَخِي=my brother; also brother (of) after a preposition"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-32"
+   ],
+   "area": "grammar",
+   "expect": "أَبِي=my father; also father (of) after a preposition"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-19"
+   ],
+   "area": "grammar",
+   "expect": "أَشْعُرُ بِأَنَّنِي أَفْضَلُ (I feel better)"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-19"
+   ],
+   "area": "grammar",
+   "expect": "بِأَنَّنِي=that I (bi- + anna + -nī)"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-19"
+   ],
+   "area": "grammar",
+   "expect": "أَفْضَلُ=better"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-1"
+   ],
+   "area": "grammar",
+   "expect": "title: Must: يَجِبُ أَنْ (spoken: لَازِم)"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-1"
+   ],
+   "area": "grammar",
+   "expect": "titleAr: يَجِبُ أَنْ تَرْتَاحَ"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-1"
+   ],
+   "area": "grammar",
+   "expect": "لَازِم (necessary) is the spoken word."
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-1"
+   ],
+   "area": "grammar",
+   "expect": "يَجِبُ / مِنَ اللَّازِمِ / عَلَيْكَ + أَنْ + present (ending -a) · spoken: لَازِم أَنْ"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-1"
+   ],
+   "area": "grammar",
+   "expect": "but it is spoken style: in writing use يَجِبُ أَنْ."
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-1"
+   ],
+   "area": "grammar",
+   "expect": "مِنَ اللَّازِمِ أَنْ أَرْتَاحَ = I must rest (it is necessary that I rest)"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-1"
+   ],
+   "area": "grammar",
+   "expect": "عَلَيْكَ أَنْ تَنَامَ مُبَكِّرًا = you have to go to bed early"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-1"
+   ],
+   "area": "grammar",
+   "expect": "لَازِم أَنْ أَرْتَاحَ = I must rest (spoken style)"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-1"
+   ],
+   "area": "grammar",
+   "expect": "عَلَيْكَ أَنْ تَرْتَاحَ الْيَوْمَ وَغَدًا."
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-1"
+   ],
+   "area": "grammar",
+   "expect": "اللَّازِمِ=the necessary (min al-lāzimi an: it is necessary that)"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-1"
+   ],
+   "area": "grammar",
+   "expect": "عَلَيْكَ=on you (to a man); ʿalayka an: you have to"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-1"
+   ],
+   "area": "grammar",
+   "expect": "تَنَامَ=you sleep, go to bed (after an, to a man)"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-1"
+   ],
+   "area": "grammar",
+   "expect": "لَازِم=necessary, must (spoken style)"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-18"
+   ],
+   "area": "grammar",
+   "expect": "For snow say يَتَسَاقَطُ الثَّلْجُ (snow falls)."
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-18"
+   ],
+   "area": "grammar",
+   "expect": "يَتَسَاقَطُ الثَّلْجُ = it's snowing (snow falls)"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-18"
+   ],
+   "area": "grammar",
+   "expect": "هُنَاكَ رِيَاح قَوِيَّة = there are strong winds"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-18"
+   ],
+   "area": "grammar",
+   "expect": "يَتَسَاقَطُ=falls (snow, rain)"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-18"
+   ],
+   "area": "grammar",
+   "expect": "الثَّلْجُ=the snow"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-18"
+   ],
+   "area": "grammar",
+   "expect": "On foot is مَشْيًا عَلَى الْأَقْدَامِ."
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-18"
+   ],
+   "area": "grammar",
+   "expect": "For 'on foot' Arabic says مَشْيًا عَلَى الْأَقْدَامِ (walking on the feet)."
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-18"
+   ],
+   "area": "grammar",
+   "expect": "مَشْيًا عَلَى الْأَقْدَامِ = on foot"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-18"
+   ],
+   "area": "grammar",
+   "expect": "الْأَقْدَامِ=the feet (mashyan ʿalā l-aqdām: on foot)"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-18"
+   ],
+   "area": "grammar",
+   "expect": "مَشْيًا=walking (mashyan ʿalā l-aqdām: on foot)"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-26"
+   ],
+   "area": "grammar",
+   "expect": "Careful style prefers إِنْ (if) with كَانَ: سَأَلَنِي إِنْ كُنْتُ فَهِمْتُ الدَّرْسَ."
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-26"
+   ],
+   "area": "grammar",
+   "expect": "إِنْ=if, whether (in a reported question)"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-26"
+   ],
+   "area": "grammar",
+   "expect": "كُنْتُ=I was (kuntu fahimtu: I had understood)"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-27"
+   ],
+   "area": "grammar",
+   "expect": "مَنْ يَعْمَلْ كَثِيرًا يَجِدِ النَّجَاحَ (whoever works hard finds success)"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-27"
+   ],
+   "area": "grammar",
+   "expect": "مَنْ يَعْمَلْ كَثِيرًا يَجِدِ النَّجَاحَ = who works a lot finds the success"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-27"
+   ],
+   "area": "grammar",
+   "expect": "يَعْمَلْ=works (short form after man 'whoever')"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-27"
+   ],
+   "area": "grammar",
+   "expect": "يَجِدِ=finds (short form; -i links it to the next word)"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-27"
+   ],
+   "area": "grammar",
+   "expect": "النَّجَاحَ=success (object form)"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-110"
+   ],
+   "area": "vocabulary",
+   "expect": "plural: بُلْدَان"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-110"
+   ],
+   "area": "vocabulary",
+   "expect": "The usual plural is بُلْدَان; بِلَاد is also used."
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-110"
+   ],
+   "area": "vocabulary",
+   "expect": "بُلْدَان=countries"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-110"
+   ],
+   "area": "vocabulary",
+   "expect": "بِلَاد=countries; a land"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-116"
+   ],
+   "area": "vocabulary",
+   "expect": "الْأَحَد is 'the first' (lit. 'the one')"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-116"
+   ],
+   "area": "vocabulary",
+   "expect": "الِاثْنَيْن is 'the second' (lit. 'the two', from اِثْنَان)"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-117"
+   ],
+   "area": "vocabulary",
+   "expect": "We don't want the knives today."
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-114"
+   ],
+   "area": "vocabulary",
+   "expect": "before -tu the long ā becomes short: i in نِمْتُ (I slept), u in كُنْتُ (I was)."
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-114"
+   ],
+   "area": "vocabulary",
+   "expect": "كُنْتُ=I was"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-119"
+   ],
+   "area": "vocabulary",
+   "expect": "for an ongoing situation; for a finished period: لِمُدَّةِ شَهْرَيْنِ."
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-119"
+   ],
+   "area": "vocabulary",
+   "expect": "لِمُدَّةِ=for (a period of)"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-119"
+   ],
+   "area": "vocabulary",
+   "expect": "شَهْرَيْنِ=two months"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-120"
+   ],
+   "area": "vocabulary",
+   "expect": "The verb is رَاجَعَ / يُرَاجِعُ (revised / revises)"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-120"
+   ],
+   "area": "vocabulary",
+   "expect": "رَاجَعَ=(he) revised, reviewed"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-120"
+   ],
+   "area": "vocabulary",
+   "expect": "يُرَاجِعُ=revises, reviews"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-14"
+   ],
+   "area": "vocabulary",
+   "expect": "plural: مُدِيرُونَ"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-14"
+   ],
+   "area": "vocabulary",
+   "expect": "The plural مُدَرَاء is also common."
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-14"
+   ],
+   "area": "vocabulary",
+   "expect": "مُدِيرُونَ=managers, directors"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-14"
+   ],
+   "area": "vocabulary",
+   "expect": "مُدَرَاء=managers, directors (common plural)"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-15",
+    "R12-46"
+   ],
+   "area": "vocabulary",
+   "expect": "هُوَ أَوَّلُ كَاتِبٍ عَرَبِيٍّ فَازَ بِجَائِزَةِ نُوبِل."
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-15"
+   ],
+   "area": "vocabulary",
+   "expect": "فَازَ=(he) won (fāza bi-: won something)"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-15"
+   ],
+   "area": "vocabulary",
+   "expect": "بِجَائِزَةِ=(with) the prize (of); fāza bi-jāʾiza: won a prize"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-15"
+   ],
+   "area": "vocabulary",
+   "expect": "هَلْ هُوَ الْكَاتِبُ الَّذِي فَازَ بِجَائِزَةِ نُوبِل؟"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-15"
+   ],
+   "area": "vocabulary",
+   "expect": "To win a prize is فَازَ بِجَائِزَة (won a prize)."
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-15"
+   ],
+   "area": "vocabulary",
+   "expect": "فَازَ=(he) won (fāza bi-: won something)"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-15"
+   ],
+   "area": "vocabulary",
+   "expect": "بِجَائِزَةِ=(with) the prize (of); fāza bi-jāʾiza: won a prize"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-15"
+   ],
+   "area": "vocabulary",
+   "expect": "بِجَائِزَة=(with) a prize; fāza bi-jāʾiza: won a prize"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-16"
+   ],
+   "area": "vocabulary",
+   "expect": "كَانَ صَوْتُهُ عَالِيًا جِدًّا."
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-16"
+   ],
+   "area": "vocabulary",
+   "expect": "عَالِيًا=loud, high (-an after kāna)"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-53"
+   ],
+   "area": "vocabulary",
+   "expect": "تَغَيُّرُ الْمُنَاخ means climate change."
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-53"
+   ],
+   "area": "vocabulary",
+   "expect": "تَغَيُّرُ=change (of)"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-52"
+   ],
+   "area": "vocabulary",
+   "expect": "Gender: m. or f. Both are used (older grammar books prefer the feminine); this course uses سُوق as masculine."
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-1"
+   ],
+   "area": "vocabulary",
+   "expect": "In writing use يَجِبُ أَنْ or مِنَ اللَّازِمِ أَنْ."
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-1"
+   ],
+   "area": "vocabulary",
+   "expect": "اللَّازِمِ=the necessary (min al-lāzimi an: it is necessary that)"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-1"
+   ],
+   "area": "vocabulary",
+   "expect": "The standard written word for 'must'; لَازِم is spoken style."
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-1"
+   ],
+   "area": "vocabulary",
+   "expect": "يَجِبُ أَنْ نُوَفِّرَ الْمَاءَ وَالْكَهْرَبَاءَ."
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-36"
+   ],
+   "area": "letters-pronunciation",
+   "expect": "at the start of a word it usually carries a hamza"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-42"
+   ],
+   "area": "letters-pronunciation",
+   "expect": "a soft gargle made at the soft palate (the voiced partner of خ), close to the French r in 'Paris'"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-41"
+   ],
+   "area": "letters-pronunciation",
+   "expect": "a becomes closer to the a of 'father' or the o of 'hot'."
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-41"
+   ],
+   "area": "letters-pronunciation",
+   "expect": "the a of ḍa sounds closer to the a of 'father' or the o of 'hot'."
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-41"
+   ],
+   "area": "letters-pronunciation",
+   "expect": "the a of صَ is closer to the a of 'father' or the o of 'hot' than to the a of 'sat'."
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-42"
+   ],
+   "area": "letters-pronunciation",
+   "expect": "For غ, gargle softly at the soft palate (غ is the voiced partner of خ), close to a French r."
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-42"
+   ],
+   "area": "letters-pronunciation",
+   "expect": "غ: back of the tongue near the soft palate, voice on, air rubs through"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-42"
+   ],
+   "area": "letters-pronunciation",
+   "expect": "It is made at the soft palate and is close to the French r in 'Paris'."
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-43"
+   ],
+   "area": "letters-pronunciation",
+   "expect": "ط has no puff of air at all."
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-44"
+   ],
+   "area": "letters-pronunciation",
+   "expect": "Hold it about twice as long as a short vowel: the length is what matters."
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-45"
+   ],
+   "area": "letters-pronunciation",
+   "expect": "ذَهَب (gold) is said 'dahab' in Egypt."
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-45"
+   ],
+   "area": "letters-pronunciation",
+   "expect": "ذَهَب=gold"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-89"
+   ],
+   "area": "letters-pronunciation",
+   "expect": "A word with ة becomes a plain -a: نِهَايَةٌ is said nihāya."
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-89"
+   ],
+   "area": "letters-pronunciation",
+   "expect": "نِهَايَةٌ=an end (nihāyatun; at a stop: nihāya)"
+  }
+ ],
+ "skipped": [
+  {
+   "ids": [
+    "R12-52"
+   ],
+   "why": "Partly: the vocabulary gender field only accepts 'm' or 'f' (src/content/schema.ts), so 'm. or f.' cannot be stored in data. The note now says 'Gender: m. or f. … this course uses سُوق as masculine' and an engine op asks for a 'mf' value; gender stays 'm' until then."
+  }
+ ],
+ "notesForLead": [
+  "Rows handled (G5 parts): R3-78, R3-114, R3-119, R3-120, R3-116, R3-89, R3-110, R3-117, R12-1 (card + vocabulary lazim/yajibu notes + yuwaffiru example), R12-14, R12-15, R12-16, R12-18, R12-19, R12-26, R12-27, R12-32, R12-36, R12-41, R12-42, R12-43, R12-44, R12-45, R12-46 (kātib), R12-52 (partly, see skipped), R12-53 (munākh).",
+  "Endings: where DECISIONS spells a form with a case vowel I used it literally (يَتَسَاقَطُ الثَّلْجُ, مَشْيًا عَلَى الْأَقْدَامِ, أَشْعُرُ بِأَنَّنِي أَفْضَلُ, لِمُدَّةِ شَهْرَيْنِ, يَجِدِ النَّجَاحَ, مُدِيرُونَ). Full vocalisation is correct MSA; if you prefer strict pause style, drop the final vowels in the same ops and their checks.",
+  "R3-78: the wrong wording 'an indefinite object' is the app-wide hand.json gloss of ـًا (and ـَةً 'a feminine word as an object'). G5 scoped it for grammar:laysa only. If G2 fixes day 33 the same way, consider one hand op instead, e.g. ـًا = '-an (ending: on objects, after laysa / kāna; also adverbs like shukran)', and delete the scoped duplicates.",
+  "R12-1: the lazim card now teaches يَجِبُ أَنْ / مِنَ اللَّازِمِ أَنْ / عَلَيْكَ أَنْ with لَازِم أَنْ as a 'spoken style' row; card id 'lazim' unchanged (day 48 links it). titleAr changed to يَجِبُ أَنْ تَرْتَاحَ. Vocabulary 'lazim' is labelled spoken, 'yajibu' is the written word, and the 'yuwaffiru' example now uses يَجِبُ أَنْ. Not touched (other groups): days 48/59/78, week 7 test, course.json.",
+  "R12-15: besides the jāʾiza note and the kātib example (pack), the jāʾiza example also used أَخَذَ جَائِزَةَ نُوبِل; changed to فَازَ بِجَائِزَةِ نُوبِل for consistency. The note keeps أَخَذَ جَائِزَة as 'also heard in speech'.",
+  "R12-46 kātib: English now 'He is the first Arab writer who won the Nobel Prize.'",
+  "R12-45: example ذَهَب (gold) 'dahab'; scoped pron:dal-dhal ذَهَب=gold because the form is also glossed elsewhere as the stem of ذَهَبَ.",
+  "R12-44: seat/sit and the 'job words' remark removed; طَالِب and طَبِيب now carry 'student' / 'doctor'.",
+  "All 51 text ops were count-checked against the raw files (applied in order) and the three resulting JSON files still parse."
+ ]
+}

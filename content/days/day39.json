@@ -248,7 +248,7 @@
         "nameAr": "دَانْيَال"
       }
     ],
-    "culture": "Many Lebanese families keep a house in a mountain village and go up for the summer to escape the heat of Beirut. Lebanese cooking is loved across the Arab world: تَبُّولَة (a parsley and bulgur salad), kibbeh (meat and bulgur balls) and manakish (flatbreads with thyme) are on every family table.",
+    "culture": "Many Lebanese families keep a house in a mountain village and go up for the summer to escape the heat of Beirut. Lebanese cooking is loved across the Arab world: تَبُّولَة (a parsley and bulgur salad), kibbeh (meat and bulgur balls) and manakish (flatbreads with thyme) are on every family table. The months have their own names in the Levant: Layla says تَمُّوز for July, where Egypt and the Gulf say يُولْيُو.",
     "lines": [
       {
         "id": "d39l1",
@@ -311,7 +311,7 @@
       {
         "id": "d39l2",
         "sp": "layla",
-        "ar": "بِكُلِّ سُرُور! فِي شَهْرِ يُولْيُو سَافَرْتُ إِلَى بَيْرُوت، وَكَانَتِ الرِّحْلَةُ بِالطَّائِرَة قَصِيرَةً.",
+        "ar": "بِكُلِّ سُرُور! فِي شَهْرِ تَمُّوز سَافَرْتُ إِلَى بَيْرُوت، وَكَانَتِ الرِّحْلَةُ بِالطَّائِرَة قَصِيرَةً.",
         "en": "With pleasure! In July I travelled to Beirut, and the flight was short.",
         "segs": [
           [
@@ -331,8 +331,8 @@
             "month (of)"
           ],
           [
-            "يُولْيُو",
-            "July"
+            "تَمُّوز",
+            "July (Levant name; Egypt and the Gulf say yūlyū)"
           ],
           [
             "سَافَرْتُ",
@@ -779,7 +779,7 @@
       {
         "id": "d39l11",
         "sp": "daniel",
-        "ar": "يَا سَلَام! كَانَتْ عُطْلَةً مُمْتِعَةً إِذَنْ. هَلْ أَكَلْتِ أَكْلًا لُبْنَانِيًّا كَثِيرًا؟",
+        "ar": "يَا سَلَام! كَانَتْ عُطْلَةً مُمْتِعَةً إِذًا. هَلْ أَكَلْتِ أَكْلًا لُبْنَانِيًّا كَثِيرًا؟",
         "en": "Wow! So it was a really fun holiday. Did you eat a lot of Lebanese food?",
         "segs": [
           [
@@ -803,7 +803,7 @@
             "enjoyable, fun (f, after 'was')"
           ],
           [
-            "إِذَنْ",
+            "إِذًا",
             "so, then"
           ],
           [

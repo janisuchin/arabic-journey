@@ -17,7 +17,7 @@ import { tts } from '../services/tts';
 import { useFs, usePalette, useSettings } from '../state/hooks';
 import { useLearner } from '../state/store';
 import { WordTile } from '../components/photo';
-import { GlossPlace, MistakeScope, RichText, TapText, WordBox } from '../components/tap';
+import { GlossPlace, MistakeScope, QuestionScope, RichText, TapText, WordBox } from '../components/tap';
 import { AR_FONT, AppText, ArText, Button, Card, IconButton, Pill, Row, TrText } from '../components/ui';
 
 const POS_COLOURS: Record<string, string> = {
@@ -386,12 +386,14 @@ export function QuizRunner({
       <AppText muted>
         Question {i + 1} of {questions.length}
       </AppText>
-      <RichText text={q.prompt} size={18} noTranslit={promptGivesAway(q)} />
-      {q.ar && (
-        <Card>
-          <TapText text={q.ar} size={30} center showTranslit={asksReading(q.prompt) ? false : undefined} />
-        </Card>
-      )}
+      <QuestionScope answered={picked !== null}>
+        <RichText text={q.prompt} size={18} noTranslit={promptGivesAway(q)} />
+        {q.ar && (
+          <Card>
+            <TapText text={q.ar} size={30} center showTranslit={asksReading(q.prompt) ? false : undefined} />
+          </Card>
+        )}
+      </QuestionScope>
       {opts.map(({ o, idx }, k) => {
         const isAnswer = idx === q.answer;
         const chosen = picked === k;
@@ -487,12 +489,14 @@ export function OneQuestion({
   const ok = picked !== null && opts[picked].idx === q.answer;
   return (
     <View style={{ gap: 10 }} testID={testID}>
-      <RichText text={q.prompt} size={18} noTranslit={promptGivesAway(q)} />
-      {q.ar && (
-        <Card>
-          <TapText text={q.ar} size={30} center showTranslit={asksReading(q.prompt) ? false : undefined} />
-        </Card>
-      )}
+      <QuestionScope answered={picked !== null}>
+        <RichText text={q.prompt} size={18} noTranslit={promptGivesAway(q)} />
+        {q.ar && (
+          <Card>
+            <TapText text={q.ar} size={30} center showTranslit={asksReading(q.prompt) ? false : undefined} />
+          </Card>
+        )}
+      </QuestionScope>
       {opts.map(({ o, idx }, k) => {
         const isAnswer = idx === q.answer;
         const chosen = picked === k;

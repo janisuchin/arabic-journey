@@ -793,7 +793,8 @@
       "مَبْرُوك",
       "congratulations"
      ]
-    ]
+    ],
+    "note": "Everyday; formal: مُبَارَك"
    }
   ],
   "grammar": [
@@ -1080,7 +1081,7 @@
    ]
   ],
   "icon": "calculator-outline",
-  "description": "The numbers in words, with the Arabic-Indic digits used in Egypt and the Gulf. Digits are written from left to right, even inside Arabic text.",
+  "description": "The numbers in words, with the Arabic-Indic digits used in Egypt, the Gulf, Iraq, Sudan and parts of the Levant. Digits are written from left to right, even inside Arabic text.",
   "items": [
    {
     "ar": "صِفْر",

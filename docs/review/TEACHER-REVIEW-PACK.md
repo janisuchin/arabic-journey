@@ -1,5 +1,8 @@
 # Arabic Journey: review pack for an Arabic teacher
 
+> **Closed 2026-11-13 (owner decision): this pack was not sent to a teacher.** Every question below was decided
+> by the owner with AI recommendations in the final round: `docs/review/round-final/DECISIONS.md` and `SUMMARY.md`.
+
 Thank you for reviewing. **Arabic Journey** is a 90-day self-study course in Modern Standard Arabic (fuṣḥā) for
 English-speaking adult beginners. Three rounds of AI review have checked it (about 900 findings, almost all
 fixed). A qualified human teacher is the final check: nothing in the course is marked "approved" until you have reviewed it.

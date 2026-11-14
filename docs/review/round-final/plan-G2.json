@@ -1,0 +1,1356 @@
+{
+ "group": "G2 (final round: days 31-60, week 7 test, R12-47 day 65)",
+ "ops": [
+  {
+   "chunk": "R3",
+   "ids": [
+    27
+   ],
+   "op": "text",
+   "file": "content/days/day31.json",
+   "old": "\"en\": \"Wow, thank you very much! Who lives in the house? You have",
+   "new": "\"en\": \"Wow, thank you very much! Who is in the house? You have",
+   "count": 1
+  },
+  {
+   "chunk": "R3",
+   "ids": [
+    26,
+    78
+   ],
+   "op": "scoped",
+   "word": "ـًا",
+   "scope": "day:33",
+   "gloss": "-an (ending: on objects, and after laysa / kāna; also adverbs like shukran)"
+  },
+  {
+   "chunk": "R3",
+   "ids": [
+    29
+   ],
+   "op": "text",
+   "file": "content/days/day39.json",
+   "old": "فِي شَهْرِ يُولْيُو سَافَرْتُ إِلَى بَيْرُوت",
+   "new": "فِي شَهْرِ تَمُّوز سَافَرْتُ إِلَى بَيْرُوت",
+   "count": 1
+  },
+  {
+   "chunk": "R3",
+   "ids": [
+    29
+   ],
+   "op": "text",
+   "file": "content/days/day39.json",
+   "old": "\"يُولْيُو\",\r\n            \"July\"",
+   "new": "\"تَمُّوز\",\r\n            \"July (Levant name; Egypt and the Gulf say yūlyū)\"",
+   "count": 1
+  },
+  {
+   "chunk": "R3",
+   "ids": [
+    29
+   ],
+   "op": "text",
+   "file": "content/days/day39.json",
+   "old": "and manakish (flatbreads with thyme) are on every family table.\",",
+   "new": "and manakish (flatbreads with thyme) are on every family table. The months have their own names in the Levant: Layla says تَمُّوز for July, where Egypt and the Gulf say يُولْيُو.\",",
+   "count": 1
+  },
+  {
+   "chunk": "R3",
+   "ids": [
+    33
+   ],
+   "op": "text",
+   "file": "content/days/day41.json",
+   "old": "كُنْتُ تَعْبَانَ",
+   "new": "كُنْتُ مُتْعَبًا",
+   "count": 2
+  },
+  {
+   "chunk": "R3",
+   "ids": [
+    33
+   ],
+   "op": "text",
+   "file": "content/days/day41.json",
+   "old": "\"تَعْبَانَ\",",
+   "new": "\"مُتْعَبًا\",",
+   "count": 2
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    24
+   ],
+   "op": "text",
+   "file": "content/days/day42.json",
+   "old": "\"why\": \"In standard Arabic رَكِبَ takes its object directly, with no word for 'on': rakiba l-ḥimār, 'he rode the donkey'.\"",
+   "new": "\"why\": \"Not wrong: رَكِبَ عَلَى is common in modern writing. But careful standard Arabic gives رَكِبَ its object directly, with no word for 'on', and this is better: rakiba l-ḥimār, 'he rode the donkey'.\"",
+   "count": 1
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    56
+   ],
+   "op": "text",
+   "file": "content/days/day42.json",
+   "old": "In Egypt we call him Juha too,",
+   "new": "In Egypt we call him Goha (Juha) too,",
+   "count": 1
+  },
+  {
+   "chunk": "R3",
+   "ids": [
+    34
+   ],
+   "op": "text",
+   "file": "content/days/day44.json",
+   "old": "ثَمَانٍ وَثَلَاثُونَ دَرَجَة وَنِصْف",
+   "new": "ثَمَانٍ وَثَلَاثُونَ دَرَجَةً وَنِصْف",
+   "count": 1
+  },
+  {
+   "chunk": "R3",
+   "ids": [
+    34
+   ],
+   "op": "text",
+   "file": "content/days/day44.json",
+   "old": "\"وَثَلَاثُونَ\",\r\n            \"and thirty\"\r\n          ],\r\n          [\r\n            \"دَرَجَة\",\r\n            \"degree\"",
+   "new": "\"وَثَلَاثُونَ\",\r\n            \"and thirty\"\r\n          ],\r\n          [\r\n            \"دَرَجَةً\",\r\n            \"degrees (after a number)\"",
+   "count": 1
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    58
+   ],
+   "op": "text",
+   "file": "content/days/day45.json",
+   "old": "\"wrong\": \"ثَلَاثَة مَرَّات\",\r\n          \"right\": \"ثَلَاثَ مَرَّات\",\r\n          \"why\": \"marra is feminine, so the number three loses its ة: the numbers 3 to 10 take the opposite gender to the noun.\"",
+   "new": "\"wrong\": \"ثَلَاثَةَ مَرَّاتٍ\",\r\n          \"right\": \"ثَلَاثَ مَرَّاتٍ\",\r\n          \"why\": \"marra is feminine, so the number three loses its ة: thalātha marrātin, not thalāthata marrātin. The numbers 3 to 10 take the opposite gender to the noun.\"",
+   "count": 1
+  },
+  {
+   "chunk": "R3",
+   "ids": [
+    34
+   ],
+   "op": "text",
+   "file": "content/days/day48.json",
+   "old": "سَبْع وَثَلَاثُونَ دَرَجَة، وَهٰذَا",
+   "new": "سَبْع وَثَلَاثُونَ دَرَجَةً، وَهٰذَا",
+   "count": 1
+  },
+  {
+   "chunk": "R3",
+   "ids": [
+    34
+   ],
+   "op": "text",
+   "file": "content/days/day48.json",
+   "old": "\"وَثَلَاثُونَ\",\r\n            \"and thirty\"\r\n          ],\r\n          [\r\n            \"دَرَجَة\",\r\n            \"degree\"",
+   "new": "\"وَثَلَاثُونَ\",\r\n            \"and thirty\"\r\n          ],\r\n          [\r\n            \"دَرَجَةً\",\r\n            \"degrees (after a number)\"",
+   "count": 1
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    1
+   ],
+   "op": "text",
+   "file": "content/days/day48.json",
+   "old": "\"titleAr\": \"لَازِم أَنْ تَرْتَاحَ\",\r\n  \"titleSegs\": [\r\n    [\r\n      \"لَازِم\",\r\n      \"necessary, must\"\r\n    ],",
+   "new": "\"titleAr\": \"يَجِبُ أَنْ تَرْتَاحَ\",\r\n  \"titleSegs\": [\r\n    [\r\n      \"يَجِبُ\",\r\n      \"must, it is necessary\"\r\n    ],",
+   "count": 1
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    1
+   ],
+   "op": "text",
+   "file": "content/days/day48.json",
+   "old": "\"summary\": \"Give and understand advice with لَازِم أَنْ… and يَجِبُ أَنْ… (must, have to), and say that something is not necessary.\",",
+   "new": "\"summary\": \"Give and understand advice with يَجِبُ أَنْ… (must, have to) and the spoken لَازِم أَنْ…, and say that something is not necessary.\",",
+   "count": 1
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    1
+   ],
+   "op": "text",
+   "file": "content/days/day48.json",
+   "old": "To say 'must', use لَازِم (necessary) or the more formal يَجِبُ, then أَنْ and a present-tense verb ending in -a: لَازِم أَنْ تَرْتَاحَ (you must rest), يَجِبُ أَنْ أَنَامَ (I must sleep). The words لَازِم and يَجِبُ never change; the person is on the second verb.\",",
+   "new": "To say 'must' in standard Arabic, use يَجِبُ (it is necessary), then أَنْ and a present-tense verb ending in -a: يَجِبُ أَنْ تَرْتَاحَ (you must rest), يَجِبُ أَنْ أَنَامَ (I must sleep). Two other written forms mean the same: مِنَ اللَّازِمِ أَنْ (it is necessary that) and عَلَيْكَ أَنْ (you have to, lit. it is on you). In conversation people often say just لَازِم أَنْ…; that is spoken style. يَجِبُ never changes; the person is on the second verb.\",",
+   "count": 1
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    1
+   ],
+   "op": "text",
+   "file": "content/days/day48.json",
+   "old": "\"Say what someone must do with لَازِم أَنْ and يَجِبُ أَنْ\",",
+   "new": "\"Say what someone must do with يَجِبُ أَنْ, مِنَ اللَّازِمِ أَنْ or عَلَيْكَ أَنْ, and understand the spoken لَازِم أَنْ\",",
+   "count": 1
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    1
+   ],
+   "op": "text",
+   "file": "content/days/day48.json",
+   "old": "\"id\": \"d48s1\",\r\n      \"ar\": \"لَازِم أَنْ تَرْتَاحَ.\",\r\n      \"en\": \"You must rest. (to a man)\",\r\n      \"literal\": \"(it is) necessary that you rest\",\r\n      \"segs\": [\r\n        [\r\n          \"لَازِم\",\r\n          \"necessary, must\",\r\n          \"adj\"\r\n        ],\r\n        [\r\n          \"أَنْ\",\r\n          \"to, that\",\r\n          \"particle\"\r\n        ],\r\n        [\r\n          \"تَرْتَاحَ\",\r\n          \"you rest (after an)\",\r\n          \"verb\"\r\n        ]\r\n      ],\r\n      \"grammar\": [\r\n        \"lazim\",\r\n        \"an-subjunctive\"\r\n      ],\r\n      \"mistakes\": [\r\n        {\r\n          \"wrong\": \"لَازِم تَرْتَاحُ\",\r\n          \"right\": \"لَازِم أَنْ تَرْتَاحَ\",\r\n          \"why\": \"In standard Arabic lāzim needs an before the verb, and the verb then ends in -a: lāzim an tartāḥa.\"",
+   "new": "\"id\": \"d48s1\",\r\n      \"ar\": \"يَجِبُ أَنْ تَرْتَاحَ.\",\r\n      \"en\": \"You must rest. (to a man)\",\r\n      \"literal\": \"it is necessary that you rest\",\r\n      \"segs\": [\r\n        [\r\n          \"يَجِبُ\",\r\n          \"must, it is necessary\",\r\n          \"verb\"\r\n        ],\r\n        [\r\n          \"أَنْ\",\r\n          \"to, that\",\r\n          \"particle\"\r\n        ],\r\n        [\r\n          \"تَرْتَاحَ\",\r\n          \"you rest (after an)\",\r\n          \"verb\"\r\n        ]\r\n      ],\r\n      \"grammar\": [\r\n        \"lazim\",\r\n        \"an-subjunctive\"\r\n      ],\r\n      \"mistakes\": [\r\n        {\r\n          \"wrong\": \"يَجِبُ تَرْتَاحُ\",\r\n          \"right\": \"يَجِبُ أَنْ تَرْتَاحَ\",\r\n          \"why\": \"يَجِبُ needs an before the verb, and the verb then ends in -a: yajibu an tartāḥa. In speech you will also hear lāzim an tartāḥa; lāzim is spoken style.\"",
+   "count": 1
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    1
+   ],
+   "op": "text",
+   "file": "content/days/day48.json",
+   "old": "\"id\": \"d48s3\",\r\n      \"ar\": \"لَازِم أَنْ تَشْرَبِي مَاءً كَثِيرًا.\",\r\n      \"en\": \"You must drink plenty of water. (to a woman)\",\r\n      \"literal\": \"(it is) necessary that you drink much water\",\r\n      \"segs\": [\r\n        [\r\n          \"لَازِم\",\r\n          \"necessary, must\",\r\n          \"adj\"\r\n        ],\r\n        [\r\n          \"أَنْ\",\r\n          \"to, that\",\r\n          \"particle\"\r\n        ],\r\n        [\r\n          \"تَشْرَبِي\",\r\n          \"you drink (to a woman, after an)\",\r\n          \"verb\"\r\n        ],\r\n        [\r\n          \"مَاءً\",\r\n          \"water\",\r\n          \"noun\"\r\n        ],\r\n        [\r\n          \"كَثِيرًا\",\r\n          \"much, a lot\",\r\n          \"adj\"\r\n        ]\r\n      ],\r\n      \"grammar\": [\r\n        \"lazim\",\r\n        \"an-subjunctive\"\r\n      ],\r\n      \"mistakes\": [\r\n        {\r\n          \"wrong\": \"لَازِم أَنْ تَشْرَبِينَ\",\r\n          \"right\": \"لَازِم أَنْ تَشْرَبِي\",",
+   "new": "\"id\": \"d48s3\",\r\n      \"ar\": \"عَلَيْكِ أَنْ تَشْرَبِي مَاءً كَثِيرًا.\",\r\n      \"en\": \"You must drink plenty of water. (to a woman)\",\r\n      \"literal\": \"(it is) on you that you drink much water\",\r\n      \"segs\": [\r\n        [\r\n          \"عَلَيْكِ\",\r\n          \"on you (to a woman): 'you have to'\",\r\n          \"prep\"\r\n        ],\r\n        [\r\n          \"أَنْ\",\r\n          \"to, that\",\r\n          \"particle\"\r\n        ],\r\n        [\r\n          \"تَشْرَبِي\",\r\n          \"you drink (to a woman, after an)\",\r\n          \"verb\"\r\n        ],\r\n        [\r\n          \"مَاءً\",\r\n          \"water\",\r\n          \"noun\"\r\n        ],\r\n        [\r\n          \"كَثِيرًا\",\r\n          \"much, a lot\",\r\n          \"adj\"\r\n        ]\r\n      ],\r\n      \"grammar\": [\r\n        \"lazim\",\r\n        \"an-subjunctive\"\r\n      ],\r\n      \"mistakes\": [\r\n        {\r\n          \"wrong\": \"عَلَيْكِ أَنْ تَشْرَبِينَ\",\r\n          \"right\": \"عَلَيْكِ أَنْ تَشْرَبِي\",",
+   "count": 1
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    1
+   ],
+   "op": "text",
+   "file": "content/days/day48.json",
+   "old": "            \"لَازِم\",\r\n            \"necessary, must\"\r\n",
+   "new": "            \"لَازِم\",\r\n            \"necessary, must (spoken style)\"\r\n",
+   "count": 3
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    1
+   ],
+   "op": "text",
+   "file": "content/days/day48.json",
+   "old": "\"وَلَازِم\",\r\n            \"and (it is) necessary: 'must'\"",
+   "new": "\"وَلَازِم\",\r\n            \"and (it is) necessary: 'must' (spoken style)\"",
+   "count": 1
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    1
+   ],
+   "op": "text",
+   "file": "content/days/day48.json",
+   "old": "دَانْيَال أَحْسَن الْآنَ، لٰكِنْ لَازِم أَنْ يَرْتَاحَ",
+   "new": "دَانْيَال أَحْسَن الْآنَ، لٰكِنْ مِنَ اللَّازِمِ أَنْ يَرْتَاحَ",
+   "count": 1
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    1
+   ],
+   "op": "text",
+   "file": "content/days/day48.json",
+   "old": "        \"لٰكِنْ\",\r\n        \"but\"\r\n      ],\r\n      [\r\n        \"لَازِم\",\r\n        \"necessary, must\"\r\n      ],",
+   "new": "        \"لٰكِنْ\",\r\n        \"but\"\r\n      ],\r\n      [\r\n        \"مِنَ\",\r\n        \"of, from (min al-lāzimi an: it is necessary that)\"\r\n      ],\r\n      [\r\n        \"اللَّازِمِ\",\r\n        \"the necessary\"\r\n      ],",
+   "count": 1
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    1
+   ],
+   "op": "text",
+   "file": "content/days/day48.json",
+   "old": "\"completion\": \"Well done! You can give advice with لَازِم and يَجِبُ, and say when something is not necessary.",
+   "new": "\"completion\": \"Well done! You can give advice with يَجِبُ, مِنَ اللَّازِمِ and عَلَيْكَ, understand the spoken لَازِم, and say when something is not necessary.",
+   "count": 1
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    1
+   ],
+   "op": "scoped",
+   "word": "عَلَيْكَ",
+   "scope": "day:48",
+   "gloss": "on you (to a man): ʿalayka an 'you have to'"
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    1
+   ],
+   "op": "text",
+   "file": "content/course/course.json",
+   "old": "\"options\": [\r\n      \"لَازِم أَنْ تَرْتَاحَ.\",\r\n      \"لَا تَرْتَحْ.\",",
+   "new": "\"options\": [\r\n      \"يَجِبُ أَنْ تَرْتَاحَ.\",\r\n      \"لَا تَرْتَحْ.\",",
+   "count": 1
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    46
+   ],
+   "op": "text",
+   "file": "content/days/day50.json",
+   "old": "because I'll be busy all day on Saturday.\"",
+   "new": "because I'll be busy on Saturday.\"",
+   "count": 1
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    46
+   ],
+   "op": "text",
+   "file": "content/days/day50.json",
+   "old": "because the place will be very crowded later.\"",
+   "new": "because the place will be crowded later.\"",
+   "count": 1
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    46
+   ],
+   "op": "text",
+   "file": "content/days/day50.json",
+   "old": "in Arabic, of course. See you on Sunday!\"",
+   "new": "in Arabic, of course. See you!\"",
+   "count": 1
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    46
+   ],
+   "op": "text",
+   "file": "content/days/day52.json",
+   "old": "Did you invite Mr Karim and the other students in our class?\"",
+   "new": "Did you invite Mr Karim and the students of the class?\"",
+   "count": 1
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    46
+   ],
+   "op": "text",
+   "file": "content/days/day54.json",
+   "old": "A lot of people don't know that, you know.\"",
+   "new": "A lot of people don't know that.\"",
+   "count": 1
+  },
+  {
+   "chunk": "R3",
+   "ids": [
+    40
+   ],
+   "op": "text",
+   "file": "content/days/day54.json",
+   "old": "الشِّتَاء طَبْعًا، لِأَنَّكَ تُحِبُّ الثَّلْج!\", \"en\": \"And you, Daniel, what's your favourite season? Winter, of course, because you love the snow!\",",
+   "new": "الشِّتَاء طَبْعًا، مِثْلَ أُخْتِكَ إِيمَا؟ هِيَ تُحِبُّ الثَّلْج!\", \"en\": \"And you, Daniel, what's your favourite season? Winter, of course, like your sister Emma? She loves the snow!\",",
+   "count": 1
+  },
+  {
+   "chunk": "R3",
+   "ids": [
+    40
+   ],
+   "op": "text",
+   "file": "content/days/day54.json",
+   "old": "[\"لِأَنَّكَ\", \"because you (to a man)\"], [\"تُحِبُّ\", \"you love (to a man)\"], [\"الثَّلْج\", \"the snow\"]]",
+   "new": "[\"مِثْلَ\", \"like\"], [\"أُخْتِكَ\", \"your sister (to a man)\"], [\"إِيمَا\", \"Emma (first name)\", \"name\"], [\"هِيَ\", \"she\"], [\"تُحِبُّ\", \"she loves\"], [\"الثَّلْج\", \"the snow\"]]",
+   "count": 1
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    39
+   ],
+   "op": "text",
+   "file": "content/days/day56.json",
+   "old": "\"ar\": \"الْعَاشِرُ مِنْ دِيسَمْبِر يَوْمُ أَرْبِعَاء.\"",
+   "new": "\"ar\": \"الْعَاشِرُ مِنْ دِيسَمْبِر يَوْمُ الْأَرْبِعَاء.\"",
+   "count": 1
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    39
+   ],
+   "op": "text",
+   "file": "content/days/day56.json",
+   "old": "[\"يَوْمُ\", \"day (of)\", \"noun\"], [\"أَرْبِعَاء\", \"Wednesday\", \"noun\"]]",
+   "new": "[\"يَوْمُ\", \"day (of)\", \"noun\"], [\"الْأَرْبِعَاء\", \"Wednesday\", \"noun\"]]",
+   "count": 1
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    46
+   ],
+   "op": "text",
+   "file": "content/days/day57.json",
+   "old": "Where are you two flying to today? May I see your passports, please?\"",
+   "new": "Where are you two flying to today? May I see your passport, please?\"",
+   "count": 1
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    53,
+    57
+   ],
+   "op": "text",
+   "file": "content/days/day57.json",
+   "old": "\"culture\": \"The flight from Cairo to Amman takes about an hour and a half. On flights",
+   "new": "\"culture\": \"The flight from Cairo to Amman takes about an hour and a half, and in winter Jordan's clocks are one hour ahead of Egypt's, so a plane that leaves Cairo at six lands in Amman at about half past eight, local time. On flights",
+   "count": 1
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    53
+   ],
+   "op": "text",
+   "file": "content/days/day57.json",
+   "old": "and الْمُسَافِرِينَ (the passengers).",
+   "new": "and الْمُسَافِرُونَ (the passengers).",
+   "count": 1
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    57
+   ],
+   "op": "text",
+   "file": "content/days/day57.json",
+   "old": "أُرِيدُ أَنْ أَرَى الْبَحْر الْأَحْمَر مِنَ السَّمَاء.\",\r\n        \"en\": \"Thank you. One more question: could I sit by the window? I want to see the Red Sea from the sky.\",",
+   "new": "أُرِيدُ أَنْ أَرَى خَلِيجَ الْعَقَبَة مِنَ السَّمَاء.\",\r\n        \"en\": \"Thank you. One more question: could I sit by the window? I want to see the Gulf of Aqaba from the sky.\",",
+   "count": 1
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    57
+   ],
+   "op": "text",
+   "file": "content/days/day57.json",
+   "old": "\"الْبَحْر\",\r\n            \"the sea\"\r\n          ],\r\n          [\r\n            \"الْأَحْمَر\",\r\n            \"the red ('the Red Sea')\"\r\n          ],",
+   "new": "\"خَلِيجَ\",\r\n            \"gulf (of)\"\r\n          ],\r\n          [\r\n            \"الْعَقَبَة\",\r\n            \"Aqaba (Jordan's port city): 'the Gulf of Aqaba'\",\r\n            \"name\"\r\n          ],",
+   "count": 1
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    57
+   ],
+   "op": "text",
+   "file": "content/days/day57.json",
+   "old": "\"ar\": \"رَائِع! فِي السَّاعَة الثَّامِنَة نَكُونُ فِي الْأُرْدُنّ.",
+   "new": "\"ar\": \"رَائِع! فِي السَّاعَة الثَّامِنَة وَالنِّصْف نَكُونُ فِي الْأُرْدُنّ.",
+   "count": 1
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    57
+   ],
+   "op": "text",
+   "file": "content/days/day57.json",
+   "old": "\"en\": \"Great! At eight o'clock we'll be in Jordan.",
+   "new": "\"en\": \"Great! At half past eight we'll be in Jordan.",
+   "count": 1
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    57
+   ],
+   "op": "text",
+   "file": "content/days/day57.json",
+   "old": "            \"الثَّامِنَة\",\r\n            \"the eighth\"\r\n          ],\r\n",
+   "new": "            \"الثَّامِنَة\",\r\n            \"the eighth\"\r\n          ],\r\n          [\r\n            \"وَالنِّصْف\",\r\n            \"and the half\"\r\n          ],\r\n",
+   "count": 1
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    57
+   ],
+   "op": "text",
+   "file": "content/days/day57.json",
+   "old": "وَوَصَلَتْ إِلَى عَمَّان فِي السَّاعَة الثَّامِنَة.",
+   "new": "وَوَصَلَتْ إِلَى عَمَّان فِي السَّاعَة الثَّامِنَة وَالنِّصْف.",
+   "count": 1
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    57
+   ],
+   "op": "text",
+   "file": "content/days/day57.json",
+   "old": "The plane left at six o'clock and arrived in Amman at eight.",
+   "new": "The plane left at six o'clock and arrived in Amman at half past eight, local time.",
+   "count": 1
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    57
+   ],
+   "op": "text",
+   "file": "content/days/day57.json",
+   "old": "        \"الثَّامِنَة\",\r\n        \"the eighth\"\r\n      ],\r\n",
+   "new": "        \"الثَّامِنَة\",\r\n        \"the eighth\"\r\n      ],\r\n      [\r\n        \"وَالنِّصْف\",\r\n        \"and the half\"\r\n      ],\r\n",
+   "count": 1
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    4
+   ],
+   "op": "text",
+   "file": "content/days/day58.json",
+   "old": "مَسَاءُ الْخَيْر، أَهْلًا وَسَهْلًا فِي عَمَّان!",
+   "new": "مَسَاءُ الْخَيْر، أَهْلًا وَسَهْلًا بِكُمْ فِي عَمَّان!",
+   "count": 1
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    4
+   ],
+   "op": "text",
+   "file": "content/days/day58.json",
+   "old": "[\"وَسَهْلًا\", \"and welcome (lit. and ease)\"], [\"فِي\", \"in\"], [\"عَمَّان\"",
+   "new": "[\"وَسَهْلًا\", \"and welcome (lit. and ease)\"], [\"بِكُمْ\", \"with you (to several people)\"], [\"فِي\", \"in\"], [\"عَمَّان\"",
+   "count": 1
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    1,
+    47
+   ],
+   "op": "text",
+   "file": "content/days/day59.json",
+   "old": "يُوسُف يَقُولُ: لَازِم أَنْ نَنَامَ لَيْلَة فِي وَادِي مُوسَى",
+   "new": "يُوسُف يَقُولُ: يَجِبُ أَنْ نَنَامَ لَيْلَةً فِي وَادِي مُوسَى",
+   "count": 1
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    1,
+    47
+   ],
+   "op": "text",
+   "file": "content/days/day59.json",
+   "old": "[\"لَازِم\", \"necessary, must\"], [\"أَنْ\", \"to, that\"], [\"نَنَامَ\", \"we sleep (after an)\"], [\"لَيْلَة\", \"a night\"]",
+   "new": "[\"يَجِبُ\", \"must, it is necessary\"], [\"أَنْ\", \"to, that\"], [\"نَنَامَ\", \"we sleep (after an)\"], [\"لَيْلَةً\", \"a night (adverb: for a night)\"]",
+   "count": 1
+  },
+  {
+   "chunk": "R3",
+   "ids": [
+    103
+   ],
+   "op": "text",
+   "file": "content/days/day59.json",
+   "old": "أُرِيدُ أَنْ أَحْجِزَ غُرْفَتَيْنِ لِلَيْلَةِ السَّبْت، مِنْ فَضْلِكِ.",
+   "new": "أُرِيدُ أَنْ أَحْجِزَ غُرْفَتَيْنِ لِيَوْمِ السَّبْت، مِنْ فَضْلِكِ.",
+   "count": 1
+  },
+  {
+   "chunk": "R3",
+   "ids": [
+    103
+   ],
+   "op": "text",
+   "file": "content/days/day59.json",
+   "old": "I'd like to book two rooms for Saturday night, please.",
+   "new": "I'd like to book two rooms for Saturday, please.",
+   "count": 1
+  },
+  {
+   "chunk": "R3",
+   "ids": [
+    103
+   ],
+   "op": "text",
+   "file": "content/days/day59.json",
+   "old": "[\"غُرْفَتَيْنِ\", \"two rooms\"], [\"لِلَيْلَةِ\", \"for the night (of)\"], [\"السَّبْت\", \"Saturday\"], [\"مِنْ\", \"from\"]",
+   "new": "[\"غُرْفَتَيْنِ\", \"two rooms\"], [\"لِيَوْمِ\", \"for (the) day (of)\"], [\"السَّبْت\", \"Saturday\"], [\"مِنْ\", \"from\"]",
+   "count": 1
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    47
+   ],
+   "op": "text",
+   "file": "content/days/day59.json",
+   "old": "وَنَكُونُ عِنْدَكُمْ لَيْلَة وَاحِدَة فَقَطْ.",
+   "new": "وَنَكُونُ عِنْدَكُمْ لَيْلَةً وَاحِدَةً فَقَطْ.",
+   "count": 1
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    47
+   ],
+   "op": "text",
+   "file": "content/days/day59.json",
+   "old": "[\"لَيْلَة\", \"a night\"], [\"وَاحِدَة\", \"one (f)\"], [\"فَقَطْ\", \"only, just\"]",
+   "new": "[\"لَيْلَةً\", \"a night (adverb: for one night)\"], [\"وَاحِدَةً\", \"one (f)\"], [\"فَقَطْ\", \"only, just\"]",
+   "count": 1
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    47
+   ],
+   "op": "text",
+   "file": "content/days/day59.json",
+   "old": "\"ar\": \"كُنْتُ فِي الْأُرْدُنّ مَرَّة وَاحِدَة.\"",
+   "new": "\"ar\": \"كُنْتُ فِي الْأُرْدُنّ مَرَّةً وَاحِدَةً.\"",
+   "count": 1
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    47
+   ],
+   "op": "text",
+   "file": "content/days/day59.json",
+   "old": "[\"مَرَّة\", \"time, occasion\", \"noun\"], [\"وَاحِدَة\", \"one (f)\", \"number\"]",
+   "new": "[\"مَرَّةً\", \"once, one time\", \"noun\"], [\"وَاحِدَةً\", \"one (f)\", \"number\"]",
+   "count": 1
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    47
+   ],
+   "op": "text",
+   "file": "content/days/day59.json",
+   "old": "كُنْتُ فِي الْأُرْدُنّ مَرَّة وَاحِدَة فَقَطْ،",
+   "new": "كُنْتُ فِي الْأُرْدُنّ مَرَّةً وَاحِدَةً فَقَطْ،",
+   "count": 1
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    47
+   ],
+   "op": "text",
+   "file": "content/days/day59.json",
+   "old": "[\"مَرَّة\", \"time, occasion\"], [\"وَاحِدَة\", \"one (f)\"], [\"فَقَطْ\", \"only, just\"]",
+   "new": "[\"مَرَّةً\", \"once, one time\"], [\"وَاحِدَةً\", \"one (f)\"], [\"فَقَطْ\", \"only, just\"]",
+   "count": 1
+  },
+  {
+   "chunk": "R3",
+   "ids": [
+    103
+   ],
+   "op": "text",
+   "file": "content/days/day59.json",
+   "old": "الْحَجْز جَاهِز: غُرْفَتَانِ لِلَيْلَةِ السَّبْت. نَرَاكُمْ يَوْمَ السَّبْت",
+   "new": "الْحَجْز جَاهِز: غُرْفَتَانِ لِلَيْلَةٍ وَاحِدَةٍ. نَرَاكُمْ يَوْمَ السَّبْت",
+   "count": 1
+  },
+  {
+   "chunk": "R3",
+   "ids": [
+    103
+   ],
+   "op": "text",
+   "file": "content/days/day59.json",
+   "old": "the booking is done: two rooms for Saturday night. See you on Saturday",
+   "new": "the booking is done: two rooms for one night. See you on Saturday",
+   "count": 1
+  },
+  {
+   "chunk": "R3",
+   "ids": [
+    103
+   ],
+   "op": "text",
+   "file": "content/days/day59.json",
+   "old": "[\"غُرْفَتَانِ\", \"two rooms\"], [\"لِلَيْلَةِ\", \"for the night (of)\"], [\"السَّبْت\", \"Saturday\"], [\"نَرَاكُمْ\"",
+   "new": "[\"غُرْفَتَانِ\", \"two rooms\"], [\"لِلَيْلَةٍ\", \"for a night\"], [\"وَاحِدَةٍ\", \"one (f)\"], [\"نَرَاكُمْ\"",
+   "count": 1
+  },
+  {
+   "chunk": "R3",
+   "ids": [
+    103
+   ],
+   "op": "text",
+   "file": "content/days/day59.json",
+   "old": "حَجَزَتْ غُرْفَتَيْنِ لِلَيْلَةِ السَّبْت: غُرْفَة",
+   "new": "حَجَزَتْ غُرْفَتَيْنِ لِلَيْلَةٍ وَاحِدَةٍ يَوْمَ السَّبْت: غُرْفَة",
+   "count": 1
+  },
+  {
+   "chunk": "R3",
+   "ids": [
+    103
+   ],
+   "op": "text",
+   "file": "content/days/day59.json",
+   "old": "She booked two rooms for Saturday night:",
+   "new": "She booked two rooms for one night, on Saturday:",
+   "count": 1
+  },
+  {
+   "chunk": "R3",
+   "ids": [
+    103
+   ],
+   "op": "text",
+   "file": "content/days/day59.json",
+   "old": "[\"غُرْفَتَيْنِ\", \"two rooms\"], [\"لِلَيْلَةِ\", \"for the night (of)\"], [\"السَّبْت\", \"Saturday\"], [\"غُرْفَة\"",
+   "new": "[\"غُرْفَتَيْنِ\", \"two rooms\"], [\"لِلَيْلَةٍ\", \"for a night\"], [\"وَاحِدَةٍ\", \"one (f)\"], [\"يَوْمَ\", \"on the day of\"], [\"السَّبْت\", \"Saturday\"], [\"غُرْفَة\"",
+   "count": 1
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    47
+   ],
+   "op": "text",
+   "file": "content/days/day65.json",
+   "old": "قَرَأْتُ قَصِيدَة لَهُ فِي دَرْسِ",
+   "new": "قَرَأْتُ قَصِيدَةً لَهُ فِي دَرْسِ",
+   "count": 1
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    47
+   ],
+   "op": "text",
+   "file": "content/days/day65.json",
+   "old": "[\"قَصِيدَة\", \"a poem\"], [\"لَهُ\", \"by him (lit. for him)\"]",
+   "new": "[\"قَصِيدَةً\", \"a poem (object)\"], [\"لَهُ\", \"by him (lit. for him)\"]",
+   "count": 1
+  }
+ ],
+ "checks": [
+  {
+   "chunk": "R3",
+   "ids": [
+    27
+   ],
+   "area": "days-31-40",
+   "expect": "Who is in the house? You have a brother and a sister, right?"
+  },
+  {
+   "chunk": "R3",
+   "ids": [
+    26,
+    78
+   ],
+   "area": "days-31-40",
+   "expect": "ـًا=-an (ending: on objects, and after laysa / kāna; also adverbs like shukran)"
+  },
+  {
+   "chunk": "R3",
+   "ids": [
+    29
+   ],
+   "area": "days-31-40",
+   "expect": "بِكُلِّ سُرُور! فِي شَهْرِ تَمُّوز سَافَرْتُ إِلَى بَيْرُوت"
+  },
+  {
+   "chunk": "R3",
+   "ids": [
+    29
+   ],
+   "area": "days-31-40",
+   "expect": "تَمُّوز = July (Levant name; Egypt and the Gulf say yūlyū)"
+  },
+  {
+   "chunk": "R3",
+   "ids": [
+    29
+   ],
+   "area": "days-31-40",
+   "expect": "Layla says تَمُّوز for July, where Egypt and the Gulf say يُولْيُو."
+  },
+  {
+   "chunk": "R3",
+   "ids": [
+    33
+   ],
+   "area": "days-41-50",
+   "expect": "لِأَنِّي كُنْتُ مُتْعَبًا قَلِيلًا."
+  },
+  {
+   "chunk": "R3",
+   "ids": [
+    33
+   ],
+   "area": "days-41-50",
+   "expect": "[مُتْعَبًا = tired (after 'was')]"
+  },
+  {
+   "chunk": "R3",
+   "ids": [
+    33
+   ],
+   "area": "days-41-50",
+   "expect": "لِأَنِّي كُنْتُ مُتْعَبًا. بَقِيتُ"
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    24
+   ],
+   "area": "days-41-50",
+   "expect": "Not wrong: رَكِبَ عَلَى is common in modern writing."
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    56
+   ],
+   "area": "days-41-50",
+   "expect": "In Egypt we call him Goha (Juha) too, and all children know his stories."
+  },
+  {
+   "chunk": "R3",
+   "ids": [
+    34
+   ],
+   "area": "days-41-50",
+   "expect": "حَرَارَتُكَ ثَمَانٍ وَثَلَاثُونَ دَرَجَةً وَنِصْف."
+  },
+  {
+   "chunk": "R3",
+   "ids": [
+    34
+   ],
+   "area": "days-41-50",
+   "expect": "[دَرَجَةً = degrees (after a number)] [وَنِصْف"
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    58
+   ],
+   "area": "days-41-50",
+   "expect": "thalātha marrātin, not thalāthata marrātin"
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    58
+   ],
+   "area": "days-41-50",
+   "expect": "mistakes[0].wrong: ثَلَاثَةَ مَرَّاتٍ"
+  },
+  {
+   "chunk": "R3",
+   "ids": [
+    34
+   ],
+   "area": "days-41-50",
+   "expect": "حَرَارَتُكَ الْآنَ سَبْع وَثَلَاثُونَ دَرَجَةً، وَهٰذَا طَبِيعِيّ."
+  },
+  {
+   "chunk": "R3",
+   "ids": [
+    34
+   ],
+   "area": "days-41-50",
+   "expect": "[دَرَجَةً = degrees (after a number)] [وَهٰذَا"
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    1
+   ],
+   "area": "days-41-50",
+   "expect": "titleAr: يَجِبُ أَنْ تَرْتَاحَ"
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    1
+   ],
+   "area": "days-41-50",
+   "expect": "advice with يَجِبُ أَنْ… (must, have to) and the spoken لَازِم أَنْ…"
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    1
+   ],
+   "area": "days-41-50",
+   "expect": "In conversation people often say just لَازِم أَنْ…; that is spoken style."
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    1
+   ],
+   "area": "days-41-50",
+   "expect": "Say what someone must do with يَجِبُ أَنْ, مِنَ اللَّازِمِ أَنْ or عَلَيْكَ أَنْ"
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    1
+   ],
+   "area": "days-41-50",
+   "expect": "sentences[0].ar: يَجِبُ أَنْ تَرْتَاحَ."
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    1
+   ],
+   "area": "days-41-50",
+   "expect": "In speech you will also hear lāzim an tartāḥa; lāzim is spoken style."
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    1
+   ],
+   "area": "days-41-50",
+   "expect": "sentences[2].ar: عَلَيْكِ أَنْ تَشْرَبِي مَاءً كَثِيرًا."
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    1
+   ],
+   "area": "days-41-50",
+   "expect": "عَلَيْكِ = on you (to a woman): 'you have to'"
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    1
+   ],
+   "area": "days-41-50",
+   "expect": "[لَازِم = necessary, must (spoken style)]"
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    1
+   ],
+   "area": "days-41-50",
+   "expect": "[وَلَازِم = and (it is) necessary: 'must' (spoken style)]"
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    1
+   ],
+   "area": "days-41-50",
+   "expect": "reading.ar: دَانْيَال أَحْسَن الْآنَ، لٰكِنْ مِنَ اللَّازِمِ أَنْ يَرْتَاحَ"
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    1
+   ],
+   "area": "days-41-50",
+   "expect": "[اللَّازِمِ = the necessary]"
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    1
+   ],
+   "area": "days-41-50",
+   "expect": "You can give advice with يَجِبُ, مِنَ اللَّازِمِ and عَلَيْكَ, understand the spoken لَازِم"
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    1
+   ],
+   "area": "days-41-50",
+   "expect": "عَلَيْكَ=on you (to a man): ʿalayka an 'you have to'"
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    1
+   ],
+   "area": "weeks-tests",
+   "expect": "weeks[6].test[7].options[0]: يَجِبُ أَنْ تَرْتَاحَ."
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    46
+   ],
+   "area": "days-41-50",
+   "expect": "because I'll be busy on Saturday."
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    46
+   ],
+   "area": "days-41-50",
+   "expect": "because the place will be crowded later."
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    46
+   ],
+   "area": "days-41-50",
+   "expect": "We'll talk about the pyramids in Arabic, of course. See you!"
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    46
+   ],
+   "area": "days-51-60",
+   "expect": "Did you invite Mr Karim and the students of the class?"
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    46
+   ],
+   "area": "days-51-60",
+   "expect": "And does it snow in Lebanon? A lot of people don't know that."
+  },
+  {
+   "chunk": "R3",
+   "ids": [
+    40
+   ],
+   "area": "days-51-60",
+   "expect": "الشِّتَاء طَبْعًا، مِثْلَ أُخْتِكَ إِيمَا؟ هِيَ تُحِبُّ الثَّلْج!"
+  },
+  {
+   "chunk": "R3",
+   "ids": [
+    40
+   ],
+   "area": "days-51-60",
+   "expect": "[أُخْتِكَ = your sister (to a man)] [إِيمَا = Emma (first name) · name] [هِيَ = she] [تُحِبُّ = she loves]"
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    39
+   ],
+   "area": "days-51-60",
+   "expect": "sentences[5].ar: الْعَاشِرُ مِنْ دِيسَمْبِر يَوْمُ الْأَرْبِعَاء."
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    39
+   ],
+   "area": "days-51-60",
+   "expect": "[الْأَرْبِعَاء = Wednesday · noun]"
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    46
+   ],
+   "area": "days-51-60",
+   "expect": "May I see your passport, please?"
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    53,
+    57
+   ],
+   "area": "days-51-60",
+   "expect": "lands in Amman at about half past eight, local time."
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    53
+   ],
+   "area": "days-51-60",
+   "expect": "and الْمُسَافِرُونَ (the passengers)."
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    53
+   ],
+   "area": "days-51-60",
+   "expect": "الْمُسَافِرُونَ=the passengers"
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    57
+   ],
+   "area": "days-51-60",
+   "expect": "أُرِيدُ أَنْ أَرَى خَلِيجَ الْعَقَبَة مِنَ السَّمَاء."
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    57
+   ],
+   "area": "days-51-60",
+   "expect": "[خَلِيجَ = gulf (of)] [الْعَقَبَة = Aqaba (Jordan's port city): 'the Gulf of Aqaba' · name]"
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    57
+   ],
+   "area": "days-51-60",
+   "expect": "رَائِع! فِي السَّاعَة الثَّامِنَة وَالنِّصْف نَكُونُ"
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    57
+   ],
+   "area": "days-51-60",
+   "expect": "Great! At half past eight we'll be in Jordan."
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    57
+   ],
+   "area": "days-51-60",
+   "expect": "[الثَّامِنَة = the eighth] [وَالنِّصْف = and the half] [نَكُونُ"
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    57
+   ],
+   "area": "days-51-60",
+   "expect": "وَوَصَلَتْ إِلَى عَمَّان فِي السَّاعَة الثَّامِنَة وَالنِّصْف."
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    57
+   ],
+   "area": "days-51-60",
+   "expect": "arrived in Amman at half past eight, local time."
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    57
+   ],
+   "area": "days-51-60",
+   "expect": "[الثَّامِنَة = the eighth] [وَالنِّصْف = and the half] [كَانَ"
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    4
+   ],
+   "area": "days-51-60",
+   "expect": "أَهْلًا وَسَهْلًا بِكُمْ فِي عَمَّان!"
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    4
+   ],
+   "area": "days-51-60",
+   "expect": "[بِكُمْ = with you (to several people)]"
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    1,
+    47
+   ],
+   "area": "days-51-60",
+   "expect": "يُوسُف يَقُولُ: يَجِبُ أَنْ نَنَامَ لَيْلَةً فِي وَادِي مُوسَى"
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    1,
+    47
+   ],
+   "area": "days-51-60",
+   "expect": "[يَجِبُ = must, it is necessary] [أَنْ = to, that] [نَنَامَ = we sleep (after an)] [لَيْلَةً = a night (adverb: for a night)]"
+  },
+  {
+   "chunk": "R3",
+   "ids": [
+    103
+   ],
+   "area": "days-51-60",
+   "expect": "أُرِيدُ أَنْ أَحْجِزَ غُرْفَتَيْنِ لِيَوْمِ السَّبْت، مِنْ فَضْلِكِ."
+  },
+  {
+   "chunk": "R3",
+   "ids": [
+    103
+   ],
+   "area": "days-51-60",
+   "expect": "I'd like to book two rooms for Saturday, please."
+  },
+  {
+   "chunk": "R3",
+   "ids": [
+    103
+   ],
+   "area": "days-51-60",
+   "expect": "[لِيَوْمِ = for (the) day (of)] [السَّبْت = Saturday]"
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    47
+   ],
+   "area": "days-51-60",
+   "expect": "وَنَكُونُ عِنْدَكُمْ لَيْلَةً وَاحِدَةً فَقَطْ."
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    47
+   ],
+   "area": "days-51-60",
+   "expect": "[لَيْلَةً = a night (adverb: for one night)] [وَاحِدَةً = one (f)]"
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    47
+   ],
+   "area": "days-51-60",
+   "expect": "sentences[4].ar: كُنْتُ فِي الْأُرْدُنّ مَرَّةً وَاحِدَةً."
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    47
+   ],
+   "area": "days-51-60",
+   "expect": "[مَرَّةً = once, one time · noun] [وَاحِدَةً = one (f) · number]"
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    47
+   ],
+   "area": "days-51-60",
+   "expect": "أَنَا كُنْتُ فِي الْأُرْدُنّ مَرَّةً وَاحِدَةً فَقَطْ،"
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    47
+   ],
+   "area": "days-51-60",
+   "expect": "[مَرَّةً = once, one time] [وَاحِدَةً = one (f)] [فَقَطْ"
+  },
+  {
+   "chunk": "R3",
+   "ids": [
+    103
+   ],
+   "area": "days-51-60",
+   "expect": "الْحَجْز جَاهِز: غُرْفَتَانِ لِلَيْلَةٍ وَاحِدَةٍ. نَرَاكُمْ يَوْمَ السَّبْت"
+  },
+  {
+   "chunk": "R3",
+   "ids": [
+    103
+   ],
+   "area": "days-51-60",
+   "expect": "the booking is done: two rooms for one night. See you on Saturday"
+  },
+  {
+   "chunk": "R3",
+   "ids": [
+    103
+   ],
+   "area": "days-51-60",
+   "expect": "[لِلَيْلَةٍ = for a night] [وَاحِدَةٍ = one (f)] [نَرَاكُمْ"
+  },
+  {
+   "chunk": "R3",
+   "ids": [
+    103
+   ],
+   "area": "days-51-60",
+   "expect": "حَجَزَتْ غُرْفَتَيْنِ لِلَيْلَةٍ وَاحِدَةٍ يَوْمَ السَّبْت: غُرْفَة"
+  },
+  {
+   "chunk": "R3",
+   "ids": [
+    103
+   ],
+   "area": "days-51-60",
+   "expect": "She booked two rooms for one night, on Saturday:"
+  },
+  {
+   "chunk": "R3",
+   "ids": [
+    103
+   ],
+   "area": "days-51-60",
+   "expect": "[لِلَيْلَةٍ = for a night] [وَاحِدَةٍ = one (f)] [يَوْمَ = on the day of] [السَّبْت = Saturday] [غُرْفَة"
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    47
+   ],
+   "area": "days-61-70",
+   "expect": "قَرَأْتُ قَصِيدَةً لَهُ فِي دَرْسِ"
+  },
+  {
+   "chunk": "R12",
+   "ids": [
+    47
+   ],
+   "area": "days-61-70",
+   "expect": "[قَصِيدَةً = a poem (object)]"
+  }
+ ],
+ "skipped": [],
+ "notesForLead": [
+  "R12-39 (day 56): wrote the pause form يَوْمُ الْأَرْبِعَاء (sentence-final, house style, same as line 2 الْأَرْبِعَاء) rather than the final kasra in DECISIONS; the article is the point of the decision.",
+  "R12-58 (day 45): the sentence has accusative ثَلَاثَ مَرَّاتٍ, so the card shows ثَلَاثَةَ مَرَّاتٍ (wrong) / ثَلَاثَ مَرَّاتٍ (right) and the why names thalātha marrātin vs thalāthata marrātin. Closest correct form of the decision's nominative pair, which would not match the sentence.",
+  "R3-103 (day 59): line 4 says لِيَوْمِ السَّبْت 'for Saturday' because Salma then asks how many nights; line 15 says لِلَيْلَةٍ وَاحِدَةٍ (Saturday follows in the same line), and the reading says لِلَيْلَةٍ وَاحِدَةٍ يَوْمَ السَّبْت. English titles 'Two rooms for Saturday night' (dialogue title, realLife story) left as they are, since that is unambiguous in English.",
+  "R12-1: day 48 now teaches يَجِبُ أَنْ / مِنَ اللَّازِمِ أَنْ / عَلَيْكَ أَنْ in the title, summary, intro, objectives, sentences 1 and 3 (with their mistake cards), reading and completion. The dialogue keeps لَازِم in speech, with the seg gloss labelled '(spoken style)'. quiz[0] still asks what لَازِم أَنْ تَرْتَاحَ means (understanding the spoken form). newWords 'lazim' and grammar id 'lazim' stay. The vocabulary/grammar card wording is G5's. The day 59 line 1 لَازِم became يَجِبُ. The week 7 test (course.json w7t8) option 0 became يَجِبُ أَنْ تَرْتَاحَ.",
+  "course.json is shared with G3: my only op there starts at the w7t8 options ('\"options\": [ … لَازِم أَنْ تَرْتَاحَ. … لَا تَرْتَحْ.'), so a G3 op should not overlap it.",
+  "R12-47 sends G2 to day 65 (G3 range) for قَصِيدَةً لَهُ: two narrow ops on content/days/day65.json. If G3 also plans this, drop one copy.",
+  "R3-26: day 33 gets a scoped gloss for ـًا. hand.json still says 'an indefinite object' everywhere else. G5 (the R3-78 card) or the lead may want to change the hand.json value app-wide as well.",
+  "R12-57: the culture note now explains the clock difference (leave Cairo at 6, land in Amman at about 8:30 local time). Line 16 and the reading say 8:30. Line 12 (be at the gate at 5:30, half an hour before the flight) stays as it is, since departure is still at six."
+ ]
+}

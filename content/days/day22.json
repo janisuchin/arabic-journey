@@ -65,7 +65,7 @@
   "quiz": [
     { "id": "d22q1", "prompt": "What does this mean?", "ar": "مَسْجِد", "options": ["bank", "museum", "mosque", "park"], "answer": 2 },
     { "id": "d22q2", "prompt": "Which word means 'street'?", "options": ["مَيْدَان", "شَارِع", "مَكَان", "مَدِينَة"], "answer": 1 },
-    { "id": "d22q3", "prompt": "Choose the correct verb: '… the tourists the museum.'", "ar": "… السُّيَّاحُ الْمَتْحَفَ", "options": ["يَزُورُ", "يَزُورُونَ", "تَزُورُ", "نَزُورُ"], "answer": 0 },
+    { "id": "d22q3", "prompt": "Choose the correct verb: '… the tourists the museum.'", "ar": "… السُّيَّاحُ الْمَتْحَفَ", "options": ["يَزُورُ", "يَزُورُونَ", "أَزُورُ", "نَزُورُ"], "answer": 0 },
     { "id": "d22q4", "prompt": "Fill the gap: 'Layla goes to the bookshop.'", "ar": "… لَيْلَى إِلَى الْمَكْتَبَة.", "options": ["يَذْهَبُ", "نَذْهَبُ", "أَذْهَبُ", "تَذْهَبُ"], "answer": 3 },
     { "id": "d22q5", "prompt": "In the dialogue, what is next to the bank?", "options": ["a mosque", "a park", "an old bookshop", "the museum"], "answer": 2 },
     { "id": "d22q6", "prompt": "What does this mean?", "ar": "حَدِيقَة", "options": ["park, garden", "library", "city", "square"], "answer": 0 },

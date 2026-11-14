@@ -391,12 +391,12 @@
         "nameAr": "سَامِي"
       }
     ],
-    "culture": "The Citadel of Salah al-Din was the home of Egypt's rulers for almost 700 years, and from its walls you can see the whole of Cairo. The clock in the courtyard of the Muhammad Ali Mosque was a gift from King Louis-Philippe of France in the 1840s; Egypt gave France the obelisk that still stands in the Place de la Concorde in Paris. When you visit a mosque, take off your shoes at the door, dress modestly (women usually cover their hair) and speak quietly, especially at prayer times.",
+    "culture": "The Citadel of Salah al-Din was the home of Egypt's rulers for almost 700 years, and from its walls you can see the whole of Cairo. The clock in the courtyard of the Muhammad Ali Mosque was a gift from King Louis-Philippe of France in the 1840s; Egypt gave France the obelisk that still stands in the Place de la Concorde in Paris. When you visit a mosque, take off your shoes at the door, dress modestly (women usually cover their hair) and speak quietly, especially at prayer times. A word note: in Egypt مَرْمَر means alabaster, hence the name مَسْجِدُ الْمَرْمَر (the Alabaster Mosque); in most other Arab countries مَرْمَر and رُخَام both often just mean marble.",
     "lines": [
       {
         "id": "d81l1",
         "sp": "amal",
-        "ar": "أَهْلًا وَسَهْلًا بِكُمْ فِي قَلْعَةِ صَلَاحِ الدِّين! أَنَا أَمَل، دَلِيلَتُكُمُ الْيَوْمَ. هٰذِهِ الْقَلْعَةُ الْقَدِيمَةُ مِنْ أَشْهَرِ الْأَمَاكِنِ فِي الْقَاهِرَة.",
+        "ar": "أَهْلًا وَسَهْلًا بِكُمْ فِي قَلْعَةِ صَلَاحِ الدِّين! أَنَا أَمَل، مُرْشِدَتُكُمُ الْيَوْمَ. هٰذِهِ الْقَلْعَةُ الْقَدِيمَةُ مِنْ أَشْهَرِ الْأَمَاكِنِ فِي الْقَاهِرَة.",
         "en": "Welcome to the Citadel of Salah al-Din! I'm Amal, your guide today. This old citadel is one of the most famous places in Cairo.",
         "segs": [
           [
@@ -436,7 +436,7 @@
             "Amal (first name)"
           ],
           [
-            "دَلِيلَتُكُمُ",
+            "مُرْشِدَتُكُمُ",
             "your guide (a woman; 'your' to a group)"
           ],
           [
@@ -848,7 +848,7 @@
       {
         "id": "d81l7",
         "sp": "amal",
-        "ar": "لَا، هٰذَا مَسْجِدُ مُحَمَّد عَلِي، وَقَدْ بُنِيَ فِي الْقَرْنِ التَّاسِعَ عَشَرَ. طُولُ كُلِّ مِئْذَنَةٍ أَكْثَرُ مِنْ ثَمَانِينَ مِتْرًا.",
+        "ar": "لَا، هٰذَا مَسْجِدُ مُحَمَّد عَلِيّ، وَقَدْ بُنِيَ فِي الْقَرْنِ التَّاسِعَ عَشَرَ. طُولُ كُلِّ مِئْذَنَةٍ أَكْثَرُ مِنْ ثَمَانِينَ مِتْرًا.",
         "en": "No, this is the Mosque of Muhammad Ali, and it was built in the nineteenth century. Each minaret is more than eighty metres tall.",
         "segs": [
           [
@@ -868,7 +868,7 @@
             "Muhammad (first name)"
           ],
           [
-            "عَلِي",
+            "عَلِيّ",
             "Ali (name; Muhammad Ali ruled Egypt in the 1800s)"
           ],
           [
@@ -1005,7 +1005,7 @@
           ],
           [
             "مَرْمَر",
-            "alabaster (a white stone)"
+            "alabaster (Egyptian usage; elsewhere often marble)"
           ],
           [
             "غُطِّيَتِ",
@@ -1605,7 +1605,7 @@
   },
   "reading": {
     "title": "A morning at the Citadel",
-    "ar": "زَارَ الطُّلَّابُ صَبَاحَ الْيَوْمِ قَلْعَةَ صَلَاحِ الدِّين. بُنِيَتِ الْقَلْعَةُ فِي الْقَرْنِ الثَّانِيَ عَشَرَ، وَبُنِيَ مَسْجِدُ مُحَمَّد عَلِي فِي الْقَرْنِ التَّاسِعَ عَشَرَ، وَيُسَمَّى أَيْضًا مَسْجِدَ الْمَرْمَر. فِي السَّاحَةِ سَاعَةٌ صُنِعَتْ فِي فَرَنْسَا، وَيُقَالُ إِنَّهَا لَمْ تَعْمَلْ أَبَدًا. وَكَتَبَ دَانْيَال فِي دَفْتَرِهِ كُلَّ أَفْعَالِ الْمَجْهُول.",
+    "ar": "زَارَ الطُّلَّابُ صَبَاحَ الْيَوْمِ قَلْعَةَ صَلَاحِ الدِّين. بُنِيَتِ الْقَلْعَةُ فِي الْقَرْنِ الثَّانِيَ عَشَرَ، وَبُنِيَ مَسْجِدُ مُحَمَّد عَلِيّ فِي الْقَرْنِ التَّاسِعَ عَشَرَ، وَيُسَمَّى أَيْضًا مَسْجِدَ الْمَرْمَر. فِي السَّاحَةِ سَاعَةٌ صُنِعَتْ فِي فَرَنْسَا، وَيُقَالُ إِنَّهَا لَمْ تَعْمَلْ أَبَدًا. وَكَتَبَ دَانْيَال فِي دَفْتَرِهِ كُلَّ أَفْعَالِ الْمَجْهُول.",
     "en": "This morning the students visited the Citadel of Salah al-Din. The Citadel was built in the twelfth century, and the Mosque of Muhammad Ali was built in the nineteenth century; it is also called the Alabaster Mosque. In the courtyard there is a clock that was made in France, and it is said that it never worked. And Daniel wrote all the passive verbs in his notebook.",
     "segs": [
       [
@@ -1673,7 +1673,7 @@
         "Muhammad (first name)"
       ],
       [
-        "عَلِي",
+        "عَلِيّ",
         "Ali (name; Muhammad Ali ruled Egypt in the 1800s)"
       ],
       [

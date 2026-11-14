@@ -4,11 +4,11 @@
   "phase": 4,
   "level": 5,
   "title": "You must rest",
-  "titleAr": "لَازِم أَنْ تَرْتَاحَ",
+  "titleAr": "يَجِبُ أَنْ تَرْتَاحَ",
   "titleSegs": [
     [
-      "لَازِم",
-      "necessary, must"
+      "يَجِبُ",
+      "must, it is necessary"
     ],
     [
       "أَنْ",
@@ -20,10 +20,10 @@
     ]
   ],
   "emoji": "🛌",
-  "summary": "Give and understand advice with لَازِم أَنْ… and يَجِبُ أَنْ… (must, have to), and say that something is not necessary.",
-  "intro": "On Thursday Daniel goes back to Dr Fatima's clinic. He feels much better and wants to get back to school and to football, but the doctor has advice. To say 'must', use لَازِم (necessary) or the more formal يَجِبُ, then أَنْ and a present-tense verb ending in -a: لَازِم أَنْ تَرْتَاحَ (you must rest), يَجِبُ أَنْ أَنَامَ (I must sleep). The words لَازِم and يَجِبُ never change; the person is on the second verb.",
+  "summary": "Give and understand advice with يَجِبُ أَنْ… (must, have to) and the spoken لَازِم أَنْ…, and say that something is not necessary.",
+  "intro": "On Thursday Daniel goes back to Dr Fatima's clinic. He feels much better and wants to get back to school and to football, but the doctor has advice. To say 'must' in standard Arabic, use يَجِبُ (it is necessary), then أَنْ and a present-tense verb ending in -a: يَجِبُ أَنْ تَرْتَاحَ (you must rest), يَجِبُ أَنْ أَنَامَ (I must sleep). Two other written forms mean the same: مِنَ اللَّازِمِ أَنْ (it is necessary that) and عَلَيْكَ أَنْ (you have to, lit. it is on you). In conversation people often say just لَازِم أَنْ…; that is spoken style. يَجِبُ never changes; the person is on the second verb.",
   "objectives": [
-    "Say what someone must do with لَازِم أَنْ and يَجِبُ أَنْ",
+    "Say what someone must do with يَجِبُ أَنْ, مِنَ اللَّازِمِ أَنْ or عَلَيْكَ أَنْ, and understand the spoken لَازِم أَنْ",
     "Ask 'do I have to…?' with هَلْ يَجِبُ أَنْ…؟",
     "Say 'it is not necessary' with لَيْسَ ضَرُورِيًّا",
     "Give simple health advice about rest, sleep and water"
@@ -55,14 +55,14 @@
   "sentences": [
     {
       "id": "d48s1",
-      "ar": "لَازِم أَنْ تَرْتَاحَ.",
+      "ar": "يَجِبُ أَنْ تَرْتَاحَ.",
       "en": "You must rest. (to a man)",
-      "literal": "(it is) necessary that you rest",
+      "literal": "it is necessary that you rest",
       "segs": [
         [
-          "لَازِم",
-          "necessary, must",
-          "adj"
+          "يَجِبُ",
+          "must, it is necessary",
+          "verb"
         ],
         [
           "أَنْ",
@@ -81,9 +81,9 @@
       ],
       "mistakes": [
         {
-          "wrong": "لَازِم تَرْتَاحُ",
-          "right": "لَازِم أَنْ تَرْتَاحَ",
-          "why": "In standard Arabic lāzim needs an before the verb, and the verb then ends in -a: lāzim an tartāḥa."
+          "wrong": "يَجِبُ تَرْتَاحُ",
+          "right": "يَجِبُ أَنْ تَرْتَاحَ",
+          "why": "يَجِبُ needs an before the verb, and the verb then ends in -a: yajibu an tartāḥa. In speech you will also hear lāzim an tartāḥa; lāzim is spoken style."
         }
       ]
     },
@@ -120,14 +120,14 @@
     },
     {
       "id": "d48s3",
-      "ar": "لَازِم أَنْ تَشْرَبِي مَاءً كَثِيرًا.",
+      "ar": "عَلَيْكِ أَنْ تَشْرَبِي مَاءً كَثِيرًا.",
       "en": "You must drink plenty of water. (to a woman)",
-      "literal": "(it is) necessary that you drink much water",
+      "literal": "(it is) on you that you drink much water",
       "segs": [
         [
-          "لَازِم",
-          "necessary, must",
-          "adj"
+          "عَلَيْكِ",
+          "on you (to a woman): 'you have to'",
+          "prep"
         ],
         [
           "أَنْ",
@@ -156,8 +156,8 @@
       ],
       "mistakes": [
         {
-          "wrong": "لَازِم أَنْ تَشْرَبِينَ",
-          "right": "لَازِم أَنْ تَشْرَبِي",
+          "wrong": "عَلَيْكِ أَنْ تَشْرَبِينَ",
+          "right": "عَلَيْكِ أَنْ تَشْرَبِي",
           "why": "After an the ending -na drops: tashrabīna becomes an tashrabī."
         }
       ]
@@ -351,7 +351,7 @@
       {
         "id": "d48l3",
         "sp": "fatima",
-        "ar": "مُمْتَاز! حَرَارَتُكَ الْآنَ سَبْع وَثَلَاثُونَ دَرَجَة، وَهٰذَا طَبِيعِيّ. الْحَمْدُ لِلّٰه.",
+        "ar": "مُمْتَاز! حَرَارَتُكَ الْآنَ سَبْع وَثَلَاثُونَ دَرَجَةً، وَهٰذَا طَبِيعِيّ. الْحَمْدُ لِلّٰه.",
         "en": "Excellent! Your temperature is now thirty-seven degrees, and that is normal. Thank God.",
         "segs": [
           [
@@ -375,8 +375,8 @@
             "and thirty"
           ],
           [
-            "دَرَجَة",
-            "degree"
+            "دَرَجَةً",
+            "degrees (after a number)"
           ],
           [
             "وَهٰذَا",
@@ -399,11 +399,11 @@
       {
         "id": "d48l4",
         "sp": "daniel",
-        "ar": "إِذَنْ أَسْتَطِيعُ أَنْ أَرْجِعَ إِلَى الْمَدْرَسَة يَوْمَ الْأَحَد؟ عِنْدَنَا امْتِحَان صَغِير.",
+        "ar": "إِذًا أَسْتَطِيعُ أَنْ أَرْجِعَ إِلَى الْمَدْرَسَة يَوْمَ الْأَحَد؟ عِنْدَنَا امْتِحَان صَغِير.",
         "en": "So can I go back to school on Sunday? We have a small test.",
         "segs": [
           [
-            "إِذَنْ",
+            "إِذًا",
             "so, then"
           ],
           [
@@ -468,7 +468,7 @@
           ],
           [
             "لَازِم",
-            "necessary, must"
+            "necessary, must (spoken style)"
           ],
           [
             "أَنْ",
@@ -516,7 +516,7 @@
         "segs": [
           [
             "لَازِم",
-            "necessary, must"
+            "necessary, must (spoken style)"
           ],
           [
             "أَنْ",
@@ -813,7 +813,7 @@
           ],
           [
             "وَلَازِم",
-            "and (it is) necessary: 'must'"
+            "and (it is) necessary: 'must' (spoken style)"
           ],
           [
             "أَنْ",
@@ -1010,7 +1010,7 @@
           ],
           [
             "لَازِم",
-            "necessary, must"
+            "necessary, must (spoken style)"
           ],
           [
             "أَنْ",
@@ -1051,7 +1051,7 @@
   },
   "reading": {
     "title": "The doctor's advice",
-    "ar": "دَانْيَال أَحْسَن الْآنَ، لٰكِنْ لَازِم أَنْ يَرْتَاحَ الْيَوْمَ وَغَدًا. يَجِبُ أَنْ يَنَامَ مُبَكِّرًا، وَأَنْ يَشْرَبَ مَاءً كَثِيرًا. يَوْمَ السَّبْت يَلْعَبُ كُرَةَ الْقَدَم مَعَ عُمَر وَسَامِي، وَيَوْمَ الْأَحَد يَرْجِعُ إِلَى الْمَدْرَسَة.",
+    "ar": "دَانْيَال أَحْسَن الْآنَ، لٰكِنْ مِنَ اللَّازِمِ أَنْ يَرْتَاحَ الْيَوْمَ وَغَدًا. يَجِبُ أَنْ يَنَامَ مُبَكِّرًا، وَأَنْ يَشْرَبَ مَاءً كَثِيرًا. يَوْمَ السَّبْت يَلْعَبُ كُرَةَ الْقَدَم مَعَ عُمَر وَسَامِي، وَيَوْمَ الْأَحَد يَرْجِعُ إِلَى الْمَدْرَسَة.",
     "en": "Daniel is better now, but he must rest today and tomorrow. He must go to bed early and drink plenty of water. On Saturday he plays football with Omar and Sami, and on Sunday he goes back to school.",
     "segs": [
       [
@@ -1072,8 +1072,12 @@
         "but"
       ],
       [
-        "لَازِم",
-        "necessary, must"
+        "مِنَ",
+        "of, from (min al-lāzimi an: it is necessary that)"
+      ],
+      [
+        "اللَّازِمِ",
+        "the necessary"
       ],
       [
         "أَنْ",
@@ -1268,6 +1272,6 @@
       "answer": 0
     }
   ],
-  "completion": "Well done! You can give advice with لَازِم and يَجِبُ, and say when something is not necessary. Next time: Saturday football!",
+  "completion": "Well done! You can give advice with يَجِبُ, مِنَ اللَّازِمِ and عَلَيْكَ, understand the spoken لَازِم, and say when something is not necessary. Next time: Saturday football!",
   "status": "needs-review"
 }

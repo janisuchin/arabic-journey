@@ -1,0 +1,1088 @@
+{
+ "group": "G4 (scenarios, photo scenes, placards, word photos, culture)",
+ "ops": [
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-96"
+   ],
+   "op": "text",
+   "file": "content/course/scenarios.json",
+   "old": "\"why\": \"لَمْ takes the present form with a sukūn at the end, not the past.\"",
+   "new": "\"why\": \"لَمْ takes the short form of the present (sukūn for most persons; -na/-ni endings drop), not the past.\"",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-40"
+   ],
+   "op": "text",
+   "file": "content/course/scenarios.json",
+   "old": "كَيْفَ سَافَرْتُمَا؟ لَمْ تَذْهَبْ بِالطَّائِرَة، صَحِيح؟",
+   "new": "كَيْفَ سَافَرْتُمَا؟ لَمْ تَذْهَبَا بِالطَّائِرَة، صَحِيح؟",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-40"
+   ],
+   "op": "text",
+   "file": "content/course/scenarios.json",
+   "old": "\"How lovely! How did you two travel? You didn't go by plane, did you?\"",
+   "new": "\"How lovely! How did you two travel? You two didn't go by plane, did you?\"",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-40"
+   ],
+   "op": "text",
+   "file": "content/course/scenarios.json",
+   "old": "              \"تَذْهَبْ\",\n              \"you go (to a man; form after 'lam')\"",
+   "new": "              \"تَذْهَبَا\",\n              \"you go (two people; form after 'lam')\"",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-102"
+   ],
+   "op": "text",
+   "file": "content/course/scenarios.json",
+   "old": "كَانَ حَارًّا فِي النَّهَار، لٰكِنْ لَطِيفًا فِي الْمَسَاء.",
+   "new": "كَانَ حَارًّا فِي النَّهَار، لٰكِنَّهُ كَانَ لَطِيفًا فِي الْمَسَاء.",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-102"
+   ],
+   "op": "text",
+   "file": "content/course/scenarios.json",
+   "old": "\"It was hot in the daytime but pleasant in the evening. And you? Didn't you go anywhere?\"",
+   "new": "\"It was hot in the daytime, but it was pleasant in the evening. And you? Didn't you go anywhere?\"",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-102"
+   ],
+   "op": "text",
+   "file": "content/course/scenarios.json",
+   "old": "              \"لٰكِنْ\",\n              \"but\"\n            ],\n            [\n              \"لَطِيفًا\",\n              \"pleasant, nice (after 'was')\"",
+   "new": "              \"لٰكِنَّهُ\",\n              \"but it (m)\"\n            ],\n            [\n              \"كَانَ\",\n              \"(it, m) was\"\n            ],\n            [\n              \"لَطِيفًا\",\n              \"pleasant, nice (after 'was')\"",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-23/R3-102"
+   ],
+   "op": "text",
+   "file": "content/course/scenarios.json",
+   "old": "مَسَاءُ الْخَيْر! أَهْلًا بِكَ فِي مَطْعَمِنَا. كَمْ شَخْصًا؟",
+   "new": "مَسَاءُ الْخَيْر! أَهْلًا بِكُمَا فِي مَطْعَمِنَا. كَمْ شَخْصًا؟",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-23/R3-102"
+   ],
+   "op": "text",
+   "file": "content/course/scenarios.json",
+   "old": "              \"بِكَ\",\n              \"with you (to a man)\"\n            ],\n            [\n              \"فِي\",\n              \"in, to\"\n            ],\n            [\n              \"مَطْعَمِنَا\",\n              \"our restaurant\"",
+   "new": "              \"بِكُمَا\",\n              \"with you (two people)\"\n            ],\n            [\n              \"فِي\",\n              \"in, to\"\n            ],\n            [\n              \"مَطْعَمِنَا\",\n              \"our restaurant\"",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-23/R3-102"
+   ],
+   "op": "text",
+   "file": "content/course/scenarios.json",
+   "old": "Speaking to two people, the waiter uses the dual: تَفَضَّلَا and شُكْرًا لَكُمَا.",
+   "new": "Speaking to two people, the waiter uses the dual: أَهْلًا بِكُمَا, تَفَضَّلَا and شُكْرًا لَكُمَا.",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-11"
+   ],
+   "op": "text",
+   "file": "content/course/scenarios.json",
+   "old": "تَفَضَّلَا، هٰذِهِ طَاوِلَة جَمِيلَة بِجَانِبِ الشُّبَّاك. وَهٰذِهِ الْقَائِمَة.",
+   "new": "تَفَضَّلَا، هٰذِهِ طَاوِلَة جَمِيلَة بِجَانِبِ النَّافِذَة. وَهٰذِهِ الْقَائِمَة.",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-11"
+   ],
+   "op": "text",
+   "file": "content/course/scenarios.json",
+   "old": "              \"الشُّبَّاك\",\n              \"the window\"",
+   "new": "              \"النَّافِذَة\",\n              \"the window\"",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-101"
+   ],
+   "op": "text",
+   "file": "content/course/scenarios.json",
+   "old": "\"en\": \"The stuffed vegetables are delicious! The bill, please.\"",
+   "new": "\"en\": \"The stuffed vegetables are very delicious! The bill, please.\"",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-101"
+   ],
+   "op": "text",
+   "file": "content/course/scenarios.json",
+   "old": "\"en\": \"Thank you! The tea is really very delicious.\"",
+   "new": "\"en\": \"Thank you! The tea is very delicious.\"",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-101"
+   ],
+   "op": "text",
+   "file": "content/course/scenarios.json",
+   "old": "\"en\": \"And this kaʿk is delicious! Did you make it yourself?\"",
+   "new": "\"en\": \"And this kaʿk is very delicious! Did you make it yourself?\"",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-101"
+   ],
+   "op": "text",
+   "file": "content/culture/food.json",
+   "old": "Everything was very tasty, and at the end",
+   "new": "Everything was very delicious, and at the end",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-103"
+   ],
+   "op": "text",
+   "file": "content/course/scenarios.json",
+   "old": "الْحَجْز بِاسْمِ لَيْلَى: غُرْفَتَانِ لِلَيْلَةِ السَّبْت.",
+   "new": "الْحَجْز بِاسْمِ لَيْلَى: غُرْفَتَانِ لِلَيْلَةٍ وَاحِدَةٍ يَوْمَ السَّبْت.",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-103"
+   ],
+   "op": "text",
+   "file": "content/course/scenarios.json",
+   "old": "the booking is in Layla's name: two rooms for Saturday night.",
+   "new": "the booking is in Layla's name: two rooms for one night, on Saturday.",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-103"
+   ],
+   "op": "text",
+   "file": "content/course/scenarios.json",
+   "old": "              \"لِلَيْلَةِ\",\n              \"for the night (of)\"\n            ],\n            [\n              \"السَّبْت\",\n              \"Saturday\"",
+   "new": "              \"لِلَيْلَةٍ\",\n              \"for a night\"\n            ],\n            [\n              \"وَاحِدَةٍ\",\n              \"one (f)\"\n            ],\n            [\n              \"يَوْمَ\",\n              \"on the day of\"\n            ],\n            [\n              \"السَّبْت\",\n              \"Saturday\"",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-107"
+   ],
+   "op": "text",
+   "file": "content/course/scenarios.json",
+   "old": "وَامْتِحَانُ الْمُسْتَوَى غَدًا فِي الْعَاشِرَة. أَهْلًا بِكَ فِي مَعْهَدِنَا!",
+   "new": "وَامْتِحَانُ الْمُسْتَوَى غَدًا فِي التَّاسِعَة. أَهْلًا بِكَ فِي مَعْهَدِنَا!",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-107"
+   ],
+   "op": "text",
+   "file": "content/course/scenarios.json",
+   "old": "and the level test is tomorrow at ten. Welcome to our institute!",
+   "new": "and the level test is tomorrow at nine. Welcome to our institute!",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-107"
+   ],
+   "op": "text",
+   "file": "content/course/scenarios.json",
+   "old": "              \"الْعَاشِرَة\",\n              \"the tenth ('ten o'clock')\"\n            ],\n            [\n              \"أَهْلًا\",\n              \"welcome\"",
+   "new": "              \"التَّاسِعَة\",\n              \"the ninth ('nine o'clock')\"\n            ],\n            [\n              \"أَهْلًا\",\n              \"welcome\"",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-107"
+   ],
+   "op": "text",
+   "file": "content/course/scenarios.json",
+   "old": "سَأَكُونُ هُنَا غَدًا فِي الْعَاشِرَةِ تَمَامًا،",
+   "new": "سَأَكُونُ هُنَا غَدًا فِي التَّاسِعَةِ تَمَامًا،",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-107"
+   ],
+   "op": "text",
+   "file": "content/course/scenarios.json",
+   "old": "I'll be here tomorrow at ten exactly,",
+   "new": "I'll be here tomorrow at nine exactly,",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-107"
+   ],
+   "op": "text",
+   "file": "content/course/scenarios.json",
+   "old": "              \"الْعَاشِرَةِ\",\n              \"the tenth ('ten o'clock')\"\n            ],\n            [\n              \"تَمَامًا\",\n              \"exactly\"",
+   "new": "              \"التَّاسِعَةِ\",\n              \"the ninth ('nine o'clock')\"\n            ],\n            [\n              \"تَمَامًا\",\n              \"exactly\"",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-2"
+   ],
+   "op": "text",
+   "file": "content/course/scenarios.json",
+   "old": "\"en\": \"As you like. Here you are, the dress is in the bag. Enjoy it!\"",
+   "new": "\"en\": \"As you like. Here you are, the dress is in the bag. Congratulations!\"",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-12"
+   ],
+   "op": "text",
+   "file": "content/course/scenarios.json",
+   "old": "وَالْإِصْلَاحُ يَحْتَاجُ يَوْمَيْنِ فَقَط.",
+   "new": "وَالْإِصْلَاحُ يَحْتَاجُ إِلَى يَوْمَيْنِ فَقَط.",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-12"
+   ],
+   "op": "text",
+   "file": "content/course/scenarios.json",
+   "old": "              \"يَحْتَاجُ\",\n              \"(it) needs, takes\"\n            ],\n            [\n              \"يَوْمَيْنِ\",\n              \"two days\"",
+   "new": "              \"يَحْتَاجُ\",\n              \"(it) needs, takes\"\n            ],\n            [\n              \"إِلَى\",\n              \"to (yaḥtāju ilā: needs)\"\n            ],\n            [\n              \"يَوْمَيْنِ\",\n              \"two days\"",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-13"
+   ],
+   "op": "text",
+   "file": "content/course/scenarios.json",
+   "old": "سَأَتَأَكَّدُ مِنَ الطَّبَّاخِ بِنَفْسِي، وَسَيُحَضِّرُهُ",
+   "new": "سَأَتَأَكَّدُ مِنْ ذٰلِكَ مَعَ الطَّبَّاخِ بِنَفْسِي، وَسَيُحَضِّرُهُ",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-13"
+   ],
+   "op": "text",
+   "file": "content/course/scenarios.json",
+   "old": "\"en\": \"I will check with the cook myself, and he will prepare it away from the nuts.",
+   "new": "\"en\": \"I will check that with the cook myself, and he will prepare it away from the nuts.",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-13"
+   ],
+   "op": "text",
+   "file": "content/course/scenarios.json",
+   "old": "              \"مِنَ\",\n              \"from, with (after 'make sure')\"\n            ],\n            [\n              \"الطَّبَّاخِ\",\n              \"the cook\"",
+   "new": "              \"مِنْ\",\n              \"of (taʾakkada min: make sure of)\"\n            ],\n            [\n              \"ذٰلِكَ\",\n              \"that\"\n            ],\n            [\n              \"مَعَ\",\n              \"with\"\n            ],\n            [\n              \"الطَّبَّاخِ\",\n              \"the cook\"",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-99"
+   ],
+   "op": "text",
+   "file": "content/course/scenes.json",
+   "old": "\"ar\": \"الْحِذَاء\",\n        \"en\": \"the shoes\"",
+   "new": "\"ar\": \"الْأَحْذِيَة\",\n        \"en\": \"the shoes\"",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-8"
+   ],
+   "op": "text",
+   "file": "content/course/scenes.json",
+   "old": "\"ar\": \"الْمِنْضَدَة\",\n        \"en\": \"the counter\"",
+   "new": "\"ar\": \"طَاوِلَةُ الْخِدْمَة\",\n        \"en\": \"the counter\"",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-8"
+   ],
+   "op": "scoped",
+   "word": "طَاوِلَةُ",
+   "scope": "scenario:cafe",
+   "gloss": "table (of): ṭāwilatu l-khidma = the (service) counter"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-8"
+   ],
+   "op": "scoped",
+   "word": "الْخِدْمَة",
+   "scope": "scenario:cafe",
+   "gloss": "the service"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-9"
+   ],
+   "op": "text",
+   "file": "content/course/scenes.json",
+   "old": "\"ar\": \"الْمِرْطَبَان\",",
+   "new": "\"ar\": \"الْمَرْطَبَان\",",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-10"
+   ],
+   "op": "text",
+   "file": "content/course/scenes.json",
+   "old": "\"h\": 23\n        },\n        \"ar\": \"اللَّبَن\",\n        \"en\": \"the yogurt\"",
+   "new": "\"h\": 23\n        },\n        \"ar\": \"الزَّبَادِي\",\n        \"en\": \"the yogurt\"",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-10"
+   ],
+   "op": "text",
+   "file": "content/course/scenes.json",
+   "old": "\"h\": 21\n        },\n        \"ar\": \"اللَّبَن\",\n        \"en\": \"the yogurt\"",
+   "new": "\"h\": 21\n        },\n        \"ar\": \"اللَّبَن\",\n        \"en\": \"the yogurt (Levant)\"",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-10"
+   ],
+   "op": "text",
+   "file": "content/course/scenes.json",
+   "old": "\"ar\": \"اللَّبَن\",\n        \"en\": \"the yoghurt (on the aubergine)\"",
+   "new": "\"ar\": \"اللَّبَن\",\n        \"en\": \"the yoghurt (Levant), on the aubergine\"",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-10"
+   ],
+   "op": "scoped",
+   "word": "اللَّبَن",
+   "scope": "scenario:morning-routine",
+   "gloss": "the yogurt (Levant; in Egypt laban is milk)"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-10"
+   ],
+   "op": "scoped",
+   "word": "اللَّبَن",
+   "scope": "scenario:dietary",
+   "gloss": "the yoghurt (Levant; in Egypt laban is milk)"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-11"
+   ],
+   "op": "text",
+   "file": "content/course/scenes.json",
+   "old": "\"ar\": \"السُّور\",\n        \"en\": \"the railing\"",
+   "new": "\"ar\": \"الدَّرَابْزِين\",\n        \"en\": \"the railing\"",
+   "count": 2
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-104"
+   ],
+   "op": "text",
+   "file": "content/course/scenes.json",
+   "old": "\"caption\": \"A Cairo coffeehouse (مَقْهَى): tea in small glasses,",
+   "new": "\"caption\": \"Photo: a coffeehouse (مَقْهَى) in Cairo, with tea in small glasses,",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-104"
+   ],
+   "op": "text",
+   "file": "content/course/scenes.json",
+   "old": "\"caption\": \"A Levantine breakfast (فُطُور):",
+   "new": "\"caption\": \"Photo: a Levantine breakfast (فُطُور):",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-104"
+   ],
+   "op": "text",
+   "file": "content/course/scenes.json",
+   "old": "\"caption\": \"Street signs in Amman: ش. is short for",
+   "new": "\"caption\": \"Photo: street signs in Amman. ش. is short for",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-104"
+   ],
+   "op": "text",
+   "file": "content/course/scenes.json",
+   "old": "\"caption\": \"An open-air clothes market (سُوق) in Amman. Ask the seller:",
+   "new": "\"caption\": \"Photo: an open-air clothes market (سُوق) in Amman. Ask the seller:",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-104"
+   ],
+   "op": "text",
+   "file": "content/course/scenes.json",
+   "old": "\"caption\": \"الْخَزْنَة in Petra, Jordan: a tomb facade carved straight into the rock.\"",
+   "new": "\"caption\": \"Photo: الْخَزْنَة in Petra, Jordan, a tomb facade carved straight into the rock. Daniel's trip was to Luxor and Aswan in Egypt.\"",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-104"
+   ],
+   "op": "text",
+   "file": "content/course/scenes.json",
+   "old": "\"caption\": \"The الشُّرْطَة السِّيَاحِيَّة at Petra: tell the شُرْطِيّ فَقَدْتُ هَاتِفِي (I lost my phone).\"",
+   "new": "\"caption\": \"Photo: a kiosk of the الشُّرْطَة السِّيَاحِيَّة at Petra. In Amman too, tell the شُرْطِيّ فَقَدْتُ هَاتِفِي (I lost my phone).\"",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-104"
+   ],
+   "op": "text",
+   "file": "content/course/scenes.json",
+   "old": "\"caption\": \"The main hall of the Egyptian Museum (الْمَتْحَفُ الْمِصْرِيّ) in Cairo: statues, columns and a gallery above.\"",
+   "new": "\"caption\": \"Photo: the main hall of the Egyptian Museum (الْمَتْحَفُ الْمِصْرِيّ) in Cairo, not the Jordan Museum of the dialogue: statues, columns and a gallery above.\"",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-104"
+   ],
+   "op": "text",
+   "file": "content/course/scenes.json",
+   "old": "\"caption\": \"Jordan Post (",
+   "new": "\"caption\": \"Photo: Jordan Post (",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-104"
+   ],
+   "op": "text",
+   "file": "content/course/scenes.json",
+   "old": ") in Amman, seen from across its car park.\"",
+   "new": ") in Amman, seen from across its car park. Daniel's post office in the dialogue is in Cairo.\"",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-91"
+   ],
+   "op": "text",
+   "file": "content/course/placards.json",
+   "old": "with the Arabic-Indic digits used in Egypt and the Gulf.",
+   "new": "with the Arabic-Indic digits used in Egypt, the Gulf, Iraq, Sudan and parts of the Levant.",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-2"
+   ],
+   "op": "text",
+   "file": "content/course/placards.json",
+   "old": "    \"ar\": \"مَبْرُوك\",\n    \"en\": \"Congratulations\",\n    \"segs\": [\n     [\n      \"مَبْرُوك\",\n      \"congratulations\"\n     ]\n    ]\n   }",
+   "new": "    \"ar\": \"مَبْرُوك\",\n    \"en\": \"Congratulations\",\n    \"segs\": [\n     [\n      \"مَبْرُوك\",\n      \"congratulations\"\n     ]\n    ],\n    \"note\": \"Everyday; formal: مُبَارَك\"\n   }",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-2"
+   ],
+   "op": "scoped",
+   "word": "مُبَارَك",
+   "scope": "placard:pc.courtesy",
+   "gloss": "congratulations (formal; lit. blessed)"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-4"
+   ],
+   "op": "text",
+   "file": "content/culture/ramadan.json",
+   "old": "on the tenth day of the month of الْحَجّ, the pilgrimage to Mecca.",
+   "new": "on 10 Dhū l-Ḥijja, the month of the Hajj (الْحَجّ, the pilgrimage to Mecca).",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-4"
+   ],
+   "op": "text",
+   "file": "content/culture/ramadan.json",
+   "old": "It falls on the tenth day of the month of الْحَجّ, about seventy days",
+   "new": "It falls on 10 Dhū l-Ḥijja, the month of the Hajj (الْحَجّ), about seventy days",
+   "count": 1
+  }
+ ],
+ "checks": [
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-96"
+   ],
+   "area": "scenarios-1",
+   "expect": "لَمْ takes the short form of the present (sukūn for most persons; -na/-ni endings drop)"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-40"
+   ],
+   "area": "scenarios-1",
+   "expect": "لَمْ تَذْهَبَا بِالطَّائِرَة، صَحِيح؟"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-40"
+   ],
+   "area": "scenarios-1",
+   "expect": "You two didn't go by plane, did you?"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-40"
+   ],
+   "area": "scenarios-1",
+   "expect": "[تَذْهَبَا = you go (two people; form after 'lam')]"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-102"
+   ],
+   "area": "scenarios-1",
+   "expect": "لٰكِنَّهُ كَانَ لَطِيفًا فِي الْمَسَاء"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-102"
+   ],
+   "area": "scenarios-1",
+   "expect": "but it was pleasant in the evening"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-102"
+   ],
+   "area": "scenarios-1",
+   "expect": "[لٰكِنَّهُ = but it (m)] [كَانَ = (it, m) was] [لَطِيفًا"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-23/R3-102"
+   ],
+   "area": "scenarios-1",
+   "expect": "أَهْلًا بِكُمَا فِي مَطْعَمِنَا"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-23/R3-102"
+   ],
+   "area": "scenarios-1",
+   "expect": "[بِكُمَا = with you (two people)]"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-23/R3-102"
+   ],
+   "area": "scenarios-1",
+   "expect": "the waiter uses the dual: أَهْلًا بِكُمَا, تَفَضَّلَا"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-11"
+   ],
+   "area": "scenarios-1",
+   "expect": "بِجَانِبِ النَّافِذَة"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-11"
+   ],
+   "area": "scenarios-1",
+   "expect": "[النَّافِذَة = the window]"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-101"
+   ],
+   "area": "scenarios-1",
+   "expect": "The stuffed vegetables are very delicious!"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-101"
+   ],
+   "area": "scenarios-1",
+   "expect": "Thank you! The tea is very delicious."
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-101"
+   ],
+   "area": "scenarios-2",
+   "expect": "And this kaʿk is very delicious!"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-101"
+   ],
+   "area": "culture",
+   "expect": "Everything was very delicious"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-103"
+   ],
+   "area": "scenarios-2",
+   "expect": "غُرْفَتَانِ لِلَيْلَةٍ وَاحِدَةٍ يَوْمَ السَّبْت"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-103"
+   ],
+   "area": "scenarios-2",
+   "expect": "two rooms for one night, on Saturday."
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-103"
+   ],
+   "area": "scenarios-2",
+   "expect": "[لِلَيْلَةٍ = for a night] [وَاحِدَةٍ = one (f)] [يَوْمَ = on the day of] [السَّبْت = Saturday]"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-107"
+   ],
+   "area": "scenarios-2",
+   "expect": "وَامْتِحَانُ الْمُسْتَوَى غَدًا فِي التَّاسِعَة"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-107"
+   ],
+   "area": "scenarios-2",
+   "expect": "the level test is tomorrow at nine"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-107"
+   ],
+   "area": "scenarios-2",
+   "expect": "[التَّاسِعَة = the ninth ('nine o'clock')] [أَهْلًا"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-107"
+   ],
+   "area": "scenarios-2",
+   "expect": "سَأَكُونُ هُنَا غَدًا فِي التَّاسِعَةِ تَمَامًا"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-107"
+   ],
+   "area": "scenarios-2",
+   "expect": "I'll be here tomorrow at nine exactly"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-107"
+   ],
+   "area": "scenarios-2",
+   "expect": "[التَّاسِعَةِ = the ninth ('nine o'clock')] [تَمَامًا = exactly]"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-2"
+   ],
+   "area": "scenarios-1",
+   "expect": "the dress is in the bag. Congratulations!"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-12"
+   ],
+   "area": "scenarios-2",
+   "expect": "وَالْإِصْلَاحُ يَحْتَاجُ إِلَى يَوْمَيْنِ فَقَط"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-12"
+   ],
+   "area": "scenarios-2",
+   "expect": "[إِلَى = to (yaḥtāju ilā: needs)]"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-13"
+   ],
+   "area": "scenarios-2",
+   "expect": "سَأَتَأَكَّدُ مِنْ ذٰلِكَ مَعَ الطَّبَّاخِ بِنَفْسِي"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-13"
+   ],
+   "area": "scenarios-2",
+   "expect": "I will check that with the cook myself"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-13"
+   ],
+   "area": "scenarios-2",
+   "expect": "[مِنْ = of (taʾakkada min: make sure of)] [ذٰلِكَ = that] [مَعَ = with] [الطَّبَّاخِ = the cook]"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-99"
+   ],
+   "area": "scenarios-1",
+   "expect": "spots[11].ar: الْأَحْذِيَة"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-8"
+   ],
+   "area": "scenarios-1",
+   "expect": "طَاوِلَةُ الْخِدْمَة"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-8"
+   ],
+   "area": "scenarios-1",
+   "expect": "طَاوِلَةُ=table (of): ṭāwilatu l-khidma = the (service) counter"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-8"
+   ],
+   "area": "scenarios-1",
+   "expect": "الْخِدْمَة=the service"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-9"
+   ],
+   "area": "scenarios-1",
+   "expect": "الْمَرْطَبَان=the jar"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-10"
+   ],
+   "area": "scenarios-1",
+   "expect": "الزَّبَادِي=the yogurt"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-10"
+   ],
+   "area": "scenarios-1",
+   "expect": "the yogurt (Levant)"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-10"
+   ],
+   "area": "scenarios-2",
+   "expect": "the yoghurt (Levant), on the aubergine"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-10"
+   ],
+   "area": "scenarios-1",
+   "expect": "اللَّبَن=the yogurt (Levant; in Egypt laban is milk)"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-10"
+   ],
+   "area": "scenarios-2",
+   "expect": "اللَّبَن=the yoghurt (Levant; in Egypt laban is milk)"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-11"
+   ],
+   "area": "scenarios-1",
+   "expect": "الدَّرَابْزِين=the railing"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-104"
+   ],
+   "area": "scenarios-1",
+   "expect": "caption: Photo: a coffeehouse (مَقْهَى) in Cairo"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-104"
+   ],
+   "area": "scenarios-1",
+   "expect": "caption: Photo: a Levantine breakfast"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-104"
+   ],
+   "area": "scenarios-1",
+   "expect": "caption: Photo: street signs in Amman."
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-104"
+   ],
+   "area": "scenarios-1",
+   "expect": "caption: Photo: an open-air clothes market"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-104"
+   ],
+   "area": "scenarios-1",
+   "expect": "Daniel's trip was to Luxor and Aswan in Egypt."
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-104"
+   ],
+   "area": "scenarios-2",
+   "expect": "caption: Photo: a kiosk of the الشُّرْطَة السِّيَاحِيَّة at Petra. In Amman too"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-104"
+   ],
+   "area": "scenarios-2",
+   "expect": "not the Jordan Museum of the dialogue"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-104"
+   ],
+   "area": "scenarios-2",
+   "expect": "caption: Photo: Jordan Post ("
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-104"
+   ],
+   "area": "scenarios-2",
+   "expect": "Daniel's post office in the dialogue is in Cairo."
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-91"
+   ],
+   "area": "placards",
+   "expect": "used in Egypt, the Gulf, Iraq, Sudan and parts of the Levant."
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-2"
+   ],
+   "area": "placards",
+   "expect": "note: Everyday; formal: مُبَارَك"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-2"
+   ],
+   "area": "placards",
+   "expect": "مُبَارَك=congratulations (formal; lit. blessed)"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-4"
+   ],
+   "area": "culture",
+   "expect": "on 10 Dhū l-Ḥijja, the month of the Hajj"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-4"
+   ],
+   "area": "culture",
+   "expect": "It falls on 10 Dhū l-Ḥijja, the month of the Hajj"
+  }
+ ],
+ "skipped": [
+  {
+   "chunk": "final",
+   "id": "R12-40 (cinema)",
+   "reason": "Decision is Keep (he buys for two); no change."
+  }
+ ],
+ "notesForLead": [
+  "R3-103: the hotel line ends the sentence, so السَّبْت stays in pause form (house style): لِلَيْلَةٍ وَاحِدَةٍ يَوْمَ السَّبْت. The tanwin on لَيْلَةٍ وَاحِدَةٍ is kept as the decision writes it. English: 'two rooms for one night, on Saturday.' Day 59 is G2.",
+  "R3-107: the level test is moved to nine (التَّاسِعَة / التَّاسِعَةِ), an hour before Daniel's work starts at ten and right after the 7-9 morning group; Arabic, segs and English changed in lines 13 and 14.",
+  "R3-96: the same old wording ('present form with a sukūn') is also in grammar.json line ~1928 (G5, card summary) and course.json line ~2168 (week-test explain, G3). Those are not G4 files; align them if the owning planners did not.",
+  "R3-101: 'very delicious' is now used for لَذِيذ جِدًّا / لَذِيذًا جِدًّا in the café, restaurant and Eid scenarios and in the food culture reading. Outside G4 the same phrase is still 'very tasty': vocabulary.json kak example (G5) and day71.json line ~1138 (G3). Change them for one rendering if wanted.",
+  "R3-23/R3-102 (Dinner for two): the only non-dual greeting in this scenario was أَهْلًا بِكَ (line 1) -> أَهْلًا بِكُمَا; تَفَضَّلَا and شُكْرًا لَكُمَا were already dual. The culture note now also lists أَهْلًا بِكُمَا. Daniel's تَفَضَّلْ / شُكْرًا لَكَ to the single waiter stays.",
+  "R12-40 (holiday): لَمْ تَذْهَبْ -> لَمْ تَذْهَبَا, seg and English ('You two didn't go…') follow. Huda's later questions to Daniel (لَمْ تَذْهَبِي is Daniel to Huda; خَرَجْتُمْ is to Huda's family) are unaffected.",
+  "R12-10: restaurant (Cairo) spot اللَّبَن -> الزَّبَادِي 'the yogurt'. morning-routine keeps اللَّبَن because the photo and caption are a Levantine (Jordanian) breakfast, even though the dialogue's host family is Egyptian; its label is now 'the yogurt (Levant)'. Dietary (Amman, Lebanese mezze) keeps اللَّبَن, label 'the yoghurt (Levant), on the aubergine'. Two scoped taps add 'in Egypt laban is milk'.",
+  "R12-8: the café spot is now the two-word phrase طَاوِلَةُ الْخِدْمَة (phrase meaning comes from the spot's en 'the counter'); neither word existed anywhere in the course, so both single-word taps get a scoped gloss at scenario:cafe.",
+  "R12-2: placard pc.courtesy item مَبْرُوك gets note 'Everyday; formal: مُبَارَك' plus a scoped tap مُبَارَك at placard:pc.courtesy (the app-wide sense is 'blessed'). Clothes-shop line 11 English 'Enjoy it!' -> 'Congratulations!'.",
+  "R3-104: captions keep the photos and now say 'Photo: <real place>' and, where the dialogue is elsewhere, say so: café (Cairo photo, Amman dialogue; 'Cairo coffeehouse' reworded), morning-routine, directions (Amman photo, Cairo dialogue), clothes-shop (Amman photo, Cairo dialogue), holiday-story (Petra photo, Luxor/Aswan trip), lost-phone-help (Petra kiosk, Amman story), museum-info (Egyptian Museum photo, Jordan Museum dialogue), post-office (Jordan Post photo, Cairo dialogue). The post-office caption ops avoid the الْأُرْدُنِيّ word (Z pass). Captions without a place claim (Helsinki hotel, Toronto carousel, Qatar majlis, Dead Sea for Ain Sokhna…) are left as they are.",
+  "R12-11: restaurant line 3 الشُّبَّاك -> النَّافِذَة (seg too); both السُّور railing spots (directions, clothes-shop) -> الدَّرَابْزِين, matching weather-plans.",
+  "R12-13: kept بِنَفْسِي after the decided wording: سَأَتَأَكَّدُ مِنْ ذٰلِكَ مَعَ الطَّبَّاخِ بِنَفْسِي; English 'I will check that with the cook myself'.",
+  "All 51 text-op counts were verified sequentially against the current raw files and every changed file still parses as JSON. No op changes any course-wide Z spelling."
+ ]
+}

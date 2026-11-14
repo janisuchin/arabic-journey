@@ -1,0 +1,1708 @@
+{
+ "group": "G3 (days 61-90 + week tests; final round)",
+ "ops": [
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-53"
+   ],
+   "op": "text",
+   "file": "content/days/day82.json",
+   "old": "\"why\": \"In a formal letter the set phrase is atasharrafu bi-an + a verb (bi-an ataqaddama): keep the bi-.\"",
+   "new": "\"why\": \"In a formal letter the set phrase is usually atasharrafu bi-an + a verb (bi-an ataqaddama). Without bi- it is also seen in real letters, but it is less careful, so keep the bi-.\"",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-53"
+   ],
+   "op": "text",
+   "file": "content/days/day82.json",
+   "old": "وَبَعْدَهَا نَسْتَعْمِلُ دَائِمًا «بِأَنْ» ثُمَّ فِعْلًا.",
+   "new": "وَبَعْدَهَا نَسْتَعْمِلُ عَادَةً «بِأَنْ» ثُمَّ فِعْلًا.",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-53"
+   ],
+   "op": "text",
+   "file": "content/days/day82.json",
+   "old": "After it we always use 'bi-an' and then a verb.",
+   "new": "After it we usually use 'bi-an' and then a verb.",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-53"
+   ],
+   "op": "text",
+   "file": "content/days/day82.json",
+   "old": "\"دَائِمًا\",\n            \"always\"",
+   "new": "\"عَادَةً\",\n            \"usually\"",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-25"
+   ],
+   "op": "text",
+   "file": "content/days/day82.json",
+   "old": "\"why\": \"The first thing attached, sīra (CV), is feminine, so murfaq takes ة: murfaqa.\"",
+   "new": "\"why\": \"Both are seen in real letters, but murfaqa is better: the first thing attached, sīra (CV), is feminine, so murfaqa agrees with it.\"",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-48"
+   ],
+   "op": "text",
+   "file": "content/days/day82.json",
+   "old": "تَحِيَّة طَيِّبَة وَبَعْدُ",
+   "new": "تَحِيَّةً طَيِّبَةً وَبَعْدُ",
+   "count": 7
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-48"
+   ],
+   "op": "text",
+   "file": "content/days/day82.json",
+   "old": "\"تَحِيَّة\",",
+   "new": "\"تَحِيَّةً\",",
+   "count": 3
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-48"
+   ],
+   "op": "text",
+   "file": "content/days/day82.json",
+   "old": "\"طَيِّبَة\",",
+   "new": "\"طَيِّبَةً\",",
+   "count": 3
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-55"
+   ],
+   "op": "text",
+   "file": "content/days/day89.json",
+   "old": "\"why\": \"Plurals of things take a feminine singular verb: uʿlinat-i n-natāʾiju.\"",
+   "new": "\"why\": \"Plurals of things usually take a feminine singular verb: uʿlinat-i n-natāʾiju. A masculine verb before the plural (uʿlina) is also found, but it is less usual.\"",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-55"
+   ],
+   "op": "text",
+   "file": "content/glossary/mistakes.json",
+   "old": "\"أُعْلِنَ\": \"(it) was announced (m; wrong here: plurals of things take the feminine)\"",
+   "new": "\"أُعْلِنَ\": \"(it) was announced (m; less usual here: plurals of things usually take the feminine)\"",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-54"
+   ],
+   "op": "text",
+   "file": "content/days/day85.json",
+   "old": "\"why\": \"istamaʿa / yastamiʿu (to listen) always needs ilā (to): istamiʿū ilā t-tasjīl.\"",
+   "new": "\"why\": \"istamaʿa / yastamiʿu (to listen) needs a preposition, usually ilā (to), also li-: istamiʿū ilā t-tasjīl.\"",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-125"
+   ],
+   "op": "text",
+   "file": "content/course/course.json",
+   "old": "\"يَزُورُونَ\",\r\n      \"تَزُورُ\",",
+   "new": "\"يَزُورُونَ\",\r\n      \"أَزُورُ\",",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-126"
+   ],
+   "op": "text",
+   "file": "content/course/course.json",
+   "old": "\"prompt\": \"Sami says أَنَا مُتْعَب. How do you report it?\"",
+   "new": "\"prompt\": \"Sami says أَنَا مُتْعَب. How do you say this in reported speech?\"",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-127"
+   ],
+   "op": "text",
+   "file": "content/course/course.json",
+   "old": "\"ar\": \"إِذَا شَرِبْتَ قَهْوَةً مَسَاءً، لَا تَنَامُ.\"",
+   "new": "\"ar\": \"إِذَا شَرِبْتَ قَهْوَةً مَسَاءً، فَلَنْ تَنَامَ.\"",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-127"
+   ],
+   "op": "text",
+   "file": "content/course/course.json",
+   "old": "\"If you drink coffee in the evening, you don't sleep.\"",
+   "new": "\"If you drink coffee in the evening, you won't sleep.\"",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-127"
+   ],
+   "op": "scoped",
+   "word": "تَنَامَ",
+   "scope": "week:13",
+   "gloss": "you sleep (form after an / lan; to a man)"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-42"
+   ],
+   "op": "text",
+   "file": "content/days/day63.json",
+   "old": "وَكَانَتْ مَدِينَة غَنِيَّة جِدًّا.",
+   "new": "وَكَانَتْ مَدِينَةً غَنِيَّةً جِدًّا.",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-42"
+   ],
+   "op": "text",
+   "file": "content/days/day63.json",
+   "old": "[\"مَدِينَة\", \"a city\"], [\"غَنِيَّة\", \"rich (f)\"]",
+   "new": "[\"مَدِينَةً\", \"a city (-an after kāna)\"], [\"غَنِيَّةً\", \"rich (f; -an after kāna)\"]",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-50"
+   ],
+   "op": "text",
+   "file": "content/days/day78.json",
+   "old": "«إِعَادَةُ التَّدْوِير» يَعْنِي أَنْ",
+   "new": "«إِعَادَةُ التَّدْوِير» تَعْنِي أَنْ",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-50"
+   ],
+   "op": "text",
+   "file": "content/days/day78.json",
+   "old": "\"يَعْنِي\",\r\n            \"(it) means\"",
+   "new": "\"تَعْنِي\",\r\n            \"(it, f) means\"",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-59"
+   ],
+   "op": "text",
+   "file": "content/days/day87.json",
+   "old": "«يَعْنِي» وَ«كَيْفَ أَقُولُ» تُعْطِيكَ وَقْتًا",
+   "new": "«يَعْنِي» وَ«كَيْفَ أَقُولُ» تُعْطِيَانِكَ وَقْتًا",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-59"
+   ],
+   "op": "text",
+   "file": "content/days/day87.json",
+   "old": "\"تُعْطِيكَ\",\n            \"(they) give you (to a man)\"",
+   "new": "\"تُعْطِيَانِكَ\",\n            \"(the two) give you (to a man)\"",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-51"
+   ],
+   "op": "text",
+   "file": "content/days/day79.json",
+   "old": "لِأَيِّ شَخْص، حَتَّى أَبُوكُمَا!",
+   "new": "لِأَيِّ شَخْص، حَتَّى أَبِيكُمَا!",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-51"
+   ],
+   "op": "text",
+   "file": "content/days/day79.json",
+   "old": "\"أَبُوكُمَا\",\r\n            \"your (two) father\"",
+   "new": "\"أَبِيكُمَا\",\r\n            \"your (two) father (abī-: genitive, as after li-)\"",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-57"
+   ],
+   "op": "text",
+   "file": "content/days/day90.json",
+   "old": "وَنَصَحَهُمْ بِأَنْ يَقْرَؤُوا",
+   "new": "وَنَصَحَهُمُ الْأُسْتَاذُ كَرِيم بِأَنْ يَقْرَؤُوا",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-57"
+   ],
+   "op": "text",
+   "file": "content/days/day90.json",
+   "old": "He advised them to read daily",
+   "new": "Mr Karim advised them to read daily",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-57"
+   ],
+   "op": "text",
+   "file": "content/days/day90.json",
+   "old": "\"وَنَصَحَهُمْ\",\r\n        \"and (he) advised them\"\r\n      ],",
+   "new": "\"وَنَصَحَهُمُ\",\r\n        \"and (he) advised them\"\r\n      ],\r\n      [\r\n        \"الْأُسْتَاذُ\",\r\n        \"the teacher, Mr\"\r\n      ],\r\n      [\r\n        \"كَرِيم\",\r\n        \"Karim (first name)\",\r\n        \"name\"\r\n      ],",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-83"
+   ],
+   "op": "text",
+   "file": "content/days/day76.json",
+   "old": "agree with أُوَافِقُ or مَعَكَ حَقّ (you're right)",
+   "new": "agree with أُوَافِقُ or أَنْتَ عَلَى حَقّ (you're right)",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-83"
+   ],
+   "op": "text",
+   "file": "content/days/day76.json",
+   "old": "\"Agree with أُوَافِقُ and مَعَكَ حَقّ, and disagree politely\"",
+   "new": "\"Agree with أُوَافِقُ and أَنْتَ عَلَى حَقّ, and disagree politely\"",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-83"
+   ],
+   "op": "text",
+   "file": "content/days/day76.json",
+   "old": "\"ar\": \"أُوَافِقُكَ، مَعَكَ حَقّ.\"",
+   "new": "\"ar\": \"أُوَافِقُكَ، أَنْتَ عَلَى حَقّ.\"",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-83"
+   ],
+   "op": "text",
+   "file": "content/days/day76.json",
+   "old": "\"literal\": \"I agree with you, with you (is the) truth\"",
+   "new": "\"literal\": \"I agree with you, you (are) on (the) right\"",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-83"
+   ],
+   "op": "text",
+   "file": "content/days/day76.json",
+   "old": "        [\r\n          \"مَعَكَ\",\r\n          \"with you (to a man)\",\r\n          \"prep\"\r\n        ],",
+   "new": "        [\r\n          \"أَنْتَ\",\r\n          \"you (to a man)\",\r\n          \"pronoun\"\r\n        ],\r\n        [\r\n          \"عَلَى\",\r\n          \"on (ʿalā ḥaqq: in the right)\",\r\n          \"prep\"\r\n        ],",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-83"
+   ],
+   "op": "text",
+   "file": "content/days/day76.json",
+   "old": "\"ar\": \"مَعَكَ حَقّ يَا دَانْيَال!",
+   "new": "\"ar\": \"أَنْتَ عَلَى حَقّ يَا دَانْيَال!",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-83"
+   ],
+   "op": "text",
+   "file": "content/days/day76.json",
+   "old": "          [\r\n            \"مَعَكَ\",\r\n            \"with you (to a man)\"\r\n          ],",
+   "new": "          [\r\n            \"أَنْتَ\",\r\n            \"you (to a man)\"\r\n          ],\r\n          [\r\n            \"عَلَى\",\r\n            \"on (ʿalā ḥaqq: in the right)\"\r\n          ],",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-83"
+   ],
+   "op": "text",
+   "file": "content/days/day76.json",
+   "old": "\"مَعَكِ حَقّ\",\r\n        \"أَظُنُّ\",\r\n        \"مَعَكَ حَقّ\"",
+   "new": "\"أَنْتِ عَلَى حَقّ\",\r\n        \"أَظُنُّ\",\r\n        \"أَنْتَ عَلَى حَقّ\"",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-83"
+   ],
+   "op": "text",
+   "file": "content/course/grammar.json",
+   "old": "agree with أُوَافِقُ or مَعَكَ حَقّ, and disagree politely",
+   "new": "agree with أُوَافِقُ or أَنْتَ عَلَى حَقّ, and disagree politely",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-83"
+   ],
+   "op": "text",
+   "file": "content/course/grammar.json",
+   "old": "or مَعَكَ حَقّ (you're right, literally 'with you is truth').",
+   "new": "or أَنْتَ عَلَى حَقّ (you're right, literally 'you are on the truth'; in everyday speech you also hear مَعَكَ حَقّ).",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-83"
+   ],
+   "op": "text",
+   "file": "content/course/grammar.json",
+   "old": "\"أُوَافِقُكَ، مَعَكَ حَقّ.\",",
+   "new": "\"أُوَافِقُكَ، أَنْتَ عَلَى حَقّ.\",",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-83"
+   ],
+   "op": "text",
+   "file": "content/course/course.json",
+   "old": "\"ar\": \"مَعَكِ حَقّ\",",
+   "new": "\"ar\": \"أَنْتِ عَلَى حَقّ\",",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-83"
+   ],
+   "op": "text",
+   "file": "content/course/course.json",
+   "old": "\"مَعَكَ حَقّ\",",
+   "new": "\"أَنْتَ عَلَى حَقّ\",",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-83"
+   ],
+   "op": "scoped",
+   "word": "عَلَى",
+   "scope": "week:11",
+   "gloss": "on (ʿalā ḥaqq: in the right)"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-83"
+   ],
+   "op": "scoped",
+   "word": "عَلَى",
+   "scope": "week:12",
+   "gloss": "on (ʿalā ḥaqq: in the right)"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-56"
+   ],
+   "op": "text",
+   "file": "content/days/day88.json",
+   "old": "It's the second-to-last week of the course",
+   "new": "It's the last week of the course",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-35"
+   ],
+   "op": "text",
+   "file": "content/days/day88.json",
+   "old": "Hamza sits on a seat chosen by the vowels around it:",
+   "new": "Hamza usually sits on a seat chosen by the vowels around it:",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-1"
+   ],
+   "op": "text",
+   "file": "content/days/day78.json",
+   "old": "say what we must do with يَجِبُ أَنْ and لَازِم أَنْ, and plan",
+   "new": "say what we must do with يَجِبُ أَنْ and مِنَ اللَّازِمِ أَنْ, and plan",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-1"
+   ],
+   "op": "text",
+   "file": "content/days/day78.json",
+   "old": "To say what we must do, use يَجِبُ أَنْ or لَازِم أَنْ + a verb ending in -a: يَجِبُ أَنْ نَحْمِيَ الْبِيئَةَ (we must protect the environment).",
+   "new": "To say what we must do, use يَجِبُ أَنْ or مِنَ اللَّازِمِ أَنْ (it is necessary to) + a verb ending in -a: يَجِبُ أَنْ نَحْمِيَ الْبِيئَةَ (we must protect the environment). In everyday speech you will also hear لَازِم أَنْ; in writing, use these forms.",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-1"
+   ],
+   "op": "text",
+   "file": "content/days/day78.json",
+   "old": "\"Say what we must do with يَجِبُ أَنْ or لَازِم أَنْ + a verb ending in -a\"",
+   "new": "\"Say what we must do with يَجِبُ أَنْ or مِنَ اللَّازِمِ أَنْ + a verb ending in -a\"",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-1"
+   ],
+   "op": "text",
+   "file": "content/days/day78.json",
+   "old": "\"ar\": \"لَازِم أَنْ نُوَفِّرَ الْمَاءَ وَالْكَهْرَبَاءَ.\"",
+   "new": "\"ar\": \"مِنَ اللَّازِمِ أَنْ نُوَفِّرَ الْمَاءَ وَالْكَهْرَبَاءَ.\"",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-1"
+   ],
+   "op": "text",
+   "file": "content/days/day78.json",
+   "old": "\"literal\": \"necessary that we save the water and the electricity\"",
+   "new": "\"literal\": \"from the necessary (it is necessary) that we save the water and the electricity\"",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-1"
+   ],
+   "op": "text",
+   "file": "content/days/day78.json",
+   "old": "\"لَازِم\",\r\n          \"necessary, must\",\r\n          \"adj\"",
+   "new": "\"مِنَ\",\r\n          \"from (min al-lāzim: it is necessary)\",\r\n          \"prep\"\r\n        ],\r\n        [\r\n          \"اللَّازِمِ\",\r\n          \"the necessary (min al-lāzim an: it is necessary to)\",\r\n          \"noun\"",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-1"
+   ],
+   "op": "text",
+   "file": "content/days/day78.json",
+   "old": "\"wrong\": \"لَازِم أَنْ نُوَفِّرُ الْمَاءَ\",\r\n          \"right\": \"لَازِم أَنْ نُوَفِّرَ الْمَاءَ\",",
+   "new": "\"wrong\": \"مِنَ اللَّازِمِ أَنْ نُوَفِّرُ الْمَاءَ\",\r\n          \"right\": \"مِنَ اللَّازِمِ أَنْ نُوَفِّرَ الْمَاءَ\",",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-5"
+   ],
+   "op": "text",
+   "file": "content/days/day84.json",
+   "old": "أَنَا صَنَعْتُ الشَّرَائِحَ عَلَى الْحَاسُوب",
+   "new": "أَنَا أَعْدَدْتُ الشَّرَائِحَ عَلَى الْحَاسُوب",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-5"
+   ],
+   "op": "text",
+   "file": "content/days/day84.json",
+   "old": "I made the slides on the computer",
+   "new": "I prepared the slides on the computer",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-5"
+   ],
+   "op": "text",
+   "file": "content/days/day84.json",
+   "old": "\"صَنَعْتُ\",\n            \"I made\"",
+   "new": "\"أَعْدَدْتُ\",\n            \"I prepared\"",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-5"
+   ],
+   "op": "text",
+   "file": "content/days/day84.json",
+   "old": "الْكَهْرَبَاءُ هُنَا تُصْنَعُ مِنَ الشَّمْس",
+   "new": "الْكَهْرَبَاءُ هُنَا تُوَلَّدُ مِنَ الشَّمْس",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-5"
+   ],
+   "op": "text",
+   "file": "content/days/day84.json",
+   "old": "the electricity here is made from the sun",
+   "new": "the electricity here is generated from the sun",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-5"
+   ],
+   "op": "text",
+   "file": "content/days/day84.json",
+   "old": "\"تُصْنَعُ\",\n            \"(it, f) is made\"",
+   "new": "\"تُوَلَّدُ\",\n            \"(it, f) is generated, is produced\"",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-5"
+   ],
+   "op": "text",
+   "file": "content/days/day84.json",
+   "old": "بُنِيَتْ (it was built), تُصْنَعُ (it is made), يُسْتَعْمَلُ (it is used)",
+   "new": "بُنِيَتْ (it was built), تُوَلَّدُ (it is generated), يُسْتَعْمَلُ (it is used)",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-5"
+   ],
+   "op": "text",
+   "file": "content/days/day84.json",
+   "old": "وَعَرَضَ سَامِي شَرَائِحَ صُنِعَتْ عَلَى الْحَاسُوب",
+   "new": "وَعَرَضَ سَامِي شَرَائِحَ أُعِدَّتْ عَلَى الْحَاسُوب",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-5"
+   ],
+   "op": "text",
+   "file": "content/days/day84.json",
+   "old": "Sami showed slides that were made on the computer",
+   "new": "Sami showed slides that were prepared on the computer",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-5"
+   ],
+   "op": "text",
+   "file": "content/days/day84.json",
+   "old": "\"صُنِعَتْ\",\n        \"(they, f) were made\"",
+   "new": "\"أُعِدَّتْ\",\n        \"(they, f) were prepared\"",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-5"
+   ],
+   "op": "text",
+   "file": "content/days/day84.json",
+   "old": "\"اسْتِعْمَال\",\n        \"تُصْنَعُ\"",
+   "new": "\"اسْتِعْمَال\",\n        \"تُوَلَّدُ\"",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-5"
+   ],
+   "op": "text",
+   "file": "content/days/day84.json",
+   "old": "\"زَرَعْنَا\",\n        \"صَنَعْتُ\"",
+   "new": "\"زَرَعْنَا\",\n        \"أَعْدَدْتُ\"",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-5"
+   ],
+   "op": "text",
+   "file": "content/course/course.json",
+   "old": "\"أَنَا صَنَعْتُ الشَّرَائِحَ عَلَى الْحَاسُوب.\"",
+   "new": "\"أَنَا أَعْدَدْتُ الشَّرَائِحَ عَلَى الْحَاسُوب.\"",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-5"
+   ],
+   "op": "scoped",
+   "word": "أَعْدَدْتُ",
+   "scope": "week:12",
+   "gloss": "I prepared"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-6"
+   ],
+   "op": "text",
+   "file": "content/days/day81.json",
+   "old": "أَنَا أَمَل، دَلِيلَتُكُمُ الْيَوْمَ.",
+   "new": "أَنَا أَمَل، مُرْشِدَتُكُمُ الْيَوْمَ.",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-6"
+   ],
+   "op": "text",
+   "file": "content/days/day81.json",
+   "old": "\"دَلِيلَتُكُمُ\",",
+   "new": "\"مُرْشِدَتُكُمُ\",",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-7"
+   ],
+   "op": "text",
+   "file": "content/days/day81.json",
+   "old": "and speak quietly, especially at prayer times.\"",
+   "new": "and speak quietly, especially at prayer times. A word note: in Egypt مَرْمَر means alabaster, hence the name مَسْجِدُ الْمَرْمَر (the Alabaster Mosque); in most other Arab countries مَرْمَر and رُخَام both often just mean marble.\"",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-7"
+   ],
+   "op": "text",
+   "file": "content/days/day81.json",
+   "old": "\"مَرْمَر\",\n            \"alabaster (a white stone)\"",
+   "new": "\"مَرْمَر\",\n            \"alabaster (Egyptian usage; elsewhere often marble)\"",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-26"
+   ],
+   "op": "text",
+   "file": "content/days/day75.json",
+   "old": "Arabic keeps the speaker's tense: قَالَتْ إِنَّهَا مَرِيضَة means 'she said that she was ill'.\"",
+   "new": "Arabic keeps the speaker's tense: قَالَتْ إِنَّهَا مَرِيضَة means 'she said that she was ill'. A reported yes/no question can use هَلْ: سَأَلَنِي هَلْ فَهِمْتُ (he asked me whether I had understood), as in the press; careful writing prefers إِنْ + كَانَ: سَأَلَنِي إِنْ كُنْتُ فَهِمْتُ.\"",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-26"
+   ],
+   "op": "scoped",
+   "word": "إِنْ",
+   "scope": "day:75",
+   "gloss": "if; whether (after saʾala)"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-37"
+   ],
+   "op": "text",
+   "file": "content/days/day77.json",
+   "old": "بَلْ تَعْنِي: كُلُّ شَخْص.",
+   "new": "بَلْ تَعْنِي كُلَّ شَخْصٍ.",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-37"
+   ],
+   "op": "text",
+   "file": "content/days/day77.json",
+   "old": "it means: every person.",
+   "new": "it means every person.",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-37"
+   ],
+   "op": "text",
+   "file": "content/days/day77.json",
+   "old": "\"كُلُّ\",\n            \"every\"\n          ],\n          [\n            \"شَخْص\",\n            \"person\"",
+   "new": "\"كُلَّ\",\n            \"every (object of 'means')\"\n          ],\n          [\n            \"شَخْصٍ\",\n            \"person\"",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-27"
+   ],
+   "op": "text",
+   "file": "content/days/day77.json",
+   "old": "مَنْ يَعْمَلُ كَثِيرًا يَجِدُ النَّجَاح.",
+   "new": "مَنْ يَعْمَلْ كَثِيرًا يَجِدِ النَّجَاحَ.",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-27"
+   ],
+   "op": "text",
+   "file": "content/days/day77.json",
+   "old": "\"يَعْمَلُ\",\n            \"(he) works\"",
+   "new": "\"يَعْمَلْ\",\n            \"(he) works (jussive after man, whoever)\"",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-27"
+   ],
+   "op": "text",
+   "file": "content/days/day77.json",
+   "old": "\"يَجِدُ\",\n            \"(he) finds\"\n          ],\n          [\n            \"النَّجَاح\",",
+   "new": "\"يَجِدِ\",\n            \"(he) finds (jussive; -i before al-)\"\n          ],\n          [\n            \"النَّجَاحَ\",",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-28"
+   ],
+   "op": "text",
+   "file": "content/days/day80.json",
+   "old": "\"ar\": \"إِنْ دَرَسْتَ كُلَّ يَوْمٍ، نَجَحْتَ فِي ",
+   "new": "\"ar\": \"إِنْ دَرَسْتَ كُلَّ يَوْمٍ، فَسَتَنْجَحُ فِي ",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-28"
+   ],
+   "op": "text",
+   "file": "content/days/day80.json",
+   "old": "\"literal\": \"if you studied every day, you succeeded in",
+   "new": "\"literal\": \"if you studied every day, so you will succeed in",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-28"
+   ],
+   "op": "text",
+   "file": "content/days/day80.json",
+   "old": "\"نَجَحْتَ\",\n          \"you succeeded ('will pass', to a man)\"",
+   "new": "\"فَسَتَنْجَحُ\",\n          \"then you will succeed ('you'll pass', to a man)\"",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-29"
+   ],
+   "op": "text",
+   "file": "content/days/day66.json",
+   "old": "\"Promise to call someone back with أَتَّصِلُ بِكَ\"",
+   "new": "\"Promise to call someone back with سَأَتَّصِلُ بِكَ\"",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-29"
+   ],
+   "op": "text",
+   "file": "content/days/day66.json",
+   "old": "\"ar\": \"أَتَّصِلُ بِكَ غَدًا.\"",
+   "new": "\"ar\": \"سَأَتَّصِلُ بِكَ غَدًا.\"",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-29"
+   ],
+   "op": "text",
+   "file": "content/days/day66.json",
+   "old": "\"literal\": \"I call to you tomorrow\"",
+   "new": "\"literal\": \"I will call to you tomorrow\"",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-29"
+   ],
+   "op": "text",
+   "file": "content/days/day66.json",
+   "old": "\"أَتَّصِلُ\",\r\n          \"I call, I phone\"",
+   "new": "\"سَأَتَّصِلُ\",\r\n          \"I will call, I will phone\"",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-29"
+   ],
+   "op": "text",
+   "file": "content/days/day66.json",
+   "old": "\"wrong\": \"أَتَّصِلُكَ غَدًا.\",\r\n          \"right\": \"أَتَّصِلُ بِكَ غَدًا.\",\r\n          \"why\": \"ittaṣala always takes bi- before the person: attaṣilu bika.\"",
+   "new": "\"wrong\": \"سَأَتَّصِلُكَ غَدًا.\",\r\n          \"right\": \"سَأَتَّصِلُ بِكَ غَدًا.\",\r\n          \"why\": \"ittaṣala always takes bi- before the person: sa-attaṣilu bika.\"",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-29"
+   ],
+   "op": "text",
+   "file": "content/days/day66.json",
+   "old": "\"أَتَّصِلُكَ غَدًا.\",\r\n        \"أَكْتُبُ لَكَ غَدًا.\",\r\n        \"أَتَّصِلُ بِكَ غَدًا.\",",
+   "new": "\"سَأَتَّصِلُكَ غَدًا.\",\r\n        \"سَأَكْتُبُ لَكَ غَدًا.\",\r\n        \"سَأَتَّصِلُ بِكَ غَدًا.\",",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-29"
+   ],
+   "op": "text",
+   "file": "content/glossary/mistakes.json",
+   "old": " \"أَتَّصِلُكَ\": \"I call you (wrong — correct: attaṣilu bika)\",\n",
+   "new": " \"أَتَّصِلُكَ\": \"I call you (wrong — correct: attaṣilu bika)\",\n \"سَأَتَّصِلُكَ\": \"I will call you (wrong — correct: sa-attaṣilu bika)\",\n",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-29"
+   ],
+   "op": "text",
+   "file": "content/course/course.json",
+   "old": "\"prompt\": \"Complete 'I'll call you tomorrow': أَتَّصِلُ ___ غَدًا.\"",
+   "new": "\"prompt\": \"Complete 'I'll call you tomorrow': سَأَتَّصِلُ ___ غَدًا.\"",
+   "count": 1
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-46"
+   ],
+   "op": "text",
+   "file": "content/days/day70.json",
+   "old": "and wrote formal emails to clients.",
+   "new": "and wrote formal letters to clients.",
+   "count": 1
+  }
+ ],
+ "checks": [
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-53"
+   ],
+   "area": "days-81-90",
+   "expect": "Without bi- it is also seen in real letters, but it is less careful"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-53"
+   ],
+   "area": "days-81-90",
+   "expect": "وَبَعْدَهَا نَسْتَعْمِلُ عَادَةً «بِأَنْ»"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-53"
+   ],
+   "area": "days-81-90",
+   "expect": "After it we usually use 'bi-an'"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-53"
+   ],
+   "area": "days-81-90",
+   "expect": "[عَادَةً = usually]"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-25"
+   ],
+   "area": "days-81-90",
+   "expect": "Both are seen in real letters, but murfaqa is better"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-48"
+   ],
+   "area": "days-81-90",
+   "expect": "السَّيِّد الْمُدِير الْمُحْتَرَم، تَحِيَّةً طَيِّبَةً وَبَعْدُ"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-48"
+   ],
+   "area": "days-81-90",
+   "expect": "[تَحِيَّةً = a greeting"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-48"
+   ],
+   "area": "days-81-90",
+   "expect": "[طَيِّبَةً = good, kind (f)"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-55"
+   ],
+   "area": "days-81-90",
+   "expect": "Plurals of things usually take a feminine singular verb"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-55"
+   ],
+   "area": "glossary-mistakes",
+   "expect": "أُعْلِنَ ⟶ Uʿlina = (it) was announced (m; less usual here: plurals of things usually take the feminine)"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-54"
+   ],
+   "area": "days-81-90",
+   "expect": "needs a preposition, usually ilā (to), also li-"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-125"
+   ],
+   "area": "weeks-tests",
+   "expect": "weeks[3].test[1].options[1]: أَزُورُ"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-126"
+   ],
+   "area": "weeks-tests",
+   "expect": "How do you say this in reported speech?"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-127"
+   ],
+   "area": "weeks-tests",
+   "expect": "weeks[12].test[7].ar: إِذَا شَرِبْتَ قَهْوَةً مَسَاءً، فَلَنْ تَنَامَ."
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-127"
+   ],
+   "area": "weeks-tests",
+   "expect": "If you drink coffee in the evening, you won't sleep."
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-127"
+   ],
+   "area": "weeks-tests",
+   "expect": "تَنَامَ=you sleep (form after an / lan; to a man)"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-42"
+   ],
+   "area": "days-61-70",
+   "expect": "وَكَانَتْ مَدِينَةً غَنِيَّةً جِدًّا."
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-42"
+   ],
+   "area": "days-61-70",
+   "expect": "[مَدِينَةً = a city (-an after kāna)]"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-50"
+   ],
+   "area": "days-71-80",
+   "expect": "«إِعَادَةُ التَّدْوِير» تَعْنِي أَنْ"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-50"
+   ],
+   "area": "days-71-80",
+   "expect": "[تَعْنِي = (it, f) means]"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-59"
+   ],
+   "area": "days-81-90",
+   "expect": "تُعْطِيَانِكَ وَقْتًا لِلتَّفْكِير"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-59"
+   ],
+   "area": "days-81-90",
+   "expect": "[تُعْطِيَانِكَ = (the two) give you (to a man)]"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-51"
+   ],
+   "area": "days-71-80",
+   "expect": "حَتَّى أَبِيكُمَا!"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-51"
+   ],
+   "area": "days-71-80",
+   "expect": "[أَبِيكُمَا = your (two) father (abī-: genitive, as after li-)]"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-57"
+   ],
+   "area": "days-81-90",
+   "expect": "وَنَصَحَهُمُ الْأُسْتَاذُ كَرِيم بِأَنْ يَقْرَؤُوا"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-57"
+   ],
+   "area": "days-81-90",
+   "expect": "Mr Karim advised them to read daily"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-57"
+   ],
+   "area": "days-81-90",
+   "expect": "[وَنَصَحَهُمُ = and (he) advised them] [الْأُسْتَاذُ = the teacher, Mr]"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-83"
+   ],
+   "area": "days-71-80",
+   "expect": "agree with أُوَافِقُ or أَنْتَ عَلَى حَقّ (you're right)"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-83"
+   ],
+   "area": "days-71-80",
+   "expect": "Agree with أُوَافِقُ and أَنْتَ عَلَى حَقّ, and disagree politely"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-83"
+   ],
+   "area": "days-71-80",
+   "expect": "sentences[3].ar: أُوَافِقُكَ، أَنْتَ عَلَى حَقّ."
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-83"
+   ],
+   "area": "days-71-80",
+   "expect": "you (are) on (the) right"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-83"
+   ],
+   "area": "days-71-80",
+   "expect": "[أَنْتَ = you (to a man) · pronoun] [عَلَى = on (ʿalā ḥaqq: in the right) · prep]"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-83"
+   ],
+   "area": "days-71-80",
+   "expect": "أَنْتَ عَلَى حَقّ يَا دَانْيَال!"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-83"
+   ],
+   "area": "days-71-80",
+   "expect": "[أَنْتَ = you (to a man)] [عَلَى = on (ʿalā ḥaqq: in the right)]"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-83"
+   ],
+   "area": "days-71-80",
+   "expect": "quiz[4].options[3]: أَنْتَ عَلَى حَقّ"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-83"
+   ],
+   "area": "grammar",
+   "expect": "agree with أُوَافِقُ or أَنْتَ عَلَى حَقّ, and disagree politely"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-83"
+   ],
+   "area": "grammar",
+   "expect": "أَنْتَ عَلَى حَقّ (you're right, literally 'you are on the truth'"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-83"
+   ],
+   "area": "grammar",
+   "expect": "[أُوَافِقُكَ، أَنْتَ عَلَى حَقّ."
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-83"
+   ],
+   "area": "weeks-tests",
+   "expect": "weeks[10].test[8].ar: أَنْتِ عَلَى حَقّ"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-83"
+   ],
+   "area": "weeks-tests",
+   "expect": "weeks[11].test[6].options[2]: أَنْتَ عَلَى حَقّ"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-83"
+   ],
+   "area": "weeks-tests",
+   "expect": "عَلَى=on (ʿalā ḥaqq: in the right)"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-83"
+   ],
+   "area": "weeks-tests",
+   "expect": "عَلَى=on (ʿalā ḥaqq: in the right)"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R3-56"
+   ],
+   "area": "days-81-90",
+   "expect": "It's the last week of the course"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-35"
+   ],
+   "area": "days-81-90",
+   "expect": "Hamza usually sits on a seat chosen by the vowels around it"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-1"
+   ],
+   "area": "days-71-80",
+   "expect": "with يَجِبُ أَنْ and مِنَ اللَّازِمِ أَنْ, and plan"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-1"
+   ],
+   "area": "days-71-80",
+   "expect": "In everyday speech you will also hear لَازِم أَنْ; in writing, use these forms."
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-1"
+   ],
+   "area": "days-71-80",
+   "expect": "Say what we must do with يَجِبُ أَنْ or مِنَ اللَّازِمِ أَنْ"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-1"
+   ],
+   "area": "days-71-80",
+   "expect": "sentences[3].ar: مِنَ اللَّازِمِ أَنْ نُوَفِّرَ الْمَاءَ وَالْكَهْرَبَاءَ."
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-1"
+   ],
+   "area": "days-71-80",
+   "expect": "from the necessary (it is necessary) that we save"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-1"
+   ],
+   "area": "days-71-80",
+   "expect": "[اللَّازِمِ = the necessary (min al-lāzim an: it is necessary to) · noun]"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-1"
+   ],
+   "area": "days-71-80",
+   "expect": "right: مِنَ اللَّازِمِ أَنْ نُوَفِّرَ الْمَاءَ"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-5"
+   ],
+   "area": "days-81-90",
+   "expect": "أَنَا أَعْدَدْتُ الشَّرَائِحَ عَلَى الْحَاسُوب"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-5"
+   ],
+   "area": "days-81-90",
+   "expect": "I prepared the slides on the computer"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-5"
+   ],
+   "area": "days-81-90",
+   "expect": "[أَعْدَدْتُ = I prepared]"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-5"
+   ],
+   "area": "days-81-90",
+   "expect": "الْكَهْرَبَاءُ هُنَا تُوَلَّدُ مِنَ الشَّمْس"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-5"
+   ],
+   "area": "days-81-90",
+   "expect": "the electricity here is generated from the sun"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-5"
+   ],
+   "area": "days-81-90",
+   "expect": "[تُوَلَّدُ = (it, f) is generated, is produced]"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-5"
+   ],
+   "area": "days-81-90",
+   "expect": "تُوَلَّدُ (it is generated)"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-5"
+   ],
+   "area": "days-81-90",
+   "expect": "وَعَرَضَ سَامِي شَرَائِحَ أُعِدَّتْ عَلَى الْحَاسُوب"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-5"
+   ],
+   "area": "days-81-90",
+   "expect": "Sami showed slides that were prepared on the computer"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-5"
+   ],
+   "area": "days-81-90",
+   "expect": "[أُعِدَّتْ = (they, f) were prepared]"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-5"
+   ],
+   "area": "days-81-90",
+   "expect": "quiz[1].options[3]: تُوَلَّدُ"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-5"
+   ],
+   "area": "days-81-90",
+   "expect": "quiz[2].options[3]: أَعْدَدْتُ"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-5"
+   ],
+   "area": "weeks-tests",
+   "expect": "weeks[11].test[3].options[2]: أَنَا أَعْدَدْتُ الشَّرَائِحَ عَلَى الْحَاسُوب."
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-5"
+   ],
+   "area": "weeks-tests",
+   "expect": "أَعْدَدْتُ=I prepared"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-6"
+   ],
+   "area": "days-81-90",
+   "expect": "أَنَا أَمَل، مُرْشِدَتُكُمُ الْيَوْمَ."
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-6"
+   ],
+   "area": "days-81-90",
+   "expect": "[مُرْشِدَتُكُمُ = your guide (a woman; 'your' to a group)]"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-7"
+   ],
+   "area": "days-81-90",
+   "expect": "in Egypt مَرْمَر means alabaster, hence the name مَسْجِدُ الْمَرْمَر"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-7"
+   ],
+   "area": "days-81-90",
+   "expect": "[مَرْمَر = alabaster (Egyptian usage; elsewhere often marble)]"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-26"
+   ],
+   "area": "days-71-80",
+   "expect": "careful writing prefers إِنْ + كَانَ: سَأَلَنِي إِنْ كُنْتُ فَهِمْتُ."
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-26"
+   ],
+   "area": "days-71-80",
+   "expect": "إِنْ=if; whether (after saʾala)"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-37"
+   ],
+   "area": "days-71-80",
+   "expect": "بَلْ تَعْنِي كُلَّ شَخْصٍ."
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-37"
+   ],
+   "area": "days-71-80",
+   "expect": "it means every person."
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-37"
+   ],
+   "area": "days-71-80",
+   "expect": "[كُلَّ = every (object of 'means')] [شَخْصٍ = person]"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-27"
+   ],
+   "area": "days-71-80",
+   "expect": "مَنْ يَعْمَلْ كَثِيرًا يَجِدِ النَّجَاحَ."
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-27"
+   ],
+   "area": "days-71-80",
+   "expect": "[يَعْمَلْ = (he) works (jussive after man, whoever)]"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-27"
+   ],
+   "area": "days-71-80",
+   "expect": "[يَجِدِ = (he) finds (jussive; -i before al-)] [النَّجَاحَ = the success]"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-28"
+   ],
+   "area": "days-71-80",
+   "expect": "إِنْ دَرَسْتَ كُلَّ يَوْمٍ، فَسَتَنْجَحُ فِي"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-28"
+   ],
+   "area": "days-71-80",
+   "expect": "if you studied every day, so you will succeed in"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-28"
+   ],
+   "area": "days-71-80",
+   "expect": "[فَسَتَنْجَحُ = then you will succeed ('you'll pass', to a man)"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-29"
+   ],
+   "area": "days-61-70",
+   "expect": "Promise to call someone back with سَأَتَّصِلُ بِكَ"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-29"
+   ],
+   "area": "days-61-70",
+   "expect": "sentences[3].ar: سَأَتَّصِلُ بِكَ غَدًا."
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-29"
+   ],
+   "area": "days-61-70",
+   "expect": "I will call to you tomorrow"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-29"
+   ],
+   "area": "days-61-70",
+   "expect": "[سَأَتَّصِلُ = I will call, I will phone · verb]"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-29"
+   ],
+   "area": "days-61-70",
+   "expect": "sentences[3].mistakes[0].wrong: سَأَتَّصِلُكَ غَدًا."
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-29"
+   ],
+   "area": "days-61-70",
+   "expect": "quiz[4].options[2]: سَأَتَّصِلُ بِكَ غَدًا."
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-29"
+   ],
+   "area": "glossary-mistakes",
+   "expect": "سَأَتَّصِلُكَ ⟶ Saʾattaṣiluka = I will call you (wrong — correct: sa-attaṣilu bika)"
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-29"
+   ],
+   "area": "weeks-tests",
+   "expect": "weeks[9].test[8].prompt: Complete 'I'll call you tomorrow': سَأَتَّصِلُ ___ غَدًا."
+  },
+  {
+   "chunk": "final",
+   "ids": [
+    "R12-46"
+   ],
+   "area": "days-61-70",
+   "expect": "and wrote formal letters to clients."
+  }
+ ],
+ "skipped": [],
+ "notesForLead": [
+  "R3-125 (week 4, w4t2): DECISIONS asks to replace تَزُورُ with the verb-first plural يَزُورُونَ, but يَزُورُونَ is already option 0 of this question. Closest correct form: تَزُورُ is replaced by أَزُورُ (I visit), which is clearly wrong; hand.json already glosses أَزُورُ = I visit. The answer index (2 = يَزُورُ) is unchanged.",
+  "R3-83: written in pause form أَنْتَ عَلَى حَقّ (not حَقٍّ). The house style keeps the pause form unless an ending must show, and the course already writes عَلَى حَقّ in pause (day 33, grammar card opinion-phrases 'أَظُنُّ أَنَّهُ عَلَى حَقّ', scenario 'أَنْتُمَا عَلَى حَقّ'). If you want the ending shown, change حَقّ to حَقٍّ in the new strings of the R3-83 ops. Done: day 76 (intro, objective, sentence 4 + segs + literal, line 7 + segs, quiz 5), grammar card opinion-phrases (summary, explanation, table; the explanation now adds that مَعَكَ حَقّ is heard in everyday speech), week 11 test w11t9 (أَنْتِ عَلَى حَقّ, to a woman), and week 12 test w12t7 (an option). Not done because they are outside G3: vocabulary 'haqq' example and note (G5, still مَعَكَ حَقّ), day 50 line 12 مَعَكِ حَقّ (G2), and day 82 line 5 عِنْدَكَ حَقّ (a G3 day, but not covered by the decision; it is also everyday speech, so you may want أَنْتَ عَلَى حَقّ there too).",
+  "R3-53 / R3-55 / R12-25: the 'why' text now says 'usually', 'less careful' or 'less usual', and that both forms are seen. The card's fixed UI label for the wrong side (if it says 'wrong') is engine text, and no plan can change it. mistakes.json أُعْلِنَ is softened to match ('less usual here').",
+  "R12-29: day 66 now teaches سَأَتَّصِلُ بِكَ غَدًا (sentence 4, objective 4, mistake card, quiz 5) and week 10 test w10t9 has سَأَتَّصِلُ in the prompt. The mistake card's wrong side is now سَأَتَّصِلُكَ غَدًا, so the plan adds a mistakes.json entry 'سَأَتَّصِلُكَ' (a text op on content/glossary/mistakes.json, inserted after the أَتَّصِلُكَ line). In quiz 5 the distractor أَكْتُبُ لَكَ became سَأَكْتُبُ لَكَ to keep the options parallel.",
+  "R12-5: the decision covers day 84 lines 2 and 6 and the intro. For the same lesson to agree, the plan also changes the day 84 reading (شَرَائِحَ صُنِعَتْ → أُعِدَّتْ), quiz 2 and quiz 3 options (تُصْنَعُ → تُوَلَّدُ, صَنَعْتُ → أَعْدَدْتُ), and week 12 test w12t4 option (أَنَا صَنَعْتُ الشَّرَائِحَ → أَنَا أَعْدَدْتُ الشَّرَائِحَ), with scoped أَعْدَدْتُ@week:12. The English story line 'Sami made the slides' is left as it is.",
+  "R12-48: day 82 only, as decided. Every 'تَحِيَّة طَيِّبَة وَبَعْدُ' on day 82 becomes 'تَحِيَّةً طَيِّبَةً وَبَعْدُ' (7 places: summary, intro, sentence 1, its mistake card, line 6, reading, quiz option), and the 3 seg pairs follow. Day 84 and week 12 already use the accusative. Not changed: day 67 (email lesson, 5+ places) and the grammar cards formal-email-w10 / formal-letter-w12 (G5) still write the pause form تَحِيَّة طَيِّبَة. You may want one form course-wide.",
+  "R12-1 (day 78): sentence 4 and its mistake card now use مِنَ اللَّازِمِ أَنْ. The summary, objective and intro set يَجِبُ أَنْ beside مِنَ اللَّازِمِ أَنْ, and the intro says لَازِم أَنْ is everyday speech. hand.json already glosses مِنَ app-wide, so the seg gloss for مِنَ is not shown; اللَّازِمِ gets its own seg gloss. The sentence keeps grammar tag 'lazim' (the G5 card).",
+  "R12-26: the remark is added to the day 75 intro (sentences and dialogue lines have no note field). scoped إِنْ@day:75 = 'if; whether (after saʾala)' also covers إِنْ شَاءَ اللّٰه in the dialogue and the quiz option إِنْ on that day.",
+  "R12-7: the note is appended to the day 81 dialogue culture note, and the مَرْمَر seg gloss now says 'alabaster (Egyptian usage; elsewhere often marble)'. Line 9 and quiz 3 are unchanged (the Egyptian sense fits the Cairo setting).",
+  "R12-28: the same past–past pattern is also in the day 84 reading (إِذَا رَاجَعْتُمْ جَيِّدًا، نَجَحْتُمْ). It is not in DECISIONS, so it is left as it is.",
+  "readings.json (content/readings) still lists old forms (دَلِيلَتُكُمُ, صَنَعْتُ …). If it is generated, rebuild readings and the glossary after applying the plans.",
+  "The dry run of apply-plans.py over the whole folder is reported in the planner's final reply."
+ ]
+}

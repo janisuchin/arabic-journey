@@ -547,7 +547,7 @@
         "id": "d36l7",
         "sp": "sami",
         "ar": "وَأَكَلْنَا سَمَكًا طَازَجًا فِي مَطْعَم صَغِير قُرْبَ الْبَحْر. سَمَك لَذِيذ جِدًّا!",
-        "en": "And we ate fresh fish in a small restaurant near the sea. Really delicious fish!",
+        "en": "And we ate fresh fish in a small restaurant near the sea. Very delicious fish!",
         "segs": [
           [
             "وَأَكَلْنَا",
@@ -896,7 +896,7 @@
       {
         "id": "d36l14",
         "sp": "karim",
-        "ar": "رَائِع! إِذَنْ، هٰذَا هُوَ الْوَاجِب: اُكْتُبُوا خَمْس جُمَل عَنْ يَوْمِ أَمْسِ.",
+        "ar": "رَائِع! إِذًا، هٰذَا هُوَ الْوَاجِب: اُكْتُبُوا خَمْس جُمَل عَنْ يَوْمِ أَمْسِ.",
         "en": "Wonderful! So here is your homework: write five sentences about yesterday.",
         "segs": [
           [
@@ -904,7 +904,7 @@
             "wonderful"
           ],
           [
-            "إِذَنْ",
+            "إِذًا",
             "so, then"
           ],
           [

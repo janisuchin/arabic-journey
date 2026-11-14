@@ -13,7 +13,7 @@
   ],
   "emoji": "🎤",
   "summary": "Review Week 12 in one story: a class presentation about a greener city, with إِذَا sentences, passive verbs, a formal letter and a polite debate.",
-  "intro": "Today is review day, مُرَاجَعَة. Sami's group gives a تَقْدِيم (presentation) about a greener city, and every part of the week comes back. The problem and the solution use إِذَا + a past verb: إِذَا اسْتَعْمَلْنَا الْحَافِلَةَ، قَلَّ التَّلَوُّثُ (if we use the bus, pollution goes down). The facts use the passive, made by changing the vowels: بُنِيَتْ (it was built), تُصْنَعُ (it is made), يُسْتَعْمَلُ (it is used). The formal letter opens with تَحِيَّةً طَيِّبَةً وَبَعْدُ, the debate needs لَا أُوَافِقُ (I don't agree) and a reason, and the talk is held together by أَوَّلًا، ثُمَّ and أَخِيرًا. A presentation ends with شُكْرًا لِحُسْنِ الِاسْتِمَاع (thank you for listening).",
+  "intro": "Today is review day, مُرَاجَعَة. Sami's group gives a تَقْدِيم (presentation) about a greener city, and every part of the week comes back. The problem and the solution use إِذَا + a past verb: إِذَا اسْتَعْمَلْنَا الْحَافِلَةَ، قَلَّ التَّلَوُّثُ (if we use the bus, pollution goes down). The facts use the passive, made by changing the vowels: بُنِيَتْ (it was built), تُوَلَّدُ (it is generated), يُسْتَعْمَلُ (it is used). The formal letter opens with تَحِيَّةً طَيِّبَةً وَبَعْدُ, the debate needs لَا أُوَافِقُ (I don't agree) and a reason, and the talk is held together by أَوَّلًا، ثُمَّ and أَخِيرًا. A presentation ends with شُكْرًا لِحُسْنِ الِاسْتِمَاع (thank you for listening).",
   "objectives": [
     "Give a short presentation in Arabic, organised with أَوَّلًا، ثُمَّ and أَخِيرًا",
     "Use إِذَا + a past verb to say what happens if we change something",
@@ -453,8 +453,8 @@
       {
         "id": "d84l2",
         "sp": "sami",
-        "ar": "نَحْنُ يَا أُسْتَاذ! مَوْضُوعُنَا «مَدِينَة خَضْرَاء». أَنَا صَنَعْتُ الشَّرَائِحَ عَلَى الْحَاسُوب، وَلَيْلَى كَتَبَتِ الرِّسَالَة، وَدَانْيَال سَيُقَدِّمُ الْمُلَخَّص.",
-        "en": "Us, sir! Our topic is 'A green city'. I made the slides on the computer, Layla wrote the letter, and Daniel will present the summary.",
+        "ar": "نَحْنُ يَا أُسْتَاذ! مَوْضُوعُنَا «مَدِينَة خَضْرَاء». أَنَا أَعْدَدْتُ الشَّرَائِحَ عَلَى الْحَاسُوب، وَلَيْلَى كَتَبَتِ الرِّسَالَة، وَدَانْيَال سَيُقَدِّمُ الْمُلَخَّص.",
+        "en": "Us, sir! Our topic is 'A green city'. I prepared the slides on the computer, Layla wrote the letter, and Daniel will present the summary.",
         "segs": [
           [
             "نَحْنُ",
@@ -485,8 +485,8 @@
             "I"
           ],
           [
-            "صَنَعْتُ",
-            "I made"
+            "أَعْدَدْتُ",
+            "I prepared"
           ],
           [
             "الشَّرَائِحَ",
@@ -763,8 +763,8 @@
       {
         "id": "d84l6",
         "sp": "daniel",
-        "ar": "وَالتِّكْنُولُوجْيَا تُسَاعِدُ أَيْضًا. هٰذِهِ صُورَة لِمَدْرَسَتِنَا: الْكَهْرَبَاءُ هُنَا تُصْنَعُ مِنَ الشَّمْس، وَالْأَضْوَاءُ تُطْفَأُ وَحْدَهَا فِي الْمَسَاء.",
-        "en": "And technology helps too. This is a picture of our school: the electricity here is made from the sun, and the lights are switched off by themselves in the evening.",
+        "ar": "وَالتِّكْنُولُوجْيَا تُسَاعِدُ أَيْضًا. هٰذِهِ صُورَة لِمَدْرَسَتِنَا: الْكَهْرَبَاءُ هُنَا تُوَلَّدُ مِنَ الشَّمْس، وَالْأَضْوَاءُ تُطْفَأُ وَحْدَهَا فِي الْمَسَاء.",
+        "en": "And technology helps too. This is a picture of our school: the electricity here is generated from the sun, and the lights are switched off by themselves in the evening.",
         "segs": [
           [
             "وَالتِّكْنُولُوجْيَا",
@@ -799,8 +799,8 @@
             "here"
           ],
           [
-            "تُصْنَعُ",
-            "(it, f) is made"
+            "تُوَلَّدُ",
+            "(it, f) is generated, is produced"
           ],
           [
             "مِنَ",
@@ -1567,8 +1567,8 @@
   },
   "reading": {
     "title": "Review day in class",
-    "ar": "فِي آخِرِ يَوْمٍ مِنَ الْأُسْبُوعِ قَدَّمَتْ مَجْمُوعَةُ سَامِي تَقْدِيمًا عَنْ مَدِينَةٍ خَضْرَاء. قَالَتْ لَيْلَى إِنَّ الْمُشْكِلَةَ هِيَ التَّلَوُّث. وَعَرَضَ سَامِي شَرَائِحَ صُنِعَتْ عَلَى الْحَاسُوب. وَفِي النِّقَاشِ قَالَ دَانْيَال إِنَّ الطُّرُقَ وَحْدَهَا لَيْسَتِ الْحَلّ. وَقَالَ الْأُسْتَاذ كَرِيم: إِذَا رَاجَعْتُمْ جَيِّدًا، نَجَحْتُمْ فِي الِامْتِحَان.",
-    "en": "On the last day of the week, Sami's group gave a presentation about a green city. Layla said that the problem is pollution. Sami showed slides that were made on the computer. In the debate, Daniel said that roads alone are not the solution. And Mr Karim said: If you revise well, you will pass the exam.",
+    "ar": "فِي آخِرِ يَوْمٍ مِنَ الْأُسْبُوعِ قَدَّمَتْ مَجْمُوعَةُ سَامِي تَقْدِيمًا عَنْ مَدِينَةٍ خَضْرَاء. قَالَتْ لَيْلَى إِنَّ الْمُشْكِلَةَ هِيَ التَّلَوُّث. وَعَرَضَ سَامِي شَرَائِحَ أُعِدَّتْ عَلَى الْحَاسُوب. وَفِي النِّقَاشِ قَالَ دَانْيَال إِنَّ الطُّرُقَ وَحْدَهَا لَيْسَتِ الْحَلّ. وَقَالَ الْأُسْتَاذ كَرِيم: إِذَا رَاجَعْتُمْ جَيِّدًا، نَجَحْتُمْ فِي الِامْتِحَان.",
+    "en": "On the last day of the week, Sami's group gave a presentation about a green city. Layla said that the problem is pollution. Sami showed slides that were prepared on the computer. In the debate, Daniel said that roads alone are not the solution. And Mr Karim said: If you revise well, you will pass the exam.",
     "segs": [
       [
         "فِي",
@@ -1658,8 +1658,8 @@
         "slides"
       ],
       [
-        "صُنِعَتْ",
-        "(they, f) were made"
+        "أُعِدَّتْ",
+        "(they, f) were prepared"
       ],
       [
         "عَلَى",
@@ -1772,7 +1772,7 @@
         "اسْتَعْمَلْنَا",
         "يُسْتَعْمَلُ",
         "اسْتِعْمَال",
-        "تُصْنَعُ"
+        "تُوَلَّدُ"
       ],
       "answer": 0,
       "explain": "After إِذَا (if) comes a past verb: اسْتَعْمَلْنَا (we use)."
@@ -1784,7 +1784,7 @@
         "كَتَبْنَا",
         "بُنِيَتْ",
         "زَرَعْنَا",
-        "صَنَعْتُ"
+        "أَعْدَدْتُ"
       ],
       "answer": 1,
       "explain": "بُنِيَتْ (it was built) has the passive vowels u-i."

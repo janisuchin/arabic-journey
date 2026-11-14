@@ -23,7 +23,7 @@
   "dialogue": {
     "title": "Phone numbers and homework",
     "speakers": [ { "key": "karim", "name": "Mr Karim", "nameAr": "الْأُسْتَاذ كَرِيم" }, { "key": "daniel", "name": "Daniel", "nameAr": "دَانْيَال" }, { "key": "layla", "name": "Layla", "nameAr": "لَيْلَى" }, { "key": "sami", "name": "Sami", "nameAr": "سَامِي" } ],
-    "culture": "In Egypt, the Levant and the Gulf most people use the digits ٠١٢٣٤٥٦٧٨٩. In North Africa (Morocco, Algeria, Tunisia) the digits 0123456789 are common, and they are Arabic in origin too.",
+    "culture": "In Egypt, Syria, Jordan, Iraq and the Gulf most people use the digits ٠١٢٣٤٥٦٧٨٩. Lebanon mostly uses the digits 0123456789, as North Africa (Morocco, Algeria, Tunisia) does, and they are Arabic in origin too.",
     "lines": [
       { "id": "d7l1", "sp": "karim", "ar": "يَا طُلَّاب، الْوَاجِب فِي الصَّفْحَة رَقْم سَبْعَة. شُكْرًا وَمَعَ السَّلَامَة!", "en": "Students, the homework is on page number seven. Thank you, and goodbye!",
         "segs": [["يَا", "O (calling someone)"], ["طُلَّاب", "students"], ["الْوَاجِب", "the homework"], ["فِي", "in, on"], ["الصَّفْحَة", "the page"], ["رَقْم", "number"], ["سَبْعَة", "seven"], ["شُكْرًا", "thank you"], ["وَمَعَ", "and with"], ["السَّلَامَة", "the safety"]] },

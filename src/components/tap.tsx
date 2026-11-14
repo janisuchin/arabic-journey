@@ -53,6 +53,12 @@ export function MistakeScope({ children }: { children: ReactNode }) {
   return <GlossScope.Provider value={{ ...ctx, mistake: true }}>{children}</GlossScope.Provider>;
 }
 
+/** Marks its children as a quiz question; until it is answered, a tapped mistake form shows no exercise note. */
+export function QuestionScope({ answered, children }: { answered: boolean; children: ReactNode }) {
+  const ctx = useContext(GlossScope);
+  return <GlossScope.Provider value={{ ...ctx, unanswered: !answered }}>{children}</GlossScope.Provider>;
+}
+
 /** Names the part of the app its children belong to (scenario:<id>, vocab:<id>…), for scoped glosses. */
 export function GlossPlace({ place, children }: { place: string; children: ReactNode }) {
   const ctx = useContext(GlossScope);
@@ -401,6 +407,7 @@ export function RichText({
   muted,
   center,
   noTranslit,
+  spoken,
 }: {
   text: string;
   size?: number;
@@ -408,6 +415,8 @@ export function RichText({
   center?: boolean;
   /** hide the readings (a quiz prompt whose reading would be the answer) */
   noTranslit?: boolean;
+  /** readings as said, not the dictionary form: fi l-madīna, not fī l-madīna (the waṣl page) */
+  spoken?: boolean;
 }) {
   const c = usePalette();
   const fs = useFs();
@@ -429,7 +438,7 @@ export function RichText({
       .slice(0, i)
       .flatMap((q) => q.tokens.map((t) => t.text))
       .join('');
-    const runTr = proseTranslit(runText, settings.translitStyle, after, before);
+    const runTr = proseTranslit(runText, settings.translitStyle, after, before, spoken);
     return (
       <Text key={i}>
         <Text {...webLang('ar', 'rtl')} style={{ fontFamily: AR_FONT, fontSize: fs(size + 4), color }}>

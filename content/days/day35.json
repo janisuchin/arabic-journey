@@ -336,7 +336,7 @@
       {
         "id": "d35l2",
         "sp": "daniel",
-        "ar": "تَشَرَّفْنَا يَا أُسْتَاذ مُصْطَفَى! إِذَنْ هُوَ عَمُّكَ لِأَنَّهُ أَخُو أَبِيكَ، صَحِيح؟",
+        "ar": "تَشَرَّفْنَا يَا أُسْتَاذ مُصْطَفَى! إِذًا هُوَ عَمُّكَ لِأَنَّهُ أَخُو أَبِيكَ، صَحِيح؟",
         "en": "Pleased to meet you, Mr Mustafa! So he is your uncle because he is your father's brother, right?",
         "segs": [
           [
@@ -357,7 +357,7 @@
             "name"
           ],
           [
-            "إِذَنْ",
+            "إِذًا",
             "so, then"
           ],
           [
@@ -674,11 +674,11 @@
       {
         "id": "d35l8",
         "sp": "daniel",
-        "ar": "إِذَنْ أَنْتِ خَالَةُ سَامِي، وَمُصْطَفَى عَمُّهُ. وَخَالِد… اِبْنُ خَالَتِهِ!",
+        "ar": "إِذًا أَنْتِ خَالَةُ سَامِي، وَمُصْطَفَى عَمُّهُ. وَخَالِد… اِبْنُ خَالَتِهِ!",
         "en": "So you are Sami's aunt on his mother's side, and Mustafa is his uncle on his father's side. And Khalid is… his cousin!",
         "segs": [
           [
-            "إِذَنْ",
+            "إِذًا",
             "so, then"
           ],
           [

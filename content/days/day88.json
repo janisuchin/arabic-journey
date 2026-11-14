@@ -17,7 +17,7 @@
   ],
   "emoji": "✍️",
   "summary": "Review writing in one story: Daniel's essay 'My year with Arabic', corrected by Mr Karim, with the spelling of hamza, ta marbuta and alif maqsura, joining letters, linking words and email phrases.",
-  "intro": "Today is writing day. Daniel reads his مَقَالَة (essay) سَنَتِي مَعَ الْعَرَبِيَّة (My year with Arabic), and Mr Karim corrects it on the board, so every spelling point of the course comes back. Hamza sits on a seat chosen by the vowels around it: on a yaa with a kasra, as in قَارِئ (reader), on a waw with a damma, as in سُؤَال (question), otherwise on an alif, as in سَأَلَ (he asked). Ta marbuta ة has two dots: مَدْرَسَة (school) without them is misspelt. إِلَى (to) and عَلَى (on) end in alif maqsura ى, with no dots. Six letters never join to the next one: ا د ذ ر ز و. A good text is also organised: one idea in each فِقْرَة (paragraph), linking words like لٰكِنَّ (but), لِذٰلِكَ (so) and مَعَ أَنَّ (although), the letter phrases عَزِيزِي (dear) and أَرْجُو أَنْ تَكُونَ بِخَيْر (I hope you are well), and عَلَامَات التَّرْقِيم (punctuation). Write a مُسَوَّدَة (draft) first, then يُصَحِّحُ (he corrects) becomes your own job.",
+  "intro": "Today is writing day. Daniel reads his مَقَالَة (essay) سَنَتِي مَعَ الْعَرَبِيَّة (My year with Arabic), and Mr Karim corrects it on the board, so every spelling point of the course comes back. Hamza usually sits on a seat chosen by the vowels around it: on a yaa with a kasra, as in قَارِئ (reader), on a waw with a damma, as in سُؤَال (question), otherwise on an alif, as in سَأَلَ (he asked). Ta marbuta ة has two dots: مَدْرَسَة (school) without them is misspelt. إِلَى (to) and عَلَى (on) end in alif maqsura ى, with no dots. Six letters never join to the next one: ا د ذ ر ز و. A good text is also organised: one idea in each فِقْرَة (paragraph), linking words like لٰكِنَّ (but), لِذٰلِكَ (so) and مَعَ أَنَّ (although), the letter phrases عَزِيزِي (dear) and أَرْجُو أَنْ تَكُونَ بِخَيْر (I hope you are well), and عَلَامَات التَّرْقِيم (punctuation). Write a مُسَوَّدَة (draft) first, then يُصَحِّحُ (he corrects) becomes your own job.",
   "objectives": [
     "Write a short paragraph about yourself, with one idea per فِقْرَة (paragraph)",
     "Spell hamza, ta marbuta ة and alif maqsura ى correctly, as in سُؤَال, مَدْرَسَة and إِلَى",
@@ -27,7 +27,7 @@
   "realLife": {
     "emoji": "📝",
     "title": "An essay about a year of Arabic",
-    "story": "It's the second-to-last week of the course, and Mr Karim gave the class one last piece of homework: a short essay called 'My year with Arabic'. Daniel wrote his at the kitchen table, crossing out words and starting again. Now he has to read his draft aloud, while Mr Karim copies his mistakes onto the board for everyone to correct together. Layla is secretly happy: she makes the same mistakes with hamza.",
+    "story": "It's the last week of the course, and Mr Karim gave the class one last piece of homework: a short essay called 'My year with Arabic'. Daniel wrote his at the kitchen table, crossing out words and starting again. Now he has to read his draft aloud, while Mr Karim copies his mistakes onto the board for everyone to correct together. Layla is secretly happy: she makes the same mistakes with hamza.",
     "photo": {"file": "day88.jpg", "alt": "A page of handwritten Arabic in blue ink, with a letterhead at the top.", "credit": {"title": "File:Arabic handwriting.jpg", "author": "مع السلامة", "license": "CC0", "source": "https://commons.wikimedia.org/wiki/File:Arabic_handwriting.jpg", "accessed": "2026-11-11", "modified": "resized and re-encoded", "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"}}
   },
   "letters": [],
@@ -370,7 +370,7 @@
         "nameAr": "لَيْلَى"
       }
     ],
-    "culture": "Arab schools take spelling seriously: pupils do إِمْلَاء (dictation) for years, and a teacher's red pen circles every missing dot and every hamza on the wrong seat. The two dots matter, because without them ة is read as a haa and ي as an alif maqsura. Handwriting is valued too: the art of الْخَطّ (calligraphy) is everywhere, from mosques to shop signs. Personal letters and postcards start warmly with عَزِيزِي or عَزِيزَتِي, and formal ones with تَحِيَّة طَيِّبَة وَبَعْدُ.",
+    "culture": "Arab schools take spelling seriously: pupils do إِمْلَاء (dictation) for years, and a teacher's red pen circles every missing dot and every hamza on the wrong seat. The two dots matter, because without them ة is read as a haa and ي as an alif maqsura. Handwriting is valued too: the art of الْخَطّ (calligraphy) is everywhere, from mosques to shop signs. Personal letters and postcards start warmly with عَزِيزِي or عَزِيزَتِي, and formal ones with تَحِيَّةً طَيِّبَةً وَبَعْدُ.",
     "lines": [
       {
         "id": "d88l1",

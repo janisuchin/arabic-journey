@@ -422,7 +422,7 @@
      "id": "w3t2",
      "prompt": "Complete: 'I'd like a tea, please.'",
      "options": [
-      "شَايْ",
+      "شَاي",
       "الشَّاي",
       "شَايًا",
       "شَايٌ"
@@ -598,7 +598,7 @@
      "prompt": "Choose the correct verb: '… the students the museum.'",
      "options": [
       "يَزُورُونَ",
-      "تَزُورُ",
+      "أَزُورُ",
       "يَزُورُ",
       "نَزُورُ"
      ],
@@ -1184,7 +1184,7 @@
      "id": "w7t8",
      "prompt": "Which sentence means 'You must rest'?",
      "options": [
-      "لَازِم أَنْ تَرْتَاحَ.",
+      "يَجِبُ أَنْ تَرْتَاحَ.",
       "لَا تَرْتَحْ.",
       "أُرِيدُ أَنْ أَرْتَاحَ.",
       "هَلْ تَرْتَاحُ؟"
@@ -1705,7 +1705,7 @@
     },
     {
      "id": "w10t9",
-     "prompt": "Complete 'I'll call you tomorrow': أَتَّصِلُ ___ غَدًا.",
+     "prompt": "Complete 'I'll call you tomorrow': سَأَتَّصِلُ ___ غَدًا.",
      "options": [
       "لَكَ",
       "بِكَ",
@@ -1851,7 +1851,7 @@
     },
     {
      "id": "w11t7",
-     "prompt": "Sami says أَنَا مُتْعَب. How do you report it?",
+     "prompt": "Sami says أَنَا مُتْعَب. How do you say this in reported speech?",
      "options": [
       "قَالَ سَامِي أَنَّنِي مُتْعَب",
       "قَالَ سَامِي أَنْ مُتْعَب",
@@ -1874,7 +1874,7 @@
     {
      "id": "w11t9",
      "prompt": "What does this mean?",
-     "ar": "مَعَكِ حَقّ",
+     "ar": "أَنْتِ عَلَى حَقّ",
      "options": [
       "You're right. (to a woman)",
       "You're wrong.",
@@ -1992,7 +1992,7 @@
     "options": [
      "بُنِيَتْ هٰذِهِ الْمَدْرَسَةُ قَبْلَ خَمْسِينَ سَنَةً.",
      "لَيْلَى كَتَبَتِ الرِّسَالَة.",
-     "أَنَا صَنَعْتُ الشَّرَائِحَ عَلَى الْحَاسُوب.",
+     "أَنَا أَعْدَدْتُ الشَّرَائِحَ عَلَى الْحَاسُوب.",
      "زَرَعْنَا الْأَشْجَار."
     ],
     "answer": 0
@@ -2026,7 +2026,7 @@
     "options": [
      "لَا أُوَافِقُ",
      "أُوَافِقُ",
-     "مَعَكَ حَقّ",
+     "أَنْتَ عَلَى حَقّ",
      "شُكْرًا"
     ],
     "answer": 0
@@ -2165,7 +2165,7 @@
      "سَأَذْهَبُ إِلَى الْمَحَطَّة."
     ],
     "answer": 1,
-    "explain": "لَمْ + the present form with a sukūn ending means 'did not'."
+    "explain": "لَمْ + the short form of the present (sukūn for most persons; -na/-ni endings drop) means 'did not'."
    },
    {
     "id": "w13t7",
@@ -2182,11 +2182,11 @@
    {
     "id": "w13t8",
     "prompt": "What does this mean?",
-    "ar": "إِذَا شَرِبْتَ قَهْوَةً مَسَاءً، لَا تَنَامُ.",
+    "ar": "إِذَا شَرِبْتَ قَهْوَةً مَسَاءً، فَلَنْ تَنَامَ.",
     "options": [
      "You drank coffee and slept well.",
      "Don't drink coffee in the morning.",
-     "If you drink coffee in the evening, you don't sleep.",
+     "If you drink coffee in the evening, you won't sleep.",
      "When I sleep, I don't drink coffee."
     ],
     "answer": 2

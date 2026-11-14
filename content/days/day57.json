@@ -280,7 +280,7 @@
         "nameAr": "الْمُوَظَّفَة"
       }
     ],
-    "culture": "The flight from Cairo to Amman takes about an hour and a half. On flights in the Arab world announcements are usually made in Arabic first and then in English, so listen for الرِّحْلَة (the flight), الْبَوَّابَة (the gate) and الْمُسَافِرِينَ (the passengers). Egyptians and Jordanians often call the queue الطَّابُور.",
+    "culture": "The flight from Cairo to Amman takes about an hour and a half, and in winter Jordan's clocks are one hour ahead of Egypt's, so a plane that leaves Cairo at six lands in Amman at about half past eight, local time. On flights in the Arab world announcements are usually made in Arabic first and then in English, so listen for الرِّحْلَة (the flight), الْبَوَّابَة (the gate) and الْمُسَافِرُونَ (the passengers). Egyptians and Jordanians often call the queue الطَّابُور.",
     "lines": [
       {
         "id": "d57l1",
@@ -460,7 +460,7 @@
         "id": "d57l4",
         "sp": "clerk",
         "ar": "مَسَاءُ الْخَيْر! إِلَى أَيْنَ تُسَافِرَانِ الْيَوْمَ؟ هَلْ مِنَ الْمُمْكِن أَنْ أَرَى جَوَازَ السَّفَر، مِنْ فَضْلِكُمَا؟",
-        "en": "Good afternoon! Where are you two flying to today? May I see your passports, please?",
+        "en": "Good afternoon! Where are you two flying to today? May I see your passport, please?",
         "segs": [
           [
             "مَسَاءُ",
@@ -778,8 +778,8 @@
       {
         "id": "d57l9",
         "sp": "daniel",
-        "ar": "شُكْرًا. سُؤَال آخَر: هَلْ مِنَ الْمُمْكِن أَنْ أَجْلِسَ بِجَانِبِ النَّافِذَة؟ أُرِيدُ أَنْ أَرَى الْبَحْر الْأَحْمَر مِنَ السَّمَاء.",
-        "en": "Thank you. One more question: could I sit by the window? I want to see the Red Sea from the sky.",
+        "ar": "شُكْرًا. سُؤَال آخَر: هَلْ مِنَ الْمُمْكِن أَنْ أَجْلِسَ بِجَانِبِ النَّافِذَة؟ أُرِيدُ أَنْ أَرَى خَلِيجَ الْعَقَبَة مِنَ السَّمَاء.",
+        "en": "Thank you. One more question: could I sit by the window? I want to see the Gulf of Aqaba from the sky.",
         "segs": [
           [
             "شُكْرًا",
@@ -834,12 +834,13 @@
             "I see"
           ],
           [
-            "الْبَحْر",
-            "the sea"
+            "خَلِيجَ",
+            "gulf (of)"
           ],
           [
-            "الْأَحْمَر",
-            "the red ('the Red Sea')"
+            "الْعَقَبَة",
+            "Aqaba (Jordan's port city): 'the Gulf of Aqaba'",
+            "name"
           ],
           [
             "مِنَ",
@@ -1234,8 +1235,8 @@
       {
         "id": "d57l16",
         "sp": "daniel",
-        "ar": "رَائِع! فِي السَّاعَة الثَّامِنَة نَكُونُ فِي الْأُرْدُنّ. هٰذِهِ أَوَّلُ رِحْلَة لِي إِلَى بَلَد عَرَبِيّ آخَر!",
-        "en": "Great! At eight o'clock we'll be in Jordan. This is my first trip to another Arab country!",
+        "ar": "رَائِع! فِي السَّاعَة الثَّامِنَة وَالنِّصْف نَكُونُ فِي الْأُرْدُنّ. هٰذِهِ أَوَّلُ رِحْلَة لِي إِلَى بَلَد عَرَبِيّ آخَر!",
+        "en": "Great! At half past eight we'll be in Jordan. This is my first trip to another Arab country!",
         "segs": [
           [
             "رَائِع",
@@ -1252,6 +1253,10 @@
           [
             "الثَّامِنَة",
             "the eighth"
+          ],
+          [
+            "وَالنِّصْف",
+            "and the half"
           ],
           [
             "نَكُونُ",
@@ -1304,8 +1309,8 @@
   },
   "reading": {
     "title": "The flight to Amman",
-    "ar": "يَوْمَ الْخَمِيس ذَهَبَ دَانْيَال وَلَيْلَى إِلَى مَطَارِ الْقَاهِرَة. أَعْطَتْ لَيْلَى الْحَقَائِب لِلْمُوَظَّفَة، وَجَلَسَ دَانْيَال فِي الطَّائِرَة بِجَانِبِ النَّافِذَة. غَادَرَتِ الطَّائِرَة فِي السَّاعَة السَّادِسَة، وَوَصَلَتْ إِلَى عَمَّان فِي السَّاعَة الثَّامِنَة. كَانَ يُوسُف يَنْتَظِرُهُمَا فِي الْمَطَار.",
-    "en": "On Thursday Daniel and Layla went to Cairo Airport. Layla gave the suitcases to the clerk, and Daniel sat by the window on the plane. The plane left at six o'clock and arrived in Amman at eight. Yusuf was waiting for them at the airport.",
+    "ar": "يَوْمَ الْخَمِيس ذَهَبَ دَانْيَال وَلَيْلَى إِلَى مَطَارِ الْقَاهِرَة. أَعْطَتْ لَيْلَى الْحَقَائِب لِلْمُوَظَّفَة، وَجَلَسَ دَانْيَال فِي الطَّائِرَة بِجَانِبِ النَّافِذَة. غَادَرَتِ الطَّائِرَة فِي السَّاعَة السَّادِسَة، وَوَصَلَتْ إِلَى عَمَّان فِي السَّاعَة الثَّامِنَة وَالنِّصْف. كَانَ يُوسُف يَنْتَظِرُهُمَا فِي الْمَطَار.",
+    "en": "On Thursday Daniel and Layla went to Cairo Airport. Layla gave the suitcases to the clerk, and Daniel sat by the window on the plane. The plane left at six o'clock and arrived in Amman at half past eight, local time. Yusuf was waiting for them at the airport.",
     "segs": [
       [
         "يَوْمَ",
@@ -1428,6 +1433,10 @@
       [
         "الثَّامِنَة",
         "the eighth"
+      ],
+      [
+        "وَالنِّصْف",
+        "and the half"
       ],
       [
         "كَانَ",

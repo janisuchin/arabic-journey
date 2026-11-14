@@ -61,7 +61,7 @@
     { "id": "d6q1", "prompt": "What does this mean?", "ar": "الْكِتَاب", "options": ["the book", "a book", "the pen", "a pen"], "answer": 0 },
     { "id": "d6q2", "prompt": "How do you say 'the car'?", "options": ["السَّيَّارَة", "سَيَّارَة", "الْقَلَم", "حَقِيبَة"], "answer": 0 },
     { "id": "d6q3", "prompt": "Choose the correct sentence: 'The bag is big.'", "options": ["الْحَقِيبَة كَبِيرَة.", "الْحَقِيبَة كَبِير.", "حَقِيبَة الْكَبِير.", "الْكَبِيرَة حَقِيبَة."], "answer": 0 },
-    { "id": "d6q4", "prompt": "In the word for 'the car', the l of the article is …", "ar": "السَّيَّارَة", "options": ["silent, because s is a sun letter", "pronounced, because s is a moon letter", "written twice", "not written at all"], "answer": 0 },
+    { "id": "d6q4", "prompt": "In the word for 'the car', the l of the article is …", "ar": "السَّيَّارَة", "options": ["blends into the next letter, which is doubled (s is a sun letter)", "pronounced, because s is a moon letter", "written twice", "not written at all"], "answer": 0 },
     { "id": "d6q5", "prompt": "Which letter is the deep k, said at the uvula?", "options": ["ق", "ك", "ف", "ل"], "answer": 0 },
     { "id": "d6q6", "prompt": "In the dialogue, what did Daniel leave at home?", "options": ["his bag", "his book", "his car", "his phone"], "answer": 0 }
   ],

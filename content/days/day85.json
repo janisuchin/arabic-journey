@@ -183,7 +183,7 @@
         {
           "wrong": "اسْتَمِعُوا التَّسْجِيلَ",
           "right": "اسْتَمِعُوا إِلَى التَّسْجِيلِ",
-          "why": "istamaʿa / yastamiʿu (to listen) always needs ilā (to): istamiʿū ilā t-tasjīl."
+          "why": "istamaʿa / yastamiʿu (to listen) needs a preposition, usually ilā (to), also li-: istamiʿū ilā t-tasjīl."
         }
       ]
     },
@@ -1189,7 +1189,7 @@
       {
         "id": "d85l10",
         "sp": "layla",
-        "ar": "الرَّصِيفُ رَقْمُ أَرْبَعَة، وَالْمَوْعِدُ الْعَاشِرَةُ وَالنِّصْف. لٰكِنَّ الْقِطَارَ مُتَأَخِّر رُبْعَ سَاعَة، إِذَنْ سَيُغَادِرُ فِي الْحَادِيَةَ عَشْرَةَ إِلَّا رُبْعًا.",
+        "ar": "الرَّصِيفُ رَقْمُ أَرْبَعَة، وَالْمَوْعِدُ الْعَاشِرَةُ وَالنِّصْف. لٰكِنَّ الْقِطَارَ مُتَأَخِّر رُبْعَ سَاعَة، إِذًا سَيُغَادِرُ فِي الْحَادِيَةَ عَشْرَةَ إِلَّا رُبْعًا.",
         "en": "Platform four, and the time is half past ten. But the train is a quarter of an hour late, so it will leave at a quarter to eleven.",
         "segs": [
           [
@@ -1237,7 +1237,7 @@
             "an hour"
           ],
           [
-            "إِذَنْ",
+            "إِذًا",
             "so, then"
           ],
           [

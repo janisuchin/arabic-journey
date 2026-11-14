@@ -2,12 +2,24 @@
   "أَ": {
     "grammar:colours": "a- (first letter of the colour pattern aCCaC)"
   },
+  "أَبَا": {
+    "grammar:family-idafa-w5": "father (of), object form"
+  },
+  "أَبِي": {
+    "grammar:family-idafa-w5": "my father; also father (of) after a preposition"
+  },
   "أَجْمَلَ": {
     "vocab:ajmal": "how beautiful (in mā ajmala …!)"
+  },
+  "أَخَا": {
+    "grammar:family-idafa-w5": "brother (of), object form"
   },
   "أَخَذَ": {
     "vocab:yakhudhu": "(he) took",
     "vocab:eidiyya": "(he) took, got"
+  },
+  "أَخِي": {
+    "grammar:family-idafa-w5": "my brother; also brother (of) after a preposition"
   },
   "أَرَاهَا": {
     "*": "I see her, I see it (f; also 'them' for things)"
@@ -19,6 +31,12 @@
   },
   "أَصْغَرُ": {
     "week:13": "smaller; younger"
+  },
+  "أَعْدَدْتُ": {
+    "week:12": "I prepared"
+  },
+  "أَفْضَلُ": {
+    "grammar:feelings-adjectives": "better"
   },
   "أَفْعَلَ": {
     "grammar:verb-forms": "afʿala (verb pattern, Form IV)"
@@ -55,6 +73,13 @@
     "grammar:inna": "indeed he, it (m) ('he is'); that he (after qāla)",
     "*": "indeed he / it (starts a statement); that he / it (after qāla)"
   },
+  "إِنْ": {
+    "day:75": "if; whether (after saʾala)",
+    "grammar:qala-inna": "if, whether (in a reported question)"
+  },
+  "الثَّلْجُ": {
+    "grammar:weather-expressions": "the snow"
+  },
   "الرِّسَالَةَ": {
     "week:13": "the letter, the message"
   },
@@ -77,8 +102,22 @@
   "السِّيَاحِيَّة": {
     "*": "tourist (adjective, f: for tourists)"
   },
+  "الطَّابِقُ": {
+    "day:25": "the floor, the storey"
+  },
+  "اللَّازِمِ": {
+    "grammar:lazim": "the necessary (min al-lāzimi an: it is necessary that)",
+    "vocab:lazim": "the necessary (min al-lāzimi an: it is necessary that)"
+  },
+  "اللَّبَن": {
+    "scenario:morning-routine": "the yogurt (Levant; in Egypt laban is milk)",
+    "scenario:dietary": "the yoghurt (Levant; in Egypt laban is milk)"
+  },
   "اللَّيْلَة": {
     "vocab:dinar": "the night (here: per night)"
+  },
+  "النَّجَاحَ": {
+    "grammar:man-whoever-w11": "success (object form)"
   },
   "الَّتِي": {
     "grammar:relative-pronouns": "who, which, that (f)"
@@ -86,6 +125,9 @@
   "الَّذِي": {
     "day:86": "who, which, that (m)",
     "grammar:relative-pronouns": "who, which, that (m)"
+  },
+  "الْأَقْدَامِ": {
+    "grammar:bi-transport-w4": "the feet (mashyan ʿalā l-aqdām: on foot)"
   },
   "الْأَكْبَر": {
     "culture:cul.family": "the eldest; the biggest"
@@ -105,6 +147,9 @@
   },
   "الْحَرَارَة": {
     "vocab:daraja": "the heat (darajatu l-ḥarāra: the temperature)"
+  },
+  "الْخِدْمَة": {
+    "scenario:cafe": "the service"
   },
   "الْعَرَبَة": {
     "scenario:airport-checkin": "the trolley, the cart",
@@ -144,6 +189,9 @@
   "الْيَوْم": {
     "vocab:marra": "the day (fī l-yawm: a day, per day)"
   },
+  "الْيَوْمَ": {
+    "day:9": "today"
+  },
   "انْتَهَتْ": {
     "*": "(she, it f) ended, is over; (they) ended, with a plural of things"
   },
@@ -157,11 +205,27 @@
     "day:88": "postal (with biṭāqa: postcard)",
     "vocab:bitaqa-baridiyya": "postal ('a postcard')"
   },
+  "بُلْدَان": {
+    "vocab:balad": "countries"
+  },
+  "بِأَنَّنِي": {
+    "grammar:feelings-adjectives": "that I (bi- + anna + -nī)"
+  },
+  "بِجَائِزَة": {
+    "vocab:jaiza": "(with) a prize; fāza bi-jāʾiza: won a prize"
+  },
+  "بِجَائِزَةِ": {
+    "vocab:katib": "(with) the prize (of); fāza bi-jāʾiza: won a prize",
+    "vocab:jaiza": "(with) the prize (of); fāza bi-jāʾiza: won a prize"
+  },
   "بِخَيْر": {
     "day:52": "well, in good health ('kullu ʿāmin wa-anta / wa-anti bi-khayr': many happy returns)"
   },
   "بِكَ": {
     "week:10": "with you, you (ittaṣala bi-: call; to a man)"
+  },
+  "بِلَاد": {
+    "vocab:balad": "countries; a land"
   },
   "بِي": {
     "grammar:yumkin-an": "me (bi- + -ī; ittaṣala bi- = call someone)"
@@ -200,6 +264,9 @@
   "تَعْنِي": {
     "*": "it (f), she means; you mean (to a man)"
   },
+  "تَغَيُّرُ": {
+    "vocab:munakh": "change (of)"
+  },
   "تَفَضَّلِي": {
     "scenario:doctor": "please (come in / sit / go ahead); here you are (to a woman)"
   },
@@ -219,6 +286,10 @@
   },
   "تَمَامًا": {
     "vocab:jahiz": "completely"
+  },
+  "تَنَامَ": {
+    "week:13": "you sleep (form after an / lan; to a man)",
+    "grammar:lazim": "you sleep, go to bed (after an, to a man)"
   },
   "تَنْتَظِرَكَ": {
     "grammar:conditional-w12": "(it, f) waits for you (after lan; to a man)"
@@ -280,10 +351,14 @@
     "*": "course, cycle, round (of) (dawratu l-miyāh: toilet)"
   },
   "ذَهَب": {
-    "grammar:past-tense": "dhahab- (the stem of ذَهَبَ 'went')"
+    "grammar:past-tense": "dhahab- (the stem of ذَهَبَ 'went')",
+    "pron:dal-dhal": "gold"
   },
   "رَأَيْتُهَا": {
     "*": "I saw her, I saw it (f; also 'them' for things)"
+  },
+  "رَاجَعَ": {
+    "vocab:muraja": "(he) revised, reviewed"
   },
   "رِجَال": {
     "vocab:rajul": "men"
@@ -321,17 +396,26 @@
   "شَجَرَة": {
     "*": "tree"
   },
+  "شَهْرَيْنِ": {
+    "vocab:shahr": "two months"
+  },
   "صَيْدَلِيَّة": {
     "vocab:saydali": "pharmacist (f); also pharmacy"
   },
   "طَابُور": {
     "scenario:airport-checkin": "queue"
   },
+  "طَاوِلَةُ": {
+    "scenario:cafe": "table (of): ṭāwilatu l-khidma = the (service) counter"
+  },
   "طَوِيلًا": {
     "grammar:laysa": "tall, long (-an after laysa)"
   },
   "طَوِيلَةً": {
     "scenario:holiday-story": "long (f, after 'was')"
+  },
+  "عَالِيًا": {
+    "vocab:sawt": "loud, high (-an after kāna)"
   },
   "عَرَبِيٍّ": {
     "vocab:katib": "Arab"
@@ -355,9 +439,15 @@
     "vocab:kharif": "to, over (ufaḍḍilu A ʿalā B: prefer A to B)",
     "vocab:yufaddilu": "to, over (ufaḍḍilu A ʿalā B: prefer A to B)",
     "day:30": "on; to (sallim ʿalā: say hello to)",
-    "vocab:qaliq": "about (qaliq ʿalā: worried about); on"
+    "vocab:qaliq": "about (qaliq ʿalā: worried about); on",
+    "week:11": "on (ʿalā ḥaqq: in the right)",
+    "week:12": "on (ʿalā ḥaqq: in the right)"
   },
-  "عَلِي": {
+  "عَلَيْكَ": {
+    "day:48": "on you (to a man): ʿalayka an 'you have to'",
+    "grammar:lazim": "on you (to a man); ʿalayka an: you have to"
+  },
+  "عَلِيّ": {
     "day:18": "Ali (first name): Umm Ali is a bread pudding",
     "*": "Ali (first name)"
   },
@@ -396,9 +486,20 @@
   "ـهُمْ": {
     "placard:pc.my-your": "their / them (-hum)"
   },
+  "ـًا": {
+    "day:33": "-an (ending: on objects, and after laysa / kāna; also adverbs like shukran)",
+    "grammar:laysa": "-an (ending: on objects, and after laysa / kāna)"
+  },
+  "ـَةً": {
+    "grammar:laysa": "-atan (the -an ending after ة: on objects, and after laysa / kāna)"
+  },
   "ـِي": {
     "grammar:imperative": "-ī (verb ending: to a woman)",
     "grammar:negative-imperative": "-ī (verb ending: to a woman)"
+  },
+  "فَازَ": {
+    "vocab:katib": "(he) won (fāza bi-: won something)",
+    "vocab:jaiza": "(he) won (fāza bi-: won something)"
   },
   "قَالَهَا": {
     "*": "he said it (f), them (things)"
@@ -422,6 +523,13 @@
     "vocab:mutadarrib": "all (of)",
     "vocab:tafsil": "all (of)"
   },
+  "كُنْتُ": {
+    "grammar:qala-inna": "I was (kuntu fahimtu: I had understood)",
+    "vocab:nama": "I was"
+  },
+  "لَازِم": {
+    "grammar:lazim": "necessary, must (spoken style)"
+  },
   "لَطِيفًا": {
     "vocab:mayu": "pleasant, nice (-an after yakūnu)",
     "vocab:uktubar": "pleasant, nice (-an after yakūnu)"
@@ -436,9 +544,15 @@
   "لِكُلِّ": {
     "scenario:airport-checkin": "for every, for each"
   },
+  "لِمُدَّةِ": {
+    "vocab:shahr": "for (a period of)"
+  },
   "مَرَّةً": {
     "day:45": "once, one time",
     "scenario:pharmacy-visit": "time(s) (after kam: 'how many times'); once"
+  },
+  "مَشْيًا": {
+    "grammar:bi-transport-w4": "walking (mashyan ʿalā l-aqdām: on foot)"
   },
   "مَعَ": {
     "grammar:connectors-w12": "with; maʿa anna = although",
@@ -451,11 +565,20 @@
   "مَقْهَى": {
     "scenario:cafe": "café, coffeehouse"
   },
+  "مُبَارَك": {
+    "placard:pc.courtesy": "congratulations (formal; lit. blessed)"
+  },
+  "مُدَرَاء": {
+    "vocab:mudir": "managers, directors (common plural)"
+  },
   "مُدِير": {
     "day:82": "director, manager"
   },
   "مُدِيرَة": {
     "scenario:job-interview": "manager, director (a woman)"
+  },
+  "مُدِيرُونَ": {
+    "vocab:mudir": "managers, directors"
   },
   "مُسَافِرَة": {
     "vocab:musafir": "passenger, traveller (f)"
@@ -466,6 +589,9 @@
   "مُنْذُ": {
     "day:38": "since, for; ago",
     "grammar:time-expressions": "since, for; ago (before a time)"
+  },
+  "مِصْر": {
+    "day:3": "Egypt (country); in Egypt also used for Cairo"
   },
   "مِنُ": {
     "day:85": "from (wrong helping vowel — correct: mina before al-)"
@@ -493,6 +619,9 @@
     "culture:cul.family": "light; Nour (first name)",
     "letter:nun": "light; Nour (first name)",
     "pron:vowels": "light; Nour (first name)"
+  },
+  "نِهَايَةٌ": {
+    "pron:pausal-forms": "an end (nihāyatun; at a stop: nihāya)"
   },
   "هُوَ": {
     "scenario:restaurant": "it (m), he",
@@ -538,14 +667,23 @@
   "وْ": {
     "pron:diphthongs": "the letter wāw (with sukūn: the glide aw)"
   },
+  "يَتَسَاقَطُ": {
+    "grammar:weather-expressions": "falls (snow, rain)"
+  },
   "يَتَغَيَّرُ": {
     "vocab:munakh": "(it) changes, is changing"
+  },
+  "يَجِدِ": {
+    "grammar:man-whoever-w11": "finds (short form; -i links it to the next word)"
   },
   "يَسْتَيْقِظُ": {
     "week:2": "he wakes up"
   },
   "يَصُومُ": {
     "vocab:ramadan": "(they) fast (verb first: singular)"
+  },
+  "يَعْمَلْ": {
+    "grammar:man-whoever-w11": "works (short form after man 'whoever')"
   },
   "يَقْرَؤُهَا": {
     "*": "he reads it (f), them (things)"
@@ -555,5 +693,11 @@
   },
   "يَوْمًا": {
     "vocab:yasumu": "days (after a number)"
+  },
+  "يَوْمٍ": {
+    "day:9": "day"
+  },
+  "يُرَاجِعُ": {
+    "vocab:muraja": "revises, reviews"
   }
 }

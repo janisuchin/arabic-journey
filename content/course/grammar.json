@@ -1012,9 +1012,9 @@
     "title": "By bus, by taxi: bi-",
     "titleAr": "بِالْحَافِلَة أَوْ بِالتَّاكْسِي",
     "firstDay": 24,
-    "summary": "To say how you travel, join بِـ (by) to the vehicle with الـ. On foot is مَشْيًا.",
+    "summary": "To say how you travel, join بِـ (by) to the vehicle with الـ. On foot is مَشْيًا عَلَى الْأَقْدَامِ.",
     "formula": "بِـ + الـ + vehicle  (بِالْمِتْرُو = by metro)",
-    "explanation": "بِـ is a one-letter preposition, written joined to the next word. With the article it becomes bi-l-: بِالْحَافِلَة (by bus), بِالتَّاكْسِي (by taxi), بِالسَّيَّارَة (by car). The alif of الـ is still written but not said. For 'on foot' Arabic uses one word, مَشْيًا (walking). To take or ride a vehicle is يَرْكَبُ, with the vehicle straight after it and no preposition: يَرْكَبُ الطُّلَّابُ الْحَافِلَةَ (the students take the bus).",
+    "explanation": "بِـ is a one-letter preposition, written joined to the next word. With the article it becomes bi-l-: بِالْحَافِلَة (by bus), بِالتَّاكْسِي (by taxi), بِالسَّيَّارَة (by car). The alif of الـ is still written but not said. For 'on foot' Arabic says مَشْيًا عَلَى الْأَقْدَامِ (walking on the feet). To take or ride a vehicle is يَرْكَبُ, with the vehicle straight after it and no preposition: يَرْكَبُ الطُّلَّابُ الْحَافِلَةَ (the students take the bus).",
     "table": {
       "head": [
         "Arabic",
@@ -1038,7 +1038,7 @@
           "by car"
         ],
         [
-          "مَشْيًا",
+          "مَشْيًا عَلَى الْأَقْدَامِ",
           "on foot"
         ]
       ]
@@ -1573,7 +1573,7 @@
     "firstDay": 35,
     "summary": "Put two family words side by side to say 'the son of my uncle'. Only the last word takes 'my' or الـ.",
     "formula": "first word (no الـ, ending ـُ) + second word + ending  (اِبْنُ عَمِّي)",
-    "explanation": "Arabic links two nouns to say 'X of Y' with no word for 'of': اِبْنُ عَمِّي = son (of) my uncle = my cousin. The first word never takes الـ or a possessive ending, and its last vowel is usually ـُ. 'My' goes on the last word only: زَوْجَةُ خَالِي (my uncle's wife). The last word can also be a name: خَالَةُ سَامِي (Sami's aunt). When the first word ends in ة, it is said as t: زَوْجَةُ (zawjatu). Note that أَخ (brother) and أَب (father) become أَخُو and أَبُو before another word: أَخُو أَبِي (my father's brother).",
+    "explanation": "Arabic links two nouns to say 'X of Y' with no word for 'of': اِبْنُ عَمِّي = son (of) my uncle = my cousin. The first word never takes الـ or a possessive ending, and its last vowel is usually ـُ. 'My' goes on the last word only: زَوْجَةُ خَالِي (my uncle's wife). The last word can also be a name: خَالَةُ سَامِي (Sami's aunt). When the first word ends in ة, it is said as t: زَوْجَةُ (zawjatu). Note that أَخ (brother) and أَب (father) become أَخُو and أَبُو before another word when they are the subject (nominative): أَخُو أَبِي (my father's brother). In the other cases they are أَخَا / أَخِي and أَبَا / أَبِي (object / after a preposition).",
     "table": {
       "head": [
         "Arabic",
@@ -1925,7 +1925,7 @@
     "title": "لَمْ: did not (the written standard)",
     "titleAr": "لَمْ أَذْهَبْ",
     "firstDay": 41,
-    "summary": "لَمْ + the present form of the verb, with a sukūn at the end, means 'did not': لَمْ أَذْهَبْ (I didn't go).",
+    "summary": "لَمْ + the short form of the present (sukūn for most persons; -na/-ni endings drop) means 'did not': لَمْ أَذْهَبْ (I didn't go).",
     "formula": "لَمْ + present verb; final -u → sukūn: أَذْهَبُ → لَمْ أَذْهَبْ · -ūna → -ū: يَذْهَبُونَ → لَمْ يَذْهَبُوا",
     "explanation": "لَمْ is the standard way to say 'didn't' in writing and in careful speech. It surprises learners twice. First, it takes the present form, not the past: لَمْ أَذْهَبْ, never لَمْ ذَهَبْتُ. Second, the verb changes its ending: the final -u becomes a sukūn (أَكْتُبُ → لَمْ أَكْتُبْ), and the endings -ūna and -īna lose their n (تَذْهَبِينَ → لَمْ تَذْهَبِي). It means the same as مَا + past (day 37), which is more relaxed. لَمْ … بَعْدُ means 'not yet': لَمْ أَكْتُبْهَا بَعْدُ (I haven't written them yet).",
     "table": {
@@ -2164,7 +2164,7 @@
     "firstDay": 46,
     "summary": "Say how you feel with أَنَا + an adjective. The adjective agrees with the person: add ة for a woman; a few adjectives in -ān change to -ā.",
     "formula": "أَنَا + adjective (+ ة for a woman) · أَشْعُرُ بِـ + noun",
-    "explanation": "No verb 'to be' is needed: أَنَا مُتْعَب (I am tired, said by a man), أَنَا مُتْعَبَة (said by a woman). Most adjectives simply add ة. Adjectives on the pattern faʿlān, like عَطْشَان (thirsty) and غَضْبَان (angry), have a feminine in -ā in standard Arabic: عَطْشَى, غَضْبَى (everyday speech often says ʿaṭshāna). With the verb أَشْعُرُ (I feel) use بِـ and a noun, أَشْعُرُ بِالْمَلَل (I feel bored, literally 'I feel boredom'), or a whole sentence: أَشْعُرُ أَنَّنِي أَحْسَن (I feel better).",
+    "explanation": "No verb 'to be' is needed: أَنَا مُتْعَب (I am tired, said by a man), أَنَا مُتْعَبَة (said by a woman). Most adjectives simply add ة. Adjectives on the pattern faʿlān, like عَطْشَان (thirsty) and غَضْبَان (angry), have a feminine in -ā in standard Arabic: عَطْشَى, غَضْبَى (everyday speech often says ʿaṭshāna). With the verb أَشْعُرُ (I feel) use بِـ and a noun, أَشْعُرُ بِالْمَلَل (I feel bored, literally 'I feel boredom'), or a whole sentence: أَشْعُرُ بِأَنَّنِي أَفْضَلُ (I feel better).",
     "table": {
       "head": [
         "English",
@@ -2275,12 +2275,12 @@
   },
   {
     "id": "lazim",
-    "title": "Must: لَازِم and يَجِبُ + أَنْ",
-    "titleAr": "لَازِم أَنْ تَرْتَاحَ",
+    "title": "Must: يَجِبُ أَنْ (spoken: لَازِم)",
+    "titleAr": "يَجِبُ أَنْ تَرْتَاحَ",
     "firstDay": 48,
-    "summary": "To say 'must' or 'have to', use لَازِم (necessary) or يَجِبُ (it is necessary) + أَنْ + the present tense ending in -a.",
-    "formula": "لَازِم / يَجِبُ + أَنْ + present (ending -a)",
-    "explanation": "لَازِم and يَجِبُ never change: the person is shown on the second verb. لَازِم أَنْ أَرْتَاحَ (I must rest), لَازِم أَنْ تَرْتَاحَ (you must rest), يَجِبُ أَنْ يَنَامَ (he must sleep). لَازِم is very common when people speak; يَجِبُ is a little more formal and common in writing. To ask 'do I have to…?' put هَلْ in front: هَلْ يَجِبُ أَنْ آخُذَ الدَّوَاء؟ To say 'it is not necessary', use لَيْسَ ضَرُورِيًّا.",
+    "summary": "To say 'must' or 'have to' in standard Arabic, use يَجِبُ (it is necessary) + أَنْ + the present tense ending in -a. لَازِم (necessary) is the spoken word.",
+    "formula": "يَجِبُ / مِنَ اللَّازِمِ / عَلَيْكَ + أَنْ + present (ending -a) · spoken: لَازِم أَنْ",
+    "explanation": "يَجِبُ never changes: the person is shown on the second verb. يَجِبُ أَنْ أَرْتَاحَ (I must rest), يَجِبُ أَنْ تَرْتَاحَ (you must rest), يَجِبُ أَنْ يَنَامَ (he must sleep). Two other written forms: مِنَ اللَّازِمِ أَنْ (it is necessary that) and عَلَيْكَ أَنْ (you have to, literally 'it is on you'): عَلَيْكَ أَنْ تَرْتَاحَ (you have to rest). لَازِم أَنْ is very common when people speak (لَازِم أَنْ أَرْتَاحَ), but it is spoken style: in writing use يَجِبُ أَنْ. To ask 'do I have to…?' put هَلْ in front: هَلْ يَجِبُ أَنْ آخُذَ الدَّوَاء؟ To say 'it is not necessary', use لَيْسَ ضَرُورِيًّا.",
     "table": {
       "head": [
         "Arabic",
@@ -2288,12 +2288,12 @@
       ],
       "rows": [
         [
-          "لَازِم أَنْ أَرْتَاحَ",
-          "I must rest"
+          "مِنَ اللَّازِمِ أَنْ أَرْتَاحَ",
+          "I must rest (it is necessary that I rest)"
         ],
         [
-          "لَازِم أَنْ تَنَامَ مُبَكِّرًا",
-          "you must go to bed early"
+          "عَلَيْكَ أَنْ تَنَامَ مُبَكِّرًا",
+          "you have to go to bed early"
         ],
         [
           "يَجِبُ أَنْ يَشْرَبَ مَاءً",
@@ -2306,13 +2306,17 @@
         [
           "لَيْسَ ضَرُورِيًّا",
           "it is not necessary"
+        ],
+        [
+          "لَازِم أَنْ أَرْتَاحَ",
+          "I must rest (spoken style)"
         ]
       ]
     },
     "examples": [
       {
-        "ar": "لَازِم أَنْ تَرْتَاحَ الْيَوْمَ وَغَدًا.",
-        "en": "You must rest today and tomorrow. (to a man)"
+        "ar": "عَلَيْكَ أَنْ تَرْتَاحَ الْيَوْمَ وَغَدًا.",
+        "en": "You have to rest today and tomorrow. (to a man)"
       },
       {
         "ar": "يَجِبُ أَنْ أَنَامَ مُبَكِّرًا.",
@@ -2492,7 +2496,7 @@
     "firstDay": 53,
     "summary": "Describe the weather with الْجَوّ (the weather) + an adjective: الْجَوّ حَارّ (it's hot). Rain has its own verb, تُمْطِرُ (it rains), and the temperature is دَرَجَةُ الْحَرَارَة + a number.",
     "formula": "الْجَوّ + adjective: الْجَوّ بَارِد · تُمْطِرُ / أَمْطَرَتْ / سَتُمْطِرُ · دَرَجَةُ الْحَرَارَة + number",
-    "explanation": "English says 'it is hot', with an empty 'it'. Arabic names the weather instead: الْجَوّ حَارّ (the weather is hot), الْجَوّ غَائِم (it's cloudy). For rain there is a verb, used in the feminine because 'the sky' is understood: تُمْطِرُ (it rains, it's raining), أَمْطَرَتْ (it rained), سَتُمْطِرُ (it will rain). For snow say يَنْزِلُ الثَّلْج (snow falls). For wind use هُنَاكَ: هُنَاكَ رِيَاح قَوِيَّة (it's very windy). To ask, say كَيْفَ الطَّقْس؟ (what's the weather like?). In the past and the future, كَانَ and سَيَكُونُ put the adjective in the -an form: كَانَ الْجَوّ بَارِدًا (it was cold), سَيَكُونُ الْجَوّ بَارِدًا (it will be cold).",
+    "explanation": "English says 'it is hot', with an empty 'it'. Arabic names the weather instead: الْجَوّ حَارّ (the weather is hot), الْجَوّ غَائِم (it's cloudy). For rain there is a verb, used in the feminine because 'the sky' is understood: تُمْطِرُ (it rains, it's raining), أَمْطَرَتْ (it rained), سَتُمْطِرُ (it will rain). For snow say يَتَسَاقَطُ الثَّلْجُ (snow falls). For wind use هُنَاكَ: هُنَاكَ رِيَاح قَوِيَّة (there are strong winds). To ask, say كَيْفَ الطَّقْس؟ (what's the weather like?). In the past and the future, كَانَ and سَيَكُونُ put the adjective in the -an form: كَانَ الْجَوّ بَارِدًا (it was cold), سَيَكُونُ الْجَوّ بَارِدًا (it will be cold).",
     "table": {
       "head": [
         "Arabic",
@@ -2520,12 +2524,12 @@
           "it's raining, it rains"
         ],
         [
-          "يَنْزِلُ الثَّلْج",
+          "يَتَسَاقَطُ الثَّلْجُ",
           "it's snowing (snow falls)"
         ],
         [
           "هُنَاكَ رِيَاح قَوِيَّة",
-          "it's very windy"
+          "there are strong winds"
         ],
         [
           "دَرَجَةُ الْحَرَارَة ثَلَاثُونَ",
@@ -3278,8 +3282,8 @@
     "titleAr": "رِسَالَة رَسْمِيَّة",
     "firstDay": 67,
     "summary": "Formal Arabic emails and letters follow a fixed order: a title for the person, a greeting, the subject, then a closing phrase.",
-    "formula": "حَضْرَةَ … الْمُحْتَرَم، → تَحِيَّة طَيِّبَة وَبَعْدُ، → the subject → مَعَ أَطْيَبِ التَّحِيَّات، + name",
-    "explanation": "To someone you don't know well, start with حَضْرَةَ (a title of respect) + the person + الْمُحْتَرَم (the respected), or الْمُحْتَرَمَة for a woman. To a friend or a close colleague write عَزِيزِي (dear, to a man) or عَزِيزَتِي (to a woman). Then comes the greeting تَحِيَّة طَيِّبَة وَبَعْدُ, literally 'a good greeting, and after that', which tells the reader that the subject follows. Useful sentences: أَرْجُو أَنْ تَكُونَ بِخَيْر (I hope you are well), مُرْفَق مَعَ هٰذِهِ الرِّسَالَة… (attached to this message is…), فِي انْتِظَارِ رَدِّكُمْ (I look forward to your reply). End with مَعَ أَطْيَبِ التَّحِيَّات (with best regards) or مَعَ الشُّكْر (with thanks), and your name.",
+    "formula": "حَضْرَةَ … الْمُحْتَرَم، → تَحِيَّةً طَيِّبَةً وَبَعْدُ، → the subject → مَعَ أَطْيَبِ التَّحِيَّات، + name",
+    "explanation": "To someone you don't know well, start with حَضْرَةَ (a title of respect) + the person + الْمُحْتَرَم (the respected), or الْمُحْتَرَمَة for a woman. To a friend or a close colleague write عَزِيزِي (dear, to a man) or عَزِيزَتِي (to a woman). Then comes the greeting تَحِيَّةً طَيِّبَةً وَبَعْدُ, literally 'a good greeting, and after that', which tells the reader that the subject follows. Useful sentences: أَرْجُو أَنْ تَكُونَ بِخَيْر (I hope you are well), مُرْفَق مَعَ هٰذِهِ الرِّسَالَة… (attached to this message is…), فِي انْتِظَارِ رَدِّكُمْ (I look forward to your reply). End with مَعَ أَطْيَبِ التَّحِيَّات (with best regards) or مَعَ الشُّكْر (with thanks), and your name.",
     "table": {
       "head": [
         "Part",
@@ -3299,7 +3303,7 @@
         ],
         [
           "greeting",
-          "تَحِيَّة طَيِّبَة وَبَعْدُ",
+          "تَحِيَّةً طَيِّبَةً وَبَعْدُ",
           "greetings (and now to the subject)"
         ],
         [
@@ -3326,7 +3330,7 @@
     },
     "examples": [
       {
-        "ar": "حَضْرَةَ الْأُسْتَاذ عَادِل الْمُحْتَرَم، تَحِيَّة طَيِّبَة وَبَعْدُ.",
+        "ar": "حَضْرَةَ الْأُسْتَاذ عَادِل الْمُحْتَرَم، تَحِيَّةً طَيِّبَةً وَبَعْدُ.",
         "en": "Dear Mr Adel, greetings."
       },
       {
@@ -3624,7 +3628,7 @@
     "firstDay": 75,
     "summary": "To report what someone said, use قَالَ (he said) or قَالَتْ (she said) + إِنَّ. After other verbs, such as أَخْبَرَ (told), سَمِعَ (heard) or عَرَفَ (knew), use أَنَّ. Change the pronouns as in English, but keep the tense the speaker used.",
     "formula": "قَالَ / قَالَتْ + إِنَّ + sentence · أَخْبَرَنِي / سَمِعْتُ + أَنَّ + sentence · سَأَلَ + هَلْ + question",
-    "explanation": "قَالَ is special: it is followed by إِنَّ, with i, and not by أَنَّ: قَالَ الْأُسْتَاذُ إِنَّ الدَّرْسَ سَهْل (the teacher said that the lesson was easy). Both take the ending -a on the next noun, or a pronoun ending: قَالَتْ إِنَّهَا مَرِيضَة (she said that she was ill). The speaker's 'I' becomes 'he' or 'she', as in English: أَنَا مَرِيضَة → قَالَتْ إِنَّهَا مَرِيضَة. Unlike English, Arabic keeps the speaker's tense: 'is ill' stays 'is ill'. To report a question, use سَأَلَ (asked) + هَلْ: سَأَلَنِي هَلْ فَهِمْتُ الدَّرْسَ (he asked me whether I had understood the lesson). A promise is reported with وَعَدَ أَنْ + verb: وَعَدَ أَنْ يَزُورَنَا (he promised to visit us).",
+    "explanation": "قَالَ is special: it is followed by إِنَّ, with i, and not by أَنَّ: قَالَ الْأُسْتَاذُ إِنَّ الدَّرْسَ سَهْل (the teacher said that the lesson was easy). Both take the ending -a on the next noun, or a pronoun ending: قَالَتْ إِنَّهَا مَرِيضَة (she said that she was ill). The speaker's 'I' becomes 'he' or 'she', as in English: أَنَا مَرِيضَة → قَالَتْ إِنَّهَا مَرِيضَة. Unlike English, Arabic keeps the speaker's tense: 'is ill' stays 'is ill'. To report a question, use سَأَلَ (asked) + هَلْ: سَأَلَنِي هَلْ فَهِمْتُ الدَّرْسَ (he asked me whether I had understood the lesson). Careful style prefers إِنْ (if) with كَانَ: سَأَلَنِي إِنْ كُنْتُ فَهِمْتُ الدَّرْسَ. A promise is reported with وَعَدَ أَنْ + verb: وَعَدَ أَنْ يَزُورَنَا (he promised to visit us).",
     "table": {
       "head": [
         "Direct words",
@@ -3675,9 +3679,9 @@
     "title": "Giving opinions: فِي رَأْيِي, أَعْتَقِدُ أَنَّ…",
     "titleAr": "فِي رَأْيِي",
     "firstDay": 76,
-    "summary": "Give an opinion with فِي رَأْيِي (in my opinion) + a sentence, or with أَعْتَقِدُ أَنَّ (I believe that) or أَظُنُّ أَنَّ (I think that) + a noun ending in -a. Ask مَا رَأْيُكَ؟ (what do you think?), agree with أُوَافِقُ or مَعَكَ حَقّ, and disagree politely with لَا أُوَافِقُ.",
+    "summary": "Give an opinion with فِي رَأْيِي (in my opinion) + a sentence, or with أَعْتَقِدُ أَنَّ (I believe that) or أَظُنُّ أَنَّ (I think that) + a noun ending in -a. Ask مَا رَأْيُكَ؟ (what do you think?), agree with أُوَافِقُ or أَنْتَ عَلَى حَقّ, and disagree politely with لَا أُوَافِقُ.",
     "formula": "فِي رَأْيِي + sentence · أَعْتَقِدُ / أَظُنُّ + أَنَّ + noun (-a) · مَا رَأْيُكَ / رَأْيُكِ / رَأْيُكُمْ؟",
-    "explanation": "After فِي رَأْيِي the sentence is normal: فِي رَأْيِي، الْكُتُبُ أَحْسَنُ (in my opinion, books are better). After أَعْتَقِدُ أَنَّ and أَظُنُّ أَنَّ, remember the rule of أَنَّ: the noun ends in -a, or a pronoun is attached: أَظُنُّ أَنَّهُ عَلَى حَقّ (I think he is right). أَعْتَقِدُ sounds a little stronger and more serious than أَظُنُّ. To ask for an opinion, change the ending of رَأْي for the person: مَا رَأْيُكَ؟ (to a man), مَا رَأْيُكِ؟ (to a woman), مَا رَأْيُكُمْ؟ (to a group). To agree, say أُوَافِقُ (I agree), أُوَافِقُكَ (I agree with you) or مَعَكَ حَقّ (you're right, literally 'with you is truth'). To disagree politely, start with مَعَ احْتِرَامِي (with respect) and then say لَا أُوَافِقُ.",
+    "explanation": "After فِي رَأْيِي the sentence is normal: فِي رَأْيِي، الْكُتُبُ أَحْسَنُ (in my opinion, books are better). After أَعْتَقِدُ أَنَّ and أَظُنُّ أَنَّ, remember the rule of أَنَّ: the noun ends in -a, or a pronoun is attached: أَظُنُّ أَنَّهُ عَلَى حَقّ (I think he is right). أَعْتَقِدُ sounds a little stronger and more serious than أَظُنُّ. To ask for an opinion, change the ending of رَأْي for the person: مَا رَأْيُكَ؟ (to a man), مَا رَأْيُكِ؟ (to a woman), مَا رَأْيُكُمْ؟ (to a group). To agree, say أُوَافِقُ (I agree), أُوَافِقُكَ (I agree with you) or أَنْتَ عَلَى حَقّ (you're right, literally 'you are on the truth'; in everyday speech you also hear مَعَكَ حَقّ). To disagree politely, start with مَعَ احْتِرَامِي (with respect) and then say لَا أُوَافِقُ.",
     "table": {
       "head": [
         "Arabic",
@@ -3701,7 +3705,7 @@
           "I think that this is a mistake"
         ],
         [
-          "أُوَافِقُكَ، مَعَكَ حَقّ.",
+          "أُوَافِقُكَ، أَنْتَ عَلَى حَقّ.",
           "I agree with you, you're right"
         ],
         [
@@ -3728,7 +3732,7 @@
     "firstDay": 77,
     "summary": "مَنْ means 'who?' in a question, but at the start of a statement it means 'whoever, anyone who'. Proverbs use it with two past verbs for something that is always true: مَنْ جَدَّ وَجَدَ (whoever works hard succeeds).",
     "formula": "مَنْ + past verb + past verb = a general truth (whoever does A gets B)",
-    "explanation": "In proverbs the past tense often states something that is always true: مَنْ زَرَعَ حَصَدَ, literally 'who sowed, reaped', means 'whoever sows will reap'. مَنْ never changes and normally takes a singular verb, although it can mean a man, a woman or many people. In ordinary sentences you can say the same with the present: مَنْ يَعْمَلُ كَثِيرًا يَجِدُ النَّجَاح (whoever works hard finds success). Compare: مَنْ هٰذَا؟ (who is this?) is a question, but مَنْ جَدَّ وَجَدَ is a statement.",
+    "explanation": "In proverbs the past tense often states something that is always true: مَنْ زَرَعَ حَصَدَ, literally 'who sowed, reaped', means 'whoever sows will reap'. مَنْ never changes and normally takes a singular verb, although it can mean a man, a woman or many people. In ordinary sentences you can say the same with the short form of the present, as after لَمْ: مَنْ يَعْمَلْ كَثِيرًا يَجِدِ النَّجَاحَ (whoever works hard finds success). The -i of يَجِدِ only links it to the next word. Compare: مَنْ هٰذَا؟ (who is this?) is a question, but مَنْ جَدَّ وَجَدَ is a statement.",
     "table": {
       "head": [
         "Proverb",
@@ -3747,7 +3751,7 @@
           "you reap what you sow"
         ],
         [
-          "مَنْ يَعْمَلُ كَثِيرًا يَجِدُ النَّجَاح",
+          "مَنْ يَعْمَلْ كَثِيرًا يَجِدِ النَّجَاحَ",
           "who works a lot finds the success",
           "whoever works hard succeeds"
         ]
@@ -3907,8 +3911,8 @@
     "title": "A formal letter: أَتَشَرَّفُ بِأَنْ and the plural of respect",
     "titleAr": "الرِّسَالَة الرَّسْمِيَّة",
     "summary": "A formal letter adds two things to the email frame: أَتَشَرَّفُ بِأَنْ + a verb to present your request, and the plural of respect: you write to one reader as if to several people (تَفَضَّلُوا, رَدِّكُمْ).",
-    "formula": "السَّيِّد … الْمُحْتَرَم، → تَحِيَّة طَيِّبَة وَبَعْدُ، → أَتَشَرَّفُ بِأَنْ + verb → أَرْجُو أَنْ تَتَفَضَّلُوا بِـ + masdar → وَتَفَضَّلُوا بِقَبُولِ فَائِقِ الِاحْتِرَام + name",
-    "explanation": "To an official, open with السَّيِّد (Mr) or السَّيِّدَة (Mrs, Ms) + the title + الْمُحْتَرَم or الْمُحْتَرَمَة, then تَحِيَّة طَيِّبَة وَبَعْدُ. Present the request with أَتَشَرَّفُ بِأَنْ (I have the honour to) + a present verb ending in -a: أَتَشَرَّفُ بِأَنْ أَتَقَدَّمَ بِطَلَبِ مِنْحَةٍ (I have the honour to apply for a scholarship). The new idea is the plural of respect: in a formal letter the one reader is addressed in the plural, so the verbs end in -ū and 'your' is -kum: تَتَفَضَّلُوا (you be so kind), رَدِّكُمْ (your reply), بِجَامِعَتِكُمْ (at your university). After تَفَضَّلُوا comes بِـ + a masdar: أَرْجُو أَنْ تَتَفَضَّلُوا بِقَبُولِ طَلَبِي (I kindly ask you to accept my application). The fixed closing is وَتَفَضَّلُوا بِقَبُولِ فَائِقِ الِاحْتِرَام (Yours faithfully), then your name.",
+    "formula": "السَّيِّد … الْمُحْتَرَم، → تَحِيَّةً طَيِّبَةً وَبَعْدُ، → أَتَشَرَّفُ بِأَنْ + verb → أَرْجُو أَنْ تَتَفَضَّلُوا بِـ + masdar → وَتَفَضَّلُوا بِقَبُولِ فَائِقِ الِاحْتِرَام + name",
+    "explanation": "To an official, open with السَّيِّد (Mr) or السَّيِّدَة (Mrs, Ms) + the title + الْمُحْتَرَم or الْمُحْتَرَمَة, then تَحِيَّةً طَيِّبَةً وَبَعْدُ. Present the request with أَتَشَرَّفُ بِأَنْ (I have the honour to) + a present verb ending in -a: أَتَشَرَّفُ بِأَنْ أَتَقَدَّمَ بِطَلَبِ مِنْحَةٍ (I have the honour to apply for a scholarship). The new idea is the plural of respect: in a formal letter the one reader is addressed in the plural, so the verbs end in -ū and 'your' is -kum: تَتَفَضَّلُوا (you be so kind), رَدِّكُمْ (your reply), بِجَامِعَتِكُمْ (at your university). After تَفَضَّلُوا comes بِـ + a masdar: أَرْجُو أَنْ تَتَفَضَّلُوا بِقَبُولِ طَلَبِي (I kindly ask you to accept my application). The fixed closing is وَتَفَضَّلُوا بِقَبُولِ فَائِقِ الِاحْتِرَام (Yours faithfully), then your name.",
     "table": {
       "head": [
         "Part",

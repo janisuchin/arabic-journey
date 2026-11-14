@@ -150,9 +150,9 @@
     },
     {
       "id": "d80s3",
-      "ar": "إِنْ دَرَسْتَ كُلَّ يَوْمٍ، نَجَحْتَ فِي امْتِحَانِ الْأُسْبُوعِ.",
+      "ar": "إِنْ دَرَسْتَ كُلَّ يَوْمٍ، فَسَتَنْجَحُ فِي امْتِحَانِ الْأُسْبُوعِ.",
       "en": "If you study every day, you'll pass the week test.",
-      "literal": "if you studied every day, you succeeded in (the) test (of) the week",
+      "literal": "if you studied every day, so you will succeed in (the) test (of) the week",
       "segs": [
         [
           "إِنْ",
@@ -175,8 +175,8 @@
           "noun"
         ],
         [
-          "نَجَحْتَ",
-          "you succeeded ('will pass', to a man)",
+          "فَسَتَنْجَحُ",
+          "then you will succeed ('you'll pass', to a man)",
           "verb"
         ],
         [

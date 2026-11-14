@@ -389,7 +389,7 @@
       {
         "id": "d31l3",
         "sp": "layla",
-        "ar": "لَيْسَ عِنْدَكَ ثَلَّاجَة؟ إِذَنْ أَيْنَ الْحَلِيب وَالْمَاء؟ الْجَوّ حَارّ جِدًّا!",
+        "ar": "لَيْسَ عِنْدَكَ ثَلَّاجَة؟ إِذًا أَيْنَ الْحَلِيب وَالْمَاء؟ الْجَوّ حَارّ جِدًّا!",
         "en": "You don't have a fridge? So where are the milk and the water? It's very hot!",
         "segs": [
           [
@@ -405,7 +405,7 @@
             "fridge"
           ],
           [
-            "إِذَنْ",
+            "إِذًا",
             "so, then"
           ],
           [
@@ -805,7 +805,7 @@
         "id": "d31l11",
         "sp": "daniel",
         "ar": "يَا سَلَام، شُكْرًا جَزِيلًا! مَنْ فِي الْبَيْت؟ لَكَ أَخ وَأُخْت، صَحِيح؟",
-        "en": "Wow, thank you very much! Who lives in the house? You have a brother and a sister, right?",
+        "en": "Wow, thank you very much! Who is in the house? You have a brother and a sister, right?",
         "segs": [
           [
             "يَا",

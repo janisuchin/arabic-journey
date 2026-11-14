@@ -17,11 +17,11 @@
   ],
   "emoji": "💬",
   "summary": "Give your opinion with فِي رَأْيِي and أَعْتَقِدُ أَنَّ…, ask other people what they think, and agree or disagree politely.",
-  "intro": "Mr Karim starts a class debate: is the internet better than books? To give an opinion, begin with فِي رَأْيِي (in my opinion), or say أَعْتَقِدُ أَنَّ… (I believe that…) or أَظُنُّ أَنَّ… (I think that…). As you know, after أَنَّ the noun ends in -a. Ask مَا رَأْيُكَ؟ (what do you think?), agree with أُوَافِقُ or مَعَكَ حَقّ (you're right), and disagree politely with مَعَ احْتِرَامِي، لَا أُوَافِقُ (with respect, I don't agree).",
+  "intro": "Mr Karim starts a class debate: is the internet better than books? To give an opinion, begin with فِي رَأْيِي (in my opinion), or say أَعْتَقِدُ أَنَّ… (I believe that…) or أَظُنُّ أَنَّ… (I think that…). As you know, after أَنَّ the noun ends in -a. Ask مَا رَأْيُكَ؟ (what do you think?), agree with أُوَافِقُ or أَنْتَ عَلَى حَقّ (you're right), and disagree politely with مَعَ احْتِرَامِي، لَا أُوَافِقُ (with respect, I don't agree).",
   "objectives": [
     "Give an opinion with فِي رَأْيِي and أَعْتَقِدُ أَنَّ…",
     "Ask a man, a woman or a group what they think",
-    "Agree with أُوَافِقُ and مَعَكَ حَقّ, and disagree politely",
+    "Agree with أُوَافِقُ and أَنْتَ عَلَى حَقّ, and disagree politely",
     "Say that something is important, useful or a mistake"
   ],
   "realLife": {
@@ -175,9 +175,9 @@
     },
     {
       "id": "d76s4",
-      "ar": "أُوَافِقُكَ، مَعَكَ حَقّ.",
+      "ar": "أُوَافِقُكَ، أَنْتَ عَلَى حَقّ.",
       "en": "I agree with you; you're right.",
-      "literal": "I agree with you, with you (is the) truth",
+      "literal": "I agree with you, you (are) on (the) right",
       "segs": [
         [
           "أُوَافِقُكَ",
@@ -185,8 +185,13 @@
           "verb"
         ],
         [
-          "مَعَكَ",
-          "with you (to a man)",
+          "أَنْتَ",
+          "you (to a man)",
+          "pronoun"
+        ],
+        [
+          "عَلَى",
+          "on (ʿalā ḥaqq: in the right)",
           "prep"
         ],
         [
@@ -670,12 +675,16 @@
       {
         "id": "d76l7",
         "sp": "layla",
-        "ar": "مَعَكَ حَقّ يَا دَانْيَال! وَعَلَى الْإِنْتَرْنِت هُنَاكَ أَخْطَاء كَثِيرَة وَأَخْبَار غَيْرُ صَحِيحَة.",
+        "ar": "أَنْتَ عَلَى حَقّ يَا دَانْيَال! وَعَلَى الْإِنْتَرْنِت هُنَاكَ أَخْطَاء كَثِيرَة وَأَخْبَار غَيْرُ صَحِيحَة.",
         "en": "You're right, Daniel! And on the internet there are lots of mistakes and news that isn't true.",
         "segs": [
           [
-            "مَعَكَ",
-            "with you (to a man)"
+            "أَنْتَ",
+            "you (to a man)"
+          ],
+          [
+            "عَلَى",
+            "on (ʿalā ḥaqq: in the right)"
           ],
           [
             "حَقّ",
@@ -1188,11 +1197,11 @@
       {
         "id": "d76l15",
         "sp": "daniel",
-        "ar": "إِذَنْ فِي رَأْيِي، سَامِي يُوَافِقُ لَيْلَى الْآنَ: الْجَدُّ أَحْسَنُ مِنَ الْإِنْتَرْنِت!",
+        "ar": "إِذًا فِي رَأْيِي، سَامِي يُوَافِقُ لَيْلَى الْآنَ: الْجَدُّ أَحْسَنُ مِنَ الْإِنْتَرْنِت!",
         "en": "So in my opinion, Sami agrees with Layla now: a grandfather is better than the internet!",
         "segs": [
           [
-            "إِذَنْ",
+            "إِذًا",
             "so, then"
           ],
           [
@@ -1456,9 +1465,9 @@
       "prompt": "How do you say 'You're right' to a man?",
       "options": [
         "لَا أُوَافِقُ",
-        "مَعَكِ حَقّ",
+        "أَنْتِ عَلَى حَقّ",
         "أَظُنُّ",
-        "مَعَكَ حَقّ"
+        "أَنْتَ عَلَى حَقّ"
       ],
       "answer": 3
     },

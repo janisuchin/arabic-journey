@@ -184,7 +184,7 @@
         }
       },
       "body": [
-        "Many Arabic first names are ordinary words with a clear meaning. كَرِيم means 'generous', أَمَل means 'hope' and نُور means 'light'. لَيْلَى is usually linked with لَيْل ('night'). Some names are given to both boys and girls; Nur is one of them. Many families also give a child the name of a grandparent, and a first son is often named after his father's father.",
+        "Many Arabic first names are ordinary words with a clear meaning. كَرِيم means 'generous', أَمَل means 'hope' and نُور means 'light'. لَيْلَى is usually linked with لَيْل ('night'). Some names are given to both boys and girls; Nour is one of them. Many families also give a child the name of a grandparent, and a first son is often named after his father's father.",
         "Family names have many sources. Some come from a place, with the -ī ending you know from nationality words: الْمِصْرِيّ ('the Egyptian') or al-Ḥalabī ('from Aleppo'). Others come from an old family trade: النَّجَّار ('the carpenter'), الْحَدَّاد ('the smith') or الْخَيَّاط ('the tailor'). Others again come from an ancestor or a tribe. On a form, 'surname' is often written اِسْمُ الْعَائِلَة ('family name').",
         "Titles matter in polite speech. أُسْتَاذ means 'teacher' or 'professor', and in Egypt and the Levant it is also a polite 'Mr' for an educated man. دُكْتُور is used for medical doctors and for people with a doctorate. Arabic titles usually go with the first name, not the family name: الْأُسْتَاذ سَامِي ('Mr Sami') or الدُّكْتُورَة لَيْلَى ('Dr Layla')."
       ],
@@ -244,7 +244,7 @@
   "reading": {
     "title": "Abu Sami's family",
     "ar": "اِسْمِي سَامِي، وَأَنَا مِنْ عَمَّان. عَائِلَتِي كَبِيرَة. أَبِي اِسْمُهُ كَرِيم، وَالنَّاسُ يَقُولُونَ لَهُ أَبُو سَامِي، لِأَنِّي اِبْنُهُ الْأَكْبَر. أُمِّي اِسْمُهَا نُور، وَأُخْتِي اِسْمُهَا أَمَل. يَوْمَ الْجُمُعَةِ نَزُورُ جَدِّي وَجَدَّتِي. نَقُولُ: السَّلَامُ عَلَيْكُمْ. وَجَدِّي يَقُولُ: وَعَلَيْكُمُ السَّلَامُ، أَهْلًا وَسَهْلًا. ثُمَّ يَسْأَلُ: كَيْفَ حَالُ الْعَائِلَة؟ نَأْكُلُ مَعًا وَنَتَكَلَّمُ كَثِيرًا. أُحِبُّ يَوْمَ الْجُمُعَة.",
-    "en": "My name is Sami, and I'm from Amman. My family is big. My father's name is Karim, and people call him Abu Sami, because I am his eldest son. My mother's name is Nur, and my sister's name is Amal. On Friday we visit my grandfather and grandmother. We say: 'Peace be upon you.' And my grandfather says: 'And upon you be peace, welcome!' Then he asks: 'How is the family?' We eat together and talk a lot. I love Fridays.",
+    "en": "My name is Sami, and I'm from Amman. My family is big. My father's name is Karim, and people call him Abu Sami, because I am his eldest son. My mother's name is Nour, and my sister's name is Amal. On Friday we visit my grandfather and grandmother. We say: 'Peace be upon you.' And my grandfather says: 'And upon you be peace, welcome!' Then he asks: 'How is the family?' We eat together and talk a lot. I love Fridays.",
     "segs": [
       ["اِسْمِي", "my name"],
       ["سَامِي", "Sami (first name)", "name"],
@@ -266,7 +266,7 @@
       ["الْأَكْبَر", "the eldest"],
       ["أُمِّي", "my mother"],
       ["اِسْمُهَا", "her name"],
-      ["نُور", "Nur (first name)", "name"],
+      ["نُور", "Nour (first name)", "name"],
       ["وَأُخْتِي", "and my sister"],
       ["اِسْمُهَا", "her name"],
       ["أَمَل", "Amal (first name)", "name"],

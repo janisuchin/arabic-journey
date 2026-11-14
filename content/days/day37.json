@@ -90,7 +90,7 @@
     },
     {
       "id": "d37s2",
-      "ar": "زُرْنَا قَلْعَةَ قَايْتْبَايْ.",
+      "ar": "زُرْنَا قَلْعَةَ قَايْتْبَاي.",
       "en": "We visited the Qaitbay Citadel.",
       "literal": "we visited (the) castle (of) Qaitbay",
       "segs": [
@@ -105,7 +105,7 @@
           "noun"
         ],
         [
-          "قَايْتْبَايْ",
+          "قَايْتْبَاي",
           "Qaitbay (a sultan of Egypt)",
           "name"
         ]
@@ -318,7 +318,7 @@
       {
         "id": "d37l2",
         "sp": "daniel",
-        "ar": "أَوَّلًا زُرْنَا قَلْعَةَ قَايْتْبَايْ. هِيَ قَلْعَة قَدِيمَة وَجَمِيلَة جِدًّا عَلَى الْبَحْر.",
+        "ar": "أَوَّلًا زُرْنَا قَلْعَةَ قَايْتْبَاي. هِيَ قَلْعَة قَدِيمَة وَجَمِيلَة جِدًّا عَلَى الْبَحْر.",
         "en": "First we visited the Qaitbay Citadel. It is a very old and beautiful castle by the sea.",
         "segs": [
           [
@@ -334,7 +334,7 @@
             "castle (of), citadel (of)"
           ],
           [
-            "قَايْتْبَايْ",
+            "قَايْتْبَاي",
             "Qaitbay (a sultan of Egypt)",
             "name"
           ],
@@ -979,7 +979,7 @@
   },
   "reading": {
     "title": "Sami's version",
-    "ar": "زُرْنَا قَلْعَةَ قَايْتْبَايْ، وَصَوَّرَ دَانْيَال الْقِطَط. أَنَا سَبَحْتُ فِي الْبَحْر، لٰكِنْ دَانْيَال مَا سَبَحَ. شَرِبَ عَصِيرًا عَلَى الشَّاطِئ. مَا زُرْنَا الْمَكْتَبَة.",
+    "ar": "زُرْنَا قَلْعَةَ قَايْتْبَاي، وَصَوَّرَ دَانْيَال الْقِطَط. أَنَا سَبَحْتُ فِي الْبَحْر، لٰكِنْ دَانْيَال مَا سَبَحَ. شَرِبَ عَصِيرًا عَلَى الشَّاطِئ. مَا زُرْنَا الْمَكْتَبَة.",
     "en": "We visited the Qaitbay Citadel, and Daniel photographed the cats. I swam in the sea, but Daniel didn't swim. He drank a juice on the beach. We didn't visit the library.",
     "segs": [
       [
@@ -991,7 +991,7 @@
         "castle (of), citadel (of)"
       ],
       [
-        "قَايْتْبَايْ",
+        "قَايْتْبَاي",
         "Qaitbay (a sultan of Egypt)",
         "name"
       ],

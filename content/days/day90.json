@@ -1566,8 +1566,8 @@
   },
   "reading": {
     "title": "The last day",
-    "ar": "فِي آخِرِ يَوْمٍ مِنَ الدَّوْرَةِ أَقَامَ الْأُسْتَاذ كَرِيم حَفْلَةَ تَخَرُّجٍ، وَأَعْطَى كُلَّ طَالِبٍ شَهَادَة. قَالَ دَانْيَال إِنَّهُ سَيُسَافِرُ إِلَى الْأُرْدُنّ. وَهَدَفُ لَيْلَى أَنْ تَقْرَأَ رِوَايَةً كُلَّ شَهْر، وَسَامِي سَيَكْتُبُ قِصَّةً كُلَّ أُسْبُوع. وَنَصَحَهُمْ بِأَنْ يَقْرَؤُوا يَوْمِيًّا وَيَبْحَثُوا عَنْ شَرِيكِ مُحَادَثَة. هٰذِهِ لَيْسَتْ نِهَايَة، بَلْ بِدَايَة.",
-    "en": "On the last day of the course, Mr Karim held a graduation party and gave every student a certificate. Daniel said that he will travel to Jordan. Layla's goal is to read a novel every month, and Sami will write a story every week. He advised them to read daily and to look for a conversation partner. This is not an end, but a beginning.",
+    "ar": "فِي آخِرِ يَوْمٍ مِنَ الدَّوْرَةِ أَقَامَ الْأُسْتَاذ كَرِيم حَفْلَةَ تَخَرُّجٍ، وَأَعْطَى كُلَّ طَالِبٍ شَهَادَة. قَالَ دَانْيَال إِنَّهُ سَيُسَافِرُ إِلَى الْأُرْدُنّ. وَهَدَفُ لَيْلَى أَنْ تَقْرَأَ رِوَايَةً كُلَّ شَهْر، وَسَامِي سَيَكْتُبُ قِصَّةً كُلَّ أُسْبُوع. وَنَصَحَهُمُ الْأُسْتَاذُ كَرِيم بِأَنْ يَقْرَؤُوا يَوْمِيًّا وَيَبْحَثُوا عَنْ شَرِيكِ مُحَادَثَة. هٰذِهِ لَيْسَتْ نِهَايَة، بَلْ بِدَايَة.",
+    "en": "On the last day of the course, Mr Karim held a graduation party and gave every student a certificate. Daniel said that he will travel to Jordan. Layla's goal is to read a novel every month, and Sami will write a story every week. Mr Karim advised them to read daily and to look for a conversation partner. This is not an end, but a beginning.",
     "segs": [
       [
         "فِي",
@@ -1703,8 +1703,17 @@
         "week"
       ],
       [
-        "وَنَصَحَهُمْ",
+        "وَنَصَحَهُمُ",
         "and (he) advised them"
+      ],
+      [
+        "الْأُسْتَاذُ",
+        "the teacher, Mr"
+      ],
+      [
+        "كَرِيم",
+        "Karim (first name)",
+        "name"
       ],
       [
         "بِأَنْ",
