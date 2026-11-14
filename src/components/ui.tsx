@@ -383,7 +383,8 @@ export function Screen({
         {right}
       </Row>
     ) : null;
-  const body = <View style={styles.inner}>{children}</View>;
+  // without the page scroll, the body must fill the screen (flex 1, minHeight 0) so a list inside it scrolls itself
+  const body = <View style={[styles.inner, !scroll && { flex: 1, minHeight: 0 }]}>{children}</View>;
   return (
     <SafeAreaView style={{ flex: 1, backgroundColor: c.bg }} edges={['top', 'left', 'right']} testID={testID}>
       {header}
@@ -392,7 +393,7 @@ export function Screen({
           {body}
         </ScrollView>
       ) : (
-        <View style={[styles.scroll, { flex: 1 }]}>{body}</View>
+        <View style={[styles.scroll, { flex: 1, minHeight: 0, paddingBottom: 0 }]}>{body}</View>
       )}
     </SafeAreaView>
   );

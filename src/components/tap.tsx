@@ -1,12 +1,14 @@
 // Tap-to-hear: every Arabic word can be tapped, heard and understood. A tap reads the word aloud,
 // highlights it in both the script line and the transliteration line, and opens the word box.
 
+import { router } from 'expo-router';
 import { createContext, useContext, useMemo, useState, type ReactNode } from 'react';
 import { Modal, Platform, Pressable, ScrollView, Text, View, type LayoutChangeEvent } from 'react-native';
 
 import { AR_START, START, webLang } from '../base/rtl';
 import { isolateLtr, isolateRtl, stripHarakat } from '../core/arabic';
 import { wordPhotoByVocab } from '../content';
+import { dictionaryLookup } from '../content/dictionary';
 import { GENDER_LABEL, type Seg } from '../content/schema';
 import {
   namesSet,
@@ -223,6 +225,19 @@ export function WordBox({ info, onClose, floating }: { info: WordInfo; onClose: 
           Computer-generated voice, not a native-speaker recording.
         </AppText>
       </Row>
+      <Pressable
+        accessibilityRole="link"
+        testID="word-box-dictionary"
+        onPress={() => {
+          const q = dictionaryLookup(info.word, v?.ar);
+          onClose();
+          router.push({ pathname: '/dictionary', params: { q } });
+        }}
+        style={{ minHeight: 44, justifyContent: 'center' }}>
+        <AppText weight="700" color={c.accent}>
+          📖 Look it up in the dictionary
+        </AppText>
+      </Pressable>
     </View>
   );
   if (!floating) return content;

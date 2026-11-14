@@ -142,6 +142,44 @@ test('5,000-word dictionary: non-course words are searchable and the topic view 
   await expect(page.getByTestId('dict-count')).toContainText('course words');
 });
 
+test('tap a word → look it up in the dictionary (article stripped)', async ({ page }) => {
+  await newLearner(page);
+  await page.goto('/grammar/greetings');
+  await page.getByTestId('cell-0-0').getByTestId('tap-word-0').click();
+  await page.getByTestId('word-box-dictionary').click();
+  await expect(page.getByTestId('dictionary')).toBeVisible();
+  await expect(page.getByTestId('search-input')).toHaveValue('سلام');
+  await expect(page.getByTestId('dict-count')).toContainText('matches');
+  await expect(page.getByText('سَلَام', { exact: true }).first()).toBeVisible();
+});
+
+test('dictionary list scrolls inside the screen down to the footer', async ({ page }) => {
+  await newLearner(page);
+  await page.goto('/dictionary');
+  await page.getByTestId('search-input').fill('إ');
+  await expect(page.getByTestId('dict-count')).toContainText('matches');
+  // the list is its own scroll area, no taller than the screen (it used to grow to full height and be clipped)
+  const box = await page.getByTestId('dict-count').evaluate((el) => {
+    let p = el.parentElement;
+    while (p && getComputedStyle(p).overflowY !== 'auto' && getComputedStyle(p).overflowY !== 'scroll') p = p.parentElement;
+    if (!p) return null;
+    p.setAttribute('data-e2e', 'dict-scroller');
+    return { h: p.clientHeight, sh: p.scrollHeight, win: innerHeight };
+  });
+  expect(box).not.toBeNull();
+  expect(box!.h).toBeLessThanOrEqual(box!.win);
+  expect(box!.sh).toBeGreaterThan(box!.h);
+  const footer = page.getByText('Words and meanings: English Wiktionary', { exact: false });
+  await expect
+    .poll(async () => {
+      await page.locator('[data-e2e="dict-scroller"]').evaluate((el) => el.scrollBy(0, 1500));
+      return footer.isVisible();
+    })
+    .toBe(true);
+  await footer.scrollIntoViewIfNeeded();
+  await expect(footer).toBeInViewport();
+});
+
 test('settings: dark theme and transliteration toggle', async ({ page }) => {
   await newLearner(page);
   await page.goto('/settings');

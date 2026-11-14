@@ -81,6 +81,34 @@ function searchKeys(): Keys[] {
 const escape = (s: string) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 
 /**
+ * Tap → dictionary: the search text for a tapped word. Tries the word as written, then without a leading wa-/fa-,
+ * bi-/li-/ka-, the article al- (also lil-) and the feminine/case endings the headword does not carry, and returns
+ * the first form that is a dictionary entry (headword, present tense or plural). Falls back to the bare word.
+ */
+export function dictionaryLookup(word: string, base?: string): string {
+  const all = searchKeys();
+  const has = (n: string) => n.length > 1 && all.some((k) => k.ar.includes(n));
+  const tries: string[] = [];
+  const add = (s?: string) => {
+    if (!s) return;
+    const n = normaliseAnswer(s);
+    if (n && !tries.includes(n)) tries.push(n);
+  };
+  add(base);
+  const w = normaliseAnswer(word);
+  add(w);
+  for (const a of [w, w.replace(/^[وف]/, '')]) {
+    add(a);
+    const b = a.replace(/^[بلك]/, '');
+    add(b);
+    add(a.replace(/^لل/, ''));
+    for (const x of [a, b]) add(x.replace(/^ال/, ''));
+  }
+  for (const t of [...tries]) add(t.replace(/(ا|ة|ه|ها|هم|ك|ي|نا)$/, ''));
+  return tries.find(has) ?? normaliseAnswer(base ?? word);
+}
+
+/**
  * Search by Arabic (with or without harakat), transliteration or English. Exact matches first, then words that
  * start with the search, then the rest; frequency order inside each group.
  */

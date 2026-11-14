@@ -36,11 +36,15 @@ https://ar-journey.german-journey.workers.dev · unlocked https://ar-journey-unl
   `scripts/check-roleplays.ts`. 4 writer agents + 2 fresh cross-checkers (3 errors, 6 improvements applied).
 - Checks: validator 0 errors, 119 unit tests, typecheck/lint/format clean, e2e 30/30 (port 4191). Both editions
   deployed 2026-11-14 and verified live (role-play chunk served).
+- 2026-11-14 owner report: the Dictionary page did not scroll. Cause: `Screen scroll={false}` gave its body no
+  flex, so the word list grew to full height (14,323 px) and was clipped. Fixed in `src/components/ui.tsx`; e2e test
+  proves the list is its own scroll area. Also built tap-a-word → dictionary: word box button "Look it up in the
+  dictionary" (`dictionaryLookup` strips wa-/fa-/bi-/li-/ka-/al- to the headword). Unit 120, e2e 32/32.
 
 ## Left
 0. Dictionary limits: AI review only; rows were seen by one reviewer (only Arabic-changing fixes cross-checked);
    ranking is approximate (unvocalised subtitles share counts between homographs). Course verbs show their
-   present-tense course card. Optional later: a second review pass on meanings, or tap-a-word → dictionary lookup.
+   present-tense course card. Optional later: a second review pass on meanings.
 - Pronunciation: audio is the device voice; AI reviewers cannot hear it. Quality depends on the voice (old desktop
   voices skip harakat, e.g. بُنِيَتْ → "bunī"; Edge Natural / Google voices read them). Pre-generated neural audio
   would need a paid TTS key (owner decision).

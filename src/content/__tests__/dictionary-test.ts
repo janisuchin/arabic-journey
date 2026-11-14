@@ -1,4 +1,4 @@
-import { dictionary, latinKey, searchDictionary } from '../dictionary';
+import { dictionary, dictionaryLookup, latinKey, searchDictionary } from '../dictionary';
 import { vocabulary } from '../index';
 
 const HARAKA = /[ً-ْٰ]/;
@@ -46,5 +46,17 @@ describe('5,000-word dictionary', () => {
   it('latin keys ignore macrons, ʿ/ʾ and hyphens', () => {
     expect(latinKey('al-ʿarabiyya')).toBe('alarabiyya');
     expect(latinKey('kitāb')).toBe('kitab');
+  });
+  it('tap lookup strips wa-/bi-/li-/al- and finds the headword', () => {
+    expect(dictionaryLookup('الْكِتَابُ')).toBe('كتاب');
+    expect(dictionaryLookup('وَالْمَدِينَةِ')).toBe('مدينة');
+    expect(dictionaryLookup('بِالسَّيَّارَةِ')).toBe('سيارة');
+    expect(dictionaryLookup('لِلْمَدْرَسَةِ')).toBe('مدرسة');
+    // a word that starts with و keeps it
+    expect(dictionaryLookup('وَقْتٌ')).toBe('وقت');
+    // the course form wins when given
+    expect(dictionaryLookup('بَيْتِي', 'بَيْت')).toBe('بيت');
+    for (const q of ['كتاب', 'مدينة', 'سيارة', 'مدرسة', 'وقت', 'بيت'])
+      expect(searchDictionary(q, 1)[0]).toBeDefined();
   });
 });
