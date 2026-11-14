@@ -31,12 +31,12 @@ const SKIP_KEYS = new Set([
 ]);
 const names = namesSet();
 
-function tr(s: string, path = '') {
+function tr(s: string, path = '', lineNames = names) {
   // English prose with Arabic inside (and a grammar formula) is read the way RichText reads it: run by run, no
   // sentence capital, letters named, a run whose reading the English already gives stays in Arabic
   const prose = /[A-Za-z]{2}/.test(s) || /(^|\.)formula$/.test(path);
   try {
-    return prose ? proseLine(s, 'academic', filePlace === 'pron:wasl') : translitLine(s, 'academic', names);
+    return prose ? proseLine(s, 'academic', filePlace === 'pron:wasl') : translitLine(s, 'academic', lineNames);
   } catch {
     return '(no transliteration)';
   }
@@ -60,13 +60,13 @@ function tapLine(s: string, path: string) {
 const isSeg = (v: unknown): v is [string, string, string?] =>
   Array.isArray(v) && v.length >= 2 && v.length <= 3 && typeof v[0] === 'string' && typeof v[1] === 'string' && hasScript(v[0]);
 
-function walk(v: unknown, path: string, out: string[], inSegs: boolean) {
+function walk(v: unknown, path: string, out: string[], inSegs: boolean, lineNames = names) {
   if (v === null || v === undefined) return;
   if (typeof v === 'string') {
     if (!v.trim()) return;
     if (hasScript(v)) {
       out.push(`${path}: ${v}`);
-      out.push(`${' '.repeat(2)}⟶ ${tr(v, path)}`);
+      out.push(`${' '.repeat(2)}⟶ ${tr(v, path, lineNames)}`);
       if (!inSegs) {
         const t = tapLine(v, path);
         if (t) out.push(`${' '.repeat(2)}tap: ${t}`);
@@ -96,7 +96,10 @@ function walk(v: unknown, path: string, out: string[], inSegs: boolean) {
     for (const [k, x] of Object.entries(o)) {
       if (SKIP_KEYS.has(k)) continue;
       const hasSegs = 'segs' in o && Array.isArray(o.segs) && (o.segs as unknown[]).length > 0;
-      walk(x, path ? `${path}.${k}` : k, out, k === 'ar' && hasSegs);
+      // as the app does (TapText/GlossLine): a line's own segs add its names (Karīm the name, not karīm "generous")
+      const segNames = hasSegs ? (o.segs as unknown[]).filter(isSeg).filter((g) => g[2] === 'name') : [];
+      const own = k === 'ar' && segNames.length ? new Set([...names, ...segNames.map((g) => g[0])]) : names;
+      walk(x, path ? `${path}.${k}` : k, out, k === 'ar' && hasSegs, own);
     }
   }
 }

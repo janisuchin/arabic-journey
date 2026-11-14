@@ -16,7 +16,8 @@
   },
   "أَخَذَ": {
     "vocab:yakhudhu": "(he) took",
-    "vocab:eidiyya": "(he) took, got"
+    "vocab:eidiyya": "(he) took, got",
+    "*": "(he) took, got"
   },
   "أَخِي": {
     "grammar:family-idafa-w5": "my brother; also brother (of) after a preposition"
@@ -53,6 +54,9 @@
   "أَكْثَرُ": {
     "culture:cul.desert": "most (of); more"
   },
+  "أَلِف": {
+    "letter:alif": "the name of the letter alif"
+  },
   "أَنَامَ": {
     "week:8": "I sleep (form after an / lan)",
     "vocab:lan": "I sleep (form after an / lan)"
@@ -81,7 +85,8 @@
     "grammar:qala-inna": "if, whether (in a reported question)"
   },
   "الثَّلْجُ": {
-    "grammar:weather-expressions": "the snow"
+    "grammar:weather-expressions": "the snow",
+    "vocab:thalj": "the snow"
   },
   "الرِّسَالَةَ": {
     "week:13": "the letter, the message"
@@ -151,6 +156,9 @@
     "scenario:weather-plans": "the mountain",
     "scenario:lost-phone-help": "the mountain"
   },
+  "الْجِبَال": {
+    "vocab:ala-w9": "the mountains ('hills': Amman's jabals)"
+  },
   "الْحَرَارَة": {
     "vocab:daraja": "the heat (darajatu l-ḥarāra: the temperature)"
   },
@@ -185,6 +193,10 @@
     "scenario:bank": "the desk, the counter; the office",
     "scenario:machines": "the desk, the counter; the office",
     "scenario:school": "the desk, the counter; the office"
+  },
+  "الْمَكْتَبَة": {
+    "vocab:maktaba": "the bookshop; the library",
+    "vocab:thalith": "the bookshop; the library"
   },
   "الْمَلْعَبَ": {
     "*": "the pitch, the sports ground"
@@ -303,6 +315,12 @@
   "تَنْتَظِرَكَ": {
     "grammar:conditional-w12": "(it, f) waits for you (after lan; to a man)"
   },
+  "تَنْسَ": {
+    "vocab:yansa": "you forget (form after lā: lā tansa, don't forget; to a man)"
+  },
+  "تَنْسَيْ": {
+    "vocab:yansa": "you forget (form after lā: lā tansay, don't forget; to a woman)"
+  },
   "تُحِبُّ": {
     "vocab:ughniya": "she loves, she likes",
     "vocab:yuhibbu": "you love, you like (to a man); she loves",
@@ -349,6 +367,9 @@
   "حَرْب": {
     "*": "war; Harb (in the street name Talaat Harb)"
   },
+  "خَالَة": {
+    "scenario:morning-routine": "aunt (also a polite address for an older woman)"
+  },
   "خَرَجْتُ": {
     "vocab:kharaja": "I went out, I left"
   },
@@ -385,7 +406,8 @@
   },
   "سَتَأْتِي": {
     "*": "she will come; you will come (to a man)",
-    "day:52": "will you come? (to a man); she will come"
+    "day:52": "will you come? (to a man); she will come",
+    "grammar:li-purpose": "she will come; you will come (to a man)"
   },
   "سَتَكُونُ": {
     "day:53": "(it) will be (f)",
@@ -482,6 +504,9 @@
     "vocab:yabhathu": "for (after yabḥathu: looks for); about",
     "vocab:markaz": "for (after yabḥathu: looks for); about"
   },
+  "عَيْن": {
+    "letter:ayn": "the name of the letter ʿayn (the word also means 'eye')"
+  },
   "عُنْوَانُ": {
     "day:86": "headline, title (of)"
   },
@@ -537,6 +562,9 @@
   "قَلِيل": {
     "grammar:comparative": "few, little",
     "vocab:aqall": "little, few"
+  },
+  "كَبِيرَة": {
+    "vocab:jadda": "old (f), lit. big (kabīra fi s-sinn, 'big in age')"
   },
   "كَتَبْـ": {
     "placard:pc.past-tense": "katab- (the past-tense stem of 'to write')"
@@ -695,7 +723,8 @@
     "pron:diphthongs": "the letter wāw (with sukūn: the glide aw)"
   },
   "يَتَسَاقَطُ": {
-    "grammar:weather-expressions": "falls (snow, rain)"
+    "grammar:weather-expressions": "falls (snow, rain)",
+    "vocab:thalj": "falls (snow, rain)"
   },
   "يَتَغَيَّرُ": {
     "vocab:munakh": "(it) changes, is changing"
@@ -710,6 +739,10 @@
   "يَسْتَيْقِظُ": {
     "week:2": "he wakes up"
   },
+  "يَسْكُنُ": {
+    "vocab:yaskunu": "(he) lives",
+    "vocab:aqarib": "live (lit. lives: the verb comes first)"
+  },
   "يَصُومُ": {
     "vocab:ramadan": "(they) fast (verb first: singular)"
   },
@@ -719,8 +752,10 @@
   "يَقْرَؤُهَا": {
     "*": "he reads it (f), them (things)"
   },
+  "يَكُونُ": {
+    "vocab:kana": "is, will be (present of kāna)"
+  },
   "يَنْزِلُ": {
-    "grammar:weather-expressions": "falls, comes down (rain, snow); gets off",
     "vocab:thalj": "falls, comes down (of snow, rain)",
     "vocab:ahyanan": "falls, comes down (of snow, rain)"
   },
@@ -732,5 +767,8 @@
   },
   "يُرَاجِعُ": {
     "vocab:muraja": "revises, reviews"
+  },
+  "يْ": {
+    "pron:diphthongs": "the letter yāʾ (with sukūn: the glide ay)"
   }
 }

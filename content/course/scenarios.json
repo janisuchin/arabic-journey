@@ -54,7 +54,7 @@
         { "id": "t3", "sp": "layla", "ar": "كَمِ الْأُجْرَة إِلَى الْمَتْحَف، مِنْ فَضْلِكَ؟", "en": "How much is the fare to the museum, please?",
           "segs": [["كَمِ", "how much, how many"], ["الْأُجْرَة", "the fare"], ["إِلَى", "to"], ["الْمَتْحَف", "the museum"], ["مِنْ", "from"], ["فَضْلِكَ", "your kindness (to a man): 'please'"]] },
         { "id": "t4", "sp": "driver", "ar": "خَمْسُونَ جُنَيْهًا. الطَّرِيق مُزْدَحِم الْيَوْم.", "en": "Fifty pounds. The road is crowded today.",
-          "segs": [["خَمْسُونَ", "fifty"], ["جُنَيْهًا", "pounds (after a number)"], ["الطَّرِيق", "the road"], ["مُزْدَحِم", "crowded"], ["الْيَوْم", "today"]] },
+          "segs": [["خَمْسُونَ", "fifty"], ["جُنَيْهًا", "pound (after 11–99)"], ["الطَّرِيق", "the road"], ["مُزْدَحِم", "crowded"], ["الْيَوْم", "today"]] },
         { "id": "t5", "sp": "layla", "ar": "خَمْسُونَ كَثِير! أَرْبَعُونَ، مِنْ فَضْلِكَ؟", "en": "Fifty is a lot! How about forty, please?",
           "segs": [["خَمْسُونَ", "fifty"], ["كَثِير", "a lot, much"], ["أَرْبَعُونَ", "forty"], ["مِنْ", "from"], ["فَضْلِكَ", "your kindness (to a man): 'please'"]] },
         { "id": "t6", "sp": "driver", "ar": "طَيِّب، أَرْبَعُونَ. تَفَضَّلِي!", "en": "OK, forty then. Please get in!",
@@ -66,7 +66,7 @@
         { "id": "t9", "sp": "driver", "ar": "هٰذَا هُوَ الْمَتْحَف الْمِصْرِيّ. وَصَلْنَا!", "en": "This is the Egyptian Museum. We have arrived!",
           "segs": [["هٰذَا", "this (m)"], ["هُوَ", "he, it (m)"], ["الْمَتْحَف", "the museum"], ["الْمِصْرِيّ", "the Egyptian (m)"], ["وَصَلْنَا", "we have arrived"]] },
         { "id": "t10", "sp": "layla", "ar": "شُكْرًا جَزِيلًا! تَفَضَّلْ، أَرْبَعُونَ جُنَيْهًا. مَعَ السَّلَامَة!", "en": "Thank you very much! Here you are, forty pounds. Goodbye!",
-          "segs": [["شُكْرًا", "thank you"], ["جَزِيلًا", "very much (lit. abundant)"], ["تَفَضَّلْ", "here you are (to a man)"], ["أَرْبَعُونَ", "forty"], ["جُنَيْهًا", "pounds (after a number)"], ["مَعَ", "with"], ["السَّلَامَة", "the safety"]] }
+          "segs": [["شُكْرًا", "thank you"], ["جَزِيلًا", "very much (lit. abundant)"], ["تَفَضَّلْ", "here you are (to a man)"], ["أَرْبَعُونَ", "forty"], ["جُنَيْهًا", "pound (after 11–99)"], ["مَعَ", "with"], ["السَّلَامَة", "the safety"]] }
       ]
     },
     "mistakes": [
@@ -5191,14 +5191,14 @@
     "title": "How was your holiday?",
     "emoji": "🏛️",
     "status": "needs-review",
-    "intro": "After the mid-term break your classmate Huda asks about your holiday. Tell her where you went, how you travelled and what it was like. Useful phrases: سَافَرْتُ (I travelled), كَانَتِ الرِّحْلَةُ … (the trip was …) and لَمْ نَذْهَبْ (we didn't go).",
+    "intro": "After the mid-term break your classmate Maryam asks about your holiday. Tell her where you went, how you travelled and what it was like. Useful phrases: سَافَرْتُ (I travelled), كَانَتِ الرِّحْلَةُ … (the trip was …) and لَمْ نَذْهَبْ (we didn't go).",
     "dialogue": {
       "title": "Luxor and Aswan",
       "speakers": [
         {
           "key": "huda",
-          "name": "Huda",
-          "nameAr": "هُدَى"
+          "name": "Maryam",
+          "nameAr": "مَرْيَم"
         },
         {
           "key": "daniel",
@@ -5621,8 +5621,8 @@
         {
           "id": "holiday-story-l10",
           "sp": "daniel",
-          "ar": "وَهَلْ خَرَجْتُمْ مَعًا يَا هُدَى؟",
-          "en": "And did you all go out together, Huda?",
+          "ar": "وَهَلْ خَرَجْتُمْ مَعًا يَا مَرْيَم؟",
+          "en": "And did you all go out together, Maryam?",
           "segs": [
             [
               "وَهَلْ",
@@ -5641,8 +5641,8 @@
               "O (calling someone)"
             ],
             [
-              "هُدَى",
-              "Huda (first name)",
+              "مَرْيَم",
+              "Maryam (first name)",
               "name"
             ]
           ]
@@ -6742,7 +6742,7 @@
             ],
             [
               "جُنَيْهًا",
-              "pounds (after a number)"
+              "pound (after 11–99)"
             ],
             [
               "سَلَامَتُهَا",
@@ -6845,14 +6845,14 @@
     "title": "A birthday invitation",
     "emoji": "🎈",
     "status": "needs-review",
-    "intro": "Your neighbour Huda knocks on your door to invite you to her son's birthday party. Useful phrases: جِئْتُ لِأَدْعُوَكَ (I've come to invite you), بِكُلِّ سُرُور (with pleasure) and كُلُّ عَامٍ وَهُوَ بِخَيْر (happy birthday to him).",
+    "intro": "Your neighbour Suad knocks on your door to invite you to her son's birthday party. Useful phrases: جِئْتُ لِأَدْعُوَكَ (I've come to invite you), بِكُلِّ سُرُور (with pleasure) and كُلُّ عَامٍ وَهُوَ بِخَيْر (happy birthday to him).",
     "dialogue": {
       "title": "A party in the garden",
       "speakers": [
         {
           "key": "huda",
-          "name": "Huda",
-          "nameAr": "هُدَى"
+          "name": "Suad",
+          "nameAr": "سُعَاد"
         },
         {
           "key": "daniel",
@@ -6865,8 +6865,8 @@
         {
           "id": "birthday-invitation-l1",
           "sp": "huda",
-          "ar": "مَسَاءُ الْخَيْر يَا فَيْصَل! أَنَا جَارَتُكَ هُدَى، مِنَ الطَّابِق الثَّالِث.",
-          "en": "Good evening, Faisal! I'm your neighbour Huda, from the third floor.",
+          "ar": "مَسَاءُ الْخَيْر يَا فَيْصَل! أَنَا جَارَتُكَ سُعَاد، مِنَ الطَّابِق الثَّالِث.",
+          "en": "Good evening, Faisal! I'm your neighbour Suad, from the third floor.",
           "segs": [
             [
               "مَسَاءُ",
@@ -6894,8 +6894,8 @@
               "your neighbour (a woman; to a man)"
             ],
             [
-              "هُدَى",
-              "Huda (first name)",
+              "سُعَاد",
+              "Suad (first name)",
               "name"
             ],
             [
@@ -6915,8 +6915,8 @@
         {
           "id": "birthday-invitation-l2",
           "sp": "daniel",
-          "ar": "مَسَاءُ النُّور يَا سَيِّدَة هُدَى! تَفَضَّلِي، كَيْفَ أَسْتَطِيعُ أَنْ أُسَاعِدَكِ؟",
-          "en": "Good evening, Mrs Huda! Please come in. How can I help you?",
+          "ar": "مَسَاءُ النُّور يَا سَيِّدَة سُعَاد! تَفَضَّلِي، كَيْفَ أَسْتَطِيعُ أَنْ أُسَاعِدَكِ؟",
+          "en": "Good evening, Mrs Suad! Please come in. How can I help you?",
           "segs": [
             [
               "مَسَاءُ",
@@ -6935,8 +6935,8 @@
               "Mrs, lady"
             ],
             [
-              "هُدَى",
-              "Huda (first name)",
+              "سُعَاد",
+              "Suad (first name)",
               "name"
             ],
             [
@@ -7426,8 +7426,8 @@
         {
           "id": "birthday-invitation-l12",
           "sp": "daniel",
-          "ar": "إِنْ شَاءَ اللّٰه. شُكْرًا مَرَّةً أُخْرَى، وَمَعَ السَّلَامَة يَا سَيِّدَة هُدَى!",
-          "en": "God willing. Thank you again, and goodbye, Mrs Huda!",
+          "ar": "إِنْ شَاءَ اللّٰه. شُكْرًا مَرَّةً أُخْرَى، وَمَعَ السَّلَامَة يَا سَيِّدَة سُعَاد!",
+          "en": "God willing. Thank you again, and goodbye, Mrs Suad!",
           "segs": [
             [
               "إِنْ",
@@ -7470,8 +7470,8 @@
               "Mrs, lady"
             ],
             [
-              "هُدَى",
-              "Huda (first name)",
+              "سُعَاد",
+              "Suad (first name)",
               "name"
             ]
           ]
@@ -7495,8 +7495,8 @@
         "id": "birthday-invitation-q1",
         "prompt": "Who is the party for?",
         "options": [
-          "Huda",
-          "Huda's son Adam",
+          "Suad",
+          "Suad's son Adam",
           "Faisal",
           "Sami's sister"
         ],
@@ -7678,7 +7678,7 @@
         {
           "id": "weather-plans-l3",
           "sp": "sami",
-          "ar": "عَادَةً نَعَم، فَالْبَحْر الْأَحْمَر دَافِئ فِي الْخَرِيف. لٰكِنْ سَأَنْظُرُ إِلَى أَخْبَارِ الطَّقْس فِي هَاتِفِي أَوَّلًا.",
+          "ar": "عَادَةً نَعَم، فَالْبَحْر الْأَحْمَر دَافِئ فِي الْخَرِيف. لٰكِنْ سَأَنْظُرُ إِلَى نَشْرَةِ الطَّقْس فِي هَاتِفِي أَوَّلًا.",
           "en": "Usually, yes: the Red Sea is warm in autumn. But I'll look at the weather forecast on my phone first.",
           "segs": [
             [
@@ -7722,8 +7722,8 @@
               "at, to"
             ],
             [
-              "أَخْبَارِ",
-              "news (of) ('the forecast')"
+              "نَشْرَةِ",
+              "bulletin (of) ('the forecast')"
             ],
             [
               "الطَّقْس",
@@ -9641,7 +9641,7 @@
       {
         "wrong": "الْغُرْفَة الْجَدِيدَة أَفْضَلَة.",
         "right": "الْغُرْفَة الْجَدِيدَة أَفْضَلُ.",
-        "why": "The comparative never changes for a feminine word: afḍal."
+        "why": "As a comparative (than…), afḍal does not change for a feminine word."
       }
     ],
     "quiz": [
@@ -13916,8 +13916,8 @@
         {
           "id": "lost-phone-help-l12",
           "sp": "daniel",
-          "ar": "اسْمِي فَيْصَل، وَأَنَا أَمْرِيكِيّ مِنْ شِيكَاغُو. أَسْكُنُ فِي فُنْدُقِ الْقَلْعَة فِي جَبَلِ عَمَّان، وَهٰذَا رَقْمُ صَدِيقِي سَامِي.",
-          "en": "My name is Faisal, and I'm American, from Chicago. I'm staying at the Citadel Hotel in Jabal Amman, and this is my friend Sami's number.",
+          "ar": "اسْمِي فَيْصَل، وَأَنَا أَمْرِيكِيّ مِنْ شِيكَاغُو. أَسْكُنُ فِي شَارِعِ الْقَلْعَة فِي جَبَلِ عَمَّان، وَهٰذَا رَقْمُ صَدِيقِي سَامِي.",
+          "en": "My name is Faisal, and I'm American, from Chicago. I live on Citadel Street in Jabal Amman, and this is my friend Sami's number.",
           "segs": [
             [
               "اسْمِي",
@@ -13947,19 +13947,19 @@
             ],
             [
               "أَسْكُنُ",
-              "I live ('I'm staying')"
+              "I live"
             ],
             [
               "فِي",
               "in, at"
             ],
             [
-              "فُنْدُقِ",
-              "hotel (of)"
+              "شَارِعِ",
+              "street (of)"
             ],
             [
               "الْقَلْعَة",
-              "the citadel ('the Citadel Hotel')"
+              "the citadel ('Citadel Street')"
             ],
             [
               "فِي",
@@ -19441,7 +19441,7 @@
         {
           "id": "etiquette-l10",
           "sp": "layla",
-          "ar": "صَحِيح، الْيَدُ الْيُمْنَى لِلْأَكْل. وَعِنْدَمَا تَقُولُ لَكَ الْأُمُّ تَفَضَّلْ، فَخُذْ مِنْ كُلِّ طَبَق وَامْدَحِ الطَّعَام.",
+          "ar": "صَحِيح، الْيَدُ الْيُمْنَى لِلْأَكْل. وَعِنْدَمَا تَقُولُ لَكَ الْأُمُّ «تَفَضَّلْ»، خُذْ مِنْ كُلِّ طَبَق وَامْدَحِ الطَّعَام.",
           "en": "Right, the right hand is for eating. And when the mother says to you 'please, go ahead', take some of every dish and praise the food.",
           "segs": [
             [
@@ -19481,8 +19481,8 @@
               "please, go ahead (to a man)"
             ],
             [
-              "فَخُذْ",
-              "then take! (to a man)"
+              "خُذْ",
+              "take! (to a man)"
             ],
             [
               "مِنْ",
@@ -20555,66 +20555,9 @@
         {
           "id": "machines-l11",
           "sp": "daniel",
-          "ar": "الْآلَةُ الثَّانِيَة أَخَذَتْ وَرَقَةَ الْعِشْرِينَ جُنَيْهًا مِنْ مِحْفَظَتِي فَوْرًا! سَمِعْتُ صَوْتًا، فَمَاذَا أَفْعَلُ الْآنَ؟",
-          "en": "The second machine took the twenty-pound note from my wallet straight away! I heard a sound, so what do I do now?",
-          "segs": [
-            [
-              "الْآلَةُ",
-              "the machine"
-            ],
-            [
-              "الثَّانِيَة",
-              "the second (f)"
-            ],
-            [
-              "أَخَذَتْ",
-              "(she/it) took"
-            ],
-            [
-              "وَرَقَةَ",
-              "note (of)"
-            ],
-            [
-              "الْعِشْرِينَ",
-              "the twenty"
-            ],
-            [
-              "جُنَيْهًا",
-              "pound (after a number)"
-            ],
-            [
-              "مِنْ",
-              "from"
-            ],
-            [
-              "مِحْفَظَتِي",
-              "my wallet"
-            ],
-            [
-              "فَوْرًا",
-              "immediately, straight away"
-            ],
-            [
-              "سَمِعْتُ",
-              "I heard"
-            ],
-            [
-              "صَوْتًا",
-              "a sound"
-            ],
-            [
-              "فَمَاذَا",
-              "so what"
-            ],
-            [
-              "أَفْعَلُ",
-              "I do"
-            ],
-            [
-              "الْآنَ",
-              "now"
-            ]
-          ]
+          "ar": "الْآلَةُ الثَّانِيَة أَخَذَتْ وَرَقَةَ الْعِشْرِينَ جُنَيْهًا فَوْرًا! سَمِعْتُ صَوْتًا، فَمَاذَا أَفْعَلُ الْآنَ؟",
+          "en": "The second machine took the twenty-pound note straight away! I heard a sound, so what do I do now?",
+          "segs": [["الْآلَةُ", "the machine"], ["الثَّانِيَة", "the second (f)"], ["أَخَذَتْ", "(she/it) took"], ["وَرَقَةَ", "note (of)"], ["الْعِشْرِينَ", "the twenty"], ["جُنَيْهًا", "pound (after 11–99)"], ["فَوْرًا", "immediately, straight away"], ["سَمِعْتُ", "I heard"], ["صَوْتًا", "a sound"], ["فَمَاذَا", "so what"], ["أَفْعَلُ", "I do"], ["الْآنَ", "now"]]
         },
         {
           "id": "machines-l12",
@@ -21896,7 +21839,7 @@
       {
         "wrong": "الرَّسْمُ مِئَة وَعِشْرُونَ دَنَانِير",
         "right": "الرَّسْمُ مِئَة وَعِشْرُونَ دِينَارًا",
-        "why": "After the numbers 11 to 99 the counted noun is singular and accusative: ʿishrūna dīnāran, never the plural danānīr."
+        "why": "When a number ends in 11 to 99, the counted noun is singular and accusative: ʿishrūna dīnāran, never the plural danānīr."
       }
     ],
     "quiz": [

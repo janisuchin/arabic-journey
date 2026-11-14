@@ -2058,7 +2058,7 @@
     "firstDay": 44,
     "summary": "To give an order, take the 'you' form of the present, drop the ta- at the front and the vowel at the end: تَفْتَحُ (you open) → اِفْتَحْ (open!).",
     "formula": "تَفْتَحُ → اِفْتَحْ (to a man) · اِفْتَحِي (to a woman) · اِفْتَحُوا (to a group)",
-    "explanation": "Start from the 'you' form of the present tense: تَفْتَحُ (you open). Drop the ta-. If the word now starts with two consonants (fta-), add a helping vowel in front: اِ (i) when the middle vowel is a or i, as in اِفْتَحْ and اِجْلِسْ, and اُ (u) when it is u, as in اُرْكُضْ (run!). The end is sukūn for a man, ـِي for a woman and ـُوا for a group. If the word already starts with consonant + vowel, no helper is needed: تَتَنَفَّسُ → تَنَفَّسْ (breathe!). A few common verbs are short and irregular: خُذْ (take!), كُلْ (eat!), نَمْ (sleep!).",
+    "explanation": "Start from the 'you' form of the present tense: تَفْتَحُ (you open). Drop the ta-. If the word now starts with two consonants (fta-), add a helping vowel in front: اِ (i) when the middle vowel is a or i, as in اِفْتَحْ and اِجْلِسْ, and اُ (u) when it is u, as in اُرْكُضْ (run!). The end is sukūn for a man, ـِي for a woman and ـُوا for a group. If the word already starts with consonant + vowel, no helper is needed: تَتَنَفَّسُ → تَنَفَّسْ (breathe!). Two common verbs are short and irregular: خُذْ (take!) and كُلْ (eat!). نَمْ (sleep!) is short too, because a long vowel shortens before sukūn (tanāmu → nam).",
     "table": {
       "head": [
         "You (present)",
@@ -3628,7 +3628,7 @@
     "firstDay": 75,
     "summary": "To report what someone said, use قَالَ (he said) or قَالَتْ (she said) + إِنَّ. After other verbs, such as أَخْبَرَ (told), سَمِعَ (heard) or عَرَفَ (knew), use أَنَّ. Change the pronouns as in English, but keep the tense the speaker used.",
     "formula": "قَالَ / قَالَتْ + إِنَّ + sentence · أَخْبَرَنِي / سَمِعْتُ + أَنَّ + sentence · سَأَلَ + هَلْ + question",
-    "explanation": "قَالَ is special: it is followed by إِنَّ, with i, and not by أَنَّ: قَالَ الْأُسْتَاذُ إِنَّ الدَّرْسَ سَهْل (the teacher said that the lesson was easy). Both take the ending -a on the next noun, or a pronoun ending: قَالَتْ إِنَّهَا مَرِيضَة (she said that she was ill). The speaker's 'I' becomes 'he' or 'she', as in English: أَنَا مَرِيضَة → قَالَتْ إِنَّهَا مَرِيضَة. Unlike English, Arabic keeps the speaker's tense: 'is ill' stays 'is ill'. To report a question, use سَأَلَ (asked) + هَلْ: سَأَلَنِي هَلْ فَهِمْتُ الدَّرْسَ (he asked me whether I had understood the lesson). Careful style prefers إِنْ (if) with كَانَ: سَأَلَنِي إِنْ كُنْتُ فَهِمْتُ الدَّرْسَ. A promise is reported with وَعَدَ أَنْ + verb: وَعَدَ أَنْ يَزُورَنَا (he promised to visit us).",
+    "explanation": "قَالَ is special: it is followed by إِنَّ, with i, and not by أَنَّ: قَالَ الْأُسْتَاذُ إِنَّ الدَّرْسَ سَهْل (the teacher said that the lesson was easy). Both take the ending -a on the next noun, or a pronoun ending: قَالَتْ إِنَّهَا مَرِيضَة (she said that she was ill). The speaker's 'I' becomes 'he' or 'she', as in English: أَنَا مَرِيضَة → قَالَتْ إِنَّهَا مَرِيضَة. Unlike English, Arabic keeps the speaker's tense: 'is ill' stays 'is ill'. To report a question, use سَأَلَ (asked) + هَلْ: سَأَلَنِي هَلْ فَهِمْتُ الدَّرْسَ (he asked me whether I had understood the lesson). Careful style also uses إِنْ (if) with كَانَ: سَأَلَنِي إِنْ كُنْتُ فَهِمْتُ الدَّرْسَ. A promise is reported with وَعَدَ أَنْ + verb: وَعَدَ أَنْ يَزُورَنَا (he promised to visit us).",
     "table": {
       "head": [
         "Direct words",
@@ -3942,7 +3942,7 @@
         ],
         [
           "your (plural of respect)",
-          "رَدِّكُمْ ، بِجَامِعَتِكُمْ",
+          "رَدِّكُمْ، بِجَامِعَتِكُمْ",
           "your reply, at your university"
         ],
         [

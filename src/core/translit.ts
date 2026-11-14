@@ -75,6 +75,7 @@ const PUNCT: Record<string, string> = { '،': ',', '؟': '?', '؛': ';', '«': '
 export const FIXED_TRANSLIT: Record<string, string> = {
   الله: 'allāh',
   اللّه: 'allāh',
+  للخسارة: 'la-l-khasāra', // yā la-l-khasāra: the la- of exclamation before the article
 };
 /** Words written with a letter that is not said (the wāw of أُولٰئِكَ), without the case vowel; no waṣl. */
 const SILENT_LETTER_TRANSLIT: Record<string, string> = {

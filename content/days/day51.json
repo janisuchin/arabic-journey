@@ -21,7 +21,7 @@
       "segs": [["نَسْتَطِيعُ", "we can", "verb"], ["أَنْ", "to, that", "particle"], ["نَرْكَبَ", "we ride, we take (after an)", "verb"], ["مَرْكَبًا", "a boat", "noun"], ["عَلَى", "on", "prep"], ["النَّهْر", "the river", "noun"]], "grammar": ["an-subjunctive"] },
     { "id": "d51s4", "ar": "مَاذَا سَتَفْعَلُ فِي نِهَايَةِ الْأُسْبُوع؟", "en": "What will you do at the weekend? (to a man)", "literal": "what will-you-do in end-of the week",
       "segs": [["مَاذَا", "what", "question"], ["سَتَفْعَلُ", "you will do (to a man)", "verb"], ["فِي", "in, at", "prep"], ["نِهَايَةِ", "end (of)", "noun"], ["الْأُسْبُوع", "the week", "noun"]], "grammar": ["future", "questions"] },
-    { "id": "d51s5", "ar": "هٰذَا الْهَرَم كَبِير وَقَدِيم جِدًّا.", "en": "This pyramid is very big and very old.", "literal": "this the pyramid big and old very",
+    { "id": "d51s5", "ar": "هٰذَا الْهَرَم كَبِير وَقَدِيم جِدًّا.", "en": "This pyramid is big and very old.", "literal": "this the pyramid big and old very",
       "segs": [["هٰذَا", "this (m)", "demonstrative"], ["الْهَرَم", "the pyramid", "noun"], ["كَبِير", "big", "adj"], ["وَقَدِيم", "and old", "adj"], ["جِدًّا", "very", "adverb"]], "grammar": ["demonstratives", "adjectives"] }
   ],
   "dialogue": {

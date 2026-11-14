@@ -143,12 +143,12 @@
     "pairs": [
       [
         {
-          "ar": "حَارّ",
-          "en": "hot"
+          "ar": "نَار",
+          "en": "fire"
         },
         {
-          "ar": "حَال",
-          "en": "condition"
+          "ar": "نَال",
+          "en": "(he) obtained"
         }
       ]
     ]
@@ -278,12 +278,13 @@
     "ipa": [
       "ʔa",
       "ʔi",
+      "ʔu",
       "∅"
     ],
     "letters": [
       "ا"
     ],
-    "tip": "Some words begin with an alif that is only said at the very start of speech: the al- of 'the', and words like اِسْم (name) and اِذْهَبْ (go!). After a word that ends in a vowel, this first vowel drops and the two words run together: فِي الْمَدِينَة is fi l-madīna, and إِلَى الْيَمِين is ila l-yamīn. The alif is still written.",
+    "tip": "Some words begin with an alif that is only said at the very start of speech: the al- of 'the', and words like اِسْم (name) and اِذْهَبْ (go!). After a word that ends in a vowel, this first vowel drops and the two words run together: فِي الْمَدِينَة is written fī al-madīna but said fi l-madīna, and إِلَى الْيَمِين is written ilā al-yamīn but said ila l-yamīn. The alif is still written.",
     "diagram": "at the start of speech: al-yamīn · after a vowel: ila l-yamīn · the alif is written but skipped",
     "error": "Adding a catch in the throat or an extra a: fī al-madīna instead of fi l-madīna.",
     "examples": [
@@ -360,7 +361,7 @@
     "examples": [
       {
         "ar": "أَرْض",
-        "en": "floor, ground"
+        "en": "ground, earth"
       },
       {
         "ar": "أَبْيَض",

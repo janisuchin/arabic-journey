@@ -146,7 +146,7 @@
         {
           "wrong": "بُنِيَتْ هٰذَا الْمَسْجِدُ فِي الْقَرْنِ التَّاسِعَ عَشَرَ.",
           "right": "بُنِيَ هٰذَا الْمَسْجِدُ فِي الْقَرْنِ التَّاسِعَ عَشَرَ.",
-          "why": "مَسْجِد is masculine, so the passive verb has no -t: بُنِيَ (buniya). Use بُنِيَتْ only for feminine words such as قَلْعَة or مَدِينَة."
+          "why": "مَسْجِد is masculine, so the passive verb has no -t: بُنِيَ (buniya). Use بُنِيَتْ for feminine words such as قَلْعَة or مَدِينَة, and for plurals of things."
         }
       ]
     },

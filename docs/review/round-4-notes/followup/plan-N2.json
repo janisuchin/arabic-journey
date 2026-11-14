@@ -1,0 +1,24 @@
+{
+ "group": "N2",
+ "note": "Follow-up after validate: day 43 seg gloss without Arabic script, day 13 آهْ kept (validator needs the sukūn), two glosses that lost their only source.",
+ "ops": [
+  {
+   "chunk": "days-51-60",
+   "ids": [
+    43
+   ],
+   "op": "hand",
+   "word": "وَمَايُو",
+   "gloss": "and May"
+  },
+  {
+   "chunk": "days-21-30",
+   "ids": [
+    24
+   ],
+   "op": "hand",
+   "word": "بَارَكَ",
+   "gloss": "(he) blessed (bāraka llāhu fīka: God bless you)"
+  }
+ ]
+}

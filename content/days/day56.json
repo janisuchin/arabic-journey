@@ -15,7 +15,7 @@
       "segs": [["مَا", "what", "question"], ["تَارِيخُ", "date (of)", "noun"], ["الْيَوْم", "the day, today", "noun"]], "grammar": ["dates", "questions"] },
     { "id": "d56s2", "ar": "الْيَوْمُ الْخَامِسُ مِنْ نُوفَمْبِر.", "en": "Today is the fifth of November.", "literal": "today the fifth of November",
       "segs": [["الْيَوْمُ", "today (the day)", "noun"], ["الْخَامِسُ", "the fifth", "adj"], ["مِنْ", "of (lit. from)", "prep"], ["نُوفَمْبِر", "November", "noun"]], "grammar": ["dates", "ordinals"],
-      "mistakes": [{ "wrong": "الْيَوْمَ خَمْسَة نُوفَمْبِر", "right": "الْيَوْمُ الْخَامِسُ مِنْ نُوفَمْبِر", "why": "In standard Arabic the day is an ordinal followed by min: al-khāmisu min nūfambir, 'the fifth of November'." }] },
+      "mistakes": [{ "wrong": "الْيَوْمَ خَمْسَة نُوفَمْبِر", "right": "الْيَوْمُ الْخَامِسُ مِنْ نُوفَمْبِر", "why": "In standard Arabic the day is usually an ordinal followed by min: al-khāmisu min nūfambir, 'the fifth of November'." }] },
     { "id": "d56s3", "ar": "الْحَفْلَة فِي السَّابِعِ مِنْ نُوفَمْبِر.", "en": "The party is on the seventh of November.", "literal": "the party in the seventh of November",
       "segs": [["الْحَفْلَة", "the party", "noun"], ["فِي", "in, on", "prep"], ["السَّابِعِ", "the seventh", "adj"], ["مِنْ", "of (lit. from)", "prep"], ["نُوفَمْبِر", "November", "noun"]], "grammar": ["dates"],
       "mistakes": [{ "wrong": "الْحَفْلَة فِي السَّابِعَة مِنْ نُوفَمْبِر", "right": "الْحَفْلَة فِي السَّابِعِ مِنْ نُوفَمْبِر", "why": "In a date the ordinal is masculine, because it means 'the seventh day': as-sābiʿ. as-sābiʿa is for the hour: 'at seven o'clock'." }] },

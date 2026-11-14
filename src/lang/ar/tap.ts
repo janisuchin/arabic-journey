@@ -121,7 +121,7 @@ const CLITIC_EN: Record<string, RegExp> = {
   و: /^\(?and\b/i,
   ف: /^\(?(?:so|then|and|because)\b/i,
   ب: /^\(?(?:with|by|in|at|for|on)\b/i,
-  ل: /^\(?(?:for|to|so that|in order|because)\b/i,
+  ل: /^\(?(?:for|to|so that|in order|because)\b|^\(?of \(lit\. for\b/i,
   ك: /^\(?(?:like|as)\b/i,
 };
 /**
@@ -153,7 +153,9 @@ function cliticReading(w: string, r: { text: string; wasl: boolean }): { text: s
   // with no gloss of its own, clitic + a word the course glosses is read as two (bi-miʾatin)
   const known = !gloss && (exact!.has(clean(rest)) || meaningOf(rest) !== undefined);
   if (!glossed && !known) return r;
-  let restTr = (readingsLayer[rest]?.[0] ?? translitWord(rest).text).replace(/^ʾ/, '');
+  // a second clitic follows the same rule: wa-bi-kam, wa-bi-thamānīna (as wa-li-Sāmī)
+  const restRaw = readingsLayer[rest]?.[0] ?? translitWord(rest).text;
+  let restTr = (/^[بلك]/.test(rest) ? cliticReading(rest, { text: restRaw, wasl: false }).text : restRaw).replace(/^ʾ/, '');
   if (!restTr) return r;
   namesSet();
   if (!NOT_NAMES.has(withoutCaseVowel(rest)) && (nameIndex!.has(rest) || bareNamesSet().has(stripHarakat(rest))))
@@ -186,9 +188,24 @@ const TITLE_WORDS = new Set([
 /** A title, also behind a clitic (wa-l-ustādh, bi-l-ustādh). */
 const isTitle = (bare: string) => TITLE_WORDS.has(bare) || TITLE_WORDS.has(bare.replace(/^[وفبل]/, ''));
 /** Words that begin with a clitic letter but are taught as one word. */
-const CLITIC_WHOLE = new Set(['كما', 'لماذا', 'لكن', 'لكي', 'كذلك', 'لذلك', 'بجانب']);
+const CLITIC_WHOLE = new Set(['كما', 'لماذا', 'لكن', 'لكي', 'كذلك', 'لذلك']);
 /** Taught as clitic + word although the gloss does not start with "with/in": the course writes bi-khayr. */
-const CLITIC_FORCE = new Set(['بخير', 'بجائزة', 'بأنني', 'بمليون']);
+const CLITIC_FORCE = new Set([
+  'بخير',
+  'بجائزة',
+  'بأنني',
+  'بأن',
+  'بأنه',
+  'بمليون',
+  // glossed by their meaning ("quickly", "without", "next to") but still bi- + a course word (round-4 notes)
+  'بسرعة',
+  'ببطء',
+  'بدون',
+  'بجانب',
+  'بتحسن',
+  'بعمق',
+  'بكم',
+]);
 /** Words spelt like a course name but not a name behind a clitic (li-ḥusni, not li-Ḥasan), without the case vowel. */
 const NOT_NAMES = new Set(['حُسْن']);
 const withoutCaseVowel = (w: string) => w.replace(/[ًٌٍَُِْ]$/, '');

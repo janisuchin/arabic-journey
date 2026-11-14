@@ -1,0 +1,1269 @@
+{
+ "group": "N1",
+ "ops": [
+  {
+   "chunk": "culture",
+   "ids": [
+    2
+   ],
+   "op": "text",
+   "file": "content/culture/souq.json",
+   "old": "هٰذَا غَالٍ جِدًّا! (hādhā ghālin jiddan, that's too expensive!)",
+   "new": "هٰذَا غَالٍ جِدًّا! (that's too expensive!)",
+   "count": 1
+  },
+  {
+   "chunk": "culture",
+   "ids": [
+    2
+   ],
+   "op": "text",
+   "file": "content/culture/coffee.json",
+   "old": "لَا، شُكْرًا (shukran)",
+   "new": "لَا، شُكْرًا (no, thank you)",
+   "count": 1
+  },
+  {
+   "chunk": "culture",
+   "ids": [
+    4
+   ],
+   "op": "text",
+   "file": "content/culture/places.json",
+   "old": "\"نَحَتَ\", \"(he) carved\"",
+   "new": "\"نَحَتَ\", \"(they) carved (verb first: singular)\"",
+   "count": 1
+  },
+  {
+   "chunk": "culture",
+   "ids": [
+    4
+   ],
+   "op": "text",
+   "file": "content/culture/ramadan.json",
+   "old": "\"يَصُومُ\", \"(he) fasts\"",
+   "new": "\"يَصُومُ\", \"(they) fast (verb first: singular)\"",
+   "count": 1
+  },
+  {
+   "chunk": "culture",
+   "ids": [
+    4
+   ],
+   "op": "text",
+   "file": "content/culture/ramadan.json",
+   "old": "\"لَبِسَ\", \"(he) wore, put on\"",
+   "new": "\"لَبِسَ\", \"(they) wore, put on (verb first: singular)\"",
+   "count": 1
+  },
+  {
+   "chunk": "culture",
+   "ids": [
+    4
+   ],
+   "op": "text",
+   "file": "content/culture/ramadan.json",
+   "old": "\"يَخْرُجُ\", \"(he) goes out\"",
+   "new": "\"يَخْرُجُ\", \"(they) go out (verb first: singular)\"",
+   "count": 1
+  },
+  {
+   "chunk": "culture",
+   "ids": [
+    4
+   ],
+   "op": "text",
+   "file": "content/culture/ramadan.json",
+   "old": "\"يَأْخُذُ\", \"(he) takes, gets\"",
+   "new": "\"يَأْخُذُ\", \"(they) take, get (verb first: singular)\"",
+   "count": 1
+  },
+  {
+   "chunk": "culture",
+   "ids": [
+    3
+   ],
+   "op": "hand",
+   "word": "أَسْمَاءُ",
+   "gloss": "names (of); nouns (of)"
+  },
+  {
+   "chunk": "days-01-10",
+   "ids": [
+    7
+   ],
+   "op": "text",
+   "file": "content/days/day01.json",
+   "old": "By the end of today you can answer all three.",
+   "new": "By the end of today you can answer all three. His first day at school runs into the evening, so the teacher ends it with مَسَاءُ الْخَيْر (good evening).",
+   "count": 1
+  },
+  {
+   "chunk": "days-01-10",
+   "ids": [
+    8
+   ],
+   "op": "text",
+   "file": "content/days/day07.json",
+   "old": "a number is read from left to right even inside right-to-left text",
+   "new": "a number is written from left to right (biggest digit first) even inside right-to-left text",
+   "count": 1
+  },
+  {
+   "chunk": "days-01-10",
+   "ids": [
+    11
+   ],
+   "op": "text",
+   "file": "content/days/day06.json",
+   "old": "Name eight everyday things",
+   "new": "Name six everyday things",
+   "count": 1
+  },
+  {
+   "chunk": "days-01-10",
+   "ids": [
+    10
+   ],
+   "op": "hand",
+   "word": "مُدَرِّسَة",
+   "gloss": "teacher (f)"
+  },
+  {
+   "chunk": "days-11-20",
+   "ids": [
+    13
+   ],
+   "op": "text",
+   "file": "content/days/day18.json",
+   "old": "Sami's friend Yusuf is visiting Cairo from Amman. Sami takes him and Faisal",
+   "new": "Sami's friend Yusuf from Amman, who is working in Cairo for a few months, has a free evening. Sami takes him and Faisal",
+   "count": 1
+  },
+  {
+   "chunk": "days-11-20",
+   "ids": [
+    13
+   ],
+   "op": "text",
+   "file": "content/days/day18.json",
+   "old": "\"id\": \"d18l1\", \"sp\": \"sami\", \"ar\": \"يَا فَيْصَل، هٰذَا صَدِيقِي يُوسُف مِنْ عَمَّان. هُوَ فِي الْقَاهِرَة هٰذَا الْأُسْبُوع.\", \"en\": \"Faisal, this is my friend Yusuf from Amman. He is in Cairo this week.\",\r\n        \"segs\": [[\"يَا\", \"O (calling someone)\"], [\"فَيْصَل\", \"Faisal (first name)\", \"name\"], [\"هٰذَا\", \"this (m)\"], [\"صَدِيقِي\", \"my friend\"], [\"يُوسُف\", \"Yusuf (first name)\", \"name\"], [\"مِنْ\", \"from\"], [\"عَمَّان\", \"Amman (capital of Jordan)\", \"name\"], [\"هُوَ\", \"he\"], [\"فِي\", \"in\"], [\"الْقَاهِرَة\", \"Cairo (capital of Egypt)\", \"name\"], [\"هٰذَا\", \"this (m)\"], [\"الْأُسْبُوع\", \"the week\"]]",
+   "new": "\"id\": \"d18l1\", \"sp\": \"sami\", \"ar\": \"يَا فَيْصَل، تَذْكُرُ صَدِيقِي يُوسُف مِنْ عَمَّان؟ هُوَ مَعَنَا الْيَوْم.\", \"en\": \"Faisal, you remember my friend Yusuf from Amman? He is with us today.\",\r\n        \"segs\": [[\"يَا\", \"O (calling someone)\"], [\"فَيْصَل\", \"Faisal (first name)\", \"name\"], [\"تَذْكُرُ\", \"you remember (to a man)\"], [\"صَدِيقِي\", \"my friend\"], [\"يُوسُف\", \"Yusuf (first name)\", \"name\"], [\"مِنْ\", \"from\"], [\"عَمَّان\", \"Amman (capital of Jordan)\", \"name\"], [\"هُوَ\", \"he\"], [\"مَعَنَا\", \"with us\"], [\"الْيَوْم\", \"today\"]]",
+   "count": 1
+  },
+  {
+   "chunk": "days-11-20",
+   "ids": [
+    13
+   ],
+   "op": "text",
+   "file": "content/days/day18.json",
+   "old": "\"id\": \"d18l2\", \"sp\": \"daniel\", \"ar\": \"أَهْلًا وَسَهْلًا يَا يُوسُف! تَشَرَّفْنَا. هَلْ تُحِبُّ الْقَاهِرَة؟\", \"en\": \"Welcome, Yusuf! Nice to meet you. Do you like Cairo?\",\r\n        \"segs\": [[\"أَهْلًا\", \"welcome\"], [\"وَسَهْلًا\", \"and ease (part of 'welcome')\"], [\"يَا\", \"O (calling someone)\"], [\"يُوسُف\", \"Yusuf (first name)\", \"name\"], [\"تَشَرَّفْنَا\", \"nice to meet you\"], [\"هَلْ\", \"(starts a yes/no question)\"], [\"تُحِبُّ\", \"you like (to a man)\"], [\"الْقَاهِرَة\", \"Cairo (capital of Egypt)\", \"name\"]]",
+   "new": "\"id\": \"d18l2\", \"sp\": \"daniel\", \"ar\": \"طَبْعًا! أَهْلًا وَسَهْلًا يَا يُوسُف! هَلْ تُحِبُّ الْقَاهِرَة؟\", \"en\": \"Of course! Welcome, Yusuf! Do you like Cairo?\",\r\n        \"segs\": [[\"طَبْعًا\", \"of course\"], [\"أَهْلًا\", \"welcome\"], [\"وَسَهْلًا\", \"and ease (part of 'welcome')\"], [\"يَا\", \"O (calling someone)\"], [\"يُوسُف\", \"Yusuf (first name)\", \"name\"], [\"هَلْ\", \"(starts a yes/no question)\"], [\"تُحِبُّ\", \"you like (to a man)\"], [\"الْقَاهِرَة\", \"Cairo (capital of Egypt)\", \"name\"]]",
+   "count": 1
+  },
+  {
+   "chunk": "days-11-20",
+   "ids": [
+    14
+   ],
+   "op": "text",
+   "file": "content/days/day14.json",
+   "old": "They appear on the flags of many Arab countries, among them",
+   "new": "Some or all of them appear on the flags of many Arab countries, among them",
+   "count": 1
+  },
+  {
+   "chunk": "days-11-20",
+   "ids": [
+    20
+   ],
+   "op": "text",
+   "file": "content/days/day13.json",
+   "old": "\"id\": \"d13l5\", \"sp\": \"daniel\", \"ar\": \"آهْ! الْآن أَفْهَمُ. شُكْرًا يَا لَيْلَى!\", \"en\": \"Ah! Now I understand. Thank you, Layla!\",\r\n        \"segs\": [[\"آهْ\", \"ah, oh\"], [\"الْآن\", \"now\"], [\"أَفْهَمُ\", \"I understand\"], [\"شُكْرًا\", \"thank you\"], [\"يَا\", \"O (calling someone)\"], [\"لَيْلَى\", \"Layla (first name)\", \"name\"]]",
+   "new": "\"id\": \"d13l5\", \"sp\": \"daniel\", \"ar\": \"آه! الْآن أَفْهَمُ. شُكْرًا يَا لَيْلَى!\", \"en\": \"Ah! Now I understand. Thank you, Layla!\",\r\n        \"segs\": [[\"آه\", \"ah, oh\"], [\"الْآن\", \"now\"], [\"أَفْهَمُ\", \"I understand\"], [\"شُكْرًا\", \"thank you\"], [\"يَا\", \"O (calling someone)\"], [\"لَيْلَى\", \"Layla (first name)\", \"name\"]]",
+   "count": 1
+  },
+  {
+   "chunk": "days-21-30",
+   "ids": [
+    21
+   ],
+   "op": "text",
+   "file": "content/days/day24.json",
+   "old": "pounds (after a number)",
+   "new": "pound (after 11–99)",
+   "count": 2
+  },
+  {
+   "chunk": "days-21-30",
+   "ids": [
+    21
+   ],
+   "op": "text",
+   "file": "content/days/day26.json",
+   "old": "pounds (after a number)",
+   "new": "pound (after 11–99)",
+   "count": 1
+  },
+  {
+   "chunk": "days-21-30",
+   "ids": [
+    24
+   ],
+   "op": "text",
+   "file": "content/days/day29.json",
+   "old": "The usual reply is اللّٰه يُبَارِكُ فِيكَ (may God bless you).",
+   "new": "The usual reply is اللّٰه يُبَارِكُ فِيكَ (may God bless you); in writing the classic form is بَارَكَ اللّٰهُ فِيكَ.",
+   "count": 1
+  },
+  {
+   "chunk": "days-21-30",
+   "ids": [
+    25
+   ],
+   "op": "text",
+   "file": "content/days/day30.json",
+   "old": "ـُكُمْ (your, to several people) and ـُهُمْ (their).",
+   "new": "ـُكُمْ (your, to several people) and ـُهُمْ (their). After i the u of his and their becomes i: لِعَائِلَتِهِ (for his family).",
+   "count": 1
+  },
+  {
+   "chunk": "days-21-30",
+   "ids": [
+    26
+   ],
+   "op": "text",
+   "file": "content/days/day27.json",
+   "old": "\"حِذَاؤُكَ\",\r\n            \"your shoes (to a man)\"",
+   "new": "\"حِذَاؤُكَ\",\r\n            \"your shoes, your pair of shoes (to a man; one word in the singular)\"",
+   "count": 1
+  },
+  {
+   "chunk": "days-31-40",
+   "ids": [
+    28
+   ],
+   "op": "text",
+   "file": "content/days/day34.json",
+   "old": "أَنَا كَبِيرَة فِي السِّنّ يَا ابْنِي: عُمْرِي سَبْعُونَ سَنَةً، وَلِي عَشَرَةُ أَحْفَاد!\", \"en\": \"I'm getting old, my son: I am seventy years old, and I have ten grandchildren!\",\n        \"segs\": [[\"أَنَا\", \"I\"], [\"كَبِيرَة\", \"big, old (f)\"], [\"فِي\", \"in\"], [\"السِّنّ\", \"the age (of a person)\"], [\"يَا\", \"O (calling someone)\"], [\"ابْنِي\", \"my son\"], [\"عُمْرِي\", \"my age\"], [\"سَبْعُونَ\", \"seventy\"], [\"سَنَةً\", \"year (after a number from 11 up)\"], [\"وَلِي\", \"and I have (lit. and for me)\"], [\"عَشَرَةُ\", \"ten\"], [\"أَحْفَاد\", \"grandchildren\"]]",
+   "new": "أَنَا كَبِيرَة فِي السِّنّ يَا ابْنِي: عُمْرِي سَبْعُونَ سَنَةً، وَلِي عَشَرَةُ أَحْفَادٍ!\", \"en\": \"I'm getting old, my son: I am seventy years old, and I have ten grandchildren!\",\n        \"segs\": [[\"أَنَا\", \"I\"], [\"كَبِيرَة\", \"big, old (f)\"], [\"فِي\", \"in\"], [\"السِّنّ\", \"the age (of a person)\"], [\"يَا\", \"O (calling someone)\"], [\"ابْنِي\", \"my son\"], [\"عُمْرِي\", \"my age\"], [\"سَبْعُونَ\", \"seventy\"], [\"سَنَةً\", \"year (after a number from 11 up)\"], [\"وَلِي\", \"and I have (lit. and for me)\"], [\"عَشَرَةُ\", \"ten\"], [\"أَحْفَادٍ\", \"grandchildren\"]]",
+   "count": 1
+  },
+  {
+   "chunk": "days-31-40",
+   "ids": [
+    28
+   ],
+   "op": "text",
+   "file": "content/days/day34.json",
+   "old": "فِي بَيْتِ سَامِي سِتَّةُ أَشْخَاص. الْجَدَّة عُمْرُهَا سَبْعُونَ سَنَةً، وَالْأَب عُمْرُهُ خَمْسُونَ سَنَةً. سَامِي عُمْرُهُ عِشْرُونَ سَنَةً، وَعُمَر عُمْرُهُ عَشْرُ سَنَوَاتٍ، وَنُور عُمْرُهَا ثَمَانِي سَنَوَاتٍ.\", \"en\": \"Six people live in Sami's house. The grandmother is seventy years old, and the father is fifty. Sami is twenty, Omar is ten, and Nour is eight.\",\n    \"segs\": [[\"فِي\", \"in\"], [\"بَيْتِ\", \"house (of)\"], [\"سَامِي\", \"Sami (first name)\", \"name\"], [\"سِتَّةُ\", \"six\"], [\"أَشْخَاص\", \"people, persons\"], [\"الْجَدَّة\", \"the grandmother\"], [\"عُمْرُهَا\", \"her age\"], [\"سَبْعُونَ\", \"seventy\"], [\"سَنَةً\", \"year (after a number from 11 up)\"], [\"وَالْأَب\", \"and the father\"], [\"عُمْرُهُ\", \"his age\"], [\"خَمْسُونَ\", \"fifty\"], [\"سَنَةً\", \"year (after a number from 11 up)\"], [\"سَامِي\", \"Sami (first name)\", \"name\"], [\"عُمْرُهُ\", \"his age\"], [\"عِشْرُونَ\", \"twenty\"], [\"سَنَةً\", \"year (after a number from 11 up)\"], [\"وَعُمَر\", \"and Omar\"], [\"عُمْرُهُ\", \"his age\"], [\"عَشْرُ\", \"ten (before a feminine word)\"], [\"سَنَوَاتٍ\", \"years\"], [\"وَنُور\", \"and Nour\"], [\"عُمْرُهَا\", \"her age\"], [\"ثَمَانِي\", \"eight (before a feminine word)\"], [\"سَنَوَاتٍ\", \"years\"]]",
+   "new": "فِي بَيْتِ سَامِي سِتَّةُ أَشْخَاصٍ. الْجَدَّة عُمْرُهَا سَبْعُونَ سَنَةً، وَالْأَب عُمْرُهُ خَمْسُونَ سَنَةً. سَامِي عُمْرُهُ عِشْرُونَ سَنَةً، وَعُمَر عُمْرُهُ عَشْرُ سَنَوَاتٍ، وَنُور عُمْرُهَا ثَمَانِي سَنَوَاتٍ.\", \"en\": \"Six people live in Sami's house. The grandmother is seventy years old, and the father is fifty. Sami is twenty, Omar is ten, and Nour is eight.\",\n    \"segs\": [[\"فِي\", \"in\"], [\"بَيْتِ\", \"house (of)\"], [\"سَامِي\", \"Sami (first name)\", \"name\"], [\"سِتَّةُ\", \"six\"], [\"أَشْخَاصٍ\", \"people, persons\"], [\"الْجَدَّة\", \"the grandmother\"], [\"عُمْرُهَا\", \"her age\"], [\"سَبْعُونَ\", \"seventy\"], [\"سَنَةً\", \"year (after a number from 11 up)\"], [\"وَالْأَب\", \"and the father\"], [\"عُمْرُهُ\", \"his age\"], [\"خَمْسُونَ\", \"fifty\"], [\"سَنَةً\", \"year (after a number from 11 up)\"], [\"سَامِي\", \"Sami (first name)\", \"name\"], [\"عُمْرُهُ\", \"his age\"], [\"عِشْرُونَ\", \"twenty\"], [\"سَنَةً\", \"year (after a number from 11 up)\"], [\"وَعُمَر\", \"and Omar\"], [\"عُمْرُهُ\", \"his age\"], [\"عَشْرُ\", \"ten (before a feminine word)\"], [\"سَنَوَاتٍ\", \"years\"], [\"وَنُور\", \"and Nour\"], [\"عُمْرُهَا\", \"her age\"], [\"ثَمَانِي\", \"eight (before a feminine word)\"], [\"سَنَوَاتٍ\", \"years\"]]",
+   "count": 1
+  },
+  {
+   "chunk": "days-31-40",
+   "ids": [
+    28
+   ],
+   "op": "text",
+   "file": "content/days/day39.json",
+   "old": "كُنَّا عَشَرَةَ أَشْخَاص فِي الْبَيْت.\",\r\n      \"en\": \"There were ten of us in the house.\",\r\n      \"literal\": \"we were ten persons in the house\",\r\n      \"segs\": [\r\n        [\r\n          \"كُنَّا\",\r\n          \"we were\",\r\n          \"verb\"\r\n        ],\r\n        [\r\n          \"عَشَرَةَ\",\r\n          \"ten\",\r\n          \"number\"\r\n        ],\r\n        [\r\n          \"أَشْخَاص\",\r\n          \"persons, people\",\r\n          \"noun\"\r\n        ],\r\n        [\r\n          \"فِي\",\r\n          \"in\",\r\n          \"prep\"\r\n        ],\r\n        [\r\n          \"الْبَيْت\",\r\n          \"the house\",\r\n          \"noun\"\r\n        ]\r\n      ]",
+   "new": "كُنَّا عَشَرَةَ أَشْخَاصٍ فِي الْبَيْت.\",\r\n      \"en\": \"There were ten of us in the house.\",\r\n      \"literal\": \"we were ten persons in the house\",\r\n      \"segs\": [\r\n        [\r\n          \"كُنَّا\",\r\n          \"we were\",\r\n          \"verb\"\r\n        ],\r\n        [\r\n          \"عَشَرَةَ\",\r\n          \"ten\",\r\n          \"number\"\r\n        ],\r\n        [\r\n          \"أَشْخَاصٍ\",\r\n          \"persons, people\",\r\n          \"noun\"\r\n        ],\r\n        [\r\n          \"فِي\",\r\n          \"in\",\r\n          \"prep\"\r\n        ],\r\n        [\r\n          \"الْبَيْت\",\r\n          \"the house\",\r\n          \"noun\"\r\n        ]\r\n      ]",
+   "count": 1
+  },
+  {
+   "chunk": "days-31-40",
+   "ids": [
+    28
+   ],
+   "op": "text",
+   "file": "content/days/day39.json",
+   "old": "نَعَم، كُنَّا عَشَرَةَ أَشْخَاص فِي بَيْت صَغِير! كَانَ الْبَيْتُ مَلِيئًا بِالضَّحِك وَالْأَكْل.\",\r\n        \"en\": \"Yes, there were ten of us in a small house! The house was full of laughter and food.\",\r\n        \"segs\": [\r\n          [\r\n            \"نَعَم\",\r\n            \"yes\"\r\n          ],\r\n          [\r\n            \"كُنَّا\",\r\n            \"we were\"\r\n          ],\r\n          [\r\n            \"عَشَرَةَ\",\r\n            \"ten\"\r\n          ],\r\n          [\r\n            \"أَشْخَاص\",\r\n            \"persons, people\"\r\n          ],\r\n          [\r\n            \"فِي\",\r\n            \"in\"\r\n          ],\r\n          [\r\n            \"بَيْت\",\r\n            \"house\"\r\n          ],\r\n          [\r\n            \"صَغِير\",\r\n            \"small\"\r\n          ],\r\n          [\r\n            \"كَانَ\",\r\n            \"(it, m) was\"\r\n          ],\r\n          [\r\n            \"الْبَيْتُ\",\r\n            \"the house\"\r\n          ],\r\n          [\r\n            \"مَلِيئًا\",\r\n            \"full (after 'was')\"\r\n          ],\r\n          [\r\n            \"بِالضَّحِك\",\r\n            \"of laughter (lit. with the laughter)\"\r\n          ],\r\n          [\r\n            \"وَالْأَكْل\",\r\n            \"and the food\"\r\n          ]\r\n        ]",
+   "new": "نَعَم، كُنَّا عَشَرَةَ أَشْخَاصٍ فِي بَيْت صَغِير! كَانَ الْبَيْتُ مَلِيئًا بِالضَّحِك وَالْأَكْل.\",\r\n        \"en\": \"Yes, there were ten of us in a small house! The house was full of laughter and food.\",\r\n        \"segs\": [\r\n          [\r\n            \"نَعَم\",\r\n            \"yes\"\r\n          ],\r\n          [\r\n            \"كُنَّا\",\r\n            \"we were\"\r\n          ],\r\n          [\r\n            \"عَشَرَةَ\",\r\n            \"ten\"\r\n          ],\r\n          [\r\n            \"أَشْخَاصٍ\",\r\n            \"persons, people\"\r\n          ],\r\n          [\r\n            \"فِي\",\r\n            \"in\"\r\n          ],\r\n          [\r\n            \"بَيْت\",\r\n            \"house\"\r\n          ],\r\n          [\r\n            \"صَغِير\",\r\n            \"small\"\r\n          ],\r\n          [\r\n            \"كَانَ\",\r\n            \"(it, m) was\"\r\n          ],\r\n          [\r\n            \"الْبَيْتُ\",\r\n            \"the house\"\r\n          ],\r\n          [\r\n            \"مَلِيئًا\",\r\n            \"full (after 'was')\"\r\n          ],\r\n          [\r\n            \"بِالضَّحِك\",\r\n            \"of laughter (lit. with the laughter)\"\r\n          ],\r\n          [\r\n            \"وَالْأَكْل\",\r\n            \"and the food\"\r\n          ]\r\n        ]",
+   "count": 1
+  },
+  {
+   "chunk": "days-31-40",
+   "ids": [
+    28
+   ],
+   "op": "text",
+   "file": "content/days/day35.json",
+   "old": "وَفِي الْعَرَبِيَّة عِنْدَنَا أَرْبَعُ كَلِمَات: عَمّ وَعَمَّة، وَخَال وَخَالَة. سَهْل جِدًّا!\",\r\n        \"en\": \"And in Arabic we have four words: two for uncles and two for aunts. It's very easy!\",\r\n        \"segs\": [\r\n          [\r\n            \"وَفِي\",\r\n            \"and in\"\r\n          ],\r\n          [\r\n            \"الْعَرَبِيَّة\",\r\n            \"Arabic (the language)\"\r\n          ],\r\n          [\r\n            \"عِنْدَنَا\",\r\n            \"we have\"\r\n          ],\r\n          [\r\n            \"أَرْبَعُ\",\r\n            \"four (before a feminine word)\"\r\n          ],\r\n          [\r\n            \"كَلِمَات\",\r\n            \"words\"\r\n          ],\r\n          [\r\n            \"عَمّ\",\r\n            \"uncle (father's brother)\"\r\n          ],\r\n          [\r\n            \"وَعَمَّة\",\r\n            \"and aunt (father's sister)\"\r\n          ],\r\n          [\r\n            \"وَخَال\",\r\n            \"and uncle (mother's brother)\"\r\n          ],\r\n          [\r\n            \"وَخَالَة\",\r\n            \"and aunt (mother's sister)\"\r\n          ],\r\n          [\r\n            \"سَهْل\",\r\n            \"easy\"\r\n          ],\r\n          [\r\n            \"جِدًّا\",\r\n            \"very\"\r\n          ]\r\n        ]",
+   "new": "وَفِي الْعَرَبِيَّة عِنْدَنَا أَرْبَعُ كَلِمَاتٍ: عَمّ وَعَمَّة، وَخَال وَخَالَة. سَهْل جِدًّا!\",\r\n        \"en\": \"And in Arabic we have four words: two for uncles and two for aunts. It's very easy!\",\r\n        \"segs\": [\r\n          [\r\n            \"وَفِي\",\r\n            \"and in\"\r\n          ],\r\n          [\r\n            \"الْعَرَبِيَّة\",\r\n            \"Arabic (the language)\"\r\n          ],\r\n          [\r\n            \"عِنْدَنَا\",\r\n            \"we have\"\r\n          ],\r\n          [\r\n            \"أَرْبَعُ\",\r\n            \"four (before a feminine word)\"\r\n          ],\r\n          [\r\n            \"كَلِمَاتٍ\",\r\n            \"words\"\r\n          ],\r\n          [\r\n            \"عَمّ\",\r\n            \"uncle (father's brother)\"\r\n          ],\r\n          [\r\n            \"وَعَمَّة\",\r\n            \"and aunt (father's sister)\"\r\n          ],\r\n          [\r\n            \"وَخَال\",\r\n            \"and uncle (mother's brother)\"\r\n          ],\r\n          [\r\n            \"وَخَالَة\",\r\n            \"and aunt (mother's sister)\"\r\n          ],\r\n          [\r\n            \"سَهْل\",\r\n            \"easy\"\r\n          ],\r\n          [\r\n            \"جِدًّا\",\r\n            \"very\"\r\n          ]\r\n        ]",
+   "count": 1
+  },
+  {
+   "chunk": "days-31-40",
+   "ids": [
+    30
+   ],
+   "op": "text",
+   "file": "content/days/day37.json",
+   "old": "\"id\": \"d37l6\",\r\n        \"sp\": \"sami\",\r\n        \"ar\": \"أَنَا سَبَحْتُ قَلِيلًا، لٰكِنْ فَيْصَل مَا سَبَحَ. قَالَ: الْمَاء بَارِد جِدًّا!\",\r\n        \"en\": \"I swam a little, but Faisal didn't swim. He said the water was far too cold!\",\r\n        \"segs\": [\r\n          [\r\n            \"أَنَا\",\r\n            \"I\"\r\n          ],\r\n          [\r\n            \"سَبَحْتُ\",\r\n            \"I swam\"\r\n          ],\r\n          [\r\n            \"قَلِيلًا\",\r\n            \"a little\"\r\n          ],\r\n          [\r\n            \"لٰكِنْ\",\r\n            \"but\"\r\n          ],\r\n          [\r\n            \"فَيْصَل\",\r\n            \"Faisal (first name)\",\r\n            \"name\"\r\n          ],\r\n          [\r\n            \"مَا\",\r\n            \"not (before a past verb)\"\r\n          ],\r\n          [\r\n            \"سَبَحَ\",\r\n            \"he swam\"\r\n          ],\r\n          [\r\n            \"قَالَ\",\r\n            \"he said\"\r\n          ],\r\n          [\r\n            \"الْمَاء\",\r\n            \"the water\"\r\n          ],\r\n          [\r\n            \"بَارِد\",\r\n            \"cold\"\r\n          ],\r\n          [\r\n            \"جِدًّا\",\r\n            \"very\"\r\n          ]\r\n        ]",
+   "new": "\"id\": \"d37l6\",\r\n        \"sp\": \"sami\",\r\n        \"ar\": \"أَنَا سَبَحْتُ قَلِيلًا، لٰكِنْ فَيْصَل مَا سَبَحَ. قَالَ: الْمَاء بَارِد جِدًّا!\",\r\n        \"en\": \"I swam a little, but Faisal didn't swim. He said: the water is very cold!\",\r\n        \"segs\": [\r\n          [\r\n            \"أَنَا\",\r\n            \"I\"\r\n          ],\r\n          [\r\n            \"سَبَحْتُ\",\r\n            \"I swam\"\r\n          ],\r\n          [\r\n            \"قَلِيلًا\",\r\n            \"a little\"\r\n          ],\r\n          [\r\n            \"لٰكِنْ\",\r\n            \"but\"\r\n          ],\r\n          [\r\n            \"فَيْصَل\",\r\n            \"Faisal (first name)\",\r\n            \"name\"\r\n          ],\r\n          [\r\n            \"مَا\",\r\n            \"not (before a past verb)\"\r\n          ],\r\n          [\r\n            \"سَبَحَ\",\r\n            \"he swam\"\r\n          ],\r\n          [\r\n            \"قَالَ\",\r\n            \"he said\"\r\n          ],\r\n          [\r\n            \"الْمَاء\",\r\n            \"the water\"\r\n          ],\r\n          [\r\n            \"بَارِد\",\r\n            \"cold\"\r\n          ],\r\n          [\r\n            \"جِدًّا\",\r\n            \"very\"\r\n          ]\r\n        ]",
+   "count": 1
+  },
+  {
+   "chunk": "days-31-40",
+   "ids": [
+    31
+   ],
+   "op": "text",
+   "file": "content/days/day38.json",
+   "old": "wants to know what they did last week, day by day.",
+   "new": "wants to know what they did this past week, day by day.",
+   "count": 1
+  },
+  {
+   "chunk": "days-41-50",
+   "ids": [
+    32
+   ],
+   "op": "text",
+   "file": "content/days/day41.json",
+   "old": "\"id\": \"d41l13\",\r\n        \"sp\": \"karim\",\r\n        \"ar\": \"يَا فَيْصَل، إِذَا لَمْ تَشْعُرْ بِتَحَسُّن غَدًا، اِذْهَبْ إِلَى الطَّبِيب، مِنْ فَضْلِكَ.\",\r\n        \"en\": \"Faisal, if you don't feel any better tomorrow, please go to the doctor.\",\r\n        \"segs\": [\r\n          [\r\n            \"يَا\",\r\n            \"O (calling someone)\"\r\n          ],\r\n          [\r\n            \"فَيْصَل\",\r\n            \"Faisal (first name)\",\r\n            \"name\"\r\n          ],\r\n          [\r\n            \"إِذَا\",\r\n            \"if\"\r\n          ],\r\n          [\r\n            \"لَمْ\",\r\n            \"did not\"\r\n          ],\r\n          [\r\n            \"تَشْعُرْ\",\r\n            \"you feel (form after 'lam')\"\r\n          ],\r\n          [\r\n            \"بِتَحَسُّن\",\r\n            \"an improvement (lit. with improvement)\"\r\n          ],\r\n          [\r\n            \"غَدًا\",\r\n            \"tomorrow\"\r\n          ],\r\n          [\r\n            \"اِذْهَبْ\",\r\n            \"go (to a man)\"\r\n          ],\r\n          [\r\n            \"إِلَى\",\r\n            \"to\"\r\n          ],\r\n          [\r\n            \"الطَّبِيب\",\r\n            \"the doctor\"\r\n          ],\r\n          [\r\n            \"مِنْ\",\r\n            \"from\"\r\n          ],\r\n          [\r\n            \"فَضْلِكَ\",\r\n            \"your kindness (to a man): 'please'\"\r\n          ]\r\n        ]",
+   "new": "\"id\": \"d41l13\",\r\n        \"sp\": \"karim\",\r\n        \"ar\": \"يَا فَيْصَل، إِذَا لَمْ تَشْعُرْ بِتَحَسُّن غَدًا، اِذْهَبْ إِلَى الطَّبِيب، مِنْ فَضْلِكَ.\",\r\n        \"en\": \"Faisal, if you don't feel any better tomorrow, please go to the doctor.\",\r\n        \"segs\": [\r\n          [\r\n            \"يَا\",\r\n            \"O (calling someone)\"\r\n          ],\r\n          [\r\n            \"فَيْصَل\",\r\n            \"Faisal (first name)\",\r\n            \"name\"\r\n          ],\r\n          [\r\n            \"إِذَا\",\r\n            \"if\"\r\n          ],\r\n          [\r\n            \"لَمْ\",\r\n            \"not (with lam; after 'if' it means 'don't')\"\r\n          ],\r\n          [\r\n            \"تَشْعُرْ\",\r\n            \"you feel (form after 'lam')\"\r\n          ],\r\n          [\r\n            \"بِتَحَسُّن\",\r\n            \"an improvement (lit. with improvement)\"\r\n          ],\r\n          [\r\n            \"غَدًا\",\r\n            \"tomorrow\"\r\n          ],\r\n          [\r\n            \"اِذْهَبْ\",\r\n            \"go (to a man)\"\r\n          ],\r\n          [\r\n            \"إِلَى\",\r\n            \"to\"\r\n          ],\r\n          [\r\n            \"الطَّبِيب\",\r\n            \"the doctor\"\r\n          ],\r\n          [\r\n            \"مِنْ\",\r\n            \"from\"\r\n          ],\r\n          [\r\n            \"فَضْلِكَ\",\r\n            \"your kindness (to a man): 'please'\"\r\n          ]\r\n        ]",
+   "count": 1
+  },
+  {
+   "chunk": "days-41-50",
+   "ids": [
+    33
+   ],
+   "op": "text",
+   "file": "content/days/day46.json",
+   "old": "\"id\": \"d46l15\",\r\n        \"sp\": \"daniel\",\r\n        \"ar\": \"شُكْرًا لَكُمَا! أَنَا سَعِيد جِدًّا لِأَنَّكُمَا هُنَا. أَشْعُرُ أَنَّنِي أَحْسَن الْآنَ!\",\r\n        \"en\": \"Thank you both! I am very happy that you are here. I feel better now!\",\r\n        \"segs\": [\r\n          [\r\n            \"شُكْرًا\",\r\n            \"thank you\"\r\n          ],\r\n          [\r\n            \"لَكُمَا\",\r\n            \"to you (two people)\"\r\n          ],\r\n          [\r\n            \"أَنَا\",\r\n            \"I\"\r\n          ],\r\n          [\r\n            \"سَعِيد\",\r\n            \"happy\"\r\n          ],\r\n          [\r\n            \"جِدًّا\",\r\n            \"very\"\r\n          ],\r\n          [\r\n            \"لِأَنَّكُمَا\",\r\n            \"because you (two people)\"\r\n          ],\r\n          [\r\n            \"هُنَا\",\r\n            \"here\"\r\n          ],\r\n          [\r\n            \"أَشْعُرُ\",\r\n            \"I feel\"\r\n          ],\r\n          [\r\n            \"أَنَّنِي\",\r\n            \"that I\"\r\n          ],\r\n          [\r\n            \"أَحْسَن\",\r\n            \"better\"\r\n          ],\r\n          [\r\n            \"الْآنَ\",\r\n            \"now\"\r\n          ]\r\n        ]",
+   "new": "\"id\": \"d46l15\",\r\n        \"sp\": \"daniel\",\r\n        \"ar\": \"شُكْرًا لَكُمَا! أَنَا سَعِيد جِدًّا لِأَنَّكُمَا هُنَا. أَشْعُرُ بِأَنَّنِي أَحْسَن الْآنَ!\",\r\n        \"en\": \"Thank you both! I am very happy that you are here. I feel better now!\",\r\n        \"segs\": [\r\n          [\r\n            \"شُكْرًا\",\r\n            \"thank you\"\r\n          ],\r\n          [\r\n            \"لَكُمَا\",\r\n            \"to you (two people)\"\r\n          ],\r\n          [\r\n            \"أَنَا\",\r\n            \"I\"\r\n          ],\r\n          [\r\n            \"سَعِيد\",\r\n            \"happy\"\r\n          ],\r\n          [\r\n            \"جِدًّا\",\r\n            \"very\"\r\n          ],\r\n          [\r\n            \"لِأَنَّكُمَا\",\r\n            \"because you (two people)\"\r\n          ],\r\n          [\r\n            \"هُنَا\",\r\n            \"here\"\r\n          ],\r\n          [\r\n            \"أَشْعُرُ\",\r\n            \"I feel\"\r\n          ],\r\n          [\r\n            \"بِأَنَّنِي\",\r\n            \"that I (lit. with that I)\"\r\n          ],\r\n          [\r\n            \"أَحْسَن\",\r\n            \"better\"\r\n          ],\r\n          [\r\n            \"الْآنَ\",\r\n            \"now\"\r\n          ]\r\n        ]",
+   "count": 1
+  },
+  {
+   "chunk": "days-41-50",
+   "ids": [
+    33
+   ],
+   "op": "text",
+   "file": "content/days/day48.json",
+   "old": "\"id\": \"d48l2\",\r\n        \"sp\": \"daniel\",\r\n        \"ar\": \"أَشْعُرُ أَنَّنِي أَحْسَن بِكَثِير يَا دُكْتُورَة. لَيْسَتْ عِنْدِي حَرَارَة، وَالسُّعَال قَلِيل.\",\r\n        \"en\": \"I feel much better, doctor. I don't have a temperature, and the cough is only slight.\",\r\n        \"segs\": [\r\n          [\r\n            \"أَشْعُرُ\",\r\n            \"I feel\"\r\n          ],\r\n          [\r\n            \"أَنَّنِي\",\r\n            \"that I\"\r\n          ],\r\n          [\r\n            \"أَحْسَن\",\r\n            \"better\"\r\n          ],\r\n          [\r\n            \"بِكَثِير\",\r\n            \"by a lot: 'much'\"\r\n          ],\r\n          [\r\n            \"يَا\",\r\n            \"O (calling someone)\"\r\n          ],\r\n          [\r\n            \"دُكْتُورَة\",\r\n            \"doctor (a woman)\"\r\n          ],\r\n          [\r\n            \"لَيْسَتْ\",\r\n            \"is not (f)\"\r\n          ],\r\n          [\r\n            \"عِنْدِي\",\r\n            \"I have\"\r\n          ],\r\n          [\r\n            \"حَرَارَة\",\r\n            \"temperature, fever\"\r\n          ],\r\n          [\r\n            \"وَالسُّعَال\",\r\n            \"and the cough\"\r\n          ],\r\n          [\r\n            \"قَلِيل\",\r\n            \"little, slight\"\r\n          ]\r\n        ]",
+   "new": "\"id\": \"d48l2\",\r\n        \"sp\": \"daniel\",\r\n        \"ar\": \"أَشْعُرُ بِأَنَّنِي أَحْسَن بِكَثِير يَا دُكْتُورَة. لَيْسَتْ عِنْدِي حَرَارَة، وَالسُّعَال قَلِيل.\",\r\n        \"en\": \"I feel much better, doctor. I don't have a temperature, and the cough is only slight.\",\r\n        \"segs\": [\r\n          [\r\n            \"أَشْعُرُ\",\r\n            \"I feel\"\r\n          ],\r\n          [\r\n            \"بِأَنَّنِي\",\r\n            \"that I (lit. with that I)\"\r\n          ],\r\n          [\r\n            \"أَحْسَن\",\r\n            \"better\"\r\n          ],\r\n          [\r\n            \"بِكَثِير\",\r\n            \"by a lot: 'much'\"\r\n          ],\r\n          [\r\n            \"يَا\",\r\n            \"O (calling someone)\"\r\n          ],\r\n          [\r\n            \"دُكْتُورَة\",\r\n            \"doctor (a woman)\"\r\n          ],\r\n          [\r\n            \"لَيْسَتْ\",\r\n            \"is not (f)\"\r\n          ],\r\n          [\r\n            \"عِنْدِي\",\r\n            \"I have\"\r\n          ],\r\n          [\r\n            \"حَرَارَة\",\r\n            \"temperature, fever\"\r\n          ],\r\n          [\r\n            \"وَالسُّعَال\",\r\n            \"and the cough\"\r\n          ],\r\n          [\r\n            \"قَلِيل\",\r\n            \"little, slight\"\r\n          ]\r\n        ]",
+   "count": 1
+  },
+  {
+   "chunk": "days-41-50",
+   "ids": [
+    34
+   ],
+   "op": "text",
+   "file": "content/days/day42.json",
+   "old": "\"id\": \"d42l1\", \"sp\": \"karim\", \"ar\": \"يَا طُلَّاب، فِي آخِرِ هٰذَا الْأُسْبُوع نَقْرَأُ قِصَّة قَصِيرَة. هَلْ سَمِعْتُمْ عَنْ جُحَا؟\", \"en\": \"Students, to finish this week we are going to read a short story. Have you heard of Juha?\",\r\n        \"segs\": [[\"يَا\", \"O (calling someone)\"], [\"طُلَّاب\", \"students\"], [\"فِي\", \"in, at\"], [\"آخِرِ\", \"the end (of)\"], [\"هٰذَا\", \"this (m)\"], [\"الْأُسْبُوع\", \"the week\"], [\"نَقْرَأُ\", \"we read\"], [\"قِصَّة\", \"story\"], [\"قَصِيرَة\", \"short (f)\"], [\"هَلْ\", \"(starts a yes/no question)\"], [\"سَمِعْتُمْ\", \"you heard (to several people)\"], [\"عَنْ\", \"about, of\"], [\"جُحَا\", \"Juha (hero of folk tales)\", \"name\"]]",
+   "new": "\"id\": \"d42l1\", \"sp\": \"karim\", \"ar\": \"يَا طُلَّاب، فِي آخِرِ هٰذَا الْأُسْبُوع نَقْرَأُ قِصَّةً قَصِيرَةً. هَلْ سَمِعْتُمْ عَنْ جُحَا؟\", \"en\": \"Students, to finish this week we are going to read a short story. Have you heard of Juha?\",\r\n        \"segs\": [[\"يَا\", \"O (calling someone)\"], [\"طُلَّاب\", \"students\"], [\"فِي\", \"in, at\"], [\"آخِرِ\", \"the end (of)\"], [\"هٰذَا\", \"this (m)\"], [\"الْأُسْبُوع\", \"the week\"], [\"نَقْرَأُ\", \"we read\"], [\"قِصَّةً\", \"a story (object)\"], [\"قَصِيرَةً\", \"short (f)\"], [\"هَلْ\", \"(starts a yes/no question)\"], [\"سَمِعْتُمْ\", \"you heard (to several people)\"], [\"عَنْ\", \"about, of\"], [\"جُحَا\", \"Juha (hero of folk tales)\", \"name\"]]",
+   "count": 1
+  },
+  {
+   "chunk": "days-41-50",
+   "ids": [
+    37
+   ],
+   "op": "text",
+   "file": "content/days/day46.json",
+   "old": "فَيْصَل مَرِيض فِي الْبَيْت. هُوَ أَحْسَن قَلِيلًا، لٰكِنَّهُ مُتْعَب وَيَشْعُرُ بِالْمَلَل. زَارَتْهُ لَيْلَى وَسَامِي مَعَ شُورْبَة سَاخِنَة. كَانَ سَامِي جَائِعًا، وَكَانَتْ لَيْلَى قَلِقَة. فِي النِّهَايَة، الْأَصْدِقَاء الثَّلَاثَة سُعَدَاء.\",\r\n    \"en\": \"Faisal is ill at home. He is a little better, but he is tired and feels bored. Layla and Sami visited him with hot soup. Sami was hungry, and Layla was worried. In the end, the three friends are happy.\",\r\n    \"segs\": [\r\n      [\r\n        \"فَيْصَل\",\r\n        \"Faisal (first name)\",\r\n        \"name\"\r\n      ],\r\n      [\r\n        \"مَرِيض\",\r\n        \"ill, sick\"\r\n      ],\r\n      [\r\n        \"فِي\",\r\n        \"in, at\"\r\n      ],\r\n      [\r\n        \"الْبَيْت\",\r\n        \"the house, home\"\r\n      ],\r\n      [\r\n        \"هُوَ\",\r\n        \"he\"\r\n      ],\r\n      [\r\n        \"أَحْسَن\",\r\n        \"better\"\r\n      ],\r\n      [\r\n        \"قَلِيلًا\",\r\n        \"a little\"\r\n      ],\r\n      [\r\n        \"لٰكِنَّهُ\",\r\n        \"but he\"\r\n      ],\r\n      [\r\n        \"مُتْعَب\",\r\n        \"tired\"\r\n      ],\r\n      [\r\n        \"وَيَشْعُرُ\",\r\n        \"and he feels\"\r\n      ],\r\n      [\r\n        \"بِالْمَلَل\",\r\n        \"with the boredom: 'bored'\"\r\n      ],\r\n      [\r\n        \"زَارَتْهُ\",\r\n        \"(she) visited him\"\r\n      ],\r\n      [\r\n        \"لَيْلَى\",\r\n        \"Layla (first name)\",\r\n        \"name\"\r\n      ],\r\n      [\r\n        \"وَسَامِي\",\r\n        \"and Sami (first name)\",\r\n        \"name\"\r\n      ],\r\n      [\r\n        \"مَعَ\",\r\n        \"with\"\r\n      ],\r\n      [\r\n        \"شُورْبَة\",\r\n        \"soup\"\r\n      ],\r\n      [\r\n        \"سَاخِنَة\",\r\n        \"hot (f)\"\r\n      ],\r\n      [\r\n        \"كَانَ\",\r\n        \"(he) was\"\r\n      ],\r\n      [\r\n        \"سَامِي\",\r\n        \"Sami (first name)\",\r\n        \"name\"\r\n      ],\r\n      [\r\n        \"جَائِعًا\",\r\n        \"hungry\"\r\n      ],\r\n      [\r\n        \"وَكَانَتْ\",\r\n        \"and (she) was\"\r\n      ],\r\n      [\r\n        \"لَيْلَى\",\r\n        \"Layla (first name)\",\r\n        \"name\"\r\n      ],\r\n      [\r\n        \"قَلِقَة\",\r\n        \"worried (f)\"\r\n      ],\r\n      [\r\n        \"فِي\",\r\n        \"in\"\r\n      ],\r\n      [\r\n        \"النِّهَايَة\",\r\n        \"the end\"\r\n      ],\r\n      [\r\n        \"الْأَصْدِقَاء\",\r\n        \"the friends\"\r\n      ],\r\n      [\r\n        \"الثَّلَاثَة\",\r\n        \"the three\"\r\n      ],\r\n      [\r\n        \"سُعَدَاء\",\r\n        \"happy (plural)\"\r\n      ]\r\n    ]",
+   "new": "فَيْصَل مَرِيض فِي الْبَيْت. هُوَ أَحْسَن قَلِيلًا، لٰكِنَّهُ مُتْعَب وَيَشْعُرُ بِالْمَلَل. زَارَتْهُ لَيْلَى وَسَامِي مَعَ شُورْبَة سَاخِنَة. كَانَ سَامِي جَائِعًا، وَكَانَتْ لَيْلَى قَلِقَةً. فِي النِّهَايَة، الْأَصْدِقَاء الثَّلَاثَة سُعَدَاء.\",\r\n    \"en\": \"Faisal is ill at home. He is a little better, but he is tired and feels bored. Layla and Sami visited him with hot soup. Sami was hungry, and Layla was worried. In the end, the three friends are happy.\",\r\n    \"segs\": [\r\n      [\r\n        \"فَيْصَل\",\r\n        \"Faisal (first name)\",\r\n        \"name\"\r\n      ],\r\n      [\r\n        \"مَرِيض\",\r\n        \"ill, sick\"\r\n      ],\r\n      [\r\n        \"فِي\",\r\n        \"in, at\"\r\n      ],\r\n      [\r\n        \"الْبَيْت\",\r\n        \"the house, home\"\r\n      ],\r\n      [\r\n        \"هُوَ\",\r\n        \"he\"\r\n      ],\r\n      [\r\n        \"أَحْسَن\",\r\n        \"better\"\r\n      ],\r\n      [\r\n        \"قَلِيلًا\",\r\n        \"a little\"\r\n      ],\r\n      [\r\n        \"لٰكِنَّهُ\",\r\n        \"but he\"\r\n      ],\r\n      [\r\n        \"مُتْعَب\",\r\n        \"tired\"\r\n      ],\r\n      [\r\n        \"وَيَشْعُرُ\",\r\n        \"and he feels\"\r\n      ],\r\n      [\r\n        \"بِالْمَلَل\",\r\n        \"with the boredom: 'bored'\"\r\n      ],\r\n      [\r\n        \"زَارَتْهُ\",\r\n        \"(she) visited him\"\r\n      ],\r\n      [\r\n        \"لَيْلَى\",\r\n        \"Layla (first name)\",\r\n        \"name\"\r\n      ],\r\n      [\r\n        \"وَسَامِي\",\r\n        \"and Sami (first name)\",\r\n        \"name\"\r\n      ],\r\n      [\r\n        \"مَعَ\",\r\n        \"with\"\r\n      ],\r\n      [\r\n        \"شُورْبَة\",\r\n        \"soup\"\r\n      ],\r\n      [\r\n        \"سَاخِنَة\",\r\n        \"hot (f)\"\r\n      ],\r\n      [\r\n        \"كَانَ\",\r\n        \"(he) was\"\r\n      ],\r\n      [\r\n        \"سَامِي\",\r\n        \"Sami (first name)\",\r\n        \"name\"\r\n      ],\r\n      [\r\n        \"جَائِعًا\",\r\n        \"hungry\"\r\n      ],\r\n      [\r\n        \"وَكَانَتْ\",\r\n        \"and (she) was\"\r\n      ],\r\n      [\r\n        \"لَيْلَى\",\r\n        \"Layla (first name)\",\r\n        \"name\"\r\n      ],\r\n      [\r\n        \"قَلِقَةً\",\r\n        \"worried (f)\"\r\n      ],\r\n      [\r\n        \"فِي\",\r\n        \"in\"\r\n      ],\r\n      [\r\n        \"النِّهَايَة\",\r\n        \"the end\"\r\n      ],\r\n      [\r\n        \"الْأَصْدِقَاء\",\r\n        \"the friends\"\r\n      ],\r\n      [\r\n        \"الثَّلَاثَة\",\r\n        \"the three\"\r\n      ],\r\n      [\r\n        \"سُعَدَاء\",\r\n        \"happy (plural)\"\r\n      ]\r\n    ]",
+   "count": 1
+  },
+  {
+   "chunk": "days-51-60",
+   "ids": [
+    39
+   ],
+   "op": "text",
+   "file": "content/days/day57.json",
+   "old": "\"ذَهَبَ\",\r\n        \"(he) went\"",
+   "new": "\"ذَهَبَ\",\r\n        \"(they) went (verb first: singular)\"",
+   "count": 1
+  },
+  {
+   "chunk": "days-51-60",
+   "ids": [
+    39
+   ],
+   "op": "text",
+   "file": "content/days/day58.json",
+   "old": "\"وَصَلَ\", \"(he) arrived\"",
+   "new": "\"وَصَلَ\", \"(they) arrived (verb first: singular)\"",
+   "count": 1
+  },
+  {
+   "chunk": "days-51-60",
+   "ids": [
+    40
+   ],
+   "op": "text",
+   "file": "content/days/day53.json",
+   "old": "سَتَكُونُ دَرَجَةُ الْحَرَارَة خَمْسَ دَرَجَات فِي اللَّيْل.\", \"en\": \"The temperature will be five degrees at night.\", \"literal\": \"will-be degree-of the heat five degrees in the night\",\n      \"segs\": [[\"سَتَكُونُ\", \"(it) will be (f)\", \"verb\"], [\"دَرَجَةُ\", \"degree (of)\", \"noun\"], [\"الْحَرَارَة\", \"the heat ('the temperature')\", \"noun\"], [\"خَمْسَ\", \"five\", \"number\"], [\"دَرَجَات\", \"degrees\", \"noun\"], [\"فِي\", \"in, at\", \"prep\"], [\"اللَّيْل\", \"the night\", \"noun\"]]",
+   "new": "سَتَكُونُ دَرَجَةُ الْحَرَارَة خَمْسَ دَرَجَاتٍ فِي اللَّيْل.\", \"en\": \"The temperature will be five degrees at night.\", \"literal\": \"will-be degree-of the heat five degrees in the night\",\n      \"segs\": [[\"سَتَكُونُ\", \"(it) will be (f)\", \"verb\"], [\"دَرَجَةُ\", \"degree (of)\", \"noun\"], [\"الْحَرَارَة\", \"the heat ('the temperature')\", \"noun\"], [\"خَمْسَ\", \"five\", \"number\"], [\"دَرَجَاتٍ\", \"degrees\", \"noun\"], [\"فِي\", \"in, at\", \"prep\"], [\"اللَّيْل\", \"the night\", \"noun\"]]",
+   "count": 1
+  },
+  {
+   "chunk": "days-51-60",
+   "ids": [
+    40
+   ],
+   "op": "text",
+   "file": "content/days/day53.json",
+   "old": "نَعَم، فِي اللَّيْل تَكُونُ الْحَرَارَة خَمْسَ دَرَجَات أَوْ أَقَلَّ. لَا تَنْسَ مِعْطَفًا ثَقِيلًا!\", \"en\": \"Yes, at night the temperature is usually five degrees or less. Don't forget a heavy coat!\",\n        \"segs\": [[\"نَعَم\", \"yes\"], [\"فِي\", \"in, at\"], [\"اللَّيْل\", \"the night\"], [\"تَكُونُ\", \"(it) is usually (f)\"], [\"الْحَرَارَة\", \"the heat ('the temperature')\"], [\"خَمْسَ\", \"five\"], [\"دَرَجَات\", \"degrees\"], [\"أَوْ\", \"or\"], [\"أَقَلَّ\", \"less\"], [\"لَا\", \"don't\"], [\"تَنْسَ\", \"forget (to a man)\"], [\"مِعْطَفًا\", \"a coat\"], [\"ثَقِيلًا\", \"heavy\"]]",
+   "new": "نَعَم، فِي اللَّيْل تَكُونُ الْحَرَارَة خَمْسَ دَرَجَاتٍ أَوْ أَقَلَّ. لَا تَنْسَ مِعْطَفًا ثَقِيلًا!\", \"en\": \"Yes, at night the temperature is usually five degrees or less. Don't forget a heavy coat!\",\n        \"segs\": [[\"نَعَم\", \"yes\"], [\"فِي\", \"in, at\"], [\"اللَّيْل\", \"the night\"], [\"تَكُونُ\", \"(it) is usually (f)\"], [\"الْحَرَارَة\", \"the heat ('the temperature')\"], [\"خَمْسَ\", \"five\"], [\"دَرَجَاتٍ\", \"degrees\"], [\"أَوْ\", \"or\"], [\"أَقَلَّ\", \"less\"], [\"لَا\", \"don't\"], [\"تَنْسَ\", \"forget (to a man)\"], [\"مِعْطَفًا\", \"a coat\"], [\"ثَقِيلًا\", \"heavy\"]]",
+   "count": 1
+  },
+  {
+   "chunk": "days-51-60",
+   "ids": [
+    40
+   ],
+   "op": "text",
+   "file": "content/days/day54.json",
+   "old": "اُكْتُبُوا خَمْسَ جُمَل عَنْ فَصْلِكُمُ الْمُفَضَّل، وَعَنِ الطَّقْس فِيهِ.\", \"en\": \"Well done, everyone! Now the homework: write five sentences about your favourite season and the weather in it.\",\n        \"segs\": [[\"أَحْسَنْتُمْ\", \"well done (to a group)\"], [\"وَالْآنَ\", \"and now\"], [\"الْوَاجِب\", \"the homework\"], [\"اُكْتُبُوا\", \"write! (to a group)\"], [\"خَمْسَ\", \"five\"], [\"جُمَل\", \"sentences\"], [\"عَنْ\", \"about\"], [\"فَصْلِكُمُ\", \"your season (to a group)\"], [\"الْمُفَضَّل\", \"the favourite\"], [\"وَعَنِ\", \"and about\"], [\"الطَّقْس\", \"the weather\"], [\"فِيهِ\", \"in it\"]]",
+   "new": "اُكْتُبُوا خَمْسَ جُمَلٍ عَنْ فَصْلِكُمُ الْمُفَضَّل، وَعَنِ الطَّقْس فِيهِ.\", \"en\": \"Well done, everyone! Now the homework: write five sentences about your favourite season and the weather in it.\",\n        \"segs\": [[\"أَحْسَنْتُمْ\", \"well done (to a group)\"], [\"وَالْآنَ\", \"and now\"], [\"الْوَاجِب\", \"the homework\"], [\"اُكْتُبُوا\", \"write! (to a group)\"], [\"خَمْسَ\", \"five\"], [\"جُمَلٍ\", \"sentences\"], [\"عَنْ\", \"about\"], [\"فَصْلِكُمُ\", \"your season (to a group)\"], [\"الْمُفَضَّل\", \"the favourite\"], [\"وَعَنِ\", \"and about\"], [\"الطَّقْس\", \"the weather\"], [\"فِيهِ\", \"in it\"]]",
+   "count": 1
+  },
+  {
+   "chunk": "days-51-60",
+   "ids": [
+    40
+   ],
+   "op": "text",
+   "file": "content/days/day59.json",
+   "old": "طَوِيل: ثَلَاث سَاعَات بِالسَّيَّارَة تَقْرِيبًا.\", \"en\": \"Good idea! The road from Amman to Petra is long: about three hours by car.\",\r\n        \"segs\": [[\"فِكْرَة\", \"idea\"], [\"جَيِّدَة\", \"good (f)\"], [\"الطَّرِيق\", \"the road\"], [\"مِنْ\", \"from\"], [\"عَمَّان\", \"Amman (capital of Jordan)\", \"name\"], [\"إِلَى\", \"to\"], [\"الْبَتْرَاء\", \"Petra (ancient city in Jordan)\", \"name\"], [\"طَوِيل\", \"long\"], [\"ثَلَاث\", \"three\"], [\"سَاعَات\", \"hours\"], [\"بِالسَّيَّارَة\", \"by car\"], [\"تَقْرِيبًا\", \"about, roughly\"]]",
+   "new": "طَوِيل: ثَلَاثُ سَاعَاتٍ بِالسَّيَّارَة تَقْرِيبًا.\", \"en\": \"Good idea! The road from Amman to Petra is long: about three hours by car.\",\r\n        \"segs\": [[\"فِكْرَة\", \"idea\"], [\"جَيِّدَة\", \"good (f)\"], [\"الطَّرِيق\", \"the road\"], [\"مِنْ\", \"from\"], [\"عَمَّان\", \"Amman (capital of Jordan)\", \"name\"], [\"إِلَى\", \"to\"], [\"الْبَتْرَاء\", \"Petra (ancient city in Jordan)\", \"name\"], [\"طَوِيل\", \"long\"], [\"ثَلَاثُ\", \"three\"], [\"سَاعَاتٍ\", \"hours\"], [\"بِالسَّيَّارَة\", \"by car\"], [\"تَقْرِيبًا\", \"about, roughly\"]]",
+   "count": 1
+  },
+  {
+   "chunk": "days-51-60",
+   "ids": [
+    40
+   ],
+   "op": "text",
+   "file": "content/days/day59.json",
+   "old": "نَحْنُ ثَلَاثَةُ أَشْخَاص، وَنَكُونُ عِنْدَكُمْ لَيْلَةً وَاحِدَةً فَقَطْ. يَوْمَ الْأَحَد نَعُودُ إِلَى عَمَّان.\", \"en\": \"There are three of us, and we'll be with you for just one night. On Sunday we're going back to Amman.\",\r\n        \"segs\": [[\"نَحْنُ\", \"we\"], [\"ثَلَاثَةُ\", \"three\"], [\"أَشْخَاص\", \"people, persons\"], [\"وَنَكُونُ\", \"and we are, and we will be\"], [\"عِنْدَكُمْ\", \"with you (lit. at you, to several people)\"], [\"لَيْلَةً\", \"a night (adverb: for one night)\"], [\"وَاحِدَةً\", \"one (f)\"], [\"فَقَطْ\", \"only, just\"], [\"يَوْمَ\", \"on the day of\"], [\"الْأَحَد\", \"Sunday\"], [\"نَعُودُ\", \"we return, we go back\"], [\"إِلَى\", \"to\"], [\"عَمَّان\", \"Amman (capital of Jordan)\", \"name\"]]",
+   "new": "نَحْنُ ثَلَاثَةُ أَشْخَاصٍ، وَنَكُونُ عِنْدَكُمْ لَيْلَةً وَاحِدَةً فَقَطْ. يَوْمَ الْأَحَد نَعُودُ إِلَى عَمَّان.\", \"en\": \"There are three of us, and we'll be with you for just one night. On Sunday we're going back to Amman.\",\r\n        \"segs\": [[\"نَحْنُ\", \"we\"], [\"ثَلَاثَةُ\", \"three\"], [\"أَشْخَاصٍ\", \"people, persons\"], [\"وَنَكُونُ\", \"and we are, and we will be\"], [\"عِنْدَكُمْ\", \"with you (lit. at you, to several people)\"], [\"لَيْلَةً\", \"a night (adverb: for one night)\"], [\"وَاحِدَةً\", \"one (f)\"], [\"فَقَطْ\", \"only, just\"], [\"يَوْمَ\", \"on the day of\"], [\"الْأَحَد\", \"Sunday\"], [\"نَعُودُ\", \"we return, we go back\"], [\"إِلَى\", \"to\"], [\"عَمَّان\", \"Amman (capital of Jordan)\", \"name\"]]",
+   "count": 1
+  },
+  {
+   "chunk": "days-51-60",
+   "ids": [
+    21
+   ],
+   "op": "text",
+   "file": "content/days/day59.json",
+   "old": "dinars (after a number)",
+   "new": "dinar (after 11–99)",
+   "count": 2
+  },
+  {
+   "chunk": "days-51-60",
+   "ids": [
+    21
+   ],
+   "op": "text",
+   "file": "content/days/day60.json",
+   "old": "dinars (after a number)",
+   "new": "dinar (after 11–99)",
+   "count": 1
+  },
+  {
+   "chunk": "days-51-60",
+   "ids": [
+    21
+   ],
+   "op": "text",
+   "file": "content/days/day55.json",
+   "old": "months (after a number)",
+   "new": "month (after 11–99)",
+   "count": 1
+  },
+  {
+   "chunk": "days-51-60",
+   "ids": [
+    21
+   ],
+   "op": "text",
+   "file": "content/days/day54.json",
+   "old": "degrees (after a number)",
+   "new": "degree (after 11–99)",
+   "count": 3
+  },
+  {
+   "chunk": "days-51-60",
+   "ids": [
+    21
+   ],
+   "op": "text",
+   "file": "content/days/day52.json",
+   "old": "guests (after a number)",
+   "new": "guest (after 11–99)",
+   "count": 1
+  },
+  {
+   "chunk": "days-51-60",
+   "ids": [
+    41
+   ],
+   "op": "text",
+   "file": "content/days/day56.json",
+   "old": "In standard Arabic the day is an ordinal followed by min",
+   "new": "In standard Arabic the day is usually an ordinal followed by min",
+   "count": 1
+  },
+  {
+   "chunk": "days-51-60",
+   "ids": [
+    42
+   ],
+   "op": "text",
+   "file": "content/days/day51.json",
+   "old": "\"id\": \"d51s5\", \"ar\": \"هٰذَا الْهَرَم كَبِير وَقَدِيم جِدًّا.\", \"en\": \"This pyramid is very big and very old.\", \"literal\": \"this the pyramid big and old very\",\r\n      \"segs\": [[\"هٰذَا\", \"this (m)\", \"demonstrative\"], [\"الْهَرَم\", \"the pyramid\", \"noun\"], [\"كَبِير\", \"big\", \"adj\"], [\"وَقَدِيم\", \"and old\", \"adj\"], [\"جِدًّا\", \"very\", \"adverb\"]]",
+   "new": "\"id\": \"d51s5\", \"ar\": \"هٰذَا الْهَرَم كَبِير وَقَدِيم جِدًّا.\", \"en\": \"This pyramid is big and very old.\", \"literal\": \"this the pyramid big and old very\",\r\n      \"segs\": [[\"هٰذَا\", \"this (m)\", \"demonstrative\"], [\"الْهَرَم\", \"the pyramid\", \"noun\"], [\"كَبِير\", \"big\", \"adj\"], [\"وَقَدِيم\", \"and old\", \"adj\"], [\"جِدًّا\", \"very\", \"adverb\"]]",
+   "count": 1
+  },
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    117
+   ],
+   "op": "text",
+   "file": "content/course/vocabulary.json",
+   "old": "This pyramid is very big and very old.",
+   "new": "This pyramid is big and very old.",
+   "count": 1
+  },
+  {
+   "chunk": "days-51-60",
+   "ids": [
+    43
+   ],
+   "op": "text",
+   "file": "content/days/day55.json",
+   "old": "\"id\": \"d55s5\", \"ar\": \"فِي أُكْتُوبَر وَمَايُو يَكُونُ الْجَوّ لَطِيفًا فِي الْقَاهِرَة.\", \"en\": \"In October and May the weather is pleasant in Cairo.\", \"literal\": \"in October and May is (usually) the weather pleasant in Cairo\",\r\n      \"segs\": [[\"فِي\", \"in\", \"prep\"], [\"أُكْتُوبَر\", \"October\", \"noun\"], [\"وَمَايُو\", \"and May\", \"noun\"], [\"يَكُونُ\", \"(it) is usually\", \"verb\"], [\"الْجَوّ\", \"the weather\", \"noun\"], [\"لَطِيفًا\", \"pleasant (after 'be')\", \"adj\"], [\"فِي\", \"in\", \"prep\"], [\"الْقَاهِرَة\", \"Cairo (capital of Egypt)\", \"name\"]]",
+   "new": "\"id\": \"d55s5\", \"ar\": \"فِي أُكْتُوبَر وَنُوفَمْبِر يَكُونُ الْجَوّ لَطِيفًا فِي الْقَاهِرَة.\", \"en\": \"In October and November the weather is pleasant in Cairo.\", \"literal\": \"in October and November is (usually) the weather pleasant in Cairo\",\r\n      \"segs\": [[\"فِي\", \"in\", \"prep\"], [\"أُكْتُوبَر\", \"October\", \"noun\"], [\"وَنُوفَمْبِر\", \"and November\", \"noun\"], [\"يَكُونُ\", \"(it) is usually\", \"verb\"], [\"الْجَوّ\", \"the weather\", \"noun\"], [\"لَطِيفًا\", \"pleasant (after 'be')\", \"adj\"], [\"فِي\", \"in\", \"prep\"], [\"الْقَاهِرَة\", \"Cairo (capital of Egypt)\", \"name\"]]",
+   "count": 1
+  },
+  {
+   "chunk": "days-61-70",
+   "ids": [
+    45
+   ],
+   "op": "text",
+   "file": "content/days/day62.json",
+   "old": "\"id\": \"d62l9\", \"sp\": \"yusuf\", \"ar\": \"سُؤَال صَعْب! الْبَتْرَاء أَشْهَرُ مَكَان، وَهِيَ مِنْ عَجَائِبِ الدُّنْيَا السَّبْع. لٰكِنْ فِي رَأْيِي، وَادِي رَمّ أَجْمَلُ مَكَان.\", \"en\": \"A difficult question! Petra is the most famous place, and it's one of the Seven Wonders of the World. But in my opinion, Wadi Rum is the most beautiful place.\",\r\n        \"segs\": [[\"سُؤَال\", \"question\"], [\"صَعْب\", \"difficult, hard\"], [\"الْبَتْرَاء\", \"Petra (ancient city in Jordan)\", \"name\"], [\"أَشْهَرُ\", \"the most famous (before a noun)\"], [\"مَكَان\", \"place\"], [\"وَهِيَ\", \"and it (f), and she\"], [\"مِنْ\", \"of, among\"], [\"عَجَائِبِ\", \"wonders (of)\"], [\"الدُّنْيَا\", \"the world\"], [\"السَّبْع\", \"the seven\"], [\"لٰكِنْ\", \"but\"], [\"فِي\", \"in\"], [\"رَأْيِي\", \"my opinion\"], [\"وَادِي\", \"Wadi (valley): part of 'Wadi Rum', a desert in Jordan\", \"name\"], [\"رَمّ\", \"Rum: part of 'Wadi Rum'\", \"name\"], [\"أَجْمَلُ\", \"the most beautiful (before a noun)\"], [\"مَكَان\", \"place\"]]",
+   "new": "\"id\": \"d62l9\", \"sp\": \"yusuf\", \"ar\": \"سُؤَال صَعْب! الْبَتْرَاء أَشْهَرُ مَكَان، وَهِيَ مِنْ عَجَائِبِ الدُّنْيَا السَّبْعِ الْجَدِيدَة. لٰكِنْ فِي رَأْيِي، وَادِي رَمّ أَجْمَلُ مَكَان.\", \"en\": \"A difficult question! Petra is the most famous place, and it's one of the New Seven Wonders of the World. But in my opinion, Wadi Rum is the most beautiful place.\",\r\n        \"segs\": [[\"سُؤَال\", \"question\"], [\"صَعْب\", \"difficult, hard\"], [\"الْبَتْرَاء\", \"Petra (ancient city in Jordan)\", \"name\"], [\"أَشْهَرُ\", \"the most famous (before a noun)\"], [\"مَكَان\", \"place\"], [\"وَهِيَ\", \"and it (f), and she\"], [\"مِنْ\", \"of, among\"], [\"عَجَائِبِ\", \"wonders (of)\"], [\"الدُّنْيَا\", \"the world\"], [\"السَّبْعِ\", \"the seven\"], [\"الْجَدِيدَة\", \"the new (f): 'the New Seven Wonders'\"], [\"لٰكِنْ\", \"but\"], [\"فِي\", \"in\"], [\"رَأْيِي\", \"my opinion\"], [\"وَادِي\", \"Wadi (valley): part of 'Wadi Rum', a desert in Jordan\", \"name\"], [\"رَمّ\", \"Rum: part of 'Wadi Rum'\", \"name\"], [\"أَجْمَلُ\", \"the most beautiful (before a noun)\"], [\"مَكَان\", \"place\"]]",
+   "count": 1
+  },
+  {
+   "chunk": "days-61-70",
+   "ids": [
+    46
+   ],
+   "op": "text",
+   "file": "content/days/day67.json",
+   "old": "\"reading\": {\r\n    \"title\": \"Faisal's email\",\r\n    \"ar\": \"حَضْرَةَ الْأُسْتَاذ عَادِل الْمُحْتَرَم، تَحِيَّةً طَيِّبَةً وَبَعْدُ. أَرْجُو أَنْ تَكُونَ بِخَيْر. مُرْفَق مَعَ هٰذِهِ الرِّسَالَة مِلَفُّ تَرْجَمَةِ مَشْرُوعِ السِّيَاحَة. فِي انْتِظَارِ رَدِّكُمْ. مَعَ أَطْيَبِ التَّحِيَّات، فَيْصَل، شَرِكَةُ النِّيل لِلتَّرْجَمَة.\",\r\n    \"en\": \"Dear Mr Adel, greetings. I hope you are well. Attached to this message is the file with the translation of the tourism project. I look forward to your reply. With best regards, Faisal, Nile Translation Company.\",\r\n    \"segs\": [\r\n      [\r\n        \"حَضْرَةَ\",\r\n        \"(title of respect, lit. the presence of)\"\r\n      ],\r\n      [\r\n        \"الْأُسْتَاذ\",\r\n        \"Mr (title)\"\r\n      ],\r\n      [\r\n        \"عَادِل\",\r\n        \"Adel (first name)\",\r\n        \"name\"\r\n      ],\r\n      [\r\n        \"الْمُحْتَرَم\",\r\n        \"the respected (m)\"\r\n      ],\r\n      [\r\n        \"تَحِيَّةً\",\r\n        \"a greeting\"\r\n      ],\r\n      [\r\n        \"طَيِّبَةً\",\r\n        \"good, kind (f)\"\r\n      ],\r\n      [\r\n        \"وَبَعْدُ\",\r\n        \"and after (that)\"\r\n      ],\r\n      [\r\n        \"أَرْجُو\",\r\n        \"I hope; please (formal)\"\r\n      ],\r\n      [\r\n        \"أَنْ\",\r\n        \"to, that\"\r\n      ],\r\n      [\r\n        \"تَكُونَ\",\r\n        \"you are, you be (after an)\"\r\n      ],\r\n      [\r\n        \"بِخَيْر\",\r\n        \"well, fine\"\r\n      ],\r\n      [\r\n        \"مُرْفَق\",\r\n        \"attached\"\r\n      ],\r\n      [\r\n        \"مَعَ\",\r\n        \"with\"\r\n      ],\r\n      [\r\n        \"هٰذِهِ\",\r\n        \"this (f)\"\r\n      ],\r\n      [\r\n        \"الرِّسَالَة\",\r\n        \"the message, the email\"\r\n      ],\r\n      [\r\n        \"مِلَفُّ\",\r\n        \"file (of)\"\r\n      ],\r\n      [\r\n        \"تَرْجَمَةِ\",\r\n        \"translation (of)\"\r\n      ],\r\n      [\r\n        \"مَشْرُوعِ\",\r\n        \"project (of)\"\r\n      ],\r\n      [\r\n        \"السِّيَاحَة\",\r\n        \"tourism\"\r\n      ],\r\n      [\r\n        \"فِي\",\r\n        \"in\"\r\n      ],\r\n      [\r\n        \"انْتِظَارِ\",\r\n        \"waiting (for)\"\r\n      ],\r\n      [\r\n        \"رَدِّكُمْ\",\r\n        \"your reply (polite plural)\"\r\n      ],\r\n      [\r\n        \"مَعَ\",\r\n        \"with\"\r\n      ],\r\n      [\r\n        \"أَطْيَبِ\",\r\n        \"the best (of)\"\r\n      ],\r\n      [\r\n        \"التَّحِيَّات\",\r\n        \"the greetings\"\r\n      ],\r\n      [\r\n        \"فَيْصَل\",\r\n        \"Faisal (first name)\",\r\n        \"name\"\r\n      ],\r\n      [\r\n        \"شَرِكَةُ\",\r\n        \"company (of)\"\r\n      ],\r\n      [\r\n        \"النِّيل\",\r\n        \"the Nile (river in Egypt)\",\r\n        \"name\"\r\n      ],\r\n      [\r\n        \"لِلتَّرْجَمَة\",\r\n        \"for translation\"\r\n      ]\r\n    ]",
+   "new": "\"reading\": {\r\n    \"title\": \"Faisal's email\",\r\n    \"ar\": \"حَضْرَةَ الْأُسْتَاذ عَادِل الْمُحْتَرَم، تَحِيَّةً طَيِّبَةً وَبَعْدُ. أَرْجُو أَنْ تَكُونُوا بِخَيْر. مُرْفَق مَعَ هٰذِهِ الرِّسَالَة مِلَفُّ تَرْجَمَةِ مَشْرُوعِ السِّيَاحَة. فِي انْتِظَارِ رَدِّكُمْ. مَعَ أَطْيَبِ التَّحِيَّات، فَيْصَل، شَرِكَةُ النِّيل لِلتَّرْجَمَة.\",\r\n    \"en\": \"Dear Mr Adel, greetings. I hope you are well. Attached to this message is the file with the translation of the tourism project. I look forward to your reply. With best regards, Faisal, Nile Translation Company.\",\r\n    \"segs\": [\r\n      [\r\n        \"حَضْرَةَ\",\r\n        \"(title of respect, lit. the presence of)\"\r\n      ],\r\n      [\r\n        \"الْأُسْتَاذ\",\r\n        \"Mr (title)\"\r\n      ],\r\n      [\r\n        \"عَادِل\",\r\n        \"Adel (first name)\",\r\n        \"name\"\r\n      ],\r\n      [\r\n        \"الْمُحْتَرَم\",\r\n        \"the respected (m)\"\r\n      ],\r\n      [\r\n        \"تَحِيَّةً\",\r\n        \"a greeting\"\r\n      ],\r\n      [\r\n        \"طَيِّبَةً\",\r\n        \"good, kind (f)\"\r\n      ],\r\n      [\r\n        \"وَبَعْدُ\",\r\n        \"and after (that)\"\r\n      ],\r\n      [\r\n        \"أَرْجُو\",\r\n        \"I hope; please (formal)\"\r\n      ],\r\n      [\r\n        \"أَنْ\",\r\n        \"to, that\"\r\n      ],\r\n      [\r\n        \"تَكُونُوا\",\r\n        \"you are, you be (after an)\"\r\n      ],\r\n      [\r\n        \"بِخَيْر\",\r\n        \"well, fine\"\r\n      ],\r\n      [\r\n        \"مُرْفَق\",\r\n        \"attached\"\r\n      ],\r\n      [\r\n        \"مَعَ\",\r\n        \"with\"\r\n      ],\r\n      [\r\n        \"هٰذِهِ\",\r\n        \"this (f)\"\r\n      ],\r\n      [\r\n        \"الرِّسَالَة\",\r\n        \"the message, the email\"\r\n      ],\r\n      [\r\n        \"مِلَفُّ\",\r\n        \"file (of)\"\r\n      ],\r\n      [\r\n        \"تَرْجَمَةِ\",\r\n        \"translation (of)\"\r\n      ],\r\n      [\r\n        \"مَشْرُوعِ\",\r\n        \"project (of)\"\r\n      ],\r\n      [\r\n        \"السِّيَاحَة\",\r\n        \"tourism\"\r\n      ],\r\n      [\r\n        \"فِي\",\r\n        \"in\"\r\n      ],\r\n      [\r\n        \"انْتِظَارِ\",\r\n        \"waiting (for)\"\r\n      ],\r\n      [\r\n        \"رَدِّكُمْ\",\r\n        \"your reply (polite plural)\"\r\n      ],\r\n      [\r\n        \"مَعَ\",\r\n        \"with\"\r\n      ],\r\n      [\r\n        \"أَطْيَبِ\",\r\n        \"the best (of)\"\r\n      ],\r\n      [\r\n        \"التَّحِيَّات\",\r\n        \"the greetings\"\r\n      ],\r\n      [\r\n        \"فَيْصَل\",\r\n        \"Faisal (first name)\",\r\n        \"name\"\r\n      ],\r\n      [\r\n        \"شَرِكَةُ\",\r\n        \"company (of)\"\r\n      ],\r\n      [\r\n        \"النِّيل\",\r\n        \"the Nile (river in Egypt)\",\r\n        \"name\"\r\n      ],\r\n      [\r\n        \"لِلتَّرْجَمَة\",\r\n        \"for translation\"\r\n      ]\r\n    ]",
+   "count": 1
+  },
+  {
+   "chunk": "days-61-70",
+   "ids": [
+    47
+   ],
+   "op": "text",
+   "file": "content/days/day70.json",
+   "old": "After a month as an intern, Faisal",
+   "new": "After a few weeks as an intern, Faisal",
+   "count": 1
+  },
+  {
+   "chunk": "days-61-70",
+   "ids": [
+    47
+   ],
+   "op": "text",
+   "file": "content/days/day70.json",
+   "old": "\"id\": \"d70l5\", \"sp\": \"huda\", \"ar\": \"وَعِنْدَهُ خِبْرَة الْآنَ أَيْضًا. فِي شَهْر وَاحِد تَرْجَمَ مَشْرُوعًا كَامِلًا، وَكَتَبَ رَسَائِل رَسْمِيَّة لِلزَّبَائِن.\", \"en\": \"And he has experience now too. In one month he translated a whole project and wrote formal letters to clients.\",\r\n        \"segs\": [[\"وَعِنْدَهُ\", \"and he has\"], [\"خِبْرَة\", \"experience\"], [\"الْآنَ\", \"now\"], [\"أَيْضًا\", \"also, too\"], [\"فِي\", \"in\"], [\"شَهْر\", \"a month\"], [\"وَاحِد\", \"one\"], [\"تَرْجَمَ\", \"(he) translated\"], [\"مَشْرُوعًا\", \"a project\"], [\"كَامِلًا\", \"whole, complete\"], [\"وَكَتَبَ\", \"and (he) wrote\"], [\"رَسَائِل\", \"messages, letters\"], [\"رَسْمِيَّة\", \"formal (f)\"], [\"لِلزَّبَائِن\", \"to the clients\"]]",
+   "new": "\"id\": \"d70l5\", \"sp\": \"huda\", \"ar\": \"وَعِنْدَهُ خِبْرَة الْآنَ أَيْضًا. فِي وَقْت قَصِير تَرْجَمَ مَشْرُوعًا كَامِلًا، وَكَتَبَ رَسَائِل رَسْمِيَّة لِلزَّبَائِن.\", \"en\": \"And he has experience now too. In a short time he translated a whole project and wrote formal letters to clients.\",\r\n        \"segs\": [[\"وَعِنْدَهُ\", \"and he has\"], [\"خِبْرَة\", \"experience\"], [\"الْآنَ\", \"now\"], [\"أَيْضًا\", \"also, too\"], [\"فِي\", \"in\"], [\"وَقْت\", \"a time\"], [\"قَصِير\", \"short\"], [\"تَرْجَمَ\", \"(he) translated\"], [\"مَشْرُوعًا\", \"a project\"], [\"كَامِلًا\", \"whole, complete\"], [\"وَكَتَبَ\", \"and (he) wrote\"], [\"رَسَائِل\", \"messages, letters\"], [\"رَسْمِيَّة\", \"formal (f)\"], [\"لِلزَّبَائِن\", \"to the clients\"]]",
+   "count": 1
+  },
+  {
+   "chunk": "days-61-70",
+   "ids": [
+    47
+   ],
+   "op": "text",
+   "file": "content/days/day70.json",
+   "old": "بَعْدَ شَهْر مِنَ التَّدْرِيب، كَانَ عِنْدَ فَيْصَل مُقَابَلَةُ عَمَل مَعَ الْأُسْتَاذ هِشَام، الْمُدِيرِ الْعَامّ. سَأَلَهُ هِشَام عَنْ خِبْرَتِهِ وَعَنْ دِرَاسَتِهِ. الدَّوَام مِنَ التَّاسِعَة إِلَى الرَّابِعَة، وَالرَّاتِب يَزِيدُ مَعَ الْخِبْرَة. قَبِلَ فَيْصَل الْوَظِيفَة، وَاتَّصَلَ بِالْأُسْتَاذ كَرِيم لِيَقُولَ لَهُ: شُكْرًا!\", \"en\": \"After a month of training, Faisal had a job interview with Mr Hisham, the general manager. Hisham asked him about his experience and his studies. Work is from nine to four, and the salary goes up with experience. Faisal accepted the job and called Mr Karim to tell him: thank you!\",\r\n    \"segs\": [[\"بَعْدَ\", \"after\"], [\"شَهْر\", \"a month\"], [\"مِنَ\", \"of (lit. from)\"], [\"التَّدْرِيب\", \"the training, the internship\"], [\"كَانَ\", \"(there) was\"], [\"عِنْدَ\", \"at ('Faisal had')\"], [\"فَيْصَل\", \"Faisal (first name)\", \"name\"], [\"مُقَابَلَةُ\", \"interview (of)\"], [\"عَمَل\", \"work\"], [\"مَعَ\", \"with\"], [\"الْأُسْتَاذ\", \"the teacher; Mr (title)\"], [\"هِشَام\", \"Hisham (first name)\", \"name\"], [\"الْمُدِيرِ\", \"the manager, the director\"], [\"الْعَامّ\", \"the general\"], [\"سَأَلَهُ\", \"(he) asked him\"], [\"هِشَام\", \"Hisham (first name)\", \"name\"], [\"عَنْ\", \"about\"], [\"خِبْرَتِهِ\", \"his experience\"], [\"وَعَنْ\", \"and about\"], [\"دِرَاسَتِهِ\", \"his studies\"], [\"الدَّوَام\", \"the working day ('working hours')\"], [\"مِنَ\", \"from\"], [\"التَّاسِعَة\", \"the ninth ('nine o'clock')\"], [\"إِلَى\", \"to, until\"], [\"الرَّابِعَة\", \"the fourth ('four o'clock')\"], [\"وَالرَّاتِب\", \"and the salary\"], [\"يَزِيدُ\", \"increases, goes up\"], [\"مَعَ\", \"with\"], [\"الْخِبْرَة\", \"experience\"], [\"قَبِلَ\", \"(he) accepted\"], [\"فَيْصَل\", \"Faisal (first name)\", \"name\"], [\"الْوَظِيفَة\", \"the job\"], [\"وَاتَّصَلَ\", \"and (he) called\"], [\"بِالْأُسْتَاذ\", \"Mr, the teacher (after 'call')\"], [\"كَرِيم\", \"Karim (first name)\", \"name\"], [\"لِيَقُولَ\", \"to say (lit. so that he says)\"], [\"لَهُ\", \"to him\"], [\"شُكْرًا\", \"thank you\"]]",
+   "new": "بَعْدَ أَسَابِيع مِنَ التَّدْرِيب، كَانَ عِنْدَ فَيْصَل مُقَابَلَةُ عَمَل مَعَ الْأُسْتَاذ هِشَام، الْمُدِيرِ الْعَامّ. سَأَلَهُ هِشَام عَنْ خِبْرَتِهِ وَعَنْ دِرَاسَتِهِ. الدَّوَام مِنَ التَّاسِعَة إِلَى الرَّابِعَة، وَالرَّاتِب يَزِيدُ مَعَ الْخِبْرَة. قَبِلَ فَيْصَل الْوَظِيفَة، وَاتَّصَلَ بِالْأُسْتَاذ كَرِيم لِيَقُولَ لَهُ: شُكْرًا!\", \"en\": \"After a month of training, Faisal had a job interview with Mr Hisham, the general manager. Hisham asked him about his experience and his studies. Work is from nine to four, and the salary goes up with experience. Faisal accepted the job and called Mr Karim to tell him: thank you!\",\r\n    \"segs\": [[\"بَعْدَ\", \"after\"], [\"أَسَابِيع\", \"weeks\"], [\"مِنَ\", \"of (lit. from)\"], [\"التَّدْرِيب\", \"the training, the internship\"], [\"كَانَ\", \"(there) was\"], [\"عِنْدَ\", \"at ('Faisal had')\"], [\"فَيْصَل\", \"Faisal (first name)\", \"name\"], [\"مُقَابَلَةُ\", \"interview (of)\"], [\"عَمَل\", \"work\"], [\"مَعَ\", \"with\"], [\"الْأُسْتَاذ\", \"the teacher; Mr (title)\"], [\"هِشَام\", \"Hisham (first name)\", \"name\"], [\"الْمُدِيرِ\", \"the manager, the director\"], [\"الْعَامّ\", \"the general\"], [\"سَأَلَهُ\", \"(he) asked him\"], [\"هِشَام\", \"Hisham (first name)\", \"name\"], [\"عَنْ\", \"about\"], [\"خِبْرَتِهِ\", \"his experience\"], [\"وَعَنْ\", \"and about\"], [\"دِرَاسَتِهِ\", \"his studies\"], [\"الدَّوَام\", \"the working day ('working hours')\"], [\"مِنَ\", \"from\"], [\"التَّاسِعَة\", \"the ninth ('nine o'clock')\"], [\"إِلَى\", \"to, until\"], [\"الرَّابِعَة\", \"the fourth ('four o'clock')\"], [\"وَالرَّاتِب\", \"and the salary\"], [\"يَزِيدُ\", \"increases, goes up\"], [\"مَعَ\", \"with\"], [\"الْخِبْرَة\", \"experience\"], [\"قَبِلَ\", \"(he) accepted\"], [\"فَيْصَل\", \"Faisal (first name)\", \"name\"], [\"الْوَظِيفَة\", \"the job\"], [\"وَاتَّصَلَ\", \"and (he) called\"], [\"بِالْأُسْتَاذ\", \"Mr, the teacher (after 'call')\"], [\"كَرِيم\", \"Karim (first name)\", \"name\"], [\"لِيَقُولَ\", \"to say (lit. so that he says)\"], [\"لَهُ\", \"to him\"], [\"شُكْرًا\", \"thank you\"]]",
+   "count": 1
+  },
+  {
+   "chunk": "days-71-80",
+   "ids": [
+    49
+   ],
+   "op": "text",
+   "file": "content/days/day74.json",
+   "old": "\"id\": \"d74q1\",\r\n      \"prompt\": \"Complete: الْكَاتِبُ ___ أَخَذَ الْجَائِزَة\",\r\n      \"options\": [\r\n        \"الَّتِي\",\r\n        \"الَّذِينَ\",\r\n        \"الَّذِي\",\r\n        \"مَنْ\"\r\n      ]",
+   "new": "\"id\": \"d74q1\",\r\n      \"prompt\": \"Complete: الْكَاتِبُ ___ أَخَذَ الْجَائِزَة\",\r\n      \"options\": [\r\n        \"الَّتِي\",\r\n        \"الَّذِينَ\",\r\n        \"الَّذِي\",\r\n        \"أَنْ\"\r\n      ]",
+   "count": 1
+  },
+  {
+   "chunk": "days-71-80",
+   "ids": [
+    50
+   ],
+   "op": "text",
+   "file": "content/days/day78.json",
+   "old": "\"id\": \"d78l7\",\r\n        \"sp\": \"karim\",\r\n        \"ar\": \"مُمْتَاز يَا فَيْصَل. «إِعَادَةُ التَّدْوِير» تَعْنِي أَنْ نَسْتَعْمِلَ الْأَشْيَاءَ الْقَدِيمَة مَرَّةً ثَانِيَة، وَهِيَ تُوَفِّرُ الطَّاقَةَ وَالْمَاء.\",\r\n        \"en\": \"Excellent, Faisal. 'Iʿādat at-tadwīr', recycling, means using old things a second time, and it saves energy and water.\",\r\n        \"segs\": [\r\n          [\r\n            \"مُمْتَاز\",\r\n            \"excellent\"\r\n          ],\r\n          [\r\n            \"يَا\",\r\n            \"O (calling someone)\"\r\n          ],\r\n          [\r\n            \"فَيْصَل\",\r\n            \"Faisal (first name)\",\r\n            \"name\"\r\n          ],\r\n          [\r\n            \"إِعَادَةُ\",\r\n            \"doing again (of)\"\r\n          ],\r\n          [\r\n            \"التَّدْوِير\",\r\n            \"the turning ('recycling')\"\r\n          ],\r\n          [\r\n            \"تَعْنِي\",\r\n            \"(it, f) means\"\r\n          ],\r\n          [\r\n            \"أَنْ\",\r\n            \"that, to\"\r\n          ],\r\n          [\r\n            \"نَسْتَعْمِلَ\",\r\n            \"we use (-a after an)\"\r\n          ],\r\n          [\r\n            \"الْأَشْيَاءَ\",\r\n            \"the things\"\r\n          ],\r\n          [\r\n            \"الْقَدِيمَة\",\r\n            \"the old (f)\"\r\n          ],\r\n          [\r\n            \"مَرَّةً\",\r\n            \"a time, once\"\r\n          ],\r\n          [\r\n            \"ثَانِيَة\",\r\n            \"second (f) ('again')\"\r\n          ],\r\n          [\r\n            \"وَهِيَ\",\r\n            \"and it (f)\"\r\n          ],\r\n          [\r\n            \"تُوَفِّرُ\",\r\n            \"(she) saves\"\r\n          ],\r\n          [\r\n            \"الطَّاقَةَ\",\r\n            \"the energy\"\r\n          ],\r\n          [\r\n            \"وَالْمَاء\",\r\n            \"and the water\"\r\n          ]\r\n        ]",
+   "new": "\"id\": \"d78l7\",\r\n        \"sp\": \"karim\",\r\n        \"ar\": \"مُمْتَاز يَا فَيْصَل. «إِعَادَةُ التَّدْوِير» تَعْنِي أَنْ نَصْنَعَ أَشْيَاءَ جَدِيدَةً مِنَ الْأَشْيَاءِ الْقَدِيمَة، وَهِيَ تُوَفِّرُ الطَّاقَةَ وَالْمَاء.\",\r\n        \"en\": \"Excellent, Faisal. 'Iʿādat at-tadwīr', recycling, means making new things from old things, and it saves energy and water.\",\r\n        \"segs\": [[\"مُمْتَاز\", \"excellent\"], [\"يَا\", \"O (calling someone)\"], [\"فَيْصَل\", \"Faisal (first name)\", \"name\"], [\"إِعَادَةُ\", \"doing again (of)\"], [\"التَّدْوِير\", \"recycling (lit. turning around)\"], [\"تَعْنِي\", \"(it, f) means\"], [\"أَنْ\", \"that, to\"], [\"نَصْنَعَ\", \"we make (-a after an)\"], [\"أَشْيَاءَ\", \"things (object)\"], [\"جَدِيدَةً\", \"new (f)\"], [\"مِنَ\", \"from\"], [\"الْأَشْيَاءِ\", \"the things\"], [\"الْقَدِيمَة\", \"the old (f)\"], [\"وَهِيَ\", \"and it (f)\"], [\"تُوَفِّرُ\", \"(she) saves\"], [\"الطَّاقَةَ\", \"the energy\"], [\"وَالْمَاء\", \"and the water\"]]",
+   "count": 1
+  },
+  {
+   "chunk": "days-71-80",
+   "ids": [
+    52
+   ],
+   "op": "text",
+   "file": "content/days/day71.json",
+   "old": "Friends' parents are often called after their eldest child:",
+   "new": "Friends' parents are often called after their eldest son:",
+   "count": 1
+  },
+  {
+   "chunk": "days-81-90",
+   "ids": [
+    54
+   ],
+   "op": "text",
+   "file": "content/days/day81.json",
+   "old": "Use بُنِيَتْ only for feminine words such as قَلْعَة or مَدِينَة.",
+   "new": "Use بُنِيَتْ for feminine words such as قَلْعَة or مَدِينَة, and for plurals of things.",
+   "count": 1
+  },
+  {
+   "chunk": "days-81-90",
+   "ids": [
+    55
+   ],
+   "op": "text",
+   "file": "content/days/day84.json",
+   "old": "After idhā (if), use the past form, even when you mean now or the future:",
+   "new": "After idhā (if), the past form is usual, even when you mean now or the future:",
+   "count": 1
+  },
+  {
+   "chunk": "days-81-90",
+   "ids": [
+    58
+   ],
+   "op": "text",
+   "file": "content/days/day84.json",
+   "old": "\"id\": \"d84l9\",\n        \"sp\": \"karim\",\n        \"ar\": \"أَحْسَنْتُمْ! وَالْآنَ أَنَا الْجُمْهُور، وَعِنْدِي سُؤَال صَعْب: مَاذَا يَحْدُثُ إِذَا رَكِبَ النَّاسُ الدَّرَّاجَاتِ فِي الصَّيْف، وَالْحَرَارَةُ أَرْبَعُونَ دَرَجَة؟\",\n        \"en\": \"Well done, all of you! And now I'm the audience, and I have a hard question: what happens if people ride bicycles in summer, when it's forty degrees?\",\n        \"segs\": [\n          [\n            \"أَحْسَنْتُمْ\",\n            \"well done (to a group)\"\n          ],\n          [\n            \"وَالْآنَ\",\n            \"and now\"\n          ],\n          [\n            \"أَنَا\",\n            \"I\"\n          ],\n          [\n            \"الْجُمْهُور\",\n            \"the audience\"\n          ],\n          [\n            \"وَعِنْدِي\",\n            \"and I have (lit. and at me)\"\n          ],\n          [\n            \"سُؤَال\",\n            \"a question\"\n          ],\n          [\n            \"صَعْب\",\n            \"difficult, hard\"\n          ],\n          [\n            \"مَاذَا\",\n            \"what\"\n          ],\n          [\n            \"يَحْدُثُ\",\n            \"(it) happens\"\n          ],\n          [\n            \"إِذَا\",\n            \"if\"\n          ],\n          [\n            \"رَكِبَ\",\n            \"(he) rode ('ride')\"\n          ],\n          [\n            \"النَّاسُ\",\n            \"the people\"\n          ],\n          [\n            \"الدَّرَّاجَاتِ\",\n            \"the bicycles\"\n          ],\n          [\n            \"فِي\",\n            \"in\"\n          ],\n          [\n            \"الصَّيْف\",\n            \"the summer\"\n          ],\n          [\n            \"وَالْحَرَارَةُ\",\n            \"and the heat ('when it's')\"\n          ],\n          [\n            \"أَرْبَعُونَ\",\n            \"forty\"\n          ],\n          [\n            \"دَرَجَة\",\n            \"degree(s)\"\n          ]\n        ]",
+   "new": "\"id\": \"d84l9\",\n        \"sp\": \"karim\",\n        \"ar\": \"أَحْسَنْتُمْ! وَالْآنَ أَنَا الْجُمْهُور، وَعِنْدِي سُؤَال صَعْب: مَاذَا يَحْدُثُ إِذَا رَكِبَ النَّاسُ الدَّرَّاجَاتِ فِي الصَّيْف، وَالْحَرَارَةُ أَرْبَعُونَ دَرَجَةً؟\",\n        \"en\": \"Well done, all of you! And now I'm the audience, and I have a hard question: what happens if people ride bicycles in summer, when it's forty degrees?\",\n        \"segs\": [\n          [\n            \"أَحْسَنْتُمْ\",\n            \"well done (to a group)\"\n          ],\n          [\n            \"وَالْآنَ\",\n            \"and now\"\n          ],\n          [\n            \"أَنَا\",\n            \"I\"\n          ],\n          [\n            \"الْجُمْهُور\",\n            \"the audience\"\n          ],\n          [\n            \"وَعِنْدِي\",\n            \"and I have (lit. and at me)\"\n          ],\n          [\n            \"سُؤَال\",\n            \"a question\"\n          ],\n          [\n            \"صَعْب\",\n            \"difficult, hard\"\n          ],\n          [\n            \"مَاذَا\",\n            \"what\"\n          ],\n          [\n            \"يَحْدُثُ\",\n            \"(it) happens\"\n          ],\n          [\n            \"إِذَا\",\n            \"if\"\n          ],\n          [\n            \"رَكِبَ\",\n            \"(he) rode ('ride')\"\n          ],\n          [\n            \"النَّاسُ\",\n            \"the people\"\n          ],\n          [\n            \"الدَّرَّاجَاتِ\",\n            \"the bicycles\"\n          ],\n          [\n            \"فِي\",\n            \"in\"\n          ],\n          [\n            \"الصَّيْف\",\n            \"the summer\"\n          ],\n          [\n            \"وَالْحَرَارَةُ\",\n            \"and the heat ('when it's')\"\n          ],\n          [\n            \"أَرْبَعُونَ\",\n            \"forty\"\n          ],\n          [\n            \"دَرَجَةً\",\n            \"degree (after 11–99)\"\n          ]\n        ]",
+   "count": 1
+  },
+  {
+   "chunk": "glossary-auto-1",
+   "ids": [
+    60
+   ],
+   "op": "scoped",
+   "word": "أَخَذَ",
+   "scope": "*",
+   "gloss": "(he) took, got"
+  },
+  {
+   "chunk": "glossary-auto-1",
+   "ids": [
+    61
+   ],
+   "op": "hand",
+   "word": "التَّدْوِير",
+   "gloss": "recycling (lit. turning around)"
+  },
+  {
+   "chunk": "glossary-auto-1",
+   "ids": [
+    62
+   ],
+   "op": "hand",
+   "word": "أَرَاضٍ",
+   "gloss": "lands, plots of land (plural of arḍ)"
+  },
+  {
+   "chunk": "glossary-auto-2",
+   "ids": [
+    65
+   ],
+   "op": "text",
+   "file": "content/days/day43.json",
+   "old": "\"مُذَكَّرَة\",\r\n            \"masculine (agreeing with a feminine noun)\"",
+   "new": "\"مُذَكَّرَة\",\r\n            \"masculine (f form, agreeing with كَلِمَة)\"",
+   "count": 1
+  },
+  {
+   "chunk": "glossary-hand",
+   "ids": [
+    69
+   ],
+   "op": "hand",
+   "word": "بَارِدُونَ",
+   "gloss": "cold (m plural)"
+  },
+  {
+   "chunk": "glossary-hand",
+   "ids": [
+    69
+   ],
+   "op": "hand",
+   "word": "كَثِيرُونَ",
+   "gloss": "many (m plural)"
+  },
+  {
+   "chunk": "glossary-hand",
+   "ids": [
+    69
+   ],
+   "op": "hand",
+   "word": "جَمِيلُونَ",
+   "gloss": "beautiful (m plural)"
+  },
+  {
+   "chunk": "glossary-hand",
+   "ids": [
+    69
+   ],
+   "op": "hand",
+   "word": "إِنَّ",
+   "gloss": "indeed; that"
+  },
+  {
+   "chunk": "glossary-hand",
+   "ids": [
+    70
+   ],
+   "op": "text",
+   "file": "content/days/day75.json",
+   "old": "In reported speech 'I' becomes 'she': innahā, as in English 'she said that she…'.",
+   "new": "That would quote her own words; to report them, 'I' becomes 'she': innahā, as in English 'she said that she…'.",
+   "count": 1
+  },
+  {
+   "chunk": "glossary-hand",
+   "ids": [
+    73
+   ],
+   "op": "hand",
+   "word": "تَبْدَا",
+   "gloss": "(she, it f) begins (misspelt: the hamza is missing)"
+  },
+  {
+   "chunk": "grammar",
+   "ids": [
+    74
+   ],
+   "op": "scoped",
+   "word": "سَتَأْتِي",
+   "scope": "grammar:li-purpose",
+   "gloss": "she will come; you will come (to a man)"
+  },
+  {
+   "chunk": "grammar",
+   "ids": [
+    75
+   ],
+   "op": "hand",
+   "word": "يُشَاهِدُ",
+   "gloss": "(he) watches"
+  },
+  {
+   "chunk": "vocabulary-1",
+   "ids": [
+    113
+   ],
+   "op": "hand",
+   "word": "أُولَى",
+   "gloss": "first (f)"
+  },
+  {
+   "chunk": "vocabulary-1",
+   "ids": [
+    113
+   ],
+   "op": "hand",
+   "word": "ثَالِثَة",
+   "gloss": "third (f)"
+  },
+  {
+   "chunk": "grammar",
+   "ids": [
+    76
+   ],
+   "op": "text",
+   "file": "content/course/grammar.json",
+   "old": "A few common verbs are short and irregular: خُذْ (take!), كُلْ (eat!), نَمْ (sleep!).",
+   "new": "Two common verbs are short and irregular: خُذْ (take!) and كُلْ (eat!). نَمْ (sleep!) is short too, because a long vowel shortens before sukūn (tanāmu → nam).",
+   "count": 1
+  },
+  {
+   "chunk": "grammar",
+   "ids": [
+    77
+   ],
+   "op": "text",
+   "file": "content/course/grammar.json",
+   "old": "Careful style prefers إِنْ (if) with كَانَ:",
+   "new": "Careful style also uses إِنْ (if) with كَانَ:",
+   "count": 1
+  },
+  {
+   "chunk": "grammar",
+   "ids": [
+    79
+   ],
+   "op": "text",
+   "file": "content/course/grammar.json",
+   "old": "رَدِّكُمْ ، بِجَامِعَتِكُمْ",
+   "new": "رَدِّكُمْ، بِجَامِعَتِكُمْ",
+   "count": 1
+  },
+  {
+   "chunk": "letters-pronunciation",
+   "ids": [
+    81
+   ],
+   "op": "text",
+   "file": "content/course/pronunciation.json",
+   "old": "فِي الْمَدِينَة is fi l-madīna, and إِلَى الْيَمِين is ila l-yamīn. The alif is still written.",
+   "new": "فِي الْمَدِينَة is written fī al-madīna but said fi l-madīna, and إِلَى الْيَمِين is written ilā al-yamīn but said ila l-yamīn. The alif is still written.",
+   "count": 1
+  },
+  {
+   "chunk": "letters-pronunciation",
+   "ids": [
+    82
+   ],
+   "op": "text",
+   "file": "content/course/pronunciation.json",
+   "old": "\"ʔa\",\n      \"ʔi\",\n      \"∅\"",
+   "new": "\"ʔa\",\n      \"ʔi\",\n      \"ʔu\",\n      \"∅\"",
+   "count": 1
+  },
+  {
+   "chunk": "letters-pronunciation",
+   "ids": [
+    83
+   ],
+   "op": "text",
+   "file": "content/course/pronunciation.json",
+   "old": "\"id\": \"ra\",\n    \"title\": \"rāʾ (ر): the tapped r\",\n    \"category\": \"Consonants\",\n    \"ipa\": [\n      \"r\"\n    ],\n    \"letters\": [\n      \"ر\"\n    ],\n    \"tip\": \"Arabic ر is a quick tap of the tongue tip just behind the upper teeth, like the r in Spanish 'pero' or the tt in American 'better'. A doubled ر (with shadda) is a short trill. Next to a and u it sounds heavy and dark, as in أَحْمَر; next to i it is lighter, as in كَرِيم.\",\n    \"diagram\": \"the tongue tip flicks once against the ridge behind the upper front teeth; the tongue does not curl back\",\n    \"error\": \"Using the English r, which curls the tongue back, or dropping it at the end of a word as in British English: أَحْمَر ends in a clear tapped r.\",\n    \"examples\": [\n      {\n        \"ar\": \"أَحْمَر\",\n        \"en\": \"red\"\n      },\n      {\n        \"ar\": \"أَخْضَر\",\n        \"en\": \"green\"\n      },\n      {\n        \"ar\": \"أَصْفَر\",\n        \"en\": \"yellow\"\n      },\n      {\n        \"ar\": \"أَزْرَق\",\n        \"en\": \"blue\"\n      }\n    ],\n    \"pairs\": [\n      [\n        {\n          \"ar\": \"حَارّ\",\n          \"en\": \"hot\"\n        },\n        {\n          \"ar\": \"حَال\",\n          \"en\": \"condition\"\n        }\n      ]\n    ]\n  },\n  {\n    ",
+   "new": "\"id\": \"ra\",\n    \"title\": \"rāʾ (ر): the tapped r\",\n    \"category\": \"Consonants\",\n    \"ipa\": [\n      \"r\"\n    ],\n    \"letters\": [\n      \"ر\"\n    ],\n    \"tip\": \"Arabic ر is a quick tap of the tongue tip just behind the upper teeth, like the r in Spanish 'pero' or the tt in American 'better'. A doubled ر (with shadda) is a short trill. Next to a and u it sounds heavy and dark, as in أَحْمَر; next to i it is lighter, as in كَرِيم.\",\n    \"diagram\": \"the tongue tip flicks once against the ridge behind the upper front teeth; the tongue does not curl back\",\n    \"error\": \"Using the English r, which curls the tongue back, or dropping it at the end of a word as in British English: أَحْمَر ends in a clear tapped r.\",\n    \"examples\": [\n      {\n        \"ar\": \"أَحْمَر\",\n        \"en\": \"red\"\n      },\n      {\n        \"ar\": \"أَخْضَر\",\n        \"en\": \"green\"\n      },\n      {\n        \"ar\": \"أَصْفَر\",\n        \"en\": \"yellow\"\n      },\n      {\n        \"ar\": \"أَزْرَق\",\n        \"en\": \"blue\"\n      }\n    ],\n    \"pairs\": [\n      [\n        {\n          \"ar\": \"نَار\",\n          \"en\": \"fire\"\n        },\n        {\n          \"ar\": \"نَال\",\n          \"en\": \"(he) obtained\"\n        }\n      ]\n    ]\n  },\n  {\n    ",
+   "count": 1
+  },
+  {
+   "chunk": "letters-pronunciation",
+   "ids": [
+    83
+   ],
+   "op": "hand",
+   "word": "نَال",
+   "gloss": "(he) obtained, got"
+  },
+  {
+   "chunk": "letters-pronunciation",
+   "ids": [
+    84
+   ],
+   "op": "scoped",
+   "word": "عَيْن",
+   "scope": "letter:ayn",
+   "gloss": "the name of the letter ʿayn (the word also means 'eye')"
+  },
+  {
+   "chunk": "letters-pronunciation",
+   "ids": [
+    84
+   ],
+   "op": "scoped",
+   "word": "أَلِف",
+   "scope": "letter:alif",
+   "gloss": "the name of the letter alif"
+  },
+  {
+   "chunk": "letters-pronunciation",
+   "ids": [
+    85
+   ],
+   "op": "scoped",
+   "word": "يْ",
+   "scope": "pron:diphthongs",
+   "gloss": "the letter yāʾ (with sukūn: the glide ay)"
+  },
+  {
+   "chunk": "letters-pronunciation",
+   "ids": [
+    86
+   ],
+   "op": "text",
+   "file": "content/course/pronunciation.json",
+   "old": "\"ar\": \"أَرْض\",\n        \"en\": \"floor, ground\"",
+   "new": "\"ar\": \"أَرْض\",\n        \"en\": \"ground, earth\"",
+   "count": 1
+  },
+  {
+   "chunk": "placards",
+   "ids": [
+    88
+   ],
+   "op": "text",
+   "file": "content/course/placards.json",
+   "old": "The final alif of ـُوا is written but not pronounced.",
+   "new": "The final alif of ـُوا (-ū) is written but not pronounced.",
+   "count": 1
+  },
+  {
+   "chunk": "placards",
+   "ids": [
+    89
+   ],
+   "op": "text",
+   "file": "content/course/placards.json",
+   "old": "With tāʾ marbūṭa the ة becomes ت before the ending:",
+   "new": "The ة (tāʾ marbūṭa) turns into ت (tāʾ) before the ending:",
+   "count": 1
+  },
+  {
+   "chunk": "placards",
+   "ids": [
+    90
+   ],
+   "op": "text",
+   "file": "content/course/placards.json",
+   "old": "Everyday; formal: مُبَارَك",
+   "new": "Everyday; more formal: مُبَارَك, and in writing تَهَانِينَا (our congratulations)",
+   "count": 1
+  },
+  {
+   "chunk": "placards",
+   "ids": [
+    90
+   ],
+   "op": "hand",
+   "word": "تَهَانِينَا",
+   "gloss": "our congratulations"
+  },
+  {
+   "chunk": "glossary-auto-1",
+   "ids": [
+    59
+   ],
+   "op": "text",
+   "file": "content/course/scenes.json",
+   "old": "لْمَفْرَش",
+   "new": "الْمِفْرَش",
+   "count": 1
+  },
+  {
+   "chunk": "scenarios-1",
+   "ids": [
+    92
+   ],
+   "op": "text",
+   "file": "content/course/scenes.json",
+   "old": "Waiting at the carousel and nothing comes: time to find مَكْتَبُ الْمَفْقُودَات.",
+   "new": "The photo is an airport carousel; at Ramses Station there is none, so you go straight to مَكْتَبُ الْمَفْقُودَات (the lost-property office).",
+   "count": 1
+  },
+  {
+   "chunk": "scenarios-1",
+   "ids": [
+    92
+   ],
+   "op": "text",
+   "file": "content/course/scenes.json",
+   "old": "Check the flight listed here before you wait.",
+   "new": "At an airport this screen shows whose bags are coming; at a station, ask at the office.",
+   "count": 1
+  },
+  {
+   "chunk": "scenarios-2",
+   "ids": [
+    104
+   ],
+   "op": "text",
+   "file": "content/course/scenes.json",
+   "old": "the baba ghanoush (aubergine dip)",
+   "new": "the mutabbal (smoky aubergine dip with tahini)",
+   "count": 1
+  },
+  {
+   "chunk": "scenarios-1",
+   "ids": [
+    94
+   ],
+   "op": "text",
+   "file": "content/course/scenarios.json",
+   "old": "\"id\": \"weather-plans-l3\",\n          \"sp\": \"sami\",\n          \"ar\": \"عَادَةً نَعَم، فَالْبَحْر الْأَحْمَر دَافِئ فِي الْخَرِيف. لٰكِنْ سَأَنْظُرُ إِلَى أَخْبَارِ الطَّقْس فِي هَاتِفِي أَوَّلًا.\",\n          \"en\": \"Usually, yes: the Red Sea is warm in autumn. But I'll look at the weather forecast on my phone first.\",\n          \"segs\": [\n            [\n              \"عَادَةً\",\n              \"usually\"\n            ],\n            [\n              \"نَعَم\",\n              \"yes\"\n            ],\n            [\n              \"فَالْبَحْر\",\n              \"for the sea\"\n            ],\n            [\n              \"الْأَحْمَر\",\n              \"the red ('the Red Sea')\"\n            ],\n            [\n              \"دَافِئ\",\n              \"warm\"\n            ],\n            [\n              \"فِي\",\n              \"in\"\n            ],\n            [\n              \"الْخَرِيف\",\n              \"the autumn\"\n            ],\n            [\n              \"لٰكِنْ\",\n              \"but\"\n            ],\n            [\n              \"سَأَنْظُرُ\",\n              \"I will look\"\n            ],\n            [\n              \"إِلَى\",\n              \"at, to\"\n            ],\n            [\n              \"أَخْبَارِ\",\n              \"news (of) ('the forecast')\"\n            ],\n            [\n              \"الطَّقْس\",\n              \"the weather\"\n            ],\n            [\n              \"فِي\",\n              \"in, on\"\n            ],\n            [\n              \"هَاتِفِي\",\n              \"my phone\"\n            ],\n            [\n              \"أَوَّلًا\",\n              \"first, firstly\"\n            ]\n          ]",
+   "new": "\"id\": \"weather-plans-l3\",\n          \"sp\": \"sami\",\n          \"ar\": \"عَادَةً نَعَم، فَالْبَحْر الْأَحْمَر دَافِئ فِي الْخَرِيف. لٰكِنْ سَأَنْظُرُ إِلَى نَشْرَةِ الطَّقْس فِي هَاتِفِي أَوَّلًا.\",\n          \"en\": \"Usually, yes: the Red Sea is warm in autumn. But I'll look at the weather forecast on my phone first.\",\n          \"segs\": [\n            [\n              \"عَادَةً\",\n              \"usually\"\n            ],\n            [\n              \"نَعَم\",\n              \"yes\"\n            ],\n            [\n              \"فَالْبَحْر\",\n              \"for the sea\"\n            ],\n            [\n              \"الْأَحْمَر\",\n              \"the red ('the Red Sea')\"\n            ],\n            [\n              \"دَافِئ\",\n              \"warm\"\n            ],\n            [\n              \"فِي\",\n              \"in\"\n            ],\n            [\n              \"الْخَرِيف\",\n              \"the autumn\"\n            ],\n            [\n              \"لٰكِنْ\",\n              \"but\"\n            ],\n            [\n              \"سَأَنْظُرُ\",\n              \"I will look\"\n            ],\n            [\n              \"إِلَى\",\n              \"at, to\"\n            ],\n            [\n              \"نَشْرَةِ\",\n              \"bulletin (of) ('the forecast')\"\n            ],\n            [\n              \"الطَّقْس\",\n              \"the weather\"\n            ],\n            [\n              \"فِي\",\n              \"in, on\"\n            ],\n            [\n              \"هَاتِفِي\",\n              \"my phone\"\n            ],\n            [\n              \"أَوَّلًا\",\n              \"first, firstly\"\n            ]\n          ]",
+   "count": 1
+  },
+  {
+   "chunk": "scenarios-1",
+   "ids": [
+    96
+   ],
+   "op": "text",
+   "file": "content/course/scenarios.json",
+   "old": "\"id\": \"holiday-story\",\n    \"title\": \"How was your holiday?\",\n    \"emoji\": \"🏛️\",\n    \"status\": \"needs-review\",\n    \"intro\": \"After the mid-term break your classmate Huda asks about your holiday. Tell her where you went, how you travelled and what it was like. Useful phrases: سَافَرْتُ (I travelled), كَانَتِ الرِّحْلَةُ … (the trip was …) and لَمْ نَذْهَبْ (we didn't go).\",\n    \"dialogue\": {\n      \"title\": \"Luxor and Aswan\",\n      \"speakers\": [\n        {\n          \"key\": \"huda\",\n          \"name\": \"Huda\",\n          \"nameAr\": \"هُدَى\"\n        },\n        {\n          \"key\": \"daniel\",\n          \"name\": \"Faisal\",\n          \"nameAr\": \"فَيْصَل\"\n        }\n      ],\n      \"culture\": \"Luxor (الْأُقْصُر) is full of ancient Egyptian temples, and at sunrise dozens of hot-air balloons float over the Nile and the Valley of the Kings. Many visitors take the overnight sleeper train from Cairo.\",\n      \"lines\": [\n        {\n          \"id\": \"holiday-story-l1\",\n          \"sp\": \"huda\",\n          \"ar\": \"أَهْلًا يَا فَيْصَل! كَيْفَ كَانَتْ عُطْلَتُكَ؟ أَيْنَ ذَهَبْتَ؟\",\n          \"en\": \"Hi, Faisal! How was your holiday? Where did you go?\",\n          \"segs\": [\n            [\n              \"أَهْلًا\",\n              \"hi, welcome\"\n            ],\n            [\n              \"يَا\",\n              \"O (calling someone)\"\n            ],\n            [\n              \"فَيْصَل\",\n              \"Faisal (first name)\",\n              \"name\"\n            ],\n            [\n              \"كَيْفَ\",\n              \"how\"\n            ],\n            [\n              \"كَانَتْ\",\n              \"(she, it) was\"\n            ],\n            [\n              \"عُطْلَتُكَ\",\n              \"your holiday (to a man)\"\n            ],\n            [\n              \"أَيْنَ\",\n              \"where\"\n            ],\n            [\n              \"ذَهَبْتَ\",\n              \"you went (to a man)\"\n            ]\n          ]\n        },\n        {\n          \"id\": \"holiday-story-l2\",\n          \"sp\": \"daniel\",\n          \"ar\": \"كَانَتْ رَائِعَةً! سَافَرْتُ مَعَ صَدِيقِي إِلَى الْأُقْصُر وَأَسْوَان.\",\n          \"en\": \"It was wonderful! I travelled to Luxor and Aswan with my friend.\",\n          \"segs\": [\n            [\n              \"كَانَتْ\",\n              \"(she, it) was\"\n            ],\n            [\n              \"رَائِعَةً\",\n              \"wonderful (f, after 'was')\"\n            ],\n            [\n              \"سَافَرْتُ\",\n              \"I travelled\"\n            ],\n            [\n              \"مَعَ\",\n              \"with\"\n            ],\n            [\n              \"صَدِيقِي\",\n              \"my friend\"\n            ],\n            [\n              \"إِلَى\",\n              \"to\"\n            ],\n            [\n              \"الْأُقْصُر\",\n              \"Luxor (city in Egypt)\",\n              \"name\"\n            ],\n            [\n              \"وَأَسْوَان\",\n              \"and Aswan (city in Egypt)\",\n              \"name\"\n            ]\n          ]\n        },\n        {\n          \"id\": \"holiday-story-l3\",\n          \"sp\": \"huda\",\n          \"ar\": \"مَا شَاءَ اللّٰه! كَيْفَ سَافَرْتُمَا؟ لَمْ تَذْهَبَا بِالطَّائِرَة، صَحِيح؟\",\n          \"en\": \"How lovely! How did you two travel? You two didn't go by plane, did you?\",\n          \"segs\": [\n            [\n              \"مَا\",\n              \"what\"\n            ],\n            [\n              \"شَاءَ\",\n              \"(has) willed\"\n            ],\n            [\n              \"اللّٰه\",\n              \"God\"\n            ],\n            [\n              \"كَيْفَ\",\n              \"how\"\n            ],\n            [\n              \"سَافَرْتُمَا\",\n              \"you travelled (two people)\"\n            ],\n            [\n              \"لَمْ\",\n              \"did not\"\n            ],\n            [\n              \"تَذْهَبَا\",\n              \"you go (two people; form after 'lam')\"\n            ],\n            [\n              \"بِالطَّائِرَة\",\n              \"by plane\"\n            ],\n            [\n              \"صَحِيح\",\n              \"true, right\"\n            ]\n          ]\n        },\n        {\n          \"id\": \"holiday-story-l4\",\n          \"sp\": \"daniel\",\n          \"ar\": \"لَا، لَمْ نَذْهَبْ بِالطَّائِرَة. رَكِبْنَا قِطَارَ اللَّيْل، وَكَانَتِ الرِّحْلَةُ طَوِيلَةً.\",\n          \"en\": \"No, we didn't go by plane. We took the night train, and the journey was long.\",\n          \"segs\": [\n            [\n              \"لَا\",\n              \"no\"\n            ],\n            [\n              \"لَمْ\",\n              \"did not\"\n            ],\n            [\n              \"نَذْهَبْ\",\n              \"we go (form after 'lam')\"\n            ],\n            [\n              \"بِالطَّائِرَة\",\n              \"by plane\"\n            ],\n            [\n              \"رَكِبْنَا\",\n              \"we rode, we took\"\n            ],\n            [\n              \"قِطَارَ\",\n              \"train (of)\"\n            ],\n            [\n              \"اللَّيْل\",\n              \"the night\"\n            ],\n            [\n              \"وَكَانَتِ\",\n              \"and (it, f) was\"\n            ],\n            [\n              \"الرِّحْلَةُ\",\n              \"the trip, the journey\"\n            ],\n            [\n              \"طَوِيلَةً\",\n              \"long (f, after 'was')\"\n            ]\n          ]\n        },\n        {\n          \"id\": \"holiday-story-l5\",\n          \"sp\": \"huda\",\n          \"ar\": \"وَمَاذَا فَعَلْتُمَا فِي الْأُقْصُر؟\",\n          \"en\": \"And what did you two do in Luxor?\",\n          \"segs\": [\n            [\n              \"وَمَاذَا\",\n              \"and what (before a verb)\"\n            ],\n            [\n              \"فَعَلْتُمَا\",\n              \"you did (to two people)\"\n            ],\n            [\n              \"فِي\",\n              \"in\"\n            ],\n            [\n              \"الْأُقْصُر\",\n              \"Luxor (city in Egypt)\",\n              \"name\"\n            ]\n          ]\n        },\n        {\n          \"id\": \"holiday-story-l6\",\n          \"sp\": \"daniel\",\n          \"ar\": \"زُرْنَا الْمَعَابِد الْقَدِيمَة، وَفِي الصَّبَاح الْبَاكِر رَكِبْنَا مُنْطَادًا فَوْقَ النِّيل.\",\n          \"en\": \"We visited the ancient temples, and early in the morning we went up in a balloon over the Nile.\",\n          \"segs\": [\n            [\n              \"زُرْنَا\",\n              \"we visited\"\n            ],\n            [\n              \"الْمَعَابِد\",\n              \"the temples\"\n            ],\n            [\n              \"الْقَدِيمَة\",\n              \"the old, the ancient (f)\"\n            ],\n            [\n              \"وَفِي\",\n              \"and in\"\n            ],\n            [\n              \"الصَّبَاح\",\n              \"the morning\"\n            ],\n            [\n              \"الْبَاكِر\",\n              \"the early\"\n            ],\n            [\n              \"رَكِبْنَا\",\n              \"we rode, we took\"\n            ],\n            [\n              \"مُنْطَادًا\",\n              \"a balloon (object form)\"\n            ],\n            [\n              \"فَوْقَ\",\n              \"above, over\"\n            ],\n            [\n              \"النِّيل\",\n              \"the Nile (river)\",\n              \"name\"\n            ]\n          ]\n        },\n        {\n          \"id\": \"holiday-story-l7\",\n          \"sp\": \"huda\",\n          \"ar\": \"يَا سَلَام! وَهَلْ كَانَ الْجَوُّ حَارًّا هُنَاكَ؟\",\n          \"en\": \"Wow! And was the weather hot there?\",\n          \"segs\": [\n            [\n              \"يَا\",\n              \"O (calling someone)\"\n            ],\n            [\n              \"سَلَام\",\n              \"peace (yā salām: wow!)\"\n            ],\n            [\n              \"وَهَلْ\",\n              \"and (starts a yes/no question)\"\n            ],\n            [\n              \"كَانَ\",\n              \"(it, m) was\"\n            ],\n            [\n              \"الْجَوُّ\",\n              \"the weather\"\n            ],\n            [\n              \"حَارًّا\",\n              \"hot (after 'was')\"\n            ],\n            [\n              \"هُنَاكَ\",\n              \"there\"\n            ]\n          ]\n        },\n        {\n          \"id\": \"holiday-story-l8\",\n          \"sp\": \"daniel\",\n          \"ar\": \"كَانَ حَارًّا فِي النَّهَار، لٰكِنَّهُ كَانَ لَطِيفًا فِي الْمَسَاء. وَأَنْتِ؟ لَمْ تَذْهَبِي إِلَى أَيِّ مَكَان؟\",\n          \"en\": \"It was hot in the daytime, but it was pleasant in the evening. And you? Didn't you go anywhere?\",\n          \"segs\": [\n            [\n              \"كَانَ\",\n              \"(it, m) was\"\n            ],\n            [\n              \"حَارًّا\",\n              \"hot (after 'was')\"\n            ],\n            [\n              \"فِي\",\n              \"in\"\n            ],\n            [\n              \"النَّهَار\",\n              \"the daytime\"\n            ],\n            [\n              \"لٰكِنَّهُ\",\n              \"but it (m)\"\n            ],\n            [\n              \"كَانَ\",\n              \"(it, m) was\"\n            ],\n            [\n              \"لَطِيفًا\",\n              \"pleasant, nice (after 'was')\"\n            ],\n            [\n              \"فِي\",\n              \"in\"\n            ],\n            [\n              \"الْمَسَاء\",\n              \"the evening\"\n            ],\n            [\n              \"وَأَنْتِ\",\n              \"and you (to a woman)\"\n            ],\n            [\n              \"لَمْ\",\n              \"did not\"\n            ],\n            [\n              \"تَذْهَبِي\",\n              \"you go (to a woman; form after 'lam')\"\n            ],\n            [\n              \"إِلَى\",\n              \"to\"\n            ],\n            [\n              \"أَيِّ\",\n              \"any\"\n            ],\n            [\n              \"مَكَان\",\n              \"place\"\n            ]\n          ]\n        },\n        {\n          \"id\": \"holiday-story-l9\",\n          \"sp\": \"huda\",\n          \"ar\": \"لَا، لَمْ أُسَافِرْ. زَارَنَا أَقَارِبِي مِنَ الْإِسْكَنْدَرِيَّة، وَهُمْ بَقُوا عِنْدَنَا أُسْبُوعًا كَامِلًا.\",\n          \"en\": \"No, I didn't travel. My relatives from Alexandria visited us, and they stayed with us for a whole week.\",\n          \"segs\": [\n            [\n              \"لَا\",\n              \"no\"\n            ],\n            [\n              \"لَمْ\",\n              \"did not\"\n            ],\n            [\n              \"أُسَافِرْ\",\n              \"I travel (form after 'lam')\"\n            ],\n            [\n              \"زَارَنَا\",\n              \"(they) visited us\"\n            ],\n            [\n              \"أَقَارِبِي\",\n              \"my relatives\"\n            ],\n            [\n              \"مِنَ\",\n              \"from\"\n            ],\n            [\n              \"الْإِسْكَنْدَرِيَّة\",\n              \"Alexandria (city in Egypt)\",\n              \"name\"\n            ],\n            [\n              \"وَهُمْ\",\n              \"and they\"\n            ],\n            [\n              \"بَقُوا\",\n              \"they stayed\"\n            ],\n            [\n              \"عِنْدَنَا\",\n              \"with us, at our place\"\n            ],\n            [\n              \"أُسْبُوعًا\",\n              \"a week (object form)\"\n            ],\n            [\n              \"كَامِلًا\",\n              \"whole, complete\"\n            ]\n          ]\n        },\n        {\n          \"id\": \"holiday-story-l10\",\n          \"sp\": \"daniel\",\n          \"ar\": \"وَهَلْ خَرَجْتُمْ مَعًا يَا هُدَى؟\",\n          \"en\": \"And did you all go out together, Huda?\",\n          \"segs\": [\n            [\n              \"وَهَلْ\",\n              \"and (starts a yes/no question)\"\n            ],\n            [\n              \"خَرَجْتُمْ\",\n              \"you went out (to several people)\"\n            ],\n            [\n              \"مَعًا\",\n              \"together\"\n            ],\n            [\n              \"يَا\",\n              \"O (calling someone)\"\n            ],\n            [\n              \"هُدَى\",\n              \"Huda (first name)\",\n              \"name\"\n            ]\n          ]\n        },\n        {\n          \"id\": \"holiday-story-l11\",\n          \"sp\": \"huda\",\n          \"ar\": \"نَعَم، ذَهَبْنَا إِلَى الْأَهْرَام. لٰكِنْ أَخِي لَمْ يَذْهَبْ مَعَنَا، لِأَنَّهُ كَانَ مَرِيضًا.\",\n          \"en\": \"Yes, we went to the pyramids. But my brother didn't come with us, because he was ill.\",\n          \"segs\": [\n            [\n              \"نَعَم\",\n              \"yes\"\n            ],\n            [\n              \"ذَهَبْنَا\",\n              \"we went\"\n            ],\n            [\n              \"إِلَى\",\n              \"to\"\n            ],\n            [\n              \"الْأَهْرَام\",\n              \"the pyramids\"\n            ],\n            [\n              \"لٰكِنْ\",\n              \"but\"\n            ],\n            [\n              \"أَخِي\",\n              \"my brother\"\n            ],\n            [\n              \"لَمْ\",\n              \"did not\"\n            ],\n            [\n              \"يَذْهَبْ\",\n              \"he goes (form after 'lam')\"\n            ],\n            [\n              \"مَعَنَا\",\n              \"with us\"\n            ],\n            [\n              \"لِأَنَّهُ\",\n              \"because he\"\n            ],\n            [\n              \"كَانَ\",\n              \"(he) was\"\n            ],\n            [\n              \"مَرِيضًا\",\n              \"ill, sick (after 'was')\"\n            ]\n          ]\n        },\n        {\n          \"id\": \"holiday-story-l12\",\n          \"sp\": \"daniel\",\n          \"ar\": \"سَلَامَتُهُ! أَرْجُو أَنْ يَكُونَ بِخَيْر الْآنَ.\",\n          \"en\": \"I'm sorry he was ill! I hope he is well now.\",\n          \"segs\": [\n            [\n              \"سَلَامَتُهُ\",\n              \"his safety: 'may he get well'\"\n            ],\n            [\n              \"أَرْجُو\",\n              \"I hope\"\n            ],\n            [\n              \"أَنْ\",\n              \"that (before a verb)\"\n            ],\n            [\n              \"يَكُونَ\",\n              \"he is, he be (after 'an')\"\n            ],\n            [\n              \"بِخَيْر\",\n              \"well, fine\"\n            ],\n            [\n              \"الْآنَ\",\n              \"now\"\n            ]\n          ]\n        }\n      ]\n    },\n    \"mistakes\": [\n      {\n        \"wrong\": \"كَانَتِ الرِّحْلَةُ طَوِيلَة\",\n        \"right\": \"كَانَتِ الرِّحْلَةُ طَوِيلَةً\",\n        \"why\": \"After كَانَ or كَانَتْ the description takes the -an ending: ṭawīlatan.\"\n      },\n      {\n        \"wrong\": \"لَمْ سَافَرْتُ\",\n        \"right\": \"لَمْ أُسَافِرْ\",\n        \"why\": \"لَمْ takes the short form of the present (sukūn for most persons; -na/-ni endings drop), not the past.\"\n      }\n    ],\n    \"quiz\": [\n      {\n        \"id\": \"hsq1\",\n        \"prompt\": \"Where did Faisal travel in the holiday?\",\n        \"options\": [\n          \"Alexandria\",\n          \"Luxor and Aswan\",\n          \"Amman\",\n          \"Beirut\"\n        ],\n        \"answer\": 1\n      },\n      {\n        \"id\": \"hsq2\",\n        \"prompt\": \"How did Faisal and his friend travel?\",\n        \"options\": [\n          \"by plane\",\n          \"by car\",\n          \"by the night train\",\n          \"by boat\"\n        ],\n        \"answer\": 2\n      },\n      {\n        \"id\": \"hsq3\",\n        \"prompt\": \"What does this mean?\",\n        \"ar\": \"لَمْ تَذْهَبِي إِلَى أَيِّ مَكَان؟\",\n        \"options\": [\n          \"Didn't you go anywhere? (to a woman)\",\n          \"Where did you go?\",\n          \"You didn't go to the place.\",\n          \"Don't go anywhere!\"\n        ],\n        \"answer\": 0\n      }\n    ]\n  },\n  {\n    ",
+   "new": "\"id\": \"holiday-story\",\n    \"title\": \"How was your holiday?\",\n    \"emoji\": \"🏛️\",\n    \"status\": \"needs-review\",\n    \"intro\": \"After the mid-term break your classmate Maryam asks about your holiday. Tell her where you went, how you travelled and what it was like. Useful phrases: سَافَرْتُ (I travelled), كَانَتِ الرِّحْلَةُ … (the trip was …) and لَمْ نَذْهَبْ (we didn't go).\",\n    \"dialogue\": {\n      \"title\": \"Luxor and Aswan\",\n      \"speakers\": [\n        {\n          \"key\": \"huda\",\n          \"name\": \"Maryam\",\n          \"nameAr\": \"مَرْيَم\"\n        },\n        {\n          \"key\": \"daniel\",\n          \"name\": \"Faisal\",\n          \"nameAr\": \"فَيْصَل\"\n        }\n      ],\n      \"culture\": \"Luxor (الْأُقْصُر) is full of ancient Egyptian temples, and at sunrise dozens of hot-air balloons float over the Nile and the Valley of the Kings. Many visitors take the overnight sleeper train from Cairo.\",\n      \"lines\": [\n        {\n          \"id\": \"holiday-story-l1\",\n          \"sp\": \"huda\",\n          \"ar\": \"أَهْلًا يَا فَيْصَل! كَيْفَ كَانَتْ عُطْلَتُكَ؟ أَيْنَ ذَهَبْتَ؟\",\n          \"en\": \"Hi, Faisal! How was your holiday? Where did you go?\",\n          \"segs\": [\n            [\n              \"أَهْلًا\",\n              \"hi, welcome\"\n            ],\n            [\n              \"يَا\",\n              \"O (calling someone)\"\n            ],\n            [\n              \"فَيْصَل\",\n              \"Faisal (first name)\",\n              \"name\"\n            ],\n            [\n              \"كَيْفَ\",\n              \"how\"\n            ],\n            [\n              \"كَانَتْ\",\n              \"(she, it) was\"\n            ],\n            [\n              \"عُطْلَتُكَ\",\n              \"your holiday (to a man)\"\n            ],\n            [\n              \"أَيْنَ\",\n              \"where\"\n            ],\n            [\n              \"ذَهَبْتَ\",\n              \"you went (to a man)\"\n            ]\n          ]\n        },\n        {\n          \"id\": \"holiday-story-l2\",\n          \"sp\": \"daniel\",\n          \"ar\": \"كَانَتْ رَائِعَةً! سَافَرْتُ مَعَ صَدِيقِي إِلَى الْأُقْصُر وَأَسْوَان.\",\n          \"en\": \"It was wonderful! I travelled to Luxor and Aswan with my friend.\",\n          \"segs\": [\n            [\n              \"كَانَتْ\",\n              \"(she, it) was\"\n            ],\n            [\n              \"رَائِعَةً\",\n              \"wonderful (f, after 'was')\"\n            ],\n            [\n              \"سَافَرْتُ\",\n              \"I travelled\"\n            ],\n            [\n              \"مَعَ\",\n              \"with\"\n            ],\n            [\n              \"صَدِيقِي\",\n              \"my friend\"\n            ],\n            [\n              \"إِلَى\",\n              \"to\"\n            ],\n            [\n              \"الْأُقْصُر\",\n              \"Luxor (city in Egypt)\",\n              \"name\"\n            ],\n            [\n              \"وَأَسْوَان\",\n              \"and Aswan (city in Egypt)\",\n              \"name\"\n            ]\n          ]\n        },\n        {\n          \"id\": \"holiday-story-l3\",\n          \"sp\": \"huda\",\n          \"ar\": \"مَا شَاءَ اللّٰه! كَيْفَ سَافَرْتُمَا؟ لَمْ تَذْهَبَا بِالطَّائِرَة، صَحِيح؟\",\n          \"en\": \"How lovely! How did you two travel? You two didn't go by plane, did you?\",\n          \"segs\": [\n            [\n              \"مَا\",\n              \"what\"\n            ],\n            [\n              \"شَاءَ\",\n              \"(has) willed\"\n            ],\n            [\n              \"اللّٰه\",\n              \"God\"\n            ],\n            [\n              \"كَيْفَ\",\n              \"how\"\n            ],\n            [\n              \"سَافَرْتُمَا\",\n              \"you travelled (two people)\"\n            ],\n            [\n              \"لَمْ\",\n              \"did not\"\n            ],\n            [\n              \"تَذْهَبَا\",\n              \"you go (two people; form after 'lam')\"\n            ],\n            [\n              \"بِالطَّائِرَة\",\n              \"by plane\"\n            ],\n            [\n              \"صَحِيح\",\n              \"true, right\"\n            ]\n          ]\n        },\n        {\n          \"id\": \"holiday-story-l4\",\n          \"sp\": \"daniel\",\n          \"ar\": \"لَا، لَمْ نَذْهَبْ بِالطَّائِرَة. رَكِبْنَا قِطَارَ اللَّيْل، وَكَانَتِ الرِّحْلَةُ طَوِيلَةً.\",\n          \"en\": \"No, we didn't go by plane. We took the night train, and the journey was long.\",\n          \"segs\": [\n            [\n              \"لَا\",\n              \"no\"\n            ],\n            [\n              \"لَمْ\",\n              \"did not\"\n            ],\n            [\n              \"نَذْهَبْ\",\n              \"we go (form after 'lam')\"\n            ],\n            [\n              \"بِالطَّائِرَة\",\n              \"by plane\"\n            ],\n            [\n              \"رَكِبْنَا\",\n              \"we rode, we took\"\n            ],\n            [\n              \"قِطَارَ\",\n              \"train (of)\"\n            ],\n            [\n              \"اللَّيْل\",\n              \"the night\"\n            ],\n            [\n              \"وَكَانَتِ\",\n              \"and (it, f) was\"\n            ],\n            [\n              \"الرِّحْلَةُ\",\n              \"the trip, the journey\"\n            ],\n            [\n              \"طَوِيلَةً\",\n              \"long (f, after 'was')\"\n            ]\n          ]\n        },\n        {\n          \"id\": \"holiday-story-l5\",\n          \"sp\": \"huda\",\n          \"ar\": \"وَمَاذَا فَعَلْتُمَا فِي الْأُقْصُر؟\",\n          \"en\": \"And what did you two do in Luxor?\",\n          \"segs\": [\n            [\n              \"وَمَاذَا\",\n              \"and what (before a verb)\"\n            ],\n            [\n              \"فَعَلْتُمَا\",\n              \"you did (to two people)\"\n            ],\n            [\n              \"فِي\",\n              \"in\"\n            ],\n            [\n              \"الْأُقْصُر\",\n              \"Luxor (city in Egypt)\",\n              \"name\"\n            ]\n          ]\n        },\n        {\n          \"id\": \"holiday-story-l6\",\n          \"sp\": \"daniel\",\n          \"ar\": \"زُرْنَا الْمَعَابِد الْقَدِيمَة، وَفِي الصَّبَاح الْبَاكِر رَكِبْنَا مُنْطَادًا فَوْقَ النِّيل.\",\n          \"en\": \"We visited the ancient temples, and early in the morning we went up in a balloon over the Nile.\",\n          \"segs\": [\n            [\n              \"زُرْنَا\",\n              \"we visited\"\n            ],\n            [\n              \"الْمَعَابِد\",\n              \"the temples\"\n            ],\n            [\n              \"الْقَدِيمَة\",\n              \"the old, the ancient (f)\"\n            ],\n            [\n              \"وَفِي\",\n              \"and in\"\n            ],\n            [\n              \"الصَّبَاح\",\n              \"the morning\"\n            ],\n            [\n              \"الْبَاكِر\",\n              \"the early\"\n            ],\n            [\n              \"رَكِبْنَا\",\n              \"we rode, we took\"\n            ],\n            [\n              \"مُنْطَادًا\",\n              \"a balloon (object form)\"\n            ],\n            [\n              \"فَوْقَ\",\n              \"above, over\"\n            ],\n            [\n              \"النِّيل\",\n              \"the Nile (river)\",\n              \"name\"\n            ]\n          ]\n        },\n        {\n          \"id\": \"holiday-story-l7\",\n          \"sp\": \"huda\",\n          \"ar\": \"يَا سَلَام! وَهَلْ كَانَ الْجَوُّ حَارًّا هُنَاكَ؟\",\n          \"en\": \"Wow! And was the weather hot there?\",\n          \"segs\": [\n            [\n              \"يَا\",\n              \"O (calling someone)\"\n            ],\n            [\n              \"سَلَام\",\n              \"peace (yā salām: wow!)\"\n            ],\n            [\n              \"وَهَلْ\",\n              \"and (starts a yes/no question)\"\n            ],\n            [\n              \"كَانَ\",\n              \"(it, m) was\"\n            ],\n            [\n              \"الْجَوُّ\",\n              \"the weather\"\n            ],\n            [\n              \"حَارًّا\",\n              \"hot (after 'was')\"\n            ],\n            [\n              \"هُنَاكَ\",\n              \"there\"\n            ]\n          ]\n        },\n        {\n          \"id\": \"holiday-story-l8\",\n          \"sp\": \"daniel\",\n          \"ar\": \"كَانَ حَارًّا فِي النَّهَار، لٰكِنَّهُ كَانَ لَطِيفًا فِي الْمَسَاء. وَأَنْتِ؟ لَمْ تَذْهَبِي إِلَى أَيِّ مَكَان؟\",\n          \"en\": \"It was hot in the daytime, but it was pleasant in the evening. And you? Didn't you go anywhere?\",\n          \"segs\": [\n            [\n              \"كَانَ\",\n              \"(it, m) was\"\n            ],\n            [\n              \"حَارًّا\",\n              \"hot (after 'was')\"\n            ],\n            [\n              \"فِي\",\n              \"in\"\n            ],\n            [\n              \"النَّهَار\",\n              \"the daytime\"\n            ],\n            [\n              \"لٰكِنَّهُ\",\n              \"but it (m)\"\n            ],\n            [\n              \"كَانَ\",\n              \"(it, m) was\"\n            ],\n            [\n              \"لَطِيفًا\",\n              \"pleasant, nice (after 'was')\"\n            ],\n            [\n              \"فِي\",\n              \"in\"\n            ],\n            [\n              \"الْمَسَاء\",\n              \"the evening\"\n            ],\n            [\n              \"وَأَنْتِ\",\n              \"and you (to a woman)\"\n            ],\n            [\n              \"لَمْ\",\n              \"did not\"\n            ],\n            [\n              \"تَذْهَبِي\",\n              \"you go (to a woman; form after 'lam')\"\n            ],\n            [\n              \"إِلَى\",\n              \"to\"\n            ],\n            [\n              \"أَيِّ\",\n              \"any\"\n            ],\n            [\n              \"مَكَان\",\n              \"place\"\n            ]\n          ]\n        },\n        {\n          \"id\": \"holiday-story-l9\",\n          \"sp\": \"huda\",\n          \"ar\": \"لَا، لَمْ أُسَافِرْ. زَارَنَا أَقَارِبِي مِنَ الْإِسْكَنْدَرِيَّة، وَهُمْ بَقُوا عِنْدَنَا أُسْبُوعًا كَامِلًا.\",\n          \"en\": \"No, I didn't travel. My relatives from Alexandria visited us, and they stayed with us for a whole week.\",\n          \"segs\": [\n            [\n              \"لَا\",\n              \"no\"\n            ],\n            [\n              \"لَمْ\",\n              \"did not\"\n            ],\n            [\n              \"أُسَافِرْ\",\n              \"I travel (form after 'lam')\"\n            ],\n            [\n              \"زَارَنَا\",\n              \"(they) visited us\"\n            ],\n            [\n              \"أَقَارِبِي\",\n              \"my relatives\"\n            ],\n            [\n              \"مِنَ\",\n              \"from\"\n            ],\n            [\n              \"الْإِسْكَنْدَرِيَّة\",\n              \"Alexandria (city in Egypt)\",\n              \"name\"\n            ],\n            [\n              \"وَهُمْ\",\n              \"and they\"\n            ],\n            [\n              \"بَقُوا\",\n              \"they stayed\"\n            ],\n            [\n              \"عِنْدَنَا\",\n              \"with us, at our place\"\n            ],\n            [\n              \"أُسْبُوعًا\",\n              \"a week (object form)\"\n            ],\n            [\n              \"كَامِلًا\",\n              \"whole, complete\"\n            ]\n          ]\n        },\n        {\n          \"id\": \"holiday-story-l10\",\n          \"sp\": \"daniel\",\n          \"ar\": \"وَهَلْ خَرَجْتُمْ مَعًا يَا مَرْيَم؟\",\n          \"en\": \"And did you all go out together, Maryam?\",\n          \"segs\": [\n            [\n              \"وَهَلْ\",\n              \"and (starts a yes/no question)\"\n            ],\n            [\n              \"خَرَجْتُمْ\",\n              \"you went out (to several people)\"\n            ],\n            [\n              \"مَعًا\",\n              \"together\"\n            ],\n            [\n              \"يَا\",\n              \"O (calling someone)\"\n            ],\n            [\n              \"مَرْيَم\",\n              \"Maryam (first name)\",\n              \"name\"\n            ]\n          ]\n        },\n        {\n          \"id\": \"holiday-story-l11\",\n          \"sp\": \"huda\",\n          \"ar\": \"نَعَم، ذَهَبْنَا إِلَى الْأَهْرَام. لٰكِنْ أَخِي لَمْ يَذْهَبْ مَعَنَا، لِأَنَّهُ كَانَ مَرِيضًا.\",\n          \"en\": \"Yes, we went to the pyramids. But my brother didn't come with us, because he was ill.\",\n          \"segs\": [\n            [\n              \"نَعَم\",\n              \"yes\"\n            ],\n            [\n              \"ذَهَبْنَا\",\n              \"we went\"\n            ],\n            [\n              \"إِلَى\",\n              \"to\"\n            ],\n            [\n              \"الْأَهْرَام\",\n              \"the pyramids\"\n            ],\n            [\n              \"لٰكِنْ\",\n              \"but\"\n            ],\n            [\n              \"أَخِي\",\n              \"my brother\"\n            ],\n            [\n              \"لَمْ\",\n              \"did not\"\n            ],\n            [\n              \"يَذْهَبْ\",\n              \"he goes (form after 'lam')\"\n            ],\n            [\n              \"مَعَنَا\",\n              \"with us\"\n            ],\n            [\n              \"لِأَنَّهُ\",\n              \"because he\"\n            ],\n            [\n              \"كَانَ\",\n              \"(he) was\"\n            ],\n            [\n              \"مَرِيضًا\",\n              \"ill, sick (after 'was')\"\n            ]\n          ]\n        },\n        {\n          \"id\": \"holiday-story-l12\",\n          \"sp\": \"daniel\",\n          \"ar\": \"سَلَامَتُهُ! أَرْجُو أَنْ يَكُونَ بِخَيْر الْآنَ.\",\n          \"en\": \"I'm sorry he was ill! I hope he is well now.\",\n          \"segs\": [\n            [\n              \"سَلَامَتُهُ\",\n              \"his safety: 'may he get well'\"\n            ],\n            [\n              \"أَرْجُو\",\n              \"I hope\"\n            ],\n            [\n              \"أَنْ\",\n              \"that (before a verb)\"\n            ],\n            [\n              \"يَكُونَ\",\n              \"he is, he be (after 'an')\"\n            ],\n            [\n              \"بِخَيْر\",\n              \"well, fine\"\n            ],\n            [\n              \"الْآنَ\",\n              \"now\"\n            ]\n          ]\n        }\n      ]\n    },\n    \"mistakes\": [\n      {\n        \"wrong\": \"كَانَتِ الرِّحْلَةُ طَوِيلَة\",\n        \"right\": \"كَانَتِ الرِّحْلَةُ طَوِيلَةً\",\n        \"why\": \"After كَانَ or كَانَتْ the description takes the -an ending: ṭawīlatan.\"\n      },\n      {\n        \"wrong\": \"لَمْ سَافَرْتُ\",\n        \"right\": \"لَمْ أُسَافِرْ\",\n        \"why\": \"لَمْ takes the short form of the present (sukūn for most persons; -na/-ni endings drop), not the past.\"\n      }\n    ],\n    \"quiz\": [\n      {\n        \"id\": \"hsq1\",\n        \"prompt\": \"Where did Faisal travel in the holiday?\",\n        \"options\": [\n          \"Alexandria\",\n          \"Luxor and Aswan\",\n          \"Amman\",\n          \"Beirut\"\n        ],\n        \"answer\": 1\n      },\n      {\n        \"id\": \"hsq2\",\n        \"prompt\": \"How did Faisal and his friend travel?\",\n        \"options\": [\n          \"by plane\",\n          \"by car\",\n          \"by the night train\",\n          \"by boat\"\n        ],\n        \"answer\": 2\n      },\n      {\n        \"id\": \"hsq3\",\n        \"prompt\": \"What does this mean?\",\n        \"ar\": \"لَمْ تَذْهَبِي إِلَى أَيِّ مَكَان؟\",\n        \"options\": [\n          \"Didn't you go anywhere? (to a woman)\",\n          \"Where did you go?\",\n          \"You didn't go to the place.\",\n          \"Don't go anywhere!\"\n        ],\n        \"answer\": 0\n      }\n    ]\n  },\n  {\n    ",
+   "count": 1
+  },
+  {
+   "chunk": "scenarios-1",
+   "ids": [
+    96
+   ],
+   "op": "text",
+   "file": "content/course/scenarios.json",
+   "old": "\"id\": \"birthday-invitation\",\n    \"title\": \"A birthday invitation\",\n    \"emoji\": \"🎈\",\n    \"status\": \"needs-review\",\n    \"intro\": \"Your neighbour Huda knocks on your door to invite you to her son's birthday party. Useful phrases: جِئْتُ لِأَدْعُوَكَ (I've come to invite you), بِكُلِّ سُرُور (with pleasure) and كُلُّ عَامٍ وَهُوَ بِخَيْر (happy birthday to him).\",\n    \"dialogue\": {\n      \"title\": \"A party in the garden\",\n      \"speakers\": [\n        {\n          \"key\": \"huda\",\n          \"name\": \"Huda\",\n          \"nameAr\": \"هُدَى\"\n        },\n        {\n          \"key\": \"daniel\",\n          \"name\": \"Faisal\",\n          \"nameAr\": \"فَيْصَل\"\n        }\n      ],\n      \"culture\": \"Neighbours in Arab cities often know each other well and invite each other to family celebrations. Children's birthday parties are usually in the late afternoon, with a big cake, candles and the birthday song. A small present is welcome, but nobody expects anything expensive.\",\n      \"lines\": [\n        {\n          \"id\": \"birthday-invitation-l1\",\n          \"sp\": \"huda\",\n          \"ar\": \"مَسَاءُ الْخَيْر يَا فَيْصَل! أَنَا جَارَتُكَ هُدَى، مِنَ الطَّابِق الثَّالِث.\",\n          \"en\": \"Good evening, Faisal! I'm your neighbour Huda, from the third floor.\",\n          \"segs\": [\n            [\n              \"مَسَاءُ\",\n              \"evening (of)\"\n            ],\n            [\n              \"الْخَيْر\",\n              \"the goodness\"\n            ],\n            [\n              \"يَا\",\n              \"O (calling someone)\"\n            ],\n            [\n              \"فَيْصَل\",\n              \"Faisal (first name)\",\n              \"name\"\n            ],\n            [\n              \"أَنَا\",\n              \"I\"\n            ],\n            [\n              \"جَارَتُكَ\",\n              \"your neighbour (a woman; to a man)\"\n            ],\n            [\n              \"هُدَى\",\n              \"Huda (first name)\",\n              \"name\"\n            ],\n            [\n              \"مِنَ\",\n              \"from\"\n            ],\n            [\n              \"الطَّابِق\",\n              \"the floor\"\n            ],\n            [\n              \"الثَّالِث\",\n              \"the third\"\n            ]\n          ]\n        },\n        {\n          \"id\": \"birthday-invitation-l2\",\n          \"sp\": \"daniel\",\n          \"ar\": \"مَسَاءُ النُّور يَا سَيِّدَة هُدَى! تَفَضَّلِي، كَيْفَ أَسْتَطِيعُ أَنْ أُسَاعِدَكِ؟\",\n          \"en\": \"Good evening, Mrs Huda! Please come in. How can I help you?\",\n          \"segs\": [\n            [\n              \"مَسَاءُ\",\n              \"evening (of)\"\n            ],\n            [\n              \"النُّور\",\n              \"the light\"\n            ],\n            [\n              \"يَا\",\n              \"O (calling someone)\"\n            ],\n            [\n              \"سَيِّدَة\",\n              \"Mrs, lady\"\n            ],\n            [\n              \"هُدَى\",\n              \"Huda (first name)\",\n              \"name\"\n            ],\n            [\n              \"تَفَضَّلِي\",\n              \"please come in (to a woman)\"\n            ],\n            [\n              \"كَيْفَ\",\n              \"how\"\n            ],\n            [\n              \"أَسْتَطِيعُ\",\n              \"I can\"\n            ],\n            [\n              \"أَنْ\",\n              \"to, that\"\n            ],\n            [\n              \"أُسَاعِدَكِ\",\n              \"I help you (to a woman, after an)\"\n            ]\n          ]\n        },\n        {\n          \"id\": \"birthday-invitation-l3\",\n          \"sp\": \"huda\",\n          \"ar\": \"شُكْرًا، لَنْ أَدْخُلَ. جِئْتُ لِأَدْعُوَكَ إِلَى حَفْلَةِ عِيدِ مِيلَادِ وَلَدِي آدَم يَوْمَ السَّبْت.\",\n          \"en\": \"Thank you, I won't come in. I've come to invite you to my son Adam's birthday party on Saturday.\",\n          \"segs\": [\n            [\n              \"شُكْرًا\",\n              \"thank you\"\n            ],\n            [\n              \"لَنْ\",\n              \"will not\"\n            ],\n            [\n              \"أَدْخُلَ\",\n              \"I come in (after lan)\"\n            ],\n            [\n              \"جِئْتُ\",\n              \"I came\"\n            ],\n            [\n              \"لِأَدْعُوَكَ\",\n              \"to invite you (to a man)\"\n            ],\n            [\n              \"إِلَى\",\n              \"to\"\n            ],\n            [\n              \"حَفْلَةِ\",\n              \"party (of)\"\n            ],\n            [\n              \"عِيدِ\",\n              \"feast, day (of)\"\n            ],\n            [\n              \"مِيلَادِ\",\n              \"birth (of)\"\n            ],\n            [\n              \"وَلَدِي\",\n              \"my boy, my son\"\n            ],\n            [\n              \"آدَم\",\n              \"Adam (first name)\",\n              \"name\"\n            ],\n            [\n              \"يَوْمَ\",\n              \"on the day of\"\n            ],\n            [\n              \"السَّبْت\",\n              \"Saturday\"\n            ]\n          ]\n        },\n        {\n          \"id\": \"birthday-invitation-l4\",\n          \"sp\": \"daniel\",\n          \"ar\": \"شُكْرًا عَلَى الدَّعْوَة! كُلُّ عَامٍ وَهُوَ بِخَيْر. كَمْ عُمْرُهُ الْآنَ؟\",\n          \"en\": \"Thank you for the invitation! Happy birthday to him. How old is he now?\",\n          \"segs\": [\n            [\n              \"شُكْرًا\",\n              \"thank you\"\n            ],\n            [\n              \"عَلَى\",\n              \"for\"\n            ],\n            [\n              \"الدَّعْوَة\",\n              \"the invitation\"\n            ],\n            [\n              \"كُلُّ\",\n              \"every\"\n            ],\n            [\n              \"عَامٍ\",\n              \"year\"\n            ],\n            [\n              \"وَهُوَ\",\n              \"and he\"\n            ],\n            [\n              \"بِخَيْر\",\n              \"well ('kullu ʿāmin wa-huwa bi-khayr': happy birthday to him)\"\n            ],\n            [\n              \"كَمْ\",\n              \"how many, how much\"\n            ],\n            [\n              \"عُمْرُهُ\",\n              \"his age\"\n            ],\n            [\n              \"الْآنَ\",\n              \"now\"\n            ]\n          ]\n        },\n        {\n          \"id\": \"birthday-invitation-l5\",\n          \"sp\": \"huda\",\n          \"ar\": \"سَيَكُونُ عُمْرُهُ سِتَّ سَنَوَات. الْحَفْلَة فِي الْحَدِيقَة أَمَامَ الْبِنَايَة، فِي السَّاعَة الْخَامِسَة.\",\n          \"en\": \"He'll be six years old. The party is in the garden in front of the building, at five o'clock.\",\n          \"segs\": [\n            [\n              \"سَيَكُونُ\",\n              \"will be\"\n            ],\n            [\n              \"عُمْرُهُ\",\n              \"his age\"\n            ],\n            [\n              \"سِتَّ\",\n              \"six\"\n            ],\n            [\n              \"سَنَوَات\",\n              \"years\"\n            ],\n            [\n              \"الْحَفْلَة\",\n              \"the party\"\n            ],\n            [\n              \"فِي\",\n              \"in\"\n            ],\n            [\n              \"الْحَدِيقَة\",\n              \"the garden\"\n            ],\n            [\n              \"أَمَامَ\",\n              \"in front of\"\n            ],\n            [\n              \"الْبِنَايَة\",\n              \"the building\"\n            ],\n            [\n              \"فِي\",\n              \"at\"\n            ],\n            [\n              \"السَّاعَة\",\n              \"the hour ('o'clock')\"\n            ],\n            [\n              \"الْخَامِسَة\",\n              \"the fifth ('five')\"\n            ]\n          ]\n        },\n        {\n          \"id\": \"birthday-invitation-l6\",\n          \"sp\": \"daniel\",\n          \"ar\": \"يَوْمَ السَّبْت فِي السَّاعَة الْخَامِسَة؟ لَا مُشْكِلَة، لَنْ أَكُونَ مَشْغُولًا. سَآتِي بِكُلِّ سُرُور.\",\n          \"en\": \"Saturday at five? No problem, I won't be busy. I'll come with pleasure.\",\n          \"segs\": [\n            [\n              \"يَوْمَ\",\n              \"on the day of\"\n            ],\n            [\n              \"السَّبْت\",\n              \"Saturday\"\n            ],\n            [\n              \"فِي\",\n              \"at\"\n            ],\n            [\n              \"السَّاعَة\",\n              \"the hour ('o'clock')\"\n            ],\n            [\n              \"الْخَامِسَة\",\n              \"the fifth ('five')\"\n            ],\n            [\n              \"لَا\",\n              \"no\"\n            ],\n            [\n              \"مُشْكِلَة\",\n              \"problem\"\n            ],\n            [\n              \"لَنْ\",\n              \"will not\"\n            ],\n            [\n              \"أَكُونَ\",\n              \"I am, I be (after lan)\"\n            ],\n            [\n              \"مَشْغُولًا\",\n              \"busy (after 'be')\"\n            ],\n            [\n              \"سَآتِي\",\n              \"I will come\"\n            ],\n            [\n              \"بِكُلِّ\",\n              \"with all\"\n            ],\n            [\n              \"سُرُور\",\n              \"pleasure ('bi-kulli surūr': with pleasure)\"\n            ]\n          ]\n        },\n        {\n          \"id\": \"birthday-invitation-l7\",\n          \"sp\": \"huda\",\n          \"ar\": \"رَائِع! سَيَكُونُ هُنَاكَ أَطْفَال كَثِيرُونَ مِنَ الْبِنَايَة، وَكَعْكَة كَبِيرَة طَبْعًا.\",\n          \"en\": \"Wonderful! There will be lots of children from the building, and a big cake of course.\",\n          \"segs\": [\n            [\n              \"رَائِع\",\n              \"wonderful, great\"\n            ],\n            [\n              \"سَيَكُونُ\",\n              \"there will be\"\n            ],\n            [\n              \"هُنَاكَ\",\n              \"there\"\n            ],\n            [\n              \"أَطْفَال\",\n              \"children\"\n            ],\n            [\n              \"كَثِيرُونَ\",\n              \"many\"\n            ],\n            [\n              \"مِنَ\",\n              \"from\"\n            ],\n            [\n              \"الْبِنَايَة\",\n              \"the building\"\n            ],\n            [\n              \"وَكَعْكَة\",\n              \"and a cake\"\n            ],\n            [\n              \"كَبِيرَة\",\n              \"big (f)\"\n            ],\n            [\n              \"طَبْعًا\",\n              \"of course\"\n            ]\n          ]\n        },\n        {\n          \"id\": \"birthday-invitation-l8\",\n          \"sp\": \"daniel\",\n          \"ar\": \"هَلْ أُحْضِرُ شَيْئًا؟ أُرِيدُ أَنْ أَشْتَرِيَ هَدِيَّة لِآدَم. مَاذَا يُحِبُّ؟\",\n          \"en\": \"Shall I bring something? I'd like to buy a present for Adam. What does he like?\",\n          \"segs\": [\n            [\n              \"هَلْ\",\n              \"(starts a yes/no question)\"\n            ],\n            [\n              \"أُحْضِرُ\",\n              \"I bring ('shall I bring')\"\n            ],\n            [\n              \"شَيْئًا\",\n              \"anything, something\"\n            ],\n            [\n              \"أُرِيدُ\",\n              \"I want\"\n            ],\n            [\n              \"أَنْ\",\n              \"to, that\"\n            ],\n            [\n              \"أَشْتَرِيَ\",\n              \"I buy (after an)\"\n            ],\n            [\n              \"هَدِيَّة\",\n              \"a present, a gift\"\n            ],\n            [\n              \"لِآدَم\",\n              \"for Adam (first name)\",\n              \"name\"\n            ],\n            [\n              \"مَاذَا\",\n              \"what\"\n            ],\n            [\n              \"يُحِبُّ\",\n              \"he likes, he loves\"\n            ]\n          ]\n        },\n        {\n          \"id\": \"birthday-invitation-l9\",\n          \"sp\": \"huda\",\n          \"ar\": \"هُوَ يُحِبُّ كُرَةَ الْقَدَم كَثِيرًا، لٰكِنْ لَا تَشْتَرِ شَيْئًا غَالِيًا، مِنْ فَضْلِكَ!\",\n          \"en\": \"He loves football, but please don't buy anything expensive!\",\n          \"segs\": [\n            [\n              \"هُوَ\",\n              \"he\"\n            ],\n            [\n              \"يُحِبُّ\",\n              \"he likes, he loves\"\n            ],\n            [\n              \"كُرَةَ\",\n              \"ball (of)\"\n            ],\n            [\n              \"الْقَدَم\",\n              \"the foot ('football')\"\n            ],\n            [\n              \"كَثِيرًا\",\n              \"a lot, very much\"\n            ],\n            [\n              \"لٰكِنْ\",\n              \"but\"\n            ],\n            [\n              \"لَا\",\n              \"don't\"\n            ],\n            [\n              \"تَشْتَرِ\",\n              \"buy (to a man)\"\n            ],\n            [\n              \"شَيْئًا\",\n              \"anything, something\"\n            ],\n            [\n              \"غَالِيًا\",\n              \"expensive\"\n            ],\n            [\n              \"مِنْ\",\n              \"from\"\n            ],\n            [\n              \"فَضْلِكَ\",\n              \"your kindness (to a man): 'please'\"\n            ]\n          ]\n        },\n        {\n          \"id\": \"birthday-invitation-l10\",\n          \"sp\": \"daniel\",\n          \"ar\": \"إِذًا سَأَذْهَبُ إِلَى السُّوق غَدًا لِأَشْتَرِيَ لَهُ كُرَة صَغِيرَة.\",\n          \"en\": \"Then I'll go to the market tomorrow to buy him a small ball.\",\n          \"segs\": [\n            [\n              \"إِذًا\",\n              \"then, so\"\n            ],\n            [\n              \"سَأَذْهَبُ\",\n              \"I will go\"\n            ],\n            [\n              \"إِلَى\",\n              \"to\"\n            ],\n            [\n              \"السُّوق\",\n              \"the market\"\n            ],\n            [\n              \"غَدًا\",\n              \"tomorrow\"\n            ],\n            [\n              \"لِأَشْتَرِيَ\",\n              \"to buy (so that I buy)\"\n            ],\n            [\n              \"لَهُ\",\n              \"for him\"\n            ],\n            [\n              \"كُرَة\",\n              \"a ball\"\n            ],\n            [\n              \"صَغِيرَة\",\n              \"small (f)\"\n            ]\n          ]\n        },\n        {\n          \"id\": \"birthday-invitation-l11\",\n          \"sp\": \"huda\",\n          \"ar\": \"فِكْرَة جَمِيلَة! سَيَفْرَحُ كَثِيرًا. إِذًا نَرَاكَ يَوْمَ السَّبْت.\",\n          \"en\": \"What a lovely idea! He'll be very happy. So we'll see you on Saturday.\",\n          \"segs\": [\n            [\n              \"فِكْرَة\",\n              \"idea\"\n            ],\n            [\n              \"جَمِيلَة\",\n              \"lovely (f)\"\n            ],\n            [\n              \"سَيَفْرَحُ\",\n              \"he will be happy\"\n            ],\n            [\n              \"كَثِيرًا\",\n              \"a lot, very much\"\n            ],\n            [\n              \"إِذًا\",\n              \"then, so\"\n            ],\n            [\n              \"نَرَاكَ\",\n              \"we see you (to a man)\"\n            ],\n            [\n              \"يَوْمَ\",\n              \"on the day of\"\n            ],\n            [\n              \"السَّبْت\",\n              \"Saturday\"\n            ]\n          ]\n        },\n        {\n          \"id\": \"birthday-invitation-l12\",\n          \"sp\": \"daniel\",\n          \"ar\": \"إِنْ شَاءَ اللّٰه. شُكْرًا مَرَّةً أُخْرَى، وَمَعَ السَّلَامَة يَا سَيِّدَة هُدَى!\",\n          \"en\": \"God willing. Thank you again, and goodbye, Mrs Huda!\",\n          \"segs\": [\n            [\n              \"إِنْ\",\n              \"if\"\n            ],\n            [\n              \"شَاءَ\",\n              \"(he) willed\"\n            ],\n            [\n              \"اللّٰه\",\n              \"God\"\n            ],\n            [\n              \"شُكْرًا\",\n              \"thank you\"\n            ],\n            [\n              \"مَرَّةً\",\n              \"once, one time ('again')\"\n            ],\n            [\n              \"أُخْرَى\",\n              \"another (f)\"\n            ],\n            [\n              \"وَمَعَ\",\n              \"and with\"\n            ],\n            [\n              \"السَّلَامَة\",\n              \"the safety ('goodbye')\"\n            ],\n            [\n              \"يَا\",\n              \"O (calling someone)\"\n            ],\n            [\n              \"سَيِّدَة\",\n              \"Mrs, lady\"\n            ],\n            [\n              \"هُدَى\",\n              \"Huda (first name)\",\n              \"name\"\n            ]\n          ]\n        }\n      ]\n    },\n    \"mistakes\": [\n      {\n        \"wrong\": \"أَنَا لَا سَأَكُونُ مَشْغُولًا\",\n        \"right\": \"لَنْ أَكُونَ مَشْغُولًا\",\n        \"why\": \"The future negative is lan + the present ending in -a: lan akūna.\"\n      },\n      {\n        \"wrong\": \"جِئْتُ لِأَدْعُو إِلَيْكَ\",\n        \"right\": \"جِئْتُ لِأَدْعُوَكَ\",\n        \"why\": \"daʿā (to invite) takes the person as an ending, and after li- the verb ends in -a: li-adʿuwaka.\"\n      }\n    ],\n    \"quiz\": [\n      {\n        \"id\": \"birthday-invitation-q1\",\n        \"prompt\": \"Who is the party for?\",\n        \"options\": [\n          \"Huda\",\n          \"Huda's son Adam\",\n          \"Faisal\",\n          \"Sami's sister\"\n        ],\n        \"answer\": 1\n      },\n      {\n        \"id\": \"birthday-invitation-q2\",\n        \"prompt\": \"When is the party?\",\n        \"options\": [\n          \"Friday at seven\",\n          \"Sunday at five\",\n          \"Saturday at seven\",\n          \"Saturday at five\"\n        ],\n        \"answer\": 3\n      },\n      {\n        \"id\": \"birthday-invitation-q3\",\n        \"prompt\": \"What does this mean?\",\n        \"ar\": \"لَنْ أَكُونَ مَشْغُولًا.\",\n        \"options\": [\n          \"I wasn't busy.\",\n          \"I'm not busy.\",\n          \"I won't be busy.\",\n          \"Don't be busy.\"\n        ],\n        \"answer\": 2\n      },\n      {\n        \"id\": \"birthday-invitation-q4\",\n        \"prompt\": \"What will Faisal buy for Adam?\",\n        \"options\": [\n          \"a small ball\",\n          \"a cake\",\n          \"a book\",\n          \"a lantern\"\n        ],\n        \"answer\": 0\n      }\n    ]\n  },\n  {\n    ",
+   "new": "\"id\": \"birthday-invitation\",\n    \"title\": \"A birthday invitation\",\n    \"emoji\": \"🎈\",\n    \"status\": \"needs-review\",\n    \"intro\": \"Your neighbour Suad knocks on your door to invite you to her son's birthday party. Useful phrases: جِئْتُ لِأَدْعُوَكَ (I've come to invite you), بِكُلِّ سُرُور (with pleasure) and كُلُّ عَامٍ وَهُوَ بِخَيْر (happy birthday to him).\",\n    \"dialogue\": {\n      \"title\": \"A party in the garden\",\n      \"speakers\": [\n        {\n          \"key\": \"huda\",\n          \"name\": \"Suad\",\n          \"nameAr\": \"سُعَاد\"\n        },\n        {\n          \"key\": \"daniel\",\n          \"name\": \"Faisal\",\n          \"nameAr\": \"فَيْصَل\"\n        }\n      ],\n      \"culture\": \"Neighbours in Arab cities often know each other well and invite each other to family celebrations. Children's birthday parties are usually in the late afternoon, with a big cake, candles and the birthday song. A small present is welcome, but nobody expects anything expensive.\",\n      \"lines\": [\n        {\n          \"id\": \"birthday-invitation-l1\",\n          \"sp\": \"huda\",\n          \"ar\": \"مَسَاءُ الْخَيْر يَا فَيْصَل! أَنَا جَارَتُكَ سُعَاد، مِنَ الطَّابِق الثَّالِث.\",\n          \"en\": \"Good evening, Faisal! I'm your neighbour Suad, from the third floor.\",\n          \"segs\": [\n            [\n              \"مَسَاءُ\",\n              \"evening (of)\"\n            ],\n            [\n              \"الْخَيْر\",\n              \"the goodness\"\n            ],\n            [\n              \"يَا\",\n              \"O (calling someone)\"\n            ],\n            [\n              \"فَيْصَل\",\n              \"Faisal (first name)\",\n              \"name\"\n            ],\n            [\n              \"أَنَا\",\n              \"I\"\n            ],\n            [\n              \"جَارَتُكَ\",\n              \"your neighbour (a woman; to a man)\"\n            ],\n            [\n              \"سُعَاد\",\n              \"Suad (first name)\",\n              \"name\"\n            ],\n            [\n              \"مِنَ\",\n              \"from\"\n            ],\n            [\n              \"الطَّابِق\",\n              \"the floor\"\n            ],\n            [\n              \"الثَّالِث\",\n              \"the third\"\n            ]\n          ]\n        },\n        {\n          \"id\": \"birthday-invitation-l2\",\n          \"sp\": \"daniel\",\n          \"ar\": \"مَسَاءُ النُّور يَا سَيِّدَة سُعَاد! تَفَضَّلِي، كَيْفَ أَسْتَطِيعُ أَنْ أُسَاعِدَكِ؟\",\n          \"en\": \"Good evening, Mrs Suad! Please come in. How can I help you?\",\n          \"segs\": [\n            [\n              \"مَسَاءُ\",\n              \"evening (of)\"\n            ],\n            [\n              \"النُّور\",\n              \"the light\"\n            ],\n            [\n              \"يَا\",\n              \"O (calling someone)\"\n            ],\n            [\n              \"سَيِّدَة\",\n              \"Mrs, lady\"\n            ],\n            [\n              \"سُعَاد\",\n              \"Suad (first name)\",\n              \"name\"\n            ],\n            [\n              \"تَفَضَّلِي\",\n              \"please come in (to a woman)\"\n            ],\n            [\n              \"كَيْفَ\",\n              \"how\"\n            ],\n            [\n              \"أَسْتَطِيعُ\",\n              \"I can\"\n            ],\n            [\n              \"أَنْ\",\n              \"to, that\"\n            ],\n            [\n              \"أُسَاعِدَكِ\",\n              \"I help you (to a woman, after an)\"\n            ]\n          ]\n        },\n        {\n          \"id\": \"birthday-invitation-l3\",\n          \"sp\": \"huda\",\n          \"ar\": \"شُكْرًا، لَنْ أَدْخُلَ. جِئْتُ لِأَدْعُوَكَ إِلَى حَفْلَةِ عِيدِ مِيلَادِ وَلَدِي آدَم يَوْمَ السَّبْت.\",\n          \"en\": \"Thank you, I won't come in. I've come to invite you to my son Adam's birthday party on Saturday.\",\n          \"segs\": [\n            [\n              \"شُكْرًا\",\n              \"thank you\"\n            ],\n            [\n              \"لَنْ\",\n              \"will not\"\n            ],\n            [\n              \"أَدْخُلَ\",\n              \"I come in (after lan)\"\n            ],\n            [\n              \"جِئْتُ\",\n              \"I came\"\n            ],\n            [\n              \"لِأَدْعُوَكَ\",\n              \"to invite you (to a man)\"\n            ],\n            [\n              \"إِلَى\",\n              \"to\"\n            ],\n            [\n              \"حَفْلَةِ\",\n              \"party (of)\"\n            ],\n            [\n              \"عِيدِ\",\n              \"feast, day (of)\"\n            ],\n            [\n              \"مِيلَادِ\",\n              \"birth (of)\"\n            ],\n            [\n              \"وَلَدِي\",\n              \"my boy, my son\"\n            ],\n            [\n              \"آدَم\",\n              \"Adam (first name)\",\n              \"name\"\n            ],\n            [\n              \"يَوْمَ\",\n              \"on the day of\"\n            ],\n            [\n              \"السَّبْت\",\n              \"Saturday\"\n            ]\n          ]\n        },\n        {\n          \"id\": \"birthday-invitation-l4\",\n          \"sp\": \"daniel\",\n          \"ar\": \"شُكْرًا عَلَى الدَّعْوَة! كُلُّ عَامٍ وَهُوَ بِخَيْر. كَمْ عُمْرُهُ الْآنَ؟\",\n          \"en\": \"Thank you for the invitation! Happy birthday to him. How old is he now?\",\n          \"segs\": [\n            [\n              \"شُكْرًا\",\n              \"thank you\"\n            ],\n            [\n              \"عَلَى\",\n              \"for\"\n            ],\n            [\n              \"الدَّعْوَة\",\n              \"the invitation\"\n            ],\n            [\n              \"كُلُّ\",\n              \"every\"\n            ],\n            [\n              \"عَامٍ\",\n              \"year\"\n            ],\n            [\n              \"وَهُوَ\",\n              \"and he\"\n            ],\n            [\n              \"بِخَيْر\",\n              \"well ('kullu ʿāmin wa-huwa bi-khayr': happy birthday to him)\"\n            ],\n            [\n              \"كَمْ\",\n              \"how many, how much\"\n            ],\n            [\n              \"عُمْرُهُ\",\n              \"his age\"\n            ],\n            [\n              \"الْآنَ\",\n              \"now\"\n            ]\n          ]\n        },\n        {\n          \"id\": \"birthday-invitation-l5\",\n          \"sp\": \"huda\",\n          \"ar\": \"سَيَكُونُ عُمْرُهُ سِتَّ سَنَوَات. الْحَفْلَة فِي الْحَدِيقَة أَمَامَ الْبِنَايَة، فِي السَّاعَة الْخَامِسَة.\",\n          \"en\": \"He'll be six years old. The party is in the garden in front of the building, at five o'clock.\",\n          \"segs\": [\n            [\n              \"سَيَكُونُ\",\n              \"will be\"\n            ],\n            [\n              \"عُمْرُهُ\",\n              \"his age\"\n            ],\n            [\n              \"سِتَّ\",\n              \"six\"\n            ],\n            [\n              \"سَنَوَات\",\n              \"years\"\n            ],\n            [\n              \"الْحَفْلَة\",\n              \"the party\"\n            ],\n            [\n              \"فِي\",\n              \"in\"\n            ],\n            [\n              \"الْحَدِيقَة\",\n              \"the garden\"\n            ],\n            [\n              \"أَمَامَ\",\n              \"in front of\"\n            ],\n            [\n              \"الْبِنَايَة\",\n              \"the building\"\n            ],\n            [\n              \"فِي\",\n              \"at\"\n            ],\n            [\n              \"السَّاعَة\",\n              \"the hour ('o'clock')\"\n            ],\n            [\n              \"الْخَامِسَة\",\n              \"the fifth ('five')\"\n            ]\n          ]\n        },\n        {\n          \"id\": \"birthday-invitation-l6\",\n          \"sp\": \"daniel\",\n          \"ar\": \"يَوْمَ السَّبْت فِي السَّاعَة الْخَامِسَة؟ لَا مُشْكِلَة، لَنْ أَكُونَ مَشْغُولًا. سَآتِي بِكُلِّ سُرُور.\",\n          \"en\": \"Saturday at five? No problem, I won't be busy. I'll come with pleasure.\",\n          \"segs\": [\n            [\n              \"يَوْمَ\",\n              \"on the day of\"\n            ],\n            [\n              \"السَّبْت\",\n              \"Saturday\"\n            ],\n            [\n              \"فِي\",\n              \"at\"\n            ],\n            [\n              \"السَّاعَة\",\n              \"the hour ('o'clock')\"\n            ],\n            [\n              \"الْخَامِسَة\",\n              \"the fifth ('five')\"\n            ],\n            [\n              \"لَا\",\n              \"no\"\n            ],\n            [\n              \"مُشْكِلَة\",\n              \"problem\"\n            ],\n            [\n              \"لَنْ\",\n              \"will not\"\n            ],\n            [\n              \"أَكُونَ\",\n              \"I am, I be (after lan)\"\n            ],\n            [\n              \"مَشْغُولًا\",\n              \"busy (after 'be')\"\n            ],\n            [\n              \"سَآتِي\",\n              \"I will come\"\n            ],\n            [\n              \"بِكُلِّ\",\n              \"with all\"\n            ],\n            [\n              \"سُرُور\",\n              \"pleasure ('bi-kulli surūr': with pleasure)\"\n            ]\n          ]\n        },\n        {\n          \"id\": \"birthday-invitation-l7\",\n          \"sp\": \"huda\",\n          \"ar\": \"رَائِع! سَيَكُونُ هُنَاكَ أَطْفَال كَثِيرُونَ مِنَ الْبِنَايَة، وَكَعْكَة كَبِيرَة طَبْعًا.\",\n          \"en\": \"Wonderful! There will be lots of children from the building, and a big cake of course.\",\n          \"segs\": [\n            [\n              \"رَائِع\",\n              \"wonderful, great\"\n            ],\n            [\n              \"سَيَكُونُ\",\n              \"there will be\"\n            ],\n            [\n              \"هُنَاكَ\",\n              \"there\"\n            ],\n            [\n              \"أَطْفَال\",\n              \"children\"\n            ],\n            [\n              \"كَثِيرُونَ\",\n              \"many\"\n            ],\n            [\n              \"مِنَ\",\n              \"from\"\n            ],\n            [\n              \"الْبِنَايَة\",\n              \"the building\"\n            ],\n            [\n              \"وَكَعْكَة\",\n              \"and a cake\"\n            ],\n            [\n              \"كَبِيرَة\",\n              \"big (f)\"\n            ],\n            [\n              \"طَبْعًا\",\n              \"of course\"\n            ]\n          ]\n        },\n        {\n          \"id\": \"birthday-invitation-l8\",\n          \"sp\": \"daniel\",\n          \"ar\": \"هَلْ أُحْضِرُ شَيْئًا؟ أُرِيدُ أَنْ أَشْتَرِيَ هَدِيَّة لِآدَم. مَاذَا يُحِبُّ؟\",\n          \"en\": \"Shall I bring something? I'd like to buy a present for Adam. What does he like?\",\n          \"segs\": [\n            [\n              \"هَلْ\",\n              \"(starts a yes/no question)\"\n            ],\n            [\n              \"أُحْضِرُ\",\n              \"I bring ('shall I bring')\"\n            ],\n            [\n              \"شَيْئًا\",\n              \"anything, something\"\n            ],\n            [\n              \"أُرِيدُ\",\n              \"I want\"\n            ],\n            [\n              \"أَنْ\",\n              \"to, that\"\n            ],\n            [\n              \"أَشْتَرِيَ\",\n              \"I buy (after an)\"\n            ],\n            [\n              \"هَدِيَّة\",\n              \"a present, a gift\"\n            ],\n            [\n              \"لِآدَم\",\n              \"for Adam (first name)\",\n              \"name\"\n            ],\n            [\n              \"مَاذَا\",\n              \"what\"\n            ],\n            [\n              \"يُحِبُّ\",\n              \"he likes, he loves\"\n            ]\n          ]\n        },\n        {\n          \"id\": \"birthday-invitation-l9\",\n          \"sp\": \"huda\",\n          \"ar\": \"هُوَ يُحِبُّ كُرَةَ الْقَدَم كَثِيرًا، لٰكِنْ لَا تَشْتَرِ شَيْئًا غَالِيًا، مِنْ فَضْلِكَ!\",\n          \"en\": \"He loves football, but please don't buy anything expensive!\",\n          \"segs\": [\n            [\n              \"هُوَ\",\n              \"he\"\n            ],\n            [\n              \"يُحِبُّ\",\n              \"he likes, he loves\"\n            ],\n            [\n              \"كُرَةَ\",\n              \"ball (of)\"\n            ],\n            [\n              \"الْقَدَم\",\n              \"the foot ('football')\"\n            ],\n            [\n              \"كَثِيرًا\",\n              \"a lot, very much\"\n            ],\n            [\n              \"لٰكِنْ\",\n              \"but\"\n            ],\n            [\n              \"لَا\",\n              \"don't\"\n            ],\n            [\n              \"تَشْتَرِ\",\n              \"buy (to a man)\"\n            ],\n            [\n              \"شَيْئًا\",\n              \"anything, something\"\n            ],\n            [\n              \"غَالِيًا\",\n              \"expensive\"\n            ],\n            [\n              \"مِنْ\",\n              \"from\"\n            ],\n            [\n              \"فَضْلِكَ\",\n              \"your kindness (to a man): 'please'\"\n            ]\n          ]\n        },\n        {\n          \"id\": \"birthday-invitation-l10\",\n          \"sp\": \"daniel\",\n          \"ar\": \"إِذًا سَأَذْهَبُ إِلَى السُّوق غَدًا لِأَشْتَرِيَ لَهُ كُرَة صَغِيرَة.\",\n          \"en\": \"Then I'll go to the market tomorrow to buy him a small ball.\",\n          \"segs\": [\n            [\n              \"إِذًا\",\n              \"then, so\"\n            ],\n            [\n              \"سَأَذْهَبُ\",\n              \"I will go\"\n            ],\n            [\n              \"إِلَى\",\n              \"to\"\n            ],\n            [\n              \"السُّوق\",\n              \"the market\"\n            ],\n            [\n              \"غَدًا\",\n              \"tomorrow\"\n            ],\n            [\n              \"لِأَشْتَرِيَ\",\n              \"to buy (so that I buy)\"\n            ],\n            [\n              \"لَهُ\",\n              \"for him\"\n            ],\n            [\n              \"كُرَة\",\n              \"a ball\"\n            ],\n            [\n              \"صَغِيرَة\",\n              \"small (f)\"\n            ]\n          ]\n        },\n        {\n          \"id\": \"birthday-invitation-l11\",\n          \"sp\": \"huda\",\n          \"ar\": \"فِكْرَة جَمِيلَة! سَيَفْرَحُ كَثِيرًا. إِذًا نَرَاكَ يَوْمَ السَّبْت.\",\n          \"en\": \"What a lovely idea! He'll be very happy. So we'll see you on Saturday.\",\n          \"segs\": [\n            [\n              \"فِكْرَة\",\n              \"idea\"\n            ],\n            [\n              \"جَمِيلَة\",\n              \"lovely (f)\"\n            ],\n            [\n              \"سَيَفْرَحُ\",\n              \"he will be happy\"\n            ],\n            [\n              \"كَثِيرًا\",\n              \"a lot, very much\"\n            ],\n            [\n              \"إِذًا\",\n              \"then, so\"\n            ],\n            [\n              \"نَرَاكَ\",\n              \"we see you (to a man)\"\n            ],\n            [\n              \"يَوْمَ\",\n              \"on the day of\"\n            ],\n            [\n              \"السَّبْت\",\n              \"Saturday\"\n            ]\n          ]\n        },\n        {\n          \"id\": \"birthday-invitation-l12\",\n          \"sp\": \"daniel\",\n          \"ar\": \"إِنْ شَاءَ اللّٰه. شُكْرًا مَرَّةً أُخْرَى، وَمَعَ السَّلَامَة يَا سَيِّدَة سُعَاد!\",\n          \"en\": \"God willing. Thank you again, and goodbye, Mrs Suad!\",\n          \"segs\": [\n            [\n              \"إِنْ\",\n              \"if\"\n            ],\n            [\n              \"شَاءَ\",\n              \"(he) willed\"\n            ],\n            [\n              \"اللّٰه\",\n              \"God\"\n            ],\n            [\n              \"شُكْرًا\",\n              \"thank you\"\n            ],\n            [\n              \"مَرَّةً\",\n              \"once, one time ('again')\"\n            ],\n            [\n              \"أُخْرَى\",\n              \"another (f)\"\n            ],\n            [\n              \"وَمَعَ\",\n              \"and with\"\n            ],\n            [\n              \"السَّلَامَة\",\n              \"the safety ('goodbye')\"\n            ],\n            [\n              \"يَا\",\n              \"O (calling someone)\"\n            ],\n            [\n              \"سَيِّدَة\",\n              \"Mrs, lady\"\n            ],\n            [\n              \"سُعَاد\",\n              \"Suad (first name)\",\n              \"name\"\n            ]\n          ]\n        }\n      ]\n    },\n    \"mistakes\": [\n      {\n        \"wrong\": \"أَنَا لَا سَأَكُونُ مَشْغُولًا\",\n        \"right\": \"لَنْ أَكُونَ مَشْغُولًا\",\n        \"why\": \"The future negative is lan + the present ending in -a: lan akūna.\"\n      },\n      {\n        \"wrong\": \"جِئْتُ لِأَدْعُو إِلَيْكَ\",\n        \"right\": \"جِئْتُ لِأَدْعُوَكَ\",\n        \"why\": \"daʿā (to invite) takes the person as an ending, and after li- the verb ends in -a: li-adʿuwaka.\"\n      }\n    ],\n    \"quiz\": [\n      {\n        \"id\": \"birthday-invitation-q1\",\n        \"prompt\": \"Who is the party for?\",\n        \"options\": [\n          \"Suad\",\n          \"Suad's son Adam\",\n          \"Faisal\",\n          \"Sami's sister\"\n        ],\n        \"answer\": 1\n      },\n      {\n        \"id\": \"birthday-invitation-q2\",\n        \"prompt\": \"When is the party?\",\n        \"options\": [\n          \"Friday at seven\",\n          \"Sunday at five\",\n          \"Saturday at seven\",\n          \"Saturday at five\"\n        ],\n        \"answer\": 3\n      },\n      {\n        \"id\": \"birthday-invitation-q3\",\n        \"prompt\": \"What does this mean?\",\n        \"ar\": \"لَنْ أَكُونَ مَشْغُولًا.\",\n        \"options\": [\n          \"I wasn't busy.\",\n          \"I'm not busy.\",\n          \"I won't be busy.\",\n          \"Don't be busy.\"\n        ],\n        \"answer\": 2\n      },\n      {\n        \"id\": \"birthday-invitation-q4\",\n        \"prompt\": \"What will Faisal buy for Adam?\",\n        \"options\": [\n          \"a small ball\",\n          \"a cake\",\n          \"a book\",\n          \"a lantern\"\n        ],\n        \"answer\": 0\n      }\n    ]\n  },\n  {\n    ",
+   "count": 1
+  },
+  {
+   "chunk": "scenarios-1",
+   "ids": [
+    97
+   ],
+   "op": "scoped",
+   "word": "خَالَة",
+   "scope": "scenario:morning-routine",
+   "gloss": "aunt (also a polite address for an older woman)"
+  },
+  {
+   "chunk": "scenarios-2",
+   "ids": [
+    98
+   ],
+   "op": "text",
+   "file": "content/course/scenarios.json",
+   "old": "The comparative never changes for a feminine word: afḍal.",
+   "new": "As a comparative (than…), afḍal does not change for a feminine word.",
+   "count": 1
+  },
+  {
+   "chunk": "scenarios-2",
+   "ids": [
+    99
+   ],
+   "op": "text",
+   "file": "content/course/scenarios.json",
+   "old": "After the numbers 11 to 99 the counted noun is singular and accusative:",
+   "new": "When a number ends in 11 to 99, the counted noun is singular and accusative:",
+   "count": 1
+  },
+  {
+   "chunk": "scenarios-2",
+   "ids": [
+    100
+   ],
+   "op": "text",
+   "file": "content/course/scenarios.json",
+   "old": "\"id\": \"etiquette-l10\",\n          \"sp\": \"layla\",\n          \"ar\": \"صَحِيح، الْيَدُ الْيُمْنَى لِلْأَكْل. وَعِنْدَمَا تَقُولُ لَكَ الْأُمُّ تَفَضَّلْ، فَخُذْ مِنْ كُلِّ طَبَق وَامْدَحِ الطَّعَام.\",\n          \"en\": \"Right, the right hand is for eating. And when the mother says to you 'please, go ahead', take some of every dish and praise the food.\",\n          \"segs\": [\n            [\n              \"صَحِيح\",\n              \"true, correct ('that's right')\"\n            ],\n            [\n              \"الْيَدُ\",\n              \"the hand\"\n            ],\n            [\n              \"الْيُمْنَى\",\n              \"the right (f)\"\n            ],\n            [\n              \"لِلْأَكْل\",\n              \"for eating\"\n            ],\n            [\n              \"وَعِنْدَمَا\",\n              \"and when\"\n            ],\n            [\n              \"تَقُولُ\",\n              \"(she) says\"\n            ],\n            [\n              \"لَكَ\",\n              \"to you (to a man)\"\n            ],\n            [\n              \"الْأُمُّ\",\n              \"the mother\"\n            ],\n            [\n              \"تَفَضَّلْ\",\n              \"please, go ahead (to a man)\"\n            ],\n            [\n              \"فَخُذْ\",\n              \"then take! (to a man)\"\n            ],\n            [\n              \"مِنْ\",\n              \"from, some of\"\n            ],\n            [\n              \"كُلِّ\",\n              \"every\"\n            ],\n            [\n              \"طَبَق\",\n              \"dish, plate\"\n            ],\n            [\n              \"وَامْدَحِ\",\n              \"and praise! (to a man; -i links to the next word)\"\n            ],\n            [\n              \"الطَّعَام\",\n              \"the food\"\n            ]\n          ]",
+   "new": "\"id\": \"etiquette-l10\",\n          \"sp\": \"layla\",\n          \"ar\": \"صَحِيح، الْيَدُ الْيُمْنَى لِلْأَكْل. وَعِنْدَمَا تَقُولُ لَكَ الْأُمُّ «تَفَضَّلْ»، خُذْ مِنْ كُلِّ طَبَق وَامْدَحِ الطَّعَام.\",\n          \"en\": \"Right, the right hand is for eating. And when the mother says to you 'please, go ahead', take some of every dish and praise the food.\",\n          \"segs\": [\n            [\n              \"صَحِيح\",\n              \"true, correct ('that's right')\"\n            ],\n            [\n              \"الْيَدُ\",\n              \"the hand\"\n            ],\n            [\n              \"الْيُمْنَى\",\n              \"the right (f)\"\n            ],\n            [\n              \"لِلْأَكْل\",\n              \"for eating\"\n            ],\n            [\n              \"وَعِنْدَمَا\",\n              \"and when\"\n            ],\n            [\n              \"تَقُولُ\",\n              \"(she) says\"\n            ],\n            [\n              \"لَكَ\",\n              \"to you (to a man)\"\n            ],\n            [\n              \"الْأُمُّ\",\n              \"the mother\"\n            ],\n            [\n              \"تَفَضَّلْ\",\n              \"please, go ahead (to a man)\"\n            ],\n            [\n              \"خُذْ\",\n              \"take! (to a man)\"\n            ],\n            [\n              \"مِنْ\",\n              \"from, some of\"\n            ],\n            [\n              \"كُلِّ\",\n              \"every\"\n            ],\n            [\n              \"طَبَق\",\n              \"dish, plate\"\n            ],\n            [\n              \"وَامْدَحِ\",\n              \"and praise! (to a man; -i links to the next word)\"\n            ],\n            [\n              \"الطَّعَام\",\n              \"the food\"\n            ]\n          ]",
+   "count": 1
+  },
+  {
+   "chunk": "scenarios-2",
+   "ids": [
+    101
+   ],
+   "op": "text",
+   "file": "content/course/scenarios.json",
+   "old": "\"id\": \"lost-phone-help-l12\",\n          \"sp\": \"daniel\",\n          \"ar\": \"اسْمِي فَيْصَل، وَأَنَا أَمْرِيكِيّ مِنْ شِيكَاغُو. أَسْكُنُ فِي فُنْدُقِ الْقَلْعَة فِي جَبَلِ عَمَّان، وَهٰذَا رَقْمُ صَدِيقِي سَامِي.\",\n          \"en\": \"My name is Faisal, and I'm American, from Chicago. I'm staying at the Citadel Hotel in Jabal Amman, and this is my friend Sami's number.\",\n          \"segs\": [\n            [\n              \"اسْمِي\",\n              \"my name\"\n            ],\n            [\n              \"فَيْصَل\",\n              \"Faisal (first name)\",\n              \"name\"\n            ],\n            [\n              \"وَأَنَا\",\n              \"and I\"\n            ],\n            [\n              \"أَمْرِيكِيّ\",\n              \"American (m)\"\n            ],\n            [\n              \"مِنْ\",\n              \"from\"\n            ],\n            [\n              \"شِيكَاغُو\",\n              \"Chicago (city in the USA)\",\n              \"name\"\n            ],\n            [\n              \"أَسْكُنُ\",\n              \"I live ('I'm staying')\"\n            ],\n            [\n              \"فِي\",\n              \"in, at\"\n            ],\n            [\n              \"فُنْدُقِ\",\n              \"hotel (of)\"\n            ],\n            [\n              \"الْقَلْعَة\",\n              \"the citadel ('the Citadel Hotel')\"\n            ],\n            [\n              \"فِي\",\n              \"in\"\n            ],\n            [\n              \"جَبَلِ\",\n              \"mountain (of) ('Jabal', a district)\"\n            ],\n            [\n              \"عَمَّان\",\n              \"Amman (capital of Jordan)\",\n              \"name\"\n            ],\n            [\n              \"وَهٰذَا\",\n              \"and this\"\n            ],\n            [\n              \"رَقْمُ\",\n              \"number (of)\"\n            ],\n            [\n              \"صَدِيقِي\",\n              \"my friend\"\n            ],\n            [\n              \"سَامِي\",\n              \"Sami (first name)\",\n              \"name\"\n            ]\n          ]",
+   "new": "\"id\": \"lost-phone-help-l12\",\n          \"sp\": \"daniel\",\n          \"ar\": \"اسْمِي فَيْصَل، وَأَنَا أَمْرِيكِيّ مِنْ شِيكَاغُو. أَسْكُنُ فِي شَارِعِ الْقَلْعَة فِي جَبَلِ عَمَّان، وَهٰذَا رَقْمُ صَدِيقِي سَامِي.\",\n          \"en\": \"My name is Faisal, and I'm American, from Chicago. I live on Citadel Street in Jabal Amman, and this is my friend Sami's number.\",\n          \"segs\": [\n            [\n              \"اسْمِي\",\n              \"my name\"\n            ],\n            [\n              \"فَيْصَل\",\n              \"Faisal (first name)\",\n              \"name\"\n            ],\n            [\n              \"وَأَنَا\",\n              \"and I\"\n            ],\n            [\n              \"أَمْرِيكِيّ\",\n              \"American (m)\"\n            ],\n            [\n              \"مِنْ\",\n              \"from\"\n            ],\n            [\n              \"شِيكَاغُو\",\n              \"Chicago (city in the USA)\",\n              \"name\"\n            ],\n            [\n              \"أَسْكُنُ\",\n              \"I live\"\n            ],\n            [\n              \"فِي\",\n              \"in, at\"\n            ],\n            [\n              \"شَارِعِ\",\n              \"street (of)\"\n            ],\n            [\n              \"الْقَلْعَة\",\n              \"the citadel ('Citadel Street')\"\n            ],\n            [\n              \"فِي\",\n              \"in\"\n            ],\n            [\n              \"جَبَلِ\",\n              \"mountain (of) ('Jabal', a district)\"\n            ],\n            [\n              \"عَمَّان\",\n              \"Amman (capital of Jordan)\",\n              \"name\"\n            ],\n            [\n              \"وَهٰذَا\",\n              \"and this\"\n            ],\n            [\n              \"رَقْمُ\",\n              \"number (of)\"\n            ],\n            [\n              \"صَدِيقِي\",\n              \"my friend\"\n            ],\n            [\n              \"سَامِي\",\n              \"Sami (first name)\",\n              \"name\"\n            ]\n          ]",
+   "count": 1
+  },
+  {
+   "chunk": "scenarios-2",
+   "ids": [
+    102
+   ],
+   "op": "text",
+   "file": "content/course/scenarios.json",
+   "old": "\"id\": \"machines-l11\",\n          \"sp\": \"daniel\",\n          \"ar\": \"الْآلَةُ الثَّانِيَة أَخَذَتْ وَرَقَةَ الْعِشْرِينَ جُنَيْهًا مِنْ مِحْفَظَتِي فَوْرًا! سَمِعْتُ صَوْتًا، فَمَاذَا أَفْعَلُ الْآنَ؟\",\n          \"en\": \"The second machine took the twenty-pound note from my wallet straight away! I heard a sound, so what do I do now?\",\n          \"segs\": [\n            [\n              \"الْآلَةُ\",\n              \"the machine\"\n            ],\n            [\n              \"الثَّانِيَة\",\n              \"the second (f)\"\n            ],\n            [\n              \"أَخَذَتْ\",\n              \"(she/it) took\"\n            ],\n            [\n              \"وَرَقَةَ\",\n              \"note (of)\"\n            ],\n            [\n              \"الْعِشْرِينَ\",\n              \"the twenty\"\n            ],\n            [\n              \"جُنَيْهًا\",\n              \"pound (after a number)\"\n            ],\n            [\n              \"مِنْ\",\n              \"from\"\n            ],\n            [\n              \"مِحْفَظَتِي\",\n              \"my wallet\"\n            ],\n            [\n              \"فَوْرًا\",\n              \"immediately, straight away\"\n            ],\n            [\n              \"سَمِعْتُ\",\n              \"I heard\"\n            ],\n            [\n              \"صَوْتًا\",\n              \"a sound\"\n            ],\n            [\n              \"فَمَاذَا\",\n              \"so what\"\n            ],\n            [\n              \"أَفْعَلُ\",\n              \"I do\"\n            ],\n            [\n              \"الْآنَ\",\n              \"now\"\n            ]\n          ]",
+   "new": "\"id\": \"machines-l11\",\n          \"sp\": \"daniel\",\n          \"ar\": \"الْآلَةُ الثَّانِيَة أَخَذَتْ وَرَقَةَ الْعِشْرِينَ جُنَيْهًا فَوْرًا! سَمِعْتُ صَوْتًا، فَمَاذَا أَفْعَلُ الْآنَ؟\",\n          \"en\": \"The second machine took the twenty-pound note straight away! I heard a sound, so what do I do now?\",\n          \"segs\": [[\"الْآلَةُ\", \"the machine\"], [\"الثَّانِيَة\", \"the second (f)\"], [\"أَخَذَتْ\", \"(she/it) took\"], [\"وَرَقَةَ\", \"note (of)\"], [\"الْعِشْرِينَ\", \"the twenty\"], [\"جُنَيْهًا\", \"pound (after 11–99)\"], [\"فَوْرًا\", \"immediately, straight away\"], [\"سَمِعْتُ\", \"I heard\"], [\"صَوْتًا\", \"a sound\"], [\"فَمَاذَا\", \"so what\"], [\"أَفْعَلُ\", \"I do\"], [\"الْآنَ\", \"now\"]]",
+   "count": 1
+  },
+  {
+   "chunk": "scenarios-2",
+   "ids": [
+    21
+   ],
+   "op": "text",
+   "file": "content/course/scenarios.json",
+   "old": "pounds (after a number)",
+   "new": "pound (after 11–99)",
+   "count": 3
+  },
+  {
+   "chunk": "vocabulary-1",
+   "ids": [
+    106
+   ],
+   "op": "scoped",
+   "word": "الْمَكْتَبَة",
+   "scope": "vocab:maktaba",
+   "gloss": "the bookshop; the library"
+  },
+  {
+   "chunk": "vocabulary-1",
+   "ids": [
+    106
+   ],
+   "op": "scoped",
+   "word": "الْمَكْتَبَة",
+   "scope": "vocab:thalith",
+   "gloss": "the bookshop; the library"
+  },
+  {
+   "chunk": "vocabulary-1",
+   "ids": [
+    107
+   ],
+   "op": "scoped",
+   "word": "تَنْسَ",
+   "scope": "vocab:yansa",
+   "gloss": "you forget (form after lā: lā tansa, don't forget; to a man)"
+  },
+  {
+   "chunk": "vocabulary-1",
+   "ids": [
+    107
+   ],
+   "op": "scoped",
+   "word": "تَنْسَيْ",
+   "scope": "vocab:yansa",
+   "gloss": "you forget (form after lā: lā tansay, don't forget; to a woman)"
+  },
+  {
+   "chunk": "vocabulary-1",
+   "ids": [
+    108
+   ],
+   "op": "scoped",
+   "word": "يَكُونُ",
+   "scope": "vocab:kana",
+   "gloss": "is, will be (present of kāna)"
+  },
+  {
+   "chunk": "vocabulary-1",
+   "ids": [
+    109
+   ],
+   "op": "text",
+   "file": "content/course/vocabulary.json",
+   "old": "\"id\": \"ibn-amm\", \"ar\": \"اِبْنُ عَمّ\", \"en\": \"cousin (son of a father's brother)\", \"pos\": \"noun\", \"gender\": \"m\", \"plural\": \"أَبْنَاءُ عَمّ\", \"emoji\": \"🧑‍🤝‍🧑\", \"topic\": \"family\", \"level\": 3, \"example\": {\"ar\": \"خَالِد اِبْنُ خَالَتِي.\", \"en\": \"Khalid is my cousin (my mother's sister's son).\"}, ",
+   "new": "\"id\": \"ibn-amm\", \"ar\": \"اِبْنُ عَمّ\", \"en\": \"cousin (son of a father's brother)\", \"pos\": \"noun\", \"gender\": \"m\", \"plural\": \"أَبْنَاءُ عَمّ\", \"emoji\": \"🧑‍🤝‍🧑\", \"topic\": \"family\", \"level\": 3, \"example\": {\"ar\": \"خَالِد اِبْنُ عَمِّي.\", \"en\": \"Khalid is my cousin (my father's brother's son).\"}, ",
+   "count": 1
+  },
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    119
+   ],
+   "op": "text",
+   "file": "content/course/vocabulary.json",
+   "old": "\"id\": \"mashru\", \"ar\": \"مَشْرُوع\", \"en\": \"project\", \"pos\": \"noun\", \"gender\": \"m\", \"plural\": \"مَشَارِيع\", \"emoji\": \"🗂️\", \"topic\": \"work\", \"level\": 6, \"example\": {\"ar\": \"الْيَوْم نُتَرْجِمُ مَشْرُوعًا كَبِيرًا.\", \"en\": \"Today we are translating a big project.\"",
+   "new": "\"id\": \"mashru\", \"ar\": \"مَشْرُوع\", \"en\": \"project\", \"pos\": \"noun\", \"gender\": \"m\", \"plural\": \"مَشَارِيع\", \"emoji\": \"🗂️\", \"topic\": \"work\", \"level\": 6, \"example\": {\"ar\": \"الْيَوْم نَعْمَلُ عَلَى مَشْرُوعٍ كَبِيرٍ.\", \"en\": \"Today we are working on a big project.\"",
+   "count": 1
+  },
+  {
+   "chunk": "vocabulary-1",
+   "ids": [
+    111
+   ],
+   "op": "scoped",
+   "word": "كَبِيرَة",
+   "scope": "vocab:jadda",
+   "gloss": "old (f), lit. big (kabīra fi s-sinn, 'big in age')"
+  },
+  {
+   "chunk": "vocabulary-1",
+   "ids": [
+    112
+   ],
+   "op": "scoped",
+   "word": "يَسْكُنُ",
+   "scope": "vocab:yaskunu",
+   "gloss": "(he) lives"
+  },
+  {
+   "chunk": "vocabulary-1",
+   "ids": [
+    112
+   ],
+   "op": "scoped",
+   "word": "يَسْكُنُ",
+   "scope": "vocab:aqarib",
+   "gloss": "live (lit. lives: the verb comes first)"
+  },
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    114
+   ],
+   "op": "text",
+   "file": "content/course/vocabulary.json",
+   "old": "For 'it's snowing' say يَنْزِلُ الثَّلْج (the snow comes down).",
+   "new": "For 'it's snowing' say يَتَسَاقَطُ الثَّلْجُ (snow falls) or, more simply, يَنْزِلُ الثَّلْج (the snow comes down).",
+   "count": 1
+  },
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    114
+   ],
+   "op": "scoped",
+   "word": "يَتَسَاقَطُ",
+   "scope": "vocab:thalj",
+   "gloss": "falls (snow, rain)"
+  },
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    114
+   ],
+   "op": "scoped",
+   "word": "الثَّلْجُ",
+   "scope": "vocab:thalj",
+   "gloss": "the snow"
+  },
+  {
+   "chunk": "vocabulary-2",
+   "ids": [
+    120
+   ],
+   "op": "scoped",
+   "word": "الْجِبَال",
+   "scope": "vocab:ala-w9",
+   "gloss": "the mountains ('hills': Amman's jabals)"
+  },
+  {
+   "chunk": "weeks-tests",
+   "ids": [
+    121
+   ],
+   "op": "text",
+   "file": "content/course/course.json",
+   "old": "My colleague helps me with the work.",
+   "new": "My colleague helps me at work.",
+   "count": 1
+  }
+ ]
+}

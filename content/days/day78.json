@@ -744,75 +744,9 @@
       {
         "id": "d78l7",
         "sp": "karim",
-        "ar": "مُمْتَاز يَا فَيْصَل. «إِعَادَةُ التَّدْوِير» تَعْنِي أَنْ نَسْتَعْمِلَ الْأَشْيَاءَ الْقَدِيمَة مَرَّةً ثَانِيَة، وَهِيَ تُوَفِّرُ الطَّاقَةَ وَالْمَاء.",
-        "en": "Excellent, Faisal. 'Iʿādat at-tadwīr', recycling, means using old things a second time, and it saves energy and water.",
-        "segs": [
-          [
-            "مُمْتَاز",
-            "excellent"
-          ],
-          [
-            "يَا",
-            "O (calling someone)"
-          ],
-          [
-            "فَيْصَل",
-            "Faisal (first name)",
-            "name"
-          ],
-          [
-            "إِعَادَةُ",
-            "doing again (of)"
-          ],
-          [
-            "التَّدْوِير",
-            "the turning ('recycling')"
-          ],
-          [
-            "تَعْنِي",
-            "(it, f) means"
-          ],
-          [
-            "أَنْ",
-            "that, to"
-          ],
-          [
-            "نَسْتَعْمِلَ",
-            "we use (-a after an)"
-          ],
-          [
-            "الْأَشْيَاءَ",
-            "the things"
-          ],
-          [
-            "الْقَدِيمَة",
-            "the old (f)"
-          ],
-          [
-            "مَرَّةً",
-            "a time, once"
-          ],
-          [
-            "ثَانِيَة",
-            "second (f) ('again')"
-          ],
-          [
-            "وَهِيَ",
-            "and it (f)"
-          ],
-          [
-            "تُوَفِّرُ",
-            "(she) saves"
-          ],
-          [
-            "الطَّاقَةَ",
-            "the energy"
-          ],
-          [
-            "وَالْمَاء",
-            "and the water"
-          ]
-        ]
+        "ar": "مُمْتَاز يَا فَيْصَل. «إِعَادَةُ التَّدْوِير» تَعْنِي أَنْ نَصْنَعَ أَشْيَاءَ جَدِيدَةً مِنَ الْأَشْيَاءِ الْقَدِيمَة، وَهِيَ تُوَفِّرُ الطَّاقَةَ وَالْمَاء.",
+        "en": "Excellent, Faisal. 'Iʿādat at-tadwīr', recycling, means making new things from old things, and it saves energy and water.",
+        "segs": [["مُمْتَاز", "excellent"], ["يَا", "O (calling someone)"], ["فَيْصَل", "Faisal (first name)", "name"], ["إِعَادَةُ", "doing again (of)"], ["التَّدْوِير", "recycling (lit. turning around)"], ["تَعْنِي", "(it, f) means"], ["أَنْ", "that, to"], ["نَصْنَعَ", "we make (-a after an)"], ["أَشْيَاءَ", "things (object)"], ["جَدِيدَةً", "new (f)"], ["مِنَ", "from"], ["الْأَشْيَاءِ", "the things"], ["الْقَدِيمَة", "the old (f)"], ["وَهِيَ", "and it (f)"], ["تُوَفِّرُ", "(she) saves"], ["الطَّاقَةَ", "the energy"], ["وَالْمَاء", "and the water"]]
       },
       {
         "id": "d78l8",

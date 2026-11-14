@@ -715,7 +715,7 @@
           "w": 16,
           "h": 25
         },
-        "ar": "الْمَفْرَش",
+        "ar": "االْمِفْرَش",
         "en": "the tablecloth"
       },
       {
@@ -1521,7 +1521,7 @@
     "width": 1280,
     "height": 576,
     "alt": "An airport baggage hall with an empty metal carousel, a lit sign above it, a display screen, a grey pillar and travellers waiting on the far side.",
-    "caption": "Waiting at the carousel and nothing comes: time to find مَكْتَبُ الْمَفْقُودَات.",
+    "caption": "The photo is an airport carousel; at Ramses Station there is none, so you go straight to مَكْتَبُ الْمَفْقُودَات (the lost-property office).",
     "spots": [
       {
         "box": {
@@ -1542,7 +1542,7 @@
         },
         "ar": "الشَّاشَة",
         "en": "the screen",
-        "note": "Check the flight listed here before you wait."
+        "note": "At an airport this screen shows whose bags are coming; at a station, ask at the office."
       },
       {
         "box": {
@@ -3992,7 +3992,7 @@
           "h": 30
         },
         "ar": "الْمُتَبَّل",
-        "en": "the baba ghanoush (aubergine dip)"
+        "en": "the mutabbal (smoky aubergine dip with tahini)"
       },
       {
         "box": {

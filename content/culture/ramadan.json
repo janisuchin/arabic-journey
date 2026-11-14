@@ -88,7 +88,7 @@
           "ar": "يَصُومُ الْمُسْلِمُونَ مِنَ الْفَجْرِ إِلَى الْمَغْرِب.",
           "en": "Muslims fast from dawn until sunset.",
           "literal": "fast the Muslims from the dawn to the sunset",
-          "segs": [["يَصُومُ", "(he) fasts", "verb"], ["الْمُسْلِمُونَ", "the Muslims", "noun"], ["مِنَ", "from", "prep"], ["الْفَجْرِ", "dawn (also the dawn prayer)", "noun"], ["إِلَى", "to, until", "prep"], ["الْمَغْرِب", "sunset (also the sunset prayer)", "noun"]],
+          "segs": [["يَصُومُ", "(they) fast (verb first: singular)", "verb"], ["الْمُسْلِمُونَ", "the Muslims", "noun"], ["مِنَ", "from", "prep"], ["الْفَجْرِ", "dawn (also the dawn prayer)", "noun"], ["إِلَى", "to, until", "prep"], ["الْمَغْرِب", "sunset (also the sunset prayer)", "noun"]],
           "grammar": ["verbal-sentence", "present-tense"],
           "mistakes": [
             {
@@ -195,7 +195,7 @@
           "ar": "لَبِسَ الْأَطْفَالُ مَلَابِسَ جَدِيدَةً فِي الْعِيد.",
           "en": "The children wore new clothes at Eid.",
           "literal": "wore the children clothes new on the Eid",
-          "segs": [["لَبِسَ", "(he) wore, put on", "verb"], ["الْأَطْفَالُ", "the children", "noun"], ["مَلَابِسَ", "clothes (object)", "noun"], ["جَدِيدَةً", "new (f, object)", "adj"], ["فِي", "in, at", "prep"], ["الْعِيد", "the festival, Eid", "noun"]],
+          "segs": [["لَبِسَ", "(they) wore, put on (verb first: singular)", "verb"], ["الْأَطْفَالُ", "the children", "noun"], ["مَلَابِسَ", "clothes (object)", "noun"], ["جَدِيدَةً", "new (f, object)", "adj"], ["فِي", "in, at", "prep"], ["الْعِيد", "the festival, Eid", "noun"]],
           "grammar": ["past-tense", "verbal-sentence", "non-human-plural"]
         },
         {
@@ -249,10 +249,10 @@
       ["فِي", "in"], ["رَمَضَان", "Ramadan", "name"], ["تَصُومُ", "(she, it f) fasts"], ["عَائِلَةُ", "family (of)"], ["سَلْمَى", "Salma (first name)", "name"], ["فِي", "in"], ["الْقَاهِرَةِ", "Cairo (capital of Egypt)", "name"], ["مِنَ", "from"], ["الْفَجْرِ", "dawn"], ["إِلَى", "to, until"], ["الْمَغْرِب", "sunset"],
       ["قَبْلَ", "before"], ["الْفَجْرِ", "dawn"], ["يَأْكُلُونَ", "they eat"], ["السُّحُور", "the suhur (pre-dawn meal)"],
       ["عِنْدَ", "at"], ["الْمَغْرِبِ", "sunset"], ["يُفْطِرُونَ", "they break the fast"], ["عَلَى", "on, with (here)"], ["تَمْرٍ", "dates"], ["وَمَاءٍ", "and water"], ["ثُمَّ", "then"], ["يَأْكُلُونَ", "they eat"], ["مَعًا", "together"],
-      ["فِي", "in"], ["الْمَسَاءِ", "the evening"], ["يَخْرُجُ", "(he) goes out"], ["الْأَطْفَالُ", "the children"], ["إِلَى", "to, into"], ["الشَّارِعِ", "the street"], ["بِالْفَوَانِيس", "with the lanterns"], ["وَتَزُورُ", "and (she, it f) visits"], ["الْعَائِلَةُ", "the family"], ["الْأَقَارِبَ", "the relatives"], ["وَالْجِيرَان", "and the neighbours"],
+      ["فِي", "in"], ["الْمَسَاءِ", "the evening"], ["يَخْرُجُ", "(they) go out (verb first: singular)"], ["الْأَطْفَالُ", "the children"], ["إِلَى", "to, into"], ["الشَّارِعِ", "the street"], ["بِالْفَوَانِيس", "with the lanterns"], ["وَتَزُورُ", "and (she, it f) visits"], ["الْعَائِلَةُ", "the family"], ["الْأَقَارِبَ", "the relatives"], ["وَالْجِيرَان", "and the neighbours"],
       ["فِي", "in, at"], ["آخِرِ", "end (of)"], ["الشَّهْرِ", "the month"], ["تَخْبِزُ", "(she) bakes"], ["أُمُّ", "mother (of)"], ["سَلْمَى", "Salma (first name)", "name"], ["الْكَعْك", "the kaʿk (Eid biscuits)"],
       ["فِي", "in, on"], ["صَبَاحِ", "morning (of)"], ["الْعِيدِ", "the Eid, the festival"], ["يَلْبَسُ", "(he) puts on, wears"], ["الْجَمِيعُ", "everyone"], ["مَلَابِسَ", "clothes"], ["جَدِيدَةً", "new (f)"], ["وَيَذْهَبُونَ", "and they go"], ["إِلَى", "to"], ["صَلَاةِ", "prayer (of)"], ["الْعِيد", "the Eid"],
-      ["ثُمَّ", "then"], ["يَأْخُذُ", "(he) takes, gets"], ["الْأَطْفَالُ", "the children"], ["الْعِيدِيَّةَ", "the Eid money"], ["مِنْ", "from"], ["جَدِّهِمْ", "their grandfather"], ["وَجَدَّتِهِمْ", "and their grandmother"]
+      ["ثُمَّ", "then"], ["يَأْخُذُ", "(they) take, get (verb first: singular)"], ["الْأَطْفَالُ", "the children"], ["الْعِيدِيَّةَ", "the Eid money"], ["مِنْ", "from"], ["جَدِّهِمْ", "their grandfather"], ["وَجَدَّتِهِمْ", "and their grandmother"]
     ]
   },
   "readingQuestions": [

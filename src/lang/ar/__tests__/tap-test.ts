@@ -98,6 +98,16 @@ describe('Arabic language pack', () => {
     expect(translitLine('فَازَ بِجَائِزَةِ', 'academic')).toBe('Fāza bi-jāʾizati');
     expect(translitLine('شُكْرًا لِحُسْنِ الِاسْتِمَاعِ', 'academic', namesSet())).toBe('Shukran li-ḥusni l-istimāʿi');
   });
+  it('round-4 notes: bi-/li- hyphen also when glossed by meaning, and after wa-', () => {
+    expect(translitLine('بِسُرْعَة', 'academic')).toBe('Bi-surʿa');
+    expect(translitLine('بِدُونِ', 'academic')).toBe('Bi-dūni');
+    expect(translitLine('بِجَانِبِ', 'academic')).toBe('Bi-jānibi');
+    expect(translitLine('وَبِكَمِ', 'academic')).toBe('Wa-bi-kami');
+    expect(translitLine('وَبِثَمَانِينَ', 'academic')).toBe('Wa-bi-thamānīna');
+    expect(translitLine('يَا لَلْخَسَارَة', 'academic')).toBe('Yā la-l-khasāra');
+    // a root letter is never split off
+    expect(translitLine('وَبِطَاقَةُ وَبِلَاد', 'academic')).toBe('Wa-biṭāqatu wa-bilād');
+  });
   it('round 3: one clitic style, endings, Allāhu, names after titles, no repeated senses', () => {
     expect(translitLine('وَجُبْنًا وَخُبْزًا', 'academic')).toBe('Wa-jubnan wa-khubzan');
     expect(translitLine('لَاشْتَرَيْتُ', 'academic')).toBe('La-shtaraytu');

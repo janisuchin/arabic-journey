@@ -29,7 +29,7 @@
   "dialogue": {
     "title": "Welcome to my flat!",
     "speakers": [ { "key": "daniel", "name": "Faisal", "nameAr": "فَيْصَل" }, { "key": "sami", "name": "Sami", "nameAr": "سَامِي" }, { "key": "layla", "name": "Layla", "nameAr": "لَيْلَى" } ],
-    "culture": "When a friend moves into a new home, say مَبْرُوك (congratulations). The usual reply is اللّٰه يُبَارِكُ فِيكَ (may God bless you). Egyptians also love to visit a new home with a small gift, such as sweets or a plant.",
+    "culture": "When a friend moves into a new home, say مَبْرُوك (congratulations). The usual reply is اللّٰه يُبَارِكُ فِيكَ (may God bless you); in writing the classic form is بَارَكَ اللّٰهُ فِيكَ. Egyptians also love to visit a new home with a small gift, such as sweets or a plant.",
     "lines": [
       { "id": "d29l1", "sp": "daniel", "ar": "أَهْلًا وَسَهْلًا! تَفَضَّلَا، هٰذِهِ شَقَّتِي الْجَدِيدَة. هِيَ صَغِيرَة، لٰكِنَّهَا جَمِيلَة.", "en": "Welcome! Come in, both of you. This is my new flat. It is small, but it is lovely.",
         "segs": [["أَهْلًا", "welcome"], ["وَسَهْلًا", "and ease (part of 'welcome')"], ["تَفَضَّلَا", "please come in (to two people)"], ["هٰذِهِ", "this (f)"], ["شَقَّتِي", "my flat"], ["الْجَدِيدَة", "the new (f)"], ["هِيَ", "she, it (f)"], ["صَغِيرَة", "small (f)"], ["لٰكِنَّهَا", "but it (f)"], ["جَمِيلَة", "beautiful, lovely (f)"]] },

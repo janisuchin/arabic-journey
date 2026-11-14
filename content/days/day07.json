@@ -3,7 +3,7 @@
   "title": "Numbers 1–10", "titleAr": "الْأَعْدَاد مِنْ وَاحِد إِلَى عَشَرَة", "titleSegs": [["الْأَعْدَاد", "the numbers"], ["مِنْ", "from"], ["وَاحِد", "one"], ["إِلَى", "to"], ["عَشَرَة", "ten"]],
   "emoji": "🔢",
   "summary": "Count from 1 to 10, read Arabic digits and exchange phone numbers.",
-  "intro": "Arabic numbers are written with the digits ٠١٢٣٤٥٦٧٨٩, and a number is read from left to right even inside right-to-left text: ١٠ is ten. Today you finish the alphabet: م ن ه و ي, plus hamza ء, tāʾ marbūṭa ة and alif maqṣūra ى.",
+  "intro": "Arabic numbers are written with the digits ٠١٢٣٤٥٦٧٨٩, and a number is written from left to right (biggest digit first) even inside right-to-left text: ١٠ is ten. Today you finish the alphabet: م ن ه و ي, plus hamza ء, tāʾ marbūṭa ة and alif maqṣūra ى.",
   "objectives": ["Count from one to ten", "Read the Arabic digits ١ to ١٠", "Give and ask for a phone number", "Read the last letters of the alphabet"],
   "realLife": { "emoji": "☎️", "title": "Swapping numbers", "story": "After class the teacher gives homework on page seven. Faisal has a question, so he asks Layla for her phone number, and Sami invites everyone to study at his house tomorrow.", "photo": {"file": "day07.jpg", "alt": "A round station clock in Cairo with Eastern Arabic numerals, glowing in the dark.", "credit": {"title": "File:Clock-in-cairo-with-eastern-arabic-numerals.jpg", "author": "Ajfweb", "license": "CC BY-SA 3.0", "source": "https://commons.wikimedia.org/wiki/File:Clock-in-cairo-with-eastern-arabic-numerals.jpg", "accessed": "2026-11-11", "modified": "resized and re-encoded", "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"}} },
   "letters": ["mim", "nun", "haa", "waw", "ya", "hamza", "ta-marbuta", "alif-maqsura"],

@@ -29,7 +29,7 @@
   "dialogue": {
     "title": "The flags of our countries",
     "speakers": [ { "key": "karim", "name": "Mr Karim", "nameAr": "الْأُسْتَاذ كَرِيم" }, { "key": "sami", "name": "Sami", "nameAr": "سَامِي" }, { "key": "layla", "name": "Layla", "nameAr": "لَيْلَى" }, { "key": "daniel", "name": "Faisal", "nameAr": "فَيْصَل" } ],
-    "culture": "Red, white, black and green are often called the Pan-Arab colours. They appear on the flags of many Arab countries, among them Egypt, Jordan, Palestine, Sudan, the United Arab Emirates and Kuwait.",
+    "culture": "Red, white, black and green are often called the Pan-Arab colours. Some or all of them appear on the flags of many Arab countries, among them Egypt, Jordan, Palestine, Sudan, the United Arab Emirates and Kuwait.",
     "lines": [
       { "id": "d14l1", "sp": "karim", "ar": "يَا طُلَّاب، الْيَوْم دَرْسُنَا عَنِ الْأَلْوَان. اُنْظُرُوا إِلَى هٰذِهِ الْأَعْلَام!", "en": "Students, today our lesson is about colours. Look at these flags!",
         "segs": [["يَا", "O (calling someone)"], ["طُلَّاب", "students"], ["الْيَوْم", "today"], ["دَرْسُنَا", "our lesson"], ["عَنِ", "about"], ["الْأَلْوَان", "the colours"], ["اُنْظُرُوا", "look! (to several people)"], ["إِلَى", "to, at"], ["هٰذِهِ", "these (for things)"], ["الْأَعْلَام", "the flags"]] },

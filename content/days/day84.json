@@ -95,7 +95,7 @@
         {
           "wrong": "إِذَا نَسْتَعْمِلُ الْحَافِلَةَ",
           "right": "إِذَا اسْتَعْمَلْنَا الْحَافِلَةَ",
-          "why": "After idhā (if), use the past form, even when you mean now or the future: idhā staʿmalnā (if we use)."
+          "why": "After idhā (if), the past form is usual, even when you mean now or the future: idhā staʿmalnā (if we use)."
         }
       ]
     },
@@ -975,7 +975,7 @@
       {
         "id": "d84l9",
         "sp": "karim",
-        "ar": "أَحْسَنْتُمْ! وَالْآنَ أَنَا الْجُمْهُور، وَعِنْدِي سُؤَال صَعْب: مَاذَا يَحْدُثُ إِذَا رَكِبَ النَّاسُ الدَّرَّاجَاتِ فِي الصَّيْف، وَالْحَرَارَةُ أَرْبَعُونَ دَرَجَة؟",
+        "ar": "أَحْسَنْتُمْ! وَالْآنَ أَنَا الْجُمْهُور، وَعِنْدِي سُؤَال صَعْب: مَاذَا يَحْدُثُ إِذَا رَكِبَ النَّاسُ الدَّرَّاجَاتِ فِي الصَّيْف، وَالْحَرَارَةُ أَرْبَعُونَ دَرَجَةً؟",
         "en": "Well done, all of you! And now I'm the audience, and I have a hard question: what happens if people ride bicycles in summer, when it's forty degrees?",
         "segs": [
           [
@@ -1047,8 +1047,8 @@
             "forty"
           ],
           [
-            "دَرَجَة",
-            "degree(s)"
+            "دَرَجَةً",
+            "degree (after 11–99)"
           ]
         ]
       },
