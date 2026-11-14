@@ -1,0 +1,718 @@
+[
+  {
+    "scenario": "taxi",
+    "status": "needs-review",
+    "start": "r1",
+    "nodes": [
+      {
+        "id": "r1",
+        "npc": { "id": "taxi-rp1", "sp": "driver", "ar": "مَسَاءُ الْخَيْر! إِلَى أَيْنَ؟", "en": "Good evening! Where to?",
+          "segs": [["مَسَاءُ", "evening (of)"], ["الْخَيْر", "the goodness"], ["إِلَى", "to"], ["أَيْنَ", "where"]] },
+        "choices": [
+          { "ar": "مَسَاءُ النُّور! إِلَى الْمَتْحَف الْمِصْرِيّ، مِنْ فَضْلِكَ.", "en": "Good evening! To the Egyptian Museum, please.",
+            "segs": [["مَسَاءُ", "evening (of)"], ["النُّور", "the light"], ["إِلَى", "to"], ["الْمَتْحَف", "the museum"], ["الْمِصْرِيّ", "the Egyptian (m)"], ["مِنْ", "from"], ["فَضْلِكَ", "your kindness (to a man): 'please'"]],
+            "ok": true, "feedback": "Good: مَسَاءُ النُّور answers مَسَاءُ الْخَيْر, and إِلَى + the place is all a driver needs.", "next": "r2" },
+          { "ar": "مَسَاءُ النُّور! إِلَى الْمَتْحَف الْمِصْرِيّ، مِنْ فَضْلِكِ.", "en": "Good evening! To the Egyptian Museum, please (to a woman).",
+            "segs": [["مَسَاءُ", "evening (of)"], ["النُّور", "the light"], ["إِلَى", "to"], ["الْمَتْحَف", "the museum"], ["الْمِصْرِيّ", "the Egyptian (m)"], ["مِنْ", "from"], ["فَضْلِكِ", "your kindness (to a woman): 'please'"]],
+            "ok": false, "feedback": "مِنْ فَضْلِكِ (-ki) is for a woman. The driver is a man: مِنْ فَضْلِكَ (-ka).", "next": null }
+        ]
+      },
+      {
+        "id": "r2",
+        "npc": { "id": "taxi-rp2", "sp": "driver", "ar": "الْمَتْحَف قَرِيب، فِي مَيْدَانِ التَّحْرِير.", "en": "The museum is close, on Tahrir Square.",
+          "segs": [["الْمَتْحَف", "the museum"], ["قَرِيب", "near, close"], ["فِي", "in, on"], ["مَيْدَانِ", "square (of)"], ["التَّحْرِير", "Tahrir (lit. liberation)", "name"]] },
+        "choices": [
+          { "ar": "كَمِ الْأُجْرَة إِلَى الْمَتْحَف، مِنْ فَضْلِكَ؟", "en": "How much is the fare to the museum, please?",
+            "segs": [["كَمِ", "how much, how many"], ["الْأُجْرَة", "the fare"], ["إِلَى", "to"], ["الْمَتْحَف", "the museum"], ["مِنْ", "from"], ["فَضْلِكَ", "your kindness (to a man): 'please'"]],
+            "ok": true, "feedback": "Wise: agree on the fare before you set off. Before al- the sukūn of كَمْ becomes i: كَمِ الْأُجْرَة.", "next": "r3" },
+          { "ar": "كَمْ أُجْرَة إِلَى الْمَتْحَف، مِنْ فَضْلِكَ؟", "en": "How much fare to the museum, please? (missing 'the')",
+            "segs": [["كَمْ", "how much, how many"], ["أُجْرَة", "fare"], ["إِلَى", "to"], ["الْمَتْحَف", "the museum"], ["مِنْ", "from"], ["فَضْلِكَ", "your kindness (to a man): 'please'"]],
+            "ok": false, "feedback": "You ask about 'the fare' for this ride, so use الـ: كَمِ الْأُجْرَة؟ The m of كَمْ takes an i to link to it.", "next": null }
+        ]
+      },
+      {
+        "id": "r3",
+        "npc": { "id": "taxi-rp3", "sp": "driver", "ar": "خَمْسُونَ جُنَيْهًا. الطَّرِيق مُزْدَحِم الْيَوْم.", "en": "Fifty pounds. The road is crowded today.",
+          "segs": [["خَمْسُونَ", "fifty"], ["جُنَيْهًا", "pound (after 11–99)"], ["الطَّرِيق", "the road"], ["مُزْدَحِم", "crowded"], ["الْيَوْم", "today"]] },
+        "choices": [
+          { "ar": "خَمْسُونَ كَثِير! أَرْبَعُونَ، مِنْ فَضْلِكَ؟", "en": "Fifty is a lot! How about forty, please?",
+            "segs": [["خَمْسُونَ", "fifty"], ["كَثِير", "a lot, much"], ["أَرْبَعُونَ", "forty"], ["مِنْ", "from"], ["فَضْلِكَ", "your kindness (to a man): 'please'"]],
+            "ok": true, "feedback": "Polite bargaining: a lower number with مِنْ فَضْلِكَ, as a question.", "next": "r4" },
+          { "ar": "طَيِّب، خَمْسُونَ جُنَيْهًا.", "en": "OK, fifty pounds.",
+            "segs": [["طَيِّب", "OK, fine"], ["خَمْسُونَ", "fifty"], ["جُنَيْهًا", "pound (after 11–99)"]],
+            "ok": true, "feedback": "Fine too: you accept the fare. After fifty the noun is singular with -an: جُنَيْهًا.", "next": "r5" },
+          { "ar": "طَيِّب، خَمْسُونَ جُنَيْهَات.", "en": "OK, fifty pounds (wrong ending).",
+            "segs": [["طَيِّب", "OK, fine"], ["خَمْسُونَ", "fifty"], ["جُنَيْهَات", "pounds"]],
+            "ok": false, "feedback": "After 11 to 99 the noun is singular with the ending -an: خَمْسُونَ جُنَيْهًا.", "next": null }
+        ]
+      },
+      {
+        "id": "r4",
+        "npc": { "id": "taxi-rp4", "sp": "driver", "ar": "طَيِّب، أَرْبَعُونَ. تَفَضَّلِي!", "en": "OK, forty then. Please get in!",
+          "segs": [["طَيِّب", "OK, fine"], ["أَرْبَعُونَ", "forty"], ["تَفَضَّلِي", "please (come in), to a woman"]] },
+        "choices": [
+          { "ar": "شُكْرًا جَزِيلًا!", "en": "Thank you very much!",
+            "segs": [["شُكْرًا", "thank you"], ["جَزِيلًا", "very much (lit. abundant)"]],
+            "ok": true, "feedback": "Good: شُكْرًا جَزِيلًا is a fixed formula, so جَزِيلًا keeps its -an.", "next": "r5" },
+          { "ar": "عَفْوًا!", "en": "You're welcome!",
+            "segs": [["عَفْوًا", "you're welcome"]],
+            "ok": false, "feedback": "عَفْوًا answers a thank-you. The driver agreed to your price, so you thank him: شُكْرًا جَزِيلًا!", "next": null }
+        ]
+      },
+      {
+        "id": "r5",
+        "npc": { "id": "taxi-rp5", "sp": "driver", "ar": "هَلْ أَذْهَبُ يَمِينًا هُنَا أَوْ يَسَارًا؟", "en": "Do I go right here, or left?",
+          "segs": [["هَلْ", "(starts a yes/no question)"], ["أَذْهَبُ", "I go"], ["يَمِينًا", "to the right"], ["هُنَا", "here"], ["أَوْ", "or"], ["يَسَارًا", "to the left"]] },
+        "choices": [
+          { "ar": "يَمِينًا، ثُمَّ إِلَى الْأَمَام، مِنْ فَضْلِكَ.", "en": "Right, and then straight ahead, please.",
+            "segs": [["يَمِينًا", "to the right"], ["ثُمَّ", "then"], ["إِلَى", "to"], ["الْأَمَام", "the front ('straight ahead')"], ["مِنْ", "from"], ["فَضْلِكَ", "your kindness (to a man): 'please'"]],
+            "ok": true, "feedback": "Good: 'go right' is يَمِينًا, with the adverb ending -an.", "next": "r6" },
+          { "ar": "يَمِين، ثُمَّ إِلَى الْأَمَام، مِنْ فَضْلِكَ.", "en": "Right, and then straight ahead, please (wrong ending).",
+            "segs": [["يَمِين", "right (side)"], ["ثُمَّ", "then"], ["إِلَى", "to"], ["الْأَمَام", "the front ('straight ahead')"], ["مِنْ", "from"], ["فَضْلِكَ", "your kindness (to a man): 'please'"]],
+            "ok": false, "feedback": "يَمِين is the noun 'right side'. To say 'go right', it takes -an: يَمِينًا.", "next": null },
+          { "ar": "نَعَم، مِنْ فَضْلِكَ.", "en": "Yes, please.",
+            "segs": [["نَعَم", "yes"], ["مِنْ", "from"], ["فَضْلِكَ", "your kindness (to a man): 'please'"]],
+            "ok": false, "feedback": "He asks 'right or left?' (أَوْ), so 'yes' does not answer. Choose one: يَمِينًا or يَسَارًا.", "next": null }
+        ]
+      },
+      {
+        "id": "r6",
+        "npc": { "id": "taxi-rp6", "sp": "driver", "ar": "هٰذَا هُوَ الْمَتْحَف الْمِصْرِيّ. وَصَلْنَا!", "en": "This is the Egyptian Museum. We have arrived!",
+          "segs": [["هٰذَا", "this (m)"], ["هُوَ", "he, it (m)"], ["الْمَتْحَف", "the museum"], ["الْمِصْرِيّ", "the Egyptian (m)"], ["وَصَلْنَا", "we have arrived"]] },
+        "choices": [
+          { "ar": "شُكْرًا جَزِيلًا! تَفَضَّلْ، الْأُجْرَة. مَعَ السَّلَامَة!", "en": "Thank you very much! Here you are, the fare. Goodbye!",
+            "segs": [["شُكْرًا", "thank you"], ["جَزِيلًا", "very much (lit. abundant)"], ["تَفَضَّلْ", "here you are (to a man)"], ["الْأُجْرَة", "the fare"], ["مَعَ", "with"], ["السَّلَامَة", "the safety"]],
+            "ok": true, "feedback": "Good: تَفَضَّلْ (no ending) is 'here you are' to a man.", "next": null },
+          { "ar": "شُكْرًا جَزِيلًا! تَفَضَّلِي، الْأُجْرَة. مَعَ السَّلَامَة!", "en": "Thank you very much! Here you are (to a woman), the fare. Goodbye!",
+            "segs": [["شُكْرًا", "thank you"], ["جَزِيلًا", "very much (lit. abundant)"], ["تَفَضَّلِي", "here you are (to a woman)"], ["الْأُجْرَة", "the fare"], ["مَعَ", "with"], ["السَّلَامَة", "the safety"]],
+            "ok": false, "feedback": "The driver said تَفَضَّلِي to you because you are a woman. To him, a man, say تَفَضَّلْ.", "next": null }
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "morning-routine",
+    "status": "needs-review",
+    "start": "r1",
+    "nodes": [
+      {
+        "id": "r1",
+        "npc": { "id": "morning-routine-rp1", "sp": "huda", "ar": "صَبَاحُ الْخَيْر يَا فَيْصَل! كَيْفَ حَالُكَ الْيَوْم؟", "en": "Good morning, Faisal! How are you today?",
+          "segs": [["صَبَاحُ", "morning (of)"], ["الْخَيْر", "the goodness"], ["يَا", "O (calling someone)"], ["فَيْصَل", "Faisal (first name)", "name"], ["كَيْفَ", "how"], ["حَالُكَ", "your condition (to a man)"], ["الْيَوْم", "today"]] },
+        "choices": [
+          { "ar": "صَبَاحُ النُّور يَا خَالَة هُدَى! أَنَا بِخَيْر، الْحَمْدُ لِلّٰه.", "en": "Good morning, Auntie Huda! I am fine, thank God.",
+            "segs": [["صَبَاحُ", "morning (of)"], ["النُّور", "the light"], ["يَا", "O (calling someone)"], ["خَالَة", "aunt (polite address for an older woman)"], ["هُدَى", "Huda (first name)", "name"], ["أَنَا", "I"], ["بِخَيْر", "fine (lit. in goodness)"], ["الْحَمْدُ", "the praise"], ["لِلّٰه", "to God"]],
+            "ok": true, "feedback": "Good: صَبَاحُ النُّور answers صَبَاحُ الْخَيْر, and يَا خَالَة is a warm, polite way to address an older woman.", "next": "r2" },
+          { "ar": "صَبَاحُ النُّور! أَنَا بِخَيْر. وَكَيْفَ حَالُكَ يَا خَالَة؟", "en": "Good morning! I am fine. And how are you, Auntie? (wrong ending)",
+            "segs": [["صَبَاحُ", "morning (of)"], ["النُّور", "the light"], ["أَنَا", "I"], ["بِخَيْر", "fine (lit. in goodness)"], ["وَكَيْفَ", "and how"], ["حَالُكَ", "your condition (to a man)"], ["يَا", "O (calling someone)"], ["خَالَة", "aunt (polite address for an older woman)"]],
+            "ok": false, "feedback": "Asking back is kind, but حَالُكَ (-ka) is for a man. Huda is a woman: وَكَيْفَ حَالُكِ (-ki)؟", "next": null }
+        ]
+      },
+      {
+        "id": "r2",
+        "npc": { "id": "morning-routine-rp2", "sp": "huda", "ar": "مَتَى تَسْتَيْقِظُ عَادَةً؟ أَنَا أَسْتَيْقِظُ فِي السَّاعَة السَّادِسَة.", "en": "When do you usually wake up? I wake up at six o'clock.",
+          "segs": [["مَتَى", "when"], ["تَسْتَيْقِظُ", "you wake up (to a man)"], ["عَادَةً", "usually"], ["أَنَا", "I"], ["أَسْتَيْقِظُ", "I wake up"], ["فِي", "at, in"], ["السَّاعَة", "the hour, o'clock"], ["السَّادِسَة", "the sixth (f)"]] },
+        "choices": [
+          { "ar": "أَسْتَيْقِظُ فِي السَّاعَة السَّادِسَة وَالنِّصْف، ثُمَّ أَغْسِلُ وَجْهِي.", "en": "I wake up at half past six, then I wash my face.",
+            "segs": [["أَسْتَيْقِظُ", "I wake up"], ["فِي", "at, in"], ["السَّاعَة", "the hour, o'clock"], ["السَّادِسَة", "the sixth (f)"], ["وَالنِّصْف", "and a half"], ["ثُمَّ", "then"], ["أَغْسِلُ", "I wash"], ["وَجْهِي", "my face"]],
+            "ok": true, "feedback": "Good: she asks تَسْتَيْقِظُ (you wake up) and you answer with أَسْتَيْقِظُ (I wake up).", "next": "r3" },
+          { "ar": "تَسْتَيْقِظُ فِي السَّاعَة السَّادِسَة وَالنِّصْف.", "en": "You wake up at half past six (wrong person).",
+            "segs": [["تَسْتَيْقِظُ", "you wake up (to a man)"], ["فِي", "at, in"], ["السَّاعَة", "the hour, o'clock"], ["السَّادِسَة", "the sixth (f)"], ["وَالنِّصْف", "and a half"]],
+            "ok": false, "feedback": "You copied the question's verb. Talking about yourself, the verb starts with أَ: أَسْتَيْقِظُ (I wake up).", "next": null }
+        ]
+      },
+      {
+        "id": "r3",
+        "npc": { "id": "morning-routine-rp3", "sp": "huda", "ar": "وَمَاذَا تَشْرَبُ فِي الصَّبَاح؟ شَاي أَوْ قَهْوَة؟", "en": "And what do you drink in the morning? Tea or coffee?",
+          "segs": [["وَمَاذَا", "and what (before a verb)"], ["تَشْرَبُ", "you drink (to a man)"], ["فِي", "in"], ["الصَّبَاح", "the morning"], ["شَاي", "tea"], ["أَوْ", "or"], ["قَهْوَة", "coffee"]] },
+        "choices": [
+          { "ar": "أَشْرَبُ الْقَهْوَة، مِنْ فَضْلِكِ، بِدُونِ سُكَّر.", "en": "I drink coffee, please, without sugar.",
+            "segs": [["أَشْرَبُ", "I drink"], ["الْقَهْوَة", "the coffee"], ["مِنْ", "from"], ["فَضْلِكِ", "your kindness (to a woman): 'please'"], ["بِدُونِ", "without"], ["سُكَّر", "sugar"]],
+            "ok": true, "feedback": "Good: مِنْ فَضْلِكِ with -ki, because you are speaking to a woman.", "next": "r4" },
+          { "ar": "أَشْرَبُ الشَّاي، مِنْ فَضْلِكِ، بِدُونِ سُكَّر.", "en": "I drink tea, please, without sugar.",
+            "segs": [["أَشْرَبُ", "I drink"], ["الشَّاي", "the tea"], ["مِنْ", "from"], ["فَضْلِكِ", "your kindness (to a woman): 'please'"], ["بِدُونِ", "without"], ["سُكَّر", "sugar"]],
+            "ok": true, "feedback": "Good: tea instead of coffee, and -ki in مِنْ فَضْلِكِ for a woman.", "next": "r4" },
+          { "ar": "نَعَم، مِنْ فَضْلِكِ.", "en": "Yes, please.",
+            "segs": [["نَعَم", "yes"], ["مِنْ", "from"], ["فَضْلِكِ", "your kindness (to a woman): 'please'"]],
+            "ok": false, "feedback": "She asks 'tea or coffee?' (أَوْ), so 'yes' does not answer. Choose one: أَشْرَبُ الشَّاي or أَشْرَبُ الْقَهْوَة.", "next": null }
+        ]
+      },
+      {
+        "id": "r4",
+        "npc": { "id": "morning-routine-rp4", "sp": "huda", "ar": "حَاضِر. وَالْفُطُور؟ عِنْدِي فُول وَخُبْز وَبَيْض.", "en": "Right away. And breakfast? I have beans, bread and eggs.",
+          "segs": [["حَاضِر", "certainly, right away"], ["وَالْفُطُور", "and the breakfast"], ["عِنْدِي", "I have"], ["فُول", "fava beans (ful)"], ["وَخُبْز", "and bread"], ["وَبَيْض", "and eggs"]] },
+        "choices": [
+          { "ar": "شُكْرًا يَا خَالَة، لٰكِنْ أَنَا لَا آكُلُ كَثِيرًا فِي الصَّبَاح.", "en": "Thank you, Auntie, but I don't eat much in the morning.",
+            "segs": [["شُكْرًا", "thank you"], ["يَا", "O (calling someone)"], ["خَالَة", "aunt (polite address for an older woman)"], ["لٰكِنْ", "but"], ["أَنَا", "I"], ["لَا", "not"], ["آكُلُ", "I eat"], ["كَثِيرًا", "a lot, much"], ["فِي", "in"], ["الصَّبَاح", "the morning"]],
+            "ok": true, "feedback": "Polite: thanks first, then لٰكِنْ. And لَا comes straight before the verb: لَا آكُلُ.", "next": "r5" },
+          { "ar": "شُكْرًا يَا خَالَة! أُرِيدُ فُولًا وَخُبْزًا، مِنْ فَضْلِكِ.", "en": "Thank you, Auntie! I would like beans and bread, please.",
+            "segs": [["شُكْرًا", "thank you"], ["يَا", "O (calling someone)"], ["خَالَة", "aunt (polite address for an older woman)"], ["أُرِيدُ", "I want"], ["فُولًا", "fava beans (object)"], ["وَخُبْزًا", "and bread (object)"], ["مِنْ", "from"], ["فَضْلِكِ", "your kindness (to a woman): 'please'"]],
+            "ok": true, "feedback": "Good: both things are objects of أُرِيدُ, so both take -an: فُولًا وَخُبْزًا.", "next": "r6" },
+          { "ar": "شُكْرًا يَا خَالَة، لٰكِنْ لَا أَنَا آكُلُ كَثِيرًا فِي الصَّبَاح.", "en": "Thank you, Auntie, but I don't eat much in the morning (wrong word order).",
+            "segs": [["شُكْرًا", "thank you"], ["يَا", "O (calling someone)"], ["خَالَة", "aunt (polite address for an older woman)"], ["لٰكِنْ", "but"], ["لَا", "not"], ["أَنَا", "I"], ["آكُلُ", "I eat"], ["كَثِيرًا", "a lot, much"], ["فِي", "in"], ["الصَّبَاح", "the morning"]],
+            "ok": false, "feedback": "لَا goes directly before the verb, not before the pronoun: أَنَا لَا آكُلُ كَثِيرًا.", "next": null }
+        ]
+      },
+      {
+        "id": "r5",
+        "npc": { "id": "morning-routine-rp5", "sp": "huda", "ar": "لَا، لَا! الْفُطُور مُهِمّ. كُلْ قَلِيلًا عَلَى الْأَقَلّ!", "en": "No, no! Breakfast is important. At least eat a little!",
+          "segs": [["لَا", "no"], ["لَا", "no"], ["الْفُطُور", "the breakfast"], ["مُهِمّ", "important"], ["كُلْ", "eat! (to a man)"], ["قَلِيلًا", "a little"], ["عَلَى", "on"], ["الْأَقَلّ", "the least ('at least')"]] },
+        "choices": [
+          { "ar": "حَاضِر! قَلِيلًا مِنَ الْفُول، مِنْ فَضْلِكِ.", "en": "All right! A little of the beans, please.",
+            "segs": [["حَاضِر", "certainly, all right"], ["قَلِيلًا", "a little"], ["مِنَ", "of, from"], ["الْفُول", "the fava beans"], ["مِنْ", "from"], ["فَضْلِكِ", "your kindness (to a woman): 'please'"]],
+            "ok": true, "feedback": "Good: حَاضِر is a friendly 'all right!', and قَلِيلًا مِنَ الْفُول is 'a little of the beans'.", "next": "r6" },
+          { "ar": "حَاضِر! قَلِيلًا مِنَ الْفُول، مِنْ فَضْلِكَ.", "en": "All right! A little of the beans, please (to a man).",
+            "segs": [["حَاضِر", "certainly, all right"], ["قَلِيلًا", "a little"], ["مِنَ", "of, from"], ["الْفُول", "the fava beans"], ["مِنْ", "from"], ["فَضْلِكَ", "your kindness (to a man): 'please'"]],
+            "ok": false, "feedback": "مِنْ فَضْلِكَ (-ka) is for a man. To Huda, a woman: مِنْ فَضْلِكِ (-ki).", "next": null }
+        ]
+      },
+      {
+        "id": "r6",
+        "npc": { "id": "morning-routine-rp6", "sp": "huda", "ar": "وَمَتَى تَخْرُجُ إِلَى الدَّرْس؟", "en": "And when do you leave for the lesson?",
+          "segs": [["وَمَتَى", "and when"], ["تَخْرُجُ", "you go out, you leave (to a man)"], ["إِلَى", "to"], ["الدَّرْس", "the lesson"]] },
+        "choices": [
+          { "ar": "أَخْرُجُ فِي السَّاعَة الثَّامِنَة، لِأَنَّ الدَّرْسَ فِي السَّاعَة التَّاسِعَة.", "en": "I leave at eight o'clock, because the lesson is at nine.",
+            "segs": [["أَخْرُجُ", "I go out, I leave"], ["فِي", "at, in"], ["السَّاعَة", "the hour, o'clock"], ["الثَّامِنَة", "the eighth (f)"], ["لِأَنَّ", "because"], ["الدَّرْسَ", "the lesson"], ["فِي", "at, in"], ["السَّاعَة", "the hour, o'clock"], ["التَّاسِعَة", "the ninth (f)"]],
+            "ok": true, "feedback": "Good: you answer تَخْرُجُ with أَخْرُجُ (I leave), and each hour is a feminine ordinal: الثَّامِنَة، التَّاسِعَة. After لِأَنَّ the noun ends in -a: الدَّرْسَ.", "next": null },
+          { "ar": "أَخْرُجُ فِي السَّاعَة الثَّامِن، لِأَنَّ الدَّرْسَ فِي السَّاعَة التَّاسِعَة.", "en": "I leave at eight o'clock, because the lesson is at nine (wrong ending).",
+            "segs": [["أَخْرُجُ", "I go out, I leave"], ["فِي", "at, in"], ["السَّاعَة", "the hour, o'clock"], ["الثَّامِن", "the eighth (m)"], ["لِأَنَّ", "because"], ["الدَّرْسَ", "the lesson"], ["فِي", "at, in"], ["السَّاعَة", "the hour, o'clock"], ["التَّاسِعَة", "the ninth (f)"]],
+            "ok": false, "feedback": "سَاعَة is feminine, so the ordinal after it takes ة: السَّاعَة الثَّامِنَة.", "next": null }
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "appointment-time",
+    "status": "needs-review",
+    "start": "r1",
+    "nodes": [
+      {
+        "id": "r1",
+        "npc": { "id": "appointment-time-rp1", "sp": "receptionist", "ar": "صَبَاحُ الْخَيْر، هٰذَا مَكْتَبُ الْمَدْرَسَة. كَيْفَ أُسَاعِدُكَ؟", "en": "Good morning, this is the school office. How can I help you?",
+          "segs": [["صَبَاحُ", "morning (of)"], ["الْخَيْر", "the goodness"], ["هٰذَا", "this (m)"], ["مَكْتَبُ", "office (of)"], ["الْمَدْرَسَة", "the school"], ["كَيْفَ", "how"], ["أُسَاعِدُكَ", "I help you (to a man)"]] },
+        "choices": [
+          { "ar": "صَبَاحُ النُّور. أَنَا فَيْصَل، طَالِب فِي صَفِّ الْأُسْتَاذ كَرِيم. أُرِيدُ مَوْعِدًا مَعَ الْمُدِير.", "en": "Good morning. I am Faisal, a student in Mr Karim's class. I would like an appointment with the director.",
+            "segs": [["صَبَاحُ", "morning (of)"], ["النُّور", "the light"], ["أَنَا", "I"], ["فَيْصَل", "Faisal (first name)", "name"], ["طَالِب", "student (m)"], ["فِي", "in"], ["صَفِّ", "class (of)"], ["الْأُسْتَاذ", "the teacher; Mr (title)"], ["كَرِيم", "Karim (first name)", "name"], ["أُرِيدُ", "I want"], ["مَوْعِدًا", "an appointment (object form)"], ["مَعَ", "with"], ["الْمُدِير", "the director, the head"]],
+            "ok": true, "feedback": "Clear: who you are, then what you want. مَوْعِدًا takes -an as the object of أُرِيدُ.", "next": "r2" },
+          { "ar": "صَبَاحُ النُّور. أُرِيدُ مَوْعِد مَعَ الْمُدِير.", "en": "Good morning. I would like an appointment with the director (wrong ending).",
+            "segs": [["صَبَاحُ", "morning (of)"], ["النُّور", "the light"], ["أُرِيدُ", "I want"], ["مَوْعِد", "appointment"], ["مَعَ", "with"], ["الْمُدِير", "the director, the head"]],
+            "ok": false, "feedback": "The object of أُرِيدُ takes -an: أُرِيدُ مَوْعِدًا مَعَ الْمُدِير.", "next": null }
+        ]
+      },
+      {
+        "id": "r2",
+        "npc": { "id": "appointment-time-rp2", "sp": "receptionist", "ar": "طَبْعًا. هَلْ يَوْمُ الثُّلَاثَاء مُمْكِن، فِي السَّاعَة الْعَاشِرَة؟", "en": "Of course. Is Tuesday possible, at ten o'clock?",
+          "segs": [["طَبْعًا", "of course"], ["هَلْ", "(starts a yes/no question)"], ["يَوْمُ", "day (of)"], ["الثُّلَاثَاء", "Tuesday"], ["مُمْكِن", "possible"], ["فِي", "at, in"], ["السَّاعَة", "the hour, o'clock"], ["الْعَاشِرَة", "the tenth (f)"]] },
+        "choices": [
+          { "ar": "نَعَم، يَوْمُ الثُّلَاثَاء مُمْكِن.", "en": "Yes, Tuesday is possible.",
+            "segs": [["نَعَم", "yes"], ["يَوْمُ", "day (of)"], ["الثُّلَاثَاء", "Tuesday"], ["مُمْكِن", "possible"]],
+            "ok": true, "feedback": "Good: يَوْم is masculine, so 'possible' has no ة: مُمْكِن.", "next": "r6" },
+          { "ar": "آسِف، يَوْمَ الثُّلَاثَاء فِي السَّاعَة الْعَاشِرَة عِنْدِي دَرْس.", "en": "Sorry, on Tuesday at ten o'clock I have a lesson.",
+            "segs": [["آسِف", "sorry (m)"], ["يَوْمَ", "on (the day of)"], ["الثُّلَاثَاء", "Tuesday"], ["فِي", "at, in"], ["السَّاعَة", "the hour, o'clock"], ["الْعَاشِرَة", "the tenth (f)"], ["عِنْدِي", "I have"], ["دَرْس", "lesson"]],
+            "ok": true, "feedback": "Good: آسِف (m) because you are a man, and 'on Tuesday' is يَوْمَ, with -a.", "next": "r3" },
+          { "ar": "نَعَم، يَوْمُ الثُّلَاثَاء مُمْكِنَة.", "en": "Yes, Tuesday is possible (wrong ending).",
+            "segs": [["نَعَم", "yes"], ["يَوْمُ", "day (of)"], ["الثُّلَاثَاء", "Tuesday"], ["مُمْكِنَة", "possible (f)"]],
+            "ok": false, "feedback": "يَوْم is masculine, so 'possible' has no ة: يَوْمُ الثُّلَاثَاء مُمْكِن.", "next": null }
+        ]
+      },
+      {
+        "id": "r3",
+        "npc": { "id": "appointment-time-rp3", "sp": "receptionist", "ar": "لَا مُشْكِلَة. وَيَوْمَ الْأَرْبِعَاء؟ الْمُدِير هُنَا مِنَ السَّاعَة الْوَاحِدَة إِلَى السَّاعَة الرَّابِعَة.", "en": "No problem. And on Wednesday? The director is here from one o'clock to four o'clock.",
+          "segs": [["لَا", "no"], ["مُشْكِلَة", "problem"], ["وَيَوْمَ", "and on (the day of)"], ["الْأَرْبِعَاء", "Wednesday"], ["الْمُدِير", "the director, the head"], ["هُنَا", "here"], ["مِنَ", "from"], ["السَّاعَة", "the hour, o'clock"], ["الْوَاحِدَة", "one (f): one o'clock"], ["إِلَى", "to"], ["السَّاعَة", "the hour, o'clock"], ["الرَّابِعَة", "the fourth (f)"]] },
+        "choices": [
+          { "ar": "الْأَرْبِعَاء مُمْتَاز. هَلِ السَّاعَة الْوَاحِدَة وَالنِّصْف مُمْكِنَة؟", "en": "Wednesday is great. Is half past one possible?",
+            "segs": [["الْأَرْبِعَاء", "Wednesday"], ["مُمْتَاز", "excellent"], ["هَلِ", "(starts a yes/no question)"], ["السَّاعَة", "the hour, o'clock"], ["الْوَاحِدَة", "one (f): one o'clock"], ["وَالنِّصْف", "and a half"], ["مُمْكِنَة", "possible (f)"]],
+            "ok": true, "feedback": "Good: السَّاعَة is feminine, so 'possible' takes ة: مُمْكِنَة. Before al- هَلْ becomes هَلِ.", "next": "r4" },
+          { "ar": "الْأَرْبِعَاء مُمْتَاز. هَلِ السَّاعَة الْوَاحِدَة وَالنِّصْف مُمْكِن؟", "en": "Wednesday is great. Is half past one possible? (wrong ending)",
+            "segs": [["الْأَرْبِعَاء", "Wednesday"], ["مُمْتَاز", "excellent"], ["هَلِ", "(starts a yes/no question)"], ["السَّاعَة", "the hour, o'clock"], ["الْوَاحِدَة", "one (f): one o'clock"], ["وَالنِّصْف", "and a half"], ["مُمْكِن", "possible"]],
+            "ok": false, "feedback": "سَاعَة is feminine, so 'possible' takes ة: هَلِ السَّاعَة الْوَاحِدَة وَالنِّصْف مُمْكِنَة؟", "next": null }
+        ]
+      },
+      {
+        "id": "r4",
+        "npc": { "id": "appointment-time-rp4", "sp": "receptionist", "ar": "آسِفَة، فِي السَّاعَة الْوَاحِدَة وَالنِّصْف عِنْدَهُ اِجْتِمَاع. هَلِ السَّاعَة الثَّالِثَة إِلَّا رُبْعًا مُمْكِنَة لَكَ؟", "en": "Sorry, at half past one he has a meeting. Is quarter to three possible for you?",
+          "segs": [["آسِفَة", "sorry (f)"], ["فِي", "at, in"], ["السَّاعَة", "the hour, o'clock"], ["الْوَاحِدَة", "one (f): one o'clock"], ["وَالنِّصْف", "and a half"], ["عِنْدَهُ", "he has (lit. at him)"], ["اِجْتِمَاع", "meeting"], ["هَلِ", "(starts a yes/no question)"], ["السَّاعَة", "the hour, o'clock"], ["الثَّالِثَة", "the third (f)"], ["إِلَّا", "except, minus"], ["رُبْعًا", "a quarter (after illā)"], ["مُمْكِنَة", "possible (f)"], ["لَكَ", "for you (to a man)"]] },
+        "choices": [
+          { "ar": "نَعَم، هٰذَا وَقْت مُمْتَاز. الدَّرْس حَتَّى السَّاعَة الْوَاحِدَة فَقَطْ.", "en": "Yes, that is an excellent time. The lesson only goes on until one o'clock.",
+            "segs": [["نَعَم", "yes"], ["هٰذَا", "this, that (m)"], ["وَقْت", "time"], ["مُمْتَاز", "excellent"], ["الدَّرْس", "the lesson"], ["حَتَّى", "until"], ["السَّاعَة", "the hour, o'clock"], ["الْوَاحِدَة", "one (f): one o'clock"], ["فَقَطْ", "only"]],
+            "ok": true, "feedback": "Good: وَقْت is masculine, so هٰذَا and مُمْتَاز have no ة.", "next": "r5" },
+          { "ar": "نَعَم، هٰذِهِ وَقْت مُمْتَاز.", "en": "Yes, that is an excellent time (wrong ending).",
+            "segs": [["نَعَم", "yes"], ["هٰذِهِ", "this (f)"], ["وَقْت", "time"], ["مُمْتَاز", "excellent"]],
+            "ok": false, "feedback": "وَقْت is masculine, so 'this' is هٰذَا: نَعَم، هٰذَا وَقْت مُمْتَاز.", "next": null }
+        ]
+      },
+      {
+        "id": "r5",
+        "npc": { "id": "appointment-time-rp5", "sp": "receptionist", "ar": "إِذًا، مَوْعِدُكَ يَوْمَ الْأَرْبِعَاء فِي السَّاعَة الثَّالِثَة إِلَّا رُبْعًا.", "en": "So, your appointment is on Wednesday at quarter to three.",
+          "segs": [["إِذًا", "then, so"], ["مَوْعِدُكَ", "your appointment (to a man)"], ["يَوْمَ", "on (the day of)"], ["الْأَرْبِعَاء", "Wednesday"], ["فِي", "at, in"], ["السَّاعَة", "the hour, o'clock"], ["الثَّالِثَة", "the third (f)"], ["إِلَّا", "except, minus"], ["رُبْعًا", "a quarter (after illā)"]] },
+        "choices": [
+          { "ar": "الْأَرْبِعَاء، الثَّالِثَة إِلَّا رُبْعًا. شُكْرًا جَزِيلًا يَا أُسْتَاذَة! مَعَ السَّلَامَة.", "en": "Wednesday, quarter to three. Thank you very much, madam! Goodbye.",
+            "segs": [["الْأَرْبِعَاء", "Wednesday"], ["الثَّالِثَة", "the third (f)"], ["إِلَّا", "except, minus"], ["رُبْعًا", "a quarter (after illā)"], ["شُكْرًا", "thank you"], ["جَزِيلًا", "very much (lit. abundant)"], ["يَا", "O (calling someone)"], ["أُسْتَاذَة", "madam (polite address for a woman)"], ["مَعَ", "with"], ["السَّلَامَة", "the safety"]],
+            "ok": true, "feedback": "Good: repeating the day and time checks you understood, and يَا أُسْتَاذَة is polite to a woman.", "next": null },
+          { "ar": "الْأَرْبِعَاء، الثَّالِثَة إِلَّا رُبْعًا. شُكْرًا جَزِيلًا يَا أُسْتَاذ! مَعَ السَّلَامَة.", "en": "Wednesday, quarter to three. Thank you very much, sir! Goodbye.",
+            "segs": [["الْأَرْبِعَاء", "Wednesday"], ["الثَّالِثَة", "the third (f)"], ["إِلَّا", "except, minus"], ["رُبْعًا", "a quarter (after illā)"], ["شُكْرًا", "thank you"], ["جَزِيلًا", "very much (lit. abundant)"], ["يَا", "O (calling someone)"], ["أُسْتَاذ", "Mr, sir (polite address for a man)"], ["مَعَ", "with"], ["السَّلَامَة", "the safety"]],
+            "ok": false, "feedback": "يَا أُسْتَاذ is for a man. The receptionist is a woman: يَا أُسْتَاذَة.", "next": null }
+        ]
+      },
+      {
+        "id": "r6",
+        "npc": { "id": "appointment-time-rp6", "sp": "receptionist", "ar": "إِذًا، مَوْعِدُكَ يَوْمَ الثُّلَاثَاء فِي السَّاعَة الْعَاشِرَة.", "en": "So, your appointment is on Tuesday at ten o'clock.",
+          "segs": [["إِذًا", "then, so"], ["مَوْعِدُكَ", "your appointment (to a man)"], ["يَوْمَ", "on (the day of)"], ["الثُّلَاثَاء", "Tuesday"], ["فِي", "at, in"], ["السَّاعَة", "the hour, o'clock"], ["الْعَاشِرَة", "the tenth (f)"]] },
+        "choices": [
+          { "ar": "شُكْرًا جَزِيلًا يَا أُسْتَاذَة! مَعَ السَّلَامَة.", "en": "Thank you very much, madam! Goodbye.",
+            "segs": [["شُكْرًا", "thank you"], ["جَزِيلًا", "very much (lit. abundant)"], ["يَا", "O (calling someone)"], ["أُسْتَاذَة", "madam (polite address for a woman)"], ["مَعَ", "with"], ["السَّلَامَة", "the safety"]],
+            "ok": true, "feedback": "Good: يَا أُسْتَاذَة is a polite way to address a woman you do not know.", "next": null },
+          { "ar": "شُكْرًا جَزِيلًا يَا أُسْتَاذَة! أَهْلًا وَسَهْلًا.", "en": "Thank you very much, madam! Welcome.",
+            "segs": [["شُكْرًا", "thank you"], ["جَزِيلًا", "very much (lit. abundant)"], ["يَا", "O (calling someone)"], ["أُسْتَاذَة", "madam (polite address for a woman)"], ["أَهْلًا", "welcome"], ["وَسَهْلًا", "and ease (part of 'welcome')"]],
+            "ok": false, "feedback": "أَهْلًا وَسَهْلًا welcomes someone who arrives. You are leaving, so say goodbye: مَعَ السَّلَامَة.", "next": null }
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "restaurant",
+    "status": "needs-review",
+    "start": "r1",
+    "nodes": [
+      {
+        "id": "r1",
+        "npc": { "id": "restaurant-rp1", "sp": "waiter", "ar": "مَسَاءُ الْخَيْر! أَهْلًا بِكُمَا فِي مَطْعَمِنَا. كَمْ شَخْصًا؟", "en": "Good evening! Welcome to our restaurant. How many people?",
+          "segs": [["مَسَاءُ", "evening (of)"], ["الْخَيْر", "the goodness"], ["أَهْلًا", "welcome"], ["بِكُمَا", "with you (two people)"], ["فِي", "in, to"], ["مَطْعَمِنَا", "our restaurant"], ["كَمْ", "how many"], ["شَخْصًا", "person (after 'how many')"]] },
+        "choices": [
+          { "ar": "مَسَاءُ النُّور! نَحْنُ شَخْصَانِ: أَنَا وَصَدِيقِي. طَاوِلَة لِاثْنَيْنِ، مِنْ فَضْلِكَ.", "en": "Good evening! There are two of us: me and my friend. A table for two, please.",
+            "segs": [["مَسَاءُ", "evening (of)"], ["النُّور", "the light"], ["نَحْنُ", "we"], ["شَخْصَانِ", "two people"], ["أَنَا", "I, me"], ["وَصَدِيقِي", "and my friend"], ["طَاوِلَة", "table"], ["لِاثْنَيْنِ", "for two"], ["مِنْ", "from"], ["فَضْلِكَ", "your kindness (to a man): 'please'"]],
+            "ok": true, "feedback": "Good: after نَحْنُ the dual is the predicate, so it ends in -āni: شَخْصَانِ. After لِ it is -ayni: لِاثْنَيْنِ.", "next": "r2" },
+          { "ar": "مَسَاءُ النُّور! نَحْنُ شَخْصَيْنِ: أَنَا وَصَدِيقِي.", "en": "Good evening! There are two of us: me and my friend (wrong ending).",
+            "segs": [["مَسَاءُ", "evening (of)"], ["النُّور", "the light"], ["نَحْنُ", "we"], ["شَخْصَيْنِ", "two people (object form)"], ["أَنَا", "I, me"], ["وَصَدِيقِي", "and my friend"]],
+            "ok": false, "feedback": "After نَحْنُ the dual is the predicate, not an object, so it ends in -āni: نَحْنُ شَخْصَانِ.", "next": null }
+        ]
+      },
+      {
+        "id": "r2",
+        "npc": { "id": "restaurant-rp2", "sp": "waiter", "ar": "تَفَضَّلَا، هٰذِهِ طَاوِلَة جَمِيلَة بِجَانِبِ النَّافِذَة. وَهٰذِهِ الْقَائِمَة.", "en": "Please sit down, here is a nice table by the window. And here is the menu.",
+          "segs": [["تَفَضَّلَا", "please, here you are (to two people)"], ["هٰذِهِ", "this (f)"], ["طَاوِلَة", "table"], ["جَمِيلَة", "beautiful, nice (f)"], ["بِجَانِبِ", "next to"], ["النَّافِذَة", "the window"], ["وَهٰذِهِ", "and this (f)"], ["الْقَائِمَة", "the menu"]] },
+        "choices": [
+          { "ar": "شُكْرًا. مَا هٰذَا الطَّبَق؟ هَلْ فِيهِ لَحْم؟", "en": "Thank you. What is this dish? Is there meat in it?",
+            "segs": [["شُكْرًا", "thank you"], ["مَا", "what"], ["هٰذَا", "this (m)"], ["الطَّبَق", "the dish"], ["هَلْ", "(starts a yes/no question)"], ["فِيهِ", "in it (m)"], ["لَحْم", "meat"]],
+            "ok": true, "feedback": "Good: طَبَق is masculine, so 'this' is هٰذَا and 'in it' is فِيهِ.", "next": "r3" },
+          { "ar": "شُكْرًا. مَا هٰذِهِ الطَّبَق؟ هَلْ فِيهِ لَحْم؟", "en": "Thank you. What is this dish? Is there meat in it? (wrong ending)",
+            "segs": [["شُكْرًا", "thank you"], ["مَا", "what"], ["هٰذِهِ", "this (f)"], ["الطَّبَق", "the dish"], ["هَلْ", "(starts a yes/no question)"], ["فِيهِ", "in it (m)"], ["لَحْم", "meat"]],
+            "ok": false, "feedback": "طَبَق is masculine, so 'this' is هٰذَا: مَا هٰذَا الطَّبَق؟", "next": null }
+        ]
+      },
+      {
+        "id": "r3",
+        "npc": { "id": "restaurant-rp3", "sp": "waiter", "ar": "هٰذِهِ مُلُوخِيَّة بِالدَّجَاج. وَعِنْدَنَا أَيْضًا مَحْشِيّ بِدُونِ لَحْم.", "en": "This is molokhia with chicken. We also have stuffed vegetables without meat.",
+          "segs": [["هٰذِهِ", "this (f)"], ["مُلُوخِيَّة", "molokhia (green leaf stew)"], ["بِالدَّجَاج", "with chicken"], ["وَعِنْدَنَا", "and we have"], ["أَيْضًا", "also, too"], ["مَحْشِيّ", "stuffed vegetables"], ["بِدُونِ", "without"], ["لَحْم", "meat"]] },
+        "choices": [
+          { "ar": "إِذًا نُرِيدُ طَبَقَيْنِ مِنَ الْمَحْشِيّ، وَسَلَطَةً خَضْرَاء، مِنْ فَضْلِكَ.", "en": "Then we'd like two plates of stuffed vegetables and a green salad, please.",
+            "segs": [["إِذًا", "then, so"], ["نُرِيدُ", "we want, we'd like"], ["طَبَقَيْنِ", "two dishes (object)"], ["مِنَ", "of, from"], ["الْمَحْشِيّ", "the stuffed vegetables"], ["وَسَلَطَةً", "and a salad (object)"], ["خَضْرَاء", "green (f)"], ["مِنْ", "from"], ["فَضْلِكَ", "your kindness (to a man): 'please'"]],
+            "ok": true, "feedback": "Good: as the object of نُرِيدُ the dual ends in -ayni (طَبَقَيْنِ), and سَلَطَةً takes -an.", "next": "r4" },
+          { "ar": "إِذًا نُرِيدُ طَبَقَانِ مِنَ الْمَحْشِيّ، مِنْ فَضْلِكَ.", "en": "Then we'd like two plates of stuffed vegetables, please (wrong ending).",
+            "segs": [["إِذًا", "then, so"], ["نُرِيدُ", "we want, we'd like"], ["طَبَقَانِ", "two dishes"], ["مِنَ", "of, from"], ["الْمَحْشِيّ", "the stuffed vegetables"], ["مِنْ", "from"], ["فَضْلِكَ", "your kindness (to a man): 'please'"]],
+            "ok": false, "feedback": "As the object of a verb the dual ends in -ayni, not -āni: نُرِيدُ طَبَقَيْنِ مِنَ الْمَحْشِيّ.", "next": null }
+        ]
+      },
+      {
+        "id": "r4",
+        "npc": { "id": "restaurant-rp4", "sp": "waiter", "ar": "وَمَاذَا تَشْرَبَانِ؟ عِنْدَنَا عَصِير وَمَاء وَمَشْرُوبَات بَارِدَة.", "en": "And what will you two drink? We have juice, water and cold drinks.",
+          "segs": [["وَمَاذَا", "and what (before a verb)"], ["تَشْرَبَانِ", "you two drink (dual)"], ["عِنْدَنَا", "we have"], ["عَصِير", "juice"], ["وَمَاء", "and water"], ["وَمَشْرُوبَات", "and drinks"], ["بَارِدَة", "cold (f)"]] },
+        "choices": [
+          { "ar": "زُجَاجَتَيْنِ مِنَ الْمَاء، لَوْ سَمَحْتَ. وَهَلِ الطَّعَام حَارّ؟", "en": "Two bottles of water, please. And is the food spicy?",
+            "segs": [["زُجَاجَتَيْنِ", "two bottles (object)"], ["مِنَ", "of, from"], ["الْمَاء", "the water"], ["لَوْ", "if"], ["سَمَحْتَ", "you allow (to a man)"], ["وَهَلِ", "and (starts a yes/no question)"], ["الطَّعَام", "the food"], ["حَارّ", "hot, spicy"]],
+            "ok": true, "feedback": "Good: لَوْ سَمَحْتَ is another polite 'please' to a man, and asking about spice before the food comes is wise.", "next": "r5" },
+          { "ar": "زُجَاجَتَيْنِ مِنَ الْمَاء، لَوْ سَمَحْتَ.", "en": "Two bottles of water, please.",
+            "segs": [["زُجَاجَتَيْنِ", "two bottles (object)"], ["مِنَ", "of, from"], ["الْمَاء", "the water"], ["لَوْ", "if"], ["سَمَحْتَ", "you allow (to a man)"]],
+            "ok": true, "feedback": "Short and polite. زُجَاجَتَيْنِ ends in -ayni because it is what you order (an object).", "next": "r6" },
+          { "ar": "زُجَاجَتَيْنِ مِنَ الْمَاء، لَوْ سَمَحْتِ.", "en": "Two bottles of water, please (to a woman).",
+            "segs": [["زُجَاجَتَيْنِ", "two bottles (object)"], ["مِنَ", "of, from"], ["الْمَاء", "the water"], ["لَوْ", "if"], ["سَمَحْتِ", "you allow (to a woman)"]],
+            "ok": false, "feedback": "لَوْ سَمَحْتِ (-ti) is for a woman. The waiter is a man: لَوْ سَمَحْتَ (-ta).", "next": null }
+        ]
+      },
+      {
+        "id": "r5",
+        "npc": { "id": "restaurant-rp5", "sp": "waiter", "ar": "لَا، لَيْسَ حَارًّا. وَالصَّلْصَة الْحَارَّة عَلَى الطَّاوِلَة.", "en": "No, it isn't spicy. And the hot sauce is on the table.",
+          "segs": [["لَا", "no"], ["لَيْسَ", "is not, it isn't"], ["حَارًّا", "spicy (after laysa)"], ["وَالصَّلْصَة", "and the sauce"], ["الْحَارَّة", "the hot, spicy (f)"], ["عَلَى", "on"], ["الطَّاوِلَة", "the table"]] },
+        "choices": [
+          { "ar": "مُمْتَاز، شُكْرًا لَكَ.", "en": "Excellent, thank you.",
+            "segs": [["مُمْتَاز", "excellent"], ["شُكْرًا", "thank you"], ["لَكَ", "to you (to a man)"]],
+            "ok": true, "feedback": "Good: شُكْرًا لَكَ thanks one man.", "next": "r6" },
+          { "ar": "مُمْتَاز، شُكْرًا لَكُمَا.", "en": "Excellent, thank you both.",
+            "segs": [["مُمْتَاز", "excellent"], ["شُكْرًا", "thank you"], ["لَكُمَا", "to you two (dual)"]],
+            "ok": false, "feedback": "لَكُمَا is for two people. You thank one waiter, a man: شُكْرًا لَكَ.", "next": null }
+        ]
+      },
+      {
+        "id": "r6",
+        "npc": { "id": "restaurant-rp6", "sp": "waiter", "ar": "تَفَضَّلَا، الْمَحْشِيّ وَالسَّلَطَة. بِالْهَنَاء وَالشِّفَاء!", "en": "Here you are, both of you: the stuffed vegetables and the salad. Enjoy your meal!",
+          "segs": [["تَفَضَّلَا", "please, here you are (to two people)"], ["الْمَحْشِيّ", "the stuffed vegetables"], ["وَالسَّلَطَة", "and the salad"], ["بِالْهَنَاء", "with happiness"], ["وَالشِّفَاء", "and good health ('enjoy your meal')"]] },
+        "choices": [
+          { "ar": "الْمَحْشِيّ لَذِيذ جِدًّا! الْحِسَاب، مِنْ فَضْلِكَ.", "en": "The stuffed vegetables are very delicious! The bill, please.",
+            "segs": [["الْمَحْشِيّ", "the stuffed vegetables"], ["لَذِيذ", "delicious"], ["جِدًّا", "very"], ["الْحِسَاب", "the bill"], ["مِنْ", "from"], ["فَضْلِكَ", "your kindness (to a man): 'please'"]],
+            "ok": true, "feedback": "Good: a compliment and then the bill. مَحْشِيّ is masculine, so لَذِيذ has no ة.", "next": null },
+          { "ar": "الْمَحْشِيّ لَذِيذَة جِدًّا! الْحِسَاب، مِنْ فَضْلِكَ.", "en": "The stuffed vegetables are very delicious! The bill, please (wrong ending).",
+            "segs": [["الْمَحْشِيّ", "the stuffed vegetables"], ["لَذِيذَة", "delicious (f)"], ["جِدًّا", "very"], ["الْحِسَاب", "the bill"], ["مِنْ", "from"], ["فَضْلِكَ", "your kindness (to a man): 'please'"]],
+            "ok": false, "feedback": "مَحْشِيّ is a masculine singular word, so the adjective has no ة: الْمَحْشِيّ لَذِيذ.", "next": null }
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "bakery",
+    "status": "needs-review",
+    "start": "r1",
+    "nodes": [
+      {
+        "id": "r1",
+        "npc": { "id": "bakery-rp1", "sp": "baker", "ar": "صَبَاحُ الْخَيْر يَا آنِسَة! الْخُبْز طَازَج وَسَاخِن الْآن.", "en": "Good morning, miss! The bread is fresh and hot right now.",
+          "segs": [["صَبَاحُ", "morning (of)"], ["الْخَيْر", "the goodness"], ["يَا", "O (calling someone)"], ["آنِسَة", "miss (young woman)"], ["الْخُبْز", "the bread"], ["طَازَج", "fresh"], ["وَسَاخِن", "and hot"], ["الْآن", "now"]] },
+        "choices": [
+          { "ar": "صَبَاحُ النُّور! أُرِيدُ خَمْسَةَ أَرْغِفَة مِنَ الْخُبْز الْبَلَدِيّ، مِنْ فَضْلِكَ.", "en": "Good morning! I'd like five loaves of country bread, please.",
+            "segs": [["صَبَاحُ", "morning (of)"], ["النُّور", "the light"], ["أُرِيدُ", "I want, I'd like"], ["خَمْسَةَ", "five (object)"], ["أَرْغِفَة", "loaves"], ["مِنَ", "of, from"], ["الْخُبْز", "the bread"], ["الْبَلَدِيّ", "the local, country (style)"], ["مِنْ", "from"], ["فَضْلِكَ", "your kindness (to a man): 'please'"]],
+            "ok": true, "feedback": "Good: after the numbers three to ten the noun is plural: خَمْسَةَ أَرْغِفَة.", "next": "r2" },
+          { "ar": "صَبَاحُ النُّور! أُرِيدُ خَمْسَةَ رَغِيف مِنَ الْخُبْز الْبَلَدِيّ، مِنْ فَضْلِكَ.", "en": "Good morning! I'd like five loaf of country bread, please (wrong ending).",
+            "segs": [["صَبَاحُ", "morning (of)"], ["النُّور", "the light"], ["أُرِيدُ", "I want, I'd like"], ["خَمْسَةَ", "five (object)"], ["رَغِيف", "loaf"], ["مِنَ", "of, from"], ["الْخُبْز", "the bread"], ["الْبَلَدِيّ", "the local, country (style)"], ["مِنْ", "from"], ["فَضْلِكَ", "your kindness (to a man): 'please'"]],
+            "ok": false, "feedback": "After the numbers three to ten the noun is plural: خَمْسَةَ أَرْغِفَة, not خَمْسَةَ رَغِيف.", "next": null }
+        ]
+      },
+      {
+        "id": "r2",
+        "npc": { "id": "bakery-rp2", "sp": "baker", "ar": "حَاضِر! هَلْ تُرِيدِينَ شَيْئًا آخَر؟ عِنْدَنَا كَعْك وَكَرْوَاسُون.", "en": "Certainly! Would you like anything else? We have kaʿk biscuits and croissants.",
+          "segs": [["حَاضِر", "certainly, right away"], ["هَلْ", "(starts a yes/no question)"], ["تُرِيدِينَ", "you want (to a woman)"], ["شَيْئًا", "something (object)"], ["آخَر", "other, else"], ["عِنْدَنَا", "we have"], ["كَعْك", "cake, pastry; kaʿk biscuits"], ["وَكَرْوَاسُون", "and croissants"]] },
+        "choices": [
+          { "ar": "بِكَمِ الْكَرْوَاسُون؟ وَبِكَمِ الْكَعْكَة؟", "en": "How much is a croissant? And how much is one kaʿk?",
+            "segs": [["بِكَمِ", "for how much (price)"], ["الْكَرْوَاسُون", "the croissant"], ["وَبِكَمِ", "and for how much"], ["الْكَعْكَة", "the kaʿk biscuit (one)"]],
+            "ok": true, "feedback": "Good: بِكَمْ asks the price ('for how much?'), and before al- it becomes بِكَمِ.", "next": "r3" },
+          { "ar": "لَا، شُكْرًا. هٰذَا كُلُّ شَيْء. كَمِ الْحِسَاب، مِنْ فَضْلِكَ؟", "en": "No, thank you. That's everything. How much is the bill, please?",
+            "segs": [["لَا", "no"], ["شُكْرًا", "thank you"], ["هٰذَا", "this (m)"], ["كُلُّ", "all (of)"], ["شَيْء", "thing"], ["كَمِ", "how much"], ["الْحِسَاب", "the bill"], ["مِنْ", "from"], ["فَضْلِكَ", "your kindness (to a man): 'please'"]],
+            "ok": true, "feedback": "Polite and complete: a 'no' with شُكْرًا, then you ask for the bill.", "next": "r6" },
+          { "ar": "بِكَمِ الْكَرْوَاسُون، مِنْ فَضْلِكِ؟", "en": "How much is a croissant, please (to a woman)?",
+            "segs": [["بِكَمِ", "for how much (price)"], ["الْكَرْوَاسُون", "the croissant"], ["مِنْ", "from"], ["فَضْلِكِ", "your kindness (to a woman): 'please'"]],
+            "ok": false, "feedback": "The baker says تُرِيدِينَ to you because you are a woman, but he is a man: مِنْ فَضْلِكَ (-ka).", "next": null }
+        ]
+      },
+      {
+        "id": "r3",
+        "npc": { "id": "bakery-rp3", "sp": "baker", "ar": "الْكَرْوَاسُون بِخَمْسَةَ عَشَرَ جُنَيْهًا، وَالْكَعْكَة بِعَشَرَةِ جُنَيْهَات.", "en": "A croissant is fifteen pounds, and a kaʿk is ten pounds.",
+          "segs": [["الْكَرْوَاسُون", "the croissant"], ["بِخَمْسَةَ", "for five (part of 'fifteen')"], ["عَشَرَ", "ten (part of 'fifteen')"], ["جُنَيْهًا", "pound (after 11–99)"], ["وَالْكَعْكَة", "and the kaʿk biscuit"], ["بِعَشَرَةِ", "for ten"], ["جُنَيْهَات", "pounds"]] },
+        "choices": [
+          { "ar": "إِذًا أُرِيدُ قِطْعَتَيْنِ مِنَ الْكَرْوَاسُون، وَثَلَاثَ كَعْكَات.", "en": "Then I'd like two croissants and three kaʿk biscuits.",
+            "segs": [["إِذًا", "then, so"], ["أُرِيدُ", "I want, I'd like"], ["قِطْعَتَيْنِ", "two pieces (object)"], ["مِنَ", "of, from"], ["الْكَرْوَاسُون", "the croissant"], ["وَثَلَاثَ", "and three (with a feminine noun)"], ["كَعْكَات", "kaʿk biscuits"]],
+            "ok": true, "feedback": "Good: the dual object ends in -ayni (قِطْعَتَيْنِ), and كَعْكَة is feminine, so 'three' has no ة: ثَلَاثَ كَعْكَات.", "next": "r4" },
+          { "ar": "إِذًا أُرِيدُ قِطْعَتَانِ مِنَ الْكَرْوَاسُون، وَثَلَاثَ كَعْكَات.", "en": "Then I'd like two croissants and three kaʿk biscuits (wrong ending).",
+            "segs": [["إِذًا", "then, so"], ["أُرِيدُ", "I want, I'd like"], ["قِطْعَتَانِ", "two pieces"], ["مِنَ", "of, from"], ["الْكَرْوَاسُون", "the croissant"], ["وَثَلَاثَ", "and three (with a feminine noun)"], ["كَعْكَات", "kaʿk biscuits"]],
+            "ok": false, "feedback": "As the object of أُرِيدُ the dual ends in -ayni: أُرِيدُ قِطْعَتَيْنِ مِنَ الْكَرْوَاسُون.", "next": null }
+        ]
+      },
+      {
+        "id": "r4",
+        "npc": { "id": "bakery-rp4", "sp": "baker", "ar": "تَفَضَّلِي: خَمْسَةُ أَرْغِفَة، وَقِطْعَتَانِ مِنَ الْكَرْوَاسُون، وَثَلَاثُ كَعْكَات.", "en": "Here you are: five loaves, two croissants and three kaʿk biscuits.",
+          "segs": [["تَفَضَّلِي", "here you are (to a woman)"], ["خَمْسَةُ", "five"], ["أَرْغِفَة", "loaves"], ["وَقِطْعَتَانِ", "and two pieces"], ["مِنَ", "of, from"], ["الْكَرْوَاسُون", "the croissant"], ["وَثَلَاثُ", "and three (with a feminine noun)"], ["كَعْكَات", "kaʿk biscuits"]] },
+        "choices": [
+          { "ar": "شُكْرًا! كَمِ الْحِسَاب، مِنْ فَضْلِكَ؟", "en": "Thank you! How much is the bill, please?",
+            "segs": [["شُكْرًا", "thank you"], ["كَمِ", "how much"], ["الْحِسَاب", "the bill"], ["مِنْ", "from"], ["فَضْلِكَ", "your kindness (to a man): 'please'"]],
+            "ok": true, "feedback": "Good: before al- the sukūn of كَمْ becomes i: كَمِ الْحِسَاب.", "next": "r5" },
+          { "ar": "شُكْرًا! كَمْ حِسَاب، مِنْ فَضْلِكَ؟", "en": "Thank you! How much bill, please? (missing 'the')",
+            "segs": [["شُكْرًا", "thank you"], ["كَمْ", "how much"], ["حِسَاب", "bill"], ["مِنْ", "from"], ["فَضْلِكَ", "your kindness (to a man): 'please'"]],
+            "ok": false, "feedback": "You ask about this bill, 'the bill', so use الـ: كَمِ الْحِسَاب؟", "next": null }
+        ]
+      },
+      {
+        "id": "r5",
+        "npc": { "id": "bakery-rp5", "sp": "baker", "ar": "الْخُبْز بِعَشَرَة، وَالْكَرْوَاسُون بِثَلَاثِينَ، وَالْكَعْك بِثَلَاثِينَ. الْمَجْمُوع سَبْعُونَ جُنَيْهًا.", "en": "The bread is ten, the croissants thirty and the kaʿk thirty. That's seventy pounds altogether.",
+          "segs": [["الْخُبْز", "the bread"], ["بِعَشَرَة", "for ten"], ["وَالْكَرْوَاسُون", "and the croissants"], ["بِثَلَاثِينَ", "for thirty"], ["وَالْكَعْك", "and the kaʿk biscuits"], ["بِثَلَاثِينَ", "for thirty"], ["الْمَجْمُوع", "the total"], ["سَبْعُونَ", "seventy"], ["جُنَيْهًا", "pound (after 11–99)"]] },
+        "choices": [
+          { "ar": "تَفَضَّلْ، هٰذِهِ مِئَةُ جُنَيْه.", "en": "Here you are, this is a hundred pounds.",
+            "segs": [["تَفَضَّلْ", "here you are (to a man)"], ["هٰذِهِ", "this (f)"], ["مِئَةُ", "a hundred (of)"], ["جُنَيْه", "pound (Egyptian money)"]],
+            "ok": true, "feedback": "Good: after مِئَة the noun is singular (مِئَةُ جُنَيْه), and تَفَضَّلْ is 'here you are' to a man.", "next": null },
+          { "ar": "تَفَضَّلْ، سَبْعُونَ جُنَيْهًا.", "en": "Here you are, seventy pounds.",
+            "segs": [["تَفَضَّلْ", "here you are (to a man)"], ["سَبْعُونَ", "seventy"], ["جُنَيْهًا", "pound (after 11–99)"]],
+            "ok": true, "feedback": "Good: the exact amount. After seventy the noun is singular with -an: جُنَيْهًا.", "next": null },
+          { "ar": "تَفَضَّلْ، سَبْعُونَ جُنَيْهَات.", "en": "Here you are, seventy pounds (wrong ending).",
+            "segs": [["تَفَضَّلْ", "here you are (to a man)"], ["سَبْعُونَ", "seventy"], ["جُنَيْهَات", "pounds"]],
+            "ok": false, "feedback": "After 11 to 99 the noun is singular with the ending -an: سَبْعُونَ جُنَيْهًا.", "next": null }
+        ]
+      },
+      {
+        "id": "r6",
+        "npc": { "id": "bakery-rp6", "sp": "baker", "ar": "الْخُبْز بِعَشَرَةِ جُنَيْهَات، مِنْ فَضْلِكِ.", "en": "The bread is ten pounds, please.",
+          "segs": [["الْخُبْز", "the bread"], ["بِعَشَرَةِ", "for ten"], ["جُنَيْهَات", "pounds"], ["مِنْ", "from"], ["فَضْلِكِ", "your kindness (to a woman): 'please'"]] },
+        "choices": [
+          { "ar": "تَفَضَّلْ، عَشَرَةُ جُنَيْهَات. شُكْرًا جَزِيلًا!", "en": "Here you are, ten pounds. Thank you very much!",
+            "segs": [["تَفَضَّلْ", "here you are (to a man)"], ["عَشَرَةُ", "ten"], ["جُنَيْهَات", "pounds"], ["شُكْرًا", "thank you"], ["جَزِيلًا", "very much (lit. abundant)"]],
+            "ok": true, "feedback": "Good: after ten the noun is plural (جُنَيْهَات); from eleven on it becomes singular with -an.", "next": null },
+          { "ar": "تَفَضَّلِي، عَشَرَةُ جُنَيْهَات. شُكْرًا جَزِيلًا!", "en": "Here you are (to a woman), ten pounds. Thank you very much!",
+            "segs": [["تَفَضَّلِي", "here you are (to a woman)"], ["عَشَرَةُ", "ten"], ["جُنَيْهَات", "pounds"], ["شُكْرًا", "thank you"], ["جَزِيلًا", "very much (lit. abundant)"]],
+            "ok": false, "feedback": "The baker says تَفَضَّلِي to you, a woman. To him, a man, say تَفَضَّلْ.", "next": null }
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "directions",
+    "status": "needs-review",
+    "start": "r1",
+    "nodes": [
+      {
+        "id": "r1",
+        "npc": { "id": "directions-rp1", "sp": "seller", "ar": "أَهْلًا يَا آنِسَة! كَيْفَ أُسَاعِدُكِ؟", "en": "Hello, miss! How can I help you?",
+          "segs": [["أَهْلًا", "hi, welcome"], ["يَا", "O (calling someone)"], ["آنِسَة", "miss (young woman)"], ["كَيْفَ", "how"], ["أُسَاعِدُكِ", "I help you (to a woman)"]] },
+        "choices": [
+          { "ar": "لَوْ سَمَحْتَ! أَيْنَ مَحَطَّةُ الْمِتْرُو، مِنْ فَضْلِكَ؟", "en": "Excuse me! Where is the metro station, please?",
+            "segs": [["لَوْ", "if"], ["سَمَحْتَ", "you allow (to a man): 'excuse me'"], ["أَيْنَ", "where"], ["مَحَطَّةُ", "station (of)"], ["الْمِتْرُو", "the metro"], ["مِنْ", "from"], ["فَضْلِكَ", "your kindness (to a man): 'please'"]],
+            "ok": true, "feedback": "Good: لَوْ سَمَحْتَ (-ta) to a man, then أَيْنَ + the place.", "next": "r2" },
+          { "ar": "لَوْ سَمَحْتِ! أَيْنَ مَحَطَّةُ الْمِتْرُو؟", "en": "Excuse me (to a woman)! Where is the metro station?",
+            "segs": [["لَوْ", "if"], ["سَمَحْتِ", "you allow (to a woman): 'excuse me'"], ["أَيْنَ", "where"], ["مَحَطَّةُ", "station (of)"], ["الْمِتْرُو", "the metro"]],
+            "ok": false, "feedback": "لَوْ سَمَحْتِ (-ti) is for a woman. The shopkeeper is a man: لَوْ سَمَحْتَ (-ta).", "next": null }
+        ]
+      },
+      {
+        "id": "r2",
+        "npc": { "id": "directions-rp2", "sp": "seller", "ar": "مَحَطَّةُ السَّادَات؟ هِيَ قَرِيبَة، فِي مَيْدَانِ التَّحْرِير.", "en": "Sadat station? It is close, in Tahrir Square.",
+          "segs": [["مَحَطَّةُ", "station (of)"], ["السَّادَات", "Sadat (a metro station, named after an Egyptian president)", "name"], ["هِيَ", "she, it (f)"], ["قَرِيبَة", "near, close (f)"], ["فِي", "in"], ["مَيْدَانِ", "square (of)"], ["التَّحْرِير", "Tahrir (lit. liberation)", "name"]] },
+        "choices": [
+          { "ar": "هَلْ هِيَ بَعِيدَة مَشْيًا؟ أَنَا لَا أَعْرِفُ هٰذِهِ الْمِنْطَقَة.", "en": "Is it far on foot? I don't know this area.",
+            "segs": [["هَلْ", "(starts a yes/no question)"], ["هِيَ", "she, it (f)"], ["بَعِيدَة", "far (f)"], ["مَشْيًا", "on foot (lit. walking)"], ["أَنَا", "I"], ["لَا", "not"], ["أَعْرِفُ", "I know"], ["هٰذِهِ", "this (f)"], ["الْمِنْطَقَة", "the area"]],
+            "ok": true, "feedback": "Good: مَحَطَّة is feminine, so 'it' is هِيَ and 'far' is بَعِيدَة.", "next": "r3" },
+          { "ar": "هَلْ هِيَ بَعِيد مَشْيًا؟", "en": "Is it far on foot? (wrong ending)",
+            "segs": [["هَلْ", "(starts a yes/no question)"], ["هِيَ", "she, it (f)"], ["بَعِيد", "far (m)"], ["مَشْيًا", "on foot (lit. walking)"]],
+            "ok": false, "feedback": "هِيَ (the station) is feminine, so the adjective takes ة: هَلْ هِيَ بَعِيدَة؟", "next": null }
+        ]
+      },
+      {
+        "id": "r3",
+        "npc": { "id": "directions-rp3", "sp": "seller", "ar": "لَا، عَشْرُ دَقَائِق فَقَطْ. اِذْهَبِي إِلَى الْأَمَام حَتَّى الْإِشَارَة.", "en": "No, only ten minutes. Go straight ahead as far as the traffic lights.",
+          "segs": [["لَا", "no"], ["عَشْرُ", "ten"], ["دَقَائِق", "minutes"], ["فَقَطْ", "only"], ["اِذْهَبِي", "go (to a woman)"], ["إِلَى", "to"], ["الْأَمَام", "the front ('straight ahead')"], ["حَتَّى", "as far as, until"], ["الْإِشَارَة", "the traffic light"]] },
+        "choices": [
+          { "ar": "حَتَّى الْإِشَارَة، ثُمَّ يَمِينًا أَمْ يَسَارًا؟", "en": "As far as the traffic lights, and then right or left?",
+            "segs": [["حَتَّى", "as far as, until"], ["الْإِشَارَة", "the traffic light"], ["ثُمَّ", "then"], ["يَمِينًا", "to the right"], ["أَمْ", "or (in a question)"], ["يَسَارًا", "to the left"]],
+            "ok": true, "feedback": "Good: you repeat the key point to check it, and 'to the right / left' take -an: يَمِينًا، يَسَارًا.", "next": "r4" },
+          { "ar": "حَتَّى الْإِشَارَة، ثُمَّ يَمِين أَمْ يَسَار؟", "en": "As far as the traffic lights, and then right or left? (wrong ending)",
+            "segs": [["حَتَّى", "as far as, until"], ["الْإِشَارَة", "the traffic light"], ["ثُمَّ", "then"], ["يَمِين", "right (side)"], ["أَمْ", "or (in a question)"], ["يَسَار", "left (side)"]],
+            "ok": false, "feedback": "يَمِين and يَسَار are the nouns 'right side, left side'. For a direction to go, add -an: يَمِينًا أَمْ يَسَارًا؟", "next": null }
+        ]
+      },
+      {
+        "id": "r4",
+        "npc": { "id": "directions-rp4", "sp": "seller", "ar": "ثُمَّ خُذِي الشَّارِعَ الثَّانِي عَلَى الْيَسَار.", "en": "Then take the second street on the left.",
+          "segs": [["ثُمَّ", "then"], ["خُذِي", "take (to a woman)"], ["الشَّارِعَ", "the street"], ["الثَّانِي", "the second (m)"], ["عَلَى", "on"], ["الْيَسَار", "the left"]] },
+        "choices": [
+          { "ar": "الشَّارِع الثَّانِي عَلَى الْيَسَار. وَبَعْدَ ذٰلِكَ؟", "en": "The second street on the left. And after that?",
+            "segs": [["الشَّارِع", "the street"], ["الثَّانِي", "the second (m)"], ["عَلَى", "on"], ["الْيَسَار", "the left"], ["وَبَعْدَ", "and after"], ["ذٰلِكَ", "that"]],
+            "ok": true, "feedback": "Good: the ordinal comes after its noun, like any adjective: الشَّارِع الثَّانِي.", "next": "r5" },
+          { "ar": "هَلْ هُنَاكَ عَلَامَة لِلْمِتْرُو؟", "en": "Is there a sign for the metro?",
+            "segs": [["هَلْ", "(starts a yes/no question)"], ["هُنَاكَ", "there is"], ["عَلَامَة", "sign, mark"], ["لِلْمِتْرُو", "for the metro"]],
+            "ok": true, "feedback": "A smart question: a sign helps you find the station. هُنَاكَ means 'there is'.", "next": "r6" },
+          { "ar": "الثَّانِي الشَّارِع عَلَى الْيَسَار. وَبَعْدَ ذٰلِكَ؟", "en": "The second street on the left. And after that? (wrong word order)",
+            "segs": [["الثَّانِي", "the second (m)"], ["الشَّارِع", "the street"], ["عَلَى", "on"], ["الْيَسَار", "the left"], ["وَبَعْدَ", "and after"], ["ذٰلِكَ", "that"]],
+            "ok": false, "feedback": "An ordinal comes after its noun, like any adjective: الشَّارِع الثَّانِي.", "next": null }
+        ]
+      },
+      {
+        "id": "r5",
+        "npc": { "id": "directions-rp5", "sp": "seller", "ar": "بَعْدَ ذٰلِكَ تَرَيْنَ الْمَيْدَان. الْمَحَطَّة أَمَامَ الْمَتْحَف الْمِصْرِيّ تَقْرِيبًا.", "en": "After that you will see the square. The station is more or less in front of the Egyptian Museum.",
+          "segs": [["بَعْدَ", "after"], ["ذٰلِكَ", "that"], ["تَرَيْنَ", "you see (to a woman)"], ["الْمَيْدَان", "the square"], ["الْمَحَطَّة", "the stop, the station"], ["أَمَامَ", "in front of"], ["الْمَتْحَف", "the museum"], ["الْمِصْرِيّ", "the Egyptian (m)"], ["تَقْرِيبًا", "about, roughly"]] },
+        "choices": [
+          { "ar": "هَلْ هُنَاكَ عَلَامَة لِلْمِتْرُو؟", "en": "Is there a sign for the metro?",
+            "segs": [["هَلْ", "(starts a yes/no question)"], ["هُنَاكَ", "there is"], ["عَلَامَة", "sign, mark"], ["لِلْمِتْرُو", "for the metro"]],
+            "ok": true, "feedback": "Good: هَلْ هُنَاكَ …؟ asks 'is there …?'.", "next": "r6" },
+          { "ar": "هَلْ هُنَاكَ عَلَامَة لِلْمِتْرُو، مِنْ فَضْلِكِ؟", "en": "Is there a sign for the metro, please (to a woman)?",
+            "segs": [["هَلْ", "(starts a yes/no question)"], ["هُنَاكَ", "there is"], ["عَلَامَة", "sign, mark"], ["لِلْمِتْرُو", "for the metro"], ["مِنْ", "from"], ["فَضْلِكِ", "your kindness (to a woman): 'please'"]],
+            "ok": false, "feedback": "He uses -ī forms (تَرَيْنَ، خُذِي) because you are a woman, but he is a man: مِنْ فَضْلِكَ (-ka).", "next": null }
+        ]
+      },
+      {
+        "id": "r6",
+        "npc": { "id": "directions-rp6", "sp": "seller", "ar": "نَعَم، هُنَاكَ عَلَامَة حَمْرَاء كَبِيرَة عَلَيْهَا حَرْف «م».", "en": "Yes, there is a big red sign with the letter M on it.",
+          "segs": [["نَعَم", "yes"], ["هُنَاكَ", "there is"], ["عَلَامَة", "sign, mark"], ["حَمْرَاء", "red (f)"], ["كَبِيرَة", "big (f)"], ["عَلَيْهَا", "on it (f)"], ["حَرْف", "letter (of the alphabet)"], ["م", "the letter mīm (m)"]] },
+        "choices": [
+          { "ar": "شُكْرًا جَزِيلًا! أَنْتَ لَطِيف جِدًّا.", "en": "Thank you very much! You are very kind.",
+            "segs": [["شُكْرًا", "thank you"], ["جَزِيلًا", "very much (lit. abundant)"], ["أَنْتَ", "you (m)"], ["لَطِيف", "kind, nice (m)"], ["جِدًّا", "very"]],
+            "ok": true, "feedback": "Good: to a man, أَنْتَ لَطِيف, with no ة.", "next": null },
+          { "ar": "شُكْرًا جَزِيلًا! أَنْتِ لَطِيفَة جِدًّا.", "en": "Thank you very much! You are very kind (to a woman).",
+            "segs": [["شُكْرًا", "thank you"], ["جَزِيلًا", "very much (lit. abundant)"], ["أَنْتِ", "you (f)"], ["لَطِيفَة", "kind, nice (f)"], ["جِدًّا", "very"]],
+            "ok": false, "feedback": "أَنْتِ لَطِيفَة is said to a woman. The shopkeeper is a man: أَنْتَ لَطِيف.", "next": null }
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "clothes-shop",
+    "status": "needs-review",
+    "start": "r1",
+    "nodes": [
+      {
+        "id": "r1",
+        "npc": { "id": "clothes-shop-rp1", "sp": "seller", "ar": "مَسَاءُ الْخَيْر! تَفَضَّلِي. هَلْ تَبْحَثِينَ عَنْ شَيْء خَاصّ؟", "en": "Good evening! Come in. Are you looking for something special?",
+          "segs": [["مَسَاءُ", "evening (of)"], ["الْخَيْر", "the goodness"], ["تَفَضَّلِي", "please come in (to a woman)"], ["هَلْ", "(starts a yes/no question)"], ["تَبْحَثِينَ", "you are looking (to a woman)"], ["عَنْ", "for, about"], ["شَيْء", "thing, something"], ["خَاصّ", "special"]] },
+        "choices": [
+          { "ar": "مَسَاءُ النُّور. أُرِيدُ فُسْتَانًا لِحَفْلَةِ عِيدِ مِيلَاد.", "en": "Good evening. I would like a dress for a birthday party.",
+            "segs": [["مَسَاءُ", "evening (of)"], ["النُّور", "the light"], ["أُرِيدُ", "I want"], ["فُسْتَانًا", "a dress"], ["لِحَفْلَةِ", "for a party (of)"], ["عِيدِ", "feast, day (of)"], ["مِيلَاد", "birth ('birthday')"]],
+            "ok": true, "feedback": "Good: فُسْتَانًا takes -an as the object of أُرِيدُ.", "next": "r2" },
+          { "ar": "مَسَاءُ النُّور. أُرِيدُ فُسْتَان لِحَفْلَةِ عِيدِ مِيلَاد.", "en": "Good evening. I would like a dress for a birthday party (wrong ending).",
+            "segs": [["مَسَاءُ", "evening (of)"], ["النُّور", "the light"], ["أُرِيدُ", "I want"], ["فُسْتَان", "dress"], ["لِحَفْلَةِ", "for a party (of)"], ["عِيدِ", "feast, day (of)"], ["مِيلَاد", "birth ('birthday')"]],
+            "ok": false, "feedback": "The object of أُرِيدُ takes -an: أُرِيدُ فُسْتَانًا.", "next": null }
+        ]
+      },
+      {
+        "id": "r2",
+        "npc": { "id": "clothes-shop-rp2", "sp": "seller", "ar": "عِنْدَنَا فَسَاتِين جَدِيدَة كَثِيرَة. هٰذِهِ الْفَسَاتِين الْخَضْرَاء جَمِيلَة جِدًّا.", "en": "We have lots of new dresses. These green dresses are very pretty.",
+          "segs": [["عِنْدَنَا", "we have"], ["فَسَاتِين", "dresses"], ["جَدِيدَة", "new (f)"], ["كَثِيرَة", "many (f)"], ["هٰذِهِ", "this, these (f)"], ["الْفَسَاتِين", "the dresses"], ["الْخَضْرَاء", "the green (f)"], ["جَمِيلَة", "beautiful, pretty (f)"], ["جِدًّا", "very"]] },
+        "choices": [
+          { "ar": "نَعَم، هِيَ جَمِيلَة. هَلْ عِنْدَكَ هٰذَا الْفُسْتَان بِمَقَاس صَغِير؟", "en": "Yes, they are pretty. Do you have this dress in a small size?",
+            "segs": [["نَعَم", "yes"], ["هِيَ", "she, they (things)"], ["جَمِيلَة", "beautiful, pretty (f)"], ["هَلْ", "(starts a yes/no question)"], ["عِنْدَكَ", "you have (to a man)"], ["هٰذَا", "this (m)"], ["الْفُسْتَان", "the dress"], ["بِمَقَاس", "in a size"], ["صَغِير", "small (m)"]],
+            "ok": true, "feedback": "Good: plurals of things take هِيَ and a feminine singular adjective, but one dress is masculine: هٰذَا الْفُسْتَان.", "next": "r3" },
+          { "ar": "نَعَم، هِيَ جَمِيلَة. هَلْ عِنْدَكَ هٰذَا الْفُسْتَان بِمَقَاس مُتَوَسِّط؟", "en": "Yes, they are pretty. Do you have this dress in a medium size?",
+            "segs": [["نَعَم", "yes"], ["هِيَ", "she, they (things)"], ["جَمِيلَة", "beautiful, pretty (f)"], ["هَلْ", "(starts a yes/no question)"], ["عِنْدَكَ", "you have (to a man)"], ["هٰذَا", "this (m)"], ["الْفُسْتَان", "the dress"], ["بِمَقَاس", "in a size"], ["مُتَوَسِّط", "medium (m)"]],
+            "ok": true, "feedback": "Good: مَقَاس is masculine, so 'medium' has no ة: بِمَقَاس مُتَوَسِّط.", "next": "r4" },
+          { "ar": "نَعَم، هٰذِهِ الْفَسَاتِين جَمِيلُونَ.", "en": "Yes, these dresses are pretty (wrong ending).",
+            "segs": [["نَعَم", "yes"], ["هٰذِهِ", "this, these (f)"], ["الْفَسَاتِين", "the dresses"], ["جَمِيلُونَ", "beautiful (m, plural: for people)"]],
+            "ok": false, "feedback": "-ūna is for groups of people. Plurals of things take a feminine singular adjective: هٰذِهِ الْفَسَاتِين جَمِيلَة.", "next": null }
+        ]
+      },
+      {
+        "id": "r3",
+        "npc": { "id": "clothes-shop-rp3", "sp": "seller", "ar": "طَبْعًا، تَفَضَّلِي. غُرْفَةُ الْقِيَاس هُنَاكَ، عَلَى الْيَمِين.", "en": "Of course, here you are. The fitting room is over there, on the right.",
+          "segs": [["طَبْعًا", "of course"], ["تَفَضَّلِي", "here you are (to a woman)"], ["غُرْفَةُ", "room (of)"], ["الْقِيَاس", "the measuring ('fitting room')"], ["هُنَاكَ", "there"], ["عَلَى", "on"], ["الْيَمِين", "the right"]] },
+        "choices": [
+          { "ar": "لِلْأَسَف، الْفُسْتَان ضَيِّق قَلِيلًا. هَلْ هُنَاكَ مَقَاس أَكْبَر؟", "en": "Unfortunately, the dress is a little tight. Is there a bigger size?",
+            "segs": [["لِلْأَسَف", "unfortunately"], ["الْفُسْتَان", "the dress"], ["ضَيِّق", "tight, narrow"], ["قَلِيلًا", "a little"], ["هَلْ", "(starts a yes/no question)"], ["هُنَاكَ", "there is"], ["مَقَاس", "size"], ["أَكْبَر", "bigger"]],
+            "ok": true, "feedback": "Good: فُسْتَان is masculine, even though women wear it, so ضَيِّق has no ة.", "next": "r4" },
+          { "ar": "لِلْأَسَف، الْفُسْتَان ضَيِّقَة قَلِيلًا. هَلْ هُنَاكَ مَقَاس أَكْبَر؟", "en": "Unfortunately, the dress is a little tight. Is there a bigger size? (wrong ending)",
+            "segs": [["لِلْأَسَف", "unfortunately"], ["الْفُسْتَان", "the dress"], ["ضَيِّقَة", "tight, narrow (f)"], ["قَلِيلًا", "a little"], ["هَلْ", "(starts a yes/no question)"], ["هُنَاكَ", "there is"], ["مَقَاس", "size"], ["أَكْبَر", "bigger"]],
+            "ok": false, "feedback": "فُسْتَان (dress) is masculine, even though women wear it: الْفُسْتَان ضَيِّق.", "next": null }
+        ]
+      },
+      {
+        "id": "r4",
+        "npc": { "id": "clothes-shop-rp4", "sp": "seller", "ar": "نَعَم، هٰذَا الْمَقَاس الْمُتَوَسِّط. هُوَ مُنَاسِب لَكِ، إِنْ شَاءَ اللّٰه.", "en": "Yes, this is the medium size. It should be right for you, God willing.",
+          "segs": [["نَعَم", "yes"], ["هٰذَا", "this (m)"], ["الْمَقَاس", "the size"], ["الْمُتَوَسِّط", "the medium (m)"], ["هُوَ", "he, it (m)"], ["مُنَاسِب", "suitable, right (m)"], ["لَكِ", "for you (f)"], ["إِنْ", "if"], ["شَاءَ", "(has) willed"], ["اللّٰه", "God"]] },
+        "choices": [
+          { "ar": "مُمْتَاز! هٰذَا الْمَقَاس جَيِّد: لَا ضَيِّق وَلَا وَاسِع. بِكَمْ هُوَ؟", "en": "Excellent! This size is good: neither tight nor loose. How much is it?",
+            "segs": [["مُمْتَاز", "excellent"], ["هٰذَا", "this (m)"], ["الْمَقَاس", "the size"], ["جَيِّد", "good"], ["لَا", "neither, not"], ["ضَيِّق", "tight, narrow"], ["وَلَا", "nor, and not"], ["وَاسِع", "loose, wide"], ["بِكَمْ", "for how much"], ["هُوَ", "he, it (m)"]],
+            "ok": true, "feedback": "Good: لَا … وَلَا … is 'neither … nor …', and بِكَمْ هُوَ؟ asks the price of it.", "next": "r5" },
+          { "ar": "مُمْتَاز! هٰذَا الْمَقَاس جَيِّد. بِكَمْ هِيَ؟", "en": "Excellent! This size is good. How much is it? (wrong pronoun)",
+            "segs": [["مُمْتَاز", "excellent"], ["هٰذَا", "this (m)"], ["الْمَقَاس", "the size"], ["جَيِّد", "good"], ["بِكَمْ", "for how much"], ["هِيَ", "she, it (f)"]],
+            "ok": false, "feedback": "You ask about one dress (فُسْتَان, masculine), so 'it' is هُوَ: بِكَمْ هُوَ؟", "next": null }
+        ]
+      },
+      {
+        "id": "r5",
+        "npc": { "id": "clothes-shop-rp5", "sp": "seller", "ar": "بِسَبْعِمِئَة جُنَيْه. وَعِنْدَنَا أَيْضًا أَحْذِيَة مُنَاسِبَة لِلْفُسْتَان.", "en": "Seven hundred pounds. And we also have shoes that go with the dress.",
+          "segs": [["بِسَبْعِمِئَة", "for seven hundred"], ["جُنَيْه", "pound (money)"], ["وَعِنْدَنَا", "and we have"], ["أَيْضًا", "also, too"], ["أَحْذِيَة", "shoes"], ["مُنَاسِبَة", "suitable (f)"], ["لِلْفُسْتَان", "for the dress"]] },
+        "choices": [
+          { "ar": "لَا، شُكْرًا. عِنْدِي أَحْذِيَة كَثِيرَة فِي الْبَيْت!", "en": "No, thank you. I have lots of shoes at home!",
+            "segs": [["لَا", "no"], ["شُكْرًا", "thank you"], ["عِنْدِي", "I have"], ["أَحْذِيَة", "shoes"], ["كَثِيرَة", "many (f)"], ["فِي", "in, at"], ["الْبَيْت", "the house, home"]],
+            "ok": true, "feedback": "Polite and clear. أَحْذِيَة is a plural of things, so 'many' is feminine singular: كَثِيرَة.", "next": "r6" },
+          { "ar": "لَا، شُكْرًا. عِنْدِي أَحْذِيَة كَثِيرُونَ فِي الْبَيْت!", "en": "No, thank you. I have lots of shoes at home! (wrong ending)",
+            "segs": [["لَا", "no"], ["شُكْرًا", "thank you"], ["عِنْدِي", "I have"], ["أَحْذِيَة", "shoes"], ["كَثِيرُونَ", "many (m, plural: for people)"], ["فِي", "in, at"], ["الْبَيْت", "the house, home"]],
+            "ok": false, "feedback": "Shoes are things, not people, so the adjective is feminine singular: أَحْذِيَة كَثِيرَة.", "next": null }
+        ]
+      },
+      {
+        "id": "r6",
+        "npc": { "id": "clothes-shop-rp6", "sp": "seller", "ar": "كَمَا تُحِبِّينَ. تَفَضَّلِي، الْفُسْتَان فِي الْحَقِيبَة. مَبْرُوك!", "en": "As you like. Here you are, the dress is in the bag. Congratulations!",
+          "segs": [["كَمَا", "as"], ["تُحِبِّينَ", "you like (to a woman)"], ["تَفَضَّلِي", "here you are (to a woman)"], ["الْفُسْتَان", "the dress"], ["فِي", "in"], ["الْحَقِيبَة", "the bag"], ["مَبْرُوك", "congratulations"]] },
+        "choices": [
+          { "ar": "اللّٰه يُبَارِكُ فِيكَ! شُكْرًا جَزِيلًا.", "en": "God bless you! Thank you very much.",
+            "segs": [["اللّٰه", "God"], ["يُبَارِكُ", "blesses"], ["فِيكَ", "in you (to a man)"], ["شُكْرًا", "thank you"], ["جَزِيلًا", "very much (lit. abundant)"]],
+            "ok": true, "feedback": "Good: اللّٰه يُبَارِكُ فِيكَ is the usual answer to مَبْرُوك, with -ka to a man.", "next": null },
+          { "ar": "شُكْرًا جَزِيلًا! مَعَ السَّلَامَة.", "en": "Thank you very much! Goodbye.",
+            "segs": [["شُكْرًا", "thank you"], ["جَزِيلًا", "very much (lit. abundant)"], ["مَعَ", "with"], ["السَّلَامَة", "the safety"]],
+            "ok": true, "feedback": "Fine too: a warm thank-you and goodbye.", "next": null },
+          { "ar": "اللّٰه يُبَارِكُ فِيكِ! شُكْرًا جَزِيلًا.", "en": "God bless you (to a woman)! Thank you very much.",
+            "segs": [["اللّٰه", "God"], ["يُبَارِكُ", "blesses"], ["فِيكِ", "in you (to a woman)"], ["شُكْرًا", "thank you"], ["جَزِيلًا", "very much (lit. abundant)"]],
+            "ok": false, "feedback": "فِيكِ (-ki) is for a woman. The shop assistant is a man: اللّٰه يُبَارِكُ فِيكَ.", "next": null }
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "renting-flat",
+    "status": "needs-review",
+    "start": "r1",
+    "nodes": [
+      {
+        "id": "r1",
+        "npc": { "id": "renting-flat-rp1", "sp": "owner", "ar": "أَهْلًا وَسَهْلًا! أَنْتَ فَيْصَل؟ تَفَضَّلْ، هٰذِهِ هِيَ الشَّقَّة.", "en": "Welcome! Are you Faisal? Please come in, this is the flat.",
+          "segs": [["أَهْلًا", "welcome"], ["وَسَهْلًا", "and ease (part of 'welcome')"], ["أَنْتَ", "you (to a man)"], ["فَيْصَل", "Faisal (first name)", "name"], ["تَفَضَّلْ", "please come in (to a man)"], ["هٰذِهِ", "this (f)"], ["هِيَ", "she, it (f)"], ["الشَّقَّة", "the flat"]] },
+        "choices": [
+          { "ar": "شُكْرًا يَا أُسْتَاذ مَحْمُود. هَلِ الشَّقَّة مَفْرُوشَة؟", "en": "Thank you, Mr Mahmoud. Is the flat furnished?",
+            "segs": [["شُكْرًا", "thank you"], ["يَا", "O (calling someone)"], ["أُسْتَاذ", "Mr, teacher"], ["مَحْمُود", "Mahmoud (first name)", "name"], ["هَلِ", "(starts a yes/no question)"], ["الشَّقَّة", "the flat"], ["مَفْرُوشَة", "furnished (f)"]],
+            "ok": true, "feedback": "Good: شَقَّة is feminine, so 'furnished' takes ة: مَفْرُوشَة.", "next": "r2" },
+          { "ar": "شُكْرًا يَا أُسْتَاذ مَحْمُود. هَلِ الشَّقَّة مَفْرُوش؟", "en": "Thank you, Mr Mahmoud. Is the flat furnished? (wrong ending)",
+            "segs": [["شُكْرًا", "thank you"], ["يَا", "O (calling someone)"], ["أُسْتَاذ", "Mr, teacher"], ["مَحْمُود", "Mahmoud (first name)", "name"], ["هَلِ", "(starts a yes/no question)"], ["الشَّقَّة", "the flat"], ["مَفْرُوش", "furnished (m)"]],
+            "ok": false, "feedback": "شَقَّة is feminine, so the adjective takes ة: هَلِ الشَّقَّة مَفْرُوشَة؟", "next": null }
+        ]
+      },
+      {
+        "id": "r2",
+        "npc": { "id": "renting-flat-rp2", "sp": "owner", "ar": "نَعَم، فِيهَا سَرِير وَمَكْتَب وَخِزَانَة، وَفِي غُرْفَةِ الْجُلُوس كَنَبَة.", "en": "Yes, there is a bed, a desk and a wardrobe, and there is a sofa in the living room.",
+          "segs": [["نَعَم", "yes"], ["فِيهَا", "in it (f)"], ["سَرِير", "bed"], ["وَمَكْتَب", "and a desk"], ["وَخِزَانَة", "and a wardrobe"], ["وَفِي", "and in"], ["غُرْفَةِ", "room (of)"], ["الْجُلُوس", "the sitting"], ["كَنَبَة", "sofa"]] },
+        "choices": [
+          { "ar": "وَالْمَطْبَخ؟ هَلْ فِيهِ ثَلَّاجَة؟", "en": "And the kitchen? Is there a fridge in it?",
+            "segs": [["وَالْمَطْبَخ", "and the kitchen"], ["هَلْ", "(starts a yes/no question)"], ["فِيهِ", "in it (m)"], ["ثَلَّاجَة", "fridge"]],
+            "ok": true, "feedback": "Good: مَطْبَخ is masculine, so 'in it' is فِيهِ, and 'a fridge' has no الـ.", "next": "r3" },
+          { "ar": "وَالْحَمَّام؟ هَلْ فِيهِ مَاء سَاخِن؟", "en": "And the bathroom? Is there hot water?",
+            "segs": [["وَالْحَمَّام", "and the bathroom"], ["هَلْ", "(starts a yes/no question)"], ["فِيهِ", "in it (m)"], ["مَاء", "water"], ["سَاخِن", "hot"]],
+            "ok": true, "feedback": "Good: مَاء is masculine, so سَاخِن has no ة.", "next": "r4" },
+          { "ar": "وَالْمَطْبَخ؟ هَلْ فِيهِ الثَّلَّاجَة؟", "en": "And the kitchen? Is the fridge in it? (wrong 'the')",
+            "segs": [["وَالْمَطْبَخ", "and the kitchen"], ["هَلْ", "(starts a yes/no question)"], ["فِيهِ", "in it (m)"], ["الثَّلَّاجَة", "the fridge"]],
+            "ok": false, "feedback": "To ask 'is there a …?', the thing has no الـ: هَلْ فِيهِ ثَلَّاجَة؟", "next": null }
+        ]
+      },
+      {
+        "id": "r3",
+        "npc": { "id": "renting-flat-rp3", "sp": "owner", "ar": "الْمَطْبَخ صَغِير، وَلَيْسَ فِيهِ ثَلَّاجَة، لٰكِنْ فِيهِ فُرْن جَدِيد.", "en": "The kitchen is small, and there is no fridge, but there is a new oven.",
+          "segs": [["الْمَطْبَخ", "the kitchen"], ["صَغِير", "small"], ["وَلَيْسَ", "and is not"], ["فِيهِ", "in it (m)"], ["ثَلَّاجَة", "fridge"], ["لٰكِنْ", "but"], ["فِيهِ", "in it (m)"], ["فُرْن", "oven"], ["جَدِيد", "new"]] },
+        "choices": [
+          { "ar": "لَا مُشْكِلَة. وَالْحَمَّام؟ هَلْ فِيهِ مَاء سَاخِن؟", "en": "No problem. And the bathroom? Is there hot water?",
+            "segs": [["لَا", "no"], ["مُشْكِلَة", "problem"], ["وَالْحَمَّام", "and the bathroom"], ["هَلْ", "(starts a yes/no question)"], ["فِيهِ", "in it (m)"], ["مَاء", "water"], ["سَاخِن", "hot"]],
+            "ok": true, "feedback": "Good: لَا مُشْكِلَة keeps it friendly, and مَاء is masculine, so سَاخِن has no ة.", "next": "r4" },
+          { "ar": "لَا مُشْكِلَة. وَالْحَمَّام؟ هَلْ فِيهِ مَاء سَاخِنَة؟", "en": "No problem. And the bathroom? Is there hot water? (wrong ending)",
+            "segs": [["لَا", "no"], ["مُشْكِلَة", "problem"], ["وَالْحَمَّام", "and the bathroom"], ["هَلْ", "(starts a yes/no question)"], ["فِيهِ", "in it (m)"], ["مَاء", "water"], ["سَاخِنَة", "hot (f)"]],
+            "ok": false, "feedback": "مَاء is masculine, so the adjective has no ة: مَاء سَاخِن.", "next": null }
+        ]
+      },
+      {
+        "id": "r4",
+        "npc": { "id": "renting-flat-rp4", "sp": "owner", "ar": "طَبْعًا! وَهٰذِهِ الشُّرْفَة. اُنْظُرْ، مِنْ هُنَا تَرَى النِّيل.", "en": "Of course! And this is the balcony. Look, from here you can see the Nile.",
+          "segs": [["طَبْعًا", "of course"], ["وَهٰذِهِ", "and this (f)"], ["الشُّرْفَة", "the balcony"], ["اُنْظُرْ", "look (to a man)"], ["مِنْ", "from"], ["هُنَا", "here"], ["تَرَى", "you see (to a man)"], ["النِّيل", "the Nile (river)", "name"]] },
+        "choices": [
+          { "ar": "جَمِيل جِدًّا! كَمِ الْإِيجَار فِي الشَّهْر، مِنْ فَضْلِكَ؟", "en": "Very beautiful! How much is the rent per month, please?",
+            "segs": [["جَمِيل", "beautiful"], ["جِدًّا", "very"], ["كَمِ", "how much, how many"], ["الْإِيجَار", "the rent"], ["فِي", "in"], ["الشَّهْر", "the month"], ["مِنْ", "from"], ["فَضْلِكَ", "your kindness (to a man): 'please'"]],
+            "ok": true, "feedback": "Good: كَمِ الْإِيجَار, with الـ, and the m of كَمْ takes an i to link to it.", "next": "r5" },
+          { "ar": "جَمِيل جِدًّا! كَمْ إِيجَار فِي الشَّهْر؟", "en": "Very beautiful! How much rent per month? (missing 'the')",
+            "segs": [["جَمِيل", "beautiful"], ["جِدًّا", "very"], ["كَمْ", "how much, how many"], ["إِيجَار", "rent"], ["فِي", "in"], ["الشَّهْر", "the month"]],
+            "ok": false, "feedback": "You ask about 'the rent' of this flat, so use الـ: كَمِ الْإِيجَار؟", "next": null }
+        ]
+      },
+      {
+        "id": "r5",
+        "npc": { "id": "renting-flat-rp5", "sp": "owner", "ar": "سَبْعَةُ آلَافِ جُنَيْه فِي الشَّهْر، وَالتَّأْمِين شَهْر وَاحِد.", "en": "Seven thousand pounds a month, and the deposit is one month's rent.",
+          "segs": [["سَبْعَةُ", "seven"], ["آلَافِ", "thousands (of)"], ["جُنَيْه", "pound (Egyptian money)"], ["فِي", "in"], ["الشَّهْر", "the month"], ["وَالتَّأْمِين", "and the deposit"], ["شَهْر", "month"], ["وَاحِد", "one"]] },
+        "choices": [
+          { "ar": "هٰذَا مُنَاسِب. هَلِ الْكَهْرَبَاء وَالْمَاء مَعَ الْإِيجَار؟", "en": "That's fine. Are electricity and water included in the rent?",
+            "segs": [["هٰذَا", "this, that (m)"], ["مُنَاسِب", "suitable, fine"], ["هَلِ", "(starts a yes/no question)"], ["الْكَهْرَبَاء", "the electricity"], ["وَالْمَاء", "and the water"], ["مَعَ", "with"], ["الْإِيجَار", "the rent"]],
+            "ok": true, "feedback": "Good: هٰذَا is masculine, so مُنَاسِب has no ة. Asking about the bills before you agree is wise.", "next": "r6" },
+          { "ar": "هٰذَا مُنَاسِبَة. هَلِ الْكَهْرَبَاء وَالْمَاء مَعَ الْإِيجَار؟", "en": "That's fine. Are electricity and water included in the rent? (wrong ending)",
+            "segs": [["هٰذَا", "this, that (m)"], ["مُنَاسِبَة", "suitable (f)"], ["هَلِ", "(starts a yes/no question)"], ["الْكَهْرَبَاء", "the electricity"], ["وَالْمَاء", "and the water"], ["مَعَ", "with"], ["الْإِيجَار", "the rent"]],
+            "ok": false, "feedback": "هٰذَا is masculine, so the adjective has no ة: هٰذَا مُنَاسِب.", "next": null }
+        ]
+      },
+      {
+        "id": "r6",
+        "npc": { "id": "renting-flat-rp6", "sp": "owner", "ar": "لَا، الْكَهْرَبَاء عَلَيْكَ، وَالْمَاء عَلَيَّ.", "en": "No, you pay for the electricity, and I pay for the water.",
+          "segs": [["لَا", "no"], ["الْكَهْرَبَاء", "the electricity"], ["عَلَيْكَ", "on you: your cost (to a man)"], ["وَالْمَاء", "and the water"], ["عَلَيَّ", "on me: my cost"]] },
+        "choices": [
+          { "ar": "اِتَّفَقْنَا! شُكْرًا جَزِيلًا يَا أُسْتَاذ مَحْمُود.", "en": "It's a deal! Thank you very much, Mr Mahmoud.",
+            "segs": [["اِتَّفَقْنَا", "we agreed: it's a deal"], ["شُكْرًا", "thank you"], ["جَزِيلًا", "very much (lit. abundant)"], ["يَا", "O (calling someone)"], ["أُسْتَاذ", "Mr, teacher"], ["مَحْمُود", "Mahmoud (first name)", "name"]],
+            "ok": true, "feedback": "Good: اِتَّفَقْنَا (lit. 'we have agreed') closes a deal.", "next": null },
+          { "ar": "طَيِّب، الْكَهْرَبَاء عَلَيْكَ. اِتَّفَقْنَا!", "en": "OK, you pay for the electricity. It's a deal! (wrong pronoun)",
+            "segs": [["طَيِّب", "OK, fine"], ["الْكَهْرَبَاء", "the electricity"], ["عَلَيْكَ", "on you: your cost (to a man)"], ["اِتَّفَقْنَا", "we agreed: it's a deal"]],
+            "ok": false, "feedback": "You copied his words, but from your side the pronoun swaps: he said الْكَهْرَبَاء عَلَيْكَ (on you), so you say الْكَهْرَبَاء عَلَيَّ (on me, my cost).", "next": null }
+        ]
+      }
+    ]
+  }
+]

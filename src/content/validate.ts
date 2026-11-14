@@ -2,10 +2,23 @@
 
 import { FATHA, DAMMA, KASRA, FATHATAN, DAMMATAN, KASRATAN, SUKUN, SHADDA, DAGGER_ALIF } from '../core/arabic';
 import { arabicWords } from '../lang/ar/tap';
-import { contentIssues, culture, days, grammarById, placards, scenarios, scenes, course, vocabById, wordPhotos } from './index';
+import {
+  contentIssues,
+  culture,
+  days,
+  grammarById,
+  placards,
+  roleplayByScenario,
+  roleplays,
+  scenarios,
+  scenes,
+  course,
+  vocabById,
+  wordPhotos,
+} from './index';
 import { CULTURE_PHOTO_FILES, WORD_PHOTO_FILES } from './culture.generated';
 import { findGlossGaps } from './gloss-gaps';
-import type { Seg } from './schema';
+import type { Roleplay, Seg } from './schema';
 
 export interface ValidationError {
   where: string;
@@ -26,6 +39,53 @@ export function checkSegs(where: string, ar: string, segs: Seg[], errs: Validati
   if (words.join(' ') !== tokens.join(' '))
     errs.push({ where, message: `segments do not join to the text: [${tokens.join(' | ')}] vs [${words.join(' | ')}]` });
   for (const w of words) if (isUnvocalised(w)) errs.push({ where, message: `unvocalised word "${w}"` });
+}
+
+/**
+ * A role-play graph: every node reachable from the start through right replies, no loop, a way to finish, at least one
+ * real branch (two right replies leading to different nodes), a wrong reply in every node, and the other person (never
+ * the learner) speaking a scenario speaker's line.
+ */
+export function checkRoleplay(rp: Roleplay, speakers: string[], errs: ValidationError[]) {
+  const w = `roleplay ${rp.scenario}`;
+  const byId = new Map(rp.nodes.map((n) => [n.id, n]));
+  if (byId.size !== rp.nodes.length) errs.push({ where: w, message: 'two nodes share an id' });
+  if (!byId.has(rp.start)) errs.push({ where: w, message: `start "${rp.start}" is not a node` });
+  let branches = false;
+  let ends = false;
+  for (const n of rp.nodes) {
+    const at = `${w} ${n.id}`;
+    checkSegs(`${at} npc`, n.npc.ar, n.npc.segs, errs);
+    if (!speakers.includes(n.npc.sp)) errs.push({ where: at, message: `speaker "${n.npc.sp}" is not a speaker of the scenario` });
+    if (n.npc.sp === 'daniel') errs.push({ where: at, message: 'the other person speaks here, not the learner' });
+    const oks = n.choices.filter((c) => c.ok);
+    if (!oks.length) errs.push({ where: at, message: 'no right reply' });
+    if (oks.length === n.choices.length) errs.push({ where: at, message: 'no wrong reply to learn from' });
+    if (new Set(oks.map((c) => c.next)).size > 1) branches = true;
+    if (new Set(n.choices.map((c) => c.ar)).size !== n.choices.length) errs.push({ where: at, message: 'two replies are the same' });
+    n.choices.forEach((c, i) => {
+      checkSegs(`${at} choice ${i}`, c.ar, c.segs, errs);
+      if (!c.ok && c.next !== null) errs.push({ where: `${at} choice ${i}`, message: 'a wrong reply does not move on (next: null)' });
+      if (c.ok && c.next === null) ends = true;
+      if (c.ok && c.next !== null && !byId.has(c.next)) errs.push({ where: `${at} choice ${i}`, message: `next "${c.next}" is not a node` });
+    });
+  }
+  if (!branches) errs.push({ where: w, message: 'no branch: one node needs two right replies that lead to different nodes' });
+  if (!ends) errs.push({ where: w, message: 'no right reply ends the role-play (next: null)' });
+  // reachable through right replies, and no loop (a conversation always moves forward)
+  const state = new Map<string, 1 | 2>();
+  const visit = (id: string, path: string[]): void => {
+    if (state.get(id) === 1) {
+      errs.push({ where: w, message: `loop: ${[...path, id].join(' → ')}` });
+      return;
+    }
+    if (state.get(id) === 2 || !byId.has(id)) return;
+    state.set(id, 1);
+    for (const c of byId.get(id)!.choices) if (c.ok && c.next) visit(c.next, [...path, id]);
+    state.set(id, 2);
+  };
+  visit(rp.start, []);
+  for (const n of rp.nodes) if (!state.has(n.id)) errs.push({ where: `${w} ${n.id}`, message: 'not reachable from the start' });
 }
 
 /** Dialogue density targets (English words per line), from the blueprint, section I. */
@@ -69,6 +129,21 @@ export function validateAll(): ValidationError[] {
   for (const sc of scenarios)
     for (const l of sc.dialogue.lines) checkSegs(`scenario ${sc.id} ${l.id}`, l.ar, l.segs, errs);
   const scenarioIds = new Set(scenarios.map((sc) => sc.id));
+  for (const sc of scenarios) {
+    const rp = roleplayByScenario.get(sc.id);
+    if (!rp) errs.push({ where: `scenario ${sc.id}`, message: 'no role-play (content/course/roleplays.json)' });
+    else
+      checkRoleplay(
+        rp,
+        sc.dialogue.speakers.map((s) => s.key),
+        errs,
+      );
+  }
+  for (const rp of roleplays) {
+    if (!scenarioIds.has(rp.scenario)) errs.push({ where: `roleplay ${rp.scenario}`, message: 'no scenario with this id' });
+    if (roleplays.filter((x) => x.scenario === rp.scenario).length > 1)
+      errs.push({ where: `roleplay ${rp.scenario}`, message: 'more than one role-play for this scenario' });
+  }
   for (const s of scenes) {
     const w = `scene ${s.scenario}`;
     if (!scenarioIds.has(s.scenario)) errs.push({ where: w, message: 'no scenario with this id' });

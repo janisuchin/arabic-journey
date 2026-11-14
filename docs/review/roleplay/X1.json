@@ -1,0 +1,78 @@
+{
+  "reviewer": "X1",
+  "findings": [
+    {
+      "scenario": "weather-plans", "node": "r4", "where": "choice 1", "field": "ar", "severity": "error",
+      "problem": "Wrong key on one path. r2 choice 1 (asking about Saturday) leads straight to r4, so on that path Sami never says that Friday will be windy and rainy. A learner on that path who answers 'so we'll go on Friday' has made no mistake, yet the feedback says 'Friday will be windy and rainy'. Replace it with a mistake that is wrong on both paths: a past verb for a future plan (a real, typical tense slip; every word is a real word).",
+      "old": "مُمْتَاز! إِذًا سَنَذْهَبُ يَوْمَ الْجُمُعَة.",
+      "new": "مُمْتَاز! إِذًا ذَهَبْنَا يَوْمَ السَّبْت."
+    },
+    {
+      "scenario": "weather-plans", "node": "r4", "where": "choice 1", "field": "en", "severity": "error",
+      "problem": "Matches the new wrong reply (see the ar finding for this choice).",
+      "old": "Excellent! So we'll go on Friday.",
+      "new": "Excellent! So we went on Saturday. (wrong tense)"
+    },
+    {
+      "scenario": "weather-plans", "node": "r4", "where": "choice 1", "field": "segs", "severity": "error",
+      "problem": "Matches the new wrong reply (see the ar finding for this choice).",
+      "old": "[[\"مُمْتَاز\", \"excellent\"], [\"إِذًا\", \"then, so\"], [\"سَنَذْهَبُ\", \"we will go\"], [\"يَوْمَ\", \"on the day of\"], [\"الْجُمُعَة\", \"Friday\"]]",
+      "new": "[[\"مُمْتَاز\", \"excellent\"], [\"إِذًا\", \"then, so\"], [\"ذَهَبْنَا\", \"we went\"], [\"يَوْمَ\", \"on the day of\"], [\"السَّبْت\", \"Saturday\"]]"
+    },
+    {
+      "scenario": "weather-plans", "node": "r4", "where": "choice 1", "field": "feedback", "severity": "error",
+      "problem": "Matches the new wrong reply; the old feedback relies on Friday's forecast, which the learner may not have heard.",
+      "old": "Friday will be windy and rainy. Saturday is the sunny day: سَنَذْهَبُ يَوْمَ السَّبْت.",
+      "new": "ذَهَبْنَا is the past ('we went'), but the trip is still to come. For the future use sa- + the present: إِذًا سَنَذْهَبُ يَوْمَ السَّبْت."
+    },
+    {
+      "scenario": "holiday-story", "node": "r3", "where": "choice 2", "field": "ar", "severity": "improve",
+      "problem": "Writers were unsure. As an answer to 'was the weather hot?' the slip is real, but the reply has no stated subject, and كَانَتْ حَارَّةً can be read as correct Arabic with a feminine subject left out: the city (الْأُقْصُر, like all city names, is feminine): 'it [Luxor] was hot in the daytime'. A learner who meant that would be told that correct Arabic is wrong. Stating الْجَوّ removes the doubt and keeps the same lesson (a masculine noun takes an adjective without ة).",
+      "old": "كَانَتْ حَارَّةً فِي النَّهَار.",
+      "new": "كَانَ الْجَوُّ حَارَّةً فِي النَّهَار."
+    },
+    {
+      "scenario": "holiday-story", "node": "r3", "where": "choice 2", "field": "en", "severity": "improve",
+      "problem": "Matches the new wrong reply.",
+      "old": "It was hot in the daytime. (wrong ending)",
+      "new": "The weather was hot in the daytime. (wrong ending)"
+    },
+    {
+      "scenario": "holiday-story", "node": "r3", "where": "choice 2", "field": "segs", "severity": "improve",
+      "problem": "Matches the new wrong reply.",
+      "old": "[[\"كَانَتْ\", \"(she, it) was\"], [\"حَارَّةً\", \"hot (f, after 'was')\"], [\"فِي\", \"in\"], [\"النَّهَار\", \"the daytime\"]]",
+      "new": "[[\"كَانَ\", \"(it, m) was\"], [\"الْجَوُّ\", \"the weather\"], [\"حَارَّةً\", \"hot (f, after 'was')\"], [\"فِي\", \"in\"], [\"النَّهَار\", \"the daytime\"]]"
+    },
+    {
+      "scenario": "holiday-story", "node": "r3", "where": "choice 2", "field": "feedback", "severity": "improve",
+      "problem": "Matches the new wrong reply.",
+      "old": "'It' is الْجَوّ (the weather), which is masculine: كَانَ حَارًّا فِي النَّهَار.",
+      "new": "الْجَوّ (the weather) is masculine, so the adjective has no ة: كَانَ الْجَوُّ حَارًّا فِي النَّهَار."
+    },
+    {
+      "scenario": "family-visit", "node": "r4", "where": "choice 1", "field": "ar", "severity": "improve",
+      "problem": "Writers were unsure. The Arabic is correct and the key is right (أَنْتَ شَبْعَان says that the host is full, a meaning slip), so this is not an error. But it is not a typical learner mistake: nothing in the line before invites 'you', and a learner who knows أَنَا will hardly say أَنْتَ about himself. A gender slip on the adjective fits the brief better (the learner is a man): شَبْعَانَة is a real, widely used feminine of شَبْعَان (the older feminine is شَبْعَى).",
+      "old": "شُكْرًا جَزِيلًا، الْكَعْك لَذِيذ، لٰكِنْ يَكْفِي، أَنْتَ شَبْعَان!",
+      "new": "شُكْرًا جَزِيلًا، الْكَعْك لَذِيذ، لٰكِنْ يَكْفِي، أَنَا شَبْعَانَة!"
+    },
+    {
+      "scenario": "family-visit", "node": "r4", "where": "choice 1", "field": "en", "severity": "improve",
+      "problem": "Matches the new wrong reply.",
+      "old": "Thank you so much, the cake is delicious, but that's enough, you're full! (wrong word)",
+      "new": "Thank you so much, the cake is delicious, but that's enough, I'm full! (wrong ending)"
+    },
+    {
+      "scenario": "family-visit", "node": "r4", "where": "choice 1", "field": "segs", "severity": "improve",
+      "problem": "Matches the new wrong reply (the last two seg pairs change).",
+      "old": "[\"أَنْتَ\", \"you (to a man)\"], [\"شَبْعَان\", \"full (after eating)\"]",
+      "new": "[\"أَنَا\", \"I\"], [\"شَبْعَانَة\", \"full (after eating) (f)\"]"
+    },
+    {
+      "scenario": "family-visit", "node": "r4", "where": "choice 1", "field": "feedback", "severity": "improve",
+      "problem": "Matches the new wrong reply.",
+      "old": "أَنْتَ means 'you'. You are talking about yourself: أَنَا شَبْعَان (I'm full).",
+      "new": "شَبْعَانَة is the feminine, said by a woman. You are a man: أَنَا شَبْعَان."
+    }
+  ],
+  "summary": "Reviewed all nodes of the first 16 role-plays (cafe to weather-plans) against their scenarios: npc lines, right and wrong replies, feedback, segs and en, and the gender of the person addressed (Faisal; Layla in taxi, bakery, directions, clothes-shop and doctor; Sami in pharmacy-visit). The Arabic is clean: I found no wrong form in any npc line or right reply. The -ka/-ki, -ta/-ti, tafaddal/tafaddali, sir/madam and doctor/doctora choices all match the speakers in scenarios.json (the clerk and the receptionist are women; the baker, seller, shop assistant, driver, doctor and pharmacist are men), and every branch path tells a coherent story. Findings: 1 error and 2 improvements, each split into ar/en/segs/feedback entries for find-and-replace. Error: in weather-plans r4 a wrong reply ('we'll go on Friday') is only wrong on one of the two paths into r4. Improvements: holiday-story r3 wrong reply كَانَتْ حَارَّةً can be read as correct (Luxor, feminine), so name الْجَوّ; family-visit r4 wrong reply أَنْتَ شَبْعَان is correct-keyed but untypical, and a gender slip (شَبْعَانَة) is better. The other doubtful points are correct as they stand: morning-routine r6 لِأَنَّ الدَّرْسَ is correct MSA (the noun of anna takes -a, and the house style shows it; the scenario's own line has the pause form الدَّرْس, which is also allowed); restaurant r1 نَحْنُ شَخْصَيْنِ is a real, typical (colloquial -ēn) error and its feedback is true; renting-flat r6 الْكَهْرَبَاء عَلَيْكَ as the learner's own words is a real perspective slip with correct feedback. Small things I left alone: hal…aw in the taxi either/or question and 'another piece of cake' in family-visit r3 both come from the reviewed scenarios, and the extra 'at all' in the weather-plans r5 en is copied from the scenario."
+}

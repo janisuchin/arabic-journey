@@ -13,6 +13,7 @@ import {
   Letter,
   Placard,
   Pronunciation,
+  Roleplay,
   Scenario,
   Scene,
   Vocab,
@@ -24,6 +25,7 @@ import {
   type Letter as LetterT,
   type Placard as PlacardT,
   type Pronunciation as PronunciationT,
+  type Roleplay as RoleplayT,
   type Scenario as ScenarioT,
   type Scene as SceneT,
   type Vocab as VocabT,
@@ -67,6 +69,12 @@ export const pronunciation: PronunciationT[] = validList(
   idOf,
 );
 export const scenarios: ScenarioT[] = validList(Scenario, require('../../content/course/scenarios.json'), 'scenarios', idOf);
+export const roleplays: RoleplayT[] = validList(
+  Roleplay,
+  require('../../content/course/roleplays.json'),
+  'roleplays',
+  (x) => String(x?.scenario),
+);
 export const scenes: SceneT[] = validList(Scene, require('../../content/course/scenes.json'), 'scenes', (x) => String(x?.scenario));
 export const wordPhotos: WordPhotoT[] = validList(
   WordPhoto,
@@ -148,6 +156,7 @@ export const placardById = new Map(placards.map((p) => [p.id, p]));
 export const cultureById = new Map(culture.map((c) => [c.id, c]));
 /** The scene photo of a scenario, if one is bundled. */
 export const sceneByScenario = new Map(scenes.map((s) => [s.scenario, s]));
+export const roleplayByScenario = new Map(roleplays.map((r) => [r.scenario, r]));
 /** The square word photo of a vocabulary item, if one is bundled (the rest show their emoji tile). */
 export const wordPhotoByVocab = new Map(wordPhotos.map((p) => [p.vocab, p]));
 export const validDays = days.map((d) => d.day).sort((a, b) => a - b);

@@ -4,8 +4,9 @@ import { View } from 'react-native';
 import { PhotoScene } from '@/components/scene';
 import { GlossPlace, MistakeScope, RichText } from '@/components/tap';
 import { AppText, Card, Screen, SectionTitle } from '@/components/ui';
-import { sceneByScenario, scenarios } from '@/content';
+import { roleplayByScenario, sceneByScenario, scenarios } from '@/content';
 import { Dialogue, QuizRunner } from '@/features/lesson';
+import { RoleplayRunner } from '@/features/roleplay';
 import { usePalette, useSettings, useStudyTimer } from '@/state/hooks';
 
 export default function ScenarioScreen() {
@@ -13,6 +14,9 @@ export default function ScenarioScreen() {
   const { id } = useLocalSearchParams<{ id: string }>();
   const s = scenarios.find((x) => x.id === id);
   const scene = s ? sceneByScenario.get(s.id) : undefined;
+  const roleplay = s ? roleplayByScenario.get(s.id) : undefined;
+  // the learner plays the speaker the other person talks to (Faisal, or Layla where she is the customer)
+  const learner = roleplay && s?.dialogue.speakers.find((sp) => !roleplay.nodes.some((n) => n.npc.sp === sp.key));
   const c = usePalette();
   const { passMark } = useSettings();
   if (!s)
@@ -37,6 +41,15 @@ export default function ScenarioScreen() {
         )}
         <SectionTitle icon="chatbubbles-outline">{s.dialogue.title}</SectionTitle>
         <Dialogue lines={s.dialogue.lines} speakers={s.dialogue.speakers} culture={s.dialogue.culture} />
+        {roleplay && (
+          <>
+            <SectionTitle icon="people-outline">Role-play: your turn</SectionTitle>
+            <AppText size={14} color={c.textMuted}>
+              {learner ? `You are ${learner.name}. ` : ''}Pick a reply: some lead the conversation a different way.
+            </AppText>
+            <RoleplayRunner key={s.id} roleplay={roleplay} speakers={s.dialogue.speakers} />
+          </>
+        )}
         <SectionTitle icon="warning-outline">Common mistakes</SectionTitle>
         {s.mistakes.map((m, i) => (
           <Card key={i}>

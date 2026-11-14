@@ -1,0 +1,146 @@
+{
+ "reviewer": "X2",
+ "findings": [
+  {
+   "scenario": "dietary",
+   "node": "r3",
+   "where": "choice 1",
+   "field": "ar",
+   "severity": "error",
+   "problem": "Wrong key: this wrong reply is acceptable Arabic. Its only 'mistake' is سَلَطَة for سَلَطَةً, and before فَقَطْ that is just the pause form. A word in ة with -tan is pronounced -ah in pause, and the written word is the same without vowel marks. The house style allows pause form mid-sentence, so learners would be told that a legitimate reading is wrong. (The right reply's سَلَطَةً is correct whether لَيْسَ is read as 'it is not' with سَلَطَةً as its predicate or as a coordinator on طَبَقًا.) Replace it with a real agreement mistake: a feminine adjective on the masculine طَبَق.",
+   "old": "مُمْتَاز. هَلْ عِنْدَكُمْ طَبَق رَئِيسِيّ نَبَاتِيّ؟ أَقْصِدُ طَبَقًا كَامِلًا، لَيْسَ سَلَطَة فَقَطْ.",
+   "new": "مُمْتَاز. هَلْ عِنْدَكُمْ طَبَق رَئِيسِيّ نَبَاتِيّ؟ أَقْصِدُ طَبَقًا كَامِلَةً، لَيْسَ سَلَطَةً فَقَطْ."
+  },
+  {
+   "scenario": "dietary",
+   "node": "r3",
+   "where": "choice 1",
+   "field": "segs",
+   "severity": "error",
+   "problem": "Matching segs for the new wrong reply above (the en can stay as it is: '... not just a salad (wrong ending)').",
+   "old": "[\"كَامِلًا\", \"complete, full\"], [\"لَيْسَ\", \"not, it is not\"], [\"سَلَطَة\", \"a salad\"]",
+   "new": "[\"كَامِلَةً\", \"complete, full (f)\"], [\"لَيْسَ\", \"not, it is not\"], [\"سَلَطَةً\", \"a salad (after laysa)\"]"
+  },
+  {
+   "scenario": "dietary",
+   "node": "r3",
+   "where": "choice 1",
+   "field": "feedback",
+   "severity": "error",
+   "problem": "Matching feedback for the new wrong reply. The old feedback treats a correct pause form as an error.",
+   "old": "The predicate of لَيْسَ takes -an: لَيْسَ سَلَطَةً فَقَطْ.",
+   "new": "طَبَق (dish) is masculine, so its adjective has no ة: طَبَقًا كَامِلًا."
+  },
+  {
+   "scenario": "dietary",
+   "node": "r1",
+   "where": "choice 2",
+   "field": "feedback",
+   "severity": "error",
+   "problem": "The rule in the feedback is false here. The waiter asks هَلْ أَنْتُمَا مُسْتَعِدَّانِ … أَمْ تُرِيدَانِ وَقْتًا أَكْثَر؟. With هَلْ … أَمْ ('are you ready, or do you want more time?'), نَعَم is a real answer: 'yes, we're ready'. That is unlike the pure either/or questions in cinema r3 and supermarket r4. The reply is still a wrong choice, but for what it leaves out, so the feedback should say that.",
+   "old": "He asks 'ready, or more time?' (أَمْ), so 'yes' does not answer. And tell him about the allergy before you order.",
+   "new": "نَعَم alone only says you are ready to order. Before you order, tell him the two important things: زَمِيلِي نَبَاتِيّ، وَأَنَا عِنْدِي حَسَاسِيَّة مِنَ الْمُكَسَّرَات."
+  },
+  {
+   "scenario": "etiquette",
+   "node": "r2",
+   "where": "choice 0",
+   "field": "feedback",
+   "severity": "improve",
+   "problem": "The wine reply should stay a RIGHT reply (ok: true, next r3). It is the scenario's own story (Faisal did buy wine), and r3, Layla's correction, is the cultural lesson of the role-play. A wrong reply must have next: null, so marking this wrong would leave r3 unreachable. It would also remove the only node in etiquette whose two right replies lead to different nodes, which the brief requires. The Arabic is correct, so the key is not wrong. But the feedback should not sound like approval: it should name the slip clearly. The npc line in r3 needs no change.",
+   "old": "Correct Arabic and an honest answer, and Layla will tell you what fits better here. Note عَادَةً with adverbial -an.",
+   "new": "Correct Arabic (note عَادَةً with adverbial -an), but a cultural slip: wine is not a suitable gift here, and many families do not drink alcohol. Listen to Layla's advice."
+  },
+  {
+   "scenario": "etiquette",
+   "node": "r1",
+   "where": "npc",
+   "field": "ar",
+   "severity": "improve",
+   "problem": "New opening line: correct MSA, but كَيْفَ أَسْتَطِيعُ أَنْ أُسَاعِدَكَ؟ is a service-counter formula (bank, hotel, post office). It sounds stiff from a friend whom Faisal comes to for advice. A simple friendly line from course words fits better, and it leads well into Faisal's 'I need your advice' and Layla's 'Don't worry' in r2.",
+   "old": "أَهْلًا يَا فَيْصَل! كَيْفَ أَسْتَطِيعُ أَنْ أُسَاعِدَكَ؟",
+   "new": "أَهْلًا يَا فَيْصَل! هَلْ هُنَاكَ مُشْكِلَة؟"
+  },
+  {
+   "scenario": "etiquette",
+   "node": "r1",
+   "where": "npc",
+   "field": "en",
+   "severity": "improve",
+   "problem": "Translation for the new opening line above.",
+   "old": "Hi, Faisal! How can I help you?",
+   "new": "Hi, Faisal! Is there a problem?"
+  },
+  {
+   "scenario": "etiquette",
+   "node": "r1",
+   "where": "npc",
+   "field": "segs",
+   "severity": "improve",
+   "problem": "Segs for the new opening line above (glosses as used elsewhere in the course).",
+   "old": "[\"كَيْفَ\", \"how\"], [\"أَسْتَطِيعُ\", \"I can\"], [\"أَنْ\", \"to, that\"], [\"أُسَاعِدَكَ\", \"I help you (to a man, after an)\"]",
+   "new": "[\"هَلْ\", \"(starts a yes/no question)\"], [\"هُنَاكَ\", \"there is\"], [\"مُشْكِلَة\", \"a problem\"]"
+  },
+  {
+   "scenario": "hotel-reception",
+   "node": "r1",
+   "where": "choice 0",
+   "field": "ar",
+   "severity": "improve",
+   "problem": "The new opening line has Salma say مَسَاءُ الْخَيْر!, but the right reply ignores the greeting and goes straight to لَوْ سَمَحْتِ. The course teaches that مَسَاءُ النُّور answers مَسَاءُ الْخَيْر (see the office-phone and post-office feedback), so the model reply should return it. Make the same change in choice 1 so the pair still differs only in -ta/-ti.",
+   "old": "لَوْ سَمَحْتِ، عِنْدِي مُشْكِلَة. الْمُكَيِّف فِي الْغُرْفَة لَا يَعْمَلُ، وَالْغُرْفَة حَارَّة جِدًّا.",
+   "new": "مَسَاءُ النُّور. لَوْ سَمَحْتِ، عِنْدِي مُشْكِلَة. الْمُكَيِّف فِي الْغُرْفَة لَا يَعْمَلُ، وَالْغُرْفَة حَارَّة جِدًّا."
+  },
+  {
+   "scenario": "hotel-reception",
+   "node": "r1",
+   "where": "choice 0",
+   "field": "segs",
+   "severity": "improve",
+   "problem": "Segs for the added greeting (put them at the start).",
+   "old": "[\"لَوْ\", \"if\"], [\"سَمَحْتِ\", \"you allow (to a woman)\"]",
+   "new": "[\"مَسَاءُ\", \"evening (of)\"], [\"النُّور\", \"the light\"], [\"لَوْ\", \"if\"], [\"سَمَحْتِ\", \"you allow (to a woman)\"]"
+  },
+  {
+   "scenario": "hotel-reception",
+   "node": "r1",
+   "where": "choice 0",
+   "field": "en",
+   "severity": "improve",
+   "problem": "Translation for the added greeting.",
+   "old": "Excuse me, I have a problem. The air conditioning in the room doesn't work, and the room is very hot.",
+   "new": "Good evening. Excuse me, I have a problem. The air conditioning in the room doesn't work, and the room is very hot."
+  },
+  {
+   "scenario": "hotel-reception",
+   "node": "r1",
+   "where": "choice 1",
+   "field": "ar",
+   "severity": "improve",
+   "problem": "The same greeting in the wrong reply keeps it a minimal pair with choice 0. Add the same two segs at the start ([\"مَسَاءُ\", \"evening (of)\"], [\"النُّور\", \"the light\"]), and start the en with 'Good evening. '.",
+   "old": "لَوْ سَمَحْتَ، عِنْدِي مُشْكِلَة. الْمُكَيِّف فِي الْغُرْفَة لَا يَعْمَلُ، وَالْغُرْفَة حَارَّة جِدًّا.",
+   "new": "مَسَاءُ النُّور. لَوْ سَمَحْتَ، عِنْدِي مُشْكِلَة. الْمُكَيِّف فِي الْغُرْفَة لَا يَعْمَلُ، وَالْغُرْفَة حَارَّة جِدًّا."
+  },
+  {
+   "scenario": "school",
+   "node": "r2",
+   "where": "choice 0",
+   "field": "feedback",
+   "severity": "improve",
+   "problem": "The feedback says -hā in وَأَوْقَاتُهَا goes with أَيَّام. In this sentence it refers to الدُّرُوس ('the days of the lessons and their times', as the en has it). The rule is right, but the word it is pinned to is wrong.",
+   "old": "Good: أَيَّام is a plural of things, so it takes هِيَ and -hā: وَأَوْقَاتُهَا.",
+   "new": "Good: plurals of things take feminine singular words: هِيَ for أَيَّام, and -hā in وَأَوْقَاتُهَا for الدُّرُوس (the lessons' times)."
+  },
+  {
+   "scenario": "hotel-reception",
+   "node": "r1",
+   "where": "choice 1",
+   "field": "segs",
+   "severity": "improve",
+   "problem": "lead: same as choice 0 (segs for the added greeting)",
+   "old": "[\"لَوْ\", \"if\"], [\"سَمَحْتَ\", \"you allow (to a man)\"]",
+   "new": "[\"مَسَاءُ\", \"evening (of)\"], [\"النُّور\", \"the light\"], [\"لَوْ\", \"if\"], [\"سَمَحْتَ\", \"you allow (to a man)\"]"
+  }
+ ],
+ "summary": "I checked all nodes of the last 16 role-plays (npc lines, every reply, segs, en, feedback and story) against their scenarios. The great majority are correct, natural and faithful to the scenario dialogue. Gender is right throughout: Faisal uses masculine forms and Layla in job-interview uses feminine forms (مُسْتَعِدَّة، سَعِيدَة، لُبْنَانِيَّة), and -ka/-ki matches each addressee (female: Salma, Samira, the office worker, the school clerk, Mrs Salwa; male: the clerks, the seller, the officer, Sami, the waiter). Verdicts on the points you raised. etiquette r2: the wine reply should stay ok:true. Making it wrong would cut off r3, the cultural lesson, and remove the only branching node; the fix is feedback that names the slip. سَتَشْتَرِي is a real, typical person mix-up (mirroring سَتَحْمِلُ), and its feedback is true. dietary r3 لَيْسَ سَلَطَة فَقَطْ is not a real error (pause form of a ة-noun) and should be replaced. school r2 وَمَا هُمْ أَيَّامُ الدُّرُوسِ… is a genuine, typical error with true feedback. museum-info r2 مَا زَالَتْ ضَعِيفَة is correct: a sentence-final pause form, since -atan becomes -ah in pause; the -an could be shown for house consistency but is not required, so no finding. bank r5 خَمْسَمِئَةِ دُولَارَات is a genuine error (a noun after مِئَة is singular genitive). job-interview r3 سَنَتَانِ is a genuine error (duration takes the accusative سَنَتَيْنِ). On the new opening lines: those in eid-visit, lost-phone-help and machines are correct and natural. hotel-reception is correct, but the reply should return مَسَاءُ النُّور. etiquette is correct but stilted and should be replaced. One extra error: the dietary r1 feedback claims نَعَم cannot answer a هَلْ … أَمْ question, which is false there. Totals: 4 error findings (1 issue: dietary r3, split into ar, segs and feedback; plus dietary r1 feedback) and 9 improve findings (etiquette r2 feedback; etiquette r1 ar, en and segs; hotel-reception r1 in 4 rows; school r2 feedback)."
+}

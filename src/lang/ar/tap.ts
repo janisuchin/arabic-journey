@@ -26,6 +26,7 @@ import {
   placards,
   pronunciation,
   readingsLayer,
+  roleplays,
   scenarios,
   scenes,
   scopedGlossary,
@@ -516,6 +517,7 @@ function buildIndexes() {
     for (const l of d.dialogue.lines) seg(l.segs, d.day);
   }
   for (const sc of scenarios) for (const l of sc.dialogue.lines) seg(l.segs);
+  for (const rp of roleplays) for (const n of rp.nodes) for (const s of [n.npc.segs, ...n.choices.map((c) => c.segs)]) seg(s);
   for (const wk of course?.weeks ?? []) seg(wk.titleSegs, wk.week * 7);
   for (const p of placards) {
     seg(p.titleSegs);

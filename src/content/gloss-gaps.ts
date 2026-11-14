@@ -1,7 +1,7 @@
 // Finds every Arabic word shown anywhere in the content that has no English meaning.
 // Used by the validator and by the gloss-coverage test: a single gap fails the build.
 
-import { culture, days, grammar, letters, placards, pronunciation, scenarios, scenes, vocabulary, course } from './index';
+import { culture, days, grammar, letters, placards, pronunciation, roleplays, scenarios, scenes, vocabulary, course } from './index';
 import { arabicWords, meaningOf } from '../lang/ar/tap';
 
 export interface TextRef {
@@ -63,6 +63,14 @@ export function allShownTexts(): TextRef[] {
       q.options.forEach((o, i) => add(`${w} ${q.id} option ${i}`, o));
     });
   }
+  for (const rp of roleplays)
+    for (const n of rp.nodes) {
+      add(`roleplay ${rp.scenario} ${n.id} npc`, n.npc.ar);
+      n.choices.forEach((c, i) => {
+        add(`roleplay ${rp.scenario} ${n.id} choice ${i}`, c.ar);
+        add(`roleplay ${rp.scenario} ${n.id} choice ${i} feedback`, c.feedback);
+      });
+    }
   for (const sc of scenarios) {
     add(`scenario ${sc.id} intro`, sc.intro);
     sc.dialogue.speakers.forEach((s) => add(`scenario ${sc.id} speaker ${s.key}`, s.nameAr));

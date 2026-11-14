@@ -236,6 +236,39 @@ test('scenario scene photo: red outline on hover and on a word chip tap, label o
   await expect(scene.getByTestId('photo-credit')).toBeVisible();
 });
 
+test('branching role-play: a wrong reply explains and stays, a right reply moves on, the other branch is another path', async ({
+  page,
+}) => {
+  await newLearner(page);
+  await page.goto('/scenarios/cafe');
+  const rp = page.getByTestId('roleplay');
+  await rp.scrollIntoViewIfNeeded();
+  // r1: the -ki reply is wrong (the waiter is a man): feedback, no way on
+  await page.getByTestId('roleplay-choice-2').click();
+  await expect(page.getByTestId('roleplay-feedback')).toContainText('Not quite');
+  await expect(page.getByTestId('roleplay-next')).toHaveCount(0);
+  // tea → r2 (mint or ordinary?)
+  await page.getByTestId('roleplay-choice-0').click();
+  await expect(page.getByTestId('roleplay-feedback')).toContainText('Good reply');
+  await page.getByTestId('roleplay-next').click();
+  await expect(rp).toContainText('بِالنَّعْنَاع أَوْ');
+  await page.getByTestId('roleplay-choice-0').click();
+  await page.getByTestId('roleplay-next').click();
+  // r4 → r5 → finish
+  await page.getByTestId('roleplay-choice-1').click();
+  await page.getByTestId('roleplay-next').click();
+  await page.getByTestId('roleplay-choice-0').click();
+  await page.getByTestId('roleplay-next').click();
+  const done = page.getByTestId('roleplay-done');
+  await expect(done).toContainText('Role-play complete');
+  await expect(done).toContainText('1 wrong reply');
+  // play again and take the coffee branch: a different next line
+  await page.getByTestId('roleplay-again').click();
+  await page.getByTestId('roleplay-choice-1').click();
+  await page.getByTestId('roleplay-next').click();
+  await expect(page.getByTestId('roleplay')).toContainText('قَهْوَة بِسُكَّر');
+});
+
 test('word photos: a concrete noun shows its square photo with the © badge on the word card and in the word box', async ({
   page,
 }) => {

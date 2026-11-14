@@ -148,6 +148,7 @@ const scenarios = read('content/course/scenarios.json');
 const scenes = read('content/course/scenes.json');
 const scList = Array.isArray(scenarios) ? scenarios : scenarios.scenarios;
 const sceneList = Array.isArray(scenes) ? scenes : scenes.scenes;
+const roleplayList = read('content/course/roleplays.json') as { scenario: string }[];
 const half = Math.ceil(scList.length / 2);
 [scList.slice(0, half), scList.slice(half)].forEach((part, k) => {
   const text = part
@@ -156,7 +157,11 @@ const half = Math.ceil(scList.length / 2);
       const scene = sceneList.find((s: { scenario: string }) => s.scenario === sc.id);
       return (
         dumpFile(`content/course/scenarios.json scenarios[${idx}]`, sc, `scenario ${sc.id}`) +
-        (scene ? dumpFile(`content/course/scenes.json scene for ${sc.id}`, scene, `scene photo spots for ${sc.id}`) : '')
+        (scene ? dumpFile(`content/course/scenes.json scene for ${sc.id}`, scene, `scene photo spots for ${sc.id}`) : '') +
+        roleplayList
+          .filter((r) => r.scenario === sc.id)
+          .map((r) => dumpFile(`content/course/roleplays.json role-play for ${sc.id}`, r, `scenario ${sc.id} role-play`))
+          .join('')
       );
     })
     .join('\n');

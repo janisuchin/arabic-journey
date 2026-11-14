@@ -208,6 +208,29 @@ export const Scenario = z.object({
 });
 export type Scenario = z.infer<typeof Scenario>;
 
+/**
+ * Branching role-play (Prompt B L), one per scenario (content/course/roleplays.json). The other person speaks (a
+ * dialogue line); the learner (Faisal) picks a reply. A right reply moves on to `next` (null ends the role-play), and
+ * two right replies may lead to different nodes. A wrong reply only shows its feedback, and the learner tries again.
+ */
+export const RoleplayChoice = z.object({
+  ar: arabic,
+  en: latinOnly,
+  segs: z.array(Seg).min(1),
+  ok: z.boolean(),
+  feedback: rich,
+  next: z.string().nullable(),
+});
+export const RoleplayNode = z.object({ id: z.string(), npc: DialogueLine, choices: z.array(RoleplayChoice).min(2).max(3) });
+export const Roleplay = z.object({
+  scenario: z.string(),
+  status: Status,
+  start: z.string(),
+  nodes: z.array(RoleplayNode).min(3).max(8),
+});
+export type Roleplay = z.infer<typeof Roleplay>;
+export type RoleplayNode = z.infer<typeof RoleplayNode>;
+
 /** One labelled object in a scene photo: a red outline box (percent of the photo), the Arabic word and its English. */
 const pct = z.number().min(0).max(100);
 export const SceneSpot = z.object({
