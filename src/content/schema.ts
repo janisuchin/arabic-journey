@@ -37,12 +37,15 @@ export const Pos = z.enum([
   'noun', 'verb', 'adj', 'adverb', 'pronoun', 'particle', 'prep', 'question', 'phrase', 'number', 'name', 'demonstrative',
 ]);
 
+export const GENDER_LABEL = { m: 'masculine', f: 'feminine', mf: 'masculine or feminine' } as const;
+
 export const Vocab = z.object({
   id: z.string(),
   ar: arabic,
   en: latinOnly,
   pos: Pos,
-  gender: z.enum(['m', 'f']).optional(),
+  /** mf: both genders are in use (سُوق); such a noun takes no gender colour */
+  gender: z.enum(['m', 'f', 'mf']).optional(),
   plural: arabic.optional(),
   forms: z.array(z.object({ label: latinOnly, ar: arabic })).optional(),
   tr: latinOnly.optional(),

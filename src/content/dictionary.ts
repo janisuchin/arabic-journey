@@ -11,7 +11,7 @@ export interface DictWord {
   ar: string;
   en: string;
   pos: string;
-  gender: '' | 'm' | 'f';
+  gender: '' | 'm' | 'f' | 'mf';
   plural: string;
   /** verbs: present tense he-form (يَكْتُبُ) */
   present: string;
@@ -32,7 +32,7 @@ export function dictionary(): DictWord[] {
     ar,
     en,
     pos,
-    gender: gender === 'm' || gender === 'f' ? gender : '',
+    gender: gender === 'm' || gender === 'f' || gender === 'mf' ? gender : '',
     plural,
     present,
     course: course === 1,

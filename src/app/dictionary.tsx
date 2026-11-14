@@ -5,7 +5,7 @@ import { FlatList, Pressable, View } from 'react-native';
 import { IconButton, AppText, ArText, Pill, Row, Screen, SectionTitle, TrText } from '@/components/ui';
 import { vocabulary } from '@/content';
 import { dictionary, searchDictionary, type DictWord } from '@/content/dictionary';
-import type { Vocab } from '@/content/schema';
+import { GENDER_LABEL, type Vocab } from '@/content/schema';
 import { normaliseAnswer } from '@/core/answer';
 import { translit } from '@/core/translit';
 import { translitLine } from '@/lang/ar/tap';
@@ -91,7 +91,7 @@ function DictRow({ w }: { w: DictWord }) {
           </Row>
         ) : null}
         <Row wrap gap={6} style={{ marginTop: 4 }}>
-          {w.gender ? <Pill label={w.gender === 'm' ? 'masculine' : 'feminine'} /> : null}
+          {w.gender ? <Pill label={GENDER_LABEL[w.gender]} /> : null}
           <Pill label={POS_NAMES[w.pos] ?? w.pos} />
           {w.course ? <Pill label="in the course" /> : null}
         </Row>

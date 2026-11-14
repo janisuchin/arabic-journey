@@ -9,7 +9,7 @@ import { START, webLang } from '../base/rtl';
 import { asksReading, promptGivesAway, seededShuffle, score as scoreOf } from '../core/answer';
 import { hasScript, stripHarakat } from '../core/arabic';
 import { grammarById } from '../content';
-import type { DialogueLine, Question, Sentence, Vocab } from '../content/schema';
+import { GENDER_LABEL, type DialogueLine, type Question, type Sentence, type Vocab } from '../content/schema';
 import { namesSet, translitLine, wordToken, type WordInfo } from '../lang/ar/tap';
 import { tts } from '../services/tts';
 import { useFs, usePalette, useSettings } from '../state/hooks';
@@ -65,7 +65,7 @@ export function WordCard({ v, compact }: { v: Vocab; compact?: boolean }) {
             <AppText weight="700">{v.en}</AppText>
             {!compact && (
               <Row wrap gap={6} style={{ marginTop: 4 }}>
-                {v.gender && <Pill label={v.gender === 'm' ? 'masculine' : 'feminine'} />}
+                {v.gender && <Pill label={GENDER_LABEL[v.gender]} />}
                 <Pill label={v.pos} />
               </Row>
             )}

@@ -7,7 +7,7 @@ import { Modal, Platform, Pressable, ScrollView, Text, View, type LayoutChangeEv
 import { AR_START, START, webLang } from '../base/rtl';
 import { isolateLtr, isolateRtl, stripHarakat } from '../core/arabic';
 import { wordPhotoByVocab } from '../content';
-import type { Seg } from '../content/schema';
+import { GENDER_LABEL, type Seg } from '../content/schema';
 import {
   namesSet,
   pauseReading,
@@ -109,7 +109,7 @@ export function WordBox({ info, onClose, floating }: { info: WordInfo; onClose: 
   const facts: string[] = [];
   if (v) {
     facts.push(POS_LABEL[v.pos] ?? v.pos);
-    if (v.gender) facts.push(v.gender === 'm' ? 'masculine' : 'feminine');
+    if (v.gender) facts.push(GENDER_LABEL[v.gender]);
   }
   const content = (
     <View
