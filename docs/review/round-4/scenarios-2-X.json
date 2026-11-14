@@ -1,0 +1,14 @@
+{
+  "chunk": "scenarios-2",
+  "checker": "X4-2",
+  "verdicts": [
+    {
+      "id": 1,
+      "verdict": "AGREE",
+      "fix": "content/course/scenarios.json scenarios[19].dialogue.lines[7].ar: إِنَّ دَانْيَال الْأَمْرِيكِيّ → إِنَّ دَانْيَالَ الْأَمْرِيكِيَّ (rest of the line unchanged). Segs must change too: dialogue.lines[7].segs[6] دَانْيَال → دَانْيَالَ and segs[7] الْأَمْرِيكِيّ → الْأَمْرِيكِيَّ (glosses unchanged; دَانْيَالَ already has a glossary entry). Transliteration follows: inna Dānyāla l-amrīkiyya.",
+      "scope": "this one scenario line only",
+      "reason": "Noun of inna (after قُولِي لَهَا) is on the must-show list (R12-47). A foreign name of more than three letters is a diptote, so -a without tanwīn is right, and the agreeing adjective takes -a as well. The course already writes لِأَنَّ دَانْيَالَ on day 88."
+    }
+  ],
+  "summary": "X4-2 checked the single error against audit/scenarios-2.txt (segs indices verified) and DECISIONS R12-47: 1 AGREE, 0 CHANGE, 0 DISAGREE. The fix (دَانْيَالَ الْأَمْرِيكِيَّ) is correct Arabic and consistent with day 88; the two matching segs must change in the same line."
+}

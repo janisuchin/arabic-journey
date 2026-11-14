@@ -1,0 +1,42 @@
+{
+  "chunk": "grammar",
+  "checker": "X4-5",
+  "verdicts": [
+    {
+      "id": 1,
+      "verdict": "AGREE",
+      "fix": "The person who can is an object ending on it, as on any verb (ـنِي for 'me'):",
+      "scope": "content/course/grammar.json [62].explanation only (find-and-replace of the quoted English); the ⟶ line follows. No Arabic changes.",
+      "reason": "Real. يُمْكِنُ takes object suffixes (lit. 'it makes possible for me'), and with 'me' that is the verb form ـنِي (يُمْكِنُنِي), not the noun form ـِي. 'as on a noun' read literally gives the wrong يُمْكِنِي and contradicts the day-60 rule (on a verb 'me' is ـنِي)."
+    },
+    {
+      "id": 2,
+      "verdict": "AGREE",
+      "fix": "The Arabic question mark ؟ is a mirrored ?.",
+      "scope": "Engine (⟶ line only), grammar [5].explanation. In src/lang/ar/tap.ts translitLine the punct map turns every ؟ into ?; keep ؟ when it stands alone between spaces/Latin text (not attached to an Arabic word), so هَلْ أَنْتَ مِصْرِيّ؟ still reads hal anta miṣrī?. No content change.",
+      "reason": "Real. The ⟶ line of the card that introduces the Arabic question mark reads 'The Arabic question mark ? is a mirrored ?', so the learner who follows the transliteration never sees the sign. R3-27 fixed the أنت case in [1] (unvocalised word kept) but not this one."
+    },
+    {
+      "id": 3,
+      "verdict": "AGREE",
+      "fix": "faʿala (verb pattern, Form I; lit. he did)",
+      "scope": "Scoped to grammar [66] (verb-forms card: formula, explanation, table.rows[0][1]) only, matching the hand.json style of the other patterns ('faʿʿala (verb pattern, Form II)'). Do NOT add فَعَلَ to hand.json app-wide; the day 42 seg ('he did, (they) did' in وَمَاذَا فَعَلَ النَّاس) stays.",
+      "reason": "Real. In the pattern card فَعَلَ is the model pattern of Form I; '(they) did' leaks from the day 42 sentence (verb before a plural subject) and is wrong for the bare form, which on its own is only 'he did'. The other six patterns are already glossed as patterns."
+    },
+    {
+      "id": 4,
+      "verdict": "AGREE",
+      "fix": "(it, f) causes",
+      "scope": "The car sentence only: grammar [77].table.rows[0][2] tap and content/days/day83.json sentences[0].segs (تُسَبِّبُ = (she) causes -> (it, f) causes). Not app-wide (the scenarios dietary line has its own seg).",
+      "reason": "Real. The subject of تُسَبِّبُ is هِيَ = the car, and the English says 'it causes pollution'; '(she)' points to a person. Same treatment as the round-3 fix of تَنْتَظِرَكَ to '(it, f)'."
+    },
+    {
+      "id": 5,
+      "verdict": "AGREE",
+      "fix": "bi-annanī",
+      "scope": "content/readings/readings.json: \"بِأَنَّنِي\":[\"biʾannanī\",0] -> [\"bi-annanī\",0] and \"بِمِلْيُونِ\":[\"bimilyūni\",0] -> [\"bi-milyūni\",0]. A hyphenated layer reading is kept as is by cliticReading (it returns early when the reading contains '-'). Affects every occurrence of these two words, which is correct under the clitic house style. No Arabic change.",
+      "reason": "Real (minor, house style). Both words are glossed as bi- + word ('that I (bi- + anna + -nī)', 'a million (of) (bi- after fāza)'), so the house style wants the hyphen, as the same cards already show for bi-an, bi-ʿishrīna, bi-khayr. The clitic rule did not split them because their glosses do not start with with/by/in/at/for/on; a layer override is the scoped fix."
+    }
+  ],
+  "summary": "Checked all 5 grammar errors against audit/grammar.txt, content/course/grammar.json, day42/day83 segs, readings.json and src/lang/ar/tap.ts. AGREE 5, CHANGE 0, DISAGREE 0. All are minor: the yumkinu 'as on a noun' wording (verb suffix ـنِي), the ؟ shown as ? in the [5] ⟶ line, the فَعَلَ '(they) did' tap leaking into the pattern card (scope to [66] only), '(she) causes' for the car (scope to that sentence in grammar [77] and day 83), and the missing clitic hyphen in biʾannanī / bimilyūni (readings.json overrides). No gloss fix is app-wide except the two readings.json entries, which are correct everywhere."
+}

@@ -111,7 +111,7 @@
         {
           "wrong": "كَانَ الْعُطْلَةُ مُمْتِعَةً",
           "right": "كَانَتِ الْعُطْلَةُ مُمْتِعَةً",
-          "why": "عُطْلَة is feminine, so 'was' becomes كَانَتْ. Before al- its sukūn turns into i: كَانَتِ الْعُطْلَة."
+          "why": "عُطْلَة is feminine, so 'was' is usually كَانَتْ (كَانَ is possible but less usual). Before al- its sukūn turns into i: كَانَتِ الْعُطْلَة."
         }
       ]
     },
@@ -1129,7 +1129,7 @@
       "prompt": "Fill the gap: 'The trip was short.'",
       "ar": "… الرِّحْلَةُ قَصِيرَةً.",
       "options": [
-        "كَانَ",
+        "كَانُوا",
         "كُنْتُ",
         "كَانَتِ",
         "كُنَّا"

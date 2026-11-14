@@ -1,0 +1,70 @@
+{
+  "chunk": "vocabulary-1",
+  "checker": "X4-3",
+  "verdicts": [
+    {
+      "id": 1,
+      "verdict": "AGREE",
+      "fix": "مَا is used before a noun. After it, the i of اِسْم drops: mā smuk.",
+      "scope": "content/course/vocabulary.json [10].note (id ma); transliteration follows automatically",
+      "reason": "مَا has no initial a; what happens is the waṣla: the i of (i)smuk is not said after the long ā of mā. The current note describes the elision the wrong way round. The kasra on the waṣl alif of اِسْم in a quoted word is the course convention."
+    },
+    {
+      "id": 2,
+      "verdict": "AGREE",
+      "fix": "تُحِبُّ=you love, you like (to a man); she loves",
+      "scope": "scoped gloss vocab:yuhibbu only (content/glossary/scoped.json, next to the existing vocab:ughniya entry); not app-wide",
+      "reason": "On the conjugation card the cell is labelled 'you (m)' but the tap says only 'she loves'. تُحِبُّ is both 'you (m) love' and 'she loves'; the card needs the 'you' sense first, matching تَشْرَبُ on [95].forms[3]."
+    },
+    {
+      "id": 3,
+      "verdict": "AGREE",
+      "fix": "فَعَلَ=he did (singular form, also used before a plural subject)",
+      "scope": "scoped gloss vocab:faala (the headword card). Do not change the day 42 seg (فَعَلَ النَّاس, where '(they) did' reads the sentence).",
+      "reason": "The headword فَعَلَ is 3rd person masculine singular; '(they) did' comes from a verb-first sentence with a plural subject. On the dictionary card the form must read 'he did'. The proposed wording keeps the verb-first point."
+    },
+    {
+      "id": 4,
+      "verdict": "AGREE",
+      "fix": "ضَحِكَ=he laughed (singular form, also used before a plural subject)",
+      "scope": "scoped glosses vocab:dahika ([370].ar, [370].example.ar, [370].note) and vocab:nas ([368].example.ar); not app-wide",
+      "reason": "Same pattern as id 3. In ضَحِكَ كُلُّ النَّاس the grammatical subject كُلُّ is singular anyway; 'they laughed' is ضَحِكُوا, shown as forms[1] on the same card, so the current gloss blurs the contrast the card teaches."
+    },
+    {
+      "id": 5,
+      "verdict": "AGREE",
+      "fix": "أَذْهَبْ=I go (form after 'lam')",
+      "scope": "at least vocab:lam ([359].example.ar). Every occurrence of أَذْهَبْ in the course follows لَمْ (days 41-50, grammar, weeks-tests 868 and 1946), so an app-wide hand gloss with this text would also be right everywhere and would fix the two unmarked weeks-tests taps.",
+      "reason": "The example illustrates the jussive after لَمْ; the days and grammar card already mark أَذْهَبْ as 'form after lam', the vocabulary card for لَمْ does not."
+    },
+    {
+      "id": 6,
+      "verdict": "AGREE",
+      "fix": "طَوِيلًا=tall, long (after 'is not')",
+      "scope": "scoped glosses vocab:qasir ([299].example.ar) and vocab:laysa ([304].example.ar and [304].note); not app-wide (طَوِيلًا is also the adverb 'for a long time')",
+      "reason": "عُمَر لَيْسَ طَوِيلًا is translated 'Omar is not tall'; said of a person طَوِيل means tall. The grammar card (grammar:laysa) and days 31-40 already gloss it 'tall … (after is not)'."
+    },
+    {
+      "id": 7,
+      "verdict": "AGREE",
+      "fix": "طَوِيلَة=tall, long (f)",
+      "scope": "scoped gloss vocab:mithl ([305].example.ar) only; elsewhere طَوِيلَة is 'long' (songs, sentences)",
+      "reason": "هَلْ أَنْتِ طَوِيلَة مِثْلَ أُمِّكِ؟ is about a person's height and is translated 'tall'."
+    },
+    {
+      "id": 8,
+      "verdict": "AGREE",
+      "fix": "تَشْرَبِي=you drink (to a woman, after an or lā)",
+      "scope": "scoped gloss vocab:yashrabu ([95].forms[5]) only; the grammar lines لَا تَشْرَبِي keep 'drink (to a woman)', which reads correctly as 'don't drink' there",
+      "reason": "On the forms card the cell is labelled 'you, to a woman (after an or lā)' and the order اِشْرَبِي is a separate cell; the gloss 'drink (to a woman)' makes the subjunctive/jussive look like the imperative. The fix matches forms[6] تَشْرَبُوا and the day 41-50 scoped gloss."
+    },
+    {
+      "id": 9,
+      "verdict": "AGREE",
+      "fix": "To a woman: كَيْفَ حَالُكِ؟",
+      "scope": "content/course/vocabulary.json [28].note only",
+      "reason": "Checked src/lang/ar/tap.ts proseTranslit: the reading of an Arabic run is dropped only when the English after it already echoes it; here the engine reading is 'kayfa ḥāluki?' while the bracket is '(kayfa ḥāluki)', so the ؟ defeats the echo test and the learner sees the reading twice. Dropping the hand-written bracket gives 'كَيْفَ حَالُكِ؟ (kayfa ḥāluki?)', with nothing lost. Optional engine improvement: ignore final ?/؟ in echoes(), but the content fix is enough."
+    }
+  ],
+  "summary": "Checked all 9 vocabulary-1 errors against audit/vocabulary.txt, content/glossary (hand.json, scoped.json, auto.json) and src/lang/ar/tap.ts (meaning chain, proseTranslit). 9 AGREE, 0 CHANGE, 0 DISAGREE. All are real but minor: one wrong waṣla rule in the مَا note, seven tap glosses that do not fit a vocabulary card (each must be a scoped vocab:<id> gloss, never app-wide, except أَذْهَبْ which follows لَمْ everywhere in the course), and one doubled transliteration in a note. No Arabic string in the reported items is wrong."
+}

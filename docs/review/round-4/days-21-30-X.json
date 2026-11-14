@@ -1,0 +1,14 @@
+{
+  "chunk": "days-21-30",
+  "checker": "X4-1",
+  "verdicts": [
+    {
+      "id": 1,
+      "verdict": "AGREE",
+      "fix": "bināya (building) is feminine, so the ordinal takes ة: ath-thālitha.",
+      "scope": "content/days/day23.json sentences[1].mistakes[0].why only (hand-written English note)",
+      "reason": "بِنَايَة has a long ā (pattern fiʿāla: bināya); every engine ⟶ line in the export (lines 529, 554, 683, 1169) gives al-bināya. The note's 'binaya' is a plain typo in hand-written prose and teaches a wrong short vowel. The newWords slug 'binaya' is an internal id and must not be touched."
+    }
+  ],
+  "summary": "1 error checked against audit/days-21-30.txt line 565 and content/days/day23.json line 129: AGREE (1). No CHANGE, no DISAGREE. The reviewer's notes (جُنَيْهًا gloss wording, untransliterated بَنْك, li- hyphenation, blessing formula, -ihi, حِذَاء) are notes only and were not judged as errors."
+}

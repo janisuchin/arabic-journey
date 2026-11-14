@@ -3100,7 +3100,7 @@
     "firstDay": 64,
     "summary": "To say 'can', use يُمْكِنُ (it is possible) with a person ending, then أَنْ and a present verb ending in -a: يُمْكِنُنِي أَنْ أَكْتُبَ (I can write).",
     "formula": "يُمْكِنُنِي / يُمْكِنُكَ / يُمْكِنُكِ / يُمْكِنُهُ / يُمْكِنُنَا + أَنْ + present (ending -a)",
-    "explanation": "يُمْكِنُ never changes. The person who can is an ending on it, as on a noun: يُمْكِنُنِي (I can, literally 'it is possible for me'), يُمْكِنُكَ (you can, to a man), يُمْكِنُهُ (he can). The second verb follows أَنْ and has its own person: يُمْكِنُكَ أَنْ تَسْأَلَنِي (you can ask me). To ask politely, put هَلْ in front: هَلْ يُمْكِنُنِي أَنْ أَسْتَعْمِلَ الْحَاسُوب؟ (Can I use the computer?). Without an ending it means 'it is possible' or 'could': هَلْ يُمْكِنُ أَنْ تَتَّصِلَ بِي؟ (Could you call me?). For 'cannot' put لَا in front: لَا يُمْكِنُنِي.",
+    "explanation": "يُمْكِنُ never changes. The person who can is an object ending on it, as on any verb (ـنِي for 'me'): يُمْكِنُنِي (I can, literally 'it is possible for me'), يُمْكِنُكَ (you can, to a man), يُمْكِنُهُ (he can). The second verb follows أَنْ and has its own person: يُمْكِنُكَ أَنْ تَسْأَلَنِي (you can ask me). To ask politely, put هَلْ in front: هَلْ يُمْكِنُنِي أَنْ أَسْتَعْمِلَ الْحَاسُوب؟ (Can I use the computer?). Without an ending it means 'it is possible' or 'could': هَلْ يُمْكِنُ أَنْ تَتَّصِلَ بِي؟ (Could you call me?). For 'cannot' put لَا in front: لَا يُمْكِنُنِي.",
     "table": {
       "head": [
         "Arabic",

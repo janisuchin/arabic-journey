@@ -1,0 +1,61 @@
+{
+  "chunk": "glossary-auto-1",
+  "reviewer": "A",
+  "errors": [
+    {
+      "file": "content/days/day51.json; content/course/vocabulary.json",
+      "path": "day51: dialogue.culture; dialogue.lines[6].ar; dialogue.lines[6].segs (فُلُوكَة, بِالْفُلُوكَة); reading.ar; reading segs; vocabulary.json [439] (nuzha) example.ar",
+      "current": "فُلُوكَة",
+      "problem": "The felucca is vocalised fulūka. The dictionary MSA form (Hans Wehr) is فَلُوكَة falūka, plural فَلَائِك / فَلُوكَات, and Egyptians say it with an a-type vowel too (feluka), never fu-. The learner taps بِالْفُلُوكَة and hears/reads bi-l-fulūka. This is the only place the word appears, so one replacement fixes every occurrence (بِالْفُلُوكَة contains the string).",
+      "category": "arabic",
+      "severity": "minor",
+      "confidence": "medium",
+      "fix": "فَلُوكَة",
+      "alsoChange": "bi-l-fulūka becomes bi-l-falūka everywhere; readings and auto glossary rebuild by themselves"
+    },
+    {
+      "file": "content/course/scenarios.json",
+      "path": "scenarios[29] (etiquette).dialogue.lines[4].ar; scenarios[29].dialogue.lines[4].segs[6]",
+      "current": "مَحَلِّ الْحَلْوِيَّات",
+      "problem": "Inconsistent vocalisation of 'sweets'. Here it is ḥalwiyyāt (sukūn on the lām), but the same course writes حَلَوِيَّات ḥalawiyyāt in the welcome scenario (dialogue.culture and dialogue.lines[1]) and in the vocabulary. ḥalawiyyāt is the standard MSA form, while ḥalwiyyāt is the everyday spoken form. The learner meets two spellings of one word.",
+      "category": "arabic",
+      "severity": "minor",
+      "confidence": "high",
+      "fix": "مَحَلِّ الْحَلَوِيَّات",
+      "alsoChange": "seg key الْحَلْوِيَّات → الْحَلَوِيَّات (gloss 'the sweets' unchanged)"
+    }
+  ],
+  "notes": [
+    {
+      "file": "content/course/scenes.json",
+      "path": "scene for restaurant spots[8] (الْمَفْرَش) vs scene for etiquette spots[7] (الْمِفْرَش)",
+      "note": "The tablecloth is labelled mafrash in one scene and mifrash in the other. Both are attested, but one spelling would be better. مِفْرَش is the more usual MSA form for 'tablecloth'."
+    },
+    {
+      "file": "content (seg source of أَخَذَ in day 74)",
+      "path": "auto default of أَخَذَ",
+      "note": "Out of a lesson, أَخَذَ taps as \"(he) took ('won')\". This hint from one lesson leaks into vocabulary.txt (the fāza example) and the days-71-80 grammar taps. It is harmless next to جَائِزَة, but a plain \"(he) took, got\" default would be cleaner (scoped.json '*')."
+    },
+    {
+      "file": "content (seg source of التَّدْوِير)",
+      "path": "التَّدْوِير / التَّدْوِيرِ",
+      "note": "The gloss \"the turning ('recycling')\": in modern MSA تَدْوِير on its own already means recycling (إِعَادَةُ التَّدْوِيرِ). 'the turning' is etymology only and could confuse. 'recycling (lit. turning around)' would be clearer."
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "plural أَرَاضٍ (tap gloss)",
+      "note": "أَرَاضٍ taps as 'earth (plural)'. 'lands, plots of land' would be clearer, because 'earths' is not what the plural means."
+    },
+    {
+      "file": "content (seg source of اللَّبَن)",
+      "path": "اللَّبَن = the yogurt (Levant)",
+      "note": "This is correct for the Levant, where the dialogue is set. In classical/Egyptian usage laban is milk. The '(Levant)' label already covers this, so it is just a remark."
+    },
+    {
+      "file": "audit/glossary-auto-1.txt",
+      "path": "أحمد, الدين, السلامة (unvocalised keys)",
+      "note": "These three unvocalised keys come from photo credit author fields (day74, day81, day88), not from lesson text. The learner never taps them, so there is nothing to fix."
+    }
+  ],
+  "summary": "I read all 3,636 lines of audit/glossary-auto-1.txt (about 3,630 vocalised forms, alif to zāy), which is the out-of-lesson tap meaning of every course form. I checked each form for spelling, harakat, hamza seat and case (the -a/-an/-i hints against inna/anna/kāna/lākinna/ilā) and each gloss for person, gender, number, mood (after an/lan/lam/lā) and sense. For about 40 doubtful entries I went back to the source seg in the area exports and content files: الْفَتْحَة 'the slot' (ticket machine, right), تَتَّصِلُ 'joins' (letters joining, right), لَمْ تَقُلْ / لَمْ تُوَافِقْ 'she', لَنْ تُصِرَّ, خَمْسَمِئَةِ (accusative object, right), الشَّرَاب 'syrup' (pharmacy; the week title has its own 'drink' seg), أَيِّ/أَيَّ 'any' vs 'which' (curated segs right in every question), أَكْبَرَ, أَحَدٌ, أُمِّ كُلْثُوم, حَتَّى أَبِيكُمَا, the -an/-a hints and the mistake-form entries. Two errors, both minor: the felucca is vocalised fulūka instead of falūka (medium confidence), and الْحَلْوِيَّات is inconsistent with the course's حَلَوِيَّات. No wrong person, mood, case hint or wrong sense turned up. Most of the oddities are context hints (\"('won')\", \"('will leave')\") that come from a correct lesson seg and are right in that lesson. Out of roughly 3,630 glosses and Arabic keys checked, 2 were wrong (both Arabic vocalisation, none a gloss)."
+}

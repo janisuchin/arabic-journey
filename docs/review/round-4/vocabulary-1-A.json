@@ -1,0 +1,110 @@
+{
+  "chunk": "vocabulary-1",
+  "reviewer": "A",
+  "errors": [
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[10].note",
+      "current": "مَا is used before a noun. Its initial a joins the next word: mā smuk.",
+      "problem": "Wrong rule: مَا has no 'initial a' that joins anything. What happens is that the waṣla vowel i of اِسْم drops after the long ā of مَا (mā + ism → mā smuk). A beginner learns the elision the wrong way round.",
+      "category": "grammar-fact",
+      "severity": "minor",
+      "confidence": "high",
+      "fix": "مَا is used before a noun. After it, the i of اِسْم drops: mā smuk.",
+      "alsoChange": "transliteration of the note follows"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[159].forms[3].ar (tap)",
+      "current": "تُحِبُّ=she loves",
+      "problem": "On the verb card the form is labelled 'you (m)', but its tap gloss says only 'she loves' (global auto gloss). The label and the meaning contradict each other on the conjugation table. Compare تَشْرَبُ on [95].forms[3]: 'you drink (to a man); she drinks'.",
+      "category": "gloss",
+      "severity": "minor",
+      "confidence": "high",
+      "fix": "تُحِبُّ=you love, you like (to a man); she loves",
+      "alsoChange": "scope: this vocabulary card only, not the app-wide gloss"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[329].ar (tap)",
+      "current": "فَعَلَ=he did, (they) did",
+      "problem": "فَعَلَ is 3rd person masculine singular. '(they) did' is the reading of one verb-first sentence with a plural subject, not the meaning of the headword. Earlier rounds fixed the same kind of gloss (سيخرج, يصوم, زارنا) to '(he) … (singular form, also used before a plural subject)'.",
+      "category": "gloss",
+      "severity": "minor",
+      "confidence": "medium",
+      "fix": "فَعَلَ=he did (singular form, also used before a plural subject)"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[370].ar (tap); [370].note (tap); [368].example.ar (tap); [370].example.ar (tap)",
+      "current": "ضَحِكَ=he laughed, (they) laughed",
+      "problem": "Same pattern: on the headword ضَحِكَ (and in the note ضَحِكَ مِنْ / ضَحِكَ مَعَ) the gloss gives '(they) laughed', which is a sentence reading (ضَحِكَ كُلُّ النَّاس). The form itself is 'he laughed'; 'they laughed' is ضَحِكُوا, shown as forms[1] on the same card.",
+      "category": "gloss",
+      "severity": "minor",
+      "confidence": "medium",
+      "fix": "ضَحِكَ=he laughed (singular form, also used before a plural subject)"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[359].example.ar (tap)",
+      "current": "أَذْهَبْ=I go",
+      "problem": "In لَمْ أَذْهَبْ the verb is the jussive (short form after لَمْ), and the lesson is exactly about that form. The other lam examples in this chunk mark it: أَخْرُجْ=I go out (form after 'lam'), يَحْضُرْ=he attends (form after 'lam'), أَكْتُبْ=I write (form after lam). Here the tap gives the plain indicative meaning with no mark.",
+      "category": "gloss",
+      "severity": "minor",
+      "confidence": "medium",
+      "fix": "أَذْهَبْ=I go (form after 'lam')"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[299].example.ar (tap); [304].example.ar (tap)",
+      "current": "طَوِيلًا=long",
+      "problem": "In عُمَر لَيْسَ طَوِيلًا (Omar is not tall) the tap says only 'long'. For a person the word means 'tall', and the English line says 'tall'. Compare قَوِيًّا=strong (after 'is not') and هَادِئًا=calm (after 'is not') in the same chunk.",
+      "category": "gloss",
+      "severity": "minor",
+      "confidence": "medium",
+      "fix": "طَوِيلًا=tall, long (after 'is not')"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[305].example.ar (tap)",
+      "current": "طَوِيلَة=long (f)",
+      "problem": "In هَلْ أَنْتِ طَوِيلَة مِثْلَ أُمِّكِ؟ (Are you tall like your mother?) the tap says 'long (f)'; said of a person it means 'tall'.",
+      "category": "gloss",
+      "severity": "minor",
+      "confidence": "medium",
+      "fix": "طَوِيلَة=tall, long (f)"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[95].forms[5].ar (tap)",
+      "current": "تَشْرَبِي=drink (to a woman)",
+      "problem": "تَشْرَبِي is the subjunctive/jussive 'you (f) drink' used after أَنْ or لَا (label: 'you, to a woman (after an or lā)'). The gloss 'drink (to a woman)' reads as the order, which is اِشْرَبِي (forms[8] on the same card). A learner can take تَشْرَبِي for the imperative.",
+      "category": "gloss",
+      "severity": "minor",
+      "confidence": "medium",
+      "fix": "تَشْرَبِي=you drink (to a woman, after an or lā)"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[28].note",
+      "current": "To a woman: كَيْفَ حَالُكِ؟ (kayfa ḥāluki).",
+      "problem": "The note's transliteration line shows the reading twice: 'To a woman: kayfa ḥāluki? (kayfa ḥāluki).' The Arabic is right; the engine transliterates the Arabic and keeps the hand-written transliteration in brackets. In other notes the engine keeps the Arabic when a bracketed transliteration follows (أَبِي (abī), قَرَأْتُ (qaraʾtu, I read), غَضْبَى (ghaḍbā)), so the behaviour is inconsistent; here it fails because of the ؟ before the bracket.",
+      "category": "engine",
+      "severity": "minor",
+      "confidence": "medium",
+      "fix": "To a woman: كَيْفَ حَالُكِ؟",
+      "alsoChange": "or fix the engine rule for 'Arabic؟ (translit)'; examples of the kept-Arabic behaviour: [35].note, [344].note, [401].note"
+    }
+  ],
+  "notes": [
+    { "file": "content/course/vocabulary.json", "path": "[206].example.ar (tap); [213].example.ar (tap)", "note": "الْمَكْتَبَة is tapped as 'the library' in sentences translated 'Layla goes to the bookshop' / 'The bookshop is in the third building'. Both senses are right; 'the bookshop; the library' would match the English." },
+    { "file": "content/course/vocabulary.json", "path": "[406].forms[3].ar; [406].forms[4].ar (tap)", "note": "تَنْسَ / تَنْسَيْ are glossed 'forget (to a man / woman)'. Correct inside لَا تَنْسَ, but on the bare forms list 'you forget (after lā)' would avoid reading them as orders." },
+    { "file": "content/course/vocabulary.json", "path": "[345].forms[0].ar (tap)", "note": "يَكُونُ is glossed '(it) is usually', a sentence-specific reading; on the conjugation card 'is, will be (present of kāna)' would be clearer." },
+    { "file": "content/course/vocabulary.json", "path": "[317].example.ar", "note": "The headword is اِبْنُ عَمّ but the example is خَالِد اِبْنُ خَالَتِي; a matching example would help. The kasra on the waṣl alif of اِبْنُ mid-sentence is a course-wide convention (not reported)." },
+    { "file": "content/course/vocabulary.json", "path": "[293].example.ar", "note": "عُيُونُهَا خَضْرَاء is correct; for one person's two eyes the dual عَيْنَاهَا خَضْرَاوَانِ is more natural MSA." },
+    { "file": "content/course/vocabulary.json", "path": "[311].example.ar (tap)", "note": "In جَدَّتِي كَبِيرَة فِي السِّنّ (elderly) the tap gives كَبِيرَة=big (f); 'old (f), lit. big' would help." },
+    { "file": "content/course/vocabulary.json", "path": "[104].ar (tap); [320].example.ar (tap)", "note": "يَسْكُنُ is glossed 'lives, live', which reads like a typo; 'he lives' (or 'live' only in أَيْنَ يَسْكُنُ أَقَارِبُكَ) would be cleaner." },
+    { "file": "content/course/vocabulary.json", "path": "many forms[].ar taps", "note": "Many inflected forms still show the fallback gloss \"form of 'X': label\" (e.g. أُولَى, ثَالِثَة, مُدَرِّسَة, يُشَاهِدُ). Not wrong, but a plain meaning would read better for beginners." }
+  ],
+  "summary": "Checked audit/vocabulary.txt lines 1–9014: entries [0]–[410] (411 vocabulary cards), about 1,450 Arabic strings (headwords, plurals, forms, examples, notes) and about 4,800 tap glosses, re-reading each example's syntax before judging endings. The Arabic itself is clean: I found no wrong harakat, case endings, agreement, number–noun agreement (3–10, 11–99, 100), jussive/subjunctive or hamza errors in this half. 9 errors, all minor: 1 grammar-fact (the مَا note describes the waṣla elision the wrong way round), 7 gloss (a 'you (m)' conjugation cell glossed 'she loves'; two headword taps still carrying the sentence-specific '(they) did/laughed' pattern earlier rounds fixed elsewhere; an unmarked jussive أَذْهَبْ after لَمْ; طَوِيل glossed 'long' where the sentence means 'tall' (2); تَشْرَبِي glossed like an order), and 1 engine (a note transliteration printed twice). Pattern: the remaining problems are tap glosses inherited from the global auto glossary that do not fit a vocabulary card or its label."
+}

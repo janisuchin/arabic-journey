@@ -1,0 +1,122 @@
+{
+  "chunk": "days-61-70",
+  "reviewer": "A",
+  "errors": [
+    {
+      "file": "content/days/day61.json",
+      "path": "dialogue.lines[6].ar",
+      "current": "لٰكِنَّ الْأَسْعَار فِي الْقَاهِرَة أَرْخَصُ",
+      "problem": "الْأَسْعَار is the noun of لٰكِنَّ (sister of inna); house style (DECISIONS R12-47) says the noun of inna/anna must show its ending, here accusative -a. The predicate أَرْخَصُ already shows its ending, so the bare noun looks like a nominative subject.",
+      "category": "arabic",
+      "severity": "minor",
+      "confidence": "medium",
+      "fix": "لٰكِنَّ الْأَسْعَارَ فِي الْقَاهِرَة أَرْخَصُ",
+      "alsoChange": "segs[1] word الْأَسْعَار → الْأَسْعَارَ; transliteration follows (l-asʿāra)"
+    },
+    {
+      "file": "content/days/day61.json",
+      "path": "dialogue.lines[7].ar",
+      "current": "لٰكِنَّ الدِّينَار الْأُرْدُنِّيّ أَقْوَى",
+      "problem": "الدِّينَار (with its adjective) is the noun of لٰكِنَّ; must-show ending (inna/anna noun) is missing: accusative -a on the noun and on the agreeing adjective.",
+      "category": "arabic",
+      "severity": "minor",
+      "confidence": "medium",
+      "fix": "لٰكِنَّ الدِّينَارَ الْأُرْدُنِّيَّ أَقْوَى",
+      "alsoChange": "segs[6] الدِّينَار → الدِّينَارَ; segs[7] الْأُرْدُنِّيّ → الْأُرْدُنِّيَّ"
+    },
+    {
+      "file": "content/days/day61.json",
+      "path": "reading.ar",
+      "current": "لٰكِنَّ الْحَيَاة فِيهَا أَغْلَى",
+      "problem": "الْحَيَاة is the noun of لٰكِنَّ; the must-show accusative ending is missing.",
+      "category": "arabic",
+      "severity": "minor",
+      "confidence": "medium",
+      "fix": "لٰكِنَّ الْحَيَاةَ فِيهَا أَغْلَى",
+      "alsoChange": "reading.segs: الْحَيَاة (after لٰكِنَّ) → الْحَيَاةَ"
+    },
+    {
+      "file": "content/days/day63.json",
+      "path": "dialogue.lines[9].ar",
+      "current": "لٰكِنَّ الْمَنْظَر مِنْ فَوْقُ",
+      "problem": "الْمَنْظَر is the noun of لٰكِنَّ; the must-show accusative ending is missing (the predicate أَجْمَلُ shows its ending).",
+      "category": "arabic",
+      "severity": "minor",
+      "confidence": "medium",
+      "fix": "لٰكِنَّ الْمَنْظَرَ مِنْ فَوْقُ",
+      "alsoChange": "segs[11] الْمَنْظَر → الْمَنْظَرَ"
+    },
+    {
+      "file": "content/days/day67.json",
+      "path": "dialogue.lines[3].ar",
+      "current": "أَنَّ الْعَرَب يَكْتُبُونَ",
+      "problem": "الْعَرَب is the noun of أَنَّ; the must-show accusative ending is missing.",
+      "category": "arabic",
+      "severity": "minor",
+      "confidence": "medium",
+      "fix": "أَنَّ الْعَرَبَ يَكْتُبُونَ",
+      "alsoChange": "segs[4] الْعَرَب → الْعَرَبَ"
+    },
+    {
+      "file": "content/days/day67.json",
+      "path": "dialogue.lines[5].ar",
+      "current": "إِنَّ الْمِلَفّ مَعَ الرِّسَالَة",
+      "problem": "الْمِلَفّ is the noun of إِنَّ (after قَالَ); the must-show accusative ending is missing.",
+      "category": "arabic",
+      "severity": "minor",
+      "confidence": "medium",
+      "fix": "إِنَّ الْمِلَفَّ مَعَ الرِّسَالَة",
+      "alsoChange": "segs[9] الْمِلَفّ → الْمِلَفَّ"
+    },
+    {
+      "file": "content/days/day68.json",
+      "path": "dialogue.lines[9].ar",
+      "current": "لِأَنَّ النَّاس يَجْتَمِعُونَ",
+      "problem": "النَّاس is the noun of أَنَّ (in لِأَنَّ); the must-show accusative ending is missing.",
+      "category": "arabic",
+      "severity": "minor",
+      "confidence": "medium",
+      "fix": "لِأَنَّ النَّاسَ يَجْتَمِعُونَ",
+      "alsoChange": "segs[7] النَّاس → النَّاسَ"
+    },
+    {
+      "file": "content/days/day69.json",
+      "path": "reading.ar",
+      "current": "إِنَّ التَّكْرَار مُهِمّ",
+      "problem": "التَّكْرَار is the noun of إِنَّ (after تَقُولُ); the must-show accusative ending is missing.",
+      "category": "arabic",
+      "severity": "minor",
+      "confidence": "medium",
+      "fix": "إِنَّ التَّكْرَارَ مُهِمّ",
+      "alsoChange": "reading.segs: التَّكْرَار (after إِنَّ) → التَّكْرَارَ"
+    }
+  ],
+  "notes": [
+    {
+      "file": "content/days/day61.json",
+      "path": "dialogue.lines[10].ar",
+      "note": "لٰكِنَّ سَامِي يُحِبُّ: the name is the noun of lākinna, strictly سَامِيَ. The course leaves names without case endings, so not reported; add the fatḥa only if the owner wants the inna rule applied to names too."
+    },
+    {
+      "file": "content/days/day62.json",
+      "path": "dialogue.lines[8].ar; dialogue.lines[8].en",
+      "note": "مِنْ عَجَائِبِ الدُّنْيَا السَّبْع / 'one of the Seven Wonders of the World': Petra is one of the New Seven Wonders (2007), as the day 63 culture note says. Suggest عَجَائِبِ الدُّنْيَا السَّبْعِ الْجَدِيدَة / 'the New Seven Wonders'. Fact, not language."
+    },
+    {
+      "file": "content/days/day67.json",
+      "path": "reading.ar",
+      "note": "The email mixes singular and polite plural address: أَرْجُو أَنْ تَكُونَ بِخَيْر (singular) then فِي انْتِظَارِ رَدِّكُمْ (plural of respect). Both are correct; one register would be tidier (e.g. رَدِّكَ, or أَنْ تَكُونُوا بِخَيْر)."
+    },
+    {
+      "file": "content/days/day66.json; content/days/day70.json",
+      "path": "day66 dialogue.lines[10].ar; day70 intro; day70 dialogue.lines[4].ar; day70 reading.ar",
+      "note": "Story timeline: on day 66 Daniel has been an intern 'for only a week' (and day 64 was his first day), but on day 70 he has been an intern 'a month' (بَعْدَ شَهْر مِنَ التَّدْرِيب, فِي شَهْر وَاحِد). Story logic only."
+    },
+    {
+      "file": "content/days/day68.json",
+      "path": "dialogue.lines[2].ar; dialogue.lines[9].ar",
+      "note": "مِنْ نَفْسِ الْجَذْر is normal modern MSA; careful style prefers مِنَ الْجَذْرِ نَفْسِهِ. Not an error."
+    }
+  ],
+  "summary": "Read the whole export audit/days-61-70.txt (days 61-70: comparatives, superlatives, Petra, office, university, phone, email, verb patterns, learning/teaching, job interview) and checked about 487 Arabic-bearing strings (sentences, mistakes wrong/right pairs, dialogue lines, readings, quiz prompts and options, intros and notes) and about 3,280 glosses (about 2,580 seg glosses and about 700 tap glosses). Harakat, hamza seats (تَقْرَئِيهَا, اِقْرَؤُوا, عَائِدَة), agreement (participles مُسَافِرَة/عَائِدَة/مُسْتَعِدَّة, dual verbs حَضَرَا/يَجْتَمِعَانِ/تَتَعَلَّمَانِ), verb-before-plural-subject rule, subjunctive after أَنْ, kāna/laysa predicates (مَدِينَةً غَنِيَّةً, لَسْتُ مُتَأَكِّدًا, لَيْسَ كَبِيرًا, كَانَ هٰذَا أَجْمَلَ يَوْم), counted nouns (عِشْرِينَ مِلْيُونَ شَخْص, سِتَّةِ آلَافِ, عَشَرَةَ أَفْعَال), superlative + indefinite noun, apposition (أَشْهَرَ مَكَان, الْمُدِيرِ الْعَامّ), email formulas (حَضْرَةَ … الْمُحْتَرَم, تَحِيَّةً طَيِّبَةً وَبَعْدُ), R12-29 سَأَتَّصِلُ بِكَ and R3-42 are all correct; all 70 quiz keys and every mistakes pair are right, and every gloss fits its sentence. 8 errors, all minor and all one pattern: the noun of inna/anna/lākinna is left in pause form (no accusative -a) in 8 lines, against the must-show list of DECISIONS R12-47 (the course does show it elsewhere, e.g. day 88 lākinna l-imlāʾa). No major errors and no regressions from the final round were found. 5 notes."
+}

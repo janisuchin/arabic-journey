@@ -1,0 +1,71 @@
+{
+  "chunk": "grammar",
+  "reviewer": "A",
+  "errors": [
+    {
+      "file": "content/course/grammar.json",
+      "path": "[62].explanation",
+      "current": "The person who can is an ending on it, as on a noun:",
+      "problem": "The yumkinu card says the person ending on يُمْكِنُ works 'as on a noun', but its first example is يُمْكِنُنِي with the verb ending ـنِي. On a noun 'me/my' is ـِي (day 60 says so: 'Only me is different: on a verb it is ـنِي, not ـِي'). Read literally, the rule produces the wrong form يُمْكِنِي.",
+      "category": "grammar-fact",
+      "severity": "minor",
+      "confidence": "medium",
+      "fix": "The person who can is an object ending on it, as on any verb (ـنِي for 'me'):",
+      "alsoChange": "the ⟶ line follows automatically"
+    },
+    {
+      "file": "content/course/grammar.json",
+      "path": "[5].explanation (⟶)",
+      "current": "The Arabic question mark ? is a mirrored ?.",
+      "problem": "Still there after round 3. R3-27 was marked AGREE for both [1] and [5], but only [1] was fixed (أنت now shows). In [5] the engine still turns ؟ into ?, so the sentence that introduces the Arabic question mark reads 'The Arabic question mark ? is a mirrored ?'. The learner never sees the sign.",
+      "category": "engine",
+      "severity": "minor",
+      "confidence": "high",
+      "fix": "The Arabic question mark ؟ is a mirrored ?.",
+      "alsoChange": "keep ؟ in ⟶ prose wherever it is the thing being explained, not sentence punctuation"
+    },
+    {
+      "file": "content/course/grammar.json",
+      "path": "[66].formula (tap); [66].explanation (tap); [66].table.rows[0][1] (tap)",
+      "current": "he did, (they) did",
+      "problem": "Still there (it was raised as an alsoChange in round 2). In the verb-patterns card فَعَلَ is the Form I model pattern ('Form I, فَعَلَ'). The tap adds '(they) did', which comes from the day 42 sentence وَمَاذَا فَعَلَ النَّاس, where the verb comes before a plural subject. On its own فَعَلَ never means 'they did' (that is فَعَلُوا). The other patterns in the card are glossed as patterns.",
+      "category": "gloss",
+      "severity": "minor",
+      "confidence": "high",
+      "fix": "faʿala (verb pattern, Form I; lit. he did)",
+      "alsoChange": "scope it to grammar [66] only; the day 42 seg can keep its sentence gloss"
+    },
+    {
+      "file": "content/course/grammar.json",
+      "path": "[77].table.rows[0][2] (tap)",
+      "current": "(she) causes",
+      "problem": "In مِنْ نَاحِيَةٍ، السَّيَّارَةُ مُرِيحَة، وَمِنْ نَاحِيَةٍ أُخْرَى، هِيَ تُسَبِّبُ التَّلَوُّث the subject of تُسَبِّبُ is the car (هِيَ = it, f), and the English says 'it causes pollution'. A tap of '(she)' points the learner to a person. The same issue on تَنْتَظِرَكَ (bus) was fixed to '(it, f)' in round 3.",
+      "category": "gloss",
+      "severity": "minor",
+      "confidence": "medium",
+      "fix": "(it, f) causes",
+      "alsoChange": "the day 83 seg of the same sentence can take the same gloss"
+    },
+    {
+      "file": "content/course/grammar.json",
+      "path": "[46].explanation (⟶); [74].examples[2].ar (⟶)",
+      "current": "biʾannanī",
+      "problem": "The clitic house style is not applied. بِأَنَّنِي is glossed as a clitic ('that I (bi- + anna + -nī)') but reads 'biʾannanī', while the formal-letter card in the same chunk reads بِأَنْ as 'bi-an'. In [74] بِمِلْيُونِ, glossed 'a million (of) (bi- after fāza)', reads 'bimilyūni', while the same card has 'bi-ʿishrīna' / 'bi-khayr'. Both come from content/readings/readings.json overrides.",
+      "category": "engine",
+      "severity": "minor",
+      "confidence": "medium",
+      "fix": "bi-annanī",
+      "alsoChange": "[74].examples[2].ar ⟶: 'bimilyūni' → 'bi-milyūni' (readings.json entries for بِأَنَّنِي and بِمِلْيُونِ)"
+    }
+  ],
+  "notes": [
+    { "file": "content/course/grammar.json", "path": "[51].explanation (tap); [51].examples[1].ar (tap)", "note": "سَتَأْتِي taps as 'will you come? (to a man); she will come'. The question mark comes from the day 52 sentence. In the statement أُمِّي سَتَأْتِي… 'you will come (to a man); she will come' would read better." },
+    { "file": "content/course/grammar.json", "path": "[68].explanation (tap)", "note": "يُشَاهِدُ in أَعْرِفُ أَنَّهُ يُشَاهِدُ taps as \"form of 'saw, watched': present\". '(he) watches' is clearer for a beginner." },
+    { "file": "content/course/grammar.json", "path": "[44].explanation", "note": "نَمْ (sleep!) is listed with خُذْ and كُلْ as 'short and irregular'. نَمْ is the regular hollow-verb order (tanāmu → nam). Only خُذْ and كُلْ are truly irregular. Harmless for beginners." },
+    { "file": "content/course/grammar.json", "path": "[71].explanation", "note": "'Careful style prefers إِنْ (if) with كَانَ' for reported yes/no questions is a strong claim. هَلْ, إِنْ and عَمَّا إِذَا are all used in good MSA. 'Careful style also uses…' would be safer." },
+    { "file": "content/course/grammar.json", "path": "[60].examples[1].ar", "note": "الْجَوّ هُنَا أَبْرَدُ مِنَ الْقَاهِرَة compares the weather to a city. It is fine in speech. مِنْهُ فِي الْقَاهِرَة would match the English 'than in Cairo' exactly." },
+    { "file": "content/course/grammar.json", "path": "[76].table.rows[4][1]", "note": "There is a space before the Arabic comma (رَدِّكُمْ ، بِجَامِعَتِكُمْ), which shows in the transliteration as 'Raddikum , bi-…'. Punctuation only." },
+    { "file": "content/course/grammar.json", "path": "[36].examples[0].ar", "note": "خَالِد اِبْنُ خَالَتِي has a kasra on the waṣl alif mid-sentence. This is the course-wide convention (also noted by weeks-tests A in round 4), so it is not reported." }
+  ],
+  "summary": "I read the whole grammar export: 78 cards, about 700 Arabic lines (titles, formulas, explanations, table cells, examples) and about 3,200 tap glosses. I re-parsed every example and table sentence for case, agreement and mood: lam/lan/an/li- forms, kāna/laysa/inna/anna predicates, numbers and counted nouns, dual and plural endings, hollow and passive forms, and conditionals. I found no wrong Arabic form, case ending or agreement error, and no rule that teaches wrong Arabic. All the round-3 grammar items I checked are now fixed (inna taps, yakūnu table, imperative and verbal-noun taps, mundhu 'ago', relative pronouns, nāḥiya, the clitic hyphens in [17]/[51]/[74]/[76]), with one exception: the ؟ engine fix (R3-27) reached [1] but not [5]. 5 errors, all minor: 1 grammar-fact (yumkinu 'as on a noun' while the ending is the verb ending ـنِي), 2 gloss (فَعَلَ '(they) did' leaking from day 42; تُسَبِّبُ '(she)' for a car), 2 engine (؟ shown as ? in [5]; clitic hyphen missing in biʾannanī / bimilyūni). Of about 3,200 taps, 2 are wrong; of about 700 Arabic lines, none has a wrong form; 2 ⟶ lines are wrong (engine)."
+}

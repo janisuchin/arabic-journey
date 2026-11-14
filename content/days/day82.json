@@ -1484,7 +1484,7 @@
       {
         "id": "d82l16",
         "sp": "sami",
-        "ar": "وَإِذَا قَبِلَتِ الْجَامِعَة طَلَبَكِ، سَنَحْتَفِلُ فِي مَطْعَم! وَأَنْتِ تَدْفَعِينَ طَبْعًا، فَالْمِنْحَة لَكِ!",
+        "ar": "وَإِذَا قَبِلَتِ الْجَامِعَة طَلَبَكِ، فَسَنَحْتَفِلُ فِي مَطْعَم! وَأَنْتِ تَدْفَعِينَ طَبْعًا، فَالْمِنْحَة لَكِ!",
         "en": "And if the university accepts your application, we'll celebrate in a restaurant! And you'll pay, of course, because the scholarship is yours!",
         "segs": [
           [
@@ -1504,8 +1504,8 @@
             "your application (to a woman)"
           ],
           [
-            "سَنَحْتَفِلُ",
-            "we will celebrate"
+            "فَسَنَحْتَفِلُ",
+            "then we will celebrate"
           ],
           [
             "فِي",

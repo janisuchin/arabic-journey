@@ -1,0 +1,35 @@
+{
+  "chunk": "days-71-80",
+  "checker": "X4-2",
+  "verdicts": [
+    {
+      "id": 1,
+      "verdict": "AGREE",
+      "fix": "content/days/day74.json quiz[1].options[3]: مَا → أَنْ (answer index 0 = الَّتِي unchanged). The option's tap meaning comes from the existing gloss أَنْ = 'to, that'; no seg to change.",
+      "scope": "day 74 quiz[1] only",
+      "reason": "With a bare 'Complete:' prompt, الرِّوَايَةُ مَا قَرَأْتُهَا ('The novel, I didn't read it': topic + negated verb + resumptive -hā) is good MSA, so a learner choosing مَا is marked wrong for correct Arabic. الرِّوَايَةُ أَنْ قَرَأْتُهَا is ungrammatical, so أَنْ is a clean distractor."
+    },
+    {
+      "id": 2,
+      "verdict": "AGREE",
+      "fix": "content/days/day74.json quiz[2].options[3]: هُمْ → أَنْ (answer index 1 = الَّذِينَ unchanged). Tap meaning from the existing gloss أَنْ = 'to, that'. Do not use مَا here either (الطُّلَّابُ مَا يَدْرُسُونَ هُنَا is also grammatical).",
+      "scope": "day 74 quiz[2] only",
+      "reason": "الطُّلَّابُ هُمْ يَدْرُسُونَ هُنَا is a correct nominal sentence (topic + pronoun-subject + verb), so the distractor is also right. أَنْ + indicative يَدْرُسُونَ is ungrammatical, leaving one correct option."
+    },
+    {
+      "id": 3,
+      "verdict": "AGREE",
+      "fix": "content/days/day72.json reading.ar: كَانَتِ الْأَغَانِي طَوِيلَة، → كَانَتِ الْأَغَانِي طَوِيلَةً، and the matching seg in reading.segs must change too: طَوِيلَة → طَوِيلَةً. Its gloss may stay 'long (f)' or take the chunk's tag 'long (f) (-an after kāna)'. Transliteration follows (ṭawīlatan).",
+      "scope": "day 72 reading only",
+      "reason": "Predicate of kāna is on the must-show list (R12-47), and it stands mid-sentence before a comma. Accusative tanwīn -tan is correct."
+    },
+    {
+      "id": 4,
+      "verdict": "AGREE",
+      "fix": "content/days/day73.json dialogue.lines[7].en: replace only 'Al Ahly beat Zamalek 2–1' with 'Al Ahly beats Zamalek 2–1'; the rest of the line stays. The Arabic and segs (يَفُوزُ = wins) are unchanged.",
+      "scope": "day 73 dialogue line 8 English only; reading.en 'Al Ahly beat Zamalek' is narrative past and stays",
+      "reason": "The Arabic headline uses the present يَفُوزُ and lines 6–7 of the same dialogue explain that headlines use the present; the first headline is already rendered in the English headline present. 'beats' matches the Arabic and the lesson."
+    }
+  ],
+  "summary": "X4-2 checked all 4 errors against audit/days-71-80.txt and DECISIONS: 4 AGREE, 0 CHANGE, 0 DISAGREE. Two day 74 distractors (مَا, هُمْ) also make grammatical sentences, so both become أَنْ (ungrammatical in both frames); the day 72 kāna predicate needs طَوِيلَةً with the matching seg; the day 73 English headline should be present 'beats'. No Arabic fix changes the lesson's meaning."
+}

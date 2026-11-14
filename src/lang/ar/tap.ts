@@ -156,7 +156,8 @@ function cliticReading(w: string, r: { text: string; wasl: boolean }): { text: s
   let restTr = (readingsLayer[rest]?.[0] ?? translitWord(rest).text).replace(/^ʾ/, '');
   if (!restTr) return r;
   namesSet();
-  if (nameIndex!.has(rest) || bareNamesSet().has(stripHarakat(rest))) restTr = capitaliseName(restTr);
+  if (!NOT_NAMES.has(withoutCaseVowel(rest)) && (nameIndex!.has(rest) || bareNamesSet().has(stripHarakat(rest))))
+    restTr = capitaliseName(restTr);
   return { text: `${tr}-${restTr}`, wasl: false };
 }
 /** Titles and kin words that are followed by a person's name. */
@@ -187,7 +188,10 @@ const isTitle = (bare: string) => TITLE_WORDS.has(bare) || TITLE_WORDS.has(bare.
 /** Words that begin with a clitic letter but are taught as one word. */
 const CLITIC_WHOLE = new Set(['كما', 'لماذا', 'لكن', 'لكي', 'كذلك', 'لذلك', 'بجانب']);
 /** Taught as clitic + word although the gloss does not start with "with/in": the course writes bi-khayr. */
-const CLITIC_FORCE = new Set(['بخير']);
+const CLITIC_FORCE = new Set(['بخير', 'بجائزة', 'بأنني', 'بمليون']);
+/** Words spelt like a course name but not a name behind a clitic (li-ḥusni, not li-Ḥasan), without the case vowel. */
+const NOT_NAMES = new Set(['حُسْن']);
+const withoutCaseVowel = (w: string) => w.replace(/[ًٌٍَُِْ]$/, '');
 
 /** A word ending in a vowel or in tanwīn lets the next article or hamzat al-waṣl elide (jiddan l-yawma). */
 const endsInVowel = (w: string, tr: string) => /[aiuāīū]$/.test(tr) || ENDS_TANWIN.test(w);
@@ -274,20 +278,24 @@ export function tapTokens(text: string, style: TranslitStyle, names?: Set<string
 export function proseTranslit(text: string, style: TranslitStyle, after = '', before = '', spoken = false) {
   const toks = tapTokens(text, style, namesSet(), false, spoken);
   const join = (xs: typeof toks) => xs.map((x) => x.text).join('');
-  const out = toks
-    .map((t, i) => {
-      if (t.kind === 'punct') return ({ '،': ',', '؟': '?', '؛': ';' } as Record<string, string>)[t.text] ?? t.text;
-      if (t.kind === 'num') return t.text; // digits talked about in English stay as written (٠١٢٣ ≠ 0123)
-      const letter =
-        t.kind === 'ar' && t.text.length === 1
-          ? (letterByChar.get(t.text) ?? (SIGN_NAMES[t.text] ? { name: SIGN_NAMES[t.text] } : undefined))
-          : undefined;
-      if (!letter) return t.tr;
-      // the English already names it ("ء (hamza)", "hamza ء"): do not say the name twice
-      const named =
-        namedNext(letter.name, join(toks.slice(i + 1)) + after) || namedBefore(letter.name, before + join(toks.slice(0, i)));
-      return named ? '' : toStyle(letter.name, style);
-    })
+  const isName: boolean[] = [];
+  const outs = toks.map((t, i) => {
+    if (t.kind === 'punct') return ({ '،': ',', '؟': '?', '؛': ';' } as Record<string, string>)[t.text] ?? t.text;
+    if (t.kind === 'num') return t.text; // digits talked about in English stay as written (٠١٢٣ ≠ 0123)
+    const letter =
+      t.kind === 'ar' && t.text.length === 1
+        ? (letterByChar.get(t.text) ?? (SIGN_NAMES[t.text] ? { name: SIGN_NAMES[t.text] } : undefined))
+        : undefined;
+    if (!letter) return t.tr;
+    // the English already names it ("ء (hamza)", "hamza ء"): do not say the name twice
+    const named =
+      namedNext(letter.name, join(toks.slice(i + 1)) + after) || namedBefore(letter.name, before + join(toks.slice(0, i)));
+    isName[i] = !named;
+    return named ? '' : toStyle(letter.name, style);
+  });
+  // a run of letters is a list of names: (alif with hamza, wāw with hamza), not one run of words
+  const out = outs
+    .map((o, i) => (toks[i].kind === 'space' && isName[i - 1] && isName[i + 1] ? ', ' : o))
     .join('')
     .replace(/\(\s*\)/g, '') // a letter named in the English leaves no empty brackets: "ḥāʾ versus hāʾ"
     .replace(/\s+([,.;:?!)])/g, '$1')
@@ -345,7 +353,12 @@ export function proseLine(text: string, style: TranslitStyle, spoken = false) {
   const parts = groups.map((p) => p.tokens.map((t) => t.text).join(''));
   return parts
     .map((s, i) => {
-      if (!groups[i].ar) return s.replace(/[،؟؛]/g, (p) => ({ '،': ',', '؟': '?', '؛': ';' })[p]!);
+      // a sign that ends an Arabic word is punctuation (?); a sign standing alone is the thing talked about (؟)
+      if (!groups[i].ar)
+        return s.replace(/[،؟؛]/g, (p, off: number) => {
+          const prev = off > 0 ? s[off - 1] : i > 0 ? 'x' : '';
+          return /\S/.test(prev) ? { '،': ',', '؟': '?', '؛': ';' }[p]! : p;
+        });
       const r = proseTranslit(s, style, parts.slice(i + 1).join(''), parts.slice(0, i).join(''), spoken);
       return r || s;
     })

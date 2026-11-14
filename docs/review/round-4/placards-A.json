@@ -1,0 +1,56 @@
+{
+  "chunk": "placards",
+  "reviewer": "A",
+  "errors": [
+    {
+      "file": "content/course/placards.json",
+      "path": "[13].items[5].ar",
+      "current": "أُولٰئِكَ",
+      "problem": "The Arabic is correct, but the generated transliteration is 'Ūlāʾika' with a long ū. The wāw in أُولٰئِكَ is only a spelling convention and is silent, so the word is said ulāʾika with a short u. Learners who read the ⟶ line will lengthen the first vowel. This is the only place it appears in the exports (grep shows no other ⟶ for this word). The same silent-wāw rule applies to أُولُو / أُولَاتُ if they are ever added.",
+      "category": "engine",
+      "severity": "minor",
+      "confidence": "high",
+      "fix": "keep the Arabic أُولٰئِكَ; give this word a transliteration override (or an engine rule: wāw after ḍamma in أُولٰئِكَ / أُولُو is silent) so it reads 'Ulāʾika'",
+      "alsoChange": "audit export regenerates automatically"
+    },
+    {
+      "file": "content/course/placards.json",
+      "path": "[14].description",
+      "current": "The present tense adds a prefix (and for some persons an ending) to the stem ـكْتُبُ. Here: يَكْتُبُ, to write.",
+      "problem": "The text calls ـكْتُبُ (-ktubu) the stem, but the final -u is the indicative mood ending, not part of the stem. The table on this placard shows that: تَكْتُبِينَ and تَكْتُبُونَ replace the -u with -īna / -ūna. Teaching -ktubu as the stem will mislead the learner later with لَمْ أَكْتُبْ / لَنْ أَكْتُبَ, where only that last vowel changes. The past placard correctly gives the stem without an ending (كَتَبْـ).",
+      "category": "grammar-fact",
+      "severity": "minor",
+      "confidence": "medium",
+      "fix": "The present tense adds a prefix (and for some persons an ending) to the stem ـكْتُب. Here: يَكْتُبُ, to write.",
+      "alsoChange": "tap gloss for the stem: 'ـكْتُب=-ktub (the present-tense stem of \"to write\")'"
+    }
+  ],
+  "notes": [
+    {
+      "file": "audit/placards.txt",
+      "path": "pc.cafe",
+      "note": "The export is cut off after pc.cafe items[0] (قَهْوَة): the file ends at line 1181. I checked items[1]–[8] and the example directly in content/course/placards.json (شَاي، مَاء، عَصِير، حَلِيب، سُكَّر، بِدُونِ سُكَّر، فِنْجَانُ قَهْوَة، الْحِسَابُ، مِنْ فَضْلِكَ; example أُرِيدُ قَهْوَةً بِدُونِ سُكَّرٍ، مِنْ فَضْلِكَ). They are all correct, but their transliterations and taps were not visible. Regenerate the export so the cross-checker can see them."
+    },
+    {
+      "file": "content/course/placards.json",
+      "path": "[15].items[7].note",
+      "note": "The transliterated note reads 'The final alif of -ū is written but not pronounced'. The engine turns ـُوا into '-ū', so the alif being described disappears from the sentence. Consider wording the transliterated form as '-ū (written ـُوا)' or excluding this suffix from transliteration."
+    },
+    {
+      "file": "content/course/placards.json",
+      "path": "[6].example.note",
+      "note": "The transliterated note reads 'With tāʾ marbūṭa the tāʾ marbūṭa becomes tāʾ before the ending'. It is correct but repetitive, because the ة is replaced by its name. It could say 'the ة (tāʾ marbūṭa) becomes ت (tāʾ)'."
+    },
+    {
+      "file": "content/course/placards.json",
+      "path": "[4].items[10].note",
+      "note": "'Everyday; formal: مُبَارَك' is acceptable. In written MSA, congratulations are more often مُبَارَكٌ (عَلَيْكَ) or تَهَانِينَا. Optional: add one of them."
+    },
+    {
+      "file": "content/course/placards.json",
+      "path": "[19].example.en",
+      "note": "أُرِيدُ is glossed 'I want' in the description but translated 'I'd like' in the example. This is the known polite-ordering leftover and is not worse here."
+    }
+  ],
+  "summary": "I read all 20 placards: the whole export audit/placards.txt plus the pc.cafe items that the export cuts off, checked from content/course/placards.json. That is about 230 Arabic strings (titles, items, examples, notes and description words), about 280 seg glosses and about 75 tap glosses. I checked harakat and case endings in every example sentence: laysa predicate مُتْعَبًا, jussive after lam and lā nāhiya, subjunctive after lan, genitive after prepositions, counted-noun polarity in ثَلَاثَةُ أَوْلَادٍ, diptote حَمْرَاءُ, and kam + accusative singular. I also checked the 14/14 sun and moon letter split, letter names, the alphabet order and the demonstrative and pronoun tables. The placards are in very good shape: no wrong Arabic, agreement, verb form, translation or answer-key error remains. 2 errors found, both minor: 1 engine (أُولٰئِكَ transliterated with a long ū; it should be ulāʾika) and 1 grammar-fact (the present stem given as ـكْتُبُ with the mood ending). 0 tap glosses are wrong. Main pattern: the remaining issues are in how the engine renders notes, not in the Arabic itself."
+}

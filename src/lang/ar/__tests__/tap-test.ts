@@ -83,6 +83,21 @@ describe('Arabic language pack', () => {
     expect(proseLine("'My father' is أَبِي (abī).", 'academic')).toBe("'My father' is أَبِي (abī).");
     expect(proseLine('١ وَاحِد · ٢ اِثْنَان', 'academic')).toBe('١ wāḥid · ٢ ithnān');
   });
+  it('round 4: hamza seats, silent wāw, lone Arabic signs, letter lists, clitics', () => {
+    expect(translitLine('أ', 'academic')).toBe('ʾ');
+    expect(translitLine('إ', 'academic')).toBe('ʾ');
+    expect(translitLine('أَنَا', 'academic')).toBe('Anā');
+    expect(translitLine('أُولٰئِكَ', 'academic')).toBe('Ulāʾika');
+    expect(proseLine('The Arabic question mark ؟ is a mirrored ?.', 'academic')).toBe(
+      'The Arabic question mark ؟ is a mirrored ?.',
+    );
+    expect(proseLine('Ask: هَلْ أَنْتَ مِصْرِيّ؟ Then wait.', 'academic')).toBe('Ask: hal anta miṣrī? Then wait.');
+    expect(proseTranslit('(أ إ ؤ ئ)', 'academic')).toBe(
+      '(alif with hamza, alif with hamza below, wāw with hamza, yāʾ with hamza)',
+    );
+    expect(translitLine('فَازَ بِجَائِزَةِ', 'academic')).toBe('Fāza bi-jāʾizati');
+    expect(translitLine('شُكْرًا لِحُسْنِ الِاسْتِمَاعِ', 'academic', namesSet())).toBe('Shukran li-ḥusni l-istimāʿi');
+  });
   it('round 3: one clitic style, endings, Allāhu, names after titles, no repeated senses', () => {
     expect(translitLine('وَجُبْنًا وَخُبْزًا', 'academic')).toBe('Wa-jubnan wa-khubzan');
     expect(translitLine('لَاشْتَرَيْتُ', 'academic')).toBe('La-shtaraytu');

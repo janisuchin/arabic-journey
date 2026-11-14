@@ -1,0 +1,48 @@
+{
+  "chunk": "days-11-20",
+  "reviewer": "A",
+  "errors": [],
+  "notes": [
+    {
+      "file": "content/days/day18.json",
+      "path": "realLife.story; dialogue.lines[0].ar; dialogue.lines[1].ar",
+      "note": "Story logic: on day 12 Yusuf lives in Cairo with Sami's family for a few months and Daniel already knows him (طَبْعًا! أَهْلًا يَا يُوسُف). On day 18 he is 'visiting Cairo', 'in Cairo this week' (هُوَ فِي الْقَاهِرَة هٰذَا الْأُسْبُوع), and Daniel greets him as a new acquaintance (تَشَرَّفْنَا). The Arabic is correct; the owner may want to align the story (e.g. drop تَشَرَّفْنَا and 'this week')."
+    },
+    {
+      "file": "content/days/day14.json",
+      "path": "dialogue.culture",
+      "note": "Fact wording: the Pan-Arab colours are red, white, black and green, but Egypt's flag (listed first) has no green. 'Some or all of these colours appear on the flags of …' would be more exact."
+    },
+    {
+      "file": "content/days/day11.json",
+      "path": "dialogue.lines[4].en",
+      "note": "الْقَهْوَة قَوِيَّة جِدًّا لِي is literally 'very strong for me'; the English 'too strong' is idiomatic and acceptable. If closer English is wanted: 'Coffee is very strong for me!'"
+    },
+    {
+      "file": "content/days/day13.json",
+      "path": "dialogue.lines[12].ar",
+      "note": "مَتَى هِيَ سَهْلَة؟ is understandable but stiff for 'When does it get easy?'; مَتَى تُصْبِحُ سَهْلَةً؟ is the natural MSA (beyond day-13 grammar, so keeping the simple form is a fair choice)."
+    },
+    {
+      "file": "content/days/day12.json",
+      "path": "dialogue.lines[14].ar",
+      "note": "هَيَّا يَا أَصْدِقَاء، نَشْرَبُ الشَّاي الْآن: after هَيَّا careful MSA often uses بِنَا and/or the jussive (هَيَّا بِنَا نَشْرَبِ الشَّايَ); the indicative is also widely used. Not an error."
+    },
+    {
+      "file": "content/days/day13.json",
+      "path": "dialogue.lines[3].ar",
+      "note": "مِثْلُ مَطَارِ الْقَاهِرَة (also day 14 dialogue.lines[9].ar مِثْلُ النِّيل): ḍamma reads as predicate of an omitted هُوَ, which is acceptable; مِثْلَ is the other common reading. No change needed."
+    },
+    {
+      "file": "content/days/day13.json",
+      "path": "dialogue.lines[6].ar; dialogue.lines[7].ar",
+      "note": "Transliteration style only: one-unit glossed bi- words appear unhyphenated (bisurʿa, bibuṭʾ; also bidūni day 11/15/16, bijānibi day 19) while the house style quotes bi-khayr. Owner may want one convention; not an accuracy issue."
+    },
+    {
+      "file": "content/days/day13.json",
+      "path": "dialogue.lines[4].ar",
+      "note": "آهْ keeps a final sukūn although the course removed final pause sukūn elsewhere (شَاي, حُلْو). As an interjection it is acceptable; cosmetic only."
+    }
+  ],
+  "summary": "Read the whole export audit/days-11-20.txt (days 11-20, 2,869 lines) and checked every Arabic string (545 vocalised strings with transliteration), 216 segs lines and 329 tap lines (roughly 2,300 word glosses), plus all quiz keys, mistakes right/wrong pairs, grammar intros and the dual / sound-plural / broken-plural / number-gender (3-10) / colour-agreement / object -an teaching. I re-read each sentence's syntax before judging case endings (objects in the -an lessons, kāna-free nominal sentences, idāfa, elative + indefinite noun, badal خُصُوصًا أُمَّ عَلِيّ, mixed-gender dual صَدِيقَانِ, عَطْشَانَانِ, verb-first singular before a plural/compound subject). Number agreement is right throughout (عَشَرَة أَرْغِفَة, سَبْعَة صُحُون/أَكْوَاب, سَبْعَ مَلَاعِق/شُوَك, عَشْر كَلِمَات, ثَلَاثَة أَكْوَاب, أَرْبَعَة أَشْخَاص); flag facts (Egypt eagle, Lebanon cedar, Jordan triangle and star) are correct; all quiz answers and mistake pairs are correct. Errors found: 0 (0 Arabic strings and 0 tap/seg glosses wrong). The remaining points are notes: one story-logic inconsistency about Yusuf (days 12 vs 18), one culture-wording point (Pan-Arab colours vs Egypt's flag), and minor style/naturalness remarks. Everything else is house style (pause form, hal…am, 'I would like' on ordering lines, multi-sense particle glosses, tanwīn + helping kasra in transliteration such as jiddani l-ān)."
+}

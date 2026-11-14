@@ -1,0 +1,21 @@
+{
+  "chunk": "weeks-tests",
+  "checker": "X4-4",
+  "verdicts": [
+    {
+      "id": 1,
+      "verdict": "AGREE",
+      "fix": "content/glossary/scoped.json: under \"تُحِبُّ\" add \"week:3\": \"you like (to a man); she likes\"",
+      "scope": "week:3 test only (place week:3, set by src/app/week-test/[week].tsx); the only تُحِبُّ in the week-3 test is w3t8 options[3]. Do not change any app-wide gloss (auto.json is not read by the app anyway).",
+      "reason": "Confirmed at audit/weeks-tests.txt:443-445: in هَلْ تُحِبُّ الطَّعَامَ الْحَارَّ؟ with no subject the natural reading is 'Do you like spicy food?', but the tap says 'she loves'. A scoped gloss in tap.ts wins over the lesson-seg sense (scoped[ctx.place] is checked before hand/seg glosses), so the fix works and stays local."
+    },
+    {
+      "id": 2,
+      "verdict": "DISAGREE",
+      "fix": "",
+      "scope": "",
+      "reason": "Not misleading enough to be an error. The week:12 gloss already starts with the plain sense 'on', which is exactly right for عَلَى الْحَاسُوب; the parenthesis is explicitly labelled as the ʿalā ḥaqq use and is needed for w12t7 (أَنْتَ عَلَى حَقّ) in the same test. Scopes work per place (week:12), not per question, so the gloss cannot be split between w12t4 and w12t7, and the proposed wording 'on; (in ʿalā ḥaqq) in the right' says the same thing in a different order. No change."
+    }
+  ],
+  "summary": "2 errors checked: 1 AGREE (scoped week:3 gloss for تُحِبُّ 'you like (to a man); she likes'), 0 CHANGE, 1 DISAGREE (week:12 عَلَى gloss already leads with 'on'; the ʿalā ḥaqq note is labelled and needed in the same test, and scopes cannot target one question)."
+}

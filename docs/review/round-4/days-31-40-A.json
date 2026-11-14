@@ -1,0 +1,56 @@
+{
+  "chunk": "days-31-40",
+  "reviewer": "A",
+  "errors": [
+    {
+      "file": "content/days/day39.json",
+      "path": "sentences[1].mistakes[0].why",
+      "current": "عُطْلَة is feminine, so 'was' becomes كَانَتْ. Before al- its sukūn turns into i: كَانَتِ الْعُطْلَة.",
+      "problem": "The card marks كَانَ الْعُطْلَةُ مُمْتِعَةً as wrong. With a grammatically (not naturally) feminine noun that follows the verb directly, the masculine verb is permitted in fuṣḥā (classical rule: taʾnīth is optional for a majāzī feminine; e.g. Qur'anic كَيْفَ كَانَ عَاقِبَةُ …). The feminine is the usual, better form, so per the owner's guiding rule ('where both forms are good, say better / usually, not wrong', as in R3-55) the note should not call the masculine wrong.",
+      "category": "grammar-fact",
+      "severity": "minor",
+      "confidence": "medium",
+      "fix": "عُطْلَة is feminine, so 'was' is usually كَانَتْ (كَانَ is possible but less usual). Before al- its sukūn turns into i: كَانَتِ الْعُطْلَة.",
+      "alsoChange": "keep the mistake pair (feminine stays the taught form); only the wording of 'why' is softened"
+    },
+    {
+      "file": "content/days/day39.json",
+      "path": "quiz[1].options[0]",
+      "current": "كَانَ",
+      "problem": "Fill the gap '… الرِّحْلَةُ قَصِيرَةً' (The trip was short): the key كَانَتِ is right, but the distractor كَانَ is also grammatical for the majāzī feminine رِحْلَة placed right after the verb (see the previous finding), so a second option is defensible. Replace it with a clearly wrong form, as was done for R3-18.",
+      "category": "answer-key",
+      "severity": "minor",
+      "confidence": "medium",
+      "fix": "كَانُوا",
+      "alsoChange": "only quiz[1].options[0] of day 39 (not other uses of كَانَ); tap gloss for كَانُوا = 'they were' already exists; answer index stays 2"
+    }
+  ],
+  "notes": [
+    {
+      "file": "content/days/day38.json",
+      "path": "quiz[6].options[0]",
+      "note": "The ⟶ line for the option أ is empty (other letter options show S, B, ʿ). Already noted in round 1; the tap gloss 'hamza on an alif seat' covers it, but an ʾ in the line would be clearer."
+    },
+    {
+      "file": "content/days/day34.json",
+      "path": "dialogue.lines[11].ar; reading.ar; content/days/day39.json sentences[4].ar; dialogue.lines[9].ar; content/days/day35.json dialogue.lines[6].ar",
+      "note": "Counted nouns after 3–10 stay in pause form even where the number carries its ending: عَشَرَةُ أَحْفَاد, سِتَّةُ أَشْخَاص, عَشَرَةَ أَشْخَاص, أَرْبَعُ كَلِمَات (while day 34 writes عَشْرُ سَنَوَاتٍ). Allowed by the house style (endings required only after 11–99); adding the -in (أَحْفَادٍ, أَشْخَاصٍ, كَلِمَاتٍ) would be more consistent within the same lesson."
+    },
+    {
+      "file": "content/days/day31.json",
+      "path": "dialogue.lines[13].ar",
+      "note": "غَدًا عِنْدِي ثَلَّاجَة 'Tomorrow I'll have a fridge' uses a verbless sentence for the future; correct and common, but careful MSA would say سَيَكُونُ عِنْدِي ثَلَّاجَةٌ. Fine for day 31 (kāna not yet taught)."
+    },
+    {
+      "file": "content/days/day37.json",
+      "path": "dialogue.lines[5].en",
+      "note": "English 'He said the water was far too cold!' for قَالَ: الْمَاء بَارِد جِدًّا (direct speech, 'very cold'). Closer: 'He said: the water is very cold!'"
+    },
+    {
+      "file": "content/days/day38.json",
+      "path": "realLife.story; dialogue",
+      "note": "Story logic: the call is on Friday evening and 'last week' covers Saturday (Alexandria) to Wednesday of the same week that days 36–37 just told; 'this past week' would fit better in English. The Arabic الْأُسْبُوعَ الْمَاضِي is fine."
+    }
+  ],
+  "summary": "Read the whole export for days 31–40 (about 460 Arabic strings: sentences, mistakes pairs, dialogues, readings, quiz options, embedded Arabic in English prose; and about 2,100 seg/tap glosses). For every case ending I checked the syntax (laysa and kāna predicates, idāfa, objects, adverbial -an, counted nouns 3–10 and 11–99, vocatives, inna/lākinna). The chunk is clean: ʿinda/lī/maʿa, adjective agreement (including non-human plural عُيُونُهَا خَضْرَاء), laysa conjugation with -an, age numbers with polarity (عَشْرُ سَنَوَاتٍ, ثَمَانِي سَنَوَاتٍ, عِشْرُونَ سَنَةً, عَشَرَةُ أَحْفَاد), kinship idāfa (اِبْنُ خَالَتِي, أَخُو أَبِي), past-tense paradigms incl. hollow verbs (زُرْنَا, نِمْتُ, كُنَّا) and duals (فَعَلْتُمَا, أَخْبِرَانِي, نَظِيفَتَانِ), mā + past negation, time adverbs (الْأُسْبُوعَ الْمَاضِي, أَوَّلَ أَمْسِ, مُنْذُ) and qabla/baʿda (an) are all correct, as are all quiz keys bar one, and all glosses. 0 major errors; 2 minor (medium confidence), both from one point: day 39 treats the masculine كَانَ before a grammatically feminine noun as wrong, while fuṣḥā permits it (feminine is usual). 0 wrong tap glosses found; 5 notes."
+}

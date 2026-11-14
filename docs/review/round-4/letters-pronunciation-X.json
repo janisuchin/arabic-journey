@@ -1,0 +1,14 @@
+{
+  "chunk": "letters-pronunciation",
+  "checker": "X4-4",
+  "verdicts": [
+    {
+      "id": 1,
+      "verdict": "CHANGE",
+      "fix": "Engine (src/core/translit.ts), no Arabic change: (a) a bare hamza-seat letter shown on its own (أ، إ، ؤ، ئ, no harakat) is transliterated 'ʾ', like ء, so pronunciation.json [13].letters[1]–[4] all read 'ʾ' (no more empty ⟶ for أ ؤ ئ and no 'I' for إ); (b) when a space-separated run of single letters inside prose is expanded to letter names, join the names with ', ', so letters.json [28].sound reads '(alif with hamza, alif with hamza below, wāw with hamza, yāʾ with hamza)'.",
+      "scope": "engine; affects only bare single seat letters and runs of bare letters in prose",
+      "reason": "Confirmed at audit/letters-pronunciation.txt:607 and 1181-1195: ⟶ is empty under أ ؤ ئ, 'I' under إ and 'ʾ' under ء, on a page whose point is that every seat has the same sound; the sound line runs four names together with no separators. The reviewer's fix offered two options (print ʾ or suppress ⟶); CHANGE only to fix one option: print ʾ, which matches the page's teaching and the existing ء line."
+    }
+  ],
+  "summary": "1 error checked: 0 AGREE, 1 CHANGE (engine: single hamza-seat letters → 'ʾ', expanded letter names joined with commas; the reviewer's either/or fix narrowed to one choice). 0 DISAGREE."
+}

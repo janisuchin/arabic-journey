@@ -1,0 +1,28 @@
+{
+  "chunk": "days-41-50",
+  "checker": "X4-1",
+  "verdicts": [
+    {
+      "id": 1,
+      "verdict": "AGREE",
+      "fix": "وَأَنَا كُنْتُ قَلِقَةً عَلَيْكَ أَمْسِ، لِأَنَّكَ لَمْ تَرُدَّ عَلَى الْهَاتِف.",
+      "scope": "content/days/day46.json dialogue.lines[4] only: ar, plus segs[2] Arabic text قَلِقَة → قَلِقَةً and its gloss 'worried (f)' → 'worried (f, after 'was')' (this seg only, not app-wide)",
+      "reason": "قَلِقَة is the predicate of كُنْتُ (khabar kāna, accusative); DECISIONS.md house style (R12-47) requires the visible ending on kāna predicates, as the course does with كُنْتُ مُتْعَبًا / نَائِمًا / مَشْغُولًا. Feminine speaker (Layla) → قَلِقَةً is right; index segs[2] verified in the source."
+    },
+    {
+      "id": 2,
+      "verdict": "CHANGE",
+      "fix": "حَرَارَتُكَ ثَمَانٍ وَثَلَاثُونَ دَرَجَةً وَنِصْف. هٰذِهِ حَرَارَة، لٰكِنَّهَا لَيْسَتْ عَالِيَةً جِدًّا.",
+      "scope": "content/days/day44.json dialogue.lines[4] only: ar, plus segs[9] (not segs[10]: segs[10] is جِدًّا 'very') Arabic text عَالِيَة → عَالِيَةً and gloss 'high (f)' → 'high (f, after 'is not')' (this seg only)",
+      "reason": "The Arabic fix is right: عَالِيَة is the khabar of لَيْسَتْ and house style requires the -an on laysa predicates. But the reviewer's seg index is wrong: in the source the segs are 0 حَرَارَتُكَ … 8 لَيْسَتْ, 9 عَالِيَة, 10 جِدًّا. Applying the gloss to segs[10] would mis-gloss 'very'."
+    },
+    {
+      "id": 3,
+      "verdict": "CHANGE",
+      "fix": "لٰكِنْ يَا أُمِّي، هُوَ أَحْسَن الْآنَ! سَنَلْعَبُ سَاعَةً وَاحِدَةً فَقَطْ، مِنْ فَضْلِكِ!",
+      "scope": "content/days/day48.json dialogue.lines[9] only: ar; segs[7] Arabic سَاعَة → سَاعَةً with gloss 'an hour' → 'for an hour'; segs[8] Arabic وَاحِدَة → وَاحِدَةً (gloss 'one (f)' unchanged). Line-scoped, not app-wide",
+      "reason": "Arabic fix is right: سَاعَةً وَاحِدَةً is an adverbial accusative of time (ẓarf zamān, 'for one hour'), and house style requires adverbial -an (R12-47 fixed the parallel مَرَّةً وَاحِدَةً / لَيْلَةً وَاحِدَةً). CHANGE only because the reviewer listed segs[7] alone: the agreeing adjective وَاحِدَة is a separate seg (segs[8]) whose Arabic text must also take -an to match the line, and 'for an hour' is the cleaner single-sense gloss for this seg."
+    }
+  ],
+  "summary": "3 errors checked against audit/days-41-50.txt (lines 963, 1512, 2083) and the source segs in content/days/day44/46/48.json: AGREE 1, CHANGE 2, DISAGREE 0. All three Arabic fixes are correct under house style (kāna predicate, laysa predicate, adverbial of time). CHANGEs are in the seg side only: day 44 seg index is 9 not 10; day 48 must also update segs[8] وَاحِدَةً. Notes (lam after idhā gloss, أَشْعُرُ أَنَّنِي, pause-form object day 42, Zārat·hu, bi- hyphen, final-pause قَلِقَة in day 46 reading) were not judged as errors."
+}

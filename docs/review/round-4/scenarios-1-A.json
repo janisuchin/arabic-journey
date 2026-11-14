@@ -1,0 +1,61 @@
+{
+  "chunk": "scenarios-1",
+  "reviewer": "A",
+  "errors": [
+    {
+      "file": "content/course/scenarios.json",
+      "path": "scenarios[11].dialogue.lines[5].ar; scenarios[11].dialogue.lines[5].segs (مُنْطَادًا)",
+      "current": "مُنْطَادًا",
+      "problem": "The word for a (hot-air) balloon is مِنْطَاد (minṭād, pl. مَنَاطِيد), with kasra on the mīm (Hans Wehr: minṭād). مُنْطَاد with ḍamma is a misvocalisation, so the learner learns a wrong form *munṭādan*. Not reported in rounds 1–3.",
+      "category": "arabic",
+      "severity": "major",
+      "confidence": "high",
+      "fix": "مِنْطَادًا",
+      "alsoChange": "line text becomes: زُرْنَا الْمَعَابِد الْقَدِيمَة، وَفِي الصَّبَاح الْبَاكِر رَكِبْنَا مِنْطَادًا فَوْقَ النِّيل. ; the seg word in segs; content/glossary/auto.json key مُنْطَادًا → مِنْطَادًا (gloss 'a balloon (object form)' unchanged); content/readings/readings.json entry مُنْطَادًا → مِنْطَادًا with reading minṭādan (or rebuild readings); transliteration follows automatically"
+    },
+    {
+      "file": "content/glossary/mistakes.json",
+      "path": "\"أَجِدُهَا\" (shown in scenarios[10].mistakes[0].wrong tap)",
+      "current": "I find it (wrong after lam — correct: ajidhā)",
+      "problem": "The tap note writes the correct form as 'ajidhā', which in the course's ALA-LC transliteration reads as ذ (dh) + ā. Everywhere else the same form is written ajid·hā (engine) or ajid-hā (mistakes[0].why), so this note teaches a wrong pronunciation of لَمْ أَجِدْهَا.",
+      "category": "gloss",
+      "severity": "minor",
+      "confidence": "high",
+      "fix": "I find it (wrong after lam — correct: ajid-hā)",
+      "alsoChange": "none"
+    }
+  ],
+  "notes": [
+    {
+      "file": "content/course/scenes.json",
+      "path": "scene for lost-luggage: caption; spots[1].note",
+      "note": "The story is a bag left on the train at Ramses Station, but the photo is an airport baggage carousel and the spot note says 'Check the flight listed here'. Story/photo mismatch, not an Arabic error."
+    },
+    {
+      "file": "content/course/scenes.json",
+      "path": "scene for morning-routine caption; scene for directions caption; scene for clothes-shop caption; scene for cafe caption",
+      "note": "Several Egyptian scenarios use photos from the Levant/Amman (Levantine breakfast for the Egyptian host family, Amman street signs for the Cairo directions dialogue, Amman market for the Cairo clothes shop) and the Amman café scenario uses a Cairo photo. Captions name the real place, so this is only a consistency point."
+    },
+    {
+      "file": "content/course/scenarios.json",
+      "path": "scenarios[15].dialogue.lines[2].ar",
+      "note": "أَخْبَارِ الطَّقْس is understandable, but 'the weather forecast' is more usually نَشْرَةُ الطَّقْسِ or تَوَقُّعَاتُ الطَّقْسِ in MSA. Better word, not an error."
+    },
+    {
+      "file": "content/course/scenarios.json",
+      "path": "scenarios[5].dialogue.lines[3].ar ⟶; scenarios[7].dialogue.lines[7].ar ⟶",
+      "note": "Transliteration of بِكَمْ varies within one line: 'Bi-kami l-karwāsūn? Wa-bikami l-kaʿka?' (hyphen line-initially, none after wa-; intro and clothes-shop use 'bikam'). House-style point only."
+    },
+    {
+      "file": "content/course/scenarios.json",
+      "path": "scenarios[2] (Mrs Huda, son Hasan); scenarios[11] (classmate Huda); scenarios[14] (neighbour Huda, son Adam)",
+      "note": "Three different characters called Huda in this chunk (host mother with son Hasan, classmate, neighbour with son Adam) may confuse learners. Story logic only."
+    },
+    {
+      "file": "content/course/scenarios.json",
+      "path": "scenarios[2].mistakes[0].wrong/right taps; scenarios[2].quiz[3].options[3] tap",
+      "note": "The tap gloss for خَالَة is 'aunt (mother's sister)' where the sentence uses it as polite address to an older woman (the dialogue segs already say 'aunt (polite address for an older woman)'). Acceptable since the culture note explains it; a sentence-level hand gloss would be clearer."
+    }
+  ],
+  "summary": "Read the whole export audit/scenarios-1.txt (2,984 lines): 16 scenarios (cafe, taxi, morning-routine, appointment-time, restaurant, bakery, directions, clothes-shop, renting-flat, family-visit, lost-luggage, holiday-story, doctor, pharmacy-visit, birthday-invitation, weather-plans) with their photo scenes. I checked about 560 Arabic strings (≈200 dialogue lines, mistakes, quiz items, intros, culture notes, captions and ≈200 photo spots) and about 1,900 seg/tap glosses, re-deciding the syntax of each sentence: cases after kāna/laysa/lan/lam/an, number–noun agreement (ثَلَاثَ كَعْكَات، عَشْرُ دَقَائِق، خَمْسَةَ عَشَرَ جُنَيْهًا، مِئَة وَعِشْرُونَ جُنَيْهًا، سِتٌّ وَعِشْرُونَ for دَرَجَة), dual and 2fs verb forms, jussives (تَنَمْ، تُعْطِهَا، تَشْتَرِ), gender of address (-ka/-ki, tafaḍḍal/ī/ā), and arithmetic in the bakery and quiz keys. The chunk is in very good shape after the earlier rounds: 2 errors found — 1 major arabic (مُنْطَادًا should be مِنْطَادًا, 'balloon', a misvocalisation missed by all earlier rounds) and 1 minor gloss (the mistakes tap note spells the correct form 'ajidhā', which reads as dh). All quiz answer keys, mistakes pairs and grammar 'why' notes in the chunk are correct. Remaining points are notes on photo/story consistency, one better word, and transliteration style."
+}

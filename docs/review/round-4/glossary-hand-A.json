@@ -1,0 +1,89 @@
+{
+  "chunk": "glossary-hand",
+  "reviewer": "A",
+  "errors": [
+    {
+      "file": "content/glossary/hand.json",
+      "path": "إِنَّنِي",
+      "current": "that I (after qāla); indeed I",
+      "problem": "Misleading where it is tapped. The form only appears as the WRONG option for reported speech: day 75 sentences[1].mistakes[0].wrong and quiz[2].options[0] (قَالَتْ لَيْلَى إِنَّنِي مَرِيضَة), and week 11 test[6].options[3] (قَالَ سَامِي إِنَّنِي مُتْعَب). The lesson teaches that after qāla in reported speech 'I' becomes 'he/she' (innahā, innahu). The gloss 'that I (after qāla)' tells the learner, before answering, that innanī is the normal form after qāla. After qāla, innanī is only right when the speaker's own words are quoted directly.",
+      "category": "gloss",
+      "severity": "minor",
+      "confidence": "medium",
+      "fix": "indeed I; after qāla only when quoting the speaker's own words (qālat: innanī … = she said: 'I …')",
+      "alsoChange": "none (app-wide hand gloss; the three taps listed above are all its uses)"
+    },
+    {
+      "file": "content/glossary/hand.json",
+      "path": "غَائِمَاتٌ",
+      "current": "cloudy (f pl; weather takes ghāʾim / ghāʾima)",
+      "problem": "Its only use is day 85 quiz[3].options[0] (Complete: كَانَ الْجَوُّ أَمْسِ ___), where the right answer is غَائِمًا and غَائِمَةً is one of the wrong options. The hint 'weather takes ghāʾim / ghāʾima', shown before the learner answers, points to the feminine ghāʾima, which is wrong with الْجَوّ (m), and leaves out the -an that kāna needs. The note 'wrong here' already shows from mistakes.json after the answer.",
+      "category": "gloss",
+      "severity": "minor",
+      "confidence": "medium",
+      "fix": "cloudy (f pl)",
+      "alsoChange": "none"
+    },
+    {
+      "file": "content/glossary/hand.json",
+      "path": "غَائِمِينَ",
+      "current": "cloudy (m pl; weather takes ghāʾim / ghāʾima)",
+      "problem": "Same problem as غَائِمَاتٌ, in the same day 85 quiz[3] (options[1]): the hint points the learner to ghāʾim/ghāʾima, but the answer after كَانَ الْجَوُّ is ghāʾiman, and ghāʾima (option 2, غَائِمَةً) is wrong for the masculine الْجَوّ.",
+      "category": "gloss",
+      "severity": "minor",
+      "confidence": "medium",
+      "fix": "cloudy (m pl, as an object or after a preposition)",
+      "alsoChange": "none"
+    },
+    {
+      "file": "content/glossary/scoped.json",
+      "path": "مِنُ.day:85",
+      "current": "from (wrong helping vowel — correct: mina before al-)",
+      "problem": "Against R3-45 (DECISIONS section F.1): in a quiz question not yet answered, tapping a mistake form must not show the 'wrong — correct' note. Day 85 quiz[5] ('How do you say from the platform with the helping vowel?') shows this scoped gloss on options[1] مِنُ الرَّصِيفِ before the answer. The text names the correct option (mina, answer 2). The engine hides the note only for mistakes.json entries, and this one is in scoped.json, so it shows. The hand gloss for مِنِ on options[3] ('… before al- it is mina') gives the answer away in the same way.",
+      "category": "gloss",
+      "severity": "minor",
+      "confidence": "medium",
+      "fix": "from (with a helping vowel -u)",
+      "alsoChange": "hand.json مِنِ → 'from (with the helping vowel -i, as in mini bnihi, from his son)'; the 'wrong vowel here: before al- it is mina' note stays in mistakes.json, where it shows after the answer"
+    },
+    {
+      "file": "content/glossary/hand.json",
+      "path": "تَأْتِي",
+      "current": "you come (to a man); she comes",
+      "problem": "Tapped in vocabulary example الطَّلَاقَةُ تَأْتِي مَعَ الْوَقْت (Fluency comes with time), where the subject is a thing: 'she comes' misleads. The other feminine-verb glosses in the course name the thing sense ('(she, it f) …': تَدْخُلَ, تَصِلَ, تَسْتَمِرُّ, تُقَدِّمُ). The other use (day 52 quiz لَيْلَى تَأْتِي) is unaffected.",
+      "category": "gloss",
+      "severity": "minor",
+      "confidence": "medium",
+      "fix": "you come (to a man); she, it (f) comes",
+      "alsoChange": "none"
+    }
+  ],
+  "notes": [
+    {
+      "file": "content/glossary/hand.json",
+      "path": "بَارِدُونَ; كَثِيرُونَ; جَمِيلُونَ; إِنَّ; مِنِ",
+      "note": "Several app-wide hand glosses are tapped on unanswered quiz options and state the rule that picks the answer. بَارِدُونَ 'things take bārida' (day 17 q4: answer الْمَشْرُوبَات بَارِدَة). كَثِيرُونَ 'for people only' (day 28 q3). إِنَّ 'that (after qāla)' (day 75 q1). مِنِ 'before al- it is mina' (day 85 q6). The Arabic is correct; it is a design question in the spirit of R3-45. The owner may want neutral meanings here, with the rule left to the mistakes.json note shown after the answer."
+    },
+    {
+      "file": "content/days/day75.json",
+      "path": "sentences[1].mistakes[0]; quiz[2].options[0]",
+      "note": "قَالَتْ لَيْلَى إِنَّنِي مَرِيضَة is correct Arabic as a direct quotation (cf. Qur'an 19:30 قَالَ إِنِّي عَبْدُ اللّٰهِ). The prompt asks for reported speech, so the answer key stands. The 'why' could say 'that would quote her own words; to report them, I becomes she' rather than present innanī as simply wrong."
+    },
+    {
+      "file": "content/glossary/scoped.json",
+      "path": "يَنْزِلُ.grammar:weather-expressions",
+      "note": "'falls, comes down (rain, snow); gets off' is no longer shown anywhere: no export line taps it, because R12-18 replaced يَنْزِلُ الثَّلْج with يَتَسَاقَطُ. The entry is dead. Consider removing it so it does not come back with new weather content."
+    },
+    {
+      "file": "content/glossary/hand.json",
+      "path": "بِجَائِزَةِ; بِجَائِزَة; بِأَنَّ; بِأَنَّهُ; بِأَنَّنِي",
+      "note": "Style only. In the hand export these transliterate as one word (Bijāʾizati, Biʾanna), while بِخَمْسَة, بِنَعْنَاع, بِالْقِطَارِ show Bi-khamsa, Bi-naʿnāʿ, Bi-l-qiṭāri. The glosses describe them as bi- + word ('fāza bi-', 'bi- + anna'), and the house clitic style hyphenates in that case."
+    },
+    {
+      "file": "content/glossary/hand.json",
+      "path": "تَبْدَا",
+      "note": "'(she) begins (misspelt …)' could add 'you begin (to a man)' like the other ta- glosses. Its only context (كُلُّ فِقْرَةٍ تَبْدَا …) is the 'it (f)' sense, so it could read '(she, it f) begins'."
+    }
+  ],
+  "summary": "I read the whole hand export (466 entries) and the mistakes export (43 entries), and every scoped.json entry (about 120 forms, about 200 scope keys). For each hand gloss I listed where the learner actually taps it: a script over all audit/*.txt tap lines found about 1,270 tap contexts, and I checked the gloss against each sentence. Unclear cases were checked in context: مِلْيُونَ after عِشْرِينَ, الْإِشَارَة (scoped to 'traffic light' in scenarios), إِنْ after saʾala, يَصُومُ verb-first, وَقَرَأَهَا, the d75/d85 quizzes. The hand glossary's Arabic, vocalisation and meanings are sound: numbers, ordinals, Levantine and Hijri months, case/dual/plural endings, the verb forms, and the mistake 'right/correct' forms (lam + jussive, an + subjunctive, iḍāfa, inna/anna) are all correct. 5 errors, all minor gloss problems and none teaching wrong Arabic. (1) إِنَّنِي 'that I (after qāla)' contradicts the reported-speech lesson where it is the wrong option. (2–3) غَائِمَاتٌ / غَائِمِينَ hints point to ghāʾima in a quiz whose answer is ghāʾiman. (4) The scoped مِنُ day 85 gloss shows 'wrong — correct: mina' on an unanswered quiz, against R3-45. (5) تَأْتِي 'she comes' for الطَّلَاقَةُ (fluency). The pattern: hand glosses with built-in grammar hints are also tapped on quiz options, where they give the answer away or mislead (notes)."
+}

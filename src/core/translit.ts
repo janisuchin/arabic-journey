@@ -76,6 +76,10 @@ export const FIXED_TRANSLIT: Record<string, string> = {
   الله: 'allāh',
   اللّه: 'allāh',
 };
+/** Words written with a letter that is not said (the wāw of أُولٰئِكَ), without the case vowel; no waṣl. */
+const SILENT_LETTER_TRANSLIT: Record<string, string> = {
+  أولئك: 'ulāʾik',
+};
 
 interface Unit {
   ch: string;
@@ -121,6 +125,10 @@ export function translitWord(word: string): WordTranslit {
     if (stripHarakat(stem) === 'ال') return { text: 'al-', wasl: true };
     return { text: translitWord(stem).text + '-', wasl: false };
   }
+  // a hamza seat shown on its own is the hamza: ʾ (like ء)
+  if (/^[أإؤئ]$/.test(word)) return { text: 'ʾ', wasl: false };
+  const silent = SILENT_LETTER_TRANSLIT[stripHarakat(word)];
+  if (silent) return { text: silent + vowelOf(parseUnits(word).at(-1)?.marks ?? ''), wasl: false };
   const fixed = FIXED_TRANSLIT[stripHarakat(word)];
   if (fixed) {
     // the case vowel written on the last letter is read inside a phrase: Allāhu yusallimuki

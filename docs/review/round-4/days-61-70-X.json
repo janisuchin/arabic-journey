@@ -1,0 +1,63 @@
+{
+  "chunk": "days-61-70",
+  "checker": "X4-2",
+  "verdicts": [
+    {
+      "id": 1,
+      "verdict": "AGREE",
+      "fix": "content/days/day61.json dialogue.lines[6].ar: لٰكِنَّ الْأَسْعَار فِي الْقَاهِرَة أَرْخَصُ → لٰكِنَّ الْأَسْعَارَ فِي الْقَاهِرَة أَرْخَصُ. The matching seg must change too: dialogue.lines[6].segs[1] word الْأَسْعَار → الْأَسْعَارَ (gloss 'the prices' unchanged). Transliteration follows (l-asʿāra).",
+      "scope": "this one dialogue line only (sentences[4], its mistakes pair and quiz[3] have no lākinna and stay in pause form)",
+      "reason": "الْأَسْعَار is the noun of لٰكِنَّ (sister of inna); DECISIONS R12-47 puts the inna/anna noun on the must-show list. Accusative -a is the correct form."
+    },
+    {
+      "id": 2,
+      "verdict": "AGREE",
+      "fix": "content/days/day61.json dialogue.lines[7].ar: لٰكِنَّ الدِّينَار الْأُرْدُنِّيّ أَقْوَى → لٰكِنَّ الدِّينَارَ الْأُرْدُنِّيَّ أَقْوَى. Segs must change too: dialogue.lines[7].segs[6] الدِّينَار → الدِّينَارَ and segs[7] الْأُرْدُنِّيّ → الْأُرْدُنِّيَّ (glosses unchanged). Transliteration follows (d-dīnāra l-urdunniyya).",
+      "scope": "this one dialogue line only",
+      "reason": "Noun of lākinna (must-show) with its agreeing adjective; accusative on both is correct and keeps the shadda spelling أُرْدُنِّيّ decided in R3-41."
+    },
+    {
+      "id": 3,
+      "verdict": "AGREE",
+      "fix": "content/days/day61.json reading.ar: لٰكِنَّ الْحَيَاة فِيهَا أَغْلَى → لٰكِنَّ الْحَيَاةَ فِيهَا أَغْلَى. The matching seg in reading.segs (the الْحَيَاة right after لٰكِنَّ, 'the life') must change to الْحَيَاةَ. Transliteration follows (l-ḥayāta).",
+      "scope": "day 61 reading only; the other الْحَيَاة in dialogue.lines[7] (not after lākinna) stays",
+      "reason": "Noun of lākinna, must-show ending per R12-47; accusative is correct."
+    },
+    {
+      "id": 4,
+      "verdict": "AGREE",
+      "fix": "content/days/day63.json dialogue.lines[9].ar: لٰكِنَّ الْمَنْظَر مِنْ فَوْقُ → لٰكِنَّ الْمَنْظَرَ مِنْ فَوْقُ. Seg must change too: dialogue.lines[9].segs[11] الْمَنْظَر → الْمَنْظَرَ (gloss unchanged). Transliteration follows (l-manẓara).",
+      "scope": "this one dialogue line only",
+      "reason": "Noun of lākinna; must-show ending. مِنْ فَوْقُ (indeclinable fawqu, cut off from idāfa) is correct and stays."
+    },
+    {
+      "id": 5,
+      "verdict": "AGREE",
+      "fix": "content/days/day67.json dialogue.lines[3].ar: أَنَّ الْعَرَب يَكْتُبُونَ → أَنَّ الْعَرَبَ يَكْتُبُونَ. Seg must change too: dialogue.lines[3].segs[4] الْعَرَب → الْعَرَبَ (gloss unchanged). Transliteration follows (l-ʿaraba).",
+      "scope": "this one dialogue line only",
+      "reason": "Noun of anna after أَتَذَكَّرُ; must-show ending, accusative correct."
+    },
+    {
+      "id": 6,
+      "verdict": "AGREE",
+      "fix": "content/days/day67.json dialogue.lines[5].ar: إِنَّ الْمِلَفّ مَعَ الرِّسَالَة → إِنَّ الْمِلَفَّ مَعَ الرِّسَالَة. Seg must change too: dialogue.lines[5].segs[9] الْمِلَفّ → الْمِلَفَّ (gloss unchanged). The indefinite مِلَفّ earlier in the line (fī milaff) stays. Transliteration follows (l-milaffa).",
+      "scope": "this one dialogue line only",
+      "reason": "Noun of inna after قَالَ/أَقُولُ; must-show ending, accusative correct."
+    },
+    {
+      "id": 7,
+      "verdict": "AGREE",
+      "fix": "content/days/day68.json dialogue.lines[9].ar: لِأَنَّ النَّاس يَجْتَمِعُونَ → لِأَنَّ النَّاسَ يَجْتَمِعُونَ. Seg must change too: dialogue.lines[9].segs[7] النَّاس → النَّاسَ (gloss 'people' unchanged). Transliteration follows (n-nāsa).",
+      "scope": "this one dialogue line only",
+      "reason": "Noun of anna in li-anna; must-show ending, accusative correct (day 88 already writes لِأَنَّ دَانْيَالَ)."
+    },
+    {
+      "id": 8,
+      "verdict": "AGREE",
+      "fix": "content/days/day69.json reading.ar: إِنَّ التَّكْرَار مُهِمّ → إِنَّ التَّكْرَارَ مُهِمّ. The matching seg in reading.segs (التَّكْرَار right after إِنَّ, 'repetition') must change to التَّكْرَارَ. Transliteration follows (t-takrāra). Predicate مُهِمّ may stay in pause form.",
+      "scope": "day 69 reading only",
+      "reason": "Noun of inna after تَقُولُ; must-show ending, accusative correct. The inna predicate is not on the must-show list, so مُهِمّ stays."
+    }
+  ],
+  "summary": "X4-2 checked all 8 errors against audit/days-61-70.txt (segs indices verified) and DECISIONS R12-47: 8 AGREE, 0 CHANGE, 0 DISAGREE. All 8 are the same pattern (noun of inna/anna/lākinna left in pause form) and every fix is the correct accusative; each needs the matching seg word changed in the same line, as listed. On note 1 (لٰكِنَّ سَامِي, day 61 l11): the course does mark a name after anna on day 88 (لِأَنَّ دَانْيَالَ), so strictly سَامِيَ would follow the rule too; it was left as a note by the reviewer and is not applied here."
+}

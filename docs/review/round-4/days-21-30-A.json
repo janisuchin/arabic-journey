@@ -1,0 +1,50 @@
+{
+  "chunk": "days-21-30",
+  "reviewer": "A",
+  "errors": [
+    {
+      "file": "content/days/day23.json",
+      "path": "sentences[1].mistakes[0].why",
+      "current": "binaya (building) is feminine, so the ordinal takes ة: ath-thālitha.",
+      "problem": "the hand-written transliteration of بِنَايَة drops the long vowel: 'binaya' instead of 'bināya' (the export and every ⟶ line give al-bināya). A beginner reading this note learns a short a in the second syllable.",
+      "category": "script-sound",
+      "severity": "minor",
+      "confidence": "high",
+      "fix": "bināya (building) is feminine, so the ordinal takes ة: ath-thālitha.",
+      "alsoChange": "none"
+    }
+  ],
+  "notes": [
+    {
+      "file": "content/days/day24.json; content/days/day26.json",
+      "path": "day24 dialogue.lines[9].segs[5], dialogue.lines[14].segs[4]; day26 dialogue.lines[13].segs[1]",
+      "note": "جُنَيْهًا is glossed 'pounds (after a number)', while day 21 glosses the same form 'pound (after 11–99)'. 'After a number' is true in these sentences but hides the rule: after 3–10 the noun is plural (day 24 line 6 itself has بِثَمَانِيَة جُنَيْهَات). Suggest aligning to 'pound (after 11–99)' (the same pattern exists course-wide for دِينَارًا / دَرَجَةً, later chunks)."
+    },
+    {
+      "file": "content/days/day22.json",
+      "path": "intro",
+      "note": "In the ⟶ line of the intro, بَنْك (bank) is left in Arabic script ('masjid (mosque), بَنْك (bank) and matḥaf'), while masjid and matḥaf are transliterated. Probably the engine skips a word whose reading equals its English gloss; harmless, but it looks like a missing transliteration."
+    },
+    {
+      "file": "content/days/day30.json; content/days/day28.json",
+      "path": "day30 sentences[3].ar, reading.ar; day28 dialogue.lines[13].ar",
+      "note": "Hyphenation of li-: لِعَائِلَتِنَا / لِعَائِلَتِهِ read liʿāʾilatinā / liʿāʾilatihi (glossed 'of (lit. for) …'), while day 71 لِعَائِلَتِكَ reads li-ʿāʾilatika (glossed 'for …'). Style only; the clitic hyphen seems to depend on the gloss wording."
+    },
+    {
+      "file": "content/days/day29.json",
+      "path": "dialogue.culture; dialogue.lines[14].ar",
+      "note": "اللّٰه يُبَارِكُ فِيكَ is correct Arabic and is what people say; the classic written formula is بَارَكَ اللّٰهُ فِيكَ. A one-line mention in the culture note would give the learner the written form too."
+    },
+    {
+      "file": "content/days/day30.json",
+      "path": "intro",
+      "note": "The intro teaches his/their as -uhu / -uhum, and the same day's reading has لِعَائِلَتِهِ (-ihi) without comment. The grammar card explains the -ihi / -ihim change after i; a half-sentence in the day intro would prevent confusion."
+    },
+    {
+      "file": "content/days/day27.json",
+      "path": "dialogue.lines[9].ar; reading.ar",
+      "note": "حِذَاؤُكَ / حِذَائِي (singular 'shoe, pair of shoes') are translated 'your shoes / my shoes'. Acceptable as 'pair of shoes', but a seg gloss 'your shoe(s), pair of shoes' would explain why the adjective قَدِيم is masculine singular next to the plural أَحْذِيَة … جَمِيلَة in the same line."
+    }
+  ],
+  "summary": "Read the whole export audit/days-21-30.txt (days 21–30, 2,685 lines) and confirmed source paths in content/days where needed. Checked about 520 Arabic strings (titles, intros, sentences, mistakes, dialogue lines, readings, quiz items) and about 2,100 seg and tap glosses, plus every quiz answer key and the pronunciation questions (interdentals, jīm, waṣl, tāʾ marbūṭa, khāʾ, emphatics, ʿayn, stress, ḍād). Syntax was checked sentence by sentence: number–noun agreement and case (11–99 + -an, 3–10 with reversed gender and plural, مِئَة / مِئَتَيْ / أَلْف / آلَاف, hundreds after بِـ in the genitive), verb-first agreement with plural subjects, non-human plurals with feminine singular adjectives and هٰذِهِ, ordinals, words of place with genitive -i, هُنَاكَ / place-first 'there is', أَنَّ + delayed accusative noun (صَيْدَلِيَّةً مَفْتُوحَةً), لَا of absolute negation (لَا دُرُوسَ), dual and plural imperatives (تَفَضَّلَا، تَعَالَيَا، اُنْظُرَا، اِرْكَبُوا، اِنْزِلُوا), subjunctive after أَنْ, and possessive suffixes. The chunk is clean: 1 error found (minor, script-sound: 'binaya' without the long ā in a hand-written note on day 23); 0 wrong Arabic strings, 0 wrong glosses, 0 wrong answer keys. Earlier-round fixes in this chunk (day 21 change, day 25 floors, مُتْعَب, dual welcomes, صَيْدَلِيَّةً مَفْتُوحَةً) are in place and introduced no regression. Six notes cover gloss consistency (جُنَيْهًا 'after a number'), an untransliterated بَنْك in the day 22 intro, li- hyphenation, the written form of the blessing reply, the -ihi variant on day 30 and the singular حِذَاء."
+}

@@ -1,0 +1,72 @@
+{
+  "chunk": "days-41-50",
+  "reviewer": "A",
+  "errors": [
+    {
+      "file": "content/days/day46.json",
+      "path": "dialogue.lines[4].ar",
+      "current": "وَأَنَا كُنْتُ قَلِقَة عَلَيْكَ أَمْسِ، لِأَنَّكَ لَمْ تَرُدَّ عَلَى الْهَاتِف.",
+      "problem": "predicate of kāna (كُنْتُ) shown in pause form mid-sentence; house style (DECISIONS R12-47) requires the ending on kāna predicates, as the course does elsewhere in this chunk (كُنْتُ مُتْعَبًا day 41, كُنْتُ نَائِمًا day 46, كُنْتُ مَشْغُولًا day 50)",
+      "category": "arabic",
+      "severity": "minor",
+      "confidence": "medium",
+      "fix": "وَأَنَا كُنْتُ قَلِقَةً عَلَيْكَ أَمْسِ، لِأَنَّكَ لَمْ تَرُدَّ عَلَى الْهَاتِف.",
+      "alsoChange": "segs[2] gloss → 'worried (f, after 'was')'; transliteration follows automatically (qaliqatan)"
+    },
+    {
+      "file": "content/days/day44.json",
+      "path": "dialogue.lines[4].ar",
+      "current": "حَرَارَتُكَ ثَمَانٍ وَثَلَاثُونَ دَرَجَةً وَنِصْف. هٰذِهِ حَرَارَة، لٰكِنَّهَا لَيْسَتْ عَالِيَة جِدًّا.",
+      "problem": "predicate of laysa (لَيْسَتْ) shown without its accusative ending mid-phrase (before جِدًّا); house style requires the ending on laysa predicates (compare لَيْسَ شَيْئًا خَطِيرًا on the same day, لَيْسَ جَاهِزًا day 48)",
+      "category": "arabic",
+      "severity": "minor",
+      "confidence": "medium",
+      "fix": "حَرَارَتُكَ ثَمَانٍ وَثَلَاثُونَ دَرَجَةً وَنِصْف. هٰذِهِ حَرَارَة، لٰكِنَّهَا لَيْسَتْ عَالِيَةً جِدًّا.",
+      "alsoChange": "segs[10] gloss → 'high (f, after 'is not')'; transliteration follows automatically"
+    },
+    {
+      "file": "content/days/day48.json",
+      "path": "dialogue.lines[9].ar",
+      "current": "لٰكِنْ يَا أُمِّي، هُوَ أَحْسَن الْآنَ! سَنَلْعَبُ سَاعَة وَاحِدَة فَقَطْ، مِنْ فَضْلِكِ!",
+      "problem": "سَاعَة وَاحِدَة is an adverbial accusative of time ('for one hour'); house style shows adverbial -an endings, and the final round fixed the parallel cases مَرَّةً وَاحِدَةً / لَيْلَةً وَاحِدَةً (R12-47)",
+      "category": "arabic",
+      "severity": "minor",
+      "confidence": "medium",
+      "fix": "لٰكِنْ يَا أُمِّي، هُوَ أَحْسَن الْآنَ! سَنَلْعَبُ سَاعَةً وَاحِدَةً فَقَطْ، مِنْ فَضْلِكِ!",
+      "alsoChange": "segs[7] gloss → 'an hour, for an hour'; transliteration follows automatically (sāʿatan wāḥidatan)"
+    }
+  ],
+  "notes": [
+    {
+      "file": "content/days/day41.json",
+      "path": "dialogue.lines[12].segs[3]",
+      "note": "In إِذَا لَمْ تَشْعُرْ بِتَحَسُّن غَدًا the meaning is 'if you don't feel', but لَمْ is glossed 'did not'. Correct grammar (lam after idhā has present/future sense); a line-specific gloss 'not (with lam)' would avoid confusing a beginner."
+    },
+    {
+      "file": "content/days/day46.json; content/days/day48.json",
+      "path": "dialogue.lines[14].ar (day46); dialogue.lines[1].ar (day48)",
+      "note": "أَشْعُرُ أَنَّنِي أَحْسَن is acceptable MSA; R12-19 put the careful form أَشْعُرُ بِأَنَّنِي on the grammar card only. Consider the same in these two dialogue lines for consistency."
+    },
+    {
+      "file": "content/days/day42.json",
+      "path": "dialogue.lines[0].ar",
+      "note": "نَقْرَأُ قِصَّة قَصِيرَة: object in pause form. Allowed by house style, but the day's sentence[5] shows قِصَّةً قَصِيرَةً; showing the object ending here would match."
+    },
+    {
+      "file": "content/days/day46.json",
+      "path": "reading.ar",
+      "note": "Transliteration of زَارَتْهُ is printed 'Zārat·hu' with a middle dot to separate t+h. Deliberate disambiguation, but ALA-LC uses a prime (zāratʹhu); a style point only."
+    },
+    {
+      "file": "content/days/day41.json; content/days/day44.json; content/days/day45.json",
+      "path": "dialogue.lines[12] (bitaḥassun); sentences[1] (biʿumq); dialogue.lines[6] (bidūni)",
+      "note": "bi- is written without the hyphen when the word is glossed as a unit; consistent with the clitic rule, mentioned only so the cross-checker does not report it."
+    },
+    {
+      "file": "content/days/day46.json",
+      "path": "reading.ar",
+      "note": "وَكَانَتْ لَيْلَى قَلِقَة. is a kāna predicate in pause at the end of a sentence (allowed), next to كَانَ سَامِي جَائِعًا with its ending in the same sentence; قَلِقَةً would look more consistent."
+    }
+  ],
+  "summary": "Read the whole export for days 41-50 (2,734 lines): about 470 Arabic strings (sentences, mistakes pairs, dialogue lines, readings, quiz items, notes with Arabic) and about 3,900 tap/seg glosses. Checked every lam + jussive form (incl. tarudda, taqraʾhā, arahu, yara/tara), every an + subjunctive (incl. ashtariya, amshiya, yataʿāfā), imperatives and negative imperatives (iftaḥ, ibqa, akhrij, awqif, irtaḥ, lā tansay, lā tansaw, ilʿabā), number-noun agreement (thamānin wa-thalāthūna darajatan, sabʿ wa-thalāthūna, thalātha marrātin, thalāthi ḥabbāt, khamsa daqāʾiq, miʾa wa-ʿishrūna junayhan, kam yawman), verb-subject agreement (qāla n-nās, zārathu Laylā wa-Sāmī, sayazūru Dānyāl wa-Sāmī), duals, feminine body parts, faʿlān/faʿlā adjectives, quiz keys and pronunciation items. No wrong word, form, translation, gloss or answer key was found. 3 errors, all minor and medium confidence: case endings that house style requires but are missing (one kāna predicate, one laysa predicate, one adverbial of time). 0 of the ~3,900 glosses were judged wrong; 6 short notes for the owner."
+}

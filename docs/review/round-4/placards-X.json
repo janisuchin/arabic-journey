@@ -1,0 +1,21 @@
+{
+  "chunk": "placards",
+  "checker": "X4-4",
+  "verdicts": [
+    {
+      "id": 1,
+      "verdict": "AGREE",
+      "fix": "keep the Arabic أُولٰئِكَ; transliteration override (or engine rule: the wāw of أُولٰئِكَ / أُولَاءِ / أُولُو / أُولَاتُ is silent) so the ⟶ line reads 'Ulāʾika'",
+      "scope": "engine / readings for this word only (placards.json [13].items[5]; any other place the word appears follows automatically)",
+      "reason": "Confirmed at audit/placards.txt:865-866 (⟶ Ūlāʾika). The wāw in أُولٰئِكَ is an orthographic sign only; the word is pronounced ʾulāʾika with a short u. A long ū teaches a wrong pronunciation. Arabic itself is correct and stays."
+    },
+    {
+      "id": 2,
+      "verdict": "CHANGE",
+      "fix": "content/course/placards.json [14].description: replace 'ـكْتُبُ' with 'ـكْتُب' → 'The present tense adds a prefix (and for some persons an ending) to the stem ـكْتُب. Here: يَكْتُبُ, to write.'; content/glossary/hand.json: rename key 'ـكْتُبُ' to 'ـكْتُب' with gloss \"-ktub (the present-tense stem of 'to write')\"; content/readings/readings.json: key 'ـكْتُبُ' → 'ـكْتُب' with reading [\"-ktub\",0] (or rebuild readings)",
+      "scope": "this placard only (the hand-gloss key ـكْتُبُ / ـكْتُب occurs only in this description)",
+      "reason": "Real but minor: the present stem is -ktub-; the final -u is the indicative ending, as the same placard's table shows (تَكْتُبِينَ، تَكْتُبُونَ) and as لَمْ أَكْتُبْ / لَنْ أَكْتُبَ later show. The reviewer's fix is right; CHANGE only to list every file that holds the old key (hand.json and readings.json), otherwise the tap and ⟶ for the new stem would be missing."
+    }
+  ],
+  "summary": "2 errors checked: 1 AGREE (أُولٰئِكَ transliterated with a long ū; should be Ulāʾika), 1 CHANGE (present stem ـكْتُبُ → ـكْتُب, with the hand.json and readings.json keys renamed too). 0 DISAGREE. The reviewer's pc.cafe note is moot: audit/placards.txt is complete (1,220 lines, pc.cafe ends the file)."
+}

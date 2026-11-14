@@ -1,0 +1,78 @@
+{
+  "chunk": "days-71-80",
+  "reviewer": "A",
+  "errors": [
+    {
+      "file": "content/days/day74.json",
+      "path": "quiz[1].options[3]",
+      "current": "مَا",
+      "problem": "Distractor that also makes a grammatical sentence: الرِّوَايَةُ مَا قَرَأْتُهَا is good MSA ('The novel, I didn't read it': topic + mā + past verb with the resumptive -hā). A learner who picks it is marked wrong for correct Arabic. The intended answer الَّتِي stays right.",
+      "category": "answer-key",
+      "severity": "minor",
+      "confidence": "medium",
+      "fix": "أَنْ",
+      "alsoChange": "tap meaning of the new option: أَنْ=to, that (as elsewhere); the sentence الرِّوَايَةُ أَنْ قَرَأْتُهَا is ungrammatical, so it is a clean distractor that also drills the an/anna contrast of days 72-75"
+    },
+    {
+      "file": "content/days/day74.json",
+      "path": "quiz[2].options[3]",
+      "current": "هُمْ",
+      "problem": "Distractor that also makes a grammatical sentence: الطُّلَّابُ هُمْ يَدْرُسُونَ هُنَا ('The students, they study here' / 'It is the students who study here') is correct MSA (subject + pronoun + verbal predicate). The quiz marks it wrong.",
+      "category": "answer-key",
+      "severity": "minor",
+      "confidence": "medium",
+      "fix": "أَنْ",
+      "alsoChange": "tap meaning: أَنْ=to, that; الطُّلَّابُ أَنْ يَدْرُسُونَ is ungrammatical (an + indicative), so the only correct option stays الَّذِينَ"
+    },
+    {
+      "file": "content/days/day72.json",
+      "path": "reading.ar",
+      "current": "كَانَتِ الْأَغَانِي طَوِيلَة،",
+      "problem": "kāna predicate shown without its -an ending, against the house style (endings are shown on kāna/laysa predicates; every other kāna/laysa predicate in days 71-80 has it: ضَرُورِيًّا, مُمِلَّةً, صَعْبَةً, غَضْبَانَ, حَارًّا, جَمِيلًا …). Mid-sentence before a comma, so it is not a phrase-final pause either.",
+      "category": "arabic",
+      "severity": "minor",
+      "confidence": "medium",
+      "fix": "كَانَتِ الْأَغَانِي طَوِيلَةً،",
+      "alsoChange": "reading.segs gloss for طَوِيلَة → 'long (f) (-an after kāna)'; transliteration follows (ṭawīlatan)"
+    },
+    {
+      "file": "content/days/day73.json",
+      "path": "dialogue.lines[7].en",
+      "current": "The second headline: 'Al Ahly beat Zamalek 2–1'.",
+      "problem": "The Arabic headline uses the present يَفُوزُ, and this lesson's point (intro, d73l6-l7, quiz d73q5) is that headlines use the present tense; the English renders it with a past 'beat', while the first headline is rendered in the headline present ('Culture Minister opens…'). The learner sees a present verb translated as past in the very lesson that contrasts them.",
+      "category": "translation",
+      "severity": "minor",
+      "confidence": "medium",
+      "fix": "The second headline: 'Al Ahly beats Zamalek 2–1'.",
+      "alsoChange": "replace only the quoted part of the line; the rest of the English ('Now it's my turn! … That's the best news in the whole paper!') stays"
+    }
+  ],
+  "notes": [
+    {
+      "file": "content/days/day74.json",
+      "path": "quiz[0].options[3]",
+      "note": "Same pattern as quiz[1]/[2] but weaker: الْكَاتِبُ مَنْ أَخَذَ الْجَائِزَة can just be read as 'The writer is the one who won the prize' (man as a relative predicate). Awkward rather than wrong; if the owner changes quiz[1]/[2], أَنْ could replace مَنْ here too."
+    },
+    {
+      "file": "content/days/day78.json",
+      "path": "dialogue.lines[6].ar",
+      "note": "Karim defines إِعَادَةُ التَّدْوِير as 'using old things a second time' (أَنْ نَسْتَعْمِلَ الْأَشْيَاءَ الْقَدِيمَة مَرَّةً ثَانِيَة). That is closer to reuse than recycling (making new material from old). Arabic is correct; content precision only, e.g. أَنْ نَصْنَعَ أَشْيَاءَ جَدِيدَة مِنَ الْأَشْيَاءِ الْقَدِيمَة."
+    },
+    {
+      "file": "content/days/day79.json",
+      "path": "dialogue.lines[3].ar",
+      "note": "يُصَلِّحُ الْهَوَاتِف is the everyday form; careful MSA prefers يُصْلِحُ (Form IV) for 'repairs'. Both are understood; not reported as an error."
+    },
+    {
+      "file": "content/days/day71.json",
+      "path": "dialogue.culture",
+      "note": "'Friends' parents are often called after their eldest child' — the custom (kunya) is traditionally after the eldest son. Sami is presented as the elder brother, so the example works; wording could say 'eldest son'."
+    },
+    {
+      "file": "content/days/day74.json",
+      "path": "dialogue.lines[5].ar",
+      "note": "Transliteration katabat·hu uses a middle dot to separate t+h (ALA-LC style for the t/h digraph); correct but may puzzle beginners; consider explaining once in the sound guide."
+    }
+  ],
+  "summary": "Reviewer A, round 4, days 71-80 (festivals, music and film, headlines with inna, relative pronouns, reported speech with qāla inna / anna, opinions, proverbs with man, environment, technology, conditionals). I read the whole export (2,815 lines) and checked about 520 Arabic strings (sentences, mistakes pairs, 150 dialogue lines, 10 readings, quiz options, intro/culture snippets) and roughly 2,600 seg/tap glosses, re-parsing every case ending after inna/anna/lākinna/kāna/laysa/aṣbaḥa, every number + counted noun (ثَلَاثَ جَرَائِد, ثَلَاثَةَ أَخْبَار, خَمْسَ جُمَل, عَشْرَ شَجَرَات, عَشْرِ سَنَوَات, مِئَتَا جُنَيْهٍ, بِمِئَةٍ وَعِشْرِينَ جُنَيْهًا), jussive/subjunctive forms (لَا تُعْطِ, مَنْ يَعْمَلْ … يَجِدِ, لَمْ أَشْحَنْهُ, أَنْ يُرَاجِعَ), relative-pronoun agreement and law/idhā answers. The chunk is in very good shape: 4 errors, all minor and medium confidence — 2 answer-key distractors on day 74 that also form grammatical sentences (مَا, هُمْ), 1 kāna predicate without its -an ending in the day 72 reading (the only one of 25 kāna/laysa predicates in the chunk), and 1 English headline rendered in the past where the Arabic and the lesson insist on the present (day 73). No wrong harakat on case endings after inna/anna, no agreement, verb-form or engine errors found; transliteration matches the harakat throughout (tanwīn before waṣla handled correctly, e.g. jiddani l-yawma). Decided items (hal … am, ḥattā abīkumā, pause style, clitic hyphenation) were not re-reported."
+}

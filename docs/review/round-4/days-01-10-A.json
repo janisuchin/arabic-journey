@@ -1,0 +1,38 @@
+{
+  "chunk": "days-01-10",
+  "reviewer": "A",
+  "errors": [],
+  "notes": [
+    {
+      "file": "content/days/day01.json",
+      "path": "dialogue.lines[8].ar; dialogue.lines[9].ar",
+      "note": "Story logic: the dialogue is 'The first morning at school' (Karim opened with صَبَاحُ النُّور), but at the end of the lesson Karim and Daniel exchange مَسَاءُ الْخَيْر / مَسَاءُ النُّور. Correct Arabic; it only fits if the lesson ran into the evening. Optional: say the lesson ended in the evening in realLife, or end with مَعَ السَّلَامَة."
+    },
+    {
+      "file": "content/days/day07.json",
+      "path": "intro",
+      "note": "'a number is read from left to right even inside right-to-left text' is true of how the digits are written (most significant digit on the left), but in MSA many numbers are spoken units first (خَمْسَة وَعِشْرُونَ for 25). 'written from left to right' would be safer for later lessons."
+    },
+    {
+      "file": "content/days/day02.json",
+      "path": "dialogue.lines[9].ar",
+      "note": "Transliteration shows 'Ismuka karīm' with a lowercase k, while the seg marks كَرِيم as the name Karim and every other line prints 'Karīm'. Cosmetic (capitalisation only), probably because the engine reads كَرِيم as the adjective here."
+    },
+    {
+      "file": "content/days/day08.json",
+      "path": "quiz[1].options[2]",
+      "note": "Tap gloss for مُدَرِّسَة reads 'form of 'teacher': feminine' (auto wording). Not wrong, but 'teacher (f)' would match the style of مُهَنْدِسَة=engineer (f), طَبِيبَة=doctor (f) in the same quiz."
+    },
+    {
+      "file": "content/days/day06.json",
+      "path": "objectives[0]",
+      "note": "'Name eight everyday things' but newWords has six nouns (kitāb, qalam, bāb, bayt, sayyāra, ḥaqība) plus two adjectives. 'six' or 'eight new words' would match."
+    },
+    {
+      "file": "content/days/day01.json",
+      "path": "reading.ar; content/days/day09.json dialogue.lines[4].ar",
+      "note": "Vocatives يَا طُلَّاب / يَا أَصْدِقَاء are in pause form (the careful form is يَا طُلَّابُ, without tanwīn). Accepted by the house pause style; listed only in case the owner ever wants vocative endings shown, as for يَا أُسْتَاذ they are deliberately not."
+    }
+  ],
+  "summary": "Read the whole export audit/days-01-10.txt (days 1-10: intros, objectives, realLife, sentences with mistakes, dialogues, culture notes, readings, quizzes). Checked 462 Arabic strings with their ⟶ transliterations, about 1,430 seg glosses and about 500 tap glosses, every quiz answer key and every mistake right/wrong pair, the letter facts (28 letters over days 1-7, sun/moon, emphatics, joins), number-noun agreement (ثَلَاثَة إِخْوَة / طُلَّاب, عَشَرَة أَسْئِلَة, سَبْعَة أَيَّام), iḍāfa and genitive endings, nisba and job-word agreement, non-human plural agreement (بِلَاد أُخْرَى, الْأَرْقَام صَعْبَة), time-telling forms (السَّاعَة الْوَاحِدَة, إِلَّا رُبْعًا) and the liaison vowels (كَمِ السَّاعَة, هَلِ الْيَوْم, لٰكِنِ الْحَمْدُ, يَوْمٍ الْيَوْمَ, فَارِغَةٌ الْيَوْمَ). I found no error that makes the Arabic learning incorrect: 0 wrong strings, 0 wrong glosses, 0 wrong keys. The earlier rounds' fixes in this chunk (مُتْعَب, أُرْدُنّ, إِذًا, مِصْر/مَصْر, the working-week line, Lebanon digits, الْأَحَد/الِاثْنَيْن note, أَيُّ يَوْمٍ الْيَوْمَ؟, بَطَّارِيَّةُ هَاتِفِي فَارِغَةٌ الْيَوْمَ, blends-into-the-next-letter wording) are present and correct, and I saw no regression. Six notes for the owner: one story-logic point, one wording point on reading numbers, one capitalisation glitch, one auto tap wording, one objective count and the vocative pause form."
+}

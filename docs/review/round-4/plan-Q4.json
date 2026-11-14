@@ -1,0 +1,53 @@
+{
+  "group": "Q4",
+  "ops": [
+    {"chunk": "grammar", "ids": [1], "op": "text", "file": "content/course/grammar.json",
+     "old": "The person who can is an ending on it, as on a noun:",
+     "new": "The person who can is an object ending on it, as on any verb (ـنِي for 'me'):", "count": 1},
+    {"chunk": "grammar", "ids": [2], "op": "engine",
+     "note": "Prose ⟶ lines turn every ؟ (and ،) into ? (and ,), even when the sign itself is the thing being explained. Rule: in a prose ⟶ line, an Arabic punctuation mark that stands alone (between spaces / Latin text, not attached to an Arabic word) is kept as the Arabic sign; a mark attached to an Arabic word stays sentence punctuation and is still mapped. Code: the punct maps in src/lang/ar/tap.ts (lines ~279, ~348, ~391) and src/core/translit.ts PUNCT (line ~72). Examples: (1) grammar [5].explanation 'The Arabic question mark ؟ is a mirrored ?.' must read '... question mark ؟ is a mirrored ?.' (now '... question mark ? is a mirrored ?.'); (2) vocabulary note (audit/vocabulary.txt:17514) 'The Arabic comma ، and question mark ؟ face the other way.' must keep ، and ؟ (now ', ' and '?'); (3) unchanged: هَلْ أَنْتَ مِصْرِيّ؟ still reads 'hal anta miṣrī?'."},
+    {"chunk": "grammar", "ids": [3], "op": "scoped", "word": "فَعَلَ", "scope": "grammar:verb-forms",
+     "gloss": "faʿala (verb pattern, Form I; lit. he did)"},
+    {"chunk": "grammar", "ids": [4], "op": "scoped", "word": "تُسَبِّبُ", "scope": "grammar:connectors-w12",
+     "gloss": "(it, f) causes"},
+    {"chunk": "grammar", "ids": [4], "op": "text", "file": "content/days/day83.json",
+     "old": "\"(she) causes\"", "new": "\"(it, f) causes\"", "count": 1},
+    {"chunk": "grammar", "ids": [5], "op": "text", "file": "content/readings/readings.json",
+     "old": "\"بِأَنَّنِي\":[\"biʾannanī\",0]", "new": "\"بِأَنَّنِي\":[\"bi-annanī\",0]", "count": 1},
+    {"chunk": "grammar", "ids": [5], "op": "text", "file": "content/readings/readings.json",
+     "old": "\"بِمِلْيُونِ\":[\"bimilyūni\",0]", "new": "\"بِمِلْيُونِ\":[\"bi-milyūni\",0]", "count": 1},
+
+    {"chunk": "placards", "ids": [1], "op": "text", "file": "content/readings/readings.json",
+     "old": "\"أُولٰئِكَ\":[\"ūlāʾika\",0]", "new": "\"أُولٰئِكَ\":[\"ulāʾika\",0]", "count": 1},
+    {"chunk": "placards", "ids": [2], "op": "text", "file": "content/course/placards.json",
+     "old": "to the stem ـكْتُبُ. Here:", "new": "to the stem ـكْتُب. Here:", "count": 1},
+    {"chunk": "placards", "ids": [2], "op": "text", "file": "content/glossary/hand.json",
+     "old": "\"ـكْتُبُ\": \"-ktubu (the present-tense stem of 'to write')\"",
+     "new": "\"ـكْتُب\": \"-ktub (the present-tense stem of 'to write')\"", "count": 1},
+    {"chunk": "placards", "ids": [2], "op": "text", "file": "content/readings/readings.json",
+     "old": "\"ـكْتُبُ\":[\"-ktubu\",0]", "new": "\"ـكْتُب\":[\"-ktub\",0]", "count": 1},
+
+    {"chunk": "weeks-tests", "ids": [1], "op": "scoped", "word": "تُحِبُّ", "scope": "week:3",
+     "gloss": "you like (to a man); she likes"},
+
+    {"chunk": "letters-pronunciation", "ids": [1], "op": "engine",
+     "note": "A bare hamza-seat letter shown on its own (أ, إ, ؤ, ئ with no harakat) must transliterate as 'ʾ', like ء (src/core/translit.ts). Now: أ ؤ ئ give an empty ⟶ and إ gives 'I'. Examples: pronunciation.json [13] (hamza page) letters[1] أ → 'ʾ' (now empty), letters[2] إ → 'ʾ' (now 'I'), letters[4] ئ → 'ʾ' (now empty); letters[0] ء stays 'ʾ'. Words are unaffected (أَنَا stays 'anā')."},
+    {"chunk": "letters-pronunciation", "ids": [1], "op": "engine",
+     "note": "When a space-separated run of bare single letters inside prose is expanded to letter names (SEAT/letter-name map in src/lang/ar/tap.ts ~line 357, proseTranslit), join the names with ', ' instead of a space. Examples: letters.json [28].sound '(أ إ ؤ ئ)' → '(alif with hamza, alif with hamza below, wāw with hamza, yāʾ with hamza)' (now run together with spaces, audit/letters-pronunciation.txt:607); a run like 'ف ع ل' → 'fāʾ, ʿayn, lām' if expanded the same way; a single letter or letters already separated by 'or'/',' ('a seat: أ or ؤ' → 'alif with hamza or wāw with hamza', tap-test.ts:74) are unchanged."}
+  ],
+  "checks": [
+    {"chunk": "grammar", "ids": [1], "area": "grammar", "expect": "The person who can is an object ending on it, as on any verb (ـنِي for 'me'):"},
+    {"chunk": "grammar", "ids": [3], "area": "grammar", "expect": "فَعَلَ=faʿala (verb pattern, Form I; lit. he did)"},
+    {"chunk": "grammar", "ids": [4], "area": "grammar", "expect": "تُسَبِّبُ=(it, f) causes"},
+    {"chunk": "grammar", "ids": [4], "area": "days-81-90", "expect": "تُسَبِّبُ = (it, f) causes"},
+    {"chunk": "grammar", "ids": [5], "area": "grammar", "expect": "bi-annanī"},
+    {"chunk": "grammar", "ids": [5], "area": "grammar", "expect": "Law fuztu bi-milyūni dūlārin"},
+    {"chunk": "placards", "ids": [1], "area": "placards", "expect": "⟶ Ulāʾika"},
+    {"chunk": "placards", "ids": [2], "area": "placards", "expect": "to the stem -ktub. Here: yaktubu"},
+    {"chunk": "placards", "ids": [2], "area": "placards", "expect": "ـكْتُب=-ktub (the present-tense stem of 'to write')"},
+    {"chunk": "weeks-tests", "ids": [1], "area": "weeks-tests", "expect": "تُحِبُّ=you like (to a man); she likes"}
+  ],
+  "skipped": [
+    {"chunk": "weeks-tests", "id": 2, "reason": "DISAGREE (checker X4-4): the week:12 gloss for عَلَى already leads with 'on'; the ʿalā ḥaqq note is labelled and needed for w12t7 in the same test, and scopes cannot target a single question."}
+  ]
+}

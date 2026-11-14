@@ -1,0 +1,35 @@
+{
+  "chunk": "days-81-90",
+  "checker": "X4-5",
+  "verdicts": [
+    {
+      "id": 1,
+      "verdict": "AGREE",
+      "fix": "وَإِذَا قَبِلَتِ الْجَامِعَة طَلَبَكِ، فَسَنَحْتَفِلُ فِي مَطْعَم! وَأَنْتِ تَدْفَعِينَ طَبْعًا، فَالْمِنْحَة لَكِ!",
+      "scope": "content/days/day82.json dialogue.lines[15] only. Same line: segs[4] [سَنَحْتَفِلُ = we will celebrate] -> [فَسَنَحْتَفِلُ = then we will celebrate] (the day-89 seg gloss). readings.json already has فَسَنَحْتَفِلُ (fasanaḥtafilu); the clitic rule turns it into fa-sanaḥtafilu because the gloss starts with 'then', so no readings.json change is needed. English unchanged.",
+      "reason": "Real error. When the answer of a conditional (إِذَا / إِنْ) starts with the future prefix سَـ / سَوْفَ, it must take فَـ (jawāb al-sharṭ maqrūn bi-l-fāʾ). The course writes it with fa- on day 80 (final-round fix), day 89 l16 and day 90 l7; this line is the odd one out."
+    },
+    {
+      "id": 2,
+      "verdict": "AGREE",
+      "fix": "لَا بَأْسَ يَا دَانْيَال، هٰذَا يَحْدُثُ لِلْجَمِيع. فِي الِامْتِحَان، إِذَا أَخْطَأْتَ، فَقُلْ «عَفْوًا، أَقْصِدُ…» ثُمَّ صَحِّحِ الْكَلِمَة، وَاسْتَمِرَّ بِثِقَة.",
+      "scope": "content/days/day87.json dialogue.lines[7] only. Same line: segs[11] [قُلْ = say! (to a man)] -> [فَقُلْ = then say! (to a man)]. No readings.json entry exists for فَقُلْ; the engine reads it fa-qul (gloss starts with 'then', rest قُلْ = qul is in the layer). English unchanged.",
+      "reason": "Real error. An imperative answer of إِذَا must take فَـ; the course's own day-84 mistake card and day-89 quiz[5] teach exactly this, so the teacher's line contradicting it is a major inconsistency."
+    },
+    {
+      "id": 3,
+      "verdict": "AGREE",
+      "fix": "Comparatives: Sami says لٰكِنَّ الِاسْتِمَاعَ كَانَ أَصْعَبَ. What does أَصْعَبَ mean here?",
+      "scope": "content/days/day89.json quiz[4].prompt only. Its tap line gains لٰكِنَّ=but (like inna: the noun after it ends in -a), the gloss already used in the grammar and weeks-tests taps; readings.json already has لٰكِنَّ (lākinna). Options/answer unchanged.",
+      "reason": "Real (minor). Quoted alone, الِاسْتِمَاعَ كَانَ أَصْعَبَ has a subject in -a with nothing to govern it (it would be الِاسْتِمَاعُ), and the tap already says '-a after lākinna'. Quoting Sami's actual words (day 89 l9: لٰكِنَّ الِاسْتِمَاعَ كَانَ أَصْعَبَ مِمَّا تَوَقَّعْتُ) fixes it without changing the question."
+    },
+    {
+      "id": 4,
+      "verdict": "CHANGE",
+      "fix": "content/readings/readings.json: \"لِحُسْنِ\":[\"liḥusni\",0] -> \"لِحُسْنِ\":[\"li-ḥusni\",0]. No change to the Arabic. Result in all three places (day 84 intro, dialogue.culture, dialogue.lines[13]): shukran li-ḥusni l-istimāʿ.",
+      "scope": "The word لِحُسْنِ only (it occurs only on day 84). Optional engine follow-up, not required: in src/lang/ar/tap.ts cliticReading (line 159) the capital is triggered by bareNamesSet().has(stripHarakat(rest)), so any clitic + a homograph of a course name (حُسْن vs Hasan حَسَن) is capitalised; matching the vocalised form (nameIndex.has(rest)) only would prevent it, but that touches every clitic+name reading, so it needs its own re-export check.",
+      "reason": "Real. Confirmed cause: cliticReading capitalises the rest of a clitic word when its unvocalised skeleton حسن is in the course name list (Hasan), so ḥusn 'goodness' becomes Ḥusni. A hyphenated reading in the layer makes cliticReading return early (line 132: a reading that already has '-' is kept), so the one-word override is the safe, scoped fix; the reviewer's fix text gave only the output, not the mechanism."
+    }
+  ],
+  "summary": "Checked all 4 day 81-90 errors against audit/days-81-90.txt, the day files, readings.json and src/lang/ar/tap.ts. AGREE 3, CHANGE 1, DISAGREE 0. Both missing conditional fa- (day 82 before sa-, day 87 before the imperative qul) are real and contradict the course's own rule and the day 80/89/90 lines. The day 89 quiz excerpt needs its lākinna. The li-Ḥusni capital is a real engine collision with the name Hasan (cliticReading uses the unvocalised name list); fixed by a hyphenated readings.json override for لِحُسْنِ. Notes (A's 5) not given verdicts; the day-84 counted noun دَرَجَة in pause and the idhā + past note are house style / softening matters, not errors."
+}

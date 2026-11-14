@@ -1,0 +1,50 @@
+{
+  "chunk": "letters-pronunciation",
+  "reviewer": "A",
+  "errors": [
+    {
+      "file": "content/course/pronunciation.json; content/course/letters.json",
+      "path": "pronunciation.json [13].letters[1]; [13].letters[3]; [13].letters[4]; letters.json [28].sound",
+      "current": "alif with hamza alif with hamza below wāw with hamza yāʾ with hamza",
+      "problem": "Engine, single hamza-seat letters. On the hamza page the ⟶ line under the bare letters أ, ؤ and ئ is empty, while إ alone gives 'I' and ء gives 'ʾ', so the four seats that the page says carry 'always the same short stop' are read three different ways (nothing / I / ʾ). In the letter page's sound field the list (أ إ ؤ ئ) is expanded to seat names with no separators: '(alif with hamza alif with hamza below wāw with hamza yāʾ with hamza)', which reads as one confused phrase. The Arabic is correct; only the ⟶ rendering is wrong.",
+      "category": "engine",
+      "severity": "minor",
+      "confidence": "medium",
+      "fix": "For a bare hamza-seat letter shown on its own, print ʾ for أ ؤ ئ and for إ (or suppress ⟶ under single letters, as already proposed for d38q7); when a run of letters separated by spaces is expanded to names, join the names with ', ' : '(alif with hamza, alif with hamza below, wāw with hamza, yāʾ with hamza)'.",
+      "alsoChange": "the tip ⟶ on the same page already uses commas and is fine"
+    }
+  ],
+  "notes": [
+    {
+      "file": "content/course/pronunciation.json",
+      "path": "[15].tip",
+      "note": "Waṣl page: with the R3-85 spoken-form ⟶, the prose now reads 'fi l-madīna is fi l-madīna, and ila l-yamīn is ila l-yamīn', which loses the point (written Arabic vs what you say). DECISIONS R3-85 allows 'no transliteration on prose' as the fallback; that may read better here."
+    },
+    {
+      "file": "content/course/pronunciation.json",
+      "path": "[15].ipa",
+      "note": "Waṣl IPA lists ʔa | ʔi | ∅ only; the waṣl vowel is u before a ḍamma stem (اُكْتُبْ uktub, اُدْرُسْ udrus). Not wrong for the examples shown, but 'ʔa | ʔi | ʔu | ∅' would be complete."
+    },
+    {
+      "file": "content/course/pronunciation.json",
+      "path": "[11].pairs[0]",
+      "note": "The rāʾ page pairs حَارّ (ḥārr, with a doubled r) with حَال (ḥāl): not a true minimal pair, since gemination differs too. A single-r pair such as رَاح / لَاح or نَار / نَال would isolate r vs l."
+    },
+    {
+      "file": "content/course/letters.json",
+      "path": "[17].nameAr",
+      "note": "Tapping the letter name عَيْن on the ʿayn letter page shows 'eye', while every other letter name shows 'the name of the letter …'. Correct as a word meaning, but 'the name of the letter ʿayn (the word also means eye)' would fit the page. Similarly أَلِف shows 'an alif'."
+    },
+    {
+      "file": "content/course/pronunciation.json",
+      "path": "[19].diagram",
+      "note": "Diphthong diagram taps: وْ explains 'with sukūn: the glide aw', but يْ shows only 'the letter yāʾ'. Add '(with sukūn: the glide ay)' for symmetry."
+    },
+    {
+      "file": "content/course/pronunciation.json",
+      "path": "[17].examples[0].en",
+      "note": "أَرْض is glossed 'floor, ground' in English but 'earth; ground; land' on tap. Both are acceptable; 'ground, earth' would match the tap and the usual MSA sense."
+    }
+  ],
+  "summary": "Read the whole export (32 letter cards, 28 pronunciation pages, 1,774 lines): about 375 ⟶ lines, 374 tap lines (about 500 tap glosses) and roughly 200 distinct Arabic strings. Checked letter names and their vocalisation, sun/moon status (14/14, correct), IPA, transliteration symbols, every pronunciation tip, diagram, error line, minimal pair (sayf/ṣayf, tīn/ṭīn, qalb/kalb, ḥāl/hāl, darb/ḍarb, sūra/ṣūra, dalīl/dhalīl, khayr/ghayr, kataba/kātaba, darasa/darrasa, saʾala/sāla, ḥajz/ḥajaza, dhahabtu/dhahabat), the stress rules and their examples, tanwīn and pausal rules, waṣl, intonation and verb-rhythm pages. All Arabic harakat and case/tanwīn forms are correct (خُبْزًا / الْخُبْزَ, شَايًا / الشَّايَ, قَهْوَةً, غَدٍ, نِهَايَةٌ), and no tap gloss is wrong. One error found: an engine inconsistency in how single hamza-seat letters are transliterated (minor). Six short notes on completeness and presentation. The chunk is in very good shape after rounds 1-3 and the final round; no regression from the final-round edits (emphatic vowel anchor, velar ghayn, unaspirated ṭ, long vowels, dahab example, alif 'usually', nihāya pause tip) was found."
+}

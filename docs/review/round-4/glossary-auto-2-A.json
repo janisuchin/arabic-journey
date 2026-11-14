@@ -1,0 +1,51 @@
+{
+  "chunk": "glossary-auto-2",
+  "reviewer": "A",
+  "errors": [
+    {
+      "file": "content/days/day51.json",
+      "path": "dialogue.lines[6].ar; dialogue.lines[6].segs; dialogue.culture; reading.ar; reading.segs (also content/course/vocabulary.json [nuzha] example.ar: بِالْفُلُوكَة)",
+      "current": "فُلُوكَة",
+      "problem": "The Nile boat is vocalised fulūka (ḍamma on the fāʾ). The dictionary MSA form is فَلُوكَة falūka (Hans Wehr: falūka, pl. -āt; Egyptian speech says felūka). No source gives fulūka, so the learner learns a wrong vowel in a taught word (dialogue, culture note, reading and the nuzha vocabulary example). Do not confuse it with Quranic فُلْك fulk 'ship'.",
+      "category": "arabic",
+      "severity": "minor",
+      "confidence": "medium",
+      "fix": "فَلُوكَة",
+      "alsoChange": "Same replacement inside بِالْفُلُوكَة → بِالْفَلُوكَة (day51 dialogue.lines[6], reading, vocabulary nuzha example). Transliteration follows (falūka, bi-l-falūka). Rebuild readings and glossary:auto."
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[519] id yarju: en (tap gloss of يَرْجُو in every untagged line)",
+      "current": "asks, hopes; (I) please",
+      "problem": "يَرْجُو is the 'he' form ('he asks, he hopes'). '(I) please' is the sense of أَرْجُو (the polite 'please' explained in the note), not of يَرْجُو. A learner who taps يَرْجُو is told it can mean 'I please', which is wrong for the person and misleading as English.",
+      "category": "gloss",
+      "severity": "minor",
+      "confidence": "medium",
+      "fix": "asks, hopes (أَرْجُو = please)",
+      "alsoChange": "none: the note already explains أَرْجُو أَنْ… as a polite 'please'"
+    }
+  ],
+  "notes": [
+    {
+      "file": "content/days/day43.json",
+      "path": "dialogue.lines[8].segs (مُذَكَّرَة)",
+      "note": "The gloss 'masculine (agreeing with a feminine noun)' is correct but easy to misread as 'a masculine word that agrees with a feminine noun'. Clearer: 'masculine (f form, agreeing with كَلِمَة)'."
+    },
+    {
+      "file": "content/glossary (auto list)",
+      "path": "قَايْتْبَاي",
+      "note": "The name is vocalised with two sukūns in a row after a long ā (qāytbāy). The usual Arabic vocalisation is قَايِتْبَاي (Qāyitbāy). It is a name and spelt the same everywhere, so it is not counted as an error."
+    },
+    {
+      "file": "content/glossary (auto list)",
+      "path": "صَحْتَيْن",
+      "note": "This is the Levantine spoken form, and it is labelled 'regional spoken'. The MSA spelling would be صِحَّتَيْن. It is fine as a labelled phrase, but it should not be used anywhere as MSA."
+    },
+    {
+      "file": "content/glossary/auto.json",
+      "path": "قلعة; علي; كعك; منسف; صلاح; محمد",
+      "note": "Unvocalised keys merge several senses ('castle (of), citadel (of) / castle, citadel / citadel (of)'). The app does not read auto.json, so the learner never sees this. I mention it only so that nobody copies these merged strings into a source file."
+    }
+  ],
+  "summary": "I read all 3,637 lines of audit/glossary-auto-2.txt (zāy to yāʾ, about 3,630 vocalised keys with one gloss each). Every key is an Arabic course form, so I checked about 3,630 Arabic forms and about 3,630 glosses. I checked the vocalisation, case, mood, person, number, gender, duals, plurals, numbers and letter names. Where a gloss looked context-bound or odd, I opened the source seg, scoped.json or the vocabulary entry to see what the learner actually gets: ظَهْرًا لِظَهْر, فِعْلًا, سَتَفْهَمُ, مَبْسُوطَةً, قِرْشًا (correct for the Jordanian dinar), سِتِّمِئَة / خَمْسِمِئَةِ / ثَلَاثِمِئَةٍ (correct genitives), وَالْمَبْنِيَّ لِلْمَجْهُول, نِهَايَةٌ and وْ (correct through scoped.json), and كَعْك / كَعْكَة (correct in context). The round-3 findings (3ms verbs glossed 'they', مِنْهُ/مِنْهَا, شَجَرَة) are fixed. The marked mistake forms ('wrong — correct: …') are intended. The day 84 past–past 'if' glosses (صَارَتْ 'will become', زَرَعْنَا 'we plant', عَمِلْنَا) are a known leftover and are not re-reported. 2 errors, both minor and medium confidence: (1) فُلُوكَة should be فَلُوكَة (day 51 dialogue, culture note and reading, and the nuzha vocabulary example). (2) The vocabulary gloss of يَرْجُو says '(I) please', which belongs to أَرْجُو. No major error found: the source glosses behind this half of the alphabet are consistently correct."
+}

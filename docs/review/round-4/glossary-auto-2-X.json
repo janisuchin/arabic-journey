@@ -1,0 +1,21 @@
+{
+  "chunk": "glossary-auto-2",
+  "checker": "X4-6",
+  "verdicts": [
+    {
+      "id": 1,
+      "verdict": "AGREE",
+      "fix": "فُلُوكَة → فَلُوكَة everywhere (so also بِالْفُلُوكَة → بِالْفَلُوكَة)",
+      "scope": "DUPLICATE of glossary-auto-1 #1: one course-wide op only (day51 dialogue.culture, dialogue.lines[6], reading; vocabulary nuzha example). Do not apply a second time.",
+      "reason": "Real. Hans Wehr gives فَلُوكَة falūka (pl. -āt, فَلَائِكُ) for the felucca; no standard source has fulūka. Same fix as glossary-auto-1 #1."
+    },
+    {
+      "id": 2,
+      "verdict": "CHANGE",
+      "fix": "asks, hopes (arjū: please)",
+      "scope": "content/course/vocabulary.json id yarju field en (the tap gloss of يَرْجُو comes from it; tapped only on the yarju vocabulary card and its forms[1]); glossary:auto rebuilds",
+      "reason": "Real: يَرْجُو is 'he asks / hopes'; '(I) please' is the sense of أَرْجُو and gives the wrong person for the form tapped. The reviewer's fix puts Arabic script into a vocabulary en field, which no other vocabulary en has (en is also shown as an English answer option); use the transliteration, as other vocabulary en do ('replies (with ʿalā)'). The note already explains أَرْجُو أَنْ… as a polite please."
+    }
+  ],
+  "summary": "2 findings checked against audit/glossary-auto-2.txt, audit/vocabulary.txt and content/course/vocabulary.json. AGREE 1 (felucca, which is the same single course-wide fix as glossary-auto-1 #1, to apply once), CHANGE 1 (يَرْجُو gloss: drop the wrong-person '(I) please' but keep English-only text: 'asks, hopes (arjū: please)'), DISAGREE 0. The notes (مُذَكَّرَة wording, قَايْتْبَاي, صَحْتَيْن labelled spoken, merged unvocalised auto keys) need no change; auto.json is never read by the app."
+}

@@ -1,0 +1,21 @@
+{
+  "chunk": "days-31-40",
+  "checker": "X4-1",
+  "verdicts": [
+    {
+      "id": 1,
+      "verdict": "AGREE",
+      "fix": "عُطْلَة is feminine, so 'was' is usually كَانَتْ (كَانَ is possible but less usual). Before al- its sukūn turns into i: كَانَتِ الْعُطْلَة.",
+      "scope": "content/days/day39.json sentences[1].mistakes[0].why only; keep the wrong/right pair as is",
+      "reason": "Real: عُطْلَة is a majāzī (grammatical, non-living) feminine; when it follows the verb directly, classical and modern grammars allow both تأنيث and تذكير of the verb (يجوز الوجهان مع المؤنث المجازي), feminine being the usual form. Calling كَانَ 'wrong' breaks the owner's guiding rule in DECISIONS.md ('where both forms are good, the card says better / usually, not wrong', applied in R3-55). The softened wording keeps كَانَتْ as the taught form and is accurate."
+    },
+    {
+      "id": 2,
+      "verdict": "AGREE",
+      "fix": "كَانُوا",
+      "scope": "content/days/day39.json quiz[1].options[0] only; answer index stays 2; tap gloss كَانُوا = 'they were' already exists in content/glossary/hand.json",
+      "reason": "Same point as id 1: with the majāzī feminine الرِّحْلَةُ right after the verb, كَانَ … قَصِيرَةً is grammatical, so the quiz has two defensible answers. كَانُوا is clearly wrong (a verb before its subject stays singular, and the subject is singular), matching the R3-18 precedent (replace a defensible distractor with a verb-first plural)."
+    }
+  ],
+  "summary": "2 errors checked against audit/days-31-40.txt (lines 2286, 2431) and content/days/day39.json: AGREE 2, CHANGE 0, DISAGREE 0. Both stem from one point (masculine kāna before a non-living feminine noun is allowed, feminine is usual). Notes (pause-form counted nouns after 3–10, day 31 verbless future, day 37 English, day 38 story timing, empty ⟶ for أ) were not judged as errors."
+}

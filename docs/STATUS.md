@@ -1,47 +1,50 @@
 # Status — Arabic Journey
 
-Updated 2026-11-14 (final review round: review closed, web deployed). Branch `main`. All work runs on the owner's PC.
-Main prompt: `Arabic_Reference/PROMPT_B_Nihongo-based.md`. Live (final-round build):
+Updated 2026-11-14 (round 4 done, web deployed). Branch `main`. All work runs on the owner's PC.
+Main prompt: `Arabic_Reference/PROMPT_B_Nihongo-based.md`. Live (round-4 build):
 https://ar-journey.german-journey.workers.dev · unlocked https://ar-journey-unlocked.german-journey.workers.dev
 
 ## Done
 - v1.0.0 released (8386d49, tag v1.0.0): 90 days, 13 week tests, 32 scenarios, culture, labs, report, final exam.
-- Accuracy rounds 1, 2, 2b, 3, 3F (`docs/review/round-*/SUMMARY.md`).
-- **Final review round — review CLOSED** (`docs/review/round-final/`): the owner decided (2026-11-13) there will be
-  no outside teacher; every open question of `TEACHER-REVIEW-PACK.md` (A–F, R12-1…58) was decided by the owner with
-  AI recommendations (`DECISIONS.md`). 338 area ops (G1–G5) + 95 course-wide spelling ops (`z/`) + 12 new tap
-  meanings (`h/`), all verified in a fresh export. Engine: unanswered quiz questions hide the "wrong — correct" note
-  on tap (R3-45); the waṣl page reads prose in the spoken form (R3-85, export too). Details: `SUMMARY.md`.
-- Checks: validator 0 errors, 107 unit tests, typecheck/lint/format clean, e2e 28/28 (port 4191). Both editions
+- Accuracy rounds 1, 2, 2b, 3, 3F, final round (review closed by owner decision, a5b2666).
+- **Round 4** (optional, `docs/review/round-4/SUMMARY.md`): 21 reviewers → 6 cross-checkers → 5 planners;
+  58 findings, 56 applied (85 ops, verify 75/76, miss format-only), 2 rejected (مُنْطَاد stays; week-12 عَلَى).
+  Main fixes: fa- after إِذَا (days 82, 87), jamal root note, house-style endings (inna nouns, kāna/laysa
+  predicates, adverbial -an), day 74/39 quiz distractors, فَلُوكَة, tap glosses scoped per card. Engine: lone hamza
+  seat = ʾ, ulāʾika, lone ؟/، kept in prose, letter lists comma-joined, bi- hyphens, li-ḥusni not a name.
+- Checks: validator 0 errors, 108 unit tests, typecheck/lint/format clean, e2e 28/28 (port 4191). Both editions
   deployed 2026-11-14 and verified live.
 
 ## Left
 1. Content `status` is not `approved` anywhere: the schema needs a named human reviewer. Owner may choose to mark it
    approved under their own name (a deliberate owner call, not done automatically).
-2. Optional round 4 (fresh reviewers + cross-check, prompts in `docs/review/round-3/`).
-3. Small leftovers (not in the decisions): day 84 reading still has a past–past "if" sentence (R12-28 style);
-   polite ordering lines (days 15, 25, 28) keep "I would like"; سُوق gender field can only be m/f.
+2. Round-4 reviewer notes (124, in `docs/review/round-4/*-A.json`): story logic (day 1 "good evening", day 12/18
+   Yusuf, day 66/70 internship), photo/place mismatches in scenarios, counted nouns 3–10 in pause form, li-/bi-
+   hyphen gaps (bidūni, bisurʿa), quiz hints that give answers (بَارِدُونَ, كَثِيرُونَ, إِنَّ "after qāla").
+3. Small leftovers: day 84 reading past–past "if" sentence; polite ordering lines (days 15, 25, 28) keep
+   "I would like"; سُوق gender field can only be m/f.
 4. Branching role-play (Prompt B L) not built.
 5. **No APK / version release** until all language modules are combined (owner, 2026-11-13). Web deploys only.
 
 ## Decisions
-- Review is closed by owner decision; record it as "owner decision with AI recommendations", never as a teacher review.
+- Review closed by owner decision; record it as "owner decision with AI recommendations", never as a teacher review.
 - Never mark content `approved` without a named human reviewer.
-- House style: pause form mid-sentence; endings shown on adverbial -an, kāna/laysa predicates, inna/anna nouns,
-  counted nouns, taught objects, fixed formulas (تَحِيَّةً طَيِّبَةً). Spellings: عَلِيّ, أُرْدُنِّيّ, إِذًا, امْتِحَان,
-  no final pause sukūn, Hasan, Nour. لَازِم is spoken style; يَجِبُ أَنْ is the written form.
+- House style: pause form mid-sentence; endings shown on adverbial -an, kāna/laysa predicates, inna/anna nouns
+  (names too: سَامِيَ, دَانْيَالَ), counted nouns, taught objects, fixed formulas. Spellings: عَلِيّ, أُرْدُنِّيّ, إِذًا,
+  امْتِحَان, فَلُوكَة, no final pause sukūn, Hasan, Nour. لَازِم spoken; يَجِبُ أَنْ written.
 - Fixes go only where the app reads them: segs/content (counted text replace), `scoped.json` (one place), or
-  `hand.json` (right everywhere; English only, no Arabic script). Never `auto.json`.
-- The validator ignores place glosses: a new word in lesson text needs a `hand.json` or seg gloss.
-- A scoped gloss is keyed by the exact vocalised form. `apply-plans.py` rewrites `scoped.json` from disk, so a text
-  op on scoped.json is lost (use scoped ops; delete keys with a small script).
-- A review round = decisions/findings → fix plans → `apply-plans.py` → re-export → `verify-plans.py`.
+  `hand.json` (right everywhere; English only). Never `auto.json` (the app never reads it).
+- `readings.json` is regenerated by `readings:build` from `translitWord`: a one-word reading fix goes in code
+  (`SILENT_LETTER_TRANSLIT`/`FIXED_TRANSLIT` in translit.ts, `CLITIC_FORCE`/`NOT_NAMES` in tap.ts), not the layer.
+- A gloss hint that names the form ("form after 'lam'") must not show on unanswered quiz options.
+- A review round = findings → cross-check → fix plans → `apply-plans.py` → rebuild → re-export → `verify-plans.py`.
 - After content changes: `content:index` → `readings:build` → `glossary:auto` → `check`.
-- Many day files are CRLF: edit by counted text replacement, never re-serialise; build `old` strings from the raw file.
-- Bash heredocs break on Arabic scripts: write Python scripts to files (scratchpad) and run them with `-I -X utf8`.
-- e2e on port 4191: copy playwright.config.ts with 4190→4191 and `reuseExistingServer: false`, then delete it.
+- Many day files are CRLF: edit by counted text replacement, never re-serialise; build `old` strings from raw bytes.
+- Bash heredocs break on Arabic: write Python scripts to the scratchpad and run them with `-I -X utf8`.
+- e2e on port 4191: `npm run build:web`, copy playwright.config.ts with 4190→4191 and
+  `reuseExistingServer: false` (literal replace), run, then delete the copy.
 - UI is LTR for English readers; Arabic text always RTL. One session at a time in this repo.
 
 ## Next step
-Owner's choice: (a) mark content approved under the owner's own name, (b) optional round 4, or (c) leave Arabic as
-done and move to the next language module / the combined app.
+Owner's choice: (a) mark content approved under the owner's own name, (b) a small notes pass on the round-4 notes
+in Left #2, or (c) leave Arabic as done and move to the next language module / the combined app.

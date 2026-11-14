@@ -1,0 +1,42 @@
+{
+  "chunk": "vocabulary-2",
+  "checker": "X4-3",
+  "verdicts": [
+    {
+      "id": 1,
+      "verdict": "AGREE",
+      "fix": "Careful: جَمَل (camel) and جَمِيل (beautiful) share the root letters j-m-l but are different words: don't mix them up.",
+      "scope": "content/course/vocabulary.json [562].note (id jamal) only",
+      "reason": "جَمَل and جَمِيل are both under the root ج-م-ل in every dictionary; saying they come from different roots teaches a false root analysis in a course that teaches roots. The fix keeps the warning (two different words) and states the root correctly."
+    },
+    {
+      "id": 2,
+      "verdict": "AGREE",
+      "fix": "يَنْزِلُ=falls, comes down (of snow, rain)",
+      "scope": "scoped glosses vocab:thalj ([467].example.ar and [467].note) and vocab:ahyanan ([476].example.ar); the hand gloss 'gets off, gets out; goes down' stays app-wide for the transport lines",
+      "reason": "In يَنْزِلُ الثَّلْج the verb means the snow falls; the hand gloss gives the transport sense of other lessons. The day 53/54 segs and grammar:weather-expressions already say 'falls, comes down'."
+    },
+    {
+      "id": 3,
+      "verdict": "AGREE",
+      "fix": "الْأُوبِرَا=the opera (dāru l-ūbirā: the Opera House)",
+      "scope": "scoped gloss vocab:dar ([682].note) only; the metro-station gloss stays for مَحَطَّةِ الْأُوبِرَا",
+      "reason": "In the note دَارُ الْأُوبِرَا (the Opera House) the word is the opera itself, not the Cairo metro station from another card."
+    },
+    {
+      "id": 4,
+      "verdict": "AGREE",
+      "fix": "يَسْتَعْمِلُ=(he) uses",
+      "scope": "scoped glosses vocab:yastamilu ([607].ar, [607].forms[1].ar) and vocab:istikhdam ([707].note). Do not touch the day 73 seg (الْعُنْوَانُ … يَسْتَعْمِلُ الْمُضَارِع), where '(it) uses' is right because the subject is the headline.",
+      "reason": "On the verb card and next to يَسْتَخْدِمُ=(he) uses in the istikhdam note, '(it) uses' wrongly suggests a thing as subject; the example is a person (أَسْتَعْمِلُ الْحَاسُوب). The '(it)' comes from the day 73 sentence."
+    },
+    {
+      "id": 5,
+      "verdict": "CHANGE",
+      "fix": "src/lang/ar/tap.ts: add 'بجائزة' to CLITIC_FORCE (const CLITIC_FORCE = new Set(['بخير', 'بجائزة'])), so بِجَائِزَةِ / بِجَائِزَة read bi-jāʾizati / bi-jāʾiza everywhere; then the ⟶ lines become 'fāza bi-jāʾizati Nūbil' ([660].example.ar, [662].example.ar) and 'To win a prize is fāza bi-jāʾiza (won a prize).' ([662].note). Rebuild the readings layer if it stores the unhyphenated form.",
+      "scope": "engine, one word (both vocalisations share the skeleton بجائزة); no content text changes",
+      "reason": "The problem is real but the cause is narrower than the reviewer says: cliticReading tests handGlossary first, and hand.json glosses بِجَائِزَةِ / بِجَائِزَة as 'a prize (fāza bi-: to win)', which does not start with '(with)', so the scoped '(with) the prize (of)' gloss is never consulted. Changing the general rule to read scoped glosses would make the reading depend on the place; the house-style precedent for a word the course writes as bi- + word whatever its gloss is CLITIC_FORCE (bi-khayr). The course's own glosses and note already write fāza bi-jāʾiza."
+    }
+  ],
+  "summary": "Checked all 5 vocabulary-2 errors against audit/vocabulary.txt, content/glossary (hand.json, scoped.json, auto.json), the other audit areas where the words occur, and src/lang/ar/tap.ts (meaningChain, cliticReading, CLITIC_FORCE). 4 AGREE, 1 CHANGE, 0 DISAGREE. The jamal note is a real major grammar-fact error (جَمَل and جَمِيل share ج-م-ل). The three gloss fixes are right but must be scoped vocab:<id> glosses only (يَنْزِلُ, الْأُوبِرَا and يَسْتَعْمِلُ each have a correct different sense elsewhere). The clitic-hyphen fix is changed to a one-word CLITIC_FORCE entry, since the engine reads the hand gloss, not the scoped one."
+}

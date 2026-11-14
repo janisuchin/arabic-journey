@@ -1,0 +1,51 @@
+{
+  "chunk": "weeks-tests",
+  "reviewer": "A",
+  "errors": [
+    {
+      "file": "content/course/course.json",
+      "path": "weeks[2].test[7].options[3]",
+      "current": "هَلْ تُحِبُّ الطَّعَامَ الْحَارَّ؟",
+      "problem": "tap gloss for تُحِبُّ is 'she loves' (global auto gloss, content/glossary/auto.json). In this question with no subject (هَلْ تُحِبُّ … ؟) the learner reads it as 'Do you like spicy food?' (to a man); 'she loves' misleads the learner on a quiz option.",
+      "category": "gloss",
+      "severity": "minor",
+      "confidence": "high",
+      "fix": "scoped tap gloss for تُحِبُّ in week:3 → 'you like (to a man); she likes'",
+      "alsoChange": "content/glossary/scoped.json: add a week:3 scope for تُحِبُّ; do not change the app-wide gloss"
+    },
+    {
+      "file": "content/course/course.json",
+      "path": "weeks[11].test[3].options[2]",
+      "current": "أَنَا أَعْدَدْتُ الشَّرَائِحَ عَلَى الْحَاسُوب.",
+      "problem": "tap gloss for عَلَى is 'on (ʿalā ḥaqq: in the right)': the week:12 scoped gloss (content/glossary/scoped.json) was written for أَنْتَ عَلَى حَقّ in w12t7 but also hits عَلَى الْحَاسُوب 'on the computer', where the ʿalā ḥaqq note belongs to another sentence.",
+      "category": "gloss",
+      "severity": "minor",
+      "confidence": "medium",
+      "fix": "week:12 scoped gloss for عَلَى → 'on; (in ʿalā ḥaqq) in the right', or scope the ʿalā ḥaqq gloss to w12t7 only and give 'on' in w12t4",
+      "alsoChange": "content/glossary/scoped.json line with \"week:12\": \"on (ʿalā ḥaqq: in the right)\""
+    }
+  ],
+  "notes": [
+    {
+      "file": "content/course/course.json",
+      "path": "weeks[9].test[0].options",
+      "note": "w10t1: زَمِيلِي يُسَاعِدُنِي فِي الْعَمَل — the key 'My colleague helps me with the work.' is defensible (sāʿada fī = help with), but 'at work' is the more natural reading of فِي الْعَمَل; 'My colleague helps me at work.' would match the tap gloss better. Not an error."
+    },
+    {
+      "file": "content/course/course.json",
+      "path": "weeks[7].test[1].options[2]",
+      "note": "w8t2 distractor سَوْفَ لَا أَنَامُ is seen in modern journalese; it is correctly treated as wrong here (لَنْ + subjunctive is the standard). An explain line could say 'سَوْفَ لَا is avoided in careful MSA; use لَنْ'."
+    },
+    {
+      "file": "content/course/course.json",
+      "path": "weeks[11].test[2].options[1]",
+      "note": "w12t3: إِذَا + present (إِذَا تُرَاجِعُونَ) does occur in modern writing, but with the past apodosis نَجَحْتُمْ the past رَاجَعْتُمْ is the only standard answer. Key is fine."
+    },
+    {
+      "file": "content/course/course.json",
+      "path": "weeks[4].test[8].ar",
+      "note": "اِبْنُ with a kasra on the waṣl alif mid-sentence (خَالِد اِبْنُ خَالَتِي) is a course-wide convention (grammar card, vocabulary); strictly the waṣl alif carries no vowel there (ابْنُ). Style, not reported."
+    }
+  ],
+  "summary": "Read the whole export audit/weeks-tests.txt (13 weeks, 128 test items, week titles and levels) and checked every answer key, every Arabic string (about 420 incl. options, prompts and explain lines) and every tap gloss (about 900 word taps). All 128 answer keys are correct and no other option is also correct; harakat, case endings (kāna/laysa predicates, inna nouns, counted nouns, genitive after خَلْفَ, subjunctive after أَنْ/لَنْ, jussive after لَمْ), agreement (أُذُن f., لَيْسَتْ, plurals of things + f. sg.), imperatives and passive forms are all right. Earlier decisions (R3-125 يَزُورُونَ distractor, R3-126 'in reported speech', R3-127 فَلَنْ تَنَامَ, R3-83 عَلَى حَقٍّ, R12-29 سَأَتَّصِلُ بِكَ, lam explain, تَحِيَّةً طَيِّبَةً) are applied correctly with no regressions. 2 errors, both minor tap glosses from shared glossary entries leaking into a test option (تُحِبُّ 'she loves' in a 'do you like' question; the ʿalā ḥaqq note on عَلَى الْحَاسُوب). 4 notes."
+}

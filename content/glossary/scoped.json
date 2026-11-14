@@ -21,6 +21,9 @@
   "أَخِي": {
     "grammar:family-idafa-w5": "my brother; also brother (of) after a preposition"
   },
+  "أَذْهَبْ": {
+    "vocab:lam": "I go (form after 'lam')"
+  },
   "أَرَاهَا": {
     "*": "I see her, I see it (f; also 'them' for things)"
   },
@@ -131,6 +134,9 @@
   },
   "الْأَكْبَر": {
     "culture:cul.family": "the eldest; the biggest"
+  },
+  "الْأُوبِرَا": {
+    "vocab:dar": "the opera (dāru l-ūbirā: the Opera House)"
   },
   "الْإِشَارَة": {
     "vocab:ishara": "the traffic lights",
@@ -258,6 +264,9 @@
   "تَشْرَبُوا": {
     "grammar:negative-imperative": "drink (to a group; after lā: don't drink)"
   },
+  "تَشْرَبِي": {
+    "vocab:yashrabu": "you drink (to a woman, after an or lā)"
+  },
   "تَصِلَ": {
     "*": "(she, it f) arrives; you arrive (to a man) (form after an)"
   },
@@ -295,13 +304,18 @@
     "grammar:conditional-w12": "(it, f) waits for you (after lan; to a man)"
   },
   "تُحِبُّ": {
-    "vocab:ughniya": "she loves, she likes"
+    "vocab:ughniya": "she loves, she likes",
+    "vocab:yuhibbu": "you love, you like (to a man); she loves",
+    "week:3": "you like (to a man); she likes"
   },
   "تُخْلَعُ": {
     "*": "(it, f) is taken off; (they) are taken off, with a plural of things"
   },
   "تُرْجِمَتْ": {
     "*": "(it, f) was translated; (they) were translated, with a plural of things"
+  },
+  "تُسَبِّبُ": {
+    "grammar:connectors-w12": "(it, f) causes"
   },
   "تُشْبِهُ": {
     "vocab:yushbihu": "she looks like (also: you look like, to a man)"
@@ -402,6 +416,10 @@
   "صَيْدَلِيَّة": {
     "vocab:saydali": "pharmacist (f); also pharmacy"
   },
+  "ضَحِكَ": {
+    "vocab:dahika": "he laughed (singular form, also used before a plural subject)",
+    "vocab:nas": "he laughed (singular form, also used before a plural subject)"
+  },
   "طَابُور": {
     "scenario:airport-checkin": "queue"
   },
@@ -409,7 +427,12 @@
     "scenario:cafe": "table (of): ṭāwilatu l-khidma = the (service) counter"
   },
   "طَوِيلًا": {
-    "grammar:laysa": "tall, long (-an after laysa)"
+    "grammar:laysa": "tall, long (-an after laysa)",
+    "vocab:qasir": "tall, long (after 'is not')",
+    "vocab:laysa": "tall, long (after 'is not')"
+  },
+  "طَوِيلَة": {
+    "vocab:mithl": "tall, long (f)"
   },
   "طَوِيلَةً": {
     "scenario:holiday-story": "long (f, after 'was')"
@@ -500,6 +523,10 @@
   "فَازَ": {
     "vocab:katib": "(he) won (fāza bi-: won something)",
     "vocab:jaiza": "(he) won (fāza bi-: won something)"
+  },
+  "فَعَلَ": {
+    "vocab:faala": "he did (singular form, also used before a plural subject)",
+    "grammar:verb-forms": "faʿala (verb pattern, Form I; lit. he did)"
   },
   "قَالَهَا": {
     "*": "he said it (f), them (things)"
@@ -676,6 +703,10 @@
   "يَجِدِ": {
     "grammar:man-whoever-w11": "finds (short form; -i links it to the next word)"
   },
+  "يَسْتَعْمِلُ": {
+    "vocab:yastamilu": "(he) uses",
+    "vocab:istikhdam": "(he) uses"
+  },
   "يَسْتَيْقِظُ": {
     "week:2": "he wakes up"
   },
@@ -689,7 +720,9 @@
     "*": "he reads it (f), them (things)"
   },
   "يَنْزِلُ": {
-    "grammar:weather-expressions": "falls, comes down (rain, snow); gets off"
+    "grammar:weather-expressions": "falls, comes down (rain, snow); gets off",
+    "vocab:thalj": "falls, comes down (of snow, rain)",
+    "vocab:ahyanan": "falls, comes down (of snow, rain)"
   },
   "يَوْمًا": {
     "vocab:yasumu": "days (after a number)"

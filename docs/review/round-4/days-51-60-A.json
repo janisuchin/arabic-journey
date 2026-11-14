@@ -1,0 +1,38 @@
+{
+  "chunk": "days-51-60",
+  "reviewer": "A",
+  "errors": [],
+  "notes": [
+    {
+      "file": "content/days/day57.json",
+      "path": "dialogue.lines[3].ar",
+      "note": "The clerk speaks to two travellers (تُسَافِرَانِ، مِنْ فَضْلِكُمَا) but asks for جَوَازَ السَّفَر in the singular; correct as a generic 'the passport', but جَوَازَيِ السَّفَر / جَوَازَاتِ السَّفَر would match the two people better (Daniel then hands over two)."
+    },
+    {
+      "file": "content/days/day57.json; content/days/day58.json",
+      "path": "reading.segs (ذَهَبَ, day 57); reading.segs (وَصَلَ, day 58)",
+      "note": "With the compound subject 'Daniel and Layla' these verbs are glossed '(he) went' / '(he) arrived', while days 51, 53, 55, 56 gloss the same pattern '(they) will … (verb first: singular)'. Not wrong (literal 3ms), but the explanatory gloss would help the learner and keep the course consistent."
+    },
+    {
+      "file": "content/days/day53.json; content/days/day54.json; content/days/day59.json",
+      "path": "sentences[3].ar, dialogue.lines[6].ar (day53); dialogue.lines[12].ar (day54); dialogue.lines[1].ar, dialogue.lines[5].ar (day59)",
+      "note": "Counted nouns after 3–10 are left in pause form (خَمْسَ دَرَجَات، خَمْسَ جُمَل، ثَلَاث سَاعَات، ثَلَاثَةُ أَشْخَاص) while counted nouns after 11–99 show -an (ضَيْفًا، دِينَارًا، دَرَجَةً). Acceptable as pause style, but if the house rule 'endings on counted nouns' is meant to cover 3–10 too, the genitive -in (دَرَجَاتٍ، جُمَلٍ، سَاعَاتٍ، أَشْخَاصٍ) would be the consistent form."
+    },
+    {
+      "file": "content/days/day56.json",
+      "path": "sentences[1].mistakes[0].why",
+      "note": "'In standard Arabic the day is an ordinal followed by min' is a little absolute: cardinal dates (الْخَامِس / خَمْسَة نُوفَمْبِر read as numbers) are also heard in MSA media. The wrong form here is fine as colloquial; softening to 'usually' would match the course's other notes."
+    },
+    {
+      "file": "content/days/day51.json",
+      "path": "sentences[4].en",
+      "note": "هٰذَا الْهَرَم كَبِير وَقَدِيم جِدًّا: جِدًّا strictly follows قَدِيم; 'very big and very old' is a free reading. 'This pyramid is big and very old' is closer, or move جِدًّا to keep the English."
+    },
+    {
+      "file": "content/days/day55.json",
+      "path": "sentences[4].ar",
+      "note": "Culture fact: May in Cairo is already hot (often 33°C+, khamasin season), so 'the weather is pleasant in October and May' is generous; March/April or November would be safer."
+    }
+  ],
+  "summary": "Read the whole export for days 51–60 (weekend plans with lan, invitations and li- of purpose, weather, seasons with yakūnu, months, dates with ordinals, airport, hotel, booking with hollow verbs, asking for help with object suffixes), checking every Arabic string against its syntax (lan/an/lam moods, kāna/yakūnu/laysa predicates, number–noun agreement and tamyīz, iḍāfa definiteness, dual forms after prepositions, verb–subject agreement in verb-first sentences, imperatives to one/two/several people), every literal and English translation, every quiz answer key and mistakes pair, the grammar notes and pronunciation questions, and the seg/tap glosses. About 330 Arabic strings (sentences, mistakes pairs, 150 dialogue lines, 10 readings, quiz options) and about 2,600 seg/tap glosses checked: 0 errors found. The story timeline is also consistent (party Friday 7 Nov, week test Sunday 9 Nov, Wednesday 10 Dec, flight Thursday after 1 Dec, Petra Saturday). Six notes for the owner: a singular passport asked of two people, '(he) went/arrived' glosses on compound subjects, pause form on counted nouns after 3–10, one slightly absolute date note, the scope of جِدًّا in d51s5, and May described as pleasant in Cairo."
+}

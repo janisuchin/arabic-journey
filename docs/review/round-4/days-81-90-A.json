@@ -1,0 +1,78 @@
+{
+  "chunk": "days-81-90",
+  "reviewer": "A",
+  "errors": [
+    {
+      "file": "content/days/day82.json",
+      "path": "dialogue.lines[15].ar",
+      "current": "وَإِذَا قَبِلَتِ الْجَامِعَة طَلَبَكِ، سَنَحْتَفِلُ فِي مَطْعَم! وَأَنْتِ تَدْفَعِينَ طَبْعًا، فَالْمِنْحَة لَكِ!",
+      "problem": "The answer of an if-sentence that starts with the future prefix سَـ must take فَـ (jawāb al-sharṭ with sa-/sawfa needs al-fāʾ). The course itself writes it this way everywhere else: day 89 l16 إِذَا جِئْتَ … فَسَنَحْتَفِلُ, day 90 l7 إِذَا قَبِلُوا طَلَبِي، فَسَأَدْرُسُ, and the final round changed day 80 to فَسَتَنْجَحُ for the same reason. Here a learner sees the same sentence frame without fa-.",
+      "category": "arabic",
+      "severity": "major",
+      "confidence": "high",
+      "fix": "وَإِذَا قَبِلَتِ الْجَامِعَة طَلَبَكِ، فَسَنَحْتَفِلُ فِي مَطْعَم! وَأَنْتِ تَدْفَعِينَ طَبْعًا، فَالْمِنْحَة لَكِ!",
+      "alsoChange": "segs[4] [سَنَحْتَفِلُ = we will celebrate] → [فَسَنَحْتَفِلُ = then we will celebrate] (the day-89 gloss); English unchanged; transliteration follows (fa-sanaḥtafilu)"
+    },
+    {
+      "file": "content/days/day87.json",
+      "path": "dialogue.lines[7].ar",
+      "current": "لَا بَأْسَ يَا دَانْيَال، هٰذَا يَحْدُثُ لِلْجَمِيع. فِي الِامْتِحَان، إِذَا أَخْطَأْتَ، قُلْ «عَفْوًا، أَقْصِدُ…» ثُمَّ صَحِّحِ الْكَلِمَة، وَاسْتَمِرَّ بِثِقَة.",
+      "problem": "The answer of the if-sentence is an imperative (قُلْ), so it must start with فَـ. The course teaches exactly this rule three days earlier as a mistake card (day 84 sentences[3]: إِذَا كَانَ عِنْدَكَ سُؤَال، اسْأَلْ is marked wrong, 'When the second half of an if-sentence is an order, it starts with fa-') and tests it on day 89 quiz[5]; here the teacher himself breaks it.",
+      "category": "arabic",
+      "severity": "major",
+      "confidence": "high",
+      "fix": "لَا بَأْسَ يَا دَانْيَال، هٰذَا يَحْدُثُ لِلْجَمِيع. فِي الِامْتِحَان، إِذَا أَخْطَأْتَ، فَقُلْ «عَفْوًا، أَقْصِدُ…» ثُمَّ صَحِّحِ الْكَلِمَة، وَاسْتَمِرَّ بِثِقَة.",
+      "alsoChange": "segs[11] [قُلْ = say! (to a man)] → [فَقُلْ = then say! (to a man)] (like فَاسْأَلْ / فَخُذْ elsewhere); English unchanged; transliteration follows (fa-qul)"
+    },
+    {
+      "file": "content/days/day89.json",
+      "path": "quiz[4].prompt",
+      "current": "Comparatives: Sami says الِاسْتِمَاعَ كَانَ أَصْعَبَ. What does أَصْعَبَ mean here?",
+      "problem": "The prompt quotes Sami's clause without its لٰكِنَّ, so the learner reads الِاسْتِمَاعَ كَانَ أَصْعَبَ as a whole sentence with the subject in -a (it should be الِاسْتِمَاعُ on its own). The tap gloss even says '-a after lākinna', but lākinna is not in the quoted text.",
+      "category": "arabic",
+      "severity": "minor",
+      "confidence": "medium",
+      "fix": "Comparatives: Sami says لٰكِنَّ الِاسْتِمَاعَ كَانَ أَصْعَبَ. What does أَصْعَبَ mean here?",
+      "alsoChange": "the prompt tap line gains لٰكِنَّ=but (like inna: the noun after it ends in -a); transliteration follows (lākinna l-istimāʿa kāna aṣʿaba)"
+    },
+    {
+      "file": "content/days/day84.json",
+      "path": "intro; dialogue.culture; dialogue.lines[13].ar",
+      "current": "شُكْرًا لِحُسْنِ الِاسْتِمَاع",
+      "problem": "The Arabic is correct, but the engine capitalises the noun حُسْن as if it were a personal name: 'shukran li-Ḥusni l-istimāʿ' (export lines 988, 1105, 1188). حُسْن here is the common noun 'goodness'; the capital suggests a name (Ḥusnī). It is the only place in the export where this word occurs, so it is probably a name-list collision in the transliteration engine.",
+      "category": "engine",
+      "severity": "minor",
+      "confidence": "medium",
+      "fix": "transliterate as shukran li-ḥusni l-istimāʿ (lower-case ḥ); no change to the Arabic",
+      "alsoChange": "engine only (name capitalisation rule); re-export and check the three ⟶ lines"
+    }
+  ],
+  "notes": [
+    {
+      "file": "content/days/day81.json",
+      "path": "sentences[1].mistakes[0].why",
+      "note": "'Use بُنِيَتْ only for feminine words such as قَلْعَة or مَدِينَة' is slightly too narrow: the same day uses بُنِيَتْ for plurals of things (l8 مِنْ أَيِّ حَجَرٍ بُنِيَتْ about the walls; day 84 بُنِيَتْ طُرُق). Consider 'for feminine words (and plurals of things)'."
+    },
+    {
+      "file": "content/days/day84.json",
+      "path": "sentences[0].mistakes[0].why",
+      "note": "'After idhā use the past form, even when you mean now or the future' and the wrong card إِذَا نَسْتَعْمِلُ: the past is the classical and best form, but idhā + present is also found in modern MSA. In line with the other softened notes, 'usually' would be safer."
+    },
+    {
+      "file": "content/days/day85.json",
+      "path": "intro (⟶ line)",
+      "note": "Transliteration line reads 'mina r-raṣīfi (mina r-raṣīf, from the platform) and عَنِ التَّأْخِير (ʿani t-taʾkhīr…)': the first example is transliterated twice and the second is left in Arabic. Cosmetic (the engine keeps Arabic only when the bracketed reading matches exactly). Day 86 intro has the same effect: 'majalla is said majalla'."
+    },
+    {
+      "file": "content/days/day81.json",
+      "path": "dialogue.lines[13].ar",
+      "note": "الْبَرِيطَانِيِّ (barīṭānī) is fine; dictionaries also vocalise بِرِيطَانِيّ. No change needed, just flagging in case one spelling is used elsewhere."
+    },
+    {
+      "file": "content/days/day84.json",
+      "path": "dialogue.lines[8].ar",
+      "note": "وَالْحَرَارَةُ أَرْبَعُونَ دَرَجَة: counted noun at the end of the question in pause form (pausal دَرَجَةً = daraja anyway). Day 85 writes ثَلَاثُونَ دَرَجَةً with the ending; showing دَرَجَةً here too would match the house rule for counted nouns."
+    }
+  ],
+  "summary": "Read the whole export audit/days-81-90.txt (days 81-90: passive, formal letter, debate connectors, week-12 review, the four skill reviews, final exam, next steps), about 610 vocalised Arabic strings (sentences, mistake cards, dialogues, readings, quiz options/explains, intros) and roughly 4,500 seg/tap glosses, checking case endings after inna/anna/lākinna/kāna/laysa, number-noun agreement (ثَلَاثَةِ تَسْجِيلَاتٍ, سِتَّةُ حُرُوفٍ, عَشْرُ دَقَائِقَ, الْحَادِيَةَ عَشْرَةَ), passive forms (بُنِيَ، اُكْتُشِفَ، تُوَلَّدُ، تُطْفَأُ، أُعِدَّتْ، تُغْلَقُ), hamza seats, diptotes and answer keys. The chunk is in very good shape: 4 errors, 2 major. The one real pattern is the fa- of the conditional answer: twice it is missing where the course's own rule requires it (day 82 l16 before سَـ, day 87 l8 before the imperative قُلْ, the latter contradicting the day-84 mistake card). One minor excerpt problem (day 89 quiz prompt quotes الِاسْتِمَاعَ without لٰكِنَّ) and one minor engine capitalisation (li-Ḥusni). No wrong gloss, answer key or grammar fact found; decided items (R3-19 hal…am, R3-84 raqm, R12-21, softened notes, day 84 reading past–past) were not re-reported."
+}

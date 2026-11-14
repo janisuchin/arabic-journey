@@ -1,0 +1,42 @@
+{
+  "chunk": "glossary-hand",
+  "checker": "X4-6",
+  "verdicts": [
+    {
+      "id": 1,
+      "verdict": "AGREE",
+      "fix": "indeed I; after qāla only when quoting the speaker's own words (qālat: innanī … = she said: 'I …')",
+      "scope": "hand.json app-wide; its only taps are day75 sentences[1].mistakes[0].wrong, day75 quiz[2].options[0] and weeks[10].test[6].options[3], all the same reported-speech context",
+      "reason": "Real. After qāla, inna-clauses are quoted speech (ḥikāya): قَالَتْ لَيْلَى إِنَّنِي مَرِيضَة means 'Layla said: I am ill', never 'she said that I (the reporter) am ill'. The English 'that I (after qāla)' suggests the indirect reading and contradicts the lesson that turns I into she (innahā). The new gloss is accurate Arabic and contains no 'correct: …' form, so it does not hand over the answer."
+    },
+    {
+      "id": 2,
+      "verdict": "AGREE",
+      "fix": "cloudy (f pl)",
+      "scope": "hand.json app-wide; only tap is day85 quiz[3].options[0]",
+      "reason": "Real. The hint has no 'wrong' word, so the engine does not strip it on the unanswered question, and it names ghāʾima, which is a wrong option (غَائِمَةً) with masculine الْجَوّ. Note: after answering, the hand gloss (not mistakes.json) still shows, because the quiz is not a mistake card; the plain 'cloudy (f pl)' is correct in both states."
+    },
+    {
+      "id": 3,
+      "verdict": "CHANGE",
+      "fix": "cloudy (m pl)",
+      "scope": "hand.json app-wide; only tap is day85 quiz[3].options[1]",
+      "reason": "Real, same problem as #2. The proposed 'as an object or after a preposition' is accurate for -īna but is itself a case hint on a kāna-predicate question (kāna's predicate is accusative), so it nudges the learner towards this wrong plural option. Keep it neutral like #2."
+    },
+    {
+      "id": 4,
+      "verdict": "CHANGE",
+      "fix": "Leave scoped.json مِنُ.day:85 unchanged. Instead change hand.json مِنِ from 'from (-i before hamzat al-waṣl, e.g. mini bnihi; before al- it is mina)' to 'from (with the helping vowel -i, as in mini bnihi, from his son)'.",
+      "scope": "hand.json مِنِ is app-wide but tapped only at day85 quiz[5].options[3] (other hits are مِنِّي); mistakes.json مِنِ stays",
+      "reason": "The reported part is not an error: meaningOf() with ctx.unanswered runs every gloss (scoped included) through withoutExerciseNote(), and isExerciseNote() matches the word 'wrong', so the scoped 'from (wrong helping vowel — correct: mina before al-)' shows as plain 'from' before the answer and the note only after. The reviewer's claim that only mistakes.json is filtered is wrong (src/lang/ar/tap.ts lines 651-677). The alsoChange is real, though: the hand gloss for مِنِ has no 'wrong' word, so 'before al- it is mina' is shown on the unanswered question and names the answer (option 2), against R3-45. 'mini bnihi' is correct (min + ibn takes kasra before a non-article waṣl)."
+    },
+    {
+      "id": 5,
+      "verdict": "AGREE",
+      "fix": "you come (to a man); she, it (f) comes",
+      "scope": "hand.json app-wide; taps: day52 quiz[3].options[2] (Layla) and the vocabulary example الطَّلَاقَةُ تَأْتِي مَعَ الْوَقْت; adding 'it (f)' is right in both",
+      "reason": "Real but small: the subject الطَّلَاقَة is a thing, and the course elsewhere glosses 3fs verbs with things as 'she, it (f)'. The change only adds a sense, so no other tap gets worse."
+    }
+  ],
+  "summary": "5 findings checked against audit/*.txt taps, content/glossary/hand.json, scoped.json, mistakes.json and the engine (src/lang/ar/tap.ts meaningOf / withoutExerciseNote). AGREE 3 (#1 إِنَّنِي, #2 غَائِمَاتٌ, #5 تَأْتِي), CHANGE 2 (#3 غَائِمِينَ neutral 'cloudy (m pl)'; #4 keep the scoped مِنُ gloss, because the engine already strips 'wrong — correct' notes from scoped glosses on unanswered questions, and fix only the hand gloss of مِنِ, which does give the answer away), DISAGREE 0. All are gloss wording; no Arabic form changes. Every hand change was checked for all its tap places: each form is tapped only in the quiz/lesson named."
+}

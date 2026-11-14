@@ -1,0 +1,71 @@
+{
+  "chunk": "vocabulary-2",
+  "reviewer": "A",
+  "errors": [
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[562] jamal note",
+      "current": "Careful: جَمَل (camel) and جَمِيل (beautiful) come from different roots.",
+      "problem": "Wrong fact about Arabic morphology: جَمَل and جَمِيل have the same root letters ج-م-ل (both are listed under جمل in every dictionary). The note teaches a beginner a false root analysis, and the course teaches roots explicitly elsewhere (k-t-b, ʿ-l-m, j-m-ʿ).",
+      "category": "grammar-fact",
+      "severity": "major",
+      "confidence": "high",
+      "fix": "Careful: جَمَل (camel) and جَمِيل (beautiful) share the root letters j-m-l but are different words: don't mix them up.",
+      "alsoChange": "none (tap glosses for جَمَل and جَمِيل stay)"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[467] thalj example.ar (tap يَنْزِلُ); [467] thalj note (tap يَنْزِلُ); [476] ahyanan example.ar (tap يَنْزِلُ)",
+      "current": "يَنْزِلُ=gets off, gets out; goes down",
+      "problem": "In أَحْيَانًا يَنْزِلُ الثَّلْج عَلَى الْجِبَال and in the note 'For it's snowing say يَنْزِلُ الثَّلْج' the tap gloss shows the transport sense ('gets off, gets out'), which belongs to other sentences. The day 53/54 segs for the same phrase correctly say 'falls, comes down'.",
+      "category": "gloss",
+      "severity": "minor",
+      "confidence": "high",
+      "fix": "يَنْزِلُ=falls, comes down (of snow, rain)",
+      "alsoChange": "scoped gloss for these three vocabulary lines only, not app-wide"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[682] dar note (tap الْأُوبِرَا)",
+      "current": "الْأُوبِرَا=the Opera (a metro station in Cairo)",
+      "problem": "In the note 'دَارُ الْأُوبِرَا (the Opera House)' the tap gloss of الْأُوبِرَا explains it as a metro station, a sense from another line (the metro scenario). Here it is the opera itself, part of the name 'the Opera House'.",
+      "category": "gloss",
+      "severity": "minor",
+      "confidence": "medium",
+      "fix": "الْأُوبِرَا=the opera (dāru l-ūbirā: the Opera House)",
+      "alsoChange": "scoped to this note only"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[607] yastamilu ar (tap); [607] yastamilu forms[1].ar (tap); [707] istikhdam note (tap يَسْتَعْمِلُ)",
+      "current": "يَسْتَعْمِلُ=(it) uses",
+      "problem": "The headword gloss of the verb is '(it) uses', which suggests a thing as subject; the verb is the ordinary 'he uses / uses' (the example is أَسْتَعْمِلُ الْحَاسُوب, a person). Other verb headwords say '(he) …'. The istikhdam note shows it next to يَسْتَخْدِمُ=(he) uses, so the two synonyms look different in person.",
+      "category": "gloss",
+      "severity": "minor",
+      "confidence": "medium",
+      "fix": "يَسْتَعْمِلُ=(he) uses",
+      "alsoChange": "the istikhdam note tap follows the same gloss"
+    },
+    {
+      "file": "content/course/vocabulary.json",
+      "path": "[660] katib example.ar (⟶); [662] jaiza example.ar (⟶); [662] jaiza note (⟶)",
+      "current": "bijāʾizati Nūbil",
+      "problem": "Clitic hyphen not applied although the tap gloss is clitic + word ('(with) the prize (of)'): the ⟶ line shows bijāʾizati / bijāʾiza, while the gloss itself and the note text write fāza bi-jāʾiza, and the same pattern elsewhere is hyphenated (بِعِيدِ=(with) the feast → bi-ʿīdi). The engine apparently does not recognise a clitic gloss that starts with '(with)' in brackets when the gloss is scoped.",
+      "category": "engine",
+      "severity": "minor",
+      "confidence": "medium",
+      "fix": "bi-jāʾizati Nūbil; jaiza note: fāza bi-jāʾiza",
+      "alsoChange": "engine rule in src/lang/ar/tap.ts cliticReading: treat a gloss starting with '(with)' / '(for)' as clitic + word, also for scoped glosses"
+    }
+  ],
+  "notes": [
+    { "file": "content/course/vocabulary.json", "path": "[467] thalj note", "note": "The note still teaches يَنْزِلُ الثَّلْج as THE way to say 'it's snowing', while decision R12-18 changed the grammar card to يَتَسَاقَطُ الثَّلْجُ. Both are correct Arabic; consider 'say يَنْزِلُ الثَّلْج or يَتَسَاقَطُ الثَّلْجُ (snow falls)' for consistency." },
+    { "file": "content/course/vocabulary.json", "path": "[602] jidhr ar", "note": "The headword is vocalised جَذْر (jadhr) while the id is jidhr; both are attested, but جِذْر is the more usual vocalisation in MSA dictionaries (Wehr: jidr). Not an error." },
+    { "file": "content/course/vocabulary.json", "path": "[491] nufambir / [496] khamis example.ar", "note": "الْيَوْمُ الْخَامِسُ مِنْ نُوفَمْبِر (decided in round 1) can still be read as the phrase 'the fifth day of November'; الْيَوْمُ هُوَ الْخَامِسُ would make the sentence unambiguous for a beginner. Kept as decided." },
+    { "file": "content/course/vocabulary.json", "path": "[445] haram example.en", "note": "هٰذَا الْهَرَم كَبِير وَقَدِيم جِدًّا is translated 'very big and very old'; the Arabic has one جِدًّا at the end. 'big and very old' is closer (English only)." },
+    { "file": "content/course/vocabulary.json", "path": "[461] shams note (⟶)", "note": "The transliterated note reads 'ash-shams is said ash-shams' because the Arabic الشَّمْس is romanised next to the hand-written romanisation. Cosmetic, only if the ⟶ line of notes is shown to learners." },
+    { "file": "content/course/vocabulary.json", "path": "[571] mashru example", "note": "الْيَوْم نُتَرْجِمُ مَشْرُوعًا كَبِيرًا ('we are translating a big project') is correct but odd; 'we are working on a big translation project' (نَعْمَلُ عَلَى مَشْرُوعِ تَرْجَمَةٍ كَبِير) would be more natural." },
+    { "file": "content/course/vocabulary.json", "path": "[552] ala-w9 example.en", "note": "الْجِبَال is translated 'hills' (Amman's jabals); fine in context, but the tap says 'the mountains'." }
+  ],
+  "summary": "Reviewed audit/vocabulary.txt lines 9015-17988 (vocabulary.json entries [411] raha to [808] yastamirru, 398 words): about 1,700 Arabic strings (headwords, plurals, forms, examples, Arabic in notes) and about 6,000 tap glosses, plus every note and English translation. Found 5 errors: 1 major grammar-fact (the jamal note says جَمَل and جَمِيل come from different roots; they share j-m-l), 3 minor gloss errors (يَنْزِلُ glossed 'gets off, gets out' in the snow sentences, الْأُوبِرَا glossed as a metro station in 'the Opera House', يَسْتَعْمِلُ glossed '(it) uses'), and 1 minor engine issue (missing clitic hyphen in bijāʾizati where the gloss is '(with) the prize'). The vocalisation, case endings (kāna/laysa/inna/anna, numbers 3-10 and 11-99 with their counted nouns, ordinals in dates and centuries, subjunctive after an/lan, jussive after lam/lā), agreement (plurals of things with feminine singular) and verb forms in this half are otherwise correct; earlier rounds have clearly cleaned it. 0 Arabic-string errors found; the remaining issues are glosses and one note."
+}

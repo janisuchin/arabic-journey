@@ -1,0 +1,38 @@
+{
+  "chunk": "culture",
+  "reviewer": "A",
+  "errors": [],
+  "notes": [
+    {
+      "file": "content/culture/family.json",
+      "path": "sections[3].sentences[2].ar; reading.ar",
+      "note": "Transliteration writes the first name Karim in lower case (Ismuhu karīm al-Miṣrī; Abī smuhu karīm), although the seg marks it as a name and bintu Karīm is capitalised elsewhere. The engine probably lower-cases it because كَرِيم is also the adjective 'generous'. This is cosmetic only and teaches nothing wrong."
+    },
+    {
+      "file": "content/culture/souq.json",
+      "path": "sections[2].body[1]",
+      "note": "The prose already gives the transliteration in brackets after هٰذَا غَالٍ جِدًّا!, so the learner sees 'hādhā ghālin jiddan! (hādhā ghālin jiddan, that's too expensive!)'. coffee.json sections[3].body[1] has the same doubling: 'lā, shukran (shukran)'. You could drop the bracketed transliteration in both places."
+    },
+    {
+      "file": "content/culture/science.json",
+      "path": "quiz[4].ar (tap)",
+      "note": "The tap gloss أَسْمَاءُ = 'names, words (of)' is right here as 'names'. The second sense 'words' is loose: the grammatical sense of اسم is 'noun'. If the gloss is used app-wide, 'names; nouns (of)' would be more accurate."
+    },
+    {
+      "file": "content/culture/places.json",
+      "path": "sections[1].sentences[1].segs[0]",
+      "note": "نَحَتَ before the plural subject الْأَنْبَاطُ is glossed '(he) carved'. desert.json dess12 adds a helper ('(he) lives (verb first: \"live\")') and souq suqs11 does the same ('here: close'). The same helper would help here and on ramadan rams4 يَصُومُ, rams10 لَبِسَ and the reading's يَخْرُجُ / يَلْبَسُ / يَأْخُذُ. The current glosses are correct; this is about consistency."
+    },
+    {
+      "file": "content/culture/food.json",
+      "path": "sections[3].sentences[1].ar",
+      "note": "تَفَضَّلْ، كُلْ أَكْثَر! is acceptable. A more usual MSA way to say 'have some more' is كُلْ مِنْ فَضْلِكَ الْمَزِيدَ or تَفَضَّلْ، خُذِ الْمَزِيدَ. This is a register and style note, not an error."
+    },
+    {
+      "file": "content/culture/calligraphy.json",
+      "path": "reading.ar",
+      "note": "The transliteration of وَبِحِبْرٍ is wa-biḥibrin, which hyphenates only the first clitic. The same pattern appears course-wide (wa-bid…, wa-bik…), so it is a consistent engine choice. I did not report it."
+    }
+  ],
+  "summary": "I read the whole export audit/culture.txt (2,787 lines, 9 chapters: calligraphy, coffee, desert, family, food, places, ramadan, science, souq). I checked 558 vocalised Arabic strings with their transliterations: every sentence, title, word card, mistake pair, reading, quiz option and Arabic inside prose. I also checked about 1,671 seg glosses and 876 tap glosses. For each sentence I worked out the syntax first and then checked the case endings, including: diptotes (صَحْرَاءَ, مَلَابِسَ, حَمْرَاءُ, عَمَّانَ, دِمَشْقَ, فَاطِمَةُ, أَكْثَرَ after قَبْلَ); kāna/ṣāra predicates (مُتَرْجِمًا مَشْهُورًا, عَالِمًا, كَلِمَةً, مَدِينَةَ الْعِلْم); number–noun agreement (ثَمَانِيَةٌ وَعِشْرُونَ حَرْفًا, بِعَشَرَةِ / بِثَمَانِيَةِ رِيَالَاتٍ, فِنْجَانَيْنِ أَوْ ثَلَاثَة); non-human plural agreement; verb-first singular verbs; elative + indefinite noun superlatives; ibn without alif between names (حُنَيْنُ بْنُ إِسْحَاقَ); and an-subjunctives. I also checked all mistake/why pairs and quiz answer keys. Spellings and vocalisation of the cultural vocabulary are correct (دَلَّة, فِنْجَان/فَنَاجِين, هَيْل, كَثِيب/كُثْبَان, بَيْتُ الشَّعْر vs شِعْر, كُنْيَة, مُقَبِّلَات, مُتَبَّل, طَعْمِيَّة, عِيدِيَّة, فَانُوس/فَوَانِيس, أَسْطُرْلَاب, الدَّبَرَان, النَّسْرُ الطَّائِر, صُفَّة, مَخْزَن, مُسَاوَمَة, بَاعَة, مَطْرَح). I found 0 errors: no wrong Arabic, agreement, verb form, translation, gloss, answer key or grammar fact. The chunk appears clean after rounds 1–3 and the final round. There are 6 owner notes, all cosmetic or about consistency: lower-case Karim in the transliteration, doubled transliteration in two prose paragraphs, the loose 'words' sense in the أَسْمَاءُ tap, missing 'verb first' helper glosses, one register suggestion and the consistent wa-bi clitic transliteration. Items kept on purpose (الْخُوَارِزْمِيُّ, سُوق masculine, pause forms, أَمَل as a name) were not re-reported."
+}

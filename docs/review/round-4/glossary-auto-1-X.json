@@ -1,0 +1,21 @@
+{
+  "chunk": "glossary-auto-1",
+  "checker": "X4-6",
+  "verdicts": [
+    {
+      "id": 1,
+      "verdict": "AGREE",
+      "fix": "فُلُوكَة → فَلُوكَة everywhere (so also بِالْفُلُوكَة → بِالْفَلُوكَة)",
+      "scope": "Course-wide spelling op: content/days/day51.json (dialogue.culture, dialogue.lines[6].ar + segs, reading.ar + segs) and content/course/vocabulary.json (nuzha example.ar); then rebuild readings and glossary:auto. This is the same fix as glossary-auto-2 #1: apply it once.",
+      "reason": "Real. The standard MSA dictionary form is فَلُوكَة falūka (Hans Wehr: falūka, pl. -āt, فَلَائِكُ falāʾik, 'felucca'); colloquial Egyptian is feluka/falūka. No dictionary gives fulūka with ḍamma, which looks like contamination from Quranic فُلْك. The word appears only on day 51 and in the nuzha example, so one replacement covers it; glosses ('felucca (a Nile sailing boat)', 'by felucca') stay."
+    },
+    {
+      "id": 2,
+      "verdict": "AGREE",
+      "fix": "مَحَلِّ الْحَلْوِيَّات → مَحَلِّ الْحَلَوِيَّات (seg key الْحَلْوِيَّات → الْحَلَوِيَّات, gloss 'the sweets' unchanged)",
+      "scope": "content/course/scenarios.json etiquette scenario dialogue.lines[4].ar and its seg (the only occurrence); rebuild readings and glossary:auto",
+      "reason": "Real as an inconsistency. ḥalwiyyāt can be defended by the nisba rule for حَلْوَى (dropping the alif maqṣūra), but the form in standard modern use and in learner dictionaries is حَلَوِيَّات ḥalawiyyāt (Wehr also gives ḥalwayāt; nobody vocalises ḥalwiyyāt in teaching texts), and the course itself teaches حَلَوِيَّات in the welcome scenario (culture note and lines[1]). One word should have one vocalisation; the fix moves to the course's own and the more standard form, so it cannot damage anything."
+    }
+  ],
+  "summary": "2 findings checked against audit/glossary-auto-1.txt, the area exports and the content sources. AGREE 2, CHANGE 0, DISAGREE 0. (1) فُلُوكَة → فَلُوكَة, the Hans Wehr form; one course-wide op shared with glossary-auto-2 #1. (2) الْحَلْوِيَّات → الْحَلَوِيَّات for consistency with the course's حَلَوِيَّات and standard usage. auto.json is not read by the app; both fixes are made in the source files and auto.json is rebuilt. The notes (mafrash/mifrash, أَخَذَ 'won' default, التَّدْوِير, أَرَاضٍ) are not errors and need no verdict."
+}

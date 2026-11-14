@@ -1,0 +1,21 @@
+{
+  "chunk": "scenarios-1",
+  "checker": "X4-4",
+  "verdicts": [
+    {
+      "id": 1,
+      "verdict": "DISAGREE",
+      "fix": "",
+      "scope": "",
+      "reason": "مُنْطَادًا is the standard vocalisation; the proposed مِنْطَادًا would make it worse. مُنْطَاد (munṭād) is the active participle of form VII اِنْطَادَ 'to rise high into the air' (root ط و د, like مُنْقَاد from اِنْقَادَ), coined in this sense in the 19th century (attributed to Aḥmad Fāris al-Shidyāq); classical lexica already have بِنَاءٌ مُنْطَادٌ 'a lofty building'. Wiktionary gives مُنْطَاد /mun.tˤaːd/, pl. مَنَاطِيد, and Langenscheidt's Arabic-German dictionary gives [munˈtɒːd]; Hans Wehr lists it under طود as munṭād (the reviewer's 'Hans Wehr: minṭād' is a misattribution). مِنْطَاد is a popular analogy with the mifʿāl instrument pattern (encouraged by the plural مَنَاطِيد) and is heard, but it is not the dictionary form. Keep مُنْطَادًا (munṭādan); no change to segs, glossary or readings."
+    },
+    {
+      "id": 2,
+      "verdict": "AGREE",
+      "fix": "content/glossary/mistakes.json key \"أَجِدُهَا\": \"I find it (wrong after lam — correct: ajid-hā)\"",
+      "scope": "mistakes glossary entry only (shown inside mistake cards; the only card using it is scenarios[10].mistakes[0])",
+      "reason": "Confirmed at audit/scenarios-1.txt:2051. In the course's ALA-LC style 'dh' is ذ, so 'ajidhā' teaches a wrong sound for لَمْ أَجِدْهَا (d + h). 'ajid-hā' matches the same card's why note ('lam ajid-hā')."
+    }
+  ],
+  "summary": "2 errors checked: 1 AGREE (mistakes tap note 'ajidhā' → 'ajid-hā'), 0 CHANGE, 1 DISAGREE (balloon: مُنْطَاد munṭād, form-VII participle of اِنْطَادَ, is the dictionary form per Wiktionary, Langenscheidt and Wehr; مِنْطَاد is a popular variant, so the 'fix' would replace the standard form with a non-standard one)."
+}

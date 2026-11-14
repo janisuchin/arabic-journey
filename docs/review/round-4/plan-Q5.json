@@ -1,0 +1,216 @@
+{
+  "group": "Q5",
+  "ops": [
+    {
+      "chunk": "glossary-hand",
+      "ids": [
+        1
+      ],
+      "op": "hand",
+      "word": "إِنَّنِي",
+      "gloss": "indeed I; after qāla only when quoting the speaker's own words (qālat: innanī … — she said: 'I …')"
+    },
+    {
+      "chunk": "glossary-hand",
+      "ids": [
+        2
+      ],
+      "op": "hand",
+      "word": "غَائِمَاتٌ",
+      "gloss": "cloudy (f pl)"
+    },
+    {
+      "chunk": "glossary-hand",
+      "ids": [
+        3
+      ],
+      "op": "hand",
+      "word": "غَائِمِينَ",
+      "gloss": "cloudy (m pl)"
+    },
+    {
+      "chunk": "glossary-hand",
+      "ids": [
+        4
+      ],
+      "op": "hand",
+      "word": "مِنِ",
+      "gloss": "from (with the helping vowel -i, as in mini bnihi, from his son)"
+    },
+    {
+      "chunk": "glossary-hand",
+      "ids": [
+        5
+      ],
+      "op": "hand",
+      "word": "تَأْتِي",
+      "gloss": "you come (to a man); she, it (f) comes"
+    },
+    {
+      "chunk": "glossary-auto-1",
+      "ids": [
+        1
+      ],
+      "op": "text",
+      "file": "content/days/day51.json",
+      "old": "فُلُوكَة",
+      "new": "فَلُوكَة",
+      "count": 7
+    },
+    {
+      "chunk": "glossary-auto-1",
+      "ids": [
+        1
+      ],
+      "op": "text",
+      "file": "content/course/vocabulary.json",
+      "old": "النُّزْهَة بِالْفُلُوكَة هَادِئَة",
+      "new": "النُّزْهَة بِالْفَلُوكَة هَادِئَة",
+      "count": 1
+    },
+    {
+      "chunk": "glossary-auto-1",
+      "ids": [
+        1
+      ],
+      "op": "text",
+      "file": "content/readings/readings.json",
+      "old": "\"فُلُوكَة\":[\"fulūka\",0]",
+      "new": "\"فَلُوكَة\":[\"falūka\",0]",
+      "count": 1
+    },
+    {
+      "chunk": "glossary-auto-1",
+      "ids": [
+        1
+      ],
+      "op": "text",
+      "file": "content/readings/readings.json",
+      "old": "\"بِالْفُلُوكَة\":[\"bi-l-fulūka\",0]",
+      "new": "\"بِالْفَلُوكَة\":[\"bi-l-falūka\",0]",
+      "count": 1
+    },
+    {
+      "chunk": "glossary-auto-1",
+      "ids": [
+        2
+      ],
+      "op": "text",
+      "file": "content/course/scenarios.json",
+      "old": "الْحَلْوِيَّات",
+      "new": "الْحَلَوِيَّات",
+      "count": 2
+    },
+    {
+      "chunk": "glossary-auto-1",
+      "ids": [
+        2
+      ],
+      "op": "text",
+      "file": "content/readings/readings.json",
+      "old": "\"الْحَلْوِيَّات\":[\"al-ḥalwiyyāt\",1]",
+      "new": "\"الْحَلَوِيَّات\":[\"al-ḥalawiyyāt\",1]",
+      "count": 1
+    },
+    {
+      "chunk": "glossary-auto-2",
+      "ids": [
+        2
+      ],
+      "op": "text",
+      "file": "content/course/vocabulary.json",
+      "old": "\"en\": \"asks, hopes; (I) please\"",
+      "new": "\"en\": \"asks, hopes (arjū: please)\"",
+      "count": 1
+    }
+  ],
+  "checks": [
+    {
+      "chunk": "glossary-hand",
+      "ids": [
+        1
+      ],
+      "area": "days-71-80",
+      "expect": "إِنَّنِي=indeed I; after qāla only when quoting the speaker's own words"
+    },
+    {
+      "chunk": "glossary-hand",
+      "ids": [
+        2
+      ],
+      "area": "days-81-90",
+      "expect": "غَائِمَاتٌ=cloudy (f pl)"
+    },
+    {
+      "chunk": "glossary-hand",
+      "ids": [
+        3
+      ],
+      "area": "days-81-90",
+      "expect": "غَائِمِينَ=cloudy (m pl)"
+    },
+    {
+      "chunk": "glossary-hand",
+      "ids": [
+        4
+      ],
+      "area": "days-81-90",
+      "expect": "مِنِ=from (with the helping vowel -i, as in mini bnihi, from his son)"
+    },
+    {
+      "chunk": "glossary-hand",
+      "ids": [
+        5
+      ],
+      "area": "vocabulary",
+      "expect": "تَأْتِي=you come (to a man); she, it (f) comes"
+    },
+    {
+      "chunk": "glossary-auto-1",
+      "ids": [
+        1
+      ],
+      "area": "days-51-60",
+      "expect": "اِسْمُهُ فَلُوكَة. النُّزْهَة بِالْفَلُوكَة"
+    },
+    {
+      "chunk": "glossary-auto-1",
+      "ids": [
+        1
+      ],
+      "area": "days-51-60",
+      "expect": "سَيَرْكَبُونَ فَلُوكَة"
+    },
+    {
+      "chunk": "glossary-auto-1",
+      "ids": [
+        1
+      ],
+      "area": "vocabulary",
+      "expect": "بِالْفَلُوكَة=by felucca"
+    },
+    {
+      "chunk": "glossary-auto-1",
+      "ids": [
+        2
+      ],
+      "area": "scenarios-2",
+      "expect": "مَحَلِّ الْحَلَوِيَّات"
+    },
+    {
+      "chunk": "glossary-auto-2",
+      "ids": [
+        2
+      ],
+      "area": "vocabulary",
+      "expect": "يَرْجُو=asks, hopes (arjū: please)"
+    }
+  ],
+  "skipped": [
+    {
+      "chunk": "glossary-auto-2",
+      "id": 1,
+      "reason": "duplicate of glossary-auto-1 #1 (felucca فُلُوكَة → فَلُوكَة); planned once under glossary-auto-1"
+    }
+  ]
+}

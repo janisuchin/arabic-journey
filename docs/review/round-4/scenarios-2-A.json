@@ -1,0 +1,60 @@
+{
+  "chunk": "scenarios-2",
+  "reviewer": "A",
+  "errors": [
+    {
+      "file": "content/course/scenarios.json",
+      "path": "scenarios[19].dialogue.lines[7].ar",
+      "current": "نَعَم، مِنْ فَضْلِكِ. قُولِي لَهَا إِنَّ دَانْيَال الْأَمْرِيكِيّ يُرِيدُ أَنْ يَحْضُرَ مُحَاضَرَاتِهَا.",
+      "problem": "The noun of inna (دَانْيَال, with its adjective الْأَمْرِيكِيّ) is printed mid-sentence without its accusative ending. The house style (DECISIONS.md, R12-47) says the inna/anna noun must always show its ending, and every other inna noun in this chunk does (إِنَّ الْعَرْضَ الْأَخِيرَ, إِنَّ رَجُلًا, إِنَّ الْآلَةَ). A foreign masculine name of more than three letters is a diptote, so it takes -a with no tanwīn.",
+      "category": "arabic",
+      "severity": "minor",
+      "confidence": "medium",
+      "fix": "نَعَم، مِنْ فَضْلِكِ. قُولِي لَهَا إِنَّ دَانْيَالَ الْأَمْرِيكِيَّ يُرِيدُ أَنْ يَحْضُرَ مُحَاضَرَاتِهَا.",
+      "alsoChange": "segs: دَانْيَال → دَانْيَالَ and الْأَمْرِيكِيّ → الْأَمْرِيكِيَّ (glosses unchanged); the transliteration follows: inna Dānyāla l-amrīkiyya"
+    }
+  ],
+  "notes": [
+    {
+      "file": "content/course/scenarios.json",
+      "path": "scenarios[17].mistakes[1].why",
+      "note": "'The comparative never changes for a feminine word' is true for the comparative with min or as a predicate. But the elative does have a feminine (al-fuḍlā, al-kubrā) in definite superlative use. Suggest: 'As a comparative (than…), afḍal does not change for a feminine word.'"
+    },
+    {
+      "file": "content/course/scenarios.json",
+      "path": "scenarios[31].mistakes[1].why",
+      "note": "The rule says 'After the numbers 11 to 99', but the example number is 120. The bank card words it better: 'when a number ends in 11 to 99'. Suggest the same wording here."
+    },
+    {
+      "file": "content/course/scenarios.json",
+      "path": "scenarios[29].dialogue.lines[9].ar",
+      "note": "وَعِنْدَمَا تَقُولُ لَكَ الْأُمُّ تَفَضَّلْ، فَخُذْ … : fa- after a ʿindamā clause is common in modern writing but not careful MSA, because ʿindamā is not a conditional. 'وَعِنْدَمَا تَقُولُ لَكَ الْأُمُّ «تَفَضَّلْ»، خُذْ …' is cleaner."
+    },
+    {
+      "file": "content/course/scenarios.json",
+      "path": "scenarios[22] vs scenarios[23].dialogue.lines[11].ar",
+      "note": "Story logic: in the bank scenario Daniel rents a flat in Amman and forgot the rental contract, but in the lost-phone scenario he says أَسْكُنُ فِي فُنْدُقِ الْقَلْعَة. The school scenario also says he will work in Amman for six months."
+    },
+    {
+      "file": "content/course/scenarios.json",
+      "path": "scenarios[30].dialogue.lines[10].ar",
+      "note": "أَخَذَتْ وَرَقَةَ الْعِشْرِينَ جُنَيْهًا مِنْ مِحْفَظَتِي: the machine did not take the note from his wallet; Daniel put it in. Correct Arabic but odd logic; maybe 'أَخَذَتْ وَرَقَةَ الْعِشْرِينَ جُنَيْهًا فَوْرًا'."
+    },
+    {
+      "file": "content/readings/readings.json",
+      "path": "لَلْخَسَارَة; وَبِثَمَانِينَ",
+      "note": "The transliteration is not hyphenated where the clitic is glossed separately: 'Yā lalkhasāra' (better 'yā la-l-khasāra'), and 'wa-bithamānīna' ('and for eighty') where bi-thalāthīna and bi-miʾa are hyphenated elsewhere. Style only."
+    },
+    {
+      "file": "content/course/scenes.json",
+      "path": "scene dietary spots[6]",
+      "note": "الْمُتَبَّل is glossed 'baba ghanoush'. In the Levant mutabbal (with tahini) and baba ghanoush (often without tahini, with vegetables) are usually told apart. Maybe 'mutabbal (smoky aubergine dip with tahini)'."
+    },
+    {
+      "file": "content/course/scenarios.json",
+      "path": "scenarios[18].dialogue.lines[8].ar; scenarios[22].dialogue.lines[8].ar",
+      "note": "The kāna predicates مُسْتَعِدَّة (إِذَا كُنْتِ مُسْتَعِدَّة) and جَاهِزَة (عِنْدَمَا تَكُونُ جَاهِزَة) come at the end of the sentence, so the pause form is correct (tāʾ marbūṭa drops the tanwīn in pause). Not reported. If the owner wants kāna predicates always marked, use مُسْتَعِدَّةً / جَاهِزَةً."
+    }
+  ],
+  "summary": "I read the whole export audit/scenarios-2.txt: 16 scenarios (airport-checkin to school) with their scene photo spots, and checked the source in content/course/scenarios.json where needed. I checked about 420 vocalised Arabic strings (dialogue lines, mistakes pairs, quiz items, intro, culture and scene strings) and about 2,600 tap/seg glosses, plus every quiz answer key, the arithmetic in the dialogues (cinema 160, museum 7, post office 1,090, phone shop 550, bank 350, metro change 12) and every mistakes 'why' rule. Only 1 Arabic string was wrong: a missing accusative ending on the inna noun دَانْيَال الْأَمْرِيكِيّ (office-phone l8), against the house rule that inna nouns show their ending. It is minor, medium confidence. 0 glosses, answer keys or grammar rules were wrong. Number agreement (3–10 polarity, singular accusative after 11–99, genitive singular after hundreds), mood after an/lam/lan, imperatives, duals, gender of verbs and adjectives, and inna/lākinna case endings were all correct everywhere else. The chunk is in very good shape after rounds 1–3 and the final round. I left 8 notes: two over-general 'why' wordings, one fa- after ʿindamā, two story-logic points, one transliteration hyphenation inconsistency, one dish gloss, and the pause-form kāna predicates (not errors)."
+}
