@@ -1,6 +1,6 @@
 # Status — Arabic Journey
 
-Updated 2026-11-14 (5,000-word dictionary done, web deployed). Branch `main`. All work runs on the owner's PC.
+Updated 2026-11-14 (round-4 notes, small leftovers, branching role-play done; web deployed). Branch `main`. All work runs on the owner's PC.
 Main prompt: `Arabic_Reference/PROMPT_B_Nihongo-based.md`. Live (dictionary build):
 https://ar-journey.german-journey.workers.dev · unlocked https://ar-journey-unlocked.german-journey.workers.dev
 
@@ -25,8 +25,17 @@ https://ar-journey.german-journey.workers.dev · unlocked https://ar-journey-unl
   3,073 fixes) → 5 cross-checkers on 422 Arabic/pos fixes (18 overruled). Dictionary screen = 5,000 words (search
   Arabic with/without harakat, translit, English; speaker per word; course words open their course card; "Show
   more"); Vocabulary (?view=course) stays by topic. About/Credits/LICENSE-CONTENT updated.
-- Checks: validator 0 errors, 116 unit tests, typecheck/lint/format clean, e2e 29/29 (port 4191). Both editions
-  deployed 2026-11-14 and verified live (dictionary chunk served).
+- **Round-4 reviewer notes** (06d10ad, `docs/review/round-4-notes/SUMMARY.md`): 124 notes triaged, ~75 applied
+  (story logic: day 1 evening, day 18 Yusuf, days 66/70, Citadel Street, Huda/Maryam/Suad; facts; counted nouns 3–10
+  with -in; quiz hints neutral; ~30 glosses), the rest kept with reasons. Engine: bi-/li- hyphen also when glossed by
+  meaning and after wa-/fa- (bi-surʿa, wa-bi-kami). Review export reads a line's seg names (Karīm).
+- **Small leftovers** (5dd3aa6): gender `mf` (سُوق "masculine or feminine", no gender colour); day 25 seg / day 28
+  "I want"; day 84 if-gloss explained (past–past kept, matches week-12 test).
+- **Branching role-play** (27cf760, `docs/review/roleplay/SUMMARY.md`): all 32 scenarios, `content/course/
+  roleplays.json` (190 nodes, 424 replies), screen section after the dialogue, graph rules in `checkRoleplay`,
+  `scripts/check-roleplays.ts`. 4 writer agents + 2 fresh cross-checkers (3 errors, 6 improvements applied).
+- Checks: validator 0 errors, 119 unit tests, typecheck/lint/format clean, e2e 30/30 (port 4191). Both editions
+  deployed 2026-11-14 and verified live (role-play chunk served).
 
 ## Left
 0. Dictionary limits: AI review only; rows were seen by one reviewer (only Arabic-changing fixes cross-checked);
@@ -37,13 +46,8 @@ https://ar-journey.german-journey.workers.dev · unlocked https://ar-journey-unl
   would need a paid TTS key (owner decision).
 1. Content `status` is not `approved` anywhere: the schema needs a named human reviewer. Owner may choose to mark it
    approved under their own name (a deliberate owner call, not done automatically).
-2. Round-4 reviewer notes (124, in `docs/review/round-4/*-A.json`): story logic (day 1 "good evening", day 12/18
-   Yusuf, day 66/70 internship), photo/place mismatches in scenarios, counted nouns 3–10 in pause form, li-/bi-
-   hyphen gaps (bidūni, bisurʿa), quiz hints that give answers (بَارِدُونَ, كَثِيرُونَ, إِنَّ "after qāla").
-3. Small leftovers: day 84 reading past–past "if" sentence; polite ordering lines (days 15, 25, 28) keep
-   "I would like"; سُوق gender field can only be m/f.
-4. Branching role-play (Prompt B L) not built.
-5. **No APK / version release** until all language modules are combined (owner, 2026-11-13). Web deploys only.
+2. Role-plays are AI-written and AI-checked (status needs-review), like the rest of the content.
+3. **No APK / version release** until all language modules are combined (owner, 2026-11-13). Web deploys only.
 
 ## Decisions
 - Cast names are Arabic (owner): Faisal (American student from Chicago, internal speaker key still `daniel`), his
@@ -68,10 +72,13 @@ https://ar-journey.german-journey.workers.dev · unlocked https://ar-journey-unl
   `reuseExistingServer: false` (literal replace), run, then delete the copy.
 - UI is LTR for English readers; Arabic text always RTL. One session at a time in this repo.
 
+- Role-play: the learner plays the person spoken to (Faisal; Layla in taxi, bakery, directions, clothes-shop, doctor,
+  job-interview; Sami in pharmacy-visit). Wrong replies are real words (the error is grammar/use), next: null.
+  Draft changes: `npx tsx scripts/check-roleplays.ts <file>`; review fixes via `scripts/audit/apply-roleplay-findings.py`.
+- Gender field: m, f or mf (both in use); mf takes no gender colour. Labels from `GENDER_LABEL` (schema.ts).
 - Dictionary: rebuild with `scripts/build-dictionary.py` (sources in git-ignored `.cache/dictionary/`, commands in
   its header); review decisions live in `docs/review/dictionary/decisions.json` (merge: `scripts/audit/
   dictionary-decisions.py`). Never hand-edit words.json; course rows always take course values.
 
 ## Next step
-Owner's choice: the round-4 reviewer notes (Left #2), the small leftovers (Left #3), branching role-play (Left #4),
-or move on to the next language module / combined app.
+Arabic Left #2–#4 are done. Next: the next language module / combined app (owner gives a separate prompt).
