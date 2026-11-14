@@ -7,7 +7,7 @@ https://ar-journey.german-journey.workers.dev · unlocked https://ar-journey-unl
 ## Done
 - v1.0.0 released (8386d49, tag v1.0.0): 90 days, 13 week tests, 32 scenarios, culture, labs, report, final exam.
 - Accuracy rounds 1, 2, 2b, 3, 3F, final round (review closed by owner decision, a5b2666).
-- **Round 4** (optional, `docs/review/round-4/SUMMARY.md`): 21 reviewers → 6 cross-checkers → 5 planners;
+- **Round 4** (f91e670, optional, `docs/review/round-4/SUMMARY.md`): 21 reviewers → 6 cross-checkers → 5 planners;
   58 findings, 56 applied (85 ops, verify 75/76, miss format-only), 2 rejected (مُنْطَاد stays; week-12 عَلَى).
   Main fixes: fa- after إِذَا (days 82, 87), jamal root note, house-style endings (inna nouns, kāna/laysa
   predicates, adverbial -an), day 74/39 quiz distractors, فَلُوكَة, tap glosses scoped per card. Engine: lone hamza
