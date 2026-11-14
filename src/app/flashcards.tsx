@@ -6,15 +6,17 @@ import { WordTile } from '@/components/photo';
 import { AppText, ArText, Button, Card, Row, Screen, TrText } from '@/components/ui';
 import { vocabById, wordPhotoByVocab } from '@/content';
 import { isDue, type Grade } from '@/core/srs';
+import { wordColour } from '@/features/lesson';
 import { translitLine } from '@/lang/ar/tap';
 import { tts } from '@/services/tts';
-import { useSettings, useStudyTimer } from '@/state/hooks';
+import { usePalette, useSettings, useStudyTimer } from '@/state/hooks';
 import { useLearner } from '@/state/store';
 
 export default function Flashcards() {
   useStudyTimer();
   const { all } = useLocalSearchParams<{ all?: string }>();
   const settings = useSettings();
+  const c = usePalette();
   const cards = useLearner((s) => s.cards);
   const gradeCard = useLearner((s) => s.gradeCard);
   const [startedAt] = useState(() => Date.now());
@@ -59,7 +61,7 @@ export default function Flashcards() {
             ) : (
               <Text style={{ fontSize: 40 }}>{v.emoji}</Text>
             )}
-            <ArText size={44} bold center>
+            <ArText size={44} bold center color={wordColour(v, c.text)}>
               {v.ar}
             </ArText>
             {shown && (

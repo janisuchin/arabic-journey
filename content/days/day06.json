@@ -5,7 +5,7 @@
   "summary": "Name everyday things, say 'the' with الـ and describe things as new or big.",
   "intro": "Arabic has no word for 'a': كِتَاب is 'a book'. 'The' is الـ joined to the front: الْكِتَاب. Adjectives come after the noun and add ة for a feminine noun: سَيَّارَة جَدِيدَة (a new car). New letters: ف ق ك ل.",
   "objectives": ["Name eight everyday things", "Say 'the' with الـ, with sun and moon letters", "Describe a noun with جَدِيد and كَبِير", "Read and write fāʾ, qāf, kāf and lām"],
-  "realLife": { "emoji": "🖊️", "title": "A forgotten bag", "story": "Daniel arrives with a brand-new Arabic textbook, but he has left his bag, and his pen, at home. Layla lends him a pen, and Sami spots a new car outside the school.", "photo": {"file": "day06.jpg", "alt": "A red and black school backpack standing on a carpet by a wall.", "credit": {"title": "File:School bag backpack.jpg", "author": "Gamingforfun365", "license": "CC BY-SA 3.0", "source": "https://commons.wikimedia.org/wiki/File:School_bag_backpack.jpg", "accessed": "2026-11-11", "modified": "resized and re-encoded", "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"}} },
+  "realLife": { "emoji": "🖊️", "title": "A forgotten bag", "story": "Faisal arrives with a brand-new Arabic textbook, but he has left his bag, and his pen, at home. Layla lends him a pen, and Sami spots a new car outside the school.", "photo": {"file": "day06.jpg", "alt": "A red and black school backpack standing on a carpet by a wall.", "credit": {"title": "File:School bag backpack.jpg", "author": "Gamingforfun365", "license": "CC BY-SA 3.0", "source": "https://commons.wikimedia.org/wiki/File:School_bag_backpack.jpg", "accessed": "2026-11-11", "modified": "resized and re-encoded", "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"}} },
   "letters": ["fa", "qaf", "kaf", "lam"],
   "newWords": ["kitab", "qalam", "bab", "bayt", "sayyara", "haqiba", "jadid", "kabir"],
   "grammar": ["article", "adjectives"],
@@ -25,11 +25,11 @@
   ],
   "dialogue": {
     "title": "Where is your pen?",
-    "speakers": [ { "key": "layla", "name": "Layla", "nameAr": "لَيْلَى" }, { "key": "daniel", "name": "Daniel", "nameAr": "دَانْيَال" }, { "key": "sami", "name": "Sami", "nameAr": "سَامِي" } ],
+    "speakers": [ { "key": "layla", "name": "Layla", "nameAr": "لَيْلَى" }, { "key": "daniel", "name": "Faisal", "nameAr": "فَيْصَل" }, { "key": "sami", "name": "Sami", "nameAr": "سَامِي" } ],
     "culture": "تَفَضَّلْ (to a man) or تَفَضَّلِي (to a woman) is the polite word for 'here you are', 'please come in' or 'please sit down'.",
     "lines": [
-      { "id": "d6l1", "sp": "layla", "ar": "صَبَاحُ الْخَيْر يَا دَانْيَال! مَا هٰذَا؟ هَلْ هٰذَا كِتَاب جَدِيد؟", "en": "Good morning, Daniel! What is this? Is this a new book?",
-        "segs": [["صَبَاحُ", "morning (of)"], ["الْخَيْر", "the goodness"], ["يَا", "O (calling someone)"], ["دَانْيَال", "Daniel (first name)", "name"], ["مَا", "what"], ["هٰذَا", "this (m)"], ["هَلْ", "(starts a yes/no question)"], ["هٰذَا", "this (m)"], ["كِتَاب", "book"], ["جَدِيد", "new"]] },
+      { "id": "d6l1", "sp": "layla", "ar": "صَبَاحُ الْخَيْر يَا فَيْصَل! مَا هٰذَا؟ هَلْ هٰذَا كِتَاب جَدِيد؟", "en": "Good morning, Faisal! What is this? Is this a new book?",
+        "segs": [["صَبَاحُ", "morning (of)"], ["الْخَيْر", "the goodness"], ["يَا", "O (calling someone)"], ["فَيْصَل", "Faisal (first name)", "name"], ["مَا", "what"], ["هٰذَا", "this (m)"], ["هَلْ", "(starts a yes/no question)"], ["هٰذَا", "this (m)"], ["كِتَاب", "book"], ["جَدِيد", "new"]] },
       { "id": "d6l2", "sp": "daniel", "ar": "نَعَم، هٰذَا كِتَابُ الْعَرَبِيَّة الْجَدِيد. هُوَ كَبِير جِدًّا!", "en": "Yes, this is the new Arabic book. It is very big!",
         "segs": [["نَعَم", "yes"], ["هٰذَا", "this (m)"], ["كِتَابُ", "book (of)"], ["الْعَرَبِيَّة", "Arabic (the language)"], ["الْجَدِيد", "the new"], ["هُوَ", "he, it (m)"], ["كَبِير", "big"], ["جِدًّا", "very"]] },
       { "id": "d6l3", "sp": "layla", "ar": "الْكِتَاب جَمِيل! وَأَيْنَ قَلَمُكَ؟", "en": "The book is beautiful! And where is your pen?",
@@ -63,7 +63,7 @@
     { "id": "d6q3", "prompt": "Choose the correct sentence: 'The bag is big.'", "options": ["الْحَقِيبَة كَبِيرَة.", "الْحَقِيبَة كَبِير.", "حَقِيبَة الْكَبِير.", "الْكَبِيرَة حَقِيبَة."], "answer": 0 },
     { "id": "d6q4", "prompt": "In the word for 'the car', the l of the article is …", "ar": "السَّيَّارَة", "options": ["blends into the next letter, which is doubled (s is a sun letter)", "pronounced, because s is a moon letter", "written twice", "not written at all"], "answer": 0 },
     { "id": "d6q5", "prompt": "Which letter is the deep k, said at the uvula?", "options": ["ق", "ك", "ف", "ل"], "answer": 0 },
-    { "id": "d6q6", "prompt": "In the dialogue, what did Daniel leave at home?", "options": ["his bag", "his book", "his car", "his phone"], "answer": 0 }
+    { "id": "d6q6", "prompt": "In the dialogue, what did Faisal leave at home?", "options": ["his bag", "his book", "his car", "his phone"], "answer": 0 }
   ],
   "completion": "Fantastic! You can name things, use 'the' and describe things. Twenty-three letters learned.",
   "status": "needs-review"

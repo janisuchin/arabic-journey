@@ -5,7 +5,7 @@
   "summary": "Say where people study, work and live, with present-tense verbs for I, you, we and they.",
   "intro": "Three useful verbs today: يَدْرُسُ (to study), يَعْمَلُ (to work) and يَسْكُنُ (to live). With نَحْنُ (we) the prefix is نَ: نَدْرُسُ (we study). With أَنْتُمْ (you, to a group) and هُمْ (they) the verb also ends in ـُونَ: هُمْ يَعْمَلُونَ (they work).",
   "objectives": ["Say where you study, work and live", "Ask someone where they work or live", "Use present-tense verbs with we, you (to a group) and they", "Name places of study and work: جَامِعَة, مَكْتَب, شَرِكَة"],
-  "realLife": { "emoji": "🧳", "title": "A friend from Amman", "story": "After class Sami brings his friend Yusuf from Jordan to the café near the school. Yusuf is in Cairo for a few months for his company, and he studies in the evenings too. Daniel wants to know how he does both.", "photo": {"file": "day12.jpg", "alt": "A sunny university campus on a hill in Amman: stone buildings, a wide terrace and a few students walking.", "credit": {"title": "File:Gju Jabal Amman Campus.jpg", "author": "Amani rosan", "license": "CC BY-SA 4.0", "source": "https://commons.wikimedia.org/wiki/File:Gju_Jabal_Amman_Campus.jpg", "accessed": "2026-11-11", "modified": "resized and re-encoded", "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"}} },
+  "realLife": { "emoji": "🧳", "title": "A friend from Amman", "story": "After class Sami brings his friend Yusuf from Jordan to the café near the school. Yusuf is in Cairo for a few months for his company, and he studies in the evenings too. Faisal wants to know how he does both.", "photo": {"file": "day12.jpg", "alt": "A sunny university campus on a hill in Amman: stone buildings, a wide terrace and a few students walking.", "credit": {"title": "File:Gju Jabal Amman Campus.jpg", "author": "Amani rosan", "license": "CC BY-SA 4.0", "source": "https://commons.wikimedia.org/wiki/File:Gju_Jabal_Amman_Campus.jpg", "accessed": "2026-11-11", "modified": "resized and re-encoded", "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"}} },
   "letters": [],
   "newWords": ["yadrusu", "yamalu", "yaskunu", "nahnu", "antum", "hum", "jamia", "maktab"],
   "grammar": ["present-tense", "present-plural-w2"],
@@ -28,7 +28,7 @@
   ],
   "dialogue": {
     "title": "Work by day, study by night",
-    "speakers": [ { "key": "sami", "name": "Sami", "nameAr": "سَامِي" }, { "key": "daniel", "name": "Daniel", "nameAr": "دَانْيَال" }, { "key": "yusuf", "name": "Yusuf", "nameAr": "يُوسُف" }, { "key": "layla", "name": "Layla", "nameAr": "لَيْلَى" } ],
+    "speakers": [ { "key": "sami", "name": "Sami", "nameAr": "سَامِي" }, { "key": "daniel", "name": "Faisal", "nameAr": "فَيْصَل" }, { "key": "yusuf", "name": "Yusuf", "nameAr": "يُوسُف" }, { "key": "layla", "name": "Layla", "nameAr": "لَيْلَى" } ],
     "culture": "It is common for a friend from another Arab city to stay with a family for a while, and guests are treated generously. أَهْلًا بِكَ (welcome to you) is said with real warmth, and the guest is often called one of the family.",
     "lines": [
       { "id": "d12l1", "sp": "sami", "ar": "يَا أَصْدِقَاء، تَذْكُرُونَ يُوسُف؟ هُوَ الْآن فِي الْقَاهِرَة لِلْعَمَل.", "en": "Friends, do you remember Yusuf? He is in Cairo for work now.",
@@ -57,8 +57,8 @@
         "segs": [["وَنَحْنُ", "and we"], ["نَعْمَلُ", "we work"], ["كَثِيرًا", "a lot"], ["أَيْضًا", "also, too"], ["عِنْدَنَا", "we have (lit. at us)"], ["وَاجِب", "homework"], ["كُلَّ", "every"], ["يَوْم", "day"]] },
       { "id": "d12l13", "sp": "yusuf", "ar": "صَحِيح! وَأَيْنَ تَسْكُنُونَ؟ هَلْ تَسْكُنُونَ قَرِيبًا مِنَ الْمَدْرَسَة؟", "en": "That's true! And where do you all live? Do you live near the school?",
         "segs": [["صَحِيح", "right, true"], ["وَأَيْنَ", "and where"], ["تَسْكُنُونَ", "you live (to a group)"], ["هَلْ", "(starts a yes/no question)"], ["تَسْكُنُونَ", "you live (to a group)"], ["قَرِيبًا", "near, close by"], ["مِنَ", "from"], ["الْمَدْرَسَة", "the school"]] },
-      { "id": "d12l14", "sp": "layla", "ar": "أَنَا أَسْكُنُ فِي بَيْتِ الطَّالِبَات، وَدَانْيَال يَسْكُنُ مَعَ عَائِلَة مِصْرِيَّة.", "en": "I live in a hostel for women students, and Daniel lives with an Egyptian family.",
-        "segs": [["أَنَا", "I"], ["أَسْكُنُ", "I live"], ["فِي", "in"], ["بَيْتِ", "house (of)"], ["الطَّالِبَات", "the (female) students"], ["وَدَانْيَال", "and Daniel (first name)", "name"], ["يَسْكُنُ", "he lives"], ["مَعَ", "with"], ["عَائِلَة", "family"], ["مِصْرِيَّة", "Egyptian (f)"]] },
+      { "id": "d12l14", "sp": "layla", "ar": "أَنَا أَسْكُنُ فِي بَيْتِ الطَّالِبَات، وَفَيْصَل يَسْكُنُ مَعَ عَائِلَة مِصْرِيَّة.", "en": "I live in a hostel for women students, and Faisal lives with an Egyptian family.",
+        "segs": [["أَنَا", "I"], ["أَسْكُنُ", "I live"], ["فِي", "in"], ["بَيْتِ", "house (of)"], ["الطَّالِبَات", "the (female) students"], ["وَفَيْصَل", "and Faisal (first name)", "name"], ["يَسْكُنُ", "he lives"], ["مَعَ", "with"], ["عَائِلَة", "family"], ["مِصْرِيَّة", "Egyptian (f)"]] },
       { "id": "d12l15", "sp": "sami", "ar": "هَيَّا يَا أَصْدِقَاء، نَشْرَبُ الشَّاي الْآن. يُوسُف يَعْمَلُ غَدًا فِي السَّاعَة التَّاسِعَة!", "en": "Come on, friends, let's drink our tea now. Yusuf works tomorrow at nine o'clock!",
         "segs": [["هَيَّا", "come on, let's go"], ["يَا", "O (calling someone)"], ["أَصْدِقَاء", "friends"], ["نَشْرَبُ", "we drink"], ["الشَّاي", "the tea"], ["الْآن", "now"], ["يُوسُف", "Yusuf (first name)", "name"], ["يَعْمَلُ", "he works"], ["غَدًا", "tomorrow"], ["فِي", "at, in"], ["السَّاعَة", "the hour, o'clock"], ["التَّاسِعَة", "the ninth (f)"]] }
     ]
@@ -70,7 +70,7 @@
     { "id": "d12q1", "prompt": "What does this mean?", "ar": "أَيْنَ تَسْكُنُ؟", "options": ["Where do you work?", "Where do you live?", "Where do you study?", "Where are you going?"], "answer": 1 },
     { "id": "d12q2", "prompt": "How do you say 'we study'?", "options": ["يَدْرُسُونَ", "أَدْرُسُ", "تَدْرُسُ", "نَدْرُسُ"], "answer": 3 },
     { "id": "d12q3", "prompt": "Complete: 'They work at a company.'", "ar": "هُمْ … فِي شَرِكَة.", "options": ["يَعْمَلُ", "يَعْمَلُونَ", "نَعْمَلُ", "تَعْمَلُ"], "answer": 1 },
-    { "id": "d12q4", "prompt": "In the dialogue, where does Yusuf live in Cairo?", "options": ["with Sami's family", "next to his office", "at the university", "with Daniel"], "answer": 0 },
+    { "id": "d12q4", "prompt": "In the dialogue, where does Yusuf live in Cairo?", "options": ["with Sami's family", "next to his office", "at the university", "with Faisal"], "answer": 0 },
     { "id": "d12q5", "prompt": "Which word means 'university'?", "options": ["مَكْتَب", "مَدْرَسَة", "جَامِعَة", "شَرِكَة"], "answer": 2 },
     { "id": "d12q6", "prompt": "Which word means 'they' (for a group of men or a mixed group)?", "options": ["نَحْنُ", "أَنْتُمْ", "هِيَ", "هُمْ"], "answer": 3 },
     { "id": "d12q7", "prompt": "Which word has the throat sound ʿayn?", "options": ["يَدْرُسُ", "يَسْكُنُ", "يَعْمَلُ", "مَكْتَب"], "answer": 2 }

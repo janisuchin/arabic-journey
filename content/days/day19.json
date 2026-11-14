@@ -5,7 +5,7 @@
   "summary": "Make broken plurals such as صُحُون and مَلَاعِق, and give plurals of things a feminine adjective.",
   "intro": "Most Arabic plurals are not made with an ending: the inside of the word changes. كِتَاب (book) becomes كُتُب, قَلَم (pen) becomes أَقْلَام, and صَحْن (plate) becomes صُحُون. These are the broken plurals. There are common patterns, but the best way is to learn every noun together with its plural. One more rule: the plural of a thing is treated as feminine singular, so 'the plates are big' is الصُّحُون كَبِيرَة.",
   "objectives": ["Name eight things on a dinner table and give their plurals", "Recognise the plurals of words you already know, such as كُتُب and بُيُوت", "Describe plurals of things with a feminine adjective", "Count plates and glasses from three to ten"],
-  "realLife": { "emoji": "🍽️", "title": "Dinner at Sami's house", "story": "Sami's mother Fatima invites Daniel and Layla to dinner. The whole family is there, so there are seven people at the table. Layla and Daniel help to lay the table: plates, glasses, spoons, forks and a lot of bread.", "photo": {"file": "day19.jpg", "alt": "A roast chicken on rice with a bowl of molokhia soup, served on a wooden tray.", "credit": {"title": "File:Molokheya and rice with chiken, Egypt 2012.JPG", "author": "Habib M'henni", "license": "CC BY-SA 3.0", "source": "https://commons.wikimedia.org/wiki/File:Molokheya_and_rice_with_chiken,_Egypt_2012.JPG", "accessed": "2026-11-11", "modified": "resized and re-encoded", "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"}} },
+  "realLife": { "emoji": "🍽️", "title": "Dinner at Sami's house", "story": "Sami's mother Fatima invites Faisal and Layla to dinner. The whole family is there, so there are seven people at the table. Layla and Faisal help to lay the table: plates, glasses, spoons, forks and a lot of bread.", "photo": {"file": "day19.jpg", "alt": "A roast chicken on rice with a bowl of molokhia soup, served on a wooden tray.", "credit": {"title": "File:Molokheya and rice with chiken, Egypt 2012.JPG", "author": "Habib M'henni", "license": "CC BY-SA 3.0", "source": "https://commons.wikimedia.org/wiki/File:Molokheya_and_rice_with_chiken,_Egypt_2012.JPG", "accessed": "2026-11-11", "modified": "resized and re-encoded", "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"}} },
   "letters": [],
   "newWords": ["sahn", "kub", "milaqa", "shawka", "sikkin", "raghif", "tawila", "kathir", "ashaa"],
   "grammar": ["broken-plurals"],
@@ -27,7 +27,7 @@
   ],
   "dialogue": {
     "title": "Seven plates, seven glasses",
-    "speakers": [ { "key": "fatima", "name": "Fatima", "nameAr": "فَاطِمَة" }, { "key": "layla", "name": "Layla", "nameAr": "لَيْلَى" }, { "key": "sami", "name": "Sami", "nameAr": "سَامِي" }, { "key": "daniel", "name": "Daniel", "nameAr": "دَانْيَال" } ],
+    "speakers": [ { "key": "fatima", "name": "Fatima", "nameAr": "فَاطِمَة" }, { "key": "layla", "name": "Layla", "nameAr": "لَيْلَى" }, { "key": "sami", "name": "Sami", "nameAr": "سَامِي" }, { "key": "daniel", "name": "Faisal", "nameAr": "فَيْصَل" } ],
     "culture": "Egyptian hosts say الْبَيْت بَيْتُكُمْ, 'the house is your house', and keep offering more food: refusing once is only polite, so expect to hear كُلُوا again. Young people call a friend's mother خَالَة (auntie), even when she is not a relative.",
     "lines": [
       { "id": "d19l1", "sp": "fatima", "ar": "أَهْلًا وَسَهْلًا! الْبَيْت بَيْتُكُمْ. الْعَشَاء جَاهِز بَعْدَ قَلِيل.", "en": "Welcome! Make yourselves at home. Dinner will be ready in a moment.",
@@ -56,8 +56,8 @@
         "segs": [["تَفَضَّلُوا", "please, help yourselves (to several people)"], ["عِنْدَنَا", "we have"], ["مُلُوخِيَّة", "molokhia (green leaf stew)"], ["وَأَرُزّ", "and rice"], ["وَدَجَاج", "and chicken"], ["وَخُضَار", "and vegetables"]] },
       { "id": "d19l13", "sp": "daniel", "ar": "شُكْرًا جَزِيلًا يَا خَالَة! كُلُّ الْأَطْبَاق لَذِيذَة جِدًّا.", "en": "Thank you very much, Auntie! All the dishes are very delicious.",
         "segs": [["شُكْرًا", "thank you"], ["جَزِيلًا", "very much (lit. abundant)"], ["يَا", "O (calling someone)"], ["خَالَة", "aunt, auntie"], ["كُلُّ", "all, every"], ["الْأَطْبَاق", "the dishes"], ["لَذِيذَة", "delicious (f)"], ["جِدًّا", "very"]] },
-      { "id": "d19l14", "sp": "sami", "ar": "يَا دَانْيَال، أُمِّي أَحْسَنُ طَبَّاخَة فِي الْقَاهِرَة!", "en": "Daniel, my mother is the best cook in all of Cairo!",
-        "segs": [["يَا", "O (calling someone)"], ["دَانْيَال", "Daniel (first name)", "name"], ["أُمِّي", "my mother"], ["أَحْسَنُ", "the best"], ["طَبَّاخَة", "cook (f)"], ["فِي", "in"], ["الْقَاهِرَة", "Cairo (capital of Egypt)", "name"]] },
+      { "id": "d19l14", "sp": "sami", "ar": "يَا فَيْصَل، أُمِّي أَحْسَنُ طَبَّاخَة فِي الْقَاهِرَة!", "en": "Faisal, my mother is the best cook in all of Cairo!",
+        "segs": [["يَا", "O (calling someone)"], ["فَيْصَل", "Faisal (first name)", "name"], ["أُمِّي", "my mother"], ["أَحْسَنُ", "the best"], ["طَبَّاخَة", "cook (f)"], ["فِي", "in"], ["الْقَاهِرَة", "Cairo (capital of Egypt)", "name"]] },
       { "id": "d19l15", "sp": "fatima", "ar": "شُكْرًا يَا حَبِيبِي! كُلُوا، كُلُوا… الطَّعَام كَثِير!", "en": "Thank you, my dear! Eat, eat… there is plenty of food!",
         "segs": [["شُكْرًا", "thank you"], ["يَا", "O (calling someone)"], ["حَبِيبِي", "my dear, my darling (to a man)"], ["كُلُوا", "eat! (to several people)"], ["كُلُوا", "eat! (to several people)"], ["الطَّعَام", "the food"], ["كَثِير", "much, plenty"]] }
     ]

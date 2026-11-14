@@ -5,7 +5,7 @@
   "summary": "Say what there is in a place with هُنَاكَ, ask 'is there…?' and find a pharmacy that is open late.",
   "intro": "هُنَاكَ means 'there', and at the start of a sentence it means 'there is' or 'there are': هُنَاكَ صَيْدَلِيَّة قَرِيبَة (there is a pharmacy nearby). To ask, put هَلْ in front: هَلْ هُنَاكَ بَنْك هُنَا؟ (is there a bank here?). Its partner هُنَا means 'here'. The noun after هُنَاكَ is usually indefinite: no الـ.",
   "objectives": ["Say 'there is' and 'there are' with هُنَاكَ", "Ask 'is there…?' with هَلْ هُنَاكَ", "Tell هُنَا (here) from هُنَاكَ (there)", "Ask for medicine for a headache at a pharmacy"],
-  "realLife": { "emoji": "🌙", "title": "A late-night headache", "story": "After a long, hot day in the city, Daniel has a bad headache, and it is already ten o'clock at night. He goes down to Uncle Hasan, the doorman of his building, and asks if there is a pharmacy nearby. In Egypt many pharmacies stay open very late, and some never close at all.", "photo": {"file": "day26.jpg", "alt": "A small corner pharmacy in Cairo with a faded sign, a glass door and a quiet street in front.", "credit": {"title": "File:Pharmacy Anwar.jpg", "author": "𐰇𐱅𐰚𐰤", "license": "CC BY-SA 4.0", "source": "https://commons.wikimedia.org/wiki/File:Pharmacy_Anwar.jpg", "accessed": "2026-11-11", "modified": "resized and re-encoded", "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"}} },
+  "realLife": { "emoji": "🌙", "title": "A late-night headache", "story": "After a long, hot day in the city, Faisal has a bad headache, and it is already ten o'clock at night. He goes down to Uncle Hasan, the doorman of his building, and asks if there is a pharmacy nearby. In Egypt many pharmacies stay open very late, and some never close at all.", "photo": {"file": "day26.jpg", "alt": "A small corner pharmacy in Cairo with a faded sign, a glass door and a quiet street in front.", "credit": {"title": "File:Pharmacy Anwar.jpg", "author": "𐰇𐱅𐰚𐰤", "license": "CC BY-SA 4.0", "source": "https://commons.wikimedia.org/wiki/File:Pharmacy_Anwar.jpg", "accessed": "2026-11-11", "modified": "resized and re-encoded", "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"}} },
   "letters": [],
   "newWords": ["hunaka", "huna", "saydaliyya", "dawa", "suda", "habba", "maftuh", "mughlaq"],
   "grammar": ["hunaka"],
@@ -26,7 +26,7 @@
   ],
   "dialogue": {
     "title": "Is there a pharmacy near here?",
-    "speakers": [ { "key": "daniel", "name": "Daniel", "nameAr": "دَانْيَال" }, { "key": "hassan", "name": "Uncle Hasan", "nameAr": "عَمّ حَسَن" }, { "key": "mona", "name": "Dr Mona", "nameAr": "الدُّكْتُورَة مُنَى" } ],
+    "speakers": [ { "key": "daniel", "name": "Faisal", "nameAr": "فَيْصَل" }, { "key": "hassan", "name": "Uncle Hasan", "nameAr": "عَمّ حَسَن" }, { "key": "mona", "name": "Dr Mona", "nameAr": "الدُّكْتُورَة مُنَى" } ],
     "culture": "In Egypt people call a pharmacist doctor (دُكْتُورَة for a woman), and they often ask the pharmacist for advice before they see a doctor. An older man such as a doorman is politely called عَمّ (uncle), even if he is not family.",
     "lines": [
       { "id": "d26l1", "sp": "daniel", "ar": "مَسَاءُ الْخَيْر يَا عَمّ حَسَن! آسِف، الْوَقْت مُتَأَخِّر، لٰكِنْ عِنْدِي صُدَاع شَدِيد.", "en": "Good evening, Uncle Hasan! Sorry, it is late, but I have a terrible headache.",
@@ -68,8 +68,8 @@
     { "id": "d26q1", "prompt": "What does this mean?", "ar": "هُنَاكَ صَيْدَلِيَّة هُنَا.", "options": ["The pharmacy is over there.", "There is a pharmacy here.", "Is there a pharmacy here?", "This is a pharmacy."], "answer": 1 },
     { "id": "d26q2", "prompt": "How do you ask 'Is there a bank here?'", "options": ["هُنَاكَ بَنْك هُنَا.", "أَيْنَ الْبَنْك؟", "هٰذَا بَنْك.", "هَلْ هُنَاكَ بَنْك هُنَا؟"], "answer": 3 },
     { "id": "d26q3", "prompt": "What is the opposite of مَفْتُوح?", "options": ["مُغْلَق", "قَرِيب", "كَبِير", "جَدِيد"], "answer": 0 },
-    { "id": "d26q4", "prompt": "Why can't Daniel go to the first pharmacy?", "options": ["It has no medicine", "It is far away", "It is closed now", "It is very expensive"], "answer": 2 },
-    { "id": "d26q5", "prompt": "What does Dr Mona tell Daniel to do?", "options": ["Take one tablet now and one after six hours", "Take two tablets every hour", "Take one tablet tomorrow morning", "See a doctor tonight"], "answer": 0 },
+    { "id": "d26q4", "prompt": "Why can't Faisal go to the first pharmacy?", "options": ["It has no medicine", "It is far away", "It is closed now", "It is very expensive"], "answer": 2 },
+    { "id": "d26q5", "prompt": "What does Dr Mona tell Faisal to do?", "options": ["Take one tablet now and one after six hours", "Take two tablets every hour", "Take one tablet tomorrow morning", "See a doctor tonight"], "answer": 0 },
     { "id": "d26q6", "prompt": "Which word means 'here'?", "options": ["هُنَاكَ", "هُنَا", "هِيَ", "هَلْ"], "answer": 1 },
     { "id": "d26q7", "prompt": "Which letter is not an emphatic consonant?", "options": ["ص", "ط", "ض", "س"], "answer": 3 }
   ],

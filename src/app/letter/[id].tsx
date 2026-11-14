@@ -2,7 +2,7 @@ import { useLocalSearchParams } from 'expo-router';
 import { Text } from 'react-native';
 
 import { webLang } from '@/base/rtl';
-import { GlossPlace, RichText, TapText } from '@/components/tap';
+import { GlossPlace, ListenButtons, RichText, TapText } from '@/components/tap';
 import { AR_FONT_BOLD, AppText, Button, Card, Pill, Row, Screen, TrText } from '@/components/ui';
 import { letterById } from '@/content';
 import { LetterForms, SunMoonBadge } from '@/features/script';
@@ -56,6 +56,7 @@ export default function LetterScreen() {
           <AppText weight="800">Example</AppText>
           <TapText text={l.example.ar} size={30} />
           <AppText>{l.example.en}</AppText>
+          <ListenButtons text={l.example.ar} label="example word" testID="letter-example-play" />
         </Card>
         <AppText size={12} muted>
           Stroke-order animation and tracing are not available in this version.

@@ -2,7 +2,7 @@ import { View } from 'react-native';
 
 import { hasScript } from '../core/arabic';
 import type { Grammar } from '../content/schema';
-import { GlossPlace, RichText, TapText } from '../components/tap';
+import { GlossPlace, ListenButtons, RichText, TapText } from '../components/tap';
 import { AppText, Card } from '../components/ui';
 import { usePalette, useSettings } from '../state/hooks';
 
@@ -57,6 +57,7 @@ export function GrammarBody({ g, short }: { g: Grammar; short?: boolean }) {
           <Card key={i}>
             <TapText text={e.ar} size={22} />
             {settings.showTranslations && <AppText>{e.en}</AppText>}
+            <ListenButtons text={e.ar} label="example" testID={`grammar-example-${i}`} />
           </Card>
         ))}
       </View>

@@ -5,7 +5,7 @@
   "summary": "Name the members of your family and point at people with 'this'.",
   "intro": "Every Arabic noun is masculine or feminine. Most feminine nouns end in ة, and female people are feminine too: أُمّ (mother), بِنْت (girl). Point with هٰذَا (this, masculine) and هٰذِهِ (this, feminine). New letters: ط ظ ع غ, including the famous ʿayn.",
   "objectives": ["Name six family members", "Say 'this is my …' with هٰذَا and هٰذِهِ", "Tell masculine and feminine nouns apart", "Read and write ṭāʾ, ẓāʾ, ʿayn and ghayn"],
-  "realLife": { "emoji": "📱", "title": "Family photos", "story": "At lunch Sami takes out his phone and shows Daniel photos of his family in Cairo: his father, his mother, his little brother and his sister. Pointing at each photo, Daniel learns هٰذَا and هٰذِهِ.", "photo": {"file": "day05.jpg", "alt": "Two old photo albums with printed covers lying on a white sheet.", "credit": {"title": "File:Vintage Photo Albums.jpg", "author": "পাপৰি বৰা", "license": "CC BY-SA 4.0", "source": "https://commons.wikimedia.org/wiki/File:Vintage_Photo_Albums.jpg", "accessed": "2026-11-11", "modified": "resized and re-encoded", "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"}} },
+  "realLife": { "emoji": "📱", "title": "Family photos", "story": "At lunch Sami takes out his phone and shows Faisal photos of his family in Cairo: his father, his mother, his little brother and his sister. Pointing at each photo, Faisal learns هٰذَا and هٰذِهِ.", "photo": {"file": "day05.jpg", "alt": "Two old photo albums with printed covers lying on a white sheet.", "credit": {"title": "File:Vintage Photo Albums.jpg", "author": "পাপৰি বৰা", "license": "CC BY-SA 4.0", "source": "https://commons.wikimedia.org/wiki/File:Vintage_Photo_Albums.jpg", "accessed": "2026-11-11", "modified": "resized and re-encoded", "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"}} },
   "letters": ["tta", "za", "ayn", "ghayn"],
   "newWords": ["aila", "ab", "umm", "akh", "ukht", "ibn", "bint", "hadha", "hadhihi"],
   "grammar": ["demonstratives", "possessive"],
@@ -23,11 +23,11 @@
   ],
   "dialogue": {
     "title": "Sami's family photos",
-    "speakers": [ { "key": "sami", "name": "Sami", "nameAr": "سَامِي" }, { "key": "daniel", "name": "Daniel", "nameAr": "دَانْيَال" } ],
+    "speakers": [ { "key": "sami", "name": "Sami", "nameAr": "سَامِي" }, { "key": "daniel", "name": "Faisal", "nameAr": "فَيْصَل" } ],
     "culture": "مَا شَاءَ اللّٰه (what God has willed) is said to admire something good, such as a big family or a beautiful home, and to wish it well.",
     "lines": [
-      { "id": "d5l1", "sp": "sami", "ar": "يَا دَانْيَال، تَعَالَ! هٰذِهِ صُورَةُ عَائِلَتِي.", "en": "Daniel, come here! This is a photo of my family.",
-        "segs": [["يَا", "O (calling someone)"], ["دَانْيَال", "Daniel (first name)", "name"], ["تَعَالَ", "come (to a man)"], ["هٰذِهِ", "this (f)"], ["صُورَةُ", "photo (of)"], ["عَائِلَتِي", "my family"]] },
+      { "id": "d5l1", "sp": "sami", "ar": "يَا فَيْصَل، تَعَالَ! هٰذِهِ صُورَةُ عَائِلَتِي.", "en": "Faisal, come here! This is a photo of my family.",
+        "segs": [["يَا", "O (calling someone)"], ["فَيْصَل", "Faisal (first name)", "name"], ["تَعَالَ", "come (to a man)"], ["هٰذِهِ", "this (f)"], ["صُورَةُ", "photo (of)"], ["عَائِلَتِي", "my family"]] },
       { "id": "d5l2", "sp": "daniel", "ar": "مَا شَاءَ اللّٰه! عَائِلَتُكَ كَبِيرَة. مَنْ هٰذَا؟", "en": "How wonderful! Your family is big. Who is this?",
         "segs": [["مَا", "what"], ["شَاءَ", "(has) willed"], ["اللّٰه", "God"], ["عَائِلَتُكَ", "your family (to a man)"], ["كَبِيرَة", "big (f)"], ["مَنْ", "who"], ["هٰذَا", "this (m)"]] },
       { "id": "d5l3", "sp": "sami", "ar": "هٰذَا أَبِي. اِسْمُهُ أَحْمَد، وَهُوَ مُهَنْدِس.", "en": "This is my father. His name is Ahmad, and he is an engineer.",
@@ -48,12 +48,12 @@
         "segs": [["عَائِلَة", "family"], ["جَمِيلَة", "beautiful (f)"], ["جِدًّا", "very"], ["أَنَا", "I"], ["عِنْدِي", "I have"], ["أُخْت", "sister"], ["وَاحِدَة", "one (f)"], ["فَقَطْ", "only"]] },
       { "id": "d5l11", "sp": "sami", "ar": "مَا اسْمُ أُخْتِكَ؟ وَأَيْنَ هِيَ الْآن؟", "en": "What is your sister's name? And where is she now?",
         "segs": [["مَا", "what"], ["اسْمُ", "name (of)"], ["أُخْتِكَ", "your sister (to a man)"], ["وَأَيْنَ", "and where"], ["هِيَ", "she"], ["الْآن", "now"]] },
-      { "id": "d5l12", "sp": "daniel", "ar": "اِسْمُهَا إِيمَا، وَهِيَ فِي شِيكَاغُو مَعَ أُمِّي وَأَبِي.", "en": "Her name is Emma, and she is in Chicago with my mother and father.",
-        "segs": [["اِسْمُهَا", "her name"], ["إِيمَا", "Emma (first name)", "name"], ["وَهِيَ", "and she"], ["فِي", "in"], ["شِيكَاغُو", "Chicago (city in the USA)", "name"], ["مَعَ", "with"], ["أُمِّي", "my mother"], ["وَأَبِي", "and my father"]] }
+      { "id": "d5l12", "sp": "daniel", "ar": "اِسْمُهَا لُبْنَى، وَهِيَ فِي شِيكَاغُو مَعَ أُمِّي وَأَبِي.", "en": "Her name is Lubna, and she is in Chicago with my mother and father.",
+        "segs": [["اِسْمُهَا", "her name"], ["لُبْنَى", "Lubna (first name)", "name"], ["وَهِيَ", "and she"], ["فِي", "in"], ["شِيكَاغُو", "Chicago (city in the USA)", "name"], ["مَعَ", "with"], ["أُمِّي", "my mother"], ["وَأَبِي", "and my father"]] }
     ]
   },
-  "reading": { "title": "Daniel's family", "ar": "عَائِلَتِي صَغِيرَة. عِنْدِي أَب وَأُمّ وَأُخْت وَاحِدَة. اِسْمُ أُخْتِي إِيمَا.", "en": "My family is small. I have a father, a mother and one sister. My sister's name is Emma.",
-    "segs": [["عَائِلَتِي", "my family"], ["صَغِيرَة", "small (f)"], ["عِنْدِي", "I have"], ["أَب", "father"], ["وَأُمّ", "and mother"], ["وَأُخْت", "and sister"], ["وَاحِدَة", "one (f)"], ["اِسْمُ", "name (of)"], ["أُخْتِي", "my sister"], ["إِيمَا", "Emma (first name)", "name"]] },
+  "reading": { "title": "Faisal's family", "ar": "عَائِلَتِي صَغِيرَة. عِنْدِي أَب وَأُمّ وَأُخْت وَاحِدَة. اِسْمُ أُخْتِي لُبْنَى.", "en": "My family is small. I have a father, a mother and one sister. My sister's name is Lubna.",
+    "segs": [["عَائِلَتِي", "my family"], ["صَغِيرَة", "small (f)"], ["عِنْدِي", "I have"], ["أَب", "father"], ["وَأُمّ", "and mother"], ["وَأُخْت", "and sister"], ["وَاحِدَة", "one (f)"], ["اِسْمُ", "name (of)"], ["أُخْتِي", "my sister"], ["لُبْنَى", "Lubna (first name)", "name"]] },
   "review": ["kayfa", "bikhayr", "shukran", "man"],
   "quiz": [
     { "id": "d5q1", "prompt": "What does this mean?", "ar": "أُخْت", "options": ["sister", "brother", "mother", "daughter"], "answer": 0 },

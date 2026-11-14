@@ -4,7 +4,7 @@
     "intro": "You sit down in a café in Amman and order tea and a pastry. Useful phrases: مِنْ فَضْلِكَ (please, to a man), أُرِيدُ (I want) and كَمْ؟ (how much?).",
     "dialogue": {
       "title": "Tea for two",
-      "speakers": [ { "key": "waiter", "name": "Waiter", "nameAr": "النَّادِل" }, { "key": "daniel", "name": "Daniel", "nameAr": "دَانْيَال" } ],
+      "speakers": [ { "key": "waiter", "name": "Waiter", "nameAr": "النَّادِل" }, { "key": "daniel", "name": "Faisal", "nameAr": "فَيْصَل" } ],
       "culture": "Tea is usually served sweet and often with fresh mint (نَعْنَاع). If you don't want sugar, say بِدُونِ سُكَّر.",
       "lines": [
         { "id": "c1", "sp": "waiter", "ar": "مَسَاءُ الْخَيْر! أَهْلًا وَسَهْلًا. مَاذَا تُرِيدُ؟", "en": "Good evening! Welcome. What would you like?",
@@ -35,7 +35,7 @@
     ],
     "quiz": [
       { "id": "cq1", "prompt": "How do you say 'please' to a man?", "options": ["مِنْ فَضْلِكَ", "مِنْ فَضْلِكِ", "شُكْرًا", "عَفْوًا"], "answer": 0 },
-      { "id": "cq2", "prompt": "What does Daniel not want in his tea?", "options": ["sugar", "mint", "milk", "lemon"], "answer": 0 },
+      { "id": "cq2", "prompt": "What does Faisal not want in his tea?", "options": ["sugar", "mint", "milk", "lemon"], "answer": 0 },
       { "id": "cq3", "prompt": "What does this mean?", "ar": "كَمِ الْحِسَاب؟", "options": ["How much is the bill?", "Where is the bill?", "What is this?", "Do you want cake?"], "answer": 0 }
     ]
   },
@@ -94,8 +94,8 @@
         },
         {
           "key": "daniel",
-          "name": "Daniel",
-          "nameAr": "دَانْيَال"
+          "name": "Faisal",
+          "nameAr": "فَيْصَل"
         }
       ],
       "culture": "In Egypt it is polite to call an older woman خَالَة (aunt) and an older man عَمّ (uncle), even when you are not related. A host will nearly always insist that you eat breakfast.",
@@ -103,8 +103,8 @@
         {
           "id": "morning-routine-l1",
           "sp": "huda",
-          "ar": "صَبَاحُ الْخَيْر يَا دَانْيَال! كَيْفَ حَالُكَ الْيَوْم؟",
-          "en": "Good morning, Daniel! How are you today?",
+          "ar": "صَبَاحُ الْخَيْر يَا فَيْصَل! كَيْفَ حَالُكَ الْيَوْم؟",
+          "en": "Good morning, Faisal! How are you today?",
           "segs": [
             [
               "صَبَاحُ",
@@ -119,8 +119,8 @@
               "O (calling someone)"
             ],
             [
-              "دَانْيَال",
-              "Daniel (first name)",
+              "فَيْصَل",
+              "Faisal (first name)",
               "name"
             ],
             [
@@ -579,8 +579,8 @@
         {
           "id": "morning-routine-l13",
           "sp": "huda",
-          "ar": "مُمْتَاز. تَفَضَّلْ، الْقَهْوَة جَاهِزَة. صَبَاح جَمِيل يَا دَانْيَال!",
-          "en": "Excellent. Here you are, the coffee is ready. Have a lovely morning, Daniel!",
+          "ar": "مُمْتَاز. تَفَضَّلْ، الْقَهْوَة جَاهِزَة. صَبَاح جَمِيل يَا فَيْصَل!",
+          "en": "Excellent. Here you are, the coffee is ready. Have a lovely morning, Faisal!",
           "segs": [
             [
               "مُمْتَاز",
@@ -611,8 +611,8 @@
               "O (calling someone)"
             ],
             [
-              "دَانْيَال",
-              "Daniel (first name)",
+              "فَيْصَل",
+              "Faisal (first name)",
               "name"
             ]
           ]
@@ -634,7 +634,7 @@
     "quiz": [
       {
         "id": "mrq1",
-        "prompt": "When does Daniel wake up?",
+        "prompt": "When does Faisal wake up?",
         "options": [
           "at six o'clock",
           "at half past six",
@@ -645,7 +645,7 @@
       },
       {
         "id": "mrq2",
-        "prompt": "What does Daniel drink in the morning?",
+        "prompt": "What does Faisal drink in the morning?",
         "options": [
           "tea with mint",
           "coffee with sugar",
@@ -695,8 +695,8 @@
         },
         {
           "key": "daniel",
-          "name": "Daniel",
-          "nameAr": "دَانْيَال"
+          "name": "Faisal",
+          "nameAr": "فَيْصَل"
         }
       ],
       "culture": "When you book a time, repeat the day and the hour back to the other person. It avoids mix-ups between similar words such as الْخَمِيس (Thursday) and الْخَامِسَة (five o'clock).",
@@ -740,8 +740,8 @@
         {
           "id": "appointment-time-l2",
           "sp": "daniel",
-          "ar": "صَبَاحُ النُّور. أَنَا دَانْيَال، طَالِب فِي صَفِّ الْأُسْتَاذ كَرِيم. أُرِيدُ مَوْعِدًا مَعَ الْمُدِير.",
-          "en": "Good morning. I am Daniel, a student in Mr Karim's class. I would like an appointment with the director.",
+          "ar": "صَبَاحُ النُّور. أَنَا فَيْصَل، طَالِب فِي صَفِّ الْأُسْتَاذ كَرِيم. أُرِيدُ مَوْعِدًا مَعَ الْمُدِير.",
+          "en": "Good morning. I am Faisal, a student in Mr Karim's class. I would like an appointment with the director.",
           "segs": [
             [
               "صَبَاحُ",
@@ -756,8 +756,8 @@
               "I"
             ],
             [
-              "دَانْيَال",
-              "Daniel (first name)",
+              "فَيْصَل",
+              "Faisal (first name)",
               "name"
             ],
             [
@@ -1276,7 +1276,7 @@
     "quiz": [
       {
         "id": "atq1",
-        "prompt": "Who does Daniel want to see?",
+        "prompt": "Who does Faisal want to see?",
         "options": [
           "Mr Karim",
           "the school director",
@@ -1287,7 +1287,7 @@
       },
       {
         "id": "atq2",
-        "prompt": "When is Daniel's appointment?",
+        "prompt": "When is Faisal's appointment?",
         "options": [
           "Tuesday at ten o'clock",
           "Wednesday at half past one",
@@ -1312,7 +1312,7 @@
         "id": "atq4",
         "prompt": "Why is half past one not possible?",
         "options": [
-          "Daniel has a lesson.",
+          "Faisal has a lesson.",
           "The office is closed.",
           "The director has a meeting.",
           "It is Friday."
@@ -1337,8 +1337,8 @@
         },
         {
           "key": "daniel",
-          "name": "Daniel",
-          "nameAr": "دَانْيَال"
+          "name": "Faisal",
+          "nameAr": "فَيْصَل"
         }
       ],
       "culture": "Many Egyptian restaurants add a service charge to the bill, and people often leave a small tip for the waiter as well. Speaking to two people, the waiter uses the dual: أَهْلًا بِكُمَا, تَفَضَّلَا and شُكْرًا لَكُمَا.",
@@ -1816,7 +1816,7 @@
     "quiz": [
       {
         "id": "restaurant-q1",
-        "prompt": "How many people are at Daniel's table?",
+        "prompt": "How many people are at Faisal's table?",
         "options": [
           "one",
           "two",
@@ -3403,8 +3403,8 @@
         },
         {
           "key": "daniel",
-          "name": "Daniel",
-          "nameAr": "دَانْيَال"
+          "name": "Faisal",
+          "nameAr": "فَيْصَل"
         }
       ],
       "culture": "Students in Egypt often rent a شَقَّة مَفْرُوشَة (furnished flat). The owner usually asks for the first month's rent and a deposit (تَأْمِين) before handing over the key.",
@@ -3412,8 +3412,8 @@
         {
           "id": "renting-flat-l1",
           "sp": "owner",
-          "ar": "أَهْلًا وَسَهْلًا! أَنْتَ دَانْيَال؟ تَفَضَّلْ، هٰذِهِ هِيَ الشَّقَّة.",
-          "en": "Welcome! Are you Daniel? Please come in, this is the flat.",
+          "ar": "أَهْلًا وَسَهْلًا! أَنْتَ فَيْصَل؟ تَفَضَّلْ، هٰذِهِ هِيَ الشَّقَّة.",
+          "en": "Welcome! Are you Faisal? Please come in, this is the flat.",
           "segs": [
             [
               "أَهْلًا",
@@ -3428,8 +3428,8 @@
               "you (to a man)"
             ],
             [
-              "دَانْيَال",
-              "Daniel (first name)",
+              "فَيْصَل",
+              "Faisal (first name)",
               "name"
             ],
             [
@@ -4004,8 +4004,8 @@
         },
         {
           "key": "daniel",
-          "name": "Daniel",
-          "nameAr": "دَانْيَال"
+          "name": "Faisal",
+          "nameAr": "فَيْصَل"
         },
         {
           "key": "fatima",
@@ -4018,8 +4018,8 @@
         {
           "id": "family-visit-l1",
           "sp": "ahmad",
-          "ar": "أَهْلًا وَسَهْلًا يَا دَانْيَال! تَفَضَّلْ، الْبَيْت بَيْتُكَ.",
-          "en": "Welcome, Daniel! Please come in and make yourself at home.",
+          "ar": "أَهْلًا وَسَهْلًا يَا فَيْصَل! تَفَضَّلْ، الْبَيْت بَيْتُكَ.",
+          "en": "Welcome, Faisal! Please come in and make yourself at home.",
           "segs": [
             [
               "أَهْلًا",
@@ -4034,8 +4034,8 @@
               "O (calling someone)"
             ],
             [
-              "دَانْيَال",
-              "Daniel (first name)",
+              "فَيْصَل",
+              "Faisal (first name)",
               "name"
             ],
             [
@@ -4128,8 +4128,8 @@
         {
           "id": "family-visit-l4",
           "sp": "fatima",
-          "ar": "أَهْلًا يَا دَانْيَال! مَاذَا تَشْرَبُ؟ عِنْدَنَا شَاي وَقَهْوَة وَعَصِير.",
-          "en": "Hello, Daniel! What would you like to drink? We have tea, coffee and juice.",
+          "ar": "أَهْلًا يَا فَيْصَل! مَاذَا تَشْرَبُ؟ عِنْدَنَا شَاي وَقَهْوَة وَعَصِير.",
+          "en": "Hello, Faisal! What would you like to drink? We have tea, coffee and juice.",
           "segs": [
             [
               "أَهْلًا",
@@ -4140,8 +4140,8 @@
               "O (calling someone)"
             ],
             [
-              "دَانْيَال",
-              "Daniel (first name)",
+              "فَيْصَل",
+              "Faisal (first name)",
               "name"
             ],
             [
@@ -4249,8 +4249,8 @@
         {
           "id": "family-visit-l7",
           "sp": "ahmad",
-          "ar": "كَيْفَ شَقَّتُكَ الْجَدِيدَة يَا دَانْيَال؟ هَلْ هِيَ مُرِيحَة؟",
-          "en": "How is your new flat, Daniel? Is it comfortable?",
+          "ar": "كَيْفَ شَقَّتُكَ الْجَدِيدَة يَا فَيْصَل؟ هَلْ هِيَ مُرِيحَة؟",
+          "en": "How is your new flat, Faisal? Is it comfortable?",
           "segs": [
             [
               "كَيْفَ",
@@ -4269,8 +4269,8 @@
               "O (calling someone)"
             ],
             [
-              "دَانْيَال",
-              "Daniel (first name)",
+              "فَيْصَل",
+              "Faisal (first name)",
               "name"
             ],
             [
@@ -4479,16 +4479,16 @@
         {
           "id": "family-visit-l13",
           "sp": "ahmad",
-          "ar": "يَا دَانْيَال، بَيْتُنَا مَفْتُوح لَكَ دَائِمًا. أَنْتَ مِنَ الْعَائِلَة الْآن.",
-          "en": "Daniel, our home is always open to you. You're one of the family now.",
+          "ar": "يَا فَيْصَل، بَيْتُنَا مَفْتُوح لَكَ دَائِمًا. أَنْتَ مِنَ الْعَائِلَة الْآن.",
+          "en": "Faisal, our home is always open to you. You're one of the family now.",
           "segs": [
             [
               "يَا",
               "O (calling someone)"
             ],
             [
-              "دَانْيَال",
-              "Daniel (first name)",
+              "فَيْصَل",
+              "Faisal (first name)",
               "name"
             ],
             [
@@ -4585,7 +4585,7 @@
       },
       {
         "id": "family-visit-q2",
-        "prompt": "What does Daniel bring as a gift?",
+        "prompt": "What does Faisal bring as a gift?",
         "options": [
           "flowers",
           "juice",
@@ -4624,8 +4624,8 @@
         },
         {
           "key": "daniel",
-          "name": "Daniel",
-          "nameAr": "دَانْيَال"
+          "name": "Faisal",
+          "nameAr": "فَيْصَل"
         }
       ],
       "culture": "Ramses Station is Cairo's main railway station, named after the pharaoh Ramses II. Trains to Alexandria leave from here many times a day.",
@@ -5152,7 +5152,7 @@
     "quiz": [
       {
         "id": "llq1",
-        "prompt": "Where did Daniel leave his bag?",
+        "prompt": "Where did Faisal leave his bag?",
         "options": [
           "in a taxi",
           "on the train",
@@ -5202,8 +5202,8 @@
         },
         {
           "key": "daniel",
-          "name": "Daniel",
-          "nameAr": "دَانْيَال"
+          "name": "Faisal",
+          "nameAr": "فَيْصَل"
         }
       ],
       "culture": "Luxor (الْأُقْصُر) is full of ancient Egyptian temples, and at sunrise dozens of hot-air balloons float over the Nile and the Valley of the Kings. Many visitors take the overnight sleeper train from Cairo.",
@@ -5211,8 +5211,8 @@
         {
           "id": "holiday-story-l1",
           "sp": "huda",
-          "ar": "أَهْلًا يَا دَانْيَال! كَيْفَ كَانَتْ عُطْلَتُكَ؟ أَيْنَ ذَهَبْتَ؟",
-          "en": "Hi, Daniel! How was your holiday? Where did you go?",
+          "ar": "أَهْلًا يَا فَيْصَل! كَيْفَ كَانَتْ عُطْلَتُكَ؟ أَيْنَ ذَهَبْتَ؟",
+          "en": "Hi, Faisal! How was your holiday? Where did you go?",
           "segs": [
             [
               "أَهْلًا",
@@ -5223,8 +5223,8 @@
               "O (calling someone)"
             ],
             [
-              "دَانْيَال",
-              "Daniel (first name)",
+              "فَيْصَل",
+              "Faisal (first name)",
               "name"
             ],
             [
@@ -5752,7 +5752,7 @@
     "quiz": [
       {
         "id": "hsq1",
-        "prompt": "Where did Daniel travel in the holiday?",
+        "prompt": "Where did Faisal travel in the holiday?",
         "options": [
           "Alexandria",
           "Luxor and Aswan",
@@ -5763,7 +5763,7 @@
       },
       {
         "id": "hsq2",
-        "prompt": "How did Daniel and his friend travel?",
+        "prompt": "How did Faisal and his friend travel?",
         "options": [
           "by plane",
           "by car",
@@ -6800,7 +6800,7 @@
           "Sami",
           "Sami's little sister",
           "Sami's mother",
-          "Daniel"
+          "Faisal"
         ],
         "answer": 1
       },
@@ -6856,8 +6856,8 @@
         },
         {
           "key": "daniel",
-          "name": "Daniel",
-          "nameAr": "دَانْيَال"
+          "name": "Faisal",
+          "nameAr": "فَيْصَل"
         }
       ],
       "culture": "Neighbours in Arab cities often know each other well and invite each other to family celebrations. Children's birthday parties are usually in the late afternoon, with a big cake, candles and the birthday song. A small present is welcome, but nobody expects anything expensive.",
@@ -6865,8 +6865,8 @@
         {
           "id": "birthday-invitation-l1",
           "sp": "huda",
-          "ar": "مَسَاءُ الْخَيْر يَا دَانْيَال! أَنَا جَارَتُكَ هُدَى، مِنَ الطَّابِق الثَّالِث.",
-          "en": "Good evening, Daniel! I'm your neighbour Huda, from the third floor.",
+          "ar": "مَسَاءُ الْخَيْر يَا فَيْصَل! أَنَا جَارَتُكَ هُدَى، مِنَ الطَّابِق الثَّالِث.",
+          "en": "Good evening, Faisal! I'm your neighbour Huda, from the third floor.",
           "segs": [
             [
               "مَسَاءُ",
@@ -6881,8 +6881,8 @@
               "O (calling someone)"
             ],
             [
-              "دَانْيَال",
-              "Daniel (first name)",
+              "فَيْصَل",
+              "Faisal (first name)",
               "name"
             ],
             [
@@ -7497,7 +7497,7 @@
         "options": [
           "Huda",
           "Huda's son Adam",
-          "Daniel",
+          "Faisal",
           "Sami's sister"
         ],
         "answer": 1
@@ -7527,7 +7527,7 @@
       },
       {
         "id": "birthday-invitation-q4",
-        "prompt": "What will Daniel buy for Adam?",
+        "prompt": "What will Faisal buy for Adam?",
         "options": [
           "a small ball",
           "a cake",
@@ -7543,7 +7543,7 @@
     "title": "Checking the forecast",
     "emoji": "🌤️",
     "status": "needs-review",
-    "intro": "Sami wants to take Daniel to the beach at Ain Sokhna on the Red Sea. Before they choose a day, they check the weather forecast. Useful phrases: كَيْفَ سَيَكُونُ الطَّقْس؟ (what will the weather be like?), سَيَكُونُ الْجَوّ مُشْمِسًا (it will be sunny) and لَنْ نَسْبَحَ (we won't swim).",
+    "intro": "Sami wants to take Faisal to the beach at Ain Sokhna on the Red Sea. Before they choose a day, they check the weather forecast. Useful phrases: كَيْفَ سَيَكُونُ الطَّقْس؟ (what will the weather be like?), سَيَكُونُ الْجَوّ مُشْمِسًا (it will be sunny) and لَنْ نَسْبَحَ (we won't swim).",
     "dialogue": {
       "title": "Friday or Saturday?",
       "speakers": [
@@ -7554,8 +7554,8 @@
         },
         {
           "key": "daniel",
-          "name": "Daniel",
-          "nameAr": "دَانْيَال"
+          "name": "Faisal",
+          "nameAr": "فَيْصَل"
         }
       ],
       "culture": "Ain Sokhna is a beach town on the Red Sea, about two hours by road from Cairo, and a favourite weekend trip for Cairenes. The Red Sea stays warm enough for swimming well into the autumn, but the sun is strong all year: Egyptians rarely go to the beach without a hat and plenty of water.",
@@ -7563,16 +7563,16 @@
         {
           "id": "weather-plans-l1",
           "sp": "sami",
-          "ar": "يَا دَانْيَال، مَا رَأْيُكَ؟ نِهَايَةَ الْأُسْبُوع الْقَادِم سَنَذْهَبُ إِلَى الْبَحْر فِي الْعَيْن السُّخْنَة!",
-          "en": "Daniel, what do you think? Next weekend we'll go to the sea at Ain Sokhna!",
+          "ar": "يَا فَيْصَل، مَا رَأْيُكَ؟ نِهَايَةَ الْأُسْبُوع الْقَادِم سَنَذْهَبُ إِلَى الْبَحْر فِي الْعَيْن السُّخْنَة!",
+          "en": "Faisal, what do you think? Next weekend we'll go to the sea at Ain Sokhna!",
           "segs": [
             [
               "يَا",
               "O (calling someone)"
             ],
             [
-              "دَانْيَال",
-              "Daniel (first name)",
+              "فَيْصَل",
+              "Faisal (first name)",
               "name"
             ],
             [
@@ -8216,7 +8216,7 @@
       },
       {
         "id": "weather-plans-q4",
-        "prompt": "What does Sami tell Daniel to take?",
+        "prompt": "What does Sami tell Faisal to take?",
         "options": [
           "a heavy coat and boots",
           "an umbrella",
@@ -8232,7 +8232,7 @@
     "title": "Checking in at the airport",
     "emoji": "🧳",
     "status": "needs-review",
-    "intro": "At the end of the trip Daniel checks in at Amman airport for his flight back to Cairo, but his suitcase is full of presents. Useful phrases: جَوَازُ السَّفَر (passport), هَلْ مِنَ الْمُمْكِن أَنْ…؟ (is it possible to…?) and بِطَاقَةُ الصُّعُود (boarding pass).",
+    "intro": "At the end of the trip Faisal checks in at Amman airport for his flight back to Cairo, but his suitcase is full of presents. Useful phrases: جَوَازُ السَّفَر (passport), هَلْ مِنَ الْمُمْكِن أَنْ…؟ (is it possible to…?) and بِطَاقَةُ الصُّعُود (boarding pass).",
     "dialogue": {
       "title": "A heavy suitcase",
       "speakers": [
@@ -8243,8 +8243,8 @@
         },
         {
           "key": "daniel",
-          "name": "Daniel",
-          "nameAr": "دَانْيَال"
+          "name": "Faisal",
+          "nameAr": "فَيْصَل"
         }
       ],
       "culture": "Queen Alia International Airport is about thirty kilometres south of Amman. Many airlines in the region allow 23 kilos for a suitcase and around seven kilos of hand luggage, and extra weight can be expensive, so weigh your bag before you leave the hotel.",
@@ -8923,7 +8923,7 @@
       },
       {
         "id": "airport-checkin-q2",
-        "prompt": "What does Daniel take out of the suitcase?",
+        "prompt": "What does Faisal take out of the suitcase?",
         "options": [
           "his passport",
           "the presents for Sami",
@@ -8962,7 +8962,7 @@
     "title": "At the hotel reception",
     "emoji": "🛎️",
     "status": "needs-review",
-    "intro": "Daniel arrives at a small hotel near Petra and soon has to go back to the reception desk. Useful phrases: لَوْ سَمَحْتِ (excuse me, to a woman), عِنْدِي مُشْكِلَة (I have a problem) and أَرْجُو أَنْ… (please…).",
+    "intro": "Faisal arrives at a small hotel near Petra and soon has to go back to the reception desk. Useful phrases: لَوْ سَمَحْتِ (excuse me, to a woman), عِنْدِي مُشْكِلَة (I have a problem) and أَرْجُو أَنْ… (please…).",
     "dialogue": {
       "title": "A room that is too hot",
       "speakers": [
@@ -8973,8 +8973,8 @@
         },
         {
           "key": "daniel",
-          "name": "Daniel",
-          "nameAr": "دَانْيَال"
+          "name": "Faisal",
+          "nameAr": "فَيْصَل"
         }
       ],
       "culture": "Small hotels in Wadi Musa are often family businesses, and the receptionist is happy to help with taxis, restaurants and tickets for Petra. If something in your room does not work, go to the desk and say politely لَوْ سَمَحْتِ، عِنْدِي مُشْكِلَة.",
@@ -10321,7 +10321,7 @@
     "title": "Phoning an office",
     "emoji": "☎️",
     "status": "needs-review",
-    "intro": "Daniel phones the office of the Faculty of Arts to ask about Dr Mona's lectures. Useful phrases: أُرِيدُ أَنْ أَسْأَلَ عَنْ… (I'd like to ask about…), هَلْ يُمْكِنُنِي أَنْ…؟ (can I…?) and هَلْ تُرِيدُ أَنْ تَتْرُكَ رِسَالَة؟ (would you like to leave a message?).",
+    "intro": "Faisal phones the office of the Faculty of Arts to ask about Dr Mona's lectures. Useful phrases: أُرِيدُ أَنْ أَسْأَلَ عَنْ… (I'd like to ask about…), هَلْ يُمْكِنُنِي أَنْ…؟ (can I…?) and هَلْ تُرِيدُ أَنْ تَتْرُكَ رِسَالَة؟ (would you like to leave a message?).",
     "dialogue": {
       "title": "A call to the faculty",
       "speakers": [
@@ -10332,8 +10332,8 @@
         },
         {
           "key": "daniel",
-          "name": "Daniel",
-          "nameAr": "دَانْيَال"
+          "name": "Faisal",
+          "nameAr": "فَيْصَل"
         }
       ],
       "culture": "University offices in Egypt are busy, and phone calls are often short and to the point. Polite, formal Arabic with titles like الدُّكْتُورَة helps a lot, both on the phone and in emails.",
@@ -10373,8 +10373,8 @@
         {
           "id": "office-phone-l2",
           "sp": "daniel",
-          "ar": "صَبَاحُ النُّور. اِسْمِي دَانْيَال، وَأُرِيدُ أَنْ أَسْأَلَ عَنْ مُحَاضَرَاتِ الدُّكْتُورَة مُنَى.",
-          "en": "Good morning. My name is Daniel, and I'd like to ask about Dr Mona's lectures.",
+          "ar": "صَبَاحُ النُّور. اِسْمِي فَيْصَل، وَأُرِيدُ أَنْ أَسْأَلَ عَنْ مُحَاضَرَاتِ الدُّكْتُورَة مُنَى.",
+          "en": "Good morning. My name is Faisal, and I'd like to ask about Dr Mona's lectures.",
           "segs": [
             [
               "صَبَاحُ",
@@ -10389,8 +10389,8 @@
               "my name"
             ],
             [
-              "دَانْيَال",
-              "Daniel (first name)",
+              "فَيْصَل",
+              "Faisal (first name)",
               "name"
             ],
             [
@@ -10692,8 +10692,8 @@
         {
           "id": "office-phone-l8",
           "sp": "daniel",
-          "ar": "نَعَم، مِنْ فَضْلِكِ. قُولِي لَهَا إِنَّ دَانْيَالَ الْأَمْرِيكِيَّ يُرِيدُ أَنْ يَحْضُرَ مُحَاضَرَاتِهَا.",
-          "en": "Yes, please. Tell her that Daniel, the American, would like to attend her lectures.",
+          "ar": "نَعَم، مِنْ فَضْلِكِ. قُولِي لَهَا إِنَّ فَيْصَلَ الْأَمْرِيكِيَّ يُرِيدُ أَنْ يَحْضُرَ مُحَاضَرَاتِهَا.",
+          "en": "Yes, please. Tell her that Faisal, the American, would like to attend her lectures.",
           "segs": [
             [
               "نَعَم",
@@ -10720,8 +10720,8 @@
               "that (after 'say')"
             ],
             [
-              "دَانْيَالَ",
-              "Daniel (first name)",
+              "فَيْصَلَ",
+              "Faisal (first name)",
               "name"
             ],
             [
@@ -10960,7 +10960,7 @@
     "quiz": [
       {
         "id": "office-phone-q1",
-        "prompt": "Why does Daniel phone the faculty?",
+        "prompt": "Why does Faisal phone the faculty?",
         "options": [
           "to ask about an exam",
           "to ask about Dr Mona's lectures",
@@ -10971,7 +10971,7 @@
       },
       {
         "id": "office-phone-q2",
-        "prompt": "Can Daniel get a certificate?",
+        "prompt": "Can Faisal get a certificate?",
         "options": [
           "Yes, after the exam",
           "Yes, at the end of the year",
@@ -10994,7 +10994,7 @@
       },
       {
         "id": "office-phone-q4",
-        "prompt": "How should Daniel begin his email to Dr Mona?",
+        "prompt": "How should Faisal begin his email to Dr Mona?",
         "options": [
           "حَضْرَةَ الدُّكْتُورَة مُنَى الْمُحْتَرَمَة",
           "مَرْحَبًا يَا مُنَى",
@@ -11010,14 +11010,14 @@
     "title": "An Eid visit",
     "emoji": "🎁",
     "status": "needs-review",
-    "intro": "On the second day of Eid Daniel visits his neighbour Mrs Samira, who often gives him bread. Useful phrases: كُلُّ عَامٍ وَأَنْتِ بِخَيْر (many happy returns, to a woman), الْبَيْتُ بَيْتُكَ (make yourself at home) and عِيد مُبَارَك (blessed Eid).",
+    "intro": "On the second day of Eid Faisal visits his neighbour Mrs Samira, who often gives him bread. Useful phrases: كُلُّ عَامٍ وَأَنْتِ بِخَيْر (many happy returns, to a woman), الْبَيْتُ بَيْتُكَ (make yourself at home) and عِيد مُبَارَك (blessed Eid).",
     "dialogue": {
       "title": "Kaʿk for the neighbours",
       "speakers": [
         {
           "key": "daniel",
-          "name": "Daniel",
-          "nameAr": "دَانْيَال"
+          "name": "Faisal",
+          "nameAr": "فَيْصَل"
         },
         {
           "key": "samira",
@@ -11083,8 +11083,8 @@
         {
           "id": "eid-visit-l2",
           "sp": "samira",
-          "ar": "وَأَنْتَ بِخَيْر يَا دَانْيَال! مَا أَلْطَفَكَ! تَفَضَّلْ، اُدْخُلْ، الْبَيْتُ بَيْتُكَ.",
-          "en": "And to you, Daniel! How kind of you! Please come in, make yourself at home.",
+          "ar": "وَأَنْتَ بِخَيْر يَا فَيْصَل! مَا أَلْطَفَكَ! تَفَضَّلْ، اُدْخُلْ، الْبَيْتُ بَيْتُكَ.",
+          "en": "And to you, Faisal! How kind of you! Please come in, make yourself at home.",
           "segs": [
             [
               "وَأَنْتَ",
@@ -11099,8 +11099,8 @@
               "O (calling someone)"
             ],
             [
-              "دَانْيَال",
-              "Daniel (first name)",
+              "فَيْصَل",
+              "Faisal (first name)",
               "name"
             ],
             [
@@ -11613,7 +11613,7 @@
     "quiz": [
       {
         "id": "eid-visit-q1",
-        "prompt": "What does Daniel bring?",
+        "prompt": "What does Faisal bring?",
         "options": [
           "flowers",
           "tea",
@@ -11627,7 +11627,7 @@
         "prompt": "Who are the children on the balcony?",
         "options": [
           "Mrs Samira's grandchildren",
-          "Daniel's friends",
+          "Faisal's friends",
           "Sami's brothers",
           "children from the school"
         ],
@@ -11647,7 +11647,7 @@
       },
       {
         "id": "eid-visit-q4",
-        "prompt": "What does Mrs Samira give Daniel to take home?",
+        "prompt": "What does Mrs Samira give Faisal to take home?",
         "options": [
           "bread",
           "tea",
@@ -11663,7 +11663,7 @@
     "title": "At the cinema",
     "emoji": "🎬",
     "status": "needs-review",
-    "intro": "On Saturday Daniel buys cinema tickets for the Egyptian comedy that Sami chose. Useful phrases: تَذْكِرَتَيْنِ (two tickets, as the object of a verb), فِي الْوَسَط (in the middle) and هَلْ هُنَاكَ خَصْم لِلطُّلَّاب؟ (is there a discount for students?).",
+    "intro": "On Saturday Faisal buys cinema tickets for the Egyptian comedy that Sami chose. Useful phrases: تَذْكِرَتَيْنِ (two tickets, as the object of a verb), فِي الْوَسَط (in the middle) and هَلْ هُنَاكَ خَصْم لِلطُّلَّاب؟ (is there a discount for students?).",
     "dialogue": {
       "title": "Two tickets, please",
       "speakers": [
@@ -11674,8 +11674,8 @@
         },
         {
           "key": "daniel",
-          "name": "Daniel",
-          "nameAr": "دَانْيَال"
+          "name": "Faisal",
+          "nameAr": "فَيْصَل"
         }
       ],
       "culture": "Egyptian cinemas usually sell tickets for numbered seats, and new Egyptian comedies sell out quickly at weekends. Students often get a discount if they show a student card. Popcorn and fizzy drinks are part of the evening, as everywhere.",
@@ -12266,7 +12266,7 @@
     "quiz": [
       {
         "id": "cinema-q1",
-        "prompt": "How many tickets does Daniel buy?",
+        "prompt": "How many tickets does Faisal buy?",
         "options": [
           "one",
           "two",
@@ -12316,7 +12316,7 @@
     "title": "At the bank",
     "emoji": "🏦",
     "status": "needs-review",
-    "intro": "In Amman, Daniel goes to a bank to open an account, and he also needs some Jordanian dinars. He has his passport and residence card with him, but one paper is missing. Useful phrases: أُرِيدُ أَنْ أَفْتَحَ حِسَابًا (I'd like to open an account), مَا سِعْرُ الصَّرْفِ؟ (what is the exchange rate?) and نَسِيتُ عَقْدَ الْإِيجَارِ (I forgot the rental contract).",
+    "intro": "In Amman, Faisal goes to a bank to open an account, and he also needs some Jordanian dinars. He has his passport and residence card with him, but one paper is missing. Useful phrases: أُرِيدُ أَنْ أَفْتَحَ حِسَابًا (I'd like to open an account), مَا سِعْرُ الصَّرْفِ؟ (what is the exchange rate?) and نَسِيتُ عَقْدَ الْإِيجَارِ (I forgot the rental contract).",
     "dialogue": {
       "title": "Opening an account",
       "speakers": [
@@ -12327,8 +12327,8 @@
         },
         {
           "key": "daniel",
-          "name": "Daniel",
-          "nameAr": "دَانْيَال"
+          "name": "Faisal",
+          "nameAr": "فَيْصَل"
         }
       ],
       "culture": "Jordan's currency is the dinar (دِينَار), divided into 100 piasters (قِرْش) or 1,000 fils, and since 1995 it has been pegged to the US dollar at about 0.71 dinars per dollar. To open an account, Jordanian banks usually ask foreigners for a passport, a residence card (بِطَاقَةُ الْإِقَامَة) and proof of address such as a rental contract. Banks open from Sunday to Thursday, because Friday and Saturday are the weekend in Jordan.",
@@ -13127,7 +13127,7 @@
     "quiz": [
       {
         "id": "bank-q1",
-        "prompt": "What did Daniel forget at home?",
+        "prompt": "What did Faisal forget at home?",
         "options": [
           "his passport",
           "his residence card",
@@ -13149,7 +13149,7 @@
       },
       {
         "id": "bank-q3",
-        "prompt": "About how many dinars does Daniel get for 500 dollars?",
+        "prompt": "About how many dinars does Faisal get for 500 dollars?",
         "options": [
           "500 dinars",
           "700 dinars",
@@ -13177,14 +13177,14 @@
     "title": "Asking for help: a lost phone",
     "emoji": "🆘",
     "status": "needs-review",
-    "intro": "In the crowded market in downtown Amman, Daniel suddenly realises that his phone is not in his pocket. He asks a shopkeeper for help and then reports it at a tourist police point nearby. Useful phrases: سَاعِدْنِي مِنْ فَضْلِكَ (help me, please), فَقَدْتُ هَاتِفِي (I lost my phone) and أَيْنَ مَرْكَزُ الشُّرْطَة؟ (where is the police station?).",
+    "intro": "In the crowded market in downtown Amman, Faisal suddenly realises that his phone is not in his pocket. He asks a shopkeeper for help and then reports it at a tourist police point nearby. Useful phrases: سَاعِدْنِي مِنْ فَضْلِكَ (help me, please), فَقَدْتُ هَاتِفِي (I lost my phone) and أَيْنَ مَرْكَزُ الشُّرْطَة؟ (where is the police station?).",
     "dialogue": {
       "title": "My phone has gone!",
       "speakers": [
         {
           "key": "daniel",
-          "name": "Daniel",
-          "nameAr": "دَانْيَال"
+          "name": "Faisal",
+          "nameAr": "فَيْصَل"
         },
         {
           "key": "shopkeeper",
@@ -13916,16 +13916,16 @@
         {
           "id": "lost-phone-help-l12",
           "sp": "daniel",
-          "ar": "اسْمِي دَانْيَال، وَأَنَا أَمْرِيكِيّ مِنْ شِيكَاغُو. أَسْكُنُ فِي فُنْدُقِ الْقَلْعَة فِي جَبَلِ عَمَّان، وَهٰذَا رَقْمُ صَدِيقِي سَامِي.",
-          "en": "My name is Daniel, and I'm American, from Chicago. I'm staying at the Citadel Hotel in Jabal Amman, and this is my friend Sami's number.",
+          "ar": "اسْمِي فَيْصَل، وَأَنَا أَمْرِيكِيّ مِنْ شِيكَاغُو. أَسْكُنُ فِي فُنْدُقِ الْقَلْعَة فِي جَبَلِ عَمَّان، وَهٰذَا رَقْمُ صَدِيقِي سَامِي.",
+          "en": "My name is Faisal, and I'm American, from Chicago. I'm staying at the Citadel Hotel in Jabal Amman, and this is my friend Sami's number.",
           "segs": [
             [
               "اسْمِي",
               "my name"
             ],
             [
-              "دَانْيَال",
-              "Daniel (first name)",
+              "فَيْصَل",
+              "Faisal (first name)",
               "name"
             ],
             [
@@ -14146,7 +14146,7 @@
     "quiz": [
       {
         "id": "lost-phone-help-q1",
-        "prompt": "Where does Daniel lose his phone?",
+        "prompt": "Where does Faisal lose his phone?",
         "options": [
           "at the hotel",
           "in the market",
@@ -14168,7 +14168,7 @@
       },
       {
         "id": "lost-phone-help-q3",
-        "prompt": "Whose phone number does Daniel give the officer?",
+        "prompt": "Whose phone number does Faisal give the officer?",
         "options": [
           "his friend Sami's",
           "the hotel's",
@@ -14196,7 +14196,7 @@
     "title": "Tourist info and the museum",
     "emoji": "🏛️",
     "status": "needs-review",
-    "intro": "Daniel is in Amman for a few days and visits the Jordan Museum, where he stops at the information desk before he goes in. He hopes to join a guided tour in English, but the plan changes a little. Useful phrases: مَتَى يُغْلِقُ الْمَتْحَفُ؟ (when does the museum close?), هَلْ يُمْكِنُنِي أَنْ أُصَوِّرَ؟ (can I take photos?) and بِبُطْء، مِنْ فَضْلِكَ (slowly, please).",
+    "intro": "Faisal is in Amman for a few days and visits the Jordan Museum, where he stops at the information desk before he goes in. He hopes to join a guided tour in English, but the plan changes a little. Useful phrases: مَتَى يُغْلِقُ الْمَتْحَفُ؟ (when does the museum close?), هَلْ يُمْكِنُنِي أَنْ أُصَوِّرَ؟ (can I take photos?) and بِبُطْء، مِنْ فَضْلِكَ (slowly, please).",
     "dialogue": {
       "title": "One place on the Arabic tour",
       "speakers": [
@@ -14207,8 +14207,8 @@
         },
         {
           "key": "daniel",
-          "name": "Daniel",
-          "nameAr": "دَانْيَال"
+          "name": "Faisal",
+          "nameAr": "فَيْصَل"
         }
       ],
       "culture": "The Jordan Museum (الْمَتْحَفُ الْأُرْدُنِّيّ) in Amman tells the story of Jordan from prehistoric times to today; its best-known treasures are the 'Ain Ghazal statues, about 9,000 years old and among the oldest large human figures ever found. At many museums and sites in Jordan foreign visitors pay more than Jordanians, and prices are in dinars (دِينَار). Asking a guide to speak slowly (بِبُطْء) is perfectly polite, and most guides are pleased when a visitor tries Arabic.",
@@ -15030,7 +15030,7 @@
       },
       {
         "id": "museum-info-q2",
-        "prompt": "Why does Daniel join the Arabic tour?",
+        "prompt": "Why does Faisal join the Arabic tour?",
         "options": [
           "It is cheaper.",
           "Mr Khalid is his teacher.",
@@ -15041,7 +15041,7 @@
       },
       {
         "id": "museum-info-q3",
-        "prompt": "How much does Daniel pay altogether?",
+        "prompt": "How much does Faisal pay altogether?",
         "options": [
           "five dinars",
           "two dinars",
@@ -15069,7 +15069,7 @@
     "title": "At the post office",
     "emoji": "📮",
     "status": "needs-review",
-    "intro": "Daniel takes a parcel of gifts for his family in Chicago to the post office in Cairo: Egyptian dates and a scarf for his mother's birthday. He has to choose how to send it, fill in a customs form and buy stamps for some postcards. Useful phrases: أُرِيدُ أَنْ أُرْسِلَ هٰذَا الطَّرْدَ (I want to send this parcel), كَمْ يَزِنُ الطَّرْدُ؟ (how much does the parcel weigh?) and الْبَرِيدَ الْعَادِيَّ أَمِ الْبَرِيدَ السَّرِيع؟ (normal post or express post?).",
+    "intro": "Faisal takes a parcel of gifts for his family in Chicago to the post office in Cairo: Egyptian dates and a scarf for his mother's birthday. He has to choose how to send it, fill in a customs form and buy stamps for some postcards. Useful phrases: أُرِيدُ أَنْ أُرْسِلَ هٰذَا الطَّرْدَ (I want to send this parcel), كَمْ يَزِنُ الطَّرْدُ؟ (how much does the parcel weigh?) and الْبَرِيدَ الْعَادِيَّ أَمِ الْبَرِيدَ السَّرِيع؟ (normal post or express post?).",
     "dialogue": {
       "title": "A parcel for Chicago",
       "speakers": [
@@ -15080,8 +15080,8 @@
         },
         {
           "key": "daniel",
-          "name": "Daniel",
-          "nameAr": "دَانْيَال"
+          "name": "Faisal",
+          "nameAr": "فَيْصَل"
         }
       ],
       "culture": "Egypt Post (الْبَرِيدُ الْمِصْرِيّ) is one of the oldest postal services in the world, founded in 1865. A parcel going abroad needs a customs form (اِسْتِمَارَةُ الْجَمَارِك) that lists the contents and their value, and the clerk may look inside before the box is sealed, so it is normal to close the parcel at the counter. Express post costs more, but it is faster and comes with a tracking number.",
@@ -15913,7 +15913,7 @@
     "quiz": [
       {
         "id": "post-office-q1",
-        "prompt": "What is wrong with Daniel's old box?",
+        "prompt": "What is wrong with Faisal's old box?",
         "options": [
           "It is too small for the gifts.",
           "It is torn and not closed properly.",
@@ -15935,7 +15935,7 @@
       },
       {
         "id": "post-office-q3",
-        "prompt": "What does Daniel write on the customs form?",
+        "prompt": "What does Faisal write on the customs form?",
         "options": [
           "dates and a cotton scarf, worth 500 pounds",
           "books and photos, worth 1,000 pounds",
@@ -15963,7 +15963,7 @@
     "title": "At the supermarket",
     "emoji": "🛒",
     "status": "needs-review",
-    "intro": "Layla and Daniel are shopping in a supermarket in Cairo for a dinner with friends tonight. At the checkout the price of the rice is not the same as on the shelf. Useful phrases: أَيْنَ نَجِدُ الْبَهَارَات؟ (where can we find the spices?), كِيسَانِ بِسِعْرِ كِيس وَاحِد (two bags for the price of one) and نَقْدًا أَمْ بِالْبِطَاقَة؟ (in cash or by card?).",
+    "intro": "Layla and Faisal are shopping in a supermarket in Cairo for a dinner with friends tonight. At the checkout the price of the rice is not the same as on the shelf. Useful phrases: أَيْنَ نَجِدُ الْبَهَارَات؟ (where can we find the spices?), كِيسَانِ بِسِعْرِ كِيس وَاحِد (two bags for the price of one) and نَقْدًا أَمْ بِالْبِطَاقَة؟ (in cash or by card?).",
     "dialogue": {
       "title": "Two for the price of one",
       "speakers": [
@@ -15974,8 +15974,8 @@
         },
         {
           "key": "daniel",
-          "name": "Daniel",
-          "nameAr": "دَانْيَال"
+          "name": "Faisal",
+          "nameAr": "فَيْصَل"
         },
         {
           "key": "assistant",
@@ -15993,12 +15993,12 @@
         {
           "id": "supermarket-l1",
           "sp": "layla",
-          "ar": "دَانْيَال، نَحْتَاجُ إِلَى أَرُزّ وَدَجَاج وَخُضَار وَزَبَادِي لِعَشَاءِ الْأَصْدِقَاءِ اللَّيْلَة.",
-          "en": "Daniel, we need rice, chicken, vegetables and yoghurt for dinner with our friends tonight.",
+          "ar": "فَيْصَل، نَحْتَاجُ إِلَى أَرُزّ وَدَجَاج وَخُضَار وَزَبَادِي لِعَشَاءِ الْأَصْدِقَاءِ اللَّيْلَة.",
+          "en": "Faisal, we need rice, chicken, vegetables and yoghurt for dinner with our friends tonight.",
           "segs": [
             [
-              "دَانْيَال",
-              "Daniel (first name)",
+              "فَيْصَل",
+              "Faisal (first name)",
               "name"
             ],
             [
@@ -16778,7 +16778,7 @@
     "quiz": [
       {
         "id": "supermarket-q1",
-        "prompt": "What do Layla and Daniel need for the dinner?",
+        "prompt": "What do Layla and Faisal need for the dinner?",
         "options": [
           "fish, bread and cheese",
           "rice, chicken, vegetables and yoghurt",
@@ -16828,7 +16828,7 @@
     "title": "At the phone shop",
     "emoji": "📱",
     "status": "needs-review",
-    "intro": "Daniel dropped his phone in Cairo: the screen cracked, and his charger has stopped working too. He takes the phone to a small phone shop near his flat, where he also wants a local SIM card with internet. Useful phrases: بِكَمِ الْإِصْلَاح؟ (how much is the repair?), هَلْ هُنَاكَ ضَمَان؟ (is there a warranty?) and أُرِيدُ شَرِيحَةً مَحَلِّيَّةً (I want a local SIM card).",
+    "intro": "Faisal dropped his phone in Cairo: the screen cracked, and his charger has stopped working too. He takes the phone to a small phone shop near his flat, where he also wants a local SIM card with internet. Useful phrases: بِكَمِ الْإِصْلَاح؟ (how much is the repair?), هَلْ هُنَاكَ ضَمَان؟ (is there a warranty?) and أُرِيدُ شَرِيحَةً مَحَلِّيَّةً (I want a local SIM card).",
     "dialogue": {
       "title": "A cracked screen and a new SIM card",
       "speakers": [
@@ -16839,8 +16839,8 @@
         },
         {
           "key": "daniel",
-          "name": "Daniel",
-          "nameAr": "دَانْيَال"
+          "name": "Faisal",
+          "nameAr": "فَيْصَل"
         }
       ],
       "culture": "In Egypt every SIM card (شَرِيحَة) must be registered to its owner: Egyptians show their national ID card, and foreigners show their passport. Most people use prepaid lines and renew a monthly internet package (بَاقَة) at a phone shop, a kiosk or in the network's app. Small phone repair shops are everywhere in Cairo, and a new screen is often fitted within a day or two.",
@@ -17773,7 +17773,7 @@
       },
       {
         "id": "phone-shop-q2",
-        "prompt": "How much does Daniel pay today?",
+        "prompt": "How much does Faisal pay today?",
         "options": [
           "1500 pounds",
           "550 pounds",
@@ -17784,7 +17784,7 @@
       },
       {
         "id": "phone-shop-q3",
-        "prompt": "What does Daniel need to register the SIM card?",
+        "prompt": "What does Faisal need to register the SIM card?",
         "options": [
           "his student card",
           "a photo",
@@ -17812,7 +17812,7 @@
     "title": "Allergies and dietary needs",
     "emoji": "🥗",
     "status": "needs-review",
-    "intro": "Daniel takes a colleague from the Amman office out to dinner: the colleague is vegetarian, and Daniel himself has a nut allergy. Before they order he has a few careful questions for the waiter. Useful phrases: عِنْدِي حَسَاسِيَّة مِنَ الْمُكَسَّرَات (I have a nut allergy), هَلْ فِيهِ لَحْم؟ (does it have meat in it?) and نَبَاتِيّ (vegetarian).",
+    "intro": "Faisal takes a colleague from the Amman office out to dinner: the colleague is vegetarian, and Faisal himself has a nut allergy. Before they order he has a few careful questions for the waiter. Useful phrases: عِنْدِي حَسَاسِيَّة مِنَ الْمُكَسَّرَات (I have a nut allergy), هَلْ فِيهِ لَحْم؟ (does it have meat in it?) and نَبَاتِيّ (vegetarian).",
     "dialogue": {
       "title": "Does it have nuts in it?",
       "speakers": [
@@ -17823,8 +17823,8 @@
         },
         {
           "key": "daniel",
-          "name": "Daniel",
-          "nameAr": "دَانْيَال"
+          "name": "Faisal",
+          "nameAr": "فَيْصَل"
         }
       ],
       "culture": "In Jordan, as across the Levant, مُسَخَّن (chicken on flatbread with onions, sumac and olive oil) and مَقْلُوبَة (the 'upside-down' rice dish) are festive favourites, and both are usually finished with fried pine nuts and almonds, so anyone with a nut allergy should ask before ordering. Restaurant food in Jordan is halal by default, so the question هَلْ هُوَ حَلَال؟ rarely needs asking; vegetarianism is less common, and a dish described as 'without meat' may still be cooked in meat stock (مَرَق). Allergies are taken seriously, and a waiter will normally check with the kitchen without any fuss.",
@@ -18818,7 +18818,7 @@
     "quiz": [
       {
         "id": "dietary-q1",
-        "prompt": "What is true of Daniel's colleague?",
+        "prompt": "What is true of Faisal's colleague?",
         "options": [
           "he is vegetarian",
           "he has a nut allergy",
@@ -18829,7 +18829,7 @@
       },
       {
         "id": "dietary-q2",
-        "prompt": "Why can't Daniel eat the musakhan as it is usually served?",
+        "prompt": "Why can't Faisal eat the musakhan as it is usually served?",
         "options": [
           "it is cooked with chicken stock",
           "it is too salty",
@@ -18852,7 +18852,7 @@
       },
       {
         "id": "dietary-q4",
-        "prompt": "What does Daniel ask for his colleague's juice?",
+        "prompt": "What does Faisal ask for his colleague's juice?",
         "options": [
           "less salt",
           "more ice",
@@ -18868,14 +18868,14 @@
     "title": "Good manners at a dinner",
     "emoji": "🤝",
     "status": "needs-review",
-    "intro": "Daniel has been invited to dinner at Sami's parents' house for the first time, and he is not sure what to bring or how to behave at the table. The evening before, he asks Layla for a quick lesson in good manners. Useful phrases: تَفَضَّلْ (please, go ahead), بِالْيَدِ الْيُمْنَى (with the right hand) and الْحَمْدُ لِلّٰه، شَبِعْتُ (thank God, I'm full).",
+    "intro": "Faisal has been invited to dinner at Sami's parents' house for the first time, and he is not sure what to bring or how to behave at the table. The evening before, he asks Layla for a quick lesson in good manners. Useful phrases: تَفَضَّلْ (please, go ahead), بِالْيَدِ الْيُمْنَى (with the right hand) and الْحَمْدُ لِلّٰه، شَبِعْتُ (thank God, I'm full).",
     "dialogue": {
       "title": "What do I bring, and when do I leave?",
       "speakers": [
         {
           "key": "daniel",
-          "name": "Daniel",
-          "nameAr": "دَانْيَال"
+          "name": "Faisal",
+          "nameAr": "فَيْصَل"
         },
         {
           "key": "layla",
@@ -19776,7 +19776,7 @@
     "quiz": [
       {
         "id": "etiquette-q1",
-        "prompt": "What does Layla tell Daniel to bring instead of the wine?",
+        "prompt": "What does Layla tell Faisal to bring instead of the wine?",
         "options": [
           "a bottle of perfume",
           "a box of baklava or some fruit",
@@ -19799,7 +19799,7 @@
       },
       {
         "id": "etiquette-q3",
-        "prompt": "What should Daniel do when an older person comes into the room?",
+        "prompt": "What should Faisal do when an older person comes into the room?",
         "options": [
           "keep eating",
           "shake hands with Sami",
@@ -19826,14 +19826,14 @@
     "title": "Using a ticket machine",
     "emoji": "🎫",
     "status": "needs-review",
-    "intro": "Daniel stands in front of a ticket machine in a Cairo metro station: the screen is all in Arabic and the machine keeps rejecting his crumpled banknote. Sami happens to be passing and shows him how it works, button by button. Useful phrases: اِضْغَطْ عَلَى الزِّرّ (press the button), الْآلَة لَا تَعْمَل (the machine isn't working) and أَيْنَ أَضَعُ النُّقُود؟ (where do I put the money?).",
+    "intro": "Faisal stands in front of a ticket machine in a Cairo metro station: the screen is all in Arabic and the machine keeps rejecting his crumpled banknote. Sami happens to be passing and shows him how it works, button by button. Useful phrases: اِضْغَطْ عَلَى الزِّرّ (press the button), الْآلَة لَا تَعْمَل (the machine isn't working) and أَيْنَ أَضَعُ النُّقُود؟ (where do I put the money?).",
     "dialogue": {
       "title": "The machine won't take my note",
       "speakers": [
         {
           "key": "daniel",
-          "name": "Daniel",
-          "nameAr": "دَانْيَال"
+          "name": "Faisal",
+          "nameAr": "فَيْصَل"
         },
         {
           "key": "sami",
@@ -20830,7 +20830,7 @@
     "quiz": [
       {
         "id": "machines-q1",
-        "prompt": "Why does the first machine keep giving Daniel's banknote back?",
+        "prompt": "Why does the first machine keep giving Faisal's banknote back?",
         "options": [
           "it is torn",
           "it is foreign money",
@@ -20880,7 +20880,7 @@
     "title": "At the language school",
     "emoji": "🏫",
     "status": "needs-review",
-    "intro": "Daniel will be working in Amman for six months, so he goes to a small private language school downtown to enrol in an Arabic course. The secretary asks about his level, and the evening class he wanted turns out to be full. Useful phrases: أُرِيدُ أَنْ أُسَجِّلَ (I want to enrol), الْمُسْتَوَى (the level) and كَمِ الرَّسْم؟ (how much is the fee?).",
+    "intro": "Faisal will be working in Amman for six months, so he goes to a small private language school downtown to enrol in an Arabic course. The secretary asks about his level, and the evening class he wanted turns out to be full. Useful phrases: أُرِيدُ أَنْ أُسَجِّلَ (I want to enrol), الْمُسْتَوَى (the level) and كَمِ الرَّسْم؟ (how much is the fee?).",
     "dialogue": {
       "title": "Enrolling in an Arabic course",
       "speakers": [
@@ -20891,8 +20891,8 @@
         },
         {
           "key": "daniel",
-          "name": "Daniel",
-          "nameAr": "دَانْيَال"
+          "name": "Faisal",
+          "nameAr": "فَيْصَل"
         }
       ],
       "culture": "Private language schools in Amman (عَمَّان) teach Modern Standard Arabic (الْفُصْحَى) and usually Jordanian colloquial too, and most place a new student with a short placement test rather than by self-assessment. The working week in Jordan runs from Sunday to Thursday, so a Sunday morning class is perfectly normal and Friday is the day off. Fees are quoted in Jordanian dinars (دِينَار), and a deposit (عُرْبُون) is commonly asked for to hold a place in a small group.",
@@ -21913,7 +21913,7 @@
       },
       {
         "id": "school-q2",
-        "prompt": "Why can't Daniel join the evening class?",
+        "prompt": "Why can't Faisal join the evening class?",
         "options": [
           "It is too expensive.",
           "It starts too early.",

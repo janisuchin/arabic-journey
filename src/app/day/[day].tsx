@@ -117,6 +117,8 @@ function Chapter({ d, page, setPage }: { d: Day; page: number; setPage: (n: numb
   const id = pages[Math.min(page, pages.length - 1)];
   const next = pages[page + 1];
   const go = (n: number) => setPage(Math.max(0, Math.min(pages.length - 1, n)));
+  // the quiz is the gate to "Done"; a day already passed lets the learner walk past it again
+  const dayDone = useProgressInput().completedDays.has(d.day);
   return (
     <Screen title={`Day ${d.day} · ${d.title}`}>
       <Caption testID="page-caption">
@@ -126,7 +128,7 @@ function Chapter({ d, page, setPage }: { d: Day; page: number; setPage: (n: numb
       <GlossScope.Provider value={{ day: d.day }}>
         <PageBody d={d} id={id} onPassed={() => go(pages.indexOf('done'))} />
       </GlossScope.Provider>
-      {next && id !== 'quiz' && (
+      {next && (id !== 'quiz' || dayDone) && (
         <Button label={`Next: ${PAGE_NAMES[next]}`} iconAfter={NEXT_ICON} testID="next-page" onPress={() => go(page + 1)} />
       )}
       {page > 0 && (
@@ -238,6 +240,7 @@ function PronPage({ d }: { d: Day }) {
   const c = usePalette();
   const settings = useSettings();
   const p = soundOfTheDay(d);
+  const [sayIdx, setSayIdx] = useState(0);
   if (!p) return <AppText muted>No sound for today.</AppText>;
   const todays = d.newWords.map((w) => vocabById.get(w)).filter((v) => v && p.letters.some((l) => v.ar.includes(l)));
   const examples = todays.length ? todays.map((v) => ({ ar: v!.ar, en: v!.en })) : p.examples;
@@ -283,8 +286,13 @@ function PronPage({ d }: { d: Day }) {
         <Button
           kind="ghost"
           icon="mic-outline"
-          label="Say it yourself"
-          onPress={() => tts.speak(examples[0].ar, { rate: settings.slowRate })}
+          label={`Say it yourself (${sayIdx + 1}/${examples.length}): ${examples[sayIdx].en}`}
+          testID="say-it-yourself"
+          onPress={() => {
+            // each press is the next word of the page, slowly; the label names the word to repeat
+            tts.speak(examples[sayIdx].ar, { rate: settings.slowRate });
+            setSayIdx((sayIdx + 1) % examples.length);
+          }}
         />
         <Button kind="ghost" icon="chatbox-ellipses-outline" label="Speaking lab" onPress={() => router.push('/speaking')} />
       </Row>

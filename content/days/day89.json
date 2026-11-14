@@ -27,7 +27,7 @@
   "realLife": {
     "emoji": "🎓",
     "title": "The big day",
-    "story": "It's nine o'clock in the morning, and the classroom has become an exam hall: one desk per student, with a sheet of paper and a pen on each one. Daniel revised until one in the morning and is very nervous; Layla tries to calm him down. Mr Karim explains the four parts and the rules, and in the afternoon everyone comes back to hear the results.",
+    "story": "It's nine o'clock in the morning, and the classroom has become an exam hall: one desk per student, with a sheet of paper and a pen on each one. Faisal revised until one in the morning and is very nervous; Layla tries to calm him down. Mr Karim explains the four parts and the rules, and in the afternoon everyone comes back to hear the results.",
     "photo": {"file": "day89.jpg", "alt": "Students sitting at single desks writing an exam in a bright classroom while an invigilator walks past.", "credit": {"title": "File:ATC Admission Exam (2).JPG", "author": "Narek75", "license": "CC BY-SA 4.0", "source": "https://commons.wikimedia.org/wiki/File:ATC_Admission_Exam_(2).JPG", "accessed": "2026-11-11", "modified": "resized and re-encoded", "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"}}
   },
   "letters": [],
@@ -274,9 +274,9 @@
     },
     {
       "id": "d89s6",
-      "ar": "أُعْلِنَتِ النَّتَائِجُ، وَحَصَلَ دَانْيَال عَلَى عَلَامَةٍ مُمْتَازَةٍ.",
-      "en": "The results were announced, and Daniel got an excellent mark.",
-      "literal": "were announced the results, and got Daniel on a mark excellent",
+      "ar": "أُعْلِنَتِ النَّتَائِجُ، وَحَصَلَ فَيْصَل عَلَى عَلَامَةٍ مُمْتَازَةٍ.",
+      "en": "The results were announced, and Faisal got an excellent mark.",
+      "literal": "were announced the results, and got Faisal on a mark excellent",
       "segs": [
         [
           "أُعْلِنَتِ",
@@ -294,8 +294,8 @@
           "verb"
         ],
         [
-          "دَانْيَال",
-          "Daniel (first name)",
+          "فَيْصَل",
+          "Faisal (first name)",
           "name"
         ],
         [
@@ -342,8 +342,8 @@
       },
       {
         "key": "daniel",
-        "name": "Daniel",
-        "nameAr": "دَانْيَال"
+        "name": "Faisal",
+        "nameAr": "فَيْصَل"
       },
       {
         "key": "layla",
@@ -504,8 +504,8 @@
       {
         "id": "d89l3",
         "sp": "layla",
-        "ar": "لَا تَقْلَقْ يَا دَانْيَال. إِذَا كُنْتَ مُتَوَتِّرًا، فَخُذْ نَفَسًا عَمِيقًا. أَنْتَ تَدْرُسُ كُلَّ يَوْم، وَمَنْ جَدَّ وَجَدَ!",
-        "en": "Don't worry, Daniel. If you're nervous, take a deep breath. You study every day, and whoever works hard succeeds!",
+        "ar": "لَا تَقْلَقْ يَا فَيْصَل. إِذَا كُنْتَ مُتَوَتِّرًا، فَخُذْ نَفَسًا عَمِيقًا. أَنْتَ تَدْرُسُ كُلَّ يَوْم، وَمَنْ جَدَّ وَجَدَ!",
+        "en": "Don't worry, Faisal. If you're nervous, take a deep breath. You study every day, and whoever works hard succeeds!",
         "segs": [
           [
             "لَا",
@@ -520,8 +520,8 @@
             "O (calling someone)"
           ],
           [
-            "دَانْيَال",
-            "Daniel (first name)",
+            "فَيْصَل",
+            "Faisal (first name)",
             "name"
           ],
           [
@@ -1422,8 +1422,8 @@
       {
         "id": "d89l16",
         "sp": "layla",
-        "ar": "مَبْرُوك يَا دَانْيَال! إِذَا جِئْتَ إِلَى لُبْنَان فِي الصَّيْف، فَسَنَحْتَفِلُ بِنَجَاحِكَ مَعَ عَائِلَتِي!",
-        "en": "Congratulations, Daniel! If you come to Lebanon in the summer, we'll celebrate your success with my family!",
+        "ar": "مَبْرُوك يَا فَيْصَل! إِذَا جِئْتَ إِلَى لُبْنَان فِي الصَّيْف، فَسَنَحْتَفِلُ بِنَجَاحِكَ مَعَ عَائِلَتِي!",
+        "en": "Congratulations, Faisal! If you come to Lebanon in the summer, we'll celebrate your success with my family!",
         "segs": [
           [
             "مَبْرُوك",
@@ -1434,8 +1434,8 @@
             "O (calling someone)"
           ],
           [
-            "دَانْيَال",
-            "Daniel (first name)",
+            "فَيْصَل",
+            "Faisal (first name)",
             "name"
           ],
           [
@@ -1485,8 +1485,8 @@
   },
   "reading": {
     "title": "The day of the final exam",
-    "ar": "وَصَلَ الطُّلَّابُ إِلَى الْمَدْرَسَةِ فِي السَّاعَةِ التَّاسِعَةِ صَبَاحًا لِلِامْتِحَانِ النِّهَائِيّ. كَانَ دَانْيَال مُتَوَتِّرًا قَلِيلًا. شَرَحَ الْأُسْتَاذ كَرِيم أَنَّ الِامْتِحَانَ فِيهِ أَرْبَعَةُ أَجْزَاء، وَأَنَّ مُدَّةَ الْأَجْزَاءِ الثَّلَاثَةِ الْأُولَى سَاعَتَانِ. كُتِبَتِ الْإِجَابَاتُ عَلَى الْوَرَقَةِ بِالْقَلَم. بَعْدَ الظُّهْرِ أُعْلِنَتِ النَّتَائِج: نَجَحَ الْجَمِيع، وَحَصَلَ دَانْيَال عَلَى عَلَامَة مُمْتَازَة.",
-    "en": "The students arrived at the school at nine o'clock in the morning for the final exam. Daniel was a little nervous. Mr Karim explained that the exam has four parts, and that the time allowed for the first three parts is two hours. The answers were written on the paper in pen. In the afternoon the results were announced: everyone passed, and Daniel got an excellent mark.",
+    "ar": "وَصَلَ الطُّلَّابُ إِلَى الْمَدْرَسَةِ فِي السَّاعَةِ التَّاسِعَةِ صَبَاحًا لِلِامْتِحَانِ النِّهَائِيّ. كَانَ فَيْصَل مُتَوَتِّرًا قَلِيلًا. شَرَحَ الْأُسْتَاذ كَرِيم أَنَّ الِامْتِحَانَ فِيهِ أَرْبَعَةُ أَجْزَاء، وَأَنَّ مُدَّةَ الْأَجْزَاءِ الثَّلَاثَةِ الْأُولَى سَاعَتَانِ. كُتِبَتِ الْإِجَابَاتُ عَلَى الْوَرَقَةِ بِالْقَلَم. بَعْدَ الظُّهْرِ أُعْلِنَتِ النَّتَائِج: نَجَحَ الْجَمِيع، وَحَصَلَ فَيْصَل عَلَى عَلَامَة مُمْتَازَة.",
+    "en": "The students arrived at the school at nine o'clock in the morning for the final exam. Faisal was a little nervous. Mr Karim explained that the exam has four parts, and that the time allowed for the first three parts is two hours. The answers were written on the paper in pen. In the afternoon the results were announced: everyone passed, and Faisal got an excellent mark.",
     "segs": [
       [
         "وَصَلَ",
@@ -1533,8 +1533,8 @@
         "(he) was"
       ],
       [
-        "دَانْيَال",
-        "Daniel (first name)",
+        "فَيْصَل",
+        "Faisal (first name)",
         "name"
       ],
       [
@@ -1651,8 +1651,8 @@
         "and (he) got"
       ],
       [
-        "دَانْيَال",
-        "Daniel (first name)",
+        "فَيْصَل",
+        "Faisal (first name)",
         "name"
       ],
       [
@@ -1691,7 +1691,7 @@
     },
     {
       "id": "d89q2",
-      "prompt": "Numbers: what mark did Daniel get?",
+      "prompt": "Numbers: what mark did Faisal get?",
       "ar": "حَصَلْتَ عَلَى اثْنَيْنِ وَتِسْعِينَ مِنْ مِئَة.",
       "options": [
         "29 out of 100",

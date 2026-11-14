@@ -21,7 +21,7 @@
   ],
   "emoji": "🛌",
   "summary": "Give and understand advice with يَجِبُ أَنْ… (must, have to) and the spoken لَازِم أَنْ…, and say that something is not necessary.",
-  "intro": "On Thursday Daniel goes back to Dr Fatima's clinic. He feels much better and wants to get back to school and to football, but the doctor has advice. To say 'must' in standard Arabic, use يَجِبُ (it is necessary), then أَنْ and a present-tense verb ending in -a: يَجِبُ أَنْ تَرْتَاحَ (you must rest), يَجِبُ أَنْ أَنَامَ (I must sleep). Two other written forms mean the same: مِنَ اللَّازِمِ أَنْ (it is necessary that) and عَلَيْكَ أَنْ (you have to, lit. it is on you). In conversation people often say just لَازِم أَنْ…; that is spoken style. يَجِبُ never changes; the person is on the second verb.",
+  "intro": "On Thursday Faisal goes back to Dr Fatima's clinic. He feels much better and wants to get back to school and to football, but the doctor has advice. To say 'must' in standard Arabic, use يَجِبُ (it is necessary), then أَنْ and a present-tense verb ending in -a: يَجِبُ أَنْ تَرْتَاحَ (you must rest), يَجِبُ أَنْ أَنَامَ (I must sleep). Two other written forms mean the same: مِنَ اللَّازِمِ أَنْ (it is necessary that) and عَلَيْكَ أَنْ (you have to, lit. it is on you). In conversation people often say just لَازِم أَنْ…; that is spoken style. يَجِبُ never changes; the person is on the second verb.",
   "objectives": [
     "Say what someone must do with يَجِبُ أَنْ, مِنَ اللَّازِمِ أَنْ or عَلَيْكَ أَنْ, and understand the spoken لَازِم أَنْ",
     "Ask 'do I have to…?' with هَلْ يَجِبُ أَنْ…؟",
@@ -31,7 +31,7 @@
   "realLife": {
     "emoji": "🩺",
     "title": "The follow-up visit",
-    "story": "Daniel's temperature is normal again. Dr Fatima is pleased, but she wants him to rest for two more days. Her younger son Omar is at the clinic after school, and he has one question: can Daniel play football on Saturday?",
+    "story": "Faisal's temperature is normal again. Dr Fatima is pleased, but she wants him to rest for two more days. Her younger son Omar is at the clinic after school, and he has one question: can Faisal play football on Saturday?",
     "photo": {"file": "day48.jpg", "alt": "A hospital room with an adjustable bed, a sofa by the window and a reading lamp.", "credit": {"title": "File:Modern hospital room with bed and sofa.jpg", "author": "JesusisGreat7", "license": "CC0", "source": "https://commons.wikimedia.org/wiki/File:Modern_hospital_room_with_bed_and_sofa.jpg", "accessed": "2026-11-11", "modified": "resized and re-encoded", "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"}}
   },
   "letters": [],
@@ -236,8 +236,8 @@
       },
       {
         "key": "daniel",
-        "name": "Daniel",
-        "nameAr": "دَانْيَال"
+        "name": "Faisal",
+        "nameAr": "فَيْصَل"
       },
       {
         "key": "omar",
@@ -250,8 +250,8 @@
       {
         "id": "d48l1",
         "sp": "fatima",
-        "ar": "أَهْلًا يَا دَانْيَال! تَفَضَّلْ، اِجْلِسْ. وَجْهُكَ أَحْسَن الْيَوْمَ. كَيْفَ تَشْعُرُ؟",
-        "en": "Hello, Daniel! Please sit down. Your face looks better today. How do you feel?",
+        "ar": "أَهْلًا يَا فَيْصَل! تَفَضَّلْ، اِجْلِسْ. وَجْهُكَ أَحْسَن الْيَوْمَ. كَيْفَ تَشْعُرُ؟",
+        "en": "Hello, Faisal! Please sit down. Your face looks better today. How do you feel?",
         "segs": [
           [
             "أَهْلًا",
@@ -262,8 +262,8 @@
             "O (calling someone)"
           ],
           [
-            "دَانْيَال",
-            "Daniel (first name)",
+            "فَيْصَل",
+            "Faisal (first name)",
             "name"
           ],
           [
@@ -616,16 +616,16 @@
       {
         "id": "d48l8",
         "sp": "omar",
-        "ar": "يَا دَانْيَال! هَلْ سَتَلْعَبُ مَعَنَا كُرَةَ الْقَدَم يَوْمَ السَّبْت؟ أَنَا وَسَامِي جَاهِزَانِ!",
-        "en": "Daniel! Will you play football with us on Saturday? Sami and I are ready!",
+        "ar": "يَا فَيْصَل! هَلْ سَتَلْعَبُ مَعَنَا كُرَةَ الْقَدَم يَوْمَ السَّبْت؟ أَنَا وَسَامِي جَاهِزَانِ!",
+        "en": "Faisal! Will you play football with us on Saturday? Sami and I are ready!",
         "segs": [
           [
             "يَا",
             "O (calling someone)"
           ],
           [
-            "دَانْيَال",
-            "Daniel (first name)",
+            "فَيْصَل",
+            "Faisal (first name)",
             "name"
           ],
           [
@@ -674,8 +674,8 @@
       {
         "id": "d48l9",
         "sp": "fatima",
-        "ar": "يَا عُمَر، دَانْيَال لَيْسَ جَاهِزًا بَعْدُ. الصِّحَّة أَوَّلًا، وَيَجِبُ أَنْ يَرْتَاحَ.",
-        "en": "Omar, Daniel isn't ready yet. Health comes first, and he must rest.",
+        "ar": "يَا عُمَر، فَيْصَل لَيْسَ جَاهِزًا بَعْدُ. الصِّحَّة أَوَّلًا، وَيَجِبُ أَنْ يَرْتَاحَ.",
+        "en": "Omar, Faisal isn't ready yet. Health comes first, and he must rest.",
         "segs": [
           [
             "يَا",
@@ -687,8 +687,8 @@
             "name"
           ],
           [
-            "دَانْيَال",
-            "Daniel (first name)",
+            "فَيْصَل",
+            "Faisal (first name)",
             "name"
           ],
           [
@@ -1051,12 +1051,12 @@
   },
   "reading": {
     "title": "The doctor's advice",
-    "ar": "دَانْيَال أَحْسَن الْآنَ، لٰكِنْ مِنَ اللَّازِمِ أَنْ يَرْتَاحَ الْيَوْمَ وَغَدًا. يَجِبُ أَنْ يَنَامَ مُبَكِّرًا، وَأَنْ يَشْرَبَ مَاءً كَثِيرًا. يَوْمَ السَّبْت يَلْعَبُ كُرَةَ الْقَدَم مَعَ عُمَر وَسَامِي، وَيَوْمَ الْأَحَد يَرْجِعُ إِلَى الْمَدْرَسَة.",
-    "en": "Daniel is better now, but he must rest today and tomorrow. He must go to bed early and drink plenty of water. On Saturday he plays football with Omar and Sami, and on Sunday he goes back to school.",
+    "ar": "فَيْصَل أَحْسَن الْآنَ، لٰكِنْ مِنَ اللَّازِمِ أَنْ يَرْتَاحَ الْيَوْمَ وَغَدًا. يَجِبُ أَنْ يَنَامَ مُبَكِّرًا، وَأَنْ يَشْرَبَ مَاءً كَثِيرًا. يَوْمَ السَّبْت يَلْعَبُ كُرَةَ الْقَدَم مَعَ عُمَر وَسَامِي، وَيَوْمَ الْأَحَد يَرْجِعُ إِلَى الْمَدْرَسَة.",
+    "en": "Faisal is better now, but he must rest today and tomorrow. He must go to bed early and drink plenty of water. On Saturday he plays football with Omar and Sami, and on Sunday he goes back to school.",
     "segs": [
       [
-        "دَانْيَال",
-        "Daniel (first name)",
+        "فَيْصَل",
+        "Faisal (first name)",
         "name"
       ],
       [
@@ -1218,7 +1218,7 @@
     },
     {
       "id": "d48q3",
-      "prompt": "What is Daniel's temperature now?",
+      "prompt": "What is Faisal's temperature now?",
       "options": [
         "37 degrees",
         "38.5 degrees",
@@ -1229,7 +1229,7 @@
     },
     {
       "id": "d48q4",
-      "prompt": "When will Daniel go back to school?",
+      "prompt": "When will Faisal go back to school?",
       "options": [
         "tomorrow",
         "on Saturday",
@@ -1256,7 +1256,7 @@
         "to go to the doctor",
         "to sleep early",
         "to take medicine",
-        "to play football with Daniel"
+        "to play football with Faisal"
       ],
       "answer": 3
     },

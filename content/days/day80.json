@@ -387,8 +387,8 @@
       },
       {
         "key": "daniel",
-        "name": "Daniel",
-        "nameAr": "دَانْيَال"
+        "name": "Faisal",
+        "nameAr": "فَيْصَل"
       },
       {
         "key": "layla",
@@ -707,8 +707,8 @@
       {
         "id": "d80l6",
         "sp": "layla",
-        "ar": "وَإِنْ أَرَدْتَ يَا دَانْيَال، فَتَعَالَ مَعِي. بَيْتِي قَرِيب مِنْ بَيْتِكَ، وَأَبِي سَيُوصِلُنَا بِالسَّيَّارَة.",
-        "en": "And if you like, Daniel, come with me. My house is near yours, and my father will drive us there by car.",
+        "ar": "وَإِنْ أَرَدْتَ يَا فَيْصَل، فَتَعَالَ مَعِي. بَيْتِي قَرِيب مِنْ بَيْتِكَ، وَأَبِي سَيُوصِلُنَا بِالسَّيَّارَة.",
+        "en": "And if you like, Faisal, come with me. My house is near yours, and my father will drive us there by car.",
         "segs": [
           [
             "وَإِنْ",
@@ -723,8 +723,8 @@
             "O (calling someone)"
           ],
           [
-            "دَانْيَال",
-            "Daniel (first name)",
+            "فَيْصَل",
+            "Faisal (first name)",
             "name"
           ],
           [
@@ -829,8 +829,8 @@
       {
         "id": "d80l8",
         "sp": "karim",
-        "ar": "هٰذِهِ هِيَ «لَوْ»: نَقُولُهَا عَنْ شَيْء غَيْر حَقِيقِيّ. دَانْيَال لَيْسَ عِنْدَهُ سَيَّارَة، فَهٰذَا حُلْم فَقَط.",
-        "en": "That is 'law': we use it for something that isn't real. Daniel doesn't have a car, so this is only a dream.",
+        "ar": "هٰذِهِ هِيَ «لَوْ»: نَقُولُهَا عَنْ شَيْء غَيْر حَقِيقِيّ. فَيْصَل لَيْسَ عِنْدَهُ سَيَّارَة، فَهٰذَا حُلْم فَقَط.",
+        "en": "That is 'law': we use it for something that isn't real. Faisal doesn't have a car, so this is only a dream.",
         "segs": [
           [
             "هٰذِهِ",
@@ -865,8 +865,8 @@
             "real"
           ],
           [
-            "دَانْيَال",
-            "Daniel (first name)",
+            "فَيْصَل",
+            "Faisal (first name)",
             "name"
           ],
           [
@@ -1163,8 +1163,8 @@
       {
         "id": "d80l13",
         "sp": "sami",
-        "ar": "يَعْنِي أَنَّ الْمَطَرَ غَدًا شَيْء مُمْكِن، لٰكِنَّ مِلْيُونَ دَانْيَال حُلْم فَقَط، لِلْأَسَف!",
-        "en": "So rain tomorrow is something possible, but Daniel's million is only a dream, unfortunately!",
+        "ar": "يَعْنِي أَنَّ الْمَطَرَ غَدًا شَيْء مُمْكِن، لٰكِنَّ مِلْيُونَ فَيْصَل حُلْم فَقَط، لِلْأَسَف!",
+        "en": "So rain tomorrow is something possible, but Faisal's million is only a dream, unfortunately!",
         "segs": [
           [
             "يَعْنِي",
@@ -1199,8 +1199,8 @@
             "million (of) (-a after lākinna)"
           ],
           [
-            "دَانْيَال",
-            "Daniel (first name)",
+            "فَيْصَل",
+            "Faisal (first name)",
             "name"
           ],
           [
@@ -1369,8 +1369,8 @@
   },
   "reading": {
     "title": "Tomorrow at the beach",
-    "ar": "غَدًا يَذْهَبُ الطُّلَّابُ إِلَى الشَّاطِئِ. إِذَا كَانَ الْجَوُّ جَمِيلًا، فَسَيَسْبَحُونَ. وَإِذَا أَمْطَرَتْ، فَسَيَزُورُونَ الْمَتْحَفَ. تَخْرُجُ الْحَافِلَةُ فِي السَّاعَةِ الثَّامِنَةِ، وَلَنْ تَنْتَظِرَ أَحَدًا. حَلَمَ الطُّلَّابُ قَلِيلًا. قَالَ دَانْيَال: لَوْ فُزْتُ بِمِلْيُونِ دُولَار، لَاشْتَرَيْتُ بَيْتًا عَلَى الشَّاطِئِ. وَقَالَتْ لَيْلَى: لَوْ كُنْتُ وَزِيرَةً، لَزَرَعْتُ شَجَرَةً فِي كُلِّ شَارِعٍ.",
-    "en": "Tomorrow the students are going to the beach. If the weather is nice, they will swim. And if it rains, they will visit the museum. The bus leaves at eight o'clock, and it won't wait for anybody. The students dreamed a little. Daniel said: If I won a million dollars, I would buy a house on the beach. And Layla said: If I were a minister, I would plant a tree in every street.",
+    "ar": "غَدًا يَذْهَبُ الطُّلَّابُ إِلَى الشَّاطِئِ. إِذَا كَانَ الْجَوُّ جَمِيلًا، فَسَيَسْبَحُونَ. وَإِذَا أَمْطَرَتْ، فَسَيَزُورُونَ الْمَتْحَفَ. تَخْرُجُ الْحَافِلَةُ فِي السَّاعَةِ الثَّامِنَةِ، وَلَنْ تَنْتَظِرَ أَحَدًا. حَلَمَ الطُّلَّابُ قَلِيلًا. قَالَ فَيْصَل: لَوْ فُزْتُ بِمِلْيُونِ دُولَار، لَاشْتَرَيْتُ بَيْتًا عَلَى الشَّاطِئِ. وَقَالَتْ لَيْلَى: لَوْ كُنْتُ وَزِيرَةً، لَزَرَعْتُ شَجَرَةً فِي كُلِّ شَارِعٍ.",
+    "en": "Tomorrow the students are going to the beach. If the weather is nice, they will swim. And if it rains, they will visit the museum. The bus leaves at eight o'clock, and it won't wait for anybody. The students dreamed a little. Faisal said: If I won a million dollars, I would buy a house on the beach. And Layla said: If I were a minister, I would plant a tree in every street.",
     "segs": [
       [
         "غَدًا",
@@ -1477,8 +1477,8 @@
         "(he) said"
       ],
       [
-        "دَانْيَال",
-        "Daniel (first name)",
+        "فَيْصَل",
+        "Faisal (first name)",
         "name"
       ],
       [

@@ -23,7 +23,7 @@
   "realLife": {
     "emoji": "🏰",
     "title": "A morning at the Citadel",
-    "story": "This morning Mr Karim takes the class up to the Citadel of Salah al-Din, high above Cairo. A guide called Mrs Amal shows them the old walls and the great Mosque of Muhammad Ali with its two tall minarets. Layla wants to know who built everything and when, Daniel connects it all to the Rosetta Stone, and Sami only wants to see the famous French clock that, people say, has never worked.",
+    "story": "This morning Mr Karim takes the class up to the Citadel of Salah al-Din, high above Cairo. A guide called Mrs Amal shows them the old walls and the great Mosque of Muhammad Ali with its two tall minarets. Layla wants to know who built everything and when, Faisal connects it all to the Rosetta Stone, and Sami only wants to see the famous French clock that, people say, has never worked.",
     "photo": {"file": "day81.jpg", "alt": "The Citadel of Saladin in Cairo with the domes and minarets of the Muhammad Ali Mosque at sunset.", "credit": {"title": "File:Flickr - HuTect ShOts - Citadel of Salah El.Din and Masjid Muhammad Ali قلعة صلاح الدين الأيوبي ومسجد محمد علي - Cairo - Egypt - 17 04 2010 (4).jpg", "author": "Ahmed Al.Badawy from Cairo, Egypt", "license": "CC BY-SA 2.0", "source": "https://commons.wikimedia.org/wiki/File:Flickr_-_HuTect_ShOts_-_Citadel_of_Salah_El.Din_and_Masjid_Muhammad_Ali_%D9%82%D9%84%D8%B9%D8%A9_%D8%B5%D9%84%D8%A7%D8%AD_%D8%A7%D9%84%D8%AF%D9%8A%D9%86_%D8%A7%D9%84%D8%A3%D9%8A%D9%88%D8%A8%D9%8A_%D9%88%D9%85%D8%B3%D8%AC%D8%AF_%D9%85%D8%AD%D9%85%D8%AF_%D8%B9%D9%84%D9%8A_-_Cairo_-_Egypt_-_17_04_2010_(4).jpg", "accessed": "2026-11-11", "modified": "resized and re-encoded", "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"}}
   },
   "letters": [],
@@ -382,8 +382,8 @@
       },
       {
         "key": "daniel",
-        "name": "Daniel",
-        "nameAr": "دَانْيَال"
+        "name": "Faisal",
+        "nameAr": "فَيْصَل"
       },
       {
         "key": "sami",
@@ -1605,8 +1605,8 @@
   },
   "reading": {
     "title": "A morning at the Citadel",
-    "ar": "زَارَ الطُّلَّابُ صَبَاحَ الْيَوْمِ قَلْعَةَ صَلَاحِ الدِّين. بُنِيَتِ الْقَلْعَةُ فِي الْقَرْنِ الثَّانِيَ عَشَرَ، وَبُنِيَ مَسْجِدُ مُحَمَّد عَلِيّ فِي الْقَرْنِ التَّاسِعَ عَشَرَ، وَيُسَمَّى أَيْضًا مَسْجِدَ الْمَرْمَر. فِي السَّاحَةِ سَاعَةٌ صُنِعَتْ فِي فَرَنْسَا، وَيُقَالُ إِنَّهَا لَمْ تَعْمَلْ أَبَدًا. وَكَتَبَ دَانْيَال فِي دَفْتَرِهِ كُلَّ أَفْعَالِ الْمَجْهُول.",
-    "en": "This morning the students visited the Citadel of Salah al-Din. The Citadel was built in the twelfth century, and the Mosque of Muhammad Ali was built in the nineteenth century; it is also called the Alabaster Mosque. In the courtyard there is a clock that was made in France, and it is said that it never worked. And Daniel wrote all the passive verbs in his notebook.",
+    "ar": "زَارَ الطُّلَّابُ صَبَاحَ الْيَوْمِ قَلْعَةَ صَلَاحِ الدِّين. بُنِيَتِ الْقَلْعَةُ فِي الْقَرْنِ الثَّانِيَ عَشَرَ، وَبُنِيَ مَسْجِدُ مُحَمَّد عَلِيّ فِي الْقَرْنِ التَّاسِعَ عَشَرَ، وَيُسَمَّى أَيْضًا مَسْجِدَ الْمَرْمَر. فِي السَّاحَةِ سَاعَةٌ صُنِعَتْ فِي فَرَنْسَا، وَيُقَالُ إِنَّهَا لَمْ تَعْمَلْ أَبَدًا. وَكَتَبَ فَيْصَل فِي دَفْتَرِهِ كُلَّ أَفْعَالِ الْمَجْهُول.",
+    "en": "This morning the students visited the Citadel of Salah al-Din. The Citadel was built in the twelfth century, and the Mosque of Muhammad Ali was built in the nineteenth century; it is also called the Alabaster Mosque. In the courtyard there is a clock that was made in France, and it is said that it never worked. And Faisal wrote all the passive verbs in his notebook.",
     "segs": [
       [
         "زَارَ",
@@ -1757,8 +1757,8 @@
         "and (he) wrote"
       ],
       [
-        "دَانْيَال",
-        "Daniel (first name)"
+        "فَيْصَل",
+        "Faisal (first name)"
       ],
       [
         "فِي",

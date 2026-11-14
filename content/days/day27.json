@@ -27,7 +27,7 @@
   "realLife": {
     "emoji": "👔",
     "title": "Dinner at Sami's family home",
-    "story": "Sami's parents have invited Daniel to dinner at their home next Friday. Daniel has only jeans and old T-shirts, so Layla takes him to the clothes shops of downtown Cairo to find a smart shirt, a pair of trousers and, if possible, new shoes.",
+    "story": "Sami's parents have invited Faisal to dinner at their home next Friday. Faisal has only jeans and old T-shirts, so Layla takes him to the clothes shops of downtown Cairo to find a smart shirt, a pair of trousers and, if possible, new shoes.",
     "photo": {"file": "day27.jpg", "alt": "Two women in headscarves look at clothes spread out at a market stall, seen from above in a patch of sunlight.", "credit": {"title": "File:Shopping in the spotlight (Cairo).jpg", "author": "Frank Schulenburg", "license": "CC BY-SA 3.0", "source": "https://commons.wikimedia.org/wiki/File:Shopping_in_the_spotlight_(Cairo).jpg", "accessed": "2026-11-11", "modified": "resized and re-encoded", "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"}}
   },
   "letters": [],
@@ -191,9 +191,9 @@
     },
     {
       "id": "d27s5",
-      "ar": "يَلْبَسُ دَانْيَال قَمِيصًا أَبْيَض.",
-      "en": "Daniel is wearing a white shirt.",
-      "literal": "wears Daniel a shirt white",
+      "ar": "يَلْبَسُ فَيْصَل قَمِيصًا أَبْيَض.",
+      "en": "Faisal is wearing a white shirt.",
+      "literal": "wears Faisal a shirt white",
       "segs": [
         [
           "يَلْبَسُ",
@@ -201,8 +201,8 @@
           "verb"
         ],
         [
-          "دَانْيَال",
-          "Daniel (first name)",
+          "فَيْصَل",
+          "Faisal (first name)",
           "name"
         ],
         [
@@ -267,8 +267,8 @@
       },
       {
         "key": "daniel",
-        "name": "Daniel",
-        "nameAr": "دَانْيَال"
+        "name": "Faisal",
+        "nameAr": "فَيْصَل"
       },
       {
         "key": "seller",
@@ -598,8 +598,8 @@
       {
         "id": "d27l8",
         "sp": "layla",
-        "ar": "الْقَمِيص الْجَدِيد مُمْتَاز يَا دَانْيَال! وَالْبَنْطَلُون؟ هَلْ هُوَ وَاسِع؟",
-        "en": "The new shirt is excellent, Daniel! And the trousers? Are they loose?",
+        "ar": "الْقَمِيص الْجَدِيد مُمْتَاز يَا فَيْصَل! وَالْبَنْطَلُون؟ هَلْ هُوَ وَاسِع؟",
+        "en": "The new shirt is excellent, Faisal! And the trousers? Are they loose?",
         "segs": [
           [
             "الْقَمِيص",
@@ -618,8 +618,8 @@
             "O (calling someone)"
           ],
           [
-            "دَانْيَال",
-            "Daniel (first name)",
+            "فَيْصَل",
+            "Faisal (first name)",
             "name"
           ],
           [
@@ -1108,7 +1108,7 @@
     },
     {
       "id": "d27q4",
-      "prompt": "Why does Daniel need new clothes?",
+      "prompt": "Why does Faisal need new clothes?",
       "options": [
         "For a job interview",
         "For a wedding",

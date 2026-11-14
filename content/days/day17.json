@@ -5,7 +5,7 @@
   "summary": "Read a menu, order a meal and make sound plurals with -ūna and -āt.",
   "intro": "Many Arabic plurals are made by adding an ending. For groups of men (or mixed groups) add ـُونَ: طَبَّاخ (cook) becomes طَبَّاخُونَ (cooks). For women, and for many things, drop ة and add ـَات: سَلَطَة becomes سَلَطَات (salads), مَشْرُوب becomes مَشْرُوبَات (drinks). These are the sound plurals: the singular stays whole, and only an ending is added.",
   "objectives": ["Name ten things on a restaurant menu", "Order a main dish and a drink in a restaurant", "Make the plural of people with ـُونَ and ـِينَ", "Make the plural of things with ـَات and give it a feminine adjective"],
-  "realLife": { "emoji": "🍗", "title": "Dinner with the teacher", "story": "To celebrate Daniel's first weeks at the school, Mr Karim takes Daniel, Layla and Sami to a famous restaurant in Cairo. The menu is long, the cooks are famous, and Daniel, who doesn't eat much meat, has to find something vegetarian.", "photo": {"file": "day17.jpg", "alt": "An old restaurant on a downtown Alexandria street, with an Arabic sign, balconies above and a van parked outside.", "credit": {"title": "File:Mostafa Gad restaurant branch at Ahmed Oraby Square, Alexandria 01.jpg", "author": "Marsupium", "license": "CC BY 4.0", "source": "https://commons.wikimedia.org/wiki/File:Mostafa_Gad_restaurant_branch_at_Ahmed_Oraby_Square,_Alexandria_01.jpg", "accessed": "2026-11-11", "modified": "resized and re-encoded", "licenseUrl": "https://creativecommons.org/licenses/by/4.0"}} },
+  "realLife": { "emoji": "🍗", "title": "Dinner with the teacher", "story": "To celebrate Faisal's first weeks at the school, Mr Karim takes Faisal, Layla and Sami to a famous restaurant in Cairo. The menu is long, the cooks are famous, and Faisal, who doesn't eat much meat, has to find something vegetarian.", "photo": {"file": "day17.jpg", "alt": "An old restaurant on a downtown Alexandria street, with an Arabic sign, balconies above and a van parked outside.", "credit": {"title": "File:Mostafa Gad restaurant branch at Ahmed Oraby Square, Alexandria 01.jpg", "author": "Marsupium", "license": "CC BY 4.0", "source": "https://commons.wikimedia.org/wiki/File:Mostafa_Gad_restaurant_branch_at_Ahmed_Oraby_Square,_Alexandria_01.jpg", "accessed": "2026-11-11", "modified": "resized and re-encoded", "licenseUrl": "https://creativecommons.org/licenses/by/4.0"}} },
   "letters": [],
   "newWords": ["matam", "qaima", "dajaj", "lahm", "samak", "aruzz", "salata", "mashrub", "tabbakh", "hisab"],
   "grammar": ["sound-plurals"],
@@ -27,7 +27,7 @@
   ],
   "dialogue": {
     "title": "Dinner with Mr Karim",
-    "speakers": [ { "key": "waiter", "name": "Waiter", "nameAr": "النَّادِل" }, { "key": "karim", "name": "Mr Karim", "nameAr": "الْأُسْتَاذ كَرِيم" }, { "key": "layla", "name": "Layla", "nameAr": "لَيْلَى" }, { "key": "daniel", "name": "Daniel", "nameAr": "دَانْيَال" }, { "key": "sami", "name": "Sami", "nameAr": "سَامِي" } ],
+    "speakers": [ { "key": "waiter", "name": "Waiter", "nameAr": "النَّادِل" }, { "key": "karim", "name": "Mr Karim", "nameAr": "الْأُسْتَاذ كَرِيم" }, { "key": "layla", "name": "Layla", "nameAr": "لَيْلَى" }, { "key": "daniel", "name": "Faisal", "nameAr": "فَيْصَل" }, { "key": "sami", "name": "Sami", "nameAr": "سَامِي" } ],
     "culture": "Egyptian restaurants often bring bread, pickles and small salads to the table before the meal. Fish from the Red Sea and the Mediterranean is very popular. You call a waiter with لَوْ سَمَحْتَ, and whoever invites usually pays for everyone.",
     "lines": [
       { "id": "d17l1", "sp": "waiter", "ar": "مَسَاءُ الْخَيْر! طَاوِلَة لِأَرْبَعَة أَشْخَاص؟ تَفَضَّلُوا، هٰذِهِ الْقَائِمَة.", "en": "Good evening! A table for four people? Please sit down, here is the menu.",
@@ -70,9 +70,9 @@
   "quiz": [
     { "id": "d17q1", "prompt": "Which word is the plural of طَبَّاخ (cook)?", "options": ["طَبَّاخَة", "طَبَّاخُونَ", "طَبَق", "طَعَام"], "answer": 1 },
     { "id": "d17q2", "prompt": "What does this mean?", "ar": "الْقَائِمَة، مِنْ فَضْلِكَ.", "options": ["The bill, please.", "The table, please.", "Water, please.", "The menu, please."], "answer": 3 },
-    { "id": "d17q3", "prompt": "What does Daniel order?", "options": ["grilled chicken", "fish from the Red Sea", "stuffed vegetables", "grilled meat"], "answer": 2 },
+    { "id": "d17q3", "prompt": "What does Faisal order?", "options": ["grilled chicken", "fish from the Red Sea", "stuffed vegetables", "grilled meat"], "answer": 2 },
     { "id": "d17q4", "prompt": "Choose the correct sentence: 'The drinks are cold.'", "options": ["الْمَشْرُوبَات بَارِدُونَ.", "الْمَشْرُوبَات سَاخِنَة.", "الْمَشْرُوبَات بَارِدَة.", "الْمَشْرُوبَات بَارِد."], "answer": 2 },
-    { "id": "d17q5", "prompt": "Who pays for the dinner?", "options": ["Mr Karim", "Daniel", "Sami", "Layla"], "answer": 0 },
+    { "id": "d17q5", "prompt": "Who pays for the dinner?", "options": ["Mr Karim", "Faisal", "Sami", "Layla"], "answer": 0 },
     { "id": "d17q6", "prompt": "Which letter is an emphatic consonant?", "options": ["س", "ت", "د", "ط"], "answer": 3 },
     { "id": "d17q7", "prompt": "After a preposition, طَبَّاخُونَ becomes …", "options": ["طَبَّاخَات", "طَبَّاخِينَ", "طَبَّاخَة", "طَبَّاخ"], "answer": 1 }
   ],

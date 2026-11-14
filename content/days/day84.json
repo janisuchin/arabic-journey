@@ -23,7 +23,7 @@
   "realLife": {
     "emoji": "🌳",
     "title": "A presentation for a greener city",
-    "story": "It's the last lesson of the week, and Mr Karim wants every group to give a short presentation in Arabic. Sami's group has chosen 'A green city': Sami made the slides on his laptop, Layla wrote a formal letter to the mayor, and Daniel has to present the summary in front of the whole class. Then Mr Karim plays the audience and asks the hardest question he can think of.",
+    "story": "It's the last lesson of the week, and Mr Karim wants every group to give a short presentation in Arabic. Sami's group has chosen 'A green city': Sami made the slides on his laptop, Layla wrote a formal letter to the mayor, and Faisal has to present the summary in front of the whole class. Then Mr Karim plays the audience and asks the hardest question he can think of.",
     "photo": {"file": "day84.jpg", "alt": "Families sit on the grass in Al-Azhar Park with the domes and minarets of old Cairo on the horizon.", "credit": {"title": "File:Al-Azhar Park Cairo 01-2006.jpg", "author": "Błażej Pindor", "license": "CC BY 3.0", "source": "https://commons.wikimedia.org/wiki/File:Al-Azhar_Park_Cairo_01-2006.jpg", "accessed": "2026-11-11", "modified": "resized and re-encoded", "licenseUrl": "https://creativecommons.org/licenses/by/3.0"}}
   },
   "letters": [],
@@ -368,8 +368,8 @@
       },
       {
         "key": "daniel",
-        "name": "Daniel",
-        "nameAr": "دَانْيَال"
+        "name": "Faisal",
+        "nameAr": "فَيْصَل"
       }
     ],
     "culture": "In schools and universities across the Arab world, students often give short presentations, and they usually end with the polite formula شُكْرًا لِحُسْنِ الِاسْتِمَاع (thank you for listening, literally 'for the good listening'). Formal letters follow fixed formulas too: after the name comes تَحِيَّةً طَيِّبَةً وَبَعْدُ (kind greetings, and now to the point). In a debate, you show respect by giving a reason for every opinion.",
@@ -453,8 +453,8 @@
       {
         "id": "d84l2",
         "sp": "sami",
-        "ar": "نَحْنُ يَا أُسْتَاذ! مَوْضُوعُنَا «مَدِينَة خَضْرَاء». أَنَا أَعْدَدْتُ الشَّرَائِحَ عَلَى الْحَاسُوب، وَلَيْلَى كَتَبَتِ الرِّسَالَة، وَدَانْيَال سَيُقَدِّمُ الْمُلَخَّص.",
-        "en": "Us, sir! Our topic is 'A green city'. I prepared the slides on the computer, Layla wrote the letter, and Daniel will present the summary.",
+        "ar": "نَحْنُ يَا أُسْتَاذ! مَوْضُوعُنَا «مَدِينَة خَضْرَاء». أَنَا أَعْدَدْتُ الشَّرَائِحَ عَلَى الْحَاسُوب، وَلَيْلَى كَتَبَتِ الرِّسَالَة، وَفَيْصَل سَيُقَدِّمُ الْمُلَخَّص.",
+        "en": "Us, sir! Our topic is 'A green city'. I prepared the slides on the computer, Layla wrote the letter, and Faisal will present the summary.",
         "segs": [
           [
             "نَحْنُ",
@@ -514,8 +514,8 @@
             "the letter"
           ],
           [
-            "وَدَانْيَال",
-            "and Daniel (first name)",
+            "وَفَيْصَل",
+            "and Faisal (first name)",
             "name"
           ],
           [
@@ -1313,8 +1313,8 @@
       {
         "id": "d84l13",
         "sp": "karim",
-        "ar": "نِقَاش مُمْتَاز! هٰذَا هُوَ الْمُهِمُّ فِي النِّقَاش: رَأْي، ثُمَّ سَبَب، ثُمَّ مِثَال. وَالْآنَ يَا دَانْيَال، قَدِّمِ الْمُلَخَّصَ مِنْ فَضْلِكَ.",
-        "en": "An excellent debate! This is what matters in a debate: an opinion, then a reason, then an example. And now, Daniel, please present the summary.",
+        "ar": "نِقَاش مُمْتَاز! هٰذَا هُوَ الْمُهِمُّ فِي النِّقَاش: رَأْي، ثُمَّ سَبَب، ثُمَّ مِثَال. وَالْآنَ يَا فَيْصَل، قَدِّمِ الْمُلَخَّصَ مِنْ فَضْلِكَ.",
+        "en": "An excellent debate! This is what matters in a debate: an opinion, then a reason, then an example. And now, Faisal, please present the summary.",
         "segs": [
           [
             "نِقَاش",
@@ -1373,8 +1373,8 @@
             "O (calling someone)"
           ],
           [
-            "دَانْيَال",
-            "Daniel (first name)",
+            "فَيْصَل",
+            "Faisal (first name)",
             "name"
           ],
           [
@@ -1567,8 +1567,8 @@
   },
   "reading": {
     "title": "Review day in class",
-    "ar": "فِي آخِرِ يَوْمٍ مِنَ الْأُسْبُوعِ قَدَّمَتْ مَجْمُوعَةُ سَامِي تَقْدِيمًا عَنْ مَدِينَةٍ خَضْرَاء. قَالَتْ لَيْلَى إِنَّ الْمُشْكِلَةَ هِيَ التَّلَوُّث. وَعَرَضَ سَامِي شَرَائِحَ أُعِدَّتْ عَلَى الْحَاسُوب. وَفِي النِّقَاشِ قَالَ دَانْيَال إِنَّ الطُّرُقَ وَحْدَهَا لَيْسَتِ الْحَلّ. وَقَالَ الْأُسْتَاذ كَرِيم: إِذَا رَاجَعْتُمْ جَيِّدًا، نَجَحْتُمْ فِي الِامْتِحَان.",
-    "en": "On the last day of the week, Sami's group gave a presentation about a green city. Layla said that the problem is pollution. Sami showed slides that were prepared on the computer. In the debate, Daniel said that roads alone are not the solution. And Mr Karim said: If you revise well, you will pass the exam.",
+    "ar": "فِي آخِرِ يَوْمٍ مِنَ الْأُسْبُوعِ قَدَّمَتْ مَجْمُوعَةُ سَامِي تَقْدِيمًا عَنْ مَدِينَةٍ خَضْرَاء. قَالَتْ لَيْلَى إِنَّ الْمُشْكِلَةَ هِيَ التَّلَوُّث. وَعَرَضَ سَامِي شَرَائِحَ أُعِدَّتْ عَلَى الْحَاسُوب. وَفِي النِّقَاشِ قَالَ فَيْصَل إِنَّ الطُّرُقَ وَحْدَهَا لَيْسَتِ الْحَلّ. وَقَالَ الْأُسْتَاذ كَرِيم: إِذَا رَاجَعْتُمْ جَيِّدًا، نَجَحْتُمْ فِي الِامْتِحَان.",
+    "en": "On the last day of the week, Sami's group gave a presentation about a green city. Layla said that the problem is pollution. Sami showed slides that were prepared on the computer. In the debate, Faisal said that roads alone are not the solution. And Mr Karim said: If you revise well, you will pass the exam.",
     "segs": [
       [
         "فِي",
@@ -1682,8 +1682,8 @@
         "(he) said"
       ],
       [
-        "دَانْيَال",
-        "Daniel (first name)",
+        "فَيْصَل",
+        "Faisal (first name)",
         "name"
       ],
       [
@@ -1805,7 +1805,7 @@
       "prompt": "Who wrote the formal letter to the mayor?",
       "options": [
         "Sami",
-        "Daniel",
+        "Faisal",
         "Layla",
         "Mr Karim"
       ],

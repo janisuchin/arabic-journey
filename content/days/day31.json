@@ -23,7 +23,7 @@
   "realLife": {
     "emoji": "🧊",
     "title": "An empty fridge",
-    "story": "Daniel's flat came with a bed and a desk, but no fridge and no television. Layla, who has lived in Cairo for a year, comes over with a list of shops, and Sami brings an invitation: his family wants Daniel to come for lunch on Friday.",
+    "story": "Faisal's flat came with a bed and a desk, but no fridge and no television. Layla, who has lived in Cairo for a year, comes over with a list of shops, and Sami brings an invitation: his family wants Faisal to come for lunch on Friday.",
     "photo": {"file": "day31.jpg", "alt": "A tabby street cat under a wooden bench in a Cairo park, next to a fence.", "credit": {"title": "File:Street cat- Cairo -Egypt.jpg", "author": "Sara Adel Sayed", "license": "CC BY-SA 4.0", "source": "https://commons.wikimedia.org/wiki/File:Street_cat-_Cairo_-Egypt.jpg", "accessed": "2026-11-11", "modified": "resized and re-encoded", "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"}}
   },
   "letters": [],
@@ -266,8 +266,8 @@
       },
       {
         "key": "daniel",
-        "name": "Daniel",
-        "nameAr": "دَانْيَال"
+        "name": "Faisal",
+        "nameAr": "فَيْصَل"
       },
       {
         "key": "sami",
@@ -280,8 +280,8 @@
       {
         "id": "d31l1",
         "sp": "layla",
-        "ar": "مَرْحَبًا يَا دَانْيَال! أَنَا هُنَا مَعَ قَائِمَةِ الْمَحَلَّات. مَاذَا عِنْدَكَ فِي الشَّقَّة الْآن؟",
-        "en": "Hello, Daniel! I'm here with the list of shops. What do you have in the flat now?",
+        "ar": "مَرْحَبًا يَا فَيْصَل! أَنَا هُنَا مَعَ قَائِمَةِ الْمَحَلَّات. مَاذَا عِنْدَكَ فِي الشَّقَّة الْآن؟",
+        "en": "Hello, Faisal! I'm here with the list of shops. What do you have in the flat now?",
         "segs": [
           [
             "مَرْحَبًا",
@@ -292,8 +292,8 @@
             "O (calling someone)"
           ],
           [
-            "دَانْيَال",
-            "Daniel (first name)",
+            "فَيْصَل",
+            "Faisal (first name)",
             "name"
           ],
           [
@@ -655,8 +655,8 @@
       {
         "id": "d31l8",
         "sp": "sami",
-        "ar": "السَّلَامُ عَلَيْكُمْ! الْبَاب مَفْتُوح… هَلْ مَعَكَ مِفْتَاحُكَ يَا دَانْيَال؟",
-        "en": "Peace be upon you! The door is open… do you have your key on you, Daniel?",
+        "ar": "السَّلَامُ عَلَيْكُمْ! الْبَاب مَفْتُوح… هَلْ مَعَكَ مِفْتَاحُكَ يَا فَيْصَل؟",
+        "en": "Peace be upon you! The door is open… do you have your key on you, Faisal?",
         "segs": [
           [
             "السَّلَامُ",
@@ -691,8 +691,8 @@
             "O (calling someone)"
           ],
           [
-            "دَانْيَال",
-            "Daniel (first name)",
+            "فَيْصَل",
+            "Faisal (first name)",
             "name"
           ]
         ]
@@ -918,8 +918,8 @@
       {
         "id": "d31l13",
         "sp": "layla",
-        "ar": "قِطَّة؟ مِثْلِي! يَا دَانْيَال، عِنْدَ سَامِي عَائِلَة كَبِيرَة، وَأَنْتَ لَيْسَ عِنْدَكَ حَتَّى ثَلَّاجَة!",
-        "en": "A cat? Just like me! Daniel, Sami has a big family, and you don't even have a fridge!",
+        "ar": "قِطَّة؟ مِثْلِي! يَا فَيْصَل، عِنْدَ سَامِي عَائِلَة كَبِيرَة، وَأَنْتَ لَيْسَ عِنْدَكَ حَتَّى ثَلَّاجَة!",
+        "en": "A cat? Just like me! Faisal, Sami has a big family, and you don't even have a fridge!",
         "segs": [
           [
             "قِطَّة",
@@ -934,8 +934,8 @@
             "O (calling someone)"
           ],
           [
-            "دَانْيَال",
-            "Daniel (first name)",
+            "فَيْصَل",
+            "Faisal (first name)",
             "name"
           ],
           [
@@ -1034,16 +1034,16 @@
   },
   "reading": {
     "title": "Who has what?",
-    "ar": "عِنْدَ دَانْيَال شَقَّة صَغِيرَة. فِي الشَّقَّة سَرِير وَمَكْتَب، لٰكِنْ لَيْسَ فِيهَا ثَلَّاجَة. لِلَيْلَى قِطَّة اسْمُهَا لُولُو، وَلِسَامِي أَخ وَأُخْت.",
-    "en": "Daniel has a small flat. In the flat there is a bed and a desk, but there is no fridge. Layla has a cat called Lulu, and Sami has a brother and a sister.",
+    "ar": "عِنْدَ فَيْصَل شَقَّة صَغِيرَة. فِي الشَّقَّة سَرِير وَمَكْتَب، لٰكِنْ لَيْسَ فِيهَا ثَلَّاجَة. لِلَيْلَى قِطَّة اسْمُهَا لُولُو، وَلِسَامِي أَخ وَأُخْت.",
+    "en": "Faisal has a small flat. In the flat there is a bed and a desk, but there is no fridge. Layla has a cat called Lulu, and Sami has a brother and a sister.",
     "segs": [
       [
         "عِنْدَ",
-        "at: (Daniel) has"
+        "at: (Faisal) has"
       ],
       [
-        "دَانْيَال",
-        "Daniel (first name)",
+        "فَيْصَل",
+        "Faisal (first name)",
         "name"
       ],
       [
@@ -1178,13 +1178,13 @@
         "Nour",
         "Omar",
         "Lulu",
-        "Emma"
+        "Lubna"
       ],
       "answer": 2
     },
     {
       "id": "d31q6",
-      "prompt": "Who invites Daniel to lunch on Friday?",
+      "prompt": "Who invites Faisal to lunch on Friday?",
       "options": [
         "Sami's mother",
         "Layla",

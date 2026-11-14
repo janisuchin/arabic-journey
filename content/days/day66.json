@@ -17,7 +17,7 @@
   ],
   "emoji": "📞",
   "summary": "Answer the office phone, take a message, and say who is away, travelling or coming back with the active participle: مُسَافِر، ذَاهِب، عَائِد.",
-  "intro": "Mrs Huda is travelling, and Daniel has to answer the office phone. To say what someone is doing right now, Arabic often uses the active participle, which works like an adjective: هِيَ مُسَافِرَة (she is travelling), أَنَا ذَاهِب (I'm going), هُوَ عَائِد غَدًا (he's coming back tomorrow). It agrees with the person: ذَاهِب for a man, ذَاهِبَة for a woman.",
+  "intro": "Mrs Huda is travelling, and Faisal has to answer the office phone. To say what someone is doing right now, Arabic often uses the active participle, which works like an adjective: هِيَ مُسَافِرَة (she is travelling), أَنَا ذَاهِب (I'm going), هُوَ عَائِد غَدًا (he's coming back tomorrow). It agrees with the person: ذَاهِب for a man, ذَاهِبَة for a woman.",
   "objectives": [
     "Answer the phone and say who is speaking",
     "Say that someone is away, travelling or coming back with active participles",
@@ -27,7 +27,7 @@
   "realLife": {
     "emoji": "☎️",
     "title": "The office phone",
-    "story": "Every phone in the office seems to ring at the same time. Daniel's hands shake the first time he picks one up, but the caller is patient and speaks clearly. Daniel writes the message on a yellow note, puts it on the manager's desk and sends her a text as well, just in case.",
+    "story": "Every phone in the office seems to ring at the same time. Faisal's hands shake the first time he picks one up, but the caller is patient and speaks clearly. Faisal writes the message on a yellow note, puts it on the manager's desk and sends her a text as well, just in case.",
     "photo": {"file": "day66.jpg", "alt": "An old black-and-white photograph of a man at an office desk with a telephone and papers.", "credit": {"title": "File:Office, desk, telephone Fortepan 8191.jpg", "author": "Fortepan (donor unknown)", "license": "Public domain", "source": "https://commons.wikimedia.org/wiki/File:Office,_desk,_telephone_Fortepan_8191.jpg", "accessed": "2026-11-11", "modified": "resized and re-encoded"}}
   },
   "letters": [],
@@ -229,8 +229,8 @@
     "speakers": [
       {
         "key": "daniel",
-        "name": "Daniel",
-        "nameAr": "دَانْيَال"
+        "name": "Faisal",
+        "nameAr": "فَيْصَل"
       },
       {
         "key": "adel",
@@ -248,8 +248,8 @@
       {
         "id": "d66l1",
         "sp": "daniel",
-        "ar": "آلُو، شَرِكَةُ النِّيل لِلتَّرْجَمَة، صَبَاحُ الْخَيْر. مَعَكَ دَانْيَال، كَيْفَ يُمْكِنُنِي أَنْ أُسَاعِدَكَ؟",
-        "en": "Hello, Nile Translation Company, good morning. Daniel speaking, how can I help you?",
+        "ar": "آلُو، شَرِكَةُ النِّيل لِلتَّرْجَمَة، صَبَاحُ الْخَيْر. مَعَكَ فَيْصَل، كَيْفَ يُمْكِنُنِي أَنْ أُسَاعِدَكَ؟",
+        "en": "Hello, Nile Translation Company, good morning. Faisal speaking, how can I help you?",
         "segs": [
           [
             "آلُو",
@@ -281,8 +281,8 @@
             "with you (to a man): '… speaking'"
           ],
           [
-            "دَانْيَال",
-            "Daniel (first name)",
+            "فَيْصَل",
+            "Faisal (first name)",
             "name"
           ],
           [
@@ -926,8 +926,8 @@
       {
         "id": "d66l12",
         "sp": "tariq",
-        "ar": "مَنِ اتَّصَلَ يَا دَانْيَال؟ وَلِمَاذَا أَنْتَ ذَاهِب إِلَى مَكْتَبِ الْمُدِيرَة وَهِيَ مُسَافِرَة؟",
-        "en": "Who called, Daniel? And why are you going to the manager's office when she's away travelling?",
+        "ar": "مَنِ اتَّصَلَ يَا فَيْصَل؟ وَلِمَاذَا أَنْتَ ذَاهِب إِلَى مَكْتَبِ الْمُدِيرَة وَهِيَ مُسَافِرَة؟",
+        "en": "Who called, Faisal? And why are you going to the manager's office when she's away travelling?",
         "segs": [
           [
             "مَنِ",
@@ -942,8 +942,8 @@
             "O (calling someone)"
           ],
           [
-            "دَانْيَال",
-            "Daniel (first name)",
+            "فَيْصَل",
+            "Faisal (first name)",
             "name"
           ],
           [
@@ -1109,8 +1109,8 @@
   },
   "reading": {
     "title": "A note on the manager's desk",
-    "ar": "رِسَالَة لِلسَّيِّدَة هُدَى: اِتَّصَلَ الْأُسْتَاذ عَادِل مِنْ شَرِكَةِ السِّيَاحَة صَبَاحَ الْيَوْم. هُوَ يُرِيدُ التَّرْجَمَة يَوْمَ الْخَمِيس، لَا يَوْمَ الْأَحَد. رَقْمُ هَاتِفِهِ عِنْدَكِ، وَهُوَ يَنْتَظِرُ اتِّصَالَكِ غَدًا. دَانْيَال، الْمُتَدَرِّب.",
-    "en": "A message for Mrs Huda: Mr Adel from the tourism company called this morning. He wants the translation on Thursday, not on Sunday. You have his phone number, and he is waiting for your call tomorrow. Daniel, the intern.",
+    "ar": "رِسَالَة لِلسَّيِّدَة هُدَى: اِتَّصَلَ الْأُسْتَاذ عَادِل مِنْ شَرِكَةِ السِّيَاحَة صَبَاحَ الْيَوْم. هُوَ يُرِيدُ التَّرْجَمَة يَوْمَ الْخَمِيس، لَا يَوْمَ الْأَحَد. رَقْمُ هَاتِفِهِ عِنْدَكِ، وَهُوَ يَنْتَظِرُ اتِّصَالَكِ غَدًا. فَيْصَل، الْمُتَدَرِّب.",
+    "en": "A message for Mrs Huda: Mr Adel from the tourism company called this morning. He wants the translation on Thursday, not on Sunday. You have his phone number, and he is waiting for your call tomorrow. Faisal, the intern.",
     "segs": [
       [
         "رِسَالَة",
@@ -1219,8 +1219,8 @@
         "tomorrow"
       ],
       [
-        "دَانْيَال",
-        "Daniel (first name)",
+        "فَيْصَل",
+        "Faisal (first name)",
         "name"
       ],
       [
@@ -1297,7 +1297,7 @@
     },
     {
       "id": "d66q6",
-      "prompt": "What does Daniel mean when he says حَاضِر on the phone?",
+      "prompt": "What does Faisal mean when he says حَاضِر on the phone?",
       "options": [
         "I'm absent",
         "goodbye",
@@ -1318,6 +1318,6 @@
       "answer": 1
     }
   ],
-  "completion": "Great! You can answer the phone, take a message and use participles like مُسَافِر and عَائِد. Next, Daniel writes his first formal email in Arabic.",
+  "completion": "Great! You can answer the phone, take a message and use participles like مُسَافِر and عَائِد. Next, Faisal writes his first formal email in Arabic.",
   "status": "needs-review"
 }

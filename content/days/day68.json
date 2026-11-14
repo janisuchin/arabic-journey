@@ -27,7 +27,7 @@
   "realLife": {
     "emoji": "🔍",
     "title": "Detective work with roots",
-    "story": "Daniel starts a game on the metro: he reads every sign and hunts for the three root letters. مَطْعَم (restaurant) has ط ع م, like طَعَام (food); مَكْتَبَة (library) has ك ت ب, like كِتَاب (book). By the time he reaches the school, he has guessed six new words.",
+    "story": "Faisal starts a game on the metro: he reads every sign and hunts for the three root letters. مَطْعَم (restaurant) has ط ع م, like طَعَام (food); مَكْتَبَة (library) has ك ت ب, like كِتَاب (book). By the time he reaches the school, he has guessed six new words.",
     "photo": {"file": "day68.jpg", "alt": "Three reed pens for Arabic calligraphy, cut at the tip and stained with ink, laid side by side.", "credit": {"title": "File:Qalam2.jpg", "author": "Baba66", "license": "CC BY 2.5", "source": "https://commons.wikimedia.org/wiki/File:Qalam2.jpg", "accessed": "2026-11-11", "modified": "resized and re-encoded", "licenseUrl": "https://creativecommons.org/licenses/by/2.5"}}
   },
   "letters": [],
@@ -293,8 +293,8 @@
       },
       {
         "key": "daniel",
-        "name": "Daniel",
-        "nameAr": "دَانْيَال"
+        "name": "Faisal",
+        "nameAr": "فَيْصَل"
       },
       {
         "key": "layla",
@@ -1153,8 +1153,8 @@
       {
         "id": "d68l15",
         "sp": "karim",
-        "ar": "مُمْتَاز يَا دَانْيَال! أَنْتَ تَتَعَلَّمُ بِسُرْعَة. الْوَاجِب لِلْجَمِيع: اُكْتُبُوا عَشَرَةَ أَفْعَال جَدِيدَة مَعَ جُذُورِهَا.",
-        "en": "Excellent, Daniel! You're learning fast. Homework for everyone: write ten new verbs together with their roots.",
+        "ar": "مُمْتَاز يَا فَيْصَل! أَنْتَ تَتَعَلَّمُ بِسُرْعَة. الْوَاجِب لِلْجَمِيع: اُكْتُبُوا عَشَرَةَ أَفْعَال جَدِيدَة مَعَ جُذُورِهَا.",
+        "en": "Excellent, Faisal! You're learning fast. Homework for everyone: write ten new verbs together with their roots.",
         "segs": [
           [
             "مُمْتَاز",
@@ -1165,8 +1165,8 @@
             "O (calling someone)"
           ],
           [
-            "دَانْيَال",
-            "Daniel (first name)",
+            "فَيْصَل",
+            "Faisal (first name)",
             "name"
           ],
           [
@@ -1458,6 +1458,6 @@
       "answer": 2
     }
   ],
-  "completion": "Brilliant! You can find the root of a word and recognise the main verb patterns. Tomorrow Daniel and Tariq start a language exchange: learning and teaching.",
+  "completion": "Brilliant! You can find the root of a word and recognise the main verb patterns. Tomorrow Faisal and Tariq start a language exchange: learning and teaching.",
   "status": "needs-review"
 }

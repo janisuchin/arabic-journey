@@ -17,7 +17,7 @@
   ],
   "emoji": "🗣️",
   "summary": "Report what other people said with قَالَ إِنَّ… and أَخْبَرَنِي أَنَّ…, report a question with سَأَلَ, and change the pronouns as in English.",
-  "intro": "Layla missed class today, so Daniel tells her on the phone what everyone said. After قَالَ (said) Arabic uses إِنَّ, with i: قَالَ الْأُسْتَاذُ إِنَّ الدَّرْسَ سَهْل (the teacher said that the lesson was easy). After other verbs, such as أَخْبَرَ (told) or سَمِعَ (heard), it uses أَنَّ, with a. The speaker's 'I' becomes 'he' or 'she', as in English, but Arabic keeps the speaker's tense: قَالَتْ إِنَّهَا مَرِيضَة means 'she said that she was ill'. A reported yes/no question can use هَلْ: سَأَلَنِي هَلْ فَهِمْتُ (he asked me whether I had understood), as in the press; careful writing prefers إِنْ + كَانَ: سَأَلَنِي إِنْ كُنْتُ فَهِمْتُ.",
+  "intro": "Layla missed class today, so Faisal tells her on the phone what everyone said. After قَالَ (said) Arabic uses إِنَّ, with i: قَالَ الْأُسْتَاذُ إِنَّ الدَّرْسَ سَهْل (the teacher said that the lesson was easy). After other verbs, such as أَخْبَرَ (told) or سَمِعَ (heard), it uses أَنَّ, with a. The speaker's 'I' becomes 'he' or 'she', as in English, but Arabic keeps the speaker's tense: قَالَتْ إِنَّهَا مَرِيضَة means 'she said that she was ill'. A reported yes/no question can use هَلْ: سَأَلَنِي هَلْ فَهِمْتُ (he asked me whether I had understood), as in the press; careful writing prefers إِنْ + كَانَ: سَأَلَنِي إِنْ كُنْتُ فَهِمْتُ.",
   "objectives": [
     "Report a statement with قَالَ إِنَّ… and قَالَتْ إِنَّ…",
     "Use أَنَّ after أَخْبَرَ, سَمِعَ and عَرَفَ",
@@ -27,7 +27,7 @@
   "realLife": {
     "emoji": "📞",
     "title": "A phone call after class",
-    "story": "Layla wakes up with a bad cold and stays at home. In the evening she phones Daniel: what did Mr Karim say, what is the homework, and is there really a test on Sunday? Daniel has his notebook open and reports everything, almost word for word.",
+    "story": "Layla wakes up with a bad cold and stays at home. In the evening she phones Faisal: what did Mr Karim say, what is the homework, and is there really a test on Sunday? Faisal has his notebook open and reports everything, almost word for word.",
     "photo": {"file": "day75.jpg", "alt": "A hand holding a black smartphone, with a plant in the background.", "credit": {"title": "File:Black smartphone in hand (Unsplash).jpg", "author": "Dennis Cortés cortes", "license": "CC0", "source": "https://commons.wikimedia.org/wiki/File:Black_smartphone_in_hand_(Unsplash).jpg", "accessed": "2026-11-11", "modified": "resized and re-encoded", "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"}}
   },
   "letters": [],
@@ -259,8 +259,8 @@
     "speakers": [
       {
         "key": "daniel",
-        "name": "Daniel",
-        "nameAr": "دَانْيَال"
+        "name": "Faisal",
+        "nameAr": "فَيْصَل"
       },
       {
         "key": "layla",
@@ -335,8 +335,8 @@
       {
         "id": "d75l2",
         "sp": "layla",
-        "ar": "نَعَم، عِنْدِي زُكَام، لٰكِنِّي أَحْسَن الْآنَ. يَا دَانْيَال، أَخْبِرْنِي: مَاذَا قَالَ الْأُسْتَاذ كَرِيم الْيَوْمَ؟",
-        "en": "Yes, I have a cold, but I'm better now. Daniel, tell me: what did Mr Karim say today?",
+        "ar": "نَعَم، عِنْدِي زُكَام، لٰكِنِّي أَحْسَن الْآنَ. يَا فَيْصَل، أَخْبِرْنِي: مَاذَا قَالَ الْأُسْتَاذ كَرِيم الْيَوْمَ؟",
+        "en": "Yes, I have a cold, but I'm better now. Faisal, tell me: what did Mr Karim say today?",
         "segs": [
           [
             "نَعَم",
@@ -367,8 +367,8 @@
             "O (calling someone)"
           ],
           [
-            "دَانْيَال",
-            "Daniel (first name)",
+            "فَيْصَل",
+            "Faisal (first name)",
             "name"
           ],
           [
@@ -1108,8 +1108,8 @@
       {
         "id": "d75l14",
         "sp": "layla",
-        "ar": "أَنْتَ تَتَعَلَّمُ بِسُرْعَة يَا دَانْيَال! شُكْرًا عَلَى كُلِّ الْأَخْبَار، وَأَرَاكَ يَوْمَ الْخَمِيس إِنْ شَاءَ اللّٰه.",
-        "en": "You learn fast, Daniel! Thanks for all the news, and I'll see you on Thursday, God willing.",
+        "ar": "أَنْتَ تَتَعَلَّمُ بِسُرْعَة يَا فَيْصَل! شُكْرًا عَلَى كُلِّ الْأَخْبَار، وَأَرَاكَ يَوْمَ الْخَمِيس إِنْ شَاءَ اللّٰه.",
+        "en": "You learn fast, Faisal! Thanks for all the news, and I'll see you on Thursday, God willing.",
         "segs": [
           [
             "أَنْتَ",
@@ -1128,8 +1128,8 @@
             "O (calling someone)"
           ],
           [
-            "دَانْيَال",
-            "Daniel (first name)",
+            "فَيْصَل",
+            "Faisal (first name)",
             "name"
           ],
           [
@@ -1177,7 +1177,7 @@
     ]
   },
   "reading": {
-    "title": "Daniel's homework",
+    "title": "Faisal's homework",
     "ar": "قَالَ سَامِي إِنَّ الْأَهْلِي أَحْسَنُ فَرِيق فِي مِصْر. قَالَتْ لَيْلَى إِنَّ الْوَاجِبَ سَهْل. أَخْبَرَنِي يُوسُف أَنَّهُ سَيَزُورُ الْقَاهِرَة. سَأَلَنِي الْأُسْتَاذ كَرِيم هَلْ لَيْلَى بِخَيْر. وَعَدَ الْأُسْتَاذ أَنْ يُرَاجِعَ مَعَنَا كُلَّ شَيْء.",
     "en": "Sami said that Al Ahly was the best team in Egypt. Layla said that the homework was easy. Yusuf told me that he would visit Cairo. Mr Karim asked me whether Layla was well. The teacher promised to go over everything with us.",
     "segs": [

@@ -23,7 +23,7 @@
   "realLife": {
     "emoji": "🧓",
     "title": "Grandfather's sayings",
-    "story": "Sami's grandfather answers almost every question with a proverb. When Omar complains about his homework, he hears one about hard work; when the bus is late, everybody hears one about patience. Sami has written ten of them on a piece of paper for today's class, and Daniel has brought one from Chicago.",
+    "story": "Sami's grandfather answers almost every question with a proverb. When Omar complains about his homework, he hears one about hard work; when the bus is late, everybody hears one about patience. Sami has written ten of them on a piece of paper for today's class, and Faisal has brought one from Chicago.",
     "photo": {"file": "day77.jpg", "alt": "A page of old Arabic calligraphy in a decorated red border, from a manuscript.", "credit": {"title": "File:Naskh.jpg", "author": "Unknown Calligrapher", "license": "Public domain", "source": "https://commons.wikimedia.org/wiki/File:Naskh.jpg", "accessed": "2026-11-11", "modified": "resized and re-encoded"}}
   },
   "letters": [],
@@ -246,8 +246,8 @@
       },
       {
         "key": "daniel",
-        "name": "Daniel",
-        "nameAr": "دَانْيَال"
+        "name": "Faisal",
+        "nameAr": "فَيْصَل"
       },
       {
         "key": "layla",
@@ -795,8 +795,8 @@
       {
         "id": "d77l9",
         "sp": "karim",
-        "ar": "صَحِيح. وَمِثْلُهُ: «مَنْ زَرَعَ حَصَدَ». الْفِعْل فِي الْمَاضِي، لٰكِنَّ الْمَعْنَى صَحِيح دَائِمًا. وَأَنْتَ يَا دَانْيَال، هَلْ عِنْدَكَ مَثَل مِنْ أَمْرِيكَا؟",
-        "en": "Right. And another one like it: 'whoever sows, reaps'. The verb is in the past, but the meaning is always true. And you, Daniel, do you have a proverb from America?",
+        "ar": "صَحِيح. وَمِثْلُهُ: «مَنْ زَرَعَ حَصَدَ». الْفِعْل فِي الْمَاضِي، لٰكِنَّ الْمَعْنَى صَحِيح دَائِمًا. وَأَنْتَ يَا فَيْصَل، هَلْ عِنْدَكَ مَثَل مِنْ أَمْرِيكَا؟",
+        "en": "Right. And another one like it: 'whoever sows, reaps'. The verb is in the past, but the meaning is always true. And you, Faisal, do you have a proverb from America?",
         "segs": [
           [
             "صَحِيح",
@@ -855,8 +855,8 @@
             "O (calling someone)"
           ],
           [
-            "دَانْيَال",
-            "Daniel (first name)",
+            "فَيْصَل",
+            "Faisal (first name)",
             "name"
           ],
           [
@@ -1287,8 +1287,8 @@
   },
   "reading": {
     "title": "Proverbs in class",
-    "ar": "فِي دَرْسِ الْيَوْمِ تَعَلَّمَ الطُّلَّابُ أَمْثَالًا عَرَبِيَّة. قَالَ سَامِي إِنَّ جَدَّهُ يَقُولُ دَائِمًا: الصَّبْرُ مِفْتَاحُ الْفَرَجِ. وَقَالَتْ لَيْلَى إِنَّ الْجَارَ أَهَمُّ مِنَ الدَّار. أَمَّا دَانْيَال فَتَعَلَّمَ مَثَلًا عَنِ الصَّدِيقِ الَّذِي يُسَاعِدُ فِي الْوَقْتِ الصَّعْب. وَفِي رَأْيِ الْأُسْتَاذ كَرِيم، أَحْسَنُ مَثَل هُوَ: مَنْ جَدَّ وَجَدَ.",
-    "en": "In today's lesson the students learned Arabic proverbs. Sami said that his grandfather always says: Patience is the key to relief. Layla said that the neighbour is more important than the house. As for Daniel, he learned a proverb about the friend who helps in hard times. And in Mr Karim's opinion, the best proverb is: Whoever works hard succeeds.",
+    "ar": "فِي دَرْسِ الْيَوْمِ تَعَلَّمَ الطُّلَّابُ أَمْثَالًا عَرَبِيَّة. قَالَ سَامِي إِنَّ جَدَّهُ يَقُولُ دَائِمًا: الصَّبْرُ مِفْتَاحُ الْفَرَجِ. وَقَالَتْ لَيْلَى إِنَّ الْجَارَ أَهَمُّ مِنَ الدَّار. أَمَّا فَيْصَل فَتَعَلَّمَ مَثَلًا عَنِ الصَّدِيقِ الَّذِي يُسَاعِدُ فِي الْوَقْتِ الصَّعْب. وَفِي رَأْيِ الْأُسْتَاذ كَرِيم، أَحْسَنُ مَثَل هُوَ: مَنْ جَدَّ وَجَدَ.",
+    "en": "In today's lesson the students learned Arabic proverbs. Sami said that his grandfather always says: Patience is the key to relief. Layla said that the neighbour is more important than the house. As for Faisal, he learned a proverb about the friend who helps in hard times. And in Mr Karim's opinion, the best proverb is: Whoever works hard succeeds.",
     "segs": [
       [
         "فِي",
@@ -1389,8 +1389,8 @@
         "as for"
       ],
       [
-        "دَانْيَال",
-        "Daniel (first name)",
+        "فَيْصَل",
+        "Faisal (first name)",
         "name"
       ],
       [

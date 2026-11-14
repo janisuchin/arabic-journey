@@ -23,7 +23,7 @@
   "realLife": {
     "emoji": "🔧",
     "title": "A cracked screen",
-    "story": "On the crowded metro home from class, Daniel's phone slips out of his hand and lands face down: the screen is cracked from corner to corner. Without maps or messages he walks to Sami's flat, where he finds a family argument already in full swing. Omar has spent the whole afternoon on a game app, and Umm Sami has had enough.",
+    "story": "On the crowded metro home from class, Faisal's phone slips out of his hand and lands face down: the screen is cracked from corner to corner. Without maps or messages he walks to Sami's flat, where he finds a family argument already in full swing. Omar has spent the whole afternoon on a game app, and Umm Sami has had enough.",
     "photo": {"file": "day79.jpg", "alt": "A close-up of a smartphone with a cracked screen leaning against a window.", "credit": {"title": "File:Smartphone cracked screen.jpg", "author": "Sygmoral", "license": "CC BY-SA 4.0", "source": "https://commons.wikimedia.org/wiki/File:Smartphone_cracked_screen.jpg", "accessed": "2026-11-11", "modified": "resized and re-encoded", "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"}}
   },
   "letters": [],
@@ -350,8 +350,8 @@
     "speakers": [
       {
         "key": "daniel",
-        "name": "Daniel",
-        "nameAr": "دَانْيَال"
+        "name": "Faisal",
+        "nameAr": "فَيْصَل"
       },
       {
         "key": "sami",
@@ -559,8 +559,8 @@
       {
         "id": "d79l4",
         "sp": "fatima",
-        "ar": "أَهْلًا يَا دَانْيَال! هُنَاكَ مَحَلّ قَرِيب يُصَلِّحُ الْهَوَاتِف. صَاحِبُهُ جَارُنَا، وَهُوَ مَاهِر جِدًّا.",
-        "en": "Welcome, Daniel! There's a shop nearby that repairs phones. The owner is our neighbour, and he's very good at his work.",
+        "ar": "أَهْلًا يَا فَيْصَل! هُنَاكَ مَحَلّ قَرِيب يُصَلِّحُ الْهَوَاتِف. صَاحِبُهُ جَارُنَا، وَهُوَ مَاهِر جِدًّا.",
+        "en": "Welcome, Faisal! There's a shop nearby that repairs phones. The owner is our neighbour, and he's very good at his work.",
         "segs": [
           [
             "أَهْلًا",
@@ -571,8 +571,8 @@
             "O (calling someone)"
           ],
           [
-            "دَانْيَال",
-            "Daniel (first name)",
+            "فَيْصَل",
+            "Faisal (first name)",
             "name"
           ],
           [
@@ -1427,8 +1427,8 @@
   },
   "reading": {
     "title": "A family rule",
-    "ar": "اِنْكَسَرَتْ شَاشَةُ هَاتِفِ دَانْيَال فِي الْمِتْرُو، فَذَهَبَ إِلَى بَيْتِ سَامِي. تَكَلَّمَتِ الْعَائِلَة عَنِ اسْتِخْدَامِ الشَّاشَات. يَقْضِي عُمَر خَمْسَ سَاعَات كُلَّ يَوْم عَلَى تَطْبِيقِ أَلْعَاب. فِي النِّهَايَة اتَّفَقَتِ الْعَائِلَة عَلَى قَاعِدَة: سَاعَتَانِ فِي الْيَوْم لِعُمَر، وَلَا هَوَاتِف عَلَى طَاوِلَةِ الْعَشَاء. وَغَدًا سَيَذْهَبُ دَانْيَال إِلَى مَحَلِّ الْجَار.",
-    "en": "The screen of Daniel's phone broke in the metro, so he went to Sami's house. The family talked about using screens. Omar spends five hours every day on a games app. In the end the family agreed on a rule: two hours a day for Omar, and no phones at the dinner table. And tomorrow Daniel will go to the neighbour's shop.",
+    "ar": "اِنْكَسَرَتْ شَاشَةُ هَاتِفِ فَيْصَل فِي الْمِتْرُو، فَذَهَبَ إِلَى بَيْتِ سَامِي. تَكَلَّمَتِ الْعَائِلَة عَنِ اسْتِخْدَامِ الشَّاشَات. يَقْضِي عُمَر خَمْسَ سَاعَات كُلَّ يَوْم عَلَى تَطْبِيقِ أَلْعَاب. فِي النِّهَايَة اتَّفَقَتِ الْعَائِلَة عَلَى قَاعِدَة: سَاعَتَانِ فِي الْيَوْم لِعُمَر، وَلَا هَوَاتِف عَلَى طَاوِلَةِ الْعَشَاء. وَغَدًا سَيَذْهَبُ فَيْصَل إِلَى مَحَلِّ الْجَار.",
+    "en": "The screen of Faisal's phone broke in the metro, so he went to Sami's house. The family talked about using screens. Omar spends five hours every day on a games app. In the end the family agreed on a rule: two hours a day for Omar, and no phones at the dinner table. And tomorrow Faisal will go to the neighbour's shop.",
     "segs": [
       [
         "اِنْكَسَرَتْ",
@@ -1443,8 +1443,8 @@
         "phone (of)"
       ],
       [
-        "دَانْيَال",
-        "Daniel (first name)",
+        "فَيْصَل",
+        "Faisal (first name)",
         "name"
       ],
       [
@@ -1599,8 +1599,8 @@
         "(he) will go"
       ],
       [
-        "دَانْيَال",
-        "Daniel (first name)",
+        "فَيْصَل",
+        "Faisal (first name)",
         "name"
       ],
       [
@@ -1640,7 +1640,7 @@
     },
     {
       "id": "d79q2",
-      "prompt": "Where did Daniel's phone fall?",
+      "prompt": "Where did Faisal's phone fall?",
       "options": [
         "at the sports club",
         "at Sami's house",

@@ -57,6 +57,8 @@ export interface Settings {
   readAloudOnTap: boolean;
   speechRate: number;
   slowRate: number;
+  /** chosen Arabic voice (device / browser voice id); null = the best voice found automatically */
+  voiceId: string | null;
   passMark: number;
   unlockAll: boolean;
   reminders: boolean;
@@ -75,6 +77,7 @@ export const DEFAULT_SETTINGS: Settings = {
   readAloudOnTap: true,
   speechRate: 0.9,
   slowRate: 0.55,
+  voiceId: null,
   passMark: DEFAULT_PASS_MARK,
   unlockAll: UNLOCK_ALL_EDITION,
   reminders: false,

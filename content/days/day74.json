@@ -17,7 +17,7 @@
   ],
   "emoji": "📚",
   "summary": "Describe people and things with who, which and that: الَّذِي, الَّتِي and الَّذِينَ, and talk about books, writers and prizes.",
-  "intro": "Daniel and Layla go to a book fair. To say 'the man who…' or 'the book that…', Arabic uses a relative word that agrees with the noun before it: الَّذِي after a masculine noun, الَّتِي after a feminine noun or a plural of things, and الَّذِينَ after a group of people. It is used only after a noun with 'the': الْكَاتِبُ الَّذِي أَخَذَ الْجَائِزَة (the writer who won the prize). After a noun without 'the' there is no relative word: عِنْدِي صَدِيق يَكْتُبُ قِصَصًا (I have a friend who writes stories).",
+  "intro": "Faisal and Layla go to a book fair. To say 'the man who…' or 'the book that…', Arabic uses a relative word that agrees with the noun before it: الَّذِي after a masculine noun, الَّتِي after a feminine noun or a plural of things, and الَّذِينَ after a group of people. It is used only after a noun with 'the': الْكَاتِبُ الَّذِي أَخَذَ الْجَائِزَة (the writer who won the prize). After a noun without 'the' there is no relative word: عِنْدِي صَدِيق يَكْتُبُ قِصَصًا (I have a friend who writes stories).",
   "objectives": [
     "Join two sentences with الَّذِي, الَّتِي and الَّذِينَ",
     "Choose the right relative word for a man, a woman, things and people",
@@ -27,7 +27,7 @@
   "realLife": {
     "emoji": "📚",
     "title": "A fair full of books",
-    "story": "Every winter the Cairo Book Fair fills huge halls with publishers from all over the Arab world, and families arrive with empty bags and leave with full ones. Daniel wants a novel that is not too difficult; Layla wants a book by a woman writer from Beirut. An old bookseller with a white beard seems to know every book in his corner.",
+    "story": "Every winter the Cairo Book Fair fills huge halls with publishers from all over the Arab world, and families arrive with empty bags and leave with full ones. Faisal wants a novel that is not too difficult; Layla wants a book by a woman writer from Beirut. An old bookseller with a white beard seems to know every book in his corner.",
     "photo": {"file": "day74.jpg", "alt": "A crowd at an outdoor stage during the Cairo International Book Fair, with modern halls behind.", "credit": {"title": "File:Cairo International Book Fair 2026 30.jpg", "author": "أحمد ناجي", "license": "CC BY-SA 4.0", "source": "https://commons.wikimedia.org/wiki/File:Cairo_International_Book_Fair_2026_30.jpg", "accessed": "2026-11-11", "modified": "resized and re-encoded", "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"}}
   },
   "letters": [],
@@ -276,8 +276,8 @@
       },
       {
         "key": "daniel",
-        "name": "Daniel",
-        "nameAr": "دَانْيَال"
+        "name": "Faisal",
+        "nameAr": "فَيْصَل"
       },
       {
         "key": "seller",
@@ -290,8 +290,8 @@
       {
         "id": "d74l1",
         "sp": "layla",
-        "ar": "اُنْظُرْ يَا دَانْيَال! هٰذَا هُوَ مَعْرِضُ الْكِتَابِ الَّذِي أَخْبَرْتُكَ عَنْهُ. فِيهِ آلَافُ الْكُتُبِ!",
-        "en": "Look, Daniel! This is the book fair that I told you about. There are thousands of books in it!",
+        "ar": "اُنْظُرْ يَا فَيْصَل! هٰذَا هُوَ مَعْرِضُ الْكِتَابِ الَّذِي أَخْبَرْتُكَ عَنْهُ. فِيهِ آلَافُ الْكُتُبِ!",
+        "en": "Look, Faisal! This is the book fair that I told you about. There are thousands of books in it!",
         "segs": [
           [
             "اُنْظُرْ",
@@ -302,8 +302,8 @@
             "O (calling someone)"
           ],
           [
-            "دَانْيَال",
-            "Daniel (first name)",
+            "فَيْصَل",
+            "Faisal (first name)",
             "name"
           ],
           [
@@ -1175,16 +1175,16 @@
   },
   "reading": {
     "title": "At the book fair",
-    "ar": "ذَهَبَ دَانْيَال وَلَيْلَى إِلَى مَعْرِضِ الْكِتَاب. اِشْتَرَى دَانْيَال رِوَايَة لِنَجِيب مَحْفُوظ، الْكَاتِبِ الَّذِي أَخَذَ جَائِزَةَ نُوبِل. وَاشْتَرَتْ لَيْلَى رِوَايَة لِكَاتِبَة لُبْنَانِيَّة. بَعْدَ ذٰلِكَ تَكَلَّمَا مَعَ كَاتِبٍ شَابٍّ يَكْتُبُ عَنِ الْقَاهِرَة. الْكُتُبُ الَّتِي اشْتَرَيَاهَا جَمِيلَة جِدًّا.",
-    "en": "Daniel and Layla went to the book fair. Daniel bought a novel by Naguib Mahfouz, the writer who won the Nobel Prize. And Layla bought a novel by a Lebanese woman writer. After that they talked with a young writer who writes about Cairo. The books that they bought are very beautiful.",
+    "ar": "ذَهَبَ فَيْصَل وَلَيْلَى إِلَى مَعْرِضِ الْكِتَاب. اِشْتَرَى فَيْصَل رِوَايَة لِنَجِيب مَحْفُوظ، الْكَاتِبِ الَّذِي أَخَذَ جَائِزَةَ نُوبِل. وَاشْتَرَتْ لَيْلَى رِوَايَة لِكَاتِبَة لُبْنَانِيَّة. بَعْدَ ذٰلِكَ تَكَلَّمَا مَعَ كَاتِبٍ شَابٍّ يَكْتُبُ عَنِ الْقَاهِرَة. الْكُتُبُ الَّتِي اشْتَرَيَاهَا جَمِيلَة جِدًّا.",
+    "en": "Faisal and Layla went to the book fair. Faisal bought a novel by Naguib Mahfouz, the writer who won the Nobel Prize. And Layla bought a novel by a Lebanese woman writer. After that they talked with a young writer who writes about Cairo. The books that they bought are very beautiful.",
     "segs": [
       [
         "ذَهَبَ",
         "(he) went"
       ],
       [
-        "دَانْيَال",
-        "Daniel (first name)",
+        "فَيْصَل",
+        "Faisal (first name)",
         "name"
       ],
       [
@@ -1209,8 +1209,8 @@
         "(he) bought"
       ],
       [
-        "دَانْيَال",
-        "Daniel (first name)",
+        "فَيْصَل",
+        "Faisal (first name)",
         "name"
       ],
       [

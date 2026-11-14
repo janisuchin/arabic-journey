@@ -17,7 +17,7 @@
   ],
   "emoji": "💊",
   "summary": "Buy medicine at a pharmacy, understand how often to take it, and say what you want to do with أُرِيدُ أَنْ…",
-  "intro": "With the prescription in his hand, Daniel goes to the pharmacy. To say 'I want to buy', Arabic joins the two verbs with أَنْ: أُرِيدُ أَنْ أَشْتَرِيَ (literally 'I want that I buy'). The second verb ends in -a after أَنْ. You also learn how to talk about doses: حَبَّة وَاحِدَة ثَلَاثَ مَرَّات فِي الْيَوْم (one tablet three times a day).",
+  "intro": "With the prescription in his hand, Faisal goes to the pharmacy. To say 'I want to buy', Arabic joins the two verbs with أَنْ: أُرِيدُ أَنْ أَشْتَرِيَ (literally 'I want that I buy'). The second verb ends in -a after أَنْ. You also learn how to talk about doses: حَبَّة وَاحِدَة ثَلَاثَ مَرَّات فِي الْيَوْم (one tablet three times a day).",
   "objectives": [
     "Say what you want to do with أُرِيدُ أَنْ + a verb",
     "Understand a dose: how many tablets and how many times a day",
@@ -27,7 +27,7 @@
   "realLife": {
     "emoji": "🏪",
     "title": "The corner pharmacy",
-    "story": "The pharmacy near Sami's house is open late, and the pharmacist knows everyone in the street. He explains the tablets and the cough syrup carefully, and Daniel buys tissues and vitamin C as well.",
+    "story": "The pharmacy near Sami's house is open late, and the pharmacist knows everyone in the street. He explains the tablets and the cough syrup carefully, and Faisal buys tissues and vitamin C as well.",
     "photo": {"file": "day45.jpg", "alt": "Rows of white porcelain medicine jars with black labels on the wooden shelves of a pharmacy.", "credit": {"title": "File:Former pharmacy, shelves with medicines.jpg", "author": "Zalasem1", "license": "CC BY 4.0", "source": "https://commons.wikimedia.org/wiki/File:Former_pharmacy,_shelves_with_medicines.jpg", "accessed": "2026-11-11", "modified": "resized and re-encoded", "licenseUrl": "https://creativecommons.org/licenses/by/4.0"}}
   },
   "letters": [],
@@ -256,8 +256,8 @@
       },
       {
         "key": "daniel",
-        "name": "Daniel",
-        "nameAr": "دَانْيَال"
+        "name": "Faisal",
+        "nameAr": "فَيْصَل"
       },
       {
         "key": "sami",
@@ -730,16 +730,16 @@
       {
         "id": "d45l10",
         "sp": "sami",
-        "ar": "يَا دَانْيَال، هَلْ تُرِيدُ أَنْ تَجْلِسَ قَلِيلًا؟ أَنْتَ مُتْعَب جِدًّا.",
-        "en": "Daniel, do you want to sit down for a moment? You are very tired.",
+        "ar": "يَا فَيْصَل، هَلْ تُرِيدُ أَنْ تَجْلِسَ قَلِيلًا؟ أَنْتَ مُتْعَب جِدًّا.",
+        "en": "Faisal, do you want to sit down for a moment? You are very tired.",
         "segs": [
           [
             "يَا",
             "O (calling someone)"
           ],
           [
-            "دَانْيَال",
-            "Daniel (first name)",
+            "فَيْصَل",
+            "Faisal (first name)",
             "name"
           ],
           [
@@ -920,8 +920,8 @@
       {
         "id": "d45l14",
         "sp": "sami",
-        "ar": "شُكْرًا جَزِيلًا! وَيَا دَانْيَال، لَا تَنْسَ أَنْ تَأْكُلَ قَبْلَ الدَّوَاء.",
-        "en": "Thank you very much! And Daniel, don't forget to eat before the medicine.",
+        "ar": "شُكْرًا جَزِيلًا! وَيَا فَيْصَل، لَا تَنْسَ أَنْ تَأْكُلَ قَبْلَ الدَّوَاء.",
+        "en": "Thank you very much! And Faisal, don't forget to eat before the medicine.",
         "segs": [
           [
             "شُكْرًا",
@@ -936,8 +936,8 @@
             "and O (calling someone)"
           ],
           [
-            "دَانْيَال",
-            "Daniel (first name)",
+            "فَيْصَل",
+            "Faisal (first name)",
             "name"
           ],
           [
@@ -969,8 +969,8 @@
       {
         "id": "d45l15",
         "sp": "saydali",
-        "ar": "مَعَ السَّلَامَة، وَسَلَامَتُكَ يَا دَانْيَال! أَتَمَنَّى لَكَ الشِّفَاءَ الْعَاجِل.",
-        "en": "Goodbye, and get well soon, Daniel! I wish you a speedy recovery.",
+        "ar": "مَعَ السَّلَامَة، وَسَلَامَتُكَ يَا فَيْصَل! أَتَمَنَّى لَكَ الشِّفَاءَ الْعَاجِل.",
+        "en": "Goodbye, and get well soon, Faisal! I wish you a speedy recovery.",
         "segs": [
           [
             "مَعَ",
@@ -989,8 +989,8 @@
             "O (calling someone)"
           ],
           [
-            "دَانْيَال",
-            "Daniel (first name)",
+            "فَيْصَل",
+            "Faisal (first name)",
             "name"
           ],
           [
@@ -1015,16 +1015,16 @@
   },
   "reading": {
     "title": "The medicine box",
-    "ar": "ذَهَبَ دَانْيَال وَسَامِي إِلَى الصَّيْدَلِيَّة. أَعْطَى دَانْيَال الْوَصْفَة لِلصَّيْدَلِيّ. اِشْتَرَى حُبُوبًا لِلْحَرَارَة، وَشَرَابًا لِلسُّعَال، وَمَنَادِيل. يَأْخُذُ حَبَّة ثَلَاثَ مَرَّات فِي الْيَوْم بَعْدَ الْأَكْل.",
-    "en": "Daniel and Sami went to the pharmacy. Daniel gave the prescription to the pharmacist. He bought tablets for the fever, a syrup for the cough, and tissues. He takes a tablet three times a day after food.",
+    "ar": "ذَهَبَ فَيْصَل وَسَامِي إِلَى الصَّيْدَلِيَّة. أَعْطَى فَيْصَل الْوَصْفَة لِلصَّيْدَلِيّ. اِشْتَرَى حُبُوبًا لِلْحَرَارَة، وَشَرَابًا لِلسُّعَال، وَمَنَادِيل. يَأْخُذُ حَبَّة ثَلَاثَ مَرَّات فِي الْيَوْم بَعْدَ الْأَكْل.",
+    "en": "Faisal and Sami went to the pharmacy. Faisal gave the prescription to the pharmacist. He bought tablets for the fever, a syrup for the cough, and tissues. He takes a tablet three times a day after food.",
     "segs": [
       [
         "ذَهَبَ",
         "he went"
       ],
       [
-        "دَانْيَال",
-        "Daniel (first name)",
+        "فَيْصَل",
+        "Faisal (first name)",
         "name"
       ],
       [
@@ -1045,8 +1045,8 @@
         "he gave"
       ],
       [
-        "دَانْيَال",
-        "Daniel (first name)",
+        "فَيْصَل",
+        "Faisal (first name)",
         "name"
       ],
       [
@@ -1152,7 +1152,7 @@
     },
     {
       "id": "d45q3",
-      "prompt": "How often does Daniel take the tablets?",
+      "prompt": "How often does Faisal take the tablets?",
       "options": [
         "once a day",
         "twice a day",
@@ -1174,7 +1174,7 @@
     },
     {
       "id": "d45q5",
-      "prompt": "How much does Daniel pay?",
+      "prompt": "How much does Faisal pay?",
       "options": [
         "100 pounds",
         "120 pounds",

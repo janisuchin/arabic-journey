@@ -27,7 +27,7 @@
   "realLife": {
     "emoji": "📚",
     "title": "A morning in the library",
-    "story": "For the reading review, Mr Karim takes the class to the library and spreads out today's newspaper, a sports magazine and the menu from the café next door. Daniel, who is used to the fully vowelled pages of his course book, gets a shock: the newspaper has no vowel marks at all. Mr Karim just smiles and promises that by the end of the lesson everybody will find the main idea anyway.",
+    "story": "For the reading review, Mr Karim takes the class to the library and spreads out today's newspaper, a sports magazine and the menu from the café next door. Faisal, who is used to the fully vowelled pages of his course book, gets a shock: the newspaper has no vowel marks at all. Mr Karim just smiles and promises that by the end of the lesson everybody will find the main idea anyway.",
     "photo": {"file": "day86.jpg", "alt": "The great reading room of the Bibliotheca Alexandrina, with slanted roof, tall columns and tiered desks.", "credit": {"title": "File:Reading Room in Bibliotheca Alexandrina.jpg", "author": "D-Stanley", "license": "CC BY 2.0", "source": "https://commons.wikimedia.org/wiki/File:Reading_Room_in_Bibliotheca_Alexandrina.jpg", "accessed": "2026-11-11", "modified": "resized and re-encoded", "licenseUrl": "https://creativecommons.org/licenses/by/2.0"}}
   },
   "letters": [],
@@ -351,8 +351,8 @@
       },
       {
         "key": "daniel",
-        "name": "Daniel",
-        "nameAr": "دَانْيَال"
+        "name": "Faisal",
+        "nameAr": "فَيْصَل"
       },
       {
         "key": "layla",
@@ -526,8 +526,8 @@
       {
         "id": "d86l3",
         "sp": "karim",
-        "ar": "نَعَم، أَحْسَنْتَ يَا دَانْيَال! اللَّافِتَاتُ قَصِيرَة جِدًّا، فَاقْرَأْهَا بِسُرْعَة. وَالْآنَ انْظُرُوا إِلَى الصَّفْحَةِ الْأُولَى مِنَ الْجَرِيدَة: مَا الْعُنْوَانُ الْكَبِير؟",
-        "en": "Yes, well done, Daniel! Signs are very short, so read them quickly. And now look at the first page of the newspaper: what's the big headline?",
+        "ar": "نَعَم، أَحْسَنْتَ يَا فَيْصَل! اللَّافِتَاتُ قَصِيرَة جِدًّا، فَاقْرَأْهَا بِسُرْعَة. وَالْآنَ انْظُرُوا إِلَى الصَّفْحَةِ الْأُولَى مِنَ الْجَرِيدَة: مَا الْعُنْوَانُ الْكَبِير؟",
+        "en": "Yes, well done, Faisal! Signs are very short, so read them quickly. And now look at the first page of the newspaper: what's the big headline?",
         "segs": [
           [
             "نَعَم",
@@ -542,8 +542,8 @@
             "O (calling someone)"
           ],
           [
-            "دَانْيَال",
-            "Daniel (first name)"
+            "فَيْصَل",
+            "Faisal (first name)"
           ],
           [
             "اللَّافِتَاتُ",
@@ -974,16 +974,16 @@
       {
         "id": "d86l9",
         "sp": "layla",
-        "ar": "يَا دَانْيَال، اِبْحَثْ عَنِ الْجَذْرِ أَوَّلًا: «مَلْعَب» مِنْ «لَعِبَ». وَكَلِمَات مِثْلُ مَكْتَب وَمَطْبَخ تَعْنِي مَكَانًا. مَاذَا تُخَمِّنُ؟",
-        "en": "Daniel, look for the root first: 'malʿab' comes from 'laʿiba', to play. And words like 'maktab' and 'maṭbakh' mean a place. What do you guess?",
+        "ar": "يَا فَيْصَل، اِبْحَثْ عَنِ الْجَذْرِ أَوَّلًا: «مَلْعَب» مِنْ «لَعِبَ». وَكَلِمَات مِثْلُ مَكْتَب وَمَطْبَخ تَعْنِي مَكَانًا. مَاذَا تُخَمِّنُ؟",
+        "en": "Faisal, look for the root first: 'malʿab' comes from 'laʿiba', to play. And words like 'maktab' and 'maṭbakh' mean a place. What do you guess?",
         "segs": [
           [
             "يَا",
             "O (calling someone)"
           ],
           [
-            "دَانْيَال",
-            "Daniel (first name)"
+            "فَيْصَل",
+            "Faisal (first name)"
           ],
           [
             "اِبْحَثْ",
@@ -1535,8 +1535,8 @@
   },
   "reading": {
     "title": "Smart reading in the library",
-    "ar": "فِي يَوْمِ الْمُرَاجَعَةِ دَرَسَ الطُّلَّابُ فِي الْمَكْتَبَة. قَرَؤُوا عُنْوَانَ الْجَرِيدَةِ: «حَدِيقَة جَدِيدَة فِي وَسَطِ الْقَاهِرَة». ثُمَّ وَجَدَ سَامِي أَنَّ الْحَدِيقَةَ تُفْتَحُ يَوْمَ الْجُمُعَة. أَمَّا دَانْيَال فَخَمَّنَ مَعْنَى كَلِمَة صَعْبَة مِنْ جَذْرِهَا. وَقَالَ الْأُسْتَاذ كَرِيم إِنَّ الْقَارِئَ الَّذِي يَعْرِفُ الْجَذْرَ لَا يَحْتَاجُ إِلَى الْقَامُوسِ دَائِمًا.",
-    "en": "On review day the students studied in the library. They read the newspaper's headline: 'A new park in the centre of Cairo'. Then Sami found that the park opens on Friday. As for Daniel, he guessed the meaning of a difficult word from its root. And Mr Karim said that a reader who knows the root does not always need the dictionary.",
+    "ar": "فِي يَوْمِ الْمُرَاجَعَةِ دَرَسَ الطُّلَّابُ فِي الْمَكْتَبَة. قَرَؤُوا عُنْوَانَ الْجَرِيدَةِ: «حَدِيقَة جَدِيدَة فِي وَسَطِ الْقَاهِرَة». ثُمَّ وَجَدَ سَامِي أَنَّ الْحَدِيقَةَ تُفْتَحُ يَوْمَ الْجُمُعَة. أَمَّا فَيْصَل فَخَمَّنَ مَعْنَى كَلِمَة صَعْبَة مِنْ جَذْرِهَا. وَقَالَ الْأُسْتَاذ كَرِيم إِنَّ الْقَارِئَ الَّذِي يَعْرِفُ الْجَذْرَ لَا يَحْتَاجُ إِلَى الْقَامُوسِ دَائِمًا.",
+    "en": "On review day the students studied in the library. They read the newspaper's headline: 'A new park in the centre of Cairo'. Then Sami found that the park opens on Friday. As for Faisal, he guessed the meaning of a difficult word from its root. And Mr Karim said that a reader who knows the root does not always need the dictionary.",
     "segs": [
       [
         "فِي",
@@ -1635,8 +1635,8 @@
         "as for"
       ],
       [
-        "دَانْيَال",
-        "Daniel (first name)"
+        "فَيْصَل",
+        "Faisal (first name)"
       ],
       [
         "فَخَمَّنَ",
@@ -1761,7 +1761,7 @@
     },
     {
       "id": "d86q4",
-      "prompt": "How does Daniel find the meaning of مَلْعَب?",
+      "prompt": "How does Faisal find the meaning of مَلْعَب?",
       "options": [
         "He looks it up in the dictionary.",
         "He guesses it from the root and the pattern.",

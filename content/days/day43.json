@@ -17,7 +17,7 @@
   ],
   "emoji": "🧍",
   "summary": "Name the parts of the body and say what hurts with يُؤْلِمُنِي and تُؤْلِمُنِي.",
-  "intro": "After the weekend in Alexandria, Daniel is back in class, but he does not feel well. Today you learn the main parts of the body. Several of them are feminine even without ة: يَد (hand), رِجْل (leg, foot), عَيْن (eye) and أُذُن (ear). To say what hurts, Arabic says 'it hurts me': يُؤْلِمُنِي رَأْسِي (my head hurts) for a masculine part, and تُؤْلِمُنِي يَدِي (my hand hurts) for a feminine one.",
+  "intro": "After the weekend in Alexandria, Faisal is back in class, but he does not feel well. Today you learn the main parts of the body. Several of them are feminine even without ة: يَد (hand), رِجْل (leg, foot), عَيْن (eye) and أُذُن (ear). To say what hurts, Arabic says 'it hurts me': يُؤْلِمُنِي رَأْسِي (my head hurts) for a masculine part, and تُؤْلِمُنِي يَدِي (my hand hurts) for a feminine one.",
   "objectives": [
     "Name ten parts of the body",
     "Say what hurts with يُؤْلِمُنِي and تُؤْلِمُنِي",
@@ -27,7 +27,7 @@
   "realLife": {
     "emoji": "🤒",
     "title": "Back from the seaside",
-    "story": "Daniel comes back from Alexandria with a sore head and a stiff back. In class Mr Karim is teaching the parts of the body with a big picture, and Daniel can point to everything that hurts. Before the end of the lesson the teacher sends him home.",
+    "story": "Faisal comes back from Alexandria with a sore head and a stiff back. In class Mr Karim is teaching the parts of the body with a big picture, and Faisal can point to everything that hurts. Before the end of the lesson the teacher sends him home.",
     "photo": {"file": "day43.jpg", "alt": "A straw sun shelter on a sandy beach at Montaza in Alexandria, with small waves rolling in.", "credit": {"title": "File:El montaza beach.jpg", "author": "Dalia fathallah", "license": "CC BY-SA 4.0", "source": "https://commons.wikimedia.org/wiki/File:El_montaza_beach.jpg", "accessed": "2026-11-11", "modified": "resized and re-encoded", "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"}}
   },
   "letters": [],
@@ -255,8 +255,8 @@
       },
       {
         "key": "daniel",
-        "name": "Daniel",
-        "nameAr": "دَانْيَال"
+        "name": "Faisal",
+        "nameAr": "فَيْصَل"
       },
       {
         "key": "sami",
@@ -269,7 +269,7 @@
         "nameAr": "لَيْلَى"
       }
     ],
-    "culture": "When someone is ill, Arabic speakers say سَلَامَتُكَ to a man or سَلَامَتُكِ to a woman, literally 'your safety': 'get well soon'. The usual reply is اللّٰهُ يُسَلِّمُكِ (to a woman), 'God keep you safe', as Daniel says to Layla.",
+    "culture": "When someone is ill, Arabic speakers say سَلَامَتُكَ to a man or سَلَامَتُكِ to a woman, literally 'your safety': 'get well soon'. The usual reply is اللّٰهُ يُسَلِّمُكِ (to a woman), 'God keep you safe', as Faisal says to Layla.",
     "lines": [
       {
         "id": "d43l1",
@@ -426,8 +426,8 @@
       {
         "id": "d43l4",
         "sp": "karim",
-        "ar": "سَلَامَتُكَ يَا دَانْيَال! هَلْ يُؤْلِمُكَ شَيْء آخَر، الظَّهْر أَوِ الْبَطْن مَثَلًا؟",
-        "en": "Get well soon, Daniel! Does anything else hurt, your back or your stomach, for example?",
+        "ar": "سَلَامَتُكَ يَا فَيْصَل! هَلْ يُؤْلِمُكَ شَيْء آخَر، الظَّهْر أَوِ الْبَطْن مَثَلًا؟",
+        "en": "Get well soon, Faisal! Does anything else hurt, your back or your stomach, for example?",
         "segs": [
           [
             "سَلَامَتُكَ",
@@ -438,8 +438,8 @@
             "O (calling someone)"
           ],
           [
-            "دَانْيَال",
-            "Daniel (first name)",
+            "فَيْصَل",
+            "Faisal (first name)",
             "name"
           ],
           [
@@ -523,8 +523,8 @@
       {
         "id": "d43l6",
         "sp": "sami",
-        "ar": "وَفِي الْإِسْكَنْدَرِيَّة سَبَحَ دَانْيَال فِي الْبَحْر، وَكَانَ الْمَاءُ بَارِدًا جِدًّا!",
-        "en": "And in Alexandria Daniel swam in the sea, and the water was very cold!",
+        "ar": "وَفِي الْإِسْكَنْدَرِيَّة سَبَحَ فَيْصَل فِي الْبَحْر، وَكَانَ الْمَاءُ بَارِدًا جِدًّا!",
+        "en": "And in Alexandria Faisal swam in the sea, and the water was very cold!",
         "segs": [
           [
             "وَفِي",
@@ -540,8 +540,8 @@
             "he swam"
           ],
           [
-            "دَانْيَال",
-            "Daniel (first name)",
+            "فَيْصَل",
+            "Faisal (first name)",
             "name"
           ],
           [
@@ -573,8 +573,8 @@
       {
         "id": "d43l7",
         "sp": "layla",
-        "ar": "مِسْكِين يَا دَانْيَال! لِذٰلِكَ أَنْفُكَ أَحْمَر وَصَوْتُكَ ضَعِيف الْيَوْمَ.",
-        "en": "Poor Daniel! That is why your nose is red and your voice is weak today.",
+        "ar": "مِسْكِين يَا فَيْصَل! لِذٰلِكَ أَنْفُكَ أَحْمَر وَصَوْتُكَ ضَعِيف الْيَوْمَ.",
+        "en": "Poor Faisal! That is why your nose is red and your voice is weak today.",
         "segs": [
           [
             "مِسْكِين",
@@ -585,8 +585,8 @@
             "O (calling someone)"
           ],
           [
-            "دَانْيَال",
-            "Daniel (first name)",
+            "فَيْصَل",
+            "Faisal (first name)",
             "name"
           ],
           [
@@ -848,16 +848,16 @@
       {
         "id": "d43l13",
         "sp": "karim",
-        "ar": "يَا دَانْيَال، أَنْتَ مَرِيض. اِذْهَبْ إِلَى الْبَيْت الْآنَ، وَغَدًا اِذْهَبْ إِلَى الطَّبِيب.",
-        "en": "Daniel, you are ill. Go home now, and tomorrow go and see the doctor.",
+        "ar": "يَا فَيْصَل، أَنْتَ مَرِيض. اِذْهَبْ إِلَى الْبَيْت الْآنَ، وَغَدًا اِذْهَبْ إِلَى الطَّبِيب.",
+        "en": "Faisal, you are ill. Go home now, and tomorrow go and see the doctor.",
         "segs": [
           [
             "يَا",
             "O (calling someone)"
           ],
           [
-            "دَانْيَال",
-            "Daniel (first name)",
+            "فَيْصَل",
+            "Faisal (first name)",
             "name"
           ],
           [
@@ -905,8 +905,8 @@
       {
         "id": "d43l14",
         "sp": "layla",
-        "ar": "سَلَامَتُكَ يَا دَانْيَال! سَأَتَّصِلُ بِكَ فِي الْمَسَاءِ لِأَسْأَلَ عَنْ صِحَّتِكَ.",
-        "en": "Get well soon, Daniel! I will call you this evening to ask about your health.",
+        "ar": "سَلَامَتُكَ يَا فَيْصَل! سَأَتَّصِلُ بِكَ فِي الْمَسَاءِ لِأَسْأَلَ عَنْ صِحَّتِكَ.",
+        "en": "Get well soon, Faisal! I will call you this evening to ask about your health.",
         "segs": [
           [
             "سَلَامَتُكَ",
@@ -917,8 +917,8 @@
             "O (calling someone)"
           ],
           [
-            "دَانْيَال",
-            "Daniel (first name)",
+            "فَيْصَل",
+            "Faisal (first name)",
             "name"
           ],
           [
@@ -1000,8 +1000,8 @@
   },
   "reading": {
     "title": "A picture of the body",
-    "ar": "فِي الصُّورَة جِسْمُ إِنْسَان. فِي الرَّأْسِ أُذُنَان وَعَيْنَان وَأَنْف وَفَم. لِلْإِنْسَانِ يَدَان، وَلَهُ رِجْلَان أَيْضًا. الْيَوْمَ دَانْيَال مَرِيض: رَأْسُهُ يُؤْلِمُهُ، وَظَهْرُهُ يُؤْلِمُهُ أَيْضًا.",
-    "en": "In the picture there is a human body. In the head there are two ears, two eyes, a nose and a mouth. A person has two hands, and two legs as well. Today Daniel is ill: his head hurts, and his back hurts too.",
+    "ar": "فِي الصُّورَة جِسْمُ إِنْسَان. فِي الرَّأْسِ أُذُنَان وَعَيْنَان وَأَنْف وَفَم. لِلْإِنْسَانِ يَدَان، وَلَهُ رِجْلَان أَيْضًا. الْيَوْمَ فَيْصَل مَرِيض: رَأْسُهُ يُؤْلِمُهُ، وَظَهْرُهُ يُؤْلِمُهُ أَيْضًا.",
+    "en": "In the picture there is a human body. In the head there are two ears, two eyes, a nose and a mouth. A person has two hands, and two legs as well. Today Faisal is ill: his head hurts, and his back hurts too.",
     "segs": [
       [
         "فِي",
@@ -1068,8 +1068,8 @@
         "today"
       ],
       [
-        "دَانْيَال",
-        "Daniel (first name)",
+        "فَيْصَل",
+        "Faisal (first name)",
         "name"
       ],
       [
@@ -1153,7 +1153,7 @@
     },
     {
       "id": "d43q5",
-      "prompt": "Why does Daniel's back hurt?",
+      "prompt": "Why does Faisal's back hurt?",
       "options": [
         "He sat on a bus for three hours",
         "He played football",
@@ -1185,6 +1185,6 @@
       "answer": 1
     }
   ],
-  "completion": "Well done! You can name the parts of the body and say what hurts. Daniel goes home to bed: tomorrow he sees the doctor.",
+  "completion": "Well done! You can name the parts of the body and say what hurts. Faisal goes home to bed: tomorrow he sees the doctor.",
   "status": "needs-review"
 }

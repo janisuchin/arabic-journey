@@ -12,10 +12,25 @@ https://ar-journey.german-journey.workers.dev · unlocked https://ar-journey-unl
   Main fixes: fa- after إِذَا (days 82, 87), jamal root note, house-style endings (inna nouns, kāna/laysa
   predicates, adverbial -an), day 74/39 quiz distractors, فَلُوكَة, tap glosses scoped per card. Engine: lone hamza
   seat = ʾ, ulāʾika, lone ؟/، kept in prose, letter lists comma-joined, bi- hyphens, li-ḥusni not a name.
-- Checks: validator 0 errors, 108 unit tests, typecheck/lint/format clean, e2e 28/28 (port 4191). Both editions
+- **Owner app round** (2026-11-14, after round 4): Arabic cast names (Daniel → Faisal فَيْصَل, Emma → Lubna لُبْنَى,
+  ~800 places, same inflection); every example sentence has its own speaker (word cards, word box, grammar, letter
+  page); dialogue "Play all" stops on Stop, on leaving the page, and all speech stops on any route change; "Say it
+  yourself" steps through the day's words; best Arabic voice chosen automatically (Natural/Online/Google first) +
+  voice picker in Settings; word box shows the pause form (ṭālibatān); letter forms say "same sound, only the shape
+  changes"; quiz page lets a passed day walk on to Done; gender colours kept for gender only (question/noun/adverb
+  colours changed, full legend, flashcards coloured); يَمِين/يَسَار m, مَلَابِس f; Vocabulary = course words by topic.
+- Checks: validator 0 errors, 110 unit tests, typecheck/lint/format clean, e2e 28/28 (port 4191). Both editions
   deployed 2026-11-14 and verified live.
 
 ## Left
+0. **5,000-word dictionary** (owner request 2026-11-14): German/French/Nihongo ship `content/dictionary/words.json`
+   (5,000 rows, frequency order, open source + licence line) separate from course vocabulary (809 here). Build an
+   MSA list: fully vocalised headword, English, pos, gender, plural, `course` flag; open data only (e.g. Wiktionary /
+   kaikki extract CC BY-SA + a frequency list), AI cross-check like the review rounds; Dictionary screen switches to it
+   (search Arabic/translit/English, read aloud), Vocabulary stays by topic.
+- Pronunciation: audio is the device voice; AI reviewers cannot hear it. Quality depends on the voice (old desktop
+  voices skip harakat, e.g. بُنِيَتْ → "bunī"; Edge Natural / Google voices read them). Pre-generated neural audio
+  would need a paid TTS key (owner decision).
 1. Content `status` is not `approved` anywhere: the schema needs a named human reviewer. Owner may choose to mark it
    approved under their own name (a deliberate owner call, not done automatically).
 2. Round-4 reviewer notes (124, in `docs/review/round-4/*-A.json`): story logic (day 1 "good evening", day 12/18
@@ -27,6 +42,10 @@ https://ar-journey.german-journey.workers.dev · unlocked https://ar-journey-unl
 5. **No APK / version release** until all language modules are combined (owner, 2026-11-13). Web deploys only.
 
 ## Decisions
+- Cast names are Arabic (owner): Faisal (American student from Chicago, internal speaker key still `daniel`), his
+  sister Lubna (key `emma`). Never reintroduce English names in dialogues.
+- All speech goes through `tts` (src/services/tts.ts): it applies the chosen voice; stop on route change is global.
+- Colours: masculine #1C7ED6 and feminine #C2255C are for gender only (`wordColour` in features/lesson.tsx).
 - Review closed by owner decision; record it as "owner decision with AI recommendations", never as a teacher review.
 - Never mark content `approved` without a named human reviewer.
 - House style: pause form mid-sentence; endings shown on adverbial -an, kāna/laysa predicates, inna/anna nouns
@@ -46,5 +65,5 @@ https://ar-journey.german-journey.workers.dev · unlocked https://ar-journey-unl
 - UI is LTR for English readers; Arabic text always RTL. One session at a time in this repo.
 
 ## Next step
-Owner's choice: (a) mark content approved under the owner's own name, (b) a small notes pass on the round-4 notes
-in Left #2, or (c) leave Arabic as done and move to the next language module / the combined app.
+Build the 5,000-word Arabic dictionary (Left #0), modelled on Nihongo's `content/dictionary/words.json` +
+`src/content/dictionary.ts` + `src/app/dictionary.tsx`; then deploy both editions.

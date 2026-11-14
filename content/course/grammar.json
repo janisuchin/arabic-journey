@@ -149,7 +149,7 @@
     "firstDay": 9,
     "summary": "Put two nouns side by side to say 'the X of Y': يَوْمُ الْجُمُعَة, Friday (literally 'the day of Friday').",
     "formula": "noun (no الـ) + noun with الـ, a name or a 'my/your' ending",
-    "explanation": "In كِتَابُ دَانْيَال (Daniel's book) the first noun never takes الـ, yet it is definite: 'the book of Daniel'. The second noun is a name, a noun with الـ, or a noun with an ending such as ـِي. A ة at the end of the first noun is said as t: مَدْرَسَةُ اللُّغَة (madrasatu l-lugha, the language school). In careful speech the first noun carries a case vowel (often -u) and the second takes -i; at the end of a sentence the last vowel is usually dropped.",
+    "explanation": "In كِتَابُ فَيْصَل (Faisal's book) the first noun never takes الـ, yet it is definite: 'the book of Faisal'. The second noun is a name, a noun with الـ, or a noun with an ending such as ـِي. A ة at the end of the first noun is said as t: مَدْرَسَةُ اللُّغَة (madrasatu l-lugha, the language school). In careful speech the first noun carries a case vowel (often -u) and the second takes -i; at the end of a sentence the last vowel is usually dropped.",
     "table": {
       "head": [
         "Arabic",
@@ -168,9 +168,9 @@
           "the days of the week"
         ],
         [
-          "كِتَابُ دَانْيَال",
-          "book (of) Daniel",
-          "Daniel's book"
+          "كِتَابُ فَيْصَل",
+          "book (of) Faisal",
+          "Faisal's book"
         ],
         [
           "مَدْرَسَةُ اللُّغَة",
@@ -190,8 +190,8 @@
         "en": "Today is Sunday."
       },
       {
-        "ar": "هٰذَا كِتَابُ دَانْيَال.",
-        "en": "This is Daniel's book."
+        "ar": "هٰذَا كِتَابُ فَيْصَل.",
+        "en": "This is Faisal's book."
       }
     ]
   },
@@ -1557,8 +1557,8 @@
     },
     "examples": [
       {
-        "ar": "كَمْ عُمْرُكَ يَا دَانْيَال؟",
-        "en": "How old are you, Daniel?"
+        "ar": "كَمْ عُمْرُكَ يَا فَيْصَل؟",
+        "en": "How old are you, Faisal?"
       },
       {
         "ar": "عُمْرِي عِشْرُونَ سَنَةً.",
@@ -1734,8 +1734,8 @@
         "en": "I didn't do anything on Friday."
       },
       {
-        "ar": "مَا سَبَحَ دَانْيَال فِي الْبَحْر.",
-        "en": "Daniel didn't swim in the sea."
+        "ar": "مَا سَبَحَ فَيْصَل فِي الْبَحْر.",
+        "en": "Faisal didn't swim in the sea."
       }
     ]
   },
@@ -3334,8 +3334,8 @@
         "en": "Dear Mr Adel, greetings."
       },
       {
-        "ar": "مَعَ أَطْيَبِ التَّحِيَّات، دَانْيَال.",
-        "en": "With best regards, Daniel."
+        "ar": "مَعَ أَطْيَبِ التَّحِيَّات، فَيْصَل.",
+        "en": "With best regards, Faisal."
       }
     ]
   },

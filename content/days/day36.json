@@ -13,7 +13,7 @@
   ],
   "emoji": "📅",
   "summary": "Talk about yesterday with the past tense: I went, you went, he went, she went, we went.",
-  "intro": "Arabic dictionaries list every verb in the past tense, in the 'he' form: ذَهَبَ means 'he went'. To show who did the action, add an ending: ذَهَبْتُ (I went), ذَهَبَتْ (she went), ذَهَبْنَا (we went). The ending already tells you the person, so أَنَا is usually left out. Today Daniel tells the class about his day trip to Alexandria.",
+  "intro": "Arabic dictionaries list every verb in the past tense, in the 'he' form: ذَهَبَ means 'he went'. To show who did the action, add an ending: ذَهَبْتُ (I went), ذَهَبَتْ (she went), ذَهَبْنَا (we went). The ending already tells you the person, so أَنَا is usually left out. Today Faisal tells the class about his day trip to Alexandria.",
   "objectives": [
     "Say what you did yesterday with ذَهَبْتُ, أَكَلْتُ and رَجَعْتُ",
     "Change a past verb for I, you, he, she and we",
@@ -23,7 +23,7 @@
   "realLife": {
     "emoji": "🚆",
     "title": "A day by the sea",
-    "story": "On Saturday Daniel and Sami took the early train to Alexandria and spent the whole day by the sea. On Sunday morning Mr Karim asks the class what everyone did yesterday, and Daniel has a lot to tell.",
+    "story": "On Saturday Faisal and Sami took the early train to Alexandria and spent the whole day by the sea. On Sunday morning Mr Karim asks the class what everyone did yesterday, and Faisal has a lot to tell.",
     "photo": {"file": "day36.jpg", "alt": "The seaside promenade of Alexandria with the Mediterranean on one side and a long stone wall.", "credit": {"title": "File:Egypt, Alexandria, The Corniche of Alexandria, Mediterranean Sea.jpg", "author": "Vyacheslav Argenberg", "license": "CC BY 4.0", "source": "https://commons.wikimedia.org/wiki/File:Egypt,_Alexandria,_The_Corniche_of_Alexandria,_Mediterranean_Sea.jpg", "accessed": "2026-11-11", "modified": "resized and re-encoded", "licenseUrl": "https://creativecommons.org/licenses/by/4.0"}}
   },
   "letters": [],
@@ -201,7 +201,7 @@
         {
           "wrong": "هَلْ أَكَلْتِ سَمَكًا؟",
           "right": "هَلْ أَكَلْتَ سَمَكًا؟",
-          "why": "Said to Daniel, a man. -ta is 'you' to a man and -ti is 'you' to a woman. Only the last vowel is different."
+          "why": "Said to Faisal, a man. -ta is 'you' to a man and -ti is 'you' to a woman. Only the last vowel is different."
         }
       ]
     },
@@ -247,8 +247,8 @@
       },
       {
         "key": "daniel",
-        "name": "Daniel",
-        "nameAr": "دَانْيَال"
+        "name": "Faisal",
+        "nameAr": "فَيْصَل"
       },
       {
         "key": "layla",
@@ -368,8 +368,8 @@
       {
         "id": "d36l3",
         "sp": "karim",
-        "ar": "جَمِيل! وَكَيْفَ ذَهَبْتَ إِلَى هُنَاكَ يَا دَانْيَال؟ بِالسَّيَّارَة أَمْ بِالْقِطَار؟",
-        "en": "Lovely! And how did you get there, Daniel? By car or by train?",
+        "ar": "جَمِيل! وَكَيْفَ ذَهَبْتَ إِلَى هُنَاكَ يَا فَيْصَل؟ بِالسَّيَّارَة أَمْ بِالْقِطَار؟",
+        "en": "Lovely! And how did you get there, Faisal? By car or by train?",
         "segs": [
           [
             "جَمِيل",
@@ -396,8 +396,8 @@
             "O (calling someone)"
           ],
           [
-            "دَانْيَال",
-            "Daniel (first name)",
+            "فَيْصَل",
+            "Faisal (first name)",
             "name"
           ],
           [
@@ -843,8 +843,8 @@
       {
         "id": "d36l13",
         "sp": "daniel",
-        "ar": "وَفِي الْقِطَار كَتَبْتُ رِسَالَة طَوِيلَة إِلَى أُخْتِي إِيمَا عَنْ كُلِّ شَيْء.",
-        "en": "And on the train I wrote a long message to my sister Emma about everything.",
+        "ar": "وَفِي الْقِطَار كَتَبْتُ رِسَالَة طَوِيلَة إِلَى أُخْتِي لُبْنَى عَنْ كُلِّ شَيْء.",
+        "en": "And on the train I wrote a long message to my sister Lubna about everything.",
         "segs": [
           [
             "وَفِي",
@@ -875,8 +875,8 @@
             "my sister"
           ],
           [
-            "إِيمَا",
-            "Emma (first name)",
+            "لُبْنَى",
+            "Lubna (first name)",
             "name"
           ],
           [
@@ -948,9 +948,9 @@
     ]
   },
   "reading": {
-    "title": "Daniel's diary",
-    "ar": "ذَهَبْتُ أَمْسِ إِلَى الْإِسْكَنْدَرِيَّة بِالْقِطَار. شَاهَدْتُ الْبَحْر، وَأَكَلْنَا سَمَكًا فِي مَطْعَم صَغِير. رَجَعْنَا إِلَى الْقَاهِرَة فِي الْمَسَاء، وَكَتَبْتُ رِسَالَة إِلَى إِيمَا.",
-    "en": "Yesterday I went to Alexandria by train. I saw the sea, and we ate fish in a small restaurant. We came back to Cairo in the evening, and I wrote a message to Emma.",
+    "title": "Faisal's diary",
+    "ar": "ذَهَبْتُ أَمْسِ إِلَى الْإِسْكَنْدَرِيَّة بِالْقِطَار. شَاهَدْتُ الْبَحْر، وَأَكَلْنَا سَمَكًا فِي مَطْعَم صَغِير. رَجَعْنَا إِلَى الْقَاهِرَة فِي الْمَسَاء، وَكَتَبْتُ رِسَالَة إِلَى لُبْنَى.",
+    "en": "Yesterday I went to Alexandria by train. I saw the sea, and we ate fish in a small restaurant. We came back to Cairo in the evening, and I wrote a message to Lubna.",
     "segs": [
       [
         "ذَهَبْتُ",
@@ -1035,8 +1035,8 @@
         "to"
       ],
       [
-        "إِيمَا",
-        "Emma (first name)",
+        "لُبْنَى",
+        "Lubna (first name)",
         "name"
       ]
     ]
@@ -1086,7 +1086,7 @@
     },
     {
       "id": "d36q4",
-      "prompt": "How did Daniel and Sami travel to Alexandria?",
+      "prompt": "How did Faisal and Sami travel to Alexandria?",
       "options": [
         "by car",
         "by bus",

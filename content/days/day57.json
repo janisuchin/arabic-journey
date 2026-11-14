@@ -17,7 +17,7 @@
   ],
   "emoji": "✈️",
   "summary": "Check in for a flight, show your passport, find your gate and ask politely whether something is possible with هَلْ مِنَ الْمُمْكِن أَنْ…؟",
-  "intro": "Daniel and Layla are flying from Cairo to Amman to visit their friend Yusuf, who is back home in Jordan. At the airport you need one polite question more than any other: هَلْ مِنَ الْمُمْكِن أَنْ…؟ (is it possible to…?). After أَنْ comes a verb that shows the person and ends in -a: هَلْ مِنَ الْمُمْكِن أَنْ أَجْلِسَ بِجَانِبِ النَّافِذَة؟ (could I sit by the window?). The friendly answer is نَعَم، مُمْكِن (yes, that's possible).",
+  "intro": "Faisal and Layla are flying from Cairo to Amman to visit their friend Yusuf, who is back home in Jordan. At the airport you need one polite question more than any other: هَلْ مِنَ الْمُمْكِن أَنْ…؟ (is it possible to…?). After أَنْ comes a verb that shows the person and ends in -a: هَلْ مِنَ الْمُمْكِن أَنْ أَجْلِسَ بِجَانِبِ النَّافِذَة؟ (could I sit by the window?). The friendly answer is نَعَم، مُمْكِن (yes, that's possible).",
   "objectives": [
     "Check in for a flight: show your passport and give your bags",
     "Ask politely with هَلْ مِنَ الْمُمْكِن أَنْ…؟ and answer with مُمْكِن",
@@ -27,7 +27,7 @@
   "realLife": {
     "emoji": "🛫",
     "title": "An afternoon at Cairo Airport",
-    "story": "Layla says you should always be at the airport two hours early, and she is right: the queue at the check-in desk is long. Daniel has his passport ready, asks for a window seat, and keeps one small bag with him for the short flight to Amman, where Yusuf is waiting.",
+    "story": "Layla says you should always be at the airport two hours early, and she is right: the queue at the check-in desk is long. Faisal has his passport ready, asks for a window seat, and keeps one small bag with him for the short flight to Amman, where Yusuf is waiting.",
     "photo": {"file": "day57.jpg", "alt": "Terminal 3 of Cairo International Airport: a long glass walkway with white steel columns.", "credit": {"title": "File:Cairo Airport Terminal 3.jpg", "author": "Alensha", "license": "CC BY-SA 4.0", "source": "https://commons.wikimedia.org/wiki/File:Cairo_Airport_Terminal_3.jpg", "accessed": "2026-11-11", "modified": "resized and re-encoded", "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"}}
   },
   "letters": [],
@@ -271,8 +271,8 @@
       },
       {
         "key": "daniel",
-        "name": "Daniel",
-        "nameAr": "دَانْيَال"
+        "name": "Faisal",
+        "nameAr": "فَيْصَل"
       },
       {
         "key": "clerk",
@@ -285,8 +285,8 @@
       {
         "id": "d57l1",
         "sp": "layla",
-        "ar": "مَسَاءُ الْخَيْر يَا دَانْيَال! رِحْلَتُنَا إِلَى عَمَّان فِي السَّاعَة السَّادِسَة، وَالْمَطَار مُزْدَحِم جِدًّا الْيَوْمَ.",
-        "en": "Good afternoon, Daniel! Our flight to Amman is at six o'clock, and the airport is very busy today.",
+        "ar": "مَسَاءُ الْخَيْر يَا فَيْصَل! رِحْلَتُنَا إِلَى عَمَّان فِي السَّاعَة السَّادِسَة، وَالْمَطَار مُزْدَحِم جِدًّا الْيَوْمَ.",
+        "en": "Good afternoon, Faisal! Our flight to Amman is at six o'clock, and the airport is very busy today.",
         "segs": [
           [
             "مَسَاءُ",
@@ -301,8 +301,8 @@
             "O (calling someone)"
           ],
           [
-            "دَانْيَال",
-            "Daniel (first name)",
+            "فَيْصَل",
+            "Faisal (first name)",
             "name"
           ],
           [
@@ -1043,8 +1043,8 @@
       {
         "id": "d57l13",
         "sp": "layla",
-        "ar": "شُكْرًا جَزِيلًا! يَا دَانْيَال، عِنْدَنَا سَاعَة قَبْلَ أَنْ نَذْهَبَ إِلَى الْبَوَّابَة. مَا رَأْيُكَ فِي فِنْجَانِ قَهْوَة؟",
-        "en": "Thank you very much! Daniel, we have an hour before we go to the gate. How about a cup of coffee?",
+        "ar": "شُكْرًا جَزِيلًا! يَا فَيْصَل، عِنْدَنَا سَاعَة قَبْلَ أَنْ نَذْهَبَ إِلَى الْبَوَّابَة. مَا رَأْيُكَ فِي فِنْجَانِ قَهْوَة؟",
+        "en": "Thank you very much! Faisal, we have an hour before we go to the gate. How about a cup of coffee?",
         "segs": [
           [
             "شُكْرًا",
@@ -1059,8 +1059,8 @@
             "O (calling someone)"
           ],
           [
-            "دَانْيَال",
-            "Daniel (first name)",
+            "فَيْصَل",
+            "Faisal (first name)",
             "name"
           ],
           [
@@ -1309,8 +1309,8 @@
   },
   "reading": {
     "title": "The flight to Amman",
-    "ar": "يَوْمَ الْخَمِيس ذَهَبَ دَانْيَال وَلَيْلَى إِلَى مَطَارِ الْقَاهِرَة. أَعْطَتْ لَيْلَى الْحَقَائِب لِلْمُوَظَّفَة، وَجَلَسَ دَانْيَال فِي الطَّائِرَة بِجَانِبِ النَّافِذَة. غَادَرَتِ الطَّائِرَة فِي السَّاعَة السَّادِسَة، وَوَصَلَتْ إِلَى عَمَّان فِي السَّاعَة الثَّامِنَة وَالنِّصْف. كَانَ يُوسُف يَنْتَظِرُهُمَا فِي الْمَطَار.",
-    "en": "On Thursday Daniel and Layla went to Cairo Airport. Layla gave the suitcases to the clerk, and Daniel sat by the window on the plane. The plane left at six o'clock and arrived in Amman at half past eight, local time. Yusuf was waiting for them at the airport.",
+    "ar": "يَوْمَ الْخَمِيس ذَهَبَ فَيْصَل وَلَيْلَى إِلَى مَطَارِ الْقَاهِرَة. أَعْطَتْ لَيْلَى الْحَقَائِب لِلْمُوَظَّفَة، وَجَلَسَ فَيْصَل فِي الطَّائِرَة بِجَانِبِ النَّافِذَة. غَادَرَتِ الطَّائِرَة فِي السَّاعَة السَّادِسَة، وَوَصَلَتْ إِلَى عَمَّان فِي السَّاعَة الثَّامِنَة وَالنِّصْف. كَانَ يُوسُف يَنْتَظِرُهُمَا فِي الْمَطَار.",
+    "en": "On Thursday Faisal and Layla went to Cairo Airport. Layla gave the suitcases to the clerk, and Faisal sat by the window on the plane. The plane left at six o'clock and arrived in Amman at half past eight, local time. Yusuf was waiting for them at the airport.",
     "segs": [
       [
         "يَوْمَ",
@@ -1325,8 +1325,8 @@
         "(he) went"
       ],
       [
-        "دَانْيَال",
-        "Daniel (first name)",
+        "فَيْصَل",
+        "Faisal (first name)",
         "name"
       ],
       [
@@ -1369,8 +1369,8 @@
         "and (he) sat"
       ],
       [
-        "دَانْيَال",
-        "Daniel (first name)",
+        "فَيْصَل",
+        "Faisal (first name)",
         "name"
       ],
       [
@@ -1483,7 +1483,7 @@
     },
     {
       "id": "d57q2",
-      "prompt": "Where are Daniel and Layla flying to?",
+      "prompt": "Where are Faisal and Layla flying to?",
       "options": [
         "Beirut",
         "Alexandria",

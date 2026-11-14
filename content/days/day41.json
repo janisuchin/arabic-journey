@@ -27,7 +27,7 @@
   "realLife": {
     "emoji": "🤒",
     "title": "An empty seat on Thursday",
-    "story": "Daniel missed class on Thursday and didn't answer his phone all weekend. On Sunday morning Mr Karim, Layla and Sami want to know what happened, and Daniel still doesn't look quite well.",
+    "story": "Faisal missed class on Thursday and didn't answer his phone all weekend. On Sunday morning Mr Karim, Layla and Sami want to know what happened, and Faisal still doesn't look quite well.",
     "photo": {"file": "day41.jpg", "alt": "An empty classroom with rows of wooden desks and benches, ceiling fans and large windows.", "credit": {"title": "File:Rows of Desks in Lecture Theatre.jpg", "author": "Paul The Writer", "license": "CC0", "source": "https://commons.wikimedia.org/wiki/File:Rows_of_Desks_in_Lecture_Theatre.jpg", "accessed": "2026-11-11", "modified": "resized and re-encoded", "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"}}
   },
   "letters": [],
@@ -97,9 +97,9 @@
     },
     {
       "id": "d41s2",
-      "ar": "لَمْ يَحْضُرْ دَانْيَال الدَّرْسَ.",
-      "en": "Daniel didn't come to the lesson.",
-      "literal": "not attends Daniel the lesson",
+      "ar": "لَمْ يَحْضُرْ فَيْصَل الدَّرْسَ.",
+      "en": "Faisal didn't come to the lesson.",
+      "literal": "not attends Faisal the lesson",
       "segs": [
         [
           "لَمْ",
@@ -112,8 +112,8 @@
           "verb"
         ],
         [
-          "دَانْيَال",
-          "Daniel (first name)",
+          "فَيْصَل",
+          "Faisal (first name)",
           "name"
         ],
         [
@@ -127,8 +127,8 @@
       ],
       "mistakes": [
         {
-          "wrong": "لَمْ يَحْضُرُ دَانْيَال الدَّرْسَ",
-          "right": "لَمْ يَحْضُرْ دَانْيَال الدَّرْسَ",
+          "wrong": "لَمْ يَحْضُرُ فَيْصَل الدَّرْسَ",
+          "right": "لَمْ يَحْضُرْ فَيْصَل الدَّرْسَ",
           "why": "After لَمْ the final -u of the verb becomes a sukūn: yaḥḍur, not yaḥḍuru."
         }
       ]
@@ -237,8 +237,8 @@
       },
       {
         "key": "daniel",
-        "name": "Daniel",
-        "nameAr": "دَانْيَال"
+        "name": "Faisal",
+        "nameAr": "فَيْصَل"
       },
       {
         "key": "layla",
@@ -256,8 +256,8 @@
       {
         "id": "d41l1",
         "sp": "karim",
-        "ar": "صَبَاحُ الْخَيْر يَا دَانْيَال. لَمْ تَحْضُرِ الدَّرْسَ يَوْمَ الْخَمِيس. هَلْ كُلُّ شَيْء بِخَيْر؟",
-        "en": "Good morning, Daniel. You didn't come to the lesson on Thursday. Is everything all right?",
+        "ar": "صَبَاحُ الْخَيْر يَا فَيْصَل. لَمْ تَحْضُرِ الدَّرْسَ يَوْمَ الْخَمِيس. هَلْ كُلُّ شَيْء بِخَيْر؟",
+        "en": "Good morning, Faisal. You didn't come to the lesson on Thursday. Is everything all right?",
         "segs": [
           [
             "صَبَاحُ",
@@ -272,8 +272,8 @@
             "O (calling someone)"
           ],
           [
-            "دَانْيَال",
-            "Daniel (first name)",
+            "فَيْصَل",
+            "Faisal (first name)",
             "name"
           ],
           [
@@ -626,8 +626,8 @@
       {
         "id": "d41l8",
         "sp": "karim",
-        "ar": "وَالْوَاجِب يَا دَانْيَال؟ هَلْ كَتَبْتَ الْجُمَلَ الْخَمْسَ عَنِ الْأُسْبُوعِ الْمَاضِي؟",
-        "en": "And the homework, Daniel? Did you write the five sentences about last week?",
+        "ar": "وَالْوَاجِب يَا فَيْصَل؟ هَلْ كَتَبْتَ الْجُمَلَ الْخَمْسَ عَنِ الْأُسْبُوعِ الْمَاضِي؟",
+        "en": "And the homework, Faisal? Did you write the five sentences about last week?",
         "segs": [
           [
             "وَالْوَاجِب",
@@ -638,8 +638,8 @@
             "O (calling someone)"
           ],
           [
-            "دَانْيَال",
-            "Daniel (first name)",
+            "فَيْصَل",
+            "Faisal (first name)",
             "name"
           ],
           [
@@ -899,16 +899,16 @@
       {
         "id": "d41l13",
         "sp": "karim",
-        "ar": "يَا دَانْيَال، إِذَا لَمْ تَشْعُرْ بِتَحَسُّن غَدًا، اِذْهَبْ إِلَى الطَّبِيب، مِنْ فَضْلِكَ.",
-        "en": "Daniel, if you don't feel any better tomorrow, please go to the doctor.",
+        "ar": "يَا فَيْصَل، إِذَا لَمْ تَشْعُرْ بِتَحَسُّن غَدًا، اِذْهَبْ إِلَى الطَّبِيب، مِنْ فَضْلِكَ.",
+        "en": "Faisal, if you don't feel any better tomorrow, please go to the doctor.",
         "segs": [
           [
             "يَا",
             "O (calling someone)"
           ],
           [
-            "دَانْيَال",
-            "Daniel (first name)",
+            "فَيْصَل",
+            "Faisal (first name)",
             "name"
           ],
           [
@@ -1145,7 +1145,7 @@
     },
     {
       "id": "d41q3",
-      "prompt": "Why didn't Daniel come to class on Thursday?",
+      "prompt": "Why didn't Faisal come to class on Thursday?",
       "options": [
         "He was in Alexandria.",
         "He was a little tired.",
@@ -1156,7 +1156,7 @@
     },
     {
       "id": "d41q4",
-      "prompt": "Where did Daniel leave his phone?",
+      "prompt": "Where did Faisal leave his phone?",
       "options": [
         "in the kitchen",
         "on the train",

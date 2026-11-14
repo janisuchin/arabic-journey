@@ -17,7 +17,7 @@
   ],
   "emoji": "🙂",
   "summary": "Say how you feel: tired, happy, sad, worried, angry, hungry or thirsty, with the right form for a man or a woman.",
-  "intro": "Layla and Sami visit Daniel at his flat with a pot of soup. Feelings are adjectives, so they agree with the person: أَنَا مُتْعَب (a man) but أَنَا مُتْعَبَة (a woman). Adjectives on the pattern faʿlān, like عَطْشَان (thirsty) and غَضْبَان (angry), make their feminine with -ā: عَطْشَى, غَضْبَى. To ask how someone feels, say كَيْفَ تَشْعُرُ؟ to a man and كَيْفَ تَشْعُرِينَ؟ to a woman.",
+  "intro": "Layla and Sami visit Faisal at his flat with a pot of soup. Feelings are adjectives, so they agree with the person: أَنَا مُتْعَب (a man) but أَنَا مُتْعَبَة (a woman). Adjectives on the pattern faʿlān, like عَطْشَان (thirsty) and غَضْبَان (angry), make their feminine with -ā: عَطْشَى, غَضْبَى. To ask how someone feels, say كَيْفَ تَشْعُرُ؟ to a man and كَيْفَ تَشْعُرِينَ؟ to a woman.",
   "objectives": [
     "Name seven feelings: tired, happy, sad, worried, angry, hungry, thirsty",
     "Use the masculine and feminine forms correctly",
@@ -27,7 +27,7 @@
   "realLife": {
     "emoji": "🍲",
     "title": "Soup for the patient",
-    "story": "On Wednesday afternoon Layla and Sami knock on Daniel's door with hot lentil soup. Daniel is bored and a little sad after three days at home. His mother in Chicago is worried too, but the visit makes everyone happy, even hungry Sami.",
+    "story": "On Wednesday afternoon Layla and Sami knock on Faisal's door with hot lentil soup. Faisal is bored and a little sad after three days at home. His mother in Chicago is worried too, but the visit makes everyone happy, even hungry Sami.",
     "photo": {"file": "day46.jpg", "alt": "Lentil soup served in a hollowed-out loaf of bread, with carrot and lemon on top, at a Cairo restaurant.", "credit": {"title": "File:Lentil soup served in a bread bowl at Koshary Abou Tarek, Cairo.jpg", "author": "07", "license": "CC BY-SA 4.0", "source": "https://commons.wikimedia.org/wiki/File:Lentil_soup_served_in_a_bread_bowl_at_Koshary_Abou_Tarek,_Cairo.jpg", "accessed": "2026-11-11", "modified": "resized and re-encoded", "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"}}
   },
   "letters": [],
@@ -77,9 +77,9 @@
     },
     {
       "id": "d46s2",
-      "ar": "لَيْلَى قَلِقَة عَلَى دَانْيَال.",
-      "en": "Layla is worried about Daniel.",
-      "literal": "Layla (is) worried about Daniel",
+      "ar": "لَيْلَى قَلِقَة عَلَى فَيْصَل.",
+      "en": "Layla is worried about Faisal.",
+      "literal": "Layla (is) worried about Faisal",
       "segs": [
         [
           "لَيْلَى",
@@ -97,8 +97,8 @@
           "prep"
         ],
         [
-          "دَانْيَال",
-          "Daniel (first name)",
+          "فَيْصَل",
+          "Faisal (first name)",
           "name"
         ]
       ],
@@ -216,9 +216,9 @@
     },
     {
       "id": "d46s6",
-      "ar": "سَامِي جَائِع، وَدَانْيَال عَطْشَان.",
-      "en": "Sami is hungry, and Daniel is thirsty.",
-      "literal": "Sami (is) hungry, and Daniel (is) thirsty",
+      "ar": "سَامِي جَائِع، وَفَيْصَل عَطْشَان.",
+      "en": "Sami is hungry, and Faisal is thirsty.",
+      "literal": "Sami (is) hungry, and Faisal (is) thirsty",
       "segs": [
         [
           "سَامِي",
@@ -231,8 +231,8 @@
           "adj"
         ],
         [
-          "وَدَانْيَال",
-          "and Daniel (first name)",
+          "وَفَيْصَل",
+          "and Faisal (first name)",
           "name"
         ],
         [
@@ -257,8 +257,8 @@
       },
       {
         "key": "daniel",
-        "name": "Daniel",
-        "nameAr": "دَانْيَال"
+        "name": "Faisal",
+        "nameAr": "فَيْصَل"
       },
       {
         "key": "sami",
@@ -271,8 +271,8 @@
       {
         "id": "d46l1",
         "sp": "layla",
-        "ar": "مَرْحَبًا يَا دَانْيَال! أَحْضَرْنَا لَكَ شُورْبَةَ عَدَس سَاخِنَة. كَيْفَ تَشْعُرُ الْيَوْمَ؟",
-        "en": "Hello, Daniel! We have brought you some hot lentil soup. How do you feel today?",
+        "ar": "مَرْحَبًا يَا فَيْصَل! أَحْضَرْنَا لَكَ شُورْبَةَ عَدَس سَاخِنَة. كَيْفَ تَشْعُرُ الْيَوْمَ؟",
+        "en": "Hello, Faisal! We have brought you some hot lentil soup. How do you feel today?",
         "segs": [
           [
             "مَرْحَبًا",
@@ -283,8 +283,8 @@
             "O (calling someone)"
           ],
           [
-            "دَانْيَال",
-            "Daniel (first name)",
+            "فَيْصَل",
+            "Faisal (first name)",
             "name"
           ],
           [
@@ -748,8 +748,8 @@
       {
         "id": "d46l10",
         "sp": "layla",
-        "ar": "لَا يَا سَامِي! الشُّورْبَة لِدَانْيَال لِأَنَّهُ مَرِيض، وَأَنْتَ دَائِمًا جَائِع!",
-        "en": "No, Sami! The soup is for Daniel because he is ill, and you are always hungry!",
+        "ar": "لَا يَا سَامِي! الشُّورْبَة لِفَيْصَل لِأَنَّهُ مَرِيض، وَأَنْتَ دَائِمًا جَائِع!",
+        "en": "No, Sami! The soup is for Faisal because he is ill, and you are always hungry!",
         "segs": [
           [
             "لَا",
@@ -769,8 +769,8 @@
             "the soup"
           ],
           [
-            "لِدَانْيَال",
-            "for Daniel (first name)",
+            "لِفَيْصَل",
+            "for Faisal (first name)",
             "name"
           ],
           [
@@ -1045,12 +1045,12 @@
   },
   "reading": {
     "title": "Three friends",
-    "ar": "دَانْيَال مَرِيض فِي الْبَيْت. هُوَ أَحْسَن قَلِيلًا، لٰكِنَّهُ مُتْعَب وَيَشْعُرُ بِالْمَلَل. زَارَتْهُ لَيْلَى وَسَامِي مَعَ شُورْبَة سَاخِنَة. كَانَ سَامِي جَائِعًا، وَكَانَتْ لَيْلَى قَلِقَة. فِي النِّهَايَة، الْأَصْدِقَاء الثَّلَاثَة سُعَدَاء.",
-    "en": "Daniel is ill at home. He is a little better, but he is tired and feels bored. Layla and Sami visited him with hot soup. Sami was hungry, and Layla was worried. In the end, the three friends are happy.",
+    "ar": "فَيْصَل مَرِيض فِي الْبَيْت. هُوَ أَحْسَن قَلِيلًا، لٰكِنَّهُ مُتْعَب وَيَشْعُرُ بِالْمَلَل. زَارَتْهُ لَيْلَى وَسَامِي مَعَ شُورْبَة سَاخِنَة. كَانَ سَامِي جَائِعًا، وَكَانَتْ لَيْلَى قَلِقَة. فِي النِّهَايَة، الْأَصْدِقَاء الثَّلَاثَة سُعَدَاء.",
+    "en": "Faisal is ill at home. He is a little better, but he is tired and feels bored. Layla and Sami visited him with hot soup. Sami was hungry, and Layla was worried. In the end, the three friends are happy.",
     "segs": [
       [
-        "دَانْيَال",
-        "Daniel (first name)",
+        "فَيْصَل",
+        "Faisal (first name)",
         "name"
       ],
       [
@@ -1203,7 +1203,7 @@
     },
     {
       "id": "d46q3",
-      "prompt": "Why is Daniel a little sad?",
+      "prompt": "Why is Faisal a little sad?",
       "options": [
         "He is not going to school",
         "His mother is angry",
@@ -1217,8 +1217,8 @@
       "prompt": "Who is hungry in the dialogue?",
       "options": [
         "Layla",
-        "Daniel",
-        "Daniel's mother",
+        "Faisal",
+        "Faisal's mother",
         "Sami"
       ],
       "answer": 3

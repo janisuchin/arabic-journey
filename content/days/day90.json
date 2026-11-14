@@ -27,7 +27,7 @@
   "realLife": {
     "emoji": "🎓",
     "title": "The graduation party",
-    "story": "On the last evening of the course, the classroom looks different: the desks are pushed against the wall, Sami's mother has sent a tray of sweets, and there is a pile of certificates on Mr Karim's desk. Before anyone can take one, there is a rule: say in Arabic what you will do next. Daniel already has a plane ticket to Amman in his pocket, Layla is still waiting for an answer from Cairo University, and Sami has a plan nobody expected.",
+    "story": "On the last evening of the course, the classroom looks different: the desks are pushed against the wall, Sami's mother has sent a tray of sweets, and there is a pile of certificates on Mr Karim's desk. Before anyone can take one, there is a rule: say in Arabic what you will do next. Faisal already has a plane ticket to Amman in his pocket, Layla is still waiting for an answer from Cairo University, and Sami has a plan nobody expected.",
     "photo": {"file": "day90.jpg", "alt": "Graduates in caps and gowns seen from behind at a ceremony, in black and white.", "credit": {"title": "File:Graduation-cap-g6c3c0e4d0 1920.jpg", "author": "McElspeth", "license": "CC0", "source": "https://commons.wikimedia.org/wiki/File:Graduation-cap-g6c3c0e4d0_1920.jpg", "accessed": "2026-11-11", "modified": "resized and re-encoded", "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"}}
   },
   "letters": [],
@@ -348,8 +348,8 @@
       },
       {
         "key": "daniel",
-        "name": "Daniel",
-        "nameAr": "دَانْيَال"
+        "name": "Faisal",
+        "nameAr": "فَيْصَل"
       },
       {
         "key": "layla",
@@ -511,8 +511,8 @@
       {
         "id": "d90l3",
         "sp": "karim",
-        "ar": "وَالْيَوْمَ تَتَكَلَّمُ عَنِ الْمَاضِي وَالْمُسْتَقْبَل يَا دَانْيَال! تَفَضَّلْ، هٰذِهِ شَهَادَتُكَ. مَاذَا سَتَفْعَلُ بَعْدَ الدَّوْرَة؟",
-        "en": "And today you can talk about the past and the future, Daniel! Here you are, this is your certificate. What will you do after the course?",
+        "ar": "وَالْيَوْمَ تَتَكَلَّمُ عَنِ الْمَاضِي وَالْمُسْتَقْبَل يَا فَيْصَل! تَفَضَّلْ، هٰذِهِ شَهَادَتُكَ. مَاذَا سَتَفْعَلُ بَعْدَ الدَّوْرَة؟",
+        "en": "And today you can talk about the past and the future, Faisal! Here you are, this is your certificate. What will you do after the course?",
         "segs": [
           [
             "وَالْيَوْمَ",
@@ -539,8 +539,8 @@
             "O (calling someone)"
           ],
           [
-            "دَانْيَال",
-            "Daniel (first name)",
+            "فَيْصَل",
+            "Faisal (first name)",
             "name"
           ],
           [
@@ -1190,8 +1190,8 @@
       {
         "id": "d90l12",
         "sp": "sami",
-        "ar": "وَاللَّهَجَات يَا أُسْتَاذ؟ دَانْيَال سَيَسْمَعُ اللَّهْجَةَ الْأُرْدُنِّيَّة فِي الشَّارِع، وَهِيَ مُخْتَلِفَة عَنِ الْفُصْحَى. هَلْ هٰذِهِ مُشْكِلَة؟",
-        "en": "And what about the dialects, sir? Daniel will hear the Jordanian dialect in the street, and it's different from standard Arabic. Is that a problem?",
+        "ar": "وَاللَّهَجَات يَا أُسْتَاذ؟ فَيْصَل سَيَسْمَعُ اللَّهْجَةَ الْأُرْدُنِّيَّة فِي الشَّارِع، وَهِيَ مُخْتَلِفَة عَنِ الْفُصْحَى. هَلْ هٰذِهِ مُشْكِلَة؟",
+        "en": "And what about the dialects, sir? Faisal will hear the Jordanian dialect in the street, and it's different from standard Arabic. Is that a problem?",
         "segs": [
           [
             "وَاللَّهَجَات",
@@ -1206,8 +1206,8 @@
             "teacher ('sir')"
           ],
           [
-            "دَانْيَال",
-            "Daniel (first name)",
+            "فَيْصَل",
+            "Faisal (first name)",
             "name"
           ],
           [
@@ -1566,8 +1566,8 @@
   },
   "reading": {
     "title": "The last day",
-    "ar": "فِي آخِرِ يَوْمٍ مِنَ الدَّوْرَةِ أَقَامَ الْأُسْتَاذ كَرِيم حَفْلَةَ تَخَرُّجٍ، وَأَعْطَى كُلَّ طَالِبٍ شَهَادَة. قَالَ دَانْيَال إِنَّهُ سَيُسَافِرُ إِلَى الْأُرْدُنّ. وَهَدَفُ لَيْلَى أَنْ تَقْرَأَ رِوَايَةً كُلَّ شَهْر، وَسَامِي سَيَكْتُبُ قِصَّةً كُلَّ أُسْبُوع. وَنَصَحَهُمُ الْأُسْتَاذُ كَرِيم بِأَنْ يَقْرَؤُوا يَوْمِيًّا وَيَبْحَثُوا عَنْ شَرِيكِ مُحَادَثَة. هٰذِهِ لَيْسَتْ نِهَايَة، بَلْ بِدَايَة.",
-    "en": "On the last day of the course, Mr Karim held a graduation party and gave every student a certificate. Daniel said that he will travel to Jordan. Layla's goal is to read a novel every month, and Sami will write a story every week. Mr Karim advised them to read daily and to look for a conversation partner. This is not an end, but a beginning.",
+    "ar": "فِي آخِرِ يَوْمٍ مِنَ الدَّوْرَةِ أَقَامَ الْأُسْتَاذ كَرِيم حَفْلَةَ تَخَرُّجٍ، وَأَعْطَى كُلَّ طَالِبٍ شَهَادَة. قَالَ فَيْصَل إِنَّهُ سَيُسَافِرُ إِلَى الْأُرْدُنّ. وَهَدَفُ لَيْلَى أَنْ تَقْرَأَ رِوَايَةً كُلَّ شَهْر، وَسَامِي سَيَكْتُبُ قِصَّةً كُلَّ أُسْبُوع. وَنَصَحَهُمُ الْأُسْتَاذُ كَرِيم بِأَنْ يَقْرَؤُوا يَوْمِيًّا وَيَبْحَثُوا عَنْ شَرِيكِ مُحَادَثَة. هٰذِهِ لَيْسَتْ نِهَايَة، بَلْ بِدَايَة.",
+    "en": "On the last day of the course, Mr Karim held a graduation party and gave every student a certificate. Faisal said that he will travel to Jordan. Layla's goal is to read a novel every month, and Sami will write a story every week. Mr Karim advised them to read daily and to look for a conversation partner. This is not an end, but a beginning.",
     "segs": [
       [
         "فِي",
@@ -1631,8 +1631,8 @@
         "(he) said"
       ],
       [
-        "دَانْيَال",
-        "Daniel (first name)",
+        "فَيْصَل",
+        "Faisal (first name)",
         "name"
       ],
       [
@@ -1787,7 +1787,7 @@
     },
     {
       "id": "d90q2",
-      "prompt": "Where will Daniel go next month, and for how long?",
+      "prompt": "Where will Faisal go next month, and for how long?",
       "options": [
         "to Jordan, for three months",
         "to Chicago, for a week",

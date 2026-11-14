@@ -398,6 +398,18 @@ function namedBefore(name: string, before: string) {
     .endsWith(plainLatin(name));
 }
 
+/**
+ * The pause form of one word (waqf): a final short vowel or -un/-in is dropped, -an becomes -ā, -atun becomes -a
+ * (ṭālibatāni → ṭālibatān, marḥaban → marḥabā). Undefined when it is the same as the full reading.
+ */
+export function pauseReading(word: string, full: string, style: TranslitStyle): string | undefined {
+  if (/\s/.test(word.trim())) return undefined;
+  const bare = word.replace(/[ً-ٍ](?=[اى]?$)/, '').replace(/[َ-ِْ]$/, '');
+  if (bare === word) return undefined;
+  const p = translitLine(bare, style);
+  return p && p.toLowerCase() !== full.toLowerCase() ? p : undefined;
+}
+
 /** Whole-line transliteration, e.g. for the gold transliteration line. */
 export function translitLine(text: string, style: TranslitStyle, names?: Set<string>) {
   const line = tapTokens(text, style, names)

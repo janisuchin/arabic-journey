@@ -1,13 +1,92 @@
 import { router } from 'expo-router';
-import type { ReactNode } from 'react';
+import { useEffect, useState, type ReactNode } from 'react';
 import { Pressable, Switch, View } from 'react-native';
 
 import { DONATE_URL, VERSION } from '@/base/config';
 import { THEME_NAMES, paletteFor } from '@/base/palette';
 import { AppText, Button, Card, Row, Screen, SectionTitle } from '@/components/ui';
 import { contentIssues } from '@/content';
+import { arabicVoices, type ArabicVoice } from '@/services/tts';
 import { useCurrentLearner, usePalette, useSettings } from '@/state/hooks';
 import { useLearner, useProfiles, type Settings as S } from '@/state/store';
+
+/** Arabic voices on this device, best first. Voices marked "Natural" / "Online" read the vowel marks properly. */
+function VoicePicker({ value, onChange }: { value: string | null; onChange: (v: string | null) => void }) {
+  const c = usePalette();
+  const [voices, setVoices] = useState<ArabicVoice[] | null>(null);
+  useEffect(() => {
+    void arabicVoices().then(setVoices);
+  }, []);
+  const best = voices?.[0];
+  return (
+    <View style={{ gap: 6 }} testID="voice-picker">
+      <AppText>Arabic voice</AppText>
+      {voices === null ? (
+        <AppText size={12} muted>
+          Looking for Arabic voices…
+        </AppText>
+      ) : voices.length === 0 ? (
+        <AppText size={12} muted>
+          No Arabic voice is listed by this device. Install an Arabic voice in your system settings (on Windows: Settings › Time
+          &amp; language › Speech), or use Microsoft Edge or Chrome, which offer online Arabic voices.
+        </AppText>
+      ) : (
+        <>
+          <Row wrap gap={6}>
+            <Chip label={`Automatic${best ? ` (${best.name})` : ''}`} selected={!value} onPress={() => onChange(null)} c={c} />
+            {voices.slice(0, 12).map((v) => (
+              <Chip
+                key={v.id}
+                label={`${v.name} (${v.language})`}
+                selected={value === v.id}
+                onPress={() => onChange(v.id)}
+                c={c}
+              />
+            ))}
+          </Row>
+          {best && best.rank < 10 && (
+            <AppText size={12} muted>
+              Only basic Arabic voices were found. They often skip the short vowels (بُنِيَتْ may sound like “bunī”). For clearer
+              vowels, open the app in Microsoft Edge (Natural voices) or Chrome (Google voice).
+            </AppText>
+          )}
+        </>
+      )}
+    </View>
+  );
+}
+
+function Chip({
+  label,
+  selected,
+  onPress,
+  c,
+}: {
+  label: string;
+  selected: boolean;
+  onPress: () => void;
+  c: ReturnType<typeof usePalette>;
+}) {
+  return (
+    <Pressable
+      accessibilityRole="button"
+      accessibilityState={{ selected }}
+      onPress={onPress}
+      style={{
+        minHeight: 40,
+        paddingHorizontal: 12,
+        justifyContent: 'center',
+        borderRadius: 20,
+        borderWidth: 1,
+        borderColor: selected ? c.accent : c.border,
+        backgroundColor: selected ? c.accentSoft : c.card,
+      }}>
+      <AppText size={13} weight={selected ? '800' : '400'}>
+        {label}
+      </AppText>
+    </Pressable>
+  );
+}
 
 function Toggle({
   label,
@@ -179,9 +258,10 @@ export default function SettingsScreen() {
             { v: 0.7, label: '70%' },
           ]}
         />
+        <VoicePicker value={s.voiceId} onChange={set('voiceId')} />
         <AppText size={12} muted>
-          The voice is your device&apos;s text-to-speech for Arabic (ar-SA): a computer-generated voice, not a native-speaker
-          recording. If no Arabic voice is installed, nothing is heard.
+          The voice is your device&apos;s text-to-speech for Arabic: a computer-generated voice, not a native-speaker recording.
+          If no Arabic voice is installed, nothing is heard.
         </AppText>
       </Section>
       <Section title="Speaking">

@@ -2,11 +2,9 @@
 // dialogue bubbles and the quiz.
 
 import { router } from 'expo-router';
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import { Pressable, Text, View } from 'react-native';
-import * as Speech from 'expo-speech';
 
-import { TTS_LOCALE } from '../base/config';
 import { START, webLang } from '../base/rtl';
 import { asksReading, promptGivesAway, seededShuffle, score as scoreOf } from '../core/answer';
 import { hasScript, stripHarakat } from '../core/arabic';
@@ -17,23 +15,28 @@ import { tts } from '../services/tts';
 import { useFs, usePalette, useSettings } from '../state/hooks';
 import { useLearner } from '../state/store';
 import { WordTile } from '../components/photo';
-import { GlossPlace, MistakeScope, QuestionScope, RichText, TapText, WordBox } from '../components/tap';
+import { GlossPlace, ListenButtons, MistakeScope, QuestionScope, RichText, TapText, WordBox } from '../components/tap';
 import { AR_FONT, AppText, ArText, Button, Card, IconButton, Pill, Row, TrText } from '../components/ui';
 
 const POS_COLOURS: Record<string, string> = {
-  noun: '#2F80ED',
+  // masculine (#1C7ED6) and feminine (#C2255C) are kept for gender only: no type colour may look like them
+  noun: '#495057',
   verb: '#D9480F',
   adj: '#2B8A3E',
   pronoun: '#7048E8',
   particle: '#868E96',
   prep: '#868E96',
-  question: '#C2255C',
+  question: '#8F5E15',
   name: '#0B7285',
   number: '#E67700',
   phrase: '#5F3DC4',
   demonstrative: '#7048E8',
-  adverb: '#2B8A3E',
+  adverb: '#5C940D',
 };
+
+/** One colour rule everywhere a word is shown: gender for nouns, otherwise its type. */
+export const wordColour = (v: Vocab, fallback: string) =>
+  v.gender === 'f' ? '#C2255C' : v.gender === 'm' ? '#1C7ED6' : (POS_COLOURS[v.pos] ?? fallback);
 
 // ------------------------------------------------------------------ word card
 
@@ -41,7 +44,7 @@ export function WordCard({ v, compact }: { v: Vocab; compact?: boolean }) {
   const c = usePalette();
   const settings = useSettings();
   const [open, setOpen] = useState<WordInfo | null>(null);
-  const colour = v.gender === 'f' ? '#C2255C' : v.gender === 'm' ? '#1C7ED6' : (POS_COLOURS[v.pos] ?? c.text);
+  const colour = wordColour(v, c.text);
   const tr = v.tr ?? translitLine(v.ar, settings.translitStyle);
   return (
     <GlossPlace place={`vocab:${v.id}`}>
@@ -91,6 +94,7 @@ export function WordCard({ v, compact }: { v: Vocab; compact?: boolean }) {
           <View style={{ borderTopWidth: 1, borderColor: c.border, paddingTop: 6 }}>
             <TapText text={v.example.ar} size={20} interactive={false} />
             {settings.showTranslations && <AppText size={14}>{v.example.en}</AppText>}
+            <ListenButtons text={v.example.ar} label="example sentence" testID={`word-example-${v.id}`} />
           </View>
         )}
         {!compact && v.note && (
@@ -116,9 +120,21 @@ export function GenderLegend() {
       <AppText size={13} color="#C2255C" weight="700">
         ■ feminine
       </AppText>
-      <AppText size={13} muted>
-        other words are coloured by type
-      </AppText>
+      {(
+        [
+          ['verb', 'verb'],
+          ['adj', 'adjective'],
+          ['adverb', 'adverb'],
+          ['question', 'question word'],
+          ['pronoun', 'pronoun'],
+          ['phrase', 'phrase'],
+          ['number', 'number'],
+        ] as const
+      ).map(([pos, label]) => (
+        <AppText key={pos} size={13} color={POS_COLOURS[pos]} weight="700">
+          ■ {label}
+        </AppText>
+      ))}
     </Row>
   );
 }
@@ -229,14 +245,28 @@ export function Dialogue({
   const [hideEn, setHideEn] = useState(false);
   const [playing, setPlaying] = useState<number | null>(null);
   const order = speakers.map((s) => s.key);
-  const playFrom = (i: number) => {
+  // "Play all" chains line after line; leaving the page (or Stop) must end the chain, not just the current line
+  const run = useRef(0);
+  useEffect(
+    () => () => {
+      run.current++;
+      tts.stop();
+    },
+    [],
+  );
+  const stopAll = () => {
+    run.current++;
+    tts.stop();
+    setPlaying(null);
+  };
+  const playFrom = (i: number, id = ++run.current) => {
+    if (id !== run.current) return;
     if (i >= lines.length) return setPlaying(null);
     setPlaying(i);
     try {
-      Speech.speak(lines[i].ar, {
-        language: TTS_LOCALE,
+      tts.speak(lines[i].ar, {
         rate: settings.speechRate,
-        onDone: () => playFrom(i + 1),
+        onDone: () => playFrom(i + 1, id),
         onError: () => setPlaying(null),
         onStopped: () => setPlaying(null),
       });
@@ -253,10 +283,7 @@ export function Dialogue({
           label={playing === null ? 'Play all' : 'Stop'}
           onPress={() => {
             if (playing === null) playFrom(0);
-            else {
-              tts.stop();
-              setPlaying(null);
-            }
+            else stopAll();
           }}
         />
         <Button

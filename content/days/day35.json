@@ -27,7 +27,7 @@
   "realLife": {
     "emoji": "🎉",
     "title": "A house full of relatives",
-    "story": "The next Friday Sami's relatives come for lunch: his father's brother Mustafa with his wife Salma, and his mother's sister Huda with her son Khalid, who studies in Alexandria. Daniel tries hard to remember who is who, and Sami draws him a family tree on a napkin.",
+    "story": "The next Friday Sami's relatives come for lunch: his father's brother Mustafa with his wife Salma, and his mother's sister Huda with her son Khalid, who studies in Alexandria. Faisal tries hard to remember who is who, and Sami draws him a family tree on a napkin.",
     "photo": {"file": "day35.jpg", "alt": "An old black-and-white photograph of guests sitting on rugs inside a large Bedouin tent in Transjordan.", "credit": {"title": "File:Bedouin life in Trans-Jordan. Guests in the sheik's tent LOC matpc.15659.jpg", "author": "Matson Collection", "license": "Public domain", "source": "https://commons.wikimedia.org/wiki/File:Bedouin_life_in_Trans-Jordan._Guests_in_the_sheik%27s_tent_LOC_matpc.15659.jpg", "accessed": "2026-11-11", "modified": "resized and re-encoded"}}
   },
   "letters": [],
@@ -262,8 +262,8 @@
       },
       {
         "key": "daniel",
-        "name": "Daniel",
-        "nameAr": "دَانْيَال"
+        "name": "Faisal",
+        "nameAr": "فَيْصَل"
       },
       {
         "key": "huda",
@@ -281,16 +281,16 @@
       {
         "id": "d35l1",
         "sp": "sami",
-        "ar": "يَا دَانْيَال، تَعَالَ! هٰذَا عَمِّي مُصْطَفَى، أَخُو أَبِي، وَهٰذِهِ زَوْجَتُهُ سَلْمَى.",
-        "en": "Daniel, come here! This is my uncle Mustafa, my father's brother, and this is his wife Salma.",
+        "ar": "يَا فَيْصَل، تَعَالَ! هٰذَا عَمِّي مُصْطَفَى، أَخُو أَبِي، وَهٰذِهِ زَوْجَتُهُ سَلْمَى.",
+        "en": "Faisal, come here! This is my uncle Mustafa, my father's brother, and this is his wife Salma.",
         "segs": [
           [
             "يَا",
             "O (calling someone)"
           ],
           [
-            "دَانْيَال",
-            "Daniel (first name)",
+            "فَيْصَل",
+            "Faisal (first name)",
             "name"
           ],
           [
@@ -447,8 +447,8 @@
       {
         "id": "d35l4",
         "sp": "huda",
-        "ar": "أَهْلًا وَسَهْلًا يَا دَانْيَال! سَامِي يَتَكَلَّمُ عَنْكَ كَثِيرًا. وَهٰذَا ابْنِي خَالِد.",
-        "en": "Welcome, Daniel! Sami talks about you a lot. And this is my son Khalid.",
+        "ar": "أَهْلًا وَسَهْلًا يَا فَيْصَل! سَامِي يَتَكَلَّمُ عَنْكَ كَثِيرًا. وَهٰذَا ابْنِي خَالِد.",
+        "en": "Welcome, Faisal! Sami talks about you a lot. And this is my son Khalid.",
         "segs": [
           [
             "أَهْلًا",
@@ -463,8 +463,8 @@
             "O (calling someone)"
           ],
           [
-            "دَانْيَال",
-            "Daniel (first name)",
+            "فَيْصَل",
+            "Faisal (first name)",
             "name"
           ],
           [
@@ -721,8 +721,8 @@
       {
         "id": "d35l9",
         "sp": "khalid",
-        "ar": "مُمْتَاز يَا دَانْيَال! أَنْتَ تَعْرِفُ عَائِلَتَنَا الْآنَ أَحْسَنَ مِنْ سَامِي!",
-        "en": "Excellent, Daniel! Now you know our family better than Sami does!",
+        "ar": "مُمْتَاز يَا فَيْصَل! أَنْتَ تَعْرِفُ عَائِلَتَنَا الْآنَ أَحْسَنَ مِنْ سَامِي!",
+        "en": "Excellent, Faisal! Now you know our family better than Sami does!",
         "segs": [
           [
             "مُمْتَاز",
@@ -733,8 +733,8 @@
             "O (calling someone)"
           ],
           [
-            "دَانْيَال",
-            "Daniel (first name)",
+            "فَيْصَل",
+            "Faisal (first name)",
             "name"
           ],
           [
@@ -936,16 +936,16 @@
       {
         "id": "d35l13",
         "sp": "khalid",
-        "ar": "يَا دَانْيَال، تَعَالَ إِلَى الْإِسْكَنْدَرِيَّة مَعَ سَامِي! بَيْتُنَا قَرِيب مِنَ الْبَحْر.",
-        "en": "Daniel, come to Alexandria with Sami! Our house is close to the sea.",
+        "ar": "يَا فَيْصَل، تَعَالَ إِلَى الْإِسْكَنْدَرِيَّة مَعَ سَامِي! بَيْتُنَا قَرِيب مِنَ الْبَحْر.",
+        "en": "Faisal, come to Alexandria with Sami! Our house is close to the sea.",
         "segs": [
           [
             "يَا",
             "O (calling someone)"
           ],
           [
-            "دَانْيَال",
-            "Daniel (first name)",
+            "فَيْصَل",
+            "Faisal (first name)",
             "name"
           ],
           [

@@ -27,7 +27,7 @@
   "realLife": {
     "emoji": "📸",
     "title": "A hundred photos",
-    "story": "On Monday after class, Layla wants to hear everything about the trip to Alexandria. Over tea near the school, Sami and Daniel tell her about the old castle, the cold sea and the cats of Alexandria, and Daniel shows her his photos.",
+    "story": "On Monday after class, Layla wants to hear everything about the trip to Alexandria. Over tea near the school, Sami and Faisal tell her about the old castle, the cold sea and the cats of Alexandria, and Faisal shows her his photos.",
     "photo": {"file": "day37.jpg", "alt": "The Great Pyramid of Giza with tour buses and visitors on the sand in front of it.", "credit": {"title": "File:Tourist buses and the Great Pyramid of Giza.jpg", "author": "kallerna", "license": "CC BY-SA 3.0", "source": "https://commons.wikimedia.org/wiki/File:Tourist_buses_and_the_Great_Pyramid_of_Giza.jpg", "accessed": "2026-11-11", "modified": "resized and re-encoded", "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"}}
   },
   "letters": [],
@@ -123,9 +123,9 @@
     },
     {
       "id": "d37s3",
-      "ar": "مَا سَبَحَ دَانْيَال فِي الْبَحْر.",
-      "en": "Daniel didn't swim in the sea.",
-      "literal": "not swam Daniel in the sea",
+      "ar": "مَا سَبَحَ فَيْصَل فِي الْبَحْر.",
+      "en": "Faisal didn't swim in the sea.",
+      "literal": "not swam Faisal in the sea",
       "segs": [
         [
           "مَا",
@@ -138,8 +138,8 @@
           "verb"
         ],
         [
-          "دَانْيَال",
-          "Daniel (first name)",
+          "فَيْصَل",
+          "Faisal (first name)",
           "name"
         ],
         [
@@ -158,8 +158,8 @@
       ],
       "mistakes": [
         {
-          "wrong": "لَا سَبَحَ دَانْيَال فِي الْبَحْر",
-          "right": "مَا سَبَحَ دَانْيَال فِي الْبَحْر",
+          "wrong": "لَا سَبَحَ فَيْصَل فِي الْبَحْر",
+          "right": "مَا سَبَحَ فَيْصَل فِي الْبَحْر",
           "why": "لَا is for the present tense. To say 'didn't', put مَا before the past verb."
         }
       ]
@@ -247,8 +247,8 @@
       },
       {
         "key": "daniel",
-        "name": "Daniel",
-        "nameAr": "دَانْيَال"
+        "name": "Faisal",
+        "nameAr": "فَيْصَل"
       },
       {
         "key": "sami",
@@ -371,16 +371,16 @@
       {
         "id": "d37l3",
         "sp": "sami",
-        "ar": "وَصَوَّرَ دَانْيَال مِئَة صُورَة! صَوَّرَ الْقَلْعَة وَالْبَحْر وَالسَّمَك وَحَتَّى الْقِطَط.",
-        "en": "And Daniel took a hundred photos! He photographed the castle, the sea, the fish and even the cats.",
+        "ar": "وَصَوَّرَ فَيْصَل مِئَة صُورَة! صَوَّرَ الْقَلْعَة وَالْبَحْر وَالسَّمَك وَحَتَّى الْقِطَط.",
+        "en": "And Faisal took a hundred photos! He photographed the castle, the sea, the fish and even the cats.",
         "segs": [
           [
             "وَصَوَّرَ",
             "and he photographed"
           ],
           [
-            "دَانْيَال",
-            "Daniel (first name)",
+            "فَيْصَل",
+            "Faisal (first name)",
             "name"
           ],
           [
@@ -534,8 +534,8 @@
       {
         "id": "d37l6",
         "sp": "sami",
-        "ar": "أَنَا سَبَحْتُ قَلِيلًا، لٰكِنْ دَانْيَال مَا سَبَحَ. قَالَ: الْمَاء بَارِد جِدًّا!",
-        "en": "I swam a little, but Daniel didn't swim. He said the water was far too cold!",
+        "ar": "أَنَا سَبَحْتُ قَلِيلًا، لٰكِنْ فَيْصَل مَا سَبَحَ. قَالَ: الْمَاء بَارِد جِدًّا!",
+        "en": "I swam a little, but Faisal didn't swim. He said the water was far too cold!",
         "segs": [
           [
             "أَنَا",
@@ -554,8 +554,8 @@
             "but"
           ],
           [
-            "دَانْيَال",
-            "Daniel (first name)",
+            "فَيْصَل",
+            "Faisal (first name)",
             "name"
           ],
           [
@@ -979,8 +979,8 @@
   },
   "reading": {
     "title": "Sami's version",
-    "ar": "زُرْنَا قَلْعَةَ قَايْتْبَاي، وَصَوَّرَ دَانْيَال الْقِطَط. أَنَا سَبَحْتُ فِي الْبَحْر، لٰكِنْ دَانْيَال مَا سَبَحَ. شَرِبَ عَصِيرًا عَلَى الشَّاطِئ. مَا زُرْنَا الْمَكْتَبَة.",
-    "en": "We visited the Qaitbay Citadel, and Daniel photographed the cats. I swam in the sea, but Daniel didn't swim. He drank a juice on the beach. We didn't visit the library.",
+    "ar": "زُرْنَا قَلْعَةَ قَايْتْبَاي، وَصَوَّرَ فَيْصَل الْقِطَط. أَنَا سَبَحْتُ فِي الْبَحْر، لٰكِنْ فَيْصَل مَا سَبَحَ. شَرِبَ عَصِيرًا عَلَى الشَّاطِئ. مَا زُرْنَا الْمَكْتَبَة.",
+    "en": "We visited the Qaitbay Citadel, and Faisal photographed the cats. I swam in the sea, but Faisal didn't swim. He drank a juice on the beach. We didn't visit the library.",
     "segs": [
       [
         "زُرْنَا",
@@ -1000,8 +1000,8 @@
         "and he photographed"
       ],
       [
-        "دَانْيَال",
-        "Daniel (first name)",
+        "فَيْصَل",
+        "Faisal (first name)",
         "name"
       ],
       [
@@ -1029,8 +1029,8 @@
         "but"
       ],
       [
-        "دَانْيَال",
-        "Daniel (first name)",
+        "فَيْصَل",
+        "Faisal (first name)",
         "name"
       ],
       [
@@ -1103,7 +1103,7 @@
     },
     {
       "id": "d37q3",
-      "prompt": "According to Sami, what did Daniel photograph?",
+      "prompt": "According to Sami, what did Faisal photograph?",
       "options": [
         "only the sea",
         "the castle, the sea, the fish and the cats",
@@ -1136,11 +1136,11 @@
     },
     {
       "id": "d37q6",
-      "prompt": "Why didn't Daniel and Sami visit the library?",
+      "prompt": "Why didn't Faisal and Sami visit the library?",
       "options": [
         "It was closed.",
         "They didn't find the time.",
-        "Daniel was tired.",
+        "Faisal was tired.",
         "It was too far away."
       ],
       "answer": 1

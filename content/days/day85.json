@@ -370,8 +370,8 @@
       },
       {
         "key": "daniel",
-        "name": "Daniel",
-        "nameAr": "دَانْيَال"
+        "name": "Faisal",
+        "nameAr": "فَيْصَل"
       },
       {
         "key": "layla",
@@ -573,8 +573,8 @@
       {
         "id": "d85l3",
         "sp": "karim",
-        "ar": "لَا تَقْلَقْ يَا دَانْيَال، وَلَا تُحَاوِلْ أَنْ تَفْهَمَ كُلَّ كَلِمَة. اسْتَمِعْ أَوَّلًا إِلَى الْمَعْلُومَاتِ الْمُهِمَّة: الْأَرْقَامِ وَالْأَوْقَاتِ وَالْأَسْمَاء، ثُمَّ إِلَى كَلِمَاتٍ مِثْلِ «لٰكِنْ» أَوْ «لِأَنَّ».",
-        "en": "Don't worry, Daniel, and don't try to understand every word. First listen for the important information: the numbers, the times and the names, then for words like 'but' or 'because'.",
+        "ar": "لَا تَقْلَقْ يَا فَيْصَل، وَلَا تُحَاوِلْ أَنْ تَفْهَمَ كُلَّ كَلِمَة. اسْتَمِعْ أَوَّلًا إِلَى الْمَعْلُومَاتِ الْمُهِمَّة: الْأَرْقَامِ وَالْأَوْقَاتِ وَالْأَسْمَاء، ثُمَّ إِلَى كَلِمَاتٍ مِثْلِ «لٰكِنْ» أَوْ «لِأَنَّ».",
+        "en": "Don't worry, Faisal, and don't try to understand every word. First listen for the important information: the numbers, the times and the names, then for words like 'but' or 'because'.",
         "segs": [
           [
             "لَا",
@@ -589,8 +589,8 @@
             "O (calling someone)"
           ],
           [
-            "دَانْيَال",
-            "Daniel (first name)",
+            "فَيْصَل",
+            "Faisal (first name)",
             "name"
           ],
           [
@@ -1345,8 +1345,8 @@
       {
         "id": "d85l12",
         "sp": "karim",
-        "ar": "صَحِيح يَا دَانْيَال، هٰذَا هُوَ الْوَصْل. وَالْآنَ التَّسْجِيلُ الثَّالِث: يَا سَامِي، شَغِّلْ لَنَا رِسَالَةَ أَخِيكَ عُمَرَ مِنْ فَضْلِكَ.",
-        "en": "Right, Daniel, that is called linking. And now the third recording: Sami, please play us the message from your brother Omar.",
+        "ar": "صَحِيح يَا فَيْصَل، هٰذَا هُوَ الْوَصْل. وَالْآنَ التَّسْجِيلُ الثَّالِث: يَا سَامِي، شَغِّلْ لَنَا رِسَالَةَ أَخِيكَ عُمَرَ مِنْ فَضْلِكَ.",
+        "en": "Right, Faisal, that is called linking. And now the third recording: Sami, please play us the message from your brother Omar.",
         "segs": [
           [
             "صَحِيح",
@@ -1357,8 +1357,8 @@
             "O (calling someone)"
           ],
           [
-            "دَانْيَال",
-            "Daniel (first name)",
+            "فَيْصَل",
+            "Faisal (first name)",
             "name"
           ],
           [

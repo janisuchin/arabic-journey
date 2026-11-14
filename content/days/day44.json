@@ -17,7 +17,7 @@
   ],
   "emoji": "🩺",
   "summary": "Describe your symptoms to a doctor and understand the orders a doctor gives: اِفْتَحْ فَمَكَ (open your mouth), تَنَفَّسْ (breathe).",
-  "intro": "Daniel visits the clinic of Sami's mother, Dr Fatima. Doctors give a lot of orders, so today you learn the imperative: take the 'you' form of the present, drop the ta- and the final vowel, and put a helping i- (or u-) in front when the word would start with two consonants. تَفْتَحُ (you open) becomes اِفْتَحْ (open!) for a man and اِفْتَحِي for a woman. You also learn to say what is wrong: عِنْدِي صُدَاع (I have a headache), عِنْدِي حَرَارَة (I have a temperature).",
+  "intro": "Faisal visits the clinic of Sami's mother, Dr Fatima. Doctors give a lot of orders, so today you learn the imperative: take the 'you' form of the present, drop the ta- and the final vowel, and put a helping i- (or u-) in front when the word would start with two consonants. تَفْتَحُ (you open) becomes اِفْتَحْ (open!) for a man and اِفْتَحِي for a woman. You also learn to say what is wrong: عِنْدِي صُدَاع (I have a headache), عِنْدِي حَرَارَة (I have a temperature).",
   "objectives": [
     "Describe four symptoms: headache, cough, temperature and a sore throat",
     "Understand a doctor's orders such as اِفْتَحْ فَمَكَ and تَنَفَّسْ بِعُمْق",
@@ -27,7 +27,7 @@
   "realLife": {
     "emoji": "🏥",
     "title": "Dr Fatima's clinic",
-    "story": "The next morning Sami takes Daniel to his mother's clinic. Dr Fatima takes his temperature, listens to his chest and looks at his throat. It is only a cold, but she writes a prescription and tells him to stay at home for a few days.",
+    "story": "The next morning Sami takes Faisal to his mother's clinic. Dr Fatima takes his temperature, listens to his chest and looks at his throat. It is only a cold, but she writes a prescription and tells him to stay at home for a few days.",
     "photo": {"file": "day44.jpg", "alt": "A doctor in a white coat holds the chest piece of a stethoscope towards the camera.", "credit": {"title": "File:Close-up of a stethoscope chest piece in a womans hand with a blurry background.jpg", "author": "Shixart1985", "license": "CC BY 2.0", "source": "https://commons.wikimedia.org/wiki/File:Close-up_of_a_stethoscope_chest_piece_in_a_womans_hand_with_a_blurry_background.jpg", "accessed": "2026-11-11", "modified": "resized and re-encoded", "licenseUrl": "https://creativecommons.org/licenses/by/2.0"}}
   },
   "letters": [],
@@ -226,8 +226,8 @@
       },
       {
         "key": "daniel",
-        "name": "Daniel",
-        "nameAr": "دَانْيَال"
+        "name": "Faisal",
+        "nameAr": "فَيْصَل"
       }
     ],
     "culture": "Doctors are addressed as يَا دُكْتُور (to a man) or يَا دُكْتُورَة (to a woman), and the same title is used before the name: الدُّكْتُورَة فَاطِمَة. In Egypt many doctors run a private clinic in the evening, and you can often be seen the same day.",
@@ -235,8 +235,8 @@
       {
         "id": "d44l1",
         "sp": "sami",
-        "ar": "صَبَاحُ الْخَيْر يَا أُمِّي! هٰذَا صَدِيقِي دَانْيَال، وَهُوَ مَرِيض مُنْذُ أَمْسِ.",
-        "en": "Good morning, Mum! This is my friend Daniel, and he has been ill since yesterday.",
+        "ar": "صَبَاحُ الْخَيْر يَا أُمِّي! هٰذَا صَدِيقِي فَيْصَل، وَهُوَ مَرِيض مُنْذُ أَمْسِ.",
+        "en": "Good morning, Mum! This is my friend Faisal, and he has been ill since yesterday.",
         "segs": [
           [
             "صَبَاحُ",
@@ -263,8 +263,8 @@
             "my friend"
           ],
           [
-            "دَانْيَال",
-            "Daniel (first name)",
+            "فَيْصَل",
+            "Faisal (first name)",
             "name"
           ],
           [
@@ -288,8 +288,8 @@
       {
         "id": "d44l2",
         "sp": "fatima",
-        "ar": "أَهْلًا وَسَهْلًا يَا دَانْيَال! تَفَضَّلْ، اِجْلِسْ هُنَا. مِمَّ تَشْكُو؟",
-        "en": "Welcome, Daniel! Please come in and sit down here. What seems to be the problem?",
+        "ar": "أَهْلًا وَسَهْلًا يَا فَيْصَل! تَفَضَّلْ، اِجْلِسْ هُنَا. مِمَّ تَشْكُو؟",
+        "en": "Welcome, Faisal! Please come in and sit down here. What seems to be the problem?",
         "segs": [
           [
             "أَهْلًا",
@@ -304,8 +304,8 @@
             "O (calling someone)"
           ],
           [
-            "دَانْيَال",
-            "Daniel (first name)",
+            "فَيْصَل",
+            "Faisal (first name)",
             "name"
           ],
           [
@@ -968,8 +968,8 @@
       {
         "id": "d44l15",
         "sp": "sami",
-        "ar": "شُكْرًا يَا أُمِّي! هَيَّا يَا دَانْيَال، الصَّيْدَلِيَّة قَرِيبَة مِنْ هُنَا.",
-        "en": "Thanks, Mum! Come on, Daniel, the pharmacy is close to here.",
+        "ar": "شُكْرًا يَا أُمِّي! هَيَّا يَا فَيْصَل، الصَّيْدَلِيَّة قَرِيبَة مِنْ هُنَا.",
+        "en": "Thanks, Mum! Come on, Faisal, the pharmacy is close to here.",
         "segs": [
           [
             "شُكْرًا",
@@ -992,8 +992,8 @@
             "O (calling someone)"
           ],
           [
-            "دَانْيَال",
-            "Daniel (first name)",
+            "فَيْصَل",
+            "Faisal (first name)",
             "name"
           ],
           [
@@ -1018,16 +1018,16 @@
   },
   "reading": {
     "title": "At the clinic",
-    "ar": "ذَهَبَ دَانْيَال إِلَى الطَّبِيبَة مَعَ سَامِي. الدُّكْتُورَة فَاطِمَة أُمُّ سَامِي. عِنْدَ دَانْيَال صُدَاع وَسُعَال وَحَرَارَة. قَالَتِ الطَّبِيبَة: «اِبْقَ فِي الْبَيْت يَوْمَيْنِ، وَاشْرَبْ مَاءً كَثِيرًا».",
-    "en": "Daniel went to the doctor with Sami. Dr Fatima is Sami's mother. Daniel has a headache, a cough and a temperature. The doctor said: 'Stay at home for two days, and drink plenty of water.'",
+    "ar": "ذَهَبَ فَيْصَل إِلَى الطَّبِيبَة مَعَ سَامِي. الدُّكْتُورَة فَاطِمَة أُمُّ سَامِي. عِنْدَ فَيْصَل صُدَاع وَسُعَال وَحَرَارَة. قَالَتِ الطَّبِيبَة: «اِبْقَ فِي الْبَيْت يَوْمَيْنِ، وَاشْرَبْ مَاءً كَثِيرًا».",
+    "en": "Faisal went to the doctor with Sami. Dr Fatima is Sami's mother. Faisal has a headache, a cough and a temperature. The doctor said: 'Stay at home for two days, and drink plenty of water.'",
     "segs": [
       [
         "ذَهَبَ",
         "he went"
       ],
       [
-        "دَانْيَال",
-        "Daniel (first name)",
+        "فَيْصَل",
+        "Faisal (first name)",
         "name"
       ],
       [
@@ -1070,8 +1070,8 @@
         "at, with ('has')"
       ],
       [
-        "دَانْيَال",
-        "Daniel (first name)",
+        "فَيْصَل",
+        "Faisal (first name)",
         "name"
       ],
       [
@@ -1170,7 +1170,7 @@
     },
     {
       "id": "d44q4",
-      "prompt": "What is Daniel's temperature?",
+      "prompt": "What is Faisal's temperature?",
       "options": [
         "37 degrees",
         "38.5 degrees",
@@ -1181,7 +1181,7 @@
     },
     {
       "id": "d44q5",
-      "prompt": "What does Dr Fatima say Daniel has?",
+      "prompt": "What does Dr Fatima say Faisal has?",
       "options": [
         "a cold and a sore throat",
         "a broken leg",

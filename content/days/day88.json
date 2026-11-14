@@ -16,8 +16,8 @@
     ]
   ],
   "emoji": "✍️",
-  "summary": "Review writing in one story: Daniel's essay 'My year with Arabic', corrected by Mr Karim, with the spelling of hamza, ta marbuta and alif maqsura, joining letters, linking words and email phrases.",
-  "intro": "Today is writing day. Daniel reads his مَقَالَة (essay) سَنَتِي مَعَ الْعَرَبِيَّة (My year with Arabic), and Mr Karim corrects it on the board, so every spelling point of the course comes back. Hamza usually sits on a seat chosen by the vowels around it: on a yaa with a kasra, as in قَارِئ (reader), on a waw with a damma, as in سُؤَال (question), otherwise on an alif, as in سَأَلَ (he asked). Ta marbuta ة has two dots: مَدْرَسَة (school) without them is misspelt. إِلَى (to) and عَلَى (on) end in alif maqsura ى, with no dots. Six letters never join to the next one: ا د ذ ر ز و. A good text is also organised: one idea in each فِقْرَة (paragraph), linking words like لٰكِنَّ (but), لِذٰلِكَ (so) and مَعَ أَنَّ (although), the letter phrases عَزِيزِي (dear) and أَرْجُو أَنْ تَكُونَ بِخَيْر (I hope you are well), and عَلَامَات التَّرْقِيم (punctuation). Write a مُسَوَّدَة (draft) first, then يُصَحِّحُ (he corrects) becomes your own job.",
+  "summary": "Review writing in one story: Faisal's essay 'My year with Arabic', corrected by Mr Karim, with the spelling of hamza, ta marbuta and alif maqsura, joining letters, linking words and email phrases.",
+  "intro": "Today is writing day. Faisal reads his مَقَالَة (essay) سَنَتِي مَعَ الْعَرَبِيَّة (My year with Arabic), and Mr Karim corrects it on the board, so every spelling point of the course comes back. Hamza usually sits on a seat chosen by the vowels around it: on a yaa with a kasra, as in قَارِئ (reader), on a waw with a damma, as in سُؤَال (question), otherwise on an alif, as in سَأَلَ (he asked). Ta marbuta ة has two dots: مَدْرَسَة (school) without them is misspelt. إِلَى (to) and عَلَى (on) end in alif maqsura ى, with no dots. Six letters never join to the next one: ا د ذ ر ز و. A good text is also organised: one idea in each فِقْرَة (paragraph), linking words like لٰكِنَّ (but), لِذٰلِكَ (so) and مَعَ أَنَّ (although), the letter phrases عَزِيزِي (dear) and أَرْجُو أَنْ تَكُونَ بِخَيْر (I hope you are well), and عَلَامَات التَّرْقِيم (punctuation). Write a مُسَوَّدَة (draft) first, then يُصَحِّحُ (he corrects) becomes your own job.",
   "objectives": [
     "Write a short paragraph about yourself, with one idea per فِقْرَة (paragraph)",
     "Spell hamza, ta marbuta ة and alif maqsura ى correctly, as in سُؤَال, مَدْرَسَة and إِلَى",
@@ -27,7 +27,7 @@
   "realLife": {
     "emoji": "📝",
     "title": "An essay about a year of Arabic",
-    "story": "It's the last week of the course, and Mr Karim gave the class one last piece of homework: a short essay called 'My year with Arabic'. Daniel wrote his at the kitchen table, crossing out words and starting again. Now he has to read his draft aloud, while Mr Karim copies his mistakes onto the board for everyone to correct together. Layla is secretly happy: she makes the same mistakes with hamza.",
+    "story": "It's the last week of the course, and Mr Karim gave the class one last piece of homework: a short essay called 'My year with Arabic'. Faisal wrote his at the kitchen table, crossing out words and starting again. Now he has to read his draft aloud, while Mr Karim copies his mistakes onto the board for everyone to correct together. Layla is secretly happy: she makes the same mistakes with hamza.",
     "photo": {"file": "day88.jpg", "alt": "A page of handwritten Arabic in blue ink, with a letterhead at the top.", "credit": {"title": "File:Arabic handwriting.jpg", "author": "مع السلامة", "license": "CC0", "source": "https://commons.wikimedia.org/wiki/File:Arabic_handwriting.jpg", "accessed": "2026-11-11", "modified": "resized and re-encoded", "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"}}
   },
   "letters": [],
@@ -361,8 +361,8 @@
       },
       {
         "key": "daniel",
-        "name": "Daniel",
-        "nameAr": "دَانْيَال"
+        "name": "Faisal",
+        "nameAr": "فَيْصَل"
       },
       {
         "key": "layla",
@@ -1132,8 +1132,8 @@
       {
         "id": "d88l10",
         "sp": "karim",
-        "ar": "نَعَمْ، سِتَّةُ حُرُوفٍ لَا تَتَّصِلُ بِمَا بَعْدَهَا: الْأَلِف وَالدَّال وَالذَّال وَالرَّاء وَالزَّاي وَالْوَاو. لِذٰلِكَ فِي اسْمِكَ «دَانْيَال» مَسَافَات صَغِيرَة بَيْنَ الْحُرُوف.",
-        "en": "Yes, six letters don't join to the letter after them: alif, dal, dhal, ra, zay and waw. That's why there are small gaps between the letters in your name, 'Daniel'.",
+        "ar": "نَعَمْ، سِتَّةُ حُرُوفٍ لَا تَتَّصِلُ بِمَا بَعْدَهَا: الْأَلِف وَالدَّال وَالذَّال وَالرَّاء وَالزَّاي وَالْوَاو. لِذٰلِكَ فِي اسْمِكَ «فَيْصَل» مَسَافَات صَغِيرَة بَيْنَ الْحُرُوف.",
+        "en": "Yes, six letters don't join to the letter after them: alif, dal, dhal, ra, zay and waw. That's why there are small gaps between the letters in your name, 'Faisal'.",
         "segs": [
           [
             "نَعَمْ",
@@ -1200,8 +1200,8 @@
             "your name (to a man)"
           ],
           [
-            "دَانْيَال",
-            "Daniel (first name)",
+            "فَيْصَل",
+            "Faisal (first name)",
             "name"
           ],
           [
@@ -1225,8 +1225,8 @@
       {
         "id": "d88l11",
         "sp": "layla",
-        "ar": "وَالْفِقْرَةُ الثَّالِثَةُ؟ أَظُنُّ أَنَّهَا عَنِ التَّقَدُّمِ، لِأَنَّ دَانْيَالَ الْآنَ يَكْتُبُ رَسَائِلَ بِالْعَرَبِيَّةِ إِلَى كُلِّ الصَّفّ!",
-        "en": "And the third paragraph? I think it's about progress, because these days Daniel writes messages in Arabic to the whole class!",
+        "ar": "وَالْفِقْرَةُ الثَّالِثَةُ؟ أَظُنُّ أَنَّهَا عَنِ التَّقَدُّمِ، لِأَنَّ فَيْصَلَ الْآنَ يَكْتُبُ رَسَائِلَ بِالْعَرَبِيَّةِ إِلَى كُلِّ الصَّفّ!",
+        "en": "And the third paragraph? I think it's about progress, because these days Faisal writes messages in Arabic to the whole class!",
         "segs": [
           [
             "وَالْفِقْرَةُ",
@@ -1257,8 +1257,8 @@
             "because"
           ],
           [
-            "دَانْيَالَ",
-            "Daniel (first name)",
+            "فَيْصَلَ",
+            "Faisal (first name)",
             "name"
           ],
           [
@@ -1546,8 +1546,8 @@
       {
         "id": "d88l15",
         "sp": "karim",
-        "ar": "هٰذَا هُوَ الْمُهِمّ! الْكَاتِبُ الْجَيِّدُ يَكْتُبُ مُسَوَّدَةً، ثُمَّ يُصَحِّحُ، ثُمَّ يَكْتُبُ مِنْ جَدِيد. أَحْسَنْتَ يَا دَانْيَال، تَقَدُّمُكَ هٰذِهِ السَّنَةَ رَائِع.",
-        "en": "That is what matters! A good writer writes a draft, then corrects it, then writes it again. Well done, Daniel, your progress this year is wonderful.",
+        "ar": "هٰذَا هُوَ الْمُهِمّ! الْكَاتِبُ الْجَيِّدُ يَكْتُبُ مُسَوَّدَةً، ثُمَّ يُصَحِّحُ، ثُمَّ يَكْتُبُ مِنْ جَدِيد. أَحْسَنْتَ يَا فَيْصَل، تَقَدُّمُكَ هٰذِهِ السَّنَةَ رَائِع.",
+        "en": "That is what matters! A good writer writes a draft, then corrects it, then writes it again. Well done, Faisal, your progress this year is wonderful.",
         "segs": [
           [
             "هٰذَا",
@@ -1610,8 +1610,8 @@
             "O (calling someone)"
           ],
           [
-            "دَانْيَال",
-            "Daniel (first name)",
+            "فَيْصَل",
+            "Faisal (first name)",
             "name"
           ],
           [
@@ -1847,7 +1847,7 @@
     },
     {
       "id": "d88q3",
-      "prompt": "Complete Daniel's sentence: أَنَا أُحِبُّ الْعَرَبِيَّةَ، ___ أَنَّهَا صَعْبَة.",
+      "prompt": "Complete Faisal's sentence: أَنَا أُحِبُّ الْعَرَبِيَّةَ، ___ أَنَّهَا صَعْبَة.",
       "options": [
         "مَعَ",
         "لِذٰلِكَ",
@@ -1882,7 +1882,7 @@
     },
     {
       "id": "d88q6",
-      "prompt": "What was Mr Karim's last remark about Daniel's essay?",
+      "prompt": "What was Mr Karim's last remark about Faisal's essay?",
       "options": [
         "The sentences were long and had no punctuation",
         "The essay was too short",
@@ -1893,7 +1893,7 @@
     },
     {
       "id": "d88q7",
-      "prompt": "Daniel writes postcards to his mother. Which word does he start every postcard with?",
+      "prompt": "Faisal writes postcards to his mother. Which word does he start every postcard with?",
       "options": [
         "عَزِيزَتِي",
         "عَزِيزِي",

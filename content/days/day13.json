@@ -5,7 +5,7 @@
   "summary": "Say what you don't know, don't understand or don't speak, with لَا before a verb, and ask for help in class.",
   "intro": "To make a present-tense verb negative, put لَا in front of it: أَعْرِفُ (I know) → لَا أَعْرِفُ (I don't know). Nothing else changes. Three phrases will help you every day in class: لَا أَفْهَمُ (I don't understand), مَا مَعْنَى …؟ (what does … mean?) and مَرَّة أُخْرَى، مِنْ فَضْلِكَ (once more, please).",
   "objectives": ["Say 'I don't know' and 'I don't understand'", "Make any present-tense verb negative with لَا", "Ask what a word means with مَا مَعْنَى …؟", "Say which languages you speak, and which you don't"],
-  "realLife": { "emoji": "📝", "title": "A hard question", "story": "In class Mr Karim asks Daniel what a word means, and Daniel has no idea. Instead of staying silent, he learns to say so in Arabic, to ask what a word means and to ask the teacher to say it again.", "photo": {"file": "day13.jpg", "alt": "An empty lecture room with long blackboards covered in half-erased writing and rows of chairs.", "credit": {"title": "File:Blackboards – UNM Astrophysics.JPG", "author": "Anthony J. Bentley", "license": "Public domain", "source": "https://commons.wikimedia.org/wiki/File:Blackboards_%E2%80%93_UNM_Astrophysics.JPG", "accessed": "2026-11-11", "modified": "resized and re-encoded"}} },
+  "realLife": { "emoji": "📝", "title": "A hard question", "story": "In class Mr Karim asks Faisal what a word means, and Faisal has no idea. Instead of staying silent, he learns to say so in Arabic, to ask what a word means and to ask the teacher to say it again.", "photo": {"file": "day13.jpg", "alt": "An empty lecture room with long blackboards covered in half-erased writing and rows of chairs.", "credit": {"title": "File:Blackboards – UNM Astrophysics.JPG", "author": "Anthony J. Bentley", "license": "Public domain", "source": "https://commons.wikimedia.org/wiki/File:Blackboards_%E2%80%93_UNM_Astrophysics.JPG", "accessed": "2026-11-11", "modified": "resized and re-encoded"}} },
   "letters": [],
   "newWords": ["yarifu", "yafhamu", "yatakallamu", "la", "sahl", "sab", "kalima", "sual", "al-arabiyya"],
   "grammar": ["negation-la"],
@@ -28,11 +28,11 @@
   ],
   "dialogue": {
     "title": "Once more, please!",
-    "speakers": [ { "key": "karim", "name": "Mr Karim", "nameAr": "الْأُسْتَاذ كَرِيم" }, { "key": "daniel", "name": "Daniel", "nameAr": "دَانْيَال" }, { "key": "layla", "name": "Layla", "nameAr": "لَيْلَى" }, { "key": "sami", "name": "Sami", "nameAr": "سَامِي" } ],
+    "speakers": [ { "key": "karim", "name": "Mr Karim", "nameAr": "الْأُسْتَاذ كَرِيم" }, { "key": "daniel", "name": "Faisal", "nameAr": "فَيْصَل" }, { "key": "layla", "name": "Layla", "nameAr": "لَيْلَى" }, { "key": "sami", "name": "Sami", "nameAr": "سَامِي" } ],
     "culture": "Saying لَا أَعْرِفُ (I don't know) or لَا أَفْهَمُ (I don't understand) is perfectly polite in an Arabic class. Teachers are treated with respect, and students often start a question with يَا أُسْتَاذ (sir) or يَا أُسْتَاذَة (miss).",
     "lines": [
-      { "id": "d13l1", "sp": "karim", "ar": "يَا دَانْيَال، سُؤَال لَكَ: مَا مَعْنَى كَلِمَةِ «مَطَار»؟", "en": "Daniel, a question for you: what does the word maṭār mean?",
-        "segs": [["يَا", "O (calling someone)"], ["دَانْيَال", "Daniel (first name)", "name"], ["سُؤَال", "question"], ["لَكَ", "for you (to a man)"], ["مَا", "what"], ["مَعْنَى", "meaning (of)"], ["كَلِمَةِ", "word (of)"], ["مَطَار", "airport"]] },
+      { "id": "d13l1", "sp": "karim", "ar": "يَا فَيْصَل، سُؤَال لَكَ: مَا مَعْنَى كَلِمَةِ «مَطَار»؟", "en": "Faisal, a question for you: what does the word maṭār mean?",
+        "segs": [["يَا", "O (calling someone)"], ["فَيْصَل", "Faisal (first name)", "name"], ["سُؤَال", "question"], ["لَكَ", "for you (to a man)"], ["مَا", "what"], ["مَعْنَى", "meaning (of)"], ["كَلِمَةِ", "word (of)"], ["مَطَار", "airport"]] },
       { "id": "d13l2", "sp": "daniel", "ar": "مَطَار؟ آسِف يَا أُسْتَاذ، لَا أَعْرِفُ هٰذِهِ الْكَلِمَة.", "en": "Maṭār? I'm sorry, sir, I don't know this word.",
         "segs": [["مَطَار", "airport"], ["آسِف", "sorry (m)"], ["يَا", "O (calling someone)"], ["أُسْتَاذ", "teacher (polite address: sir)"], ["لَا", "not"], ["أَعْرِفُ", "I know"], ["هٰذِهِ", "this (f)"], ["الْكَلِمَة", "the word"]] },
       { "id": "d13l3", "sp": "karim", "ar": "لَا مُشْكِلَة. يَا لَيْلَى، هَلْ تَعْرِفِينَ مَعْنَى «مَطَار»؟", "en": "No problem. Layla, do you know what maṭār means?",
@@ -57,20 +57,20 @@
         "segs": [["كُلُّ", "every"], ["لُغَة", "language"], ["صَعْبَة", "difficult, hard (f)"], ["فِي", "in, at"], ["الْبِدَايَة", "the beginning"], ["ثُمَّ", "then"], ["سَهْلَة", "easy (f)"], ["مَعَ", "with"], ["الْوَقْت", "the time"]] },
       { "id": "d13l13", "sp": "daniel", "ar": "وَالْعَرَبِيَّة؟ مَتَى هِيَ سَهْلَة؟ أَنَا لَا أَعْرِفُ!", "en": "And Arabic? When does it get easy? I really don't know!",
         "segs": [["وَالْعَرَبِيَّة", "and Arabic (the language)"], ["مَتَى", "when"], ["هِيَ", "she, it (f)"], ["سَهْلَة", "easy (f)"], ["أَنَا", "I"], ["لَا", "not"], ["أَعْرِفُ", "I know"]] },
-      { "id": "d13l14", "sp": "layla", "ar": "يَا دَانْيَال، أَنْتَ تَدْرُسُ كُلَّ يَوْم، وَتَفْهَمُ أَكْثَرَ كُلَّ أُسْبُوع.", "en": "Daniel, you study every day, and you understand more every week.",
-        "segs": [["يَا", "O (calling someone)"], ["دَانْيَال", "Daniel (first name)", "name"], ["أَنْتَ", "you (to a man)"], ["تَدْرُسُ", "you study (to a man)"], ["كُلَّ", "every"], ["يَوْم", "day"], ["وَتَفْهَمُ", "and you understand (to a man)"], ["أَكْثَرَ", "more"], ["كُلَّ", "every"], ["أُسْبُوع", "week"]] },
+      { "id": "d13l14", "sp": "layla", "ar": "يَا فَيْصَل، أَنْتَ تَدْرُسُ كُلَّ يَوْم، وَتَفْهَمُ أَكْثَرَ كُلَّ أُسْبُوع.", "en": "Faisal, you study every day, and you understand more every week.",
+        "segs": [["يَا", "O (calling someone)"], ["فَيْصَل", "Faisal (first name)", "name"], ["أَنْتَ", "you (to a man)"], ["تَدْرُسُ", "you study (to a man)"], ["كُلَّ", "every"], ["يَوْم", "day"], ["وَتَفْهَمُ", "and you understand (to a man)"], ["أَكْثَرَ", "more"], ["كُلَّ", "every"], ["أُسْبُوع", "week"]] },
       { "id": "d13l15", "sp": "karim", "ar": "صَحِيح يَا لَيْلَى. وَالْآن، الْوَاجِب لِلْغَد: عَشْر كَلِمَات جَدِيدَة.", "en": "That's right, Layla. And now, the homework for tomorrow: ten new words.",
         "segs": [["صَحِيح", "right, true"], ["يَا", "O (calling someone)"], ["لَيْلَى", "Layla (first name)", "name"], ["وَالْآن", "and now"], ["الْوَاجِب", "the homework"], ["لِلْغَد", "for tomorrow"], ["عَشْر", "ten (with a feminine noun)"], ["كَلِمَات", "words"], ["جَدِيدَة", "new (f)"]] }
     ]
   },
-  "reading": { "title": "Daniel's languages", "ar": "أَنَا أَتَكَلَّمُ الْإِنْجِلِيزِيَّة، وَأَتَكَلَّمُ الْعَرَبِيَّة قَلِيلًا. لَا أَتَكَلَّمُ الْفَرَنْسِيَّة. أَفْهَمُ الْأُسْتَاذ كَرِيم، لٰكِنْ لَا أَفْهَمُ كُلَّ الْكَلِمَات. الْعَرَبِيَّة صَعْبَة، لٰكِنَّهَا جَمِيلَة!", "en": "I speak English, and I speak a little Arabic. I don't speak French. I understand Mr Karim, but I don't understand every word. Arabic is difficult, but it is beautiful!",
+  "reading": { "title": "Faisal's languages", "ar": "أَنَا أَتَكَلَّمُ الْإِنْجِلِيزِيَّة، وَأَتَكَلَّمُ الْعَرَبِيَّة قَلِيلًا. لَا أَتَكَلَّمُ الْفَرَنْسِيَّة. أَفْهَمُ الْأُسْتَاذ كَرِيم، لٰكِنْ لَا أَفْهَمُ كُلَّ الْكَلِمَات. الْعَرَبِيَّة صَعْبَة، لٰكِنَّهَا جَمِيلَة!", "en": "I speak English, and I speak a little Arabic. I don't speak French. I understand Mr Karim, but I don't understand every word. Arabic is difficult, but it is beautiful!",
     "segs": [["أَنَا", "I"], ["أَتَكَلَّمُ", "I speak"], ["الْإِنْجِلِيزِيَّة", "English (the language)"], ["وَأَتَكَلَّمُ", "and I speak"], ["الْعَرَبِيَّة", "Arabic (the language)"], ["قَلِيلًا", "a little"], ["لَا", "not"], ["أَتَكَلَّمُ", "I speak"], ["الْفَرَنْسِيَّة", "French (the language)"], ["أَفْهَمُ", "I understand"], ["الْأُسْتَاذ", "the teacher; Mr (title)"], ["كَرِيم", "Karim (first name)", "name"], ["لٰكِنْ", "but"], ["لَا", "not"], ["أَفْهَمُ", "I understand"], ["كُلَّ", "all, every"], ["الْكَلِمَات", "the words"], ["الْعَرَبِيَّة", "Arabic (the language)"], ["صَعْبَة", "difficult, hard (f)"], ["لٰكِنَّهَا", "but it (f)"], ["جَمِيلَة", "beautiful (f)"]] },
   "review": ["yadrusu", "ma", "shukran", "talib"],
   "quiz": [
     { "id": "d13q1", "prompt": "What does this mean?", "ar": "لَا أَعْرِفُ.", "options": ["I know.", "I don't understand.", "I don't know.", "Do you know?"], "answer": 2 },
     { "id": "d13q2", "prompt": "How do you say 'I don't understand'?", "options": ["لَا أَفْهَمُ", "أَفْهَمُ لَا", "لَيْسَ أَفْهَمُ", "لَا فَهِمَ"], "answer": 0 },
     { "id": "d13q3", "prompt": "Make it negative: 'He works.'", "ar": "يَعْمَلُ", "options": ["لَا عَمَل", "يَعْمَلُ لَا", "لَا يَعْمَلُ", "لَا تَعْمَلُ"], "answer": 2 },
-    { "id": "d13q4", "prompt": "In the dialogue, which word does Daniel not know?", "options": ["مُسْتَشْفَى", "مَطَار", "كَلِمَة", "مَدْرَسَة"], "answer": 1 },
+    { "id": "d13q4", "prompt": "In the dialogue, which word does Faisal not know?", "options": ["مُسْتَشْفَى", "مَطَار", "كَلِمَة", "مَدْرَسَة"], "answer": 1 },
     { "id": "d13q5", "prompt": "Which languages does Mr Karim speak?", "options": ["only Arabic", "Arabic and French only", "Arabic and English only", "Arabic, English and French"], "answer": 3 },
     { "id": "d13q6", "prompt": "What does this mean?", "ar": "مَا مَعْنَى هٰذِهِ الْكَلِمَة؟", "options": ["What does this word mean?", "Where is this word?", "Is this word difficult?", "Who knows this word?"], "answer": 0 },
     { "id": "d13q7", "prompt": "Which word has a doubled consonant (shadda)?", "options": ["أَعْرِفُ", "سَهْل", "أَتَكَلَّمُ", "سُؤَال"], "answer": 2 }

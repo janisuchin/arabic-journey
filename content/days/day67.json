@@ -17,7 +17,7 @@
   ],
   "emoji": "📧",
   "summary": "Write a polite Arabic email: the formal opening, the greeting تَحِيَّةً طَيِّبَةً وَبَعْدُ, an attachment, and a closing phrase.",
-  "intro": "Mr Adel needs the translation, and Daniel must send it by email. Arabic emails use fixed phrases. To someone you don't know well, start with حَضْرَةَ + the name + الْمُحْتَرَم (the respected), then the greeting تَحِيَّةً طَيِّبَةً وَبَعْدُ. Say what comes with the email with مُرْفَق (attached), and end with مَعَ أَطْيَبِ التَّحِيَّات (with best regards).",
+  "intro": "Mr Adel needs the translation, and Faisal must send it by email. Arabic emails use fixed phrases. To someone you don't know well, start with حَضْرَةَ + the name + الْمُحْتَرَم (the respected), then the greeting تَحِيَّةً طَيِّبَةً وَبَعْدُ. Say what comes with the email with مُرْفَق (attached), and end with مَعَ أَطْيَبِ التَّحِيَّات (with best regards).",
   "objectives": [
     "Open a formal email with حَضْرَةَ … الْمُحْتَرَم and a greeting",
     "Say that a file is attached with مُرْفَق",
@@ -27,7 +27,7 @@
   "realLife": {
     "emoji": "💻",
     "title": "The forgotten attachment",
-    "story": "Everyone in an office has done it once: written 'attached' and forgotten the attachment. Daniel's email to the client is polite and clear, Tariq checks the address, and the manager notices just in time that there is no file. Two minutes after he sends it, a friendly reply arrives.",
+    "story": "Everyone in an office has done it once: written 'attached' and forgotten the attachment. Faisal's email to the client is polite and clear, Tariq checks the address, and the manager notices just in time that there is no file. Two minutes after he sends it, a friendly reply arrives.",
     "photo": {"file": "day67.jpg", "alt": "A desk with a large computer monitor, a white keyboard, a mouse and a green lamp.", "credit": {"title": "File:Workspace @ Nottingham Flat.jpg", "author": "David Wellbeloved", "license": "CC BY 2.0", "source": "https://commons.wikimedia.org/wiki/File:Workspace_@_Nottingham_Flat.jpg", "accessed": "2026-11-11", "modified": "resized and re-encoded", "licenseUrl": "https://creativecommons.org/licenses/by/2.0"}}
   },
   "letters": [],
@@ -221,9 +221,9 @@
     },
     {
       "id": "d67s5",
-      "ar": "مَعَ أَطْيَبِ التَّحِيَّات، دَانْيَال.",
-      "en": "With best regards, Daniel.",
-      "literal": "with (the) best (of) the greetings, Daniel",
+      "ar": "مَعَ أَطْيَبِ التَّحِيَّات، فَيْصَل.",
+      "en": "With best regards, Faisal.",
+      "literal": "with (the) best (of) the greetings, Faisal",
       "segs": [
         [
           "مَعَ",
@@ -241,8 +241,8 @@
           "noun"
         ],
         [
-          "دَانْيَال",
-          "Daniel (first name)",
+          "فَيْصَل",
+          "Faisal (first name)",
           "name"
         ]
       ],
@@ -253,7 +253,7 @@
     }
   ],
   "dialogue": {
-    "title": "Daniel's first email",
+    "title": "Faisal's first email",
     "speakers": [
       {
         "key": "tariq",
@@ -262,8 +262,8 @@
       },
       {
         "key": "daniel",
-        "name": "Daniel",
-        "nameAr": "دَانْيَال"
+        "name": "Faisal",
+        "nameAr": "فَيْصَل"
       },
       {
         "key": "huda",
@@ -276,8 +276,8 @@
       {
         "id": "d67l1",
         "sp": "tariq",
-        "ar": "صَبَاحُ الْخَيْر يَا دَانْيَال. السَّيِّدَة هُدَى تُرِيدُ أَنْ تُرْسِلَ التَّرْجَمَة إِلَى الْأُسْتَاذ عَادِل الْيَوْم. هَلْ يُمْكِنُكَ أَنْ تَكْتُبَ الرِّسَالَة؟",
-        "en": "Good morning, Daniel. Mrs Huda wants to send the translation to Mr Adel today. Can you write the email?",
+        "ar": "صَبَاحُ الْخَيْر يَا فَيْصَل. السَّيِّدَة هُدَى تُرِيدُ أَنْ تُرْسِلَ التَّرْجَمَة إِلَى الْأُسْتَاذ عَادِل الْيَوْم. هَلْ يُمْكِنُكَ أَنْ تَكْتُبَ الرِّسَالَة؟",
+        "en": "Good morning, Faisal. Mrs Huda wants to send the translation to Mr Adel today. Can you write the email?",
         "segs": [
           [
             "صَبَاحُ",
@@ -292,8 +292,8 @@
             "O (calling someone)"
           ],
           [
-            "دَانْيَال",
-            "Daniel (first name)",
+            "فَيْصَل",
+            "Faisal (first name)",
             "name"
           ],
           [
@@ -890,8 +890,8 @@
       {
         "id": "d67l11",
         "sp": "huda",
-        "ar": "بِكُلِّ سُرُور… حَضْرَةَ الْأُسْتَاذ عَادِل الْمُحْتَرَم، تَحِيَّةً طَيِّبَةً وَبَعْدُ… مُمْتَاز يَا دَانْيَال، رِسَالَتُكَ وَاضِحَة وَمُهَذَّبَة.",
-        "en": "With pleasure… 'Dear Mr Adel, greetings…' Excellent, Daniel, your message is clear and polite.",
+        "ar": "بِكُلِّ سُرُور… حَضْرَةَ الْأُسْتَاذ عَادِل الْمُحْتَرَم، تَحِيَّةً طَيِّبَةً وَبَعْدُ… مُمْتَاز يَا فَيْصَل، رِسَالَتُكَ وَاضِحَة وَمُهَذَّبَة.",
+        "en": "With pleasure… 'Dear Mr Adel, greetings…' Excellent, Faisal, your message is clear and polite.",
         "segs": [
           [
             "بِكُلِّ",
@@ -939,8 +939,8 @@
             "O (calling someone)"
           ],
           [
-            "دَانْيَال",
-            "Daniel (first name)",
+            "فَيْصَل",
+            "Faisal (first name)",
             "name"
           ],
           [
@@ -1203,9 +1203,9 @@
     ]
   },
   "reading": {
-    "title": "Daniel's email",
-    "ar": "حَضْرَةَ الْأُسْتَاذ عَادِل الْمُحْتَرَم، تَحِيَّةً طَيِّبَةً وَبَعْدُ. أَرْجُو أَنْ تَكُونَ بِخَيْر. مُرْفَق مَعَ هٰذِهِ الرِّسَالَة مِلَفُّ تَرْجَمَةِ مَشْرُوعِ السِّيَاحَة. فِي انْتِظَارِ رَدِّكُمْ. مَعَ أَطْيَبِ التَّحِيَّات، دَانْيَال، شَرِكَةُ النِّيل لِلتَّرْجَمَة.",
-    "en": "Dear Mr Adel, greetings. I hope you are well. Attached to this message is the file with the translation of the tourism project. I look forward to your reply. With best regards, Daniel, Nile Translation Company.",
+    "title": "Faisal's email",
+    "ar": "حَضْرَةَ الْأُسْتَاذ عَادِل الْمُحْتَرَم، تَحِيَّةً طَيِّبَةً وَبَعْدُ. أَرْجُو أَنْ تَكُونَ بِخَيْر. مُرْفَق مَعَ هٰذِهِ الرِّسَالَة مِلَفُّ تَرْجَمَةِ مَشْرُوعِ السِّيَاحَة. فِي انْتِظَارِ رَدِّكُمْ. مَعَ أَطْيَبِ التَّحِيَّات، فَيْصَل، شَرِكَةُ النِّيل لِلتَّرْجَمَة.",
+    "en": "Dear Mr Adel, greetings. I hope you are well. Attached to this message is the file with the translation of the tourism project. I look forward to your reply. With best regards, Faisal, Nile Translation Company.",
     "segs": [
       [
         "حَضْرَةَ",
@@ -1309,8 +1309,8 @@
         "the greetings"
       ],
       [
-        "دَانْيَال",
-        "Daniel (first name)",
+        "فَيْصَل",
+        "Faisal (first name)",
         "name"
       ],
       [
@@ -1362,7 +1362,7 @@
     },
     {
       "id": "d67q3",
-      "prompt": "What does Daniel forget?",
+      "prompt": "What does Faisal forget?",
       "options": [
         "to attach the file",
         "the email address",
@@ -1395,7 +1395,7 @@
     },
     {
       "id": "d67q6",
-      "prompt": "What should Daniel check before he sends the email?",
+      "prompt": "What should Faisal check before he sends the email?",
       "options": [
         "the salary",
         "the email address",

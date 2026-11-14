@@ -5,7 +5,7 @@
   "summary": "Order drinks politely with أُرِيدُ and 'please', and say whether a drink is hot or cold.",
   "intro": "To order, say what you want with أُرِيدُ (I want, I'd like) and add 'please': مِنْ فَضْلِكَ to a man, مِنْ فَضْلِكِ to a woman. The drink is the object, so it takes -an, as you learned yesterday: أُرِيدُ شَايًا. A cup of something is فِنْجَان + the drink: فِنْجَانُ قَهْوَة.",
   "objectives": ["Order a drink with أُرِيدُ and مِنْ فَضْلِكَ", "Ask a café what it has with هَلْ عِنْدَكُمْ…؟", "Say that a drink is hot or cold, for a masculine and a feminine noun", "Say how sweet you want your coffee"],
-  "realLife": { "emoji": "🧊", "title": "A hot afternoon", "story": "After class it is hot, and Sami takes Daniel and Layla to an old café near the school. Layla knows exactly how she likes her coffee, Daniel wants anything cold, and Sami orders hot tea, as Egyptians do in any weather. When the bill comes, Sami will not let anyone else pay.", "photo": {"file": "day16.jpg", "alt": "A glass of red tea on a table by the Nile in Cairo, with the river and tall buildings behind.", "credit": {"title": "File:A glwaa of tea on the Nile in Cairo.jpg", "author": "DawoudHusseini", "license": "CC BY-SA 4.0", "source": "https://commons.wikimedia.org/wiki/File:A_glwaa_of_tea_on_the_Nile_in_Cairo.jpg", "accessed": "2026-11-11", "modified": "resized and re-encoded", "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"}} },
+  "realLife": { "emoji": "🧊", "title": "A hot afternoon", "story": "After class it is hot, and Sami takes Faisal and Layla to an old café near the school. Layla knows exactly how she likes her coffee, Faisal wants anything cold, and Sami orders hot tea, as Egyptians do in any weather. When the bill comes, Sami will not let anyone else pay.", "photo": {"file": "day16.jpg", "alt": "A glass of red tea on a table by the Nile in Cairo, with the river and tall buildings behind.", "credit": {"title": "File:A glwaa of tea on the Nile in Cairo.jpg", "author": "DawoudHusseini", "license": "CC BY-SA 4.0", "source": "https://commons.wikimedia.org/wiki/File:A_glwaa_of_tea_on_the_Nile_in_Cairo.jpg", "accessed": "2026-11-11", "modified": "resized and re-encoded", "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"}} },
   "letters": [],
   "newWords": ["maqha", "yuridu", "maa", "asir", "sukkar", "finjan", "barid", "sakhin", "min-fadlik", "laymun", "zujaja"],
   "grammar": ["ordering-w3", "accusative"],
@@ -27,13 +27,13 @@
   ],
   "dialogue": {
     "title": "Hot tea on a hot day",
-    "speakers": [ { "key": "waiter", "name": "Waiter", "nameAr": "النَّادِل" }, { "key": "sami", "name": "Sami", "nameAr": "سَامِي" }, { "key": "layla", "name": "Layla", "nameAr": "لَيْلَى" }, { "key": "daniel", "name": "Daniel", "nameAr": "دَانْيَال" } ],
+    "speakers": [ { "key": "waiter", "name": "Waiter", "nameAr": "النَّادِل" }, { "key": "sami", "name": "Sami", "nameAr": "سَامِي" }, { "key": "layla", "name": "Layla", "nameAr": "لَيْلَى" }, { "key": "daniel", "name": "Faisal", "nameAr": "فَيْصَل" } ],
     "culture": "In an Egyptian café you say how sweet your coffee should be: سَادَة (no sugar), مَضْبُوط (medium) or زِيَادَة (extra sweet). Waiters often call a male customer يَا أُسْتَاذ (sir). Friends argue politely over who pays; الْحِسَاب عَلَيَّ means 'the bill is on me'.",
     "lines": [
       { "id": "d16l1", "sp": "waiter", "ar": "مَسَاءُ الْخَيْر وَأَهْلًا وَسَهْلًا! تَفَضَّلُوا، هٰذِهِ طَاوِلَة جَمِيلَة.", "en": "Good afternoon and welcome! Please sit down, here is a nice table.",
         "segs": [["مَسَاءُ", "evening, afternoon (of)"], ["الْخَيْر", "the goodness"], ["وَأَهْلًا", "and welcome"], ["وَسَهْلًا", "and ease (part of 'welcome')"], ["تَفَضَّلُوا", "please, come in, sit down (to several people)"], ["هٰذِهِ", "this (f)"], ["طَاوِلَة", "table"], ["جَمِيلَة", "beautiful, nice (f)"]] },
-      { "id": "d16l2", "sp": "sami", "ar": "شُكْرًا! يَا دَانْيَال، هٰذَا مَقْهًى قَدِيم وَمَشْهُور فِي الْقَاهِرَة.", "en": "Thank you! Daniel, this is an old and famous café in Cairo.",
-        "segs": [["شُكْرًا", "thank you"], ["يَا", "O (calling someone)"], ["دَانْيَال", "Daniel (first name)", "name"], ["هٰذَا", "this (m)"], ["مَقْهًى", "café"], ["قَدِيم", "old"], ["وَمَشْهُور", "and famous"], ["فِي", "in"], ["الْقَاهِرَة", "Cairo (capital of Egypt)", "name"]] },
+      { "id": "d16l2", "sp": "sami", "ar": "شُكْرًا! يَا فَيْصَل، هٰذَا مَقْهًى قَدِيم وَمَشْهُور فِي الْقَاهِرَة.", "en": "Thank you! Faisal, this is an old and famous café in Cairo.",
+        "segs": [["شُكْرًا", "thank you"], ["يَا", "O (calling someone)"], ["فَيْصَل", "Faisal (first name)", "name"], ["هٰذَا", "this (m)"], ["مَقْهًى", "café"], ["قَدِيم", "old"], ["وَمَشْهُور", "and famous"], ["فِي", "in"], ["الْقَاهِرَة", "Cairo (capital of Egypt)", "name"]] },
       { "id": "d16l3", "sp": "waiter", "ar": "مَاذَا تَشْرَبُونَ؟ عِنْدَنَا شَاي وَقَهْوَة وَعَصِير طَازَج.", "en": "What will you drink? We have tea, coffee and fresh juice.",
         "segs": [["مَاذَا", "what (before a verb)"], ["تَشْرَبُونَ", "you drink (to several people)"], ["عِنْدَنَا", "we have"], ["شَاي", "tea"], ["وَقَهْوَة", "and coffee"], ["وَعَصِير", "and juice"], ["طَازَج", "fresh"]] },
       { "id": "d16l4", "sp": "layla", "ar": "أُرِيدُ فِنْجَانَ قَهْوَة تُرْكِيَّة، مِنْ فَضْلِكَ.", "en": "I'd like a cup of Turkish coffee, please.",
@@ -60,19 +60,19 @@
         "segs": [["تَفَضَّلُوا", "here you are (to several people)"], ["الْقَهْوَة", "the coffee"], ["وَالشَّاي", "and the tea"], ["وَالْعَصِير", "and the juice"], ["وَالْمَاء", "and the water"], ["بِالْهَنَاء", "with happiness ('enjoy')"]] },
       { "id": "d16l15", "sp": "daniel", "ar": "الْعَصِير لَذِيذ جِدًّا! يَا أُسْتَاذ، الْحِسَاب لَوْ سَمَحْتَ.", "en": "The juice is very delicious! Excuse me, sir, the bill, please.",
         "segs": [["الْعَصِير", "the juice"], ["لَذِيذ", "delicious"], ["جِدًّا", "very"], ["يَا", "O (calling someone)"], ["أُسْتَاذ", "sir (lit. teacher)"], ["الْحِسَاب", "the bill"], ["لَوْ", "if"], ["سَمَحْتَ", "you allow (to a man)"]] },
-      { "id": "d16l16", "sp": "sami", "ar": "لَا، لَا يَا دَانْيَال! الْيَوْم الْحِسَاب عَلَيَّ.", "en": "No, no, Daniel! Today the bill is on me.",
-        "segs": [["لَا", "no"], ["لَا", "no"], ["يَا", "O (calling someone)"], ["دَانْيَال", "Daniel (first name)", "name"], ["الْيَوْم", "today"], ["الْحِسَاب", "the bill"], ["عَلَيَّ", "on me"]] }
+      { "id": "d16l16", "sp": "sami", "ar": "لَا، لَا يَا فَيْصَل! الْيَوْم الْحِسَاب عَلَيَّ.", "en": "No, no, Faisal! Today the bill is on me.",
+        "segs": [["لَا", "no"], ["لَا", "no"], ["يَا", "O (calling someone)"], ["فَيْصَل", "Faisal (first name)", "name"], ["الْيَوْم", "today"], ["الْحِسَاب", "the bill"], ["عَلَيَّ", "on me"]] }
     ]
   },
-  "reading": { "title": "Three drinks", "ar": "الْمَقْهَى قَرِيب مِنَ الْمَدْرَسَة. لَيْلَى تَشْرَبُ قَهْوَةً تُرْكِيَّةً، وَسَامِي يَشْرَبُ شَايًا سَاخِنًا. دَانْيَال يُرِيدُ عَصِيرًا بَارِدًا وَمَاءً.", "en": "The café is near the school. Layla drinks Turkish coffee, and Sami drinks hot tea. Daniel wants a cold juice and water.",
-    "segs": [["الْمَقْهَى", "the café"], ["قَرِيب", "near, close"], ["مِنَ", "from"], ["الْمَدْرَسَة", "the school"], ["لَيْلَى", "Layla (first name)", "name"], ["تَشْرَبُ", "she drinks"], ["قَهْوَةً", "coffee (object)"], ["تُرْكِيَّةً", "Turkish (f, object)"], ["وَسَامِي", "and Sami (first name)", "name"], ["يَشْرَبُ", "he drinks"], ["شَايًا", "tea (object)"], ["سَاخِنًا", "hot (object)"], ["دَانْيَال", "Daniel (first name)", "name"], ["يُرِيدُ", "he wants"], ["عَصِيرًا", "juice (object)"], ["بَارِدًا", "cold (object)"], ["وَمَاءً", "and water (object)"]] },
+  "reading": { "title": "Three drinks", "ar": "الْمَقْهَى قَرِيب مِنَ الْمَدْرَسَة. لَيْلَى تَشْرَبُ قَهْوَةً تُرْكِيَّةً، وَسَامِي يَشْرَبُ شَايًا سَاخِنًا. فَيْصَل يُرِيدُ عَصِيرًا بَارِدًا وَمَاءً.", "en": "The café is near the school. Layla drinks Turkish coffee, and Sami drinks hot tea. Faisal wants a cold juice and water.",
+    "segs": [["الْمَقْهَى", "the café"], ["قَرِيب", "near, close"], ["مِنَ", "from"], ["الْمَدْرَسَة", "the school"], ["لَيْلَى", "Layla (first name)", "name"], ["تَشْرَبُ", "she drinks"], ["قَهْوَةً", "coffee (object)"], ["تُرْكِيَّةً", "Turkish (f, object)"], ["وَسَامِي", "and Sami (first name)", "name"], ["يَشْرَبُ", "he drinks"], ["شَايًا", "tea (object)"], ["سَاخِنًا", "hot (object)"], ["فَيْصَل", "Faisal (first name)", "name"], ["يُرِيدُ", "he wants"], ["عَصِيرًا", "juice (object)"], ["بَارِدًا", "cold (object)"], ["وَمَاءً", "and water (object)"]] },
   "review": ["shay", "qahwa", "halib", "yashrabu", "shukran"],
   "quiz": [
     { "id": "d16q1", "prompt": "How do you say 'please' to a woman?", "options": ["مِنْ فَضْلِكَ", "شُكْرًا", "مِنْ فَضْلِكِ", "عَفْوًا"], "answer": 2 },
     { "id": "d16q2", "prompt": "What does this mean?", "ar": "أُرِيدُ مَاءً بَارِدًا.", "options": ["I want cold water.", "I want hot tea.", "Do you have water?", "The water is cold."], "answer": 0 },
     { "id": "d16q3", "prompt": "What does Layla order?", "options": ["lemon juice", "tea with milk", "Turkish coffee, medium sweet", "cold water"], "answer": 2 },
     { "id": "d16q4", "prompt": "Which word is the opposite of بَارِد (cold)?", "options": ["سُكَّر", "فِنْجَان", "مَاء", "سَاخِن"], "answer": 3 },
-    { "id": "d16q5", "prompt": "Who pays the bill at the café?", "options": ["Daniel", "Sami", "Layla", "nobody"], "answer": 1 },
+    { "id": "d16q5", "prompt": "Who pays the bill at the café?", "options": ["Faisal", "Sami", "Layla", "nobody"], "answer": 1 },
     { "id": "d16q6", "prompt": "Which sign is the hamza, the little catch in 'uh-oh'?", "options": ["ع", "ه", "ء", "ح"], "answer": 2 },
     { "id": "d16q7", "prompt": "Complete: 'I'd like a cup of coffee.'", "ar": "أُرِيدُ … قَهْوَة.", "options": ["فِنْجَانَ", "سُكَّر", "مَاءً", "عَصِير"], "answer": 0 }
   ],

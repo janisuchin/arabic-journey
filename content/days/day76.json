@@ -27,7 +27,7 @@
   "realLife": {
     "emoji": "🗳️",
     "title": "Debate day",
-    "story": "Mr Karim moves the desks into two groups and writes one question on the board: books or the internet? Sami joins the internet side at once, Layla defends books, and Daniel is not sure. For one hour the class may speak only Arabic, and every opinion needs a reason.",
+    "story": "Mr Karim moves the desks into two groups and writes one question on the board: books or the internet? Sami joins the internet side at once, Layla defends books, and Faisal is not sure. For one hour the class may speak only Arabic, and every opinion needs a reason.",
     "photo": {"file": "day76.jpg", "alt": "Paper discussion paddles laid out on a classroom table for a seminar debate, with chairs and school bags around.", "credit": {"title": "File:LMG Socratic Seminar discussion paddles..jpg", "author": "Lmgdatagroup", "license": "CC BY-SA 4.0", "source": "https://commons.wikimedia.org/wiki/File:LMG_Socratic_Seminar_discussion_paddles..jpg", "accessed": "2026-11-11", "modified": "resized and re-encoded", "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"}}
   },
   "letters": [],
@@ -267,8 +267,8 @@
       },
       {
         "key": "daniel",
-        "name": "Daniel",
-        "nameAr": "دَانْيَال"
+        "name": "Faisal",
+        "nameAr": "فَيْصَل"
       }
     ],
     "culture": "Debates are popular in Arab classrooms and on television, and politeness matters: speakers soften disagreement with مَعَ احْتِرَامِي (with respect) before they say لَا أُوَافِقُ. Older people often answer a debate with a proverb, and a good proverb can end the discussion.",
@@ -547,8 +547,8 @@
       {
         "id": "d76l5",
         "sp": "karim",
-        "ar": "نُقْطَة جَيِّدَة يَا سَامِي. وَأَنْتَ يَا دَانْيَال، مَا رَأْيُكَ؟ هَلْ تُوَافِقُ سَامِي أَمْ لَيْلَى؟",
-        "en": "A good point, Sami. And you, Daniel, what do you think? Do you agree with Sami or with Layla?",
+        "ar": "نُقْطَة جَيِّدَة يَا سَامِي. وَأَنْتَ يَا فَيْصَل، مَا رَأْيُكَ؟ هَلْ تُوَافِقُ سَامِي أَمْ لَيْلَى؟",
+        "en": "A good point, Sami. And you, Faisal, what do you think? Do you agree with Sami or with Layla?",
         "segs": [
           [
             "نُقْطَة",
@@ -576,8 +576,8 @@
             "O (calling someone)"
           ],
           [
-            "دَانْيَال",
-            "Daniel (first name)",
+            "فَيْصَل",
+            "Faisal (first name)",
             "name"
           ],
           [
@@ -675,8 +675,8 @@
       {
         "id": "d76l7",
         "sp": "layla",
-        "ar": "أَنْتَ عَلَى حَقّ يَا دَانْيَال! وَعَلَى الْإِنْتَرْنِت هُنَاكَ أَخْطَاء كَثِيرَة وَأَخْبَار غَيْرُ صَحِيحَة.",
-        "en": "You're right, Daniel! And on the internet there are lots of mistakes and news that isn't true.",
+        "ar": "أَنْتَ عَلَى حَقّ يَا فَيْصَل! وَعَلَى الْإِنْتَرْنِت هُنَاكَ أَخْطَاء كَثِيرَة وَأَخْبَار غَيْرُ صَحِيحَة.",
+        "en": "You're right, Faisal! And on the internet there are lots of mistakes and news that isn't true.",
         "segs": [
           [
             "أَنْتَ",
@@ -695,8 +695,8 @@
             "O (calling someone)"
           ],
           [
-            "دَانْيَال",
-            "Daniel (first name)",
+            "فَيْصَل",
+            "Faisal (first name)",
             "name"
           ],
           [
@@ -1252,8 +1252,8 @@
   },
   "reading": {
     "title": "The class debate",
-    "ar": "الْيَوْمَ كَانَ فِي الصَّفِّ نِقَاش عَنِ الْإِنْتَرْنِت وَالْكُتُب. قَالَ سَامِي إِنَّ الْإِنْتَرْنِتَ أَحْسَنُ، لِأَنَّ فِيهِ كُلَّ شَيْء. لَمْ تُوَافِقْ لَيْلَى، وَقَالَتْ إِنَّ الْكُتُبَ أَهَمُّ. فِي رَأْيِ دَانْيَال، كِلَاهُمَا مُفِيد. وَفِي رَأْيِ الْأُسْتَاذ كَرِيم، لِكُلِّ جِيلٍ طَرِيقَتُهُ.",
-    "en": "Today there was a debate in class about the internet and books. Sami said that the internet was better, because everything is on it. Layla didn't agree, and said that books were more important. In Daniel's opinion, both are useful. And in Mr Karim's opinion, every generation has its own way.",
+    "ar": "الْيَوْمَ كَانَ فِي الصَّفِّ نِقَاش عَنِ الْإِنْتَرْنِت وَالْكُتُب. قَالَ سَامِي إِنَّ الْإِنْتَرْنِتَ أَحْسَنُ، لِأَنَّ فِيهِ كُلَّ شَيْء. لَمْ تُوَافِقْ لَيْلَى، وَقَالَتْ إِنَّ الْكُتُبَ أَهَمُّ. فِي رَأْيِ فَيْصَل، كِلَاهُمَا مُفِيد. وَفِي رَأْيِ الْأُسْتَاذ كَرِيم، لِكُلِّ جِيلٍ طَرِيقَتُهُ.",
+    "en": "Today there was a debate in class about the internet and books. Sami said that the internet was better, because everything is on it. Layla didn't agree, and said that books were more important. In Faisal's opinion, both are useful. And in Mr Karim's opinion, every generation has its own way.",
     "segs": [
       [
         "الْيَوْمَ",
@@ -1362,8 +1362,8 @@
         "opinion (of)"
       ],
       [
-        "دَانْيَال",
-        "Daniel (first name)",
+        "فَيْصَل",
+        "Faisal (first name)",
         "name"
       ],
       [

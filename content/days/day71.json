@@ -13,7 +13,7 @@
   ],
   "emoji": "🌙",
   "summary": "Wish people a happy Eid, answer festival greetings with the right reply, and talk about Ramadan and Eid customs.",
-  "intro": "Ramadan is over, and today is the first day of عِيدُ الْفِطْر, the festival at the end of the month of fasting. Sami's family has invited Daniel for Eid morning. Festival wishes come in pairs, like greetings: to عِيد مُبَارَك! (blessed Eid!) you answer عَلَيْنَا وَعَلَيْكُمْ (to us and to you), and to كُلُّ عَامٍ وَأَنْتُمْ بِخَيْر (may you be well every year) you answer وَأَنْتُمْ بِخَيْر. Change the pronoun for the person: وَأَنْتَ بِخَيْر to a man, وَأَنْتِ بِخَيْر to a woman.",
+  "intro": "Ramadan is over, and today is the first day of عِيدُ الْفِطْر, the festival at the end of the month of fasting. Sami's family has invited Faisal for Eid morning. Festival wishes come in pairs, like greetings: to عِيد مُبَارَك! (blessed Eid!) you answer عَلَيْنَا وَعَلَيْكُمْ (to us and to you), and to كُلُّ عَامٍ وَأَنْتُمْ بِخَيْر (may you be well every year) you answer وَأَنْتُمْ بِخَيْر. Change the pronoun for the person: وَأَنْتَ بِخَيْر to a man, وَأَنْتِ بِخَيْر to a woman.",
   "objectives": [
     "Wish someone a happy Eid and answer an Eid greeting",
     "Use كُلُّ عَامٍ وَأَنْتُمْ بِخَيْر with the right pronoun for a man, a woman or a group",
@@ -23,7 +23,7 @@
   "realLife": {
     "emoji": "🕌",
     "title": "Eid morning in Cairo",
-    "story": "At seven in the morning the streets near Sami's home are full of families in new clothes coming back from the Eid prayer. Children run to their grandparents for their Eid money, and every flat smells of kaʿk, the sweet Eid biscuits. Daniel arrives with a box of kaʿk from the bakery, and Sami's mother laughs: she has baked three kilos herself.",
+    "story": "At seven in the morning the streets near Sami's home are full of families in new clothes coming back from the Eid prayer. Children run to their grandparents for their Eid money, and every flat smells of kaʿk, the sweet Eid biscuits. Faisal arrives with a box of kaʿk from the bakery, and Sami's mother laughs: she has baked three kilos herself.",
     "photo": {"file": "day71.jpg", "alt": "A tray of kahk, round Eid biscuits dusted with icing sugar, with a few brown date biscuits.", "credit": {"title": "File:Kahk.jpg", "author": "Michelle Sym", "license": "CC BY 2.0", "source": "https://commons.wikimedia.org/wiki/File:Kahk.jpg", "accessed": "2026-11-11", "modified": "resized and re-encoded", "licenseUrl": "https://creativecommons.org/licenses/by/2.0"}}
   },
   "letters": [],
@@ -251,8 +251,8 @@
     "speakers": [
       {
         "key": "daniel",
-        "name": "Daniel",
-        "nameAr": "دَانْيَال"
+        "name": "Faisal",
+        "nameAr": "فَيْصَل"
       },
       {
         "key": "sami",
@@ -328,8 +328,8 @@
       {
         "id": "d71l2",
         "sp": "sami",
-        "ar": "عَلَيْنَا وَعَلَيْكَ يَا دَانْيَال! تَفَضَّلْ، اُدْخُلْ. كُلُّ عَامٍ وَأَنْتَ بِخَيْر!",
-        "en": "To us and to you, Daniel! Please come in. Many happy returns to you!",
+        "ar": "عَلَيْنَا وَعَلَيْكَ يَا فَيْصَل! تَفَضَّلْ، اُدْخُلْ. كُلُّ عَامٍ وَأَنْتَ بِخَيْر!",
+        "en": "To us and to you, Faisal! Please come in. Many happy returns to you!",
         "segs": [
           [
             "عَلَيْنَا",
@@ -344,8 +344,8 @@
             "O (calling someone)"
           ],
           [
-            "دَانْيَال",
-            "Daniel (first name)",
+            "فَيْصَل",
+            "Faisal (first name)",
             "name"
           ],
           [
@@ -505,8 +505,8 @@
       {
         "id": "d71l5",
         "sp": "fatima",
-        "ar": "أَهْلًا وَسَهْلًا يَا دَانْيَال! كُلُّ عَامٍ وَأَنْتَ بِخَيْر. شُكْرًا عَلَى الْكَعْك، لٰكِنْ مَا كَانَ ذٰلِكَ ضَرُورِيًّا!",
-        "en": "Welcome, Daniel! Many happy returns. Thank you for the kaʿk, but that really wasn't necessary!",
+        "ar": "أَهْلًا وَسَهْلًا يَا فَيْصَل! كُلُّ عَامٍ وَأَنْتَ بِخَيْر. شُكْرًا عَلَى الْكَعْك، لٰكِنْ مَا كَانَ ذٰلِكَ ضَرُورِيًّا!",
+        "en": "Welcome, Faisal! Many happy returns. Thank you for the kaʿk, but that really wasn't necessary!",
         "segs": [
           [
             "أَهْلًا",
@@ -521,8 +521,8 @@
             "O (calling someone)"
           ],
           [
-            "دَانْيَال",
-            "Daniel (first name)",
+            "فَيْصَل",
+            "Faisal (first name)",
             "name"
           ],
           [
@@ -648,12 +648,12 @@
       {
         "id": "d71l7",
         "sp": "omar",
-        "ar": "دَانْيَال! اُنْظُرْ، أَخَذْتُ عِيدِيَّة مِنْ جَدِّي وَجَدَّتِي، وَمِنْ أَبِي أَيْضًا!",
-        "en": "Daniel! Look, I got Eid money from my grandfather and my grandmother, and from my dad too!",
+        "ar": "فَيْصَل! اُنْظُرْ، أَخَذْتُ عِيدِيَّة مِنْ جَدِّي وَجَدَّتِي، وَمِنْ أَبِي أَيْضًا!",
+        "en": "Faisal! Look, I got Eid money from my grandfather and my grandmother, and from my dad too!",
         "segs": [
           [
-            "دَانْيَال",
-            "Daniel (first name)",
+            "فَيْصَل",
+            "Faisal (first name)",
             "name"
           ],
           [
@@ -1134,8 +1134,8 @@
       {
         "id": "d71l15",
         "sp": "sami",
-        "ar": "اِنْتَبِهْ يَا دَانْيَال! كَعْكُ أُمِّي لَذِيذ جِدًّا، وَبَعْدَ عَشْرِ قِطَع لَا تَسْتَطِيعُ أَنْ تَمْشِيَ!",
-        "en": "Careful, Daniel! My mother's kaʿk is very delicious, and after ten pieces you can't walk any more!",
+        "ar": "اِنْتَبِهْ يَا فَيْصَل! كَعْكُ أُمِّي لَذِيذ جِدًّا، وَبَعْدَ عَشْرِ قِطَع لَا تَسْتَطِيعُ أَنْ تَمْشِيَ!",
+        "en": "Careful, Faisal! My mother's kaʿk is very delicious, and after ten pieces you can't walk any more!",
         "segs": [
           [
             "اِنْتَبِهْ",
@@ -1146,8 +1146,8 @@
             "O (calling someone)"
           ],
           [
-            "دَانْيَال",
-            "Daniel (first name)",
+            "فَيْصَل",
+            "Faisal (first name)",
             "name"
           ],
           [
@@ -1200,8 +1200,8 @@
   },
   "reading": {
     "title": "Eid with Sami's family",
-    "ar": "يَوْمَ الْعِيد زَارَ دَانْيَال عَائِلَةَ سَامِي. ذَهَبَتِ الْعَائِلَة إِلَى صَلَاةِ الْعِيد صَبَاحًا، ثُمَّ أَكَلُوا الْفُطُور مَعًا. أَخَذَ عُمَر عِيدِيَّة مِنْ جَدِّهِ وَجَدَّتِهِ. أَكَلَ دَانْيَال كَعْكًا كَثِيرًا، وَقَالَ: كُلُّ عَامٍ وَأَنْتُمْ بِخَيْر!",
-    "en": "On Eid day Daniel visited Sami's family. In the morning the family went to the Eid prayer, and then they ate breakfast together. Omar got Eid money from his grandfather and grandmother. Daniel ate a lot of kaʿk and said: Many happy returns to you all!",
+    "ar": "يَوْمَ الْعِيد زَارَ فَيْصَل عَائِلَةَ سَامِي. ذَهَبَتِ الْعَائِلَة إِلَى صَلَاةِ الْعِيد صَبَاحًا، ثُمَّ أَكَلُوا الْفُطُور مَعًا. أَخَذَ عُمَر عِيدِيَّة مِنْ جَدِّهِ وَجَدَّتِهِ. أَكَلَ فَيْصَل كَعْكًا كَثِيرًا، وَقَالَ: كُلُّ عَامٍ وَأَنْتُمْ بِخَيْر!",
+    "en": "On Eid day Faisal visited Sami's family. In the morning the family went to the Eid prayer, and then they ate breakfast together. Omar got Eid money from his grandfather and grandmother. Faisal ate a lot of kaʿk and said: Many happy returns to you all!",
     "segs": [
       [
         "يَوْمَ",
@@ -1216,8 +1216,8 @@
         "(he) visited"
       ],
       [
-        "دَانْيَال",
-        "Daniel (first name)",
+        "فَيْصَل",
+        "Faisal (first name)",
         "name"
       ],
       [
@@ -1299,8 +1299,8 @@
         "(he) ate"
       ],
       [
-        "دَانْيَال",
-        "Daniel (first name)",
+        "فَيْصَل",
+        "Faisal (first name)",
         "name"
       ],
       [
@@ -1379,7 +1379,7 @@
     },
     {
       "id": "d71q4",
-      "prompt": "What does Daniel bring to Sami's family?",
+      "prompt": "What does Faisal bring to Sami's family?",
       "options": [
         "kaʿk from the bakery",
         "flowers",

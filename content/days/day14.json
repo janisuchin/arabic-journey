@@ -28,7 +28,7 @@
   ],
   "dialogue": {
     "title": "The flags of our countries",
-    "speakers": [ { "key": "karim", "name": "Mr Karim", "nameAr": "الْأُسْتَاذ كَرِيم" }, { "key": "sami", "name": "Sami", "nameAr": "سَامِي" }, { "key": "layla", "name": "Layla", "nameAr": "لَيْلَى" }, { "key": "daniel", "name": "Daniel", "nameAr": "دَانْيَال" } ],
+    "speakers": [ { "key": "karim", "name": "Mr Karim", "nameAr": "الْأُسْتَاذ كَرِيم" }, { "key": "sami", "name": "Sami", "nameAr": "سَامِي" }, { "key": "layla", "name": "Layla", "nameAr": "لَيْلَى" }, { "key": "daniel", "name": "Faisal", "nameAr": "فَيْصَل" } ],
     "culture": "Red, white, black and green are often called the Pan-Arab colours. They appear on the flags of many Arab countries, among them Egypt, Jordan, Palestine, Sudan, the United Arab Emirates and Kuwait.",
     "lines": [
       { "id": "d14l1", "sp": "karim", "ar": "يَا طُلَّاب، الْيَوْم دَرْسُنَا عَنِ الْأَلْوَان. اُنْظُرُوا إِلَى هٰذِهِ الْأَعْلَام!", "en": "Students, today our lesson is about colours. Look at these flags!",
@@ -47,8 +47,8 @@
         "segs": [["صَحِيح", "right, true"], ["وَعَلَمُ", "and the flag (of)"], ["الْأُرْدُنّ", "Jordan (country)", "name"], ["يَا", "O (calling someone)"], ["سَامِي", "Sami (first name)", "name"], ["أَنْتَ", "you (to a man)"], ["تَعْرِفُهُ", "you know it (to a man)"], ["فَصَدِيقُكَ", "because your friend (to a man)"], ["يُوسُف", "Yusuf (first name)", "name"], ["مِنْ", "from"], ["عَمَّان", "Amman (capital of Jordan)", "name"]] },
       { "id": "d14l8", "sp": "sami", "ar": "نَعَم! عَلَمُ الْأُرْدُنّ أَسْوَد وَأَبْيَض وَأَخْضَر، وَفِيهِ مُثَلَّث أَحْمَر وَنَجْمَة بَيْضَاء.", "en": "Yes! The flag of Jordan is black, white and green, and it has a red triangle and a white star.",
         "segs": [["نَعَم", "yes"], ["عَلَمُ", "flag (of)"], ["الْأُرْدُنّ", "Jordan (country)", "name"], ["أَسْوَد", "black"], ["وَأَبْيَض", "and white"], ["وَأَخْضَر", "and green"], ["وَفِيهِ", "and in it"], ["مُثَلَّث", "triangle"], ["أَحْمَر", "red"], ["وَنَجْمَة", "and a star"], ["بَيْضَاء", "white (f)"]] },
-      { "id": "d14l9", "sp": "layla", "ar": "وَأَنْتَ يَا دَانْيَال، مَا لَوْنُكَ الْمُفَضَّل؟", "en": "And you, Daniel, what is your favourite colour?",
-        "segs": [["وَأَنْتَ", "and you (to a man)"], ["يَا", "O (calling someone)"], ["دَانْيَال", "Daniel (first name)", "name"], ["مَا", "what"], ["لَوْنُكَ", "your colour (to a man)"], ["الْمُفَضَّل", "the favourite"]] },
+      { "id": "d14l9", "sp": "layla", "ar": "وَأَنْتَ يَا فَيْصَل، مَا لَوْنُكَ الْمُفَضَّل؟", "en": "And you, Faisal, what is your favourite colour?",
+        "segs": [["وَأَنْتَ", "and you (to a man)"], ["يَا", "O (calling someone)"], ["فَيْصَل", "Faisal (first name)", "name"], ["مَا", "what"], ["لَوْنُكَ", "your colour (to a man)"], ["الْمُفَضَّل", "the favourite"]] },
       { "id": "d14l10", "sp": "daniel", "ar": "لَوْنِي الْمُفَضَّل الْأَزْرَق، مِثْلُ النِّيل وَالسَّمَاء فِي الْقَاهِرَة.", "en": "My favourite colour is blue, like the Nile and the sky in Cairo.",
         "segs": [["لَوْنِي", "my colour"], ["الْمُفَضَّل", "the favourite"], ["الْأَزْرَق", "the blue"], ["مِثْلُ", "like"], ["النِّيل", "the Nile (river)", "name"], ["وَالسَّمَاء", "and the sky"], ["فِي", "in"], ["الْقَاهِرَة", "Cairo (capital of Egypt)", "name"]] },
       { "id": "d14l11", "sp": "sami", "ar": "وَأَنَا لَوْنِي الْمُفَضَّل الْأَخْضَر. حَقِيبَتِي خَضْرَاء، وَقَلَمِي أَخْضَر أَيْضًا!", "en": "And my favourite colour is green. My bag is green, and my pen is green too!",
@@ -59,8 +59,8 @@
         "segs": [["اللَّوْن", "the colour"], ["الْأَوَّل", "the first"], ["أَصْفَر", "yellow"], ["يَا", "O (calling someone)"], ["لَيْلَى", "Layla (first name)", "name"], ["مَا", "what"], ["هُوَ", "he, it (m)"], ["الْأَصْفَر", "the yellow (thing)"]] },
       { "id": "d14l14", "sp": "layla", "ar": "الشَّمْس صَفْرَاء، وَالْمَوْز أَصْفَر أَيْضًا!", "en": "The sun is yellow, and bananas are yellow too!",
         "segs": [["الشَّمْس", "the sun"], ["صَفْرَاء", "yellow (f)"], ["وَالْمَوْز", "and the bananas"], ["أَصْفَر", "yellow"], ["أَيْضًا", "also, too"]] },
-      { "id": "d14l15", "sp": "karim", "ar": "أَحْسَنْتِ يَا لَيْلَى! وَالْآن أَبْيَض… يَا دَانْيَال؟", "en": "Well done, Layla! And now white… Daniel?",
-        "segs": [["أَحْسَنْتِ", "well done (to a woman)"], ["يَا", "O (calling someone)"], ["لَيْلَى", "Layla (first name)", "name"], ["وَالْآن", "and now"], ["أَبْيَض", "white"], ["يَا", "O (calling someone)"], ["دَانْيَال", "Daniel (first name)", "name"]] },
+      { "id": "d14l15", "sp": "karim", "ar": "أَحْسَنْتِ يَا لَيْلَى! وَالْآن أَبْيَض… يَا فَيْصَل؟", "en": "Well done, Layla! And now white… Faisal?",
+        "segs": [["أَحْسَنْتِ", "well done (to a woman)"], ["يَا", "O (calling someone)"], ["لَيْلَى", "Layla (first name)", "name"], ["وَالْآن", "and now"], ["أَبْيَض", "white"], ["يَا", "O (calling someone)"], ["فَيْصَل", "Faisal (first name)", "name"]] },
       { "id": "d14l16", "sp": "daniel", "ar": "بَيْتِي فِي الْقَاهِرَة أَبْيَض… وَالْبَيْت الْأَبْيَض فِي وَاشِنْطُن أَيْضًا!", "en": "My house in Cairo is white… and so is the White House in Washington!",
         "segs": [["بَيْتِي", "my house"], ["فِي", "in"], ["الْقَاهِرَة", "Cairo (capital of Egypt)", "name"], ["أَبْيَض", "white"], ["وَالْبَيْت", "and the house"], ["الْأَبْيَض", "the white"], ["فِي", "in"], ["وَاشِنْطُن", "Washington (capital of the USA)", "name"], ["أَيْضًا", "also, too"]] }
     ]
@@ -73,7 +73,7 @@
     { "id": "d14q2", "prompt": "Complete: 'The car is red.'", "ar": "السَّيَّارَة …", "options": ["أَحْمَر", "أَخْضَر", "حَمْرَاء", "أَسْوَد"], "answer": 2 },
     { "id": "d14q3", "prompt": "What is the feminine of أَبْيَض (white)?", "options": ["سَوْدَاء", "بَيْضَاء", "صَفْرَاء", "زَرْقَاء"], "answer": 1 },
     { "id": "d14q4", "prompt": "In the dialogue, what is in the middle of the flag of Lebanon?", "options": ["a golden eagle", "a white star", "a green cedar tree", "a red triangle"], "answer": 2 },
-    { "id": "d14q5", "prompt": "What is Daniel's favourite colour?", "options": ["green", "red", "yellow", "blue"], "answer": 3 },
+    { "id": "d14q5", "prompt": "What is Faisal's favourite colour?", "options": ["green", "red", "yellow", "blue"], "answer": 3 },
     { "id": "d14q6", "prompt": "What does this mean?", "ar": "مَا لَوْنُ سَيَّارَتِكَ؟", "options": ["What colour is your car?", "Where is your car?", "Is your car new?", "What is your car's number?"], "answer": 0 },
     { "id": "d14q7", "prompt": "Which colour word ends in a tapped r?", "options": ["أَبْيَض", "أَسْوَد", "أَخْضَر", "بُنِّيّ"], "answer": 2 }
   ],

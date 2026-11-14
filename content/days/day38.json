@@ -27,7 +27,7 @@
   "realLife": {
     "emoji": "📱",
     "title": "A video call from Amman",
-    "story": "On Friday evening Sami is at Daniel's new flat when his friend Yusuf calls from Amman. Yusuf hasn't heard from them for a week and wants to know what they did last week, day by day.",
+    "story": "On Friday evening Sami is at Faisal's new flat when his friend Yusuf calls from Amman. Yusuf hasn't heard from them for a week and wants to know what they did last week, day by day.",
     "photo": {"file": "day38.jpg", "alt": "The Amman skyline at sunset: hills covered in pale houses, lit towers and a pink sky.", "credit": {"title": "File:Amman Skyline at Sunset - Jordan.jpg", "author": "Ibrahim nabeel salah", "license": "CC BY 4.0", "source": "https://commons.wikimedia.org/wiki/File:Amman_Skyline_at_Sunset_-_Jordan.jpg", "accessed": "2026-11-11", "modified": "resized and re-encoded", "licenseUrl": "https://creativecommons.org/licenses/by/4.0"}}
   },
   "letters": [],
@@ -262,8 +262,8 @@
       },
       {
         "key": "daniel",
-        "name": "Daniel",
-        "nameAr": "دَانْيَال"
+        "name": "Faisal",
+        "nameAr": "فَيْصَل"
       }
     ],
     "culture": "Most Arabic weekday names are numbers: الْأَحَد (Sunday) comes from 'one', الِاثْنَيْن (Monday) from 'two', الثُّلَاثَاء from 'three', الْأَرْبِعَاء from 'four' and الْخَمِيس from 'five'. Friday, الْجُمُعَة, is the day of gathering for the midday prayer; in Egypt and Jordan the weekend is Friday and Saturday.",
@@ -469,8 +469,8 @@
       {
         "id": "d38l5",
         "sp": "yusuf",
-        "ar": "رَائِع! وَأَنْتَ يَا دَانْيَال؟ مَاذَا فَعَلْتَ فِي بَقِيَّةِ الْأُسْبُوع؟",
-        "en": "Wonderful! And you, Daniel? What did you do for the rest of the week?",
+        "ar": "رَائِع! وَأَنْتَ يَا فَيْصَل؟ مَاذَا فَعَلْتَ فِي بَقِيَّةِ الْأُسْبُوع؟",
+        "en": "Wonderful! And you, Faisal? What did you do for the rest of the week?",
         "segs": [
           [
             "رَائِع",
@@ -485,8 +485,8 @@
             "O (calling someone)"
           ],
           [
-            "دَانْيَال",
-            "Daniel (first name)",
+            "فَيْصَل",
+            "Faisal (first name)",
             "name"
           ],
           [
@@ -926,8 +926,8 @@
       {
         "id": "d38l14",
         "sp": "yusuf",
-        "ar": "هِيَ بِخَيْر، وَسَأَلَتْ عَنْكَ! وَالْآنَ يَا دَانْيَال، أَرْسِلْ لِي صُوَرَ الْإِسْكَنْدَرِيَّة، مِنْ فَضْلِكَ.",
-        "en": "She's fine, and she asked about you! And now, Daniel, please send me the photos of Alexandria.",
+        "ar": "هِيَ بِخَيْر، وَسَأَلَتْ عَنْكَ! وَالْآنَ يَا فَيْصَل، أَرْسِلْ لِي صُوَرَ الْإِسْكَنْدَرِيَّة، مِنْ فَضْلِكَ.",
+        "en": "She's fine, and she asked about you! And now, Faisal, please send me the photos of Alexandria.",
         "segs": [
           [
             "هِيَ",
@@ -954,8 +954,8 @@
             "O (calling someone)"
           ],
           [
-            "دَانْيَال",
-            "Daniel (first name)",
+            "فَيْصَل",
+            "Faisal (first name)",
             "name"
           ],
           [
@@ -988,7 +988,7 @@
     ]
   },
   "reading": {
-    "title": "Daniel's week",
+    "title": "Faisal's week",
     "ar": "يَوْمَ الْأَحَد نَظَّفْتُ شَقَّتِي. يَوْمَ الِاثْنَيْن طَبَخْتُ الْمُلُوخِيَّة، وَأَكَلَهَا سَامِي مَسَاءً. يَوْمَ الثُّلَاثَاء قَرَأْتُ قِصَّة، وَيَوْمَ الْأَرْبِعَاء دَرَسْتُ الْقَوَاعِد.",
     "en": "On Sunday I cleaned my flat. On Monday I cooked molokhia, and Sami ate it in the evening. On Tuesday I read a story, and on Wednesday I studied grammar.",
     "segs": [
@@ -1119,7 +1119,7 @@
     },
     {
       "id": "d38q4",
-      "prompt": "What did Daniel cook on Monday?",
+      "prompt": "What did Faisal cook on Monday?",
       "options": [
         "fish",
         "mansaf",

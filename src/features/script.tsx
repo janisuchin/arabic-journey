@@ -66,21 +66,33 @@ export function LetterForms({ letter, size = 34 }: { letter: Letter; size?: numb
     ['final', f.final],
   ];
   return (
-    <View style={{ flexDirection: 'row', gap: 6 }} testID={`forms-${letter.id}`}>
-      {cells.map(([label, glyph]) => (
-        <View
-          key={label}
-          style={{ flex: 1, alignItems: 'center', backgroundColor: c.cardAlt, borderRadius: 10, paddingVertical: 4 }}>
-          <Text
-            {...webLang('ar', 'rtl')}
-            style={{ fontFamily: AR_FONT, fontSize: fs(size), lineHeight: fs(size) * 1.8, color: glyph ? c.text : c.textMuted }}>
-            {glyph ?? '—'}
-          </Text>
-          <AppText size={11} muted center>
-            {label}
-          </AppText>
-        </View>
-      ))}
+    <View style={{ gap: 4 }}>
+      <View style={{ flexDirection: 'row', gap: 6 }} testID={`forms-${letter.id}`}>
+        {cells.map(([label, glyph]) => (
+          <View
+            key={label}
+            style={{ flex: 1, alignItems: 'center', backgroundColor: c.cardAlt, borderRadius: 10, paddingVertical: 4 }}>
+            <Text
+              {...webLang('ar', 'rtl')}
+              style={{
+                fontFamily: AR_FONT,
+                fontSize: fs(size),
+                lineHeight: fs(size) * 1.8,
+                color: glyph ? c.text : c.textMuted,
+              }}>
+              {glyph ?? '—'}
+            </Text>
+            <AppText size={11} muted center>
+              {label}
+            </AppText>
+          </View>
+        ))}
+      </View>
+      <AppText size={12} muted testID={`forms-note-${letter.id}`}>
+        {f.initial
+          ? 'Same sound in all four places: only the shape changes, so the letter can join its neighbours.'
+          : 'Same sound in every place. This letter never joins the letter after it, so it has no initial or medial shape (—).'}
+      </AppText>
     </View>
   );
 }

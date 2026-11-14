@@ -10,6 +10,7 @@ import { wordPhotoByVocab } from '../content';
 import type { Seg } from '../content/schema';
 import {
   namesSet,
+  pauseReading,
   proseParts,
   proseTranslit,
   syllables,
@@ -60,6 +61,28 @@ export function QuestionScope({ answered, children }: { answered: boolean; child
 }
 
 /** Names the part of the app its children belong to (scenario:<id>, vocab:<id>…), for scoped glosses. */
+/** Read a whole sentence aloud (normal and slow): every example sentence has its own speaker, not only its words. */
+export function ListenButtons({ text, label = 'sentence', testID }: { text: string; label?: string; testID?: string }) {
+  const settings = useSettings();
+  const say = text.replace(/‍/g, '');
+  return (
+    <Row gap={0} style={{ justifyContent: 'flex-start' }}>
+      <IconButton
+        icon="volume-high"
+        label={`Play the ${label}`}
+        testID={testID}
+        onPress={() => tts.speak(say, { rate: settings.speechRate })}
+      />
+      <IconButton
+        icon="walk-outline"
+        label={`Play the ${label} slowly`}
+        testID={testID && `${testID}-slow`}
+        onPress={() => tts.speak(say, { rate: settings.slowRate })}
+      />
+    </Row>
+  );
+}
+
 export function GlossPlace({ place, children }: { place: string; children: ReactNode }) {
   const ctx = useContext(GlossScope);
   return <GlossScope.Provider value={{ ...ctx, place }}>{children}</GlossScope.Provider>;
@@ -79,6 +102,10 @@ export function WordBox({ info, onClose, floating }: { info: WordInfo; onClose: 
   const toggleFavourite = useLearner((s) => s.toggleFavourite);
   const sylls = useMemo(() => syllables(info.word, settings.translitStyle), [info.word, settings.translitStyle]);
   const v = info.vocab;
+  const pause = useMemo(
+    () => pauseReading(info.word, info.tr, settings.translitStyle),
+    [info.word, info.tr, settings.translitStyle],
+  );
   const facts: string[] = [];
   if (v) {
     facts.push(POS_LABEL[v.pos] ?? v.pos);
@@ -103,6 +130,12 @@ export function WordBox({ info, onClose, floating }: { info: WordInfo; onClose: 
             </AppText>
           )}
           {settings.showTranslit && <TrText size={18}>{info.tr}</TrText>}
+          {settings.showTranslit && pause && (
+            <AppText size={12} muted testID="word-box-pause">
+              Said on its own (pause): <TrText size={13}>{pause}</TrText>. A final short vowel is dropped at the end of a phrase,
+              so the voice may stop there.
+            </AppText>
+          )}
           <AppText size={17} weight="700" testID="word-box-meaning">
             {info.en ?? 'meaning not listed yet'}
           </AppText>
@@ -172,11 +205,20 @@ export function WordBox({ info, onClose, floating }: { info: WordInfo; onClose: 
             <TrText size={14}>{translitLine(info.example.ar, settings.translitStyle, namesSet())}</TrText>
           )}
           {settings.showTranslations && <AppText size={14}>{info.example.en}</AppText>}
+          <ListenButtons text={info.example.ar} label="example sentence" testID="word-example-play" />
         </View>
       )}
       <Row style={{ justifyContent: 'flex-start' }}>
-        <IconButton icon="volume-high" label="Play" onPress={() => tts.speak(info.word, { rate: settings.speechRate })} />
-        <IconButton icon="walk-outline" label="Play slowly" onPress={() => tts.speak(info.word, { rate: settings.slowRate })} />
+        <IconButton
+          icon="volume-high"
+          label="Play the word"
+          onPress={() => tts.speak(info.word, { rate: settings.speechRate })}
+        />
+        <IconButton
+          icon="walk-outline"
+          label="Play the word slowly"
+          onPress={() => tts.speak(info.word, { rate: settings.slowRate })}
+        />
         <AppText size={11} muted style={{ flex: 1 }}>
           Computer-generated voice, not a native-speaker recording.
         </AppText>

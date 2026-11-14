@@ -17,7 +17,7 @@
   ],
   "emoji": "🖋️",
   "summary": "Write a formal letter of application: open with السَّيِّد … الْمُحْتَرَم and تَحِيَّةً طَيِّبَةً وَبَعْدُ, present your request with أَتَشَرَّفُ بِأَنْ…, speak to the reader in the plural of respect and close with وَتَفَضَّلُوا بِقَبُولِ فَائِقِ الِاحْتِرَام.",
-  "intro": "On day 67 Daniel wrote a polite email at work. Today Layla writes something even more formal: a letter of application, طَلَب, to a university. The frame is fixed. Start with السَّيِّد (Mr) + the person's title + الْمُحْتَرَم (the respected), then تَحِيَّةً طَيِّبَةً وَبَعْدُ (greetings, and after that). Present your request with أَتَشَرَّفُ بِأَنْ… (I have the honour to…). Speak to the one reader in the plural, as a sign of respect: تَفَضَّلُوا (kindly…), رَدِّكُمْ (your reply). End with وَتَفَضَّلُوا بِقَبُولِ فَائِقِ الِاحْتِرَام (please accept my highest respect) and your name. Listen for ة too: it is 'a' at the end of a phrase (مِنْحَة) but 'at' before another word (مِنْحَةُ الْجَامِعَة).",
+  "intro": "On day 67 Faisal wrote a polite email at work. Today Layla writes something even more formal: a letter of application, طَلَب, to a university. The frame is fixed. Start with السَّيِّد (Mr) + the person's title + الْمُحْتَرَم (the respected), then تَحِيَّةً طَيِّبَةً وَبَعْدُ (greetings, and after that). Present your request with أَتَشَرَّفُ بِأَنْ… (I have the honour to…). Speak to the one reader in the plural, as a sign of respect: تَفَضَّلُوا (kindly…), رَدِّكُمْ (your reply). End with وَتَفَضَّلُوا بِقَبُولِ فَائِقِ الِاحْتِرَام (please accept my highest respect) and your name. Listen for ة too: it is 'a' at the end of a phrase (مِنْحَة) but 'at' before another word (مِنْحَةُ الْجَامِعَة).",
   "objectives": [
     "Lay out a formal letter: السَّيِّد … الْمُحْتَرَم, the greeting, the request and the closing",
     "Present a formal request with أَتَشَرَّفُ بِأَنْ + a verb",
@@ -27,7 +27,7 @@
   "realLife": {
     "emoji": "🎓",
     "title": "The scholarship letter",
-    "story": "Layla has found the programme of her dreams: a master's in translation at Cairo University, with scholarships for the best applicants. The application must arrive by Thursday, and it has to be a real formal letter, not a friendly email. After class she shows her first draft to Mr Karim, and Daniel and Sami lean over her shoulder to read it too.",
+    "story": "Layla has found the programme of her dreams: a master's in translation at Cairo University, with scholarships for the best applicants. The application must arrive by Thursday, and it has to be a real formal letter, not a friendly email. After class she shows her first draft to Mr Karim, and Faisal and Sami lean over her shoulder to read it too.",
     "photo": {"file": "day82.jpg", "alt": "The modern stone entrance of the American University in Cairo campus, with its AUC sign.", "credit": {"title": "File:American University in Cairo (AUC) 2026 (1).jpg", "author": "Ibrahim.ID", "license": "CC BY 4.0", "source": "https://commons.wikimedia.org/wiki/File:American_University_in_Cairo_(AUC)_2026_(1).jpg", "accessed": "2026-11-11", "modified": "resized and re-encoded", "licenseUrl": "https://creativecommons.org/licenses/by/4.0"}}
   },
   "letters": [],
@@ -370,8 +370,8 @@
       },
       {
         "key": "daniel",
-        "name": "Daniel",
-        "nameAr": "دَانْيَال"
+        "name": "Faisal",
+        "nameAr": "فَيْصَل"
       },
       {
         "key": "sami",
@@ -663,8 +663,8 @@
       {
         "id": "d82l5",
         "sp": "layla",
-        "ar": "أَنْتَ عَلَى حَقّ. إِذًا كَيْفَ أَبْدَأُ؟ عِنْدَمَا كَتَبَ دَانْيَال رِسَالَتَهُ فِي الْعَمَل، تَعَلَّمْنَا «حَضْرَةَ … الْمُحْتَرَم». هَلْ هٰذَا نَفْسُ الشَّيْء؟",
-        "en": "You're right. So how do I begin? When Daniel wrote his email at work, we learned 'ḥaḍrata … al-muḥtaram'. Is that the same thing?",
+        "ar": "أَنْتَ عَلَى حَقّ. إِذًا كَيْفَ أَبْدَأُ؟ عِنْدَمَا كَتَبَ فَيْصَل رِسَالَتَهُ فِي الْعَمَل، تَعَلَّمْنَا «حَضْرَةَ … الْمُحْتَرَم». هَلْ هٰذَا نَفْسُ الشَّيْء؟",
+        "en": "You're right. So how do I begin? When Faisal wrote his email at work, we learned 'ḥaḍrata … al-muḥtaram'. Is that the same thing?",
         "segs": [
           [
             "أَنْتَ",
@@ -699,8 +699,8 @@
             "(he) wrote"
           ],
           [
-            "دَانْيَال",
-            "Daniel (first name)",
+            "فَيْصَل",
+            "Faisal (first name)",
             "name"
           ],
           [
@@ -1327,8 +1327,8 @@
       {
         "id": "d82l14",
         "sp": "karim",
-        "ar": "أَحْسَنْتِ! وَانْتَبِهْ يَا دَانْيَال إِلَى التَّاءِ الْمَرْبُوطَة: فِي آخِرِ الْجُمْلَة نَقُولُ «مِنْحَة»، لٰكِنْ قَبْلَ كَلِمَة أُخْرَى نَقُولُ «مِنْحَةُ الْجَامِعَة» بِالتَّاء.",
-        "en": "Well done! And Daniel, pay attention to the tāʾ marbūṭa: at the end of a sentence we say 'minḥa', but before another word we say 'minḥatu l-jāmiʿa', with a t.",
+        "ar": "أَحْسَنْتِ! وَانْتَبِهْ يَا فَيْصَل إِلَى التَّاءِ الْمَرْبُوطَة: فِي آخِرِ الْجُمْلَة نَقُولُ «مِنْحَة»، لٰكِنْ قَبْلَ كَلِمَة أُخْرَى نَقُولُ «مِنْحَةُ الْجَامِعَة» بِالتَّاء.",
+        "en": "Well done! And Faisal, pay attention to the tāʾ marbūṭa: at the end of a sentence we say 'minḥa', but before another word we say 'minḥatu l-jāmiʿa', with a t.",
         "segs": [
           [
             "أَحْسَنْتِ",
@@ -1343,8 +1343,8 @@
             "O (calling someone)"
           ],
           [
-            "دَانْيَال",
-            "Daniel (first name)",
+            "فَيْصَل",
+            "Faisal (first name)",
             "name"
           ],
           [

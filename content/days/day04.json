@@ -5,7 +5,7 @@
   "summary": "Ask how someone is, say how you are, thank people and ask simple questions.",
   "intro": "كَيْفَ حَالُكَ؟ is literally 'how is your condition?'. Most people answer بِخَيْر، الْحَمْدُ لِلّٰه (fine, thank God). Today's question words are كَيْفَ, أَيْنَ, مَنْ and هَلْ. New letters: س ش ص ض, including two of the 'heavy' emphatic sounds.",
   "objectives": ["Ask a man or a woman how they are", "Say that you are fine, or tired", "Thank someone and answer a thank-you", "Use the question words كَيْفَ, أَيْنَ, مَنْ and هَلْ"],
-  "realLife": { "emoji": "😴", "title": "A tired friend", "story": "It is Thursday morning. Sami looks tired after a long night of studying, and he has brought a friend from Jordan to class. Daniel and Layla practise asking how everyone is.", "photo": {"file": "day04.jpg", "alt": "The crowded El Fishawi cafe in Khan el-Khalili, Cairo, with mirrors on the walls and guests at small tables.", "credit": {"title": "File:Kairo 2019-11-04j.jpg", "author": "Djehouty", "license": "CC BY-SA 4.0", "source": "https://commons.wikimedia.org/wiki/File:Kairo_2019-11-04j.jpg", "accessed": "2026-11-11", "modified": "resized and re-encoded", "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"}} },
+  "realLife": { "emoji": "😴", "title": "A tired friend", "story": "It is Thursday morning. Sami looks tired after a long night of studying, and he has brought a friend from Jordan to class. Faisal and Layla practise asking how everyone is.", "photo": {"file": "day04.jpg", "alt": "The crowded El Fishawi cafe in Khan el-Khalili, Cairo, with mirrors on the walls and guests at small tables.", "credit": {"title": "File:Kairo 2019-11-04j.jpg", "author": "Djehouty", "license": "CC BY-SA 4.0", "source": "https://commons.wikimedia.org/wiki/File:Kairo_2019-11-04j.jpg", "accessed": "2026-11-11", "modified": "resized and re-encoded", "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"}} },
   "letters": ["sin", "shin", "sad", "dad"],
   "newWords": ["kayfa", "hal", "kayfa-haluka", "bikhayr", "alhamdulillah", "shukran", "afwan", "man"],
   "grammar": ["questions"],
@@ -25,7 +25,7 @@
   ],
   "dialogue": {
     "title": "How is everyone today?",
-    "speakers": [ { "key": "daniel", "name": "Daniel", "nameAr": "دَانْيَال" }, { "key": "layla", "name": "Layla", "nameAr": "لَيْلَى" }, { "key": "sami", "name": "Sami", "nameAr": "سَامِي" }, { "key": "yusuf", "name": "Yusuf", "nameAr": "يُوسُف" } ],
+    "speakers": [ { "key": "daniel", "name": "Faisal", "nameAr": "فَيْصَل" }, { "key": "layla", "name": "Layla", "nameAr": "لَيْلَى" }, { "key": "sami", "name": "Sami", "nameAr": "سَامِي" }, { "key": "yusuf", "name": "Yusuf", "nameAr": "يُوسُف" } ],
     "culture": "الْحَمْدُ لِلّٰه (praise be to God) is said by Muslims, Christians and non-religious people alike. It is simply the normal way to say you are well.",
     "lines": [
       { "id": "d4l1", "sp": "daniel", "ar": "صَبَاحُ الْخَيْر يَا لَيْلَى! كَيْفَ حَالُكِ الْيَوْم؟", "en": "Good morning, Layla! How are you today?",
@@ -38,8 +38,8 @@
         "segs": [["سَامِي", "Sami (first name)", "name"], ["هُنَاكَ", "there"], ["عِنْدَ", "at, by"], ["الْبَاب", "the door"], ["هُوَ", "he"], ["مُتْعَب", "tired"], ["قَلِيلًا", "a little"]] },
       { "id": "d4l5", "sp": "daniel", "ar": "مَرْحَبًا يَا سَامِي! كَيْفَ حَالُكَ؟ هَلْ أَنْتَ بِخَيْر؟", "en": "Hello, Sami! How are you? Are you all right?",
         "segs": [["مَرْحَبًا", "hello"], ["يَا", "O (calling someone)"], ["سَامِي", "Sami (first name)", "name"], ["كَيْفَ", "how"], ["حَالُكَ", "your condition (to a man)"], ["هَلْ", "(starts a yes/no question)"], ["أَنْتَ", "you (to a man)"], ["بِخَيْر", "fine (lit. in goodness)"]] },
-      { "id": "d4l6", "sp": "sami", "ar": "أَهْلًا يَا دَانْيَال. أَنَا مُتْعَب، لٰكِنِ الْحَمْدُ لِلّٰه.", "en": "Hi, Daniel. I am tired, but I am fine, thank God.",
-        "segs": [["أَهْلًا", "hi, welcome"], ["يَا", "O (calling someone)"], ["دَانْيَال", "Daniel (first name)", "name"], ["أَنَا", "I"], ["مُتْعَب", "tired"], ["لٰكِنِ", "but"], ["الْحَمْدُ", "the praise"], ["لِلّٰه", "to God"]] },
+      { "id": "d4l6", "sp": "sami", "ar": "أَهْلًا يَا فَيْصَل. أَنَا مُتْعَب، لٰكِنِ الْحَمْدُ لِلّٰه.", "en": "Hi, Faisal. I am tired, but I am fine, thank God.",
+        "segs": [["أَهْلًا", "hi, welcome"], ["يَا", "O (calling someone)"], ["فَيْصَل", "Faisal (first name)", "name"], ["أَنَا", "I"], ["مُتْعَب", "tired"], ["لٰكِنِ", "but"], ["الْحَمْدُ", "the praise"], ["لِلّٰه", "to God"]] },
       { "id": "d4l7", "sp": "layla", "ar": "مِسْكِين! مَنْ هٰذَا مَعَكَ يَا سَامِي؟", "en": "Poor thing! Who is this with you, Sami?",
         "segs": [["مِسْكِين", "poor thing"], ["مَنْ", "who"], ["هٰذَا", "this (m)"], ["مَعَكَ", "with you (m)"], ["يَا", "O (calling someone)"], ["سَامِي", "Sami (first name)", "name"]] },
       { "id": "d4l8", "sp": "sami", "ar": "هٰذَا صَدِيقِي يُوسُف. هُوَ طَالِب جَدِيد مِنَ الْأُرْدُنّ.", "en": "This is my friend Yusuf. He is a new student from Jordan.",

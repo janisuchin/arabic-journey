@@ -289,8 +289,8 @@
       },
       {
         "key": "daniel",
-        "name": "Daniel",
-        "nameAr": "دَانْيَال"
+        "name": "Faisal",
+        "nameAr": "فَيْصَل"
       }
     ],
     "culture": "In many Arab cities, schools and volunteers organise clean-up days on beaches, in parks and in the desert. Water is precious in most of the region, so children learn early to turn off the tap, and recycling, إِعَادَةُ التَّدْوِير, is spreading fast, with separate bins for plastic, paper and glass in more and more streets.",
@@ -744,8 +744,8 @@
       {
         "id": "d78l7",
         "sp": "karim",
-        "ar": "مُمْتَاز يَا دَانْيَال. «إِعَادَةُ التَّدْوِير» تَعْنِي أَنْ نَسْتَعْمِلَ الْأَشْيَاءَ الْقَدِيمَة مَرَّةً ثَانِيَة، وَهِيَ تُوَفِّرُ الطَّاقَةَ وَالْمَاء.",
-        "en": "Excellent, Daniel. 'Iʿādat at-tadwīr', recycling, means using old things a second time, and it saves energy and water.",
+        "ar": "مُمْتَاز يَا فَيْصَل. «إِعَادَةُ التَّدْوِير» تَعْنِي أَنْ نَسْتَعْمِلَ الْأَشْيَاءَ الْقَدِيمَة مَرَّةً ثَانِيَة، وَهِيَ تُوَفِّرُ الطَّاقَةَ وَالْمَاء.",
+        "en": "Excellent, Faisal. 'Iʿādat at-tadwīr', recycling, means using old things a second time, and it saves energy and water.",
         "segs": [
           [
             "مُمْتَاز",
@@ -756,8 +756,8 @@
             "O (calling someone)"
           ],
           [
-            "دَانْيَال",
-            "Daniel (first name)",
+            "فَيْصَل",
+            "Faisal (first name)",
             "name"
           ],
           [
@@ -1622,7 +1622,7 @@
     },
     {
       "id": "d78q5",
-      "prompt": "What happens in Daniel's city every spring?",
+      "prompt": "What happens in Faisal's city every spring?",
       "options": [
         "a clean-up day on the lake shore",
         "a tree festival in the park",

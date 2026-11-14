@@ -27,7 +27,7 @@
   "realLife": {
     "emoji": "🎙️",
     "title": "A practice exam in pairs",
-    "story": "Two days before the final exam, Mr Karim turns the classroom into an exam room. Every student gets a partner and a card with five tasks: introduce yourself, describe your city and family, ask the way, order in a café and give your opinion. Daniel is worried about his accent and about the letter qaf, so he asks Layla to be his examiner. She promises to be strict, and to answer as fast as people in a Cairo street.",
+    "story": "Two days before the final exam, Mr Karim turns the classroom into an exam room. Every student gets a partner and a card with five tasks: introduce yourself, describe your city and family, ask the way, order in a café and give your opinion. Faisal is worried about his accent and about the letter qaf, so he asks Layla to be his examiner. She promises to be strict, and to answer as fast as people in a Cairo street.",
     "photo": {"file": "day87.jpg", "alt": "A studio microphone on a stand, close up, with warm lights behind.", "credit": {"title": "File:Close up view of a microphone set up in a recording studio.jpg", "author": "Shixart1985", "license": "CC BY 2.0", "source": "https://commons.wikimedia.org/wiki/File:Close_up_view_of_a_microphone_set_up_in_a_recording_studio.jpg", "accessed": "2026-11-11", "modified": "resized and re-encoded", "licenseUrl": "https://creativecommons.org/licenses/by/2.0"}}
   },
   "letters": [],
@@ -381,8 +381,8 @@
       },
       {
         "key": "daniel",
-        "name": "Daniel",
-        "nameAr": "دَانْيَال"
+        "name": "Faisal",
+        "nameAr": "فَيْصَل"
       },
       {
         "key": "layla",
@@ -639,8 +639,8 @@
       {
         "id": "d87l4",
         "sp": "layla",
-        "ar": "بِكُلِّ سُرُور يَا دَانْيَال! أَنَا الْمُمْتَحِنَة الْيَوْمَ. السُّؤَالُ الْأَوَّل: عَرِّفْنَا بِنَفْسِكَ مِنْ فَضْلِكَ، وَصِفْ لَنَا مَدِينَتَكَ وَعَائِلَتَكَ.",
-        "en": "With pleasure, Daniel! I'm the examiner today. The first question: introduce yourself, please, and describe your city and your family for us.",
+        "ar": "بِكُلِّ سُرُور يَا فَيْصَل! أَنَا الْمُمْتَحِنَة الْيَوْمَ. السُّؤَالُ الْأَوَّل: عَرِّفْنَا بِنَفْسِكَ مِنْ فَضْلِكَ، وَصِفْ لَنَا مَدِينَتَكَ وَعَائِلَتَكَ.",
+        "en": "With pleasure, Faisal! I'm the examiner today. The first question: introduce yourself, please, and describe your city and your family for us.",
         "segs": [
           [
             "بِكُلِّ",
@@ -655,8 +655,8 @@
             "O (calling someone)"
           ],
           [
-            "دَانْيَال",
-            "Daniel (first name)"
+            "فَيْصَل",
+            "Faisal (first name)"
           ],
           [
             "أَنَا",
@@ -715,16 +715,16 @@
       {
         "id": "d87l5",
         "sp": "daniel",
-        "ar": "اِسْمِي دَانْيَال، وَأَنَا أَمْرِيكِيّ مِنْ شِيكَاغُو. هِيَ مَدِينَة كَبِيرَة عَلَى بُحَيْرَة، فِيهَا عِمَارَات عَالِيَة جِدًّا. عَائِلَتِي تَسْكُنُ هُنَاكَ: أَبِي وَأُمِّي وَأُخْتِي إِيمَا. أُحِبُّهُمْ مِنْ كُلِّ كَلْبِي!",
-        "en": "My name is Daniel, and I'm American, from Chicago. It's a big city on a lake, with very tall buildings. My family lives there: my father, my mother and my sister Emma. I love them with all my dog!",
+        "ar": "اِسْمِي فَيْصَل، وَأَنَا أَمْرِيكِيّ مِنْ شِيكَاغُو. هِيَ مَدِينَة كَبِيرَة عَلَى بُحَيْرَة، فِيهَا عِمَارَات عَالِيَة جِدًّا. عَائِلَتِي تَسْكُنُ هُنَاكَ: أَبِي وَأُمِّي وَأُخْتِي لُبْنَى. أُحِبُّهُمْ مِنْ كُلِّ كَلْبِي!",
+        "en": "My name is Faisal, and I'm American, from Chicago. It's a big city on a lake, with very tall buildings. My family lives there: my father, my mother and my sister Lubna. I love them with all my dog!",
         "segs": [
           [
             "اِسْمِي",
             "my name"
           ],
           [
-            "دَانْيَال",
-            "Daniel (first name)"
+            "فَيْصَل",
+            "Faisal (first name)"
           ],
           [
             "وَأَنَا",
@@ -803,8 +803,8 @@
             "and my sister"
           ],
           [
-            "إِيمَا",
-            "Emma (first name)"
+            "لُبْنَى",
+            "Lubna (first name)"
           ],
           [
             "أُحِبُّهُمْ",
@@ -963,8 +963,8 @@
       {
         "id": "d87l8",
         "sp": "karim",
-        "ar": "لَا بَأْسَ يَا دَانْيَال، هٰذَا يَحْدُثُ لِلْجَمِيع. فِي الِامْتِحَان، إِذَا أَخْطَأْتَ، فَقُلْ «عَفْوًا، أَقْصِدُ…» ثُمَّ صَحِّحِ الْكَلِمَة، وَاسْتَمِرَّ بِثِقَة.",
-        "en": "Never mind, Daniel, this happens to everyone. In the exam, if you make a mistake, say 'Sorry, I mean…', then correct the word and carry on with confidence.",
+        "ar": "لَا بَأْسَ يَا فَيْصَل، هٰذَا يَحْدُثُ لِلْجَمِيع. فِي الِامْتِحَان، إِذَا أَخْطَأْتَ، فَقُلْ «عَفْوًا، أَقْصِدُ…» ثُمَّ صَحِّحِ الْكَلِمَة، وَاسْتَمِرَّ بِثِقَة.",
+        "en": "Never mind, Faisal, this happens to everyone. In the exam, if you make a mistake, say 'Sorry, I mean…', then correct the word and carry on with confidence.",
         "segs": [
           [
             "لَا",
@@ -979,8 +979,8 @@
             "O (calling someone)"
           ],
           [
-            "دَانْيَال",
-            "Daniel (first name)"
+            "فَيْصَل",
+            "Faisal (first name)"
           ],
           [
             "هٰذَا",
@@ -1523,8 +1523,8 @@
       {
         "id": "d87l15",
         "sp": "karim",
-        "ar": "مُمْتَاز يَا دَانْيَال! أُوَافِقُكَ: الطَّلَاقَةُ تَأْتِي مَعَ الْوَقْت، وَالْمُهِمُّ أَنْ تُعَبِّرَ عَنْ رَأْيِكَ بِثِقَة. «يَعْنِي» وَ«كَيْفَ أَقُولُ» تُعْطِيَانِكَ وَقْتًا لِلتَّفْكِير.",
-        "en": "Excellent, Daniel! I agree with you: fluency comes with time, and the important thing is to express your opinion with confidence. 'Ya'ni' and 'how can I put it' give you time to think.",
+        "ar": "مُمْتَاز يَا فَيْصَل! أُوَافِقُكَ: الطَّلَاقَةُ تَأْتِي مَعَ الْوَقْت، وَالْمُهِمُّ أَنْ تُعَبِّرَ عَنْ رَأْيِكَ بِثِقَة. «يَعْنِي» وَ«كَيْفَ أَقُولُ» تُعْطِيَانِكَ وَقْتًا لِلتَّفْكِير.",
+        "en": "Excellent, Faisal! I agree with you: fluency comes with time, and the important thing is to express your opinion with confidence. 'Ya'ni' and 'how can I put it' give you time to think.",
         "segs": [
           [
             "مُمْتَاز",
@@ -1535,8 +1535,8 @@
             "O (calling someone)"
           ],
           [
-            "دَانْيَال",
-            "Daniel (first name)"
+            "فَيْصَل",
+            "Faisal (first name)"
           ],
           [
             "أُوَافِقُكَ",
@@ -1615,8 +1615,8 @@
       {
         "id": "d87l16",
         "sp": "layla",
-        "ar": "الْآنَ دَوْرُكَ يَا دَانْيَال: أَنْتَ تَسْأَلُنِي، وَأَنَا أُجِيبُ. لٰكِنْ تَكَلَّمْ بِبُطْء، وَلَا تَسْأَلْنِي عَنْ كَلْبِكَ!",
-        "en": "Now it's your turn, Daniel: you ask me, and I answer. But speak slowly, and don't ask me about your dog!",
+        "ar": "الْآنَ دَوْرُكَ يَا فَيْصَل: أَنْتَ تَسْأَلُنِي، وَأَنَا أُجِيبُ. لٰكِنْ تَكَلَّمْ بِبُطْء، وَلَا تَسْأَلْنِي عَنْ كَلْبِكَ!",
+        "en": "Now it's your turn, Faisal: you ask me, and I answer. But speak slowly, and don't ask me about your dog!",
         "segs": [
           [
             "الْآنَ",
@@ -1631,8 +1631,8 @@
             "O (calling someone)"
           ],
           [
-            "دَانْيَال",
-            "Daniel (first name)"
+            "فَيْصَل",
+            "Faisal (first name)"
           ],
           [
             "أَنْتَ",
@@ -1684,8 +1684,8 @@
   },
   "reading": {
     "title": "Practice for the speaking exam",
-    "ar": "الْيَوْمَ تَدَرَّبَ الطُّلَّابُ عَلَى امْتِحَانِ الْمُحَادَثَة. كَانَتْ لَيْلَى شَرِيكَةَ دَانْيَال، فَسَأَلَتْهُ عَنْ مَدِينَتِهِ وَعَائِلَتِهِ. قَالَ دَانْيَال «كَلْبِي» بَدَلًا مِنْ «قَلْبِي»، فَاعْتَذَرَ وَصَحَّحَ الْخَطَأ. ثُمَّ تَكَلَّمَتْ لَيْلَى بِسُرْعَة، فَطَلَبَ مِنْهَا أَنْ تُكَرِّرَ بِبُطْء. فِي رَأْيِ الْأُسْتَاذ كَرِيم، الثِّقَةُ أَهَمُّ مِنَ الطَّلَاقَة.",
-    "en": "Today the students practised for the speaking exam. Layla was Daniel's partner, so she asked him about his city and his family. Daniel said 'my dog' instead of 'my heart', so he apologised and corrected the mistake. Then Layla spoke quickly, so he asked her to repeat it slowly. In Mr Karim's opinion, confidence is more important than fluency.",
+    "ar": "الْيَوْمَ تَدَرَّبَ الطُّلَّابُ عَلَى امْتِحَانِ الْمُحَادَثَة. كَانَتْ لَيْلَى شَرِيكَةَ فَيْصَل، فَسَأَلَتْهُ عَنْ مَدِينَتِهِ وَعَائِلَتِهِ. قَالَ فَيْصَل «كَلْبِي» بَدَلًا مِنْ «قَلْبِي»، فَاعْتَذَرَ وَصَحَّحَ الْخَطَأ. ثُمَّ تَكَلَّمَتْ لَيْلَى بِسُرْعَة، فَطَلَبَ مِنْهَا أَنْ تُكَرِّرَ بِبُطْء. فِي رَأْيِ الْأُسْتَاذ كَرِيم، الثِّقَةُ أَهَمُّ مِنَ الطَّلَاقَة.",
+    "en": "Today the students practised for the speaking exam. Layla was Faisal's partner, so she asked him about his city and his family. Faisal said 'my dog' instead of 'my heart', so he apologised and corrected the mistake. Then Layla spoke quickly, so he asked her to repeat it slowly. In Mr Karim's opinion, confidence is more important than fluency.",
     "segs": [
       [
         "الْيَوْمَ",
@@ -1724,8 +1724,8 @@
         "partner (f, of)"
       ],
       [
-        "دَانْيَال",
-        "Daniel (first name)"
+        "فَيْصَل",
+        "Faisal (first name)"
       ],
       [
         "فَسَأَلَتْهُ",
@@ -1748,8 +1748,8 @@
         "(he) said"
       ],
       [
-        "دَانْيَال",
-        "Daniel (first name)"
+        "فَيْصَل",
+        "Faisal (first name)"
       ],
       [
         "كَلْبِي",
@@ -1883,7 +1883,7 @@
     },
     {
       "id": "d87q3",
-      "prompt": "What mistake does Daniel make when he talks about his family?",
+      "prompt": "What mistake does Faisal make when he talks about his family?",
       "options": [
         "He says Chicago is a small city.",
         "He forgets his sister's name.",
@@ -1905,7 +1905,7 @@
     },
     {
       "id": "d87q5",
-      "prompt": "What does Daniel say to check that he understood the way?",
+      "prompt": "What does Faisal say to check that he understood the way?",
       "options": [
         "هَلْ تَقْصِدِينَ أَنَّ الْمَتْحَفَ بَعْدَ الْبَنْك؟",
         "أَيْنَ الْمَتْحَفُ؟",

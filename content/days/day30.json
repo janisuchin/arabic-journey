@@ -27,7 +27,7 @@
   "realLife": {
     "emoji": "💻",
     "title": "A video call to Chicago",
-    "story": "On Sunday evening Daniel calls his sister Emma in Chicago. Emma is learning Arabic at university, so they practise together. Daniel shows her his new bedroom on the phone: the bed, the desk, the wardrobe and, on the wall, a photo of their family.",
+    "story": "On Sunday evening Faisal calls his sister Lubna in Chicago. Lubna is learning Arabic at university, so they practise together. Faisal shows her his new bedroom on the phone: the bed, the desk, the wardrobe and, on the wall, a photo of their family.",
     "photo": {"file": "day30.jpg", "alt": "A dark room in old Cairo with tall wooden mashrabiya screens and small stained-glass windows.", "credit": {"title": "File:Mashrabiya in the Coptic Museum, located in Cairo, 2025.jpg", "author": "Alessiaazari", "license": "CC BY 4.0", "source": "https://commons.wikimedia.org/wiki/File:Mashrabiya_in_the_Coptic_Museum,_located_in_Cairo,_2025.jpg", "accessed": "2026-11-11", "modified": "resized and re-encoded", "licenseUrl": "https://creativecommons.org/licenses/by/4.0"}}
   },
   "letters": [],
@@ -247,13 +247,13 @@
     "speakers": [
       {
         "key": "emma",
-        "name": "Emma",
-        "nameAr": "إِيمَا"
+        "name": "Lubna",
+        "nameAr": "لُبْنَى"
       },
       {
         "key": "daniel",
-        "name": "Daniel",
-        "nameAr": "دَانْيَال"
+        "name": "Faisal",
+        "nameAr": "فَيْصَل"
       }
     ],
     "culture": "Egyptian homes are usually kept very clean, and guests often take off their shoes at the door. When you leave, a friendly goodbye is سَلِّمْ عَلَى أَهْلِكَ (say hello to your family), to a man, or سَلِّمِي (to a woman).",
@@ -261,8 +261,8 @@
       {
         "id": "d30l1",
         "sp": "emma",
-        "ar": "مَرْحَبًا يَا دَانْيَال! أَيْنَ أَنْتَ الْآن؟ أُرِيدُ أَنْ أَرَى غُرْفَتَكَ الْجَدِيدَة!",
-        "en": "Hi, Daniel! Where are you now? I want to see your new room!",
+        "ar": "مَرْحَبًا يَا فَيْصَل! أَيْنَ أَنْتَ الْآن؟ أُرِيدُ أَنْ أَرَى غُرْفَتَكَ الْجَدِيدَة!",
+        "en": "Hi, Faisal! Where are you now? I want to see your new room!",
         "segs": [
           [
             "مَرْحَبًا",
@@ -273,8 +273,8 @@
             "O (calling someone)"
           ],
           [
-            "دَانْيَال",
-            "Daniel (first name)",
+            "فَيْصَل",
+            "Faisal (first name)",
             "name"
           ],
           [
@@ -314,8 +314,8 @@
       {
         "id": "d30l2",
         "sp": "daniel",
-        "ar": "أَهْلًا يَا إِيمَا! أَنَا فِي غُرْفَتِي الْآن. اُنْظُرِي، هٰذَا سَرِيرِي، وَهٰذَا مَكْتَبِي.",
-        "en": "Hi, Emma! I'm in my room now. Look, this is my bed, and this is my desk.",
+        "ar": "أَهْلًا يَا لُبْنَى! أَنَا فِي غُرْفَتِي الْآن. اُنْظُرِي، هٰذَا سَرِيرِي، وَهٰذَا مَكْتَبِي.",
+        "en": "Hi, Lubna! I'm in my room now. Look, this is my bed, and this is my desk.",
         "segs": [
           [
             "أَهْلًا",
@@ -326,8 +326,8 @@
             "O (calling someone)"
           ],
           [
-            "إِيمَا",
-            "Emma (first name)",
+            "لُبْنَى",
+            "Lubna (first name)",
             "name"
           ],
           [
@@ -560,8 +560,8 @@
       {
         "id": "d30l7",
         "sp": "emma",
-        "ar": "مَا أَجْمَلَ الصُّورَة! وَأَيْنَ تَدْرُسُ يَا دَانْيَال؟ عَلَى السَّرِير؟",
-        "en": "What a lovely photo! And where do you study, Daniel? On the bed?",
+        "ar": "مَا أَجْمَلَ الصُّورَة! وَأَيْنَ تَدْرُسُ يَا فَيْصَل؟ عَلَى السَّرِير؟",
+        "en": "What a lovely photo! And where do you study, Faisal? On the bed?",
         "segs": [
           [
             "مَا",
@@ -588,8 +588,8 @@
             "O (calling someone)"
           ],
           [
-            "دَانْيَال",
-            "Daniel (first name)",
+            "فَيْصَل",
+            "Faisal (first name)",
             "name"
           ],
           [
@@ -949,17 +949,17 @@
     ]
   },
   "reading": {
-    "title": "Daniel's room",
-    "ar": "غُرْفَةُ دَانْيَال صَغِيرَة، لٰكِنَّهَا نَظِيفَة. فِيهَا سَرِير وَمَكْتَب وَكُرْسِيّ وَخِزَانَة. عَلَى الْمَكْتَب مِصْبَاح جَدِيد، وَعَلَى الْجِدَار صُورَة لِعَائِلَتِهِ.",
-    "en": "Daniel's room is small, but it is clean. In it there is a bed, a desk, a chair and a wardrobe. On the desk there is a new lamp, and on the wall there is a photo of his family.",
+    "title": "Faisal's room",
+    "ar": "غُرْفَةُ فَيْصَل صَغِيرَة، لٰكِنَّهَا نَظِيفَة. فِيهَا سَرِير وَمَكْتَب وَكُرْسِيّ وَخِزَانَة. عَلَى الْمَكْتَب مِصْبَاح جَدِيد، وَعَلَى الْجِدَار صُورَة لِعَائِلَتِهِ.",
+    "en": "Faisal's room is small, but it is clean. In it there is a bed, a desk, a chair and a wardrobe. On the desk there is a new lamp, and on the wall there is a photo of his family.",
     "segs": [
       [
         "غُرْفَةُ",
         "room (of)"
       ],
       [
-        "دَانْيَال",
-        "Daniel (first name)",
+        "فَيْصَل",
+        "Faisal (first name)",
         "name"
       ],
       [
@@ -1094,7 +1094,7 @@
     },
     {
       "id": "d30q6",
-      "prompt": "Where are Emma's books?",
+      "prompt": "Where are Lubna's books?",
       "options": [
         "on the desk",
         "in the wardrobe",

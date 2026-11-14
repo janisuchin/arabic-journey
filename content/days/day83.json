@@ -27,7 +27,7 @@
   "realLife": {
     "emoji": "🚗",
     "title": "Too many cars downtown",
-    "story": "At five in the afternoon, downtown Cairo is a sea of taxis, buses and private cars, and people on foot squeeze between them on narrow pavements. Some cities in the world have closed their old centres to cars, and in Cairo's cafés people argue about whether it could work there too. Today Mr Karim turns the argument into a class debate: Layla and Daniel speak for the idea, Sami speaks against it, and there is only one rule: be polite.",
+    "story": "At five in the afternoon, downtown Cairo is a sea of taxis, buses and private cars, and people on foot squeeze between them on narrow pavements. Some cities in the world have closed their old centres to cars, and in Cairo's cafés people argue about whether it could work there too. Today Mr Karim turns the argument into a class debate: Layla and Faisal speak for the idea, Sami speaks against it, and there is only one rule: be polite.",
     "photo": {"file": "day83.jpg", "alt": "Cairo traffic seen through a bus window, with the Citadel and the Muhammad Ali Mosque in the distance.", "credit": {"title": "File:Cairo traffic near Muhammad Ali mosque in Cairo Egypt.jpg", "author": "Tim Adams", "license": "CC BY 3.0", "source": "https://commons.wikimedia.org/wiki/File:Cairo_traffic_near_Muhammad_Ali_mosque_in_Cairo_Egypt.jpg", "accessed": "2026-11-11", "modified": "resized and re-encoded", "licenseUrl": "https://creativecommons.org/licenses/by/3.0"}}
   },
   "letters": [],
@@ -379,8 +379,8 @@
       },
       {
         "key": "daniel",
-        "name": "Daniel",
-        "nameAr": "دَانْيَال"
+        "name": "Faisal",
+        "nameAr": "فَيْصَل"
       }
     ],
     "culture": "Debates are popular in Arab schools and universities, and on television there are whole programmes where two guests argue for and against an idea. A good debater stays polite: use the other person's name, start with مَعَ احْتِرَامِي (with respect), say first what you agree with, and only then say لَا أُوَافِقُ. Saying 'you are wrong' directly sounds rude; it is better to say أَظُنُّ أَنَّ… (I think that…).",
@@ -388,8 +388,8 @@
       {
         "id": "d83l1",
         "sp": "karim",
-        "ar": "صَبَاحُ الْخَيْر! الْيَوْمَ عِنْدَنَا نِقَاش جَدِيد. السُّؤَالُ هُوَ: هَلْ يَجِبُ أَنْ نَمْنَعَ السَّيَّارَاتِ فِي وَسَطِ الْمَدِينَة؟ لَيْلَى وَدَانْيَال مَعَ الْفِكْرَة، وَسَامِي ضِدَّهَا.",
-        "en": "Good morning! Today we have a new debate. The question is: should we ban cars in the city centre? Layla and Daniel are for the idea, and Sami is against it.",
+        "ar": "صَبَاحُ الْخَيْر! الْيَوْمَ عِنْدَنَا نِقَاش جَدِيد. السُّؤَالُ هُوَ: هَلْ يَجِبُ أَنْ نَمْنَعَ السَّيَّارَاتِ فِي وَسَطِ الْمَدِينَة؟ لَيْلَى وَفَيْصَل مَعَ الْفِكْرَة، وَسَامِي ضِدَّهَا.",
+        "en": "Good morning! Today we have a new debate. The question is: should we ban cars in the city centre? Layla and Faisal are for the idea, and Sami is against it.",
         "segs": [
           [
             "صَبَاحُ",
@@ -460,8 +460,8 @@
             "Layla (first name)"
           ],
           [
-            "وَدَانْيَال",
-            "and Daniel (first name)"
+            "وَفَيْصَل",
+            "and Faisal (first name)"
           ],
           [
             "مَعَ",
@@ -1152,8 +1152,8 @@
       {
         "id": "d83l10",
         "sp": "karim",
-        "ar": "نُقْطَة مُهِمَّة يَا دَانْيَال. يَا سَامِي، عِنْدَكَ دَقِيقَة وَاحِدَة فَقَط. مَا هِيَ أَقْوَى حُجَّة عِنْدَكَ؟",
-        "en": "An important point, Daniel. Sami, you have only one minute left. What is your strongest argument?",
+        "ar": "نُقْطَة مُهِمَّة يَا فَيْصَل. يَا سَامِي، عِنْدَكَ دَقِيقَة وَاحِدَة فَقَط. مَا هِيَ أَقْوَى حُجَّة عِنْدَكَ؟",
+        "en": "An important point, Faisal. Sami, you have only one minute left. What is your strongest argument?",
         "segs": [
           [
             "نُقْطَة",
@@ -1168,8 +1168,8 @@
             "O (calling someone)"
           ],
           [
-            "دَانْيَال",
-            "Daniel (first name)"
+            "فَيْصَل",
+            "Faisal (first name)"
           ],
           [
             "يَا",
@@ -1669,8 +1669,8 @@
   },
   "reading": {
     "title": "The debate about the city centre",
-    "ar": "فِي دَرْسِ الْيَوْمِ كَانَ هُنَاكَ نِقَاش: هَلْ يَجِبُ أَنْ نَمْنَعَ السَّيَّارَاتِ فِي وَسَطِ الْمَدِينَة؟ كَانَتْ لَيْلَى وَدَانْيَال مَعَ الْفِكْرَة، لِأَنَّ فِيهِ تَلَوُّثًا وَضَجِيجًا كَثِيرًا. أَمَّا سَامِي فَكَانَ ضِدَّهَا، لِأَنَّ الْكِبَارَ وَالْمَرْضَى يَحْتَاجُونَ إِلَى السَّيَّارَة. وَفِي النِّهَايَة اتَّفَقَ الطُّلَّابُ تَقْرِيبًا: شَارِعٌ أَوْ شَارِعَانِ لِلْمُشَاةِ فِكْرَة جَمِيلَة.",
-    "en": "In today's lesson there was a debate: should we ban cars in the city centre? Layla and Daniel were for the idea, because there is a lot of pollution and noise there. As for Sami, he was against it, because old and sick people need the car. And in the end the students almost agreed: one or two streets for people on foot is a lovely idea.",
+    "ar": "فِي دَرْسِ الْيَوْمِ كَانَ هُنَاكَ نِقَاش: هَلْ يَجِبُ أَنْ نَمْنَعَ السَّيَّارَاتِ فِي وَسَطِ الْمَدِينَة؟ كَانَتْ لَيْلَى وَفَيْصَل مَعَ الْفِكْرَة، لِأَنَّ فِيهِ تَلَوُّثًا وَضَجِيجًا كَثِيرًا. أَمَّا سَامِي فَكَانَ ضِدَّهَا، لِأَنَّ الْكِبَارَ وَالْمَرْضَى يَحْتَاجُونَ إِلَى السَّيَّارَة. وَفِي النِّهَايَة اتَّفَقَ الطُّلَّابُ تَقْرِيبًا: شَارِعٌ أَوْ شَارِعَانِ لِلْمُشَاةِ فِكْرَة جَمِيلَة.",
+    "en": "In today's lesson there was a debate: should we ban cars in the city centre? Layla and Faisal were for the idea, because there is a lot of pollution and noise there. As for Sami, he was against it, because old and sick people need the car. And in the end the students almost agreed: one or two streets for people on foot is a lovely idea.",
     "segs": [
       [
         "فِي",
@@ -1738,8 +1738,8 @@
         "name"
       ],
       [
-        "وَدَانْيَال",
-        "and Daniel (first name)",
+        "وَفَيْصَل",
+        "and Faisal (first name)",
         "name"
       ],
       [
@@ -1903,7 +1903,7 @@
     },
     {
       "id": "d83q4",
-      "prompt": "What happened to a street near Daniel's home in Chicago?",
+      "prompt": "What happened to a street near Faisal's home in Chicago?",
       "options": [
         "They closed it to cars, and now it has new restaurants and shops.",
         "They built a metro station on it.",

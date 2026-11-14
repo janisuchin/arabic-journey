@@ -27,7 +27,7 @@
   "realLife": {
     "emoji": "🍽️",
     "title": "Dinner at Sami's",
-    "story": "Daniel is invited to dinner at Sami's family home. Before they eat, Sami's mother Fatima asks little Omar whether he did his homework before or after football, and Sami knows the real answer.",
+    "story": "Faisal is invited to dinner at Sami's family home. Before they eat, Sami's mother Fatima asks little Omar whether he did his homework before or after football, and Sami knows the real answer.",
     "photo": {"file": "day40.jpg", "alt": "A pan of mahshi: stuffed courgettes, peppers and vine leaves, cooked with onions.", "credit": {"title": "File:Mahshi.jpg", "author": "Aseel zm", "license": "CC BY-SA 4.0", "source": "https://commons.wikimedia.org/wiki/File:Mahshi.jpg", "accessed": "2026-11-11", "modified": "resized and re-encoded", "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"}}
   },
   "letters": [],
@@ -214,9 +214,9 @@
     },
     {
       "id": "d40s5",
-      "ar": "أَخِيرًا وَصَلَ دَانْيَال بَعْدَ السَّاعَة الثَّامِنَة.",
-      "en": "Daniel finally arrived after eight o'clock.",
-      "literal": "finally arrived Daniel after the hour the eighth",
+      "ar": "أَخِيرًا وَصَلَ فَيْصَل بَعْدَ السَّاعَة الثَّامِنَة.",
+      "en": "Faisal finally arrived after eight o'clock.",
+      "literal": "finally arrived Faisal after the hour the eighth",
       "segs": [
         [
           "أَخِيرًا",
@@ -229,8 +229,8 @@
           "verb"
         ],
         [
-          "دَانْيَال",
-          "Daniel (first name)",
+          "فَيْصَل",
+          "Faisal (first name)",
           "name"
         ],
         [
@@ -274,8 +274,8 @@
       },
       {
         "key": "daniel",
-        "name": "Daniel",
-        "nameAr": "دَانْيَال"
+        "name": "Faisal",
+        "nameAr": "فَيْصَل"
       }
     ],
     "culture": "الْكُشَرِي, a mix of rice, lentils, pasta and fried onions with a spicy tomato sauce, is Egypt's favourite cheap meal. Many Egyptian families eat their main meal in the middle of the afternoon, after work and school, so الْعَشَاء (dinner) is often lighter and later.",
@@ -283,8 +283,8 @@
       {
         "id": "d40l1",
         "sp": "fatima",
-        "ar": "أَهْلًا يَا دَانْيَال! تَفَضَّلْ. الْعَشَاء جَاهِز بَعْدَ قَلِيل. يَا عُمَر، تَعَالَ هُنَا!",
-        "en": "Welcome, Daniel! Come in. Dinner will be ready in a moment. Omar, come here!",
+        "ar": "أَهْلًا يَا فَيْصَل! تَفَضَّلْ. الْعَشَاء جَاهِز بَعْدَ قَلِيل. يَا عُمَر، تَعَالَ هُنَا!",
+        "en": "Welcome, Faisal! Come in. Dinner will be ready in a moment. Omar, come here!",
         "segs": [
           [
             "أَهْلًا",
@@ -295,8 +295,8 @@
             "O (calling someone)"
           ],
           [
-            "دَانْيَال",
-            "Daniel (first name)",
+            "فَيْصَل",
+            "Faisal (first name)",
             "name"
           ],
           [
@@ -341,8 +341,8 @@
       {
         "id": "d40l2",
         "sp": "omar",
-        "ar": "نَعَم يَا أُمِّي؟ أَنَا هُنَا فِي غُرْفَتِي. مَسَاءُ الْخَيْر يَا دَانْيَال، كَيْفَ حَالُكَ؟",
-        "en": "Yes, Mum? I'm here in my room. Good evening, Daniel, how are you?",
+        "ar": "نَعَم يَا أُمِّي؟ أَنَا هُنَا فِي غُرْفَتِي. مَسَاءُ الْخَيْر يَا فَيْصَل، كَيْفَ حَالُكَ؟",
+        "en": "Yes, Mum? I'm here in my room. Good evening, Faisal, how are you?",
         "segs": [
           [
             "نَعَم",
@@ -385,8 +385,8 @@
             "O (calling someone)"
           ],
           [
-            "دَانْيَال",
-            "Daniel (first name)",
+            "فَيْصَل",
+            "Faisal (first name)",
             "name"
           ],
           [
@@ -728,8 +728,8 @@
       {
         "id": "d40l9",
         "sp": "fatima",
-        "ar": "مُمْتَاز. وَأَنْتَ يَا دَانْيَال، مَاذَا فَعَلْتَ الْيَوْمَ قَبْلَ أَنْ تَأْتِيَ إِلَيْنَا؟",
-        "en": "Excellent. And you, Daniel, what did you do today before you came to us?",
+        "ar": "مُمْتَاز. وَأَنْتَ يَا فَيْصَل، مَاذَا فَعَلْتَ الْيَوْمَ قَبْلَ أَنْ تَأْتِيَ إِلَيْنَا؟",
+        "en": "Excellent. And you, Faisal, what did you do today before you came to us?",
         "segs": [
           [
             "مُمْتَاز",
@@ -744,8 +744,8 @@
             "O (calling someone)"
           ],
           [
-            "دَانْيَال",
-            "Daniel (first name)",
+            "فَيْصَل",
+            "Faisal (first name)",
             "name"
           ],
           [
@@ -950,8 +950,8 @@
       {
         "id": "d40l13",
         "sp": "omar",
-        "ar": "أَنْتَ أَيْضًا نِمْتَ بَعْدَ الظُّهْر؟ إِذًا أَنْتَ مِثْلِي يَا دَانْيَال!",
-        "en": "You slept in the afternoon too? Then you're just like me, Daniel!",
+        "ar": "أَنْتَ أَيْضًا نِمْتَ بَعْدَ الظُّهْر؟ إِذًا أَنْتَ مِثْلِي يَا فَيْصَل!",
+        "en": "You slept in the afternoon too? Then you're just like me, Faisal!",
         "segs": [
           [
             "أَنْتَ",
@@ -990,8 +990,8 @@
             "O (calling someone)"
           ],
           [
-            "دَانْيَال",
-            "Daniel (first name)",
+            "فَيْصَل",
+            "Faisal (first name)",
             "name"
           ]
         ]
@@ -1223,7 +1223,7 @@
     },
     {
       "id": "d40q5",
-      "prompt": "How did Daniel get to Sami's house?",
+      "prompt": "How did Faisal get to Sami's house?",
       "options": [
         "by taxi",
         "by train",

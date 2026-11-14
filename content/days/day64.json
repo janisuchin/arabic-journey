@@ -16,8 +16,8 @@
     ]
   ],
   "emoji": "💼",
-  "summary": "Daniel starts an internship in an office: colleagues, meetings and reports, and saying what you can do with يُمْكِنُ أَنْ…",
-  "intro": "Mr Karim has found Daniel an internship at the translation company where he works in the evenings. In a new office you ask a lot of questions about what you can do. Use يُمْكِنُ (it is possible) with a person ending, then أَنْ and a verb ending in -a: هَلْ يُمْكِنُنِي أَنْ أَسْتَعْمِلَ الْحَاسُوب؟ (Can I use the computer?), يُمْكِنُكَ أَنْ تَسْأَلَنِي (you can ask me).",
+  "summary": "Faisal starts an internship in an office: colleagues, meetings and reports, and saying what you can do with يُمْكِنُ أَنْ…",
+  "intro": "Mr Karim has found Faisal an internship at the translation company where he works in the evenings. In a new office you ask a lot of questions about what you can do. Use يُمْكِنُ (it is possible) with a person ending, then أَنْ and a verb ending in -a: هَلْ يُمْكِنُنِي أَنْ أَسْتَعْمِلَ الْحَاسُوب؟ (Can I use the computer?), يُمْكِنُكَ أَنْ تَسْأَلَنِي (you can ask me).",
   "objectives": [
     "Name eight people and things in an office",
     "Ask 'Can I…?' with هَلْ يُمْكِنُنِي أَنْ…؟",
@@ -27,7 +27,7 @@
   "realLife": {
     "emoji": "🏢",
     "title": "First day as an intern",
-    "story": "Daniel puts on his best shirt and takes the metro to a busy office in the centre of Cairo. Tariq shows him a desk next to the window, the manager has three meetings before lunch, and by one o'clock Daniel has translated his first page. He goes home tired and very proud.",
+    "story": "Faisal puts on his best shirt and takes the metro to a busy office in the centre of Cairo. Tariq shows him a desk next to the window, the manager has three meetings before lunch, and by one o'clock Faisal has translated his first page. He goes home tired and very proud.",
     "photo": {"file": "day64.jpg", "alt": "A modern open-plan office with rows of desks, computer screens and people at work.", "credit": {"title": "File:Une salle de coding de l'école 1337 Khouribga.jpg", "author": "Bertrand SOUBEYRAND", "license": "CC BY 4.0", "source": "https://commons.wikimedia.org/wiki/File:Une_salle_de_coding_de_l%27%C3%A9cole_1337_Khouribga.jpg", "accessed": "2026-11-11", "modified": "resized and re-encoded", "licenseUrl": "https://creativecommons.org/licenses/by/4.0"}}
   },
   "letters": [],
@@ -251,8 +251,8 @@
       },
       {
         "key": "daniel",
-        "name": "Daniel",
-        "nameAr": "دَانْيَال"
+        "name": "Faisal",
+        "nameAr": "فَيْصَل"
       },
       {
         "key": "tariq",
@@ -265,8 +265,8 @@
       {
         "id": "d64l1",
         "sp": "huda",
-        "ar": "أَهْلًا وَسَهْلًا يَا دَانْيَال! أَنَا هُدَى، مُدِيرَةُ الشَّرِكَة. الْأُسْتَاذ كَرِيم تَكَلَّمَ عَنْكَ كَثِيرًا.",
-        "en": "Welcome, Daniel! I'm Huda, the manager of the company. Mr Karim has told me a lot about you.",
+        "ar": "أَهْلًا وَسَهْلًا يَا فَيْصَل! أَنَا هُدَى، مُدِيرَةُ الشَّرِكَة. الْأُسْتَاذ كَرِيم تَكَلَّمَ عَنْكَ كَثِيرًا.",
+        "en": "Welcome, Faisal! I'm Huda, the manager of the company. Mr Karim has told me a lot about you.",
         "segs": [
           [
             "أَهْلًا",
@@ -281,8 +281,8 @@
             "O (calling someone)"
           ],
           [
-            "دَانْيَال",
-            "Daniel (first name)",
+            "فَيْصَل",
+            "Faisal (first name)",
             "name"
           ],
           [
@@ -554,8 +554,8 @@
       {
         "id": "d64l6",
         "sp": "tariq",
-        "ar": "أَهْلًا يَا دَانْيَال! أَنَا أَعْمَلُ هُنَا مُنْذُ خَمْسِ سَنَوَات. إِذَا كَانَ عِنْدَكَ سُؤَال، يُمْكِنُكَ أَنْ تَسْأَلَنِي.",
-        "en": "Hi, Daniel! I've been working here for five years. If you have a question, you can ask me.",
+        "ar": "أَهْلًا يَا فَيْصَل! أَنَا أَعْمَلُ هُنَا مُنْذُ خَمْسِ سَنَوَات. إِذَا كَانَ عِنْدَكَ سُؤَال، يُمْكِنُكَ أَنْ تَسْأَلَنِي.",
+        "en": "Hi, Faisal! I've been working here for five years. If you have a question, you can ask me.",
         "segs": [
           [
             "أَهْلًا",
@@ -566,8 +566,8 @@
             "O (calling someone)"
           ],
           [
-            "دَانْيَال",
-            "Daniel (first name)",
+            "فَيْصَل",
+            "Faisal (first name)",
             "name"
           ],
           [
@@ -1145,17 +1145,17 @@
     ]
   },
   "reading": {
-    "title": "Daniel's first day at the office",
-    "ar": "بَدَأَ دَانْيَال تَدْرِيبًا فِي شَرِكَةِ تَرْجَمَة. مُدِيرَةُ الشَّرِكَة اسْمُهَا هُدَى، وَهِيَ مَشْغُولَة جِدًّا. زَمِيلُهُ طَارِق مُتَرْجِم، وَهُوَ يُسَاعِدُهُ فِي مَشْرُوع كَبِير. بَعْدَ سَاعَتَيْنِ حَضَرَ دَانْيَال اجْتِمَاعًا مَعَ كُلِّ الزُّمَلَاء. فِي الْأُسْبُوعِ الْقَادِم يُمْكِنُهُ أَنْ يَكْتُبَ تَقْرِيرًا.",
-    "en": "Daniel started an internship at a translation company. The company's manager is called Huda, and she is very busy. His colleague Tariq is a translator, and he helps him with a big project. Two hours later Daniel attended a meeting with all the colleagues. Next week he can write a report.",
+    "title": "Faisal's first day at the office",
+    "ar": "بَدَأَ فَيْصَل تَدْرِيبًا فِي شَرِكَةِ تَرْجَمَة. مُدِيرَةُ الشَّرِكَة اسْمُهَا هُدَى، وَهِيَ مَشْغُولَة جِدًّا. زَمِيلُهُ طَارِق مُتَرْجِم، وَهُوَ يُسَاعِدُهُ فِي مَشْرُوع كَبِير. بَعْدَ سَاعَتَيْنِ حَضَرَ فَيْصَل اجْتِمَاعًا مَعَ كُلِّ الزُّمَلَاء. فِي الْأُسْبُوعِ الْقَادِم يُمْكِنُهُ أَنْ يَكْتُبَ تَقْرِيرًا.",
+    "en": "Faisal started an internship at a translation company. The company's manager is called Huda, and she is very busy. His colleague Tariq is a translator, and he helps him with a big project. Two hours later Faisal attended a meeting with all the colleagues. Next week he can write a report.",
     "segs": [
       [
         "بَدَأَ",
         "(he) started"
       ],
       [
-        "دَانْيَال",
-        "Daniel (first name)",
+        "فَيْصَل",
+        "Faisal (first name)",
         "name"
       ],
       [
@@ -1249,8 +1249,8 @@
         "(he) attended"
       ],
       [
-        "دَانْيَال",
-        "Daniel (first name)",
+        "فَيْصَل",
+        "Faisal (first name)",
         "name"
       ],
       [
@@ -1324,7 +1324,7 @@
     },
     {
       "id": "d64q2",
-      "prompt": "How many days a week is Daniel's internship?",
+      "prompt": "How many days a week is Faisal's internship?",
       "options": [
         "two",
         "five",
@@ -1337,7 +1337,7 @@
       "id": "d64q3",
       "prompt": "Who is Tariq?",
       "options": [
-        "a translator and Daniel's colleague",
+        "a translator and Faisal's colleague",
         "the manager of the company",
         "a client from a tourism company",
         "a student at the language school"
@@ -1357,7 +1357,7 @@
     },
     {
       "id": "d64q5",
-      "prompt": "What does Daniel have to do in his first meeting?",
+      "prompt": "What does Faisal have to do in his first meeting?",
       "options": [
         "speak Arabic in front of everybody",
         "just listen",
@@ -1383,12 +1383,12 @@
       "options": [
         "مُدِير",
         "هٰذَا",
-        "دَانْيَال",
+        "فَيْصَل",
         "الْعَمَل"
       ],
       "answer": 1
     }
   ],
-  "completion": "Well done! You can talk about an office and your colleagues, and say what you and others can do with يُمْكِنُ أَنْ…. Tomorrow Daniel goes to a lecture at Cairo University.",
+  "completion": "Well done! You can talk about an office and your colleagues, and say what you and others can do with يُمْكِنُ أَنْ…. Tomorrow Faisal goes to a lecture at Cairo University.",
   "status": "needs-review"
 }

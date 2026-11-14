@@ -5,7 +5,7 @@
   "summary": "Say where you are from and give your nationality, for a man and for a woman.",
   "intro": "Arabic has no word for 'am / is / are' in the present: أَنَا مِصْرِيّ is simply 'I Egyptian'. Nationalities end in ـِيّ for a man and ـِيَّة for a woman. New letters: د ذ ر ز. None of them joins the letter after it.",
   "objectives": ["Ask where someone is from", "Say where you are from", "Give a nationality for a man and for a woman", "Read and write dāl, dhāl, rāʾ and zāy"],
-  "realLife": { "emoji": "☕", "title": "Coffee break", "story": "In the break, Layla, Sami and Daniel drink tea in the school courtyard. The class has students from many countries, and the first question everyone asks is مِنْ أَيْنَ أَنْتَ؟", "photo": {"file": "day03.jpg", "alt": "A small cup of dark coffee on a patterned saucer, with a glass of water behind it.", "credit": {"title": "File:Turkish coffee in a traditional design cup.jpg", "author": "Garrett Ziegler", "license": "CC BY-SA 4.0", "source": "https://commons.wikimedia.org/wiki/File:Turkish_coffee_in_a_traditional_design_cup.jpg", "accessed": "2026-11-11", "modified": "resized and re-encoded", "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"}} },
+  "realLife": { "emoji": "☕", "title": "Coffee break", "story": "In the break, Layla, Sami and Faisal drink tea in the school courtyard. The class has students from many countries, and the first question everyone asks is مِنْ أَيْنَ أَنْتَ؟", "photo": {"file": "day03.jpg", "alt": "A small cup of dark coffee on a patterned saucer, with a glass of water behind it.", "credit": {"title": "File:Turkish coffee in a traditional design cup.jpg", "author": "Garrett Ziegler", "license": "CC BY-SA 4.0", "source": "https://commons.wikimedia.org/wiki/File:Turkish_coffee_in_a_traditional_design_cup.jpg", "accessed": "2026-11-11", "modified": "resized and re-encoded", "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"}} },
   "letters": ["dal", "dhal", "ra", "zay"],
   "newWords": ["min", "ayna", "huwa", "hiya", "misr", "misri", "misriyya", "amriki", "balad"],
   "grammar": ["nominal-sentence", "nisba"],
@@ -23,11 +23,11 @@
   ],
   "dialogue": {
     "title": "Where is everyone from?",
-    "speakers": [ { "key": "layla", "name": "Layla", "nameAr": "لَيْلَى" }, { "key": "daniel", "name": "Daniel", "nameAr": "دَانْيَال" }, { "key": "sami", "name": "Sami", "nameAr": "سَامِي" } ],
+    "speakers": [ { "key": "layla", "name": "Layla", "nameAr": "لَيْلَى" }, { "key": "daniel", "name": "Faisal", "nameAr": "فَيْصَل" }, { "key": "sami", "name": "Sami", "nameAr": "سَامِي" } ],
     "culture": "Cairo (الْقَاهِرَة) is the largest city in the Arab world. Egyptians often call their country and its capital by the same name: مِصْر in standard Arabic, said مَصْر (Maṣr) in everyday speech.",
     "lines": [
-      { "id": "d3l1", "sp": "layla", "ar": "مِنْ أَيْنَ أَنْتَ يَا دَانْيَال؟ مِنْ أَمْرِيكَا؟", "en": "Where are you from, Daniel? Are you from America?",
-        "segs": [["مِنْ", "from"], ["أَيْنَ", "where"], ["أَنْتَ", "you (to a man)"], ["يَا", "O (calling someone)"], ["دَانْيَال", "Daniel (first name)", "name"], ["مِنْ", "from"], ["أَمْرِيكَا", "America (country)", "name"]] },
+      { "id": "d3l1", "sp": "layla", "ar": "مِنْ أَيْنَ أَنْتَ يَا فَيْصَل؟ مِنْ أَمْرِيكَا؟", "en": "Where are you from, Faisal? Are you from America?",
+        "segs": [["مِنْ", "from"], ["أَيْنَ", "where"], ["أَنْتَ", "you (to a man)"], ["يَا", "O (calling someone)"], ["فَيْصَل", "Faisal (first name)", "name"], ["مِنْ", "from"], ["أَمْرِيكَا", "America (country)", "name"]] },
       { "id": "d3l2", "sp": "daniel", "ar": "نَعَم، أَنَا أَمْرِيكِيّ مِنْ شِيكَاغُو. وَأَنْتِ؟", "en": "Yes, I am American, from Chicago. And you?",
         "segs": [["نَعَم", "yes"], ["أَنَا", "I"], ["أَمْرِيكِيّ", "American (m)"], ["مِنْ", "from"], ["شِيكَاغُو", "Chicago (city in the USA)", "name"], ["وَأَنْتِ", "and you (to a woman)"]] },
       { "id": "d3l3", "sp": "layla", "ar": "أَنَا لُبْنَانِيَّة مِنْ بَيْرُوت. بَيْرُوت مَدِينَة جَمِيلَة.", "en": "I am Lebanese, from Beirut. Beirut is a beautiful city.",
@@ -40,8 +40,8 @@
         "segs": [["نَعَم", "yes"], ["أَنَا", "I"], ["مِنَ", "from"], ["الْقَاهِرَة", "Cairo (capital of Egypt)", "name"], ["الْقَاهِرَة", "Cairo (capital of Egypt)", "name"], ["كَبِيرَة", "big (f)"], ["جِدًّا", "very"]] },
       { "id": "d3l7", "sp": "daniel", "ar": "أَنَا أُحِبُّ الْقَاهِرَة! الْمَدِينَة جَمِيلَة وَالنَّاس لُطَفَاء.", "en": "I love Cairo! The city is beautiful and the people are kind.",
         "segs": [["أَنَا", "I"], ["أُحِبُّ", "I love"], ["الْقَاهِرَة", "Cairo (capital of Egypt)", "name"], ["الْمَدِينَة", "the city"], ["جَمِيلَة", "beautiful (f)"], ["وَالنَّاس", "and the people"], ["لُطَفَاء", "kind (plural)"]] },
-      { "id": "d3l8", "sp": "sami", "ar": "شُكْرًا يَا دَانْيَال! وَالْأُسْتَاذ كَرِيم مِصْرِيّ أَيْضًا.", "en": "Thank you, Daniel! And Mr Karim is Egyptian too.",
-        "segs": [["شُكْرًا", "thank you"], ["يَا", "O (calling someone)"], ["دَانْيَال", "Daniel (first name)", "name"], ["وَالْأُسْتَاذ", "and the teacher"], ["كَرِيم", "Karim (first name)", "name"], ["مِصْرِيّ", "Egyptian (m)"], ["أَيْضًا", "also, too"]] },
+      { "id": "d3l8", "sp": "sami", "ar": "شُكْرًا يَا فَيْصَل! وَالْأُسْتَاذ كَرِيم مِصْرِيّ أَيْضًا.", "en": "Thank you, Faisal! And Mr Karim is Egyptian too.",
+        "segs": [["شُكْرًا", "thank you"], ["يَا", "O (calling someone)"], ["فَيْصَل", "Faisal (first name)", "name"], ["وَالْأُسْتَاذ", "and the teacher"], ["كَرِيم", "Karim (first name)", "name"], ["مِصْرِيّ", "Egyptian (m)"], ["أَيْضًا", "also, too"]] },
       { "id": "d3l9", "sp": "layla", "ar": "وَالطُّلَّاب فِي الصَّفّ مِنْ بِلَاد كَثِيرَة.", "en": "And the students in the class are from many countries.",
         "segs": [["وَالطُّلَّاب", "and the students"], ["فِي", "in"], ["الصَّفّ", "the class"], ["مِنْ", "from"], ["بِلَاد", "countries"], ["كَثِيرَة", "many (f)"]] },
       { "id": "d3l10", "sp": "daniel", "ar": "صَحِيح! مِنْ أَمْرِيكَا وَلُبْنَان وَمِصْر وَبِلَاد أُخْرَى.", "en": "That's right! From America, Lebanon, Egypt and other countries.",
@@ -52,8 +52,8 @@
         "segs": [["نَعَم", "yes"], ["عَائِلَة", "family"], ["كَبِيرَة", "big (f)"], ["وَجَمِيلَة", "and beautiful (f)"]] }
     ]
   },
-  "reading": { "title": "Sami's notebook", "ar": "اِسْمِي سَامِي. أَنَا مِصْرِيّ مِنَ الْقَاهِرَة. صَدِيقِي دَانْيَال أَمْرِيكِيّ.", "en": "My name is Sami. I am Egyptian, from Cairo. My friend Daniel is American.",
-    "segs": [["اِسْمِي", "my name"], ["سَامِي", "Sami (first name)", "name"], ["أَنَا", "I"], ["مِصْرِيّ", "Egyptian (m)"], ["مِنَ", "from"], ["الْقَاهِرَة", "Cairo (capital of Egypt)", "name"], ["صَدِيقِي", "my friend"], ["دَانْيَال", "Daniel (first name)", "name"], ["أَمْرِيكِيّ", "American (m)"]] },
+  "reading": { "title": "Sami's notebook", "ar": "اِسْمِي سَامِي. أَنَا مِصْرِيّ مِنَ الْقَاهِرَة. صَدِيقِي فَيْصَل أَمْرِيكِيّ.", "en": "My name is Sami. I am Egyptian, from Cairo. My friend Faisal is American.",
+    "segs": [["اِسْمِي", "my name"], ["سَامِي", "Sami (first name)", "name"], ["أَنَا", "I"], ["مِصْرِيّ", "Egyptian (m)"], ["مِنَ", "from"], ["الْقَاهِرَة", "Cairo (capital of Egypt)", "name"], ["صَدِيقِي", "my friend"], ["فَيْصَل", "Faisal (first name)", "name"], ["أَمْرِيكِيّ", "American (m)"]] },
   "review": ["ismi", "ana", "anta", "anti"],
   "quiz": [
     { "id": "d3q1", "prompt": "What does this mean?", "ar": "مِنْ أَيْنَ أَنْتَ؟", "options": ["Where are you from?", "What is your name?", "How are you?", "Who are you?"], "answer": 0 },

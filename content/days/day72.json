@@ -27,7 +27,7 @@
   "realLife": {
     "emoji": "🎭",
     "title": "Old songs or a new film?",
-    "story": "On Thursday evening Cairo is full of choices. At the Opera House an orchestra plays the songs of Umm Kulthum, whose concerts once lasted all night, and in the big cinemas downtown a new Egyptian comedy has just come out. Layla, Sami and Daniel have one free evening and three different opinions.",
+    "story": "On Thursday evening Cairo is full of choices. At the Opera House an orchestra plays the songs of Umm Kulthum, whose concerts once lasted all night, and in the big cinemas downtown a new Egyptian comedy has just come out. Layla, Sami and Faisal have one free evening and three different opinions.",
     "photo": {"file": "day72.jpg", "alt": "The Cairo Opera House at evening, with its domes and arches lit up and people in the square.", "credit": {"title": "File:Cairo Opera House at evening 01.jpg", "author": "لا روسا", "license": "CC BY-SA 4.0", "source": "https://commons.wikimedia.org/wiki/File:Cairo_Opera_House_at_evening_01.jpg", "accessed": "2026-11-11", "modified": "resized and re-encoded", "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"}}
   },
   "letters": [],
@@ -276,8 +276,8 @@
       },
       {
         "key": "daniel",
-        "name": "Daniel",
-        "nameAr": "دَانْيَال"
+        "name": "Faisal",
+        "nameAr": "فَيْصَل"
       }
     ],
     "culture": "Umm Kulthum (1904–1975) is the most famous singer of the Arab world. One song could last more than an hour, and her concerts on the first Thursday of the month were broadcast on the radio across the Arab world. Egypt also has the largest film industry in the region, so Egyptian Arabic is understood almost everywhere.",
@@ -1133,8 +1133,8 @@
       {
         "id": "d72l15",
         "sp": "layla",
-        "ar": "لٰكِنْ يَا دَانْيَال، يَجِبُ أَنْ تَلْبَسَ قَمِيصًا وَسُتْرَة. فِي دَارِ الْأُوبِرَا الْمَلَابِس مُهِمَّة!",
-        "en": "But Daniel, you must wear a shirt and a jacket. At the Opera House clothes are important!",
+        "ar": "لٰكِنْ يَا فَيْصَل، يَجِبُ أَنْ تَلْبَسَ قَمِيصًا وَسُتْرَة. فِي دَارِ الْأُوبِرَا الْمَلَابِس مُهِمَّة!",
+        "en": "But Faisal, you must wear a shirt and a jacket. At the Opera House clothes are important!",
         "segs": [
           [
             "لٰكِنْ",
@@ -1145,8 +1145,8 @@
             "O (calling someone)"
           ],
           [
-            "دَانْيَال",
-            "Daniel (first name)",
+            "فَيْصَل",
+            "Faisal (first name)",
             "name"
           ],
           [
@@ -1195,8 +1195,8 @@
   },
   "reading": {
     "title": "A cultural week",
-    "ar": "يَوْمَ الْخَمِيس ذَهَبَ دَانْيَال وَلَيْلَى وَسَامِي إِلَى دَارِ الْأُوبِرَا. اِسْتَمَعُوا إِلَى أَغَانِي أُمِّ كُلْثُوم. كَانَتِ الْأَغَانِي طَوِيلَةً، لٰكِنْ دَانْيَال لَمْ يَشْعُرْ بِالْمَلَل. عَرَفَ أَنَّ الْمُوسِيقَى الْعَرَبِيَّة جَمِيلَة جِدًّا. يَوْمَ السَّبْت سَيُشَاهِدُونَ فِيلْمًا مِصْرِيًّا فِي السِّينِمَا.",
-    "en": "On Thursday Daniel, Layla and Sami went to the Opera House. They listened to Umm Kulthum's songs. The songs were long, but Daniel didn't feel bored. He learned that Arabic music is very beautiful. On Saturday they will watch an Egyptian film at the cinema.",
+    "ar": "يَوْمَ الْخَمِيس ذَهَبَ فَيْصَل وَلَيْلَى وَسَامِي إِلَى دَارِ الْأُوبِرَا. اِسْتَمَعُوا إِلَى أَغَانِي أُمِّ كُلْثُوم. كَانَتِ الْأَغَانِي طَوِيلَةً، لٰكِنْ فَيْصَل لَمْ يَشْعُرْ بِالْمَلَل. عَرَفَ أَنَّ الْمُوسِيقَى الْعَرَبِيَّة جَمِيلَة جِدًّا. يَوْمَ السَّبْت سَيُشَاهِدُونَ فِيلْمًا مِصْرِيًّا فِي السِّينِمَا.",
+    "en": "On Thursday Faisal, Layla and Sami went to the Opera House. They listened to Umm Kulthum's songs. The songs were long, but Faisal didn't feel bored. He learned that Arabic music is very beautiful. On Saturday they will watch an Egyptian film at the cinema.",
     "segs": [
       [
         "يَوْمَ",
@@ -1211,8 +1211,8 @@
         "(he) went"
       ],
       [
-        "دَانْيَال",
-        "Daniel (first name)",
+        "فَيْصَل",
+        "Faisal (first name)",
         "name"
       ],
       [
@@ -1276,8 +1276,8 @@
         "but"
       ],
       [
-        "دَانْيَال",
-        "Daniel (first name)",
+        "فَيْصَل",
+        "Faisal (first name)",
         "name"
       ],
       [
