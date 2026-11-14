@@ -19,7 +19,7 @@ https://ar-journey.german-journey.workers.dev · unlocked https://ar-journey-unl
   voice picker in Settings; word box shows the pause form (ṭālibatān); letter forms say "same sound, only the shape
   changes"; quiz page lets a passed day walk on to Done; gender colours kept for gender only (question/noun/adverb
   colours changed, full legend, flashcards coloured); يَمِين/يَسَار m, مَلَابِس f; Vocabulary = course words by topic.
-- **5,000-word dictionary** (2026-11-14, `docs/review/dictionary/SUMMARY.md`): `content/dictionary/words.json`
+- **5,000-word dictionary** (cdcfd5f, 2026-11-14, `docs/review/dictionary/SUMMARY.md`): `content/dictionary/words.json`
   (CC BY-SA 4.0), 809 course words + 4,191 MSA words, most frequent first, all vocalised; from Wiktionary/kaikki
   (headword, gender, plural, present, meanings) ranked by OpenSubtitles FrequencyWords. 20 reviewers (1,469 drops,
   3,073 fixes) → 5 cross-checkers on 422 Arabic/pos fixes (18 overruled). Dictionary screen = 5,000 words (search
