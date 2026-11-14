@@ -52,3 +52,6 @@ dist-trial/
 
 __pycache__/
 .wrangler/
+
+# dictionary build sources (see scripts/build-dictionary.py)
+.cache/

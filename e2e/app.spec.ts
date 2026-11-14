@@ -130,6 +130,18 @@ test('dictionary search finds words by English and by transliteration', async ({
   await expect(page.getByTestId('word-card-kitab')).toBeVisible();
 });
 
+test('5,000-word dictionary: non-course words are searchable and the topic view stays course-only', async ({ page }) => {
+  await newLearner(page);
+  await page.goto('/dictionary');
+  await expect(page.getByTestId('dict-count')).toContainText('5,000 words');
+  await page.getByTestId('search-input').fill('bear');
+  await expect(page.getByText('دُبّ', { exact: true }).first()).toBeVisible();
+  await page.getByTestId('search-input').fill('دب');
+  await expect(page.getByText('دُبّ', { exact: true }).first()).toBeVisible();
+  await page.goto('/dictionary?view=course');
+  await expect(page.getByTestId('dict-count')).toContainText('course words');
+});
+
 test('settings: dark theme and transliteration toggle', async ({ page }) => {
   await newLearner(page);
   await page.goto('/settings');

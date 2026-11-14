@@ -1,7 +1,7 @@
 # Status — Arabic Journey
 
-Updated 2026-11-14 (round 4 done, web deployed). Branch `main`. All work runs on the owner's PC.
-Main prompt: `Arabic_Reference/PROMPT_B_Nihongo-based.md`. Live (round-4 build):
+Updated 2026-11-14 (5,000-word dictionary done, web deployed). Branch `main`. All work runs on the owner's PC.
+Main prompt: `Arabic_Reference/PROMPT_B_Nihongo-based.md`. Live (dictionary build):
 https://ar-journey.german-journey.workers.dev · unlocked https://ar-journey-unlocked.german-journey.workers.dev
 
 ## Done
@@ -19,15 +19,19 @@ https://ar-journey.german-journey.workers.dev · unlocked https://ar-journey-unl
   voice picker in Settings; word box shows the pause form (ṭālibatān); letter forms say "same sound, only the shape
   changes"; quiz page lets a passed day walk on to Done; gender colours kept for gender only (question/noun/adverb
   colours changed, full legend, flashcards coloured); يَمِين/يَسَار m, مَلَابِس f; Vocabulary = course words by topic.
-- Checks: validator 0 errors, 110 unit tests, typecheck/lint/format clean, e2e 28/28 (port 4191). Both editions
-  deployed 2026-11-14 and verified live.
+- **5,000-word dictionary** (2026-11-14, `docs/review/dictionary/SUMMARY.md`): `content/dictionary/words.json`
+  (CC BY-SA 4.0), 809 course words + 4,191 MSA words, most frequent first, all vocalised; from Wiktionary/kaikki
+  (headword, gender, plural, present, meanings) ranked by OpenSubtitles FrequencyWords. 20 reviewers (1,469 drops,
+  3,073 fixes) → 5 cross-checkers on 422 Arabic/pos fixes (18 overruled). Dictionary screen = 5,000 words (search
+  Arabic with/without harakat, translit, English; speaker per word; course words open their course card; "Show
+  more"); Vocabulary (?view=course) stays by topic. About/Credits/LICENSE-CONTENT updated.
+- Checks: validator 0 errors, 116 unit tests, typecheck/lint/format clean, e2e 29/29 (port 4191). Both editions
+  deployed 2026-11-14 and verified live (dictionary chunk served).
 
 ## Left
-0. **5,000-word dictionary** (owner request 2026-11-14): German/French/Nihongo ship `content/dictionary/words.json`
-   (5,000 rows, frequency order, open source + licence line) separate from course vocabulary (809 here). Build an
-   MSA list: fully vocalised headword, English, pos, gender, plural, `course` flag; open data only (e.g. Wiktionary /
-   kaikki extract CC BY-SA + a frequency list), AI cross-check like the review rounds; Dictionary screen switches to it
-   (search Arabic/translit/English, read aloud), Vocabulary stays by topic.
+0. Dictionary limits: AI review only; rows were seen by one reviewer (only Arabic-changing fixes cross-checked);
+   ranking is approximate (unvocalised subtitles share counts between homographs). Course verbs show their
+   present-tense course card. Optional later: a second review pass on meanings, or tap-a-word → dictionary lookup.
 - Pronunciation: audio is the device voice; AI reviewers cannot hear it. Quality depends on the voice (old desktop
   voices skip harakat, e.g. بُنِيَتْ → "bunī"; Edge Natural / Google voices read them). Pre-generated neural audio
   would need a paid TTS key (owner decision).
@@ -64,6 +68,10 @@ https://ar-journey.german-journey.workers.dev · unlocked https://ar-journey-unl
   `reuseExistingServer: false` (literal replace), run, then delete the copy.
 - UI is LTR for English readers; Arabic text always RTL. One session at a time in this repo.
 
+- Dictionary: rebuild with `scripts/build-dictionary.py` (sources in git-ignored `.cache/dictionary/`, commands in
+  its header); review decisions live in `docs/review/dictionary/decisions.json` (merge: `scripts/audit/
+  dictionary-decisions.py`). Never hand-edit words.json; course rows always take course values.
+
 ## Next step
-Build the 5,000-word Arabic dictionary (Left #0), modelled on Nihongo's `content/dictionary/words.json` +
-`src/content/dictionary.ts` + `src/app/dictionary.tsx`; then deploy both editions.
+Owner's choice: the round-4 reviewer notes (Left #2), the small leftovers (Left #3), branching role-play (Left #4),
+or move on to the next language module / combined app.

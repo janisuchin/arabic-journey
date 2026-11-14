@@ -9,6 +9,9 @@ const SOURCES: [string, string][] = [
   ['Ionicons (interface icons)', 'Ionic — MIT License'],
   ['Expo, React Native, expo-router', 'Expo / Meta — MIT License'],
   ['zustand, zod', 'MIT License'],
+  ['Dictionary words and meanings', 'English Wiktionary contributors via kaikki.org / Wiktextract — CC BY-SA 3.0 / GFDL'],
+  ['Dictionary word frequency', 'FrequencyWords by Hermit Dave (OpenSubtitles 2018) — CC BY-SA 4.0'],
+  ['5,000-word dictionary (content/dictionary)', 'Derived from the two above — CC BY-SA 4.0'],
   ['Course content', 'Arabic Journey — CC BY-NC 4.0'],
   ['App code', 'MIT License'],
 ];
